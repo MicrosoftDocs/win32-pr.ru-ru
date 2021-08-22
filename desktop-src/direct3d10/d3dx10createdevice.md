@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 38236a48cdd5197f7f19ef9be3f6fc0f1faca72c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9300eb74027d25562dabb9a596face10105110d1750b359bcaae9ab6b2b83084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634704"
 ---
 # <a name="d3dx10createdevice-function"></a>Функция D3DX10CreateDevice
 
@@ -94,7 +94,7 @@ HRESULT D3DX10CreateDevice(
 
 Эта функция возвращает один из следующих [кодов возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция пытается создать наилучшее устройство для оборудования. Во-первых, функция пытается создать устройство 10,1. Если не удается создать устройство 10,1, функция пытается создать устройство 10,0. Если ни одно из устройств не было успешно создано, функция возвращает \_ ошибку E.
 
@@ -104,7 +104,7 @@ HRESULT D3DX10CreateDevice(
 -   Используйте функцию [**D3D10CreateDevice1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdevice1) , чтобы создать только устройство Direct3D 10,1.
 -   Используйте функцию [**D3DX10GetFeatureLevel1**](d3dx10getfeaturelevel1.md) для получения указателя интерфейса [**ID3D10Device1**](/windows/desktop/api/D3D10_1/nn-d3d10_1-id3d10device1) из указателя интерфейса [**ID3D10Device**](/windows/desktop/api/D3D10/nn-d3d10-id3d10device) .
 
-Устройство Direct3D 10,1 можно создать только на компьютерах под управлением Windows Vista с пакетом обновления 1 (SP1) или более поздней версии и с установленным Direct3D 10,1-совместимым оборудованием. Однако допускается вызов этой функции на компьютерах под управлением любой версии Windows с установленной библиотекой DLL D3DX10.
+устройство Direct3D 10,1 можно создать только на компьютерах под управлением Windows Vista с пакетом обновления 1 (sp1) или более поздней версии, а также с установленным оборудованием, совместимым с Direct3D 10,1. однако допускается вызов этой функции на компьютерах, работающих под управлением любой версии Windows с установленной библиотекой DLL D3DX10.
 
 ## <a name="requirements"></a>Требования
 
@@ -112,7 +112,7 @@ HRESULT D3DX10CreateDevice(
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2af6cea0-6d93-4aa5-a708-d305f11986ef
 title: Таблицы базы данных модуля слияния
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a58240c589297cf2540625bc12180252efa42d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201b4af776ae0b68fd4330dca8240390e5731950fdaba5a734f48d887db5be84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580644"
 ---
 # <a name="merge-module-database-tables"></a>Таблицы базы данных модуля слияния
 
@@ -53,7 +53,7 @@ ms.locfileid: "105674157"
 | [модулеадминексекутесекуенце](moduleadminexecutesequence-table.md)     | Выполняет слияние действий в [таблицу админексекутесекуенце](adminexecutesequence-table.md).     |
 | [модулеадвтуисекуенце](moduleadvtuisequence-table.md)                 | Не используйте эту таблицу. Дополнительные сведения см. в разделе [адвтуисекуенце Table](advtuisequence-table.md). |
 | [модулеадвтексекутесекуенце](moduleadvtexecutesequence-table.md)       | Выполняет слияние действий в [таблицу адвтексекутесекуенце](advtexecutesequence-table.md).       |
-| [модулеигноретабле](moduleignoretable-table.md)                       | Содержит список таблиц в модуле, которые не объединены в MSI файл.                        |
+| [модулеигноретабле](moduleignoretable-table.md)                       | Перечисляет таблицы в модуле, которые не объединены в файл .msi.                        |
 | [модулеинсталлуисекуенце](moduleinstalluisequence-table.md)           | Выполняет слияние действий в [таблицу инсталлуисекуенце](installuisequence-table.md).           |
 | [модулеинсталлексекутесекуенце](moduleinstallexecutesequence-table.md) | Выполняет слияние действий в [таблицу инсталлексекутесекуенце](installexecutesequence-table.md). |
 
@@ -93,7 +93,7 @@ ms.locfileid: "105674157"
 -   [админуисекуенце](adminuisequence-table.md)
 -   [адвтексекутесекуенце](advtexecutesequence-table.md)
 -   [адвтуисекуенце](advtuisequence-table.md)
--   [AppId](appid-table.md)
+-   [ИД](appid-table.md)
 -   [аппсеарч](appsearch-table.md)
 -   [BindImage](bindimage-table.md)
 -   [CheckBox](checkbox-table.md)
@@ -118,7 +118,7 @@ ms.locfileid: "105674157"
 -   [инсталлуисекуенце](installuisequence-table.md)
 -   [ListBox](listbox-table.md)
 -   [ListView](listview-table.md)
--   [MIME](mime-table.md)
+-   [ФОРМАТА](mime-table.md)
 -   [MoveFile](movefile-table.md)
 -   [одбкаттрибуте](odbcattribute-table.md)
 -   [одбкдатасаурце](odbcdatasource-table.md)

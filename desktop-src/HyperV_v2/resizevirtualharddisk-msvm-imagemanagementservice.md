@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5fcd88a9063dcbe4e19705245b36af33672dfc5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b582a79757fdf5f27a3f71d260ec6ce7cb594c434422215fb898a2575691da39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754884"
 ---
 # <a name="resizevirtualharddisk-method-of-the-msvm_imagemanagementservice-class"></a>Метод Ресизевиртуалхарддиск \_ класса) мсвм
 
@@ -118,7 +118,7 @@ uint32 ResizeVirtualHardDisk(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С этим методом можно использовать только следующие типы виртуальных жестких дисков при увеличении размера виртуального жесткого диска:
 
@@ -179,8 +179,8 @@ public static void ResizeVirtualHardDisk(string path, UInt64 maxInternalSize)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

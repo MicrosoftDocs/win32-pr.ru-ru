@@ -59,7 +59,7 @@ protected override int Size { get; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

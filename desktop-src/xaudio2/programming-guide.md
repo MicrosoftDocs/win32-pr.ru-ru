@@ -4,12 +4,12 @@ description: В этом разделе перечислены обзорные 
 ms.assetid: 3d366a18-290d-5de8-4bcc-2178bd7c4c2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d39dc28be35f94909aacced8dfbdae935c9739e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d38ef3b6886cbc2f2d36a229ce61449b74d0e8b35350e925f994f25c0181ddf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926414"
 ---
 # <a name="xaudio2-programming-guide"></a>XAudio2 по программированию
 
@@ -26,7 +26,7 @@ ms.locfileid: "103999605"
 | <span id="Getting_Started"></span><span id="getting_started"></span><span id="GETTING_STARTED"></span>[начало работы](getting-started.md)<br/>                                    | Описывает настройку XAudio2 в игре.<br/>                                                                                         |
 | <span id="Voices"></span><span id="voices"></span><span id="VOICES"></span>[Голос](voices.md)<br/>                                                                                 | Описывает типы голосов XAudio2 и способы их использования.<br/>                                                                   |
 | <span id="Callbacks"></span><span id="callbacks"></span><span id="CALLBACKS"></span>[Обратные вызовы](callbacks.md)<br/>                                                                  | Предоставляет сведения о обратных вызовах, доступных для использования с XAudio2.<br/>                                                          |
-| <span id="Audio_Graph"></span><span id="audio_graph"></span><span id="AUDIO_GRAPH"></span>[Звуковая диаграмма](audio-graphs.md)<br/>                                                       | Описывает XAudio2 Audio Graph.<br/>                                                                                            |
+| <span id="Audio_Graph"></span><span id="audio_graph"></span><span id="AUDIO_GRAPH"></span>[Аудио Graph](audio-graphs.md)<br/>                                                       | Описывает XAudio2 Audio Graph.<br/>                                                                                            |
 | <span id="Audio_Effects"></span><span id="audio_effects"></span><span id="AUDIO_EFFECTS"></span>[Звуковые эффекты](audio-effects.md)<br/>                                              | Описывает использование эффектов обработки цифровых сигналов с XAudio2.<br/>                                                               |
 | <span id="Streaming_Audio_Data"></span><span id="streaming_audio_data"></span><span id="STREAMING_AUDIO_DATA"></span>[Потоковая передача звуковых данных](streaming-audio-data.md)<br/>           | Описывает, как выполнять потоковую передачу звука с диска с помощью XAudio2.<br/>                                                                      |
 | <span id="X3DAudio_Overview"></span><span id="x3daudio_overview"></span><span id="X3DAUDIO_OVERVIEW"></span>[Обзор X3DAudio](x3daudio.md)<br/>                                   | Описывает, как X3DAudio используется в сочетании с XAudio2 для создания иллюзии звука, поступающего из точки в трехмерном пространстве.<br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "103999605"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

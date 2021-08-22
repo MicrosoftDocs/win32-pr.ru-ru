@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 01c6b3c3ffe2de9b7c7003b78f1b07a0f35cc3a1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5c847d537eaa79b266ef785f40806c37e2503b2b9a8a97bf99a678c7dff219de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609524"
 ---
 # <a name="d3dxmatrixaffinetransformation-function-d3dx10mathh"></a>Функция D3DXMatrixAffineTransformation (D3DX10Math. h)
 
@@ -117,13 +117,13 @@ MT = матрица перевода (Птранслатион)
 
 Для двумерных преобразований 2D используйте D3DXMatrixAffineTransformation2D.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 

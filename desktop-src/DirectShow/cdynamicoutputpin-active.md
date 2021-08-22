@@ -59,7 +59,7 @@ HRESULT Active();
 
 Этот метод переопределяет метод [**кбасеаутпутпин:: Active**](cbaseoutputpin-active.md) . Он сбрасывает событие [**кдинамикаутпутпин:: m \_ хстопевент**](cdynamicoutputpin-m-hstopevent.md) . Если фильтр-владелец не вызвал **сетконфигинфо**, этот метод возвращает значение E \_ Fail.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ HRESULT Active();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

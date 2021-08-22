@@ -4,12 +4,12 @@ ms.assetid: 0ec57083-b192-404a-938f-bc6bb1cf0ddb
 title: Шаг 3B. Реализация метода Жетмедиатипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab3ee41c6740fc2914f943784c0d51116f90428
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f386c16e3166f910e8221d139af519363d1b49279a412603e0cfddfa41773ede
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104547359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583114"
 ---
 # <a name="step-3b-implement-the-getmediatype-method"></a>Шаг 3B. Реализация метода Жетмедиатипе
 
@@ -71,11 +71,11 @@ HRESULT CRleFilter::GetMediaType(int iPosition, CMediaType *pMediaType)
 
 Далее. [шаг 3c. Реализация метода чекктрансформ](step-3c--implement-the-checktransform-method.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 8e2d7c8d-5734-49aa-ad29-16d4d32cccb4
 title: Таблица условий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74d9a3c27d43b7d71bc8e5b0593771bc86a3ca4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09d9ccb265d69f99a58e155657a0e9d058ba61a920088184ec2b67c3e4506a0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926964"
 ---
 # <a name="condition-table"></a>Таблица условий
 
@@ -21,9 +21,9 @@ ms.locfileid: "103990926"
 
 | Столбец    | Type                         | Ключ | Допускает значения NULL |
 |-----------|------------------------------|-----|----------|
-| Функция\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| Level     | [Integer](integer.md)       | Да   | Нет        |
-| Условие | [Condition](condition.md)   | Нет   | Да        |
+| Компонент\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| Уровень     | [Integer](integer.md)       | Д   | Нет        |
+| Условие | [Condition](condition.md)   | Нет   | Д        |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "103990926"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Компонент можно навсегда отключить, установив для столбца Level значение 0.
 

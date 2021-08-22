@@ -4,18 +4,18 @@ ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: Запись ТВ-звука
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 138ce631aedf12ddfb52be92d08ffb47da0cbdec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d699533480bdeaaa528e362c0773e9df8100fda3dc2195a65c055ae7f7d5bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641014"
 ---
 # <a name="capturing-tv-audio"></a>Запись ТВ-звука
 
 Чтобы записать звук из аналогового телевидения в файл, используйте [фильтр записи звука](audio-capture-filter.md). Используйте перечислитель системных устройств для создания фильтра записи звука. В системе пользователя может быть несколько устройств записи звука. пользователь должен выбрать устройство, представляющее звуковую карту.
 
-Подключите выходную закрепление записи звука к фильтру мультиплексора:
+Подключение закрепить выходные данные записи звука в фильтре мультиплексора:
 
 
 ```C++
@@ -62,7 +62,7 @@ pEnum->Release();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

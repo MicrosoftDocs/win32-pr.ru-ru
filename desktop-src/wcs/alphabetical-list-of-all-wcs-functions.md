@@ -1,10 +1,10 @@
 ---
 title: Алфавитный список всех функций WCS
-description: Ниже приведен полный алфавитный список функций API-интерфейса WCS 1,0, предоставляемых Windows \ 160; 98 и более поздних версий и Windows \ 160; 2000 и более поздних версий.
+description: ниже приведен полный алфавитный список функций API-интерфейса WCS 1,0, предоставляемых Windows \ 160; 98 и более поздних версий и Windows \ 160; 2000 и более поздних версий.
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
-- Цветовая система Windows (WCS), функции
-- WCS (цветовая система Windows), функции
+- Windows Система цветовой системы (WCS), функции
+- WCS (Windows цветовая система), функции
 - Управление цветом изображений, функции
 - Управление цветом, функции
 - цвета, функции
@@ -13,16 +13,16 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b70208c1f1f7d87b4f5cd6f4a14f3f22e0bc2f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 18e2c9250cc9fb1e9e418079ed3b9524b3add2535dd780eed65ae998bda80ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706664"
 ---
 # <a name="alphabetical-list-of-all-wcs-functions"></a>Алфавитный список всех функций WCS
 
-Ниже приведен полный алфавитный список функций API WCS 1,0, предоставляемых Windows 98 и более поздних версий, а также Windows 2000 и более поздних версий.
+ниже приведен полный алфавитный список функций API-интерфейса WCS 1,0, предоставляемых Windows 98 и более поздних версий и Windows 2000 и более поздних версий.
 
 
 
@@ -50,9 +50,9 @@ ms.locfileid: "105720811"
 | [**кмделететрансформ**](/windows/win32/api/icm/nf-icm-cmdeletetransform) | Удаляет указанное преобразование цвета и освобождает память, связанную с ней. |
 | [**кмжетинфо**](/windows/win32/api/icm/nf-icm-cmgetinfo) | Получает различные сведения о модуле управления цветом (CMM). |
 | [**кмжетнамедпрофилеинфо**](/windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo) | Извлекает сведения об указанном именованном профиле цвета. |
-| [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/)           | Возвращает словарь визуализации цвета PostScript.                                                                                                        |
-| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | Извлекает из профиля [Цель отрисовки](rendering-intents.md) цвета PostScript уровня 2. |
-| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | Возвращает массив цветовых пространств PostScript.                                                                                                                 |
+| [**CMGetPS2ColorRenderingDictionary**](/windows/desktop/api/Wingdi/)           | возвращает PostScript словарь отрисовки цвета.                                                                                                        |
+| [**CMGetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | возвращает [цель визуализации](rendering-intents.md) цвета уровня 2 PostScript из профиля. |
+| [**CMGetPS2ColorSpaceArray**](/windows/desktop/api/Wingdi/)                             | возвращает массив PostScript цветового пространства.                                                                                                                 |
 | [**кмиспрофилевалид**](/windows/win32/api/icm/nf-icm-cmisprofilevalid) | Сообщает, является ли данный профиль допустимым ICC-профилем, который можно использовать для управления цветом. |
 | [**кмтранслатеколорс**](/windows/win32/api/icm/nf-icm-cmtranslatecolors) | Преобразует массив цветов из исходного [цветового](color-spaces.md) пространства в целевое цветовое пространство с помощью преобразования цвета. |
 | [**кмтранслатергб**](/windows/win32/api/icm/nf-icm-cmtranslatergb) | Преобразует передаваемые приложением Ргбкуад в [цветовое пространство](color-spaces.md)устройства. |
@@ -74,7 +74,7 @@ ms.locfileid: "105720811"
 | [**енумикмпрофилес**](/windows/desktop/api/Wingdi/nf-wingdi-enumicmprofilesa)                                             | Перечисляет цветовые профили вывода, доступные для данного контекста устройства.                                                                               |
 | [**енумикмпрофилеспроккаллбакк**](/windows/desktop/api/Wingdi/)                     | Определяемая приложением функция обратного вызова для [**енумикмпрофилес**](/windows/desktop/api/Wingdi/nf-wingdi-enumicmprofilesa).                                                                |
 | [**жеткмминфо**](/windows/win32/api/icm/nf-icm-getcmminfo) | Получает различные сведения о модуле управления цветом (CMM), который создал заданное преобразование цвета. |
-| [**жетколордиректорив**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | Извлекает путь к каталогу цветов Windows на указанном компьютере. |
+| [**жетколордиректорив**](/windows/win32/api/icm/nf-icm-getcolordirectoryw) | возвращает путь к Windowsному каталогу цветов на указанном компьютере. |
 | [**жетколорпрофилилемент**](/windows/win32/api/icm/nf-icm-getcolorprofileelement) | Копирует данные из указанного элемента профиля с меткой указанного цветового профиля в буфер. |
 | [**жетколорпрофилилементтаг**](/windows/win32/api/icm/nf-icm-getcolorprofileelementtag) | Извлекает имя тега, заданное параметром *двиндекс* , в таблице тегов данного профиля цвета ICC, где *двиндекс* — это Отсчитываемый от единицы индекс в таблице. |
 | [**жетколорпрофилефромхандле**](/windows/win32/api/icm/getcolorprofilefromhandle)                         | Извлекает содержимое профиля цвета, заданное маркером, для открытого цветового профиля.                                                                        |
@@ -85,16 +85,16 @@ ms.locfileid: "105720811"
 | [**жетикмпрофиле**](/windows/desktop/api/Wingdi/nf-wingdi-geticmprofilea)                                                 | Возвращает текущий выходной цветовой профиль контекста устройства.                                                                                           |
 | [**жетлогколорспаце**](/windows/desktop/api/Wingdi/nf-wingdi-getlogcolorspacea)                                           | Возвращает структуру [**логколорспаце**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) контекста устройства.                                                                       |
 | [**жетнамедпрофилеинфо**](/windows/win32/api/icm/nf-icm-getnamedprofileinfo) | Извлекает сведения о цветном профиле ICC, который указан в первом параметре. |
-| [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | Извлекает словарь рендеринга цвета 2 уровня PostScript из указанного профиля цвета ICC. |
-| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | Получает [Цель отрисовки](r.md) цвета 2 PostScript из профиля цвета ICC. |
-| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | Извлекает массив [цветового пространства](c.md) уровня 2 для PostScript из профиля цвета ICC. |
+| [**GetPS2ColorRenderingDictionary**](/windows/win32/api/icm/nf-icm-getps2colorrenderingdictionary) | извлекает словарь рендеринга цветов уровня 2 PostScript из указанного профиля ICC. |
+| [**GetPS2ColorRenderingIntent**](/windows/win32/api/icm/nf-icm-getps2colorrenderingintent) | возвращает [цель визуализации](r.md) цвета уровня 2 PostScript из профиля ICC. |
+| [**GetPS2ColorSpaceArray**](/windows/win32/api/icm/nf-icm-getps2colorspacearray) | извлекает массив [цветового пространства](c.md) PostScript уровня 2 из профиля цвета ICC. |
 | [**жетстандардколорспацепрофилев**](/windows/win32/api/icm/nf-icm-getstandardcolorspaceprofilew) | Извлекает цветовой профиль, зарегистрированный для указанного стандартного [цветового пространства](c.md). |
 | [**икмпрогресспроккаллбакк**](icmprogressproccallback.md)                             | Предоставляемый приложением обратный вызов для отчета о ходе выполнения.                                                                                                    |
 | [**инсталлколорпрофилев**](/windows/win32/api/icm/nf-icm-installcolorprofilew) | Устанавливает заданный профиль для использования на указанном компьютере. Профиль также копируется в каталог цветов. |
 | [**исколорпрофилетагпресент**](/windows/win32/api/icm/nf-icm-iscolorprofiletagpresent) | Сообщает, имеется ли в указанном цвете профиль указанный тег ICC. |
-| [**исколорпрофилевалид**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | Позволяет определить, является ли указанный профиль допустимым профилем ICC, или допустимым маркером профиля цветовой системы Windows (WCS), который можно использовать для управления цветом. |
+| [**исколорпрофилевалид**](/windows/win32/api/icm/nf-icm-iscolorprofilevalid) | позволяет определить, является ли указанный профиль допустимым (ICC), или допустимым маркером профиля Windows цветовой системы (WCS), который можно использовать для управления цветом. |
 | [**опенколорпрофилев**](/windows/win32/api/icm/nf-icm-opencolorprofilew) | Создает маркер для указанного цветового профиля. Затем этот маркер можно использовать в других функциях управления профилями. |
-| [**регистеркммв**](/windows/win32/api/icm/nf-icm-registercmmw) | Связывает указанное идентификационное значение с заданной библиотекой динамической компоновки модуля управления цветом (библиотека DLL CMM). Если этот идентификатор отображается в цветом профиле, Windows может затем выбрать соответствующий CMM, чтобы создать преобразование. |
+| [**регистеркммв**](/windows/win32/api/icm/nf-icm-registercmmw) | Связывает указанное идентификационное значение с заданной библиотекой динамической компоновки модуля управления цветом (библиотека DLL CMM). если этот идентификатор отображается в цветом профиле, Windows можете выбрать соответствующий CMM, чтобы создать преобразование. |
 | [**селекткмм**](/windows/win32/api/icm/nf-icm-selectcmm) | Позволяет выбрать предпочтительный модуль управления цветом (CMM) для использования. |
 | [**сетколорпрофилилемент**](/windows/win32/api/icm/nf-icm-setcolorprofileelement) | Задает данные элемента для элемента профиля с тегом в цветном профиле ICC. |
 | [**сетколорпрофилилементреференце**](/windows/win32/api/icm/nf-icm-setcolorprofileelementreference) | Создает в указанном цвете ICC профиль нового тега, который ссылается на те же данные, что и существующий тег. |

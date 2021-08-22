@@ -14,12 +14,12 @@ keywords:
 - волна Audio, функция PlaySound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 256feded06de4ee92ee415f14bb08adc7fb4456e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6388f9800f93080e995ae537c2458a22da033ab2149b4bfca114c25025d97434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688694"
 ---
 # <a name="simple-audio-playback"></a>Простое воспроизведение звука
 
@@ -35,7 +35,7 @@ ms.locfileid: "103987430"
 
 
 
- 
+ 
 
 Функция **мессажебип** является стандартной частью API Win32. так как его возможности очень ограничены и описаны в других местах, это не рассматривается здесь.
 
@@ -50,6 +50,6 @@ ms.locfileid: "103987430"
 
 Для больших звуковых файлов используйте службы интерфейса управления мультимедиа (MCI). Дополнительные сведения см. в разделе [MCI](mci.md).
 
- 
+ 
 
- 
+ 

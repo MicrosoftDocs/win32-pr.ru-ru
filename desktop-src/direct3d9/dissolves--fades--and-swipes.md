@@ -4,12 +4,12 @@ ms.assetid: 6203922f-9594-4e5c-9baa-8b27ac30978f
 title: Разрешается, исчезание и прокрутка (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2ad837ea846ca43d61102ce426d415270d2f27f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fc6d6df834ad19fa4b00b6e4706d0884227bc4af33c6a25ec09cba14757e1248
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607464"
 ---
 # <a name="dissolves-fades-and-swipes-direct3d-9"></a>Разрешается, исчезание и прокрутка (Direct3D 9)
 
@@ -27,7 +27,7 @@ ms.locfileid: "103806293"
 
 Скольжение как эффект несколько более сложен чем рассеивание, так как приложению нужно считывать пиксели конечного изображения в порядке обратном направлению скольжения. То есть, если скольжение идет слева направо, приложение должно считывать пиксели конечного изображения справа налево.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,9 +1,9 @@
 ---
 title: Сообщение WM_DDE_ACK (DDE. h)
-description: 'Сообщение WM \_ DDE \_ ACK уведомляет о приложении платформа динамических данных Exchange (DDE) о получении и обработке следующих сообщений: приложение WM \_ DDE \_ , выполнение WM DDE, \_ \_ Данные WM \_ DDE, приложение \_ WM \_ DDE \_ advise, WM DDE unadvise \_ , \_ WM \_ DDE \_ INITIATE или \_ \_ запрос на DDE WM (в некоторых случаях). Чтобы опубликовать это сообщение, вызовите функцию почтовых сообщений со следующими параметрами.'
+description: 'сообщение wm \_ dde \_ ACK уведомляет приложение платформа динамических данных Exchange (dde) о получении и обработке следующих сообщений: приложения wm \_ dde \_ , \_ EXECUTE dde- \_ выполнение, данные, которые работают с \_ dde \_ , wm \_ dde \_ ADVISE, wm \_ dde \_ unadvise, wm \_ dde, \_ инициация или \_ запрос dde \_ (в некоторых случаях). Чтобы опубликовать это сообщение, вызовите функцию почтовых сообщений со следующими параметрами.'
 ms.assetid: aca47dbf-e1f2-4725-8364-0aa7fcd98bd9
 keywords:
-- Обмен данными с сообщениями WM_DDE_ACK
+- WM_DDE_ACK Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a407fc6cad7077586539f119dd65be59a507cacd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf1aad39115e1bdb68208a9ccbb0d83eea934ef2ff8c6521a0602e081c7ed811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636244"
 ---
 # <a name="wm_dde_ack-message"></a>\_Сообщение WM DDE \_ ACK
 
-Сообщение **WM \_ DDE \_ ACK** уведомляет приложение платформа динамических данных Exchange (DDE) о получении и обработке следующих сообщений: [**WM \_ DDE \_**](wm-dde-poke.md), [**\_ \_ выполнение WM DDE**](wm-dde-execute.md), [**\_ \_ Данные WM DDE**](wm-dde-data.md), приложение [**WM \_ DDE \_ advise**](wm-dde-advise.md), приложение [**WM \_ DDE \_ unadvise**](wm-dde-unadvise.md), приложение [**WM \_ DDE \_ INITIATE**](wm-dde-initiate.md)или [**\_ \_ запрос на DDE WM**](wm-dde-request.md) (в некоторых случаях).
+сообщение **wm \_ dde \_ ACK** уведомляет приложение платформа динамических данных Exchange (dde) о получении и обработке следующих сообщений: [**WM \_ dde \_**](wm-dde-poke.md), [**\_ \_ выполнение wm dde**](wm-dde-execute.md), [**\_ \_ данные wm dde**](wm-dde-data.md), приложение [**wm \_ dde \_ ADVISE**](wm-dde-advise.md), приложение [**wm \_ dde \_ unadvise**](wm-dde-unadvise.md), приложение [**wm \_ dde \_ INITIATE**](wm-dde-initiate.md)или [**\_ \_ запрос на dde wm**](wm-dde-request.md) (в некоторых случаях).
 
 Чтобы опубликовать это сообщение, вызовите функцию почтовых [**сообщений**](/windows/desktop/api/winuser/nf-winuser-postmessagea) со следующими параметрами.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104071544"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="posting"></a>Товаров
 
@@ -90,7 +90,7 @@ ms.locfileid: "104071544"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>DDE. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Dde. h (включает Windows. h)</dt> </dl> |
 
 
 

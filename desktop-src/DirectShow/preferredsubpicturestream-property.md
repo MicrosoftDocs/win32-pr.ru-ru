@@ -4,17 +4,17 @@ ms.assetid: 9c15dc6f-c016-41bf-b03d-e8e5415215ae
 title: Преферредсубпиктурестреам, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23377d74d3632c665b001ae415dc151ca73bd148
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e28b98163607e31a207bffb3974fee3b32505ff60ba3700b452b2dff2625f421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583544"
 ---
 # <a name="preferredsubpicturestream-property"></a>Преферредсубпиктурестреам, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "103894641"
 
 Возвращает целочисленное значение, представляющее текущий предпочтительный поток субтитров в системном реестре.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Предпочтительный поток субтитров задается с помощью [**дефаултсубпиктурелЦид**](defaultsubpicturelcid-property.md)объекта [мсдвдадм](msdvdadm-object.md) .
 

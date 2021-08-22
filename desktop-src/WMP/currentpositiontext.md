@@ -3,7 +3,7 @@ title: куррентпоситионтекст
 description: Это стандартный текстовый элемент со следующими значениями по умолчанию. | куррентпоситионтекст
 ms.assetid: 00574ead-85f2-4321-9e4e-2836be058e8c
 keywords:
-- КУРРЕНТПОСИТИОНТЕКСТ Windows Media Player
+- куррентпоситионтекст проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b5b402e7eadce8a0d89856d99e84a53dd57a1a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f869cb40d8b85ac480ed336b03f2ff94010c0e4a51f35101aa414d1e55e039da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651614"
 ---
 # <a name="currentpositiontext"></a>куррентпоситионтекст
 
@@ -30,21 +30,21 @@ tabstop="true"
 justification="right"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При этом будет создан **текстовый** элемент, в котором будет отображаться текущее время воспроизведения мультимедиа. Все свойства этого **текстового** элемента можно переопределить, явно указав их.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 7,0 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 7,0 или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

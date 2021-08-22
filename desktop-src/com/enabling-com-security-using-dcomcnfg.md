@@ -4,12 +4,12 @@ description: Программа Dcomcnfg.exe предоставляет поль
 ms.assetid: 9aad6b71-47b8-4377-88e5-f463991d9e86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c01139584b715fccdad923bc5eb3d6a863a63ef8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d6161cf7418e7eab705203df51710e789ad2ef7d6843051dd35399fb8388f27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678694"
 ---
 # <a name="enabling-com-security-using-dcomcnfg"></a>Включение безопасности COM с помощью DCOMCNFG
 
@@ -25,14 +25,14 @@ ms.locfileid: "105691168"
 > [!Note]  
 > Для запуска Dcomcnfg.exe требуются права администратора.
 
- 
+ 
 
 В следующих разделах приводятся пошаговые инструкции по настройке безопасности с помощью Dcomcnfg.exe.
 
 -   [Настройка безопасности System-Wide с помощью DCOMCNFG](setting-machine-wide-security-using-dcomcnfg.md)
 -   [Настройка безопасности Процессвиде с помощью DCOMCNFG](setting-processwide-security-using-dcomcnfg.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -42,9 +42,9 @@ ms.locfileid: "105691168"
 [Отключение безопасности](turning-off-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

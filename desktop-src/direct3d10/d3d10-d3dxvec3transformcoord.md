@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 5b3e763d87503f9ca71911ad40ccf3c6ae9ca722
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b50c6680a52ef64e46e8dace325f124362e4efa79576e0d386c445a3766bf943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729914"
 ---
 # <a name="d3dxvec3transformcoord-function-d3dx10mathh"></a>Функция D3DXVec3TransformCoord (D3DX10Math. h)
 
@@ -86,11 +86,11 @@ D3DXVECTOR3* D3DXVec3TransformCoord(
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

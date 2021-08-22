@@ -79,7 +79,7 @@ _stprintf_s(
 
 Устройства могут распознать различные форматы изображений. Windows битовая карта, не зависящая от устройства, всегда распознается.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ _stprintf_s(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

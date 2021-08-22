@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: f4f97bdae8646d3a4d683bb5b87bf72efb4c5a5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2e0b77e0c68864b068f9c5476ca117ca039224a709ebcad83b22f31f908c26d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541564"
 ---
 # <a name="pstoreenumproviders-function"></a>Функция Псторинумпровидерс
 
-\[Защищенное хранилище (PStore) доступно для использования в Windows Server 2003 и Windows XP. Она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
+\[защищенные служба хранилища (Pstore) доступны для использования в Windows Server 2003 и Windows XP. она доступна только для операций чтения в Windows Server 2008 и Windows Vista, но может быть недоступна в последующих версиях. PStore использует старую реализацию защиты данных. Разработчикам настоятельно рекомендуется использовать преимущества более надежной защиты данных, предоставляемые функциями [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) и [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) .\]
 
 Возвращает объект перечислителя, который можно использовать, в свою очередь, для перечисления поставщиков защищенного хранилища, установленных в данный момент в системе.
 
@@ -60,7 +60,7 @@ HRESULT PStoreEnumProviders(
 
 Эта функция возвращает **значение HRESULT**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Компонент защищенного хранилища имеет архитектуру на основе поставщика. Приложения, использующие защищенное хранилище, могут указывать, какой из установленных поставщиков следует использовать при хранении и извлечении данных.
 
@@ -76,12 +76,12 @@ HRESULT PStoreEnumProviders(
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>PStore. h</dt> </dl>    |
+| Заголовок<br/> | <dl> <dt>PStore. h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

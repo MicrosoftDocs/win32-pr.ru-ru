@@ -3,8 +3,8 @@ title: Перечисление MP_PERSISTENCE_LIMIT_TYPE (Мпклиент. h)
 description: Тип ограничения сохраняемости.
 ms.assetid: 57423110-7966-4240-8B15-1859D3D9EA4C
 keywords:
-- MP_PERSISTENCE_LIMIT_TYPE перечисления устаревшие функции среды Windows
-- PMP_PERSISTENCE_LIMIT_TYPE указателя перечисления устаревшие функции среды Windows
+- MP_PERSISTENCE_LIMIT_TYPE перечисления устаревших Windows компонентов среды
+- PMP_PERSISTENCE_LIMIT_TYPEные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fb52bc6ee630590ca189b88c1fdde5a30e17747
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2a56d4962467abe0ad338af257aca2581e612c100468fbdf2853aa4d71290ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609004"
 ---
 # <a name="mp_persistence_limit_type-enumeration"></a>\_ \_ Перечисление типов пределов СОХРАНЯЕМости MP \_
 
@@ -88,15 +88,15 @@ typedef enum tagMP_PERSISTENCE_LIMIT_TYPE {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

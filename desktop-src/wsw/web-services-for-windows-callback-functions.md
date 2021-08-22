@@ -1,5 +1,5 @@
 ---
-title: Функции обратного вызова веб-служб Windows
+title: Windows Функции обратного вызова веб-служб
 description: Обратные вызовы позволяют приложению вызывать функцию, определенную на другом уровне или слое.
 ms.assetid: 7398ec42-388a-494c-9fe4-5bd62aa009cb
 keywords:
@@ -7,18 +7,18 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a385ca21d00e8845f89bda0d9b04221a922ba421
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a78bce5c4023d889748af103148088462cb4b267192b1c0b3845fc735fd1bb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926874"
 ---
-# <a name="windows-web-services-callback-functions"></a>Функции обратного вызова веб-служб Windows
+# <a name="windows-web-services-callback-functions"></a>Windows Функции обратного вызова веб-служб
 
 Обратные вызовы позволяют приложению вызывать функцию, определенную на другом уровне или слое. Приложение регистрирует аргумент функции в качестве обработчика, который будет вызываться асинхронно позже, как требуется. Обратный вызов вызывается, если функция завершается асинхронно, указывая на успешность или ошибку функции. Обратный вызов не вызывается, если операция завершается синхронно.
 
-API веб-служб Windows включает следующие функции обратного вызова:
+API Windows веб-служб включает следующие функции обратного вызова:
 
 -   [**\_ \_ \_ обратный вызов сообщения WS**](/windows/desktop/api/WebServices/nc-webservices-ws_abandon_message_callback)
 -   [**\_ \_ обратный вызов канала WS Abort \_**](/windows/desktop/api/WebServices/nc-webservices-ws_abort_channel_callback)
@@ -83,9 +83,9 @@ API веб-служб Windows включает следующие функции
 -   [**\_ \_ \_ обратный вызов для запуска \_ сообщения записи WS**](/windows/desktop/api/WebServices/nc-webservices-ws_write_message_start_callback)
 -   [**\_ \_ обратный вызов типа записи WS \_**](/windows/desktop/api/WebServices/nc-webservices-ws_write_type_callback)
 
- 
+ 
 
- 
+ 
 
 
 

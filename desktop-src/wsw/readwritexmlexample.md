@@ -1,6 +1,6 @@
 ---
 title: реадвритексмлексампле
-description: Ознакомьтесь с примером чтения и записи XML, использующей API веб-служб Windows (ВВСАПИ). Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.
+description: ознакомьтесь с примером чтения и записи XML, использующей Windows API веб-служб (ввсапи). Этот пример записывает XML-код в XML-буфер, а затем считывает его обратно.
 ms.assetid: e9802e3c-c8a0-4b68-bba5-cdafb7250298
 keywords:
 - Веб-службы Реадвритексмлексампле для Windows
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3d83230f690098958ea396e830aaa54dace1f73
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d10ce422a8a5406c13974404353166d695f82ff978d87e838c56d0ceda353381
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545794"
 ---
 # <a name="readwritexmlexample"></a>реадвритексмлексампле
 

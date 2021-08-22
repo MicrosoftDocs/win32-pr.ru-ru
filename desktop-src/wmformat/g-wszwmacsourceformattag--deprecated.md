@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACSourceFormatTag (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMACSourceFormatTag (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMACSourceFormatTag (Вмкодекдсп. h)
 ms.assetid: c1ceb8e8-20d2-4dda-a47d-2c23df49d66f
 keywords:
 - g_wszWMACSourceFormatTag формат Windows Media
@@ -14,24 +14,24 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eec922e9d8a2e5f79bd5ffee4c92f0704a274131
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7cca6de6531db488997c54cb1ad31c73ceba017a13b4d505d9747e348b98c69c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658734"
 ---
 # <a name="g_wszwmacsourceformattag"></a>g \_ всзвмаксаурцеформаттаг
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

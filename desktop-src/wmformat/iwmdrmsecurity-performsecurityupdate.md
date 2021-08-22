@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a34a1e92edd279655737a2e8f3b7ce4e77e27fd5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8521497c1e2bca1bb2ae11349a4829c22c8b092a4cd0034008b314a7b69adb6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707904"
 ---
 # <a name="iwmdrmsecurityperformsecurityupdate-method"></a>Ивмдрмсекурити: метод:P Ерформсекуритюпдате
 
@@ -51,7 +51,7 @@ HRESULT PerformSecurityUpdate(
 
 
 
-| Flag                                          | Описание                                                                                     |
+| Флаг                                          | Описание                                                                                     |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------|
 | безопасность WMDRM. \_ \_ выполнение \_ индив               | Вызывает индивидуальную установку компонента DRM, только если версия клиента устарела. |
 | \_Безопасность WMDRM \_ выполнить \_ Обновление отзыва \_ | Приводит к обновлению списков отзыва на клиентском компьютере.                               |
@@ -84,7 +84,7 @@ HRESULT PerformSecurityUpdate(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод выполняется асинхронно. Он возвращает сразу после вызова, а затем создает события в зависимости от флага, установленного в параметре *dwFlags* .
 
@@ -97,7 +97,7 @@ HRESULT PerformSecurityUpdate(
 
  
 
-Дополнительные сведения об использовании асинхронных методов расширенных API-интерфейсов клиента DRM Windows Media см. [в разделе Использование модели событий Media Foundation](using-the-media-foundation-model.md).
+дополнительные сведения об использовании асинхронных методов расширенных api-интерфейсов Windows Media DRM Client см. [в разделе использование модели событий Media Foundation](using-the-media-foundation-model.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -105,7 +105,7 @@ HRESULT PerformSecurityUpdate(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Сообщение PSM_APPLY (Пршт. h)
 description: Имитирует выбор кнопки Применить, указывающей на то, что одна или несколько страниц изменились, а изменения должны быть проверены и записаны.
 ms.assetid: 2948fb66-ad77-4552-88b6-455418515e4c
 keywords:
-- Элементы управления Windows для PSM_APPLY сообщений
+- элементы управления Windows сообщений PSM_APPLY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d798d4a9a2f780ac81cc84c90a57d0efd4e299
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f753eb2465ec835f467493bdbd83d10b8ba174b11c83abffcb91d20f8beba002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544164"
 ---
 # <a name="psm_apply-message"></a>ПСМ \_ Применить сообщение
 
@@ -47,7 +47,7 @@ ms.locfileid: "103892381"
 
 Возвращает **значение true** , если изменения успешно применены ко всем страницам, или **значение false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Страница свойств отправляет код уведомления [PSN \_ киллактиве](psn-killactive.md) на текущую страницу. Если текущая страница возвращает **значение false**, страница свойств отправляет [PSN \_ Применить](psn-apply.md) код уведомления ко всем активным страницам. Сообщение ПСМ Apply можно отправить \_ явным образом или с помощью макроса [**пропшит \_ Apply**](/windows/desktop/api/Prsht/nf-prsht-propsheet_apply) .
 
@@ -56,15 +56,15 @@ ms.locfileid: "103892381"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

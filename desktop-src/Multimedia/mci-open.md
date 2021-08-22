@@ -202,7 +202,7 @@ MCIERROR mciSendCommand(
 
 Для устройств с аудио-волнами параметр *лпопен* указывает на структуру [**MCI \_ Wave \_ Open \_ пармс**](mci-wave-open-parms.md) . Драйвер МЦИВАВЕ требует наличия асинхронного устройства аудио-сигнала.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -214,7 +214,7 @@ MCIERROR mciSendCommand(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

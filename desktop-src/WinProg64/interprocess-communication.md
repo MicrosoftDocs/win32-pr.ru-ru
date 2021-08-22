@@ -3,15 +3,15 @@ title: Межпроцессное взаимодействие
 description: Для обмена данными между 32-разрядными и 64-разрядными приложениями можно использовать следующие методы.
 ms.assetid: 9a60ccfe-4ccf-44d7-9522-42609d95217b
 keywords:
-- межпроцессное взаимодействие 64-разрядное программирование для Windows
+- программирование межпроцессного взаимодействия 64-bit Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2398174f011127973dfd0b1773e6eb040cdde898
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5089440caf6ac537a314e7e920796fadeac5817220ba91f283c297bd0451b705
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734124"
 ---
 # <a name="interprocess-communication-between-32-bit-and-64-bit-applications"></a>Межпроцессное взаимодействие между 32-разрядными и 64-разрядными приложениями
 
@@ -25,6 +25,6 @@ ms.locfileid: "104413348"
 
 64-разрядный исполняемый файл, расположенный в папке% WINDIR% \\ System32, не может быть запущен из 32-разрядного процесса, так как перенаправитель файловой системы перенаправит путь. Для этого не следует отключать перенаправление. Используйте вместо него% WINDIR% \\ сиснативе. Дополнительные сведения см. в разделе [перенаправитель файловой системы](file-system-redirector.md).
 
- 
+ 
 
- 
+ 

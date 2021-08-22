@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f07300f1fe0696e3f53b5db9380126f280dd1fb3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c9b0eead66ec13ca1f003f64eb0ffb0238b430c8c74576884bd54dd8896596e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552994"
 ---
 # <a name="ms-dns-rfc5011-key-rollovers-attribute"></a>атрибут MS-DNS-RFC5011-Key-ролловеры
 
@@ -36,7 +36,7 @@ ms.locfileid: "104536299"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2135              |
 | System-ID — GUID    | 27d93c40-065a-43c0-bdd8-cdf2c7d120aa |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -52,10 +52,10 @@ ms.locfileid: "104536299"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет                                    |
+| Является однозначным       | Верно                                     |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | \-                                       |
 | Range-Upper            | \-                                       |

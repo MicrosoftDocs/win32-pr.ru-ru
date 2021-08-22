@@ -44,7 +44,7 @@ BOOL GetGLLines();
 
 Возвращает **значение true** , если линии в стиле OpenGL включены, и **значение false** , если линии в стиле Direct3D включены.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ BOOL GetGLLines();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

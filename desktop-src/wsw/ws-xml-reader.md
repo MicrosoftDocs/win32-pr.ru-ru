@@ -6,12 +6,12 @@ keywords:
 - WS_XML_READER
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5199399a496d38ff0b2ae4a067d4b75fc2664282
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0a603ab3870abb015b6fdef05da27dbbbe807d9a23f0713f3f672b4823256554
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707224"
 ---
 # <a name="ws_xml_reader"></a>\_ \_ модуль чтения XML WS
 
@@ -24,7 +24,7 @@ typedef struct _WS_XML_READER WS_XML_READER;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект не является потокобезопасным. Дополнительные сведения см. в статье [безопасность потоков](thread-safety.md).
 
@@ -34,9 +34,9 @@ typedef struct _WS_XML_READER WS_XML_READER;
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
 
 
 

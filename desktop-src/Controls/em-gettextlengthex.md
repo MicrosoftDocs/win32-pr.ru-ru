@@ -3,7 +3,7 @@ title: Сообщение EM_GETTEXTLENGTHEX (RichEdit. h)
 description: Вычисляет длину текста различными способами. Обычно он вызывается перед созданием буфера для получения текста из элемента управления.
 ms.assetid: 42c89b7b-e48d-4517-9993-ce58ff9e4e40
 keywords:
-- Элементы управления Windows для EM_GETTEXTLENGTHEX сообщений
+- элементы управления Windows сообщений EM_GETTEXTLENGTHEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de2d91674e07ef60c2ce95535983a31cf380f9e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba6cf0a094edc2288dbeae6f735e8c10fb72f943f99f9a41b15fc1ef3136168d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540943"
 ---
 # <a name="em_gettextlengthex-message"></a>\_Сообщение ЖЕТТЕКСТЛЕНГСЕКС EM
 
@@ -47,23 +47,23 @@ ms.locfileid: "103891833"
 
 Сообщение возвращает количество элементов **TCHAR** в элементе управления "поле ввода" в зависимости от настроек флагов в структуре [**жеттекстленгсекс**](/windows/desktop/api/Richedit/ns-richedit-gettextlengthex) . Если в элементе **flags** заданы несовместимые флаги, сообщение возвращает E \_ INVALIDARG.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение позволяет быстро и просто определить количество символов в версии элемента управления Rich Edit в Юникоде. Однако для целевой кодовой страницы, отличной от Юникода, возможно преобразование в сочетание однобайтовых и двухбайтовых символов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

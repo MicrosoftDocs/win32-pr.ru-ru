@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 8441bfe4c5d965733a40816ff2def1015f3eb79c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 75723819ab7a4f82f25a68dfc2f0017e8b871130a8e0fbe70c939a95de221426
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753104"
 ---
 # <a name="id3dx10meshdrawsubset-method"></a>ID3DX10Mesh: метод:D Равсубсет
 
@@ -65,12 +65,12 @@ HRESULT DrawSubset(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

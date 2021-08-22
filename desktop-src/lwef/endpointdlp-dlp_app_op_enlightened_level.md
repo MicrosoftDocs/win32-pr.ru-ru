@@ -62,7 +62,7 @@ typedef struct _DLP_APP_OP_ENLIGHTENED_LEVEL{
 
 Передайте массив этих структур в [длпинитиализинфорцементмоде](endpointdlp-dlpinitializeenforcementmode.md) , чтобы установить режим принудительного применения для набора операций DLP в конечной точке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

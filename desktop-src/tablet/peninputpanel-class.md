@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 0564f758d47e516873b8df5020f3f03a5bcb0727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58d27b97bb6683f32c145b92c1fda65fe0a786d5cb502e644580b57366119840
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708344"
 ---
 # <a name="peninputpanel-class"></a>Класс Пенинпутпанел
 
@@ -94,7 +94,7 @@ ms.locfileid: "105693725"
 | [**коммитпендингинпут**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput) | Отправляет собранные рукописные данные распознавателю и отправляет результаты распознавания.<br/>                                                                                                                      |
 | [**енаблетсф**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf)                   | При передаче значения **true** **пенинпутпанел** пытается отправить текст в присоединенный элемент управления через ПЛАТФОРМУ текстовых служб (TSF) и позволяет использовать пользовательский интерфейс исправления.<br/>    |
 | [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto)                         | Устанавливает расположение объекта **пенинпутпанел** на статическое расположение экрана.<br/>                                                                                                               |
-| [**Обновить**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)                       | Обновляет и восстанавливает свойства **пенинпутпанел** на основе параметров панели ввода Tablet PC, автоматически позиционирует панель ввода пера и устанавливает пользовательский интерфейс на панель по умолчанию.<br/> |
+| [**Обновляется**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh)                       | Обновляет и восстанавливает свойства **пенинпутпанел** на основе параметров панели ввода Tablet PC, автоматически позиционирует панель ввода пера и устанавливает пользовательский интерфейс на панель по умолчанию.<br/> |
 
 
 
@@ -116,17 +116,17 @@ ms.locfileid: "105693725"
 | [**фактоид**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid)<br/>                       | Чтение/запись<br/> | Возвращает или задает строковое имя фактоид, используемое в распознавании.<br/>                                                                                                    |
 | [**Высота**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height)<br/>                         | Только для чтения<br/>  | Возвращает высоту объекта **пенинпутпанел** в клиентских координатах.<br/>                                                                                              |
 | [**HorizontalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset)<br/>     | Чтение/запись<br/> | Возвращает или задает смещение между левым ребром объекта **пенинпутпанел** и левым ребром элемента управления, к которому он присоединен.<br/>                             |
-| [**Слева**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left)<br/>                             | Только для чтения<br/>  | Возвращает горизонтальную или вертикальную ось, положение левого края объекта **пенинпутпанел** в экранных координатах.<br/>                                                   |
+| [**Левый**](/windows/win32/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left)<br/>                             | Только для чтения<br/>  | Возвращает горизонтальную или вертикальную ось, положение левого края объекта **пенинпутпанел** в экранных координатах.<br/>                                                   |
 | [**Вверх**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top)<br/>                               | Только для чтения<br/>  | Получает вертикальную (или ось y) расположение верхнего края объекта **пенинпутпанел** в экранных координатах.<br/>                                                      |
 | [**VerticalOffset**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset)<br/>         | Чтение/запись<br/> | Возвращает или задает смещение между ближайшим горизонтальным ребром объекта **пенинпутпанел** и ближайшим горизонтальным ребром элемента управления, к которому он присоединен.<br/> |
-| [**Visible**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible)<br/>                       | Чтение/запись<br/> | Возвращает или задает значение, указывающее, является ли объект **пенинпутпанел** видимым.<br/>                                                                                |
+| [**Ярлык**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible)<br/>                       | Чтение/запись<br/> | Возвращает или задает значение, указывающее, является ли объект **пенинпутпанел** видимым.<br/>                                                                                |
 | [**Ширина**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width)<br/>                           | Только для чтения<br/>  | Возвращает ширину объекта **пенинпутпанел** в клиентских координатах.<br/>                                                                                               |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -136,9 +136,9 @@ ms.locfileid: "105693725"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
-| Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
 
 

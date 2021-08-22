@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39509770
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9bb0f54aeae87d5624e2415f19aa439fb871bed8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 141ec3b7de393abd9b490cb53272bcf23a71982fa94f4290bd7a565a376db269
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731654"
 ---
 # <a name="jet_bklogtime-methods"></a>Методы JET_BKLOGTIME
 
@@ -78,7 +78,7 @@ ms.locfileid: "104081201"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

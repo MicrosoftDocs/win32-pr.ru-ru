@@ -3,19 +3,19 @@ title: Макросы сжатия видео
 description: Макросы сжатия видео
 ms.assetid: e8ee41fa-180a-432a-933b-b4a525b9df8c
 keywords:
-- Видео для Windows (VFW), макросы ВКМ
-- VFW (видео для Windows), макросы ВКМ
+- видео для Windows (VFW), макросы вкм
+- VFW (видео для Windows), макросы вкм
 - Диспетчер сжатия видео (ВКМ), макросы
 - ВКМ (диспетчер сжатия видео), макросы
 - Справочник по ВКМ, макросы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fe6b348a3a793e8cd2674b012f32fbb5c3e48f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 44395d599436c5472895e3b5224fb557facf13468435d80a3dfd91ff6327b484
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687534"
 ---
 # <a name="video-compression-macros"></a>Макросы сжатия видео
 
@@ -61,16 +61,16 @@ ms.locfileid: "104328880"
 -   [**иккуериконфигуре**](/windows/desktop/api/Vfw/nf-vfw-icqueryconfigure)
 -   [**иксетстате**](/windows/desktop/api/Vfw/nf-vfw-icsetstate)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по диспетчеру сжатия видео](video-compression-manager-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

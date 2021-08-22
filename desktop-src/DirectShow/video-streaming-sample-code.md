@@ -4,17 +4,17 @@ ms.assetid: 735af042-9800-4f75-a5c9-e1cf17b4a472
 title: Пример кода для потоковой передачи видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e9a738503174e7bcc6c0d0e7c1250e39348b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a325512d18d3e7156de017c969906e02ed8834ba9522c969b5deb2166f741860
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755624"
 ---
 # <a name="video-streaming-sample-code"></a>Пример кода для потоковой передачи видео
 
 > [!Note]  
-> Эти API-интерфейсы являются устаревшими. Приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
+> Эти API-интерфейсы являются устаревшими. приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
 
  
 

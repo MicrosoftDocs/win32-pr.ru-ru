@@ -4,12 +4,12 @@ ms.assetid: bb228f39-0e04-497a-8404-18f7bc027bea
 title: Принудительная активация в контексте вызывающих объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70af40f92056e679a9211964b8a614cbeaeb4a6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e42cb657ad7d11f61de0737ca7ac935d1d570649c3e0da9db9b63c79edea38cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119567424"
 ---
 # <a name="enforcing-activation-in-the-callers-context"></a>Принудительная активация в контексте вызывающего объекта
 
@@ -30,9 +30,9 @@ ms.locfileid: "105682338"
 
 3.  Установите флажок **должен быть активирован в контексте вызывающих объектов** .
 
-4.  Нажмите кнопку **ОК**.
+4.  Нажмите **OK**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

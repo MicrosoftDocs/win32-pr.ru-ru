@@ -3,8 +3,8 @@ title: Перечисление MPTHREAT_DETECTION (Мпклиент. h)
 description: Возможные известные неправильные типы обнаружения угроз.
 ms.assetid: 14FCA9BD-A9A1-488B-B8E8-88DE0DF18F27
 keywords:
-- MPTHREAT_DETECTION перечисления устаревшие функции среды Windows
-- PMPTHREAT_DETECTION указателя перечисления устаревшие функции среды Windows
+- MPTHREAT_DETECTION перечисления устаревших Windows компонентов среды
+- PMPTHREAT_DETECTIONные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86edc0e1ca4ee130f2a2a4a678447771f1ae40ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d362edbb7257f8be5577880a4390c5a2f5f5703504a5f7447154bebe5ada500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119601184"
 ---
 # <a name="mpthreat_detection-enumeration"></a>\_Перечисление мпсреат обнаружения
 
@@ -80,15 +80,15 @@ typedef enum tagMPTHREAT_DETECTION {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 
