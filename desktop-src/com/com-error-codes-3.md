@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c1c568e82a0cc145e4e075f7ce14b5690bd4b22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501614"
 ---
 # <a name="com-error-codes-stg-rpc"></a>Коды ошибок COM (STG, RPC)
 
@@ -289,7 +289,7 @@ ms.locfileid: "105717796"
 | <span id="CO_E_NOMATCHINGNAMEFOUND"></span><span id="co_e_nomatchingnamefound"></span><dl> <dt>**CO \_ E \_ номатчингнамефаунд**</dt> <dt>0x80010131</dt> </dl>                                        | Не удается найти имя доверенного лица, соответствующее идентификатору безопасности, предоставленному пользователем<br/>                                                                |
 | <span id="CO_E_LOOKUPACCNAMEFAILED"></span><span id="co_e_lookupaccnamefailed"></span><dl> <dt>**CO \_ E \_ лукупаккнамефаилед**</dt> <dt>0x80010132</dt> </dl>                                        | Системная функция, LookupAccountName, не выполнена<br/>                                                                                                              |
 | <span id="CO_E_SETSERLHNDLFAILED"></span><span id="co_e_setserlhndlfailed"></span><dl> <dt>**CO \_ E \_ сетсерлхндлфаилед**</dt> <dt>0x80010133</dt> </dl>                                              | Не удается задать или сбросить маркер сериализации<br/>                                                                                                               |
-| <span id="CO_E_FAILEDTOGETWINDIR"></span><span id="co_e_failedtogetwindir"></span><dl> <dt>**CO \_ E \_ фаиледтожетвиндир**</dt> <dt>0x80010134</dt> </dl>                                              | Не удалось получить каталог Windows<br/>                                                                                                                      |
+| <span id="CO_E_FAILEDTOGETWINDIR"></span><span id="co_e_failedtogetwindir"></span><dl> <dt>**CO \_ E \_ фаиледтожетвиндир**</dt> <dt>0x80010134</dt> </dl>                                              | не удалось получить каталог Windows<br/>                                                                                                                      |
 | <span id="CO_E_PATHTOOLONG"></span><span id="co_e_pathtoolong"></span><dl> <dt>**CO \_ E \_ пастулонг**</dt> <dt>0x80010135</dt> </dl>                                                                | Слишком длинный путь<br/>                                                                                                                                               |
 | <span id="CO_E_FAILEDTOGENUUID"></span><span id="co_e_failedtogenuuid"></span><dl> <dt>**CO \_ E \_ фаиледтоженууид**</dt> <dt>0x80010136</dt> </dl>                                                    | Не удалось создать UUID.<br/>                                                                                                                                  |
 | <span id="CO_E_FAILEDTOCREATEFILE"></span><span id="co_e_failedtocreatefile"></span><dl> <dt>**CO \_ E \_ фаиледтокреатефиле**</dt> <dt>0x80010137</dt> </dl>                                           | Не удалось создать файл<br/>                                                                                                                                       |
@@ -305,17 +305,17 @@ ms.locfileid: "105717796"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winerror. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winerror. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

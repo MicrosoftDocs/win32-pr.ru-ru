@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3697937f2050e2a3a6a4eeeb67d17a5e443b3d67
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a5720892964af4ccf5b7ea20c83dfdf0897f51b0c36bd97415270d6a35b69fef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507814"
 ---
 # <a name="ms-ts-secondary-desktops-attribute"></a>атрибут MS-TS-вторичный Рабочий стол
 
@@ -43,7 +43,7 @@ ms.locfileid: "104138571"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,16 +53,16 @@ ms.locfileid: "104138571"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | 2172                              |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | Неверно                             |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Нет                             |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -74,10 +74,10 @@ ms.locfileid: "104138571"
 |------------------------|-----------------------------------|
 | Идентификатор ссылки                | 2172                              |
 | MAPI-Id                | \-                                |
-| System-Only            | Неверно                             |
-| Является однозначным       | Неверно                             |
-| Индексируется             | Неверно                             |
-| В глобальном каталоге      | Неверно                             |
+| System-Only            | Нет                             |
+| Является однозначным       | Нет                             |
+| Индексируется             | Нет                             |
+| В глобальном каталоге      | Нет                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

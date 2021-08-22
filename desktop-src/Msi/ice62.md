@@ -4,12 +4,12 @@ ms.assetid: 649d3989-8121-4303-aa3e-63bc6649f445
 title: ICE62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 245e205b2d004efa99ae1605ff5255ef69834a40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb5c2fd3f3305c791851fb3bd7480edc5e17f361c40719e8091930188dfa991c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528244"
 ---
 # <a name="ice62"></a>ICE62
 
@@ -103,7 +103,7 @@ Component1 изолированы как для Component2, так и для Com
 
 
 
-| Функция\_ | Компонент\_ |
+| Компонент\_ | Компонент\_ |
 |-----------|-------------|
 | Feature1  | Component1  |
 | Feature2  | Component2  |
@@ -117,7 +117,7 @@ Component1 изолированы как для Component2, так и для Com
 
 
 
-| Функция  | \_Родительский компонент функции |
+| Компонент  | \_Родительский компонент функции |
 |----------|-----------------|
 | Feature1 |                 |
 | Feature2 |                 |
@@ -126,7 +126,7 @@ Component1 изолированы как для Component2, так и для Com
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

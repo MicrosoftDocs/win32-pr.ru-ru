@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 551810c839e619985d9a380197553f5fe4fc9be8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 85929a4cca88d9547ac0f00861f694932c7566cb3b6f5db6d4e6da189842e712
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564814"
 ---
 # <a name="d3dxloadmeshhierarchyfromxinmemory-function"></a>Функция D3DXLoadMeshHierarchyFromXInMemory
 
@@ -129,13 +129,13 @@ HRESULT D3DXLoadMeshHierarchyFromXInMemory(
 
 Все сетки в файле будут свернуты в одну выходную сетку. Если файл содержит иерархию рамок, все преобразования будут применены к сетке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

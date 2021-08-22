@@ -4,12 +4,12 @@ description: Фоновая интеллектуальная служба пер
 ms.assetid: ab4cf901-6d93-433c-b1b2-ffa54d10725c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b40e2840c24e15379fac11a5a12ed76c225e7be5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 41cfbc18a8dc06bb474ab8df9df85fb7b8a96838db14bbc18aee4d94881985d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529194"
 ---
 # <a name="bits-compact-server"></a>Облегченный сервер BITS
 
@@ -41,10 +41,10 @@ ms.locfileid: "103890876"
 
 **Установка облегченного сервера BITS с помощью Windows PowerShell**
 
-1.  В командной строке Windows PowerShell введите следующую команду: **Import-Module ServerManager**. Затем нажмите клавишу ВВОД.
+1.  в Windows PowerShell командной строке введите следующую команду: **Import-Module ServerManager**. Затем нажмите клавишу ВВОД.
 2.  Введите следующую команду: **Add-WINDOWSFEATURE BITS-Compact-Server**. Затем нажмите клавишу ВВОД.
 
-В следующем примере на основе текста демонстрируется установка Compact Server BITS с помощью командлетов Windows PowerShell.
+в следующем примере на основе текста показано, как установить облегченный сервер BITS с помощью командлетов Windows PowerShell.
 
 ``` syntax
 PS C:\> Import-Module ServerManager
@@ -58,34 +58,34 @@ True    No             Success   {Compact Server}
 PS C:\>
 ```
 
-Сведения об использовании командлетов см. в документации [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
+дополнительные сведения об использовании командлетов см. в документации по [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
 
 Дополнительные сведения о командлете Import-Module см. в разделе [Import-Module](/previous-versions//dd347701(v=technet.10)) в библиотеке Microsoft TechNet. Для получения справки в командной строке введите **Get-Help Import-Module**.
 
 Дополнительные сведения о командлете Add-WindowsFeature см. в разделе [Add-WindowsFeature](/previous-versions//dd347701(v=technet.10)) в библиотеке Microsoft TechNet. Для получения справки в командной строке введите **Get-Help Add-WindowsFeature**.
 
-**Установка облегченного сервера BITS с помощью диспетчера пакетов**
+**установка облегченного сервера BITS с помощью диспетчер пакетов**
 
 -   Введите следующую команду: **PkgMgr.exe/IU: LightweightServer**.
 
 > [!Note]  
 > Параметры теряются при перезапуске службы Compact Server или при перезагрузке компьютера.
 
- 
+ 
 
 ## <a name="bits-compact-server-remote-management"></a>Удаленное управление облегченным сервером BITS
 
-Облегченный сервер BITS с удаленным управлением BITS обеспечивает более безопасную передачу удаленных файлов. Удаленное управление BITS использует поставщик инструментарий управления Windows (WMI) (WMI), который позволяет системному администратору или приложению контроллера удаленно создавать задания передачи BITS на клиентах и публиковать файлы для размещения на облегченном сервере BITS. Поставщик BITS также можно использовать, чтобы позволить приложению удаленно использовать клиент BITS в сочетании с облегченным сервером BITS для передачи файлов с одного удаленного компьютера на другой удаленный компьютер.
+Облегченный сервер BITS с удаленным управлением BITS обеспечивает более безопасную передачу удаленных файлов. удаленное управление BITS использует поставщик инструментарий управления Windows (WMI) (WMI), который позволяет системному администратору или приложению контроллера удаленно создавать задания передачи BITS на клиентах и публиковать файлы для размещения на облегченном сервере BITS. Поставщик BITS также можно использовать, чтобы позволить приложению удаленно использовать клиент BITS в сочетании с облегченным сервером BITS для передачи файлов с одного удаленного компьютера на другой удаленный компьютер.
 
 Дополнительные сведения см. в документации [поставщика BITS](/previous-versions/windows/desktop/bitsprov/bits-provider) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Поставщик BITS](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

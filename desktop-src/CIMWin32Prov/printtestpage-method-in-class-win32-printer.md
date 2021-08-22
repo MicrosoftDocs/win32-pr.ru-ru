@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: abf31237918d533ec43586ddd3d71204f2c8ae21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 36ef67190f43c9346bb0678276122c0149979e7785bdc7f430816d5c295cccf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504494"
 ---
 # <a name="printtestpage-method-of-the-win32_printer-class"></a>Метод Принттестпаже \_ класса принтера Win32
 
@@ -83,7 +83,7 @@ $printer.PrintTestPage()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -97,7 +97,7 @@ $printer.PrintTestPage()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

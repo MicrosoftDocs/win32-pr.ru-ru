@@ -3,7 +3,7 @@ title: Просмотр. размер
 description: Метод size изменяет размер представления на указанном крае.
 ms.assetid: c15a33b2-3618-41a7-bff1-9d48a566ed4f
 keywords:
-- Просмотр. Размер проигрывателя Windows Media
+- просмотр. размер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: def9b416dfe5eda052ef430b587fa1c6017b4e5f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0d9bd583b280f39bee38f0e109e6bb2bba6ce08ec0e7cea4c082b4a6db55739
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615314"
 ---
 # <a name="viewsize"></a>Просмотр. размер
 
@@ -56,7 +56,7 @@ ms.locfileid: "105704180"
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод обычно вызывается из обработчика **OnMouseDown** . Он занимается изменением размера при перетаскивании мыши и прекращает изменение размера при отпускании кнопки мыши. Если размер **представления** ограничен, нельзя перетаскивать указатель мыши, чтобы изменить размер **представления** за пределами ограниченных границ.
 
@@ -76,17 +76,17 @@ ms.locfileid: "105704180"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

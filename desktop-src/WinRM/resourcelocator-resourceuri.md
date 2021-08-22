@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ResourceURI, свойство служба удаленного управления Windows
 - ResourceURI, свойство служба удаленного управления Windows, объект ResourceLocator
-- Служба удаленного управления Windows объекта ResourceLocator, свойство ResourceURI
+- служба удаленного управления Windows объекта ResourceLocator, свойство ResourceURI
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f804835b5445c32f74094e8280a598785d1526
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 323240462dad32ba757897798b663b78b373ebb3ab3e60c3387dd7da8eef4c85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642864"
 ---
 # <a name="resourcelocatorresourceuri-property"></a>ResourceLocator. ResourceURI, свойство
 
@@ -43,7 +43,7 @@ ResourceLocator.ResourceURI As string
 
 Строка, идентифицирующая ресурс. При задании универсального кода ресурса (URI) для объекта [**RESOURCELOCATOR**](resourcelocator.md) URI должен содержать только путь.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведен пример правильного пути для [**resourceUri**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_resourceuri).
 
@@ -59,7 +59,7 @@ ResourceLocator.ResourceURI As string
 
 **Ивсманресаурцелокатор:: resourceUri** — соответствующий метод C++.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,14 +67,14 @@ ResourceLocator.ResourceURI As string
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

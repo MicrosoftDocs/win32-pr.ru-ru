@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: 540cfb4c00b5df64e4ff11a1cc462eaed03be434
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e575fddd5d869d7670aa3e42bf3f948badd7fd1b24befdf8839045c788e59634
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642654"
 ---
 # <a name="win32_subsession-class"></a>\_Класс Подсеанса Win32
 
@@ -46,7 +46,7 @@ class Win32_SubSession : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ подсеанса Win32** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_SubSession : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -98,7 +98,7 @@ class Win32_SubSession : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

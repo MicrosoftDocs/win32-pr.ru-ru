@@ -4,12 +4,12 @@ ms.assetid: 16771121-cb10-42b4-babc-59270188495a
 title: Зависимости синхронизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c139d0d6e78288b25e42bd0a84b29432cebb44ca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ed2976426d652ca50c4e7399f39e98ba13ef337d15ef8c15a2271d4a562d1790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499734"
 ---
 # <a name="synchronization-dependencies"></a>Зависимости синхронизации
 
@@ -50,7 +50,7 @@ ms.locfileid: "103895737"
 
 Дополнительные сведения о ведении транзакций, JIT-активации и атрибутов синхронизации см. в разделе [Настройка транзакций](configuring-transactions.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

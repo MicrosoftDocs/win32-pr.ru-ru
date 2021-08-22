@@ -4,12 +4,12 @@ description: В этом разделе содержится пример код
 ms.assetid: b613eb18-e14d-468e-833d-072bad29ba06
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 887ef914d7abcf5ed6dfc546f0930334f53215d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52998ad92fe1912a5159443642d95bbc14a28da595ddd2b2a255ebecaed8c74d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104531874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119505274"
 ---
 # <a name="how-to-find-ui-elements"></a>Поиск элементов пользовательского интерфейса
 
@@ -17,7 +17,7 @@ ms.locfileid: "104531874"
 
 -   [Поиск элемента по имени](#finding-an-element-by-name)
 -   [Поиск связанных элементов](#finding-related-elements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="finding-an-element-by-name"></a>Поиск элемента по имени
 
@@ -127,7 +127,7 @@ cleanup:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -140,9 +140,9 @@ cleanup:
 [Разделы руководства по клиентам автоматизации пользовательского интерфейса](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

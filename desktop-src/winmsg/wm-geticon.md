@@ -4,12 +4,12 @@ ms.assetid: d3101a9b-9658-4a21-b1f6-2920b723926c
 title: Сообщение WM_GETICON (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d2444e70646d8122a7228094187738811a3f68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2df8922fa09cf425594a07768f0d7c9ae0ac09222647f181f45331c2b0d47fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587424"
 ---
 # <a name="wm_geticon-message"></a>Сообщение WM с \_ значком
 
@@ -60,7 +60,7 @@ ms.locfileid: "105702573"
 
 Возвращаемое значение является маркером для большого или маленького значка в зависимости от значения *wParam*. Когда приложение получает это сообщение, оно может вернуть маркер на большой или маленький значок или передать сообщение в функцию [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда приложение получает это сообщение, оно может вернуть маркер на большой или маленький значок или передать сообщение в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
@@ -76,7 +76,7 @@ ms.locfileid: "105702573"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

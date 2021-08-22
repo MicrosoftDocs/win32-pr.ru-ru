@@ -1,19 +1,19 @@
 ---
-title: Пользовательские коллекции шрифтов (Windows 7/8)
-description: DirectWrite предоставляет доступ к коллекции системных шрифтов с помощью метода Идвритефактори Жетсистемфонтколлектион.
+title: пользовательские коллекции шрифтов (Windows 7/8)
+description: DirectWrite предоставляет доступ к коллекции системных шрифтов с помощью метода жетсистемфонтколлектион идвритефактори.
 ms.assetid: ec892904-6778-4fbd-93b4-62d0db5b82ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39aa764330f27b72051ef682c6ce5f1176c42c7d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ffc76214dda067b43c27c8e04e4419f147d0e33b7566b4dedc5ac3255a1c1dc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290764"
 ---
-# <a name="custom-font-collections-windows-78"></a>Пользовательские коллекции шрифтов (Windows 7/8)
+# <a name="custom-font-collections-windows-78"></a>пользовательские коллекции шрифтов (Windows 7/8)
 
-[DirectWrite](direct-write-portal.md) предоставляет доступ к коллекции системных шрифтов с помощью метода [**Идвритефактори:: жетсистемфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) . Это наиболее часто используемая коллекция шрифтов. Однако некоторые приложения должны использовать шрифты, которые не установлены в системе, например из файлов шрифтов или шрифтов, внедренных в приложение.
+[DirectWrite](direct-write-portal.md) предоставляет доступ к коллекции системных шрифтов с помощью метода [**идвритефактори:: жетсистемфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) . Это наиболее часто используемая коллекция шрифтов. Однако некоторые приложения должны использовать шрифты, которые не установлены в системе, например из файлов шрифтов или шрифтов, внедренных в приложение.
 
 Если нужные шрифты не находятся в коллекции системных шрифтов, можно создать пользовательскую коллекцию шрифтов, производную от [**идвритефонтколлектион**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection).
 
@@ -35,18 +35,18 @@ ms.locfileid: "103792661"
 > [!Note]  
 > Регистрация загрузчика коллекции шрифтов добавляет к счетчику ссылок; не вызывайте [**унрегистерфонтколлектионлоадер**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-unregisterfontcollectionloader) из деструктора, иначе не будет отменена регистрация объекта загрузчика коллекции.
 
- 
+ 
 
 ## <a name="idwritefontcollectionloader"></a>идвритефонтколлектионлоадер
 
 Вы создадите объект [**идвритефонтфилинумератор**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) с помощью [**Идвритефактори:: креатекустомфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) и передаем ему ключ, определяемый приложением. Ключ является указателем void, а тип данных, формат и значение определяются приложением и являются непрозрачными для системы шрифтов.
 
-В то время как ключ может быть любым, [DirectWrite](direct-write-portal.md) требует, чтобы каждый ключ был одновременно:
+в то время как ключ может быть любым, [DirectWrite](direct-write-portal.md) требует, чтобы каждый ключ был одновременно:
 
 -   Уникальный для одной коллекции шрифтов в пределах области загрузчика.
 -   Допустимо, пока не будет отменена регистрация загрузчика с помощью фабрики.
 
-Когда вызывается метод [**креатекустомфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) , [DirectWrite](direct-write-portal.md) обращается к интерфейсу [**идвритефонтколлектионлоадер**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) , реализованному в виде одноэлементного объекта приложения. Метод обратного вызова [**идвритефонтколлектионлоадер:: креатинумераторфромкэй**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey) используется DirectWrite для получения объекта [**идвритефонтфилинумератор**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) , реализованного приложением. Объект [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) , который используется для создания коллекции, передается этому методу и должен использоваться перечислителем файла шрифта для создания объектов [**идвритефонтфиле**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) , которые должны быть добавлены в коллекцию.
+при вызове метода [**креатекустомфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection) [DirectWrite](direct-write-portal.md) обращается к интерфейсу [**идвритефонтколлектионлоадер**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollectionloader) , реализованному в виде одноэлементного объекта приложения. метод обратного вызова [**идвритефонтколлектионлоадер:: креатинумераторфромкэй**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollectionloader-createenumeratorfromkey) используется DirectWrite для получения объекта [**идвритефонтфилинумератор**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileenumerator) , реализованного приложением. Объект [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) , который используется для создания коллекции, передается этому методу и должен использоваться перечислителем файла шрифта для создания объектов [**идвритефонтфиле**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) , которые должны быть добавлены в коллекцию.
 
 Ключ, переданный этому методу, определяет коллекцию шрифтов и является тем же ключом, который передается в [**креатекустомфонтколлектион**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontcollection).
 
@@ -57,7 +57,7 @@ ms.locfileid: "103792661"
 > [!Note]  
 > Перечислитель файла шрифта должен начинаться с позиции перед первым элементом и дополнительно при первом вызове [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext).
 
- 
+ 
 
 Объект [**идвритефонтфиле**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) выводится методом [**Идвритефонтфилинумератор:: жеткуррентфонтфиле**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-getcurrentfontfile) . Если в текущей позиции нет файла шрифта, поскольку метод [**MoveNext**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileenumerator-movenext) еще не был вызван или хаскуррентфиле был установлен в **значение false**, то **жеткуррентфонтфиле** возвратит **E \_ Fail**.
 
@@ -76,10 +76,10 @@ ms.locfileid: "103792661"
 > [!Note]  
 > Реализации [**реадфилефрагмент**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfilestream-readfilefragment) должны возвращать ошибку, если запрошенный фрагмент находится вне границ файла.
 
- 
+ 
 
 [**Идвритефонтфилестреам**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream) может получать содержимое файла шрифта из любого места, например с локального жесткого диска или из внедренных ресурсов.
 
- 
+ 
 
- 
+ 

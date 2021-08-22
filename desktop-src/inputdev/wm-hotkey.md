@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f09e81a964542a6a8166ae54a0df4d7127466c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51dbd37b61fea12e559323a73cbf6b4a5cb54704a74663f865d9aa89636d3c46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557144"
 ---
 # <a name="wm_hotkey-message"></a>\_Сообщение с сочетанием клавиш WM
 
@@ -66,7 +66,7 @@ ms.locfileid: "104415297"
 | <span id="MOD_ALT"></span><span id="mod_alt"></span><dl> <dt>**Mod \_ ALT**</dt> <dt>0x0001</dt> </dl>             | Клавиша ALT была удержана.<br/>                                                                                                                                      |
 | <span id="MOD_CONTROL"></span><span id="mod_control"></span><dl> <dt>**Mod \_ Управление**</dt> <dt>0x0002</dt> </dl> | Клавиша CTRL была удержана.<br/>                                                                                                                                     |
 | <span id="MOD_SHIFT"></span><span id="mod_shift"></span><dl> <dt>**Mod \_ SHIFT**</dt> <dt>0x0004</dt> </dl>       | Клавиша SHIFT была удержана.<br/>                                                                                                                                    |
-| <span id="MOD_WIN"></span><span id="mod_win"></span><dl> <dt>**Mod \_ WIN**</dt> <dt>0x0008</dt> </dl>             | Ключ WINDOWS был удержан. Эти ключи помечены эмблемой Windows. Сочетания клавиш, затрагивающие ключ Windows, зарезервированы для использования операционной системой.<br/> |
+| <span id="MOD_WIN"></span><span id="mod_win"></span><dl> <dt>**Mod \_ WIN**</dt> <dt>0x0008</dt> </dl>             | Ключ WINDOWS был удержан. эти ключи помечены логотипом Windows. сочетания клавиш, затрагивающие ключ Windows, зарезервированы для использования операционной системой.<br/> |
 
 
 
@@ -74,11 +74,11 @@ ms.locfileid: "104415297"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **WM \_ СОЧЕТАНИЕ** клавиш не связано с горячими ключами WM [**\_ сесоткэй и WM**](wm-sethotkey.md) . [**\_**](wm-gethotkey.md) Сообщение **с \_ сочетанием клавиш WM** отправляется для универсальных горячих ключей, а сообщения **WM \_ сесоткэй** и **WM- \_ горячих** клавиш относятся к горячим ключам активации окна.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,11 +86,11 @@ ms.locfileid: "104415297"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

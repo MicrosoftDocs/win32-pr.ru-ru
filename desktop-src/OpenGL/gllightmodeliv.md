@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de61d53d3f4ceb9805ca5560c864379b18c65b3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e106fdccf39fdf002c83b45c190073d20c7432eb5252d736e00cf4259dcd8af1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493064"
 ---
 # <a name="gllightmodeliv-function"></a>Функция Гллигхтмоделив
 
@@ -84,7 +84,7 @@ void WINAPI glLightModeliv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллигхтмоделив** задает параметр модели освещения. Параметр *pname* содержит имя параметра, а *param* — новое значение. значение или значения отдельных параметров источника освещения.
 
@@ -108,7 +108,7 @@ void WINAPI glLightModeliv(
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ освещение GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -122,7 +122,7 @@ void WINAPI glLightModeliv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение RB_IDTOINDEX (Коммктрл. h)
 description: Преобразует идентификатор диапазона в индекс диапазона в элементе управления главной панели.
 ms.assetid: vs|controls|~\controls\rebar\messages\rb_idtoindex.htm
 keywords:
-- Элементы управления Windows для RB_IDTOINDEX сообщений
+- элементы управления Windows сообщений RB_IDTOINDEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7acd85862bc4787a6b32d2fdd3c897a52913b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b13d243498d821e64be19beebb04fab3f198442aced73ced6f424d32d7177ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642604"
 ---
 # <a name="rb_idtoindex-message"></a>\_Сообщение ИДТОИНДЕКС RB
 
@@ -43,15 +43,15 @@ ms.locfileid: "104489237"
 
 Возвращает индекс полосы с отсчетом от нуля в случае успеха или значение-1 в противном случае. При наличии повторяющихся идентификаторов диапазонов возвращается первый из них.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

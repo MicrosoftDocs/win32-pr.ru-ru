@@ -4,12 +4,12 @@ ms.assetid: e3d06e0c-a595-4bc3-be62-168bd5122397
 title: Получение времени работы с устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5787cf328214c1a266b7f129e4e517716b1d04f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 265769300c0134ec9f3b3635ada3e595205e8452ced262d4062f9fb6cdaaadc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105650420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564734"
 ---
 # <a name="getting-timecode-from-the-device"></a>Получение времени работы с устройства
 
@@ -51,7 +51,7 @@ if (MyDevCap.bHasTimecode)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,8 +3,8 @@ title: Схема калибровки WCS
 description: В этом разделе описывается схема калибровки WCS, которая расширяет профиль модели цветового устройства WCS.
 ms.assetid: 99f3e9e3-15b7-4bca-87cc-a3bf3b6d0112
 keywords:
-- Цветовая система Windows (WCS), калибровка
-- WCS (цветовая система Windows), калибровка
+- Windows Система цветовой системы (WCS), калибровка
+- WCS (Windows цветовая система), калибровка
 - Управление цветом изображений, калибровка
 - Управление цветом, калибровка
 - цвета, калибровка
@@ -14,12 +14,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e859ab9d2b47355db063961004f17a8cc1537694
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 3744f8aa0190f09acf80b469ae01fddb035c48deda73d53871094ef9ece8e88b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451424"
 ---
 # <a name="wcs-calibration-schema"></a>Схема калибровки WCS
 
@@ -27,7 +27,7 @@ ms.locfileid: "105719831"
 
 ## <a name="the-wcs-calibration-schema"></a>Схема калибровки WCS
 
-Следующее определение схемы используется для указания новых определений Windows 7, которые поддерживают калибровку [профиля модели устройства цветового WCS](wcs-color-device-model-profile-schema-and-algorithms.md) .
+следующее определение схемы используется для указания новых определений Windows 7, которые поддерживают калибровку [профиля модели устройства цветового WCS](wcs-color-device-model-profile-schema-and-algorithms.md) .
 
 
 ```C++
@@ -74,7 +74,7 @@ ms.locfileid: "105719831"
 
 
 
-Для совместимости с Windows Vista Профили, содержащие теги калибровки, должны включать атрибут `mc:Ignoreable="cdm_calibration"` .
+для обеспечения совместимости с Windows Vista профили, содержащие теги калибровки, должны включать атрибут `mc:Ignoreable="cdm_calibration"` .
 
  
 

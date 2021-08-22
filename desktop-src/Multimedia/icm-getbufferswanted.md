@@ -3,7 +3,7 @@ title: Сообщение ICM_GETBUFFERSWANTED (VFW. h)
 description: В \_ сообщении ICM жетбуфферсвантед запрашивается драйвер для количества выделяемых буферов. Это сообщение можно отправить явно или с помощью макроса Икжетбуфферсвантед.
 ms.assetid: 109e8627-7ed4-4f17-bf7f-e77f42dfc8c7
 keywords:
-- ICM_GETBUFFERSWANTED сообщения Windows мультимедиа
+- сообщение ICM_GETBUFFERSWANTED Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06de8cc3bcfe463d0318651c8e2d51b269504769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4bd5fae6e9f008649366cf922ef117f5b6f7560a7764c4f8d81552a255de48a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495874"
 ---
 # <a name="icm_getbufferswanted-message"></a>\_Сообщение ICM жетбуфферсвантед
 
@@ -49,11 +49,11 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК, если \_ в противном случае успешно или ИЦЕРР не поддерживается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение используется драйверами, которые используют оборудование для визуализации данных и хотят обеспечить минимальную задержку, вызванную ожиданием прибытия буферов. Например, если драйвер управляет платой распаковки видео, которая может содержать 10 кадров видео, это сообщение может вернуть 10. Это означает, что приложения попытаются остаться в 10 кадрах до конца фрейма, который им необходим.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

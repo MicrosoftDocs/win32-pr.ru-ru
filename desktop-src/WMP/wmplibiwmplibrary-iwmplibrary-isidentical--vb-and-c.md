@@ -3,9 +3,9 @@ title: Ивмплибрари, метод тождественности
 description: Метод «идентичен» возвращает значение, указывающее, совпадает ли указанный объект с текущим.
 ms.assetid: c4eebc46-6a5f-4f9a-8cd4-7421b156670c
 keywords:
-- метод, аналогичный проигрывателю Windows Media
-- тождественный метод Windows Media Player, интерфейс Ивмплибрари
-- Интерфейс Ивмплибрари Windows Media Player, метод, идентичный
+- метод проигрыватель Windows Media
+- метод проигрыватель Windows Media, интерфейс ивмплибрари
+- проигрыватель Windows Media интерфейса ивмплибрари, метод тождественности
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53071caa98b8f8e3ccb95e926969926cc68e7860
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0ed37725bbda5b170ece8ce71c12499b42f0b361cbac3bbe65f1b875af06fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506054"
 ---
 # <a name="iwmplibraryisidentical-method"></a>Метод Ивмплибрари:: одинаковы
 
@@ -64,19 +64,19 @@ Implements IWMPLibrary.isIdentical
 
 Значение **System. Boolean** , которое является результатом сравнения. Значение **true** указывает, что объекты одинаковы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

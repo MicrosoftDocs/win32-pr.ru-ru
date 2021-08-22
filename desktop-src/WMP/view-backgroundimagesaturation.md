@@ -3,7 +3,7 @@ title: VIEW. Баккграундимажесатуратион
 description: Атрибут Баккграундимажесатуратион указывает или получает значение насыщенности фонового изображения.
 ms.assetid: 9e1f205b-6366-4816-9430-1153f57d686c
 keywords:
-- Просмотреть. Баккграундимажесатуратион проигрыватель Windows Media
+- просмотреть. баккграундимажесатуратион проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9d7f5807bcb5fd90dae211d80faf78006b6b35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 934c10ee090f99d456c38a5eb56512d3adb9b748d45b166167b49f3249d819e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506864"
 ---
 # <a name="viewbackgroundimagesaturation"></a>VIEW. Баккграундимажесатуратион
 
@@ -31,21 +31,21 @@ ms.locfileid: "105648815"
 
 Этот атрибут является **числом** для чтения и записи (**float**) со значением в диапазоне от 0,0 до 2,0 со значением по умолчанию 1,0.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут изменяет значение насыщенности изображений, заданных атрибутом **backgroundImage** , если он задан и ссылается на 8-битное изображение BMP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

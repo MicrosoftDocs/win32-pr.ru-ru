@@ -5,12 +5,12 @@ ms.assetid: a7bd3c26-984c-42c8-9903-1bbee40637da
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14da2e1ee29d2377519bcc97931e376a7219f28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 232cdfea15a0d316b3290f41ce916eca146cb3271baa69785039d265a7776511
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119533174"
 ---
 # <a name="all-classes"></a>Все классы
 
@@ -27,7 +27,7 @@ ms.locfileid: "104067524"
 [**Сущность приложения**](c-applicationentity.md)  
 [**Процесс приложения**](c-applicationprocess.md)  
 [**Параметры приложения**](c-applicationsettings.md)  
-[**Приложение-сайт — параметры**](c-applicationsitesettings.md)  
+[**приложение — сайт — Параметры**](c-applicationsitesettings.md)  
 [**Версия приложения**](c-applicationversion.md)  
 [**Attribute-Schema**](c-attributeschema.md)  
 [**бутабледевице**](c-bootabledevice.md)  
@@ -44,7 +44,7 @@ ms.locfileid: "104067524"
 [**Contact**](c-contact.md)  
 [**Контейнер**](c-container.md)  
 [**Доступ с правом Control**](c-controlaccessright.md)  
-[**Страна или регион**](c-country.md)  
+[**Страна**](c-country.md)  
 [**Список CRL-точка распространения**](c-crldistributionpoint.md)  
 [**Перекрестная ссылка**](c-crossref.md)  
 [**Перекрестные ссылки на контейнеры**](c-crossrefcontainer.md)  
@@ -63,7 +63,7 @@ ms.locfileid: "104067524"
 [**Политика домена**](c-domainpolicy.md)  
 [**домаинрелатедобжект**](c-domainrelatedobject.md)  
 [**DSA**](c-dsa.md)  
-[**DS-UI-параметры**](c-dsuisettings.md)  
+[**DS-UI-Параметры**](c-dsuisettings.md)  
 [**Динамический объект**](c-dynamicobject.md)  
 [**Отслеживание ссылок на файлы**](c-filelinktracking.md)  
 [**Запись File-Link-Tracking**](c-filelinktrackingentry.md)  
@@ -93,12 +93,12 @@ ms.locfileid: "104067524"
 [**Политики IPSec**](c-ipsecpolicy.md)  
 [**ипсервице**](c-ipservice.md)  
 [**Leaf**](c-leaf.md)  
-[**Лицензирование-Site-Settings**](c-licensingsitesettings.md)  
+[**лицензирование — сайт — Параметры**](c-licensingsitesettings.md)  
 [**Link-Track-Object-Move-Table**](c-linktrackobjectmovetable.md)  
 [**Link-Track-ОМТ-Entry**](c-linktrackomtentry.md)  
 [**Link-Track-Vol-запись**](c-linktrackvolentry.md)  
 [**Link-Tracking-Volume-Table**](c-linktrackvolumetable.md)  
-[**Местонахождение**](c-locality.md)  
+[**Расположение**](c-locality.md)  
 [**Потерянные и найденные**](c-lostandfound.md)  
 [**Получатель почты**](c-mailrecipient.md)  
 [**Собрание**](c-meeting.md)  
@@ -122,7 +122,7 @@ ms.locfileid: "104067524"
 [**Подписчик MS-DFSR**](c-msdfsr-subscriber.md)  
 [**Подписка MS-DFSR-Subscription**](c-msdfsr-subscription.md)  
 [**Топология MS-DFSR-Topology**](c-msdfsr-topology.md)  
-[**MS-DNS-Server-параметры**](c-msdns-serversettings.md)  
+[**ms-DNS-сервер-Параметры**](c-msdns-serversettings.md)  
 [**MS-DS-App-Configuration**](c-msds-app-configuration.md)  
 [**MS-DS-App-Data**](c-msds-appdata.md)  
 [**MS-DS-AZ-Admin-Manager**](c-msds-azadminmanager.md)  
@@ -141,8 +141,8 @@ ms.locfileid: "104067524"
 [**MS-DS-Group-Managed-Service-учетная запись**](c-msds-groupmanagedserviceaccount.md)  
 [**Учетная запись MS-DS-Managed-Service-**](c-msds-managedserviceaccount.md)  
 [**MS-DS-необязательный компонент**](c-msds-optionalfeature.md)  
-[**MS-DS-Password-параметры**](c-msds-passwordsettings.md)  
-[**MS-DS-Password-Settings — контейнер**](c-msds-passwordsettingscontainer.md)  
+[**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)  
+[**ms-DS-Password-Параметры — контейнер**](c-msds-passwordsettingscontainer.md)  
 [**Контейнер MS-DS-Quota-**](c-msds-quotacontainer.md)  
 [**MS-DS-Quota-Control**](c-msds-quotacontrol.md)  
 [**Свойства ms-DS-Resource-**](c-msds-resourceproperties.md)  
@@ -159,15 +159,15 @@ ms.locfileid: "104067524"
 [**MS-KDS-Prov-Серверконфигуратион**](c-mskds-provserverconfiguration.md)  
 [**Конфигурация MSMQ**](c-msmqconfiguration.md)  
 [**MSMQ-Custom-получател**](c-msmq-custom-recipient.md)  
-[**MSMQ-Enterprise-параметры**](c-msmqenterprisesettings.md)  
+[**MSMQ-Enterprise — Параметры**](c-msmqenterprisesettings.md)  
 [**Группа MSMQ**](c-msmq-group.md)  
 [**MSMQ — перенесено — пользователь**](c-msmqmigrateduser.md)  
 [**Очередь MSMQ**](c-msmqqueue.md)  
-[**MSMQ — параметры**](c-msmqsettings.md)  
+[**MSMQ — Параметры**](c-msmqsettings.md)  
 [**Очередь MSMQ-site-Link**](c-msmqsitelink.md)  
 [**MS-NET-IEEE-80211-GroupPolicy**](c-ms-net-ieee-80211-grouppolicy.md)  
 [**MS-NET-IEEE-8023-GroupPolicy**](c-ms-net-ieee-8023-grouppolicy.md)  
-[**MS-PKI-Enterprise-OID**](c-mspki-enterprise-oid.md)  
+[**ms-PKI-Enterprise-Oid**](c-mspki-enterprise-oid.md)  
 [**MS-PKI-Key-Recovery-Agent**](c-mspki-key-recovery-agent.md)  
 [**MS-PKI-частный-Key-Recovery-Agent**](c-mspki-privatekeyrecoveryagent.md)  
 [**MS-Print-ConnectionPolicy**](c-msprint-connectionpolicy.md)  
@@ -178,12 +178,12 @@ ms.locfileid: "104067524"
 [**Мссфу-30-NIS-Map-config**](c-mssfu30nismapconfig.md)  
 [**MS-SPP-Activation — объект**](c-msspp-activationobject.md)  
 [**MS-SPP-Activation-Objects-Container**](c-msspp-activationobjectscontainer.md)  
-[**MS-SQL-Олапкубе**](c-ms-sql-olapcube.md)  
-[**MS-SQL-Олапдатабасе**](c-ms-sql-olapdatabase.md)  
+[**MS-SQL-олапкубе**](c-ms-sql-olapcube.md)  
+[**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md)  
 [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)  
 [**MS-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)  
-[**MS-SQL-Склпубликатион**](c-ms-sql-sqlpublication.md)  
-[**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)  
+[**MS-SQL-склпубликатион**](c-ms-sql-sqlpublication.md)  
+[**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)  
 [**MS-SQL-SQLServer**](c-ms-sql-sqlserver.md)  
 [**MS-TAPI-RT-Конференция**](c-mstapi-rtconference.md)  
 [**MS-TAPI-RT-Person**](c-mstapi-rtperson.md)  
@@ -213,14 +213,14 @@ ms.locfileid: "104067524"
 [**NTDS-DSA**](c-ntdsdsa.md)  
 [**NTDS-DSA-RO**](c-ntdsdsaro.md)  
 [**Служба NTDS**](c-ntdsservice.md)  
-[**NTDS-Site-Settings**](c-ntdssitesettings.md)  
+[**NTDS-Site-Параметры**](c-ntdssitesettings.md)  
 [**NTFRS-Member**](c-ntfrsmember.md)  
 [**NTFRS-Set-реплика**](c-ntfrsreplicaset.md)  
-[**NTFRS — параметры**](c-ntfrssettings.md)  
+[**NTFRS — Параметры**](c-ntfrssettings.md)  
 [**NTFRS — подписчик**](c-ntfrssubscriber.md)  
 [**NTFRS-Subscriptions**](c-ntfrssubscriptions.md)  
 [**онкрпк**](c-oncrpc.md)  
-[**План**](c-organization.md)  
+[**Организация**](c-organization.md)  
 [**Organizational-Person**](c-organizationalperson.md)  
 [**Организация — роль**](c-organizationalrole.md)  
 [**Организационная единица**](c-organizationalunit.md)  
@@ -234,12 +234,12 @@ ms.locfileid: "104067524"
 [**Очередь печати**](c-printqueue.md)  
 [**Политика запроса**](c-querypolicy.md)  
 [**Удаленный адрес электронной почты — получатель**](c-remotemailrecipient.md)  
-[**Точка удаленного хранилища службы**](c-remotestorageservicepoint.md)  
+[**удаленная служба хранилища-точка службы**](c-remotestorageservicepoint.md)  
 [**Частный пользователь**](c-residentialperson.md)  
 [**rFC822LocalPart**](c-rfc822localpart.md)  
 [**Диспетчер RID**](c-ridmanager.md)  
 [**RID-Set**](c-ridset.md)  
-[**залах**](c-room.md)  
+[**комната**](c-room.md)  
 [**RPC-Container**](c-rpccontainer.md)  
 [**Запись RPC**](c-rpcentry.md)  
 [**RPC — группа**](c-rpcgroup.md)  
@@ -255,7 +255,7 @@ ms.locfileid: "104067524"
 [**Владел**](c-secret.md)  
 [**Безопасность — объект**](c-securityobject.md)  
 [**Безопасность — участник**](c-securityprincipal.md)  
-[**Сервером**](c-server.md)  
+[**Сервер**](c-server.md)  
 [**Серверы — контейнер**](c-serverscontainer.md)  
 [**Служба — Администрирование — точка**](c-serviceadministrationpoint.md)  
 [**Класс службы**](c-serviceclass.md)  
@@ -267,20 +267,20 @@ ms.locfileid: "104067524"
 [**Ссылка на сайт**](c-sitelink.md)  
 [**Site-Link-Bridge**](c-sitelinkbridge.md)  
 [**Сайты — контейнеры**](c-sitescontainer.md)  
-[**Память**](c-storage.md)  
+[**Хранилище**](c-storage.md)  
 [**Подсеть**](c-subnet.md)  
 [**Подсеть — контейнер**](c-subnetcontainer.md)  
 [**Подсхема**](c-subschema.md)  
 [**Вверх**](c-top.md)  
 [**Доверенный домен**](c-trusteddomain.md)  
 [**Библиотека типов**](c-typelibrary.md)  
-[**Нажат**](c-user.md)  
-[**Том**](c-volume.md)  
+[**Пользователь**](c-user.md)  
+[**Громкость**](c-volume.md)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

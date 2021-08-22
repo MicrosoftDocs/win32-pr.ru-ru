@@ -4,27 +4,27 @@ description: Диалоговое окно задачи создается и о
 ms.assetid: CCEFF52F-D501-4145-9799-0A9C529017E1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ea8e3097454505acccf60c7cba3ef56c637af0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f6f74f1922330cae1550fda1a9ad6d451221452017f3856ae5e859948019828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504024"
 ---
 # <a name="how-to-create-task-dialogs"></a>Создание диалоговых окон задач
 
 Диалоговое окно задачи создается и отображается с помощью функции [**таскдиалог**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialog) или функции [**таскдиалогиндирект**](/windows/desktop/api/Commctrl/nf-commctrl-taskdialogindirect) .
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -36,16 +36,16 @@ ms.locfileid: "104067548"
 
 Функция **таскдиалогиндирект** является более мощной, поддерживающей все доступные элементы интерфейса, а также позволяет записывать события в процедуру обратного вызова, чтобы приложение может обновить индикатор выполнения или ответить на щелчок гиперссылки или кнопки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование диалоговых окон задач](using-task-dialogs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

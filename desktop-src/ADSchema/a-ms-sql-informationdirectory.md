@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Информатиондиректори
+title: атрибут MS-SQL-информатиондиректори
 description: Информационный каталог для текущего экземпляра SQL Server.
 ms.assetid: fec29b94-b136-4862-8615-7190b3b45ec3
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута MS-SQL-Информатиондиректори
-- Схема AD атрибута mS-SQL-Информатиондиректори
+- схема AD атрибута информатиондиректори MS-SQL-
+- схема AD атрибута информатиондиректори mS-SQL-
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a5ca19d6c746e6e5874e82010fcbca367c1157
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8db146222e023a3c88ca6275429aee98daee27a671d0e9a5622dc6029481e182
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119299784"
 ---
-# <a name="ms-sql-informationdirectory-attribute"></a>Атрибут MS-SQL-Информатиондиректори
+# <a name="ms-sql-informationdirectory-attribute"></a>атрибут MS-SQL-информатиондиректори
 
 Информационный каталог для текущего экземпляра SQL Server.
 
@@ -29,14 +29,14 @@ ms.locfileid: "105655495"
 
 | Ввод | Значение |
 |-------------------|------------------------------------------|
-| CN                | MS-SQL-Информатиондиректори              |
-| LDAP-отображаемое имя | mS-SQL-Информатиондиректори              |
+| CN                | MS-SQL-информатиондиректори              |
+| LDAP-отображаемое имя | mS-SQL-информатиондиректори              |
 | Размер              | \-                                       |
 | Привилегия обновления  | Администратор домена                     |
 | Частота обновления  | При запуске системы или при обновлении AD. |
 | Attribute-Id      | 1.2.840.113556.1.4.1392                  |
 | System-ID — GUID    | d0aedb2e-ccee-11d2-9993-0000f87a57d4     |
-| Синтаксис            | [**Логическая**](s-boolean.md)             |
+| Синтаксис            | [**Логическое**](s-boolean.md)             |
 
 
 
@@ -66,7 +66,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "105655495"
 | Range-Upper            | \-                                                                |
 | Search-Flags           | 0x00000000                                                        |
 | System-Flags           | 0x00000010                                                        |
-| Классы, используемые в        | [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b19203e5c44d0389e64531867444d1bb2865196
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9fa1766cfbac1ecc6678d88dd6de43dc465f9ccc86023043bd3dd5236691a036
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295154"
 ---
 # <a name="ms-ds-members-for-az-role-attribute"></a>атрибут роли MS-DS-Members-for-AZ-Role
 

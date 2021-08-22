@@ -3,19 +3,19 @@ title: Элемент THEME
 description: Элемент THEME
 ms.assetid: fe7e793e-1774-412c-aed2-721ed2cf1bb3
 keywords:
-- Обложки проигрывателя Windows Media, элемент THEME
+- обложки проигрыватель Windows Media, элемент THEME
 - обложки, элемент THEME
 - Элемент THEME
 - Справочник по обложкам, элементу THEME
 - элементы, тема
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cd0d40b4b020cf5416569417401af9e4f3a33b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c15091ffa93e3ae64a06979580931c27bdf4c1cd2e26c7acc206d76de8b0fc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507394"
 ---
 # <a name="theme-element"></a>Элемент THEME
 
@@ -32,11 +32,11 @@ ms.locfileid: "103887996"
 | [Информация](theme-copyright.md)         | Указывает или получает строку авторских прав для обложки.                                                                       |
 | [куррентвиевид](theme-currentviewid.md) | Указывает или получает отображаемое в данный момент **представление**.                                                                        |
 | [title](theme-title.md)                 | Указывает или получает заголовок обложки.                                                                                   |
-| [version](theme-version.md)             | Указывает или получает номер версии проигрывателя Windows Media, для которого была создана оболочка. Можно задать только во время разработки. |
+| [version](theme-version.md)             | указывает или получает номер версии проигрыватель Windows Media, для которой была создана оболочка. Можно задать только во время разработки. |
 
 
 
- 
+ 
 
 Элемент **Theme** поддерживает следующие методы.
 
@@ -56,20 +56,20 @@ ms.locfileid: "103887996"
 
 
 
- 
+ 
 
 Элемент **Theme** не поддерживает обработчики событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

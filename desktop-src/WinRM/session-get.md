@@ -4,9 +4,9 @@ description: Извлекает ресурс, указанный с помощь
 ms.assetid: 873242fd-9da3-42f4-a18e-258fedba77ec
 ms.tgt_platform: multiple
 keywords:
-- Получение метода служба удаленного управления Windows
-- Получение метода служба удаленного управления Windows, объект Session
-- Объект Session служба удаленного управления Windows, метод Get
+- получение метода служба удаленного управления Windows
+- получение метода служба удаленного управления Windows, объект Session
+- объект Session служба удаленного управления Windows, метод Get
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e4ee84cc711db312389151d1dd95fb890474dcd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c983c5f95ddfa3acc88b85b383ec85ddf85f885293031fe9bc4e4e07c90850a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104341020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642564"
 ---
 # <a name="sessionget-method"></a>Session. Get, метод
 
@@ -51,7 +51,7 @@ Session.Get( _
 
 Этот параметр может содержать одно из следующих:
 
--   Универсальный код ресурса (URI) с [*селекторами*](windows-remote-management-glossary.md)или без них. При вызове метода **Get** с селектором для получения ресурса WMI используйте ключевое свойство или свойства объекта. Например, в Visual Basic приведенном ниже примере кода сценария VBScript ключ задается с помощью `Win32_Service?Name=winmgmt` . Для одноэлементных классов, таких как [**Win32 \_ localtime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime), нельзя использовать селектор.
+-   Универсальный код ресурса (URI) с [*селекторами*](windows-remote-management-glossary.md)или без них. При вызове метода **Get** с селектором для получения ресурса WMI используйте ключевое свойство или свойства объекта. например, в Visual Basic приведенном ниже примере кода сценария VBScript ключ задается с помощью `Win32_Service?Name=winmgmt` . Для одноэлементных классов, таких как [**Win32 \_ localtime**](/previous-versions/windows/desktop/wmitimepprov/win32-localtime), нельзя использовать селектор.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" _ 
@@ -179,7 +179,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -187,18 +187,18 @@ End Sub
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

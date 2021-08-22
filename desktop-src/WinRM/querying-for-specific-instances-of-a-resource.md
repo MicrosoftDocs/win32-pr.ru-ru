@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 30ae068c712dd04ba892220657ad64820a890040
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f757b6392ec26f809004d599f6c5603629d23e8eb7a7f4b08a4f3a4ef18791a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105700869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642854"
 ---
 # <a name="querying-for-specific-instances-of-a-resource"></a>Запрос конкретных экземпляров ресурса
 
@@ -48,7 +48,7 @@ ms.locfileid: "105700869"
 
     
 
-3.  Создайте строку фильтра. Служба удаленного управления Windows поддерживает [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) в качестве диалекта фильтра.
+3.  Создайте строку фильтра. Windows Удаленное управление поддерживает [WQL](/windows/desktop/WmiSdk/wql-sql-for-wmi) в качестве диалекта фильтра.
 
     ```VB
     strFilter = "SELECT * FROM Win32_NetworkAdapterConfiguration WHERE IpEnabled=TRUE"
@@ -112,11 +112,11 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
 [Перечисление или вывод всех экземпляров ресурса](enumerating-or-listing-all-instances-of-a-resource.md)
@@ -125,6 +125,6 @@ End Sub
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

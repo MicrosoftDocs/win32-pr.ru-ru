@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 0e2f9fcfecc44ee6d0769e00805c0aee512b2e7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 801db7f1e14002aa6333b18349e259e40928a0cd45958c0e1aa618d1d1143be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119303334"
 ---
 # <a name="ec_dvd_still_on"></a>\_ \_ все еще на DVD-диске EC \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105651676"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все сочетания кнопок и по-прежнему возможны (кнопки со всеми по-прежнему включены, кнопки с по-прежнему отключены, кнопка отключена, кнопка выключена.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105651676"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 

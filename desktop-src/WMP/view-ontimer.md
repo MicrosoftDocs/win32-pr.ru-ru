@@ -3,7 +3,7 @@ title: Просмотр. OnTime
 description: Событие OnTime обрабатывает события таймера.
 ms.assetid: 038bd483-9029-4de6-b40e-de3e615a4c04
 keywords:
-- Просмотр. OnTime проигрыватель Windows Media
+- проигрыватель Windows Media представления. ontime
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 91c93919c152bfa2f42b872ac5aa624f42de2b11
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6355f94775a22fca9ff309b0207e2b3e5256cd060327a23f34f75099e50f862
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615434"
 ---
 # <a name="viewontimer"></a>Просмотр. OnTime
 
@@ -28,21 +28,21 @@ ms.locfileid: "105718055"
 ontimer
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **тимеринтервал** указывает интервал, с которым будут срабатывать события таймера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

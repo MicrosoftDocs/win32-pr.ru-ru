@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d0678e9da6f0b68047708f45fda1c9da66d8139
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32216eab9a7c7613f082470360d3f938bbdeaf8ae38cd875d84cd0338dfa78c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491774"
 ---
 # <a name="glrotated-function"></a>Функция Глротатед
 
@@ -87,7 +87,7 @@ void WINAPI glRotated(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глротатед** выдает матрицу, которая выполняет поворот *угла* в градусах против часовой стрелки относительно вектора от начала координат до точки (*x*, *y*, *z*).
 
@@ -107,7 +107,7 @@ void WINAPI glRotated(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ \_ Матрица текстуры GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -121,7 +121,7 @@ void WINAPI glRotated(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

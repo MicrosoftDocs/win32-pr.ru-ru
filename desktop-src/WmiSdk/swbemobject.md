@@ -1,5 +1,5 @@
 ---
-description: Методы и свойства объекта SWbemObject можно использовать для представления одного определения класса инструментарий управления Windows (WMI) (WMI) или экземпляра объекта.
+description: методы и свойства объекта SWbemObject можно использовать для представления одного определения класса инструментарий управления Windows (WMI) (WMI) или экземпляра объекта.
 ms.assetid: d303ec1a-5e0c-4a5e-8ed3-ed353a138755
 ms.tgt_platform: multiple
 title: Объект SWbemObject (Wbemdisp. h)
@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 287395b976177170c8bdffa0e1817a8755a4d397
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e33a3a0a5028292ce7cef7b44a37433b00f942ea9459ec18e6d53e1cf9a43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504054"
 ---
 # <a name="swbemobject-object"></a>Объект SWbemObject
 
-Методы и свойства объекта **SWbemObject** можно использовать для представления одного определения класса инструментарий управления Windows (WMI) (WMI) или экземпляра объекта. Не удается создать этот объект с [помощью вызова функции](/previous-versions//xzysf6hc(v=vs.85)) VBScript.
+методы и свойства объекта **SWbemObject** можно использовать для представления одного определения класса инструментарий управления Windows (WMI) (WMI) или экземпляра объекта. Не удается создать этот объект с [помощью вызова функции](/previous-versions//xzysf6hc(v=vs.85)) VBScript.
 
 Этот объект поддерживает два типа свойств и методов. Те, которые определены в этом разделе, являются универсальными свойствами и методами, применяемыми ко всем объектам WMI. Кроме того, этот объект предоставляет свойства и методы базового объекта в виде динамических свойств автоматизации и методов **SWbemObject**. Имена и типы этих свойств и методов зависят от базового объекта WMI. Дополнительные сведения о том, как предоставляются эти динамические свойства и методы, см. в разделе [Управление сведениями о классе и экземпляре](manipulating-class-and-instance-information.md).
 
@@ -88,12 +88,12 @@ WScript.Echo objInstancePath.Path
 | [**ассоЦиаторсасинк\_**](swbemobject-associatorsasync-.md)   | Асинхронно извлекает соединители объекта.<br/>                                      |
 | [**Клонировать\_**](swbemobject-clone-.md)                         | Создает копию текущего объекта.<br/>                                                          |
 | [**CompareTo\_**](swbemobject-compareto-.md)                 | Проверяет два объекта на равенство.<br/>                                                              |
-| [**Удалить\_**](swbemobject-delete-.md)                       | Удаляет объект из WMI.<br/>                                                                 |
+| [**Удален\_**](swbemobject-delete-.md)                       | Удаляет объект из WMI.<br/>                                                                 |
 | [**DeleteAsync\_**](swbemobject-deleteasync-.md)             | Асинхронно удаляет объект из WMI.<br/>                                                  |
 | [**ExecMethod\_**](swbemobject-execmethod-.md)               | Выполняет метод, экспортированный поставщиком метода.<br/>                                             |
 | [**ексекмесодасинк\_**](swbemobject-execmethodasync-.md)     | Асинхронно выполняет метод, экспортированный поставщиком метода.<br/>                              |
 | [**жетобжекттекст\_**](swbemobject-getobjecttext-.md)         | Извлекает текстовое представление объекта (синтаксис MOF).<br/>                             |
-| [**Экземпляры\_**](swbemobject-instances-.md)                 | Возвращает коллекцию экземпляров объекта (который должен быть классом WMI).<br/>                 |
+| [**Вхождений\_**](swbemobject-instances-.md)                 | Возвращает коллекцию экземпляров объекта (который должен быть классом WMI).<br/>                 |
 | [**инстанцесасинк\_**](swbemobject-instancesasync-.md)       | Асинхронно возвращает коллекцию экземпляров объекта (который должен быть классом WMI).<br/>  |
 | [**PUT\_**](swbemobject-put-.md)                             | Создает или обновляет объект в WMI.<br/>                                                        |
 | [**путасинк\_**](swbemobject-putasync-.md)                   | Асинхронно создает или обновляет объект в WMI.<br/>                                         |
@@ -101,7 +101,7 @@ WScript.Echo objInstancePath.Path
 | [**референцесасинк\_**](swbemobject-referencesasync-.md)     | Асинхронно возвращает ссылки на объект.<br/>                                             |
 | [**SpawnDerivedClass\_**](swbemobject-spawnderivedclass-.md) | Создает новый производный класс из текущего объекта (который должен быть классом WMI).<br/>             |
 | [**SpawnInstance\_**](swbemobject-spawninstance-.md)         | Создает новый экземпляр из текущего объекта.<br/>                                              |
-| [**Подклассы\_**](swbemobject-subclasses-.md)               | Возвращает коллекцию подклассов объекта (который должен быть классом WMI).<br/>                |
+| [**используются подклассы ;\_**](swbemobject-subclasses-.md)               | Возвращает коллекцию подклассов объекта (который должен быть классом WMI).<br/>                |
 | [**субклассесасинк\_**](swbemobject-subclassesasync-.md)     | Асинхронно возвращает коллекцию подклассов объекта (который должен быть классом WMI).<br/> |
 
 
@@ -121,7 +121,7 @@ WScript.Echo objInstancePath.Path
 | [**Путь\_**](swbemobject-path-.md)<br/>             | Только для чтения<br/> | Содержит объект [**свбемобжектпас**](swbemobjectpath.md) , представляющий путь к объекту текущего класса или экземпляра.<br/> |
 | [**Свойства\_**](swbemobject-properties-.md)<br/> | Только для чтения<br/> | Объект [**SWbemPropertySet**](swbempropertyset.md) , являющийся коллекцией свойств для данного объекта.<br/>                    |
 | [**Квалификаторы\_**](swbemobject-qualifiers-.md)<br/> | Только для чтения<br/> | Объект [**свбемкуалифиерсет**](swbemqualifierset.md) , являющийся коллекцией квалификаторов для данного объекта.<br/>                  |
-| [**Безопасность\_**](swbemobject-security-.md)<br/>     | Только для чтения<br/> | Содержит объект [**свбемсекурити**](swbemsecurity.md) , используемый для чтения или изменения параметров безопасности.<br/>                         |
+| [**Бюллетеня\_**](swbemobject-security-.md)<br/>     | Только для чтения<br/> | Содержит объект [**свбемсекурити**](swbemsecurity.md) , используемый для чтения или изменения параметров безопасности.<br/>                         |
 
 
 
@@ -131,7 +131,7 @@ WScript.Echo objInstancePath.Path
 
 [Список всех свойств и методов для](https://Gallery.TechNet.Microsoft.Com/f0666124-3b67-4254-8ff1-3b75ae15776d) примера кода VBScript класса WMI в коллекции TechNet использует SWbemObject для перечисления всех методов и свойств для УКАЗАННОГО класса WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -139,7 +139,7 @@ WScript.Echo objInstancePath.Path
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |
@@ -147,7 +147,7 @@ WScript.Echo objInstancePath.Path
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

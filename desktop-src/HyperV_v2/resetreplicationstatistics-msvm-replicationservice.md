@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8407e20cb38c9aecac26ab0bcee99ce0c8a6be2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30f9e975b1e0b49d62b844ebee3de7111259c1f12a48ee0ff1f766131c7a6eb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531024"
 ---
 # <a name="resetreplicationstatistics-method-of-the-msvm_replicationservice-class"></a>Метод Ресетрепликатионстатистикс \_ класса Репликатионсервице мсвм
 
 Сбрасывает статистику репликации для виртуальной машины и действует в отношении первичной репликации виртуальной машины.
 
 > [!Note]  
-> Начиная с Windows 8.1 мы рекомендуем не использовать **ресетрепликатионстатистикс** для сброса статистики репликации. Вместо этого используйте [**ресетрепликатионстатистиксекс**](resetreplicationstatisticsex-msvm-replicationservice.md).
+> начиная с Windows 8.1 мы рекомендуем не использовать **ресетрепликатионстатистикс** для сброса статистики репликации. Вместо этого используйте [**ресетрепликатионстатистиксекс**](resetreplicationstatisticsex-msvm-replicationservice.md).
 
  
 
@@ -107,21 +107,21 @@ uint32 ResetReplicationStatistics(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

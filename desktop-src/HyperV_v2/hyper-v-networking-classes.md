@@ -4,12 +4,12 @@ ms.assetid: ADD2903B-24BE-4877-B7D4-A1BDEE53FA29
 title: Справочник по API сетевых интерфейсов Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84f187846bc1be35408ccf2d3f9046b1d6dfc8d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 068873572d9b1889bc5a0d67e13c6cc67bd4c8097d69acafd63f30ded3fa3646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119532174"
 ---
 # <a name="hyper-v-networking-api-reference"></a>Справочник по API сетевых интерфейсов Hyper-V
 

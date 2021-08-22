@@ -4,12 +4,12 @@ description: В этом разделе описывается программ�
 ms.assetid: 8e7a6f64-0a2b-4ea5-a6a6-7bfb87e27dcc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed8e6b0b4d249c46dafe960f4f25a9a7598d6e2c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 45b3872fbfaf63a53a07c8c06246088a5eec1791f98be867adbe56ae1d9c7724
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565574"
 ---
 # <a name="graphics-pipeline"></a>Графический конвейер
 
@@ -41,7 +41,7 @@ ms.locfileid: "104414173"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

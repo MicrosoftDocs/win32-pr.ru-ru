@@ -3,7 +3,7 @@ title: Код уведомления EN_CLIPFORMAT (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Rich Edit, что вставка выполнялась с определенным форматом буфера обмена. Безоконный элемент управления "поле ввода" отправляет это уведомление с помощью метода Ткснотифи Итекссост.
 ms.assetid: 79FE1350-4D45-447B-B705-63E966AC7F0E
 keywords:
-- EN_CLIPFORMAT кода уведомления элементы управления Windows
+- EN_CLIPFORMAT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0430e8a4dba0b1a18f81f4e28ec67f2c93551cd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f4ad87f1c05ac9f5461da8a4ee1d26295be0ae1baafd8991801efc0d90197a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437044"
 ---
 # <a name="en_clipformat-notification-code"></a>\_Код уведомления EN клипформат
 
@@ -56,7 +56,7 @@ EN_CLIPFORMAT
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить \_ коды уведомлений EN клипформат, укажите [**енм \_ клипформат**](rich-edit-control-event-mask-flags.md) в маске, отправляемой с сообщением [**EM \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -66,9 +66,9 @@ EN_CLIPFORMAT
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

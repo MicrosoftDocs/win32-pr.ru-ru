@@ -1,21 +1,21 @@
 ---
-description: В разделе окон описываются элементы приложения с графическим пользовательским интерфейсом на основе Windows.
+description: в разделе окон описываются элементы приложения с графическим пользовательским интерфейсом на основе Windows.
 ms.assetid: 2e00186d-cc1f-4954-a074-685efacb46de
-title: Окна и сообщения
+title: Windows и сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed13b7507ba48a984d5eb1bb237794fb54434f01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21f30a34033ea34a384e3895e92145dc25068eb9aea424a80487514dc46087c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587684"
 ---
-# <a name="windows-and-messages"></a>Окна и сообщения
+# <a name="windows-and-messages"></a>Windows и сообщения
 
-В следующих разделах описываются элементы приложения с графическим пользовательским интерфейсом на основе Windows.
+в следующих разделах описываются элементы приложения с графическим пользовательским интерфейсом на основе Windows.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

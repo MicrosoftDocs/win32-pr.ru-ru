@@ -4,12 +4,12 @@ description: Float16 на уровне компонентов для преоб�
 ms.assetid: CFAA1350-DA7F-4105-A90A-72052C5E2FB3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d53af1f2eab1f50dfded820bf27b2cda8f23e6b4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0cc4456737d5ddaaed351ae2a1cc76418c33af9c498e725099e1912d8fabe7ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562660"
 ---
 # <a name="f16tof32-sm5---asm"></a>f16tof32 (SM5-ASM)
 
@@ -35,7 +35,7 @@ Float16 на уровне компонентов для преобразован
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция выполняет покомпонентное преобразование значения float16 из ЛСБ разрядов в результат float32.
 
@@ -63,7 +63,7 @@ Float16 на уровне компонентов для преобразован
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -74,7 +74,7 @@ Float16 на уровне компонентов для преобразован
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

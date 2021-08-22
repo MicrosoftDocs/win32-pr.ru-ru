@@ -8,12 +8,12 @@ keywords:
 - Резервное копирование хранилища единственных экземпляров (SIS), точки повторного анализа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4987e7c64a83e7d0b02ed91899a182616be7943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00f89901df6ce1fea1635d4250f2884ec9baf68fb1552766564909486c8ed00a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588864"
 ---
 # <a name="sis-links-and-reparse-points"></a>Ссылки SIS и точки повторного анализа
 
@@ -29,6 +29,6 @@ SIS — это драйвер фильтра NTFS, который заменяе
 
 Единственными дополнительными издержками, необходимыми для резервного копирования с помощью SIS, является то, что приложение резервного копирования должно создать резервную копию канала SIS и данные, связанные с резервными файлами. Все операции резервного копирования и восстановления SIS являются локальными для определенного тома.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 689dbda1-0692-411d-9727-2fdf1df960ec
 title: Режим адресации цветовой текстуры границы (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b42b18d88f3b9305d0602e43a9528357a9397d6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19e0685359227f80a847174157117e90116cffe8e61a48e172451a83aa8ec5fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496323"
 ---
 # <a name="border-color-texture-address-mode-direct3d-9"></a>Режим адресации цветовой текстуры границы (Direct3D 9)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104423434"
 
 Приложения задают цвет границы путем вызова [**IDirect3DDevice9:: сетсамплерстате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsamplerstate). Задайте первый параметр для вызова требуемого идентификатора стадии текстуры, второй параметр — \_ значение состояния D3DSAMP, а третий параметр — для нового цвета границы RGBA.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
