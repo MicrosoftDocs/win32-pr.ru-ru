@@ -4,18 +4,18 @@ ms.assetid: 3e71aa0f-d135-4311-96f3-305762543627
 title: Проверка сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebf62be707efcbd3ab3a5eca5345261ca1a0fde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a90850a88ede875ae41549bca79aceb2d7bdea17db6f50eeb1a3a5e6dfb9a921
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915093"
 ---
 # <a name="verifying-a-message"></a>Проверка сообщения
 
 В следующем примере показан код для получения и проверки подписанного сообщения. Пример получает буфер подписи и его размер в Сигнатуребуффер и Сигнатуребуфферсизе, а также буфер сообщения и его размер в MessageBuffer и Мессажебуфферсизе.
 
-В примере предполагается, что инициализирована переменная **сечандле** с именем фконтекст и структура **сокета** с именем s. Объявления и инициации этих переменных см. в разделе [Использование SSPI с клиентом сокетов Windows](using-sspi-with-a-windows-sockets-client.md) и [Использование SSPI с сервером Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Этот код включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
+В примере предполагается, что инициализирована переменная **сечандле** с именем фконтекст и структура **сокета** с именем s. объявления и инициации этих переменных см. в разделе [использование sspi с клиентом Windows sockets](using-sspi-with-a-windows-sockets-client.md) и [использование sspi с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md). Этот код включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
 
 
 ```C++

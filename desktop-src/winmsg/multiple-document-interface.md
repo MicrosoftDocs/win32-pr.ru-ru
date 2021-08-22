@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\multipledocumentinte
 title: Интерфейс с несколькими документами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1898202aad6ec8d26f859bec2457124328c3a27b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d579d1075f85fae7cd2d4ca6e63e1b8196c6d2118e33102cd511a1e468a18ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705363"
 ---
 # <a name="multiple-document-interface"></a>Интерфейс с несколькими документами
 

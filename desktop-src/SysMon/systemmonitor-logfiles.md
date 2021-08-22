@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8127433319290b44498b272834923784b714052
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bed0ea39809d3dfe40ebcedf2fbf2105833af836c12b95ffdfe442d3956d52a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882184"
 ---
 # <a name="systemmonitorlogfiles-property"></a>Системмонитор. файл_журнала, свойство
 
@@ -40,7 +40,7 @@ Property LogFiles As ILogFiles
 
 Коллекция объектов [**логфилеитем**](logfileitem.md) , которые указывают файлы журналов, используемые в качестве источника данных для графа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы добавить или удалить файл журнала из коллекции файлов журнала, значение [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) не должно быть установлено в сисмонлогфилес.
 

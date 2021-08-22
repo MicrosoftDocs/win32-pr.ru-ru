@@ -4,12 +4,12 @@ ms.assetid: 4a8597ad-97ba-4141-9e65-9a843000c3b2
 title: Использование Маилслотс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a3c69b7f3fb5bea87a2aedc36114dc2beb8ba3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 214bd58b3ef3fe57669dc733f4e8ce2da9f44e39e9041c3e357804e8955bf929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755866"
 ---
 # <a name="using-mailslots"></a>Использование Маилслотс
 

@@ -4,16 +4,16 @@ description: Прерывание Иажентчарактер
 ms.assetid: ae05d317-e2d9-4d11-a6df-f9b25e43467a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17c9f19f716b15a48ec3cdb064aa4c0fdbbd1774
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 64ea2529d4da78607d3ad22bf688857c8917e3317df17ae9a5eb99d0b184878e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750909"
 ---
 # <a name="iagentcharacterinterrupt"></a>Иажентчарактер:: interrupt
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Interrupt(
@@ -48,6 +48,6 @@ HRESULT Interrupt(
 
 Этот метод нельзя использовать для самостоятельного прерывания символа, поскольку сервер Microsoft Agent помещает метод **прерывания** в очередь анимации символа. Таким образом, **прерывание** можно использовать только для остановки анимации другого символа, который вы загрузили.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 692bceb6-f5bd-4b83-ab3b-ef8099dc84e1
 title: Учетная запись LocalSystem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0132e70044aec7886ce6875239a6bedb502fec8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d4dca5655402b3b4f400d3c1941ccf3978a7d385363567fac01a1d3024f1dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889445"
 ---
 # <a name="localsystem-account"></a>Учетная запись LocalSystem
 

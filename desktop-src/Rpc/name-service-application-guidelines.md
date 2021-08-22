@@ -4,12 +4,12 @@ description: При разработке распределенного прил
 ms.assetid: cda997b3-6031-4c0f-affc-c766ba4b7fd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c67af441da7a51917ae92751345e860e6b0fc92b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7e0e79f8ddb9e2076da8d7b8d2c275cb1b1941f6867bfea68dd46bc6c352d49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927833"
 ---
 # <a name="name-service-application-guidelines"></a>Рекомендации по именам приложений службы
 
@@ -29,9 +29,9 @@ ms.locfileid: "103986660"
 
 В этом случае клиент может найти ресурс по имени, импортировав его из соответствующей записи сервера. Он не требует UUID объекта ресурса. Если он имеет UUID ресурса, но не имеет имени, он может импортировать из записи **null** .
 
- 
+ 
 
- 
+ 
 
 
 

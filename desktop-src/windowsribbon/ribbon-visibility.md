@@ -1,29 +1,29 @@
 ---
 title: Отображение ленты
-description: Платформа Windows Ribbon предоставляет набор свойств, позволяющих приложению указать способ отображения ленты во время выполнения.
+description: платформа Windows Ribbon предоставляет набор свойств, позволяющих приложению указать способ отображения ленты во время выполнения.
 ms.assetid: c6716183-ef32-4fb2-812a-2d8f27448db5
 keywords:
-- Лента Windows, Настройка цветов
+- Windows Лента, Настройка цветов
 - Лента, Настройка цветов
-- Настройка цветов ленты Windows
+- настройка Windows цветов ленты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090c77c5b47afd673bc7132a87e3de336683d876
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4b61bae9bae5620d556f26f6c7103ef222f14892c8ce12acd21289dd7bc53b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964441"
 ---
 # <a name="displaying-the-ribbon"></a>Отображение ленты
 
-Платформа Windows Ribbon предоставляет набор свойств, позволяющих приложению указать способ отображения ленты во время выполнения.
+платформа Windows Ribbon предоставляет набор свойств, позволяющих приложению указать способ отображения ленты во время выполнения.
 
 -   [Введение](#introduction)
 -   [Уменьшение ленты](#minimize-the-ribbon)
 -   [Скрыть ленту](#hide-the-ribbon)
 -   [Пример](#example)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -40,7 +40,7 @@ ms.locfileid: "104070296"
 
 
 
- 
+ 
 
 ## <a name="minimize-the-ribbon"></a>Уменьшение ленты
 
@@ -55,7 +55,7 @@ ms.locfileid: "104070296"
 
 
 
- 
+ 
 
 Когда пользовательский интерфейс ленты находится в режиме сворачивания, строка вкладки ленты остается видимой и полностью функциональной.
 
@@ -66,7 +66,7 @@ ms.locfileid: "104070296"
 > [!Note]  
 > Платформа Ribbon предоставляет эту функцию конечному пользователю с помощью выбора "сворачивания ленты" в контекстном меню ленты.
 
- 
+ 
 
 ## <a name="hide-the-ribbon"></a>Скрыть ленту
 
@@ -81,7 +81,7 @@ ms.locfileid: "104070296"
 
 
 
- 
+ 
 
 В отличие от свойства [с \_ \_ минимальным пользовательским интерфейсом](windowsribbon-reference-properties-uipkey-minimized.md) , параметр [UI \_ PKEY, \_ видимый](windowsribbon-reference-properties-uipkey-viewable.md) в **значение false** , отображает невидимый пользовательский интерфейс ленты и полностью непригоден для использования конечному пользователю.
 
@@ -164,13 +164,13 @@ STDMETHODIMP CCommandHandler::Execute(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Свойства ленты](windowsribbon-reference-properties-ribbon.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

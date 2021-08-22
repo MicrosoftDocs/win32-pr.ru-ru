@@ -4,24 +4,24 @@ ms.assetid: 2b7ea11c-ade5-40f6-9ada-cd13296844ac
 title: Мсиуисаурцересонли, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e34f619c23b942c3d17f8a3770c0cbbf5c419d5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7350d6da66eb883cfbe1da182fd726e8dc54e1617dedb3a3f92fc3e7e21ad825
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943961"
 ---
 # <a name="msiuisourceresonly-property"></a>Мсиуисаурцересонли, свойство
 
 Установщик задает для свойства **мсиуисаурцересонли** значение 1, если для внутреннего уровня установки задано включение инсталлуилевел \_ Саурцересонли с функцией [**Мсисетинтерналуи**](/windows/desktop/api/Msi/nf-msi-msisetinternalui) или свойством [duilevel](installer-uilevel.md) объекта [**установщика**](installer-object.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "105675947"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

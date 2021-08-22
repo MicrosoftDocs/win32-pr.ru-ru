@@ -4,12 +4,12 @@ ms.assetid: 0ba753d1-d81a-4f7a-942c-2967c46febec
 title: Пример подключаемого модуля RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f593bf9e4fe0fb3d8ab12674047d6c05f28617a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a05fd9c70c11130011352d8c16d30abee672e4cd56c000c21b7fbfd2704babe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966883"
 ---
 # <a name="realtimestylus-plug-in-sample"></a>Пример подключаемого модуля RealTimeStylus
 
@@ -143,7 +143,7 @@ public void Packets(RealTimeStylus sender,  PacketsData data)
 
 
 
-## <a name="the-realtimestyluspluginapp-project"></a>Проект Реалтиместилусплугинапп
+## <a name="the-realtimestyluspluginapp-project"></a>Project Реалтиместилусплугинапп
 
 Проект Реалтиместилусплугинапп демонстрирует ранее описанные подключаемые модули, а также подключаемые модули [**GestureRecognizer**](gesturerecognizer-class.md) и [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) . Пользовательский интерфейс проекта состоит из следующих компонентов:
 
@@ -200,7 +200,7 @@ private void RemoveFromPluginCollection(int index)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

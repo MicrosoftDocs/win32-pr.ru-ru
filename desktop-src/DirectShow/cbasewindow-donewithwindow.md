@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc31e893a4015aa8b4356d265ca4065ee336c3ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6871a42e1a08693a7daf691195b86cd5a41dd208295dc625a33e41083b53adf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016672"
 ---
 # <a name="cbasewindowdonewithwindow-method"></a>Кбасевиндов. Доневисвиндов, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT DoneWithWindow();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызовите этот метод из метода деструктора производного объекта.
 
@@ -56,18 +56,18 @@ virtual HRESULT DoneWithWindow();
 
 Если поток вызывает `DoneWithWindow` не поток, создавший окно, метод отправляет в окно частное сообщение "Destroy". Когда окно получает это сообщение, оно вызывает `DoneWithWindow` сам себя. (Если [**кбасевиндов:: m \_ Бдопосттодестрой**](cbasewindow-m-bdoposttodestroy.md) имеет **значение true**, окно отправляет сообщение.)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -7,12 +7,12 @@ keywords:
 - имена функций OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e06d04d1acde3ddf9baebd4c5ab44b4f55cb126
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7729ca1f8a092c261a2ae87a835b51ea253ff2d09de710a830458c0825642bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936884"
 ---
 # <a name="opengl-function-names"></a>Имена функций OpenGL
 
@@ -20,9 +20,9 @@ ms.locfileid: "103776142"
 
 Результат функции OpenGL может изменяться в зависимости от того, включены ли определенные режимы. Например, необходимо включить освещение, если функции, связанные с освещением, должны создавать объект с надлежащим светом. Чтобы включить определенный режим, используйте функцию [**гленабле**](glenable.md) и укажите соответствующую константу для указания режима (например, « \_ освещение»). Чтобы отключить режим, используйте [**глдисабле**](gldisable.md). Полный список режимов, которые можно включить, см. в разделе **гленабле** .
 
- 
+ 
 
- 
+ 
 
 
 

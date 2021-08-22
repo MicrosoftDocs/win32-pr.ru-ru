@@ -3,7 +3,7 @@ title: Элемент ContextMenu
 description: Представляет элемент управления "контекстное меню".
 ms.assetid: 08cc0514-0795-4e6b-b80c-33d920783032
 keywords:
-- Лента Windows для элемента ContextMenu
+- элемент ContextMenu Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 916a031ed642a76fb22ecc58dbbe1ce29cbcd105
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4fb061c08635cff46ca80d803089ebc01c48c19cdcc9136b1052c5a0ef2c3a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707437"
 ---
 # <a name="contextmenu-element"></a>Элемент ContextMenu
 
@@ -167,7 +167,7 @@ ms.locfileid: "111443474"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

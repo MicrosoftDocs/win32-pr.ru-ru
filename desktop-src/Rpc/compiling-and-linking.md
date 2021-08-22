@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, компиляция и компоновка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1991e39cc028c01066cd8f13344765787374fa08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e2500a763db149eca914060dd7920548883fa57fbd5642485a41f5a55c65cd2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931717"
 ---
 # <a name="compiling-and-linking"></a>Компиляция и компоновка
 
@@ -68,9 +68,9 @@ hello.h hello_c.c hello_s.c : hello.idl hello.acf
     midl hello.idl
 ```
 
- 
+ 
 
- 
+ 
 
 
 

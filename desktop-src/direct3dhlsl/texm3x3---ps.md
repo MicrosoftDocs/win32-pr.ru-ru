@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6238a4b148de67275af1b288d57686cc4d381ee9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 17030bb99eb472b5cffe53474eb04c30159e5e30ffb2d219f1ac47dfce9da205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787737"
 ---
 # <a name="texm3x3---ps"></a>texm3x3-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104983837"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104983837"
 
 
 
- 
+ 
 
 Эта инструкция аналогична инструкции [texm3x3tex-PS](texm3x3tex---ps.md) без поиска текстур.
 
@@ -86,16 +86,16 @@ w<sup>"</sup> = TextureCoordinates (этап m + 2)<sub>УВВ</sub> \* t (n)<su
 
 t (m + 2)<sub>RGBA</sub> =<sup>(u,</sup> <sup>v, w, 1</sup> )<sup></sup>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

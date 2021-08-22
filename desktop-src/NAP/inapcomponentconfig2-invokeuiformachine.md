@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bc0c09f802a63a5bfad92b49f76fcbb4ee242d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8321425cf878bd9b3d8702f73fa464ae069420cd0e59f57e2500151fda01b191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940192"
 ---
 # <a name="inapcomponentconfig2invokeuiformachine-method"></a>Метод INapComponentConfig2:: Инвокеуиформачине
 
@@ -64,7 +64,7 @@ HRESULT InvokeUIForMachine(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение \_ ОК, если успешно, или один из стандартных кодов ошибок Windows.
+возвращает значение \_ ок, если успешно, или один из стандартных кодов ошибок Windows.
 
 ## <a name="requirements"></a>Требования
 
@@ -73,13 +73,13 @@ HRESULT InvokeUIForMachine(
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напкоммон. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

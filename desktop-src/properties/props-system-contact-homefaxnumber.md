@@ -4,12 +4,12 @@ ms.assetid: 0b2e9df1-4a06-4179-8cda-308d969f348b
 title: System. Contact. Хомефакснумбер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91562d6ff4857d9ceeaaa39a30ae443e83c9333
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394bd17a9eb079eae8778f7fe6d0f6c36328e84cc4ea9761bc3644320b350414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118729794"
 ---
 # <a name="systemcontacthomefaxnumber"></a>System. Contact. Хомефакснумбер
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

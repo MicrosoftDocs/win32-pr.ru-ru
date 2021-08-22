@@ -5,12 +5,12 @@ ms.assetid: ce589e18-02ac-42c2-b76b-776deb686bbd
 title: R (глоссарий по безопасности)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fc85a0da8aa4a0b985b8be040ef95e37068e8a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a566a939746cd65c6336e8f31ff05a7ee3f0a3b7954e9d790d3f15a8163f138b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895293"
 ---
 # <a name="r-security-glossary"></a>R (глоссарий по безопасности)
 
@@ -144,7 +144,7 @@ RDN Сущность, входящая в качестве субъекта в �
 <span id="_security_resource_manager_api_gly"></span><span id="_SECURITY_RESOURCE_MANAGER_API_GLY"></span>**API Resource Manager**
 </dt> <dd>
 
-Набор функций Windows, обеспечивающих прямой доступ к службам Resource Manager.
+набор функций Windows, обеспечивающих прямой доступ к службам resource manager.
 
 </dd> <dt>
 

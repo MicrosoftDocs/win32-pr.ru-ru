@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: ed05e110c13af8fe73eebf004183de42eb9fffd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbdd18d27c8b9f5f4b7567e6aa22fd0c74f5e2c2dc74d80e1f46aca4195b93ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717303"
 ---
 # <a name="itablet3ismultitouch-method"></a>Метод ITablet3:: Исмултитауч
 
@@ -51,7 +51,7 @@ HRESULT IsMultiTouch(
 
 Возвращает **\_ ОК** в случае успеха, в противном случае возвращает код ошибки, например **е \_ Failed**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После определения с помощью [**IRealTimeStylus3:: мултитаученаблед**](/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus3-get_multitouchenabled) или **ITablet3:: исмултитауч** , доступного для Мультисенсорная, приложение может выбрать для Мультисенсорная входных сообщений. Дополнительные сведения о методах фильтрации Мультисенсорная доступны в разделе Свойства **IRealTimeStylus3:: мултитаученаблед** .
 
@@ -72,8 +72,8 @@ spITablet3->get_IsMultiTouch(&b);
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
 | Библиотека<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 
 

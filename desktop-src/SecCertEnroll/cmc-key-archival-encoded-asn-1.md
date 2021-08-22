@@ -4,12 +4,12 @@ ms.assetid: 3bc81495-97c7-4ec0-91cd-4f70409b4762
 title: Заархивированный ключ CMC с кодированием ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f314a18413cd13451f71579b5ed647122c264a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5993be3829068c9bef5bb7ebc2551077a98f028574cfd9ff47c9988cae7faa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901719"
 ---
 # <a name="cmc-key-archival-encoded-asn1"></a>Заархивированный ключ CMC с кодированием ASN. 1
 
@@ -414,7 +414,7 @@ CertificateTemplate=User
 CertUtil: -asn command completed successfully.
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

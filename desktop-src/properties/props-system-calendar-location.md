@@ -4,12 +4,12 @@ ms.assetid: 014d4c90-f029-479a-bdc9-c1ef5c9e3529
 title: System. календар. Location
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4695bbedf0cce3a9781c1dea8c088d60ede483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6171691452d0d2196bbc3f789ad0af017cbc9fe245bc2bf6f72f66013cfb618d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731024"
 ---
 # <a name="systemcalendarlocation"></a>System. календар. Location
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

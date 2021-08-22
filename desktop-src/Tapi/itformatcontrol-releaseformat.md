@@ -4,16 +4,16 @@ ms.assetid: 67181773-5a04-4e20-9814-b004d3b549f5
 title: 'Метод Итформатконтрол:: Релеасеформат (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c91b3eb2a84149054d7ff364cf05290946bca975
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: daa6dc38ee13d2409c76820292eb6589e85d7d8025d2fb8816a693a0485b7191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865286"
 ---
 # <a name="itformatcontrolreleaseformat-method"></a>Метод Итформатконтрол:: Релеасеформат
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **релеасеформат** освобождает структуру, связанную с форматом.
 
@@ -61,13 +61,13 @@ HRESULT ReleaseFormat(
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

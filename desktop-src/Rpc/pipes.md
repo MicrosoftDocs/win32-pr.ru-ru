@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, описание, каналы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6c670b51dfe634fb5b3318e0a0b8a796cfbf988
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0c477dc249e400022efda21fef4055840c5095e74500f4ae0bea375310b1903f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927526"
 ---
 # <a name="pipes-rpc"></a>Каналы (RPC)
 

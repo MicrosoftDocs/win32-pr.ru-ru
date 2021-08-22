@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca1d5695c22c8b514475c6336c29ee70caa01f93
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f708c3f230b0345a9799abd617205864ec737f1bb2fb2a448fd3ba639d5bacb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736220"
 ---
 # <a name="basicdeviceremotestreamingurls-property"></a>Басикдевице. Ремотестреамингурлс, свойство
 
@@ -33,7 +33,7 @@ ms.locfileid: "104487665"
 
 ```C++
 HRESULT get_RemoteStreamingUrls(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -50,6 +50,6 @@ HRESULT get_RemoteStreamingUrls(
 [**басикдевице**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

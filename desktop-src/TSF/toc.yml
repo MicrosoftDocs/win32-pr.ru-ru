@@ -12,7 +12,7 @@
           href: what-is-text-services-framework.md
         - name: Зачем использовать платформу текстовых служб?
           href: why-use-text-services-framework.md
-        - name: Архитектура
+        - name: Architecture
           href: architecture.md
         - name: Как настроить платформу текстовых служб
           href: how-to-set-up-tsf.md
@@ -574,7 +574,7 @@
                   href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-setselection
                 - name: Завершение
                   href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-finalize
-                - name: Прервать
+                - name: Прерывание
                   href: /windows/desktop/api/Msctf/nf-msctf-itfcandidatelistuielementbehavior-abort
             - name: итфкандидатестринг
               href: /windows/desktop/api/Ctffunc/nn-ctffunc-itfcandidatestring
@@ -1030,7 +1030,7 @@
                   href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-getlanguageprofiledescription
                 - name: исенабледлангуажепрофиле
                   href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-isenabledlanguageprofile
-                - name: Регистрация
+                - name: Зарегистрировать
                   href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-register
                 - name: ремовелангуажепрофиле
                   href: /windows/desktop/api/Msctf/nf-msctf-itfinputprocessorprofiles-removelanguageprofile

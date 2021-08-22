@@ -4,12 +4,12 @@ ms.assetid: bee4236c-69e5-4281-a6b3-be316bac0a11
 title: Качество защиты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4643c9e2de77647a3adf2cbf0441e31bcf5be5de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 202acbf319601af74efc35117990f27cc6edff76f27da243453f82bf50984977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920453"
 ---
 # <a name="quality-of-protection"></a>Качество защиты
 
@@ -33,7 +33,7 @@ ms.locfileid: "104081326"
 
 
 
-| Flag                         | значение КОП               |
+| Флаг                         | значение КОП               |
 |------------------------------|-------------------------|
 | *Xxx* \_ \_Конфиденциальность требований  | "auth-conf" (только SASL) |
 | *Xxx* \_ \_обнаружение воспроизведения заявок \_   | "auth-int"              |

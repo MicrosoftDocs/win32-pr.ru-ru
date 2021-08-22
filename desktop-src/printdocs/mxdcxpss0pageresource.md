@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: 90f8a52ed3bd1bcba4c8f21a086627781bdbbf67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21035a99b6237c481a5b7560f469086ef2960d655ba32582ed273edb48910ba8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971183"
 ---
 # <a name="mxdc_xps_s0page_resource_t-structure"></a>\_Структура мксдк XPS \_ S0PAGE \_ Resource \_ T
 
@@ -78,7 +78,7 @@ typedef struct tagMxdcXpsS0PageResource {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура добавляется в структуру [**мксдк \_ Escape- \_ заголовка \_ T**](mxdcescapeheader.md) (для которой в качестве **кода операции** задано значение **мксдкоп \_ Set \_ S0PAGERESOURCE**), чтобы сделать [**мксдк \_ S0PAGE \_ ресурса \_ \_ t**](mxdcs0pageresourceescape.md) -структурой. Полученная **Структура \_ \_ Escape- \_ последовательности \_ ресурсов мксдк S0PAGE** передается в параметр *лпсзиндата* функции [**екстескапе**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) , которая вызывается с помощью escape- [**последовательности \_ мксдк**](mxdc-escape.md) . Результатом является отправка ресурса в МКСДК для преобразования и его запись в выходной файл.
 
@@ -92,9 +92,9 @@ typedef struct tagMxdcXpsS0PageResource {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
 
 
 

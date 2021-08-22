@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5e5e01b29281860dff59fbcd08a3b48ec66c4a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6b335f67ed4d392d189553f66655797e03121cbdee6ce19dffbd9803199f6c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429932"
 ---
 # <a name="dsrestoreregistercomplete-function"></a>Функция Дсресторерегистеркомплете
 
@@ -71,11 +71,11 @@ HRESULT DsRestoreRegisterComplete(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед перезагрузкой контроллера домена вызовите эту функцию, чтобы указать состояние операции восстановления. Если состояние не прошло успешно, Служба каталогов не запустится, пока не будет восстановлена допустимая база данных. Эта функция завершает операцию восстановления и позволяет запускать службы домен Active Directory.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,13 +85,13 @@ HRESULT DsRestoreRegisterComplete(
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                               |
 | Окончание поддержки клиента<br/>    | Ни одна версия не поддерживается<br/>                                                               |
 | Поддержка конца сервера<br/>    | Ни одна версия не поддерживается<br/>                                                               |
-| Header<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Нтдсбкли. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

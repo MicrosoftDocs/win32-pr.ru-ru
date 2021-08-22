@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: ad1177b2e92e47ca40c745e6cd5f1ea2cf259215
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93144125c21da2d29a0d71f56d8d865da4a07dda6adff2f25ce3528fca72b475
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756532"
 ---
 # <a name="wm_pointerwheel-message"></a>Сообщение WM_POINTERWHEEL
 
@@ -77,7 +77,7 @@ ms.locfileid: "104490029"
 
 Если приложение не обрабатывает это сообщение, оно должно вызывать [**дефвиндовпрок**](/windows/win32/api/winuser/nf-winuser-defwindowproca).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить единицы прокрутки колесика, используйте **inputData** , зафиксированную для структуры [**POINTER_INFO**](/previous-versions/windows/desktop/api) , возвращенной путем вызова функции [**жетпоинтеринфо**](/previous-versions/windows/desktop/api) . Это поле содержит значение со знаком и выражается в нескольких **WHEEL_DELTA**. Положительное значение обозначает поворот вперед, а отрицательное значение — поворот назад.
 
@@ -89,9 +89,9 @@ ms.locfileid: "104490029"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

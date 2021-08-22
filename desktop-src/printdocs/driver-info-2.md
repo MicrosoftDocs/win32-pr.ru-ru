@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: a88caf5aa10828b81dccefbe8118b3a57aebce97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb65f066286b5f5cd2fec935fb2223c25cf87fcc64d17de274b9b182a372440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732862"
 ---
 # <a name="driver_info_2-structure"></a>\_Структура сведений о драйвере \_ 2
 
@@ -63,7 +63,7 @@ typedef struct _DRIVER_INFO_2 {
 **пенвиронмент**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows x86, Windows IA64 и Windows x64).
+указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан драйвер (например, Windows x86, Windows IA64 и Windows x64).
 
 </dd> <dt>
 
@@ -84,11 +84,11 @@ typedef struct _DRIVER_INFO_2 {
 **пконфигфиле**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает имя файла или полный путь и имя файла для библиотеки конфигурации. DLL драйвера устройства (например, "c: \\ drivers \\Pscrptui.dll").
+Указатель на строку, завершающуюся нулем, которая указывает имя файла или полный путь и имя файла для .dll конфигурации драйвера устройства (например, "c: \\ drivers \\Pscrptui.dll").
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -96,7 +96,7 @@ typedef struct _DRIVER_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ драйвере (2W** Unicode) и **\_ \_ сведения о драйвере \_ 2A** (ANSI)<br/>                             |
 
 

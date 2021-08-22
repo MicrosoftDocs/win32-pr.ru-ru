@@ -4,12 +4,12 @@ ms.assetid: da0b50ec-25a6-40dd-af83-73500b4a4c08
 title: PROV_RSA_AES
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fa8d01e9fd212f2c39ab5615b12931738bc926
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 796ac0b77b91b9cffebc6f04ae3812b1bc25aabd885295e7dd3e1715bb4efc04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901594"
 ---
 # <a name="prov_rsa_aes"></a>PROV \_ RSA \_ AES
 
@@ -23,7 +23,7 @@ ms.locfileid: "104081218"
 
 | Назначение      | Поддерживаемые алгоритмы                                                                                                                                                                                                                                                                                       |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Обмен ключами | [*RSA*](../secgloss/r-gly.md)<br/>                                                                                                                                                                                                                                     |
+| Ключевые Exchange | [*RSA*](../secgloss/r-gly.md)<br/>                                                                                                                                                                                                                                     |
 | Подпись    | [*RSA*](../secgloss/r-gly.md)<br/>                                                                                                                                                                                                                                     |
 | Шифрование   | [*RC2*](../secgloss/r-gly.md)<br/> [*RC4;*](../secgloss/r-gly.md)<br/> [*AES*](../secgloss/a-gly.md) (AES) <br/>                                                       |
 | Хэширование      | [*MD2*](../secgloss/m-gly.md)<br/> [*MD4*](../secgloss/m-gly.md)<br/> [*MD5*](../secgloss/m-gly.md)<br/> [*SHA-1*](../secgloss/s-gly.md)<br/> SHA-2 (SHA-256, SHA-384 и SHA-512);<br/> |

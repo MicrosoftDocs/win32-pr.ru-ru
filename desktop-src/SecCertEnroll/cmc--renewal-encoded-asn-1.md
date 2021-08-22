@@ -4,12 +4,12 @@ ms.assetid: acb0fdeb-3d7b-4598-bb7a-df97e200984b
 title: Обновление CMC в кодировке ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faf54fa34afa0a0451095e6e96267cb8cf93856e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45ad8e39caa705900f61a9dfe289e65d5ad370e974c2de10f1a98a9a66281391
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902077"
 ---
 # <a name="cmc-renewal-encoded-asn1"></a>Обновление CMC в кодировке ASN. 1
 
@@ -555,7 +555,7 @@ RenewalCert=248f7d3c00000000086e
 CertUtil: -asn command completed successfully.
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

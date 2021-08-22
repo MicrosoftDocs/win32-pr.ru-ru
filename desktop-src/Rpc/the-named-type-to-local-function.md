@@ -6,12 +6,12 @@ keywords:
 - named_type_to_local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746cbdd01ea657408b1bf355f41b3b9dfba673a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59fc1d45545c920ef19eb4c230045e62322833d3ef38e765357c29b20a48589c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924064"
 ---
 # <a name="the-named_type_to_local-function"></a>Именованный \_ тип \_ для \_ локальной функции
 
@@ -27,9 +27,9 @@ void __RPC_USER <named_type>_to_local(
 
 **Именованный \_ тип \_ \_ локальной** функции должен управлять памятью для представленного типа. Функция должна выделить память для всей структуры данных, которая начинается с адреса, указанного вторым параметром, за исключением самого параметра (заглушка выделяет память для корневого узла и передает ее в функцию). Значение второго параметра не может измениться во время вызова. Функция может изменить содержимое по этому адресу.
 
- 
+ 
 
- 
+ 
 
 
 

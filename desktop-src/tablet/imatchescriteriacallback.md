@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 960bd221bdd1f621f6ec4deb5ea167f5bf9ee4d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc661f47c77d615df95f63e58beccbbf125b93078392a63f86ed50f52cc5636d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718973"
 ---
 # <a name="imatchescriteriacallback-interface"></a>Интерфейс Иматческритериакаллбакк
 
@@ -44,7 +44,7 @@ ms.locfileid: "104540450"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать метод [**иинканализер:: финднодесвискаллбакк**](iinkanalyzer-findnodeswithcallback.md) или [**метод Иинканализер:: финднодесвискаллбаккинсубтри**](iinkanalyzer-findnodeswithcallbackinsubtree.md), создайте класс, реализующий **IMatchesCriteriaCallBack**. Реализуйте [**иматческритериакаллбакк:: евалуатеконтекстноде**](imatchescriteriacallback-evaluatecontextnode.md) , чтобы вернуть **вариант \_ true** , если объект [**иконтекстноде**](icontextnode.md) соответствует Вашему критерию, и **вариант \_ false** в противном случае. Для некоторых критериев может потребоваться предоставить возможность инициализации или обслуживания состояния объекта **иматческритериакаллбакк** .
 
@@ -54,7 +54,7 @@ ms.locfileid: "104540450"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
 | Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

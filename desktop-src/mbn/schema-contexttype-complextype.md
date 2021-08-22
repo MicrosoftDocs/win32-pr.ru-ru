@@ -11,12 +11,12 @@ api_name:
 - contextType
 api_type:
 - Schema
-ms.openlocfilehash: 63d221c6bd388196abfb73a8ac38a26de516d0df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58189cf27f667b3d7e5e6c387a52143b8c757724106e8d9941d31d2582002b0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744451"
 ---
 # <a name="contexttype-complex-type"></a>Сложный тип contextType
 
@@ -110,7 +110,7 @@ ms.locfileid: "105656115"
 |-----------------------------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [**AccessString**](schema-accessstring-contexttype-element.md)       |                                                | Имя точки доступа или строка вызова, используемые для установки подключения к данным<br/>                        |
 | [**AuthProtocol**](schema-authprotocol-contexttype-element.md)       |                                                | Протокол проверки подлинности, используемый для активации контекста PDP.<br/>                    |
-| [**Сжатие**](schema-compression-contexttype-element.md)         |                                                | Указывает, будет ли использоваться сжатие по каналу данных для заголовка и передачи данных<br/> |
+| [**Компакт**](schema-compression-contexttype-element.md)         |                                                | Указывает, будет ли использоваться сжатие по каналу данных для заголовка и передачи данных<br/> |
 | [**игнорепассворд**](schema-ignorepassword-userlogoncred-element.md) | Логическое                                        | Как работать с паролями при обновлении профилей.<br/>                                    |
 | [**Пароль**](schema-password-userlogoncred-element.md)             | строка                                         | Пароль, используемый для проверки подлинности пользователя<br/>                                                |
 | [**UserLogonCred**](schema-userlogoncred-contexttype-element.md)     |                                                | Учетные данные входа для подключения.<br/>                                                |
@@ -124,7 +124,7 @@ ms.locfileid: "105656115"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f0e88cdcb2b1b3257b23606f8160e0986584db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a25e9a799185b1a509510abb81617895fbbd0624d8816110e4c2ba8e4a7c1cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937954"
 ---
 # <a name="glreadbuffer-function"></a>Функция Глреадбуффер
 
@@ -65,7 +65,7 @@ void WINAPI glReadBuffer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глреадбуффер** задает буфер цвета в качестве источника для последующих команд [**глреадпикселс**](glreadpixels.md) и [**глкопипикселс**](glcopypixels.md) . Параметр *mode* принимает одно из двенадцати или более предопределенных значений. (GL \_ AUX0 через GL \_ AUX3 определяются всегда.) В полностью настроенной системе, на главной странице GL, \_ \_ левой и главной части GL \_ все имя передний \_ левый буфер, GL \_ переднего плана \_ и \_ правое название в ГК, а также \_ \_ \_ имя заднего левого буфера.
 
@@ -77,7 +77,7 @@ void WINAPI glReadBuffer(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ буфера чтения GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,7 +91,7 @@ void WINAPI glReadBuffer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

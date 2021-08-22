@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: bfcc6cc4daedf0ed1bbc43e2ccc78317f9d7e17c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1a818c1fef9006abad2dd31da5a41f43aeb3df9a9b75d348d8987938abfcea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967123"
 ---
 # <a name="inkoverlay-class"></a>Класс InkOverlay
 
@@ -129,10 +129,10 @@ ms.locfileid: "105702482"
 | [**десиредпаккетдескриптион**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription)<br/>           | Чтение/запись<br/> | Возвращает или задает интерес к аспектам пакета, связанного с рукописным вводом объекта **InkOverlay** .<br/>                                                                            |
 | [**динамикрендеринг**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering)<br/>                             | Чтение/запись<br/> | Возвращает или задает значение, указывающее, отображается ли рукописный ввод при прорисовке.<br/>                                                                                                       |
 | [**EditingMode**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_editingmode)<br/>                                       | Чтение/запись<br/> | Возвращает или задает значение, указывающее, находится ли **InkOverlay** в режиме рукописного ввода, режиме удаления или в режиме выбора/правки.<br/>                                                          |
-| [**Активировано**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                             | Чтение/запись<br/> | Возвращает или задает значение, указывающее, собирает ли объект **InkOverlay** входные данные пера.<br/>                                                                                         |
+| [**Включен**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                             | Чтение/запись<br/> | Возвращает или задает значение, указывающее, собирает ли объект **InkOverlay** входные данные пера.<br/>                                                                                         |
 | [**ерасермоде**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_erasermode)<br/>                                         | Чтение/запись<br/> | Возвращает или задает значение, указывающее, удаляются ли рукописные данные по штрихам или по точкам.<br/>                                                                                                  |
 | [**ерасервидс**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_eraserwidth)<br/>                                       | Чтение/запись<br/> | Возвращает или задает значение, указывающее ширину кончика пера ластика.<br/>                                                                                                              |
-| [**Дескриптор**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                                 | Чтение/запись<br/> | Возвращает или задает маркер окна, к которому присоединен объект **InkOverlay** .<br/>                                                                                             |
+| [**Справиться**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                                 | Чтение/запись<br/> | Возвращает или задает маркер окна, к которому присоединен объект **InkOverlay** .<br/>                                                                                             |
 | [**Рукописный ввод**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_ink)<br/>                                                       | Чтение/запись<br/> | Возвращает или задает объект [**инкдисп**](inkdisp-class.md) , связанный с объектом **InkOverlay** .<br/>                                                                       |
 | [**маргинкс**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx)<br/>                                             | Чтение/запись<br/> | Возвращает или задает поля вдоль оси x (в пикселях).<br/>                                                                                                                             |
 | [**Поле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginy)<br/>                                             | Чтение/запись<br/> | Возвращает или задает поля вдоль оси y (в пикселях).<br/>                                                                                                                             |
@@ -164,7 +164,7 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -200,20 +200,20 @@ BOOL CRecognitionAlternatesSampleCppView::OnWndMsg(UINT msg, WPARAM wp, PARAM lp
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
-| Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

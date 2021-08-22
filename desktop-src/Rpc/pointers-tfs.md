@@ -4,12 +4,12 @@ description: Сведения об общем указателе RPC, котор
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ade676610a310e230eb6fa89dd666996bb82040f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 30a87c13f9657d56e3f85d1d5828dc097c25e29990c617c5f20679a1d6cbe91e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927354"
 ---
 # <a name="pointers-rpc"></a>Указатели (RPC)
 
@@ -54,7 +54,7 @@ offset_to_complex_description<2>
 
 
 
-| attribute | Flag              | Описание                                                                                                                                                                                                                                      |
+| attribute | Флаг              | Описание                                                                                                                                                                                                                                      |
 |------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01   | FC \_ выделяет \_ все \_ узлы | Указатель является частью \_ схемы выделения размещения (все узлы).                                                                                                                                                                   |
 | 02   | FC \_ не \_ бесплатно           | Указатель выделения (не \_ свободен).                                                                                                                                                                                                      |

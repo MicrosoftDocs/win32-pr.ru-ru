@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: cce31ea21701c098b09a0bd96360afb374a9bccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c027ae9004a8437f3d182fdef3335c8fbbad67abaab5c15e351520f2ae592818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922653"
 ---
 # <a name="iscardmanage-interface"></a>Интерфейс Искардманаже
 
-\[Интерфейс **искардманаже** больше не доступен для использования в windows Server 2008, Windows Vista и windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
+\[интерфейс **искардманаже** больше не доступен для использования в Windows server 2008, Windows Vista и Windows server 2003 с пакетом обновления 1 (SP1) и более поздних версий. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
 
 Следующее определение интерфейса предоставляется в качестве стандарта, который может быть выполнен при разработке [*поставщика услуг*](../secgloss/c-gly.md) [*смарт-карты*](../secgloss/s-gly.md) .
 
@@ -32,7 +32,7 @@ ms.locfileid: "104266238"
 **Подключение к смарт-карте**
 
 1.  Создайте интерфейс **искардманаже** , связанный с картой.
-2.  Подключитесь к смарт-карте, подключив ее к определенному устройству чтения смарт-карт ([**аттачбифд**](iscardmanage-attachbyifd.md)) или используя ранее полученный маркер ([**аттачбихандле**](iscardmanage-attachbyhandle.md)).
+2.  Подключение смарт-карту, подключив ее к определенному устройству чтения смарт-карт ([**аттачбифд**](iscardmanage-attachbyifd.md)) или используя ранее полученный маркер ([**аттачбихандле**](iscardmanage-attachbyhandle.md)).
 3.  Создайте другие интерфейсы для выполнения операций с смарт-картами ([**креатекардаус**](iscardmanage-createcardauth.md), [**креатефилеакцесс**](iscardmanage-createfileaccess.md), [**креатечверификатион**](iscardmanage-createchverification.md)или [**креатеинтерфаце**](iscardmanage-createinterface.md)).
 4.  Освободите карту ([**Отсоедините**](iscardmanage-detach.md)ее).
 5.  При необходимости отпустите интерфейс **искардманаже** и другие.
@@ -57,7 +57,7 @@ ms.locfileid: "104266238"
 | [**креатечверификатион**](iscardmanage-createchverification.md) | Позволяет создавать интерфейс [**искардверифи**](iscardverify.md) .<br/>                                                                                                                                                                                        |
 | [**креатефилеакцесс**](iscardmanage-createfileaccess.md)         | Позволяет создавать интерфейс [**искардфилеакцесс**](iscardfileaccess.md) .<br/>                                                                                                                                                                                |
 | [**креатеинтерфаце**](iscardmanage-createinterface.md)           | Разрешает создание интерфейса.<br/>                                                                                                                                                                                                                            |
-| [**Соединил**](iscardmanage-detach.md)                             | Освобождает вложение на конкретную смарт-карту или модуль чтения, выделенный [**аттачбихандле**](iscardmanage-attachbyhandle.md) или [**аттачбифд**](iscardmanage-attachbyifd.md) соответственно.<br/>                                                                |
+| [**Detach**](iscardmanage-detach.md)                             | Освобождает вложение на конкретную смарт-карту или модуль чтения, выделенный [**аттачбихандле**](iscardmanage-attachbyhandle.md) или [**аттачбифд**](iscardmanage-attachbyifd.md) соответственно.<br/>                                                                |
 | [**Повтор соединения**](iscardmanage-reconnect.md)                       | Позволяет приложению повторно подключаться к смарт-карте или модулю чтения без необходимости выдавать [**отсоединение**](iscardmanage-detach.md) , за которым следует [**аттачбихандле**](iscardmanage-attachbyhandle.md) или [**аттачбифд**](iscardmanage-attachbyifd.md) соответственно.<br/> |
 | [**скардлокк**](iscardmanage-scardlock.md)                       | Блокирует подключенную смарт-карту или модуль чтения для монопольного использования.<br/>                                                                                                                                                                                                       |
 | [**скардунлокк**](iscardmanage-scardunlock.md)                   | Снимает эксклюзивное использование подключенной смарт-карты или модуля чтения.<br/>                                                                                                                                                                                                   |
@@ -67,14 +67,14 @@ ms.locfileid: "104266238"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                       |
 
