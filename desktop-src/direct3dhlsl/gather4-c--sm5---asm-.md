@@ -4,12 +4,12 @@ description: То же, что и gather4, за исключением того,
 ms.assetid: 6265151A-36CE-4D31-B7B2-233CEEBDCF87
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35414aa2cd4d9f0686ab7a5cc17b94caa960cec1
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b300e27743d08f3bbdf813de200b5a749a4ac25f16ab10458968731b9918c493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488694"
 ---
 # <a name="gather4_c-sm5---asm"></a>gather4 \_ c (SM5-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104996935"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Описание того, как *сркреференцевалуе* сравнивается со всеми полученными шаг текселя, см. в [**образце \_ c**](sample-c--sm4---asm-.md) . В отличие от **образца \_ c**, **gather4 \_ c** возвращает каждый результат сравнения, а не фильтрует их.
 
@@ -70,7 +70,7 @@ ms.locfileid: "104996935"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -81,7 +81,7 @@ ms.locfileid: "104996935"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

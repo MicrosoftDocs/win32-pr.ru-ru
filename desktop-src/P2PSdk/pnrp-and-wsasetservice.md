@@ -4,12 +4,12 @@ ms.assetid: ea7941cd-2b3c-42d1-a291-759cbc32db0c
 title: PNRP и Всасетсервице
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 005a04251a8b038c5895ae5dfafd65be9263edfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2afbc11e65c9d583f91b5070e960435612ad05717b6ccfe087924da133c531b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518104"
 ---
 # <a name="pnrp-and-wsasetservice"></a>PNRP и Всасетсервице
 
@@ -313,7 +313,7 @@ ms.locfileid: "105663295"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

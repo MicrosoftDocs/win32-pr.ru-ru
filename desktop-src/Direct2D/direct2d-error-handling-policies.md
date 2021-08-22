@@ -6,12 +6,12 @@ keywords:
 - Direct2D, обработка ошибок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fc930e7ee9e5b73b5f676103f45ffe25e4d4e61
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b3be48c5d80cbbd971f63392efaf6b902ff6187e0a2687df25ccc728efafbfab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318034"
 ---
 # <a name="direct2d-error-handling-policies"></a>Direct2D политики обработки ошибок
 
@@ -62,6 +62,6 @@ NaN считается допустимым входом, хотя обычно 
 
 Плохо упорядоченные входные ПРЯМОУГОЛЬНИКи сортируются так, чтобы они правильно указали верхние, левые и нижние углы. Для выходных данных пустые прямоугольники выглядят следующим образом: {Infinity, Infinity, Флоатмакс, Флоатмакс}.
 
- 
+ 
 
- 
+ 

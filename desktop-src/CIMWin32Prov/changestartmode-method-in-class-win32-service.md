@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 06a4692996354614a685471f98b0243fc1091433
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9444ed76fac18ce018c0ab286966b9fa071dc8108db0f8456271545e19ab1fc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322944"
 ---
 # <a name="changestartmode-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод Чанжестартмоде класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -45,7 +45,7 @@ uint32 ChangeStartMode(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 <dt>
 

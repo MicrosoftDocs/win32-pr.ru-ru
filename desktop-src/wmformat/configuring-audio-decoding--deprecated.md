@@ -1,6 +1,6 @@
 ---
-title: Настройка декодирования аудио (пакет Windows Media Format SDK 11)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Настройка декодирования аудио (пакет Windows Media Format SDK 11)
+title: настройка декодирования аудио (пакет SDK для Windows Media Format 11)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | настройка декодирования аудио (пакет SDK для Windows Media Format 11)
 ms.assetid: 5c4c2a34-c617-42ed-8028-e7266cbc11dc
 keywords:
 - Настройка формата аудио для декодирования Windows Media
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b7b056fad26cd12f641f54f98990174c5731900
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c5a5ec3b8ae0f8b93a07f4b4397f437952d4b907959eb10decaf369ad901c5bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548044"
 ---
-# <a name="configuring-audio-decoding-windows-media-format-11-sdk"></a>Настройка декодирования аудио (пакет Windows Media Format SDK 11)
+# <a name="configuring-audio-decoding-windows-media-format-11-sdk"></a>настройка декодирования аудио (пакет SDK для Windows Media Format 11)
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

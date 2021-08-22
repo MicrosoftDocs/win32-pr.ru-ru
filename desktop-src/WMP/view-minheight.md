@@ -3,7 +3,7 @@ title: VIEW. minHeight
 description: Атрибут minHeight указывает или получает минимальную высоту в пикселях представления при изменении размера.
 ms.assetid: e9a29642-e09d-40f8-9c2b-86be9f509089
 keywords:
-- Просмотреть. minHeight проигрыватель Windows Media
+- просмотреть. minHeight проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 580c263a7def0d98a56190e5e80abc8e6bcb864a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f326ae98cc8bd2970f05096ea167705270e12aabc93b91c7f517adca14ccb14b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119375164"
 ---
 # <a name="viewminheight"></a>VIEW. minHeight
 
@@ -37,7 +37,7 @@ ms.locfileid: "105718063"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

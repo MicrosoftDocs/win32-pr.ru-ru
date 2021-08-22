@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 30179610e6eee121a86119fa347067b40ef04c2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1672c8d60cfdf8b831cfbcae9a1da1de5a6baa6225f220856ea579f7857c6650
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440054"
 ---
 # <a name="setforwardbuffermemory-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетфорвардбуффермемори \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда это пространство буфера заполнено, маршрутизатор начинает удалять пакеты в случайном порядке из очереди.
 
@@ -414,7 +414,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения памяти буфера обмена для всех сетевых адаптеров](https://Gallery.TechNet.Microsoft.Com/da5712dc-f854-4099-98a9-59c0ff20a524) на языке VBScript настраивает память прямого буфера для всех сетевых адаптеров компьютера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

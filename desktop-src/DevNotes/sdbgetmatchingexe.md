@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 9d9c8c8c5e9ba0c55068558698b40c7274929364
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f359db3d34b05455ae75b681a9051ebed927c06c3802b8d2c366fa552594666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390204"
 ---
 # <a name="sdbgetmatchingexe-function"></a>Функция Сдбжетматчинжексе
 
@@ -90,18 +90,18 @@ BOOL WINAPI SdbGetMatchingExe(
 
 Функция возвращает **true** при успешном выполнении или **false** в случае сбоя.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Завершив работу с возвращенным [**тагреф**](tagref.md), освободите его с помощью функции [**сдбрелеасематчинжексе**](sdbreleasematchingexe.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

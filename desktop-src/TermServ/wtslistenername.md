@@ -12,12 +12,12 @@ keywords:
 - пвтслистенернаме
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a82576fc9f4490b133916852441c50dcf77e849d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce0df52229670cd090dd900dda3c2284437297bedc25c69f12c980b9cc40d92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513844"
 ---
 # <a name="wtslistenername"></a>втслистенернаме
 
@@ -82,7 +82,7 @@ typedef PWTSLISTENERNAMEA PWTSLISTENERNAME;
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ typedef PWTSLISTENERNAMEA PWTSLISTENERNAME;
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                              |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                        |
-| Header<br/>                   | <dl> <dt>WtsApi32. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>WtsApi32. h</dt> </dl> |
 
 
 

@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a06d2abd1c4ad92d751afa6c8aa47c0cfaa8b1f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 457bf0e094e4196c2ff60b05581daf5dc6a51349530d3563119962e01c94c40d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548274"
 ---
 # <a name="cim_logicalfile-class"></a>\_Класс CIM LogicalFile
 
@@ -124,7 +124,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 | [**компрессекс**](compressex-method-in-class-cim-logicalfile.md)                                   | Сжимает логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                              |
 | [**Копировать**](copy-method-in-class-cim-logicalfile.md)                                               | Копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром. Не реализовано инструментарием WMI.<br/> |
 | [**копекс**](copyex-method-in-class-cim-logicalfile.md)                                           | Копирует логический файл (или каталог), указанный в пути к объекту, в расположение, указанное входным параметром. Не реализовано инструментарием WMI.<br/> |
-| [**Удалить**](delete-method-in-class-cim-logicalfile.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
+| [**Удален**](delete-method-in-class-cim-logicalfile.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
 | [**делетикс**](deleteex-method-in-class-cim-logicalfile.md)                                       | Удаляет логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
 | [**жетеффективепермиссион**](geteffectivepermission-method-in-class-cim-logicalfile.md)           | Определяет, имеет ли вызывающий объект агрегированные разрешения, заданные аргументом **разрешения** . Не реализовано инструментарием WMI.<br/>                |
 | [**Имени**](rename-method-in-class-cim-logicalfile.md)                                           | Переименовывает логический файл (или каталог), указанный в пути объекта. Не реализовано инструментарием WMI.<br/>                                                 |
@@ -280,7 +280,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -508,7 +508,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -658,7 +658,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -670,7 +670,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 Квалификаторы: [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("имя"), [**ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Свойство Name — это строка, представляющая унаследованное имя, которое служит ключом экземпляра логического файла в файловой системе. Необходимо указать полные имена путей. Пример: C: \\ Windows \\ System \\win.ini
+Свойство Name — это строка, представляющая унаследованное имя, которое служит ключом экземпляра логического файла в файловой системе. Необходимо указать полные имена путей. пример: C: \\ Windows \\ system \\win.ini
 
 </dd> <dt>
 
@@ -846,7 +846,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ LogicalFile** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
@@ -854,7 +854,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -868,7 +868,7 @@ class CIM_LogicalFile : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

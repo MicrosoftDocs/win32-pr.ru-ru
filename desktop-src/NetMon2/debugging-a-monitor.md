@@ -4,12 +4,12 @@ ms.assetid: 499f409c-e25a-4ab3-b0aa-e6b308fc7169
 title: Отладка монитора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4641818b7f1cd1740c2732ced5527a2e278793a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7ce15252470b280a988f81fe221218778a0fa5e4851db0d3e419d1653fbe92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144207"
 ---
 # <a name="debugging-a-monitor"></a>Отладка монитора
 
@@ -27,9 +27,9 @@ ms.locfileid: "104545383"
 
     **Mcsvc.exe свойством/Service**
 
-4.  В Microsoft Visual Studio запустите Microsoft Visual C++.
+4.  в Microsoft Visual Studio запустите Microsoft Visual C++.
 5.  В меню **файл** выберите пункт **Открыть** , а затем выберите имя библиотеки DLL монитора.
-6.  После загрузки Microsoft Visual C++ щелкните **проект**, **Параметры**.
+6.  после загрузки Microsoft Visual C++ щелкните **Project** **Параметры**.
 7.  Перейдите на вкладку **Отладка** в разделе **исполняемый файл** для сеанса отладки и введите полный путь к Mcsvc.exe. Например, C: \\ Program Files \\ Netmon2 \\Mcsvc.exe.
 8.  Задайте точки останова в коде.
 

@@ -4,12 +4,12 @@ ms.assetid: 12547da4-8d41-48c5-8efc-f0423f64caa7
 title: Задание свойств окна с помощью СТАРТУПИНФО
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ff59f9ae4473174325880a863f5b1f2fc4203e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 637e8fc9c76694a468b4b8fa6d5d2bd8a3432bbb7dad078d616df753244af358
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119517384"
 ---
 # <a name="setting-window-properties-using-startupinfo"></a>Задание свойств окна с помощью СТАРТУПИНФО
 

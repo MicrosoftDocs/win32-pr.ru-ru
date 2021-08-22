@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15f94bb8d0f159e71cac44f069f9d8e7d9453509
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f6b20d95505f1e6dbbda31506660f3825541f8f2a0ecdcb6cf293d7d6d4a0df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322444"
 ---
 # <a name="cim_cardoncard-class"></a>\_Класс CIM кардонкард
 
@@ -55,7 +55,7 @@ class CIM_CardOnCard : CIM_Container
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ кардонкард** имеет следующие свойства.
 
@@ -121,7 +121,7 @@ class CIM_CardOnCard : CIM_Container
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ кардонкард** является производным от [**\_ контейнера CIM**](cim-container.md).
 
@@ -129,7 +129,7 @@ class CIM_CardOnCard : CIM_Container
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Windows SDK (WSDK) содержит три полных примера библиотек DLL производительности.
+description: Windows SDK (WSDK) содержит три полных примера библиотек dll производительности.
 ms.assetid: 862be53a-3d58-42b9-adf0-2f913dc6fb06
 title: Примеры библиотек DLL производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e2210899651a065218474eb49175553a05aa8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b94e77ed35b1c328879ad5f83dded45fe92bf4a62ae15c794e5d9d9b23daeda1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143887"
 ---
 # <a name="performance-dll-samples"></a>Примеры библиотек DLL производительности
 
-Windows SDK (WSDK) содержит три полных примера библиотек DLL производительности. Эти примеры находятся в каталоге Samples \\ винбасе \\ WinNT \\ перфтул \\ перфдллс. Корень этого пути является базовым каталогом установки WSDK. Вы можете скачать WSDK из пакета средств [разработки программного обеспечения (SDK) для Microsoft Windows](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) (выполните поиск по Windows SDK и выберите загрузку последней выпущенной операционной системы).
+Windows SDK (WSDK) содержит три полных примера библиотек dll производительности. Эти примеры находятся в каталоге Samples \\ винбасе \\ WinNT \\ перфтул \\ перфдллс. Корень этого пути является базовым каталогом установки WSDK. вы можете скачать WSDK из пакета средств [разработки программного обеспечения Microsoft Windows (SDK)](https://developer.microsoft.com/windows/downloads/windows-10-sdk/) (выполните поиск Windows SDK и выберите загрузку последней выпущенной операционной системы).
 
 Ниже приведены примеры, содержащиеся в этом каталоге.
 

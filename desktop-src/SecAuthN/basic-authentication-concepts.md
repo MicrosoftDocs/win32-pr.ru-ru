@@ -4,12 +4,12 @@ ms.assetid: c3e38cd3-3749-4384-80ff-0551acfe1eec
 title: Основные понятия проверки подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723cf42913906435c8dbc3c41950da8db8ece0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d28aa1da3555561740dfd119603a42268ebf86056842788f7dbb1c473fe60e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141317"
 ---
 # <a name="basic-authentication-concepts"></a>Основные понятия проверки подлинности
 
@@ -19,8 +19,8 @@ ms.locfileid: "104155275"
 
 Протокол Kerberos использует следующие преимущества:
 
--   [Проверка подлинности ключа](key-authentication.md)
--   [Сообщения средства проверки подлинности](authenticator-messages.md)
+-   [Проверка подлинности с использованием ключа](key-authentication.md)
+-   [сообщения Authenticator](authenticator-messages.md)
 -   [Распределение ключей](key-distribution.md)
 -   [Билеты сеансов](session-tickets.md)
 -   [Билеты предоставления билетов](ticket-granting-tickets.md)

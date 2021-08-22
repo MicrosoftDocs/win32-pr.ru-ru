@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 82f1f74412793166ad3aaadff9b8227e5366881f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a87458b5ba24b21684ff730e7429bad379784e4d5d4a963ee434f1ca9e093612
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389714"
 ---
 # <a name="cdynamicoutputpinm_hunblockoutputpinevent-member"></a>Элемент Кдинамикаутпутпин:: m \_ хунблоккаутпутпиневент
 
@@ -42,7 +42,7 @@ HANDLE m_hUnblockOutputPinEvent;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

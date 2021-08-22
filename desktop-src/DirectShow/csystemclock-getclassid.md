@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a2f83d3e3c2efcbcb5d4604bc5c50a37dc020f0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2afb141c3a79255504eb13dadb39cc0fb5094c19e0979db04c251f1e2fe75133
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317194"
 ---
 # <a name="csystemclockgetclassid-method"></a>Ксистемклокк. ClassID, метод
 
@@ -53,14 +53,14 @@ HRESULT GetClassID(
 
 Возвращает значение S \_ (ОК) или \_ указатель E.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Версия<br/> | Класс Ксистемклокк<br/>                                                                                                                                                              |
-| Header<br/>  | <dl> <dt>Сисклокк. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Header<br/>  | <dl> <dt>сисклокк. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

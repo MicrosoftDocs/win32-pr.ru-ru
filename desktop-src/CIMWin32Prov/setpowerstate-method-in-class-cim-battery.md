@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 93ccbd7530e05b6f214332c60cc4ea2c016eed17
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dd55acd133e6a3e37652d63596584298144a28e719427ca77784ddfb5648996a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439804"
 ---
 # <a name="setpowerstate-method-of-the-cim_battery-class"></a>Метод SetPowerState \_ класса батареи CIM
 
@@ -126,7 +126,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

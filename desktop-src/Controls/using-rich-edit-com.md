@@ -4,27 +4,27 @@ description: В этом разделе содержатся сведения о
 ms.assetid: bfcecbf5-cc35-47b8-a713-7e5fd03f60cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7868bd62044c87765a25f6033499460ed044e57
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 9d825a9876005cadb20e4fc7717f766582ab12224f4f86995319357875d24230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104133614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119311684"
 ---
 # <a name="how-to-use-ole-in-rich-edit-controls"></a>Использование OLE в элементах управления Rich Edit
 
 В этом разделе содержатся сведения об использовании связывания и внедрения объектов (OLE) в элементах управления Rich Edit.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -36,7 +36,7 @@ ms.locfileid: "104133614"
 
 ### <a name="insert-an-object-into-a-rich-edit-control"></a>Вставка объекта в элемент управления Rich Edit
 
-В следующем примере кода объект File вставляется в форматируемый элемент управления Edit. Если программа связана с типом файлов на компьютере пользователя (например, Microsoft Excel для XLS-файла), содержимое файла отображается в элементе управления. в противном случае отображается значок.
+В следующем примере кода объект File вставляется в форматируемый элемент управления Edit. если программа связана с типом файлов на компьютере пользователя (например, Microsoft Excel для файла .xls), содержимое файла отображается в элементе управления. в противном случае отображается значок.
 
 1.  Получите интерфейс [**иричедитоле**](/windows/desktop/api/Richole/nn-richole-iricheditole) .
 
@@ -326,19 +326,19 @@ BOOL InsertObject(HWND hRichEdit, LPCTSTR pszFileName)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

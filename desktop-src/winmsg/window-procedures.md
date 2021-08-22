@@ -4,18 +4,18 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\windowprocedures.htm
 title: Процедуры окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92ae68ba9b64557a6dc70d5c83788b8337648a2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b7892c1547d7f5ed1bf5d70a9242e3bb5bc6a3c8e93121470d27ecbd64fb912
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548464"
 ---
 # <a name="window-procedures"></a>Процедуры окна
 
 Каждое окно имеет связанную процедуру окна — функцию, которая обрабатывает все сообщения, отправленные или опубликованные во всех окнах класса. Все аспекты внешнего вида и поведения окна зависят от ответа процедуры окна на эти сообщения.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

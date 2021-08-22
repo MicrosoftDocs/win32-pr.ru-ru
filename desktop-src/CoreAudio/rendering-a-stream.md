@@ -4,12 +4,12 @@ ms.assetid: 00bfcfd1-6592-43e3-90ad-730c92aa4cd3
 title: Отрисовка потока
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d96e720bab43c75b0a3958bb3b6137d3a3d9ef6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a49632e89e42e4e353cec48ee993f990904bc4557c0f63fcaec4d13bed5becf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318574"
 ---
 # <a name="rendering-a-stream"></a>Отрисовка потока
 
@@ -178,13 +178,13 @@ Exit:
 
 При вызове метода [**иаудиоклиент:: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) функция плайаудиостреам в предыдущем примере запрашивает общий буфер с длительностью в одну секунду. (Размер выделенного буфера может немного превышать длительность.) В своих первоначальных вызовах методов [**иаудиорендерклиент::**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-getbuffer) Иаудиорендерклиент и [**:: релеасебуффер**](/windows/desktop/api/Audioclient/nf-audioclient-iaudiorenderclient-releasebuffer) функция заполняет весь буфер до вызова метода [**иаудиоклиент:: Start**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start) , чтобы начать воспроизведение буфера.
 
-В рамках главного цикла функция последовательно заполняет половину буфера с интервалами в половину секунды. Непосредственно перед каждым вызовом функции [**спящего режима**](/windows/win32/api/synchapi/nf-synchapi-sleep) Windows в главном цикле буфер заполнен или почти заполнен. При возвращении вызова **спящего режима** буфер находится около половины места. Цикл завершается после последнего вызова функции LoadData, в результате чего переменной присваивается `flags` значение аудклнт \_ буфферфлагс \_ Silent. На этом этапе в буфере содержится по крайней мере один кадр реальных данных, и он может содержать до половины секунды реальных данных. Оставшаяся часть буфера содержит тишину. Вызов **спящего режима** , следующий за циклом, предоставляет достаточно времени (половина секунды) для воспроизведения всех оставшихся данных. Тишина, следующая за данными, предотвращает нежелательные звуки перед вызовом метода [**иаудиоклиент:: Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) , который останавливает аудиопоток. Дополнительные сведения о **спящем режиме** см. в документации по Windows SDK.
+В рамках главного цикла функция последовательно заполняет половину буфера с интервалами в половину секунды. непосредственно перед каждым вызовом функции Windows [**Sleep**](/windows/win32/api/synchapi/nf-synchapi-sleep) в главном цикле буфер заполнен или почти заполнен. При возвращении вызова **спящего режима** буфер находится около половины места. Цикл завершается после последнего вызова функции LoadData, в результате чего переменной присваивается `flags` значение аудклнт \_ буфферфлагс \_ Silent. На этом этапе в буфере содержится по крайней мере один кадр реальных данных, и он может содержать до половины секунды реальных данных. Оставшаяся часть буфера содержит тишину. Вызов **спящего режима** , следующий за циклом, предоставляет достаточно времени (половина секунды) для воспроизведения всех оставшихся данных. Тишина, следующая за данными, предотвращает нежелательные звуки перед вызовом метода [**иаудиоклиент:: Stop**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop) , который останавливает аудиопоток. дополнительные сведения о **спящем режиме** см. в документации по Windows SDK.
 
 После вызова метода [**иаудиоклиент:: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) поток остается открытым до тех пор, пока клиент не освободит все ссылки на интерфейс [**иаудиоклиент**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) и все ссылки на интерфейсы служб, полученные клиентом с помощью метода [**иаудиоклиент::-Service**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) . Окончательный вызов [**выпуска**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) закрывает поток.
 
-Функция Плайаудиостреам в предыдущем примере кода вызывает функцию [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать перечислитель для устройств конечных точек аудио в системе. Если вызывающая программа ранее не вызывала функцию **CoCreateInstance** или [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) для инициализации библиотеки COM, вызов **CoCreateInstance** завершится ошибкой. Дополнительные сведения о **CoCreateInstance**, **CoCreateInstance** и **CoInitializeEx** см. в документации по Windows SDK.
+Функция Плайаудиостреам в предыдущем примере кода вызывает функцию [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать перечислитель для устройств конечных точек аудио в системе. Если вызывающая программа ранее не вызывала функцию **CoCreateInstance** или [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) для инициализации библиотеки COM, вызов **CoCreateInstance** завершится ошибкой. дополнительные сведения о **cocreateinstance**, **cocreateinstance** и **CoInitializeEx** см. в документации по Windows SDK.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

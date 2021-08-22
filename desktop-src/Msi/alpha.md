@@ -4,19 +4,19 @@ ms.assetid: f242fd6f-ae73-4ea6-9650-f2661440f61f
 title: Альфа-свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a699f5d48d7cc21e51862630ebb8c246453cff69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6827ede2e675253984626849f5e0321ef1f9c8179a1c4a380dcd1cca0866417
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315494"
 ---
 # <a name="alpha-property"></a>Альфа-свойство
 
 Свойство **Alpha** определяется только при запуске на процессоре Alpha. Установщик задает для него значение числового уровня процессора.
 
 > [!Note]  
-> Платформа Alpha не поддерживается установщик Windows.
+> платформа Alpha не поддерживается установщик Windows.
 
  
 
@@ -26,7 +26,7 @@ ms.locfileid: "105651593"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

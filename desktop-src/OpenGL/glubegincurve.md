@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e17bd88cfcb49801450ead865c437843d179b5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 171c6ce95acf7592fcb2c3badccfeb9f2c5d68413f963f7b5043ec63502ee720
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489744"
 ---
 # <a name="glubegincurve-function"></a>Функция Глубегинкурве
 
@@ -51,7 +51,7 @@ void WINAPI gluBeginCurve(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **глубегинкурве** , чтобы пометить начало определения кривой нурбс. После вызова **глубегинкурве** выполните один или несколько вызовов [**глунурбскурве**](glunurbscurve.md) , чтобы определить атрибуты кривой. Ровно один из вызовов **глунурбскурве** должен иметь тип кривой GL \_ «Карта1» \_ Vertex \_ 3 или GL \_ «Карта1» \_ вершиной \_ 4. Чтобы отметить конец определения кривой НУРБС, вызовите [**глуендкурве**](gluendcurve.md).
 
@@ -69,7 +69,7 @@ gluNurbsCurve(nobj, . . ., GL_MAP1_VERTEX_4);
 gluEndCurve(nobj);
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -83,7 +83,7 @@ gluEndCurve(nobj);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

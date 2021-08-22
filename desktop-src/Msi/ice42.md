@@ -4,12 +4,12 @@ ms.assetid: 14976772-c873-46d8-8687-dcdad2420d83
 title: ICE42
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebe2ea09431870ac7b52ccd69d0ae16c646286ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b913b92d82ad25a9722b289596f6b51940bbade55b5e544ebf636051e21b3ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581074"
 ---
 # <a name="ice42"></a>ICE42
 
@@ -63,7 +63,7 @@ ICE42 сообщит о следующих ошибках в приведенн�
 
 
 
-| Файл  | Имя файла |
+| File  | Имя файла |
 |-------|----------|
 | Файл1 | test.exe |
 
@@ -71,7 +71,7 @@ ICE42 сообщит о следующих ошибках в приведенн�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

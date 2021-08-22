@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Доступ к другим функциям операционной системы с помощью инструментария WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ac4c639702c0456ed2e0560b703228ed8552e03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7828597d653153118544093c6abb4c005fc537e775ec1ed8cbace654f3688fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119374884"
 ---
 # <a name="accessing-other-operating-system-features-with-wmi"></a>Доступ к другим функциям операционной системы с помощью инструментария WMI
 
@@ -24,7 +24,7 @@ ms.locfileid: "104266086"
 -   [Доступ к Active Directory](accessing-active-directory.md)
 -   [Доступ к SNMP-устройствам](accessing-snmp-devices.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

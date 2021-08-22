@@ -1,20 +1,20 @@
 ---
-title: Советы по правильности OpenGL
-description: Советы по правильности OpenGL
+title: правильность Советы OpenGL
+description: правильность Советы OpenGL
 ms.assetid: 48397fbf-823d-4ea0-adfd-2c639e20e38f
 keywords:
 - OpenGL, советы по исправлению
 - OpenGL, рекомендации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5294d2e989591216ea8cf66aa380933718776f2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 588cb53ca9e096eb768c4ce448c0bb7badae6f01e7b8d7e16c31a631ebcafb47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486404"
 ---
-# <a name="opengl-correctness-tips"></a>Советы по правильности OpenGL
+# <a name="opengl-correctness-tips"></a>правильность Советы OpenGL
 
 Следуйте приведенным ниже рекомендациям, чтобы создать приложения OpenGL, которые выполняются так, как вам нужно.
 
@@ -50,9 +50,9 @@ ms.locfileid: "104410812"
 
 -   Избегайте использования отрицательных *координат вершин и отрицательных* координат текстуры в *q* . OpenGL может не отсекать такие координаты правильно и может привести к ошибкам интерполяции при заливке примитивов, определенных такими координатами.
 
- 
+ 
 
- 
+ 
 
 
 

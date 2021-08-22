@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 899ff4833c705aae34fdb7830c264fee91414116
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 590c4b7335fe0596c5b5b0f3dc709998fafc21f7be78f493a05f6520ed9fd368
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488734"
 ---
 # <a name="glusphere-function"></a>Функция Глусфере
 
@@ -75,7 +75,7 @@ void WINAPI gluSphere(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глусфере** рисует сферу заданного радиуса по центру от начала координат. Сфера разделяется вокруг оси z на срезы и вдоль оси z в стеки (аналогично линиям долготы и широты).
 
@@ -83,7 +83,7 @@ void WINAPI gluSphere(
 
 Если текстурирование включено (с **глукуадриктекстуре**), то координаты текстуры формируются таким образом, чтобы *диапазоны* в диапазоне от 0,0 по *z* =-*радиусу* 1,0 по *z*  =  *радиусу* (*t* — линейно по долготу линиям  ). и находятся в диапазоне от 0,0 на положительной оси y, до 0,25 на позитивной оси x, до 0,5 на отрицательной оси y, в 0,75 по отрицательной оси x и обратно в 1,0 на положительной оси y.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -97,7 +97,7 @@ void WINAPI gluSphere(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

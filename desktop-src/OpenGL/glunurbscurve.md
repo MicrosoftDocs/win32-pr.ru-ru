@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c38e3d5fe35e994afa4b5d8b91c4244573132c5b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d5973ce3cb4d1ac05ea353fd78359f6b3b1bc9a3a0ab3180807b0834cc4bb20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489044"
 ---
 # <a name="glunurbscurve-function"></a>Функция Глунурбскурве
 
@@ -99,7 +99,7 @@ void WINAPI gluNurbsCurve(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда **глунурбскурве** появляется между парой **глубегинкурве** / **глуендкурве** , она описывает кривую для подготовки к просмотру. Вы связываете позиционированные, текстурные и цветовые координаты, предоставляя каждый как отдельный **глунурбскурве** между парой **глубегинкурве** / **глуендкурве** . Не делайте более одного вызова **глунурбскурве** для данных о цвете, положении и текстуре в одной паре **глубегинкурве** / **глуендкурве** . Сделайте ровно один вызов, чтобы описать расположение кривой ( *тип* GL \_ «Карта1» \_ вершиной \_ 3 или GL \_ «Карта1» \_ Vertex \_ 4).
 
@@ -117,7 +117,7 @@ gluBeginCurve(nobj);
 gluEndCurve(nobj); 
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -131,7 +131,7 @@ gluEndCurve(nobj);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
