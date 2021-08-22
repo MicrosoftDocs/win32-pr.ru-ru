@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: db24f9dc84f2bb56f57327090485b406ad1a437f
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: dd71db0310b450db1d9c87879e8ac10ad998d1d21e48a60eb9d816c0a0718b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "103999821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146287"
 ---
 # <a name="sh_job-keyword"></a>\_ключевое слово задания SH
 
@@ -34,7 +34,7 @@ ms.locfileid: "103999821"
 
 В документации по [**system_handle**](system-handle.md) также содержатся сведения о необязательном использовании параметра *Access-Rights* . Поведение по умолчанию `DUPLICATE_SAME_ACCESS` для каждой спецификации [ **функции дупликатехандле**](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать это ключевое слово с `system_handle` атрибутом, `-target` необходимо установить для флага значение `NT100` (или более высокий) при выполнении midl.exe.
 
@@ -53,7 +53,7 @@ interface MyInterface : IUnknown
 
 | &nbsp; | &nbsp; |
 |-|-|
-| Минимальная версия клиента | Юбилейное обновление Windows 10 (версия 1607, сборка 14393) |
+| Минимальная версия клиента | Windows 10 Годовщина обновления (версия 1607, сборка 14393) |
 | Минимальная версия сервера | Windows Server 2016 (сборка 14393) |
 
 ## <a name="see-also"></a>См. также раздел

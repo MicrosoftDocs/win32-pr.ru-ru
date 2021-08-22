@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 9b70f7a1698ecdb4de023786f21a6ef9d55f681d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cbf60c935a88a62786c7c516ec0e768d65019c02d4419c44d928cee704a67b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450784"
 ---
 # <a name="itemitemtype-property"></a>Свойство Item. ItemType
 
@@ -53,7 +53,7 @@ propVal = Item.ItemType
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент может иметь более одного типа. Например, все изображения имеют типы "Image" и "File". **ItemType** возвращает строку, включающую все допустимые типы элемента, разделенные точкой с запятой. Например, "Image; File". В этой строке нет пробелов, и в конце отсутствует точка с запятой.
 
@@ -63,8 +63,8 @@ propVal = Item.ItemType
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (версия 4,90 или более поздняя)</dt> </dl> |
 
 

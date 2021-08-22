@@ -4,12 +4,12 @@ ms.assetid: fb434927-1548-4c6e-bfb7-3a99eef62a4a
 title: WPD_FUNCTIONAL_CATEGORY_STILL_IMAGE_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88d821f1182012fbf29960fae4fc06b14ec53ecb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94fb0f6f19930780784083eaeddc1156bf55c99943aae8ad5850374c04211dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444814"
 ---
 # <a name="wpd_functional_category_still_image_capture"></a>\_функциональная \_ Категория WPD \_ все \_ еще \_ отслеживает образы
 
@@ -42,7 +42,7 @@ ms.locfileid: "103999253"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md)    | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                        | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                   | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                         | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                         | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 | [\_разрешение на \_ \_ запись изображения WPD все еще \_](still-image-properties.md)                  | Обязательный.                                                                                                                                              |
 | [\_образ WPD все еще имеет \_ \_ Формат записи образа \_](still-image-properties.md)                          | Обязательный.                                                                                                                                              |
 | [\_параметр сжатия данных о неподвижных \_ ИЗОБРАЖЕНИЯх WPD \_ \_](still-image-properties.md)                | Необязательный элемент.                                                                                                                                              |
@@ -82,7 +82,7 @@ ms.locfileid: "103999253"
 
 Многие из этих свойств имеют взаимосвязь. Например, если для параметра измерение вероятности **\_ \_ \_ раскрытия \_ \_ по-прежнему** установлено значение автоматически, то будет связано значение f-останавливаюте, время выдержки и показатель экспозиции. изменение одного из них приведет к тому, что другие будут отличаться.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

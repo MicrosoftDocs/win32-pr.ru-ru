@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7599886b47830b33c69f11c0c341c7775c644dd3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 56d741f0d91784f578377e5ee117cf0c3b4aabe5cb1177c7942fc6e8ab8f81d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103986958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119120358"
 ---
 # <a name="warning-pragma-directive"></a>Warning pragma, директива
 
@@ -77,7 +77,7 @@ ms.locfileid: "103986958"
 <td>Не выдавать предупреждения с указанными числами.</td>
 </tr>
 <tr class="odd">
-<td>Ошибка</td>
+<td>error</td>
 <td>Сообщать о предупреждениях с указанными числами как об ошибках.</td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ ms.locfileid: "103986958"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Можно указать любое количество уникальных изменений поведения предупреждений в пределах одной и той же директивы pragma warning, разделяя изменения точкой с запятой.
 

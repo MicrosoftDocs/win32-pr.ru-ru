@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 67232bf1081f9c9ea088968cb6c5d02667b00eeb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8999f6dbb42c55c036ee3d7fcd02dc34def4bd0a036cf0b5d908d3c280e297e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317794"
 ---
 # <a name="cdynamicoutputpinasynchronousblockoutputpin-method"></a>Кдинамикаутпутпин. Асинчронаусблоккаутпутпин, метод
 
@@ -65,19 +65,19 @@ HRESULT AsynchronousBlockOutputPin(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не вызывайте этот метод из потока потоковой передачи.
 
 Если поток потоковой передачи не использует ПИН-код, этот метод немедленно блокирует ПИН-код. В противном случае он устанавливает состояние ПИН-кода "Pending" и возвращает. После завершения операции потоковой передачи поток потоковой передачи вызывает метод [**кдинамикаутпутпин:: стопусингаутпутпин**](cdynamicoutputpin-stopusingoutputpin.md) , который блокирует ПИН-код и сигнализирует о событии **хнотификаллерпинблоккедевент** . Чтобы отменить незавершенный блок, вызовите метод [**кдинамикаутпутпин:: унблоккаутпутпин**](cdynamicoutputpin-unblockoutputpin.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

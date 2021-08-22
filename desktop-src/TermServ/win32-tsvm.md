@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f419a888adef946d2a7b281919a9a9293eeca5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65bdec32d667e88d152f77c3518b02a183a794c8727c96b0772194a183e97279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137437"
 ---
 # <a name="win32_tsvm-class"></a>\_Класс Win32 тсвм
 
@@ -81,7 +81,7 @@ class Win32_TSVm : CIM_LogicalElement
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -148,7 +148,7 @@ class Win32_TSVm : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -262,7 +262,7 @@ class Win32_TSVm : CIM_LogicalElement
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                  |
-| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                             |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ терминалсервицес<br/>                                                   |
 | MOF<br/>                      | <dl> <dt>Тсвмхост. mof</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>TSVmHostWmi.dll</dt> </dl> |

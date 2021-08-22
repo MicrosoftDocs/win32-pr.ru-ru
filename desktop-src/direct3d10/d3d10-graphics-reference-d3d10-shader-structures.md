@@ -4,12 +4,12 @@ ms.assetid: b36309e0-1c44-42d9-adcf-33acd753438c
 title: Структуры шейдеров (графика Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0d84096e743b15e0d5f85635dab4caf72c7e93
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e33e68732069ad39114df00d9fbe89f4468d61c1877ce42da494de8f074a0b85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409144"
 ---
 # <a name="shader-structures-direct3d-10-graphics"></a>Структуры шейдеров (графика Direct3D 10)
 
@@ -42,7 +42,7 @@ ms.locfileid: "104262696"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

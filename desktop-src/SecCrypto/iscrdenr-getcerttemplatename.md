@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 4eee84140e0a23b8a0dd5d26099ca61b868a90fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaf37f3907bc2b26ca1adbbded7be5ed7897a74ea9664d4353354d5ad9657d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409624"
 ---
 # <a name="iscrdenrgetcerttemplatename-method"></a>Метод Искрденр:: Жетцерттемплатенаме
 
@@ -78,7 +78,7 @@ SCrdEnr.getCertTemplateName( _
 
 Строка, представляющая имя шаблона сертификата, который будет использоваться в [*запросе сертификата*](../secgloss/c-gly.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если имя шаблона сертификата не задано путем вызова [**искрденр:: сетцерттемплатенаме**](iscrdenr-setcerttemplatename.md), по умолчанию используется имя в списке доступных шаблонов сертификатов.
 
@@ -89,7 +89,7 @@ SCrdEnr.getCertTemplateName( _
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искрденр определен как 753988a1-1357-436d-9cf5-f089bdd67d64<br/>             |
 

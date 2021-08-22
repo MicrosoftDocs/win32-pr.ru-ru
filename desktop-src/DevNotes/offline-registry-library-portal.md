@@ -4,18 +4,18 @@ ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: Библиотека автономных разделов реестра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae1aa5acdd7904516608413ff973e60e81c296c3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5ed71e617c838d2f12196dd205a9a84dca9d0f9c8e6b27fcf5790bed65d19c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076108"
 ---
 # <a name="offline-registry-library"></a>Библиотека автономных разделов реестра
 
-## <a name="purpose"></a>Цель
+## <a name="purpose"></a>Назначение
 
-Библиотека автономных разделов реестра (Offreg.dll) используется для изменения куста реестра за пределами активного системного реестра. Эта библиотека предназначена для сценариев обновления реестра, таких как обслуживание образа операционной системы. Библиотека поддерживает форматы кустов реестра, начиная с Windows Vista.
+Библиотека автономных разделов реестра (Offreg.dll) используется для изменения куста реестра за пределами активного системного реестра. Эта библиотека предназначена для сценариев обновления реестра, таких как обслуживание образа операционной системы. библиотека поддерживает форматы hive в реестре, начиная с Windows Vista.
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
@@ -39,7 +39,7 @@ Windows Vista
 
 Приложения должны ссылаться на Offreg.dll с помощью динамической компоновки.
 
-Offreg.dll предоставляется в комплекте драйверов Windows (WDK) для Windows 10 и более ранних версий операционной системы Windows.
+Offreg.dll предоставляется в наборе драйверов Windows (WDK) для Windows 10 и более ранних версий Windows операционной системы.
 
 Сведения о получении WDK см. в статье [как получить WDK и Влк](/windows-hardware/drivers/download-the-wdk) или посетить веб-сайт [подписок MSDN](https://msdn.microsoft.com/subscriptions/default.aspx) .
 

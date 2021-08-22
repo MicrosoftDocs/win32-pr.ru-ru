@@ -4,12 +4,12 @@ ms.assetid: b355351d-b0b4-4f5d-a440-fc408a29e700
 title: System. Image. Compression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b33b75d2d291edbc16a8cfd6c0c96c2a3db610e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebae86d3645be459d0995418236e52887a27735d16869fa0ce1db6ea42ba7748
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033482"
 ---
 # <a name="systemimagecompression"></a>System. Image. Compression
 
@@ -114,11 +114,11 @@ propertyDescription
             defineName = IMAGE_COMPRESSION_PACKBITS
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

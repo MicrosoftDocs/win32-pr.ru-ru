@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: 1b9b3cc30f5a02ae86fd8a30043a9ab417ec1ac7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 00b26c8d237a8c6d725751be064c7b82fc7a600c452598a590a747ba10ae56d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075728"
 ---
 # <a name="wldpquerydynamiccodetrust-function"></a>Функция Влдпкуеридинамиккодетруст
 
@@ -70,15 +70,15 @@ HRESULT WINAPI WldpQueryDynamicCodeTrust(
 
 Этот метод возвращает **значение \_ ОК** в случае успеха или код ошибки в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Wldp. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Wldp. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 
 

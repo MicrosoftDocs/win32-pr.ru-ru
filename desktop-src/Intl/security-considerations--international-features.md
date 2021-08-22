@@ -4,12 +4,12 @@ ms.assetid: 4034f479-ad29-4c6f-82c6-977f420c4d4d
 title: 'Вопросы безопасности: международные функции'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb9f8b849e9fb1a07f01031832449b9c9027ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2e61566fdf51b80a76e5c8997018f35ce421dee6dd0e1b9e290888d96576249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147048"
 ---
 # <a name="security-considerations-international-features"></a>Вопросы безопасности: международные функции
 
@@ -38,30 +38,30 @@ ms.locfileid: "104272813"
 
 -   [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia). Сравнивает две символьные строки в соответствии с правилами языкового стандарта без учета регистра. Функция сравнивает строки, проверяя первые символы друг от друга, вторые символы и т. д., пока не найдет неравенство или не достигнет конца строк.
 -   [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa). Сравнивает строки с помощью методов, аналогичных методам [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia). Единственное отличие заключается в том, что [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa) выполняет сравнение строк с учетом регистра.
--   [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), [**Компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) (Windows Vista и более поздние версии). Выполнить сравнение строк в языковом стандарте, предоставляемом приложением. [**Компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) аналогичен [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), но он определяет языковой стандарт по [имени локали](locale-names.md) вместо [идентификатора локали](locale-identifiers.md). Эти функции похожи на [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia) и [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa) , за исключением того, что они работают с конкретным языковым стандартом вместо языкового стандарта, выбранного пользователем.
--   [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) (Windows Vista и более поздние версии). Сравнивает две строки Юникода для проверки эквивалентности двоичных файлов. За исключением случаев, когда параметр не учитывает регистр, эта функция игнорирует все недвоичные эквиваленты и проверяет все кодовые точки на равенство, включая кодовые точки, для которых не задан вес в лингвистических схемах [сортировки](sorting.md) . Обратите внимание, что другие функции сравнения, упомянутые в этом разделе, не проверяют все кодовые точки на равенство.
--   [**Финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), [**Финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) (Windows Vista и более поздние версии). Находите строку в Юникоде в другой строке Юникода. [**Финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) похож на [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), за исключением того, что он определяет языковой стандарт по имени локали вместо идентификатора локали.
--   [**Финдстрингординал**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal) (Windows 7 и более поздние версии). Находит одну строку Юникода в другой строке Юникода. Приложение должно использовать эту функцию вместо [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) для всех нелингвистических сравнений.
+-   [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), [**компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) (Windows Vista и более поздние версии). Выполнить сравнение строк в языковом стандарте, предоставляемом приложением. [**Компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) аналогичен [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw), но он определяет языковой стандарт по [имени локали](locale-names.md) вместо [идентификатора локали](locale-identifiers.md). Эти функции похожи на [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia) и [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa) , за исключением того, что они работают с конкретным языковым стандартом вместо языкового стандарта, выбранного пользователем.
+-   [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) (Windows Vista и более поздних версий). Сравнивает две строки Юникода для проверки эквивалентности двоичных файлов. За исключением случаев, когда параметр не учитывает регистр, эта функция игнорирует все недвоичные эквиваленты и проверяет все кодовые точки на равенство, включая кодовые точки, для которых не задан вес в лингвистических схемах [сортировки](sorting.md) . Обратите внимание, что другие функции сравнения, упомянутые в этом разделе, не проверяют все кодовые точки на равенство.
+-   [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), [**финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) (Windows Vista и более поздние версии). Находите строку в Юникоде в другой строке Юникода. [**Финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) похож на [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), за исключением того, что он определяет языковой стандарт по имени локали вместо идентификатора локали.
+-   [**финдстрингординал**](/windows/desktop/api/Libloaderapi/nf-libloaderapi-findstringordinal) (Windows 7 и более поздних версий). Находит одну строку Юникода в другой строке Юникода. Приложение должно использовать эту функцию вместо [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) для всех нелингвистических сравнений.
 
 Как и [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia) и [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa), [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) вычисляет строки по символу. Однако многие языки содержат элементы с несколькими символами, например два символа "CH" в традиционном испанском. Поскольку [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) использует языковой стандарт, предоставляемый приложением для обнаружения элементов с несколькими символами, а [лстркмпи](/windows/win32/api/winbase/nf-winbase-lstrcmpia) и [лстркмп](/windows/win32/api/winbase/nf-winbase-lstrcmpa) использует языковой стандарт потока, идентичные строки могут не сравниваться как равные.
 
 [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) игнорирует неопределенные символы и, таким словами, возвращает ноль (указывающий равные строки) для многих строковых пар, которые довольно уникальны. Строка может содержать значения, которые не сопоставлены ни с одним символом, либо могут содержать символы с семантикой вне домена приложения, например управляющие символы в URL-адресе. Приложения, использующие эту функцию, должны предоставлять обработчики ошибок и тестовые строки, чтобы убедиться, что они являются допустимыми, прежде чем использовать их.
 
 > [!Note]  
-> Для Windows Vista и более поздних версий [**компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) аналогичен [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Для этих функций существуют одинаковые проблемы безопасности.
+> для Windows Vista и более поздних версий [**компарестринжекс**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringex) аналогичен [**CompareString**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw). Для этих функций существуют одинаковые проблемы безопасности.
 
  
 
 Аналогичные проблемы безопасности относятся к функциям, таким как [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring), которые делают неявные сравнения. В зависимости от установленных флагов результаты вызова [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring) для поиска одной строки в другой строке могут значительно различаться.
 
 > [!Note]  
-> Для Windows Vista и более поздних версий [**финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) аналогичен [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring). Для этих функций существуют одинаковые проблемы безопасности.
+> для Windows Vista и более поздних версий [**финднлсстринжекс**](/windows/desktop/api/Winnls/nf-winnls-findnlsstringex) похож на [**финднлсстринг**](/windows/desktop/api/Winnls/nf-winnls-findnlsstring). Для этих функций существуют одинаковые проблемы безопасности.
 
  
 
 ## <a name="security-considerations-for-character-sets-in-file-names"></a>Вопросы безопасности для наборов символов в именах файлов
 
-Кодовая страница Windows и наборы символов OEM, используемые в системах на японском языке, содержат символ [¥) вместо обратной косой черты ( \\ ). Таким словами, символ «символы» является запрещенным для файловых систем NTFS и FAT. При сопоставлении Юникода с кодовой страницей на японском языке функции преобразования сопоставляют обратную косую черту (U + 005C) и Стандартный символ Юникода в Юникоде (U + 00A5) к этому же символу. По соображениям безопасности приложения обычно не должны допускать символ U + 00A5 в строке Юникода, которую можно преобразовать для использования в качестве имени файла FAT.
+Windows кодовая страница и наборы символов OEM, используемые в системах на японском языке, содержат символ [¥) вместо обратной косой черты ( \\ ). Таким словами, символ «символы» является запрещенным для файловых систем NTFS и FAT. При сопоставлении Юникода с кодовой страницей на японском языке функции преобразования сопоставляют обратную косую черту (U + 005C) и Стандартный символ Юникода в Юникоде (U + 00A5) к этому же символу. По соображениям безопасности приложения обычно не должны допускать символ U + 00A5 в строке Юникода, которую можно преобразовать для использования в качестве имени файла FAT.
 
 ## <a name="security-considerations-for-internationalized-domain-names"></a>Вопросы безопасности для международных доменных имен
 
@@ -86,7 +86,7 @@ ms.locfileid: "104272813"
 
  
 
-Многие функции поддержки национальных языков (NLS), такие как [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) и [**жеткалендаринфо**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa), имеют определенные версии ANSI, в данном случае **жетлокалеинфоа** и **жеткалендаринфоа** соответственно. Если в приложении используется версия ANSI функции с операционной системой на основе Юникода, такой как Windows NT, Windows 2000, Windows XP или Windows Vista, функция может завершиться сбоем или получить неопределенные результаты. Если есть убедительная причина использования функций ANSI с такой операционной системой, убедитесь, что данные, передаваемые приложением, действительны для ANSI.
+Многие функции поддержки национальных языков (NLS), такие как [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) и [**жеткалендаринфо**](/windows/desktop/api/Winnls/nf-winnls-getcalendarinfoa), имеют определенные версии ANSI, в данном случае **жетлокалеинфоа** и **жеткалендаринфоа** соответственно. если приложение использует версию ANSI функции с операционной системой на основе юникода, например Windows NT, Windows 2000, Windows XP или Windows Vista, функция может завершиться сбоем или получить неопределенные результаты. Если есть убедительная причина использования функций ANSI с такой операционной системой, убедитесь, что данные, передаваемые приложением, действительны для ANSI.
 
 ## <a name="security-considerations-for-unicode-normalization"></a>Вопросы безопасности при нормализации Юникода
 
@@ -94,7 +94,7 @@ ms.locfileid: "104272813"
 
 Хотя нормализация Юникода является элементом, обеспечивающим безопасность операционных систем, помните, что нормализация не является заменой для комплексной политики безопасности.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

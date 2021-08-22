@@ -4,12 +4,12 @@ ms.assetid: c0156485-db1e-42d3-bbbd-c51835a597ed
 description: 'Дополнительные сведения: функции-обработчики вне контекста'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d5837c39850c5821d44146498f62d4c874e7802
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e41e9a6bba1f705c3c5dc8781b2663be22086955f5dee45f07022504d0ccbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133747"
 ---
 # <a name="out-of-context-hook-functions"></a>Функции-обработчики вне контекста
 
@@ -28,7 +28,7 @@ ms.locfileid: "103911772"
 -   События запускаются очень быстро.
 -   Система работает слишком долго.
 -   Функция-ловушка обрабатывает события медленно.
--   Клиент работает под управлением Windows 9x.
+-   клиент работает на Windows 9x.
 
  
 

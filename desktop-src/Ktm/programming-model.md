@@ -4,12 +4,12 @@ ms.assetid: 356c66dc-5ddd-472f-835c-2e2cb019bcfd
 title: Работа с транзакциями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 255e40fb38ca4bfb24acdce717f133dbcf0c76f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eda967e3c8fe165c3a59de6534c26bc125dfb8dd209be68b5914ea099b0023e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146517"
 ---
 # <a name="working-with-transactions"></a>Работа с транзакциями
 
@@ -25,7 +25,7 @@ KTM предоставляет механизмы, позволяющие при
 
 Windows предоставляет интерфейс на основе маркеров для системных ресурсов. Для работы с объектом операционной системы приложение сначала запрашивает маркер объекта, а затем использует этот маркер в последующих вызовах функций для доступа к объекту или его изменения. Как правило, маркер может быть открыт в разных режимах; указанный режим влияет на семантику последующих вызовов функций. Например, маркер файла, Открытый с помощью вызова функции [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) с флагом *двдесиредакцесс* , установленным в значение **универсального \_ чтения** , нельзя использовать в вызовах, которые изменяют файл.
 
-Вы можете координировать [координатор распределенных транзакций](/previous-versions/windows/desktop/ms684146(v=vs.85)) ресурсов пользовательского режима, таких как SQL или MSMQ, а также ресурсов режима ядра, использующих KTM. Сначала создайте транзакцию DTC или объект [**System. Transactions**](/dotnet/api/system.transactions?view=dotnet-plat-ext-3.1) , а затем вызовите объект [**IKernelTransaction**](/previous-versions/windows/desktop/aa344210(v=vs.85)) , из которого можно получить обработчик KTM. Объект **IKernelTransaction** создает транзакцию KTM, которая является подчиненной для транзакции DTC. С помощью этого дескриптора можно создавать транзакционные объекты, но сообщать результат транзакции с помощью DTC или **System. Transactions**.
+вы можете координировать [координатор распределенных транзакций](/previous-versions/windows/desktop/ms684146(v=vs.85)) ресурсов пользовательского режима, таких как SQL или MSMQ, а также ресурсов режима ядра, использующих KTM. Сначала создайте транзакцию DTC или объект [**System. Transactions**](/dotnet/api/system.transactions?view=dotnet-plat-ext-3.1) , а затем вызовите объект [**IKernelTransaction**](/previous-versions/windows/desktop/aa344210(v=vs.85)) , из которого можно получить обработчик KTM. Объект **IKernelTransaction** создает транзакцию KTM, которая является подчиненной для транзакции DTC. С помощью этого дескриптора можно создавать транзакционные объекты, но сообщать результат транзакции с помощью DTC или **System. Transactions**.
 
  
 

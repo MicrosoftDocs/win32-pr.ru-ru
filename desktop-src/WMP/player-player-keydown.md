@@ -3,9 +3,9 @@ title: Событие Player. KeyDown
 description: Событие KeyDown возникает при нажатии клавиши. | Событие Player. KeyDown
 ms.assetid: a34dafca-5db2-4065-bcfe-d66e633b26fb
 keywords:
-- Событие KeyDown проигрыватель Windows Media Player
-- Событие KeyDown проигрыватель Windows Media Player, класс Player
-- Класс проигрывателя Windows Media Player, событие KeyDown
+- проигрыватель Windows Media события KeyDown
+- событие KeyDown проигрыватель Windows Media, класс Player
+- класс Player проигрыватель Windows Media, событие KeyDown
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 226430421977a58eca02b7a42cf0349f2a5ff520
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a067e0125bea6bcabec591d6c1f3ec6fc5a2ee1b0d649a02009690c89d68952e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134777"
 ---
 # <a name="playerkeydown-event"></a>Событие Player. KeyDown
 
@@ -61,7 +61,7 @@ Player.KeyDown(
 
 Это событие не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Аргумент *нкэйкоде* задает физический ключ. В следующих таблицах приведены возможные значения для основных ключей на стандартной клавиатуре.
 
@@ -76,15 +76,15 @@ Player.KeyDown(
 | F1-F12                  | 112-123 |
 | ESC                     | 27      |
 | TAB                     | 9       |
-| Caps Lock               | 20      |
+| CAPS LOCK               | 20      |
 | SHIFT (слева или справа)   | 16      |
 | CTRL (слева или справа)    | 17      |
 | ALT (слева или справа)     | 18      |
 | SPACE                   | 32      |
 | BACKSPACE               | 8       |
 | ВВОД                   | 13      |
-| Клавиша с логотипом Windows, слева  | 91      |
-| Клавиша с логотипом Windows, справа | 92      |
+| Windows клавиша с логотипом, слева  | 91      |
+| Windows клавиша с логотипом, справа | 92      |
 | Ключ приложения         | 93      |
 
 
@@ -131,9 +131,9 @@ Player.KeyDown(
 
  
 
-Значение параметров события указывается проигрывателем Windows Media, доступ к которому можно получить или передать в метод в импортированном файле JScript с использованием имени параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
+значение параметров события задается проигрыватель Windows Media, и к нему можно получить доступ или передать в метод в импортированном JScriptном файле, используя имя параметра. Имя этого параметра должно быть введено в точности так, как показано, включая прописные буквы.
 
-**Проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это событие не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -141,7 +141,7 @@ Player.KeyDown(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

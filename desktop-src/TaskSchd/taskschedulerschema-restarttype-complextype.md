@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f83dcac376fcdd8d2059649350502111f5a732f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 996debc2c8e3d7d00ca7b42facde582f918d72736426ed326691461d800f8562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119516483"
 ---
 # <a name="restarttype-complex-type"></a>Сложный тип Рестарттипе
 
@@ -62,23 +62,23 @@ ms.locfileid: "104535495"
 
 | Элемент                                                              | Тип | Описание                                        |
 |----------------------------------------------------------------------|------|----------------------------------------------------|
-| [**Расчета**](taskschedulerschema-count-restarttype-element.md)       |      | Число попыток перезапуска задачи.<br/> |
-| [**Пределах**](taskschedulerschema-interval-restarttype-element.md) |      | Длительность попытки запуска задачи.<br/>      |
+| [**Count**](taskschedulerschema-count-restarttype-element.md)       |      | Число попыток перезапуска задачи.<br/> |
+| [**Интервал**](taskschedulerschema-interval-restarttype-element.md) |      | Длительность попытки запуска задачи.<br/>      |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

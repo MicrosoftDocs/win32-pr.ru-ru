@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 64fb8729b694d38eac2d6321f92904292d99bd38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7c2ab656de8c3dd45a9543aafff64ac704f5d1e37a509781f767c4a3b2002f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384134"
 ---
 # <a name="cdrawimagesetsourcerect-method"></a>Кдравимаже. Сетсаурцерект, метод
 
@@ -53,19 +53,19 @@ void SetSourceRect(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фильтр-владелец должен вызывать этот метод, если исходный прямоугольник изменяется; Например, в ответ на вызов [**ибасиквидео:: сетсаурцепоситион**](/windows/desktop/api/Control/nf-control-ibasicvideo-setsourceposition) .
 
 Проверьте прямоугольник, указанный в *псаурцерект* , перед вызовом этого метода, чтобы убедиться, что он не выходит за пределы собственного видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

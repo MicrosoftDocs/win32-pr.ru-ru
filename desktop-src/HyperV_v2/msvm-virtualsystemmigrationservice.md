@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1e80cb12e6e6767b49670a1aff68c9791f224068
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87fa9fe2b15c7ed013e5e8cb8687c4d3ccb02193b48ee037c55273a50a7f84e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147967"
 ---
 # <a name="msvm_virtualsystemmigrationservice-class"></a>\_Класс мсвм виртуалсистеммигратионсервице
 
@@ -117,7 +117,7 @@ class Msvm_VirtualSystemMigrationService : CIM_VirtualSystemMigrationService
 | [**чекквиртуалсистемисмигратабле**](checkvirtualsystemismigratable-msvm-virtualsystemmigrationservice.md)             | Метод миграции виртуальной системы или хранилища виртуальной системы на целевой узел, заданный именем узла.<br/>                                              |
 | [**чекквиртуалсистемисмигратаблетохост**](checkvirtualsystemismigratabletohost-msvm-virtualsystemmigrationservice.md) | Определяет, можно ли перенести указанную виртуальную систему на целевой узел, заданный сетевым именем или IP-адресом.<br/>                                       |
 | [**жетсистемкомпатибилитинфо**](getsystemcompatibilityinfo-msvm-virtualsystemmigrationservice.md)                     | Создает непрозрачный большой двоичный объект данных, содержащий сведения о совместимости для указанной системы.<br/>                                                                |
-| [**жетсистемкомпатибилитивекторс**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Возвращает векторы совместимости для виртуальной машины или узла.<br/> **Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.<br/> |
+| [**жетсистемкомпатибилитивекторс**](getsystemcompatibilityvectors-msvm-virtualsystemmigrationservice.md)               | Возвращает векторы совместимости для виртуальной машины или узла.<br/> **Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.<br/> |
 | [**мигратевиртуалсистемтохост**](migratevirtualsystemtohost-msvm-virtualsystemmigrationservice.md)                     | Переносит виртуальную систему или хранилище виртуальной системы на целевой узел, указанный именем узла.<br/>                                                       |
 | [**мигратевиртуалсистемтосистем**](migratevirtualsystemtosystem-msvm-virtualsystemmigrationservice.md)                 | Перемещает или переносит виртуальную систему в целевую систему.<br/>                                                                                                |
 | [**модифинетворксеттингс**](modifynetworksettings-msvm-virtualsystemmigrationservice.md)                               | Изменяет сетевые подсети миграции для службы миграции виртуальной системы.<br/>                                                                                       |
@@ -176,7 +176,7 @@ class Msvm_VirtualSystemMigrationService : CIM_VirtualSystemMigrationService
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -335,7 +335,7 @@ class Msvm_VirtualSystemMigrationService : CIM_VirtualSystemMigrationService
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -549,8 +549,8 @@ class Msvm_VirtualSystemMigrationService : CIM_VirtualSystemMigrationService
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

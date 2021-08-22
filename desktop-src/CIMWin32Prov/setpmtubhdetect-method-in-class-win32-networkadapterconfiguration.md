@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 098652c6ea0a53f9d3b1f616def3dd8b5e7228af
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c9b97e7c55c03dc2fe0e899f9878310eebbf395e3ff15631cea6db8c98546e3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439834"
 ---
 # <a name="setpmtubhdetect-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетпмтубхдетект \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Маршрутизатор с черными отверстиями не возвращает сообщения о назначении протокола ICMP, когда требуется фрагментировать IP-датаграмму с установленным битом «не фрагментировать». Протокол TCP зависит от получения этих сообщений для выполнения обнаружения MTU пути.
 

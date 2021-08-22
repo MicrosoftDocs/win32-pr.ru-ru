@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 57421b2fd9624d9798037151a5656343e386a497
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 534d588bc1633770c35b0e0edbc2079ed8f7ab5035d3a8d2ff181042d26fdb3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074278"
 ---
 # <a name="cdynamicoutputpinchangeoutputformat-method"></a>Кдинамикаутпутпин. Чанжеаутпутформат, метод
 
@@ -89,24 +89,24 @@ HRESULT ChangeOutputFormat(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод изменяет тип формата во время выполнения фильтра. Если подчиненный ПИН-код принимает новый формат, повторное подключение не требуется. В противном случае метод пытается повторно подключить ПИН-код. Если метод успешно изменяет формат, он доставляет сведения о новом сегменте. Этот метод вызывает метод [**кдинамикаутпутпин:: чанжемедиатипе**](cdynamicoutputpin-changemediatype.md) для изменения формата.
 
 Перед вызовом этого метода необходимо вызвать метод [**кдинамикаутпутпин:: стартусингаутпутпин**](cdynamicoutputpin-startusingoutputpin.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

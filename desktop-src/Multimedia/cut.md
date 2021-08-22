@@ -3,7 +3,7 @@ title: Команда "вырезать"
 description: Команда Cut удаляет данные из рабочей области и копирует их в буфер обмена. Устройство Digital-Video распознает эту команду.
 ms.assetid: f42c7364-49cb-41be-b601-bda6e97d1e76
 keywords:
-- Вырезание команды мультимедиа Windows
+- команда "вырезать" Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33571309e1dd249f20e577c97b8c6e1b950eda09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5a39010ad7dd07ccff38291441bb0aa05a54ee65da1b865d7ac82ed77fbfdd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144567"
 ---
 # <a name="cut-command"></a>Команда "вырезать"
 
@@ -78,7 +78,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Изменение становится постоянным только при явном сохранении данных. Однако воспроизведение действует так, как если бы данные были удалены.
 

@@ -20,12 +20,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6434a4dfe6bc1a79fdaf4576a89ef552cebd5e1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 066cea4044330ab79122e9346f6f32999202f854245e5508448e40aea3521fe0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422604"
 ---
 # <a name="win32_rdshserver-class"></a>\_Класс Win32 рдшсервер
 
@@ -107,7 +107,7 @@ class Win32_RDSHServer
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -176,11 +176,11 @@ class Win32_RDSHServer
 
 </dt> <dd></dd> </dl>
 
-**Windows server 2012 R2 и Windows server 2012:** Это свойство недоступно до Windows Server 2016.
+**Windows Server 2012 R2 и Windows Server 2012:** Это свойство недоступно до Windows Server 2016.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

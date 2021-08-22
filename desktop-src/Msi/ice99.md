@@ -4,12 +4,12 @@ ms.assetid: a7657c14-6542-4a7b-a8f7-727b109cfc39
 title: ICE99
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d70aeaf6480e45db5b47f76434f93e49adf317
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25744243ad5de8adc6a88ebc09890eb006d94e929a56e469ce802ad67f9a230b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315274"
 ---
 # <a name="ice99"></a>ICE99
 
@@ -23,7 +23,7 @@ ICE99 отправляет следующую ошибку.
 
 | ICE99, ошибка                                                                                                      | Описание                                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Имя каталога: 1 совпадает с \[ \] одним из открытых свойств MSI и может привести к непредвиденным побочным эффектам. | Значение в столбце Directory таблицы [Directory](directory-table.md) дублирует имя свойства, зарезервированное установщик Windows. |
+| Имя каталога: 1 совпадает с \[ \] одним из открытых свойств MSI и может привести к непредвиденным побочным эффектам. | значение в столбце directory таблицы [directory](directory-table.md) дублирует имя свойства, зарезервированное установщик Windows. |
 
 
 
@@ -51,7 +51,7 @@ CustomActionData is the same as one of the MSI Public Properties and can cause u
 
 Чтобы исправить это предупреждение, измените имя CustomActionData.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -61,7 +61,7 @@ CustomActionData is the same as one of the MSI Public Properties and can cause u
 [Таблица каталога](directory-table.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,0 и более ранних версиях](not-supported-in-windows-installer-version-3-0.md)
+[не поддерживается в установщик Windows 3,0 и более ранних версиях](not-supported-in-windows-installer-version-3-0.md)
 </dt> </dl>
 
  

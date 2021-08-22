@@ -4,12 +4,12 @@ ms.assetid: 6140c9d8-0e5b-49f2-a4a6-cc1f2a0bed0a
 title: Сообщение WM_SPOOLERSTATUS (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 460e36e44f219bcbe6f514d7d368accddae46b83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee2869c468517abf466b348583748e391fc1f2a4226c74b5811fffabdb5eeb89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460344"
 ---
 # <a name="wm_spoolerstatus-message"></a>\_Сообщение СПУЛЕРСТАТУС WM
 
@@ -51,11 +51,11 @@ LRESULT CALLBACK WindowProc(
 
 Приложение должно вернуть нуль, если оно обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение предназначено только для информационных целей. Это сообщение является Советом и не имеет гарантированной семантики доставки. Приложения не должны рассчитывать на то, что они получат \_ сообщение WM спулерстатус для каждого изменения в состоянии диспетчера очереди печати.
 
-Сообщение WM \_ спулерстатус не поддерживается после Windows XP. Чтобы получать уведомления об изменениях состояния очереди печати, можно использовать [**финдфирстпринтерчанженотификатион**](findfirstprinterchangenotification.md) и [**финднекстпринтерчанженотификатион**](findnextprinterchangenotification.md).
+\_после Windows XP сообщение WM спулерстатус не поддерживается. Чтобы получать уведомления об изменениях состояния очереди печати, можно использовать [**финдфирстпринтерчанженотификатион**](findfirstprinterchangenotification.md) и [**финднекстпринтерчанженотификатион**](findnextprinterchangenotification.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -65,7 +65,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

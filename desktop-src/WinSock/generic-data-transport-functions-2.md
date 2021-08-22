@@ -4,12 +4,12 @@ ms.assetid: 6900faa3-79bb-4ed8-b83e-148eb10425a0
 title: Универсальные функции транспорта данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63de41b90148210ea8a99d5271b62c5d8bc0c08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10d13b067713fe6a2600d6667ebe7eac058c5fcae87fc5bfd14311b3a263b862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132357"
 ---
 # <a name="generic-data-transport-functions"></a>Универсальные функции транспорта данных
 
@@ -22,8 +22,8 @@ ms.locfileid: "104541591"
 | [**вспакцепт**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspaccept)                           | Входящее подключение подтверждается и связывается с немедленно созданным сокетом. Исходный сокет возвращается в состояние прослушивания. Эта функция также позволяет условное принятие. |
 | [**вспасинкселект**](/previous-versions/windows/desktop/legacy/ms742267(v=vs.85))                 | Выполняет асинхронную версию [**вспселект**](/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)).                                                                                                                                      |
 | [**вспбинд**](/previous-versions/windows/hardware/network/ff566268(v=vs.85))                               | Присваивает локальное имя неименованному сокету.                                                                                                                                                              |
-| [**вспканцелблоккингкалл**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))   | Отменяет необработанный вызов сокетов Windows.                                                                                                                                                   |
-| [**вспклеануп**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | Выполняет выход из базового поставщика службы Windows Sockets.                                                                                                                                         |
+| [**вспканцелблоккингкалл**](/previous-versions/windows/desktop/legacy/ms742269(v=vs.85))   | отменяет незавершенную блокировку, Windows вызов сокетов.                                                                                                                                                   |
+| [**вспклеануп**](/previous-versions/windows/hardware/network/ff566270(v=vs.85))                         | выполняет выход из базового поставщика службы Windows sockets.                                                                                                                                         |
 | [**вспклосесоккет**](/previous-versions/windows/hardware/network/ff566273(v=vs.85))                 | Удаляет сокет из таблицы ссылок на объект для каждого процесса. Блокируется только в случае, если для этого \_ параметра задано значение ненулевого времени ожидания в блокирующем сокете.                                                            |
 | [**вспконнект**](/previous-versions/windows/hardware/network/ff566275(v=vs.85))                         | Инициирует подключение к указанному сокету. Эта функция также позволяет обмениваться данными и спецификацией QoS.                                                                           |
 | [**вспдупликатесоккет**](/previous-versions/windows/hardware/network/ff566282(v=vs.85))         | Возвращает структуру [**\_ сведений о всапротокол**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) , которую можно использовать для создания нового дескриптора сокета для общего сокета.                                                             |
@@ -47,7 +47,7 @@ ms.locfileid: "104541591"
 | [**вспсетсоккопт**](/previous-versions/windows/hardware/network/ff566318(v=vs.85))                   | Сохраняет параметры, связанные с указанным сокетом.                                                                                                                                                    |
 | [**вспшутдовн**](/previous-versions/windows/desktop/legacy/ms742294(v=vs.85))                       | Завершает часть полного дуплексного подключения.                                                                                                                                                            |
 | [**вспсоккет**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpwspsocket)                           | Функция создания сокета, которая принимает в качестве входных данных структуру [**всапротокол \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) и позволяет создавать перекрывающиеся сокеты.                                                |
-| [**вспстартуп**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup)                         | Инициализирует базовый поставщик службы сокетов Windows.                                                                                                                                            |
+| [**вспстартуп**](/windows/desktop/api/Ws2spi/nf-ws2spi-wspstartup)                         | инициализирует базовый поставщик службы Windows sockets.                                                                                                                                            |
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 92c3158a09aeb871ef367133c07278b0f3b87390
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 611ec04a5c3a53bbb8c6c35380bd0d9f824dc697a7d27a3656b262d885fb4eac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457514"
 ---
 # <a name="if-bool---ps"></a>If bool-PS
 
@@ -29,13 +29,13 @@ ms.locfileid: "103784890"
 
 
 
- 
+ 
 
 Где:
 
 -   bool представляет собой логический (логический) номер регистра. См. раздел [Постоянный логический регистр](dx9-graphics-reference-asm-ps-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "103784890"
 
 
 
- 
+ 
 
 Если исходный логический регистр в операторе If имеет значение true, выполняется код, заключенный в операторе if и соответствующий параметру [endif-PS](endif---ps.md) или [else-PS](else---ps.md) . В противном случае код, заключенный в else-PS... выполняется инструкция endif-PS. Эта инструкция использует один слот инструкций.
 
@@ -55,7 +55,7 @@ ms.locfileid: "103784890"
 
 За блоком if может следовать блок инструкции, или инструкция [else-PS](else---ps.md) , а также инструкция [endif-PS](endif---ps.md) .
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Эта инструкция предоставляет условное статическое управление потоком.
 
@@ -72,7 +72,7 @@ endif
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -85,9 +85,9 @@ endif
 [endif-PS](endif---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8c3fa4ca-dcff-bd23-7220-7d0aeb6c6068
 title: Звуковые эффекты в XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8de87a65ea4321b5e8d73a837f79a3e56e8e3a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 886edb81718f772f7dec31f799b1612ca701c2327468ad554fe80a17c1f69ec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082858"
 ---
 # <a name="xaudio2-audio-effects"></a>Звуковые эффекты в XAudio2
 
@@ -50,7 +50,7 @@ API [ксапо](xapo-overview.md) предоставляет платформу
 
 [Ксапофкс](xapofx-overview.md) предоставляет дополнительную библиотеку ксапос и распространенный механизм для их создания. Пример использования КСАПОФКС с XAudio2 см. в разделе [как использовать ксапофкс в XAudio2](how-to--use-xapofx-in-xaudio2.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

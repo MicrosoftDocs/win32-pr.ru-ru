@@ -3,12 +3,12 @@ description: Демонстрирует процесс добавления об
 title: Назначение обработчика устройства устройству
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16db6a39406e3d8ba7cd8b497e12883685b80d93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8de091a7206e8fe2d9ea2781e2c5b3475cb71446bae2effa9e017795ced8b9bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092978"
 ---
 # <a name="how-to-assign-a-device-handler-to-a-device"></a>Назначение обработчика устройства устройству
 

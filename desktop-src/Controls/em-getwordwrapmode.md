@@ -3,7 +3,7 @@ title: Сообщение EM_GETWORDWRAPMODE (RichEdit. h)
 description: Возвращает текущие параметры переноса по словам и разрыва слов для элемента управления Rich Edit.
 ms.assetid: a87d80d6-2e9e-40ba-9348-a1cc1ef8ec10
 keywords:
-- Элементы управления Windows для EM_GETWORDWRAPMODE сообщений
+- элементы управления Windows сообщений EM_GETWORDWRAPMODE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efc8a2b6d17623964eb0d3714c1c099f47fc788a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aef3127e5ce3652e9103dfa0e030d66ec7b1b085bc4b60d0cf0bb3f03a30d3fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437954"
 ---
 # <a name="em_getwordwrapmode-message"></a>\_Сообщение ЖЕТВОРДВРАПМОДЕ EM
 
@@ -52,18 +52,18 @@ ms.locfileid: "104489459"
 
 Сообщение возвращает текущие параметры переноса по словам и разрыва слов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение не должно отправляться с помощью определяемой приложением, процедурой разбиения по словам.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

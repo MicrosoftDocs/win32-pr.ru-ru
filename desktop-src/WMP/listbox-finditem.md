@@ -3,7 +3,7 @@ title: LISTBOX. findItem
 description: Метод findItem выполняет поиск заданной строки, начиная с элемента, следующего за указанным индексом элемента.
 ms.assetid: 8d112d99-1866-45e5-b0ef-5d4a3c8b388d
 keywords:
-- Проигрыватель Windows Media LISTBOX. findItem
+- проигрыватель Windows Media LISTBOX. findItem
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 161f4dd8b93fe4fed6a794dffde3e58e840c74e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e3625c8d8e9993d09e7b5b41911ead8df857c257a7a2354d71c8d81c1fecc645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135327"
 ---
 # <a name="listboxfinditem"></a>LISTBOX. findItem
 
@@ -50,7 +50,7 @@ ms.locfileid: "105694982"
 
 Этот метод возвращает **число** (**Long**), содержащее индекс элемента, содержащего строку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы начать поиск с первой строки элемента управления "список", используйте 1 в качестве *startIndex*. Чтобы продолжить поиск текста после того, как будет найдена первая строка, используйте возвращенный индекс строки в качестве *startIndex*, и поиск начнется со следующей строки. Этот метод будет искать подстроки и не учитывает регистр.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105694982"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

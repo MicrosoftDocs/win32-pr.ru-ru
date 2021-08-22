@@ -4,12 +4,12 @@ ms.assetid: 4b65ced8-8dc9-43f6-bfe1-3703aea3459f
 title: 'Пример кода: расширения оболочки для обработчиков протоколов'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e436f1d7ad746181be8cb3c43375abe3656c544b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1f2a29fb75ee6838b207648e2b58d634e19eb977f6d0abedb01ba450968756e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033112"
 ---
 # <a name="code-sample-shell-extensions-for-protocol-handlers"></a>Пример кода: расширения оболочки для обработчиков протоколов
 
@@ -21,7 +21,7 @@ ms.locfileid: "105701403"
 >
 > **ЭТОТ КОД И ИНФОРМАЦИЯ ПРЕДОСТАВЛЯЮТСЯ "КАК ЕСТЬ" БЕЗ КАКИХ-ЛИБО ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ ГАРАНТИЙ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ ПОДРАЗУМЕВАЕМЫМИ ГАРАНТИЯМИ ПРИГОДНОСТИ И (ИЛИ) ПРИГОДНОСТИ ДЛЯ КОНКРЕТНОЙ ЦЕЛИ.**
 >
-> (C) корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+> (C) корпорация Майкрософт (Microsoft Corporation). All rights reserved.
 
  
 
@@ -499,10 +499,10 @@ STDMETHODIMP CSampleShellFolder::SetNameOf(
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
--   Примеры кода поиска см. в разделе [примеры пакета SDK для Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+-   примеры кода поиска см. в разделе [примеры SDK для Windows поиска](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 -   Примеры кода оболочки см. в разделе [примеры пакетов SDK](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85))для оболочки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

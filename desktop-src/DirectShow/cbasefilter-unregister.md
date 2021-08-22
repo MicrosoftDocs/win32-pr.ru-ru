@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8b46e74e4009f6767788fa120984eca0e89fb551
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c57d08c77c9c420cdc45b158a19fa610231f53f6b409d8b650953de0de8381a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119317904"
 ---
 # <a name="cbasefilterunregister-method"></a>Кбасефилтер. Unregister, метод
 
 `Unregister`Метод удаляет фильтр из реестра.
 
 > [!Note]  
-> Этот метод устарел. Регистрация новых фильтров должна быть отменена с помощью функции [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . Дополнительные сведения см. [в разделе Регистрация фильтров DirectShow](how-to-register-directshow-filters.md).
+> Этот метод устарел. Регистрация новых фильтров должна быть отменена с помощью функции [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) . дополнительные сведения см. [в статье регистрация DirectShow фильтров](how-to-register-directshow-filters.md).
 
  
 
@@ -49,13 +49,13 @@ HRESULT Unregister();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

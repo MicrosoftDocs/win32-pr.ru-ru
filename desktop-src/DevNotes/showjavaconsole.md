@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjava.dll
-ms.openlocfilehash: 522885bfdd07843549375977630d8d1a7c6776f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a8517d32057b6434d3822cc02977f6afd72c1b387b78e85e53810bd27f00550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075858"
 ---
 # <a name="showjavaconsole-function"></a>Функция Шовжаваконсоле
 
@@ -43,13 +43,13 @@ void extern ShowJavaConsole(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов **шовжаваконсоле** приводит к тому, что виртуальная машина Java (VM) отображает окно консоли Java. Окно консоли Java может отображать выходные данные отладки из кода Java, выполняемого в вызывающем процессе. Как правило, это будет использоваться только приложением, на котором размещена виртуальная машина Java. Для каждого процесса существует только одно окно консоли Java; несколько вызовов API приводят к отображению одного и того же окна. Иными словами, если окно консоли уже отображается, ничего не происходит; Если окно не было отображено или пользователь закрыл его, откроется окно.
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

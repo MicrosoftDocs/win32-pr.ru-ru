@@ -3,7 +3,7 @@ title: Атрибут Контентдистрибутордуратион
 description: Атрибут Контентдистрибутордуратион — длительность воспроизведения элемента в секундах.
 ms.assetid: c64cb4ca-b0bc-4beb-b2ae-ddd0c5fcd35c
 keywords:
-- Контентдистрибутордуратион атрибут Windows Media Player
+- проигрыватель Windows Media атрибута контентдистрибутордуратион
 topic_type:
 - apiref
 api_name:
@@ -12,23 +12,23 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f17bad8ef5dd1ab4b0a3d1c7b5becec6fd34a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eefee789358f2d913d976432a485cf7726e3f7d6afa14e845ad9d7699d8ed4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135757"
 ---
 # <a name="contentdistributorduration-attribute"></a>Атрибут Контентдистрибутордуратион
 
 Атрибут **контентдистрибутордуратион** — длительность воспроизведения элемента в секундах.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если атрибут регулярной **длительности** не задан (null) или 0, то вместо него будет возвращено значение этого атрибута.
 
@@ -40,7 +40,7 @@ ms.locfileid: "105698866"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 

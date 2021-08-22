@@ -4,12 +4,12 @@ ms.assetid: 5be2248b-7917-4c1b-9ae7-29e06779eac6
 title: Передача из файла типа-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74e38ed3e549b6cd671248ba1df9b24df8fbfe3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e62ce67627c350c24de1bf1ee96ba7804ac3f164264e167498c597e8136ea138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015540"
 ---
 # <a name="transmit-from-type-1-file"></a>Передача из файла типа-1
 
@@ -91,7 +91,7 @@ hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pFileSource, 0, pDV);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

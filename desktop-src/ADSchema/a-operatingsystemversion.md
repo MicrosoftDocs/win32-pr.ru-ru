@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a13aa131a482cad2c36345ddb742e82620d24cd8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d8782bb25fe073e6591e7d9edcac44a80c7255a359c5f6a8a16017325a49f11d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442164"
 ---
 # <a name="operating-system-version-attribute"></a>Атрибут версии операционной системы
 
