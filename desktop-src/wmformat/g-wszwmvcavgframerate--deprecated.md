@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCAvgFrameRate (Вмкодекдсп. h)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | g_wszWMVCAvgFrameRate (Вмкодекдсп. h)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | g_wszWMVCAvgFrameRate (Вмкодекдсп. h)
 ms.assetid: 185e2b7d-d404-4b42-a7b2-349823645d18
 keywords:
 - g_wszWMVCAvgFrameRate формат Windows Media
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd19d5b831e37aaa842318e41f90f13a4d52a246
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ff88aa0d41ec72d4898ccdb9a1d89f0e11c4e5171b7d4b5b8e4e4795428faf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703758"
 ---
 # <a name="g_wszwmvcavgframerate"></a>g \_ всзвмвкавгфрамерате
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>Требования
 
@@ -31,7 +31,7 @@ ms.locfileid: "105717765"
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

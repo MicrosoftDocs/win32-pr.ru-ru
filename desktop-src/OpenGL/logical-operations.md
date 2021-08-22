@@ -7,20 +7,20 @@ keywords:
 - логические операции OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3736f9a06892e652825a7232aa087eb8b4832f20
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dd2a0fc4b7af6a7176fb744fcb5411e9a54952cabfcd8da474bd2560d2e4865e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937377"
 ---
 # <a name="logical-operations"></a>Логические операции
 
 Логическую операцию можно применить между фрагментом и значением, хранящимся в соответствующем месте в буфера кадров; результат заменяет текущее значение буфера кадров. Выберите нужную логическую операцию с помощью [**гллогикоп**](gllogicop.md). Логические операции выполняются только для цветных индексов, а не для значений RGBA.
 
- 
+ 
 
- 
+ 
 
 
 

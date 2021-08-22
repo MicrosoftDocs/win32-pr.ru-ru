@@ -1,22 +1,22 @@
 ---
-description: Если службы терминалов включены, GINA должен вызывать функции поддержки Winlogon для завершения установки каждого пользователя, для запроса учетных данных сеанса клиента служб терминалов и для отключения от сетевого сеанса служб терминалов. Примечание. библиотеки DLL GINA не учитываются в Windows Vista.
+description: Если службы терминалов включены, GINA должен вызывать функции поддержки Winlogon для завершения установки каждого пользователя, для запроса учетных данных сеанса клиента служб терминалов и для отключения от сетевого сеанса служб терминалов. примечание. библиотеки dll GINA не учитываются в Windows Vista.
 ms.assetid: 70b55b99-b350-4638-84ba-e5580d9d992f
 title: Функции GINA служб терминалов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19452fb73f00ef4ace0dd85083578334b6fb1038
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0bdd81d66d88ae280c14d71d7d65385c0d5580b3e28cef9d0f26ed1963bded1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916396"
 ---
 # <a name="terminal-services-gina-functions"></a>Функции GINA служб терминалов
 
 Если службы терминалов включены, [*GINA*](../secgloss/g-gly.md) должен вызывать функции поддержки [*Winlogon*](../secgloss/w-gly.md) для завершения установки каждого пользователя, для запроса [*учетных данных*](../secgloss/c-gly.md) сеанса клиента служб терминалов и для отключения от сетевого сеанса служб терминалов.
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 

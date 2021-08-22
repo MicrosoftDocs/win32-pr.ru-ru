@@ -4,12 +4,12 @@ description: Указывает цикл, который выполняет ит
 ms.assetid: 0BEFADF4-036E-4FDA-9681-10965D6BA9FC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 243bdf3b370d3505d787451162c22340acef3a45
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8dfc3090e71c1101e2c2748924de24f5443363ede76b86130cf63c3a319c76ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043772"
 ---
 # <a name="loop-sm4---asm"></a>Loop (SM4-ASM)
 
@@ -22,13 +22,13 @@ ms.locfileid: "104996919"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **цикл** может выполнять итерацию неограниченно, хотя общее выполнение шейдера может быть принудительно завершено после выполнения некоторого числа инструкций.
 
-Блоки управления потоком могут вкладывать до 64 глубоких позиций на подпрограммы и Main. Компилятор HLSL не будет создавать подпрограммы, превышающие это ограничение. Поведение инструкций потока управления свыше 64 уровней в каждой подподпрограмме не определено.
+блоки управления Flow могут вкладывать до 64 глубоких глубин на подпрограммы и main. Компилятор HLSL не будет создавать подпрограммы, превышающие это ограничение. Поведение инструкций потока управления свыше 64 уровней в каждой подподпрограмме не определено.
 
 Формат маркера содержит смещение соответствующей инструкции [ендлуп](endloop--sm4---asm-.md) в шейдере для удобства.
 
@@ -54,7 +54,7 @@ ms.locfileid: "104996919"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -64,27 +64,27 @@ ms.locfileid: "104996919"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 4 (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

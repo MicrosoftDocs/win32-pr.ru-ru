@@ -3,13 +3,13 @@ title: Получение сведений из лицензий в локаль
 description: Получение сведений из лицензий в локальном хранилище лицензий
 ms.assetid: dd1abd5e-6536-4d8f-9607-b800c5a16d04
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
-- Пакет SDK Windows Media Format, локальное хранилище лицензий
-- Пакет SDK для Windows Media Format, лицензии
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
+- Windows Пакет SDK для формата мультимедиа, локальное хранилище лицензий
+- Windows Пакет SDK для формата мультимедиа, лицензии
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -24,16 +24,16 @@ keywords:
 - Расширенные API клиента, локальное хранилище лицензий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 479c7b9351535ba15c75da8a2ee3ddad1b273805
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 25db69bcad3bc6fcc56109d2abb05f58f4c2f675aa2999a3806791e92dff39a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703128"
 ---
 # <a name="getting-information-from-licenses-in-the-local-license-store"></a>Получение сведений из лицензий в локальном хранилище лицензий
 
-Расширенные API клиента DRM Windows Media предоставляют несколько способов получения сведений о правах, предоставленных лицензиями в локальном хранилище лицензий. В следующих разделах описывается, как получить данные различных типов.
+расширенные api-интерфейсы Windows Media DRM предоставляют несколько способов получения сведений о правах, предоставленных лицензиями в локальном хранилище лицензий. В следующих разделах описывается, как получить данные различных типов.
 
 
 
@@ -45,18 +45,18 @@ ms.locfileid: "105654226"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Инструкции по программированию**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

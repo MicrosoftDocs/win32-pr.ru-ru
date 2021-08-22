@@ -4,12 +4,12 @@ ms.assetid: 833c07eb-0ecf-41e2-9e01-8d83e51ffcef
 title: Функции диспетчера методов ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 516a83e207434f5d8c2e073e770c878198bc98e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2c0f03c2e6d29b262bd97729b92f9eea5fbf99d09f52ea3fe2b3579646a6fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948739"
 ---
 # <a name="input-method-manager-functions"></a>Функции диспетчера методов ввода
 
@@ -30,7 +30,7 @@ ms.locfileid: "105663461"
 | [**иммкреатеконтекст**](/windows/desktop/api/Imm/nf-imm-immcreatecontext)                       | Создает новый контекст ввода, выделяя память для контекста и инициализируя ее.                                        |
 | [**иммдестройконтекст**](/windows/desktop/api/Imm/nf-imm-immdestroycontext)                     | Освобождает входной контекст и освобождает связанную память.                                                                    |
 | [**иммдисаблеиме**](/windows/desktop/api/Imm/nf-imm-immdisableime)                             | Отключает редактор IME для потока или для всех потоков в процессе.                                                             |
-| [**иммдисаблелегацииме**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | Указывает, что этот поток является потоком пользовательского интерфейса приложения для Магазина Windows.                                                               |
+| [**иммдисаблелегацииме**](/windows/desktop/api/Imm/nf-imm-immdisablelegacyime)                 | указывает, что этот поток является потоком пользовательского интерфейса приложения для хранилища Windows.                                                               |
 | [**иммдисаблетекстфрамесервице**](/windows/desktop/api/Imm/nf-imm-immdisabletextframeservice)   | Не рекомендуется. Отключает службу текстового ввода для указанного потока.                                                            |
 | [**имменуминпутконтекст**](/windows/desktop/api/Imm/nf-imm-immenuminputcontext)                 | Извлекает контекст ввода для указанного потока.                                                                      |
 | [**имменумрегистерворд**](/windows/desktop/api/Imm/nf-imm-immenumregisterworda)                 | Перечисляет строки регистра, имеющие указанную строку чтения, стиль и строку регистра.                           |

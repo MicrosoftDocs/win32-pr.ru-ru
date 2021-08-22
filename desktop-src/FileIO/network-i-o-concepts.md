@@ -4,12 +4,12 @@ ms.assetid: 329491e8-a271-484e-80e2-71958b0e33f5
 title: Основные понятия сетевых операций ввода-вывода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04f7c46e1bdc94c68069c70fcfd8eca56c965296
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b47ab362862bca3e62595e4d09a1ffa32a9e21f9f523d5aceaa2e5ba98068bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104497952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951123"
 ---
 # <a name="network-io-concepts"></a>Основные понятия сетевых операций ввода-вывода
 
@@ -21,7 +21,7 @@ ms.locfileid: "104497952"
 
 | Раздел                                                                                                                 | Описание                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [Описание сетевой операции ввода-вывода](description-of-a-network-i-o-operation.md)<br/>                       | Описывает процесс сетевой операции ввода-вывода в Windows.<br/>                                            |
+| [Описание сетевой операции ввода-вывода](description-of-a-network-i-o-operation.md)<br/>                       | Описывает процесс сетевой операции ввода-вывода в разделе Windows.<br/>                                            |
 | [Общие сведения о протоколе Microsoft SMB и протоколе CIFS](microsoft-smb-protocol-and-cifs-protocol-overview.md)<br/> | Описывает реализацию Microsoft протокола SMB.<br/>                         |
 | [Оппортунистической блокировки](opportunistic-locks.md)<br/>                                                             | Оппортунистическая блокировка (также называемая жесткой блокировкой) — это блокировка, размещенная клиентом в файле, размещенном на сервере.<br/> |
 

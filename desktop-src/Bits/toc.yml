@@ -91,9 +91,9 @@
               href: preventing-multiple-uploads.md
             - name: Очистка виртуального каталога
               href: virtual-directory-cleanup.md
-            - name: Отправка рекомендаций
+            - name: Upload Рекомендации
               href: upload-best-practices.md
-            - name: Пределы передачи
+            - name: Upload Диапазона
               href: upload-limits.md
         - name: Использование заголовков запросов и ответов BITS
           href: using-bits-notification-request-response-headers.md
@@ -103,7 +103,7 @@
           href: using-windows-powershell-to-create-bits-transfer-jobs.md
         - name: Использование командлетов Windows PowerShell в WinRM для управления заданиями передачи BITS
           href: using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs.md
-        - name: Использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
+        - name: использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS
           href: using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server.md
     - name: Справочник по BITS
       href: bits-reference.md
@@ -526,7 +526,7 @@
                   href: example-adding-a-helper-token-to-a-bits-transfer-job-.md
             - name: Средство Битсадмин
               href: bitsadmin-tool.md
-        - name: Параметры сервера BITS для заданий отправки
+        - name: Параметры сервера BITS для заданий Upload
           href: bits-server-settings-for-upload-jobs.md
           items:
             - name: Свойства расширения IIS BITS
@@ -577,7 +577,7 @@
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_file_property_value
             - name: BITS_JOB_PROPERTY_VALUE
               href: /windows/win32/api/Bits5_0/ns-bits5_0-bits_job_property_value
-        - name: Протокол передачи BITS
+        - name: протокол Upload BITS
           href: bits-upload-protocol.md
           items:
             - name: Пакетов запросов BITS

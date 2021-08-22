@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Indentitystore.h
-ms.openlocfilehash: 8079985f916e996a56b4203ad6ad065c1b7664e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e59beeb17f7d6d0cced96daaceef7440523c3ce603d759f18cc69a93c0ab05c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008472"
 ---
 # <a name="deleteconnectedidentity-function"></a>Функция Делетеконнектедидентити
 
@@ -88,15 +88,15 @@ SEC_ENTRY DeleteConnectedIdentity(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                        |
-| Header<br/>                   | <dl> <dt>Индентитисторе. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Индентитисторе. h</dt> </dl> |
 
 
 

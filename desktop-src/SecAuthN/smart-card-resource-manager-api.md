@@ -4,12 +4,12 @@ ms.assetid: 5813a6e9-25bf-4816-943a-493441e143eb
 title: API смарт-карт диспетчер ресурсов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9f76bc993a288370010cd2b784247c5e59091ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e44359e53eb462647342276ac5f978a6a2ce5dc7438694fe928f2a34bc9154e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917523"
 ---
 # <a name="smart-card-resource-manager-api"></a>API смарт-карт диспетчер ресурсов
 
@@ -24,7 +24,7 @@ ms.locfileid: "104081324"
 | [Функции контекста диспетчер ресурсов](resource-manager-context-functions.md)<br/>             | Управление контекстом операций с базой данных Resource Manager.<br/>                                                                                                                                                                                                |
 | [Функция поддержки диспетчер ресурсов](resource-manager-support-function.md)<br/>               | Освобождение выделенной памяти.<br/>                                                                                                                                                                                                                                        |
 | [Функции отслеживания смарт-карт](smart-card-tracking-functions.md)<br/>                       | Мониторинг смарт-карт в рамках читателей.<br/>                                                                                                                                                                                                                                |
-| [Функции смарт-карт и доступа для чтения](smart-card-and-reader-access-functions.md)<br/>     | Подключение к смарт-карте и взаимодействие с ней, включая передачу данных с помощью [*t = 0*](../secgloss/t-gly.md), [*t = 1*](../secgloss/t-gly.md)и необработанных протоколов.<br/> |
+| [Функции смарт-карт и доступа для чтения](smart-card-and-reader-access-functions.md)<br/>     | Подключение и взаимодействия со смарт-картой, включая передачу данных с помощью [*t = 0*](../secgloss/t-gly.md), [*t = 1*](../secgloss/t-gly.md)и необработанных протоколов.<br/> |
 | [Функции прямого доступа к карте](direct-card-access-functions.md)<br/>                         | Обмен данными с картами, которые могут не соответствовать спецификациям ISO 7816.<br/>                                                                                                                                                                                      |
 
 

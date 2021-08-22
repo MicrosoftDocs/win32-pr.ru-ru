@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: e21c4cd0f6e51662124e02881b82c905dba68c9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 546cfeb39ac413b99b5b8021dc7dd6f0f57a89dbfb87880a63b0db2324cda0d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906065"
 ---
 # <a name="sslimportmasterkey-function"></a>Функция Сслимпортмастеркэй
 
@@ -130,7 +130,7 @@ SECURITY_STATUS WINAPI SslImportMasterKey(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция расшифровывает предварительный основной секрет, рассчитывает главный секрет SSL и возвращает в вызывающий объект маркер этого объекта. Затем этот главный ключ можно использовать для получения ключа сеанса SSL и завершения подтверждения SSL.
 
@@ -145,9 +145,9 @@ SECURITY_STATUS WINAPI SslImportMasterKey(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 
 

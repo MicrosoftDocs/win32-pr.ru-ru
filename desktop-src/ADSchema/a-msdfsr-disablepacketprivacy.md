@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4b562acf05219684b754381d3e1d4747f6011e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8a544bea1277c174b5c46b5ce0e45ecee9382ce66b6c073a8ab611515a4ffa65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960953"
 ---
 # <a name="ms-dfsr-disablepacketprivacy-attribute"></a>атрибут MS-DFSR-Дисаблепаккетприваци
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655479"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.32           |
 | System-ID — GUID    | 6a84ede5-741e-43fd-9dd6-aa0f61578621 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "105655479"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -76,7 +76,7 @@ ms.locfileid: "105655479"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
@@ -97,7 +97,7 @@ ms.locfileid: "105655479"
 | Идентификатор ссылки                | \-                                                           |
 | MAPI-Id                | \-                                                           |
 | System-Only            | Неверно                                                        |
-| Является однозначным       | True                                                         |
+| Является однозначным       | Верно                                                         |
 | Индексируется             | Неверно                                                        |
 | В глобальном каталоге      | Неверно                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |

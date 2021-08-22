@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41ebf7b157c5bd806442cdc120350a89ce646f9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01978cf55d90e217aa50fb8fad696f6af90b33ab9e59975a901daa99db633181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911049"
 ---
 # <a name="winbio_bir_data-structure"></a>\_ \_ Структура данных винбио Бир
 
@@ -55,18 +55,18 @@ typedef struct _WINBIO_BIR_DATA {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование смещений вместо указателей позволяет легко сериализовать Бир и для менее сложного перевода между 32 и 64-разрядными средами или между пользователем и режимом ядра.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                    |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                    |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (include винбио. h)</dt> </dl> |
 
 

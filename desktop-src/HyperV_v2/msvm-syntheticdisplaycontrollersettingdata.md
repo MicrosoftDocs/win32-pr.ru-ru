@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 52935800eda641eb9015247e9320f33f22b40251
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3adb39294af6dab153338aff17d16d8e44e3f4977617e9ee34e1686534bc35c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949843"
 ---
 # <a name="msvm_syntheticdisplaycontrollersettingdata-class"></a>\_Класс мсвм синсетикдисплайконтроллерсеттингдата
 
@@ -47,7 +47,7 @@ class Msvm_SyntheticDisplayControllerSettingData : CIM_ResourceAllocationSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ синсетикдисплайконтроллерсеттингдата** имеет следующие свойства.
 
@@ -115,7 +115,7 @@ class Msvm_SyntheticDisplayControllerSettingData : CIM_ResourceAllocationSetting
 </dt> <dd>
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1703.
+> добавлено в Windows 10 версии 1703.
 
  
 
@@ -142,7 +142,7 @@ class Msvm_SyntheticDisplayControllerSettingData : CIM_ResourceAllocationSetting
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

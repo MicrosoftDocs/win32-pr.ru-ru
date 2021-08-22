@@ -3,7 +3,7 @@ title: Код уведомления TVN_ITEMCHANGING (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления иерархического представления о том, что необходимо изменить атрибуты элементов. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: c997871c-8eca-46c0-999d-2f6d7e3e6c96
 keywords:
-- TVN_ITEMCHANGING кода уведомления элементы управления Windows
+- TVN_ITEMCHANGING кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d258b7bf9f03b0e721e61c5da56bc915518069b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85416e22562720455da3e3c03c95b3cee25b5f0f7420a31250b244f47dab0caa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957873"
 ---
 # <a name="tvn_itemchanging-notification-code"></a>\_Код уведомления ТВН итемчангинг
 
@@ -57,9 +57,9 @@ TVN_ITEMCHANGING
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ ИТЕМЧАНГИНГВ** (Юникод) и **ТВН \_ итемчангинга** (ANSI)<br/>         |
 
 

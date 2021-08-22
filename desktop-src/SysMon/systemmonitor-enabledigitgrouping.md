@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66da0ad5ade7f3e01f58ef29bbd1094634c01b37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d910e479cc0a957ea5f1332d7fead0f93badd797bfe2d90b26f9914f0c3d863a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882609"
 ---
 # <a name="systemmonitorenabledigitgrouping-property"></a>Системмонитор. Енабледигитграупинг, свойство
 
@@ -40,7 +40,7 @@ Property EnableDigitGrouping As Boolean
 
 Если значение равно true, СИСМОН будет Группировать цифры при отображении числовых значений, например 1 214. Если значение равно false, то числовые значения не группируются, например 1214. Значение true используется по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Символ группирования цифр локализован.
 
@@ -50,8 +50,8 @@ Property EnableDigitGrouping As Boolean
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Сисмон. ocx</dt> </dl> |
 
 

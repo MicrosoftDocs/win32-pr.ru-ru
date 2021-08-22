@@ -4,12 +4,12 @@ description: Определяет константы, указывающие с�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 645f0a890aac9a50cdf2987c0736a85142a91aff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aca9093eb85971621cf232b4713d811535619b59c3d07e0b8b490d063b9d7ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042932"
 ---
 # <a name="dxcoreadapterproperty-enum"></a>Перечисление Дкскореадаптерпроперти
 
@@ -125,6 +125,6 @@ enum class DXCoreAdapterProperty : uint32_t
 
 <b>Примечание</b>. Даже если <a href="/windows/win32/dxcore/dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty">идкскореадаптер::-Property</a> указывает `false` на это свойство, адаптер по-прежнему может сообщать об удалении, например в случае неисправности или обновлении драйвера.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптер:: жетпропертисизе](./nf-dxcore_interface-idxcoreadapter-getpropertysize.md), [идкскореадаптер::](./nf-dxcore_interface-idxcoreadapter-getproperty.md)GetEnumerator, [дкскоре Reference](../dxcore-reference.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

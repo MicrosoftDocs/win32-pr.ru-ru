@@ -8,12 +8,12 @@ keywords:
 - Разделы каталога приложений AD, перечисление реплик
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1415c147fe4320e5f8169487a656db4f365f03a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b52ff0ea5c2b4737079f4a44997f39dd027299f50c8acd96fe0456b0e5b60d03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103987343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694891"
 ---
 # <a name="enumerating-replicas-of-an-application-directory-partition"></a>Перечисление реплик раздела каталога приложений
 
@@ -28,6 +28,6 @@ ms.locfileid: "103987343"
 
 Из-за задержки репликации и запланированных задержек запуска KCC возможно, что фактические активные реплики для раздела каталога приложений могут не соответствовать списку контроллеров домена, указанному атрибутом [**msDS-NC-Replica-Locations**](/windows/desktop/ADSchema/a-msds-nc-replica-locations) объекта [**crossRef**](/windows/desktop/ADSchema/c-crossref) . Более точный, но менее эффективный способ определения фактических активных реплик раздела каталога приложений заключается в поиске всех объектов [**нтдсдса**](/windows/desktop/ADSchema/c-ntdsdsa) в лесу, имеющих атрибут [**msDS-хасмастернкс**](/windows/desktop/ADSchema/a-msds-hasmasterncs) , который содержит различающееся имя раздела каталога приложений. Атрибут **msDS-хасмастернкс** содержит отличительные имена всех доступных для записи разделов каталога, содержащихся в контроллере домена, включая разделы каталога приложений.
 
- 
+ 
 
- 
+ 

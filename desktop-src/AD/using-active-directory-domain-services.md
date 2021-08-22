@@ -12,12 +12,12 @@ keywords:
 - Active Directory Active Directory, примеры см. в статье примеры домен Active Directory служб.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 540b9004311db320decbd15c4f0a29e52ec1302a
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 3e1ef5428242e6d83fcb0c517c91abaee24de8181689a3aa1922eafea4d76703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024542"
 ---
 # <a name="using-active-directory-domain-services"></a>Использование доменных служб Active Directory
 
@@ -26,9 +26,9 @@ ms.locfileid: "103797059"
 > [!Note]  
 > Следующая документация предназначена для компьютерных программистов. Если вы пытаетесь устранить ошибку Active Directory домашней печати, см. [следующие предложения](https://answers.microsoft.com/windows/forum/all/clicking-find-printer-shows-error-the-active/52bfd961-ff62-4397-b8cf-a0708f0cb3d2) на страницах сообщества Майкрософт. Если это не поможет, воспользуйтесь приведенными ниже рекомендациями на [сайте TechNet](https://social.technet.microsoft.com/Forums/windowsserver/d6212275-24d6-4168-830a-9441f861cb76/error-message-when-attempting-to-print-active-directory-domain-service-is-currently-unavailable?forum=winserverprint).
 
- 
+ 
 
-Службы домен Active Directory Services совместимы с протоколом упрощенного доступа к каталогу 3,0, который определяется RFC 2251 и другими RFC. Для доступа к домен Active Directory службам можно использовать любой из следующих наборов API. Каждый набор API имеет свои преимущества и недостатки, которые зависят от языка программирования, среды программирования и предполагаемого метода выполнения. Большинство примеров в этом пошаговом руководству используют интерфейсы ADSI, которые поддерживаются такими языками, как C и C++, а также поддерживающими автоматизацией языками, такими как Microsoft Visual Basic и Visual Basic Scripting Edition.
+Службы домен Active Directory Services совместимы с протоколом упрощенного доступа к каталогу 3,0, который определяется RFC 2251 и другими RFC. Для доступа к домен Active Directory службам можно использовать любой из следующих наборов API. Каждый набор API имеет свои преимущества и недостатки, которые зависят от языка программирования, среды программирования и предполагаемого метода выполнения. большинство примеров в этом пошаговом руководству используют интерфейсы ADSI, которые поддерживаются такими языками, как C и C++, а также поддерживающими автоматизацией языками, такими как Microsoft Visual Basic и Visual Basic scripting Edition.
 
 Дополнительные сведения о конкретных технологиях домен Active Directory Services см. в следующих статьях:
 
@@ -57,6 +57,6 @@ ms.locfileid: "103797059"
 -   [Разделы каталога приложений](application-directory-partitions.md)
 -   [Обнаружение режима работы домена](detecting-the-operation-mode-of-a-domain.md)
 
- 
+ 
 
- 
+ 

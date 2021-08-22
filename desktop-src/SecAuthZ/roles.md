@@ -4,12 +4,12 @@ ms.assetid: 6d045ecb-432e-4ba6-b5d2-37db82ab1884
 title: Роли
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc65d140faa22c72d098c7a4ba2f13e952b2713f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f884475589bc8ecef945c1fd89d1ffab647258c01d3c83a2c9b96df53300501d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911968"
 ---
 # <a name="roles"></a>Роли
 
@@ -17,7 +17,7 @@ ms.locfileid: "103897786"
 
 -   [Роли в качестве наборов задач](#roles-as-sets-of-tasks)
 -   [Роли в качестве наборов пользователей и групп](#roles-as-sets-of-users-and-groups)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="roles-as-sets-of-tasks"></a>Роли в качестве наборов задач
 
@@ -29,7 +29,7 @@ ms.locfileid: "103897786"
 
 Назначьте пользователей и группы объекту [**иазроле**](/windows/desktop/api/Azroles/nn-azroles-iazrole) , чтобы предоставить этим пользователям и группам доступ к задачам, назначенным этому объекту **иазроле** , вызвав метод [**аддмембер**](/windows/desktop/api/Azroles/nf-azroles-iazrole-addmember) или [**аддмембернаме**](/windows/desktop/api/Azroles/nf-azroles-iazrole-addmembername) . Назначьте существующие группы приложений, представленные объектами [**иазаппликатионграуп**](/windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup) , объекту **иазроле** , вызвав метод [**аддаппмембер**](/windows/desktop/api/Azroles/nf-azroles-iazrole-addappmember) . Все пользователи и группы, назначенные объекту **иазроле** , имеют доступ к задачам и операциям, назначенным этой роли. Дополнительные сведения о группах приложений см. в разделе [Пользователи и группы](users-and-groups.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

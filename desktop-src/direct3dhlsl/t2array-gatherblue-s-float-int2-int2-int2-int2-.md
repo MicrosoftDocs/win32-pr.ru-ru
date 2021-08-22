@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a5676d9d6b25c6e67123c59dac14efa234386d4e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8d23ae18d403f83145b5746fa33b56fbadb9ea5d9a4b3f5b3ca79e13e5da7eb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043662"
 ---
 # <a name="gatherbluesfloatint2int2int2int2-function-hlsl-reference"></a>Функция Гасерблуе (S, float, int2, int2, int2, int2) (HLSL Reference)
 
@@ -104,7 +104,7 @@ TemplateType GatherBlue(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -120,7 +120,7 @@ TemplateType GatherBlue(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

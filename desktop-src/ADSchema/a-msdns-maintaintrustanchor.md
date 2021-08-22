@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 962000aad2c9aad80147c742a4c811321bd31d42
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dd0159fec89eb2898311338c0ffebd5de25c37a788fd4540101ae603ae5f7881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022622"
 ---
 # <a name="ms-dns-maintain-trust-anchor-attribute"></a>атрибут MS-DNS-сопровождения доверия-Anchor
 
@@ -53,7 +53,7 @@ ms.locfileid: "104493845"
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
+| Является однозначным       | Верно                                     |
 | Индексируется             | Неверно                                    |
 | В глобальном каталоге      | Неверно                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |

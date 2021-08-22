@@ -3,20 +3,20 @@ title: Обзор сетевых интерфейсов
 description: Обзор сетевых интерфейсов
 ms.assetid: 7aa7ff1b-9c81-4fee-afa9-2a9eed457360
 keywords:
-- Windows Media Format SDK, сетевые интерфейсы
-- Windows Media Format SDK, интерфейсы
+- Windows Пакет SDK для формата мультимедиа, сетевые интерфейсы
+- Windows Пакет SDK для формата мультимедиа, интерфейсы
 - Расширенный системный формат (ASF), сетевые интерфейсы
 - ASF (Расширенный системный формат), сетевые интерфейсы
 - Расширенный системный формат (ASF), список интерфейсов для сетевых функций
 - ASF (Расширенный системный формат), список интерфейсов для сетевых функций
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd1c235e7e8b36964993bb24ce30977446d9af8
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0b87da220f5ac61b7b722e79939a1fd617af46ab6608d4d92e8905f466bb98e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103789246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700266"
 ---
 # <a name="overview-of-networking-interfaces"></a>Обзор сетевых интерфейсов
 
@@ -39,18 +39,18 @@ ms.locfileid: "103789246"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Реализация функций сети**](implementing-network-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

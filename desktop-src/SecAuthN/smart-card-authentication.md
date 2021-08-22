@@ -4,20 +4,20 @@ ms.assetid: cb5c80ea-c15e-4f68-a94b-b458d69ff474
 title: Проверка подлинности смарт-карты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6241d323f4c5e982fee96f44002da316d5d645d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78bccfa9e762c137e332c26b5375584658c22718d336800b6dc73cf056ebde1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918014"
 ---
 # <a name="smart-card-authentication"></a>Проверка подлинности смарт-карты
 
 Основные компоненты [*подсистемы смарт-карт*](../secgloss/s-gly.md) основаны на стандартах PC/SC (см. спецификации в [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/) ). Ниже перечислены основные компоненты.
 
--   [*Диспетчер ресурсов*](../secgloss/r-gly.md) , использующий API Windows.
+-   [*диспетчер ресурсов*](../secgloss/r-gly.md) , использующий Windows API.
 -   [*Пользовательский интерфейс*](../secgloss/u-gly.md) , работающий с диспетчером ресурсов.
--   Несколько базовых [*поставщиков служб*](../secgloss/s-gly.md) , предоставляющих доступ к конкретным службам. В отличие от Windows API диспетчера ресурсов, поставщики служб используют модель COM-интерфейса для предоставления служб [*смарт-карт*](../secgloss/s-gly.md) .
+-   Несколько базовых [*поставщиков служб*](../secgloss/s-gly.md) , предоставляющих доступ к конкретным службам. в отличие от Windows API resource manager, поставщики служб используют модель COM-интерфейса для предоставления служб [*смарт-карт*](../secgloss/s-gly.md) .
 
 На следующем рисунке показаны связи между этими частями в общей архитектуре смарт-карт.
 

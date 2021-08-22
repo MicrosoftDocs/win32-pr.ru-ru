@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 57b2a9d29b72db6c04673f30f41f26c44701c69c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 240754024135b5bd5aa48529d49080afbdb04e170987102346cdda2c59b12427
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955933"
 ---
 # <a name="installcatalog-function"></a>Функция Инсталлкаталог
 
@@ -68,7 +68,7 @@ DWORD InstallCatalog(
 
 Эта функция в настоящее время не реализована, поэтому она не возвращает фактическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

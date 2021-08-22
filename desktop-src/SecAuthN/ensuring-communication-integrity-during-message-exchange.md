@@ -1,17 +1,17 @@
 ---
 description: После установки контекста безопасности приложение может использовать функции поддержки сообщений для передачи сообщений, защищенных от изменения.
 ms.assetid: 43d7b940-1816-429f-be6e-40978efed278
-title: Обеспечение целостности связи во время обмена сообщениями
+title: Обеспечение целостности связи во время Exchange сообщений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70545abf11a933cd3bb6d0c32f3312637fcccbe2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 394f78fcc1e5becf4bdfc7c67db52e1af177a7f3aa427d1c6182a080f0ae87bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008262"
 ---
-# <a name="ensuring-communication-integrity-during-message-exchange"></a>Обеспечение целостности связи во время обмена сообщениями
+# <a name="ensuring-communication-integrity-during-message-exchange"></a>Обеспечение целостности связи во время Exchange сообщений
 
 После установки [*контекста безопасности*](/windows/desktop/SecGloss/s-gly) приложение может использовать функции [поддержки сообщений](authentication-functions.md) для передачи сообщений, защищенных от изменения.
 

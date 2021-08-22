@@ -4,12 +4,12 @@ ms.assetid: 5286AF33-C651-4540-BA99-9481EFB38777
 title: Методы IAzAuthorizationStore3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de656a20b4b5af5e54deada6681fb0d4869fc87c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab81b1ade20f94be2595d3044e33e3022f94e6b4345cf93e4d2352e5c2d62d9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913247"
 ---
 # <a name="iazauthorizationstore3-methods"></a>Методы IAzAuthorizationStore3
 

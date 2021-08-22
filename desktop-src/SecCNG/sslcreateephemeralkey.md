@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 452b0166da367bb6b1530f5669e55b7ca909e13e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6a54de2865df805af51b054c22d455d52914a5b00514767d432ceda28c16a39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907101"
 ---
 # <a name="sslcreateephemeralkey-function"></a>Функция Сслкреатифемералкэй
 
@@ -128,20 +128,20 @@ SECURITY_STATUS WINAPI SslCreateEphemeralKey(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании набора шифров ДХЕ внутренняя реализация SSL передает параметры сервера *p* и *g* в функцию **сслкреатифемералкэй** в параметрах *пбпарамс* и *кбпарамс* .
 
 Формат данных в буфере *пбпарамс* тот же, который использовался при задании свойства [**\_ \_ параметров BCrypt DH**](cng-property-identifiers.md) , и начинается с структуры [**\_ \_ \_ заголовка параметра BCrypt DH**](/windows/desktop/api/Bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Сслпровидер. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

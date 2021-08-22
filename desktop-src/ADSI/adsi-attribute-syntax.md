@@ -7,12 +7,12 @@ keywords:
 - атрибуты ADSI, синтаксис
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b23d58b48b27fa88077f388b47535afd1dbd0a4f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 310a678c48051909e4a3e7555b9d8ff0a508c339cfcd41ed6c66286529cadde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023932"
 ---
 # <a name="adsi-attribute-syntax"></a>Синтаксис атрибутов ADSI
 
@@ -60,9 +60,9 @@ Syntax Types: ADSTYPE_CASE_IGNORE_STRING, ADSTYPE_CASE_EXACT_STRING.
 > [!Note]  
 > Каталог может или не может хранить его как строку в Юникоде. Однако ADSI принимает и возвращает строки в Юникоде.
 
- 
+ 
 
-Пример.
+Пример
 
 
 ```VB
@@ -113,7 +113,7 @@ Syntax Type: ADSTYPE_UTC_TIME
 > [!Note]  
 > Первые две цифры года не хранятся в этой строке.
 
- 
+ 
 
 Примерами допустимых значений являются "9101311455Z", "910131145503Z", "9101314455-0500", "910131145503 + 0130". Эта строка хранится в виде однобайтовых символов ASCII, и с ней не хранится номер кодовой страницы.
 
@@ -171,7 +171,7 @@ Syntax Type: ADSTYPE_LARGE_INTEGER
 
 64-разрядное числовое значение со знаком. Большие целые числа фактически реализуются как COM-объекты в интерфейсе [**иадсларжеинтежер**](/windows/desktop/api/Iads/nn-iads-iadslargeinteger) . Методы **хигхпарт** и **ловпарт** используются для доступа к 2 32-разрядным половинам длинного целочисленного значения.
 
-Пример.
+Пример
 
 
 ```VB
@@ -244,7 +244,7 @@ Set sacl = sd.SystemAcl
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -257,6 +257,6 @@ Set sacl = sd.SystemAcl
 [Как указать значения для сравнения](/windows/desktop/AD/how-to-specify-comparison-values)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

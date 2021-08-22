@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6350e7a943daee273e082a5a302b5af297912c00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0c16831af773869649ed663ebef34e70d9a9e8f4ed329fa14bc41938a253f16d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959943"
 ---
 # <a name="x121-address-attribute"></a>Атрибут X121-Address
 
@@ -67,7 +67,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                              |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                      |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                      |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                       |
 | System-Flags           | 0x00000010                                                                                                       |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ ms.locfileid: "104137974"
 | Range-Upper            | 15                                                                                                                                                                                                                                                                                                                                                                      |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                                                                                                                                                              |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                                                                                                                                                              |
-| Классы, используемые в        | [**План**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
+| Классы, используемые в        | [**Организация**](c-organization.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Организация — роль**](c-organizationalrole.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**Частный пользователь**](c-residentialperson.md)<br/> [**rFC822LocalPart**](c-rfc822localpart.md)<br/> |
 
 
 

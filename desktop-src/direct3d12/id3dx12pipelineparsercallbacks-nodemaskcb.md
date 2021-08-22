@@ -17,12 +17,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdf1cc03f60259c395ca8c459ddd5a308e3dcd6c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 356ddf6ea86980ee882ad7544096811db420ae0cf8224f315801b708b95ae98d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045452"
 ---
 # <a name="id3dx12pipelineparsercallbacksnodemaskcb-method"></a>Метод ID3DX12PipelineParserCallbacks:: Нодемасккб
 
@@ -58,19 +58,19 @@ void NodemaskCb(
 
 Не возвращает ничего.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3DX12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

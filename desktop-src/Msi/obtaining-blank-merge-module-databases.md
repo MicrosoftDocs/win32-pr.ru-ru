@@ -1,19 +1,19 @@
 ---
-description: Получите пустую базу данных модуля слияния. Вы можете использовать файл Schema. MSM, поставляемый с пакетом SDK для установщик Windows, в качестве начальной базы данных для модуля слияния. Дополнительные сведения см. в разделе Windows SDK Components for установщик Windows Developers.
+description: Получите пустую базу данных модуля слияния. вы можете использовать файл Schema. msm, поставляемый с пакетом SDK для установщик Windows, в качестве начальной базы данных для модуля слияния. дополнительные сведения см. в разделе Windows SDK components for установщик Windows developers.
 ms.assetid: 8408e892-adc6-4ef5-ad36-4d04c021c899
 title: Получение пустых баз данных модуля слияния
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ba75d55763d30b0ab545d2dbddbc19c1b0c279d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87b5da0a9ad108ab320458934a26b5ec22727d7f11cabee9d870dd7fc01dc84c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943304"
 ---
 # <a name="obtaining-blank-merge-module-databases"></a>Получение пустых баз данных модуля слияния
 
-Получите пустую базу данных модуля слияния. Вы можете использовать файл Schema. MSM, поставляемый с пакетом SDK для установщик Windows, в качестве начальной базы данных для модуля слияния. Дополнительные сведения см. в разделе [Windows SDK Components for установщик Windows Developers](platform-sdk-components-for-windows-installer-developers.md).
+Получите пустую базу данных модуля слияния. вы можете использовать файл Schema. msm, поставляемый с пакетом SDK для установщик Windows, в качестве начальной базы данных для модуля слияния. дополнительные сведения см. в разделе [Windows SDK components for установщик Windows developers](platform-sdk-components-for-windows-installer-developers.md).
 
 Разработчики должны создавать модули слияния, используя простейшую схему базы данных, которая устанавливает свои компоненты. Использование простой схемы гарантирует максимальную совместимость модуля слияния. Объединение модуля слияния в пакет установки с другой схемой базы данных обычно приводит к конфликтам слияния.
 

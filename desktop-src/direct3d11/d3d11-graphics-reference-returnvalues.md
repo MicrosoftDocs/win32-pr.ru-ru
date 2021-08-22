@@ -4,12 +4,12 @@ description: Коды возврата из функций API.
 ms.assetid: c0856a58-b760-44e5-8acf-145720b403d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4130ed07faaabfd24bb48454d4e450f307c7a12
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d932c3ce3828f375e90bf322af6c42dc112b845f44dfe22f0d0988930129efea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990044"
 ---
 # <a name="direct3d-11-return-codes"></a>Коды возврата Direct3D 11
 
@@ -32,6 +32,6 @@ ms.locfileid: "104070141"
 
 Дополнительные коды возврата см. в разделе [DXGI_ERROR](/windows/desktop/direct3ddxgi/dxgi-error).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по Direct3D 11](d3d11-graphics-reference.md)

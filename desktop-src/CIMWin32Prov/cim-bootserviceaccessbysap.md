@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 90548be52defbcf3419d6c7defc21395da5cfbfe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 78ea24cb3140d50552884887d66fa2607c00b51635ea38af2150295b0c516ef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959093"
 ---
 # <a name="cim_bootserviceaccessbysap-class"></a>\_Класс CIM бутсервицеакцессбисап
 
@@ -51,7 +51,7 @@ class CIM_BootServiceAccessBySAP : CIM_ServiceAccessBySAP
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ бутсервицеакцессбисап** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_BootServiceAccessBySAP : CIM_ServiceAccessBySAP
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ бутсервицеакцессбисап** является производным от [**CIM \_ сервицеакцессбисап**](cim-serviceaccessbysap.md).
 

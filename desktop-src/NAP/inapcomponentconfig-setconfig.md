@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1f3d557517ec27f9537a7cbcd46be9e2cd107e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7b3ecf455c591985a5e8778e49495351bd1b4aba83e9d29fe2b25d7d406a507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940202"
 ---
 # <a name="inapcomponentconfigsetconfig-method"></a>Метод Инапкомпонентконфиг:: Сетконфиг
 
@@ -83,7 +83,7 @@ HRESULT SetConfig(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения об управлении версиями компонентов должны включаться в большой двоичный объект конфигурации *данных* . Сведения об управлении версиями могут использоваться при переходе с одной версии SHV на другую.
 
@@ -94,13 +94,13 @@ HRESULT SetConfig(
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напкоммон. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

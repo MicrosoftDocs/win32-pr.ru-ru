@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7c46fbfc103c0ba40294e4c149d5fd427296765
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 844c9f39529e1a66437c83672acc8b2d3ad2a3e3ff3a1ad31c4d9bd97248d010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877276"
 ---
 # <a name="isoftkbdshowkeysforkeyscanmode-method"></a>Метод Исофткбд:: Шовкэйсфоркэйсканмоде
 
@@ -88,8 +88,8 @@ HRESULT ShowKeysForKeyScanMode(
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
-| Распространяемые компоненты<br/>          | TSF 1,0 в Windows 2000 профессиональная<br/>                                        |
-| Header<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
+| Распространяемые компоненты<br/>          | TSF 1,0 на Windows 2000 Professional<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Софткбдк. h</dt> </dl>  |
 | IDL<br/>                      | <dl> <dt>Софткбд. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 

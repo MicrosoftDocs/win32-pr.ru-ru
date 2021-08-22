@@ -4,12 +4,12 @@ ms.assetid: 8bbd6c95-82ed-492e-86b7-4cd55252be94
 title: Константы CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2b7f3e838c284a0dec4fc369371dd5d910e8f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23023679047b9abb5209e06532ef4185b8e87cf325a9c5b8e9c6c4d80346536e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908826"
 ---
 # <a name="cng-constants"></a>Константы CNG
 
@@ -19,7 +19,7 @@ API шифрования: следующее поколение (CNG) опред
 -   [**Константы DPAPI CNG**](cng-dpapi-constants.md)
 -   [**Идентификаторы интерфейса CNG**](cng-interface-identifiers.md)
 -   [**Идентификаторы свойств примитивов шифрования**](cng-property-identifiers.md)
--   [**Идентификаторы свойств хранилища ключей**](key-storage-property-identifiers.md)
+-   [**идентификаторы свойств ключевых служба хранилища**](key-storage-property-identifiers.md)
 
  
 

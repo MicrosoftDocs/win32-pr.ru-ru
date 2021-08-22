@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: a8755615e4d2f0fd074117438f8f305dce0cb681
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5fff72067c69345a9852718c377b179d16f398c0eb3b84c73ca82c3af1b08a71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047092"
 ---
 # <a name="idomanager-interface"></a>Интерфейс Идоманажер
 
@@ -34,10 +34,10 @@ ms.locfileid: "105719146"
 | [Идоманажер:: Креатедовнлоад](./nf-do-idomanager-createdownload.md) | Создает новую загрузку. |
 | [Идоманажер:: Енумдовнлоадс](./nf-do-idomanager-enumdownloads.md) | Извлекает указатель интерфейса на объект перечислителя, используемый для перечисления существующих Скачиваний. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Do. h |

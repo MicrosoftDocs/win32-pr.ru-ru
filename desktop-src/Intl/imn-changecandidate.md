@@ -4,12 +4,12 @@ ms.assetid: 0a276f9c-cece-4fa6-b71a-ba0daad5ca05
 title: Код уведомления IMN_CHANGECANDIDATE (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 197380c3cf6369e0dbfd7dbca76bb3b84334eb6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 599f064b05f4fa0bda205825d623d13eec39334683fbe2b69f1c8b7b2997026b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949255"
 ---
 # <a name="imn_changecandidate-notification-code"></a>\_Код уведомления ИМН чанжекандидате
 
@@ -44,7 +44,7 @@ IMN_CHANGECANDIDATE
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно обработать эту команду, если на ней отображаются сами кандидаты.
 
@@ -58,7 +58,7 @@ IMN_CHANGECANDIDATE
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 

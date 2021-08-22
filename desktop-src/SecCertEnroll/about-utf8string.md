@@ -4,12 +4,12 @@ ms.assetid: e30737d3-8294-48d8-9e42-f21918acc73c
 title: Образец UTF8String
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26048a46689d27b68e8cacfa4af13b37cde4d613
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 451b51a42d8c2b296b6c3c98c224b0052a7d89d95dbfe92483b852f6a0167b5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903460"
 ---
 # <a name="utf8string"></a>Образец UTF8String
 
@@ -38,7 +38,7 @@ ms.locfileid: "103909639"
 
 Если строка содержит менее 128 байт, то поле **length** TLV Triplet требует только одного байта для указания длины содержимого. Если длина строки превышает 127 байт, то разряд 7 в поле **length** устанавливается в 1, а биты с 6 по 0 указывают количество дополнительных байтов, используемых для определения длины содержимого. Дополнительные сведения см. в разделе [кодированная Длина и байты значений](about-encoded-length-and-value-bytes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

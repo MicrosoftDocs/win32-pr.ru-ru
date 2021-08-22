@@ -3,7 +3,7 @@ title: Код уведомления TVN_SETDISPINFO (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления иерархического представления, что оно должно обновлять сведения об элементе. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 40fa61bc-c043-4001-ada9-b627d68bd737
 keywords:
-- TVN_SETDISPINFO кода уведомления элементы управления Windows
+- TVN_SETDISPINFO кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b03e60ba7d8e6d7851c62fac030bd252cf957d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e88a9b5fed4260fa88f5f40431113456950d99985ad2f2e0e97c2e951dce96bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957773"
 ---
 # <a name="tvn_setdispinfo-notification-code"></a>\_Код уведомления ТВН сетдиспинфо
 
@@ -51,7 +51,7 @@ TVN_SETDISPINFO
 
 Возвращаемое значение игнорируется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент **псзтекст** структуры [**твитем**](/windows/win32/api/commctrl/ns-commctrl-tvitema) элемента имеет \_ значение тексткаллбакк LPSTR, элемент управления отправляет это уведомление для задания текста элемента. В этом случае элемент **Mask** элемента *lParam* будет иметь \_ установленный флаг твиф Text.
 
@@ -63,9 +63,9 @@ TVN_SETDISPINFO
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТВН \_ СЕТДИСПИНФОВ** (Юникод) и **ТВН \_ сетдиспинфоа** (ANSI)<br/>           |
 
 

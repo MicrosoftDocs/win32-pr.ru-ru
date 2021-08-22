@@ -4,12 +4,12 @@ ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Использование средства SignTool для проверки подписи файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e91df7a64a8db48d04ceba9df5fbc3fd358058
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 137a4117b64ca5d62ee2ffe5fb80a7e0751d91f840ce1270482d9e114f4dd61b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107954927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896697"
 ---
 # <a name="using-signtool-to-verify-a-file-signature"></a>Использование средства SignTool для проверки подписи файла
 
@@ -17,7 +17,7 @@ ms.locfileid: "107954927"
 
 **Проверка средства SignTool** *MyControl.exe*
 
-Если предыдущий пример завершается сбоем, то в сигнатуре может использоваться сертификат подписи кода. По умолчанию средство [SignTool](signtool.md) имеет политику драйвера Windows для проверки.
+Если предыдущий пример завершается сбоем, то в сигнатуре может использоваться сертификат подписи кода. по умолчанию средство [SignTool](signtool.md) имеет политику драйвера Windows для проверки.
 
 Следующая команда проверяет подпись с помощью политики проверки подлинности по умолчанию:
 

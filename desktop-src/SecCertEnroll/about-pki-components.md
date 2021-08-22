@@ -4,12 +4,12 @@ ms.assetid: c5b2ab0b-9e21-4807-9ee3-7e290cf836eb
 title: Элементы PKI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae276874fe6971f3bed72f107cc689f23780ac54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9f00a47b4d94511645853b8d767710de8358dc226fac512c4bdc41c47552132
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903767"
 ---
 # <a name="pki-elements"></a>Элементы PKI
 
@@ -25,7 +25,7 @@ ms.locfileid: "104264481"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

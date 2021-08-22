@@ -1,6 +1,6 @@
 ---
 title: Перечисление групп, содержащих много элементов
-description: Дополнительные сведения о перечислении групп Azure Active Directory, содержащих много элементов, с помощью добавочного извлечения данных (извлечение диапазона).
+description: дополнительные сведения о перечислении групп Azure Active Directory, содержащих много элементов, с помощью добавочного извлечения данных (извлечение диапазона).
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - группы Active Directory, перечисление групп с множеством членов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7cab63b809fdbd2666f39a09d32f601346da00e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 550ec2f4a77938b26e2273d468d3f9740d637249501aa2396fef3744cd105060
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695142"
 ---
 # <a name="enumerating-groups-that-contain-many-members"></a>Перечисление групп, содержащих много элементов
 
@@ -28,7 +28,7 @@ ms.locfileid: "112405157"
 | Версия операционной системы сервера | Максимальное число полученных значений |
 |---------------------------------|--------------------------|
 | Windows 2000                    | 1000                     |
-| Windows Server 2003             | 1500                     |
+| Windows Server 2003             | 1500                     |
 
 
 
