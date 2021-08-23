@@ -4,12 +4,12 @@ ms.assetid: 2e8637e2-2ff3-404a-a56c-fe99adeeba50
 title: Использование шифрования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d307596a630f96d720648ffc15dda1d51bcccc7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6191951d92f125342209825023c09de56649fe6366761ece6f224d4278ff9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896818"
 ---
 # <a name="using-cryptography"></a>Использование шифрования
 
@@ -22,7 +22,7 @@ ms.locfileid: "105682983"
 | [Примеры соглашений программы](sample-program-conventions.md)                                                       | Примеры ограничений программы; вопросы компиляции и связывания; необходимые контейнеры ключей, ключи и сертификаты; получение данных неизвестной длины; и функции общего назначения |
 | [Получение контекста шифрования и создание ключей](acquiring-a-cryptographic-context-and-generating-keys.md) | Примеры и процедуры для получения контекста шифрования и создания ключей                                                                                                |
 | [Кодирование и декодирование](encoding-and-decoding.md)                                                                 | Примеры и процедуры кодирования и декодирования                                                                                                                                |
-| [Хэширование](hashing.md)                                                                                             | Примеры и процедуры хэширования                                                                                                                                              |
+| [Хэширования](hashing.md)                                                                                             | Примеры и процедуры хэширования                                                                                                                                              |
 | [Подписывание данных](signing-data.md)                                                                                   | Примеры и процедуры для подписывания данных                                                                                                                                         |
 | [Создание и получение сообщений с запечатанными данными](creating-and-receiving-enveloped-data-messages.md)               | Примеры и процедуры создания и получения сообщений с запечатанными данными                                                                                                       |
 | [Шифрование и расшифровка](encrypting-and-decrypting.md)                                                         | Примеры и процедуры для шифрования и расшифровки                                                                                                                            |

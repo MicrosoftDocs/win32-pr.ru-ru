@@ -1,4 +1,4 @@
-- name: Окна и сообщения
+- name: Windows и сообщения
   href: windowing.md
   items:
     - name: Windows

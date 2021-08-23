@@ -4,12 +4,12 @@ ms.assetid: be34ce62-6552-45e2-a247-830ab55ea9ec
 title: Преобразование частоты дискретизации XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d437a45f9e896826bedc1418382fb257201722d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af82983d1d9307551e516f1b8b60676b4b250450da65f416c340446c5a906f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962538"
 ---
 # <a name="xaudio2-sample-rate-conversions"></a>Преобразование частоты дискретизации XAudio2
 
@@ -45,7 +45,7 @@ ms.locfileid: "104272816"
 
 У голоса разные примеры входных данных и требуются дополнительные голоса субмикс для выполнения преобразования частоты дискретизации. Преобразование частоты дискретизации выполняется в нескольких местах в звуковой диаграмме. ![Преобразование частоты дискретизации выполняется в нескольких местах в звуковой диаграмме.](images/xaudio2-sample-rate-conversions-3.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

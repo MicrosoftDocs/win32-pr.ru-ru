@@ -4,12 +4,12 @@ description: В этом разделе обсуждается, как Direct3D 
 ms.assetid: 9a1ca4ff-df3d-46e5-8895-37199523343e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f730a43db803e1e5198794167d0078a5b2896f6c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 7eb9dde5bfaa32808752206ebe96702aaaf10cc39c1e053675ddfced765331be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104551516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045512"
 ---
 # <a name="direct3d-11-on-downlevel-hardware"></a>Direct3D 11 на оборудовании нижнего уровня
 
@@ -51,7 +51,7 @@ ms.locfileid: "104551516"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

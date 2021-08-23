@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. horizontalAlignment
 description: Атрибут horizontalAlignment указывает или получает значение, указывающее горизонтальное расположение элемента управления при изменении размера представления или родительского подпредставления.
 ms.assetid: 97ca23b9-2046-45ee-b2da-ea388e7ab8d8
 keywords:
-- Проигрыватель Windows Media Амбиентаттрибутес. horizontalAlignment
+- амбиентаттрибутес. horizontalAlignment проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f946f0d095526c9fc0894cdf0270cbf7cc0c81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9daf64189735d79e1ad3eb4f7b3637ca68cfdae489cda9423bb60acdd1f9185c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055172"
 ---
 # <a name="ambientattributeshorizontalalignment"></a>Амбиентаттрибутес. horizontalAlignment
 
@@ -44,23 +44,23 @@ ms.locfileid: "105694541"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если **horizontalAlignment** не имеет значение "Center", элемент управления оставляет свое исходное расстояние от указанного края или на обоих краях, если задано "Stretch", и размер элемента управления ограничен. Если размер элемента управления не может быть увеличен и указан параметр "Stretch", то область, которую вы щелкнули, растягивается.
 
 Можно задать любое сочетание **horizontalAlignment** и **verticalAlignment**. Например, если нужно центрировать элемент управления как по горизонтали, так и по вертикали, задайте horizontalAlignment = "Center" verticalAlignment = "Center".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

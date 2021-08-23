@@ -3,28 +3,28 @@ title: Алфавитный справочник по атрибутам
 description: Алфавитный справочник по атрибутам
 ms.assetid: 12fdeba6-14db-4689-a3cb-cb36dbc9204f
 keywords:
-- Проигрыватель Windows Media, атрибуты для элементов мультимедиа
-- Проигрыватель Windows Media Mobile, атрибуты для элементов мультимедиа
-- Объектная модель проигрывателя Windows Media, Справочник
+- проигрыватель Windows Media, атрибуты для элементов мультимедиа
+- проигрыватель Windows Media Мобильные устройства, атрибуты элементов мультимедиа
+- объектная модель проигрыватель Windows Media, справочные материалы
 - Объектная модель, Справочник
-- Элемент управления ActiveX, Справочник
-- Элемент управления ActiveX проигрывателя Windows Media, Справочник
-- Элемент управления ActiveX проигрывателя Windows Media Mobile, Справочник
+- элемент управления ActiveX, справочные материалы
+- проигрыватель Windows Media ActiveX элемент управления, справочник
+- проигрыватель Windows Media управление мобильными ActiveXми, справочные материалы
 - Справочник по объектной модели, атрибутам
-- Объектная модель проигрывателя Windows Media, атрибуты элементов мультимедиа
+- объектная модель проигрыватель Windows Media, атрибуты для элементов мультимедиа
 - Объектная модель, атрибуты элементов мультимедиа
-- Элемент управления ActiveX проигрывателя Windows Media, атрибуты для элементов мультимедиа
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, атрибуты для элементов мультимедиа
-- Элемент управления ActiveX, атрибуты для элементов мультимедиа
+- проигрыватель Windows Media ActiveX элемент управления, атрибуты для элементов мультимедиа
+- проигрыватель Windows Media мобильный ActiveX элемент управления, атрибуты для элементов мультимедиа
+- ActiveX элемент управления, атрибуты для элементов мультимедиа
 - атрибуты, справочные материалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eed878b474098e68701ad8bdde0e3d207c4b8596
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41fae63365e9670119d89d11a2faf2d2d9979e7c21aeac2fc5975f072a07f086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104253000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055322"
 ---
 # <a name="alphabetical-attribute-reference"></a>Алфавитный справочник по атрибутам
 
@@ -156,7 +156,7 @@ ms.locfileid: "104253000"
 -   [**Атрибут WM/Албумартист**](wm-albumartist-attribute.md)
 -   [**Атрибут WM/Албумтитле**](wm-albumtitle-attribute.md)
 -   [**Атрибут WM/Category**](wm-category-attribute.md)
--   [**Атрибут WM/Composer**](wm-composer-attribute.md)
+-   [**атрибут WM/Composer**](wm-composer-attribute.md)
 -   [**Атрибут WM/проводника**](wm-conductor-attribute.md)
 -   [**Атрибут WM/Контентдистрибутор**](wm-contentdistributor-attribute.md)
 -   [**Атрибут WM/Контентдистрибутортипе**](wm-contentdistributortype-attribute.md)
@@ -186,7 +186,7 @@ ms.locfileid: "104253000"
 -   [**Атрибут WM/provider**](wm-provider-attribute.md)
 -   [**Атрибут WM/Провидерратинг**](wm-providerrating-attribute.md)
 -   [**Атрибут WM/Провидерстиле**](wm-providerstyle-attribute.md)
--   [**Атрибут WM/Publisher**](wm-publisher-attribute.md)
+-   [**атрибут WM/Publisher**](wm-publisher-attribute.md)
 -   [**Атрибут WM/Субскриптионконтентид**](wm-subscriptioncontentid-attribute.md)
 -   [**Атрибут WM/субтитр**](wm-subtitle-attribute.md)
 -   [**Атрибут WM/Субтитледескриптион**](wm-subtitledescription-attribute.md)
@@ -203,16 +203,16 @@ ms.locfileid: "104253000"
 -   [**Атрибут WM/Writer**](wm-writer-attribute.md)
 -   [**Атрибут WM/year**](wm-year-attribute.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Ссылка на атрибут**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

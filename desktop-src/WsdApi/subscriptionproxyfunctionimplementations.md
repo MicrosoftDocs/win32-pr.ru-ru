@@ -4,12 +4,12 @@ ms.assetid: aa26a3f1-df1e-4caa-9ada-6f4a6627b6b8
 title: Субскриптионпроксифунктионимплементатионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9a3cba202c05d3f8b43b31c292dad8d601dc4e4
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bf0abc98e0e9bebd4ff2185d669402c0dae025c07bc4af84be3116dda97b6657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991574"
 ---
 # <a name="subscriptionproxyfunctionimplementations-element"></a>Субскриптионпроксифунктионимплементатионс, элемент
 
@@ -30,7 +30,7 @@ ms.locfileid: "107995321"
 
 | attribute                 | Тип               | Обязательно      | Описание                                                                                                                   |
 |---------------------------|--------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **легко**<br/> | Логическое<br/> | нет<br/> | Возможность добавлять точки расширения в функции и интерфейсы. Это значение всегда равно true.<br/> <br/> |
+| **легко**<br/> | Логическое<br/> | Нет<br/> | Возможность добавлять точки расширения в функции и интерфейсы. Это значение всегда равно true.<br/> <br/> |
 
 
 

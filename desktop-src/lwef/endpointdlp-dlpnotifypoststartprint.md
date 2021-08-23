@@ -1,6 +1,6 @@
 ---
 description: Предоставляет системе сведения о документе после запуска операции печати.
-title: Функция Длпнотифипостстартпринт (ендпоинтдлп. h)
+title: Функция DlpNotifyPostStartPrint (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 7bc2505b44797edc836ed8ae89e5d9caf3f93f05
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 23caba53e754c54bfd717274b5f889ad224a2dc80fbe54fb97f70125c0c74f23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976584"
 ---
 # <a name="dlpnotifypoststartprint-function"></a>Функция Длпнотифипостстартпринт
 

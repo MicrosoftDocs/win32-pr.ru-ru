@@ -30,12 +30,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bda9754efcae8ebe353b8272ba57c5640ecdf946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d5225fb7ab3df89e719dcdcd89ddf1ab8f506db8c1098b997a7297befe1ba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982874"
 ---
 # <a name="backupgrbit-enumeration"></a>Перечисление Баккупгрбит
 
@@ -79,7 +79,7 @@ public enum BackupGrbit
 </tr>
 <tr class="even">
 <td></td>
-<td>Добавочный</td>
+<td>Приращение</td>
 <td>Создает добавочное резервное копирование, а не полное резервное копирование. Это означает, что резервное копирование выполняется только для файлов журнала, созданных с момента последнего полного или добавочного резервного копирования.</td>
 </tr>
 <tr class="odd">

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bde2db8adf2bb713df665e06eb2cc5f8d2a9a00f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea87239628f001feaa82f84ca8c50941b56d3eb99f486934b551e832d1f588c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955533"
 ---
 # <a name="camevent-class"></a>Класс Камевент
 
@@ -39,7 +39,7 @@ ms.locfileid: "105665432"
 | Открытые методы                                      | Описание                                                     |
 | [**камевент**](camevent-camevent.md)               | Метод конструктора.                                             |
 | [**~ Камевент**](camevent--camevent.md)             | Метод деструктора.                                              |
-| [**службы "Функции Azure"**](camevent-check.md)                     | Проверяет, задано ли событие, без блокировки.              |
+| [**Отмечен**](camevent-check.md)                     | Проверяет, задано ли событие, без блокировки.              |
 | [**Перезапуск**](camevent-reset.md)                     | Задает несигнальное состояние события.                     |
 | [**Параметр**](camevent-set.md)                         | Сигнализирует о событии.                                              |
 | [**Ожидание**](camevent-wait.md)                       | Блокируется до получения сигнала о событии или до истечения времени ожидания. |
@@ -50,13 +50,13 @@ ms.locfileid: "105665432"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

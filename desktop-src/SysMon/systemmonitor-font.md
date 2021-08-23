@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2abf021000d673474bb006d9d16afa459ddbdb3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2a605420418c03fae69926dac5dc184f67142cad83918ab2e34dca11ea411aac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882420"
 ---
 # <a name="systemmonitorfont-property"></a>Системмонитор. Font, свойство
 
@@ -42,7 +42,7 @@ Property Font As stdole.IFontDisp
 
 Шрифт, используемый для вывода текста в элементе управления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это внешнее свойство. Значение этого свойства определяется контейнером. Установка значения этого свойства может повлиять на иллюзию элемента управления и контейнера на одно приложение.
 

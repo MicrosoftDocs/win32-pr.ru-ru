@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e336034e7d5037b8037c6fd0ef549fe5f87da312
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c49389700494c646976ee7df5e67782b110fc085f4328cb139b9604523c8622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968433"
 ---
 # <a name="shellfolderviewviewoptions-property"></a>Шеллфолдервиев. Виевоптионс, свойство
 
@@ -118,13 +118,13 @@ objViewOptions = ShellFolderView.ViewOptions
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 [**Фокуседитем**](shellfolderview-focuseditem.md) может быть вызван только в локальной системе. Он не будет работать при запуске на веб-странице по протоколу HTTP или UNC.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода в JScript Embedded в HTML.
+в следующем примере показано правильное использование этого метода в JScript, внедренном в HTML.
 
 
 ```JScript
@@ -178,7 +178,7 @@ objViewOptions = ShellFolderView.ViewOptions
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

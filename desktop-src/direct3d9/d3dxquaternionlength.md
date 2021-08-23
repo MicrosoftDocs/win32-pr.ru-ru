@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7f54136e7e34ba05442f98b25438dd03b7b5f211
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21589f6e470c1f23bd537b2983c7073a3f8c29866534418077018f616ca6b25f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044692"
 ---
 # <a name="d3dxquaternionlength-function"></a>Функция D3DXQuaternionLength
 
@@ -55,7 +55,7 @@ FLOAT D3DXQuaternionLength(
 
 Длина кватерниона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) для любых входных данных кватернион, которые еще не нормализованы.
 
@@ -65,7 +65,7 @@ FLOAT D3DXQuaternionLength(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

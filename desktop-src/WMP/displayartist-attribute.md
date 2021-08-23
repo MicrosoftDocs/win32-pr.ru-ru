@@ -3,7 +3,7 @@ title: Атрибут Дисплайартист
 description: Атрибут Дисплайартист — это имя исполнителя, отображаемого для элемента.
 ms.assetid: 8cf5a4e6-ce96-4fd4-b01a-6cd4264a5c09
 keywords:
-- Дисплайартист атрибут Windows Media Player
+- проигрыватель Windows Media атрибута дисплайартист
 topic_type:
 - apiref
 api_name:
@@ -12,38 +12,38 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d479add519d8b7df346869e783c36560fc46dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6c20e3d693aa7d5be5be0236d9eefebe7efcb70bc236db3f84389e5a3ceeccf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997324"
 ---
 # <a name="displayartist-attribute"></a>Атрибут Дисплайартист
 
 Атрибут **дисплайартист** — это имя исполнителя, отображаемого для элемента.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, **дисплайартист** будет иметь то же значение, что и атрибут **WM/албумартист** , если задан этот атрибут. В противном случае значением будет имя исполнителя, связанного с первой записью в альбоме.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

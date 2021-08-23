@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\vertex_buffers.htm
 title: Буферы вершин (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e38feb34e7b9f637f383bf451bff812d9ee6fb1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8ceec0f5aee30597b20142945a4ffd3cbcd29500db4113ac2c8dcdd27d045d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044002"
 ---
 # <a name="vertex-buffers-direct3d-9"></a>Буферы вершин (Direct3D 9)
 
@@ -48,7 +48,7 @@ Pool указывает класс памяти, выделенный для б�
 -   [Программируемая обработка вершин (Direct3D 9)](programmable-vertex-processing.md)
 -   [Типы устройств и требования к обработке вершин (Direct3D 9)](device-types-and-vertex-processing-requirements.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

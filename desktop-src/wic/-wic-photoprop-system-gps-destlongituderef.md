@@ -4,12 +4,12 @@ ms.assetid: 2a0abb9b-41e3-49ba-a60b-3096d9c032bd
 title: Политика метаданных фотографии System. GPS. Дестлонгитудереф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8139fcf5218d9863393888d7ab7b188a53e7f55f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fca1095138b35767da94e2eeed85a11892ba6edea3fa32f37ea6bd85fb76462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964953"
 ---
 # <a name="systemgpsdestlongituderef-photo-metadata-policy"></a>Политика метаданных фотографии System. GPS. Дестлонгитудереф
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 
 
-| Заказ | Путь                          | Формат диска | Обязательно |
+| Номер | Путь                          | Формат диска | Обязательно |
 |-------|-------------------------------|-------------|----------|
 | 1     | /КСМП/ексиф: Гпсдестлонгитудереф | Юникод     | Да      |
 | 2     | /APP1/IFD/GPS/ \\ {UShort = 21 \\ } | ASCII       | Нет       |
@@ -60,7 +60,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 
 
-| Заказ | Путь                              | Формат диска | Обязательно |
+| Номер | Путь                              | Формат диска | Обязательно |
 |-------|-----------------------------------|-------------|----------|
 | 1     | /ИФД/КСМП/ексиф: Гпсдестлонгитудереф | Юникод     | Да      |
 | 2     | /ИФД/ГПС/ \\ {UShort = 21 \\ }          | ASCII       | Нет       |
@@ -71,7 +71,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

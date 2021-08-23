@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 75eba0ecb2592bf7efc27ecdd63288179e306651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 62c5f59fc90d0d34226b4442b8fa443ad734d474e8077bf210df8bfdf752b1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898337"
 ---
 # <a name="signers-object"></a>Объект подписывающих
 
@@ -40,23 +40,23 @@ ms.locfileid: "105665265"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 У объекта **подписывающих** есть эти свойства.
 
 
 
-| Свойство                                        | Тип доступа          | Описание                                                                                                                                                                                                                     |
+| Свойство.                                        | Тип доступа          | Описание                                                                                                                                                                                                                     |
 |:------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](signers-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Расчета**](signers-count.md)<br/>       | Только для чтения<br/> | Число объектов [**подписывающих**](signer.md) в коллекции.<br/>                                                                                                                                                        |
+| [**\_NewEnum**](signers-newenum.md)<br/> | Только для чтения<br/> | Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который может быть использован для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](signers-count.md)<br/>       | Только для чтения<br/> | Число объектов [**подписывающих**](signer.md) в коллекции.<br/>                                                                                                                                                        |
 | [**Элемент**](signers-item.md)<br/>         | Только для чтения<br/> | Извлекает объект [**подписавший**](signer.md) , представляющий индексированный подписывающий. Это свойство по умолчанию.<br/>                                                                                                      |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **подписывающих** .
 

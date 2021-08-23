@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f796b30d2676df76803ec407423e34e8cd96ecb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 994719462ae47396e5765cde7ed24faf19f486c8052d089888e5751687b5619d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960764"
 ---
 # <a name="ms-ds-hab-seniority-index-attribute"></a>Атрибут ms-DS-ИЕРАРХИческая — старший — индекс
 
@@ -55,9 +55,9 @@ ms.locfileid: "105656778"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x8CA0                                                             |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
-| Индексируется             | True                                                               |
-| В глобальном каталоге      | True                                                               |
+| Является однозначным       | Верно                                                               |
+| Индексируется             | Верно                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -76,9 +76,9 @@ ms.locfileid: "105656778"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x8CA0                                                             |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
-| Индексируется             | True                                                               |
-| В глобальном каталоге      | True                                                               |
+| Является однозначным       | Верно                                                               |
+| Индексируется             | Верно                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |
@@ -97,9 +97,9 @@ ms.locfileid: "105656778"
 | Идентификатор ссылки                | \-                                                                 |
 | MAPI-Id                | 0x8CA0                                                             |
 | System-Only            | Неверно                                                              |
-| Является однозначным       | True                                                               |
-| Индексируется             | True                                                               |
-| В глобальном каталоге      | True                                                               |
+| Является однозначным       | Верно                                                               |
+| Индексируется             | Верно                                                               |
+| В глобальном каталоге      | Верно                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                       |
 | Range-Lower            | \-                                                                 |
 | Range-Upper            | \-                                                                 |

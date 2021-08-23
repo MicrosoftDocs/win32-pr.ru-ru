@@ -4,20 +4,20 @@ description: Media Foundation и DirectShow обеспечивают базис 
 ms.assetid: 020f009c-7432-432b-a39b-9295dd784d2e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f756112384451ac3f5b4055d73a60a170b2e29
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d0a4db7d84745f64f3fe80faed267e58d1f5ddbce4ab82ed75b38453f82b0e3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104533443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964583"
 ---
 # <a name="media-platform"></a>Платформа мультимедиа
 
-[Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) и [DirectShow](/windows/desktop/DirectShow/directshow) обеспечивают базис для поддержки мультимедиа в Windows. Media Foundation была введена в Windows Vista в качестве замены для DirectShow. В Windows 7 Media Foundation улучшена поддержка формата, включая *MPEG-4*, а также поддержку устройств видеозаписи и аппаратных кодеков.
+[Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) и [DirectShow](/windows/desktop/DirectShow/directshow) обеспечивают базис для поддержки мультимедиа в Windows. Media Foundation был введен в Windows Vista в качестве замены DirectShow. в Windows 7 Media Foundation улучшена, чтобы обеспечить лучшую поддержку формата, включая *MPEG-4*, а также поддержку устройств видеозаписи и аппаратных кодеков.
 
 ## <a name="format-support"></a>Поддержка формата
 
-В Windows 7 [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) предоставляет обширную поддержку формата, включающую кодеки для *H. 264* Video, *мжпег* и *MP3*; новые источники для *MP4*, *3GP*, *AAC* Audio и *AVI*; и новые приемники файлов для *MP4*, *3GP* и *MP3*. (См. раздел [Поддерживаемые форматы мультимедиа в Media Foundation](../medfound/supported-media-formats-in-media-foundation.md).)
+в Windows 7 [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) предоставляет обширную поддержку формата, включающую кодеки для *H. 264* video, *мжпег* и *MP3*; новые источники для *MP4*, *3GP*, *AAC* Audio и *AVI*; и новые приемники файлов для *MP4*, *3GP* и *MP3*. (См. раздел [Поддерживаемые форматы мультимедиа в Media Foundation](../medfound/supported-media-formats-in-media-foundation.md).)
 
 ## <a name="hardware-devices"></a>Аппаратные устройства
 
@@ -28,13 +28,13 @@ ms.locfileid: "104533443"
 -   Аппаратные кодировщики и декодеры
 -   Аппаратные видеопроцессоры, например Преобразователи цветового пространства
 
-Аппаратные кодеки могут выполнять очень быстрое перекодирование видео. Например, предположим, что вы хотите переместить файл *мультимедиа Windows Media (WMV)* на сотовый телефон, который поддерживает только файлы *3GP* . При использовании аппаратного кодировщика файл может быть перекодирован при необходимости непосредственно перед его передачей на устройство.
+Аппаратные кодеки могут выполнять очень быстрое перекодирование видео. например, предположим, что вы хотите переместить файл *Windows Media Video (WMV)* в сотовый телефон, который поддерживает только файлы *3GP* . При использовании аппаратного кодировщика файл может быть перекодирован при необходимости непосредственно перед его передачей на устройство.
 
 Аппаратные устройства представлены в [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) прокси-объектом и используются в конвейере так же, как программные компоненты. (См. статью [новые возможности для Media Foundation](../medfound/whats-new-for-media-foundation.md).)
 
 ## <a name="simplified-programming-model"></a>Упрощенная модель программирования
 
-В Windows Vista [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) предоставляется сравнительно низкий набор интерфейсов API. Эти API являются гибкими, но могут оказаться непригодными для выполнения задач. В Windows 7 добавлены новые высокоуровневые API, упрощающие написание мультимедийных приложений на *C++*. Эти новые высокоуровневые API включают в себя:
+в Windows Vista [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) представляет собой набор интерфейсов api относительно низкого уровня. Эти API являются гибкими, но могут оказаться непригодными для выполнения задач. Windows 7 добавляет новые высокоуровневые api, упрощающие написание мультимедийных приложений на *C++*. Эти новые высокоуровневые API включают в себя:
 
 -   **Мфплай**. Эти API предназначены для воспроизведения звука и видео. Они поддерживают стандартные операции воспроизведения (остановка, приостановка, воспроизведение, поиск, управление скоростью, громкость звука и т. д.), а также скрытие деталей низкоуровневых API (уровней сеанса и топологии).
 -   **Модуль чтения исходного кода**. Эти API-интерфейсы можно использовать для извлечения необработанных или раскодированных данных из файла мультимедиа, не зная ничего о базовом формате. Например, можно получить растровое изображение из видеофайла или получить кадры из видео с веб-камеры.
@@ -43,19 +43,19 @@ ms.locfileid: "104533443"
 
 ## <a name="platform-improvements"></a>Усовершенствования платформы
 
-Windows 7 включает многочисленные улучшения базовых интерфейсов API [Media Foundation](/windows/desktop/medfound/microsoft-media-foundation-sdk) платформы. Расширенные приложения могут использовать эти API напрямую; другие приложения будут косвенно получать преимущества. К этим преимуществам относятся следующие:
+Windows 7 включает многочисленные улучшения для базовых api-интерфейсов [Media Foundationной](/windows/desktop/medfound/microsoft-media-foundation-sdk) платформы. Расширенные приложения могут использовать эти API напрямую; другие приложения будут косвенно получать преимущества. К этим преимуществам относятся следующие:
 
 -   Улучшения в конвейере видео, позволяющие снизить энергопотребление и использование видеопамяти.
 -   Новые API-интерфейсы обработки видео *двкса* , которые используют более гибкую модель компоновки и лучше подходят для форматов видео *HD* .
 -   Улучшения в способе перечисления и управления подключаемыми модулями (источниками и декодерами).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Новые возможности для Media Foundation](../medfound/whats-new-for-media-foundation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

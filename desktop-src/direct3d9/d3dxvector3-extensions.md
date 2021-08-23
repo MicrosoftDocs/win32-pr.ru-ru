@@ -4,18 +4,18 @@ ms.assetid: 0ac57a45-8c84-4f38-8537-21d7dd6c7c85
 title: Расширения D3DXVECTOR3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b70712aa9bdd35a9d2d4b7144cc281ad0785d58e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72c359a76bb0c6dec8498b55da85e13e45e8efc04275dff6251c5b201e87784f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044512"
 ---
 # <a name="d3dxvector3-extensions"></a>Расширения D3DXVECTOR3
 
 Содержимое этой страницы было перемещено на страницу [**D3DXVECTOR3**](d3dxvector3.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

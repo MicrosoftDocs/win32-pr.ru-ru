@@ -1,19 +1,19 @@
 ---
-title: Типы данных (диспетчер анимации Windows)
-description: Справочная документация по типам данных, определенным диспетчером анимации Windows.
+title: типы данных (диспетчер анимации Windows)
+description: справочная документация по типам данных, определенным диспетчером анимации Windows.
 ms.assetid: 11ef2412-c20c-4c97-9e54-447f493fab5f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab4d629879a02d3bddc8ad9c47f60876bf616975
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c54170c185ebb5f41e095a9abd4d09c0067525a0d976de21a5d49b978910d6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999694"
 ---
-# <a name="data-types-windows-animation-manager"></a>Типы данных (диспетчер анимации Windows)
+# <a name="data-types-windows-animation-manager"></a>типы данных (диспетчер анимации Windows)
 
-Справочная документация по типам данных, определенным диспетчером анимации Windows.
+справочная документация по типам данных, определенным диспетчером анимации Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -28,11 +28,11 @@ ms.locfileid: "103988110"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  

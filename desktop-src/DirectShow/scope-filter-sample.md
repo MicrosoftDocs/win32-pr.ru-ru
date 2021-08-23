@@ -4,12 +4,12 @@ ms.assetid: f967d4c7-94d2-440b-9e52-423feefec66d
 title: Образец фильтра области
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f74ba823e68da1cd1faadd3e1e3acc4e613e2f42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a931238b21dd604e7ca5de7943fcb2e85446f002a04ea0826dee9322dc6c7100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951963"
 ---
 # <a name="scope-filter-sample"></a>Образец фильтра области
 
@@ -31,15 +31,15 @@ ms.locfileid: "104494892"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ корневой \] пример пакета SDK* \\ \\ \\ \\ . область фильтров мультимедийных файлов DirectShow \\ .
+этот пример устанавливается по следующему пути: *\[ корневой \] пример пакета SDK* \\ \\ \\ . мультимедиа DirectShow \\ фильтры \\ область действия.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

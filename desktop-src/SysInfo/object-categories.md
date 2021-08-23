@@ -4,12 +4,12 @@ ms.assetid: 6f9817f2-c965-4205-b6fd-45dbf1bffab9
 title: Категории объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a969d2f53643d2ce8cdece663920bc33b76608fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5bbf3dbc5a0136ea03b6e0bd3f895bca4cd333d05a55f9d576aad0c7e36364c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885379"
 ---
 # <a name="object-categories"></a>Категории объектов
 
@@ -22,8 +22,8 @@ ms.locfileid: "103999004"
 | Таблица сочетаний клавиш | [Сочетания клавиш](../menurc/keyboard-accelerators.md)                                       |
 | Курсор             | [Крышки](../menurc/carets.md)                                                                     |
 | Курсор            | [Курсоры](../menurc/cursors.md)                                                                   |
-| Беседа DDE  | [Библиотека управления платформа динамических данных Exchange](../dataxchg/dynamic-data-exchange-management-library.md) |
-| Ключ              | [Обработчики](../winmsg/hooks.md)                                                                       |
+| Беседа DDE  | [библиотека управления Exchange платформа динамических данных](../dataxchg/dynamic-data-exchange-management-library.md) |
+| Обработчик              | [Обработчики](../winmsg/hooks.md)                                                                       |
 | Значок              | [Значки](../menurc/icons.md)                                                                       |
 | Меню              | [Меню](../menurc/menus.md)                                                                       |
 | Окно            | [Windows](../winmsg/windows.md)                                                                   |
@@ -63,10 +63,10 @@ ms.locfileid: "103999004"
 | Коммуникационное устройство | [Операции взаимодействия](/windows/desktop/DevIO/communications-resources)                                 |
 | Входные данные консоли         | [Приложения в символьном режиме](/windows/console/character-mode-applications)                 |
 | Буфер экрана консоли | [Приложения в символьном режиме](/windows/console/character-mode-applications)                 |
-| Персональный компьютер               | [Настольные системы](/windows/desktop/winstation/desktops)                                                       |
+| Рабочий стол               | [Настольные системы](/windows/desktop/winstation/desktops)                                                       |
 | Событие                 | [Синхронизация](/windows/desktop/Sync/synchronization)                                         |
-| Журнал событий             | [Ведение журналов событий](/windows/desktop/EventLog/event-logging)                                             |
-| Файл                  | [Файлы и кластеры](/windows/desktop/FileIO/files-and-clusters)                                   |
+| Журнал событий             | [Ведение журнала событий](/windows/desktop/EventLog/event-logging)                                             |
+| File                  | [Файлы и кластеры](/windows/desktop/FileIO/files-and-clusters)                                   |
 | Сопоставление файлов          | [Сопоставление файлов](/windows/desktop/Memory/file-mapping)                                               |
 | Куча                  | [Управление памятью](/windows/desktop/Memory/memory-management)                                     |
 | Задание                   | [Объекты заданий](/windows/desktop/ProcThread/job-objects)                                                 |
@@ -76,7 +76,7 @@ ms.locfileid: "103999004"
 | канал                  | [Каналы](/windows/desktop/ipc/pipes)                                                             |
 | Процесс               | [Процессы и потоки](/windows/desktop/ProcThread/processes-and-threads)                             |
 | Semaphore             | [Синхронизация](/windows/desktop/Sync/synchronization)                                         |
-| Розетка                | [Сокеты Windows 2](/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
+| Розетка                | [Windows Сокеты 2](/windows/desktop/WinSock/windows-sockets-start-page-2)                       |
 | Thread                | [Процессы и потоки](/windows/desktop/ProcThread/processes-and-threads)                             |
 | Таймер                 | [Синхронизация](/windows/desktop/Sync/synchronization)                                         |
 | Очередь таймера           | [Синхронизация](/windows/desktop/Sync/synchronization)                                         |

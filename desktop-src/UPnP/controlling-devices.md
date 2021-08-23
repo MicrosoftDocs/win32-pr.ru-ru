@@ -4,12 +4,12 @@ description: Устройства на основе UPnP контролирую�
 ms.assetid: 4edca439-f767-41e6-97bb-ead751930714
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a72a4ffdf91bca358124dbb0a0d95ff9a61e30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 410818552f1f6563b28fcb963fcfca5c9b3067973e325adfd66ede5bffaedb75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999634"
 ---
 # <a name="controlling-devices"></a>Управление устройствами
 
@@ -28,9 +28,9 @@ ms.locfileid: "103888884"
 -   [Запрос переменных состояния](querying-state-variables.md)
 -   [Вызов действий](invoking-actions.md)
 
- 
+ 
 
- 
+ 
 
 
 

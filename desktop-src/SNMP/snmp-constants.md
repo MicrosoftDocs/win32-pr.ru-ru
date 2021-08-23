@@ -7,16 +7,16 @@ keywords:
 - Константы SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e060c3979f2176120d285b60438bb89e51d208
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd752c2f2ef115d669544359c9470fc87edf046fc282055e0a2755dea8a6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009022"
 ---
 # <a name="snmp-constants"></a>Константы SNMP
 
-\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
+\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. вместо этого используйте [служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
 
 API SNMP определяет константы для использования в ряде функциональных областей. В следующей таблице перечислены и описаны эти функциональные области.
 
@@ -33,8 +33,8 @@ API SNMP определяет константы для использовани
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

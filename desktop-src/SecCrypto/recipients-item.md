@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2a80b472c8257597356c626a9e88aad97c447f4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 82a9e45ee82c42f659d6fa9e60f0b96122ee8d0f701d2d039df6ce995d1c778a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900801"
 ---
 # <a name="recipientsitem-property"></a>Свойство Recipients. Item
 
@@ -41,7 +41,7 @@ Recipients.Item( _
 
 Вариант, представляющий индексированный элемент в коллекции [**получателей**](recipients.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

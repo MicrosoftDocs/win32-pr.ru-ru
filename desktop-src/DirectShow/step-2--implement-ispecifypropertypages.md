@@ -1,15 +1,15 @@
 ---
-description: Реализуйте интерфейс ИспеЦифипропертипажес в фильтре в рамках создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
+description: реализуйте интерфейс испеЦифипропертипажес в фильтре в рамках создания страницы свойств фильтра для настраиваемого фильтра DirectShow.
 ms.assetid: 8be83564-07ad-47cf-9538-73136f42ba79
 title: Шаг 2. Реализация ИспеЦифипропертипажес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe37a22c6ba9c14f8656ac41294360569316be1a
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1c2d1df86ef6e8b3e59f14a3efe1708a286761c9ba6425a7710a692ed6dcd3bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951853"
 ---
 # <a name="step-2-implement-ispecifypropertypages"></a>Шаг 2. Реализация ИспеЦифипропертипажес
 

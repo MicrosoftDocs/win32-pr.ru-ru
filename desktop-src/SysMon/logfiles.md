@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab30de5c371c012e1320950e4a491021bb0b15c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75a0890acdf656c807ae3bcb275012bd56a4711a114547f750f04fd8d875fc68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883152"
 ---
 # <a name="logfiles-object"></a>Объект файл_журнала
 
@@ -56,20 +56,20 @@ ms.locfileid: "104488943"
 
 
 
-| Свойство                                                 | Описание                                                                                         |
+| Свойство.                                                 | Описание                                                                                         |
 |:---------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**Расчета**](systemmonitor-logfiles-count.md)<br/> | Возвращает количество экземпляров [**логфилеитем**](logfileitem.md) в коллекции.<br/>  |
+| [**Count**](systemmonitor-logfiles-count.md)<br/> | Возвращает количество экземпляров [**логфилеитем**](logfileitem.md) в коллекции.<br/>  |
 | [**Элемент**](systemmonitor-logfiles-item.md)<br/>   | Извлекает указанный экземпляр [**логфилеитем**](logfileitem.md) из коллекции.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы СИСМОН отобразить счетчики производительности из файла журнала, задайте для [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) значение [**DataSourceTypeConstants.sysмонлогфилес**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). После добавления файлов журнала в коллекцию используйте коллекцию [**счетчиков**](counters.md) , чтобы указать данные счетчиков, которые необходимо считать из файлов журнала. Обратите внимание, что если **системмонитор. DataSourceType** имеет значение **DataSourceTypeConstants.sysмонлогфилес**, сисмон будет выполнять повторную выборку файлов журнала каждый раз при добавлении файла журнала или счетчика в соответствующие коллекции.
 
-**До Windows Vista:** Невозможно добавить файлы журнала в [**коллекцию файлов журнала**](systemmonitor-logfiles.md) , если для [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) задано значение [**DataSourceTypeConstants.sysмонлогфилес**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Сначала задайте **системмонитор. DataSourceType** для **DataSourceTypeConstants.sysмоннуллдатасаурце**, добавьте файлы журнала и счетчики, а затем установите **Системмонитор. DataSourceType** в **DataSourceTypeConstants.sysмонлогфилес**.
+**до Windows Vista:** Невозможно добавить файлы журнала в [**коллекцию файлов журнала**](systemmonitor-logfiles.md) , если для [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) задано значение [**DataSourceTypeConstants.sysмонлогфилес**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Сначала задайте **системмонитор. DataSourceType** для **DataSourceTypeConstants.sysмоннуллдатасаурце**, добавьте файлы журнала и счетчики, а затем установите **Системмонитор. DataSourceType** в **DataSourceTypeConstants.sysмонлогфилес**.
 
 Свойства [**системмонитор. логвиевстарт**](systemmonitor-logviewstart.md) и [**системмонитор. логвиевстоп**](systemmonitor-logviewstop.md) определяют диапазон значений выборки из файлов журнала в графе. СИСМОН Graphs только по одному представлению данных из файла журнала (представление Graph не прокручивается, как это делается при построении диаграммы текущей активности компьютера). Если выборка данных превышает то, что может быть отображено в одном представлении графика, СИСМОН сжимает данные выборки (Каждая диаграмма представляет среднее значение нескольких выборок), чтобы вместить все данные выборки из файлов журнала на диаграмме.
 

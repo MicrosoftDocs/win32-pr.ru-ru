@@ -4,27 +4,27 @@ description: Неагрессивный способ отобразить поя
 ms.assetid: AA7F17F2-63A4-4954-9DAB-788B73984628
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 277fb8d15654ae51565c1a461a9a8414d3e9213c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0a2bd100dc6edb2aac7b4c8c5df3781e76391ae2d9d0ad456533384ed8701f14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958583"
 ---
 # <a name="how-to-implement-tooltips-for-status-bar-icons"></a>Как реализовать подсказки для значков строки состояния
 
 Неагрессивный способ отобразить пояснительное сообщение для значка строки состояния — реализовать подсказку. При щелчке всплывающая подсказка исчезает, но можно также указать значение времени ожидания.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -58,19 +58,19 @@ Shell_NotifyIcon(NIM_MODIFY, &IconData);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Подробное описание строки состояния см. [на панели задач](/windows/desktop/shell/taskbar).
 
 Чтобы отобразить всплывающую подсказку, необходимо установить \_ флаг сведений о nЕсли в структуре [**нотификондата**](/windows/desktop/api/shellapi/ns-shellapi-notifyicondataa) и использовать члены **сзинфо** и **утимеаут** для указания текста подсказки и времени ожидания.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

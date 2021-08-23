@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102671
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b708094ca52b59b918dee805fe5983f80bee17f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a71a98e3d7f4593fa09915f6df8468a74043beb9f3f6c456a74d615bed80d55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118981844"
 ---
 # <a name="esentrunninginmultiinstancemodeexception-properties"></a>Свойства Есентруннингинмултиинстанцемодиксцептион
 
@@ -49,7 +49,7 @@ ms.locfileid: "104348322"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">

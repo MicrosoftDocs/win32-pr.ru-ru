@@ -50,12 +50,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d2c94dcf7d454c5f0ea11fcee0bd46655099dfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bd26a3dac291d78b101aa56f186d9b31f7a927b1eca3e29febc7773e3c0939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042462"
 ---
 # <a name="columndefgrbit-enumeration"></a>Перечисление Колумндефгрбит
 
@@ -110,7 +110,7 @@ public enum ColumndefGrbit
 <tr class="even">
 <td></td>
 <td>колумннотнулл</td>
-<td>Для этого столбца никогда не должно быть задано значение NULL. В Windows XP это можно применить только к фиксированным столбцам (бит, байт, целое число и т. д.).</td>
+<td>Для этого столбца никогда не должно быть задано значение NULL. в Windows XP это можно применить только к фиксированным столбцам (бит, байт, целое число и т. д.).</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -161,7 +161,7 @@ public enum ColumndefGrbit
 </table>
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

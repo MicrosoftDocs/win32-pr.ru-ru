@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8360065e2ce124531bec63637e2b6560cfc32f54
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 18bef3eb69ab2799f7139fe2886d89e996fb8fb47d178997694c568450fb8340
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104133370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983904"
 ---
 # <a name="identityprivacyparameters-complex-type"></a>Сложный тип Идентитиприваципараметерс
 
@@ -47,13 +47,13 @@ ms.locfileid: "104133370"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент Идентитиприваципараметерс является необязательным.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -66,9 +66,9 @@ ms.locfileid: "104133370"
 [Сложные типы mspeapconnectionpropertiesv2](mspeapconnectionpropertiesv2schema-complex-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Структура объекта ресурса ограничен
 ms.assetid: c70a03b1-afac-4f1a-81e7-7f31430f5655
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1afe5e6488190f95961bff7ce37f7b719d076d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 06b05702f0ad43e5b4b80a9b1a3cada471212dec3bc377bddcc95fe9a109ec78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009122"
 ---
 # <a name="resource-handle-objects"></a>Объекты «обработчик ресурсов»
 
@@ -27,13 +27,13 @@ ms.locfileid: "103778596"
 
 
 
- 
+ 
 
 WinSNMP-приложение может запрашивать, что реализация создает или удаляет дескрипторы ресурсов, но реализация выполняет операцию. Дополнительные сведения об освобождении отдельных ресурсов см. в статье [**снмпфридескриптор**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreedescriptor), [**снмпфривбл**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreevbl), [**снмпфрипду**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreepdu), [**снмпфриентити**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreeentity)и [**снмпфриконтекст**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpfreecontext) .
 
- 
+ 
 
- 
+ 
 
 
 

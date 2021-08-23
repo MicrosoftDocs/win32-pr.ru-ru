@@ -4,12 +4,12 @@ ms.assetid: 488f696d-aa71-4727-bbd2-c99e7d245d85
 title: Сообщение SFVM_THISIDLIST (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e86e24199e5adbb895c8d1d5fc36bfff0c109bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd00f1cfc2b6661dac2414f0327cab03d4c0586eb62b992b5e33f81e64565246
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968633"
 ---
 # <a name="sfvm_thisidlist-message"></a>\_Сообщение сфвм сисидлист
 
@@ -37,17 +37,17 @@ SFVM_THISIDLIST
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
 | Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 2 (SP2)<br/>                                                      |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                      |
-| Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 
 
 

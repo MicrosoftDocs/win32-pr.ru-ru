@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Енханцедаудио
 description: Атрибут Енханцедаудио указывает или получает значение, указывающее, включен ли расширенный звук.
 ms.assetid: 06f346fc-ec25-4fdc-8dc9-895d3754e36b
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Енханцедаудио
+- екуализерсеттингс. енханцедаудио проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 641e00c1b5020ebc705cdd5a00109b94dc3b72cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ac8579490f76648d2f1664e8cac4e6e473035c820ab0f2f7e8881e5424d5834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996654"
 ---
 # <a name="equalizersettingsenhancedaudio"></a>ЕКУАЛИЗЕРСЕТТИНГС. Енханцедаудио
 
@@ -42,17 +42,17 @@ ms.locfileid: "105699184"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
