@@ -4,12 +4,12 @@ ms.assetid: 6fa05e56-c4cd-4623-abe9-2b1c8bbc644b
 title: Интерполяция треугольника (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 405cbecd6123145d412a3e7f58f727bdf5b5a3e8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28a411f53351ccd5d3407b358b03e705677e9bf5a96a57b162016afe09332bae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105701157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746264"
 ---
 # <a name="triangle-interpolation-direct3d-9"></a>Интерполяция треугольника (Direct3D 9)
 
@@ -34,7 +34,7 @@ ms.locfileid: "105701157"
 
 Используйте элемент Шадекапс структуры [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) , чтобы определить, какие формы интерполяции поддерживает текущий драйвер устройства.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

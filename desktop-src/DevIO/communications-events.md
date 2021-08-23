@@ -4,12 +4,12 @@ ms.assetid: 5d2a7bf3-a972-474b-b8ca-da3351f1e59c
 title: События связи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 466bd5076405427c7c348c1df3706cb7b5c3edc4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d5bcb257652723a2464ff66c862f574f6aeae621bc6459b55d250f785d0b0895
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815494"
 ---
 # <a name="communications-events"></a>События связи
 

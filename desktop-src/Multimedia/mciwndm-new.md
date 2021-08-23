@@ -49,7 +49,7 @@ lParam = (LPARAM) (LPVOID) lp;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ lParam = (LPARAM) (LPVOID) lp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

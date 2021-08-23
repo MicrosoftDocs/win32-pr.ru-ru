@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: fd72ef0281615c0b56176e86ee9bb3659b498a0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 323afb66d251d58bf13670fd335da2bd26ad2193ce03d5aa799ddb0f28e875fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744724"
 ---
 # <a name="compareaddresses-function"></a>Функция Компареаддрессес
 
@@ -62,7 +62,7 @@ int WINAPI CompareAddresses(
 
 Если параметр *lpAddress1* указывает адрес, который больше, чем адрес, заданный параметром *lpAddress2* , возвращаемое значение является положительным числом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Адрес, который меньше другого адреса, указывает на предыдущий кадр. Адрес, который больше, чем другой адрес, обозначает более поздний кадр.
 

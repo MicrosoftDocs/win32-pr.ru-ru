@@ -3,23 +3,23 @@ title: Элемент SETTINGS
 description: Элемент SETTINGS
 ms.assetid: 27d39e69-64f0-4b9c-abc1-23d8eace8dcd
 keywords:
-- Обложки проигрывателя Windows Media, элемент SETTINGS
+- обложки проигрыватель Windows Media, элемент SETTINGS
 - обложки, элемент SETTINGS
 - Элемент SETTINGS
 - Справочник по обложкам, элементу SETTINGS
 - элементы, параметры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 927e1f9bca078910237f19ef8534bda7503a1aa1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab3e227f700963bab6765b7facc97e52b0a3919e790fff54ed16f9d465af4dc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763594"
 ---
 # <a name="settings-element"></a>Элемент SETTINGS
 
-Элемент **Settings** позволяет указать следующие атрибуты объекта **параметров** в обложке.
+элемент **SETTINGS** позволяет указать следующие атрибуты объекта **Параметры** в обложке.
 
 
 
@@ -34,25 +34,25 @@ ms.locfileid: "103888668"
 | [отключен](settings-mute.md)                             | Указывает или получает значение, указывающее, отключено ли звуковое сопровождение.                                      |
 | [плайкаунт](settings-playcount.md)                   | Указывает или получает количество попыток воспроизведения элемента мультимедиа.                                     |
 | [курсе](settings-rate.md)                             | Указывает или получает текущую скорость воспроизведения                                                       |
-| [тома](settings-volume.md)                         | Указывает или получает текущий том.                                                             |
+| [volume](settings-volume.md)                         | Указывает или получает текущий том.                                                             |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

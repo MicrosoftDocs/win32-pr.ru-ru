@@ -230,7 +230,7 @@ class Msvm_BaseMetricValue : CIM_BaseMetricValue
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

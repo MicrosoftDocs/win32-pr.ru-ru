@@ -3,24 +3,24 @@ title: Протокол ВМПДВД
 description: Протокол ВМПДВД
 ms.assetid: 01f38c9a-3ce5-4cd4-91a7-248f542eed03
 keywords:
-- Проигрыватель Windows Media, протоколы
-- Объектная модель проигрывателя Windows Media, протоколы
+- проигрыватель Windows Media, протоколы
+- модель объектов проигрыватель Windows Media, протоколы
 - Объектная модель, протоколы
-- Элемент управления ActiveX проигрывателя Windows Media, протоколы для объектной модели
-- Элемент управления ActiveX, протоколы для объектной модели
-- Элемент управления ActiveX мобильных устройств Windows Media Player, протоколы для объектной модели
-- Проигрыватель Windows Media Mobile, протоколы для объектной модели
-- протоколы, объектная модель проигрывателя Windows Media
+- проигрыватель Windows Media ActiveX элемент управления, протоколы для объектной модели
+- элемент управления ActiveX, протоколы для объектной модели
+- проигрыватель Windows Media управление мобильными ActiveXми, протоколы для объектной модели
+- проигрыватель Windows Media Мобильные устройства, протоколы для объектной модели
+- протоколы, проигрыватель Windows Media объектная модель
 - протоколы, ВМПДВД
 - Протокол ВМПДВД
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4d3949c18a268ea6a2fffc196081ba466b5758
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8ca67f3cdee6f040aeb266e02493425ca76715ade2e3269f4377ba340af89cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761294"
 ---
 # <a name="wmpdvd-protocol"></a>Протокол ВМПДВД
 
@@ -77,18 +77,18 @@ player.url = "wmpdvd://Z/2/4?contentdir="d:\sample1\video_ts";
 
 
 
-Чтобы назначить строку ВМПДВД для свойства **URL-адреса** , требуется проигрыватель Windows Media 9 Series или более поздней версии.
+чтобы назначить строку вмпдвд для свойства **url-адреса** , требуется проигрыватель Windows Media 9 Series или более поздней версии.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Поддерживаемые протоколы и типы файлов**](supported-protocols-and-file-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

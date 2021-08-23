@@ -4,12 +4,12 @@ ms.assetid: f4aa356c-8f91-462f-9fc7-869b186b6c27
 title: мешфацеврапс
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e9ba55db3dc2c0733d66f5a9e4589937258324b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0878754b9e9e58e0f508be26ab30ac44112b1a2e8d8ba0f7e597591b2ebdab81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746974"
 ---
 # <a name="meshfacewraps"></a>мешфацеврапс
 

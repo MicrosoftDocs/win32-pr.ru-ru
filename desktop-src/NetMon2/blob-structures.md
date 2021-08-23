@@ -4,12 +4,12 @@ ms.assetid: 26efc9d0-3e62-4a6b-b99d-f5441e25d175
 title: Структуры больших двоичных объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72e276d7fffe4d145098328b9de5a2cb503b46eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9588e4af7e81c3fba52aa46800fcb35676d486317511b124ea50087764344792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744734"
 ---
 # <a name="blob-structures"></a>Структуры больших двоичных объектов
 
@@ -34,7 +34,7 @@ ms.locfileid: "105651147"
 | [**IPX- \_ адрес**](ipx-address.md)                              | Указывает IPX-адрес.                                              |
 | [**нетворкинфо**](networkinfo.md)                               | Указывает сетевую карту.                                                       |
 | [**паттернматч**](patternmatch.md)                             | Указывает элементы шаблона, используемые для вычисления кадров.                    |
-| [**TRIGGER**](trigger.md)                                       | Указывает, что событие возникает в определенное время.                      |
+| [**НЕОБХОДИМОСТЬ**](trigger.md)                                       | Указывает, что событие возникает в определенное время.                      |
 | [**\_событие обновления**](update-event.md)                            | Обновляет события.                                                        |
 | [**\_IP- \_ адрес Vines**](vines-ip-address.md)                   | Указывает адрес в сети Vines.                               |
 

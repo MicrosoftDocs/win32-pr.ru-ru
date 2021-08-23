@@ -4,12 +4,12 @@ ms.assetid: 5349222f-ad68-477c-8712-fde16e68f600
 title: 'Пример программы на языке C: операции с хранилищем сертификатов коллекции и одного уровня'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79ad1957f37e1aabeabbda0be8c14662c14c3ecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52074b58cb96b37b17808cfa8de17e2cd4af3082cf58c7c4312b46eb8eca0e29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873874"
 ---
 # <a name="example-c-program-collection-and-sibling-certificate-store-operations"></a>Пример программы на языке C: операции с хранилищем сертификатов коллекции и одного уровня
 

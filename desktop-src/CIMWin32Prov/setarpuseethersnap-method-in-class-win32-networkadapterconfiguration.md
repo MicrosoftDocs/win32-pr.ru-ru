@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52e3ce42948d5c40bbde3329b37ee3fa506c47ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57efc6b624e10cf06d024418e3bd29104b8d50c986c2e74401dc66c4cab64ae2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760184"
 ---
 # <a name="setarpuseethersnap-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетарпусисерснап \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию стек передает пакеты в формате Ethernet Digital, Intel, Xerox (DIX). Он всегда получает оба формата.
 
@@ -412,7 +412,7 @@ DHCP не включен на адаптере.
 
 Пример кода [есерснап VBScript для использования](https://Gallery.TechNet.Microsoft.Com/2fe24075-fdb1-486d-8c0b-d25075fd8f21) в коллекции TechNet использует **сетарпусисерснап** для настройки сетевых адаптеров на компьютере для использования кодировки привязки 802,3 для пакетов Ethernet.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -426,7 +426,7 @@ DHCP не включен на адаптере.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,25 +1,25 @@
 ---
-description: В этом разделе указаны форматы ([**DXGI_FORMAT_** _](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ), которые поддерживаются в оборудовании уровня функции Direct3D 12,0.
+description: В этом разделе указываются форматы ([**DXGI_FORMAT_** *](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) значения), которые поддерживаются в оборудовании уровня функции Direct3D 12,0.
 ms.assetid: A039A82B-2E30-41A6-96B5-AD5538FE2285
 title: Поддержка форматов для оборудования Direct3D с уровнем компонентов 12.0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4a33e54034d7fd3e8db1fb44046da9c9587fff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a7f571d8529d53c15313b42b211f72d21fbf097debc61920c6108879b64df512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745624"
 ---
 # <a name="format-support-for-direct3d-feature-level-120-hardware"></a>Поддержка форматов для оборудования Direct3D с уровнем компонентов 12.0
 
-В этом разделе указаны форматы ([_* DXGI_FORMAT_* * _](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ), которые поддерживаются в оборудовании уровня функции Direct3D 12,0.
+В этом разделе указываются форматы ([**DXGI_FORMAT_** *](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) значения), которые поддерживаются в оборудовании уровня функции Direct3D 12,0.
 
 В таблице приводится сводка по поддержке функций с использованием следующего ключа.
 
 | Символ                            | Описание                                                                   |
 |-----------------------------------|-------------------------------------------------------------------------------|
-| _ *-**                             | Не разрешено или недоступно.                                                  |
+| **-**                             | Не разрешено или недоступно.                                                  |
 | ![обязательно](images/letter-r.jpg)  | Требуется поддержка оборудования.                                                 |
 | ![необязательно](images/letter-o.jpg)  | Аппаратная поддержка необязательно. формат аппаратного ускорения может быть необязательным. |
 | ![зависимых](images/letter-d.jpg) | Требуется, если поддерживается дополнительная функция.                            |
@@ -64,7 +64,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -115,7 +115,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -166,7 +166,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -217,7 +217,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -268,7 +268,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -319,7 +319,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -370,7 +370,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -421,7 +421,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -472,7 +472,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -523,7 +523,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -574,7 +574,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -625,7 +625,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -676,7 +676,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -727,7 +727,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -778,7 +778,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -829,7 +829,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -880,7 +880,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -931,7 +931,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -982,7 +982,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1033,7 +1033,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1084,7 +1084,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1135,7 +1135,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1186,7 +1186,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1237,7 +1237,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1288,7 +1288,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1339,7 +1339,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1390,7 +1390,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1441,7 +1441,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1492,7 +1492,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1543,7 +1543,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1594,7 +1594,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1645,7 +1645,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1696,7 +1696,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1747,7 +1747,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1798,7 +1798,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1849,7 +1849,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1900,7 +1900,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -1951,7 +1951,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2002,7 +2002,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2053,7 +2053,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2104,7 +2104,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2155,7 +2155,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2206,7 +2206,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | ![обязательно](images/letter-r.jpg) |
+| UAV Atomic Exchange | ![обязательно](images/letter-r.jpg) |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2257,7 +2257,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | ![обязательно](images/letter-r.jpg) |
 | UAV атомарные побитовые операции | ![обязательно](images/letter-r.jpg) |
 | UAV атомарный CMP&Store/CMP& | ![обязательно](images/letter-r.jpg) |
-| UAV атомарный обмен | ![обязательно](images/letter-r.jpg) |
+| UAV Atomic Exchange | ![обязательно](images/letter-r.jpg) |
 | UAV Atomic со знаком min/max | ![обязательно](images/letter-r.jpg) |
 | UAV Atomic неподписанные min/max | ![обязательно](images/letter-r.jpg) |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2308,7 +2308,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | ![обязательно](images/letter-r.jpg) |
 | UAV атомарные побитовые операции | ![обязательно](images/letter-r.jpg) |
 | UAV атомарный CMP&Store/CMP& | ![обязательно](images/letter-r.jpg) |
-| UAV атомарный обмен | ![обязательно](images/letter-r.jpg) |
+| UAV Atomic Exchange | ![обязательно](images/letter-r.jpg) |
 | UAV Atomic со знаком min/max | ![обязательно](images/letter-r.jpg) |
 | UAV Atomic неподписанные min/max | ![обязательно](images/letter-r.jpg) |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2359,7 +2359,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2410,7 +2410,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2461,7 +2461,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2512,7 +2512,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2563,7 +2563,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2614,7 +2614,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2665,7 +2665,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2716,7 +2716,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2767,7 +2767,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2818,7 +2818,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2869,7 +2869,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2920,7 +2920,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -2971,7 +2971,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3022,7 +3022,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3073,7 +3073,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3124,7 +3124,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3175,7 +3175,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3226,7 +3226,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3277,7 +3277,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3328,7 +3328,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3379,7 +3379,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3430,7 +3430,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3481,7 +3481,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3532,7 +3532,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3583,7 +3583,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3634,7 +3634,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3685,7 +3685,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3736,7 +3736,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3787,7 +3787,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3838,7 +3838,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3889,7 +3889,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3940,7 +3940,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -3991,7 +3991,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4042,7 +4042,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4093,7 +4093,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4144,7 +4144,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4195,7 +4195,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4246,7 +4246,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4297,7 +4297,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4348,7 +4348,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4399,7 +4399,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4450,7 +4450,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4501,7 +4501,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4552,7 +4552,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4603,7 +4603,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4654,7 +4654,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4705,7 +4705,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4756,7 +4756,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4807,7 +4807,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4858,7 +4858,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4909,7 +4909,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -4960,7 +4960,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5011,7 +5011,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5062,7 +5062,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5113,7 +5113,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5164,7 +5164,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5215,7 +5215,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5266,7 +5266,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5317,7 +5317,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5368,7 +5368,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5419,7 +5419,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | \- |
@@ -5470,7 +5470,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5521,7 +5521,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5572,7 +5572,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5623,7 +5623,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5674,7 +5674,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5725,7 +5725,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5776,7 +5776,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5827,7 +5827,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5878,7 +5878,7 @@ ms.locfileid: "104495756"
 | UAV атомарное Добавление | \- |
 | UAV атомарные побитовые операции | \- |
 | UAV атомарный CMP&Store/CMP& | \- |
-| UAV атомарный обмен | \- |
+| UAV Atomic Exchange | \- |
 | UAV Atomic со знаком min/max | \- |
 | UAV Atomic неподписанные min/max | \- |
 | Блокируемый ЦП | ![обязательно](images/letter-r.jpg) |
@@ -5926,7 +5926,7 @@ ms.locfileid: "104495756"
 <sup>V</sup> : формат видео
 </dt> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Уровни компонентов оборудования D3D12](../direct3d12/hardware-feature-levels.md)
 

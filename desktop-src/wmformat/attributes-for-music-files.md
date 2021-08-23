@@ -3,19 +3,19 @@ title: Атрибуты для музыкальных файлов
 description: Атрибуты для музыкальных файлов
 ms.assetid: 098d9241-c8b0-4b0c-b9c1-668497f91e8c
 keywords:
-- Windows Media Format SDK, атрибуты
+- Windows Пакет SDK для формата мультимедиа, атрибуты
 - Расширенный системный формат (ASF), атрибуты
 - ASF (Расширенный системный формат), атрибуты
 - атрибуты, звуковые файлы
 - атрибуты, музыкальные файлы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e5956296da5ef43ed3a8d35ecc2d7e6d0a4c97e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d9a08b895c283eb48b3de3d8266659d280470ad20233ca4ba459f30a844206df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840314"
 ---
 # <a name="attributes-for-music-files"></a>Атрибуты для музыкальных файлов
 
@@ -30,7 +30,7 @@ ms.locfileid: "103774303"
 ## <a name="primary-attributes-for-music"></a>Основные атрибуты музыки
 
 -   [**Автор**](author.md)
--   [**Заголовок**](title.md)
+-   [**Название**](title.md)
 -   [**WM/Албумартист**](wm-albumartist.md)
 -   [**WM/Контентдистрибутор**](wm-contentdistributor.md)
 -   [**WM/жанр**](wm-genre.md)
@@ -42,7 +42,7 @@ ms.locfileid: "103774303"
 
 ## <a name="secondary-attributes-for-music"></a>Дополнительные атрибуты музыки
 
--   [**Информация**](copyright.md)
+-   [**Copyright**](copyright.md)
 -   [**WM/Composer**](wm-composer.md)
 -   [**WM/Енкодингтиме**](wm-encodingtime.md)
 -   [**WM/Language**](wm-language.md)
@@ -77,7 +77,7 @@ ms.locfileid: "103774303"
 -   [**WM/Уникуефилеидентифиер**](wm-uniquefileidentifier.md)
 -   [**WM/Усервебурл**](wm-userweburl.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -87,9 +87,9 @@ ms.locfileid: "103774303"
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

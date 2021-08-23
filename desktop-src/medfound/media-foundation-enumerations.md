@@ -4,12 +4,12 @@ ms.assetid: f26a730f-18c4-4247-acaf-af1dfad19086
 title: Перечисления Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c493d52421cd8add7ced0061d38b2395be690e53
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe30ae75400ec9fdf86281817275f01057b26824f15c0eebcf98cd33c71ab360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715404"
 ---
 # <a name="media-foundation-enumerations"></a>Перечисления Media Foundation
 
@@ -20,7 +20,7 @@ ms.locfileid: "104351595"
 | Раздел                                                                                                     | Описание                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_мфдепсмеасуремент**](/windows/win32/api/mfapi/ne-mfapi-mfdepthmeasurement)<br/>                                            | Задает систему измерения для значения глубины в видеокадре.<br/>                                                                                                                                             |
-| [**\_\_Политика перекрестного \_ источника MF \_**](/windows/desktop/api/mfidl/ne-mfidl-mf_cross_origin_policy)<br/>                                 | Сопоставляется с атрибутом W3C о параметрах источника (CORS), используемом элементом мультимедиа HTML5.<br/>                                                                                                                           |
+| [**\_\_Политика перекрестного \_ источника MF \_**](/windows/desktop/api/mfidl/ne-mfidl-mf_cross_origin_policy)<br/>                                 | Карты атрибуту W3C, используемому элементом мультимедиа HTML5<br/>                                                                                                                           |
 | [**\_\_Параметры создания \_ МФП**](/windows/win32/api/mfplay/ne-mfplay-_mfp_creation_options)<br/>                                      | Задает параметры для функции [**мфпкреатемедиаплайер**](/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer) .<br/>                                                                                                                         |
 | [**\_\_Флаги учетных данных МФП \_**](/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags)<br/>                                      | Содержит флаги для [**структуры \_ событий МФП получения \_ \_ учетных данных \_ пользователя**](/windows/desktop/api/mfplay/ns-mfplay-mfp_acquire_user_credential_event) .<br/>                                                                                             |
 | [**\_\_характеристики MEDIAITEM \_ МФП**](/windows/win32/api/mfplay/ne-mfplay-_mfp_mediaitem_characteristics)<br/>                    | Содержит флаги, описывающие элемент мультимедиа.<br/>                                                                                                                                                                       |
@@ -54,7 +54,7 @@ ms.locfileid: "104351595"
 | [**eAVEncH264VLevel**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vlevel)<br/>                                                   | Задает уровень кодирования H. 264.<br/>                                                                                                                                                                               |
 | [**eAVEncH264VProfile**](/windows/desktop/api/codecapi/ne-codecapi-eavench264vprofile)<br/>                                               | Указывает профиль видео H. 264.<br/>                                                                                                                                                                                |
 | [**еавенквидеоконтенттипе**](/windows/win32/api/codecapi/ne-codecapi-eavencvideocontenttype)<br/>                                       | Указывает тип видеосодержимого.<br/>                                                                                                                                                                             |
-| [**еврфилтерконфигпрефс**](/windows/win32/api/evr/ne-evr-evrfilterconfigprefs)<br/>                                           | Содержит флаги, которые используются для настройки фильтра модуля подготовки видео Microsoft DirectShow (Евр).<br/>                                                                                                         |
+| [**еврфилтерконфигпрефс**](/windows/win32/api/evr/ne-evr-evrfilterconfigprefs)<br/>                                           | содержит флаги, используемые для настройки фильтра модуля подготовки видео (евр) Microsoft DirectShow.<br/>                                                                                                         |
 | [**\_ \_ Параметры СЕРИАЛИЗАЦИИ атрибута \_ MF**](/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_serialize_options)<br/>                    | Определяет флаги для сериализации и десериализации хранилищ атрибутов.<br/>                                                                                                                                                |
 | [**\_тип атрибута \_ MF**](/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type)<br/>                                               | Определяет тип данных для пары "ключ-значение".<br/>                                                                                                                                                                      |
 | [**\_ \_ тип СОПОСТАВЛЕНИЯ атрибутов \_ MF**](/windows/desktop/api/mfobjects/ne-mfobjects-mf_attributes_match_type)<br/>                                | Указывает способ сравнения атрибутов двух объектов.<br/>                                                                                                                                                          |
@@ -152,7 +152,7 @@ ms.locfileid: "104351595"
 | [**\_ \_ Флаги жетфуллтопологи мфсессион**](/windows/desktop/api/mfidl/ne-mfidl-mfsession_getfulltopology_flags)<br/>                   | Определяет флаги для метода [**имфмедиасессион:: жетфуллтопологи**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getfulltopology) . <br/>                                                                                                       |
 | [**\_ \_ Флаги сеттопологи мфсессион**](/windows/desktop/api/mfidl/ne-mfidl-mfsession_settopology_flags)<br/>                           | Определяет поведение метода [**имфмедиасессион:: сеттопологи**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology) .<br/>                                                                                                          |
 | [**\_состояние мфшутдовн**](/windows/desktop/api/mfidl/ne-mfidl-mfshutdown_status)<br/>                                                | Описывает текущее состояние вызова метода [**имфшутдовн:: Shutdown**](/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown) .<br/>                                                                                                      |
-| [**МФСИНК \_ вмдрмактион**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction)<br/>                                              | Указывает, как приемник файлов ASF должен применять Windows Media DRM.<br/>                                                                                                                                                  |
+| [**МФСИНК \_ вмдрмактион**](/windows/win32/api/wmcontainer/ne-wmcontainer-mfsink_wmdrmaction)<br/>                                              | указывает, как приемник файлов ASF должен применяться Windows Media DRM.<br/>                                                                                                                                                  |
 | [**мфстандардвидеоформат**](/windows/desktop/api/mfobjects/ne-mfobjects-mfstandardvideoformat)<br/>                                         | Содержит значения, указывающие распространенные форматы видео.<br/>                                                                                                                                                               |
 | [**\_тип маркера мфстреамсинк \_**](/windows/desktop/api/mfidl/ne-mfidl-mfstreamsink_marker_type)<br/>                                 | Определяет сведения о маркере потока для метода [**имфстреамсинк::P лацемаркер**](/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-placemarker) .<br/>                                                                                                |
 | [**\_тип сообщения \_ MFT**](/windows/desktop/api/mftransform/ne-mftransform-mft_message_type)<br/>                                                 | Определяет сообщения для преобразования Media Foundation (MFT).<br/>                                                                                                                                                         |
@@ -190,7 +190,7 @@ ms.locfileid: "104351595"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

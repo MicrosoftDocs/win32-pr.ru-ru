@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 757e227907eab73848f43b2b8e2f40f9b4b1071b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a3aaa8f9332a80e35ffde43d145be1ed885caeaca6d61e4eb9190baba09b73ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747764"
 ---
 # <a name="id3dxprtenginecomputevolumesamplesdirectsh-method"></a>Метод ID3DXPRTEngine:: Компутеволумесамплесдиректш
 
@@ -95,7 +95,7 @@ HRESULT ComputeVolumeSamplesDirectSH(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод выполняет вычисление того, как освещение от внешнего источника достигает каждой точки в пространстве, заданном параметром Псамплелокс. Коэффициенты SH представляют сопоставление (в каждой точке Псамплелокс) источника радианце с передачей радианце инцидента.
 
@@ -107,7 +107,7 @@ HRESULT ComputeVolumeSamplesDirectSH(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1875b780f528000d46ba31bb979072d6d462fa91
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3f3629f7eaf8b3e271ca988b73e1dedab1e428136cc86663b64b838597d1b98c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855264"
 ---
 # <a name="devicememorybarrier-function"></a>Функция Девицемеморибарриер
 
@@ -38,7 +38,7 @@ void DeviceMemoryBarrier(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -48,11 +48,11 @@ void DeviceMemoryBarrier(void);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -64,7 +64,7 @@ void DeviceMemoryBarrier(void);
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -76,9 +76,9 @@ void DeviceMemoryBarrier(void);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

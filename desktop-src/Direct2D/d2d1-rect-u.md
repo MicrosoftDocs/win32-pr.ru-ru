@@ -6,12 +6,12 @@ keywords:
 - D2D1_RECT_U
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 005e7d8bba3c4316e4132783b62ba226bd1cc92d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c34127aceea16f4efa86f26e341cebec9099e9f81dd9c0c1d746f6eb6c474127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105674618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768744"
 ---
 # <a name="d2d1_rect_u"></a>D2D1 \_ Rect \_ U
 
@@ -24,7 +24,7 @@ typedef D2D_RECT_U D2D1_RECT_U;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **D2D1 \_ RECT \_ u** — это новое имя уже определенной структуры [**D2D \_ \_ u**](/windows/desktop/api/dcommon/ns-dcommon-d2d_rect_u) .
 
@@ -34,10 +34,10 @@ typedef D2D_RECT_U D2D1_RECT_U;
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\]<br/> |
+| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>D2DBaseTypes. h (включение D2d1. h)</dt> </dl>                               |
+| Заголовок<br/>                   | <dl> <dt>D2DBaseTypes. h (включение D2d1. h)</dt> </dl>                               |
 
 
 

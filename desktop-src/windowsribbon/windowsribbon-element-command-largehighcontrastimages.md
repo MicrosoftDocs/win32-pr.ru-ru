@@ -3,7 +3,7 @@ title: Свойство Command. Ларжехигхконтрастимажес
 description: Представляет контейнер изображений; в этом случае крупные изображения используются с параметрами системы с высокой контрастностью.
 ms.assetid: e25f207f-ac3f-4a5f-8104-c928b38a52a8
 keywords:
-- Лента Windows для свойства Command. Ларжехигхконтрастимажес
+- свойство Command. ларжехигхконтрастимажес, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94fc31e2113990a1862fab7288ffeefef787cff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d59c1e760565443c286969cc92b3b0c4a6b83a2513587f424ebcda366b1b8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710514"
 ---
 # <a name="commandlargehighcontrastimages-property"></a>Свойство Command. Ларжехигхконтрастимажес
 
@@ -51,11 +51,11 @@ ms.locfileid: "104071919"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -117,8 +117,8 @@ ms.locfileid: "104071919"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

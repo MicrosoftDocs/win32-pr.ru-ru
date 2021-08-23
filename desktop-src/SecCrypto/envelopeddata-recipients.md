@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f047b4a8c579fb7f327b7410965a326c4a2f255d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ffccb280bc41116a65b01cd0f4dcc04a6e2f815fa66306067457516b329c80e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874144"
 ---
 # <a name="envelopeddatarecipients-property"></a>Енвелопеддата. Recipients, свойство
 
@@ -39,7 +39,7 @@ EnvelopedData.Recipients As Recipients
 
 Коллекция [**получателей**](recipients.md) , представляющая получателей сообщения с оболочкой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -52,7 +52,7 @@ EnvelopedData.Recipients As Recipients
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73ea16c5aa6b49bce59fe51905734344e4e1cffb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcabc6dcf5043c23be252fe6ac25c99da505e33b7c670c95ee5672b50ddb74bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744634"
 ---
 # <a name="input-color-register"></a>Регистр цвета ввода
 
@@ -35,11 +35,11 @@ dcl v#.writeMask
 -   v является входным регистром и \# является номером регистра. Количество допустимых регистров определяется версией шейдера.
 -   Вритемаск определяет, какие компоненты записываются (до четырех). Допустимые компоненты: (x, y, z, w) или (r, g, b, a).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Регистры цвета — это регистры только для чтения. Каждый регистр содержит значения RGBA из четырех компонентов, перебираемые из входных вершин. Они имеют меньшую точность, чем большинство регистров, но гарантированно содержат 8 бит неподписанных данных в диапазоне (0, + 1). В одной инструкции нельзя использовать больше одного.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -58,9 +58,9 @@ dcl v#.writeMask
 [\_ \_ регистры PS 3 0](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

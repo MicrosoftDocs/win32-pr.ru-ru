@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b64be3b2c6438490d3e44076b1e553a7abb37d8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2891e6d7fa826edccbdf85e2c5b9d284a2a4f9699db179622c4c45459bec112
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834034"
 ---
 # <a name="jet_commit_idinequality-operator"></a>Оператор JET_COMMIT_ID. неравенство
 
@@ -81,7 +81,7 @@ public static bool operator !=(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 True, если LHS не равен RHS.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

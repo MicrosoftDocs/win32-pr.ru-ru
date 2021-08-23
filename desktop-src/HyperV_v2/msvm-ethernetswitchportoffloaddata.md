@@ -528,7 +528,7 @@ class Msvm_EthernetSwitchPortOffloadData : Msvm_EthernetPortData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

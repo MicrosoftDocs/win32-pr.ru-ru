@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 2720d309224def5f368babf4f9ace85955907347
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17b472bbdead74612ccc6d76f1059443ce6f62dd122f7933ae31c99fb82900a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743764"
 ---
 # <a name="getpreviousprotocoloffsetbyname-function"></a>Функция Жетпревиауспротоколоффсетбинаме
 
@@ -76,7 +76,7 @@ DWORD WINAPI GetPreviousProtocolOffsetByName(
 
 Если функция завершилась неудачно, возвращаемое значение — НМЕРР \_ Protocol \_ не \_ найдено.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [*Эксперты*](e.md) и [*средства синтаксического анализа*](p.md) могут вызывать **жетпревиауспротоколоффсетбинаме**.
 

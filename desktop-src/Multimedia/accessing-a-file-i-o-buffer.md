@@ -12,12 +12,12 @@ keywords:
 - Функция Ммиосетинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c89b2376f1bae68d55c76d7731b6ee78f6bf7d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9e4ab9533f0f121d42f859961b60d405477856faacee8d8cf36a0dfb975e2587
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105672274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808644"
 ---
 # <a name="accessing-a-file-io-buffer"></a>Доступ к буферу файлового ввода-вывода
 
@@ -75,6 +75,6 @@ mmioClose(hmmio, 0);
 
 По завершении доступа к буферу файлового ввода-вывода вызовите функцию [**ммиосетинфо**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiosetinfo) , передав адрес структуры [**ммиоинфо**](/previous-versions//dd757322(v=vs.85)) , заполненной функцией [**ммиожетинфо**](/windows/win32/api/mmiscapi/nf-mmiscapi-mmiogetinfo) . Если вы записали данные в буфер, установите \_ флаг MMIO "грязный" в элементе **DwFlags** структуры **Ммиоинфо** перед вызовом **ммиосетинфо**. В противном случае буфер не будет сброшен на диск.
 
- 
+ 
 
- 
+ 

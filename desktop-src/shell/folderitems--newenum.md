@@ -41,7 +41,7 @@ FolderItems._NewEnum()
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

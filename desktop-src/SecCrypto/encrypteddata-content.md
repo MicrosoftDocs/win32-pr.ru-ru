@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4b873d40ed04270defe04fd59f0ce00a0f84040a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd86df70eed27fb192e65b23ea567beb1f4b42001dd3df5e5381045387dc1490
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874664"
 ---
 # <a name="encrypteddatacontent-property"></a>EncryptedData. Content, свойство
 
@@ -39,7 +39,7 @@ EncryptedData.Content As String
 
 Содержимое для шифрования или расшифровки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -52,7 +52,7 @@ EncryptedData.Content As String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
