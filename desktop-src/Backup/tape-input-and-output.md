@@ -6,12 +6,12 @@ keywords:
 - Резервная копия входных и выходных данных на ленте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5946659f1ad0246e37981201e4e08611b45b70b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e281eb6104cb71fbd5e7f0b3d9072cefe562ac7b9cc54e05ede53bece8755178
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021274"
 ---
 # <a name="tape-input-and-output"></a>Входные и выходные данные на ленте
 
@@ -38,6 +38,6 @@ ms.locfileid: "104338492"
 
 Приложение для резервного копирования на магнитной ленте должно использовать [**баккупреад**](/windows/desktop/api/Winbase/nf-winbase-backupread) и [**баккупврите**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) для копирования всех данных, относящихся к файлу. Однако эти функции не считывают и не записывают такие характеристики файлов, как атрибуты, время создания файла и т. д. Приложения должны использовать входные и выходные функции, такие как [**GetFileAttributes**](/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa) и [**сетфилеаттрибутес**](/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa), для извлечения и установки этих значений.
 
- 
+ 
 
- 
+ 

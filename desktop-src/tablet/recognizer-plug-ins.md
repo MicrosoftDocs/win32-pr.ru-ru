@@ -4,12 +4,12 @@ ms.assetid: 764a327e-1da0-487f-9245-b6a4f3f43502
 title: Подключаемые модули распознавателя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf3ac866a211a78e2d8f347e89ca20a1906f436
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54b64f8f9b63cdbdc7309e7d9bd303ecce7a6b59b2e3b3c0cde976d1d6eefdf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091533"
 ---
 # <a name="recognizer-plug-ins"></a>Подключаемые модули распознавателя
 
@@ -53,7 +53,7 @@ ms.locfileid: "104571749"
 -   Передача сведений о штрихах в существующий объект [распознавателя](/previous-versions/ms829434(v=msdn.10)) и использование метода [аддкустомстилусдататокуеуе](/previous-versions/ms825761(v=msdn.10)) для добавления результатов в поток данных пера планшета.
 -   Выполнение распознавания в подключаемом модуле и использование метода [аддкустомстилусдататокуеуе](/previous-versions/ms825761(v=msdn.10)) для добавления результатов в поток данных пера планшета.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

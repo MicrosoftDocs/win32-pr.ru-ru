@@ -3,7 +3,7 @@ title: Сообщение EM_GETSELTEXT (RichEdit. h)
 description: Извлекает текущий выделенный текст в элементе управления Rich Edit.
 ms.assetid: 56af77c3-f2d7-4b5d-895f-a67c141459e3
 keywords:
-- Элементы управления Windows для EM_GETSELTEXT сообщений
+- элементы управления Windows сообщений EM_GETSELTEXT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acde2c0677fa04ff6d7991bca56bad0c08a6f5ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 540567f1b52c936ad085acac8e0374fdb0a912bae06480632263f9676f2948e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019502"
 ---
 # <a name="em_getseltext-message"></a>\_Сообщение ЖЕТСЕЛТЕКСТ EM
 
@@ -53,9 +53,9 @@ ms.locfileid: "103891838"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

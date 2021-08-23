@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd539d1ad6c203441b2bcd469a7d8f2fe8bdfc7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34b330e4c6dfc5324f7041343865ea59885a0aedec01fa9c67014d3709a93834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021322"
 ---
 # <a name="sisrestoredlink-function"></a>Функция Сисресторедлинк
 
@@ -93,7 +93,7 @@ BOOL SisRestoredLink(
 
 Эта функция возвращает **значение true** , если она завершается успешно, и **false** в противном случае. Вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить дополнительные сведения о причине сбоя вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту функцию следует вызывать для каждого восстановленного канала SIS.
 
@@ -107,21 +107,21 @@ BOOL SisRestoredLink(
 
 Имена файлов общего хранилища глобально уникальны, чтобы обеспечить целостность операции восстановления, даже если она не выполняется на том же томе с поддержкой SIS, к которому осуществлялся доступ при операции резервного копирования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Сисбкуп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

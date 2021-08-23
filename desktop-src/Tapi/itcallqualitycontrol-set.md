@@ -4,16 +4,16 @@ ms.assetid: e83ed9d7-0a53-4555-ae44-737ab3dfb749
 title: 'Метод Иткаллкуалитиконтрол:: Set (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c0a83702ba0dd4d04eb129eeed95c46d2a79a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5506e4c318440c2b611a2404590bdf638d34a7da2353a5598d09aecf2990668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003392"
 ---
 # <a name="itcallqualitycontrolset-method"></a>Метод Иткаллкуалитиконтрол:: Set
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Set** задает значение заданного [Свойства контроля качества вызова](callqualityproperty.md).
 
@@ -77,7 +77,7 @@ HRESULT Set(
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 

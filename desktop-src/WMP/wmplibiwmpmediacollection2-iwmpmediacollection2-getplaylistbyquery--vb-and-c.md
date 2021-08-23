@@ -3,9 +3,9 @@ title: IWMPMediaCollection2 Жетплайлистбикуери, метод
 description: Метод Жетплайлистбикуери возвращает интерфейс Ивмпплайлист, который предоставляет доступ к элементам мультимедиа, соответствующим условиям запроса.
 ms.assetid: ebbb631f-1faa-4c89-8c1d-cc2b128126b8
 keywords:
-- Жетплайлистбикуери метод Windows Media Player
-- Жетплайлистбикуери метод проигрывателя Windows Media Player, интерфейс IWMPMediaCollection2
-- Интерфейс IWMPMediaCollection2 Windows Media Player, метод Жетплайлистбикуери
+- проигрыватель Windows Media метода жетплайлистбикуери
+- проигрыватель Windows Media метода жетплайлистбикуери, интерфейс IWMPMediaCollection2
+- проигрыватель Windows Media интерфейса IWMPMediaCollection2, метод жетплайлистбикуери
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f6e49e77d1cfa8c6d3b45bef1d011faf21a8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acd80467c78aac832c5ac2784281abcf07975a1956ee304c734b2b45b82901fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119053582"
 ---
 # <a name="iwmpmediacollection2getplaylistbyquery-method"></a>Метод IWMPMediaCollection2:: Жетплайлистбикуери
 
@@ -91,25 +91,25 @@ Implements IWMPMediaCollection2.getPlaylistByQuery
 
 Интерфейс **вмплиб. ивмпплайлист** для полученного списка воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В составных запросах, использующих **ивмпкуери** , регистр не учитывается.
 
 Если составной запрос, заданный параметром *пкуери* , содержит условие, построенное на атрибуте **mediaType** , это условие игнорируется. Значение параметра *бстрмедиатипе* всегда используется. Например, если составной запрос содержит условие «MediaType равно Audio», а значение параметра *бстрмедиатипе* — «Video», то итоговый список будет содержать только элементы видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

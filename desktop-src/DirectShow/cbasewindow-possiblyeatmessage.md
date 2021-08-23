@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f218b62ac5464da27b8596992c34ce7ae5efde46
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 851f46d14f949a49c9422256f9b2bda1ba314e5789773121387e89c011f7a424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016462"
 ---
 # <a name="cbasewindowpossiblyeatmessage-method"></a>Кбасевиндов. Поссиблеатмессаже, метод
 
@@ -69,7 +69,7 @@ virtual BOOL PossiblyEatMessage(
 
 Возвращает **значение true** , если сообщение было переслано, или **значение false** в противном случае. Базовый класс возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед тем как метод [**кбасевиндов:: онрецеивемессаже**](cbasewindow-onreceivemessage.md) обрабатывает сообщение, он вызывает `PossiblyEatMessage` . Если `PossiblyEatMessage` возвращает **значение true**, **онрецеивемессаже** игнорирует сообщение. Производный класс может переопределить `PossiblyEatMessage` , чтобы он перенаправлял некоторые сообщения в окно владельца. Например, класс [**кбасеконтролвиндов**](cbasecontrolwindow.md) , который является производным от **кбасевиндов**, перенаправляет сообщения клавиатуры и мыши.
 
@@ -79,7 +79,7 @@ virtual BOOL PossiblyEatMessage(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

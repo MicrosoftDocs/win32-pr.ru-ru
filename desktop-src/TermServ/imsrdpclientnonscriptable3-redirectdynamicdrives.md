@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b19c0e6e20f7f73481f6f2ecbc50ab0eda512ded
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5199f8fcf8e114cfb8febd05631e49de97aab01a69ca9397bc7d15539ad819d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001112"
 ---
 # <a name="imsrdpclientnonscriptable3redirectdynamicdrives-property"></a>Свойство IMsRdpClientNonScriptable3:: Редиректдинамикдривес
 
@@ -76,7 +76,7 @@ HRESULT get_RedirectDynamicDrives(
 
 Указывает, доступны ли для перенаправления динамически подключаемые диски PnP, перечисленные в сеансе.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ HRESULT get_RedirectDynamicDrives(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

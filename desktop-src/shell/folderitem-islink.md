@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: bd4357485dce3f3d236f31797d8b2df7028f3d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb12c2273bb22af2df9f76c6606cad69223fa04292e0d556a65d4898bc968c75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119093128"
 ---
 # <a name="folderitemislink-property"></a>FolderItem. свойство связи
 
@@ -41,9 +41,9 @@ bIsLink = FolderItem.IsLink
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере с помощью « **onlink** » определяется, является ли определенный объект ссылкой. В этом случае объект является ярлыком Internet Explorer и поэтому должен возвращать **значение true**. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере с помощью « **onlink** » определяется, является ли определенный объект ссылкой. В этом случае объект является ярлыком Internet Explorer и поэтому должен возвращать **значение true**. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -148,7 +148,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

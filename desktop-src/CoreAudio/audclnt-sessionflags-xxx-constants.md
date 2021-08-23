@@ -4,12 +4,12 @@ ms.assetid: 5745d5bc-71e8-4b33-8227-c1c84226b6ee
 title: Константы AUDCLNT_SESSIONFLAGS_XXX (Аудиосессионтипес. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e2152c33103ca3366399995b7d11bb072f2bdd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15423d24d48a98b69c4ab1651941fba639885c03e27cf9df8b1834aab830bb6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018502"
 ---
 # <a name="audclnt_sessionflags_xxx-constants"></a>\_ \_ Константы аудклнт сессионфлагс XXX
 
@@ -25,19 +25,19 @@ ms.locfileid: "104496695"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                     |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                        |
-| Header<br/>                   | <dl> <dt>Аудиосессионтипес. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                     |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Аудиосессионтипес. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

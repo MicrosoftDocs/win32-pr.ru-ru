@@ -3,9 +3,9 @@ title: Медиаколлектион. Жеталл, метод
 description: Метод Жеталл извлекает список воспроизведения, содержащий все элементы мультимедиа в библиотеке.
 ms.assetid: c22532ee-5714-4762-966f-7dc6543384f4
 keywords:
-- Жеталл метод Windows Media Player
-- Жеталл метод Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион Windows Media Player, метод Жеталл
+- проигрыватель Windows Media метода жеталл
+- проигрыватель Windows Media метода жеталл, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод жеталл
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1681cd533be4084123cb80cdcc199ab5e1ce2981
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c1d3bba961f9400470c16e3d773a5765d389ce05bc23c2e948f0b94c7ad22229
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135068"
 ---
 # <a name="mediacollectiongetall-method"></a>Медиаколлектион. Жеталл, метод
 
@@ -44,13 +44,13 @@ retVal = MediaCollection.getAll()
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *медиаколлектион*. **жеталл** для воспроизведения элементов мультимедиа случайным образом из коллекции носителей. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *медиаколлектион*. **жеталл** для воспроизведения элементов мультимедиа случайным образом из коллекции носителей. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -79,7 +79,7 @@ Player.currentMedia = Player.mediaCollection.getAll().item(rand);
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -94,10 +94,10 @@ Player.currentMedia = Player.mediaCollection.getAll().item(rand);
 [**Объект списка воспроизведения**](playlist-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

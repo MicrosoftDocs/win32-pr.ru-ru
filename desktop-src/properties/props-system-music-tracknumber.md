@@ -4,12 +4,12 @@ ms.assetid: 0007f7e0-4b62-453a-adc5-cccf1e916f12
 title: System. Music. Траккнумбер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be90fd5144334771f2bdfa2a571dd650e2b85a6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec42c34eb365070e1d3b327379ab08c4a3934e8fb9ebab78d4959e27ec5984a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096803"
 ---
 # <a name="systemmusictracknumber"></a>System. Music. Траккнумбер
 
@@ -46,7 +46,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wifidisplay.dll
-ms.openlocfilehash: 7697bc7ff1aa42569cf954b3f0b037f66ec67ded
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e8169c541535eb2c5adfd0959da47cee4951750687f7d926798534ddc7cbf88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064904"
 ---
 # <a name="wfddisplaysinkclosesession-function"></a>Функция Вфддисплайсинкклосесессион
 
@@ -50,9 +50,9 @@ DWORD WINAPI WFDCloseDisplaySinkSession(
 
 Если функция завершается успешно, возвращается значение ошибки \_ Success.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Приложение может вызвать эту функцию для завершения сеанса Miracast по любой причине. Приложению не требуется вызывать его при получении типа **дисконнектеднотификатион** в своем обратном вызове.
+приложение может вызвать эту функцию, чтобы завершить сеанс Miracast по любой причине. Приложению не требуется вызывать его при получении типа **дисконнектеднотификатион** в своем обратном вызове.
 
 ## <a name="requirements"></a>Требования
 
@@ -60,9 +60,9 @@ DWORD WINAPI WFDCloseDisplaySinkSession(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                    |
-| Окончание поддержки клиента<br/>    | Windows 10<br/>                                                                      |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                    |
+| Окончание поддержки клиента<br/>    | Windows 10,<br/>                                                                      |
 | Поддержка конца сервера<br/>    | Windows Server 2016<br/>                                                             |
 | Header<br/>                   | <dl> <dt>Вфдсинк. h</dt> </dl>       |
 | Библиотека<br/>                  | <dl> <dt>Вифидисплай. lib</dt> </dl> |

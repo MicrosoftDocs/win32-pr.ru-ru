@@ -4,12 +4,12 @@ ms.assetid: dc52313b-38e7-43cc-abfd-86966c836fce
 title: Обработка кодовой страницы импортированных и экспортированных таблиц
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b090bead1fa35b451ed12e0e0da0143b98b8918
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f9a64617ccfda25380076d62e6dd4ad8c18c55f68afd0236b3258638c899f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066004"
 ---
 # <a name="code-page-handling-of-imported-and-exported-tables"></a>Обработка кодовой страницы импортированных и экспортированных таблиц
 
@@ -54,7 +54,7 @@ ms.locfileid: "105662592"
 
 [Файлы архивов](text-archive-files.md) , экспортированные [**мсидатабасикспорт**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta) , можно использовать с системами управления версиями. Для изменения базы данных используйте [функции базы данных](database-functions.md) или редактор таблиц базы данных.
 
-Сведения о локализации можно добавить в базу данных установки с помощью редактора таблиц базы данных или API установщик Windows. Дополнительные сведения см. в разделе [Обработка кодовых страниц строк параметров](code-page-handling-of-parameter-strings.md).
+сведения о локализации можно добавить в базу данных установки с помощью редактора таблиц базы данных или API установщик Windows. Дополнительные сведения см. в разделе [Обработка кодовых страниц строк параметров](code-page-handling-of-parameter-strings.md).
 
  
 

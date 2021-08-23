@@ -4,12 +4,12 @@ description: Вычисление частоты изменения компон
 ms.assetid: 57743BB2-251C-4EA7-BDA9-70B2ECEE3B3F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2355b6db6aef9e85959d6359053fea76b48af0a5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 50066fe58c3d0a0cdd903de9fbb479a8fbab2c3a20c622ebca138c0937aaf0dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986644"
 ---
 # <a name="deriv_rtx_coarse-sm5---asm"></a>производный \_ RTX \_ грубый (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104998066"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция оценивает скорость изменения содержимого каждого компонента float32 класса *src0* (POST-свиззле) с точки зрения рендертаржет x Direction (RTX) или рендертаржет y (см. статью о [наследовании \_ РТИ по \_ грубой](deriv-rty-coarse--sm5---asm-.md)цене). Для каждой отметки 2x2 пикселей вычислена только одна производная пара x, y.
 
@@ -63,7 +63,7 @@ ms.locfileid: "104998066"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -74,7 +74,7 @@ ms.locfileid: "104998066"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

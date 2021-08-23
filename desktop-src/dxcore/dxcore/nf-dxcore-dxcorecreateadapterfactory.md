@@ -4,12 +4,12 @@ description: Создает фабрику адаптера Дкскоре, ко
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3f5164578da87af8f4d92c3bedcecb6f3dbaa95e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90567d732f6febc5d95b460b2ff88929dd12b2f22275de9db0d6bc5f88ef99ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985184"
 ---
 # <a name="dxcorecreateadapterfactory-function"></a>Функция Дкскорекреатеадаптерфактори
 
@@ -42,10 +42,10 @@ ms.locfileid: "103987763"
 |E_NOINTERFACE|Указано недопустимое значение для *riid*.|
 |E_POINTER|`nullptr` был предоставлен для *ппвфактори*.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В течение времени, когда ссылка существует в интерфейсе [идкскореадаптерфактори](../dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory.md) , интерфейсе [идкскореадаптерлист](../dxcore_interface/nn-dxcore_interface-idxcoreadapterlist.md) или интерфейсе [идкскореадаптер](../dxcore_interface/nn-dxcore_interface-idxcoreadapter.md) , дополнительные вызовы **Дкскорекреатеадаптерфактори**, [IDXCoreAdapterList::](../dxcore_interface/nf-dxcore_interface-idxcoreadapterlist-getfactory.md)GetObject или [IDXCoreAdapter::](../dxcore_interface/nf-dxcore_interface-idxcoreadapter-getfactory.md) GetObject будут возвращать указатели на один и тот же объект, увеличивая число ссылок в интерфейсе **IDXCoreAdapterFactory** .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Дкскоре Reference](../dxcore-reference.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

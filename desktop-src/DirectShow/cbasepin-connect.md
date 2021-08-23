@@ -1,7 +1,7 @@
 ---
-description: 'Метод Connect подключает ПИН-код к другому ПИН-коду. Этот метод реализует метод Ипин:: Connect.'
+description: 'метод Подключение подключает пин-код к другому пин-коду. этот метод реализует метод ипин:: Подключение.'
 ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
-title: Метод Кбасепин. Connect (Амфилтер. h)
+title: Кбасепин. метод Подключение (амфилтер. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed8bcdab7e0909e59e7d9ec00645786f8ce48c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a134b87e9c7c4d0f665ae37df7ec9cd0ecb3a37c0d0548f27835ead7b8ecca21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074798"
 ---
-# <a name="cbasepinconnect-method"></a>Кбасепин. Connect, метод
+# <a name="cbasepinconnect-method"></a>Кбасепин. метод Подключение
 
-`Connect`Метод подключает ПИН-код к другому ПИН-коду. Этот метод реализует метод [**Ипин:: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) .
+`Connect`Метод подключает ПИН-код к другому ПИН-коду. этот метод реализует метод [**ипин:: Подключение**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -75,24 +75,24 @@ HRESULT Connect(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *ПЛТ* может иметь **значение NULL**. Также можно указать частичный тип носителя со значением GUID \_ null для основного типа, подтипа или формата.
 
 В базовом классе этот метод проверяет, подключен ли ПИН-код и был ли остановлен фильтр. Он делегирует оставшуюся часть процесса подключения методу [**кбасепин:: агримедиатипе**](cbasepin-agreemediatype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

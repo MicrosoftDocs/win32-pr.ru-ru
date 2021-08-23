@@ -3,7 +3,7 @@ title: Сообщение LVM_INSERTGROUP (Коммктрл. h)
 description: Вставляет группу в элемент управления "представление списка".
 ms.assetid: d43e21bc-e212-42dd-af88-48813d40cd50
 keywords:
-- Элементы управления Windows для LVM_INSERTGROUP сообщений
+- элементы управления Windows сообщений LVM_INSERTGROUP
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94dbae780f7de26a5c791477e1a7321794054056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f31504226663b0df91e0297ed29abf784ff239dfcee5f323e8617f73dff65acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019252"
 ---
 # <a name="lvm_insertgroup-message"></a>\_Сообщение LVM инсертграуп
 
@@ -39,7 +39,7 @@ ms.locfileid: "105654646"
 
 Возвращает индекс элемента, к которому была добавлена группа, или значение-1, если операция завершилась ошибкой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы включить режим группы, вызовите [**LVM \_ Енаблеграупвиев**](lvm-enablegroupview.md) или [**ListView \_ енаблеграупвиев**](/windows/desktop/api/Commctrl/nf-commctrl-listview_enablegroupview).
 
@@ -58,9 +58,9 @@ ms.locfileid: "105654646"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

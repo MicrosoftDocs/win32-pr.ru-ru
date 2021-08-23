@@ -4,12 +4,12 @@ ms.assetid: 2251b8ae-635f-450d-a037-a7f893c1f3d9
 title: System. GPS. Дестдистанцереф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f763dd93bd65d2645143a9ad7b6b5246a9b8ea1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddb775e4fa3710e89156e0b86fe8a43d918964b3f3ef465059e7b8d0a9cf5a75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033532"
 ---
 # <a name="systemgpsdestdistanceref"></a>System. GPS. Дестдистанцереф
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

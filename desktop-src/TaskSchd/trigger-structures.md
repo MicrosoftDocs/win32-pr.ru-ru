@@ -4,12 +4,12 @@ description: Планировщик задач 1,0 использует неск
 ms.assetid: dd2ae4f6-fb2d-41f8-9400-7426b7ca4546
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a03f28f85782d87ee3349582929babe6f907e8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a70688597f7684a6b6a0bedba90cb23d34135cd732aaed37cd74970867b3b02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002071"
 ---
 # <a name="trigger-structures-for-task-scheduler-10"></a>Структуры триггеров для планировщик задач 1,0
 
@@ -18,7 +18,7 @@ ms.locfileid: "104068106"
 > [!Note]  
 > Дополнительные сведения о триггерах планировщик задач 2,0 см. в разделе [Trigger interfaces](trigger-interfaces.md).
 
- 
+ 
 
 ## <a name="task-scheduler-10-structures"></a>Планировщик задач структуры 1,0
 
@@ -34,7 +34,7 @@ ms.locfileid: "104068106"
 
 ![отношение между значениями перечисления типа триггера задачи и элементами структуры типа триггера](images/tsktri3.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,9 +47,9 @@ ms.locfileid: "104068106"
 [Интерфейсы триггера](trigger-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

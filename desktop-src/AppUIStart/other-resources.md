@@ -4,12 +4,12 @@ description: Этот раздел содержит список рекомен�
 ms.assetid: a7a5aee9-e31f-42d1-bf90-2fa91365ef2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5916c128ce7bedc7993804d7cfecf711684140ae
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 426ab7734abdf8f7b07bb123c09b557fdfed78ba098930a2b5053e062e9647a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104070779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021392"
 ---
 # <a name="other-resources"></a>Другие ресурсы
 
@@ -23,7 +23,7 @@ ms.locfileid: "104070779"
 
 <dl> <dt>
 
-<span id="_Windows_Interface_Guidelines_for_Software_Design"></span><span id="_windows_interface_guidelines_for_software_design"></span><span id="_WINDOWS_INTERFACE_GUIDELINES_FOR_SOFTWARE_DESIGN"></span>*Рекомендации по интерфейсу Windows для разработки программного обеспечения*
+<span id="_Windows_Interface_Guidelines_for_Software_Design"></span><span id="_windows_interface_guidelines_for_software_design"></span><span id="_WINDOWS_INTERFACE_GUIDELINES_FOR_SOFTWARE_DESIGN"></span>*рекомендации по Windows интерфейсу для проектирования программного обеспечения*
 </dt> <dd>
 
 (Microsoft Press, 1995; ISBN 1-55615-679-0)
@@ -68,7 +68,7 @@ ms.locfileid: "104070779"
 
 </dd> <dt>
 
-<span id="Microsoft_Windows_User_Experience"></span><span id="microsoft_windows_user_experience"></span><span id="MICROSOFT_WINDOWS_USER_EXPERIENCE"></span>*Взаимодействие с пользователем Microsoft Windows*
+<span id="Microsoft_Windows_User_Experience"></span><span id="microsoft_windows_user_experience"></span><span id="MICROSOFT_WINDOWS_USER_EXPERIENCE"></span>*взаимодействие с пользователем Microsoft Windows*
 </dt> <dd>
 
 (Microsoft Press, 1999; ISBN 0735605661)
@@ -164,9 +164,9 @@ ms.locfileid: "104070779"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9d9aae4e4ef916916f54bddea814844f23ed7315
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e7b2f9a2a5247ec49c463f37d4e4d7caf58237ece97ec8968e31749d3d080cf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020852"
 ---
 # <a name="cim_systemcomponent-class-cimwin32-wmi-providers"></a>Класс CIM_SystemComponent (поставщики WMI CIMWin32)
 
@@ -51,7 +51,7 @@ class CIM_SystemComponent : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ системкомпонент** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_SystemComponent : CIM_Component
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Классы WMI, производные от **CIM \_ системкомпонент**, см. в разделе [Классы Win32](win32-provider.md).
 

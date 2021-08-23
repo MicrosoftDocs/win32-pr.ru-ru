@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1774ce0fc8b03bed621c58b0f7a9a0f16a7d4156
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 684d5abc0a0114e0d2bedb0dc544d50e13337631bb41fb457480dfbe8c5364e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007222"
 ---
 # <a name="extendedpropertiesremove-method"></a>Расширенных свойств. Remove, метод
 
@@ -100,7 +100,7 @@ ExtendedProperties.Remove( _
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

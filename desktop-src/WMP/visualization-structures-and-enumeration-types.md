@@ -10,12 +10,12 @@ keywords:
 - перечисления, визуализации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc19a8c56109bd75a3891a97dccb970780b995eb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9e35a3597baebc214f33c289cffa149b315a740ec0997efc93012c028e7ec540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103987180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054042"
 ---
 # <a name="visualization-structures-and-enumeration-types"></a>Структуры визуализации и типы перечислений
 
@@ -23,23 +23,23 @@ ms.locfileid: "103987180"
 
 | Структура или перечисление       | Описание                                         |
 |--------------------------------|-----------------------------------------------------|
-| [плайерстате](/previous-versions/windows/desktop/api/effects/ne-effects-playerstate) | Предоставляет некоторые основные состояния проигрывателя Windows Media. |
+| [плайерстате](/previous-versions/windows/desktop/api/effects/ne-effects-playerstate) | предоставляет некоторые основные состояния проигрыватель Windows Media. |
 | [тимедлевел](/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel)   | Содержит данные, возвращаемые фильтром спектра.       |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию пользовательской визуализации**](custom-visualization-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

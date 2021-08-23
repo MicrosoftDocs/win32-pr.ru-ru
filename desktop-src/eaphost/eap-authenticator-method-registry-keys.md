@@ -1,21 +1,21 @@
 ---
-title: Значения реестра для метода средства проверки подлинности EAP
-description: Сведения о значениях реестра для методов средства проверки подлинности EAP. Эти конкретные значения реестра необходимы для методов проверки подлинности EAP.
+title: значения реестра для методов Authenticator EAP
+description: сведения о параметрах реестра для методов EAP Authenticator. Эти конкретные значения реестра необходимы для методов проверки подлинности EAP.
 ms.assetid: 9374f9f7-b088-4e3a-ac96-8ccbeda87bb7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a710ca6f09914c8d111c42a8323a9c39c51f898
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c1db88a910a40519533ffddae40c1e1cc04d36b62f3d3ad6543ddd4a2999373e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984314"
 ---
-# <a name="eap-authenticator-method-registry-values"></a>Значения реестра для метода средства проверки подлинности EAP
+# <a name="eap-authenticator-method-registry-values"></a>значения реестра для методов Authenticator EAP
 
 Для методов проверки подлинности EAP требуются определенные значения реестра.
 
-## <a name="eap-authenticator-method-dll-paths"></a>Пути DLL метода проверки подлинности EAP
+## <a name="eap-authenticator-method-dll-paths"></a>пути к DLL-библиотекам методов Authenticator EAP
 
 Следующий путь задает расположение реестра для обычных библиотек DLL метода проверки подлинности EAP.
 
@@ -36,7 +36,7 @@ ms.locfileid: "103987896"
 > [!Note]  
 > Дополнительные сведения о выделении типов методов EAP см. в разделе 6,2 статьи [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016).
 
- 
+ 
 
 ## <a name="registry-values"></a>Значения реестра
 
@@ -61,11 +61,11 @@ ms.locfileid: "103987896"
 | Постоянное значение | аусентикатордллпас                                                                                          |
 |----------------|---------------------------------------------------------------------------------------------------------------|
 | Тип           | \_распаковать \_ SZ                                                                                               |
-| Описание    | Путь к библиотеке DLL метода проверки подлинности EAP. Например,% SystemRoot% \\ system32 \\ &lt; имя \_ DLL. \_ &gt; DLL. |
+| Описание    | Путь к библиотеке DLL метода проверки подлинности EAP. Например,% SystemRoot% \\ system32 \\ &lt; имя \_ \_ библиотеки DLL &gt;.dll. |
 
 
 
- 
+ 
 
 ## <a name="authenticatorfriendlyname"></a>аусентикаторфриендлинаме
 
@@ -78,7 +78,7 @@ ms.locfileid: "103987896"
 
 
 
- 
+ 
 
 ## <a name="configclsid"></a>конфигклсид
 
@@ -91,7 +91,7 @@ ms.locfileid: "103987896"
 
 
 
- 
+ 
 
 ## <a name="properties"></a>Свойства
 
@@ -104,7 +104,7 @@ ms.locfileid: "103987896"
 
 
 
- 
+ 
 
 ## <a name="standalonesupported"></a>стандалонесуппортед
 
@@ -117,9 +117,9 @@ ms.locfileid: "103987896"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -135,9 +135,9 @@ ms.locfileid: "103987896"
 [RFC 3748](https://go.microsoft.com/fwlink/p/?linkid=84016)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

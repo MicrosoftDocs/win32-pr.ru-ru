@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6aff8ce62cf0358f494d5b3d83872b831e07ec4b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fb80c13ad25bac8a50764cd6e34127217e4476336af4690a519ba7adfc46948f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020682"
 ---
 # <a name="copy-method-of-the-cim_directory-class"></a>Метод Copy \_ класса каталога CIM
 
@@ -72,7 +72,7 @@ uint32 Copy(
 **2**
 </dt> <dd>
 
-Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
+Доступ запрещен.
 
 </dd> <dt>
 
@@ -173,7 +173,7 @@ Access denied. (Недопустимое значение {значение_ут
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

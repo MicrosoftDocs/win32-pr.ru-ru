@@ -4,24 +4,24 @@ ms.assetid: 037b78b3-4fcf-443f-bd17-fecace24b522
 title: Виртуалмемори, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0925e08c63a9a8141fe98b63bf985811a0c0d0b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2395570845e8e8667272d0c51846b647737c7a0677e356d82605a69d4d53c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065854"
 ---
 # <a name="virtualmemory-property"></a>Виртуалмемори, свойство
 
 Установщик задает для свойства **виртуалмемори** значение объема доступного места в мегабайтах для файла подкачки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) , чтобы получить сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии.<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP ознакомьтесь с [требованиями к установщик Windows Run-Time](windows-installer-portal.md) для получения сведений о минимальном Windows пакете обновления, который требуется для установщик Windows версии.<br/> |
 
 
 

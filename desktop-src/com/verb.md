@@ -6,12 +6,12 @@ keywords:
 - Раздел реестра verb-COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef025ee0807ca3e75577f26f81951db22dfb0ac
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 05ef70e4a3f748b1f00a364f25755d60a3adfd9091cd2df3032e347f53f55519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047722"
 ---
 # <a name="verb"></a>Команда
 
@@ -21,14 +21,14 @@ ms.locfileid: "105710371"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      Verb
-         1 = verb1
-         2 = verb2
-         3 = ...
+   {CLSID}
+      Verb
+         1 = verb1
+         2 = verb2
+         3 = ...
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждая команда является значением **reg \_ SZ** в форме "*имя*, *\_ флаг меню*, *\_ флаг команды*". Глаголы должны быть пронумерованы последовательно.
 
@@ -40,7 +40,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 Дополнительные сведения см. в статьях [**олеверб**](/windows/win32/api/oleidl/ns-oleidl-oleverb), [**Иолеобжект::D оверб**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-doverb)и [**иолеобжект:: енумвербс**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-enumverbs).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,6 +53,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**олевербаттриб**](/windows/win32/api/oleidl/ne-oleidl-oleverbattrib)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

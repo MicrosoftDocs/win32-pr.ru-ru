@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_REALIZE (VFW. h)
 description: Сообщение о \_ реализации мЦивндм понимает палитру, которая в настоящее время используется устройством MCI в окне мЦивнд. Этот макрос определяется с помощью сообщения о \_ реализации мЦивндм. Это сообщение можно отправить явно или с помощью макроса МЦивндреализе.
 ms.assetid: fe8803b5-3500-44b4-97f7-784bedf0b362
 keywords:
-- MCIWNDM_REALIZE сообщения Windows мультимедиа
+- сообщение MCIWNDM_REALIZE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef3a803791a4f8dfe94d128d42ea06a7b28e739
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d3fdbee3757e1fd3aada5292b86cc37577ccb718315c5b81140ceb14278c37c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012622"
 ---
 # <a name="mciwndm_realize-message"></a>\_Сообщение о реализации мЦивндм
 
@@ -49,7 +49,7 @@ lParam = 0;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **МЦивндм \_** В процессе реализации используется палитра устройства MCI и вызывается функция [**реализепалетте**](/windows/desktop/api/wingdi/nf-wingdi-realizepalette) . Если приложение явным образом обрабатывает сообщения [**WM \_ Палеттечанжед**](/windows/desktop/gdi/wm-palettechanged) и [**WM \_ куериневпалетте**](/windows/desktop/gdi/wm-querynewpalette) , следует использовать это сообщение в приложении вместо использования **реализепалетте**. Если тело одного из этих обработчиков сообщений содержит только **реализепалетте**, перешлите сообщение в окно мЦивнд, которое будет автоматически реализовывать палитру.
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4427dd48190bd12f7837c4841a98e15f7ddaff5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e3e2b974d58888c35c24e18f16e1e75da46a180bb8123e9745170e074cd448de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956113"
 ---
 # <a name="da_get_nfs_attributes-control-code"></a>\_ \_ \_ Код элемента управления для получения атрибутов NFS
 
@@ -214,7 +214,7 @@ typedef struct _DA_FILE_ATTRIBUTES {
 | <span id="NFS_TYPE_BLK"></span><span id="nfs_type_blk"></span>\_тип NFS \_ BLK<br/>    | Специальный блочный файл.<br/>     |
 | <span id="NFS_TYPE_CHR"></span><span id="nfs_type_chr"></span>\_тип NFS типа \_ Chr<br/>    | Специальный символьный файл.<br/> |
 | <span id="NFS_TYPE_LNK"></span><span id="nfs_type_lnk"></span>\_тип NFS \_ LNK<br/>    | Символьная ссылка.<br/>          |
-| <span id="NFS_TYPE_SOCK"></span><span id="nfs_type_sock"></span>\_тип NFS \_ Сокк<br/> | Сокет Windows.<br/>         |
+| <span id="NFS_TYPE_SOCK"></span><span id="nfs_type_sock"></span>\_тип NFS \_ Сокк<br/> | сокет Windows.<br/>         |
 | <span id="NFS_TYPE_FIFO"></span><span id="nfs_type_fifo"></span>\_тип NFS \_ FIFO<br/> | Файл FIFO.<br/>              |
 
 
@@ -240,14 +240,14 @@ typedef struct _DA_FILE_ATTRIBUTES {
 <span id="Uid"></span><span id="uid"></span><span id="UID"></span>**Такой**
 </dt> <dd>
 
-Идентификатор пользователя UNIX (UID).
+UNIX идентификатор пользователя (UID).
 
 </dd> <dt>
 
 <span id="Gid"></span><span id="gid"></span><span id="GID"></span>**Операционной**
 </dt> <dd>
 
-Идентификатор группы UNIX (GID).
+идентификатор группы UNIX (GID).
 
 </dd> <dt>
 

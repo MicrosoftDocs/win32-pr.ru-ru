@@ -4,12 +4,12 @@ ms.assetid: 29f76c2e-1556-4d0d-a83c-24a33528156f
 title: Енаблеусерконтрол, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3f1a00ed6a3dae3d5614ec427166c58464e56f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98cc5e1b5f43718c67a059295d3bf79e1cfab08ab34e5e88d3390fe3ce22662d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013352"
 ---
 # <a name="enableusercontrol-property"></a>Енаблеусерконтрол, свойство
 
@@ -21,7 +21,7 @@ ms.locfileid: "105651582"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003, Windows XP и Windows 2000. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003, Windows XP и Windows 2000. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

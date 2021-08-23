@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 22f52e3f-875e-4dde-8875-3228639bc7f1
-ms.openlocfilehash: 167fe7b48d68622b108aeb0caf0302c0cabce9f6
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4f6eb78486516448c65ecbd67b88249251c4d215b65df6f1c6af2e8af003c7c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032582"
 ---
 # <a name="folderitemverb-object"></a>Объект Фолдеритемверб
 
@@ -53,7 +53,7 @@ ms.locfileid: "109840635"
 
 | Свойство                                                     | Тип доступа          | Описание                          |
 |:-------------------------------------------------------------|:---------------------|:-------------------------------------|
-| [**Приклад**](folderitemverb-application.md)<br/> | Только для чтения<br/> | Не реализован.<br/>          |
+| [**Приложение**](folderitemverb-application.md)<br/> | Только для чтения<br/> | Не реализован.<br/>          |
 | [**Имя**](folderitemverb-name.md)<br/>               | Только для чтения<br/> | Содержит имя команды.<br/> |
 | [**Parent**](folderitemverb-parent.md)<br/>           | Только для чтения<br/> | Не реализован.<br/>          |
 
@@ -67,7 +67,7 @@ ms.locfileid: "109840635"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

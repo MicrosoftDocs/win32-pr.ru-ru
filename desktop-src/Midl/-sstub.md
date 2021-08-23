@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 131be3dd1890967f7107bea64c3dc2634833653d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cdd83776939e9746103b2f12598a53832d767cebb93767142649a09b804339a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105672220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014072"
 ---
 # <a name="sstub-switch"></a>/sstub, параметр
 
@@ -38,7 +38,7 @@ midl /sstub stub_file_name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указанное имя файла заменяет имя файла по умолчанию. По умолчанию имя файла получается путем добавления \_ S. C к имени IDL-файла. Этот параметр не влияет на интерфейсы OLE.
 
@@ -68,9 +68,9 @@ midl /sstub stub_file_name
 [**/out**](-out.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

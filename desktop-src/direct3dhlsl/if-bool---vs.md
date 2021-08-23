@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 261ff572cbaf519cc0099f3ab68d1a0becca706f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b113c806342d786d258713128bc2cadcbb000235c2639f49e5b57ce3fa3bd2e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986534"
 ---
 # <a name="if-bool---vs"></a>Если bool — VS
 
@@ -29,11 +29,11 @@ ms.locfileid: "104069318"
 
 
 
- 
+ 
 
 где bool — номер регистра bool. См. раздел [Постоянный логический регистр](dx9-graphics-reference-asm-vs-registers-constant-boolean.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "104069318"
 
 
 
- 
+ 
 
 Если исходный логический регистр в операторе If имеет значение true, выполняется код, заключенный в операторе if и соответствующий else. В противном случае код, заключенный в [else](else---vs.md)... выполняется инструкция [endif-VS](endif---vs.md) . Эта инструкция использует один слот инструкций.
 
@@ -51,7 +51,7 @@ ms.locfileid: "104069318"
 
 Блок if не может помешать блоку цикла.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Эта инструкция предоставляет условное статическое управление потоком.
 
@@ -72,7 +72,7 @@ endif
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -85,9 +85,9 @@ endif
 [endif — VS](endif---vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

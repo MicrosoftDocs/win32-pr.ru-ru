@@ -72,7 +72,7 @@ FONT pointsize, "typeface", weight, italic, charset
 FONT 12, "MS Shell Dlg"
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

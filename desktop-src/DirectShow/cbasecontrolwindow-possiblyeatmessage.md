@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9bfadcfbbd6833d8f3e9b65bd39d0cdbef4a006e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 403fb4d170f9c3cf0b7d68d3ac6ce1fdcc9c81a14b1c76d74e67bb64d4d9cc8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017342"
 ---
 # <a name="cbasecontrolwindowpossiblyeatmessage-method"></a>Кбасеконтролвиндов. Поссиблеатмессаже, метод
 
@@ -69,7 +69,7 @@ BOOL PossiblyEatMessage(
 
 Возвращает **значение true** , если сообщение было перенаправлено в окно, или **значение false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно сток сообщений — это окно, предназначенное для получения определенных сообщений мыши и клавиатуры. Изначально окно имеет **значение NULL**; его можно задать, вызвав [**кбасеконтролвиндов::p UT \_ мессажедраин**](cbasecontrolwindow-put-messagedrain.md).
 
@@ -113,7 +113,7 @@ BOOL PossiblyEatMessage(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

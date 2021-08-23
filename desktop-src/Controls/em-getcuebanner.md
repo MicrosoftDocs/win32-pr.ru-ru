@@ -3,7 +3,7 @@ title: Сообщение EM_GETCUEBANNER (Коммктрл. h)
 description: Возвращает текст, который отображается как текстовая подсказка или Совет в элементе управления "поле ввода".
 ms.assetid: 311b783a-cd78-440f-bfc2-f5108ae7d1f8
 keywords:
-- Элементы управления Windows для EM_GETCUEBANNER сообщений
+- элементы управления Windows сообщений EM_GETCUEBANNER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d28d4aeea5a206c74f2e6b41cee27b5073448ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e5a47811adcd13c0f2531bd645a9ea607dd68c4dd2c1154f226a54cf108b291
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019722"
 ---
 # <a name="em_getcuebanner-message"></a>\_Сообщение ЖЕТКУЕБАННЕР EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "103989334"
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -60,9 +60,9 @@ ms.locfileid: "103989334"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

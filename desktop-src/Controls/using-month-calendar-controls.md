@@ -4,12 +4,12 @@ description: В этом разделе приводятся сведения и
 ms.assetid: d27d8f11-b400-409e-a9bf-65c0a79093b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b6c7121fe2365b2fb9f16154d36bdf182c2a97
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 65713d146ad2b6ed068b9e12599d4d4c757c3853558c679ed17fedf8806f210d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077868"
 ---
 # <a name="using-month-calendar-controls"></a>Использование элементов управления "календарь месяца"
 

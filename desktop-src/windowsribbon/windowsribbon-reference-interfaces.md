@@ -1,19 +1,19 @@
 ---
 title: Интерфейсы (платформа Ribbon)
-description: Справочная документация по интерфейсам платформы Windows Ribbon.
+description: справочная документация по интерфейсам платформы ленты Windows.
 ms.assetid: d5fd6e4f-ca10-4010-aab4-d2728b0ac53c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5c168a342b7f362d2d679d578a88011c9d14977
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e159d66b8eac8501f231e847555823da431e7d1be3417e0fb803f0929be679bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104134994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028672"
 ---
 # <a name="interfaces-ribbon-framework"></a>Интерфейсы (платформа Ribbon)
 
-Справочная документация по интерфейсам платформы Windows Ribbon.
+справочная документация по интерфейсам платформы ленты Windows.
 
 ### <a name="interfaces"></a>Интерфейсы
 
@@ -36,11 +36,11 @@ ms.locfileid: "104134994"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по платформе ленты Windows](windowsribbon-reference-entry.md)
+[Windows Справочник по платформе ленты](windowsribbon-reference-entry.md)
 </dt> </dl>
 
  

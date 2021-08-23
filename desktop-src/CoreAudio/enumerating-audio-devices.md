@@ -4,12 +4,12 @@ ms.assetid: 20110ffc-5eff-4279-abea-53115803b6ee
 title: Перечисление звуковых устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 707b9a88181c83344757c711af1c0199c19ebc16
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bd5d21ec2de2b08ca3c6f26884bd210b2f149caaa9e3b6a4402b69dde9fb7540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018382"
 ---
 # <a name="enumerating-audio-devices"></a>Перечисление звуковых устройств
 
@@ -17,7 +17,7 @@ ms.locfileid: "104072471"
 
 Звуковой адаптер может содержать несколько устройств, например устройство отображения звуковых данных и устройство записи звука. Это устройства адаптеров, а не конечные устройства. Как упоминалось ранее, устройства адаптеров регистрируются диспетчером самонастраивающийся, в отличие от устройств конечных точек, зарегистрированных диспетчером конечных точек. Каждое устройство адаптера обычно поддерживает одно или несколько конечных устройств. Устройство конечной точки отрисовки (например, наушники) может получать поток звуковых данных из клиентского приложения, а устройство с конечной точкой записи (например, микрофон) может отправлять аудиопоток в клиентское приложение.
 
-Перед перечислением устройств конечной точки в системе Клиент должен сначала вызвать функцию Windows [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать перечислитель устройства. Перечислитель устройств — это объект с интерфейсом [**иммдевицеенумератор**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) . Дополнительные сведения о **CoCreateInstance** см. в документации по Windows SDK.
+перед перечислением устройств конечной точки в системе клиент должен сначала вызвать функцию Windows [**cocreateinstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать перечислитель устройства. Перечислитель устройств — это объект с интерфейсом [**иммдевицеенумератор**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) . дополнительные сведения о **cocreateinstance** см. в документации по Windows SDK.
 
 Клиент вызывает метод [**иммдевицеенумератор:: енумаудиоендпоинтс**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints) для создания коллекции объектов Endpoint. Каждый объект конечной точки представляет устройство звуковой конечной точки в системе. В этом вызове клиент указывает, должна ли коллекция содержать все устройства отрисовки в системе, все устройства записи или и то, и другое.
 
@@ -30,7 +30,7 @@ ms.locfileid: "104072471"
 
 После выбора подходящего устройства клиент может вызвать метод [**иммдевице:: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) для активации интерфейсов, зависящих от устройства, в [Васапи](wasapi.md), [API девицетопологи](devicetopology-api.md)и [API ендпоинтволуме](endpointvolume-api.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

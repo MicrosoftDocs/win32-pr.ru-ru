@@ -4,16 +4,16 @@ ms.assetid: 84c2de05-6c8f-45f1-b789-04a24cfa3ea1
 title: Формат файла Графедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a75421ff75c9bb26901eddf423448bbd9e4f478
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dbce90247e710772b75ad31593ce72a1fd4c8f9bd9fabf1be786b1e7bdc5e74d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015602"
 ---
 # <a name="graphedit-file-format"></a>Формат файла Графедит
 
-Когда служебная программа Графедит сохраняет граф фильтра DirectShow, она создает файлы хранилища с расширением ГРФ. Файл хранилища содержит один поток с именем Активемовиеграф. Этот поток содержит сведения обо всех фильтрах, именах фильтров, именах файлов, соединениях и т. д.
+когда служебная программа графедит сохраняет график фильтра DirectShow, он создает файлы хранилища с расширением грф. Файл хранилища содержит один поток с именем Активемовиеграф. Этот поток содержит сведения обо всех фильтрах, именах фильтров, именах файлов, соединениях и т. д.
 
 Следующая грамматика описывает синтаксис графа в потоке с помощью модифицированного синтаксиса BNF (Backus-Наура Form):
 
@@ -118,11 +118,11 @@ END
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Имитация построения графа с помощью Графедит](simulating-graph-building-with-graphedit.md)
+[имитация Graph сборки с помощью графедит](simulating-graph-building-with-graphedit.md)
 </dt> </dl>
 
  

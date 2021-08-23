@@ -3,7 +3,7 @@ title: Сообщение TTM_SETWINDOWTHEME (Коммктрл. h)
 description: Задает визуальный стиль элемента управления ToolTip.
 ms.assetid: eeddb91e-8eb8-4480-9ab2-5efa9e3ef48a
 keywords:
-- Элементы управления Windows для TTM_SETWINDOWTHEME сообщений
+- элементы управления Windows сообщений TTM_SETWINDOWTHEME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9c3f25b62bf0fe38a679234183cd5046f60784f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3eb53b9ccd56f789fef6d7a95a5e3b77010787400aa553758e04c6674813f88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018742"
 ---
 # <a name="ttm_setwindowtheme-message"></a>\_Сообщение ТТМ SETWINDOWTHEME
 
@@ -43,7 +43,7 @@ ms.locfileid: "104535249"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -56,9 +56,9 @@ ms.locfileid: "104535249"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

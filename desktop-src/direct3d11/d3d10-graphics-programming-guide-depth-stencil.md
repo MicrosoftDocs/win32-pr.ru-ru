@@ -4,12 +4,12 @@ description: В этом разделе приводится пошаговая 
 ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf48b0ba9a782be25568ac3fc0569314dae76e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e994c5a11215d245d8101edff410a91ffb788583b07f651fdfbd1f2771d7deab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990194"
 ---
 # <a name="configuring-depth-stencil-functionality"></a>Настройка функциональных возможностей Depth-Stencil
 
@@ -202,7 +202,7 @@ pd3dDeviceContext->OMSetRenderTargets( 1,          // One rendertarget view
 
 Во второй функции рендеринга функция [**ссылку ID3D11DeviceContext:: омсетрендертаржетс**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-omsetrendertargets) используется, чтобы задать для представления трафарета глубины **значение NULL** или другой ресурс трафарета глубины, а представление ресурсов шейдера передается шейдеру с помощью [**ID3D11EffectShaderResourceVariable:: сетресаурце**](id3dx11effectshaderresourcevariable-setresource.md). Это позволяет шейдеру искать значения глубины, вычисленные на первом этапе подготовки к просмотру. Обратите внимание, что преобразование необходимо применить для получения значений глубины, если точка представления первого прохода прорисовки отличается от второго прохода отрисовки. Например, если используется метод сопоставления теневого отображения, первый проход рендеринга будет с точки зрения источника освещения, а второй — с точки зрения средства просмотра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -212,6 +212,6 @@ pd3dDeviceContext->OMSetRenderTargets( 1,          // One rendertarget view
 [Этапы конвейера (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

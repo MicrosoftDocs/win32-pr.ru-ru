@@ -4,12 +4,12 @@ ms.assetid: E84E0EBA-5C34-41AA-84DB-7A65EBDCAD15
 title: ПОЛОВИНА типа данных (Директкспаккедвектор. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9651b84675be68bd433fdeaaae588cb01dc745ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a59b7288324ae5935a23e67a35f402ab6041da55073915d812b39096cab30733
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985044"
 ---
 # <a name="half-data-type"></a>ПОЛОВИНА типа данных
 
@@ -22,7 +22,7 @@ typedef uint16_t HALF;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ПОЛОВИНА типа данных эквивалентна формату binary16 в формате IEEE 754.
 
@@ -36,7 +36,7 @@ typedef uint16_t HALF;
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -44,7 +44,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директкспаккедвектор. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директкспаккедвектор. h</dt> </dl> |
 
 
 

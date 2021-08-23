@@ -3,28 +3,28 @@ title: Элементы PARAM в элементе OBJECT
 description: Элементы PARAM в элементе OBJECT
 ms.assetid: f9229d92-3a7e-4ba4-a84c-20e60f2482dc
 keywords:
-- Проигрыватель Windows Media, элементы PARAM в элементе OBJECT
-- Объектная модель проигрывателя Windows Media, элементы PARAM в элементе OBJECT
+- проигрыватель Windows Media, элементы PARAM в элементе OBJECT
+- проигрыватель Windows Media объектная модель, элементы PARAM в элементе object
 - Объектная модель, элементы PARAM в элементе OBJECT
-- Проигрыватель Windows Media Mobile, элементы PARAM в элементе OBJECT
-- Элемент управления ActiveX проигрывателя Windows Media, элементы PARAM в элементе OBJECT
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, элементы PARAM в элементе OBJECT
-- Элемент управления ActiveX, элементы PARAM в элементе OBJECT
+- проигрыватель Windows Media Мобильные, элементы PARAM в элементе OBJECT
+- проигрыватель Windows Media ActiveX элемент управления, элементы PARAM в элементе OBJECT
+- проигрыватель Windows Media мобильный ActiveX элемент управления, элементы PARAM в элементе OBJECT
+- элемент управления ActiveX, элементы PARAM в элементе OBJECT
 - внедрение, веб-страницы
 - Внедрение веб-страниц, элементы PARAM в элементе OBJECT
 - Элементы PARAM в элементе OBJECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0fc5b9f64fa462386ec037eba34ed4e0659bb1
-ms.sourcegitcommit: e22adfb0dd3bb989e59455baedb4d905a877a240
+ms.openlocfilehash: 7da684a39739703038793abb2f4fdd32b924f35cdffc0c0f9d796fb7dbb5532b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "103889283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054432"
 ---
 # <a name="param-elements-in-an-object-element"></a>Элементы PARAM в элементе OBJECT
 
-Проигрыватель Windows Media использует элемент PARAM для определения определенных условий запуска элемента управления. Элемент PARAM внедряется в ОБЪЕКТный элемент.
+проигрыватель Windows Media использует элемент PARAM для определения определенных условий запуска для элемента управления. Элемент PARAM внедряется в ОБЪЕКТный элемент.
 
 Например, если необходимо определить, имеет ли свойство **автозапуска** значение true, элемент param следует встроить ВНУТРЬ элемента Object.
 
@@ -46,52 +46,52 @@ ms.locfileid: "103889283"
 
 | Имя параметра                                            | Internet Explorer | Firefox с типом MIME application/x-MS-WMP | Firefox с любым другим типом MIME |
 |-------------------------------------------------------|-------------------|---------------------------------------------|----------------------------------|
-| [Автозапуска](settings-autostart.md)                   | да               | да                                         | да                              |
-| [между](settings-balance.md)                       | да               | да                                         | да                              |
-| [baseURL](settings-baseurl.md)                       | да               | да                                         | да                              |
-| [каптионингид](closedcaption-captioningid.md)        | да               | да                                         | да                              |
-| [куррентмаркер](controls-currentmarker.md)           | да               | да                                         | да                              |
-| [currentPosition](controls-currentposition.md)       | да               | да                                         | да                              |
-| [дефаултфраме](settings-defaultframe.md)             | да               | Нет                                          | Нет                               |
-| [енаблеконтекстмену](player-enablecontextmenu.md)     | да               | да                                         | да                              |
-| [доступной](player-enabled.md)                         | да               | да                                         | да                              |
-| [енаблиррордиалогс](settings-enableerrordialogs.md) | да               | да                                         | Нет                               |
-| **Файлов**                                          | Нет                | да                                         | да                              |
-| [fullScreen](player-fullscreen.md)                   | да               | Нет                                          | Нет                               |
-| [инвокеурлс](settings-invokeurls.md)                 | да               | Нет                                          | Нет                               |
-| [отключен](settings-mute.md)                             | да               | да                                         | да                              |
-| [плайкаунт](settings-playcount.md)                   | да               | да                                         | Нет                               |
-| [курсе](settings-rate.md)                             | да               | да                                         | да                              |
-| [самифиленаме](closedcaption-samifilename.md)        | да               | да                                         | да                              |
-| [самиланг](closedcaption-samilang.md)                | да               | да                                         | да                              |
-| [самистиле](closedcaption-samistyle.md)              | да               | да                                         | да                              |
-| **SRC**                                               | Нет                | да                                         | да                              |
-| [стретчтофит](player-stretchtofit.md)               | да               | да                                         | Нет                               |
-| [URL-адрес](player-url.md)                                 | да               | да                                         | да                              |
-| [тома](settings-volume.md)                         | да               | да                                         | да                              |
-| [виндовлессвидео](player-windowlessvideo.md)         | да               | да                                         | да                              |
+| [Автозапуска](settings-autostart.md)                   | Да               | Да                                         | Да                              |
+| [между](settings-balance.md)                       | Да               | Да                                         | Да                              |
+| [baseURL](settings-baseurl.md)                       | Да               | Да                                         | Да                              |
+| [каптионингид](closedcaption-captioningid.md)        | Да               | Да                                         | Да                              |
+| [куррентмаркер](controls-currentmarker.md)           | Да               | Да                                         | Да                              |
+| [currentPosition](controls-currentposition.md)       | Да               | Да                                         | Да                              |
+| [дефаултфраме](settings-defaultframe.md)             | Да               | Нет                                          | Нет                               |
+| [енаблеконтекстмену](player-enablecontextmenu.md)     | Да               | Да                                         | Да                              |
+| [enabled](player-enabled.md)                         | Да               | Да                                         | Да                              |
+| [енаблиррордиалогс](settings-enableerrordialogs.md) | Да               | Да                                         | Нет                               |
+| **fileName**                                          | Нет                | да                                         | Да                              |
+| [fullScreen](player-fullscreen.md)                   | Да               | Нет                                          | Нет                               |
+| [инвокеурлс](settings-invokeurls.md)                 | Да               | Нет                                          | Нет                               |
+| [отключен](settings-mute.md)                             | Да               | Да                                         | Да                              |
+| [плайкаунт](settings-playcount.md)                   | Да               | Да                                         | Нет                               |
+| [курсе](settings-rate.md)                             | Да               | Да                                         | Да                              |
+| [самифиленаме](closedcaption-samifilename.md)        | Да               | Да                                         | Да                              |
+| [самиланг](closedcaption-samilang.md)                | Да               | Да                                         | Да                              |
+| [самистиле](closedcaption-samistyle.md)              | Да               | Да                                         | Да                              |
+| **SRC**                                               | Нет                | да                                         | Да                              |
+| [стретчтофит](player-stretchtofit.md)               | Да               | Да                                         | Нет                               |
+| [URL-адрес](player-url.md)                                 | Да               | Да                                         | Да                              |
+| [volume](settings-volume.md)                         | Да               | Да                                         | Да                              |
+| [виндовлессвидео](player-windowlessvideo.md)         | Да               | Да                                         | Да                              |
 
 
 
- 
+ 
 
 > [!Note]  
 > Элементы параметров **filename** и **src** поддерживаются подключаемым модулем Firefox, но не Internet Explorer. Они выполняют ту же функцию, что и элемент param параметра **URL-адреса** .
 
- 
+ 
 
 Дополнительные сведения о значениях для каждого атрибута Name см. в [справочнике по объектной модели](object-model-reference-for-scripting.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Использование элемента управления проигрывателя Windows Media на веб-странице**](using-the-windows-media-player-control-in-a-web-page.md)
+[**использование элемента управления проигрыватель Windows Media на веб-странице**](using-the-windows-media-player-control-in-a-web-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

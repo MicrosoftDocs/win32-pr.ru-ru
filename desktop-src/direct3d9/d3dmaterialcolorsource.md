@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 8877eece8e33c6508768b22c989e992cf8178823
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3c8069fdde062fdc6dea311b40b8614d2165356ff397f0d056c43569f391e02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118988894"
 ---
 # <a name="d3dmaterialcolorsource-enumeration"></a>Перечисление D3DMATERIALCOLORSOURCE
 
@@ -70,7 +70,7 @@ typedef enum D3DMATERIALCOLORSOURCE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти флаги используются для установки значений следующих состояний отрисовки в перечислимом типе [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md) .
 
@@ -85,7 +85,7 @@ typedef enum D3DMATERIALCOLORSOURCE {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 

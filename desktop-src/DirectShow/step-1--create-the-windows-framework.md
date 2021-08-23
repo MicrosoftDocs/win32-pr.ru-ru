@@ -1,21 +1,21 @@
 ---
-description: Шаг 1. Создание платформы Windows
+description: шаг 1. создание платформы Windows
 ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
-title: Шаг 1. Создание платформы Windows
+title: шаг 1. создание платформы Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff1712f631db520ff30065e8943d13b280f3d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: feba710c8df948e34c0da0ca9e7a1de85622bfae462290cbce3f36777854cb6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072518"
 ---
-# <a name="step-1-create-the-windows-framework"></a>Шаг 1. Создание платформы Windows
+# <a name="step-1-create-the-windows-framework"></a>шаг 1. создание платформы Windows
 
 \[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]
 
-Начните с создания базовой платформы приложения Windows, включая WinMain и процедуру окна. Функция WinMain не показана здесь; Вызовите функцию [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) перед циклом обработки сообщений, чтобы инициализировать библиотеку COM, и [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) после завершения цикла обработки сообщений. Начните со следующей минимальной процедуры окна:
+начните с создания базовой платформы Windows приложения, включая WinMain и процедуру окна. Функция WinMain не показана здесь; Вызовите функцию [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) перед циклом обработки сообщений, чтобы инициализировать библиотеку COM, и [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize) после завершения цикла обработки сообщений. Начните со следующей минимальной процедуры окна:
 
 
 ```C++
@@ -45,7 +45,7 @@ LRESULT CALLBACK MainWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 
 Далее. [Шаг 2. Добавление команды меню для захвата афиши](step-2--add-a-menu-command-to-grab-a-poster-frame.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

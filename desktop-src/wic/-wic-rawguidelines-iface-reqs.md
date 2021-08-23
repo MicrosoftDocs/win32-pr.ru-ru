@@ -4,22 +4,22 @@ ms.assetid: 8c2afeb3-3e0b-4f8a-a2f4-df7c9ce4b098
 title: Требования к методам интерфейса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9cabe02900fa789773f4104cf282ab326bd4930
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8525f7b04fe82247ecd64a38f5f1acc298be5d3ace56303072268fed6a4a3cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086927"
 ---
 # <a name="interface-method-requirements"></a>Требования к методам интерфейса
 
 Не каждый метод в каждом интерфейсе должен иметь реализацию. Например, некоторые кодеки имеют глобальные метаданные, эскизы или цветовые контексты, тогда как другие кодеки предоставляют их только для отдельных кадров. Если авторы кодека предоставляют их только для каждого фрейма, им нужно только реализовать [**Get**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail) / [**сетсумбнаил**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail) или колорконтекстс или реализовать методы [**жетметадатакуериреадер**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader) или [**жетметадатакуеривритер**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-getmetadataquerywriter) в [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) и [**ивикбитмапфраминкоде**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) , а не в [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) и [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder). Аналогично, некоторые кодеки не используют Индексированные форматы, поэтому не требуется реализовывать методы [**копипалетте**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-copypalette) и [**сетпалетте**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setpalette) . Таким образом, эти методы являются необязательными и остаются на усмотрение создателя кодека. Большинство других методов являются обязательными.
 
-Для Windows 7 [**Get**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview) / [**сетпревиев**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setpreview) и [**Get**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail) / [**сетсумбнаил**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail) являются обязательными и должны быть реализованы в классах на уровне вложения или в классах уровня кадров. Если формат файла изображения не поддерживает предварительный просмотр или эскизы в любом из этих расположений, следует изменить формат файла изображения, чтобы обеспечить такую поддержку.
+для Windows 7 [**get**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getpreview) / [**сетпревиев**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setpreview) и [**get**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapdecoder-getthumbnail) / [**сетсумбнаил**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-setthumbnail) являются обязательными и должны быть реализованы в классах на уровне вложения или в классах уровня кадров. Если формат файла изображения не поддерживает предварительный просмотр или эскизы в любом из этих расположений, следует изменить формат файла изображения, чтобы обеспечить такую поддержку.
 
 Если метод не реализован, важно вернуть соответствующую ошибку, чтобы вызывающий объект мог определить, что запрошенная функция не поддерживается. Например, если авторы кодека не поддерживают эскизы на уровне контейнера, они должны возвращать [винкодек \_ Err \_ кодекносумбнаил](-wic-codec-error-codes.md) , когда приложение вызывает метод- [**эскиз**](-wic-codec-iwicbitmapdecoder-getthumbnail-proxy.md), и если у них нет палитры, они должны возвращать [винкодек \_ Err \_ палеттеунаваилабле](-wic-codec-error-codes.md). Если подходящий код [ \_ Err винкодек](-wic-codec-error-codes.md) не существует, кодек должен вернуть E \_ нотимпл для нереализованных методов.
 
-В следующих таблицах перечислены обязательные и необязательные методы для каждого интерфейса компонента Windows Imaging Component (WIC).
+в следующих таблицах перечислены обязательные и необязательные методы для каждого интерфейса компонента обработки изображений Windows (WIC).
 
 [**ивикбитмапдекодер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)
 
@@ -145,7 +145,7 @@ ms.locfileid: "105647547"
 
 [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe)
 
-[**Сохраните**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
+[**Фиксация**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
 
 Необязательно
 
@@ -189,7 +189,7 @@ ms.locfileid: "105647547"
 
 [**вритесаурце**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-writesource)
 
-[**Сохраните**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
+[**Фиксация**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-commit)
 
 Необязательно
 
@@ -223,14 +223,14 @@ ms.locfileid: "105647547"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 **Зрения**
 </dt> <dt>
 
-[Общие сведения о компоненте создания образов Windows](-wic-about-windows-imaging-codec.md)
+[Windows Общие сведения о компонентах обработки изображений](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Рекомендации по WIC для форматов необработанных изображений Camera](-wic-rawguidelines.md)

@@ -4,12 +4,12 @@ ms.assetid: d5975d37-fc77-4b9b-9e7d-8c75c6054c7c
 title: System. photo. Камерамодел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b86a4bafd11a69276de6d49a20a6ee4c2e31ff01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ea36d5873bc3b8e7338c39d2df87678e8204056dde444eacc9f56819b703402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119096006"
 ---
 # <a name="systemphotocameramodel"></a>System. photo. Камерамодел
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

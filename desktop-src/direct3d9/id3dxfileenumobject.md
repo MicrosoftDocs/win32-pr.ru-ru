@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f9b28f94c8d514f81aaa51426557c825da91c4bf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4c274a42a5e07f05af3b0b2ffe18dc3fbaf546591f23e6f24906cd1723578303
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121363"
 ---
 # <a name="id3dxfileenumobject-interface"></a>Интерфейс ID3DXFileEnumObject
 
@@ -49,7 +49,7 @@ ms.locfileid: "104000417"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID для интерфейса ID3DXFileEnumObject — IID \_ ID3DXFileEnumObject.
 
@@ -68,7 +68,7 @@ typedef interface ID3DXFileEnumObject *LPD3DXFILEENUMOBJECT;
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

@@ -4,16 +4,16 @@ ms.assetid: 69de5232-e2f9-4aed-935d-5fbcd7998cc9
 title: Подготовка к использованию элемента CAPICOM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6fc1ad0dbfe3d4f8c4dae3286eb3ffa5e1ae03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83a6b76c293395fd0979cf5c304b27bae75622996279bd891b8c0c1301dca82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006637"
 ---
 # <a name="getting-ready-to-use-capicom"></a>Подготовка к использованию элемента CAPICOM
 
-\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. Вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
+\[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista и Windows XP. вместо этого используйте платформа .NET Framework для реализации функций безопасности. Дополнительные сведения см. [в разделе альтернативы использованию элемента CAPICOM](alternatives-to-using-capicom.md).\]
 
 Приложения, использующие объекты CAPICOM, должны создаваться с помощью CAPICOM.dll. CAPICOM.dll также должны присутствовать и быть зарегистрированы во время выполнения для использования объектов CAPICOM. CAPICOM.dll следует добавлять в ссылки на проекты Visual Basic для использования объектов CAPICOM.
 
@@ -37,7 +37,7 @@ CAPICOM доступен в виде распространяемого файл
 
 **Создание самозаверяющего сертификата**
 
-1.  Установите средства подписывания. Они устанавливаются в составе пакета средств разработки программного обеспечения (SDK) для Microsoft Windows, пакета SDK для платформы или пакета SDK для платформа .NET Framework.
+1.  Установите средства подписывания. они устанавливаются в составе пакета средств разработки программного обеспечения (sdk) для Microsoft Windows, пакета sdk платформы или пакета sdk для платформа .NET Framework.
 2.  После загрузки Makecert.exe выполните следующую команду в командной строке, подставив имя пользователя *username*, название организации для *название_организации* и название компании для *CompanyName*:
 
     **MakeCert-r-n "CN =**_имя_пользователя_*_, OU =_*_название_организации_*_, o =_*_CompanyName_*_"-SS My_*

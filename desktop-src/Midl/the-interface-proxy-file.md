@@ -6,12 +6,12 @@ keywords:
 - MIDL и COM MIDL, интерфейсы, прокси-файлы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be52b3561af03df0375212d729f64f41e3cdd7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dedb9de50d00524b1e038f027448be5aaab369aa5d92243d2a3425bf603cd65a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013542"
 ---
 # <a name="the-interface-proxy-file"></a>Прокси-файл интерфейса
 
@@ -31,9 +31,9 @@ ms.locfileid: "103986663"
 
 Имя по умолчанию для прокси-файла, созданного из файла. idl, — это файл \_ p. c. Используйте параметр компилятора [**/proxy**](-proxy.md) MIDL, чтобы переопределить имя по умолчанию для файла прокси интерфейса. Параметры [**/env**](-env.md) и [**/out**](-out.md) влияют на этот файл.
 
- 
+ 
 
- 
+ 
 
 
 
