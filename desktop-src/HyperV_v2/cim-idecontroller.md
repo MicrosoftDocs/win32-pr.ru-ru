@@ -37,7 +37,7 @@ class CIM_IDEController : CIM_Controller
 
 Класс **CIM \_ идеконтроллер** не определяет никаких членов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

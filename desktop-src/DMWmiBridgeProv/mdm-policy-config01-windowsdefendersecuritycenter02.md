@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_Policy_Config01_WindowsDefenderSecurityCenter02
-description: '\_Класс политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02 представляет политики центра безопасности защитника Windows.'
+description: '\_класс политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02 представляет политики центра безопасности Защитник Windows.'
 ms.assetid: 406c3992-e9ed-49c5-a4c4-97d91013d416
 keywords:
 - Класс MDM_Policy_Config01_WindowsDefenderSecurityCenter02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b341eb66cc5d1186a962278babce536c0050523d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77f5a17517c0c6813c6eee0db3cabdc99013abff2c32fe63146797f0440c7815
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164881"
 ---
 # <a name="mdm_policy_config01_windowsdefendersecuritycenter02-class"></a>\_Класс политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-\_Класс политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02 представляет политики центра безопасности защитника Windows.
+\_класс политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02 представляет политики центра безопасности Защитник Windows.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -63,13 +63,13 @@ class MDM_Policy_Config01_WindowsDefenderSecurityCenter02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ политики MDM \_ Config01 \_ WindowsDefenderSecurityCenter02** имеет следующие свойства.
 
 <dl> <dt>
 
-[Название](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
+[CompanyName](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -229,7 +229,7 @@ class MDM_Policy_Config01_WindowsDefenderSecurityCenter02
 
 </dd> <dt>
 
-[Факс](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
+[Номер телефона](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -251,13 +251,13 @@ class MDM_Policy_Config01_WindowsDefenderSecurityCenter02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

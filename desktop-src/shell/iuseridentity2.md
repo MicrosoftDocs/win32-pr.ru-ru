@@ -52,7 +52,7 @@ ms.locfileid: "118720590"
 
 Этот интерфейс также предоставляет методы интерфейса [**иусеридентити**](iuseridentity.md) , от которых он наследуется.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

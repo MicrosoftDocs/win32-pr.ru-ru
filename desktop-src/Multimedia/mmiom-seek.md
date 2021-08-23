@@ -3,7 +3,7 @@ title: Сообщение MMIOM_SEEK (Ммсистем. h)
 description: Сообщение ММИОМ \_ Seek отправляется в процедуру ввода-вывода функцией ммиосик, чтобы запросить перемещение текущего расположения файла.
 ms.assetid: 428b231a-6e00-4458-9ba2-e9b0b028843a
 keywords:
-- MMIOM_SEEK сообщения Windows мультимедиа
+- сообщение MMIOM_SEEK Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4855ec4e610f1456e1bf26ee05800e31933f05fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ea33db15de3a4617561c437f2d5086afbf4bff2155e657677b171b1413b1c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065304"
 ---
 # <a name="mmiom_seek-message"></a>\_Сообщение ммиом Seek
 
@@ -68,7 +68,7 @@ lParam2 = (LPARAM) lChangeFlag
 
 Возвращает новое расположение файла. Если возникает ошибка, возвращается значение 1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура ввода-вывода отвечает за поддержание текущего расположения файла в элементе **лдискоффсет** структуры [**ммиоинфо**](/previous-versions//dd757322(v=vs.85)) .
 
@@ -80,7 +80,7 @@ lParam2 = (LPARAM) lChangeFlag
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

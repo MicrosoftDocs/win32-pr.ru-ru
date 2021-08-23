@@ -3,8 +3,8 @@ title: Интерфейс IWMPSettings2 (VB и C) (WMP. h)
 description: Предоставляет свойства и метод, дополняющий интерфейс Ивмпсеттингс. В дополнение к свойствам и методам, унаследованным от Ивмпсеттингс, интерфейс IWMPSettings2 предоставляет следующие свойства.
 ms.assetid: 6bd0f6dd-df49-4c21-b47c-c8c63f85c2c0
 keywords:
-- IWMPSettings2 (VB и C) интерфейс проигрывателя Windows Media
-- IWMPSettings2 (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса IWMPSettings2 (VB и C)
+- проигрыватель Windows Media интерфейса IWMPSettings2 (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb782433085544a94db0eab6b9314f1e4df488e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e227cc255eee625df926031369ef8be0fe270e377b143adff2c3ed2d9ab0aeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135357"
 ---
 # <a name="iwmpsettings2-vb-and-c-interface"></a>Интерфейс IWMPSettings2 (VB и C#)
 
@@ -82,7 +82,7 @@ ms.locfileid: "105699102"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -90,7 +90,7 @@ ms.locfileid: "105699102"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпсеттингс (VB и C#)**](iwmpsettings--vb-and-c.md)

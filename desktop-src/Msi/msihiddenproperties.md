@@ -4,12 +4,12 @@ ms.assetid: 7d5eb9cf-04a5-41bd-9ca9-f30af45ab0a5
 title: Мсихидденпропертиес, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6124f7002edd8ab7d3d5e6691b7b0a322b93c285
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acea21b946a4169748c96970143d6c44c6bf682ce6f6a8e4624791c52d0ba813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628111"
 ---
 # <a name="msihiddenproperties-property"></a>Мсихидденпропертиес, свойство
 
@@ -26,7 +26,7 @@ ms.locfileid: "105668719"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

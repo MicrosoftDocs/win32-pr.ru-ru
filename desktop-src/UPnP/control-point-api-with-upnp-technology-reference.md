@@ -1,19 +1,19 @@
 ---
 title: Справочник по API контрольной точки
-description: Следующие интерфейсы являются частью API-интерфейса контрольной точки с технологией UPnP. API контрольной точки поддерживает Microsoft Visual Basic Scripting Edition (VBScript), Microsoft Visual Basic и C++.
+description: Следующие интерфейсы являются частью API-интерфейса контрольной точки с технологией UPnP. API контрольной точки поддерживает microsoft Visual Basic scripting Edition (VBScript), microsoft Visual Basic и C++.
 ms.assetid: 6f73bf8c-0423-430f-a654-58d076712aae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691a0d764f612d957ac11b3b052859f081bc7285
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24b3dab16874ebeb7b43ef1e8cf28def13d3ef1d7169a5aae4836b39da66636b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058122"
 ---
 # <a name="control-point-api-reference"></a>Справочник по API контрольной точки
 
-Следующие интерфейсы являются частью API-интерфейса контрольной точки с технологией UPnP. API контрольной точки поддерживает Microsoft Visual Basic Scripting Edition (VBScript), Microsoft Visual Basic и C++.
+Следующие интерфейсы являются частью API-интерфейса контрольной точки с технологией UPnP. API контрольной точки поддерживает microsoft Visual Basic scripting Edition (VBScript), microsoft Visual Basic и C++.
 
 
 
@@ -37,11 +37,11 @@ ms.locfileid: "104329312"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

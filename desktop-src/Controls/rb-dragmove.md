@@ -47,7 +47,7 @@ ms.locfileid: "118409726"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

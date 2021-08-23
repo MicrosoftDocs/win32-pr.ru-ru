@@ -4,20 +4,20 @@ description: Целью DNS является предоставление раз
 ms.assetid: c15aa01c-6a4e-4685-ab26-605b58f829de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fc310534c97a23b4b0dfb3231656b76bace31d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9d0dbdb297e97f8dd3040c1fd6c7a3915de004b5fcfed75a3e84c83e02a07aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162756"
 ---
 # <a name="name-resolution"></a>Разрешение имен
 
 DNS обеспечивает разрешение имен: процесс сравнения имени узла (например, имени компьютера) со списком записей ресурсов и идентификации соответствующего IP-адреса. Обратная разрешение имен — это процесс сравнения IP-адреса со списком записей ресурсов и идентификации соответствующего имени узла. Эти процессы запускаются, когда DNS-сервер получает запрос.
 
- 
+ 
 
- 
+ 
 
 
 

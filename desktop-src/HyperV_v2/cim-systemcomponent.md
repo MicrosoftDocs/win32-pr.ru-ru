@@ -81,7 +81,7 @@ class CIM_SystemComponent : CIM_Component
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

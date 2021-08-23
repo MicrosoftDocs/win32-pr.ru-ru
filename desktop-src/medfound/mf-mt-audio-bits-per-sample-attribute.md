@@ -4,12 +4,12 @@ ms.assetid: d78a8c4d-377e-45eb-9cf6-2d61b34e82d6
 title: Атрибут MF_MT_AUDIO_BITS_PER_SAMPLE (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 896e77c937269b63208cb4bff73482a8df8596aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b9697ff5ce97bc7dd9066b57f94e41ff02a599fcf14d1ea8f51c9dea69efc7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104560"
 ---
 # <a name="mf_mt_audio_bits_per_sample-attribute"></a>\_ \_ Звуковой бит MF \_ MT \_ на \_ образец атрибута
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692660"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут соответствует элементу **вбитсперсампле** структуры [**вавеформатекс**](/previous-versions/dd757713(v=vs.85)) .
 
@@ -35,8 +35,8 @@ ms.locfileid: "105692660"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
 | Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 

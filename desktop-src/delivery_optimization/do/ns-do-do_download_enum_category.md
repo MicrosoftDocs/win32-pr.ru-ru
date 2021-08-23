@@ -49,7 +49,7 @@ typedef struct _DO_DOWNLOAD_ENUM_CATEGORY
 
 Значение свойства.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |

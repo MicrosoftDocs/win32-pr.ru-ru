@@ -3,9 +3,9 @@ title: Метод Media. Жетитеминфобитипе
 description: Метод Жетитеминфобитипе извлекает значение атрибута, соответствующего указанному имени атрибута, языку и индексу.
 ms.assetid: 9d3377c2-7ae8-48ce-a42e-9c965f6b79f9
 keywords:
-- Жетитеминфобитипе метод Windows Media Player
-- Жетитеминфобитипе метод Windows Media Player, класс мультимедиа
-- Класс мультимедиа проигрыватель Windows Media Player, метод Жетитеминфобитипе
+- проигрыватель Windows Media метода жетитеминфобитипе
+- проигрыватель Windows Media метода жетитеминфобитипе, класс мультимедиа
+- класс мультимедиа проигрыватель Windows Media, метод жетитеминфобитипе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2aff2bee7641075bbac1dd04526ee751ea077a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa180834d70c8dd078beafc360400c931e7058994f1cc46d4e9abb011987d158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135127"
 ---
 # <a name="mediagetiteminfobytype-method"></a>Метод Media. Жетитеминфобитипе
 
@@ -47,7 +47,7 @@ retVal = Media.getItemInfoByType(
 *имя* \[ окне\]
 </dt> <dd>
 
-**Строка** , содержащая имя атрибута. Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрывателя Windows Media.
+**Строка** , содержащая имя атрибута. дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибуту](attribute-reference.md)проигрыватель Windows Media.
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ retVal = Media.getItemInfoByType(
 
 Для атрибутов, базовое значение которых является **логическим**, этот метод возвращает строку "true" или "false".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод извлекает метаданные для отдельного элемента цифрового носителя или элемента мультимедиа, который является частью списка воспроизведения.
 
@@ -97,9 +97,9 @@ retVal = Media.getItemInfoByType(
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Этот метод может вызвать ошибки. При вызове этого метода необходимо включить код обработки ошибок. Например, в JScript можно реализовать обработку ошибок с помощью инструкции **try... перехватить... Наконец** , структура.
+Этот метод может вызвать ошибки. При вызове этого метода необходимо включить код обработки ошибок. например, в JScript можно реализовать обработку ошибок с помощью инструкции **try... перехватить... Наконец** , структура.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -107,7 +107,7 @@ retVal = Media.getItemInfoByType(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
@@ -143,10 +143,10 @@ retVal = Media.getItemInfoByType(
 [**Считывание значений атрибутов**](reading-attribute-values.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: Реализация Microsoft WinSNMP обеспечивает п�
 ms.assetid: 9ab45adc-12b7-40b1-8fec-40bf04302f64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e9f21fc479517b8844e9c1db75834b5b1c02edc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ed160de40b300d1b2430304b7a487f4544fee9a13db6049d1d837958276da8e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009772"
 ---
 # <a name="changing-the-retransmission-policy"></a>Изменение политики повторной передачи
 
@@ -17,9 +17,9 @@ ms.locfileid: "103888424"
 
 Вызов функций [**снмпжеттимеаут**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgettimeout) и [**снмпжетретри**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetretry) возвращает значения времени ожидания и количества повторных попыток для определенной целевой сущности. Чтобы изменить значение времени ожидания, приложение WinSNMP должно вызвать функцию [**снмпсеттимеаут**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsettimeout) . Чтобы изменить значение счетчика повторных попыток, приложение должно вызвать функцию [**снмпсетретри**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetretry) . Обновленные параметры влияют на новые запросы сообщений SNMP на целевую сущность.
 
- 
+ 
 
- 
+ 
 
 
 

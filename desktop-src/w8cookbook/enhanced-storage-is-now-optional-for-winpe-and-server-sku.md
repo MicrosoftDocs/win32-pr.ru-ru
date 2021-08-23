@@ -4,24 +4,24 @@ description: Расширенное хранилище теперь являет
 ms.assetid: 8A6B6194-5867-4B76-BD7B-152FD8A7DD77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7601ee35e6d4be35a39874dd85650f051c1c718
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 3777d4df386b071166fcfa17a60654c62e039d9137f73deaf2d85d54e2519e1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104339425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028852"
 ---
 # <a name="enhanced-storage-is-now-optional-for-winpe-and-server-sku"></a>Расширенное хранилище теперь является необязательным для WINPE и SKU сервера.
 
 ## <a name="platforms"></a>Платформы
 
-**Клиенты** — Windows 8  
-**Серверы** — Windows Server 2012  
+**клиенты** — Windows 8  
+**серверы** — Windows Server 2012  
 
 
 ## <a name="description"></a>Описание
 
-Расширенное хранилище всегда было доступно в USB-устройствах Windows 7. С выпуском Windows 8 он доступен для всех запоминающих устройств. На клиентских устройствах оно включено по умолчанию. в серверных устройствах это необязательно и должно быть подготовлено с помощью среда предустановки Windows (WinPE).
+расширенное хранилище всегда было доступно на USB-устройствах Windows 7. С выпуском Windows 8 он доступен для всех запоминающих устройств. На клиентских устройствах оно включено по умолчанию. в серверных устройствах это необязательно и должно быть подготовлено с помощью среда предустановки Windows (WinPE).
 
 ## <a name="manifestation"></a>Проявление
 
@@ -35,9 +35,9 @@ ms.locfileid: "104339425"
 
 Администраторы сервера должны явно настроить сервер для использования расширенного хранилища.
 
- 
+ 
 
- 
+ 
 
 
 

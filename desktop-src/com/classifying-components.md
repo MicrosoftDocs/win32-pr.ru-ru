@@ -4,12 +4,12 @@ description: Классификация компонентов
 ms.assetid: 4d805532-96c9-400d-b78a-f8d0d9bdbf83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53ea1547c219a44262fdeaf7edb02f65c7a3aac6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a0e8382c1cbada72c2a8ab480ded78702424736850299b9e5e9fad7b328e3280
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048712"
 ---
 # <a name="classifying-components"></a>Классификация компонентов
 
@@ -21,16 +21,16 @@ ms.locfileid: "103888852"
 
 В отличие от стандартной регистрации компонентов, в которой разработчики должны написать код, который вручную регистрирует объекты, категории компонентов автоматизируют большую часть этой работы. Шесть методов интерфейса [**икатрегистер**](/windows/desktop/api/ComCat/nn-comcat-icatregister) определяют категории компонентов и регистрируют объекты, реализующие или необходимые для них. Объект [диспетчера категорий компонентов](the-component-categories-manager.md) реализует этот интерфейс. Дополнительные сведения об использовании категорий компонентов см. в разделе **икатрегистер** и [**икатинформатион**](/windows/desktop/api/ComCat/nn-comcat-icatinformation) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистрация приложений COM](registering-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

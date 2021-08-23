@@ -4,12 +4,12 @@ ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
 title: WPD_CONTENT_TYPE_MEDIA_CAST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d45c9bc1e8e41bae526f02102d341ef00fad435
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: e4454053400c783b53437dd025e5adc8e845ea08c1b95b8d9b1fd358f39e326f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083318"
 ---
 # <a name="wpd_content_type_media_cast"></a>\_приведение \_ носителя типа содержимого \_ WPD \_
 
@@ -59,7 +59,7 @@ ms.locfileid: "110423464"
 | [\_ \_ \_ URL-адрес назначения мультимедиа WPD](media-properties.md)                                        | (рекомендуется).                                                          |
 | [\_Описание носителя \_ WPD](media-properties.md)                                                 | Необязательный элемент.                                                             |
 | [\_Жанр носителя \_ WPD](media-properties.md)                                                             | Необязательный элемент.                                                             |
-| [\_Закладка \_ объекта мультимедиа WPD \_](media-properties.md)                                        | Рекомендуемая                                                           |
+| [\_Закладка \_ объекта мультимедиа WPD \_](media-properties.md)                                        | Рекомендуется                                                           |
 | [\_ \_ \_ Дата последней сборки \_ устройства WPD](media-properties.md)                                       | (рекомендуется).                                                          |
 | [\_ \_ время \_ \_ жизни носителя (WPD)](media-properties.md)                                             | Необязательный элемент.                                                             |
 | [Описание подпрограммы \_ типа WPD Media \_ \_](object-properties.md)                                                                 | Необязательный элемент.                                                             |
@@ -279,7 +279,7 @@ RSS-канал можно представить в виде объекта Ме
 | [устройство WPD, \_ \_ авторские права](media-properties.md)                            | 2006. Публикация LP ЛЛЛП для компании Lucerne. All Rights Reserved.                                        |
 | [\_Описание носителя \_ WPD](media-properties.md)                        | Исполнительный директор по компании Lucerne Питер банков, который просматривает последние тенденции в онлайн-публикациях. |
 | [\_ \_ \_ URL-адрес назначения мультимедиа WPD](media-properties.md)               | https://www.lucernepublishing.com/services/podcasting                                          |
-| [\_Жанр носителя \_ WPD](media-properties.md)                                    | Новости                                                                                          |
+| [\_Жанр носителя \_ WPD](media-properties.md)                                    | News                                                                                          |
 | [\_ \_ \_ Дата последней сборки \_ устройства WPD](media-properties.md)              | Пятница, 9 июня 2006 14:00:28, EDT                                                                 |
 | [\_Редактор управления носителями WPD \_ \_](media-properties.md)               | someone@example.com                                                                           |
 | [\_ \_ Дата выпуска носителя \_ WPD](media-properties.md)                     | Пятница, 9 июня 2006 14:00:28, EDT                                                                 |
@@ -341,7 +341,7 @@ RSS-канал можно представить в виде объекта Ме
 | [\_исполнитель мультимедиа \_ WPD](media-properties.md)                                  | Компания                                                                                                                          |
 | [\_Описание носителя \_ WPD](media-properties.md)                        | Оперативные публикации быстро меняются. Исполнительный директор по публикации изучает тенденции за последние 5 лет и их последствия. |
 | [\_ \_ \_ URL-адрес назначения мультимедиа WPD](media-properties.md)               | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
-| [\_Жанр носителя \_ WPD](media-properties.md)                                    | Новости                                                                                                                             |
+| [\_Жанр носителя \_ WPD](media-properties.md)                                    | News                                                                                                                             |
 | [\_GUID носителя \_ WPD](media-properties.md)                                      | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |
 | [\_ \_ Дата выпуска носителя \_ WPD](media-properties.md)                     | "Чт, 1 июня 2006 14:00:28, EDT                                                                                                   |
 | [\_ \_ \_ URL-адрес источника мультимедиа WPD](media-properties.md)                         | https://www.lucernepublishing/services/podcasting/digital.publishing/audio/2006/06/digital0601.mp3                                |

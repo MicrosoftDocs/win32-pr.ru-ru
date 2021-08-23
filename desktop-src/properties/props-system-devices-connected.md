@@ -4,12 +4,12 @@ ms.assetid: 33c0aeed-3b68-4cdc-befe-4df3b1e6f2a3
 title: System.Devices.Connected
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb61d437958e293a40443dc5d983317c0e2daeb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd12dea781caee33793e93c41560fa2ae9acad75832eadabc75c3ea666e99fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033592"
 ---
 # <a name="systemdevicesconnected"></a>System.Devices.Connected
 
@@ -47,11 +47,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

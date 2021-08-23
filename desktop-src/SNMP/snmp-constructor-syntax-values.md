@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a484e58d7a92a3c75408db3160362d84e7891b76
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2409fc45c74cfecc5167da53f3ca81e501ea5aa1d279ddfe591b6c589990e187
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008982"
 ---
 # <a name="snmp-constructor-syntax-values"></a>Значения синтаксиса конструктора SNMP
 
-\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
+\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. вместо этого используйте [служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
 
 Значения синтаксиса конструктора SNMP описывают типы, совместимые с синтаксическим обозначением One (ASN. 1) стандарта кодирования.
 

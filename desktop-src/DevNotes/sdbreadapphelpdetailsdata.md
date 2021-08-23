@@ -58,7 +58,7 @@ BOOL WINAPI SdbReadApphelpDetailsData(
 
 Функция возвращает **true** при успешном выполнении или **false** в случае сбоя.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

@@ -4,16 +4,16 @@ description: Иажентчарактерекс думать
 ms.assetid: 64bfa388-0db7-423c-a4af-64a9f7351e9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bd1bedfc2665c80d522ccb38c7c3073580136db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a513a070104605df0cf3e0e722852a2b68d5845f4bcdb1ef6073954b3f9a18c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105442"
 ---
 # <a name="iagentcharacterexthink"></a>Иажентчарактерекс:: подумать
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Think(
@@ -51,13 +51,13 @@ HRESULT Think(
 > [!Note]  
 > Задайте идентификатор языка символа (с помощью [**иажентчарактерекс:: сетлангуажеид**](iagentcharacterex--setlanguageid.md) перед использованием метода [**Иажентчарактер:: говорите**](iagentcharacter--speak.md) , чтобы обеспечить отображение текста в выноске слова.
 
- 
+ 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентбаллун:: enable**](iagentballoon--getenabled.md), [**Иажентбаллунекс:: SetStyle**](iagentballoonex--setstyle.md), [**иажентчарактер:: говорите**](iagentcharacter--speak.md)
 
 
- 
+ 
 
- 
+ 

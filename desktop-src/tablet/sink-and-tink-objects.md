@@ -4,12 +4,12 @@ ms.assetid: fbd7bdf0-63b4-48d1-be91-eabbbb3f1618
 title: Приемники и объекты Тинк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef7ed1c06d256fe8eda9fad4bf15afa19fcb833
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e25e1f258ac789382475666878c986f5053323a1b19bf8f4b6110c096f2fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119091320"
 ---
 # <a name="sink-and-tink-objects"></a>Приемники и объекты Тинк
 
@@ -22,7 +22,7 @@ ms.locfileid: "105674403"
 
 Объекты Тинк и sInk можно использовать следующими способами.
 
--   В Microsoft Word 2002 поддерживаются объекты Тинк и sInk. Пользователи могут вставлять рукописные данные в документ Word с помощью панелей рукописного ввода и вывода текста, представленных в Word 2002. Этот рукописный ввод внедряется в файл Word как объект OLE с идентификатором CLSID объекта приемника или Тинк.
+-   в Microsoft Word 2002 поддерживаются объекты тинк и sInk. Пользователи могут вставлять рукописные данные в документ Word с помощью панелей рукописного ввода и вывода текста, представленных в Word 2002. Этот рукописный ввод внедряется в файл Word как объект OLE с идентификатором CLSID объекта приемника или Тинк.
 -   Элемент управления [InkEdit](/previous-versions/ms552265(v=vs.100)) планшетного ПК использует объект Тинк. Элемент управления InkEdit является подклассом стандартного элемента управления [RichTextBox](/dotnet/api/system.windows.forms.richtextbox?view=netcore-3.1) . Рукописный ввод вставляется в поток RTF элемента управления InkEdit в виде объекта Тинк.
 -   Когда приложение перемещает выбранный объект [рукописного ввода](/previous-versions/aa515768(v=msdn.10)) в буфер обмена, в слоте буфера обмена объектов OLE СОДЕРЖИТСЯ объект OLE Тинк или Sink.
 

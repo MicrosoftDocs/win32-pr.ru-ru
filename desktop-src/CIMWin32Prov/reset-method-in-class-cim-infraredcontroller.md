@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ac4bca726ed988d2a0da75cf391907c65bd51253
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c840827c954712b30ef2b64700e8952a44565f5008b0ff013b4a9ca4b5fd66d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079998"
 ---
 # <a name="reset-method-of-the-cim_infraredcontroller-class"></a>Метод Reset \_ класса CIM инфраредконтроллер
 
@@ -67,7 +67,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

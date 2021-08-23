@@ -98,7 +98,7 @@ typedef enum tagWPD_OPERATION_STATES {
 
 Эти значения принимаются в определяемом приложением обратном вызове ([**ипортабледевицеевенткаллбакк**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback)).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

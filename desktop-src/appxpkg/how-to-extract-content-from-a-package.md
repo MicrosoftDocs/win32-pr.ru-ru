@@ -1,19 +1,19 @@
 ---
 title: Извлечение содержимого пакета приложения (C++)
-description: Узнайте, как извлечь файлы из пакета приложения для приложения Windows с помощью API упаковки.
+description: узнайте, как извлечь файлы из пакета приложения для Windows приложения с помощью API упаковки.
 ms.assetid: 72C368F9-2EBA-4930-81CF-9B85717CC0AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8830ba7bc21553a9f8145bc97a6b98b3e32729af
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4960a2b30ad7946f1f68e11df5170ae5246f3c36564a7e5e9bc27595be0b7903
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104412774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049052"
 ---
 # <a name="extract-app-package-contents-c"></a>Извлечение содержимого пакета приложения (C++)
 
-Узнайте, как извлечь файлы из пакета приложения для приложения Windows с помощью [API упаковки](interfaces.md).
+узнайте, как извлечь файлы из пакета приложения для Windows приложения с помощью [API упаковки](interfaces.md).
 
 Можно также использовать средство MakeAppx.exe для извлечения файлов из пакета приложения или набора. Дополнительные сведения см. в разделе [Извлечение файлов из пакета или набора](/windows/msix/package/create-app-package-with-makeappx-tool#extract-files-from-a-package-or-bundle) .
 
@@ -440,7 +440,7 @@ CoUninitialize();
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -456,6 +456,6 @@ CoUninitialize();
 [**иаппкспаккажереадер**](/windows/desktop/api/AppxPackaging/nn-appxpackaging-iappxpackagereader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

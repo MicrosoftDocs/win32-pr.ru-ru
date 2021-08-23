@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb41866aa194461fd4edf72fdba8f4dad5de8766
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 2fafcd3400df351ac9dd8f50a1b4c4fb31f5a1ef14924f55588d3b9b1866c65a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063294"
 ---
 # <a name="coloring-state-variables"></a>Переменные состояния цвета
 
@@ -53,7 +53,7 @@ ms.locfileid: "107909292"
 |------------------|--------------------------------------------------------------------------------|
 | Описание.     | Экспоненциальная плотность тумана                                                        |
 | Группа атрибутов: | туман                                                                            |
-| Начальное значение:   | 1,0                                                                            |
+| Начальное значение:   | 1.0                                                                            |
 | Команда Get:     | [**глжетфлоатв**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "107909292"
 |------------------|--------------------------------------------------------------------------------|
 | Описание.     | Конец линейной тумана                                                                 |
 | Группа атрибутов: | туман                                                                            |
-| Начальное значение:   | 1,0                                                                            |
+| Начальное значение:   | 1.0                                                                            |
 | Команда Get:     | [**глжетфлоатв**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 

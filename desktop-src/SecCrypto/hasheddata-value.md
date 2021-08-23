@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 496bdd76400c746ae3209a2e3c99b6cf4e5bc4b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6b8b2c8291e793cd88c5d4b0821c036fb6b112beb87e73d4f8ccb8d523deb31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006572"
 ---
 # <a name="hasheddatavalue-property"></a>Хашеддата. Value, свойство
 
@@ -39,11 +39,11 @@ HashedData.Value As String
 
 Строка, содержащая хэшированные данные в шестнадцатеричном формате.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать хэш большого объема данных, вызовите метод [**хэширования**](hasheddata-hash.md) для каждого фрагмента данных. Хэш каждого фрагмента данных объединяется со свойством **value** до тех пор, пока свойство не будет считано. Содержимое свойства **value** сбрасывается при считывании свойства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ HashedData.Value As String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

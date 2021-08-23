@@ -16,10 +16,10 @@
                 - name: Get Started with Win32 and C++ (Приступая к работе с Win32 и C++)
                   tocHref: /windows/win32/learnwin32/
                   topicHref: /windows/win32/learnwin32/learn-to-program-for-windows
-                - name: Создание первого приложения Windows с помощью DirectX
+                - name: создание первого Windows приложения с помощью DirectX
                   tocHref: /windows/win32/direct3dgetstarted/
                   topicHref: /windows/win32/direct3dgetstarted/building-your-first-directx-app
-                - name: Использование заголовков Windows
+                - name: использование заголовков Windows
                   tocHref: /windows/win32/winprog/
                   topicHref: /windows/win32/winprog/using-the-windows-headers
                 - name: Руководство по программированию для 64-разрядных версий Windows
@@ -28,13 +28,13 @@
                 - name: Cookbook совместимости для Windows
                   tocHref: /windows/win32/w8cookbook/
                   topicHref: /windows/win32/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal
-                - name: 'Windows 7 и Windows Server 2008 R2 качество приложения, Cookbook'
+                - name: Windows 7 и Windows Server 2008 R2 Quality Cookbook
                   tocHref: /windows/win32/win7appqual/
                   topicHref: /windows/win32/win7appqual/windows-7-application-quality-cookbook
-                - name: Руководством для разработчиков Windows 7
+                - name: руководством для разработчиков Windows 7
                   tocHref: /windows/win32/win7devguide/
                   topicHref: /windows/win32/win7devguide/windows-7-developer-guide
-                - name: Обновление платформы для Windows Vista
+                - name: обновление платформы для Windows Vista
                   tocHref: /windows/win32/win7ip/
                   topicHref: /windows/win32/win7ip/platform-update-for-windows-vista-portal
             - name: Конструирование
@@ -107,7 +107,7 @@
                             - name: Планшетный ПК
                               tocHref: /windows/win32/tablet/
                               topicHref: /windows/win32/tablet/tablet-pc-development-guide
-                    - name: Окна и сообщения
+                    - name: Windows и сообщения
                       tocHref: /windows/win32/winmsg/
                       topicHref: /windows/win32/winmsg/windowing
                     - name: Диспетчер окон рабочего стола
@@ -125,22 +125,22 @@
                     - name: Высокое разрешение
                       tocHref: /windows/win32/hidpi/
                       topicHref: /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows
-                    - name: Диспетчер анимации Windows
+                    - name: Windows Диспетчер анимации
                       tocHref: /windows/win32/uianimation/
                       topicHref: /windows/win32/uianimation/-main-portal
-                    - name: Элементы управления Windows
+                    - name: Windows Элементы управления
                       tocHref: /windows/win32/controls/
                       topicHref: /windows/win32/controls/window-controls
-                    - name: Платформа ленты Windows
+                    - name: Windows Платформа ленты
                       tocHref: /windows/win32/windowsribbon/
                       topicHref: /windows/win32/windowsribbon/-uiplat-windowsribbon-entry
                 - name: Среда рабочего стола
                   topicHref: /windows/win32/user-interface
                   items:
-                    - name: Оболочка Windows
+                    - name: Windows Консоль
                       tocHref: /windows/win32/shell/
                       topicHref: /windows/win32/shell/shell-entry
-                    - name: Система свойств Windows
+                    - name: Windows Система свойств
                       tocHref: /windows/win32/properties/
                       topicHref: /windows/win32/properties/windows-properties-system
                     - name: Поиск Windows
@@ -149,7 +149,7 @@
                     - name: Оконные станции и рабочие столы
                       tocHref: /windows/win32/winstation/
                       topicHref: /windows/win32/winstation/window-stations-and-desktops
-                    - name: Устаревшие функции среды Windows
+                    - name: устаревшие функции Windows среды
                       tocHref: /windows/win32/lwef/
                       topicHref: /windows/win32/lwef/legacy-windows-environment
                 - name: Установка и обслуживание приложения
@@ -158,7 +158,7 @@
                     - name: Изолированные приложения и параллельные сборки
                       tocHref: /windows/win32/sbscs/
                       topicHref: /windows/win32/sbscs/isolated-applications-and-side-by-side-assemblies-portal
-                    - name: 'Упаковка, развертывание и запрос приложений Windows'
+                    - name: 'упаковка, развертывание и запрос приложений Windows'
                       tocHref: /windows/win32/appxpkg/
                       topicHref: /windows/win32/appxpkg/appx-portal
                     - name: Лицензирование для разработчиков
@@ -182,25 +182,25 @@
                     - name: Microsoft Media Foundation
                       tocHref: /windows/win32/medfound/
                       topicHref: /windows/win32/medfound/microsoft-media-foundation-sdk
-                    - name: Пакет SDK для Windows Media Format 11
+                    - name: Windows Пакет SDK для формата мультимедиа 11
                       tocHref: /windows/win32/wmformat/
                       topicHref: /windows/win32/wmformat/windows-media-format-11-sdk
-                    - name: Пакет SDK для проигрывателя Windows Media
+                    - name: проигрыватель Windows Media Tool
                       tocHref: /windows/win32/wmp/
                       topicHref: /windows/win32/wmp/windows-media-player-sdk
-                    - name: API потоковой передачи Windows Media
+                    - name: Windows API потоковой передачи мультимедиа
                       tocHref: /windows/win32/mediastreaming/
                       topicHref: /windows/win32/mediastreaming/media-streaming-api-portal
-                    - name: Мультимедиа Windows
+                    - name: Windows Мультимедиа
                       tocHref: /windows/win32/multimedia/
                       topicHref: /windows/win32/multimedia/windows-multimedia-start-page
-                - name: Доступ к данным и хранилище
+                - name: доступ к данным и служба хранилища
                   topicHref: /windows/win32/data-access-and-storage
                   items:
                     - name: Фоновая интеллектуальная служба передачи
                       tocHref: /windows/win32/bits/
                       topicHref: /windows/win32/bits/background-intelligent-transfer-service-portal
-                    - name: Backup
+                    - name: Резервное копирование
                       tocHref: /windows/win32/backup/
                       topicHref: /windows/win32/backup/backup
                     - name: Облачные модули синхронизации
@@ -209,7 +209,7 @@
                     - name: распределенная файловая система
                       tocHref: /windows/win32/dfs/
                       topicHref: /windows/win32/dfs/distributed-file-system
-                    - name: Расширяемая подсистема хранилища
+                    - name: расширяемый модуль служба хранилища
                       tocHref: /windows/win32/extensible-storage-engine/
                       topicHref: /windows/win32/extensible-storage-engine/extensible-storage-engine
                     - name: API-интерфейс для основного изображения
@@ -218,7 +218,7 @@
                     - name: Локальные файловые системы
                       tocHref: /windows/win32/fileio/
                       topicHref: /windows/win32/fileio/file-systems
-                    - name: Проектируемая файловая система Windows
+                    - name: Windows Плановая файловая система
                       tocHref: /windows/win32/projfs/
                       topicHref: /windows/win32/projfs/projected-file-system
                     - name: Виртуальное хранилище
@@ -254,10 +254,10 @@
                     - name: Служба загрузки изображений (WIA)
                       tocHref: /windows/win32/wia/
                       topicHref: /windows/win32/wia/-wia-startpage
-                - name: Пакет SDK для Windows Media диспетчер устройств 11
+                - name: Windows Пакет SDK для Media диспетчер устройств 11
                   tocHref: /windows/win32/wmdm/
                   topicHref: /windows/win32/wmdm/windows-media-device-manager-11-sdk
-                - name: Портативные устройства Windows
+                - name: Windows Переносные устройства
                   topicHref: /windows/win32/windows-portable-devices
                   items:
                     - name: Программный интерфейс WPD
@@ -312,7 +312,7 @@
                         - name: Ведение журналов событий
                           tocHref: /windows/win32/eventlog/
                           topicHref: /windows/win32/eventlog/event-logging
-                        - name: "Журнал событий\_Windows"
+                        - name: Журнал событий Windows
                           tocHref: /windows/win32/wes/
                           topicHref: /windows/win32/wes/windows-event-log
                         - name: Сборщик событий Windows
@@ -466,10 +466,10 @@
                     - name: Платформа фильтрации Windows
                       tocHref: /windows/win32/fwp/
                       topicHref: /windows/win32/fwp/windows-filtering-platform-start-page
-                    - name: Сетевые подключения Windows
+                    - name: Windows Сети
                       tocHref: /windows/win32/wnet/
                       topicHref: /windows/win32/wnet/windows-networking-wnet-
-                    - name: Сокеты Windows 2
+                    - name: Windows Сокеты 2
                       tocHref: /windows/win32/winsock/
                       topicHref: /windows/win32/winsock/windows-sockets-start-page-2
                     - name: вирелесснетворкинг
@@ -493,13 +493,13 @@
                     - name: WebDAV
                       tocHref: /windows/win32/webdav/
                       topicHref: /windows/win32/webdav/webdav-portal
-                    - name: Службы HTTP Windows
+                    - name: Windows Службы HTTP
                       tocHref: /windows/win32/winhttp/
                       topicHref: /windows/win32/winhttp/winhttp-start-page
-                    - name: Windows Internet
+                    - name: Windows Обозревателя
                       tocHref: /windows/win32/wininet/
                       topicHref: /windows/win32/wininet/portal
-                    - name: Веб-службы Windows
+                    - name: Windows Веб-службы
                       tocHref: /windows/win32/wsw/
                       topicHref: /windows/win32/wsw/portal
                 - name: Безопасность и идентификация
@@ -577,7 +577,7 @@
                     - name: MIDL
                       tocHref: /windows/win32/midl/
                       topicHref: /windows/win32/midl/midl-start-page
-                    - name: Структурированное хранилище
+                    - name: структурированные служба хранилища
                       tocHref: /windows/win32/stg/
                       topicHref: /windows/win32/stg/structured-storage-start-page
                     - name: COM+
@@ -616,19 +616,16 @@
                     - name: Синхронизация
                       tocHref: /windows/win32/sync/
                       topicHref: /windows/win32/sync/synchronization
-                    - name: Сведения о системе Windows
+                    - name: Windows Сведения о системе
                       tocHref: /windows/win32/sysinfo/
                       topicHref: /windows/win32/sysinfo/windows-system-information
-                - name: Windows Machine Learning
-                  tocHref: /windows/win32/machinelearning/
-                  topicHref: /windows/win32/machinelearning/machine-learning-portal
                 - name: Примечания для разработчиков
                   tocHref: /windows/win32/devnotes/
                   topicHref: /windows/win32/devnotes/developer-notes
             - name: Технологии сервера
               topicHref: /windows/win32/server-and-system-technologies
               items:
-                - name: 'Службы каталогов, удостоверений и доступа'
+                - name: 'каталог, удостоверение и службы Access'
                   topicHref: /windows/win32/srvnodes/directory--identity--and-access-services
                   items:
                     - name: Служба каталогов
@@ -666,7 +663,7 @@
                     - name: Службы WSUS
                       topicHref: /windows/win32/srvnodes/windows-server-update-services
                       items:
-                        - name: 'Библиотека классов Windows Server Update Services 2,0'
+                        - name: 'библиотека классов Windows Server Update Services 2,0'
                           topicHref: /windows/win32/srvnodes/windows-server-update-services-2-0-class-library
                 - name: Виртуализация
                   topicHref: /windows/win32/srvnodes/virtualization
@@ -706,7 +703,7 @@
                     - name: Поставщик WMI для моста MDM
                       tocHref: /windows/win32/dmwmibridgeprov/
                       topicHref: /windows/win32/dmwmibridgeprov/mdm-bridge-wmi-provider-portal
-                    - name: Средство оценки системы Windows
+                    - name: Windows Средство оценки системы
                       tocHref: /windows/win32/winsat/
                       topicHref: /windows/win32/winsat/windows-system-assessment-tool-portal
                     - name: Поставщик ядра WMI
@@ -715,7 +712,7 @@
                     - name: Удаленное управление Windows
                       tocHref: /windows/win32/winrm/
                       topicHref: /windows/win32/winrm/portal
-                    - name: защита ресурсов Windows
+                    - name: Windows Защита ресурсов
                       tocHref: /windows/win32/wfp/
                       topicHref: /windows/win32/wfp/windows-resource-protection-portal
                 - name: "Windows Virtual\_PC"
@@ -724,9 +721,9 @@
             - name: Индекс API
               tocHref: /windows/win32/apiindex/
               topicHref: /windows/win32/apiindex/api-index-portal
-            - name: Справочник по среда выполнения Windows C++
+            - name: Windows Справочник по C++ для среды выполнения
               tocHref: /windows/win32/winrt/
               topicHref: /windows/win32/winrt/reference
-            - name: Сертификация Windows
+            - name: Windows Центров
               tocHref: /windows/win32/win_cert/
               topicHref: /windows/win32/win_cert/windows-certification-portal

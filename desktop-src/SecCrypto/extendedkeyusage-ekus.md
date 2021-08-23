@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 24bcf7b4332e75afad0e21415a7dfe8eb690c32b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b6cb0ee020935ea80bc0d676ad8979267396589a46604f49a5cb833d68eefa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007402"
 ---
 # <a name="extendedkeyusageekus-property"></a>Екстендедкэйусаже. EKU, свойство
 

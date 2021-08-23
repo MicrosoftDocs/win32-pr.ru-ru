@@ -4,12 +4,12 @@ ms.assetid: 8ec6b392-06bc-4717-8657-7ea9a43d03fb
 title: ХКРИПТПРОВ (Винкрипт. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c14c74770b0cca86adaaa72ad38bff3397fa15b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70641dcaf0381a5c6489f2b4e462d9334108a8f251f03e1b9c3db9fd26e9f960
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006202"
 ---
 # <a name="hcryptprov"></a>хкриптпров
 
@@ -28,9 +28,9 @@ typedef ULONG_PTR HCRYPTPROV;
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Винкрипт. h</dt> </dl> |
 
 
 

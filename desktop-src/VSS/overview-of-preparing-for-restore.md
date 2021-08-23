@@ -4,12 +4,12 @@ ms.assetid: 36cf188f-fce6-467c-a200-cbd9dc8f31a6
 title: Общие сведения о подготовке к восстановлению
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8b1bc3e429da5be9872e8345fe6da32a5340005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa9748ff3d6602695dfde703b020e10ab05791d5eeb3957d23a1d1a4fcb82cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998163"
 ---
 # <a name="overview-of-preparing-for-restore"></a>Общие сведения о подготовке к восстановлению
 

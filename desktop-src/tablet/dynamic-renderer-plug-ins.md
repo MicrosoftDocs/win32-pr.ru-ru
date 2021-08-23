@@ -4,12 +4,12 @@ ms.assetid: ac6d15f3-0917-4cc1-8c83-e34d3d063289
 title: Подключаемые модули Dynamic-Renderer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c3f1a33c3cd7faef2e899bcb198ea64aa5bd76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6426dfc9f1dae8561802d2cf6c5613fb786600504cc8600046c4df781239abf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092689"
 ---
 # <a name="dynamic-renderer-plug-ins"></a>Подключаемые модули Dynamic-Renderer
 
@@ -20,7 +20,7 @@ ms.locfileid: "104551866"
 Объект [**RealTimeStylus**](realtimestylus-class.md) реализует интерфейс [**истилуссинкплугин**](/windows/win32/api/rtscom/nn-rtscom-istylussyncplugin) . Объект [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) визуализирует рукописный ввод в режиме реального времени по мере его прорисовки. Когда метод [**Refresh**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-refresh) вызывается, когда включен объект **DynamicRenderer** , объект **DynamicRenderer** перерисовывает собранный в данный момент росчерк. Свойство [**Enabled**](/windows/desktop/api/RTSCom/nf-rtscom-idynamicrenderer-get_enabled) объекта **DynamicRenderer** изначально имеет значение **false**.
 
 > [!Note]  
-> При вызове метода [**Refresh**](/previous-versions/ms826370(v=msdn.10)) объекта [**DynamicRenderer**](/previous-versions/ms826345(v=msdn.10)) из обработчика событий [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) в управляемом коде установите свойство [**Клипректангле**](/previous-versions/ms826346(v=msdn.10)) объекта **DynamicRenderer** в свойство [клипректангле](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1) объекта [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1) .
+> при вызове метода [**Refresh**](/previous-versions/ms826370(v=msdn.10)) объекта [**DynamicRenderer**](/previous-versions/ms826345(v=msdn.10)) в обработчике событий [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) в управляемом коде установите свойство [**клипректангле**](/previous-versions/ms826346(v=msdn.10)) объекта **DynamicRenderer** в свойство [клипректангле](/dotnet/api/system.windows.forms.painteventargs.cliprectangle?view=netcore-3.1) объекта [PaintEventArgs](/dotnet/api/system.windows.forms.painteventargs?view=netcore-3.1) .
 
  
 

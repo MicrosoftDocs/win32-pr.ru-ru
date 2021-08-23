@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c20a4f08040bdb2c71bdd8f09aa657719228efa5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb1d8d747d88a416792d59af79af41c047cb51aa61688aef9d6b105790bbae8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118157210"
 ---
 # <a name="cbasestreamcontrol-class"></a>Класс Кбасестреамконтрол
 
@@ -55,24 +55,24 @@ class CMyInputPin : public CBaseInputPin, public CBaseStreamControl
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот класс требует наличия ПИН-кода и фильтра владельца для уведомления класса при возникновении различных событий, таких как фильтр присоединения к графу или получение нового ссылочного времени. Необходимо вызвать следующие методы класса:
 
 -   В методе [**имедиафилтер:: сетсинксаурце**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-setsyncsource) фильтра вызовите метод [**Кбасестреамконтрол:: сетсинксаурце**](cbasestreamcontrol-setsyncsource.md) . Этот метод уведомляет класс текущего ссылочного времени.
--   В методе [**кбасефилтер:: жоинфилтерграф**](cbasefilter-joinfiltergraph.md) фильтра вызовите метод [**Кбасестреамконтрол:: сетфилтерграф**](cbasestreamcontrol-setfiltergraph.md) . Этот метод предоставляет классу указатель на диспетчер графа фильтров, чтобы класс мог отправить правильные события управления потоком.
+-   В методе [**кбасефилтер:: жоинфилтерграф**](cbasefilter-joinfiltergraph.md) фильтра вызовите метод [**Кбасестреамконтрол:: сетфилтерграф**](cbasestreamcontrol-setfiltergraph.md) . этот метод предоставляет классу указатель на фильтр Graph Manager, чтобы класс мог отправить правильные события управления потоком.
 -   Каждый раз, когда фильтр изменяет состояние (для запуска, приостановки или остановки), вызовите метод [**кбасестреамконтрол:: нотифифилтерстате**](cbasestreamcontrol-notifyfilterstate.md) .
 -   В методах [**Ипин:: бегинфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) и [**Ипин:: ендфлуш**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) закрепления вызовите метод [**кбасестреамконтрол:: Flush**](cbasestreamcontrol-flushing.md) .
 
 `CBaseStreamControl`Для определения того, какие образцы должны быть доставлены, а какие — должны быть удалены, в классе используется ссылочное время графа фильтра. В методе [**имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) ПИН-кода вызовите метод [**Кбасестреамконтрол:: чеккстреамстате**](cbasestreamcontrol-checkstreamstate.md) с указателем на пример входящего носителя. Если метод возвращает поток значений \_ , доставляет пример нисходящий. В противном случае удалите его.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Стрмктл. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>стрмктл. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

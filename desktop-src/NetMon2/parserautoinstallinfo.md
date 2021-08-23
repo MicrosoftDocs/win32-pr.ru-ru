@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7702ae8aad5ae24acf3835451b7b8eff3a26ceb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c6c69b66f3ff92905333a28c5dadfd79290033f0abb68cb2a790f07c6e34412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063755"
 ---
 # <a name="parserautoinstallinfo-callback-function"></a>Функция обратного вызова Парсераутоинсталлинфо
 
@@ -43,7 +43,7 @@ PPF_PARSERDLLINFO WINAPI ParserAutoInstallInfo(void);
 
 Если функция завершается неудачно, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При первой загрузке сетевой монитор вызывает метод **парсераутоинсталлинфо** (если он существует) для автоматической установки каждого средства синтаксического анализа, а затем перечислите все библиотеки DLL средства синтаксического анализа в подкаталоге средства синтаксического анализа.
 
@@ -61,7 +61,7 @@ PPF_PARSERDLLINFO WINAPI ParserAutoInstallInfo(void);
 
 | Для получения информации о                                               | См.                                                                          |
 |------------------------------------------------------------------|------------------------------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор.        | [Анализаторы](parsers.md)                                                       |
+| Какие анализаторы и как они работают с сетевой монитор.        | [Средства синтаксического анализа](parsers.md)                                                       |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.               | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md)                       |
 | Реализация **парсераутоинсталлинфо**  включает пример. | [Реализация Парсераутоинсталлинфо](implementing-parserautoinstallinfo.md) |
 

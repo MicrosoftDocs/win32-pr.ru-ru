@@ -1,9 +1,9 @@
 ---
-title: Атрибут Location (пакет SDK для проигрывателя Windows Media)
+title: атрибут Location (проигрыватель Windows Media SDK)
 description: Атрибут Location — это географическое расположение станции или \ 0034; NET only \ 0034;.
 ms.assetid: fdc0b68b-56a5-4027-a618-6811e7536766
 keywords:
-- Атрибут расположения проигрыватель Windows Media Player
+- проигрыватель Windows Media атрибута Location
 topic_type:
 - apiref
 api_name:
@@ -12,22 +12,22 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc502bc147c160dd8dd65cc1eb3c26bba0b1e1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b5955a0f638f9d71557736c5c834978710e36f046ff9b66a9f38d4ddd6e2d171
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135227"
 ---
 # <a name="location-attribute"></a>Атрибут Location
 
 Атрибут **Location** — это географическое расположение радиостанции или NET only.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Элементы Радио](radio-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -39,7 +39,7 @@ ms.locfileid: "105704416"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------|
-| Версия<br/> | Только проигрыватель Windows Media 9 Series<br/> |
+| Версия<br/> | только проигрыватель Windows Media 9 Series<br/> |
 
 
 

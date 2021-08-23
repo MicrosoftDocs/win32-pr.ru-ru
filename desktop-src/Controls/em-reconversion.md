@@ -47,7 +47,7 @@ ms.locfileid: "118412760"
 
 Это сообщение всегда возвращает ноль.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

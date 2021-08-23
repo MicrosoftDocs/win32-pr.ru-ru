@@ -1,15 +1,15 @@
 ---
-description: Если ни один из файлов не имеет номера версии, установщик Windows использует логику, показанную на следующей схеме потока, чтобы определить, следует ли заменить все установленные файлы, относящиеся к компоненту.
+description: если ни один из файлов не имеет номера версии, установщик Windows использует логику, показанную на следующей схеме потока, чтобы определить, следует ли заменить все установленные файлы, относящиеся к компоненту.
 ms.assetid: 82cb0d96-f49f-408e-a8c6-a0d1ee9af8c7
 title: Ни один из файлов не имеет версии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5360bb7b6b4deda54156006073f353ab65ab2b2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a68a6d74a26a810f2ddb33e1c13b2ed7b372a75d5b262a8b6d8d7ecaca1c99f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104552311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065942"
 ---
 # <a name="neither-file-has-a-version"></a>Ни один из файлов не имеет версии
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 96afa63f83e79f399b1c345d38ff2914307c2fa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c84d8d6e93c3f5edf223811844937fd1d223a1a3df991e9d62dd24c2fa445ce9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088236"
 ---
 # <a name="iwicmetadataqueryreader_getmetadatabyname_proxy-function"></a>Ивикметадатакуериреадер \_ жетметадатабинаме \_ -функция
 
@@ -45,9 +45,9 @@ HRESULT IWICMetadataQueryReader_GetMetadataByName_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) \** _
+Тип: **[ **ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader)\***
 
-Указатель на этот объект [_ *ивикметадатакуериреадер* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
+Указатель на этот объект [**ивикметадатакуериреадер**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ HRESULT IWICMetadataQueryReader_GetMetadataByName_Proxy(
 *сервер* \[ в, out\]
 </dt> <dd>
 
-Тип: **[пропвариант](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) \** _
+Тип: **[пропвариант](/windows/win32/api/propidlbase/ns-propidlbase-propvariant)\***
 
 Указатель, получающий свойство метаданных.
 
@@ -71,7 +71,7 @@ HRESULT IWICMetadataQueryReader_GetMetadataByName_Proxy(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
@@ -83,8 +83,8 @@ HRESULT IWICMetadataQueryReader_GetMetadataByName_Proxy(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

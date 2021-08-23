@@ -5,19 +5,19 @@ ms.assetid: 6bf9c421-f0f6-4c75-bb4d-dbe91dcb8d01
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b727fee91a1ca3431fb6ced3c7640fb4ead12b40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8aa794bea36a704de71cc65f81a9cec2186134f21d4b8b6cde2d9f92e8ffe844
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063554"
 ---
 # <a name="nps-extensions-enumerations"></a>Перечисления расширений NPS
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS.
 
- 
+ 
 
 Используйте следующие перечислимые типы при разработке библиотек DLL расширения NPS.
 
@@ -29,6 +29,6 @@ ms.locfileid: "104413341"
 -   [**\_точка расширения \_ RADIUS**](/windows/desktop/api/authif/ne-authif-radius_extension_point)
 -   [**\_код причины отклонения RADIUS \_ \_**](/windows/desktop/api/authif/ne-authif-radius_reject_reason_code)
 
- 
+ 
 
- 
+ 

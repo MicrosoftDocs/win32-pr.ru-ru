@@ -3,18 +3,18 @@ title: Добавление данных скрипта в заголовок
 description: Добавление данных скрипта в заголовок
 ms.assetid: 25f63d9e-c81a-4098-81d4-e848659a60e5
 keywords:
-- Windows Media Format SDK, добавление данных скрипта в заголовки
+- Windows Пакет SDK для формата мультимедиа, добавление данных скрипта в заголовки
 - Расширенный системный формат (ASF), добавление данных скрипта в заголовки
 - ASF (Расширенный системный формат), добавление данных скрипта в заголовки
 - скрипты, добавление данных в заголовки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8052d8a5ae04b0ea821d716bf1931352c591f892
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: b19a8ad34a69427dc26435a6a599b8d91db2ebe2b8be700483189b2e7ba22846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "105700827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027322"
 ---
 # <a name="to-add-script-data-to-the-header"></a>Добавление данных скрипта в заголовок
 
@@ -33,9 +33,9 @@ ms.locfileid: "105700827"
 > [!Note]  
 > При использовании DRM для шифрования файла ни одна из команд сценария не может иметь время презентации, равное 0.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -48,9 +48,9 @@ ms.locfileid: "105700827"
 [**Использование команд сценария**](using-script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

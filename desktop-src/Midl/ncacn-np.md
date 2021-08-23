@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84634e6bb5d2b634439be767ad44749291cffe11
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a7acf294241c1d38b2067ba54e315fc3240e5bb6eca81a6b12012f8dec457a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013762"
 ---
 # <a name="ncacn_np-attribute"></a>\_атрибут нкакн NP
 
@@ -45,7 +45,7 @@ endpoint("ncacn_np:server-name[\\pipe\\pipe-name]")
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сервер создает экземпляр именованного канала, который затем доступен любому клиенту. Когда клиент пытается подключиться, существующий экземпляр связывается с этим клиентом. Прежде чем другой клиент сможет подключиться, сервер должен создать другой экземпляр именованного канала. Если клиент пытается выполнить привязку к серверу до создания нового экземпляра, вызов привязки, [**рпкбиндингфромстрингбиндинг**](/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding), может завершиться ошибкой с сообщением об ошибке " \_ сервер RPC S \_ занят" \_ \_ . Поэтому необходимо убедиться, что клиентское приложение обрабатывает случай, когда сервер слишком занят и не может принять соединение. Клиент должен автоматически повторить попытку, предложить пользователю выполнить действие или завершиться неудачно.
 
@@ -79,7 +79,7 @@ interface iface2
 
 <dl> <dt>
 
-[**endpoint**](endpoint.md)
+[**конечной**](endpoint.md)
 </dt> <dt>
 
 [Файл определения интерфейса (IDL)](interface-definition-idl-file.md)
@@ -121,6 +121,6 @@ interface iface2
 [**Строковая привязка**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 62aae3bf672b12bdb947ff8ce6b76f919eaa11b7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a0fd01751794dc9177f3840804f0412db70531f6706a452793fe6cbcf3aa2389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079806"
 ---
 # <a name="win32_memoryarraylocation-class"></a>\_Класс Win32 меморяррайлокатион
 
@@ -46,7 +46,7 @@ class Win32_MemoryArrayLocation : CIM_Realizes
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ меморяррайлокатион** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_MemoryArrayLocation : CIM_Realizes
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ меморяррайлокатион** является производным от [**CIM \_**](cim-realizes.md).
 

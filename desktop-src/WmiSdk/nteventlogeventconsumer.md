@@ -333,7 +333,7 @@ class NTEventLogEventConsumer : __EventConsumer
 
 Пример использования **нтевентложевентконсумер** для создания потребителя см. в разделе [ведение журнала событий NT на основе события](logging-to-nt-event-log-based-on-an-event.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
