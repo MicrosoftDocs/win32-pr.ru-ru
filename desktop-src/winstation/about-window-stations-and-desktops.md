@@ -4,12 +4,12 @@ description: Оконная станция — это защищаемый об�
 ms.assetid: 6264030f-36fc-4c6d-87fd-dd3de2dc5b67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 376904dca3cc929a4e298f4330e348a877a1345e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a511e2b6e572a708110e428609c9df8d3322ec8400ba00221614c502386aca1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710024"
 ---
 # <a name="about-window-stations-and-desktops"></a>О станциях окон и настольных компьютерах
 
@@ -27,9 +27,9 @@ ms.locfileid: "104411230"
 -   [Права доступа и безопасность оконной станции](window-station-security-and-access-rights.md)
 -   [Безопасность настольных систем и права доступа](desktop-security-and-access-rights.md)
 
- 
+ 
 
- 
+ 
 
 
 

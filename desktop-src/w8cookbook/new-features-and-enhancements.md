@@ -4,12 +4,12 @@ description: Новые функции и усовершенствования
 ms.assetid: 79E21170-BC2D-4631-AFAC-12A9F40ECC5D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8163cfb02845dcb0bc3b47b06b0cba505058c655
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 0fa140bd9e9c3d60fc1fa3dfa27dd6a770242f04d3a62057dfae736051d379fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104133287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815074"
 ---
 # <a name="new-features-and-enhancements"></a>Новые функции и усовершенствования
 
@@ -32,7 +32,7 @@ ms.locfileid: "104133287"
 
 -   Редакторы на базе сторонних методов ввода
 
-## <a name="storage-and-file-system"></a>Хранилище и файловая система
+## <a name="storage-and-file-system"></a>служба хранилища и файловая система
 
 -   Отслеживание измененных диапазонов файла в Windows 8.1
 -   Новый API позволяет приложениям отсылать подсказки "обрезать и отменить сопоставление" на носитель хранилища
@@ -46,9 +46,9 @@ ms.locfileid: "104133287"
 
 -   Поддержка USB 3,0
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjint40.dll
-ms.openlocfilehash: cba2d09f9865c43a5b64a34783c621c783c7aac3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0377b8507507b40c5b17c3d9bb6861e5077f8c7bb763b51c66289ab1819f9cc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815474"
 ---
 # <a name="cchlszofid2-function"></a>Функция CchLszOfId2
 
@@ -66,11 +66,11 @@ UINT CchLszOfId2(
 
 Эта функция возвращает декодированную строку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faf90cb9567822ef578bdf01805648a2dabd02db
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5d642b0d253abca4ea7c5f224353f5544b5307df5237e958c32e37b98ff2e01f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742007"
 ---
 # <a name="glgetlightfv-function"></a>Функция Глжетлигхтфв
 
@@ -86,7 +86,7 @@ void WINAPI glGetLightfv(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжетлигхт** возвращает в *params* значение или значения параметра источника освещения. Параметр *Light* именует источник света, а — символическое имя формы GL \_ Light *i* для 0 = *i* < \_ «максимальные \_ огни», где «индикаторы» GL — это \_ \_ зависящая от реализации константа, которая больше или равна восьми. Параметр *pname* задает один из десяти исходных параметров источника, опять же, с помощью символьного имени.
 

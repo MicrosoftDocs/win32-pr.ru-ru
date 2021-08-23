@@ -4,18 +4,18 @@ ms.assetid: 8b1da4a3-0b82-4b71-8a32-59e90025cbfa
 title: Импорт Админексекутесекуенце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e5cfef89ada780d9ce647f45667fdc34cc5b01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8de646049fed05f881b61c4b635af3bc9d2caed09512a1ec89853066b0ba99c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787384"
 ---
 # <a name="importing-the-adminexecutesequence"></a>Импорт Админексекутесекуенце
 
 В [таблице админексекутесекуенце](adminexecutesequence-table.md) перечислены действия, выполняемые установщиком при вызове [действия администратора](admin-action.md)верхнего уровня. См. раздел [таблицы процедур установки](installation-procedure-tables-group.md), [Использование таблицы последовательности](using-a-sequence-table.md)и [подробный пример таблицы последовательности](sequence-table-detailed-example.md).
 
-Если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [Использование таблицы последовательностей](using-a-sequence-table.md). Изменения этих последовательностей не требуются для создания образца установочного пакета Notepad.
+если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [использование таблицы последовательностей](using-a-sequence-table.md). изменения в этих последовательностях не должны быть необходимы для создания Блокнот образца установочного пакета.
 
 Используйте редактор базы данных, чтобы открыть MNP2000.msi и ввести в таблицу Админексекутесекуенце следующие данные.
 

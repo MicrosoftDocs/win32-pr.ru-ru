@@ -4,12 +4,12 @@ ms.assetid: 37fa870a-6f38-44ae-943e-27697f6b9fba
 title: Безопасность и доверие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4e3039f8aa93c2ae563a918177462cd09a217af
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 99806fa3256dfd08d8f4a14c70620c767331fb3cb95b83a7ecd6940b04c155cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "105647753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708204"
 ---
 # <a name="security-and-trust"></a>Безопасность и доверие
 
@@ -61,7 +61,7 @@ ms.locfileid: "105647753"
  
 
 > [!Note]  
-> Свойства [InkCollector. Handle](/previous-versions/ms836504(v=msdn.10)) и [InkOverlay. Handle](/previous-versions/ms833109(v=msdn.10)) не нуждаются в разрешении [SecurityPermissionFlag. UnmanagedCode](/previous-versions/windows/) , если этот обработчик предназначен для Windows Formsного элемента управления, но для других окон.
+> свойства [InkCollector. handle](/previous-versions/ms836504(v=msdn.10)) и [InkOverlay. handle](/previous-versions/ms833109(v=msdn.10)) не нуждаются в разрешении [SecurityPermissionFlag. UnmanagedCode](/previous-versions/windows/) , если этот обработчик предназначен для Windows Formsного элемента управления, но для других окон.
 
  
 
@@ -75,7 +75,7 @@ ms.locfileid: "105647753"
 Ниже приведены некоторые другие известные вопросы безопасности.
 
 -   Чтобы веб-элементы управления работали правильно, требуется Microsoft Internet Explorer 6 или более поздняя версия. В Internet Explorer 5,5 только начальные управляемые элементы управления загружаются; Дополнительные элементы управления нельзя загружать динамически во время выполнения.
--   Если используется Windows XP с пакетом обновления 2 (SP2) и CLR 1.0, то для веб-элементов управления в Internet Explorer требуется добавить сайт в качестве доверенного сайта, даже если они находятся в зоне интрасети. Однако при этом они больше не будут выполняться в зоне доверенного сайта, хотя они выполняются в зоне интрасети. Эта проблема устранена в среде CLR 1.1.
+-   если используется Windows XP с пакетом обновления 2 (sp2) и clr 1.0, то для веб-элементов управления в Internet Explorer требуется добавить сайт в качестве доверенного сайта, даже если они находятся в зоне интрасети. Однако при этом они больше не будут выполняться в зоне доверенного сайта, хотя они выполняются в зоне интрасети. Эта проблема устранена в среде CLR 1.1.
 
  
 

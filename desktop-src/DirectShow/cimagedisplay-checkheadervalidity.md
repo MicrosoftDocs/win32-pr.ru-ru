@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 803e8cd1a70c68f3e20c320978e9a350bdf23bdb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 25c8ce12f7e383e04942184e3897d0ddc52700a1a621844719d94f54f60203ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652364"
 ---
 # <a name="cimagedisplaycheckheadervalidity-method"></a>Цимажедисплай. Чеккхеадервалидити, метод
 
@@ -53,22 +53,22 @@ BOOL CheckHeaderValidity(
 
 Возвращает **значение true** , если **битмапинфохеадер** является допустимым, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод проверяет, что размеры изображения не отрицательны; тип сжатия — BI \_ RGB или BI \_ битовых полей; глубина цвета и цветовая маска являются допустимыми; элемент **бипланес** равен единице, а элементы **бисизе** и **бисизеимаже** являются правильными. Он также проверяет наличие типичных ошибок в записях палитры, если таковые имеются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

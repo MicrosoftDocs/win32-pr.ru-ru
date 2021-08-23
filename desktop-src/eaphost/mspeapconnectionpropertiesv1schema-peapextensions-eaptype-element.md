@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4f3d0b6fb0d10056df3a9e3d3e62d08aee1ec885
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c498a187d5cced65d400a90352f6344d9bfc0ac79b63afb241a8c346c1f6cb28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738884"
 ---
 # <a name="peapextensions-eaptype-element-connection-property"></a>Элемент Пеапекстенсионс (Еаптипе) (свойство Connection)
 
@@ -33,7 +33,7 @@ ms.locfileid: "105703571"
 
 Элемент **пеапекстенсионс** определяется элементом [**еаптипе**](mspeapconnectionpropertiesv1schema-eaptype-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **пеапекстенсионс** является необязательным.
 
@@ -43,8 +43,8 @@ ms.locfileid: "105703571"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Сервер<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Клиент<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Сервер<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

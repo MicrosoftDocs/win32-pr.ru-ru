@@ -3,7 +3,7 @@ title: Структура MCI_VCR_STATUS_PARMS (видеомагнитофон. 
 description: '\_ \_ Структура пармс состояния видеомагнитофона MCI \_ содержит параметры команды "состояние MCI" \_ для устройств записи видеокассет.'
 ms.assetid: 5d7cbb64-a81d-4bdd-8f07-8c20dd7b9ef5
 keywords:
-- MCI_VCR_STATUS_PARMS структура мультимедиа Windows
+- структура MCI_VCR_STATUS_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0b197acfa0e170a9ab199cd6d6c51a64e14c320
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8569a278f697ed816085c4fc8f313502d2994215519fb2452f82e63ce31a80cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783924"
 ---
 # <a name="mci_vcr_status_parms-structure"></a>\_ \_ Структура пармс состояния видеомагнитофона MCI \_
 
@@ -79,7 +79,7 @@ typedef struct tagMCI_VCR_STATUS_PARMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

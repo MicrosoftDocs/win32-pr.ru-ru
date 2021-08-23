@@ -4,12 +4,12 @@ ms.assetid: 00937acb-1ce2-44f6-96a1-69e5dbb665f6
 title: System. Испиннедтонамеспацетри
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31058aff69c26df9da4c6baea02a809a9a1b3fd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ced83fdcd60ea50b8791033aa331758bc808535ab84996daafe7e779dd85f455
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716574"
 ---
 # <a name="systemispinnedtonamespacetree"></a>System. Испиннедтонамеспацетри
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

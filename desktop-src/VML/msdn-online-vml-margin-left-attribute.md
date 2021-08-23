@@ -4,27 +4,27 @@ description: Атрибут VML Margin-Left
 ms.assetid: 65488c47-06c2-4a8f-8d29-4837865465f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f98900e862f22f31ad444bc6fb6f372627eca1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d4f403c19e617f8131886d3f4a862ff1ac0b878edbd2acf2fd0e27cb17b3406c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680825"
 ---
 # <a name="vml-margin-left-attribute"></a>Атрибут VML Margin-Left
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Задает левый конец содержащего прямоугольника фигуры относительно привязки фигуры. Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -42,7 +42,7 @@ ms.locfileid: "104338364"
 
 Обратите внимание, что для написания скрипта вместо **поля по левому** краю используется **MarginLeft** . Также обратите внимание, что если **положение** **абсолютное**, поле не изменится.
 
-Это свойство используется вместо **левой** для фигур в Microsoft Word и Microsoft Excel, которые находятся в позиции относительно точки привязки.
+это свойство используется вместо **левой** для фигур в Microsoft Word и Microsoft Excel, которые находятся в позиции относительно точки привязки.
 
 К этим значениям относятся следующие.
 
@@ -56,7 +56,7 @@ ms.locfileid: "104338364"
 
 
 
- 
+ 
 
 *Стандартный атрибут VML*
 
@@ -79,6 +79,6 @@ ms.locfileid: "104338364"
 
 [Пример атрибута Margin-Left](/previous-versions/visualstudio/design-tools/expression-studio-3/ee371308(v=expression.40)#examples). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

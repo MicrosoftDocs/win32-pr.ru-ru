@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW (VFW. h)
 description: Сообщение ICM \_ Draw уведомляет драйвер подготовки, чтобы распаковать кадр данных и нарисовать его на экране.
 ms.assetid: eceb42c6-d91a-45b7-98dc-e0944df3e558
 keywords:
-- ICM_DRAW сообщения Windows мультимедиа
+- сообщение ICM_DRAW Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0840c6df2c69f4d3e45600cf8599c214b36200a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e44216e523da62e0dde22abed8d88b9b8aacd8f68119a88f3177f45ecd910029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784994"
 ---
 # <a name="icm_draw-message"></a>\_Сообщение о выводе ICM
 
@@ -56,7 +56,7 @@ lParam = sizeof(ICDRAW);
 
 Возвращает ИЦЕРР \_ ОК в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если установлен \_ флаг обновления икдрав в элементе **dwFlags** [**икдрав**](/windows/desktop/api/Vfw/ns-vfw-icdraw), то область экрана, используемая для рисования, недопустима и должна быть обновлена. Степень обновления зависит от содержимого элемента **лпдата** .
 
@@ -68,7 +68,7 @@ lParam = sizeof(ICDRAW);
 
 Если требуется, чтобы драйвер распаковать данные в буфер, отправьте сообщение [**ICM \_ unуплотнение**](icm-decompress.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ lParam = sizeof(ICDRAW);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

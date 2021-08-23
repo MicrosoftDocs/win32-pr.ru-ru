@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 54b599ed3124c0d06468bd15589d6aa8a93fb7c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fb9ee76a0b8336ccdca90a04ee3c2a223b7269a30a00276418d6c46a8bb3abc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800904"
 ---
 # <a name="setshareinfo-method-of-the-win32_share-class"></a>Метод Сетшареинфо \_ класса общего ресурса Win32
 
@@ -106,7 +106,7 @@ uint32 SetShareInfo(
 **Другие** (26 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **сетшареинфо** является динамическим методом объекта и используется для вхождения этого класса.
 
@@ -124,7 +124,7 @@ $newShare = Get-WmiObject win32_share | Where-Object {$_.name -eq "newShare"}
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -138,7 +138,7 @@ $newShare = Get-WmiObject win32_share | Where-Object {$_.name -eq "newShare"}
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

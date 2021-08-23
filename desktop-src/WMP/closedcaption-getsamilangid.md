@@ -3,9 +3,9 @@ title: Клоседкаптион. Жетсамилангид, метод
 description: Метод Жетсамилангид извлекает идентификатор локали (LCID) языка, поддерживаемого текущим файлом SAMI.
 ms.assetid: 35f8379a-a2f5-4b22-b1ad-3c5cc5bc5e3d
 keywords:
-- Жетсамилангид метод Windows Media Player
-- Жетсамилангид метод Windows Media Player, класс Клоседкаптион
-- Класс Клоседкаптион Windows Media Player, метод Жетсамилангид
+- проигрыватель Windows Media метода жетсамилангид
+- проигрыватель Windows Media метода жетсамилангид, класс клоседкаптион
+- класс клоседкаптион проигрыватель Windows Media, метод жетсамилангид
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd543c9cb9d884022d78a875a2f8de078c479b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7317bff13b0dcf29157e4a31c1b854fff781d93460633b64485670fab64e6f1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764044"
 ---
 # <a name="closedcaptiongetsamilangid-method"></a>Клоседкаптион. Жетсамилангид, метод
 
@@ -53,13 +53,13 @@ retVal = ClosedCaption.getSAMILangID(
 
 Этот метод возвращает **число** (**Long**), содержащее LCID языка с указанным индексом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Языки в файле SAMI индексируются в порядке, указанном в файле, начиная с нуля.
 
 Этот метод нельзя использовать до открытия файла цифрового мультимедиа (*Player*.**Опенстате** равен 13).
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="requirements"></a>Требования
 
@@ -67,7 +67,7 @@ retVal = ClosedCaption.getSAMILangID(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

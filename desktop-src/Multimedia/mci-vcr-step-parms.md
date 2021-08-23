@@ -3,7 +3,7 @@ title: Структура MCI_VCR_STEP_PARMS (видеомагнитофон. h)
 description: '\_Структура шага пармс видеомагнитофона MCI \_ \_ содержит параметры для \_ команды шага MCI для устройств записи видеокассет.'
 ms.assetid: 57751de6-d174-418f-8167-402d3ead4e24
 keywords:
-- MCI_VCR_STEP_PARMS структура мультимедиа Windows
+- структура MCI_VCR_STEP_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a616b31500a2c814edb3dd443586131ed0ffae7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f25e79903a694b6537e88d1c58994d1f39ccf958ea95f40f571a267239a055e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783837"
 ---
 # <a name="mci_vcr_step_parms-structure"></a>\_ \_ Пармсная структура шага видеомагнитофона MCI \_
 
@@ -55,11 +55,11 @@ typedef struct tagMCI_VCR_STEP_PARMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных элементам этой структуры установите соответствующие флаги в параметре *Фдвкомманд* [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ typedef struct tagMCI_VCR_STEP_PARMS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

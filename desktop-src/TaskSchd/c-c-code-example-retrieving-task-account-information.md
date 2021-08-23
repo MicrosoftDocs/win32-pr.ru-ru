@@ -7,12 +7,12 @@ keywords:
 - получение свойств рабочего элемента планировщик задач, сведения об учетной записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1102ce0c2a2a98e66c1ac943eeab0593fe75e189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce068589ee1284f4c0b655994c9ea13b6fd63affca8146330e93aef12157cb2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738864"
 ---
 # <a name="cc-code-example-retrieving-task-account-information"></a>Пример кода C/C++: получение сведений об учетной записи задачи
 
@@ -120,16 +120,16 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

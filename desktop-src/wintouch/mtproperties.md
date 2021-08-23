@@ -3,18 +3,18 @@ title: Свойства (IManipulationProcessor)
 description: Этот раздел содержит свойства интерфейса IManipulationProcessor.
 ms.assetid: 0f8a3e27-a92f-4086-9573-6c7bbe7efd20
 keywords:
-- Windows Touch, интерфейс IManipulationProcessor
-- Касание Windows, свойства интерфейса
+- Windows Сенсорный ввод, интерфейс IManipulationProcessor
+- Windows Сенсорный ввод, свойства интерфейса
 - манипуляции, интерфейс IManipulationProcessor
 - Интерфейс IManipulationProcessor, свойства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b43ab3753753c05d67db3c6351387531be3fb4d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a0f8e43c5b74ea52d36586f7d6f0bb2ed10e76a579d5f3795c1c53f19fa501e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709544"
 ---
 # <a name="properties-imanipulationprocessor"></a>Свойства (IManipulationProcessor)
 
@@ -36,7 +36,7 @@ ms.locfileid: "103988145"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

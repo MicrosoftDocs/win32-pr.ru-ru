@@ -4,12 +4,12 @@ ms.assetid: 9cfe75ae-cd9c-41c6-ae05-990d6b27fb04
 title: Баундингфрустум. Origin (Директксколлисион. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8769ff8ff60d115d9aca45c215945170c1b1af34
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da59c06b7fb65501d882c376bc40ab5c366aa3ab5a1764d8b0066a3e89c4d582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740844"
 ---
 # <a name="boundingfrustumorigin"></a>Баундингфрустум. Origin
 
@@ -23,11 +23,11 @@ public:
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -35,7 +35,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксколлисион. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксколлисион. h</dt> </dl> |
 
 
 
@@ -43,7 +43,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 <dl> <dt>
 
-[Fields](boundingfrustum-fields.md)
+[Поля](boundingfrustum-fields.md)
 </dt> <dt>
 
 **Ссылки**

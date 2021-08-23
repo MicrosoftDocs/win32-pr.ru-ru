@@ -9,12 +9,12 @@ keywords:
 - Макрос МЦивндпутдест
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cd0889b40204e7c99ec782e454dba2cdeebfe79
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 712dddf0d022b63bccb3c64157df796585569b72604dc82746417d725c4135dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103789757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805754"
 ---
 # <a name="providing-controls-for-cropping-and-stretching-images"></a>Предоставление элементов управления для обрезки и растяжения изображений
 
@@ -37,8 +37,8 @@ ms.locfileid: "103789757"
 > [!Note]  
 > Макрос [**мЦивндпутдест**](/windows/desktop/api/Vfw/nf-vfw-mciwndputdest) не изменяет размер области воспроизведения. Чтобы растянуть окно МЦивнд вместе с прямоугольником назначения, необходимо знать текущий размер окна МЦивнд и выдать новые размеры окон на основе прямоугольника назначения. Вы можете получить размеры окна МЦивнд с помощью функции [жетвиндоврект](/windows/win32/api/winuser/nf-winuser-getwindowrect) и изменить размер окна мЦивнд с помощью функции [SetWindowPos](/windows/win32/api/winuser/nf-winuser-setwindowpos) .
 
- 
+ 
 
- 
+ 
 
- 
+ 

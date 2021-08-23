@@ -4,12 +4,12 @@ ms.assetid: d81d6438-c470-4ae5-8016-8d816bcba9b8
 title: Сообщение WM_IME_COMPOSITIONFULL (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f33051ac3e4e893eb803d4b13d7bfbf53751258b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 954a5f91283ca5c4944c274d422508ef0b91b55b8acc34f790cf446f93a598ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811494"
 ---
 # <a name="wm_ime_compositionfull-message"></a>\_Сообщение компоситионфулл редактора IME WM \_
 
@@ -37,13 +37,13 @@ LRESULT CALLBACK WindowProc(
 
 Это сообщение не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для указания способа отображения окна приложение должно использовать команду [ИМК \_ сеткомпоситионвиндов](imc-setcompositionwindow.md) .
 
 Окно IME, а не редактор IME, отправляет это сообщение уведомления функцией [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -51,11 +51,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

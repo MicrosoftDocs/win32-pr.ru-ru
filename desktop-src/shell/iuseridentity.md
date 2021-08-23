@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 068d806086aff44db172a4a7b09f55b600204478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7e721f60198791e530300d5181abaa84e96c1a04f285972314ab866dd86215f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104985401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713784"
 ---
 # <a name="iuseridentity-interface"></a>Интерфейс Иусеридентити
 
@@ -49,7 +49,7 @@ ms.locfileid: "104985401"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот интерфейс предоставляет сведения, соответствующие конкретному удостоверению пользователя, присутствующему в системе. Вы можете получить доступ к папке удостоверений этого пользователя, ключу реестра и файлу cookie для идентификации, а также получить имя, связанное с удостоверением пользователя.
 
@@ -63,7 +63,7 @@ ms.locfileid: "104985401"
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/>    | Windows 2000 Server<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 

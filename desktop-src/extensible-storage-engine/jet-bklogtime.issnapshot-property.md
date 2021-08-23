@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 519309e47df2c3607b5a31838a8ea06f75c51c1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b744ebe8adce1ee05576555ac68b995a476fc667f9bad197f7dd64ec3d1bdcda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781124"
 ---
 # <a name="jet_bklogtimeissnapshot-property"></a>JET_BKLOGTIME. Свойство Snapshot
 
@@ -60,7 +60,7 @@ public bool IsSnapshot { get; }
 
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

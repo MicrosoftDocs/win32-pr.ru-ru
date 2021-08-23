@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bbb57a1b50f3ad39525b894932f7111b56c3a076
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a30e1d8d18d5abe4d4c429cc27333cf8884e46979f1a0e1058bd0a33f54f5a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780344"
 ---
 # <a name="jetsetsystemparameter-function"></a>Функция Жетсетсистемпараметер
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetsetsystemparameter-function"></a>Функция Жетсетсистемпараметер
 
@@ -52,9 +52,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Указывает экземпляр, используемый для этого вызова.
 
-**Windows 2000:**  Для Windows 2000 этот параметр игнорируется и всегда должен иметь **значение NULL**.
+**Windows 2000:**  для Windows 2000 этот параметр игнорируется и всегда должен иметь **значение NULL**.
 
-**Windows XP:**  Для Windows XP и более поздних версий этот параметр несколько перегружен. Если ядро работает в устаревшем режиме (режим совместимости Windows 2000), где поддерживается только один экземпляр, этот параметр может иметь **значение NULL** или содержать фактический экземпляр, возвращаемый функцией [жетинит](./jetinit-function.md). В любом случае все параметры системного параметра считываются из одного экземпляра. Если ядро работает в режиме с несколькими экземплярами, этот параметр может иметь **значение NULL** или указатель на экземпляр, созданный с помощью [жетинит](./jetinit-function.md) или [жеткреатеиндекс](./jetcreateindex-function.md). Если этот параметр имеет **значение NULL** , то считывается параметр глобального системного параметра (или значение по умолчанию). Если этот параметр является экземпляром, то параметр системного параметра для этого экземпляра считывается.
+**Windows XP:**  для Windows XP и более поздних выпусков этот параметр несколько перегружен. если ядро работает в устаревшем режиме (режим совместимости Windows 2000), где поддерживается только один экземпляр, этот параметр может иметь **значение NULL** или содержать фактический экземпляр, возвращаемый функцией [жетинит](./jetinit-function.md). В любом случае все параметры системного параметра считываются из одного экземпляра. Если ядро работает в режиме с несколькими экземплярами, этот параметр может иметь **значение NULL** или указатель на экземпляр, созданный с помощью [жетинит](./jetinit-function.md) или [жеткреатеиндекс](./jetcreateindex-function.md). Если этот параметр имеет **значение NULL** , то считывается параметр глобального системного параметра (или значение по умолчанию). Если этот параметр является экземпляром, то параметр системного параметра для этого экземпляра считывается.
 
 Несмотря на то, что это технически параметр out, этот API никогда не изменяет содержимое предоставленного буфера.
 
@@ -78,7 +78,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -95,7 +95,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="odd">
 <td><p>JET_errSuccess</p></td>
 <td><p>Операция выполнена успешно.</p>
-<p><strong>Windows Vista:</strong>  В Windows Vista и более поздних выпусках успешное выполнение может быть возвращено без изменения значения системного параметра. Дополнительные сведения см. в описании параметра JET_paramEnableAdvanced System в разделе " <a href="gg269346(v=exchg.10).md">Параметры meta</a> ".</p></td>
+<p><strong>Windows Vista:</strong>  в Windows Vista и более поздних выпусках успешного выполнения может быть возвращено без изменения значения системного параметра. Дополнительные сведения см. в описании параметра JET_paramEnableAdvanced System в разделе " <a href="gg269346(v=exchg.10).md">Параметры meta</a> ".</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errAlreadyInitialized</p></td>
@@ -108,7 +108,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_errIndexTuplesInvalidLimits</p></td>
 <td><p>Указаны недопустимые параметры индекса кортежа. Эта ошибка может возвращаться <strong>жетсетсистемпараметер</strong> только при задании недопустимых значений <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMin</a>, <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesLengthMax</a>или <a href="gg294119(v=exchg.10).md">JET_paramIndexTuplesToIndexMax</a> .</p>
-<p><strong>Windows XP и Windows Server 2003:</strong>  Это может произойти только в Windows XP и Windows Server 2003.</p></td>
+<p><strong>Windows XP и Windows Server 2003:</strong>  это может произойти только в Windows XP и Windows Server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInitInProgress</p></td>
@@ -117,7 +117,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p><strong>Windows XP:</strong>  эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errInvalidParameter</p></td>
@@ -126,17 +126,17 @@ _**Применимо к:** Windows | Windows Server_
 <li><p>Указанный идентификатор системного параметра является недопустимым или не поддерживается.</p></li>
 <li><p>Предпринята попытка установить системный параметр с строковыми значениями, длина которого находилась вне допустимого диапазона для параметра.</p></li>
 <li><p>Предпринята попытка установить системный параметр с символьным значением, где длина его абсолютного пути находилась вне допустимого диапазона для этого параметра.</p>
-<p><strong>Windows Vista:</strong>  Это может произойти только в Windows Vista и более поздних выпусках.</p></li>
+<p><strong>Windows Vista:</strong>  это может произойти только в Windows Vista и более поздних выпусках.</p></li>
 <li><p>Предпринята попытка установить системный параметр с целочисленными значениями, который находится за пределами допустимого диапазона для параметра.</p></li>
 <li><p>Предпринята попытка задать JET_paramUnicodeIndexDefault с <strong>нулевым</strong> указателем <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> , недопустимым LCID или неподдерживаемым набором флагов LCMapString завершилось ошибкой.</p>
-<p><strong>Windows Vista:</strong>  Это может произойти только в Windows Vista и более поздних выпусках.</p></li>
+<p><strong>Windows Vista:</strong>  это может произойти только в Windows Vista и более поздних выпусках.</p></li>
 <li><p>Невозможно задать указанный системный параметр, так как он доступен только для чтения.</p></li>
 <li><p>Предпринята попытка установить системный параметр после вызова <a href="gg294068(v=exchg.10).md">жетинит</a> , ядро СУБД находится в режиме с одним экземпляром, а сеанс не был указан.</p>
-<p><strong>Windows XP и Windows Server 2003:</strong>  Это может произойти только в Windows XP и Windows Server 2003.</p></li>
+<p><strong>Windows XP и Windows Server 2003:</strong>  это может произойти только в Windows XP и Windows Server 2003.</p></li>
 <li><p>Указанный системный параметр является глобальным, и предпринята попытка установить для этого системного параметра значение конкретного экземпляра.</p>
-<p><strong>Windows XP и Windows Server 2003:</strong>  Это может произойти только в Windows XP и Windows Server 2003.</p></li>
+<p><strong>Windows XP и Windows Server 2003:</strong>  это может произойти только в Windows XP и Windows Server 2003.</p></li>
 <li><p>Указанный системный параметр доступен только для одного экземпляра, и предпринята попытка установить глобальное значение для этого системного параметра.</p>
-<p><strong>Windows XP и Windows Server 2003:</strong>  Это может произойти только в Windows XP и Windows Server 2003.</p></li>
+<p><strong>Windows XP и Windows Server 2003:</strong>  это может произойти только в Windows XP и Windows Server 2003.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -164,7 +164,7 @@ _**Применимо к:** Windows | Windows Server_
 <td><p>JET_errInvalidInstance</p></td>
 <td><p>Недопустимый указатель экземпляра или ссылка на экземпляр, который был завершен.</p>
 <p>Эта ошибка не возвращается при всех обстоятельствах. Дескрипторы проверяются только на основе наилучшей силы.</p>
-<p><strong>Windows Vista:</strong>  Эта ошибка будет возвращаться только в Windows Vista и более поздних выпусках.</p></td>
+<p><strong>Windows Vista:</strong>  эта ошибка будет возвращена только Windows Vista и более поздних выпусках.</p></td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ _**Применимо к:** Windows | Windows Server_
 
 При сбое параметр системного параметра останется неизменным.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 **Жетсетсистемпараметер** выполняет неплохое задание проверки выбранного параметра для каждого системного параметра. Необходимо соблюдать осторожность, чтобы не полагаться на эту проверку для применения правильных параметров. Обратите особое внимание на описание каждого системного параметра и следуйте этим рекомендациям для хорошего параметра системного параметра.
 
@@ -192,11 +192,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -218,7 +218,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_API_PTR](./jet-api-ptr.md)  
 [JET_ERR](./jet-err.md)  

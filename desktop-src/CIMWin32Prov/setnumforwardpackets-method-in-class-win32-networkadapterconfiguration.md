@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f46ecd62766b5df642dff1e52614171a513a8fca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1962746cffb64733d6935bb4ef655a96cce051cc67fb1a4f2e730e4ff5ce0d7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759754"
 ---
 # <a name="setnumforwardpackets-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетнумфорвардпаккетс \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -408,7 +408,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения числа разрешенных пересылаемых пакетов](https://Gallery.TechNet.Microsoft.Com/4123c28e-25c4-444e-818b-67bdbcc0cd4c) VBScript настраивает число передаваемых пакетов, выделенных очереди пакетов маршрутизатора.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -422,7 +422,7 @@ DHCP не включен на адаптере.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

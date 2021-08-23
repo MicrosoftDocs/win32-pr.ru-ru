@@ -1,19 +1,19 @@
 ---
-description: 'Используйте метод Ивиадевмгр:: Енумдевицеинфо (или IWiaDevMgr2:: Енумдевицеинфо) для перечисления устройств, установленных в системе для получения образа Windows (WIA).'
+description: 'используйте метод ивиадевмгр:: енумдевицеинфо (или IWiaDevMgr2:: енумдевицеинфо) для перечисления устройств Windowsного получения изображений (WIA), установленных в системе.'
 ms.assetid: 6465a33e-1b3b-4142-a58f-b27e9c95cd3e
 title: Перечисление системных устройств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d2d65879cd1fc8466f4ada638281ef496636b19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b6587d88b2836e057f0b6d7e31bd7f22d79c6220c51b407b621370d8524b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814264"
 ---
 # <a name="enumerating-system-devices"></a>Перечисление системных устройств
 
-Используйте метод [**ивиадевмгр:: енумдевицеинфо**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (или [**IWiaDevMgr2:: енумдевицеинфо**](-wia-iwiadevmgr2-enumdeviceinfo.md)) для перечисления устройств, установленных в системе для получения образа Windows (WIA). Этот метод создает объект перечисления для свойств устройств и возвращает указатель на интерфейс [**иенумвиа \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) , который поддерживает объект перечисления.
+используйте метод [**ивиадевмгр:: енумдевицеинфо**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo) (или [**IWiaDevMgr2:: енумдевицеинфо**](-wia-iwiadevmgr2-enumdeviceinfo.md)) для перечисления устройств Windowsного получения изображений (WIA), установленных в системе. Этот метод создает объект перечисления для свойств устройств и возвращает указатель на интерфейс [**иенумвиа \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) , который поддерживает объект перечисления.
 
 Затем можно использовать методы интерфейса [**иенумвиа \_ dev \_ info**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info) , чтобы получить указатель интерфейса [**ивиапропертистораже**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) для каждого устройства, установленного в системе.
 

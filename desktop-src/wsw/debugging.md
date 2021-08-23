@@ -1,5 +1,5 @@
 ---
-title: Отладка (веб-службы Windows)
+title: отладка (Windows веб-служб)
 description: Набор функций доступен только в ОТЛАДОЧной сборке и предназначен для тестирования и отладки.
 ms.assetid: 23c01420-3f51-4c3f-9ee1-2614de3a278f
 keywords:
@@ -8,14 +8,14 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cad0abe916e068408cfda48184aa86e40029203
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 135f81ec45028df098679c91d750915005bfc64b3ff7d072b0494badc98159fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838684"
 ---
-# <a name="debugging-windows-web-services"></a>Отладка (веб-службы Windows)
+# <a name="debugging-windows-web-services"></a>отладка (Windows веб-служб)
 
 Набор функций доступен только в ОТЛАДОЧной сборке и предназначен для тестирования и отладки.
 

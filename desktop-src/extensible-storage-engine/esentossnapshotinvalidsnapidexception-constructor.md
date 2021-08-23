@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 72198ac05459562da9fb96c27a7cc3408521980b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e487714d76895070c82ae575f6420510d4c4f9a35441ed890c8c9b15a4a43b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733544"
 ---
 # <a name="esentossnapshotinvalidsnapidexception-constructor"></a>Конструктор Есентосснапшотинвалидснапидексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentOSSnapshotInvalidSnapIdException()
 public EsentOSSnapshotInvalidSnapIdException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

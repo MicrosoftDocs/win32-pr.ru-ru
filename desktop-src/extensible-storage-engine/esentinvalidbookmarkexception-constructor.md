@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5fbd4741a4c17bed10ee3bf7fe528d260cbd4807
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6867c2222a0056bdeb435bd3bc76cef74dee018650f6bb851e5ea7688cdff3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837572"
 ---
 # <a name="esentinvalidbookmarkexception-constructor"></a>Конструктор Есентинвалидбукмаркексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentInvalidBookmarkException()
 public EsentInvalidBookmarkException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ ms.assetid: e4107c7b-3ec6-4a4b-bf18-13a082221f67
 title: Методы IEnroll4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c61c6cd86553f91e59f46afaad43a8993ca5db9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a31918fb1e29bff9776d853febbde7a57046087dac02867a04d1f4e322dcf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797264"
 ---
 # <a name="methods-of-ienroll4"></a>Методы IEnroll4
 
@@ -36,7 +36,7 @@ ms.locfileid: "105682773"
 | [**креатефилепфксвстр**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createfilepfxwstr)                                               | Сохраняет принятую цепочку сертификатов и закрытый ключ в файле в формате PFX.                                                                                                                                                                                                                         |
 | [**createFilePKCS10WStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll-createfilepkcs10wstr)                                         | Создает \# запрос сертификата PKCS 10 в кодировке Base64 и сохраняет его в файле.                                                                                                                                                                                                                        |
 | [**креатефилерекуествстр**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createfilerequestwstr)                                       | Создает \# запрос сертификата PKCS 10, \# запрос PKCS 7 или полный запрос сертификата CMC и сохраняет его в файле.                                                                                                                                                                               |
-| [**креатепфксвстр**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createpfxwstr)                                                       | Сохраняет принятую цепочку сертификатов и закрытый ключ в строке формата обмена личной информацией (PFX). Формат PFX также известен как PKCS \# 12.                                                                                                                                               |
+| [**креатепфксвстр**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createpfxwstr)                                                       | сохраняет принятую цепочку сертификатов и закрытый ключ в строке формата личной информации Exchange (PFX). Формат PFX также известен как PKCS \# 12.                                                                                                                                               |
 | [**createPKCS10WStr**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll-createpkcs10wstr)                                                 | Создает запрос сертификата PKCS 10 в кодировке Base64 \# .                                                                                                                                                                                                                                               |
 | [**CreatePKCS7RequestFromRequest**](/windows/win32/api/xenroll/nf-xenroll-ienroll-createpkcs7requestfromrequest)                       | Создает запрос PKCS \# 7 на основе существующего запроса на сертификат.                                                                                                                                                                                                                                      |
 | [**креатерекуествстр**](/windows/desktop/api/Xenroll/nf-xenroll-ienroll4-createrequestwstr)                                               | Создает \# запрос сертификата PKCS 10, PKCS \# 7 или полный формат CMC и сохраняет его в строке.                                                                                                                                                                                                      |

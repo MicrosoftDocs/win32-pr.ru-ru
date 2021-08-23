@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f878cb0e616cb710a33d350df866160fc0eebb83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c784fc9fac067c0cde07ad3e8911f9e09cd81b5cd3d7c76c16b1dd2407536838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694963"
 ---
 # <a name="cim_metricservicecapabilities-class"></a>\_Класс CIM метриксервицекапабилитиес
 
@@ -49,7 +49,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ метриксервицекапабилитиес** имеет следующие свойства.
 
@@ -67,7 +67,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ метриксервицекапабилитиес**.**Манажеделементконтролтипес**")
 </dt> </dl>
 
-Массив, содержащий идентификаторы экземпляров [**\_ манажеделемент CIM**](cim-managedelement.md) , управляемых службой метрик. Идентификаторы должны быть отформатированы как URI Web-Based Enterprise Management (WBEM). Чтобы использовать это свойство, служба метрик должна поддерживать включение или отключение по крайней мере одной метрики, определенной для экземпляра **CIM \_ манажеделемент** .
+Массив, содержащий идентификаторы экземпляров [**\_ манажеделемент CIM**](cim-managedelement.md) , управляемых службой метрик. идентификаторы должны быть отформатированы как uri Web-Based Enterprise Management (WBEM). Чтобы использовать это свойство, служба метрик должна поддерживать включение или отключение по крайней мере одной метрики, определенной для экземпляра **CIM \_ манажеделемент** .
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ метриксервицекапабилитиес**.**Метрикконтролтипес**")
 </dt> </dl>
 
-Массив, содержащий идентификаторы [**CIM \_ басеметрикдефинитион**](cim-basemetricdefinition.md) , определяющие метрики, управляемые службой метрик. Идентификаторы должны быть отформатированы как URI Web-Based Enterprise Management (WBEM).
+Массив, содержащий идентификаторы [**CIM \_ басеметрикдефинитион**](cim-basemetricdefinition.md) , определяющие метрики, управляемые службой метрик. идентификаторы должны быть отформатированы как uri Web-Based Enterprise Management (WBEM).
 
 Чтобы использовать это свойство, экземпляр [**CIM \_ басеметрикдефинитион**](cim-basemetricdefinition.md) должен быть связан с экземпляром [**CIM \_ метриксервице**](cim-metricservice.md) через класс [**CIM \_ сервицеаффектселемент**](cim-serviceaffectselement.md) . Кроме того, служба метрик должна поддерживать включение или отключение по крайней мере одной метрики, определенной экземпляром **CIM \_ басеметрикдефинитион** .
 
@@ -280,7 +280,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -294,7 +294,7 @@ class CIM_MetricServiceCapabilities : CIM_EnabledLogicalElementCapabilities
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

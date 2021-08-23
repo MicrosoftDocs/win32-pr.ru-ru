@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5992803a04a771aed716251bd25ca2eceb9f94d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 561541f170fbe6dc5342b359e5deae69d0c92469ad2d692ee4ea3b9d59904885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119737244"
 ---
 # <a name="imsrdpclient10-interface"></a>Интерфейс IMsRdpClient10
 
@@ -48,9 +48,9 @@ ms.locfileid: "104415072"
 | [**жетстатустекст**](imsrdpclient7-getstatustext.md)                               | Получает текст состояния для указанного кода состояния.<br/>                 |
 | [**жетвиртуалчаннелоптионс**](imsrdpclient-getvirtualchanneloptions.md)          | Извлекает параметры, заданные для виртуального канала.<br/>                         |
 | [**Повтор соединения**](imsrdpclient8-reconnect.md)                                       | Повторно подключается к удаленному сеансу, используя новые значения ширины и высоты рабочего стола.<br/>  |
-| [**RequestClose**](imsrdpclient-requestclose.md)                                  | Запрашивает корректное завершение работы элемента управления ActiveX удаленный рабочий стол.<br/>      |
+| [**RequestClose**](imsrdpclient-requestclose.md)                                  | запрашивает корректное завершение работы элемента управления удаленный рабочий стол ActiveX.<br/>      |
 | [**сендремотеактион**](imsrdpclient8-sendremoteaction.md)                         | Вызывает выполнение действия в удаленном сеансе.<br/>                  |
-| [**сетвиртуалчаннелоптионс**](imsrdpclient-setvirtualchanneloptions.md)          | Задает параметры виртуального канала для элемента управления ActiveX удаленный рабочий стол.<br/> |
+| [**сетвиртуалчаннелоптионс**](imsrdpclient-setvirtualchanneloptions.md)          | задает параметры виртуального канала для элемента управления ActiveX удаленный рабочий стол.<br/> |
 | [**синксессиондисплайсеттингс**](imsrdpclient9-syncsessiondisplaysettings.md)     | Синхронизирует параметры дисплея сеанса.<br/>                                   |
 | [**упдатесессиондисплайсеттингс**](/previous-versions/windows/desktop/legacy/mt703457(v=vs.85)) | Обновляет параметры вывода сеанса.<br/>                                        |
 
@@ -93,7 +93,7 @@ ms.locfileid: "104415072"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
@@ -103,7 +103,7 @@ ms.locfileid: "104415072"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                                                                                              |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                                                                                              |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                                                                                                           |
 | Библиотека типов<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                                                                                                   |

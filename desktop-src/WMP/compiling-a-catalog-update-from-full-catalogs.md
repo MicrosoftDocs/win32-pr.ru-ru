@@ -17,12 +17,12 @@ keywords:
 - полные каталоги
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abaa6d1bc0d3dbc4fefaffe1498be03259716a5e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 306412d98f315a6a63aa40974b03a51a388b6db5c9e09c8d5b8907ef2cc15704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763954"
 ---
 # <a name="compiling-a-catalog-update-from-full-catalogs"></a>Компиляция обновления каталога из полных каталогов
 
@@ -66,11 +66,11 @@ catcomp diff C:\Catalog210\ C:\Catalog211\ debug
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

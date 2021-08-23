@@ -4,12 +4,12 @@ description: Как работают уведомления
 ms.assetid: faf66654-8233-49ac-a0fa-6cae51df0bea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9665b327d164a4e105f8adba3328be284fbe1fa0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 68e90dfeb6e1df6de50ddaa3264a8c5475d280f30a72ad2d8c6acfffd39d60fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756374"
 ---
 # <a name="how-notifications-work"></a>Как работают уведомления
 
@@ -21,7 +21,7 @@ ms.locfileid: "104413861"
 
 Время уведомлений влияет на производительность и координацию между приложением объекта и его контейнерами. В то время как уведомления отправляются слишком часто, это приводит к слишком редкому получению уведомлений из-за несинхронизированного контейнера. Частоту уведомлений можно сравнивать с частотой, с которой приложение перерисовывается. Поэтому разумно использовать аналогичную логику для синхронизации уведомлений (как используется для перерисовки).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,6 +34,6 @@ ms.locfileid: "104413861"
 [Уведомления](notifications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

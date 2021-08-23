@@ -4,12 +4,12 @@ description: Серверы DLL будут совместно использов
 ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6a934f03d42113cf73df4f059ac108801d21ea
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34e159fff59144773633cfbe35bb1486e9eeb1014d02e23e0c9b95bcd817bb53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678414"
 ---
 # <a name="surrogate-sharing"></a>Общий доступ к суррогатам
 
@@ -42,7 +42,7 @@ ms.locfileid: "103774960"
 
 Два идентификатора CLSID для компонентов DLL comp1.dll и comp2.dll настроены для совместного использования AppID. Ключ [AppID](appid-key.md) указывает, что сервер DLL можно загрузить в суррогат, указав значение [дллсуррогате](dllsurrogate.md) . В этом примере значение **дллсуррогате** — это пустая строка, указывающая, что следует использовать системную реализацию СУРРОГАТНОЙ библиотеки DLL по умолчанию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -52,9 +52,9 @@ ms.locfileid: "103774960"
 [Регистрация сервера DLL для активации суррогатных символов](registering-the-dll-server-for-surrogate-activation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

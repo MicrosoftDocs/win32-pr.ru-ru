@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f9962ff94e8bf80041d7b61ecf97220d573131fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5998e26eab79d3e5f0b9e3628614e1cc2ecbfb7040e866a898a09ad54fa49f10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710724"
 ---
 # <a name="cpl_inquire-message"></a>\_Сообщение о запросах CPL
 
@@ -62,7 +62,7 @@ ms.locfileid: "108104472"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                      |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                             |
 | Заголовок<br/>                   | <dl> <dt>CPL. h</dt> </dl> |
 

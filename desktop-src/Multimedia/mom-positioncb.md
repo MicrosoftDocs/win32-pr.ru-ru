@@ -3,7 +3,7 @@ title: Сообщение MOM_POSITIONCB (Ммсистем. h)
 description: Сообщение о \_ должности MOM отправляется при \_ \_ достижении события обратного вызова мевт F в потоке вывода MIDI.
 ms.assetid: 0464d74d-7d1f-4aab-a9e7-03397872f3c0
 keywords:
-- MOM_POSITIONCB сообщения Windows мультимедиа
+- сообщение MOM_POSITIONCB Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5c9528e8f91778c53ed4761c98bb67d405ec14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d403d9d913628f6b00a7b36dba96d0f4d491f486ef9c3edf7a5c3d5a30c345f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807004"
 ---
 # <a name="mom_positioncb-message"></a>\_Сообщение MOM поситионкб
 
@@ -47,13 +47,13 @@ ms.locfileid: "103803665"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Воспроизведение буфера потока сохраняется даже во время выполнения функции обратного вызова. Все события после события **\_ \_ обратного вызова мевт F** в буфере будут планироваться и отправляться вовремя независимо от того, сколько времени тратится на функцию обратного вызова.
 
 Если обратные вызовы размещения создаются быстрее, чем приложение может их обработать, элемент **двоффсет** структуры [**мидихдр**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) может ссылаться на событие, которое еще не обработано приложением.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,11 +61,11 @@ ms.locfileid: "103803665"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 36b6ff00-7ea8-40e5-90f7-917cef117d4a
 title: Смещение нажатия кнопки мыши X в позиции курсора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f993de35ebffac4740b367927d1a8edf864a813e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e135efaccb6454e55999d21f00e762d749eb380751848aef88cf4b4e5b8e913
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693184"
 ---
 # <a name="translating-mouse-hit-x-offset-to-caret-position"></a>Смещение нажатия кнопки мыши X в позиции курсора
 
@@ -29,7 +29,7 @@ iCaretPos = iCharPos + fTrailing;
 
 Для скриптов, которые привязывают курсор к границам кластера, вызов [**скрипткстокп**](/windows/desktop/api/Usp10/nf-usp10-scriptxtocp) возвращает параметру *фтраилинг* значение 0 или ширину кластера в кодовых позициях.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

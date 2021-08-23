@@ -4,12 +4,12 @@ ms.assetid: 023FD791-BD43-41F6-95D0-8BE800F51579
 title: Свойство CODECAPI_AVEncVideoMaxNumRefFrame (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e8f5a7794410012bd1a025e794e1fd23f4b332
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 4e11e7325628f0e7c1e6560d3fc734b34e8a032a3fbf3630aa1fb5959cec33a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104157007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606424"
 ---
 # <a name="codecapi_avencvideomaxnumrefframe-property"></a>КОДЕКАПИ \_ авенквидеомакснумреффраме, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "104157007"
 
 **КОДЕКАПИ \_ авенквидеомакснумреффраме**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для H. 264 это соответствует параметру последовательности Set **Max \_ NUM \_ ref \_ frames** , как определено в спецификации H. 264.
 
@@ -37,19 +37,19 @@ ms.locfileid: "104157007"
 
 Рекомендуемое значение по умолчанию — 2.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -28,5 +28,5 @@
           href: password-threat-assessment.md
         - name: Методы устранения угроз
           href: threat-mitigation-techniques.md
-    - name: Оптимизация поиска в библиотеке MSDN
+    - name: оптимизация поиска библиотека MSDN
       href: how-to-optimize-your-msdn-library-search.md

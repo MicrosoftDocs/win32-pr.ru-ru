@@ -1,22 +1,22 @@
 ---
-description: 'Функции Windows API, управляющие символами, обычно реализуются в одном из трех форматов:'
+description: 'Windows Функции API, управляющие символами, обычно реализуются в одном из трех форматов:'
 ms.assetid: e7698f0b-dbcb-4cd0-9cb5-23a26edb966a
 title: Юникод в Windows API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5686a7f65edefb11458374b7f72262448becd6d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0c36e1e292eddd786d4c4bf336f980486f66870deb809587f9c51334f269ce9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764814"
 ---
 # <a name="unicode-in-the-windows-api"></a>Юникод в Windows API
 
-Функции Windows API, управляющие символами, обычно реализуются в одном из трех форматов:
+Windows Функции API, управляющие символами, обычно реализуются в одном из трех форматов:
 
--   Универсальная версия, которая может быть скомпилирована либо для кодовых страниц Windows, либо для Юникода
--   Версия [кодовой страницы Windows](code-pages.md) с буквой "A", используемой для обозначения "ANSI"
+-   универсальная версия, которая может быть скомпилирована либо для Windows кодовых страниц, либо для юникода
+-   версия [кодовой страницы Windows](code-pages.md) с буквой "A", используемой для обозначения "ANSI"
 -   Версия в [Юникоде](unicode.md) с буквой "W", используемой для обозначения "Wide"
 
 Некоторые новые функции поддерживают только версии Юникода. Дополнительные сведения см. в разделе [соглашения для прототипов функций](conventions-for-function-prototypes.md).
@@ -32,7 +32,7 @@ ms.locfileid: "105683839"
 -   [Преобразование между строковыми типами](translation-between-string-types.md)
 -   [Windows Data Types for Strings](windows-data-types-for-strings.md) (Типы данных Windows для работы со строками)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

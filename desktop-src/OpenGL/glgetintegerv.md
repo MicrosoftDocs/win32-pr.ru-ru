@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff54bea162f853338fbd396a823e50164987aa8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7541a6bd759424658726cf7d01b28b30121061d156fcb00d1f1e57443a4cd486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741984"
 ---
 # <a name="glgetintegerv-function"></a>Функция Глжетинтежерв
 
@@ -305,7 +305,7 @@ void WINAPI glGetIntegerv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция возвращает значения для переменных простого состояния в OpenGL. Параметр *pname* представляет собой символьную константу, указывающую переменную состояния, которая должна быть возвращена, а *params* — это указатель на массив указанного типа, в который будут размещены возвращаемые данные.
 

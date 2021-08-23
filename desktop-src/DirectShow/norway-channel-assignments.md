@@ -4,12 +4,12 @@ ms.assetid: 5c274035-79aa-4967-9c1a-79f888fed71e
 title: Назначения каналов Норвегии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1911f4212b49784354f36377832af58bf4c46121
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc95f6531e02bf1c4eec3e736c78d81f0aafabdada32256ab3e22c50072a9619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684584"
 ---
 # <a name="norway-channel-assignments"></a>Назначения каналов Норвегии
 
@@ -17,7 +17,7 @@ ms.locfileid: "104537697"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 ## <a name="cable-assignments"></a>Назначения кабелей
 
@@ -134,7 +134,7 @@ ms.locfileid: "104537697"
        855250000L,      // 107 UHF69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

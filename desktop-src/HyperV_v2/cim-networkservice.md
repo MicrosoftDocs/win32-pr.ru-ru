@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b141e6e38f2fafefdf6e75670b975e0fcdd2961c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfb2ea7b122516cc3b62f675684649e22577171f713856638f97985d9713e8d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694694"
 ---
 # <a name="cim_networkservice-class"></a>\_Класс сетевой NetworkService CIM
 
@@ -47,7 +47,7 @@ class CIM_NetworkService : CIM_Service
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ NetworkService CIM** имеет эти свойства.
 
@@ -137,7 +137,7 @@ class CIM_NetworkService : CIM_Service
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -151,7 +151,7 @@ class CIM_NetworkService : CIM_Service
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

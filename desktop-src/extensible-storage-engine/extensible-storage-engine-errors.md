@@ -1,27 +1,27 @@
 ---
-description: 'Дополнительные сведения: ошибки расширенного подсистемы хранилища'
-title: Ошибки расширяемого подсистемы хранилища
+description: 'дополнительные сведения: ошибки расширяемых механизмов служба хранилища'
+title: ошибки расширенного обработчика служба хранилища
 TOCTitle: Extensible Storage Engine Errors
 ms:assetid: 0c071ed6-0ea2-448b-9f9f-e606c5abf3db
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269184(v=EXCHG.10)
 ms:contentKeyID: 32765487
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 55c86d51f44414688897d6450adf214a0478f7d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0ee0a4423d5b37913bd7922af07a7b2196a30176b2a1adca37240e03a28594
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721464"
 ---
-# <a name="extensible-storage-engine-errors"></a>Ошибки расширяемого подсистемы хранилища
+# <a name="extensible-storage-engine-errors"></a>ошибки расширенного обработчика служба хранилища
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-## <a name="extensible-storage-engine-errors"></a>Ошибки расширяемого подсистемы хранилища
+## <a name="extensible-storage-engine-errors"></a>ошибки расширенного обработчика служба хранилища
 
-Все возможные ошибки, возвращаемые API-интерфейсом модуля расширенного хранилища (ESE), определяются типом данных [JET_ERR](./jet-err.md) . Список флагов ошибок, определенных для этого API, см. в разделе [расширенные коды ошибок подсистемы хранилища](./extensible-storage-engine-error-codes.md).
+все возможные ошибки, возвращаемые API-интерфейсом расширяемого служба хранилища Engine (ESE), определяются типом данных [JET_ERR](./jet-err.md) . список флагов ошибок, определенных для этого API, см. в разделе [коды ошибок расширенных служба хранилища Engine](./extensible-storage-engine-error-codes.md).
 
 В документации по API-интерфейсу ESE документированы только наиболее важные ошибки. Эти ошибки обычно представляют ошибки использования API или очень важные условия возникновения ошибок. Имейте в виду, что любой из этих API-интерфейсов ESE также может возвращать другие ошибки, не описанные для каждого API. В таких случаях вызывающий объект должен просто обменять ошибку, как и любые другие ошибки, возвращаемые API. Конкретное значение ошибки может использоваться для диагностики, таких как трассировка.
 
@@ -66,10 +66,10 @@ _**Применимо к:** Windows | Windows Server_
 
 Сведения о настройке системных параметров для обработки ошибок см. в разделе [Параметры обработки ошибок](./error-handling-parameters.md).
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [Параметры обработки ошибок](./error-handling-parameters.md)
 
-[Коды ошибок расширенного подсистемы хранилища](./extensible-storage-engine-error-codes.md)
+[коды ошибок расширенного механизма служба хранилища](./extensible-storage-engine-error-codes.md)
 
 [JET_ERR](./jet-err.md)

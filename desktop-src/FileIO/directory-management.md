@@ -1,15 +1,15 @@
 ---
-description: Каталог — это иерархическая коллекция файлов и каталогов. Единственным ограничением на количество файлов, которые могут содержаться в одном каталоге, является физический размер диска, на котором расположен каталог.
+description: Каталог — это иерархическая коллекция каталогов и файлов. Единственным ограничением на количество файлов, которые могут содержаться в одном каталоге, является физический размер диска, на котором расположен каталог.
 ms.assetid: 7ac6c6ac-0813-4160-99b0-4ee1a967c1e1
 title: Управление каталогом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccc1d4ea645777fe781a81c05aba4c81fa20ae0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b312316b14ec34ec6939378c53f4e4faf6d9b7a43671bd69420415d6a8c1d0f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812144"
 ---
 # <a name="directory-management"></a>Управление каталогом
 
@@ -29,7 +29,7 @@ ms.locfileid: "105683447"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

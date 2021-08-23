@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1731afc6d58cede5da055da8cacaf11c8712d3c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18fcbdb3acd6dab33ab6adbaa6a4f94030e394252f30ebed171e4f37d7fbd2ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796344"
 ---
 # <a name="imsrdpclientadvancedsettingsperformanceflags-property"></a>Имсрдпклиентадванцедсеттингс: свойство Ерформанцефлагс:P
 
@@ -224,11 +224,11 @@ HRESULT get_PerformanceFlags(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -242,7 +242,7 @@ HRESULT get_PerformanceFlags(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

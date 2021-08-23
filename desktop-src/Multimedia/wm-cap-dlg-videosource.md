@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DLG_VIDEOSOURCE (VFW. h)
 description: В \_ сообщении о \_ видеосаурцее WM Cap \_ появляется диалоговое окно, в котором пользователь может управлять источником видео.
 ms.assetid: 8dc2f271-1f48-4e63-badf-9f3322063018
 keywords:
-- WM_CAP_DLG_VIDEOSOURCE сообщения Windows мультимедиа
+- сообщение WM_CAP_DLG_VIDEOSOURCE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e8ae7e3d619964a547fbe0db4517fd1e7d277f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a1f05d7e3dc421759229adffa4ecc4b78affc26f1b4244887b017614c2ab4d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803884"
 ---
 # <a name="wm_cap_dlg_videosource-message"></a>\_ \_ Сообщение видеосаурце с диалогом WM Cap \_
 
@@ -38,11 +38,11 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Диалоговое окно Источник видео является уникальным для каждого драйвера записи. Некоторые драйверы записи могут не поддерживать диалоговое окно "источник видео". Приложения могут определить, поддерживает ли драйвер записи это сообщение, проверив элемент **фхасдлгвидеосаурце** структуры [**капдриверкапс**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
