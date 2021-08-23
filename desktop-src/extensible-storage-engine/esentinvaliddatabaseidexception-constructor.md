@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 62e33f7f370d810ef388f2e8907dd2325312fba4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf7785ece045a5a3a59e57b0e77f43ec21f23ea3f80795c176122f5b3da7017f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982394"
 ---
 # <a name="esentinvaliddatabaseidexception-constructor"></a>Конструктор Есентинвалиддатабасеидексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentInvalidDatabaseIdException()
 public EsentInvalidDatabaseIdException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

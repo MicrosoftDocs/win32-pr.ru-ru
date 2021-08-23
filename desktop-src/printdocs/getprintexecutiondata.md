@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - winspool.drv
-ms.openlocfilehash: a1b2f2674c9ef186338c91ed2e4500d8408964d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bbe08e82fb8f753d6e4fd23776618cb5f555b390434fdd0feddd231aaebc635
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971353"
 ---
 # <a name="getprintexecutiondata-function"></a>Функция Жетпринтексекутиондата
 
@@ -55,28 +55,28 @@ BOOL WINAPI GetPrintExecutionData(
 
 Возвращает **значение true** , если функция выполнена. в противном случае — **false**. Если возвращаемое значение равно **false**, вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить состояние ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Драйверы принтера должны вызывать [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) в модуле винспул. drv для получения адреса функции **жетпринтексекутиондата** , так как **Жетпринтексекутиондата** не поддерживается в Windows Vista и более ранних версиях Windows.
+драйверы принтера должны вызывать [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) в модуле винспул. drv для получения адреса функции **жетпринтексекутиондата** , так как **жетпринтексекутиондата** не поддерживается в Windows Vista и более ранних версиях Windows.
 
 **Жетпринтексекутиондата** не выполняется, только если значение *pData* равно **null**.
 
 Значение элемента **клиентапппид** [**\_ \_ данных выполнения печати**](print-execution-data.md) имеет смысл только в том случае, если значение **context** является **\_ контекстом выполнения печати \_ \_ WOW64**. Если значение **context** не является **\_ контекстом выполнения вывода \_ \_ WOW64**, значение **клиентапппид** равно 0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Винспул. drv</dt> </dl>                   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

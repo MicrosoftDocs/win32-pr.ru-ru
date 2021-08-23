@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI девицемеморяддресс для Win32 представляет адрес памяти устройства в компьютерной системе под Windows.'
+description: '\_Класс WMI девицемеморяддресс для Win32 представляет адрес памяти устройства в системе компьютера, на котором работает Windows.'
 ms.assetid: f0a70724-5ced-47fe-b17e-e153e65b80df
 ms.tgt_platform: multiple
 title: Класс Win32_DeviceMemoryAddress
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4aa7472e3c20808ff52f6f45b0dca57fd19f9dd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31d49baca4e11ce1908ba1d057819f216153f49353415c8b5465e70e3a607e00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020252"
 ---
 # <a name="win32_devicememoryaddress-class"></a>\_Класс Win32 девицемеморяддресс
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ девицемеморяддресс для Win32** представляет адрес памяти устройства в компьютерной системе под Windows.
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ девицемеморяддресс для Win32** представляет адрес памяти устройства в системе компьютера, на котором работает Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -49,13 +49,13 @@ class Win32_DeviceMemoryAddress : Win32_SystemMemoryResource
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ девицемеморяддресс** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -195,7 +195,7 @@ class Win32_DeviceMemoryAddress : Win32_SystemMemoryResource
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| системструктурес \| cm \_ partial \_ Resource \_ \| Flags")
 </dt> </dl>
 
-Характеристики ресурса памяти в компьютерной системе под Windows. Ниже приведены значения.
+Характеристики ресурса памяти в компьютерной системе, на которой работает Windows. Ниже приведены значения.
 
 <dt>
 
@@ -250,7 +250,7 @@ class Win32_DeviceMemoryAddress : Win32_SystemMemoryResource
 
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -261,7 +261,7 @@ TBD
 
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -272,7 +272,7 @@ TBD
 
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -283,7 +283,7 @@ TBD
 
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -294,13 +294,13 @@ TBD
 
 </dt> <dd>
 
-TBD
+Подлежит уточнению
 
 </dd> </dl>
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -444,11 +444,11 @@ TBD
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ девицемеморяддресс** является производным от [**Win32 \_ системмемориресаурце**](win32-systemmemoryresource.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -462,7 +462,7 @@ TBD
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: хттпжетсампле
-description: В этом примере показано, как использовать узел службы для размещения службы PurchaseOrder по протоколу HTTP. Служба предоставляет метаданные по протоколу HTTP GET и WS-Metadata Exchange v 1.1. В службе также показано, как реализовать обложку страницы для службы ВВСАПИ.
+description: В этом примере показано, как использовать узел службы для размещения службы PurchaseOrder по протоколу HTTP. служба предоставляет метаданные по протоколу HTTP GET и WS-Metadata Exchange v 1.1. В службе также показано, как реализовать обложку страницы для службы ВВСАПИ.
 ms.assetid: 5e3a2d24-afd1-451d-94c4-4234c24a4895
 keywords:
 - Хттпжетсампле Native-Web-Services
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d0a39fb8411facd9e20ba30580d85173787ed7
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: d16255865fdde1d29001094defc74f46c53fda1bfd781f340cd4ac6dc8cc7256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104412376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963273"
 ---
 # <a name="httpgetsample"></a>хттпжетсампле
 
-В этом примере показано, как использовать узел службы для размещения службы PurchaseOrder по протоколу HTTP. Служба предоставляет метаданные по протоколу HTTP GET и WS-Metadata Exchange v 1.1. В службе также показано, как реализовать обложку страницы для службы ВВСАПИ.
+В этом примере показано, как использовать узел службы для размещения службы PurchaseOrder по протоколу HTTP. служба предоставляет метаданные по протоколу HTTP GET и WS-Metadata Exchange v 1.1. В службе также показано, как реализовать обложку страницы для службы ВВСАПИ.
 
 -   [Хттпжетсервице. cpp](#httpgetservicecpp)
 -   [PurchaseOrder. WSDL](#purchaseorderwsdl)
@@ -949,9 +949,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

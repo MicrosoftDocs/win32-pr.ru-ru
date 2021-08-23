@@ -4,12 +4,12 @@ ms.assetid: 32e2f830-c30a-4dbc-8e69-dd2038851998
 title: Группирование транзакционных объектов в пул
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 006ba32ad2ac550be4fa4418dde322ded26c64c7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c60180011305d0a03fee10fe1a4838f847306393709dc1bfef39f0ea8f69e18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047312"
 ---
 # <a name="pooling-transactional-objects"></a>Группирование транзакционных объектов в пул
 
@@ -41,7 +41,7 @@ ms.locfileid: "105701230"
 
 По этой причине, когда компонент вручную прикрепляет свои управляемые ресурсы в транзакции, он должен сначала проверить, не были ли они прикреплены. В этом случае нет необходимости прикрепляться к.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

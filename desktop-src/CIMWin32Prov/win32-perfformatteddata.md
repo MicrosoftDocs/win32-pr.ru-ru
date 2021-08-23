@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - WmiPerfInst.dll
-ms.openlocfilehash: c28d0366c80e8838b36e17cd0fa1074b6ad33629
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55a765102d5fcc40caff41a7fa68184afea114838152dd84157d506a62c15da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020142"
 ---
 # <a name="win32_perfformatteddata-class"></a>\_Класс Win32 перфформаттеддата
 
@@ -60,13 +60,13 @@ class Win32_PerfFormattedData : Win32_Perf
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ перфформаттеддата** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -125,7 +125,7 @@ class Win32_PerfFormattedData : Win32_Perf
 Тип доступа: только для чтения
 </dt> </dl>
 
-Частота в тактах в секунду для свойства **Frequency \_ перфтиме** . Значение можно получить, вызвав функцию Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Частота в тактах в секунду для свойства **Frequency \_ перфтиме** . значение можно получить, вызвав функцию Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Дополнительные сведения об использовании значений **UInt64** в скриптах см. [в разделе Создание сценариев в WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -150,7 +150,7 @@ class Win32_PerfFormattedData : Win32_Perf
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -194,7 +194,7 @@ class Win32_PerfFormattedData : Win32_Perf
 Тип доступа: только для чтения
 </dt> </dl>
 
-Метка времени счетчика высокой производительности. Значение можно получить, вызвав функцию Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
+Метка времени счетчика высокой производительности. значение можно получить, вызвав функцию Windows [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter).
 
 Дополнительные сведения об использовании значений **UInt64** в скриптах см. [в разделе Создание сценариев в WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -219,7 +219,7 @@ class Win32_PerfFormattedData : Win32_Perf
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ перфформаттеддата** является производным от [**Win32 \_ Perf**](win32-perf.md), который является производным от [**CIM \_ статистикалинформатион**](cim-statisticalinformation.md). Класс находится в **корневом пространстве имен \\ CIMV2** .
 

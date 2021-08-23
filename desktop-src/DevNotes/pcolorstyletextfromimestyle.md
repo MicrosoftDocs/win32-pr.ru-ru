@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 791fdaca4a93b0a44099306b8ae14ae4d5cb11cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 58fb2c2830f016080ac27c48b188bbd1948406a6cb7516b3279c411c87d9c155
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955723"
 ---
 # <a name="pcolorstyletextfromimestyle-function"></a>Функция Пколорстилетекстфромиместиле
 
@@ -50,7 +50,7 @@ const IMECOLORSTY* __cdecl PColorStyleTextFromIMEStyle(
 
 Указатель на структуру **имеколорсти** , представляющую стиль цвета текста.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

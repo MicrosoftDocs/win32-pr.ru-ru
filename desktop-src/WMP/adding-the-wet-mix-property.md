@@ -3,7 +3,7 @@ title: Добавление свойства "Mix!"
 description: Добавление свойства "Mix!"
 ms.assetid: 4605d893-8ac0-42fd-a1ac-51430561f174
 keywords:
-- Подключаемые модули проигрывателя Windows Media, пример свойств Echo
+- проигрыватель Windows Media подключаемых модулей, свойства образца Echo
 - подключаемые модули, свойства образца Echo
 - подключаемые модули обработки цифровых сигналов, свойства образца эха
 - Подключаемые модули DSP, свойства образца Echo
@@ -11,12 +11,12 @@ keywords:
 - Пример подключаемого модуля Echo DSP, свойство Mix
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad6af8e7b4857ccbf6b725044575d1b8524aaf50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f743cc25ce25aed1e7ff5695c022d65e30c1680eee4121eb3952698d6f0da94f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055422"
 ---
 # <a name="adding-the-wet-mix-property"></a>Добавление свойства "Mix!"
 
@@ -80,16 +80,16 @@ HRESULT put_wetmix([in] double newVal);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Свойства образца Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

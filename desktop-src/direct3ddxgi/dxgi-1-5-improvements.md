@@ -4,12 +4,12 @@ ms.assetid: DD7401E1-9991-48D8-AD23-4D34238EA4AF
 title: Усовершенствования DXGI 1,5
 ms.topic: article
 ms.date: 03/05/2021
-ms.openlocfilehash: 58df3ef78781437ee033530a2ed2179bb9a132d8
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 52661018941f84a14f45c112ba7ed68800d0cf0f2fb69f7a1d3333651fb17787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104351925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987134"
 ---
 # <a name="dxgi-15-improvements"></a>Усовершенствования DXGI 1,5
 
@@ -31,6 +31,6 @@ ms.locfileid: "104351925"
 
 Обновленные методы [**OfferResources1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-offerresources1) и [**ReclaimResources1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgidevice4-reclaimresources1) были добавлены в новый интерфейс [**IDXGIDevice4**](/windows/win32/api/dxgi1_5/nn-dxgi1_5-idxgidevice4), чтобы можно было отменить фиксацию памяти в дополнение к удалению ресурсов. Включение в новый [**\_ флаг ресурсов для DXGI предлагает флаг \_ \_ \_ \_ дефиксации**](/windows/win32/api/dxgi1_5/ne-dxgi1_5-dxgi_offer_resource_flags) означает, что новые результаты повторного утверждения должны обрабатываться правильно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Руководством по программированию для DXGI](dx-graphics-dxgi-overviews.md)

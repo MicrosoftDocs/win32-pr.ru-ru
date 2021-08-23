@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104363
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9e801526c8d2e01612e2ecd317dd9934e8f7ccd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13124a41d81a52dab628f4e2bc4251219edbe4a10fef1f86aebf5180bacbe452
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119038642"
 ---
 # <a name="windows7api-methods"></a>Методы Windows7Api
 
@@ -53,7 +53,7 @@ ms.locfileid: "104555062"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -6,7 +6,7 @@
     - name: Сведения о планировщик задач
       href: about-the-task-scheduler.md
       items:
-        - name: Задачи
+        - name: Задания
           href: tasks.md
         - name: Действия задач
           href: task-actions.md
@@ -504,7 +504,7 @@
                   href: taskdefinition-principal.md
                 - name: Таскдефинитион. Регистратионинфо
                   href: taskdefinition-registrationinfo.md
-                - name: Таскдефинитион. Settings
+                - name: Таскдефинитион. Параметры
                   href: taskdefinition-settings.md
                 - name: Таскдефинитион. triggers
                   href: taskdefinition-triggers.md
@@ -569,7 +569,7 @@
             - name: TaskService
               href: taskservice.md
               items:
-                - name: TaskService. Connect
+                - name: TaskService. Подключение
                   href: taskservice-connect.md
                 - name: TaskService. Connected
                   href: taskservice-connected.md
@@ -1132,7 +1132,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal
                     - name: Свойство Регистратионинфо объекта Итаскдефинитион
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_registrationinfo
-                    - name: Свойство Settings объекта Итаскдефинитион
+                    - name: Параметры Свойство объекта Итаскдефинитион
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_settings
                     - name: Свойство Triggers объекта Итаскдефинитион
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_triggers
@@ -1229,7 +1229,7 @@
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_highestversion
                     - name: Свойство TargetServer объекта GetFolder интерфейса ITaskService
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-get_targetserver
-                    - name: 'GetFolder интерфейса ITaskService:: Connect'
+                    - name: 'getfolder интерфейса itaskservice:: Подключение'
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect
                     - name: 'GetFolder интерфейса ITaskService:: @ Folder'
                       href: /windows/desktop/api/taskschd/nf-taskschd-itaskservice-getfolder
@@ -1625,7 +1625,7 @@
                   href: taskschedulerschema-server-sendemailtype-element.md
                 - name: 'Сессионстатечанжетригжер (Тригжерграуп), элемент'
                   href: taskschedulerschema-sessionstatechangetrigger-triggergroup-element.md
-                - name: Элемент Settings (taskType)
+                - name: элемент Параметры (taskType)
                   href: taskschedulerschema-settings-tasktype-element.md
                 - name: 'ShowMessage (actionGroup), элемент'
                   href: taskschedulerschema-showmessage-actiongroup-element.md

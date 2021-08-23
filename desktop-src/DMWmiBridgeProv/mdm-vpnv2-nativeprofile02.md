@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_VPNv2_NativeProfile02
-description: Класс MDM \_ Поддержка vpnv2 \_ NativeProfile2 определяет сведения о профиле при использовании протокола VPN Windows Inbox (IKEV2, PPTP, L2TP).
+description: класс MDM \_ поддержка vpnv2 \_ NativeProfile2 определяет сведения о профиле при использовании протокола VPN Windows Inbox (IKEv2, PPTP, L2TP).
 ms.assetid: 50c4adc6-baef-437c-8223-9aeaaec813af
 keywords:
 - Класс MDM_VPNv2_NativeProfile02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8573975c488df6e5c759e719d5c687f6a71c505
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b09152d705e7746aded2487d06c5668c766e37940a620a19ff15733ac6522459
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076958"
 ---
 # <a name="mdm_vpnv2_nativeprofile02-class"></a>\_Класс MDM поддержка vpnv2 \_ NativeProfile02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ Поддержка vpnv2 \_ NativeProfile2** определяет сведения о профиле при использовании протокола VPN Windows Inbox (IKEV2, PPTP, L2TP).
+класс **MDM \_ поддержка vpnv2 \_ NativeProfile2** определяет сведения о профиле при использовании протокола VPN Windows Inbox (IKEv2, PPTP, L2TP).
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства.
 
@@ -53,7 +53,7 @@ class MDM_VPNv2_NativeProfile02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ Поддержка vpnv2 \_ NativeProfile02** имеет следующие свойства.
 
@@ -135,13 +135,13 @@ class MDM_VPNv2_NativeProfile02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -149,7 +149,7 @@ class MDM_VPNv2_NativeProfile02
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

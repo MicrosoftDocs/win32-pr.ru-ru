@@ -3,7 +3,7 @@ title: Сообщение EM_SETELLIPSISMODE (RichEdit. h)
 description: Это сообщение задает текущий режим многоточия.
 ms.assetid: C77263E8-424B-4EDE-ACBF-BA85248FC31F
 keywords:
-- Элементы управления Windows для EM_SETELLIPSISMODE сообщений
+- элементы управления Windows сообщений EM_SETELLIPSISMODE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81ae3b51dc80ed11d71f4af9c292657b2cf16728
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3445172ea0a4ed4ef49e9a131db8d4357faaa5f7fef553169b7a8e1e795fd01c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019482"
 ---
 # <a name="em_setellipsismode-message"></a>\_Сообщение СЕТЕЛЛИПСИСМОДЕ EM
 
@@ -74,9 +74,9 @@ ms.locfileid: "104071914"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

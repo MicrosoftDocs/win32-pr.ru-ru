@@ -16,12 +16,12 @@ api_location:
 api_name:
 - D3DPERF_SetRegion
 targetos: Windows
-ms.openlocfilehash: 650cc6063865da5ce30b97ed1468c1718ace5da6
-ms.sourcegitcommit: 517a888e0370b9ec64c451635f12d60245ff5ae3
+ms.openlocfilehash: 05884fe8a3b104588a941dcaf3089a1c0f6f8eab4f4a01e143470f73454ad4ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "105719115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989264"
 ---
 # <a name="d3dperf_setregion-function"></a>Функция D3DPERF_SetRegion
 
@@ -50,11 +50,11 @@ void WINAPI D3DPERF_SetRegion(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы упростить анализ, Целевая программа может использовать цвет для пометки каждого уровня целевой программы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Целевая платформа** | Windows |

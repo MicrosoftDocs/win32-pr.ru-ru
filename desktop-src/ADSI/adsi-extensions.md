@@ -9,12 +9,12 @@ keywords:
 - расширения ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a3852e64ad282c11ecd17c6b13904738ee7f46a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 162e41bf0b30f8f094707d6ef52ac9a94040e5891a4efc43d1c5382231f45164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023852"
 ---
 # <a name="adsi-extensions"></a>Расширения ADSI
 
@@ -36,9 +36,9 @@ ms.locfileid: "104067339"
 -   [Разрешение нескольких компонентов статистической обработки, поддерживающих один и тот же интерфейс](resolution-of-multiple-aggregation-components-supporting-the-same-interface.md)
 -   [Разрешение конфликтов имен функций и свойств в автоматизации в расширениях](resolution-of-functionproperty-name-conflicts-in-automation-in-extensions.md)
 
- 
+ 
 
- 
+ 
 
 
 

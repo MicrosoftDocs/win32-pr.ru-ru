@@ -1,6 +1,6 @@
 ---
-description: 'Дополнительные сведения о: расширяемые константы подсистемы хранилища'
-title: Константы расширяемых подсистемы хранилища
+description: 'дополнительные сведения: расширяемые константы служба хранилища Engine'
+title: расширяемые константы служба хранилища Engine
 TOCTitle: Extensible Storage Engine Constants
 ms:assetid: 9a361b83-491d-442d-971d-6696f88ad42e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269351(v=EXCHG.10)
@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ab478b7972206f462cd0bd0031f74865d850dbee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 563efe09c011830ef17001c13a6f3d4564b26567940245aee3fcb272f562aa69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980814"
 ---
-# <a name="extensible-storage-engine-constants"></a>Константы расширяемых подсистемы хранилища
+# <a name="extensible-storage-engine-constants"></a>расширяемые константы служба хранилища Engine
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-## <a name="extensible-storage-engine-constants"></a>Константы расширяемых подсистемы хранилища
+## <a name="extensible-storage-engine-constants"></a>расширяемые константы служба хранилища Engine
 
-Раздел "константы" расширяемого механизма хранилища содержит следующие разделы.
+в разделе "расширяемые константы служба хранилища Engine" содержатся следующие подразделы.
 
   - [JET_CBTYP](./jet-cbtyp.md)
 
@@ -45,10 +45,10 @@ _**Применимо к:** Windows | Windows Server_
 
   - [Константы ведения журнала событий](./event-logging-constants.md)
 
-  - [Параметры расширяемой системы подсистемы хранилища](./extensible-storage-engine-system-parameters.md)
+  - [расширяемые параметры системы служба хранилища Engine](./extensible-storage-engine-system-parameters.md)
 
   - [Недопустимые константы Handle](./invalid-handle-constants.md)
 
-  - [Максимальные константы параметров](./maximum-settings-constants.md)
+  - [максимальное Параметры констант](./maximum-settings-constants.md)
 
   - [Устаревшие константы](./obsolete-constants.md)

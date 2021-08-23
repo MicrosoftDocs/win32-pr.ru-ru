@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9abaaa231e424e55e496b7901882e9da17c59786
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec225648d5024951ca51e0533098fee897a66d6770d0c937c0d251842613a9b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991124"
 ---
 # <a name="d3dxquaternionln-function-d3dx10mathh"></a>Функция D3DXQuaternionLn (D3DX10Math. h)
 
@@ -88,12 +88,12 @@ The natural logarithm of Q is, ln(Q) = (0, theta * v)
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

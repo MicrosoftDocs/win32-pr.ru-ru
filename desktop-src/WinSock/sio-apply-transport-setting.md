@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: e167a87e70dc3c6c44a263308beb333176a3d525
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3821f9ab7c796025286d9dc11a0548173f7fddf2d30fd086cf56db986cab854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993454"
 ---
 # <a name="sio_apply_transport_setting-control-code"></a>Код элемента управления SIO_APPLY_TRANSPORT_SETTING
 
@@ -145,26 +145,26 @@ int WSPIoctl(
 | **всаенотсокк** | Предпринята попытка выполнить операцию для объекта, который не является сокетом. Эта ошибка возвращается, если дескриптор *s* не является сокетом. |
 | **всаеопнотсупп** | Предпринятая операция не поддерживается для типа объекта, на который указывает ссылка. Эта ошибка возвращается, если указанная команда IOCTL не поддерживается. Эта ошибка также возвращается в том случае, если **\_ \_ \_ Параметры транспорта, применяемые SIO** , не поддерживаются поставщиком транспорта. Эта ошибка также возвращается, если попытка использовать **\_ \_ \_ параметр транспорта, применяемого через SIO** , выполняется на сокете, отличном от UDP или TCP. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**\_ \_ \_ Параметры транспорта, применяемые SIO** , поддерживаются в windows 8, Windows Server 2012 и более поздних версиях операционной системы.
+**\_ \_ \_ параметры транспорта с применением SIO** поддерживаются в Windows 8, Windows Server 2012 и более поздних версиях операционной системы.
 
 **\_ \_ \_ Параметры транспорта, применяемые SIO** , — это универсальный запрос IOCTL, используемый для применения параметра транспорта к сокету.
 Применяемый параметр транспорта основан на [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) , переданном в параметре *лпвинбуффер* .
 
-Начиная с Windows 8 и Windows Server 2012, система определяет **REAL_TIME_NOTIFICATION_CAPABILITYную** возможность на сокете TCP.
-Начиная с Windows 10 и Windows Server 2016, также определяется **\_ \_ контекст связывания намерес** .
+начиная с Windows 8 и Windows Server 2012, система определяет **REAL_TIME_NOTIFICATION_CAPABILITYную** возможность на сокете TCP.
+начиная с Windows 10 и Windows Server 2016 также **определяется \_ \_ контекст связывания намерес** .
 Дополнительные сведения см. в разделе [**addrinfoex4**](/windows/desktop/api/ws2def/ns-ws2def-addrinfoex4) and [**ASSOCIATE_NAMERES_CONTEXT_INPUT**](/windows/desktop/api/mstcpip/ns-mstcpip-associate_nameres_context_input).
 
-Если в [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) , переданном в параметре лпвинбуффер, для элемента GUID задана **\_ \_ \_ возможность уведомления в режиме реального времени**, это запрос на применение параметров уведомлений в режиме реального времени для сокета TCP, используемого вместе с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) для получения уведомлений в фоновом режиме в приложении Магазина Windows.
+если в [**TRANSPORT_SETTING_ID**](/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id) , переданном в параметре лпвинбуффер, для элемента Guid задана **\_ \_ \_ возможность уведомления в режиме реального времени**, это запрос на применение параметров уведомлений в режиме реального времени для сокета TCP, используемого вместе с [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) для получения уведомлений в фоновом режиме в приложении для магазина Windows.
 Параметр *лпвинбуффер* должен указывать на структуру **REAL_TIME_NOTIFICATION_SETTING_INPUT** .
 Параметр *лпваутбуффер* не используется для этой операции.
 Этот параметр транспорта применяется только к сокетам TCP.
 Этот параметр транспорта позволяет WinInet или подобным сетевым службам пометить заданный сокет TCP как включенный [**контролчаннелтригжер**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) .
-Windows пометит соответствующий сокет TCP и настроит соответствующие параметры оборудования и программного обеспечения при вызове этого параметра.
-Приложение Магазина Windows не будет вызывать этот запрос IOCTL напрямую.
+Windows будет помечать соответствующий сокет TCP и настроить соответствующие параметры оборудования и программного обеспечения при вызове этого параметра.
+приложение магазина Windows не будет вызывать этот запрос IOCTL напрямую.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger)
 

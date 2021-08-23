@@ -4,12 +4,12 @@ ms.assetid: f62e85ec-2dc6-456b-a43b-7b76d162b608
 title: Политика метаданных фото для System. photo. Флашмануфактурер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa1e785dfd00662acf065021a3c80de5c587586c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0d81a57967e5b3f1139b0efabd85266bec80d10e06fb18251b0a6b9ef61a1e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964812"
 ---
 # <a name="systemphotoflashmanufacturer-photo-metadata-policy"></a>Политика метаданных фото для System. photo. Флашмануфактурер
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                                  | Формат диска | Формат данных | Обязательно |
+| Номер | Путь                                  | Формат диска | Формат данных | Обязательно |
 |-------|---------------------------------------|-------------|-------------|----------|
 | 1     | /КСМП/микрософтфото: Флашмануфактурер | Юникод     |             | Да      |
 
@@ -59,7 +59,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                                      | Формат диска | Формат данных | Обязательно |
+| Номер | Путь                                      | Формат диска | Формат данных | Обязательно |
 |-------|-------------------------------------------|-------------|-------------|----------|
 | 1     | /ИФД/КСМП/микрософтфото: Флашмануфактурер | Юникод     |             | Да      |
 
@@ -67,9 +67,9 @@ VT \_ LPWSTR
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

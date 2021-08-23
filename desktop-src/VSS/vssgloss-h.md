@@ -5,12 +5,12 @@ ms.assetid: e99de576-ed73-4b91-a58c-4fae739d6709
 title: H (служба теневого копирования томов)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b285e503b8105481cbafa49ef25d8085f72250d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 235776eed621d744054be5cee9dc31b34af59a563def4f5eb2481b04a0c3ebf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056181"
 ---
 # <a name="h-volume-shadow-copy-service"></a>H (служба теневого копирования томов)
 
@@ -28,7 +28,7 @@ ms.locfileid: "105692358"
 <span id="base.vssgloss_hidden_shadow_copy"></span><span id="BASE.VSSGLOSS_HIDDEN_SHADOW_COPY"></span>**Скрытая теневая копия**
 </dt> <dd>
 
-Скрытый том — это том, который не подключен и не отображается в пространстве имен Windows как буква диска или подключенная папка.
+скрытый том — это том, который не подключен и не отображается в Windows пространстве имен в качестве буквы диска или подключенной папки.
 
 </dd> </dl>
 

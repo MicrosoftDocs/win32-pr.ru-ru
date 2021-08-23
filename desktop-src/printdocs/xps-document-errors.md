@@ -4,12 +4,12 @@ ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
 title: Ошибки документа XPS (Кспсобжектмодел. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a221858e177172a0062185cbe1bcc127ccc728fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d142105d9d958d435f8777212a4473cbaa4f4bb6712e387e3dfeffdcb85c58c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971143"
 ---
 # <a name="xps-document-errors"></a>Ошибки документа XPS
 
@@ -341,24 +341,24 @@ ms.locfileid: "104263884"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Некоторые методы API документа XPS выполняют вызовы к API [упаковки](/previous-versions/windows/desktop/opc/packaging) . Дополнительные сведения о возвращаемых значениях API упаковки см. в разделе [ошибки упаковки](/previous-versions/windows/desktop/opc/packaging-errors).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы \[ только для настольных приложений Windows Vista\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
-| Header<br/>                   | <dl> <dt>Кспсобжектмодел. h</dt> </dl>                                       |
+| Минимальная версия сервера<br/> | Windows server 2008 R2, Windows server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
+| Заголовок<br/>                   | <dl> <dt>Кспсобжектмодел. h</dt> </dl>                                       |
 | IDL<br/>                      | <dl> <dt>Кспсобжектмодел. idl</dt> </dl>                                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

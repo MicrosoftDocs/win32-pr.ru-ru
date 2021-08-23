@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e5c151c3d93f5e2fe374f0f60fd06798cf1ce52a
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: d22cf5fa8a8fe03a62b554def7caf28b4c4e8ab9065446bab9281e4e791e5d3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104134819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986224"
 ---
 # <a name="samplesfloatintfloat-function-hlsl-reference"></a>Функция Sample (S, float, int, float) (Справочник по HLSL)
 
@@ -83,7 +83,7 @@ DXGI_FORMAT Sample(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 
@@ -102,7 +102,7 @@ DXGI_FORMAT Sample(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выбор текстуры использует расположение шаг текселя для поиска значения шаг текселя. Смещение можно применить к положению перед подстановкой. Состояние образца содержит параметры выборки и фильтрации. Этот метод может быть вызван в шейдере пикселей, но не поддерживается в шейдере вершин или шейдере Geometry.
 
@@ -122,7 +122,7 @@ DXGI_FORMAT Sample(
 
 Используйте смещение только с целочисленным миплевел; в противном случае можно получить результаты, которые не могут быть правильно преобразованы в оборудование.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

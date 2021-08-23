@@ -1,9 +1,9 @@
 ---
-title: Settings. baseURL
+title: Параметры. baseURL
 description: Свойство baseURL указывает или получает базовый URL-адрес, используемый для разрешения относительных путей с помощью команд сценария URL-адреса, внедренных в элементы мультимедиа.
 ms.assetid: bb2db144-6d1e-4ed6-baed-dc5dbff44aa0
 keywords:
-- Проигрыватель Windows Media Settings. baseURL
+- Параметры. baseURL проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed77d90c8ffadc4dd8da0951f7e6a477db3f9de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69e06275a3028df6b90d25665e11aab3c2a0961dfa6c525cde0636434f06986b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995384"
 ---
-# <a name="settingsbaseurl"></a>Settings. baseURL
+# <a name="settingsbaseurl"></a>Параметры. baseURL
 
 Свойство **baseURL** указывает или получает базовый URL-адрес, используемый для разрешения относительных путей с помощью команд сценария URL-адреса, внедренных в элементы мультимедиа.
 
@@ -33,7 +33,7 @@ Player. Settings. baseURL
 
 Это свойство является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство указывает базовый URL-адрес HTTP, который передается событием **команду скрипта** в качестве параметра команды. Базовый URL-адрес объединяется с относительным URL-адресом следующим образом:
 
@@ -46,27 +46,27 @@ Player. Settings. baseURL
 
 Элемент управления "проигрыватель" не поддерживает использование двух точек (..) в относительном URL-адресе для указания родителя текущего расположения.
 
-**Проигрыватель Windows Media 10 Mobile**: это свойство доступно только для чтения и всегда возвращает пустую строку.
+**проигрыватель Windows Media 10 Mobile**: это свойство доступно только для чтения и всегда возвращает пустую строку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Событие Player. команду скрипта**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> </dl>
 
  

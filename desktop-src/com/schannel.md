@@ -4,12 +4,12 @@ description: 'Пакет безопасности безопасного кан�
 ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eccc9f82a05d1542e7585426128f10cdf452d31d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 01ab40ed9d87013f646137e23ccc755dfdf9ab6b8f2ded367940b4ae630d7b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104339388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047852"
 ---
 # <a name="schannel"></a>Schannel
 
@@ -26,12 +26,12 @@ ms.locfileid: "104339388"
     -   [Как клиент устанавливает параметр безопасности](#how-a-client-sets-the-security-blanket)
     -   [Изменение клиентом общего доступа](#how-a-client-changes-the-security-blanket)
     -   [Пример. клиент изменяет контракт безопасности](#example-client-changes-the-security-blanket)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 > [!Note]  
 > Все сведения о протоколе TLS в этих разделах также применяются к протоколам SSL и PCT.
 
- 
+ 
 
 ## <a name="when-to-use-tls"></a>Когда следует использовать TLS
 
@@ -219,13 +219,13 @@ void ClientChangesSecurity ()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Пакеты безопасности и COM](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

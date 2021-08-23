@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Aux_klib.h
-ms.openlocfilehash: 1ee7300ec2c2d84e1ddadc4149135dab53d2336b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1a25af780016c226acf46348573def8505669e16f1f645fcfce1c9324bb086d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956153"
 ---
 # <a name="aux_module_basic_info-structure"></a>\_ \_ Основная \_ информационная структура модуля AUX
 
@@ -46,7 +46,7 @@ typedef struct _AUX_MODULE_BASIC_INFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Библиотеку объектов, реализующих этот API, можно скачать [отсюда](https://www.microsoft.com/?ref=go).
 
@@ -56,8 +56,8 @@ typedef struct _AUX_MODULE_BASIC_INFO {
 
 | Требование | Значение |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Распространяемые компоненты<br/> | Библиотека вспомогательных API Windows версии 1,0 или более поздней<br/>                          |
-| Header<br/>          | <dl> <dt>AUX \_ клиб. h</dt> </dl> |
+| Распространяемые компоненты<br/> | Windows Вспомогательная библиотека API версии 1,0 или более поздней<br/>                          |
+| Заголовок<br/>          | <dl> <dt>AUX \_ клиб. h</dt> </dl> |
 
 
 

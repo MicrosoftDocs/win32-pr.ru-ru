@@ -9,12 +9,12 @@ keywords:
 - Поиск Active Directory Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db37131e95dcad6ff7b8621223182fcbf641b01a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4b146f8c047310931955849f1fc64b56ef55ec8a6954db8aee3cd4200971991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024942"
 ---
 # <a name="searching-in-active-directory-domain-services"></a>Поиск в домен Active Directory Services
 
@@ -38,9 +38,9 @@ ms.locfileid: "104067356"
 -   [Рефералы](referrals.md)
 -   [Перечисление контроллеров домена](enumerating-domain-controllers.md)
 
- 
+ 
 
- 
+ 
 
 
 

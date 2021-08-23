@@ -4,12 +4,12 @@ description: Многоугольники, копланар в трехмерн�
 ms.assetid: ee904316-dc6d-48a4-bdb7-0f7dcdb9d9d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d6f9a3850b03e033a90b358d0c6ffd1ceef830f
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: c1f707a038a2da8ebe9c1adc21f6081c85f5a63fbbc1c360a4dfbbf5765d845d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103797352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990164"
 ---
 # <a name="depth-bias"></a>Смещение глубины
 
@@ -73,7 +73,7 @@ if ( (DepthBias != 0) || (SlopeScaledDepthBias != 0) )
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
