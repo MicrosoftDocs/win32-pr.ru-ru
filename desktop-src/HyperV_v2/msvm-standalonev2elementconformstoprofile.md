@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c492ad5bdd0e50bbbe86fd220000099269501ef3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5506119f0e8938a29b94b298460a1f164dab97359d13d956bfa5ca74e97a081b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950243"
 ---
 # <a name="msvm_standalonev2elementconformstoprofile-class"></a>\_Класс мсвм StandaloneV2ElementConformsToProfile
 
@@ -44,7 +44,7 @@ class Msvm_StandaloneV2ElementConformsToProfile : Msvm_ElementConformsToProfile
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ StandaloneV2ElementConformsToProfile** имеет следующие свойства.
 
@@ -82,13 +82,13 @@ class Msvm_StandaloneV2ElementConformsToProfile : Msvm_ElementConformsToProfile
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневое \\ взаимодействие<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -96,7 +96,7 @@ class Msvm_StandaloneV2ElementConformsToProfile : Msvm_ElementConformsToProfile
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

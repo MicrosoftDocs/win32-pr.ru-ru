@@ -1,19 +1,19 @@
 ---
 title: Функции специальных возможностей
-description: В этом разделе описываются функции, используемые для реализации специальных возможностей Windows.
+description: в этом разделе описываются функции, используемые для реализации специальных возможностей Windows.
 ms.assetid: 9e5ee691-ee9d-4432-89e9-d7a652bd4180
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9682996a6ea3397a9d2f17a23c5fcbed2ae5ea
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 61fa9b46267ba60c07c48c9351872e307af2eee19f45b52937db12c659c67fe1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994404"
 ---
 # <a name="accessibility-functions"></a>Функции специальных возможностей
 
-В этом разделе описываются функции, используемые для реализации специальных возможностей Windows.
+в этом разделе описываются функции, используемые для реализации специальных возможностей Windows.
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -23,13 +23,13 @@ ms.locfileid: "104413429"
 -   [**унрегистерпоинтеринпуттаржет**](/windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtarget)
 -   [**унрегистерпоинтеринпуттаржетекс**](/windows/desktop/api/WinUser/nf-winuser-unregisterpointerinputtargetex)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по функциям специальных возможностей Windows](windows-accessibility-features-reference.md)
+[Windows Справочник по специальным возможностям](windows-accessibility-features-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: елеменсаснонаме
 ms.assetid: 893A758F-BD34-4ABE-A99E-8CABE33966E0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc9af7e1ad0a62f35edb88102b68bfa6de3d5c28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4cde3597a0922159eb035e94e08691cf9d36a07f8a1c23ec0cb25280ab961faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829533"
 ---
 # <a name="elementhasnoname"></a>елеменсаснонаме
 
@@ -19,7 +19,7 @@ ms.locfileid: "104332659"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -34,7 +34,7 @@ ms.locfileid: "104332659"
 -   Элемент, имеющий фокус, не должен получать фокус. Например, метка или отключенный элемент управления.
 -   Фокус получен на невидимый элемент управления.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,9 +44,9 @@ ms.locfileid: "104332659"
 [Свойство Name](name-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

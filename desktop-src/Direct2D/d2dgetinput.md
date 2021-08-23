@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd6ec0fe858149ee53da1f8ca8a02c12756d6a90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37de536eb6ac36af3e8aa1ffca61c3840cf6c84e585466a56a447522c4d628d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075318"
 ---
 # <a name="d2dgetinput-function"></a>Функция D2DGetInput
 
@@ -48,7 +48,7 @@ float4 WINAPI D2DGetInput(
 
 Функция возвращает **float4**, СОДЕРЖАЩУЮ цвет RGBA в формате инпутн.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующем примере показана функция, используемая как часть арифметического составного действия.
 
@@ -73,7 +73,7 @@ D2D_PS_ENTRY(PS_NAME)
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1effecthelpers. hlsli</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1effecthelpers. hlsli</dt> </dl> |
 | DLL<br/>    | <dl> <dt>D2d1.dll</dt> </dl>                |
 
 

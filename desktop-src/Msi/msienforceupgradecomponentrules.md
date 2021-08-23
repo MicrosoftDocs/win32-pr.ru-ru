@@ -4,12 +4,12 @@ ms.assetid: 0c8424c7-ab9b-4a09-aaa8-6a3f44c2789f
 title: МСИЕНФОРЦЕУПГРАДЕКОМПОНЕНТРУЛЕС, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d5946ba3a0001c988ddfe76eeaf95c008205b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11535beb45ac521e59ec31c5e5231b23549394b75e5df2372ba4295471ea8008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945048"
 ---
 # <a name="msienforceupgradecomponentrules-property"></a>МСИЕНФОРЦЕУПГРАДЕКОМПОНЕНТРУЛЕС, свойство
 
@@ -27,17 +27,17 @@ ms.locfileid: "105668703"
 
     Это также может произойти при изменении идентификатора GUID компонента. Компонент, идентифицируемый исходным идентификатором GUID, будет удален, а компонент, определенный новым GUID, появится как новый компонент.
 
-    **Установщик Windows 4,5 и более поздних версий:** Компонент можно правильно удалить с помощью установщик Windows 4,5 и более поздних версий, задав атрибут **мсидбкомпонентаттрибутесунинсталлонсуперседенце** в [таблице Component](component-table.md) или задав свойство [**мсиунинсталлсуперседедкомпонентс**](msiuninstallsupersededcomponents.md) .
+    **установщик Windows 4,5 и более поздних версий:** компонент можно правильно удалить с помощью установщик Windows 4,5 и более поздних версий, задав атрибут **мсидбкомпонентаттрибутесунинсталлонсуперседенце** в [таблице component](component-table.md) или задав свойство [**мсиунинсталлсуперседедкомпонентс**](msiuninstallsupersededcomponents.md) .
 
     Кроме того, можно изменить [**ProductCode**](productcode.md) продукта, и обновление можно считать [основным обновлением](major-upgrades.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105668703"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

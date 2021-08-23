@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 116749acdc23bb8ac2fd057139bf8ef7c8f5ddcc
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 45640d01b744ea6d2f930a67362e323a61fc1e2f1a87417f707289d7a337090d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106187685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043322"
 ---
 # <a name="samplebiassamplebiassfloatfloatfloatuint-function-for-texturecube"></a>Функция Самплебиас:: Самплебиас (S, float, float, float, uint) для Текстурекубе
 
@@ -107,7 +107,7 @@ DXGI_FORMAT SampleBias(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

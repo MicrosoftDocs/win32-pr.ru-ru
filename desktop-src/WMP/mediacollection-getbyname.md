@@ -3,9 +3,9 @@ title: Медиаколлектион. Жетбинаме, метод
 description: Метод Жетбинаме извлекает список воспроизведения элементов мультимедиа с указанным именем.
 ms.assetid: f9395a4f-06d6-438b-b7c5-7a063abdf59f
 keywords:
-- Жетбинаме метод Windows Media Player
-- Жетбинаме метод Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион Windows Media Player, метод Жетбинаме
+- проигрыватель Windows Media метода жетбинаме
+- проигрыватель Windows Media метода жетбинаме, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод жетбинаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a3fc6e34b508fa094f79d2fbbd1d44ab712789
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15063a9d544f6ebe55e66513b79aeead7c94e8aeffed7571ccb2ac574e1cb876
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996294"
 ---
 # <a name="mediacollectiongetbyname-method"></a>Медиаколлектион. Жетбинаме, метод
 
@@ -53,13 +53,13 @@ retVal = MediaCollection.getByName(
 
 Этот метод возвращает объект **списка воспроизведения** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *медиаколлектион*. **жетбинаме** для получения трех элементов из библиотеки. Затем каждый элемент добавляется к текущему списку воспроизведения. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *медиаколлектион*. **жетбинаме** для получения трех элементов из библиотеки. Затем каждый элемент добавляется к текущему списку воспроизведения. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -88,18 +88,18 @@ Player.currentPlaylist.appendItem(Three.item(0));
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -109,10 +109,10 @@ Player.currentPlaylist.appendItem(Three.item(0));
 [**Объект списка воспроизведения**](playlist-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

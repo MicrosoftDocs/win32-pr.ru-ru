@@ -4,12 +4,12 @@ ms.assetid: ea6cfa5a-2abf-4b7f-b3f4-99655266f030
 title: Функции прямого доступа к карте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad360974210114a1069db3226ee814d08008cc98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d72b606cd766ea9a8930599bd2a44e117dea0bffdef6474c038b39294c08acf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008462"
 ---
 # <a name="direct-card-access-functions"></a>Функции прямого доступа к карте
 

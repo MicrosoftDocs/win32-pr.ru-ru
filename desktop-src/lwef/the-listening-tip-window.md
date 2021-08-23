@@ -4,24 +4,24 @@ description: Окно подсказки для прослушивания
 ms.assetid: 8f7075ed-1ce9-4528-9f02-95552a8446b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699ff8accf6a97c2089282d57dc284db7d29de91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3bbdc0308e79c72e9fb76d0bc1392145092a3f998c89ab302e4ca2c23e89c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975593"
 ---
 # <a name="the-listening-tip-window"></a>Окно подсказки для прослушивания
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Если включено распознавание речи, появляется специальное всплывающее окно подсказки, когда пользователь нажимает клавишу Push-to-чата, чтобы начать голосовый ввод. В подсказке прослушивания отображаются контекстные сведения, относящиеся к текущему состоянию входных данных агента Microsoft Agent. Если совместимое распознавание речи не было установлено или отключено, Tip прослушивания не отображается.
 
 ![текстовое поле Genie](images/f4ltip.gif)
 
- 
+ 
 
- 
+ 
 
 
 

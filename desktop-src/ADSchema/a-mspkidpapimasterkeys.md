@@ -1,6 +1,6 @@
 ---
 title: атрибут MS-PKI-Дпапимастеркэйс
-description: Хранение зашифрованных главных ключей DPAPI для пользователя.
+description: служба хранилища зашифрованных главных ключей DPAPI для пользователя.
 ms.assetid: 91e29a4b-0ff4-49a3-ba7f-18531188b9c0
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c79d9c801243e0ed099b88268e801c633b676679
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 376a4fbd54928ccf4ab20e67b118d91cd0e3712fc24230b5dde654df9c278c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960333"
 ---
 # <a name="ms-pki-dpapimasterkeys-attribute"></a>атрибут MS-PKI-Дпапимастеркэйс
 
-Хранение зашифрованных главных ключей DPAPI для пользователя.
+служба хранилища зашифрованных главных ключей DPAPI для пользователя.
 
 
 
@@ -63,7 +63,7 @@ ms.locfileid: "103804631"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "103804631"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000280                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

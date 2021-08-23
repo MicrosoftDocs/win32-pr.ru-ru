@@ -3,7 +3,7 @@ title: Атрибут Медиаконтенттипес
 description: Атрибут Медиаконтенттипес задает тип содержимого элемента.
 ms.assetid: b91bab65-d6d2-4e05-9338-c24f28b7c71e
 keywords:
-- Медиаконтенттипес атрибут Windows Media Player
+- проигрыватель Windows Media атрибута медиаконтенттипес
 topic_type:
 - apiref
 api_name:
@@ -12,22 +12,22 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8979864151e029abf2731f6f0b4663e078a2c061
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eca3c422083954554db76657a0bb9cc10062fd878a9ebf4b31f4dc88734ac1d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996244"
 ---
 # <a name="mediacontenttypes-attribute"></a>Атрибут Медиаконтенттипес
 
 Атрибут **медиаконтенттипес** задает тип содержимого элемента.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут может принимать одно из следующих значений:
 
@@ -48,17 +48,17 @@ ms.locfileid: "105651818"
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

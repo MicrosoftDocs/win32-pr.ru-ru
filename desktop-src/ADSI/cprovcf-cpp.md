@@ -5,16 +5,16 @@ ms.assetid: 53a4da74-3f36-4e6d-ae93-8d595680bcf3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d086cd79086f40bab6d898b844ed52fc0161bc7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea3b77ea7fe1b1d6fe946b9a8b509be33c11f2a075ee658ee305f0f7ba2d2c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119023672"
 ---
 # <a name="cprovcfcpp"></a>КПРОВКФ. CPP
 
-В примере компонента поставщика код фабрики класса объекта поставщика ADs находится в кпровкф. cpp. Компонент поставщика никогда не создает экземпляр этого объекта напрямую в любое время, Кроме того, когда объект создается автоматически во время операций привязки в [**адсжетобжект**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) или во внутренней функции в методе Visual Basic **GetObject**. Поддерживаемый метод указан в следующей таблице.
+В примере компонента поставщика код фабрики класса объекта поставщика ADs находится в кпровкф. cpp. компонент поставщика никогда не создает экземпляр этого объекта напрямую в любое время, кроме того, когда объект создается автоматически во время операций привязки в [**адсжетобжект**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) или во внутренней функции в методе Visual Basic **getobject**. Поддерживаемый метод указан в следующей таблице.
 
 
 
@@ -24,11 +24,11 @@ ms.locfileid: "104486569"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

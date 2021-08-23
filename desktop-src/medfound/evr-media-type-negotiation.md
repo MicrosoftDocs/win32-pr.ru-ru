@@ -4,18 +4,18 @@ ms.assetid: 3a12b80d-7aac-437d-b515-aab37c1e81b2
 title: Согласование типа носителя Евр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb1f87a24db866c9e80b211b0385c12dcd6b594
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6255a32f876a48d0c6193c0a9b470d20ee178ee0ae6fe4c0504b110a353075b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974493"
 ---
 # <a name="evr-media-type-negotiation"></a>Согласование типа носителя Евр
 
 В этом разделе описывается проверка типов мультимедиа в расширенном обработчике видео (Евр).
 
--   Для фильтра Евр DirectShow происходит согласование типов при подключении контактов фильтра.
+-   для DirectShow фильтра евр согласование типов происходит при соединении пин-кодов фильтра.
 
 -   Для приемника мультимедиа Евр типы носителей задаются через интерфейс [**имфмедиатипехандлер**](/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler) в приемниках потоков. Обычно загрузчик топологии согласовывает типы носителей, хотя приложение также может задавать типы мультимедиа напрямую.
 
@@ -51,7 +51,7 @@ ms.locfileid: "104351455"
 
 3.  Если в этом списке содержится предложенный формат, ЕВР принимает входной тип.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

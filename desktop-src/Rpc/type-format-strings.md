@@ -4,12 +4,12 @@ description: Форматирование символов обозначают 
 ms.assetid: 71117082-07b0-4ba4-a920-09be8d8427ab
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f618d857e487f86e2d28ed18300d82e94b76e3a7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 42f4aa17494cbef0f3bcc232f89104e3502f94de4a3285a1da6cc0229af0fe26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011122"
 ---
 # <a name="type-format-strings"></a>Строки формата типов
 
@@ -25,7 +25,7 @@ ms.locfileid: "104068338"
 
 
 
- 
+ 
 
 Например, FC \_ кструкт и FC \_ CARRAY определяли согласованную структуру и согласованные дескрипторы массивов соответственно.
 
@@ -39,7 +39,7 @@ ms.locfileid: "104068338"
 
 
 
- 
+ 
 
 Строки формата типа NDR RPC более подробно описаны в следующих разделах:
 
@@ -54,9 +54,9 @@ ms.locfileid: "104068338"
 -   [Передать \_ как и представить \_ как](transmit-as-and-represent-as-tfs.md)
 -   [Пользовательская упаковка](user-marshal-tfs.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fb9110da7fae4ebbf4609d361124dbbcdedfe59b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 842ccd74ef7236af7a943a43c0c2701140eb897dff535023a78311dd049f06b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044682"
 ---
 # <a name="d3dxquaternionslerp-function-d3dx9mathh"></a>Функция D3DXQuaternionSlerp (D3dx9math. h)
 
@@ -97,12 +97,12 @@ D3DXQUATERNION* D3DXQuaternionSlerp(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

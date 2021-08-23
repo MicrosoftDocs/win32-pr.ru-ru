@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ffd5fbc98e653a6bbaffa7d3cec16b13695365b2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ad2c68d7ab26a6aa80f5abb08207702433d55c6dc12473d94a87a2b1c3b25249
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044642"
 ---
 # <a name="d3dxvec2maximize-function"></a>Функция D3DXVec2Maximize
 
@@ -75,7 +75,7 @@ D3DXVECTOR2* D3DXVec2Maximize(
 
 Указатель на структуру [**D3DXVECTOR2**](d3dxvector2.md) , которая состоит из самых крупных компонентов двух векторов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec2Maximize** может использоваться в качестве параметра для другой функции.
 
@@ -85,7 +85,7 @@ D3DXVECTOR2* D3DXVec2Maximize(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

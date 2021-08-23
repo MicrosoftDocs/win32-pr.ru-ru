@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_Policy_Result01_ActiveXControls02
-description: '\_Класс политики MDM \_ Result01 \_ ActiveXControls02 представляет доступные политики элементов управления ActiveX.'
+description: '\_класс политики MDM \_ Result01 \_ ActiveXControls02 представляет доступные политики управления ActiveX.'
 ms.assetid: 46778743-59d7-4d37-836c-3f263bb8a083
 keywords:
 - Класс MDM_Policy_Result01_ActiveXControls02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36ee572cfbbd823ce9e819688d9399b22f5d564c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ec2a78dc1271a71349fae1cc6e352eeb1086b0b74c07a209b2bbca0c9234b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077118"
 ---
 # <a name="mdm_policy_result01_activexcontrols02-class"></a>\_Класс политики MDM \_ Result01 \_ ActiveXControls02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-\_Класс политики MDM \_ Result01 \_ ActiveXControls02 представляет доступные политики элементов управления ActiveX.
+\_класс политики MDM \_ Result01 \_ ActiveXControls02 представляет доступные политики управления ActiveX.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -50,7 +50,7 @@ class MDM_Policy_Result01_ActiveXControls02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ политики MDM \_ Result01 \_ ActiveXControls02** имеет следующие свойства.
 
@@ -95,13 +95,13 @@ class MDM_Policy_Result01_ActiveXControls02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

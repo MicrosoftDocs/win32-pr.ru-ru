@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, удаление члена из группы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b31bfdebc7cecc0191652a7ef9052a3578ee48cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05d33dd966bb9ef7afb909292c95fd519d154e421b0994527295f41fd60197a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962173"
 ---
 # <a name="example-code-for-removing-a-member-from-a-group"></a>Пример кода для удаления члена из группы
 
@@ -60,9 +60,9 @@ HRESULT RemoveMemberFromGroup(IADsGroup * pGroup, IADs* pIADsNewMember)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

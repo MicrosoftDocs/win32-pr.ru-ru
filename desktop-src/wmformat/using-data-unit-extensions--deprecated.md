@@ -1,6 +1,6 @@
 ---
-title: Использование расширений модулей данных (пакет SDK для формата Windows Media 11)
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Использование расширений модулей данных (пакет SDK для формата Windows Media 11)
+title: использование расширений модулей данных (пакет SDK для Windows Media Format 11)
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | использование расширений модулей данных (пакет SDK для Windows Media Format 11)
 ms.assetid: b1650560-2261-427a-ace7-5d7ed0bb3f77
 keywords:
 - Использование модулей обработки данных Windows Media Format
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9194e204536b8088f1cb29033d93fb2c0f9b397d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6da36a1f0bc8ad7b2ebcbfb6372e7a41d1445e5357fd31e8a3dde71ccfd89e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963933"
 ---
-# <a name="using-data-unit-extensions-windows-media-format-11-sdk"></a>Использование расширений модулей данных (пакет SDK для формата Windows Media 11)
+# <a name="using-data-unit-extensions-windows-media-format-11-sdk"></a>использование расширений модулей данных (пакет SDK для Windows Media Format 11)
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 68f933293f86a368bf333ec6d18b909b4d2e5bbd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7a4c361092665f24aad2984d48879245529866f833b33b7ec842b91a57c0ff2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986154"
 ---
 # <a name="outputcontrolpoints"></a>аутпутконтролпоинтс
 
@@ -27,7 +27,7 @@ outputcontrolpoints(X)
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это будет количество раз, когда будет выполняться функция Main.
 
@@ -41,9 +41,9 @@ outputcontrolpoints(X)
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,9 +53,9 @@ outputcontrolpoints(X)
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

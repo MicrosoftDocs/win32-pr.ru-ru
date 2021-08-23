@@ -4,12 +4,12 @@ ms.assetid: 510c7146-ff3c-4812-a7ad-b4051aa82ef3
 title: Идентификаторы GUID формата времени (UUIDs. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac144a2a631602848286864c4bac10a81edc918
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd12f9c460f0874845a2b323975f577631f9d99abf2e2d654b21c2a2b0824e02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951703"
 ---
 # <a name="time-format-guids"></a>Идентификаторы GUID формата времени
 
@@ -28,17 +28,17 @@ ms.locfileid: "105685294"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>UUIDs. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>UUIDs. h (включение DShow. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

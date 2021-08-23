@@ -1,19 +1,19 @@
 ---
-title: Настройка потока ALE
-description: Сетевую фильтрацию на уровнях уровня приложения (ALE) для платформы фильтрации Windows (WFP) можно настроить, добавив фильтры с конкретными параметрами классификации.
+title: настройка Flow ALE
+description: сетевую фильтрацию на слоях применения уровня приложения (ALE) для платформы фильтрации Windows (WFP) можно настроить путем добавления фильтров с конкретными параметрами классификации.
 ms.assetid: 123af237-cf42-410b-8a2f-c011cb5f4f19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9843a60719f424403139885f24f165c0dd936b
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: fbe42a6df32bc69ba454226eb113cb43756224daaf752c3925f1f2d3bacd7650
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104336452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951374"
 ---
-# <a name="ale-flow-customization"></a>Настройка потока ALE
+# <a name="ale-flow-customization"></a>настройка Flow ALE
 
-Сетевую фильтрацию на уровнях уровня приложения (ALE) для платформы фильтрации Windows (WFP) можно настроить, добавив фильтры с конкретными параметрами классификации.
+сетевую фильтрацию на слоях применения уровня приложения (ALE) для платформы фильтрации Windows (WFP) можно настроить путем добавления фильтров с конкретными параметрами классификации.
 
 ## <a name="multicastbroadcast-traffic"></a>Многоадресный или широковещательный трафик
 
@@ -25,13 +25,13 @@ ms.locfileid: "104336452"
 
 См. раздел [Использование параметров классификации](using-classify-options.md) для примера кода.
 
-## <a name="ale-flow-lifetime"></a>Время существования потока ALE
+## <a name="ale-flow-lifetime"></a>время жизни Flow ALE
 
 Чтобы изменить значения времени ожидания простоя для потока ALE, добавьте фильтр с параметром [**FWP \_ классифицировать \_ \_ мкаст \_ бкаст \_ Lifetime**](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_classify_option0) и/или в параметре FWP значение времени **\_ \_ \_ \_ жизни одноадресной рассылки** , равным требуемому значению времени ожидания простоя.
 
 См. раздел [Использование параметров классификации](using-classify-options.md) для примера кода.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,9 +53,9 @@ ms.locfileid: "104336452"
 [Использование параметров классификации](using-classify-options.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

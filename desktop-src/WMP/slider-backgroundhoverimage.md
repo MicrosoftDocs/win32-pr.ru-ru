@@ -3,7 +3,7 @@ title: ПОЛЗУНок. Баккграундховеримаже
 description: Атрибут Баккграундховеримаже указывает или получает фоновое изображение ползунка, отображаемого при наведении на него указателя мыши.
 ms.assetid: 292af0c4-d720-4f29-9778-6ae83539da70
 keywords:
-- ПОЛЗУНок. Баккграундховеримаже Windows Media Player
+- проигрыватель Windows Media SLIDER. баккграундховеримаже
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2f557051ada177275a3d2103b2e9de3ebe00143
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee008583d465f31d4efcd43e6c6970730b4c1c7d7c79b3c4e3db4c79f4f54980
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995224"
 ---
 # <a name="sliderbackgroundhoverimage"></a>ПОЛЗУНок. Баккграундховеримаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105657619"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является необязательным. Если он не указан, будет использоваться **фоновый** изображение.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105657619"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

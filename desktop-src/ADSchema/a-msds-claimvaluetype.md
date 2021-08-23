@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1aad0a70fd95cc4d81dbfe49b806bb3075b5b65
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a958adc55d0edda820eab8fbedbac28765b5c7767ffb8566d762af9d37ca6dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960843"
 ---
 # <a name="ms-ds-claim-value-type-attribute"></a>Атрибут ms-DS-ClaimSet-value-type
 
@@ -36,7 +36,7 @@ ms.locfileid: "104138962"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2098              |
 | System-ID — GUID    | c66217b9-e48e-47f7-b7d5-6552b8afd619 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -52,8 +52,8 @@ ms.locfileid: "104138962"
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
-| System-Only            | True                                                                                                            |
-| Является однозначным       | True                                                                                                            |
+| System-Only            | Верно                                                                                                            |
+| Является однозначным       | Верно                                                                                                            |
 | Индексируется             | Неверно                                                                                                           |
 | В глобальном каталоге      | Неверно                                                                                                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                    |

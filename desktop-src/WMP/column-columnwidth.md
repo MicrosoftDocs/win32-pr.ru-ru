@@ -3,7 +3,7 @@ title: COLUMN. Колумнвидс
 description: Атрибут Колумнвидс указывает или получает ширину столбца в элементе управления списка воспроизведения.
 ms.assetid: 4c6fabf9-fca0-433a-87bd-17f5d74a0a74
 keywords:
-- Колумнвидс Windows Media Player
+- проигрыватель Windows Media COLUMN. колумнвидс
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c12a9037c47fb051dbd0eff909b861390b38794f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6dd9278cd495007825d109ccb13857f3c4e258d373c1830a4b7545f5bf718f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997674"
 ---
 # <a name="columncolumnwidth"></a>COLUMN. Колумнвидс
 
@@ -31,7 +31,7 @@ ms.locfileid: "105695004"
 
 Этот атрибут является **числом** для чтения и записи (**длинное целое**), представляющим ширину столбца в пикселях.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы это свойство работало, свойство **колумнресиземоде** должно иметь значение "Fixed".
 
@@ -41,7 +41,7 @@ ms.locfileid: "105695004"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

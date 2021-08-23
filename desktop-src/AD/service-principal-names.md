@@ -10,12 +10,12 @@ keywords:
 - имя субъекта-службы (AD), сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa34b7d90803a324faced7d67b56c0b6a1f13af
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b6639ade82f029a89cb378de20bb279348962c4a991899f95e7f1b06157cd7ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024822"
 ---
 # <a name="service-principal-names"></a>Имена субъектов-служб
 
@@ -45,7 +45,7 @@ ms.locfileid: "103890371"
 [Создание клиентами SPN службы](how-clients-compose-a-serviceampaposs-spn.md)
 </dt> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -55,6 +55,6 @@ ms.locfileid: "103890371"
 [Взаимная проверка подлинности с помощью Kerberos](mutual-authentication-using-kerberos.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

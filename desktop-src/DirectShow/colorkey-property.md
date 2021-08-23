@@ -4,17 +4,17 @@ ms.assetid: 4d4b38e6-bd29-4e16-8f82-a5da9312d272
 title: ColorKey, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75620be88a861e02915c27324978382feefc5835
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: abca1dabbdb67f4380dbe32acbf2948862695b7c424dfd08629ec16237bb88c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104494637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073738"
 ---
 # <a name="colorkey-property"></a>ColorKey, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "104494637"
 
 Возвращает целочисленное значение, представляющее цвет, используемый в качестве прозрачного фона для текста с субтитрами. Значение по умолчанию в 256 Colors — пурпурный, а «выкл.-черный» — в любой другой глубине цвета.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи. Это свойство применяется только к закрытым заголовкам, если таковые существуют, а не к потоку субтитров.
 

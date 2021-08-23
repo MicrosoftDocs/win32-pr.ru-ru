@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fbc6c63a3084db6a9be0a4b4ea7672d84881a29a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9068809c052638e33d45a5affadc23a289fa65ae04e6b1a71af1e40e4b508b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993754"
 ---
 # <a name="afd_event_close-event"></a>\_ \_ Событие закрытия события АФД
 
@@ -67,7 +67,7 @@ const EVENT_DESCRIPTOR AFD_EVENT_CLOSE = {0x3e9, 0x0, 0x10, 0x4, 0xf, 0x3e9, 0x8
 *Процесс* 
 </dt> <dd>
 
-[Епроцесс](/windows-hardware/drivers/kernel/eprocess) адрес процесса, которому принадлежит связанный сокет. Это непрозрачная структура, которая служит объектом процесса для процесса. Дополнительные сведения см. в документации по пакету драйверов Windows для структуры [епроцесс](/windows-hardware/drivers/kernel/eprocess) .
+[Епроцесс](/windows-hardware/drivers/kernel/eprocess) адрес процесса, которому принадлежит связанный сокет. Это непрозрачная структура, которая служит объектом процесса для процесса. дополнительные сведения см. в документации по Windows Driver Kit для структуры [епроцесс](/windows-hardware/drivers/kernel/eprocess) .
 
 </dd> <dt>
 
@@ -85,7 +85,7 @@ const EVENT_DESCRIPTOR AFD_EVENT_CLOSE = {0x3e9, 0x0, 0x10, 0x4, 0xf, 0x3e9, 0x8
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Событие **\_ \_ закрытия события АФД** отслеживается для операции сети Winsock, чтобы закрыть сокет. Канал для этого события — Winsock-АФД. Уровень этого события является информационным.
 
@@ -95,8 +95,8 @@ const EVENT_DESCRIPTOR AFD_EVENT_CLOSE = {0x3e9, 0x0, 0x10, 0x4, 0xf, 0x3e9, 0x8
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

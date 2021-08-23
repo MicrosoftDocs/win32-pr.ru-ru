@@ -1,21 +1,21 @@
 ---
-description: В этом разделе описывается шаг 1 руководства воспроизведение аудио-и видеороликов в DirectShow.
+description: В этом разделе приводится шаг 1 руководства воспроизведение аудио-и видеороликов в DirectShow.
 ms.assetid: 3ccd201d-e60d-40bf-a602-6d42df03b36b
 title: Шаг 1. объявление класса Дшовплайер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22ff36a76be8017f7b468815cf572514900f8d11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02cbf35e9c71df9d71ab3df7cdbb3edf5d3f25bb5e77a01734f7d842fc3097f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951893"
 ---
 # <a name="step-1-declare-the-dshowplayer-class"></a>Шаг 1. объявление класса Дшовплайер
 
-В этом разделе описывается шаг 1 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе приводится шаг 1 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
-В этом руководстве `DShowPlayer` класс управляет всеми функциями DirectShow. Этот класс объявлен как фоловс.
+в этом руководстве `DShowPlayer` класс управляет всеми функциональными возможностями DirectShow. Этот класс объявлен как фоловс.
 
 
 ```C++
@@ -81,14 +81,14 @@ private:
 Примечания.
 
 -   `PlaybackState`Перечисление описывает текущее состояние `DShowPlayer` объекта.
--   Событие с константой WM \_ Graph \_ определяет сообщение частного окна. Это сообщение используется для уведомления приложения о событиях графа фильтра. См. [Шаг 6. Работа с событиями графа](step-6--handle-graph-events.md).
+-   Событие с константой WM \_ Graph \_ определяет сообщение частного окна. Это сообщение используется для уведомления приложения о событиях графа фильтра. см. раздел [Step 6: Handle Graph events](step-6--handle-graph-events.md).
 -   `GraphEventFN` является указателем на функцию обратного вызова для обработки событий графа фильтра. Приложение реализует эту функцию обратного вызова.
--   Переменная-член *m \_ пвидео* предоставляет оболочку для различных модулей подготовки видео DirectShow. См. [Шаг 2. объявление квидеорендерер и производных классов](step-2--declare-cvideorenderer-and-derived-classes.md).
+-   переменная-член *m \_ пвидео* предоставляет оболочку для различных DirectShow модулей подготовки видео. См. [Шаг 2. объявление квидеорендерер и производных классов](step-2--declare-cvideorenderer-and-derived-classes.md).
 -   В рамках этого руководства функция [саферелеасе](../medfound/saferelease.md) используется для освобождения указателей на COM-интерфейсах.
 
 Далее. [Шаг 2. объявление квидеорендерер и производных классов](step-2--declare-cvideorenderer-and-derived-classes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

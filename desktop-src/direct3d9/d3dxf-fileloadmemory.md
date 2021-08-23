@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9xof.h
-ms.openlocfilehash: a7ad988d9906101db57af6f8f5042766c3e32ccc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b3709e6eeb99026b76d066edfccbae578b5c851d6e73936ffe06d10fbf69dcb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045062"
 ---
 # <a name="d3dxf_fileloadmemory-structure"></a>\_Структура ФИЛЕЛОАДМЕМОРИ D3DXF
 
@@ -62,7 +62,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура определяет данные, загружаемые из памяти, когда приложение использует метод [**креатинумобжект**](id3dxfile--createenumobject.md) и ЗАДАЕТ \_ флаг D3DXF филелоад \_ фроммемори.
 
@@ -72,7 +72,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9xof. h</dt> </dl> |
 
 
 

@@ -4,16 +4,16 @@ description: Иажентчарактерекс Жетттсмодеид
 ms.assetid: e7b3c576-dc3c-40de-8d09-8e7f4b79250b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a77e78755345c0993ed5723080b0b3f4b8297a
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: c3e6bc029a6fce1da3d6f920a25ccc86c49619751a6bd43f865154bd7a235696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104069645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105492"
 ---
 # <a name="iagentcharacterexgetttsmodeid"></a>Иажентчарактерекс:: Жетттсмодеид
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetTTSModeID(
@@ -44,14 +44,14 @@ HRESULT GetTTSModeID(
 
 Требования к речевому подсистему агента Microsoft Agent основаны на Microsoft Speech API. Модули, поддерживающие требования к SAPI Microsoft Agent, можно установить и использовать с агентом.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактерекс:: Сетттсмодеид**](iagentcharacterex--setttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2c46ad729e02fd63eb9b8088d31f05515c2ef8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb89786a0c27c66177bc29861fdcf53a9341f73e498b5627e1cb826e83f61cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048672"
 ---
 # <a name="authorization-constants"></a>Константы авторизации
 
@@ -37,11 +37,11 @@ ms.locfileid: "103803934"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти константы используются методами интерфейса [**иклиентсекурити**](/windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity) . Они используются в структуре [**единственной \_ \_ службы проверки подлинности**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_service) , которая извлекается функцией [**кокуеряусентикатионсервицес**](/windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices) . Они также используются в структуре [**единственной \_ \_ информации для проверки подлинности**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_info) , которая, в свою очередь, является членом [**единственной структуры \_ \_ списка проверки подлинности**](/windows/win32/api/objidlbase/ns-objidlbase-sole_authentication_list) . Эта структура представляет собой список служб проверки подлинности, выполняемых ими служб авторизации, а также сведения о проверке подлинности для каждой службы передаются функции [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) и методу [**Иклиентсекурити:: сетбланкет**](/windows/win32/api/objidl/nf-objidl-iclientsecurity-setblanket) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "103803934"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

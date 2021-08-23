@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: smi2smir
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34e1d757293b5ee128f2ce1bc2bd5ec8479d9b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3909ef1df4047ba0b797fe4a01088c62e60b287969445d311214180e4fa441a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050172"
 ---
 # <a name="smi2smir"></a>smi2smir
 
@@ -29,7 +29,7 @@ smi2smir <ModuleInfoArgs> <MIB file>
 smi2smir <HelpArgs>
 ```
 
-## <a name="switches"></a>коммутаторы;
+## <a name="switches"></a>Коммутаторы
 
 <dl> <dt>
 
@@ -292,7 +292,7 @@ smi2smir <HelpArgs>
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Модули сведений SNMP записываются в подмножестве абстрактного синтаксиса One (ASN. 1). компилятор выполняет следующие функции:
 
@@ -316,7 +316,7 @@ smi2smir <HelpArgs>
 smi2smir /m 3 /v1 /gc /pra.mib > pra.mof
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -327,7 +327,7 @@ smi2smir /m 3 /v1 /gc /pra.mib > pra.mof
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
