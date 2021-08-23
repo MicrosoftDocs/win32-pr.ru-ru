@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6211be67110200b1cd419b99fe76b5ce98d5408d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a2f0d2ab00c1a5422912c9fa37abe88585e5352fd7003da4fbcf918c511b293
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511664"
 ---
 # <a name="iremotedesktopclienteventsonconnecting-method"></a>Метод Иремотедесктопклиентевентс:: OnConnect
 
@@ -45,7 +45,7 @@ void OnConnecting();
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ void OnConnecting();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

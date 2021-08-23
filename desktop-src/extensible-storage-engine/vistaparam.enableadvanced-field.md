@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 738652825c2c8b6b6600326697c563a7d219db55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70616409cd09652456734eecda67ca2a1ba3f999f997d87be27c5b0e8f87ff05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603524"
 ---
 # <a name="vistaparamenableadvanced-field"></a>Вистапарам. Енаблеадванцед, поле
 
@@ -53,7 +53,7 @@ value = VistaParam.EnableAdvanced
 public const JET_param EnableAdvanced
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

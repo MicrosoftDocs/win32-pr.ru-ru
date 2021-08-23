@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fd18c9f5761cac208f8682bbc3c8f189cf0aefe0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 67b586ac48f7bcb9c778d5183d8457f0e7db4de70ef97d40a23fec9c2fc4fdf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439654"
 ---
 # <a name="setpowerstate-method-of-the-cim_binarysensor-class"></a>Метод SetPowerState \_ класса CIM бинарисенсор
 
@@ -114,7 +114,7 @@ uint32 SetPowerState(
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

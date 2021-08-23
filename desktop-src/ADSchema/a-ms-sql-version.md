@@ -1,11 +1,11 @@
 ---
-title: Атрибут MS-SQL-Version
+title: атрибут MS-SQL-Version
 description: Версия текущего экземпляра SQL Server.
 ms.assetid: 0003892c-906d-429b-bc98-bbc441b2d58b
 ms.tgt_platform: multiple
 keywords:
-- Схема AD атрибута версии MS-SQL-Version
-- Схема AD атрибута версии mS-SQL-Version
+- схема AD атрибута MS-SQL-Version
+- схема AD атрибута mS-SQL-Version
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 446a436a30311f5696d8ed63334b0cf796eb2767
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5c79b760ab72feffc455fc2c40de807b38a15ed3a0a709fcfcb8d0ce79c20c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583234"
 ---
-# <a name="ms-sql-version-attribute"></a>Атрибут MS-SQL-Version
+# <a name="ms-sql-version-attribute"></a>атрибут MS-SQL-Version
 
 Версия текущего экземпляра SQL Server.
 
@@ -29,8 +29,8 @@ ms.locfileid: "103893894"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-версия                              |
-| LDAP-отображаемое имя | mS-SQL-версия                              |
+| CN                | MS-SQL-Version                              |
+| LDAP-отображаемое имя | mS-SQL-Version                              |
 | Размер              | \-                                          |
 | Привилегия обновления  | Это значение задается системой.            |
 | Частота обновления  | При установке системы.                            |
@@ -57,16 +57,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -78,16 +78,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -99,16 +99,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -120,16 +120,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -141,16 +141,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 
@@ -162,16 +162,16 @@ ms.locfileid: "103893894"
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
-| Индексируется             | True                                                                                                                          |
-| В глобальном каталоге      | True                                                                                                                          |
+| System-Only            | Нет                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                          |
+| Индексируется             | Верно                                                                                                                          |
+| В глобальном каталоге      | Верно                                                                                                                          |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000001                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-Склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
+| Классы, используемые в        | [**MS-SQL-OLAPServer**](c-ms-sql-olapserver.md)<br/> [**MS-SQL-склрепоситори**](c-ms-sql-sqlrepository.md)<br/> |
 
 
 

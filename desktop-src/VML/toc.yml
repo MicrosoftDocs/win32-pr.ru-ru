@@ -84,7 +84,7 @@
                   href: msdn-online-vml-bwnormal-attribute.md
                 - name: бвпуре
                   href: msdn-online-vml-bwpure-attribute.md
-                - name: Class
+                - name: Класс
                   href: msdn-online-vml-class-attribute.md
                 - name: коннектортипе
                   href: msdn-online-vml-connectortype-attribute.md
@@ -102,7 +102,7 @@
                   href: msdn-online-vml-flip-attribute.md
                 - name: форцедаш
                   href: msdn-online-vml-forcedash-attribute.md
-                - name: 'Высота:'
+                - name: Высота
                   href: msdn-online-vml-height-attribute.md
                 - name: HR
                   href: msdn-online-vml-hr-attribute.md
@@ -190,11 +190,11 @@
                   href: msdn-online-vml-tableproperties-attribute.md
                 - name: Целевой объект
                   href: msdn-online-vml-target-attribute.md
-                - name: Заголовок
+                - name: Название
                   href: title-attribute--shape--vml.md
                 - name: Начало
                   href: msdn-online-vml-top-attribute.md
-                - name: Type
+                - name: Тип
                   href: type-attribute--shape--vml.md
                 - name: усердравн
                   href: msdn-online-vml-userdrawn-attribute.md
@@ -601,7 +601,7 @@
                   href: msdn-online-vml-mso-fit-shape-to-text-attribute.md
                 - name: Атрибут MSO-Fit-Text-to-Shape
                   href: msdn-online-vml-mso-fit-text-to-shape-attribute.md
-                - name: MSO-макет-атрибут Flow-Alt
+                - name: MSO-Layout-Flow — атрибут Alt
                   href: msdn-online-vml-mso-layout-flow-alt-attribute.md
                 - name: Атрибут MSO-Next-TextBox
                   href: msdn-online-vml-mso-next-textbox-attribute.md

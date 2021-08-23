@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 97c73bb0c066bd42dd99dcd45604cd71a63fa024
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4c5afe8486083d73ff29071fc68625907fb67d24dba9d2f751a81d7a3629bbff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437074"
 ---
 # <a name="setpowerstate-method-of-the-cim_coolingdevice-class"></a>Метод SetPowerState \_ класса CIM кулингдевице
 
@@ -112,7 +112,7 @@ uint32 SetPowerState(
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -126,7 +126,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

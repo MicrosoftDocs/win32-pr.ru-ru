@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 444fe9c94e9fd247e5976fd67a43b0a5eee8b591
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f524cc1ce57ccedf519bf80695a11f75d77eac792088d5f39d3dcf1e29187669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579814"
 ---
 # <a name="fastshutdown-method-of-the-control-class"></a>Метод Фастшутдовн класса Control
 
@@ -42,25 +42,25 @@ void FastShutdown();
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                       |
-| Пространство имен<br/>                | Корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
+| Пространство имен<br/>                | корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Бутевентколлекторвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Элемента**](control.md)
+[**Элемент**](control.md)
 </dt> </dl>
 
  

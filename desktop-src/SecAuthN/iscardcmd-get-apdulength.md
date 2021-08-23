@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 1535d2b4b67861b42719506ebd48cca4c49d5c38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be2dc0ed209f4d7be5c36be25579c69149c554ab159590339297b4180f461062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103818512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577744"
 ---
 # <a name="iscardcmdget_apdulength-method"></a>Метод Искардкмд:: Get \_ апдуленгс
 
-\[Метод **Get \_ апдуленгс** доступен для использования в операционных системах, указанных в разделе требования. Он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздней версии, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
+\[Метод **Get \_ апдуленгс** доступен для использования в операционных системах, указанных в разделе требования. он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
 
 Метод **Get \_ апдуленгс** определяет длину (в байтах) f в [*блоке данных протокола приложения*](../secgloss/a-gly.md) (категориях APDU).
 
@@ -65,7 +65,7 @@ HRESULT get_ApduLength(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить необработанную [*единицу данных протокола приложения*](../secgloss/a-gly.md) (категориях APDU) из буфера байтов, сопоставленного с помощью **IStream** , содержащего сообщение категориях APDU, вызовите [**Get \_ категориях APDU**](iscardcmd-get-apdu.md).
 
@@ -95,24 +95,24 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                   |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Скарддат. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Скарддат. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Скарддат. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искардкмд определен как D5778AE3-43DE-11D0-9171-00AA00C18068<br/>            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,4 +1,4 @@
-- name: начало работы разработке пользовательских интерфейсов для приложений Windows
+- name: начало работы разработке пользовательских интерфейсов для Windows приложений
   href: getting-started-developing-user-interfaces-portal.md
   items:
     - name: Общие сведения о процессе разработки пользовательского интерфейса
@@ -23,7 +23,7 @@
           href: user-interface-technologies-for-windows-applications.md
     - name: Тестирование пользовательского интерфейса
       href: testing-a-user-interface.md
-    - name: 'Вопросы безопасности: Пользовательский интерфейс Windows'
+    - name: 'вопросы безопасности: Windows пользовательский интерфейс'
       href: sec-ui.md
     - name: Другие ресурсы
       href: other-resources.md

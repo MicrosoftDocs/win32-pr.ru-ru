@@ -4,12 +4,12 @@ ms.assetid: 713fd6de-16af-49d2-8940-763c4a6e414b
 title: Предотвращение переполнения буфера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c8a3456384e799380fa0041172fb2b2ea09c0c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae85d66d32b1efc29e75e187bb1afa67653084a3b9c729cd56728078f5e0c1ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622954"
 ---
 # <a name="avoiding-buffer-overruns"></a>Предотвращение переполнения буфера
 
@@ -50,7 +50,7 @@ ms.locfileid: "105663951"
 
  
 
-Безопасная обработка строк — это долгосрочная проблема, которая, по-своему, должна быть решена как в следующих эффективных методиках программирования, так и часто с помощью и модернизация существующих систем с защищенными функциями обработки строк. Пример такого набора функций для оболочки Windows начинается с [**стрингкбкат**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata).
+Сейфная обработка строк — это долгосрочная проблема, которая, по-своему, должна быть решена как в следующих эффективных методиках программирования, так и часто с помощью и модернизация существующих систем с защищенными функциями обработки строк. пример такого набора функций для оболочки Windows начинается с [**стрингкбкат**](/windows/win32/api/strsafe/nf-strsafe-stringcbcata).
 
  
 

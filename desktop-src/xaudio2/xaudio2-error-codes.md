@@ -4,12 +4,12 @@ ms.assetid: 42a1c21c-4b14-114a-d79e-15a61eb2139b
 title: Коды ошибок XAudio2 (Xaudio2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7011786c3db7f660dee7a3323861abd88c57835
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bbfb29153ca55064c1019e9cfb8fd1019caaa0ffe17dfa103f123faa812f762
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545404"
 ---
 # <a name="xaudio2-error-codes"></a>Коды ошибок XAudio2
 
@@ -26,23 +26,23 @@ XAudio2 конкретные коды ошибок, возвращаемые м�
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
+Windows 10 (ксаудио 2.9); Windows 8, Windows Phone 8 (ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Xaudio2. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Xaudio2. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

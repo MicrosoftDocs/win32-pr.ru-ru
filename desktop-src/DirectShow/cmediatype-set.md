@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9bf14132660045afbd171173a38d3ea320ba1aa
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 0a317b23b4870ad6e68032ed23f846a81019be358974ebbe75e2a5859db71303
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "105665017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585884"
 ---
 # <a name="cmediatypeset-method-mtypeh---cmtype-ref-parameter"></a>Метод Кмедиатипе. Set (Мтипе. h) — кмтипе [ref]
 
@@ -53,18 +53,18 @@ HRESULT Set(
 
 Возвращает S \_ OK или E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод копирует весь тип мультимедиа из *кмтипе*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование                   | Значение                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header  | Мтипе. h (включение Streams. h)                                                                                     |
+| Заголовок  | мтипе. h (включает Потоки. h)                                                                                     |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

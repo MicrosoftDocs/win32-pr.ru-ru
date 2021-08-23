@@ -3,11 +3,11 @@ title: Справочник по Waveform Audio
 description: В этом разделе перечислены функции, структуры и сообщения, связанные с волновой звукозаписью, которые задокументированы в справочнике по мультимедиа. Эти элементы группируются следующим образом.
 ms.assetid: 723953f7-b38e-4f24-8d54-9849e013011d
 keywords:
-- Мультимедиа Windows, Справочник по волнам аудио
+- Windows мультимедиа, справочник по волнам аудио
 - мультимедиа, Справочник по волнам аудио
 - мультимедиа аудио, Справочник по волнам
 - аудио, Справочник по волнам
-- Мультимедиа Windows, звуковая волна
+- Windows мультимедиа, звукозапись
 - мультимедиа, волна аудио
 - мультимедийные аудио, волна
 - аудио, волна
@@ -36,12 +36,12 @@ keywords:
 - Справочник по вавефоре аудио, записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c74b37984b2d3fab5dad1ea0df4f1f62dfa1855e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4fd83f843de130d247749acfc87a67c60948871bb8cd878f9aa180fcd385fb13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687424"
 ---
 # <a name="waveform-audio-reference"></a>Справочник по Waveform Audio
 
@@ -61,7 +61,7 @@ ms.locfileid: "104069914"
 -   [**PlaySound**](/previous-versions//dd743680(v=vs.85))
 -   [**сндплайсаунд**](/previous-versions//dd798676(v=vs.85))
 
-## <a name="errors"></a>ошибки
+## <a name="errors"></a>Ошибки
 
 -   [**вавеинжетеррортекст**](/windows/win32/api/mmeapi/nf-mmeapi-waveingeterrortext)
 -   [**вавеаутжетеррортекст**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgeterrortext)
@@ -149,18 +149,18 @@ ms.locfileid: "104069914"
 -   [**вавеинмессаже**](/windows/win32/api/mmeapi/nf-mmeapi-waveinmessage)
 -   [**вавеаутмессаже**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage)
 
-## <a name="volume"></a>Том
+## <a name="volume"></a>Громкость
 
 -   [**вавеаутжетволуме**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetvolume)
 -   [**вавеаутсетволуме**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutsetvolume)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Звуковая волна](waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

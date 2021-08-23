@@ -4,30 +4,30 @@ ms.assetid: fff546d5-d26c-48cf-8d00-595a23c0a2af
 title: Примариволумеспацеаваилабле, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d464626b68f9d8ccb32ceb08c52af0cf7efa5920
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9336bfa32ebb3bf0c12b7e7fc54ddad2b26cd635c820ca6e8ea2caabe163ceb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580674"
 ---
 # <a name="primaryvolumespaceavailable-property"></a>Примариволумеспацеаваилабле, свойство
 
 Установщик устанавливает значение свойства **примариволумеспацеаваилабле** в строку, представляющую общее количество байт, доступных в единицах измерения 512, на томе, на который ссылается свойство [**примариволумепас**](primaryvolumepath.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Например, если для [**примариволумепас**](primaryvolumepath.md) задано значение "D:", а для тома D: доступно 446 134 272 байт, **примариволумеспацеаваилабле** имеет значение 871356.
 
 Примечание. Если это значение должно отображаться в статическом [элементе управления "текст](text-control.md)", бит [форматсизе](formatsize-control-attribute.md) можно использовать для автоматического форматирования и пометки этого числа в килобайтах или мегабайтах соответственно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

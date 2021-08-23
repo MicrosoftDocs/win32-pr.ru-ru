@@ -20,12 +20,12 @@ keywords:
 - перезапуск воспроизведения аудио-сигнала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6a4756a08317923056114259588a95bc62e97f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b04491a676a104e288d274da7dd70eb759e363adc6476805b261a9651444bf1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688494"
 ---
 # <a name="stopping-pausing-and-restarting-playback"></a>Остановка, приостановка и перезапуск воспроизведения
 
@@ -41,7 +41,7 @@ ms.locfileid: "104133726"
 
 
 
- 
+ 
 
 Приостановка устройства аудио-сигнала с помощью [**вавеаутпаусе**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutpause) может оказаться немгновенной. драйвер может завершить воспроизведение текущего блока перед приостановкой воспроизведения.
 
@@ -49,6 +49,6 @@ ms.locfileid: "104133726"
 
 Нельзя использовать **вавеаутрестарт** для перезапуска устройства, которое было остановлено с помощью [**вавеаутресет**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset); необходимо использовать **вавеаутврите** для отправки первого блока данных, чтобы возобновить воспроизведение на устройстве.
 
- 
+ 
 
- 
+ 

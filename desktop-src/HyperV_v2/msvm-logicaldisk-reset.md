@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 32a4c2897e63da323a7c698509512bfd1d9a6eec
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 148fe50877fd3add3b2005edce4c96ac519c2e1677a9e0895272538d703a74f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521804"
 ---
 # <a name="reset-method-of-the-msvm_logicaldisk-class"></a>Метод Reset \_ класса мсвм LogicalDisk
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 6fb667186789361a106a23f8daa82088b9bcb2ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c42a8f4cf61b2b61d228dc243d06e902d825040570f4baa6502f2feba0322ae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691344"
 ---
 # <a name="fspecialwindowimecolorstyle-function"></a>Функция ФспеЦиалвиндовимеколорстиле
 
@@ -50,11 +50,11 @@ BOOL __cdecl FSpecialWindowIMEColorStyle(
 
 Возвращает **значение true** , если цвет является цветом специального окна (один из специальных цветов).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ BOOL __cdecl FSpecialWindowIMEColorStyle(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

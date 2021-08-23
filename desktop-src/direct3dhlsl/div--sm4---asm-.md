@@ -4,12 +4,12 @@ description: Деление на уровне компонентов.
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d406c5e61b4615990b445abe169619227d22124c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0a1df4e40032a2eaa2c4ef89ca5d1e227b4ebc35bbc8b13d7868eda5ea7a5b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625774"
 ---
 # <a name="div-sm4---asm"></a>Div (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "107999101"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В следующей таблице показаны результаты, полученные при выполнении инструкции с различными классами чисел, предполагая, что ни переполнение, ни потеря точности не происходит.
 
@@ -51,13 +51,13 @@ ms.locfileid: "107999101"
 | **src0 src1 — >** | **-INF** | **-F**     | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F**     | **+ INF** | **NaN** |
 |---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **-INF**            | -inf     | -inf       | -inf        | -inf   | -inf   | -inf        | -inf       | Не число      | Не число     |
-| **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F или +-0 | +inf     | не число     |
+| **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F или +-0 | +inf     | Не число     |
 | **— денорма**         | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | Не число     |
 | **-0**              | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | Не число     |
-| **+0**              | -inf     | src1       | +0          | +0     | +0     | +0          | src1       | +inf     | не число     |
-| **+ денорма**         | -inf     | src1       | +0          | +0     | +0     | +0          | src1       | +inf     | не число     |
-| **+ F**              | -inf     | +-F или +-0 | src0        | src0   | src0   | src0        | + F         | +inf     | не число     |
-| **+ INF**            | не число      | +inf       | +inf        | +inf   | +inf   | +inf        | +inf       | +inf     | Не число     |
+| **+0**              | -inf     | src1       | +0          | +0     | +0     | +0          | src1       | +inf     | Не число     |
+| **+ денорма**         | -inf     | src1       | +0          | +0     | +0     | +0          | src1       | +inf     | Не число     |
+| **+ F**              | -inf     | +-F или +-0 | src0        | src0   | src0   | src0        | + F         | +inf     | Не число     |
+| **+ INF**            | Не число      | +inf       | +inf        | +inf   | +inf   | +inf        | +inf       | +inf     | Не число     |
 | **Не число**             | Не число      | Не число        | Не число         | Не число    | Не число    | Не число         | Не число        | Не число      | Не число     |
 
 
@@ -84,9 +84,9 @@ ms.locfileid: "107999101"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

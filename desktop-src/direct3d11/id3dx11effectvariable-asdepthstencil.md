@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 980bd43f51d187252fab1872ba75d04f82820ef8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 771f22b6b757b9144fca7e2637a3a702232b3d2a4a837938454b2acd5237cfae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119729134"
 ---
 # <a name="id3dx11effectvariableasdepthstencil-method"></a>Метод ID3DX11EffectVariable:: АсдепсстенЦил
 
@@ -47,7 +47,7 @@ ID3DX11EffectDepthStencilVariable* AsDepthStencil();
 
 Указатель на переменную шаблона глубины. См. [**ID3DX11EffectDepthStencilVariable**](id3dx11effectdepthstencilvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 АсдепсстенЦил Возвращает версию переменной Effect, которая была специализированной для переменной шаблона глубины. Как и в приведении, эта специализация возвращает недопустимый объект, если переменная действия не содержит данных шаблона глубины.
 
@@ -64,7 +64,7 @@ ID3DX11EffectDepthStencilVariable* AsDepthStencil();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 

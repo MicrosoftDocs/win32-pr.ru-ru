@@ -4,12 +4,12 @@ ms.assetid: 50353ba9-86dd-4172-91b4-1898c8fc5522
 title: System. Симплератинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4741edd076b6027bc5f8dfbe3b2ff2a31374a7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74e13d7f65fb335aea6362509c20845bd1324b6e99d48f14cd9746f0237661f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598144"
 ---
 # <a name="systemsimplerating"></a>System. Симплератинг
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-Для совместимости с системой оценки оболочки Windows Vista обработчик свойств также должен заполнить свойство [System. рейтингов](./props-system-rating.md) с сопоставлением, как описано для этого свойства.
+для обеспечения совместимости с системой оценки оболочки Windows Vista обработчик свойств также должен заполнить свойство [system. рейтингов](./props-system-rating.md) с сопоставлением, как описано для этого свойства.
 
 Используйте следующую таблицу для преобразования из [System. рейтингов](./props-system-rating.md) в [System. симплератинг]().
 
@@ -54,7 +54,7 @@ propertyDescription
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

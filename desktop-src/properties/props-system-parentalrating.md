@@ -4,12 +4,12 @@ ms.assetid: db5fb8a2-719f-4bef-9ab1-0856945ed240
 title: System. Паренталратинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3775c487921c6987810ba09f3b3ee94f60e91145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bd27f3fd3377e60d4fa517fbd5704d6abd25a2e3a2b568ccf2718db93f173a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596824"
 ---
 # <a name="systemparentalrating"></a>System. Паренталратинг
 
@@ -30,13 +30,13 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Эта строка отображается непосредственно пользователю, поэтому следует использовать понятные для пользователя слова. Например, "R-Restricted" (с ограничениями по уровням) в системе оценок Motion (МПАА).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

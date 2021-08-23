@@ -6,12 +6,12 @@ keywords:
 - инкдрав
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41973d3f8560f25a81ac1deb782bada51b015239
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e146093d23fd16d122da1ea81d1c99bdf06ed926d5cb4dba2f1d77b747b2058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662764"
 ---
 # <a name="inkdraw-method"></a>Метод Инкдрав
 
@@ -48,9 +48,9 @@ HRESULT CGuiPaper::InkDraw(
 
 Инкдрав четко имеет две обязанности. Вызовы Win32 Моветоекс и LineTo выполняются для рисования линий изображения на экране графического интерфейса пользователя (с использованием маркера контекста устройства, сохраненного в параметре m \_ HDC). Рукописные данные также передаются в объект собумага для записи с помощью метода Инкдрав интерфейса [ипапер](ipaper-methods.md) . Если \_ значение m бинксавинг равно **false**, инкдрав закрашивает изображение линии, но не сохраняет данные в составляемой бумаге. Это условие используется во время перерисовки.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0355cf0d798c179e089a6a85b81047a8d2afccef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d26bc310f5a5ffc495612f408b5f2c39a6443ec46d23cf0a80c2c96aa189937d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581874"
 ---
 # <a name="ms-spp-issuance-license-attribute"></a>атрибут MS-SPP-выдачи-License
 
@@ -52,10 +52,10 @@ ms.locfileid: "105655364"
 |------------------------|-------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
-| System-Only            | Неверно                                                                   |
-| Является однозначным       | True                                                                    |
-| Индексируется             | Неверно                                                                   |
-| В глобальном каталоге      | Неверно                                                                   |
+| System-Only            | Нет                                                                   |
+| Является однозначным       | Верно                                                                    |
+| Индексируется             | Нет                                                                   |
+| В глобальном каталоге      | Нет                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |

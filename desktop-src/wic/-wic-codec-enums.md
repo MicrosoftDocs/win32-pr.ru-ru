@@ -1,19 +1,19 @@
 ---
 title: Константы, перечисления и флаги WIC
-description: В этом разделе содержатся сведения о константах, перечислениях и флагах компонента Windows Imaging Component (WIC).
+description: в этом разделе содержатся сведения о константах, перечислениях и флагах компонента обработки изображений (WIC) Windows.
 ms.assetid: a3f44919-bd55-48cf-9dc6-37de0059a639
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d16386f1ba21ed138ad746f3fa9725d91bb68d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee9718641dd0e0e9159a6da9998e0109e4ec97fa366b1e9cba35f9d5f1065ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549634"
 ---
 # <a name="wic-constants-enumerations-and-flags"></a>Константы, перечисления и флаги WIC
 
-В этом разделе содержатся сведения о константах, перечислениях и флагах компонента Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о константах, перечислениях и флагах компонента обработки изображений (WIC) Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -78,7 +78,7 @@ ms.locfileid: "104144737"
 | [**викравпараметерсет**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawparameterset)<br/>                                             | Указывает набор параметров, используемый необработанным кодеком.<br/>                                                                                                     |
 | [**викраврендермоде**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrendermode)<br/>                                                 | Указывает цель визуализации следующего вызова [**CopyPixels**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-copypixels) . <br/>                                          |
 | [**викравротатионкапабилитиес**](/windows/desktop/api/Wincodec/ne-wincodec-wicrawrotationcapabilities)<br/>                             | Задает возможности вращения кодека.<br/>                                                                                                    |
-| [**виксектионакцесслевел**](/windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel)<br/>                                       | Задает уровень доступа раздела интерфейс графических устройств Windows (GDI).<br/>                                                                     |
+| [**виксектионакцесслевел**](/windows/desktop/api/Wincodec/ne-wincodec-wicsectionaccesslevel)<br/>                                       | задает уровень доступа раздела Windows интерфейс графических устройств (GDI).<br/>                                                                     |
 | [**виктиффкомпрессионоптион**](/windows/desktop/api/Wincodec/ne-wincodec-wictiffcompressionoption)<br/>                                 | Задает параметры сжатия для формата файла изображения с тегами (TIFF).<br/>                                                                                   |
 
 

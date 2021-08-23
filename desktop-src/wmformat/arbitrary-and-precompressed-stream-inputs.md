@@ -17,16 +17,16 @@ keywords:
 - потоки, предварительно сжатые входные данные потока
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe1c95fe992c7638ac923ac07ce159fb5dc4126
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: eb0129362e8dc01b7ccf3faabbf10e22ffd4eccc082782796059b3cf4578c33a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "105700819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448274"
 ---
 # <a name="arbitrary-and-precompressed-stream-inputs"></a>Произвольные и предварительно сжатые входные потоки
 
-Только входные данные, которые должны быть сжаты одним из кодеков Windows Media, имеют несколько возможных входов. Другими типами возможных входов являются произвольные входные данные и предсжатые входные данные. Требования для форматов ввода для этих типов описаны в этом разделе.
+только входные данные, которые должны быть сжаты одним из кодеков Windows мультимедиа, имеют несколько возможных входов. Другими типами возможных входов являются произвольные входные данные и предсжатые входные данные. Требования для форматов ввода для этих типов описаны в этом разделе.
 
 ## <a name="arbitrary-stream-inputs"></a>Произвольные входные потоки
 
@@ -38,16 +38,16 @@ ms.locfileid: "105700819"
 
 При использовании предварительно сжатых потоков необходимо вручную скопировать сведения о кодека в заголовок файла перед записью. Чтобы получить сведения о кодека, вызовите [**IWMHeaderInfo2:: жеткодеЦинфокаунт**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfocount) и [**IWMHeaderInfo2:: жеткодеЦинфо**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo2-getcodecinfo) , чтобы перечислить кодеки, связанные с файлом, в модуле чтения. Выберите сведения о кодека, соответствующие конфигурации потока предварительно сжатого потока. Затем задайте сведения о кодека в средстве записи, вызвав [**IWMHeaderInfo3:: аддкодеЦинфо**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addcodecinfo), передав данные, полученные от модуля чтения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с входными данными**](working-with-inputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

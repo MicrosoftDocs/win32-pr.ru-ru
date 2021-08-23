@@ -4,12 +4,12 @@ ms.assetid: 34f5c3d5-ee40-e304-7c97-d30c17621d26
 title: 'Руководство: создание XAPO'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 549739462a0e76cbb437f0aa1403b099f72f5224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ea17729c5a6d872d98443c85f79dc72e8eee6dd2233b99f31e189a9eb28708e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583854"
 ---
 # <a name="how-to-create-an-xapo"></a>Руководство: создание XAPO
 
@@ -118,7 +118,7 @@ STDMETHOD_(void, Process)(UINT32 InputProcessParameterCount,
 
 При написании метода [**обработки**](/windows/win32/api/xapo/nf-xapo-ixapo-process) важно отметить, что XAudio2 звуковые данные чередуются. Это означает, что данные из каждого канала являются смежными для конкретного образца числа. Например, если имеется 4-канальный звук, воспроизводимый в XAudio2 исходного голоса, то звуковые данные представляют собой образец канала 0, образец канала 1, пример канала 2, пример канала 3, а затем следующий пример каналов 0, 1, 2, 3 и т. д.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

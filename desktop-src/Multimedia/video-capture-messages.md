@@ -3,16 +3,16 @@ title: Сообщения видеозаписи
 description: Сообщения видеозаписи
 ms.assetid: ec5c2c4b-d0a2-4982-aedc-24f814a5ab74
 keywords:
-- Видео для Windows (VFW), сообщения видеозаписи
+- видео для Windows (VFW), сообщения видеозаписи
 - VFW (видео для Windows), сообщения видеозаписи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e6d775decf7a7514772e9291665f3fdf10233d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f45832d0712ef73ed4e66694f2a89abeb1431d14a540ecec910f3cd2cf75ae7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104531931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687644"
 ---
 # <a name="video-capture-messages"></a>Сообщения видеозаписи
 
@@ -72,16 +72,16 @@ ms.locfileid: "104531931"
 -   [**\_ \_ Открытие одиночного \_ кадра WM Cap \_**](wm-cap-single-frame-open.md)
 -   [**\_ \_ Окончание крепления WM**](wm-cap-stop.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по видеозаписи](video-capture-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

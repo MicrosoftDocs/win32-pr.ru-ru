@@ -4,12 +4,12 @@ ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Визуализация пера (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9a09aa8892647315eccbb1e8b3ca443e01c1ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b9f75493a361cc167b65fba1783bc01f909d76211b1076e2faccc2e6f00116
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119548494"
 ---
 # <a name="pen-visualization"></a>Визуализация пера
 
@@ -84,19 +84,19 @@ ms.locfileid: "104545575"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

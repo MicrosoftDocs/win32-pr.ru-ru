@@ -4,12 +4,12 @@ ms.assetid: 213e0fa2-895e-4028-9b55-5bbc6e19439f
 title: System. Contact. Осераддресспостоффицебокс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 124d60aa0f48f3e3991630a89699aa6a8de26590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f85e4831ddabc42b1562371ad1341ba08dea48c5ce58b6a3caa4eb507cc08f30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599314"
 ---
 # <a name="systemcontactotheraddresspostofficebox"></a>System. Contact. Осераддресспостоффицебокс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4bb7bb75358e9e93b010312c76e1b6aca33233bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a04a1b19a3d5a3f9f7b167f3e54883d7f39486a8ee4418179cc11aa0496b6de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639934"
 ---
 # <a name="swbemobjectpathserver-property"></a>Свбемобжектпас. Server, свойство
 
@@ -43,7 +43,7 @@ SWbemObjectPath.Server As String
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -51,7 +51,7 @@ SWbemObjectPath.Server As String
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_СВБЕМОБЖЕКТПАС CLSID<br/>                                                       |

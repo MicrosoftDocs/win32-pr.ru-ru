@@ -4,12 +4,12 @@ ms.assetid: 5cdc43c0-2349-4ffc-9bf7-3b498b35db95
 title: Константы LINEGENERATETERM_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6804b09879471a77780a95ca4ed35b7aaa5b6e1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c34d119f503c677e5c251bb494c5ea991dbd0fccf0bfbdb3affecf4c4ff1914
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119518974"
 ---
 # <a name="linegenerateterm_-constants"></a>\_Константы линеженератетерм
 
@@ -37,18 +37,18 @@ ms.locfileid: "105689469"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

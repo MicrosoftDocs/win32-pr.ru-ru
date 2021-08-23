@@ -1,15 +1,15 @@
 ---
-description: Сведения о установщик Windows концепциях, начинающихся с буквы C, например CAB-файл и контрольная сумма.
+description: сведения о установщик Windows концепциях, начинающихся с буквы C, например cab-файл и контрольная сумма.
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: C (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 2fb0e9a1f14a3b2a7f47722d8db3e3d9cb8356df500e54dbf581bd919afb5765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581784"
 ---
 # <a name="c-windows-installer"></a>C (установщик Windows)
 
@@ -62,7 +62,7 @@ ms.locfileid: "112010927"
 <span id="_msi_.cub_file_gly"></span><span id="_MSI_.CUB_FILE_GLY"></span>**файл. cub**
 </dt> <dd>
 
-Модуль проверки, который хранит и предоставляет доступ к настраиваемым действиям ICE. Дополнительные сведения см. в разделе [Sample. cub File](sample--cub-file.md). Дополнительные сведения см. в разделе также [установщик Windows расширения файлов](windows-installer-file-extensions.md).
+Модуль проверки, который хранит и предоставляет доступ к настраиваемым действиям ICE. Дополнительные сведения см. в разделе [Sample. cub File](sample--cub-file.md). дополнительные сведения см. в разделе также [установщик Windows расширения файлов](windows-installer-file-extensions.md).
 
 </dd> <dt>
 

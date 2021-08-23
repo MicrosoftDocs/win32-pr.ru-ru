@@ -1,19 +1,19 @@
 ---
-description: Класс телефонии службы устройства Bluetooth.
+description: Bluetooth класс телефонии службы устройства.
 ms.assetid: be9c4050-b429-4e95-8145-0926356b5464
-title: System. Devices. АЕП. Bluetooth. наложен. Services. Телефон
+title: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Телефон
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cafdbf31dd17d28d47f98187ec82b97ebf45f24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a7635b1a05f9815822c18e6a1aa9461233a49d8799079c3ee95076fd7034ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599144"
 ---
-# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>System. Devices. АЕП. Bluetooth. наложен. Services. Телефон
+# <a name="systemdevicesaepbluetoothcodservicestelephony"></a>System. Devices. АЕП. Bluetooth. Наложенный на. Services. Телефон
 
-Класс телефонии службы устройства Bluetooth.
+Bluetooth класс телефонии службы устройства.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

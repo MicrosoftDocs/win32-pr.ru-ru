@@ -4,12 +4,12 @@ ms.assetid: 668f0f24-2f77-6d0d-33ac-93f269bb50f0
 title: Константы ФКСРЕВЕРБ (КСАПОФКС. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4dd6b9e8b5f9e4108826c3bbccc9836bbfff39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0e5626ac40450906caf3975f388daf9f9bf67949773d1cfa1272e67c3cd7962
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440414"
 ---
 # <a name="fxreverb-constants"></a>Константы ФКСРЕВЕРБ
 
@@ -28,11 +28,11 @@ ms.locfileid: "105679876"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
+Windows 10 (ксаудио 2.9); Windows 8, Windows Phone 8 (ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
 
 ## <a name="requirements"></a>Требования
 
@@ -40,7 +40,7 @@ Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8)
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>КСАПОФКС. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>КСАПОФКС. h</dt> </dl> |
 
 
 

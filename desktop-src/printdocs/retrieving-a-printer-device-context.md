@@ -4,12 +4,12 @@ ms.assetid: b3eb9c48-f4c4-42f1-b189-1fa42670008e
 title: Как получить контекст печатающего устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fde55450273e42f3429f173150296fdd67a1c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f723ece0e00d58ed684029e0eb3202d637443bd7f0e9d8878024346b9d79ba9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600564"
 ---
 # <a name="how-to-retrieve-a-printer-device-context"></a>Как получить контекст печатающего устройства
 
@@ -112,7 +112,7 @@ ms.locfileid: "105693296"
 
 ### <a name="using-the-printdlg-function"></a>Использование функции Принтдлг
 
-Если приложение должно выполняться в системе, которая не поддерживает функцию [**принтдлжекс**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) , например в системе, где используется версия Windows, предшествующая Windows 2000, или не требуются дополнительные функции, предоставляемые функцией **принтдлжекс** , используйте функцию [**принтдлг**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) . В следующих шагах описывается, как отобразить диалоговое окно "Общие" для **печати** старого стиля.
+если приложение должно выполняться в системе, которая не поддерживает функцию [**принтдлжекс**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) , например в системе, где используется версия Windows более ранней, чем Windows 2000, или не требуются дополнительные функции, предоставляемые функцией **принтдлжекс** , используйте функцию [**принтдлг**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) . В следующих шагах описывается, как отобразить диалоговое окно "Общие" для **печати** старого стиля.
 
 1.  Инициализируйте структуру данных [**принтдлг**](/windows/win32/api/commdlg/ns-commdlg-printdlga) .
 2.  Вызовите [**принтдлг**](/previous-versions/windows/desktop/legacy/ms646940(v=vs.85)) , чтобы отобразить для пользователя общее диалоговое окно **печати** .

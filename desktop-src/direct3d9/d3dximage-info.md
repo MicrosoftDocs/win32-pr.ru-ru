@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9tex.h
-ms.openlocfilehash: be70cc88645e0aac6734907c6a97f2d4bb104c99
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ede879b288569b503257abeb189d93316ed2bd96dd4db99f6e22f32bbb4f98b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607824"
 ---
 # <a name="d3dximage_info-structure"></a>\_Структура сведений о D3DXIMAGE
 
@@ -67,7 +67,7 @@ typedef struct D3DXIMAGE_INFO {
 
 </dd> <dt>
 
-**Глубина**
+**Depth**
 </dt> <dd>
 
 Тип: **[ **uint**](../winprog/windows-data-types.md)**
@@ -128,11 +128,11 @@ typedef struct D3DXIMAGE_INFO {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9tex. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

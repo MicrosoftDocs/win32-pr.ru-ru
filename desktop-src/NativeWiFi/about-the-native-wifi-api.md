@@ -4,19 +4,19 @@ ms.assetid: 686f9ccf-5040-44c5-8633-83f12dc46586
 title: Сведения о встроенном API Wi-Fi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 280d4f656145430e34d79e05b88bc2bdeb54fe5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16fafbe65d162668930470712c79637a41fcd0ee0769441b745e68bca156ada4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685464"
 ---
 # <a name="about-the-native-wifi-api"></a>Сведения о встроенном API Wi-Fi
 
 Собственный API Wi-Fi содержит функции, структуры и перечисления, поддерживающие беспроводное подключение и Управление профилем беспроводной сети. API можно использовать как для инфраструктуры, так и для нерегламентированных сетей. Нерегламентированный интерфейс API — это упрощенный объектно-ориентированный интерфейс для создания, управления и использования нерегламентированных сетей.
 
 > [!Note]  
-> Нерегламентированный режим может быть недоступен в будущих версиях Windows. Начиная с Windows 8.1 и Windows Server 2012 R2, следует использовать [Wi-Fi Direct](about-the-wi-fi-direct-api.md) .
+> Нерегламентированный режим может быть недоступен в будущих версиях Windows. начиная с Windows 8.1 и Windows Server 2012 R2, используйте вместо этого [Wi-Fi Direct](about-the-wi-fi-direct-api.md) .
 
  
 
@@ -24,14 +24,14 @@ ms.locfileid: "104272462"
 
 Не рекомендуется смешивать собственные вызовы API WiFi и нерегламентированные вызовы API. Разработчики должны выбрать подход к программированию перед проектированием приложения. Если приложение использует сети инфраструктуры или управляет ими, следует использовать собственный API Wi-Fi. Если приложению требуются функции управления профилями, следует использовать собственный API Wi-Fi. В противном случае следует использовать нерегламентированный интерфейс API.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [О встроенных WiFi](about-native-wifi.md)
 </dt> <dt>
 
-[Встроенная поддержка интерфейса API WiFi в Windows XP](about-wireless-lan-api-for-windows-xp-service-pack-2.md)
+[встроенная поддержка интерфейса API Wifi в Windows XP](about-wireless-lan-api-for-windows-xp-service-pack-2.md)
 </dt> <dt>
 
 [Собственные разрешения API WiFi](native-wifi-api-permissions.md)
@@ -40,7 +40,7 @@ ms.locfileid: "104272462"
 [Сведения о беспроводном нерегламентированном API](about-the-wireless-ad-hoc-api.md)
 </dt> <dt>
 
-[Загрузка пакета SDK для Windows Vista](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf)
+[скачайте пакет SDK для Windows Vista](https://www.microsoft.com/downloads/details.aspx?FamilyID=f26b1aa4-741a-433a-9be5-fa919850bdbf)
 </dt> </dl>
 
  

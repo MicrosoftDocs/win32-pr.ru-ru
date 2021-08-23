@@ -3,7 +3,7 @@ title: Команда MCI_REALIZE (Ммсистем. h)
 description: Команда MCI \_ понимает, что графическое устройство реализует свою палитру в контексте устройства (DC). Устройство Digital-Video распознает эту команду.
 ms.assetid: cbc9e6ef-a372-4ddb-b7f3-ea99ac14ec95
 keywords:
-- MCI_REALIZE команды мультимедиа Windows
+- команда MCI_REALIZE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f2e59bfe9bbe1443f55ae0fbcf8819b932bb1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e81204fe679d543438a0d0dcc7ec333462cb6a3d0c30212706969dc22a143df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689834"
 ---
 # <a name="mci_realize-command"></a>\_Команда MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту команду следует использовать, когда приложение получает сообщение [**WM \_ куериневпалетте**](/windows/desktop/gdi/wm-querynewpalette) .
 
@@ -92,7 +92,7 @@ MCIERROR mciSendCommand(
 
 Для устройств с цифровыми видео параметр *лпреализе* указывает на структуру **MCI \_ \_ пармс** . Дополнительные сведения см. в разделе комментарии в структуре [**MCI \_ Generic \_ пармс**](mci-generic-parms.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -100,11 +100,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

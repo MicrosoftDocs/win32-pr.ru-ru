@@ -3,7 +3,7 @@ title: ретурнбуттон
 description: Это предопределенная кнопка со следующими значениями по умолчанию. | ретурнбуттон
 ms.assetid: c2c3886e-9089-4ec0-9e02-94b9a22f35ad
 keywords:
-- РЕТУРНБУТТОН Windows Media Player
+- ретурнбуттон проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 75a1ddad5e3844c32e2b46d03badc4b00af4c773
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e54cb405e9bed39bb893ca4bdba2b3da45060cf84e7cbb61a2e634c645ef7daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119646814"
 ---
 # <a name="returnbutton"></a>ретурнбуттон
 
@@ -29,7 +29,7 @@ onclick="jscript:view.returnToMediaCenter();"
 upToolTip="Return to Full Mode"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При этом создается элемент управления **"Кнопка"** , который возвращает проигрыватель в Media Center. Всплывающие подсказки локализованы. Все свойства этой **кнопки** можно переопределить, явно указав их.
 
@@ -39,7 +39,7 @@ upToolTip="Return to Full Mode"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 7,0 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 7,0 или более поздней версии<br/> |
 
 
 

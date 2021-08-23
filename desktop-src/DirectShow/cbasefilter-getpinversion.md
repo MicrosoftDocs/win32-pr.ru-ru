@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2d8cb2e67f88ef7a02958cc851dd9b8c0c751096
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a40890ce40e75ebea9f7dd10edb78572eb865ea5f94cd1ec674c082d6df8c631
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640464"
 ---
 # <a name="cbasefiltergetpinversion-method"></a>Кбасефилтер. Жетпинверсион, метод
 
@@ -44,24 +44,24 @@ virtual long GetPinVersion();
 
 Возвращает переменную члена [**кбасефилтер:: m \_ пинверсион**](cbasefilter-m-pinversion.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Конструктор **кбасефилтер** инициализирует версию ПИН-кода до 1. В базовом классе это число никогда не изменяется. Если фильтр динамически создает или уничтожает ПИН-коды, он должен увеличивать номер версии ПИН при каждом изменении ПИН. Чтобы увеличить номер версии, вызовите метод [**кбасефилтер:: инкрементпинверсион**](cbasefilter-incrementpinversion.md) .
 
 Объект перечислителя PIN-кодов, реализованный классом [**ценумпинс**](cenumpins.md) , использует версию ПИН-кода для синхронизации с фильтром.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

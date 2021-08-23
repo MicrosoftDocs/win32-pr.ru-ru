@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 853566dc6db7cfafed6a73b9a1ba3032001f02cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70d329c6a48eb92f6f50ff49d5543c2aaf5cfc3ce9ef23b48290c7aa029eecf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105719202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602356"
 ---
 # <a name="pointer-message-flags"></a>Флаги сообщения указателя
 
@@ -212,23 +212,23 @@ ms.locfileid: "105719202"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 XBUTTON1 и XBUTTON2 — это дополнительные кнопки, используемые на многих устройствах мыши. Они возвращают те же данные, что и стандартные кнопки мыши.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,17 +4,17 @@ ms.assetid: 48b80a66-91c1-973f-069b-6f63422d7154
 title: 'Руководство: организация звукового потока с диска'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c5598e8913514d6b0bf81b55bab5b481dbc43b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15ee06866427a8efcdd3e132740d595ec547f55a592182ebfbdced0feefca793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707104"
 ---
 # <a name="how-to-stream-a-sound-from-disk"></a>Руководство: организация звукового потока с диска
 
 > [!Note]  
-> Это содержимое применимо только к классическим приложениям, и для работы в приложении Магазина Windows потребуется редакция. Обратитесь к документации по **CreateFile2**, [креативентекс](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [сетфилепоинтерекс](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)и **жетоверлаппедресултекс**. См. пример Стреамеффект Windows 8 из [коллекции примеров Windows SDK](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
+> это содержимое применяется только к классическим приложениям, и для работы в приложении для магазина Windows потребуется редакция. Обратитесь к документации по **CreateFile2**, [креативентекс](/windows/win32/api/synchapi/nf-synchapi-createeventexa), [WaitForSingleObjectEx](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex), [сетфилепоинтерекс](/windows/win32/api/fileapi/nf-fileapi-setfilepointerex)и **жетоверлаппедресултекс**. см. пример Windows 8 стреамеффект из [коллекции примеров Windows SDK](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/XAudio2%20audio%20stream%20effect%20sample%20(Windows%208)).
 
  
 
@@ -170,7 +170,7 @@ struct StreamingVoiceContext : public IXAudio2VoiceCallback
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

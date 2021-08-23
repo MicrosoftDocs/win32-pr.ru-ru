@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a63e9346dc0229de296e106a47927ba73e20f60d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d3334e34fae86f14a4f7f04dcfee263163c4015cbd8dca560450d54470ee8000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437034"
 ---
 # <a name="setpowerstate-method-of-the-cim_diskdrive-class"></a>Метод SetPowerState \_ класса CIM дискдриве
 
@@ -112,7 +112,7 @@ uint32 SetPowerState(
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -126,7 +126,7 @@ uint32 SetPowerState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

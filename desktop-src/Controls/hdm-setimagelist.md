@@ -3,7 +3,7 @@ title: Сообщение HDM_SETIMAGELIST (Коммктрл. h)
 description: Присваивает список изображений существующему элементу управления "заголовок". Вы можете явно отправить это сообщение или использовать макрос Header \_ сетимажелист или Header \_ сетстатеимажелист.
 ms.assetid: 1d7f07fa-f6f4-422a-949c-97d0388343e3
 keywords:
-- Элементы управления Windows для HDM_SETIMAGELIST сообщений
+- элементы управления Windows сообщений HDM_SETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17fe21d64b141cf27d32e00fac0ce78228421518
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2034a6880721914961b3bd75907df2e7b4e53360ccb3b10162f238068d85031d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435814"
 ---
 # <a name="hdm_setimagelist-message"></a>\_Сообщение СЕТИМАЖЕЛИСТ HDM
 
@@ -57,8 +57,8 @@ ms.locfileid: "103988596"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

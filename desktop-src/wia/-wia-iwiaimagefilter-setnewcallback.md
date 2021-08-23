@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 16325d854f7b17c62e6fb8254819078de64977f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abb279faba1c5174fc39ebdfe30a4a8cde8cabf86e8b86599f8d3ab9cc3247cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450494"
 ---
 # <a name="iwiaimagefiltersetnewcallback-method"></a>Метод Ивиаимажефилтер:: Сетневкаллбакк
 
@@ -54,7 +54,7 @@ HRESULT SetNewCallback(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не вызывайте этот метод непосредственно из приложения.
 
@@ -62,14 +62,14 @@ HRESULT SetNewCallback(
 
 Если *пвиатрансферкаллбакк* имеет **значение NULL**, фильтр обработки изображений должен просто освободить Старый обратный вызов приложения и возвратить \_ ОК.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
 | Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

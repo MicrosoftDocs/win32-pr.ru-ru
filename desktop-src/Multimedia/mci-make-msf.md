@@ -3,7 +3,7 @@ title: Макрос MCI_MAKE_MSF (МЦиапи. h)
 description: С помощью \_ MCI \_ макрос MSF создает значение времени в формате упакованных минут/секунд/кадров (MSF) с учетом заданных минут, секунд и значений кадров.
 ms.assetid: 8c981d84-b049-4448-a820-bff30896065e
 keywords:
-- MCI_MAKE_MSF макросов Windows мультимедиа
+- MCI_MAKE_MSF макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae7e8566986337d6b9b5161c85bcc62cecc52be0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e16f5cfa2b99f7bdbd7eb3029b3f0186904d8b8e94f455614464fadc98cdd20a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690134"
 ---
 # <a name="mci_make_msf-macro"></a>MCI \_ делает \_ макрос MSF
 
@@ -42,7 +42,7 @@ DWORD MCI_MAKE_MSF(
 
 <dl> <dt>
 
-*тезис* 
+*minutes* 
 </dt> <dd>
 
 Количество минут.
@@ -67,7 +67,7 @@ DWORD MCI_MAKE_MSF(
 
 Возвращает время в упакованном формате MSF.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате MSF выражается в виде значения **типа DWORD** с наименьшим значащим байтом, содержащим минуты, следующим наименее значащим байтом, содержащим секунды, и следующим наименьшим значащим байтом, содержащим кадры. Наиболее значимый байт не используется.
 
@@ -82,7 +82,7 @@ DWORD MCI_MAKE_MSF(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ DWORD MCI_MAKE_MSF(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ef3bc9ad5d6203077275f3665c4b0efc98265fbe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ae4c4d7818a0cbd344d95b342fcdccd179b2b2b2b6538a57c451b47bda60306
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439814"
 ---
 # <a name="setpmtudiscovery-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетпмтудисковери \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выполняя обнаружение MTU и ограничивая размер TCP-сегментов, TCP может исключить фрагментацию маршрутизаторов по пути, соединяющего сети с разными MTU. Фрагментация негативно влияет на пропускную способность TCP и перегрузку сети. Если задать для этого параметра **значение false** , то для всех подключений, которые не являются компьютерами в локальной подсети, будет использоваться значение MTU в 576 байт.
 

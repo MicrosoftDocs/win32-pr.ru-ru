@@ -116,7 +116,7 @@ _stprintf_s(
 info mysound product
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -127,7 +127,7 @@ info mysound product
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
