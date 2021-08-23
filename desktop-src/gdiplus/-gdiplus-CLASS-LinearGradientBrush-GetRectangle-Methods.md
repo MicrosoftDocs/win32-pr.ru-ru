@@ -4,12 +4,12 @@ ms.assetid: 56ec2372-0fd3-4220-a283-5d9691fe2e69
 title: Методы LinearGradientBrush. копрямоугольника (Гдиплушеадерс. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1d22dfbe8c32c4f8ccb7e902455ae68d7018590c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e7344b2406bf3d9da9d015a09f586cb2ba9c5bddda4e03cdb7ce6b823bff659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467594"
 ---
 # <a name="lineargradientbrushgetrectangle-methods"></a>LinearGradientBrush. копрямоугольные методы
 
@@ -32,10 +32,10 @@ ms.locfileid: "104264099"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, \[ только для настольных приложений windows 2000 Professional\]<br/>                                          |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional классические \[ приложения\]<br/>                                          |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                            |
 | Продукт<br/>                  | GDI+ 1,0<br/>                                                                                             |
-| Header<br/>                   | <dl> <dt>Гдиплушеадерс. h (включение GDIPLUS. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Гдиплушеадерс. h (включение GDIPLUS. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>GDIPLUS. lib</dt> </dl>                          |
 
 

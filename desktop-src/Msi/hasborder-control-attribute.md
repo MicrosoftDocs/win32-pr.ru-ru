@@ -4,12 +4,12 @@ ms.assetid: 25f88e07-a17d-4a5a-bf4f-5615e371cf6b
 title: Атрибут элемента управления Хасбордер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dfce5e1938ea4896678eb192665babd3632549e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b67f642d6a3ab513c824633d981a99a1608b0f01b33b5f4b62adfd30550ca2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581385"
 ---
 # <a name="hasborder-control-attribute"></a>Атрибут элемента управления Хасбордер
 
@@ -33,7 +33,7 @@ ms.locfileid: "105663688"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите биты Хасбордер в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

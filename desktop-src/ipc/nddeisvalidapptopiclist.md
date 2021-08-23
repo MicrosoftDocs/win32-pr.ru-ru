@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: fb990830583f6684502438f132c1c98f5741a0ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7b70d3e33f67c8c0a457f85df91e83e374a3ef4d0f0b1a0af1c5c41ea81c2ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611134"
 ---
 # <a name="nddeisvalidapptopiclist-function"></a>Функция Нддеисвалидапптопиклист
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Определяет, использует ли строка приложения и раздела ("*AppName* \| *топикнаме*") правильный синтаксис.
 
@@ -56,11 +56,11 @@ BOOL NDdeIsValidAppTopicList(
 
 Если функция выполняется неудачно, возвращается нулевое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция также вызывается [**нддешареадд**](nddeshareadd.md) при создании общего ресурса DDE.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,11 +75,11 @@ BOOL NDdeIsValidAppTopicList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

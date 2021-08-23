@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b6f33e591df364151a7090e5b4a9dd0773f5788a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4895a94ad50171682a8bd5247694c3b35a56d174b5477f5bbb2a621c1e74fa96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564634"
 ---
 # <a name="d3dxplanedot-function"></a>Функция D3DXPlaneDot
 
@@ -65,22 +65,22 @@ FLOAT D3DXPlaneDot(
 
 Скалярное произведение плоскости и вектора 4D.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В плоскости (a, b, c, d) и 4D Vector (x, y, z, w) возвращаемое значение этой функции равно \* x + b \* y + c \* z + d \* w. Функция **D3DXPlaneDot** полезна для определения связи плоскости с однородным координатами. Например, эта функция может использоваться для определения того, находится ли определенная Координата на определенной плоскости или на какой стороне определенной плоскости лежит определенная координата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,9 +3,9 @@ title: Свойство Вебвиевфолдерконтентс. Виевоп
 description: Возвращает набор флагов Шеллфолдервиевоптионс, которые указывают текущие параметры представления.
 ms.assetid: 96edb144-e532-4ab5-99ae-d945e211d744
 keywords:
-- Свойства Виевоптионс устаревшие функции среды Windows
-- Свойства Виевоптионс устаревшие функции среды Windows, объект Вебвиевфолдерконтентс
-- Функции среды Windows для устаревшего объекта Вебвиевфолдерконтентс, свойство Виевоптионс
+- свойства виевоптионс устаревшей среды Windows
+- свойства виевоптионс устаревшей среды Windows, объект вебвиевфолдерконтентс
+- функции среды Windows вебвиевфолдерконтентс объектов прежних версий, свойство виевоптионс
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 737ec5cb22fdc5c0002006898b837b557b5f6089
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95c897c75eab32962a18981c605c8465630aaf7b0c6b7d3e3f9a4fbe8e3d75d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607744"
 ---
 # <a name="webviewfoldercontentsviewoptions-property"></a>Вебвиевфолдерконтентс. Виевоптионс, свойство
 
@@ -44,7 +44,7 @@ objViewOptions = WebViewFolderContents.ViewOptions
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого свойства в JScript Embedded в HTML.
+в следующем примере показано правильное использование этого свойства в JScript, внедренном в HTML.
 
 
 ```HTML
@@ -78,13 +78,13 @@ objViewOptions = WebViewFolderContents.ViewOptions
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

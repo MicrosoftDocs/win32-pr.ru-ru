@@ -3,21 +3,21 @@ title: Размеры изображений
 description: Размеры изображений
 ms.assetid: f639ac34-f173-4b84-95ac-360d7fc40d1b
 keywords:
-- Обложки Windows Media Player для мобильных устройств, графические файлы
+- проигрыватель Windows Media Обложки для мобильных устройств, графические файлы
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложек, размеры изображений
-- Обложки мобильных устройств проигрывателя Windows Media, размеры изображений
+- проигрыватель Windows Media Обложки мобильных устройств, размеры изображений
 - обложки, размеры изображений
 - размеры изображений в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d672532be9830c58a580d37161b3d9a0adf04ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a0e2fbed1e1343369d5b01d883ff57073ad6e4a4864e97005e82c6083593f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509274"
 ---
 # <a name="image-sizes"></a>Размеры изображений
 
@@ -38,23 +38,23 @@ ms.locfileid: "105691227"
 
 
 
- 
+ 
 
 > [!Note]  
-> Версии, предшествующие Windows Media 9 Series для Windows Mobile 2003, поддерживают только обложки, имеющие портретный режим в 96. Проигрыватель Windows Media 10 Mobile или более поздняя версия поддерживает обложки 131 DPI в книжном режиме на устройствах смартфона, и эта поддержка должна продолжаться в будущих версиях проигрывателя Windows Media Mobile.
+> версии, предшествующие проигрыватель Windows Media 9, для Windows Mobile 2003 поддерживают только обложки с книжным режимом 96. проигрыватель Windows Media 10 mobile или более поздняя версия поддерживает обложки 131 DPI в книжном режиме на устройствах смартфона, и эта поддержка должна продолжаться в будущих версиях проигрыватель Windows Media Mobile.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Файлы изображений**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

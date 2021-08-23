@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e96f640ad729f203362df906bcc6afe6b82e7e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15172a8577cf8ccec71053c3d374b389d71d3264fcc1934b19440a3f9efc4904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702574"
 ---
 # <a name="objectdn-binary-syntax"></a>Синтаксис объекта (DN-Binary)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104137914"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение с этим синтаксисом имеет следующий формат:
 
@@ -48,7 +48,7 @@ B:<char count>:<binary value>:<object DN>
 
 где " &lt; число символов &gt; " — это число шестнадцатеричных цифр в " &lt; двоичное значение" &gt; , " &lt; двоичное значение &gt; " — шестнадцатеричное представление двоичного значения, а " &lt; объект DN &gt; " — различающееся имя. Active Directory автоматически обновляет DN, если объект, на который он ссылается, перемещается или переименовывается. Дополнительные сведения и пример кода, в котором используется этот синтаксис, см. в разделе [Включение безопасного переименования с помощью свойства otherWellKnownObjects](/windows/desktop/AD/enabling-rename-safe-binding-with-the-otherwellknownobjects-property).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

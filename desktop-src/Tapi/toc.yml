@@ -32,7 +32,7 @@
                   items:
                     - name: Адрес
                       href: address-ovr.md
-                    - name: Канал
+                    - name: Channel
                       href: channel-ovr.md
                     - name: Линия
                       href: line-ovr.md
@@ -73,7 +73,7 @@
                       href: answer-ovr.md
                     - name: Завершение сеанса
                       href: complete-a-session-ovr.md
-                    - name: Организации
+                    - name: Конференция
                       href: conference-ovr.md
                     - name: Dial
                       href: dial-ovr.md
@@ -83,7 +83,7 @@
                       href: forward-ovr.md
                     - name: хандоффс
                       href: handoffs-ovr.md
-                    - name: Нажмите
+                    - name: Удержание
                       href: hold-ovr.md
                     - name: Остановк
                       href: park-ovr.md
@@ -291,21 +291,21 @@
                   href: media-event-timers.md
                 - name: Сводки элементов программирования центра обработки вызовов
                   href: summaries-of-call-center-programming-elements.md
-            - name: Телефонные устройства
+            - name: Телефон Устройствах
               href: phone-devices.md
               items:
-                - name: Элементы устройства телефона
+                - name: Телефон Элементы устройства
                   href: phone-device-elements.md
                 - name: Инициализация и завершение работы
                   href: initialization-and-shutdown.md
-                - name: Открытие и закрытие телефонных устройств
+                - name: открытие и закрытие устройств Телефон
                   href: opening-and-closing-phone-devices.md
                   items:
                     - name: Режимы работы и привилегии
                       href: operating-modes-and-privileges.md
                     - name: идентификаторы устройств;
                       href: device-ids.md
-                    - name: Закрытие телефонного устройства
+                    - name: закрытие устройства Телефон
                       href: closing-the-phone-device.md
                 - name: Устройства хуксвитч
                   href: hookswitch-devices.md
@@ -313,7 +313,7 @@
                   href: display.md
                 - name: Кольцо
                   href: ring.md
-                - name: Кнопки телефона
+                - name: Телефон Кнопки
                   href: phone-buttons.md
                 - name: Ламп
                   href: lamps.md
@@ -321,7 +321,7 @@
                   href: data-areas.md
                 - name: Состояние
                   href: status.md
-                - name: Функции расширенного телефонии телефонии
+                - name: расширенные функции Телефон телефонии
                   href: extended-telephony-phone-functions.md
                   items:
                     - name: Константы скалярных данных
@@ -343,7 +343,7 @@
                   items:
                     - name: Функции службы дополнительных строк
                       href: supplementary-line-service-functions.md
-                    - name: Функции дополнительной телефонной службы
+                    - name: функции службы дополнительных Телефон
                       href: supplementary-phone-service-functions.md
                 - name: Справочник по расширенным службам телефонии
                   href: extended-telephony-services-reference.md
@@ -596,7 +596,7 @@
                       href: /windows/desktop/api/Tapi/nf-tapi-lineunhold
                     - name: линеунпарк
                       href: /windows/desktop/api/Tapi/nf-tapi-lineunpark
-                - name: Функции телефонных устройств
+                - name: Телефон Функции устройства
                   href: phone-device-functions.md
                   items:
                     - name: фонекаллбакк
@@ -776,7 +776,7 @@
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslatecaps
                     - name: линетранслатеаутпут
                       href: /windows/win32/api/Tapi/ns-tapi-linetranslateoutput
-                - name: Структуры телефонных устройств
+                - name: Телефон Структуры устройств
                   href: phone-device-structures.md
                   items:
                     - name: фонебуттонинфо
@@ -868,7 +868,7 @@
                       href: line-reply.md
                     - name: LINE_REQUEST
                       href: line-request.md
-                - name: Сообщения телефонного устройства
+                - name: Телефон Сообщения устройства
                   href: phone-device-messages.md
                   items:
                     - name: PHONE_BUTTON
@@ -1026,7 +1026,7 @@
                       href: linetranslateresult--constants.md
                     - name: Константы LINETSPIOPTION_
                       href: linetspioption--constants.md
-                - name: Константы телефонного устройства
+                - name: Телефон Константы устройств
                   href: phone-device-constants.md
                   items:
                     - name: Константы PHONEBUTTONFUNCTION_
@@ -1131,7 +1131,7 @@
                       href: pluggable-terminals.md
                 - name: Вызвать объект
                   href: call-object.md
-                - name: Элемент управления телефоном и объект Phone
+                - name: Телефон элемент управления и объект Телефон
                   href: phone-control-and-the-phone-object.md
                 - name: Объект Каллхуб
                   href: callhub-object.md
@@ -1150,7 +1150,7 @@
               items:
                 - name: Требуются библиотеки
                   href: libraries-required.md
-                - name: Указания и советы
+                - name: указания и Советы
                   href: hints-and-tips.md
                 - name: Использование файловых терминалов
                   href: using-file-terminals.md
@@ -1176,14 +1176,14 @@
                       href: unregister-a-pluggable-terminal.md
                     - name: Регистрация для подключаемых событий терминала
                       href: registering-for-pluggable-terminal-events.md
-                - name: 'Телефонные и адресные события, связанные с устройством'
+                - name: 'Телефон и адресация событий, связанных с устройством'
                   href: phone-and-address-device-specific-events.md
                 - name: Примеры кода
                   href: code-snippets.md
                   items:
                     - name: Инициализация TAPI
                       href: initialize-tapi.md
-                    - name: Выберите адрес
+                    - name: Выбор адреса
                       href: select-an-address.md
                     - name: Регистрация событий
                       href: register-events.md
@@ -1211,7 +1211,7 @@
                       href: terminal-object-interfaces.md
                     - name: Вызов интерфейсов объектов
                       href: call-object-interfaces.md
-                    - name: Интерфейсы объекта Phone
+                    - name: Телефон Интерфейсы объектов
                       href: phone-object-interfaces.md
                     - name: Интерфейсы MSP Ипконф
                       href: ipconf-msp-interfaces.md
@@ -1781,7 +1781,7 @@
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-blindtransfer
                         - name: Метод конференции
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-conference
-                        - name: Метод Connect
+                        - name: Подключение Method
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-connect
                         - name: Метод набора номера
                           href: /windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-dial
@@ -3170,7 +3170,7 @@
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-put_defaultobjectttl
                         - name: Метод Енаблеауторефреш
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-enableautorefresh
-                        - name: Метод Connect
+                        - name: Подключение Method
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-connect
                         - name: Метод Bind
                           href: /windows/desktop/api/Rend/nf-rend-itdirectory-bind
@@ -3445,7 +3445,7 @@
                   items:
                     - name: Конфигурации линий
                       href: line-configurations.md
-                    - name: Настройка терминала для телефонных разговоров
+                    - name: настройка терминала для Телефон диалогов
                       href: setting-a-terminal-for-phone-conversations.md
                     - name: Расширенные службы линии
                       href: extended-line-services.md
@@ -3463,7 +3463,7 @@
                           href: async-replies-versus-events-on-new-call-handles.md
                         - name: Обработка обработки вызовов
                           href: call-handle-manipulation.md
-                    - name: Внешние созданные номера телефонов
+                    - name: 'номера Телефон, созданные извне'
                       href: externally-generated-phone-numbers.md
                     - name: Поддержка Каллхуб
                       href: callhub-support.md
@@ -3488,17 +3488,17 @@
                           href: generating-inband-digits-and-tones.md
                     - name: Взаимодействие с поставщиком службы мультимедиа
                       href: media-service-provider-communication.md
-                - name: Телефонные устройства
+                - name: Телефон Устройствах
                   href: phone-devices.md
                   items:
-                    - name: Базовые службы для телефонов
+                    - name: базовые службы Телефон
                       href: basic-phone-services.md
                       items:
-                        - name: Инициализация SPI на телефоне
+                        - name: Телефон Инициализация SPI
                           href: phone-spi-initialization.md
-                        - name: Открытие и закрытие телефонных устройств
+                        - name: открытие и закрытие устройств Телефон
                           href: opening-and-closing-phone-devices.md
-                    - name: Службы дополнительных телефонов
+                    - name: дополнительные Телефон службы
                       href: supplementary-phone-services.md
                       items:
                         - name: Устройства хуксвитч
@@ -3507,7 +3507,7 @@
                           href: display.md
                         - name: Кольцо
                           href: ring.md
-                        - name: Кнопки
+                        - name: через кнопки;
                           href: buttons.md
                         - name: Ламп
                           href: lamps.md
@@ -3515,7 +3515,7 @@
                           href: data-areas.md
                         - name: Состояние
                           href: status.md
-                    - name: Расширенные службы телефона
+                    - name: расширенные службы Телефон
                       href: extended-phone-services.md
                       items:
                         - name: Константы скалярных данных
@@ -3524,12 +3524,12 @@
                           href: bit-flag-data-constants.md
                         - name: Функции и сообщения
                           href: functions-and-messages.md
-                    - name: Асинхронные операции на телефоне
+                    - name: асинхронные операции Телефон
                       href: asynchronous-phone-operations.md
                 - name: Интерфейс библиотеки DLL интерфейса поставщика услуг телефонии
                   href: the-telephony-service-provider-ui-dll-interface.md
                   items:
-                    - name: Архитектура
+                    - name: Architecture
                       href: architecture.md
                     - name: Использование
                       href: usage.md
@@ -3722,7 +3722,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunhold
                         - name: TSPI_lineUnpark
                           href: /windows/desktop/api/tspi/nf-tspi-tspi_lineunpark
-                    - name: Функции устройства ТСПИ Phone
+                    - name: функции устройства Телефон тспи
                       href: tspi-phone-device-functions.md
                       items:
                         - name: TSPI_phoneClose
@@ -3821,7 +3821,7 @@
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialog
                         - name: TUISPI_lineConfigDialogEdit
                           href: /windows/desktop/api/tspi/nf-tspi-tuispi_lineconfigdialogedit
-                    - name: Функции устройства ТУИСПИ Phone
+                    - name: функции устройства Телефон туиспи
                       href: tuispi-phone-device-functions.md
                       items:
                         - name: TUISPI_phoneConfigDialog
@@ -3909,7 +3909,7 @@
                           href: line-sendmspdata.md
                         - name: LINE_QOSINFO
                           href: line-qosinfo.md
-                    - name: Сообщения устройства ТСПИ Phone
+                    - name: тспи Телефон сообщений устройства
                       href: tspi-phone-device-messages.md
                       items:
                         - name: PHONE_BUTTON

@@ -4,12 +4,12 @@ ms.assetid: 44942954-3EA6-4C33-8CF1-E8BF72A914CB
 title: Функции (входной стек устройства указателя)
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: cfba2a0011747402af81d1f1379076282b65ca74
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 5101847d78f396edcb317986ab3d95d578dabdfe12197531787115f49c9a69a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105721083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611744"
 ---
 # <a name="pointer-device-input-stack-functions"></a>Функции стека входных данных устройства указателя
 
@@ -30,6 +30,6 @@ ms.locfileid: "105721083"
 | [**инжектсинсетикпоинтеринпут**](/windows/win32/api/winuser/nf-winuser-injectsyntheticpointerinput)<br/> | Имитирует ввод указателя (перо или касание).<br/> |
 | [**регистерпоинтердевиценотификатионс**](/windows/win32/api/winuser/nf-winuser-registerpointerdevicenotifications)<br/> | Регистрирует окно для обработки уведомлений [**WM_POINTERDEVICECHANGE**](../inputmsg/wm-pointerdevicechange.md), [**WM_POINTERDEVICEINRANGE**](../inputmsg/wm-pointerdeviceinrange.md)и [**WM_POINTERDEVICEOUTOFRANGE**](../inputmsg/wm-pointerdeviceoutofrange.md) указателя устройств.<br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Указатель на входной стек устройства указателя](unified-input-stack-reference.md)

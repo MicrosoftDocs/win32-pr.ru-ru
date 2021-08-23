@@ -4,16 +4,16 @@ description: Событие Деактиватеинпут
 ms.assetid: 59747932-82be-45d5-8465-73798904e8a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2fe1ff13b599fe5fbcf2dac22e548a0432f415
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 98fe94d7d4e737d83dfb734bcc5b35c60bddf96dcf8b07c43df3b89817da21b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610534"
 ---
 # <a name="deactivateinput-event"></a>Событие Деактиватеинпут
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,17 +31,17 @@ ms.locfileid: "103986598"
 
 
 
-| Отделение          | Описание                                                                    |
+| Часть          | Описание                                                                    |
 |---------------|--------------------------------------------------------------------------------|
 | *чарактерид* | Возвращает идентификатор символа, который делает клиент невходным: активным. |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Клиент, не входящий в ввод, больше не получает события мыши или речи от сервера (за исключением того, что он снова станет входным). Сервер отправляет это событие только клиенту, который не является входным.
 
@@ -52,9 +52,9 @@ ms.locfileid: "103986598"
 [**Событие Активатеинпут**](activateinput-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

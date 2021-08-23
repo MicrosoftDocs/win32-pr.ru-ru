@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46d9ac0441230c92909bcdf247929425e268a159
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 569fc05b5c10758d56de543d26d3d4733846b92132885431b9e0d9b6b0c0b301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322974"
 ---
 # <a name="host-attribute"></a>атрибут узла
 
@@ -28,8 +28,8 @@ ms.locfileid: "103804781"
 
 | Ввод | Значение |
 |-------------------|---------------------------------------------|
-| CN                | узел                                        |
-| LDAP-отображаемое имя | узел                                        |
+| CN                | host                                        |
+| LDAP-отображаемое имя | host                                        |
 | Размер              | \-                                          |
 | Привилегия обновления  | \-                                          |
 | Частота обновления  | \-                                          |

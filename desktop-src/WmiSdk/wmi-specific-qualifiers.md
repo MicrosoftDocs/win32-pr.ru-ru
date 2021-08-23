@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Квалификаторы WMI-Specific
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13848f8ca9a5e889c73890439e2cdcd33381c539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b90a32d5bd13f9dbda9125a6752891752505215e156d65e999ca7cf372a109d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639514"
 ---
 # <a name="wmi-specific-qualifiers"></a>Квалификаторы WMI-Specific
 
@@ -26,7 +26,7 @@ ms.locfileid: "105656701"
 
 Кроме квалификаторов, атрибуты, описывающие поведение квалификаторов, могут применяться к различным квалификаторам. Дополнительные сведения см. в разделе [Флаги квалификаторов](qualifier-flavors.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

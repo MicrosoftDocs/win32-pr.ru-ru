@@ -4,12 +4,12 @@ ms.assetid: aff16483-a9ed-4675-8e87-8adf695605ee
 title: Таблица Феатурекомпонентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6c93a7c020f179843916b063b48e2e4d19f7bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7635a43784ee7e8fbb71c7161bb07d39ffe5238177ea2a7cdaabdeb18dc41e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430874"
 ---
 # <a name="featurecomponents-table"></a>Таблица Феатурекомпонентс
 
@@ -21,8 +21,8 @@ ms.locfileid: "103811819"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Функция\_   | [Идентификатор](identifier.md) | Да   | Нет        |
-| Компонент\_ | [Идентификатор](identifier.md) | Да   | Нет        |
+| Компонент\_   | [Идентификатор](identifier.md) | Д   | Нет        |
+| Компонент\_ | [Идентификатор](identifier.md) | Д   | Нет        |
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103811819"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Максимальное число компонентов для каждого компонента — 1600.
 

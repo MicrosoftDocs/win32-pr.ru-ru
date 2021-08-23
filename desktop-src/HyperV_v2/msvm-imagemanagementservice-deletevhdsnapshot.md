@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5c7f3f115825aedb3a21a8f33326a712c52e0780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45a15b03b3ca26375ef0a563981cb9405c4397f355735c173e105029959d8282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522664"
 ---
 # <a name="deletevhdsnapshot-method-of-the-msvm_imagemanagementservice-class"></a>Метод Делетевхдснапшот \_ класса) мсвм
 
@@ -118,13 +118,13 @@ uint32 DeleteVHDSnapshot(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -132,7 +132,7 @@ uint32 DeleteVHDSnapshot(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

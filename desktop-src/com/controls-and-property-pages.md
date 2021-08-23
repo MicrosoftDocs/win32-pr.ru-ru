@@ -4,21 +4,21 @@ ms.assetid: 145eba76-be21-487c-bfa8-cfe4bbf40410
 description: 'Дополнительные сведения: элементы управления и страницы свойств'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be148db0da3be535f2ed18b5ff6fac4d6890abf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bcf65fb268bd53419c044ba36f14cb9548984a21aaac2b245fd299280f45a080
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462874"
 ---
 # <a name="controls-and-property-pages"></a>Элементы управления и страницы свойств
 
-В следующих разделах описываются элементы управления ActiveX, стандартные страницы свойств и API-интерфейсы, используемые для создания страниц свойств.
+в следующих разделах описываются элементы управления ActiveX, стандартные страницы свойств и api-интерфейсы, используемые для создания страниц свойств.
 
 -   [Руководство](guide-ctrls.md)
 -   [Ссылки](reference-ctrls.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

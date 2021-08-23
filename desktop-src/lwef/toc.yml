@@ -1212,7 +1212,7 @@
                   href: '-search-2x-wds-ph-ui-samplecode.md'
                 - name: Установка и регистрация обработчиков протоколов
                   href: '-search-2x-wds-ph-install-registration.md'
-        - name: схема
+        - name: Схема
           href: '-search-2x-wds-schematable.md'
         - name: Синтаксис расширенных запросов
           href: '-search-2x-wds-aqsreference.md'
@@ -1232,7 +1232,7 @@
                   href: '-search-2x-ipropertyfilter-logicoperator.md'
                 - name: нестингдепс
                   href: '-search-2x-ipropertyfilter-nestingdepth.md'
-                - name: текст
+                - name: Текст
                   href: '-search-2x-ipropertyfilter-text.md'
                 - name: ИД пользователя
                   href: '-search-2x-ipropertyfilter-uid.md'
@@ -1243,7 +1243,7 @@
                   href: '-search-2x-ipropertyfiltercollection-additem.md'
                 - name: clear
                   href: '-search-2x-ipropertyfiltercollection-clear.md'
-                - name: Счетчик
+                - name: Count
                   href: '-search-2x-ipropertyfiltercollection-count.md'
                 - name: GetITem
                   href: '-search-2x-ipropertyfiltercollection-getitem.md'

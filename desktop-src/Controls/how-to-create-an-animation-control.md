@@ -4,27 +4,27 @@ description: В этом разделе показано, как создать 
 ms.assetid: 5852B636-F3D0-47A4-82F6-8BE570013E1B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4ff190617996e42e6580b82311fb51f4248000
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8117d7c9393a828786532bd3d3fbfcf4f4eaaf6bb1bfdccdc5a2f97fa1c5cb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435824"
 ---
 # <a name="how-to-create-an-animation-control"></a>Создание элемента управления "анимация"
 
 В этом разделе показано, как создать элемент управления анимации. В соответствующем примере кода C++ в диалоговом окне создается элемент управления "анимация". Он позиционирует элемент управления анимации под заданным элементом управления и устанавливает размеры элемента управления анимации на основе размеров кадра в Audio-Videoном ролике AVI.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 -   Файлы AVI
 
 ## <a name="instructions"></a>Инструкции
@@ -147,7 +147,7 @@ HWND CreateAnimationCtrl(HWND hwndDlg, int nIDCtl)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -163,9 +163,9 @@ HWND CreateAnimationCtrl(HWND hwndDlg, int nIDCtl)
 [Анимация](animation-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f5c73b35bb0ea2cae9d01324d82e1568485541
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 365c5989f7118408ef31b7a3f0c6b3d91f98502127ef2c5161a9f276296732b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301924"
 ---
 # <a name="lm-pwd-history-attribute"></a>Атрибут LM-PWD-History
 
@@ -66,7 +66,7 @@ ms.locfileid: "103893582"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "103893582"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "103893582"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "103893582"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "103893582"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 

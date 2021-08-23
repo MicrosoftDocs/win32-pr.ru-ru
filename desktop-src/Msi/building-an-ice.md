@@ -4,12 +4,12 @@ ms.assetid: d9ff43ee-8e7a-4132-ac2f-232dc24606d8
 title: Сборка ICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2de8dab0284a612723461d11b420ed1f22b244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b4b79ab8e17d53ccfb60484c0d307f668c44a7a0e530cf776b10e73a697541c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500773"
 ---
 # <a name="building-an-ice"></a>Сборка ICE
 
@@ -31,7 +31,7 @@ ms.locfileid: "105662916"
 | [Тип настраиваемого действия 2](custom-action-type-2.md)   | EXE в двоичном потоке      |
 | [Тип настраиваемого действия 5](custom-action-type-5.md)   | JScript в двоичном потоке  |
 | [Тип настраиваемого действия 6](custom-action-type-6.md)   | VBScript в двоичном потоке |
-| [Тип настраиваемого действия 37](custom-action-type-37.md) | Код JScript в виде строки    |
+| [Тип настраиваемого действия 37](custom-action-type-37.md) | JScript кода в виде строки    |
 | [Тип настраиваемого действия 38](custom-action-type-38.md) | Код VBScript в виде строки   |
 
 
@@ -45,7 +45,7 @@ ms.locfileid: "105662916"
 -   Не считайте, что авторы имеют доступ к образу исходного каталога базы данных.
 -   Не следует рассчитывать, что изменения, вносимые в базу данных, не сохраняются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

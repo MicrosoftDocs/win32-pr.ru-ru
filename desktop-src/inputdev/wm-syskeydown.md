@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3053c5933a0388e3c8522b0d7201b491aaa4fa2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 30b1398d843711e868a6b5b96cf6a66893bf74fef1e50bfdd61fa36f81f05c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611324"
 ---
 # <a name="wm_syskeydown-message"></a>\_Сообщение СИСКЭЙДОВН WM
 
@@ -68,7 +68,7 @@ ms.locfileid: "105691845"
 
 Приложение должно вернуть нуль, если оно обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) проверяет указанный ключ и создает сообщение [**WM \_ сискомманд**](/windows/desktop/menurc/wm-syscommand) , если ключ является либо TAB, либо Enter.
 
@@ -80,7 +80,7 @@ ms.locfileid: "105691845"
 
 Это сообщение также отправляется каждый раз, когда пользователь нажимает клавишу F10 без клавиши ALT.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -88,11 +88,11 @@ ms.locfileid: "105691845"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

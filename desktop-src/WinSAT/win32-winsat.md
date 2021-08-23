@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 829e5e1b3658771728aab9ef30634d90a8bc6450
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0a9e863bd22cebc6609e32521b85de4bca29ae048d9673e3b09cfff2b95408f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504534"
 ---
 # <a name="win32_winsat-class"></a>\_Класс Win32 WinSAT
 
@@ -60,7 +60,7 @@ class Win32_WinSAT
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ WinSAT** имеет следующие свойства.
 
@@ -88,7 +88,7 @@ class Win32_WinSAT
 Тип доступа: только для чтения
 </dt> </dl>
 
-После Windows 8.1 WinSAT больше не оценивает трехмерные графические (игровые) возможности компьютера, а также возможность графического драйвера для отрисовки объектов и выполнения шейдеров с помощью этой оценки. Для обеспечения совместимости значения Sentinel отчета WinSAT для метрик и оценок не рассчитываются в режиме реального времени.
+после Windows 8.1 WinSAT больше не оценивает трехмерные графические (игровые) возможности компьютера, а также возможность графического драйвера для отрисовки объектов и выполнения шейдеров с помощью этой оценки. Для обеспечения совместимости значения Sentinel отчета WinSAT для метрик и оценок не рассчитываются в режиме реального времени.
 
 </dd> <dt>
 
@@ -190,7 +190,7 @@ class Win32_WinSAT
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о оценках подкомпонентов, например **меморискоре**, см. в описании свойства [**Ипровидевинсатассессментинфо:: Score**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatassessmentinfo-get_score) .
 
@@ -198,13 +198,13 @@ class Win32_WinSAT
 
 Пример, демонстрирующий использование инструментария WMI для получения данных из этого класса, см. в описании метода [**ипровидевинсатвисуалс:: Get \_ Bitmap**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
 | Пространство имен<br/>                | Root\\CIMv2<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WinSAT. mof</dt> </dl>    |

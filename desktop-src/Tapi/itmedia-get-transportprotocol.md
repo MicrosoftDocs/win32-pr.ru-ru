@@ -4,16 +4,16 @@ ms.assetid: d270d6f4-bdcf-4cf4-970b-65f0be706171
 title: 'Метод Итмедиа:: get_TransportProtocol (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf2bc66a98e181674bbf6f7956579bbaa0b5a72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a7927469ff00caab36ab45af12939c6f2f6518a415d4a764c3d04f9c715db75e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682774"
 ---
 # <a name="itmediaget_transportprotocol-method"></a>Метод Итмедиа:: Get \_ транспортпротокол
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ транспортпротокол** получает транспортный протокол. Это указывается в дополнение к формату мультимедиа, чтобы один и тот же стандартный формат мультимедиа можно было переносить по разным транспортным протоколам, даже если сетевой протокол аналогичен, например, с помощью звука PCM и звука PCM в формате "сеть — налог".
 
@@ -57,24 +57,24 @@ HRESULT get_TransportProtocol(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, выделенной для параметра *пппротокол* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

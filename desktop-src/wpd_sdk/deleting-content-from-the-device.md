@@ -4,12 +4,12 @@ ms.assetid: 195f68d5-f139-456e-b000-86c91732a292
 title: Удаление содержимого с устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c7b8d266517933caaf770236e96110a3ef334c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d22400c5812c4996fe38836c1f05e264c9bff66ada5124969139c0f8f037b6b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657934"
 ---
 # <a name="deleting-content-from-the-device"></a>Удаление содержимого с устройства
 
@@ -151,7 +151,7 @@ void DeleteContentFromDevice(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

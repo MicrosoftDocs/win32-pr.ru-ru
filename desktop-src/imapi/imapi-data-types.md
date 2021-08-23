@@ -17,12 +17,12 @@ keywords:
 - ULONG_IMAPI2_NOT_NEGATIVE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7793bab123e2939bdc2f5a68bb705d7468da5666
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5f003c2e03ff3d21623111d3d43a83cddf43e31c64557cfce18b5a401cdcd5d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612014"
 ---
 # <a name="imapi-data-types"></a>Типы данных IMAPI
 
@@ -65,15 +65,15 @@ typedef ULONG ULONG_IMAPI2_NOT_NEGATIVE;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Imapi2. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Imapi2. h</dt> </dl> |
 
 
 

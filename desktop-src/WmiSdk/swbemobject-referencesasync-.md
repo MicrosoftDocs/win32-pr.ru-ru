@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: aa4b85475a0dc9f736254c8f207469a52897b7ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 551a54430724e52ede0ee0000ac48a8593f4145e2a875766c61da9c24de45c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640074"
 ---
 # <a name="swbemobjectreferencesasync_-method"></a>SWbemObject. Референцесасинк, \_ метод
 
@@ -130,7 +130,7 @@ SWbemObject.ReferencesAsync_( _
 
 </dt> <dd>
 
-Вызывает инструментарий управления Windows (WMI) (WMI) для возврата данных о поправности класса с определением базового класса. Дополнительные сведения см. в разделе [Локализация сведений о классе WMI](localizing-wmi-class-information.md).
+вызывает инструментарий управления Windows (WMI) (WMI) для возврата данных о поправности класса с определением базового класса. Дополнительные сведения см. в разделе [Локализация сведений о классе WMI](localizing-wmi-class-information.md).
 
 </dd> </dl> </dd> <dt>
 
@@ -186,7 +186,7 @@ SWbemObject.ReferencesAsync_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот вызов возвращает немедленно. Запрошенные объекты и состояние возвращаются вызывающему объекту через обратные вызовы, доставляемые в приемник, указанный в *обжвбемсинк*. Чтобы обработать каждый объект при поступлении, создайте *обжвбемсинк*. Подпрограммы события [**онобжектреади**](swbemsink-onobjectready.md) . После возврата всех объектов можно выполнить окончательную обработку в реализации *обжвбемсинк*. Событие [**Oncompleteed**](swbemsink-oncompleted.md) .
 
@@ -194,7 +194,7 @@ SWbemObject.ReferencesAsync_( _
 
 Дополнительные сведения о ССЫЛКАх на связанный WQL-запрос, исходные экземпляры и объекты связи см. в разделе [соединители оператора](associators-of-statement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -202,7 +202,7 @@ SWbemObject.ReferencesAsync_( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |
@@ -210,7 +210,7 @@ SWbemObject.ReferencesAsync_( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

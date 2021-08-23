@@ -3,7 +3,7 @@ title: Сообщение EM_SETREADONLY (Winuser. h)
 description: Задает или удаляет доступный только для чтения стиль ( \_ ReadOnly) элемента управления "поле ввода". Это сообщение можно отправить либо в элемент управления "поле ввода", либо в элемент управления Rich Edit.
 ms.assetid: a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8
 keywords:
-- Элементы управления Windows для EM_SETREADONLY сообщений
+- элементы управления Windows сообщений EM_SETREADONLY
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0b224e11212077703ab62ab6a180875672c879e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d46726c1247f7ef93c00e495ca77ad3d337253705bd3018a0480fc9588c22f8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437514"
 ---
 # <a name="em_setreadonly-message"></a>\_Сообщение SETREADONLY EM
 
@@ -49,7 +49,7 @@ ms.locfileid: "104135787"
 
 Если операция завершается ошибкой, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент управления "поле ввода" имеет стиль " [**\_ только для чтения**](edit-control-styles.md) ", пользователь не может изменить текст в элементе управления "поле ввода".
 
@@ -57,15 +57,15 @@ ms.locfileid: "104135787"
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 1,0 и более поздних версиях. Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

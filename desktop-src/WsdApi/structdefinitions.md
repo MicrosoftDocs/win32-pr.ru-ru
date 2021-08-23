@@ -4,12 +4,12 @@ ms.assetid: 38ba2e8a-d5b1-47b2-b410-ae161f5039bf
 title: Структдефинитионс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26f680db18b06253362f932cc7d34d5b85f7c1b5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 1c4c8ad894a42bbafd183031849e458ad5f3bf155a9ccba4e704321e875163c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611564"
 ---
 # <a name="structdefinitions-element"></a>Структдефинитионс, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "107996461"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 На структуры известных типов ссылается большая часть созданного кода и кода приложения. Этот элемент используется для создания включаемых файлов. Этот элемент должен находиться после элемента [**структдекларатионс**](structdeclarations.md) , чтобы ссылки между структурами были правильно обработаны.
 

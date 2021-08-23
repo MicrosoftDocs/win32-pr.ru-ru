@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b5799632f171d1b80f95f0f684bb22d24f741f6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 90436f905c2470fd14b022a1c025737fa78726cf5e46286dec2e13d7392e9b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498354"
 ---
 # <a name="d3dxcreatematrixstack-function-d3dx10mathh"></a>Функция D3DXCreateMatrixStack (D3DX10Math. h)
 
@@ -71,7 +71,7 @@ HRESULT D3DXCreateMatrixStack(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 

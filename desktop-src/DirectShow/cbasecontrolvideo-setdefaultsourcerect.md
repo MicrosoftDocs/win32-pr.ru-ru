@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 82fe2001a42ca75fff4f3172c8ce05da18881d73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae7f2e88e170b0c21187b2615029fcb4ed2bed4717af09b60eb4309aee2bea0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432614"
 ---
 # <a name="cbasecontrolvideosetdefaultsourcerect-method"></a>Кбасеконтролвидео. Сетдефаултсаурцерект, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT SetDefaultSourceRect() = 0;
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Производные классы должны переопределять этот параметр, чтобы сбросить исходный прямоугольник. Он вызывается из [**кбасеконтролвидео:: сетдефаултсаурцепоситион**](cbasecontrolvideo-setdefaultsourceposition.md).
 
@@ -73,7 +73,7 @@ HRESULT CVideoText::SetDefaultSourceRect()
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -8,18 +8,18 @@ keywords:
 - диалекты ADSI, диалект LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15f7d1f65a41655596d0a14cf6e2a3595916c2cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c231d3c4d619775cca2ed9542733bff51219d92ff31d922f6d38ea7b1bcd2e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509984"
 ---
 # <a name="ldap-dialect"></a>Диалект LDAP
 
 Диалект LDAP — это формат инструкций запроса, использующих [синтаксис фильтра поиска LDAP](search-filter-syntax.md). Используйте инструкцию запроса LDAP со следующими интерфейсами поиска ADSI:
 
--   Интерфейсы [объектов данных ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , которые являются интерфейсами автоматизации, использующими OLE DB.
+-   интерфейсы [объектов данных ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , которые являются интерфейсами автоматизации, использующими OLE DB.
 -   [OLE DB](searching-with-ole-db.md), который представляет собой набор интерфейсов C/C++ для запросов к базам данных.
 -   [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)— интерфейс C/C++ для Active Directory.
 
@@ -108,28 +108,28 @@ Debug.Print "No. of rows = ", rs.RecordCount
 
 Дополнительные сведения о синтаксисе запросов см. в разделе [синтаксис фильтра поиска](search-filter-syntax.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Синтаксис фильтра поиска](search-filter-syntax.md)
 </dt> <dt>
 
-[Диалект SQL](sql-dialect.md)
+[диалект SQL](sql-dialect.md)
 </dt> <dt>
 
 [Поиск с помощью интерфейса IDirectorySearch](searching-with-idirectorysearch.md)
 </dt> <dt>
 
-[Поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
+[поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
 </dt> <dt>
 
 [Поиск с помощью OLE DB](searching-with-ole-db.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

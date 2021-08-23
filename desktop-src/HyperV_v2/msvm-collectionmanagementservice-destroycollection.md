@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 69b35bfac3601bd92bc7b1fea967de404b716773
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d85e566d1d33b17e7873a6da225f3c199bf49425cf081646aba251f87cf7ca6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119427054"
 ---
 # <a name="destroycollection-method-of-the-msvm_collectionmanagementservice-class"></a>Метод Дестройколлектион \_ класса Коллектионманажементсервице мсвм
 
@@ -108,7 +108,7 @@ uint32 DestroyCollection(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

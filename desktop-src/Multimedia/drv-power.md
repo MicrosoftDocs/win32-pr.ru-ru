@@ -3,7 +3,7 @@ title: Сообщение DRV_POWER (Ммсистем. h)
 description: Уведомляет драйвер о том, что питание устройства включено или выключено.
 ms.assetid: b3bbd16a-5b90-4127-a1dd-f2ddfd918f0a
 keywords:
-- DRV_POWER сообщения Windows мультимедиа
+- сообщение DRV_POWER Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8113b7fe544bf36a35b6e516c7a98ae71082577d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a6b9f3ddb2c0184337d2f53d73cdda8451a8d8df19229e505b08fedf685f40d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496454"
 ---
 # <a name="drv_power-message"></a>DRV, \_ сообщение о питании
 
@@ -47,11 +47,11 @@ ms.locfileid: "103989350"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры *lParam1* и *lParam2* не используются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,11 +59,11 @@ ms.locfileid: "103989350"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

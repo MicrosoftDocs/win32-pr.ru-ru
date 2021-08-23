@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3fc00b4aa0ce1fc6c8a93fb2fbda2118ad6bb40e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 139b0ebd887dc81efd19953d48f3caa8fd6377acde8723de23178ee7a0278c8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585303"
 ---
 # <a name="crenderedinputpin-class"></a>Класс Крендерединпутпин
 
@@ -44,7 +44,7 @@ ms.locfileid: "105668654"
 | Защищенные переменные членов                                            | Описание                                                                                                  |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | [**m \_ батендофстреам**](crenderedinputpin-m-batendofstream.md)       | Указывает, был ли достигнут конец потока.                                                         |
-| [**m \_ бкомплетенотифиед**](crenderedinputpin-m-bcompletenotified.md) | Указывает, отправил ли ПИН-код событие [**\_ завершения EC**](ec-complete.md) в Диспетчер графа фильтров. |
+| [**m \_ бкомплетенотифиед**](crenderedinputpin-m-bcompletenotified.md) | указывает, отправил ли пин-код событие [**\_ завершения EC**](ec-complete.md) в фильтр Graph Manager. |
 | Открытые методы                                                        | Описание                                                                                                  |
 | [**Активен**](crenderedinputpin-active.md)                            | Уведомляет ПИН-код о том, что фильтр активен.                                                              |
 | [**крендерединпутпин**](crenderedinputpin-crenderedinputpin.md)      | Метод конструктора.                                                                                          |
@@ -57,13 +57,13 @@ ms.locfileid: "105668654"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амекстра. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>амекстра. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

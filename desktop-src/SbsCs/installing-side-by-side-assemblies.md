@@ -4,12 +4,12 @@ ms.assetid: 36f271ff-be0c-4162-8e1c-86088ebddbcc
 title: Установка параллельных сборок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be68580c7f0e3890c2e53b148daec92fbad18ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2124b490d64427e80b5beee53d1221cba4d5e59a23dc2d72c2da6833e14a98cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119142137"
 ---
 # <a name="installing-side-by-side-assemblies"></a>Установка параллельных сборок
 
@@ -17,8 +17,8 @@ ms.locfileid: "104497232"
 
 Обратите внимание на следующее.
 
--   Сборки, установленные в глобальный кэш сборок установкой с использованием [контекста установки](/windows/desktop/Msi/installation-context) «на пользователя», не защищаются с помощью защиты файлов Windows.
--   Сборки, которые устанавливаются в глобальный кэш сборок установкой с использованием [контекста установки](/windows/desktop/Msi/installation-context) для компьютера, защищаются с помощью защиты файлов Windows.
+-   сборки, установленные в глобальный кэш сборок установкой с использованием [контекста установки](/windows/desktop/Msi/installation-context) "на пользователя", не защищаются с помощью Windows защиты файлов.
+-   сборки, которые устанавливаются в глобальный кэш сборок установкой с использованием [контекста установки](/windows/desktop/Msi/installation-context) для компьютера, защищаются с помощью Windows защиты файлов.
 
  
 

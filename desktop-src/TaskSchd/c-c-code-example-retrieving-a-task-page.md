@@ -4,12 +4,12 @@ description: В этом примере извлекается и отображ
 ms.assetid: f234f5b3-d668-44c3-8d03-c333cfe3acde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1db7bd6b472df53ff47629dbc1fcb9ecf13fb73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 894ea88289203ea35e85005b4aa30f22bad7a2cd07150ac5a5ee83f1c9f8a22c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119139677"
 ---
 # <a name="cc-code-example-retrieving-a-task-page"></a>Пример кода C/C++: получение страницы задачи
 
@@ -139,16 +139,16 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

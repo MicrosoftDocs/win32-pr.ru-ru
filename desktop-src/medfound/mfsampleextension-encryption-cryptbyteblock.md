@@ -4,12 +4,12 @@ ms.assetid: 1F370DEC-20B5-456D-BB68-C94E183410F3
 title: Атрибут MFSampleExtension_Encryption_CryptByteBlock (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 927e08d81cc8066f73b579c8abf419d754fc1713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85da01a8b69fa22604cc10df54aa474ec117256ebee0630e490e25d9888484d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603204"
 ---
 # <a name="mfsampleextension_encryption_cryptbyteblock-attribute"></a>\_ \_ Атрибут Криптбитеблокк Encryption мфсампликстенсион
 
@@ -19,21 +19,21 @@ ms.locfileid: "104080574"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Число четких (незашифрованных) байт в блоке сопоставления подобразца указывается в атрибуте [ \_ \_ скипбитеблокк Encryption мфсампликстенсион](mfsampleextension-encryption-skipbyteblock.md) . Если один из этих атрибутов отсутствует или имеет значение 0, это означает, что образец данных не зашифрован. Оба этих значения должны быть ненулевыми, положительные значения или оба должны иметь нулевое значение.
 
 В случаях, когда источником является формат MP4, значение задается на основе значений \_ \_ блока шифрования байтов по умолчанию \_ в поле Track encryption (' ТЕНК ') в заголовке MP4. Дополнительные сведения см. в разделе [мфсампликстенсион \_ ENCRYPTION \_ протектионсчеме](mfsampleextension-encryption-protectionscheme.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

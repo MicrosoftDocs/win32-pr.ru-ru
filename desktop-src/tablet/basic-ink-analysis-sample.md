@@ -4,12 +4,12 @@ ms.assetid: cb9a28d9-f8c6-478e-ae43-2d30106edc7b
 title: Базовый анализ рукописного ввода — пример
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94ac73ca9049169c6e406059665a66e8eaa6f3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ab307deac8ac58a741b0c7f332986b09074f4f5c6a8afa53f0156a94916bf16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660834"
 ---
 # <a name="basic-ink-analysis-sample"></a>Базовый анализ рукописного ввода — пример
 
@@ -280,7 +280,7 @@ ms.locfileid: "105719284"
 -   Определите угол, в котором записывается строка или абзац.
 -   Реализуйте такие функции, как выделение линий, абзацев или других единиц.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

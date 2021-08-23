@@ -281,7 +281,7 @@
           href: performance-counters-types.md
         - name: Коды ошибок вспомогательного приложения для получения данных о производительности
           href: pdh-error-codes.md
-        - name: Схема файла журнала SQL
+        - name: SQL Схема файла журнала
           href: sql-log-file-schema.md
           items:
             - name: каунтердата

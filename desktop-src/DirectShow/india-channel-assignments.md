@@ -4,12 +4,12 @@ ms.assetid: 4bf7a67e-0434-4177-96c7-dcaad14c6545
 title: Назначения каналов Индии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ced8fdba140fba2a7274fa9dbd8dcae84ffce13
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4cef59d270165a75dd42b05f1a9934bb413bdc0d9d53dd11eed987d6cee8aa9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584554"
 ---
 # <a name="india-channel-assignments"></a>Назначения каналов Индии
 
@@ -17,7 +17,7 @@ ms.locfileid: "105682261"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 ## <a name="cable-assignments"></a>Назначения кабелей
 
@@ -134,7 +134,7 @@ ms.locfileid: "105682261"
        855250000L,      // 107 K69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

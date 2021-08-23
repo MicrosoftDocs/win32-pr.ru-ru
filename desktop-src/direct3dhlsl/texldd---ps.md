@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 72f3c4aaf9ac7e6beaad1343c024aa28bd2a85ab
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45bd755cdc0d183a6b06e42cbd9fb3934a5dc26a729e9982bc54fb9d2a2b01fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104412988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119561974"
 ---
 # <a name="texldd---ps"></a>текслдд-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104412988"
 
 
 
- 
+ 
 
 Где:
 
@@ -39,7 +39,7 @@ ms.locfileid: "104412988"
 -   src2 — это регистр источника входных данных, указывающий градиентный x.
 -   src3 — это регистр источника входных данных, указывающий градиент по оси y.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -49,7 +49,7 @@ ms.locfileid: "104412988"
 
 
 
- 
+ 
 
 \* Эта инструкция поддерживается только PS \_ 2 \_ a. Он не поддерживается PS \_ 2 \_ b. Дополнительные сведения о профилях см. в разделе [**D3DXGetPixelShaderProfile**](/windows/desktop/direct3d9/d3dxgetpixelshaderprofile).
 
@@ -59,13 +59,13 @@ ms.locfileid: "104412988"
 
 Все маски записи допустимы в месте назначения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

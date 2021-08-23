@@ -10,12 +10,12 @@ keywords:
 - функции рисования, перенос из IRI GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2adeeeb244f746f6f75491905f06115aef00418d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36ee312814b645a5f5a5ea2bc97504de66071005afbb88b47a7cc0528bbe3d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485594"
 ---
 # <a name="porting-drawing-functions"></a>Перенос функций рисования
 
@@ -31,9 +31,9 @@ ms.locfileid: "103773994"
 -   [Перенос дуг и кругов](porting-arcs-and-circles.md)
 -   [Перенос шарик](porting-spheres.md)
 
- 
+ 
 
- 
+ 
 
 
 

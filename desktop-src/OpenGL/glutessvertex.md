@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 546bbad2be1205f62c7889fbb18f23d5b0e38b8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51b3b1dd666fd965e7b6536a20a794481c534ed3e42594017093ee161a067e15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488424"
 ---
 # <a name="glutessvertex-function"></a>Функция Глутессвертекс
 
@@ -67,13 +67,13 @@ void WINAPI gluTessVertex(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глутессвертекс** описывает вершину многоугольника, определяемого пользователем. Последовательные вызовы **глутессвертекс** описывают закрытый профиль. Например, чтобы описать грани четырехсторонней, вызовите **глутессвертекс** четыре раза. **Глутессвертекс** можно вызывать только между [**глутессбегинконтаур**](glutessbegincontour.md) и [**глутессендконтаур**](glutessendcontour.md).
 
 Параметр *данных* обычно указывает на структуру, содержащую расположение вершины, а также на другие атрибуты для каждой вершины, такие как цвет и обычный. Этот указатель передается обратно в программу через \_ обратный вызов вершины Glu после тесселяции (см. [*глутесскаллбакк*](glutess.md)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,7 +87,7 @@ void WINAPI gluTessVertex(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

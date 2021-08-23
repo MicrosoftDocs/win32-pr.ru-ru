@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 7811ad3e42264477210830f340338d0786ed5547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf9d5735e4583e0b55a91e6c45f9f23905bd199e15697596a93b06c2347aab65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119577554"
 ---
 # <a name="iscardcmdget_p2-method"></a>Метод Искардкмд:: Get \_ P2
 
-\[Метод **Get \_ P2** доступен для использования в операционных системах, указанных в разделе требования. Он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздней версии, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
+\[Метод **Get \_ P2** доступен для использования в операционных системах, указанных в разделе требования. он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
 
 Метод **Get \_ P2** извлекает байт второго параметра (P2) из [*блока данных протокола приложения*](../secgloss/a-gly.md) (категориях APDU).
 
@@ -65,7 +65,7 @@ HRESULT get_P2(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы присвоить параметру P2 новое значение, вызовите метод [**помещает \_ P2**](iscardcmd-put-p2.md).
 
@@ -95,24 +95,24 @@ if (FAILED(hr))
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                   |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Скарддат. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Скарддат. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Скарддат. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
 | IID<br/>                      | IID \_ искардкмд определен как D5778AE3-43DE-11D0-9171-00AA00C18068<br/>            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

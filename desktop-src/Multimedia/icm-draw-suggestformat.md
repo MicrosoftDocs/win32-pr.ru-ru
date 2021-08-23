@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW_SUGGESTFORMAT (VFW. h)
 description: Сообщение ICM \_ Draw \_ сугжестформат запрашивает драйвер подготовки к просмотру, чтобы предложить формат, который может нарисоваться в распакованном формате.
 ms.assetid: e3e97790-dbd1-4436-9830-5218ae1f949b
 keywords:
-- ICM_DRAW_SUGGESTFORMAT сообщения Windows мультимедиа
+- сообщение ICM_DRAW_SUGGESTFORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c8782b16336427b3832f36b5a06987399df1b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 843dd2d398f5be6476a148922f3244113e94ab3fe3c10bac9ee08caefb8c4828
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495954"
 ---
 # <a name="icm_draw_suggestformat-message"></a>\_Сообщение ICM Draw \_ сугжестформат
 
@@ -56,13 +56,13 @@ lParam = sizeof(ICDRAWSUGGEST);
 
 Возвращает ИЦЕРР \_ ОК в случае успеха. Если элемент **лпбисугжест** структуры [**Икдравсугжест**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) имеет **значение NULL**, это сообщение возвращает объем памяти, необходимый для хранения рекомендуемого формата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Драйвер должен проверить формат, указанный в элементе **лпбиин** структуры [**икдравсугжест**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) , и использовать элемент **лпбисугжест** для возврата формата, который он может нарисовать. Формат вывода должен сохранять как можно больше данных из входного формата.
 
 При необходимости драйвер может использовать установщик, который можно установить, переданный в члене **Хикдекомпрессор** [**икдравсугжест**](/windows/desktop/api/Vfw/ns-vfw-icdrawsuggest) , чтобы сделать более сложными выборки. Например, если входной формат имеет 24 бита данных в формате JPEG, модуль подготовки отчетов может запросить декомпрессор, чтобы выяснить, может ли он распаковать его в формат YUV (который может быть более эффективным), прежде чем выбирать нужный формат.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ lParam = sizeof(ICDRAWSUGGEST);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

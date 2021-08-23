@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b3745de426a1b5d4d416575cfdfe579e579b23
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ec475f342266976784a1dfd108444f4dc5cf1eb07084cdd47be0376037c89052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580304"
 ---
 # <a name="integer-syntax"></a>Целочисленный синтаксис
 
@@ -38,7 +38,7 @@ ms.locfileid: "104137923"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

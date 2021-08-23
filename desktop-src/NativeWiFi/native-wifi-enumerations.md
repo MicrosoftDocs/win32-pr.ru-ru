@@ -4,12 +4,12 @@ ms.assetid: a73ce24b-24e9-40ad-9ce2-f3071fca9ffe
 title: Собственные перечисления WiFi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5b62123840a7ceb25fcca67c45ac0e35e688100
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bb10961463293c7fe3db5bacc57024b7fc4c4f0143204cea0ab5501b304e234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685024"
 ---
 # <a name="native-wifi-enumerations"></a>Собственные перечисления WiFi
 

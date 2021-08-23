@@ -9,12 +9,12 @@ keywords:
 - иреконЦилеинитиатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b925e7055e15f6c7a49408aa28d147fb2eef5a7e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dc4161796999172e6ee9bc7c403e723f9f8bafe7e876b544888fa5e7105b724f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119556944"
 ---
 # <a name="creating-briefcase-reconcilers"></a>Создание подверяющих портфелей
 
@@ -69,13 +69,13 @@ ms.locfileid: "104412805"
 
 ```
 CLSID
-   {the file CLSID}
-      Roles
-         Reconciler
-            (Default) = {the reconciler-classid}
+   {the file CLSID}
+      Roles
+         Reconciler
+            (Default) = {the reconciler-classid}
 ```
 
-Класс должен быть быстрой загрузкой, должен быть назначен \_ мултиплеусе, и, если для интерфейса сверки не предоставлены маршалером, то должен быть внутрипроцессный сервер (содержащийся в библиотеке DLL), а не локальный сервер (реализован в exe-файле).
+Класс должен быть быстрой загрузкой, должен быть назначен \_ мултиплеусе, и, если для интерфейса сверки не предоставлены маршалером, то должен быть внутрипроцессный сервер (содержащийся в библиотеке DLL), а не локальный сервер (реализован в файле .exe).
 
 ### <a name="user-interaction-in-reconciliation"></a>Взаимодействие с пользователем при выверке
 
@@ -113,17 +113,17 @@ CLSID
 
 ### <a name="briefcase-reconciler-interfaces-and-methods"></a>Интерфейсы и методы посредника портфеля
 
--   [**иреконЦилаблеобжект**](/windows/win32/api/reconcil/nn-reconcil-ireconcilableobject) 
+-   [**иреконЦилаблеобжект**](/windows/win32/api/reconcil/nn-reconcil-ireconcilableobject) 
     -   -   [**ИреконЦилаблеобжект:: Жетпрогрессфидбаккмаксестимате**](/windows/win32/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate)
         -   [**ИреконЦилаблеобжект:: Reconcile**](/windows/win32/api/reconcil/nf-reconcil-ireconcilableobject-reconcile)
 
--   [**иреконЦилеинитиатор**](ireconcileinitiator.md) 
+-   [**иреконЦилеинитиатор**](ireconcileinitiator.md) 
     -   -   [**ИреконЦилеинитиатор:: Сетаборткаллбакк**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setabortcallback)
         -   [**ИреконЦилеинитиатор:: Сетпрогрессфидбакк**](/windows/win32/api/reconcil/nf-reconcil-ireconcileinitiator-setprogressfeedback)
 
--   [**инотифиреплика**](/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica) 
+-   [**инотифиреплика**](/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica) 
     -   -   [**Инотифиреплика:: Йоуареареплика**](/windows/desktop/api/reconcil/nf-reconcil-inotifyreplica-youareareplica)
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - ODL MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1af35d3b522d53e7b8435c2b6f5a98b3c4c674dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c25afd1b034e7f8cb456a6d5775038e2960c0b25ee54ba7372acd913f877ffe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119560314"
 ---
 # <a name="midl-and-odl"></a>MIDL и ODL
 
@@ -22,7 +22,7 @@ ms.locfileid: "103777006"
 > [!Note]  
 > Когда документация ссылается на ODL-файл, она ссылается на файл, который Mktyplib.exe можно проанализировать. Когда он ссылается на IDL-файл, он ссылается на файл, который может анализировать компилятор MIDL. Это строгое соглашение об именовании. Компилятор MIDL будет анализировать входной файл независимо от расширения его имени файла.
 
- 
+ 
 
 В подразделах этого раздела описывается использование компилятора MIDL и IDL-файлов, содержащих инструкции IDL и ODL для создания библиотек типов:
 
@@ -32,9 +32,9 @@ ms.locfileid: "103777006"
 -   [Функции языка ODL в MIDL](odl-language-features-in-midl.md)
 -   [Создание прокси-библиотеки DLL и библиотеки типов из одного файла IDL](generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md)
 
- 
+ 
 
- 
+ 
 
 
 

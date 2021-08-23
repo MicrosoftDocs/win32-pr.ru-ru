@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 355dae7b843d5acfbb842b7bd08c329bdaed4306
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e32221167e2a736e46b847c88300221c3bd8b1675973604703600bb8e36549a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119497914"
 ---
 # <a name="d3dxshevalhemispherelight-function-d3dx10h"></a>Функция D3DXSHEvalHemisphereLight (D3DX10. h)
 
@@ -133,12 +133,12 @@ HRESULT D3DXSHEvalHemisphereLight(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

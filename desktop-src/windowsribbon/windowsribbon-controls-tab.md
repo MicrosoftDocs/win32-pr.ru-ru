@@ -1,23 +1,23 @@
 ---
-title: Tab (платформа Windows Ribbon)
+title: Tab (Windows платформа ленты)
 description: Вкладка содержит группы связанных элементов управления.
 ms.assetid: 7315ca96-73c8-4ea1-bce0-172ebc4dd43a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b760bfc0c588c71ee9dbffa32b6cebc12a39fea7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3fae518c29e91dac8518c6dc217228e23d0521a562043849f8352783e26e5855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592182"
 ---
-# <a name="tab-windows-ribbon-framework"></a>Tab (платформа Windows Ribbon)
+# <a name="tab-windows-ribbon-framework"></a>Tab (Windows платформа ленты)
 
 Вкладка содержит [группы](windowsribbon-controls-group.md) связанных элементов управления.
 
--   [Подробные сведения](#details)
+-   [Сведения](#details)
 -   [Свойства вкладки](#tab-properties)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="details"></a>Сведения
 
@@ -35,7 +35,7 @@ ms.locfileid: "104340250"
 
  
 
-На следующем снимке экрана показана основная вкладка из Windows 7 Paint.
+на следующем снимке экрана показана основная вкладка из Windows 7 Paint.
 
 ![снимок экрана, на котором показан основной элемент управления "Вкладка".](images/controls/coretab.png)
 
@@ -67,11 +67,11 @@ ms.locfileid: "104340250"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Библиотека элементов управления платформы Windows ленты](windowsribbon-controls-entry.md)
+[Windows Библиотека элементов управления платформы ленты](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Элемент разметки вкладки**](windowsribbon-element-tab.md)

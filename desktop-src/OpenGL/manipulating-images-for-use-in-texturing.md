@@ -12,20 +12,20 @@ keywords:
 - Библиотека GLU, изображения текстур
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16726493bbcb6e0116e4c158e470029f34f5b652
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6dbe948dc3dbe84c9c2e89e02a43b45cf22d34af0198e422a883afd8f3384606
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553914"
 ---
 # <a name="manipulating-images-for-use-in-texturing"></a>Обработка изображений для использования в текстурировании
 
 Библиотека служебной программы OpenGL (GLU) обеспечивает масштабирование изображений и автоматическое выполнение функций функции текстурирования для упрощения спецификации изображений текстур. Функция [**глускалеимаже**](gluscaleimage.md) масштабирует указанное изображение до допустимого размера текстуры; полученный образ можно передать в OpenGL в виде текстуры. Автоматические функции функции текстурирования, [**gluBuild1DMipmaps**](glubuild1dmipmaps.md) и [**gluBuild2DMipmaps**](glubuild2dmipmaps.md), создают изображения текстуры мипмаппед из указанного изображения и передают их в [**glTexImage1D**](glteximage1d.md) и [**glTexImage2D**](glteximage2d.md)соответственно.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84972d95d381a630bf6caf7f0099ce740a4f2741
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 324f6c896c225453bfc8bf2ebb4b8619707c498c75e1309ea24fc6557cdd3deb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488813"
 ---
 # <a name="gluproject-function"></a>Функция Глупрожект
 
@@ -117,11 +117,11 @@ int WINAPI gluProject(
 
 Если функция завершается ошибкой, возвращается значение GL \_ false.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глупрожект** Преобразует указанные координаты объекта в координаты окна с помощью *моделматрикс*, *прожматрикс* и *окна просмотра*. Результат сохраняется в *Винкс*, *Вини* и *Винз*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -135,7 +135,7 @@ int WINAPI gluProject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

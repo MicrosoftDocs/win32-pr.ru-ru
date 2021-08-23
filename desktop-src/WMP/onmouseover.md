@@ -3,7 +3,7 @@ title: onmouseover
 description: Обработчик событий onmouseover обрабатывает событие, возникающее, когда пользователь впервые помещает указатель мыши на элемент.
 ms.assetid: b62da27e-0bdf-46b5-b956-cb20c29df1c2
 keywords:
-- Проигрыватель Windows Media (onmouseover)
+- проигрыватель Windows Media onmouseover
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 82163d74f060d9f57be2decb78c517844c1f5b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6d59809a7b0d1a5530359f6e8d288e21d0c13e67ac7ee9dc9b2537eb43183a7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468034"
 ---
 # <a name="onmouseover"></a>onmouseover
 
@@ -28,7 +28,7 @@ ms.locfileid: "105694807"
 onmouseover
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот обработчик событий неприменим к элементу **списка воспроизведения** .
 
@@ -38,7 +38,7 @@ onmouseover
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 70 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 70 или более поздней<br/> |
 
 
 

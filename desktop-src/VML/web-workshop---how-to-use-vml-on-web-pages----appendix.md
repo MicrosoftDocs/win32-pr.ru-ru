@@ -1,6 +1,6 @@
 ---
 title: Приложение (VML)
-description: В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9.
+description: в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9.
 ms.assetid: e18e9388-d8b6-4eee-b4f1-3948830f7986
 keywords:
 - Веб-семинар, пространства имен
@@ -16,25 +16,25 @@ keywords:
 - VGX.DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7d4e7a6a7e44671b7ee835eea263d9ce36a27d8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 640de79138adcc345d4352ead814195007b88e0714a0f89816819d545e6e1ef6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512614"
 ---
 # <a name="appendix-vml"></a>Приложение (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
 Чтобы обозреватели могли передавать данные в процессор, характерный для VML, необходимо ввести некоторую информацию, например пространства имен и стили поведения. Затем можно использовать VML для ввода графики в `<BODY>` регион.
 
-В этом разделе:
+В этом разделе.
 
 -   [Пространства имен](#namespaces)
 -   [Стили поведения](#behavior-styles)

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0e5b3f0a5b1aed634ab8929b0501d2e23ba40352
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 441ddac74e1640b2f836686c171d6fc896cbccee2dd6325c31041903ba610b39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661064"
 ---
 # <a name="sfvm_addobject-message"></a>\_Сообщение сфвм ADDOBJECT
 
@@ -46,7 +46,7 @@ SFVM_ADDOBJECT
 
 Возвращает новый идентификатор элемента ListView добавленного объекта, если процесс выполнен успешно; в противном случае возвращает значение-1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: f12de10032df7fec32dd9a577353dd20c0f4eaa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e56bad8b9de85f22836f9446b67340d22e71fe83552da6796e7864d3baddae4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683364"
 ---
 # <a name="postqueuedcompletionstatus-function"></a>Функция PostQueuedCompletionStatus
 
@@ -81,11 +81,11 @@ BOOL WINAPI PostQueuedCompletionStatus(
 
 Если функция выполняется неудачно, возвращается нулевое значение. Чтобы получить расширенные сведения об ошибке, вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пакет завершения ввода-вывода будет отвечать за необработанный вызов функции [**жеткуеуедкомплетионстатус**](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) . Эта функция возвращает с тремя значениями, передаваемыми в качестве второго, третьего и четвертого параметров вызова **PostQueuedCompletionStatus**. Система не использует или не проверяет эти значения. В частности, параметр *лповерлаппед* не должен указывать на структуру [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) .
 
-В Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
+в Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
 
 
 
@@ -103,21 +103,21 @@ BOOL WINAPI PostQueuedCompletionStatus(
 
 CsvFs выполнит перенаправление операций ввода-вывода для сжатых файлов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows XP \|\]<br/>                                                                                                                                                                                                                                                       |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2003 \|\]<br/>                                                                                                                                                                                                                                              |
-| Header<br/>                   | <dl> <dt>Иоапи. h (включение Windows. h); </dt> <dt>Винбасе. h в Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений XP \|\]<br/>                                                                                                                                                                                                                                                       |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2003 \|\]<br/>                                                                                                                                                                                                                                              |
+| Заголовок<br/>                   | <dl> <dt>иоапи. h (включает Windows. h);</dt> <dt>винбасе. h на Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP (включая Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

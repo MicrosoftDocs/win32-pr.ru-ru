@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 7baa5f58-62c2-406e-a81e-4ca9c446a756
-ms.openlocfilehash: 00b0e58ed18ab0da9c3fa362da4b8e3e066cdcc4
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c725a61a6711dab22d50b774cb02556916dae802a66008a48721d7311e163bce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660644"
 ---
 # <a name="shellfolderviewocenumdone-event"></a>Шеллфолдервиевок. Енумдоне, событие
 
@@ -66,15 +66,15 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

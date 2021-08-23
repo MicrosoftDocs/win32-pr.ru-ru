@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 85c37f4e-229f-4383-8218-10f8c2b0b8a0
-ms.openlocfilehash: 53d6fc3eb6f13d136af603a3129ba75a46c3c6a6
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 264631c43dd9ac20bd0ae47632738c2a37a0a85168b487e17ff86a8a2b71c8ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660634"
 ---
 # <a name="shellfolderviewocselectionchanged-event"></a>Шеллфолдервиевок. SelectionChanged, событие
 
@@ -58,14 +58,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |

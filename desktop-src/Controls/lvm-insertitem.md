@@ -3,7 +3,7 @@ title: Сообщение LVM_INSERTITEM (Коммктрл. h)
 description: Вставляет новый элемент в элемент управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса InsertItem ListView.
 ms.assetid: ac283e81-5b9f-4a90-acdb-fd7813c9cb84
 keywords:
-- Элементы управления Windows для LVM_INSERTITEM сообщений
+- элементы управления Windows сообщений LVM_INSERTITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 467c6b595e307dc16f87e40da858ff8b120fb3f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9408a8d09adca2a097281b13e56241c66a68521dcef0892502d7f8d0e14d25e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575714"
 ---
 # <a name="lvm_insertitem-message"></a>\_Сообщение LVM INSERTITEM
 
@@ -45,7 +45,7 @@ ms.locfileid: "105654645"
 
 Возвращает индекс нового элемента, если он выполнен успешно, или значение-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Нельзя использовать [**ListView \_ InsertItem**](/windows/desktop/api/Commctrl/nf-commctrl-listview_insertitem) или **LVM \_ InsertItem** для вставки подэлементов. Элемент **iSubItem** структуры [**лвитем**](/windows/win32/api/commctrl/ns-commctrl-lvitema) должен быть равен нулю. Сведения о настройке подэлементов см. в разделе [**LVM \_ сетитем**](lvm-setitem.md) .
 
@@ -61,15 +61,15 @@ ms.locfileid: "105654645"
 
 Если структура [**лвитем**](/windows/win32/api/commctrl/ns-commctrl-lvitema) не содержит лвиф \_ GROUPID в члене **Mask** , значение элемента **играупид** — I \_ граупидкаллбакк по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **LVM \_ ИНСЕРТИТЕМВ** (Юникод) и **LVM \_ инсертитема** (ANSI)<br/>             |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b6fef330e919a31e39306742bb03280454d47626
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 997b17d486d5e0a396e420bdc7b36da9d7ef83366a0d5c290110cf1cf2098c25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119490644"
 ---
 # <a name="ddy_coarse-function"></a>ДДИ \_ грубая функция
 
@@ -28,7 +28,7 @@ ms.locfileid: "104069134"
 
 ``` syntax
 float ddy_coarse(
-  in float value
+  in float value
 );
 ```
 
@@ -51,7 +51,7 @@ float ddy_coarse(
 
 Частичная точность, производная от *value*.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Также доступны следующие перегруженные версии:
 
@@ -69,11 +69,11 @@ float4 ddy_coarse(float4 value);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -85,9 +85,9 @@ float4 ddy_coarse(float4 value);
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -97,9 +97,9 @@ float4 ddy_coarse(float4 value);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

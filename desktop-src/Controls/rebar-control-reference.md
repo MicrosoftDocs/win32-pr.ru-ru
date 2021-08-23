@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: vs|controls|~\controls\rebar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef14343d33fb5ae45a2d93df74a9b915aca6d7b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 14ac71ea71b5e0b0bd1e222d46c070a62512f0f5ff3b885fe13b19fad10f7bf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434844"
 ---
 # <a name="rebar"></a>Главной панели
 

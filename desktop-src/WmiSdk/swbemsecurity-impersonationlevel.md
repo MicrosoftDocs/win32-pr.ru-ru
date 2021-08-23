@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3b996d5920aba91fddf880ee9ddf6bf8081fb39f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cde6bca09198d6e05f1ae0143ee07d1aedd465df68258303f1d6ca2b4b7699f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639584"
 ---
 # <a name="swbemsecurityimpersonationlevel-property"></a>Свбемсекурити. Имперсонатионлевел, свойство
 
-Свойство **имперсонатионлевел** — это целое число, определяющее уровень олицетворения COM, назначенный этому объекту. Этот параметр определяет, могут ли процессы, принадлежащие инструментарий управления Windows (WMI) (WMI), обнаруживать или использовать учетные данные безопасности при вызове других процессов. Дополнительные сведения об уровнях олицетворения см. в разделе [Настройка \_ \_ безопасности процесса обработки клиентских приложений](setting-client-application-process-security.md).
+Свойство **имперсонатионлевел** — это целое число, определяющее уровень олицетворения COM, назначенный этому объекту. этот параметр определяет, могут ли процессы, принадлежащие инструментарий управления Windows (WMI) (WMI), обнаруживать или использовать учетные данные безопасности при вызове других процессов. Дополнительные сведения об уровнях олицетворения см. в разделе [Настройка \_ \_ безопасности процесса обработки клиентских приложений](setting-client-application-process-security.md).
 
 Если уровень олицетворения не задан специально в моникере или при установке свойства **свбемсекурити. имперсонатионлевел** защищаемого объекта, WMI устанавливает для уровня олицетворения по умолчанию значение, указанное в [разделе реестра уровня олицетворения по умолчанию](setting-the-default-process-security-level-using-vbscript.md). Если этот параметр недостаточен, поставщик не будет обслуживать запрос, а вызов API WMI может завершиться с кодом ошибки **вбемерракцессдениед** (2147749891/0x80041003).
 
@@ -43,7 +43,7 @@ SWbemSecurity.ImpersonationLevel As Integer
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В качестве уровня олицетворения DCOM этому свойству может быть присвоено одно из следующих значений:
 
@@ -87,7 +87,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,"& _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

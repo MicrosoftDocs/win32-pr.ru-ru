@@ -1,28 +1,28 @@
 ---
-title: Примеры структурированного хранилища
+title: структурированные примеры служба хранилища
 description: В следующих разделах представлены примеры учебников по структурированному хранилищу — Стоклиен для примера клиента и Стосерве для примера сервера. Дополнительные сведения о создании образцов в COM см. в разделе Создание образцов.
 ms.assetid: 155e284f-c993-480e-a216-9d38c77ddbd7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a740edfef92f9902081277e9fcef7d403e93fd1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bd0bd63e4995163ed12412d056f00ec0fc93c610580ba8f5bd3d1cfcef2250f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661704"
 ---
-# <a name="structured-storage-samples"></a>Примеры структурированного хранилища
+# <a name="structured-storage-samples"></a>структурированные примеры служба хранилища
 
 В следующих разделах представлены примеры учебников по структурированному хранилищу — **стоклиен** для примера клиента и **стосерве** для примера сервера. Дополнительные сведения о создании образцов в COM см. в разделе Создание [образцов](how-to-build-samples.md).
 
 Учебные руководства по структурированному хранилищу см. в следующих статьях:
 
--   [Пример структурированного клиента хранилища](structured-storage-client-sample--stoclien-.md)
--   [Пример структурированного сервера хранилища](structured-storage-server-sample--stoserve-.md)
+-   [пример структурированного служба хранилища клиента](structured-storage-client-sample--stoclien-.md)
+-   [пример структурированного служба хранилища Server](structured-storage-server-sample--stoserve-.md)
 
- 
+ 
 
- 
+ 
 
 
 

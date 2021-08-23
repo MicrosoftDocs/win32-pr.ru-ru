@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b947ccc9f0fa47bca5437aa3ff4748264082756d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd489c0a86c8eaac62f44aefc805bc9bf6b09133f82520c06e38d916d41d0900
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119483784"
 ---
 # <a name="idcompositionvisualsetoffsetx-methods"></a>Методы Идкомпоситионвисуал:: Сетоффсеткс
 
@@ -34,21 +34,21 @@ ms.locfileid: "104416092"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Дкомп. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | только Windows 8 \[ настольных приложений\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2012\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Дкомп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Дкомп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

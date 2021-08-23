@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: eba2f6248bd1373ebf0aae55cf94103e2c269be7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ab5ebe2898c1525d3a539121d1e57708c4713df3a06b43bfa41572f0e7b23b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494264"
 ---
 # <a name="id3dxeffectcloneeffect-method"></a>Метод ID3DXEffect:: Клониффект
 
@@ -65,7 +65,7 @@ HRESULT CloneEffect(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Эта функция не будет клонировать результат, если пользователь указывает, что [D3DXFX \_ не может \_ клонироваться](d3dxfx.md) во время создания результата.
@@ -74,18 +74,18 @@ HRESULT CloneEffect(
 
 Сведения об обновлении общих и необщих параметров в активном методе клонированного результата см. в разделе [**ID3DXEffect:: CommitChanges**](id3dxeffect--commitchanges.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

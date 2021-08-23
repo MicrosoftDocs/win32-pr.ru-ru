@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7654feea410564137e98861c4c0b5de2b5e7192e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d5546ef4c67a6c9fa23f723f45725b19999770e11771608e197d6b759ca61de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504544"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод PauseService класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -179,7 +179,7 @@ uint32 PauseService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -318,7 +318,7 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

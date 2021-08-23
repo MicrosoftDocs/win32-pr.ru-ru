@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4731ffc91dbb8d31137a792b59d3ebc36bb4d5d4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d99d4cb185beb09cb882667b80dbd06a25546fb9209da38a775cefa887443617
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580183"
 ---
 # <a name="glfinish-function"></a>Функция Глфиниш
 
@@ -54,13 +54,13 @@ void WINAPI glFinish(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глфиниш** не возвращает результат, пока не будут выполнены эффекты всех ранее вызванных функций OpenGL. К таким эффектам относятся все изменения состояния OpenGL, все изменения состояния подключения и все изменения в содержимом буфера кадров.
 
 Функция **глфиниш** требует круговой путь к серверу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ void WINAPI glFinish(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

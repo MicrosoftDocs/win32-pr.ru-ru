@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 02c79df7aa08faa842e2b702b4cf18944e96bdfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fb1433151c733d0c11bfd054ac5cf8f18b52d57cf683ed4662397da2eff56ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500874"
 ---
 # <a name="setguestnetworkadapterconfiguration-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Метод Сетгуестнетворкадаптерконфигуратион \_ класса Виртуалсистемманажементсервице мсвм
 
-Настраивает сетевые адаптеры в гостевой операционной системе. Эти параметры конфигурации применяются сразу же после установления связи с компонентом интеграции KVP Exchange, работающим в гостевой операционной системе.
+Настраивает сетевые адаптеры в гостевой операционной системе. эти параметры конфигурации применяются сразу же после установления связи с компонентом интеграции KVP Exchange, работающего в гостевой операционной системе.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -107,21 +107,21 @@ uint32 SetGuestNetworkAdapterConfiguration(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

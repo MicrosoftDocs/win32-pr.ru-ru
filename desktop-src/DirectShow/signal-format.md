@@ -4,12 +4,12 @@ ms.assetid: 8684972c-3233-49bf-8c34-ca644aca432a
 title: Формат сигнала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb6983328729e0dc72d93c0e00a74e7e65a7f237
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 66add7467f2f497985094c603aaea83b55967f6b2c07eba4cacde080503ef2e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583184"
 ---
 # <a name="signal-format"></a>Формат сигнала
 
@@ -58,7 +58,7 @@ if (SUCCEEDED(hr))
 
 Чтобы получить формат входного или выходного сигнала из драйвера УВК, вызовите [**иамстреамконфиг::**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat) в ПИН-коде и изучите блок формата видео. (Для устройств УВК код, показанный в предыдущем примере, обычно возвращает ED \_ . ОСНОВНОЙ \_ сигнал \_ неизвестен, поэтому он не является надежным.)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

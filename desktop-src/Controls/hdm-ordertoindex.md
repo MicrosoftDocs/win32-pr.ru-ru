@@ -3,7 +3,7 @@ title: Сообщение HDM_ORDERTOINDEX (Коммктрл. h)
 description: Извлекает значение индекса для элемента на основе его порядка в элементе управления "заголовок". Это сообщение можно отправить явным образом или воспользоваться заголовком \_ макроса ордертоиндекс.
 ms.assetid: vs|controls|~\controls\header\messages\hdm_ordertoindex.htm
 keywords:
-- Элементы управления Windows для HDM_ORDERTOINDEX сообщений
+- элементы управления Windows сообщений HDM_ORDERTOINDEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b65d10fb27c9a07639ebbd5770a53d72cbf0aba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7afd006c90684137ffc484dac62ab40c04d90c0cdbc87f51102d8e9119e8b14d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576263"
 ---
 # <a name="hdm_ordertoindex-message"></a>\_Сообщение ОРДЕРТОИНДЕКС HDM
 
@@ -43,15 +43,15 @@ ms.locfileid: "104071560"
 
 Возвращает значение типа INT, указывающее индекс элемента. Если параметр *wParam* является недопустимым (отрицательный или слишком большой), то возвращаемое значение равно *wParam*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

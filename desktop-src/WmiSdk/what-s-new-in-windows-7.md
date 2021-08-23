@@ -1,22 +1,22 @@
 ---
-description: Новые возможности Windows 7
+description: новые возможности в Windows 7
 ms.assetid: C3FE15EF-CBF0-4A5D-ADCC-108795F8CE7A
 ms.tgt_platform: multiple
-title: Новые возможности Windows 7
+title: новые возможности в Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682e4f125fcc11a1b6679af7df78fddba5a766ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 000a3460366855df65096333a8b847a6d2c0c0a48a89c91f6791db3286d634fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502864"
 ---
-# <a name="whats-new-in-windows-7"></a>Новые возможности Windows 7
+# <a name="whats-new-in-windows-7"></a>новые возможности в Windows 7
 
-## <a name="new-security-feature-in-windows-7"></a>Новая функция безопасности в Windows 7
+## <a name="new-security-feature-in-windows-7"></a>новая функция безопасности в Windows 7
 
-Ниже перечислены новые функции безопасности инструментарий управления Windows (WMI) (WMI), доступные в Windows 7.
+ниже перечислены новые функции безопасности инструментарий управления Windows (WMI) (WMI), доступные в Windows 7.
 
 <dl> <dt>
 
@@ -27,16 +27,16 @@ ms.locfileid: "105713020"
 
 </dd> </dl>
 
-## <a name="other-new-or-updated-features-in-windows-7"></a>Другие новые или обновленные функции в Windows 7
+## <a name="other-new-or-updated-features-in-windows-7"></a>другие новые или обновленные функции в Windows 7
 
-В следующем списке перечислены новые функции WMI, доступные в Windows 7.
+в следующем списке перечислены новые функции WMI, доступные в Windows 7.
 
 <dl> <dt>
 
 <span id="CIM_schema_compatibility"></span><span id="cim_schema_compatibility"></span><span id="CIM_SCHEMA_COMPATIBILITY"></span>Совместимость со схемой CIM
 </dt> <dd>
 
-Начиная с Windows 7, Инструментарий WMI совместим со схемой модель CIM (CIM) версии 2.17.1. Дополнительные сведения см. в разделе [Совместимость схемы CIM](cim-schema-compatibility.md).
+начиная с версии Windows 7 WMI совместим с версией схемы модель CIM (CIM) 2.17.1. Дополнительные сведения см. в разделе [Совместимость схемы CIM](cim-schema-compatibility.md).
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ ms.locfileid: "105713020"
 <span id="Optional_feature_status"></span><span id="optional_feature_status"></span><span id="OPTIONAL_FEATURE_STATUS"></span>Необязательное состояние компонента
 </dt> <dd>
 
-WMI реализовала класс [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Этот класс запрашивает и возвращает состояние дополнительных компонентов, имеющихся на компьютере. Примеры запросов с помощью Windows PowerShell см. [в разделе запрос состояния дополнительных функций](querying-the-status-of-optional-features.md).
+WMI реализовала класс [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature) . Этот класс запрашивает и возвращает состояние дополнительных компонентов, имеющихся на компьютере. примеры запросов с использованием Windows PowerShell см. [в разделе запрос состояния дополнительных функций](querying-the-status-of-optional-features.md).
 
 </dd> <dt>
 
@@ -68,10 +68,10 @@ WMI реализовала класс [**Win32 \_ оптионалфеатуре
 
 </dd> <dt>
 
-<span id="New__PowerShell_command_classes"></span><span id="new__powershell_command_classes"></span><span id="NEW__POWERSHELL_COMMAND_CLASSES"></span>Новые классы команд Windows PowerShell
+<span id="New__PowerShell_command_classes"></span><span id="new__powershell_command_classes"></span><span id="NEW__POWERSHELL_COMMAND_CLASSES"></span>новые классы команд Windows PowerShell
 </dt> <dd>
 
-Командлеты Windows PowerShell позволяют пользователям выполнять комплексные задачи, необходимые для управления локальными и удаленными компьютерами. Дополнительные сведения см. в разделе [управляемый Справочник по классам команд WMI PowerShell](managed-reference-for-wmi-powershell-command-classes.md).
+командлеты Windows PowerShell позволяют пользователям выполнять комплексные задачи, необходимые для управления локальными и удаленными компьютерами. Дополнительные сведения см. в разделе [управляемый Справочник по классам команд WMI PowerShell](managed-reference-for-wmi-powershell-command-classes.md).
 
 </dd> <dt>
 
@@ -110,9 +110,9 @@ Windows PowerShell предоставляет простой механизм п
 
 </dd> </dl>
 
-Дополнительные сведения о новых возможностях в предыдущих версиях операционной системы см. в разделе [новые возможности Windows Vista](what-s-new-in-windows-vista.md).
+дополнительные сведения о новых возможностях в предыдущих версиях операционной системы см. в статье [новые возможности Windows Vista](what-s-new-in-windows-vista.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
