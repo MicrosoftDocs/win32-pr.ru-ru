@@ -6,12 +6,12 @@ keywords:
 - структуры, ресурс Direct3D 11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5020792e1fb56a52e7a4354964c45bb5d65bbba4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: acff7e10538910082dcd15220cb41a2ec360c24472837a569530f0b306313db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103891361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119125128"
 ---
 # <a name="resource-structures-direct3d-11-graphics"></a>Структуры ресурсов (графика Direct3D 11)
 
@@ -86,7 +86,7 @@ ms.locfileid: "103891361"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

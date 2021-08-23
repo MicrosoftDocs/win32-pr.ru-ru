@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 258d198ca4931aa6fdc19fffda0e4dd234013a59
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0a6cbebc181bb5295593534d3b8d5115a0e9402926ab462d8be18d466dfbbf26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119295064"
 ---
 # <a name="ms-ds-members-for-az-role-bl-attribute"></a>Атрибут ms-DS-Members-for-AZ-Role-BL
 
@@ -56,7 +56,7 @@ ms.locfileid: "104493815"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2017                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
+| System-Only            | Верно                            |
 | Является однозначным       | Неверно                           |
 | Индексируется             | Неверно                           |
 | В глобальном каталоге      | Неверно                           |
@@ -77,7 +77,7 @@ ms.locfileid: "104493815"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2017                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
+| System-Only            | Верно                            |
 | Является однозначным       | Неверно                           |
 | Индексируется             | Неверно                           |
 | В глобальном каталоге      | Неверно                           |
@@ -98,7 +98,7 @@ ms.locfileid: "104493815"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2017                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
+| System-Only            | Верно                            |
 | Является однозначным       | Неверно                           |
 | Индексируется             | Неверно                           |
 | В глобальном каталоге      | Неверно                           |

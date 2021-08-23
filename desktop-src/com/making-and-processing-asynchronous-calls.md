@@ -4,12 +4,12 @@ description: COM-объекты могут поддерживать асинхр
 ms.assetid: bf7f9f8e-66ce-41a4-854c-62dbe840a89e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 059f55cc64a70f130e7fb654426803edbe8b7209
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 173f33ea3a0d4ec59f994eeff259e776efa58ae5b0182ba97f77e1ba99dd0d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105691672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130206"
 ---
 # <a name="making-and-processing-asynchronous-calls"></a>Создание и обработка асинхронных вызовов
 
@@ -22,7 +22,7 @@ COM-объекты могут поддерживать асинхронный в
 > [!Note]  
 > Асинхронная поддержка недоступна для **IDispatch** или для интерфейсов, которые наследуют **IDispatch**.
 
- 
+ 
 
 Объекты сервера, поддерживающие асинхронные вызовы, реализуют интерфейс [**икаллфактори**](/windows/win32/api/objidlbase/nn-objidlbase-icallfactory) . Этот интерфейс предоставляет единственный метод [**креатекалл**](/windows/win32/api/objidlbase/nf-objidlbase-icallfactory-createcall), который создает экземпляр указанного объекта вызова. Клиенты могут запрашивать **икаллфактори** , чтобы определить, поддерживает ли объект асинхронный вызов.
 
@@ -43,6 +43,6 @@ COM-объекты могут поддерживать асинхронный в
 -   [Отмена вызовов метода](canceling-method-calls.md)
 -   [Синхронизация вызовов](call-synchronization.md)
 
- 
+ 
 
- 
+ 

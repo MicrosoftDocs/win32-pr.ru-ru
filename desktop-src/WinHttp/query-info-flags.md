@@ -4,12 +4,12 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Флаги сведений о запросе (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c66fd75ad1258123c3047dee4cafa4e57cb4dadd6675eb02deaa307085acbd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051962"
 ---
 # <a name="query-info-flags-winhttph"></a>Флаги сведений о запросе (Winhttp.h)
 
@@ -821,12 +821,12 @@ ms.locfileid: "112396629"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]      |
-| Минимальная версия сервера | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]   |
+| Минимальная версия клиента | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]      |
+| Минимальная версия сервера | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]   |
 | Заголовок                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 ## <a name="see-also"></a>См. также

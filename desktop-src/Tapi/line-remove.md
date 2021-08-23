@@ -4,12 +4,12 @@ ms.assetid: 21b912d6-34aa-4ac0-b019-be3c851cc96d
 title: Сообщение LINE_REMOVE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 567ead3ad2941845dd22405f0d8706eca74bfbd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f13f36123cb8cb77bd2d4b78c3e69a2da1c027aef4dad1fc9dfd7f3c6a00399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335924"
 ---
 # <a name="line_remove-message"></a>\_Сообщение об удалении строки
 
@@ -65,7 +65,7 @@ ms.locfileid: "105675677"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения, поддерживающие TAPI версии 2,0 или более поздней, отправляют сообщение об **\_ удалении строки** . Это информирует, что устройство было удалено из системы. Тексту сообщения об **\_ удалении строки** предшествует строка с сообщением о [**\_ закрытии строки**](line-close.md) для каждого маркера строки, если в приложении была открыта строка. Это сообщение отправляется во все приложения, поддерживающие TAPI версии 2,0 или более поздней, которые назывались [**линеинитиализикс**](/windows/desktop/api/Tapi/nf-tapi-lineinitializeexa), включая те, которые не имеют устройств линий, открытых в данный момент.
 
@@ -78,18 +78,18 @@ ms.locfileid: "105675677"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

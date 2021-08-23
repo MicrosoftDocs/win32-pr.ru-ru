@@ -4,12 +4,12 @@ ms.assetid: 2d087967-3734-463f-bc5e-9552290ddc0b
 title: Образец фильтра синтезатора
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd569091df92eca3fbff4d8cb200150d6e6bfdca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01a3a366a6612aadf653b5af13099dbc8a4f08c2fb828bca6e64514cb1801e4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119291197"
 ---
 # <a name="synth-filter-sample"></a>Образец фильтра синтезатора
 
@@ -21,7 +21,7 @@ ms.locfileid: "103913136"
 
 Этот фильтр отображается в Графедит как "фильтр аудио синтезатора".
 
-Дополнительные сведения о построении динамического графа см. в разделе [динамическое построение графа](dynamic-graph-building.md).
+дополнительные сведения о построении динамического графа см. в разделе [dynamic Graph здание](dynamic-graph-building.md).
 
 ## <a name="usage"></a>Использование
 
@@ -31,7 +31,7 @@ ms.locfileid: "103913136"
 
 1.  Создайте фильтр и зарегистрируйте его с помощью служебной программы regsvr32.
 2.  Запустите Графедит.
-3.  Вставьте фильтр аудио синтезатора. Он отображается в категории фильтры DirectShow.
+3.  Вставьте фильтр аудио синтезатора. он отображается в категории DirectShow фильтры.
 4.  Отрисовка выходного ПИН-кода фильтра.
 5.  Нажмите кнопку **Воспроизведение** .
 6.  Откройте страницу свойств фильтра.
@@ -65,15 +65,15 @@ ms.locfileid: "103913136"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневой пример пакета SDK* \\ \\ мультимедийные файлы \\ DirectShow \\ фильтры мультимедиа \\ синтезатор.
+этот пример устанавливается по следующему пути: *\[ корневой \] образец пакета SDK* \\ \\ мультимедийные примеры \\ DirectShow \\ фильтры \\ синтезатора.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

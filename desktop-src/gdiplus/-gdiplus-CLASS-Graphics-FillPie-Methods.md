@@ -4,12 +4,12 @@ ms.assetid: e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b
 title: Методы Graphics. Филлпие (Гдиплусграфикс. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 35f6d24ade375fb524bac71145807680da6e7e28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e952d316496bfbf7399ab5ea3ce1c4bae071f0412009dc71b9959a984316e976
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104998966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037242"
 ---
 # <a name="graphicsfillpie-methods"></a>Методы Graphics. Филлпие
 
@@ -28,13 +28,13 @@ ms.locfileid: "104998966"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплусграфикс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплусграфикс. h</dt> </dl> |
 
 
 

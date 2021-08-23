@@ -4,12 +4,12 @@ description: Вариантнотинт (свойство CheckState)
 ms.assetid: 77140193-22E8-427D-AE9C-FEC6B93483DD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d951a51ae6aa3f4d9454fc95a56c76cfe30500c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a3334a3609e9d64c1bb7109cc6f5bb52a2d09f9f9ac18cc41abf5d761f8e939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104253284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052172"
 ---
 # <a name="variantnotint-checkstate"></a>Вариантнотинт (свойство CheckState)
 
@@ -19,7 +19,7 @@ ms.locfileid: "104253284"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -31,7 +31,7 @@ ms.locfileid: "104253284"
 
 Для элемента или его родителя задано неправильное состояние MSAA.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -41,9 +41,9 @@ ms.locfileid: "104253284"
 [**Константы состояния объектов**](object-state-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

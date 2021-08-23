@@ -60,12 +60,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e08ec4ce308003dc30edaa32a07000e244dc9f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f259edf0e087831cfb667caa5fa8dcf215638ab6d739812fa2e6208327a22f7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119232804"
 ---
 # <a name="jet_errcat-enumeration"></a>Перечисление JET_ERRCAT
 
@@ -105,7 +105,7 @@ public enum JET_ERRCAT
 </tr>
 <tr class="even">
 <td></td>
-<td>Ошибка</td>
+<td>Error</td>
 <td>Универсальная Категория.</td>
 </tr>
 <tr class="odd">
@@ -160,7 +160,7 @@ public enum JET_ERRCAT
 </tr>
 <tr class="odd">
 <td></td>
-<td>Фрагментации</td>
+<td>Фрагментация</td>
 <td>Это класс ошибок, в котором был запущен некоторый сохраненный внутренний ресурс. Восстановление. для ошибок базы данных автономная дефрагментация устранит проблему, для файлов журнала _сначала_ восстановите все подключенные базы данных до чистого завершения работы, а затем удалите все файлы журналов и контрольные точки.</td>
 </tr>
 <tr class="even">

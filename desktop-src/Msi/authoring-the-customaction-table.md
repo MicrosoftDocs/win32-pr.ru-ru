@@ -4,12 +4,12 @@ ms.assetid: 56828105-bd72-426d-833f-f756c577c77f
 title: Создание таблицы CustomAction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56fb7d8cf99a30200e6a5525e3516e2b888c1129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b618da6e88718aa59483b3b25c007ff0b41eb89f6e1dc18a7eb31563632dc54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066084"
 ---
 # <a name="authoring-the-customaction-table"></a>Создание таблицы CustomAction
 
@@ -23,7 +23,7 @@ ms.locfileid: "103998269"
 |-------------------|-------|-------------|-----------------------|
 | процессаккаунтс   | 1     | Process.dll | процессусераккаунтс   |
 | унинсталлаккаунтс | 1     | Process.dll | унинсталлусераккаунтс |
-| креатеаккаунт     | 11265 | Create.dll  | креатеусераккаунт     |
+| CreateAccount     | 11265 | Create.dll  | креатеусераккаунт     |
 | RemoveAccount     | 11265 | Remove.dll  | ремовеусераккаунт     |
 | роллбаккаккаунт   | 9473  | Remove.dll  | ремовеусераккаунт     |
 
@@ -31,7 +31,7 @@ ms.locfileid: "103998269"
 
  
 
-Исходный код C++ для библиотек динамической компоновки предоставляется в пакете SDK для установщик Windows. Чтобы создать файл Process.dll, используйте Process. cpp. Создайте файл Create.dll с помощью CREATE. cpp. Используйте Remove. cpp для создания Remove.dll. Добавьте эти файлы библиотеки динамической компоновки в двоичную таблицу.
+исходный код C++ для библиотек динамической компоновки предоставляется в пакете SDK для установщик Windows. Чтобы создать файл Process.dll, используйте Process. cpp. Создайте файл Create.dll с помощью CREATE. cpp. Используйте Remove. cpp для создания Remove.dll. Добавьте эти файлы библиотеки динамической компоновки в двоичную таблицу.
 
 [Двоичная таблица](binary-table.md)
 

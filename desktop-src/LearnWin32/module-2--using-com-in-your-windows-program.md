@@ -1,25 +1,25 @@
 ---
-title: Использование COM в приложении Windows
+title: использование COM в приложении Windows
 description: В модуле 1 этой серии показано, как создать окно и отреагировать на сообщения окон, такие как WM \_ Paint и WM \_ Close. В модуле 2 представлена объектная модель компонента (COM).
 ms.assetid: 6e867618-4d02-4c17-b7ea-dc7290507689
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8c03f16937846c4479a70e16141f1b50bde3efc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2180d47bd0dd12c0184a2f9241ec5656c7fe711150e1d5163ca2fec9e0b28fd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068034"
 ---
 # <a name="module-2-using-com-in-your-windows-based-program"></a>Модуль 2. Использование COM в программе Windows-Based
 
 В [модуле 1](your-first-windows-program.md) этой серии показано, как создать окно и отреагировать на сообщения окон, такие как [**WM \_ Paint**](/windows/desktop/gdi/wm-paint) и [**WM \_ Close**](/windows/desktop/winmsg/wm-close). В модуле 2 представлена объектная модель компонента (COM).
 
-COM — это спецификация для создания многократно используемых программных компонентов. Многие функции, которые будут использоваться в современной программе на базе Windows, полагаются на модель COM, как показано ниже.
+COM — это спецификация для создания многократно используемых программных компонентов. многие функции, которые будут использоваться в современных программах на основе Windows, полагаются на COM, как показано ниже:
 
 -   Графика (Direct2D)
 -   Текст (DirectWrite)
--   Оболочка Windows
+-   оболочка Windows
 -   Элемент управления ленты
 -   Анимация пользовательского интерфейса
 
@@ -50,13 +50,13 @@ COM — это *двоичный стандарт*, а не стандартны
 -   [Методики программирования COM](com-coding-practices.md)
 -   [Обработка ошибок в COM](error-handling-in-com.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Знакомство с программой для Windows в C++](learn-to-program-for-windows.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

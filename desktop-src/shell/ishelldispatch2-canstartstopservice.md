@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 600cf7fafd556a9192c4b0de4089516bc6cca2a0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bae0ed1a6f60a363a360c8824d5b41f17b89f9040d3354b9e3011e0269e9d9e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032242"
 ---
 # <a name="ishelldispatch2canstartstopservice-method"></a>IShellDispatch2. Канстартстопсервице, метод
 
@@ -80,9 +80,9 @@ IShellDispatch2.CanStartStopService( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **канстартстопсервице** для JScript и VBScript.
+в следующих примерах показано использование **канстартстопсервице** для JScript и VBScript.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -119,15 +119,15 @@ IShellDispatch2.CanStartStopService( _
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

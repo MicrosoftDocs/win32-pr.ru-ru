@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6afcf14a1ffe53dea0dcd7e21fcde8729e0bd0ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77225134a88ff2c66be3f53f5d3d44c9f8353d8f44077fb0862f0c943c5aec3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119056862"
 ---
 # <a name="ivmdvddrivecollection-interface"></a>Интерфейс Ивмдвддривеколлектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет коллекцию дисков CD и DVD в виртуальной машине. Чтобы получить объект **ивмдвддривеколлектион** , используйте свойство [**Ивмвиртуалмачине::D вдромдривес**](ivmvirtualmachine-dvdromdrives.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "105650382"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмдвддривеколлектион** имеет следующие свойства.
 
@@ -43,8 +43,8 @@ ms.locfileid: "105650382"
 | Свойство                                                       | Тип доступа          | Описание                                                                    |
 |:---------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------|
 | [**\_NewEnum**](ivmdvddrivecollection--newenum.md)<br/> | Только для чтения<br/> | Перечислитель для коллекции.<br/>                                   |
-| [**Расчета**](ivmdvddrivecollection-count.md)<br/>        | Только для чтения<br/> | Число дисководов компакт-дисков и дисков DVD в этой коллекции.<br/>                 |
-| [**Элемент**](ivmdvddrivecollection-item.md)<br/>          | Только для чтения<br/> | Объект CD или DVD-дисковода, соответствующий указанному индексу.<br/> |
+| [**Count**](ivmdvddrivecollection-count.md)<br/>        | Только для чтения<br/> | Число дисководов компакт-дисков и дисков DVD в этой коллекции.<br/>                 |
+| [**Компонент**](ivmdvddrivecollection-item.md)<br/>          | Только для чтения<br/> | Объект CD или DVD-дисковода, соответствующий указанному индексу.<br/> |
 
 
 
@@ -56,11 +56,11 @@ ms.locfileid: "105650382"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмдвддривеколлектион определен как bc86e297-e55f-4742-9614-ad11d3131f68<br/>      |
 
 

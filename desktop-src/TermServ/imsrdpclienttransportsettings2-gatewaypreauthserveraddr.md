@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d6fe2f397b0d445a6300d68a89b210debd449a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 89fa3df8431f829c0dd85cd3a448965e98b4e6d5e6285ae75d18c76257ddbb00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119000914"
 ---
 # <a name="imsrdpclienttransportsettings2gatewaypreauthserveraddr-property"></a>Свойство IMsRdpClientTransportSettings2:: Гатевайпреауссервераддр
 
@@ -55,7 +55,7 @@ HRESULT get_GatewayPreAuthServerAddr(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -69,7 +69,7 @@ HRESULT get_GatewayPreAuthServerAddr(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -11,12 +11,12 @@ api_name:
 - DispatchRaysIndex
 api_type:
 - NA
-ms.openlocfilehash: aa26400c26aba4ee9e647bcd0a79bad3f3d52f7c
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: 1b40987c76f42d41d74b7cb3d41f35cc20bd5a6ac1414ae9b010cedcfa7ef9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "105691706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124170"
 ---
 # <a name="dispatchraysindex"></a>DispatchRaysIndex 
 
@@ -28,7 +28,7 @@ ms.locfileid: "105691706"
 uint3 DispatchRaysIndex();
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызвать из следующих типов шейдеров райтраЦинг.
 

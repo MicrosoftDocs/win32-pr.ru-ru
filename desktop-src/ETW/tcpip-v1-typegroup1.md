@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 831dfdc228e2c8e128f328784046e833b0b45a39
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2b16f125eac6bf22904e93aef9084f00bbf6ca55be85c762de54c286631b584e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069554"
 ---
 # <a name="tcpip_v1_typegroup1-class"></a>\_ \_ Класс TypeGroup1 TcpIp v1
 
@@ -160,12 +160,12 @@ class TcpIp_V1_TypeGroup1 : TcpIp_V1
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

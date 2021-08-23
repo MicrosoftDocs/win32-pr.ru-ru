@@ -7,12 +7,12 @@ keywords:
 - Функция МЦивндкреате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e459a0e7d93543af126287a776b64130595ad11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07a75f9798c1bfe0ec4f67da0f990018143efd0285541b49a9035b9749a36de1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065664"
 ---
 # <a name="about-the-mciwnd-window-class"></a>О классе окна МЦивнд
 
@@ -23,11 +23,11 @@ ms.locfileid: "104410993"
 > [!Note]  
 > На некоторых устройствах воспроизводится содержимое, хранящееся в файлах. Другие устройства, например устройства с компакт-дисков, воспроизводят содержимое, которое хранится на другом носителе. В целях ясности в этом обзоре используются оба обстоятельства: "воспроизведение устройства".
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

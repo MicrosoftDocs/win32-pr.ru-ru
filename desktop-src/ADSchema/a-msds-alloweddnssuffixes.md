@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46c3e4848f96c68041bfdc5f3f1cc9533b52d3e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe66dd05880e2066f9082fa10f46c843c7f7ac88457cb5f156922422b36ecdde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119297174"
 ---
 # <a name="ms-ds-allowed-dns-suffixes-attribute"></a>Атрибут ms-DS-Allowed-DNS-суффиксов
 

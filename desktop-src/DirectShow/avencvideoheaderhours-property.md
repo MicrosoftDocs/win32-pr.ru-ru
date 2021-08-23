@@ -4,12 +4,12 @@ ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: Свойство Авенквидеохеадерхаурс (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f5e3e423943a918fe73773c887942ad03a4e26
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc53495ba0b09a6081f781505309d44e3f795c61e596d8591eec1b405d09e25f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342444"
 ---
 # <a name="avencvideoheaderhours-property"></a>Авенквидеохеадерхаурс, свойство
 
@@ -35,9 +35,9 @@ ms.locfileid: "104536533"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

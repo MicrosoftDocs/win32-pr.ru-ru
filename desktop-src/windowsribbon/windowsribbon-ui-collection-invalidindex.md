@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b403db94a30ee8641420af97137a1f3b5bc67949
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdf08743a19c5689971cf8e461f8d252737e1d24ccc98549ab9091b4043d74e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028542"
 ---
 # <a name="ui_collection_invalidindex"></a>\_инвалидиндекс коллекции \_ ИП
 
@@ -30,8 +30,8 @@ ms.locfileid: "105710465"
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы \[ только для настольных приложений Windows Vista\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
-| Header<br/>                   | <dl> <dt>Уириббон. h</dt> </dl>                                             |
+| Минимальная версия сервера<br/> | Windows server 2008 R2, Windows server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 \[ только классические приложения\]<br/> |
+| Заголовок<br/>                   | <dl> <dt>Уириббон. h</dt> </dl>                                             |
 | IDL<br/>                      | <dl> <dt>Уириббон. idl</dt> </dl>                                           |
 
 

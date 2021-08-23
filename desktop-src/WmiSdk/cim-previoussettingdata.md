@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2
-ms.openlocfilehash: 4422d590714b82120b610dc4eeb9377a385519d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85f08f22409df8a17bdae33ae81c06cb8167996ecb477f6a2d207d9e0ce2acca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131766"
 ---
 # <a name="cim_previoussettingdata-class"></a>\_Класс CIM превиауссеттингдата
 
@@ -50,7 +50,7 @@ class CIM_PreviousSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ превиауссеттингдата** имеет следующие свойства.
 

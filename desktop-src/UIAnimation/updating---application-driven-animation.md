@@ -3,15 +3,15 @@ title: Чтение значений переменных анимации
 description: Каждый раз, когда приложение рисуется, оно должно считывать текущие значения переменных анимации, представляющих визуальные характеристики для анимации.
 ms.assetid: 7abf084a-31f5-4e32-bfd1-e88fbc2bf63d
 keywords:
-- Анимация для переменных анимации Windows, чтение
+- переменные анимации Windows анимация, чтение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16187547bb3efd99a2f45a8fcc0668a6b6603efe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fb2cc164091be9ecca292e26ab1247ba18c61d89f11dad8fc2530a3e45ca7629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058171"
 ---
 # <a name="read-the-animation-variable-values"></a>Чтение значений переменных анимации
 
@@ -25,7 +25,7 @@ ms.locfileid: "105691596"
 
 ## <a name="example-code"></a>Пример кода
 
-Следующий пример кода взят из эскиза. cpp в [макете сетки](/windows/desktop/UIAnimation/grid-layout-sample)образца анимации Windows. см. метод Кмаинвиндов:: Render. Он использует метод [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) для считывания значений в виде значений с плавающей запятой.
+следующий пример кода взят из эскиза. cpp в [макете сетки](/windows/desktop/UIAnimation/grid-layout-sample)образца анимации Windows; см. метод Кмаинвиндов:: Render. Он использует метод [**GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue) для считывания значений в виде значений с плавающей запятой.
 
 
 ```C++
@@ -49,7 +49,7 @@ if (SUCCEEDED(hr))
 
 
 
-Следующий пример кода взят из файла MainWindow. cpp в примере анимации на основе [таймера](timer-driven-animation-sample.md)Windows. см. метод Кмаинвиндов::D Равбаккграунд. Для считывания значений в виде целочисленных значений используется метод [**жетинтежервалуе**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) .
+следующий пример кода берется из файла MainWindow. cpp в Windows анимации, [управляемой таймером](timer-driven-animation-sample.md). см. метод Кмаинвиндов::D Равбаккграунд. Для считывания значений в виде целочисленных значений используется метод [**жетинтежервалуе**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getintegervalue) .
 
 
 ```C++
@@ -99,7 +99,7 @@ if (SUCCEEDED(hr))
 
 После завершения этого шага следующий шаг: [Создание раскадровки и добавление переходов](updating---timer-driven-animation.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -109,9 +109,9 @@ if (SUCCEEDED(hr))
 [**Иуианиматионвариабле:: GetValue**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationvariable-getvalue)
 </dt> <dt>
 
-[Общие сведения о анимации Windows](scenic-animation-api-overview.md)
+[Windows Общие сведения об анимации](scenic-animation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,45 +1,45 @@
 ---
-description: Средняя ссылка на уровень громкости звукового файла Windows Media.
+description: средняя ссылка на уровень громкости Windowsного звукового файла мультимедиа.
 ms.assetid: ea7d4ed1-2a96-4372-9936-abdd6473b57e
 title: Атрибут MF_MT_AUDIO_WMADRC_AVGREF (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cdde0bfb4c2993580d73981e9e121d1f7f18612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a822046d368025bcfd068f7c1afd32f75d22b5d1ceab69d3e4b517595baa9b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035292"
 ---
 # <a name="mf_mt_audio_wmadrc_avgref-attribute"></a>\_Атрибут MF \_ Audio \_ вмадрк \_ авгреф
 
-Средняя ссылка на уровень громкости звукового файла Windows Media.
+средняя ссылка на уровень громкости Windowsного звукового файла мультимедиа.
 
 ## <a name="data-type"></a>Тип данных
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут применяется к типам звуковых носителей для аудиокодеков Windows Media. Он указывает исходный средний уровень громкости содержимого. Декодер может использовать это значение для выполнения динамического управления диапазоном.
+этот атрибут применяется к типам аудио media для кодеков Windows media audio. Он указывает исходный средний уровень громкости содержимого. Декодер может использовать это значение для выполнения динамического управления диапазоном.
 
-Метод [**имфасфконтентинфо::P арсехеадер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) добавляет этот атрибут к типу мультимедиа, если заголовок ASF содержит атрибут [**WM/вмадркаверажереференце**](../wmformat/wm-wmadrcaveragereference.md) . Этот атрибут описан в документации пакета SDK Windows Media Format.
+Метод [**имфасфконтентинфо::P арсехеадер**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) добавляет этот атрибут к типу мультимедиа, если заголовок ASF содержит атрибут [**WM/вмадркаверажереференце**](../wmformat/wm-wmadrcaveragereference.md) . этот атрибут описан в документации по пакету SDK для Windows Media Format.
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

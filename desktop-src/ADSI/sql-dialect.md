@@ -1,28 +1,28 @@
 ---
-title: Диалект SQL
-description: Диалект SQL, производный от язык SQL, использует выражения, предназначенные для чтения, для определения инструкций запроса.
+title: SQL Указанный
+description: диалект SQL, производный от язык SQL, использует выражения, предназначенные для чтения, для определения инструкций запроса.
 ms.assetid: c1032268-e0f5-4d74-ab72-864cdd36851d
 ms.tgt_platform: multiple
 keywords:
-- ИНТЕРФЕЙС для диалектов SQL
+- SQL Диалекты ADSI
 - диалекты ADSI, диалект SQL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b0936a54bc7bd0028717967ce779fe2f2048a33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7483a5e3785f410e6c2fd875122ba24618a82b70d1ed6dc9a85105ae4e8dcfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262054"
 ---
-# <a name="sql-dialect"></a>Диалект SQL
+# <a name="sql-dialect"></a>SQL Указанный
 
-Диалект SQL, производный от язык SQL, использует выражения, предназначенные для чтения, для определения инструкций запроса. Используйте инструкцию SQL-запроса со следующими интерфейсами поиска ADSI:
+диалект SQL, производный от язык SQL, использует выражения, предназначенные для чтения, для определения инструкций запроса. используйте инструкцию запроса SQL со следующими интерфейсами поиска ADSI:
 
--   Интерфейсы [объектов данных ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , которые являются интерфейсами автоматизации, использующими OLE DB.
+-   интерфейсы [объектов данных ActiveX (ADO)](searching-with-activex-data-objects-ado.md) , которые являются интерфейсами автоматизации, использующими OLE DB.
 -   [OLE DB](searching-with-ole-db.md), который представляет собой набор интерфейсов C/C++ для запросов к базам данных.
 
-Для инструкций SQL требуется следующий синтаксис.
+для SQL инструкций требуется следующий синтаксис.
 
 
 ```sql
@@ -31,7 +31,7 @@ SELECT [ALL] * | select-list FROM 'ADsPath' [WHERE search-condition] [ORDER BY s
 
 
 
-В следующей таблице перечислены ключевые слова инструкции SQL Query.
+в следующей таблице перечислены ключевые слова инструкции запроса SQL.
 
 
 
@@ -44,14 +44,14 @@ SELECT [ALL] * | select-list FROM 'ADsPath' [WHERE search-condition] [ORDER BY s
 
 
 
- 
+ 
 
 > [!Note]  
-> В случаях, когда используется многобайтовый набор символов, то если поиск выполняется ADO с использованием диалекта SQL, то обратная косая черта не может использоваться для экранирования символов. Вместо этого необходимо использовать escape-последовательности, перечисленные в [специальных символах](search-filter-syntax.md) . Например, для инструкции, использующей синтаксис "samAccountName = \( Test", которая использует обратную косую черту, " \\ ", чтобы экранировать открывающую скобку "(", вместо нее следует заменить обратную косую чертой на специальный символ " \\ 28", как показано ниже: "SamAccountName = \\ 28Test".
+> в случаях, когда используется многобайтовый набор символов, поиск выполняется ADO с помощью SQL диалекта, а обратная косая черта не может использоваться для экранирования символов. Вместо этого необходимо использовать escape-последовательности, перечисленные в [специальных символах](search-filter-syntax.md) . Например, для инструкции, использующей синтаксис "samAccountName = \( Test", которая использует обратную косую черту, " \\ ", чтобы экранировать открывающую скобку "(", вместо нее следует заменить обратную косую чертой на специальный символ " \\ 28", как показано ниже: "SamAccountName = \\ 28Test".
 
- 
+ 
 
-Следующие инструкции запросов являются примерами диалекта SQL в ADSI.
+следующие инструкции запроса являются примерами SQL диалекта в ADSI.
 
 Для поиска всех объектов группы.
 
@@ -71,7 +71,7 @@ SELECT ADsPath, cn FROM 'LDAP://OU=Sales,DC=Fabrikam,DC=COM' WHERE objectCategor
 
 
 
-Формальная грамматика для запросов SQL определяется в следующем примере кода. Все ключевые слова не учитывают регистр.
+формальная грамматика для SQL запросов определяется в следующем примере кода. Все ключевые слова не учитывают регистр.
 
 
 ```sql
@@ -100,9 +100,9 @@ boolean-literal ::= TRUE | FALSE | YES | NO | ON | OFF
 
 
 
-Внутренние объединения SQL не поддерживаются поставщиком Active Directory OLE DB, но можно использовать SQL для объединения данных SQL и Active Directory. Дополнительные сведения см. [в разделе Создание разнородного объединения между SQL Server и Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md).
+SQL внутренние объединения не поддерживаются поставщиком Active Directory OLE DB, но для объединения SQL и Active Directory данных можно использовать SQL. дополнительные сведения см. [в разделе создание разнородного объединения между SQL Server и Active Directory](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -115,15 +115,15 @@ boolean-literal ::= TRUE | FALSE | YES | NO | ON | OFF
 [Поиск с помощью интерфейса IDirectorySearch](searching-with-idirectorysearch.md)
 </dt> <dt>
 
-[Поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
+[поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
 </dt> <dt>
 
 [Поиск с помощью OLE DB](searching-with-ole-db.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

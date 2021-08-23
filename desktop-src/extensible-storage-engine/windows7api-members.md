@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104255
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 48911f9b9157c3775283bbcca9cff94d4a813c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b582b98730e9fb9659f798d9d5c88613ecdeff8964bd2d514906a4a5ffef0a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106832"
 ---
 # <a name="windows7api-members"></a>Элементы Windows7Api
 
 Включить защищенные члены  
 Включить унаследованные члены  
 
-API ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).
+api ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).
 
 Тип [Windows7Api](./windows7api-class.md) предоставляет следующие члены.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Типы счетчиков алгоритмов счетчиков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12bd55a2a9cc9cc9193a86ffe740ebfa856c0ffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5568d4df0d1b50fd55a4f9d007d6506cf59a8f67a05885c21d64a6be8812536c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131437"
 ---
 # <a name="counter-algorithm-counter-types"></a>Типы счетчиков алгоритмов счетчиков
 
@@ -33,7 +33,7 @@ ms.locfileid: "104346745"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

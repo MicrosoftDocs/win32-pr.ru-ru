@@ -4,12 +4,12 @@ ms.assetid: 29c693f5-db2b-4fda-847c-4e5220eadfd3
 title: Получение событий изменения политики
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33145974ce712f21b338ba35f1571c8f3046c42c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ba1fc2328d0467dcfe5b6f85b9b8384cf4c8271d35fcda106a61ae5bb068f74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119005052"
 ---
 # <a name="receiving-policy-change-events"></a>Получение событий изменения политики
 

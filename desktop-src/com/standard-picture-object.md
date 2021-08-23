@@ -4,12 +4,12 @@ description: Стандартный объект Picture
 ms.assetid: 2df9e0a7-444b-454c-983a-82e82b9ed9d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e8a711fc0c33cf5e99b0db6e90941dbe855289b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8f4b74daa4f62791c12927eba3fd0472ed2a956d4b84c03e3cc373c44e12ce25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129766"
 ---
 # <a name="standard-picture-object"></a>Стандартный объект Picture
 
@@ -19,13 +19,13 @@ ms.locfileid: "103987913"
 
 Объект Picture также поддерживает [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) , так что он может сохранять и загружать данные из экземпляра [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream). Объект, который использует объект изображения, обычно сохраняет и загружает изображение как часть собственной обработки сохраняемости объекта. Функция [**олелоадпиктуре**](/windows/desktop/api/OleCtl/nf-olectl-oleloadpicture) упрощает создание объекта изображения на основе содержимого потока.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Свойства элемента управления](control-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

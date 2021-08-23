@@ -1,25 +1,25 @@
 ---
-title: Обложки мобильных устройств проигрывателя Windows Media
-description: Обложки мобильных устройств проигрывателя Windows Media
+title: проигрыватель Windows Media Обложки для мобильных устройств
+description: проигрыватель Windows Media Обложки для мобильных устройств
 ms.assetid: bcab41ed-db48-4070-b462-879f56bb6606
 keywords:
-- Проигрыватель Windows Media Mobile, обложки
-- Обложки Windows Media Player для мобильных устройств, о
-- обложки, проигрыватель Windows Media Mobile
+- проигрыватель Windows Media Мобильные устройства, обложки
+- проигрыватель Windows Media Обложки для мобильных устройств, сведения
+- обложки, проигрыватель Windows Media мобильные устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 920a672000e7e7c3a5f470cac9e05ecb38985311
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87196eb39fdbe0977f4d5baf5d298f339bb84f77d22f9e2e5579549c779a6b5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246884"
 ---
-# <a name="windows-media-player-mobile-skins"></a>Обложки мобильных устройств проигрывателя Windows Media
+# <a name="windows-media-player-mobile-skins"></a>проигрыватель Windows Media Обложки для мобильных устройств
 
-Мобильное программное обеспечение проигрывателя Windows Media включает в себя обложку по умолчанию, состоящую из различных кнопок и ползунков, которые можно использовать для воспроизведения, перемотки или окончания цифровых носителей. Обложка — это настраиваемый пользовательский интерфейс, обеспечивающий уникальный внешний вид и функциональность проигрывателя Windows Media Mobile.
+проигрыватель Windows Media Мобильное программное обеспечение включает обложку по умолчанию, состоящую из различных кнопок и ползунков, которые можно использовать для воспроизведения, перемотки или очистки цифровых носителей. обложка — это настраиваемый пользовательский интерфейс, обеспечивающий уникальный внешний вид и функциональность для проигрыватель Windows Media мобильных устройств.
 
-В следующих разделах описывается создание обложек для мобильных устройств проигрывателя Windows Media.
+в следующих разделах описано, как создавать обложки для проигрыватель Windows Media Mobile.
 
 
 
@@ -31,18 +31,18 @@ ms.locfileid: "104329672"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Обложки проигрывателя Windows Media**](windows-media-player-skins.md)
+[**проигрыватель Windows Media Палитр**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

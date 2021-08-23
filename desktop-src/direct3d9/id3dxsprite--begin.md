@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7670c3c516627283a466b3adbb369dc76bbe0d45
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94d3ee659937508f52e38513006701494a01ed4ff95fe6c75c56bd9638137160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119277834"
 ---
 # <a name="id3dxspritebegin-method"></a>Метод ID3DXSprite:: Begin
 
@@ -66,7 +66,7 @@ HRESULT Begin(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DERR \_ АУТОФВИДЕОМЕМОРИ, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод должен вызываться из [**IDirect3DDevice9:: бегинсцене**](/windows/desktop/api) . . . Последовательность [**IDirect3DDevice9:: ендсцене**](/windows/desktop/api) . **ID3DXSprite:: Begin** не может использоваться в качестве замены для **IDirect3DDevice9:: бегинсцене** или [**ID3DXRenderToSurface:: бегинсцене**](id3dxrendertosurface--beginscene.md).
 
@@ -78,12 +78,12 @@ HRESULT Begin(
 
 | Тип ([**D3DRENDERSTATETYPE**](./d3drenderstatetype.md)) | Значение                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| D3DRS \_ алфабленденабле                                       | true                                                                                                              |
+| D3DRS \_ алфабленденабле                                       | TRUE                                                                                                              |
 | D3DRS \_ алфафунк                                              | D3DCMP \_                                                                                                   |
 | D3DRS \_ алфареф                                               | 0x00                                                                                                              |
 | D3DRS \_ алфатестенабле                                        | алфакмпкапс                                                                                                      |
 | D3DRS \_ блендоп                                                | D3DBLENDOP \_ Добавить                                                                                                   |
-| D3DRS \_ Обрезка                                               | true                                                                                                              |
+| D3DRS \_ Обрезка                                               | TRUE                                                                                                              |
 | D3DRS \_ клиппланинабле                                        | FALSE                                                                                                             |
 | D3DRS \_ колорвритинабле                                       | D3DCOLORWRITEENABLE \_ альфа \| D3DCOLORWRITEENABLE \_ Blue \| D3DCOLORWRITEENABLE \_ зеленый \| D3DCOLORWRITEENABLE \_ красный |
 | D3DRS \_ куллмоде                                               | D3DCULL \_ None                                                                                                     |
@@ -154,13 +154,13 @@ HRESULT Begin(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

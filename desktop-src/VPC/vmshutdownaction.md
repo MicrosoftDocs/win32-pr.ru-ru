@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6b939954042a446f7ad9f128580e804d73e9d29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df1f8b5bc21021e7771c14c0c3c6399e1d6342d7ebe3803759c8adb5c45024cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119248414"
 ---
 # <a name="vmshutdownaction-enumeration"></a>Перечисление Вмшутдовнактион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Указывает, как завершить работу виртуальной машины (ВМ) при завершении работы узла или завершении процесса vpc.exe.
 
@@ -65,13 +65,13 @@ typedef enum  {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
@@ -83,7 +83,7 @@ typedef enum  {
 
 <dl> <dt>
 
-[Перечисления Windows Virtual PC](virtual-pc-enumerations.md)
+[Windows Перечисления виртуальных ПК](virtual-pc-enumerations.md)
 </dt> <dt>
 
 [**Ивмвиртуалмачине:: Шутдовнактиононкуит**](ivmvirtualmachine-shutdownactiononquit.md)

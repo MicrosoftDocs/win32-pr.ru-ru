@@ -4,12 +4,12 @@ description: В Direct3D 11,4 добавлены следующие функци
 ms.assetid: 689A0460-5725-4C48-B960-41FE20499082
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b0d2814aa1f9a7ac7b5f2c87ff9d918b36116f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 57190dbd244a565d579e807f7b7b2322ebfec0216d8a6862c4772c4cd4ebe142
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124539"
 ---
 # <a name="direct3d-114-features"></a>Функции Direct3D 11,4
 
@@ -27,7 +27,7 @@ ms.locfileid: "103987668"
 
 ## <a name="fences-for-multi-device-synchronization-and-interop-with-direct3d-12"></a>Ограждения для синхронизации нескольких устройств и взаимодействия с Direct3D 12
 
-[**ID3D11Fence**](/windows/desktop/api/D3D11_3/nn-d3d11_3-id3d11fence), [**ID3D11Device5**](/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5) и [**ID3D11DeviceContext4**](/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4) предоставляют те же функции ограждения, что и Direct3D 12 для Direct3D 11. Границы используются для синхронизации нескольких устройств Direct3D11 и для взаимодействия между Direct3D 11 и Direct3D 12. Границы поддерживаются в обновлении Windows 10 для дизайнеров.
+[**ID3D11Fence**](/windows/desktop/api/D3D11_3/nn-d3d11_3-id3d11fence), [**ID3D11Device5**](/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11device5) и [**ID3D11DeviceContext4**](/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4) предоставляют те же функции ограждения, что и Direct3D 12 для Direct3D 11. Границы используются для синхронизации нескольких устройств Direct3D11 и для взаимодействия между Direct3D 11 и Direct3D 12. Границы поддерживаются в Windows 10 Creators Update.
 
 ## <a name="extended-nv12-texture-support"></a>Расширенная поддержка текстур NV12
 
@@ -37,15 +37,15 @@ ms.locfileid: "103987668"
 
 ## <a name="shader-caching"></a>Кэширование шейдера
 
-Драйверы могут поддерживать кэширование шейдера, управляемого операционной системой, для Direct3D11 приложений в обновлении Windows 10 Creators Update.
+драйверы могут поддерживать кэширование шейдеров Direct3D11 приложений, управляемых операционной системой, в обновлении Windows 10 creators.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Новые возможности Direct3D 11](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

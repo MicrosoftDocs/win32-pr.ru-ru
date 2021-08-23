@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a062059f7aa1f16e32514b3bacbfb31dc0a350f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a87c30729a5ec78e5275a6c2a1c0d9d139b857c3c7ea10f666ba09b7fceed256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059162"
 ---
 # <a name="iconnectionbrokerclient-interface"></a>Интерфейс Иконнектионброкерклиент
 
@@ -57,7 +57,7 @@ ms.locfileid: "104492783"
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                       |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl>      |
 | Библиотека<br/>                  | <dl> <dt>Кбклиент. lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Cbclient.dll</dt> </dl>    |
 | IID<br/>                      | IID \_ иконнектионброкерклиент определен как D6818DF2-8338-4EB7-AD77-DE210817987C<br/> |

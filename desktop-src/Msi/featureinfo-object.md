@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 1db1bab5b1e55f027bb01eb9eff22484a4e39170
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 136bc160ea81367f8f55ad81cfc06f5e2e272cafae9d7b8f444a65d34e85d52b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119328374"
 ---
 # <a name="featureinfo-object"></a>Объект Феатуреинфо
 
@@ -30,17 +30,17 @@ ms.locfileid: "105665090"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **феатуреинфо** имеет следующие свойства.
 
 
 
-| Свойство                                                  | Тип доступа           | Описание                                                                                 |
+| Свойство.                                                  | Тип доступа           | Описание                                                                                 |
 |:----------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------|
 | [**Атрибуты**](featureinfo-attributes.md)<br/>   | Чтение/запись<br/> | Возвращает значение для функции в столбце Attributes таблицы Feature.<br/> |
 | [**Описание**](featureinfo-description.md)<br/> |                       | Возвращает описание компонента.<br/>                                          |
-| [**Заголовок**](featureinfo-title.md)<br/>             | Только для чтения<br/>  | Возвращает название компонента.<br/>                                                |
+| [**Название**](featureinfo-title.md)<br/>             | Только для чтения<br/>  | Возвращает название компонента.<br/>                                                |
 
 
 
@@ -52,7 +52,7 @@ ms.locfileid: "105665090"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ ифеатуреинфо определяется как 000C109F-0000-0000-C000-000000000046<br/>                                                                                                                                                                         |
 
@@ -62,7 +62,7 @@ ms.locfileid: "105665090"
 
 <dl> <dt>
 
-[Примеры сценариев установщик Windows](windows-installer-scripting-examples.md)
+[Windows Примеры сценариев для установщика](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

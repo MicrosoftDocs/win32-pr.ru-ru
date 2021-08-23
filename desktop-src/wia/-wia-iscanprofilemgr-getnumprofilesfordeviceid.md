@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 1a65e1f6571f4ec12a9bd91749c7419f9f9641c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2af1e4bc73afee090d947e6bcca0060521cb15cf2faff06be8c9a893534ea4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119264394"
 ---
 # <a name="iscanprofilemgrgetnumprofilesfordeviceid-method"></a>Метод Исканпрофилемгр:: Жетнумпрофилесфордевицеид
 
@@ -52,7 +52,7 @@ HRESULT GetNumProfilesforDeviceID(
 *пулнумпрофилес* \[ заполняет\]
 </dt> <dd>
 
-Тип: **ulong \** _
+Тип: **ulong \***
 
 Указатель на количество профилей, доступных для устройства.
 
@@ -60,18 +60,18 @@ HRESULT GetNumProfilesforDeviceID(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
 | Header<br/>                   | <dl> <dt>Сканпрофилемгр. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 

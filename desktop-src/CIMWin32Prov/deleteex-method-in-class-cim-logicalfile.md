@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e4f9799513111ff53bb97c14feaf70c922dfb085
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 715e7bbe0b6346ff6e00cc9812e9a154debe10ac8315ab74f67471ff4c1658e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080098"
 ---
 # <a name="deleteex-method-of-the-cim_logicalfile-class"></a>Метод Делетикс \_ класса CIM LogicalFile
 
@@ -122,7 +122,7 @@ uint32 DeleteEx(
 
 </dd> <dt>
 
-**Платформа не NT/Windows 2000**
+**платформа не NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -185,13 +185,13 @@ uint32 DeleteEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -205,7 +205,7 @@ uint32 DeleteEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

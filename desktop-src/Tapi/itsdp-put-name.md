@@ -4,16 +4,16 @@ ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
 title: 'Итсдп: метод ut_Name:p (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7383183b6b367d71d18070eedd5857740665fab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9d8b9155f4c47c0f3dfc2fe4eca27b9589187559e70a3b46e1a7c67c7339857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003242"
 ---
 # <a name="itsdpput_name-method"></a>Итсдп::p \_ метод имени UT
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **постановки \_ имени** задает имя сеанса.
 
@@ -57,24 +57,24 @@ HRESULT put_Name(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисаллокстринг**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) для выделения памяти для параметра *pname* и использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, когда переменная больше не нужна.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

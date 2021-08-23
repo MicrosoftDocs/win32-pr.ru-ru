@@ -3,7 +3,7 @@ title: Событие Кдромрипмедиаеррор объекта Акс
 description: Событие Кдромрипмедиаеррор возникает при возникновении ошибки при копировании отдельной дорожки с компакт-диска.
 ms.assetid: 542d0184-d893-4b98-903e-339909276fd6
 keywords:
-- Событие Кдромрипмедиаеррор в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие кдромрипмедиаеррор объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39b429505996cd5e85bc1e0e2e85c3f47103d244
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea2be1f777c4af3385e41939743bb91a20d3d7094f1a38917b3e79686b2a2863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136187"
 ---
 # <a name="cdromripmediaerror-event-of-the-axwindowsmediaplayer-object"></a>Событие Кдромрипмедиаеррор объекта Аксвиндовсмедиаплайер
 
@@ -60,7 +60,7 @@ Private Sub player_CdromRipMediaError(
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                                         |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                                         |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

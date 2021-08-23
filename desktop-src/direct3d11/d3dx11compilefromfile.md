@@ -1,6 +1,6 @@
 ---
 title: Функция D3DX11CompileFromFile (D3DX11async. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Примечание. вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompileFromFile. Скомпилируйте шейдер или результат из файла.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Примечание. вместо использования этой функции рекомендуется компилировать автономно с помощью Fxc.exe компилятора командной строки или использовать один из API-интерфейсов компиляции HLSL, таких как API D3DCompileFromFile. Скомпилируйте шейдер или результат из файла.
 ms.assetid: 91a1a339-50da-4f86-9b55-6af246a60482
 keywords:
 - D3DX11CompileFromFile функция Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89c9194eb54652304c220e5a4de0ee12a26ea1a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53a62a5a3d60dc62317fdd6f08e99faea025a172f77af7f10fd48e6752fb1b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989874"
 ---
 # <a name="d3dx11compilefromfile-function"></a>Функция D3DX11CompileFromFile
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -75,7 +75,7 @@ HRESULT D3DX11CompileFromFile(
 
 Тип: **\* const [**D3D10ный \_ \_ макрос шейдера**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)**
 
-Необязательный параметр. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
+Необязательный элемент. Указатель на массив определений макросов (см. раздел [**D3D10 \_ Shader \_ Macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). Последняя структура в массиве выступает в качестве признака конца, и все члены должны иметь значение 0. Если не используется, задайте  для Пдефинес **значение NULL**.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ HRESULT D3DX11CompileFromFile(
 
 Тип: **[ **LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-Необязательный параметр. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
+Необязательный элемент. Указатель на интерфейс для обработки включаемых файлов. Установка **значения NULL** приведет к ошибке компиляции, если шейдер содержит \# include.
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ HRESULT D3DX11CompileFromFile(
 
 **D3DX11CompileFromFile** возвращает E \_ INVALIDARG, если параметр *фресулт* предоставляет значение, отличное от **null** , при указании значения **null** для параметра *ппумп* . Дополнительные сведения об этой ситуации см. в разделе Примечания.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о **D3DX11CompileFromFile** см. в разделе [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile).
 
@@ -190,7 +190,7 @@ HRESULT D3DX11CompileFromFile(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>    |
 
 

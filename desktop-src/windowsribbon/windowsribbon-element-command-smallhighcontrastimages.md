@@ -3,7 +3,7 @@ title: Свойство Command. Смаллхигхконтрастимажес
 description: Представляет контейнер изображений; в данном случае это небольшие изображения для использования с параметрами системы с высокой контрастностью.
 ms.assetid: d1c441eb-885a-4dc1-b98d-5a36cab2f837
 keywords:
-- Лента Windows для свойства Command. Смаллхигхконтрастимажес
+- свойство Command. смаллхигхконтрастимажес, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56291ad4e56e5f941fe4cb2790ac6afab27ad67b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ddee0ccadc966b89d381e02cca5ac1ae336c98671c82a3e4f39f8ebdd6cbeb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329294"
 ---
 # <a name="commandsmallhighcontrastimages-property"></a>Свойство Command. Смаллхигхконтрастимажес
 
@@ -51,11 +51,11 @@ ms.locfileid: "105672809"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -111,14 +111,14 @@ ms.locfileid: "105672809"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

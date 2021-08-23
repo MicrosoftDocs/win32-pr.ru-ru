@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 45f9fd2feabdcd1f9e650e7e7a913a394e8ef67d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b84ec8a1f9a00b29e21706dd7fabe978740cb756675952b061d406dad8e233c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020762"
 ---
 # <a name="cim_videobiosfeature-class"></a>\_Класс CIM видеобиосфеатуре
 
@@ -69,13 +69,13 @@ class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ видеобиосфеатуре** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -247,7 +247,7 @@ class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -399,7 +399,7 @@ class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 Квалификаторы: [**распространяются**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**\_ продукт CIM**](cim-product.md)".**Поставщик**"), [**\_ ключ CIM**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| ComponentID \| 001,1 ")
 </dt> </dl>
 
-Название поставщика продукта, которое соответствует свойству **Vendor** объекта Product стандарта Exchange (SES) DMTF Solution Standard.
+название поставщика продукта, которое соответствует свойству **Vendor** объекта product в решении DMTF Exchange Standard (SES).
 
 Это свойство наследуется от [**CIM \_ софтварефеатуре**](cim-softwarefeature.md).
 
@@ -423,7 +423,7 @@ class CIM_VideoBIOSFeature : CIM_SoftwareFeature
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ видеобиосфеатуре** является производным от [**CIM \_ софтварефеатуре**](cim-softwarefeature.md).
 

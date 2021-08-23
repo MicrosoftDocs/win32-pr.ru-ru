@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a135c4787ff116ec10efd61fa1492033393c88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e506881110ad9fbb60ea12479c64f8ef8024f8e0f9ddee753813795d31f3dd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021362"
 ---
 # <a name="sisfreebackupstructure-function"></a>Функция Сисфрибаккупструктуре
 
@@ -51,7 +51,7 @@ BOOL SisFreeBackupStructure(
 
 Эта функция возвращает **значение true** , если она завершается успешно, и **false** в противном случае. Вызовите [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить дополнительные сведения о причине сбоя вызова.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция должна вызываться после завершения операции резервного копирования для тома, определенного значением параметра *сисбаккупструктуре* .
 
@@ -63,9 +63,9 @@ BOOL SisFreeBackupStructure(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Сисбкуп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Сисбкуп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |
 

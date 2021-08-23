@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4455fd273144b2d6abd81c78be31a1b037cd889
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7db85573072c54a613009c3afec4873a38db4ff7336e487553437967b4c6e1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060082"
 ---
 # <a name="principallogontype-property"></a>Свойство Principal. LogonType
 
@@ -56,7 +56,7 @@ Principal.LogonType As Integer
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство допустимо, только если идентификатор пользователя задан свойством [**UserID**](principal-userid.md) .
 
@@ -64,27 +64,27 @@ Principal.LogonType As Integer
 
 Для задачи, которая содержит действие «окно сообщения», появится окно сообщения, если задача активирована, а задача имеет интерактивный тип входа в систему. Чтобы установить для параметра Тип входа в интерактивный режим, укажите значение 3 (**\_ \_ Интерактивный \_ маркер входа в систему**) или 4 (**\_ \_ Группа входа** в систему) в свойстве **LogonType** участника задачи или в параметре *LogonType* [**таскфолдер. регистертаск**](taskfolder-registertask.md) или [**таскфолдер. регистертаскдефинитион**](taskfolder-registertaskdefinition.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Планировщик заданий](task-scheduler-start-page.md)
 </dt> <dt>
 
-[**Основного**](principal.md)
+[**Основной**](principal.md)
 </dt> </dl>
 
  

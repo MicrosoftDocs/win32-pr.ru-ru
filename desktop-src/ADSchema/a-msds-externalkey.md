@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aeaaf506495dd2feffe7bdb6d76ea702b84ff00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bf3e727a8096764adb7660206b816342b71fc50685727d2f0fc7b184cf04f37e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103805021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119296044"
 ---
 # <a name="ms-ds-external-key-attribute"></a>Атрибут ms-DS-External-Key
 

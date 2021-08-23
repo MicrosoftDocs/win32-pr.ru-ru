@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 26e5785845f3ce8448269a821f67fcafc98bf4b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa63937bdf6f65ab46f012bd541eadcd7e8ef5b8a4d8957a462f2d6666e62a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119266543"
 ---
 # <a name="createinkdivider-function"></a>Функция Креатеинкдивидер
 
@@ -44,17 +44,17 @@ INT_PTR CreateInkDivider(void);
 
 Возвращает маркер для созданного объекта.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот класс наследуется от базового класса [**инкдивидер**](inkdivider-class.md) и реализует виртуальные функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                         |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
 | Библиотека<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

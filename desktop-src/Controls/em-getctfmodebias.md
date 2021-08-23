@@ -3,7 +3,7 @@ title: Сообщение EM_GETCTFMODEBIAS (RichEdit. h)
 description: Возвращает значения смещения режима платформы текстовых служб для элемента управления Microsoft Rich Edit.
 ms.assetid: 2421d37d-169d-480f-a5f7-4c6033ca6c1a
 keywords:
-- Элементы управления Windows для EM_GETCTFMODEBIAS сообщений
+- элементы управления Windows сообщений EM_GETCTFMODEBIAS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 109d5eabbddca1c13fefae99c29d8c550fbd274e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 60d6e030e3080ec9bf3d801583b9ade182483ba8560b3eccb2fb9813be7d39cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019752"
 ---
 # <a name="em_getctfmodebias-message"></a>\_Сообщение ЖЕТКТФМОДЕБИАС EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104136139"
 
 Текущее значение смещения в режиме платформы текстовых служб.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить смещение режима IME, вызовите [**EM \_ жетимемодебиас**](em-getimemodebias.md).
 
@@ -57,9 +57,9 @@ ms.locfileid: "104136139"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
