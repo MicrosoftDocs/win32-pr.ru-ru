@@ -11,12 +11,12 @@ api_name:
 - SimIccID
 api_type:
 - Schema
-ms.openlocfilehash: f566253ad3e86b4f7ee7317cf125d9e649034847
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a6e4a20d93396337e2af0f0533486618dc707760f1ccd5c4f20f399cbdbf203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777864"
 ---
 # <a name="simiccid-mbnprofile-element"></a>СимикЦид (Мбнпрофиле), элемент
 
@@ -38,7 +38,7 @@ ms.locfileid: "105662392"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

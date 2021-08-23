@@ -4,12 +4,12 @@ ms.assetid: 0348684f-aebd-4d2d-a69b-85fea551c0cd
 title: Определение ролей для приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8e46eb2cb857a2b2dee2aabe41cb571e12ed98
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7cc4b4fb6aaee557eea69dec405254925cd669d18ac73cdea229f548145d8701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637714"
 ---
 # <a name="defining-roles-for-an-application"></a>Определение ролей для приложения
 
@@ -23,14 +23,14 @@ ms.locfileid: "105701174"
 
 3.  В диалоговом окне **роль** введите имя новой роли в указанном поле.
 
-4.  Нажмите кнопку **ОК**.
+4.  Нажмите **OK**.
 
 > [!Note]  
 > После добавления ролей в приложение необходимо назначить роли соответствующим компонентам, интерфейсам и методам. В противном случае, если безопасность на основе ролей выбрана и включена, и если роли были добавлены, но не назначены, все вызовы приложения завершатся ошибкой. Дополнительные сведения см. в разделе [назначение ролей компонентам, интерфейсам или методам](assigning-roles-to-components--interfaces--or-methods.md).
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60d06a08badf3302ef4ddb352d840842a2605600
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7305d5eded589e167352ce7ff13194b52965b939daf907e8381b64684a03d1bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634854"
 ---
 # <a name="cmediaposition-class"></a>Класс Кмедиапоситион
 
@@ -29,7 +29,7 @@ ms.locfileid: "105675204"
 
 Класс **кмедиапоситион** обрабатывает методы **IDispatch** сдвоенного интерфейса [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition) .
 
-Этот класс наследует интерфейс [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition) , но не реализует его. Реализует **IDispatch** через класс [**кбаседиспатч**](cbasedispatch.md) и библиотеку типов DirectShow. Не используйте этот класс напрямую. Вместо этого используйте один из следующих классов:
+Этот класс наследует интерфейс [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition) , но не реализует его. реализует **IDispatch** через класс [**кбаседиспатч**](cbasedispatch.md) и библиотеку типов DirectShow. Не используйте этот класс напрямую. Вместо этого используйте один из следующих классов:
 
 -   Фильтры источников: используйте базовый класс [**ксаурцесикинг**](csourceseeking.md) для реализации поиска.
 -   Фильтры преобразования. Используйте класс [**кпоспасссру**](cpospassthru.md) для передачи команд поиска в восходящий поток.
@@ -41,10 +41,10 @@ ms.locfileid: "105675204"
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [**кмедиапоситион**](cmediaposition-cmediaposition.md)     | Метод конструктора.                                                                                                 |
 | Методы IDispatch                                           | Описание                                                                                                         |
-| [**GetIDsOfNames**](cmediaposition-getidsofnames.md)       | Сопоставляет набор имен с соответствующим набором идентификаторов DISPID.                                                              |
+| [**GetIDsOfNames**](cmediaposition-getidsofnames.md)       | Карты набор имен в соответствующий набор идентификаторов dispid.                                                              |
 | [**GetTypeInfo**](cmediaposition-gettypeinfo.md)           | Извлекает сведения о типе для объекта, который затем можно использовать для получения сведений о типе для интерфейса. |
 | [**жеттипеинфокаунт**](cmediaposition-gettypeinfocount.md) | Возвращает число интерфейсов сведений о типе, предоставляемых объектом.                                            |
-| [**Вызвать**](cmediaposition-invoke.md)                     | Предоставляет доступ к свойствам и методам, предоставляемым объектом.                                                    |
+| [**Invoke**](cmediaposition-invoke.md)                     | Предоставляет доступ к свойствам и методам, предоставляемым объектом.                                                    |
 
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "105675204"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105675204"
 
 <dl> <dt>
 
-[Базовые классы DirectShow](directshow-base-classes.md)
+[DirectShow Базовые классы](directshow-base-classes.md)
 </dt> </dl>
 
  

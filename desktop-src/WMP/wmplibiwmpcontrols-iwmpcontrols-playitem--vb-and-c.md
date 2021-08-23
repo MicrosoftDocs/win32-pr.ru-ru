@@ -3,9 +3,9 @@ title: Ивмпконтролс Плайитем, метод
 description: Метод Плайитем воспроизводит указанный элемент мультимедиа. | Ивмпконтролс Плайитем, метод
 ms.assetid: ddd4e4f7-475c-4964-a623-9123ed66be8e
 keywords:
-- Плайитем метод Windows Media Player
-- Плайитем метод проигрывателя Windows Media Player, интерфейс Ивмпконтролс
-- Интерфейс Ивмпконтролс Windows Media Player, метод Плайитем
+- проигрыватель Windows Media метода плайитем
+- проигрыватель Windows Media метода плайитем, интерфейс ивмпконтролс
+- проигрыватель Windows Media интерфейса ивмпконтролс, метод плайитем
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2ac11f93409128eccc88c1d916144615d77476
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1fabab78fe60120110f72176885e3b5825699b83782272dfbef0b48c165d1d02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761034"
 ---
 # <a name="iwmpcontrolsplayitem-method"></a>Ивмпконтролс: метод:p Лайитем
 
@@ -64,7 +64,7 @@ Implements IWMPControls.playItem
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент мультимедиа будет загружаться и воспроизводиться автоматически независимо от значения свойства **ивмпсеттингс. Автозапуск** . Чтобы загрузить элемент без автоматического воспроизведения, задайте для **ивмпсеттингс. автозапуска** значение **false** и присвойте значение **аксвиндовсмедиаплайер. URL**, после чего можно вызвать **ивмпконтролс. Play** , чтобы начать воспроизведение элемента.
 
@@ -107,19 +107,19 @@ player.Ctlcontrols.playItem(Media)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

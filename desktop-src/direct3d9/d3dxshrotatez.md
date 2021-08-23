@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ed7db57dc3acedd1e65edab7377b525940ea10e2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ccc1d85ff1fda2bc2a67744a2e9ef75ad99839d63ee8b9e332660a2bd36a30fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630764"
 ---
 # <a name="d3dxshrotatez-function-d3dx9mathh"></a>Функция D3DXSHRotateZ (D3dx9math. h)
 
@@ -92,13 +92,13 @@ FLOAT* D3DXSHRotateZ(
 -   l — это степень базовой функции.
 -   m — это базовый индекс функции для заданного значения l и диапазон от-l до l включительно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

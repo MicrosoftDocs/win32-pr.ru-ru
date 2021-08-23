@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Реализация постоянных подписок на события между пространствами имен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52771e40d4dfb036354c3b37b562b32edd3034ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b175f89a4a686aa47818daf3479d521306f6190fb245222c4c21c17ca6470dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757954"
 ---
 # <a name="implementing-cross-namespace-permanent-event-subscriptions"></a>Реализация постоянных подписок на события между пространствами имен
 

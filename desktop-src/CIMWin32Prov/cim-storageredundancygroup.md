@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bef8cb8029c62957446ee5d7aefcf67fe5d7acb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 888da618a0c51fbbb81923e8ff5885d815c3327ab99f8bfa4f76571602059d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817814"
 ---
 # <a name="cim_storageredundancygroup-class"></a>\_Класс CIM сторажередунданциграуп
 
-Класс **CIM \_ сторажередунданциграуп** представляет сведения о избыточности, связанные с запоминающими устройствами. Группы избыточности хранилища используются для защиты пользовательских данных. Они состоят из одного или нескольких физических экстентов или одного или нескольких Объединенных физических экстентов. Группы избыточности хранилища могут перекрываться; Однако базовые экстенты в перекрытие не должны содержать никаких проверочных данных.
+Класс **CIM \_ сторажередунданциграуп** представляет сведения о избыточности, связанные с запоминающими устройствами. служба хранилища группы избыточности используются для защиты пользовательских данных. Они состоят из одного или нескольких физических экстентов или одного или нескольких Объединенных физических экстентов. служба хранилища группы избыточности могут перекрываться; Однако базовые экстенты в перекрытие не должны содержать никаких проверочных данных.
 
 > [!IMPORTANT]
 > Классы CIM (модель CIM) в DMTF (распределенная задача управления) являются родительскими классами, на которых строятся классы WMI. В настоящее время WMI поддерживает только [схемы версии CIM 2. x](https://dmtf.org/standards/cim/schemas).
@@ -63,13 +63,13 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сторажередунданциграуп** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -141,7 +141,7 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -413,7 +413,7 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ сторажередунданциграуп** является производным от [**CIM \_ редунданциграуп**](cim-redundancygroup.md).
 
@@ -421,7 +421,7 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -435,7 +435,7 @@ class CIM_StorageRedundancyGroup : CIM_RedundancyGroup
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

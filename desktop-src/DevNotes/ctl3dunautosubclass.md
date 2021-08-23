@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 1250deb16307400898c92d36b9dda214115ec01d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca7980705ca93ad88b7c9e535abe59c3cdcc2e011130c843f0e89a533ce97599
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654474"
 ---
 # <a name="ctl3dunautosubclass-function"></a>Функция Ctl3dUnAutoSubclass
 
@@ -41,11 +41,11 @@ BOOL Ctl3dUnAutoSubclass(void);
 
 Возвращает **значение true** , если функция выполнена. в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

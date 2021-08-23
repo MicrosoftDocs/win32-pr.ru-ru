@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8950dcf397816fca8eb5a6add45c45512c48866
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c325134a8a8fd60afdc764eebc8a4de9bd507b5b667ebb8e1b2ab967edcd7e77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625474"
 ---
 # <a name="glevalmesh1-function"></a>Функция glEvalMesh1
 
@@ -80,7 +80,7 @@ void WINAPI glEvalMesh1(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**глмапгрид**](glmapgrid-functions.md) и [**глевалмеш**](glevalmesh-functions.md) вместе для эффективного создания и вычисления ряда значений домена с равными интервалами. Функция **глевалмеш** выполняет шаг с целым доменом одномерной или двухмерной сетки, диапазон которого представляет собой домен карт оценки, заданных в [**glMap1**](glmap1.md) и [**glMap2**](glmap2.md). Параметр mode определяет, соединяются ли результирующие вершины как точки, линии или закрашенные многоугольники.
 
@@ -104,7 +104,7 @@ where
 
 и n, U1 и U2 являются аргументами самой последней функции [**glMapGrid1**](glmapgrid1d.md) . Параметр *типа* — это \_ баллы GL, если режим является \_ точкой GL, или \_ строками GL, если режимом является \_ строка GL. Одно абсолютное числовое требование состоит в том, что если i = n, то значение, вычисленное от i? u + U1, равно U2.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -118,7 +118,7 @@ where
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

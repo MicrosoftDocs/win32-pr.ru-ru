@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 16817d1c3f0fbdf756f6c054b875b8507fd1172a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f33e0c26506faea93afc11f51aaba13007c443fc011839efafce436fe9f2b2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635899"
 ---
 # <a name="cbasecontrolwindowput_owner-method"></a>Кбасеконтролвиндов. размещение, \_ метод Owner
 
@@ -53,7 +53,7 @@ HRESULT put_Owner(
 
 Возвращает значение "ошибка".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 На внутреннем уровне этот метод вызывает функцию Microsoft Win32 **сетпарент** для установки нового владельца и задает для родительского окна стиль \_ дочерний элемент WS. Затем родительское окно будет пересылать определенные наборы сообщений (в частности, мыши и клавиатуры) в окно видео.
 
@@ -65,7 +65,7 @@ HRESULT put_Owner(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

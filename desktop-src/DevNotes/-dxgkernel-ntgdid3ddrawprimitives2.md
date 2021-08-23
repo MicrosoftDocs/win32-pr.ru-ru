@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntgdi.h
-ms.openlocfilehash: ebde2fd5adf3b0892606d0ebbc1c7d5f6b55d9cd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d3964a9946da37d211aab0e5949cff5e09a40dcc18607aabb3a0c13c37acfe9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833664"
 ---
 # <a name="ntgdid3ddrawprimitives2-function"></a>Функция NtGdiD3DDrawPrimitives2
 
@@ -111,7 +111,7 @@ DWORD APIENTRY NtGdiD3DDrawPrimitives2(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -123,7 +123,7 @@ DWORD APIENTRY NtGdiD3DDrawPrimitives2(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

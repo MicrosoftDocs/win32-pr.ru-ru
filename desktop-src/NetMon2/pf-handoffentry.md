@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 5ad431e936265be96831778f9949ae67ef737beb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf98490424754d6ae2223ca063e0e3a4eec69c113b1a220e9657b7db5edbb8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778674"
 ---
 # <a name="pf_handoffentry-structure"></a>\_Структура PF хандоффентри
 
@@ -90,11 +90,11 @@ typedef struct _PF_HANDOFFENTRY {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Массив структур **PF \_ хандоффентри** используется в структуре [PF \_ хандоффсет](pf-handoffset.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -106,7 +106,7 @@ typedef struct _PF_HANDOFFENTRY {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

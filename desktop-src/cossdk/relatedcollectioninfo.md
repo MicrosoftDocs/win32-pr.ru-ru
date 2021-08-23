@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 21a9a1905d75c81d605f30a3f6cffced8837034d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 45e9e0f0e251bc9b0772d5def40fec148d541964d34e4f1dda954825f456468b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637094"
 ---
 # <a name="relatedcollectioninfo-collection"></a>Коллекция Релатедколлектионинфо
 
@@ -42,7 +42,7 @@ ms.locfileid: "104262620"
 
 Объект [**комадминкаталогобжект**](comadmincatalogobject.md) в коллекции поддерживает следующие свойства:
 
--   [Name](#name)
+-   [Имя](#name)
 
 ### <a name="name"></a>Имя
 
@@ -51,7 +51,7 @@ ms.locfileid: "104262620"
 | Ввод | Значение |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Описание    | Имя связанной коллекции. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
-| Access         | ReadOnly                                                                                                                                                                                                   |
+| Доступ         | ReadOnly                                                                                                                                                                                                   |
 | Тип           | Строка                                                                                                                                                                                                     |
 | По умолчанию        | None                                                                                                                                                                                                       |
 | Минимальная система | Windows 2000                                                                                                                                                                                               |
@@ -60,7 +60,7 @@ ms.locfileid: "104262620"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

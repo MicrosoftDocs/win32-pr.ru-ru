@@ -4,12 +4,12 @@ ms.assetid: 882a01f2-8f5c-4640-a8ac-f4f5860d7ed1
 title: События сеанса мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e128fc5e11f70fe47d02356ce44629b98bfdfe
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bffecb3f4e3f4b3a3b30be95fcc45adcb81c1a84dd04ed8cf637bad759512a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724014"
 ---
 # <a name="media-session-events"></a>События сеанса мультимедиа
 
@@ -36,7 +36,7 @@ ms.locfileid: "105713283"
 
 В дополнение к событиям из сеанса мультимедиа приложение может получить события от приемников носителей в топологии. Это могут быть пользовательские события, определенные приемником мультимедиа, которые могут содержать произвольные данные. Например, приемник может наследовать данные о событии от исходных данных, которые могут быть из ненадежного внешнего источника. Приложение должно игнорировать все события, которые не распознаются, и соблюдать осторожность при анализе данных события.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

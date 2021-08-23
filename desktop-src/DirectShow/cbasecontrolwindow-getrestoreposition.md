@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f922a97f69f4dae03d4e61a54bd99c52d69a984a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 215b71d731227641df02716dd2b760f7e023bbec0c50bc66ac6d390ed87d002e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757614"
 ---
 # <a name="cbasecontrolwindowgetrestoreposition-method"></a>Кбасеконтролвиндов. Жетресторепоситион, метод
 
@@ -77,7 +77,7 @@ HRESULT GetRestorePosition(
 
 Возвращает значение **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это то же самое, что и значения, возвращаемые функцией [**кбасеконтролвиндов:: жетвиндовпоситион**](cbasecontrolwindow-getwindowposition.md) , если окно не развернуто или не уменьшено.
 
@@ -87,7 +87,7 @@ HRESULT GetRestorePosition(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

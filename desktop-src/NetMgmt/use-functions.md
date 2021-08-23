@@ -4,12 +4,12 @@ description: Функции управления сетью используют
 ms.assetid: ddf1b8dc-f13b-402a-9e4e-e4944a29ac31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbd2660b911fd87c39b9db10b0dbfea0e47c484c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f61019f6c6e2785f03eb4e2e9a47ed1953e14662c5664dca41465bc83d7c683d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779514"
 ---
 # <a name="use-functions"></a>Использование функций
 
@@ -26,7 +26,7 @@ ms.locfileid: "103890989"
 
 
 
- 
+ 
 
 Эти функции применяются только к клиенту блока сообщений сервера (Рабочая станция LAN Manager). Функция **нетусежетинфо** не поддерживает общие папки распределенная ФАЙЛОВАЯ система (DFS). Чтобы получить сведения о подключении для общего ресурса с помощью другого поставщика сети (например, WebDAV или общей папки DFS), используйте функцию [**внетжетконнектион**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) .
 
@@ -44,6 +44,6 @@ ms.locfileid: "103890989"
 -   [**ИСПОЛЬЗОВАТЬ \_ сведения \_ 1**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_1)
 -   [**ИСПОЛЬЗОВАТЬ \_ сведения \_ 2**](/windows/desktop/api/Lmuse/ns-lmuse-use_info_2)
 
- 
+ 
 
- 
+ 

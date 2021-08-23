@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 4484d5ec55f700410eb80d11d2249cceceef43ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ce2a2e0b86c24ea6c16627fd0b866e18aaf48f3c1f0b318a601809e1ee03dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742714"
 ---
 # <a name="labeled_systemtime-structure"></a>\_Структура SYSTEMTIME с меткой
 
@@ -54,7 +54,7 @@ typedef struct _LABELED_SYSTEMTIME {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **лплабеледсистемтиметабле** структуры [Set](set.md) указывает на массив структур **набора** , определяющих одну или несколько пар значений меток. Эти пары используются, если требуется отобразить метку вместо определенного значения ЛАРЖЕИНТ, найденного в пакете протокола.
 

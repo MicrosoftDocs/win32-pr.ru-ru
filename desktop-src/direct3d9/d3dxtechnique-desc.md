@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: 35dd483a983f17371d6a77e6c020b3a45d9e9360
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e835c0eac067825942568464df8d5d345a06b530b71b7eaf7f319eae5f5d366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630734"
 ---
 # <a name="d3dxtechnique_desc-structure"></a>\_Структура D3DXTECHNIQUE DESC
 
@@ -41,7 +41,7 @@ typedef struct D3DXTECHNIQUE_DESC {
 
 <dl> <dt>
 
-**Name**
+**Имя**
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](../winprog/windows-data-types.md)**
@@ -74,7 +74,7 @@ typedef struct D3DXTECHNIQUE_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Некоторые видеоадаптеры могут визуализировать две текстуры за один проход. Тем не менее, если у карточки нет этой возможности, часто можно визуализировать тот же результат в двух проходах, используя одну текстуру для каждого прохода.
 
@@ -84,7 +84,7 @@ typedef struct D3DXTECHNIQUE_DESC {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
 
 
 

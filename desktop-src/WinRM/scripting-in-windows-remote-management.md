@@ -1,11 +1,11 @@
 ---
-title: Создание сценариев в служба удаленного управления Windows
+title: создание сценариев в служба удаленного управления Windows
 description: API скриптов в WinRM и сопутствующий API COM для C++ предназначены для точного отражения операций протокола WS-Management.
 ms.assetid: fda2042a-8fca-4cd8-bb55-fd1c3591921e
 ms.tgt_platform: multiple
 keywords:
-- Создание сценариев в служба удаленного управления Windows
-- Служба удаленного управления Windows, создание сценариев в
+- создание сценариев в служба удаленного управления Windows
+- Windows Удаленное управление, создание сценариев в
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -13,30 +13,30 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 75af10fea03853de99c884eda0a74ce340683b49
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3c10d36420b2826162a6ed5e3fb6bf69408a74032faafac75c84c25a754cf534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104133910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795434"
 ---
-# <a name="scripting-in-windows-remote-management"></a>Создание сценариев в служба удаленного управления Windows
+# <a name="scripting-in-windows-remote-management"></a>создание сценариев в служба удаленного управления Windows
 
 [API скриптов в WinRM](winrm-scripting-api.md) и СОПУТСТВУЮЩИЙ API COM для C++ предназначены для точного отражения операций протокола WS-Management.
 
 API скриптов WinRM в служба удаленного управления Windows поддерживает все операции WS-Management протоколов, кроме одного. Он не допускает подписки на события. Чтобы подписываться на события из журнала системных событий BMC, необходимо использовать программы командной строки wecutil или wevtutil. Дополнительные сведения см. в статье [Events (Visual Basic)](events.md) (События в Visual Basic).
 
-API-интерфейс сценариев WinRM вызывается Winrm.vbs, программой командной строки, написанной в Visual Basic Scripting Edition (VBScript). В Winrm.vbs приводятся примеры использования [API-интерфейса сценариев WinRM](winrm-scripting-api.md).
+API-интерфейс сценариев WinRM вызывается Winrm.vbs, программой командной строки, написанной в Visual Basic scripting Edition (VBScript). В Winrm.vbs приводятся примеры использования [API-интерфейса сценариев WinRM](winrm-scripting-api.md).
 
 ## <a name="using-wsman-compared-to-using-wmi-scripting"></a>Использование WSman по сравнению с использованием сценариев WMI
 
 WMI подключается к удаленным компьютерам через DCOM, что требует настройки, описанной в разделе [Подключение к WMI на удаленном компьютере](/windows/desktop/WmiSdk/connecting-to-wmi-on-a-remote-computer). WinRM не использует DCOM для подключения к удаленному компьютеру. Вместо этого протокол WS-Management отправляет сообщения SOAP, а служба использует один порт для HTTP и порт для транспорта HTTPS.
 
-В отличие от программы командной строки **WinRM** , скрипты должны предоставлять XML-код, необходимый для передачи в сообщения протокола WS-Management. Они также должны предоставлять URI. Дополнительные сведения см. в разделе [URI ресурсов](resource-uris.md) , [Служба удаленного управления Windows и WMI](windows-remote-management-and-wmi.md).
+В отличие от программы командной строки **WinRM** , скрипты должны предоставлять XML-код, необходимый для передачи в сообщения протокола WS-Management. Они также должны предоставлять URI. дополнительные сведения см. в разделе [uri ресурсов](resource-uris.md) , [служба удаленного управления Windows и WMI](windows-remote-management-and-wmi.md).
 
 API сценариев WMI работает с объектами, такими как экземпляры [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk), которые представляют ресурсы на компьютере. Этот класс WMI определен в файлах [*MOF-файл (MOF)*](/windows/desktop/WmiSdk/gloss-m) , которые хранятся в двоичном формате в репозитории WMI. В WMI операция получения для отдельного ресурса или запроса для нескольких экземпляров возвращает объекты WMI.
 
-Сценарий WinRM не возвращает объекты, а потоки XML-текста. Дополнительные сведения см. в разделе [Служба удаленного управления Windows и инструментарий WMI](windows-remote-management-and-wmi.md).
+Сценарий WinRM не возвращает объекты, а потоки XML-текста. дополнительные сведения см. в разделе [служба удаленного управления Windows и инструментарий WMI](windows-remote-management-and-wmi.md).
 
 ## <a name="displaying-xml-output-from-winrm-scripts"></a>Отображение выходных данных XML из скриптов WinRM
 
@@ -152,14 +152,14 @@ Win32_Service
 
 Выходные данные сценария WinRM кодируются в Юникоде. При создании [FileSystemObject](/previous-versions//6kxy1a51(v=vs.85)) и записи файла из скрипта полученный файл будет иметь кодировку Unicode. Однако при перенаправлении выходных данных в файл используется кодировка ANSI. При перенаправлении выходных данных в XML-файл и наличии в выходных данных символов Юникода XML-код будет недопустимым. Имейте в виду, что программа командной строки **WinRM** выводит значение ANSI.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
 [MSXSL](/previous-versions/windows/desktop/ms763742(v=vs.85))
@@ -168,6 +168,6 @@ Win32_Service
 [Справочник по модели DOM](/previous-versions/windows/desktop/ms764730(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 64ec1042-0ab5-496f-9a88-2f293b412704
 title: Сообщение WM_PALETTEISCHANGING (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2127dc9c682bba1fc4cea4e10b2b96ecc92102
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b0de17e7957e4b03c0a8fb942e7c0e4f94a3329e53cb039ce1d7f0a8c33aa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717684"
 ---
 # <a name="wm_paletteischanging-message"></a>\_Сообщение ПАЛЕТТЕИСЧАНГИНГ WM
 
@@ -51,7 +51,7 @@ LRESULT CALLBACK WindowProc(
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Приложение, изменяющее палитру, не ждет подтверждения этого сообщения перед изменением палитры и отправкой сообщения [**WM \_ палеттечанжед**](wm-palettechanged.md) . В результате эта палитра может быть уже изменена временем, когда приложение получает это сообщение.
 
@@ -65,7 +65,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 77824392-1249-479a-a379-1917140d65db
 title: System. GPS. Date
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf0338b4184454b1d7f4e59906ddd613b6f6153
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f1f03ae4bf935896a4c2de73c0c6c3add8510ccce0ff4a7efb20dab986108c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775254"
 ---
 # <a name="systemgpsdate"></a>System. GPS. Date
 
@@ -30,11 +30,11 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

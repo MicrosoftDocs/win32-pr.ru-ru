@@ -3,7 +3,7 @@ title: Сообщение EM_GETTOUCHOPTIONS (RichEdit. h)
 description: Извлекает параметры касания, связанные с элементом управления Rich Edit.
 ms.assetid: 1D367818-5625-4A5A-A7A1-330FED516990
 keywords:
-- Элементы управления Windows для EM_GETTOUCHOPTIONS сообщений
+- элементы управления Windows сообщений EM_GETTOUCHOPTIONS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812d37de1972c6da205944d9913dc3fa046c205d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4771cd11fd8aaf16925c97a3242918ba8f7b56e4e580a6f3cd70672a134399b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799994"
 ---
 # <a name="em_gettouchoptions-message"></a>\_Сообщение ЖЕТТАУЧОПТИОНС EM
 
@@ -65,19 +65,19 @@ ms.locfileid: "104071863"
 
 Возвращает значение параметра, заданного параметром *wParam* . Оно не равно нулю, если *wParam* имеет значение **RTO \_ шовхандлес** , а захваты сенсорного ввода видимы; ноль, в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f59aa7e0f2874d38255ac61d8ea64e591850224d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2640a191fe1337d70573c80458114823bd57e705dfda9d75c2337b11c82f059a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760984"
 ---
 # <a name="ms-ts-property01-attribute"></a>Атрибут MS-TS-Property01
 
@@ -56,14 +56,14 @@ ms.locfileid: "104424194"
 | MAPI-Id                | \-                                                                          |
 | System-Only            | Неверно                                                                       |
 | Является однозначным       | Неверно                                                                       |
-| Индексируется             | True                                                                        |
+| Индексируется             | Верно                                                                        |
 | В глобальном каталоге      | Неверно                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                |
 | Range-Lower            | 0                                                                           |
 | Range-Upper            | 32767                                                                       |
 | Search-Flags           | 0x00000001                                                                  |
 | System-Flags           | 0x00000010                                                                  |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -77,14 +77,14 @@ ms.locfileid: "104424194"
 | MAPI-Id                | \-                                                                          |
 | System-Only            | Неверно                                                                       |
 | Является однозначным       | Неверно                                                                       |
-| Индексируется             | True                                                                        |
+| Индексируется             | Верно                                                                        |
 | В глобальном каталоге      | Неверно                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                |
 | Range-Lower            | 0                                                                           |
 | Range-Upper            | 32767                                                                       |
 | Search-Flags           | 0x00000001                                                                  |
 | System-Flags           | 0x00000010                                                                  |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "104424194"
 | MAPI-Id                | \-                                                                          |
 | System-Only            | Неверно                                                                       |
 | Является однозначным       | Неверно                                                                       |
-| Индексируется             | True                                                                        |
+| Индексируется             | Верно                                                                        |
 | В глобальном каталоге      | Неверно                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                |
 | Range-Lower            | 0                                                                           |

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 631998aeba6612d945495d8115a74d00f7e657c7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a02bf34844918255086b318d9a13feeabbd6e75bdecca03684adaba70b420626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103890012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626564"
 ---
 # <a name="break_comp---vs"></a>прерывание \_ comp-VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "103890012"
 
 
 
- 
+ 
 
 Где:
 
@@ -46,12 +46,12 @@ ms.locfileid: "103890012"
 
     
 
-     
+     
 
 -   src0 является исходным регистром. Для выбора одного компонента требуется репликация свиззле.
 -   src1 является исходным регистром. Для выбора одного компонента требуется репликация свиззле.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция поддерживается в следующих версиях.
 
@@ -63,7 +63,7 @@ ms.locfileid: "103890012"
 
 
 
- 
+ 
 
 Если сравнение истинно, оно выходит из текущего цикла, как показано.
 
@@ -75,16 +75,16 @@ if (src0 comparison src1)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,20 +10,20 @@ keywords:
 - Функция Акмформатенум
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c148c075df09cb702caf6b1d192fe8ce41b48ad0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ecc291a6dff0c6b2befec6afd001a32735a54e95fd65a464378adb690a95019c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691534"
 ---
 # <a name="finding-a-specific-format"></a>Поиск определенного формата
 
 Приложение может иметь только частичную спецификацию для формата, когда требуется полная спецификация. Например, спецификация может указывать на формат моно, 4-разрядного формата ADPCM в 11 кГц, но не в среднем байт в секунду. Приложение может получить полный формат без вмешательства пользователя с помощью функции [**акмформатенум**](/windows/desktop/api/Msacm/nf-msacm-acmformatenum) и указания флагов в параметре *фдвенум* .
 
- 
+ 
 
- 
+ 
 
 
 

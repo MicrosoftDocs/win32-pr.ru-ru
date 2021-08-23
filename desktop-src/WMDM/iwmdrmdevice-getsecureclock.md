@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa92c3bc2ee82facf2f2e1043e71467a0c55bd8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa9494a594a396550028f083cc2b646f2093f6369ab27ae5494bf70c13628d4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619784"
 ---
 # <a name="iwmdrmdevicegetsecureclock-method"></a>Метод Ивмдрмдевице:: Жетсекуреклокк
 
@@ -66,9 +66,9 @@ HRESULT GetSecureClock(
 
 
 
-| Flag                     | Описание                            |
+| Флаг                     | Описание                            |
 |--------------------------|----------------------------------------|
-| \_исвмдрм устройства \_ WMDRM   | Устройство поддерживает Windows Media DRM. |
+| \_исвмдрм устройства \_ WMDRM   | устройство поддерживает Windows Media DRM. |
 | \_нидклокк устройства \_ WMDRM | Устройству требуется таймер.                |
 | \_устройство WMDRM \_ отозвано   | Устройство было отозвано.           |
 
@@ -92,18 +92,18 @@ HRESULT GetSecureClock(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>Мссачлп. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
