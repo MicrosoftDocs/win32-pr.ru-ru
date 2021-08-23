@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.guid
 ms:contentKeyID: 55103215
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: faea05993af82cb9a8eaaaf515086c59f10c02fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61ac3b6a8b9465749c1e94b7379f33c1cab14adc7d42688ddb7d1fcb6c4529e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980754"
 ---
 # <a name="guidcolumnvalue-members"></a>Элементы Гуидколумнвалуе
 
@@ -164,7 +164,7 @@ ms.locfileid: "104565822"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

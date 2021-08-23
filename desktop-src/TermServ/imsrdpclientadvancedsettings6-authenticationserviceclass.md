@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 618b55d1489f46e0e1119186bd5003fb68dbfebb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8453c0aef1548303e653f1ba57c9f05550975d93706eae1b9d3f05ea0b611a71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119001372"
 ---
 # <a name="imsrdpclientadvancedsettings6authenticationserviceclass-property"></a>Свойство IMsRdpClientAdvancedSettings6:: Аусентикатионсервицекласс
 
@@ -61,13 +61,13 @@ HRESULT get_AuthenticationServiceClass(
 
 Указывает имя субъекта-службы для использования.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство поддерживается только клиентами подключение к удаленному рабочему столу 6,1 и 7,0.
 
 Имена субъектов-служб (SPN) связаны с субъектом безопасности (пользователем или группами), в контексте безопасности которого выполняется служба. Имена участников-служб используются для поддержки взаимной проверки подлинности между клиентским приложением и службой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ HRESULT get_AuthenticationServiceClass(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

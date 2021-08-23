@@ -4,12 +4,12 @@ description: В этом разделе показаны различия меж
 ms.assetid: c3e5e6bc-c544-49ee-b6d9-021ce87f9b12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29af1b9e7aec72f96a62e0f62668b81a6eec8367
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b488015deae8cc93b9bc692c49d66ff1510bcc5639047fe253265be5b382a85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990124"
 ---
 # <a name="differences-between-effects-10-and-effects-11"></a>Различия между эффектами 10 и Effects 11
 
@@ -204,17 +204,17 @@ Direct3D 11 поддерживает следующие неупорядочен
 
 ## <a name="source-availability-and-location"></a>Доступность источника и расположение
 
-Эффекты 10 были распространены в D3D10.dll. Эффекты 11 распространяются в виде источника, а соответствующие решения Visual Studio — для его компиляции. При создании приложений типа Effects рекомендуется включать источник Effects 11 непосредственно в эти приложения.
+Эффекты 10 были распространены в D3D10.dll. эффекты 11 распространяются в виде источника, с соответствующими Visual Studio решениями для его компиляции. При создании приложений типа Effects рекомендуется включать источник Effects 11 непосредственно в эти приложения.
 
 Вы можете получить эффекты 11 от [эффектов обновления Direct3D 11](https://github.com/Microsoft/FX11).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Эффекты (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

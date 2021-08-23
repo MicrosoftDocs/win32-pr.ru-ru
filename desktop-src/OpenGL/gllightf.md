@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 099490461f5fbf6feb009e98c0228165938326d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cde2bbee996183ad39067aed3b98a64dd5abb40f87c6746d7dda305bdb0e7438
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012112"
 ---
 # <a name="gllightf-function"></a>Функция Гллигхтф
 
@@ -93,7 +93,7 @@ void WINAPI glLightf(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллигхтф** задает значение или значения отдельных параметров источника освещения. Параметр *Light* именует источник света, а — символическое имя формы \_ «GL»*i*, где 0 = <  « \_ максимальные \_ огни».
 
@@ -109,7 +109,7 @@ void WINAPI glLightf(
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ освещение GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -123,7 +123,7 @@ void WINAPI glLightf(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

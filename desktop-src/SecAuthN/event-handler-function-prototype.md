@@ -12,16 +12,16 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 935ddac5660c814b898be17218d879678f2135ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df6670e852ccd12fd2bed1d0c188aa0252c9b3afbcb899cf9480b7011d08625d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008232"
 ---
 # <a name="event-handler-function-prototype-callback-function"></a>Функция обратного вызова прототипа функции обработчика событий
 
-\[Функции прототипа обработчика событий больше не доступны для использования в Windows Server 2008 и Windows Vista. \]
+\[функции прототипа обработчика событий больше не доступны для использования в Windows Server 2008 и Windows Vista. \]
 
 Функции прототипа обработчика событий используются для всех функций, которые обрабатывают события уведомлений [*Winlogon*](/windows/desktop/SecGloss/w-gly) . Имя функции, представленное ниже *\_ \_ \_ имени функции обработчика событий* заполнителя, обычно отражает имя события, обрабатываемого функцией. Например, функция, обрабатывающая события входа в систему, может называться: **влевентлогон**.
 
@@ -51,7 +51,7 @@ void Event_Handler_Function_Name(
 
 Эта функция обратного вызова не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если обработчику событий необходимо создать дочерние процессы, он должен вызвать функцию [**параметр CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) . В противном случае новый процесс будет создан на рабочем столе Winlogon, а не на рабочем столе пользователя.
 
@@ -113,8 +113,8 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                       |
 

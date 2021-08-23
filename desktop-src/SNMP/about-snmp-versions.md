@@ -4,12 +4,12 @@ description: Исходная Стандартная инфраструктур�
 ms.assetid: 7de41e08-3cb3-454a-aa4e-140a35c99472
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2ff2ff4ff10fa07f3c4152eddd4eefab4876aee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce0ee8711f013e680ed3df804b95a3f998edfeeb5d66e458522740ead94b7f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009932"
 ---
 # <a name="about-snmp-versions"></a>О версиях SNMP
 
@@ -19,9 +19,9 @@ API-интерфейс WinSNMP поддерживает функции прот�
 
 Сущность управления может поддерживать другую версию протокола SNMP, чем та, которую поддерживает приложение WinSNMP. Реализация Microsoft WinSNMP выполняет соответствующие преобразования из SNMPv2C в соответствии с соответствующей RFC.
 
- 
+ 
 
- 
+ 
 
 
 

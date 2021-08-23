@@ -4,12 +4,12 @@ description: Функция Снмпжетвб получает сведения
 ms.assetid: 357aebd6-171a-4221-b12a-712702f9d9c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc8c1cbfa4eb0ec3acdc13e9c9cc480b88ddae8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f9c382e2780ae49a1f029aab2cfef2bcd4357fcfbf7b37ce9a1fcad9aed5bc0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009452"
 ---
 # <a name="managing-a-variable-binding-list"></a>Управление списком привязок переменных
 
@@ -23,9 +23,9 @@ ms.locfileid: "104067727"
 
 Вызов функции [**снмпсетпдудата**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata) связывает список привязок ПЕРЕМЕННЫХ с PDU. Вызов функции [**снмпжетпдудата**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmpgetpdudata) извлекает список привязок ПЕРЕМЕННЫХ из PDU. Отдельная привязка переменных напрямую не связана с PDU, но она косвенно связана путем его включения в список привязок переменных.
 
- 
+ 
 
- 
+ 
 
 
 

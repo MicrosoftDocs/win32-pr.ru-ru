@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 598f2cc02f1e3675ff0c8fd6eae7f9a5e02b9407
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f86b15defc32469dd1a4abd0f6366e1a93d4b83441b1e1518ff7ac999f30bd59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055812"
 ---
 # <a name="complexdatatype-complex-type"></a>Сложный тип Комплексдататипе
 
@@ -46,7 +46,7 @@ ms.locfileid: "105691898"
 
 | Элемент                                                  | Тип                                                      | Описание                                                                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**Данные**](eventschema-data-complexdatatype-element.md) | [**DataType**](eventschema-datafieldtype-complextype.md) | Список элементов данных в структуре. Список элементов находится в том же порядке, что и определено в шаблоне.<br/> |
+| [**Данные**](eventschema-data-complexdatatype-element.md) | [**Заданий**](eventschema-datafieldtype-complextype.md) | Список элементов данных в структуре. Список элементов находится в том же порядке, что и определено в шаблоне.<br/> |
 
 
 
@@ -60,18 +60,18 @@ ms.locfileid: "105691898"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**евтрендер**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) визуализирует содержимое структуры как двоичный BLOB-объект. функция не отображает отдельные элементы данных структуры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

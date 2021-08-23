@@ -103,7 +103,7 @@ public static void JetRenameColumn(
     
     Параметры переименования столбцов.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

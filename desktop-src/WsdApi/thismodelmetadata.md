@@ -4,12 +4,12 @@ ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: Сисмоделметадата, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 872bcdfcf3f93bfc8fe307684c31cdebb2000b05
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 01d074e7e9c8d43e078ebc477366d88608e7c4f3fade6c0be3dbc6fda23f006b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991554"
 ---
 # <a name="thismodelmetadata-element"></a>Сисмоделметадата, элемент
 
@@ -71,7 +71,7 @@ ms.locfileid: "107995341"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метаданные производителя соответствуют разделу метаданных производителя, описанному в профиле устройства (Дополнительные сведения см. в профиле устройства). Необходимо указать имя производителя или хотя бы одну локализованную версию имени производителя. Необходимо указать имя модели или хотя бы одну локализованную версию имени модели.
 
@@ -86,7 +86,7 @@ ms.locfileid: "107995341"
 | Метка | Значение |
 |-------------------------------------|---------------|
 | Минимальная поддерживаемая система<br/> | Windows Vista |
-| Может быть пустым                        | нет            |
+| Может быть пустым                        | Нет            |
 
 
 

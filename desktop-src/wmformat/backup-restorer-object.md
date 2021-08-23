@@ -3,19 +3,19 @@ title: Объект резервного хранилища архивации
 description: Объект резервного хранилища архивации
 ms.assetid: 83ce28c0-fd17-46ff-94c0-d28124a0e56a
 keywords:
-- Windows Media Format SDK, объекты резервного копирования
+- Windows Пакет SDK для формата мультимедиа, объекты резервного хранилища
 - Расширенный формат систем (ASF), объекты резервного копирования
 - ASF (Расширенный системный формат), объекты восстановления резервных копий
 - объекты, объекты резервного хранилища
 - Резервное хранилище архивации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d08e8bec9bb7bbc2a45fbf632e69d230a2536633
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8a7bf14f8afda284d8d0ae3d4f36d37fff0baa63f4f42802a98830038ec2d850
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105672249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028132"
 ---
 # <a name="backup-restorer-object"></a>Объект резервного хранилища архивации
 
@@ -35,7 +35,7 @@ ms.locfileid: "105672249"
 
 
 
- 
+ 
 
 Для использования объекта резервного хранилища в приложении должен быть реализован следующий интерфейс обратного вызова.
 
@@ -47,9 +47,9 @@ ms.locfileid: "105672249"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -59,9 +59,9 @@ ms.locfileid: "105672249"
 [**Объекты**](objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

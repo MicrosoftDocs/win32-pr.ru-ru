@@ -1,25 +1,25 @@
 ---
-title: Имена сообществ
+title: Community Фамили
 description: Имя сообщества определяет коллекцию диспетчеров и агентов SNMP.
 ms.assetid: 6e896765-ea9f-4fec-b39d-9b57aa02f2cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df4c1433b59722a8d52a44d2f354837bd3cc058
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ddabc0deb9a458ea68b0f7299e811d2bf78cede8b683ac1a6b083866331f484d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119009712"
 ---
-# <a name="community-names"></a>Имена сообществ
+# <a name="community-names"></a>Community Фамили
 
 Имя сообщества определяет коллекцию диспетчеров и агентов SNMP. Использование имени сообщества обеспечивает простые методы безопасности и проверки контекста для агентов и менеджеров, которые получают запросы и инициируют операции ловушек. Агент не принимает запрос от руководителя за пределами сообщества.
 
 Обратите внимание, что стандартные рекомендации по безопасности рекомендуются для использования протокола SNMP, за исключением доверенных сетей, так как протокол, по своей структуре, обеспечивает минимальную безопасность. Дополнительные сведения см. в разделе [Настройка безопасности SNMP](configuring-snmp-security.md).
 
- 
+ 
 
- 
+ 
 
 
 
