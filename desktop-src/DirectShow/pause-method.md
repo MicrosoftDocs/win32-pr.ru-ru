@@ -4,17 +4,17 @@ ms.assetid: 0938c5ed-9046-4f1a-877a-c99235fbfb36
 title: Приостановить метод
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3797f2d56f164a51a578cdf293bf7a5fc791ad97
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2578975fdeccda3975c964fe697dd1b0ad768632f056618574a159835e5d7eca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583894"
 ---
 # <a name="pause-method"></a>Приостановить метод
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ MSWebDVD.Pause()
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если воспроизведение уже приостановлено, этот метод не выполняет никаких действий.
 

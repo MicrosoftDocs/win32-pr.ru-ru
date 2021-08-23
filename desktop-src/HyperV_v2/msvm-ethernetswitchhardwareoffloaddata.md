@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b64762b824cea7d3b064636e7f7f87777e053daf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c729690bb2c8f59610fd1610e9123dfddf267152d1b428be308b5bd3ec23fe2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524553"
 ---
 # <a name="msvm_ethernetswitchhardwareoffloaddata-class"></a>\_Класс мсвм есернетсвитчхардвареоффлоаддата
 
@@ -89,13 +89,13 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчхардвареоффлоаддата** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -139,7 +139,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Текущий параметр ВММК для очереди по умолчанию
 
 > [!Note]  
-> Свойство добавлено в Windows 10 версии 1703.
+> свойство добавлено в Windows 10 версии 1703.
 
  
 
@@ -160,7 +160,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Текущее число очередей, выделенных для очереди по умолчанию
 
 > [!Note]  
-> Свойство добавлено в Windows 10 версии 1703.
+> свойство добавлено в Windows 10 версии 1703.
 
  
 
@@ -181,7 +181,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Текущая настройка VRss для очереди по умолчанию
 
 > [!Note]  
-> Свойство добавлено в Windows 10 версии 1703.
+> свойство добавлено в Windows 10 версии 1703.
 
  
 
@@ -202,7 +202,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Указывает, исключается ли основной ЦП VMQ из таблицы косвенных обращений VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -223,7 +223,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Указывает, следует ли всегда выполнять распространение VRSS для очереди по умолчанию независимо от состояния RSS внешней впорт.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -244,7 +244,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Указывает минимальное число очередей, используемых для VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -265,7 +265,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 Указывает, каким способом очереди VRSS/ВММК связаны с разными процессорами узла.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -409,7 +409,7 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -510,14 +510,14 @@ class Msvm_EthernetSwitchHardwareOffloadData : Msvm_EthernetSwitchData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ca78983594487fd22917c15a5b211c529b6b14d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1226f4096088d20851b0eab9789acf19cb84ecfac5202ff9e992c8c07ded4bb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493674"
 ---
 # <a name="glgettexparameteriv-function"></a>Функция Глжеттекспараметерив
 
@@ -96,13 +96,13 @@ void WINAPI glGetTexParameteriv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжеттекспараметер** возвращает в *params* значение или значения параметра текстуры, указанного как *pname*. *Целевой* параметр определяет целевую текстуру, либо \_ \_ 2D-текстура 1d, либо \_ двухмерная текстура GL \_ , чтобы указать одномерный или двухмерный текстурированный рисунок. Параметр *pname* принимает те же символы, что и [**глтекспараметер**](gltexparameter-functions.md), с одинаковыми интерпретациями.
 
 Если возникает ошибка, содержимое *параметров* не изменяется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -116,7 +116,7 @@ void WINAPI glGetTexParameteriv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,24 +1,24 @@
 ---
 description: Узнайте, как использовать API веб-служб Майкрософт на устройствах (WSD) для реализации устройств и служб, управляемых клиентом, а также для узлов устройств, которые соответствует DPWS.
 ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
-title: Разработка приложений WSD в Windows
+title: Разработка приложений WSD на Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 167cd1ad013ea387a6e33b6de449f3f84d49db13
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c3d02810f55cc7ae450323543d7a0ee88f055b247fed589057e7d77710f4f86d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639354"
 ---
-# <a name="wsd-application-development-on-windows"></a>Разработка приложений WSD в Windows
+# <a name="wsd-application-development-on-windows"></a>Разработка приложений WSD на Windows
 
 API веб-служб Майкрософт на устройствах (WSDAPI) поддерживает реализацию управляемых клиентом устройств и служб, а также узлы устройств, соответствующие [профилю устройств для веб-служб](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS). WSDAPI может использоваться для разработки как клиентских, так и серверных реализаций (устройств).
 
 Очень часто код WSDAPI для этих приложений создается с помощью [всдкодежен](web-services-for-devices-code-generator.md). Некоторые функции и методы WSDAPI предназначены для вызова только в созданном коде. Справочная документация по API указывает, когда следует использовать или реализовывать функцию или метод только в созданном коде.
 
-В Windows SDK содержатся примеры WSDL-файлов, файлы конфигурации Всдкодежен и созданный код. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
+в Windows SDK содержатся примеры WSDL-файлов, файлы конфигурации всдкодежен и созданный код. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
 
 Если требуется перечислить устройства с помощью протокола WSD и запросить метаданные устройства WSD, можно использовать API [обнаружения функций](/previous-versions/windows/desktop/fundisc/fd-portal) .
 
-Если вы хотите реализовать WSD-устройство, которое не работает под управлением Windows, см. раздел [Разработка устройств WSD](wsd-device-development.md).
+если вы хотите реализовать устройство wsd, которое не работает Windows, см. статью [разработка устройств wsd](wsd-device-development.md).

@@ -6,12 +6,12 @@ keywords:
 - снб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d6860204d9f232c2ffafa4f1f16a1187fee8de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e49a7868912b9d7d1e3d9f3b1f82805e6e285d815eacbc559c887febd23e9e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682784"
 ---
 # <a name="snb"></a>снб
 
@@ -33,7 +33,7 @@ typedef OLESTR** SNB;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **СНБ** должен быть создан путем выделения непрерывного блока памяти, в котором указатели на строки следуют **пустому** указателю, за которым следуют фактические строки.
 
@@ -45,9 +45,9 @@ typedef OLESTR** SNB;
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Обжидл. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Обжидл. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Обжидл. idl</dt> </dl> |
 
 

@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e279b24178c33c760477995ff744a0699cea1aaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fef4ef759b406facb5fbbb12d37eceb55a914d46c63a2485982f60fa151ccdaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524044"
 ---
 # <a name="msvm_ethernetswitchportmigrationqossettingdata-class"></a>\_Класс мсвм есернетсвитчпортмигратионкоссеттингдата
 
@@ -61,7 +61,7 @@ class Msvm_EthernetSwitchPortMigrationQosSettingData : Msvm_EthernetSwitchPortFe
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортмигратионкоссеттингдата** имеет следующие свойства.
 
@@ -243,13 +243,13 @@ class Msvm_EthernetSwitchPortMigrationQosSettingData : Msvm_EthernetSwitchPortFe
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -257,7 +257,7 @@ class Msvm_EthernetSwitchPortMigrationQosSettingData : Msvm_EthernetSwitchPortFe
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

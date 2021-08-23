@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 678d6fc6838b615faeec9fa36b736b3105b64453
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ebc99724eb419e831e65f402299aa1603be07ab2ab5a88e0ba9b056492514865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511514"
 ---
 # <a name="itssbclientconnectiondomain-property"></a>Итссбклиентконнектион: свойство омаин:D
 
@@ -46,7 +46,7 @@ HRESULT get_Domain(
 
 Указатель на переменную **BSTR** , содержащую доменное имя клиента RDC. После завершения использования строки освободите ее, вызвав функцию [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,7 +58,7 @@ HRESULT get_Domain(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

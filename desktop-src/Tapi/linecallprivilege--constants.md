@@ -4,12 +4,12 @@ ms.assetid: a58b7e9e-696e-4421-9b31-1ba8afe6e03b
 title: Константы LINECALLPRIVILEGE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2569ec255d2da3ad384292eb87afaa285f54b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c00dd43442345c545bb5e0b1718131b6815fd236f9c7d770c0f3b47b10b47a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660054"
 ---
 # <a name="linecallprivilege_-constants"></a>\_Константы линекаллпривилеже
 
@@ -47,20 +47,20 @@ ms.locfileid: "105679905"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 При первом запуске обработчика вызова для приложения или при каждом изменении привилегий вызова этого приложения в приложение отправляется сообщение [**Line \_ каллстате**](line-callstate.md) . Когда приложение передает вызов, и если у принимающего приложения еще нет маркера с правами владельца, это сообщение информирует приложение о новых привилегиях на вызов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

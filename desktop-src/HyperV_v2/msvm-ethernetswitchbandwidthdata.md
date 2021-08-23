@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d238b8ddc40506a3eae8a6c7c089de2ebd87db5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 422efc93de56c520f0929ca9d7f0b53a5911bcc553f529e2efeb8fbc70d8cf3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524654"
 ---
 # <a name="msvm_ethernetswitchbandwidthdata-class"></a>\_Класс мсвм есернетсвитчбандвидсдата
 
@@ -67,7 +67,7 @@ class Msvm_EthernetSwitchBandwidthData : Msvm_EthernetSwitchData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчбандвидсдата** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class Msvm_EthernetSwitchBandwidthData : Msvm_EthernetSwitchData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -208,7 +208,7 @@ class Msvm_EthernetSwitchBandwidthData : Msvm_EthernetSwitchData
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -272,14 +272,14 @@ class Msvm_EthernetSwitchBandwidthData : Msvm_EthernetSwitchData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

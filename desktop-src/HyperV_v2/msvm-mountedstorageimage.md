@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1b6f00b137fc73bcf8f79d39e6f7bfb5a6d7c944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad8f4d8542c7478dffbc87463f9bfe1ff4c2dc31fcc0ecc3bce2d293caa3a8b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103817889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521194"
 ---
 # <a name="msvm_mountedstorageimage-class"></a>\_Класс мсвм маунтедсторажеимаже
 
@@ -133,7 +133,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -142,7 +142,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда содержит "образ подключенного хранилища".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда содержит "подключенный служба хранилища образ".
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда содержит "образ подключенного хранилища".
+Отображаемое имя объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда содержит "подключенный служба хранилища образ".
 
 </dd> <dt>
 
@@ -256,7 +256,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -322,7 +322,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 
 Путь к устройству PNP.
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -426,25 +426,25 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ маунтедсторажеимаже мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -454,7 +454,7 @@ class Msvm_MountedStorageImage : CIM_LogicalElement
 [**\_ЛОГИКАЛЕЛЕМЕНТ CIM**](/windows/desktop/CIMWin32Prov/cim-logicalelement)
 </dt> <dt>
 
-[Классы хранения](storage-classes.md)
+[служба хранилища Класса](storage-classes.md)
 </dt> </dl>
 
  

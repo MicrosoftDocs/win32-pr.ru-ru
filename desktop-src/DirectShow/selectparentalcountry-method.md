@@ -4,17 +4,17 @@ ms.assetid: 70368351-c7b9-4640-a4f7-7d972b8e4628
 title: Метод Селектпаренталкаунтри
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2216d2b2ed72436aca003b42cbf811c8a01bd8fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d148145f2c38cdb01da209e02f6400301da851e1d2b41e5adaf84b2338ad21c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684064"
 ---
 # <a name="selectparentalcountry-method"></a>Метод Селектпаренталкаунтри
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -53,11 +53,11 @@ MSWebDVD.SelectParentalCountry(iCountry, sUserName, sPassword)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Родительский регион определяет, как обрабатываются родительские уровни.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

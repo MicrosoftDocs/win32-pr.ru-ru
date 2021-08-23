@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 205dc1ac05f5dca44297f8d80653ad51b7518d38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7958df7d153db0abafd8e463f22a181f2e5a639afa5c21cb7529a9cd5c005c5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119511701"
 ---
 # <a name="islspreventupgradegpenabled-method-of-the-win32_tslicenseserver-class"></a>Метод Ислспревентупградегпенаблед \_ класса Win32 тслиценсесервер
 
@@ -54,7 +54,7 @@ uint32 IsLSPreventUpgradeGPEnabled(
 
 Если метод завершается с ошибкой, он возвращает ноль. Если метод завершился неудачно, он возвращает ненулевое значение. Список кодов ошибок см. в разделе [службы удаленных рабочих столов коды ошибок поставщика WMI](terminal-services-wmi-provider-error-codes.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для вызова этого метода необходимо быть членом группы администраторов.
 
@@ -62,11 +62,11 @@ uint32 IsLSPreventUpgradeGPEnabled(
 
 Параметр политики находится в следующем узле редактора локальных групповых политик:
 
-Конфигурация компьютера \\ Административные шаблоны \\ компоненты Windows \\ \\ Лицензирование служб терминалов
+конфигурация компьютера \\ административные шаблоны \\ Windows компоненты \\ \\ лицензирование служб терминалов
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ uint32 IsLSPreventUpgradeGPEnabled(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 704df318e10521bd56e62632af16e683b7baccfc
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: f1722cbe4a956ef16a1b7195158b695f551419ad600c64f552e92700d3e4ee57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104558409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657103"
 ---
 # <a name="message-windows-web-services"></a>Сообщение (веб-службы Windows)
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ef88168836d1e4a5f81efae81533036dc2b29045
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f0214c3572553d948c4cec2cf4cc55936e2030dd8da3912ffbcf5b22f8f1dd2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582214"
 ---
 # <a name="startservice-method-of-the-msvm_transparentbridgingservice-class"></a>Метод StartService \_ класса мсвм транспарентбридгингсервице
 
@@ -49,7 +49,7 @@ uint32 StartService();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

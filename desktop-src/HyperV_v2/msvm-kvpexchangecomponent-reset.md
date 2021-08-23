@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7cf5707c5fe04bba62edd3dec79573d6f6c8ad45
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d4ddd61b3ca8332e413c8b2c04006ffb600a27c4bc9fb7568f9f6433ed214a21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522164"
 ---
 # <a name="reset-method-of-the-msvm_kvpexchangecomponent-class"></a>Метод Reset \_ класса мсвм квпексчанжекомпонент
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: aaf5286ca6cf7b61b0027b176d9a9261bd0beaa8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 43602019018a9751453eb93f4ffb9b1c29eada6caf120a6721522982c3355dfc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105704016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609324"
 ---
 # <a name="id3dx10threadpumpaddworkitem-method"></a>Метод ID3DX10ThreadPump:: Аддворкитем
 
@@ -85,18 +85,18 @@ HRESULT AddWorkItem(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

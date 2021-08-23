@@ -4,12 +4,12 @@ description: Когда следует использовать глобальн
 ms.assetid: def8f7f8-9d0d-49a4-9d5c-40233903eea5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89bbd7437b65c85abe89e8d647cbd73555c2d6a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 37457e0e1b35c0c1acb2c8f84750f3d0f08c1344eaf27e0361c442aea3be23ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639234"
 ---
 # <a name="when-to-use-the-global-interface-table"></a>Когда следует использовать глобальную таблицу интерфейса
 
@@ -18,7 +18,7 @@ ms.locfileid: "104070665"
 > [!Note]  
 > Если указатель интерфейса выполняется только один раз, может потребоваться использовать функцию [**комаршалинтерсреадинтерфацеинстреам**](/windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream) . Он также может использоваться для передачи указателя интерфейса из одного потока в другой поток в том же процессе.
 
- 
+ 
 
 Интерфейс [**иглобалинтерфацетабле**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable) также упрощает для программиста еще и более простую задачу. Эта проблема возникает при выполнении следующих условий.
 
@@ -29,13 +29,13 @@ ms.locfileid: "104070665"
 
 Чтобы решить эту проблему, внешний объект, который выполняет статистическую обработку свободных потоков, должен вызвать [**иглобалинтерфацетабле:: регистеринтерфацеинглобал**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal) во внутреннем интерфейсе и сохранить полученный файл cookie в его переменной-члене вместо того, чтобы хранить фактический указатель интерфейса. Когда внешний объект хочет вызвать указатель интерфейса внутреннего объекта, он должен вызвать [**иглобалинтерфацетабле:: жетинтерфацефромглобал**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal), использовать возвращаемый указатель интерфейса, а затем освободить его. Когда внешний объект исчезает, он должен вызвать метод [**иглобалинтерфацетабле:: ревокеинтерфацефромглобал**](/windows/win32/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal) , чтобы удалить интерфейс из глобальной таблицы интерфейса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание глобальной таблицы интерфейса](creating-the-global-interface-table.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

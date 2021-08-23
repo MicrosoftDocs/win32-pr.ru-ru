@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20bb1121a8f125f06bf8e6e18f56c96fbeeb692d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: efaca73e4d9c7f4637f00f74e9cf58b8291fc3d266ef93d288acfe989f8a45c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104552791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519774"
 ---
 # <a name="gltexgeni-function"></a>Функция Глтексжени
 
@@ -81,7 +81,7 @@ void WINAPI glTexGeni(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глтексжен** выбирает функцию создания координат текстуры или предоставляет коэффициенты для одной из функций. Параметр *курд* называет один из координат текстуры (s, t, r, q) и должен быть одним из следующих символов: GL \_ s, GL \_ t, GL \_ r или GL \_ q. Параметр *pname* должен быть одной из трех символьных констант: \_ \_ режим генерации текстуры GL, план \_ \_ объектов GL \_ или плоскость "GL" \_ \_ . Если *pname* имеет \_ режим Gen текстура GL \_ \_ , *параметр param* задает режим, одну из \_ \_ линейных объектных шкал, \_ \_ линейного взгляда в ГК или карту- \_ сферу GL \_ . Если *pname* является либо плоскостью \_ объектной \_ плоскости \_ \_ , либо плоскостью в главной области, *параметр param* содержит коэффициенты для соответствующей функции формирования текстуры.
 
@@ -128,7 +128,7 @@ void WINAPI glTexGeni(
 [**глисенаблед**](glisenabled.md) с аргументом GL \_ текстура \_ Gen \_ Q  
 </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -142,7 +142,7 @@ void WINAPI glTexGeni(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

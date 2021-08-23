@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9f1acae94ea29d2d57b2952c0b0adc267ad3066c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a7788c894646b3ebb07fc9d3d98aeeda54b9172b5dde01e7eb65975bb2d95d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547414"
 ---
 # <a name="create-method-of-the-win32_scheduledjob-class"></a>Метод Create \_ класса Win32 ScheduledJob
 
@@ -567,11 +567,11 @@ uint32 Create(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если запланированное задание запускает интерактивную программу, например Блокнот, то свойство **интерактвисдескто** должно иметь значение **true** или экран программы не отображается. Процесс по-прежнему отображается в **диспетчере задач** , даже если он не отображается на экране.
+если запланированное задание запускает интерактивную программу, например Блокнот, свойство **интерактвисдескто** должно иметь значение **True** или экран программы не отображается. Процесс по-прежнему отображается в **диспетчере задач** , даже если он не отображается на экране.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -585,7 +585,7 @@ uint32 Create(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

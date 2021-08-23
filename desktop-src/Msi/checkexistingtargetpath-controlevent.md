@@ -4,12 +4,12 @@ ms.assetid: 4672e2e4-a789-4050-81b9-92ec491745ac
 title: Чеккексистингтаржетпас таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1117de57c5474d196da1f40da6fda3cce60b8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d523d04eba4ede88ca1382c17c5d40d48dadadbc9520d766b5cfca2b26b77fb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520194"
 ---
 # <a name="checkexistingtargetpath-controlevent"></a>Чеккексистингтаржетпас таблице ControlEvent событие
 

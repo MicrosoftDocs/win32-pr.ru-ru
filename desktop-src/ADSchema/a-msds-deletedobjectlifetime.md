@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a59b2a6c635df3c150e7673abb41f135937bc8c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c6850c6dbc68ad30c6a26b6522d438fc1334d8c16f44afed96fa296b5dea4263
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552684"
 ---
 # <a name="ms-ds-deleted-object-lifetime-attribute"></a>MS-DS-Deleted-Object-атрибут времени существования
 
@@ -43,7 +43,7 @@ ms.locfileid: "103989704"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,10 +53,10 @@ ms.locfileid: "103989704"
 |------------------------|--------------------------------------------------|
 | Идентификатор ссылки                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
-| Индексируется             | Неверно                                            |
-| В глобальном каталоге      | Неверно                                            |
+| System-Only            | Нет                                            |
+| Является однозначным       | Верно                                             |
+| Индексируется             | Нет                                            |
+| В глобальном каталоге      | Нет                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |
@@ -74,10 +74,10 @@ ms.locfileid: "103989704"
 |------------------------|--------------------------------------------------|
 | Идентификатор ссылки                | \-                                               |
 | MAPI-Id                | \-                                               |
-| System-Only            | Неверно                                            |
-| Является однозначным       | True                                             |
-| Индексируется             | Неверно                                            |
-| В глобальном каталоге      | Неверно                                            |
+| System-Only            | Нет                                            |
+| Является однозначным       | Верно                                             |
+| Индексируется             | Нет                                            |
+| В глобальном каталоге      | Нет                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                     |
 | Range-Lower            | \-                                               |
 | Range-Upper            | \-                                               |

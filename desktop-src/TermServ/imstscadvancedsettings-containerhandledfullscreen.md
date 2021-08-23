@@ -59,19 +59,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a7442ce16e2ff30ca2d9b3bd529d37382d1df41
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 975581aaca4aad2511396e8ec426a7bf2a4720ff54202d42fbe932c0c2e9464d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513124"
 ---
 # <a name="imstscadvancedsettingscontainerhandledfullscreen-property"></a>Свойство Имстскадванцедсеттингс:: Контаинерхандледфуллскрин
 
 Указывает, включен ли полноэкранный режим, обрабатываемый контейнером.
 
 > [!Note]  
-> Значение свойства **контаинерхандледфуллскрин** не действует, если элемент управления ActiveX удаленный рабочий стол является надежным для сценариев, и при попытке изменить значение возвращается **\_ false** .
+> значение свойства **контаинерхандледфуллскрин** не действует, если элемент управления ActiveX удаленный рабочий стол является надежным для создания скриптов, и при попытке изменить значение возвращается **\_ FALSE** .
 
  
 
@@ -100,7 +100,7 @@ HRESULT get_ContainerHandledFullScreen(
 
 При успешном выполнении возвращает значение **\_ ОК** . Возвращает **\_ значение false** , если не поддерживается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот режим включен, текущий контейнер обрабатывает переключение в полноэкранный режим и из него. Этот метод следует использовать, только если текущему контейнеру требуется обширный контроль над режимом полноэкранного режима. Если это свойство задано, элемент управления не вводит или не оставляет полноэкранный режим в ответ на сочетание клавиш в полноэкранном режиме (CTRL + ALT + BREAK); Вместо этого вызываются события [**имстскаксевентс:: онрекуестгофуллскрин**](imstscaxevents-onrequestgofullscreen.md) и [**Имстскаксевентс:: онрекуестлеавефуллскрин**](imstscaxevents-onrequestleavefullscreen.md) . Дополнительные сведения об этих событиях см. в разделе [**имстскаксевентс**](imstscaxevents-interface.md) .
 
@@ -108,7 +108,7 @@ HRESULT get_ContainerHandledFullScreen(
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -122,7 +122,7 @@ HRESULT get_ContainerHandledFullScreen(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

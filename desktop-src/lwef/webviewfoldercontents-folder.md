@@ -3,9 +3,9 @@ title: Свойство WebViewFolderContents.Folder (Shldisp.h)
 description: Свойство Вебвиевфолдерконтентс. Folder — получает объект Folder, представляющий представление.
 ms.assetid: 1d81c27a-1e48-4c0a-b74d-c63af43a909d
 keywords:
-- Свойства папки устаревшие возможности среды Windows
-- Свойство папки устаревшие компоненты среды Windows, объект Вебвиевфолдерконтентс
-- Объекты Вебвиевфолдерконтентс устаревшие компоненты среды Windows, свойство Folder
+- свойства папки устаревшие Windows функции среды
+- свойства папки устаревшие Windows компоненты среды, объект вебвиевфолдерконтентс
+- функции среды Windows для устаревших объектов вебвиевфолдерконтентс, свойство Folder
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e88fd7a54971fa088bdddbc78d3d8df4af610875
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af475d55351d9278ca954a9ebb896ef03928538b9984a2f87478ed3358a1741e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607844"
 ---
 # <a name="webviewfoldercontentsfolder-property"></a>Вебвиевфолдерконтентс. Folder, свойство
 
@@ -44,7 +44,7 @@ Folder = WebViewFolderContents.Folder
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого свойства в JScript Embedded в HTML.
+в следующем примере показано правильное использование этого свойства в JScript, внедренном в HTML.
 
 
 ```HTML
@@ -78,13 +78,13 @@ Folder = WebViewFolderContents.Folder
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

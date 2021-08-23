@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e80d81ed984e0ac96aba1793458b5577173c7e7c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0d84112f3bd5efe86de609eb55fd163d68b471aeb78bc9670f8a07112f35f644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552854"
 ---
 # <a name="ms-dns-signing-keys-attribute"></a>атрибут MS-DNS-Sign-Keys
 
@@ -52,10 +52,10 @@ ms.locfileid: "104494058"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | Неверно                                    |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет                                    |
+| Является однозначным       | Нет                                    |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | \-                                       |
 | Range-Upper            | \-                                       |

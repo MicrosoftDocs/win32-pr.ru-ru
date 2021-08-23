@@ -4,12 +4,12 @@ ms.assetid: 06b0e2d7-9539-41ad-a631-7e8da556feeb
 title: Установка и получение расположения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776a32eb6193ef456d693b5a133c87d800a0b64e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe7951ce12fe498a4f230ab3d1ac84796621e04ed025010678f1c43a39d88eb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683694"
 ---
 # <a name="setting-and-retrieving-the-position"></a>Установка и получение расположения
 
@@ -37,7 +37,7 @@ hr = pSeek->SetPositions(
 
 
 > [!Note]  
-> Одна секунда — 10 000 000 единиц времени ссылки. Для удобства в примере это значение определяется как одна \_ секунда. При использовании библиотеки базового класса DirectShow константные единицы имеют одинаковое значение.
+> Одна секунда — 10 000 000 единиц времени ссылки. Для удобства в примере это значение определяется как одна \_ секунда. если используется DirectShow библиотека базовых классов, то константные единицы имеют одинаковое значение.
 
  
 

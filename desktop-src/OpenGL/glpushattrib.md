@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0bc15b85ddca3bdbe5f6774b5368c6f0cde8dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 252859065ddae0439441acb6afd797d26bbed44a246b628b4f0350d7f3b1e2d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519994"
 ---
 # <a name="glpushattrib-function"></a>Функция Глпушаттриб
 
@@ -40,7 +40,7 @@ void WINAPI glPushAttrib(
 
 <dl> <dt>
 
-*виде* 
+*mask* 
 </dt> <dd>
 
 Маска, указывающая, какие атрибуты следует сохранить. Константы символьной маски и связанные с ними состояния OpenGL имеют следующие значения (список абзацев с отступом, какие атрибуты сохраняются):
@@ -434,7 +434,7 @@ GL \_ MAP2 \_ x включает биты, где x — это тип Map
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глпушаттриб** принимает один аргумент — маску, указывающую, какие группы переменных состояния следует сохранять в стеке атрибутов. Символьные константы используются для установки битов в маске. Параметр маски обычно создается путем применения логической операции **or** к некоторым из этих констант. \_ \_ \_ Чтобы сохранить все состояния с накоплением, можно использовать специальную маску GL для всех attrib.
 
@@ -454,7 +454,7 @@ GL \_ MAP2 \_ x включает биты, где x — это тип Map
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ " \_ Максимальная \_ глубина стека \_ "
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -468,7 +468,7 @@ GL \_ MAP2 \_ x включает биты, где x — это тип Map
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

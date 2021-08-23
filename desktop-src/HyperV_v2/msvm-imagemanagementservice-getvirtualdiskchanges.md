@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 55a9cb9a63e05e002f99984a306566c50d9e1d7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b96c5b4d2bbdff78b6f9f2bc9a1e7547742a553564e0f81547b8d998f86f14f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522564"
 ---
 # <a name="getvirtualdiskchanges-method-of-the-msvm_imagemanagementservice-class"></a>Метод Жетвиртуалдискчанжес \_ класса) мсвм
 
@@ -158,13 +158,13 @@ uint32 GetVirtualDiskChanges(
 **Файл не найден** (32779)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -172,7 +172,7 @@ uint32 GetVirtualDiskChanges(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

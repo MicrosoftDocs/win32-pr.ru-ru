@@ -1,28 +1,28 @@
 - name: Сенсорный ввод
   href: windows-touch-portal.md
   items:
-    - name: О программе Windows Touch
+    - name: о Windows касании
       href: about-the-multi-touch-sdk.md
     - name: Руководство по программированию
       href: programming-guide.md
       items:
         - name: Основные сведения об архитектуре
           href: architectural-overview.md
-        - name: Выбор правильного подхода к Windows Touch
+        - name: выбор правильного подхода к Windows касанию
           href: choosing-the-right-approach-to-windows-touch.md
         - name: Устранение неполадок приложений
           href: troubleshooting-applications.md
-        - name: Сенсорный ввод Windows
+        - name: Windows Сенсорный ввод
           href: guide-multi-touch-input.md
           items:
-            - name: начало работы с сообщениями касания Windows
+            - name: начало работы с сообщениями Windows Touch
               href: getting-started-with-multi-touch-messages.md
             - name: Обнаружение и отслеживание нескольких точек касания
               href: detecting-and-tracking-multiple-touch-points.md
-        - name: Сенсорные жесты Windows
+        - name: Windows Сенсорные жесты
           href: guide-multi-touch-gestures.md
           items:
-            - name: Общие сведения о сенсорных жестах Windows
+            - name: Windows Общие сведения о сенсорных жестах
               href: windows-touch-gestures-overview.md
             - name: начало работы с помощью сенсорных жестов Windows
               href: getting-started-with-multi-touch-gestures.md
@@ -58,26 +58,26 @@
                   href: inertia-mechanics.md
                 - name: Обработка инерции в неуправляемом коде
                   href: handling-inertia-in-unmanaged-code.md
-    - name: Примеры Windows Touch
+    - name: Windows Примеры сенсорного ввода
       href: windows-touch-samples.md
       items:
         - name: Пример манипуляции и инерции
           href: manipulation-and-inertia-sample.md
-        - name: Пример сенсорного жеста Windows (Мтжестурес)
+        - name: Windows Пример сенсорного жеста (Мтжестурес)
           href: windows-touch-gesture-sample--mtgestures-.md
-        - name: Жесты касания Windows в C# — пример (Мтжестурескс)
+        - name: Windows Сенсорные жесты в C# — пример (Мтжестурескс)
           href: windows-touch-gestures-in-c--sample--mtgesturescs-.md
-        - name: Пример управления касанием Windows (Мтманипулатион)
+        - name: Windows Пример сенсорного управления (Мтманипулатион)
           href: windows-touch-manipulation-sample--mtmanipulation-.md
-        - name: Пример с сенсорным блокнотом Windows (C++)
+        - name: Windows Пример сенсорного блокнота (C++)
           href: windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md
-        - name: Пример сенсорного ввода Windows (C#)
+        - name: Windows Пример сенсорного блокнота (C#)
           href: windows-touch-scratchpad-sample-in-c---mtscratchpadwmtouchcs-.md
-        - name: Блокнот для сенсорного ввода Windows с помощью примера пера в режиме реального времени (C++)
+        - name: Windows Сенсорный Блокнот — пример использования пера в режиме реального времени (C++)
           href: windows-touch-scratchpad-using-the-real-time-stylus-sample--mtscratchpadrtstylus-.md
-        - name: Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
+        - name: Windows Сенсорный Блокнот с помощью примера Real-Timeного пера (C#)
           href: windows-touch-scratchpad-using-the-real-time-stylus-in-c--sample--mtscratchpadrtstyluscs-.md
-    - name: Справочник по программированию касания Windows
+    - name: Windows Справочник по программированию Touch
       href: windows-touch-programming-reference.md
       items:
         - name: Отзыв о границе
@@ -221,13 +221,13 @@
               items:
                 - name: MANIPULATION_PROCESSOR_MANIPULATIONS
                   href: /windows/desktop/api/manipulations/ne-manipulations-manipulation_processor_manipulations
-        - name: Сенсорные жесты Windows
+        - name: Windows Сенсорные жесты
           href: multi-touch-gestures.md
           items:
             - name: Константы
               href: constants.md
               items:
-                - name: Сенсорные жесты Windows
+                - name: Windows Сенсорные жесты
                   href: windows-touch-gestures-constants.md
             - name: Функции
               href: mtgfunctions.md
@@ -265,7 +265,7 @@
                   href: /windows/win32/api/winuser/ns-winuser-gestureinfo
                 - name: жестуренотифиструкт
                   href: /windows/win32/api/winuser/ns-winuser-gesturenotifystruct
-        - name: Сенсорный ввод Windows
+        - name: Windows Сенсорный ввод
           href: multi-touch-input.md
           items:
             - name: Макросы
@@ -298,5 +298,5 @@
               items:
                 - name: таучинпут
                   href: /windows/win32/api/winuser/ns-winuser-touchinput
-    - name: Глоссарий Windows Touch
+    - name: Windows Глоссарий касаний
       href: glossary.md

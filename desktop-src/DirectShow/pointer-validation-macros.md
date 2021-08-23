@@ -4,12 +4,12 @@ ms.assetid: 53b080ba-d8cf-48a3-a895-2c14d54f7e21
 title: Макросы проверки указателя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dadf5fd2df1e4f7568d899ff93d4a401404830f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2fc53a48e8981c46fc0e1a75a06ed855a03322a06feed6765810ef4377d4fbe2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119583634"
 ---
 # <a name="pointer-validation-macros"></a>Макросы проверки указателя
 

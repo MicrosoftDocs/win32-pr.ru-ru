@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ee7fa33f142e47b9493e53aa5bc4779623d6ef40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed353e0d9c4d3049e120b00a11bc3d1bf85e3a0b42e52deb4ed277b9bde9b96b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523302"
 ---
 # <a name="msvm_guestclusterinformation-class"></a>\_Класс мсвм гуестклустеринформатион
 
@@ -59,7 +59,7 @@ class Msvm_GuestClusterInformation
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ гуестклустеринформатион** имеет следующие свойства.
 
@@ -167,7 +167,7 @@ class Msvm_GuestClusterInformation
 Число тактов часов при последнем перемещении одного из ресурсов общего диска.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
+> это свойство было добавлено в Windows 10, версии 1703 и Windows Server 2016.
 
  
 
@@ -205,13 +205,13 @@ class Msvm_GuestClusterInformation
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

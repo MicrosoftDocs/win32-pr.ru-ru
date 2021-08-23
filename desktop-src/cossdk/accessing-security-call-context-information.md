@@ -4,12 +4,12 @@ ms.assetid: 9fc0a9e5-934c-4510-8fbb-1fb2817aa0ea
 title: Доступ к сведениям о контексте вызова безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6d7e5160c766783b6d43822571d624e0a595c9e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 38e438ce3cfa137ece28bce70d2c820becede231b1b0381da38dd7c6bcc21cb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119639124"
 ---
 # <a name="accessing-security-call-context-information"></a>Доступ к сведениям о контексте вызова безопасности
 
@@ -20,7 +20,7 @@ ms.locfileid: "104262701"
 -   [Коллекция Секуритикаллконтекст](#securitycallcontext-collection)
 -   [Коллекция Секуритикаллерс](#securitycallers-collection)
 -   [Коллекция Секуритидентити](#securityidentity-collection)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="securitycallcontext-collection"></a>Коллекция Секуритикаллконтекст
 
@@ -38,13 +38,13 @@ ms.locfileid: "104262701"
 
  
 
-Дополнительные сведения о том, как использовать эту коллекцию, разработчики Microsoft Visual Basic должны видеть класс [**секуритикаллконтекст**](securitycallcontext.md) . Разработчики C и C++ должны ссылаться на [**исекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
+дополнительные сведения о том, как использовать эту коллекцию, разработчики Microsoft Visual Basic должны видеть класс [**секуритикаллконтекст**](securitycallcontext.md) . Разработчики C и C++ должны ссылаться на [**исекуритикаллконтекст**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
 
 ## <a name="securitycallers-collection"></a>Коллекция Секуритикаллерс
 
 Коллекция [**секуритикаллерс**](securitycallers.md) представляет вызывающие объекты, которые могут быть извлечены с помощью индекса от 0 до 1 меньше нумкаллерс включительно. Каждый вызывающий объект представлен объектом [**секуритидентити**](securityidentity.md) .
 
-Для получения дополнительных сведений об этой коллекции Visual Basic разработчики должны увидеть класс [**секуритикаллерс**](securitycallers.md) . Разработчики C и C++ должны ссылаться на [**исекуритикаллерсколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll).
+для получения дополнительных сведений об этой коллекции Visual Basic разработчики должны увидеть класс [**секуритикаллерс**](securitycallers.md) . Разработчики C и C++ должны ссылаться на [**исекуритикаллерсколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll).
 
 ## <a name="securityidentity-collection"></a>Коллекция Секуритидентити
 
@@ -62,9 +62,9 @@ ms.locfileid: "104262701"
 
  
 
-Для получения дополнительных сведений об этой коллекции Visual Basic разработчики должны увидеть класс [**секуритидентити**](securityidentity.md) . Разработчики C и C++ должны ссылаться на [**исекуритидентитиколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll).
+для получения дополнительных сведений об этой коллекции Visual Basic разработчики должны увидеть класс [**секуритидентити**](securityidentity.md) . Разработчики C и C++ должны ссылаться на [**исекуритидентитиколл**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

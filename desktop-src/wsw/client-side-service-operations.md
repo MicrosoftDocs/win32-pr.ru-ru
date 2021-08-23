@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cd00bfbd832db12a722363bf5b1af8f7298345
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e73ccbb0c742d0be09570b0959c9c1a663d7f4d0f054cc88070d842ac6d954ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657304"
 ---
 # <a name="client-side-service-operations"></a>Операции службы на стороне клиента
 
@@ -72,7 +72,7 @@ if(FAILED(hr))
 Приложение всегда должно передавать параметр ошибки в:
 
 -   Получение обширных сведений об ошибках в случае сбоя во время вызова операции службы.
--   Возвращает объект сбоя, если служба вернула ошибку. Ошибка содержится в объекте Error. В этом случае значение **HRESULT** , возвращенное операцией службы, — **это \_ \_ Ошибка конечной \_ точки \_ WS E** (см. [возвращаемые значения веб-служб Windows](windows-web-services-return-values.md)).
+-   Возвращает объект сбоя, если служба вернула ошибку. Ошибка содержится в объекте Error. в этом случае значение **HRESULT** , возвращенное операцией службы, — **это \_ \_ ошибка конечной \_ точки \_ WS E** (см. [Windows возвращаемые значения веб-служб](windows-web-services-return-values.md)).
 
 ### <a name="call-properties-for-client-side-service-operations"></a>Вызов свойств для операций службы на стороне клиента
 
@@ -125,7 +125,7 @@ hr = WsAbandonCall(serviceProxy, 5, error);
 -   **Служба WS \_ \_Операция E \_ прервана**: Вызов прерван. Объект Error содержит причину прерывания.
 -   **Служба WS \_ E \_ Недопустимая \_ Операция**: прокси-сервер службы не находится в надлежащем состоянии для выполнения вызова, проверьте состояние прокси-сервера службы, чтобы выяснить состояние прокси-сервера службы.
 
-Полный список возвращаемых значений см. в статье [возвращаемые значения веб-служб Windows](windows-web-services-return-values.md).
+полный список возвращаемых значений см. в разделе [Windows возвращаемые значения веб-служб](windows-web-services-return-values.md).
 
 ### <a name="code-examples"></a>Примеры кода
 

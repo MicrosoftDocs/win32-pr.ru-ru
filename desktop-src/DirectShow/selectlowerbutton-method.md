@@ -4,17 +4,17 @@ ms.assetid: d815f7f1-9e11-40a5-99e5-23eb478c33a1
 title: Метод Селектловербуттон (Segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd254438436641cc0367e4d85f8f17e77e3bb96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89d932cfd4ca87c17674e9bf27799989c5a8d2ee64b106d32fcd25dba0973a4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119684094"
 ---
 # <a name="selectlowerbutton-method"></a>Метод Селектловербуттон
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,17 +28,17 @@ MSWebDVD.SelectLowerButton()
 
 Нет возвращаемого значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,12 +3,12 @@ title: Автоматически создаваемые координаты т
 description: Система может использовать преобразованное расположение камеры или нормали от вершины в качестве координат текстуры или вычислить три вектора элементов, используемых для адресации схемы кубической среды.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b01addbe354fb910ef68e1fc693e7dfffb1ceacf
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 7aa4354002c920f73667f97de9a4185579a8c4c7b4563aebf1f3328753c88d01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608014"
 ---
 # <a name="auto-generated-texture-coordinates-direct3d-9"></a>Автоматически создаваемые координаты текстуры (Direct3D 9)
 

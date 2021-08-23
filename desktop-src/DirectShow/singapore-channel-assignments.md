@@ -4,12 +4,12 @@ ms.assetid: 77d4f4fc-76ec-4996-8f25-05ad8840d49f
 title: Сингапур. назначения каналов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf7ae41242244ace47cc457950eedd0c82a0f5a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe915305fd5aaaace3599cafae6281774f4bf35c501bb587fe82e8d9752fd556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683594"
 ---
 # <a name="singapore-channel-assignments"></a>Сингапур. назначения каналов
 
@@ -17,11 +17,11 @@ ms.locfileid: "103805831"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 -   [Широковещательные назначения](#broadcast-assignments)
 -   [Назначения кабелей](#cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="broadcast-assignments"></a>Широковещательные назначения
 
@@ -179,7 +179,7 @@ ms.locfileid: "103805831"
        855250000L,      // 69 TV69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2d3499bb161495152b6de4b8aebd7c64d041d069
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d4f349e6c250c05a0eb1690ae091f7c787d2d100bc5dca0a1250292fab3d5a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521734"
 ---
 # <a name="msvm_managementcollection-class"></a>\_Класс мсвм манажементколлектион
 
@@ -45,7 +45,7 @@ class Msvm_ManagementCollection : CIM_CollectionOfMSEs
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ манажементколлектион** имеет следующие свойства.
 
@@ -83,13 +83,13 @@ class Msvm_ManagementCollection : CIM_CollectionOfMSEs
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -97,7 +97,7 @@ class Msvm_ManagementCollection : CIM_CollectionOfMSEs
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
