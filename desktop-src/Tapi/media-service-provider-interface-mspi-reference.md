@@ -4,12 +4,12 @@ ms.assetid: e67d4941-ce0f-48b9-8099-b62659ad33e0
 title: Справочник по интерфейсу поставщика службы мультимедиа (МСПИ)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a30b961fff4d8a9e50fb35573633cc2dc06e370c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b94ce02312a7c94a7bc2b805a6c73c263546d9cb3f21bbe795d92a91b1010a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404754"
 ---
 # <a name="media-service-provider-interface-mspi-reference"></a>Справочник по интерфейсу поставщика службы мультимедиа (МСПИ)
 
@@ -23,9 +23,9 @@ ms.locfileid: "105684764"
 | [**итстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itstream)                     | Предоставляется приложениям. Предоставляет методы, позволяющие приложению получать сведения о потоке, запускать, приостанавливать или останавливать его, а также выбирать или отменять выбор терминалов в потоке. | Да       |
 | [**итстреамконтрол**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol)       | Предоставляется приложениям. Предоставляет методы, позволяющие приложению создавать или удалять потоки.                                                                                       | Да       |
 | [**иенумстреам**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumstream)               | Предоставляется приложениям. Интерфейс перечислителя для [**итстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itstream).                                                                                                        | Да       |
-| [**итсубстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)               | Предоставляется приложениям. Предоставляет методы, позволяющие приложению получать сведения о подпотоке, запускать, приостанавливать и останавливать их, а также выбирать или отменять выбор терминалов.          | Необязательно  |
-| [**итсубстреамконтрол**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstreamcontrol) | Предоставляется приложениям. Предоставляет методы, позволяющие приложению создавать или удалять подпотоки.                                                                                    | Необязательно  |
-| [**иенумсубстреам**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumsubstream)         | Предоставляется приложениям. Интерфейс перечислителя для [**итсубстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream).                                                                                                  | Необязательно  |
+| [**итсубстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)               | Предоставляется приложениям. Предоставляет методы, позволяющие приложению получать сведения о подпотоке, запускать, приостанавливать и останавливать их, а также выбирать или отменять выбор терминалов.          | Необязательный  |
+| [**итсубстреамконтрол**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstreamcontrol) | Предоставляется приложениям. Предоставляет методы, позволяющие приложению создавать или удалять подпотоки.                                                                                    | Необязательный  |
+| [**иенумсубстреам**](/windows/desktop/api/tapi3if/nn-tapi3if-ienumsubstream)         | Предоставляется приложениям. Интерфейс перечислителя для [**итсубстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream).                                                                                                  | Необязательный  |
 | [**иттерминал**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)                 | Предоставляется приложениям. Возвращает сведения об [объекте терминала](terminal-object.md), такие как вызов терминала и поддержка носителя.                                                    | Да       |
 | [**иттерминалсуппорт**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport)   | Предоставляется приложениям. Предоставляет методы для запроса к доступным терминалам и создания дополнительных терминалов.                                                                             | Да       |
 | [**ITTerminalSupport2**](/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2) | Предоставляется приложениям. Извлекает сведения о подключаемых классах терминала и классах. является производным от интерфейса [**иттерминалсуппорт**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport) .           | Да       |
@@ -41,7 +41,7 @@ ms.locfileid: "105684764"
 -   [**\_событие MSP**](/windows/win32/api/msp/ne-msp-msp_event)
 -   [**\_сведения о событии MSP \_**](/windows/win32/api/msp/ns-msp-msp_event_info)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

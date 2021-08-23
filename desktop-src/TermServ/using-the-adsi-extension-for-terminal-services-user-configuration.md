@@ -7,12 +7,12 @@ keywords:
 - службы удаленных рабочих столов службы удаленных рабочих столов с помощью расширения ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f115fecf1cce5c518e93206402f76e077109611
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe63a725531c21b64ed0ac10abdeb4f710465532ab95f7c416c88f6142f1d55e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119423694"
 ---
 # <a name="using-the-adsi-extension-for-remote-desktop-services-user-configuration"></a>Использование расширения ADSI для службы удаленных рабочих столов пользовательской конфигурации
 
@@ -31,6 +31,6 @@ ms.locfileid: "103987815"
 
 Дополнительные сведения об использовании соглашений об именовании ADSI и AdsPath-строк см. в разделе сведения об отдельных [поставщиках служб ADSI](/windows/desktop/ADSI/adsi-system-providers) в документации по службам [Active Directory Service Interfaces](/windows/desktop/ADSI/active-directory-service-interfaces-adsi) Software Development Kit (SDK).
 
- 
+ 
 
- 
+ 

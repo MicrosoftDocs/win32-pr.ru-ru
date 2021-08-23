@@ -1,6 +1,6 @@
 ---
 title: жетформатпроп
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | жетформатпроп
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | жетформатпроп
 ms.assetid: b0ff85f2-6819-4047-aba7-b9375df7b87a
 keywords:
 - Формат Windows Media Жетформатпроп
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b78d7d56ebc4cfd96855ff6c99f0dae036dae917
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e2213420b62158db7fbf98658f7c124999dc7f929dab04ff6e569096af8ad656
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119591134"
 ---
 # <a name="getformatprop"></a>жетформатпроп
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

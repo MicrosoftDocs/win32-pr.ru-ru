@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 05b9e076041d0cd2298799970670478e9d358d32
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35c4001851cc12701152f983c51a800d8f1846e015f5cf4d967c6371d9807578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571364"
 ---
 # <a name="rtlgetunloadeventtraceex-function"></a>Функция Ртлжетунлоадевенттрацеекс
 
@@ -66,7 +66,7 @@ VOID WINAPI RtlGetUnloadEventTraceEx(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Загрузчик хранит выгруженные сведения о событиях в расположениях, которые могут быть прочитаны между процессами, используя преимущества того факта, что Ntdll.dll загружается по одному и тому же базовому адресу во всех процессах. Если отладчику требуется запросить выгруженную информацию о модулях, он вызывает эту функцию для определения адреса, в котором находятся переменные, а затем запрашивает виртуальную память в целевом процессе по этим адресам для чтения фактических значений.
 
@@ -83,9 +83,9 @@ typedef struct _RTL_UNLOAD_EVENT_TRACE {
 } RTL_UNLOAD_EVENT_TRACE, *PRTL_UNLOAD_EVENT_TRACE;
 ```
 
-Эта функция не имеет связанного файла заголовка. Связанная библиотека импорта, NTDLL. lib, доступна в комплекте драйверов Windows (WDK). Эту функцию также можно вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
+Эта функция не имеет связанного файла заголовка. связанная библиотека импорта, Ntdll. lib, доступна в наборе драйверов Windows (WDK). Эту функцию также можно вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

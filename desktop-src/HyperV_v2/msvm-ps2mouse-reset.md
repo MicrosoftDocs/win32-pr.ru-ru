@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f875d5b5fe7e5be0f5cac31e87ac2a0007a7a256
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5b05d2999296186445f624c8f69fd72a0924a56b4e88f5edd38b1c6fd959469c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119536094"
 ---
 # <a name="reset-method-of-the-msvm_ps2mouse-class"></a>Метод Reset \_ класса мсвм Ps2Mouse
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

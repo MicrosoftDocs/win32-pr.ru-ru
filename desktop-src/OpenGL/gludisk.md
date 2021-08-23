@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a9e8b547790049c93360f060e944aafcea4511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83abb24f665cbcbf978a6423868751794371606cf412f609876a8f17d42c115a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489534"
 ---
 # <a name="gludisk-function"></a>Функция Глудиск
 
@@ -83,7 +83,7 @@ void WINAPI gluDisk(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глудиск** визуализирует диск на плоскости *z* = 0. Диск имеет радиус *аутеррадиус* и содержит концентрические циклическое отверстие с радиусом *иннеррадиус*. Если *иннеррадиус* имеет значение 0, отверстие не создается. Диск разделяется вокруг оси z на срезы (например, срезы пиццы), а также о оси z в кольцах (как указано *срезами* и *циклами* соответственно).
 
@@ -91,7 +91,7 @@ void WINAPI gluDisk(
 
 Если текстурирование включено (с [**глукуадриктекстуре**](gluquadrictexture.md)), координаты текстуры создаются линейно, так, где *r*  =  *аутеррадиус*, значение в (*r*, 0, 0) равно (1, 0,5); в (0, *r*, 0) оно равно (0,5, 1); в (-*r*, 0, 0) он равен (0, 0,5), а в (0,-*r*, 0) — (0,5, 0).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,7 +105,7 @@ void WINAPI gluDisk(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

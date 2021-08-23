@@ -3,7 +3,7 @@ title: Сообщение TCM_DELETEALLITEMS (Коммктрл. h)
 description: Удаляет все элементы из элемента управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл делетеаллитемс.
 ms.assetid: 733494c4-38f4-44ba-98d2-c33a8d63c3b7
 keywords:
-- Элементы управления Windows для TCM_DELETEALLITEMS сообщений
+- элементы управления Windows сообщений TCM_DELETEALLITEMS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b73a91cd6ec3b5472b6e7da2127f8224062cfbbc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a67a8e2fdf1137b51a1baf0097be3a555f404d13851a0e58fe301d3eafd5c64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434154"
 ---
 # <a name="tcm_deleteallitems-message"></a>\_Сообщение ДЕЛЕТЕАЛЛИТЕМС TCM
 
@@ -45,9 +45,9 @@ ms.locfileid: "104535123"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

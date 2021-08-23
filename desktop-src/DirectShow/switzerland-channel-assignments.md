@@ -4,12 +4,12 @@ ms.assetid: 67f7b6f0-9dd5-49de-b29c-e2a7343aaf73
 title: Назначение Швейцарии Channel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 103a43c8e2ddf0e084f31dbfac1bb126988317ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5005d1194e835882abe82d2024d28b60f134f2061bd8210b15362274dffe4c6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072348"
 ---
 # <a name="switzerland-channel-assignments"></a>Назначение Швейцарии Channel
 
@@ -17,7 +17,7 @@ ms.locfileid: "105674317"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 ## <a name="cable-assignments"></a>Назначения кабелей
 
@@ -173,7 +173,7 @@ ms.locfileid: "105674317"
        855250000L,      // 146 TV146
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

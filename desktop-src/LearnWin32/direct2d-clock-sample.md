@@ -4,12 +4,12 @@ description: В этом примере приложения показано, �
 ms.assetid: 7A4B0985-977A-4AB2-B8AF-0586C8533F08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cf8e346502cf826fff9053e29dc9d9749e529a6
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: 8101dc6ed56b3dc38afa4072aee13bc811874653f002cc607f1cc67c57bed2d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104068672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119146425"
 ---
 # <a name="direct2d-clock-sample"></a>Пример Direct2D Clock
 
@@ -25,22 +25,22 @@ ms.locfileid: "104068672"
 
 Этот пример доступен [здесь](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/Direct2DClock).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
+[сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
 </dt> <dt>
 
 [Применение преобразований в Direct2D](applying-transforms-in-direct2d.md)
 </dt> <dt>
 
-[Модуль 3. графика Windows](module-3---windows-graphics.md)
+[модуль 3. Windows графика](module-3---windows-graphics.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

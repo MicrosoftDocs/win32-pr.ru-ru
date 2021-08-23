@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f2d8ddf4c6ffdbd016db1e8c08d89f2dd6476ccf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5711a951167c0bbd3cc086ad409fdc265b8883191071ed541955252a908a3c34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323194"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-cim_directory-class"></a>Метод Чанжесекуритипермиссионсекс \_ класса каталога CIM
 
@@ -70,7 +70,7 @@ uint32 ChangeSecurityPermissionsEx(
 
 `Option = 1 + 4`
 
-или
+или диспетчер конфигурации служб
 
 `Option = CHANGE_OWNER_SECURITY_INFORMATION | CHANGE_DACL_SECURITY_INFORMATION`
 
@@ -264,7 +264,7 @@ uint32 ChangeSecurityPermissionsEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

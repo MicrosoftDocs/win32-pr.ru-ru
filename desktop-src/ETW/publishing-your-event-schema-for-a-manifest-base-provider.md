@@ -4,12 +4,12 @@ ms.assetid: 37d1a504-ecc7-4df3-bf31-546debb62123
 title: Публикация схемы событий для поставщика на основе манифеста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4c100dd041d5bd454d8ec64d40fcc9a953d8fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d2ffd6d991e90ea19d20e78d3d18faff3d24c158d285834b23838b10e78239
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069834"
 ---
 # <a name="publishing-your-event-schema-for-a-manifest-based-provider"></a>Публикация схемы событий для поставщика на основе манифеста
 

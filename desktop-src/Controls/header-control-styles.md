@@ -22,12 +22,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8450ad39cdb965e3e4be15f0093ec4737a87c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe76446196c565796388a5bcd402e9fb3a071e1b14626d7ead949ab9eb0e3b61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435104"
 ---
 # <a name="header-control-styles"></a>Стили элемента управления "заголовок"
 
@@ -64,7 +64,7 @@ ms.locfileid: "105648631"
 <td style="text-align: left;"><a href="common-control-versions.md">Версия 6,0 и более поздние версии</a>. Приводит к тому, что элемент управления "заголовок" отображается плоским, когда операционная система работает в классическом режиме. <br/>
 <blockquote>
 [!Note]<br />
-Версия Comctl32.dll 6 не является распространяемой, но включена в Windows. Чтобы использовать Comctl32.dll версии 6, укажите ее в манифесте. Дополнительные сведения о манифестах см. в разделе <a href="cookbook-overview.md">Включение визуальных стилей</a>.
+Comctl32.dll версии 6 не является распространяемой, но включена в Windows. Чтобы использовать Comctl32.dll версии 6, укажите ее в манифесте. Дополнительные сведения о манифестах см. в разделе <a href="cookbook-overview.md">Включение визуальных стилей</a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -101,17 +101,17 @@ ms.locfileid: "105648631"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы извлечь и изменить стили после создания элемента управления, используйте функции [**жетвиндовлонг**](/windows/desktop/api/winuser/nf-winuser-getwindowlonga) и [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 493952e25080d4a64e018477ca1b45033c8747af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9987095c8c2a1e9b9abbb54eb66816277428e2296c98395d36340297cc541bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119070194"
 ---
 # <a name="hwconfig_cpu-class"></a>\_Класс ЦП хвконфиг
 
@@ -46,13 +46,13 @@ class HWConfig_CPU : HWConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ ЦП хвконфиг** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ ЦП хвконфиг** имеет следующие свойства.
 
@@ -154,18 +154,18 @@ PageSize
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,23 +4,23 @@ ms.assetid: 40354d8f-1e8b-48aa-888a-81a421568f23
 title: Множественные ограничения поставщика для Select
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2556d98aea60e6fa822f9e3df57cc142c33491d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ec5c89c6dd2db809a356f5b53212fd019e32fd9e348c298bcab7f567ee2d0fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569634"
 ---
 # <a name="multiple-provider-restrictions-on-select"></a>Множественные ограничения поставщика для Select
 
 Функция [**SELECT**](/windows/desktop/api/Winsock2/nf-winsock2-select) используется для определения состояния одного или нескольких сокетов в наборе. Для каждого сокета вызывающая сторона может запросить сведения о состоянии чтения, записи или ошибки. Набор сокетов указывается структурой [**\_ набора**](/windows/desktop/api/winsock/nf-winsock-fd_set) элементов.
 
-Сокеты Windows 2 позволяют приложению использовать более одного поставщика служб, но функция [**SELECT**](/windows/desktop/api/Winsock2/nf-winsock2-select) ограничена набором сокетов, связанных с одним поставщиком услуг. Это не позволяет приложению разграничить несколько сокетов, открытых с помощью нескольких поставщиков.
+Windows Сокеты 2 позволяют приложению использовать более одного поставщика услуг, но функция [**SELECT**](/windows/desktop/api/Winsock2/nf-winsock2-select) ограничена набором сокетов, связанных с одним поставщиком услуг. Это не позволяет приложению разграничить несколько сокетов, открытых с помощью нескольких поставщиков.
 
 Существует два способа определить состояние набора сокетов, охватывающих несколько поставщиков услуг:
 
 -   Использование функций [**всаваитформултипливентс**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) или [**всаевентселект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect) при использовании семантики блокировки.
--   Использование функции [**всаасинкселект**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect) , когда используются неблокирующие операции и приложение уже использует конвейер сообщений Windows.
+-   использование функции [**всаасинкселект**](/windows/desktop/api/winsock/nf-winsock-wsaasyncselect) , когда используются неблокирующие операции и приложение уже использует конвейер сообщений Windows.
 
 Если приложению требуется использовать семантику блокировки на наборе сокетов, охватывающих несколько поставщиков, рекомендуется [**всаваитформултипливентс**](/windows/desktop/api/Winsock2/nf-winsock2-wsawaitformultipleevents) . Приложение также может использовать функцию [**всаевентселект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect) , которая позволяет \_ событиям перекрытия сети (см. [**всаевентселект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaeventselect)) связываться с объектом события и обрабатываться из парадигмы объекта события (описывается в перекрывающихся операциях [ввода-вывода и объектах событий](overlapped-i-o-and-event-objects-2.md)).
 

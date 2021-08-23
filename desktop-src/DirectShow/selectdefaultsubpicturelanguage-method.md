@@ -4,17 +4,17 @@ ms.assetid: e83980d1-c7cd-4755-9a27-3b0c2548009e
 title: Метод Селектдефаултсубпиктурелангуаже
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9d7dd4d66ae9d0580bf863ede9fff1e51d373e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3aaa6b927d33626299258ac54136e1a67b0dedb40427a35d9c79465be3e9a15d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072588"
 ---
 # <a name="selectdefaultsubpicturelanguage-method"></a>Метод Селектдефаултсубпиктурелангуаже
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -66,7 +66,7 @@ MSWebDVD.SelectDefaultSubpictureLanguage(iLang,iExt)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расширение языка субтитров предоставляет дополнительные сведения о подизображении.
 

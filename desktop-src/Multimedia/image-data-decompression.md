@@ -8,12 +8,12 @@ keywords:
 - Функции Икдекомпрессекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25614f157436056f7f24c340f6cc6f4dbc62d9ae
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5006a019fd3fcf24a08f620186af8eb09d9516e103722395ed96722b48696cb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119495604"
 ---
 # <a name="image-data-decompression"></a>Распаковка Image-Data
 
@@ -50,13 +50,13 @@ ms.locfileid: "104337121"
 
 После распаковки данных приложение может отправить сообщение [**ICM \_ \_ декомпрессекс**](icm-decompressex-end.md) (или использовать макрос [**икдекомпрессексенд**](/windows/desktop/api/Vfw/nf-vfw-icdecompressexend) ), чтобы уведомить о завершении декомпрессора. Если вы хотите перезапустить распаковку после использования этой функции, приложение должно повторно инициализировать декомпрессор с помощью [**икдекомпрессексбегин**](/windows/desktop/api/Vfw/nf-vfw-icdecompressexbegin).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [ВКМ Services](vcm-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

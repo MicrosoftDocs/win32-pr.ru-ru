@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78197c0f79c6bbe21ae4eb883620b95e6f0bd4c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d3e9575995d80a4c61b5e91be7c5cfc1c802abed892af8cfa653f62c66e602b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430974"
 ---
 # <a name="n-switch"></a>параметр/n
 
@@ -38,7 +38,7 @@ mdmerge /n namespace_depth
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены возможные форматы значений, которые можно указать с помощью параметра **/n** .
 
@@ -47,7 +47,7 @@ mdmerge /n namespace_depth
 | Формат значения                   | Описание                                                                     |
 |--------------------------------|---------------------------------------------------------------------------------|
 | Int32 > 0                   | Сформируйте все типы на глубине пространства имен, указанной в параметре.               |
-| -1                             | Составьте все типы в один IDL-файл на пространство имен.                              |
+| –1                             | Составьте все типы в один IDL-файл на пространство имен.                              |
 | <namespace>: Int32 > 0 | Составьте все типы с совпадающим пространством имен на глубине, указанной в параметре. |
 | <namespace>:-1           | Составьте все типы с совпадающим пространством имен в один файл для каждого пространства имен.          |
 
@@ -58,18 +58,18 @@ mdmerge /n namespace_depth
 В следующей таблице показаны результаты различных сочетаний ключа **/n** , работающих над этими пространствами имен.
 
 -   Windows. Foundation. Collections. Иитерабле
--   Windows. UI. Директуи. Controls. Button
--   Windows. UI. Директуи. Controls. ListView
--   Windows. UI. иммерсивное. Application. Плайто. Target
+-   Windows. Интерфейса. Директуи. Controls. Button
+-   Windows. Интерфейса. Директуи. Controls. ListView
+-   Windows. Интерфейса. Иммерсивное. Application. Плайто. Target
 -   Windows. Web. синдикации. RSS
 
 
 
-| коммутаторы;                         | Результат                                                                                                                                                                                                                                                       | Объяснение                                                                                                                                                                                                                                                                                                                        |
+| Параметры                         | Результат                                                                                                                                                                                                                                                       | Объяснение                                                                                                                                                                                                                                                                                                                        |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **/n:-1**  / **n:1**               | Windows.winmd                                                                                                                                                                                                                                                | Последний параметр/n переопределяет все предыдущие параметры – n.                                                                                                                                                                                                                                                                           |
-| **/n:-1/n: Windows. UI: 2**         | <dl> Windows <dt>. Foundation. winmd</dt> Windows. <dt>UI. winmd</dt> , <dt>Windows. Web.</dt> WinMD </dl> | <dl> <dt>**Windows. Foundation** всегда состоит из – n:2.</dt> <dt>Типы **Windows. UI** сгруппированы.</dt> <dt>**Windows. Web. синдикации** состоит из n:-1.</dt> </dl>       |
-| **/n: 1/n: Windows. UI. Директуи: 3** | <dl> Windows <dt>. Foundation. winmd</dt> <dt>Windows. UI. директуи. winmd</dt> <dt>Windows. winmd</dt> </dl>       | <dl> <dt>**Windows. Foundation** всегда состоит из – n:2.</dt> <dt>**Windows. UI. директуи** состоит на уровне 3.</dt> <dt>Все остальные типы состоят на уровне 1.</dt> </dl> |
+| **/n:-1/n: Windows. ПОЛЬЗОВАТЕЛЬСКИЙ ИНТЕРФЕЙС: 2**         | <dl> <dt>Windows. Windows Foundation. winmd</dt> <dt>. Windows UI. winmd</dt> <dt>. Web. синдикации. winmd</dt> </dl> | <dl> <dt>**Windows. Foundation** всегда состоит из – n:2.</dt> <dt>**Windows. Типы пользовательского интерфейса** сгруппированы.</dt> <dt>**Windows. Web. синдикации** состоит по адресу n:-1.</dt> </dl>       |
+| **/n: 1/n: Windows. Интерфейса. Директуи: 3** | <dl> <dt>Windows. Windows Foundation. winmd</dt> <dt>. Интерфейса. директуи. winmd</dt> <dt>Windows. winmd</dt> </dl>       | <dl> <dt>**Windows. Foundation** всегда состоит из – n:2.</dt> <dt>**Windows. Интерфейса. Директуи** состоит на уровне 3.</dt> <dt>Все остальные типы состоят на уровне 1.</dt> </dl> |
 
 
 
@@ -83,9 +83,9 @@ mdmerge /n namespace_depth
 
 ## <a name="examples"></a>Примеры
 
-**mdmerge.exe-Metadata \_ dir $ ( \_ путь метаданных пакета SDK \_ )-i $ ( \_ внутренний \_ путь метаданных SDK \_ )-o $ ( \_ путь к obj-файлу) \\ $O \\ SystemMetadata-v-n:-1-н:Виндовс.фаундатион: 2**
+**mdmerge.exe-Metadata \_ dir $ ( \_ путь метаданных пакета SDK \_ )-i $ ( \_ внутренний \_ путь метаданных SDK \_ )-o $ ( \_ путь к obj) \\ $O \\ SystemMetadata-v-n:-1-n: Windows. База: 2**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

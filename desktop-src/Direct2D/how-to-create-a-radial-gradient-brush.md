@@ -5,12 +5,12 @@ ms.assetid: 663743c9-16e9-4e3a-90b2-883ef0b8d5cf
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: fe3509a80f80132f4a5e5d65f62476be1cac61d1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1932dc6506c625332d61f4e549ae2dd169060731bfbea344f64c3aa826540ae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569273"
 ---
 # <a name="how-to-create-a-radial-gradient-brush"></a>Создание кисти радиального градиента
 
@@ -55,9 +55,9 @@ ms.locfileid: "104260924"
 3.  Используйте метод [**ID2D1RenderTarget:: креатеградиентстопколлектион**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)) , чтобы создать коллекцию [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) из ранее объявленного массива структур [**\_ ограничителей D2D1 \_ градиента**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) . Затем используйте [**креатерадиалградиентбруш**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)) для создания кисти радиального градиента.
 
     > [!Note]  
-    > Начиная с Windows 8, можно использовать метод [**ID2D1DeviceContext:: креатеградиентстопколлектион**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) для создания коллекции [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) вместо метода [**ID2D1RenderTarget:: креатеградиентстопколлектион**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)) . Этот интерфейс добавляет градиенты высокого цвета и интерполяцию градиентов в виде прямых или прмултиплиед цветов. Дополнительные сведения см. на странице **ID2DDeviceContext:: креатеградиентстопколлектион** .
+    > начиная с Windows 8 можно использовать метод [**ID2D1DeviceContext:: креатеградиентстопколлектион**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) для создания коллекции [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) вместо метода [**ID2D1RenderTarget:: креатеградиентстопколлектион**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)) . Этот интерфейс добавляет градиенты высокого цвета и интерполяцию градиентов в виде прямых или прмултиплиед цветов. Дополнительные сведения см. на странице **ID2DDeviceContext:: креатеградиентстопколлектион** .
 
-     
+     
 
     ```C++
     // The center of the gradient is in the center of the box.
@@ -85,13 +85,13 @@ ms.locfileid: "104260924"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

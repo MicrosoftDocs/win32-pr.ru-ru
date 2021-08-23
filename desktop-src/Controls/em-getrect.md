@@ -3,7 +3,7 @@ title: Сообщение EM_GETRECT (Winuser. h)
 description: Возвращает прямоугольник форматирования элемента управления "поле ввода".
 ms.assetid: eef0150d-9b7a-4247-acbf-6fea2efd1dc3
 keywords:
-- Элементы управления Windows для EM_GETRECT сообщений
+- элементы управления Windows сообщений EM_GETRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8192fd4c3aa7fbe953a36217f6b1408f055d8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1d4ad7dbab40a8d294d814e3524b54c5b11206c91608e9293bdf88df2a63f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541044"
 ---
 # <a name="em_getrect-message"></a>\_Сообщение EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "103892058"
 
 Возвращаемое значение не имеет смысла.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно изменить прямоугольник форматирования в многострочном элементе управления Edit с помощью сообщений [**EM \_ SETRECT**](em-setrect.md) и [**EM \_ сетректнп**](em-setrectnp.md) .
 
@@ -55,19 +55,19 @@ ms.locfileid: "103892058"
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 1,0 и более поздних версиях. Прямоугольник форматирования не включает панель выбора, которая является непомеченной областью слева от каждого абзаца. При щелчке на панели выбора линия выделяется. Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

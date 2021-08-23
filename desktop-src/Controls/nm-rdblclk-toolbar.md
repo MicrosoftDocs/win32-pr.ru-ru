@@ -3,7 +3,7 @@ title: Код уведомления NM_RDBLCLK (Toolbar) (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления, что пользователь дважды щелкнул правой кнопкой мыши внутри элемента управления. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0281a687-3f1c-4fc1-bf1d-19c7ac920cd3
 keywords:
-- Элементы управления Windows для кода уведомления NM_RDBLCLK (панель инструментов)
+- элементы управления Windows кода уведомления NM_RDBLCLK (toolbar)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dec2129b6400c60bd59e441ff8af2083e781ba22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14d81fadafa6faa0a4375d9aa34e98bb22a0099f9d0cdabcdbe1a385317e5df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391534"
 ---
 # <a name="nm_rdblclk-toolbar-notification-code"></a>\_Код уведомления "NM рдблклк (панель инструментов)"
 
@@ -49,14 +49,14 @@ NM_RDBLCLK
 
 Возвращает **значение false** , чтобы разрешить элементу управления ToolBar выполнять обработку события по умолчанию, или **значение true** , чтобы предотвратить обработку события элементом управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

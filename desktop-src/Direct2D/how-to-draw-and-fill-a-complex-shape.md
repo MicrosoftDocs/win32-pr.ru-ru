@@ -4,12 +4,12 @@ description: Direct2D предоставляет интерфейс ID2D1PathGeo
 ms.assetid: d7aad487-04e0-448d-bedf-b8dfadc7bbe9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a163e85d76a65f6b807ad1e4a9c9f740a32bf1
-ms.sourcegitcommit: 4859402a45b9928c3e1354ded06b1d6a682a0be9
+ms.openlocfilehash: e222d3d94eb1f9e944a1c5113baf938a7c3da6e86751a7be748798ace12a9611
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105937673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119569213"
 ---
 # <a name="how-to-draw-and-fill-a-complex-shape"></a>Рисование и заливка сложной фигуры
 

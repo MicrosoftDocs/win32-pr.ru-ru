@@ -4,12 +4,12 @@ ms.assetid: 966de0cc-63de-4430-843f-668de2dfe0a6
 title: Запрос учетных данных для пользователя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8adb315837d86a9f1dda4075b8d89db33f0dd22e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc9b9941be168a307e35b3575f4d12241dc624553686a61b232f2c5ba86e9c0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480494"
 ---
 # <a name="asking-the-user-for-credentials"></a>Запрос учетных данных для пользователя
 
@@ -71,7 +71,7 @@ if(!dwErr)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

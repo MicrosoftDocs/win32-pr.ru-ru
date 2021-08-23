@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 248b6811b0260914550399bb979a02b2b6133a22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d1e148ab60221ac50f8966045137ff806b10daa6473eb66c82129b80605a220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119041692"
 ---
 # <a name="esentcolumntoobigexception-constructor"></a>Конструктор Есентколумнтубижексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentColumnTooBigException()
 public EsentColumnTooBigException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

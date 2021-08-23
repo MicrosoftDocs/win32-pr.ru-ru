@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2bab178d64008b236988bfb723bd75a09a7edaa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b065d7b1d7a5f5f21aa0120b58d4ca2dc9177d0a48f6b2389365ee37811883c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119394424"
 ---
 # <a name="ivmvirtualpccreatedifferencingvirtualharddisk-method"></a>Метод Ивмвиртуалпк:: КреатедифференЦингвиртуалхарддиск
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Создает разностный виртуальный жесткий диск.
 
@@ -95,7 +95,7 @@ HRESULT CreateDifferencingVirtualHardDisk(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя либо *imagePath* , либо *парентпас* могут быть относительным путем, по крайней мере один из них должен быть абсолютным путем. Если один параметр пути является относительным, предполагается, что он является относительным по отношению к другому параметру пути.
 
@@ -105,7 +105,7 @@ HRESULT CreateDifferencingVirtualHardDisk(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |

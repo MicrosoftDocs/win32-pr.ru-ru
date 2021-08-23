@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce78a804c52ed492bd4b2a42332f8eda36b4c3be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f7391362938502f0c307faab4d7b9166633647b093e5154b3aa56512c6ee4e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620244"
 ---
 # <a name="systempropertiestype-complex-type"></a>Сложный тип Системпропертиестипе
 
@@ -195,20 +195,20 @@ ms.locfileid: "103803191"
 
 | Элемент                                                                         | Тип                                                        | Описание                                                                                                                                                                                                                                                                                                                                  |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Канал**](eventschema-channel-systempropertiestype-element.md)             | anyURI                                                      | Канал, в который было записано событие.<br/>                                                                                                                                                                                                                                                                                        |
+| [**Channel**](eventschema-channel-systempropertiestype-element.md)             | anyURI                                                      | Канал, в который было записано событие.<br/>                                                                                                                                                                                                                                                                                        |
 | [**Компьютер**](eventschema-computer-systempropertiestype-element.md)           | строка                                                      | имя компьютера, на котором произошло событие.<br/>                                                                                                                                                                                                                                                                             |
 | [**Связей**](eventschema-correlation-systempropertiestype-element.md)     |                                                             | Идентификаторы действий, которые потребители могут использовать для группирования связанных событий.<br/>                                                                                                                                                                                                                                                 |
-| [**EventID**](eventschema-eventid-systempropertiestype-element.md)             |                                                             | Идентификатор, используемый поставщиком для идентификации события.<br/>                                                                                                                                                                                                                                                                      |
+| [**1008**](eventschema-eventid-systempropertiestype-element.md)             |                                                             | Идентификатор, используемый поставщиком для идентификации события.<br/>                                                                                                                                                                                                                                                                      |
 | [**евентрекордид**](eventschema-eventrecordid-systempropertiestype-element.md) |                                                             | Номер записи, назначенный событию при регистрации.<br/>                                                                                                                                                                                                                                                                       |
-| [**Выполнение**](eventschema-execution-systempropertiestype-element.md)         |                                                             | Содержит сведения о процессе и потоке, которые зарегистрировали событие.<br/>                                                                                                                                                                                                                                                          |
-| [**Keywords**](eventschema-keywords-systempropertiestype-element.md)           | [**HexInt64Type**](eventschema-hexint64type-simpletype.md) | Битовая маска ключевых слов, определенных в событии. Ключевые слова используются для классификации типов событий (например, событий, связанных с чтением данных).<br/>                                                                                                                                                                                 |
-| [**Уровню**](eventschema-level-systempropertiestype-element.md)                 | unsignedByte                                                | Уровень серьезности, определенный в событии.<br/>                                                                                                                                                                                                                                                                                          |
+| [**InstancePersistenceCommand**](eventschema-execution-systempropertiestype-element.md)         |                                                             | Содержит сведения о процессе и потоке, которые зарегистрировали событие.<br/>                                                                                                                                                                                                                                                          |
+| [**Словами**](eventschema-keywords-systempropertiestype-element.md)           | [**HexInt64Type**](eventschema-hexint64type-simpletype.md) | Битовая маска ключевых слов, определенных в событии. Ключевые слова используются для классификации типов событий (например, событий, связанных с чтением данных).<br/>                                                                                                                                                                                 |
+| [**Уровень**](eventschema-level-systempropertiestype-element.md)                 | unsignedByte                                                | Уровень серьезности, определенный в событии.<br/>                                                                                                                                                                                                                                                                                          |
 | [**Код операции**](eventschema-opcode-systempropertiestype-element.md)               | unsignedByte                                                | Код операции, определенный в событии. Задача и код операции — это типЦиалли, используемые для определения расположения в приложении, из которого было зарегистрировано событие.<br/>                                                                                                                                                                                  |
 | [**Поставщик**](eventschema-provider-systempropertiestype-element.md)           |                                                             | Определяет поставщика, который зарегистрировал событие. Атрибуты **Name** и **GUID** включаются, если поставщик использовал манифест инструментирования для определения его событий. в противном случае атрибут **евентсаурценаме** включается, если устаревший поставщик событий (с помощью API [ведения журнала событий](/windows/desktop/EventLog/event-logging) ) зарегистрировал событие.<br/> |
 | [**Безопасность**](eventschema-security-systempropertiestype-element.md)           |                                                             | Указывает пользователя, который записал в журнал событие.<br/>                                                                                                                                                                                                                                                                                        |
 | [**Задача**](eventschema-task-systempropertiestype-element.md)                   | unsignedShort                                               | Задача, определенная в событии. Задача и код операции обычно используются для определения расположения в приложении, из которого было зарегистрировано событие.<br/>                                                                                                                                                                                    |
 | [**TimeCreated**](eventschema-timecreated-systempropertiestype-element.md)     |                                                             | Метка времени, определяющая время записи события в журнал. Метка времени будет содержать либо атрибут **SYSTEMTIME** , либо атрибут **равтиме** .<br/>                                                                                                                                                                           |
-| [**Версия**](schema-version-systempropertiestype-element.md)                  | unsignedByte                                                | Номер версии определения события.<br/>                                                                                                                                                                                                                                                                                     |
+| [**Version**](schema-version-systempropertiestype-element.md)                  | unsignedByte                                                | Номер версии определения события.<br/>                                                                                                                                                                                                                                                                                     |
 
 
 
@@ -237,7 +237,7 @@ ms.locfileid: "103803191"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию событие содержит полное доменное имя (FQDN) компьютера. Чтобы использовать NETBIOS-имя, а не полное доменное имя, необходимо создать параметр реестра DWORD с именем Компатфлагс в следующем разделе реестра и присвоить параметру Компатфлагс значение 0x2.
 
@@ -256,8 +256,8 @@ HKEY_LOCAL_MACHINE
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4839fa650302a67c98a0aef3d227dfafa8ddb688
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2cbaf49ed5e1b53da7c0c4968acbab48880e6193b5f61f0179a47b40972f8236
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488324"
 ---
 # <a name="glvertex2dv-function"></a>Функция glVertex2dv
 
@@ -51,7 +51,7 @@ void WINAPI glVertex2dv(
 
 Эта функция не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ void WINAPI glVertex2dv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

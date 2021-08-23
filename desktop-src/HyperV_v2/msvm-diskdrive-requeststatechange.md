@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ca2f9263d29a4412ab505e94268d0d18d28a60b6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b6702fefd72a51f1e593f4b775bc4de5e93aed368468557b1f9f9b8edac7fdab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431054"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskdrive-class"></a>Метод RequestStateChange \_ класса мсвм дискдриве
 
@@ -153,7 +153,7 @@ uint32 RequestStateChange(
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -167,7 +167,7 @@ uint32 RequestStateChange(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

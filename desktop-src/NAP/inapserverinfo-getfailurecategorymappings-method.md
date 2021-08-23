@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ba830dd8a35a2c60b14c4feec14846125223e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13fcd87105eace269d3b8f395392c8a0ba275a135c212863ef69e45e597eb752
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144387"
 ---
 # <a name="inapserverinfogetfailurecategorymappings-method"></a>Метод Инапсерверинфо:: Жетфаилурекатегоримаппингс
 
@@ -85,8 +85,8 @@ HRESULT GetFailureCategoryMappings(
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                               |
-| Header<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                               |
+| Заголовок<br/>                   | <dl> <dt>Напсерверманажемент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсерверманажемент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 

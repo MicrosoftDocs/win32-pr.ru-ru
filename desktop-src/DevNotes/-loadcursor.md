@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 2ea5b5c33a953dde08e8e8eb7e67d1b25cf925fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1a51d67adfe60e7f7f031486b6133d009d77e88a4376a72ff900f0bdad7070b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538944"
 ---
 # <a name="_loadcursor-function"></a>\_Функция Лоадкурсор
 
@@ -44,7 +44,7 @@ HCURSOR _LoadCursor(
 *...* 
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ HCURSOR _LoadCursor(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

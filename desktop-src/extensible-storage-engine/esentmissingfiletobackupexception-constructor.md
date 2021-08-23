@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: baf7f1bfdee61906f534ac0a3f8c0eff0194a5cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d676c7907932482711cf9451a3b2de4d99a62cb07aca7307f233baac125486ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040682"
 ---
 # <a name="esentmissingfiletobackupexception-constructor"></a>Конструктор Есентмиссингфилетобаккупексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentMissingFileToBackupException()
 public EsentMissingFileToBackupException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

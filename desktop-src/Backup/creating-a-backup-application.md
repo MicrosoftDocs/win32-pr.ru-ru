@@ -8,12 +8,12 @@ keywords:
 - Резервное копирование, создание приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77409a0c74ee61e333b92dad8b22d9c68ed92eba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3086e51bce928b682d3e61518de29118abdc48461a77f79e48a4a4cb4b0f2c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529484"
 ---
 # <a name="creating-a-backup-application"></a>Создание приложения резервного копирования
 
@@ -42,6 +42,6 @@ hTape = CreateFile(TEXT("\\\\.\\TAPE0"),         // tape dev to open
 
 Если один из потоков в буфере [**баккупврите**](/windows/desktop/api/Winbase/nf-winbase-backupwrite) имеет идентификатор потока **\_ связи резервной копии** , приложение должно установить жесткую связь. Если данные, необходимые для установления связи, не существуют, **баккупврите** завершается ошибкой. Приложение может использовать существующий каталог для поиска и восстановления исходных данных или уведомлять пользователя о том, что восстанавливаемые данные файлов находятся в другом расположении.
 
- 
+ 
 
- 
+ 

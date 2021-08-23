@@ -4,16 +4,16 @@ ms.assetid: d45cdd1d-13cf-433a-9b19-193d5c0cba11
 title: 'Метод ИтпартиЦипантсубстреамконтрол:: get_SubStreamFromParticipant (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0eae68cd62c38348e1a576f114a9e93ac52f9cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae40487bbef7e678722a2710d99bce9ed1ebe2f5192705f0a7dc03f86e10e421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621534"
 ---
 # <a name="itparticipantsubstreamcontrolget_substreamfromparticipant-method"></a>Метод ИтпартиЦипантсубстреамконтрол:: Get \_ субстреамфромпартиЦипант
 
-\[**получить \_ СубстреамфромпартиЦипант** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**получить \_ субстреамфромпартиЦипант** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ субстреамфромпартиЦипант** позволяет приложению определить, какие подпотоки связаны с данным участником.
 
@@ -65,20 +65,20 @@ HRESULT get_SubStreamFromParticipant(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

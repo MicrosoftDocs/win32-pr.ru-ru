@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7da95f1545996a83adeb27deaceb7fab6290005e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0a6bab8865dec475087743f658429fd633fc9bb1443da14bd1198e8a7c73b0fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119488744"
 ---
 # <a name="gluscaleimage-function"></a>Функция Глускалеимаже
 
@@ -117,7 +117,7 @@ int WINAPI gluScaleImage(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки GLU (см. [**глуеррорстринг**](gluerrorstring.md)).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глускалеимаже** масштабирует изображение пикселя с помощью соответствующих режимов хранилища пикселей для распаковки данных из исходного изображения и упаковки данных в целевое изображение.
 
@@ -125,7 +125,7 @@ int WINAPI gluScaleImage(
 
 Описание допустимых значений для параметров *Format*, *Type* и *Type* , см. в разделе [**глреадпикселс**](glreadpixels.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -139,7 +139,7 @@ int WINAPI gluScaleImage(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

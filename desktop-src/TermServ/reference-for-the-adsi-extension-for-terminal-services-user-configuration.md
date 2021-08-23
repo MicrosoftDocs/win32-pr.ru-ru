@@ -8,12 +8,12 @@ keywords:
 - Службы удаленных рабочих столов службы удаленных рабочих столов, класс Иадстсусерекс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54fb8cca961ddc48e2444da55f6b507120bc468e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ade30d34118f10afda4b03572f026fc302b709f6e8e81b3087b607c2883f2cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119138027"
 ---
 # <a name="reference-for-the-adsi-extension-for-remote-desktop-services-user-configuration"></a>Справочник по расширению ADSI для службы удаленных рабочих столов пользовательской конфигурации
 
@@ -30,9 +30,9 @@ ms.locfileid: "104532021"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

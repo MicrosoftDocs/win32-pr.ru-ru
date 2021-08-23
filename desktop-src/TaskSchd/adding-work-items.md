@@ -7,12 +7,12 @@ keywords:
 - задачи планировщик задач, добавление
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 722f776fd36933995cfd9b5a85612b52dae63f7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc964b620a01b0f1114240dcb11f275fa8faffc37e8264d8854cb60191628943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621164"
 ---
 # <a name="adding-work-items"></a>Добавление рабочих элементов
 
@@ -21,7 +21,7 @@ ms.locfileid: "105672107"
 > [!Note]  
 > Сейчас в папку "назначенные задания" можно добавлять только объекты задач. При добавлении задачи необходимо иметь представление идентификаторы для класса Task и интерфейса задачи [**ITask**](/windows/desktop/api/Mstask/nn-mstask-itask).
 
- 
+ 
 
 Вы создаете новые рабочие элементы, вызывая метод [**итасксчедулер:: невворкитем**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) . Этот метод создает новый объект рабочего элемента, используя предоставленное имя, и добавляет рабочий элемент в папку "назначенные задания". При создании нового рабочего элемента планировщик задач выделяет память, необходимую для нового объекта.
 
@@ -29,9 +29,9 @@ ms.locfileid: "105672107"
 
 Имена, указываемые для рабочих элементов, должны быть уникальными в папке запланированных задач. Если рабочий элемент с таким именем уже существует при вызове метода [**итасксчедулер:: невворкитем**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-newworkitem) или метода [**Итасксчедулер:: аддворкитем**](/windows/desktop/api/Mstask/nf-mstask-itaskscheduler-addworkitem) , метод возвращает ошибку " **\_ файл \_ существует** ошибка". Дополнительные сведения см. в разделе [Создание задачи с помощью примера невворкитем](creating-a-task-using-newworkitem-example.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8a38c8d2-324d-4de9-932b-d188ff5ccbaf
 title: ICE15
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb39b3c617db41e9e58a226f1eeb92c3d733ebad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ce1e5e54dedd2663a9f849abee43e244c73d7aa5835426be05d4e0163f599ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529314"
 ---
 # <a name="ice15"></a>ICE15
 
@@ -47,7 +47,7 @@ ICE15 отправляет два сообщения об ошибке для п
 
 
 
-| Расширение | MIME\_        |
+| Расширение | ФОРМАТА\_        |
 |-----------|---------------|
 | TST       | закрылки/x |
 | FLP       | NULL          |
@@ -56,7 +56,7 @@ ICE15 отправляет два сообщения об ошибке для п
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

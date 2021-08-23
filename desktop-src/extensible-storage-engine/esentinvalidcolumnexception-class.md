@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9768a479ebb1257b349e28eb7a352f0034ca7317
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e30b03b7bbe5d4e0eb5243dd00a478ec950a1901fecf1f77da2f5d3d4226cac6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620904"
 ---
 # <a name="esentinvalidcolumnexception-class"></a>Класс Есентинвалидколумнексцептион
 
@@ -38,7 +38,7 @@ ms.locfileid: "103913783"
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
 [System.Object](/dotnet/api/system.object)  
-  [System. Exception](/dotnet/api/system.exception)  
+  [System.Exception](/dotnet/api/system.exception)  
     [Microsoft. ISAM. ESENT. Есентексцептион](./esentexception-class.md)  
       Microsoft. ISAM. ESENT. Interop. Есентинвалидколумнексцептион  
 

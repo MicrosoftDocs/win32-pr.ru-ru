@@ -4,16 +4,16 @@ ms.assetid: 5177f120-4b93-40bc-9481-aedf65a8dee9
 title: 'Метод Итсдп:: get_SessionId (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ad593b61f4c935a220e59383ae170569f04af54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 67f7e8ea9bef17e5cb34ca23443b1f16f815c964c3cf76b9b122878e8662d051
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119621544"
 ---
 # <a name="itsdpget_sessionid-method"></a>Метод Итсдп:: Get \_ SessionID
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ SessionID** получает значение 32-битного протокола NTP (сетевого времени), которое служит идентификатором сеанса. Создается автоматически при создании сеанса.
 
@@ -58,24 +58,24 @@ HRESULT get_SessionId(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Возвращаемое значение этого метода может быть **ulong**, но Visual Basic не поддерживает тип **ulong** . **Double** — это следующий наименьший тип, охватывающий весь диапазон требуемых значений.
+возвращаемое значение этого метода может быть **ULONG**, но Visual Basic не поддерживает тип **ULONG** . **Double** — это следующий наименьший тип, охватывающий весь диапазон требуемых значений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

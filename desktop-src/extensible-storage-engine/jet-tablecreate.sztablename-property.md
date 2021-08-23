@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 34d80a4392beea5b6c81fa29cf70ccc3bc40d25b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9baac6af448dd600c19d1f3535e5b9164862547073fec220a1d295e51ce665c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615984"
 ---
 # <a name="jet_tablecreatesztablename-property"></a>Свойство JET_TABLECREATE. Сзтабленаме
 
@@ -64,7 +64,7 @@ public string szTableName { get; set; }
 
 Тип: [System. String](/dotnet/api/system.string)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 
