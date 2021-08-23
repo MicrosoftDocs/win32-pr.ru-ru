@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: cf9c5fc6b01574b930b7b8b74186243d00fa5202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63f2d1be37ae244eee5960feb8d5eae22ce379a8567bd782c3b0c3e43eabb53b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593344"
 ---
 # <a name="collection-object"></a>Collection - объект
 
@@ -30,7 +30,7 @@ ms.locfileid: "104345602"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **коллекции** содержит эти свойства.
 
@@ -38,14 +38,14 @@ ms.locfileid: "104345602"
 
 | Свойство                                           | Тип доступа          | Описание                                                |
 |:---------------------------------------------------|:---------------------|:-----------------------------------------------------------|
-| [**Расчета**](-wia-icollection-count.md)<br/> | Только для чтения<br/> | Возвращает число элементов в коллекции<br/> |
-| [**Элемент**](-wia-icollection-item.md)<br/>   | Только для чтения<br/> | Возвращает указанный элемент в коллекции<br/>    |
+| [**Count**](-wia-icollection-count.md)<br/> | Только для чтения<br/> | Возвращает число элементов в коллекции<br/> |
+| [**Компонент**](-wia-icollection-item.md)<br/>   | Только для чтения<br/> | Возвращает указанный элемент в коллекции<br/>    |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="creationaccess-functions"></a>\\Функции доступа для создания
 
@@ -63,14 +63,14 @@ ms.locfileid: "104345602"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (версия 4,90 или более поздняя)</dt> </dl> |
 
 

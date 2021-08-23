@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: dd9e0664fe41b471162beccd31bf2c22fbfa1640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3359454196735b8100ea40a9b4add2e8e0398c336bf254eb507b0a4e63a86e1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685244"
 ---
 # <a name="eapol_intf_params-structure"></a>\_ \_ Структура params EAPOL intf
 
-\[**EAPOL \_ \_Параметры intf** больше не поддерживаются в Windows Vista и windows Server 2008. Вместо этого используйте [собственный интерфейс API Wi-Fi](native-wifi-reference.md), который предоставляет аналогичные функциональные возможности. Дополнительные сведения см. [в статье о встроенном API Wi-Fi](about-the-native-wifi-api.md).\]
+\[**EAPOL \_ \_параметры INTF** больше не поддерживаются в Windows Vista и Windows Server 2008. Вместо этого используйте [собственный интерфейс API Wi-Fi](native-wifi-reference.md), который предоставляет аналогичные функциональные возможности. Дополнительные сведения см. [в статье о встроенном API Wi-Fi](about-the-native-wifi-api.md).\]
 
 Содержит параметры конфигурации EAPOL.
 
@@ -88,21 +88,21 @@ typedef struct _EAPOL_INTF_PARAMS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файл заголовка взксапи. h недоступен в Windows SDK.
+файл заголовка взксапи. h недоступен в Windows SDK.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/>                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
-| Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 3 (SP3)<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/>                                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
+| Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления SP3<br/>                                                       |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Взксапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Взксапи. h</dt> </dl> |
 
 
 

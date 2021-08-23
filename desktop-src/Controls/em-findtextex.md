@@ -3,7 +3,7 @@ title: Сообщение EM_FINDTEXTEX (RichEdit. h)
 description: EM_FINDTEXTEX сообщение — находит текст в элементе управления Rich Edit.
 ms.assetid: f1bf925b-2776-40b8-9d05-8484daf8d989
 keywords:
-- Элементы управления Windows для EM_FINDTEXTEX сообщений
+- элементы управления Windows сообщений EM_FINDTEXTEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2158dabf9ea17d1bd4cac48454bdbb4056765752
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 41f5121108fcd75d3b57b3ef61a8dc789bd92f731a3593314036d4d9507e6252
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541194"
 ---
 # <a name="em_findtextex-message"></a>\_Сообщение ФИНДТЕКСТЕКС EM
 
@@ -76,9 +76,9 @@ ms.locfileid: "108109842"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

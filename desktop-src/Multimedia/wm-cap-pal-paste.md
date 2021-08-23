@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_PAL_PASTE (VFW. h)
 description: Сообщение о \_ \_ вставке WM Cap PAL \_ копирует палитру из буфера обмена и передает ее драйверу записи. Это сообщение можно отправить явно или с помощью макроса Каппалеттепасте.
 ms.assetid: d49c7fd9-be40-4a07-8339-b85f7c4c331e
 keywords:
-- WM_CAP_PAL_PASTE сообщения Windows мультимедиа
+- сообщение WM_CAP_PAL_PASTE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3daf88c69edbb8bad6257456b95a86c8a68df328
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7bedb760a444abe9b0667592855d701dc24a02b8ee57ea15ab30912a5e216d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686834"
 ---
 # <a name="wm_cap_pal_paste-message"></a>\_Вставка сообщения с ограничением WM \_ PAL \_
 
@@ -40,11 +40,11 @@ lParam = 0L;
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Драйвер записи использует палитру при необходимости в указанном цифровом формате видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

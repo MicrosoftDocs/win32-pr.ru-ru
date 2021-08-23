@@ -4,16 +4,16 @@ description: Листенингтип, свойство
 ms.assetid: 02a678bb-5eb6-495f-b339-35170a44b15e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 402fd970bf902f034fd6ffb713029e3a27095c8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d6a743eb26d1e2b57d106e72d77c3774938ffe7e56ca4ba4147001d74bb99f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665444"
 ---
 # <a name="listeningtip-property"></a>Листенингтип, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -38,22 +38,22 @@ ms.locfileid: "105691352"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **листенингтип** указывает, включен ли параметр TIP Listening на вкладке свойств Microsoft Agent (дополнительные параметры символов). Если **листенингтип** возвращает **true** , а речевой ввод включен, сервер отображает окно подсказки, когда пользователь нажимает клавишу прослушивания.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Событие Ажентпропертичанже**](agentpropertychange-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

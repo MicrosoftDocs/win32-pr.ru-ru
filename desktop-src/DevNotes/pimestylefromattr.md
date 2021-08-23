@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 27673ebb74c1dca3e686542a541735cfc515bee9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2f7708a55337b79ff168e4f387b39e3920074fd8217e52570f0084ca5aa3734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541764"
 ---
 # <a name="pimestylefromattr-function"></a>Функция Пиместилефроматтр
 
@@ -71,7 +71,7 @@ const IMESTYLE* __cdecl PIMEStyleFromAttr(
 
 Возвращает указатель на структуру **иместиле** , представляющую цвет и параметры, не относящиеся к цвету.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

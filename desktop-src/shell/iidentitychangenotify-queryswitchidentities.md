@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: 42f8033c943e402d434c973f8c768ed5a951811d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38469490db92278c82e7935e1078181010757dd22be220203361d2d4c18ef380
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593084"
 ---
 # <a name="iidentitychangenotifyqueryswitchidentities-method"></a>Метод Иидентитичанженотифи:: Куерисвитчидентитиес
 
@@ -45,11 +45,11 @@ HRESULT QuerySwitchIdentities();
 
 Результат запроса Switch. Если параметр должен продолжать работу, возвращается значение S \_ ОК. В противном случае возвращается \_ параметр E Process отмена процесса, \_ \_ чтобы указать, что параметр удостоверения пользователя следует прерывать.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот метод можно реализовать, чтобы обеспечить пользовательское поведение приложения, когда пользователь запрашивает переключение этих удостоверений. Вы можете остановить ожидающее переключение удостоверения, вернувшись в значение \_ \_ параметра отмены процесса отменено \_ .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,13 +59,13 @@ HRESULT QuerySwitchIdentities();
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/>    | Windows 2000 Server<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msoe.dll</dt> </dl>    |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30a01c0b83599a8d6309f6639b94f5d0321180df
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c9f0744cd835fab641de4f4d3386304a342fe3902fcf1a67b3367dc15b7ee68f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544144"
 ---
 # <a name="ms-ds-user-account-disabled-attribute"></a>Атрибут ms-DS-User-Account-Disabled
 
@@ -36,7 +36,7 @@ ms.locfileid: "104494007"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1853              |
 | System-ID — GUID    | 7c708658-7372-4211-b22b-13a45ffd1d61 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -52,10 +52,10 @@ ms.locfileid: "104494007"
 |------------------------|-------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Неверно                                                             |
-| Является однозначным       | True                                                              |
-| Индексируется             | Неверно                                                             |
-| В глобальном каталоге      | Неверно                                                             |
+| System-Only            | Нет                                                             |
+| Является однозначным       | Верно                                                              |
+| Индексируется             | Нет                                                             |
+| В глобальном каталоге      | Нет                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -65,7 +65,7 @@ ms.locfileid: "104494007"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В ADAM этот атрибут заменяет флаг [**ADS \_ УФ \_ аккаунтдисабле**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) атрибута [**userAccountControl**](a-useraccountcontrol.md) .
 

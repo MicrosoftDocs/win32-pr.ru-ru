@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 9539d29704797b1c7b001d426250762d2ed27b3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 667d8f11270865f1caa4549377db2cccb278053ea9848b71aa38f0d5f7528689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686214"
 ---
 # <a name="ec_dvd_title_change"></a>\_изменение названия DVD-диска EC \_ \_
 
@@ -42,23 +42,23 @@ ms.locfileid: "105651675"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Номера заголовков находятся в диапазоне от 1 до 99. Это число указывает на ТТН, то есть номер заголовка относительно целого диска, а не ВТС \_ ТТН, который является номером заголовка по отношению только к текущему ВТС.
 
 Это событие возникает в домене Title.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

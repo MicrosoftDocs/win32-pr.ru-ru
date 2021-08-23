@@ -4,12 +4,12 @@ ms.assetid: fc25ebaa-42f6-42fc-8a3e-7704dbfbc0d8
 title: System. Language
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4ba72c210dc18343a95510096588410568c278f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67c4916c6c50383dcf63447345912c2e2eaae5bdb0ddf75a93eb4cf00d682b84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598444"
 ---
 # <a name="systemlanguage"></a>System. Language
 
@@ -45,11 +45,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: f7466cfe-b13e-4ee9-82f9-0528ed97bf99
 title: Предоставление форматов записи и сжатия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02051d9e68b3ad919b96dca53b674305787b3186
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d80821ade82b894a7c3e2752528ffdd72bc2223a4616b629f7e2b236461b31e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685744"
 ---
 # <a name="exposing-capture-and-compression-formats"></a>Предоставление форматов записи и сжатия
 
@@ -23,11 +23,11 @@ ms.locfileid: "103806880"
 -   [Возможности работы с аудио](audio-capabilities.md)
 -   [Повторное подключение входных данных для обеспечения конкретных типов выходных данных](reconnecting-your-input-to-ensure-specific-output-types.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

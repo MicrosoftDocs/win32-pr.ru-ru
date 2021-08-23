@@ -1,11 +1,11 @@
 ---
 title: Метод Игасернотифи Ондатамове (не рекомендуется)
-description: Этот раздел интерфейса поиска на рабочем столе Windows устарел и заменен API-интерфейсом Windows Search Исеарчперсистентитемсчанжедсинк в Windows SDK. | Метод Игасернотифи Ондатамове (не рекомендуется)
+description: этот Windowsный раздел интерфейса поиска на рабочем столе устарел и заменен Windows API поиска исеарчперсистентитемсчанжедсинк в Windows SDK. | Метод Игасернотифи Ондатамове (не рекомендуется)
 ms.assetid: cc223d0f-6508-4e38-b365-c60660db5324
 keywords:
-- Ондатамове (устаревший) метод устаревших функций среды Windows
-- Ондатамове (устаревший) метод устаревших функций среды Windows, интерфейс Игасернотифи
-- Устаревшие функции среды Windows интерфейса Игасернотифи, Ондатамове (устаревший метод)
+- ондатамове (устаревший) метод устаревшие функции среды Windows
+- ондатамове (устаревший) метод устаревшие функции среды Windows, интерфейс игасернотифи
+- устаревшие функции Windows интерфейса игасернотифи, ондатамове (устаревший метод)
 topic_type:
 - apiref
 api_name:
@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9fe38cd11e9072981334e5b724445ea3393d4361
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2f3d4f7d91bc9e9741f227812997a820ab4180ccf438d52ae8cfea93f67dc0bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665874"
 ---
 # <a name="igathernotifyondatamove-deprecated-method"></a>Метод Игасернотифи:: Ондатамове (не рекомендуется)
 
 \[**Ондатамове** может быть изменен или недоступен в последующих версиях операционной системы или продукта.\]
 
-Этот раздел интерфейса поиска на рабочем столе Windows устарел и заменен API-интерфейсом Windows Search [**исеарчперсистентитемсчанжедсинк**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) в Windows SDK.
+этот Windowsный раздел интерфейса поиска на рабочем столе устарел и заменен Windows API поиска [**исеарчперсистентитемсчанжедсинк**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) в Windows SDK.
 
 Этот метод уведомляет индексатор о перемещенных данных. При отправке уведомления индексатору он включает старый адрес, новый адрес и логический адрес.
 

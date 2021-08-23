@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce67879ca20819713e61a9392bf77be2f15211d5
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: da1ca2375206165576405c96528d0590596f4d4d870121f0a30884c8e448ca93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104563506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625272"
 ---
 # <a name="glfrustum-function"></a>Функция Глфрустум
 
@@ -104,7 +104,7 @@ void WINAPI glFrustum(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глфрустум** описывает матрицу перспективы, которая создает перспективную проекцию. Параметры (*левый*, *Нижний*, *знеар*) и (*правый*, *верхний*, *знеар*) указывают точки на близкой плоскости, которые сопоставлены с нижним левым и верхним правым углами окна соответственно, предполагая, что глаз находится в (0, 0, 0). Параметр *зфар* задает расположение дальней плоскости. Оба *знеар* и *зфар* должны быть положительными. Соответствующая матрица показана на рисунке ниже.
 

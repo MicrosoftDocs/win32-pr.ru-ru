@@ -3,15 +3,15 @@ title: Устаревшие функции WCS
 description: В этом разделе описаны функции, устаревшие в WCS 1,0. В настоящее время они хранятся для обеспечения обратной совместимости. Однако они будут удалены из API в последующих выпусках WCS.
 ms.assetid: 49c26320-41c2-4075-aad2-005447616726
 keywords:
-- Цветовая система Windows (WCS), функции
-- WCS (цветовая система Windows), функции
+- Windows Система цветовой системы (WCS), функции
+- WCS (Windows цветовая система), функции
 - Управление цветом изображений, функции
 - Управление цветом, функции
 - цвета, функции
 - Справочник по WCS, функции
 - Справочник по WCS, функциям
-- Цветовая система Windows (WCS), устаревшие функции
-- WCS (цветовая система Windows), устаревшие функции
+- Windows Система цветов (WCS), устаревшие функции
+- WCS (Windows цветовая система), устаревшие функции
 - Управление цветом изображений, устаревшие функции
 - Управление цветом, устаревшие функции
 - цвета, устаревшие функции
@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64886367ba6b3af680b506abbc1418e122c71965
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: f866308ddd2f1acbfb9311b9711a0a796d9ceeb3e8abb4cd783b99d4a035a222
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593374"
 ---
 # <a name="obsolete-wcs-functions"></a>Устаревшие функции WCS
 

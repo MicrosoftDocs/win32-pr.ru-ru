@@ -1,32 +1,32 @@
 ---
-title: Справочник по объектной модели для Visual Basic .NET и C
-description: Справочник по объектной модели для Visual Basic .NET и C
+title: справочник по объектной модели для Visual Basic .net и C
+description: справочник по объектной модели для Visual Basic .net и C
 ms.assetid: 81cd1f81-1bd2-420f-b20b-3505ad52f201
 keywords:
-- Проигрыватель Windows Media, объектная модель
-- Проигрыватель Windows Media Mobile, объектная модель
-- Объектная модель проигрывателя Windows Media, Справочник
+- проигрыватель Windows Media, объектная модель
+- проигрыватель Windows Media Мобильные устройства, объектная модель
+- объектная модель проигрыватель Windows Media, справочные материалы
 - Объектная модель, Справочник
-- Элемент управления ActiveX, Справочник
-- Элемент управления ActiveX проигрывателя Windows Media, Справочник
-- Элемент управления ActiveX проигрывателя Windows Media Mobile, Справочник
-- Справочник по объектной модели Visual Basic .NET
-- Проигрыватель Windows Media, Visual Basic .NET
-- Проигрыватель Windows Media Mobile, Visual Basic .NET
-- Объектная модель проигрывателя Windows Media, Visual Basic .NET
-- Объектная модель, Visual Basic .NET
-- Элемент управления ActiveX проигрывателя Windows Media, Visual Basic .NET
-- Элемент управления ActiveX проигрывателя Windows Media Mobile, Visual Basic .NET
-- Элемент управления ActiveX, Visual Basic .NET
-- Справочник по объектной модели .NET Visual Basic
+- элемент управления ActiveX, справочные материалы
+- проигрыватель Windows Media ActiveX элемент управления, справочник
+- проигрыватель Windows Media управление мобильными ActiveXми, справочные материалы
+- справочник по объектной модели Visual Basic .net
+- проигрыватель Windows Media, Visual Basic .net
+- проигрыватель Windows Media Mobile, Visual Basic .net
+- объектная модель проигрыватель Windows Media, Visual Basic .net
+- объектная модель, Visual Basic .net
+- проигрыватель Windows Media ActiveX управления Visual Basic .net
+- проигрыватель Windows Media мобильный ActiveX элемент управления, Visual Basic .net
+- ActiveX элемент управления, Visual Basic .net
+- справочник по объектной модели .net Visual Basic
 - Справочник по объектной модели, C
-- Проигрыватель Windows Media, C
-- Проигрыватель Windows Media Mobile, C
-- Объектная модель проигрывателя Windows Media, C
+- проигрыватель Windows Media, C
+- проигрыватель Windows Media Mobile, C
+- объектная модель проигрыватель Windows Media, C
 - Объектная модель, C
-- Элемент управления ActiveX проигрывателя Windows Media, C
-- Элемент управления ActiveX проигрывателя Windows Media Mobile, C
-- Элемент управления ActiveX, C
+- проигрыватель Windows Media ActiveX элемент управления, C
+- проигрыватель Windows Media мобильный ActiveX элемент управления, C
+- элемент управления ActiveX, C
 - Справочник по объектной модели C
 ms.topic: article
 ms.date: 05/31/2018
@@ -35,58 +35,58 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bf17c796173abc03261555fda264bc3868bd1964
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 720b9dc7755c383e4a4dfc657095524abb55ec726773c935071a773e09eb7df5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647294"
 ---
-# <a name="object-model-reference-for-visual-basic-net-and-c"></a>Справочник по объектной модели для Visual Basic .NET и C #
+# <a name="object-model-reference-for-visual-basic-net-and-c"></a>справочник по объектной модели для Visual Basic .net и C #
 
 > [!Note]  
-> Использование элемента управления ActiveX проигрывателя Windows Media с Visual Basic .NET и C# поддерживается только для Windows Media Player 9 Series SDK и более поздних версий.
+> использование элемента управления проигрыватель Windows Media ActiveX с Visual Basic .net и C# поддерживается только для пакета SDK для проигрыватель Windows Media 9 Series и более поздних версий.
 
- 
+ 
 
-В этом справочном разделе содержится документация по объекту **аксвиндовсмедиаплайер** и интерфейсам элемента управления ActiveX проигрывателя Windows Media. Эта функция доступна при использовании элемента управления ActiveX проигрывателя Windows Media с помощью COM-взаимодействия в решении Visual Studio .NET 2002 или более поздней версии.
+в этом справочном разделе содержится документация по объекту **аксвиндовсмедиаплайер** и интерфейсам для элемента управления ActiveX проигрыватель Windows Media. эта функция доступна при использовании элемента управления проигрыватель Windows Media ActiveX с помощью COM-взаимодействия в Visual Studioном решении .net 2002 или более поздней версии.
 
-Демонстрация использования элемента управления проигрывателя Windows Media с платформа .NET Framework см. в примерах Visual Basic и C#, входящих в состав этого пакета SDK.
+демонстрация использования элемента управления проигрыватель Windows Media с платформа .NET Framework см. в примерах Visual Basic и C#, входящих в состав этого пакета SDK.
 
-В следующих разделах Visual Basic описываются объекты и интерфейсы .NET и C#, предоставляемые сборкой COM-взаимодействия, создаваемой Visual Studio.
+в следующих разделах Visual Basic описываются объекты и интерфейсы .net и C#, предоставляемые сборкой COM-взаимодействия, создаваемой Visual Studio.
 
 > [!Note]  
-> Функциональные возможности, требующие удаленного взаимодействия элемент управления проигрывателя Windows Media, не поддерживаются для программирования .NET.
+> функции, для которых требуется удаленное взаимодействие, элемент управления проигрыватель Windows Media не поддерживается для программирования .net.
 
- 
+ 
 
 
 
 | Section                                                                                | Описание                                                                                                                    |
 |----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| [Объект Аксвиндовсмедиаплайер (VB и C#)](axwindowsmediaplayer-object--vb-and-c.md)  | Перечислите свойства, методы и события, доступные программистам .NET для корневого объекта элемента управления проигрывателя Windows Media. |
-| [Интерфейсы для Visual Basic .NET и C #](interfaces-for-visual-basic--net-and-c.md) | Список интерфейсов, доступных для программистов .NET, использующих элемент управления ActiveX проигрывателя Windows Media.                           |
+| [Объект Аксвиндовсмедиаплайер (VB и C#)](axwindowsmediaplayer-object--vb-and-c.md)  | перечислите свойства, методы и события, доступные программистам .net для корневого объекта элемента управления проигрыватель Windows Media. |
+| [интерфейсы для Visual Basic .net и C #](interfaces-for-visual-basic--net-and-c.md) | список интерфейсов, доступных для программистов .net, использующих элемент управления проигрыватель Windows Media ActiveX.                           |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Справочник по объектной модели проигрывателя Windows Media**](windows-media-player-object-model-reference.md)
+[**проигрыватель Windows Media Справочник по объектной модели**](windows-media-player-object-model-reference.md)
 </dt> <dt>
 
-[**Использование элемента управления проигрывателя Windows Media в платформа .NET Framework решении**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
+[**использование элемента управления проигрыватель Windows Media в решении платформа .NET Framework**](using-the-windows-media-player-control-in-a--net-framework-solution.md)
 </dt> <dt>
 
 [**Примеры**](samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

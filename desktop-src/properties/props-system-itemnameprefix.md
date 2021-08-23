@@ -4,12 +4,12 @@ ms.assetid: 3c257edc-b7f7-498d-8347-0be4fca41023
 title: System. Итемнамепрефикс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf669dd867c8cf60046f226e33dae18f46060cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd7830f63c3e9e0f6026099c95d11820a1d8592928cece72ebe72d76936d8467
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598464"
 ---
 # <a name="systemitemnameprefix"></a>System. Итемнамепрефикс
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
@@ -52,7 +52,7 @@ propertyDescription
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

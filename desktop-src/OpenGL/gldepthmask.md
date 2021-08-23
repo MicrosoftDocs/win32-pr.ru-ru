@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5873d517770f1ce61f9a2eaad3ea7cce7b4fd7ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0e774917d47cecdbb276b19dbc97a7c8c7620e04e0a044cf6932aa83167e325
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625724"
 ---
 # <a name="gldepthmask-function"></a>Функция Глдепсмаск
 
@@ -63,13 +63,13 @@ void WINAPI glDepthMask(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующая функция получает сведения, связанные с **глдепсмаск**:
 
 **глжет** с аргументом GL \_ Depth \_ вритемаск
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -83,7 +83,7 @@ void WINAPI glDepthMask(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

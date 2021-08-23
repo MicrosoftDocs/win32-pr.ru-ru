@@ -3,8 +3,8 @@ title: Аппаратно-зависимые цветовые пространс
 description: Большинство цветовых пространств зависит от устройства.
 ms.assetid: 657ec64b-8605-4d05-a7d6-9f8bb71e6a71
 keywords:
-- Цветовая система Windows (WCS), аппаратно-зависимые цветовые пространства
-- WCS (цветовая система Windows), аппаратно-зависимые цветовые пространства
+- Windows Цветовая система (WCS), аппаратно-зависимые цветовые пространства
+- WCS (Windows цветовая система), аппаратно-зависимые цветовые пространства
 - Управление цветом изображений, аппаратно-зависимые цветовые пространства
 - Управление цветом, аппаратно-зависимые цветовые пространства
 - цвета, аппаратно-зависимые цветовые пространства
@@ -15,12 +15,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22a1523ee6ba81dcdc3b69a468546871cfd21913
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: fe10ad9d48e750f9869b113a45f1235d2aa692532702ea4443ec3629d32276ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593624"
 ---
 # <a name="device-dependent-color-spaces"></a>Аппаратно-зависимые цветовые пространства
 

@@ -4,12 +4,12 @@ ms.assetid: a0e464a0-ff43-43a8-87f7-2fef17ca15eb
 title: System. Media. Промотионурл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17e2649c9eb567e5afe5889856ef5161ea195f79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e2308aebb34b84b3b6cf098b5356232d98bab80c5715a4fcb710b5e6f082f27e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597684"
 ---
 # <a name="systemmediapromotionurl"></a>System. Media. Промотионурл
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

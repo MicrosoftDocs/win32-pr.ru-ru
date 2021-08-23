@@ -3,7 +3,7 @@ title: Сообщение HDM_GETIMAGELIST (Коммктрл. h)
 description: Возвращает маркер для списка изображений, установленного для существующего элемента управления "заголовок". Это сообщение можно отправить явным образом или воспользоваться заголовком \_ \_ макроса жетстатеимажелист заголовка.
 ms.assetid: 3e1a979c-60c5-4538-bd4d-16238829062e
 keywords:
-- Элементы управления Windows для HDM_GETIMAGELIST сообщений
+- элементы управления Windows сообщений HDM_GETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e199d603af873f1957d33855ccf5c59a90a4002
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8149dd4914ceb1835e9e04442492855e9c25340604ed4e4eeb2619c62b88e69f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540914"
 ---
 # <a name="hdm_getimagelist-message"></a>Сообщение HDM в виде \_ ImageList
 
@@ -47,15 +47,15 @@ ms.locfileid: "103802860"
 
 Возвращает маркер, заданный для элемента управления "заголовок" в списке изображений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

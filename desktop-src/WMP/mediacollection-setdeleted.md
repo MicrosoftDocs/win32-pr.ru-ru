@@ -3,9 +3,9 @@ title: Медиаколлектион. Сетделетед, метод
 description: Метод Сетделетед перемещает указанный элемент мультимедиа в папку Удаленные элементы. | Медиаколлектион. Сетделетед, метод
 ms.assetid: 3e3c9a16-37e1-41b4-8593-58aaf4541eb9
 keywords:
-- Сетделетед метод Windows Media Player
-- Сетделетед метод Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион Windows Media Player, метод Сетделетед
+- проигрыватель Windows Media метода сетделетед
+- проигрыватель Windows Media метода сетделетед, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод сетделетед
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f545953899883933286f3c38def62d9f254dfdc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63dcb4c0062acbd5f457cd09b9c1370ff9c4f7683fd8758a4a64ce5f510a6948
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647844"
 ---
 # <a name="mediacollectionsetdeleted-method"></a>Медиаколлектион. Сетделетед, метод
 
@@ -61,17 +61,17 @@ MediaCollection.setDeleted(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не удаляет файлы с компьютера пользователя.
 
 Чтобы использовать этот метод, требуется полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *медиаколлектион*. **сетделетед** переместить определенный элемент мультимедиа, хранящийся в переменной с именем медиаобжект, в папку Удаленные элементы. *Медиаколлектион*. метод **IsDeleted** сначала проверяет, был ли уже удален элемент. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *медиаколлектион*. **сетделетед** переместить определенный элемент мультимедиа, хранящийся в переменной с именем медиаобжект, в папку Удаленные элементы. *Медиаколлектион*. метод **IsDeleted** сначала проверяет, был ли уже удален элемент. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -94,18 +94,18 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0, Windows Media Player версии 7,1 или Windows Media Player для Windows XP. Этот метод не поддерживается для серии проигрывателя Windows Media 9 или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0, проигрыватель Windows Media версии 7,1 или проигрыватель Windows Media для Windows XP. этот метод не поддерживается для ряда проигрыватель Windows Media 9 или более поздних версий.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                                                              |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -118,10 +118,10 @@ else
 [**Медиаколлектион. isDeleted**](mediacollection-isdeleted.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

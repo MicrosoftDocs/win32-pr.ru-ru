@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5d2324b4e1e06650f2eed7b63337f2bd48520498
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37b1e33ccb92b2d46effa9f0575f0331fa064e79d172715b8746355d5e99d2b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622274"
 ---
 # <a name="keyusage-object"></a>Объект Кэйусаже
 
@@ -32,7 +32,7 @@ ms.locfileid: "105685026"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **кэйусаже** имеет следующие свойства.
 
@@ -56,7 +56,7 @@ ms.locfileid: "105685026"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **кэйусаже** .
 

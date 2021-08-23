@@ -1,9 +1,9 @@
 ---
-title: Settings. Дефаултфраме
+title: Параметры. дефаултфраме
 description: Свойство Дефаултфраме указывает или получает имя кадра, используемого для вывода URL-адреса, полученного в событии команду скрипта.
 ms.assetid: c2edb253-a545-4820-85aa-8fb7badf4d81
 keywords:
-- Проигрыватель Windows Media Settings. Дефаултфраме
+- Параметры. дефаултфраме проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6182a635e4bd73a946c3cf85efb7d39966c0007
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0240864cd19c1a4d84c30abfc6e6b8ecb08457d26c3c660d19fc18d228b19615
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119571814"
 ---
-# <a name="settingsdefaultframe"></a>Settings. Дефаултфраме
+# <a name="settingsdefaultframe"></a>Параметры. дефаултфраме
 
 Свойство **дефаултфраме** указывает или получает имя кадра, используемого для вывода URL-адреса, полученного в событии **команду скрипта** .
 
@@ -33,33 +33,33 @@ Player. Settings. Дефаултфраме
 
 Это свойство является **строкой** для чтения и записи, соответствующей значению атрибута **Name** целевого элемента Frame.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если целевой кадр указан в событии **команду скрипта** , это свойство игнорируется.
 
-Это свойство игнорируется при использовании приложения Netscape Navigator Java. В навигаторе каждая полученная команда сценария URL-адреса отображает URL-адрес в новом окне браузера, независимо от значения *параметров*. **дефаултфраме**.
+Это свойство игнорируется при использовании приложения Netscape Navigator Java. в навигаторе каждая полученная команда сценария URL-адреса отображает URL-адрес в новом окне браузера, независимо от значения *Параметры*. **дефаултфраме**.
 
-**Проигрыватель Windows Media 10 Mobile**: это свойство доступно только для чтения и всегда возвращает пустую строку.
+**проигрыватель Windows Media 10 Mobile**: это свойство доступно только для чтения и всегда возвращает пустую строку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Событие Player. команду скрипта**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Объект параметров**](settings-object.md)
+[**Параметры Объектами**](settings-object.md)
 </dt> <dt>
 
 [**Использование проигрывателя Windows Media с Netscape 7.1**](using-windows-media-player-with-netscape-7-1.md)

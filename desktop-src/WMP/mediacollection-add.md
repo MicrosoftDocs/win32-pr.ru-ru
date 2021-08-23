@@ -3,9 +3,9 @@ title: Медиаколлектион. Add, метод
 description: Метод Add добавляет новый элемент мультимедиа или список воспроизведения в библиотеку. | Медиаколлектион. Add, метод
 ms.assetid: 8adf93d1-368b-4916-937f-342901a1592b
 keywords:
-- Добавление метода Windows Media Player
-- Добавление метода Windows Media Player, класс Медиаколлектион
-- Класс Медиаколлектион проигрыватель Windows Media Player, метод Add
+- добавить проигрыватель Windows Media метода
+- добавление метода проигрыватель Windows Media, класс медиаколлектион
+- класс медиаколлектион проигрыватель Windows Media, метод add
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731a42c8e1317355b129acb6921676c0a33f4a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b26d21f67496f345324efdca93dbf85e59947f1616e0c5620faead2807a6ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647914"
 ---
 # <a name="mediacollectionadd-method"></a>Медиаколлектион. Add, метод
 
@@ -53,7 +53,7 @@ retVal = MediaCollection.add(
 
 Этот метод возвращает объект **мультимедиа** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод загружает существующий элемент мультимедиа или список воспроизведения в библиотеку по заданному пути к файлу. Этот метод не перемещает и не изменяет файл. Этот метод завершается ошибкой, если задан недопустимый локальный путь, но перед добавлением в библиотеку цифровые файлы мультимедиа не проверяются на допустимость.
 
@@ -63,7 +63,7 @@ retVal = MediaCollection.add(
 
 ## <a name="examples"></a>Примеры
 
-Следующий пример Microsoft JScript добавляет три объекта мультимедиа в коллекцию носителей проигрывателя Windows Media. Объект **Player** создан с идентификатором "Player".
+в следующем примере Microsoft JScript в коллекцию носителей проигрыватель Windows Media добавляются три объекта мультимедиа. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -82,18 +82,18 @@ Player.mediaCollection.add("C:\\WMSDK\\WMPSDK\\docs\\samples\\media\\house.wma")
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -112,10 +112,10 @@ Player.mediaCollection.add("C:\\WMSDK\\WMPSDK\\docs\\samples\\media\\house.wma")
 [**Плайлистколлектион. Импортплайлист**](playlistcollection-importplaylist.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: c17b3b58-65ab-4e83-91f2-54a995f22ddf
 title: Фильтровать цепочки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d22ee33f7bc24495bc5099d0abeca7b8c70bc6d4
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f4650c49dd796ff3aa7ddecbd21076a4e217def9bfb6504149fdb740c2810b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685493"
 ---
 # <a name="filter-chains"></a>Фильтровать цепочки
 
@@ -37,7 +37,7 @@ ms.locfileid: "107909062"
 
  
 
-Нет определенного метода для добавления цепочки. Чтобы добавить цепочку, вставьте новые фильтры с помощью метода [**ифилтерграф:: аддфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . Затем соедините фильтры, вызвав [**играфбуилдер:: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect), [**Играфбуилдер:: Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)или аналогичные методы.
+Нет определенного метода для добавления цепочки. Чтобы добавить цепочку, вставьте новые фильтры с помощью метода [**ифилтерграф:: аддфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) . затем соедините фильтры, вызвав [**играфбуилдер:: Подключение**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect), [**играфбуилдер:: Render**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-render)или аналогичные методы.
 
 При выполнении графа цепочка фильтров может переключаться между выполнением и остановкой. Когда граф приостанавливается, он может переключаться между приостановкой и остановкой. Это единственные возможные переходы состояния с цепочками фильтров.
 
@@ -62,7 +62,7 @@ ms.locfileid: "107909062"
 
 <dl> <dt>
 
-[Построение динамического графа](dynamic-graph-building.md)
+[динамическая сборка Graph](dynamic-graph-building.md)
 </dt> </dl>
 
  

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e5e080b4531d05160bebd42a68145842c4783bea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bca2231f36c3d37f58bb740ddf55132d1c63babba6054629b2a76cc5d7866646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687224"
 ---
 # <a name="ctransforminputpinendflush-method"></a>Ктрансформинпутпин. Ендфлуш, метод
 
@@ -59,13 +59,13 @@ HRESULT EndFlush();
 
 Этот метод вызывает метод [**ктрансформфилтер:: ендфлуш**](ctransformfilter-endflush.md) фильтра для доставки вызова в нисходящем направлении. Затем вызывается метод [**кбасеинпутпин:: ендфлуш**](cbaseinputpin-endflush.md) ПИН-кода.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -1,9 +1,9 @@
 ---
-title: Использование аудиокодека Windows Media
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Использование аудиокодека Windows Media
+title: использование аудиокодека Windows Media Audio
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | использование аудиокодека Windows Media Audio
 ms.assetid: 1ea0c353-7b76-45ff-9a2c-951018d5af06
 keywords:
-- Использование формата Windows Media Audio аудиокодека Windows Media
+- использование формата Windows media Audio кодек Windows media
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba9865beaac04dadcf283d4a82b96755d62969c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 943ff0e401816c13a9cb75fb158c50b9de0530bca21cf880faa16327385d96ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103820757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590824"
 ---
-# <a name="using-the-windows-media-audio-codec"></a>Использование аудиокодека Windows Media
+# <a name="using-the-windows-media-audio-codec"></a>использование аудиокодека Windows Media Audio
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

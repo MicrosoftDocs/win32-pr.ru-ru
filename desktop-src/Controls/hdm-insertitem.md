@@ -3,7 +3,7 @@ title: Сообщение HDM_INSERTITEM (Коммктрл. h)
 description: Вставляет новый элемент в элемент управления "заголовок". Это сообщение можно отправить явным образом или воспользоваться заголовком \_ макроса InsertItem.
 ms.assetid: aececf32-090d-4cd4-a239-4435a322f72e
 keywords:
-- Элементы управления Windows для HDM_INSERTITEM сообщений
+- элементы управления Windows сообщений HDM_INSERTITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9cabf86fea79fd437b3e9fb7e32890b3ba1a780
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e30a07637afae1a3efcf71b3b556c32bebf96775bb2a5cbdf6e92513d33ec5c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544744"
 ---
 # <a name="hdm_insertitem-message"></a>\_Сообщение INSERTITEM HDM
 
@@ -49,15 +49,15 @@ ms.locfileid: "104490710"
 
 Возвращает индекс нового элемента, если он выполнен успешно, или значение-1 в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Разъем HDM \_ ИНСЕРТИТЕМВ** (Юникод) и **HDM \_ инсертитема** (ANSI)<br/>             |
 
 

@@ -4,12 +4,12 @@ description: Кнопка раскрывающегося списка может
 ms.assetid: 2D908D4B-AA8B-4DEF-B656-C37B673ABB4D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d6f59bfa888d346e196e13ce030d1473a07f0f
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: b74443b0d29b3ab39255d7417fd13677769f6a762ebe176e8301a76029db0c37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103789354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544960"
 ---
 # <a name="how-to-handle-drop-down-buttons"></a>Как управлять кнопками с раскрывающимся списком
 
@@ -25,16 +25,16 @@ ms.locfileid: "103789354"
 
 Когда пользователь наводит кнопку на панель инструментов, использующую стиль [**\_ раскрывающегося списка бтнс**](toolbar-control-and-button-styles.md) , элемент управления ToolBar отправляет родительскому окну код уведомления [ТБН \_ DROPDOWN](tbn-dropdown.md) .
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -97,19 +97,19 @@ BOOL DoNotify(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

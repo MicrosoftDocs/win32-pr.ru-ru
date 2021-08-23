@@ -3,7 +3,7 @@ title: Элемент Navigate
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. Использование этой функции вне контекста Интернет-магазина не поддерживается. Элемент Navigate указывает URL-адрес, используемый вызовами метода external. Навигатетаскпанеурл.
 ms.assetid: 3898e381-baf8-481a-90ee-d64e55b319a0
 keywords:
-- Навигация по элементу проигрыватель Windows Media
+- навигация по элементу проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ab3a76fba522332f1414b02d3e317f2793e88292
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9e62dc0defae10eb0c271543e3ef3c85aab409325a21611792011d487840740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647634"
 ---
 # <a name="navigate-element"></a>Элемент Navigate
 
@@ -60,17 +60,17 @@ ms.locfileid: "105648737"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии.<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

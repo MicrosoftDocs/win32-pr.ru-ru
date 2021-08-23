@@ -4,12 +4,12 @@ ms.assetid: 357b3ad9-d451-44f1-abd1-67008e66f419
 title: System. Проплист. Превиевдетаилс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2f99201da99d199f7c1cc0b35e46056c64c226
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62e1e33afa8175e9d33e709e3e047eb7489e8c6474908a28e2650ce0d85be128
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598324"
 ---
 # <a name="systemproplistpreviewdetails"></a>System. Проплист. Превиевдетаилс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

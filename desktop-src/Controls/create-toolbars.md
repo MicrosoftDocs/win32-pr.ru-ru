@@ -4,27 +4,27 @@ description: Чтобы создать панель инструментов, и
 ms.assetid: 5D060291-6ACF-478C-97EC-CD8BD55D1FFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a69cd40338eaebc0d9de852519dce34dc9bc8aa4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 24ea2751edf513aadf197199f92389a9fb4ad0e1ecd1048b945dd78802dc674b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542043"
 ---
 # <a name="how-to-create-toolbars"></a>Создание панелей инструментов
 
 Чтобы создать панель инструментов, используйте функцию [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , указав класс окна [**тулбаркласснаме**](common-control-window-classes.md) . Результирующая панель инструментов изначально не содержит кнопок. Добавьте кнопки на панель инструментов с помощью сообщения [**\_ инсертбуттон**](tb-insertbutton.md) [**ТБ \_ аддбуттонс**](tb-addbuttons.md) или ТБ. Необходимо отправить сообщение [**\_ AUTOSIZE**](tb-autosize.md) по размеру ТБ после вставки всех элементов и строк в элемент управления, чтобы заставить панель инструментов повторно вычислить размер в зависимости от содержимого.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Необходимые компоненты
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -166,16 +166,16 @@ HWND CreateToolbarFromResource(HWND hWndParent)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
