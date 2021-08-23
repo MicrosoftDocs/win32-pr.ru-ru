@@ -4,12 +4,12 @@ ms.assetid: ab852feb-9e26-429e-a02a-11fe0abdfafc
 title: Использование кластеров символов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11357a929cf8fec2a7b0caa2bb6ae1ac403e3b91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7a48dc8ec1b6fa3ea28cd116f275b1f410b8abd7e232442cff430ab843765f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103819008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631824"
 ---
 # <a name="using-character-clusters"></a>Использование кластеров символов
 
@@ -19,7 +19,7 @@ Uniscribe предоставляет сведения о кластере в в�
 
 [**Скриптбреак**](/windows/desktop/api/Usp10/nf-usp10-scriptbreak) также получает элемент **фчарстоп** структуры [**script \_ логаттр**](/windows/win32/api/usp10/ns-usp10-script_logattr) для обнаружения позиций кластера.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

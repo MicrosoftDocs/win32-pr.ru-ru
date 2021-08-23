@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, использование, схема ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 478104a24d850f79cc52473f3d9e546936c56650
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8aaf49f75d026f52c644d06a6fe36e4555841e3e7bf587ffeb1e0277d1e5ac99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648824"
 ---
 # <a name="using-the-adsi-schema"></a>Использование схемы ADSI
 
@@ -27,6 +27,6 @@ Active Directory использует набор объектов схемы д�
 
 Дополнительные сведения о схеме Active Directory см. в разделе [Active Directory Schema](/windows/desktop/AD/active-directory-schema). Примеры кода, используемые для чтения контейнера схемы, см. [в разделе чтение схемы](reading-the-schema.md).
 
- 
+ 
 
- 
+ 

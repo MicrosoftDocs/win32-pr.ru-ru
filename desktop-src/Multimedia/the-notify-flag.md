@@ -6,12 +6,12 @@ keywords:
 - Флаг MCI_NOTIFY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9093e539becb4ba2f09b48d628a57d8243bd837c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cbec671a9810d31078eedf9b8557bcdc4fa7c3e82f688b7fd005f85cb4127476
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688274"
 ---
 # <a name="the-notify-flag"></a>Флаг уведомления
 
@@ -19,6 +19,6 @@ ms.locfileid: "104412921"
 
 Приложение задает маркер для окна назначения для сообщения, когда оно выдает команду. В интерфейсе командной строки этот обработчик является последним параметром функции [**mciSendString**](/previous-versions//dd757161(v=vs.85)) . В интерфейсе командного сообщения этот маркер указывается в младшем слове элемента **двкаллбакк** структуры, отправленном с помощью командного сообщения. (Каждая структура, связанная с командным сообщением, содержит этот элемент.)
 
- 
+ 
 
- 
+ 

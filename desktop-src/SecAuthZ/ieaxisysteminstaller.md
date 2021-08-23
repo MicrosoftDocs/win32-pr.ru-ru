@@ -1,5 +1,5 @@
 ---
-description: Устанавливает объект ActiveX.
+description: устанавливает объект ActiveX.
 ms.assetid: 0eb725a9-ceb8-40e5-808d-ac2b286a48b6
 title: Интерфейс Иеаксисистеминсталлер
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 391088a70aa845cd685511f10e4eb6e809dc7fcf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb462c4b4f8fc28d9d00de230dea1bbd3670c4fb6eaa962d59875b4fd9054c8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671014"
 ---
 # <a name="ieaxisysteminstaller-interface"></a>Интерфейс Иеаксисистеминсталлер
 
-Интерфейс **иеаксисистеминсталлер** устанавливает объект ActiveX.
+интерфейс **иеаксисистеминсталлер** устанавливает объект ActiveX.
 
 Этот интерфейс не объявлен в общедоступном заголовке. Приложения должны самостоятельно определять его. Этот интерфейс описан в следующем фрагменте языка определения интерфейса (IDL), включая его IID.
 
@@ -56,19 +56,19 @@ interface IeAxiSystemInstaller : IUnknown
 
 | Метод                                                                              | Описание                                       |
 |:------------------------------------------------------------------------------------|:--------------------------------------------------|
-| [**инитиализесистеминсталлер**](ieaxisysteminstaller-initializesysteminstaller.md) | Устанавливает указанный объект ActiveX.<br/> |
+| [**инитиализесистеминсталлер**](ieaxisysteminstaller-initializesysteminstaller.md) | устанавливает указанный объект ActiveX.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Business, Windows Vista Корпоративная, только для \[ настольных приложений Windows Vista Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows vista Business, Windows vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                 |
 | IID<br/>                      | IID \_ иеаксисистеминсталлер определен как a50ea6f8-4764-4299-b309-022b2a8b4d8d<br/>                   |
 

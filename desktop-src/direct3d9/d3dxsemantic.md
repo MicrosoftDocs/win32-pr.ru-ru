@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 08a30ac4d669beb5b93f2823219cb167d9e8d67f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2534df72c246fdec361597a8e156f7f19b341ae35fcc04b3bdc6eb71c2903fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631024"
 ---
 # <a name="d3dxsemantic-structure"></a>Структура D3DXSEMANTIC
 
@@ -62,7 +62,7 @@ typedef struct D3DXSEMANTIC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Семантика необходима для построителя вершин и пиксельного шейдера, входных и выходных регистров.
 
@@ -72,7 +72,7 @@ typedef struct D3DXSEMANTIC {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
 
 
 

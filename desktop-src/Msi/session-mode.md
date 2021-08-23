@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f081859db789601f2c41bf95d65c377fba8d51f8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed0c24280307cf368239ab88b5357924a3ee40d5a62444838e155aca2c0642f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119629124"
 ---
 # <a name="sessionmode-property"></a>Свойство Session. Mode
 
@@ -57,7 +57,7 @@ propVal = Session.Mode
 | <span id="msiRunModeCabinet"></span><span id="msirunmodecabinet"></span><span id="MSIRUNMODECABINET"></span><dl> <dt>**мсирунмодекабинет**</dt> <dt>8</dt> </dl>                                      | Установка файлов из ящиков и файлов с помощью таблицы Media.<br/>                         |
 | <span id="msiRunModeSourceShortNames"></span><span id="msirunmodesourceshortnames"></span><span id="MSIRUNMODESOURCESHORTNAMES"></span><dl> <dt>**мсирунмодесаурцешортнамес**</dt> <dt>9</dt> </dl>  | Исходные файлы используют только короткие имена файлов.<br/>                                             |
 | <span id="msiRunModeTargetShortNames"></span><span id="msirunmodetargetshortnames"></span><span id="MSIRUNMODETARGETSHORTNAMES"></span><dl> <dt>**мсирунмодетаржетшортнамес**</dt> <dt>10</dt> </dl> | В качестве целевых файлов следует использовать только короткие имена файлов.<br/>                                      |
-| <span id="msiRunModeWindows9x"></span><span id="msirunmodewindows9x"></span><span id="MSIRUNMODEWINDOWS9X"></span><dl> <dt>**msiRunModeWindows9x**</dt> <dt>12</dt> </dl>                             | Операционная система — Windows 98/95.<br/>                                                  |
+| <span id="msiRunModeWindows9x"></span><span id="msirunmodewindows9x"></span><span id="MSIRUNMODEWINDOWS9X"></span><dl> <dt>**msiRunModeWindows9x**</dt> <dt>12</dt> </dl>                             | операционная система — Windows 98/95.<br/>                                                  |
 | <span id="msiRunModeZawEnabled"></span><span id="msirunmodezawenabled"></span><span id="MSIRUNMODEZAWENABLED"></span><dl> <dt>**мсирунмодезавенаблед**</dt> <dt>13</dt> </dl>                         | Операционная система поддерживает рекламу продуктов.<br/>                                  |
 | <span id="msiRunModeScheduled"></span><span id="msirunmodescheduled"></span><span id="MSIRUNMODESCHEDULED"></span><dl> <dt>**мсирунмодесчедулед**</dt> <dt>16</dt> </dl>                             | Отложенное [настраиваемое действие](custom-actions.md) , вызываемое из установки выполнения скрипта.<br/>  |
 | <span id="msiRunModeRollback"></span><span id="msirunmoderollback"></span><span id="MSIRUNMODEROLLBACK"></span><dl> <dt>**мсирунмодероллбакк**</dt> <dt>17</dt> </dl>                                 | Отложенное [настраиваемое действие](custom-actions.md) , вызываемое из скрипта выполнения отката.<br/> |
@@ -67,13 +67,13 @@ propVal = Session.Mode
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 

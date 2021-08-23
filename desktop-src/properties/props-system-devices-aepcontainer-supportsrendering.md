@@ -4,12 +4,12 @@ ms.assetid: 240065af-b0bc-4c2f-b483-724e0cb1f358
 title: System. Devices. Аепконтаинер. Суппортсрендеринг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd144e5e93db68991517fa93af38a577231c8e58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60d470d29609b2b375ae961653570105ae2ebe8c48c7bd7e21d34b9ccf7c8ee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598684"
 ---
 # <a name="systemdevicesaepcontainersupportsrendering"></a>System. Devices. Аепконтаинер. Суппортсрендеринг
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

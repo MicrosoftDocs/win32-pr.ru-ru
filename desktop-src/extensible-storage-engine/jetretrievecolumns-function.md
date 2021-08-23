@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 515be3a36932c9a56843f51d2e1b32a41ca94e5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644fbe105673a25ca782cfd161a6d60839b045c2fa433f74f789c32741a4ceb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728124"
 ---
 # <a name="jetretrievecolumns-function"></a>Функция JetRetrieveColumns
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetretrievecolumns-function"></a>Функция JetRetrieveColumns
 
@@ -63,7 +63,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -116,7 +116,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p><strong>Windows XP:</strong>  эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errNoCurrentRecord</p></td>
@@ -133,7 +133,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p><strong>Windows XP:</strong>  Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
+<p><strong>Windows XP:</strong>  эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>
@@ -151,7 +151,7 @@ _**Применимо к:** Windows | Windows Server_
 
 В случае сбоя положение курсора остается неизменным и данные не копируются в предоставленный буфер.
 
-#### <a name="remarks"></a>Комментарии
+#### <a name="remarks"></a>Remarks
 
 **Жетретриевеколумнс** поддерживает одну функцию, которая не является [жетретриевеколумн](./jetretrievecolumn-function.md) . Это возможность получения количества экземпляров столбца с несколькими значениями. Эта функция предназначена для того, чтобы приложение получало все значения столбца. Это можно сделать, сначала определив количество значений в столбце. Затем их длину можно определить, вызвав **жетретриевеколумнс** еще раз с одной структурой [JET_RETRIEVECOLUMN](./jet-retrievecolumn-structure.md) , выделенной для каждого значения, чтобы определить длину данных столбца. Это можно сделать, передав указатели **null**_пвдата_ с *кбмакс* 0 (нулем) и извлекая длину столбца в *кбактуал*. Третий и последний вызовы можно выполнить с выделенной памятью для данных значения столбца.
 
@@ -167,11 +167,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -189,7 +189,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-#### <a name="see-also"></a>См. также:
+#### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_SESID](./jet-sesid.md)  

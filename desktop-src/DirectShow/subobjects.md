@@ -4,12 +4,12 @@ ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Подобъекты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad8b427a315231577f1608a168629bc8b77d2cc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaf828d0049816c0cbf932b96344b0270c4c9dbfb835a0750736551ff67b319b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633484"
 ---
 # <a name="subobjects"></a>Подобъекты
 
@@ -19,8 +19,8 @@ ms.locfileid: "103911700"
 
 Тип подобъекта зависит от типа объекта:
 
--   Источник: любой фильтр источника DirectShow или фильтр синтаксического анализатора, который поддерживает поиск и создает формат, поддерживаемый DES. Это может быть сжатый формат, если существуют фильтры DirectShow для декодирования.
--   Действие: для видео — любой из двух входных одноэлементных данных Microsoft® DirectX® Transform. Для звука — любой фильтр для звуковых эффектов DirectShow.
+-   source: любой фильтр источника DirectShow или фильтр синтаксического анализатора, который поддерживает поиск и создает формат, поддерживаемый DES. это может быть сжатый формат, если существуют DirectShow фильтры для их декодирования.
+-   Действие: для видео — любой из двух входных одноэлементных данных Microsoft® DirectX® Transform. для звука это любой DirectShow фильтр звуковых эффектов.
 -   Переход: для видео — любой двухмерный входной объект преобразования DirectX с двумя D. Звук не поддерживает переходы.
 
 Группы, композиции и дорожки не имеют подобъектов.
@@ -29,7 +29,7 @@ ms.locfileid: "103911700"
 
 Дополнительные сведения см. в разделе [Работа с источниками](working-with-sources.md) и [Работа с эффектами и переходами](working-with-effects-and-transitions.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

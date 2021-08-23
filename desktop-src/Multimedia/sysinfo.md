@@ -3,7 +3,7 @@ title: Команда сисинфо
 description: Команда сисинфо извлекает сведения о системе MCI. Команда сисинфо является системной командой MCI; он интерпретируется непосредственно MCI.
 ms.assetid: 494e8976-aac3-4d9f-b14b-3d3fd1917b45
 keywords:
-- Команда сисинфо мультимедиа Windows
+- команда сисинфо Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4751a5633462afe1ca8e8cd9abee1afeb16ac242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a0af11370fd3968a2f5a6cf296ea04507f18d517665071674cfa8a4573e1a4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688334"
 ---
 # <a name="sysinfo-command"></a>Команда сисинфо
 
@@ -88,7 +88,7 @@ sysinfo waveaudio quantity open
 sysinfo waveaudio name 1 open
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -99,7 +99,7 @@ sysinfo waveaudio name 1 open
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

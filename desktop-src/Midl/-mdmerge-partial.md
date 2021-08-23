@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66113791c242e88485dcb160917191ff4789af03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0feea96e2a510211bbe7dd3ead8f9570750609a30c860751e6073472c9aa772
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650284"
 ---
 # <a name="partial-switch"></a>/партиал, параметр
 
@@ -37,7 +37,7 @@ mdmerge /partial
 
 **мдмерже/партиал**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -48,7 +48,7 @@ mdmerge /partial
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETACTIVETIMER (VFW. h)
 description: Сообщение МЦИВНДМ \_ жетактиветимер получает период обновления, используемый, когда окно мЦивнд является активным окном. Это сообщение можно отправить явно или с помощью макроса МЦивнджетактиветимер.
 ms.assetid: f9e6f9ed-75fd-4e45-ad92-79a82d8d572c
 keywords:
-- MCIWNDM_GETACTIVETIMER сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETACTIVETIMER Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb86fc2940c8bd5d82c004754b81e5389ada892
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bc542e5a4b43b974eb7f28bc59d8e2fab7547834f28b5bccb6ea46f978e2158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525524"
 ---
 # <a name="mciwndm_getactivetimer-message"></a>\_Сообщение мЦивндм жетактиветимер
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает период обновления в миллисекундах. Значение по умолчанию — 500 миллисекунд.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -50,7 +50,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

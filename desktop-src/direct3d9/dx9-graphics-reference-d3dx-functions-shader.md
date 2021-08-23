@@ -4,12 +4,12 @@ ms.assetid: 541e8988-db05-4e25-84f1-c6799f31e442
 title: Функции шейдера (графика Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86f1a346cb0b5934c942668fb18f7d5b835d04a2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9e879672240269aca8795999ae1b3b5f83b3e828d9a0f9e315ceee89fe7a41b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105719234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728224"
 ---
 # <a name="shader-functions-direct3d-9-graphics"></a>Функции шейдера (графика Direct3D 9)
 
@@ -37,7 +37,7 @@ D3DX предоставляет следующие функции шейдера
 -   [**D3DXPreprocessShaderFromFile**](d3dxpreprocessshaderfromfile.md)
 -   [**D3DXPreprocessShaderFromResource**](d3dxpreprocessshaderfromresource.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

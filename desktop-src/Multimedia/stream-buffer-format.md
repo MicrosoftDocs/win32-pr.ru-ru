@@ -10,12 +10,12 @@ keywords:
 - Структура МИДИЕВЕНТ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 801a7f0dbeabd0d7aebeae0387af415a831e4658
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 072c2541ab6b731686fc63c59b11b0dfff529ef9cab347d41fbddf13e9b60b04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688504"
 ---
 # <a name="stream-buffer-format"></a>Формат буфера потока
 
@@ -23,6 +23,6 @@ ms.locfileid: "104412791"
 
 Каждое событие MIDI в буфере потока определяется структурой [**мидиевент**](/windows/win32/api/mmeapi/ns-mmeapi-midievent) , которая содержит время события, идентификатор потока, код события и, при необходимости, параметры для события. Каждая из этих структур **мидиевент** должна начинаться на границе даублеворд. При необходимости необходимо добавить в конец структуры байты для заполнения, чтобы следующий элемент начинался на границе даублеворд.
 
- 
+ 
 
- 
+ 

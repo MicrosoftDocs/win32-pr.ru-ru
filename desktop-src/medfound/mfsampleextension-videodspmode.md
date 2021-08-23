@@ -4,12 +4,12 @@ ms.assetid: 13F877A3-7600-400F-9071-FE1B83027355
 title: Атрибут MFSampleExtension_VideoDSPMode (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 309d4b5b68455e78ba63074b9d8ec5e4cbde4fb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95776fd7b8e130b9538e98843ca72d69980978b6f954747fadca939b8d3c5922
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554934"
 ---
 # <a name="mfsampleextension_videodspmode-attribute"></a>Мфсампликстенсион \_ видеодспмоде, атрибут
 
@@ -29,23 +29,23 @@ ms.locfileid: "105719466"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**Стабилизация видео MFT**](video-stabilization-mft.md) задает этот атрибут в выходных образцах, которые он создает. Значение атрибута является значением перечисления [**мфвидеодспмоде**](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mfvideodspmode) . Если значение равно **мфвидеодспмоде \_ стабилизации**, это означает, что MFT применил Image стабилизации к кадру.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

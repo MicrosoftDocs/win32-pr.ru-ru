@@ -3,7 +3,7 @@ title: External. Аппколормедиум (тип 1)
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. Аппколормедиум (тип 1)
 ms.assetid: 03938128-a767-4988-8d64-6d6632e0ab16
 keywords:
-- Внешний. Аппколормедиум (тип 1) проигрыватель Windows Media
+- External. аппколормедиум (тип 1) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6774166eb836e4d43975cc305ecb1f522e21d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aa8fd04dbd2ef49147df2c48e73e989eb761a858fec998af2769835fe178dae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649594"
 ---
 # <a name="externalappcolormedium-type-1"></a>External. Аппколормедиум (тип 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "105695124"
 
  
 
-Свойство **аппколормедиум** получает текущий средний цвет, затененный в пользовательском интерфейсе проигрывателя Windows Media.
+свойство **аппколормедиум** получает текущий средний затененный цвет проигрыватель Windows Media пользовательского интерфейса.
 
 ``` syntax
 window.external.appColorMedium
@@ -39,22 +39,22 @@ window.external.appColorMedium
 
 Это свойство является **строкой**, доступная только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пользователи могут изменять цвет пользовательского интерфейса проигрывателя Windows Media. Это свойство можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
+пользователи могут изменять цвет пользовательского интерфейса проигрыватель Windows Media. Это свойство можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии<br/>                                        |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии<br/>                                        |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

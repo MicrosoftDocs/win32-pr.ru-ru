@@ -4,12 +4,12 @@ ms.assetid: 6499128d-d26d-47f2-b050-927159980307
 title: System. Devices. Метадатапас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2b7f5f505dffb70f8e2a50ac2cb1564deb70c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 973c5fd007d35c8c5d60e067da94c7d875d64e7db305c455ac3e6eec2363f8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598564"
 ---
 # <a name="systemdevicesmetadatapath"></a>System. Devices. Метадатапас
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

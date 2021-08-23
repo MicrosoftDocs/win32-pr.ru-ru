@@ -4,16 +4,16 @@ ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: Интерфейсы видеозаписи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7c88ab86833a3570789dee311b36d49f382c9cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bfee9807a94f381fef3a294dcd405de6fe8b67fafef3ace562309fe5e10d2ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633064"
 ---
 # <a name="video-capture-interfaces"></a>Интерфейсы видеозаписи
 
-Эти интерфейсы поддерживают видеозапись, используя Microsoft® устройства с Windows® Driver Model (WDM) или устаревшее приложение Microsoft® Video для устройств Windows® (VFW).
+эти интерфейсы поддерживают видеозапись, с помощью устройств microsoft® Windows® Driver Model (WDM) или устаревшего видео microsoft® video для устройств Windows® (VFW).
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "105673450"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

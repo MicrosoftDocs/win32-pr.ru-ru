@@ -3,7 +3,7 @@ title: Событие external. Онколорчанже (тип 1)
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | Событие external. Онколорчанже (тип 1)
 ms.assetid: 45e6ec4a-e680-4d50-8fb7-410f12383eef
 keywords:
-- Событие external. Онколорчанже (тип 1) проигрыватель Windows Media
+- событие External. онколорчанже (тип 1) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11805cc154c60b8a765f46041f74d40929df418d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b50f23763827965c80c3c2774f6139ba2345e4e50633966d5debc1f2d4b782e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648784"
 ---
 # <a name="externaloncolorchange-event-type-1"></a>Событие external. Онколорчанже (тип 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "105698883"
 
  
 
-Событие **онколорчанже** возникает при изменении цвета пользовательского интерфейса проигрывателя Windows Media.
+событие **онколорчанже** возникает при изменении цвета пользовательского интерфейса проигрыватель Windows Media.
 
 ``` syntax
 window.external.OnColorChange = FunctionName
@@ -36,28 +36,28 @@ window.external.OnColorChange = FunctionName
 
 ## <a name="possible-values"></a>Возможные значения
 
-Это свойство только для записи, которое указывает имя функции в скрипте, которое вызывает проигрыватель Windows Media при возникновении события.
+это свойство только для записи, которое указывает имя функции в скрипте, проигрыватель Windows Media вызывается при возникновении события.
 
 ## <a name="parameters"></a>Параметры
 
 Функция, обрабатывающая это событие, не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пользователи могут изменять цвет пользовательского интерфейса проигрывателя Windows Media. Это событие можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
+пользователи могут изменять цвет пользовательского интерфейса проигрыватель Windows Media. Это событие можно использовать для настройки внешнего вида размещенной веб-страницы в соответствии с проигрывателем.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

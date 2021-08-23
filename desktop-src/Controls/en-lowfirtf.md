@@ -3,7 +3,7 @@ title: Код уведомления EN_LOWFIRTF (RichEdit. h)
 description: Сообщает родительскому окну элемента управления Microsoft Rich Edit, что было получено Неподдерживаемое ключевое слово формата RTF. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ сообщения WM notify.
 ms.assetid: 3b18320b-ebc3-44f2-a93c-e967a028c522
 keywords:
-- EN_LOWFIRTF кода уведомления элементы управления Windows
+- EN_LOWFIRTF кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e74a6e5dada471fdd8364b34bf2ed1b4da7f2314
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffafccf7fc52506ce72c6591ae9d4b5e3f5ee8855788267fbfae98497165e4ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576324"
 ---
 # <a name="en_lowfirtf-notification-code"></a>\_Код уведомления EN ловфиртф
 
@@ -49,23 +49,23 @@ EN_LOWFIRTF
 
 Этот код уведомления не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить уведомление EN \_ ловфиртф, укажите \_ флаг енм ловфиртф в маске, отправляемой с сообщением [**EM \_ SETEVENTMASK**](em-seteventmask.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

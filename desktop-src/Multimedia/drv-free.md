@@ -3,7 +3,7 @@ title: Сообщение DRV_FREE (Ммсистем. h)
 description: Уведомляет драйвер о том, что он удаляется из памяти. Драйвер должен освободить память и другие выделенные системные ресурсы.
 ms.assetid: 0447f8e9-4c4d-4be5-ab1f-ecd3e8cd2e67
 keywords:
-- DRV_FREE сообщения Windows мультимедиа
+- сообщение DRV_FREE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abb9d70d269cb84e0d6ef0881618b67cfef11068
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21a558dc7a2c3ece040790b2351ff39dc3054d660eb9368567ed7ce79d40c8a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526214"
 ---
 # <a name="drv_free-message"></a>\_Свободное сообщение DRV
 
@@ -40,13 +40,13 @@ ms.locfileid: "103989354"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры *двдриверид*, *lParam1* и *lParam2* не используются.
 
 Сообщение **DRV \_ Free** всегда является последним сообщением, которое получает драйвер устройства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,11 +54,11 @@ ms.locfileid: "103989354"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

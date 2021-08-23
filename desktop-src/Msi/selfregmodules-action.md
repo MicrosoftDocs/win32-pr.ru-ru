@@ -4,12 +4,12 @@ ms.assetid: b139ae28-e479-4915-909d-2449244e9fd6
 title: Действие Селфрегмодулес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75895b1886fad51f36113ce6e677ba6a534ab0cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf137dc63baa72a3d5b93370e40911af93691eaa911c4081990656c84091870
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630044"
 ---
 # <a name="selfregmodules-action"></a>Действие Селфрегмодулес
 
@@ -32,13 +32,13 @@ ms.locfileid: "105664577"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие Селфрегмодулес пытается вызвать функцию [DllRegisterServer](/windows/win32/api/olectl/nf-olectl-dllregisterserver) модуля, для которого запланирована регистрация. Это действие выполняется с повышенными привилегиями при запуске установки с повышенными привилегиями, например во время установки на компьютере. Во время установки для отдельного пользователя программа установки выполняет это действие с правами пользователя.
 
 Обратите внимание, что нельзя указать порядок, в котором установщик регистрирует самостоятельную регистрацию библиотек DLL с помощью [действия селфунрегмодулес](selfunregmodules-action.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

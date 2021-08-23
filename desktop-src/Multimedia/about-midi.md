@@ -3,7 +3,7 @@ title: О MIDI
 description: О MIDI
 ms.assetid: 32030c98-e513-4ee3-bbd0-ba41fceadd57
 keywords:
-- Мультимедиа Windows, цифровой интерфейс музыкальных инструментов (MIDI)
+- Windows мультимедиа, цифровой интерфейс музыкальных инструментов (MIDI)
 - мультимедиа, цифровой интерфейс музыкальных инструментов (MIDI)
 - мультимедийный звук, цифровой интерфейс музыкальных инструментов (MIDI)
 - аудио, цифровой интерфейс музыкальных инструментов (MIDI)
@@ -21,12 +21,12 @@ keywords:
 - Службы MIDI, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43c476807f750f9e90788377588f6c9af96561aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ad1ce20164c42342c52defd27e7f3ccdfb0a44ec9a4e0a6679c1b190270fc62e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526694"
 ---
 # <a name="about-midi"></a>О MIDI
 
@@ -47,9 +47,9 @@ ms.locfileid: "103774462"
 -   [Обработка данных MIDI из двух источников MIDI](processing-midi-data-from-two-midi-sources.md)
 -   [Создание файлов MIDI](creating-midi-files.md)
 
- 
+ 
 
- 
+ 
 
 
 

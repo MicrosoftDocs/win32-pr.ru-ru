@@ -1,14 +1,14 @@
-- name: Диспетчер анимации Windows
+- name: Windows Диспетчер анимации
   href: '-main-portal.md'
   items:
-    - name: Руководством по разработке анимации Windows
+    - name: Windows Рекомендации по разработке анимации
       href: windows-animation-developer-guide.md
       items:
-        - name: Общие сведения о анимации Windows
+        - name: Windows Общие сведения об анимации
           href: scenic-animation-api-overview.md
         - name: Общие сведения о раскадровке
           href: storyboard-construction.md
-        - name: Задачи анимации Windows
+        - name: Windows Задачи анимации
           href: using-windows-animation.md
           items:
             - name: Создание основных объектов анимации
@@ -23,7 +23,7 @@
               href: updating---timer-driven-animation.md
             - name: Планирование раскадровки
               href: scheduling-a-storyboard.md
-    - name: Справочник по анимации Windows
+    - name: Windows Справочник по анимации
       href: windows-animation-reference.md
       items:
         - name: Константы
@@ -614,9 +614,9 @@
               href: /previous-versions/windows/desktop/legacy/dd317028(v=vs.85)
             - name: UIAnimationTransitionLibrary2
               href: /previous-versions/windows/desktop/legacy/hh448668(v=vs.85)
-        - name: Коды ошибок анимации Windows
+        - name: Windows Коды ошибок анимации
           href: uianimation-error-codes.md
-    - name: Примеры анимации Windows
+    - name: Windows Примеры анимации
       href: windows-animation-samples.md
       items:
         - name: Пример анимации Application-Driven
@@ -629,5 +629,5 @@
           href: grid-layout-sample.md
         - name: Пример сравнения приоритетов
           href: priority-comparison-sample.md
-    - name: Глоссарий анимации Windows
+    - name: Windows Глоссарий анимации
       href: '-ui-animation-glossary.md'

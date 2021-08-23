@@ -4,12 +4,12 @@ ms.assetid: 8b1a1f0d-5857-4ab4-828c-8ca7c17a4890
 title: Размытие движения (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fccb5c00d1208041afc31d4afe1cf0c7a5425037
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d3daa0b35a0c375cc798b619f18f1e363001050de4dcc950e6c6828a7d365801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628324"
 ---
 # <a name="motion-blur-direct3d-9"></a>Размытие движения (Direct3D 9)
 
@@ -23,7 +23,7 @@ ms.locfileid: "104537592"
 
 Если приложение имитирует эффект движения пользователя через сцену с высокой скоростью, оно может добавить размытие для всей сцены. В этом случае приложение отображает всю сцену несколько раз для каждого кадра. Каждый раз, когда сцена готовится к просмотру, приложение должно слегка переместить точку зрения. Если сцена сильно сложна, пользователь может увидеть заметное снижение производительности по мере увеличения числа визуализаций сцены на кадр.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

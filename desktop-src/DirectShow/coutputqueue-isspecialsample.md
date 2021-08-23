@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cc57847d6a977c740bbf50bae220a89b0ed6fab1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c192196869f86e8d78da2f6b38a661373e115753d99e554f4b7a868eb0b484fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688224"
 ---
 # <a name="coutputqueueisspecialsample-method"></a>Каутпуткуеуе. ИсспеЦиалсампле, метод
 
@@ -53,22 +53,22 @@ BOOL IsSpecialSample(
 
 Возвращает **значение true** , если *псампле* является управляющим сообщением, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**каутпуткуеуе:: QueueSample**](coutputqueue-queuesample.md) может получать управляющие сообщения в дополнение к примерам мультимедиа. Управляющее сообщение — это определенная константа (приведение к \_ типу Long PTR), которая указывает потоку выполнить действие. Управляющие сообщения не содержат данных мультимедиа. Дополнительные сведения см. в разделе **каутпуткуеуе:: QueueSample**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>аутпутк. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

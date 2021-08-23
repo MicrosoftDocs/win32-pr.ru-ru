@@ -4,12 +4,12 @@ ms.assetid: fe33c484-346d-4888-ba88-b8ab00feefbb
 title: Включить режим адресации текстуры (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e721ace45599236022f32e6b0ec3723e346befbd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 820273a68754c11f17f4f2762c7e824562b8e52bfc0b2b097c21e82789ce4168
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627832"
 ---
 # <a name="wrap-texture-address-mode-direct3d-9"></a>Включить режим адресации текстуры (Direct3D 9)
 
@@ -19,7 +19,7 @@ ms.locfileid: "104262317"
 
 Эффекты этого режима адресации текстуры аналогичны, но отличаются от них в режиме зеркального отображения. Дополнительные сведения см. в разделе [режим адресации зеркальной текстуры (Direct3D 9)](mirror-texture-address-mode.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

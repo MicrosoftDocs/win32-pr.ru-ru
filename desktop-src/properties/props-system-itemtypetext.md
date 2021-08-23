@@ -4,12 +4,12 @@ ms.assetid: 5d4c86da-6317-4a34-88d6-caf794aaa165
 title: System. Итемтипетекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699a953392054cb2344c5f3b3d652e64a9a2c1f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f145aa2491f3352c4691be95c0e8ae16a75e8e0880732904e983fbf02c167dbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553754"
 ---
 # <a name="systemitemtypetext"></a>System. Итемтипетекст
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Если [System. ItemType](./props-system-itemtype.md) является VT \_ пустым, значение этого свойства также является VT \_ пустым. Если элемент является файлом, значение этого свойства будет таким же, как если бы значение System. ItemType файла было передано в [**псформатфордисплай**](/windows/win32/api/propsys/nf-propsys-psformatfordisplay).
 
-Это свойство не следует путать с [System. Kind](./props-system-kind.md), которое представляет собой высокоуровневое понятное имя типа. Например, для DOC-файла документа используются различные свойства, как показано ниже.
+Это свойство не следует путать с [System. Kind](./props-system-kind.md), которое представляет собой высокоуровневое понятное имя типа. Например, для .doc файла документа используются различные свойства, как показано ниже.
 
 
 
@@ -45,7 +45,7 @@ propertyDescription
 |--------------------------------------------------------|-------------------------|
 | [System. Kind](./props-system-kind.md)                 | Документ                |
 | [System. ItemType](./props-system-itemtype.md)         | .doc                    |
-| [System. Итемтипетекст]() | Документ Microsoft Word |
+| [System. Итемтипетекст]() | Microsoft Word Документирован |
 
 
 
@@ -58,16 +58,16 @@ propertyDescription
 | Путь                                   | итемтипетекст            |
 |----------------------------------------|-------------------------|
 | в. \\ \\ линейчатая диаграмма MyDir \\hello.txt              | Текстовый файл               |
-| \\\\\\Общая папка сервера \\ MyDir \\goodnews.doc | Документ Microsoft Word |
+| \\\\\\Общая папка сервера \\ MyDir \\goodnews.doc | Microsoft Word Документирован |
 | \\\\\\Общая \\ папка сервера              | Папка с файлами             |
 | c: \\ MyDir \\ MyFolder                    | Папка с файлами             |
-| Учетная запись/маилбокс/Inbox/"Re: Hello!"    | Сообщение электронной почты Outlook  |
+| Учетная запись/маилбокс/Inbox/"Re: Hello!"    | Outlook Сообщение электронной почты  |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

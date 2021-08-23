@@ -4,12 +4,12 @@ ms.assetid: ac5289c6-989c-43b4-9190-ac8f831a05f0
 title: скинвеигхтс
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 759239a3a7ec8ebb608cf9ede6624105cee321b4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0bb76b1c0860e64f2e1e8b42cb7ed4d2af984cc043425b97e03cf997714d0e63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627914"
 ---
 # <a name="skinweights"></a>скинвеигхтс
 
@@ -33,7 +33,7 @@ template SkinWeights
 -   Вершины, на которые влияет эта кость, содержатся в Вертексиндицес, а весовые коэффициенты для каждого из вершин, влияющих на эту кость, содержатся в весовых коэффициентах.
 -   Матрица Матриксоффсет преобразует вершины сетки в пространство кости. При объединении с преобразованием кости это обеспечивает координаты сетки в мировом пространстве, как это влияет на кость. См. [**Matrix4x4**](matrix4x4.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

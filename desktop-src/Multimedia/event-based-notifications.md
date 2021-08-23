@@ -10,12 +10,12 @@ keywords:
 - уведомления джойстика на основе событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1aa36809942593cdbe21b61af0d4f07f02b186a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8b50e973434d5f5706c92a22f76846ada150bfc7caf3f5ba88c3f385f7eaf84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103789997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526184"
 ---
 # <a name="event-based-notifications"></a>Уведомления Event-Based
 
@@ -23,6 +23,6 @@ ms.locfileid: "103789997"
 
 Пороговое значение изначально равно нулю. Порог перемещения можно задать с помощью функции [**жойсетсрешолд**](/windows/win32/api/joystickapi/nf-joystickapi-joysetthreshold) . Минимальную частоту опроса джойстика можно получить с помощью функции [**жойжетдевкапс**](/windows/win32/api/joystickapi/nf-joystickapi-joygetdevcaps) .
 
- 
+ 
 
- 
+ 

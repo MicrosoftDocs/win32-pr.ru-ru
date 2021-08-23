@@ -4,23 +4,23 @@ description: В этом разделе показано, как создать 
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 621e3f48f76b76be92dc464678dce23b08ebdbd6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0e27a3af12976f08a1f878779506ac1a42076adecebda02550149e5cb1653d31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104412983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670883"
 ---
 # <a name="how-to-build-a-simple-visual-tree"></a>Создание простого визуального дерева
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 В этом разделе показано, как создать простое визуальное дерево Microsoft DirectComposition. Пример в этом разделе создает и формирует визуальное дерево, состоящее из корневого визуального элемента и трех дочерних визуальных элементов. Содержимое корневого визуального элемента — это светло-синий точечный рисунок, служащий фоном для дочерних визуальных элементов. На этом рисунке показана композиция, созданная в примере кода в этой статье.
 
 ![композиция, состоящая из корневого точечного рисунка и трех дочерних растровых изображений](images/buildvisualtree.png)
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
@@ -28,7 +28,7 @@ ms.locfileid: "104412983"
 -   [Графика Direct3D 11](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 -   [Графическая инфраструктура DirectX (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 Знания:
 
@@ -83,7 +83,7 @@ for (int i = 0; i < NUM_VISUALS; i++)
 }
 ``` 
 
-В следующей определяемой функции показано, как создать поверхность Microsoft DirectComposition и визуализировать на поверхности точечный рисунок Windows интерфейс графических устройств (GDI).
+в следующей определяемой функции показано, как создать поверхность Microsoft DirectComposition и визуализировать на поверхности точечный рисунок Windows интерфейс графических устройств (GDI).
 
 ```cpp
 // MyCreateGDIRenderedDCompSurface - Creates a DirectComposition surface and 
@@ -853,7 +853,7 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap, IDCompositionS
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [**дкомпоситионкреатедевице**](/windows/desktop/api/Dcomp/nf-dcomp-dcompositioncreatedevice)
 * [**Идкомпоситиондевице:: Commit**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-commit)

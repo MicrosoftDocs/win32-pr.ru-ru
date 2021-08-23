@@ -4,12 +4,12 @@ ms.assetid: a5dd014f-21af-41f9-be75-1b139946179d
 title: Набор свойств потока сводных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3929e4180a85a8f154c0a0352ddd1f9a052769ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d41439e15a59ca1942fcbb49c06067251060935b165d6a34972df868fa7feac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627054"
 ---
 # <a name="summary-information-stream-property-set"></a>Набор свойств потока сводных данных
 
@@ -20,11 +20,11 @@ ms.locfileid: "105674494"
 | Имя свойства                                                | Идентификатор свойства        | ИД процесса | Тип         |
 |--------------------------------------------------------------|--------------------|-----|--------------|
 | [**Страница**](codepage-summary.md)                         | \_кодовая страница PID      | 1   | VT \_ I2       |
-| [**Заголовок**](title-summary.md)                               | \_название PID         | 2   | VT \_ LPSTR    |
-| [**Субъект**](subject-summary.md)                           | \_Тема PID       | 3   | VT \_ LPSTR    |
+| [**Название**](title-summary.md)                               | \_название PID         | 2   | VT \_ LPSTR    |
+| [**Тема**](subject-summary.md)                           | \_Тема PID       | 3   | VT \_ LPSTR    |
 | [**Автор**](author-summary.md)                             | \_Автор PID        | 4   | VT \_ LPSTR    |
-| [**Keywords**](keywords-summary.md)                         | \_Ключевые слова PID      | 5   | VT \_ LPSTR    |
-| [**Комментарии**](comments-summary.md)                         | \_Комментарии PID      | 6   | VT \_ LPSTR    |
+| [**Словами**](keywords-summary.md)                         | \_Ключевые слова PID      | 5   | VT \_ LPSTR    |
+| [**Примечания**](comments-summary.md)                         | \_Комментарии PID      | 6   | VT \_ LPSTR    |
 | [**Шаблон**](template-summary.md)                         | \_шаблон PID      | 7   | VT \_ LPSTR    |
 | [**Автор последнего сохранения**](last-saved-by-summary.md)               | Идентификатор процесса \_ ластаусор    | 8   | VT \_ LPSTR    |
 | [**Номер редакции**](revision-number-summary.md)           | Идентификатор процесса \_ ревнумбер     | 9   | VT \_ LPSTR    |

@@ -1,27 +1,27 @@
 ---
-title: Глобальные атрибуты (пакет SDK для проигрывателя Windows Media)
+title: глобальные атрибуты (проигрыватель Windows Media SDK)
 description: Глобальные атрибуты
 ms.assetid: 2ed09506-990e-4da2-89d6-6ff77dc43eb2
 keywords:
-- Обложки проигрывателя Windows Media, глобальные атрибуты
+- обложки проигрыватель Windows Media, глобальные атрибуты
 - обложки, глобальные атрибуты
 - Справочник по обложкам, глобальным атрибутам
 - Глобальные атрибуты
 - атрибуты, глобальные
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19c3f7a605b5c277b3207cefbbeaaa641f81f026
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 69c2d52b6489a28eff20e3a7e5c7180fc9e2db9309c0fe42880bfc779a23f563
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104412115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648084"
 ---
 # <a name="global-attributes"></a>Глобальные атрибуты
 
 Глобальные атрибуты — это атрибуты, обеспечивающие простой доступ к определенным элементам или объектам проигрывателя из любого места внутри обложки.
 
-Глобальный атрибут **Player** является ссылкой на объект [Player](player-object.md) и используется для доступа к основным функциям проигрывателя Windows Media. В следующем примере **проигрыватель** используется для начала воспроизведения цифрового мультимедиа.
+глобальный атрибут **player** является ссылкой на объект [player](player-object.md) и используется для доступа к основным функциям проигрыватель Windows Media. В следующем примере **проигрыватель** используется для начала воспроизведения цифрового мультимедиа.
 
 
 ```C++
@@ -85,16 +85,16 @@ ms.locfileid: "104412115"
 
 Дополнительные сведения см. в разделе [атрибуты внешних событий](ambient-event-attributes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Прочее**](miscellaneous.md)
+[**Разное**](miscellaneous.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

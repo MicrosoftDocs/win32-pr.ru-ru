@@ -11,12 +11,12 @@ keywords:
 - Тип данных МИДИАУТКАПС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e57911800e0d45c1db515e5b57045aae3856732c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8ba36163eb8074386f0f1fc573a123d4ef64271a8661ea42d521ab5b1b4c9aa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525104"
 ---
 # <a name="midi-output-data-types"></a>Типы выходных данных MIDI
 
@@ -32,8 +32,8 @@ Windows определяет следующие типы данных для в�
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

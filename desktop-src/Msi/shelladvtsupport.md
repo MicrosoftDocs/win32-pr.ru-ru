@@ -4,28 +4,28 @@ ms.assetid: 8c3503c5-2a9c-43ad-8cc5-ea10df39b24d
 title: Шелладвтсуппорт, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df0040aef3b53352a9da8a31bf97f14e8df3791e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cfacc34bfffdde9ce34841030f38c443a243c9923cb70749a27615cccc1c676e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628444"
 ---
 # <a name="shelladvtsupport-property"></a>Шелладвтсуппорт, свойство
 
 Свойство **шелладвтсуппорт** задается программой установки, если интерфейс [**ишелллинк**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka) системы поддерживает разрешение дескриптора установщика.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если это свойство задано, интерфейс [**ишелллинк**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka) системы поддерживает разрешение дескрипторов установщика. Это поддерживается в Windows 2000 и системах с Internet Explorer 4,01. Если это свойство не задано, установщик имеет поведение по умолчанию для создания необъявленных компонентов во время установки (локально или из источника).
+Если это свойство задано, интерфейс [**ишелллинк**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllinka) системы поддерживает разрешение дескрипторов установщика. это поддерживается Windows 2000 и системами с Internet Explorer 4,01. Если это свойство не задано, установщик имеет поведение по умолчанию для создания необъявленных компонентов во время установки (локально или из источника).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

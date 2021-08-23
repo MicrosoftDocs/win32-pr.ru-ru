@@ -4,12 +4,12 @@ ms.assetid: 78fbf15a-678f-4d87-a309-e70374e3ecee
 title: Создание имени субъекта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fe512be48c9a727857c4fac4abc6e04a705b7f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00a7350268c4b7fe5f0d6bde0630bfa7556bc8dd6085e11261456299b725dd57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670214"
 ---
 # <a name="creating-a-subject-name"></a>Создание имени субъекта
 
@@ -19,7 +19,7 @@ ms.locfileid: "104540154"
 |-----------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | C<br/>                      | \_ \_ имя страны кскн \_ OID<br/>              | Содержит двухбуквенный код страны ISO 3166 или регион.<br/>                                  |
 | CN<br/>                     | \_ \_ Общее имя OID \_ кскн<br/>               | Содержит общее имя.<br/>                                                                 |
-| E<br/> Отправить по электронной почте<br/>     | КСКН \_ OID \_ RSA \_ емаиладдр<br/>             | Содержит адрес электронной почты.<br/>                                                              |
+| E<br/> ОТПРАВИТЬ ПО ЭЛЕКТРОННОЙ ПОЧТЕ<br/>     | КСКН \_ OID \_ RSA \_ емаиладдр<br/>             | Содержит адрес электронной почты.<br/>                                                              |
 | DC<br/>                     | \_ \_ Компонент домена кскн \_ OID<br/>          | Содержит одну часть имени системы доменных имен (DNS).<br/>                                   |
 | G<br/> GivenName<br/> | \_заданное \_ \_ имя OID кскн<br/>                | Содержит часть имени человека, которая не является фамилией.<br/>                             |
 | I<br/>                      | \_ \_ инициалы OID кскн<br/>                   | Содержит инициалы пользователя.<br/>                                                           |
@@ -49,7 +49,7 @@ DC = com
 CN=Administrator,CN=Users,DC=jdomcsc,DC=nttest,DC=microsoft,DC=com
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 79fe02a483ade1ff60107287799624017496887b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2defeaf134db9a2464854554db721586f592fc62110d172e0ac804e010804966
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600834"
 ---
 # <a name="d3dauthenticatedchannel_query_output-structure"></a>\_ \_ Выходная Структура запроса D3DAUTHENTICATEDCHANNEL
 
@@ -78,23 +78,23 @@ typedef struct _D3DAUTHENTICATEDCHANNEL_QUERY_OUTPUT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для членов **QueryType**, **хчаннел** и **SequenceNumber** драйвер использует те же значения, что и приложение, предоставленное в структуре [**\_ \_ входных данных запроса D3DAUTHENTICATEDCHANNEL**](d3dauthenticatedchannel-query-input.md) . Приложение должно проверить, совпадают ли эти значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
-| Header<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,17 +4,17 @@ ms.assetid: b0e6bf16-b1d1-453d-8b58-272565c3d6e6
 title: Свойство Balance
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1334fcc51695f04ab0026ded8c68c17cb07aa0b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f4faa8bcacb8c4603dcb67ee6cc617ced4b31bd7afa3afa16d3ba3831040a004
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689384"
 ---
 # <a name="balance-property"></a>Свойство Balance
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "105682314"
 
 Возвращает целочисленное значение, представляющее уровни баланса. Допустимый диапазон входных данных — от-10 000 до 10 000. Значение 0 задает нейтральный баланс, который и левый, и правый динамики получают один и тот же звуковой сигнал амплитуды.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи со значением по умолчанию 0, означающее, что оба динамика получают эквивалентные звуковые сигналы. Как и свойство [**Volume**](volume-property.md) , единицы соответствуют .01 децибел (умноженному на-1, если
 

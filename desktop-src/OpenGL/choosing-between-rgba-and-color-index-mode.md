@@ -3,18 +3,18 @@ title: Выбор между RGBA и режимом Color-Index
 description: Как правило, для приложений OpenGL следует использовать режим RGBA; Он обеспечивает большую гибкость, чем режим индексов цвета для таких эффектов, как заливка, освещение, сопоставление цветов, туман, сглаживание и смешение.
 ms.assetid: 13644a7c-bdc6-4dac-ba16-4723c72b15e5
 keywords:
-- OpenGL в Windows, режим RGBA
-- OpenGL в Windows, режим индексирования цветов
+- OpenGL на Windows, режим RGBA
+- OpenGL на Windows, режим индексирования цветов
 - Режим RGBA OpenGL
 - режим индексирования цветов OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0368461d6ece7b823a8627f664daace027fd76c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfa78096369ec9ba01d6e0dcd3d67535a0d368ef7a5018d3679f9f64dcdf74d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554634"
 ---
 # <a name="choosing-between-rgba-and-color-index-mode"></a>Выбор между RGBA и режимом Color-Index
 
@@ -27,9 +27,9 @@ ms.locfileid: "103775959"
 -   При переносе существующего приложения, в котором используется режим индексирования цветов, существенно.
 -   Если вы хотите использовать в приложении анимацию и эффекты цветовой схемы. (Это невозможно на устройствах с true цветами.)
 
- 
+ 
 
- 
+ 
 
 
 

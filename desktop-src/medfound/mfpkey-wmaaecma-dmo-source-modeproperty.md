@@ -4,14 +4,14 @@ ms.assetid: d1d3beba-678c-48fd-ad12-45e0418e1236
 title: Свойство MFPKEY_WMAAECMA_DMO_SOURCE_MODE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec5749ff1f142603cc45df475caae7bc71182bde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ec9dd01be5a020047410362b2fdfc27fd8d703a393e3ae2f557b1dd3a42bf80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119555304"
 ---
-# <a name="mfpkey_wmaaecma_dmo_source_mode-property"></a>МФПКЭЙ \_ вмааекма \_ DMO \_ , \_ свойство исходного режима
+# <a name="mfpkey_wmaaecma_dmo_source_mode-property"></a>мфпкэй \_ вмааекма \_ DMO \_ \_ свойство исходного режима
 
 Указывает, использует ли DSP для захвата голоса режим исходного кода или режим фильтра.
 
@@ -27,11 +27,11 @@ ms.locfileid: "104263529"
 
 ВАРИАНТ \_ true
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В режиме исходного кода приложению не требуется передавать входные данные в DSP, так как DSP автоматически извлекает данные с аудио устройств. В режиме фильтрации приложение должно отправить входные данные в DSP.
 
@@ -49,7 +49,7 @@ ms.locfileid: "104263529"
  
 
 > [!Note]  
-> Когда DMO находится в режиме исходного кода, необходимо вызвать метод [**имедиаобжект:: сетаутпуттипе**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype) , чтобы задать формат выходного потока, и не вызывать [**Имедиаобжект:: сетинпуттипе**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype) для задания форматов входного потока. В противном случае инициализация DMO завершится ошибкой.
+> если DMO находится в режиме исходного кода, следует вызвать метод [**имедиаобжект:: сетаутпуттипе**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setoutputtype) , чтобы задать формат выходного потока, и не вызывать [**имедиаобжект:: сетинпуттипе**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-setinputtype) для задания форматов входного потока. в противном случае DMO инициализация завершится ошибкой.
 
  
 
@@ -69,23 +69,23 @@ ms.locfileid: "104263529"
  
 
 > [!Note]  
-> Только режимы с одним входом будут работать с фильтром оболочки DMO из API DirectShow 9,0.
+> только режимы с одним входом будут работать с фильтром оболочки DMO из API DirectShow 9,0.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
