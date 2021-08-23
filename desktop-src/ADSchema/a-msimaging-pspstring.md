@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d46f8ab0d065d80ae2d59aae4ba5639abf442bcb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9471b158b8b5453dc667f156525ccbcd30be8962fa00ca4574e591aed0dd16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119551224"
 ---
 # <a name="ms-imaging-psp-string-attribute"></a>MS-Imaging-PSP-строковый атрибут
 
@@ -43,7 +43,7 @@ ms.locfileid: "103893466"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -54,7 +54,7 @@ ms.locfileid: "103893466"
 | Идентификатор ссылки                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | Неверно                                                                        |
-| Является однозначным       | True                                                                         |
+| Является однозначным       | Верно                                                                         |
 | Индексируется             | Неверно                                                                        |
 | В глобальном каталоге      | Неверно                                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                 |
@@ -75,7 +75,7 @@ ms.locfileid: "103893466"
 | Идентификатор ссылки                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
 | System-Only            | Неверно                                                                        |
-| Является однозначным       | True                                                                         |
+| Является однозначным       | Верно                                                                         |
 | Индексируется             | Неверно                                                                        |
 | В глобальном каталоге      | Неверно                                                                        |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                 |

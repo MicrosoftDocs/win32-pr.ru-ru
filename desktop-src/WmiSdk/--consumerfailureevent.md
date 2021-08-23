@@ -21,12 +21,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 571785245c05d18678c10a65b192a25022fff8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8276716a1ca706a0027f35f9b554b960efebadacf3d8841b23415a43a9663c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732942"
 ---
 # <a name="__consumerfailureevent-class"></a>\_\_Класс Консумерфаилуривент
 
@@ -55,7 +55,7 @@ class __ConsumerFailureEvent : __EventDroppedEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ консумерфаилуривент** имеет следующие свойства.
 
@@ -154,11 +154,11 @@ class __ConsumerFailureEvent : __EventDroppedEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ консумерфаилуривент** является производным от [**\_ \_ евентдроппедевент**](--eventdroppedevent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -170,7 +170,7 @@ class __ConsumerFailureEvent : __EventDroppedEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

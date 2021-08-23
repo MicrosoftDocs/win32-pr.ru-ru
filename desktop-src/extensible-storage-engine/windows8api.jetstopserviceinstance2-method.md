@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0821a00016eb9cd2c511ee37889e0ddaa0b76edb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce4cc9f4d25b7ea1e08513442e0fe01dddb5a2fc4e3a111c79378461e5c74d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119667414"
 ---
 # <a name="windows8apijetstopserviceinstance2-method"></a>Windows8Api. JetStopServiceInstance2, метод
 
@@ -73,7 +73,7 @@ public static void JetStopServiceInstance2(
     
     Параметры для завершения или возобновления работы экземпляра.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

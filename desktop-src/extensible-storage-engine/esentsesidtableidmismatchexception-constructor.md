@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 95ed9b9bb72d3d0c11248944515663913118db02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 960c9dbb462397798f0e4bdf4a2469c2f31c08a756c41ad92460ff5b08abb704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732724"
 ---
 # <a name="esentsesidtableidmismatchexception-constructor"></a>Конструктор Есентсесидтаблеидмисматчексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentSesidTableIdMismatchException()
 public EsentSesidTableIdMismatchException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

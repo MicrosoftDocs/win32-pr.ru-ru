@@ -4,16 +4,16 @@ description: Иажентчарактер SetPosition
 ms.assetid: cc47b537-8154-4dfb-93e1-5ac3c3b50788
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0aee48ea26c714c570f7ae11b9b2dbc0fe92ef6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e973ec08cdab89c2d8c2501bd9ea1778866f5f7fa1757fe746e44495e41c275a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665644"
 ---
 # <a name="iagentcharactersetposition"></a>Иажентчарактер:: SetPosition
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetPosition(
@@ -47,16 +47,16 @@ HRESULT SetPosition(
 > [!Note]  
 > В отличие от метода [**MoveTo**](https://www.bing.com/search?q=**MoveTo**) , эта функция не находится в очереди.
 
- 
+ 
 
 ## <a name="see-also"></a>См. также:
 
 [**Иажентчарактер:: Disposition**](iagentcharacter--getposition.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

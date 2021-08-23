@@ -3,7 +3,7 @@ title: Сообщение ICM_GETDEFAULTQUALITY (VFW. h)
 description: Сообщение ICM \_ жетдефаулткуалити запрашивает драйвер сжатия видео, чтобы предоставить параметр качества по умолчанию. Это сообщение можно отправить явно или с помощью макроса Икжетдефаулткуалити.
 ms.assetid: bba7f451-52c2-4684-a7c9-e4b05cb946c5
 keywords:
-- ICM_GETDEFAULTQUALITY сообщения Windows мультимедиа
+- сообщение ICM_GETDEFAULTQUALITY Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4350539851ca720e3538d297f955a56fedfc4a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df9c27527cea53c4b4eca6cf75babef3a41f80732d8ecf7a18528c07d6d9311b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525914"
 ---
 # <a name="icm_getdefaultquality-message"></a>\_Сообщение ICM жетдефаулткуалити
 
@@ -49,7 +49,7 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК, если драйвер поддерживает это сообщение или ИЦЕРР \_ не поддерживается в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

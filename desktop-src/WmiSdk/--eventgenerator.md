@@ -44,7 +44,7 @@ class __EventGenerator : __IndicationRelated
 
 Класс **\_ \_ евентженератор** является производным от [**\_ \_ индикатионрелатед**](--indicationrelated.md), у которого нет свойств.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ class __EventGenerator : __IndicationRelated
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

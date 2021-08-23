@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_GETPOSITION (VFW. h)
 description: Сообщение МЦИВНДМ \_ Disposition извлекает числовое значение текущей позицией в содержимом устройства MCI.
 ms.assetid: 6dc5d3bd-8515-4514-a2a5-c1bee07f7acf
 keywords:
-- MCIWNDM_GETPOSITION сообщения Windows мультимедиа
+- сообщение MCIWNDM_GETPOSITION Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e7468b0e3698a72d3dce82bbd1591d59940d9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83cf16f5945bfccbfd2f745ba22fac750f0536696aa2c4c06c2872bd318b263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525434"
 ---
 # <a name="mciwndm_getposition-message"></a>\_Сообщение мЦивндм
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) (LPTSTR) lp;
 
 Возвращает целое число, соответствующее текущему положению. Единицы для значения «значение» зависят от текущего формата времени.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ lParam = (LPARAM) (LPTSTR) lp;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

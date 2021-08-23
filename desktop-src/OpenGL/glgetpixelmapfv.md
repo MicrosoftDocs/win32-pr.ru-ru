@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f73fb817c347832dfc6a09636173641e5c869b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aacb74cb4cc08b283b500306d3a3456807cea8b0416a3ddb4fac85bfaa6ed5a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554264"
 ---
 # <a name="glgetpixelmapfv-function"></a>Функция Глжетпикселмапфв
 
@@ -72,7 +72,7 @@ void WINAPI glGetPixelMapfv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Описание допустимых значений параметра *Map* см. в разделе [**глпикселмап**](glpixelmap.md) . Функция **глжетпикселмап** возвращает в виде *значений* содержимое точечной гиперкарты, указанной в *Map*. Используйте карты пикселей во время выполнения [**глреадпикселс**](glreadpixels.md), [**глдравпикселс**](gldrawpixels.md), [**глкопипикселс**](glcopypixels.md), [**glTexImage1D**](glteximage1d.md)и [**glTexImage2D**](glteximage2d.md) для сопоставления цветовых индексов, индексов наборов элементов, цветовых компонентов и компонентов глубины с другими значениями.
 
@@ -106,7 +106,7 @@ void WINAPI glGetPixelMapfv(
 
 **глжет** с аргументом GL \_ максимальный размер \_ \_ \_ таблицы карт
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -120,7 +120,7 @@ void WINAPI glGetPixelMapfv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2b3048b8589666a07958251ed4c0d56100132fd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfdcc3ba2bde6dfdfd0cc732e4376ceb69ba60904f4d787d9030299c248ebb62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732674"
 ---
 # <a name="swbemnamedvalueset-object"></a>Объект Свбемнамедвалуесет
 
@@ -55,7 +55,7 @@ ms.locfileid: "105701961"
 | [**Включить**](swbemnamedvalueset-add.md)             | Добавляет объект [**свбемнамедвалуе**](swbemnamedvalue.md) в коллекцию.<br/>                                                  |
 | [**Клонировать**](swbemnamedvalueset-clone.md)         | Создает копию этой коллекции **свбемнамедвалуесет** .<br/>                                                                       |
 | [**DeleteAll**](swbemnamedvalueset-deleteall.md) | Удаляет все элементы из коллекции, делая объект **свбемнамедвалуесет** пустым.<br/>                                        |
-| [**Элемент**](swbemnamedvalueset-item.md)           | Извлекает объект [**свбемнамедвалуе**](swbemnamedvalue.md) из коллекции. Это метод объекта по умолчанию.<br/> |
+| [**Компонент**](swbemnamedvalueset-item.md)           | Извлекает объект [**свбемнамедвалуе**](swbemnamedvalue.md) из коллекции. Это метод объекта по умолчанию.<br/> |
 | [**Отменит**](swbemnamedvalueset-remove.md)       | Удаляет объект [**свбемнамедвалуе**](swbemnamedvalue.md) из коллекции.<br/>                                             |
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "105701961"
 
 | Свойство                                             | Тип доступа          | Описание                                       |
 |:-----------------------------------------------------|:---------------------|:--------------------------------------------------|
-| [**Расчета**](swbemnamedvalueset-count.md)<br/> | Только для чтения<br/> | Количество элементов в коллекции.<br/> |
+| [**Count**](swbemnamedvalueset-count.md)<br/> | Только для чтения<br/> | Количество элементов в коллекции.<br/> |
 
 
 
@@ -213,7 +213,7 @@ else
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_СВБЕМНАМЕДВАЛУЕСЕТ CLSID<br/>                                                    |

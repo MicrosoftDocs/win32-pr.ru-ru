@@ -3,19 +3,19 @@ title: EFFECTs, элемент
 description: EFFECTs, элемент
 ms.assetid: ada3c452-1bc6-4700-8048-1a4b2ee00aeb
 keywords:
-- Обложки проигрывателя Windows Media, элемент EFFECTs
+- обложки проигрыватель Windows Media, элемент effects
 - обложки, элемент EFFECTs
 - EFFECTs, элемент
 - Справочник по элементам "обложки", "эффекты"
 - элементы, эффекты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4b6fdcde74288b0dd4215732d1e5b6a281154f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a859414ffae934cafaa0c35b6b364eb42a5795bbeeef637857a0d81f47623379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651144"
 ---
 # <a name="effects-element"></a>EFFECTs, элемент
 
@@ -42,7 +42,7 @@ ms.locfileid: "104410626"
 
 
 
- 
+ 
 
 Элемент **Effects** поддерживает следующие методы.
 
@@ -62,7 +62,7 @@ ms.locfileid: "104410626"
 
 
 
- 
+ 
 
 Элемент **Effects** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
@@ -76,18 +76,18 @@ ms.locfileid: "104410626"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

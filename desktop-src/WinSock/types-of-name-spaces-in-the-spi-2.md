@@ -1,15 +1,15 @@
 ---
-description: Три типа пространств имен в списке безопасности сокетов Windows (Winsock) включают динамические, статические и постоянные пространства имен.
+description: три типа пространств имен в Windows сокетов (Winsock) SPI включают динамические, статические и постоянные пространства имен.
 ms.assetid: 2968ac98-bd40-4d37-9dd7-7870c4decd40
 title: Типы пространств имен в SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e40356987c67604755696f1a8b7224de15851ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ec933650825e891a723cbbc041ad4f631c6f54b7b2b4f6a255359b640509ef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733194"
 ---
 # <a name="types-of-namespaces-in-the-spi"></a>Типы пространств имен в SPI
 
