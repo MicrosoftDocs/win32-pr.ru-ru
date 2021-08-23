@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b359a2e7eccf31b32aced8a2ea9f85fb6dc48b7a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aa1fd025c87b3b497e400351aed91af71bf4958f3ee8748bf5d23255540dc6cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506723"
 ---
 # <a name="cim_monitorresolution-class"></a>\_Класс CIM MonitorResolution
 
@@ -65,13 +65,13 @@ class CIM_MonitorResolution : CIM_Setting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ MonitorResolution** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -253,7 +253,7 @@ class CIM_MonitorResolution : CIM_Setting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 

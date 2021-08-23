@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ba11975e0e065e0cfcce91eb22402153acf236
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 12aa42dfb54f6139ab0847f83b44298a0b81c1ff84dd1ea41e483a38ee8889bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574404"
 ---
 # <a name="imsrdpclient6transportsettings2-property"></a>Свойство IMsRdpClient6:: TransportSettings2
 
@@ -62,7 +62,7 @@ HRESULT get_TransportSettings2(
 
 Указатель интерфейса [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ HRESULT get_TransportSettings2(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

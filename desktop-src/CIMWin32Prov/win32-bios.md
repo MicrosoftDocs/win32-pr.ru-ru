@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 53c1e953c9c1348a133cf4755ab04f6024c42034
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bda0a1a07de4411b9a8c683fb2c7e84156b658361df4f2eaf3aa5709c6d11a95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504294"
 ---
 # <a name="win32_bios-class"></a>\_Класс Win32 BIOS
 
@@ -104,7 +104,7 @@ class Win32_BIOS : CIM_BIOSElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ BIOS** имеет следующие свойства.
 
@@ -493,7 +493,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -579,7 +579,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 Это значение берется из **основного выпуска встроенного по контроллера** в структуре **информации BIOS** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -599,7 +599,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 Это значение берется из **вспомогательного выпуска встроенного по контроллера** в структуре **информации о BIOS** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -709,7 +709,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -772,7 +772,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 Тип доступа: только для чтения
 </dt> </dl>
 
-Дата выпуска Windows BIOS в формате UTC для YYYYMMDDHHMMSS. ММММММ (+-) OOO.
+дата выпуска Windows BIOS в формате utc для YYYYMMDDHHMMSS. ММММММ (+-) OOO.
 
 Это значение берется из статьи " **Дата выпуска BIOS** " в структуре **сведений о BIOS** в сведениях SMBIOS.
 
@@ -1052,7 +1052,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 Это значение берется из **основного выпуска BIOS** в структуре **информации о BIOS** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -1072,7 +1072,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 Это значение берется из раздела " **дополнительный выпуск системной BIOS** " в структуре **информации о BIOS** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows 10 и Windows Server 2016.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows 10 и Windows Server 2016.
 
 </dd> <dt>
 
@@ -1266,7 +1266,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-**Зависящая от UNIX** (24)
+**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -1378,7 +1378,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-**Интерактивная UNIX** (40)
+**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -1550,7 +1550,7 @@ Int 13h — поддерживаются гибкие службы 3,5/2,88 МБ
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ BIOS** является производным от [**CIM \_ биоселемент**](cim-bioselement.md).
 
@@ -1722,7 +1722,7 @@ TargetOperatingSystem :  0
 Version               :  DELL   - 27d60a0d
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1736,7 +1736,7 @@ Version               :  DELL   - 27d60a0d
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

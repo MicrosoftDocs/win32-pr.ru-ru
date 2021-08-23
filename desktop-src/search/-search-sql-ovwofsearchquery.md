@@ -1,19 +1,19 @@
 ---
-description: Язык SQL поиска Windows (SQL) аналогичен стандартному SQL-запросу.
+description: язык SQL поиска Windows (SQL) аналогичен стандартному запросу SQL.
 ms.assetid: 7d992fa2-4606-46ca-904c-b45056a9bbc2
-title: Общие сведения о синтаксисе SQL для службы поиска Windows
+title: общие сведения о синтаксисе SQL поиска Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff6a755312e4358dc2eaa9ea7ae97f22ef783f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f34f321bef35ab9f5198345a2630d20b80275b794f53a0c47aabf7667f2e238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594744"
 ---
-# <a name="overview-of-windows-search-sql-syntax"></a>Общие сведения о синтаксисе SQL для службы поиска Windows
+# <a name="overview-of-windows-search-sql-syntax"></a>общие сведения о синтаксисе SQL поиска Windows
 
-Язык SQL поиска Windows (SQL) аналогичен стандартному SQL-запросу. Он показан в следующих двух синтаксисах:
+язык SQL поиска Windows (SQL) аналогичен стандартному запросу SQL. Он показан в следующих двух синтаксисах:
 
 
 ```SQL
@@ -39,7 +39,7 @@ WHERE (System.Document.PageCount > 50)
 ORDER BY System.Document.PageCount
 ```
 
-Синтаксис запроса Windows Search поддерживает множество вариантов, позволяющих выполнять более сложные запросы.
+синтаксис запроса поиска Windows поддерживает множество параметров, позволяющих выполнять более сложные запросы.
 
 В следующей таблице описывается каждое предложение в инструкциях SELECT или GROUP ON и поддерживаемых функциях.
 
@@ -53,9 +53,9 @@ ORDER BY System.Document.PageCount
 
 ### <a name="code-samples"></a>Примеры кода
 
-В примере кода ВССКЛ показано, как взаимодействовать между Microsoft OLE DB и Windows Search через SQL. В примере кода Всоледб показана библиотека ATL OLE DB доступ к приложениям поиска Windows, а также два дополнительных метода получения результатов из службы поиска Windows. Оба образца доступны на сайте [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
+в образце кода всскл показано, как взаимодействовать между Microsoft OLE DB и Windows поиска с помощью SQL. в примере кода всоледб показана библиотека ATL OLE DB доступ к приложениям поиска Windows, а также два дополнительных метода получения результатов поиска Windows. Оба образца доступны на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 
@@ -71,9 +71,9 @@ ORDER BY System.Document.PageCount
 
 ### <a name="conceptual"></a>Основные понятия
 
-[Расширения SQL в Microsoft Windows Search](-search-sql-extensions-sps.md)
+[SQL расширения в Microsoft Windows Search](-search-sql-extensions-sps.md)
 
-[Функции SQL, недоступные в Microsoft Windows Search](-search-sql-featuresunavailableinspssearch.md)
+[SQL функции, недоступные в Microsoft Windows Search](-search-sql-featuresunavailableinspssearch.md)
 
 [Идентификаторы](-search-sql-identifiers.md)
 
@@ -83,4 +83,4 @@ ORDER BY System.Document.PageCount
 
 [Приведение типа данных столбца](-search-sql-castingdatacolumntype.md)
 
-[Сопоставления типов данных](-search-sql-datatypemappings.md)
+[Сопоставление типов данных](-search-sql-datatypemappings.md)

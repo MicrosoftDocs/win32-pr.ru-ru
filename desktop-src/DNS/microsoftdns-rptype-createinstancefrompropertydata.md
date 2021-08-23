@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c150a8a91a7a94fbea8492faea08b61d437a4c9d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9493a3ad57e8a30ed08f11b22e35514eb4b58df35a1291987a62dc1840e79c56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642214"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_rptype-class"></a>Метод Креатеинстанцефромпропертидата \_ класса Рптипе микрософтднс
 
@@ -81,8 +81,8 @@ FQDN или IP-адрес DNS-сервера, содержащего эту за
 |------------------------------------------------------------------------------------------------------|--------------------------|
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | В (Интернет)<br/> |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | CS (КСНЕТ)<br/>    |
-| <span id="3"></span><dl> <dt>**3-5**</dt> </dl> | CH (CHAOS)<br/>    |
-| <span id="4"></span><dl> <dt>**четырех**</dt> </dl> | HS (Хесиод)<br/>   |
+| <span id="3"></span><dl> <dt>**3**</dt> </dl> | CH (CHAOS)<br/>    |
+| <span id="4"></span><dl> <dt>**4**</dt> </dl> | HS (Хесиод)<br/>   |
 
 
 
@@ -122,7 +122,7 @@ FQDN или IP-адрес DNS-сервера, содержащего эту за
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -135,7 +135,7 @@ FQDN или IP-адрес DNS-сервера, содержащего эту за
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: <isLibraryPinned>Элемент указывает, закреплена ли эта библиотека в области навигации проводника Windows. Этот элемент является необязательным и не имеет дочерних элементов и атрибутов.
+description: <isLibraryPinned>элемент указывает, закреплена ли эта библиотека на панели навигации в Windows Explorer. Этот элемент является необязательным и не имеет дочерних элементов и атрибутов.
 title: Элемент Ислибрарипиннед (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 743ddc6df6b4a1a0df44e19bf063e417fc052e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b5fe37b2a9b31708c1b6a49bd22745b37af8fa8ec21b0b424b7c6da3baaae53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104997958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592864"
 ---
 # <a name="islibrarypinned-element-library-schema"></a>Элемент Ислибрарипиннед (схема библиотеки)
 
-<isLibraryPinned>Элемент указывает, закреплена ли эта библиотека в области навигации проводника Windows. Этот элемент является необязательным и не имеет дочерних элементов и атрибутов.
+<isLibraryPinned>элемент указывает, закреплена ли эта библиотека на панели навигации в Windows Explorer. Этот элемент является необязательным и не имеет дочерних элементов и атрибутов.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,11 +42,11 @@ ms.locfileid: "104997958"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Если значение — true, Библиотека закреплена на панели навигации проводника Windows.
+если значение — true, библиотека закреплена на панели навигации обозревателя Windows.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,18 +4,18 @@ description: Поддержка API файлового сервера
 ms.assetid: C06223B2-C1BD-4CD6-83C8-517F0DD45401
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29524ba7cdb8d4088fb763d7b45a5b451c847769
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 827a0fa9a2d1016ba8f4289d9c667a3098e22395d84483785493d96d1859becd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104533581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119593954"
 ---
 # <a name="file-server-api-support"></a>Поддержка API файлового сервера
 
 ## <a name="platform"></a>Платформа
 
-**Серверы** — Windows Server 2012 
+**серверы** — Windows Server 2012 
 
 ## <a name="description"></a>Описание
 
@@ -37,9 +37,9 @@ ms.locfileid: "104533581"
 
 -   [Матрица поддержки и совместимости API](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
- 
+ 
 
- 
+ 
 
 
 

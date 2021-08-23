@@ -4,12 +4,12 @@ description: Клиентская область — это часть окна,
 ms.assetid: 1b3a800e-e3c1-4737-8ad0-41707eb1e985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be28ae4c31e1a2d2f72674a39d7db08730562816
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f33190ebd1013c92a58ecc64b07993a5a5ae1cd842e50c88691295114a128074
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645064"
 ---
 # <a name="client-object-msaa-ui-element-reference"></a>Объект Client (Справочник по элементам пользовательского интерфейса MSAA)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104134115"
 
 
 
-| Свойство                                                                             | Комментарии                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Свойство                                                                             | Примечания                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**получить \_ аккчилдкаунт**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [**получить \_ аккфокус**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus)                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -48,7 +48,7 @@ ms.locfileid: "104134115"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

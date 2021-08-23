@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aa63d06187c76c5add433502d012cdb63905795a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c7e15d5ff6e381b2e87aaa1b15ade624ac598a0880b1ff736a6f46ba6aa66bb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506874"
 ---
 # <a name="cim_memorycapacity-class"></a>\_Класс CIM меморикапаЦити
 
@@ -59,13 +59,13 @@ class CIM_MemoryCapacity : CIM_PhysicalCapacity
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ меморикапаЦити** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -306,7 +306,7 @@ class CIM_MemoryCapacity : CIM_PhysicalCapacity
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -322,13 +322,13 @@ class CIM_MemoryCapacity : CIM_PhysicalCapacity
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -342,7 +342,7 @@ class CIM_MemoryCapacity : CIM_PhysicalCapacity
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

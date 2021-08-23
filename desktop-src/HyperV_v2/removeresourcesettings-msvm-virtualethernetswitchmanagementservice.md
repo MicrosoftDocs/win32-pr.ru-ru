@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9e82117b14ab9975b069e5b340ba9ec504ae65ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0c7aebc3051127da1c0afa92ba4481e434ea611b70afc5bdcf0a9fe9a28dea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147777"
 ---
 # <a name="removeresourcesettings-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Метод Ремовересаурцесеттингс \_ класса Виртуалесернетсвитчманажементсервице мсвм
 
@@ -96,8 +96,8 @@ uint32 RemoveResourceSettings(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

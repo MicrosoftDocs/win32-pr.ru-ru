@@ -3,7 +3,7 @@ title: Сообщение LB_GETLOCALE (Winuser. h)
 description: Возвращает текущий языковой стандарт для списка. Языковой стандарт можно использовать для определения правильного порядка сортировки отображаемого текста (для списков с \_ стилем сортировки фунтов) и текста, добавленного \_ сообщением ADDSTRING балансировки нагрузки.
 ms.assetid: ec814b03-5ce2-4b81-a36c-ab4c115f88be
 keywords:
-- Элементы управления Windows для LB_GETLOCALE сообщений
+- элементы управления Windows сообщений LB_GETLOCALE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57620b62011dba234710caf1b5d1c429da37ace9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 732bfac72502c38265f7c1651667dc235c440293c8435f16088eaee775a874f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544524"
 ---
 # <a name="lb_getlocale-message"></a>\_Сообщение о НЕстандартной балансировке нагрузки
 
@@ -47,23 +47,23 @@ ms.locfileid: "104491181"
 
 Возвращаемое значение указывает текущий языковой стандарт для списка. [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) содержит код страны или региона, а [**ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) содержит идентификатор языка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Идентификатор языка состоит из идентификатора подязыка и основного идентификатора языка. Используйте макрос [**примарилангид**](/windows/desktop/api/winnt/nf-winnt-primarylangid) для извлечения идентификатора основного языка из [**ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) возвращаемого значения и макроса [**сублангид**](/windows/desktop/api/winnt/nf-winnt-sublangid) для извлечения идентификатора этого языка.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

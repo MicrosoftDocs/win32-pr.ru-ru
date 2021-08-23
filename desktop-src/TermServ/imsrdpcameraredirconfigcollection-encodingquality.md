@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: d8044c2fb70233243a3a74d8dc5faac96873cb48
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 94537773a54ddeb9bceb2483b7f8db6766f7b3f32f9a8a7fe2d9a24659209870
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104494157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574434"
 ---
 # <a name="imsrdpcameraredirconfigcollectionencodingquality-property"></a>Свойство Имсрдпкамераредирконфигколлектион:: Енкодингкуалити
 
@@ -53,7 +53,7 @@ HRESULT get_EncodingQuality(
 | енкодингкуалитимедиум | 0x0001 |
 | енкодингкуалитихигх | 0x0002 |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -62,7 +62,7 @@ HRESULT get_EncodingQuality(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ имсрдпкамераредирконфигколлектион определен как AE45252B-aaab-4504-B681-649D6073A37A          |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

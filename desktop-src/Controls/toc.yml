@@ -11,9 +11,9 @@
         - name: Поддержка Юникода для стандартных элементов управления
           href: unicode-support.md
         - name: Поддержка локализации для стандартных элементов управления
-          href: cc-faq-localization.yml
+          href: cc-faq-localization.md
         - name: Часто задаваемые вопросы об элементах управления
-          href: cc-faq.yml
+          href: cc-faq.md
     - name: Управляющие сообщения
       href: control-messages.md
     - name: Пользовательские элементы управления
@@ -3750,7 +3750,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextdocument-getstorycount
                             - name: жетсториранжес
                               href: /windows/desktop/api/Tom/nf-tom-itextdocument-getstoryranges
-                            - name: Оператор new
+                            - name: Новое
                               href: /windows/desktop/api/Tom/nf-tom-itextdocument-new
                             - name: Открыть
                               href: /windows/desktop/api/Tom/nf-tom-itextdocument-open
@@ -4284,7 +4284,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-paste
                             - name: скроллинтовиев
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-scrollintoview
-                            - name: Выбор
+                            - name: Выбрать
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-select
                             - name: SetChar
                               href: /windows/desktop/api/Tom/nf-tom-itextrange-setchar
@@ -4545,7 +4545,7 @@
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-_newenum
                             - name: GetCount
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-getcount
-                            - name: Компонент
+                            - name: Элемент
                               href: /windows/desktop/api/Tom/nf-tom-itextstoryranges-item
                         - name: ITextStoryRanges2
                           href: /windows/desktop/api/Tom/nn-tom-itextstoryranges2
@@ -5391,9 +5391,9 @@
                     - name: Использование "горячего" отслеживания с панелями инструментов
                       href: use-hot-tracking-with-toolbars.md
                     - name: Создание панели инструментов в стиле Internet Explorer
-                      href: cc-faq-ietoolbar.yml
+                      href: cc-faq-ietoolbar.md
                     - name: Создание строки меню в стиле Internet Explorer
-                      href: cc-faq-iemenubar.yml
+                      href: cc-faq-iemenubar.md
             - name: Справочник по элементу управления ToolBar
               href: bumper-toolbar-toolbar-control-reference.md
               items:
