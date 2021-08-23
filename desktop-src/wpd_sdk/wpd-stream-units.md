@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDeviceTypes.h
-ms.openlocfilehash: 8e70455402a49673b574a0c696b6dda30cc6a884
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2419453beac6b493ddd1bbbe1281b1596ce00456599074b3872fecb003550c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440764"
 ---
 # <a name="wpd_stream_units-enumeration"></a>\_Перечисление единиц потоковой передачи WPD \_
 
@@ -78,13 +78,13 @@ typedef enum _WPD_STREAM_UNITS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                        |
 | Header<br/>                   | <dl> <dt>Портабледевицетипес. h</dt> </dl> |
 

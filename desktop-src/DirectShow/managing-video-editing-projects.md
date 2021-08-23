@@ -4,18 +4,18 @@ ms.assetid: f8d74807-562f-429b-93a1-e65d0f15163b
 title: Управление проектами редактирования видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491cfcb9a6e94874d2cae43567b61666bbd43cd3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe226f4fdc43889daac8e978086c67bd81c5d8d822902e7c041bf500f2836fb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584454"
 ---
 # <a name="managing-video-editing-projects"></a>Управление проектами редактирования видео
 
 \[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]
 
-Следующие советы помогут вам управлять проектами в [службах редактирования DirectShow](directshow-editing-services.md).
+следующие советы помогут вам управлять проектами в [DirectShow редактирования служб](directshow-editing-services.md).
 
 Изменения в временной шкале
 
@@ -38,11 +38,11 @@ ms.locfileid: "105662017"
 
 -   Граф фильтра не является постоянным при сохранении проекта в XML-файл. Таким образом, теряются все сведения, относящиеся к смарт-сжатию, формату сжатия или параметрам сжатия. Приложение может восстановить эти параметры после загрузки проекта.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование служб редактирования DirectShow](using-directshow-editing-services.md)
+[использование служб DirectShow editing Services](using-directshow-editing-services.md)
 </dt> </dl>
 
  

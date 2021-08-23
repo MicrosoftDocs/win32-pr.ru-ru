@@ -4,12 +4,12 @@ ms.assetid: 2e7fd269-bd5f-40b7-b123-36b9c783a917
 title: AdminUser, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11651f0d7103edabbcf7b40087db91f999b1a5b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1b765aa4ece1bc19b5ed59e97a98ca4579042d52d65c0024ae018c794f9aaa3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581914"
 ---
 # <a name="adminuser-property"></a>AdminUser, свойство
 
@@ -17,7 +17,7 @@ ms.locfileid: "105652278"
 
 **Windows Server 2008 и Windows Vista:** Свойство **AdminUser** совпадает с [**привилегированным**](privileged.md) свойством. Авторы должны использовать **привилегированное** свойство. Установщик задает эти свойства, если пользователь имеет права администратора, если приложение назначено системным администратором или если для политики пользователя и компьютера AlwaysInstallElevated задано значение true.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Различия между этими свойствами могут быть использованы в некоторых устаревших пакетах. Например, **AdminUser** может использоваться вместо [**привилегированных**](privileged.md) операторов в условных инструкциях, так как установщик задает свойство **AdminUser** только в том случае, если пользователь является администратором. Установщик задает **привилегированное** свойство, если пользователь является администратором, или, если политика позволяет пользователю устанавливать с повышенными привилегиями.
 
@@ -25,13 +25,13 @@ ms.locfileid: "105652278"
 
 Дополнительные сведения см. в разделе [Установка пакета с повышенными привилегиями для свойства без прав администратора](installing-a-package-with-elevated-privileges-for-a-non-admin.md)и [**привилегированного**](privileged.md) доступа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 в Windows Vista или Windows Server 2008. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Vista или Windows Server 2008. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

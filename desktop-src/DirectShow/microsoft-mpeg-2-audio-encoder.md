@@ -4,12 +4,12 @@ ms.assetid: a36e838b-8b11-4851-9dd2-efd9fe070770
 title: Кодировщик Microsoft MPEG-2 Audio Encoder (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43d055acd379d9e966f43eac284e38a10c05a86c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 030821905862a9698ee24c3227f2846cd8c892e20c501d2776cdf2f9bb88f3e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119584124"
 ---
 # <a name="microsoft-mpeg-2-audio-encoder"></a>Кодировщик Microsoft MPEG-2 Audio Encoder
 
@@ -66,7 +66,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Кодировщик MPEG-2 может формировать следующие типы выходных данных:
 
@@ -134,23 +134,23 @@ msmpeg2enc.dll
 
 Задайте остальные свойства в любом порядке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Домашняя расширенная, Windows Vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows главная Premium vista, Windows vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, Windows 7 Максимальная \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                                     |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [**Типы носителей для демультиплексирования MPEG-2**](mpeg-2-demultiplexer-media-types.md)

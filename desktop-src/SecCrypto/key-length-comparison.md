@@ -4,12 +4,12 @@ ms.assetid: cd16705c-c617-4843-a303-52d1019a60bb
 title: Сравнение длины ключа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a82bd4ffe942a58bba4c246f92e83fa1e1ef03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c65615f6ffb9679b922600c4617e401067d565ac7dd62a258ae07a757d2cec7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119622349"
 ---
 # <a name="key-length-comparison"></a>Сравнение длины ключа
 
@@ -21,7 +21,7 @@ ms.locfileid: "103913631"
 
 | Алгоритм                                                                                | Базовый поставщик | Надежные и расширенные поставщики |
 |------------------------------------------------------------------------------------------|---------------|-------------------------------|
-| Обмен ключами RSA                                                                         | 512-разрядный       | 1 024-разрядный                     |
+| Exchange ключа RSA                                                                         | 512-разрядный       | 1 024-разрядный                     |
 | Подпись RSA                                                                            | 512-разрядный       | 1 024-разрядный                     |
 | RC2                                                                                      | 40-разрядный        | 128-разрядное                       |
 | RC4;                                                                                      | 40-разрядный        | 128-разрядное                       |

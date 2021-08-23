@@ -4,28 +4,28 @@ ms.assetid: a66a1305-2bf5-4694-a8a7-4095c6a5c8a4
 title: DiskPrompt, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 832b379d29f00552903c7833e3b26fe4fcf00a03
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e7c79b31b26f3b4217d54ed82f3529ac0aa298c081291a94ba0bc11352cb8e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692734"
 ---
 # <a name="diskprompt-property"></a>DiskPrompt, свойство
 
 Значение свойства **DiskPrompt** содержит строку, отображаемую в диалоговом окне, запрашивающем диск. Эта строка должна включать имя продукта и заполнитель для текста, напечатанного на поверхности компакт-диска.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объявляется как свойство продукта.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

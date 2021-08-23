@@ -4,12 +4,12 @@ ms.assetid: CAB41B22-AD96-4932-9686-66474CB26C38
 title: Атрибут MF_XVP_CALLER_ALLOCATES_OUTPUT (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: def1b1d138c031393e1a1b1a3832c1ad6d066306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31da89bec9c9573d9d968077e51d413e1861bca28cb606667d402fab5a408f96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599974"
 ---
 # <a name="mf_xvp_caller_allocates_output-attribute"></a>\_ \_ Вызывающий объект MF ксвп \_ выделяет \_ выходной атрибут
 
@@ -19,7 +19,7 @@ ms.locfileid: "104543218"
 
 **Bool** , сохраненный как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот атрибут имеет **значение true**, обработчик видео ждет выделения выходных текстур вызывающей стороной, даже если работает в режиме ускорения DirectX Video (дксва). Если этот атрибут имеет **значение false**, процессор видео выделит выходные текстуры при работе в режиме дксва и завершится ошибкой, если предоставлены выходные текстуры, предоставленные абонентом.
 
@@ -30,20 +30,20 @@ ms.locfileid: "104543218"
 
 Задайте атрибут перед началом потоковой передачи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мфидл. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

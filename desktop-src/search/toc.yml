@@ -9,25 +9,25 @@
           href: '-search-3x-wds-development-ovr.md'
         - name: Что включено в индекс
           href: '-search-3x-wds-included-in-index.md'
-        - name: Процесс индексирования в Windows Search
+        - name: процесс индексирования в Windows поиске
           href: '-search-indexing-process-overview.md'
-        - name: Запрос процесса в Windows Search
+        - name: запрос процесса в Windows поиска
           href: querying-process--windows-search-.md
-        - name: Обработка уведомлений в Windows Search
+        - name: обработка уведомлений в Windows поиске
           href: '-search-3x-wds-support.md'
         - name: Требования к форматированию URL-адресов
           href: url-formatting-requirements.md
-        - name: Новый для поиска Windows 7
+        - name: новые сведения для поиска Windows 7
           href: new-for-windows-7-search.md
-        - name: Определение приоритетов индексирования и событий набора строк в Windows 7
+        - name: определение приоритетов индексирования и событий набора строк в Windows 7
           href: indexing-prioritization-and-rowset-events.md
-        - name: Библиотеки оболочки Windows
+        - name: Windows Библиотеки оболочки
           href: '-search-win7-development-scenarios.md'
-        - name: 'Языки, поддерживаемые службой поиска Windows'
+        - name: 'языки, поддерживаемые при поиске Windows'
           href: '-search-3x-wds-language-support.md'
         - name: Использование управляемого кода с данными оболочки и Windows Search
           href: '-search-3x-wds-managed-code.md'
-    - name: Руководством разработчика Windows Search
+    - name: Windows Поиск по руководству разработчика
       href: '-search-developers-guide-entry-page.md'
       items:
         - name: Управление индексом
@@ -49,7 +49,7 @@
         - name: Отправка программных запросов к индексу
           href: '-search-3x-wds-qryidx-overview.md'
           items:
-            - name: Использование методов SQL и АКС для запроса индекса
+            - name: использование SQL и подходов акс для запроса индекса
               href: using-sql-and-aqs-to-query-the-index.md
             - name: Запрос индекса с помощью Исеарчкуерихелпер
               href: '-search-3x-wds-qryidx-searchqueryhelper.md'
@@ -68,17 +68,17 @@
                   href: '-search-3x-wds-qryidx-stackedby.md'
                 - name: Аргумент вложенного запроса
                   href: '-search-3x-wds-qryidx-subquery.md'
-            - name: Запрос к индексу с помощью синтаксиса SQL для поиска Windows
+            - name: запрос к индексу с помощью Windows поискового синтаксиса SQL
               href: '-search-sql-windowssearch-entry.md'
               items:
-                - name: Общие сведения о синтаксисе SQL для службы поиска Windows
+                - name: общие сведения о синтаксисе SQL поиска Windows
                   href: '-search-sql-ovwofsearchquery.md'
                 - name: Общие сведения о языке запросов
                   href: '-search-sql-generalqueryinfo.md'
                   items:
-                    - name: Расширения SQL в Microsoft Windows Search
+                    - name: SQL расширения в Microsoft Windows Search
                       href: '-search-sql-extensions-sps.md'
-                    - name: 'Функции SQL, недоступные в Microsoft Windows Search'
+                    - name: 'SQL функции, недоступные в Microsoft Windows Search'
                       href: '-search-sql-featuresunavailableinspssearch.md'
                     - name: Идентификаторы
                       href: '-search-sql-identifiers.md'
@@ -90,14 +90,14 @@
                       href: '-search-sql-accentinsensitivitysearches.md'
                     - name: Приведение типа данных столбца
                       href: '-search-sql-castingdatacolumntype.md'
-                    - name: Сопоставления типов данных
+                    - name: Сопоставление типов данных
                       href: '-search-sql-datatypemappings.md'
                     - name: Общие сведения о значимых значениях
                       href: '-search-sql-understandingrelevancevalues.md'
                     - name: Использование локализованных поисков
                       href: '-search-sql-usinglocsearches.md'
                       items:
-                        - name: Параметры языка документа и системы
+                        - name: языковой стандарт документа и системы Параметры
                           href: '-search-sql-docandlocalesystemsettings.md'
                         - name: Указание языков
                           href: '-search-sql-specifyinglanguages.md'
@@ -165,29 +165,29 @@
         - name: Расширение индекса
           href: '-search-3x-wds-extidx-overview.md'
           items:
-            - name: Разработка обработчиков фильтров для поиска Windows
+            - name: разработка обработчиков фильтров для Windowsного поиска
               href: '-search-ifilter-conceptual.md'
               items:
-                - name: Основные сведения о обработчиках фильтров в поиске Windows
+                - name: основные сведения о обработчиках фильтров в Windows поиске
                   href: '-search-ifilter-about.md'
-                - name: Рекомендации по созданию обработчиков фильтров в поиске Windows
+                - name: рекомендации по созданию обработчиков фильтров в Windowsном поиске
                   href: '-search-3x-wds-extidx-filters.md'
                 - name: Возвращение свойств из обработчика фильтра
                   href: '-search-ifilter-property-filtering.md'
                 - name: 'Обработчики фильтров, поставляемые с Windows'
                   href: '-search-ifilter-implementations.md'
-                - name: Реализация обработчиков фильтров в поиске Windows
+                - name: реализация обработчиков фильтров в Windowsном поиске
                   href: '-search-ifilter-constructing-filters.md'
                 - name: Регистрация обработчиков фильтров
                   href: '-search-ifilter-registering-filters.md'
                 - name: Тестирование обработчиков фильтров
                   href: '-search-ifilter-testing-filters.md'
-            - name: Разработка обработчиков свойств для поиска Windows
+            - name: разработка обработчиков свойств для Windows поиска
               href: '-search-3x-wds-extidx-propertyhandlers.md'
               items:
                 - name: Свойства System-Defined для пользовательских форматов файлов
                   href: '-shell-systemdefinedpropertiesforfileformats.md'
-            - name: Разработка обработчиков протоколов для поиска Windows
+            - name: разработка обработчиков протоколов для Windows поиска
               href: '-search-3x-wds-phaddins.md'
               items:
                 - name: Основные сведения о обработчиках протоколов
@@ -220,10 +220,10 @@
                   href: miscellaneous-linguistic-and-unicode-considerations.md
             - name: Устранение неполадок в языковых ресурсах и рекомендациях
               href: troubleshooting-language-resources.md
-    - name: Справочник по поиску Windows
+    - name: Windows Поиск ссылки
       href: '-search-reference-entry-page.md'
       items:
-        - name: Интерфейсы Windows Search
+        - name: Windows Интерфейсы поиска
           href: '-search-interfaces-entry-page.md'
           items:
             - name: Интерфейсы обработчиков протоколов
@@ -428,7 +428,7 @@
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-name
                     - name: намедентитиес
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-namedentities
-                    - name: Отношения
+                    - name: Связи
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-ientity-relationships
                 - name: иинтервал
                   href: /windows/desktop/api/Structuredquery/nn-structuredquery-iinterval
@@ -461,7 +461,7 @@
                 - name: инамедентитиколлектор
                   href: /windows/desktop/api/Structuredquery/nn-structuredquery-inamedentitycollector
                   items:
-                    - name: Добавить
+                    - name: Add
                       href: /windows/desktop/api/Structuredquery/nf-structuredquery-inamedentitycollector-add
                 - name: икуерипарсер
                   href: /windows/desktop/api/Structuredquery/nn-structuredquery-iqueryparser
@@ -1013,7 +1013,7 @@
                   items:
                     - name: OnChange
                       href: /windows/desktop/api/searchapi/nf-searchapi-isearchviewchangedsink-onchange
-        - name: Структуры поиска Windows
+        - name: Windows Поиск структур
           href: '-search-structures-entry-page.md'
           items:
             - name: AUTHENTICATION_INFO
@@ -1052,7 +1052,7 @@
               href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
             - name: TIMEOUT_INFO
               href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
-        - name: Константы и перечисления поиска Windows
+        - name: Windows Поиск констант и перечислений
           href: '-search-constants-and-enumerations-entry-page.md'
           items:
             - name: Сообщения об ошибках обработчика протокола поиска
@@ -1129,7 +1129,7 @@
           href: '-search-3x-wds-propertymappings.md'
         - name: Формат сохраненного файла поиска
           href: '-search-savedsearchfileformat.md'
-    - name: Примеры кода для поиска Windows
+    - name: Windows Поиск примеров кода
       href: '-search-samples-ovw.md'
       items:
         - name: кравлскопекоммандлине
@@ -1159,15 +1159,15 @@
       items:
         - name: начало работы с федеративными поиском в Windows
           href: getting-started-with-federated-search-in-windows.md
-        - name: Подключение веб-службы в Федеративной службе поиска Windows
+        - name: подключение веб-службы в Windows федеративного поиска
           href: '-search-federated-search-web-service.md'
-        - name: Включение хранилища данных в федеративный поиск Windows
+        - name: включение хранилища данных в Windows федеративного поиска
           href: '-search-federated-search-data-store.md'
-        - name: Создание файла описания OpenSearch в федеративного поиска Windows
+        - name: создание файла описания OpenSearch в Windows федеративного поиска
           href: '-search-federated-search-osdx-file.md'
-        - name: Следующие рекомендации по использованию федеративного поиска Windows
+        - name: следующие рекомендации по Windows федеративного поиска
           href: '-search-fedsearch-best.md'
-        - name: Развертывание соединителей поиска в федеративного поиска Windows
+        - name: развертывание соединителей поиска в Windows федеративного поиска
           href: '-search-federated-search-deploying.md'
         - name: Схема описания соединителя поиска
           href: search-sconn-desc-schema-entry.md
@@ -1230,5 +1230,5 @@
               href: search-schema-sconn-isindexed.md
     - name: Связанные технологии поиска
       href: '-search-3x-wds-sampleentry.md'
-    - name: Глоссарий поиска Windows
+    - name: Windows Глоссарий поиска
       href: search-glossary.md

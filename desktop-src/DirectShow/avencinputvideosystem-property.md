@@ -4,12 +4,12 @@ ms.assetid: a4ad7ca2-bab0-42f7-a098-a5ff6853b109
 title: Свойство АвенЦинпутвидеосистем (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8012b814a50f7c543b2b72682871fe29545d4b80
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28970a5f4312503fa6a2c5f1e81d29ef7028ea3e7c214ffe08bb9e6729af4fcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689794"
 ---
 # <a name="avencinputvideosystem-property"></a>АвенЦинпутвидеосистем, свойство
 
@@ -29,19 +29,19 @@ ms.locfileid: "103894973"
 
 Значение этого свойства является членом перечисления [**еавенЦинпутвидеосистем**](/windows/desktop/api/codecapi/ne-codecapi-eavencinputvideosystem) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d473286dec0d286b0e5e9e310c146bd46a2f95b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0998e6dad97c1dcf6e55a999f02eac34a9881efa27c6cb6636f729cbb75befad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119515664"
 ---
 # <a name="disconnect-method-of-the-win32_virtualdesktopsession-class"></a>Метод Disconnect \_ класса Win32 виртуалдесктопсессион
 
@@ -45,7 +45,7 @@ uint32 Disconnect();
 
 Возвращает значение 0 при успешном выполнении, в противном случае возвращает код ошибки WMI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ uint32 Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

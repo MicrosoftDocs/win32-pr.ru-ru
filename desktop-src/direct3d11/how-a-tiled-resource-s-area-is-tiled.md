@@ -4,12 +4,12 @@ description: При создании мозаичного ресурса изм�
 ms.assetid: 834E317F-CFFD-460C-9F89-793081BA1853
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ae1bf4ad1ca308fb3c93a36c4b3478aabdb0f7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 75feaa7852a7bc2567d7b4983ff4d59d12b516f5feb4be2886f93294f77bd6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633224"
 ---
 # <a name="how-a-tiled-resources-area-is-tiled"></a>Мозаичное заполнение области мозаичного ресурса
 
@@ -36,7 +36,7 @@ ms.locfileid: "104997123"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

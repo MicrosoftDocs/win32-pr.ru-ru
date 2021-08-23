@@ -4,12 +4,12 @@ description: Использование цвета в Direct2D
 ms.assetid: 74b1f12c-b1de-4df1-85ba-0cf7a0009499
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb195a4ad0bdd9ff32f1123a8a57ff2ce0aadbde
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: efe6ded6d181ebcbca402161fe6af0b8fb8dd65f7d082632474136a9bd1ff551
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631539"
 ---
 # <a name="using-color-in-direct2d"></a>Использование цвета в Direct2D
 

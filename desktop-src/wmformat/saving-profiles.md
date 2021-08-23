@@ -3,19 +3,19 @@ title: Сохранение профилей
 description: Сохранение профилей
 ms.assetid: 07c1ef16-6696-4314-aed8-58cda464b0db
 keywords:
-- Windows Media Format SDK, сохранение профилей
-- Windows Media Format SDK, сохранение профиля
+- Windows Пакет SDK для формата мультимедиа, сохранение профилей
+- Windows Пакет SDK для формата мультимедиа, сохранение профиля
 - профили, сохранение
 - профили, интерфейс Ивмпрофилеманажер
 - Ивмпрофилеманажер, сохранение профилей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 276b002f0b7f98de2e84f2c27a4f52bde25726bb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 6befb09d7e0d628462bdd22e1e905c351be58dc077959089883ce3707dc493d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104412488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547044"
 ---
 # <a name="saving-profiles"></a>Сохранение профилей
 
@@ -24,7 +24,7 @@ ms.locfileid: "104412488"
 > [!Note]  
 > Никогда не следует изменять строку профиля, записанную в файл. Любые изменения, которые необходимо внести в профиль, следует вносить программно. Изменение значений в пркс-файле может привести к непредсказуемым результатам.
 
- 
+ 
 
 В следующем примере показана функция для сохранения профиля в файл с помощью стандартного ввода-вывода файла в стиле C. Чтобы скомпилировать приложение, использующее этот пример, необходимо включить stdio. h в проект.
 
@@ -87,16 +87,16 @@ HRESULT ProfileToFile(IWMProfileManager* pProfileMgr,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с профилями**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

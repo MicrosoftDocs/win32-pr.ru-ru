@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c70e991cf96ed5d3565e1b6c9522693786cca80
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1b497c6cbac510b57814303f07ee060398e255b02dd1c8f9d7cd129f386d776
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493254"
 ---
 # <a name="gllightiv-function"></a>Функция Гллигхтив
 
@@ -98,7 +98,7 @@ void WINAPI glLightiv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллигхтив** задает значение или значения отдельных параметров источника освещения. Параметр *Light* именует источник света, а — символическое имя формы \_ «GL»*i*, где 0 = <  « \_ максимальные \_ огни».
 

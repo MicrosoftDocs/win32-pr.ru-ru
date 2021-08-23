@@ -4,12 +4,12 @@ ms.assetid: 892d7462-0222-4fa0-b14c-17742a266c0a
 title: ICE46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e24a76560b02a3a0ce3afa681c7ba74fcc7a2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbe334f973449ffe8bdbba1eb51347576c0b39c6b8eacfb8103970726dbc1ec6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580994"
 ---
 # <a name="ice46"></a>ICE46
 
@@ -59,7 +59,7 @@ ICE46 сообщает о следующих ошибках в приведен�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

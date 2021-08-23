@@ -1,19 +1,19 @@
 ---
 title: Вертикальный текст
-description: Начиная с Windows 8, DirectWrite имеет ряд новых API, позволяющих использовать вертикальный текст в приложениях.
+description: начиная с Windows 8 DirectWrite имеет ряд новых интерфейсов api, позволяющих использовать вертикальный текст в приложениях.
 ms.assetid: F40A79AE-F7BF-4CAC-9480-1489CD212DA8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db8788a6be97a55911694942a930e17dc69976a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6aa5e6626ae77e610c38bfb90def7cfe068db80f7f300f58a734969fb107a46a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632553"
 ---
 # <a name="vertical-text"></a>Вертикальный текст
 
-Начиная с Windows 8, [DirectWrite](direct-write-portal.md) имеет ряд новых API, позволяющих использовать вертикальный текст в приложениях.
+начиная с Windows 8 [DirectWrite](direct-write-portal.md) имеет ряд новых интерфейсов api, позволяющих использовать вертикальный текст в приложениях.
 
 ## <a name="drawing-vertical-text"></a>Рисование вертикального текста
 
@@ -45,6 +45,6 @@ ms.locfileid: "103987554"
 
 Теперь текст в приложении будет отображаться вертикально с правильной ориентацией на глифы.
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - mspatchc.dll
-ms.openlocfilehash: c84be2d859a780e46e7e940aa4a7e7da5296f0e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d73b6f4d10c52e9eca147227fdbfece31cba157af84fdf56dbef5cacda516b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690874"
 ---
 # <a name="createpatchfileexaw-function"></a>Функция Креатепатчфиликса/W
 
@@ -86,14 +86,14 @@ BOOL  PATCHAPI  CreatePatchFileExW(
 
 Эта функция возвращает **значение true** , если она выполнена. в противном случае возвращается **значение false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |----------------|---------------------------------------------------------------------------------------|
-| Header | патчапи. h |
+| Заголовок | патчапи. h |
 | DLL | mspatchc.dll |
 | Юникод | Реализовано как Креатепатчфиликсв (Юникод) и Креатепатчфиликса (ANSI) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [патчапи](patchapi.md)

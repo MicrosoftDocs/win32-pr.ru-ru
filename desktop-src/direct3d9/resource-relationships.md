@@ -4,12 +4,12 @@ ms.assetid: 72f880b9-1792-4ff9-875f-a8bb6c8b7f30
 title: Связи ресурсов (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9cef8dd5d44fba0d67a50b676ac7d1947ecfe77
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ffbe9bffea1a6d6da5674156442df251b29b32d910deb870901c9bf6231b8410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628365"
 ---
 # <a name="resource-relationships-direct3d-9"></a>Связи ресурсов (Direct3D 9)
 
@@ -19,7 +19,7 @@ ms.locfileid: "104140167"
 
 Стрелки, выполняемые слева направо, указывают, что целевые типы создаются с помощью заданных методов, а стрелки, выполняемые справа налево, указывают на то, что эти типы ресурсов могут передаваться в качестве аргументов в указанные методы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,19 +4,19 @@ ms.assetid: 035e9c8b-2490-438d-8f02-7e0f039f960f
 title: GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084a65ad42bdbe030e697481501a4dc60e54baef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5dad8917a24100fbf5c6c36eab3bbfc5b67baf62b378f9207626378fe864b672
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119623144"
 ---
 # <a name="gina"></a>GINA
 
 [*GINA*](/windows/desktop/SecGloss/g-gly) работает в [*контексте*](/windows/desktop/SecGloss/c-gly) процесса [*Winlogon*](/windows/desktop/SecGloss/w-gly) и, таким образом, DLL-библиотека GINA загружается на ранних этапах процесса загрузки. Библиотека GINA DLL должна следовать правилам, чтобы обеспечить целостность системы, в частности в отношении взаимодействия с пользователем.
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 

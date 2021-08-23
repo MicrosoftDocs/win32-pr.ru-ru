@@ -4,12 +4,12 @@ ms.assetid: ee290c78-dbfa-4414-8489-aa886360652b
 title: енроллсимплеусерцерт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0956455afa814af54cc86661f2d7733a6d16dd8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4763e3ae68404e47207dccdb75c759fc30394e849bee07a71f2c54c649347a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119669914"
 ---
 # <a name="enrollsimpleusercert"></a>енроллсимплеусерцерт
 
@@ -17,7 +17,7 @@ ms.locfileid: "104081014"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows устанавливается версия C++ образца по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ енроллсимплеусерцерт. Версия C# установлена в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 Samples, посвященной \\ \\ регистрации сертификата X509 \\ \\ енроллсимплеусерцерт CSharp.
+при установке пакета средств разработки Microsoft Windows Software Development Kit (SDK) версия C++ образца по умолчанию устанавливается в папку *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ енроллсимплеусерцерт. версия C# установлена в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples, посвященной \\ регистрации сертификата X509 в \\ \\ каталоге CSharp енроллсимплеусерцерт.
 
 ## <a name="discussion"></a>Разговор
 
@@ -30,7 +30,7 @@ ms.locfileid: "104081014"
 5.  Создает объект [**IX500DistinguishedName**](/windows/desktop/api/CertEnroll/nn-certenroll-ix500distinguishedname) , использует его для кодирования имени субъекта X. 500 и добавляет имя в \# запрос PKCS 10.
 6.  Пытается зарегистрировать конечного пользователя в центре сертификации и отслеживать ход процесса регистрации. Функция Чеккенроллстатус определена в Енроллкоммон. cpp.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

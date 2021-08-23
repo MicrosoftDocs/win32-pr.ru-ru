@@ -6,12 +6,12 @@ keywords:
 - OpenGL, режимы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 427e04b856c79c9adfdfebf4061f7e96f09db835
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec448fa94c8ed0983be68f8aa1dbbef0974d2e040c4f68b002b026b300406981
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553984"
 ---
 # <a name="managing-modes-and-execution"></a>Управление режимами и выполнением
 
@@ -21,16 +21,16 @@ ms.locfileid: "105661532"
 
 В конкретной реализации OpenGL вы можете управлять определенными режимами работы с указаниями с помощью [**глхинт**](glhint.md). Такое поведение — это качество цвета и интерполяции текстурных координат; точность вычислений тумана; и выборка качества сглаженных точек, линий или многоугольников.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Режимы и Справочник по выполнению](modes-and-execution-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b5ec232f559e8d4af10369ebe98dd0aea71e36b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d77cee8aeec55aa09ead5df227fd018d14d6682e08a047d40a1121a11839083
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519764"
 ---
 # <a name="gltexenviv-function"></a>Функция Глтексенвив
 
@@ -80,7 +80,7 @@ void WINAPI glTexEnviv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В среде текстуры указывается способ интерпретации значений текстур при текстурировании фрагмента. *Целевой* параметр должен иметь значение GL \_ текстуры \_ env. Параметр *pname* может быть либо \_ \_ режимом GL текстуры env \_ , либо \_ цветом главной текстуры GL \_ \_ .
 
@@ -173,7 +173,7 @@ void WINAPI glTexEnviv(
 
 [**глтексжетенвив**](glgettexenviv.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -187,7 +187,7 @@ void WINAPI glTexEnviv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

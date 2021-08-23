@@ -4,12 +4,12 @@ ms.assetid: 73b84ab6-bdc2-4b22-9ce4-b79b954476e5
 title: Атрибут MF_TOPONODE_SOURCE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c57904e9797e0f669b2cb782750e4ae9199059d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce77b001cdfb5bad982de09c3d58cf1a717a5e841cc148d98967e82a60b088a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600104"
 ---
 # <a name="mf_toponode_source-attribute"></a>\_ \_ Исходный атрибут MF топоноде
 
@@ -17,29 +17,29 @@ ms.locfileid: "104543255"
 
 ## <a name="data-type"></a>Тип данных
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут применяется к исходным узлам (_ * MF \_ TOPOLOGY \_ саурцестреам \_ node * *).
+Этот атрибут применяется к исходным узлам **( \_ \_ \_ узел топологии MF саурцестреам**).
 
 Значение атрибута является указателем на интерфейс [**имфмедиасаурце**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) источника мультимедиа. Атрибут обязателен.
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

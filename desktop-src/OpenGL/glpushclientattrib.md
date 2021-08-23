@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 944e2e4229f0d36f0009ce337fd3806020322dbf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f378ec3ff735ed916567ea91e211a1d8a1685580b1f1ea80d448b92203b39a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492614"
 ---
 # <a name="glpushclientattrib-function"></a>Функция Глпушклиентаттриб
 
@@ -40,7 +40,7 @@ void WINAPI glPushClientAttrib(
 
 <dl> <dt>
 
-*виде* 
+*mask* 
 </dt> <dd>
 
 Маска, указывающая, какие атрибуты следует сохранить. Ниже приведены константы символьной маски и связанные с ними состояния клиента OpenGL.
@@ -75,7 +75,7 @@ void WINAPI glPushClientAttrib(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глпушклиентаттриб** использует параметр маски, чтобы определить, какие группы переменных клиентского состояния сохраняются в стеке Client-Attribute. Можно использовать оператор побитового или для объединения принятых символьных констант, чтобы задать биты и создать маску.
 
@@ -98,7 +98,7 @@ void WINAPI glPushClientAttrib(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ " \_ Максимальная \_ \_ глубина стека для клиента \_ "
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -112,7 +112,7 @@ void WINAPI glPushClientAttrib(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

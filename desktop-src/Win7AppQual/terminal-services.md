@@ -4,12 +4,12 @@ ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
 title: Службы удаленных рабочих столов (Windows 7 и Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 725844d49f465c3c79dbc19fd01ec0f18b09759e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 10af070d54dceebe51f9872b3b58c42467040d5ad8f24f593774576b159cbbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119645744"
 ---
 # <a name="remote-desktop-services-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Службы удаленных рабочих столов (Windows 7 и Windows Server 2008 R2 Application Quality Cookbook)
 

@@ -4,12 +4,12 @@ ms.assetid: 81ef7005-a9ab-4f26-bc39-68b27c4f92aa
 title: Атрибут MF_TOPONODE_RATELESS (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d5c5ded4d8d09e8d45f766b03737954329c9202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56d4de6b132bf2b49e327be45588a497374043794ec73925eb61f2dab16fd1bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448874"
 ---
 # <a name="mf_toponode_rateless-attribute"></a>\_Атрибут с нетопоноденой \_ скоростью MF
 
@@ -21,7 +21,7 @@ ms.locfileid: "105711284"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к выходным узлам **( \_ \_ \_ узел выходных данных топологии MF**).
 
@@ -35,9 +35,9 @@ ms.locfileid: "105711284"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

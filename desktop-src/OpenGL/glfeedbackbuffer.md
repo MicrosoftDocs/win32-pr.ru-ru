@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64b232db640d41ca9a1e1f75d6ab766597d6511
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 76e51a08dac2bbf55509d4964218fc4b844581c797220294464b84c05de5e05b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580204"
 ---
 # <a name="glfeedbackbuffer-function"></a>Функция Глфидбаккбуффер
 
@@ -82,7 +82,7 @@ void WINAPI glFeedbackBuffer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глфидбаккбуффер** управляет обратной связью. Обратная связь, как и в случае выбора, является режимом OpenGL. Режим выбирается путем вызова [**глрендермоде**](glrendermode.md) с использованием \_ обратной связи GL. Когда OpenGL находится в режиме обратной связи, никакие Пиксели не создаются путем растрирования. Вместо этого сведения о примитивах, которые были бы растровыми, отправляются обратно в приложение с помощью OpenGL.
 
@@ -146,7 +146,7 @@ passThru < \_ \_ \_ значение токена GL ГК
 
 
 
-| Тип                   | Координаты        | Цвет | Текстура | Общее число значений |
+| Тип                   | Координаты        | Color | Текстура | Общее число значений |
 |------------------------|--------------------|-------|---------|------------------------|
 | \_2D GL                 | *x*, *y*           |       |         | 2                      |
 | \_Трехмерная GL                 | *x*, *y*, *z*      |       |         | 3                      |
@@ -166,7 +166,7 @@ passThru < \_ \_ \_ значение токена GL ГК
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ режим рендеринга GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -180,7 +180,7 @@ passThru < \_ \_ \_ значение токена GL ГК
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

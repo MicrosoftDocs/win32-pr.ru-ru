@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 09c6d0f9400a04cc6e5a8ed4bd49ec7075b3c190
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 12d12928196a7c9389f1ee2417977d2e74bdf2753e4a4d87c93e3d796d8fa295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547474"
 ---
 # <a name="copy-method-of-the-cim_devicefile-class"></a>Метод Copy \_ класса CIM девицефиле
 
@@ -72,7 +72,7 @@ uint32 Copy(
 **2**
 </dt> <dd>
 
-Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
+Доступ запрещен.
 
 </dd> <dt>
 
@@ -159,7 +159,7 @@ Access denied. (Недопустимое значение {значение_ут
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

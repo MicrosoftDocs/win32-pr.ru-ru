@@ -1,17 +1,17 @@
 ---
 description: Система изменяет размер окна при выборе пользователем команд меню «окно», таких как размер и развертывание, или когда приложение вызывает функции, такие как функция SetWindowPos.
 ms.assetid: 6f997cba-e4c9-4e27-8309-42b9892ec620
-title: Измененные размеры окон
+title: Измененный размер Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f740191f8b85038f17a687ebc547305f882383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9efd6f71d1657c0d01b3df9101fc15fa35f54ecfc01b1588b696cd9110dad317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602724"
 ---
-# <a name="resized-windows"></a>Измененные размеры окон
+# <a name="resized-windows"></a>Измененный размер Windows
 
 Система изменяет размер окна при выборе пользователем команд меню «окно», таких как размер и развертывание, или когда приложение вызывает функции, такие как функция [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos) . При изменении размера окна система предполагает, что содержимое ранее предоставленной части окна не затрагивается и его не нужно перерисовать. Система делает недействительным только недавно открытую часть окна, что экономит время, когда в приложении обрабатывается сообщение о завершении работы [**WM \_ Paint**](wm-paint.md) . В этом случае **WM \_ Paint** не создается при уменьшении размера окна.
 

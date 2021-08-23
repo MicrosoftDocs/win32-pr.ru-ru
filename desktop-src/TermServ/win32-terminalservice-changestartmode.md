@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a46c6b72fbb070dac32b2b6990a217068c77da9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf7189d687c8cdc58122da4e20750c6158396587cf07b08f6fc53cecee625ebd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514394"
 ---
 # <a name="changestartmode-method-of-the-win32_service-class-remote-desktop-services"></a>Метод Чанжестартмоде класса Win32_Service (службы удаленных рабочих столов)
 
@@ -48,7 +48,7 @@ uint32 ChangeStartMode(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 <dt>
 
@@ -246,7 +246,7 @@ uint32 ChangeStartMode(
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -305,7 +305,7 @@ ELSE
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -319,7 +319,7 @@ ELSE
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 56C30A5B-3C26-4370-8A6B-35564F13AD53
 title: Атрибут MF_SENSORSTREAM_REQUIRED_SDDL (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ce4b8a2d8c23d4d03522d0052aef0d4216c5587
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03a939c9407cef56fbf4ae6086574d0a8427268c019d7eae90edf4ffeb57b469
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448864"
 ---
 # <a name="mf_sensorstream_required_sddl-attribute"></a>\_ \_ Требуемый \_ атрибут SDDL сенсорстреам MF
 
@@ -25,9 +25,9 @@ ms.locfileid: "104272500"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

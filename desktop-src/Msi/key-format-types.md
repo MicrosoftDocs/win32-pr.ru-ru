@@ -4,12 +4,12 @@ ms.assetid: 9f3ce218-1243-4eba-9866-113200fefa30
 title: Типы форматов ключей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96687299a57ddebbb90b422ad5311c4bed1db332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a22c4149ec89bd9a1745c28fe17cdafcbcfeaee827dcb35bd8c6badbf2acfb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692494"
 ---
 # <a name="key-format-types"></a>Типы форматов ключей
 

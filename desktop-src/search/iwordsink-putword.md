@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 5f622e09c2b82bc8de986dafcc83247617caec75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e860aafbef633e226933281aaaa0be5c6429387542e7c3ae2d65d3026fd7fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597604"
 ---
 # <a name="iwordsinkputword-method"></a>Ивордсинк: метод:P Утворд
 
@@ -85,13 +85,13 @@ HRESULT PutWord(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Рекомендуется, чтобы метод **ивордсинк::P утворд** всегда содержал исходное слово, как найдено в *птекстсаурце*. Альтернативные формы слова передаются в Вордсинк с помощью [**ивордсинк::P уталтворд**](iwordsink-putaltword.md). Также рекомендуется, чтобы слова в *пвЦинбуф* соответствовали исходному тексту как можно точнее. Например, оставьте прописные и диакритические знаки, где это возможно.
 
 Этот вызов должен выполняться для каждого слова, полученного от *птекстсаурце* , за исключением тех, для которых был произведен вызов [**Ивордсинк::P уталтворд**](iwordsink-putaltword.md) . При сохранении в Вордсинк слово завершается символом ЕОВ.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -103,7 +103,7 @@ HRESULT PutWord(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

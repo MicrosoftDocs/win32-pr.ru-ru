@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f73d0386d786e4d3004c78b1acccda7e9be8fc16
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c9c82e1665e4c49461c3c7bd1c315b31f4f72c7e3f0e5331d9f0326347d36105
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582164"
 ---
 # <a name="force_allocate-attribute"></a>принудительное \_ выделение атрибута
 
@@ -31,7 +31,7 @@ ms.locfileid: "104487584"
 
 Этот атрибут не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 RPC пытается сокращать выделение памяти на сервере, указывая указатели на внутренние буферы памяти. Такой подход может вызвать проблемы в приложениях, которые пытаются напрямую вызвать непосредственный [**\_ пользователь \_ MIDL**](midl-user-free-1.md) для указателей, предоставленных RPC, так как не удается освободить указатель, который был оптимизирован. Пометка параметра **\[ принудительным \_ выделением \]** позволит предотвратить эту оптимизацию для всех указателей, производных от него.
 
@@ -53,7 +53,7 @@ Func1([force_allocate] pstr);
 Func2([force_allocate] pData);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -72,6 +72,6 @@ Func2([force_allocate] pData);
 [**allocate**](allocate.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

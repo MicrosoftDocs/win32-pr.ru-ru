@@ -9,12 +9,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1a67f120dc2d2ff956148e5dd4e3992a960641d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7993e3dc89abda520c0f1c5bda90f3eb209aca31e36071a304af01fb420d821e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692104"
 ---
 # <a name="audio-buffers"></a>Звуковые буферы
 
@@ -28,9 +28,9 @@ ms.locfileid: "103774714"
 
 По умолчанию звук включается в операцию записи, и выделяется четыре буфера аудио. Значение **фкаптуреаудио** по умолчанию — **true**. Размер буфера по умолчанию (значение **дваудиобуфферсизе**) может содержать 0,5 секунд для звуковых данных или 10000, в зависимости от того, что больше.
 
- 
+ 
 
- 
+ 
 
 
 

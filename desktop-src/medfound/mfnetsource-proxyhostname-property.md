@@ -4,12 +4,12 @@ ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
 title: Свойство MFNETSOURCE_PROXYHOSTNAME (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc59d5b827276eb5063febf7a8cb7647002ca72a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f82746763c937bdca388782cb0882b536c0b9e93b660e0f8e0a04426e5b48a61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663674"
 ---
 # <a name="mfnetsource_proxyhostname-property"></a>МФНЕТСАУРЦЕ \_ проксихостнаме, свойство
 
@@ -31,13 +31,13 @@ VT \_ LPWSTR
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Константа **мфнетсаурце \_ проксихостнаме** определяет идентификатор GUID для этого ключа свойства. Идентификатор свойства (PID) равен нулю.
 
 Приложения могут использовать это свойство для настройки локатора прокси-сервера по умолчанию при создании объекта локатора прокси-сервера. Чтобы задать свойство, передайте указатель **ипропертисторе** в параметре *ппроксиконфиг* функции [**мфкреатепроксилокатор**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) . Это свойство должно быть задано приложением, если локатор прокси-сервера настроен для выполнения в ручном режиме.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -45,11 +45,11 @@ VT \_ LPWSTR
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
 | Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

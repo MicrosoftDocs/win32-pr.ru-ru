@@ -3,7 +3,7 @@ title: Сообщение DRV_QUERYCONFIGURE (Ммсистем. h)
 description: Указывает драйверу указать, поддерживает ли он пользовательскую конфигурацию.
 ms.assetid: fb2e36a7-8d6b-4b08-b2d7-e128ca7082dc
 keywords:
-- DRV_QUERYCONFIGURE сообщения Windows мультимедиа
+- сообщение DRV_QUERYCONFIGURE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66780106fdd42364d247db534a838842f25dc16a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22c49ec54d1822bbc9ddc4d2606f8905a21c5193322a12df335549074dacdea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691574"
 ---
 # <a name="drv_queryconfigure-message"></a>\_Куериконфигуре сообщение DRV
 
@@ -47,11 +47,11 @@ ms.locfileid: "104262217"
 
 Возвращает ненулевое значение, если драйвер может отображать диалоговое окно конфигурации или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры *lParam1* и *lParam2* не используются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,11 +59,11 @@ ms.locfileid: "104262217"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

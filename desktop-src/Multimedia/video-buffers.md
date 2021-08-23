@@ -9,12 +9,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71e2f3e5b56f995e6a09792260ac2fd6e1ba5cd7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46a6493d22a495a56084e89d2b067c1cf9a874752b44b81f636b5a184b895199
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687694"
 ---
 # <a name="video-buffers"></a>Буферы видео
 
@@ -22,9 +22,9 @@ ms.locfileid: "103778119"
 
 Текущее значение запрошенных буферов видео можно получить с помощью сообщения о [**\_ \_ \_ \_ настройке получения закрепления WM**](wm-cap-get-sequence-setup.md) (или макроса [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Текущее запрошенное число буферов видео хранится в элементе **внумвидеорекуестед** структуры **каптурепармс** . Вы можете запросить размещение и количество буферов, обновив этот элемент, а затем отправив обновленную структуру **каптурепармс** в окно Capture с помощью сообщения [**\_ установки закрепления WM \_ Set \_ Sequence \_**](wm-cap-set-sequence-setup.md) (или макроса [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ).
 
- 
+ 
 
- 
+ 
 
 
 

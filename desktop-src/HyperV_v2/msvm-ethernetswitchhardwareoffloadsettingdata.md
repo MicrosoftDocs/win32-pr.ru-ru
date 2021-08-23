@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 86ef0e22143ffd424ee3acee616504e45d8125bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 751e5f3256da82d2b7cae2da17a8b9dfb54bc5331ebf2679e745bc67c0b4d3b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119524551"
 ---
 # <a name="msvm_ethernetswitchhardwareoffloadsettingdata-class"></a>\_Класс мсвм есернетсвитчхардвареоффлоадсеттингдата
 
@@ -55,7 +55,7 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчхардвареоффлоадсеттингдата** имеет следующие свойства.
 
@@ -124,7 +124,7 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 Указывает, исключается ли основной ЦП VMQ из таблицы косвенных обращений VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -145,7 +145,7 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 Указывает, следует ли всегда выполнять распространение VRSS для очереди по умолчанию независимо от состояния RSS внешней впорт.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -166,7 +166,7 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 Указывает минимальное число очередей, используемых для VRSS/ВММК.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
@@ -187,19 +187,19 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 Указывает, каким способом очереди VRSS/ВММК связаны с разными процессорами узла.
 
 > [!Note]  
-> Добавлено в Windows 10 версии 1709.
+> добавлено в Windows 10 версии 1709.
 
  
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -207,7 +207,7 @@ class Msvm_EthernetSwitchHardwareOffloadSettingData : Msvm_EthernetSwitchFeature
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

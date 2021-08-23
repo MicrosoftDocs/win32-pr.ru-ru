@@ -1,19 +1,19 @@
 ---
-description: Тип адреса устройства Bluetooth LE.
+description: Bluetooth Тип адреса устройства LE.
 ms.assetid: c227d438-72ec-4499-8828-2b86c4ddc64a
 title: System. Devices. АЕП. Bluetooth. Le. AddressType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24f6f1707d2303d7d6046a4a39ed90b90678d4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a0652642496e8dd578c626f8f5da7d73082961a1688afe19aab88093dfbf488
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599094"
 ---
 # <a name="systemdevicesaepbluetoothleaddresstype"></a>System. Devices. АЕП. Bluetooth. Le. AddressType
 
-Тип адреса устройства Bluetooth LE.
+Bluetooth Тип адреса устройства LE.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607"></a>Windows 10, версия 1703, Windows 10, версия 1607
 
@@ -59,11 +59,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 39aeff17-e8d3-4ceb-86a1-1749d2ca98d6
 title: Политика метаданных фото для System. photo. Ленсмодел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a5249136346407ab9fcd1e4802d6910d3e514a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a07fff44e14a04dab220f8dbce243a638710f30db253c43c1ff79a240bb32f3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441874"
 ---
 # <a name="systemphotolensmodel-photo-metadata-policy"></a>Политика метаданных фото для System. photo. Ленсмодел
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                          | Формат диска | Обязательно |
+| Номер | Путь                          | Формат диска | Обязательно |
 |-------|-------------------------------|-------------|----------|
 | 1     | /КСМП/микрософтфото: Ленсмодел | Юникод     | Да      |
 
@@ -59,7 +59,7 @@ VT \_ LPWSTR
 
 
 
-| Заказ | Путь                              | Формат диска | Обязательно |
+| Номер | Путь                              | Формат диска | Обязательно |
 |-------|-----------------------------------|-------------|----------|
 | 1     | /ИФД/КСМП/микрософтфото: Ленсмодел | Юникод     | Да      |
 
@@ -67,9 +67,9 @@ VT \_ LPWSTR
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

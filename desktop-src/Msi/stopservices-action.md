@@ -4,12 +4,12 @@ ms.assetid: 1ad01205-f8b6-400f-be1d-c00a5b71ccfd
 title: Действие Стопсервицес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31cb271b99c434a1ac54ab9744697b991e9e1fcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fee0082d1588c3a1486b51bd4f06869374e1f6babfa71d309d65512e1ff1b0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119627384"
 ---
 # <a name="stopservices-action"></a>Действие Стопсервицес
 
@@ -46,7 +46,7 @@ ms.locfileid: "105673437"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для выполнения этого действия необходимо, чтобы пользователь был администратором или иметь повышенные привилегии с разрешением на управление службами или что приложение является частью управляемой установки.
 

@@ -79,12 +79,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 507c2235c1fda5f43ba025172e276b30e2f0aa85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b42368702552f50aaa4dbcb9175994baa4b9aff5a8452ed0bb58b4d4f61d43c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119523714"
 ---
 # <a name="msvm_externalethernetport-class"></a>\_Класс мсвм екстерналесернетпорт
 
@@ -343,7 +343,7 @@ class Msvm_ExternalEthernetPort : CIM_EthernetPort
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -731,7 +731,7 @@ class Msvm_ExternalEthernetPort : CIM_EthernetPort
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1087,7 +1087,7 @@ class Msvm_ExternalEthernetPort : CIM_EthernetPort
 '
 </dt> <dt>
 
-<span id="OK"></span><span id="ok"></span>**Хорошо**
+<span id="OK"></span><span id="ok"></span>**ХОРОШО**
 </dt> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>**План**
@@ -1259,7 +1259,7 @@ class Msvm_ExternalEthernetPort : CIM_EthernetPort
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ екстерналесернетпорт мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1267,21 +1267,21 @@ class Msvm_ExternalEthernetPort : CIM_EthernetPort
 
 См. раздел [запросы к сетевым объектам](querying-networking-objects.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

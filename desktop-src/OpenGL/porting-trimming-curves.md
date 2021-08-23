@@ -15,12 +15,12 @@ keywords:
 - Перенос по стандарту OpenGL из IRI GL, кривых
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc82822b2e0b9e66729f0cb1a0e939d2775999c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ad544431adaa7f0b049341ec7314e3e53ae60752d633a48c760ca09334f79d33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553864"
 ---
 # <a name="porting-trimming-curves"></a>Перенос кривых обрезки
 
@@ -37,13 +37,13 @@ ms.locfileid: "104258804"
 
 
 
- 
+ 
 
 ??
 
- 
+ 
 
- 
+ 
 
 
 

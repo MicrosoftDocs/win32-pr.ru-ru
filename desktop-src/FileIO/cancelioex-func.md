@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: 3de44762ad9a230a9d8cc410c4ba3ae7c2d9964e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3726bf221073f33d87481d7a6bb6f2f4fd459812616975fba38d9a9a8f0334ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582614"
 ---
 # <a name="cancelioex-function"></a>Функция Канцелиоекс
 
@@ -71,7 +71,7 @@ BOOL WINAPI CancelIoEx(
 
 Если эта функция не может найти запрос на отмену, возвращаемое значение равно 0 (нулю), а [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) возвращает **ошибку \_ не \_ удалось**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **канцелиоекс** позволяет отменять запросы в потоках, отличных от вызывающего потока. Функция [**канцелио**](cancelio.md) отменяет запросы только в том же потоке, который вызвал функцию **канцелио** . **Канцелиоекс** отменяет только что необработанные операции ввода-вывода для маркера, он не изменяет состояние маркера. Это означает, что вы не можете полагаться на состояние маркера, так как вы не можете определить, завершилась ли операция успешно или отменена.
 
@@ -85,7 +85,7 @@ BOOL WINAPI CancelIoEx(
 -   Операция была отменена. Функция [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) возвращает **сообщение об ошибке " \_ операция была \_ прервана**".
 -   Операция завершилась с другой ошибкой. Функция [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) возвращает соответствующий код ошибки.
 
-В Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
+в Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
 
 
 
@@ -101,21 +101,21 @@ BOOL WINAPI CancelIoEx(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                                                                                                                                                                                                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                                                                                                                                                                                                             |
-| Header<br/>                   | <dl> <dt>Иоапи. h (включение Windows. h); </dt> <dt>Винбасе. h в Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                                                                                                                                                                                                                   |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                                                                                                                                                                                                             |
+| Заголовок<br/>                   | <dl> <dt>иоапи. h (включает Windows. h);</dt> <dt>винбасе. h на Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista (включая Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

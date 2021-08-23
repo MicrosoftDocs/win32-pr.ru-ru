@@ -4,12 +4,12 @@ ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: Атрибут MF_TRANSCODE_CONTAINERTYPE (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f86b8d5890a771200feda265c3878b6eb7030b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c56b0332c43f10fa61b34f47191e3946a4813b3670249a8d858317067c38d52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604694"
 ---
 # <a name="mf_transcode_containertype-attribute"></a>\_Атрибут контаинертипе для ПЕРЕКОДИРОВАНИЯ MF \_
 
@@ -33,8 +33,8 @@ ms.locfileid: "105692541"
 | <span id="MFTranscodeContainerType_ADTS"></span><span id="mftranscodecontainertype_adts"></span><span id="MFTRANSCODECONTAINERTYPE_ADTS"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ ADTS**</dt> </dl>         | Контейнер файлов ADTS. <br/>                                                   |
 | <span id="MFTranscodeContainerType_MPEG2"></span><span id="mftranscodecontainertype_mpeg2"></span><span id="MFTRANSCODECONTAINERTYPE_MPEG2"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ MPEG2**</dt> </dl>     | Контейнер файлов MPEG2. <br/>                                                  |
 | <span id="MFTranscodeContainerType_FMPEG4"></span><span id="mftranscodecontainertype_fmpeg4"></span><span id="MFTRANSCODECONTAINERTYPE_FMPEG4"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ FMPEG4**</dt> </dl> | Контейнер файлов FMPEG4. <br/>                                                 |
-| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**\_Волна мфтранскодеконтаинертипе**</dt> </dl>         | Контейнер файла WAVE.<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/> |
-| <span id="MFTranscodeContainerType_AVI"></span><span id="mftranscodecontainertype_avi"></span><span id="MFTRANSCODECONTAINERTYPE_AVI"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ AVI**</dt> </dl>             | Контейнер файла AVI.<br/> Поддерживается в Windows 8.1 и более поздних версиях.<br/>  |
+| <span id="MFTranscodeContainerType_WAVE"></span><span id="mftranscodecontainertype_wave"></span><span id="MFTRANSCODECONTAINERTYPE_WAVE"></span><dl> <dt>**\_Волна мфтранскодеконтаинертипе**</dt> </dl>         | Контейнер файла WAVE.<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/> |
+| <span id="MFTranscodeContainerType_AVI"></span><span id="mftranscodecontainertype_avi"></span><span id="MFTRANSCODECONTAINERTYPE_AVI"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ AVI**</dt> </dl>             | Контейнер файла AVI.<br/> поддерживается в Windows 8.1 и более поздних версиях.<br/>  |
 | <span id="MFTranscodeContainerType_AMR"></span><span id="mftranscodecontainertype_amr"></span><span id="MFTRANSCODECONTAINERTYPE_AMR"></span><dl> <dt>**Мфтранскодеконтаинертипе \_ AMR**</dt> </dl>             | Контейнер файлов AMR. <br/>                                                    |
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "105692541"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: сетгуид**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется как для функции быстрого перекодирования, так и для объекта модуля записи приемника.
 
@@ -64,19 +64,19 @@ ms.locfileid: "105692541"
 
 Этот атрибут можно использовать для настройки типа контейнера файлов для модуля записи приемника. Дополнительные сведения см. в разделе [атрибуты модуля записи приемника](sink-writer-attributes.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

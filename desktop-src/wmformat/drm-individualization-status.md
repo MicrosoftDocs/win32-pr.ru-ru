@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d59a19c58c775ee22d78e17bc09add2825948e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 081a8714d29cb48236bdb9191c15e92db96b18a9f8c1d9c2388c5baee7783296
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705654"
 ---
 # <a name="drm_individualization_status-enumeration-drmexternalsh"></a>Перечисление DRM_INDIVIDUALIZATION_STATUS (Дрмекстерналс. h)
 
@@ -96,7 +96,7 @@ typedef enum DRM_INDIVIDUALIZATION_STATUS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это перечисление используется структурой [**\_ \_ состояния WM индивидуализируйте**](wm-individualize-status.md) .
 
@@ -108,8 +108,8 @@ typedef enum DRM_INDIVIDUALIZATION_STATUS {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                      |
-| Версия<br/>                  | Пакет SDK для Windows Media Format 7 или более поздние версии пакета SDK<br/>                       |
-| Header<br/>                   | <dl> <dt>Дрмекстерналс. h</dt> </dl> |
+| Версия<br/>                  | Windows Пакет SDK для формата мультимедиа 7 или более поздние версии пакета SDK<br/>                       |
+| Заголовок<br/>                   | <dl> <dt>Дрмекстерналс. h</dt> </dl> |
 
 
 

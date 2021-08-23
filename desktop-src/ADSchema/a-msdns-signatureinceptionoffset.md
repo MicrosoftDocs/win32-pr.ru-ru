@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f81e3e278b3c37531a4e537fe45583421bce8928
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1f6e66bac8dcf2653d7b4f82eb73a80e852c6f8902ddddec50ae601ed80e37ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552974"
 ---
 # <a name="ms-dns-signature-inception-offset-attribute"></a>атрибут MS-DNS-Signature-InAttribute-offset
 
@@ -52,10 +52,10 @@ ms.locfileid: "104494055"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет                                    |
+| Является однозначным       | Верно                                     |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | 0                                        |
 | Range-Upper            | 2592000                                  |

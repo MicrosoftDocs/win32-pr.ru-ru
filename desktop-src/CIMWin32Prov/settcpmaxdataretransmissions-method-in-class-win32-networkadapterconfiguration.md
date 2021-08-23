@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 59998888eb2aed170b626fb4cb61780cbe0cb6e4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 07484f07ab5c4a53da5b044f409a59c4ac37f07717875cd80f44eb625bdf2041
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439274"
 ---
 # <a name="settcpmaxdataretransmissions-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетткпмаксдатаретрансмиссионс \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время ожидания повторной передачи удваивается при каждой последующей повторной передаче соединения.
 
@@ -412,14 +412,14 @@ DHCP не включен на адаптере.
 
 Пример [изменения максимального допустимого числа передаваемых данных TCP](https://Gallery.TechNet.Microsoft.Com/8a581692-7950-412e-bd28-74f223b27827) в сценарии VBScript настраивает число попыток, которые TCP будет пытаться повторно передать отдельному сегменту данных, прежде чем отказаться от усилий.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista, Windows Vista<br/>                                                 |
-| Минимальная версия сервера<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |
+| Минимальная версия клиента<br/> | Windows vista, Windows vista<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows сервер 2008, Windows server 2008<br/>                                     |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
