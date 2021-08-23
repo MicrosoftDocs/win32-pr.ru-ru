@@ -4,12 +4,12 @@ ms.assetid: c3ee20b9-cae9-4a84-b173-3a4919202b3d
 title: Свойство Авенкмуксаутпутстреамтипе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fecb5b8c169c8bcd8c3a5caa975c37e7f15a9bfb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e4eaf82ad054cb086a35ff4bd207786ceadd24a5f7acb8db528bb5cee6faef8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540894"
 ---
 # <a name="avencmuxoutputstreamtype-property"></a>Авенкмуксаутпутстреамтипе, свойство
 
@@ -27,19 +27,19 @@ ms.locfileid: "104341985"
 
 Значение этого свойства является членом перечисления [**еавенкмуксаутпут**](/windows/win32/api/codecapi/ne-codecapi-eavencmuxoutput) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

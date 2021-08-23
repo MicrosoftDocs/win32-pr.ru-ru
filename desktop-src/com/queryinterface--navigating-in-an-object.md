@@ -4,12 +4,12 @@ description: Навигация по QueryInterface в объекте
 ms.assetid: 7dec015f-7609-40eb-a71e-f6e9c9b9f8ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dbd44d200bf0a992f47bc375d0782bdadacf6a3
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: bdbb25f76f87b43f6fc4fc4d3a1a3eb65c19960942769818a83f176fc62f72c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104336062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611074"
 ---
 # <a name="queryinterface-navigating-in-an-object"></a>QueryInterface: Навигация в объекте
 
@@ -23,16 +23,16 @@ ms.locfileid: "104336062"
 
 Метод [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) также обеспечивает надежный и надежный способ указания того, что объект не поддерживает данный контракт. То есть, если при вызове **QueryInterface** один из них запрашивает "старый" объект, независимо от того, поддерживает ли он новый интерфейс (например, он был сформирован после доставки старого объекта), старый объект будет надежно, не вызывая сбоя, и ответить "нет". Технология, которая поддерживает это, — это алгоритм, по которому выделяются идентификаторов IID. Хотя это может показаться небольшой точкой, очень важно, чтобы общая архитектура системы, а также возможность запроса устаревших элементов о новых функциях, в удивлении, не содержится в большинстве других архитектур объектов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование и реализация IUnknown](using-and-implementing-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Поставщик, реализующий протокол про�
 ms.assetid: 773c9fdb-c810-4cea-afed-df6484a9c9c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb9519da9d66937fd25245fe78f12ef34c3c0ad8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 46245b22a5538fc347ba735620270b7bbc1071574852305adc6b3881202ae317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605824"
 ---
 # <a name="obtaining-identity-information"></a>Получение сведений об удостоверении
 
@@ -36,6 +36,6 @@ ms.locfileid: "104069845"
 
 После вызова [**расеапбегин**](/previous-versions/windows/desktop/legacy/aa363520(v=vs.85))служба проверки подлинности вызывает [**расеапфримемори**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) , чтобы освободить память, занятую этими данными. Поэтому протокол проверки подлинности должен скопировать информацию в буфер закрытой памяти во время вызова **расеапбегин**.
 
- 
+ 
 
- 
+ 

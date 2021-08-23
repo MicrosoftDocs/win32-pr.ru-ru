@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 703f95778c66522d67e40a51293c8fb8fe956ecb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 069449b5eef83cef7b7bdfac1c61aacb0ceac97cbbdd6e6fb2c139c43b3bae13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663064"
 ---
 # <a name="control-control"></a>Элемент управления
 
@@ -45,7 +45,7 @@ CONTROL text, id, class, style, x, y, width, height [, extended-style]
 
 Дополнительные сведения об общем синтаксисе инструкции Control см. в разделе [Общие параметры управления](common-control-parameters.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Шесть возможных классов элементов управления описаны в следующих разделах.
 
@@ -89,6 +89,6 @@ CONTROL text, id, class, style, x, y, width, height [, extended-style]
 
 Стили статических элементов управления описаны в следующем разделе: [стили статических элементов управления](../controls/static-control-styles.md).
 
- 
+ 
 
- 
+ 

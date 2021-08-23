@@ -4,12 +4,12 @@ description: Агрегирование — это механизм повтор
 ms.assetid: 6845b114-8f43-47ad-acdf-b63d6008d221
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a4f11f69f5d7b14047a8138cba93bd503b645a3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4855b1fa3a614d190b8f192aeee2e7cf3d3d53bbdce589a1363e0398f70430c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104339340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731724"
 ---
 # <a name="aggregation"></a>Агрегирование
 
@@ -137,7 +137,7 @@ class CSomeObject : public IUnknown
 
 -   При создании внутреннего объекта внешний объект должен явно запрашивать его [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown).
 -   Внешний объект должен защищать свою реализацию [**выпуска**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) от повторного входа со искусственным счетчиком ссылок вокруг кода уничтожения.
--   Внешний объект должен вызвать свой метод управления  [**выпуском**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) IUnknown, если он запрашивает указатель на любой из интерфейсов внутреннего объекта. Чтобы освободить этот указатель, внешний объект вызывает свой управляющий метод  [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) для **IUnknown**, за которым следует **выпуск** на указателе внутреннего объекта.
+-   Внешний объект должен вызвать свой метод управления  [**выпуском**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) IUnknown, если он запрашивает указатель на любой из интерфейсов внутреннего объекта. Чтобы освободить этот указатель, внешний объект вызывает свой управляющий метод [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) для **IUnknown** , за которым следует **выпуск** на указателе внутреннего объекта.
     ```C++
     // Obtaining inner object interface pointer 
     pUnkInner->QueryInterface(IID_ISomeInterface, &pISomeInterface); 
@@ -153,13 +153,13 @@ class CSomeObject : public IUnknown
 
 -   Внешний объект не должен явным образом делегировать запрос для любого неопознанного интерфейса внутреннему объекту, если это поведение не является особенно намерением внешнего объекта.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Включение и делегирование](containment-delegation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

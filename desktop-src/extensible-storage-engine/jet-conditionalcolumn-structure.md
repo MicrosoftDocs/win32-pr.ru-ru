@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 27d0add64adeb7b609e84d6102a06230df55ebbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 870536ff408558332e6a07f91649edb1a17ca2fb0c69ed46fb7171f3505d683e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119731154"
 ---
 # <a name="jet_conditionalcolumn-structure"></a>Структура JET_CONDITIONALCOLUMN
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_conditionalcolumn-structure"></a>Структура JET_CONDITIONALCOLUMN
 
@@ -75,11 +75,11 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Условный индекс содержит элемент индекса только для тех строк, которые соответствуют заданному условию. Например, столбец может называться "помечен", а если строка помечена, в столбце задается значение, отличное от NULL. В JET_bitIndexColumnMustBeNonNull условном индексе этого столбца будут показаны все отмеченные строки, а в условном индексе JET_bitIndexColumnMustBeNull будут показаны непомеченные строки. Это также удобный способ для удаления флагов и сбора мусора.
 
-### <a name="requirements"></a>Требования
+### <a name="requirements"></a>Requirements (Требования)
 
 <table>
 <colgroup>
@@ -89,11 +89,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>

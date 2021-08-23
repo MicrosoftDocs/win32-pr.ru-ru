@@ -4,12 +4,12 @@ ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
 title: Свойство Авенккоммонловлатенци (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a13dd59b7aa09f6b0f2aa6a4c31031d090d41c85
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6b53c4b0122e595c930828f400600fc22b5a03977a781adab0e3a2f42b1048ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690234"
 ---
 # <a name="avenccommonlowlatency-property"></a>Авенккоммонловлатенци, свойство
 
@@ -25,23 +25,23 @@ ms.locfileid: "104262466"
 
 **КОДЕКАПИ \_ авенккоммонловлатенци**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задержка декодирования определяется как объем данных, которые декодер должен забуферировать. Например, установка этого свойства в значение **\_ true** в кодировщике видео MPEG ОГРАНИЧИВАЕТ типы структур GOP, которые может использовать кодировщик.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: сетпартиалаутпуттипе
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | сетпартиалаутпуттипе
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | сетпартиалаутпуттипе
 ms.assetid: 425cd581-8a2d-471a-84ea-01980c769dc5
 keywords:
 - Формат Windows Media Сетпартиалаутпуттипе
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1853a438a2b66495ecf795a1dd57bdcd71a25b1a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a4d4e9d8a5a4c09135b0fe6bb09a92ef1cd43c84273703da921eb0d1882a67f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585504"
 ---
 # <a name="setpartialoutputtype"></a>сетпартиалаутпуттипе
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

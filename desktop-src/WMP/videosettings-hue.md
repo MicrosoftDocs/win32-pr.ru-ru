@@ -3,7 +3,7 @@ title: ВИДЕОСЕТТИНГС. оттенок
 description: Атрибут «цветовой тон» указывает или получает параметр оттенка видео.
 ms.assetid: b965b05c-6ffc-44bd-8761-366350ff14e3
 keywords:
-- Проигрыватель Windows Media ВИДЕОСЕТТИНГС. оттенок
+- видеосеттингс. оттенок проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df6e379183693bc072a7b7fccad0954fd6bcb75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d5ca3a5613ff348b6ef725a772f54a527997c7db8b772202ad2085687799ca8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119615504"
 ---
 # <a name="videosettingshue"></a>ВИДЕОСЕТТИНГС. оттенок
 
@@ -31,17 +31,17 @@ ms.locfileid: "105704055"
 
 Этот атрибут является **числом** для чтения и записи (**длинное** целое) со значением в диапазоне от-127 до + 127 и значением по умолчанию 0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------|
-| Версия<br/> | Версия проигрывателя Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | версия проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

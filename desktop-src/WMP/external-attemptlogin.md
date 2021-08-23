@@ -3,9 +3,9 @@ title: External. Аттемптлогин, метод
 description: Метод Аттемптлогин отображает диалоговое окно, чтобы пользователь мог попытаться войти в Интернет-магазин.
 ms.assetid: 04fe476f-6d0e-4faa-9e4a-f87bed782205
 keywords:
-- Аттемптлогин метод Windows Media Player
-- Аттемптлогин метод Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод Аттемптлогин
+- проигрыватель Windows Media метода аттемптлогин
+- проигрыватель Windows Media метода аттемптлогин, внешний класс
+- внешний класс проигрыватель Windows Media, метод аттемптлогин
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86958c241f2399efbe342371b8cd4cfd376ff628
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7f967e812ff76dd11dfd9b4ff07a542d2575548519c3a52816fadf6302a719d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649544"
 ---
 # <a name="externalattemptlogin-method"></a>External. Аттемптлогин, метод
 
@@ -44,22 +44,22 @@ External.attemptLogin()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Если при входе в систему возникает изменение состояния входа, проигрыватель Windows Media вызывает событие [онлогинчанже](external-onloginchange-event.md) .
+если при входе в систему возникает изменение состояния входа, проигрыватель Windows Media вызывает событие [онлогинчанже](external-onloginchange-event.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

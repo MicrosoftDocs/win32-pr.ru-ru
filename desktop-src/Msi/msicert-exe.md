@@ -1,19 +1,19 @@
 ---
-description: Установщик Windows могут использовать цифровые подписи в качестве средства для обнаружения поврежденных ресурсов.
+description: Windows Установщик может использовать цифровые подписи в качестве средства для обнаружения поврежденных ресурсов.
 ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0a4df800bbcfa9ed2fb0d016794b3ebcf1535be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ede88930cdb6cc616d8c39fb400f0c67c31eecd01d6d1a7d1832421cb394bcc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119534552"
 ---
 # <a name="msicertexe"></a>Msicert.exe
 
-Установщик Windows могут использовать цифровые подписи в качестве средства для обнаружения поврежденных ресурсов. Сертификат подписавший может сравниваться с сертификатом подписи внешнего ресурса, устанавливаемого пакетом. Дополнительные сведения см. в статье [цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md).
+Windows Установщик может использовать цифровые подписи в качестве средства для обнаружения поврежденных ресурсов. Сертификат подписавший может сравниваться с сертификатом подписи внешнего ресурса, устанавливаемого пакетом. дополнительные сведения см. в статье [цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md).
 
 MsiCert.exe — это служебная программа командной строки, которую можно использовать для заполнения [таблицы мсидигиталсигнатуре](msidigitalsignature-table.md) и [таблицы мсидигиталцертификате](msidigitalcertificate-table.md) сведениями о цифровой подписи внешнего CAB-файла. CAB-файл должен быть подписан цифровой подписью и перечислен в [таблице Media](media-table.md). MsiCert.exe использует сведения о сертификате подписавшего из CAB-файла с цифровой подписью и создаст и добавит таблицы Мсидигиталсигнатуре и Мсидигиталцертификате в базу данных, если они еще не существуют.
 
@@ -29,7 +29,7 @@ MsiCert.exe — это служебная программа командной 
 
 | Параметр | Параметр        | Описание                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | <database> | Обновляемая база данных (MSI-файл).                                                         |
+| -d     | <database> | Обновляемая база данных (файл .msi).                                                         |
 | -M     | <media Id> | Запись в поле DiskId [таблицы Media](media-table.md) в записи для CAB-файла. |
 | -c     | <cabinet>  | Путь к CAB-файлу с цифровой подписью.                                                          |
 | -H     |                  | Включить хэш цифровой подписи. Это необязательно.                                            |
@@ -38,13 +38,13 @@ MsiCert.exe — это служебная программа командной 
 
  
 
-Это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Средства разработки установщик Windows](windows-installer-development-tools.md)
+[Windows Средства разработки установщика](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Выпущенные версии, средства и распространяемые пакеты](released-versions-tools-and-redistributables.md)

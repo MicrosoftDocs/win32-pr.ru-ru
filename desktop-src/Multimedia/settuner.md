@@ -3,7 +3,7 @@ title: Команда сеттунер
 description: Команда сеттунер изменяет текущий тюнер или параметр канала текущего тюнера. Устройства ВИДЕОМАГНИТОФОНА распознают эту команду.
 ms.assetid: 76d05210-3c2a-4d00-b3eb-c912c1deabf7
 keywords:
-- Команда сеттунер мультимедиа Windows
+- команда сеттунер Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51150043a68f3cd34525eb74a64237fc4dc150e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7075de6ed50c49773a502ba77e093d84e85b079a6b17c462ea8ee65ad1330aa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688803"
 ---
 # <a name="settuner-command"></a>Команда сеттунер
 
@@ -77,7 +77,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -88,7 +88,7 @@ _stprintf_s(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

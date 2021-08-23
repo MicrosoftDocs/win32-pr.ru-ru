@@ -3,7 +3,7 @@ title: Controls. Куррентпоситионстринг
 description: Свойство Куррентпоситионстринг извлекает текущую позицию в элементе мультимедиа в виде строки в формате чч мм СС (часы, минуты и секунды).
 ms.assetid: 2b360cdb-3cf8-4d3c-82c2-7eb621f82f4c
 keywords:
-- Проигрыватель Windows Media Controls. Куррентпоситионстринг
+- controls. куррентпоситионстринг проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbf3472d71afc543c596485d10f0d7e59dde90a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 640f0f97e3fa4c4054df17ea92304ad7721c770d9cb9b56436dcf810b9c083ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651994"
 ---
 # <a name="controlscurrentpositionstring"></a>Controls. Куррентпоситионстринг
 
@@ -34,7 +34,7 @@ player.controls.currentPositionString
 
 Это свойство является **строкой**, доступная только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если размер элемента мультимедиа меньше часа, часть чч: не включается.
 
@@ -45,7 +45,7 @@ player.controls.currentPositionString
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript запускается таймер HTML, который отображает текущее расположение файла мультимедиа с интервалом в 1 секунду. Для вывода текущей позицией был создан HTML-элемент с именем MyText. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript запускается таймер HTML, отображающий текущее расположение файла мультимедиа с интервалом в 1 секунду. Для вывода текущей позицией был создан HTML-элемент с именем MyText. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -54,18 +54,18 @@ var timer = window.setInterval("MyText.value = Player.controls.currentPositionSt
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

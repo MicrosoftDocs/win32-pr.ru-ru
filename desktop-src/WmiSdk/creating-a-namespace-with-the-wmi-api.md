@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание пространства имен с помощью API инструментария WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53054837157df5edea90657f8b68c87b394b6d04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8192bb38b60c3d0ddefb8cc1e5cb7b5f78cb0f5ba7937d39784729e0f61f70b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612544"
 ---
 # <a name="creating-a-namespace-with-the-wmi-api"></a>Создание пространства имен с помощью API инструментария WMI
 

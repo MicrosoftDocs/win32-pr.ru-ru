@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2c9a323f0220a593d783de3e87e8dc8bce6f53a1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e5d4cc054d832bcaea7987fda26f8c000a7c6c2bbfe5e2f13366a99fcddb0e01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671184"
 ---
 # <a name="texture2dgathercmpalphasfloatfloatintuint-function"></a>Функция Texture2D:: Гасеркмпалфа (S, float, float, int, uint)
 
@@ -94,7 +94,7 @@ TemplateType GatherCmpAlpha(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -110,7 +110,7 @@ TemplateType GatherCmpAlpha(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

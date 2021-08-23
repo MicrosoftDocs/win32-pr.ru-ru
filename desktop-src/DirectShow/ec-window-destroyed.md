@@ -4,12 +4,12 @@ ms.assetid: facf35c2-d6a2-4373-bce5-171fd9325116
 title: EC_WINDOW_DESTROYED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd3e641c7fb911a8da10a4c89682fa266e862de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d7b26224fee4e18d92d16d8f3bfe277c70cf2b260a19c9c7d6438477266c3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686034"
 ---
 # <a name="ec_window_destroyed"></a>\_окно EC \_ уничтожено
 
@@ -37,23 +37,23 @@ ms.locfileid: "105675033"
 
 Диспетчер графов фильтров освобождает это окно в качестве фокуса через интерфейс [**метод IResourceManager**](/windows/desktop/api/Strmif/nn-strmif-iresourcemanager) . Он не отправляет уведомление о событии в приложение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Модуль подготовки видео отправляет это событие, когда оно покидает граф фильтра в своем методе [**ибасефилтер:: жоинфилтерграф**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-joinfiltergraph) . (Отправка события при уничтожении фильтра может быть слишком поздно, так как в этом случае диспетчер графов фильтров также может быть уничтожен.)
 
 Это событие позволяет другим фильтрам получать ресурсы, зависящие от фокуса окна, например звуковыми устройствами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

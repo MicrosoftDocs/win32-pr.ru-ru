@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14cb5354c21935c22833ea6f4b54b20fedc696f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0f64fe84f17ee4cc1fed25b870b2142b474e753fa41e82cd0d385c9ef185ee9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672114"
 ---
 # <a name="load4uintuint-function"></a>Load4 (uint, uint), функция
 
@@ -29,8 +29,8 @@ ms.locfileid: "103793741"
 
 ``` syntax
 uint4 Load4(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -64,7 +64,7 @@ uint4 Load4(
 
 Четыре значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -76,15 +76,15 @@ uint4 Load4(
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Методы Load4](rwbyteaddressbuffer-load4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
 title: Свойство CODECAPI_AVLowLatencyMode (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be7e23a29e9dd5f88f7a96e6c32fd42b68a7204
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 2d1466f7874fe743dbc865df251f077440885103853e3784af19624c4733a1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606274"
 ---
 # <a name="codecapi_avlowlatencymode-property"></a>КОДЕКАПИ \_ авловлатенцимоде, свойство
 
@@ -38,19 +38,19 @@ ms.locfileid: "111826908"
 > [!WARNING] 
 > В текущей реализации декодер Media Foundation H. 264 использует для этого свойства тип **VT_UI4** . Все другие реализации, включая кодировщик H. 264, используют тип **VT_BOOL**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
 | Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

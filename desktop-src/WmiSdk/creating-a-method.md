@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание метода WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2489a5dd4e97ed6c8d26eeb292c45fa66901cbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 689f69518f440e7c1983a92fbf86877c5c6dd2149ce2b31b8459aa08b9e94c4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612534"
 ---
 # <a name="creating-a-wmi-method"></a>Создание метода WMI
 
@@ -20,7 +20,7 @@ ms.locfileid: "104272229"
 
 -   [Создание метода класса WMI в MOF](#creating-a-wmi-class-method-in-mof)
 -   [Создание метода класса WMI в C++](#creating-a-wmi-class-method-in-c)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="creating-a-wmi-class-method-in-mof"></a>Создание метода класса WMI в MOF
 
@@ -201,7 +201,7 @@ class MyClass
 
     Один вызов [**путмесод**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-putmethod) может поместить оба объекта [**\_ \_ параметров**](--parameters.md) в класс.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

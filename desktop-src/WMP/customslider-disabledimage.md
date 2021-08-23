@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Дисабледимаже
 description: Атрибут Дисабледимаже указывает или получает изображение ползунка, используемого при отключенном ползунке.
 ms.assetid: 91b1c2e3-6c92-4baa-b1f3-e44707157f4b
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Дисабледимаже
+- кустомслидер. дисабледимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 169057d952170fb92c4e3a98617c7db22f5456b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9b5d75e26204fc362dfa714bc8720d6db87e511bbfda03096d60f58f91c3335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651564"
 ---
 # <a name="customsliderdisabledimage"></a>КУСТОМСЛИДЕР. Дисабледимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698989"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является необязательным. Если он не указан, будет использоваться файл, указанный в атрибуте **Image** .
 
@@ -39,17 +39,17 @@ ms.locfileid: "105698989"
 
 Поддерживаются следующие типы файлов изображений: BMP, JPG, PNG и GIF (не включая анимированные GIF).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

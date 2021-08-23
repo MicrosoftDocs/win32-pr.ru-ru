@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 14458bdafa0bbf4421c67db8102491db4e1fe6b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb466e80070fe1be5cd7af7889fc5727c81f8caad89ad60c48c7a105b688fb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705704"
 ---
 # <a name="wm_userchanged-message"></a>\_Сообщение УСЕРЧАНЖЕД WM
 
@@ -27,7 +27,7 @@ ms.locfileid: "103999416"
 Окно получает это сообщение через функцию [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) .
 
 > [!Note]  
-> Это сообщение не поддерживается в Windows Vista.
+> это сообщение не поддерживается в Windows Vista.
 
  
 
@@ -62,23 +62,23 @@ ms.locfileid: "103999416"
 
 Приложение должно вернуть нуль, если оно обрабатывает это сообщение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                              |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Обзор Windows](windows.md)
+[Windows Средств](windows.md)
 </dt> </dl>
 
  

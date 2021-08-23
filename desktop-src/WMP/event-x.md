@@ -3,7 +3,7 @@ title: событие. x
 description: Атрибут x извлекает координату по оси x указателя мыши относительно окна приложения.
 ms.assetid: aaf3bd56-4617-4e38-9460-834baa27bcc2
 keywords:
-- событие. x проигрыватель Windows Media
+- проигрыватель Windows Media event. x
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2a00c0b898eaedbcd12827d5407f4783a845a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5e5ad77f05deff7d119c4dd4fe5409d53dba9deee51dd6eff05b73bce3c4c50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650344"
 ---
 # <a name="eventx"></a>событие. x
 
@@ -31,17 +31,17 @@ event.x
 
 Этот атрибут является **числом** только для чтения (**длинное целое**).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

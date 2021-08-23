@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 13716fd5d25e2e8602379ea3864c516fa5388475
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd69b6dc2cede96e6ca07983195d202cfd248633f44a13fe1967393c446ca329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753224"
 ---
 # <a name="d3dx10disassembleshader-function"></a>Функция D3DX10DisassembleShader
 
@@ -99,7 +99,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 Возвращает один из следующих [кодов возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемый текст включает заголовок с версией компилятора HLSL, используемой для создания этого объекта, комментарии, описывающие макет памяти буферов констант, используемых шейдером, входными и выходными подписями, а также точками привязки ресурсов.
 
@@ -134,7 +134,7 @@ if( pVSBuf )
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
 
 
 

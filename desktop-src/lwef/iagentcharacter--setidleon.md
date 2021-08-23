@@ -4,16 +4,16 @@ description: Иажентчарактер Сетидлеон
 ms.assetid: 397d223a-0970-4535-ad46-2923df6b9975
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98db30c9c440ed0564b98977d33e15e390cf57d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fde86da6dda12744aedcd780b93d92c45fe2906dd16073bf0e3555848718e747
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665684"
 ---
 # <a name="iagentcharactersetidleon"></a>Иажентчарактер:: Сетидлеон
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetIdleOn(
@@ -41,9 +41,9 @@ HRESULT SetIdleOn(
 [**Иажентчарактер:: Жетидлеон**](iagentcharacter--getidleon.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7801b2d4fa54395dbba8617d40bddf1db1f8c147
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d6c521034ef779d0cf760286b3056528aaec5231f0bbb1842ee41f4a97a0ea8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604274"
 ---
 # <a name="int32columnvalue-class"></a>Класс Int32ColumnValue
 
@@ -63,7 +63,7 @@ public class Int32ColumnValue : ColumnValueOfStruct<int>
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

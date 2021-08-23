@@ -3,7 +3,7 @@ title: Network. пропускная способность
 description: Свойство пропускной способности извлекает текущую пропускную способность клипа.
 ms.assetid: 2ef86f2a-98e9-4544-a740-c2237f06c135
 keywords:
-- Проигрыватель Windows Media Network. пропускная способность
+- проигрыватель Windows Media сети. пропускная способность
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4783d86160070fc61202f97b4cf3882f2cebcfb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 40bd97ae2efe7513bc69d308a29356cfc7b141ecc84b816bdc7fad68d79aa785
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119616881"
 ---
 # <a name="networkbandwidth"></a>Network. пропускная способность
 
@@ -33,13 +33,13 @@ ms.locfileid: "105704222"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство возвращает нуль, если *игрок*. Свойство **URL-адреса** не задано. Это свойство допустимо только для потоковой передачи мультимедиа.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере Microsoft JScript используется *Network*. **пропускная способность** для вывода текущей пропускной способности носителя. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "BW". Объект **Player** создан с идентификатором "Player".
+в следующем примере Microsoft JScript используется *сеть*. **пропускная способность** для вывода текущей пропускной способности носителя. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "BW". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -68,18 +68,18 @@ ms.locfileid: "105704222"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

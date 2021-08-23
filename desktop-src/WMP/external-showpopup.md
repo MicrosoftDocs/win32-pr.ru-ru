@@ -3,9 +3,9 @@ title: External. showPopup, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. showPopup, метод
 ms.assetid: 17958543-dbed-45a5-9b02-4800a07cb820
 keywords:
-- showPopup метод Windows Media Player
-- showPopup метод Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод showPopup
+- проигрыватель Windows Media метода showPopup
+- проигрыватель Windows Media метода showPopup, внешний класс
+- внешний класс проигрыватель Windows Media, метод showPopup
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acaecb559e7df60067e89ec754ec9432233500f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a651add93e32c1c2eb82827a4089a338341f2506ba26d9fbb06061aa6d185d75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648345"
 ---
 # <a name="externalshowpopup-method"></a>External. showPopup, метод
 
@@ -30,7 +30,7 @@ ms.locfileid: "105694750"
 
  
 
-Метод **showPopup** указывает проигрывателю Windows Media отображать всплывающую веб-страницу; то есть веб-страница, которая отображается в отдельном окне.
+метод **showPopup** указывает проигрыватель Windows Media отображать всплывающую веб-страницу; то есть веб-страница, которая отображается в отдельном окне.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -58,7 +58,7 @@ External.showPopup(
 *Параметры* \[ окне\]
 </dt> <dd>
 
-**Строка** , добавляемая проигрывателем Windows Media в URL-адрес веб-страницы.
+**строка** , которая проигрыватель Windows Media добавляется к URL-адресу веб-страницы.
 
 </dd> </dl>
 
@@ -66,34 +66,34 @@ External.showPopup(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Проигрыватель Windows Media не интерпретирует всплывающий индекс. Индексы, которые определяют всплывающие веб-страницы, создаются Интернет-магазином и имеют значение только в Интернет-магазине.
+проигрыватель Windows Media не интерпретирует всплывающий индекс. Индексы, которые определяют всплывающие веб-страницы, создаются Интернет-магазином и имеют значение только в Интернет-магазине.
 
-В следующих шагах показано, как проигрыватель Windows Media использует параметры метода **showPopup** для создания URL-адреса всплывающего окна.
+следующие шаги показывают, как проигрыватель Windows Media использует параметры метода **showPopup** для создания URL-адреса всплывающего окна.
 
 1.  Скрипт на странице обнаружения вызывает **showPopup**, передавая целое число в *попупиндекс* и строку в *параметрах*.
 
-2.  Проигрыватель Windows Media передает индекс в [ивмпконтентпартнер:: GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) , чтобы получить URL-адрес отображаемой веб-страницы.
+2.  проигрыватель Windows Media передает индекс в [ивмпконтентпартнер:: GetItemInfo](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getiteminfo) , чтобы получить URL-адрес отображаемой веб-страницы.
 
-3.  Проигрыватель Windows Media добавляет *Параметры* к URL-адресу в виде строки запроса. Например, если **GetItemInfo** возвращает " https://www.Proseware.com/Pages/Popup1.htm ", а *Параметры* равны "длгкс = 800&длги = 400&приветствие = Hi", проигрыватель Windows Media создает следующий URL-адрес:
+3.  проигрыватель Windows Media добавляет *параметры* к URL-адресу в виде строки запроса. например, если **GetItemInfo** возвращает " https://www.Proseware.com/Pages/Popup1.htm ", а *параметры* равны "длгкс = 800&длги = 400&приветствие = Hi", проигрыватель Windows Media создает следующий URL-адрес:
 
     https://www.Proseware.com/Pages/Popup1.htm?DlgX=800&DlgY=400&Greeting=Hi
 
 С помощью *параметров* можно указать размер всплывающего окна. Например, если задать для *параметров* значение "длгкс = 800&длги = 400", то всплывающее окно будет иметь размер 800 пикселей на 400 пикселей.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/>                                                 |
+| Версия<br/> | проигрыватель Windows Media 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

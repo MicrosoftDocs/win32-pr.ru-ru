@@ -3,7 +3,7 @@ title: Команда MCI_UPDATE (Ммсистем. h)
 description: '\_Команда обновления MCI обновляет прямоугольник экрана. Устройство Digital-Video распознает эту команду.'
 ms.assetid: 90a8c10f-61b9-49a1-bbcc-e0729aa8c454
 keywords:
-- MCI_UPDATE команды мультимедиа Windows
+- команда MCI_UPDATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 423186096c88a8f1ff74987ff57c6b49dc6c3131
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e58333b108891a8bcd0e0548d4dcd0db2f2606d1259f0934f19b8f6804afab3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689684"
 ---
 # <a name="mci_update-command"></a>\_Команда обновления MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С типом устройства "дигиталвидео" используются следующие дополнительные флаги:
 
@@ -97,7 +97,7 @@ MCIERROR mciSendCommand(
 
 Для устройств с цифровыми видео параметр *лпдест* указывает на структуру [**MCI \_ ДГВ \_ Update \_ пармс**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_update_parms) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,11 +105,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

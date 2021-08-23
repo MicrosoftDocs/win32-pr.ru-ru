@@ -4,16 +4,16 @@ ms.assetid: a0af318d-9ac2-43f9-8934-f28c472256a6
 title: Пользовательские Миксерс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac7e56c578a7081de7c71ae3abaf9fc45d085827
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 587206f7bc34d1fad4a64a12aeff9ab8ad21e18a84c92c8f2302776fdc126a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605994"
 ---
 # <a name="custom-mixers"></a>Пользовательские Миксерс
 
-В этом разделе описывается написание пользовательского микшера для расширенного обработчика видео (Евр). Пользовательское микшер можно использовать либо в Media Foundation приемника мультимедиа евр, либо в фильтре Евр DirectShow. Дополнительные сведения о миксерс и выступающих см. в разделе [Улучшенный модуль подготовки видео](enhanced-video-renderer.md).
+В этом разделе описывается написание пользовательского микшера для расширенного обработчика видео (Евр). пользовательское микшер можно использовать с Media Foundation приемника мультимедиа евр или DirectShow фильтре евр. Дополнительные сведения о миксерс и выступающих см. в разделе [Улучшенный модуль подготовки видео](enhanced-video-renderer.md).
 
 Микшер — это Media Foundation преобразование (MFT) с одним или несколькими входными данными (потоком ссылок и подпотоками) и одним выходом. Входной поток получает образцы из вышестоящего потока. Поток вывода предоставляет примеры для выступающего. Евр отвечает за вызов [**имфтрансформ::P роцессинпут**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) в микшере, и выступающий отвечает за вызов [**Имфтрансформ::P роцессаутпут**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput).
 
@@ -42,7 +42,7 @@ ms.locfileid: "105710835"
 | [**имфжетсервице**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)                   | Предоставляет приложениям такие интерфейсы, как [**имфвидеомиксербитмап**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap) и [**имфвидеопроцессор**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor) . |
 | [**имфкуалитядвисе**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)             | Позволяет диспетчеру качества настроить качество видео.                                                                                             |
 | [**имфвидеомиксербитмап**](/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap)       | Позволяет приложению смешивать статический точечный рисунок на видео.                                                                                       |
-| [**имфвидеопоситионмаппер**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Сопоставляет координаты на выходном видеокадре с координатами на входном видеокадре.                                                                  |
+| [**имфвидеопоситионмаппер**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Карты координаты выходного видеокадра для координат на входном видеокадре.                                                                  |
 | [**имфвидеопроцессор**](/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor)           | Предоставляет приложению некоторые функции обработки видео ДКСВА.                                                                                      |
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "105710835"
 
 Когда входной поток достигает конца потока, ЕВР вызывает [**имфтрансформ::P роцессмессаже**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage) на микшере с [**\_ \_ уведомлением об \_ окончании \_ \_ потока в MFT**](mft-message-notify-end-of-stream.md).
 
-Микшер отправляет следующие события в Евр с помощью интерфейса [**ИМЕДИАЕВЕНТСИНК**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) Евр. Этот интерфейс описан в документации по пакету SDK для DirectShow.
+Микшер отправляет следующие события в Евр с помощью интерфейса [**ИМЕДИАЕВЕНТСИНК**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) Евр. этот интерфейс описан в документации по DirectShow SDK.
 
 
 
@@ -91,7 +91,7 @@ ms.locfileid: "105710835"
 
 Когда Евр вызывает [**имфтопологисервицелукупклиент:: релеасесервицепоинтерс**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers), микшер должен освободить все указатели, полученные из вызова [**инитсервицепоинтерс**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers).
 
-## <a name="mixer-attributes"></a>Атрибуты микшера
+## <a name="mixer-attributes"></a>Mixer Атрибута
 
 Микшер должен поддерживать следующие атрибуты.
 
@@ -106,9 +106,9 @@ ms.locfileid: "105710835"
 
  
 
-## <a name="setting-the-mixer-on-the-evr"></a>Настройка микшера на Евр
+## <a name="setting-the-mixer-on-the-evr"></a>установка Mixer в евр
 
-Чтобы задать пользовательское микшер в евр, вызовите [**имфвидеорендерер:: инитиализерендерер**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer). И фильтр Евр DirectShow, и приемник мультимедиа Евр реализуют этот метод.
+Чтобы задать пользовательское микшер в евр, вызовите [**имфвидеорендерер:: инитиализерендерер**](/windows/desktop/api/evr/nf-evr-imfvideorenderer-initializerenderer). этот метод реализуется как DirectShow фильтром евр, так и приемником носителей евр.
 
 **Объект активации Евр**. При использовании объекта активации Евр можно предоставить пользовательский микшер, задав один из следующих атрибутов в объекте активации Евр:
 
@@ -123,7 +123,7 @@ ms.locfileid: "105710835"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

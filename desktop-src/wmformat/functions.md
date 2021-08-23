@@ -3,21 +3,21 @@ title: Функции пакета SDK Windows Media Format
 description: Функции
 ms.assetid: 10fa8f96-8030-4727-af5d-7c06229d05d8
 keywords:
-- Windows Media Format SDK, функции
+- Windows Пакет SDK для формата мультимедиа, функции
 - Расширенный системный формат (ASF), функции
 - ASF (Расширенный системный формат), функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cab464c3384a65776b993c2423f174debd7a89d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 560756451ee2f5b49d26b5611b38a40a45cac7643b101fdbe8ae492386901689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708264"
 ---
 # <a name="windows-media-format-sdk-functions"></a>Функции пакета SDK Windows Media Format
 
-Пакет SDK для формата Windows Media включает функции для создания объектов и вспомогательные функции для упрощения некоторых процедур.
+пакет SDK для Windows Media Format включает функции для создания объектов и вспомогательные функции для упрощения некоторых процедур.
 
 Этот пакет SDK поддерживает следующие функции для первоначального создания объектов. Если объект отсутствует в списке ниже, его необходимо создать с помощью интерфейса из другого объекта. Дополнительные сведения см. в статье [Объекты и свойства визуальных элементов Power BI](objects.md).
 
@@ -47,7 +47,7 @@ ms.locfileid: "104414449"
 | [**вмкреатевритерпушсинк**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink)                             | Создает объект приемника push-уведомлений.                                                                                                                      |
 | [**вмисаваилаблеоффлине**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline)                                 | Проверяет, можно ли воспроизвести файл ASF из кэшированной копии.                                                                                             |
 | [**вмисконтентпротектед**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected)                                 | Проверяет файл на наличие содержимого, защищенного DRM.                                                                                                                |
-| [**вмвалидатедата**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | Проверяет, что данные с начала файла соответствуют разделу заголовка типа файлов, поддерживаемого пакетом SDK Windows Media Format. |
+| [**вмвалидатедата**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)                                             | проверяет, соответствуют ли данные, начиная с начала файла, с разделом заголовка типа файла, поддерживаемого пакетом SDK для Windows Media Format. |
 
 
 
@@ -59,17 +59,17 @@ ms.locfileid: "104414449"
 
 | Функция                                             | Описание                                                                                                                                  |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [**вмчеккурлекстенсион**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | Пытается определить, доступен ли файл для чтения объектами пакета SDK Windows Media Format, основываясь на расширении имени файла.              |
-| [**вмчеккурлсчеме**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | Определяет, поддерживается ли сетевой протокол объектами пакета SDK Windows Media Format.                                           |
+| [**вмчеккурлекстенсион**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension)   | пытается определить, доступен ли файл для чтения объектами Windows пакета SDK формата мультимедиа на основе расширения имени файла.              |
+| [**вмчеккурлсчеме**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme)         | определяет, поддерживается ли сетевой протокол объектами пакета SDK Windows Media Format.                                           |
 | [**вмисаваилаблеоффлине**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline) | Определяет, доступен ли файл для автономного воспроизведения.                                                                                 |
 | [**вмисконтентпротектед**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-wmiscontentprotected) | Проверяет файл на наличие содержимого, защищенного DRM.                                                                                                     |
-| [**вмвалидатедата**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | Пытается определить, читается ли файл с помощью объектов пакета SDK формата Windows Media, анализируя данные в начале файла. |
+| [**вмвалидатедата**](/previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata)             | пытается определить, доступен ли файл для чтения объектами пакета SDK Windows Media Format, анализируя данные в начале файла. |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

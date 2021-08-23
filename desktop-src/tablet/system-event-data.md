@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5d77c78a78a6cecae0368e8d9192a0dc0efc10e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58e153da2695990f74d1268aa3e861bb9011b108ebdd1ea2d5128ff6f8e40a20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708214"
 ---
 # <a name="system_event_data-structure"></a>\_ \_ Структура данных системных событий
 
@@ -85,7 +85,7 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие системные события определены для использования в элементе **бмодифиер** .
 
@@ -93,9 +93,9 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | Значение               | Описание                  |
 |---------------------|------------------------------|
-| \_Модификатор SE \_ CTRL  | Нажата клавиша CTRL. |
-| \_Модификатор SE \_ ALT   | Нажата клавиша ALT.     |
-| \_Модификатор SE \_ SHIFT | Нажата клавиша SHIFT.   |
+| SE \_ Модификатор \_ CTRL  | Нажата клавиша CTRL. |
+| SE \_ Модификатор \_ ALT   | Нажата клавиша ALT.     |
+| SE \_ сдвиг МОДИФИКАТОРа \_ | Нажата клавиша SHIFT.   |
 
 
 
@@ -107,8 +107,8 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | Значение              | Описание               |
 |--------------------|---------------------------|
-| \_стандартный \_ курсор SE | Указывает кончик пера.    |
-| \_курсор ластика \_ SE | Указывает ластик пера. |
+| SE \_ Стандартный \_ курсор | Указывает кончик пера.    |
+| SE \_ курсор ЛАСТИКа \_ | Указывает ластик пера. |
 
 
 
@@ -120,7 +120,7 @@ typedef struct tagSYSTEM_EVENT_DATA {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 

@@ -1,5 +1,5 @@
 ---
-description: Выдает команду на аппаратное устройство для получения образа Windows (WIA) 2,0.
+description: выдает команду на устройство устройства Windowsного получения изображений (WIA) 2,0.
 ms.assetid: a077448f-2029-4fd3-8bce-c0291afd0b79
 title: 'IWiaItem2: метод:D Евицекомманд (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2961a3c0e0d1b75a487b9bf112e76bee8c937a72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f70fd7b4a987dac3a079651f2cbc04dc50817ba8a43f8da1449a3f605683ba65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706314"
 ---
 # <a name="iwiaitem2devicecommand-method"></a>IWiaItem2: метод:D Евицекомманд
 
-Выдает команду на аппаратное устройство для получения образа Windows (WIA) 2,0.
+выдает команду на устройство устройства Windowsного получения изображений (WIA) 2,0.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -53,9 +53,9 @@ HRESULT DeviceCommand(
 *пкмдгуид* \[ окне\]
 </dt> <dd>
 
-Тип: **константа \* GUID* _
+Тип: **константа \* GUID**
 
-Указывает команду для отправки на устройство WIA 2,0. См. раздел [*команды* * _ устройства WIA](-wia-wia-device-commands.md).
+Указывает команду для отправки на устройство WIA 2,0. См. раздел [**команды устройства WIA**](-wia-wia-device-commands.md).
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ HRESULT DeviceCommand(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поведение этого метода отличается в зависимости от категории узла, на котором вызывается метод.
 
@@ -98,9 +98,9 @@ HRESULT DeviceCommand(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 
 

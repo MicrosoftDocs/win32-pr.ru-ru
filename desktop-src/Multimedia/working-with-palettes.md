@@ -13,12 +13,12 @@ keywords:
 - макрос Каппалеттемануал
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09cbbe3ffc8ea21d1ecf8545f036f5ba6dfb927
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f51f9399520b5a3cefc046959c0d59d7abe9d0f1b6ab19662f750720afd16447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105650264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119686714"
 ---
 # <a name="working-with-palettes"></a>Работа с палитрами
 
@@ -36,9 +36,9 @@ ms.locfileid: "105650264"
 
 Вы можете вставить палитру из буфера обмена в окно Capture, используя сообщение [**\_ вставки крепления WM \_ PAL \_**](wm-cap-pal-paste.md) . Окно Capture передает палитру драйверу записи. Другие приложения могут копировать палитры в буфер обмена. Также можно скопировать палитру в буфер обмена с помощью сообщения об изменении (или макроса [**капедиткопи**](/windows/desktop/api/Vfw/nf-vfw-capeditcopy) ) с [**\_ закреплениями \_ \_ WM**](wm-cap-edit-copy.md) . Это сообщение копирует буфер кадров видео, включая палитру, в буфер обмена.
 
- 
+ 
 
- 
+ 
 
 
 

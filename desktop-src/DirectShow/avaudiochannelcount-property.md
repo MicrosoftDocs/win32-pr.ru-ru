@@ -4,12 +4,12 @@ ms.assetid: e395ce9c-3f11-41e9-8c8c-48c17b217ebc
 title: Свойство Аваудиочаннелкаунт (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a952fd812433c49f7fa8f2ead7bfb7c83679bf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0c698eb4d802dd3e41fcd53434ab2649f447fb1981a4aada0a977fd2ccab7039
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119641384"
 ---
 # <a name="avaudiochannelcount-property"></a>Аваудиочаннелкаунт, свойство
 
@@ -25,23 +25,23 @@ ms.locfileid: "104139811"
 
 **КОДЕКАПИ \_ аваудиочаннелкаунт**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Число каналов включает канал с низкой частотой (НИЗКОЧАСТОТный), если он присутствует.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

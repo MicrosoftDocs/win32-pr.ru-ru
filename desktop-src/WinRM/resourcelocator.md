@@ -5,7 +5,7 @@ ms.assetid: 0904b7eb-d4ce-46a7-bf58-452e7c0d41e9
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows объекта ResourceLocator
-- Служба удаленного управления Windows объекта ResourceLocator, описание
+- служба удаленного управления Windows объекта ResourceLocator, описание
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd110b94d3174134e6410428843de76e809d5e22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26d3287c02949326b672f550271ba3472e6cb16abb6748efb4a80de425c40e57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642874"
 ---
 # <a name="resourcelocator-object"></a>Объект ResourceLocator
 
@@ -76,7 +76,7 @@ ms.locfileid: "104135311"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **ResourceLocator** соответствует интерфейсу **ивсманресаурцелокатор** .
 
@@ -133,7 +133,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -141,14 +141,14 @@ End Sub
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

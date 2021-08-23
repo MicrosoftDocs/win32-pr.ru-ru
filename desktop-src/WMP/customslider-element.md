@@ -3,19 +3,19 @@ title: КУСТОМСЛИДЕР, элемент
 description: КУСТОМСЛИДЕР, элемент
 ms.assetid: 9cba9bdd-ea5b-4a4a-a61e-e6aff29fc3e0
 keywords:
-- Обложки проигрывателя Windows Media, элемент КУСТОМСЛИДЕР
+- обложки проигрыватель Windows Media, элемент кустомслидер
 - обложки, элемент КУСТОМСЛИДЕР
 - КУСТОМСЛИДЕР, элемент
 - Справочник по обложкам, элементу КУСТОМСЛИДЕР
 - элементы, КУСТОМСЛИДЕР
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f49fc6260df295e3266ae9ddf7b5b3eceee43d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8b47a64b57cd785da318bbf1af15667c8d930d06367a93fcfeab5a608cc99d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651434"
 ---
 # <a name="customslider-element"></a>КУСТОМСЛИДЕР, элемент
 
@@ -41,7 +41,7 @@ ms.locfileid: "104330875"
 
 
 
- 
+ 
 
 Элемент **кустомслидер** может реализовывать следующие обработчики событий.
 
@@ -55,20 +55,20 @@ ms.locfileid: "104330875"
 
 
 
- 
+ 
 
 Элемент **кустомслидер** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

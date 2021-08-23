@@ -3,7 +3,7 @@ title: Сообщение EM_SETBIDIOPTIONS (RichEdit. h)
 description: В \_ сообщении EM сетбидиоптионс задается текущее состояние двунаправленных параметров в элементе управления Rich Edit.
 ms.assetid: b518e423-317a-4654-9d9f-c501028e2a0a
 keywords:
-- Элементы управления Windows для EM_SETBIDIOPTIONS сообщений
+- элементы управления Windows сообщений EM_SETBIDIOPTIONS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84dc4b92f7a989ab5ef283b36708094a143475de
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f22d03e1738fc688d34f55a6823f7ae95c2dfc41724e827cd31a184ac7cbdfce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119545024"
 ---
 # <a name="em_setbidioptions-message"></a>\_Сообщение СЕТБИДИОПТИОНС EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104137174"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "форматированный текст" должен быть в режиме обычного текста или **EM \_ сетбидиоптионс** не будет выполнять никаких действий.
 
@@ -55,20 +55,20 @@ ms.locfileid: "104137174"
 
 **EM \_ СЕТБИДИОПТИОНС** только переключает формат абзаца по умолчанию в RTL (справа налево), если находит символ RTL,
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Распространяемые компоненты<br/>          | Расширенное редактирование 3,0<br/>                                                              |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
