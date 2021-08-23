@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5bd1d329cd861fa45c99851707177322d0b9d12f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: b0b7e7b1d1e79e64fb1eb83f17f3aa2d118a9eb53b23c19cbdfd624e2c501a84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103914839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992784"
 ---
 # <a name="monitoring-and-responding-to-events-with-standard-consumers"></a>Мониторинг событий и реагирование на них с помощью стандартных потребителей
 
@@ -23,7 +23,7 @@ ms.locfileid: "103914839"
 
 Инструментарий WMI компилирует стандартных потребителей в пространства имен по умолчанию, зависящие от операционной системы, например:
 
--   В Windows Server 2003 все стандартные потребители компилируются по умолчанию в \\ пространство имен "Корневая подписка".
+-   в Windows Server 2003 все стандартные потребители компилируются по умолчанию в \\ пространство имен "корневая подписка".
 
 > [!Note]  
 > Сведения о пространствах имен по умолчанию и операционных системах, которые относятся к каждому классу WMI, см. в разделах примечания и требования каждого класса.
@@ -157,7 +157,7 @@ ms.locfileid: "103914839"
 
 ## <a name="example"></a>Пример
 
-В следующем примере показан MOF для экземпляра [**нтевентложевентконсумер**](nteventlogeventconsumer.md). После компиляции этого MOF-файла любая попытка создать, удалить или изменить значение в разделе реестра путь к файлу **hKey \_ Local \_ Machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ выполнить** РЕГИСТРИРУЕТ запись в журнале событий приложения в исходном "WSH".
+В следующем примере показан MOF для экземпляра [**нтевентложевентконсумер**](nteventlogeventconsumer.md). после компиляции этого MOF-файла любая попытка создать, удалить или изменить значение в пути реестра **HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ запустить** регистрирует запись в журнале событий приложения в исходном "WSH".
 
 
 ```mof
@@ -203,7 +203,7 @@ instance of __FilterToConsumerBinding
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

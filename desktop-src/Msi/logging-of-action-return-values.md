@@ -1,19 +1,19 @@
 ---
-description: Установщик записывает в журнал следующие значения, когда действие возвращает эти коды ошибок. Полный список кодов ошибок, возвращаемых установщик Windowsной функцией, вызывает MsiExec.exe и InstMsi.exe см. в разделе Коды ошибок.
+description: Установщик записывает в журнал следующие значения, когда действие возвращает эти коды ошибок. полный список кодов ошибок, возвращаемых установщик Windowsной функцией, вызывает MsiExec.exe и InstMsi.exe см. в разделе коды ошибок.
 ms.assetid: 653bbf45-ac2c-4f8a-a978-960e0c42e6e4
 title: Ведение журнала возвращаемых значений действий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaaa203fee1fbb02bef070d065a9838383ea588b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 756fa633ef486c3dae4b689acf439f8dbf7786c20f740fb4784de30e764dc9fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945899"
 ---
 # <a name="logging-of-action-return-values"></a>Ведение журнала возвращаемых значений действий
 
-Установщик записывает в журнал следующие значения, когда действие возвращает эти коды ошибок. Полный список кодов ошибок, возвращаемых установщик Windowsной функцией, вызывает MsiExec.exe и InstMsi.exe см. в разделе [коды ошибок](error-codes.md).
+Установщик записывает в журнал следующие значения, когда действие возвращает эти коды ошибок. полный список кодов ошибок, возвращаемых установщик Windowsной функцией, вызывает MsiExec.exe и InstMsi.exe см. в разделе [коды ошибок](error-codes.md).
 
 
 
@@ -33,11 +33,11 @@ ms.locfileid: "105684544"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Ведение журнала установщик Windows](windows-installer-logging.md)
+[Windows Ведение журнала установщика](windows-installer-logging.md)
 </dt> </dl>
 
  

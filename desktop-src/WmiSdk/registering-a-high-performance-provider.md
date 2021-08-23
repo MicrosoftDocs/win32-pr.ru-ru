@@ -1,20 +1,20 @@
 ---
-description: Как и другие поставщики экземпляров, вы регистрируете высокопроизводительный поставщик в Microsoft Windows&\# 160; Инструментарий управления (WMI) путем создания экземпляра \_ \_ классов Win32Provider и \_ \_ инстанцепровидеррегистратион.
+description: как и другие поставщики экземпляров, вы регистрируете высокопроизводительный поставщик с помощью Microsoft Windows&\# 160; Инструментарий управления (WMI) путем создания экземпляра \_ \_ классов Win32Provider и \_ \_ инстанцепровидеррегистратион.
 ms.assetid: 6ff3f8c6-71ca-4589-bca7-b864e24a473d
 ms.tgt_platform: multiple
 title: Регистрация поставщика High-Performance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e38653be78747bbfe68ce01d610e9b65b4c981d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2ee52db95290810a046d23781dbccf666cd63a19b01bf9414b2e224b8137f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992574"
 ---
 # <a name="registering-a-high-performance-provider"></a>Регистрация поставщика High-Performance
 
-Как и другие поставщики экземпляров, вы регистрируете высокопроизводительный поставщик с помощью Microsoft инструментарий управления Windows (WMI) (WMI), создавая экземпляр классов [**\_ \_ Win32Provider**](--win32provider.md) и [**\_ \_ инстанцепровидеррегистратион**](--instanceproviderregistration.md) . Экземпляр **\_ \_ Win32Provider** определяет физическую реализацию поставщика, а экземпляр **\_ \_ инстанцепровидеррегистратион** определяет набор функций поставщика. Дополнительные сведения см. [в разделе Регистрация поставщика](registering-a-provider.md).
+как и другие поставщики экземпляров, вы регистрируете высокопроизводительный поставщик с помощью Microsoft инструментарий управления Windows (WMI) (WMI), создавая экземпляр классов [**\_ \_ Win32Provider**](--win32provider.md) и [**\_ \_ инстанцепровидеррегистратион**](--instanceproviderregistration.md) . Экземпляр **\_ \_ Win32Provider** определяет физическую реализацию поставщика, а экземпляр **\_ \_ инстанцепровидеррегистратион** определяет набор функций поставщика. Дополнительные сведения см. [в разделе Регистрация поставщика](registering-a-provider.md).
 
 Следующая процедура описывает, как зарегистрировать высокопроизводительный поставщик экземпляров.
 
@@ -64,7 +64,7 @@ class TestClass
 };
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c0d23925ba1c38a05e15bea5e6ee63b3a1c87125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f4059eb2943411cfa5a3fb2b2ae247cd0fda7dd735cc1f1f61d516181976b6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923163"
 ---
 # <a name="iscardfileaccessseek-method"></a>Метод Искардфилеакцесс:: Seek
 
-\[Метод **Seek** доступен для использования в операционных системах, указанных в разделе требования. Он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздней версии, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
+\[Метод **Seek** доступен для использования в операционных системах, указанных в разделе требования. он недоступен для использования в Windows Server 2003 с пакетом обновления 1 (SP1) и более поздних версий, Windows Vista, Windows Server 2008 и последующих версиях операционной системы. [Модули смарт-карт](/previous-versions/windows/desktop/secsmart/smart-card-modules) предоставляют аналогичные функции.\]
 
 Метод **Seek** выбирает объект, из которого будет осуществляться доступ (чтение и запись).
 
@@ -91,7 +91,7 @@ HRESULT Seek(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы выполнить чтение или запись из файла, вызовите метод [**Read**](iscardfileaccess-read.md) или [**Write**](iscardfileaccess-write.md) соответственно.
 
@@ -99,14 +99,14 @@ HRESULT Seek(
 
 Кроме приведенных выше кодов ошибок COM, этот интерфейс может возвращать код ошибки смарт-карты, если для завершения запроса была вызвана функция смарт-карты. Дополнительные сведения см. в статье [возвращаемые значения смарт-карты](authentication-return-values.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                       |
 
@@ -119,10 +119,10 @@ HRESULT Seek(
 [**искардфилеакцесс**](iscardfileaccess.md)
 </dt> <dt>
 
-[**Просмотр**](iscardfileaccess-read.md)
+[**Чтение**](iscardfileaccess-read.md)
 </dt> <dt>
 
-[**Будет**](iscardfileaccess-write.md)
+[**Запись**](iscardfileaccess-write.md)
 </dt> </dl>
 
  

@@ -11,12 +11,12 @@ api_name:
 - AccessString
 api_type:
 - Schema
-ms.openlocfilehash: 8cf0d37b8a1870011ae6ae3ea6febf22a98cdeb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 603c4aa04bb3e86891ec121233474fa96ffd792cbcb6880bad9e76599003d979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975283"
 ---
 # <a name="accessstring-contexttype-element"></a>Акцессстринг (contextType), элемент
 
@@ -45,18 +45,18 @@ ms.locfileid: "105682744"
 
 Элемент **акцессстринг** определяется сложным типом [**ContextType**](schema-contexttype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

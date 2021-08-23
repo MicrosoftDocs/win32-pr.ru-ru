@@ -4,12 +4,12 @@ description: Для корректного завершения работы п�
 ms.assetid: fc07adb8-103c-42d8-8187-3f5ee083c6d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf1c59534b73fee21489439c7818c286874185d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a551ad57ddbf63c6ff598814794bc5837da646e98169d8250e543575abd013a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950694"
 ---
 # <a name="shutdown-and-cleanup"></a>Завершение работы и очистка
 
@@ -21,9 +21,9 @@ ms.locfileid: "104068079"
 -   Закройте рукоятку очереди запросов, вызвав [**хттпклосерекуесткуеуе**](/windows/desktop/api/Http/nf-http-httpcloserequestqueue).
 -   Завершите ресурсы, созданные API-сервером HTTP, вызвав функцию [**хттптерминате**](/windows/desktop/api/Http/nf-http-httpterminate) с совпадающими параметрами флагов для каждого вызова приложения, созданного в [**хттпинитиализе**](/windows/desktop/api/Http/nf-http-httpinitialize). Каждый из этих вызовов завершает все ресурсы, созданные в вызове [**хттпинитиализе**](/windows/desktop/api/Http/nf-http-httpinitialize).
 
- 
+ 
 
- 
+ 
 
 
 

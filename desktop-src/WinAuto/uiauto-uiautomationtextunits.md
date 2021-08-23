@@ -8,12 +8,12 @@ keywords:
 - Модель автоматизации пользовательского интерфейса, список единиц текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91ff4257c70b34cea01a149b30dff2bf2fbe691a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc5c40604f3c524c1e9f3bcdb36458e099563eb7279fa61133dcfa7ea3fde90b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824167"
 ---
 # <a name="ui-automation-text-units"></a>Единицы текста модели автоматизации пользовательского интерфейса
 
@@ -21,15 +21,15 @@ ms.locfileid: "104337652"
 
 -   [Элементы API единиц текста](#text-unit-api-elements)
 -   [Описания единиц текста](#text-unit-descriptions)
-    -   [Знак](#character)
+    -   [Символ](#character)
     -   [Формат](#format)
     -   [Word](#word)
-    -   [Line](#line)
+    -   [Линия](#line)
     -   [Paragraph](#paragraph)
     -   [Страница](#page)
     -   [Document](#document)
 -   [Другие возможные диапазоны](#other-potential-ranges)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="text-unit-api-elements"></a>Элементы API единиц текста
 
@@ -122,7 +122,7 @@ API автоматизации пользовательского интерфе
 
 Текущая спецификация шаблона элемента управления [TextRange](uiauto-implementingtextandtextrange.md) не допускает добавление новых значений текстовых единиц в перечисление [**текстунит**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-textunit) и не позволяет переопределять существующие значения единиц текста. Чтобы предоставить доступ к другим потенциальным диапазонам, таким как заголовки и заметки, поставщик должен предоставить эти диапазоны как внедренные объекты с соответствующим текстовым диапазоном. Таким образом, можно также добавить поддержку соответствующих шаблонов элементов управления. Это решение является более гибким и расширяемым, чем определение новых единиц текста.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 ### <a name="reference"></a>Справочник
 

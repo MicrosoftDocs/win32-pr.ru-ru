@@ -3,7 +3,7 @@ title: Сообщение LB_SETLOCALE (Winuser. h)
 description: Задает текущий языковой стандарт для списка. Языковой стандарт можно использовать для определения правильного порядка сортировки отображаемого текста (для списков с \_ стилем сортировки фунтов) и текста, добавленного \_ сообщением ADDSTRING балансировки нагрузки.
 ms.assetid: e9503124-de9f-4b92-a59e-ec9320864ae7
 keywords:
-- Элементы управления Windows для LB_SETLOCALE сообщений
+- элементы управления Windows сообщений LB_SETLOCALE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd8ea7bb7b6d19144a84ab166f56cd2c0ad49e05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 623b8550b3d5f382ddc8ccc1e1cfcf861a2f8c0a7877ba60c57e393abc1401d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958543"
 ---
 # <a name="lb_setlocale-message"></a>Сообщение ФУНТОВой \_ SETLOCALE
 
@@ -47,7 +47,7 @@ ms.locfileid: "104071908"
 
 Возвращаемое значение — это предыдущий идентификатор локали. Если параметр *wParam* задает языковой стандарт, который не установлен в системе, возвращается значение фунтов \_ Err, а текущий языковой стандарт списка не изменяется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте макрос [**макелЦид**](/windows/desktop/api/winnt/nf-winnt-makelcid) для создания идентификатора локали.
 
@@ -57,9 +57,9 @@ ms.locfileid: "104071908"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

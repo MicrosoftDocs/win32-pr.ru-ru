@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 610d49c73ade9bab47c95e90af73bac606f4bd23
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3e878a5d2b9567ae7a483344a2240d3480620ea00706db1ed0c834fd2c5553a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962463"
 ---
 # <a name="dsrestoreregister-function"></a>Функция Дсресторерегистер
 
-\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Начиная с Windows Vista, вместо нее следует использовать [Служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
+\[Эта функция доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. начиная с Windows Vista используйте вместо этого [служба теневого копирования томов (VSS)](../vss/volume-shadow-copy-service-overview.md) .\]
 
 Функция **дсресторерегистер** регистрирует операцию восстановления. Эта функция блокирует все последующие операции восстановления и предотвращает запуск целевого объекта восстановления до тех пор, пока не будет вызвана функция [**дсресторерегистеркомплете**](dsrestoreregistercomplete.md) .
 
@@ -135,7 +135,7 @@ HRESULT DsRestoreRegister(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -143,14 +143,14 @@ HRESULT DsRestoreRegister(
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Нтдсбкли. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Нтдсбкли. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ntdsbcli.dll</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Дсресторерегистерв** (Юникод) и **дсресторерегистера** (ANSI)<br/>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

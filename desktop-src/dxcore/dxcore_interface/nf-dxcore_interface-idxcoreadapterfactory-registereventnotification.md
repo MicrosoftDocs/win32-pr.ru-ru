@@ -4,12 +4,12 @@ description: Регистрируется для получения уведом
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 3643fbb01fc955049c297a577f18d4d276e73f46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b97b51f7c4359526317647b62241e37063243a56f45014c28ba2f2cd897706ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042902"
 ---
 # <a name="idxcoreadapterfactoryregistereventnotification-method"></a>Метод Идкскореадаптерфактори:: Регистеревентнотификатион
 
@@ -72,7 +72,7 @@ virtual HRESULT STDMETHODCALLTYPE RegisterEventNotification(
 |E_INVALIDARG|`nullptr` был предоставлен для *дкскореобжект* или если было предоставлено недопустимое сочетание *нотификатионтипе* и *дкскореобжект* .|
 |E_POINTER|`nullptr` был предоставлен для *каллбаккфунктион* или *евенткукие*.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Регистеревентнотификатион** используется для регистрации событий, вызванных интерфейсами [идкскореадаптерлист](./nn-dxcore_interface-idxcoreadapterlist.md) и [идкскореадаптер](./nn-dxcore_interface-idxcoreadapter.md) . Эти типы уведомлений поддерживаются.
 
@@ -90,6 +90,6 @@ virtual HRESULT STDMETHODCALLTYPE RegisterEventNotification(
 > [!IMPORTANT]
 > Перед уничтожением объекта Дкскоре, представленного аргументом *дкскореобжект* , переданным в **регистеревентнотификатион**, необходимо использовать значение cookie для отмены регистрации этого объекта из уведомлений путем вызова [идкскореадаптерфактори:: унрегистеревентнотификатион](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md). Если этого не сделать, то при обнаружении ситуации будет создано неустранимое исключение.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптер](./nn-dxcore_interface-idxcoreadapter.md), [идкскореадаптерлист](./nn-dxcore_interface-idxcoreadapterlist.md), [идкскореадаптерфактори:: унрегистеревентнотификатион](./nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification.md), [DXCore Reference](../dxcore-reference.md), [Использование DXCore для перечисления адаптеров](../dxcore-enum-adapters.md)

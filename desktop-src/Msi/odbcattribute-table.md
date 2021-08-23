@@ -4,12 +4,12 @@ ms.assetid: 82fd83d4-22dd-4641-807b-d2b263918e4c
 title: Таблица Одбкаттрибуте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7e76a52dd63bdc8eb969324f7891e7359be7caf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e31e67cde1625812d1c5b8af7dc3bd24347891d3a769e24deeb02db7cc44396
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943182"
 ---
 # <a name="odbcattribute-table"></a>Таблица Одбкаттрибуте
 
@@ -21,9 +21,9 @@ ms.locfileid: "104155131"
 
 | Столбец    | Type                         | Ключ | Допускает значения NULL |
 |-----------|------------------------------|-----|----------|
-| Драйвер\_  | [Идентификатор](identifier.md) | Да   | Нет        |
-| attribute | [Text](text.md)             | Да   | Нет        |
-| Значение     | [Формате](formatted.md)   | Нет   | Да        |
+| Драйвер\_  | [Идентификатор](identifier.md) | Д   | Нет        |
+| attribute | [Text](text.md)             | Д   | Нет        |
+| Значение     | [Формате](formatted.md)   | Нет   | Д        |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104155131"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действия [инсталлодбк](installodbc-action.md) и [ремовеодбк](removeodbc-action.md) в [*таблицах последовательностей*](s-gly.md) обрабатывают сведения, приведенные в этой таблице. Дополнительные сведения об использовании *таблиц последовательности* см. [в разделе Использование таблицы последовательностей](using-a-sequence-table.md).
 

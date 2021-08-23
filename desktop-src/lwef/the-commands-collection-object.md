@@ -4,16 +4,16 @@ description: Объект коллекции Commands
 ms.assetid: 8726ce04-77d3-4ae3-bd46-e75f42b36d6f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2367035d86f92d57dc459564943b9e7797ecb04
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d30f7933bd973ae500b75abb51c47899fa60322444d49fe0835f6bfa3efab97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975664"
 ---
 # <a name="the-commands-collection-object"></a>Объект коллекции Commands
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Сервер Microsoft Agent поддерживает список команд, доступных пользователю в данный момент. В этот список входят команды, определяемые сервером для общего взаимодействия (например, скрытие и открытие окна "Voice Commands"), список доступных (но не входящих в систему) клиентов и команды, определенные текущим активным клиентом. Первые два набора команд являются глобальными командами. Это значит, что они доступны в любое время, независимо от клиента ввода-активности. Определяемые клиентом команды доступны только в том случае, если этот клиент является входным, а сам символ является видимым.
 
@@ -32,6 +32,6 @@ ms.locfileid: "104412799"
 -   [Методы объекта Commands](commands-object-methods.md)
 -   [Свойства объекта Commands](commands-object-properties.md)
 
- 
+ 
 
- 
+ 

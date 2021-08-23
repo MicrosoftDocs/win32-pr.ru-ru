@@ -4,12 +4,12 @@ ms.assetid: eb82864c-7e69-4ed5-a55d-d6792670bcd1
 title: Права доступа к объекту Трустеддомаин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f79dc44b54ff907cbe3d1f700cc673f75a40d57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5efeaf621cc3727cb936e69806bbcf89dabe5d41eb39b38dce3f9f23a0200dcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893012"
 ---
 # <a name="trusteddomain-object-access-rights"></a>Права доступа к объекту Трустеддомаин
 

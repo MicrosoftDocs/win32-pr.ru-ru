@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d74c5580ee5960c710d37d780e33c51fae6d091d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 053becac87899b8bd70145aef2597d97523212c7a30353fb8a08b80d93ef2108
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043242"
 ---
 # <a name="idcompositionlineartransfereffectsetgreenyintercept-methods"></a>Методы Идкомпоситионлинеартрансфереффект:: сетгрининтерцепт
 
@@ -34,17 +34,17 @@ ms.locfileid: "105698912"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

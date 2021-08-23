@@ -56,7 +56,7 @@ HRESULT Clear();
 
 Метод освобождает всю память, выделенную для элементов в коллекции.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

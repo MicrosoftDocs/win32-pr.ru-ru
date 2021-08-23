@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbff1dd78c6fd65d72c28fe8f13f7bbf5603c75f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a60ce0c96f9e3eb25639cad9251d8cf3969d022001962e14ec9c3ef4d157ecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883709"
 ---
 # <a name="counteritemlinestyle-property"></a>Каунтеритем. Линестиле, свойство
 
@@ -62,13 +62,13 @@ Property LineStyle As Long
 
 | Тип исключения               | Условие                              |
 |------------------------------|----------------------------------------|
-| **System. ArgumentException** | Указан недопустимый стиль линии. |
+| **System.ArgumentException** | Указан недопустимый стиль линии. |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы указать значение, отличное от DashStyle. сплошной, [**каунтеритем. Width**](counteritem-width.md) должно иметь значение 1. Если ширина больше 1, СИСМОН игнорирует указанный стиль линии и использует DashStyle. сплошной.
 

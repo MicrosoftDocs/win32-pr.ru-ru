@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 734c2224ae29e7ab166010d59859d00355e5400e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a60d7d47e78cd197a7bfcf6285509c9187e32e074347f63f8e76ef9ef866adfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044802"
 ---
 # <a name="d3dxoptimizevertices-function"></a>Функция D3DXOptimizeVertices
 
@@ -95,7 +95,7 @@ HRESULT D3DXOptimizeVertices(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию при создании сетка использует 16 битовых индексов, если в приложении не указано иное. Чтобы проверить, использует ли существующая сетка 16-разрядные или 32-битовые индексы, вызовите [**ID3DXBaseMesh::-Options**](id3dxbasemesh--getoptions.md) и проверьте флаг D3DXMESH-bit \_ .
 
@@ -105,7 +105,7 @@ HRESULT D3DXOptimizeVertices(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

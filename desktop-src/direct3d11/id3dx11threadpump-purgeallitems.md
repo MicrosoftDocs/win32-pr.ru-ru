@@ -1,6 +1,6 @@
 ---
 title: Метод ID3DX11ThreadPump Пуржеаллитемс (D3DX11core. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Удаляет все рабочие элементы из конвейера потоков.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Удаляет все рабочие элементы из конвейера потоков.
 ms.assetid: 41a102af-bb9e-4a5a-a351-de0725e592c4
 keywords:
 - Метод Пуржеаллитемс Direct3D 11
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea889f8dd919235adbd9c31fbfb9b269f89ed888
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a0291df395994bfb4ae955670caf11dfd8abb179127d3e75351198139c31cb73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045802"
 ---
 # <a name="id3dx11threadpumppurgeallitems-method"></a>ID3DX11ThreadPump: метод:P Уржеаллитемс
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -52,18 +52,18 @@ HRESULT PurgeAllItems();
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX11core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX11core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX11. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: E490DF0C-97DE-4375-A4DB-17DA4E782E2D
 title: Свойство CODECAPI_AVEncNumWorkerThreads (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e08e18f57478597b841e042b17c601451ad93cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526fe4a025ce47e7c9775b677c3ef5a72d55f892ae201f5241421a2ff0d29163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118974913"
 ---
 # <a name="codecapi_avencnumworkerthreads-property"></a>КОДЕКАПИ \_ авенкнумворкерсреадс, свойство
 
@@ -23,23 +23,23 @@ ms.locfileid: "104262815"
 
 **КОДЕКАПИ \_ авенкнумворкерсреадс**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение равно нулю, кодировщик выбирает число потоков.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

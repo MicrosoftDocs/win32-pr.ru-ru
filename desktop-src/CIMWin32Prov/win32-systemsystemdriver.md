@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b193d173fa0592a44ba437543659dec456e432ea
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 027f720ee5b4a6be6f36a568e343ca42d097d61619098c171ce2cc279c6f202a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958893"
 ---
 # <a name="win32_systemsystemdriver-class"></a>\_Класс Win32 системсистемдривер
 
@@ -46,7 +46,7 @@ class Win32_SystemSystemDriver : CIM_SystemComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ системсистемдривер** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_SystemSystemDriver : CIM_SystemComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ системсистемдривер** является производным от [**CIM \_ системкомпонент**](cim-systemcomponent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

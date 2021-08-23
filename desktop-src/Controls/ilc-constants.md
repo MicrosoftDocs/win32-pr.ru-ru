@@ -24,12 +24,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f27f9a83c119b8e201ba41c002bf7c166ba3e4dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac1197604750e5da9248200b2dbcf37e53611d83842a401aafc3d2ded70c9179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958693"
 ---
 # <a name="image-list-creation-flags"></a>Флаги создания списка изображений
 
@@ -50,19 +50,19 @@ ms.locfileid: "104490209"
 | <span id="ILC_PALETTE"></span><span id="ilc_palette"></span><dl> <dt>**ILC \_ ПАЛИТРа**</dt> <dt>0x00000800</dt> </dl>                            | Не реализован.<br/>                                                                                                                                                                  |
 | <span id="ILC_MIRROR"></span><span id="ilc_mirror"></span><dl> <dt>**ILC \_ ЗЕРКАЛЬный**</dt> <dt>0x00002000</dt> </dl>                               | Зеркальное отображение содержащихся значков, если процесс зеркально отражен<br/>                                                                                                                            |
 | <span id="ILC_PERITEMMIRROR"></span><span id="ilc_peritemmirror"></span><dl> <dt>**ILC \_ ПЕРИТЕММИРРОР**</dt> <dt>0x00008000</dt> </dl>          | Приводит к тому, что код зеркального отображения зеркально отражает каждый элемент при вставке набора изображений, а не на всю полосу.<br/>                                                                             |
-| <span id="ILC_ORIGINALSIZE"></span><span id="ilc_originalsize"></span><dl> <dt>**ILC \_ ОРИГИНАЛСИЗЕ**</dt> <dt>0x00010000</dt> </dl>             | **Windows Vista и более поздние версии.** Список ImageList должен принимать меньшее значение, чем установленные изображения, и применять исходный размер на основе добавленного образа.<br/>                                                        |
-| <span id="ILC_HIGHQUALITYSCALE"></span><span id="ilc_highqualityscale"></span><dl> <dt>**ILC \_ ХИГХКУАЛИТИСКАЛЕ**</dt> <dt>0x00020000</dt> </dl> | **Windows Vista и более поздние версии.** Зарезервировано.<br/>                                                                                                                                            |
+| <span id="ILC_ORIGINALSIZE"></span><span id="ilc_originalsize"></span><dl> <dt>**ILC \_ ОРИГИНАЛСИЗЕ**</dt> <dt>0x00010000</dt> </dl>             | **Windows Vista и более поздних версий.** Список ImageList должен принимать меньшее значение, чем установленные изображения, и применять исходный размер на основе добавленного образа.<br/>                                                        |
+| <span id="ILC_HIGHQUALITYSCALE"></span><span id="ilc_highqualityscale"></span><dl> <dt>**ILC \_ ХИГХКУАЛИТИСКАЛЕ**</dt> <dt>0x00020000</dt> </dl> | **Windows Vista и более поздних версий.** Зарезервировано.<br/>                                                                                                                                            |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
 | Header<br/>                   | <dl> <dt>Шлобж. h</dt> </dl> |
 
 

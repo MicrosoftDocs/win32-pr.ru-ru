@@ -4,12 +4,12 @@ ms.assetid: 1a389de1-367d-4b07-a420-4af431d48b7f
 title: Регистрация для получения уведомлений о подключении
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 812c47ba43fe13e4908a1812f7c67f38a94bce5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe3a25e26e290700b8f343d3d543af4fbd7b709ff8b099522e4cd4b02b3d587f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919477"
 ---
 # <a name="registering-to-receive-connection-notifications"></a>Регистрация для получения уведомлений о подключении
 

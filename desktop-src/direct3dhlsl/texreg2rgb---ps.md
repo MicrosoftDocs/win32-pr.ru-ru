@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8bcd2bbd7e57ba9dc692f34404a5610cdc517f3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5c32ee8e6b1560bfcebf6a914a45be2c74b19e94568c9d4e9b24084bf56c3f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104532879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043052"
 ---
 # <a name="texreg2rgb---ps"></a>texreg2rgb-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104532879"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104532879"
 
 
 
- 
+ 
 
 Эта инструкция полезна для операций повторного сопоставления цветового пространства. Он поддерживает двухмерные (двумерные) и трехмерные (трехмерные) координаты. Его можно использовать так же, как [texreg2ar-PS](texreg2ar---ps.md) или [texreg2gb-PS](texreg2gb---ps.md) , для сопоставления 2D-данных. Однако эта инструкция также поддерживает трехмерные данные, чтобы их можно было использовать с картами кубов и трехмерными текстурами объемов.
 
@@ -69,16 +69,16 @@ texreg2rgb t(m), t(n)     where m > n
 t (m)<sub>RGBA</sub> = текстуресампле (этап m)<sub>RGBA</sub> с использованием t (n)<sub>RGB</sub> в качестве координат
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Приложение использует процедуры сер
 ms.assetid: 39859846-5b94-447a-a71b-a08b8eb2c4c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5585fc3f34b6cc826c1f8157bd59a144070ea081
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 12995144e44fa6b4b91f021d544b53c03d732df22d46489ccc2cefe8d34c0fa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925487"
 ---
 # <a name="serialization-handles"></a>Дескрипторы сериализации
 
@@ -31,9 +31,9 @@ ms.locfileid: "104068420"
 -   [Стили сериализации](serialization-styles.md)
 -   [Получение удостоверения кодировки](obtaining-an-encoding-identity.md)
 
- 
+ 
 
- 
+ 
 
 
 

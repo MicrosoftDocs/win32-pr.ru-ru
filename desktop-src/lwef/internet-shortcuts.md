@@ -8,12 +8,12 @@ keywords:
 - IPropertySetStorage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f14bc2ed58f75522e59b9008ded7b0f1416a21fe
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2aba53c320ed740fe7d91a2425b4d47d66e28d78aa35e4ce893efeed12380c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749412"
 ---
 # <a name="internet-shortcuts"></a>Ярлыки Интернета
 
@@ -24,7 +24,7 @@ ms.locfileid: "104069969"
 -   [Создание ярлыков Интернета](#creating-internet-shortcuts)
     -   [Создание ярлыка Интернета из элемента управления WebBrowser](#creating-an-internet-shortcut-from-a-webbrowser-control)
     -   [Создание ярлыка из Интернета на основе URL-адреса](#creating-an-internet-shortcut-from-a-url)
--   [Доступ к хранилищу свойств](#accessing-property-storage)
+-   [доступ к свойству служба хранилища](#accessing-property-storage)
 -   [Интерфейсы](#interfaces)
     -   [интерфейсы OLE](#ole-interfaces)
     -   [Интерфейсы оболочки](#shell-interfaces)
@@ -53,7 +53,7 @@ ms.locfileid: "104069969"
 2.  Используйте метод [иуниформресаурцелокатор:: SetURL](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565676(v=vs.85)) , чтобы задать URL-адрес в ярлыке.
 3.  Используйте метод [IPersistFile:: Save](/windows/win32/api/objidl/nf-objidl-ipersistfile-save) , чтобы сохранить файл ярлыка в нужном месте.
 
-## <a name="accessing-property-storage"></a>Доступ к хранилищу свойств
+## <a name="accessing-property-storage"></a>доступ к свойству служба хранилища
 
 Объект ярлык Интернета содержит несколько свойств, доступ к которым можно получить с помощью интерфейса [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) объекта с помощью следующей процедуры.
 
@@ -84,7 +84,7 @@ ms.locfileid: "104069969"
 
 
 
- 
+ 
 
 Для FMTID интернетсите можно запросить следующие идентификаторы свойств \_ .
 
@@ -106,7 +106,7 @@ ms.locfileid: "104069969"
 | PID \_ интсите \_ Контрольные значения        | Н/Д          | Сейчас не поддерживается                           |
 | \_интсите по \_ ПОДписке PID | VT \_ UI8      | Значение СУБСКРИПТИОНКУКИЕ для диспетчера подписки |
 | \_ \_ URL-адрес интсите PID          | VT \_ LPWSTR   | URL-адрес, на который указывает ярлык                   |
-| \_название PID интсите \_        | VT \_ LPWSTR   | Заголовок                                             |
+| \_название PID интсите \_        | VT \_ LPWSTR   | Название                                             |
 | Идентификатор процесса \_ интсите \_ кодовая страница     | VT \_ UI4      | Кодовая страница документа                          |
 | Идентификатор PID \_ интсите \_ отслеживания     | Н/Д          | Сейчас не поддерживается                           |
 | PID \_ интсите \_ икониндекс    | VT \_ I4       | Индекс значка                                 |
@@ -115,13 +115,13 @@ ms.locfileid: "104069969"
 
 
 
- 
+ 
 
 Ниже приведены флаги Интернет-сайта.
 
 
 
-| Flag                    | Описание                                |
+| Флаг                    | Описание                                |
 |-------------------------|--------------------------------------------|
 | ПИДИСФ \_ рецентличанжед | Указывает, что сайт был недавно изменен |
 | ПИДИСФ \_ качедстикки    | Сейчас не поддерживается                    |
@@ -130,7 +130,7 @@ ms.locfileid: "104069969"
 
 
 
- 
+ 
 
 Для перемещаемого журнала Интернета используются следующие значения.
 
@@ -145,7 +145,7 @@ ms.locfileid: "104069969"
 
 
 
- 
+ 
 
 ## <a name="interfaces"></a>Интерфейсы
 
@@ -181,6 +181,6 @@ ms.locfileid: "104069969"
 -   [**транслатеурл**](/windows/desktop/api/intshcut/nf-intshcut-translateurla)
 -   [**урлассоЦиатиондиалог**](/windows/desktop/api/intshcut/nf-intshcut-urlassociationdialoga)
 
- 
+ 
 
- 
+ 

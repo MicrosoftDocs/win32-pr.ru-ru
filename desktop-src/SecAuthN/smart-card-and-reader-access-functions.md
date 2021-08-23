@@ -1,15 +1,15 @@
 ---
-description: Подключение к определенной смарт-карте и взаимодействие с ней.
+description: Подключение к определенной смарт-карте и взаимодействовать с ней.
 ms.assetid: 37d92491-174b-471e-b36e-46d9285dd404
 title: Функции смарт-карт и доступа для чтения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7202b2d6165b49bfe80e55f15c4d69cb4a6909a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b571764ae2d31865082e823996e8cc1ecde9d9d3e2dd618f28e528fd465a567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917959"
 ---
 # <a name="smart-card-and-reader-access-functions"></a>Функции смарт-карт и доступа для чтения
 
@@ -19,7 +19,7 @@ ms.locfileid: "105664168"
 
 | Раздел                                                  | Описание                                                                                                                                                                                                                                |
 |--------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**скардконнект**](/windows/desktop/api/Winscard/nf-winscard-scardconnecta)                   | Подключитесь к карточке.                                                                                                                                                                                                                         |
+| [**скардконнект**](/windows/desktop/api/Winscard/nf-winscard-scardconnecta)                   | Подключение на карточку.                                                                                                                                                                                                                         |
 | [**скардреконнект**](/windows/desktop/api/Winscard/nf-winscard-scardreconnect)               | Повторное создание соединения.                                                                                                                                                                                                                  |
 | [**скарддисконнект**](/windows/desktop/api/Winscard/nf-winscard-scarddisconnect)             | Завершение соединения.                                                                                                                                                                                                                    |
 | [**SCardBeginTransaction**](/windows/desktop/api/Winscard/nf-winscard-scardbegintransaction) | Запуск [*транзакции*](../secgloss/t-gly.md)с блокированием доступа других приложений к карточке.                                                                                            |

@@ -1,19 +1,19 @@
 ---
-title: Общие сведения об API автоматизации Windows
-description: В этом разделе представлен общий обзор API-интерфейса автоматизации Microsoft Windows 3,0, в который входят устаревшие Active Accessibility Майкрософт и реализация спецификации Microsoft UI Automation в Windows.
+title: Windows Общие сведения об API автоматизации
+description: в этом разделе представлен общий обзор microsoft Windows Automation API 3,0, который включает устаревшие Active Accessibility майкрософт и реализацию Windows спецификации автоматизации пользовательского интерфейса майкрософт.
 ms.assetid: 11c99444-eb5a-4656-ae9d-e4d4bdbcabfc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67282c8b0287fa02f89e0ad1b46045a8bbdaa865
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45f39c1a9169d7d7a9358eaf0b947c885159adc0103eb8f6a76b39b029649cee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823401"
 ---
-# <a name="windows-automation-api-overview"></a>Общие сведения об API автоматизации Windows
+# <a name="windows-automation-api-overview"></a>Windows Общие сведения об API автоматизации
 
-В этом разделе представлен общий обзор API-интерфейса автоматизации Microsoft Windows 3,0, в который входят устаревшие Active Accessibility Майкрософт и реализация спецификации Microsoft UI Automation в Windows. В этом обзоре рассматриваются сходства и различия между Microsoft Active Accessibility и автоматизацией пользовательского интерфейса, описываются компоненты и функции, обеспечивающие совместную работу двух технологий, а также приводятся рекомендации по выбору реализуемой технологии.
+в этом разделе представлен общий обзор microsoft Windows Automation API 3,0, который включает устаревшие Active Accessibility майкрософт и реализацию Windows спецификации автоматизации пользовательского интерфейса майкрософт. В этом обзоре рассматриваются сходства и различия между Microsoft Active Accessibility и автоматизацией пользовательского интерфейса, описываются компоненты и функции, обеспечивающие совместную работу двух технологий, а также приводятся рекомендации по выбору реализуемой технологии.
 
 Этот раздел содержит следующие подразделы:
 
@@ -23,16 +23,16 @@ ms.locfileid: "104413528"
 -   [32-разрядное и 64-разрядное взаимодействие](32-bit-and-64-bit-interoperability.md)
 -   [Рекомендации по специальным возможностям](accessibility-best-practices.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Спецификация модели автоматизации пользовательского интерфейса](./ui-automation-specification.md)
 </dt> <dt>
 
-[Обязательство сообщества по автоматизации пользовательского интерфейса](./uiauto-specandcommunitypromise.md)
+[модель автоматизации пользовательского интерфейса Community обещание](./uiauto-specandcommunitypromise.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

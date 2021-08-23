@@ -4,28 +4,28 @@ ms.assetid: efbf11f2-38ab-4509-aa01-23fa8cfdaa60
 title: Мсирестартманажерсессионкэй, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 489095e0af617c7ae403811f0eab800c5502e3bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f48fe8d2ce4b287afc5c222acdc1f71eec393ff9a1ab1773a822e30405e6a317
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944542"
 ---
 # <a name="msirestartmanagersessionkey-property"></a>Мсирестартманажерсессионкэй, свойство
 
 Установщик задает для свойства **мсирестартманажерсессионкэй** значение ключа сеанса для сеанса [диспетчера перезапуска](../rstmgr/restart-manager-portal.md) . Пользовательские действия могут использовать сеансовый ключ для приподключения к сеансу [диспетчера перезапуска](../rstmgr/restart-manager-portal.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установщик задает значение свойства **мсирестартманажерсессионкэй** при инициализации, а затем очищает значение во время действия [инсталлвалидате](installvalidate-action.md) . Пользовательские действия, которым требуется значение свойства **мсирестартманажерсессионкэй** , должны следовать перед действием инсталлвалидате в последовательности действий.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "105669043"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

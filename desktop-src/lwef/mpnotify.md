@@ -3,8 +3,8 @@ title: Перечисление МПНОТИФИ (Мпклиент. h)
 description: Возможные уведомления обратного вызова.
 ms.assetid: CCD0CD89-2C6E-453F-9437-E6ED87AD9F29
 keywords:
-- Перечисление МПНОТИФИ. устаревшие функции среды Windows
-- Устаревшие компоненты среды Windows в указателе перечисления ПМПНОТИФИ
+- мпнотифи перечисления устаревших компонентов среды Windows
+- Windows компонентов среды устаревшего указателя перечисления пмпнотифи
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afa0eeb6cb1d610f28cc82f578617f7bd71cf886
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed62a9f868aa39cbc0cfc7702afc99849005a22106892696eca857ffb20673af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747792"
 ---
 # <a name="mpnotify-enumeration"></a>Перечисление МПНОТИФИ
 
@@ -642,8 +642,8 @@ typedef enum tagMPNOTIFY {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 

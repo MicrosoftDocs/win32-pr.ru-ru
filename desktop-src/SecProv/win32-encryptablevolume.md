@@ -1,5 +1,5 @@
 ---
-description: Для шифрования диска или создания программного обеспечения для обеспечения безопасности шифрования можно использовать программное обеспечение шифрования Windows, шифрование диска BitLocker, API шифрования, который можно использовать с помощью \_ класса поставщика ЕНКРИПТАБЛЕВОЛУМЕ WMI Win32.
+description: для шифрования диска или создания программного обеспечения безопасности шифрования можно использовать Windowsное программное обеспечение для шифрования, шифрование диска BitLocker, API шифрования, который можно использовать с помощью \_ класса поставщика енкриптаблеволуме WMI Win32.
 ms.assetid: 464fa664-4330-43fa-a5e0-144d1e73cf58
 title: Класс Win32_EncryptableVolume
 ms.topic: reference
@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: b202a536f3c20126c05f072c029fe316f90ce4fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3beb3498cf9e3d2873ea7dcfe3a108618eeddb513bc8207d1e819cce2fe976d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891007"
 ---
 # <a name="win32_encryptablevolume-class"></a>\_Класс Win32 енкриптаблеволуме
 
@@ -131,7 +131,7 @@ class Win32_EncryptableVolume
 | [**унлокквисекстерналкэй**](unlockwithexternalkey-win32-encryptablevolume.md)                                           | Использует предоставленный внешний ключ для доступа к содержимому тома данных.<br/>                                                                                                                                                                                                      |
 | [**унлокквиснумерикалпассворд**](unlockwithnumericalpassword-win32-encryptablevolume.md)                               | Использует предоставленный числовой пароль для доступа к содержимому тома данных.<br/>                                                                                                                                                                                                |
 | [**унлокквиспассфрасе**](unlockwithpassphrase-win32-encryptablevolume.md)                                             | Использует парольную фразу для получения производного ключа. После вычисления производного ключа используется производный ключ для разблокировки главного ключа зашифрованного тома.<br/>                                                                                                                   |
-| [**упградеволуме**](upgradevolume-win32-encryptablevolume.md)                                                           | Обновляет том из формата Windows Vista до формата Windows 7.<br/>                                                                                                                                                                                                   |
+| [**упградеволуме**](upgradevolume-win32-encryptablevolume.md)                                                           | обновляет том из формата Windows Vista до формата Windows 7.<br/>                                                                                                                                                                                                   |
 
 
 
@@ -229,9 +229,9 @@ class Win32_EncryptableVolume
 
 По умолчанию параметр безопасности пространства имен включает запись, которая разрешает редактирование по умолчанию. Дополнительные сведения об аудите пространства имен WMI см. [в разделе доступ к пространствам имен WMI](../wmisdk/access-to-wmi-namespaces.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -239,8 +239,8 @@ class Win32_EncryptableVolume
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/>                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows vista Enterprise, \[ только для настольных приложений Windows vista Ultimate\]<br/>                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 

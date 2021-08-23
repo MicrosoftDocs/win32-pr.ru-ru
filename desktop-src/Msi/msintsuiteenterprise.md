@@ -1,19 +1,19 @@
 ---
-description: В операционных системах Windows 2000 и более поздних версий установщик устанавливает для свойства Мсинтсуитинтерприсе значение 1, если установлен Windows 2000 Advanced Server.
+description: в Windows 2000 и более поздних операционных системах установщик устанавливает для свойства мсинтсуитинтерприсе значение 1, если установлен Windows 2000 Advanced Server.
 ms.assetid: f5384467-3791-4b0b-a70e-b5343c70db46
 title: Мсинтсуитинтерприсе, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 137b4ece4dbaecdd83b78fd2ce7cfd57820e029d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 242bf1c95db7d4101362a7b72b4cfa99009a93cc2fa399d1b4b81d93aabbd16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944657"
 ---
 # <a name="msintsuiteenterprise-property"></a>Мсинтсуитинтерприсе, свойство
 
-В операционных системах Windows 2000 и более поздних версий установщик устанавливает для свойства **мсинтсуитинтерприсе** значение 1, если установлен Windows 2000 Advanced Server. Установщик задает для этого свойства значение 1, только если в \_ \_ структуре [**осверсионинфоекс**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) установлен флаг Enterprise для версии ver. В противном случае установщик не устанавливает это свойство.
+в Windows 2000 и более поздних операционных системах установщик устанавливает для свойства **мсинтсуитинтерприсе** значение 1, если установлен Windows 2000 Advanced Server. Установщик задает для этого свойства значение 1, только если в \_ \_ структуре [**осверсионинфоекс**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) установлен флаг Enterprise для версии ver. В противном случае установщик не устанавливает это свойство.
 
 ## <a name="requirements"></a>Требования
 
@@ -21,7 +21,7 @@ ms.locfileid: "105651651"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
