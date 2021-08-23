@@ -4,20 +4,20 @@ ms.assetid: 131e927d-d32a-44f6-8aae-28839cfa9e7d
 title: Объект поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb36517f0091776b9429911212610134f31077a2
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 0bb64d879b8213970edd5887c2d7a217c434ec38a113d2c9f36cd9e1d73e564d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104556094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999473"
 ---
 # <a name="provider-object"></a>Объект поставщика
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект поставщика моделирует программу, отвечающую за управление хранилищем. Этот объект предоставляет доступ к функциональным возможностям поставщика программного обеспечения и поставщика оборудования. Программы поставщика выполняют операции на устройствах программного обеспечения (тома и диски) и аппаратных устройствах (подсистемы хранения и массивы дисков за контроллерами RAID).
 
-Служба VDS регистрирует объект поставщика в виде COM-объекта в реестре Windows и использует содержащиеся интерфейсы (не агрегаты) для реализации оставшихся объектов, заключив все интерфейсы и методы и условно добавляя функциональные возможности. Объекты и интерфейсы, обтекаемые объектом поставщика, зависят от типа поставщика.
+служба VDS регистрирует объект поставщика в качестве COM-объекта в Windows реестре и использует содержащиеся интерфейсы (не агрегаты) для реализации оставшихся объектов, заключив все интерфейсы и методы и условно добавляя функциональные возможности. Объекты и интерфейсы, обтекаемые объектом поставщика, зависят от типа поставщика.
 
 Нельзя создать экземпляр объекта поставщика непосредственно из приложения. Вместо этого необходимо запустить службу VDS, получить указатель на объект службы и использовать объект службы для запроса поставщиков, известных узлу. Инструкции по загрузке VDS см. в разделе [объекты запуска и службы](startup-and-service-objects.md).
 
@@ -35,18 +35,18 @@ ms.locfileid: "104556094"
 | Интерфейсы, которые всегда предоставляются только поставщиками программного обеспечения                                | [**ивдссвпровидер**](/windows/desktop/api/Vds/nn-vds-ivdsswprovider)                                                                                                                                                                                                                                                       |
 | Интерфейсы, которые всегда предоставляются только поставщиками оборудования                                | [**ивдшвпровидер**](/windows/desktop/api/Vds/nn-vds-ivdshwprovider)                                                                                                                                                                                                                                                       |
 | Интерфейсы, которые могут предоставляться этим объектом                                                | [**ивдспровидерсуппорт**](/windows/desktop/api/Vds/nn-vds-ivdsprovidersupport)                                                                                                                                                                                                                                             |
-| Интерфейсы, которые могут предоставляться только поставщиками оборудования                                    | [**Ивдшвпровидертипе**](/windows/desktop/api/Vds/nn-vds-ivdshwprovidertype), [**ивдшвпровидерсторажепулс**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools)**Windows Server 2008, windows Vista и Windows Server 2003:** интерфейс [**ивдшвпровидерсторажепулс**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools) не поддерживается.<br/> |
+| Интерфейсы, которые могут предоставляться только поставщиками оборудования                                    | [**ивдшвпровидертипе**](/windows/desktop/api/Vds/nn-vds-ivdshwprovidertype), [**ивдшвпровидерсторажепулс**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools)**Windows server 2008, Windows Vista и Windows Server 2003:** интерфейс [**ивдшвпровидерсторажепулс**](/windows/desktop/api/Vds/nn-vds-ivdshwproviderstoragepools) не поддерживается.<br/> |
 | Интерфейсы, которые всегда реализуются, но не предоставляются приложениям                       | [**ивдспровидерпривате**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdsproviderprivate)                                                                                                                                                                                                                                             |
 | Интерфейсы, которые всегда реализуются поставщиками оборудования, но не предоставляются приложениям | [**ивдшвпровидерпривате**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivate)                                                                                                                                                                                                                                         |
 | Интерфейсы, которые могут быть реализованы поставщиками оборудования, но не доступны для приложений     | [**ивдшвпровидерприватемпио**](/windows/desktop/api/VdsHwPrv/nn-vdshwprv-ivdshwproviderprivatempio)                                                                                                                                                                                                                                 |
 | Связанные перечисления                                                                      | Служба [**VDS \_ \_Флаг поставщика**](/windows/desktop/api/Vds/ne-vds-vds_provider_flag), [**\_ \_ \_ флаг поставщика запросов VDS**](/windows/desktop/api/Vds/ne-vds-vds_query_provider_flag)и [**\_ \_ тип поставщика службы VDS**](/windows/desktop/api/Vds/ne-vds-vds_provider_type).                                                                                                                         |
-| Связанные структуры                                                                        | Нет.                                                                                                                                                                                                                                                                                          |
+| Связанные структуры                                                                        | Отсутствует.                                                                                                                                                                                                                                                                                          |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

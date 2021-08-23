@@ -4,18 +4,18 @@ ms.assetid: 8f94a82c-de93-4649-a9b5-0adcbe01333d
 title: Основные функции планшетных ПК
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc9d0369a223959f011612b5aefc820a3668eeff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb9e58300321f2b483cc062472950f5d252a292dc1380b3e5c030993ddbe6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967551"
 ---
 # <a name="core-tablet-pc-functions"></a>Основные функции планшетных ПК
 
 В этом разделе содержатся основные функции для планшетных ПК.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 
 

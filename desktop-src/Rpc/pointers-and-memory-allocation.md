@@ -4,12 +4,12 @@ description: Возможность изменения памяти с помо�
 ms.assetid: 8a49582a-9ae4-4f26-a172-bc8fe2aab65a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdd4c51207de093dfe2d32ec0c275aa7a05a317
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 23d634b209c1f6369429c432d5fad5d4e64b47aeae16778efd8916c00e65911e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927364"
 ---
 # <a name="pointers-and-memory-allocation"></a>Указатели и выделение памяти
 
@@ -40,6 +40,6 @@ void __RPC_API midl_user_free(void __RPC_FAR * ptr)
 
 
 
- 
+ 
 
- 
+ 

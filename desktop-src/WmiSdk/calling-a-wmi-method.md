@@ -5,12 +5,12 @@ ms.assetid: 8d559eee-3dbf-4132-b1c0-a6925b8feb56
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 892561785280e78ecf29da1030883994990fc822
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d1de14f06388454228528d5a419b551ae2ed0d72c82e3b78c9e04855db6619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051052"
 ---
 # <a name="how-to-call-a-wmi-method"></a>Вызов метода WMI
 
@@ -32,11 +32,11 @@ Next
 
 
 
-Фактический процесс использования методов WMI идентичен использованию любых других интерфейсов COM или интерфейса автоматизации Windows. Дополнительные сведения см. в разделе [com](../cossdk/component-services-portal.md) и [Создание приложения или скрипта WMI](creating-a-wmi-application-or-script.md). Дополнительные сведения о интерфейсах, поддерживаемых WMI, см. в разделе [API COM для WMI](com-api-for-wmi.md) и [API сценариев для WMI](scripting-api-for-wmi.md).
+фактический процесс использования методов WMI идентичен использованию любого другого Windows COM или интерфейса автоматизации. Дополнительные сведения см. в разделе [com](../cossdk/component-services-portal.md) и [Создание приложения или скрипта WMI](creating-a-wmi-application-or-script.md). Дополнительные сведения о интерфейсах, поддерживаемых WMI, см. в разделе [API COM для WMI](com-api-for-wmi.md) и [API сценариев для WMI](scripting-api-for-wmi.md).
 
 Дополнительные сведения см. в разделе [Управление сведениями о классе и экземпляре](manipulating-class-and-instance-information.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

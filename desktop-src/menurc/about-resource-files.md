@@ -1,19 +1,19 @@
 ---
 title: Сведения о файлах ресурсов
-description: Описывает, как включить ресурсы в приложение Windows с помощью версии-КАНДИДАТа.
+description: описание включения ресурсов в приложение на основе Windows с помощью версии-кандидата.
 ms.assetid: af7c7aed-5d28-40ac-ad00-da0986fd89c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c43e9df59cf0b6507b6c6a53c42299b8792634f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24f351592c57cb628204ad6528a48bfa1a10507f5e7aad90a524ea2f6034f304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034472"
 ---
 # <a name="about-resource-files"></a>Сведения о файлах ресурсов
 
-Чтобы включить ресурсы в приложение Windows с помощью версии-КАНДИДАТа, выполните следующие действия.
+чтобы включить ресурсы в приложение на основе Windows с помощью версии-кандидата, выполните следующие действия.
 
 1.  Создание отдельных файлов для курсоров, значков, растровых изображений, диалоговых окон и шрифтов.
 2.  Создайте скрипт определения ресурса (RC-файл), описывающий ресурсы, используемые приложением.
@@ -33,9 +33,9 @@ ms.locfileid: "104067979"
 -   [Директивы Pragma](pragma-directives.md)
 -   [Операторы определения ресурсов](resource-definition-statements.md), которые содержат имена и описания ресурсов.
 
- 
+ 
 
- 
+ 
 
 
 

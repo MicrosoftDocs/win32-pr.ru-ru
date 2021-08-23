@@ -4,19 +4,19 @@ ms.assetid: e4efc02b-e8a5-4c4b-a42c-256b746ca3a3
 title: Методы SizeF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75e9dc3b900060402f351a6ced6de90d76741e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b1281cb335c39a1d04e5a389f173d59f81c5f1ff0870835eda3893185f3ba99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036982"
 ---
 # <a name="sizef-methods"></a>Методы SizeF
 
 В этом разделе перечислены методы класса [**SizeF**](/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef) . Полный список классов см. в разделе **класс SizeF**.
 
--   [**Указано**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-empty)
--   [**Прошлом**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-equals)
+-   [**Empty**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-empty)
+-   [**Равно**](/windows/desktop/api/Gdiplustypes/nf-gdiplustypes-sizef-equals)
 -   [**operator — (SizeF&)**](/previous-versions//ms534743(v=vs.85))
 -   [**operator + (SizeF&)**](/windows/win32/api/gdiplustypes/nf-gdiplustypes-sizef-operator-add)
 

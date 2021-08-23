@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f4d2d4232b64857ca209e6b43cd7081a42495fee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a6049ad4526d8776b25e81fe4d75b727196f8fa1251a1959662cca71b161fbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073978"
 ---
 # <a name="cmediatypematchespartial-method"></a>Кмедиатипе. Матчеспартиал, метод
 
@@ -53,22 +53,22 @@ BOOL MatchesPartial(
 
 Возвращает **значение true** , если типы мультимедиа совпадают. В противном случае возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип носителя, заданный параметром *ппартиал* , может иметь значение GUID \_ null для основного типа, подтипа или типа формата. Все элементы со \_ значениями NULL GUID не проверяются. (По сути, GUID \_ NULL выступает в качестве подстановочного знака.) Элементы со значениями, отличными от GUID \_ null, должны соответствовать типу носителя.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>мтипе. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,25 +1,25 @@
 ---
-description: Дополнительные сведения о подсистеме расширяемого хранилища
-title: Сведения о расширяемой подсистеме хранилища
+description: дополнительные сведения о расширяемой подсистеме служба хранилища.
+title: сведения о расширяемом подсистеме служба хранилища
 TOCTitle: About Extensible Storage Engine
 ms:assetid: 06d1526e-169d-4677-b409-2ed415287de6
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269181(v=EXCHG.10)
 ms:contentKeyID: 32765484
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 17e2277deaef54c04bf6a53a8464479fd67295a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26a1d4d28f1d5957432202545ff94c4f18c37e5a521e0deadfdabfb72751adec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983874"
 ---
-# <a name="about-extensible-storage-engine"></a>Сведения о расширяемой подсистеме хранилища
+# <a name="about-extensible-storage-engine"></a>сведения о расширяемом подсистеме служба хранилища
 
 
-_**Применимо к:** Exchange Server 2013 | Windows | Windows Server_
+_**применимо к:** Exchange Server 2013 | Windows | Windows Сервером_
 
-## <a name="about-extensible-storage-engine"></a>Сведения о расширяемой подсистеме хранилища
+## <a name="about-extensible-storage-engine"></a>сведения о расширяемом подсистеме служба хранилища
 
 Подсистема расширенного хранилища (ESE) — это ядро СУБД, в котором данные хранятся в логической последовательности. Сведения могут быть получены либо последовательно, либо путем доступа к определенным индексам. Для обеспечения безопасных операций обновления базы данных реализуются с помощью транзакции. ESE обеспечивает одновременный доступ к нескольким базам данных, включая базы данных журналов транзакций, которые можно использовать для восстановления системы. ESE масштабируется для больших или небольших приложений. В ПРИКЛАДном программном интерфейсе ESE доступны следующие функции:
 

@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: e13828f6d5e844147fc0b041617c8452c503ceef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41b49c293d5661d523138b01c093fce627e5bedf3d1e783dccb8248edf88546c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051142"
 ---
 # <a name="wmimonitorlistedfrequencyranges-class"></a>Класс Вмимониторлистедфрекуенциранжес
 
-Класс WMI **вмимониторлистедфрекуенциранжес** перечисляет диапазоны частот, поддерживаемые монитором. Эти диапазоны находятся в определении видеовходов с расширенным расширенным отображаемым идентификационными данными (E-EDID), а также в файле INF Windows, содержащем данные драйвера устройства.
+Класс WMI **вмимониторлистедфрекуенциранжес** перечисляет диапазоны частот, поддерживаемые монитором. эти диапазоны находятся в определении видеовходов с расширенным расширенным отображаемым идентификационными данными (E-EDID), а также в файле Windows INF, содержащем данные драйвера устройства.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -46,7 +46,7 @@ class WmiMonitorListedFrequencyRanges : MSMonitorClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **вмимониторлистедфрекуенциранжес** имеет следующие свойства.
 
@@ -107,7 +107,7 @@ class WmiMonitorListedFrequencyRanges : MSMonitorClass
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -121,7 +121,7 @@ class WmiMonitorListedFrequencyRanges : MSMonitorClass
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

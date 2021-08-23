@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dcaa60d87c85001120da3a12005ca147b684b7a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97e7207f46ec8bb25f22b3b620f00994bf88e929dac318abf14bd09af78cd3f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937924"
 ---
 # <a name="glrects-function"></a>Функция Глректс
 
@@ -87,7 +87,7 @@ void WINAPI glRects(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глректс** поддерживает эффективную спецификацию прямоугольников в двух угловых точках. Каждая команда Rectangle принимает четыре аргумента, организованные как две последовательные пары (x, *y*) или как два указателя на массивы, каждый из которых содержит пару (*x*, *y*). Полученный прямоугольник определяется в плоскости *z* = 0.
 
@@ -107,7 +107,7 @@ void WINAPI glRects(
 
 Обратите внимание, что если вторая вершина находится выше и правее первой вершины, прямоугольник создается с поворотом против часовой стрелки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -121,7 +121,7 @@ void WINAPI glRects(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc10fad9c775d324822700b77afed4e65a798db6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d7d7ca4636d0eaeea35054dc5330b17f1360dffec5231922ad0acc357231c3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939591"
 ---
 # <a name="inapsohconstructorappendattribute-method"></a>Метод Инапсохконструктор:: Аппендаттрибуте
 
@@ -78,7 +78,7 @@ HRESULT AppendAttribute(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не следует добавлять TLV [**сохаттрибутетипесистемхеалсид**](sohattributetype-enum.md) с помощью этой функции. Он добавляется в качестве первого TLV путем [**инапсохконструктор:: Initialize**](inapsohconstructor-initialize-method.md) для вновь сконструированных пакетов SoH.
 
@@ -90,9 +90,9 @@ HRESULT AppendAttribute(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Наппротокол. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Наппротокол. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qutil.dll</dt> </dl>       |
 

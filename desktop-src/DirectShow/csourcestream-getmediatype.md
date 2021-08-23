@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9d8936f08b952af069812859736a6a13ea9c0e4e
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: cb3095e366a03d94616d45eda441fec78d2ccbf7d58f8e74890a42902bae6fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106187941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073258"
 ---
 # <a name="csourcestreamgetmediatype-method-sourceh---iposition-and-pmediatype-parameters"></a>Ксаурцестреам. Жетмедиатипе, метод (Source. h) — параметры интерфейс и Пмедиатипе
 
@@ -83,16 +83,16 @@ virtual HRESULT GetMediaType(
 -   Если ПИН-код поддерживает ровно один тип носителя, переопределите версию с одним параметром. Укажите тип носителя, который поддерживает ПИН-код.
 -   Если ПИН-код поддерживает более одного типа носителей, переопределите версию с двумя параметрами. Также Переопределите метод [**ксаурцестреам:: чеккмедиатипе**](csourcestream-checkmediatype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Заголовок  | Source. h (включение Streams. h)                                                                                    |
+| Заголовок  | Source. h (включает Потоки. h)                                                                                    |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

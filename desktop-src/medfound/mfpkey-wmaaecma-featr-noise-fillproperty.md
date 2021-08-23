@@ -4,12 +4,12 @@ ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
 title: Свойство MFPKEY_WMAAECMA_FEATR_NOISE_FILL (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea0c0af2b47767a7798d9b583ac55ad5112ddf1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec3f2f6780157da97263bd6e68ac5f38c9448a5633fafe6481b082ed033331dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035122"
 ---
 # <a name="mfpkey_wmaaecma_featr_noise_fill-property"></a>МФПКЭЙ \_ вмааекма \_ Феатр \_ , \_ свойство заливки шума
 
@@ -27,11 +27,11 @@ ms.locfileid: "105701814"
 
 ВАРИАНТ \_ true
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При заполнении шума в части сигнала добавляется небольшой шум, при котором обрезка по центру удалила остаточные выводы. Это приводит к повышению удобства работы пользователя, чем при отсутствии пропусков в сигнале.
 
@@ -52,19 +52,19 @@ ms.locfileid: "105701814"
 
 DSP использует это свойство только в том случае, если включена обработка AEC.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

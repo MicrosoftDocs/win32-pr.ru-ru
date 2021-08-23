@@ -4,12 +4,12 @@ ms.assetid: 31ea89c5-fb09-48ae-878f-724a2cbd4772
 title: Типы носителей ВБИ (UUIDs. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b1abcca90b51fde508dcd3d1d0bc9011fc64a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10fb7ba1f7a02d387e9abc5460bc98abe81da5d8da78be6a16106a5fb630a109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072018"
 ---
 # <a name="vbi-media-types"></a>Типы носителей ВБИ
 
@@ -22,7 +22,7 @@ ms.locfileid: "105685092"
 | <span id="KSDATAFORMAT_SUBTYPE_RAW8"></span><span id="ksdataformat_subtype_raw8"></span><dl> <dt>**КСДАТАФОРМАТ \_ подтип \_ RAW8**</dt> </dl> | Необработанные данные ВБИ.<br/>                        |
 | <span id="MEDIASUBTYPE_TELETEXT"></span><span id="mediasubtype_teletext"></span><dl> <dt>**МЕДИАСУБТИПЕ \_ телетекст**</dt> </dl>              | Данные телетекста.<br/>                       |
 | <span id="MEDIASUBTYPE_VPS"></span><span id="mediasubtype_vps"></span><dl> <dt>**МЕДИАСУБТИПЕ \_ ВПС**</dt> </dl>                             | Данные системы программирования видео (ВПС).<br/> |
-| <span id="MEDIASUBTYPE_WSS"></span><span id="mediasubtype_wss"></span><dl> <dt>**МЕДИАСУБТИПЕ \_ WSS**</dt> </dl>                             | Широкие данные для экранных сигналов (WSS).<br/>    |
+| <span id="MEDIASUBTYPE_WSS"></span><span id="mediasubtype_wss"></span><dl> <dt>**медиасубтипе \_ Windows SharePoint Services**</dt> </dl>                             | широкие данные с экранным сигналом (Windows SharePoint Services).<br/>    |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "105685092"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>UUID. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>UUID. h</dt> </dl> |
 
 
 

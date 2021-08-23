@@ -4,17 +4,17 @@ ms.assetid: ed347a5e-d4cc-42f1-8b75-0a0a2ca40476
 title: ДефаултаудиолЦид, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe302adaa555d59b2c1dcd50d749e9afdc2de740
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4c7ebcd864f8ac3bff8cfd8556703dd091985a72c0dfea4f0eefb9f974213165
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953012"
 ---
 # <a name="defaultaudiolcid-property"></a>ДефаултаудиолЦид, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "105673081"
 
 Возвращает целочисленное значение, представляющее заданный пользователем код звука по умолчанию, сохраненный в параметрах реестра для приложения DVD. Это значение не обязательно совпадает с звуковым потоком по умолчанию, созданным на DVD-диске.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи и не имеет значения по умолчанию. Если не указан код звука по умолчанию, объект Мсдвдадм воспроизведет аудиопоток, который помечен как поток по умолчанию на диске.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

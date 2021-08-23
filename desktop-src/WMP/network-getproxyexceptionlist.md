@@ -3,9 +3,9 @@ title: Метод Network. Жетпроксексцептионлист
 description: Метод Жетпроксексцептионлист извлекает список исключений прокси-сервера.
 ms.assetid: f81d8c0f-cc75-470c-9c24-ceaf8a4b6f97
 keywords:
-- Жетпроксексцептионлист метод Windows Media Player
-- Жетпроксексцептионлист метод Windows Media Player, класс Network
-- Класс сети Windows Media Player, метод Жетпроксексцептионлист
+- проигрыватель Windows Media метода жетпроксексцептионлист
+- проигрыватель Windows Media метода жетпроксексцептионлист, класс сети
+- класс проигрыватель Windows Media сети, метод жетпроксексцептионлист
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ace9bd569c1cc53a8f3d522703aee6154e68a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2becc6c74a5ada575f1bfa85473bd3204bf53a4a739640149cffdd57e3facf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054580"
 ---
 # <a name="networkgetproxyexceptionlist-method"></a>Метод Network. Жетпроксексцептионлист
 
@@ -53,7 +53,7 @@ strRetVal = Network.getProxyExceptionList(
 
 Этот метод возвращает **строку** , указывающую список узлов, разделенных точкой с запятой, для которых прокси-сервер пропускается. Возвращаемое значение имеет смысл только в том случае, если **жетпроксисеттингс** возвращает значение 2 (использовать параметры вручную).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это список компьютеров, доменов и (или) адресов, которые будут обходить прокси-сервер, если часть узла целевого URL-адреса совпадает с записью в списке.
 
@@ -61,11 +61,11 @@ strRetVal = Network.getProxyExceptionList(
 
 Этот метод завершается ошибкой, если вызывающее приложение не выполняется на локальном компьютере или в интрасети.
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **жетпроксексцептионлист** для вывода списка пропущенных прокси-серверов для протоколов MMS и HTTP. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **жетпроксексцептионлист** для вывода списка пропущенных прокси-серверов для протоколов MMS и HTTP. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -91,18 +91,18 @@ document.write("The current MMS proxy exception list: " + proxyExceptionListMMS)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

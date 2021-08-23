@@ -4,12 +4,12 @@ ms.assetid: 16e8348b-c6cf-06a5-12be-5954de3522c1
 title: Функции сравнения 2D-векторной библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b4ed7f61ffc7009aafe070c941129b15ca74fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f200bbc9a2fdd6e95c446c9635e34e106df6904ce64f8e1ebad1a7cc129f7285
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984834"
 ---
 # <a name="directxmath-library-2d-vector-comparison-functions"></a>Функции сравнения 2D-векторной библиотеки Директксмас
 
@@ -41,7 +41,7 @@ ms.locfileid: "104155451"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

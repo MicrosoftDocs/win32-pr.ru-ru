@@ -4,12 +4,12 @@ description: Когда серверная программа начинает �
 ms.assetid: 3e78e095-f4a4-4ce7-b4a9-936a6c10316b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9787cc0f4a10da99f1401843450a6e00073e135b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 66314c55ad8e78922f7afcc74c6de3b4afad8234293373cf0cd35a560a1942ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929500"
 ---
 # <a name="how-the-server-prepares-for-a-connection"></a>Как сервер готовится к подключению
 
@@ -26,9 +26,9 @@ ms.locfileid: "104330624"
 -   [Регистрация конечных точек](registering-endpoints.md)
 -   [Ожидание вызовов клиента](listening-for-client-calls.md)
 
- 
+ 
 
- 
+ 
 
 
 

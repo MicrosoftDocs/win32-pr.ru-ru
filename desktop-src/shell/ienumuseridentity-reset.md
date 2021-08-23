@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 05b3c5d38575fa1b2957c28070d642ad15f846ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df70048760af47b380308eddab4ef5c044c8f6881374c83002944d6d76836ed5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969423"
 ---
 # <a name="ienumuseridentityreset-method"></a>Метод Иенумусеридентити:: Reset
 
@@ -45,27 +45,27 @@ HRESULT Reset();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 [**Иенумусеридентити**](ienumuseridentity.md) хранит внутренний счетчик, указывающий, какой интерфейс следует извлечь. Вызов этого метода приведет к сбросу значения этого счетчика.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Мсидент. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мсидент. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

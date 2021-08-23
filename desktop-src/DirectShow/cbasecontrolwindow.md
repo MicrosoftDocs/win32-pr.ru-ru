@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c4b53cc5ce1b209cc7de9d68648b68096e5c4911
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 500706531d7e7a934681dabe3bcd00b7de0d80e42b8bbf27a5456a8fd4415f21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017241"
 ---
 # <a name="cbasecontrolwindow-class"></a>Класс Кбасеконтролвиндов
 
@@ -98,7 +98,7 @@ ms.locfileid: "104262426"
 
 <dl> <dt>
 
-[Базовые классы DirectShow](directshow-base-classes.md)
+[DirectShow Базовые классы](directshow-base-classes.md)
 </dt> </dl>
 
  

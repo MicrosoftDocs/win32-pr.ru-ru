@@ -5,12 +5,12 @@ ms.custom: 19H1
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/21/2019
-ms.openlocfilehash: 6a1094f3fcc450fc8e5af471d79be3e3c3064fbf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9f9d8687fa9871152504f80a917a083ce9acbd14b9bf9159bc7559865b6a7a89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985214"
 ---
 # <a name="minimal-dxcore-application"></a>Приложение DXCore с минимальным набором функций
 
@@ -18,7 +18,7 @@ ms.locfileid: "105719142"
 
 ## <a name="full-source-code-listing-of-a-minimal-dxcore-application"></a>Полный листинг исходного кода для минимального Дкскоре приложения
 
-Если вы хотите создать и запустить этот пример исходного кода, сначала в Visual Studio создайте новый проект **консольное приложение Windows (C++/WinRT)** . Затем измените `pch.h` и, `main.cpp` чтобы увидеть подобные вхождения.
+если вы хотите создать и запустить этот пример исходного кода, сначала в Visual Studio создайте новый проект **Windows консольное приложение (C++/WinRT)** . Затем измените `pch.h` и, `main.cpp` чтобы увидеть подобные вхождения.
 
 В приведенном ниже примере кода используется [C++/WinRT](/windows/uwp/cpp-and-winrt-apis). Однако, чтобы обеспечить прозрачность использования API-интерфейсов, она не использует [функцию WinRT:: com_ptr:: Capture](/uwp/cpp-ref-for-winrt/com-ptr#com_ptrcapture-function).
 
@@ -276,7 +276,7 @@ int main()
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Перечисление адаптеров с использованием DXCore](dxcore-enum-adapters.md)
 * [Справочник по Дкскоре](./dxcore-reference.md)

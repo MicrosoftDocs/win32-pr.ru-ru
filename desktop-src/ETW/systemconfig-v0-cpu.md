@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: de3b63def40cb6ead40f6f4c95625603cfc581ee
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d533eb06aca34ffdb5996bb0c08c7d40645042e7ccab7645cfd3a04adf0db2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069664"
 ---
 # <a name="systemconfig_v0_cpu-class"></a>\_ \_ Класс ЦП системконфиг v0
 
@@ -92,7 +92,7 @@ class SystemConfig_V0_CPU : SystemConfig_V0
 
 </dd> <dt>
 
-**Имя_домена**
+**DomainName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: массив **Char16**
@@ -172,14 +172,14 @@ class SystemConfig_V0_CPU : SystemConfig_V0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

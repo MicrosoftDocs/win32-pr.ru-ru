@@ -4,12 +4,12 @@ ms.assetid: a4fe3958-c4b9-4989-b3b9-395464ba1cc2
 title: Прокси-сервер System. Image. Ресолутионунит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c05a0c965503806144564e6e822b3f2d9b48724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2495a8c2ae759fbdce7bf5f534c0b2aa81c79b7879fb36c3cd6670ca4c1afb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964863"
 ---
 # <a name="systemimageresolutionunit-proxy"></a>Прокси-сервер System. Image. Ресолутионунит
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 2b8d95ec-2c6c-4bd8-83e9-7f72770449b5
 title: Атрибут свапинпутс
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27e2f02c642283e90b994bcd1bfa9e05076a7bae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b74d16d9b195f504188f4684cf234a5b0c7627274c6e74d57e6824df20a0c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951713"
 ---
 # <a name="swapinputs-attribute"></a>Атрибут свапинпутс
 
@@ -18,21 +18,21 @@ ms.locfileid: "104349065"
 
  
 
-`swapinputs`Атрибут указывает, следует ли поменять входные данные перехода. Если значение равно **true**, входные данные меняются местами. Значение по умолчанию — **false**.
+`swapinputs`Атрибут указывает, следует ли поменять входные данные перехода. Если значение равно **true**, входные данные меняются местами. Значение по умолчанию — **FALSE**.
 
 ## <a name="possible-values"></a>Возможные значения
 
 Следующие значения определены как TRUE: y, Y, t, T, 1. Следующие значения определены как FALSE: n, N, f, F, 0 (ноль).
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
-[**режима**](transition-element.md)
+[**Переход**](transition-element.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию переход продолжается от составного набора всех уровней с низким приоритетом до слоя, на котором находится переход. Если значение `swapinputs` атрибута равно 1, это направление изменяется на противоположное. Дополнительные сведения о модели многоуровневого слоя, используемой DES, см. [в разделе Модель временной шкалы](the-timeline-model.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

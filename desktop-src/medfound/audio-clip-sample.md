@@ -4,12 +4,12 @@ ms.assetid: 29822e6b-8598-4133-b181-7fb0854553b7
 title: Пример аудиоклипа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c0e4a3e515d08e2cafd2ab2ba451a528f3d5677
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f180dfb7c4b0e456f45169d36fdfb1f77701b0e82250690706208a715fdd3ce5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035492"
 ---
 # <a name="audio-clip-sample"></a>Пример аудиоклипа
 
@@ -34,7 +34,7 @@ audioclip.exe inputfile outputfile.wav
 -   inputFile: имя файла, содержащего аудиопоток.
 -   выходной_файл. WAV: Имя записываемого файла звукозаписи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -48,9 +48,9 @@ audioclip.exe inputfile outputfile.wav
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/AudioClip).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

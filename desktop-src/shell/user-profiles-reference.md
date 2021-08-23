@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d5d4c4f585eda66674059f402dbd73f106a3e4f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b064eefae4916576cb8ccc6b3dfe058ea4e2e34f960315b74d384194f61ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967839"
 ---
 # <a name="user-profiles-reference"></a>Справочник по профилям пользователей
 
@@ -27,7 +27,7 @@ ms.locfileid: "104986016"
 | Компонент                                                                   | Описание                                                                                                   |
 |----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [**креатинвиронментблокк**](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock)                   | Извлекает переменные среды для указанного пользователя.                                                   |
-| [**креатепрофиле**](/windows/desktop/api/Userenv/nf-userenv-createprofile)                                     | Создает новый профиль пользователя. (Только для Windows Vista и более поздних версий.)                                                   |
+| [**креатепрофиле**](/windows/desktop/api/Userenv/nf-userenv-createprofile)                                     | Создает новый профиль пользователя. (только Windows Vista и более поздних версий.)                                                   |
 | [**делетепрофиле**](/windows/desktop/api/Userenv/nf-userenv-deleteprofilea)                                     | Удаляет профиль пользователя и все параметры, связанные с пользователем, с указанного компьютера.                           |
 | [**дестройенвиронментблокк**](/windows/desktop/api/Userenv/nf-userenv-destroyenvironmentblock)                 | Освобождает переменные среды, созданные функцией [**креатинвиронментблокк**](/windows/desktop/api/Userenv/nf-userenv-createenvironmentblock) . |
 | [**експанденвиронментстрингсфорусер**](/windows/desktop/api/Userenv/nf-userenv-expandenvironmentstringsforusera) | Развертывает исходную строку с помощью блока среды, установленного для указанного пользователя.                  |

@@ -4,12 +4,12 @@ ms.assetid: a0d89989-9b98-42fb-8d87-206581e3c91e
 title: Преобразование цветов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c769a24c02e977c3e32ff913852d4b6b8d54441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 608a0653423d854e6d77bd624949f24ec03cce6c4ed063d4c740dd142b1dfb3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036342"
 ---
 # <a name="translating-colors"></a>Преобразование цветов
 
@@ -71,7 +71,7 @@ graphics.DrawImage(
 
 
 
-| До преобразования           | Переведенный текст      |
+| Исходное значение           | Переведенный текст      |
 |--------------------|-----------------|
 | Черный (0, 0, 0, 1) | (0.75, 0, 0, 1) |
 | Красный (1, 0, 0, 1)   | (1, 0, 0, 1)    |

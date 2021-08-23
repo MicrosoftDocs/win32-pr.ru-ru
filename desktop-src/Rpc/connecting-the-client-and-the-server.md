@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, подключение клиента и сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a22ea7a9a6dd30f2b9495b6d2ee868aac217f0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f477802ffb4b72f33ce951bf811b1cb9b770a8272f646507dfaa450934569f32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931231"
 ---
 # <a name="connecting-the-client-and-the-server"></a>Подключение клиента и сервера
 
@@ -27,9 +27,9 @@ ms.locfileid: "104486857"
 
 Обратите внимание, что в обсуждении предполагается наличие явных дескрипторов привязки. Однако если приложение использует другие типы дескрипторов привязки, может потребоваться изменить шаги, описанные в этом разделе. Дополнительные сведения см. в разделе [Binding and Handles](binding-and-handles.md).
 
- 
+ 
 
- 
+ 
 
 
 

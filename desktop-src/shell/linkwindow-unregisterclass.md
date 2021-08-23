@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 604cea299156444a1fedf34a46c50b5b397a65da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05a50d5f3af72c31ee04a1a9e8264acb22327c38f79f765ce2ad7a740086747e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968943"
 ---
 # <a name="linkwindow_unregisterclass-function"></a>Линквиндов \_ унрегистеркласс, функция
 
-\[Эта функция доступна в Windows XP с пакетом обновления 2 (SP2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
+\[эта функция доступна в Windows XP с пакетом обновления 2 (sp2) и Windows Server 2003. Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Отменяет регистрацию класса окна, зарегистрированного с помощью [**линквиндов \_ registerClass**](linkwindow-registerclass.md).
 
@@ -45,7 +45,7 @@ BOOL LinkWindow_UnregisterClass(void);
 
 Возвращает **значение true** , если операция выполнена успешно; В противном случае — **значение false** .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанного заголовка или файла библиотеки, поэтому она должна вызываться по порядковому значению. Вызовите [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) с именем DLL Shell32.dll, чтобы получить маркер модуля. Затем вызовите [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) с этим обработчиком модуля и порядковым номером 259, чтобы использовать эту функцию.
 

@@ -4,16 +4,16 @@ ms.assetid: db6eabaa-1b84-4613-ab2a-8d5904305e08
 title: Объект плекса LUN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1b51657ccbfc0f1bd3d73e54128cac3f0b507c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df52b60bcbd23269d766435749b40b8c636361390359182a38a695ab6252a27f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118999446"
 ---
 # <a name="lun-plex-object"></a>Объект плекса LUN
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Объект плекса LUN моделирует Плекс LUN, содержащийся в LUN. Только зеркальный LUN может иметь несколько плексов; все остальные типы LUN имеют один плекс. Каждый плекс содержит копию данных на LUN. Новые плекса можно добавить в LUN, и, за исключением исходного плекса, существующие плексов можно удалить. VDS поддерживает четыре типа плексов LUN: простой, составной, чередующийся и чередующийся с четностью. Описание каждого из этих типов LUN см. в разделе [объект LUN](lun-object.md).
 
@@ -35,7 +35,7 @@ ms.locfileid: "105693654"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
