@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5f6eafbfe802afc8ff3084c49acf31addca66cef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8e984d1593fbbd79561bbb15fb27b62a9961c1830c42465ed529f08c374e180
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522333"
 ---
 # <a name="id3dxanimationsetgetperiod-method"></a>Метод ID3DXAnimationSet:: period
 
@@ -44,7 +44,7 @@ DOUBLE GetPeriod();
 
 Период набора анимации.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Период — это диапазон времени, в течение которого действуют ключевые кадры анимации. Для циклических анимаций это период цикла. Единицы времени, в которых указаны ключевые кадры (например, секунды), определяются приложением.
 
@@ -54,7 +54,7 @@ DOUBLE GetPeriod();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

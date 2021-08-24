@@ -47,7 +47,7 @@ ms.locfileid: "118412658"
 
 Это сообщение возвращает исходный цвет фона.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

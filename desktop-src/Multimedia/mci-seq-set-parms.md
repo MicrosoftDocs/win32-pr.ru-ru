@@ -3,7 +3,7 @@ title: Структура MCI_SEQ_SET_PARMS (МЦиапи. h)
 description: Структура MCI \_ Seq \_ Set \_ пармс содержит сведения о \_ команде MCI Set для устройств MIDI Sequencer.
 ms.assetid: 71638a92-c1d6-474b-bc97-ea63ca586aaa
 keywords:
-- MCI_SEQ_SET_PARMS структура мультимедиа Windows
+- структура MCI_SEQ_SET_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 879dd575918a33676e3ba73bd2a8f6212e3dc412
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffb96cfd2f652bf989673bad68c95c6765034d2105fa554efee057faf099a9c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374972"
 ---
 # <a name="mci_seq_set_parms-structure"></a>\_Структура MCI Seq \_ Set \_ пармс
 
@@ -103,7 +103,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

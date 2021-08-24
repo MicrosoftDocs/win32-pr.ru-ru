@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 85e81d3a1924a7b117a003f410aff14361baf466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ac9089c67f5d331a06feaa54e30f5762c97c31a17dea5b983447995abfe682a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487974"
 ---
 # <a name="floatcolumnvalue-constructor"></a>Конструктор Флоатколумнвалуе
 
@@ -50,7 +50,7 @@ Dim instance As New FloatColumnValue()
 public FloatColumnValue()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

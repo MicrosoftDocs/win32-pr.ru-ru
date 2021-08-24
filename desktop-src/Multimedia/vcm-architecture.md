@@ -3,16 +3,16 @@ title: Архитектура ВКМ
 description: Архитектура ВКМ
 ms.assetid: cb0b036d-b8b1-4611-965f-08f932dbddb7
 keywords:
-- Видео для Windows (VFW), архитектура ВКМ
-- VFW (видео для Windows), архитектура ВКМ
+- видео для Windows (VFW), архитектура вкм
+- VFW (видео для Windows), архитектура вкм
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b672c86053086f63127aae586517fac4906326
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7676fe7786b8674ddca957a75c33336294b65a9df18d53fe4b9c7f493092b66f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135602"
 ---
 # <a name="vcm-architecture"></a>Архитектура ВКМ
 
@@ -22,9 +22,9 @@ ms.locfileid: "104331056"
 
 Если макрос определен для сообщения, макрос разворачивается в вызове функции **иксендмессаже** , предоставляющей соответствующие параметры для этого сообщения. Если макрос определен для сообщения, приложение должно использовать его, а не сообщение. В этом обзоре эти макросы следуют сообщениям в круглых скобках.
 
- 
+ 
 
- 
+ 
 
 
 

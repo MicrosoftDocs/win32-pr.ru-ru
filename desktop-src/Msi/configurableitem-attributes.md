@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: c381ce3d1bf07c03ff4bdcb687cca239ec715b17
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba591ab8565390514e8fe6f8f7d5182184d1372b824d5262f87bd9ad4b412035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144192"
 ---
 # <a name="configurableitemattributes-property"></a>Конфигураблеитем. Attributes, свойство
 
@@ -42,14 +42,14 @@ propVal = ConfigurableItem.Attributes
 
 См. раздел [**Get \_ Attributes**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableitem-get_attributes) Function.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Версия<br/> | Mergemod.dll 2,0 или более поздней версии<br/>                                                    |
-| Header<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Мержемод. h</dt> </dl>   |
 | DLL<br/>     | <dl> <dt>Mergemod.dll</dt> </dl> |
 
 

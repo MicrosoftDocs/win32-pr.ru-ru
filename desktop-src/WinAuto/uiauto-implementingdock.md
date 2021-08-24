@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, IDockProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87381669889ca7dd33811a030a718448f4b79cb5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: adb0afd6a291a9e26c43d1aff957c7b7e9cd8c752040a661551b8eaf5b12b86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115107"
 ---
 # <a name="dock-control-pattern"></a>Шаблон элемента управления Dock
 
@@ -34,7 +34,7 @@ ms.locfileid: "103888227"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **IDockProvider**](#required-members-for-idockprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -58,11 +58,11 @@ ms.locfileid: "103888227"
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -75,9 +75,9 @@ ms.locfileid: "103888227"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

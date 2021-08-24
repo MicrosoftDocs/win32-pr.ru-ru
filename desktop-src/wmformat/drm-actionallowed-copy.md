@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea4a890ae03d3adf3b28bb2dce03e2eac5578abe
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 437dba087a336322fe1574112dce0b6b5805d05778613924f577c16343d33604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105700806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704785"
 ---
 # <a name="drm_actionallowed_copy"></a>\_Актионалловед \_ Copy DRM
 
@@ -31,9 +31,9 @@ g \_ всзвмдрм \_ актионалловед \_ Copy
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-В Windows Media DRM 10 все операции копирования ограничены с помощью действия копирования.
+в Windows Media DRM 10 все операции копирования ограничены с помощью действия копирования.
 
 Это свойство только для чтения, которое извлекается с помощью [**ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -44,9 +44,9 @@ g \_ всзвмдрм \_ актионалловед \_ Copy
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8f31d7b2659eeaa003c1a0d15103e94ad1a5c89
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ca7c2f3566ca55dd82bc86cfbc7aa141eec629a47258f89662eef3d347ee5408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960706"
 ---
 # <a name="propsetflag-constants"></a>Константы ПРОПСЕТФЛАГ
 
@@ -39,7 +39,7 @@ ms.locfileid: "103988707"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти значения можно установить и проверить с помощью побитовых операций, которые определяют, как создаются и открываются наборы свойств. Наборы свойств создаются с помощью метода [**IPropertySetStorage:: Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) или функции [**стгкреатепропстг**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatepropstg) . Они открываются с помощью метода [**IPropertySetStorage:: Open**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-open) или функции [**стгопенпропстг**](/windows/desktop/api/coml2api/nf-coml2api-stgopenpropstg) .
 
@@ -57,7 +57,7 @@ ms.locfileid: "103988707"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -83,7 +83,7 @@ void WINAPI glMultMatrixd(
 
 **глжет** с аргументом \_ \_ Матрица текстуры GL
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

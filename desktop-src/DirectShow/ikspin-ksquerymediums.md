@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: f037317b49bc54f5ea9db5b7a4ae039ec0a9970d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33edb7cb2ca959080878f7ce735930ceec9d95dc2f829aef6d50f72d764f2f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398940"
 ---
 # <a name="ikspinksquerymediums-method"></a>Метод Икспин:: Кскуеримедиумс
 
@@ -51,7 +51,7 @@ HRESULT KsQueryMediums(
 
 Если метод завершается успешно, возвращается значение S \_ ОК. В случае сбоя возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает выделенную задачей структуру [**\_ элемента ксмултипле**](ksmultiple-item.md) , за которой следует ноль или более структур [**регпинмедиум**](/windows/desktop/api/strmif/ns-strmif-regpinmedium) . Элемент **Count** в структуре **\_ элемента Ксмултипле** указывает количество структур **регпинмедиум** . Каждая структура **регпинмедиум** определяет средний уровень, поддерживаемый ПИН-кодом.
 

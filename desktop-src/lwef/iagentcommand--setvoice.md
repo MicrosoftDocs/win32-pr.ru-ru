@@ -4,16 +4,16 @@ description: Иаженткомманд Сетвоице
 ms.assetid: bee06616-26bf-4e1e-89da-6765dd77fb02
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36bed7e86cb93824fc26c770c1d01336077fda39
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e45af753dea18e9fda7b613e3b800ac886d949eb6494fd969cd8b7ceb488dfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105700859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477244"
 ---
 # <a name="iagentcommandsetvoice"></a>Иаженткомманд:: Сетвоице
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetVoice(
@@ -80,13 +80,13 @@ HRESULT SetVoice(
 > [!Note]  
 > Доступные функции грамматики могут зависеть от модуля распознавания речи. Чтобы определить, какие параметры грамматики поддерживаются, вы можете узнать у поставщика подсистемы. Чтобы указать подсистему, используйте [**иажентчарактерекс:: срмодеид**](https://www.bing.com/search?q=**IAgentCharacterEx::SRModeID**) .
 
- 
+ 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткомманд:: Voice**](iagentcommand--getvoice.md), [**Иаженткомманд:: сеткаптион**](iagentcommand--setcaption.md), [**иаженткомманд:: Сетенаблед**](iagentcommand--setenabled.md), [**иаженткоммандс:: Add**](iagentcommands--add.md), [**иаженткоммандс:: INSERT**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

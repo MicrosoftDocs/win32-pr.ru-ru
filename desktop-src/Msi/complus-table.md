@@ -4,12 +4,12 @@ ms.assetid: 0c9a7469-5959-45ad-b84d-6cfd3e169ff6
 title: Таблица ComPlus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a2ad5b7b96044025b78bfc774ee0767c2756aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f77885688226689e5d81e074b1a9a28ef3801aaeba5febf51165377ac9ad9e65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118144975"
 ---
 # <a name="complus-table"></a>Таблица ComPlus
 
@@ -21,8 +21,8 @@ ms.locfileid: "105651138"
 
 | Столбец      | Type                         | Ключ | Допускает значения NULL |
 |-------------|------------------------------|-----|----------|
-| Компонент\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| експтипе     | [Integer](integer.md)       | Нет   | Да        |
+| Компонент\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| експтипе     | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -42,15 +42,15 @@ ms.locfileid: "105651138"
 <span id="ExpType"></span><span id="exptype"></span><span id="EXPTYPE"></span>експтипе
 </dt> <dd>
 
-Флаги экспорта, используемые при создании MSI файла. Дополнительные сведения см. в документации по COM+ в пакете средств разработки программного обеспечения (SDK) для Microsoft Windows.
+Флаги экспорта, используемые при создании файла .msi. дополнительные сведения см. в документации по COM+ в пакете Microsoft Windows Software Development Kit (SDK).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 См. действие [регистеркомплус](registercomplus-action.md) и [действие унрегистеркомплус](unregistercomplus-action.md).
 
-См. раздел [Установка приложения COM+ с установщик Windows](installing-a-com--application-with-the-windows-installer.md).
+см. раздел [установка приложения COM+ с установщик Windows](installing-a-com--application-with-the-windows-installer.md).
 
 ## <a name="validation"></a>Проверка
 

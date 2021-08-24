@@ -106,7 +106,7 @@ ms.locfileid: "118544889"
 
 Сервер не может заблокировать этот тип транзакции; код **возврата \_ блока CBR** игнорируется.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -122,7 +122,7 @@ ms.locfileid: "118544889"
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**ддекреатедатахандле**](/windows/desktop/api/Ddeml/nf-ddeml-ddecreatedatahandle)

@@ -25,7 +25,7 @@ ms.locfileid: "118403990"
 
 **КОДЕКАПИ \_ авенкаудиоинтервалтоенкоде**
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

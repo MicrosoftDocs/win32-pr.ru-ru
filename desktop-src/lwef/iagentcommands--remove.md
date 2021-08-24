@@ -4,16 +4,16 @@ description: Иаженткоммандс удалить
 ms.assetid: 1f41aa2d-e50b-48a8-87fc-fda4730b035a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0c3321de3d06b5e2ebea873a4bace91482d8c5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5875d1377aecc7e28554bac6aae1ccb2b4f515f730a6ab1b0b3a83cec7573418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104260603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477197"
 ---
 # <a name="iagentcommandsremove"></a>Иаженткоммандс:: Remove
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Remove(
@@ -36,11 +36,11 @@ HRESULT Remove(
 
 При удалении [**команды**](/windows/desktop/lwef/the-command-object) из коллекции [**команд**](/windows/desktop/lwef/the-commands-collection-object) она также удаляется из всплывающего меню и из окна " **голосовые команды** ", если приложение является входным.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандс:: Add**](iagentcommands--add.md), [**Иаженткоммандс:: INSERT**](iagentcommands--insert.md), [**иаженткоммандс:: RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 

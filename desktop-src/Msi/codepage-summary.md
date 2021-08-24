@@ -4,28 +4,28 @@ ms.assetid: eea6cb12-7ec9-4ea4-b2b2-9c812dc4b4d9
 title: Свойство сводки кодовой страницы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b83b60bb6aaabadb2ee0dcd201000ea32eccef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01f9f33a0ba1a6423fc91a8cf5ae1ec7988ec537b5b20071ddb7534ad0655cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145593"
 ---
 # <a name="codepage-summary-property"></a>Свойство сводки кодовой страницы
 
 Свойство **Сводка codepage** — это числовое значение кодовой страницы ANSI, используемой для всех строк, хранящихся в сводных данных. Обратите внимание, что это не та же кодовая страница для строк в базе данных установки. Свойство **сводки кодовой страницы** используется для преобразования строк в сводных данных в Юникод при вызове функций API Юникода. Свойство **сводки кодовой страницы** должно быть установлено до того, как в сводных данных будут заданы все свойства строки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

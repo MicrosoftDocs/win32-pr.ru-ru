@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: afec32f0e0fc66ccd5a1d78cc9769b0e742f1e6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7719392794027567521ce3e9c1bd1caf8ecbf76110f76ad0e54e0dd6549aae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366629"
 ---
 # <a name="getframedestaddress-function"></a>Функция Жетфрамедестаддресс
 
@@ -98,11 +98,11 @@ DWORD WINAPI GetFrameDestAddress(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Допустимый тип адреса — " **\_ \_ Поиск \_ наибольшего** адреса". При использовании этого типа адреса функция ищет IP-адрес IPX, КСНС, IP или VINEs перед возвратом адреса ETHERNET, ТОКЕНРИНГ или FDDI. Этот подход полезен для протоколов и в средах, где два сетевых адаптера могут быть мультиплексированы по одному адресу сервера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

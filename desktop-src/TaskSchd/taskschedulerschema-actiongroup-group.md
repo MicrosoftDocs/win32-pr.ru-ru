@@ -61,7 +61,7 @@ ms.locfileid: "118357185"
 
 При чтении или записи XML элементы, определенные этой группой, являются дочерними элементами элемента [**Actions**](taskschedulerschema-actions-tasktype-element.md) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

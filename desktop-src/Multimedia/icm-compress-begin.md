@@ -3,7 +3,7 @@ title: Сообщение ICM_COMPRESS_BEGIN (VFW. h)
 description: '\_ \_ Сообщение о начале сжатия ICM уведомляет драйвер сжатия видео о подготовке к сжатию данных. Это сообщение можно отправить явно или с помощью макроса Иккомпрессбегин.'
 ms.assetid: dd1d3a66-c625-4f55-b65a-8545c1c16301
 keywords:
-- ICM_COMPRESS_BEGIN сообщения Windows мультимедиа
+- сообщение ICM_COMPRESS_BEGIN Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e358aa3ab589af0be1e4e490c141ed41baeb5874
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33a6ee9c080e2dfc7a779abd4ae2a788bbe136ddcab1ef529714639065553ad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140952"
 ---
 # <a name="icm_compress_begin-message"></a>\_ \_ Сообщение начала сжатия ICM
 
@@ -56,13 +56,13 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 
 Возвращает ИЦЕРР \_ ОК, если драйвер поддерживает указанное сжатие или ицерр \_ бадформат, если формат входных или выходных данных не поддерживается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Драйвер должен выделять и инициализировать любые таблицы или память, необходимые для сжатия форматов данных при получении сообщения [**\_ сжатия ICM**](icm-compress.md) .
 
 ВКМ сохраняет параметры последнего сообщения о **\_ \_ начале сжатия ICM** . Сообщения **о \_ начале сжатия ICM \_ Begin** и [**ICM \_ сжимать \_**](icm-compress-end.md) не вложены. Если драйвер получает коэффициент **\_ сжатия ICM \_** , прежде чем сжатие будет остановлено с **\_ \_ окончанием сжатия ICM**, необходимо перезапустить сжатие с новыми параметрами.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

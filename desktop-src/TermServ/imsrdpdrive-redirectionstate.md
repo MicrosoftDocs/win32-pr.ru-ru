@@ -69,7 +69,7 @@ HRESULT get_RedirectionState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

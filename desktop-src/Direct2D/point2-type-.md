@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f614f49077ed198c5e85d17b9ee3c84a5e300670
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d925cc5676e6f0c9a8fb27a3ba2a12591ee87a5a72d5937e365fa57179e47ce1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160380"
 ---
 # <a name="point2type-function"></a><Type>Функция Point2
 
@@ -52,7 +52,7 @@ typename TypeTraits<Type>::Point Point2(
 | Параметр | Описание                    |
 |-----------|--------------------------------|
 | x         | Координата X точки. |
-| да         | Координата Y точки. |
+| y         | Координата Y точки. |
 
 
 
@@ -62,16 +62,16 @@ typename TypeTraits<Type>::Point Point2(
 
 Точка, которая содержит заданную координату x и y.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\]<br/> |
+| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>D2d1helper. h</dt> </dl>                                                  |
+| Заголовок<br/>                   | <dl> <dt>D2d1helper. h</dt> </dl>                                                  |
 | Библиотека<br/>                  | <dl> <dt>D2d1. lib</dt> </dl>                                                      |
 | DLL<br/>                      | <dl> <dt>D2d1.dll</dt> </dl>                                                      |
 

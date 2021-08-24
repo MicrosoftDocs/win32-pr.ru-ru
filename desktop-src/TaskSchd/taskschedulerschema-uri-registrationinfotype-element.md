@@ -49,7 +49,7 @@ ms.locfileid: "118355607"
 
 Для разработки на C++ URI задачи указывается с помощью свойства [**ирегистратионинфо:: URI**](/windows/desktop/api/taskschd/nf-taskschd-iregistrationinfo-get_uri) .
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

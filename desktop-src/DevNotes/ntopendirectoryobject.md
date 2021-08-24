@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: ceea03c36e0617e2f48887275e7867e3589c87ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddfe43bab114af968de76673f08f2e301f775e2e7475e7b17a2e08004ef50dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003795"
 ---
 # <a name="ntopendirectoryobject-function"></a>Функция Нтопендиректорйобжект
 
@@ -97,7 +97,7 @@ NTSTATUS WINAPI NtOpenDirectoryObject(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
@@ -111,7 +111,7 @@ NTSTATUS WINAPI NtOpenDirectoryObject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,26 +4,26 @@ description: В этом разделе показано, как использ�
 ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19146d838474046fd634cb5524ddf2367fd1d6c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4c6020b29be3771575919ccb0200718e8e608afded584471625cfa922aee8da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160370"
 ---
 # <a name="how-to-save-direct2d-content-to-an-image-file"></a>Сохранение содержимого Direct2D в файл изображения
 
-В этом разделе показано, как использовать [**ивиЦимажеенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) для сохранения содержимого в виде [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) в закодированный файл изображения, например JPEG. При создании приложения для Магазина Windows пользователь может выбрать файл назначения с помощью [**Windows:: Storage::P иккерс:: филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker).
+В этом разделе показано, как использовать [**ивиЦимажеенкодер**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) для сохранения содержимого в виде [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) в закодированный файл изображения, например JPEG. при создании приложения для магазина Windows пользователь может выбрать файл назначения с помощью [**Windows:: служба хранилища::P иккерс:: филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Direct2D](./direct2d-portal.md)
 -   [Эффекты Direct2D](effects-overview.md)
--   [**Windows:: Storage::P иккерс:: Филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
+-   [**Windows:: служба хранилища::P иккерс:: филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Необходим объект [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) и объект, содержащий [Direct2D](./direct2d-portal.md) содержимое, которое реализует [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) , например [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) или [**ID2D1Bitmap1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1bitmap1).
 
@@ -33,7 +33,7 @@ ms.locfileid: "103890737"
 
 Если вы хотите разрешить пользователю выбирать файл назначения, можно использовать [**филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker), открыть возвращенный файл и получить [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) для использования с WIC.
 
-Создайте элемент [**Windows:: Storage::P иккерс:: филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) и задайте его параметры для файлов изображений. Вызовите метод [**пикксавефилеасинк**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) .
+создайте [**Windows:: служба хранилища::P иккерс:: филесавепиккер**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) и задайте его параметры для файлов изображений. Вызовите метод [**пикксавефилеасинк**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) .
 
 
 ```C++
@@ -81,7 +81,7 @@ ms.locfileid: "103890737"
 
 
 
-Наконец, используйте метод [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) для преобразования файлового потока. Среда выполнения Windows API представляют потоки с помощью [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), а WIC использует [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
+Наконец, используйте метод [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) для преобразования файлового потока. Windows API среды выполнения представляют потоки с помощью [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), тогда как WIC использует [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 
 ```C++
@@ -96,7 +96,7 @@ ms.locfileid: "103890737"
 > [!Note]  
 > Чтобы использовать функцию [**креатестреамоверрандомакцессстреам**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) , в проекте необходимо включить **шкоре. h** .
 
- 
+ 
 
 ### <a name="step-2-get-the-wic-bitmap-and-frame-encoder"></a>Шаг 2. получение битовой карты WIC и кодировщика кадров
 
@@ -194,7 +194,7 @@ DX::ThrowIfFailed(
 > [!Note]  
 > Параметр [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) должен быть создан на [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) , который был передан в [**IWICImagingFactory2:: креатеимажеенкодер**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
 
- 
+ 
 
 Зафиксируйте ресурсы WIC и Stream, чтобы завершить операцию.
 
@@ -219,7 +219,7 @@ DX::ThrowIfFailed(
 > [!Note]  
 > Некоторые реализации [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) не реализуют метод [**commit**](/windows/desktop/api/objidl/nf-objidl-istream-commit) и возвращают **E \_ нотимпл**.
 
- 
+ 
 
 Теперь у вас есть файл, содержащий образ [Direct2D](./direct2d-portal.md) .
 
@@ -365,6 +365,6 @@ void SaveAsImageFile::SaveBitmapToStream(
 
 
 
- 
+ 
 
- 
+ 

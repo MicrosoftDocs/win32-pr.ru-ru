@@ -5,22 +5,22 @@ ms.assetid: 3aa64aa1-c707-489f-a0a3-08bf6ac151ec
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf033550c2a2da66b7eab05f23289ba988690e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3685ad95b5e339853be947170bb0a8681a376d8d2f34368534d02b3b0cbdf4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183659"
 ---
 # <a name="security-providers"></a>Поставщики безопасности
 
 Интерфейс поставщика поддержки безопасности (SSPI) обеспечивает взаимную проверку подлинности и предоставляется напрямую через интерфейсы API и службы SSPI, включенные на уровне SSPI, включая RPC.
 
-Не все пакеты безопасности, доступные для SSPI, поддерживают взаимную проверку подлинности. Чтобы получить взаимную проверку подлинности, приложение должно запросить взаимную проверку подлинности и пакет безопасности, который его поддерживает. Например, пример кода для [взаимной проверки подлинности в службе сокетов Windows с SCP](mutual-authentication-in-a-windows-sockets-service-with-an-scp.md) использует пакет "Negotiate" в Secur32.dll, который входит в состав Windows 2000.
+Не все пакеты безопасности, доступные для SSPI, поддерживают взаимную проверку подлинности. Чтобы получить взаимную проверку подлинности, приложение должно запросить взаимную проверку подлинности и пакет безопасности, который его поддерживает. например, пример кода для [взаимной проверки подлинности в службе Windows sockets с SCP](mutual-authentication-in-a-windows-sockets-service-with-an-scp.md) использует пакет negotiate в Secur32.dll, который входит в состав Windows 2000.
 
- 
+ 
 
- 
+ 
 
 
 

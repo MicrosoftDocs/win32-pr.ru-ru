@@ -394,7 +394,7 @@ class Win32_TSDeploymentSettings : CIM_LogicalElement
 
 </dd> <dt>
 
-**порт**.
+**Порт**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Sint32**

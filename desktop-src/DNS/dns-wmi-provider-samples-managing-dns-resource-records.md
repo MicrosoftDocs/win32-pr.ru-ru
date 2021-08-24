@@ -4,12 +4,12 @@ description: Примеры поставщика WMI для DNS — управл
 ms.assetid: 4b038c74-eec8-459c-9e3f-3be2a244d313
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b6494168ef6a5ee4aa035879468e2c1a92d4e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 089cf567452666db54ad0e0d784b2bf3b2566e0e986ba94a9e9d498a387468c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163843"
 ---
 # <a name="dns-wmi-provider-samplesmanaging-dns-resource-records"></a>Примеры поставщика WMI для DNS — управление записями ресурсов DNS
 
@@ -19,7 +19,7 @@ ms.locfileid: "103986404"
 -   [Добавление записи ресурса](#add-a-resource-record)
 -   [Удаление записи ресурса](#delete-a-resource-record)
 -   [Изменение записи ресурса](#modify-a-resource-record)
--   [Подключение к поставщику WMI DNS](#connect-to-the-dns-wmi-provider)
+-   [Подключение поставщику WMI DNS](#connect-to-the-dns-wmi-provider)
 
 Общая реализация сценария выглядит следующим образом:
 
@@ -5183,7 +5183,7 @@ End Function
 
 
 
-## <a name="connect-to-the-dns-wmi-provider"></a>Подключение к поставщику WMI DNS
+## <a name="connect-to-the-dns-wmi-provider"></a>Подключение поставщику WMI DNS
 
 В этом примере кода показаны задачи, связанные с подключением к поставщику WMI для DNS.
 
@@ -5417,9 +5417,9 @@ End Function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

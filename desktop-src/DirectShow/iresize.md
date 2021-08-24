@@ -1,5 +1,5 @@
 ---
-description: 'Интерфейс Иресизе должен поддерживаться любым настраиваемым фильтром изменения размеров видео для служб редактирования DirectShow (DES). Чтобы задать настраиваемый фильтр изменения размера, вызовите метод IRenderEngine2:: Сетресизергуид в подсистеме визуализации.'
+description: 'интерфейс иресизе должен поддерживаться любым настраиваемым фильтром изменения размеров видео для служб DirectShow editing Services (DES). Чтобы задать настраиваемый фильтр изменения размера, вызовите метод IRenderEngine2:: Сетресизергуид в подсистеме визуализации.'
 ms.assetid: 4740dbff-0881-45e8-b382-98ed9d055403
 title: Интерфейс Иресизе (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 1b9684ed6f2d2901159dde5a79bb4563ca0b2bda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 19aabd7c04cb5350ef3da87e1a20db6b75f6546f0fbcf5af3422c152bcafcf5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818073"
 ---
 # <a name="iresize-interface"></a>Интерфейс Иресизе
 
@@ -28,7 +28,7 @@ ms.locfileid: "105674973"
 
  
 
-`IResize`Интерфейс должен поддерживаться любым настраиваемым фильтром изменения размеров видео для служб редактирования DirectShow (DES). Чтобы задать настраиваемый фильтр изменения размера, вызовите метод [**IRenderEngine2:: сетресизергуид**](irenderengine2-setresizerguid.md) в подсистеме визуализации.
+`IResize`интерфейс должен поддерживаться любым настраиваемым фильтром изменения размеров видео для служб DirectShow editing Services (DES). Чтобы задать настраиваемый фильтр изменения размера, вызовите метод [**IRenderEngine2:: сетресизергуид**](irenderengine2-setresizerguid.md) в подсистеме визуализации.
 
 ## <a name="members"></a>Элементы
 
@@ -54,7 +54,7 @@ ms.locfileid: "105674973"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -62,7 +62,7 @@ ms.locfileid: "105674973"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 

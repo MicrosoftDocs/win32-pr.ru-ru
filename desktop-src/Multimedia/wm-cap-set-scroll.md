@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SET_SCROLL (VFW. h)
 description: '\_Сообщение SCROLL Set с закреплением WM \_ \_ определяет часть видеокадра, отображаемую в окне Capture (захват).'
 ms.assetid: 545605e4-6b1f-403a-a3ab-0fd6750ae776
 keywords:
-- WM_CAP_SET_SCROLL сообщения Windows мультимедиа
+- сообщение WM_CAP_SET_SCROLL Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 812b76bdcad166b9f766957032f232293d4083c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 352d65c2ad8e80622f7ff50cca0a8f7d6e523d53ae002a2325327a634b97c931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118134988"
 ---
 # <a name="wm_cap_set_scroll-message"></a>\_ \_ \_ Сообщение прокрутки установки крепления WM
 
@@ -49,11 +49,11 @@ lParam = (LPARAM) (LPPOINT) (lpP);
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расположение прокрутки влияет на изображение в режимах предварительного просмотра и наложения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ lParam = (LPARAM) (LPPOINT) (lpP);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

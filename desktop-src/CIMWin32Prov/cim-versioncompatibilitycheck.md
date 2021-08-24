@@ -809,7 +809,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -852,7 +852,7 @@ Mac OS 9
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

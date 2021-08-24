@@ -6,12 +6,12 @@ keywords:
 - Флаги приоритета
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f4af04174ddb6c0ac459a6f7e6841e061b03c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c56f69d70ce381862fba19cb0f5c8093490b083afa3ece52109ea5a07e49deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117960814"
 ---
 # <a name="priority-flags"></a>Флаги приоритета
 
@@ -21,9 +21,9 @@ ms.locfileid: "104068657"
 
 Поскольку другие приложения не могут зафиксировать изменения в объекте, когда он открыт в режиме приоритета, приложения должны сохранить его в максимально короткие сроки.
 
- 
+ 
 
- 
+ 
 
 
 

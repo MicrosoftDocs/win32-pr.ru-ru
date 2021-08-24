@@ -3,7 +3,7 @@ title: Сообщение RB_GETRECT (Коммктрл. h)
 description: Извлекает ограничивающий прямоугольник для заданной полосы в элементе управления "Главная панель".
 ms.assetid: e272b090-1e4d-4cff-87f0-557ad8116e7e
 keywords:
-- Элементы управления Windows для RB_GETRECT сообщений
+- элементы управления Windows сообщений RB_GETRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b9d5de00b638a3767df461595ff01316b23183
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 43d2f085fa7c6f413700156999f1325879f91affc2c8984fb33d08cb6cc90b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104262200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169300"
 ---
 # <a name="rb_getrect-message"></a>\_Сообщение RB
 
@@ -47,15 +47,15 @@ ms.locfileid: "104262200"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

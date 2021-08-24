@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 1770447d1468d7a09990696f8d523458bd2d0e46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 50fc3d79ec113ff719884d1115b10ed82f14937ee326840d2a45d8013d0fabb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118002416"
 ---
 # <a name="render-targets-overview"></a>Общие сведения о целевых объектах рендеринга
 
@@ -147,6 +147,6 @@ HRESULT DemoApp::OnRender()
 
 В этом примере код пропущен.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 957cd369-bebf-4e04-9f7e-a936e2e97887
 title: Наследование в обработке
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd684308503a8747f6730e9d0daf4aa3de760186
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fa57908ab58e4e4891e80ea1a9fb2f122cd123520cb058a35db04dd69f73e30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958556"
 ---
 # <a name="handle-inheritance"></a>Наследование в обработке
 
@@ -26,10 +26,10 @@ ms.locfileid: "105664354"
 -   Коммуникационное устройство
 -   Входные данные консоли
 -   Буфер экрана консоли
--   Персональный компьютер
+-   Рабочий стол
 -   Каталог
 -   Событие
--   Файл
+-   File
 -   Сопоставление файлов
 -   Задание
 -   Ящик

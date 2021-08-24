@@ -10,12 +10,12 @@ keywords:
 - Справочник по вавефоре Audio, messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d397f7b046c01c93e090a14579c203e87caae73f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f670a2a5aff4c2754c2ae3d8fed846cb8ec71777d69ae125fe705f30e39ad3a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369864"
 ---
 # <a name="waveform-messages"></a>Сообщения волны
 
@@ -32,16 +32,16 @@ ms.locfileid: "104067566"
 -   [**ВОМ \_ Готово**](wom-done.md)
 -   [**ВОМ \_ Открыть**](wom-open.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по Waveform Audio](waveform-audio-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

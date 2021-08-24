@@ -10,12 +10,12 @@ keywords:
 - приемники, перечисление
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff35124a8c88108082544b270aa4d9813ff67ea9
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 4b51b46f3efdf95902b1ca5b359227da845292c4b0f23dbf0bd52039fba151cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103789169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029076"
 ---
 # <a name="enumerating-sinks"></a>Перечисление приемников
 
@@ -26,9 +26,9 @@ ms.locfileid: "103789169"
 > [!Note]  
 > При перечислении приемников файл по умолчанию, созданный в ответ на вызов [**ивмвритер:: сетаутпутфиленаме**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename) , будет перечислен вместе с другими добавленными приемниками. Если вы используете только приемник файлов по умолчанию, вы можете получить к нему доступ, вызвав метод **sink** для индекса приемника 0.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -38,9 +38,9 @@ ms.locfileid: "103789169"
 [**Работа с приемниками модуля записи**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
