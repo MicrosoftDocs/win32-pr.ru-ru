@@ -4,12 +4,12 @@ description: Недостатки
 ms.assetid: ce6885d9-7056-42bc-85d1-27ce32b1be5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a22e409414a1df60e2dd9dff3adbfc6000b953a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43b2b9d41a632c202a25c3383ffb2d1069505c0dc988651e9fc886cfeecca5bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501122"
 ---
 # <a name="disadvantages"></a>Недостатки
 
@@ -22,7 +22,7 @@ ms.locfileid: "104532390"
 
 Несмотря на эти недостатки, внутрипроцессный сервер может быть отличным выбором для его скорости и размера — если он соответствует всем другим требованиям.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -32,9 +32,9 @@ ms.locfileid: "104532390"
 [Внутрипроцессный сервер](in-process-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

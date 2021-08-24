@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3442d45328b10437111219ad36fc114a9aa15ad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6578b18e98c99b471097c98e9dd75de1cdce0c134635cad1fb17e32340eb1a9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428424"
 ---
 # <a name="iamtimelineobjfixtimes-method"></a>Метод Иамтимелинеобж:: Фикстимес
 
@@ -64,9 +64,9 @@ HRESULT FixTimes(
 
 Возвращает \_ ОК в случае успеха или E \_ нотинтри, если объект не является частью группы.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Во время подготовки к просмотру DES округляет время начала и окончания объекта до ближайшей границы фрейма. Однако DES не перезаписывает время объекта. При изменении частоты кадров группы округленные значения всегда вычисляются исходя из исходного времени. Дополнительные сведения см. [в разделе время в службах редактирования DirectShow](time-in-directshow-editing-services.md).
+Во время подготовки к просмотру DES округляет время начала и окончания объекта до ближайшей границы фрейма. Однако DES не перезаписывает время объекта. При изменении частоты кадров группы округленные значения всегда вычисляются исходя из исходного времени. дополнительные сведения см. [в разделе время в DirectShow редактирования служб](time-in-directshow-editing-services.md).
 
 Используйте этот метод, чтобы определить точное время начала и окончания работы в проекте, готовом для просмотра. Например, следует перейти к округленному времени, а не к исходному времени начала и окончания объекта. Вызовите [**иамтимелинеобж:: жетстартстоп**](iamtimelineobj-getstartstop.md) , чтобы получить исходное значение времени, и передайте эти значения в `FixTimes` .
 
@@ -76,17 +76,17 @@ HRESULT FixTimes(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

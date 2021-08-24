@@ -3,19 +3,19 @@ title: Пример раздела бегущей строки
 description: Пример раздела бегущей строки
 ms.assetid: 44ed3257-2e1a-4b8d-9d55-a13b0400422d
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, области
+- проигрыватель Windows Media Обложки для мобильных устройств, области
 - обложки, области
 - Справочник по обложкам, бегущим строки
 - области в обложках, раздел бегущей строки
 - файлы определения обложки, раздел бегущей строки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f66588d81b22051a9289a80c8733d5cfe154bed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 70f8a3e013bb3a09a06f03715f0e7c4914e8e8d344c55843a643d5b8a9bf0479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508124"
 ---
 # <a name="sample-marquee-section"></a>Пример раздела бегущей строки
 
@@ -36,16 +36,16 @@ ms.locfileid: "104486964"
 
 Это определяет поле отображения области выделения, которое показывает заголовок и автора, если определены оба значения, заголовок, если определено только название, или имя автора, если определен только автор. Если ни один из этих параметров не определен, ничего не отображается.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Marquee**](marquee.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

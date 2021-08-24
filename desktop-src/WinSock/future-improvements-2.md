@@ -4,12 +4,12 @@ ms.assetid: 317baa53-6bc8-42bd-8f56-480cab29ae6b
 title: Будущие улучшения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 938f38334a4bbe392e83efc0be12905fb7ae66a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 384d5a4f4ee9a4d6cb4a0f258d63262930dc5a6636be8d0e7f709b0e4f04e152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119132367"
 ---
 # <a name="future-improvements"></a>Будущие улучшения
 
@@ -20,7 +20,7 @@ ms.locfileid: "105701523"
 -   Можно вносить улучшения в протокол. Например, можно использовать битовую маску обновления, чтобы указать, какие ячейки должны быть обновлены, и только отправленные данные ячейки.
 -   Обновления могут быть перекрывающиеся с помощью разных потоков, чтобы сеть не проходила во время работы функции **компутенекст** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

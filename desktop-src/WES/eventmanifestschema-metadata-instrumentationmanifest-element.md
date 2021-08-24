@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c14dc8772dee66fcce9ff07e9918c11b463aa414
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eaa22cc13c611b90ace42a2a71517fe0771d6e9ed03d6d964f11a4e4c93cda43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136327"
 ---
 # <a name="metadata-instrumentationmanifest-element"></a>Элемент Metadata (Инструментатионманифест)
 
-Содержит глобальные значения, на которые можно ссылаться в других манифестах. Пример см. в файле Winmeta.xml, включенном в \\ папку Include Windows SDK.
+Содержит глобальные значения, на которые можно ссылаться в других манифестах. пример см. в файле Winmeta.xml, включенном в \\ папку Include Windows SDK.
 
 ``` syntax
 <xs:element name="metadata"
@@ -32,7 +32,7 @@ ms.locfileid: "104135166"
 
 Элемент **метаданных** определяется элементом [**инструментатионманифест**](eventmanifestschema-instrumentationmanifest-element.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Несмотря на то, что можно создать манифест, содержащий раздел метаданных, служба не будет использовать ее. единственными метаданными, распознаваемыми службой, являются метаданные, найденные в файле Winmeta.xml.
 
@@ -42,8 +42,8 @@ ms.locfileid: "104135166"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

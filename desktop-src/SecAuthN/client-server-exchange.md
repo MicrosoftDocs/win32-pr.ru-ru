@@ -1,17 +1,17 @@
 ---
-description: Обмен данными между клиентом и сервером
+description: Exchange клиента или сервера
 ms.assetid: 2449c4b3-720d-4b84-b3cf-fcc4abd05d33
-title: Обмен данными между клиентом и сервером
+title: Exchange клиента или сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6274705ef6719c846f0551f90fca8790ba89f2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2401d3cf2bb59586e608bc7566c13009869d2874a1532b659f70c6c4e09e4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141177"
 ---
-# <a name="clientserver-exchange"></a>Обмен данными между клиентом и сервером
+# <a name="clientserver-exchange"></a>Exchange клиента или сервера
 
 После того как пользователь получил билет на сервер, клиент рабочей станции может установить безопасный сеанс связи с этим сервером.
 

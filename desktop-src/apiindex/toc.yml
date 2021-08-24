@@ -1,9 +1,9 @@
 - name: Указатель API
   href: api-index-portal.md
   items:
-    - name: Список Windows API
+    - name: Windows Список API
       href: windows-api-list.md
-    - name: Наборы API Windows
+    - name: Windows Наборы API
       items:
         - name: Обзор
           href: windows-apisets.md
@@ -13,5 +13,5 @@
           href: detect-api-set-availability.md
         - name: Общие библиотеки Windows
           href: windows-umbrella-libraries.md
-    - name: 'Интерфейсы API WinRT, вызываемые из классического приложения'
+    - name: 'API-интерфейсы WinRT, вызываемые из классического приложения'
       href: uwp-apis-callable-from-a-classic-desktop-app.md

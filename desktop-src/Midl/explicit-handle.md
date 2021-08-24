@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4fa677f1bb5a3414e6cf6dc761b83414c2d68b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 13b50aa69c43e27b4797f6619b4efa14b90f16dd2b4bee45df2db6b708e58f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105650310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013922"
 ---
 # <a name="explicit_handle-attribute"></a>явный \_ атрибут Handle
 
@@ -44,7 +44,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании явного атрибута **\[ \_ Handle \]** каждая процедура имеет примитивный маркер в качестве первого параметра, даже если IDL-файл не содержит этот обработчик в списке параметров. Прототипы, передаваемые в файл заголовка и подпрограммы-заглушки, содержат дополнительный параметр, а этот параметр используется в качестве маркера для направления удаленного вызова.
 
@@ -67,7 +67,7 @@ interface iface
 };
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -83,9 +83,9 @@ interface iface
 [**/осф**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

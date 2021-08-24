@@ -4,12 +4,12 @@ ms.assetid: d3c176ba-8b4b-4b7c-a603-130dfa761898
 title: Сообщение LINE_SENDDIALOGINSTANCEDATA (Тспи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0af7ae5bfc942d4408ac5ce2438cd9a88c1f1f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b955d890c385894467fa0f8f3f93ec50856c746c72f0957ecbe33af203917bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140137"
 ---
 # <a name="line_senddialoginstancedata-message"></a>Строка \_ сообщения сенддиалогинстанцедата
 

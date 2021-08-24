@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: fa6e71d13f5a3d157bd3ce1035d0616dc1e5a519
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8be3f0f3f9aa59c2199c50b73b8a4d4488b0c9a65d3e0679b65350d6b8b07fd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128996"
 ---
 # <a name="comadmincatalog-class"></a>Класс Комадминкаталог
 
@@ -52,13 +52,13 @@ ms.locfileid: "104496464"
 
 Общие сведения о программном администрировании COM+ см. в разделе [Автоматизация администрирования com+](automating-com--administration.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать этот объект, вызовите [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов администрирования COM+. Объект Комадминкаталог можно объявить с помощью "Комадмин. Комадминкаталог" в качестве имени класса.
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов администрирования COM+. Объект Комадминкаталог можно объявить с помощью "Комадмин. Комадминкаталог" в качестве имени класса.
 
-В COM+ 1,5, выпущенном в Windows XP, класс **комадминкаталог** реализует интерфейс [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) . Однако в COM+ 1,0, выпущенном с Windows 2000, класс **комадминкаталог** реализует только интерфейс [**икомадминкаталог**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) .
+в COM+ 1,5, выпущенном с Windows XP, класс **комадминкаталог** реализует интерфейс [**ICOMAdminCatalog2**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog2) . однако в COM+ 1,0, выпущенном с Windows 2000, класс **комадминкаталог** реализует только интерфейс [**икомадминкаталог**](/windows/desktop/api/ComAdmin/nn-comadmin-icomadmincatalog) .
 
 ## <a name="requirements"></a>Требования
 

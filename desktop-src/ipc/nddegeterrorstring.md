@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 8e043c8281d3ad049346ac7ce68991eb6bd08af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728ccd283f0f65caafd6f23781bd75f18e9c796ad2fb147f00ab6350c53bfd2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557044"
 ---
 # <a name="nddegeterrorstring-function"></a>Функция Нддежетеррорстринг
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Преобразует код ошибки, возвращенный сетевой функцией DDE, в строку ошибки, объясняющую возвращенный код ошибки.
 
@@ -72,7 +72,7 @@ UINT NDdeGetErrorString(
 
 Если функция завершается ошибкой, возвращаемое значение является ненулевым кодом ошибки. Если буфер *лпсзеррорстринг* не достаточен для приема всей строки ошибки, а строка усекается, функция ВОЗВРАЩАЕТ значение ндде \_ Внутренняя \_ ошибка.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,11 +87,11 @@ UINT NDdeGetErrorString(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

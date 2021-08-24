@@ -4,18 +4,18 @@ ms.assetid: 6bf9a827-bfeb-4eff-8eb3-a631e51d16af
 title: ICE33
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 967c15da6418c5b2e591f3f8fc4ce8c17c9fc637
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d7f2e299124c39cbd272e38a0002ecf53b959087091502d1db5cb856aa14cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528614"
 ---
 # <a name="ice33"></a>ICE33
 
 ICE33 обрабатывает записи в [таблице реестра](registry-table.md) и может выдавать предупреждение для каждой записи таблицы, которая регистрирует классы, расширения имен файлов, идентификаторы ProgID, команды оболочки, идентификаторы удаленного сервера, типы MIME или библиотек типов. Предупреждения устарели и могут быть пропущены.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

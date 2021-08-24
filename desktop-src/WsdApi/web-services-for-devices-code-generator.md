@@ -4,12 +4,12 @@ ms.assetid: 76dffca8-bb84-4384-a9e8-120a4cf2acac
 title: Генератор кода для веб-служб на устройствах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e3180166ee421d95a8dedd5b0f5f7034941396b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b214fd51468dd3cf46c2625ae0e493851ef90f38b7fea0f64a3973f068be5253
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119382274"
 ---
 # <a name="web-services-on-devices-code-generator"></a>Генератор кода для веб-служб на устройствах
 
@@ -17,11 +17,11 @@ ms.locfileid: "105693120"
 
 Всдкодежен можно использовать для создания кода для службы, клиента или и того и другого. Программа создает код-заглушку для служб, код прокси для клиентов, а также интерфейс и код типа для обоих типов.
 
-Это средство доступно в пакете средств разработки программного обеспечения (SDK) для Microsoft Windows и в комплекте драйверов для Windows (WDK). Средства пакета SDK находятся в следующем каталоге: <Windows SDK Install Folder> \\ bin.
+это средство доступно в пакете Microsoft Windows Software Development kit (SDK) и в комплекте Windows Driver kit (WDK). Средства пакета SDK находятся в следующем каталоге: <Windows SDK Install Folder> \\ bin.
 
-В Windows SDK содержится пример кода, создаваемого Всдкодежен. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
+в Windows SDK содержится пример кода, создаваемого всдкодежен. Дополнительные сведения см. в разделе [примеры WSDAPI](wsdapi-samples.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,7 +34,7 @@ ms.locfileid: "105693120"
 [Справочник по Всдкодежен](wsdcodegen-reference.md)
 </dt> <dt>
 
-[Разработка приложений WSD в Windows](wsd-application-development-on-windows.md)
+[Разработка приложений WSD на Windows](wsd-application-development-on-windows.md)
 </dt> </dl>
 
  

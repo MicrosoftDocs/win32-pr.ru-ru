@@ -4,12 +4,12 @@ ms.assetid: 35ccfad2-b022-4446-8275-a3b26f4e4db2
 title: Действия без ограничений на последовательность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e78c4e562569a5fde45245761aee1c736ca2da19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92b3a86ab4e020a20a3eefbe753dd343965b8d3851e74f6566f61c78ae05a2a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559524"
 ---
 # <a name="actions-without-sequencing-restrictions"></a>Действия без ограничений на последовательность
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Классы устранения неполадок событий службы WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 99be30a6b2f0551cae4e0abe269da5341e34e1444eb1545ca96377a43b5415ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502804"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>Классы устранения неполадок событий службы WMI
 
@@ -22,7 +22,7 @@ ms.locfileid: "111443065"
 
 |   Событие                                                                                        |   Описание                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [**MSFT \_ вмиессевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | Родительский класс для всех самособытий подсистемы событий (ESS) инструментарий управления Windows (WMI) (WMI). |
+| [**MSFT \_ вмиессевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | родительский класс для всех самособытий подсистемы событий (ESS) инструментарий управления Windows (WMI) (WMI). |
 | [**MSFT \_ вмирегистернотификатионевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | Представляет создание приемника событий для уведомления для запроса события.                       |
 | [**MSFT \_ вмиканцелнотификатионсинк**](/previous-versions/windows/desktop/wmisystemprov/msft-wmicancelnotificationsink)       | создается при отмене приемника событий.                                                           |
 | [**MSFT \_ вмисреадпулевент**](/previous-versions/windows/desktop/wmisystemprov/msft-wmithreadpoolevent)                     | предоставляет уведомления о событиях потоков в подсистеме событий WMI (ESS).                           |

@@ -3,7 +3,7 @@ title: Сообщение IPM_SETADDRESS (Коммктрл. h)
 description: Задает значения адреса для всех четырех полей в элементе управления "IP-адрес".
 ms.assetid: 52e72437-3558-4789-844f-5ab5b0b7967c
 keywords:
-- Элементы управления Windows для IPM_SETADDRESS сообщений
+- элементы управления Windows сообщений IPM_SETADDRESS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e8e4fa69791f93094d24f990ad62207cad33dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54817d2206295432e9b477532268a000fc43047ae928ab02224d668912474519
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434494"
 ---
 # <a name="ipm_setaddress-message"></a>\_Сообщение IPM сетаддресс
 
@@ -43,18 +43,18 @@ ms.locfileid: "104136422"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение не создает уведомление [**ИПН \_ фиелдчанжед**](ipn-fieldchanged.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

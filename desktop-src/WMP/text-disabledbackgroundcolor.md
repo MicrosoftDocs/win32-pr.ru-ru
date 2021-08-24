@@ -3,7 +3,7 @@ title: TEXT. Дисабледбаккграундколор
 description: Атрибут Дисабледбаккграундколор указывает или получает цвет фона, используемый для элемента управления "текст", когда он отключен.
 ms.assetid: bc902778-ef3c-4181-9c3b-a8c9d3ef2306
 keywords:
-- Проигрыватель Windows Media TEXT. Дисабледбаккграундколор
+- проигрыватель Windows Media TEXT. дисабледбаккграундколор
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca4a45f74165b5cd003be8146be77d1a872c6b3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d354b054488c0a966cab17035693ff5c00f5c33131140041be38212ce567274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118831799"
 ---
 # <a name="textdisabledbackgroundcolor"></a>TEXT. Дисабледбаккграундколор
 
@@ -43,7 +43,7 @@ ms.locfileid: "105717797"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

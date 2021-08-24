@@ -1,5 +1,5 @@
 ---
-description: Представляет элемент пула ресурсов платформы Microsoft Windows Hyper-V.
+description: представляет элемент пула ресурсов платформы Microsoft Windows Hyper-V.
 ms.assetid: DF48E8A6-240F-44E9-9DA3-1E6694396F10
 title: Класс Msvm_ResourcePoolComponent
 ms.topic: reference
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a0cf64a9e01d904aa4e6c6ec263fdeec92eb7c94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 470317d3afd961ad74eb788ebdb70e67617749446fa4a432f40f00f43214cd92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535614"
 ---
 # <a name="msvm_resourcepoolcomponent-class"></a>\_Класс мсвм ресаурцепулкомпонент
 
-Представляет элемент пула ресурсов платформы Microsoft Windows Hyper-V.
+представляет элемент пула ресурсов платформы Microsoft Windows Hyper-V.
 
 Следующий синтаксис является упрощенным MOF-файлным (MOF) кодом и включает все наследуемые свойства.
 
@@ -60,7 +60,7 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ ресаурцепулкомпонент** имеет следующие свойства.
 
@@ -105,7 +105,7 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -131,7 +131,7 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -199,7 +199,7 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ ресаурцепулкомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -209,9 +209,9 @@ class Msvm_ResourcePoolComponent : Msvm_VirtualizationComponent
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
-| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
+| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание объектов параметров в C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c200958f4ad00ced5455462e7a2909ac6a58cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eaa97753eab9554e402a91cfce72a6435d44298b6b68a83de96fd4beccd83bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244524"
 ---
 # <a name="creating-parameters-objects-in-c"></a>Создание объектов параметров в C++
 
@@ -31,7 +31,7 @@ ms.locfileid: "104263938"
 
 После того как поставщик метода определит, что входные параметры верны, метод, на который указывает *стрмесоднаме* , может по-прежнему пройти или завершиться неудачно. Некоторые поставщики методов порождают второй поток для реализации метода, чтобы фактический успех или неудача выполнения метода был передан вызывающему объекту через [**ивбемобжектсинк:: SetStatus**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjectsink-setstatus). Обратите внимание, что **ивбемобжектсинк:: SetStatus** не получает код возврата метода поставщика. Однако он получает код возврата фактического механизма возврата вызовов, и его удобно использовать только для проверки того, что вызов произошел, или что его не удалось выполнить по механическим причинам.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

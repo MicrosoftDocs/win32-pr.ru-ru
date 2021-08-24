@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e596284a83c48bcfc84ef4f7985aed7c33ba7da
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1f6dab1681cb04adbd48c4a27c14a359c87624870a43c118c6dd1a589689c00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013932"
 ---
 # <a name="entry-attribute"></a>entry - атрибут
 
@@ -74,7 +74,7 @@ module modulename
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если переменная *EntryID* атрибута **\[ entry \]** является строкой, это именованная точка входа. Если идентификатор *EntryID* является числом, точка входа определяется порядковым номером. Этот атрибут предоставляет способ получения адреса функции в модуле.
 
@@ -98,7 +98,7 @@ module MyModule
     } ;
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -117,6 +117,6 @@ module MyModule
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

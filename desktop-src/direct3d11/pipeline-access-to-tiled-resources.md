@@ -4,12 +4,12 @@ description: Ресурсы мозаичного заполнения можно
 ms.assetid: D0BC0B6C-2325-4EAF-9E80-E748F58045B1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4a183fcaee90d84985a09c83826a4ad0b6d646
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8a8e4656247a1ad59d053ea9871314f9370ff00930cf24a452e363775101f58d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119375824"
 ---
 # <a name="pipeline-access-to-tiled-resources"></a>Доступ конвейера к мозаичным ресурсам
 
@@ -38,7 +38,7 @@ ms.locfileid: "103793092"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

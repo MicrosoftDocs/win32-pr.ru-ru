@@ -3,7 +3,7 @@ title: Сообщение TVM_SETTEXTCOLOR (Коммктрл. h)
 description: Задает цвет текста элемента управления. Это сообщение можно отправить явно или с помощью \_ макроса Сеттекстколор TreeView.
 ms.assetid: eb57dfd5-3e7b-4cda-a659-be9e03470a44
 keywords:
-- Элементы управления Windows для TVM_SETTEXTCOLOR сообщений
+- элементы управления Windows сообщений TVM_SETTEXTCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da0049c2666faccce7879146c78ddecc70825e8b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41559abd6724ee9c8ce9f86cfcff092ad13d949a80a55d45ff996f36b284932d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119503614"
 ---
 # <a name="tvm_settextcolor-message"></a>\_Сообщение TVM сеттекстколор
 
@@ -43,19 +43,19 @@ ms.locfileid: "103802650"
 
 Возвращает значение **COLORREF** , представляющее предыдущий цвет текста. Если это значение равно-1, элемент управления использует системный цвет для цвета текста.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

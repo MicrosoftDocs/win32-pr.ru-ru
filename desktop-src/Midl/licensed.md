@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1394f24d8b6136cab86615e74838737bbda543b9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1b4320157216db18f595d67e172bc49de2d6050551732265060cb5a21339c908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067213"
 ---
 # <a name="licensed-attribute"></a>лицензированный атрибут
 
@@ -59,7 +59,7 @@ coclass classname
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Лицензирование — это функция COM, которая обеспечивает контроль над созданием объектов. Лицензированные объекты могут создаваться только клиентами, которым разрешено их использовать. Лицензирование реализуется в COM через интерфейс [**IClassFactory2**](/windows/win32/api/ocidl/nn-ocidl-iclassfactory2) и с помощью поддержки лицензионного ключа, который может быть передан во время выполнения.
 
@@ -115,6 +115,6 @@ coclass MyClass
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

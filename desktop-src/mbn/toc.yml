@@ -85,7 +85,7 @@
             - name: имбнконнектион
               href: /windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection
               items:
-                - name: Метод Connect
+                - name: Подключение Method
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-connect
                 - name: Метод Disconnect
                   href: /windows/desktop/api/mbnapi/nf-mbnapi-imbnconnection-disconnect

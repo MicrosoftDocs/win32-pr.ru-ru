@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d4868497c2d604457a45273b1c0cc609ae361ad9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b78f9619f586217e3c5b5c0ebadbc68ee974e1f7d8740d07c8bba31a0fd8ceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439254"
 ---
 # <a name="cim_bootsap-class"></a>\_Класс CIM бутсап
 
@@ -65,13 +65,13 @@ class CIM_BootSAP : CIM_ServiceAccessPoint
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ бутсап** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -143,7 +143,7 @@ class CIM_BootSAP : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -360,7 +360,7 @@ class CIM_BootSAP : CIM_ServiceAccessPoint
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ бутсап** является производным от [**CIM \_ сервицеакцесспоинт**](cim-serviceaccesspoint.md).
 
@@ -368,7 +368,7 @@ class CIM_BootSAP : CIM_ServiceAccessPoint
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

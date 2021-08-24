@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b42808fc3e47eaef66a58b62f2ca2527374a95
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ca86027c138a2556c7c7a0514389c13e82533526a17dcffdde6bec2e530f83d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442084"
 ---
 # <a name="possible-inferiors-attribute"></a>Атрибут Possible-Inferiors
 

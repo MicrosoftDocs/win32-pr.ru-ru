@@ -4,12 +4,12 @@ ms.assetid: 33d04859-4220-40a6-be46-74a812a44ca8
 title: Сообщение WM_MDICASCADE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6208ce924ab6185399f3f673a435e1fbaca2741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59977b86a63c62d69571a6e5c631dd9044fb57f072adf04b0882e16af4f65e17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119448734"
 ---
 # <a name="wm_mdicascade-message"></a>\_Сообщение МДИКАСКАДЕ WM
 
@@ -59,7 +59,7 @@ ms.locfileid: "104343202"
 
 Если сообщение не выполняется, возвращается значение **false**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "104343202"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "104343202"
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**WM \_ мдииконарранже**](wm-mdiiconarrange.md)

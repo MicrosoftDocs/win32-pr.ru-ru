@@ -4,12 +4,12 @@ description: Компонентно-ориентированное вектор�
 ms.assetid: 5F06E568-6234-4778-8169-D8352FAB5297
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c2e5e47272412bb483e4782e9a6c35e971293c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5b8d70e2c71ad0e503e7119abc2b28e76819053d843b0091d15bfd2045d5351d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119458"
 ---
 # <a name="ilt-sm4---asm"></a>илт (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104335472"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выполняет сравнение целых чисел *(src0*  <  *src1*) для каждого компонента и записывает результат в *dest*.
 
@@ -60,9 +60,9 @@ ms.locfileid: "104335472"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104335472"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

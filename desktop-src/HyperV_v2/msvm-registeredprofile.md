@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a7014687355524fbe10ff01869cac6c3fd35a894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0773ad1b7c992211e8bc578ac2cf2bea7706313918581ef2da9df8e2887b536d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535774"
 ---
 # <a name="msvm_registeredprofile-class"></a>\_Класс мсвм регистередпрофиле
 
@@ -60,7 +60,7 @@ class Msvm_RegisteredProfile : CIM_RegisteredProfile
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ регистередпрофиле** имеет следующие свойства.
 
@@ -103,7 +103,7 @@ class Msvm_RegisteredProfile : CIM_RegisteredProfile
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -215,7 +215,7 @@ class Msvm_RegisteredProfile : CIM_RegisteredProfile
 <span id="Consortium_for_Service_Innovation"></span><span id="consortium_for_service_innovation"></span><span id="CONSORTIUM_FOR_SERVICE_INNOVATION"></span>**Консорциум для инноваций в сфере обслуживания** (4)
 </dt> <dt>
 
-<span id="FAST"></span><span id="fast"></span>**Быстрое** (5)
+<span id="FAST"></span><span id="fast"></span>**FAST** (5)
 </dt> <dt>
 
 <span id="GGF"></span><span id="ggf"></span>**ГГФ** (6)
@@ -290,14 +290,14 @@ class Msvm_RegisteredProfile : CIM_RegisteredProfile
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневое \\ взаимодействие<br/>                                                                                |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

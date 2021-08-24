@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a9bb13944f281d528ff95a7856ebc8a0a2374c6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2a12bffb3659bd18f630ce3ff06435a701ed77f8fba2af79b20df6d6b2574ad8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329654"
 ---
 # <a name="stringfromresource-function"></a>Функция Стрингфромресаурце
 
@@ -61,7 +61,7 @@ TCHAR* WINAPI StringFromResource(
 
 Возвращает ту же строку, что и *pBuffer*. Если функция не выполнена успешно, возвращает пустую строку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буфер *pBuffer* должен иметь длину не менее str \_ \_ байт.
 
@@ -71,7 +71,7 @@ TCHAR* WINAPI StringFromResource(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

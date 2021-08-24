@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3cecf46250fface0f716adbf287cda3269b86f04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 555c8683933b2242d119fc00f29c6d0a33188f6404ca48a00e8a127dd59aa791
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424474"
 ---
 # <a name="eventtrigger-triggergroup-element"></a>Элемент EventTrigger (Тригжерграуп)
 
@@ -68,7 +68,7 @@ ms.locfileid: "104492072"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно создать не более 500 задач с подписками на события. Подписка на событие, которая запрашивает различные события, может использоваться для запуска задачи, которая использует то же действие в ответ на регистрируемые события.
 
@@ -80,14 +80,14 @@ ms.locfileid: "104492072"
 
 Полный пример XML-кода для задачи, использующей триггер события, см. в разделе [пример триггера события (XML)](/previous-versions//aa446889(v=vs.85)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

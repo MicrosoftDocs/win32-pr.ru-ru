@@ -8,12 +8,12 @@ keywords:
 - типы данных MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf37703c56beec56dec67055272d4ba25d34e6f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 69f8e1e2b747069b9b07b9292932a8134d7f5c7c9c1456fdf63b725ea700a983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067164"
 ---
 # <a name="midl-data-types"></a>Типы данных MIDL
 
@@ -27,9 +27,9 @@ MIDL предоставляет множество типов данных и я
 -   [Объединения MIDL](midl-unions.md)
 -   [Дескрипторы привязки MIDL](midl-binding-handles.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,4 +1,4 @@
-- name: 'Упаковка, развертывание и запрос приложений Windows'
+- name: 'упаковка, развертывание и запрос приложений Windows'
   href: appx-portal.md
   items:
     - name: Создание пакета приложения
@@ -696,7 +696,7 @@
               href: /windows/desktop/api/AppModel/ns-appmodel-package_version
         - name: Глоссарий
           href: appx-packaging-glossary.md
-        - name: COM-API диспетчера пакетов Windows
+        - name: Диспетчер пакетов Windows API COM
           href: windows-package-manager-com-api.md
     - name: Средства и командлеты PowerShell
       href: appx-packaging-tools.md

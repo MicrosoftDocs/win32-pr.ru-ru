@@ -3,7 +3,7 @@ title: Комментарии (Мсфидс. h)
 description: Добавьте комментарии в метафайлы, следуя синтаксису язык XML (XML). Комментарии начинаются с \ 0034; --\ 0034; и заканчиваются на \ 0034;--\ 0034;.
 ms.assetid: 3d8dbf13-bd48-4405-804f-57e0f5eff642
 keywords:
-- Комментарии Windows Media Player
+- комментарии проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 701f456cae9f1432ed42235a3a6e13af555b2b8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fe5aaf9dde3d804bb91a1e2551636c86aa54ff2bec599bf06100ee2622b592a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135787"
 ---
 # <a name="comments-msfeedsh"></a>Комментарии (Мсфидс. h)
 
@@ -30,7 +30,7 @@ ms.locfileid: "105699277"
 <!--Enter your comment text here.-->
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Комментарии могут находиться в любом месте за исключением содержимого элемента (между тегами Open и Close элемента,  < >). Они не являются частью символьных данных документа и игнорируются при синтаксическом анализе метафайла.
 
@@ -62,7 +62,7 @@ ms.locfileid: "105699277"
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Мсфидс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Мсфидс. h</dt> </dl> |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "105699277"
 
 <dl> <dt>
 
-[**Справочник по элементам метафайлов Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Справочник по элементам метафайлов мультимедиа**](windows-media-metafile-elements-reference.md)
 </dt> </dl>
 
  

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: COOKER_VARIANCE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef0f9de6c5241ccd486e4da76864139e3e54f5a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2133592bc3652a2e36037d89d4b2f2de0d0709d0ee23818f503e5da3c93c1f1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131486"
 ---
 # <a name="cooker_variance"></a>\_отклонение от острова
 
@@ -24,7 +24,7 @@ ms.locfileid: "104080588"
 
 Примеры кода см. в разделе [получение статистических данных о производительности](obtaining-statistical-performance-data.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

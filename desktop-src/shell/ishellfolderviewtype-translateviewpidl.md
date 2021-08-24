@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b7fa6c4-3d02-44ed-b63d-80a799e4017a
-ms.openlocfilehash: 537a77e7ffffb462e0031ea0959f60cd695f7d99
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 00d419d05a21c9328d29c23ee4c6475254cc6635594cc20e989144361caab3dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443284"
 ---
 # <a name="ishellfolderviewtypetranslateviewpidl-method"></a>Метод Ишеллфолдервиевтипе:: Транслатевиевпидл
 
@@ -78,7 +78,7 @@ HRESULT TranslateViewPidl(
 
 По завершении необходимо освободить возвращенный ПИДЛ с [**илфри**](/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

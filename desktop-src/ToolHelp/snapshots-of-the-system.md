@@ -4,12 +4,12 @@ description: Моментальные снимки являются осново
 ms.assetid: a8122960-f078-4efb-8e01-bf6fb69ee0dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab6f9a45ad2e12eda53d3143e43c9234c20aae3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30dde3a4383bf56bdef46c59c55611ffe9b22a7a201abb4f0f11af85594c4f0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137417"
 ---
 # <a name="snapshots-of-the-system"></a>Моментальные снимки системы
 
@@ -35,15 +35,15 @@ ms.locfileid: "103890836"
 > [!Note]  
 > Обработчик моментальных снимков выступает в качестве маркера файла и подчиняется тем же правилам, что и для процессов и потоков, в которых он может использоваться. Чтобы указать, что маркер наследуется, Создайте моментальный снимок, используя значение **\_ inherit TH32CS** .
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Создание моментального снимка и Просмотр процессов](taking-a-snapshot-and-viewing-processes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

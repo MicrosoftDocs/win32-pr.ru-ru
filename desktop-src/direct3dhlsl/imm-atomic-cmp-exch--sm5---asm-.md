@@ -4,12 +4,12 @@ description: Немедленное сравнение и обмен данны�
 ms.assetid: 317A69E1-0E0A-45C8-8E0A-B88659ADBECC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f63e1be030d7cce0d6f0a581788db39a599272b2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ba1014d338687a0798675ed407c0db844c80491833b45628020249bf94b6061b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103890032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562419"
 ---
 # <a name="imm_atomic_cmp_exch-sm5---asm"></a>IMM \_ Atomic, атомарный \_ CMP \_ (SM5-ASM)
 
@@ -88,7 +88,7 @@ ms.locfileid: "103890032"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -99,7 +99,7 @@ ms.locfileid: "103890032"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

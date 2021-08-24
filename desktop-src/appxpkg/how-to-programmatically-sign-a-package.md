@@ -4,32 +4,32 @@ description: Узнайте, как подписать пакет приложе
 ms.assetid: 1183D665-83C9-4BE7-9C8D-834484B8C57F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0310ba2a934a6986809329a12afa8ee20b2f6591
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5a91cf2c7b7be674ff14d1ceada59be593a300d7ebf1964ddce4a7a5340ab74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103789661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130246"
 ---
 # <a name="how-to-programmatically-sign-an-app-package-c"></a>Как программно подписать пакет приложения (C++)
 
 Узнайте, как подписать пакет приложения с помощью функции [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) .
 
-Если вы хотите программно создавать пакеты приложений Windows с помощью [API упаковки](interfaces.md), необходимо также подписать пакеты приложений, прежде чем их можно будет развернуть. API упаковки не предоставляет специализированный метод для подписи пакетов приложений. Вместо этого используйте стандартные [криптографические функции](/windows/desktop/SecCrypto/cryptography-functions) для подписи пакетов приложений.
+если требуется программное создание пакетов приложений Windows с помощью [API упаковки](interfaces.md), необходимо также подписать пакеты приложений, прежде чем их можно будет развернуть. API упаковки не предоставляет специализированный метод для подписи пакетов приложений. Вместо этого используйте стандартные [криптографические функции](/windows/desktop/SecCrypto/cryptography-functions) для подписи пакетов приложений.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Знакомство с подписыванием кода](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85))
--   [Упаковка, развертывание и запрос приложений Windows](appx-portal.md)
+-   [упаковка, развертывание и запрос приложений Windows](appx-portal.md)
 -   [криптографические функции](/windows/desktop/SecCrypto/cryptography-functions)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Обязательные условия
 
--   Необходимо иметь упакованное приложение Windows. Сведения о создании пакета приложения см. в разделе [Создание пакета приложения](how-to-create-a-package.md).
+-   необходимо наличие упакованного Windows приложения. Сведения о создании пакета приложения см. в разделе [Создание пакета приложения](how-to-create-a-package.md).
 -   Необходимо иметь сертификат подписи кода, который подходит для подписи пакета приложения. Сведения о создании сертификата подписи тестового кода см. [в разделе Создание сертификата для подписи пакета приложения](how-to-create-a-package-signing-certificate.md). Загрузите этот сертификат для подписи в [**структуру \_ контекста сертификата**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) . Например, можно использовать [**пфксимпортцертсторе**](/windows/desktop/api/wincrypt/nf-wincrypt-pfximportcertstore) и [**цертфиндцертификатеинсторе**](/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore) для загрузки сертификата подписи.
--   В Windows 8 появилась функция [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) . Используйте **SignerSignEx2** при подписывании пакетов приложений Windows.
+-   в Windows 8 введена функция [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) . используйте **SignerSignEx2** при подписывании пакетов приложений Windows.
 
 ## <a name="instructions"></a>Инструкции
 
@@ -190,11 +190,11 @@ typedef struct _APPX_SIP_CLIENT_DATA
 
 ### <a name="step-2-call-signersignex2-to-sign-the-app-package"></a>Шаг 2. вызов SignerSignEx2 для подписи пакета приложения
 
-После определения необходимых структур, указанных на предыдущем шаге, можно использовать любой из параметров, доступных в функции [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) , чтобы подписать пакет приложения. При использовании **SignerSignEx2** с пакетами приложений Windows эти ограничения применяются.
+После определения необходимых структур, указанных на предыдущем шаге, можно использовать любой из параметров, доступных в функции [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) , чтобы подписать пакет приложения. при использовании **SignerSignEx2** с пакетами приложений Windows применяются следующие ограничения.
 
 -   При подписывании пакета приложения необходимо указать указатель на структуру **\_ \_ \_ данных клиента APPX SIP** в качестве параметра *псипдата* . Необходимо заполнить элемент **псигнерпарамс** **\_ \_ \_ данных клиента APPX SIP** теми же параметрами, которые используются для подписания пакета приложения. Чтобы сделать это, определите нужные параметры в структуре Signing **\_ \_ EX2 \_ params** , присвойте адрес этой структуры **псигнерпарамс**, а затем непосредственно сослаться на элементы структуры при вызове [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2).
 -   После вызова [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2)необходимо освободить **паппкссипстате** на *псипдата* , вызвав [**IUnknown:: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) на **паппкссипстате** , если он не **равен null**.
--   Член **алгидхаш** структуры **\_ \_ сведений о подписи** должен быть тем же хэш-алгоритмом, который использовался при создании пакета приложения. Сведения о том, как определить хэш-алгоритм из пакета приложения, см. [в разделе как подписать пакет приложения с помощью средства SignTool](how-to-sign-a-package-using-signtool.md). Алгоритм по умолчанию Windows 8, который [программе makeappx](make-appx-package--makeappx-exe-.md) и Visual Studio использует для создания пакетов приложений, — это "АЛГИДХАШ = калг \_ SHA \_ 256".
+-   Член **алгидхаш** структуры **\_ \_ сведений о подписи** должен быть тем же хэш-алгоритмом, который использовался при создании пакета приложения. Сведения о том, как определить хэш-алгоритм из пакета приложения, см. [в разделе как подписать пакет приложения с помощью средства SignTool](how-to-sign-a-package-using-signtool.md). алгоритм Windows 8 по умолчанию, который [программе makeappx](make-appx-package--makeappx-exe-.md) и Visual Studio использовать для создания пакетов приложений, — это "алгидхаш = калг \_ SHA \_ 256".
 -   Если вы хотите, чтобы метка времени была также подписана в пакете приложения, необходимо сделать это во время вызова [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2) , указав необязательные параметры отметки времени **SignerSignEx2**(*двтиместампфлагс*, *псзтиместампалгорисмоид*, *пвсзттптиместамп*, *псрекуест*). Вызов [**SignerTimeStampEx3**](/windows/desktop/SecCrypto/signertimestampex3) или его вариантов в пакете приложения, который уже подписан, не поддерживается.
 
 Ниже приведен пример кода, в котором показано, как вызвать [**SignerSignEx2**](/windows/desktop/SecCrypto/signersignex2):
@@ -315,11 +315,11 @@ HRESULT SignAppxPackage(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-После подписывания пакета приложения можно также попытаться проверить подпись программным способом с помощью функции [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) с **винтруст \_ действием \_ Generic \_ Проверка \_ версии 2**. В этом случае нет особых соображений, касающихся использования **WinVerifyTrust** с пакетами приложений Windows.
+После подписывания пакета приложения можно также попытаться проверить подпись программным способом с помощью функции [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) с **винтруст \_ действием \_ Generic \_ Проверка \_ версии 2**. в этом случае нет особых соображений, касающихся использования **WinVerifyTrust** с пакетами приложений Windows.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -332,6 +332,6 @@ HRESULT SignAppxPackage(
 [криптографические функции](/windows/desktop/SecCrypto/cryptography-functions)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

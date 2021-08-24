@@ -3,7 +3,7 @@ title: Сообщение MCM_SETUNICODEFORMAT (Коммктрл. h)
 description: MCM_SETUNICODEFORMAT сообщение — задает флаг формата символов Юникода для элемента управления.
 ms.assetid: 250789b5-694b-4502-9cc0-3bc260ea06e7
 keywords:
-- Элементы управления Windows для MCM_SETUNICODEFORMAT сообщений
+- элементы управления Windows сообщений MCM_SETUNICODEFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa922b0dde8702f447690f9626938364174cbff6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d5671384a43b4308ae08317137c00e213a5a7dbb37c5f0310d2d32e4716f176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435165"
 ---
 # <a name="mcm_setunicodeformat-message"></a>\_Сообщение MCM сетуникодеформат
 
@@ -47,19 +47,19 @@ ms.locfileid: "108112373"
 
 Обсуждение этого сообщения см. в примечаниях по [**CCM \_ сетуникодеформат**](ccm-setunicodeformat.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

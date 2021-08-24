@@ -4,12 +4,12 @@ ms.assetid: c06c0eaf-41cb-4fd1-9750-a78355217f12
 title: Кэширование (Международная локализация)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cf8bf7dd10fe414bc170086ff9b8c34142dc197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a01d8444fa222c2b6f6c7b03d0e1be70c1e04b1509ab020b8769d87b2b5cbc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500834"
 ---
 # <a name="caching-internationalization"></a>Кэширование (Международная локализация)
 
@@ -19,7 +19,7 @@ Uniscribe сохраняет сопоставления Юникода с гли
 
 Для [**скриптшапе**](/windows/desktop/api/Usp10/nf-usp10-scriptshape) и [**скриптплаце**](/windows/desktop/api/Usp10/nf-usp10-scriptplace)допустимо, чтобы приложение передавало контекст неопределенного устройства. Чаще всего вызов будет выполнен, так как необходимые таблицы уже кэшированы. Если для формирования или размещения требуется доступ к контексту устройства, **скриптшапе** или **скриптплаце** сразу же возвращает \_ код ошибки E. Затем приложение должно выбрать шрифт в контексте устройства. Для большинства приложений это способствует повышению производительности за счет предотвращения повторной подготовки обработчика контекста устройства к вызовам [**SelectObject**](/windows/win32/api/wingdi/nf-wingdi-selectobject).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

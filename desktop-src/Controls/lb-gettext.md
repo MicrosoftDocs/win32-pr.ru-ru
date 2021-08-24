@@ -3,7 +3,7 @@ title: Сообщение LB_GETTEXT (Winuser. h)
 description: Возвращает строку из списка.
 ms.assetid: 6bf7ec3b-237b-4668-9493-40c098a32428
 keywords:
-- Элементы управления Windows для LB_GETTEXT сообщений
+- элементы управления Windows сообщений LB_GETTEXT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3dd5e2c7a9e6c1c1aa1b847592555a013766134
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b2aa37a2d07e440aac615d1edc1e6f91c6a60e71a96418cd443daff9809ec18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434103"
 ---
 # <a name="lb_gettext-message"></a>Сообщение балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "104492150"
 
 Отсчитываемый от нуля индекс извлекаемой строки.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
 
 </dd> <dt>
 
@@ -49,19 +49,19 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 Возвращаемое значение — это длина строки в **файле TCHAR** s, исключая завершающего нуль-символа. Если параметр *wParam* не указывает допустимый индекс, возвращается значение фунтов \_ Err.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если список имеет стиль, рисуемый владельцем, но не хасстрингс в [**стиле \_ фунта**](list-box-styles.md) , то буфер, на который указывает параметр *lParam* , получает значение, связанное с элементом (данные элемента).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

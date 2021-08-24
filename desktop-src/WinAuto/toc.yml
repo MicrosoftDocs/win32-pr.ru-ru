@@ -1,6 +1,6 @@
 - name: Специальные возможности Windows
   href: about-windows-accessibility-features.md
-- name: Справочник по функциям специальных возможностей Windows
+- name: Windows Справочник по специальным возможностям
   items:
     - name: Параметры специальных возможностей
       items:
@@ -56,9 +56,9 @@
       href: checking-the-state-of-an-accessibility-parameter.md
     - name: Включение встроенной функции специальных возможностей
       href: enabling-a-built-in-accessibility-feature.md
-- name: Справочник по API специальных возможностей Windows
+- name: Windows Справочник по API специальных возможностей
   items:
-    - name: Общие сведения об API специальных возможностей Windows
+    - name: Windows Общие сведения об API специальных возможностей
       href: windows-automation-api-portal.md
     - name: Сравнение Microsoft Active Accessibility и автоматизации пользовательского интерфейса
       href: microsoft-active-accessibility-and-ui-automation-compared.md
@@ -108,7 +108,7 @@
                   href: uiauto-uiautomationtextunits.md
             - name: Поддержка модели автоматизации пользовательского интерфейса для перетаскивания
               href: ui-automation-support-for-drag-and-drop.md
-            - name: Рекомендации по использованию безнадежных массивов
+            - name: рекомендации по использованию массивов Сейф
               href: uiauto-workingwithsafearrays.md
             - name: Спецификация модели автоматизации пользовательского интерфейса и обязательство сообщества
               href: uiauto-specandcommunitypromise.md
@@ -2699,7 +2699,7 @@
                       href: checking-iaccessible-return-values.md
                     - name: Получение ошибок для указателей интерфейса IAccessible
                       href: receiving-errors-for-iaccessible-interface-pointers.md
-                    - name: Масштабирование экрана Active Accessibility и Windows Vista
+                    - name: масштабирование экрана Active Accessibility и Windows Vista
                       href: active-accessibility-and-windows-vista-screen-scaling.md
                 - name: Руководством разработчика для Active Accessibility серверов
                   href: developer-s-guide-for-active-accessibility-servers.md
@@ -3106,14 +3106,14 @@
               href: appendix-b--standard-dialog-manager-support.md
             - name: Приложение в. идентификаторы DISPID
               href: appendix-c--iaccessible-dispids.md
-            - name: Приложение г. примечания для Visual Basic разработчиков
+            - name: приложение г. примечания для Visual Basic разработчиков
               href: appendix-d--notes-for-visual-basic-developers.md
               items:
-                - name: 'Примечания к методу Visual Basic: Аккнаме'
+                - name: 'Visual Basic Примечания к методу: Аккнаме'
                   href: visual-basic-method-notes--accname.md
-                - name: 'Примечания к методу Visual Basic: Акквалуе'
+                - name: 'Visual Basic Примечания к методу: Акквалуе'
                   href: visual-basic-method-notes--accvalue.md
-                - name: Visual Basic примеров программ
+                - name: Visual Basic Примеры программ
                   href: visual-basic-sample-programs.md
             - name: Приложение E. атрибуты текста для словаря текстовых служб Active Accessibility
               href: appendix-e--text-attributes-for-active-accessibility-text-services-dictionary.md
@@ -3170,16 +3170,16 @@
               href: implementing-iaccessibleex-for-providers.md
             - name: Использование IAccessibleEx из клиента
               href: using-iaccessibleex-from-a-client.md
-        - name: Специальные возможности элемента управления ActiveX без окон
+        - name: специальные возможности элемента управления ActiveX без окон
           href: windowless-activex-control-accessibility.md
           items:
-            - name: Использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному элементу управления ActiveX
+            - name: использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному ActiveX управления
               href: use-ui-automation-to-make-an-windowless-activex-control-accessible.md
-            - name: Использование MSAA для обеспечения возможности доступа к безоконному элементу управления ActiveX
+            - name: использование MSAA для обеспечения возможности управления ActiveX без окон
               href: use-msaa-to-make-an-windowless-activex-control-accessible.md
-            - name: Размещение элемента управления ActiveX без окна модели автоматизации пользовательского интерфейса
+            - name: размещение элемента управления ActiveX без окна модели автоматизации пользовательского интерфейса
               href: host-a-ui-automation-windowless-activex-control.md
-            - name: Размещение элемента управления ActiveX без окна MSAA
+            - name: размещение элемента управления ActiveX без окна MSAA
               href: host-an-msaa-windowless-activex-control.md
 - name: Рекомендации по специальным возможностям
   href: accessibility-best-practices.md

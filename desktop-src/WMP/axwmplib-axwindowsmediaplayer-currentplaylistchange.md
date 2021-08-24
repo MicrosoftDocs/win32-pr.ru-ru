@@ -3,7 +3,7 @@ title: Событие Куррентплайлистчанже объекта А
 description: Событие Куррентплайлистчанже возникает при изменении в текущем списке воспроизведения. | Событие Куррентплайлистчанже объекта Аксвиндовсмедиаплайер
 ms.assetid: 1f9c99a4-7d10-48bf-b5ff-b1c1d6753b20
 keywords:
-- Событие Куррентплайлистчанже в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие куррентплайлистчанже объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f99f34f0e02d03352a61bbfca6767295d63d59a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07ff3c076f9b670e3cd234a53b93f3ea9c0963d2dea1f12a3963f12300e9532e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119136147"
 ---
 # <a name="currentplaylistchange-event-of-the-axwindowsmediaplayer-object"></a>Событие Куррентплайлистчанже объекта Аксвиндовсмедиаплайер
 
@@ -53,7 +53,7 @@ Private Sub player_CurrentPlaylistChange(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие не происходит, если другой список воспроизведения попадает в текущий список воспроизведения. Это происходит только в том случае, если изменение происходит в текущем списке воспроизведения, например при добавлении элемента мультимедиа в список воспроизведения.
 
@@ -144,7 +144,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 

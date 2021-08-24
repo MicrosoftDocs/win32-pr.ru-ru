@@ -4,12 +4,12 @@ description: Чтобы найти дочерний объект или опре
 ms.assetid: ba08814f-87bc-4b47-8b61-179a48d5092f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c26d055246e038611e881bd353bcc865c5e77136
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34911b13a4c9bad2bfd79cb32d5654265878568ad00475ade08a87a23150b49f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105654231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828280"
 ---
 # <a name="navigation-through-hit-testing-and-screen-location"></a>Навигация с помощью проверки попадания и расположения на экране
 
@@ -37,11 +37,11 @@ ms.locfileid: "105654231"
 > [!Note]  
 > [**IAccessible:: акчиттест**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest) является более точным, чем [**IAccessible:: акклокатион**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation) , так как позволяет клиентам определять расположение объектов на попикселном уровне, а не в ограничивающих прямоугольниках. Такая точность полезна, например, при сборе данных приложением путем отслеживания расположения указателя мыши.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

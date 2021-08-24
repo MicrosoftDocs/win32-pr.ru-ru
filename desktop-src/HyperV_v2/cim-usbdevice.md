@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4b43c57d69f0f9eb92293aa8fa1ff1aa1ebe96c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3766d6c2fdc46b36350e9259e0e988f3a276cee6376d02de349abbe83bf8031b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119427734"
 ---
 # <a name="cim_usbdevice-class-hyper-v-management"></a>Класс CIM_USBDevice (Управление Hyper-V)
 
@@ -233,7 +233,7 @@ class CIM_USBDevice : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Кодом**
+**ProductID**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt16**
@@ -348,7 +348,7 @@ class CIM_USBDevice : CIM_LogicalDevice
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
