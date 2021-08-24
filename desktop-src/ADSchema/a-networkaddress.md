@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e869a176b2122ccb0a03c9e0920ca3dbd45f5664
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aecb62701350c0a954a23dc403a314331920810b0b6778f90099c600ca738a60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704764"
 ---
 # <a name="network-address-attribute"></a>Атрибут Network-Address
 
@@ -67,7 +67,7 @@ TCP/IP-адрес сегмента сети. Также называется а�
 | Range-Upper            | 256                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                        |
 | System-Flags           | 0x00000000                                                                                                                                                        |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ TCP/IP-адрес сегмента сети. Также называется а�
 | Range-Upper            | 256                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                        |
 | System-Flags           | 0x00000000                                                                                                                                                        |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ TCP/IP-адрес сегмента сети. Также называется а�
 | Range-Upper            | 256                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                        |
 | System-Flags           | 0x00000000                                                                                                                                                        |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ TCP/IP-адрес сегмента сети. Также называется а�
 | Range-Upper            | 256                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                        |
 | System-Flags           | 0x00000000                                                                                                                                                        |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ TCP/IP-адрес сегмента сети. Также называется а�
 | Range-Upper            | 256                                                                                                                                                               |
 | Search-Flags           | 0x00000000                                                                                                                                                        |
 | System-Flags           | 0x00000000                                                                                                                                                        |
-| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Компьютер**](c-computer.md)<br/> [**DHCP-класс**](c-dhcpclass.md)<br/> [**NTDS-DSA**](c-ntdsdsa.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 

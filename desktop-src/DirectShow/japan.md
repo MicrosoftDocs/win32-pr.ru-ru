@@ -4,12 +4,12 @@ ms.assetid: 4ce30b40-2d5d-449b-9314-45eabad16cce
 title: Япония
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4c22f880802c2242865633c4d23aaa0ae43598
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f058443498dba2d0ba2f796f2e687182d34d6255ddc6e88daa97d22b298512a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766984"
 ---
 # <a name="japan"></a>Япония
 
@@ -216,7 +216,7 @@ ms.locfileid: "103805650"
 
 ## <a name="revised-channel-assignments"></a>Измененные назначения каналов
 
-В следующей таблице перечислены назначения кабелей, для которых требуется Windows XP Media Center Edition 1,1 и более поздних версий.
+в следующей таблице перечислены назначения кабелей, требующие Windows XP Media Center Edition 1,1 и более поздних версий.
 
 Индексы частоты в этой таблице Японии подходят для использования в качестве номеров каналов.
 
@@ -294,7 +294,7 @@ ms.locfileid: "103805650"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

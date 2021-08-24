@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86229c71f1234efb4b561ac73bc8aa20f6258cdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd55db4bb935880438290a83cd99c420ebcabf23ca8cb1bb238ea15f39e06247
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726284"
 ---
 # <a name="colorokstring-message"></a>Сообщение КОЛОРОКСТРИНГ
 
@@ -58,7 +58,7 @@ ms.locfileid: "104135878"
 
 Если процедура-обработчик возвращает ненулевое значение, то диалоговое окно **Цвет** отклоняет выбранный цвет и остается открытым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура-ловушка должна указывать константу **колорокстринг** в вызове функции [**регистервиндовмессаже**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) для получения идентификатора сообщения, отправленного этим диалоговым окном.
 
@@ -70,7 +70,7 @@ ms.locfileid: "104135878"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Колорокстрингв** (Юникод) и **колорокстринга** (ANSI)<br/>                                    |
 
 

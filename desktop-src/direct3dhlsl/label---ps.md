@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f3fb266b649642c82293e8310b6302c6763ddc27
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 921abbc0518182eaef17326082a395e5c5729d8ab550610fe71c8dfabe46dd4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854204"
 ---
 # <a name="label---ps"></a>Метка-PS
 
@@ -37,7 +37,7 @@ ms.locfileid: "104998155"
 
 Для PS \_ 2 \_ SW, PS \_ 3 \_ 0 и PS \_ 3 \_ SW номер метки должен находиться в диапазоне от 0 до 2047.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "104998155"
 
 Эта инструкция определяет метку, расположенную в следующей инструкции шейдера. Инструкция Label может присутствовать непосредственно после инструкции [RET](ret---ps.md) (которая определяет конец предыдущей подпрограммы или основной программы).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

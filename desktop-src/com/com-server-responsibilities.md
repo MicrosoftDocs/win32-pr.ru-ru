@@ -4,12 +4,12 @@ description: Обязанности сервера COM
 ms.assetid: 9853bbf5-b989-45b7-8fa8-8cd2f0d48d3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86b9d3104af80a7b2dca49dbbd5b55e66a613ee7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b5c6604a8f42804867e797087ffb346fe69152cb84440d052560c3f40a42140c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854774"
 ---
 # <a name="com-server-responsibilities"></a>Обязанности сервера COM
 
@@ -31,13 +31,13 @@ ms.locfileid: "104413829"
 -   [Вспомогательные методы реализации сервера](out-of-process-server-implementation-helpers.md)
 -   [Создание и оптимизация GUID](guid-creation-and-optimizations.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [COM-клиенты и серверы](com-clients-and-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

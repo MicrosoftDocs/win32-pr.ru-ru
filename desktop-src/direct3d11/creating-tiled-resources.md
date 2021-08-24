@@ -4,12 +4,12 @@ description: Ресурсы мозаичного заполнения созда
 ms.assetid: DED2B70C-1E95-4A85-A818-FD32165FBF6C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6e2c0e457bfd8534d3a42c6f658095b3349572
-ms.sourcegitcommit: 4dcafeb002cbee4f6028b32a956ec22cb95cbc44
+ms.openlocfilehash: 657fc2cca4d5c1d8fce9efba2013d3cd04291efc7f40d44b4ed325e40f843358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "104412120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752584"
 ---
 # <a name="creating-tiled-resources"></a>Создание мозаичных ресурсов
 
@@ -40,7 +40,7 @@ ms.locfileid: "104412120"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dfd451c1c5d4819f1ec1d21f890b207a06d6fb82
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24bc2871afa5916644a3bcdb3ddb4ad2f653e7aa1cd0522c52782ef17bb2352c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751394"
 ---
 # <a name="win32_classiccomapplicationclasses-class"></a>\_Класс Win32 классиккомаппликатионклассес
 
@@ -46,7 +46,7 @@ class Win32_ClassicCOMApplicationClasses : Win32_COMApplicationClasses
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ классиккомаппликатионклассес** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_ClassicCOMApplicationClasses : Win32_COMApplicationClasses
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ классиккомаппликатионклассес** является производным от [**Win32 \_ комаппликатионклассес**](win32-comapplicationclasses.md).
 

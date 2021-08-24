@@ -4,12 +4,12 @@ ms.assetid: bb394cdb-1310-44fb-b7e1-2ffbb976d438
 title: Действие Инсталлсервицес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5964deb08f811e391418211efc6f774261bd87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8e37ea0a80050d6e9ab624ff878a352f96bbc0854fd64d6a1f563f277f1ea6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787024"
 ---
 # <a name="installservices-action"></a>Действие Инсталлсервицес
 
@@ -33,7 +33,7 @@ ms.locfileid: "105684355"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для выполнения этого действия пользователь должен быть администратором или обладать повышенными привилегиями с разрешением на установку служб или на то, что приложение является частью управляемой установки.
 

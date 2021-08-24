@@ -4,12 +4,12 @@ ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: Перечисление ПИН-кодов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322f1764c46c146d1b899c869d1708eac1f0427d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d772903321c71ab2c6d66f7cc46b7ca61b11f96a4bc17b13b8b2f8931d8eac5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748714"
 ---
 # <a name="enumerating-pins"></a>Перечисление ПИН-кодов
 
@@ -65,11 +65,11 @@ HRESULT GetPin(IBaseFilter *pFilter, PIN_DIRECTION PinDir, IPin **ppPin)
 
 Эту функцию можно легко изменить, чтобы вернуть n-контактный заданному направлению или *n*-й несоединенный ПИН. (Чтобы узнать, подключен ли ПИН-код к другому ПИН-коду, вызовите метод [**Ипин:: коннектедто**](/windows/desktop/api/Strmif/nf-strmif-ipin-connectedto) .)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Перечисление объектов в графе фильтра](enumerating-objects-in-a-filter-graph.md)
+[Перечисление объектов в фильтре Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
 [Поиск неподключенного ПИН-кода в фильтре](find-an-unconnected-pin-on-a-filter.md)

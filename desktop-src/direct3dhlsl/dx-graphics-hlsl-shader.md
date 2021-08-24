@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ca3332c441279d7f9221efe8cfa7638908ddc44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c08c0d68a57180c8d2cf0b566caaaa383f34fc0b9f096e34484811a73a20d0fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854704"
 ---
 # <a name="shader-type"></a>Тип шейдера
 
@@ -52,7 +52,7 @@ ms.locfileid: "104984056"
 
  
 
-### <a name="example"></a>Например, .
+### <a name="example"></a>Пример
 
 Ниже приведен пример создания шейдера вершин и объекта шейдера пикселей, скомпилированного для конкретной модели шейдера. В примере Direct3D 10 нет шейдера Geometry, поэтому указатель имеет значение **null**.
 
@@ -100,7 +100,7 @@ technique10 Render
 
  
 
-### <a name="example"></a>Например, .
+### <a name="example"></a>Пример
 
 Ниже приведен пример шейдера вершин и объекта шейдера пикселей, скомпилированного для определенной модели шейдера.
 

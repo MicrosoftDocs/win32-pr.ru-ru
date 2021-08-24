@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: deae1ca92c2280cd31cbec2bf3482c61fcf2b88a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 06e3992dd81d2ffcc32a672e2d524fa51c1372c02ab90d8b6b8a905100ac9afb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104069392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855054"
 ---
 # <a name="define-directive-constant"></a>\#определение директивы (константа)
 
@@ -42,7 +42,7 @@ ms.locfileid: "104069392"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Все экземпляры параметра *идентификатора* , которые выполняются после директивы [ \# define](dx-graphics-hlsl-appendix-pre-define.md) в исходном файле, будут заменены значением параметра *строки токена* . Идентификатор заменяется только в том случае, если он формирует токен. Например, идентификатор не заменяется, если он присутствует в комментарии, в строке или в составе более длинного идентификатора.
 
@@ -89,7 +89,7 @@ var = 80 + 10 * 20;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a6fa5495371e020310e2367aea7e7bed9ef113f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4aed3cdd37c50f20b48922c8c711266a111680506813ab4572800abbca971343
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831764"
 ---
 # <a name="coutputqueuesendanyway-method"></a>Каутпуткуеуе. Сенданивай, метод
 
@@ -44,7 +44,7 @@ void SendAnyway();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если переменная-член [**каутпуткуеуе:: m \_ Ббатчексакт**](coutputqueue-m-bbatchexact.md) имеет **значение true**, объект заполняет массив [**каутпуткуеуе:: m \_ ппсамплес**](coutputqueue-m-ppsamples.md) до того, как он доставляет пакет примеров. Вызовите этот метод для доставки частичного пакета. Например, метод [**каутпуткуеуе:: EOS**](coutputqueue-eos.md) вызывает `SendAnyway` сериализацию сообщений конца потока.
 
@@ -54,7 +54,7 @@ void SendAnyway();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>аутпутк. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3a651822378b6a3c0754ecbd5ace4a5e464f014f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fdf38c9c873dd8d95ae60341fc2f7dba02abff1f8b34fd89d0d1f720dc59b55f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831544"
 ---
 # <a name="cpullpinreceive-method"></a>Кпуллпин. Receive, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT Receive(
 
 Возвращает значение **HRESULT** . Возврат значения, отличного от S \_ ОК, останавливает поток извлечения данных.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывается каждый раз, когда новый пример прибывает из выходного ПИН-кода. Напишите этот метод точно так же, как метод [**имеминпутпин:: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) .
 
@@ -63,18 +63,18 @@ virtual HRESULT Receive(
 
 Все отметки времени задаются как смещение в байтах, умноженное на 10 000 000, определенное как постоянные единицы. Таким же, по одной секунде — один байт. Чтобы найти фактические смещения в байтах, вызовите [**имедиасампле:: Time**](/windows/desktop/api/Strmif/nf-strmif-imediasample-gettime) и разделите результаты на единицы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
+| Заголовок<br/>  | <dl> <dt>Пуллпин. h</dt> </dl>                                                                                                       |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

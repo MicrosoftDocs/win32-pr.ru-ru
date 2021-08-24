@@ -4,12 +4,12 @@ description: Условно вызывает подпрограмму, поме�
 ms.assetid: 7F6E81CE-0C38-499B-B83E-FA76FA154451
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6bc8c9d1e4a99ce25f99253518482181cdb74d8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dcb751b57a09704a2fec7a9c3afb69362873e3a1d2b43091efd984f67623188a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727164"
 ---
 # <a name="callc-sm4---asm"></a>каллк (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104996903"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 При обнаружении [RET](ret--sm4---asm-.md) верните выполнение инструкции после этого вызова.
 
@@ -90,9 +90,9 @@ ms.locfileid: "104996903"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -101,7 +101,7 @@ ms.locfileid: "104996903"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

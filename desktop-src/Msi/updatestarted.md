@@ -4,12 +4,12 @@ ms.assetid: aebc4a20-22b9-4a81-abed-1fed61b880da
 title: Упдатестартед, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99561d17bf6fcb251f1acd7ac0d30ed5c1682997
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 341295b1bac517201bd9b3a2356637af7c883efdd68627ad94a03b6df7d4b614
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810044"
 ---
 # <a name="updatestarted-property"></a>Упдатестартед, свойство
 
@@ -17,13 +17,13 @@ ms.locfileid: "105652147"
 
 В инструкциях условия пользовательского интерфейса это значение используется для выбора диалогового окна. Если это свойство задано, пользователь получит запрос после ошибки и отменяет, следует ли выполнить восстановление или продолжить работу позже.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

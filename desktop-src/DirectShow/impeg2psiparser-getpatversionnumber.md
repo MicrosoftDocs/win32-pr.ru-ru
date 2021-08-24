@@ -1,5 +1,5 @@
 ---
-description: 'Метод IMpeg2PsiParser:: Жетпатверсионнумбер. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
+description: 'метод IMpeg2PsiParser:: жетпатверсионнумбер. реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.'
 ms.assetid: 2f5ad9bf-3d70-491a-ab45-15cd922a02d4
 title: 'Метод IMpeg2PsiParser:: Жетпатверсионнумбер'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 978da4c7076bcf8ffe91bc2b9a4b2077d9d3d48a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ffd03bea09fb9041b91bb214287442eb59a7101be7a8841e0d38e28bcdaf3ecb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767364"
 ---
 # <a name="impeg2psiparsergetpatversionnumber-method"></a>Метод IMpeg2PsiParser:: Жетпатверсионнумбер
 
-Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.
 
 `GetPatVersionNumber`Метод извлекает \_ поле номера версии из Pat. Транспортный поток содержит не более одного PAT. Номер версии увеличивается каждый раз, когда изменяется информация в таблице.
 
@@ -61,7 +61,7 @@ HRESULT GetPatVersionNumber(
 
  
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

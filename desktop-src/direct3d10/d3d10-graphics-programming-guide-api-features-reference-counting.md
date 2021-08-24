@@ -4,18 +4,18 @@ ms.assetid: 4f4e1af8-5830-4b2d-ba2e-dc2ec4e74a19
 title: Подсчет ссылок (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3587466aa3ecaea5f3a77332c77654b0725bb1
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 80745c7af251294dca279a023f541b6485d2c3e01da22d2b8432e7220ac9bbd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793264"
 ---
 # <a name="reference-counting-direct3d-10"></a>Подсчет ссылок (Direct3D 10)
 
 Функции набора Direct3D 10 не содержат ссылку на объект устройства-потомка. Это означает, что каждое приложение должно содержать ссылку на дочерний объект устройства, пока объект должен быть привязан к конвейеру. Когда число ссылок объекта становится равным нулю, объект будет отменен из конвейера и уничтожен. Этот стиль ссылки, удерживаемый также, называется слабой ссылкой, так как каждое расположение привязки конвейера содержит слабую ссылку на интерфейс или объект, который привязан к нему.
 
-Пример:
+Например:
 
 
 ```

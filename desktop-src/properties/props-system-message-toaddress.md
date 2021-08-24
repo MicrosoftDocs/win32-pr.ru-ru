@@ -4,12 +4,12 @@ ms.assetid: 7f892659-7f3c-490f-bb41-c4f340303a8e
 title: System. Message. Тоаддресс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ffe3a543a514aa6ec66e09c02cc1433805a223
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a083d11f089a72ffee6f99780bfd403766b2ba1280df3ed81b78bb1d857861bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774674"
 ---
 # <a name="systemmessagetoaddress"></a>System. Message. Тоаддресс
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 03e89f56522d941db4447b33b55cbedc7c73303f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bdb7a22570e92945df8ab599f8c95bdffa1d03dd9ac83e35dfc7bb849bd42d99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853334"
 ---
 # <a name="byteaddressbuffer"></a>битеаддрессбуффер
 
@@ -48,7 +48,7 @@ ms.locfileid: "104984073"
 
 | Модель шейдера                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Поддерживается |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| [Модель](d3d11-graphics-reference-sm5.md) шейдера модели построителя текстуры 5 и более поздних моделей [построителя текстуры 4](dx-graphics-hlsl-sm4.md) (доступна через API Direct3D 11 с использованием уровня компонентов 10,0 или 10,1 ([**\_ \_ уровень компонента D3D**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) \_ 10 \_ X) на устройствах, поддерживающих шейдеры вычислений. Дополнительные сведения о поддержке COMPUTE Shader на оборудовании нижнего уровня см. в разделе Вычисление шейдеров на несущем [оборудовании](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).<br/> | да       |
+| [Модель](d3d11-graphics-reference-sm5.md) шейдера модели построителя текстуры 5 и более поздних моделей [построителя текстуры 4](dx-graphics-hlsl-sm4.md) (доступна через API Direct3D 11 с использованием уровня компонентов 10,0 или 10,1 ([**\_ \_ уровень компонента D3D**](/windows/desktop/api/d3dcommon/ne-d3dcommon-d3d_feature_level) \_ 10 \_ X) на устройствах, поддерживающих шейдеры вычислений. Дополнительные сведения о поддержке COMPUTE Shader на оборудовании нижнего уровня см. в разделе Вычисление шейдеров на несущем [оборудовании](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-compute-shaders).<br/> | Да       |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104984073"
 
 Шейдер Model 5 также реализует [буфер байтового адреса для чтения и записи](sm5-object-rwbyteaddressbuffer.md).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

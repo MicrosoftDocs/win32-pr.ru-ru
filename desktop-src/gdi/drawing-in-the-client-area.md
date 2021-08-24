@@ -4,18 +4,18 @@ ms.assetid: ed995bfd-a791-4d73-9a0b-daf65a9f7709
 title: Рисование в клиентской области
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1e14c8492a11a7ad9764416b2453cea3264fbf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5d01331ae60a7814602f6c10c0d9109ae665da39aa140223e31ac03303048b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832024"
 ---
 # <a name="drawing-in-the-client-area"></a>Рисование в клиентской области
 
 Для подготовки и завершения рисования в клиентской области используются функции [**бегинпаинт**](/windows/desktop/api/Winuser/nf-winuser-beginpaint) и [**ендпаинт**](/windows/desktop/api/Winuser/nf-winuser-endpaint) . **Бегинпаинт** возвращает маркер контекста устройства отображения, используемого для рисования в клиентской области. **Ендпаинт** завершает запрос на рисование и освобождает контекст устройства.
 
-В следующем примере процедура окна записывает сообщение «Hello, Windows!». в клиентской области. Чтобы обеспечить видимость строки при первом создании окна, функция [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) вызывает [**упдатевиндов**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) сразу после создания и отображения окна. Это приводит к немедленной отправке сообщения [**WM \_ Paint**](wm-paint.md) в процедуру окна.
+В следующем примере процедура Window записывает сообщение «Hello, Windows!». в клиентской области. Чтобы обеспечить видимость строки при первом создании окна, функция [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) вызывает [**упдатевиндов**](/windows/desktop/api/Winuser/nf-winuser-updatewindow) сразу после создания и отображения окна. Это приводит к немедленной отправке сообщения [**WM \_ Paint**](wm-paint.md) в процедуру окна.
 
 
 ```C++

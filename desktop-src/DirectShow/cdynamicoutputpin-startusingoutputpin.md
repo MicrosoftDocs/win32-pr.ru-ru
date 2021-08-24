@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1c5ea7386c896f6b989a47c2574dfa4d61eacb5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4438c6670b0535711c453e64496ffd4b21263acab728e090024f9e1e01427969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749454"
 ---
 # <a name="cdynamicoutputpinstartusingoutputpin-method"></a>Кдинамикаутпутпин. Стартусингаутпутпин, метод
 
@@ -56,7 +56,7 @@ virtual HRESULT StartUsingOutputPin();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызовите этот метод перед вызовом методов, которые доставляют данные в подключенный входной ПИН-код или изменяют тип носителя соединения. Например, это правило применяется к следующим методам:
 
@@ -77,18 +77,18 @@ virtual HRESULT StartUsingOutputPin();
 
 Не держите в [**кдинамикаутпутпин:: m \_ блоккстателокк**](cdynamicoutputpin-m-blockstatelock.md) критическую секцию при вызове этого метода. В противном случае, если ПИН-код заблокирован, он не может быть разблокирован, что приведет к взаимоблокировке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

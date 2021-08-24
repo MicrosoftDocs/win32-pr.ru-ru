@@ -3,7 +3,7 @@ title: Сообщение WM_TOUCH (Winuser. h)
 description: Уведомляет окно, когда одна или несколько сенсорных точек, таких как палец или перо, касаются сенсорной поверхности дигитайзера.
 ms.assetid: 5dee8bab-34fa-4dd9-a65b-35883757ec80
 keywords:
-- WM_TOUCH сообщений Windows Touch
+- сообщение WM_TOUCH Windows TOUCH
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6242d43b661240d946d2883237640d1bc92b3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec1034a229dbb1f3895726fcb3c1551e2dd0f390be0fd7bc2eb81d8331e582eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810104"
 ---
 # <a name="wm_touch-message"></a>\_Сообщение касания WM
 
@@ -57,7 +57,7 @@ ms.locfileid: "104415812"
 
 Если приложение не обрабатывает сообщение, оно должно вызвать [дефвиндовпрок](/windows/win32/api/winuser/nf-winuser-defwindowproca). Это приводит к утечке памяти в приложении, поскольку дескриптор сенсорного ввода не закрыт, а связанная память процесса не освобождается.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **WM \_ СЕНСОРные** сообщения не учитывают **хттранспарент** области Windows. Если окно возвращает **хттранспарент** в ответ на сообщение **\_ нчиттест WM** , сообщения мыши переходят к родительскому элементу, а сообщения **WM \_ Touch** переходят непосредственно в окно.
 
@@ -97,19 +97,19 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                  |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -119,7 +119,7 @@ return DefWindowProc(hWnd, message, wParam, lParam);
 [Инструкции по программированию и обработке инерции](manipulation-and-inertia.md)
 </dt> <dt>
 
-[Справочное руководством по программированию ввода Windows Touch](guide-multi-touch-input.md)
+[Windows Руководств по программированию для сенсорного ввода](guide-multi-touch-input.md)
 </dt> </dl>
 
  

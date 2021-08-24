@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 3b11e9cb9a8425989e4ee513e0cfc18d2619ec4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae677a5dff2bcb7189b17c7d1477c95df5a5ae32b0065104b92e426e364d775d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749644"
 ---
 # <a name="orsetvalue-function"></a>Функция Орсетвалуе
 
@@ -92,7 +92,7 @@ DWORD ORSetValue(
 
 Если функция завершается ошибкой, возвращаемое значение является ненулевым кодом ошибки, определенным в файле Winerror. h. [](/windows/win32/api/winbase/nf-winbase-formatmessage) \_ \_ \_ Для получения обобщенного описания ошибки можно использовать функцию FormatMessage с флагом формата Message от System.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Размеры значений ограничены доступной памятью. Длинные значения (более 2048 байт) должны храниться в виде файлов с именами файлов, хранящимися в реестре. Это помогает реестру работать эффективно. Элементы приложения, такие как значки, точечные рисунки и исполняемые файлы, должны храниться в виде файлов и не помещаться в реестр.
 
@@ -102,8 +102,8 @@ DWORD ORSetValue(
 
 | Требование | Значение |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Распространяемые компоненты<br/> | Автономная библиотека реестра Windows версии 1,0 или более поздней<br/>                      |
-| Header<br/>          | <dl> <dt>Оффрег. h</dt> </dl>   |
+| Распространяемые компоненты<br/> | Windows Библиотека автономных разделов реестра версии 1,0 или более поздней<br/>                      |
+| Заголовок<br/>          | <dl> <dt>Оффрег. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 
 

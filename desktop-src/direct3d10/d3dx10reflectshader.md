@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: 15201bcbde2792bbd31cbf4dad7b87d7ddac5053
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7694aa0dcfcc256358993f29c9ed448c1648b35768e5844a959726a6737c2371
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105651553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753084"
 ---
 # <a name="d3dx10reflectshader-function"></a>Функция D3DX10ReflectShader
 
@@ -74,7 +74,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 Возвращает один из следующих [кодов возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведен пример создания объекта Shader-Reflection. В этом примере предполагается, что вы начинаете с скомпилированного шейдера (показанного как
 
@@ -107,7 +107,7 @@ if( pIShaderReflection1 )
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
 
 
 

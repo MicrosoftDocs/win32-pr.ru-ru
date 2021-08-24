@@ -4,12 +4,12 @@ description: Вызов функции интерфейса.
 ms.assetid: C21784A0-D2F4-4DDE-9AC4-4F21351BCA6E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c57ea40fec51cf4155b0932f6ce4a7b80d3180dd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e7781fc0a2fc7bbd715084d3c0e9682a433ddf16e4492724df8fdb2e31c84689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854514"
 ---
 # <a name="fcall-sm5---asm"></a>фкалл (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412227"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 *FP \#* \[  \] \[ arrayIndex \] разрешается в определенную таблицу функций, выбранную из API за пределами шейдера, из вариантов таблицы функций, перечисленных в объявлении *FP \#*.
 
@@ -71,7 +71,7 @@ ms.locfileid: "104412227"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -82,7 +82,7 @@ ms.locfileid: "104412227"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

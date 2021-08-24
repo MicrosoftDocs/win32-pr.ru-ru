@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 9a14198cb6f1912612a092e003a68fd9ff49f867
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7ea5a365a9c5bdcb478ce47443a713ed5bc091666b54de880dc478708e4c36c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749694"
 ---
 # <a name="orcreatekey-function"></a>Функция Оркреатекэй
 
@@ -130,7 +130,7 @@ DWORD ORCreateKey(
 
 Если параметр *двоптионс* установлен с параметром **реестра \_ \_ Create \_ Link** , но **\_ параметр REG \_ volatile имеет \_ неизменяемое** значение, или если возвращаемый маркер является обработчиком корневого ключа Hive, функция возвращает ошибку \_ Недопустимый \_ параметр.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ключ, создаваемый функцией **оркреатекэй** , не имеет значений. Приложение может использовать функцию [**орсетвалуе**](orsetvalue.md) для установки значений ключей.
 
@@ -138,19 +138,19 @@ DWORD ORCreateKey(
 
 Автономный реестр не поддерживает сохранение отдельных ключей. Используйте функцию [**орсавехиве**](orsavehive.md) для сохранения ключа и его подразделов в кусте Hive.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Распространяемые компоненты<br/> | Автономная библиотека реестра Windows версии 1,0 или более поздней<br/>                      |
-| Header<br/>          | <dl> <dt>Оффрег. h</dt> </dl>   |
+| Распространяемые компоненты<br/> | Windows Библиотека автономных разделов реестра версии 1,0 или более поздней<br/>                      |
+| Заголовок<br/>          | <dl> <dt>Оффрег. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
 title: Свойство Enabled (объект Command)
-description: Сведения о свойстве объекта команды Enabled. Microsoft Agent является устаревшим в Windows 7.
+description: Сведения о свойстве объекта команды Enabled. не рекомендуется использовать Microsoft Agent на Windows 7.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dc0c65d5cfa0438fe9d61eac0c59e916731e057
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0a3d8b77833da20c4a0b4254d4ce3432ff20d2f9b18a1da877adc9664bbff6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726064"
 ---
 # <a name="enabled-property-command-object"></a>Свойство Enabled (объект Command)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -33,7 +33,7 @@ ms.locfileid: "112407337"
 
 | Часть      | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | Логическое выражение, указывающее, включена ли **команда** .<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**True**</dt> <dd> **Команда** включена.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**IsFalse**</dt> <dd> **Команда** отключена.<br/> </dd> </dl> |
+| *boolean* | Логическое выражение, указывающее, включена ли **команда** .<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**Верно**</dt> <dd> **Команда** включена.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Нет**</dt> <dd> **Команда** отключена.<br/> </dd> </dl> |
 
 
 

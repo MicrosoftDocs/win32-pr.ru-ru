@@ -4,12 +4,12 @@ description: Ранее вы рассматривали создание окн�
 ms.assetid: 73cf62d0-7e4f-4e93-aa65-12741588d4fb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e50f9a387b2d44fe750abcf5a8856f75e6d0110e
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 41a3e0fa7e3f7775c5cd51d49f9867864e7a204975fd982565491a63db829aa7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "105720017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727524"
 ---
 # <a name="understand-the-direct3d-11-rendering-pipeline"></a>Общие сведения о конвейере визуализации Direct3D 11
 
@@ -458,7 +458,7 @@ void Renderer::Render()
 
 Далее в последнем разделе ([Работа с шейдерами и ресурсами шейдеров](work-with-shaders-and-shader-resources.md)) мы рассмотрим шейдеры и расскажу, как они выполняют эти задачи.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

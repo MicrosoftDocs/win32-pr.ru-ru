@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03c029d7689743150235d20b0658cd154ef64a4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14681c381f8c8b9abbc5b28ec763b959854e2303b9a0b87af762238f4e5a8d27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752804"
 ---
 # <a name="addprinterdriver-method-of-the-win32_printerdriver-class"></a>Метод Аддпринтердривер \_ класса Win32 принтердривер
 
@@ -83,7 +83,7 @@ uint32 AddPrinterDriver(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > При использовании метода **аддпринтердривер** необходимо использовать **селоаддриверпривилеже** для загрузки или выгрузки драйвера устройства.

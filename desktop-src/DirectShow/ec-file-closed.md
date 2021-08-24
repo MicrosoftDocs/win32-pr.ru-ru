@@ -4,12 +4,12 @@ ms.assetid: 1bbedf76-e840-4ec6-b3b2-c7e7dee47cf5
 title: EC_FILE_CLOSED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4516c8a82f88c7685a41840d5da589c4a3741f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36b345bb364504a285b384a89f1fc6987a61ffba998608df0185f7871264d466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748894"
 ---
 # <a name="ec_file_closed"></a>\_файл EC \_ закрыт
 
@@ -39,7 +39,7 @@ ms.locfileid: "105675332"
 
 ## <a name="remarks"></a>Remarks
 
-Устаревший фильтр источника Windows Media отправляет это событие. Новые фильтры не должны отсылать это событие.
+фильтр источника Windows носителя прежних версий отправляет это событие. Новые фильтры не должны отсылать это событие.
 
 ## <a name="requirements"></a>Требования
 
@@ -47,7 +47,7 @@ ms.locfileid: "105675332"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: Образец фильтра средства синтаксического анализа PSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1099375d2dbabf9ee6c8e891b0a1780bebbb599d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: de960d36900a417212cdd34ac795b504d4ad073ccd61619ffad110d5fe125fad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104570241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747932"
 ---
 # <a name="psi-parser-filter-sample"></a>Образец фильтра средства синтаксического анализа PSI
 
@@ -25,10 +25,10 @@ ms.locfileid: "104570241"
 
 1.  Запустите Графедит.
 2.  Вставьте источник транспорта MPEG-2. Видеокамеры MPEG-2 и устройства D-ВХС отображаются в категории источников видеозаписи как "устройство подразделений Microsoft AV/C".
-3.  Соедините фильтр источников с фильтром демультиплексора MPEG-2.
+3.  Подключение фильтр источника для фильтра демультиплексора MPEG-2.
 4.  Используйте страницу свойств в демультиплексирование, чтобы создать выходной ПИН-код с типом носителя MPEG-2 PSI. Этот ПИН-код доставляет разделы PAT и ПЛТ.
 5.  Используйте страницу свойств демультиплексирование, чтобы связать идентификатор потока 0x00 с выходным закреплением. Задайте тип содержимого "разделы MPEG2 PSI".
-6.  Подключите закрепление выходных данных демультиплексирование к средству синтаксического анализа PSI, как показано на следующей схеме.
+6.  Подключение закрепление выходных данных демультиплексирование в средстве синтаксического анализа PSI, как показано на следующей схеме.
 
     ![граф фильтра средства синтаксического анализа psi](images/psi-parser.png)
 
@@ -125,15 +125,15 @@ for (WORD j = 0; j < cElemStreams; j++)
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ псипарсер.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ псипарсер.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> <dt>
 
 [**Интерфейс IMpeg2PsiParser**](impeg2psiparser.md)

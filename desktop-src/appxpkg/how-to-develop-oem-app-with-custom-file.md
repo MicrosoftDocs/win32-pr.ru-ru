@@ -4,12 +4,12 @@ description: Узнайте, как разработать приложение,
 ms.assetid: BCDB4B13-3644-44E4-9A70-04D8E90500EE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf60364138a80317e6db8ac4c5d028c36ff540f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4780e930d057c325038c94dc86fc375c70bdb1cc8dca34ac6169436bc0f0e323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "105700839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855324"
 ---
 # <a name="how-to-develop-an-oem-app-that-uses-a-custom-file"></a>Разработка приложения OEM, использующего пользовательский файл
 
@@ -19,13 +19,13 @@ ms.locfileid: "105700839"
 
 Для приложений, создаваемых для развертывания изготовителем оборудования, можно использовать пользовательский файл для передачи сведений от изготовителя оборудования в приложения. Чтобы передать сведения об ИЗГОТОВИТЕЛе в приложение, создайте файл Custom. Data в папке microsoft.sysTEM. Package. метаданных. Это имя файла является специальным для операционной системы и автоматически переносится во время обновления операционной системы. Поставщики вычислительной техники могут использовать этот файл для передачи настраиваемых идентификаторов, чтобы приложения были осведомлены о развертывании их изготовителями оборудования. У вас может быть только один настраиваемый файл. Data для каждого приложения. Приложения должны иметь возможность правильно искать и считывать этот файл. Разработчики считают файл ненадежным.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Краткое руководство. запрос сведений о манифесте пакета приложения](how-to-query-package-identity-information.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Для добавления пакета приложения с пользовательским файлом данных требуется средство [обслуживания образов развертывания и управления ими (DISM)](/windows/desktop/Win7AppQual/dism-replaces-pkgmgr-peimg-and-intlconfg-tools) .
 
@@ -40,11 +40,11 @@ ms.locfileid: "105700839"
 > [!Note]  
 > Приложение не может изменить пользовательский файл данных. Это ресурс только для чтения.
 
- 
+ 
 
 ### <a name="step-2-access-the-custom-data-file-for-an-app"></a>Шаг 2. доступ к пользовательскому файлу данных для приложения
 
-Чтобы получить сведения о текущем пакете, можно получить доступ к пользовательскому файлу. Data для приложения из вашего кода с помощью API-интерфейсов Windows. Пример:
+вы можете получить доступ к пользовательскому файлу. data для приложения из кода с помощью Windows api-интерфейсов для получения сведений о текущем пакете. Пример:
 
 ``` syntax
 Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
@@ -55,13 +55,13 @@ Windows.ApplicationModel.Package.current.installedLocation.getFileAsync(
 
 Дополнительные сведения о доступе к файлу Custom. Data через [**исторажефолдер. GetFileAsync**](/uwp/api/windows.storage.istoragefolder.getfileasync) и с помощью объектов [**StorageFile**](/uwp/api/Windows.Storage.StorageFile) см. в разделе [доступ к данным и файлам](/previous-versions/windows/apps/hh464959(v=win.10)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Краткое руководство. запрос сведений о манифесте пакета приложения](how-to-query-package-identity-information.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

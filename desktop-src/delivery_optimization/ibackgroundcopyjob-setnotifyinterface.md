@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f3b6e8205eb60cbd2ca645cd484e41f8f242619d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd54255d87ee3f15f87d692e06b7a503e773634ab4ec30c3f388388233aab2b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793413"
 ---
 # <a name="ibackgroundcopyjobsetnotifyinterface-method"></a>Метод использованием метода ibackgroundcopyjob:: Сетнотифинтерфаце
 
@@ -64,7 +64,7 @@ HRESULT SetNotifyInterface(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод следует вызывать только при реализации интерфейса [**ибаккграундкопикаллбакк**](ibackgroundcopycallback.md) . Используйте метод **сетнотифинтерфаце** в сочетании с методом [**сетнотифифлагс**](ibackgroundcopyjob-setnotifyflags.md) , чтобы указать тип уведомления, которое требуется получить.
 
@@ -72,15 +72,15 @@ HRESULT SetNotifyInterface(
 
 Только владелец, создатель или администратор задания могут зарегистрироваться для получения уведомлений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Досвк. lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
@@ -88,7 +88,7 @@ HRESULT SetNotifyInterface(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

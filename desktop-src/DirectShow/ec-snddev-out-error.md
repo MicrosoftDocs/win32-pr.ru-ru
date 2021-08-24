@@ -4,12 +4,12 @@ ms.assetid: 60e36476-f553-468d-a28d-351fdf4a02f1
 title: EC_SNDDEV_OUT_ERROR (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1182aaba7bb30ad27511b47ba8e4432d8fd33da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eefe6dbe57b26bf167a7fbc668010930bacffc321d42d2847ae6776696e009fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792414"
 ---
 # <a name="ec_snddev_out_error"></a>\_Ошибка EC снддев \_ out \_
 
@@ -35,7 +35,7 @@ ms.locfileid: "105652152"
 
 ## <a name="default-action"></a>Действие по умолчанию
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -43,7 +43,7 @@ ms.locfileid: "105652152"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: Код уведомления TRBN_THUMBPOSCHANGING (Коммктрл. h)
 description: Уведомляет об изменении расположения бегунка на TrackBar. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 0876e026-bc07-409d-b174-b97ed704fc11
 keywords:
-- TRBN_THUMBPOSCHANGING кода уведомления элементы управления Windows
+- TRBN_THUMBPOSCHANGING кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f23722b68f28a5157948ac6277858193366242fe
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 48f05f67eb20c78f764957e73d2293d32e88f25a73d44d6b58f9a1c310b8d9d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751044"
 ---
 # <a name="trbn_thumbposchanging-notification-code"></a>\_Код уведомления трбн сумбпосчангинг
 
@@ -49,7 +49,7 @@ TRBN_THUMBPOSCHANGING
 
 Возвращает **значение true** , чтобы предотвратить перемещение бегунка в указанную точку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Отправьте это уведомление клиентам, которые не прослушивают сообщения [**WM \_ HSCROLL**](wm-hscroll.md) или [**WM \_ VSCROLL**](wm-vscroll.md) .
 
@@ -59,9 +59,9 @@ TRBN_THUMBPOSCHANGING
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

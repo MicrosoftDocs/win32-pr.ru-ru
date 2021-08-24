@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3c3f0e39c0670176b6233f61f0ba50596c92ca4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6aeaea0e51960f8f4bf768b855ac31236b2bb330cfda3390fd9e61dab4ec1f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854584"
 ---
 # <a name="fog-register"></a>Регистр тумана
 
@@ -32,20 +32,20 @@ ms.locfileid: "104983712"
 
 
 
- 
+ 
 
 Регистры значений выходных тумана. Значение — это коэффициент тумана для интерполяции, который затем направляется в таблицу тумана. Используется только скалярный компонент x-компонента тумана.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры шейдеров вершин](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

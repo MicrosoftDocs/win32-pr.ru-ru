@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5396c70c1c4286223d9f45fb8ab9b73a019becb1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9cb1adacadb92cf3a2f9a3e041e4a94a840994db3244233509350448008bd675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748784"
 ---
 # <a name="id3dxconstanttablegetconstantelement-method"></a>Метод ID3DXConstantTable:: Жетконстантелемент
 
@@ -65,22 +65,22 @@ D3DXHANDLE GetConstantElement(
 
 Возвращает уникальный идентификатор для константы элемента.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить константу, которая не является частью массива, используйте [**ID3DXConstantTable::-Constant**](id3dxconstanttable--getconstant.md) или [**ID3DXConstantTable:: жетконстантбинаме**](id3dxconstanttable--getconstantbyname.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

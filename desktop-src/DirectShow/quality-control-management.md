@@ -4,12 +4,12 @@ ms.assetid: b1def588-6c9c-4853-a69b-1ba5df8b5ba2
 title: Управление Quality-Control
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c68aff4f8c054f9f649801e1b9829ccd7daaff35
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 824410b697a29ee73fc269748595fdcae91d054a161561b282536a05dcf92ef5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747714"
 ---
 # <a name="quality-control-management"></a>Управление Quality-Control
 
@@ -20,14 +20,14 @@ ms.locfileid: "105682176"
 -   [Сообщения о контроле качества](quality-messages.md)
 -   [Контроль качества по умолчанию](default-quality-control.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Поток данных для разработчиков фильтров](data-flow-for-filter-developers.md)
+[Flow данных для разработчиков фильтров](data-flow-for-filter-developers.md)
 </dt> <dt>
 
-[Написание фильтров DirectShow](writing-directshow-filters.md)
+[написание фильтров DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

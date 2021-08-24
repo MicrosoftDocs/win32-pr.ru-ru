@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: 3d65e5ba5525b977ebae27da9964579614a1d653
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8855378544bcc2ea7357af220b5d80d32edde74a50c304e973c9821aa8e9a41c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792334"
 ---
 # <a name="ikspin-interface"></a>Интерфейс Икспин
 
-`IKsPin`Интерфейс предоставляет метод для получения средних, поддерживаемых ПИН-кодом в фильтре режима ядра. `IKsPin` содержит дополнительные методы, Помимо показанных здесь, но они не поддерживаются для DirectShow.
+`IKsPin`Интерфейс предоставляет метод для получения средних, поддерживаемых ПИН-кодом в фильтре режима ядра. `IKsPin`содержит дополнительные методы, Кроме показанных здесь, но они не поддерживаются для DirectShow.
 
 ## <a name="members"></a>Элементы
 
@@ -45,11 +45,11 @@ ms.locfileid: "105673022"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед Кспрокси. h необходимо включить KS. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

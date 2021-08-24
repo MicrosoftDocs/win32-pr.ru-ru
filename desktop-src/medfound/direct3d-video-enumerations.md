@@ -4,12 +4,12 @@ ms.assetid: 41959498-501d-4f0d-ba1f-1c0690b62f4d
 title: Перечисления видео Direct3D 9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d45f1fc8627fd06a211f9db0304ae00568fc515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a01ec1465df920a7a1c1a4a3eeafde6babdd8b0c28044fee5dbb124dbc1097c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777434"
 ---
 # <a name="direct3d-9-video-enumerations"></a>Перечисления видео Direct3D 9
 
@@ -27,7 +27,7 @@ ms.locfileid: "105710825"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

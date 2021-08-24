@@ -1,19 +1,19 @@
 ---
-description: В этом справочнике по программированию описаны основные API аудио в Windows SDK. API-интерфейсы Audio Core реализуются в Mmdevapi.dll и Audioses.dll.
+description: в этом справочнике по программированию описаны основные api аудио в Windows SDK. API-интерфейсы Audio Core реализуются в Mmdevapi.dll и Audioses.dll.
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Справочник по основному программированию аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8c3f3d5ead190cf3151629f015095b404be778
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4cf2eae3d3a8d349c4a8b2f91963b699e66bedaa72ed0cfa5f4103ee69a6e7b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750684"
 ---
 # <a name="core-audio-programming-reference"></a>Справочник по основному программированию аудио
 
-В этом справочнике по программированию для основных API-интерфейсов аудио в Windows SDK содержатся следующие подразделы:
+в этом справочнике по программированию для основных api-интерфейсов аудио в Windows SDK содержатся следующие подразделы:
 
 -   [Основные интерфейсы аудиоподсистемы](core-audio-interfaces.md)
 -   [Основные аудио структуры](core-audio-structures.md)

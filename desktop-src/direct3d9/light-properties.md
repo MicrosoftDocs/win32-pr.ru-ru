@@ -4,12 +4,12 @@ ms.assetid: b39f1287-c67b-4cbb-b599-4a1b2f4981ac
 title: Свойства освещения (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63239024109327e483ff93c2ee29fe42fc22c922
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14c3e815401fe0b35c7409dec783515de5c3422ac92d6aed6fd4adebf09f8c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747004"
 ---
 # <a name="light-properties-direct3d-9"></a>Свойства освещения (Direct3D 9)
 
@@ -51,7 +51,7 @@ ms.locfileid: "104139659"
 | D3DRS \_ диффусематериалсаурце  | Определяет, где следует получить цвет рассеянного материала.  | D3DMATERIALCOLORSOURCE | D3DMCS \_ COLOR1   |
 | D3DRS \_ спекуларматериалсаурце | Определяет, где можно получить цвет отражающих материалов. | D3DMATERIALCOLORSOURCE | D3DMCS \_ COLOR2   |
 | D3DRS \_ емиссивематериалсаурце | Определяет, где получить цвет эмиссионный материала. | D3DMATERIALCOLORSOURCE | \_Материал D3DMCS |
-| D3DRS \_ колорвертекс            | Отключает или позволяет использовать цвета вершин.     | BOOL                   | true             |
+| D3DRS \_ колорвертекс            | Отключает или позволяет использовать цвета вершин.     | BOOL                   | TRUE             |
 
 
 
@@ -86,7 +86,7 @@ D3DMATERIALCOLORSOURCE могут иметь следующие значения
 
 Свойство дальности действия источника света определяет расстояние в пространстве мира, после которого объекты сцены перестают получать свет, излучаемый этим источником. Элемент Range содержит значение с плавающей запятой, представляющее максимальный диапазон света в мировом пространстве. Направленные источники света не используют свойство дальности действия.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

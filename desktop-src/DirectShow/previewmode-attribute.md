@@ -4,12 +4,12 @@ ms.assetid: 5e4f4407-b43e-4b31-8676-1e12b6b70034
 title: Атрибут PreviewMode
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3b589b279a11b8ec329641ea2522a6a46dfa0e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6baed13417539432a3a2958b96b214c3c63ae12f2802586ca220669b1497d91f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748274"
 ---
 # <a name="previewmode-attribute"></a>Атрибут PreviewMode
 
@@ -24,15 +24,15 @@ ms.locfileid: "104416684"
 
 Следующие значения определены как TRUE: y, Y, t, T, 1. Следующие значения определены как FALSE: n, N, f, F, 0 (ноль).
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**сгруппировать**](group-element.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В параметре по умолчанию фреймы удаляются при предварительном просмотре нестандартных эффектов или переходов для синхронизации видео с аудио. В результате видео может выглядеть прерывисто. Если задать для этого атрибута **значение false** , каждый кадр будет отображаться во время предварительного просмотра, что может привести к тому, что видео не будет синхронизировано с аудио. Фреймы никогда не удаляются при записи в файл.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
