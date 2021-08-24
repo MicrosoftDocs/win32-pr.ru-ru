@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2d621bf26d097eeac17962fd14557f73f295a2e3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 93ee67c536934adb3187a5e224be0043167f9836e391d86556b8e76871563aad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104081800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485874"
 ---
 # <a name="texture2darraygathercmpredsfloatfloatint2int2int2int2-function"></a>Функция Texture2DArray:: Гасеркмпред (S, float, float, int2, int2, int2, int2)
 
@@ -114,7 +114,7 @@ TemplateType GatherCmpRed(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -130,7 +130,7 @@ TemplateType GatherCmpRed(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

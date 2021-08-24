@@ -1,20 +1,20 @@
 ---
-title: Распознанные типы (устаревшие функции среды Windows)
+title: распознанные типы (устаревшие функции Windows среды)
 description: PerceivedType — это свойство, которое классифицирует элемент в индексе.
 ms.assetid: 47a5cf55-79f6-48e7-a585-72fc3d7d53d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afaf7d8b827495a94b441e5504762dd53dbe733c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2de2baa37a46a9bd78e6e8a7ad94806dffe3a918046253bb09d4dab6090838b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610834"
 ---
-# <a name="perceived-types-legacy-windows-environment-features"></a>Распознанные типы (устаревшие функции среды Windows)
+# <a name="perceived-types-legacy-windows-environment-features"></a>распознанные типы (устаревшие функции Windows среды)
 
 > [!NOTE]
-> Windows Desktop Search 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. В более поздних выпусках используйте вместо этого [Поиск Windows](../search/-search-3x-wds-overview.md) .
+> Windows настольный поиск 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. в более поздних выпусках используйте вместо этого [Windows поиск](../search/-search-3x-wds-overview.md) .
 
 `PerceivedType` свойство, которое классифицирует элемент в индексе. Эта классификация отличается от классификации "тип", используемой [расширенным синтаксисом запросов](-search-2x-wds-aqsreference.md) , но также позволяет пользователям уточнять результаты поиска. Тип АКС позволяет пользователям ограничить поисковый запрос, тогда как свойство PerceivedType позволяет пользователям фильтровать свои результирующие наборы.
 

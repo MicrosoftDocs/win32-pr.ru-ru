@@ -4,16 +4,16 @@ description: Иажентчарактер Хасосерклиентс
 ms.assetid: ee74fa9b-2842-43ac-8493-bc69b480581e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32380e31e63278f4181cfd854ecaada1775a4fd5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6469c289d846cb34e14c6afabbed72647e6e786fbda273baaf70532d4ad6578c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665754"
 ---
 # <a name="iagentcharacterhasotherclients"></a>Иажентчарактер:: Хасосерклиентс
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT HasOtherClients(
@@ -34,9 +34,9 @@ HRESULT HasOtherClients(
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

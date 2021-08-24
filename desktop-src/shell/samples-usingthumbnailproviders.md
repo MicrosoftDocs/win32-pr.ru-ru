@@ -1,5 +1,5 @@
 ---
-description: Демонстрирует использование интерфейса Исумбнаилпровидер для извлечения эскиза элемента из системы кэша эскизов Windows.
+description: демонстрирует использование интерфейса исумбнаилпровидер для извлечения эскиза элемента из системы кэша эскизов Windows.
 title: 'Пример: использование поставщиков эскизов'
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7e0cab8db27ddfdca0db5a7a08b6329c44776fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac28ae28f3d5ef858b3f4cab328f94c4df245dc1681b263ca22fa34f7f6399df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592874"
 ---
 # <a name="using-thumbnail-providers-sample"></a>Пример: использование поставщиков эскизов
 
-Демонстрирует использование интерфейса [**исумбнаилпровидер**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) для извлечения эскиза элемента из системы кэша эскизов Windows.
+демонстрирует использование интерфейса [**исумбнаилпровидер**](/windows/desktop/api/Thumbcache/nn-thumbcache-ithumbnailprovider) для извлечения эскиза элемента из системы кэша эскизов Windows.
 
 В этом разделе содержатся следующие подразделы.
 
@@ -27,7 +27,7 @@ ms.locfileid: "104985780"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

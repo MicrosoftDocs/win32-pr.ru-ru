@@ -4,12 +4,12 @@ ms.assetid: ce21ca0f-157c-4f69-bcf9-dc259c3bac80
 title: Инициализация обработчиков расширений оболочки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6a27b6273c5e342dc4caf545fb3593cdad66261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f83a47400cff5d0fa4628f6f6f9d9ba74b158947c7843f61831d54f62c7a6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661224"
 ---
 # <a name="initializing-shell-extension-handlers"></a>Инициализация обработчиков расширений оболочки
 
@@ -21,7 +21,7 @@ ms.locfileid: "104986049"
 -   [**DllGetClassObject**](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject). Предоставляет фабрику класса объекта.
 -   [**DllCanUnloadNow**](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow). COM вызывает эту функцию, чтобы определить, обслуживает ли объект какие-либо клиенты. В противном случае система может выгрузить библиотеку DLL и освободить связанную с ней память.
 
-Как и все COM-объекты, обработчики расширений оболочки должны реализовывать интерфейс [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) и [фабрику классов](../com/implementing-iclassfactory.md). В большинстве случаев также необходимо реализовать интерфейс [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) или [**ИШЕЛЛЕКСТИНИТ**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) в Windows XP или более ранней версии. Они были заменены на [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**иинитиализевиситем**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) и [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) в Windows Vista. Оболочка использует эти интерфейсы для инициализации обработчика.
+Как и все COM-объекты, обработчики расширений оболочки должны реализовывать интерфейс [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) и [фабрику классов](../com/implementing-iclassfactory.md). большинство из них также должны реализовывать интерфейс [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) или [**ишеллекстинит**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) в Windows XP или более ранней версии. они были заменены на [**IInitializeWithStream**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithstream), [**иинитиализевиситем**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem) и [**IInitializeWithFile**](/windows/desktop/api/Propsys/nn-propsys-iinitializewithfile) в Windows Vista. Оболочка использует эти интерфейсы для инициализации обработчика.
 
 Интерфейс [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) должен быть реализован следующим образом:
 
@@ -40,7 +40,7 @@ ms.locfileid: "104986049"
 -   [Реализация IPersistFile](#implementing-ipersistfile)
 -   [Реализация Ишеллекстинит](#implementing-ishellextinit)
 -   [Настройка всплывающей подсказки](#infotip-customization)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementing-ipersistfile"></a>Реализация IPersistFile
 
@@ -207,8 +207,8 @@ HKEY_CLASSES_ROOT
 | Имя свойства    | Описание                   | Получено из                                                                            |
 |------------------|-------------------------------|-------------------------------------------------------------------------------------------|
 | Автор           | Автор документа        | [**\_Автор пидси**](../stg/the-summary-information-property-set.md)                             |
-| Заголовок            | Название документа         | [**\_заголовок пидси**](../stg/the-summary-information-property-set.md)                              |
-| Субъект          | Сводка по теме               | [**\_Тема пидси**](../stg/the-summary-information-property-set.md)                            |
+| Название            | Название документа         | [**\_заголовок пидси**](../stg/the-summary-information-property-set.md)                              |
+| Тема          | Сводка по теме               | [**\_Тема пидси**](../stg/the-summary-information-property-set.md)                            |
 | Комментировать          | Комментарии к документу             | [**Пидси \_ Свойства комментария**](../stg/the-summary-information-property-set.md) или папки/диска |
 | PageCount        | Количество страниц               | [**ПИДСИ \_ PAGECOUNT**](../stg/the-summary-information-property-set.md)                          |
 | Имя             | Понятное имя                 | Стандартное представление папки                                                                      |
@@ -221,20 +221,20 @@ HKEY_CLASSES_ROOT
 | Создание          | Дата создания                  | Представление сведений о стандартной папке                                                              |
 | Обращения         | Дата последнего доступа            | Представление сведений о стандартной папке                                                              |
 | Папка         | Каталог, содержащий файл | Результаты поиска документов                                                                   |
-| Ранг             | Соответствие качества поиска       | Результаты поиска документов                                                                   |
+| Рейтинг             | Соответствие качества поиска       | Результаты поиска документов                                                                   |
 | FreeSpace        | Доступное дисковое пространство       | Диски                                                                               |
 | NumberOfVisits   | Количество посещений              | Папка "Избранное"                                                                          |
 | Атрибуты       | Атрибуты файла               | Представление сведений о стандартной папке                                                              |
-| Company          | Название организации                  | [**\_компания пиддси**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md)   |
-| Category         | Категория документа             | [**\_Категория пиддси**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md)  |
-| Авторские права        | Авторские права на мультимедиа               | [**ПИДМСИ \_ авторские права**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md) |
+| Company          | Название компании                  | [**\_компания пиддси**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md)   |
+| Категория         | Категория документа             | [**\_Категория пиддси**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md)  |
+| Copyright        | Авторские права на мультимедиа               | [**ПИДМСИ \_ авторские права**](../stg/the-documentsummaryinformation-and-userdefined-property-sets.md) |
 | хтмлинфотипфиле  | Файл всплывающей подсказки HTML             | Файл Desktop.ini для папки                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

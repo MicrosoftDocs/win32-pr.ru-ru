@@ -4,12 +4,12 @@ ms.assetid: 9d8beba1-93c0-437d-a138-76880a40bc79
 title: Области окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02555339412c604f79f69294febbab524fc92a70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac3f751303d8a971d010ea7dabf7604c24db892f88d9a4029f0189d303cf5a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727414"
 ---
 # <a name="window-regions"></a>Области окна
 

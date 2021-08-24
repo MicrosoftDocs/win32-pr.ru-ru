@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 106fa40989f21e50eb738f1a218394e8e7e9b4bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91d288b4e6380ab845af9a05381963444e28ddf50739ecd3f5563d9f2dc729fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580164"
 ---
 # <a name="glfrontface-function"></a>Функция Глфронтфаце
 
@@ -64,7 +64,7 @@ void WINAPI glFrontFace(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В сцене, полностью состоящей из непрозрачных замкнутых областей, фоновые многоугольники никогда не отображаются. Устранение этих невидимых многоугольников является очевидным преимуществом ускорения отрисовки изображения. Вы включаете и отключаете возможность удаления многоугольников с обратным переходом с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md) , используя аргумент « \_ лицо для отбора GL \_ ».
 
@@ -74,7 +74,7 @@ void WINAPI glFrontFace(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ Передняя \_ сторона GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -88,7 +88,7 @@ void WINAPI glFrontFace(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

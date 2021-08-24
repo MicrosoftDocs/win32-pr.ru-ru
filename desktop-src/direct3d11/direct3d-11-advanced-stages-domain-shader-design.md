@@ -4,12 +4,12 @@ description: В этом разделе показано, как спроект�
 ms.assetid: 329d4eb9-8886-401d-8fb4-39e06886998f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a01d6b006c5ffe3afa355abe5e662cb96aa1391
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46733bc9147f67cf33a127d8254f16c5813d8ebc2f0cb96c2071ae15589e34bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119566184"
 ---
 # <a name="how-to-design-a-domain-shader"></a>Руководство. Проектирование шейдера доменов
 
@@ -105,7 +105,7 @@ ms.locfileid: "104134171"
 
 После разработки шейдера домена см. раздел [как создать Шейдер доменов](direct3d-11-advanced-stages-domain-shader-create.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -115,6 +115,6 @@ ms.locfileid: "104134171"
 [Общие сведения об тесселяции](direct3d-11-advanced-stages-tessellation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

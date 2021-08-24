@@ -3,18 +3,18 @@ title: Методы (_IManipulationEvents)
 description: В этом разделе содержатся методы для \_ интерфейса иманипулатионевентс.
 ms.assetid: ac697a9b-3cef-4100-8ad3-aaa867b94ec4
 keywords:
-- Windows Touch, _IManipulationEvents интерфейс
-- Касание Windows, методы интерфейса
+- Windows Сенсорный ввод, _IManipulationEvents интерфейс
+- Windows Сенсорный ввод, методы интерфейса
 - манипуляции, интерфейс _IManipulationEvents
 - Интерфейс _IManipulationEvents, методы
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71734e2022db3a567282ff53486985874da051f6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6311c788cca7f668e400c118872245a7f6f5d77a1a14d3a3c562c712bc1bdf0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103988108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587344"
 ---
 # <a name="methods-_imanipulationevents"></a>Методы (_IManipulationEvents)
 
@@ -32,7 +32,7 @@ ms.locfileid: "103988108"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

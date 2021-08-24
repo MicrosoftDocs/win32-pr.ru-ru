@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f77461099362e4f100924f82d95dffa09a94fa
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 05fb8e795cfe483d16406f07fffd2a26df14cebc3c38a07fbef7f2cb78cc245a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104069313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119602084"
 ---
 # <a name="groupbox-control"></a>Элемент управления GROUPBOX
 
@@ -42,7 +42,7 @@ GROUPBOX text, id, x, y, width, height [, style [, extended-style]]
 
 Дополнительные сведения об общем синтаксисе инструкции Control см. в разделе [Общие параметры управления](common-control-parameters.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в стиле содержится элемент **WS \_ TABSTOP** или в тексте задан ускоритель, то фокус перемещается на первый элемент управления в группе.
 
@@ -54,16 +54,16 @@ GROUPBOX text, id, x, y, width, height [, style [, extended-style]]
 GROUPBOX "Options", 101, 10, 10, 100, 100
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Поля группы](https://www.bing.com/search?q=Group+Boxes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

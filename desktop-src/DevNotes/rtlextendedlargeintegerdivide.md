@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: b17c89a744748214d74dc24abdaa8a12ac71e960
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d241e5877bb00ab07bc8aa716322566c9d236e88a937ce2ed03ce7f2b859ef2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119541514"
 ---
 # <a name="rtlextendedlargeintegerdivide-function"></a>Функция Ртлекстендедларжеинтежердивиде
 
@@ -68,7 +68,7 @@ LARGE_INTEGER RtlExtendedLargeIntegerDivide(
 
 Возвращает результат операции деления.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

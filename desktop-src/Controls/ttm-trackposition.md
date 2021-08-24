@@ -3,7 +3,7 @@ title: Сообщение TTM_TRACKPOSITION (Коммктрл. h)
 description: Задает расположение подсказки для отслеживания.
 ms.assetid: 9eb7c86c-78e6-442a-ad77-5fb919cab591
 keywords:
-- Элементы управления Windows для TTM_TRACKPOSITION сообщений
+- элементы управления Windows сообщений TTM_TRACKPOSITION
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd6eab8184049d8bf876a7e782b9adc2091d5fac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 547af5014bbf897d320894c4924911b830997ec3d8532e2ce2c7b63f361a11da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542833"
 ---
 # <a name="ttm_trackposition-message"></a>\_Сообщение ТТМ траккпоситион
 
@@ -47,7 +47,7 @@ ms.locfileid: "104071775"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления ToolTip выбирает, где отображать окно подсказки в соответствии с координатами, предоставленными этим сообщением. В результате окно подсказки появится рядом с инструментом, которому оно соответствует. Чтобы окна подсказки отображались по конкретным координатам, включите флаг "TTF \_ Absolute" в элемент **Уфлагс** структуры [**тулинфо**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa) при добавлении средства.
 
@@ -57,8 +57,8 @@ ms.locfileid: "104071775"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

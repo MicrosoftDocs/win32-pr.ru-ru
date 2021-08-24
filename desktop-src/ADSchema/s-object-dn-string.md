@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 823da21325abdc426d5f58df4cdf04de19fc68b6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18222343a5c10b7231d174021c8d4238ba075b66b648d99a704f4e1d1d651e2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580254"
 ---
 # <a name="objectdn-string-syntax"></a>Синтаксис объекта (DN-String)
 
@@ -38,7 +38,7 @@ ms.locfileid: "105654777"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение с этим синтаксисом имеет следующий формат:
 
@@ -48,7 +48,7 @@ S:<char count>:<string value>:<object DN>
 
 где " &lt; число &gt; символов" — это число знаков в &lt; строке "строковое значение" &gt; , а " &lt; Object DN &gt; " — это различающееся имя объекта в Active Directory. Active Directory обновляет DN, если объект, на который он ссылается, перемещается или переименовывается.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

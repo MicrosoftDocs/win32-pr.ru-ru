@@ -6,12 +6,12 @@ keywords:
 - Идентификаторы формата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0202cd1287c3b4fef6e9e2b56e272541a03425b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72ec9e9843b1dfe843e89ebf85eadbbcb5da8cb58dfc1b289eb88c844aae7456
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119663154"
 ---
 # <a name="format-identifiers"></a>Идентификаторы формата
 
@@ -31,9 +31,9 @@ DEFINE_GUID(FMTID_SummaryInformation, 0xF29F85E0, 0x4FF9, 0x1068,
 
 При хранении наборов свойств в экземплярах [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) преобразуйте FMTID в строковое имя для объекта хранилища.
 
- 
+ 
 
- 
+ 
 
 
 

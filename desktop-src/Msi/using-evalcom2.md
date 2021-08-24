@@ -4,12 +4,12 @@ ms.assetid: df38e75e-554c-4a6d-b9ad-8eee5123a16f
 title: Использование Evalcom2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49a165115b505d5c78ebe5b5e714b8a3c359d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f89ba0215e697cb03111daa80510e6ba6c677c2e74f31e74b5640340d2d0d9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527128"
 ---
 # <a name="using-evalcom2"></a>Использование Evalcom2
 
@@ -33,7 +33,7 @@ Evalcom2.dll можно использовать для реализации о�
 10. Освободите интерфейс [**ивалидате**](/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate) .
 11. Отменить инициализацию COM с помощью [**CoUninitialize**](/windows/win32/api/combaseapi/nf-combaseapi-couninitialize).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

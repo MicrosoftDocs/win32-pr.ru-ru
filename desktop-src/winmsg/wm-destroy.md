@@ -4,12 +4,12 @@ ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
 title: Сообщение WM_DESTROY (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1db195c22c38759146fb76e98edf4ca7f605a1c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7acff03f01e9bf0c8021f8324411f646341a29a5b3b6dc1f9b3493ec89010c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119587454"
 ---
 # <a name="wm_destroy-message"></a>\_Сообщение об уничтожении WM
 
@@ -50,7 +50,7 @@ ms.locfileid: "104265439"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если удаляемое окно является частью цепочки окна просмотра буфера обмена (задается вызовом функции [**сетклипбоардвиевер**](/windows/win32/api/winuser/nf-winuser-setclipboardviewer) ), окно должно удалить себя из цепочки, обрабатывая функцию [**чанжеклипбоардчаин**](/windows/win32/api/winuser/nf-winuser-changeclipboardchain) перед возвратом из сообщения **WM \_ destroy** .
 
@@ -62,7 +62,7 @@ ms.locfileid: "104265439"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

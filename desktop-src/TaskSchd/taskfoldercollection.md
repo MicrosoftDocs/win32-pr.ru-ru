@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01c861322d6868ca7ec9ef861e2c3ea30f624db8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2a75cbaff0cd37beaf37f0bfad67df0179ed6602641a0faf89b101b97caaa7b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659104"
 ---
 # <a name="taskfoldercollection-object"></a>Объект Таскфолдерколлектион
 
@@ -32,7 +32,7 @@ ms.locfileid: "105682030"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **таскфолдерколлектион** имеет следующие свойства.
 
@@ -40,27 +40,27 @@ ms.locfileid: "105682030"
 
 | Свойство                                               | Описание                                                |
 |:-------------------------------------------------------|:-----------------------------------------------------------|
-| [**Расчета**](taskfoldercollection-count.md)<br/> | Возвращает количество папок в коллекции.<br/>   |
-| [**Элемент**](taskfoldercollection-item.md)<br/>   | Возвращает указанную папку из коллекции. <br/> |
+| [**Count**](taskfoldercollection-count.md)<br/> | Возвращает количество папок в коллекции.<br/>   |
+| [**Компонент**](taskfoldercollection-item.md)<br/>   | Возвращает указанную папку из коллекции. <br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

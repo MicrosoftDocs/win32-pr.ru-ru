@@ -4,12 +4,12 @@ ms.assetid: e11193a2-2c72-43a9-8d35-fa524044e306
 title: Проверка кодовой страницы базы данных установки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ea9513ec80413e00a9f3f4c1232a06704f83e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cedb63128d4a3b18878eba16af5e55da92403953ddf2a2c9a29c788a524ad41f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581774"
 ---
 # <a name="checking-the-installation-database-code-page"></a>Проверка кодовой страницы базы данных установки
 
@@ -17,7 +17,7 @@ ms.locfileid: "105662903"
 
 Та же кодовая страница ASCII, 1252, может использоваться для английского и французского языков. Поэтому кодовую страницу MNP2000.msi базы данных (на английском языке) не нужно сбрасывать, чтобы изменить установку на французский.
 
-Дополнительные сведения о настройке кодовой страницы см. в разделе [Обработка кодовых страниц (установщик Windows)](code-page-handling-windows-installer-.md).
+дополнительные сведения о настройке кодовой страницы см. в разделе [обработка кодовых страниц (установщик Windows)](code-page-handling-windows-installer-.md).
 
 [Продолжить](importing-localized-error-and-actiontext-tables.md)
 

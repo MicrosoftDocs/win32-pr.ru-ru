@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5b97abad6575de77a760c72e3eb05e90461c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17c40030c34ece43f4e24ac6937c35400fed7ab7acc005e99c653b233e08b69e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119519824"
 ---
 # <a name="glselectbuffer-function"></a>Функция Глселектбуффер
 
@@ -73,7 +73,7 @@ void WINAPI glSelectBuffer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глселектбуффер** имеет два параметра: *buffer* является указателем на массив целых чисел без знака, а *size* указывает размер массива. Параметр *buffer* возвращает значения из стека имен (см. [**глинитнамес**](glinitnames.md), [**гллоаднаме**](glloadname.md), [**глпушнаме**](glpushname.md)), если режимом отрисовки является GL \_ SELECT (см. [**глрендермоде**](glrendermode.md)). Функция **глселектбуффер** должна быть выдана, прежде чем режим выбора будет включен, и она не должна выдаваться, пока для режима отрисовки \_ выбрано значение GL SELECT.
 
@@ -95,7 +95,7 @@ void WINAPI glSelectBuffer(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ \_ Длина стека имен GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -109,7 +109,7 @@ void WINAPI glSelectBuffer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

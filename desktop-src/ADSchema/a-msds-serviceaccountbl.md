@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 091f124d3f993068c1740270fa750b52865a76ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 91e54620405fd9a6d9eed054655229b63d69df3610dce0c634d2871f7c5e80cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544654"
 ---
 # <a name="ms-ds-service-account-bl-attribute"></a>Атрибут ms-DS-Service-Account-BL
 
@@ -52,10 +52,10 @@ ms.locfileid: "104138630"
 |------------------------|---------------------------------|
 | Идентификатор ссылки                | 2041                            |
 | MAPI-Id                | \-                              |
-| System-Only            | True                            |
-| Является однозначным       | Неверно                           |
-| Индексируется             | Неверно                           |
-| В глобальном каталоге      | Неверно                           |
+| System-Only            | Верно                            |
+| Является однозначным       | Нет                           |
+| Индексируется             | Нет                           |
+| В глобальном каталоге      | Нет                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

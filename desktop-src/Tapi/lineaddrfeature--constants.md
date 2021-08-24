@@ -4,12 +4,12 @@ ms.assetid: dedeee7b-578b-4b19-8b99-5cd23779d661
 title: Константы LINEADDRFEATURE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 825902c2943806d1d495e14a0f0a5042f2949796
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4bb545bdf0195d9fd8ed35833150b9cfd1f6b10bfbd3d1ead7e8ebff65c93132
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682223"
 ---
 # <a name="lineaddrfeature_-constants"></a>\_Константы линеаддрфеатуре
 
@@ -167,24 +167,24 @@ ms.locfileid: "105675541"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 Эта константа используется в [**линеаддресскапс**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps) (возвращается [**линежетаддресскапс**](/windows/desktop/api/Tapi/nf-tapi-linegetaddresscaps)) и в [**линеаддрессстатус**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus) (возвращается [**линежетаддрессстатус**](/windows/desktop/api/Tapi/nf-tapi-linegetaddressstatus)). **Линеаддресскапс** сообщает о доступности компонентов адреса поставщиком услуг (в основном коммутаторе) для заданного адреса. Приложение сделает это определение при инициализации. Структура [**линеаддрессстатус**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus) сообщает об определенном адресе, который может вызывать функции, пока адрес находится в текущем состоянии. Приложение сделает это определение динамически после изменения состояния адреса, как правило, вызванные действиями, связанными с вызовами по адресу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

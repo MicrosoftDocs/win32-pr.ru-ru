@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f2a8f8b374f967f7231881d9e0eca6434e9c57e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db86953e2e08c0a66f6e497c1fcd2350cc726be8852803cf8f4d64bfff523500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119657744"
 ---
 # <a name="iwpdserializerwriteiportabledevicevaluestobuffer-method"></a>Метод Ивпдсериализер:: Вритеипортабледевицевалуестобуффер
 
@@ -87,22 +87,22 @@ HRESULT WriteIPortableDeviceValuesToBuffer(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод копирует интерфейс **ипортабледевицевалуес** в существующий буфер. Если необходимо выделить новый буфер, используйте [**жетбуфферфромипортабледевицевалуес**](iwpdserializer-getbufferfromiportabledevicevalues.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

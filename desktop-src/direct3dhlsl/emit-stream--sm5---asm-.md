@@ -4,12 +4,12 @@ description: Выдача вершины в заданный поток.
 ms.assetid: 5DBB0BEC-6EA4-4C04-A3D2-853E48260226
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f56c2582453d18120e3e95b27af9c7613728fa62
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9e7e90bfb72862abeccc8a9411904a7b42f77c933cc4c87af189d6557596389c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562706"
 ---
 # <a name="emit_stream-sm5---asm"></a>Эмиссия \_ потока (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104412166"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция приводит к тому, что все объявленные \# регистры o для данного потока будут считываться из шейдера Geometry для создания вершины. Объект после выдачи, все данные во всех выходных регистрах для всех потоков становятся неинициализированными, а не только потоком, переданным в.
 
@@ -67,7 +67,7 @@ ms.locfileid: "104412166"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -78,7 +78,7 @@ ms.locfileid: "104412166"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

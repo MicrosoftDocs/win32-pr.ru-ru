@@ -4,12 +4,12 @@ description: Примеры кода в этом разделе можно ис�
 ms.assetid: 8fe722a3-fbab-4843-b298-1ea11f54d7a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 864fe4aa8d7af5bb6a248364b0e2c636e1c250a6
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e3948bbfd783691a170ea2b55c267384371691d61cb3fc86ee56737a89a56395
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103797286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579384"
 ---
 # <a name="example-common-classes"></a>Пример. Общие классы
 

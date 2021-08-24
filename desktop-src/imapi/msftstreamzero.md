@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20af1639f20f2c7f42426f224c05570565e49296
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c044b82d6dbea45a61a67724c84e5d13e5d94bbcc7d12c231df6b799258264d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726724"
 ---
 # <a name="msftstreamzero-object"></a>Объект Мсфтстреамзеро
 
@@ -30,15 +30,15 @@ ms.locfileid: "103802357"
 
 Объект **мсфтстреамзеро** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения\]<br/>                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Imapi2. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Imapi2. h</dt> </dl> |
 
 
 

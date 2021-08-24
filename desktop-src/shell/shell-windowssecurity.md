@@ -1,6 +1,6 @@
 ---
-description: Shell. Виндовссекурити-метод — отображает диалоговое окно Безопасность Windows.
-title: Метод Shell. Виндовссекурити (Шлдисп. h)
+description: Shell. виндовссекурити-метод — отображает диалоговое окно Безопасность Windows.
+title: Метод Shell.WindowsSecurity (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 94916E29-5960-4010-B2C6-0FAA1E4BF72D
-ms.openlocfilehash: 2c6e18ba2388909390b856deb03b65b078f810d9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 327855763220fd2ea1c2e0e6b93538c16fa27cf35cd65cba06888879580259c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592004"
 ---
 # <a name="shellwindowssecurity-method"></a>Shell. Виндовссекурити, метод
 
-Отображает диалоговое окно **Безопасность Windows** .
+отображает диалоговое окно **Безопасность Windows** .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -66,9 +66,9 @@ Shell.WindowsSecurity()
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **виндовссекурити** для JScript, VBScript и Visual Basic.
+в следующих примерах показано использование **виндовссекурити** для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -122,8 +122,8 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |

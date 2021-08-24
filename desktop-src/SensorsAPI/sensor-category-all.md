@@ -4,12 +4,12 @@ ms.assetid: e2d9fe6d-450a-446b-968b-0924116af6fe
 title: SENSOR_CATEGORY_ALL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2e5641e51dde130cc51d9b2fc35fcc1e158ea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b4254de58903d664f7a285890dae50202eca49c2a07e100460eab2a2ef81209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119666874"
 ---
 # <a name="sensor_category_all"></a>\_Категория датчика \_ все
 
@@ -31,15 +31,15 @@ ms.locfileid: "103809263"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
-| Header<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
 
 
 

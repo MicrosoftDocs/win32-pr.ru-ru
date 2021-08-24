@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe53bfecad3c79f3b7439e6f38effe55c4045fea
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9091e20197d073ed35fc413f095a91b15ef6cc36b657ec8f65c6b03097b63b18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119485944"
 ---
 # <a name="texture2darraygatherbluesfloatint2int2int2int2uint-function"></a>Функция Texture2DArray:: Гасерблуе (S, float, int2, int2, int2, int2, uint)
 
@@ -114,7 +114,7 @@ TemplateType GatherBlue(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -130,7 +130,7 @@ TemplateType GatherBlue(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI бутконфигуратион для Win32 представляет конфигурацию загрузки компьютерной системы под Windows.'
+description: '\_Класс WMI бутконфигуратион для Win32 представляет конфигурацию загрузки компьютера, на котором работает Windows.'
 ms.assetid: c2db28dd-3feb-44bb-a532-c91cab980ba3
 ms.tgt_platform: multiple
 title: Класс Win32_BootConfiguration
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 556688d7c80038f04dd5b94b7c61c5d6dfef3199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: db18b6ebbd7ccc9e87bffb06cd2b40647e4a9509edc1c27779a0b55efc36b7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546522"
 ---
 # <a name="win32_bootconfiguration-class"></a>\_Класс Win32 бутконфигуратион
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ бутконфигуратион для Win32** представляет конфигурацию загрузки компьютерной системы под Windows.
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ бутконфигуратион для Win32** представляет конфигурацию загрузки компьютера, на котором работает Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -60,7 +60,7 @@ class Win32_BootConfiguration : CIM_Setting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ бутконфигуратион** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_BootConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -151,7 +151,7 @@ class Win32_BootConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -219,7 +219,7 @@ class Win32_BootConfiguration : CIM_Setting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ бутконфигуратион** является производным от [**\_ параметра CIM**](cim-setting.md).
 
@@ -285,7 +285,7 @@ Scratch Directory  : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Temp
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -299,7 +299,7 @@ Temp Directory     : C:\WINDOWS\system32\config\systemprofile\Local Settings\Tem
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
