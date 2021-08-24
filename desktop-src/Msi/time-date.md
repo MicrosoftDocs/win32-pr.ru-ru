@@ -4,12 +4,12 @@ ms.assetid: 02c6076e-7f81-489c-9997-1435dec81852
 title: Время и Дата
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b973143c2043419e4a54348917aa5d38fa97ff67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c3c5cccc2f1211918b52008f0d81a7e4693dfd14766696b77cd184d75f4309d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810744"
 ---
 # <a name="timedate"></a>Время и Дата
 

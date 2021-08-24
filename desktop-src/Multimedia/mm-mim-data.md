@@ -1,9 +1,9 @@
 ---
 title: Сообщение MM_MIM_DATA (Ммсистем. h)
-description: Сообщение с данными типа "MM \_ MIM" \_ отправляется в окно, когда устройство ввода MIDI получает полное сообщение MIDI.
+description: сообщение с \_ данными MIM MM \_ отправляется в окно, когда устройство ввода midi получает полное сообщение midi.
 ms.assetid: 9c580e48-78f3-4914-bdea-393823fb8482
 keywords:
-- MM_MIM_DATA сообщения Windows мультимедиа
+- сообщение MM_MIM_DATA Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4309149c8b69fd4396de3a4e67ab18c49008dd7051ed52d4fe992867d1262fe4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807384"
 ---
-# <a name="mm_mim_data-message"></a>\_Сообщение данных MIM (мм) \_
+# <a name="mm_mim_data-message"></a>\_сообщение MIM \_ данных MM
 
-Сообщение **с \_ \_ данными типа "mm MIM** " отправляется в окно, когда устройство ввода MIDI получает полное сообщение MIDI.
+сообщение **с \_ \_ данными MIM MM** отправляется в окно, когда устройство ввода midi получает полное сообщение midi.
 
 
 ```C++
@@ -77,7 +77,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 Это сообщение не отправляется, когда получено сообщение, исключающая систему MIDI. Нет отметки времени, доступной для этого сообщения. Для входных данных с отметкой времени необходимо использовать сообщения, отправленные в функции обратного вызова.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

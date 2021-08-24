@@ -3,7 +3,7 @@ title: Сообщение DRV_LOAD (Ммсистем. h)
 description: Уведомляет драйвер о том, что он был загружен. Драйвер должен убедиться в наличии оборудования и вспомогательных драйверов, необходимых для правильной работы.
 ms.assetid: f3642d91-cea8-499d-8d2e-bf01a59a7d72
 keywords:
-- DRV_LOAD сообщения Windows мультимедиа
+- сообщение DRV_LOAD Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7dda950eaa84f924f4845d99d5740e37d6b354
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d74b8d0663e96f0dc700739c7b8b5f9304d478ed02bf9493f24d03a506c14a61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678714"
 ---
 # <a name="drv_load-message"></a>\_Сообщение о загрузке DRV
 
@@ -33,11 +33,11 @@ ms.locfileid: "103989352"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **о \_ загрузке DRV** всегда является первым сообщением, которое получает драйвер устройства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -45,11 +45,11 @@ ms.locfileid: "103989352"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

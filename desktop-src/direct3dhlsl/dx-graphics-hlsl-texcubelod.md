@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 72635211263085f03b87c2e013ea57d1b6a21464
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f9d4ccbb46dfb01cf983314c4b79ec45cbf25eb442615c6dd6965443505d4f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744814"
 ---
 # <a name="texcubelod"></a>текскубелод
 

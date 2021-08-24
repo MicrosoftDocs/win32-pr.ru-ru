@@ -10,12 +10,12 @@ keywords:
 - Функции МЦивнд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8a8905a56a15fbca5a7acedb40dc691aa49f84
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85c2d88bf94e30b041db9170c5412b0597a59399d11b5cb8ab52dd8f62379a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783424"
 ---
 # <a name="mciwnd-functions"></a>Функции МЦивнд
 
@@ -26,16 +26,16 @@ ms.locfileid: "104329960"
 -   [**мЦивндкреате**](/windows/desktop/api/Vfw/nf-vfw-mciwndcreatea)
 -   [**мЦивндрегистеркласс**](/windows/desktop/api/Vfw/nf-vfw-mciwndregisterclass)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по МЦивнд](mciwnd-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

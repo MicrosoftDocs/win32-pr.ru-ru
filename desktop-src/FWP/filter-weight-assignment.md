@@ -1,19 +1,19 @@
 ---
 title: Назначение весов фильтрам
-description: Каждый фильтр в платформе фильтрации Windows (WFP) имеет соответствующий вес, который используется во время арбитража фильтра.
+description: каждый фильтр на платформе фильтрации Windows (WFP) имеет соответствующий вес, который используется во время арбитража фильтра.
 ms.assetid: c78854c2-9aa1-408f-82d6-4b9e52f38e84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c77982258bb9c8ef14e22b20e28b6a3039456ae
-ms.sourcegitcommit: 013de6f5280f28a9b04c3cce9387e629b07d70fc
+ms.openlocfilehash: 9042b15da0df5f81c71a32deb923369a54243854e86aeaed1ba30c7fc8484193
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "104412711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746874"
 ---
 # <a name="filter-weight-assignment"></a>Назначение весов фильтрам
 
-Каждый фильтр в платформе фильтрации Windows (WFP) имеет соответствующий вес, который используется во время [арбитража фильтра](filter-arbitration.md).
+каждый фильтр на платформе фильтрации Windows (WFP) имеет соответствующий вес, который используется во время [арбитража фильтра](filter-arbitration.md).
 
 Вес фильтра, используемый модулем базовой фильтрации (BFE), имеет тип [**\_ UINT64 FWP**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). При добавлении фильтров вызывающие объекты имеют три варианта.
 
@@ -26,18 +26,18 @@ ms.locfileid: "104412711"
 > [!Note]  
 > Если в одном подуровне зарегистрировано несколько вызовов, могут возникнуть проблемы, если фильтрам назначен один и тот же вес. Эту ошибку можно предотвратить, выполнив выноски, создав свой собственный подуровень с помощью [**FwpmSubLayerAdd0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmsublayeradd0).
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Идентификаторы веса фильтра**](filter-weight-identifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

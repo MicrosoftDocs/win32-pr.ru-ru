@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 214f4fcb6ad4f382a97b8c8d75a733124c31d68a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 161cacbf9f10a36e65f37816970aea5d5d804096151a4ae1ce3f814be918ae08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104259104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854604"
 ---
 # <a name="source-register-signed-scaling"></a>Масштабирование, подписанное исходным регистром
 
@@ -29,11 +29,11 @@ source register_bx2
 
 
 
-## <a name="register"></a>Регистрация
+## <a name="register"></a>Зарегистрировать
 
 Исходный регистр. Дополнительные сведения о типах регистров см. в описании [ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ регистров PS 1 1 PS 1 2](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)PS 1 3 PS 1 4.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция обычно используется для расширения данных с \[ 0,0 до 1,0 \] 1,0 до \[ 1,0 \] . Этот модификатор предназначен для использования с арифметическими инструкциями. Этот модификатор обычно используется в качестве входных данных для инструкции продукта с точкой ([DP3-PS](dp3---ps.md)). Использование \_ bx2 для данных за пределами диапазона от 0 до 1 может привести к неопределенным результатам.
 
@@ -55,7 +55,7 @@ y = 2(x - 0.5)
 -   Для PS \_ 1 \_ 0 и PS \_ 1 \_ 1 можно использовать \_ bx2 на любом исходном реестре для получения инструкций по текстуре в форме texm3x2 \* и texm3x3 \* . \_bx2 не может использоваться ни в одной из других инструкций текстуры, таких как [texreg2ar-PS](texreg2ar---ps.md) или [texreg2gb-PS](texreg2gb---ps.md).
 -   Для PS \_ 1 \_ 2 и PS \_ 1 \_ 3 можно использовать \_ bx2 на любом исходном реестре для любой инструкции Да, \* Кроме: [texreg2ar-PS](texreg2ar---ps.md), [texreg2gb-PS](texreg2gb---ps.md), [тексбем-PS](texbem---ps.md) или [тексбемл-PS](texbeml---ps.md).
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 В этом примере показана текстура, преобразование данных в диапазон от-1 до + 1 и вычисление произведения точки.
 
@@ -67,16 +67,16 @@ dp3_sat r0, t0_bx2, v0_bx2    ; Calculate a dot product.
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы исходных регистров исходного шейдера пикселей](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

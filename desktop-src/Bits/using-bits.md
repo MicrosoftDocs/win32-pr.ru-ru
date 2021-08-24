@@ -9,20 +9,20 @@ keywords:
 - Использование битов BITS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5158e183ef7e7c142a481f1d89e329a9b04f422b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1b301c1d96956bca924d99ef41ade3032f58dc4e194b420069cbae1071c916b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105654343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801164"
 ---
 # <a name="using-bits"></a>Использование BITS
 
-Ниже показано, как выполнить перенос файлов с помощью  [интерфейсов](bits-interfaces.md)ФОНОВАЯ интеллектуальная служба передачи (BITS).
+Ниже показано, как выполнить перенос файлов с помощью  [интерфейсов](bits-interfaces.md)ФОНОВАЯ интеллектуальная служба передачи (BITS).
 
 **Выполнение обмена файлами**
 
-1.  [Подключение к службе BITS](connecting-to-the-bits-service.md)
+1.  [Подключение службе BITS](connecting-to-the-bits-service.md)
 2.  [Создание задания перемещения](creating-a-job.md)
 3.  [Добавление файлов в задание](adding-files-to-a-job.md)
 4.  [Запустите задание](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-resume)
@@ -31,19 +31,19 @@ ms.locfileid: "105654343"
 
 На предыдущих шагах показано, как передавать файлы, используя значения свойств по умолчанию для задания. Поведение по умолчанию можно изменить, изменив одно или несколько значений свойств задания. Например, можно изменить приоритет обработки задания относительно других заданий в очереди, указать свой собственный параметр прокси-сервера и зарегистрироваться для получения уведомления о событии при передаче файлов службой BITS. Дополнительные сведения см. [в разделе Установка и получение свойств задания](setting-and-retrieving-the-properties-of-a-job.md).
 
-Windows PowerShell предоставляет простой механизм управления множеством задач BITS. Этот раздел содержит следующие разделы, в которых показано, как использовать командлеты Windows PowerShell с BITS.
+Windows PowerShell предоставляет простой механизм управления множеством задач BITS. этот раздел содержит следующие разделы, в которых показано, как использовать командлеты Windows PowerShell с BITS.
 
 -   [Использование Windows PowerShell для создания заданий передачи BITS](using-windows-powershell-to-create-bits-transfer-jobs.md)
 -   [Использование командлетов Windows PowerShell в WinRM для управления заданиями передачи BITS](using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs.md)
--   [Использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS](using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server.md)
+-   [использование командлетов WMI Windows PowerShell для управления облегченным сервером BITS](using-wmi-windows-powershell-cmdlets-to-manage-the-bits-compact-server.md)
 
 > [!Note]
 >
-> Начиная с Windows 10 версии 1607 можно также запускать командлеты PowerShell и использовать Битсадмин или другие приложения, использующие [интерфейсы](bits-interfaces.md) BITS из удаленной командной строки PowerShell, подключенной к другому компьютеру (физическому или виртуальному). Эта возможность недоступна при использовании командной строки [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) для виртуальной машины на том же физическом компьютере и недоступна при использовании командлетов WinRM.
+> начиная с Windows 10 версии 1607 можно также запускать командлеты PowerShell и использовать битсадмин или другие приложения, использующие [интерфейсы](bits-interfaces.md) BITS из удаленной командной строки PowerShell, подключенной к другому компьютеру (физическому или виртуальному). Эта возможность недоступна при использовании командной строки [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) для виртуальной машины на том же физическом компьютере и недоступна при использовании командлетов WinRM.
 >
 > Задание BITS, созданное на основе удаленного сеанса PowerShell, будет выполняться в контексте учетной записи пользователя этого сеанса и будет работать только при наличии хотя бы одного активного локального сеанса входа или удаленного сеанса PowerShell, связанного с этой учетной записью пользователя. Дополнительные сведения см. [в разделе Управление удаленными сеансами PowerShell](using-windows-powershell-to-create-bits-transfer-jobs.md).
 
- 
+ 
 
 Этот раздел также содержит следующие разделы:
 
@@ -55,6 +55,6 @@ Windows PowerShell предоставляет простой механизм у
 
 Пример кода, в котором используются интерфейсы BITS, см. в разделе [примеры и средства BITS](bits-samples-and-tools.md).
 
- 
+ 
 
- 
+ 

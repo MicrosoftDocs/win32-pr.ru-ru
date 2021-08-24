@@ -3,7 +3,7 @@ title: Событие Поситиончанже объекта Аксвиндо
 description: Событие Поситиончанже возникает при изменении текущей позиции воспроизведения в элементе мультимедиа.
 ms.assetid: 92d469b9-813a-4148-be68-0fcef2e41491
 keywords:
-- Событие Поситиончанже в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие поситиончанже объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 552b748121668e71ee4d2ffb54feed441620a1cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 269d83c92687b5debda8b70fb4d6710b55eebd5476153759ebad36e5d17657d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764684"
 ---
 # <a name="positionchange-event-of-the-axwindowsmediaplayer-object"></a>Событие Поситиончанже объекта Аксвиндовсмедиаплайер
 
@@ -54,23 +54,23 @@ Private Sub player_PositionChange(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие не вызывается во время воспроизведения. Это происходит только тогда, когда что-то активно изменяет текущее положение воспроизводимого элемента мультимедиа, например, когда пользователь перемещает маркер поиска или когда выполняется код, указывающий значение для Ивмпконтролс. **CurrentPosition**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

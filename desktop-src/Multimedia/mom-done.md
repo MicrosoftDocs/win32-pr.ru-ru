@@ -3,7 +3,7 @@ title: Сообщение MOM_DONE (МЦиапи. h)
 description: Сообщение «MOM \_ done» отправляется в функцию обратного вызова MIDI Output, когда заданный системный или потоковый буфер воспроизводится и возвращается приложению.
 ms.assetid: 0b9bd0e1-c87d-4f21-912e-5ac9f5c04192
 keywords:
-- MOM_DONE сообщения Windows мультимедиа
+- сообщение MOM_DONE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af3f58f7d8f4625971dde5d7ec807c9f963d40f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b4361ef25af7bab629138d4371c852d661373891e9d9513ae30b8ad79e97670
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807034"
 ---
 # <a name="mom_done-message"></a>\_Сообщение о завершении MOM
 
@@ -56,7 +56,7 @@ dwParam2 = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ dwParam2 = reserved
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

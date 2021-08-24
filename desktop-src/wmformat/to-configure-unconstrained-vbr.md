@@ -13,12 +13,12 @@ keywords:
 - профили, Настройка неограниченных VBR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b24c022c79bb38414ab201db11abd0cf260dfafe
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 5ff73a0aac8d13f015175080aac6eb580fc9686c67d892b14e4714746c8cea34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104133574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807764"
 ---
 # <a name="to-configure-unconstrained-vbr"></a>Настройка неограниченных VBR
 
@@ -40,16 +40,16 @@ ms.locfileid: "104133574"
 8.  Сохраните профиль или передайте его в объект модуля записи.
 9.  Настройте модуль записи для выполнения этапа предварительной обработки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Настройка потоков с VBR**](configuring-vbr-streams.md)
+[**настройка Потоки VBR**](configuring-vbr-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

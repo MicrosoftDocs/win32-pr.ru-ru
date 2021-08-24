@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Классы счетчиков производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d147e5ebc18dfe532ceec7a2fb55bb21c6fa13f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fc66020fc7863153e3e663c7552ee6805b2a676772fdcbf01cd9683a9ec05486
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701654"
 ---
 # <a name="performance-counter-classes"></a>Классы счетчиков производительности
 
@@ -45,7 +45,7 @@ ms.locfileid: "103896514"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

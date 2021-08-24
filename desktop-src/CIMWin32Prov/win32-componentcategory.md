@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1730abf9058f5068def4a01f0d7e7601b9c69e53
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b331c9bb9daf7d20fae5cce4b7f721feb1cbb4366d3f92a74bf78fc9a05b5e63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656454"
 ---
 # <a name="win32_componentcategory-class"></a>\_Класс Win32 компоненткатегори
 
@@ -54,13 +54,13 @@ class Win32_ComponentCategory : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ компоненткатегори** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -130,7 +130,7 @@ class Win32_ComponentCategory : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -254,11 +254,11 @@ class Win32_ComponentCategory : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ компоненткатегори** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -272,7 +272,7 @@ class Win32_ComponentCategory : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

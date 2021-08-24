@@ -4,12 +4,12 @@ description: В следующем примере кода показано, к�
 ms.assetid: a96a4089-6a7c-4565-baeb-5d5fa7b84b35
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64a5576f20d3928002d9d66efaf2648d61eeed84
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 879a120b37b27dea89955d9f7ec4660ad43fbf9ed3aede1e1eb2bc173e9128db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105650284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798964"
 ---
 # <a name="enumerate-the-registered-entities"></a>Перечисление зарегистрированных сущностей
 
@@ -99,9 +99,9 @@ int __cdecl main(){
 
 
 
- 
+ 
 
- 
+ 
 
 
 

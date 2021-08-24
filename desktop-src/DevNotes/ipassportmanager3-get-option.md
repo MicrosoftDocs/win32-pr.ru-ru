@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 289daf9ffbaad872115d0abfd7a618a4f7e44c10
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d7260e3c13be21f1cc963e1bca15a6126739a0075b94ee11f07d98901efd39b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750044"
 ---
 # <a name="ipassportmanager3get_option-method"></a>Метод IPassportManager3:: Get \_
 
@@ -62,7 +62,7 @@ HRESULT get_Option(
 
 \_При успешном выполнении метода возвращает значение ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод поставляется со старыми версиями пакета SDK для Passport.
 

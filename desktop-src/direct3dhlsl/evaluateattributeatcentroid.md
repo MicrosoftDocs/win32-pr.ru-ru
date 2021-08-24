@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee95c7f2f202dfd0065e5e9c30003cc46fd29281
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 867f7dadc2ccf7d86eed602dd9e65d07be7558f0a8a00426e3a45bc1c2c97a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744044"
 ---
 # <a name="evaluateattributeatcentroid-function"></a>Функция Евалуатеаттрибутеатцентроид
 
@@ -28,7 +28,7 @@ ms.locfileid: "104411822"
 
 ``` syntax
 numeric EvaluateAttributeAtCentroid(
-  in attrib numeric value
+  in attrib numeric value
 );
 ```
 
@@ -45,7 +45,7 @@ numeric EvaluateAttributeAtCentroid(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Режим интерполяции может быть **линейным** или **линейным \_ без \_ перспективы** для переменной. Использование **центроид** или **Sample** не учитывается. Также разрешены атрибуты с интерполяцией константы. в этом случае пример индекса игнорируется.
 
@@ -57,11 +57,11 @@ numeric EvaluateAttributeAtCentroid(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -73,7 +73,7 @@ numeric EvaluateAttributeAtCentroid(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -85,9 +85,9 @@ numeric EvaluateAttributeAtCentroid(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

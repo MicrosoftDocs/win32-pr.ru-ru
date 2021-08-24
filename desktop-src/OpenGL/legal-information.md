@@ -6,12 +6,12 @@ keywords:
 - OpenGL, юридические сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a41d5cfbe3d14b57d2d71312736f4006f08c7f8
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 64f80933231af06e1925bf888c5dcc18803de1d687320182480465bee19db97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777384"
 ---
 # <a name="legal-information-opengl"></a>Юридические сведения (OpenGL)
 
@@ -21,7 +21,7 @@ ms.locfileid: "111988919"
 
 Корпорация Майкрософт может иметь патенты, патентные заявки, охраняемые товарные знаки, авторские или другие права на интеллектуальную собственность применительно к содержимому этого документа. Без письменного разрешения корпорации Майкрософт данный документ не дает лицензии на эти патенты, охраняемые товарные знаки, авторские права и другую интеллектуальную собственность.
 
-Microsoft, MS-DOS, Windows, Windows NT и Win32 являются охраняемыми товарными знаками корпорации Майкрософт в США и других странах.
+microsoft, MS-DOS, Windows, Windows NT и Win32 являются охраняемыми товарными знаками корпорации майкрософт в США и (или) других странах.
 
 TrueType является охраняемым товарным знаком Apple Computer, Inc.
 

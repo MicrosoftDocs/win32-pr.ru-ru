@@ -17,7 +17,7 @@ ms.locfileid: "119679534"
 
 преобразования экземпляров — это код продукта — изменение доступных преобразований с помощью установщика, работающего на Windows Server 2003 или Windows XP. Дополнительные сведения см. в разделе [Установка нескольких экземпляров продуктов и исправлений](installing-multiple-instances-of-products-and-patches.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

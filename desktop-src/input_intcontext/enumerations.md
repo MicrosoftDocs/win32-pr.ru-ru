@@ -12,12 +12,12 @@ keywords:
 - перо
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: cebab2a0b7879d0dff71704cb808c42155484408
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: 8763c98e2e1cc499979cca54e63e1d82d13a7265ab7628122be7dcd7539274dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "104133446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717474"
 ---
 # <a name="interaction-context-enumerations"></a>Перечисления контекста взаимодействия
 
@@ -38,6 +38,6 @@ ms.locfileid: "104133446"
 | [**\_состояние САЛАЗОК манипуляции \_**](/windows/win32/api/interactioncontext/ne-interactioncontext-manipulation_rails_state)<br/> | Указывает состояния салазок для взаимодействия.<br/> |
 | [**\_параметр колесика мыши \_**](/windows/win32/api/interactioncontext/ne-interactioncontext-mouse_wheel_parameter)<br/> | Задает манипуляции, которые могут быть сопоставлены с поворотом колесика мыши.<br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Справочник по контексту взаимодействия](interaction-context-reference.md)

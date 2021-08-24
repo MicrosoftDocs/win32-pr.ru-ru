@@ -4,12 +4,12 @@ ms.assetid: bf67b434-c082-472d-9eae-ae31969d9cb8
 title: Использование COMREPL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fb39640998b3b27ac25cbab2ae60948418d6cee
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 501cca8d32383e23fc636669e32a80cfdfe96dd658717e41c1618244fc5af81e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853884"
 ---
 # <a name="using-comrepl"></a>Использование COMREPL
 
@@ -42,7 +42,7 @@ ms.locfileid: "103807630"
 -   Пользователь несет ответственность за репликацию всех данных, отличных от COM + (например, таблиц базы данных, файлов данных и т. д.) на целевые компьютеры.
 -   Кластеры могут участвовать в репликации, но обратите внимание, что COMREPL реплицируется только на компьютеры с именованными компьютерами.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

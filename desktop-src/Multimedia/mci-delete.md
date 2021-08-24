@@ -3,7 +3,7 @@ title: Команда MCI_DELETE (Ммсистем. h)
 description: Команда MCI \_ Delete удаляет данные из файла. Эта команда распознает цифровые видеоролики и звуковые устройства аудио-видео.
 ms.assetid: cf7fae86-e81e-4006-9755-fd01f81aeb62
 keywords:
-- MCI_DELETE команды мультимедиа Windows
+- команда MCI_DELETE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c1b9f81712c842e06085c323ca2110c8e06784
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ada80894f9260d0c37323d645694e10b0bcef92e52ebd670764bb9a0c436f837
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784584"
 ---
 # <a name="mci_delete-command"></a>\_Команда удаления MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие флаги применяются к типу устройства **дигиталвидео** :
 
@@ -139,7 +139,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

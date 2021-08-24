@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 574ad7fd59921767308e980e645bac966be87709
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 723c2f895790618a14d6603acacb7e106a936ad5262696ef553dafa72c1332c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104069244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853314"
 ---
 # <a name="store2-function"></a>Функция Store2
 
@@ -28,8 +28,8 @@ ms.locfileid: "104069244"
 
 ``` syntax
 void Store2(
-  in uint address,
-  in uint2 values
+  in uint address,
+  in uint2 values
 );
 ```
 
@@ -59,7 +59,7 @@ void Store2(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -71,7 +71,7 @@ void Store2(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -83,9 +83,9 @@ void Store2(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

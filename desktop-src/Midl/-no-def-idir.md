@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ed845c73c36fbbfe4ea7dea952ee4541b043a7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8c93d61bff28ad0aa4306047755c88419d0b925431f9b3ea476ec957dcd62b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103889820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811304"
 ---
 # <a name="no_def_idir-switch"></a>\_ \_ коммутатор идир/но DEF
 
@@ -31,7 +31,7 @@ midl /no_def_idir
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если с параметром [**/i**](-i.md) не указаны каталоги, параметр **идир/но \_ DEF \_** предписывает компилятору MIDL искать только текущий каталог.
 
@@ -45,7 +45,7 @@ midl /no_def_idir filename.idl
 midl /no_def_idir /I c:\c700\include filename.idl 
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -58,9 +58,9 @@ midl /no_def_idir /I c:\c700\include filename.idl
 [**/I**](-i.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

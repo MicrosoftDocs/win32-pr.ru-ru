@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbf7e17e1893b918d926cd94a93eb8b1c372ee75
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8361a41aa0e7c87c42eb41508fee0973d6fd4dd821e2008aa2148c8460fc63ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764364"
 ---
 # <a name="client-switch"></a>/Client, параметр
 
@@ -58,7 +58,7 @@ midl /client { stub | none }
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметр **/Client** не указан, компилятор MIDL создает файл заглушки клиента. Этот параметр не влияет на интерфейсы OLE.
 
@@ -70,7 +70,7 @@ midl /client { stub | none }
 
 **MIDL/Client заглушек filename. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -83,9 +83,9 @@ midl /client { stub | none }
 [Общий синтаксис командной строки MIDL](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

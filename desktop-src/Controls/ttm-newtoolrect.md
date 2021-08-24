@@ -3,7 +3,7 @@ title: Сообщение TTM_NEWTOOLRECT (Коммктрл. h)
 description: Задает новый ограничивающий прямоугольник для инструмента.
 ms.assetid: 81d1b745-310e-482e-8c6e-6e98e1e67b66
 keywords:
-- Элементы управления Windows для TTM_NEWTOOLRECT сообщений
+- элементы управления Windows сообщений TTM_NEWTOOLRECT
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75417059b0108877d04c79af25ac98245461ad5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13889b0e9c0d80392b88130c33e5e9723ceb776a60a6b941d205d514d96ca22f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750984"
 ---
 # <a name="ttm_newtoolrect-message"></a>\_Сообщение ТТМ невтулрект
 
@@ -51,9 +51,9 @@ ms.locfileid: "104490671"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТТМ \_ НЕВТУЛРЕКТВ** (Юникод) и **ТТМ \_ невтулректа** (ANSI)<br/>           |
 
 

@@ -1,19 +1,19 @@
 ---
 title: Справочник по командам (редактор символов Microsoft Agent)
-description: Эта ссылка на команду описывает редактор символов Microsoft Agent. Microsoft Agent является устаревшим в Windows 7.
+description: Эта ссылка на команду описывает редактор символов Microsoft Agent. не рекомендуется использовать Microsoft Agent на Windows 7.
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee75070f70ffe8c8fd2075fc6ec46483dcd005fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8cbb6735bf7b0c8f733243961a1cbb6962c0c17279982cc73f5c2cc5c0090ab4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778444"
 ---
 # <a name="command-reference-microsoft-agent-character-editor"></a>Справочник по командам (редактор символов Microsoft Agent)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ## <a name="the-file-menu"></a>Меню «файл»
 
@@ -103,21 +103,21 @@ ms.locfileid: "112405737"
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**Бавьте**
 </dt> <dd>
 
-Удаляет выбранный элемент из редактора и помещает его в буфер обмена Windows.
+удаляет выбранный элемент из редактора и помещает его в Windows буфер обмена.
 
 </dd> <dt>
 
 <span id="Copy"></span><span id="copy"></span><span id="COPY"></span>**Копии**
 </dt> <dd>
 
-Копирует выбранный элемент из редактора в буфер обмена Windows.
+копирует выбранный элемент в редактор в Windows буфер обмена.
 
 </dd> <dt>
 
 <span id="Paste"></span><span id="paste"></span><span id="PASTE"></span>**Авить**
 </dt> <dd>
 
-Копирует данные из текущего буфера обмена Windows в выбранное расположение.
+копирует данные из текущего Windows буфера обмена в выбранное расположение.
 
 </dd> <dt>
 

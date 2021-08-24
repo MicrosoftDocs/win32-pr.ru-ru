@@ -41,12 +41,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b5ce264341042231b3e48f03978f5dea201f9ca
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 972da9fc0a656f1106b2a33877783e1091a62659c03be28d65ad451a63491de3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797924"
 ---
 # <a name="static-control-styles"></a>Стили статических элементов управления
 
@@ -93,15 +93,15 @@ ms.locfileid: "111387700"
 
 Чтобы использовать стиль, который усекает слова или строки с многоточием для многострочного текста, [**дравсеметекст**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) или [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) можно использовать для элемента управления прорисовки владельца с флагами форматирования **DT \_ специализированные** и **DT \_ енделлипсис** Set.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

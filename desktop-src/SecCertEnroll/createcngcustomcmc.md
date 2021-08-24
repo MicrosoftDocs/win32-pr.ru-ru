@@ -4,12 +4,12 @@ ms.assetid: 8a0dc078-22ca-4bff-9cc0-46823912d3da
 title: креатекнгкустомкмк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 669a52901981ea910ee3d1704ba892fb96664470
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0494fdf2af9e4e96983ed1aff462b38e749516eafe87f645a3bf8ae1b342292d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798274"
 ---
 # <a name="createcngcustomcmc"></a>креатекнгкустомкмк
 
@@ -17,7 +17,7 @@ ms.locfileid: "104342732"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ креатекнгкустомкмк.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ креатекнгкустомкмк.
 
 ## <a name="discussion"></a>Разговор
 
@@ -40,10 +40,10 @@ ms.locfileid: "104342732"
 5.  Создает объект [**IX509CertificateRequestCmc**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestcmc) и инициализирует его с помощью \# объекта запроса PKCS 10, созданного на шаге 4.
 6.  Устанавливает для флага альтернативного алгоритма подписи значение **Variant \_ true** или **Variant \_ false** в зависимости от того, указана ли в командной строке альтернативная строка подписи. Дополнительные сведения см. в разделе [**алтернатесигнатуреалгорисм**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequest-get_alternatesignaturealgorithm).
 7.  Создает [*идентификатор объекта*](/windows/desktop/SecGloss/o-gly) (OID) [*алгоритма хэширования*](/windows/desktop/SecGloss/h-gly) из имени алгоритма, указанного в командной строке, и задает идентификатор объекта для объекта запроса CMC.
-8.  Подписывает запрос на сертификат и кодирует его с помощью [*distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (Der).
+8.  подписывает запрос на сертификат и кодирует его с помощью [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER).
 9.  Извлекает строку, содержащую закодированный запрос сертификата CMC, и сохраняет его в файл. Функция Енкодетофилев определена в Енроллкоммон. cpp.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

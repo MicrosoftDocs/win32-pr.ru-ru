@@ -4,12 +4,12 @@ ms.assetid: 4a3fa79f-7a7a-4f9b-9353-e6c5ca4fcb4e
 title: Константы LINEBUSYMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c996ad4e6142cc8312983945ae4c716ee0b35ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54563567944a2e5164717f7d64ff7026a0045ea735405a7bcad159969f07514a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681994"
 ---
 # <a name="linebusymode_-constants"></a>\_Константы линебусимоде
 
@@ -57,7 +57,7 @@ ms.locfileid: "105679906"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Старшие 16 бит можно назначить для расширений для конкретных устройств. 16 младших разрядов зарезервированы.
 
@@ -66,14 +66,14 @@ ms.locfileid: "105679906"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

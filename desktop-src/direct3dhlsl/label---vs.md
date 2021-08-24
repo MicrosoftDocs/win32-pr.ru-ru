@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6e2b72fe21301aa66d8428dc3696ceb3f12e6214
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 81c36c3db93acdc82d725c9cf7893c52d7177bbe70e16378c3b86f39ec4d6a2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854184"
 ---
 # <a name="label---vs"></a>Метка — VS
 
@@ -37,7 +37,7 @@ ms.locfileid: "104998237"
 
 Для VS \_ 2 \_ SW, VS \_ 3 \_ 0 и VS \_ 3 \_ SW номер метки должен находиться в диапазоне от 0 до 2047.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "104998237"
 
 Эта инструкция определяет метку, расположенную в следующей инструкции шейдера. Инструкция Label может присутствовать непосредственно после инструкции [RET](ret---vs.md) (которая определяет конец предыдущей подпрограммы или основной программы).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

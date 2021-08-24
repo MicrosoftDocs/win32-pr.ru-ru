@@ -7,12 +7,12 @@ keywords:
 - Функция mciSendString
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7f5458cff0ef4c5c5f84e565fae06ade8796c4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3def53cda9374ba50dfea8252918f073d961410092a977c8779f3a29d6b36204
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105650324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807844"
 ---
 # <a name="communicating-with-mci-devices"></a>Взаимодействие с устройствами MCI
 
@@ -34,8 +34,8 @@ mciSendString(sz, Null, 0, Null)
 > [!Note]  
 > При использовании **мЦивндсендстринг** необходимо исключить псевдоним устройства из команды MCI. Библиотека МЦивнд добавляет этот псевдоним при отправке команды устройству MCI.
 
- 
+ 
 
- 
+ 
 
- 
+ 
