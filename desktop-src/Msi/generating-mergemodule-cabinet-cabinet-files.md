@@ -4,12 +4,12 @@ ms.assetid: 884df249-977e-4e8e-8978-15331a7c1d8a
 title: Создание CAB-файлов MergeModule.CABinet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a26eb9bb3daf92d81e21267b2f56706b74d9179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 962cf46b95db1fe186878d23a7cc7fcd1b91d3b2d202a85741eee7ef1c2bc7e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649653"
 ---
 # <a name="generating-mergemodulecabinet-cabinet-files"></a>Создание CAB-файлов MergeModule.CABinet
 
@@ -21,7 +21,7 @@ ms.locfileid: "105663692"
 
 Это означает, что один CAB-файл может содержать все файлы, необходимые модулю слияния для поддержки нескольких языков. Всем языковым файлам могут быть присвоены уникальные порядковые номера в CAB-файле, а затем можно использовать преобразование языка для добавления или удаления файлов из таблицы File, чтобы получить модуль слияния для определенного языка. Дополнительные сведения см. в разделе [Создание модулей слияния для нескольких языков](authoring-multiple-language-merge-modules.md).
 
-MergeModule.CABinet можно добавить в модуль слияния, открыв временную [ \_ таблицу потоков](-streams-table.md). Например, средство Msidb.exe, предоставляемое с помощью пакета SDK для установщик Windows, можно использовать для добавления MergeModule.CABINET в модуль слияния. Дополнительные сведения см. [в разделе Включение CAB-файла в установку](including-a-cabinet-file-in-an-installation.md).
+MergeModule.CABinet можно добавить в модуль слияния, открыв временную [ \_ таблицу Потоки](-streams-table.md). например, средство Msidb.exe, предоставляемое с помощью пакета SDK для установщик Windows, можно использовать для добавления MergeModule.CABinet в модуль слияния. Дополнительные сведения см. [в разделе Включение CAB-файла в установку](including-a-cabinet-file-in-an-installation.md).
 
  
 

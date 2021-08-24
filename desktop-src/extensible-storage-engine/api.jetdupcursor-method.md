@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5fce19d23838f3dfeab5317bfa7ea1aaacfcb508
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 031257200376b35fbde2d958cf5e6528abb340d1d63424d8308258281bd449ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605654"
 ---
 # <a name="apijetdupcursor-method"></a>API. Жетдупкурсор, метод
 
@@ -93,7 +93,7 @@ public static void JetDupCursor(
     
     Зарезервировано для последующего использования.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

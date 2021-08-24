@@ -3,7 +3,7 @@ title: Функция Мпманажерстатускуерекс (Мпклие
 description: Возвращает сведения о состоянии различных компонентов диспетчера защиты от вредоносных программ. | Функция Мпманажерстатускуерекс (Мпклиент. h)
 ms.assetid: 98088AB9-C7CF-46A1-B444-2C0EF882AA66
 keywords:
-- Функции Мпманажерстатускуерекс устаревшие функции среды Windows
+- функции мпманажерстатускуерекс устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca541b5f1aff2e0ba03b88d69c451891c3a174bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d8d7e3e6135a5f01691528480b760cfea422c78b9c032219f6e100da5ebd929d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961114"
 ---
 # <a name="mpmanagerstatusqueryex-function"></a>Функция Мпманажерстатускуерекс
 
@@ -88,20 +88,20 @@ HRESULT WINAPI MpManagerStatusQueryEx(
 
 Если функция завершается ошибкой, возвращаемое значение является неудачным кодом **HRESULT** . Вызывающий объект может использовать функцию [**мперрормессажеформат**](mperrormessageformat.md) для получения общего описания сообщения об ошибке.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

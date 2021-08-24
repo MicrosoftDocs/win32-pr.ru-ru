@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: fa046223ba3aa6a6e98d6e74f623aeaad9e85d3a10148bb688eb385c0e7c22fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20e276774e778193ffb68ac136643d754e684e84
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117675807"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477900"
 ---
 # <a name="shell-structures"></a>Структуры оболочки
 
@@ -24,551 +24,139 @@ ms.locfileid: "117675807"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenufilename"><strong>аашеллменуфиленаме</strong></a><br/></td>
-<td>Структура переменного размера, содержащая сведения о имени файла меню.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenuitem"><strong>аашеллменуитем</strong></a><br/></td>
-<td>Содержит сведения об элементе меню.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-appbardata"><strong>аппбардата</strong></a><br/></td>
-<td>Содержит сведения о системном сообщении панель приложений.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfo"><strong>аппкатегоринфо</strong></a><br/></td>
-<td>Предоставляет сведения о категории приложения для компонента "Установка и удаление программ" на панели управления. Структура <a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfolist"><strong>аппкатегоринфолист</strong></a> используется для создания полного списка категорий для издателя приложения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfolist"><strong>аппкатегоринфолист</strong></a><br/></td>
-<td>Список поддерживаемых категорий приложений с издателя приложения для компонента "Установка и удаление программ" панели управления. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shappmgr/ns-shappmgr-appinfodata"><strong>аппинфодата</strong></a><br/></td>
-<td>Предоставляет сведения о опубликованном приложении в служебной программе панели управления "Установка и удаление программ".<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-associationelement"><strong>ассоЦиатионелемент</strong></a><br/></td>
-<td>Определяет сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses"><strong>ассоккреатефорклассес</strong></a> для получения интерфейса <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>икуеряссоЦиатионс</strong></a> для заданной ассоциации файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-bandinfosfb"><strong>бандинфосфб</strong></a><br/></td>
-<td>Содержит сведения о полосе папок. Эта структура используется с методами <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb"><strong>ишеллфолдербанд:: жетбандинфосфб</strong></a> и <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb"><strong>Ишеллфолдербанд:: сетбандинфосфб</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-bandsiteinfo"><strong>бандситеинфо</strong></a><br/></td>
-<td>Содержит сведения о веб-сайте с полосой. Эта структура используется с методами <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo"><strong>ибандсите:: жетбандситеинфо</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo"><strong>Ибандсите:: сетбандситеинфо</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>басебровсердата</strong></a><br/></td>
-<td>Содержит защищенные члены базового класса. <a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>Басебровсердата</strong></a> определяет состояние браузера и используется с <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getbasebrowserdata"><strong>IBrowserService2:: жетбасебровсердата</strong></a> и <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-putbasebrowserdata"><strong>IBrowserService2::P утбасебровсердата</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)"><strong>бордервидсс</strong></a><br/></td>
-<td>Определяет координаты левого верхнего и правого нижнего угла прямоугольника границы.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa"><strong>бровсеинфо</strong></a><br/></td>
-<td>Содержит параметры функции <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera"><strong>шбровсефорфолдер</strong></a> и получает сведения о папке, выбранной пользователем.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info"><strong>CATEGORY_INFO</strong></a><br/></td>
-<td>Содержит сведения о категории. Категория компонента — это группа логически связанных классов COM, совместно использующих общий идентификатор категории (CATID).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-cida"><strong>Цида</strong></a><br/></td>
-<td>Используется с форматом буфера обмена <a href="clipboard.md">CFSTR_SHELLIDLIST</a> для перемещения указателя на список идентификаторов элементов (Пидл) одного или нескольких объектов пространства имен оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo"><strong>CM_COLUMNINFO</strong></a><br/></td>
-<td>Определяет сведения о столбце. Используется членами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>иколумнманажер</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo"><strong>кминвокекоммандинфо</strong></a><br/></td>
-<td>Содержит сведения, необходимые <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand"><strong>IContextMenu:: инвокекомманд</strong></a> для вызова команды контекстного меню.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex"><strong>кминвокекоммандинфоекс</strong></a><br/></td>
-<td>Содержит расширенные сведения о команде контекстного меню. Эта структура является расширенной версией <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo"><strong>кминвокекоммандинфо</strong></a> , которая позволяет использовать значения Юникода.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shtypes/ns-shtypes-comdlg_filterspec"><strong>COMDLG_FILTERSPEC</strong></a><br/></td>
-<td>Используется в универсальном виде для фильтрации элементов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>СМ</strong></a><br/></td>
-<td>используется Windows 2000 для хранения сведений о компоненте. Эта структура заменяет структуру <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt"><strong>компонентсопт</strong></a><br/></td>
-<td>Содержит параметры элементов рабочего стола.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-comppos"><strong>комппос</strong></a><br/></td>
-<td>Содержит сведения о положении и размере компонента.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo"><strong>компстатеинфо</strong></a><br/></td>
-<td>используется Windows 2000 для хранения сведений о состоянии компонента.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_item"><strong>CONFIRM_CONFLICT_ITEM</strong></a><br/></td>
-<td>Определяет структуру конфликтующего элемента.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_result_info"><strong>CONFIRM_CONFLICT_RESULT_INFO</strong></a><br/></td>
-<td>Определяет структуру сведений о результатах конфликта.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cpl/ns-cpl-cplinfo"><strong>кплинфо</strong></a><br/></td>
-<td>Содержит сведения о ресурсах и определяемое приложением значение для диалогового окна, поддерживаемого приложением панели управления. Функция <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>кплапплет</strong></a> приложения панели управления возвращает эти сведения на панель управления в ответ на сообщение <a href="cpl-inquire.md"><strong>CPL_INQUIRE</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_credential_serialization"><strong>CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</strong></a><br/></td>
-<td>Содержит сведения об учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a><br/></td>
-<td>Описывает одно поле в учетных данных. Например, строка или пользовательский образ.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-csfv"><strong>ксфв</strong></a><br/></td>
-<td>Используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex"><strong>шкреатешеллфолдервиевекс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header"><strong>DATABLOCK_HEADER</strong></a><br/></td>
-<td>Служит в качестве заголовка для некоторых дополнительных структур данных, используемых <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>дефконтекстмену</strong></a><br/></td>
-<td>Содержит сведения о контекстном меню, используемом <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>шкреатедефаултконтекстмену</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-delegateitemid"><strong>делегатеитемид</strong></a><br/></td>
-<td>Используется для папок делегатов вместо стандартной структуры <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-detailsinfo"><strong>детаилсинфо</strong></a><br/></td>
-<td>Содержит подробные сведения для элемента папки оболочки. Используется с уведомлением <a href="sfvm-getdetailsof.md"><strong>SFVM_GETDETAILSOF</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dfmics"><strong>дфмикс</strong></a><br/></td>
-<td>Содержит дополнительные аргументы, используемые <a href="dfm-invokecommandex.md"><strong>DFM_INVOKECOMMANDEX</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo"><strong>дллверсионинфо</strong></a><br/></td>
-<td>Получает сведения о версии, зависящей от библиотеки DLL. Он используется с функцией <a href="/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc"><strong>дллжетверсион</strong></a> . <br/>
-<blockquote>
-[!Note]<br />
-Вместо этой структуры можно использовать структуру <a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2"><strong>DLLVERSIONINFO2</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2"><strong>DLLVERSIONINFO2</strong></a><br/></td>
-<td>Получает сведения о версии, зависящей от библиотеки DLL. Он используется с функцией <a href="/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc"><strong>дллжетверсион</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription"><strong>дропдескриптион</strong></a><br/></td>
-<td>Описывает изображение и сопроводительный текст для объекта Drop.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles"><strong>дропфилес</strong></a><br/></td>
-<td>Определяет формат <a href="clipboard.md">CF_HDROPного</a> буфера обмена. Приведенные ниже данные представляют собой список имен файлов, заканчивающийся двойным нулем.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link"><strong>EXP_DARWIN_LINK</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. он содержит идентификатор установщик Windows ссылки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_propertystorage"><strong>EXP_PROPERTYSTORAGE</strong></a><br/></td>
-<td>Хранит сведения о состоянии связи оболочки. Эта структура используется для дополнительных разделов данных, помеченных EXP_PROPERTYSTORAGE_SIG.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_special_folder"><strong>EXP_SPECIAL_FOLDER</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит специальные сведения о папке.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_sz_link"><strong>EXP_SZ_LINK</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит расширяемые строки среды для значка или целевого объекта.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="ext-button.md"><strong>EXT_BUTTON</strong></a><br/></td>
-<td>Содержит сведения о кнопке, которая добавляется БИБЛИОТЕКой расширения диспетчера файлов на панель инструментов диспетчера файлов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-extrasearch"><strong>екстрасеарч</strong></a><br/></td>
-<td>Используется объектом перечислителя <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>иенумекстрасеарч</strong></a> для возврата сведений об объектах поиска, поддерживаемых объектом папки оболочки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-file_attributes_array"><strong>FILE_ATTRIBUTES_ARRAY</strong></a><br/></td>
-<td>Содержит определение формата буфера обмена для CFSTR_FILE_ATTRIBUTES_ARRAY.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>филедескриптор</strong></a><br/></td>
-<td>описывает свойства файла, который копируется с помощью буфера обмена во время операции <a href="dragdrop.md">перетаскивания</a> Microsoft ActiveX.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>филеграупдескриптор</strong></a><br/></td>
-<td>Определяет формат CF_FILEGROUPDESCRIPTORного буфера обмена.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="fms-getdriveinfo.md"><strong>FMS_GETDRIVEINFO</strong></a><br/></td>
-<td>Содержит сведения о диске, выбранном в активном окне диспетчера файлов (в окне каталога или в окне результатов поиска).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="fms-getfilesel.md"><strong>FMS_GETFILESEL</strong></a><br/></td>
-<td>Содержит сведения о выбранном файле в активном окне диспетчера файлов (в окне каталога или в окне результатов поиска).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="fms-helpstring.md"><strong>FMS_HELPSTRING</strong></a><br/></td>
-<td>Содержит сведения, используемые диспетчером файлов для добавления строки справки для элемента меню или команды панели инструментов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="fms-load.md"><strong>FMS_LOAD</strong></a><br/></td>
-<td>Содержит сведения, используемые диспетчером файлов для добавления пользовательского меню, предоставляемого БИБЛИОТЕКой расширения диспетчера файлов. Структура также предоставляет разностное значение, которое библиотека DLL расширения может использовать для работы с пользовательским меню после того, как диспетчер файлов загрузил меню.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="fms-toolbarload.md"><strong>FMS_TOOLBARLOAD</strong></a><br/></td>
-<td>Содержит сведения о настраиваемых кнопках, добавляемых на панель инструментов диспетчера файлов. Кнопки предоставляются БИБЛИОТЕКой расширения диспетчера файлов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings"><strong>фолдерсеттингс</strong></a><br/></td>
-<td>Содержит сведения о представлении папки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-fvshowinfo"><strong>фвшовинфо</strong></a><br/></td>
-<td>Содержит сведения, используемые средством просмотра файлов для вывода файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/winuser/ns-winuser-helpinfo"><strong>HELPINFO</strong></a><br/></td>
-<td>Содержит сведения об элементе, для которого запрошена контекстная справка.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/ns-winuser-helpwininfow"><strong>хелпвининфо</strong></a><br/></td>
-<td>Содержит размер и расположение основного или дополнительного окна справки. Приложение может задать эти сведения, вызвав функцию <a href="/windows/desktop/api/Winuser/nf-winuser-winhelpa"><strong>WinHelp</strong></a> со значением HELP_SETWINPOS.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br/></td>
-<td>Используется в Microsoft Internet Explorer 4,0 и Microsoft Internet Explorer 4,01 для хранения сведений о компоненте. при использовании Windows 2000 он заменяется структурой <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>компонентов</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a><br/></td>
-<td>Содержит список идентификаторов элементов.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-itemspacing"><strong>итемспаЦинг</strong></a><br/></td>
-<td>Хранит размеры двух возможных размеров значков, доступных для показа: Малый и крупный. Используется <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing"><strong>ишеллфолдервиев:: жетитемспаЦинг</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-knownfolder_definition"><strong>KNOWNFOLDER_DEFINITION</strong></a><br/></td>
-<td>Определяет особенности известной папки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shtypes/ns-shtypes-logfontw"><strong>LOGFONT</strong></a><br/></td>
-<td>Определяет атрибуты шрифта.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mruinfo.md"><strong>мруинфо</strong></a><br/></td>
-<td>Содержит сведения, определяющие новый список недавно использованных (MRU) списков. Используется <a href="createmrulist.md"><strong>креатемрулиств</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>мултикэйхелп</strong></a><br/></td>
-<td>задает ключевое слово для поиска и таблицу ключевых слов, в которой выполняется поиск, Windows справку.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br/></td>
-<td>Содержит сведения, описывающие сетевой адрес.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/shell/hkey-type"><strong>NET_ADDRESS_INFO</strong></a><br/></td>
-<td>Описывает сетевой адрес.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/cpl/ns-cpl-newcplinfow"><strong>невкплинфо</strong></a><br/></td>
-<td>Содержит сведения о ресурсах и определяемое приложением значение для диалогового окна, поддерживаемого приложением панели управления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa"><strong>нотификондата</strong></a><br/></td>
-<td>Содержит сведения, необходимые системе для вывода уведомлений в области уведомлений. Используется <a href="/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona"><strong>Shell_NotifyIcon</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-notifyiconidentifier"><strong>нотификонидентифиер</strong></a><br/></td>
-<td>Содержит сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicongetrect"><strong>Shell_NotifyIconGetRect</strong></a> для определения значка, для которого требуется получить ограничивающий прямоугольник.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray"><strong>нресаррай</strong></a><br/></td>
-<td>Определяет формат CF_NETRESOURCEного буфера обмена.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl/ns-shobjidl-nstccustomdraw"><strong>нстккустомдрав</strong></a><br/></td>
-<td>Пользовательская структура рисования, используемая методами <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>инамеспацетриконтролкустомдрав</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_console_props"><strong>NT_CONSOLE_PROPS</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит свойства консоли.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props"><strong>NT_FE_CONSOLE_PROPS</strong></a><br/></td>
-<td>Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит кодовую страницу консоли.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-open_printer_props_infoa"><strong>OPEN_PRINTER_PROPS_INFO</strong></a><br/></td>
-<td>Определяет определенную страницу свойств на страницах свойств принтера и должна ли эта страница свойств быть модальной. При необходимости используется с функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda"><strong>шинвокепринтеркомманд</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo"><strong>опенасинфо</strong></a><br/></td>
-<td>Хранит сведения о функции <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shopenwithdialog"><strong>шопенвисдиалог</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl/ns-shobjidl-overlapped"><strong>OVERLAPPED</strong></a><br/></td>
-<td>Содержит сведения, используемые при асинхронном (перекрытом) вводе-выводе (I/O).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlwapi/ns-shlwapi-parsedurlw"><strong>парседурл</strong></a><br/></td>
-<td>Используется функцией <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-parseurla"><strong>парсеурл</strong></a> для получения проанализированного URL-адреса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-persist_folder_target_info"><strong>PERSIST_FOLDER_TARGET_INFO</strong></a><br/></td>
-<td>Указывает целевую папку ярлыка папки и ее атрибуты. Эта структура используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-getfoldertargetinfo"><strong>IPersistFolder3:: жетфолдертаржетинфо</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex"><strong>IPersistFolder3:: инитиализикс</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-previewhandlerframeinfo"><strong>превиевхандлерфрамеинфо</strong></a><br/></td>
-<td>Структура таблицы ускорителя. Используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext"><strong>IPreviewHandlerFrame:: GetWindowContext</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Profinfo/ns-profinfo-profileinfoa"><strong>FILEINFO</strong></a><br/></td>
-<td>Содержит сведения, используемые при загрузке или выгрузке профиля пользователя.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shappmgr/ns-shappmgr-pubappinfo"><strong>пубаппинфо</strong></a><br/></td>
-<td>Предоставляет сведения о опубликованном приложении с издателя приложения для компонента " <strong>Установка и удаление программ</strong> " на панели управления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo"><strong>ккминфо</strong></a><br/></td>
-<td>содержит сведения для объединения пунктов меню в меню обозревателя Windows.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlwapi/ns-shlwapi-qitab"><strong>китаб</strong></a><br/></td>
-<td>Используется функцией <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-qisearch"><strong>кисеарч</strong></a> для описания одного интерфейса.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>сериализедпропертивалуе</strong></a><br/></td>
-<td>Диапазон памяти произвольного типа, представляющий сериализованную структуру <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> . Программы не должны проверять содержимое <a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>сериализедпропертивалуе</strong></a>; Вместо этого они должны работать с функциями <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant"><strong>стгсериализепропвариант</strong></a> и <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant"><strong>стгдесериализепропвариант</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create"><strong>SFV_CREATE</strong></a><br/></td>
-<td>Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-sfv_setitempos"><strong>SFV_SETITEMPOS</strong></a><br/></td>
-<td>Хранит сведения о положении для элемента. Используется с <a href="sfvm-setitempos.md"><strong>SFVM_SETITEMPOSом</strong></a>сообщений.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_helptopic_data"><strong>SFVM_HELPTOPIC_DATA</strong></a><br/></td>
-<td>Содержит имя файла справки HTML и раздел в этом файле. Используется с уведомлением <a href="sfvm-gethelptopic.md"><strong>SFVM_GETHELPTOPIC</strong></a> . Для этой структуры требуются строки в Юникоде.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_proppage_data"><strong>SFVM_PROPPAGE_DATA</strong></a><br/></td>
-<td>Содержит подробные сведения о странице, добавляемой на страницу <strong>свойств</strong> объекта.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo"><strong>шардаппидинфо</strong></a><br/></td>
-<td>Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для того, чтобы обозначить как элемент (в данном случае как <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>), так и связанный с ним процесс.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfoidlist"><strong>шардаппидинфоидлист</strong></a><br/></td>
-<td>Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для того, чтобы определить как элемент (в данном случае с помощью абсолютного Пидл), так и связанный с ним процесс.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfolink"><strong>шардаппидинфолинк</strong></a><br/></td>
-<td>Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для указания как элемента, в данном случае через <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>ишелллинк</strong></a>, так и процесса, с которым он связан.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangenotifyentry"><strong>шчанженотифентри</strong></a><br/></td>
-<td>Содержит и получает сведения об изменении уведомлений. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister"><strong>шчанженотифирегистер</strong></a> и уведомлением <a href="sfvm-queryfsnotify.md"><strong>SFVM_QUERYFSNOTIFY</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata"><strong>школумндата</strong></a><br/></td>
-<td>Содержит сведения, определяющие конкретный файл. Он используется <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata"><strong>иколумнпровидер:: жетитемдата</strong></a> при запросе данных для определенного файла.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a><br/></td>
-<td>указывает идентификатор FMTID/PID столбца, который будет отображаться в представлении подробностей обозревателя Windows. <br/>
-<blockquote>
-[!Note]<br />
-начиная с Windows Vista <a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a> считается устаревшей формой и не должен использоваться. Вместо этого используйте структуру <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumninfo"><strong>школумнинфо</strong></a><br/></td>
-<td>Содержит сведения о свойствах столбца. Он используется <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo"><strong>иколумнпровидер:: GetColumnInfo</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumninit"><strong>школумнинит</strong></a><br/></td>
-<td>Передает сведения об инициализации в <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize"><strong>иколумнпровидер:: Initialize</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shdescriptionid"><strong>шдескриптионид</strong></a><br/></td>
-<td>Получает данные элемента в ответ на вызов <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista"><strong>шжетдатафромидлист</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shdragimage"><strong>шдрагимаже</strong></a><br/></td>
-<td>Содержит сведения, необходимые для создания изображения перетаскивания.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shell_item_resource"><strong>SHELL_ITEM_RESOURCE</strong></a><br/></td>
-<td>Определяет ресурс элемента оболочки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shtypes/ns-shtypes-shelldetails"><strong>шеллдетаилс</strong></a><br/></td>
-<td>Сообщает подробные сведения об элементе в папке оболочки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa"><strong>шеллексекутеинфо</strong></a><br/></td>
-<td>Содержит сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate"><strong>шеллфлагстате</strong></a><br/></td>
-<td>Содержит набор флагов, указывающих текущие параметры оболочки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings"><strong>шжетсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea"><strong>шеллстате</strong></a><br/></td>
-<td>Содержит параметры состояния оболочки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>шжетсетсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shfileinfoa"><strong>шфилеинфо</strong></a><br/></td>
-<td>Содержит сведения об объекте файла.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa"><strong>шфилеопструкт</strong></a><br/></td>
-<td>Содержит сведения, используемые функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> для выполнения файловых операций. <br/>
-<blockquote>
-[!Note]<br />
-начиная с Windows Vista для этой функции рекомендуется использовать интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс ifileoperation</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings"><strong>шфолдеркустомсеттингс</strong></a><br/></td>
-<td>Содержит параметры настраиваемой папки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings"><strong>шжетсетфолдеркустомсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>шитемид</strong></a><br/></td>
-<td>Определяет идентификатор элемента.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shnamemappinga"><strong>шнамемаппинг</strong></a><br/></td>
-<td>Содержит старые и новые пути для каждого файла, который был перемещен, скопирован или переименован с помощью функции <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shqueryrbinfo"><strong>шкуерирбинфо</strong></a><br/></td>
-<td>Содержит сведения о размере и количестве элементов, полученные функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shqueryrecyclebina"><strong>шкуерирециклебин</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shellapi/ns-shellapi-shstockiconinfo"><strong>шстоккиконинфо</strong></a><br/></td>
-<td>Получает сведения, используемые для получения значка фондовой биржи. Эта структура используется в вызове <a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetstockiconinfo"><strong>шжетстоккиконинфо</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shappmgr/ns-shappmgr-slowappinfo"><strong>словаппинфо</strong></a><br/></td>
-<td>Предоставляет специализированные сведения о приложении для компонента " <strong>Установка и удаление программ</strong> " на панели управления. Эта структура неприменима к опубликованным приложениям.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smcshchangenotifystruct"><strong>смкшчанженотифиструкт</strong></a><br/></td>
-<td>Содержит сведения об изменении уведомлений. Он используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm"><strong>ишеллменукаллбакк:: каллбакксм</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata"><strong>смдата</strong></a><br/></td>
-<td>Содержит сведения из строки меню.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-sminfo"><strong>сминфо</strong></a><br/></td>
-<td>Содержит сведения об элементе из строки меню.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/urlmon/ns-urlmon-softdistinfo"><strong>софтдистинфо</strong></a><br/></td>
-<td>Содержит сведения об обновлении программного обеспечения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sortcolumn"><strong>SORTCOLUMN</strong></a><br/></td>
-<td>Хранит сведения о том, как сортировать столбец, отображаемый в представлении папки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shtypes/ns-shtypes-strret"><strong>стррет</strong></a><br/></td>
-<td>Содержит строки, возвращаемые методами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sv2cvw2_params"><strong>SV2CVW2_PARAMS</strong></a><br/></td>
-<td>Содержит параметры для метода <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2:: CreateViewWindow2</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/shell/objects-cpp"><strong>SYNC_HANDLER_ITEM_INFO</strong></a><br/></td>
-<td>Определяет обработчик для запланированной синхронизации. Используется с <a href="/previous-versions/windows/desktop/isync-schedule/bb774680(v=vs.85)"><strong>исинксчедуле:: AddItem</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Syncmgr/ns-syncmgr-syncmgr_conflict_id_info"><strong>SYNCMGR_CONFLICT_ID_INFO</strong></a><br/></td>
-<td>Описывает структуру сведений о конфликте ИДЕНТИФИКАТОРов.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrhandlerinfo"><strong>синкмгрхандлеринфо</strong></a><br/></td>
-<td>Предоставляет сведения о обработчике для использования в методе <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo"><strong>исинкмгрсинчронизе:: жесандлеринфо</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>синкмгритем</strong></a><br/></td>
-<td>Предоставляет сведения о элементах, перечисленных с помощью интерфейса <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>исинкмгренумитемс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrlogerrorinfo"><strong>синкмгрложерроринфо</strong></a><br/></td>
-<td>Предоставляет сведения об ошибке для использования в методе <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror"><strong>исинкмгрсинчронизекаллбакк:: LogError</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrprogressitem"><strong>синкмгрпрогресситем</strong></a><br/></td>
-<td>Предоставляет сведения о состоянии во время выполнения синхронизации. Эта структура используется с методом <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress"><strong>исинкмгрсинчронизекаллбакк::P рогресс</strong></a> и соответствует одному элементу синхронизации.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Shlobj/ns-shlobj-tbinfo"><strong>тбинфо</strong></a><br/></td>
-<td>Используется с уведомлением <a href="sfvm-getbuttoninfo.md"><strong>SFVM_GETBUTTONINFO</strong></a> , чтобы указать количество кнопок, добавляемых на панель инструментов, а также способ их добавления.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton"><strong>сумббуттон</strong></a><br/></td>
-<td>Используется методами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> для определения кнопок, используемых в панели инструментов, встроенной в представление эскиза окна.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-wallpaperopt"><strong>валлпаперопт</strong></a><br/></td>
-<td>Содержит параметры экрана обоев. Используется с членами интерфейса <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>иактиведесктоп</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Tlogstg/ns-tlogstg-windowdata"><strong>виндовдата</strong></a><br/></td>
-<td>Хранит данные окна.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Thumbcache/ne-thumbcache-wts_contextflags"><strong>WTS_CONTEXTFLAGS</strong></a><br/></td>
-<td>Задает контекст извлечения эскиза. Используется <a href="/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailsettings-setcontext"><strong>исумбнаилсеттингс:: SetContext</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Thumbcache/ne-thumbcache-wts_flags"><strong>WTS_FLAGS</strong></a><br/></td>
-<td>Значения, используемые <a href="/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail"><strong>исумбнаилкаче:: «thumbnail</strong></a> » для указания параметров извлечения и вывода эскиза.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Thumbcache/ns-thumbcache-wts_thumbnailid"><strong>WTS_THUMBNAILID</strong></a><br/></td>
-<td>Содержит уникальный идентификатор эскиза в кэше эскизов системы.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Описание | 
+|-------|-------------|
+| <a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenufilename"><strong>аашеллменуфиленаме</strong></a><br /> | Структура переменного размера, содержащая сведения о имени файла меню.<br /> | 
+| <a href="/windows/win32/api/shlobj/ns-shlobj-aashellmenuitem"><strong>аашеллменуитем</strong></a><br /> | Содержит сведения об элементе меню.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-appbardata"><strong>аппбардата</strong></a><br /> | Содержит сведения о системном сообщении панель приложений.<br /> | 
+| <a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfo"><strong>аппкатегоринфо</strong></a><br /> | Предоставляет сведения о категории приложения для компонента "Установка и удаление программ" на панели управления. Структура <a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfolist"><strong>аппкатегоринфолист</strong></a> используется для создания полного списка категорий для издателя приложения.<br /> | 
+| <a href="/windows/desktop/api/Appmgmt/ns-appmgmt-appcategoryinfolist"><strong>аппкатегоринфолист</strong></a><br /> | Список поддерживаемых категорий приложений с издателя приложения для компонента "Установка и удаление программ" панели управления. <br /> | 
+| <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-appinfodata"><strong>аппинфодата</strong></a><br /> | Предоставляет сведения о опубликованном приложении в служебной программе панели управления "Установка и удаление программ".<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-associationelement"><strong>ассоЦиатионелемент</strong></a><br /> | Определяет сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-assoccreateforclasses"><strong>ассоккреатефорклассес</strong></a> для получения интерфейса <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations"><strong>икуеряссоЦиатионс</strong></a> для заданной ассоциации файла.<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-bandinfosfb"><strong>бандинфосфб</strong></a><br /> | Содержит сведения о полосе папок. Эта структура используется с методами <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-getbandinfosfb"><strong>ишеллфолдербанд:: жетбандинфосфб</strong></a> и <a href="/windows/desktop/api/shlobj/nf-shlobj-ishellfolderband-setbandinfosfb"><strong>Ишеллфолдербанд:: сетбандинфосфб</strong></a> .<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-bandsiteinfo"><strong>бандситеинфо</strong></a><br /> | Содержит сведения о веб-сайте с полосой. Эта структура используется с методами <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-getbandsiteinfo"><strong>ибандсите:: жетбандситеинфо</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ibandsite-setbandsiteinfo"><strong>Ибандсите:: сетбандситеинфо</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>басебровсердата</strong></a><br /> | Содержит защищенные члены базового класса. <a href="/windows/desktop/api/Shdeprecated/ns-shdeprecated-basebrowserdatalh"><strong>Басебровсердата</strong></a> определяет состояние браузера и используется с <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-getbasebrowserdata"><strong>IBrowserService2:: жетбасебровсердата</strong></a> и <a href="/windows/desktop/api/Shdeprecated/nf-shdeprecated-ibrowserservice2-putbasebrowserdata"><strong>IBrowserService2::P утбасебровсердата</strong></a>.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/cc136564(v=vs.85)"><strong>бордервидсс</strong></a><br /> | Определяет координаты левого верхнего и правого нижнего угла прямоугольника границы.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-browseinfoa"><strong>бровсеинфо</strong></a><br /> | Содержит параметры функции <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera"><strong>шбровсефорфолдер</strong></a> и получает сведения о папке, выбранной пользователем.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-category_info"><strong>CATEGORY_INFO</strong></a><br /> | Содержит сведения о категории. Категория компонента — это группа логически связанных классов COM, совместно использующих общий идентификатор категории (CATID).<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-cida"><strong>Цида</strong></a><br /> | Используется с форматом буфера обмена <a href="clipboard.md">CFSTR_SHELLIDLIST</a> для перемещения указателя на список идентификаторов элементов (Пидл) одного или нескольких объектов пространства имен оболочки.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo"><strong>CM_COLUMNINFO</strong></a><br /> | Определяет сведения о столбце. Используется членами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager"><strong>иколумнманажер</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo"><strong>кминвокекоммандинфо</strong></a><br /> | Содержит сведения, необходимые <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand"><strong>IContextMenu:: инвокекомманд</strong></a> для вызова команды контекстного меню.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex"><strong>кминвокекоммандинфоекс</strong></a><br /> | Содержит расширенные сведения о команде контекстного меню. Эта структура является расширенной версией <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo"><strong>кминвокекоммандинфо</strong></a> , которая позволяет использовать значения Юникода.<br /> | 
+| <a href="/windows/desktop/api/Shtypes/ns-shtypes-comdlg_filterspec"><strong>COMDLG_FILTERSPEC</strong></a><br /> | Используется в универсальном виде для фильтрации элементов.<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>СМ</strong></a><br /> | используется Windows 2000 для хранения сведений о компоненте. Эта структура заменяет структуру <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a> .<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-componentsopt"><strong>компонентсопт</strong></a><br /> | Содержит параметры элементов рабочего стола.<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-comppos"><strong>комппос</strong></a><br /> | Содержит сведения о положении и размере компонента.<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-compstateinfo"><strong>компстатеинфо</strong></a><br /> | используется Windows 2000 для хранения сведений о состоянии компонента.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_item"><strong>CONFIRM_CONFLICT_ITEM</strong></a><br /> | Определяет структуру конфликтующего элемента.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/ns-syncmgr-confirm_conflict_result_info"><strong>CONFIRM_CONFLICT_RESULT_INFO</strong></a><br /> | Определяет структуру сведений о результатах конфликта.<br /> | 
+| <a href="/windows/win32/api/cpl/ns-cpl-cplinfo"><strong>кплинфо</strong></a><br /> | Содержит сведения о ресурсах и определяемое приложением значение для диалогового окна, поддерживаемого приложением панели управления. Функция <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc"><strong>кплапплет</strong></a> приложения панели управления возвращает эти сведения на панель управления в ответ на сообщение <a href="cpl-inquire.md"><strong>CPL_INQUIRE</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_credential_serialization"><strong>CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION</strong></a><br /> | Содержит сведения об учетных данных.<br /> | 
+| <a href="/windows/desktop/api/Credentialprovider/ns-credentialprovider-credential_provider_field_descriptor"><strong>CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</strong></a><br /> | Описывает одно поле в учетных данных. Например, строка или пользовательский образ.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-csfv"><strong>ксфв</strong></a><br /> | Используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderviewex"><strong>шкреатешеллфолдервиевекс</strong></a> .<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-datablock_header"><strong>DATABLOCK_HEADER</strong></a><br /> | Служит в качестве заголовка для некоторых дополнительных структур данных, используемых <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-defcontextmenu"><strong>дефконтекстмену</strong></a><br /> | Содержит сведения о контекстном меню, используемом <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu"><strong>шкреатедефаултконтекстмену</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-delegateitemid"><strong>делегатеитемид</strong></a><br /> | Используется для папок делегатов вместо стандартной структуры <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-detailsinfo"><strong>детаилсинфо</strong></a><br /> | Содержит подробные сведения для элемента папки оболочки. Используется с уведомлением <a href="sfvm-getdetailsof.md"><strong>SFVM_GETDETAILSOF</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dfmics"><strong>дфмикс</strong></a><br /> | Содержит дополнительные аргументы, используемые <a href="dfm-invokecommandex.md"><strong>DFM_INVOKECOMMANDEX</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo"><strong>дллверсионинфо</strong></a><br /> | Получает сведения о версии, зависящей от библиотеки DLL. Он используется с функцией <a href="/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc"><strong>дллжетверсион</strong></a> . <br /><blockquote>[!Note]<br />Вместо этой структуры можно использовать структуру <a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2"><strong>DLLVERSIONINFO2</strong></a> .</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shlwapi/ns-shlwapi-dllversioninfo2"><strong>DLLVERSIONINFO2</strong></a><br /> | Получает сведения о версии, зависящей от библиотеки DLL. Он используется с функцией <a href="/windows/desktop/api/Shlwapi/nc-shlwapi-dllgetversionproc"><strong>дллжетверсион</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription"><strong>дропдескриптион</strong></a><br /> | Описывает изображение и сопроводительный текст для объекта Drop.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropfiles"><strong>дропфилес</strong></a><br /> | Определяет формат <a href="clipboard.md">CF_HDROPного</a> буфера обмена. Приведенные ниже данные представляют собой список имен файлов, заканчивающийся двойным нулем.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link"><strong>EXP_DARWIN_LINK</strong></a><br /> | Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. он содержит идентификатор установщик Windows ссылки.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_propertystorage"><strong>EXP_PROPERTYSTORAGE</strong></a><br /> | Хранит сведения о состоянии связи оболочки. Эта структура используется для дополнительных разделов данных, помеченных EXP_PROPERTYSTORAGE_SIG.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_special_folder"><strong>EXP_SPECIAL_FOLDER</strong></a><br /> | Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит специальные сведения о папке.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_sz_link"><strong>EXP_SZ_LINK</strong></a><br /> | Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит расширяемые строки среды для значка или целевого объекта.<br /> | 
+| <a href="ext-button.md"><strong>EXT_BUTTON</strong></a><br /> | Содержит сведения о кнопке, которая добавляется БИБЛИОТЕКой расширения диспетчера файлов на панель инструментов диспетчера файлов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-extrasearch"><strong>екстрасеарч</strong></a><br /> | Используется объектом перечислителя <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch"><strong>иенумекстрасеарч</strong></a> для возврата сведений об объектах поиска, поддерживаемых объектом папки оболочки.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-file_attributes_array"><strong>FILE_ATTRIBUTES_ARRAY</strong></a><br /> | Содержит определение формата буфера обмена для CFSTR_FILE_ATTRIBUTES_ARRAY.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>филедескриптор</strong></a><br /> | описывает свойства файла, который копируется с помощью буфера обмена во время операции <a href="dragdrop.md">перетаскивания</a> Microsoft ActiveX.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>филеграупдескриптор</strong></a><br /> | Определяет формат CF_FILEGROUPDESCRIPTORного буфера обмена.<br /> | 
+| <a href="fms-getdriveinfo.md"><strong>FMS_GETDRIVEINFO</strong></a><br /> | Содержит сведения о диске, выбранном в активном окне диспетчера файлов (в окне каталога или в окне результатов поиска).<br /> | 
+| <a href="fms-getfilesel.md"><strong>FMS_GETFILESEL</strong></a><br /> | Содержит сведения о выбранном файле в активном окне диспетчера файлов (в окне каталога или в окне результатов поиска).<br /> | 
+| <a href="fms-helpstring.md"><strong>FMS_HELPSTRING</strong></a><br /> | Содержит сведения, используемые диспетчером файлов для добавления строки справки для элемента меню или команды панели инструментов.<br /> | 
+| <a href="fms-load.md"><strong>FMS_LOAD</strong></a><br /> | Содержит сведения, используемые диспетчером файлов для добавления пользовательского меню, предоставляемого БИБЛИОТЕКой расширения диспетчера файлов. Структура также предоставляет разностное значение, которое библиотека DLL расширения может использовать для работы с пользовательским меню после того, как диспетчер файлов загрузил меню.<br /> | 
+| <a href="fms-toolbarload.md"><strong>FMS_TOOLBARLOAD</strong></a><br /> | Содержит сведения о настраиваемых кнопках, добавляемых на панель инструментов диспетчера файлов. Кнопки предоставляются БИБЛИОТЕКой расширения диспетчера файлов.<br /> | 
+| <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings"><strong>фолдерсеттингс</strong></a><br /> | Содержит сведения о представлении папки.<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-fvshowinfo"><strong>фвшовинфо</strong></a><br /> | Содержит сведения, используемые средством просмотра файлов для вывода файла.<br /> | 
+| <a href="/windows/win32/api/winuser/ns-winuser-helpinfo"><strong>HELPINFO</strong></a><br /> | Содержит сведения об элементе, для которого запрошена контекстная справка.<br /> | 
+| <a href="/windows/win32/api/winuser/ns-winuser-helpwininfow"><strong>хелпвининфо</strong></a><br /> | Содержит размер и расположение основного или дополнительного окна справки. Приложение может задать эти сведения, вызвав функцию <a href="/windows/desktop/api/Winuser/nf-winuser-winhelpa"><strong>WinHelp</strong></a> со значением HELP_SETWINPOS.<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br /> | Используется в Microsoft Internet Explorer 4,0 и Microsoft Internet Explorer 4,01 для хранения сведений о компоненте. при использовании Windows 2000 он заменяется структурой <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>компонентов</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>итемидлист</strong></a><br /> | Содержит список идентификаторов элементов.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-itemspacing"><strong>итемспаЦинг</strong></a><br /> | Хранит размеры двух возможных размеров значков, доступных для показа: Малый и крупный. Используется <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getitemspacing"><strong>ишеллфолдервиев:: жетитемспаЦинг</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-knownfolder_definition"><strong>KNOWNFOLDER_DEFINITION</strong></a><br /> | Определяет особенности известной папки.<br /> | 
+| <a href="/windows/win32/api/shtypes/ns-shtypes-logfontw"><strong>LOGFONT</strong></a><br /> | Определяет атрибуты шрифта.<br /> | 
+| <a href="mruinfo.md"><strong>мруинфо</strong></a><br /> | Содержит сведения, определяющие новый список недавно использованных (MRU) списков. Используется <a href="createmrulist.md"><strong>креатемрулиств</strong></a>.<br /> | 
+| <a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>мултикэйхелп</strong></a><br /> | задает ключевое слово для поиска и таблицу ключевых слов, в которой выполняется поиск, Windows справку.<br /> | 
+| <a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br /> | Содержит сведения, описывающие сетевой адрес.<br /> | 
+| <a href="/windows/desktop/shell/hkey-type"><strong>NET_ADDRESS_INFO</strong></a><br /> | Описывает сетевой адрес.<br /> | 
+| <a href="/windows/win32/api/cpl/ns-cpl-newcplinfow"><strong>невкплинфо</strong></a><br /> | Содержит сведения о ресурсах и определяемое приложением значение для диалогового окна, поддерживаемого приложением панели управления.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-notifyicondataa"><strong>нотификондата</strong></a><br /> | Содержит сведения, необходимые системе для вывода уведомлений в области уведомлений. Используется <a href="/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona"><strong>Shell_NotifyIcon</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-notifyiconidentifier"><strong>нотификонидентифиер</strong></a><br /> | Содержит сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicongetrect"><strong>Shell_NotifyIconGetRect</strong></a> для определения значка, для которого требуется получить ограничивающий прямоугольник.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nresarray"><strong>нресаррай</strong></a><br /> | Определяет формат CF_NETRESOURCEного буфера обмена.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/ns-shobjidl-nstccustomdraw"><strong>нстккустомдрав</strong></a><br /> | Пользовательская структура рисования, используемая методами <a href="/windows/desktop/api/Shobjidl/nn-shobjidl-inamespacetreecontrolcustomdraw"><strong>инамеспацетриконтролкустомдрав</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_console_props"><strong>NT_CONSOLE_PROPS</strong></a><br /> | Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит свойства консоли.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props"><strong>NT_FE_CONSOLE_PROPS</strong></a><br /> | Содержит дополнительный блок данных, используемый <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist"><strong>ишелллинкдаталист</strong></a>. Он содержит кодовую страницу консоли.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-open_printer_props_infoa"><strong>OPEN_PRINTER_PROPS_INFO</strong></a><br /> | Определяет определенную страницу свойств на страницах свойств принтера и должна ли эта страница свойств быть модальной. При необходимости используется с функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shinvokeprintercommanda"><strong>шинвокепринтеркомманд</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo"><strong>опенасинфо</strong></a><br /> | Хранит сведения о функции <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shopenwithdialog"><strong>шопенвисдиалог</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl/ns-shobjidl-overlapped"><strong>OVERLAPPED</strong></a><br /> | Содержит сведения, используемые при асинхронном (перекрытом) вводе-выводе (I/O).<br /> | 
+| <a href="/windows/win32/api/shlwapi/ns-shlwapi-parsedurlw"><strong>парседурл</strong></a><br /> | Используется функцией <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-parseurla"><strong>парсеурл</strong></a> для получения проанализированного URL-адреса.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-persist_folder_target_info"><strong>PERSIST_FOLDER_TARGET_INFO</strong></a><br /> | Указывает целевую папку ярлыка папки и ее атрибуты. Эта структура используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-getfoldertargetinfo"><strong>IPersistFolder3:: жетфолдертаржетинфо</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder3-initializeex"><strong>IPersistFolder3:: инитиализикс</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-previewhandlerframeinfo"><strong>превиевхандлерфрамеинфо</strong></a><br /> | Структура таблицы ускорителя. Используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-getwindowcontext"><strong>IPreviewHandlerFrame:: GetWindowContext</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Profinfo/ns-profinfo-profileinfoa"><strong>FILEINFO</strong></a><br /> | Содержит сведения, используемые при загрузке или выгрузке профиля пользователя.<br /> | 
+| <a href="/windows/desktop/api/Shappmgr/ns-shappmgr-pubappinfo"><strong>пубаппинфо</strong></a><br /> | Предоставляет сведения о опубликованном приложении с издателя приложения для компонента " <strong>Установка и удаление программ</strong> " на панели управления.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo"><strong>ккминфо</strong></a><br /> | содержит сведения для объединения пунктов меню в меню обозревателя Windows.<br /> | 
+| <a href="/windows/desktop/api/Shlwapi/ns-shlwapi-qitab"><strong>китаб</strong></a><br /> | Используется функцией <a href="/windows/desktop/api/Shlwapi/nf-shlwapi-qisearch"><strong>кисеарч</strong></a> для описания одного интерфейса.<br /> | 
+| <a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>сериализедпропертивалуе</strong></a><br /> | Диапазон памяти произвольного типа, представляющий сериализованную структуру <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> . Программы не должны проверять содержимое <a href="/windows/win32/api/propidl/ns-propidl-serializedpropertyvalue"><strong>сериализедпропертивалуе</strong></a>; Вместо этого они должны работать с функциями <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgserializepropvariant"><strong>стгсериализепропвариант</strong></a> и <a href="/windows/desktop/api/propvarutil/nf-propvarutil-stgdeserializepropvariant"><strong>стгдесериализепропвариант</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfv_create"><strong>SFV_CREATE</strong></a><br /> | Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreateshellfolderview"><strong>шкреатешеллфолдервиев</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-sfv_setitempos"><strong>SFV_SETITEMPOS</strong></a><br /> | Хранит сведения о положении для элемента. Используется с <a href="sfvm-setitempos.md"><strong>SFVM_SETITEMPOSом</strong></a>сообщений.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_helptopic_data"><strong>SFVM_HELPTOPIC_DATA</strong></a><br /> | Содержит имя файла справки HTML и раздел в этом файле. Используется с уведомлением <a href="sfvm-gethelptopic.md"><strong>SFVM_GETHELPTOPIC</strong></a> . Для этой структуры требуются строки в Юникоде.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-sfvm_proppage_data"><strong>SFVM_PROPPAGE_DATA</strong></a><br /> | Содержит подробные сведения о странице, добавляемой на страницу <strong>свойств</strong> объекта.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfo"><strong>шардаппидинфо</strong></a><br /> | Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для того, чтобы обозначить как элемент (в данном случае как <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem"><strong>интерфейса IShellItem</strong></a>), так и связанный с ним процесс.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfoidlist"><strong>шардаппидинфоидлист</strong></a><br /> | Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для того, чтобы определить как элемент (в данном случае с помощью абсолютного Пидл), так и связанный с ним процесс.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shardappidinfolink"><strong>шардаппидинфолинк</strong></a><br /> | Содержит данные, используемые <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs"><strong>шаддторецентдокс</strong></a> для указания как элемента, в данном случае через <a href="/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka"><strong>ишелллинк</strong></a>, так и процесса, с которым он связан.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shchangenotifyentry"><strong>шчанженотифентри</strong></a><br /> | Содержит и получает сведения об изменении уведомлений. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotifyregister"><strong>шчанженотифирегистер</strong></a> и уведомлением <a href="sfvm-queryfsnotify.md"><strong>SFVM_QUERYFSNOTIFY</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumndata"><strong>школумндата</strong></a><br /> | Содержит сведения, определяющие конкретный файл. Он используется <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getitemdata"><strong>иколумнпровидер:: жетитемдата</strong></a> при запросе данных для определенного файла.<br /> | 
+| <a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a><br /> | указывает идентификатор FMTID/PID столбца, который будет отображаться в представлении подробностей обозревателя Windows. <br /><blockquote>[!Note]<br />начиная с Windows Vista <a href="/windows/desktop/shell/objects"><strong>школумнид</strong></a> считается устаревшей формой и не должен использоваться. Вместо этого используйте структуру <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .</blockquote><br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumninfo"><strong>школумнинфо</strong></a><br /> | Содержит сведения о свойствах столбца. Он используется <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo"><strong>иколумнпровидер:: GetColumnInfo</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-shcolumninit"><strong>школумнинит</strong></a><br /> | Передает сведения об инициализации в <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-initialize"><strong>иколумнпровидер:: Initialize</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shdescriptionid"><strong>шдескриптионид</strong></a><br /> | Получает данные элемента в ответ на вызов <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdatafromidlista"><strong>шжетдатафромидлист</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shdragimage"><strong>шдрагимаже</strong></a><br /> | Содержит сведения, необходимые для создания изображения перетаскивания.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-shell_item_resource"><strong>SHELL_ITEM_RESOURCE</strong></a><br /> | Определяет ресурс элемента оболочки.<br /> | 
+| <a href="/windows/desktop/api/Shtypes/ns-shtypes-shelldetails"><strong>шеллдетаилс</strong></a><br /> | Сообщает подробные сведения об элементе в папке оболочки.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa"><strong>шеллексекутеинфо</strong></a><br /> | Содержит сведения, используемые <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate"><strong>шеллфлагстате</strong></a><br /> | Содержит набор флагов, указывающих текущие параметры оболочки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsettings"><strong>шжетсеттингс</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellstatea"><strong>шеллстате</strong></a><br /> | Содержит параметры состояния оболочки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings"><strong>шжетсетсеттингс</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shfileinfoa"><strong>шфилеинфо</strong></a><br /> | Содержит сведения об объекте файла.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shfileopstructa"><strong>шфилеопструкт</strong></a><br /> | Содержит сведения, используемые функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> для выполнения файловых операций. <br /><blockquote>[!Note]<br />начиная с Windows Vista для этой функции рекомендуется использовать интерфейс <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>интерфейс ifileoperation</strong></a> .</blockquote><br /> | 
+| <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings"><strong>шфолдеркустомсеттингс</strong></a><br /> | Содержит параметры настраиваемой папки. Эта структура используется с функцией <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetfoldercustomsettings"><strong>шжетсетфолдеркустомсеттингс</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shtypes/ns-shtypes-shitemid"><strong>шитемид</strong></a><br /> | Определяет идентификатор элемента.<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shnamemappinga"><strong>шнамемаппинг</strong></a><br /> | Содержит старые и новые пути для каждого файла, который был перемещен, скопирован или переименован с помощью функции <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>шфилеоператион</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shqueryrbinfo"><strong>шкуерирбинфо</strong></a><br /> | Содержит сведения о размере и количестве элементов, полученные функцией <a href="/windows/desktop/api/Shellapi/nf-shellapi-shqueryrecyclebina"><strong>шкуерирециклебин</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shellapi/ns-shellapi-shstockiconinfo"><strong>шстоккиконинфо</strong></a><br /> | Получает сведения, используемые для получения значка фондовой биржи. Эта структура используется в вызове <a href="/windows/desktop/api/Shellapi/nf-shellapi-shgetstockiconinfo"><strong>шжетстоккиконинфо</strong></a>.<br /> | 
+| <a href="/windows/win32/api/shappmgr/ns-shappmgr-slowappinfo"><strong>словаппинфо</strong></a><br /> | Предоставляет специализированные сведения о приложении для компонента " <strong>Установка и удаление программ</strong> " на панели управления. Эта структура неприменима к опубликованным приложениям.<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smcshchangenotifystruct"><strong>смкшчанженотифиструкт</strong></a><br /> | Содержит сведения об изменении уведомлений. Он используется <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm"><strong>ишеллменукаллбакк:: каллбакксм</strong></a>.<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-smdata"><strong>смдата</strong></a><br /> | Содержит сведения из строки меню.<br /> | 
+| <a href="/windows/win32/api/shobjidl_core/ns-shobjidl_core-sminfo"><strong>сминфо</strong></a><br /> | Содержит сведения об элементе из строки меню.<br /> | 
+| <a href="/windows/win32/api/urlmon/ns-urlmon-softdistinfo"><strong>софтдистинфо</strong></a><br /> | Содержит сведения об обновлении программного обеспечения.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sortcolumn"><strong>SORTCOLUMN</strong></a><br /> | Хранит сведения о том, как сортировать столбец, отображаемый в представлении папки.<br /> | 
+| <a href="/windows/desktop/api/Shtypes/ns-shtypes-strret"><strong>стррет</strong></a><br /> | Содержит строки, возвращаемые методами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder"><strong>ишеллфолдер</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-sv2cvw2_params"><strong>SV2CVW2_PARAMS</strong></a><br /> | Содержит параметры для метода <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview2-createviewwindow2"><strong>IShellView2:: CreateViewWindow2</strong></a> .<br /> | 
+| <a href="/windows/desktop/shell/objects-cpp"><strong>SYNC_HANDLER_ITEM_INFO</strong></a><br /> | Определяет обработчик для запланированной синхронизации. Используется с <a href="/previous-versions/windows/desktop/isync-schedule/bb774680(v=vs.85)"><strong>исинксчедуле:: AddItem</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Syncmgr/ns-syncmgr-syncmgr_conflict_id_info"><strong>SYNCMGR_CONFLICT_ID_INFO</strong></a><br /> | Описывает структуру сведений о конфликте ИДЕНТИФИКАТОРов.<br /> | 
+| <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrhandlerinfo"><strong>синкмгрхандлеринфо</strong></a><br /> | Предоставляет сведения о обработчике для использования в методе <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronize-gethandlerinfo"><strong>исинкмгрсинчронизе:: жесандлеринфо</strong></a> .<br /> | 
+| <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgritem"><strong>синкмгритем</strong></a><br /> | Предоставляет сведения о элементах, перечисленных с помощью интерфейса <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems"><strong>исинкмгренумитемс</strong></a> .<br /> | 
+| <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrlogerrorinfo"><strong>синкмгрложерроринфо</strong></a><br /> | Предоставляет сведения об ошибке для использования в методе <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror"><strong>исинкмгрсинчронизекаллбакк:: LogError</strong></a> .<br /> | 
+| <a href="/windows/win32/api/mobsync/ns-mobsync-syncmgrprogressitem"><strong>синкмгрпрогресситем</strong></a><br /> | Предоставляет сведения о состоянии во время выполнения синхронизации. Эта структура используется с методом <a href="/windows/desktop/api/Mobsync/nf-mobsync-isyncmgrsynchronizecallback-progress"><strong>исинкмгрсинчронизекаллбакк::P рогресс</strong></a> и соответствует одному элементу синхронизации.<br /> | 
+| <a href="/windows/desktop/api/Shlobj/ns-shlobj-tbinfo"><strong>тбинфо</strong></a><br /> | Используется с уведомлением <a href="sfvm-getbuttoninfo.md"><strong>SFVM_GETBUTTONINFO</strong></a> , чтобы указать количество кнопок, добавляемых на панель инструментов, а также способ их добавления.<br /> | 
+| <a href="/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton"><strong>сумббуттон</strong></a><br /> | Используется методами интерфейса <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3"><strong>ITaskbarList3</strong></a> для определения кнопок, используемых в панели инструментов, встроенной в представление эскиза окна.<br /> | 
+| <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-wallpaperopt"><strong>валлпаперопт</strong></a><br /> | Содержит параметры экрана обоев. Используется с членами интерфейса <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop"><strong>иактиведесктоп</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/Tlogstg/ns-tlogstg-windowdata"><strong>виндовдата</strong></a><br /> | Хранит данные окна.<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/ne-thumbcache-wts_contextflags"><strong>WTS_CONTEXTFLAGS</strong></a><br /> | Задает контекст извлечения эскиза. Используется <a href="/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailsettings-setcontext"><strong>исумбнаилсеттингс:: SetContext</strong></a>.<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/ne-thumbcache-wts_flags"><strong>WTS_FLAGS</strong></a><br /> | Значения, используемые <a href="/windows/desktop/api/Thumbcache/nf-thumbcache-ithumbnailcache-getthumbnail"><strong>исумбнаилкаче:: «thumbnail</strong></a> » для указания параметров извлечения и вывода эскиза.<br /> | 
+| <a href="/windows/desktop/api/Thumbcache/ns-thumbcache-wts_thumbnailid"><strong>WTS_THUMBNAILID</strong></a><br /> | Содержит уникальный идентификатор эскиза в кэше эскизов системы.<br /> | 
+
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: c71b7563e00bfceb220ce1c2bf109339267fbabf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bf462ef63045c8c4e5822e3d28fc21b44dfeed5848da3ac89c8232dfacc062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037444"
 ---
 # <a name="imonitoreventerfreeeventdata-method"></a>Метод Имониторевентер:: Фриевентдата
 
@@ -50,13 +50,13 @@ HRESULT FreeEventData(
 
 Этот метод возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Мониторы вызывают этот метод, чтобы освободить память, выделенную для структуры данных события. Имейте в виду, что хотя у монитора по-прежнему есть указатель на строки в выделенной структуре [**нмевентдата**](nmeventdata.md) , память для этих строк должна быть освобождена до вызова метода **фриевентдата** .
 
 Дополнительные сведения о том, как выделить память для структуры [**нмевентдата**](nmeventdata.md) , см. в разделе [**Имониторевентер:: жетевентдата**](imonitoreventer-geteventdata.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ HRESULT FreeEventData(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

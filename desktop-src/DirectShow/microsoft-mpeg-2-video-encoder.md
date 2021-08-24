@@ -4,12 +4,12 @@ ms.assetid: d52c1299-0641-405c-8960-edd738b56823
 title: Кодировщик видео Microsoft MPEG-2 (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c96db605586c6abf0f51537689a9365df2842c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c7f7b70b9a754aefda3158ae355eb84c24b71b7e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682276"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474720"
 ---
 # <a name="microsoft-mpeg-2-video-encoder"></a>Видеокодировщик Microsoft MPEG-2 видео
 
@@ -177,37 +177,13 @@ msmpeg2enc.dll
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Режим</th>
-<th>Свойства</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property.md"><strong>авенккоммонкуалитивсспид</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td>VBR на основе качества</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property.md"><strong>авенккоммонкуалити</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>авенккоммонмаксбитрате</strong></a><br/>
-<blockquote>
-[!Note]<br />
-В этом режиме свойства <a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a> и <a href="avenccommonminbitrate-property.md"><strong>авенккоммонминбитрате</strong></a> не используются. Предполагается, что минимальная скорость потока равна нулю.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Пиковая с ограниченным числом VBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property.md"><strong>Авенккоммонмултипассмоде</strong></a> = 1<br/> <a href="avenccommonminbitrate-property.md"><strong>авенккоммонминбитрате</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>авенккоммонмаксбитрате</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a><br/></td>
-</tr>
-</tbody>
-</table>
+
+| Режим | Свойства | 
+|------|------------|
+| CBR | <a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_CBR</strong><br /><a href="avenccommonqualityvsspeed-property.md"><strong>авенккоммонкуалитивсспид</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a><br /> | 
+| VBR на основе качества | <a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_Quality</strong><br /><a href="avenccommonquality-property.md"><strong>авенккоммонкуалити</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>авенккоммонмаксбитрате</strong></a><br /><blockquote>[!Note]<br />В этом режиме свойства <a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a> и <a href="avenccommonminbitrate-property.md"><strong>авенккоммонминбитрате</strong></a> не используются. Предполагается, что минимальная скорость потока равна нулю.</blockquote><br /> | 
+| Пиковая с ограниченным числом VBR | <a href="avenccommonratecontrolmode-property.md"><strong>Авенккоммонратеконтролмоде</strong></a>  =  <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br /><a href="avenccommonmultipassmode-property.md"><strong>Авенккоммонмултипассмоде</strong></a> = 1<br /><a href="avenccommonminbitrate-property.md"><strong>авенккоммонминбитрате</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>авенккоммонмаксбитрате</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>авенккоммонмеанбитрате</strong></a><br /> | 
+
 
 
 
@@ -351,17 +327,17 @@ msmpeg2enc.dll
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Домашняя расширенная, Windows Vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows главная Premium vista, Windows vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, Windows 7 Максимальная \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                                     |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [**Типы носителей для демультиплексирования MPEG-2**](mpeg-2-demultiplexer-media-types.md)

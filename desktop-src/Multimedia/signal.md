@@ -3,7 +3,7 @@ title: сигнал, команда
 description: Команда сигнала определяет указанную точку в рабочей области путем отправки приложения в \_ сообщение МЦИСИГНАЛ mm. Устройство Digital-Video распознает эту команду. МЦИАВИ поддерживает только один активный сигнал за раз.
 ms.assetid: 3d10eac0-fd1a-41ee-98fa-2518642c7339
 keywords:
-- сигнал команды "мультимедиа Windows"
+- сигнал команды Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fd96b8970ebbb6502306c6d2d5fd8c49f172cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0db007a03738f13bb9acc0733b67bcd38de4b97f2b194bb16cdfcd85f798cfdc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037184"
 ---
 # <a name="signal-command"></a>сигнал, команда
 
@@ -78,11 +78,11 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дескриптор окна, используемый для уведомления о сообщениях о завершении работы команды, также используется для сигнализации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -93,7 +93,7 @@ _stprintf_s(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

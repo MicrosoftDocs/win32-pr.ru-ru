@@ -3,7 +3,7 @@ title: Внешнее событие Ончанжевиеверрор
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | Внешнее событие Ончанжевиеверрор
 ms.assetid: d6370629-5f50-434d-8eb5-5b43d1b2f7fe
 keywords:
-- Проигрыватель Windows Media для события external. Ончанжевиеверрор
+- проигрыватель Windows Media события External. ончанжевиеверрор
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91bcbb71e1c5324a9907d735492364561be49a60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aaa1152c753501b2e2385de8c56af614d62cfb367fcca8468aaa032e9536e8d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648834"
 ---
 # <a name="externalonchangeviewerror-event"></a>Внешнее событие Ончанжевиеверрор
 
@@ -36,7 +36,7 @@ window.external.OnChangeViewError = FunctionName
 
 ## <a name="possible-values"></a>Возможные значения
 
-Это свойство только для записи, которое указывает имя функции в скрипте, которое вызывает проигрыватель Windows Media при возникновении события.
+это свойство только для записи, которое указывает имя функции в скрипте, проигрыватель Windows Media вызывается при возникновении события.
 
 ## <a name="parameters"></a>Параметры
 
@@ -79,18 +79,18 @@ window.external.OnChangeViewError = FunctionName
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/>                                                 |
+| Версия<br/> | проигрыватель Windows Media 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

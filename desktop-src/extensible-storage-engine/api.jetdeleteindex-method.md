@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: de04966aae4aee3f4ab7b14a846b898f55f887be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3eb8576c6d31ad8420126a7ef5aad1e99d7cef2eda273c1cd15dfe2c018b4892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119605674"
 ---
 # <a name="apijetdeleteindex-method"></a>API. Жетделетеиндекс, метод
 
@@ -78,12 +78,12 @@ public static void JetDeleteIndex(
 
 <!-- end list -->
 
-  - index  
+  - индекс  
     Тип: [System. String](/dotnet/api/system.string)  
     
     Имя удаляемого индекса.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

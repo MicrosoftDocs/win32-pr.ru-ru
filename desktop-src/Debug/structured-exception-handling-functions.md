@@ -4,12 +4,12 @@ ms.assetid: 61cf055b-eb9a-4e56-9d36-21fc95adea77
 title: Функции структурированной обработки исключений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70b431be2961a55bba28bdfe07723e93b95ac69
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 947cde636051e6d51428b1d75b7d299ce196b0f4335e096f99d6da6a277ae259
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815504"
 ---
 # <a name="structured-exception-handling-functions"></a>Функции структурированной обработки исключений
 
@@ -71,7 +71,7 @@ ms.locfileid: "105655769"
 
     Определяемая приложением функция, которая служит в качестве векторного обработчика исключений.
 
-Следующие функции используются только в 64-разрядных Windows.
+Следующие функции используются только для 64-разрядных Windows.
 
 -   [**ртладдфунктионтабле**](/windows/desktop/api/WinNT/nf-winnt-rtladdfunctiontable)
 

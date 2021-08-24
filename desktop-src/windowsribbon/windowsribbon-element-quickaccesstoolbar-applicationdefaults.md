@@ -3,7 +3,7 @@ title: Куиккакцесстулбар. Аппликатиондефаулт�
 description: Представляет контейнер для команд по умолчанию на панели инструментов быстрого доступа (QAT).
 ms.assetid: 8f44d7c0-1a39-4a88-ae01-7d7d1bb6bf7e
 keywords:
-- Лента Windows для свойства Куиккакцесстулбар. Аппликатиондефаултс
+- куиккакцесстулбар. аппликатиондефаултс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 084ea334441cb0cf545adaa3d1016f7d02da1b88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 701a7c72e40b1efe9104d6794fa739c556b0fb4b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701028"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473750"
 ---
 # <a name="quickaccesstoolbarapplicationdefaults-property"></a>Куиккакцесстулбар. Аппликатиондефаултс, свойство
 
@@ -39,68 +39,17 @@ ms.locfileid: "105701028"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-element-button.md"><strong>Кнопка</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-checkbox.md"><strong>Установка</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 и более поздние версии.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-dropdowngallery.md"><strong>дропдовнгаллери</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 и более поздние версии.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-inribbongallery.md"><strong>инриббонгаллери</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 и более поздние версии.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-splitbuttongallery.md"><strong>сплитбуттонгаллери</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 и более поздние версии.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br/></td>
-<td>Должна повториться хотя бы один раз.<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент | Описание | 
+|---------|-------------|
+| <a href="windowsribbon-element-button.md"><strong>Кнопка</strong></a><br /> | Должна повториться хотя бы один раз.<br /><br /> | 
+| <a href="windowsribbon-element-checkbox.md"><strong>Установка</strong></a><br /> | Должна повториться хотя бы один раз.<br /><br /> | 
+| <a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br /> | Должна повториться хотя бы один раз.<br /><blockquote>[!Note]<br />Windows 8 и более поздних версий.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-dropdowngallery.md"><strong>дропдовнгаллери</strong></a><br /> | Должна повториться хотя бы один раз.<br /><blockquote>[!Note]<br />Windows 8 и более поздних версий.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-inribbongallery.md"><strong>инриббонгаллери</strong></a><br /> | Должна повториться хотя бы один раз.<br /><blockquote>[!Note]<br />Windows 8 и более поздних версий.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-splitbuttongallery.md"><strong>сплитбуттонгаллери</strong></a><br /> | Должна повториться хотя бы один раз.<br /><blockquote>[!Note]<br />Windows 8 и более поздних версий.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br /> | Должна повториться хотя бы один раз.<br /><br /> | 
+
 
 
 
@@ -152,12 +101,12 @@ Windows 8 и более поздние версии.
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

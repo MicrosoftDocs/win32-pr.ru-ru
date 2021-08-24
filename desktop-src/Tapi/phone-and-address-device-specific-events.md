@@ -1,17 +1,17 @@
 ---
 description: В следующем примере кода показан обработчик событий для событий Address и Phone Device. Код для каждого события показывает, как создать интерфейс события и как получить данные события.
 ms.assetid: 236d4e7f-865f-4b26-8da6-c86476588c47
-title: Телефонные и адресные события, связанные с устройством
+title: Телефон и адресация событий, связанных с устройством
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40cf4c45eb7c7b933a36814f8eba8cd5cc39d8cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c69a8dd5bd941946d6d4b904e8bc367b9949d6782f350a1e065eb672b2db57ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034544"
 ---
-# <a name="phone-and-address-device-specific-events"></a>Телефонные и адресные события, связанные с устройством
+# <a name="phone-and-address-device-specific-events"></a>Телефон и адресация событий, связанных с устройством
 
 В следующем примере кода показан обработчик событий для событий Address и Phone Device. Код для каждого события показывает, как создать интерфейс события и как получить данные события.
 

@@ -14,20 +14,20 @@ keywords:
 - Выбор формата для перекодирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7584d5f56904a6aa5241930041bf89c10373f6b1
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: 4650732e290b626eb26cd2eea321124f16b5572a7660aabf09bbe3740934e52d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "104412628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037684"
 ---
 # <a name="producing-a-dialog-box-for-selecting-a-format-for-recording"></a>Создание диалогового окна для выбора формата записи
 
 Приложение может предоставить пользователю возможность выбрать формат, для которого устройство аудио аудио поддерживает встроенную поддержку. Например, вам может потребоваться, чтобы в редакторе аудио-аудио были записаны новые данные звуковой волны без использования ACM сжатия или декомпрессора для обеспечения слоя перевода. Для этого используйте функцию [**акмформатчусе**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) , указав \_ \_ Флаги ACM форматенумф Hardware и ACM \_ форматенумф \_ input в **фдвенум** в структуре [**акмформатчусе**](/windows/win32/api/msacm/ns-msacm-acmformatchoose) .
 
- 
+ 
 
- 
+ 
 
 
 

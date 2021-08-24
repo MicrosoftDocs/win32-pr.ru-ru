@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d96b8d25714dc3f8bdcf016ac1fd69b2af2414f0
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: c6ccc4e1e9fec74b10c2d5937b35b7e9b3bba2005a504a79abe7b94f341732d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843454"
 ---
 # <a name="cdm_getfolderpath-message"></a>\_Сообщение CDM GETFOLDERPATH
 
-\[Начиная с Windows Vista, диалоговые окна " **Открыть** " и " **Сохранить как** " были заменены [диалоговым окном общих элементов](../shell/common-file-dialog.md). Рекомендуется использовать API-интерфейс общего элемента, а не эти диалоговые окна из библиотеки общих диалоговых окон.\]
+\[начиная с Windows Vista общие диалоговые окна " **открыть** " и " **сохранить как** " были заменены [диалоговым окном общих элементов](../shell/common-file-dialog.md). Рекомендуется использовать API-интерфейс общего элемента, а не эти диалоговые окна из библиотеки общих диалоговых окон.\]
 
 Возвращает путь к открытой в данный момент папке или каталогу для диалогового окна " **Открыть** " или " **Сохранить как** " в стиле обозревателя. Диалоговое окно должно быть создано с флагом **\_ обозревателя ОФН** . в противном случае произойдет сбой сообщения.
 
@@ -60,7 +60,7 @@ ms.locfileid: "110550009"
 
 При возникновении ошибки возвращаемое значение меньше нуля.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Соответствующий макрос выглядит следующим образом:
 
@@ -68,15 +68,15 @@ ms.locfileid: "110550009"
 int CommDlg_OpenSave_GetFolderPath(hwnd, lparam, wparam); 
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
-| Требование | Применение |
+| Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Коммдлг. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>коммдлг. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -84,7 +84,7 @@ int CommDlg_OpenSave_GetFolderPath(hwnd, lparam, wparam);
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)

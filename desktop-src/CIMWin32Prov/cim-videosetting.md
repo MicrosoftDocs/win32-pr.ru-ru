@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a37fe8dd03738ae93f391a754caca84564dc6f6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a32b581a281ed95954d8fc71b5fc6c2b24c799c69b2c847bebfd92f6f904d251
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119817454"
 ---
 # <a name="cim_videosetting-class"></a>\_Класс CIM видеосеттинг
 
@@ -51,7 +51,7 @@ class CIM_VideoSetting : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ видеосеттинг** имеет следующие свойства.
 
@@ -89,13 +89,13 @@ class CIM_VideoSetting : CIM_ElementSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Классы WMI, производные от **CIM \_ видеосеттинг**, см. в разделе [Классы Win32](win32-provider.md).
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -109,7 +109,7 @@ class CIM_VideoSetting : CIM_ElementSetting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

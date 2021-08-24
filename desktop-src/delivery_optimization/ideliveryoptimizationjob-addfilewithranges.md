@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cc147f5cb3f91a2fe0b8518493dba72798ce8056
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 197aa7443123c81d1a675d321b91573823a84f15
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710551"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476134"
 ---
 # <a name="ideliveryoptimizationjobaddfilewithranges-method"></a>Метод Иделиверйоптимизатионжоб:: Аддфилевисранжес
 
@@ -96,49 +96,16 @@ HRESULT AddFileWithRanges(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Код возврата</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong><strong>S_OK</strong></strong></dt> </dl></td>
-<td>Успешно.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>Имя локального файла имеет значение NULL или является пустой строкой. <br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>E_ACCESSDENIED</strong></dt> </dl></td>
-<td>У пользователя нет разрешения на запись в указанный каталог на клиенте.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_RANGE</strong></dt> </dl></td>
-<td>Один из диапазонов недопустим. Например, Инитиалоффсет имеет значение <strong>BG_LENGTH_TO_EOF</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt> </dl></td>
-<td>Нельзя указывать дублирующиеся или перекрывающиеся диапазоны. <br/>
-<blockquote>
-[!Note]<br />
-Диапазоны сортируются по смещению значения, а не к длине. Если введены диапазоны с одинаковым смещением, но находятся в обратном порядке, возвращается эта ошибка. Например, если в этом порядке введены 100,5 и 100,0, вы не сможете добавить файл в задание.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>DO_E_INVALID_STATE</strong></dt> </dl></td>
-<td>Состояние задания не может быть <strong>BG_JOB_STATE_CANCELLED</strong> или <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Код возврата | Описание | 
+|-------------|-------------|
+| <dl><dt><strong><strong>S_OK</strong></strong></dt></dl> | Успешно.<br /> | 
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | Имя локального файла имеет значение NULL или является пустой строкой. <br /> | 
+| <dl><dt><strong>E_ACCESSDENIED</strong></dt></dl> | У пользователя нет разрешения на запись в указанный каталог на клиенте.<br /> | 
+| <dl><dt><strong>DO_E_INVALID_RANGE</strong></dt></dl> | Один из диапазонов недопустим. Например, Инитиалоффсет имеет значение <strong>BG_LENGTH_TO_EOF</strong>.<br /> | 
+| <dl><dt><strong>DO_E_OVERLAPPING_RANGES</strong></dt></dl> | Нельзя указывать дублирующиеся или перекрывающиеся диапазоны. <br /><blockquote>[!Note]<br />Диапазоны сортируются по смещению значения, а не к длине. Если введены диапазоны с одинаковым смещением, но находятся в обратном порядке, возвращается эта ошибка. Например, если в этом порядке введены 100,5 и 100,0, вы не сможете добавить файл в задание.</blockquote><br /> | 
+| <dl><dt><strong>DO_E_INVALID_STATE</strong></dt></dl> | Состояние задания не может быть <strong>BG_JOB_STATE_CANCELLED</strong> или <strong>BG_JOB_STATE_ACKNOWLEDGED</strong>.<br /> | 
+
 
 
 
@@ -150,9 +117,9 @@ HRESULT AddFileWithRanges(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server версии 1709\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server, только для \[ настольных приложений версии 1709\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Досвк. lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
@@ -160,7 +127,7 @@ HRESULT AddFileWithRanges(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -910,7 +910,7 @@ class CIM_DataFile : CIM_LogicalFile
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1003,7 +1003,7 @@ Set colFiles = objWMIService.ExecQuery("Select * from CIM_DataFile where Drive='
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1017,7 +1017,7 @@ Set colFiles = objWMIService.ExecQuery("Select * from CIM_DataFile where Drive='
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

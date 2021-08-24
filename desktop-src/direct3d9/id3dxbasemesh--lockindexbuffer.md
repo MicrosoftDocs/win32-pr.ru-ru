@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 388915d0d11ff910c19a2c70b305597a79cd04bb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c2eab2806775572cb4e4c4a50899d48263c6ddf0d55138c37bcaff8367225c3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118824"
 ---
 # <a name="id3dxbasemeshlockindexbuffer-method"></a>Метод ID3DXBaseMesh:: Локкиндексбуффер
 
@@ -72,7 +72,7 @@ HRESULT LockIndexBuffer(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При работе с буферами индексов вы можете выполнять несколько вызовов блокировок. Однако необходимо убедиться, что количество вызовов блокировок соответствует числу вызовов Unlock. Вызовы Дравпримитиве не будут выполнены с необработанными счетчиками блокировок в любом буфере установленного индекса.
 
@@ -82,12 +82,12 @@ HRESULT LockIndexBuffer(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Создает список объектов адаптера, пр
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 0a35d4dd9a481880d66988b6ade079534d1297c1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d00cba3236bf63a1691473098b1f94438b790a93a75215e36690745ee7977fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842524"
 ---
 # <a name="idxcoreadapterfactorycreateadapterlist-method"></a>Метод Идкскореадаптерфактори:: Креатеадаптерлист
 
@@ -69,10 +69,10 @@ HRESULT STDMETHODCALLTYPE CreateAdapterList(
 |E_NOINTERFACE|Указано недопустимое значение для *riid*.|
 |E_POINTER|`nullptr` был предоставлен для *ппвадаптерлист*.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Даже если адаптеры не найдены, при условии, что аргументы являются допустимыми, **креатеадаптерлист** создает допустимый объект [идкскореадаптерлист](./nn-dxcore_interface-idxcoreadapterlist.md) и возвращает **S_OK**. После создания адаптеры в этом конкретном списке не изменятся. Но список будет считаться устаревшим, если один из адаптеров позже станет недопустимым, или если поступит новый адаптер, отвечающий указанным условиям фильтра. Список, возвращаемый функцией **креатеадаптерлист** , не упорядочивается каким-либо образом, но Упорядочение списка выполняется по нескольким вызовам и даже при перезапуске операционной системы. Порядок сортировки может измениться при изменении конфигурации системы, включая добавление или удаление адаптера или обновление драйвера на существующем адаптере. Вы можете зарегистрировать эти изменения с помощью [идкскореадаптерфактори:: регистеревентнотификатион](./nf-dxcore_interface-idxcoreadapterfactory-registereventnotification.md) , используя тип уведомления **дкскоренотификатионтипе. адаптерлистстале**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптерфактори](./nn-dxcore_interface-idxcoreadapterfactory.md), [ДКСКОРЕ Reference](../dxcore-reference.md), [GUID атрибутов адаптера дкскоре](../dxcore-adapter-attribute-guids.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

@@ -4,12 +4,12 @@ ms.assetid: 95fd8b3e-de30-4d0d-be3c-8d7e0c925bae
 title: Свойство AVEncDDLtRtSurroundMixLvl_x10 (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c645cad4bf491d285039d409184cf54f51b5e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7f2cabeb27dadcc22001193700bd94fc297db830632fb5a26a9e2399da0f4f51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873314"
 ---
 # <a name="avencddltrtsurroundmixlvl_x10-property"></a>Авенкддлтртсурраундмикслвл \_ X10, свойство
 
@@ -35,9 +35,9 @@ ms.locfileid: "104423065"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

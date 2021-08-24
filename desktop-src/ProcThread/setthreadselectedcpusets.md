@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: b8b1f7c382d034e804d4ac7e63d58b8ec5853620
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d627c3ae0499cf19ba533c30d1a3fabb05c2dbf5782d99b2f716579f50125b0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031734"
 ---
 # <a name="setthreadselectedcpusets-function"></a>Функция Сетсреадселектедкпусетс
 
@@ -68,15 +68,15 @@ BOOL WINAPI SetThreadSelectedCpuSets(
 
 Эта функция не может завершиться ошибкой, если переданы допустимые параметры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 10 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2016 \|\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 

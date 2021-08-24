@@ -4,12 +4,12 @@ ms.assetid: 4009aeac-d290-4ea5-a6f5-199010acc84d
 title: Работа с API-интерфейсами Стилусинпут
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 676752f242aa428b583390d7c3d38c952b4c0edb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 143cb885cda16542a65aa096cdf95eb8a187b4f760a916a895887737ec63d7e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842844"
 ---
 # <a name="working-with-the-stylusinput-apis"></a>Работа с API-интерфейсами Стилусинпут
 
@@ -28,7 +28,7 @@ ms.locfileid: "105692230"
 
 С API-интерфейсами Стилусинпут предоставляются два подключаемых модуля: класс [**DynamicRenderer**](/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)) и класс [**GestureRecognizer**](gesturerecognizer-class.md) . Класс **DynamicRenderer** обеспечивает базовую визуализацию данных рукописного ввода в режиме реального времени и упрощает работу с минимальным влиянием на производительность. Класс **GestureRecognizer** обеспечивает распознавание жестов для класса [**RealTimeStylus**](realtimestylus-class.md) .
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Работа с классом RealTimeStylus](working-with-the-realtimestylus-class.md)
 -   [Подключаемые модули и класс RealTimeStylus](plug-ins-and-the-realtimestylus-class.md)

@@ -125,7 +125,7 @@ Product.InstallProperty(
 
 Если вызов будет выполнен, свойство будет содержать значение в виде строки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -137,7 +137,7 @@ Product.InstallProperty(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

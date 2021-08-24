@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df994536c818461b0307cdee726e704aaaf8a43
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dd5ce5023c0fd77109d91705c3faaf788b5f0e6edd3bd3ba15b7aeb367b8d061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119694"
 ---
 # <a name="id3dx11effectvariableasvector-method"></a>Метод ID3DX11EffectVariable:: Асвектор
 
@@ -47,7 +47,7 @@ ID3DX11EffectVectorVariable* AsVector();
 
 Указатель на переменную Vector. См. [**ID3DX11EffectVectorVariable**](id3dx11effectvectorvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Асвектор Возвращает версию переменной Effect, которая была специализированной для векторной переменной. Как и в приведении, эта специализация вернет недопустимый объект, если переменная действия не содержит векторных данных.
 
@@ -64,12 +64,12 @@ ID3DX11EffectVectorVariable* AsVector();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

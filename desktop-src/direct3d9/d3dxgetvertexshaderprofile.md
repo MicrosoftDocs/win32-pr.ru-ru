@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 70d6cdf79fdd91e819d54702682515aa3e4810b4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e5c646fb9779ca923480487cb96f184c76eff9ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114462"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473630"
 ---
 # <a name="d3dxgetvertexshaderprofile-function"></a>Функция D3DXGetVertexShaderProfile
 
@@ -57,47 +57,20 @@ LPCSTR D3DXGetVertexShaderProfile(
 
 Если устройство не поддерживает шейдеры вершин, функция возвращает **значение NULL**.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Профиль шейдера указывает версию шейдера сборки для использования и возможности, доступные компилятору HLSL при компиляции шейдера. В следующей таблице перечислены поддерживаемые профили шейдеров вершин.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Профиль шейдера</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>vs_1_1</td>
-<td>Компилировать до vs_1_1 версии.</td>
-</tr>
-<tr class="even">
-<td>vs_2_0</td>
-<td>Компилировать до vs_2_0 версии.</td>
-</tr>
-<tr class="odd">
-<td>vs_2_a</td>
-<td>То же, что и профиль vs_2_0, со следующими дополнительными возможностями, доступными для целевого компилятора:
-<ul>
-<li>Количество временных регистров (r #) больше или равно 13.</li>
-<li>Динамическая Инструкция по управлению потоком.</li>
-<li>Затенения.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vs_3_0</td>
-<td>Компилировать до vs_3_0 версии.</td>
-</tr>
-</tbody>
-</table>
+
+| Профиль шейдера | Описание | 
+|----------------|-------------|
+| vs_1_1 | Компилировать до vs_1_1 версии. | 
+| vs_2_0 | Компилировать до vs_2_0 версии. | 
+| vs_2_a | То же, что и профиль vs_2_0, со следующими дополнительными возможностями, доступными для целевого компилятора:<ul><li>Количество временных регистров (r #) больше или равно 13.</li><li>Динамическая Инструкция по управлению потоком.</li><li>Затенения.</li></ul> | 
+| vs_3_0 | Компилировать до vs_3_0 версии. | 
+
 
 
 
@@ -111,7 +84,7 @@ LPCSTR D3DXGetVertexShaderProfile(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

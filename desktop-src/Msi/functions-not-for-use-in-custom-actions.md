@@ -4,12 +4,12 @@ ms.assetid: 55fdd82b-9f34-4c2c-a837-8a09f21f568a
 title: Функции, не предназначенные для использования в настраиваемых действиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c77c4714ca65614200cf77d6b207b6eebcaf179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaddf6edae9636a599996a4ab8208537c1c673687337b65a9fcb74d1a8fc1f58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649624"
 ---
 # <a name="functions-not-for-use-in-custom-actions"></a>Функции, не предназначенные для использования в настраиваемых действиях
 
@@ -65,7 +65,7 @@ ms.locfileid: "105663696"
 -   [**мсипровидекуалифиедкомпонент**](/windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponenta)
 -   [**мсипровидекуалифиедкомпонентекс**](/windows/desktop/api/Msi/nf-msi-msiprovidequalifiedcomponentexa)
 
-Пользовательское действие никогда не должно создавать новый поток, использующий функции установщик Windows для изменения состояния компонента, состояния компонента или отправки сообщений из события элемента управления. Попытка выполнить это приводит к сбою установки.
+пользовательское действие никогда не должно создавать новый поток, использующий функции установщик Windows для изменения состояния компонента, состояния компонента или отправки сообщений из события элемента управления. Попытка выполнить это приводит к сбою установки.
 
  
 

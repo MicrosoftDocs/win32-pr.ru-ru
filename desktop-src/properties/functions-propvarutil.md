@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описывается набор преобразований оболочки Windows и вспомогательных функций, используемых с типами ПРОПВАРИАНТ и VARIANT.
+description: в этом разделе описывается набор Windows преобразования оболочки и вспомогательных функций, используемых с типами пропвариант и VARIANT.
 ms.assetid: 683fffb7-e8e8-4f7c-8312-5baef9b20641
 title: Функции PROPVARIANT и VARIANT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 321d6a191e837aa42254c82cc15f3ec509e5ec15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccb3aa11fd9dea39a3540f4b0e723d199bdd5ffaa0b99d3051af48395652e63d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105711993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600174"
 ---
 # <a name="propvariant-and-variant-functions"></a>Функции PROPVARIANT и VARIANT
 
-В этом разделе описывается набор преобразований оболочки Windows и вспомогательных функций, используемых с типами [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) и [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) .
+в этом разделе описывается набор Windows преобразования оболочки и вспомогательных функций, используемых с типами [**пропвариант**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) и [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) .
 
 
 
@@ -212,7 +212,7 @@ ms.locfileid: "105711993"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

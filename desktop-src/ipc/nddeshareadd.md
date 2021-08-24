@@ -92,7 +92,7 @@ UINT NDdeShareAdd(
 
 Прежде чем клиент сможет подключиться к общему ресурсу DDE, он должен быть доверенным для [**нддесеттрустедшаре**](nddesettrustedshare.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,7 +107,7 @@ UINT NDdeShareAdd(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

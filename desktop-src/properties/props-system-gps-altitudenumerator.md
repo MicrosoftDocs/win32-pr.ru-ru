@@ -4,12 +4,12 @@ ms.assetid: c7816d1b-d1c1-4b09-805c-1d33a8421d17
 title: System. GPS. Алтитуденумератор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f3df2f3813a01d49a6de7eb9ad5227d3e89779e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39b61d5060817b23845748432b68f45877187656df1016084be55d590548d16a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845004"
 ---
 # <a name="systemgpsaltitudenumerator"></a>System. GPS. Алтитуденумератор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

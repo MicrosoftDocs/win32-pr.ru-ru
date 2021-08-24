@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: eccd5c367e593559b6a719777dfd1535ae2d423a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 091cda0570f288139a1aa57eb53755897ed9089d17a598da7b13d2873c5bd70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845764"
 ---
 # <a name="bufferloadint-uint-function"></a>Buffer:: Load (int, uint), функция
 
@@ -61,7 +61,7 @@ ms.locfileid: "104986204"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**буфера**](sm5-object-buffer.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
