@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 01402851299285c55d7028c137e40b5afd7fb9c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec703762e81dacf6d66b69a6803437d021c27622ed8804a7defee2459dce0da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723294"
 ---
 # <a name="esentlogcorruptedexception-constructor"></a>Конструктор Есентлогкорруптедексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentLogCorruptedException()
 public EsentLogCorruptedException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

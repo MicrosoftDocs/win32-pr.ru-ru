@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a08e468d0acff16aa1df4a45fcacafeb676b00
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8a0b30a7bc905645523a81287eea2dfcdc408b8a4d172cc84282e0f1538e12cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895994"
 ---
 # <a name="oldtlb-switch"></a>/oldtlb, параметр
 
@@ -31,9 +31,9 @@ midl /oldtlb
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Параметр **/oldtlb** переопределяет значение по умолчанию и направляет компилятор MIDL для создания библиотек типов старого формата даже в текущих версиях Windows с помощью [креатетипелиб](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) вместо [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2).
+параметр **/oldtlb** переопределяет значение по умолчанию и направляет компилятор MIDL создавать библиотеки типов старого формата даже в текущих версиях Windows с помощью [креатетипелиб](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib) вместо [CreateTypeLib2](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib2).
 
 ## <a name="examples"></a>Примеры
 
@@ -41,7 +41,7 @@ midl /oldtlb
 
 **MIDL/oldtlb мйолдодл. odl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -51,6 +51,6 @@ midl /oldtlb
 [**/newtlb**](-newtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 62098944-E1B2-46e8-AC87-314C55F96B62
 title: Элемент Либраридескриптион (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 125cb01ce1bd38418c10f5b14ff7b28f64efba87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a454321649746dc9408110e2fb96a616934977022ac80a4c0325494d354bfb46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942064"
 ---
 # <a name="librarydescription-element-library-schema"></a>Элемент Либраридескриптион (схема библиотеки)
 
@@ -69,25 +69,25 @@ ms.locfileid: "104984581"
 | Родительский элемент | Дочерние элементы                                                                                                          |
 |----------------|-------------------------------------------------------------------------------------------------------------------------|
 |                | [элемент Name (схема библиотеки)](schema-library-name.md). Обязательный.                                                     |
-|                | [элемент ownerSID (схема библиотеки)](schema-library-ownersid.md). Необязательный параметр.                                             |
-|                | [элемент Version (схема библиотеки)](schema-library-version.md). Необязательный параметр.                                               |
-|                | [элемент ислибрарипиннед (схема библиотеки)](schema-library-islibrarypinned.md). Необязательный параметр.                               |
-|                | [элемент иконреференце (схема библиотеки)](schema-library-iconreference.md). Необязательный параметр.                                   |
-|                | [элемент пропертисторе (схема библиотеки)](schema-library-propertystore.md). Необязательный параметр.                                   |
-|                | [элемент темплатеинфо (схема библиотеки)](schema-library-templateinfo.md). Необязательный параметр.                                     |
+|                | [элемент ownerSID (схема библиотеки)](schema-library-ownersid.md). Необязательный элемент.                                             |
+|                | [элемент Version (схема библиотеки)](schema-library-version.md). Необязательный элемент.                                               |
+|                | [элемент ислибрарипиннед (схема библиотеки)](schema-library-islibrarypinned.md). Необязательный элемент.                               |
+|                | [элемент иконреференце (схема библиотеки)](schema-library-iconreference.md). Необязательный элемент.                                   |
+|                | [элемент пропертисторе (схема библиотеки)](schema-library-propertystore.md). Необязательный элемент.                                   |
+|                | [элемент темплатеинфо (схема библиотеки)](schema-library-templateinfo.md). Необязательный элемент.                                     |
 |                | [элемент сеарчконнектордескриптионлист (схема библиотеки)](schema-library-searchconnectordescriptionlist.md). Обязательный. |
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Каждая библиотека может содержать одно или несколько расположений, которые можно просматривать или искать пользователем с помощью проводника Windows. Расположения определяются соединителями поиска с помощью [<searchConnectorDescription>](schema-library-searchconnectordescription.md) элементов в [<searchConnectorDescriptionList>](schema-library-searchconnectordescriptionlist.md) элементе-контейнере.
+каждая библиотека может содержать одно или несколько расположений, которые можно просматривать или искать пользователем с помощью обозревателя Windows. Расположения определяются соединителями поиска с помощью [<searchConnectorDescription>](schema-library-searchconnectordescription.md) элементов в [<searchConnectorDescriptionList>](schema-library-searchconnectordescriptionlist.md) элементе-контейнере.
 
 Библиотека может иметь уникальный набор свойств, а расположения в библиотеке также могут иметь уникальные наборы свойств. Эти свойства определяются в [<property>](schema-library-property.md) [<propertyStore>](schema-library-propertystore.md) элементах внутри элемента Container.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 
 ```
@@ -124,7 +124,7 @@ ms.locfileid: "104984581"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

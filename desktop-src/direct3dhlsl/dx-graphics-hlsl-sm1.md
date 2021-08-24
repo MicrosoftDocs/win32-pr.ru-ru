@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4ebbc28c1c10ef112bf7be3b500be7f4ecaa6481
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9b850c72681cc7fa6c4b1f786940f5efa9116bfc8c8777c5c94fcae4ee1ae5e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104070773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950264"
 ---
 # <a name="shader-model-1"></a>Модель шейдера 1
 
@@ -58,19 +58,19 @@ ms.locfileid: "104070773"
 
 
 
- 
+ 
 
 Дополнительные сведения о модели шейдеров 1 см. в следующих статьях:
 
 -   [Шейдер вершин](dx9-graphics-reference-asm-vs-1-1.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модели шейдеров и профили шейдеров](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

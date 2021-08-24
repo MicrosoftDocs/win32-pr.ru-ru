@@ -4,12 +4,12 @@ ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
 title: Свойство MFPKEY_RESIZE_MINAPY (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39493fd7261ea0a74d84ab18f308f0502b4fb0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9feb7e1134c628be16d82412cd999c9ad73f73a7f76a6439364c5c85d9b3e335
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848244"
 ---
 # <a name="mfpkey_resize_minapy-property"></a>МФПКЭЙ \_ изменить размер \_ минапи
 
@@ -23,11 +23,11 @@ ms.locfileid: "105702111"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP изменения видеоконтроллеров](videoresizer.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение является вещественным числом с фиксированной запятой. Целая часть числа хранится в более высоком 2 байтах, а дробная часть хранится в младших 2 байтах.
 
@@ -37,9 +37,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

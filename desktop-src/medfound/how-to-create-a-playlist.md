@@ -4,12 +4,12 @@ ms.assetid: 5a760492-bd52-40b8-a652-8a62646db6ae
 title: Создание списка воспроизведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e6e19766c3fa569a701fea9bed0f05d11a4324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d2a36735d29510e0622882a399fff199fd2289261453a51f281414b5076826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828174"
 ---
 # <a name="how-to-create-a-playlist"></a>Создание списка воспроизведения
 
@@ -27,7 +27,7 @@ ms.locfileid: "104543610"
 
 В этом пошаговом руководстве содержатся следующие шаги.
 
-1.  [Предварительные условия](#prerequisites)
+1.  [Предварительные требования](#prerequisites)
 2.  [Инициализация Media Foundation](#initializing-media-foundation)
 3.  [Создание объектов Media Foundation](#creating-media-foundation-objects)
 4.  [Создание источника мультимедиа](#creating-the-media-source)
@@ -39,12 +39,12 @@ ms.locfileid: "104543610"
 
 Приведенные в этом разделе примеры кода являются выдержками из [исходного примера программы Sequencer](sequencer-source-example-code.md), который содержит полный код примера.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Перед началом этого пошагового руководства ознакомьтесь со следующими концепциями Media Foundation:
 
 -   [Сеанс мультимедиа](media-session.md)
--   [Топологии](topologies.md)
+-   [Топологий](topologies.md)
 -   [Генераторы событий мультимедиа](media-event-generators.md)
 -   [Дескрипторы представления](presentation-descriptors.md)
 
@@ -263,14 +263,14 @@ HRESULT CPlaylist::OnNewPresentation(IMFMediaEvent *pEvent)
 
 Чтобы избежать утечек памяти, приложение должно освободить указатели на Media Foundation интерфейсы, когда они больше не нужны.
 
-## <a name="next-steps"></a>Next Steps
+## <a name="next-steps"></a>Дальнейшие действия
 
 В этом пошаговом руководстве показано, как создать базовый список воспроизведения с помощью источника Sequencer. После создания списка воспроизведения может потребоваться добавить дополнительные функции, такие как пропуск сегмента, изменение состояния воспроизведения и поиск в сегменте. В следующем списке приведены ссылки на соответствующие разделы.
 
 -   [Управление состояниями представления](how-to-control-presentation-states.md). источник Sequencer использует сеанс мультимедиа для обеспечения управления транспортом, например воспроизведения, паузы и остановки.
 -   [Выполнение очистки](how-to-perform-scrubbing.md) описывает шаги, необходимые для поиска определенной позицией в потоке.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

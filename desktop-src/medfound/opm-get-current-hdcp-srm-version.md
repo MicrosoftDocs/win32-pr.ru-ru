@@ -4,12 +4,12 @@ ms.assetid: 65d4b98b-369f-4863-a28c-f9e3b4c2b55d
 title: OPM_GET_CURRENT_HDCP_SRM_VERSION (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05ad53ae58e2141c63179c84a90f90cea86fb4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee36516510d04fec067bbc692387e2e36b9da083db1a6daae0f51948a992cc83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887494"
 ---
 # <a name="opm_get_current_hdcp_srm_version"></a>ОПМ \_ получить \_ текущую \_ \_ версию СРМ \_ HDCP
 
@@ -27,7 +27,7 @@ ms.locfileid: "105711433"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот запрос выполнен, элемент **улинформатион** в [**информационной структуре ОПМ \_ Standard \_**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) содержит номер версии СРМ в формате с прямым порядком байтов.
 
@@ -46,19 +46,19 @@ ms.locfileid: "105711433"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

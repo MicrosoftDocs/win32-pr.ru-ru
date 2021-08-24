@@ -4,12 +4,12 @@ ms.assetid: 6732b12f-ced1-4769-b947-79da8fd2237a
 title: Переменные среды
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f50226d12286d01c77025d1cc38e33e2778392a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 647c685aac8ed6df36c0312d7eef49793fd4b2bbfca5576e0377e59da31dd777
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910324"
 ---
 # <a name="environment-variables"></a>Переменные среды
 
@@ -34,7 +34,7 @@ ms.locfileid: "105673768"
 
 Максимальный размер определяемой пользователем переменной среды — 32 767 символов. Нет технического ограничения на размер блока среды. Однако существуют практические ограничения в зависимости от механизма, используемого для доступа к блоку. Например, пакетный файл не может установить переменную, длина которой превышает максимальную длину командной строки.
 
-**Windows Server 2003 и Windows XP:** Максимальный размер блока среды для процесса составляет 32 767 символов. Начиная с Windows Vista и Windows Server 2008, нет технического ограничения на размер блока среды.
+**Windows Server 2003 и Windows XP:** Максимальный размер блока среды для процесса составляет 32 767 символов. начиная с Windows Vista и Windows Server 2008 нет технического ограничения на размер блока среды.
 
 Функция [**GetEnvironmentVariable**](/windows/desktop/api/WinBase/nf-winbase-getenvironmentvariable) определяет, определена ли указанная переменная в среде вызывающего процесса, и, если да, то что ее значение равно.
 
@@ -42,7 +42,7 @@ ms.locfileid: "105673768"
 
 Чтобы развернуть строки переменных среды, используйте функцию [**експанденвиронментстрингс**](/windows/desktop/api/processenv/nf-processenv-expandenvironmentstringsa) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

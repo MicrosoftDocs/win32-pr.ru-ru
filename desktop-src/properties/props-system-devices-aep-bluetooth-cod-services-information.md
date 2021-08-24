@@ -1,19 +1,19 @@
 ---
-description: Класс сведений о службе устройства Bluetooth.
+description: Bluetooth класс сведений о службе устройства.
 ms.assetid: db47f362-82e1-4fce-b0aa-4fc6cd3db102
 title: System. Devices. АЕП. Bluetooth. наложен. Services. Information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8904a6fa70aa9f7417b9f5538564481550946bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c15db2a294da1fbb9b4e57441ad01f2b58fe2dc564f5d3fe782a031ec77cc50f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946204"
 ---
 # <a name="systemdevicesaepbluetoothcodservicesinformation"></a>System. Devices. АЕП. Bluetooth. наложен. Services. Information
 
-Класс сведений о службе устройства Bluetooth
+Bluetooth класс сведений о службе устройства
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

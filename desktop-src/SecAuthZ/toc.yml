@@ -4,7 +4,7 @@
     - name: Об авторизации
       href: about-authorization.md
       items:
-        - name: Управление доступом
+        - name: Контроль доступа
           href: access-control.md
           items:
             - name: Безопасность на уровне C2
@@ -114,7 +114,7 @@
                   href: security-descriptor-definition-language-for-conditional-aces-.md
                 - name: Строки ACE
                   href: ace-strings.md
-                - name: Строки идентификатора безопасности
+                - name: Строки SID
                   href: sid-strings.md
             - name: Привилегии
               href: privileges.md
@@ -943,7 +943,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_tasks
                     - name: Свойство Version
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_version
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplication-get_writable
             - name: IAzApplication2
               href: /windows/desktop/api/Azroles/nn-azroles-iazapplication2
@@ -1065,7 +1065,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_nonmembersname
                     - name: Свойство Type
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_type
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazapplicationgroup-get_writable
             - name: IAzApplicationGroup2
               href: /windows/desktop/api/Azroles/nn-azroles-iazapplicationgroup2
@@ -1188,7 +1188,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_scriptenginetimeout
                     - name: 'Таржетмачине, свойство'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_targetmachine
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazauthorizationstore-get_writable
             - name: IAzAuthorizationStore2
               href: /windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore2
@@ -1390,7 +1390,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_name
                     - name: Свойство с идентификатором
                       href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_operationid
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazoperation-get_writable
             - name: IAzOperation2
               href: /windows/desktop/api/Azroles/nn-azroles-iazoperation2
@@ -1477,7 +1477,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_operations
                     - name: 'Tasks, свойство'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_tasks
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazrole-get_writable
             - name: иазролеассигнмент
               href: /windows/desktop/api/Azroles/nn-azroles-iazroleassignment
@@ -1626,7 +1626,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_roles
                     - name: 'Tasks, свойство'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_tasks
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iazscope-get_writable
             - name: IAzScope2
               href: /windows/desktop/api/Azroles/nn-azroles-iazscope2
@@ -1710,7 +1710,7 @@
                       href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_operations
                     - name: 'Tasks, свойство'
                       href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_tasks
-                    - name: Доступное для записи свойство
+                    - name: 'Свойство, доступное для записи'
                       href: /windows/desktop/api/Azroles/nf-azroles-iaztask-get_writable
             - name: IAzTask2
               href: /windows/desktop/api/Azroles/nn-azroles-iaztask2
@@ -1852,7 +1852,7 @@
               href: ace.md
             - name: ACE_HEADER
               href: /windows/win32/api/Winnt/ns-winnt-ace_header
-            - name: СПИСКОМ
+            - name: ACL
               href: /windows/win32/api/Winnt/ns-winnt-acl
             - name: ACL_REVISION_INFORMATION
               href: /windows/win32/api/Winnt/ns-winnt-acl_revision_information

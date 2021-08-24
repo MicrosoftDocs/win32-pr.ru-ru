@@ -1,17 +1,17 @@
 ---
 description: С кистью используются следующие функции.
 ms.assetid: 617eb778-876c-4bbb-90da-c5f13359becb
-title: Функции кисти (Windows GDI)
+title: функции кисти (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2170ff5c4b743e19da669bd76b340ca95ac2ef9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c44f122592e1f13186253b349089706686d352460a364e405c404fd326f64989
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849294"
 ---
-# <a name="brush-functions-windows-gdi"></a>Функции кисти (Windows GDI)
+# <a name="brush-functions-windows-gdi"></a>функции кисти (Windows GDI)
 
 С кистью используются следующие функции.
 

@@ -4,12 +4,12 @@ ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: Идентификаторы GUID параметров питания (WinNT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b67dfd619d93f4318dbcfe2b44b5f8ba24460bd3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b05909509e0c3ed581582ebe90b10e5df4e91a31b7ab050b3fd1ef6679b1a3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887034"
 ---
 # <a name="power-setting-guids"></a>Идентификаторы GUID параметров питания
 
@@ -65,7 +65,7 @@ A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 
 Состояние отображения текущего монитора изменилось.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это уведомление доступно начиная с Windows 8 и Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это уведомление можно получить, начиная с Windows 8 и Windows Server 2012.
 
 Элемент **данных** является **DWORD** с одним из следующих значений.
 
@@ -94,7 +94,7 @@ A7AD8041-B45A-4CAE-87A3-EECBB468A9E1
 
 Это уведомление отправляется только в службы и другие программы, запущенные в сеансе 0. Приложения пользовательского режима должны регистрироваться для **определения \_ \_ \_ присутствия пользователя сеанса GUID** .
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это уведомление доступно начиная с Windows 8 и Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это уведомление можно получить, начиная с Windows 8 и Windows Server 2012.
 
 Элемент **данных** является **DWORD** с одним из следующих значений.
 
@@ -220,7 +220,7 @@ Power экономия — схема предназначена для обес
 
 Дисплей, связанный с сеансом приложения, включен или выключен.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это уведомление доступно начиная с Windows 8 и Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это уведомление можно получить, начиная с Windows 8 и Windows Server 2012.
 
 Это уведомление отправляется только в приложения пользовательского режима. Службы и другие программы, запущенные в сеансе 0, не получают это уведомление. Элемент **данных** является **DWORD** с одним из следующих значений.
 
@@ -247,7 +247,7 @@ Power экономия — схема предназначена для обес
 
 Изменено состояние пользователя, связанное с сеансом приложения.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это уведомление доступно начиная с Windows 8 и Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** это уведомление можно получить, начиная с Windows 8 и Windows Server 2012.
 
 Это уведомление отправляется только в приложения пользовательского режима, выполняющиеся в интерактивном сеансе. Службы и другие программы, запущенные в сеансе 0, должны регистрироваться для **\_ глобального \_ \_ присутствия пользователя GUID**. Элемент **данных** является **DWORD** с одним из следующих значений.
 
@@ -286,13 +286,13 @@ Power экономия — схема предназначена для обес
 
 </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Файл WinNT. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Файл WinNT. h</dt> </dl> |
 
 
 

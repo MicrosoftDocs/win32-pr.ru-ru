@@ -34,18 +34,18 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 911bb0b2a544197ca6db761e05adac79e97c3f69
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: f2d8eaab0f17647a6f548a0243199073baef074c88dad6a3f7100cfbca1a02be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "104997019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941334"
 ---
 # <a name="shischildorself-function"></a>Функция Шисчилдорселф
 
 ## <a name="description"></a>Описание
 
-\[Эта функция доступна в Windows XP и Windows Server 2003.
+\[эта функция доступна в Windows XP и Windows Server 2003.
 Он может быть изменен или недоступен в последующих версиях Windows.\]
 
 Сравнивает, является ли окно равным, дочерним элементом или потомком второго окна.
@@ -79,8 +79,8 @@ HRESULT SHIsChildOrSelf(
 Возвращает **S_FALSE** , если окно, заданное HWND, не равно, а не является дочерним элементом, а не является потомком окна, заданного параметром *хвндпарент*.
 Возвращаемое значение не определено, если один из окон является недопустимым.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [IsChild](/windows/desktop/api/winuser/nf-winuser-ischild)

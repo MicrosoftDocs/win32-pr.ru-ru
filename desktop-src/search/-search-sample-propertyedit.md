@@ -4,12 +4,12 @@ ms.assetid: 5918b4f6-6b6f-4229-8f29-1c41f80b3b02
 title: PropertyEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa248b9e86f8ab93cccba3d5d6b169d7e8699dbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 944419f990c8f1f8b52706dbab0b08102829e77a5bfa8a91c72a5bc16eddfa63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944673"
 ---
 # <a name="propertyedit"></a>PropertyEdit
 
@@ -21,16 +21,16 @@ ms.locfileid: "103896934"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Продукт     | Минимальная версия продукта |
 |-------------|-------------------------|
 | Windows     | Windows 7               |
-| Пакет Windows SDK | 7.0                     |
+| Пакет Windows SDK | 7,0                     |
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "103896934"
  
 
 > [!Note]  
-> Для всех версий Windows, включая Windows 7, рекомендуется загрузить примеры непосредственно из GitHub, чтобы получить самую последнюю версию.
+> для всех версий Windows, включая Windows 7, рекомендуется загружать образцы непосредственно из GitHub для наиболее актуальной версии.
 
  
 
@@ -64,23 +64,23 @@ ms.locfileid: "103896934"
 1.  Откройте окно командной строки и перейдите в каталог проекта **пропертедит** . 
 2.  Введите `msbuild PropertyEdit.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **пропертедит** .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **пропертедит** .
 2.  Дважды щелкните значок файла Пропертедит. sln, чтобы открыть проект в Visual Studio.
     > [!Note]  
-    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. В этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
+    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. в этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
 
      
 
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2.  В командной строке введите `PropertyEdit.exe` или в проводнике Windows дважды щелкните значок PropertyEdit.exe.
+1.  перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2.  в командной строке введите `PropertyEdit.exe` или в Windows Explorer дважды щелкните значок PropertyEdit.exe.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

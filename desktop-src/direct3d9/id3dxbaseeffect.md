@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e72fabf7db8341821885afb160fa73cb0fc9f395
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8525a8139cd769a59886576f8ec32c7dab333a2903ffdb0fba1abc8ffbe27d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848554"
 ---
 # <a name="id3dxbaseeffect-interface"></a>Интерфейс ID3DXBaseEffect
 
@@ -98,7 +98,7 @@ ms.locfileid: "104157163"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип LPD3DXBASEEFFECT определяется как указатель на этот интерфейс.
 
@@ -117,7 +117,7 @@ typedef interface ID3DXBaseEffect *LPD3DXBASEEFFECT;
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

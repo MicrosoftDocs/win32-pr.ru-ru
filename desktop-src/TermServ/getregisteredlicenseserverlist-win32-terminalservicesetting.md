@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5336910956a0d281fbfc8fbc65e1d3b8d5018cb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afb7514c163b29dba995c7bbeb0523c5e940b74e8017f23906db3e7caa263404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871674"
 ---
 # <a name="getregisteredlicenseserverlist-method-of-the-win32_terminalservicesetting-class"></a>Метод Жетрегистередлиценсесерверлист \_ класса Win32 терминалсервицесеттинг
 

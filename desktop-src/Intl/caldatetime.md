@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5e3f0099a8e1dd7794b960af3d753085f2a32eaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 700e11f27b673d9ff706483cc4abcf2f06cd7d8bb779ef8eaf9b51a6d81b4068
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822834"
 ---
 # <a name="caldatetime-structure"></a>Структура КАЛДАТЕТИМЕ
 
@@ -89,7 +89,7 @@ typedef struct _caldatetime {
 
 </dd> <dt>
 
-**Час**
+**Отображение**
 </dt> <dd>
 
 Час на момент времени.
@@ -123,8 +123,8 @@ typedef struct _caldatetime {
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

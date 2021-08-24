@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 34c0800874dc9380b8c9034df2867fc3d1fb578d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3e07c771a34e89cfbcbba5695450e195ef55482e0a27bee008f3ea8251bf8bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879874"
 ---
 # <a name="attribute-object"></a>Attribute, объект
 
@@ -39,7 +39,7 @@ ms.locfileid: "105669301"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **атрибута** имеет следующие свойства.
 
@@ -54,11 +54,11 @@ ms.locfileid: "105669301"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **атрибута** может быть создан и защищен для создания скриптов. ProgID для объекта **атрибута** — CAPICOM. Атрибут. 1.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "105669301"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

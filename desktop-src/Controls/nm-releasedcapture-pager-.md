@@ -3,7 +3,7 @@ title: Код уведомления NM_RELEASEDCAPTURE (пейджер) (Ком
 description: Сообщает родительскому окну элемента управления страничного навигатора, что элемент управления отпускает захват мыши. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 5ce9c38a-5d37-4ac7-8510-30bc59d85cca
 keywords:
-- Элементы управления Windows для кода уведомления NM_RELEASEDCAPTURE (пейджер)
+- элементы управления Windows кода уведомления NM_RELEASEDCAPTURE (пейджер)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fb1d258d9baa0952e1707e36884a492ff65f99b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f857f64b6964d9258aca6cb923553a85e11e8b0fd9931c3fe2ceb4050038a7ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826064"
 ---
 # <a name="nm_releasedcapture-pager-notification-code"></a>\_Код уведомления NM релеаседкаптуре (пейджер)
 
@@ -55,9 +55,9 @@ NM_RELEASEDCAPTURE
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

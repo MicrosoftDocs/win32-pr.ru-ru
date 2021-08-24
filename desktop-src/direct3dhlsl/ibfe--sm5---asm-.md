@@ -4,12 +4,12 @@ description: При наличии диапазона битов в числе �
 ms.assetid: 1ED39812-A89F-4325-82A0-DA2CCC55A99A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 805d5c1137e25d8b8fa560588b9e876ccc5c8748
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9b04bfcaea154a8a63e9b118da12a8994398357b7c6a022a4589353c6c06eb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949624"
 ---
 # <a name="ibfe-sm5---asm"></a>ибфе (SM5-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "103784905"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ЛСБ 5 бит src0 (0-31) обеспечивает ширину битовых разрядов.
 
@@ -84,7 +84,7 @@ ms.locfileid: "103784905"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -95,7 +95,7 @@ ms.locfileid: "103784905"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

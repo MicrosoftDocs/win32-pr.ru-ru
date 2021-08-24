@@ -27,7 +27,7 @@
             - name: Настройка службы SNMP
               href: configuring-the-snmp-service.md
               items:
-                - name: Имена сообществ
+                - name: Community Фамили
                   href: community-names.md
                 - name: Имена узлов и IP-адреса
                   href: host-names-and-ip-addresses.md

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 00b0c648de17f6aca931ab3f3417d9ecb53ac558
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c47d7f1c59ecd629db1d6fc735f61b8d1fe59c864ffa8a5a9f013c86bd30faa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877454"
 ---
 # <a name="certificatestatuscheckflag-property"></a>Цертификатестатус. Чеккфлаг, свойство
 
@@ -66,7 +66,7 @@ CertificateStatus.CheckFlag As CAPICOM_CHECK_FLAG
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

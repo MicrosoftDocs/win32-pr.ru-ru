@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI портресаурце для Win32 представляет порт ввода-вывода в компьютерной системе под Windows.'
+description: '\_Класс WMI портресаурце для Win32 представляет порт ввода-вывода в компьютерной системе, где работает Windows.'
 ms.assetid: 820f4f49-571c-4044-aefc-69bac5d59e6f
 ms.tgt_platform: multiple
 title: Класс Win32_PortResource
@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e3c08424dd1aee555068c78a9308afe732634c61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 732bd1255bf216abe3654d80abcde14b1e8b1180a69d0509663a6a83a2801895
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878584"
 ---
 # <a name="win32_portresource-class"></a>\_Класс Win32 портресаурце
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ портресаурце для Win32** представляет порт ввода-вывода в компьютерной системе под Windows.
+[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ портресаурце для Win32** представляет порт ввода-вывода в компьютерной системе, где работает Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -64,7 +64,7 @@ class Win32_PortResource : Win32_SystemMemoryResource
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ портресаурце** имеет следующие свойства.
 
@@ -86,7 +86,7 @@ class Win32_PortResource : Win32_SystemMemoryResource
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -214,7 +214,7 @@ class Win32_PortResource : Win32_SystemMemoryResource
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -358,11 +358,11 @@ class Win32_PortResource : Win32_SystemMemoryResource
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ портресаурце** является производным от [**Win32 \_ системмемориресаурце**](win32-systemmemoryresource.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -376,7 +376,7 @@ class Win32_PortResource : Win32_SystemMemoryResource
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

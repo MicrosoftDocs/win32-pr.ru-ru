@@ -4,12 +4,12 @@ ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4b4d2d52c35d6dd3670daff5150a785e19d0b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e4d2af38903d2e704d49b48f932818d8dfaeeb1e12588c007d4af05c297642c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894494"
 ---
 # <a name="icem09"></a>ICEM09
 
@@ -31,7 +31,7 @@ directory 'ProgramFilesFolder'. It is recommended that merge modules alias
 all such directories to unique names.
 ```
 
-Переименуйте каталог модуля слияния, чтобы он не совпадал со свойством установщик Windows и, следовательно, уникален. Затем задайте свойству с тем же именем значение каталога установщик Windows. При разрешении каталога Каталог имеет свойство с тем же именем, поэтому расположение установки каталога является значением свойства. Файлы перемещаются из отдельного исходного расположения в то же целевое расположение. Этот процесс должен полностью удалить конфликты слияния.
+переименуйте каталог модуля слияния, чтобы он не совпадал со свойством установщик Windows и, следовательно, уникален. затем задайте свойству с тем же именем значение каталога установщик Windows. При разрешении каталога Каталог имеет свойство с тем же именем, поэтому расположение установки каталога является значением свойства. Файлы перемещаются из отдельного исходного расположения в то же целевое расположение. Этот процесс должен полностью удалить конфликты слияния.
 
 ``` syntax
 Warning: The 'ModuleInstallExecuteSequence' table contains a type 51 action 
@@ -108,7 +108,7 @@ Many merge tools will generate duplicate actions."
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

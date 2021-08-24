@@ -4,12 +4,12 @@ ms.assetid: 920d940f-5ae2-4376-8c7b-0cef04f21df7
 title: Инициализация объектной модели XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cac44a69d171c1d38633512b0e275dcdeaea8738
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16edb992efee7c9cba1d5bc454ca5bcb44bd3267a2e91d4ca714120182df0657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946996"
 ---
 # <a name="initialize-an-xps-om"></a>Инициализация объектной модели XPS
 
@@ -57,11 +57,11 @@ ms.locfileid: "104344832"
 
 
 
-## <a name="best-practices"></a>Рекомендации
+## <a name="best-practices"></a>Советы и рекомендации
 
 Чтобы сделать программу более эффективной, можно получить указатель на интерфейс [**икспсомобжектфактори**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomobjectfactory) в первый раз, когда необходимо вызвать **икспсомобжектфактори** для создания интерфейса, а затем сохранить указатель для использования в других областях программы. Если программе больше не требуется фабрика объектов или она не понадобится в течение определенного времени, указатель может быть освобожден.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

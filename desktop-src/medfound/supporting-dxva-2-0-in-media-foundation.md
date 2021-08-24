@@ -4,12 +4,12 @@ ms.assetid: d7330370-adb3-4c6a-962a-7b46c344500c
 title: Поддержка ДКСВА 2,0 в Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce144c24a1aeeda6281ddb423757f3e339903440
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 170b9c8ccdbdb7e0844b79e5743c4a84b033b7d504378dba083be5adfb244fcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105664819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721933"
 ---
 # <a name="supporting-dxva-20-in-media-foundation"></a>Поддержка ДКСВА 2,0 в Media Foundation
 
@@ -23,7 +23,7 @@ ms.locfileid: "105664819"
  
 
 > [!Note]  
-> Приложения для Магазина Windows должны использовать Direct3D 11.
+> Windows Приложения Магазина должны использовать Direct3D 11.
 
  
 
@@ -106,7 +106,7 @@ MFT должен найти совместимую конфигурацию дл
 
 Используйте обратный вызов из метода [**сеталлокатор**](/windows/win32/api/mfidl/nf-mfidl-imftrackedsample-setallocator) (шаг 3), чтобы отследить, какие образцы доступны в данный момент и какие используются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

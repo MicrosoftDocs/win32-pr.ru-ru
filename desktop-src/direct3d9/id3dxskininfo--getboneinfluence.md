@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8b4b31ab08aca476ced1cb28dfc5ed5bfe61d044
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f49afb4175559bb5338c01c0ebb22fb89801aef5e7cafa62386e25c095ea139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847313"
 ---
 # <a name="id3dxskininfogetboneinfluence-method"></a>Метод ID3DXSkinInfo:: Жетбонеинфлуенце
 
@@ -75,7 +75,7 @@ HRESULT GetBoneInfluence(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**ID3DXSkinInfo:: жетнумбонеинфлуенцес**](id3dxskininfo--getnumboneinfluences.md) , чтобы узнать, сколько вершин влияет на кость.
 
@@ -85,7 +85,7 @@ HRESULT GetBoneInfluence(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

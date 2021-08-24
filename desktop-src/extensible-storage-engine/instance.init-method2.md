@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 5b93c2f08990af0af9618a86fb6be9c6718cfe25
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 50a07a1a225862746c403eebed3a330ecdcc0d403240860cffc1e038326e5944
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850342"
 ---
 # <a name="instanceinit-method-overload-list"></a>Список перегрузок методов Instance.Init
 
@@ -32,7 +32,7 @@ ms.locfileid: "106389145"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
