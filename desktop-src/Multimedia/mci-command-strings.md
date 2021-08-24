@@ -7,12 +7,12 @@ keywords:
 - Справочник по MCI, командные строки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7298a1ad4d571446532f7198e5bd41ae988194e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cc2934f8770c7a68db7f1706705424d554bbd5f4840a7e19b0c57b695a9bad90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784614"
 ---
 # <a name="mci-command-strings"></a>Строки команд MCI
 
@@ -31,18 +31,18 @@ ms.locfileid: "104069947"
 -   [**фиксировать**](freeze.md)
 -   [**номер**](./windows-multimedia-start-page.md)
 -   [**контактные**](info.md)
--   [**числ**](list.md)
+-   [**list**](list.md)
 -   [**загрузить**](load.md)
 -   [**как**](mark.md)
 -   [**слежен**](monitor.md)
 -   [**открыт**](open.md)
--   [**авить**](paste.md)
+-   [**вставка**](paste.md)
 -   [**работу**](pause.md)
 -   [**воспроизводит**](play.md)
 -   [**PUT**](put.md)
 -   [**повышения**](quality.md)
 -   [**повысить**](realize.md)
--   [**запись**](record.md)
+-   [**записать**](record.md)
 -   [**предназначен**](reserve.md)
 -   [**восстановление**](restore.md)
 -   [**выход**](resume.md)
@@ -55,7 +55,7 @@ ms.locfileid: "104069947"
 -   [**сетвидео**](setvideo.md)
 -   [**имел**](signal.md)
 -   [**оборот**](spin.md)
--   [**состояние**](status.md)
+-   [**status**](status.md)
 -   [**первом**](step.md)
 -   [**позиции**](stop.md)
 -   [сисинфо](sysinfo.md)
@@ -63,15 +63,15 @@ ms.locfileid: "104069947"
 -   [**освободить**](unfreeze.md)
 -   [**обновляют**](update.md)
 -   [**которому**](where.md)
--   [**окно**](window.md)
+-   [**window**](window.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по MCI](mci-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

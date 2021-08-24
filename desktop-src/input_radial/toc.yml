@@ -4,12 +4,12 @@
     - name: Интерфейсы радиального контроллера
       href: radial-controller-interfaces.md
       items:
-        - name: ирадиалконтроллерконфигуратионинтероп
+        - name: IRadialControllerConfigurationInterop
           href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerconfigurationinterop
           items:
             - name: Метод Жетфорвиндов
               href: /windows/desktop/api/RadialControllerInterop/nf-radialcontrollerinterop-iradialcontrollerconfigurationinterop-getforwindow
-        - name: ирадиалконтроллеринтероп
+        - name: IRadialControllerInterop
           href: /windows/desktop/api/RadialControllerInterop/nn-radialcontrollerinterop-iradialcontrollerinterop
           items:
             - name: Метод Креатефорвиндов

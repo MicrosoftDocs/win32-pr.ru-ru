@@ -7,16 +7,16 @@ keywords:
 - Диспетчер таблиц маршрутизации, версия 1 RRAS, идентификаторы семейства протоколов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0b297bc0b5d1b6f669df19e069c08216cdb998
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bb5187c66a5caaf2c36b1bd1cbd886b1f80cf826444f1d4137c6b45c3e72397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740983"
 ---
 # <a name="routing-table-manager-version-1-protocol-family-identifiers"></a>Идентификаторы семейства протоколов версии 1 диспетчера таблиц маршрутизации
 
-**Windows Server 2003:** Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
+**Windows Server 2003:** этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
 
 Следующие идентификаторы транспорта перечислены в RTM. h. Используйте эти идентификаторы с API RTMv1.
 
@@ -29,18 +29,18 @@ ms.locfileid: "104258739"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по диспетчеру таблиц маршрутизации версии 1](routing-table-manager-version-1-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 36818205e356f873b391159293e9204a9ced44a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d6aa7a47a70d9058832fc809b30c8031fd279dd5f7b96d1abadb05177bd4280f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759744"
 ---
 # <a name="setdynamicdnsregistration-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетдинамикднсрегистратион \_ класса Win32 NetworkAdapterConfiguration
 
@@ -333,7 +333,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92

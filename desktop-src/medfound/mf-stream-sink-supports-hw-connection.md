@@ -4,12 +4,12 @@ ms.assetid: 15838467-D253-4ECE-B9E7-AFD3A21B3AF2
 title: Атрибут MF_STREAM_SINK_SUPPORTS_HW_CONNECTION (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a95bfecba4cf53b6ef7c8863ec0456e310d8bcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a9f663c492e5ae15590cc9240762e90298122790fa350fae51d09dd1199f6d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714383"
 ---
 # <a name="mf_stream_sink_supports_hw_connection-attribute"></a>\_Сток потока \_ MF \_ поддерживает \_ \_ атрибут подключения HW
 
@@ -19,7 +19,7 @@ ms.locfileid: "104497658"
 
 **Bool** , сохраненный как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется, когда приемник носителей использует прокси-сервер и может получать данные через аппаратную шину. Например, аппаратный декодер может отсылать аудио данные непосредственно на оборудование для воспроизведения аудио.
 
@@ -35,19 +35,19 @@ ms.locfileid: "104497658"
 4.  Конвейер задает атрибут [ \_ \_ \_ атрибута потока MFT для подключения](mft-connected-stream-attribute.md) к приемнику потока. Значением этого атрибута является указатель [**имфаттрибуте**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) из MFT.
 5.  Конвейер устанавливает **значение true** для [MFT, \_ подключенного к атрибуту \_ \_ \_ аудиопотока](mft-connected-to-hw-stream.md) , как к приемнику потока, так и к таблице MFT.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

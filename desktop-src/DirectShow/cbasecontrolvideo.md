@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e2e5962eb9d175bfbbeadd149a547f0d36fbf49f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3d8e6f7c881cc62f9124a58cb168bb3b2123d5f8e3c99b1d86b6aed0f87e2aaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697952"
 ---
 # <a name="cbasecontrolvideo-class"></a>Класс Кбасеконтролвидео
 
@@ -94,11 +94,11 @@ ms.locfileid: "104495411"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Базовые классы DirectShow](directshow-base-classes.md)
+[DirectShow Базовые классы](directshow-base-classes.md)
 </dt> </dl>
 
  

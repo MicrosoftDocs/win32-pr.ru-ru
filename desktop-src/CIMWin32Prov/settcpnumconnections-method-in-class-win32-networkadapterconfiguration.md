@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5708c7ce80930c0924b560cc7b84e5af45ad7962
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d28fcbe9c437d686b4f19383635fcbd9d2e0b954359cdb4e0af1b66a11c16764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700054"
 ---
 # <a name="settcpnumconnections-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетткпнумконнектионс \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -408,7 +408,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения разрешенного числа TCP-подключений](https://Gallery.TechNet.Microsoft.Com/016d09f3-28aa-47eb-b439-100b89999bab) на языке VBScript задает максимально допустимое количество одновременно открытых TCP-подключений на компьютере до 10.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -422,7 +422,7 @@ DHCP не включен на адаптере.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

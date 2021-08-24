@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a310daf30127aec5069efcf7ca4fd5ead9277e6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be3968f52065259cb69ad35721dffd3ac606da98e4189edaad1b762120f5a008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681584"
 ---
 # <a name="msvm_ethernetportallocationsettingdata-class"></a>\_Класс мсвм есернетпорталлокатионсеттингдата
 
@@ -105,7 +105,7 @@ class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетпорталлокатионсеттингдата** имеет следующие свойства.
 
@@ -176,7 +176,7 @@ class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSetting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -188,7 +188,7 @@ class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSetting
 Квалификаторы: **maxlen** (64)
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры порта коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "порт коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -245,7 +245,7 @@ class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSetting
 Тип доступа: только для чтения
 </dt> </dl>
 
-Описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры порта коммутатора Ethernet".
+Описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "порт коммутатора Ethernet Параметры".
 
 </dd> <dt>
 
@@ -561,14 +561,14 @@ class Msvm_EthernetPortAllocationSettingData : CIM_EthernetPortAllocationSetting
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

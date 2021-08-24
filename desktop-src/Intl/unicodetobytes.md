@@ -34,12 +34,12 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 66ed21768c3acef7f2aa2128df057da8552b2ad2
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 01109763644dc04aeb398e5fc64e221cd5f3d18870df2654fa5348bc163a277c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "103785490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764737"
 ---
 # <a name="unicodetobytes-function"></a>Функция Уникодетобитес
 
@@ -47,7 +47,7 @@ ms.locfileid: "103785490"
 
 Не рекомендуется. Преобразует символы Юникода в кодировку GB18030 байт.
 
-**Примечание**  .  При преобразовании символов Юникода в кодировку GB18030 байты приложение, запускаемое в Windows Vista и более поздних версиях, должно использовать функцию [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) .
+**Примечание** .  при преобразовании символов юникода в кодировку GB18030 байты приложение, запускаемое в Windows Vista и более поздних версий, должно использовать функцию [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) .
 
 ```cpp
 DWORD UnicodeToBytes(
@@ -82,7 +82,7 @@ DWORD UnicodeToBytes(
 
 Возвращает количество байтов многобайтовых символов, создаваемых в случае успеха.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ## <a name="see-also"></a>См. также раздел
 

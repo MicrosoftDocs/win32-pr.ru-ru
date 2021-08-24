@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dae121b1d5f2d968f696190c64828be91adc71da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38473f45e2bd4c53b964bb38ec285cdf3eea091a96d72684c1d801b949f4d0a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801734"
 ---
 # <a name="utilassemblestringswithalloc-function"></a>Функция Утилассемблестрингсвисаллок
 
@@ -48,9 +48,9 @@ HRESULT UtilAssembleStringsWithAlloc(
 *Буфер* \[ заполняет\]
 </dt> <dd>
 
-Введите: **LPWSTR \** _
+Тип: **LPWSTR \***
 
-Расположение, в которое будет помещена вновь выделенная строка. Если строка больше не нужна, она должна быть освобождена с помощью [_ *CoTaskMemFree* *](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+Расположение, в которое будет помещена вновь выделенная строка. Если строка больше не нужна, она должна быть освобождена с помощью [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
@@ -123,19 +123,19 @@ HRESULT UtilAssembleStringsWithAlloc(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

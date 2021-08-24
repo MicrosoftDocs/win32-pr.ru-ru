@@ -3,19 +3,19 @@ title: Справочник по обложкам
 description: Справочник по обложкам
 ms.assetid: af778d1e-f6e8-47b0-bf98-e826880f48b7
 keywords:
-- Проигрыватель Windows Media, обложки
-- Обложки мобильных устройств проигрывателя Windows Media, Справочник
+- проигрыватель Windows Media, обложки
+- проигрыватель Windows Media Обложки для мобильных устройств, Справочник
 - обложки, Справочник по программированию
 - Справочник по обложкам, о
-- Справочник по обложкам, проигрывателю Windows Media Mobile
+- справочник по обложкам, проигрыватель Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c0c84d5acccf88c4dc3d893eb32f54a24135257
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4572d45f43c37fca52625288013dbf366db3f96b02961b17cb12edac9c02ab12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763484"
 ---
 # <a name="skin-reference"></a>Справочник по обложкам
 
@@ -38,22 +38,22 @@ ms.locfileid: "103773727"
 
 
 
- 
+ 
 
-\*Новые средства для проигрывателя Windows Media 10,1 Mobile.
+\*новое для проигрыватель Windows Media 10,1 Mobile.
 
 Каждый раздел соответствует разделу файла определения обложки, который необходимо указать для использования конкретных элементов. Разделы перечислены в алфавитном порядке. Чтобы узнать порядок, в котором они должны появиться в файле определения обложки, см. раздел [Создание файла определения обложки](creating-a-skin-definition-file.md). Сведения о композиции файла определения обложки приведены в разделе [о обложках](about-skins-mobile.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Обложки мобильных устройств проигрывателя Windows Media**](windows-media-player-mobile-skins.md)
+[**проигрыватель Windows Media Обложки для мобильных устройств**](windows-media-player-mobile-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

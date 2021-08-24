@@ -7,12 +7,12 @@ keywords:
 - получение свойств задачи планировщик задач, Максрунтиме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fcf442e2936de48a11aea4d81de6e0bac18f92
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbc060884be207081d56f0325d2e1f4228ef609e7733738874e61d68e1d2eec2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738614"
 ---
 # <a name="cc-code-example-retrieving-the-task-maxruntime"></a>Пример кода C/C++: получение Максрунтиме задачи
 
@@ -104,16 +104,16 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

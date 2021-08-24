@@ -3,7 +3,7 @@ title: TEXT. Value
 description: Атрибут value указывает или получает текст, отображаемый в элементе управления "текст".
 ms.assetid: dbc50be2-ee18-4661-a343-9e906879aba0
 keywords:
-- ТЕКСТОВЫЙ. Value — проигрыватель Windows Media
+- проигрыватель Windows Media TEXT. value
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d87f688f7afffeb588a37ac13ebff4cdc7cc105
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8eef6b17428831a52a0e3cf5b8f8ec3dd7f795d5d4b78e2c4700a6274b877820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762864"
 ---
 # <a name="textvalue"></a>TEXT. Value
 
@@ -31,7 +31,7 @@ ms.locfileid: "105648679"
 
 Этот атрибут является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если ширина текстового элемента управления недостаточно для того, чтобы вместить указанный текст, текст обрезается, а для демонстрации факта отображается многоточие. Если атрибут **ToolTip** не задан, то полный текст будет отображаться в виде подсказки при наведении курсора мыши на элемент управления.
 
@@ -156,7 +156,7 @@ ms.locfileid: "105648679"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

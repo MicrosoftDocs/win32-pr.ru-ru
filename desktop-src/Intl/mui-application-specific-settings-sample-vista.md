@@ -1,19 +1,19 @@
 ---
-description: 'MUI: пример параметров Application-Specific (Windows Vista)'
+description: 'MUI: пример Параметры Application-Specific (Windows Vista)'
 ms.assetid: 348a51fb-aad1-4255-a5a2-224d5c94d762
-title: 'MUI: пример параметров Application-Specific (Windows Vista)'
+title: 'MUI: пример Параметры Application-Specific (Windows Vista)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9583e606a0f9023d02a4ef804fee22c56818a75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 664b87af02e9c24a0eacd9191f9e007804672429d433c5d832dc0fbdd98e359b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765024"
 ---
-# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI: пример параметров Application-Specific (Windows Vista)
+# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI: пример Параметры Application-Specific (Windows Vista)
 
-Пример приложения, описанный в этом разделе, представляет собой еще одно приложение Hello MUI, которое поддерживает параметры конкретного приложения для языков пользовательского интерфейса и работает в Windows Vista и более поздних версиях.
+пример приложения, описанный в этом разделе, представляет собой еще одно приложение Hello MUI, которое поддерживает параметры конкретного приложения для языков пользовательского интерфейса и выполняется в Windows Vista и более поздних версиях.
 
 Это приложение сначала анализирует список языков с разделителями в текстовом файле и преобразует его в список языков с несколькими строками, чтобы определить языковые параметры для конкретного приложения. В образце поддерживаются следующие разделители: ",", ";", ":" и "". После синтаксического анализа списка код находит и загружает ресурсы на определенном языке, точно так же, как это делает образец системных параметров. Этот код загружает и освобождает файлы ресурсов с помощью вызовов функций загрузчика ресурсов [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa) и [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary).
 

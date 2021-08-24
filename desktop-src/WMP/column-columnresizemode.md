@@ -3,7 +3,7 @@ title: COLUMN. Колумнресиземоде
 description: Атрибут Колумнресиземоде указывает или получает режим изменения размера для этого столбца.
 ms.assetid: 95ece2a3-20a6-4b9d-a2eb-fc69fc612f29
 keywords:
-- Колумнресиземоде Windows Media Player
+- проигрыватель Windows Media COLUMN. колумнресиземоде
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52d17b1a2edd878fb15e69c595e3c061c1963a5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c59046aa76c01a1439e5db8f0fb6850e7df74d874cba555d1f9c3829f09d9598
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764004"
 ---
 # <a name="columncolumnresizemode"></a>COLUMN. Колумнресиземоде
 
@@ -44,17 +44,17 @@ ms.locfileid: "105695005"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

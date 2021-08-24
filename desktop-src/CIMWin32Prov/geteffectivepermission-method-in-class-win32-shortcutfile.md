@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 52b57318ac05212304024ead82026d6daf0d8ea4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 90c359a40b482cf3335dde26f0fc4ae49ca5541b3c4fa1d8599b25c68d1365d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760534"
 ---
 # <a name="geteffectivepermission-method-of-the-win32_shortcutfile-class"></a>Метод Жетеффективепермиссион \_ класса Win32 шорткутфиле
 
@@ -216,7 +216,7 @@ boolean GetEffectivePermission(
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 

@@ -3,18 +3,18 @@ title: Расположение состояния
 description: Расположение состояния
 ms.assetid: 9051a2f7-ae39-4004-9d8c-a61141631b23
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, отображение состояния
+- проигрыватель Windows Media Обложки для мобильных устройств, отображение состояния
 - обложки, отображение состояния
 - Справочник по обложкам, отображению состояния
 - Отображение состояния в обложках, расположение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b47cb08b0a1fde8b3bbc24e4300f880c3896ebf6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1111c511c2ab52ff4233a497384606238f8afa351ab786deb6e3f5a20247a9a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763184"
 ---
 # <a name="status-location"></a>Расположение состояния
 
@@ -28,16 +28,16 @@ ms.locfileid: "103779199"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Состояние**](status.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

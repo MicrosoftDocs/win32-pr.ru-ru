@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8d3784e64986a338f6554534199852191bd06ca7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c189b315387bfbd5e6051ecc382d2ea354d18925c15b11763c28602d2015c482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820314"
 ---
 # <a name="known-folders-sample"></a>Пример: известные папки
 
@@ -27,13 +27,13 @@ ms.locfileid: "103998756"
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
 Этот пример включает файл реестра, в котором показано, как зарегистрировать известную папку, записав некоторые общие разделы реестра и значения для разработчиков, которые предпочитают доступ к реестру.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "103998756"
 
 Инструкции по созданию образца см. в файле сведений, прилагаемом к примеру.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 414F6243-CD96-4867-8DDE-7A89DBFBC7CE
 title: Атрибут MF_MT_FORWARD_CUSTOM_SEI (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20b174fc8e504777297f622182313482b6d64301
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b2360b46820efafd4aad2ee44747d92b4fb05f1349b855b7f88aadba82a6399
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714484"
 ---
 # <a name="mf_mt_forward_custom_sei-attribute"></a>MF \_ \_ \_ настраиваемый \_ атрибут Sei
 
@@ -19,19 +19,19 @@ ms.locfileid: "105656570"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если декодер анализирует SEI, он не будет перенаправлен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

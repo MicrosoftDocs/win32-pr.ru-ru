@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 076ae2cfa25f446d8d6200fbee7f53ecf0edea5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 939bf3f7c9d9741dd8a54613130ea363b64a8b3fbe2f84ea22ec0efe9dbf647b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719504"
 ---
 # <a name="jet_threadstatsequality-operator"></a>JET_THREADSTATS. Оператор равенства
 
@@ -81,7 +81,7 @@ public static bool operator ==(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 Значение true, если два экземпляра равны.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

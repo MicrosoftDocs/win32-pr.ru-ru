@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 95d143b8e5cbc4845cc25361204fafa9efa45459
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eb92e71944f43d87228667754df19874a65c6009637a5730d736cb80bb26b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681394"
 ---
 # <a name="msvm_ethernetswitchportvfpsettingdata-class"></a>\_Класс мсвм есернетсвитчпортвфпсеттингдата
 
@@ -39,13 +39,13 @@ class Msvm_EthernetSwitchPortVfpSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 Класс **мсвм \_ есернетсвитчпортвфпсеттингдата** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -53,7 +53,7 @@ class Msvm_EthernetSwitchPortVfpSettingData : Msvm_EthernetSwitchPortFeatureSett
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

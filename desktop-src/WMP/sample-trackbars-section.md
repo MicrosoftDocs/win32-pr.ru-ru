@@ -3,19 +3,19 @@ title: Пример раздела TrackBar
 description: Пример раздела TrackBar
 ms.assetid: b336a034-12ad-480e-8ec8-9c6d2bd9196f
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, линейки воспроизведения
+- проигрыватель Windows Media Обложки мобильных устройств, ползунки
 - обложки, TrackBar
 - Справочник по обложек, TrackBar
 - Ползунки в разделе "обложки", "TrackBar"
 - файлы определения обложки, раздел TrackBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 042f99c6696b756b6c2c86a5694f8469ea90cb9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 74bcdaf1049c7a022a0231c80e0f91df9f42e7bc55e64f1222ad2f3614940ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763854"
 ---
 # <a name="sample-trackbars-section"></a>Пример раздела TrackBar
 
@@ -35,16 +35,16 @@ ms.locfileid: "103888799"
 
 В предыдущем примере определяется значение TrackBar, позволяющее пользователю выполнять поиск по элементу мультимедиа, коснувшись и перетаскивая изображение Сиксумб.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Линейки воспроизведения**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Макрос MCI_TMSF_SECOND (МЦиапи. h)
 description: '\_ \_ Второй макрос MCI тмсф извлекает компонент секунд из параметра, содержащего Упакованные дорожки/минуты/секунды/кадры (тмсф).'
 ms.assetid: 0f431545-bde0-4898-9a9d-993847aedf50
 keywords:
-- MCI_TMSF_SECOND макросов Windows мультимедиа
+- MCI_TMSF_SECOND макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 722949487400f80ed72f9e120d5dbf8678ab81a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92dc8f7771df35e9ddc712d263e805ba1e844ca42cde607d7204dc6dc7b350d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784203"
 ---
 # <a name="mci_tmsf_second-macro"></a>\_ \_ Второй макрос MCI тмсф
 
@@ -51,7 +51,7 @@ BYTE MCI_TMSF_SECOND(
 
 Возвращает компонент секунд указанной информации ТМСФ.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ТМСФ выражается как значение **DWORD** с наименьшим значащим байтом, содержащим дорожки, следующий младший значащий байт, содержащий минуты, следующий младший значащий байт, содержащий секунды, и самый значащий байт, содержащий кадры.
 
