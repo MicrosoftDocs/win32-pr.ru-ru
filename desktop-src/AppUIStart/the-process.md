@@ -4,12 +4,12 @@ description: В этом разделе описываются три этапа
 ms.assetid: ab544cb9-eed3-4575-a8dd-2f5d7b5c575f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b531fb07a1805c14441c81777bbdddad0739e7cb
-ms.sourcegitcommit: e5c43274e96cb8fd1b60fc187ef16723e9258367
+ms.openlocfilehash: a3c7c965c5c7bfd0250c2116ee23bd91b2125ae5ea6bf15bd714ed13d58e000d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "104069483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589144"
 ---
 # <a name="overview-of-the-user-interface-development-process"></a>Общие сведения о процессе разработки пользовательского интерфейса
 
@@ -49,9 +49,9 @@ ms.locfileid: "104069483"
 -   Тестирование на удобство использования — тестирование приложения с различными пользователями и сценариями.
 -   Тестирование специальных возможностей — тестирование приложения с помощью доступных технологий и автоматизированных средств тестирования.
 
- 
+ 
 
- 
+ 
 
 
 

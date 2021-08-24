@@ -4,12 +4,12 @@ ms.assetid: 4ec63917-03c0-434e-892e-3d9d4c47740e
 title: Импорт переносимых теневых скопированных томов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d259fbc047d088ee1f7064804a3ee98fe48da1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73cee5d491cde59767a321094f0a7de2f34da97b29c6ed02e5cc490643b4dcd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510264"
 ---
 # <a name="importing-transportable-shadow-copied-volumes"></a>Импорт переносимых теневых скопированных томов
 
@@ -23,7 +23,7 @@ ms.locfileid: "104156126"
 
 Поэтому *системоне* должен создать [*транспортную теневую копию*](vssgloss-t.md), которая затем будет импортирована *системтво* .
 
-**Windows server 2003, Standard Edition, Windows Server 2003, Web Edition и Windows XP:** Перепереносимые наборы теневых копий не поддерживаются. Все выпуски Windows Server 2003 с пакетом обновления 1 (SP1) поддерживают переносимые наборы теневых копий.
+**Windows server 2003, выпуск Standard, Windows server 2003, Web Edition и Windows XP:** Перепереносимые наборы теневых копий не поддерживаются. все выпуски Windows Server 2003 с пакетом обновления 1 (SP1) поддерживают переносимые наборы теневых копий.
 
 Типичный пример импорта переносимой теневой копии может быть выполнен следующим образом.
 

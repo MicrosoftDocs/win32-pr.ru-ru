@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b08b767993143db3057985140b97854b9203d2b5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c93040b3ab4c27c937947bfe1bd50f439dd70e84c6b90fb3931f7055b94b0def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749614"
 ---
 # <a name="d3dxvec2lerp-function"></a>Функция D3DXVec2Lerp
 
@@ -85,7 +85,7 @@ D3DXVECTOR2* D3DXVec2Lerp(
 
 Указатель на структуру [**D3DXVECTOR2**](d3dxvector2.md) , которая является результатом линейной интерполяции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция выполняет линейную интерполяцию на основе следующей формулы: v1 + s (V2-v1).
 
@@ -97,7 +97,7 @@ D3DXVECTOR2* D3DXVec2Lerp(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

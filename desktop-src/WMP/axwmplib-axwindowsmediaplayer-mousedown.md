@@ -3,7 +3,7 @@ title: Событие MouseDown объекта Аксвиндовсмедиап�
 description: Событие MouseDown возникает, когда пользователь нажимает кнопку мыши. | Событие MouseDown объекта Аксвиндовсмедиаплайер
 ms.assetid: 3dfbd034-67d4-4b7e-88d8-a77d301c5df7
 keywords:
-- Событие MouseDown объекта Аксвиндовсмедиаплайер проигрыватель Windows Media
+- событие MouseDown объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0779df27f406691903a0362c9eb3a1df993f595f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 73259fab6ffd268e1c9a581a4b7ba18fdfba6c1647b57ef12bcae1c3ab8c04a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119509454"
 ---
 # <a name="mousedown-event-of-the-axwindowsmediaplayer-object"></a>Событие MouseDown объекта Аксвиндовсмедиаплайер
 
@@ -56,19 +56,19 @@ Private Sub player_MouseDownEvent(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

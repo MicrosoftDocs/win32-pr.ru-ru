@@ -3,7 +3,7 @@ title: Media. Имажесаурцевидс
 description: Свойство Имажесаурцевидс извлекает ширину текущего элемента мультимедиа в пикселях.
 ms.assetid: 6559bd51-cec2-4fc6-aab8-f2fdd1d59bae
 keywords:
-- Media. Имажесаурцевидс проигрыватель Windows Media
+- проигрыватель Windows Media Media. имажесаурцевидс
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2a3fef7b74a3d033b058f0afd1f6eece007bd7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 710b6f0d91d7d734b12ad75f201fcd45037f67adf2c8ed3cb60f3ee5fcf6c222
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508404"
 ---
 # <a name="mediaimagesourcewidth"></a>Media. Имажесаурцевидс
 
@@ -33,7 +33,7 @@ ms.locfileid: "105695204"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент мультимедиа не является текущим, это свойство возвращает ноль.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105695204"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *носитель*. **имажесаурцевидс** для вывода размера изображения (в пикселях) **текущего элемента мультимедиа. Сведения выводятся в HTML-элемент TEXTAREA с именем Видеосизе. Объект Player** создан с идентификатором "Player".
+в следующем примере JScript используется *носитель*. **имажесаурцевидс** для вывода размера изображения (в пикселях) **текущего элемента мультимедиа. Сведения выводятся в HTML-элемент TEXTAREA с именем Видеосизе. Объект Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -70,18 +70,18 @@ if (NewState == 13){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -91,10 +91,10 @@ if (NewState == 13){
 [**Player. Куррентмедиа**](player-currentmedia.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

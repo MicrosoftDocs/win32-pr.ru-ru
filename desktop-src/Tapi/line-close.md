@@ -4,12 +4,12 @@ ms.assetid: f254e331-d574-4fa7-8447-6e4535d3d773
 title: Сообщение LINE_CLOSE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7f4fde53d1017b2dcd9fe4ea833803055d9f2dd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68fec993987bfc3ca36099d90eed2beadde9a749f965a36ebb6c513c210f387b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682404"
 ---
 # <a name="line_close-message"></a>\_Сообщение о закрытии строки
 
@@ -65,7 +65,7 @@ ms.locfileid: "105688752"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **о \_ закрытии строки** отправляется любому приложению только после того, как поставщик услуг TAPI принудительно закрыл открытую строку. Можно ли повторно открыть строку сразу после принудительного закрытия, зависящего от устройства.
 
@@ -78,7 +78,7 @@ ms.locfileid: "105688752"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

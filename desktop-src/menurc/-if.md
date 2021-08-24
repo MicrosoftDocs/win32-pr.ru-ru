@@ -4,12 +4,12 @@ description: Директива \ if управляет условной ком�
 ms.assetid: 4d0f26a0-1a2d-4fad-b5ce-b9441397d2c3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 364d6f5eb818813f61f6428446effb4793b96b2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a3d898d0089ab6abeefb8c11e3a781446e498ed7c0f490545189987ec4857f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599715"
 ---
 # <a name="if"></a>\#if
 
@@ -38,16 +38,16 @@ BITMAP 1 errbox.bmp
 #endif
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Директивы препроцессора](preprocessor-directives.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 41694086537fac64cc5c6eb3019a079649c1b248
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 67397c3b4401289d4d1429d5acf10152d13a13fa4287d785c9813206716f192c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701554"
 ---
 # <a name="reset-method-of-the-cim_multistatesensor-class"></a>Метод Reset \_ класса CIM мултистатесенсор
 
@@ -53,7 +53,7 @@ uint32 Reset();
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

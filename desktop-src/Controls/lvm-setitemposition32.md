@@ -3,7 +3,7 @@ title: Сообщение LVM_SETITEMPOSITION32 (Коммктрл. h)
 description: Перемещает элемент в указанную позицию в элементе управления "представление списка" (должен быть в виде значка или маленького значка).
 ms.assetid: 77db5fd0-bbc3-47ad-95ef-61ef4ac022bc
 keywords:
-- Элементы управления Windows для LVM_SETITEMPOSITION32 сообщений
+- элементы управления Windows сообщений LVM_SETITEMPOSITION32
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 450963e4adf5ea2b0644f8d155145ba577efab83
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 737b9aa78067bd4851c907da4ac51bd2645a833d8f3335c90a6e81a902d3a30a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656254"
 ---
 # <a name="lvm_setitemposition32-message"></a>\_Сообщение LVM SETITEMPOSITION32
 
@@ -47,15 +47,15 @@ ms.locfileid: "104071682"
 
 Нет возвращаемого значения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

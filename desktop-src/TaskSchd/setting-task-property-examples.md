@@ -6,12 +6,12 @@ keywords:
 - Задание свойств задачи планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fcb05031961e38314cbc7cd12c20c1d863f54af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: deac57ac28a16108eb886cc56cf697cd768ca7d2e351c4517728c2972be8582f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681634"
 ---
 # <a name="setting-task-property-examples"></a>Примеры свойств задач
 
@@ -22,7 +22,7 @@ ms.locfileid: "105681670"
 > [!Note]  
 > В следующем примере кода все интерфейсы освобождаются после того, как они больше не нужны.
 
- 
+ 
 
 В следующих примерах измененный объект задачи всегда сохраняется на диск с помощью вызова [**IPersistFile:: Save**](/windows/win32/api/objidl/nf-objidl-ipersistfile-save). (Интерфейс [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) является СТАНДАРТНЫМ COM-интерфейсом, наследуемым объектом Task.)
 
@@ -47,15 +47,15 @@ ms.locfileid: "105681670"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

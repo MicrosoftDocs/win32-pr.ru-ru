@@ -4,18 +4,18 @@ ms.assetid: 4c17391f-7af4-42ab-b77f-e3c39cadc0b6
 title: Структуры распознавателя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: addaccf3e69f35b99379710d681fe8ac45559ea1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37b04dbee480993a50c3ed3b8847e6595df76347f36a179d1205d8b49807c955
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596595"
 ---
 # <a name="recognizer-structures"></a>Структуры распознавателя
 
 В этом разделе описываются структуры распознавателя.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 
 

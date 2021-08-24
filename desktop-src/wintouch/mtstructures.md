@@ -1,23 +1,23 @@
 ---
-title: Структуры (сенсорные жесты Windows)
-description: Этот раздел содержит структуры для жестов касания Windows.
+title: структуры (Windows сенсорные жесты)
+description: этот раздел содержит структуры для Windows сенсорных жестов.
 ms.assetid: 3735cfa1-095b-416c-a863-84fd7de4ba03
 keywords:
-- Windows Touch, структуры
-- Касание Windows, жесты
+- Windows Касание, структуры
+- Windows Касание, жесты
 - жесты, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 820bb4a4dc2471dbb6c7742246dfe126ee97eff4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a6fea3ca0808ac18733204f8d70a1dae21d8c96c510532fc572083993ab28331
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104533680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592124"
 ---
-# <a name="structures-windows-touch-gestures"></a>Структуры (сенсорные жесты Windows)
+# <a name="structures-windows-touch-gestures"></a>структуры (Windows сенсорные жесты)
 
-Этот раздел содержит структуры для жестов касания Windows.
+этот раздел содержит структуры для Windows сенсорных жестов.
 
 В этом разделе указаны следующие структуры.
 
@@ -33,11 +33,11 @@ ms.locfileid: "104533680"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сенсорные жесты Windows](multi-touch-gestures.md)
+[Windows Сенсорные жесты](multi-touch-gestures.md)
 </dt> <dt>
 
 [Руководством по программированию для жестов](guide-multi-touch-gestures.md)

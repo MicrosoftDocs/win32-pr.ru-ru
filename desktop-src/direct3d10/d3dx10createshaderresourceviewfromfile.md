@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eb787bed64d16f7593fba1f97c96ceeaa217b4e0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 47c563a7a786dd78fab0ab7ee24e8b5fd535a6ea13b161b303bb1fda14693aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119634674"
 ---
 # <a name="d3dx10createshaderresourceviewfromfile-function"></a>Функция D3DX10CreateShaderResourceViewFromFile
 
@@ -105,7 +105,7 @@ HRESULT D3DX10CreateShaderResourceViewFromFile(
 
 Возвращаемое значение является одним из значений, перечисленных в [кодах возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Список поддерживаемых форматов изображений см. в разделе [**\_ \_ \_ Формат файла изображения D3DX10**](d3dx10-image-file-format.md).
 
@@ -115,7 +115,7 @@ HRESULT D3DX10CreateShaderResourceViewFromFile(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>  |
 
 

@@ -4,12 +4,12 @@ ms.assetid: B8BA2154-2824-4573-AE71-853EB8AB911D
 title: Как задать время окончания воспроизведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65269260b1e40d7907f0233fad653deb9636848b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08c14145f798795dfeb8116195afad2f020eb4219b9c2529f96b8fa904f2e1d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466004"
 ---
 # <a name="how-to-set-the-playback-stop-time"></a>Как задать время окончания воспроизведения
 
@@ -179,7 +179,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

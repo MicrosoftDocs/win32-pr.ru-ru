@@ -4,12 +4,12 @@ ms.assetid: fc0900b4-f08b-4a93-bbc0-d3db067d7917
 title: Классы и интерфейсы RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34769b2c268bcdfe2becf9e759344d972092fe28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffd842219a23accc076ff7fdc8564ccb3ce0c472cb7e26ab036f1048456461f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589954"
 ---
 # <a name="realtimestylus-classes-and-interfaces"></a>Классы и интерфейсы RealTimeStylus
 
@@ -20,7 +20,7 @@ ms.locfileid: "103910751"
 
  
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "103910751"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

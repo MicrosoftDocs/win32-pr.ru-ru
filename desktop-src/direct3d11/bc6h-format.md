@@ -7,12 +7,12 @@ keywords:
 - DXGI_FORMAT_BC6H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92ea15e0275bc478c0708ce08f531d8888a3c84d
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 27422e177e98ecdc53b4152ba0514866f5ad75216e9ef789145d1af882a645d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633824"
 ---
 # <a name="bc6h-format"></a>Формат BC6H
 
@@ -25,7 +25,7 @@ ms.locfileid: "110335228"
 -   [Расширение знака для значений конечных точек](#sign-extension-for-endpoint-values)
 -   [Преобразование инверсии для значений конечной точки](#transform-inversion-for-endpoint-values)
 -   [Ункуантизатион конечных точек цвета](#unquantization-of-color-endpoints)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="about-bc6hdxgi_format_bc6h"></a>Сведения о формате BC6H/DXGI \_ \_ BC6H
 
@@ -102,7 +102,7 @@ decompress_bc6h(x, y, block)
 
 В таблице ниже указано число битов и значения для каждого из 14 возможных форматов для блоков BC6H. 
 
-| Режим | Индексы разделов | Секция | Конечные точки цвета                  | Биты режима      |
+| Режим | Индексы разделов | Partition (Раздел) | Конечные точки цвета                  | Биты режима      |
 |------|-------------------|-----------|----------------------------------|----------------|
 | 1    | 46 битов           | 5 битов    | 75 битов (10,555, 10,555, 10,555) | 2 бита (00)    |
 | 2    | 46 битов           | 5 битов    | 75 битов (7666, 7666, 7666)       | 2 бита (01)    |
@@ -151,7 +151,7 @@ decompress_bc6h(x, y, block)
 
 | Поле | Переменная          |
 |-------|-------------------|
-| М     | mode              |
+| m     | mode              |
 | d     | индекс фигуры       |
 | rw    | ендпт \[ 0 \] . Значение \[ 0\] |
 | rx    | ендпт \[ 0 \] . Б \[ 0\] |

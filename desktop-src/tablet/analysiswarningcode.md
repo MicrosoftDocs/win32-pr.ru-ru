@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: 651408678daa64788952b2706980968ca315abf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48d03c0f4c479ddf6a3f1f9f371bc13b889641994f86df75b107b17ca081a97a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660875"
 ---
 # <a name="analysiswarningcode-enumeration"></a>Перечисление Аналисисварнингкоде
 
@@ -192,25 +192,25 @@ typedef enum AnalysisWarningCode {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Аналисисварнингкоде \_ Баккграундексцептион** — это единственное значение кода предупреждения, которое требует повторного создания экземпляра объекта [**иинканализер**](iinkanalyzer.md) перед дальнейшим использованием.
 
 Другие предупреждения, например **аналисисварнингкоде \_ Инканалисисрекогнизеринитиализатионфаилед** и **аналисисварнингкоде \_ NoMatchingInkAnalysisRecognizerFound**, могут потребовать, чтобы объект [**IInkAnalyzer**](iinkanalyzer.md) использовал другой распознаватель.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

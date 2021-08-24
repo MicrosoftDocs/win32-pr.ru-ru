@@ -1,20 +1,20 @@
 ---
 title: Перечисления API клиентской оболочки
-description: В следующей таблице приведены общие сведения о перечислениях в интерфейсе прикладного программирования (API) для клиентской оболочки служба удаленного управления Windows (WinRM).
+description: в следующей таблице приведены общие сведения о перечислениях в интерфейсе прикладного программирования (API) для клиентской оболочки служба удаленного управления Windows (WinRM).
 ms.assetid: e38af6e4-069d-40e6-aebb-1ea1acf0bed4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b0c286b96c5f2d984cda390316d63ea88c1bd1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a4a84fb4dc5f72842072973e5c6f784b24f21189aa86ea4e19f2576d5da0f5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464574"
 ---
 # <a name="client-shell-api-enumerations"></a>Перечисления API клиентской оболочки
 
-В следующей таблице приведены общие сведения о перечислениях в интерфейсе прикладного программирования (API) для клиентской оболочки служба удаленного управления Windows (WinRM).
+в следующей таблице приведены общие сведения о перечислениях в интерфейсе прикладного программирования (API) для клиентской оболочки служба удаленного управления Windows (WinRM).
 
 
 
@@ -28,11 +28,11 @@ ms.locfileid: "104258623"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

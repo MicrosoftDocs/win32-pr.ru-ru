@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9effect.h
-ms.openlocfilehash: 2256e24daa6dc8b6e5da1528e9a5e5aefce8ec99
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a12541e9bfb33979b11f8198e218a3eb474f948aeb8c74982a5369eed782eaa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631154"
 ---
 # <a name="d3dxparameter_desc-structure"></a>\_Структура D3DXPARAMETER DESC
 
@@ -49,7 +49,7 @@ typedef struct D3DXPARAMETER_DESC {
 
 <dl> <dt>
 
-**Name**
+**Имя**
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](../winprog/windows-data-types.md)**
@@ -176,7 +176,7 @@ typedef struct D3DXPARAMETER_DESC {
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9effect. h</dt> </dl> |
 
 
 

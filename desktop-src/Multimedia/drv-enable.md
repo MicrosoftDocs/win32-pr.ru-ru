@@ -3,7 +3,7 @@ title: Сообщение DRV_ENABLE (Ммсистем. h)
 description: Включает драйвер. Драйвер должен инициализировать любые переменные и выбрать устройства с интерфейсом ввода-вывода.
 ms.assetid: 8aa36f3d-b36c-4460-859c-108a7a450ae5
 keywords:
-- DRV_ENABLE сообщения Windows мультимедиа
+- сообщение DRV_ENABLE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 569b4ca5f3d0dc5f439b1e2b0e25887ffd1da4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7ab74abf08380db97a15da22fa99d58d72b6aba124a430cad665f65bc94e26c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119526284"
 ---
 # <a name="drv_enable-message"></a>DRV \_ включить сообщение
 
@@ -40,13 +40,13 @@ ms.locfileid: "103989357"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметры *двдриверид*, *lParam1* и *lParam2* не используются.
 
 Драйверы считаются включенными с момента получения этого сообщения, пока они не будут отключены с помощью сообщения об [**\_ отключении DRV**](drv-disable.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,11 +54,11 @@ ms.locfileid: "103989357"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

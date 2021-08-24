@@ -3,7 +3,7 @@ title: Сообщение ICM_SETSTATE (VFW. h)
 description: Сообщение ICM \_ SETSTATE уведомляет драйверу о сжатии видео о необходимости установки состояния сжатия. Это сообщение можно отправить явно или с помощью макроса Иксетстате.
 ms.assetid: d1a91847-2893-4c8b-9ca1-02db71ec2c81
 keywords:
-- ICM_SETSTATE сообщения Windows мультимедиа
+- сообщение ICM_SETSTATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 230e0aaf3752016efd276d7d55624ee2abb4f8e0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ea6cd7aa0314520a30e293a8f029920c22b8baa58e995eed7ff9e5a96dd1b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525814"
 ---
 # <a name="icm_setstate-message"></a>\_Сообщение ICM SETSTATE
 
@@ -56,11 +56,11 @@ lParam = (DWORD_PTR) cb;
 
 Возвращает число байтов, используемых модулем сжатия в случае успешного или нулевого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения, используемые этим сообщением, являются частными и относятся к конкретному компрессору. Клиентские приложения должны использовать это сообщение только для восстановления сведений, ранее полученных с помощью сообщения [**ICM- \_ State**](icm-getstate.md) , и должны использовать параметр [**ICM \_ Configure**](icm-configure.md) для настройки драйвера сжатия видео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (DWORD_PTR) cb;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

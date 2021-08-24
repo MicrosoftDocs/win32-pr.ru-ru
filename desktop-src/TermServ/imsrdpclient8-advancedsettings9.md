@@ -26,12 +26,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5fce4c6f07b0c6c798d613e5312b3ae2b258c9c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8ea5d275a215d55bd324d18ad8b9b3b771838f07441cb492f39f420a1260c89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574374"
 ---
 # <a name="imsrdpclient8advancedsettings9-property"></a>Свойство IMsRdpClient8:: AdvancedSettings9
 
@@ -54,7 +54,7 @@ HRESULT get_AdvancedSettings9(
 
 Интерфейс [**IMsRdpClientAdvancedSettings8**](imsrdpclientadvancedsettings8.md) , представляющий объект Settings.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ HRESULT get_AdvancedSettings9(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

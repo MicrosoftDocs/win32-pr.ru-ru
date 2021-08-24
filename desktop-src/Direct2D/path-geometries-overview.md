@@ -5,18 +5,18 @@ ms.assetid: 38a290be-b915-4317-b9b1-0e49e40dc8ec
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 0189c46f50e2ccc9ecc4523a4bb6f34006e59139
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 5fb177cbbd82ef56a03ef2c8a6faa7ef6c11f7889423ce79102d11eb42090231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104550950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636162"
 ---
 # <a name="path-geometries-overview"></a>Общие сведения о геометрических контурах
 
 В этом разделе описывается использование географических объектов Direct2D Path для создания сложных рисунков. В него входят следующие разделы.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Геометрические контуры в Direct2D](#path-geometries-in-direct2d)
 -   [Использование ID2D1GeometrySink для заполнения геометрии контура](#using-an-id2d1geometrysink-to-populate-a-path-geometry)
 -   [Пример. Создание сложного рисунка](#example-create-a-complex-drawing)
@@ -25,9 +25,9 @@ ms.locfileid: "104550950"
     -   [Создание геометрического пути для Sun](#create-a-path-geometry-for-the-sun)
     -   [Создание геометрического пути для River](#create-a-path-geometry-for-the-river)
     -   [Отображение геометрических объектов пути на экране](#render-the-path-geometries-onto-the-display)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом обзоре предполагается, что вы знакомы с созданием базовых Direct2D приложений, как описано в разделе [Создание простого приложения Direct2D](direct2d-quickstart.md). Также предполагается, что вы знакомы с основными возможностями геометрических объектов Direct2D, как описано в [обзоре геометрических объектов](direct2d-geometries-overview.md).
 
@@ -380,7 +380,7 @@ pSink->EndFigure(D2D1_FIGURE_END_CLOSED);
 
 ![Иллюстрация River, горы и Sun с помощью геометрических контуров](images/path-geo-mnts.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

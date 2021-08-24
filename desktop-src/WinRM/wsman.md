@@ -4,8 +4,8 @@ description: Предоставляет методы и свойства, исп
 ms.assetid: 45895a4e-b7de-4469-ae78-6d1d3f9d6145
 ms.tgt_platform: multiple
 keywords:
-- Объект WSMan служба удаленного управления Windows
-- Объект WSMan служба удаленного управления Windows, описание
+- объект WSMan служба удаленного управления Windows
+- объект WSMan служба удаленного управления Windows, описание
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e02cb92b2d72d657791d4a16bd1e999b77645a67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d744a65a0114676cb4164188c5a688332f8136ee3fe2087c67df9b17b6e9509
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464504"
 ---
 # <a name="wsman-object"></a>Объект WSMan
 
-Предоставляет методы и свойства, используемые для создания сеанса, представленного объектом [**Session**](session.md) . Любой служба удаленного управления Windows операции требует создания [**сеанса**](session.md) , который подключается к удаленному компьютеру, [*базовому контроллеру управления*](windows-remote-management-glossary.md) (BMC) или локальному компьютеру. К операциям относятся получение, запись, перечисление или вызов методов.
+Предоставляет методы и свойства, используемые для создания сеанса, представленного объектом [**Session**](session.md) . любой служба удаленного управления Windows операции требует создания [**сеанса**](session.md) , который подключается к удаленному компьютеру, [*базовому контроллеру управления*](windows-remote-management-glossary.md) (BMC) или локальному компьютеру. К операциям относятся получение, запись, перечисление или вызов методов.
 
 ## <a name="members"></a>Элементы
 
@@ -161,13 +161,13 @@ ms.locfileid: "104414877"
 | Свойство                                            | Тип доступа          | Описание                                                                   |
 |:----------------------------------------------------|:---------------------|:------------------------------------------------------------------------------|
 | [**Команд**](wsman-commandline.md)<br/> | Только для чтения<br/> | Возвращает необработанную командную строку для текущего ведущего процесса.<br/> |
-| [**Ошибка**](wsman-error.md)<br/>             | Только для чтения<br/> | Возвращает сведения об ошибке.<br/>                                            |
+| [**План**](wsman-error.md)<br/>             | Только для чтения<br/> | Возвращает сведения об ошибке.<br/>                                            |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **WSMan** соответствует интерфейсам [**ивсман**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsman) и [**ивсманекс**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanex) . **WSMan** — это единственный объект, который можно создать напрямую с помощью функции [CreateObject](/previous-versions//xzysf6hc(v=vs.85)).
 
@@ -186,7 +186,7 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -208,13 +208,13 @@ strResource = "http://schemas.microsoft.com/wbem/wsman/1/wmi/Root/CIMv2/Win32_Op
 [API сценариев WinRM](winrm-scripting-api.md)
 </dt> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
-[Создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
+[создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
 </dt> <dt>
 
 [Получение данных с локального компьютера](obtaining-data-from-the-local-computer.md)

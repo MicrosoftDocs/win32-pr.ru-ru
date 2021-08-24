@@ -4,12 +4,12 @@ description: COM-объекты и интерфейсы
 ms.assetid: a3b78086-0f02-4b3f-a856-46bfcf4457f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a8c2b74f2b9741e41e7fe23226041f4c225bd85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d0a663b5d6e5966422927e37f1501924bf8ec8921210c9d38765153dc0d80fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119501554"
 ---
 # <a name="com-objects-and-interfaces"></a>COM-объекты и интерфейсы
 
@@ -25,16 +25,16 @@ COM использует слово *Interface* в понятном смысле
 -   [Указатели интерфейса и интерфейсы](interface-pointers-and-interfaces.md)
 -   [IUnknown и наследование интерфейсов](iunknown-and-interface-inheritance.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Интерфейсы](interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

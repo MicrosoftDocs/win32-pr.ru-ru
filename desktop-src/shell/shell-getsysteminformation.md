@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b9e021e767309007cfee2cfc78268fb7d7cea042
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 23ad48c673fb0c5925e796f77bd43c77f3abd0afd4511864a5b840214861f792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119660654"
 ---
 # <a name="shellgetsysteminformation-method"></a>Shell. Жетсистеминформатион, метод
 
@@ -100,7 +100,7 @@ ProcessorLevel
 
 **Integer**
 
-**Windows Vista и более поздние версии**. Уровень процессора. Возвращает 3, 4 или 5 для процессоров x386, x486 и Pentium-Level соответственно.
+**Windows Vista и более поздних версий**. Уровень процессора. Возвращает 3, 4 или 5 для процессоров x386, x486 и Pentium-Level соответственно.
 
 ProcessorSpeed
 
@@ -120,21 +120,21 @@ ProcessorArchitecture
 
 Объем установленной физической памяти в байтах.
 
-Следующие действия допустимы только в Windows XP.
+следующие действия допустимы только в Windows XP.
 
 ISO \_ Professional
 
 **Boolean**
 
-Задайте **значение true** , если операционная система является Windows XP Professional Edition. в противном случае — **значение false**.
+задайте **значение true** , если операционная система работает Windows XP Professional Edition. в противном случае — **значение false**.
 
 ISO \_ персональный
 
 **Boolean**
 
-Задайте **значение true** , если операционная система является Windows XP Home Edition. в противном случае — **значение false**.
+задайте **значение true** , если операционная система работает Windows XP Home Edition. в противном случае — **значение false**.
 
-Следующие действия применимы только в Windows XP и более поздних версиях.
+следующие действия допустимы только в Windows XP и более поздних версиях.
 
 ISO \_ домаинмембер
 
@@ -150,9 +150,9 @@ ISO \_ домаинмембер
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **жетсистеминформатион** для JScript и VBScript.
+в следующих примерах показано использование **жетсистеминформатион** для JScript и VBScript.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -191,15 +191,15 @@ ISO \_ домаинмембер
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

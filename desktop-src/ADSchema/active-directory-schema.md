@@ -7,12 +7,12 @@ keywords:
 - Схема Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4c3393a6da1b8d1bd2c2418084c8f7fc657732
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3259bf94049c877bb57cd575061cc1b447b8acb352613291e392b074deca6d39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105654307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702404"
 ---
 # <a name="active-directory-schema-ad-schema"></a>Схема Active Directory (схема AD)
 
@@ -38,7 +38,7 @@ ms.locfileid: "105654307"
 
  
 
-Если операционная система не указана в разделе, этот раздел не поддерживается в этой операционной системе. Например, если в разделе перечислены только Windows Server 2003 и Адам, то раздел не относится к Windows Server 2003 R2.
+Если операционная система не указана в разделе, этот раздел не поддерживается в этой операционной системе. например, если в разделе содержится только Windows Server 2003 и адам, то раздел не применяется к Windows Server 2003 R2.
 
 В следующих разделах содержатся подробные сведения об элементах схемы Active Directory.
 

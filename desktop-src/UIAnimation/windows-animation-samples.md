@@ -1,21 +1,21 @@
 ---
-title: Примеры анимации Windows
-description: Разделы, содержащиеся в этом разделе, содержат сведения о примерах кода, которые поддерживают документацию по диспетчеру анимации Windows.
+title: Windows Примеры анимации
+description: разделы, содержащиеся в этом разделе, содержат сведения о примерах кода, которые поддерживают документацию по Windowsию анимации.
 ms.assetid: 33b1770a-5acb-4ab5-999c-9663f4c075f0
 keywords:
-- Анимация Windows, примеры
+- Windows анимация Windows анимации, примеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2fe31e7fa12feab010bec3da710d4b2b80dd1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9119ab7333f1f5d74b9be9998ad26b36139f9a92d88fec856d3f4572d12f431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656154"
 ---
-# <a name="windows-animation-samples"></a>Примеры анимации Windows
+# <a name="windows-animation-samples"></a>Windows Примеры анимации
 
-Разделы, содержащиеся в этом разделе, содержат сведения о примерах кода, которые поддерживают документацию по диспетчеру анимации Windows.
+разделы, содержащиеся в этом разделе, содержат сведения о примерах кода, которые поддерживают документацию по Windowsию анимации.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -25,9 +25,9 @@ ms.locfileid: "104331643"
 |-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [Пример анимации на основе приложений](application-driven-animation-sample.md)<br/> |                                                                                                                     |
 | [Пример анимации на основе таймера](timer-driven-animation-sample.md)<br/>             |                                                                                                                     |
-| [Пользовательский пример интерполяции](custom-interpolator-sample.md)<br/>                   | Показывает, как использовать анимацию Windows с собственным пользовательским интерполяцией с Direct2D, используемой для отрисовки. <br/> |
-| [Образец макета сетки](grid-layout-sample.md)<br/>                                   | Показывает, как использовать анимацию Windows с помощью Direct2D для анимации сетки изображений. <br/>                         |
-| [Пример сравнения приоритетов](priority-comparison-sample.md)<br/>                   | Показывает, как использовать анимацию Windows с собственным сравнением приоритетов с помощью Direct2D для подготовки к просмотру.<br/>      |
+| [Пользовательский пример интерполяции](custom-interpolator-sample.md)<br/>                   | показывает, как использовать анимацию Windows с собственным пользовательским интерполяцией с Direct2D, используемой для отрисовки. <br/> |
+| [Образец макета сетки](grid-layout-sample.md)<br/>                                   | демонстрирует использование Windows анимации с помощью Direct2D для анимации сетки изображений. <br/>                         |
+| [Пример сравнения приоритетов](priority-comparison-sample.md)<br/>                   | показывает, как использовать анимацию Windows с собственным сравнением приоритетов с помощью Direct2D для подготовки к просмотру.<br/>      |
 
 
 
@@ -88,14 +88,14 @@ ms.locfileid: "104331643"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Руководством по разработке анимации Windows](windows-animation-developer-guide.md)
+[Windows Рекомендации по разработке анимации](windows-animation-developer-guide.md)
 </dt> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  
