@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7589a67b9a3b1454e3c65b17ad6f584ce0e655
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1c200e96024075d0c2880b294c197938a5ec0a6f3e1da4cb019d5ecd3ed32b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802774"
 ---
 # <a name="inapsystemhealthvalidatorvalidate-method"></a>Метод Инапсистемхеалсвалидатор:: Validate
 
@@ -91,7 +91,7 @@ COM-указатель на объект [**инапсистемхеалсвал
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы обеспечить обнаружение вторжений, SHV будет запрашивать проверку клиентского компьютера независимо от того, отправляет ли клиент [**сохрекуест**](/windows/win32/api/naptypes/ns-naptypes-soh) , предназначенный для SHV.
 
@@ -115,20 +115,20 @@ SHV должен возвращать TLV **сохаттрибутетипеко
 
 SHV не должен хранить ссылки на *запрос* или *обратный вызов* после завершения вызова асинкронаус.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
-| Header<br/>                   | <dl> <dt>Напсистемхеалсвалидатор. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
+| Заголовок<br/>                   | <dl> <dt>Напсистемхеалсвалидатор. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напсистемхеалсвалидатор. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

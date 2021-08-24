@@ -4,12 +4,12 @@ ms.assetid: 44002cae-154a-4938-a15c-456c293e94fb
 title: Валидатепродуктид таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b86cacfc4561fe9e4d94436724b42a78d3d8792
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68ae9ae5747deb9995c2e33a5c44541793442be8844b224c28c8a91e412cb188
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786664"
 ---
 # <a name="validateproductid-controlevent"></a>Валидатепродуктид таблице ControlEvent событие
 
@@ -25,11 +25,11 @@ ms.locfileid: "105673364"
 
 ## <a name="argument"></a>Аргумент
 
-Нет.
+Отсутствует.
 
 ## <a name="action-on-subscribers"></a>Действие на подписчиках
 
-Нет.
+Отсутствует.
 
 ## <a name="typical-use"></a>Типичные случаи использования
 

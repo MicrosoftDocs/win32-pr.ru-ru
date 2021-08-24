@@ -4,12 +4,12 @@ ms.assetid: 360d1c5a-82e7-c982-82ea-5b5c7d69bc25
 title: Отладка временных сбоев звука в XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 749c2ff69888f3411d86e13f95b84509587f22a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8856defc67bc9453b9d83f5ed369bfb96f48b8c2c16c92ea535a0c1b648402b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703624"
 ---
 # <a name="debugging-audio-glitches-in-xaudio2"></a>Отладка временных сбоев звука в XAudio2
 
@@ -20,7 +20,7 @@ ms.locfileid: "103911112"
 -   [Причины проблем с звуковым выходом или сбоев](#causes-of-audio-output-problems-or-glitches)
 -   [Как XAudio2 сообщает о проблемах](#how-xaudio2-reports-problems)
 -   [Подходы к устранению проблем](#approaches-to-fixing-problems)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="causes-of-audio-output-problems-or-glitches"></a>Причины проблем с звуковым выходом или сбоев
 
@@ -73,7 +73,7 @@ XAudio2 может сообщать о сбоях в отладочной сбо
     -   Сократите число вызовов XAudio2. Параметры звука обычно не нуждаются в обновлении для каждого кадра видео. Все равно 30 мс или достаточно. Необходимо устранить избыточные вызовы, такие как настройка тома несколько раз в ходе быстрой успешной операции.
     -   Сократите общую загрузку ЦП игры.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

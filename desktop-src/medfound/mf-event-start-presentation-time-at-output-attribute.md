@@ -4,12 +4,12 @@ ms.assetid: 02a8c542-b519-495e-9fb2-8db2f5384db7
 title: Атрибут MF_EVENT_START_PRESENTATION_TIME_AT_OUTPUT (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a588bc6604deed6c6865cd8283390d28e3ffd49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bd5949a73244eec26fb0390805c11f630291a470b2016b5a3575311261b72a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723184"
 ---
 # <a name="mf_event_start_presentation_time_at_output-attribute"></a>\_Событие MF \_ Начало \_ презентации \_ время показа \_ с \_ выходным атрибутом
 
@@ -21,7 +21,7 @@ ms.locfileid: "103910807"
 
 Рассматривать как значение **лонглонг** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если какие-либо объекты конвейера в предыдущей топологии буферизованных данных, это значение будет немного меньше значения атрибута [**\_ \_ \_ \_ смещения времени представления событий MF**](mf-event-presentation-time-offset-attribute.md) , так как приемники должны визуализировать буферизованные данные.
 
@@ -35,9 +35,9 @@ ms.locfileid: "103910807"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

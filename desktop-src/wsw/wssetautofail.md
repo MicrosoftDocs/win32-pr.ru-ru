@@ -3,7 +3,7 @@ title: Функция Вссетаутофаил (Вебсервицесдебу
 description: Задает следующую точку для внедрения сбоя. Это функция только для отладки.
 ms.assetid: b453dbc5-01ff-486d-8767-254b74cc5b6e
 keywords:
-- Веб-службы Вссетаутофаил Function для Windows
+- Веб-службы функции Вссетаутофаил для Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ba10b8b038f270f764b064fac1cb81e675f5239
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e2ae3ed731edce429aac78700d52d0e7504a5688d1bf35bbb9c64a5d34bc0a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838544"
 ---
 # <a name="wssetautofail-function"></a>Функция Вссетаутофаил
 
@@ -65,9 +65,9 @@ HRESULT WINAPI  WsSetAutoFail(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Вебсервицесдебуг. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Вебсервицесдебуг. h</dt> </dl> |
 
 
 

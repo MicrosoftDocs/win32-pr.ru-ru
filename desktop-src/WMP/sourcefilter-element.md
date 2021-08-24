@@ -3,7 +3,7 @@ title: Саурцефилтер, элемент
 description: Элемент Саурцефилтер содержит элементы, которые выбирают элементы из библиотеки.
 ms.assetid: c961990f-8c57-448d-b4dc-dcfe70300e5a
 keywords:
-- Проигрыватель Windows Media, элемент Саурцефилтер
+- проигрыватель Windows Media элемента саурцефилтер
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb43a9577c5fe8857b63067db5be90d314037b84
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14294f227e5ebe29e422d60a95734f7b93207880ea82ef9fb70ed3f7cf6dac4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763274"
 ---
 # <a name="sourcefilter-element"></a>Саурцефилтер, элемент
 
@@ -97,7 +97,7 @@ ms.locfileid: "105652140"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **саурцефилтер** выбирает элементы из библиотеки без учета размера результирующего набора. Элемент **Filter** , с другой стороны, ограничивает размер результирующего набора.
 
@@ -128,7 +128,7 @@ ms.locfileid: "105652140"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
@@ -145,7 +145,7 @@ ms.locfileid: "105652140"
 [**Элемент запроса**](queryset-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

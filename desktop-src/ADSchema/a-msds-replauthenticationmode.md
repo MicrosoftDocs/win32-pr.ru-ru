@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3b88c7e3223b946b56962b710b036ee6e0c36dc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ff624a9b7a1d1f678c748f79d3193b0b4b287026de1a669896c3e25d69f27ab0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803544"
 ---
 # <a name="ms-ds-repl-authentication-mode-attribute"></a>Атрибут ms-DS-REPL-Authentication-Mode
 
@@ -76,10 +76,10 @@ ms.locfileid: "104494019"
 |------------------------|-----------------------------------------------------|
 | Идентификатор ссылки                | \-                                                  |
 | MAPI-Id                | \-                                                  |
-| System-Only            | Неверно                                               |
-| Является однозначным       | True                                                |
-| Индексируется             | Неверно                                               |
-| В глобальном каталоге      | Неверно                                               |
+| System-Only            | Нет                                               |
+| Является однозначным       | Верно                                                |
+| Индексируется             | Нет                                               |
+| В глобальном каталоге      | Нет                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                        |
 | Range-Lower            | \-                                                  |
 | Range-Upper            | \-                                                  |

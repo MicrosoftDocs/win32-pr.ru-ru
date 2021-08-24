@@ -4,12 +4,12 @@ ms.assetid: 326d4423-37f9-4c91-8201-a054ce8439f0
 title: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c1372401cb0cc49750efbfa25701ec6965b6dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690042a615596fe5370016e00a61524722cccfdd59d62440b451c4f30033b262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838964"
 ---
 # <a name="wpd_functional_category_audio_capture"></a>Функция \_ \_ \_ отслеживания звука для ФУНКЦИОНАЛЬНой категории WPD \_
 
@@ -44,7 +44,7 @@ ms.locfileid: "104265966"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104265966"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

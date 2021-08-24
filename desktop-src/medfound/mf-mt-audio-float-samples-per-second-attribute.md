@@ -4,12 +4,12 @@ ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
 title: Атрибут MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6878ce1f8a1197bd556a9f54d70c4f18dc3f87f9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: abb6ff3fd443cdbb50cbc05a4b85032b61fa5cd69465917bb94a938e3b9b8881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723014"
 ---
 # <a name="mf_mt_audio_float_samples_per_second-attribute"></a>\_ \_ \_ Выборка аудио с плавающей точкой MF \_ \_ в \_ секунду для атрибута
 
@@ -23,15 +23,15 @@ ms.locfileid: "108087642"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

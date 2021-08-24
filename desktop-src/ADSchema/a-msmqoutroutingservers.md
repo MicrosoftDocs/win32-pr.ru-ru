@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc2265b2d809b7a73cd19faace87473552471a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bd36fa89ab33ac7757ed4cf14673d33bc32fc1495f95102454fc918b8f21c4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762444"
 ---
 # <a name="msmq-out-routing-servers-attribute"></a>Атрибут MSMQ-out-Routing-Servers
 
@@ -60,7 +60,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -81,7 +81,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -102,7 +102,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -123,7 +123,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -144,7 +144,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |
@@ -165,7 +165,7 @@ DN-ссылки на серверы маршрутизации MSMQ, через 
 | System-Only            | Неверно                                                        |
 | Является однозначным       | Неверно                                                        |
 | Индексируется             | Неверно                                                        |
-| В глобальном каталоге      | True                                                         |
+| В глобальном каталоге      | Верно                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                 |
 | Range-Lower            | \-                                                           |
 | Range-Upper            | \-                                                           |

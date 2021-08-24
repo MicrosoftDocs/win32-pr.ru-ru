@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 094c745486526caa870a500019de3aa819b6fe5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b75d3d3ee8ba710b0b0ed4755e5ee01309f955bcc1658145dc1d42fe3b9e1ed8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802424"
 ---
 # <a name="freerepairinfoexs-function"></a>Функция Фрирепаиринфоексс
 
@@ -45,13 +45,13 @@ VOID FreeRepairInfoExs(
 *пинфо* \[ окне\]
 </dt> <dd>
 
-Тип: **[**репаиринфоекс**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex) \** _
+Тип: **[ **репаиринфоекс**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex)\***
 
 Массив структур. Выделенная память, на которую указывают эти структуры, будет освобождена.
 
 </dd> <dt>
 
-_RepairCount * 
+*репаиркаунт* 
 </dt> <dd>
 
 Тип: **ulong**
@@ -73,19 +73,19 @@ _RepairCount *
 
 Эта функция не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

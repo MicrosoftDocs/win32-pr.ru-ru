@@ -4,12 +4,12 @@ ms.assetid: 6f83ab7e-8583-4872-b5d9-91ce227a7761
 title: System. Calendar. Рекуиредаттендинамес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bfc10fd4bd1daa15941c93230631d523f3b90f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8786ed8ec1604de12e533ed7177d9667c2196a27f37de631a07b0877bb39bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823474"
 ---
 # <a name="systemcalendarrequiredattendeenames"></a>System. Calendar. Рекуиредаттендинамес
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

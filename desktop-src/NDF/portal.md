@@ -4,12 +4,12 @@ description: Инфраструктура диагностики сети (NDF) 
 ms.assetid: 61dfb66b-4bc6-43a9-ad61-698f5cd67f4a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0342ee4cb285f0a0f1c76c74b3bdc5b412b07e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2397331e76fb5aa85478b6ab516216f2e0b7fb05e115ccdbebd0daa6565c8674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801914"
 ---
 # <a name="network-diagnostics-framework"></a>Инфраструктура диагностики сети
 
@@ -40,7 +40,7 @@ NDF доступен для компьютеров под управлением
 | [О NDF](about-ndf.md)<br/>                                       | Общие сведения о технологии NDF.<br/>                                                                                                                                             |
 | [Использование NDF](using-ndf.md)<br/>                                       | Содержит сведения и примеры использования функций NDF, а также способы расширения этих функций.<br/>                                                                                    |
 | [Справочник по NDF](ndf-reference.md)<br/>                               | Предоставляет сведения о перечислениях, функциях, интерфейсах и структурах, поддерживающих использование NDF, а также сведения о расширяемых вспомогательных классах, предоставляемых корпорацией Майкрософт.<br/> |
-| [Трассировка сети в Windows 7](network-tracing-in-windows-7.md)<br/> | Обсуждение трассировки сети и средств, используемых для устранения неполадок.<br/>                                                                                                                               |
+| [трассировка сети в Windows 7](network-tracing-in-windows-7.md)<br/> | Обсуждение трассировки сети и средств, используемых для устранения неполадок.<br/>                                                                                                                               |
 
 
 

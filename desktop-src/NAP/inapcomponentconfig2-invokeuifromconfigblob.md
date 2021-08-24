@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54cc1efaf7da3434e1aff10d57c2e175481a3d2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45d85e0506b8adf084b65a13a117a9dea3856fcff2e73f65a229bdb31b283fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803164"
 ---
 # <a name="inapcomponentconfig2invokeuifromconfigblob-method"></a>Метод INapComponentConfig2:: Инвокеуифромконфигблоб
 
@@ -96,26 +96,26 @@ HRESULT InvokeUIFromConfigBlob(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение \_ ОК, если успешно, или один из стандартных кодов ошибок Windows.
+возвращает значение \_ ок, если успешно, или один из стандартных кодов ошибок Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если используется для локального компьютера, эту функцию можно использовать для каждой конфигурации SHV политики. Он предоставляет способ вызова пользовательского интерфейса SHV и изменения существующей конфигурации SHV.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напкоммон. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

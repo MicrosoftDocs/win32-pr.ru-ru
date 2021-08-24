@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f0dcfb44fdcd035ca47cbe3056da2a081ef2ae07
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfdf044adf5623a7fafd424f6051105bf83d3d0f5f4338b16b7bf3a7fe07126c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820974"
 ---
 # <a name="cim_nfs-class"></a>CIM, \_ класс NFS
 
@@ -113,7 +113,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ NFS** имеет следующие свойства.
 
@@ -236,7 +236,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -343,7 +343,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**Расширенный код UNIX** (6)
+**расширенный код UNIX** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -575,7 +575,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -813,7 +813,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ NFS CIM** является производным от [**CIM \_ ремотефилесистем**](cim-remotefilesystem.md).
 
@@ -821,7 +821,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -835,7 +835,7 @@ class CIM_NFS : CIM_RemoteFileSystem
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

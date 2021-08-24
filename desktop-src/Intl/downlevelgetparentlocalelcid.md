@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: b34f30425147057efe8039cc36514d699199c9a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64cefdf4cc2a2c522a8295ab44e1810f0364d706d378979637700a7a3b72343a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765444"
 ---
 # <a name="downlevelgetparentlocalelcid-function"></a>Функция ДовнлевелжетпарентлокалелЦид
 
 Получает [идентификатор локали](locale-identifiers.md) для родительского элемента поддерживаемого языкового стандарта.
 
 > [!Note]  
-> Эта функция используется только приложениями, работающими в операционных системах, предшествующих Windows Vista. Для его использования требуется загружаемый пакет. Приложения, которые работают только в Windows Vista и более поздних версиях, должны вызывать [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) с *LCType* , установленным в [locale \_ спарент](locale-sparent.md).
+> эта функция используется только приложениями, работающими в операционных системах, предшествующих Windows Vista. Для его использования требуется загружаемый пакет. приложения, которые работают только в Windows Vista и более поздних версиях, должны вызывать [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) с *LCType* , установленным в [LOCALE \_ спарент](locale-sparent.md).
 
  
 
@@ -53,7 +53,7 @@ LCID DownlevelGetParentLocaleLCID(
 -   [система языкового стандарта \_ \_ по умолчанию](locale-system-default.md)
 -   [\_Пользовательская Национальная настройка \_ по умолчанию](locale-user-default.md)
 
-**Windows Vista и более поздние версии:** Также поддерживаются следующие пользовательские идентификаторы языкового стандарта.
+**Windows Vista и более поздних версий:** Также поддерживаются следующие пользовательские идентификаторы языкового стандарта.
 
 -   [Пользовательский ЯЗЫКовой стандарт \_ \_ по умолчанию](locale-custom-constants.md)
 -   [Пользовательский пользовательский интерфейс языкового стандарта \_ \_ \_ по умолчанию](locale-custom-constants.md)
@@ -67,25 +67,25 @@ LCID DownlevelGetParentLocaleLCID(
 
 -   Ошибка \_ : недопустимый \_ параметр. Любое из значений параметров было недопустимым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Требуемый заголовочный файл и библиотека DLL являются частью скачивания "API сопоставления данных нижнего уровня Microsoft NLS", доступного в [центре загрузки Майкрософт](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Распространяемые компоненты<br/>          | Интерфейсы API сопоставления данных нижнего уровня Microsoft NLS в Windows Кспор Windows Vista<br/>     |
-| Header<br/>                   | <dl> <dt>Нлсдл. h</dt> </dl>    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Распространяемые компоненты<br/>          | api сопоставления данных нижнего уровня Microsoft NLS в Windows кспор Windows Vista<br/>     |
+| Заголовок<br/>                   | <dl> <dt>Нлсдл. h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

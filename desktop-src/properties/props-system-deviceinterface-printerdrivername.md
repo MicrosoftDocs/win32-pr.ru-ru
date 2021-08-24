@@ -4,12 +4,12 @@ ms.assetid: 82366686-8661-466b-881D-EBB2E03993C5
 title: System. Девицеинтерфаце. Принтердривернаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c06e9bc6fa5fcbb4a6dcf34b872417c24b8663b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 045cdfc276a952a4255fc66bdaf1387c9559b4af874a69c1a9af7fd89634bcdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823064"
 ---
 # <a name="systemdeviceinterfaceprinterdrivername"></a>System. Девицеинтерфаце. Принтердривернаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

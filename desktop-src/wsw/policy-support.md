@@ -3,17 +3,17 @@ title: Поддержка политик
 description: Всутил обрабатывает политику, указанную во входных метаданных, и создает вспомогательные подпрограммы для поддержки модели службы.
 ms.assetid: 9c4fb485-2392-4117-b4a7-7a51786d60b9
 keywords:
-- Поддержка политик — веб-службы для Windows
+- Веб-службы поддержки политик для Windows
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aafcd481fd4ea8a8cc6782a5dc50655fb9255c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 347265d4081216a227b5040fc73f272181bdccfe09ca7500b81078a6a57ed7bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838644"
 ---
 # <a name="policy-support"></a>Поддержка политик
 
@@ -248,7 +248,7 @@ __in WS_HEAP* heap,
 
 
 
- 
+ 
 
 Например, [**\_ \_ \_ \_ \_ тип шаблона привязки SSL HTTP WS**](/windows/desktop/api/WebServices/ne-webservices-ws_binding_template_type) указывает, что входная политика для привязки указывает транспорт HTTP и [**\_ \_ \_ \_ привязку безопасности транспорта WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Приложению необходимо заполнить структуру [**\_ \_ \_ \_ шаблона привязки SSL HTTP WS**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_binding_template) перед вызовом вспомогательных подпрограмм, а описание политики сопоставления — [**\_ \_ \_ \_ Описание политики WS HTTP SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_policy_description). В частности, раздел Binding в WSDL содержит следующие сегменты:
 
@@ -330,9 +330,9 @@ __in WS_HEAP* heap,
 -   [**\_ \_ \_ \_ \_ Описание политики привязки безопасности сообщений \_ имени пользователя WS**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_policy_description)
 -   [**\_ \_ \_ \_ шаблон привязки безопасности сообщений имени пользователя WS \_**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_template)
 
- 
+ 
 
- 
+ 
 
 
 

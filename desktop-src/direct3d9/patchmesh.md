@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\patchmesh.htm
 title: патчмеш
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fabb3846246c7fb76a7146baf0b30bd9730fe24b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 7b3bc3c243fb42014ba18aac134ea008d5818e249a601858be6724d5a0fd7310
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746924"
 ---
 # <a name="patchmesh"></a>патчмеш
 
@@ -37,7 +37,7 @@ template PatchMesh
 
 Исправления используют вершины в массиве вершин в качестве контрольных точек для каждого исправления. Это устаревший шаблон. Последний шаблон сетки исправлений — [**PatchMesh9**](patchmesh9.md).
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

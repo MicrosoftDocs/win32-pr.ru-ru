@@ -4,12 +4,12 @@ ms.assetid: 4c33bd83-2654-cd6f-ea6c-bbc0d5872638
 title: 'Руководство: создание цепи эффектов'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d58186b623dca04da99001a29e54cf3ecc39fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46abd6372fe07f71d75a4963f6617cdeda15ecf8390e3142fcf110029bd8f6dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838416"
 ---
 # <a name="how-to-create-an-effect-chain"></a>Руководство: создание цепи эффектов
 
@@ -129,7 +129,7 @@ ms.locfileid: "104154615"
 
     Параметры для [**дисаблиффект**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-disableeffect) и [**енаблиффект**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2voice-enableeffect) указывают, какие действия в цепочке следует включить или отключить.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

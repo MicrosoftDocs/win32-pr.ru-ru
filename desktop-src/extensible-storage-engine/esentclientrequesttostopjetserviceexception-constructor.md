@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 888484650a604389679f169ae6f62cca867d986a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8853b3c1a3d0b0c2bb3e5592b1330efe9dca3204d1ddaad24414c2883eb115fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785744"
 ---
 # <a name="esentclientrequesttostopjetserviceexception-constructor"></a>Конструктор Есентклиентрекуесттостопжетсервицеексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentClientRequestToStopJetServiceException()
 public EsentClientRequestToStopJetServiceException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

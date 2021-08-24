@@ -4,12 +4,12 @@ description: Перечисления NLM
 ms.assetid: 15a65dd0-f088-4473-a2d2-757da413b6e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cb21ebabd1dddae23e4d8a9526bafeb3b2f620
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2c8bc60d3ed522217c6ee583be40f59bc8d252ac2ef3beb4b81cc5c9b5c0796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801524"
 ---
 # <a name="nlm-enumerations"></a>Перечисления NLM
 
@@ -17,7 +17,7 @@ ms.locfileid: "104532477"
 
 | Перечисление                                                                 | Описание                                                                                |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**\_стоимость подключения к NLM \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_cost)                        | Указывает набор уровней затрат и флагов затрат, поддерживаемых в API-интерфейсах Windows 8.            |
+| [**\_стоимость подключения к NLM \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_cost)                        | указывает набор уровней затрат и флагов затрат, поддерживаемых в Windows 8ных api-интерфейсах затрат.            |
 | [**\_ \_ изменение свойства подключения \_ NLM**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_property_change) | Определяет изменения, внесенные в свойства сетевого подключения.                            |
 | [**\_Подключение к NLM**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connectivity)                               | Предоставляет уведомление при изменении параметров, связанных с подключением.               |
 | [**\_тип домена \_ NLM**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_domain_type)                                | Указывает тип домена сети.                                                    |
@@ -29,11 +29,11 @@ ms.locfileid: "104532477"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

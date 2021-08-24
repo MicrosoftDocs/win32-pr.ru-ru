@@ -4,12 +4,12 @@ ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: Эффекты конверта тома
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9364b88b1928e533a031f0700cb8a2c44bc9822d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4ecb66914063596849522a0e4bb340fc84f7d80e5ea1113bfdae2d32e855d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746954"
 ---
 # <a name="volume-envelope-effect"></a>Эффекты конверта тома
 
@@ -36,7 +36,7 @@ ms.locfileid: "105683768"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый объект на временной шкале может иметь не более одного воздействия на конверт. В композиции или группе перед любыми звуковыми эффектами применяется конверт тома, который не зависит от его приоритета. В источнике или дорожке воздействие на том применяется в соответствии с приоритетом.
 

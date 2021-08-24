@@ -3,7 +3,7 @@ title: Атрибут Усерплайкаунтморнинг
 description: Атрибут Усерплайкаунтморнинг — это число воспроизведений элемента между 06 00 и 12 00 по местному времени.
 ms.assetid: df942657-c40a-4632-8e43-e226609a95d3
 keywords:
-- Усерплайкаунтморнинг атрибут Windows Media Player
+- проигрыватель Windows Media атрибута усерплайкаунтморнинг
 topic_type:
 - apiref
 api_name:
@@ -12,25 +12,25 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8178b3f05fb61601a46932461c235088f0b14daa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e68fb15fca4425611be8a923dc37928789d1619f3923506a7a459fbc9c4b1c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762124"
 ---
 # <a name="userplaycountmorning-attribute"></a>Атрибут Усерплайкаунтморнинг
 
 Атрибут **усерплайкаунтморнинг** — это число воспроизведений элемента между 06:00 и 12:00 по местному времени.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -42,7 +42,7 @@ ms.locfileid: "105708412"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 

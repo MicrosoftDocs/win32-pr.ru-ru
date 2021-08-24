@@ -4,12 +4,12 @@ description: В этом разделе описываются возможно�
 ms.assetid: 6EF38EB9-71CB-4591-AAE2-F3FFC23E73B8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e13620fe81f3c1e7d3de1589f82171667834a26
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37a42c9e8868cd4474df69ef6b1bf4dfafd8b5f656bafeb630510b6426214a12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743844"
 ---
 # <a name="hlsl-shader-model-51"></a>Модель шейдера HLSL 5,1
 
@@ -30,7 +30,7 @@ ms.locfileid: "104487825"
 
 Дополнительные сведения о синтаксисе изменений в языке шейдера см. в [модели шейдера 5,1](shader-model-5-1.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

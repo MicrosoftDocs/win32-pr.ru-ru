@@ -3,7 +3,7 @@ title: Сообщение ICM_COMPRESS_GET_FORMAT (VFW. h)
 description: Сообщение ICM \_ \_ Get \_ Format запрашивает выходной формат сжатых данных из драйвера сжатия видео. Это сообщение можно отправить явно или с помощью макроса Иккомпрессжетформат.
 ms.assetid: ac12d415-bad5-4838-b206-09c8097d3fd9
 keywords:
-- ICM_COMPRESS_GET_FORMAT сообщения Windows мультимедиа
+- сообщение ICM_COMPRESS_GET_FORMAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d096ceafa382bdbae5e4efe16975b3518735e773
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ac1bf9b3c9a3ae0535da008786bf8baef19c8b51e27446b84e4b95805a1c4a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785034"
 ---
 # <a name="icm_compress_get_format-message"></a>ICM \_ сжимать \_ Получение \_ формата сообщения
 
@@ -58,11 +58,11 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 
 Если *лпбиаутпут* имеет ненулевое значение, функция ВОЗВРАЩАЕТ значение ицерр \_ ОК в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если *лпбиаутпут* имеет ненулевое значение, драйвер должен заполнить структуру [**битмапинфо**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) с выходным форматом по умолчанию, соответствующим формату входных данных, указанному для *лпбиинпут*. Если программа сжатия может создать несколько форматов, то форматом по умолчанию должен быть тот, который сохраняет максимальный объем информации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ lParam = (DWORD_PTR) (LPVOID) lpbiOutput;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

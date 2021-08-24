@@ -4,12 +4,12 @@ ms.assetid: 6205e0c9-41bf-49a4-86e2-1d6bef3e984c
 title: System. Contact. Примаряддрессстрит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d05ead21aabe1216742ebe859a591ebfe543b95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f29a8ae6ae01cfcebdb95bbf1655aa750754497e292f044c2d491b0e81902422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823144"
 ---
 # <a name="systemcontactprimaryaddressstreet"></a>System. Contact. Примаряддрессстрит
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

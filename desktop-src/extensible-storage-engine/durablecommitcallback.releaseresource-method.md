@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 634dd081513e576c7aabaac17cc5f9d207a8769f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758c27b1b3a67b91b7921276ec26e9c9776b65255c4cfa88d32b839f9950c2af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725274"
 ---
 # <a name="durablecommitcallbackreleaseresource-method"></a>Дураблекоммиткаллбакк. Релеасересаурце, метод
 
@@ -52,11 +52,11 @@ Me.ReleaseResource()
 protected override void ReleaseResource()
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Не пытайтесь присвоить параметру экземпляра значение null, так как обратный вызов удаляется после Жеттерм, а обратный вызов не может быть установлен после Жеттерм.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

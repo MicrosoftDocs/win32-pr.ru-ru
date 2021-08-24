@@ -4,12 +4,12 @@ ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Функции управления памятью
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: a203583016a127a550f609068df8e86da384fa34
-ms.sourcegitcommit: 43aef65e6563a56f35c019c5202827ab65772186
+ms.openlocfilehash: 635fa59b6a5b6a549438d8bfed71781d6d9e6fa6a9d2c12524684ded28a0f3df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "103797232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822194"
 ---
 # <a name="memory-management-functions"></a>Функции управления памятью
 
@@ -66,18 +66,18 @@ ms.locfileid: "103797232"
 | [**креатефилемаппинга**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла. |
 | [**креатефилемаппингв**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла. |
 | [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла. Можно указать предпочитаемый узел NUMA для физической памяти в качестве расширенного параметра; см. параметр *екстендедпараметерс* . |
-| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла из приложения Магазина Windows. |
+| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла из приложения магазина Windows. |
 | [**креатефилемаппингнума**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Создает или открывает именованный или безымянный объект сопоставления файлов для указанного файла и указывает узел NUMA для физической памяти. |
 | [**флушвиевоффиле**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Записывает на диск диапазон байтов в сопоставленном представлении файла. |
 | [**жетмаппедфиленаме**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) | Проверяет, находится ли указанный адрес в размещенном в памяти файле в адресном пространстве указанного процесса. Если это так, функция возвращает имя отображенного в память файла. |
-| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | Сопоставляет представление сопоставления файлов с адресным пространством вызывающего процесса. |
-| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | Сопоставляет представление файла или раздела с файлом подкачки в адресном пространстве указанного процесса. |
-| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Сопоставляет представление файла или раздела с файлом подкачки в адресном пространстве указанного процесса. |
-| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Сопоставляет представление сопоставления файлов с адресным пространством вызывающего процесса из приложения Магазина Windows. |
-| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | Сопоставляет представление сопоставления файлов с адресным пространством вызывающего процесса. Вызывающий объект может дополнительно указать рекомендуемый адрес памяти для представления. |
-| [**мапвиевоффиликснума**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Сопоставляет представление сопоставления файлов с адресным пространством вызывающего процесса и указывает узел NUMA для физической памяти. |
-| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Сопоставляет представление сопоставления файлов с адресным пространством вызывающего процесса из приложения Магазина Windows. |
-| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Сопоставляет представление файла или раздела с файлом подкачки в адресном пространстве указанного процесса. |
+| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | Карты представление сопоставления файлов в адресное пространство вызывающего процесса. |
+| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | Карты представление файла или раздела с резервным файлом на диске в адресное пространство указанного процесса. |
+| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Карты представление файла или раздела с резервным файлом на диске в адресное пространство указанного процесса. |
+| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Карты представление сопоставления файлов в адресное пространство вызывающего процесса из приложения для магазина Windows. |
+| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | Карты представление сопоставления файлов в адресное пространство вызывающего процесса. Вызывающий объект может дополнительно указать рекомендуемый адрес памяти для представления. |
+| [**мапвиевоффиликснума**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Карты представление сопоставления файлов в адресное пространство вызывающего процесса и указывает узел NUMA для физической памяти. |
+| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Карты представление сопоставления файлов в адресное пространство вызывающего процесса из приложения для магазина Windows. |
+| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Карты представление файла или раздела с резервным файлом на диске в адресное пространство указанного процесса. |
 | [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | Открывает именованный объект сопоставления файлов. |
 | [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | Открывает именованный объект сопоставления файлов. |
 | [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | Отменяет сопоставление сопоставленного представления файла с адресным пространством вызывающего процесса. |
@@ -93,8 +93,8 @@ ms.locfileid: "103797232"
 | [**аллокатеусерфисикалпажес**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages) | Выделяет страницы физической памяти, которые должны быть сопоставлены и отменяться в любой области расширений AWE процесса. |
 | [**аллокатеусерфисикалпажеснума**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma) | Выделяет страницы физической памяти, которые должны быть сопоставлены и не сопоставлены в любом регионе AWE процесса, и указывает узел NUMA для физической памяти. |
 | [**фриусерфисикалпажес**](/windows/win32/api/memoryapi/nf-memoryapi-freeuserphysicalpages) | Освобождает страницы физической памяти, выделенные ранее с помощью [**аллокатеусерфисикалпажес**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages). |
-| [**мапусерфисикалпажес**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | Сопоставляет ранее выделенные страницы физической памяти по указанному адресу в области AWE. |
-| [**мапусерфисикалпажесскаттер**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | Сопоставляет ранее выделенные страницы физической памяти по указанному адресу в области AWE. |
+| [**мапусерфисикалпажес**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | Карты ранее выделенных страниц физической памяти по указанному адресу в области AWE. |
+| [**мапусерфисикалпажесскаттер**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | Карты ранее выделенных страниц физической памяти по указанному адресу в области AWE. |
 
 ## <a name="heap-functions"></a>Функции кучи
 
@@ -148,19 +148,19 @@ ms.locfileid: "103797232"
 
 ## <a name="global-and-local-functions"></a>Глобальные и локальные функции
 
-См. также [глобальные и локальные функции](global-and-local-functions.md). Эти функции предоставляются для обеспечения совместимости с 16-разрядной ОС Windows и используются с платформа динамических данных Exchange (DDE), функциями буфера обмена и объектами данных OLE. Если в документации специально не указано, что следует использовать глобальную или локальную функцию, новые приложения должны использовать соответствующую [функцию кучи](heap-functions.md) с маркером, возвращаемым функцией [**жетпроцесшеап**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap). Для эквивалентной функциональности глобальной или локальной функции установите для параметра *dwFlags* функции кучи значение 0.
+См. также [глобальные и локальные функции](global-and-local-functions.md). эти функции предоставляются для обеспечения совместимости с 16-разрядными Windows и используются с платформа динамических данных Exchange (DDE), функциями буфера обмена и объектами данных OLE. Если в документации специально не указано, что следует использовать глобальную или локальную функцию, новые приложения должны использовать соответствующую [функцию кучи](heap-functions.md) с маркером, возвращаемым функцией [**жетпроцесшеап**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap). Для эквивалентной функциональности глобальной или локальной функции установите для параметра *dwFlags* функции кучи значение 0.
 
 | Функция | Описание | Соответствующая функция кучи |
 |-|-|-|
 | [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [ **локалаллок**](/windows/desktop/api/WinBase/nf-winbase-localalloc) | Выделяет указанное число байтов из кучи. | [**хеапаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) |
-| [**Глобалдискард**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard), [ **локалдискард**](/windows/win32/api/minwinbase/nf-minwinbase-localdiscard) | Отменяет указанный глобальный блок памяти. | Не применяется |
-| [**Глобалфлагс**](/windows/desktop/api/WinBase/nf-winbase-globalflags), [ **локалфлагс**](/windows/desktop/api/WinBase/nf-winbase-localflags) | Возвращает сведения об указанном объекте глобальной памяти. | Не применяется Используйте [**хеапвалидате**](/windows/desktop/api/HeapApi/nf-heapapi-heapvalidate) для проверки кучи. |
+| [**Глобалдискард**](/windows/desktop/api/WinBase/nf-winbase-globaldiscard), [ **локалдискард**](/windows/win32/api/minwinbase/nf-minwinbase-localdiscard) | Отменяет указанный глобальный блок памяти. | Неприменимо. |
+| [**Глобалфлагс**](/windows/desktop/api/WinBase/nf-winbase-globalflags), [ **локалфлагс**](/windows/desktop/api/WinBase/nf-winbase-localflags) | Возвращает сведения об указанном объекте глобальной памяти. | Неприменимо. Используйте [**хеапвалидате**](/windows/desktop/api/HeapApi/nf-heapapi-heapvalidate) для проверки кучи. |
 | [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree), [ **функции LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) | Освобождает указанный объект глобальной памяти. | [**хеапфри**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree) |
-| [**Глобалхандле**](/windows/desktop/api/WinBase/nf-winbase-globalhandle), [ **локалхандле**](/windows/desktop/api/WinBase/nf-winbase-localhandle) | Извлекает маркер, связанный с указанным указателем, в глобальный блок памяти. Эта функция должна использоваться только с функциями OLE и буфера обмена, которым он необходим. | Не применяется |
-| [**Глобаллокк**](/windows/desktop/api/WinBase/nf-winbase-globallock), [ **локаллокк**](/windows/desktop/api/WinBase/nf-winbase-locallock) | Блокирует объект глобальной памяти и возвращает указатель на первый байт блока памяти объекта. | Не применяется |
+| [**Глобалхандле**](/windows/desktop/api/WinBase/nf-winbase-globalhandle), [ **локалхандле**](/windows/desktop/api/WinBase/nf-winbase-localhandle) | Извлекает маркер, связанный с указанным указателем, в глобальный блок памяти. Эта функция должна использоваться только с функциями OLE и буфера обмена, которым он необходим. | Неприменимо. |
+| [**Глобаллокк**](/windows/desktop/api/WinBase/nf-winbase-globallock), [ **локаллокк**](/windows/desktop/api/WinBase/nf-winbase-locallock) | Блокирует объект глобальной памяти и возвращает указатель на первый байт блока памяти объекта. | Неприменимо. |
 | [**LocalLock**](/windows/desktop/api/WinBase/nf-winbase-globalrealloc), [ **локалреаллок**](/windows/desktop/api/WinBase/nf-winbase-localrealloc) | Изменяет размер или атрибуты указанного объекта глобальной памяти. | [**хеапреаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heaprealloc) |
 | [**Глобалсизе**](/windows/desktop/api/WinBase/nf-winbase-globalsize), [ **локалсизе**](/windows/desktop/api/WinBase/nf-winbase-localsize) | Извлекает текущий размер указанного объекта глобальной памяти. | [**хеапсизе**](/windows/desktop/api/HeapApi/nf-heapapi-heapsize) |
-| [**Глобалунлокк**](/windows/desktop/api/WinBase/nf-winbase-globalunlock), [ **локалунлокк**](/windows/desktop/api/WinBase/nf-winbase-localunlock) | Уменьшает счетчик блокировок, связанный с объектом памяти. Эта функция должна использоваться только с функциями OLE и буфера обмена, которым он необходим. | Не применяется |
+| [**Глобалунлокк**](/windows/desktop/api/WinBase/nf-winbase-globalunlock), [ **локалунлокк**](/windows/desktop/api/WinBase/nf-winbase-localunlock) | Уменьшает счетчик блокировок, связанный с объектом памяти. Эта функция должна использоваться только с функциями OLE и буфера обмена, которым он необходим. | Неприменимо. |
 
 ## <a name="bad-memory-functions"></a>Неправильные функции памяти
 

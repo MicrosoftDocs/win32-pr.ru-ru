@@ -1,15 +1,15 @@
 ---
 title: Примеры WPD
-description: 'Windows SDK предоставляет два примера WPD: Впдаписампле и Впдсервицеаписампле. Оба являются классическими приложениями командной строки.'
+description: 'Windows SDK предоставляет два примера WPD: впдаписампле и впдсервицеаписампле. Оба являются классическими приложениями командной строки.'
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2be9ac6806f12eebcd8cdb361010148e31e56dbe
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 11d8dbea77d079f2f0b8c52b741c695c0a74d4b17a3fd2f1be22c02e03557346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704404"
 ---
 # <a name="wpd-samples"></a>Примеры WPD
 
@@ -23,7 +23,7 @@ Windows SDK предоставляет два примера: [впдаписа�
 
 <dl> <dt>
 
-[**Портативные устройства Windows**](/windows/desktop/windows-portable-devices)
+[**Windows Переносные устройства**](/windows/desktop/windows-portable-devices)
 </dt> </dl>
 
  

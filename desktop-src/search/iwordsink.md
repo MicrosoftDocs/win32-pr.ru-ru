@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 2eab8eee4f7b07b0f712e68d7ad05b970506b00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 109a852f37f3118cd1012c7385a4f9071fdd2f8867f57036e7607c20fd2dadbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822314"
 ---
 # <a name="iwordsink-interface"></a>Интерфейс Ивордсинк
 
@@ -48,9 +48,9 @@ ms.locfileid: "105692180"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Поиск Windows создает и инициализирует экземпляры объекта **ивордсинк** . Объект **ивордсинк** получает параметр *фкуери* во время инициализации и использует этот параметр для определения контекста разбиения по словам, в котором используется объект.
+Windows Поиск создает и инициализирует экземпляры объекта **ивордсинк** . Объект **ивордсинк** получает параметр *фкуери* во время инициализации и использует этот параметр для определения контекста разбиения по словам, в котором используется объект.
 
 Реализации [**ивордбреакер**](/windows/win32/api/indexsrv/nn-indexsrv-iwordbreaker) получают указатель на объект **ивордсинк** в методе [**ивордбреакер:: бреактекст**](/windows/win32/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext) .
 

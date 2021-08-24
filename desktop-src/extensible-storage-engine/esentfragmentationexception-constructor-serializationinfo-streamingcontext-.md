@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 251e4beaacb1e895c1da1d501b38cf03f211dd99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae29411554d8a734fc250c3d8c8a04b381b2013c79dcb5c2c7aad22ff34963cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838634"
 ---
 # <a name="esentfragmentationexception-constructor-serializationinfo-streamingcontext"></a>Конструктор Есентфрагментатионексцептион (SerializationInfo, StreamingContext)
 
@@ -70,7 +70,7 @@ protected EsentFragmentationException(
     
     Контекст десериализации.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

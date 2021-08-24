@@ -1,6 +1,6 @@
 ---
-title: Справочник по звуковым микшерам
-description: Справочник по звуковым микшерам
+title: справочник по аудио Mixer
+description: справочник по аудио Mixer
 ms.assetid: 9d8751b1-9c0b-4238-a961-27c09a869bb3
 keywords:
 - мультимедиа аудио, аудио миксерс
@@ -12,14 +12,14 @@ keywords:
 - Справочник по Audio миксерс, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be1d86f305714d72631b56495753417699b1a146
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1602a9ac0631a3e81430285c8cd862215a437c72b03b41d87fad6cefa7e41827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104260842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786224"
 ---
-# <a name="audio-mixer-reference"></a>Справочник по звуковым микшерам
+# <a name="audio-mixer-reference"></a>справочник по аудио Mixer
 
 В этом разделе описываются функции, структуры и сообщения, связанные с Audio миксерс. Эти элементы группируются следующим образом.
 
@@ -34,7 +34,7 @@ ms.locfileid: "104260842"
 -   [**миксерклосе**](/windows/win32/api/mmeapi/nf-mmeapi-mixerclose)
 -   [**миксеропен**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen)
 
-## <a name="retrieving-mixer-identifiers"></a>Получение идентификаторов микшера
+## <a name="retrieving-mixer-identifiers"></a>получение идентификаторов Mixer
 
 -   [**миксержетид**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetid)
 
@@ -65,13 +65,13 @@ ms.locfileid: "104260842"
 
 -   [**миксермессаже**](/windows/win32/api/mmeapi/nf-mmeapi-mixermessage)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по звуковым микшерам](audio-mixer-reference.md)
+[справочник по аудио Mixer](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
