@@ -1,5 +1,5 @@
 ---
-description: '&Win32 \_ иркресаурце \# 160; Класс WMI представляет номер линии запроса прерывания (IRQ) в компьютерной системе под Windows.'
+description: '&Win32 \_ иркресаурце \# 160; Класс WMI представляет номер линии запроса прерывания (IRQ) в компьютерной системе, на которой работает Windows.'
 ms.assetid: bae0c28e-2b66-40ac-9679-b2dfe9269306
 ms.tgt_platform: multiple
 title: Класс Win32_IRQResource
@@ -29,16 +29,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cd02487fe166cd7ce55482eaca1339c8701f2b62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f70f77fb34379a9503bc2ac0988bd855254da4d6a30042b6a8fddd41561f6f53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699504"
 ---
 # <a name="win32_irqresource-class"></a>\_Класс Win32 иркресаурце
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ иркресаурце для Win32** представляет номер линии запроса прерывания (IRQ) в компьютерной системе под Windows.   Запрос на прерывание — это сигнал, который устройство или программа отправляет в ЦП для выполнения критических событий. IRQ может основываться на оборудовании или программном обеспечении.
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ иркресаурце для Win32** представляет номер линии запроса прерывания (IRQ) в компьютерной системе, на которой работает Windows.   Запрос на прерывание — это сигнал, который устройство или программа отправляет в ЦП для выполнения критических событий. IRQ может основываться на оборудовании или программном обеспечении.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -72,7 +72,7 @@ class Win32_IRQResource : CIM_IRQ
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ иркресаурце** имеет следующие свойства.
 
@@ -103,7 +103,7 @@ class Win32_IRQResource : CIM_IRQ
 
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ class Win32_IRQResource : CIM_IRQ
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -306,7 +306,7 @@ class Win32_IRQResource : CIM_IRQ
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -556,15 +556,15 @@ class Win32_IRQResource : CIM_IRQ
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| системные структуры \| cm: уровень прерываний [**\_ частичного \_ ресурса \_**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor) \| \| ")
 </dt> </dl>
 
-Вектор ресурса IRQ Windows. Вектор содержит адрес памяти для функции, которая будет выполняться после того, как запрос на прерывание подтверждается ЦП.
+вектор ресурса IRQ Windows. Вектор содержит адрес памяти для функции, которая будет выполняться после того, как запрос на прерывание подтверждается ЦП.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ иркресаурце** является производным от [**\_ IRQ CIM**](cim-irq.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -578,7 +578,7 @@ class Win32_IRQResource : CIM_IRQ
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

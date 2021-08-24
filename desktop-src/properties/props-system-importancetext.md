@@ -4,12 +4,12 @@ ms.assetid: 04bd4b6c-b850-4c55-bb8f-20bb45a7a5e5
 title: System. Импортанцетекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ebbda4196c76871124676cfe4d91ffb6a24d19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8910428a04eac775ba84e748d152a9b500e659e886cba4004845b5c3ad66a732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716864"
 ---
 # <a name="systemimportancetext"></a>System. Импортанцетекст
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

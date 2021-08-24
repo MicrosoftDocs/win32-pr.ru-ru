@@ -4,12 +4,12 @@ ms.assetid: 3e96283b-1085-4ace-b004-2fd94310eeb2
 title: Действие RemoveExistingProducts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dea3b792b02352277e8f29fa422b093fe876b560
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c3118ebd01aa39b0d9a5dad29ad1c3563c869ed5e0ebc8dfefd5ecd5c89301f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810934"
 ---
 # <a name="removeexistingproducts-action"></a>Действие RemoveExistingProducts
 
@@ -38,9 +38,9 @@ ms.locfileid: "105663376"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Установщик Windows задает свойство [**упградингпродукткоде**](upgradingproductcode.md) при выполнении этого действия.
+Windows Установщик задает свойство [**упградингпродукткоде**](upgradingproductcode.md) при выполнении этого действия.
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e22b5f2a3ced9d50c9f930228d1e5611039741b4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ef7744e99d5a793bb11adb2baefee397d3264a7b0fb9969e01663bfdbef2acf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104072110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704994"
 ---
 # <a name="ms-dfsr-conflictsizeinmb-attribute"></a>атрибут MS-DFSR-Конфликтсизеинмб
 
@@ -36,7 +36,7 @@ ms.locfileid: "104072110"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.8            |
 | System-ID — GUID    | 9ad33fc9-аакф-4299-bb3e-d1fc6ea88e49 |
-| Синтаксис            | [**Пределах**](s-interval.md)       |
+| Синтаксис            | [**Интервал**](s-interval.md)       |
 
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "104072110"
 | Идентификатор ссылки                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Неверно                                                            |
-| Является однозначным       | True                                                             |
+| Является однозначным       | Верно                                                             |
 | Индексируется             | Неверно                                                            |
 | В глобальном каталоге      | Неверно                                                            |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                     |
@@ -77,7 +77,7 @@ ms.locfileid: "104072110"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Неверно                                                                                                                                                                                                  |
-| Является однозначным       | True                                                                                                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                                                                                                  |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                  |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                           |
@@ -98,7 +98,7 @@ ms.locfileid: "104072110"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Неверно                                                                                                                                                                                                  |
-| Является однозначным       | True                                                                                                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                                                                                                  |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                  |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                           |
@@ -119,7 +119,7 @@ ms.locfileid: "104072110"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                                                                                                     |
 | System-Only            | Неверно                                                                                                                                                                                                  |
-| Является однозначным       | True                                                                                                                                                                                                   |
+| Является однозначным       | Верно                                                                                                                                                                                                   |
 | Индексируется             | Неверно                                                                                                                                                                                                  |
 | В глобальном каталоге      | Неверно                                                                                                                                                                                                  |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                           |
@@ -131,7 +131,7 @@ ms.locfileid: "104072110"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут [**MS-DFSR-директорифилтер**](a-msdfsr-directoryfilter.md) является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

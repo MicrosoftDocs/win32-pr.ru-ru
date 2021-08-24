@@ -4,12 +4,12 @@ ms.assetid: c966cd00-5cab-4fcf-ad8e-b6c4ffb0e977
 title: Поставщики сетевых пакетов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8257a62e4f8b0a8434143b2fecba04d9a66c9fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c580610224a5d6cb3f461b1c039862e49b29358c4952549cefefe3c7434aa084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799543"
 ---
 # <a name="network-packet-providers"></a>Поставщики сетевых пакетов
 
@@ -33,7 +33,7 @@ Ndisnpp.dll подключается к слою [*NDIS*](n.md) для полу�
 
 Дополнительные сведения о COM-интерфейсах, предоставляемых НППС, см. [в разделе Выбор интерфейса НПП](selecting-an-npp-interface.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_PAL_MANUALCREATE (VFW. h)
 description: Сообщение WM \_ Cap \_ PAL \_ мануалкреате запрашивает, что драйвер записи выводит образцы видеокадров вручную и создает новую палитру. Это сообщение можно отправить явно или с помощью макроса Каппалеттемануал.
 ms.assetid: 96b6b2d6-084a-411e-8495-ea27e0c4f04f
 keywords:
-- WM_CAP_PAL_MANUALCREATE сообщения Windows мультимедиа
+- сообщение WM_CAP_PAL_MANUALCREATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dfd5b6588381ede0faaae539d3d8418b041f458
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8cc313cb6eae8e757d0777642bbc0ab72fe07fcfbf5b530a6479675c8ab3c07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781295"
 ---
 # <a name="wm_cap_pal_manualcreate-message"></a>\_Сообщение о \_ мануалкреатее WM Cap PAL \_
 
@@ -58,7 +58,7 @@ lParam = (LPARAM) (DWORD) (iColors);
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ lParam = (LPARAM) (DWORD) (iColors);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

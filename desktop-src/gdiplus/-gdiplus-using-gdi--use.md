@@ -1,19 +1,19 @@
 ---
-description: 'В следующих разделах описывается, как использовать API GDI+ с языком программирования C++:'
+description: 'в следующих разделах описано, как использовать API GDI+ с языком программирования C++:'
 ms.assetid: 659881f3-ada3-4731-95b9-2ef7a8a445a9
 title: Использование GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecbf4b72d3d4519bafb035a0c9c3b20e55cd71c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9ff833fdfd5cc4a68df7ea78ce0246e3cd39395d4195152fbd32e9e8f9aaf37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778574"
 ---
 # <a name="using-gdi"></a>Использование GDI+
 
-В следующих разделах описывается, как использовать API GDI+ с языком программирования C++:
+в следующих разделах описано, как использовать API GDI+ с языком программирования C++:
 
 -   [Начало работы](-gdiplus-getting-started-use.md)
 -   [Рисование линий и фигур с помощью пера](-gdiplus-using-a-pen-to-draw-lines-and-shapes-use.md)

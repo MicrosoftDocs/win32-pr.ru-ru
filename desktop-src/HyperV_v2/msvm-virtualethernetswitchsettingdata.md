@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3eccbd9dabe853f01c54c78ca651d590afc49f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbd8cd77a96301187e9b5c9f8544a23b616bf9db78af6560296660b0a3995bed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681244"
 ---
 # <a name="msvm_virtualethernetswitchsettingdata-class"></a>\_Класс мсвм виртуалесернетсвитчсеттингдата
 
@@ -99,7 +99,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалесернетсвитчсеттингдата** имеет следующие свойства.
 
@@ -226,7 +226,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -235,7 +235,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры виртуального коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "виртуальный коммутатор Ethernet Параметры".
 
 </dd> <dt>
 
@@ -381,7 +381,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 Тип доступа: только для чтения
 </dt> </dl>
 
-Указывает максимальное число уникальных MAC-адресов, которые могут быть получены коммутатором для поддержки обучения MAC-адресов, как определено в стандарте IEEE 802,1. Это свойство наследуется от **CIM \_ виртуалесернетсвитчсеттингдата**.
+указывает максимальное число уникальных MAC-адресов, которые могут быть получены коммутатором для поддержки MAC-адреса Обучение, как определено в стандарте IEEE 802,1. Это свойство наследуется от **CIM \_ виртуалесернетсвитчсеттингдата**.
 
 </dd> <dt>
 
@@ -410,7 +410,7 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 Указывает, следует ли использовать PacketDirect, если он доступен. Значение по умолчанию — **false**.
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 и Windows Server 2016.
+> это свойство было добавлено в Windows 10 и Windows Server 2016.
 
  
 
@@ -525,14 +525,14 @@ class Msvm_VirtualEthernetSwitchSettingData : CIM_VirtualEthernetSwitchSettingDa
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -6,12 +6,12 @@ keywords:
 - Резервное копирование жестких связей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72155231295a1eb07b6b565c018b765693c8f46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 25e5cf5a114160456e83e39cb06f441554f998df65bed2ea8f0e63b036c33c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702224"
 ---
 # <a name="backing-up-and-restoring-hard-links"></a>Резервное копирование и восстановление жестких связей
 
@@ -91,6 +91,6 @@ ms.locfileid: "104070427"
 18. EndWhile
 ```
 
- 
+ 
 
- 
+ 

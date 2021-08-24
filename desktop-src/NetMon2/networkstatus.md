@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 067a57dabfb5222deb27de44c60c6eb121cd8c36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3031cd8bd8f1af4e5ea5f03aec93b9a2f28b3ec098a8110563bb89869c97ae3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799524"
 ---
 # <a name="networkstatus-structure"></a>Структура NETWORKSTATUS
 
@@ -76,13 +76,13 @@ typedef struct _NETWORKSTATUS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании этой структуры необходимо выделить память для структуры, прежде чем ее можно будет использовать, и освободить память, когда структура больше не нужна.
 
 В списке см. также в нижней части этого раздела перечислены все методы, использующие эту структуру.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ typedef struct _NETWORKSTATUS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

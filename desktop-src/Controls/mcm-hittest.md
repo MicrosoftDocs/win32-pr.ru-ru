@@ -3,7 +3,7 @@ title: Сообщение MCM_HITTEST (Коммктрл. h)
 description: Определяет, какая часть элемента управления "календарь месяца" находится в заданной точке экрана. Это сообщение можно отправить явным образом или с помощью \_ макроса монскал HitTest.
 ms.assetid: 51e74b07-4ed7-488d-ad5d-116f046577fc
 keywords:
-- Элементы управления Windows для MCM_HITTEST сообщений
+- элементы управления Windows сообщений MCM_HITTEST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3670ac8ab663ceda1786f7136a50c4da255a76c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ab43ae76a2e747ff019a5bafa32870a208851a143ad94dd0679e894366c3592
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697194"
 ---
 # <a name="mcm_hittest-message"></a>\_Сообщение MCM HITTEST
 
@@ -69,15 +69,15 @@ ms.locfileid: "103801366"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Функция Уикреатепатчпаккаже принимает файл создания пакета (PCP-файл) и создает пакет исправлений установщик Windows (MSP-пакет).
+description: функция уикреатепатчпаккаже принимает файл создания пакета (pcp-файл) и создает пакет исправлений установщик Windows (msp-пакет).
 ms.assetid: 77fedb80-b664-417d-879b-846e74cc4c23
 title: Уикреатепатчпаккаже (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bcda07d74ffc32c76809037d9ac90cf11ea25c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be2802eb92d9df42a683053198ab14bbe7894fa512c63f25e1cd4afe060ea74c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810504"
 ---
 # <a name="uicreatepatchpackage-patchwizdll"></a>Уикреатепатчпаккаже (Patchwiz.dll)
 
-Функция Уикреатепатчпаккаже принимает файл создания пакета (PCP-файл) и создает пакет исправлений установщик Windows (MSP-пакет). Вызов [Msimsp.exe](msimsp-exe.md) является рекомендуемым методом для использования [Patchwiz.dll](patchwiz-dll.md). Функция [уикреатепатчпаккажеекс](uicreatepatchpackageex--patchwiz-dll-.md) доступна в версии 4,0 Patchwiz.dll и расширяет функциональные возможности функции уикреатепатчпаккаже.
+функция уикреатепатчпаккаже принимает файл создания пакета (pcp-файл) и создает пакет исправлений установщик Windows (msp-пакет). Вызов [Msimsp.exe](msimsp-exe.md) является рекомендуемым методом для использования [Patchwiz.dll](patchwiz-dll.md). Функция [уикреатепатчпаккажеекс](uicreatepatchpackageex--patchwiz-dll-.md) доступна в версии 4,0 Patchwiz.dll и расширяет функциональные возможности функции уикреатепатчпаккаже.
 
 ``` syntax
 UINT UiCreatePatchPackage(
@@ -40,7 +40,7 @@ UINT UiCreatePatchPackage(
 <span id="szPatchPath"></span><span id="szpatchpath"></span><span id="SZPATCHPATH"></span>*сзпатчпас*
 </dt> <dd>
 
-Полный путь к создаваемому пакету исправлений установщик Windows (MSP-файл). Этот параметр может иметь **значение NULL** или быть пустой строкой, но не может быть пропущен. Если он имеет **значение NULL** или является пустой строкой, функция использует значение Патчаутпутпас в [таблице свойств (Patchwiz.dll)](properties-table-patchwiz-dll-.md).
+полный путь к создаваемому пакету исправлений установщик Windows (msp-файл). Этот параметр может иметь **значение NULL** или быть пустой строкой, но не может быть пропущен. Если он имеет **значение NULL** или является пустой строкой, функция использует значение Патчаутпутпас в [таблице свойств (Patchwiz.dll)](properties-table-patchwiz-dll-.md).
 
 </dd> <dt>
 
@@ -76,9 +76,9 @@ UINT UiCreatePatchPackage(
 
 См. таблицу в разделе [возвращаемые значения для уикреатепатчпаккаже](return-values-for-uicreatepatchpackage.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пример создания PCP-файла и использования Уикреатепатчпаккаже для создания пакета исправлений установщик Windows см. в разделе [Пример небольшого обновления исправлений](a-small-update-patching-example.md).
+пример создания pcp-файла и использования уикреатепатчпаккаже для создания пакета исправлений установщик Windows см. в разделе [пример небольшого обновления исправлений](a-small-update-patching-example.md).
 
 Для создания исправления требуется несжатый образ установки, например административный образ или несжатый образ установки с компакт-диска. Уикреатепатчпаккаже не создает двоичные исправления для файлов в ящиках.
 

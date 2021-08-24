@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8951995de18158fe4d1e5f84b1d98da701067ab6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3681716af79d0c47ae08371caa2d03d236b9748d98b08098d7a6834a93ed9b2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831874"
 ---
 # <a name="cmsgthreadcreatethread-method"></a>Кмсгсреад. CreateThread, метод
 
@@ -55,7 +55,7 @@ BOOL CreateThread();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поток выполняет цикл, блокируется до постановки запроса в очередь (с помощью функции-члена [**кмсгсреад::P утсреадмсг**](cmsgthread-putthreadmsg.md) ), а затем вызывает функцию-член [**Кмсгсреад:: среадмессажепрок**](cmsgthread-threadmessageproc.md) с каждым сообщением.
 
@@ -65,7 +65,7 @@ BOOL CreateThread();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мсгсрд. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>мсгсрд. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

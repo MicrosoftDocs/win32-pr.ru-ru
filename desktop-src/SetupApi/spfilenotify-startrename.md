@@ -4,12 +4,12 @@ ms.assetid: 005c1840-6aa9-4e94-bfe7-6a9d53735fd9
 title: Сообщение SPFILENOTIFY_STARTRENAME (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c17d0c70b49ba00b3b16956e7ede5eda43b35b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ec75c84841adf5cb8a187e8d8431f031af74b31f33af7a87e46225b1e9a3464
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739424"
 ---
 # <a name="spfilenotify_startrename-message"></a>\_Сообщение спфиленотифи стартренаме
 
@@ -65,9 +65,9 @@ SPFILENOTIFY_STARTRENAME
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
 

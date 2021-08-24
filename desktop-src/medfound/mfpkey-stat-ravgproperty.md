@@ -4,12 +4,12 @@ ms.assetid: 8ed6bfa8-5515-430d-8a50-ad9668dc3aea
 title: Свойство MFPKEY_STAT_RAVG (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acd8493cf55251b3ceb67d280ba57ead86f9363f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d99b56dbd8ddc38fb69302698f103e96c513c2aaaf308f5069cd706b4ff5b411
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713824"
 ---
 # <a name="mfpkey_stat_ravg-property"></a>МФПКЭЙ \_ stat \_ Равг, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "105648747"
 
 **VT \_ I4**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы определить среднюю скорость потока в закодированном потоке, прочтите это свойство в конце кодирования.
 
@@ -34,7 +34,7 @@ ms.locfileid: "105648747"
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows XP, Windows Vista или Windows 7<br/>                                       |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

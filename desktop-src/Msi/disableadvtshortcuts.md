@@ -4,12 +4,12 @@ ms.assetid: 1b55ecbe-932f-4f08-98b1-8c5e7a57d2e8
 title: ДИСАБЛЕАДВТШОРТКУТС, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3f7d2cf800745691dde6011e6ab62232b94117
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86fd8465620abab56ebfe18f68254bf6d29b6e752a7550157231a0b1abe95ecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745564"
 ---
 # <a name="disableadvtshortcuts-property"></a>ДИСАБЛЕАДВТШОРТКУТС, свойство
 
@@ -19,7 +19,7 @@ ms.locfileid: "105651581"
 
 По умолчанию создание ярлыка по запросу включено.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сочетания клавиш, которые поддерживают объявление, имеют имя функции, а не форматированный путь к файлу формы \[ \# филекэй \] , введенный в столбец Target [таблицы ярлыков](shortcut-table.md). Если это свойство задано и компонент установлен, установщик создает регулярное сочетание для компонента.
 
@@ -31,7 +31,7 @@ ms.locfileid: "105651581"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

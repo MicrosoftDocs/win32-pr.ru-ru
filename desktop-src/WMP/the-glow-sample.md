@@ -10,12 +10,12 @@ keywords:
 - Пример визуализации с свечением
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d553334e2cc145f291c61bf8dd79c430601947e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7551caabcb5b4cf9f52353156609857a66ccde004513f8beaf05079b6b0a3f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762784"
 ---
 # <a name="the-glow-sample"></a>Пример свечения
 
@@ -28,16 +28,16 @@ ms.locfileid: "104258790"
 -   [Реализация отрисовки](implementing-render-sample.md)
 -   [Изменение предустановок](changing-presets.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Специальное руководством по программированию визуализации**](custom-visualization-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

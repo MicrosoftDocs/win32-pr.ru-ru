@@ -1,19 +1,19 @@
 ---
-description: Модель безопасности Windows позволяет управлять доступом к событиям, мьютексу, семафору и ожидающим объектам таймера. Очереди таймера, блокируемые переменные и объекты критических секций не являются защищаемыми. Дополнительные сведения см. в разделе Модель Access-Control.
+description: модель безопасности Windows позволяет управлять доступом к событиям, мьютексу, семафору и ожидающим объектам таймера. Очереди таймера, блокируемые переменные и объекты критических секций не являются защищаемыми. Дополнительные сведения см. в разделе Модель Access-Control.
 ms.assetid: 92478298-617c-4672-a1cc-9a8e9af40327
 title: Безопасность объекта синхронизации и права доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1c4bfdb17a6e1c4d99a3e9722e67a3b48a3c788
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f85ca76002a92e305983ab97d46dfde2f36f9ae49a779e091a072d3090ceb976
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739294"
 ---
 # <a name="synchronization-object-security-and-access-rights"></a>Безопасность объекта синхронизации и права доступа
 
-Модель безопасности Windows позволяет управлять доступом к событиям, мьютексу, семафору и ожидающим объектам таймера. Очереди таймера, блокируемые переменные и объекты критических секций не являются защищаемыми. Дополнительные сведения см. в разделе [модель управления доступом](../secauthz/access-control-model.md).
+модель безопасности Windows позволяет управлять доступом к событиям, мьютексу, семафору и ожидающим объектам таймера. Очереди таймера, блокируемые переменные и объекты критических секций не являются защищаемыми. Дополнительные сведения см. в разделе [модель управления доступом](../secauthz/access-control-model.md).
 
 Можно указать [дескриптор безопасности](../secauthz/security-descriptors.md) для объекта межпроцессной синхронизации при вызове функции [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa), [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa), [**createsemaphore-**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)или [**сбой createwaitabletimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw) . Если указано **значение NULL**, то объект получает дескриптор безопасности по умолчанию. [Списки управления доступом (ACL)](../secauthz/access-control-lists.md) в дескрипторе безопасности по умолчанию для объекта синхронизации берутся из основного маркера или токена олицетворения создателя.
 

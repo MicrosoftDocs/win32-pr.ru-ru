@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Создание поставщиков WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 980d3cd10b7108397a577d54ef93e502fb28d1bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40cb15b911cb549e28e3536da0a9da31de8df1d6f395ede5f9c9176d21239abc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679744"
 ---
 # <a name="creating-wmi-providers"></a>Создание поставщиков WMI
 
 Разработчики могут расширить инфраструктуру WMI, разрабатывая поставщики WMI. Поставщики WMI — это COM-объекты, реализующие указанный набор интерфейсов, и до последнего времени они всегда были реализованы в C++. Теперь можно использовать управляемые языки, например C#, для реализации поставщиков WMI. В версии 3,5 платформы .NET Framework появилась платформа расширений поставщика WMI, которая делает это возможным. Дополнительные сведения о создании поставщиков WMI с помощью этой платформы см. в статье [Создание связанных поставщиков WMI с помощью расширения поставщика WMI.NET 2,0](/previous-versions/dotnet/articles/cc268228(v=msdn.10)).
 
 > [!Note]  
-> Вы также можете создать поставщик с помощью инфраструктуры управления Windows (MI), версии следующего поколения WMI. Дополнительные сведения см. [в разделе Реализация поставщика MI](/previous-versions/windows/desktop/wmi_v2/how-to-implement-an-mi-provider).
+> вы также можете создать поставщик с помощью инфраструктуры управления Windows (MI), версии следующего поколения WMI. Дополнительные сведения см. [в разделе Реализация поставщика MI](/previous-versions/windows/desktop/wmi_v2/how-to-implement-an-mi-provider).
 
  
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wisptis.exe
 - Wisptis.exe.dll
-ms.openlocfilehash: b009bc08dddb15bc7aa5b12c8846ea66c4a52e56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec8b462f2d06e1613c32b795af1793776cafddd6a3531ac6a0b5385f3d3e5128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712244"
 ---
 # <a name="itabletcontextpoverlap-method"></a>Метод Итаблетконтекстп:: перекрыт
 
@@ -76,7 +76,7 @@ HRESULT Overlap(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                              |
 | Библиотека<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

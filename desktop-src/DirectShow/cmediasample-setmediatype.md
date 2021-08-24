@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f46fc4e8c348b1d03d19e815f658e0f637b8f880
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e7059e0d9b2d91b6a938c67445f185a2c9be0daf5831c30b235918ab7820b1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832174"
 ---
 # <a name="cmediasamplesetmediatype-method"></a>Кмедиасампле. Сетмедиатипе, метод
 
@@ -57,14 +57,14 @@ HRESULT SetMediaType(
 
 | Код возврата                                                                                   | Описание                    |
 |-----------------------------------------------------------------------------------------------|--------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>          | Успешно<br/>             |
+| <dl> <dt>**\_ОК**</dt> </dl>          | Success<br/>             |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | Недостаточно памяти<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод задает переменную члена [**кмедиасампле:: m \_ пмедиатипе**](cmediasample-m-pmediatype.md) , которая указывает тип мультимедиа, и переменную элемента [**кмедиасампле:: m \_ dwFlags**](cmediasample-m-dwflags.md) , которая указывает, изменился ли тип мультимедиа.
 
@@ -76,7 +76,7 @@ HRESULT SetMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

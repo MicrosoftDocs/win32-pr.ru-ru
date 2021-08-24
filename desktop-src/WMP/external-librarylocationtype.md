@@ -3,7 +3,7 @@ title: External. Либрарилокатионтипе
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | External. Либрарилокатионтипе
 ms.assetid: aaf20147-8331-40bd-a5cd-5ee9b8e2d022
 keywords:
-- Внешний Либрарилокатионтипе проигрыватель Windows Media
+- External. либрарилокатионтипе проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2c2f14940a2ad41bed24493396e2bacfba2f0a1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e254ce6258cf667884e2815508b413ed1455b1b6924bfebb4edc900da048c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736204"
 ---
 # <a name="externallibrarylocationtype"></a>External. Либрарилокатионтипе
 
@@ -28,7 +28,7 @@ ms.locfileid: "105694501"
 
  
 
-Свойство **либрарилокатионтипе** извлекает [константу расположения библиотеки](library-location-constants.md) , которая указывает тип текущего представления в проигрывателе Windows Media.
+свойство **либрарилокатионтипе** извлекает [константу расположения библиотеки](library-location-constants.md) , которая указывает тип текущего представления в проигрыватель Windows Media.
 
 ``` syntax
 window.external.libraryLocationType
@@ -39,9 +39,9 @@ window.external.libraryLocationType
 
 Это свойство является **строкой** только для чтения, содержащей одну из констант расположения библиотеки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство работает в сочетании со свойством [External. либрарилокатионид](external-librarylocationid.md) . Например, предположим, что **либрарилокатионтипе** равен кпалбумид, а **либрарилокатионид** равен 3. Это означает, что в текущем представлении проигрывателя Windows Media отображается альбом с ИДЕНТИФИКАТОРом 3. Дополнительные сведения о том, как Windows Media Player характеризует представления содержимого Интернет-магазина, см. в разделе [расположение и выбранный элемент](location-and-selected-item.md).
+Это свойство работает в сочетании со свойством [External. либрарилокатионид](external-librarylocationid.md) . Например, предположим, что **либрарилокатионтипе** равен кпалбумид, а **либрарилокатионид** равен 3. это означает, что в текущем представлении в проигрыватель Windows Media отображается альбом с идентификатором 3. дополнительные сведения о том, как проигрыватель Windows Media характеризует представления содержимого интернет-магазина, см. в разделе [расположение и выбранный элемент](location-and-selected-item.md).
 
 ## <a name="requirements"></a>Требования
 
@@ -49,7 +49,7 @@ window.external.libraryLocationType
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: e9a0ba2ade1095f291d5cb325a0902e6caeac3f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9776ca62cbb61b6708f00d5e1d6d85eeab245b32798683b5afde546d835633c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779194"
 ---
 # <a name="imonitordoconfigure-method"></a>Имонитор: метод:D Оконфигуре
 
@@ -68,7 +68,7 @@ HRESULT STDMETHODCALLTYPE DoConfigure(
 
 Если метод завершается неудачно, возвращаемое значение является кодом ошибки. Недопустимое возвращаемое значение \_ конфигурации монитора нмерр \_ \_ , но при возвращении этой ошибки монитор не может начаться до тех пор, пока будущий вызов **доконфигуре** не будет выполнен. Любая другая ошибка предотвращает включение экземпляра монитора.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 МКСВК вызывает этот метод после подключения к сети и до вызова метода [ИРТК:: Configure](irtc-configure.md) .
 
@@ -76,7 +76,7 @@ HRESULT STDMETHODCALLTYPE DoConfigure(
 
 МКСВК может вызывать этот метод несколько раз, но он не может быть вызван во время записи данных монитором. Обратите внимание, что каждый раз, когда [НПП](network-packet-providers.md) начинает запись, необходимо настроить подключение к сети. Это ограничение включает в себя ситуации, в которых НПП запускается и останавливает одну и ту же запись.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

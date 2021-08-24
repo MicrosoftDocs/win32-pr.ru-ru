@@ -4,17 +4,17 @@ ms.assetid: feaa1db8-2d33-4c32-8491-f3aa5555e3d3
 title: Метод ЖетдвдтекстлангуажелЦид
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f66d21b9870982b605d9deeb1e22882a525c5616
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 50c60abedc3a986bfec766cc14c2251d9bed83650ee737762a4e870af9d283a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748724"
 ---
 # <a name="getdvdtextlanguagelcid-method"></a>Метод ЖетдвдтекстлангуажелЦид
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -39,7 +39,7 @@ ms.locfileid: "104536626"
 
 Возвращает значение LCID, содержащее сведения, указывающие язык, на котором написаны строки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные текстовые строки хранятся в смежных блоках на диске. Каждый язык имеет один блок строк. Приложение задает эти блоки по индексу, который должен быть меньше значения, возвращаемого функцией [**жетдвдтекстнумберофлангуажес**](getdvdtextnumberoflanguages-method.md).
 

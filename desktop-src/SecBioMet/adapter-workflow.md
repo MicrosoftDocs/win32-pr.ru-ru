@@ -4,18 +4,18 @@ description: В этом разделе описывается рабочий п
 ms.assetid: 0392124A-78CF-49E3-A52A-1E2E3A100E2E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68f93146e1d6cedd42094876547bfe0c945d6a7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0449d21378b81648eaccd91a6c1706847fbc23a66325342083cb0cc9aafc400a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740574"
 ---
 # <a name="adapter-workflow"></a>Рабочий процесс адаптера
 
 В этом разделе описывается рабочий процесс регистрации с точки зрения подключаемых модулей адаптера.
 
-В Windows 10 реализован интерфейс механизма V4, который предоставляет 2 новые функции адаптера ядра, [**енгинеадаптеркреатекэй**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn) и [**енгинеадаптеридентифифеатуресетсекуре**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn). Эти новые функции обеспечивают поддержку безопасных биометрических данных с помощью TPM 2,0. В следующей таблице показан рабочий процесс регистрации на стороне адаптера.
+в Windows 10 мы реализовали интерфейс механизма V4, который предоставляет 2 новые функции адаптера ядра, [**енгинеадаптеркреатекэй**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_create_key_fn) и [**енгинеадаптеридентифифеатуресетсекуре**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_feature_set_secure_fn). Эти новые функции обеспечивают поддержку безопасных биометрических данных с помощью TPM 2,0. В следующей таблице показан рабочий процесс регистрации на стороне адаптера.
 
 
 

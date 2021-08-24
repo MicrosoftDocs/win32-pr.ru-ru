@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2ce6a1491fd9e414f503d0165216794c67db0e97
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5ca52cbc68c834d5216920334763d4de5c982702b8cc562db88ceed7b6de0f12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759774"
 ---
 # <a name="setkeepaliveinterval-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сеткипаливеинтервал \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После получения ответа задержка до следующей передачи активности продолжает управляться значением свойства [**KeepAliveTime**](win32-networkadapterconfiguration.md) . Соединение прерывается после того, как число повторных передач, указанных свойством **TcpMaxDataRetransmissions** , не было получено.
 

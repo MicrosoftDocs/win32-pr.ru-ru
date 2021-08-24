@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cf7cfa41c3decc964492258dad9c6a3a497f504b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1aca1eac7218528e897a2a519543d80ab4ae2be3fa5d11a4107b02f1b23f2061
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698194"
 ---
 # <a name="direct2d-and-direct3d-interoperability-overview"></a>Общие сведения о взаимодействии Direct2D и Direct3D
 
@@ -39,7 +39,7 @@ ms.locfileid: "108089192"
 -   [Использование содержимого Direct2D в качестве текстуры](#using-direct2d-content-as-a-texture)
     -   [Пример. использование содержимого Direct2D в качестве текстуры](#example-use-direct2d-content-as-a-texture)
 -   [Изменение размера целевого объекта отрисовки поверхности DXGI](#resizing-a-dxgi-surface-render-target)
--   [Связанные разделы](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -76,7 +76,7 @@ ms.locfileid: "108089192"
 
 Кроме того, [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1) , связанный с ПОВЕРХНОСТЬю DXGI, должен поддерживать форматы BGRA DXGI, чтобы поверхность работала с Direct2D. Чтобы обеспечить эту поддержку, используйте флаг [**D3D10 \_ Create \_ Device \_ BGRA \_ support**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) при вызове метода [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) для создания устройства.
 
-В следующем коде определяется метод, создающий [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). Он выбирает оптимальный уровень функций и возвращается к [платформе Windows Advanced растеризации (деформация)](./installing-the-direct2d-debug-layer.md) , если аппаратная отрисовка недоступна.
+В следующем коде определяется метод, создающий [**ID3D10Device1**](/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1). он выбирает оптимальный уровень функций и возвращается к [Windows расширенной платформы растрирования (деформация)](./installing-the-direct2d-debug-layer.md) , если аппаратная отрисовка недоступна.
 
 
 ```C++
@@ -382,7 +382,7 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 
 Для реализации этого подхода метод изменения размера должен проверить, доступно ли устройство Direct3D. Если она доступна, выпустите и повторно создайте целевые объекты отрисовки для поверхности DXGI, но сохраните все созданные ранее ресурсы и используйте их повторно. Это работает потому, что, как описано в [обзоре ресурсов](resources-and-resource-domains.md), ресурсы, созданные двумя целевыми объектами рендеринга, совместимы, если обе цели рендеринга связаны с одним и тем же устройством Direct3D.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -392,7 +392,7 @@ hr = m_pOffscreenTexture->QueryInterface(&pDxgiSurface);
 [**креатедксгисурфацерендертаржет**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget))
 </dt> <dt>
 
-[Графическая система Windows DirectX](../graphics-and-multimedia.md)
+[Windows Графика DirectX](../graphics-and-multimedia.md)
 </dt> </dl>
 
  

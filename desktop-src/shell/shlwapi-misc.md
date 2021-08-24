@@ -1,5 +1,5 @@
 ---
-description: В этом разделе описываются функции оболочки Windows, экспортированные Shlwapi.dll и определенные в Shlwapi. h и Shlwapi. lib, которые не относятся к одной из других категорий служебной функции.
+description: в этом разделе описаны функции оболочки Windows, экспортированные Shlwapi.dll и определенные в shlwapi. h и shlwapi. lib, которые не относятся к одной из других категорий служебной функции.
 title: Различные служебные функции оболочки
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d60a0efbe9bffda671fb3be87d60357766d645e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87c4d7c585ce9a6cbae1702d4c49da3dcea5a0a465d32d8a6221d6c5783114ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709404"
 ---
 # <a name="shell-miscellaneous-utility-functions"></a>Различные служебные функции оболочки
 
-В этом разделе описываются функции оболочки Windows, экспортированные Shlwapi.dll и определенные в Shlwapi. h и Shlwapi. lib, которые не относятся к одной из других категорий служебной функции.
+в этом разделе описаны функции оболочки Windows, экспортированные Shlwapi.dll и определенные в shlwapi. h и shlwapi. lib, которые не относятся к одной из других категорий служебной функции.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -29,7 +29,7 @@ ms.locfileid: "104080945"
 | [**DllInstall**](/windows/desktop/api/Shlwapi/nf-shlwapi-dllinstall)<br/>                             | Управляет установкой и настройкой библиотеки DLL.<br/>                                                                                                                                                                                                                             |
 | [**жетпроцессреференце**](/windows/desktop/api/Shlwapi/nf-shlwapi-getprocessreference)<br/>           | Извлекает объект конкретного процесса, предоставленный [**сетпроцессреференце**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference), увеличивая счетчик ссылок для поддержания активности процесса.<br/>                                                                                                     |
 | [**хашдата**](/windows/desktop/api/Shlwapi/nf-shlwapi-hashdata)<br/>                                 | Хэширует массив данных.<br/>                                                                                                                                                                                                                                              |
-| [**исинтернетесценаблед**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | Определяет, находится ли Windows Internet Explorer в конфигурации усиленной безопасности.<br/>                                                                                                                                                                               |
+| [**исинтернетесценаблед**](/windows/desktop/api/Shlwapi/nf-shlwapi-isinternetescenabled)<br/>         | определяет, находится ли Windows Internet Explorer в конфигурации усиленной безопасности.<br/>                                                                                                                                                                               |
 | [**ISO**](/windows/desktop/api/Shlwapi/nf-shlwapi-isos)<br/>                                         | Проверяет указанные операционные системы и компоненты операционной системы.<br/>                                                                                                                                                                                                 |
 | [**\_Копирование IStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_copy)<br/>                        | Копирует поток в другой поток.<br/>                                                                                                                                                                                                                                    |
 | [**\_Чтение IStream**](/windows/desktop/api/Shlwapi/nf-shlwapi-istream_read)<br/>                        | Считывает байты из указанного потока и возвращает значение, указывающее, были ли успешно считаны все байты.<br/>                                                                                                                                                      |
@@ -48,7 +48,7 @@ ms.locfileid: "104080945"
 | [**\_SetSite IUnknown**](/windows/desktop/api/Shlwapi/nf-shlwapi-iunknown_setsite)<br/>                | Задает сайт указанного объекта, вызывая его метод [**IObjectWithSite:: SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) .<br/>                                                                                                                                                   |
 | [**парсеурл**](/windows/desktop/api/Shlwapi/nf-shlwapi-parseurla)<br/>                                 | Выполняет элементарный анализ URL-адреса.<br/>                                                                                                                                                                                                                                |
 | [**кисеарч**](/windows/desktop/api/Shlwapi/nf-shlwapi-qisearch)<br/>                                 | Реализация метода [**IUnknown:: QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) , основанная на таблицах.<br/>                                                                                                                                                              |
-| [**сетпроцессреференце**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference)<br/>           | Предоставляет COM-объект, позволяющий размещенным расширениям оболочки и другим компонентам предотвращать преждевременное закрытие процесса хоста. Хост-процесс обычно является проводником Windows или Internet Explorer, но эта функция также может использоваться другими приложениями.<br/> |
+| [**сетпроцессреференце**](/windows/desktop/api/Shlwapi/nf-shlwapi-setprocessreference)<br/>           | Предоставляет COM-объект, позволяющий размещенным расширениям оболочки и другим компонентам предотвращать преждевременное закрытие процесса хоста. хост-процесс обычно Windows Explorer или Internet Explorer, но эта функция также может использоваться другими приложениями.<br/> |
 | [**шаутокомплете**](/windows/win32/api/shlwapi/nf-shlwapi-shautocomplete)<br/>                   | Указывает, что элементы управления "изменение системы" используют Автозаполнение, чтобы помочь в завершении URL-адресов или путей файловой системы.<br/>                                                                                                                                                                        |
 | [**шкреатемемстреам**](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatememstream)<br/>               | Создает поток памяти, используя аналогичную процедуру для [**CreateStreamOnHGlobal**](/windows/win32/api/combaseapi/nf-combaseapi-createstreamonhglobal).<br/>                                                                                                                                                            |
 | [**шкреатестреамонфиликс**](/windows/desktop/api/Shlwapi/nf-shlwapi-shcreatestreamonfileex)<br/>     | Открывает или создает файл и получает поток для чтения или записи в этот файл.<br/>                                                                                                                                                                                         |
@@ -61,7 +61,7 @@ ms.locfileid: "104080945"
 | [**шглобалкаунтеринкремент**](/windows/desktop/api/Shlwapi/nf-shlwapi-shglobalcounterincrement)<br/> | Увеличивает значение глобального счетчика.<br/>                                                                                                                                                                                                                                          |
 | [**шисловмеморимачине**](/windows/desktop/api/shlwapi/nf-shlwapi-shislowmemorymachine)<br/>         |                                                                                                                                                                                                                                                                                  |
 | [**шрелеасесреадреф**](/windows/desktop/api/Shlwapi/nf-shlwapi-shreleasethreadref)<br/>             | Освобождает ссылку на поток перед возвратом процедуры потока.<br/>                                                                                                                                                                                                      |
-| [**шсетсреадреф**](/windows/desktop/api/Shlwapi/nf-shlwapi-shsetthreadref)<br/>                     | Хранит ссылку на поток для COM-объекта. Это позволяет вызывающему объекту управлять временем существования потока, чтобы он мог гарантировать, что Windows не завершит работу потока до того, как вызывающий объект будет готов.<br/>                                                                      |
+| [**шсетсреадреф**](/windows/desktop/api/Shlwapi/nf-shlwapi-shsetthreadref)<br/>                     | Хранит ссылку на поток для COM-объекта. это позволяет вызывающему объекту управлять временем существования потока, чтобы он мог гарантировать, что Windows не завершит работу потока до того, как вызывающий объект будет готов.<br/>                                                                      |
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Защита поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b6b8fef1e90f09bc09488c058240b7fd1a88ebd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dec112c7e207a23d36700d8fb5de3b3964590b514f9cf5a6aa5fbc03243cf40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732844"
 ---
 # <a name="securing-your-provider"></a>Защита поставщика
 
@@ -33,7 +33,7 @@ ms.locfileid: "105701988"
 -   [Настройка уровня безопасности процесса по умолчанию с помощью VBScript](setting-the-default-process-security-level-using-vbscript.md)
 -   [Настройка безопасности процесса клиентского приложения](setting-client-application-process-security.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

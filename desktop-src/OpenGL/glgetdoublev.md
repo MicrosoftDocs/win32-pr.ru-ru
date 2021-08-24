@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5acbb8a62141183c18cea79b3997f9490e18fb78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93b2195431ed6288281767f86db26cac96ee21023faa194a587c7c044d8c51f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742012"
 ---
 # <a name="glgetdoublev-function"></a>Функция Глжетдаублев
 
@@ -305,7 +305,7 @@ void WINAPI glGetDoublev(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция возвращает значения для переменных простого состояния в OpenGL. Параметр *pname* представляет собой символьную константу, указывающую переменную состояния, которая должна быть возвращена, а *params* — это указатель на массив указанного типа, в который будут размещены возвращаемые данные.
 

@@ -46,16 +46,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 832b5fad0ce54d1436fd6b2e47765af0fabfd2bb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2847b8b69dc431fcc0907100d951e18589bb8d266ff269f90c982fc8c88371ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816674"
 ---
 # <a name="win32_floppydrive-class"></a>\_Класс Win32 флоппидриве
 
-\[**Win32 \_ Флоппидриве** больше не доступен для использования в Windows 10 и Windows Server 2016.\]
+\[**Win32 \_ флоппидриве** больше не доступен для использования в Windows 10 и Windows Server 2016.\]
 
 [Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ флоппидриве для Win32** управляет функциями дисковода гибких дисков.
 
@@ -348,7 +348,7 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Устройства хранения DMTF \| 001,9 "," MIF. \|Устройства хранения DMTF \| 001,11 "," MIF. \|Устройства хранения DMTF \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
+Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| служба хранилища устройства \| 001,9 "," MIF. DMTF \| служба хранилища устройства \| 001,11 "," MIF. DMTF \| служба хранилища устройства \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md).**Капабилитидескриптионс**")
 </dt> </dl>
 
 Массив возможностей устройства доступа к носителю. Например, устройство может поддерживать произвольный доступ, съемные носители и автоматическую очистку. В этом случае значения 3, 7 и 9 будут записаны в массив.
@@ -476,7 +476,7 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -556,7 +556,7 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Код ошибки Windows Configuration Manager.
+Windows Configuration Manager код ошибки.
 
 Это свойство унаследовано от [ **CIM \_** -значения.](cim-logicaldevice.md)
 
@@ -615,12 +615,12 @@ class Win32_FloppyDrive : CIM_DisketteDrive
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -827,23 +827,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -893,7 +893,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -1152,7 +1152,7 @@ Windows не удается найти все ресурсы, используе
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1212,7 +1212,7 @@ Windows не удается найти все ресурсы, используе
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -1535,11 +1535,11 @@ Windows не удается найти все ресурсы, используе
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ флоппидриве** является производным от [**CIM \_ дискеттедриве**](cim-diskettedrive.md) , который является производным от [**CIM \_ медиаакцессдевице**](cim-mediaaccessdevice.md). Класс **CIM \_ медиаакцессдевице** является производным от [**CIM \_**](cim-logicaldevice.md)с параметром.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1547,7 +1547,7 @@ Windows не удается найти все ресурсы, используе
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                  |
+| Окончание поддержки клиента<br/>    | Windows 8.1<br/>                                                                  |
 | Поддержка конца сервера<br/>    | Windows Server 2012 R2<br/>                                                       |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
@@ -1555,7 +1555,7 @@ Windows не удается найти все ресурсы, используе
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

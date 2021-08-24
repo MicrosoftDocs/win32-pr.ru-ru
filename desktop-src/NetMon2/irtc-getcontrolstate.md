@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d2e41ad3e4119fffbada26fe3ebebdfe3bf82043
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf3f4b70f1b06f5f985d459af361dc27f320d84465f5ef86f2d956339bf90ac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778794"
 ---
 # <a name="irtcgetcontrolstate-method"></a>Метод ИРТК:: Жетконтролстате
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 | Код возврата                                                                                          | Описание                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [ИРТК:: Connect](irtc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>  | НПП подключается к сети, но не с методом [ИРТК:: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иртк:: Подключение](irtc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>  | нпп подключается к сети, но не с помощью метода [иртк:: Подключение](irtc-connect.md) .<br/>                     |
 
 
 
@@ -89,14 +89,14 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иртк](irtc.md)
 </dt> <dt>
 
-[ИРТК:: Connect](irtc-connect.md)
+[иртк:: Подключение](irtc-connect.md)
 </dt> <dt>
 
 [ИРТК::P Аусе](irtc-pause.md)

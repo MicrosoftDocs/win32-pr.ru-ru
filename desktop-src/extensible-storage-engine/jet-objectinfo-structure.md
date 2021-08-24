@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cd1f8a876153b5b457cfb153cbf35fa2d388b0f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af21d3f885a979ac81fef502a64281ea5445046983f652033566c689991a70ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720314"
 ---
 # <a name="jet_objectinfo-structure"></a>Структура JET_OBJECTINFO
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_objectinfo-structure"></a>Структура JET_OBJECTINFO
 
@@ -125,7 +125,7 @@ _**Применимо к:** Windows | Windows Server_
 <tr class="even">
 <td><p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p></td>
 <td><p>Используется в сочетании с JET_bitObjectTableTemplate для запрета фиксированных или переменных столбцов в производных таблицах (чтобы в будущем можно было добавить в шаблон фиксированные или переменные столбцы).</p>
-<p><strong>Windows XP:  </strong> Это значение вводится в Windows XP.</p></td>
+<p><strong>Windows XP:</strong> это значение вводится в Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitObjectTableTemplate</p></td>
@@ -147,7 +147,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Это значение извлекается, только если **JET_OBJECTINFO** был передан в [жетжетобжектинфо](./jetgetobjectinfo-function.md).
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Структура **JET_OBJECTINFO** заполняется вызовом [жетжетобжектинфо](./jetgetobjectinfo-function.md) или [жетжеттаблеинфо](./jetgettableinfo-function.md). Если вызов API не выполняется, содержимое структуры не определено.
 
@@ -163,11 +163,11 @@ _**Применимо к:** Windows | Windows Server_
 <tbody>
 <tr class="odd">
 <td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
+<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
+<td><p><strong>Сервер</strong></p></td>
+<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Header</strong></p></td>
@@ -177,7 +177,7 @@ _**Применимо к:** Windows | Windows Server_
 </table>
 
 
-### <a name="see-also"></a>См. также:
+### <a name="see-also"></a>См. также
 
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  

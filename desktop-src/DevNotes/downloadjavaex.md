@@ -1,5 +1,5 @@
 ---
-description: Загружает подпись CAB-файла, проверяет разрешения, связанные с пакетами, и выполняет их на основе проверки подлинности.
+description: Скачивает подпись файла .cab, проверяет разрешения, связанные с пакетами, и выполняет их на основе проверки подлинности.
 ms.assetid: b86a8f39-73a1-4e17-ac83-9ed095de4922
 title: Функция Довнлоаджаваекс
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Javacypt.dll
-ms.openlocfilehash: 31371e91599d604db591ee3e921b42bc809aae21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 628fdb1b8b0ec9979d844c8f48fb02fbf8f6a642a96c925f427c868160dd6b27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795264"
 ---
 # <a name="downloadjavaex-function"></a>Функция Довнлоаджаваекс
 
-Загружает подпись CAB-файла, проверяет разрешения, связанные с пакетами, и выполняет их на основе проверки подлинности.
+Скачивает подпись файла .cab, проверяет разрешения, связанные с пакетами, и выполняет их на основе проверки подлинности.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -90,11 +90,11 @@ HRESULT WINAPI DownloadJavaEX(
 
 Если функция выполнена успешно, возвращается значение **S \_ ОК**. В противном случае возвращаемое значение является кодом ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

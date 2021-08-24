@@ -4,12 +4,12 @@ description: Компонентный квадратный корень.
 ms.assetid: B860D656-7F01-484F-909F-A5C9A61C52C3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 628601e0a3a78784a5fd1a089ef7608a0cf9ca05
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 76e16ce8683daba19f0f0b578ccd34c9a0ea3b5d0281ccb2509d46f836a694f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743514"
 ---
 # <a name="sqrt-sm4---asm"></a>Sqrt (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "107996611"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Точность равна 1 ulp.
 
@@ -47,7 +47,7 @@ F означает ограничение по настоящему вещест
 
 |          | **-INF** | **-F** | **— денорма** | **-0** | **+0** | **+ денорма** | **+ F** | **+ INF** | **Не число** |
 |----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
-| **dest** | Не число      | Не число    | -0          | -0     | +0     | +0          | + F     | +inf     | не число     |
+| **dest** | Не число      | Не число    | -0          | -0     | +0     | +0          | + F     | +inf     | Не число     |
 
 
 
@@ -73,9 +73,9 @@ F означает ограничение по настоящему вещест
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

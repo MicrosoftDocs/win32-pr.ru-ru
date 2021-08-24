@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3158a216ba4fd4f82f3e4fc21fc1e0043b16a46a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 010fdc6cbb236a113e4f1804d3a4780c0e6a72f89b1f03bf90f1d99a92dc2bdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781084"
 ---
 # <a name="inapcomponentconfig3setconfigtoid-method"></a>Метод INapComponentConfig3:: Сетконфигтоид
 
@@ -85,7 +85,7 @@ HRESULT SetConfigToID(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода необходимо использовать метод [**документе newconfig**](inapcomponentconfig3-newconfig.md) для выделения данных конфигурации для *конфигид* .
 
@@ -96,8 +96,8 @@ HRESULT SetConfigToID(
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Напкоммон. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Напкоммон. idl</dt> </dl> |
 
 

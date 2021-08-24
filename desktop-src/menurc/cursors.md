@@ -7,12 +7,12 @@ keywords:
 - курсоры, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9014befcc41161d7491af97186b33088f508dd8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d7be5b8e213dd1911d2227a3dce4b61078ab1a22711d4e765525c7fbd5bd08d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712614"
 ---
 # <a name="cursors"></a>Курсоры
 
@@ -20,7 +20,7 @@ ms.locfileid: "104068055"
 
 Когда пользователь перемещает мышь, система перемещает курсор соответствующим образом. Функции курсора позволяют приложениям создавать, загружать, отображать, анимировать, перемещать, ограничивать и удалять курсоры.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -49,7 +49,7 @@ ms.locfileid: "104068055"
 | [**жеткурсоринфо**](/windows/desktop/api/Winuser/nf-winuser-getcursorinfo)               | Получает сведения о глобальном курсоре.<br/>                                                                                                                                                                                                                                              |
 | [**жеткурсорпос**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos)                 | Получает позицию курсора в экранных координатах.<br/>                                                                                                                                                                                                                                     |
 | [**жетфисикалкурсорпос**](/windows/desktop/api/Winuser/nf-winuser-getphysicalcursorpos) | Получает позицию курсора в физических координатах.<br/>                                                                                                                                                                                                                               |
-| [**лоадкурсор**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | Загружает указанный ресурс курсора из исполняемого файла (. EXE) файл, связанный с экземпляром приложения.<br/>                                                                                                                                                                                |
+| [**лоадкурсор**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)                     | Загружает указанный ресурс курсора из исполняемого файла (.EXE), связанного с экземпляром приложения.<br/>                                                                                                                                                                                |
 | [**лоадкурсорфромфиле**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)     | Создает курсор на основе данных, содержащихся в файле. <br/>                                                                                                                                                                                                                                        |
 | [**сеткурсор**](/windows/desktop/api/Winuser/nf-winuser-setcursor)                       | Задает форму курсора. <br/>                                                                                                                                                                                                                                                                     |
 | [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos)                 | Перемещает курсор к указанным экранным координатам. Если новые координаты находятся не внутри прямоугольника экрана, заданного последним вызовом функции [**клипкурсор**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) , система автоматически настраивает координаты таким образом, чтобы курсор оставался внутри прямоугольника. <br/>    |

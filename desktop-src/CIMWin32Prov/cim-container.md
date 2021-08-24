@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 70aca54c80a954deed88d1ec740f0057753bf5e8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c0e4177fd70a79b1029d14ddb866eb533ce4c4e6183d88c61873bb9f8072a261
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700764"
 ---
 # <a name="cim_container-class"></a>\_Класс контейнера CIM
 
@@ -53,7 +53,7 @@ class CIM_Container : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ контейнера CIM** имеет эти свойства.
 
@@ -104,13 +104,13 @@ class CIM_Container : CIM_Component
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Дополнительные сведения о классах, производных от **CIM \_ Container**, см. в разделе [Классы Win32](win32-provider.md).
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,7 +124,7 @@ class CIM_Container : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

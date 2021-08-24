@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: cbf83f4605d6ab1b7bc9740b14c493393eb93163
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6662e2af84b2af1d23ed9941a5ecd5199f7c757161b65933a2154817d717c10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755114"
 ---
 # <a name="msvm_virtualethernetswitchnicteamingmember-class"></a>\_Класс мсвм виртуалесернетсвитчниктеамингмембер
 
@@ -45,7 +45,7 @@ class Msvm_VirtualEthernetSwitchNicTeamingMember : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалесернетсвитчниктеамингмембер** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class Msvm_VirtualEthernetSwitchNicTeamingMember : CIM_Dependency
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

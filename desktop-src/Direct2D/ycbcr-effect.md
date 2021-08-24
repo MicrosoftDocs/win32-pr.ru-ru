@@ -4,12 +4,12 @@ description: Преобразует чрома данные Икбкр в фор
 ms.assetid: E4492996-54DA-4C5F-B44C-8FBE97C8DD7D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c581effbadecc19c39161d2a2ec4af051d4195d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5302300cc539571fabb1c3d786686ffc514636133391e706fc5963002656764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636094"
 ---
 # <a name="ycbcr-effect"></a>Икбкр, результат
 
@@ -22,7 +22,7 @@ ms.locfileid: "104071841"
 -   [Режимы интерполяции](#interpolation-modes)
 -   [Битовая карта вывода](#output-bitmap)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="effect-properties"></a>Свойства эффектов
 
@@ -77,22 +77,22 @@ ms.locfileid: "104071841"
 
 Этот результат выполняет операцию преобразования, а затем применяет ограничивающий прямоугольник вокруг результата. Битовая карта выходных данных — это размер ограничивающего прямоугольника.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента | \[ \| Приложения для Магазина Windows для классических приложений Windows 8.1\]            |
-| Минимальная версия сервера | \[Приложения для Магазина Windows для классических приложений Windows Server 2012 R2 \|\] |
-| Header                   | d2d1effects \_ 1. h                                              |
+| Минимальная версия клиента | Windows 8.1 \[ классические приложения \| Windows приложения магазина\]            |
+| Минимальная версия сервера | Windows Server 2012 приложения для \[ настольных приложений R2 \| Windows Store\] |
+| Заголовок                   | d2d1effects \_ 1. h                                              |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                          |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
