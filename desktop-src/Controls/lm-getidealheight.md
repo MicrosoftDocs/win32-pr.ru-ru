@@ -3,7 +3,7 @@ title: Сообщение LM_GETIDEALHEIGHT (Коммктрл. h)
 description: LM_GETIDEALHEIGHT сообщение — получает предпочтительную высоту ссылки для текущей ширины элемента управления.
 ms.assetid: bf6ef3c1-89bc-4c56-9384-085fd00234e1
 keywords:
-- Элементы управления Windows для LM_GETIDEALHEIGHT сообщений
+- элементы управления Windows сообщений LM_GETIDEALHEIGHT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d6e82f259124e6da285ed2357d48ca07d5f8c08
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7b0cd4b56da08baefe36d9ce1d669c4dbc4939883005c1cd45e59760566b468b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920444"
 ---
 # <a name="lm_getidealheight-message"></a>\_Сообщение ЖЕТИДЕАЛХЕИГХТ LM
 
@@ -46,15 +46,15 @@ ms.locfileid: "108112402"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

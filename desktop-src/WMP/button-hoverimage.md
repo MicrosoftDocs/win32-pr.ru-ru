@@ -3,7 +3,7 @@ title: КНОПКА. Ховеримаже
 description: Атрибут Ховеримаже указывает или получает изображение, отображаемое, когда кнопка находится в состоянии "вверх", и пользователь наводит указатель мыши на него.
 ms.assetid: 6704e63d-1def-4e8e-808f-131c3cc1c0de
 keywords:
-- КНОПКА. Ховеримаже Windows Media Player
+- кнопка. ховеримаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80b17a461ffde4b9f6777f3ce360c6b3f1747235
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8488fb599a958a96ef7b5aaa5afbf4c219110f0da5be7016a8190efe2004475d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003724"
 ---
 # <a name="buttonhoverimage"></a>КНОПКА. Ховеримаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694664"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются форматы изображений BMP, JPG, PNG и GIF.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105694664"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

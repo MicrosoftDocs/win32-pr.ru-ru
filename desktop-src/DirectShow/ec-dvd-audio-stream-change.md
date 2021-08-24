@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 947e19310a77869dbff97851e1ffa0684a3e43a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ad6015ef132a98d02dc207cb9d43b6324ea3a05c541f43e295e75d13b5bb7ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998134"
 ---
 # <a name="ec_dvd_audio_stream_change"></a>\_ \_ \_ изменение потокового воспроизведения на DVD-диске EC \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105679671"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Текущий звуковой поток может автоматически измениться с помощью команды навигации, созданной на диске, а также через Управление приложениями с использованием интерфейса [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) .
 
@@ -54,7 +54,7 @@ ms.locfileid: "105679671"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 

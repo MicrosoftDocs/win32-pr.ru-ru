@@ -4,12 +4,12 @@ ms.assetid: 59c8e348-8c08-4cf8-9c72-8d0f4fabc473
 title: Свойство MFPKEY_WMAAECMA_FEATR_VAD (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e41b8ad80d909a0285b266587d02c09c08d794
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17e23662a8c6966a64140311f24c9af00dc53454cea19c025451698ddbbbd0dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953514"
 ---
 # <a name="mfpkey_wmaaecma_featr_vad-property"></a>МФПКЭЙ \_ вмааекма \_ феатр \_ Вад, свойство
 
@@ -27,11 +27,11 @@ VT \_ I4
 
 0
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение этого свойства является членом перечисления [ \_ Вад \_ режима AEC](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-aec_vad_mode) . Выходными данными при обнаружении голосовой активности является число от 0 до 3, вычисляемое для каждого звукового кадра. DSP кодирует результат в наименьшем бите первых двух звуковых образцов в каждом звуковом кадре. Значение этого параметра зависит от указанного режима.
 
@@ -58,9 +58,9 @@ int AecDecodeVAD(short *pOutput)
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Указывает, является ли указанный цвет цветом Windows.
+description: указывает, является ли указанный цвет Windowsным цветом.
 ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: Функция Фвинимеколорстиле
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Imeshare.dll
-ms.openlocfilehash: 28731672f5f1aff385f9051ba8b641b7cdcdf83c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 723c74ca5017d7908423a9934c002b67ffbc755623da175cc7f1e361f40b42e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002314"
 ---
 # <a name="fwinimecolorstyle-function"></a>Функция Фвинимеколорстиле
 
-Указывает, является ли указанный цвет цветом Windows.
+указывает, является ли указанный цвет Windowsным цветом.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -48,13 +48,13 @@ BOOL __cdecl FWinIMEColorStyle(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **значение true** , если цвет является цветом Windows.
+возвращает **значение TRUE** , если цвет является Windows цветом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ BOOL __cdecl FWinIMEColorStyle(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Клиенты могут получить доступ к инфо
 ms.assetid: 1f6af84f-c6c9-4091-8e6b-2c773541ca97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a3435fd468b41c70105b0b239b35fe24212a7f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72b76e99a66b13c696951a0d46684726f79f29df5b0287e9c4923dc4054943e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030624"
 ---
 # <a name="accessing-opaque-pointers"></a>Доступ к непрозрачным указателям
 
@@ -19,9 +19,9 @@ ms.locfileid: "104532261"
 
 Пример кода, демонстрирующий использование этих функций, см. в разделе [доступ к непрозрачному указателю в назначении](access-the-opaque-pointer-in-a-destination.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 39b45ee7859fea9f1068123041a87309cf40c2d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e4a80954117f96e09f760b6d99343746479bb35d373d06eaa3ac89ac5980a1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922634"
 ---
 # <a name="win32_userdesktop-class"></a>\_Класс Win32 усердесктоп
 
@@ -46,7 +46,7 @@ class Win32_UserDesktop : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ усердесктоп** имеет следующие свойства.
 
@@ -64,7 +64,7 @@ class Win32_UserDesktop : CIM_ElementSetting
 Квалификаторы: [**ключ**](../wmisdk/key-qualifier.md), [**Переопределение**](../wmisdk/standard-qualifiers.md) ("элемент"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("WMI \| Win32 \_ UserAccount")
 </dt> </dl>
 
-Ссылка на экземпляр, представляющий учетную запись пользователя, Рабочий стол которой можно настроить с помощью свойства **Settings** этого класса.
+ссылка на экземпляр, представляющий учетную запись пользователя, рабочий стол которой можно настроить с помощью свойства **Параметры** этого класса.
 
 </dd> <dt>
 
@@ -84,11 +84,11 @@ class Win32_UserDesktop : CIM_ElementSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ усердесктоп** является производным от [**CIM \_ елементсеттинг**](cim-elementsetting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ class Win32_UserDesktop : CIM_ElementSetting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

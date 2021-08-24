@@ -4,12 +4,12 @@ ms.assetid: 7a73c9f0-4d3c-4c39-bcd3-168f112bf667
 title: Пример Кутсцене
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c57c6a1e2ade71ba231e0761f53e7a855a8fd1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6ec527471d0dd9998370097c82c844677bccf9ae5be90ffa740ef29aef624540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053104"
 ---
 # <a name="cutscene-sample"></a>Пример Кутсцене
 
@@ -21,15 +21,15 @@ ms.locfileid: "105673043"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ проигрывателей \\ кутсцене.
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ проигрыватели \\ кутсцене.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

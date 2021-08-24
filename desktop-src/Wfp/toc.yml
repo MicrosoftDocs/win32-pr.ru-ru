@@ -1,7 +1,7 @@
-- name: защита ресурсов Windows
+- name: Windows Защита ресурсов
   href: windows-resource-protection-portal.md
   items:
-    - name: О защита ресурсов Windows
+    - name: о защита ресурсов Windows
       href: about-windows-file-protection.md
       items:
         - name: Список защищенных ресурсов
@@ -14,7 +14,7 @@
           href: system-file-checker.md
         - name: Рекомендации по удаленному администрированию WFP
           href: remote-administration-considerations.md
-    - name: Справочник по защита ресурсов Windows
+    - name: Windows Справочник по защите ресурсов
       href: windows-file-protection-reference.md
       items:
         - name: Функции WRP

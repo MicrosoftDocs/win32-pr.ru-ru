@@ -53,7 +53,7 @@ value = Windows7Param.EnableDbScanInRecovery
 public const JET_param EnableDbScanInRecovery
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,18 +4,18 @@ ms.assetid: 1880ff8f-110c-4661-8b1f-afe1d8d2a38d
 title: Получение сведений о времени и дате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea2c2fa1d15de2c1ba5587a981373ff14b1c1c7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5f461f12cb1c6324892a415142c159ba570759128e61dd02b53a7cceebccc57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040414"
 ---
 # <a name="retrieving-time-and-date-information"></a>Получение сведений о времени и дате
 
 Этот раздел содержит инструкции по использованию функций многоязыковой поддержки в приложениях для получения сведений о [времени и датах](time-and-date.md) , а также данных о длительности. Если приложение должно сохранять данные, см. статью [использование постоянных данных языкового стандарта](using-persistent-locale-data.md).
 
-**Windows Vista и более поздние версии:** Функции, описанные в этом разделе, могут получать данные из [пользовательских языковых стандартов](custom-locales.md). В частности, они могут использоваться для настройки форматов даты и времени. Например, можно использовать формат времени, например "Хххмм'сс" ", что приведет к последующим строкам времени, таким как" 12H34 "12" "".
+**Windows Vista и более поздних версий:** Функции, описанные в этом разделе, могут получать данные из [пользовательских языковых стандартов](custom-locales.md). В частности, они могут использоваться для настройки форматов даты и времени. Например, можно использовать формат времени, например "Хххмм'сс" ", что приведет к последующим строкам времени, таким как" 12H34 "12" "".
 
 ## <a name="retrieve-time-information"></a>Получение сведений о времени
 
@@ -66,9 +66,9 @@ ms.locfileid: "105684023"
 
 ## <a name="retrieve-duration-information"></a>Получение сведений о длительности
 
-**Windows Vista и более поздние версии:** Функции [**жетдуратионформат**](/windows/desktop/api/Winnls/nf-winnls-getdurationformat) и [**жетдуратионформатекс**](/windows/desktop/api/Winnls/nf-winnls-getdurationformatex) доступны для получения форматов длительности для национальных настроек, включая пользовательские языковые стандарты. Чтобы получить формат длительности по умолчанию для языкового стандарта, приложение должно использовать функцию [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) или [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) с константой [locale \_ сдуратион](locale-sduration.md) .
+**Windows Vista и более поздних версий:** Функции [**жетдуратионформат**](/windows/desktop/api/Winnls/nf-winnls-getdurationformat) и [**жетдуратионформатекс**](/windows/desktop/api/Winnls/nf-winnls-getdurationformatex) доступны для получения форматов длительности для национальных настроек, включая пользовательские языковые стандарты. Чтобы получить формат длительности по умолчанию для языкового стандарта, приложение должно использовать функцию [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) или [**GetLocaleInfoEx**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoex) с константой [locale \_ сдуратион](locale-sduration.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

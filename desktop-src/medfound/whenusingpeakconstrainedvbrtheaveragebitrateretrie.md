@@ -4,12 +4,12 @@ ms.assetid: 5fc344f8-4492-4878-802a-94606c5f33e0
 title: При использовании пиковой скорости VBR средняя скорость, полученная от объекта кодека, превышает пиковую скорость. Как это возможно?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2bb2e09f5210baf8817553377fc832b9826b4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa27e1a03c12f854486c65d7959c66f6592da4c3fea84936ee671a911f7fa46d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011954"
 ---
 # <a name="when-i-use-peak-constrained-vbr-the-average-bit-rate-retrieved-from-the-codec-object-is-larger-than-the-peak-bit-rate-how-is-that-possible"></a>При использовании пиковой скорости VBR средняя скорость, полученная от объекта кодека, превышает пиковую скорость. Как это возможно?
 
@@ -21,7 +21,7 @@ ms.locfileid: "104344842"
 
 То же самое происходит с ограничениями пиковой скорости. Для короткого содержимого средняя скорость потока, вычисленная объектом кодека после завершения кодирования, может превышать пиковую скорость.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

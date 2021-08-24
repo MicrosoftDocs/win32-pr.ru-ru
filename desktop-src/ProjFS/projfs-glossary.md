@@ -1,18 +1,18 @@
 ---
-title: Глоссарий файловой системы Windows
+title: Windows Предполагаемый Глоссарий файловой системы
 description: Специальные термины, используемые в Прожфс.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: c6eac8faa83e2c898e4b1a3ada5c24ef81151b22
-ms.sourcegitcommit: a48b68a75323edfb902eb04fbe6d0ecba6988c21
+ms.openlocfilehash: 12b6e90d98fce3882aa5dc8d552f88e9cd9f389d24673fdc5caf175e180082f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "105719113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030991"
 ---
-# <a name="windows-projected-file-system-glossary"></a>Глоссарий файловой системы Windows
+# <a name="windows-projected-file-system-glossary"></a>Windows Предполагаемый Глоссарий файловой системы
 
 Специальные термины, используемые в Прожфс.
 

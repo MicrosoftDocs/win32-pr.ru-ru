@@ -4,12 +4,12 @@ ms.assetid: fce292c5-6702-4948-a13a-2a9ccacbd5c9
 title: Обновление потока сводных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37c022023f79d8f4d3999db6e11e4cf65b73e1ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d95e6a0cf09af5d4a024f707c0694d89def47abf8f731f394c55a11232bc07f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104424041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039284"
 ---
 # <a name="updating-a-summary-information-stream"></a>Обновление потока сводных данных
 
@@ -19,7 +19,7 @@ ms.locfileid: "104424041"
 
 Если текстовые строки с описанием в потоке сводных данных локализованы на новый язык, для свойства « [**Сводка кодовой**](codepage-summary.md) страницы» необходимо задать правильную кодовую страницу для нового языка.
 
-Вы можете изменить поток сводных данных локализованного пакета с помощью той же процедуры, что и при [добавлении сводных данных](adding-summary-information.md). Пример, демонстрирующий использование методов сводки базы данных, также предоставляется в установщик Windows SDK в качестве служебной WiSumInf.vbs. Дополнительные сведения о WiSumInf.vbs см. в разделе [Управление сводными сведениями](manage-summary-information.md).
+Вы можете изменить поток сводных данных локализованного пакета с помощью той же процедуры, что и при [добавлении сводных данных](adding-summary-information.md). пример, демонстрирующий использование методов сводки базы данных, также предоставляется в установщик Windows SDK в качестве служебной WiSumInf.vbs. Дополнительные сведения о WiSumInf.vbs см. в разделе [Управление сводными сведениями](manage-summary-information.md).
 
 [Продолжить](adding-localized-resources.md)
 

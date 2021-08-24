@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 11e4629e33b1fb1f10eb01a230b689babee7b07e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67e159426ec70f87f23d3c022a6f5ab3049f576daf14363875b70c9ea8e20076
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904944"
 ---
 # <a name="dataitemname-processingerrordatatype-element"></a>Датаитемнаме (Процессинжеррордататипе), элемент
 
@@ -32,18 +32,18 @@ ms.locfileid: "104491274"
 
 Элемент **датаитемнаме** определяется сложным типом [**процессинжеррордататипе**](eventschema-processingerrordatatype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

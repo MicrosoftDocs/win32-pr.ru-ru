@@ -7,12 +7,12 @@ keywords:
 - Основные сведения об управлении RRAS, Справочник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6535b5e85751a97e86067a91444024464f5b07c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04ce4acb724fe96be02412d7258b5f5918c6d02e69d60377f8f7b49a63f70852
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027644"
 ---
 # <a name="router-management-mib-reference"></a>Справочник по MIB управления маршрутизаторами
 
@@ -23,6 +23,6 @@ ms.locfileid: "104070119"
 
 Структуры, определяющие переменные MIB, задокументированы в разделе Сетевые [Интерфейсы базового API управления сведениями](/previous-versions/windows/desktop/mib/management-information-base-reference) , не зависящими от технологий.
 
- 
+ 
 
- 
+ 

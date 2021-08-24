@@ -111,7 +111,7 @@ class MDM_DeviceStatus
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -125,7 +125,7 @@ class MDM_DeviceStatus
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

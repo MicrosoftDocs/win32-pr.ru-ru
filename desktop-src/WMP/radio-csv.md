@@ -3,18 +3,18 @@ title: radio.csv
 description: radio.csv
 ms.assetid: 8b0a1852-b6c9-4598-b1ab-c679362794b3
 keywords:
-- Интернет-магазины проигрывателя Windows Media, radio.csv
+- проигрыватель Windows Media интернет-магазинов, radio.csv
 - Интернет-магазины, radio.csv
 - Введите 1 Интернет-магазины, radio.csv
 - radio.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5271f3a87b32d27996f61e444723f537a09cb827
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b473bfaa960dd499fae7eb309d02ccbd693b70061d0975c58357bd72e9dcc410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002944"
 ---
 # <a name="radiocsv"></a>radio.csv
 

@@ -1,19 +1,19 @@
 ---
-description: Новые для Windows 7. Определяет свойство, связанное со свойством, определенным в файле описания свойства.
+description: новое для Windows 7. Определяет свойство, связанное со свойством, определенным в файле описания свойства.
 ms.assetid: 30167942-141A-4f37-B019-0811BA654124
 title: relatedProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cabde093a47a25834598659d3ad38e0847c1351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4285c0f8b0731ba790cd57105f907cd4df85b6faa41c3f649588aca7ef457418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938684"
 ---
 # <a name="relatedproperty"></a>relatedProperty
 
-Новые для Windows 7. Определяет свойство, связанное со свойством, определенным в файле описания свойства. В [релатедпропертинфо](./propdesc-schema-relatedpropertyinfo.md) может быть столько элементов [relatedProperty]() , сколько необходимо.
+новое для Windows 7. Определяет свойство, связанное со свойством, определенным в файле описания свойства. В [релатедпропертинфо](./propdesc-schema-relatedpropertyinfo.md) может быть столько элементов [relatedProperty]() , сколько необходимо.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -55,7 +55,7 @@ ms.locfileid: "104344802"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот элемент позволяет сопоставлять одно свойство с другим. Например, можно сопоставлять текст пользовательского свойства, fabrikam. СторажекапаЦити, с System. Capacity:
 

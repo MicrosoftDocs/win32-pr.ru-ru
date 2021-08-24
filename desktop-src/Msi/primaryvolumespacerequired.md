@@ -4,18 +4,18 @@ ms.assetid: 44c89bd8-774a-4b4f-9608-9a1926ef3b7d
 title: Примариволумеспацерекуиред, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ae1b210e57ee054191d908e4962c7568f0c6acf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08c644c53b5a36c8ba834a52c22ca3ba2b192499cbf351f122d8ed2b6a66a57f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042264"
 ---
 # <a name="primaryvolumespacerequired-property"></a>Примариволумеспацерекуиред, свойство
 
 Установщик устанавливает значение свойства **примариволумеспацерекуиред** в строку, представляющую общее число байтов, необходимое для всех выбранных компонентов на томе, на который ссылается свойство [**примариволумепас**](primaryvolumepath.md) . Как и в случае со свойством [**примариволумеспацеаваилабле**](primaryvolumespaceavailable.md) , это число выражается в единицах, равных 512 байт.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Примечание. Если это значение должно отображаться в статическом [элементе управления "текст](text-control.md)", бит [форматсизе](formatsize-control-attribute.md) можно использовать для автоматического форматирования и пометки этого числа в килобайтах или мегабайтах соответственно.
 
@@ -25,7 +25,7 @@ ms.locfileid: "105652277"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 в Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

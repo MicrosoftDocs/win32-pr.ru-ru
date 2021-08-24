@@ -83,7 +83,7 @@ typedef interface ID3DXPRTCompBuffer *LPD3DXPRTCOMPBUFFER;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

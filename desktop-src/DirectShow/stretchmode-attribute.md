@@ -4,12 +4,12 @@ ms.assetid: 9a26bb8b-2b1c-424a-ae30-e175c60c76a1
 title: Атрибут стретчмоде
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a629a34dc1875a7f1d3669e32c53d0e8d3d29c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed398fbe193ef262bdfc9a28cf66bef3a5b11f759d90c460cc99342ec7cd66b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903874"
 ---
 # <a name="stretchmode-attribute"></a>Атрибут стретчмоде
 
@@ -29,11 +29,11 @@ ms.locfileid: "103911703"
 -   "пресервеаспектратио": исходные пропорции сохраняются, а черная леттербокс — в более коротком измерении.
 -   "пресервеаспектратионолеттербокс": Размер изображения изменяется для заполнения всего целевого кадра с сохранением пропорций.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**clip**](clip-element.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

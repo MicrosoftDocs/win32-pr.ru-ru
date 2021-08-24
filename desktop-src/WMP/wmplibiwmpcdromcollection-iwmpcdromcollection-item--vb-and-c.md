@@ -3,9 +3,9 @@ title: Метод Ивмпкдромколлектион Item
 description: Метод Item возвращает интерфейс Ивмпкдром по заданному индексу.
 ms.assetid: 66e51aa9-39c8-4b79-9cc7-d7125516e87e
 keywords:
-- Метод Item проигрыватель Windows Media Player
-- Метод Item проигрыватель Windows Media Player, интерфейс Ивмпкдромколлектион
-- Интерфейс Ивмпкдромколлектион Windows Media Player, метод Item
+- проигрыватель Windows Media метода элемента
+- метод Item проигрыватель Windows Media, интерфейс ивмпкдромколлектион
+- проигрыватель Windows Media интерфейса ивмпкдромколлектион, метод Item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf0c4a0c79a17b1e6956ba640daec74f0cbb2825
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 80ab1ced32918e615230b3267d15dfbe5b2ba28377f6bbf265b735ea666153a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900114"
 ---
 # <a name="iwmpcdromcollectionitem-method"></a>Метод Ивмпкдромколлектион:: Item
 
@@ -64,13 +64,13 @@ Implements IWMPCdromCollection.Item
 
 Интерфейс **вмплиб. ивмпкдром** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере **элемент** используется для вывода спецификатора диска и имени списка воспроизведения с каждого компакт-диска, доступного на компьютере в окне списка. Если на самом деле диск содержит содержимое DVD, требуется ОС Windows XP или более поздней версии. Объект **аксвмплиб. аксвиндовсмедиаплайер** представлен переменной с именем Player.
+В следующем примере **элемент** используется для вывода спецификатора диска и имени списка воспроизведения с каждого компакт-диска, доступного на компьютере в окне списка. если на самом деле диск содержит содержимое DVD, требуется Windows XP или более поздней версии. Объект **аксвмплиб. аксвиндовсмедиаплайер** представлен переменной с именем Player.
 
 
 ```CSharp
@@ -112,19 +112,19 @@ Next i
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

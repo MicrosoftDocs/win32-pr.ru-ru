@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 12af672b929822180c4dba681ca333692a9174ec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f5a382823da73df68ec0c32e120c0e94a2a7deba86e6aac4afe01e4e46acd7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951804"
 ---
 # <a name="id3dxeffectapplyparameterblock-method"></a>Метод ID3DXEffect:: Апплипараметерблокк
 
@@ -55,22 +55,22 @@ HRESULT ApplyParameterBlock(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Изменения состояния параметров эффектов захвата в блоке параметров путем вызова Бегинпараметерблокк; останавливает запись изменений состояния путем вызова Ендпараметерблокк. Эти изменения состояния включают любые изменения параметров эффектов, происходящие внутри метода (в том числе за пределами прохода). Когда вы завершите работу с блоком параметров, вызовите Делетепараметерблокк для восстановления памяти.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

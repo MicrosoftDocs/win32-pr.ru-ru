@@ -1,6 +1,6 @@
 ---
-description: 'Подробнее о: расширяемых функциях подсистемы хранилища'
-title: Расширяемые функции подсистемы хранилища
+description: 'дополнительные сведения: расширяемые функции служба хранилища Engine'
+title: расширяемые функции служба хранилища Engine
 TOCTitle: Extensible Storage Engine Functions
 ms:assetid: c105fa69-e558-4e11-995c-dcf1e5cfbe7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294078(v=EXCHG.10)
@@ -14,21 +14,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ae151bacca3c542f0d1632f077c73f537a071bc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690167c88ce092aac078da53b559c6f72b41abd4658dba196c1e54124a2e7eed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969044"
 ---
-# <a name="extensible-storage-engine-functions"></a>Расширяемые функции подсистемы хранилища
+# <a name="extensible-storage-engine-functions"></a>расширяемые функции служба хранилища Engine
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
-## <a name="extensible-storage-engine-functions"></a>Расширяемые функции подсистемы хранилища
+## <a name="extensible-storage-engine-functions"></a>расширяемые функции служба хранилища Engine
 
-Расширенный API подсистемы хранилища содержит следующие функции.
+расширяемый API-интерфейс служба хранилища Engine содержит следующие функции.
 
   - [жетаддколумн](./jetaddcolumn-function.md)
 

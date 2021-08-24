@@ -4,12 +4,12 @@ ms.assetid: 055458cf-9fc7-4a16-be14-1122b3cf0251
 title: О процессах и потоках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 650eab4421971bdc08e71c031aec433ed84471bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62cbce9375d3c27fd58d6bab48c11fe2bdb825dfc729c2176dd2f14eba0a958e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032624"
 ---
 # <a name="about-processes-and-threads"></a>О процессах и потоках
 

@@ -4,12 +4,12 @@ ms.assetid: 9c1cd6c5-d246-49d8-a632-991274bb4511
 title: Безопасные преобразования с полными путями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8a60cf30beffe3831ed6489ea3827124ae319a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f55e16f40d99deceb8b625297cf447ebf5ec7dfb14a25518554804cf35b572e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104547095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040904"
 ---
 # <a name="secure-full-path-transforms"></a>Безопасные преобразования с полными путями
 

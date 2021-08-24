@@ -4,12 +4,12 @@ ms.assetid: 07483a78-ee67-4586-a75b-d376aa3351b7
 title: Получение идентификатора GUID поставщика и класса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c12554cdb39459d824bf6622cd9d50e52f8c788d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c480a45a5a826d3f258ab267e39db87bc85fad799fef5d7397a7c900f4872f22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914354"
 ---
 # <a name="obtaining-a-provider-and-class-guid"></a>Получение идентификатора GUID поставщика и класса
 
@@ -29,7 +29,7 @@ DEFINE_GUID (
   );
 ```
 
-Пакет средств разработки программного обеспечения Microsoft Windows (SDK) и Microsoft Visual Studio включают в себя средство Guidgen.exe. Средство Guidgen.exe имеет пользовательский интерфейс, позволяющий выбрать один из нескольких форматов. Следует использовать формат, который создает статический GUID константы, как показано в следующем примере.
+пакет средств разработки Microsoft Windows Software Development Kit (SDK) и Microsoft Visual Studio содержит средство Guidgen.exe. Средство Guidgen.exe имеет пользовательский интерфейс, позволяющий выбрать один из нескольких форматов. Следует использовать формат, который создает статический GUID константы, как показано в следующем примере.
 
 ``` syntax
 // {7C214FB1-9CAC-4b8d-BAED-7BF48BF63BB3}

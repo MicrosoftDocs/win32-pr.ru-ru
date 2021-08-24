@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cbcd5e8a7c37d3265f508ac7632ffd4b18c8a00f
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 9cfd9cbb93a4d517391be0afe591d3378d9ecef32a0013ab452d31b9eecb6d59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "105651564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043214"
 ---
 # <a name="fourccmapfourccmap-constructor-fourcch---fourcc-parameter"></a>Конструктор Фаурккмап:: Фаурккмап (FourCC. h) — параметр FourCC
 
@@ -49,7 +49,7 @@ FOURCCMap(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот объект создан с помощью кода **FourCC** , для его сопоставления создается **идентификатор GUID** . Если этот объект создается с существующим **идентификатором GUID**, значение **FourCC** объекта устанавливается в 0. Впоследствии значение **FourCC** можно задать или получить с помощью функций члена [**сетфауркк**](fourccmap-setfourcc.md) и [**жетфауркк**](fourccmap-getfourcc.md) соответственно.
 
@@ -57,7 +57,7 @@ FOURCCMap(
 
 | Требование | Значение |
 |-|-|
-| Header  | FourCC. h (включение Streams. h) |
+| Заголовок  | Fourcc. h (включает Потоки. h) |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел

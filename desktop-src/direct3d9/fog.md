@@ -4,12 +4,12 @@ ms.assetid: 42045e96-43aa-4cec-82b5-0b46a7d5097b
 title: Туман (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44b9ed234bef0f3dea76baa98390f25e9b2003a6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8f06f9ff25c132feaed4ada291e7f063fcbfb3f4f1129cf934b43795b79b20aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026942"
 ---
 # <a name="fog-direct3d-9"></a>Туман (Direct3D 9)
 
@@ -39,7 +39,7 @@ Direct3D предоставляет два способа добавления �
 
 Смешение тумана управляется состояниями отрисовки; Он не является частью программируемого конвейера пикселей.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

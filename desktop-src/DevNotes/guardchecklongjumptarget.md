@@ -35,18 +35,18 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 02f659f77ab2bace129c9b9d9011b4c93e59b2f4
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: bcc8565401e09e8a4a3e0dfb221f240255b00bd0e91b9c2611b21db3ee1c0201
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "105654277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002264"
 ---
 # <a name="guardchecklongjumptarget-function"></a>Функция Гуардчекклонгжумптаржет
 
 ## <a name="description"></a>Описание
 
-Пытается проверить, является ли целевой объект [longjmp](/cpp/c-runtime-library/reference/longjmp) допустимым для процесса, в котором включена [Защита потока управления (cfg)](../secbp/control-flow-guard.md) .
+пытается проверить, является ли целевой объект [longjmp](/cpp/c-runtime-library/reference/longjmp) допустимым для процесса, который имеет включенный [контроль Flow Guard (CFG)](../secbp/control-flow-guard.md) .
 
 Если целевой адрес соответствует сопоставлению изображений, то для двоичного файла извлекаются допустимые целевые объекты.
 Функция использует эти целевые объекты для проверки целевого объекта.
@@ -69,6 +69,6 @@ ms.locfileid: "105654277"
 
 **Значение true** , если целевой объект является допустимым; в противном случае — **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ## <a name="see-also"></a>См. также раздел

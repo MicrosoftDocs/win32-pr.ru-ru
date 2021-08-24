@@ -4,12 +4,12 @@ ms.assetid: CF38F6E8-A43D-4A97-8055-6B17E323524C
 title: Классы хранения
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c17ad2530a86e7f404fe19eaeb3ef5a1cd7895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c46efc17b3df5e1a509cec3565c6aaa7b65ff06d189951b100ac06d93a957e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829674"
 ---
 # <a name="storage-classes"></a>Классы хранения
 
@@ -41,7 +41,7 @@ ms.locfileid: "105684264"
 | [**Мсвм \_ сксипротоколконтроллер**](msvm-scsiprotocolcontroller.md)<br/>             | Представляет искусственный контроллер SCSI.<br/>                                                                                                                                                                |
 | [**Мсвм \_ сторажеалерт**](msvm-storagealert.md)<br/>                                 | Представляет событие, которое вызывается каждый раз при изменении свойства **OperationalStatus** класса [**Мсвм \_ ResourcePool**](msvm-resourcepool.md) или [**мсвм \_ LogicalDisk**](msvm-logicaldisk.md) .<br/> |
 | [**Мсвм \_ сторажеаллокатионсеттингдата**](msvm-storageallocationsettingdata.md)<br/> | Представляет параметры, относящиеся к выделению виртуального хранилища.<br/>                                                                                                                         |
-| [**Мсвм \_ сторажежоб**](msvm-storagejob.md)<br/>                                     | Представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.<br/>                                                                                                          |
+| [**Мсвм \_ сторажежоб**](msvm-storagejob.md)<br/>                                     | представляет задание операции с хранилищем, созданным службой управления образами Microsoft Hyper-V.<br/>                                                                                                          |
 | [**Мсвм \_ виртуалхарддисксеттингдата**](msvm-virtualharddisksettingdata.md)<br/>     | Предоставляет данные настройки для виртуального жесткого диска.<br/>                                                                                                                                                         |
 | [**Мсвм \_ виртуалхарддискстате**](msvm-virtualharddiskstate.md)<br/>                 | Предоставляет сведения о состоянии для существующего образа виртуального жесткого диска.<br/>                                                                                                                                    |
 

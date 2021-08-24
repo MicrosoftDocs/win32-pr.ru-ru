@@ -4,12 +4,12 @@ ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: Общие группы свойств
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 776dafe5c7e9752ce3ed1c88b01fd909b4b145de
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 2cda375c09b164e4ed380ba7d89477f2225b5b6004f98299ec9fd9b46f80abee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103819837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029223"
 ---
 # <a name="shared-property-groups"></a>Общие группы свойств
 
@@ -27,7 +27,7 @@ ms.locfileid: "103819837"
 
 -   [**Ишаредпроперти**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedproperty) используется для установки или получения значения общего свойства. Общее свойство может содержать любой тип данных, который может быть представлен вариантом. Доступ к интерфейсу **ишаредпроперти** можно получить, создав объект [**шаредпроперти**](sharedproperty.md) с помощью метода [**ишаредпропертиграуп:: CreateProperty**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createproperty) или метода [**ишаредпропертиграуп:: креатепропертибипоситион**](/windows/desktop/api/ComSvcs/nf-comsvcs-isharedpropertygroup-createpropertybyposition) . Объект **шаредпроперти** может быть создан или доступен только в объекте [**шаредпропертиграуп**](sharedpropertygroup.md) . Опять же, необходимо освободить объект **шаредпроперти** по завершении его использования.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

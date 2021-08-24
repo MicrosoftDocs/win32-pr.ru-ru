@@ -4,12 +4,12 @@ ms.assetid: 687d5692-4a83-4de8-b99d-859aaaddd16d
 title: Назначение ролей компонентам, интерфейсам или методам
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5efb66c9de865cbfcdc6e9cb047af92c95f6bc0a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 22fcec11a52182bc0c9ac6f643c6c9cd75cb7b7462c35bbdea1ad0bc401f6ed4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029864"
 ---
 # <a name="assigning-roles-to-components-interfaces-or-methods"></a>Назначение ролей компонентам, интерфейсам или методам
 
@@ -29,11 +29,11 @@ ms.locfileid: "104423410"
 
 4.  В поле **роли, явно заданные для выбранных элементов** выберите роли, которые необходимо назначить элементу.
 
-5.  Нажмите кнопку **ОК**.
+5.  Нажмите **OK**.
 
 Все роли, явно заданные для элемента, будут наследоваться всеми элементами более низкого уровня, которые он содержит, и будут отображаться в окне **роли, наследуемые выбранными** элементами для этих элементов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -42,7 +42,7 @@ HRESULT GetSize(
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [**Иаженткоммандвиндов:: Disposition**](iagentcommandwindow--getposition.md)
 
