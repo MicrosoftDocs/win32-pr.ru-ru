@@ -4,16 +4,16 @@ ms.assetid: a42f6cdd-47e9-4f43-aeaf-37a5abb0fa36
 title: Использование данных счетчиков
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: c8c50b29d8f898f544b021f7fe3f3fd0d4a2094e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3abcc6dd5a385ebffdc887516613efb76b53359e5f8995bc28ba7f6239187b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775684"
 ---
 # <a name="consuming-counter-data"></a>Использование данных счетчиков
 
-Программы, которые хотят читать и использовать данные счетчиков производительности Windows, могут использовать один из нескольких интерфейсов в соответствии с ситуацией.
+программы, которые хотят считывать и использовать Windows данные счетчиков производительности, могут использовать один из нескольких интерфейсов в соответствии с ситуацией.
 
 - Скрипты могут использовать [Классы счетчиков производительности WMI](/windows/desktop/WmiSdk/monitoring-performance-data) или средство [типеперф](/windows-server/administration/windows-commands/typeperf) .
 - Программы .NET могут использовать [класс PerformanceCounter](/dotnet/api/system.diagnostics.performancecounter).

@@ -4,12 +4,12 @@ description: Страница свойств отправляет сообщен
 ms.assetid: 82768E43-97BA-451A-9373-D5B8FD06ABED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c544910e44e0c865e738427285d7488147b9c1
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 9baf0c58fdbcbe5378dd46e828a2d29a7c91832174c9564660a82c5ab70997a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103789355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575484"
 ---
 # <a name="how-to-process-notification-messages"></a>Обработка сообщений с уведомлениями
 
@@ -17,16 +17,16 @@ ms.locfileid: "103789355"
 
 Параметр *lParam* сообщения является адресом структуры [**NMHDR**](/windows/desktop/api/richedit/ns-richedit-nmhdr) , которая содержит маркер диалогового окна страницы свойств, обработчика для диалогового окна страница и код уведомления. Страница должна отвечать на некоторые сообщения уведомления, присвоив параметру DWL \_ мсгресулт страницы значение **true** или **false**.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -60,19 +60,19 @@ case WM_NOTIFY:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование страниц свойств](using-property-sheets.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

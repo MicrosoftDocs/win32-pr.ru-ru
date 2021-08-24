@@ -44,7 +44,7 @@ Status = LocationDisp.CivicAddressReportFactory.Status
 
 | Состояние                                                                                               | Значение                          |
 |------------------------------------------------------------------------------------------------------|----------------------------------|
-| <span id="0"></span><dl> <dt>**0,0**</dt> </dl> | Отчет не поддерживается.<br/> |
+| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Отчет не поддерживается.<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Ошибка.<br/>                |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Доступ запрещен.<br/>        |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Инициализация.<br/>         |
@@ -58,7 +58,7 @@ Status = LocationDisp.CivicAddressReportFactory.Status
 
 Пример использования этого свойства см. в разделе [прослушивание событий административного адреса](/uwp/api/Windows.Devices.Geolocation).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра НОНРЕДИСТ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d537208ecaf98cec46591966e4ae7d9c205850a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b303c145ea48a51f72d6ee21078b5f29a6b6d4fabc7184d4a37e980a2bbb2e4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678464"
 ---
 # <a name="nonredist"></a>нонредист
 
@@ -21,18 +21,18 @@ ms.locfileid: "104068665"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   NONREDIST
-      name1
-      name2
+   NONREDIST
+      name1
+      name2
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Файлы, добавляемые в список, представлены парами «имя-значение», которые хранятся в этом разделе. В каждой паре «имя-значение» именем является имя файла, а значение зарезервировано.
 
- 
+ 
 
- 
+ 
 
 
 

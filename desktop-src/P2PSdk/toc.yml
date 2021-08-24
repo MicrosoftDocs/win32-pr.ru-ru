@@ -249,7 +249,7 @@
                   href: how-to-work-with-groups.md
                 - name: Принципы работы группы безопасности
                   href: how-group-security-works.md
-                - name: Подключение к одноранговой группе
+                - name: Подключение одноранговой группы
                   href: how-to-connect-to-a-peer-group.md
                 - name: Приглашение однорангового узла в группу
                   href: inviting-a-peer-to-a-group.md
@@ -646,9 +646,9 @@
                   href: people-near-me-apis.md
                 - name: Магазины "Соседние пользователи"
                   href: people-near-me-stores.md
-                - name: Одноранговые компоненты Windows для "соседних пользователей"
+                - name: Windows Одноранговые компоненты для "соседних пользователей"
                   href: windows-peer-components-for-people-near-me.md
-                - name: Компоненты Windows Vista для "соседних пользователей"
+                - name: Windows Компоненты Vista для "соседних пользователей"
                   href: windows-vista-components-for-people-near-me.md
         - name: Справочник по API совместной работы
           href: collaboration-api-reference.md

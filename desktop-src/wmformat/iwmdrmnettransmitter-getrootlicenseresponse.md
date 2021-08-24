@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3497a3eaedb872b7d2c9eb5d7782d01f8b35462
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de89389163a9eae66a0dcda14dd6b9699d3db9650140cceac6498b2ab77a4e44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707934"
 ---
 # <a name="iwmdrmnettransmittergetrootlicenseresponse-method"></a>Метод Ивмдрмнеттрансмиттер:: Жетрутлиценсереспонсе
 
@@ -80,7 +80,7 @@ HRESULT GetRootLicenseResponse(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Созданная корневая лицензия создается с использованием сведений из данных запроса лицензии, которые обрабатываются для интерфейса путем вызова [**сетлиценсечалленже**](iwmdrmnettransmitter-setlicensechallenge.md).
 
@@ -94,7 +94,7 @@ HRESULT GetRootLicenseResponse(
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

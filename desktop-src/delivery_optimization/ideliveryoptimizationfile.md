@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b86434f4be2f7d14ae46f4af92784c1be4fd1aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 880cc982d32e2a81b4263c3cba55331ea5524643adfc8483ed96465154d47cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635744"
 ---
 # <a name="ideliveryoptimizationfile-interface"></a>Интерфейс Иделиверйоптимизатионфиле
 
@@ -47,9 +47,9 @@ ms.locfileid: "105710475"
 
 | Требование | Значение |
 |-------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента      | \[Только для настольных приложений Windows 10 версии 1709\]                                   |
-| Минимальная версия сервера      | \[Только для настольных приложений Windows Server версии 1709\]                               |
-| Header                        | Deliveryoptimization. h                                                           |
+| Минимальная версия клиента      | Windows 10, только для \[ настольных приложений версии 1709\]                                   |
+| Минимальная версия сервера      | Windows Server, только для \[ настольных приложений версии 1709\]                               |
+| Заголовок                        | Deliveryoptimization. h                                                           |
 | IDL                           | DeliveryOptimization. idl                                                         |
 | Библиотека                       | Досвк. lib                                                                        |
 | DLL                           | Dosvc.dll                                                                        |

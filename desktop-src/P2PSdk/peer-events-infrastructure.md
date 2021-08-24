@@ -4,12 +4,12 @@ ms.assetid: a056da1c-b8f9-4dad-8df9-df24c6b359b7
 title: Инфраструктура событий одноранговых узлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6347ad6a7dd0cf2fae4a0aa623bfda48ab0aa9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a889f59e4429e64258c047dfbf0249bb4dca125bfc3f9d659e6042dd40be9443
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775954"
 ---
 # <a name="peer-events-infrastructure"></a>Инфраструктура событий одноранговых узлов
 
@@ -49,7 +49,7 @@ ms.locfileid: "105663309"
 
 После того как приложению не требуется уведомление о событии однорангового узла, приложение вызывает либо [**пирграфунрегистеревент**](/windows/desktop/api/P2P/nf-p2p-peergraphunregisterevent), либо передает маркер однорангового события, возвращенный [**пирграфрегистеревент**](/windows/desktop/api/P2P/nf-p2p-peergraphregisterevent) при регистрации приложения.
 
-## <a name="handling-graph-connection-referrals"></a>Обработка ссылок на подключения графов
+## <a name="handling-graph-connection-referrals"></a>обработка ссылок Graph соединений
 
 При вызове [**пирграфконнект**](/windows/desktop/api/P2P/nf-p2p-peergraphconnect) одноранговый узел уведомляется об успешном или неуспешном выполнении через событие **\_ \_ \_ \_ соединения соседа асинхронного однорангового графа** . Если соединение не удалось из-за конкретных проблем с сетью (например, неправильно настроенного брандмауэра), возникает **событие \_ \_ \_ \_ подключения соседа однорангового графа** , при этом состояние подключения установлено в **одноранговое \_ соединение \_ не удалось**.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6b70dbaf010b839a0069513f97de8fdab1c0a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a14de889e614aaba28757716326bcd1cf843aed64fe2dc58ca86430d65db628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606224"
 ---
 # <a name="wm_nextdlgctl-message"></a>\_Сообщение НЕКСТДЛГКТЛ WM
 
@@ -54,13 +54,13 @@ ms.locfileid: "104534730"
 
 Приложение должно вернуть нуль, если оно обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение выполняет дополнительные операции управления диалогового окна, помимо тех, которые выполняются функцией [**SetFocus**](/windows/desktop/api/winuser/nf-winuser-setfocus) . **\_ некстдлгктл** обновляет границу кнопки по умолчанию, устанавливает идентификатор элемента управления по умолчанию и автоматически выбирает текст элемента управления "поле ввода" (если целевое окно является элементом управления редактирования).
 
 Не используйте функцию [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) для отправки сообщения **WM \_ некстдлгктл** , если приложение будет параллельно обрабатывать другие сообщения, которые задают фокус. Вместо этого используйте функцию [**посообщений**](/windows/desktop/api/winuser/nf-winuser-postmessagea) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,11 +68,11 @@ ms.locfileid: "104534730"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

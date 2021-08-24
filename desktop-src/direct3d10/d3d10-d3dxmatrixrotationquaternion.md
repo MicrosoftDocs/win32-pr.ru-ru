@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7d95d28b7f7106df9ddfb43a9175f5c19292d52c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6690211f177063b0ff9d90091d8d19a5cafd4d8b8a149e5ef95ad8829a3f2afa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754324"
 ---
 # <a name="d3dxmatrixrotationquaternion-function-d3dx10mathh"></a>Функция D3DXMatrixRotationQuaternion (D3DX10Math. h)
 
@@ -77,12 +77,12 @@ D3DXMATRIX* D3DXMatrixRotationQuaternion(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 80873d5d-a7cb-44d5-8b91-9c5513121989
 title: System. GPS. Спидреф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32eee03b056035fea2ff595ce16487c50761def1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b5a9091a61b724255bcf116baedc94dc294c918db6fee2506d511d47ae20a94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775244"
 ---
 # <a name="systemgpsspeedref"></a>System. GPS. Спидреф
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

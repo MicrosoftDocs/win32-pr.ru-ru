@@ -4,12 +4,12 @@ ms.assetid: 7718383a-6e49-4ad2-acc1-fc8fec0d4844
 title: Типы освещения (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39ae2c7fd5380b0f604181f36d784afe3f3fc3ff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3cd451fcf45e67f1d789b7481fcc1884282d2018db98ab26d27481bec5277031
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674432"
 ---
 # <a name="light-types-direct3d-9"></a>Типы освещения (Direct3D 9)
 
@@ -69,7 +69,7 @@ ms.locfileid: "104072128"
 
 Влияние различных значений ослабления на фактическое освещение довольно умеренное, и небольшое снижение производительности вызывается при расчете кривой для значений ослабления, отличных от 1,0. По этим причинам это значение обычно устанавливается равным 1,0.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

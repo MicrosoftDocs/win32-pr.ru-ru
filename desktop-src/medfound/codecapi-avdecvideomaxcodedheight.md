@@ -4,12 +4,12 @@ ms.assetid: 4122B150-3415-4288-8273-AB600901808A
 title: Свойство CODECAPI_AVDecVideoMaxCodedHeight (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ff4ddb68acde1b778c5b8656923dd80b7765a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9216a4ee0000dbbe1a883b6d9a02056f135b43783d2f8b386c51e495bbdb7082
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606504"
 ---
 # <a name="codecapi_avdecvideomaxcodedheight-property"></a>КОДЕКАПИ \_ авдеквидеомакскодедхеигхт, свойство
 
@@ -23,19 +23,19 @@ ms.locfileid: "105692083"
 
 КОДЕКАПИ \_ авдеквидеомакскодедхеигхт
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

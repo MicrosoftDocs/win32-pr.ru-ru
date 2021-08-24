@@ -1,9 +1,9 @@
 ---
 title: XTYP_XACT_COMPLETEная транзакция (Ддемл. h)
-description: Функция обратного вызова клиента платформа динамических данных Exchange (DDE), Ддекаллбакк, получает \_ \_ транзакцию транзакции кстип Complete, когда завершается асинхронная транзакция, инициированная вызовом функции ддеклиенттрансактион.
+description: функция обратного вызова клиента платформа динамических данных Exchange (DDE) получает \_ \_ транзакцию транзакции кстип COMPLETE, когда завершается асинхронная транзакция, инициированная вызовом функции ддеклиенттрансактион.
 ms.assetid: d34a6fab-0e3c-44fe-b25f-7011228fe261
 keywords:
-- XTYP_XACT_COMPLETE обмена данными транзакций
+- XTYP_XACT_COMPLETE данных транзакций Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03a81869270a771836c4dd5c1a6b300f148ea13d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d3833207371bbfab059f67ecb5bdb72b77334ef3ffc73618e013ce137835c6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678014"
 ---
 # <a name="xtyp_xact_complete-transaction"></a>\_Транзакция кстип \_ транзакции завершена
 
-Функция обратного вызова клиента платформа динамических данных Exchange (DDE), [*ддекаллбакк*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), Получает транзакцию транзакции **кстип \_ \_ Complete** , когда завершается асинхронная транзакция, инициированная вызовом функции [**ддеклиенттрансактион**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
+функция обратного вызова клиента платформа динамических данных Exchange (DDE) получает транзакцию транзакции **кстип \_ \_ COMPLETE** [*, когда*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)завершается асинхронная транзакция, инициированная вызовом функции [**ддеклиенттрансактион**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
 
 
 ```C++
@@ -93,11 +93,11 @@ ms.locfileid: "105681824"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение не должно освобождать полученный во время этой транзакции маркер данных. Однако приложение должно копировать данные, связанные с этим обработчиком данных, если приложение должно обработать данные после возвращения функции обратного вызова. Приложение может использовать функцию [**ддежетдата**](/windows/desktop/api/Ddeml/nf-ddeml-ddegetdata) для копирования данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,11 +105,11 @@ ms.locfileid: "105681824"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                   |
-| Заголовок<br/>                   | <dl> <dt>Ддемл. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ддемл. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -125,7 +125,7 @@ ms.locfileid: "105681824"
 **Зрения**
 </dt> <dt>
 
-[Библиотека управления платформа динамических данных Exchange](dynamic-data-exchange-management-library.md)
+[библиотека управления Exchange платформа динамических данных](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

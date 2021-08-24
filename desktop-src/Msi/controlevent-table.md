@@ -4,12 +4,12 @@ ms.assetid: e34d17e9-cd6b-4a21-9abc-9562ee648c59
 title: Таблица таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 721dc7ac9a729b8df0623a2958a4d0fe32851307
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fec4837fa7d98289495bbb0773ae7260f957485cd87214dabf1999b1e1a876c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693004"
 ---
 # <a name="controlevent-table"></a>Таблица таблице ControlEvent событие
 
@@ -23,12 +23,12 @@ ms.locfileid: "103913080"
 
 | Столбец    | Type                         | Ключ | Допускает значения NULL |
 |-----------|------------------------------|-----|----------|
-| Диалог\_  | [Идентификатор](identifier.md) | Да   | Нет        |
-| элементом управления\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| Событие     | [Формате](formatted.md)   | Да   | Нет        |
-| Аргумент  | [Формате](formatted.md)   | Да   | Нет        |
+| Диалог\_  | [Идентификатор](identifier.md) | Д   | Нет        |
+| элементом управления\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| Событие     | [Формате](formatted.md)   | Д   | Нет        |
+| Аргумент  | [Формате](formatted.md)   | Д   | Нет        |
 | Условие | [Condition](condition.md)   | Да   | Да        |
-| Упорядочение  | [Integer](integer.md)       | Нет   | Да        |
+| Упорядочение  | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -84,11 +84,11 @@ ms.locfileid: "103913080"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В [таблице таблица eventmapping](eventmapping-table.md) перечислены элементы управления, которые подписываются на какое-либо событие управления и перечислены изменяемые атрибуты, когда это событие публикуется другим элементом управления или установщиком.
 
-В операционных системах Windows XP и более ранних версий пользователи могут публиковать события элемента управления только путем взаимодействия с [элементом управления CheckBox](checkbox-control.md) или [кнопками](pushbutton-control.md). В Windows Server 2003 пользователи могут публиковать события элемента управления только путем взаимодействия с [элементом управления CheckBox](checkbox-control.md), [Селектионтри Control](selectiontree-control.md)и [кнопками](pushbutton-control.md). Перечисление других элементов управления в поле элемента управления \_ не оказывает никакого влияния.
+в операционных системах Windows XP и более ранних версий пользователи могут публиковать события элемента управления только путем взаимодействия с [элементом управления Checkbox](checkbox-control.md) или [кнопками](pushbutton-control.md). при использовании Windows Server 2003 пользователи могут публиковать события элемента управления только путем взаимодействия с элементом управления [Checkbox](checkbox-control.md), [селектионтри control](selectiontree-control.md)и [кнопками](pushbutton-control.md). Перечисление других элементов управления в поле элемента управления \_ не оказывает никакого влияния.
 
 ## <a name="validation"></a>Проверка
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f64606c07aa15aaf7d75e7bbcdb1caf06ed84ac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 284b04027b97be0a8808f45ff61707d6b56b054786272e8d46d32f92d43c5448
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753444"
 ---
 # <a name="ntds-dsa-class"></a>Класс NTDS-DSA
 
@@ -56,7 +56,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -71,9 +71,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -105,7 +105,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                  | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                 | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                   | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -123,10 +123,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                               | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                           | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                              | Неверно     | **NTDS-DSA**                                                     |
@@ -169,9 +169,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-2000-server-extended-rights"></a>Расширенные права сервера Windows 2000
+## <a name="windows-2000-server-extended-rights"></a>расширенные права сервера Windows 2000
 
-Этот класс содержит следующие расширенные права для сервера Windows 2000:
+этот класс содержит следующие расширенные права для сервера Windows 2000:
 
 
 
@@ -195,7 +195,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -210,9 +210,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -244,7 +244,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                    | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                   | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                     | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -278,7 +278,7 @@ ms.locfileid: "103804498"
 | [**MS-DS-Репликатионепоч**](a-msds-replicationepoch.md)                   | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-retiredо — REPL-NC-Signatures**](a-msds-retiredreplncsignatures.md)  | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -286,10 +286,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                                 | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                | Неверно     | **NTDS-DSA**                                                     |
@@ -333,9 +333,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2003-extended-rights"></a>Расширенные права Windows Server 2003
+## <a name="windows-server-2003-extended-rights"></a>Windows Расширенные права сервера 2003
 
-Этот класс содержит следующие расширенные права для Windows Server 2003:
+этот класс содержит следующие расширенные права для Windows Server 2003:
 
 
 
@@ -359,7 +359,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|------------------------------------------------------------------|
-| System-Only                 | True                                                             |
+| System-Only                 | Верно                                                             |
 | Object-Category             | 1                                                                |
 | По умолчанию — объект — Категория     | \-                                                               |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                       |
@@ -401,7 +401,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                    | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                   | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                     | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -433,12 +433,12 @@ ms.locfileid: "103804498"
 | [**Учетная запись MS-DS-Service-**](a-msds-serviceaccount.md)                      | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-Service-Account-BL**](a-msds-serviceaccountbl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Service-Account-DNS-домен**](a-msds-serviceaccountdnsdomain.md)  | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**Сетевой адрес**](a-networkaddress.md)                                 | Неверно     | **NTDS-DSA**                                                     |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                | Неверно     | **NTDS-DSA**                                                     |
@@ -503,7 +503,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -518,9 +518,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -552,7 +552,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                    | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                   | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                     | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -588,7 +588,7 @@ ms.locfileid: "103804498"
 | [**MS-DS-Репликатионепоч**](a-msds-replicationepoch.md)                   | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-retiredо — REPL-NC-Signatures**](a-msds-retiredreplncsignatures.md)  | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -597,10 +597,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                                 | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                             | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                | Неверно     | **NTDS-DSA**                                                     |
@@ -644,9 +644,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2003-r2-extended-rights"></a>Расширенные права Windows Server 2003 R2
+## <a name="windows-server-2003-r2-extended-rights"></a>Windows Расширенные права сервера 2003 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2003 R2:
+этот класс содержит следующие расширенные права для Windows Server 2003 R2:
 
 
 
@@ -670,7 +670,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -685,9 +685,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -719,7 +719,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                       | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                      | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                        | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -773,7 +773,7 @@ ms.locfileid: "103804498"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявили пользователей**](a-msds-revealedusers.md)                           | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-раскрыть-OnDemand-Group**](a-msds-revealondemandgroup.md)              | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                      | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                      | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-SiteName**](a-msds-sitename.md)                                      | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -783,10 +783,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                                    | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                   | Неверно     | **NTDS-DSA**                                                     |
@@ -830,9 +830,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2008-extended-rights"></a>Расширенные права Windows Server 2008
+## <a name="windows-server-2008-extended-rights"></a>Windows Расширенные права сервера 2008
 
-Этот класс содержит следующие расширенные права для Windows Server 2008:
+этот класс содержит следующие расширенные права для Windows Server 2008:
 
 
 
@@ -857,7 +857,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -872,9 +872,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -906,7 +906,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                         | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                        | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                          | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -968,7 +968,7 @@ ms.locfileid: "103804498"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявили пользователей**](a-msds-revealedusers.md)                             | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-раскрыть-OnDemand-Group**](a-msds-revealondemandgroup.md)                | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                        | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                        | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-SiteName**](a-msds-sitename.md)                                        | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -978,10 +978,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                                      | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                  | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                     | Неверно     | **NTDS-DSA**                                                     |
@@ -1025,9 +1025,9 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2008-r2-extended-rights"></a>Расширенные права Windows Server 2008 R2
+## <a name="windows-server-2008-r2-extended-rights"></a>Windows Расширенные права сервера 2008 R2
 
-Этот класс содержит следующие расширенные права для Windows Server 2008 R2:
+этот класс содержит следующие расширенные права для Windows Server 2008 R2:
 
 
 
@@ -1053,7 +1053,7 @@ ms.locfileid: "103804498"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------------------------------------------------------------|
-| System-Only                 | True                                                                                         |
+| System-Only                 | Верно                                                                                         |
 | Object-Category             | 1                                                                                            |
 | По умолчанию — объект — Категория     | \-                                                                                           |
 | Governs-Id                  | 1.2.840.113556.1.5.7000.47                                                                   |
@@ -1068,7 +1068,7 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -1102,7 +1102,7 @@ ms.locfileid: "103804498"
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Содержит-Master-NC**](a-hasmasterncs.md)                                                     | Неверно     | **NTDS-DSA**                                                     |
 | [**Имеет-partial-реплика-NC**](a-haspartialreplicancs.md)                                    | Неверно     | **NTDS-DSA**                                                     |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Идентификатор вызова**](a-invocationid.md)                                                      | Неверно     | **NTDS-DSA**                                                     |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -1167,11 +1167,11 @@ ms.locfileid: "103804498"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-выявили пользователей**](a-msds-revealedusers.md)                                         | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-раскрыть-OnDemand-Group**](a-msds-revealondemandgroup.md)                            | Неверно     | **NTDS-DSA**                                                     |
-| [**MS-DS-параметры**](a-msds-settings.md)                                                    | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                                    | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
 | [**MS-DS-SiteName**](a-msds-sitename.md)                                                    | Неверно     | **NTDS-DSA**                                                     |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
@@ -1180,10 +1180,10 @@ ms.locfileid: "103804498"
 | [**Сетевой адрес**](a-networkaddress.md)                                                  | Неверно     | **NTDS-DSA**                                                     |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Список уведомлений**](a-notificationlist.md)                                              | Неверно     | [**Параметры приложения**](c-applicationsettings.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                  |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                  |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                  |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                  |
 | [**Параметры**](a-options.md)                                                                 | Неверно     | **NTDS-DSA**                                                     |
@@ -1227,7 +1227,7 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2012-extended-rights"></a>Расширенные права Windows Server 2012
+## <a name="windows-server-2012-extended-rights"></a>Windows Server 2012 Расширенные права
 
 Этот класс содержит следующие расширенные права для Windows Server 2012:
 
@@ -1245,7 +1245,7 @@ ms.locfileid: "103804498"
 
 
 
-## <a name="windows-server-2012-validated-writes"></a>Проверенные записи Windows Server 2012
+## <a name="windows-server-2012-validated-writes"></a>Windows Server 2012 Проверенные записи
 
 Этот класс содержит следующие проверенные операции записи для Windows Server 2012:
 

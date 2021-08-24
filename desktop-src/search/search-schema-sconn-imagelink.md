@@ -4,12 +4,12 @@ ms.assetid: 71078d83-72f4-41f9-b80c-7ba0139206fb
 title: Элемент Имажелинк (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84b2e5cbbfc8bbd98557ebd0405a09cf998e6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 007ad8c2500e2739210646c446d9f906d5a83571ea4ac9780ab9136b73805c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711094"
 ---
 # <a name="imagelink-element-search-connector-schema"></a>Элемент Имажелинк (схема соединителя поиска)
 
@@ -51,9 +51,9 @@ ms.locfileid: "105692174"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значение Имажелинк может быть локальным путем файловой системы или URL-адресом. Файл образа может быть любым из базовых типов образов, поддерживаемых Windows 7 (PNG, BMP, JPG, GIF).
+Значение Имажелинк может быть локальным путем файловой системы или URL-адресом. файл изображения может быть любым из базовых типов образов, поддерживаемых Windows 7 (PNG, BMP, JPG, GIF).
 
 ## <a name="example-of-an-imagelink-element"></a>Пример элемента Имажелинк
 

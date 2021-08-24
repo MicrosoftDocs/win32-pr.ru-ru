@@ -4,27 +4,27 @@ description: К атрибуту (line) (VML)
 ms.assetid: e4d2afb9-0cad-469d-a388-c1b824d14c04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79246936e4885025d43dfe1fc8cc3b2f144403a9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e2d1e47261daf76103717476a84eea3bed99ddb0b514192df8a74cd0b69572a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654454"
 ---
 # <a name="to-attribute-linevml"></a>К атрибуту (line) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет конечную точку линии. Read/write. **VgVector2D**.
 
 **Применимо к**:
 
-[Line](msdn-online-vml-line-element.md)
+[Линия](msdn-online-vml-line-element.md)
 
 **Синтаксис тега**
 
@@ -55,6 +55,6 @@ ms.locfileid: "103793747"
 
 
 
- 
+ 
 
- 
+ 

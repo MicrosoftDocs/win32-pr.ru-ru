@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: f0b0ddffe2bc769b7c2371ef93091d8c1daf379c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 286348ec102a93697aa413ecfd1886879e7361b54eca48276b5e868be78eee03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633514"
 ---
 # <a name="sample-grabber-filter"></a>Образец фильтра захвата
 
@@ -50,7 +50,7 @@ ms.locfileid: "107909672"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот фильтр, добавьте его в граф фильтра и вызовите [**исамплеграббер:: сетмедиатипе**](isamplegrabber-setmediatype.md) с нужным типом мультимедиа. Этот метод указывает тип носителя для соединений входного и выходного ПИН-кода фильтра. Затем подключите фильтр к другим фильтрам в графе.
 
@@ -78,7 +78,7 @@ ms.locfileid: "107909672"
 
 <dl> <dt>
 
-[Объекты служб редактирования DirectShow](directshow-editing-services-objects.md)
+[DirectShow Изменение объектов служб](directshow-editing-services-objects.md)
 </dt> <dt>
 
 [Использование образца захвата](using-the-sample-grabber.md)

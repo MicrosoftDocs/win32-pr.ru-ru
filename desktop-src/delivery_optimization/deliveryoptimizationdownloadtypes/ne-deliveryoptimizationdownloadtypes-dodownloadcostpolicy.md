@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/02/2019
-ms.openlocfilehash: c70384f7c7da1633b910db36c42a335d1c463bae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 763042ed6d0df6fa287fbe66d23528a199a73041cb3500c6a2812e6db86cb698
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677884"
 ---
 # <a name="dodownloadcostpolicy-enumeration"></a>Перечисление Додовнлоадкостполици
 
@@ -50,10 +50,10 @@ typedef enum _DODownloadCostPolicy
 | DODownloadCostPolicy_NoSurcharge | Загрузка выполняется, если не взимается плата. |
 | DODownloadCostPolicy_NoCellular | Загрузка выполняется, если сеть не подключена к сотовой сети. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Деливерйоптимизатиондовнлоадтипес. h |

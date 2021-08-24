@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 44453f647d55f29a9a6cfc5622e29dcc88ad2446
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ff71086703e409331e420fd064f73ff2406ec4e5167ea97da78b2afc498bf244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119579854"
 ---
 # <a name="checkpoint-method-of-the-control-class"></a>Метод Checkpoint класса Control
 
@@ -151,26 +151,26 @@ Uint32 Checkpoint(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                       |
-| Пространство имен<br/>                | Корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
-| Header<br/>                   | <dl> <dt>Срресторептапи. h</dt> </dl>          |
+| Пространство имен<br/>                | корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
+| Заголовок<br/>                   | <dl> <dt>Срресторептапи. h</dt> </dl>          |
 | MOF<br/>                      | <dl> <dt>Бутевентколлекторвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Элемента**](control.md)
+[**Элемент**](control.md)
 </dt> </dl>
 
  

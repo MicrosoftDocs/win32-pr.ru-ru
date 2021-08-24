@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5866f3c06ef6969c95eeef4b23fff7a4e7852eb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9b21d0cb2fac6573ab2999eb96b2af8b1ecb670f4e51d1ffd2ad91ba001c9ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675304"
 ---
 # <a name="glulookat-function"></a>Функция Глулукат
 
@@ -115,13 +115,13 @@ void WINAPI gluLookAt(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глулукат** создает матрицу просмотра, производную от точки глаза, точку ссылки, указывающую центр сцены, и вектор вверх. Матрица сопоставляет контрольную точку с отрицательной осью z и глаз до начала координат, поэтому при использовании типичной матрицы проекции центр сцены сопоставляется с центром окна просмотра. Аналогично, направление, описываемое вектором вверх, проецированным на плоскость просмотра, сопоставляется с положительной осью y, чтобы она указывала вверх в окне просмотра. Вектор вверх не должен быть параллельным с линией зрения, от глаза до контрольной точки.
 
 Матрица, созданная с помощью **глулукат** , умножает текущую матрицу.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -135,7 +135,7 @@ void WINAPI gluLookAt(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

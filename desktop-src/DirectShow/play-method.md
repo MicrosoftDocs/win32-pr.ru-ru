@@ -4,17 +4,17 @@ ms.assetid: fe9dc266-5b12-479d-85cb-50cc6bb9d580
 title: Метод Play (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f62323c9c86be476a35977dadf554bbfca3bca91
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 97d4cea7dc53afc6a116ad052da9a4ca0d52c2e8687d99bde854d3f89fa60a9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633564"
 ---
 # <a name="play-method-directshow"></a>Метод Play (DirectShow)
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ MSWebDVD.Play()
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если воспроизведение приостановлено или остановлено, а [**енаблересетонстоп**](enableresetonstop-property.md) имеет значение true, вызов **Play** продолжит воспроизведение с обычной скоростью в текущем расположении. Если воспроизведение остановлено и **енаблересетонстоп** имеет значение false, вызов **Play** приведет к тому, что диск начнет играть в начале первого заголовка.
 

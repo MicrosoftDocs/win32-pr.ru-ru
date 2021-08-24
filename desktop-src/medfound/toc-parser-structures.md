@@ -4,12 +4,12 @@ ms.assetid: 7438b09e-e649-462d-9a36-fb19e0817d75
 title: Таблицы структур синтаксического анализатора содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c4b5129c0418970050886bf65d8f1da4f9cb76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e9346b52d7f3a4836473b2b2356cafd4fc9121f6a42dec90a17e9d90167ae0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599854"
 ---
 # <a name="table-of-contents-parser-structures"></a>Таблицы структур синтаксического анализатора содержимого
 
@@ -26,7 +26,7 @@ ms.locfileid: "103898714"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

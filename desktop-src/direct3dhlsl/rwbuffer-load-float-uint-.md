@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81d23d67b0d02ed375e07f310089067d6a7bbd67
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 32bac0de96b3546775cec07aeec7be6fdd96e3e656e8705a0ea2ced9b1f777a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104157063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672174"
 ---
 # <a name="rwbufferloadintuint-function"></a>Функция Рвбуффер:: Load (int, uint)
 
@@ -64,7 +64,7 @@ ms.locfileid: "104157063"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**рвбуффер**](sm5-object-rwbuffer.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -78,7 +78,7 @@ ms.locfileid: "104157063"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

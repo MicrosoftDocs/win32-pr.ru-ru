@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1fc005545485b7f894729ab6c7d7975acfd5b6d4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 69d3c146ff04597b7eca13dd5cbef93dc1c79f81709353bf5b4fa1a993a8da22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119626694"
 ---
 # <a name="allmemorybarrierwithgroupsync-function"></a>Функция Аллмеморибарриервисграупсинк
 
@@ -38,7 +38,7 @@ void AllMemoryBarrierWithGroupSync(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Барьер памяти гарантирует завершение невыполненных операций с памятью. Потоки синхронизируются с Граупсинк барьерами. Это может привести к остановке потока или потоков, если выполняются операции с памятью.
 
@@ -50,11 +50,11 @@ void AllMemoryBarrierWithGroupSync(void);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -66,7 +66,7 @@ void AllMemoryBarrierWithGroupSync(void);
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -78,9 +78,9 @@ void AllMemoryBarrierWithGroupSync(void);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

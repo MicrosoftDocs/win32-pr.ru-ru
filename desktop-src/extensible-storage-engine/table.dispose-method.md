@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 26685e3bb647d72bca5eab6ace6acb3c5b00cb2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a028a6968513e11962d7b358c3790ace9d27741aa2727ab4ba45b23478296b42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119603594"
 ---
 # <a name="tabledispose-method"></a>Table. Dispose, метод
 
@@ -53,7 +53,7 @@ ms.locfileid: "104423798"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

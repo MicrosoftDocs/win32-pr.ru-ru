@@ -1,5 +1,5 @@
 ---
-description: Определяет, находится ли сервер терминалов в режиме установки (только на сервере терминалов Windows 4,0).
+description: определяет, находится ли сервер терминалов в режиме установки (только на Терминал Windows server 4,0).
 ms.assetid: f6cb7971-d4f5-49ca-938a-9c280028764a
 title: Функция Ктксжетинимаппинг
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Kernel32.dll
-ms.openlocfilehash: 17093303cf0ea74e7efc6a3070c48660083bc491
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7085e595b1f9c1fb8ea36e59aae4a90c816b508c92bcd33a99fe5051f2b722d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654214"
 ---
 # <a name="ctxgetinimapping-function"></a>Функция Ктксжетинимаппинг
 
 \[Эта функция не поддерживается и не должна использоваться. Он может измениться или исчезнуть полностью без предварительного уведомления. Вместо этого используйте **верифиверсионинфо**.\]
 
-Определяет, находится ли сервер терминалов в режиме установки (только на сервере терминалов Windows 4,0).
+определяет, находится ли сервер терминалов в режиме установки (только на Терминал Windows server 4,0).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -43,7 +43,7 @@ BOOLEAN CtxGetIniMapping(void);
 
 Эта функция возвращает **значение false** , если сервер терминалов находится в режиме установки, и **значение true** , если он находится в режиме выполнения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,7 +53,7 @@ BOOLEAN CtxGetIniMapping(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
