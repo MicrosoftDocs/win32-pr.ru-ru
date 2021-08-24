@@ -3,9 +3,9 @@ title: Ивмпкдромбурн Стартбурн, метод
 description: Метод Стартбурн записывает компакт-диск.
 ms.assetid: e852c011-5f54-469f-aead-37fa711ef876
 keywords:
-- Стартбурн метод Windows Media Player
-- Стартбурн метод проигрывателя Windows Media Player, интерфейс Ивмпкдромбурн
-- Интерфейс Ивмпкдромбурн Windows Media Player, метод Стартбурн
+- проигрыватель Windows Media метода стартбурн
+- проигрыватель Windows Media метода стартбурн, интерфейс ивмпкдромбурн
+- проигрыватель Windows Media интерфейса ивмпкдромбурн, метод стартбурн
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe185d8993286e4be3935b43f6c1e9757623309d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7806501a619d6172d9f1ce0715045c822b30326c2b59c268f432708ea13923ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761074"
 ---
 # <a name="iwmpcdromburnstartburn-method"></a>Метод Ивмпкдромбурн:: Стартбурн
 
@@ -53,25 +53,25 @@ Implements IWMPCdromBurn.startBurn
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода значение **бурнстате** должно быть Вмпбсреади или вмпбсстоппед.
 
 Этот метод не будет работать, если дисковод компакт-дисков не является устройством записи или диск не доступен для записи. Чтобы определить, можно ли записать компакт-диск, воспользуйтесь возможностью **доступа** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

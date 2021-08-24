@@ -4,24 +4,24 @@ ms.assetid: db9b896f-6f56-47b1-b129-331c984e0b16
 title: Шаг 5. Работа с событиями сеанса мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2ea3092189644f800a5cb27d2e8b07744f5d90c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: be80d8d336cb5f3996c72d806259ae8c74eed464245ac439fdd356f091965bde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721904"
 ---
 # <a name="step-5-handle-media-session-events"></a>Шаг 5. Работа с событиями сеанса мультимедиа
 
 В этом разделе приводится шаг 5 руководства по [воспроизведению мультимедийных файлов с помощью Media Foundation](how-to-play-unprotected-media-files.md). Полный код показан в разделе [Пример воспроизведения сеанса мультимедиа](media-session-playback-example.md).
 
-Дополнительные сведения по этой теме см. в статье [генераторы событий мультимедиа](media-event-generators.md). В этом разделе содержатся следующие подразделы.
+Дополнительные сведения по этой теме см. в статье [генераторы событий мультимедиа](media-event-generators.md). Этот раздел состоит из следующих подразделов.
 
 -   [Получение событий сеанса](#getting-session-events)
 -   [месессионтопологистатус](#mesessiontopologystatus)
 -   [миндофпресентатион](#meendofpresentation)
 -   [меневпресентатион](#menewpresentation)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="getting-session-events"></a>Получение событий сеанса
 
@@ -277,7 +277,7 @@ done:
 
 Далее: [Шаг 6. Управление воспроизведением](step-6--control-playback.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

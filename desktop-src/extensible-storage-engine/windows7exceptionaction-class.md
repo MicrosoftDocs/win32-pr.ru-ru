@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d8d363992042f516cc7fad4f532558d715a3e8e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad862992c6439a4298a8d9e0a5fc8e530011942d820f039b240fa2a2dbb3e532
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718724"
 ---
 # <a name="windows7exceptionaction-class"></a>Класс Windows7ExceptionAction
 
-Действие исключения, добавленное в версию ESENT Windows 7.
+действие исключения, добавленное в Windows версии ESENT 7.
 
 ## <a name="inheritance-hierarchy"></a>Иерархия наследования
 
@@ -60,7 +60,7 @@ public static class Windows7ExceptionAction
 
 Любые общедоступные статичные (общие в Visual Basic) члены этого типа являются потокобезопасными. Потокобезопасная работа с членами экземпляров типа не гарантируется.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

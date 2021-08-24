@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef28381313ce00fd6089ebf845ed342ccae455c7
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: ecd4b8bf5580a5724c689ced1886051006d34cd3c9ba0561d253f36428178c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103987976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702124"
 ---
 # <a name="ack-for-fragment"></a>Подтверждение для фрагмента
 
@@ -116,11 +116,11 @@ Replace Error-context с шестнадцатеричным числом, пре
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если сеанс предназначен для задания отправки и ответа, может возникнуть задержка до того, как клиент получит окончательное **подтверждение ответа фрагмента** . Продолжительность задержки зависит от времени, в течение которого серверное приложение (приложение, на которое сервер отправляет файл отправки) создает ответ.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

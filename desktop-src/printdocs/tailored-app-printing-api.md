@@ -4,18 +4,18 @@ ms.assetid: 2A975374-F224-49F9-9AB8-FF983DEB0B01
 title: API пакета печати документа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e81923f31724813ca6529ad2dc9720339641b5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e6a75244c6ce648d4fa56751d261a624aa1dc6540e2fd051c3ed07b31d83bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600324"
 ---
 # <a name="print-document-package-api"></a>API пакета печати документа
 
 Предоставляет интерфейс, позволяющий приложению получать доступ к пакету печати документа и управлять им.
 
-API печати приложений Магазина Windows доступен в Windows 8 и более поздних версиях Windows Desktop.
+API для печати приложений магазина Windows доступен в Windows 8 и более поздних версиях Windows desktop.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -31,9 +31,9 @@ API печати приложений Магазина Windows доступен 
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-Дополнительные сведения о печати из приложений Магазина Windows, написанных на JavaScript и HTML, см. в разделе [Печать (приложения для Магазина Windows, использующие JavaScript и HTML)](/previous-versions/windows/apps/hh465225(v=win.10)). Дополнительные сведения о печати из приложений Магазина Windows, написанных на C#, Microsoft Visual Basic или C++ и XAML, см. в разделе [Печать (приложения для Магазина Windows на языке C)](/previous-versions/windows/apps/hh465196(v=win.10)).
+дополнительные сведения о печати из приложений Windows store, написанных на javascript и html, см. в разделе [печать (приложения Windows Store с использованием javascript и html)](/previous-versions/windows/apps/hh465225(v=win.10)). дополнительные сведения о печати из приложений Windows store, написанных на C#, Microsoft Visual Basic или C++ и XAML, см. в разделе [печать (приложения для магазина Windows с использованием C)](/previous-versions/windows/apps/hh465196(v=win.10)).
 
  
 

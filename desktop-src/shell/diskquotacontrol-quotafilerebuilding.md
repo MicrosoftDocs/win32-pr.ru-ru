@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e06b73e53670a136e53721b4e6bc6b2f635d601b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e90d5d920392b9b518fed619aeb4f8c7b99d830fad9f6f901c59fe6128ca94b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710524"
 ---
 # <a name="diskquotacontrolquotafilerebuilding-property"></a>Дисккуотаконтрол. Куотафилеребуилдинг, свойство
 
@@ -39,11 +39,11 @@ bQuotaFileRebuilding = DiskQuotaControl.QuotaFileRebuilding
 
 Это свойство имеет значение **true** , если выполняется перестроение файла квоты, или **false** в противном случае.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Файл квоты автоматически перестраивается, когда квоты включены в системе или если одна или несколько записей пользователя помечены для удаления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ bQuotaFileRebuilding = DiskQuotaControl.QuotaFileRebuilding
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

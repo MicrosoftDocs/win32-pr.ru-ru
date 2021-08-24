@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bfbe0b1996751613c31913447cb0d200d71b8168
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0eb4d9d5fad19b48bbe1970e623d6d55ff212f55c73e7c84d4c68a40e3f60e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522484"
 ---
 # <a name="msvm_installedethernetswitchextension-class"></a>\_Класс мсвм инсталледесернетсвитчекстенсион
 
@@ -75,13 +75,13 @@ class Msvm_InstalledEthernetSwitchExtension : CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ инсталледесернетсвитчекстенсион** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -248,7 +248,7 @@ class Msvm_InstalledEthernetSwitchExtension : CIM_ManagedSystemElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -319,7 +319,7 @@ class Msvm_InstalledEthernetSwitchExtension : CIM_ManagedSystemElement
 '
 </dt> <dt>
 
-<span id="OK"></span><span id="ok"></span>**Хорошо**
+<span id="OK"></span><span id="ok"></span>**ХОРОШО**
 </dt> <dt>
 
 <span id="Error"></span><span id="error"></span><span id="ERROR"></span>**План**
@@ -396,14 +396,14 @@ class Msvm_InstalledEthernetSwitchExtension : CIM_ManagedSystemElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

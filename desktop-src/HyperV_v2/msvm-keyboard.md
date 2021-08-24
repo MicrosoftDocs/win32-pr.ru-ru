@@ -62,12 +62,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 37c4faceb9072c1851868eb23c031e715cb6e1c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 527b69d83c512f622c4c34b9bb1ea510e269e0d062cae3972170b5ad98deb8d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522204"
 ---
 # <a name="msvm_keyboard-class"></a>\_Класс клавиатуры мсвм
 
@@ -207,7 +207,7 @@ class Msvm_Keyboard : CIM_UserDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -392,7 +392,7 @@ class Msvm_Keyboard : CIM_UserDevice
 | Значение                                                                                                                                                                                                                                                                       | Значение                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**Неизвестно**</dt> <dt>0</dt> </dl>                                                 | Неизвестно<br/>                                                                                                                                                                                              |
-| <span id="Other"></span><span id="other"></span><span id="OTHER"></span><dl> <dt>**Другое**</dt> <dt>1</dt> </dl>                                                         | Другое<br/>                                                                                                                                                                                                |
+| <span id="Other"></span><span id="other"></span><span id="OTHER"></span><dl> <dt>**Другое**</dt> <dt>1</dt> </dl>                                                         | Другие<br/>                                                                                                                                                                                                |
 | <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <dt>**Включено**</dt> <dt>2</dt> </dl>                                                 | Элемент или может выполнять команды, обрабатывает все команды в очереди и помещает новые запросы в очередь.<br/>                                                                                            |
 | <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <dt>**Отключено**</dt> <dt>3</dt> </dl>                                             | Элемент не будет выполнять команды и удалит все новые запросы.<br/>                                                                                                                                |
 | <span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span><dl> <dt>**Завершение работы**</dt> <dt>4</dt> </dl>                         | Элемент находится в процессе перехода в отключенное состояние.<br/>                                                                                                                                          |
@@ -544,7 +544,7 @@ class Msvm_Keyboard : CIM_UserDevice
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -793,7 +793,7 @@ class Msvm_Keyboard : CIM_UserDevice
 
 | Значение                                                                                                                                                                                                                                                    | Значение                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| <span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span><dl> <dt>**Не применимо**</dt> <dt>12</dt> </dl> | Не применяется<br/> |
+| <span id="Not_Applicable"></span><span id="not_applicable"></span><span id="NOT_APPLICABLE"></span><dl> <dt>**Не применимо**</dt> <dt>12</dt> </dl> | Неприменимо.<br/> |
 
 
 
@@ -935,25 +935,25 @@ class Msvm_Keyboard : CIM_UserDevice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ клавиатуры мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

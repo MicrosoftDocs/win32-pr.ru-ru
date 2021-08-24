@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_NOTIFYMEDIA (VFW. h)
 description: Сообщение МЦИВНДМ \_ нотифимедиа уведомляет родительское окно приложения о том, что носитель был изменен.
 ms.assetid: cc31502d-09a9-4580-9ff8-9c2be51c8e35
 keywords:
-- MCIWNDM_NOTIFYMEDIA сообщения Windows мультимедиа
+- сообщение MCIWNDM_NOTIFYMEDIA Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7026bd984e1d79775aac52caad56c87be6e8098e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa64b17fb3910e518e5b5d4318f8d988cf71f8c314f047a5f2eed1ff80cc843d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783025"
 ---
 # <a name="mciwndm_notifymedia-message"></a>\_Сообщение мЦивндм нотифимедиа
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) (LPSTR) lp;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вы можете включить уведомления об изменениях мультимедиа, указав \_ стиль окна мЦивндф нотифимедиа.
 

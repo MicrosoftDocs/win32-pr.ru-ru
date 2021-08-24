@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 55e5cb66eecbee96df9573e9347d1f32e3508d2b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f8b8cebaf14f5e6a42a938a8fe585934137a899f8afaeb2d28533c0c0cfa18b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742984"
 ---
 # <a name="irtcresume-method"></a>Метод ИРТК:: Resume
 
@@ -49,8 +49,8 @@ HRESULT STDMETHODCALLTYPE Resume();
 | Код возврата                                                                                                | Описание                                                                                                                   |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ не \_ приостановлена**</dt> </dl> | Запись не приостановлена. Вызовите [ИРТК::P Аусе](irtc-pause.md) , чтобы приостановить запись.<br/>                                |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. Вызовите [ИРТК:: Connect](irtc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>        | НПП подключается к сети, но не с методом [ИРТК:: Connect](irtc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. вызовите [иртк:: Подключение](irtc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не в \_ реальном времени**</dt> </dl>        | нпп подключается к сети, но не с помощью метода [иртк:: Подключение](irtc-connect.md) .<br/>                     |
 
 
 
@@ -77,14 +77,14 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иртк](irtc.md)
 </dt> <dt>
 
-[ИРТК:: Connect](irtc-connect.md)
+[иртк:: Подключение](irtc-connect.md)
 </dt> <dt>
 
 [ИРТК::P Аусе](irtc-pause.md)

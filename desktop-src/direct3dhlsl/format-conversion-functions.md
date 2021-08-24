@@ -1,5 +1,5 @@
 ---
-title: Функции преобразования формата (Справочник по HLSL)
+title: Функции преобразования формата (справочник по HLSL)
 description: Раздел содержит функции преобразования формата, используемые в шейдере вычислений и в построителейх пикселей.
 ms.assetid: 05575ee8-4428-437f-bfb6-e5c676405d65
 ms.topic: reference
@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: f1158a45ce2fc5df0bdc762a5d422492522886b8025c940e807c80707be173e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672924"
 ---
-# <a name="format-conversion-functions-hlsl-reference"></a>Функции преобразования формата (Справочник по HLSL)
+# <a name="format-conversion-functions-hlsl-reference"></a>Функции преобразования формата (справочник по HLSL)
 
 Раздел содержит функции преобразования формата, используемые в шейдере вычислений и в построителейх пикселей.
 
 -   [Функции преобразователя](#converter-functions)
 -   [Связанные темы](#related-topics)
 
-> Заголовок D3DX_DXGIFormatConvert. inl поставляется в устаревшем пакете SDK DirectX и полагается на поддержку Кснамас для C++. Он также включен в пакет NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . В последней версии используется Директксмас для поддержки C++, а все функции определяются в пространстве имен **DirectX** C++.
+> Заголовок D3DX_DXGIFormatConvert. inl поставляется в устаревшем пакете SDK DirectX и полагается на поддержку Кснамас для C++. она также включена в пакет [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet. В последней версии используется Директксмас для поддержки C++, а все функции определяются в пространстве имен **DirectX** C++.
 
 ## <a name="converter-functions"></a>Функции преобразователя
 
@@ -162,7 +162,7 @@ ms.locfileid: "107222882"
 
 <dl> <dt>
 
-[Ссылка на преобразование встроенного формата](inline-format-conversion-reference.md)
+[Справочник по преобразованию встроенного формата](inline-format-conversion-reference.md)
 </dt> <dt>
 
 [Распаковка и \_ формат упаковки для редактирования образа In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)

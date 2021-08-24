@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описываются константы, перечисления и флаги системы свойств Windows.
+description: в этом разделе описываются системные константы, перечисления и флаги свойств Windows.
 ms.assetid: ff735b9c-e444-4e6f-8e80-0b2a5d770386
-title: Константы, перечисления и флаги (система свойств Windows)
+title: константы, перечисления и флаги (система свойств Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8681c773181b69b24b1fe2d01d380d730c33e220
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24e39d357ae741ae49c4fa98c886e8c08b3594a2ea3a7e4e045def96abe8c2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718213"
 ---
 # <a name="constants-enumerations-and-flags"></a>Константы, перечисления и флаги
 
-В этом разделе описываются константы, перечисления и флаги системы свойств Windows.
+в этом разделе описываются системные константы, перечисления и флаги свойств Windows.
 
 
 
@@ -24,11 +24,11 @@ ms.locfileid: "104264737"
 | [**\_Флаги pKa**](/windows/win32/api/propsys/ne-propsys-pka_flags)                                                  | Описывает поведение массива изменения свойств.<br/>                                                                                                                                                                                                                                                                                                                                       |
 | [**\_тип агрегирования пропдеск \_**](/windows/win32/api/propsys/ne-propsys-propdesc_aggregation_type)                 | Описывает, как значения свойств отображаются при выборе нескольких элементов. Для конкретного свойства \_ тип агрегирования пропдеск \_ описывает, как должно отображаться свойство, если выбрано несколько элементов со значением свойства, например, должны ли значения суммироваться или выводиться в среднем или просто отображаться со строкой по умолчанию "несколько значений".<br/> |
 | [**\_тип COLUMNINDEX \_ пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type)                 | Указывает, можно ли индексировать свойство.<br/>                                                                                                                                                                                                                                                                                                                             |
-| [**\_тип условия \_ пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_condition_type)                     | Описывает тип условия, используемого при отображении свойства в пользовательском интерфейсе построителя запросов в Windows Vista, но не в Windows 7 и более поздних версиях.<br/>                                                                                                                                                                                                                                      |
+| [**\_тип условия \_ пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_condition_type)                     | описывает тип условия, используемого при отображении свойства в пользовательском интерфейсе построителя запросов в Windows Vista, но не в Windows 7 и более поздних версиях.<br/>                                                                                                                                                                                                                                      |
 | [**ПРОПДЕСК \_ енумфилтер**](/windows/win32/api/propsys/ne-propsys-propdesc_enumfilter)                              | Описывает отфильтрованный список возвращаемых описаний свойств.<br/>                                                                                                                                                                                                                                                                                                          |
 | [**\_ \_ флаги формата пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_format_flags)                         | Используется вспомогательными функциями описания свойств, например [**псформатфордисплай**](/windows/win32/api/propsys/nf-propsys-psformatfordisplay), для указания формата строки свойства.<br/>                                                                                                                                                                                                                         |
 | [**\_тип РЕЛАТИВЕДЕСКРИПТИОН \_ пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_relativedescription_type) | Описывает тип относительного описания для описания свойства, как определено атрибутом *релативедескриптионтипе* элемента [displayInfo](./propdesc-schema-displayinfo.md) .<br/>                                                                                                                                                                                   |
-| [**\_ \_ Флаги сеарчинфо пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags)                 | Определяет, индексируется ли свойство с помощью поиска Windows.<br/>                                                                                                                                                                                                                                                                                                             |
+| [**\_ \_ Флаги сеарчинфо пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags)                 | определяет, индексируется ли свойство с помощью Windows поиска.<br/>                                                                                                                                                                                                                                                                                                             |
 | [**\_ \_ Флаги типа пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_type_flags)                             | Описывает атрибуты элемента [typeInfo](./propdesc-schema-typeinfo.md) в файле. пропдеск свойства.<br/>                                                                                                                                                                                                                                                                |
 | [**\_ \_ Флаги представления пропдеск**](/windows/win32/api/propsys/ne-propsys-propdesc_view_flags)                             | Эти флаги описывают свойства в строках списка описания свойств.<br/>                                                                                                                                                                                                                                                                                                           |
 | [**\_Флаги пропертюи**](/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags)                                    | Задает функции свойств.<br/>                                                                                                                                                                                                                                                                                                                                                    |
@@ -39,7 +39,7 @@ ms.locfileid: "104264737"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

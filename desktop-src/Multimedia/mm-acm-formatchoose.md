@@ -3,7 +3,7 @@ title: Сообщение MM_ACM_FORMATCHOOSE (MSACM. h)
 description: Сообщение MM \_ ACM \_ форматчусе уведомляет о функции диалогового окна акмформатчусе перед добавлением элемента в один из трех раскрывающихся списков.
 ms.assetid: f77e41c6-14e9-45c0-971e-4d6325145f1c
 keywords:
-- MM_ACM_FORMATCHOOSE сообщения Windows мультимедиа
+- сообщение MM_ACM_FORMATCHOOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35808e06521cbd83d07f8d6c799779a16f50236b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cceaa67bc0ce4ee922b48d1cff20eb2bf6414f93506dcc70ccd6e0e912211544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782964"
 ---
 # <a name="mm_acm_formatchoose-message"></a>\_Сообщение mm ACM \_ форматчусе
 
@@ -70,7 +70,7 @@ lParam = (LONG) lCustom
 
 Возвращает **значение true** , если приложение обрабатывает это сообщение или **значение false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение обрабатывает \_ операцию добавления формата филтерчусе \_ , размер буфера памяти, указанный в параметре *lParam* , будет определен из функции [**акмметрикс**](/windows/desktop/api/Msacm/nf-msacm-acmmetrics) .
 

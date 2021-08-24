@@ -4,16 +4,16 @@ description: Событие Активатеинпут
 ms.assetid: bc395750-5da0-4379-8eca-3195e936052c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0b4fdf83256d58dd247dee85b639f5499f013e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db21d605a014002063a7c5aa42554a06adb1ed35296242944de789daeb3155c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610684"
 ---
 # <a name="activateinput-event"></a>Событие Активатеинпут
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,17 +31,17 @@ ms.locfileid: "104068493"
 
 
 
-| Отделение          | Описание                                                                    |
+| Часть          | Описание                                                                    |
 |---------------|--------------------------------------------------------------------------------|
 | *чарактерид* | Возвращает идентификатор символа, через который клиент получает входные данные. |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Входной — активный клиент получает события мыши и речевого ввода, предоставляемые сервером. Сервер отправляет это событие только клиенту, который получает входные данные.
 
@@ -52,9 +52,9 @@ ms.locfileid: "104068493"
 [Событие **деактиватеинпут**](deactivateinput-event.md), [метод **Activate**](activate-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

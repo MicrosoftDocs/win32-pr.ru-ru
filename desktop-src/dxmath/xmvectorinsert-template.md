@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorinsert(xmvector,xmvector)
 title: Шаблон Ксмвекторинсерт (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3250ad52ab19a127b110b02ecf71543f44708681
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b90eb7348639e6993cb69ef9e82ab78ed989999ea8423f1f6ff8bd9deb7c70d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739757"
 ---
 # <a name="xmvectorinsert-template"></a>Шаблон Ксмвекторинсерт
 
@@ -46,7 +46,7 @@ template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint
 
 Возвращает [**ксмвектор**](xmvector-data-type.md) , полученное в результате вращения и вставки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является версией шаблона [**ксмвекторинсерт**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert) , в которой аргументы *SELECT \** являются значениями шаблона.
 
@@ -61,19 +61,19 @@ template<uint32_t VSLeftRotateElements, uint32_t Select0, uint32_t Select1, uint
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

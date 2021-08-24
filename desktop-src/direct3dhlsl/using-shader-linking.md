@@ -4,12 +4,12 @@ description: Мы покажем, как создавать предварите
 ms.assetid: 3A1597FF-F848-415E-BDF8-199C69C05C3B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7528415f1bedb0364a9c4b09126a983222fc42b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e44f382596f3839460943fdbefe5687c4e7b18401db016ad3f834284e994217b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742284"
 ---
 # <a name="using-shader-linking"></a>Использование связывания шейдера
 
@@ -17,7 +17,7 @@ ms.locfileid: "103793585"
 
 **Цель:** Узнайте, как использовать связывание с шейдером.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Предполагается, что вы знакомы с C++. Также вы должны быть знакомы с основными принципами программирования графики.
 
@@ -39,7 +39,7 @@ ms.locfileid: "103793585"
 
 [Упаковка библиотеки шейдеров](pachaging-a-shader-library.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -52,6 +52,6 @@ ms.locfileid: "103793585"
 [DXGI](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

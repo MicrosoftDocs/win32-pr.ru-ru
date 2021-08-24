@@ -4,12 +4,12 @@ description: Изменить макросы элемента управлени
 ms.assetid: 7c2bb80e-57ca-4d95-a499-b65eefe0352c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 795aba77e2f0dc439fdd6bdaab6a4358a15596ee
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ff932375de52f29cd5d9bec535b24dc6a5ebcc67b09256a163654e55c658e06c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699454"
 ---
 # <a name="edit-control-macros"></a>Изменить макросы элемента управления
 

@@ -3,7 +3,7 @@ title: Сообщение TVM_GETNEXTITEM (Коммктрл. h)
 description: Извлекает элемент представления дерева, который несет указанную связь с указанным элементом. Это сообщение можно отправить явно с помощью \_ макроса Жетнекститем TreeView.
 ms.assetid: 505c713c-7728-4119-bc0e-482fe7e73193
 keywords:
-- Элементы управления Windows для TVM_GETNEXTITEM сообщений
+- элементы управления Windows сообщений TVM_GETNEXTITEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3099af5e9abcd3e9c144cfc615a12dd2acb0332b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 84dbbd39ca347bcf1084ddfaa46c997cc5c4e5dd4d52250136a230dd834ac836
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698684"
 ---
 # <a name="tvm_getnextitem-message"></a>\_Сообщение TVM жетнекститем
 
@@ -44,7 +44,7 @@ ms.locfileid: "104135446"
 | <span id="TVGN_FIRSTVISIBLE"></span><span id="tvgn_firstvisible"></span><dl> <dt>**ТВГН \_ фирствисибле**</dt> </dl>          | Извлекает первый элемент, видимый в окне древовидного представления. Для отправки этого сообщения можно использовать макрос [**\_ жетфирствисибле TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getfirstvisible) .<br/>                                                                                                                                         |
 | <span id="TVGN_LASTVISIBLE"></span><span id="tvgn_lastvisible"></span><dl> <dt>**ТВГН \_ ластвисибле**</dt> </dl>             | [Версия 4,71](common-control-versions.md). Извлекает последний развернутый элемент в дереве. При этом последний элемент, видимый в окне древовидного представления, не извлекается. Для отправки этого сообщения можно использовать макрос [**\_ жетластвисибле TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getlastvisible) .<br/>                                            |
 | <span id="TVGN_NEXT"></span><span id="tvgn_next"></span><dl> <dt>**ТВГН \_ Далее**</dt> </dl>                                  | Извлекает следующий элемент того же уровня. Для отправки этого сообщения можно использовать макрос [**\_ жетнекстсиблинг TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getnextsibling) .<br/>                                                                                                                                                                            |
-| <span id="TVGN_NEXTSELECTED"></span><span id="tvgn_nextselected"></span><dl> <dt>**ТВГН \_ некстселектед**</dt> </dl>          | **Windows Vista и более поздние версии.** Извлекает следующий выбранный элемент. Для отправки этого сообщения можно использовать макрос [**\_ жетнекстселектед TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getnextselected) .<br/>                                                                                                                                            |
+| <span id="TVGN_NEXTSELECTED"></span><span id="tvgn_nextselected"></span><dl> <dt>**ТВГН \_ некстселектед**</dt> </dl>          | **Windows Vista и более поздних версий.** Извлекает следующий выбранный элемент. Для отправки этого сообщения можно использовать макрос [**\_ жетнекстселектед TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getnextselected) .<br/>                                                                                                                                            |
 | <span id="TVGN_NEXTVISIBLE"></span><span id="tvgn_nextvisible"></span><dl> <dt>**ТВГН \_ некствисибле**</dt> </dl>             | Извлекает следующий видимый элемент, следующий за указанным элементом. Указанный элемент должен быть видимым. Используйте сообщение [**TVM \_ жетитемрект**](tvm-getitemrect.md) , чтобы определить, является ли элемент видимым. Для отправки этого сообщения можно использовать макрос [**\_ жетнекствисибле TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getnextvisible) .<br/>   |
 | <span id="TVGN_PARENT"></span><span id="tvgn_parent"></span><dl> <dt>**\_родительский твгн**</dt> </dl>                            | Возвращает родительский элемент указанного элемента. Для отправки этого сообщения можно использовать макрос « [**\_ родители**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getparent) ».<br/>                                                                                                                                                                           |
 | <span id="TVGN_PREVIOUS"></span><span id="tvgn_previous"></span><dl> <dt>**ТВГН \_ назад**</dt> </dl>                      | Извлекает предыдущий элемент того же уровня. Для отправки этого сообщения можно использовать макрос [**\_ жетпревсиблинг TreeView**](/windows/desktop/api/Commctrl/nf-commctrl-treeview_getprevsibling) .<br/>                                                                                                                                                                        |
@@ -68,7 +68,7 @@ ms.locfileid: "104135446"
 
 Возвращает маркер элемента, если он успешно выполнен. В большинстве случаев сообщение возвращает значение **null** , указывающее на ошибку. Подробные сведения см. в разделе "Заметки".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение будет возвращать **значение NULL** , если извлекаемый элемент является корневым узлом дерева. Например, если вы используете это сообщение с \_ родительским флагом твгн в дочернем элементе первого уровня корневого узла древовидного представления, сообщение вернет **значение NULL**.
 
@@ -94,15 +94,15 @@ ms.locfileid: "104135446"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

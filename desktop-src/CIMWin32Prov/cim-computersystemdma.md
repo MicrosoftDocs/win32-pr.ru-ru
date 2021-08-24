@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 23748a3b10c11878069a81cd82f7f69d0ab75792
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 97e2a3b49f4403a2ec90717fd051a55670d4ff8b7d7a2b78db145b56189a5a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700834"
 ---
 # <a name="cim_computersystemdma-class"></a>\_Класс CIM компутерсистемдма
 
@@ -51,7 +51,7 @@ class CIM_ComputerSystemDMA : CIM_ComputerSystemResource
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ компутерсистемдма** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_ComputerSystemDMA : CIM_ComputerSystemResource
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ компутерсистемдма** является производным от [**CIM \_ компутерсистемресаурце**](cim-computersystemresource.md).
 
@@ -97,7 +97,7 @@ class CIM_ComputerSystemDMA : CIM_ComputerSystemResource
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ class CIM_ComputerSystemDMA : CIM_ComputerSystemResource
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b68bd1815ff09473f0431dde19a12a87603a9dec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3654fa5eefd45a51d963325e10fbcba765420afe25a5c47a058bbaf4e4093ef0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801534"
 ---
 # <a name="utilstringcopywithalloc-function"></a>Функция Утилстрингкопивисаллок
 
@@ -45,9 +45,9 @@ HRESULT UtilStringCopyWithAlloc(
 *Буфер* \[ заполняет\]
 </dt> <dd>
 
-Введите: **LPWSTR \** _
+Тип: **LPWSTR \***
 
-Расположение, в котором хранится указатель на выделенную память. Если он больше не нужен, он должен быть освобожден с помощью [_ *CoTaskMemFree* *](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree). Этот буфер всегда завершается нулем.
+Расположение, в котором хранится указатель на выделенную память. Если он больше не нужен, он должен быть выпущен с помощью [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree). Этот буфер всегда завершается нулем.
 
 </dd> <dt>
 
@@ -86,19 +86,19 @@ HRESULT UtilStringCopyWithAlloc(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                       |
-| Header<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                       |
+| Заголовок<br/>                   | <dl> <dt>Ндаттрибутилс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

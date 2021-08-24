@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6bf0744481a123998b64693d669e9cb7255599f8
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0d7b4dd7c2f292b41eaee18bd2dc0b8914783516c4cdc9f9bc913542e0ebcaff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103890024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671474"
 ---
 # <a name="partitioning"></a>Секционирование
 
@@ -27,7 +27,7 @@ partitioning(X)
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Может быть **целым числом**, **дробной частью \_**, **\_ четным** или **pow2**.
 
@@ -41,9 +41,9 @@ partitioning(X)
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -53,9 +53,9 @@ partitioning(X)
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 4AB58CC3-476E-4214-B0A3-32BF05160753
 title: Классы памяти
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6273734eb4fc0219f9221c5e299cca57283780dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b70248cf8cd1e6627ae12a5e444d12c8ae684e194b4e2185f2983f6fdbb76274
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694304"
 ---
 # <a name="memory-classes"></a>Классы памяти
 

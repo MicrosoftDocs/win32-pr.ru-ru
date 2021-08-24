@@ -6,12 +6,12 @@ keywords:
 - ипапер
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f84153c9fcec021d9084807d73d46198e3a56482
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91a45322e35f07a6f136e76ecaad6ae237891a741dfb44a6b5db0702c87bda33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662724"
 ---
 # <a name="ipaper-methods"></a>Методы Ипапер
 
@@ -37,7 +37,7 @@ ms.locfileid: "104258957"
 
 
 
- 
+ 
 
 Методы, представляющие интерес для этого примера кода в составных файлах, — это [**Загрузка**](ipaper--load.md), [**Сохранение**](ipaper--save.md)и [**перерисовка**](ipaper--redraw.md).
 
@@ -45,9 +45,9 @@ ms.locfileid: "104258957"
 
 [**Инкстарт**](inkstart-method.md) указывает, что Начальная высота последовательности отрисовки в координатах окна клиента. Он также передает цвет и ширину выбранного в данный момент пера. Клиент поддерживает эти варианты выбора. Собумага просто записывает их при вызове **инкстарт** . [**Инкдрав**](inkdraw-method.md) вызывается многократно, чтобы дать сомнение об успешности координат окна, представляющих движение мыши или пера. [**Инкстоп**](cguipaper-methods.md) инструктирует отметку конца документа.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -10,7 +10,7 @@
           href: about-the-acm-architecture.md
         - name: Сведения о встроенном API Wi-Fi
           href: about-the-native-wifi-api.md
-        - name: Встроенная поддержка интерфейса API WiFi в Windows XP
+        - name: встроенная поддержка интерфейса API Wifi в Windows XP
           href: about-wireless-lan-api-for-windows-xp-service-pack-2.md
         - name: Собственные разрешения API WiFi
           href: native-wifi-api-permissions.md
@@ -672,7 +672,7 @@
             - name: IDot11AdHocNetwork
               href: /windows/win32/api/adhoc/nn-adhoc-idot11adhocnetwork
               items:
-                - name: Метод Connect
+                - name: Подключение Method
                   href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-connect
                 - name: Метод Делетепрофиле
                   href: /windows/win32/api/adhoc/nf-adhoc-idot11adhocnetwork-deleteprofile

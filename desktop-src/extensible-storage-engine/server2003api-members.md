@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104091
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e80e429c5df6cee90e843fc2ff96102677a3b940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be0b495b8854d9cba9bf3bded07cb77d109c2fc5ba4a988794ff3489634fac54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780334"
 ---
 # <a name="server2003api-members"></a>Элементы Server2003Api
 
 Включить защищенные члены  
 Включить унаследованные члены  
 
-API, добавленные в версию ESENT для Windows Server 2003.
+api-интерфейсы, добавленные в Windows Server 2003 версии ESENT.
 
 Тип [Server2003Api](./server2003api-class.md) предоставляет следующие члены.
 
@@ -50,7 +50,7 @@ API, добавленные в версию ESENT для Windows Server 2003.
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

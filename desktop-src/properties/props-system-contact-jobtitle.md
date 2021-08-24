@@ -4,12 +4,12 @@ ms.assetid: 8fb33e53-f8cb-46d6-a480-447cce7ea95e
 title: System. Contact. JobTitle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb5feb4e825a0f4e89a1e8456c968a4263279a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5e75edcc4c86bb2563bf4a03f740fed1fc6d226d3f156c134b2bca6824cbf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599513"
 ---
 # <a name="systemcontactjobtitle"></a>System. Contact. JobTitle
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

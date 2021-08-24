@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1912698fbb6d6ac13f119161c4d05926f05d245b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4f4e41830b0bb4507e3969c327c84a85c5336e5f07389fa12e05f3a92f4089a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675464"
 ---
 # <a name="id3dxeffectbegin-method"></a>Метод ID3DXEffect:: Begin
 
@@ -65,24 +65,24 @@ HRESULT Begin(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение устанавливает один активный метод в системе эффектов, вызывая **ID3DXEffect:: Begin**. Система влияния отвечает, записывая все состояния конвейера, которые могут быть изменены методом в блоке состояния. Приложение сигнализирует об окончании приемки, вызвав [**ID3DXEffect:: end**](id3dxeffect--end.md), который использует блок состояния для восстановления исходного состояния. Таким образом, система эффектов выполняет сохранение состояния, когда прием становится активным, и восстанавливает состояние при завершении метода. Если вы решили отключить эту функцию сохранения и восстановления, см. раздел [D3DXFX \_ донотсавесамплерстате](d3dxfx.md).
 
 В паре **ID3DXEffect:: Begin** и [**ID3DXEffect:: end**](id3dxeffect--end.md) приложение использует [**ID3DXEffect:: бегинпасс**](id3dxeffect--beginpass.md) для установки активного прохода, [**ID3DXEffect:: CommitChanges**](id3dxeffect--commitchanges.md) , если после активации прохода возникли какие либо изменения состояния, и [**ID3DXEffect:: ендпасс**](id3dxeffect--endpass.md) , чтобы завершить активный проход.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

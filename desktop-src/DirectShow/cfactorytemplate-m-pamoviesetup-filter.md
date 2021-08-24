@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 087612acf99a41966ccd98d3b41d2b83255a86f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bc4ee059eb47e08ae827392e8f29968463bb9bd4ca86e0c6b8a87a9f3bbd5667
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697714"
 ---
 # <a name="cfactorytemplatem_pamoviesetup_filter-member"></a>Элемент фильтра Кфакторитемплате:: m \_ памовиесетуп \_
 
@@ -36,22 +36,22 @@ const AMOVIESETUP_FILTER *m_pAMovieSetup_Filter;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Используйте эту структуру, чтобы создать фильтр с собственной регистрацией. Если компонент не является фильтром, переменная-член может иметь **значение NULL**. Дополнительные сведения см. в разделе Регистрация фильтров DirectShow.
+Используйте эту структуру, чтобы создать фильтр с собственной регистрацией. Если компонент не является фильтром, переменная-член может иметь **значение NULL**. дополнительные сведения см. в статье регистрация DirectShow фильтров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Комбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>комбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

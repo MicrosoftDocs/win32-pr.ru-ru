@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e02f0f3d8770b4b703f275de3225eacb301a7843
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 16b2d75c885a2d5328b9a11ff9c8924ad78bf3e514e5b5696397625b5b080529
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676084"
 ---
 # <a name="d3dxshevaldirection-function-d3dx9mathh"></a>Функция D3DXSHEvalDirection (D3dx9math. h)
 
@@ -90,13 +90,13 @@ FLOAT* D3DXSHEvalDirection(
 
 ![формулы связи между декартовы и сферыми координатами](images/spherical-coordinates-equations.png)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

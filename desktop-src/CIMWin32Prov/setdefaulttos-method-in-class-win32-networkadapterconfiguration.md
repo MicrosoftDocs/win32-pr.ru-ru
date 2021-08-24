@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5df55ff88c87047a48a84a122c8e58c8148a7cff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b889d3611d1854c7f1f189868d503878cffd437374ba3c543ce474cf47b25d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760074"
 ---
 # <a name="setdefaulttos-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетдефаулттос \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,11 +404,11 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Статический метод класса **сетдефаулттос** [WMI](/windows/desktop/WmiSdk/retrieving-a-class) используется для задания значения TOS по умолчанию в заголовке исходящих пакетов IP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -422,7 +422,7 @@ DHCP не включен на адаптере.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

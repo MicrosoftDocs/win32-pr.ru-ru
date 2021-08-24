@@ -3,7 +3,7 @@ title: Сообщение TB_GETIDEALSIZE (Коммктрл. h)
 description: Получает идеальный размер панели инструментов.
 ms.assetid: d3b5ea4d-fd80-4f07-be4f-89b53a8bdf4d
 keywords:
-- Элементы управления Windows для TB_GETIDEALSIZE сообщений
+- элементы управления Windows сообщений TB_GETIDEALSIZE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a59b8701a4f4debcfb8e43f37068e7e7a4ef4f11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1844f3ae4200c1120f784c03e5f80d2df4457319cf81e12c88ce0ed84525117d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119816314"
 ---
 # <a name="tb_getidealsize-message"></a>\_Сообщение ЖЕТИДЕАЛСИЗЕ ТБ
 
@@ -43,15 +43,15 @@ ms.locfileid: "104071250"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
