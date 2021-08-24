@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e73de4d6d1762e87aa05e72b6cb6b3fbb228b80d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b44744d7ac7d158bd7d00423396681fef1499c94d61b5cb74a1dee48dad5c784
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103891212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898674"
 ---
 # <a name="uri-prefixes"></a>Префиксы URI
 
@@ -23,7 +23,7 @@ ms.locfileid: "103891212"
 
 ## <a name="prefixes"></a>Префиксы
 
-Если вы обращаетесь к классу [*cim*](windows-remote-management-glossary.md) 2,1, например к [**\_ файлу данных CIM**](/windows/desktop/CIMWin32Prov/cim-datafile), префикс URI отличается от префикса для класса CIM 2,9, например **CIM \_ админдомаин**. Классы CIM 2,1 описаны в разделе [классы cim](/windows/desktop/WmiSdk/cimclas) инструментарий управления Windows (WMI) (WMI).
+Если вы обращаетесь к классу [*cim*](windows-remote-management-glossary.md) 2,1, например к [**\_ файлу данных CIM**](/windows/desktop/CIMWin32Prov/cim-datafile), префикс URI отличается от префикса для класса CIM 2,9, например **CIM \_ админдомаин**. классы cim 2,1 описаны в разделе [классы cim](/windows/desktop/WmiSdk/cimclas) инструментарий управления Windows (WMI) (WMI).
 
 Большинство [классов WMI](/windows/desktop/WmiSdk/wmi-classes) находятся в **корневом \\** пространстве имен CIMV2 WMI. Классы для поставщика [IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)(Майкрософт) находятся в **корневом \\ оборудовании**.
 
@@ -41,13 +41,13 @@ ms.locfileid: "103891212"
 
     "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/hardware/"
 
-Дополнительные сведения см. в разделе [URI ресурсов](resource-uris.md) и [строки UrlPrefix](/windows/desktop/Http/urlprefix-strings). Дополнительные сведения о создании универсального кода ресурса (URI) для класса или метода WMI см. в разделе [Служба удаленного управления Windows и WMI](windows-remote-management-and-wmi.md).
+Дополнительные сведения см. в разделе [URI ресурсов](resource-uris.md) и [строки UrlPrefix](/windows/desktop/Http/urlprefix-strings). дополнительные сведения о создании универсального кода ресурса (URI) для класса или метода wmi см. в разделе [служба удаленного управления Windows и WMI](windows-remote-management-and-wmi.md).
 
 ## <a name="prefix-aliases"></a>Псевдонимы префиксов
 
 Псевдоним префикса — это ярлык, представляющий длинный префикс URI ресурса. Псевдонимы также можно использовать в командной строке **WinRM** . Чтобы просмотреть список доступных псевдонимов, введите **WinRM Help псевдонимы**.
 
-Имейте в виду, что псевдоним нельзя использовать внутри ссылки на конечную точку (EPR) при указании URI ресурса. Служба удаленного управления Windows не может расширить псевдоним, если он внедрен в XML.
+Имейте в виду, что псевдоним нельзя использовать внутри ссылки на конечную точку (EPR) при указании URI ресурса. Windows Удаленному управлению не удается расширить псевдоним, если он внедрен в XML.
 
 В следующем примере кода псевдоним WinRM используется в EPR вместо полного URI ресурса, то есть `http://schemas.microsoft.com/wbem/wsman/1/config/Listener` . В этом случае WinRM возвращает ошибку, указывающую, что службе не удается обработать запрос.
 
@@ -109,14 +109,14 @@ ResponseStr = Session.Get(ResourceLocator, 0)
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[служба удаленного управления Windows и WMI](windows-remote-management-and-wmi.md)
+[Windows Удаленное управление и инструментарий WMI](windows-remote-management-and-wmi.md)
 </dt> <dt>
 
 [URI ресурсов](resource-uris.md)

@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d3c36e7c24702578704e849820abf2b1769c91c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b53f0e72e21b73932c144602308ee599c523ea755b45dae12774109f6a9e010f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899664"
 ---
 # <a name="cim_settingsdefinecapabilities-class"></a>\_Класс CIM сеттингсдефинекапабилитиес
 
@@ -49,7 +49,7 @@ class CIM_SettingsDefineCapabilities : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сеттингсдефинекапабилитиес** имеет следующие свойства.
 
@@ -238,7 +238,7 @@ class CIM_SettingsDefineCapabilities : CIM_Component
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -252,7 +252,7 @@ class CIM_SettingsDefineCapabilities : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0cbc611bb9e1a72f53e2178039b0ad76411e39a8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 02d3af940691b5afbdbd11f5e653630603948797b026dd0c3eac4b469646d556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897584"
 ---
 # <a name="swbemrefreshableitemobjectset-property"></a>Свбемрефрешаблеитем. Objecting, свойство
 
@@ -43,11 +43,11 @@ SWbemRefreshableItem.ObjectSet As Object
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство имеет **значение NULL** , если только [**свбемрефрешаблеитем. Иссет**](swbemrefreshableitem-isset.md) имеет **значение true**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ SWbemRefreshableItem.ObjectSet As Object
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_СВБЕМРЕФРЕШАБЛЕИТЕМ CLSID<br/>                                                  |
@@ -63,7 +63,7 @@ SWbemRefreshableItem.ObjectSet As Object
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

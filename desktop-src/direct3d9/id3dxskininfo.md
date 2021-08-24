@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: afb93a0513bef7de1b0815b8b1f50179e2cba41d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0d7bfeddb5cb34bb9b5d0372f424c40248f06e55fa7263e1e884e71fb82dafcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727764"
 ---
 # <a name="id3dxskininfo-interface"></a>Интерфейс ID3DXSkinInfo
 
@@ -68,7 +68,7 @@ ms.locfileid: "105713593"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Создание интерфейса **ID3DXSkinInfo** с помощью [**D3DXCreateSkinInfo**](d3dxcreateskininfo.md), [**D3DXCreateSkinInfoFromBlendedMesh**](d3dxcreateskininfofromblendedmesh.md)или [**D3DXCreateSkinInfoFVF**](d3dxcreateskininfofvf.md).
 
@@ -81,18 +81,18 @@ typedef struct ID3DXSkinInfo *LPD3DXSKININFO;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

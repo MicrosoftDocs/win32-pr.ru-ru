@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15ec83b8f8238e4236bbee3f7091c228c552efb4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 817bab7c2ec41134d71c92ada94c62475b01cc2db96a9f8c74ecb2c7b9274451
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770384"
 ---
 # <a name="rf-constants"></a>Константы RF
 
@@ -38,30 +38,30 @@ ms.locfileid: "105651868"
 | <span id="CDRF_DODEFAULT"></span><span id="cdrf_dodefault"></span><dl> <dt>**Кдрф \_ ДОДЕФАУЛТ**</dt> <dt>0x00000000</dt> </dl>                         | Элемент управления будет рисовать сам. Он не будет отсылать дополнительные коды уведомлений [ \_ кустомдрав](nm-customdraw.md) для этого цикла рисования. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ .<br/>                                                                                                                                                               |
 | <span id="CDRF_NEWFONT"></span><span id="cdrf_newfont"></span><dl> <dt>**Кдрф \_ НЕВФОНТ**</dt> <dt>0x00000002</dt> </dl>                               | Приложение указало новый шрифт для элемента; элемент управления будет использовать новый шрифт. Дополнительные сведения об изменении шрифтов см. в разделе Изменение шрифтов и цветов. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ итемпрепаинт.<br/>                                                                                                                                      |
 | <span id="CDRF_SKIPDEFAULT"></span><span id="cdrf_skipdefault"></span><dl> <dt>**Кдрф \_ СКИПДЕФАУЛТ**</dt> <dt>0x00000004</dt> </dl>                   | Приложение назначит элемент вручную. Элемент управления не будет рисовать элемент. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ итемпрепаинт.<br/>                                                                                                                                                                                                                          |
-| <span id="CDRF_DOERASE"></span><span id="cdrf_doerase"></span><dl> <dt>**Кдрф \_ ДОЕРАСЕ**</dt> <dt>0x00000008</dt> </dl>                               | **Windows Vista и более поздние версии.** Элемент управления выполнит рисование фона.<br/>                                                                                                                                                                                                                                                                                                                                                         |
+| <span id="CDRF_DOERASE"></span><span id="cdrf_doerase"></span><dl> <dt>**Кдрф \_ ДОЕРАСЕ**</dt> <dt>0x00000008</dt> </dl>                               | **Windows Vista и более поздних версий.** Элемент управления выполнит рисование фона.<br/>                                                                                                                                                                                                                                                                                                                                                         |
 | <span id="CDRF_NOTIFYPOSTPAINT"></span><span id="cdrf_notifypostpaint"></span><dl> <dt>**Кдрф \_ НОТИФИПОСТПАИНТ**</dt> <dt>0x00000010</dt> </dl>       | Элемент управления будет уведомлять родительский элемент после рисования элемента. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ .<br/>                                                                                                                                                                                                                                               |
 | <span id="CDRF_NOTIFYITEMDRAW"></span><span id="cdrf_notifyitemdraw"></span><dl> <dt>**Кдрф \_ НОТИФИТЕМДРАВ**</dt> <dt>0x00000020</dt> </dl>          | Элемент управления будет уведомлять родителя всех операций рисования, связанных с элементами. Он будет отсылать [ \_ кустомдрав](nm-customdraw.md) коды уведомлений до и после прорисовки элементов. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ .<br/>                                                                                                                           |
 | <span id="CDRF_NOTIFYSUBITEMDRAW"></span><span id="cdrf_notifysubitemdraw"></span><dl> <dt>**Кдрф \_ НОТИФИСУБИТЕМДРАВ**</dt> <dt>0x00000020</dt> </dl> | **Internet Explorer 4,0 и более поздней версии.** Элемент управления будет уведомлять родителя всех операций рисования, связанных с элементами. Он будет отсылать [ \_ кустомдрав](nm-customdraw.md) коды уведомлений до и после прорисовки элементов. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ . Этот флаг идентичен **кдрф \_ нотифитемдрав** , и его использование зависит от контекста.<br/> |
 | <span id="CDRF_NOTIFYPOSTERASE"></span><span id="cdrf_notifyposterase"></span><dl> <dt>**Кдрф \_ НОТИФИПОСТЕРАСЕ**</dt> <dt>0x00000040</dt> </dl>       | Элемент управления будет уведомлять родительский элемент после стирания элемента. Это происходит, когда **двдравстаже** структуры [**НМКУСТОМДРАВ**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) равна кддс \_ .<br/>                                                                                                                                                                                                                                                |
-| <span id="CDRF_SKIPPOSTPAINT"></span><span id="cdrf_skippostpaint"></span><dl> <dt>**Кдрф \_ СКИППОСТПАИНТ**</dt> <dt>0x00000100</dt> </dl>             | **Windows Vista и более поздние версии.** Элемент управления не будет рисовать прямоугольник фокуса.<br/>                                                                                                                                                                                                                                                                                                                                                |
+| <span id="CDRF_SKIPPOSTPAINT"></span><span id="cdrf_skippostpaint"></span><dl> <dt>**Кдрф \_ СКИППОСТПАИНТ**</dt> <dt>0x00000100</dt> </dl>             | **Windows Vista и более поздних версий.** Элемент управления не будет рисовать прямоугольник фокуса.<br/>                                                                                                                                                                                                                                                                                                                                                |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти константы определены в Коммктрл. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

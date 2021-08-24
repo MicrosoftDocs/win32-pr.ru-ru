@@ -1,19 +1,19 @@
 ---
-description: В этом разделе содержатся сведения о коде встроенного Фото HD, доступном через компонент Windows Imaging Component (WIC).
+description: в этом разделе содержатся сведения о коде встроенного фото HD, доступном через компонент Windows imaging (WIC).
 ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: Общие сведения о формате фото HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62c526667c6bf77d340e895bdb66dc073134c33d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 772c295051186069dd7be1a3efa3bfbb4e6ea919b2ab9fbe77ffd52cad1676a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881954"
 ---
 # <a name="hd-photo-format-overview"></a>Общие сведения о формате фото HD
 
-В этом разделе содержатся сведения о коде встроенного Фото HD, доступном через компонент Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о коде встроенного фото HD, доступном через компонент Windows imaging (WIC).
 
 > [!IMPORTANT]
 >
@@ -37,7 +37,7 @@ ms.locfileid: "111444875"
 
 |   Компонент            | Описание                                                                     |
 |------------------------|---------------------------------------------------------------------------------|
-| Формальные имена         | Фото HD, Фото Windows Media                                                   |
+| Формальные имена         | фото HD, фото Windows мультимедиа                                                   |
 | Расширения имени файла | формате WDP                                                                             |
 | тип MIME              | Image/vnd. МС-фото                                                              |
 | Подписи файлов      | Первые четыре байта: 0x4949bc00 (версия 0; предварительный выпуск), 0x4949bc01 (версия 1,0). |
@@ -50,7 +50,7 @@ ms.locfileid: "111444875"
 
 
 
-| Компонент        | Понятное имя            | Код GUID                                |
+| Компонент        | Понятное имя            | GUID                                |
 |------------------|--------------------------|-------------------------------------|
 | Формат контейнера | GUID \_ контаинерформатвмп | 57a37caa-367A-4540-916bf183c5093a4b |
 | Показан          | \_ВИКВМПДЕКОДЕР CLSID     | a26cec36-234c-4950-ae16e34aace71d0d |

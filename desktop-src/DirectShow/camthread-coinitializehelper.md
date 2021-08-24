@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a6c3eb7fbcb9e4abada43098339a29d208ded0d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41a763a4b9151f22615aa0af3dae57af8281751209a016dc3135f3572e9d8ef3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768294"
 ---
 # <a name="camthreadcoinitializehelper-method"></a>Камсреад. Коинитиализехелпер, метод
 
@@ -56,9 +56,9 @@ static HRESULT CoInitializeHelper();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Метод [**камсреад:: инитиалсреадпрок**](camthread-initialthreadproc.md) вызывает этот вспомогательный метод, который вызывает функцию CoInitializeEx. \_ \_ Для отключения платформа динамических данных Exchange (DDE) используется флаг деinit Disable OLE1DDE. Дополнительные сведения см. в разделе пакет SDK для платформы.
+Метод [**камсреад:: инитиалсреадпрок**](camthread-initialthreadproc.md) вызывает этот вспомогательный метод, который вызывает функцию CoInitializeEx. \_ \_ для отключения платформа динамических данных Exchange (DDE) используется флаг деинициализации disable OLE1DDE. Дополнительные сведения см. в разделе пакет SDK для платформы.
 
 ## <a name="requirements"></a>Требования
 
@@ -66,7 +66,7 @@ static HRESULT CoInitializeHelper();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

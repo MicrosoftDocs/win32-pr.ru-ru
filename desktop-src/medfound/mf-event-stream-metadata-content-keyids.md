@@ -4,12 +4,12 @@ ms.assetid: 886127A1-7612-40FE-8BE7-EA90708E41DA
 title: Атрибут MF_EVENT_STREAM_METADATA_CONTENT_KEYIDS (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc59a0f864da884e668df69d4fb29d71bc2eb134
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0391bc56261dbfd66133b02b224001639669aede3822be9734abb136a8b8acb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826644"
 ---
 # <a name="mf_event_stream_metadata_content_keyids-attribute"></a>\_ \_ \_ \_ Атрибут кэйидс содержимого МЕТАДАННЫХ для потока событий \_ MF
 
@@ -25,9 +25,9 @@ ms.locfileid: "103911192"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                     |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                     |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: d3a556d68c33249d2e6b49c48035cc58d8bac8e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af7580188c7ded31c80476509aef8a10ee83b1cb1f9767ca5819eed053f1ce87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898744"
 ---
 # <a name="downlevelgetparentlocalename-function"></a>Функция Довнлевелжетпарентлокаленаме
 
 Возвращает [имя языкового стандарта](locale-names.md) для родительского элемента поддерживаемого языкового стандарта.
 
 > [!Note]  
-> Эта функция используется только приложениями, работающими в операционных системах, предшествующих Windows Vista. Для его использования требуется загружаемый пакет. Приложения, которые работают только в Windows Vista и более поздних версиях, должны вызывать [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) с *LCType* , установленным в [locale \_ спарент](locale-sparent.md).
+> эта функция используется только приложениями, работающими в операционных системах, предшествующих Windows Vista. Для его использования требуется загружаемый пакет. приложения, которые работают только в Windows Vista и более поздних версиях, должны вызывать [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) с *LCType* , установленным в [LOCALE \_ спарент](locale-sparent.md).
 
  
 
@@ -55,7 +55,7 @@ int DownlevelGetParentLocaleName(
 -   [система языкового стандарта \_ \_ по умолчанию](locale-system-default.md)
 -   [\_Пользовательская Национальная настройка \_ по умолчанию](locale-user-default.md)
 
-**Windows Vista и более поздние версии:** Также поддерживаются следующие пользовательские идентификаторы языкового стандарта.
+**Windows Vista и более поздних версий:** Также поддерживаются следующие пользовательские идентификаторы языкового стандарта.
 
 -   [Пользовательский ЯЗЫКовой стандарт \_ \_ по умолчанию](locale-custom-constants.md)
 -   [Пользовательский пользовательский интерфейс языкового стандарта \_ \_ \_ по умолчанию](locale-custom-constants.md)
@@ -90,25 +90,25 @@ int DownlevelGetParentLocaleName(
 -   Ошибка \_ : недостаточный \_ Размер буфера. Указанный размер буфера не достаточен или имеет неправильное значение **null**.
 -   Ошибка \_ : недопустимый \_ параметр. Любое из значений параметров было недопустимым.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Требуемый заголовочный файл и библиотека DLL являются частью скачивания "API сопоставления данных нижнего уровня Microsoft NLS", доступного в [центре загрузки Майкрософт](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Распространяемые компоненты<br/>          | API-интерфейсы сопоставления данных нижнего уровня Microsoft NLS в Windows XP с пакетом обновления 2 (SP2)<br/>  |
-| Header<br/>                   | <dl> <dt>Нлсдл. h</dt> </dl>    |
+| Заголовок<br/>                   | <dl> <dt>Нлсдл. h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

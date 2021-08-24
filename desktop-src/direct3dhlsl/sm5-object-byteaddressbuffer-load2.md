@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 78204fc3d41daf07a54974fbf103685e718ab79d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fac3b1cd0fffca1a68089c3c21bfd5d6aea5f270493319b044a0bbe290d88a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103820509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845734"
 ---
 # <a name="byteaddressbufferload2uint-function"></a>Функция Битеаддрессбуффер:: Load2 (UINT)
 
@@ -51,7 +51,7 @@ uint2 Load2(
 
 Два значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 

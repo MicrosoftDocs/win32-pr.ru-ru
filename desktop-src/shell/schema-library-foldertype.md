@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c6d94906fa8c0debfa1ee49d95f5acd47aea2526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d35f09a10cc88ae3873a507b6fa7000812503890240ce0b808ffecc84f23fd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883954"
 ---
 # <a name="foldertype-element-library-schema"></a>Элемент Фолдертипе (схема библиотеки)
 
@@ -48,13 +48,13 @@ ms.locfileid: "104984589"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Задание типа папки определяет столбцы и сведения, отображаемые в проводнике Windows по умолчанию. Идентификаторы типов папок ([**фолдертипеид**](foldertypeid.md)) являются идентификаторами GUID, определенными в шлгуид. h. В следующей таблице перечислены идентификаторы GUID общих типов папок.
+задание типа папки определяет столбцы и сведения, отображаемые в Windows Explorer по умолчанию. Идентификаторы типов папок ([**фолдертипеид**](foldertypeid.md)) являются идентификаторами GUID, определенными в шлгуид. h. В следующей таблице перечислены идентификаторы GUID общих типов папок.
 
 
 
-| Тип папки      | Код GUID                                   |
+| Тип папки      | GUID                                   |
 |------------------|----------------------------------------|
 | Универсальная библиотека  | {5f4eab9a-6833-4f61-899d-31cf46979d49} |
 | Библиотеки пользователей  | {C4D98F09-6124-4fe0-9942-826416082DA9} |
@@ -69,7 +69,7 @@ ms.locfileid: "104984589"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

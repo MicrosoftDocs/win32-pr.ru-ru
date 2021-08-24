@@ -10,12 +10,12 @@ keywords:
 - синхронные читатели, получение примеров мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fd341ea9616b18a5e65cfa8c1134e0f1be44b5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2e1ec4fc7e8a894de304ea828cef9d8e019f4cdedfd2fbd851a427382ba741a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104412516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807434"
 ---
 # <a name="to-retrieve-media-samples-with-the-synchronous-reader"></a>Получение примеров мультимедиа с помощью синхронного модуля чтения
 
@@ -28,7 +28,7 @@ ms.locfileid: "104412516"
 > [!Note]  
 > Чтобы гарантировать, что синхронный читатель доставляет правильную длительность выборки для видеопотоков, необходимо сначала настроить выходные данные потока. Вызовите метод [**ивмсинкреадер:: сетаутпутсеттинг**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting) , чтобы установить \_ для параметра g всзвидеосампледуратионс значение **true**.
 
- 
+ 
 
 Пример кода
 
@@ -66,7 +66,7 @@ while (SUCCEEDED(hr));
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -76,9 +76,9 @@ while (SUCCEEDED(hr));
 [**Чтение файлов с помощью синхронного модуля чтения**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

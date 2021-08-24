@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b097e63792b32bc1688ce93c8ce32ffaedeae6ee
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ed4b0abd35f9f53fb2111f40903e4b2b81a75c9d402a53fbb2fdb1cdc9a75750
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847844"
 ---
 # <a name="id3dxfilesavedataadddataobject-method"></a>Метод ID3DXFileSaveData:: Адддатаобжект
 
@@ -105,18 +105,18 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DXFERR \_ бадобжект, D3DXFERR \_ Бадвалуе, E \_ OUTOFMEMORY.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

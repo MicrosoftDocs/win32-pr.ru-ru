@@ -15,12 +15,12 @@ keywords:
 - маркеры, асинхронные читатели
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16cb4fef99a5c735a12f03f8d2e962d6caf9c2a
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 3361546f4087e0c2104809435d9d75e8711560ec4f3c55855d14b05ef4dfb8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "105700829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807354"
 ---
 # <a name="to-seek-to-markers"></a>Поиск маркеров
 
@@ -33,7 +33,7 @@ ms.locfileid: "105700829"
 5.  Укажите маркер, с которого следует начать воспроизведение, вызвав [**IWMReaderAdvanced2:: стартатмаркер**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-startatmarker). Необходимо передать индекс нужного маркера, который был сохранен на шаге 3.
 6.  Обработайте примеры, как обычно в реализации метода [**ивмреадеркаллбакк:: OnSample**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -46,9 +46,9 @@ ms.locfileid: "105700829"
 [**Работа с индексами**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

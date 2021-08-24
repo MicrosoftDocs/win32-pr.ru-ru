@@ -4,12 +4,12 @@ description: Если приложению требуется уведомлен
 ms.assetid: 881e71f7-39e6-4847-bdf2-78e54d1750cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b9095ab4b5b2d43a12f7e806eabc24b174a0311
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5a3dca603e6226d3171aed920311bafcf6844ec9fab5c7aa05deafee7a13fd8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768534"
 ---
 # <a name="registering-a-callback"></a>Регистрация обратного вызова
 
@@ -18,9 +18,9 @@ ms.locfileid: "103792222"
 Разработчики не должны отменять асинхронную операцию внутри асинхронного обратного вызова.
 
 > [!Note]  
-> Добавление обратного вызова в Visual Basic отличается от метода, используемого в VBScript. Функция **GetRef** , используемая в VBScript, недоступна в Visual Basic. Поэтому разработчик должен создать объект [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) , имеющий функцию обратного вызова в качестве метода по умолчанию. См. раздел [Регистрация обратного вызова в Visual Basic](registering-a-callback-in-visual-basic.md).
+> добавление обратного вызова в Visual Basic отличается от метода, используемого в VBScript. Функция **GetRef** , используемая в VBScript, недоступна в Visual Basic. Поэтому разработчик должен создать объект [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) , имеющий функцию обратного вызова в качестве метода по умолчанию. См. раздел [Регистрация обратного вызова в Visual Basic](registering-a-callback-in-visual-basic.md).
 
- 
+ 
 
 ## <a name="vbscript-example"></a>Пример VBScript
 
@@ -188,6 +188,6 @@ HRESULT AddCallbackToService(IUPnPService* pUPnPService)
 
 
 
- 
+ 
 
- 
+ 

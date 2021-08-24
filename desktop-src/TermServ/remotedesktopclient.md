@@ -1,6 +1,6 @@
 ---
 title: Класс Ремотедесктопклиент
-description: Реализует клиентский элемент управления удаленный рабочий стол приложения для магазина Microsoft Windows — версия 1.
+description: реализует приложение Microsoft Windows Store удаленный рабочий стол клиентского элемента управления версии 1.
 ms.assetid: 0910883A-BD49-4908-8423-1FC280E0FE0C
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb10b23f52f53e2d89fd5a81449818a8fe374116
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad76c8c189854a28709765c5677d047590216ae8ab6271d44c595f7b24fdd88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865903"
 ---
 # <a name="remotedesktopclient-class"></a>Класс Ремотедесктопклиент
 
-Реализует клиентский элемент управления для приложения Магазина Microsoft Windows удаленный рабочий стол версии 1
+реализует приложение Microsoft Windows Store для удаленный рабочий стол клиентского элемента управления — версия 1
 
 Этот класс реализует следующие интерфейсы.
 
@@ -87,7 +87,7 @@ ms.locfileid: "103988389"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -101,11 +101,11 @@ ms.locfileid: "103988389"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[удаленный рабочий стол классов элементов управления ActiveX](remote-desktop-activex-control-classes.md)
+[удаленный рабочий стол классы элементов управления ActiveX](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 
  

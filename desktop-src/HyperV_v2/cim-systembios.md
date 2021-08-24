@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: faa3130544fdb97bdf216fa266bc9e8cfe1815bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a4dae1a4ff028cfc675b2f1a9526b523540398b13cd8b33e0914c12d8df08b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899464"
 ---
 # <a name="cim_systembios-class"></a>\_Класс CIM систембиос
 
@@ -43,7 +43,7 @@ class CIM_SystemBIOS : CIM_SystemComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ систембиос** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ BIOS.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ BIOS.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

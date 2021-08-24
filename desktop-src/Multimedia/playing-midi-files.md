@@ -3,7 +3,7 @@ title: Воспроизведение файлов MIDI
 description: Воспроизведение файлов MIDI
 ms.assetid: 884e9299-e2e4-4f0f-be2b-8647151fd9ae
 keywords:
-- Мультимедиа Windows, воспроизведение файлов MIDI
+- Windows мультимедиа, воспроизведение файлов MIDI
 - мультимедиа, воспроизведение файлов MIDI
 - мультимедиа аудио, воспроизведение файлов MIDI
 - звук, воспроизведение файлов MIDI
@@ -15,12 +15,12 @@ keywords:
 - буферы потоков, воспроизведение файлов MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee66ba0687807554cdd416debc1428499d2f2fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65ddb915ce19072a119f692df738d69f8de6807a8b14f47ef7b8e0428814976c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805904"
 ---
 # <a name="playing-midi-files"></a>Воспроизведение файлов MIDI
 
@@ -39,9 +39,9 @@ ms.locfileid: "104067777"
 -   [Изменение внутреннего тома MIDI синтезатор](changing-internal-midi-synthesizer-volume.md)
 -   [Предварительная загрузка исправлений с помощью внутренних синтезаторов MIDI](preloading-patches-with-internal-midi-synthesizers.md)
 
- 
+ 
 
- 
+ 
 
 
 

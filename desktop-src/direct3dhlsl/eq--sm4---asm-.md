@@ -4,12 +4,12 @@ description: Сравнение равенства с плавающей точ�
 ms.assetid: 925578E4-0161-45A9-840F-14AA65FF4F33
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f47dc7bda7b1c61c251ace061fc75897788b968
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5a90af3fd6f65a6a81c32592650c4be33996c96a1d99415ec1dfecb0b0f83ac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789044"
 ---
 # <a name="eq-sm4---asm"></a>EQ (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412123"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выполняет сравнение с плавающей запятой (*src0*  ==  *src1*) для каждого компонента и записывает результат в *dest*.
 
@@ -64,9 +64,9 @@ ms.locfileid: "104412123"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -75,7 +75,7 @@ ms.locfileid: "104412123"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

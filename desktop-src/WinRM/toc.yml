@@ -1,24 +1,24 @@
 - name: Удаленное управление Windows
   href: portal.md
   items:
-    - name: О служба удаленного управления Windows
+    - name: о служба удаленного управления Windows
       href: about-windows-remote-management.md
       items:
         - name: 'Новые возможности WinRM 2,0'
           href: whats-new-in-winrm.md
         - name: 'Установка и настройка службы удаленного управления Windows '
           href: installation-and-configuration-for-windows-remote-management.md
-        - name: Архитектура служба удаленного управления Windows
+        - name: Windows Архитектура удаленного управления
           href: windows-remote-management-architecture.md
         - name: Протокол WS-Management
           href: ws-management-protocol.md
-        - name: Создание сценариев в служба удаленного управления Windows
+        - name: создание сценариев в служба удаленного управления Windows
           href: scripting-in-windows-remote-management.md
         - name: Проверка подлинности для удаленных подключений
           href: authentication-for-remote-connections.md
         - name: Прокси-серверы и WinRM
           href: proxy-servers-and-winrm.md
-        - name: служба удаленного управления Windows и WMI
+        - name: Windows Удаленное управление и инструментарий WMI
           href: windows-remote-management-and-wmi.md
         - name: Обнаружение профиля DMTF с помощью обхода взаимосвязей
           href: dmtf-association-traversal.md
@@ -44,7 +44,7 @@
           href: remote-hardware-management.md
         - name: События
           href: events.md
-    - name: Использование служба удаленного управления Windows
+    - name: использование служба удаленного управления Windows
       href: using-windows-remote-management.md
       items:
         - name: Рекомендации по WinRM
@@ -61,7 +61,7 @@
           href: querying-for-specific-instances-of-a-resource.md
         - name: Отображение выходных данных XML из скриптов WinRM
           href: displaying-xml-output-from-winrm-scripts.md
-    - name: Справочник по служба удаленного управления Windows
+    - name: Windows Справочник по удаленному управлению
       href: windows-remote-management-reference.md
       items:
         - name: API оболочки клиента WinRM
@@ -609,5 +609,5 @@
                   href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
         - name: Управляемый справочник по классам команд Windows PowerShell WinRM
           href: winrm-powershell-commandlets.md
-    - name: Глоссарий служба удаленного управления Windows
+    - name: Windows Глоссарий по удаленному управлению
       href: windows-remote-management-glossary.md

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09645801618de130439bdf1998b92183e4791783
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4e15b4bf57a14d6bae6dd5b83c8ea86e38830113fbcfbbaa27b143bf02bb130e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846974"
 ---
 # <a name="varfileinfo-block-statement"></a>Варфилеинфо BLOCK, инструкция
 
@@ -45,7 +45,7 @@ BLOCK "VarFileInfo" { VALUE "Translation", langID, charsetID . . . }
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Можно указать более одной пары идентификаторов, но каждую пару следует отделять от предшествующей пары запятыми.
 
@@ -59,7 +59,7 @@ BLOCK "VarFileInfo" { VALUE "Translation", langID, charsetID . . . }
 | 0x0402 | Болгарский           | 0x0416 | Португальский (Бразилия)       |
 | 0x0403 | Каталонский             | 0x0417 | Rhaeto-Romanic            |
 | 0x0404 | Китайский (традиционный) | 0x0418 | Румынский                  |
-| 0x0405 | Чешский               | 0x0419 | русском языке                   |
+| 0x0405 | Чешский               | 0x0419 | Русский                   |
 | 0x0406 | Датский              | 0x041A | Croato-Serbian (латиница)    |
 | 0x0407 | Немецкий              | 0x041B | Словацкий                    |
 | 0x0408 | Греческий               | 0x041C | Албанский                  |
@@ -70,7 +70,7 @@ BLOCK "VarFileInfo" { VALUE "Translation", langID, charsetID . . . }
 | 0x040D | Иврит              | 0x0421 | Бахаса                    |
 | 0x040E | Венгерский           | 0x0804 | Китайский (упрощенный)        |
 | 0x040F | Исландский           | 0x0807 | Швейцарская немецкая              |
-| 0x0410 | Итальянский             | 0x0809 | Великобритании Английский              |
+| 0x0410 | Итальянский             | 0x0809 | Великобритания: Английский              |
 | 0x0411 | Японский            | 0x080A | Испанский (Мексика)          |
 | 0x0412 | Корейский              | 0x080C | Бельгия (французский)            |
 | 0x0413 | Нидерландский               | 0x0C0C | Французский (Канада)           |
@@ -81,7 +81,7 @@ BLOCK "VarFileInfo" { VALUE "Translation", langID, charsetID . . . }
 
 
 
- 
+ 
 
 Параметр *чарсетид* задает один из следующих идентификаторов наборов символов:
 
@@ -104,11 +104,11 @@ BLOCK "VarFileInfo" { VALUE "Translation", langID, charsetID . . . }
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,12 +3,12 @@ description: Указывает путь к файлу, представляющ
 title: MF_CONTENTDECRYPTIONMODULE_STOREPATH (mfcontentdecryptionmodule.h)
 ms.topic: reference
 ms.date: 01/31/2020
-ms.openlocfilehash: 8f5ae27fc8ebbdbf0d9e529f1905631b462ff959
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8126bfea15f9946bb9950293a6c39c101f9c37c8870176fb4bb0108aa5862bb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723464"
 ---
 # <a name="mf_contentdecryptionmodule_storepath-property"></a>\_Свойство контентдекриптионмодуле \_ Требуется StorePath MF
 
@@ -27,7 +27,7 @@ ms.locfileid: "104497667"
 
 Путь к файлу, представляющий место хранения, которое модуль расшифровки содержимого (CDM) может использовать для инициализации.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Путь, указанный с помощью этого свойства, также будет использоваться для данных, связанных с содержимым, если не задано свойство [MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH](mf-contentdecryptionmodule-inprivatestorepath.md) .
 
@@ -37,18 +37,18 @@ ms.locfileid: "104497667"
 
 Задайте это свойство при создании CDM путем вызова [имфконтентдекриптионмодулеакцесс:: креатеконтентдекриптионмодуле](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Обновление Windows 10 от апреля 2020<br/>                                     |
-| Header<br/>                   | <dl> <dt>мфконтентдекриптионмодуле. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 Обновление за Апрель 2020<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>мфконтентдекриптионмодуле. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Свойства Media Foundation](media-foundation-properties.md)
 - [Имфконтентдекриптионмодулеакцесс:: Креатеконтентдекриптионмодуле](/windows/win32/api/mfcontentdecryptionmodule/nf-mfcontentdecryptionmodule-imfcontentdecryptionmoduleaccess-createcontentdecryptionmodule)

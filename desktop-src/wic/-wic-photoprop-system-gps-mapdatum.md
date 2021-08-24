@@ -4,12 +4,12 @@ ms.assetid: be31e98f-5114-4693-a9ef-37fea334875b
 title: Политика метаданных фотографии System. GPS. Мапдатум
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7a279c79da3d2b1dd20563af35bd34233a1a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bbd3671ec9e025dd2c5ea98fc36f4937abab315b09a2227fb6249d74e577da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882344"
 ---
 # <a name="systemgpsmapdatum-photo-metadata-policy"></a>Политика метаданных фотографии System. GPS. Мапдатум
 
@@ -45,7 +45,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 
 
-| Заказ | Путь                          | Формат диска | Обязательно |
+| Номер | Путь                          | Формат диска | Обязательно |
 |-------|-------------------------------|-------------|----------|
 | 1     | /КСМП/ексиф: Гпсмапдатум         | Юникод     | Да      |
 | 2     | /APP1/IFD/GPS/ \\ {UShort = 18 \\ } | ASCII       | Нет       |
@@ -60,7 +60,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 
 
-| Заказ | Путь                      | Формат диска | Обязательно |
+| Номер | Путь                      | Формат диска | Обязательно |
 |-------|---------------------------|-------------|----------|
 | 1     | /ИФД/КСМП/ексиф: Гпсмапдатум | Юникод     | Да      |
 | 2     | /ИФД/ГПС/ \\ {UShort = 18 \\ }  | ASCII       | Нет       |
@@ -71,7 +71,7 @@ VT \_ LPWSTR является предпочтительным, но \_ такж
 
 ## <a name="remarks"></a>Remarks
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: eaed162b-ef07-4295-93d9-6be91232a82e
 title: Получение сведений о пакетах безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca690575ff7f46ef5a5b1d971b1ab9fdd91f95e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626b5bf53ddc9ef20f0110dc7695a7245245604ca9e11baa3cbb50b2c1bd393f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883104"
 ---
 # <a name="getting-information-about-security-packages"></a>Получение сведений о пакетах безопасности
 
@@ -19,7 +19,7 @@ ms.locfileid: "104154770"
 
 Чтобы получить выходную структуру, вызывающий объект передает в функцию адрес указателя на тип возвращаемой структуры. Функция выделяет память и возвращает данные вызывающему объекту, присваивая аргументу адрес буфера возвращаемых данных. Соглашение SSPI заключается в том, что функция выделяет память для структуры, а вызывающее приложение освобождает эту память с помощью [**фриконтекстбуффер**](/windows/desktop/api/Sspi/nf-sspi-freecontextbuffer).
 
-Вызов функции [**куерисекуритипаккажеинфо**](/windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa) извлекает атрибуты [*пакета безопасности*](/windows/desktop/SecGloss/s-gly). Как сервер, так и клиент могут вызвать функцию **куерисекуритипаккажеинфо** , чтобы получить максимальную длину маркера безопасности из элемента **кбмакстокен** структуры [**секпкгинфо**](/windows/desktop/api/Sspi/ns-sspi-secpkginfoa) . Пример см. в описании вызова функции **куерисекуритипаккажеинфо** , показанной в разделе [Использование SSPI с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md).
+Вызов функции [**куерисекуритипаккажеинфо**](/windows/desktop/api/Sspi/nf-sspi-querysecuritypackageinfoa) извлекает атрибуты [*пакета безопасности*](/windows/desktop/SecGloss/s-gly). Как сервер, так и клиент могут вызвать функцию **куерисекуритипаккажеинфо** , чтобы получить максимальную длину маркера безопасности из элемента **кбмакстокен** структуры [**секпкгинфо**](/windows/desktop/api/Sspi/ns-sspi-secpkginfoa) . пример см. в вызове функции **куерисекуритипаккажеинфо** , показанной в разделе [использование SSPI с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md).
 
 Дополнительные сведения о функциях пакета см. в разделе [Управление пакетами](authentication-functions.md).
 

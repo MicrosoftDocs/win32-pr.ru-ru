@@ -3,7 +3,7 @@ title: Сообщение MM_MCISIGNAL (Ммсистем. h)
 description: '\_Сообщение МЦИСИГНАЛ mm отправляется в окно для уведомления приложения о том, что устройство MCI достигло места, определенного в предыдущей команде сигнала (MCI \_ Signal).'
 ms.assetid: 12512d23-9a89-4e38-9ec5-88845766f4f6
 keywords:
-- MM_MCISIGNAL сообщения Windows мультимедиа
+- сообщение MM_MCISIGNAL Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d42d4d39f31b82c7461a5bd8d8561b0da1b6bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb54b56d35ad34d10d95c2a34b52b370fb856d9c958dd42223c7f0a08ddbdfb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807444"
 ---
 # <a name="mm_mcisignal-message"></a>MM \_ мЦисигнал, сообщение
 
@@ -52,7 +52,7 @@ lParam = (LONG) lUserParm
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,11 +60,11 @@ lParam = (LONG) lUserParm
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

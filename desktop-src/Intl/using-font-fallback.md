@@ -4,12 +4,12 @@ ms.assetid: 952f33b6-ca52-40a2-b914-52c1c62ae0e0
 title: Использование отката шрифта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9afb073a01cc1c5b90d4a4861a973846d3ae9ae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9a4e9b329e2c3257ae9fad02f1fb4774a63dc1d4b4e804c0dca8e690cbf4d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103819001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787874"
 ---
 # <a name="using-font-fallback"></a>Использование отката шрифта
 
@@ -40,7 +40,7 @@ ms.locfileid: "103819001"
 
 После того, как приложение назначило шрифт, который проходит через вызовы [**скриптшапе**](/windows/desktop/api/Usp10/nf-usp10-scriptshape), он может вызвать [**скриптплаце**](/windows/desktop/api/Usp10/nf-usp10-scriptplace) , чтобы создать ширину и объемное смещение глифа из выходных данных **скриптшапе**. Шрифт должен быть выполнен в этих вызовах. Сбой шрифта при вызове **скриптплаце** после успешного выполнения в вызове **скриптшапе** указывает на поврежденный шрифт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

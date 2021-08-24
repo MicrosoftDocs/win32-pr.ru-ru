@@ -1,5 +1,5 @@
 ---
-title: Объект Тиметригжер (Windows. ApplicationModel. Background. h)
+title: объект тиметригжер (Windows. applicationmodel. background. h)
 description: Объект скрипта, представляющий триггер, который запускает задачу в заданную дату и время.
 ms.assetid: 3c277827-8e70-42e7-a849-773ecc997a93
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8403b93e1c5292ade9f6f402b7e41994339140
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40f0fb6f5eaff5101f3cc1f5c4aeb2245335e4f65b27d2fafb364df2d05618ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771984"
 ---
 # <a name="timetrigger-object"></a>Объект Тиметригжер
 
@@ -33,7 +33,7 @@ ms.locfileid: "104340880"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **тиметригжер** имеет следующие свойства.
 
@@ -54,7 +54,7 @@ ms.locfileid: "104340880"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент [**стартбаундари**](taskschedulerschema-startboundary-triggerbasetype-element.md) является обязательным элементом для триггеров времени и календаря ([**тиметригжер**](taskschedulerschema-timetrigger-triggergroup-element.md) и [**календартригжер**](taskschedulerschema-calendartrigger-triggergroup-element.md)).
 
@@ -64,25 +64,25 @@ ms.locfileid: "104340880"
 
 Дополнительные сведения и примеры кода для этого объекта скрипта см. в разделе [пример триггера времени (сценарии)](time-trigger-example--scripting-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Windows. ApplicationModel. Background. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                             |
+| Заголовок<br/>                   | <dl> <dt>Windows. applicationmodel. background. h</dt> </dl> |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl>                          |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Необходимость**](trigger.md)
+[**Триггер**](trigger.md)
 </dt> <dt>
 
 [**тригжерколлектион**](triggercollection.md)

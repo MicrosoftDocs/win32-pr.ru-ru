@@ -4,12 +4,12 @@ ms.assetid: d0c0d62d-9133-4d4b-8606-c2ae1d4c9f0a
 title: Событие Метрансформмаркер (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab79c47e2ddb26f2366aff075548f7905807df1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7029119b30314e56531c0afb29accadb67e1efb343a906c2558af2157c0b1f82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827044"
 ---
 # <a name="metransformmarker-event"></a>Событие Метрансформмаркер
 
@@ -39,7 +39,7 @@ ms.locfileid: "105673499"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Асинхронный МФТС отправляет это событие через интерфейс [**имфмедиаевентженератор**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) . Синхронное МФТС никогда не отправляет это событие.
 
@@ -53,9 +53,9 @@ ms.locfileid: "105673499"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                  |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                  |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 

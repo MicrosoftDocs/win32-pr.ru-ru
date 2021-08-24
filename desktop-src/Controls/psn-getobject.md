@@ -3,7 +3,7 @@ title: Код уведомления PSN_GETOBJECT (Пршт. h)
 description: Отправляется странице свойств для запроса целевого объекта Drop, когда курсор передается над одной из кнопок элемента управления Tab. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 179ac47c-9b32-4682-866d-1a1fad85080c
 keywords:
-- PSN_GETOBJECT кода уведомления элементы управления Windows
+- PSN_GETOBJECT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0a039cf97dee1d1f1168894bb167c06de10d38d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e81803a950c7b8eb9a41d31178c8f57d7e4199f802538616d4ced20c5a5cb4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798634"
 ---
 # <a name="psn_getobject-notification-code"></a>\_Код уведомления PSN GetObject
 
@@ -49,7 +49,7 @@ PSN_GETOBJECT
 
 Приложение, обрабатывающее этот код уведомления, должно возвращать ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы предоставить объект, приложение должно задать значения в некоторых членах структуры [**нмобжектнотифи**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) при значении *lParam*. Элементу **объект** должен быть присвоен допустимый указатель на объект, а элементу **hResult** должен быть присвоен флаг Success. Для обеспечения соответствия стандартам модели COM всегда увеличивать число ссылок объекта при предоставлении указателя на объект.
 
@@ -60,15 +60,15 @@ PSN_GETOBJECT
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

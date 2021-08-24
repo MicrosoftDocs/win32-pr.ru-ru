@@ -57,12 +57,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ab4039ce110af9fa023a662c31d1f9962b080e5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0e4ec4f65b04489c5f34fe64e2eea0d4622b914e16944e55395a9efce26f83b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789144"
 ---
 # <a name="msvm_vsscomponent-class"></a>\_Класс мсвм всскомпонент
 
@@ -179,7 +179,7 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>6</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -200,7 +200,7 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -506,7 +506,7 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -734,7 +734,7 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -848,7 +848,7 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -856,25 +856,25 @@ class Msvm_VssComponent : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ всскомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

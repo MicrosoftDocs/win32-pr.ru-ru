@@ -3,19 +3,19 @@ title: Сетевые операции DRM
 description: Сетевые операции DRM
 ms.assetid: 4a10c811-2aa1-4b97-8a72-61e8b04075a8
 keywords:
-- Windows Media Format SDK, сетевые операции DRM
+- Windows Пакет SDK для формата мультимедиа, сетевые операции DRM
 - Расширенный формат систем (ASF), сетевые операции DRM
 - ASF (Расширенный системный формат), сетевые операции DRM
 - Управление цифровыми правами (DRM), сетевые операции
 - DRM (Управление цифровыми правами), сетевые операции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 875186e43e066d71847da014468e9b1764b60cf2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f026ed972b88a1e6290bdd513012c2fab758da2c5b4b91a6a1162df5d258207
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771754"
 ---
 # <a name="drm-network-operations"></a>Сетевые операции DRM
 
@@ -26,18 +26,18 @@ ms.locfileid: "104328691"
 > [!Note]  
 > DRM не поддерживает версию этого пакета SDK на базе x64.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Включение поддержки DRM**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de0601ac64ab0ca55f3d92ec460861a4347f70b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc03fb9cff3a99d77006989b7adade40a15ad4bb4d63e6f940092b765b1e250f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771064"
 ---
 # <a name="imstscaxsecuredsettingsenabled-property"></a>Свойство Имстскакс:: Секуредсеттингсенаблед
 
@@ -86,7 +86,7 @@ HRESULT get_SecuredSettingsEnabled(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод, чтобы запросить доступ к интерфейсу [**имстсксекуредсеттингс**](imstscsecuredsettings-interface.md) перед получением свойства [**секуредсеттингс**](imstscax-securedsettings.md) .
 
@@ -94,7 +94,7 @@ HRESULT get_SecuredSettingsEnabled(
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,7 +108,7 @@ HRESULT get_SecuredSettingsEnabled(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1fd3a14e2ac4bd283a4e67724fbb42ac965ea707
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cb31c873bf3a4e38048f57d75a30cec70021716d2aab43b683cb29aef25f7f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726964"
 ---
 # <a name="cnd---ps"></a>КНД-PS
 
@@ -29,16 +29,16 @@ ms.locfileid: "104133314"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 -   src2 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "104133314"
 
 
 
- 
+ 
 
 Для версий 1 \_ 1 – 1 \_ 3 src0 должен быть R0. a.
 
@@ -124,16 +124,16 @@ cnd r0, r0.a, c0, c1  // r0 = ( A > B ? c0 : c1 )
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

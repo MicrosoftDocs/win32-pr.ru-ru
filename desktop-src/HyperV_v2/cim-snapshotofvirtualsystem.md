@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6e8e0929f1198ececea5ea5ec144e2f7313ec35c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 598ee11064872653ec216cef5751312e02809fb1cc45e4831fa50e01b1af46a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899640"
 ---
 # <a name="cim_snapshotofvirtualsystem-class"></a>\_Класс CIM снапшотофвиртуалсистем
 
@@ -43,7 +43,7 @@ class CIM_SnapshotOfVirtualSystem : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ снапшотофвиртуалсистем** имеет следующие свойства.
 
@@ -81,7 +81,7 @@ class CIM_SnapshotOfVirtualSystem : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ class CIM_SnapshotOfVirtualSystem : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

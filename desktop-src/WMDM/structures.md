@@ -1,24 +1,24 @@
 ---
 title: Структуры ВМДМ
-description: Эта статья содержит справочные статьи о структурах, определенных диспетчер устройств Windows Media, таких как _BITMAPINFOHEADER и MTP_COMMAND_DATA_IN.
+description: эта статья содержит справочные статьи о структурах, определенных Windows диспетчер устройств мультимедиа, таких как _BITMAPINFOHEADER и MTP_COMMAND_DATA_IN.
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
-- Диспетчер устройств Windows Media, структуры
+- Windows Диспетчер устройств мультимедиа, структуры
 - Диспетчер устройств, структуры
 - Справочник по программированию, структуры
-- Справочник по диспетчер устройств Windows Media, структурам
+- справочник по Windows Media диспетчер устройств, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc49deb3f4dd28695f5e0e7c3a871c53fa96300
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5fd0048a7cf3b87f09bb46ef6f6db74531b4b67a7364acd28099feed04bb8dec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865544"
 ---
 # <a name="wmdm-structures"></a>Структуры ВМДМ
 
-Диспетчер устройств Windows Media определяет следующие структуры.
+Windows Диспетчер устройств мультимедиа определяет следующие структуры.
 
 
 
@@ -27,7 +27,7 @@ ms.locfileid: "112406507"
 | [**\_битмапинфохеадер**](-bitmapinfoheader.md)             | Определяет формат видеокадра.                                                                                                                                                                                                                       |
 | [**\_данные команды \_ MTP \_ в**](/windows/desktop/api/MtpExt/ns-mtpext-mtp_command_data_in)       | Содержит пользовательские команды протокола передачи мультимедиа (MTP), которые отправляются на устройство с помощью метода [**IWMDMDevice3::D евицеиоконтрол**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol) .                                                                           |
 | [**\_Исходящие \_ данные команды MTP \_**](/windows/desktop/api/MtpExt/ns-mtpext-mtp_command_data_out)     | Содержит ответы протокола передачи носителей (MTP), которые заполняются драйвером устройства.                                                                                                                                                                  |
-| [**опакуекомманд**](opaquecommand.md)                      | Содержит данные для команд, которые передаются на устройство с помощью Windows Media диспетчер устройств, но не предназначены для выполнения действий диспетчер устройств Windows Media.                                                                                       |
+| [**опакуекомманд**](opaquecommand.md)                      | содержит данные для команд, передаваемых через Windows media диспетчер устройств на устройство, но не предназначенных для выполнения действий Windows Media диспетчер устройств.                                                                                       |
 | [**\_видеоинфохеадер**](-videoinfoheader.md)               | Определяет формат видеопотока.                                                                                                                                                                                                                    |
 | [**\_вавеформатекс**](-waveformatex.md)                     | Определяет формат данных звуковой волны.                                                                                                                                                                                                               |
 | [**\_возможность форматирования \_ вмдм**](wmdm-format-capability.md)  | Описывает возможности устройства в определенном формате. Эта структура содержит набор конфигураций свойств в массиве структур [**конфигурации вмдм \_ prop \_**](wmdm-prop-config.md) .                                                       |

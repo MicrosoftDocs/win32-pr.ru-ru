@@ -1,49 +1,49 @@
 ---
-title: Справочник по API перенаправления мультимедиа RemoteFX
-description: API перенаправления мультимедиа RemoteFX используется сторонними производителями для реализации требований на стороне сервера для поддержки виртуального канала RemoteFX.
+title: RemoteFX Справочник по API перенаправления носителей
+description: API перенаправления RemoteFX носителей используется сторонними производителями для реализации требований на стороне сервера для поддержки виртуального канала RemoteFX.
 ms.assetid: 927b3c17-4ac3-4640-8042-648a283abe64
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b23612d0ca417783837bdf95e3d22f34052ff6a6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 13c89f89f10b88b9b92ab2f561ce8771c2d8148d3a13d08265257cdedd06c008
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105681554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865752"
 ---
-# <a name="remotefx-media-redirection-api-reference"></a>Справочник по API перенаправления мультимедиа RemoteFX
+# <a name="remotefx-media-redirection-api-reference"></a>RemoteFX Справочник по API перенаправления носителей
 
-API перенаправления мультимедиа RemoteFX используется сторонними производителями для реализации требований на стороне сервера для поддержки виртуального канала RemoteFX. Дополнительные сведения см. в следующих разделах:
+API перенаправления RemoteFX носителей используется сторонними производителями для реализации требований на стороне сервера для поддержки виртуального канала RemoteFX. Дополнительные сведения см. в следующих разделах:
 
 ## <a name="in-this-section"></a>Содержание раздела
 
 <dl> <dt>
 
-[Функции API перенаправления носителей RemoteFX](remotefx-media-redirection-api-functions.md)
+[RemoteFX Функции API перенаправления носителей](remotefx-media-redirection-api-functions.md)
 </dt> <dd>
 
-API перенаправления мультимедиа RemoteFX поддерживает следующие функции.
+API перенаправления носителей RemoteFX поддерживает следующие функции.
 
 </dd> <dt>
 
-[Интерфейсы API перенаправления мультимедиа RemoteFX](remotefx-media-redirection-api-interfaces.md)
+[RemoteFX Интерфейсы API перенаправления носителей](remotefx-media-redirection-api-interfaces.md)
 </dt> <dd>
 
-API перенаправления мультимедиа RemoteFX поддерживает следующие интерфейсы.
+API перенаправления носителей RemoteFX поддерживает следующие интерфейсы.
 
 </dd> <dt>
 
-[Структуры API перенаправления мультимедиа RemoteFX](remotefx-media-redirection-api-structures.md)
+[RemoteFX Структуры API перенаправления носителей](remotefx-media-redirection-api-structures.md)
 </dt> <dd>
 
-API перенаправления мультимедиа RemoteFX определяет следующие структуры.
+API перенаправления носителей RemoteFX определяет следующие структуры.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

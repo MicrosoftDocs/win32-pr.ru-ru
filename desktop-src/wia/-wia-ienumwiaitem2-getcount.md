@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 23c067b8e4da93d678f641890a85e2535b3ca50d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a64a7c015f7c21ff19a736570aa104f0b229bc1b6561001b612045824f9a31d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882424"
 ---
 # <a name="ienumwiaitem2getcount-method"></a>Метод IEnumWiaItem2:: NOCOUNT
 
@@ -42,9 +42,9 @@ HRESULT GetCount(
 *cElt* \[ заполняет\]
 </dt> <dd>
 
-Тип: **ulong \** _
+Тип: **ulong \***
 
-Получает указатель на _ *ulong**, который получает количество элементов в перечислении.
+Получает указатель на **ulong** , которая получает количество элементов в перечислении.
 
 </dd> </dl>
 
@@ -54,15 +54,15 @@ HRESULT GetCount(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 
 

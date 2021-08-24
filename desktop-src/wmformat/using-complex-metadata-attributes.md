@@ -3,23 +3,23 @@ title: Использование сложных атрибутов метада
 description: Использование сложных атрибутов метаданных
 ms.assetid: 8269efe4-331f-4b4b-b888-66b45c638153
 keywords:
-- Windows Media Format SDK, атрибуты сложных метаданных
+- Windows Пакет SDK для формата мультимедиа, атрибуты сложных метаданных
 - Расширенный системный формат (ASF), атрибуты сложных метаданных
 - ASF (Расширенный системный формат), атрибуты сложных метаданных
 - метаданные, сложные атрибуты
 - атрибуты сложных метаданных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cd03c656a8cba5342d21e41932365455daa8bfa
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8245d2fbc07878a73e304cfc573e05e93b605185ece93655dae7a8bdeff0d9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104336335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807254"
 ---
 # <a name="using-complex-metadata-attributes"></a>Использование сложных атрибутов метаданных
 
-Пакет SDK для формата Windows Media поддерживает сложные атрибуты метаданных, которые являются атрибутами со значениями, представленными структурой. Поскольку все атрибуты должны иметь тип данных, определенный в перечислении [**\_ \_ DATATYPE ВМТ attr**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) , все сложные атрибуты метаданных обрабатываются как **\_ \_ двоичные типы ВМТ**. При написании сложного атрибута приведите указатель к структуре в виде указателя байтов. При извлечении сложного атрибута приведите массив байтов, заданный [**IWMHeaderInfo3:: жетаттрибутебиндексекс**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) в качестве соответствующей структуры.
+пакет SDK для Windows Media Format поддерживает сложные атрибуты метаданных, которые являются атрибутами, содержащими значения, представленные структурой. Поскольку все атрибуты должны иметь тип данных, определенный в перечислении [**\_ \_ DATATYPE ВМТ attr**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) , все сложные атрибуты метаданных обрабатываются как **\_ \_ двоичные типы ВМТ**. При написании сложного атрибута приведите указатель к структуре в виде указателя байтов. При извлечении сложного атрибута приведите массив байтов, заданный [**IWMHeaderInfo3:: жетаттрибутебиндексекс**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) в качестве соответствующей структуры.
 
 В следующих примерах кода показано, как задать и получить атрибут сложных метаданных. Первая функция добавляет атрибут Text пользователя, вторая функция получает его. Дополнительные сведения об использовании этих примеров см. [в разделе Использование примеров кода](using-the-code-examples.md).
 
@@ -129,16 +129,16 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Работа с метаданными**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

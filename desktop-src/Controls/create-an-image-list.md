@@ -4,27 +4,27 @@ description: В этом разделе показано, как использ�
 ms.assetid: 6092C555-B5B6-49DB-B07B-684EDB890761
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c81ff3a46138c210474a1b00ddd2ba647d1368
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e04e3e22894546e887e1a4ca5348518b4e4a35c45f4a26b5b6125b81f9323bed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103988010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826484"
 ---
 # <a name="how-to-create-an-image-list"></a>Создание списка изображений
 
 В этом разделе показано, как использовать функцию [**ImageList \_ CREATE**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create) для создания списка изображений.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -75,7 +75,7 @@ HIMAGELIST AddIconsToImageList(HINSTANCE hinst)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

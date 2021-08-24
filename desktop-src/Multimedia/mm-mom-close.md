@@ -3,7 +3,7 @@ title: Сообщение MM_MOM_CLOSE (Ммсистем. h)
 description: '\_ \_ При закрытии выходного устройства MIDI в окно отправляется сообщение Close MOM.'
 ms.assetid: 4829bbe5-5103-4354-88a7-37def22e926e
 keywords:
-- MM_MOM_CLOSE сообщения Windows мультимедиа
+- сообщение MM_MOM_CLOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ae55cbca7c5effc146dee0c5ef9be67469a9201
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8e8c9af8f6a5fb454a2f7759b5e64804e82c568b15549d01f7478a3d7c6041d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807154"
 ---
 # <a name="mm_mom_close-message"></a>\_Сообщение закрытия MOM (mm) \_
 
@@ -56,11 +56,11 @@ lParam = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После отправки этого сообщения маркер устройства больше не действителен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,11 +68,11 @@ lParam = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

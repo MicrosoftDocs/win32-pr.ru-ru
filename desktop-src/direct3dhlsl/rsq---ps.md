@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 13777810c67ba38b2c8f47f0c0db0cf9b70771ad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 48a36715113678e199b3da22be9cdf118f385c15397a16ddd39bdd83622f76f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788704"
 ---
 # <a name="rsq---ps"></a>РСК-PS
 
@@ -31,12 +31,12 @@ ms.locfileid: "104986436"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром. Для исходного регистра требуется явное использование репликации свиззле, то есть только один из компонентов. x,. y,. z,. w свиззле (или. r,. g,. b,. a эквивалент) должен быть указан.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104986436"
 
 Если входные данные представляют собой ровно 1,0, выходные данные должны быть ровно 1,0. Источник 0,0 дает бесконечное значение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

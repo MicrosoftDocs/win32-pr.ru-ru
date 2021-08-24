@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fe7277b3130c88c1aec7716c1a3bf560b81db64
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4e5a52268073a076c5dada44b7f34c6a6b3e0c820c0b9819f65d23081f4f6c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866104"
 ---
 # <a name="pinglicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Метод Пинглиценсесервер \_ класса Win32 терминалсервицесеттинг
 
-\[**Пинглиценсесервер** больше не доступен для использования в Windows Server 2008 R2.\]
+\[**пинглиценсесервер** больше не доступен для использования в Windows Server 2008 R2.\]
 
 **Windows Server 2008:** Проверяет связь сервера лицензирования с сервером лицензий, чтобы определить, является ли он допустимым сервером лицензирования.
 
@@ -70,11 +70,11 @@ uint32 PingLicenseServer(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ uint32 PingLicenseServer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

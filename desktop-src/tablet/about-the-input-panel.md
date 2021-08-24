@@ -1,21 +1,21 @@
 ---
-description: Начиная с Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) версии 1,0, панель ввода Tablet PC на уровне системы предоставляет универсальный механизм для выполнения ввода текста на платформе Windows, хотя он не предоставляет программный доступ. Объект пакета SDK для планшетных ПК версии 1,5 Пенинпутпанел интегрирует средства ввода текста в приложения.
+description: начиная с выпуска Microsoft Windows XP Tablet pc Edition (SDK) версии 1,0, панель ввода tablet pc на уровне системы предоставляет универсальный механизм для выполнения ввода текста на платформе Windows, хотя он не предоставляет программный доступ. Объект пакета SDK для планшетных ПК версии 1,5 Пенинпутпанел интегрирует средства ввода текста в приложения.
 ms.assetid: 14fe4963-ab9b-4c78-9f17-791c68378ef0
 title: Сведения о панели ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db733e49e49d428b5ff8072a1315787d9fafd25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 044e8c3a43127bd765fd5004329352956e4be8bb9f214f8dda8896fa318832a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844414"
 ---
 # <a name="about-the-input-panel"></a>Сведения о панели ввода
 
 \[[**Пенинпутпанел**](peninputpanel-class.md) был заменен [**TextInput**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel). Дополнительные сведения см. [в разделе Программирование панели ввода текста](programming-the-text-input-panel.md).\]
 
-Начиная с Microsoft Windows XP Tablet PC Edition Software Development Kit (SDK) версии 1,0, панель ввода Tablet PC на уровне системы предоставляет универсальный механизм для выполнения ввода текста на платформе Windows, хотя он не предоставляет программный доступ. Объект пакета SDK для планшетных ПК версии 1,5 [**пенинпутпанел**](peninputpanel-class.md) интегрирует средства ввода текста в приложения.
+начиная с выпуска Microsoft Windows XP Tablet pc Edition (SDK) версии 1,0, панель ввода tablet pc на уровне системы предоставляет универсальный механизм для выполнения ввода текста на платформе Windows, хотя он не предоставляет программный доступ. Объект пакета SDK для планшетных ПК версии 1,5 [**пенинпутпанел**](peninputpanel-class.md) интегрирует средства ввода текста в приложения.
 
 На следующем рисунке показана панель перьевого ввода, отображаемая на [примере образца Auto Claims](auto-claims-form-sample.md) .
 
@@ -73,7 +73,7 @@ ms.locfileid: "104423513"
 
 ## <a name="recognizer-support"></a>Поддержка распознавателя
 
-Объект [**пенинпутпанел**](peninputpanel-class.md) поддерживает доставку распознавателей для Windows XP Tablet PC Edition версии 1,0 и пакета SDK для Tablet pc версии 1,5.
+объект [**пенинпутпанел**](peninputpanel-class.md) поддерживает доставку распознавателей для Windows XP tablet pc Edition версии 1,0 и пакета SDK для планшетных пк версии 1,5.
 
 ## <a name="automatic-positioning"></a>Автоматическое позиционирование
 

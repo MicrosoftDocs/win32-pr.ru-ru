@@ -3,7 +3,7 @@ title: XTYP_CONNECTная транзакция (Ддемл. h)
 description: Клиент использует \_ транзакцию кстип Connect для создания диалога.
 ms.assetid: 74f43b10-f7ac-4370-9caa-7b9ddf3413ed
 keywords:
-- XTYP_CONNECT обмена данными транзакций
+- XTYP_CONNECT данных транзакций Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2268994f1be000373691d6c25dbb7220d3e109e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1ff7a7a79d8b61deef6b5f19b829e5c8dd8f4603c5f60c3b47d0a84b0603736
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793424"
 ---
 # <a name="xtyp_connect-transaction"></a>\_Транзакция кстип Connect
 
-Клиент использует транзакцию **кстип \_ Connect** для создания диалога. Функция обратного вызова сервера платформа динамических данных Exchange (DDE) получает эту транзакцию [*, когда*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)клиент указывает имя службы, которое поддерживает сервер (и имя раздела, не равное **null**) в вызове функции [**ддеконнект**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) .
+Клиент использует транзакцию **кстип \_ Connect** для создания диалога. функция обратного вызова сервера платформа динамических данных Exchange (DDE) получает эту транзакцию [*, когда*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)клиент указывает имя службы, которое поддерживает сервер (и имя раздела, не равное **NULL**) в вызове функции [**ддеконнект**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) .
 
 
 ```C++
@@ -98,7 +98,7 @@ ms.locfileid: "104136163"
 
 Функция обратного вызова сервера должна возвращать **значение true** , чтобы позволить клиенту устанавливать диалог с заданной парой имени службы и имени раздела, или функция должна возвращать **значение false** , чтобы запретить диалог. Если функция обратного вызова возвращает **значение true** и диалог успешно установлен, система передает этот обработчик на сервер, выполняя транзакцию [**кстип \_ Connect \_ Confirm**](xtyp-connect-confirm.md) для функции обратного вызова сервера (если только сервер не указал флаг **КБФ \_ Skip \_ Connect \_** в функции [**ддеинитиализе**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) ).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта транзакция фильтруется, если серверное приложение указало флаг **КБФ \_ Failed \_ Connections** в функции [**ддеинитиализе**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -112,7 +112,7 @@ ms.locfileid: "104136163"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                             |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                   |
-| Заголовок<br/>                   | <dl> <dt>Ддемл. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ддемл. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -135,7 +135,7 @@ ms.locfileid: "104136163"
 **Зрения**
 </dt> <dt>
 
-[Библиотека управления платформа динамических данных Exchange](dynamic-data-exchange-management-library.md)
+[библиотека управления Exchange платформа динамических данных](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

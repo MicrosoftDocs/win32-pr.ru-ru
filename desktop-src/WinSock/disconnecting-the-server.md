@@ -4,12 +4,12 @@ ms.assetid: 67f33645-d57a-48bd-9f0c-9e816f528204
 title: Отключение сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6abf7754da39a891b3d29c69f6c835706debd36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f644b8727898a9d77ab5aa5fb10b0a0ae5b58cdf88a3beb1b9642215d142b6b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898364"
 ---
 # <a name="disconnecting-the-server"></a>Отключение сервера
 
@@ -33,7 +33,7 @@ ms.locfileid: "103897341"
 
 2.  Когда клиентское приложение выполняет получение данных, вызывается функция [**функции closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) для закрытия сокета.
 
-    После завершения работы клиентского приложения с помощью DLL-библиотеки Windows Sockets функция [**всаклеануп**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) вызывается для освобождения ресурсов.
+    после завершения работы клиентского приложения с помощью библиотеки DLL Windows sockets функция [**всаклеануп**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) вызывается для освобождения ресурсов.
 
     ```C++
     // cleanup
@@ -49,7 +49,7 @@ ms.locfileid: "103897341"
 
 -   [Полный код сервера](complete-server-code.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

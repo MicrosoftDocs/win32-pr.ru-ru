@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef158daf25c6dc1c084966673f71c5907c4df1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90ee020573f8f7d0e01250d844bcb546a399b5b2a6c73e79b8ad5b98df154dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769114"
 ---
 # <a name="mdm_activesync_user_contenttypes04_01-class"></a>\_ \_ \_ Класс User ContentTypes04 \_ 01 MDM ActiveSync
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ ActiveSync \_ user \_ ContentTypes04 \_ 01** определяет тип содержимого, которое будет включено или отключено для синхронизации по отдельности.
 
@@ -51,13 +51,13 @@ class MDM_ActiveSync_User_ContentTypes04_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ ActiveSync \_ user \_ ContentTypes04 \_ 01** имеет эти свойства.
 
 <dl> <dt>
 
-[Enabled](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-enabled)
+[Включен](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-enabled)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -84,7 +84,7 @@ class MDM_ActiveSync_User_ContentTypes04_01
 
 </dd> <dt>
 
-[Name](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-name)
+[Имя](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-name)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -111,13 +111,13 @@ class MDM_ActiveSync_User_ContentTypes04_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -125,7 +125,7 @@ class MDM_ActiveSync_User_ContentTypes04_01
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

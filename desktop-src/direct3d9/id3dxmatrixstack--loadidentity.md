@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 663559db0746b9d689066e537c1473f467341cbc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 046267b11f1a2aa977eda7f5fe461e5c44a2cf59e1f50ae291cf714f063088c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847744"
 ---
 # <a name="id3dxmatrixstackloadidentity-method-d3dx9mathh"></a>Метод ID3DXMATRIXStack:: Лоадидентити (D3dx9math. h)
 
@@ -54,12 +54,12 @@ HRESULT LoadIdentity();
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

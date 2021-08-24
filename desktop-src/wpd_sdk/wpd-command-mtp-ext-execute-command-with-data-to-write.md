@@ -4,12 +4,12 @@ ms.assetid: b675fc3c-4d50-429d-9e00-42160d409a2b
 title: Команда WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE (Впдмтпекстенсионс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6f7c65cad838ded52471b5e0dd8dfad325fb1ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2ae0e50ad2fad9967252d9a21c1e864d056338a3e3a2b82f4c29d951a722953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806314"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_with_data_to_write-command"></a>Команда WPD команды " \_ \_ MTP" выполнить команду \_ \_ \_ \_ с \_ данными \_ для \_ записи
 
@@ -54,17 +54,17 @@ ms.locfileid: "105708386"
 
 Метод можно вызвать напрямую с помощью [**ипортабледевице:: сендкомманд**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
