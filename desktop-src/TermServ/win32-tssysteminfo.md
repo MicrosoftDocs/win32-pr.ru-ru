@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 188761bd06a32e0c6f246dfe41f354adf1e06332
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3e4b62c700e95d3d0fc6b978b8ec1d451fefb5ce38d3371b4e1b1f22f0cc259
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769104"
 ---
 # <a name="win32_tssysteminfo-class"></a>\_Класс Win32 тссистеминфо
 
@@ -57,13 +57,13 @@ class Win32_TSSystemInfo : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тссистеминфо** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -114,7 +114,7 @@ class Win32_TSSystemInfo : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -231,7 +231,7 @@ class Win32_TSSystemInfo : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

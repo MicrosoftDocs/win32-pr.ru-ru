@@ -4,21 +4,21 @@ description: В этом разделе описывается создание 
 ms.assetid: 8912CCF9-C343-45CB-AB31-55D26C118AF2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038ae3d32fd49a8f795a35f35c6c87889e4c9406
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b882d1be2642f341e74a193605b217a9b7e2d0cc295370c7a5ec8bee4a844f03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104412984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670974"
 ---
 # <a name="how-to-animate-the-bitmap-of-a-layered-child-window"></a>Как анимировать растровое изображение для разслойного дочернего окна
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 В этом разделе описывается создание и Анимация визуального элемента, который использует растровое изображение многоуровневого окна в качестве содержимого визуального элемента. В примере, описанном в этом разделе, используется преобразование «анимированное масштабирование» для увеличения размеров дочернего окна от размера бегунка до полного размера. Дополнительные сведения о многоуровневых окнах см. в разделе [точечные рисунки окна](bitmap-surfaces.md).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
@@ -26,7 +26,7 @@ ms.locfileid: "104412984"
 -   [Графика Direct3D 11](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 -   [Графическая инфраструктура DirectX (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Microsoft Win32
@@ -1274,7 +1274,7 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -1287,6 +1287,6 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 [Пример дочернего окна многоуровневого DirectComposition](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionLayeredChildWindow)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

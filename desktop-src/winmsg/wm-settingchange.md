@@ -4,12 +4,12 @@ ms.assetid: 77174e06-a25b-440a-9e9c-4fd5979c433c
 title: Сообщение WM_SETTINGCHANGE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1c3d1360b5e4cc5de2dbd23b09b8f2ad034948f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 302f156da905263ed7f3d1d331d4dbb25af5b3e81d9df6136281c7dbc7b3914c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710044"
 ---
 # <a name="wm_settingchange-message"></a>\_Сообщение СЕТТИНГЧАНЖЕ WM
 
@@ -65,7 +65,7 @@ ms.locfileid: "104272475"
 
 При обработке этого сообщения возвращается нуль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *lParam* указывает, какая Метрика системы изменилась, например "конвертиблеслатемоде", если индикатор конвертиблеслатемоде был переключен, или "системдоккмоде", если был переключен закрепленный индикатор.
 
@@ -77,7 +77,7 @@ ms.locfileid: "104272475"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

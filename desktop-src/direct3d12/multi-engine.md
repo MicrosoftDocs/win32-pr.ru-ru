@@ -5,12 +5,12 @@ ms.assetid: CC4C6594-D48F-40C1-93EE-9F98532BC038
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: d7d3985c880c4d1732a96b98ac6d3c6579dab8e6
-ms.sourcegitcommit: 9d530b0a2396f2274e9ed693c1f5f10556aadebb
+ms.openlocfilehash: e76c5c1295dab8858ff04830030efb479fe3ae8a09bcdb37ff8c4820f4fd08c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "104548935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728823"
 ---
 # <a name="multi-adapter-systems"></a>Системы с несколькими адаптерами
 
@@ -77,22 +77,22 @@ ms.locfileid: "104548935"
 
 При вызове следующих API [**ID3D12Device**](/windows/win32/api/d3d12/nn-d3d12-id3d12device) приложению не нужно указывать набор узлов, с которыми будет связан вызов API, поскольку вызов API применяется ко всем узлам.
 
--   [**креатефенце**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createfence)
--   [**жетдескрипторхандлеинкрементсизе**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize)
--   [**сетстаблеповерстате**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate)
--   [**чеккфеатуресуппорт**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport)
--   [**креатесамплер**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsampler)
--   [**копидескрипторс**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptors)
--   [**копидескрипторссимпле**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple)
--   [**креатешаредхандле**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle)
--   [**опеншаредхандлебинаме**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandlebyname)
+-   [**CreateFence**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createfence)
+-   [**GetDescriptorHandleIncrementSize**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize)
+-   [**SetStablePowerState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate)
+-   [**CheckFeatureSupport**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport)
+-   [**CreateSampler**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsampler)
+-   [**CopyDescriptors**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptors)
+-   [**CopyDescriptorsSimple**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-copydescriptorssimple)
+-   [**CreateSharedHandle**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createsharedhandle)
+-   [**OpenSharedHandleByName**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandlebyname)
 -   [**Опеншаредхандле**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-opensharedhandle) : с *ограждением* в качестве параметра. С помощью *ресурса* или *кучи* в качестве параметров этот метод не принимает узлы в качестве параметров, так как маски узлов наследуются от ранее созданных объектов.
--   [**креатекоммандаллокатор**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandallocator)
--   [**креатеконстантбуффервиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview)
--   [**креатерендертаржетвиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrendertargetview)
--   [**креатеунордередакцессвиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview)
--   [**креатедепсстенЦилвиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview)
--   [**креатешадерресаурцевиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)
+-   [**CreateCommandAllocator**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommandallocator)
+-   [**CreateConstantBufferView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview)
+-   [**CreateRenderTargetView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createrendertargetview)
+-   [**CreateUnorderedAccessView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createunorderedaccessview)
+-   [**CreateDepthStencilView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview)
+-   [**CreateShaderResourceView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)
 
 ## <a name="related-topics"></a>Связанные темы
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: db30983c83bc7d66e06befd07f4eb1dcdc9b21ea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5d0a2271dbd67902a039ddadf585611ed98fdb115f468c3962baa8cb46f48508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788974"
 ---
 # <a name="if_comp---ps"></a>Если \_ comp-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "103784887"
 
 
 
- 
+ 
 
 Где:
 
@@ -46,12 +46,12 @@ ms.locfileid: "103784887"
 
     
 
-     
+     
 
 -   src0 является исходным регистром. Для выбора компонента требуется репликация свиззле.
 -   src1 является исходным регистром. Для выбора компонента требуется репликация свиззле.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "103784887"
 
 
 
- 
+ 
 
 Эта инструкция используется для пропуска блока кода на основе условия.
 
@@ -82,7 +82,7 @@ if (src0 comparison src1)
 -   Если \_ блоки Comp должны заканчиваться инструкциями [else-VS](else---vs.md) или [endif-VS](endif---vs.md) .
 -   Если \_ comp... [else-PS](else---ps.md)... [endif-блоки PS](endif---ps.md) не могут помешать блоку цикла. \_Блок catch должен быть полностью внутри блока Loop или вне его.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Эта инструкция обеспечивает условное динамическое управление потоком.
 
@@ -99,16 +99,16 @@ endif
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

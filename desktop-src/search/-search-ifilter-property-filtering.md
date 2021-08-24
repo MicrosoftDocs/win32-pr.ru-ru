@@ -4,12 +4,12 @@ ms.assetid: 6701d151-c36f-43e5-929b-9831c5ce5823
 title: Возвращение свойств из обработчика фильтра
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df0bfc811176e9b0672dbcbe4ef4f04f3c3a6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b1842710af65e22f5a730891ea6e7f32053b92212f8c3ad4c5f0f68f23578d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594862"
 ---
 # <a name="returning-properties-from-a-filter-handler"></a>Возвращение свойств из обработчика фильтра
 
@@ -20,7 +20,7 @@ ms.locfileid: "105719313"
 - [Фильтрация свойств](#returning-properties-from-a-filter-handler)
   - [Ограничения размера свойства](#property-size-limitations)
 - [Дополнительные ресурсы](#additional-resources)
-- [См. также](#related-topics)
+- [Связанные темы](#related-topics)
 
 ## <a name="property-filtering"></a>Фильтрация свойств
 
@@ -28,7 +28,7 @@ ms.locfileid: "105719313"
 
 | Метод                                                | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IFilter:: init**](/windows/win32/api/filter/nf-filter-ifilter-init)      | Возвращает перечисление [**\_ флагов IFILTER**](/windows/win32/api/filter/ne-filter-ifilter_flags) . Если для *члена \_ \_ \_ свойств OLE флагов IFILTER* этого перечисления задано значение One, то Windows Search использует интерфейсы интерфейсов [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) и [ипропертистораже](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) для перечисления и доступа к свойствам внешнего типа значения. |
+| [**IFilter:: init**](/windows/win32/api/filter/nf-filter-ifilter-init)      | Возвращает перечисление [**\_ флагов IFILTER**](/windows/win32/api/filter/ne-filter-ifilter_flags) . если для *члена \_ \_ \_ свойств OLE флагов IFILTER* этого перечисления задано значение one, то Windows поиск использует интерфейсы интерфейсов [IPropertySetStorage](/windows/win32/api/propidl/nn-propidl-ipropertysetstorage) и [ипропертистораже](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) для перечисления и доступа к свойствам внешнего типа значения. |
 | [**IFilter:: "блок"**](/windows/win32/api/filter/nf-filter-ifilter-getchunk) | Возвращает сведения из документа в блоках с типом блока (текст или значение), именем и языковым стандартом. Блок содержит одно свойство документа.                                                                                                                                                                                                                                                                                                      |
 | [**IFilter:: GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext)   | Возвращает свойство текстового типа из фрагмента.                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [**IFilter:: GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) | Возвращает свойство "тип значения" из фрагмента.                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -41,10 +41,10 @@ ms.locfileid: "105719313"
 
 Существует два возможных ограничения размера свойства:
 
-- Максимальный размер данных, принимаемых службой поиска Windows на файл.
+- максимальный размер данных, которые Windows поиска в файле.
 - Максимальный размер для каждого свойства, как определено в файле описания свойства.
 
-В настоящее время при вычислении объема данных, принимаемых из элемента, Поиск Windows не использует определенный размер свойства. Вместо этого для параметра предел, используемый для поиска Windows, задается размер файла и значение `MaxGrowFactor` (Размер файла N \* максгровфактор), считанное из реестра. Значение по умолчанию `MaxGrowFactor` — 4.
+в настоящее время Windows поиск не использует определенный размер свойства при вычислении объема данных, принимаемых элементом. вместо этого предельный Windows, используемый поиском, — это произведение размера файла и `MaxGrowFactor` (размер файла N \* максгровфактор), считанного из реестра. Значение по умолчанию `MaxGrowFactor` — 4.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -54,27 +54,27 @@ HKEY_LOCAL_MACHINE
             MaxGrowFactor
 ```
 
-Следовательно, если тип файла является небольшим в общем размере, но имеет большие свойства, Поиск Windows может не принимать все данные свойства, которые вы хотите выпустить. Тем не менее, можно увеличить в соответствии с `MaxGrowFactor` вашими потребностями.
+следовательно, если тип файла слишком мал в общем размере, но имеет большие свойства, Windows поиск может не принимать все данные свойств, которые вы хотите выпустить. Тем не менее, можно увеличить в соответствии с `MaxGrowFactor` вашими потребностями.
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- Пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) .
+- пример кода [ифилтерсампле](-search-sample-ifiltersample.md) , доступный на [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), демонстрирует создание базового класса IFilter для реализации интерфейса [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) .
 - Общие сведения о процессе индексирования см. [в разделе процесс индексирования](-search-indexing-process-overview.md).
 - Общие сведения о типах файлов см. в разделе [типы файлов](../shell/fa-file-types.md).
 - Сведения о запросе атрибутов сопоставления файлов для типа файлов см. в разделе [перцеиведтипес, системфилеассоЦиатионс и регистрация приложения](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
-- Общие сведения о свойствах и обработчиках свойств, а также список системных свойств, которые можно использовать для форматов файлов, см. в разделе [Разработка обработчиков свойств для поиска Windows](-search-3x-wds-extidx-propertyhandlers.md).
+- общие сведения о свойствах и обработчиках свойств, а также список системных свойств, которые можно использовать для форматов файлов, см. в разделе [разработка обработчиков свойств для Windows поиска](-search-3x-wds-extidx-propertyhandlers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Разработка обработчиков фильтров](-search-ifilter-conceptual.md)
 
-[О обработчиках фильтров в поиске Windows](-search-ifilter-about.md)
+[сведения о обработчиках фильтров в Windowsном поиске](-search-ifilter-about.md)
 
-[Рекомендации по созданию обработчиков фильтров в поиске Windows](-search-3x-wds-extidx-filters.md)
+[рекомендации по созданию обработчиков фильтров в Windowsном поиске](-search-3x-wds-extidx-filters.md)
 
 [Обработчики фильтров, поставляемые с Windows](-search-ifilter-implementations.md)
 
-[Реализация обработчиков фильтров в поиске Windows](-search-ifilter-constructing-filters.md)
+[реализация обработчиков фильтров в Windowsном поиске](-search-ifilter-constructing-filters.md)
 
 [Регистрация обработчиков фильтров](-search-ifilter-registering-filters.md)
 

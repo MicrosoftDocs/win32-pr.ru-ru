@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 71c6e14171a9e7d12d86c30f05885cecf50ce973
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2b38adaf28b6e2394608cfb6f73f4a39d803d4fd5106f826d810a5c8dfd02618
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119630704"
 ---
 # <a name="d3dxvec2ccw-function"></a>Функция D3DXVec2CCW
 
@@ -65,7 +65,7 @@ FLOAT D3DXVec2CCW(
 
 Компонент z.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция определяет компонент z, определяя перекрестные произведения на основе следующей формулы: ((x1, y1, 0) Cross (x2, Y2, 0)). Или, как показано в следующем примере.
 
@@ -78,18 +78,18 @@ pV1->x * pV2->y - pV1->y * pV2->x
 
 Если значение z-компонента положительное, вектор v2 имеет против часовой стрелки от вектора v1. Эти сведения полезны для отбора обратной стороны.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

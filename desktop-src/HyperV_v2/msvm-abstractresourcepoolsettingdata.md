@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: dca3da14ac74a8d6fab1ba96db98f9e2eccd74ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 74e396da1135c481079e9fc20ce940774ef58dab983d36cabc131aa8bbe13f38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119693653"
 ---
 # <a name="msvm_abstractresourcepoolsettingdata-class"></a>\_Класс мсвм абстрактресаурцепулсеттингдата
 
@@ -71,7 +71,7 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -464,7 +464,7 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 <span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>
 
-**Область хранения** (19)
+**экстент служба хранилища** (19)
 
 
 </dt> <dd></dd> <dt>
@@ -555,7 +555,7 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**Том хранилища** (32)
+**служба хранилища том** (32)
 
 
 </dt> <dd></dd> <dt>
@@ -583,14 +583,14 @@ class Msvm_AbstractResourcePoolSettingData : CIM_SettingData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

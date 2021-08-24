@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fd6fec51117aa2c07db93022cc94913c720de5ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 984be1a47717a87c838ddadf0341a547a7c592545a20a1c671a87f99ac276d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119668114"
 ---
 # <a name="jet_columndeftostring-method"></a>JET_COLUMNDEF. Метод ToString
 
@@ -59,7 +59,7 @@ public override string ToString()
 Тип: [System. String](/dotnet/api/system.string)  
 [Строка](/dotnet/api/system.string) , представляющая текущий [JET_COLUMNDEF](./jet-columndef-class.md).  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

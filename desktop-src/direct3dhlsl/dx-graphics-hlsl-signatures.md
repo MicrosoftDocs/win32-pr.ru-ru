@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 37906222ec674c2c1bb5e1cdfea1cb2de2e1df3d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5631dbe473b2e3eea0abb525e58621faf9c5137dd5dc3d743bde53b0ae258f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104996795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789584"
 ---
 # <a name="signatures"></a>Сигнатуры
 
@@ -68,16 +68,16 @@ Struct PSInFails
 
 Псинворкс является совместимым подмножеством Всаут (первые две записи соответствуют типу и порядку с первыми двумя записями в Всаут). Однако Псинфаилс несовместима, так как порядок не соответствует Всаут.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Функции](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

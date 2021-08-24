@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3ee9075cfaf4c5bbfbf17e8e2cfef6166be032
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ce45f41d97c202b0836ff3537357b1d822a330210886d87bd0de1e8f0e104923
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706834"
 ---
 # <a name="control-access-rights-attribute"></a>Control-Access-Rights, атрибут
 
@@ -66,7 +66,7 @@ ms.locfileid: "104494097"
 | Range-Upper            | 16                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                         |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104494097"
 | Range-Upper            | 16                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                         |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104494097"
 | Range-Upper            | 16                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                         |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104494097"
 | Range-Upper            | 16                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                         |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104494097"
 | Range-Upper            | 16                                                                                                                 |
 | Search-Flags           | 0x00000000                                                                                                         |
 | System-Flags           | 0x00000010                                                                                                         |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 

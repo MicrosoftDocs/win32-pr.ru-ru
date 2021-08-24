@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7368b3b2e932f45d047d4ca4db724030b2dd82ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f53ec34bf936efba313adb1144bf6a67c80c7ea35b738fbe8f4dbef83095d0f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769034"
 ---
 # <a name="win32_tsvirtualipsetting-class"></a>\_Класс Win32 тсвиртуалипсеттинг
 
@@ -58,13 +58,13 @@ class Win32_TSVirtualIPSetting : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тсвиртуалипсеттинг** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -131,7 +131,7 @@ class Win32_TSVirtualIPSetting : CIM_ElementSetting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

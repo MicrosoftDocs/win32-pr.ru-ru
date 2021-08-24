@@ -4,12 +4,12 @@ ms.assetid: 7a8a0bb8-9a0a-466c-96e0-3555d723c304
 title: System. GPS. Ареаинформатион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8521b5615df19bebb377c515831db09d4092c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56d84dd13ac05cd9a58c9f3e91fb1779bb7a313fc970ab5ad773b19e82ed813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598884"
 ---
 # <a name="systemgpsareainformation"></a>System. GPS. Ареаинформатион
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

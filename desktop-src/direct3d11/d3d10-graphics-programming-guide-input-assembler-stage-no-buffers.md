@@ -4,12 +4,12 @@ description: Создание и привязка буферов не требу
 ms.assetid: 84d24494-f2cb-4ca1-84fd-635e20f2c9ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a3aa4c63176d184e1e67349149bd1f4044159e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b2bccbdb059e58efbef9e6c80eacbd9af5eb8a24045bdaab20bf540c13a9b719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752544"
 ---
 # <a name="using-the-input-assembler-stage-without-buffers"></a>Использование этапа Input-Assembler без буферов
 
@@ -19,7 +19,7 @@ ms.locfileid: "104983637"
 -   [Шейдер пикселей](#pixel-shader)
 -   [Метод](#technique)
 -   [Код приложения](#application-code)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="vertex-shader"></a>Вершинный построитель текстуры
 
@@ -127,16 +127,16 @@ m_pD3D11Device->Draw( 3, 0 );
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Начало работы с этапом Input-Assembler](d3d10-graphics-programming-guide-input-assembler-stage-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
 title: Атрибут MFStreamExtension_CameraExtrinsics (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a551aaaef48100d6104804e54f7e0ddfac3f5cb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acf76c829383d229df8039bfff5d75234d31e2625f758d1bca254217b6e138c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713544"
 ---
 # <a name="mfstreamextension_cameraextrinsics-attribute"></a>Мфстреамекстенсион \_ камераекстринсикс, атрибут
 
@@ -23,7 +23,7 @@ ms.locfileid: "104155363"
 
 Чтобы получить этот атрибут, вызовите метод [**имфмедиасаурцеекс:: жетстреаматтрибутес**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значением атрибута является [**мфкамераекстринсикс**](/windows/desktop/api/mfapi/ns-mfapi-mfcameraextrinsics).
 
@@ -33,9 +33,9 @@ ms.locfileid: "104155363"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                        |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

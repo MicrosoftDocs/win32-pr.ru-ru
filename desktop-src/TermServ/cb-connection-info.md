@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36370a4faa823f509d1f3356768add0ece9a6904
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6fd433f668c178973a4e3690ea130d01d75fab79e739610f77ac00619b9e326c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575044"
 ---
 # <a name="cb_connection_info-structure"></a>\_ \_ Структура сведений о СОЕДИНЕНии CB
 
@@ -105,7 +105,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,11 +113,11 @@ typedef struct {
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                        |
-| Header<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

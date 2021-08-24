@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 30a12ba60b19f16fb778fa64335734644fbfd1f3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5e6eb777d609d40cbcffb66d5cac3b1ca802aa495329bcfe33690d7542b5a4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789264"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualfcswitch-class"></a>Метод RequestStateChange \_ класса мсвм виртуалфксвитч
 
@@ -151,7 +151,7 @@ uint32 RequestStateChange(
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

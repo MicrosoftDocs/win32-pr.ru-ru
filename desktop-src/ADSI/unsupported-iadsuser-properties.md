@@ -8,22 +8,22 @@ keywords:
 - Службы WinNT Provider ADSI, объект User, неподдерживаемые свойства IADsUser
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5b3e3c42f80754203f635e04dea258d7623234
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 015a03f8bbe4029a886d83ab714f102ba5a7f4b6aa2804d5aae2da315c333c7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648944"
 ---
 # <a name="unsupported-iadsuser-properties"></a>Неподдерживаемые свойства IADsUser
 
 Интерфейс [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser) , реализованный поставщиком WinNT ADSI, поддерживает все [Свойства IADsUser](iadsuser-property-methods.md) , кроме следующего. Чтобы получить и (или) изменить эти свойства, используйте поставщик LDAP.
 
 -   [**бадлогинаддресс**](iadsuser-property-methods.md)
--   [**Название**](iadsuser-property-methods.md)
+-   [**Отдел**](iadsuser-property-methods.md)
 -   [**Отдел**](iadsuser-property-methods.md)
 -   [**EmailAddress**](iadsuser-property-methods.md)
--   [**КодСотрудника**](iadsuser-property-methods.md)
+-   [**EmployeeID**](iadsuser-property-methods.md)
 -   [**факснумбер**](iadsuser-property-methods.md)
 -   [**FirstName**](iadsuser-property-methods.md)
 -   [**грацелогинсалловед**](iadsuser-property-methods.md)
@@ -32,13 +32,13 @@ ms.locfileid: "103986084"
 -   [**Языки**](iadsuser-property-methods.md)
 -   [**ластфаиледлогин**](iadsuser-property-methods.md)
 -   [**LastName**](iadsuser-property-methods.md)
--   [**Configuration**](iadsuser-property-methods.md)
+-   [**Manager**](iadsuser-property-methods.md)
 -   [**NamePrefix**](iadsuser-property-methods.md)
 -   [**NameSuffix**](iadsuser-property-methods.md)
 -   [**оффицелокатионс**](iadsuser-property-methods.md)
 -   [**осернаме**](iadsuser-property-methods.md)
 -   [**пассвордластчанжед**](iadsuser-property-methods.md)
--   [**Picture**](iadsuser-property-methods.md)
+-   [**Снимки**](iadsuser-property-methods.md)
 -   [**посталаддрессес**](iadsuser-property-methods.md)
 -   [**посталкодес**](iadsuser-property-methods.md)
 -   [**рекуиреуникуепассворд**](iadsuser-property-methods.md)
@@ -47,11 +47,11 @@ ms.locfileid: "103986084"
 -   [**телефонемобиле**](iadsuser-property-methods.md)
 -   [**TelephoneNumber**](iadsuser-property-methods.md)
 -   [**телефонепажер**](iadsuser-property-methods.md)
--   [**Заголовок**](iadsuser-property-methods.md)
+-   [**Название**](iadsuser-property-methods.md)
 
- 
+ 
 
- 
+ 
 
 
 

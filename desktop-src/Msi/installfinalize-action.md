@@ -4,12 +4,12 @@ ms.assetid: ed0e3c4f-d1ee-43b7-84a2-f4afe3ec28c6
 title: Действие функции InstallFinalize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a96296c2241f5769296b7192ce89ab9f44364bb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4db8bd3ac9473fab868e5f7d83e760b39ca4dd6136faec987b5a7d2a3777bdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787044"
 ---
 # <a name="installfinalize-action"></a>Действие функции InstallFinalize
 
@@ -23,7 +23,7 @@ ms.locfileid: "103811290"
 
 Нет сообщений Актиондата.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если обнаруживается, что продукт помечен для полного удаления, операции автоматически добавляются в сценарий, чтобы удалить компонент **Установка и удаление программ** на **панели управления** для продукта, отменить регистрацию и отмену публикации продукта, а также удалить кэшированную локальную базу данных из% Windows%, если она существует.
 

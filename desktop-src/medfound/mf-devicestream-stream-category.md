@@ -4,12 +4,12 @@ ms.assetid: 673FB138-574C-4A98-A88C-496F17B4E095
 title: Атрибут MF_DEVICESTREAM_STREAM_CATEGORY (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f9513925c328c84dd1ebb6bfc670f0d435b361f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55ce6aed56c86b3e7f32aa2839f759599cbfffcc493747cf381bda7dcc3c0917
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723393"
 ---
 # <a name="mf_devicestream_stream_category-attribute"></a>\_ \_ Атрибут категории потока MF девицестреам \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104263631"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут представляет идентификатор GUID, определяющий категорию потока, определенную в ксмедиа. h.
 
@@ -29,9 +29,9 @@ ms.locfileid: "104263631"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

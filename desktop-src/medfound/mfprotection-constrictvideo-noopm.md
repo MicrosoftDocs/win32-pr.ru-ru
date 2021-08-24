@@ -4,12 +4,12 @@ ms.assetid: D3EAD386-E730-44E8-9E05-773E1E2175C5
 title: Атрибут MFPROTECTION_CONSTRICTVIDEO_NOOPM (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 617bd629852a3aa03708d12dca7736b4f773094b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72d1d7cd858ec9cf254cca1dffc5fef4e24fbb5a3a288975a9f70c9ae118dde3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713744"
 ---
 # <a name="mfprotection_constrictvideo_noopm-attribute"></a>МФПРОТЕКТИОН \_ констриктвидео \_ нупм, атрибут
 
@@ -19,23 +19,23 @@ ms.locfileid: "103991428"
 
 **GUID**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это дополнительная защита, предоставляемая беспроводным центром управления видео (OTA), если соединитель не поддерживает выходную защиту (см.[**имфаутпуттрустаусорити**](/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority)). В этом случае OTA может предложить такую защиту, которая действует так же, как и защита [мфпротектион \_ констриктвидео](mfprotection-constrictvideo.md) . Это определено, чтобы избежать путаницы с предыдущими вызовами [**имфаутпутполици:: женератерекуиредсчемас**](/windows/desktop/api/mfidl/nf-mfidl-imfoutputpolicy-generaterequiredschemas) взаимодействия, в которых \_ для определения псевдо-соединителя диспетчера окон настольных систем используется защита мфпротектион констриктвидео.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                       |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

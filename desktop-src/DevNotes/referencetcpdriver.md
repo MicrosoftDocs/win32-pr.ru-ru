@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Drvref.lib
-ms.openlocfilehash: 4a9068739517cceedee72a675739b2d8b067b2ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 36329ecb695c6fcc011f7e1fe4f44a149fbeac48b0125c34330b9bde51342f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690844"
 ---
 # <a name="referencetcpdriver-function"></a>Функция Референцеткпдривер
 
@@ -50,13 +50,13 @@ NTSTATUS WINAPI ReferenceTcpDriver(
 
 Если функция завершается успешно, возвращается **состояние \_ Success**. В случае сбоя он возвратит соответствующий код состояния.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать только из режима ядра. Вызывающий объект должен уменьшить число ссылок, вызвав функцию **обдереференцеобжект** после завершения работы с объектом.
 
-Эта функция реализована в Дрвреф. lib, которая доступна для загрузки. См. раздел [Библиотека API справочника по сетевым драйверам Windows](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0).
+Эта функция реализована в Дрвреф. lib, которая доступна для загрузки. см. раздел [библиотека API справочника по сетевым драйверам Windows](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -66,7 +66,7 @@ NTSTATUS WINAPI ReferenceTcpDriver(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

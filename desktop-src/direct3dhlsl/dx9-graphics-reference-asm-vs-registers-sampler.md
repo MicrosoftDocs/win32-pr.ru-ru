@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 685f261da9d56dc29c0632d01cabbf29cd13a00f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bd822dc085243adeb97a4baaedce35b150db311ab6b98c531a3e33731635666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789084"
 ---
 # <a name="sampler-direct3d-9-asm-vs"></a>Образцы (Direct3D 9 ASM-VS)
 
@@ -40,9 +40,9 @@ ms.locfileid: "104413613"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -52,6 +52,6 @@ ms.locfileid: "104413613"
 [Текстуры вершин в VS \_ 3 \_ 0 (DirectX HLSL)](/windows/desktop/direct3d9/vertex-textures-in-vs-3-0)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

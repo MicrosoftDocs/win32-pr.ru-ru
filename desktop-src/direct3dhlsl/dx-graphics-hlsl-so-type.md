@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98063ddb45633dda6c897abf0f82f29a394c3f95
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 79e0247b424ebb6f72622565845c17b622ab715cd8860a83ce24ae58ac7420c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789484"
 ---
 # <a name="stream-output-object"></a>Объект Stream-Output
 
@@ -22,18 +22,18 @@ ms.locfileid: "104413114"
 
 
 
-| Inout *стреамаутпутобжект* < имя *типа данных* >  *;* |
+| Inout *стреамаутпутобжект* < имя *типа данных* >  *;* |
 |------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Параметры
 
 <dl> <dt>
 
-<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*Стреамаутпутобжект*  <  *Тип данных*  >    *Имя*
+<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*Стреамаутпутобжект*  <  *Тип данных*  >    *Имя*
 </dt> <dd>
 
 Объявление объекта потокового вывода (SO).
@@ -48,7 +48,7 @@ ms.locfileid: "104413114"
 
 
 
- 
+ 
 
 *DataType* — выходной тип данных; может быть любым [типом данных HLSL](dx-graphics-hlsl-data-types.md). Необходимо заключить в угловые скобки.
 
@@ -56,7 +56,7 @@ ms.locfileid: "104413114"
 
 </dd> </dl>
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Это пример объявления объекта потокового вывода, который осуществляет потоковую передачу примитивов треугольника, данные которых определяются в \_ структуре PS кубической карты \_ . Геометрический шейдер ограничен созданием 18 вершин.
 
@@ -102,7 +102,7 @@ Object.Method
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -112,19 +112,19 @@ Object.Method
 
 | Модель шейдера                                                        | Поддерживается |
 |---------------------------------------------------------------------|-----------|
-| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | да       |
+| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | Да       |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модель шейдера 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

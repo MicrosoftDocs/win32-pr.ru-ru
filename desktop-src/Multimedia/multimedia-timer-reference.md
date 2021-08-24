@@ -3,7 +3,7 @@ title: Справочник по таймеру мультимедиа
 description: Справочник по таймеру мультимедиа
 ms.assetid: e96bc9a6-4e9d-4231-9e35-4a6ff59e6521
 keywords:
-- Мультимедиа Windows, Справочник по таймеру
+- Windows мультимедиа, справочник по таймеру
 - мультимедиа, Справочник по таймеру
 - Ввод мультимедиа, Справочник по таймеру
 - Таймеры мультимедиа, справочные материалы
@@ -12,12 +12,12 @@ keywords:
 - Справочник по таймеру, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d926f7a76e6f16b95eaf3308db5c8da7371a11fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8fb409c17686e675049c36c5c93b3231aaa711bda0d23676026e679d1c6d6fd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806704"
 ---
 # <a name="multimedia-timer-reference"></a>Справочник по таймеру мультимедиа
 
@@ -45,13 +45,13 @@ ms.locfileid: "103987422"
 -   [**тимебегинпериод**](/windows/desktop/api/TimeAPI/nf-timeapi-timebeginperiod)
 -   [**тиминдпериод**](/windows/desktop/api/TimeAPI/nf-timeapi-timeendperiod)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Таймеры мультимедиа](multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

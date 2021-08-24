@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15be9b176680e8abb259d3d011da9d6cec0c2fa8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b7533e5d1e842e6794a9f9c386103b781afa0404ee181354c420770358f7e8a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751224"
 ---
 # <a name="win32_systemdriver-class"></a>\_Класс Win32 SystemDriver
 
@@ -95,10 +95,10 @@ class Win32_SystemDriver : Win32_BaseService
 
 | Метод                                                                              | Описание                                                                                     |
 |:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**Change**](change-method-in-class-win32-systemdriver.md)                         | Метод класса, который изменяет службу.<br/>                                                |
+| [**Изменение**](change-method-in-class-win32-systemdriver.md)                         | Метод класса, который изменяет службу.<br/>                                                |
 | [**чанжестартмоде**](changestartmode-method-in-class-win32-systemdriver.md)       | Метод класса, который изменяет режим запуска службы.<br/>                              |
-| [**Создать**](create-method-in-class-win32-systemdriver.md)                         | Метод класса, который создает новую службу.<br/>                                             |
-| [**Удалить**](delete-method-in-class-win32-systemdriver.md)                         | Метод класса, который удаляет существующую службу.<br/>                                       |
+| [**Создание**](create-method-in-class-win32-systemdriver.md)                         | Метод класса, который создает новую службу.<br/>                                             |
+| [**Удален**](delete-method-in-class-win32-systemdriver.md)                         | Метод класса, который удаляет существующую службу.<br/>                                       |
 | [**интеррогатесервице**](interrogateservice-method-in-class-win32-systemdriver.md) | Метод класса, запрашивающий обновление состояния службы до Service Manager.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md)             | Метод класса, который пытается перевести службу в приостановленное состояние.<br/>                 |
 | [**ResumeService**](resumeservice-method-in-class-win32-systemdriver.md)           | Метод класса, который пытается перевести службу в состояние возобновления.<br/>                |
@@ -152,7 +152,7 @@ class Win32_SystemDriver : Win32_BaseService
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -333,7 +333,7 @@ class Win32_SystemDriver : Win32_BaseService
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Service Structures \| [**\_ Status**](/windows/win32/api/winsvc/ns-winsvc-service_status) \| DwWin32ExitCode"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("код выхода")
 </dt> </dl>
 
-Код ошибки Windows, определяющий любые проблемы, возникшие при запуске или остановке службы. Это свойство имеет значение ошибка, связанное со **\_ службой \_ \_ ошибок** (1066), если ошибка является уникальной для службы, представленной этим классом, а сведения об ошибке доступны в свойстве **сервицеспеЦифицекситкоде** . Служба задает это значение **без \_ ошибок** при выполнении и снова после нормального завершения.
+Windows код ошибки, определяющий проблемы при запуске или остановке службы. Это свойство имеет значение ошибка, связанное со **\_ службой \_ \_ ошибок** (1066), если ошибка является уникальной для службы, представленной этим классом, а сведения об ошибке доступны в свойстве **сервицеспеЦифицекситкоде** . Служба задает это значение **без \_ ошибок** при выполнении и снова после нормального завершения.
 
 Это свойство наследуется из [**Win32 \_ басесервице**](win32-baseservice.md).
 
@@ -357,7 +357,7 @@ class Win32_SystemDriver : Win32_BaseService
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -839,7 +839,7 @@ class Win32_SystemDriver : Win32_BaseService
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ SystemDriver** является производным от [**Win32 \_ басесервице**](win32-baseservice.md).
 

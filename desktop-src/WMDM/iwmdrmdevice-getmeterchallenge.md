@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a916afa90d1db310041f9b92be94d3af9154df4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ccccf8ffe17bdcbf25c89830e34e7a52294a6c661bc4b7d9193afd215246cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766634"
 ---
 # <a name="iwmdrmdevicegetmeterchallenge-method"></a>Метод Ивмдрмдевице:: Жетметерчалленже
 
@@ -80,24 +80,24 @@ HRESULT GetMeterChallenge(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Данные контроля использования собираются и сохраняются в хранилище данных DRM на устройстве для содержимого с включенным измерением. Будут записаны такие действия, как воспроизведение. При вызове этой функции устройство собирает данные об измерениях в хранилище данных DRM в виде XML-документа и отправляет их в хосткомпутер. Если объем данных слишком большой, он отправляется поэтапно.
 
 Когда главный компьютер получает данные отслеживания использования, он отправляет данные через Интернет по URL-адресу, указанному в сертификате измерения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>ВМДДРМСП. idl</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>Мссачлп. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

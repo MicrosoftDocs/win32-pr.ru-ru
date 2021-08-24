@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 09/19/2019
-ms.openlocfilehash: bc25bf1055b923a383fc580a622e96d787ed13e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd8adfa3d6fa3c59a05331c82ea12100918a4697d9478097a890eedff039d5e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768734"
 ---
 # <a name="direct2d-constants"></a>Константы Direct2D
 
@@ -51,7 +51,7 @@ ms.locfileid: "105654583"
 
 | Требование | Значение |
 |-|-|
-| Минимальная версия клиента | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\] |
-| Минимальная версия сервера | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\] |
-| Минимальный поддерживаемый телефон | Windows Phone 8,1 \[ Windows Phone silverlight 8,1 и среда выполнения Windows приложения \] Windows Phone 8,1 \[ Windows Phone silverlight 8,1 и среда выполнения Windows Apps\] |
-| Header | d2d1effectauthor. h, D2D1. h, d2d1_1. h, d2d1effects_2. h |
+| Минимальная версия клиента | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\] |
+| Минимальная версия сервера | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\] |
+| Минимальный поддерживаемый телефон | Windows Phone 8,1 \[ Windows Phone silverlight 8,1 и среда выполнения Windows приложения \] Windows Phone 8,1 \[ Windows Phone silverlight 8,1 и среда выполнения Windows apps\] |
+| Заголовок | d2d1effectauthor. h, D2D1. h, d2d1_1. h, d2d1effects_2. h |

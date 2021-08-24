@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 14c82eaae707f23c8f696593496d556bfa61277a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 768064e19af76a03aa0d4f11c087f8d7ff7086b04cd1de46edfb504ba8e6be2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119614483"
 ---
 # <a name="microsoftisamesentinteropwindows8-namespace"></a>Пространство имен Microsoft. ISAM. ESENT. Interop. Windows8
 
@@ -72,7 +72,7 @@ ms.locfileid: "103998657"
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335399(v=exchg.10).md">Windows8IdxInfo</a></td>
-<td>Уровни сведений о столбцах, добавленные в версию ESENT для Windows 8.</td>
+<td>уровни сведений о столбцах, добавленные в Windows 8ную версию ESENT.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>

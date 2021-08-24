@@ -3,7 +3,7 @@ title: Команда MCI_SIGNAL (Ммсистем. h)
 description: Команда MCI \_ Signal задает указанную точку в рабочей области. Устройство Digital-Video распознает эту команду. МЦИАВИ поддерживает только один активный сигнал за раз.
 ms.assetid: 32ca21a0-e2df-47f1-8e13-67c9d8f149db
 keywords:
-- MCI_SIGNAL команды мультимедиа Windows
+- команда MCI_SIGNAL Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 711238d73ee40f5809f15a2d6df93183fb17bf67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fda7585ad63415f888f5971397df2b27c23710864ea21a8ed5e6ebce1a7c66f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689844"
 ---
 # <a name="mci_signal-command"></a>Сигнал MCI, \_ команда
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Окно, дескриптор которого вы указали в элементе **двкаллбакк** структуры [**\_ \_ \_ пармс сигнала MCI ДГВ**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_signal_parms) , получает сообщение mm \_ мЦисигнал.
 
@@ -100,18 +100,18 @@ MCIERROR mciSendCommand(
 <span id="MCI_DGV_SIGNAL_POSITION"></span><span id="mci_dgv_signal_position"></span>\_ \_ Расположение сигнала ДГВ \_ MCI
 </dt> <dd>
 
-Устройство будет отправит значение расположения с сообщением Windows вместо указанного пользователем значения.
+устройство будет отправит значение расположения с Windows сообщением вместо указанного пользователем значения.
 
 </dd> <dt>
 
 <span id="MCI_DGV_SIGNAL_USERVAL"></span><span id="mci_dgv_signal_userval"></span>\_ \_ УСЕРВАЛ сигнала MCI \_ ДГВ
 </dt> <dd>
 
-Значение типа данных включается в элемент **двусерпарм** структуры, идентифицируемой *лпсигнал*. Значение данных, связанное с этим запросом, возвращается в виде сообщения Windows.
+Значение типа данных включается в элемент **двусерпарм** структуры, идентифицируемой *лпсигнал*. значение данных, связанное с этим запросом, возвращается в виде Windows сообщения.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -119,11 +119,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

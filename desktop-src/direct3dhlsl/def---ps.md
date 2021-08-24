@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b4f035df97de2645983862dd68aa7ec80fc22d4b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce5f842f44e915d3f3240618261b501f2240c3636227f930538e1bbcbe0d9367
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726564"
 ---
 # <a name="def---ps"></a>DEF-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104070562"
 
 
 
- 
+ 
 
 Где:
 
 -   DST — это регистр назначения.
 -   fValue1 fValue4 — это значения с плавающей запятой.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104070562"
 
 
 
- 
+ 
 
 Существует два способа задания константы с плавающей запятой в построителе пикселей.
 
@@ -61,13 +61,13 @@ DEF определяет константу шейдера, значение к�
 -   Маска записи должна быть заполнена (по умолчанию).
 -   Если [регистр константы](dx9-graphics-reference-asm-ps-registers-ps-1-x.md) определен несколько раз в шейдере, последний сохраняется.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
