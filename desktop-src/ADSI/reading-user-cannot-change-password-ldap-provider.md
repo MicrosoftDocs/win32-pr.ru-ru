@@ -9,12 +9,12 @@ keywords:
 - Поставщик LDAP ADSI, примеры управления пользователями, пользователь должен сменить пароль при следующем входе в систему, чтение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b26818ee02d3876aa209dcd4990288ea1cfe96fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4ebbccc3147ffb1e29c0081d6e19ef1a615b7020cdc7e246fea294df7d2d38c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637584"
 ---
 # <a name="reading-user-cannot-change-password-ldap-provider"></a>Чтение пользователя не может изменить пароль (поставщик LDAP)
 
@@ -417,7 +417,7 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
 В следующем примере кода показано, как определить, что пользователь не может изменить пароль с помощью поставщика LDAP.
 
 > [!Note]  
-> Следующий пример кода работает только для доменов, где первичный язык — английский, так как строки "все" и "самоцентр NT \\ " локализуются на основе языка первого контроллера домена в домене. Не существует способа Visual Basic получить имена учетных записей для хорошо известного субъекта безопасности, не вызывая функцию [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . При использовании Visual Basic рекомендуется использовать поставщик WinNT, чтобы определить, что пользователь не может изменить пароль, как показано в статье [Чтение пользователя не может изменить пароль (поставщик WinNT)](reading-user-cannot-change-password-winnt-provider.md).
+> Следующий пример кода работает только для доменов, где первичный язык — английский, так как строки "все" и "самоцентр NT \\ " локализуются на основе языка первого контроллера домена в домене. не существует способа Visual Basic получить имена учетных записей для хорошо известного субъекта безопасности, не вызывая функцию [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . при использовании Visual Basic рекомендуется использовать поставщик WinNT, чтобы определить, что пользователь не может изменить пароль, как показано в статье [чтение пользователя не может изменить пароль (поставщик WinNT)](reading-user-cannot-change-password-winnt-provider.md).
 
  
 

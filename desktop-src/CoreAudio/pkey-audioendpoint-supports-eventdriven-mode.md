@@ -4,12 +4,12 @@ ms.assetid: 9cffd9ae-710b-4d41-aa02-3ab1a065e544
 title: PKEY_AudioEndpoint_Supports_EventDriven_Mode (Ммдевицеапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2707de83721d546040ac878b337faea12f533bb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 280be65d4ae8e0b557bd96320ea31f67ba75657ecb5b685608bd2c314e10836d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758924"
 ---
 # <a name="pkey_audioendpoint_supports_eventdriven_mode"></a>PKEY \_ аудиоендпоинт \_ поддерживает \_ \_ режим EventDriven
 
@@ -19,7 +19,7 @@ ms.locfileid: "103990723"
 
 Элемент **уинтвал** структуры **Пропвариант** — это **DWORD** , указывающий, поддерживает ли конечная точка режим, управляемый событиями.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение свойства заполняется аудио-ПРОИЗВОДИТЕЛем в INF-файле, чтобы указать, что оборудование Хдаудио поддерживает режим, управляемый событиями, согласно требованию WHQL.
 
@@ -29,9 +29,9 @@ ms.locfileid: "103990723"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Ммдевицеапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Ммдевицеапи. h</dt> </dl> |
 
 
 

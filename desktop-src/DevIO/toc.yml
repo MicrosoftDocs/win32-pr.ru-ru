@@ -6,7 +6,7 @@
       items:
         - name: Дескрипторы ресурсов связи
           href: communications-resource-handles.md
-        - name: Изменение параметров ресурсов связи
+        - name: изменение Параметры ресурсов связи
           href: modification-of-communications-resource-settings.md
         - name: Конфигурация ресурса связи
           href: communications-resource-configuration.md
@@ -112,7 +112,7 @@
     - name: Об управлении устройствами
       href: about-device-management.md
       items:
-        - name: Сообщения устройства
+        - name: Сообщения устройств
           href: device-messages.md
         - name: Типы событий устройств
           href: device-event-types.md

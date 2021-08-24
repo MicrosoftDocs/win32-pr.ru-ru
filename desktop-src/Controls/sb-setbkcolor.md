@@ -3,7 +3,7 @@ title: Сообщение SB_SETBKCOLOR (Коммктрл. h)
 description: Задает цвет фона в строке состояния.
 ms.assetid: 49bcd816-e3e2-45f4-8845-ef67789b8a01
 keywords:
-- Элементы управления Windows для SB_SETBKCOLOR сообщений
+- элементы управления Windows сообщений SB_SETBKCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc08687c6d228074bc3e4dd7c8442a1c1e35a835
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b97893d49d475789b07c28e17e88097aa4df4336154d6b4e0f9c4fa081e52635
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637084"
 ---
 # <a name="sb_setbkcolor-message"></a>\_Сообщение SB сетбкколор
 
@@ -43,15 +43,15 @@ ms.locfileid: "104415940"
 
 Возвращает предыдущий цвет фона или \_ значение по умолчанию CLR, если цвет фона является цветом по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

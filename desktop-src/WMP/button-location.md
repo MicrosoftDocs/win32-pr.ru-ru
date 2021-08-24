@@ -3,18 +3,18 @@ title: Расположение кнопки
 description: Расположение кнопки
 ms.assetid: aaab7461-1694-4913-a97b-71dde9592dbe
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, расположение кнопки
+- проигрыватель Windows Media Обложки мобильных устройств, расположение кнопки
 - обложки, расположение кнопки
 - Справочник по обложкам, кнопкам
 - кнопки в обложках, расположение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f651848a376e58184634a1d4336bac9bab1507
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 790b3f6dcd7612e60d4ef93e87ccea5f322a659f008579ec37eae38594cf3796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736714"
 ---
 # <a name="button-location"></a>Расположение кнопки
 
@@ -23,20 +23,20 @@ ms.locfileid: "104258885"
 Если вы используете кнопки региона (Пушхит, Тогглехит и 2PushHit), все равно необходимо ввести эти четыре числа. Значения используются для определения расположений для вторичных изображений, таких как отправленные и отключенные.
 
 > [!Note]  
-> Типы кнопок являются устаревшими в обложках для проигрывателя Windows Media 10 Mobile или более поздней версии.
+> типы кнопок являются устаревшими в обложках для проигрыватель Windows Media 10 Mobile или более поздней версии.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Кнопки**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

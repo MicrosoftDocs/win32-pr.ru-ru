@@ -4,12 +4,12 @@ ms.assetid: eae96a9e-ced2-4e13-b250-33c5acbbae48
 title: Функции управления питанием
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9ad544c7483cdda6be015da2314c5463fd0eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b83fb67cd5bbeabf066e7668a4235abd6d561f339cc7b3fc0c960c95b6fa2755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674574"
 ---
 # <a name="power-management-functions"></a>Функции управления питанием
 
@@ -98,13 +98,13 @@ ms.locfileid: "103998497"
 
  
 
-## <a name="power-management-functions-windows-server-2003-and-earlier"></a>Функции управления питанием: Windows Server 2003 и более ранние версии
+## <a name="power-management-functions-windows-server-2003-and-earlier"></a>функции управления питанием: Windows Server 2003 и более ранних версий
 
-Следующие функции поддерживаются в Windows Server 2008, Windows Vista и более поздних версиях Windows для совместимости с более ранними версиями Windows. Приложения, написанные для Windows Server 2008, Windows Vista и более поздних версий должны использовать альтернативные варианты, перечисленные в этой таблице.
+следующие функции поддерживаются в Windows Server 2008, Windows Vista и более поздних версиях Windows для совместимости с более ранними версиями Windows. для приложений, написанных для Windows Server 2008, Windows Vista и более поздних версий следует использовать альтернативные варианты, перечисленные в этой таблице.
 
 
 
-| Windows Server 2003 и более ранние версии                            | Описание                                                                           | Windows Server 2008 и Windows Vista                                                                                                                                           |
+| Windows Сервер 2003 и более ранние версии                            | Описание                                                                           | Windows Server 2008 и Windows Vista                                                                                                                                           |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**канусервритепврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-canuserwritepwrscheme)     | Определяет, имеет ли текущий пользователь достаточные права для записи схемы управления питанием. | [**поверсеттингакцессчекк**](/windows/desktop/api/PowrProf/nf-powrprof-powersettingaccesscheck)                                                                                                                      |
 | [**делетепврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-deletepwrscheme)                 | Удаляет указанную схему управления питанием.                                                   | [**поверделетесчеме**](/windows/desktop/api/PowrProf/nf-powrprof-powerdeletescheme)                                                                                                                                  |
@@ -112,12 +112,12 @@ ms.locfileid: "103998497"
 | [**жетактивепврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-getactivepwrscheme)           | Возвращает индекс активной схемы управления питанием.                                       | [**повержетактивесчеме**](/windows/desktop/api/Powersetting/nf-powersetting-powergetactivescheme)                                                                                                                            |
 | [**жетпврдискспиндовнранже**](/windows/desktop/api/PowrProf/nf-powrprof-getpwrdiskspindownrange) | Возвращает диапазон дискового спиндовн.                                                    | Управляется \_ \_ подгруппой "Параметры электропитания" подгруппы дисков GUID. Используйте функцию [**поверенумерате**](/windows/desktop/api/PowrProf/nf-powrprof-powerenumerate) для перечисления отдельных параметров.                |
 | [**испврхибернатеалловед**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrhibernateallowed)     | Определяет, поддерживает ли компьютер режим гибернации.                                 | [**жетпвркапабилитиес**](/windows/desktop/api/Powerbase/nf-powerbase-getpwrcapabilities)                                                                                                                                |
-| [**испвршутдовналловед**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrshutdownallowed)       | Определяет, поддерживает ли компьютер состояние электропитания "мягкая".                    | Не применяется Начиная с Windows Vista, компьютеры должны поддерживать мягкое отключение.                                                                                                   |
+| [**испвршутдовналловед**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrshutdownallowed)       | Определяет, поддерживает ли компьютер состояние электропитания "мягкая".                    | Неприменимо. начиная с Windows Vista, компьютеры должны поддерживать мягкую поддержку.                                                                                                   |
 | [**испврсуспендалловед**](/windows/desktop/api/PowrProf/nf-powrprof-ispwrsuspendallowed)         | Определяет, поддерживает ли компьютер состояния спящего режима.                            | [**жетпвркапабилитиес**](/windows/desktop/api/Powerbase/nf-powerbase-getpwrcapabilities)                                                                                                                                |
 | [**реадглобалпврполици**](/windows/desktop/api/PowrProf/nf-powrprof-readglobalpwrpolicy)         | Извлекает текущие глобальные параметры политики управления питанием.                                   | Функции Power Read                                                                                                                                                            |
 | [**реадпроцессорпврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-readprocessorpwrscheme)   | Получает параметры политики управления питанием процессора для указанной схемы управления питанием.         | Управляется с помощью подгруппы параметры \_ процессора \_ Параметры \_ управления питанием в подгруппе. Используйте функцию [**поверенумерате**](/windows/desktop/api/PowrProf/nf-powrprof-powerenumerate) для перечисления отдельных параметров. |
 | [**реадпврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-readpwrscheme)                     | Извлекает параметры политики управления питанием, которые являются уникальными для указанной схемы управления питанием.    | Функции Power Read                                                                                                                                                            |
-| [**рекуествакеуплатенци**](/windows/desktop/api/WinBase/nf-winbase-requestwakeuplatency)       | Указывает, насколько быстро компьютер должен перейти в рабочее состояние.            | Не применяется                                                                                                                                                                 |
+| [**рекуествакеуплатенци**](/windows/desktop/api/WinBase/nf-winbase-requestwakeuplatency)       | Указывает, насколько быстро компьютер должен перейти в рабочее состояние.            | Неприменимо.                                                                                                                                                                 |
 | [**сетактивепврсчеме**](/windows/desktop/api/PowrProf/nf-powrprof-setactivepwrscheme)           | Задает активную схему управления питанием.                                                         | [**поверсетактивесчеме**](/windows/desktop/api/Powersetting/nf-powersetting-powersetactivescheme)                                                                                                                            |
 | [**сетсистемповерстате**](/windows/desktop/api/WinBase/nf-winbase-setsystempowerstate)         | Приостанавливает работу системы, отключая выключение питания.                                           | [**сетсуспендстате**](/windows/desktop/api/PowrProf/nf-powrprof-setsuspendstate)                                                                                                                                      |
 | [**вритеглобалпврполици**](/windows/desktop/api/PowrProf/nf-powrprof-writeglobalpwrpolicy)       | Записывает глобальные параметры политики управления питанием.                                                  | Функции Power Write                                                                                                                                                           |

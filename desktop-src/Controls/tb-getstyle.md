@@ -3,7 +3,7 @@ title: Сообщение TB_GETSTYLE (Коммктрл. h)
 description: Извлекает стили, используемые в данный момент для элемента управления ToolBar.
 ms.assetid: 6fbe8733-79df-462e-acb6-6568105e5058
 keywords:
-- Элементы управления Windows для TB_GETSTYLE сообщений
+- элементы управления Windows сообщений TB_GETSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f8de0addae729a4a8c641d21fd1771137d8c8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0704e1cb886bb8a684ab4a1a1e827218fc5f57d4d90778e859e5224ef5f129e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696174"
 ---
 # <a name="tb_getstyle-message"></a>\_Сообщение о стиле ТБ
 
@@ -39,15 +39,15 @@ ms.locfileid: "104492129"
 
 Возвращает значение **типа DWORD** , которое является сочетанием [стилей элементов управления панели инструментов](toolbar-control-and-button-styles.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

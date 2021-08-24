@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntgdi.h
-ms.openlocfilehash: 19799c3895072011dd104deec18664d1ffc52b9d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 46397237cd775fb28dd7b3b50e55fdc598fd4cff46eeffd69755b35fa87b9f44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636604"
 ---
 # <a name="ntgdid3dcontextdestroy-function"></a>Функция NtGdiD3DContextDestroy
 
@@ -63,7 +63,7 @@ DWORD APIENTRY NtGdiD3DContextDestroy(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,7 +75,7 @@ DWORD APIENTRY NtGdiD3DContextDestroy(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

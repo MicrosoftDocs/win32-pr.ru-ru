@@ -3,19 +3,19 @@ title: Вторичные события
 description: Вторичные события
 ms.assetid: cc9eb382-82ca-4416-a04e-1572e4c69c90
 keywords:
-- Обложки проигрывателя Windows Media, вторичные события
+- обложки проигрыватель Windows Media, дополнительные события
 - обложки, вторичные события
 - события, вторичные
 - Написание кода для обложек, вторичных событий
 - Вторичные события
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e04785a7468353665083287ac1b74bce5cbf0f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35fd121330a99c73ed7a52def712bb53949113745a8af0f4c01ded8f9aeaea4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735784"
 ---
 # <a name="secondary-events"></a>Вторичные события
 
@@ -46,7 +46,7 @@ ms.locfileid: "104486960"
 
 ## <a name="using-secondary-events"></a>Использование дополнительных событий
 
-Обрабатывать атрибуты событий можно только в коде JScript. Необходимо использовать следующий синтаксис:
+обрабатывать атрибуты событий можно только в JScriptном коде. Необходимо использовать следующий синтаксис:
 
 
 ```C++
@@ -55,7 +55,7 @@ event.eventattributename
 
 
 
-*евентаттрибутенаме* — имя атрибута события. Например, чтобы определить, была ли нажата клавиша ALT во время события щелчка, можно использовать следующие строки в коде JScript:
+*евентаттрибутенаме* — имя атрибута события. например, чтобы определить, была ли нажата клавиша ALT во время события щелчка, можно использовать следующие строки в коде JScript:
 
 
 ```C++
@@ -68,16 +68,16 @@ if (wasAlt = true)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Обработка событий**](handling-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

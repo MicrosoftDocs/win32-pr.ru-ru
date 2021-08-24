@@ -4,12 +4,12 @@ description: По мере роста количества доступных к
 ms.assetid: c2c67129-bf19-465b-8354-193922aeafaa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2414567beba159c05ea08b3561f0a97ddda1cb70
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 941ba5f422a4305a3bb6056d1d02648dde3bffc9c9f872fe7f7804ebb90a19ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679216"
 ---
 # <a name="component-categories-manager-implementation"></a>Реализация диспетчера категорий компонентов
 
@@ -37,9 +37,9 @@ ms.locfileid: "103986828"
 -   [Определение категорий компонентов](defining-component-categories.md)
 -   [Связывание значков с категорией](associating-icons-with-a-category.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 85CCD8E3-BF3C-44D7-91C0-829F0314E7FE
 title: System. Devices. Плайбакктитле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e69c4e04f8a2e740976c63ac5f7630e481902789
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2da35e72f0d06928f2c0a299cab6c3f8ef41824b3a688562e39d9cd2d65b13b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711164"
 ---
 # <a name="systemdevicesplaybacktitle"></a>System. Devices. Плайбакктитле
 
@@ -38,11 +38,11 @@ propertyDescription
             text = PlaybackTitle
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

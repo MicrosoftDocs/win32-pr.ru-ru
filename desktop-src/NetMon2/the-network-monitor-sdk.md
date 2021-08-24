@@ -4,12 +4,12 @@ ms.assetid: d9a61ad7-aa85-4b18-90df-7a8051ff80bc
 title: Общие сведения о сетевой монитор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf3deda734c3e4c54982356427c3d541f2a71d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e29142d2beeb42b9eb89635a8902a090b93fae86599a711bdbe063408562ea50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778174"
 ---
 # <a name="network-monitor-introduction"></a>Общие сведения о сетевой монитор
 

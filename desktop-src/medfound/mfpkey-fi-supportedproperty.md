@@ -4,12 +4,12 @@ ms.assetid: cc7fb83d-8423-4e0a-a520-b58d3345ef89
 title: Свойство MFPKEY_FI_SUPPORTED (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bd056ec0895b63d315c5f3371ab7befff7ca85a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4504e3bf6b6010fb27c08750e521aaa740b05f78c434dfac5a11ffacbbd66327
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713954"
 ---
 # <a name="mfpkey_fi_supported-property"></a>\_ \_ Поддерживаемое свойство мфпкэй Fi
 
@@ -27,18 +27,18 @@ ms.locfileid: "105648102"
 
 **ВАРИАНТ \_ false**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows XP, Windows Vista или Windows 7<br/>                                       |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

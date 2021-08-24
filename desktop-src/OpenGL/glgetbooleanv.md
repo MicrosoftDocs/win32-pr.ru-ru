@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d5ed89ddc2bff9b5e089ae54268e90c2fadef9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6d91ad34ffd21b8df26cf6d8242c3a494626a046fc41c413445d24aba8f2613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675503"
 ---
 # <a name="glgetbooleanv-function"></a>Функция Глжетбулеанв
 
@@ -305,7 +305,7 @@ void WINAPI glGetBooleanv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция возвращает значения для переменных простого состояния в OpenGL. Параметр *pname* представляет собой символьную константу, указывающую переменную состояния, которая должна быть возвращена, а *params* — это указатель на массив указанного типа, в который будут размещены возвращаемые данные.
 
@@ -317,7 +317,7 @@ void WINAPI glGetBooleanv(
 
 С помощью [**глисенаблед**](glisenabled.md)можно легко запросить многие логические параметры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -331,7 +331,7 @@ void WINAPI glGetBooleanv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

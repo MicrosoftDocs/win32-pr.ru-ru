@@ -16,12 +16,12 @@ ms.topic: article
 ms.date: 02/11/2020
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5363600455ee1ba5c1c86cb12690afd242f68118
-ms.sourcegitcommit: 01a4383738056cf3de4f45f36d98ef73d4dc694d
+ms.openlocfilehash: 4d9bd4e03b489a899e182c86207e11ae9ec0fb66cc6c917584d83dcc0aa97918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104412459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635334"
 ---
 # <a name="idevicebrokeropendevicefrominterfacepath-method"></a>Метод Идевицеброкер:: Опендевицефроминтерфацепас
 
@@ -34,11 +34,11 @@ ms.locfileid: "104412459"
 
 ```C++
 HRESULT OpenDeviceFromInterfacePath(
-  [in]  PCWSTR pszDeviceInterfacePath,
-  [in]  DWORD  desiredAccess,
-  [in]  DWORD  shareMode,
-  [in]  DWORD  flagsAndAttributes,
-  [out] Handle *phDevice
+  [in]  PCWSTR pszDeviceInterfacePath,
+  [in]  DWORD  desiredAccess,
+  [in]  DWORD  shareMode,
+  [in]  DWORD  flagsAndAttributes,
+  [out] Handle *phDevice
 );
 ```
 
@@ -83,4 +83,4 @@ HRESULT OpenDeviceFromInterfacePath(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Если эта функция завершается с ошибкой, возвращается S_OK. В противном случае возвращается код ошибки HRESULT.
+Если эта функция завершается с ошибкой, возвращается S_OK. В противном случае будет возвращен код ошибки HRESULT.

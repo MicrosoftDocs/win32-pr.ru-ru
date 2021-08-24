@@ -4,12 +4,12 @@ description: Этот раздел содержит сведения о пара
 ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d01e3fda902c23c86279a9a4d75889ebfeff4d55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4dbf32dfacdf1dc0b8ed3bc51c986ae572e43300263565254ad6b3a48a981beb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734324"
 ---
 # <a name="show-sounds-and-audio-description-flag"></a>Показывать звуки (и флаг описания звука)
 
@@ -34,6 +34,6 @@ ms.locfileid: "105691584"
 
 Приложения используют флаги **SPI \_ Жетаудиодескриптион** и **SPI \_ сетаудиодескриптион** с функцией [**системпараметерсинфо**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) для включения или отключения звуковых описаний. Несмотря на то, что пользователи, не имеющие визуального решения, могут слышать видео в видеоролике, в видео есть много действий, которые не имеют соответствующего звука. Конкретное звуковое описание того, что происходит в видео, помогает этим пользователям лучше понять содержимое. Этот флаг позволяет включать или отключать звуковые описания на языках, которые они предоставляют.
 
- 
+ 
 
- 
+ 

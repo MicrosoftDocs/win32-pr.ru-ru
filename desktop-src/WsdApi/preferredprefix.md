@@ -4,12 +4,12 @@ ms.assetid: 955f4785-5657-4a89-9728-bce99a0a4234
 title: Преферредпрефикс, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fa0310872a43811ceb626ae0684fa45a2f6666
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 934e82caf0558ff3ffc1079d3773453673bcbe916a518f6196670f37744fdf8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756874"
 ---
 # <a name="preferredprefix-element"></a>Преферредпрефикс, элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "107996481"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Этот элемент переопределяет префикс URI по умолчанию, используемый для созданного кода. Например, пространство имен, связанное с носителем, может иметь предпочтительный префикс "AV" (для аудио-или визуального элемента).
 

@@ -4,12 +4,12 @@ ms.assetid: 3c9e0229-c7e2-4b5c-9532-18fbf8a3667d
 title: Событие InkEdit. MouseUp (с. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c331ec5dd0dd6a39ec956eda6980ee02cddd298e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 483333b246e84d2a9ed6f354198ebce5cd147ddb4fd3ccb5e2834d1802a0b744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712664"
 ---
 # <a name="inkeditmouseup-event"></a>Событие InkEdit. MouseUp
 
@@ -90,7 +90,7 @@ HRESULT MouseUp(
 
 Если это событие завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При нажатии кнопки мыши в тот момент, когда указатель наведен на элемент управления [InkEdit](inkedit-control-reference.md) , этот элемент управления захватывает мышь и получает все события мыши вплоть до последнего события **MouseUp** . Это означает, что координаты указателя мыши (x, y), возвращаемые событием мыши, могут не всегда находиться во внутренней области объекта, получающего их.
 
@@ -104,9 +104,9 @@ HRESULT MouseUp(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>«С». h (также требует \_ ввода i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |
 
 

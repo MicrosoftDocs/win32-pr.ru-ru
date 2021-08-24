@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfbc44b2d9ceea1bcfbf854a8d3c6998d03e3eec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5d2ce34bb6bde85600e57182151e8c270885e60f919f22a723228b14dd17927a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104987098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632604"
 ---
 # <a name="id3dx11effectgetconstantbufferbyindex-method"></a>Метод ID3DX11Effect:: Жетконстантбуффербиндекс
 
@@ -58,7 +58,7 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByIndex(
 
 Указатель на [**ID3DX11EffectConstantBuffer**](id3dx11effectconstantbuffer.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Для действия, содержащего переменную, которая будет доступна для чтения и записи приложением, требуется по крайней мере один буфер константы. Для лучшей производительности результат должен организовывать переменные в один или несколько буферов констант в зависимости от частоты обновления.
 
@@ -67,18 +67,18 @@ ID3DX11EffectConstantBuffer* GetConstantBufferByIndex(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

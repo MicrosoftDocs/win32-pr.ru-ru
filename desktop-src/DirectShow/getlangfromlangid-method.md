@@ -4,17 +4,17 @@ ms.assetid: 73cff3df-bfcd-4e51-bd41-51545ed82f09
 title: Метод Жетлангфромлангид
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23afddf746852028c26732eb658e786588f7e9ec
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6041f12c82f0e659928db9f5aa02fd916d3ff9907bf3114eb40c525b8b1d8d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756754"
 ---
 # <a name="getlangfromlangid-method"></a>Метод Жетлангфромлангид
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -39,7 +39,7 @@ ms.locfileid: "103894666"
 
 Возвращает строковое представление языка, который может отображаться в пользовательском интерфейсе приложения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя этот метод называется `GetLangFromLangID` , передаваемый параметр фактически является основным идентификатором языка, а не идентификатором языка.
 

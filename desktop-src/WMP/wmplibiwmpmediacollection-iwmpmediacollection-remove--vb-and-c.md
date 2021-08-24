@@ -3,9 +3,9 @@ title: Ивмпмедиаколлектион Remove, метод
 description: Метод Remove удаляет указанный элемент из коллекции носителей.
 ms.assetid: 2ed45159-0a92-4353-8bf1-1d20de404bf7
 keywords:
-- метод Remove Windows Media Player
-- метод Remove Windows Media Player, интерфейс Ивмпмедиаколлектион
-- Интерфейс Ивмпмедиаколлектион Windows Media Player, Remove, метод
+- удалить метод проигрыватель Windows Media
+- метод remove проигрыватель Windows Media, интерфейс ивмпмедиаколлектион
+- интерфейс ивмпмедиаколлектион проигрыватель Windows Media, метод remove
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d341f8974255dab5e3cdce356a9b221eddff193c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 771ae8be7a8a4586c132cb29b3af4d5d9180398d7db7d05e66c6e84b5a013b48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119735004"
 ---
 # <a name="iwmpmediacollectionremove-method"></a>Метод Ивмпмедиаколлектион:: Remove
 
@@ -73,7 +73,7 @@ Implements IWMPMediaCollection.remove
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод удаляет элемент из библиотеки. Этот метод не удаляет файлы с компьютера пользователя.
 
@@ -143,19 +143,19 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

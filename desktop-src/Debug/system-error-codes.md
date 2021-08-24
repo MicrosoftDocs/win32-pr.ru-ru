@@ -4,19 +4,19 @@ ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
 title: Коды системных ошибок
 ms.topic: article
 ms.date: 10/31/2019
-ms.openlocfilehash: 072e1eb4a43c787055bc2793b3f58d69cdf6dd12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c762b2098531ecb19ad84522f8c9c8272c004397bbc4b32f15a6f6e157c4332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119691734"
 ---
 # <a name="system-error-codes"></a>Коды системных ошибок
 
 Этот раздел предназначен для разработчиков, выполняющих отладку системных ошибок. Если вы открыли эту страницу при поиске других ошибок, вот некоторые ссылки, которые могут помочь:
 
-* [Ошибки центр обновления Windows](https://support.microsoft.com/help/10164/fix-windows-update-errors) — для устранения проблем с центр обновления Windows.
-* [Ошибки активации Windows](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) — для получения помощи в проверке копии Windows.
+* [ошибки Центр обновления Windows](https://support.microsoft.com/help/10164/fix-windows-update-errors) — для устранения проблем с Центр обновления Windows.
+* [ошибки активации Windows](https://support.microsoft.com/help/10738/windows-10-get-help-with-activation-errors) — для проверки копии Windows.
 * [Устранение ошибок на синем экране](https://support.microsoft.com/help/14238/windows-10-troubleshoot-blue-screen-errors) — для справки по обнаружению причины ошибки.
 * [Служба поддержки Майкрософт](https://support.microsoft.com) — для поддержки продукта Майкрософт.
 
@@ -25,8 +25,8 @@ ms.locfileid: "104141538"
 В этом разделе перечислены коды системных ошибок, упорядоченные по числу. Если вам требуется дополнительная помощь в отслеживании определенной ошибки, см. Дополнительные рекомендации.
 
 * Используйте [средство поиска ошибок (Майкрософт](system-error-code-lookup-tool.md)).
-*  Установите средства отладки для Windows, загрузите файл дампа памяти, а затем выполните команду **\! Err \<code>** .
-* Поиск необработанного текста или кода ошибки на сайте протоколов Майкрософт. Дополнительные сведения см. в разделе [[MS-ерреф]: коды ошибок Windows](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
+*  установите средства отладки для Windows, загрузите файл дампа памяти, а затем выполните команду **\! err \<code>** .
+* Поиск необработанного текста или кода ошибки на сайте протоколов Майкрософт. дополнительные сведения см. в разделе [[MS-ерреф]: Windows коды ошибок](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## <a name="third-party-error-codes"></a>Коды ошибок сторонних производителей
 

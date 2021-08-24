@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 4de92c3e67567ef86bb3d46905e595bd9d54c194
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fab2942a2a5188527c57663af0c6000aa2cb628eaa2499eef054854df9187784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778774"
 ---
 # <a name="labeled_largeint-structure"></a>\_Структура ЛАРЖЕИНТ с меткой
 
@@ -54,11 +54,11 @@ typedef struct _LABELED_LARGEINT {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **лплабеледларжеинттабле** структуры [Set](set.md) указывает на массив структур **набора** , определяющих один или несколько элементов **Label** в парах значений ларжеинт. Эти пары используются, если требуется отобразить метку вместо определенного значения ЛАРЖЕИНТ, которое находится в пакете протокола.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ typedef struct _LABELED_LARGEINT {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

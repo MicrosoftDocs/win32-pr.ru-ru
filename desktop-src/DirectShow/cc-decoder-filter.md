@@ -4,17 +4,17 @@ ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: Фильтр декодера CC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d93995207e4f1a397db28f743d1f972b871b0553
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5feab764883754407030f2b4f72f794d049f5a394efb107ac149b10125da8d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757404"
 ---
 # <a name="cc-decoder-filter"></a>Фильтр декодера CC
 
 > [!IMPORTANT]
-> Этот компонент был удален из Windows Vista и более поздних операционных систем. Он доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003.
+> этот компонент был удален из Windows Vista и более поздних операционных систем. он доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "103989975"
 
 Так как это фильтр режима ядра, приложения не могут создать его напрямую с помощью **CoCreateInstance**. Вместо этого используйте [перечислитель системных устройств](system-device-enumerator.md). Дополнительные сведения см. в разделе [Создание фильтров Kernel-Mode](creating-kernel-mode-filters.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [Просмотр скрытых субтитров](viewing-closed-captions.md)

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ac328c772b740a0d7ab05be4c6ea9f2a24f852e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e84afd1d4e4ffb013a2029f7d56a223f0aef2f019bc3beb11bd7bd6c202b88d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652404"
 ---
 # <a name="cbaserendererinactive-method"></a>Кбасерендерер. Inactive, метод
 
@@ -44,7 +44,7 @@ virtual HRESULT Inactive();
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код вызывает этот метод из собственного метода [**крендереринпутпин:: Inactive**](crendererinputpin-inactive.md) . Фильтр вызывает метод [**кбасерендерер:: клеарпендингсампле**](cbaserenderer-clearpendingsample.md) , чтобы освободить самый последний пример.
 
@@ -54,7 +54,7 @@ virtual HRESULT Inactive();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

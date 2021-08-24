@@ -4,12 +4,12 @@ ms.assetid: 8ed1c68f-331d-42f9-80df-bdcb42962482
 title: ICE78
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8993a0a03b0f70bf2d99511782bc9b7d259d4c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d39061872b716c9cc05e983d72615bf287683fd9c316df5661c3085e545169f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638124"
 ---
 # <a name="ice78"></a>ICE78
 
@@ -31,7 +31,7 @@ ICE78 сообщает о следующей ошибке в примере:
 
 | Действие  | Условие | Последовательность |
 |---------|-----------|----------|
-| Action1 превышают | true      | 1        |
+| Action1 превышают | TRUE      | 1        |
 
 
 
@@ -39,7 +39,7 @@ ICE78 сообщает о следующей ошибке в примере:
 
 Чтобы устранить эту ошибку, удалите из таблицы значение "Action1 превышают" или удалите таблицу.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

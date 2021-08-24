@@ -4,12 +4,12 @@ ms.assetid: 4263032f-9093-4c7a-9ca0-14f8dc0d1aef
 title: Атрибут MF_MT_DV_VAUX_SRC_PACK (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0db4d10c7603a2374366fce83cd6f541e4637ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d0b79e0ba124e0ce3b196c8753777e6fe01b061aefe7c7d1d6b1cb4459deada
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714654"
 ---
 # <a name="mf_mt_dv_vaux_src_pack-attribute"></a>\_ \_ \_ Атрибут Pack MF DV \_ ваукс \_ src
 
@@ -19,25 +19,25 @@ ms.locfileid: "103912647"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут соответствует элементу **двдвваукссрк** структуры [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) DirectShow.
+этот атрибут соответствует элементу **двдвваукссрк** структуры DirectShow [**двинфо**](/windows/win32/api/strmif/ns-strmif-dvinfo) .
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

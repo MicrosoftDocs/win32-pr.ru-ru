@@ -28,12 +28,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 59ae2527478235c14a8f856319178afe00c02a98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c7e7fba10cb507e1288344637c944bb56d62dc4c9eaaf909a980ceaf3250440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695974"
 ---
 # <a name="cim_error-class"></a>\_Класс ошибок CIM
 
@@ -69,7 +69,7 @@ class CIM_Error
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ ошибок CIM** имеет эти свойства.
 
@@ -1236,7 +1236,7 @@ class CIM_Error
 
 <span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>
 
-**Проблема с емкостью хранилища** (50)
+**проблема с служба хранилища емкостью** (50)
 
 
 </dt> <dd></dd> <dt>
@@ -1839,7 +1839,7 @@ class CIM_Error
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

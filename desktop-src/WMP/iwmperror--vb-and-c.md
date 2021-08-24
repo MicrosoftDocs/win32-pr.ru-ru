@@ -3,8 +3,8 @@ title: Интерфейс Ивмперрор (VB и C) (WMP. h)
 description: Предоставляет свойства и методы для доступа к коллекции интерфейсов Ивмперроритем для получения сведений об ошибках. Интерфейс Ивмперрор предоставляет следующие свойства.
 ms.assetid: c7d9f834-43ed-40a2-95a3-b1633f025118
 keywords:
-- Ивмперрор (VB и C) интерфейс проигрывателя Windows Media
-- Ивмперрор (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмперрор (VB и C)
+- проигрыватель Windows Media интерфейса ивмперрор (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 289a39093c38e7a4b0cc43cb8f318e321ae8ef53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3ff7635e423d70447e371d61fbbadf02aa14c2476e118be79cbb25d974348b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736184"
 ---
 # <a name="iwmperror-vb-and-c-interface"></a>Интерфейс Ивмперрор (VB и C#)
 
@@ -44,7 +44,7 @@ ms.locfileid: "105688844"
 | Метод                                                                         | Описание                                                                                                                                   |
 |:-------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
 | [**клеарерроркуеуе**](wmplibiwmperror-iwmperror-clearerrorqueue--vb-and-c.md) | Удаляет ошибки из очереди ошибок.<br/>                                                                                            |
-| [**Справка**](wmplibiwmperror-iwmperror-webhelp--vb-and-c.md)                 | Открывает страницу веб-справки проигрывателя Microsoft Windows Media для вывода дополнительных сведений о первой ошибке в очереди ошибок.<br/> |
+| [**Справка**](wmplibiwmperror-iwmperror-webhelp--vb-and-c.md)                 | открывает веб-страницу Microsoft проигрыватель Windows Media Web для вывода дополнительных сведений о первой ошибке в очереди ошибок.<br/> |
 
 
 
@@ -59,7 +59,7 @@ ms.locfileid: "105688844"
 | Свойство                                                                        | Тип доступа           | Описание                                                                                                                         |
 |:--------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------|
 | [**ерроркаунт**](wmplibiwmperror-iwmperror-errorcount--vb-and-c.md)<br/> | Только для чтения<br/>  | Возвращает количество ошибок в очереди ошибок.<br/>                                                                            |
-| [**Элемент**](iwmperror-item--vb-and-c.md)<br/>                             | Чтение/запись<br/> | Возвращает интерфейс **ивмперроритем** по указанному индексу в очереди ошибок. В C# это метод **Get \_ Item** .<br/> |
+| [**Компонент**](iwmperror-item--vb-and-c.md)<br/>                             | Чтение/запись<br/> | Возвращает интерфейс **ивмперроритем** по указанному индексу в очереди ошибок. В C# это метод **Get \_ Item** .<br/> |
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "105688844"
 
 | Объект                                                                   | Свойство                                                       |
 |--------------------------------------------------------------------------|----------------------------------------------------------------|
-| [Объект Аксвиндовсмедиаплайер](axwindowsmediaplayer-object--vb-and-c.md) | [**Ошибка**](axwmplib-axwindowsmediaplayer-error--vb-and-c.md) |
+| [Объект Аксвиндовсмедиаплайер](axwindowsmediaplayer-object--vb-and-c.md) | [**План**](axwmplib-axwindowsmediaplayer-error--vb-and-c.md) |
 
 
 
@@ -83,7 +83,7 @@ ms.locfileid: "105688844"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
@@ -91,7 +91,7 @@ ms.locfileid: "105688844"
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмперроритем (VB и C#)**](iwmperroritem--vb-and-c.md)

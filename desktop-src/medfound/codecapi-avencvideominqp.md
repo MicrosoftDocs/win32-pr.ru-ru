@@ -4,12 +4,12 @@ ms.assetid: C9004A40-ECC9-45C3-BBDE-0A179B838AFE
 title: Свойство CODECAPI_AVEncVideoMinQP (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 778371bf271a5efa1c3d302493b8e3f10254285e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7c54694552e41c45830e3f16b77d0d1b4d671c478409b651bdacaa396cd52ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606284"
 ---
 # <a name="codecapi_avencvideominqp-property"></a>КОДЕКАПИ \_ авенквидеоминкп, свойство
 
@@ -27,19 +27,19 @@ ms.locfileid: "105692076"
 
 Значение — это минимальный элемент QP, который используется в кодировке переменной-QP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ description: Объектная модель агента
 ms.assetid: 4ec6ec3f-9772-4e29-9482-b9860092f053
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a97bcc104cb7835c3335b22bcfd185b152b1c290
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 430e63bd0f0ddf3d412ff5fa731972caeb2ff90b11f8257775d5583b0ab7e2b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104565507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715852"
 ---
 # <a name="the-agent-object-model"></a>Объектная модель агента
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Объектная модель Microsoft Agent состоит из следующих объектов:
 
@@ -22,7 +22,7 @@ ms.locfileid: "104565507"
 -   Символы (коллекция)
 -   Знак
 -   Команды (коллекция)
--   Get-Help
+-   Команда
 -   Появится
 -   Аниматионнамес (коллекция)
 -   спичинпут

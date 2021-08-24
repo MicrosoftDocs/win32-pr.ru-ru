@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Aux_klib.lib
-ms.openlocfilehash: d16ea418d2012b24ce19ad14afab12e198e7ab2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f35d2d17d581d17a6d89a7bc10d185a67a5fb0b695a29492922f5950241f2ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654884"
 ---
 # <a name="auxklibinitialize-function"></a>Функция Ауксклибинитиализе
 
@@ -43,23 +43,23 @@ NTSTATUS _stdcall AuxKlibInitialize(void);
 
 Если функция завершается ошибкой, возвращаемое значение может быть одним из кодов состояния, определенных в файле Ntstatus. h, который доступен в WDK.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Библиотеку объектов, реализующих этот API, можно скачать [отсюда](https://www.microsoft.com/?ref=go).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------------|------------------------------------------------------------------------------------------|
-| Распространяемые компоненты<br/> | Библиотека вспомогательных API Windows версии 1,0 или более поздней<br/>                            |
-| Header<br/>          | <dl> <dt>AUX \_ клиб. h</dt> </dl>   |
+| Распространяемые компоненты<br/> | Windows Вспомогательная библиотека API версии 1,0 или более поздней<br/>                            |
+| Заголовок<br/>          | <dl> <dt>AUX \_ клиб. h</dt> </dl>   |
 | Библиотека<br/>         | <dl> <dt>AUX \_ клиб. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

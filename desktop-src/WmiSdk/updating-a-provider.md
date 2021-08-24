@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Обновление поставщика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4869e6e9f7fbddc3081922f476ca021934065a18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa8c40a3d50672115478ae62135774f5a1aad93373bd5b844402e89462b44fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757654"
 ---
 # <a name="updating-a-provider"></a>Обновление поставщика
 
@@ -47,7 +47,7 @@ ms.locfileid: "105693320"
 
 Для обновления поставщика, реализованного на локальном сервере, можно выполнить аналогичные действия.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

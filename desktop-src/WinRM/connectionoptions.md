@@ -5,7 +5,7 @@ ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows объекта ConnectionOptions
-- Служба удаленного управления Windows объекта ConnectionOptions, описание
+- служба удаленного управления Windows объекта ConnectionOptions, описание
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 164eb886ce98266cab3109e773b731e002d1abac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8665dc3a5be91fddb4332be3512ec9eec5c483495a21b95b641ec26e4e9e111
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119734094"
 ---
 # <a name="connectionoptions-object"></a>Объект ConnectionOptions
 
@@ -33,7 +33,7 @@ ms.locfileid: "105701063"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **ConnectionOptions** имеет следующие свойства.
 
@@ -48,11 +48,11 @@ ms.locfileid: "105701063"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **ConnectionOptions** соответствует интерфейсу [**ивсманконнектионоптионс**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmanconnectionoptions) .
 
-Если клиентское приложение служба удаленного управления Windows выполняется под олицетворением, то при установке свойства [**Password**](connectionoptions-password.md) происходит сбой. Клиентское приложение — это сценарий или другая программа, которая отправляет запрос в службу WinRM на локальном или удаленном компьютере. Клиентское приложение может работать под олицетворением, так как оно называется функцией, например [**имперсонатеклиент**](/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)). Страница Active Server (ASP) или служба не может запрашивать имя пользователя и пароль, если процесс ASP выполняется с учетной записью, выполняющей олицетворение клиента.
+если клиентское приложение служба удаленного управления Windows выполняется под олицетворением, то при установке свойства [**Password**](connectionoptions-password.md) происходит сбой. Клиентское приложение — это сценарий или другая программа, которая отправляет запрос в службу WinRM на локальном или удаленном компьютере. Клиентское приложение может работать под олицетворением, так как оно называется функцией, например [**имперсонатеклиент**](/previous-versions/windows/desktop/legacy/aa375494(v=vs.85)). Страница Active Server (ASP) или служба не может запрашивать имя пользователя и пароль, если процесс ASP выполняется с учетной записью, выполняющей олицетворение клиента.
 
 Флаг **всманфлагкредусернамепассворд** должен быть установлен для вызова [**WSman. CreateSession**](wsman-createsession.md) при использовании [**имени пользователя**](connectionoptions-username.md) и [**пароля**](connectionoptions-password.md) для проверки подлинности.
 
@@ -76,7 +76,7 @@ strResource = objSession.Get("winrm/config")
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,14 +84,14 @@ strResource = objSession.Get("winrm/config")
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -101,13 +101,13 @@ strResource = objSession.Get("winrm/config")
 [API сценариев WinRM](winrm-scripting-api.md)
 </dt> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
-[Создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
+[создание сценариев в служба удаленного управления Windows](scripting-in-windows-remote-management.md)
 </dt> <dt>
 
 [Получение данных с локального компьютера](obtaining-data-from-the-local-computer.md)

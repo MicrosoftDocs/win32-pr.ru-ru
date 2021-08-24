@@ -4,12 +4,12 @@ ms.assetid: 7a7ffd54-09e9-412d-a637-5dc27597b46e
 title: Литералинклуде, элемент
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1f43f1b8d3d95e2ad8a378dd1c8cbada7758ad
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f1bda6586de7c1bc253a9dd1f348ba644b4f29b7f928335bb0cdd148c0fd1536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757174"
 ---
 # <a name="literalinclude-element"></a>Литералинклуде, элемент
 
@@ -46,14 +46,14 @@ ms.locfileid: "107995131"
 <tr class="odd">
 <td><strong>Язык</strong><br/></td>
 <td>Строка языка<br/></td>
-<td>нет<br/></td>
+<td>Нет<br/></td>
 <td>Тип включаемого файла заголовка. <br/> <br/>
 <dt><strong>Ц</strong></dt> <dd> Включите файл заголовка C.<br/> </dd> <dt><strong>IDL</strong></dt> <dd> Включите IDL-файл.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Локальное</strong><br/></td>
-<td>Логический<br/></td>
-<td>нет<br/></td>
+<td>Логическое<br/></td>
+<td>Нет<br/></td>
 <td>Этот атрибут используется только в том случае, если для параметра <strong>Language</strong> задано значение &quot; C &quot; .<br/> <br/>
 <dt><strong>Условия</strong></dt> <dd> Выполняет поиск именованного заголовка в текущем каталоге перед поиском в системных каталогах.<br/> </dd> <dt><strong>IsFalse</strong></dt> <dd> Поиск только системных каталогов для именованного заголовка.<br/> </dd> </dl></td>
 </tr>
@@ -76,7 +76,7 @@ ms.locfileid: "107995131"
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 В следующих примерах показан код, созданный из различных элементов **литералинклуде** .
 

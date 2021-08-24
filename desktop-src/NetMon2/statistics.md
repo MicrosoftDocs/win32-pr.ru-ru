@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: a3798f32f7341722432441272eded7d7605cf8a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 273e6ba9e32337cc65b3dce979d2ff407b904595237b60025e42fc58e57d9823
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778284"
 ---
 # <a name="statistics-structure"></a>Структура статистики
 
@@ -198,13 +198,13 @@ typedef struct _STATISTICS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется для получения [*общей статистики*](t.md), а также для приостановки или остановки текущей записи.
 
 Не удается получить общую статистику при использовании интерфейса [ИЕСП](iesp.md) НПП.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -216,7 +216,7 @@ typedef struct _STATISTICS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

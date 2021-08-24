@@ -4,12 +4,12 @@ ms.assetid: 6FEFFB5D-DD8B-4FEA-B273-D32FC30CAFEA
 title: Использование событий автозапуска в выполняющихся приложениях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51795a3992bdb40dde833bb3e352905efaa2be63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab30fa020b5501f8832a5b350ad409934ecbb4258d75adf147e908c699516474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714824"
 ---
 # <a name="how-to-use-autoplay-events-in-running-applications"></a>Использование событий автозапуска в выполняющихся приложениях
 
@@ -37,7 +37,7 @@ ms.locfileid: "103998446"
 
 Используйте параметр *ппмоникер* для регистрации компонента в таблице ROT.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) может представлять угрозы безопасности. Сведения о правильной загрузке библиотек DLL с разными версиями Windows см. в документации по **LoadLibrary** .
@@ -96,7 +96,7 @@ HKEY_CLASSES_ROOT
          RunAs = Interactive User
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [**ихвевенсандлер**](/windows/desktop/api/Shobjidl/nn-shobjidl-ihweventhandler)
 

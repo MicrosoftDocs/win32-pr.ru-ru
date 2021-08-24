@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d5b52f6277459f147285f46fc791669e56061a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 977f7eaef1d6c8a505ce55d7d1683d7c9f4dabff5e59df7d8845773eefdff696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707944"
 ---
 # <a name="iwmdrmlicensemanagementdeletelicense-method"></a>Ивмдрмлиценсеманажемент: метод:D Елетелиценсе
 
@@ -84,7 +84,7 @@ HRESULT DeleteLicense(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы удалить лицензии из постоянного локального хранилища лицензий, необходимо использовать отзыв лицензий.
 
@@ -94,7 +94,7 @@ HRESULT DeleteLicense(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 

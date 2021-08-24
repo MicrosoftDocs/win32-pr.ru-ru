@@ -4,16 +4,16 @@ description: Иаженткоммандвиндов
 ms.assetid: d85a7a2c-f0ea-4612-aa73-2e44c49e4e18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8c036d02c210ecb26da5dfde207bfe56afe8a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52571311a87ee0846dcaf515912762069fe3025a25c5a2589770ee9738bb2de7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716104"
 ---
 # <a name="iagentcommandwindowgetposition"></a>Иаженткоммандвиндов:: Disposition
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetPosition(
@@ -47,9 +47,9 @@ HRESULT GetPosition(
 [**Иаженткоммандвиндов:: DataSize**](iagentcommandwindow--getsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 
