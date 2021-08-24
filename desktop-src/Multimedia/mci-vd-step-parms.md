@@ -3,7 +3,7 @@ title: Структура MCI_VD_STEP_PARMS (МЦиапи. h)
 description: '\_ \_ Структура пармс VD шага MCI \_ содержит сведения о \_ команде шага MCI для устройств видеодиск.'
 ms.assetid: 5345468c-b195-485a-8101-4a076410f26a
 keywords:
-- MCI_VD_STEP_PARMS структура мультимедиа Windows
+- структура MCI_VD_STEP_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b8b368046375f87a897d002c362624fed3ea105
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f494c821a1df68b98548c95a10af47b817e00b8bc0ffbd52ee7836bb4d97441f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783859"
 ---
 # <a name="mci_vd_step_parms-structure"></a>\_ \_ Структура пармс VD для шага MCI \_
 
@@ -55,7 +55,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

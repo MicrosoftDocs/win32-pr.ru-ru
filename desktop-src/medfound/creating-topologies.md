@@ -4,12 +4,12 @@ ms.assetid: afd1e646-9bb6-4265-a225-6aaaf1a7bb2a
 title: Создание топологий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9ec738c82ea2b85bcae7d4c05627b81ad939db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4048200055066a601f9044ff109f173cb00fc4449a71ea1331b29c8be1a59b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777624"
 ---
 # <a name="creating-topologies"></a>Создание топологий
 
@@ -33,7 +33,7 @@ ms.locfileid: "104423562"
 
 4.  Добавьте каждый узел в топологию, вызвав [**имфтопологи:: AddNode**](/windows/desktop/api/mfidl/nf-mfidl-imftopology-addnode).
 
-5.  Подключите узлы. Чтобы подключить узел, вызовите [**имфтопологиноде:: коннектаутпут**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) на вышестоящем узле и передайте указатель на подчиненный узел.
+5.  Подключение узлы. Чтобы подключить узел, вызовите [**имфтопологиноде:: коннектаутпут**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-connectoutput) на вышестоящем узле и передайте указатель на подчиненный узел.
 
 Следующие разделы содержат конкретные шаги для каждого типа узла.
 
@@ -49,11 +49,11 @@ ms.locfileid: "104423562"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Топологии](topologies.md)
+[Топологий](topologies.md)
 </dt> </dl>
 
  

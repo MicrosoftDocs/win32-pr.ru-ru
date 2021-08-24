@@ -1,19 +1,19 @@
 ---
-description: Общие сведения о библиотеке COM и примечания по использованию технологии планшетных ПК пакета SDK для Windows Vista.
+description: общие сведения о библиотеке COM и примечания по использованию технологии планшетных пк пакета SDK для Windows Vista.
 ms.assetid: fa43fad9-804c-42d9-9717-6686d5f98ed8
 title: Использование библиотеки COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82671b198114cf45b334e8c4e07146a91964e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdbf986d79011301abe6a9f279a83278fda5dd9e33e3a79335d7d94e6081fb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819144"
 ---
 # <a name="using-the-com-library"></a>Использование библиотеки COM
 
-Справочник по управляемой библиотеке Tablet PC теперь можно найти в разделе Справочник по библиотеке классов Windows Vista SDK. Он предоставляет объектную модель для Microsoft Visual C++. Большинство объектов в библиотеке COM идентичны тем, которые находятся в управляемом API-интерфейсе Tablet PC.
+справочник по управляемой библиотеке Tablet PC теперь можно найти в разделе справочник по библиотеке классов SDK Windows Vista. Он предоставляет объектную модель для Microsoft Visual C++. Большинство объектов в библиотеке COM идентичны тем, которые находятся в управляемом API-интерфейсе Tablet PC.
 
 Однако API COM содержит некоторые элементы в дополнение к тем, которые находятся в управляемом API, из-за различий между стандартной средой Microsoft Win32 и средой Microsoft .NET Фрамеворксофтваре Development Kit (SDK). Например, объекты Инкректангле и Инктрансформ используются в COM, но Фрамеворксдк предоставляет собственную реализацию для [**класса инкректангле**](inkrectangle-class.md) и [**класса инктрансформ**](inktransform-class.md) , которая устраняет необходимость в работе этих объектов в управляемом API платформы Tablet PC.
 

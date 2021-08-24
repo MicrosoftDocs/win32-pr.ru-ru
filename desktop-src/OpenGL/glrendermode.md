@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af07d2492d70f9c0a3a764d767b52b2f71204939
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93eb3c7e2d7f4a6d261632e0f010cf0e1c7a2410a5a8364a6cf1fd65f36ada99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777934"
 ---
 # <a name="glrendermode-function"></a>Функция Глрендермоде
 
@@ -74,7 +74,7 @@ GLint WINAPI glRenderMode(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глрендермоде** принимает один аргумент *mode*, который может принимать одно из трех предварительно определенных значений.
 
@@ -100,7 +100,7 @@ GLint WINAPI glRenderMode(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ режим рендеринга GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -114,7 +114,7 @@ GLint WINAPI glRenderMode(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

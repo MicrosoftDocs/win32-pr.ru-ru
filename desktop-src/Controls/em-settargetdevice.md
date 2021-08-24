@@ -3,7 +3,7 @@ title: Сообщение EM_SETTARGETDEVICE (RichEdit. h)
 description: Задает целевое устройство и толщину линии, используемые для \ 0034; что вы получаете \ 0034; (WYSIWYG) форматирование в элементе управления Rich Edit.
 ms.assetid: dfc829f5-e711-419e-abb5-c1e8df994c4a
 keywords:
-- Элементы управления Windows для EM_SETTARGETDEVICE сообщений
+- элементы управления Windows сообщений EM_SETTARGETDEVICE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f82d6ee5df86572564cffcf192395ccee1fbd05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d9a3cd4e59f3800b91fedee446e927ab0ec39988474752561a04dace5572ef0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697594"
 ---
 # <a name="em_settargetdevice-message"></a>\_Сообщение СЕТТАРЖЕТДЕВИЦЕ EM
 
@@ -47,7 +47,7 @@ HDC для целевого устройства.
 
 Возвращаемое значение равно нулю, если операция завершается с ошибкой, или ненулевой, если она завершается успешно.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр HDC для принтера по умолчанию можно получить следующим образом.
 
@@ -66,15 +66,15 @@ if (PrintDlg(&pd))
 
 Если значение *lParam* равно нулю, разрывы строк не создаются.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

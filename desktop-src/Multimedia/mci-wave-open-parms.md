@@ -3,7 +3,7 @@ title: Структура MCI_WAVE_OPEN_PARMS (МЦиапи. h)
 description: Структура MCI \_ Wave \_ Open \_ пармс содержит сведения о команде MCI \_ Open для устройств аудио-Audio.
 ms.assetid: 2fc9383e-4610-4751-acad-b545dc6d8992
 keywords:
-- MCI_WAVE_OPEN_PARMS структура мультимедиа Windows
+- структура MCI_WAVE_OPEN_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5a4107c6283edab1ffeaf18297e2898a8b17761
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 470b00bc818fb184174f27a8ff281359788f235ec7e31b899b051dc90423426c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783788"
 ---
 # <a name="mci_wave_open_parms-structure"></a>\_ \_ \_ Структура пармс для звукозаписи MCI
 
@@ -87,13 +87,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
 Если вы не используете расширенные элементы данных, можно использовать структуру [**MCI \_ Open \_ пармс**](mci-open-parms.md) , а не звукозапись **MCI \_ \_ Open \_ пармс** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -105,7 +105,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

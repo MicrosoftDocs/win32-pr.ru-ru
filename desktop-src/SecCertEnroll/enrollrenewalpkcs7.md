@@ -4,12 +4,12 @@ ms.assetid: 12a3f1b4-b31e-470e-8ce6-87f497841240
 title: enrollRenewalPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8795758a2744dcee07a100f87eb1db0a1af49eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3da14719cc2a9e6bdf4c16cad57d24b9ee4ec0c2ee955cc8b7c20643b2b6f9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740434"
 ---
 # <a name="enrollrenewalpkcs7"></a>enrollRenewalPKCS7
 
@@ -17,7 +17,7 @@ ms.locfileid: "104545879"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ enrollRenewalPKCS7.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ enrollRenewalPKCS7.
 
 ## <a name="discussion"></a>Разговор
 
@@ -29,7 +29,7 @@ ms.locfileid: "104545879"
 4.  Создает объект [**IX509CertificateRequestPkcs7**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509certificaterequestpkcs7) и инициализирует его с помощью существующего сертификата. Поскольку параметр *инхеритоптионс* имеет значение инхеритдефаулт, для запроса создается новая пара ключей, но используется поставщик служб шифрования в существующем сертификате. Дополнительные сведения см. в описании метода [**инитиализефромцертификате**](/windows/desktop/api/CertEnroll/nf-certenroll-ix509certificaterequestpkcs7-initializefromcertificate) .
 5.  Создает объект [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) , инициализирует его с помощью \# объекта запроса PKCS 7, пытается зарегистрировать его в центре сертификации и отслеживает состояние процесса регистрации. Функция Чеккенроллстатус определена в Енроллкоммон. cpp.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

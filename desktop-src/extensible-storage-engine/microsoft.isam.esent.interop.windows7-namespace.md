@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e1e55e2b06092f8d29eb4261c9afb26028a1a261
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6372f556f15d099800915de9399a43128ba6275e59a847ed987669577d9f51a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780314"
 ---
 # <a name="microsoftisamesentinteropwindows7-namespace"></a>Пространство имен Microsoft. ISAM. ESENT. Interop. Windows7
 
@@ -37,27 +37,27 @@ ms.locfileid: "104568772"
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335406(v=exchg.10).md">Windows7Api</a></td>
-<td>API ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).</td>
+<td>api ESENT, которые впервые поддерживались в Windows 7 (Windows Server 2008 R2).</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335302(v=exchg.10).md">Windows7ExceptionAction</a></td>
-<td>Действие исключения, добавленное в версию ESENT Windows 7.</td>
+<td>действие исключения, добавленное в Windows версии ESENT 7.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335303(v=exchg.10).md">Windows7Grbits</a></td>
-<td>Грбитс, добавленные в версию ESENT Windows 7.</td>
+<td>грбитс, добавленные в версию ESENT Windows 7.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335311(v=exchg.10).md">Windows7IdxInfo</a></td>
-<td>Уровни сведений о столбцах, добавленные в версию ESENT Windows 7.</td>
+<td>уровни сведений о столбцах, добавленные в версию Windows 7 ESENT.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335429(v=exchg.10).md">Windows7Param</a></td>
-<td>Системные параметры, добавленные в версию ESENT Windows 7.</td>
+<td>системные параметры, добавленные в версию ESENT Windows 7.</td>
 </tr>
 </tbody>
 </table>

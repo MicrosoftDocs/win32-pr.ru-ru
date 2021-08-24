@@ -4,24 +4,24 @@ ms.assetid: bf6b8794-332e-4069-8d6f-6d8dc9b01866
 title: МСИДИСАБЛЕЛУАПАТЧИНГ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a15bbb8831ad3cff430bf86aee8a17f0ddeace7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd56c42f420f4e263fa48bb9597120a715dec62d43890cb3fcb0e206161eefbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679814"
 ---
 # <a name="msidisableluapatching-property"></a>МСИДИСАБЛЕЛУАПАТЧИНГ, свойство
 
 Задайте для свойства **мсидисаблелуапатчинг** значение 1 в командной строке или в таблице [свойств](property-table.md) , чтобы предотвратить исправление с минимальными правами доступа приложения. Чтобы предотвратить исправление с минимальными правами доступа для всех приложений на компьютере, установите для политики [дисаблелуапатчинг](disableluapatching.md) значение 1. Сведения об исправлении учетных записей пользователей с минимальными правами доступа см. в разделе [контроль учетных записей пользователей (UAC)](user-account-control--uac--patching.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "105668727"
 [дисаблелуапатчинг](disableluapatching.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

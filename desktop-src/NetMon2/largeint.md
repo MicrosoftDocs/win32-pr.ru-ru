@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d857179e97586974e11815ced5ec7c50ca276789
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6eedf739d9d0b4285d0198ae905672dbbb7848a2b7d9ba106abb6a59fcdc4d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742654"
 ---
 # <a name="largeint"></a>ларжеинт
 
@@ -28,14 +28,14 @@ typedef LARGE_INTEGER UNALIGNED* ULPLARGEINT;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **лпларжеинттабле** структуры [**Set**](set.md) указывает на массив структур **набора** , определяющих одно или несколько значений ларжеинт. Если **задан этот тип структуры,** сетевой монитор отображает одну из следующих меток с каждым значением ларжеинт, найденным в пакете протокола.
 
 -   Соответствует заданному значению. Значение ЛАРЖЕИНТ включается в набор.
 -   Неизвестное значение набора. Значение ЛАРЖЕИНТ не включено в набор.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -47,7 +47,7 @@ typedef LARGE_INTEGER UNALIGNED* ULPLARGEINT;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

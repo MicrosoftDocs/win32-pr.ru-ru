@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 60e3bde90da36a6122608b463b28df670f0d2a8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe0ba5c86fdb2df5fe168559aa019941897563823e75670b0813ecb7e9e44d69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820354"
 ---
 # <a name="file-operation-progress-sink"></a>Приемник данных о ходе выполнения файловой операции
 
@@ -27,7 +27,7 @@ ms.locfileid: "104080953"
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,21 +53,21 @@ ms.locfileid: "104080953"
 1.  Откройте окно командной строки и перейдите в каталог проекта **филеоператионпрогресссинк** .
 2.  Введите `msbuild FileOperationProgressSinkSample.sln`.
 
-Чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
+чтобы создать пример с использованием Microsoft Visual Studio (предпочтительно):
 
-1.  Откройте проводник Windows и перейдите в каталог проекта **филесинусе** . Например, полный путь установки по умолчанию — `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileOperationProgressSinkSample` .
+1.  откройте обозреватель Windows и перейдите в каталог проекта **филесинусе** . Например, полный путь установки по умолчанию — `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppPlatform\FileOperationProgressSinkSample` .
 2.  Дважды щелкните значок файла Филеоператионпрогресссинксампле. sln, чтобы открыть проект в Visual Studio.
     > [!Note]  
-    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. В этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
+    > Расширение имени файла. sln не отображается в разделе Параметры папки по умолчанию. в этом случае его можно определить по его уникальному значку или описанию типа "Microsoft Visual Studio решение".
 
      
 
-3.  В меню **Сборка** выберите пункт **построить решение**.
+3.  В меню **Построение** выберите пункт **Построить решение**.
 
 ## <a name="running-the-sample"></a>Запуск примера
 
-1.  Перейдите в каталог, содержащий новый исполняемый файл, с помощью окна командной строки или проводника Windows.
-2.  В командной строке введите `FileOperationProgressSinkSample.exe` или в проводнике Windows дважды щелкните значок FileOperationProgressSinkSample.exe.
+1.  перейдите в каталог, содержащий новый исполняемый файл, используя окно командной строки или проводник Windows.
+2.  в командной строке введите `FileOperationProgressSinkSample.exe` или в Windows Explorer дважды щелкните значок FileOperationProgressSinkSample.exe.
 
  
 

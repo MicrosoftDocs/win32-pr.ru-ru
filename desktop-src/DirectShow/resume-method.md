@@ -4,17 +4,17 @@ ms.assetid: e16d0c05-34ca-4841-b7a2-e7878c795a40
 title: Метод Resume
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4948734ed69acac3193be257d517d494208071a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5ee9dcf63ad54dd75cf3f69d971257e0771aedd41f54729a304ce56891dbfa2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696904"
 ---
 # <a name="resume-method"></a>Метод Resume
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 

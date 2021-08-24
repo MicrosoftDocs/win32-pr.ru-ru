@@ -1,19 +1,19 @@
 ---
-description: В следующей таблице описаны изменения между Microsoft Internet Explorer 6 и Windows Internet Explorer 8.
+description: в следующей таблице описаны изменения между Microsoft internet explorer 6 и Windows Internet explorer 8.
 ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: Изменения браузера IE 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7abf978d2211a03b59a78847a66efc21f3213c41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c775448d8eca55097b0121592c28ece0b2c347f4492e7a48b2d51d9ab688fa89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103909975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680294"
 ---
 # <a name="appendix-1-internet-explorer-6-to-internet-explorer-8-browser-changes"></a>Приложение 1. изменения браузера Internet Explorer 6 для Internet Explorer 8
 
-В следующей таблице описаны изменения между Microsoft Internet Explorer 6 и Windows Internet Explorer 8.
+в следующей таблице описаны изменения между Microsoft internet explorer 6 и Windows Internet explorer 8.
 
 
 
@@ -23,7 +23,7 @@ ms.locfileid: "103909975"
 
 $ {ROWSPAN2} $Internet обозреватель версий $ {Remove} $  
 
-Проверьте код на наличие неверно определенных случаев для Internet Explorer 6, Windows Internet Explorer 7 или Internet Explorer 8 с помощью [сканирования строки агента пользователя, векторов версий или условных комментариев](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85)).
+проверьте код на наличие неверно определенных вариантов internet explorer 6, Windows internet explorer 7 или internet explorer 8 с помощью [сканирования строки агента пользователя, векторов версий или условных комментариев](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85)).
 
 -   Когда строка агента пользователя (UA) обнаруживает сервер, принимающий более короткие строки UA, пользователи видят [страницу ошибки](https://www.enhanceie.com/ua.aspx).
 
@@ -57,14 +57,14 @@ $ {REMOVE} $
 -   [Незакрытые элементы P](https://msdn.microsoft.com/library/Cc843977(v=VS.85).aspx) автоматически закрываются, когда за ними следуют элементы [**Table**](https://msdn.microsoft.com/library/ms535901(v=VS.85).aspx), [**Form**](https://msdn.microsoft.com/library/ms535249(v=VS.85).aspx), [**noframes**](https://msdn.microsoft.com/library/ms535857(v=VS.85).aspx)или [**script**](https://msdn.microsoft.com/library/ms535858(v=VS.85).aspx) .
 -   [Неверно сформированный HTML](/archive/blogs/ie/site-compatibility-and-ie8) не поддерживается в пользу правильно сформированной допустимой разметки.
 -   Синтаксис [атрибута ClassName](/archive/blogs/ie/site-compatibility-and-ie8) не поддерживается в пользу синтаксиса "class".
--   [Коллекция Attributes](/archive/blogs/ie/site-compatibility-and-ie8) не содержит все возможные атрибуты, распознаваемые Windows Internet Explorer.
+-   [коллекция attributes](/archive/blogs/ie/site-compatibility-and-ie8) не содержит все возможные атрибуты, которые Windows распознает Internet Explorer.
 -   [Упорядочивание атрибутов изменилось](/archive/blogs/ie/site-compatibility-and-ie8), влияет на коллекцию атрибутов, innerHTML и outerHTML.
 -   [GetElementById](/archive/blogs/ie/site-compatibility-and-ie8) учитывает регистр и не выполняет поиск атрибутов имени.
 -   [Селекторы универсальных префиксов CSS](/archive/blogs/ie/site-compatibility-and-ie8) (т \\ . е. синтаксис v: \* ) не поддерживаются в пользу явных имен тегов.
 -   [Выражения CSS](/archive/blogs/ie/site-compatibility-and-ie8) не поддерживаются в пользу улучшенной поддержки CSS или логики DHTML.
 -   Код, предназначенный для пользовательских методов объекта JSON, может конфликтовать с [новым собственным объектом JSON](/archive/blogs/ie/site-compatibility-and-ie8) в Internet Explorer 8.
 -   Отменить начальные [Свойства](/archive/blogs/ie/site-compatibility-and-ie8) для объекта куррентстиле возвращают свое начальное значение.
--   [Значения неуказанных свойств](/archive/blogs/ie/site-compatibility-and-ie8) объекта стиля объекта куррентстиле возвращают пустую строку (например, в меню ASP.NET и в записи блога об [белой ошибке визуализации IE8](/archive/blogs/giorgio/) ).
+-   [значения неуказанных свойств](/archive/blogs/ie/site-compatibility-and-ie8) объекта стиля объекта куррентстиле возвращают пустую строку (например, в меню ASP.NET и в записи блога об [белой ошибке визуализации IE8](/archive/blogs/giorgio/) ).
 
 <!-- -->
 
@@ -79,7 +79,7 @@ $ {REMOVE} $
 <!-- -->
 
 -   Обход [окна. средство открытия](/previous-versions/aa740486(v=msdn.10)) в окне запроса. Close не разрешен.
--   [Защита кэширования объектов](/previous-versions/windows/internet-explorer/ie-developer/) включена по умолчанию, что блокирует доступ к ссылкам на объекты, когда пользователи обращаются к новому домену (применяется к Internet Explorer 6 и более поздним версиям в Windows XP с пакетом обновления 2 (SP2) и более поздних версий).
+-   [защита кэширования объектов](/previous-versions/windows/internet-explorer/ie-developer/) включена по умолчанию, что блокирует доступ к ссылкам на объекты, когда пользователи обращаются к новому домену (применяется к Internet Explorer 6 и более поздним версиям в Windows XP с пакетом обновления 2 (SP2) и более поздних версий).
 -   [Сценарии DHTML](/previous-versions/windows/internet-explorer/ie-developer/) по умолчанию отключены.
 -   [Скрипты, записывающие в строку состояния](/previous-versions/windows/internet-explorer/ie-developer/) , блокируются.
 -   [Создание URL-адреса может завершиться ошибкой](/previous-versions/windows/internet-explorer/ie-developer/) , если URL-адреса не соответствуют рекомендациям RFC.
@@ -98,9 +98,9 @@ $ {REMOVE} $
 -   [Элемент управления отправка файла](/archive/blogs/ie/) отправляет на сервер только путь к файлу, а не полный путь.
 -   Выполнение HTML-кода или скрипта, доставляемого с помощью [ \* типа MIME "Image/"](/archive/blogs/ie/) , заблокировано.
 -   При [навигации по кадру верхнего уровня](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565638(v=vs.85)) на сайт в другом контексте безопасности открывается новое окно или вкладка, а не выполняется Навигация в существующем фрейме.
--   Сценарий в кодировке [UTF-7](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85)) принудительно преобразуется в формат Windows-1252, что может привести к отрисовке обычного текста.
+-   скрипт в кодировке [UTF-7](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565635(v=vs.85)) принудительно передается в кодировку Windows-1252, что может привести к отрисовке обычного текста.
 -   На [страницах смешанного режима HTTP/HTTPS](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0) отображается диалоговое окно, по умолчанию отображающее только безопасные элементы (а не предыдущее небезопасное по умолчанию). Пользователи могут по ошибке [выбрать блокировку элементов HTTP](/archive/blogs/askie/mixed-content-and-internet-explorer-8-0), таких как изображения ключей.
--   [DEP/NX включен по умолчанию](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx), который блокирует определенные надстройки (то есть элементы управления ActiveX и COM-объекты), созданные с помощью более старых версий ATL, из кода, который помечен как "не исполняемый" в памяти.
+-   [DEP/NX включен по умолчанию](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#depnx), который блокирует определенные надстройки (т. е. ActiveX элементы управления и COM-объекты), созданные с помощью более старых версий ATL, из кода, помеченного как "не исполняемый" в памяти.
 -   [Содержимое, возвращаемое веб-прокси](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565641(v=vs.85)) , блокируется, если в ответ на запрос подключения к исходному серверу не установлен туннель SSL.
 
 Изменения архитектуры
@@ -109,12 +109,12 @@ $ {REMOVE} $
 
 <!-- -->
 
--   [Защищенный режим](/previous-versions/windows/internet-explorer/ie-developer/) включен по умолчанию для [зон Интернета, интрасети и ограниченных сайтов](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85)). Этот режим [блокирует расширения браузера, которые могут представлять угрозу безопасности](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85)) от запуска и [более низкого уровня прав доступа к процессам с более высоким уровнем привилегий](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85)), таким как меню "Пуск", панель управления и реестр Microsoft Windows (применяется к Internet Explorer 7 и более поздним версиям в Windows Vista и более поздних версиях).
+-   [Защищенный режим](/previous-versions/windows/internet-explorer/ie-developer/) включен по умолчанию для [зон Интернета, интрасети и ограниченных сайтов](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537187(v=vs.85)). этот режим [блокирует расширения браузера, которые могут представлять угрозу безопасности](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565645(v=vs.85)) от запуска и [более низкого уровня прав доступа к процессам с более высоким уровнем привилегий](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565646(v=vs.85)), таким как меню, панель управления и реестр Microsoft Windows (применяется к Internet Explorer 7 и более поздним версиям в Windows Vista и более поздних версиях).
 
 <!-- -->
 
 -   [Обновление защищенного режима](/previous-versions/windows/internet-explorer/ie-developer/compatibility/dd565648(v=vs.85)): интрасеть работает на среднем (а не на низком) уровне целостности по умолчанию.
--   [Слабо связанный Internet Explorer](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie) может блокировать надстройки (то есть элементы ActiveX и COM-объекты), которые выполняют одно из следующих действий:
+-   [слабо связанный Internet Explorer](https://www.microsoft.com/windows/internet-explorer/readiness/developers-existing.aspx#lcie) может блокировать надстройки (то есть ActiveX элементы управления и COM-объекты), которые выполняют одно из следующих действий:
     -   Используйте методы иерархии Windows для наведения фрейма пользовательского интерфейса и окон вкладок (которые теперь выполняются в отдельных процессах на разных уровнях целостности).
     -   Создайте подкласс фрейма пользовательского интерфейса (теперь на среднем уровне целостности) из процесса вкладки с низкой целостностью.
     -   Используйте неподдерживаемые методы обмена сообщениями между рамкой пользовательского интерфейса и вкладками.
@@ -123,7 +123,7 @@ $ {REMOVE} $
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

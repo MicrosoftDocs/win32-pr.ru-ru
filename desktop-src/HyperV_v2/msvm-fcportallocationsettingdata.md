@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 824f7077eeb3cb9e00ce8733cb5d2f57761716e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cae27c18aa83878152ac006bf57911258d8d8980befd72becff19c7e2343e797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681364"
 ---
 # <a name="msvm_fcportallocationsettingdata-class"></a>\_Класс мсвм фкпорталлокатионсеттингдата
 
@@ -87,7 +87,7 @@ class Msvm_FcPortAllocationSettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ фкпорталлокатионсеттингдата** имеет следующие свойства.
 
@@ -158,7 +158,7 @@ class Msvm_FcPortAllocationSettingData : CIM_ResourceAllocationSettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -423,7 +423,7 @@ class Msvm_FcPortAllocationSettingData : CIM_ResourceAllocationSettingData
 <span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Графический контроллер** (20)
 </dt> <dt>
 
-<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Область хранения** (21)
+<span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**экстент служба хранилища** (21)
 </dt> <dt>
 
 <span id="Disk"></span><span id="disk"></span><span id="DISK"></span>**Диск** (22)
@@ -499,14 +499,14 @@ class Msvm_FcPortAllocationSettingData : CIM_ResourceAllocationSettingData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

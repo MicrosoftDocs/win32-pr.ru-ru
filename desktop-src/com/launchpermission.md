@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Лаунчпермиссион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e4c50568cae791f08b47fc44e10cc0d35fef07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5967ee63288b11edca017820b9a367dd4e6c017e993330616e633e7448a098b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119756104"
 ---
 # <a name="launchpermission"></a>лаунчпермиссион
 
@@ -21,30 +21,30 @@ ms.locfileid: "104068625"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      LaunchPermission = ACL
+   {AppID_GUID}
+      LaunchPermission = ACL
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это **\_ двоичное значение reg** . После получения локального или удаленного запроса на запуск сервера этого класса список ACL, описываемый этим значением, проверяется при олицетворении клиента, и его успешное выполнение либо разрешает, либо запрещает запуск сервера. Если это значение не существует, значение [**дефаултлаунчпермиссион**](defaultlaunchpermission.md) проверяется таким же образом, чтобы определить, можно ли запустить код класса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity)
 </dt> <dt>
 
-[**дефаултлаунчпермиссион**](defaultlaunchpermission.md)
+[**DefaultLaunchPermission**](defaultlaunchpermission.md)
 </dt> <dt>
 
 [Безопасность в COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

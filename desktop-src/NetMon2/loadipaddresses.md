@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 4a5c172117081777b2a89b875401ec0645dd643e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f56517fd0caf4762be2848ac9a6f3094ed5e3194b2eb84123bf2fcc2bf67bcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742674"
 ---
 # <a name="loadipaddresses-function"></a>Функция Лоадипаддрессес
 
@@ -76,7 +76,7 @@ BOOL LoadIPAddresses(
 
 Если функция завершается неудачно, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 IP-адреса должны быть в формате x. x. x. x (например, 127.0.0.1).
 

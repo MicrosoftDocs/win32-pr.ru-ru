@@ -3,7 +3,7 @@ title: Сообщение LB_GETHORIZONTALEXTENT (Winuser. h)
 description: Возвращает ширину (в пикселях), с которой окно списка можно прокручивать горизонтально (прокручиваемую ширину), если в списке есть горизонтальная полоса прокрутки.
 ms.assetid: 52461724-c06a-436a-ac95-94c5189ba37e
 keywords:
-- Элементы управления Windows для LB_GETHORIZONTALEXTENT сообщений
+- элементы управления Windows сообщений LB_GETHORIZONTALEXTENT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf10f4f216e0c00fba256c1373fb9aae4f2a4ac7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01f754b62ad0f51a236662fdfba2304221d58e1288e2756c0330343c63a0699e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799514"
 ---
 # <a name="lb_gethorizontalextent-message"></a>Сообщение жесоризонталекстент балансировки нагрузки \_
 
@@ -47,7 +47,7 @@ ms.locfileid: "103989293"
 
 Возвращаемое значение — это прокручиваемая ширина (в пикселях) поля со списком.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы ответить на сообщение **\_ жесоризонталекстент балансировки нагрузки** , список должен быть определен с помощью стиля [**WS \_ HSCROLL**](/windows/desktop/winmsg/window-styles) .
 
@@ -59,9 +59,9 @@ ms.locfileid: "103989293"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

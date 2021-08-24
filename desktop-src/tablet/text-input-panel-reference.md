@@ -4,18 +4,18 @@ ms.assetid: 867f2d6f-e63a-4c02-9370-3848a3b5c40a
 title: Справочник по панели ввода текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9b8fb2077189e3034602c3463e32aa92e80ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dc44c6dba4dc881c3cf705dbdd101be621c23b8df3007bac36a76085271574b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819914"
 ---
 # <a name="text-input-panel-reference"></a>Справочник по панели ввода текста
 
 Предоставляет доступ к программируемым функциям панели ввода Tablet PC.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [Сообщения на панели ввода текста](tip-messages.md)
 -   [Перечисления на панели ввода текста](text-input-panel-enumerations.md)
@@ -27,13 +27,13 @@ ms.locfileid: "105683866"
 
 Для создания экземпляров этих интерфейсов можно вызвать метод [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейсы и перечисления панели ввода текста используются для управления внешним видом и поведением панели ввода.
 
 Эти элементы объявляются в Пенинпутпанел. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

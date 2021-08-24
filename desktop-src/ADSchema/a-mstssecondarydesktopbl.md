@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9486aed4897566886722d9f06253cc111be0a4f8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 630c7c4f917dc5b9bef36b6da72aae7d41e4a918dcf60427edd5e9b36eb69fc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119760904"
 ---
 # <a name="ms-ts-secondary-desktop-bl-attribute"></a>атрибут MS-TS-Secondary-Desktop-BL
 
@@ -43,7 +43,7 @@ ms.locfileid: "105656762"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,10 +53,10 @@ ms.locfileid: "105656762"
 |------------------------|-------------------------------------------|
 | Идентификатор ссылки                | 2173                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | True                                      |
-| Является однозначным       | Неверно                                     |
-| Индексируется             | Неверно                                     |
-| В глобальном каталоге      | Неверно                                     |
+| System-Only            | Верно                                      |
+| Является однозначным       | Нет                                     |
+| Индексируется             | Нет                                     |
+| В глобальном каталоге      | Нет                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                              |
 | Range-Lower            | \-                                        |
 | Range-Upper            | \-                                        |
@@ -74,10 +74,10 @@ ms.locfileid: "105656762"
 |------------------------|-------------------------------------------|
 | Идентификатор ссылки                | 2173                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | True                                      |
-| Является однозначным       | Неверно                                     |
-| Индексируется             | Неверно                                     |
-| В глобальном каталоге      | Неверно                                     |
+| System-Only            | Верно                                      |
+| Является однозначным       | Нет                                     |
+| Индексируется             | Нет                                     |
+| В глобальном каталоге      | Нет                                     |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                              |
 | Range-Lower            | \-                                        |
 | Range-Upper            | \-                                        |

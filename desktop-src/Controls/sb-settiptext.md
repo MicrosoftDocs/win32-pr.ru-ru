@@ -3,7 +3,7 @@ title: Сообщение SB_SETTIPTEXT (Коммктрл. h)
 description: Задает текст подсказки для части в строке состояния. Чтобы включить подсказки, строка состояния должна быть создана с помощью \_ стиля подсказок SBT.
 ms.assetid: 8fc3cc00-9742-4861-b2c2-b8aa30f75aaa
 keywords:
-- Элементы управления Windows для SB_SETTIPTEXT сообщений
+- элементы управления Windows сообщений SB_SETTIPTEXT
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52d5ddb3f4fdfe18525e2b444438295f8a926180
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 864ba53066b000f9f7ae65365341238a701b4e70bc4ce8cc70adba923d57a5f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637024"
 ---
 # <a name="sb_settiptext-message"></a>\_Сообщение SB сеттиптекст
 
@@ -49,7 +49,7 @@ ms.locfileid: "104491988"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот текст подсказки отображается в двух ситуациях:
 
@@ -62,9 +62,9 @@ ms.locfileid: "104491988"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **SB \_ СЕТТИПТЕКСТВ** (Юникод) и **SB \_ сеттиптекста** (ANSI)<br/>               |
 
 

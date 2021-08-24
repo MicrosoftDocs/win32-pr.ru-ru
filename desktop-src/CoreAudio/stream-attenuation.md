@@ -4,12 +4,12 @@ ms.assetid: 2ad9482f-1888-4f19-bc41-9d47a8e0ed15
 title: Интерфейс Дуккинг по умолчанию
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d81aa22254ab33ee7396fd4a22d83cc7f5a58041
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec323bdaf01a7bba0821a9dee2c349239b3a53660334d2ac57edbf71287f396d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695023"
 ---
 # <a name="default-ducking-experience"></a>Интерфейс Дуккинг по умолчанию
 
@@ -23,7 +23,7 @@ ms.locfileid: "103807547"
 
 Приложение может переопределить затухание в потоке и реализовать пользовательский интерфейс дуккинг, если он знает, когда начинается и заканчивается сеанс связи. Дополнительные сведения см. [в разделе предоставление настраиваемого поведения дуккинг](providing-a-custom-ducking-experience.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

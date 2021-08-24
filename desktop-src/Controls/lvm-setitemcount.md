@@ -3,7 +3,7 @@ title: Сообщение LVM_SETITEMCOUNT (Коммктрл. h)
 description: Заставляет элемент управления "представление списка" выделить память для указанного числа элементов или задать виртуальное количество элементов в элементе управления виртуального представления списка.
 ms.assetid: 5e794c12-ddcb-44fc-b0d2-677352602503
 keywords:
-- Элементы управления Windows для LVM_SETITEMCOUNT сообщений
+- элементы управления Windows сообщений LVM_SETITEMCOUNT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e390e7ae5913053f91f7f2f8d197af1cf4b7a40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be6b35b38c65663d9811a27341cf10d668a9e045641a8ff0871f6b49fe8bcdbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656284"
 ---
 # <a name="lvm_setitemcount-message"></a>\_Сообщение LVM сетитемкаунт
 
@@ -58,7 +58,7 @@ ms.locfileid: "104135462"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Распределение памяти зависит от способа создания элемента управления "представление списка". Это сообщение можно отправить явным образом или использовать макросы [**ListView \_ Сетитемкаунт**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcount) или [**ListView \_ сетитемкаунтекс**](/windows/desktop/api/Commctrl/nf-commctrl-listview_setitemcountex) . Дополнительные сведения см. в статье [стиль виртуальных List-View](/windows/desktop/Controls/list-view-controls-overview).
 
@@ -70,15 +70,15 @@ ms.locfileid: "104135462"
 
 Если представление "список общих элементов управления" является виртуализированным представлением списка ([**LVS \_ овнердата**](list-view-window-styles.md)), то в списке отображается ограничение в 100 000 000 элементов. В этом сценарии **LVM \_ сетитемкаунт** возвращает значение false, если оно имеет *wParam* 100 000 001.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

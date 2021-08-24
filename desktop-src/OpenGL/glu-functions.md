@@ -9,12 +9,12 @@ keywords:
 - Служебная программа OpenGL (GLU), функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae3ece873f4e1e015861f597c0d51ebfc3436de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2e4483b364d2d67daff0bbc04b9a30cd7cdb3059f3977f763b247f77be74d62f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777704"
 ---
 # <a name="glu-functions"></a>Функции GLU
 
@@ -53,7 +53,7 @@ ms.locfileid: "104410819"
 | [**глупартиалдиск**](glupartialdisk.md)                                                           | Рисует дугу диска.                                                                                  |
 | [**глуперспективе**](gluperspective.md)                                                           | Настраивает матрицу перспективной проекции.                                                                 |
 | [**глупиккматрикс**](glupickmatrix.md)                                                             | Определяет регион комплектации.                                                                                |
-| [**глупрожект**](gluproject.md)                                                                   | Сопоставляет координаты объектов с координатами окна.                                                           |
+| [**глупрожект**](gluproject.md)                                                                   | Карты координаты объекта в координаты окна.                                                           |
 | [**глупвлкурве**](glupwlcurve.md)                                                                 | Описывает кривую кусочно-линейной НУРБС.                                                       |
 | [*глукуадриккаллбакк*](gluquadric.md)                                                             | Определяет обратный вызов для объекта куадрик.                                                                 |
 | [**глукуадрикдравстиле**](gluquadricdrawstyle.md)                                                 | Задает стиль рисования, требуемый для куадрикс.                                                           |
@@ -68,15 +68,15 @@ ms.locfileid: "104410819"
 | [**глутесснормал**](glutessnormal.md)                                                             | Задает нормальный для многоугольника.                                                                        |
 | [**глутесспроперти**](glutessproperty.md)                                                         | Задает свойство объекта тесселяции.                                                              |
 | [**глутессвертекс**](glutessvertex.md)                                                             | Задает вершину многоугольника.                                                                         |
-| [**глуунпрожект**](gluunproject.md)                                                               | Сопоставляет координаты окна с координатами объекта.                                                           |
+| [**глуунпрожект**](gluunproject.md)                                                               | Карты оконные координаты в объектные координаты.                                                           |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

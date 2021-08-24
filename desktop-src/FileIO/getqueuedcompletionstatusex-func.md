@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: d45471cc066e6de7cb388036e06e727fe828a532
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f81bc0c997e3637fa941cb5a23f6394ba1f585566c8d633cadb00c9fd75ac805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696124"
 ---
 # <a name="getqueuedcompletionstatusex-function"></a>Функция Жеткуеуедкомплетионстатусекс
 
@@ -123,7 +123,7 @@ BOOL WINAPI GetQueuedCompletionStatusEx(
 
 Дополнительные сведения о теории портов завершения ввода-вывода, использовании и связанных функциях см. в разделе [порты завершения ввода-вывода](i-o-completion-ports.md).
 
-В Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
+в Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
 
 
 
@@ -139,21 +139,21 @@ BOOL WINAPI GetQueuedCompletionStatusEx(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                                                                                                                                                                                                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                                                                                                                                                                                                             |
-| Header<br/>                   | <dl> <dt>Иоапи. h (включение Windows. h); </dt> <dt>Винбасе. h в Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                                                                                                                                                                                                                   |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                                                                                                                                                                                                             |
+| Заголовок<br/>                   | <dl> <dt>иоапи. h (включает Windows. h);</dt> <dt>винбасе. h на Windows server 2008 R2, Windows 7, Windows Server 2008 и Windows Vista (включая Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -166,7 +166,7 @@ BOOL WINAPI GetQueuedCompletionStatusEx(
 [Порты завершения ввода-вывода](i-o-completion-ports.md)
 </dt> <dt>
 
-[Использование заголовков Windows](/windows/desktop/WinProg/using-the-windows-headers)
+[использование заголовков Windows](/windows/desktop/WinProg/using-the-windows-headers)
 </dt> <dt>
 
 **Функции**

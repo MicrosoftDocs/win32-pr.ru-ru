@@ -4,16 +4,16 @@ description: Функции списка изображений
 ms.assetid: b5754633-f673-414e-9e0b-3f6f211ecd2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3e877e4f264aa9c0440b183a2c528592b6ccee
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9c171b6729f3cfe3e306f90f964b72e2cb80b78c17fef3d2f0a78078915354aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800364"
 ---
 # <a name="image-list-functions"></a>Функции списка изображений
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**ХИМАЖЕЛИСТ \_ QueryInterface**](/windows/desktop/api/Commctrl/nf-commctrl-himagelist_queryinterface)
 -   [**\_Добавление ImageList**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_add)

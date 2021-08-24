@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1f307ecd4fa523cc28881164869dca3329dfd698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e200fa4969dc376661bd32851296d80c74120939afc995754cb2937ea04be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820234"
 ---
 # <a name="iconreference-element-library-schema"></a>Элемент Иконреференце (схема библиотеки)
 
@@ -42,11 +42,11 @@ ms.locfileid: "104997442"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Ссылка на значок должна быть указана в форме, подходящей для функции [**паспарсеиконлокатион**](/windows/desktop/api/Shlwapi/nf-shlwapi-pathparseiconlocationa) . Например: `ModuleFileName,IconResourceIndex`.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

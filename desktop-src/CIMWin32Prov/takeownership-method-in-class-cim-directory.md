@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 12c328f30e56db348b018b73b02aa4320bf99505
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7f994c858b9a2817ac89a5d5c6db794e054652fb2a57c69404030074ad14cd45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800754"
 ---
 # <a name="takeownership-method-of-the-cim_directory-class"></a>Метод Такеовнершип \_ класса каталога CIM
 
@@ -61,7 +61,7 @@ uint32 TakeOwnerShip();
 **2**
 </dt> <dd>
 
-Access denied. (Недопустимое значение {значение_утверждения} для утверждения {имя_утверждения}. Доступ запрещен.)
+Доступ запрещен.
 
 </dd> <dt>
 
@@ -96,7 +96,7 @@ Access denied. (Недопустимое значение {значение_ут
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ Access denied. (Недопустимое значение {значение_ут
 
 ## <a name="examples"></a>Примеры
 
-Следующий код скрипта Visual Basic вызывает метод **такеовнершип** , чтобы стать владельцем папки C: \\ TEMP.
+следующий код скрипта Visual Basic вызывает метод **такеовнершип** , чтобы стать владельцем папки C: \\ temp.
 
 
 ```VB
@@ -173,7 +173,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
