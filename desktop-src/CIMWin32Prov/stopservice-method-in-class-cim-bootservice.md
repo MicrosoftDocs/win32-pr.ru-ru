@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c054a9d05410ddbe7ee7d11c5bd4adba9e0ce83b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b5c580e847146cb2c3d0ccdaadf3a6755937a7c7935f13598e94f1fcf26ac44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752284"
 ---
 # <a name="stopservice-method-of-the-cim_bootservice-class"></a>Метод «начало» \_ класса CIM бутсервице
 
@@ -49,7 +49,7 @@ Integer StopService();
 
 Возвращает значение 0 (нуль) при успешном выполнении, 1 (один), если запрос не поддерживается, и любое другое число для указания ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -64,7 +64,7 @@ Integer StopService();
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Сдоиас. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 

@@ -33,12 +33,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f87db04d61dda0c6034b536544362ec09e0aaa66
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 28830e44fd54e9246cb0affc5fdde1427673d92e843adfd3e1e19cd221af370e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769054"
 ---
 # <a name="win32_tsvirtualip-class"></a>\_Класс Win32 тсвиртуалип
 
@@ -93,7 +93,7 @@ class Win32_TSVirtualIP : CIM_Setting
 | [**сетпрограмлист**](setprogramlist-win32-tsvirtualip.md)                                               | Перезаписывает список программ, использующих виртуализацию IP.<br/>                                                                                                       |
 | [**сетвиртуалипактиве**](setvirtualipactive-win32-tsvirtualip.md)                                       | Задает значение свойства **виртуалипактиве** .<br/>                                                                                                                      |
 | [**сетвиртуалипмоде**](setvirtualipmode-win32-tsvirtualip.md)                                           | Задает значение свойства **виртуалипмоде** .<br/>                                                                                                                        |
-| [**сетвиртуализелупбаккаддрессесенаблед**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | Задает значение свойства **виртуализелупбаккаддрессесенаблед** .<br/> **Windows Server 2008 R2:** Этот метод недоступен до выхода Windows Server 2012.<br/> |
+| [**сетвиртуализелупбаккаддрессесенаблед**](setvirtualizeloopbackaddressesenabled-win32-tsvirtualip.md) | Задает значение свойства **виртуализелупбаккаддрессесенаблед** .<br/> **Windows Server 2008 R2:** Этот метод недоступен до Windows Server 2012.<br/> |
 
 
 
@@ -105,7 +105,7 @@ class Win32_TSVirtualIP : CIM_Setting
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -156,7 +156,7 @@ class Win32_TSVirtualIP : CIM_Setting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -544,9 +544,9 @@ MAC-адрес сетевого адаптера.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Требования
 

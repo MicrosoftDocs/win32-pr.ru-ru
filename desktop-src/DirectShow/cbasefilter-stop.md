@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b4c4893edcf02fa18da3dc207a49f87c91b2a9ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 659ad34c01ca6c74a24f6bbf5f5bef42df46f94f06b7e03541f9caf3398b39e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768194"
 ---
 # <a name="cbasefilterstop-method"></a>Кбасефилтер. останавливаться, метод
 
@@ -44,24 +44,24 @@ HRESULT Stop();
 
 Возвращает \_ значение ОК в случае успешного выполнения или **HRESULT** , указывающий на причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кбасепин:: Inactive**](cbasepin-inactive.md) для каждого подключенного контакта фильтра. Он также устанавливает состояние фильтра в состояние \_ остановлено.
 
 Когда фильтр останавливается, он должен отклонять выборки из вышестоящего, прекращать доставку образцов, завершать рабочие потоки и освобождать все ресурсы, используемые для потоковой передачи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

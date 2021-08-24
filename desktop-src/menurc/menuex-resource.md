@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ed379fb97d2795a166571fb48cde2c233021a33
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ec78bd0d33b48b11de77fe7742affb4265160752ffad30d72ecf3e9c173bb77c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825944"
 ---
 # <a name="menuex-resource"></a>Ресурс МЕНУЕКС
 
@@ -122,7 +122,7 @@ menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] |
 
 Для обратной совместимости также поддерживаются некоторые атрибуты. Дополнительные сведения см. в разделе [Общие атрибуты ресурсов](common-resource-attributes.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Допустимые арифметические и логические операции, которые могут содержаться в любом из числовых выражений в инструкциях **менуекс** , приведены ниже.
 
@@ -133,7 +133,7 @@ menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] |
 -   И (' & ')
 -   ИЛИ (' \| ')
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -167,7 +167,7 @@ menuID MENUEX{ [{[MENUITEM itemText [,[id][, [type][, state]]]] |
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Версия**](version-statement.md)
+[**ВЕРСИЯ**](version-statement.md)
 </dt> </dl>
 
  

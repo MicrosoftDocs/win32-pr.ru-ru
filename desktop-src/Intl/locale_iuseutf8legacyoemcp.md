@@ -4,13 +4,13 @@ ms.assetid: 41efe160-8f0e-4fb8-b819-6eb9853dba4b
 title: LOCALE_IUSEUTF8LEGACYOEMCP
 ms.topic: article
 ms.date: 03/02/2020
-ms.openlocfilehash: 37ca33bd30dff12833ec2b353d297130a88d2469
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adc888310c29305885f85bad12f68f7d24b1c3e284413c1cc7a484e3572943bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788684"
 ---
 # <a name="locale_iuseutf8legacyoemcp"></a>IUSEUTF8LEGACYOEMCP ЛОКАЛи \_
 
-**Начиная со следующей версии Windows:** Вместо этого рекомендуется использовать Юникод в приложениях. На компьютерах, где пользователь настроен для использования кодовой страницы UTF-8, LOCALE_IUSEUTF8LEGACYOEMCP является устаревшей кодовой страницей OEM, которая была бы использована на нестандартном компьютере Windows, отличном от UTF-8.
+**Начиная со следующей версии Windows:** Вместо этого рекомендуется использовать Юникод в приложениях. на компьютерах, где пользователь настроен для использования кодовой страницы UTF-8, LOCALE_IUSEUTF8LEGACYOEMCP является устаревшей кодовой страницей OEM, которая была бы использована на компьютере без кодировки utf-8 legacy Windows.

@@ -1,7 +1,7 @@
 ---
 description: Фильтр модуля подготовки MIDI отрисовывает данные MIDI из фильтра средства синтаксического анализа MIDI.
 ms.assetid: 2675a21d-41d0-4095-96c4-f12f52c00d5a
-title: Фильтр модуля подготовки MIDI (Windows. Devices. MIDI. h)
+title: фильтр модуля подготовки MIDI (Windows. devices. midi. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.devices.midi.h
-ms.openlocfilehash: 5fa27ceda0c249f88f4684979382495167cb9238
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3727fb322e03338723eb3c9da1ac86d4e6a7145424cb04b0c050b67f83aa141a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791454"
 ---
 # <a name="midi-renderer-filter"></a>Фильтр модуля подготовки MIDI
 
@@ -43,7 +43,7 @@ ms.locfileid: "107909412"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 GUID для типа формата имеет **значение NULL**, но блок форматирования содержит следующую структуру:
 
@@ -67,7 +67,7 @@ typedef struct _MIDIFORMAT {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------------|
-| Заголовок<br/> | <dl> <dt>Windows. Devices. MIDI. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Windows. devices. midi. h</dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ typedef struct _MIDIFORMAT {
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

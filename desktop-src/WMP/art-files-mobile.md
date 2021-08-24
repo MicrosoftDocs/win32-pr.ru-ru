@@ -3,19 +3,19 @@ title: Графические файлы (мобильные)
 description: Графические файлы (мобильные)
 ms.assetid: 90393c3c-7952-4f77-96f6-0a0541bded9e
 keywords:
-- Обложки Windows Media Player для мобильных устройств, графические файлы
+- проигрыватель Windows Media Обложки для мобильных устройств, графические файлы
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложки, о
-- графические файлы для обложки, проигрыватель Windows Media Mobile
+- графические файлы для обложек, проигрыватель Windows Media Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b84ad1e78a18b84e8836e3a1c3324702945a7fd9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9c88dbe11b93314274df2efe6ce1ecc12803963b265b459d7766313c6dc7b902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104262171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865003"
 ---
 # <a name="art-files-mobile"></a>Графические файлы (мобильные)
 
@@ -48,7 +48,7 @@ ms.locfileid: "104262171"
 
 Дополнительные сведения о типах графических файлов и способах их определения в файле определения обложки см. в разделе [точечные рисунки](bitmaps.md) справочника по обложкам.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e42be975b7764039bec603928ef5a27bc38997b9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2657e4af4382d947707c5bd50b8d30e9fe2026301de5c98d906558abf9bcdc23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751374"
 ---
 # <a name="setpowerstate-method-of-the-win32_diskpartition-class"></a>Метод SetPowerState \_ класса Win32 дискпартитион
 
@@ -106,7 +106,7 @@ uint32 SetPowerState(
 
 Возвращает 0 (нуль) в случае успеха, 1 (один), если *указанный запрос* о сбое и *время* не поддерживаются, и другое значение, если произошла какая-либо другая ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

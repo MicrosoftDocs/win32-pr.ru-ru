@@ -4,17 +4,17 @@ ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: Оборудование МФТС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac5ce05b4fdad6040b51f66f543c1737fc3918d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 532fef959e2c2b5946d5a27ad98106a2e25cc77f8426c0a871e821c7298a69f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724941"
 ---
 # <a name="hardware-mfts"></a>Оборудование МФТС
 
 > [!Note]  
-> Этот раздел относится к Windows 7 или более поздним версиям.
+> этот раздел относится к Windows 7 и более поздних версий.
 
  
 
@@ -25,14 +25,14 @@ ms.locfileid: "104263445"
 
  
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Введение](#introduction)
 -   [Атрибуты оборудования MFT](#hardware-mft-attributes)
 -   [Последовательность подтверждения оборудования](#hardware-handshake-sequence)
 -   [Обработка данных](#data-processing)
 -   [Парный декодер и кодировщик](#paired-decoderencoder)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -139,7 +139,7 @@ ms.locfileid: "104263445"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

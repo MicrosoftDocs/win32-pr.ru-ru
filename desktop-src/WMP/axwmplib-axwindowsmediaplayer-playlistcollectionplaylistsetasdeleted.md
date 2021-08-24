@@ -3,7 +3,7 @@ title: Событие Плайлистколлектионплайлистсет
 description: Событие Плайлистколлектионплайлистсетасделетед зарезервировано для будущего использования.
 ms.assetid: 6c0a4d2c-e965-4a88-acd4-2a2a12265e36
 keywords:
-- Событие Плайлистколлектионплайлистсетасделетед в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие плайлистколлектионплайлистсетасделетед объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf432ede40298abed98cdf0c5b02b0a192f7b3a9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b11187ffaf6e16612ba7edb573e0b0bc71e9d2abf44ee509db2404026e3ed570
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864583"
 ---
 # <a name="playlistcollectionplaylistsetasdeleted-event-of-the-axwindowsmediaplayer-object"></a>Событие Плайлистколлектионплайлистсетасделетед объекта Аксвиндовсмедиаплайер
 
@@ -54,23 +54,23 @@ Private Sub player_PlaylistCollectionPlaylistSetAsDeleted(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие зарезервировано для будущего использования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                          |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

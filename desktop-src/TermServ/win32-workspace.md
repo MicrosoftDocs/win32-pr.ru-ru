@@ -25,12 +25,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1153a4eb8a260e539845a9458a5c8cee4581d30
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07a826200fbfab7ff99705447cb6394b858e2ce744458f04ae1d08082e0f40e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768914"
 ---
 # <a name="win32_workspace-class"></a>\_Класс рабочей области Win32
 
@@ -62,13 +62,13 @@ class Win32_Workspace : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ рабочей области Win32** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -145,7 +145,7 @@ class Win32_Workspace : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -268,7 +268,7 @@ class Win32_Workspace : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

@@ -3,7 +3,7 @@ title: КНОПКА. Дисабледимаже
 description: Атрибут Дисабледимаже указывает или получает изображение, отображаемое при отключенной КНОПКе.
 ms.assetid: b5654323-589a-45da-9534-6fa67c3a4c4b
 keywords:
-- КНОПКА. Дисабледимаже Windows Media Player
+- кнопка. дисабледимаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eac407f6e7fbdd155f4bcabe98cecc0546f7d97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78c3768afd8b1356a1c0ca67a43f951e19143258dfc4f27a3a5e9d861fe9e930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864484"
 ---
 # <a name="buttondisabledimage"></a>КНОПКА. Дисабледимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694522"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поддерживаются форматы изображений BMP, JPG, PNG и GIF.
 
@@ -39,17 +39,17 @@ ms.locfileid: "105694522"
 
 Если изображение не может быть получено, отображается изображение по умолчанию (изображение Красного x).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

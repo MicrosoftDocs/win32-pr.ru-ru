@@ -4,16 +4,16 @@ description: Константы WFP
 ms.assetid: a9a343a1-1c7a-4441-b300-9b714d234453
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ad65fc292508b559a0073a308c9c552f5333a4b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e5695e75570a014b4b626c8fe76aa6fb74c2629ad8c846fbe5f05a1a9a6ec7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766594"
 ---
 # <a name="wfp-constants"></a>Константы WFP
 
-В этом разделе описываются константы, предоставляемые API платформы фильтрации Windows (WFP).
+в этом разделе описываются константы, предоставляемые API платформы фильтрации Windows (WFP).
 
 -   [**Идентификаторы прав доступа**](access-right-identifiers.md)
 -   [**Встроенные идентификаторы выноски**](built-in-callout-identifiers.md)
@@ -27,9 +27,9 @@ ms.locfileid: "103774012"
 -   [**Фильтрация Sub-Layer идентификаторов**](management-filtering-sublayer-identifiers.md)
 -   [**Коды ошибок WFP**](wfp-error-codes.md)
 
- 
+ 
 
- 
+ 
 
 
 

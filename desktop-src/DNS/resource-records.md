@@ -4,12 +4,12 @@ description: Сведения о записях ресурсов. Запись �
 ms.assetid: c64907c2-ebd3-4550-9454-13f51a6d7ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a84bd000e2d88884bbb387748eaced1d0d58a324
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 606d74f41e18fefa144ff21d3ed88d9683938304b0c8aa0bc7d94e2fbaa624cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825064"
 ---
 # <a name="resource-records"></a>Записи ресурсов
 
@@ -36,7 +36,7 @@ microsoft.com. 600 IN A 150.150.150.1
 -   IPv6-адрес (AAAA)
 -   Обмен почтой (MX)
 -   [*Каноническое имя*](c-gly.md) (CNAME)
--   Windows Internet Служба именования (WINS)
+-   Windows Интернет-Служба именования (WINS)
 -   Обратный просмотр WINS (WINSR)
 
 В DNS существует много других типов записей ресурсов. Дополнительные сведения см. в [справочнике по поставщику WMI DNS](dns-wmi-provider-reference.md).

@@ -4,12 +4,12 @@ ms.assetid: 6a4af345-6d33-40c6-8368-5aff03016952
 title: System. Identity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4118f00ffd3acc7baf1c6481e70b908b5b6eb37
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6a96c155e36ebbe20573dd23a5d5f461f5ab8c1840173aa310b59d34f949cf0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844734"
 ---
 # <a name="systemidentity"></a>System. Identity
 
@@ -32,7 +32,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

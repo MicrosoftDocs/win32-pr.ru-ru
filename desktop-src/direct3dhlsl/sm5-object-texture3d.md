@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50b12f2184f6eca0fd7a68feb3e96d8d6fc65a61
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7b5c715f5f2bb7edfaa149cf0da77db5fbca8d47636b6f84fd07071c3b75186e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788324"
 ---
 # <a name="texture3d"></a>Texture3D
 
@@ -32,14 +32,14 @@ ms.locfileid: "104068882"
 | [**Загрузить**](texture3d-load.md)                                          | Считывает данные текстуры.                                                                        |
 | [**MIPS. Станции\[\]\[\]**](sm5-object-texture3d-mipsoperatorindex.md) | Возвращает переменную ресурса, доступную только для чтения.                                                        |
 | [**Оператор\[\]**](sm5-object-texture3d-operatorindex.md)              | Возвращает переменную ресурса, доступную только для чтения.                                                        |
-| [**Пример**](texture3d-sample.md)                                      | Выбор текстуры.                                                                         |
+| [**Следующий**](texture3d-sample.md)                                      | Выбор текстуры.                                                                         |
 | [**самплебиас**](texture3d-samplebias.md)                              | Выбор текстуры после применения значения смещения к уровню mipmap.                      |
 | [**самплеград**](texture3d-samplegrad.md)                              | Выбор текстуры с помощью градиента, чтобы повлиять на способ вычисления расположения образца. |
 | [**SampleLevel**](texture3d-samplelevel.md)                            | Выбирает текстуру на указанном уровне mipmap.                                           |
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -49,11 +49,11 @@ ms.locfileid: "104068882"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Этот объект поддерживается для следующих типов шейдеров:
 
@@ -65,7 +65,7 @@ ms.locfileid: "104068882"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -74,9 +74,9 @@ ms.locfileid: "104068882"
 [Объекты модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

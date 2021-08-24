@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6d4eb221ef6a9ce46d2017773e215c6525e4e7b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cef653779d2226e2d7a0451ccbbc2b9d09de0b958f5d6185c76c1341f5d9e7f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790204"
 ---
 # <a name="msvm_batterysettingdata-class"></a>\_Класс мсвм баттерисеттингдата
 
@@ -39,13 +39,13 @@ class Msvm_BatterySettingData : CIM_ResourceAllocationSettingData
 
 Класс **мсвм \_ баттерисеттингдата** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1709\]<br/>                                               |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1709\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -53,7 +53,7 @@ class Msvm_BatterySettingData : CIM_ResourceAllocationSettingData
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

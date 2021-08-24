@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI взаимосвязей Win32 системдриверпнпентити связывает устройство Самонастраивающийся в компьютерной системе под Windows и драйвер, поддерживающий устройство Самонастраивающийся.'
+description: '\_класс WMI взаимосвязей Win32 системдриверпнпентити связывает устройство самонастраивающийся в компьютерной системе, где работает Windows, и драйвер, поддерживающий устройство самонастраивающийся.'
 ms.assetid: 2696c8e5-3bc3-42e3-807b-a387607c7c09
 ms.tgt_platform: multiple
 title: Класс Win32_SystemDriverPNPEntity
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8b5a7eedfbd7a545e37cb9cda38c19cf61308761
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e4b0de9559d223db4c398387ca846be39b17566b3267c76399bdf4381cdd14e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751114"
 ---
 # <a name="win32_systemdriverpnpentity-class"></a>\_Класс Win32 системдриверпнпентити
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) взаимосвязей **Win32 \_ системдриверпнпентити** связывает устройство Самонастраивающийся в компьютерной системе под Windows и драйвер, поддерживающий устройство Самонастраивающийся.
+[класс WMI](../wmisdk/retrieving-a-class.md) взаимосвязей **Win32 \_ системдриверпнпентити** связывает устройство самонастраивающийся в компьютерной системе, где работает Windows, и драйвер, поддерживающий устройство самонастраивающийся.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -46,7 +46,7 @@ class Win32_SystemDriverPNPEntity : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ системдриверпнпентити** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_SystemDriverPNPEntity : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ системдриверпнпентити** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 

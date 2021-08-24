@@ -4,18 +4,18 @@ ms.assetid: 61be3fd8-e753-49e8-8b73-4ce08f6000be
 title: Использование несамостоятельных символов и диакритических знаков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f125a58940eba0ecde8864cca6f7c4d24e0381ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02a6becfdf96b3971c1e0e0d78aa6b2a2d05c64a44704ac67382968851bce8b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787894"
 ---
 # <a name="using-nonspacing-characters-and-diacritics"></a>Использование несамостоятельных символов и диакритических знаков
 
 При разбиении текста на строки или иным образом разделять текст приложение для Юникода должно иметь несамостоятельные символы с их базовыми символами. Многие скрипты содержат символы, которые визуально сочетаются с другими символами на выходе, например диакритическими знаками ("плавающие диакритические знаки").
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

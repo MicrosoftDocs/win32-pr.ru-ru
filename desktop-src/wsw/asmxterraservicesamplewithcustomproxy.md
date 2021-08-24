@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e38eefe8c5a3eb78063e3204d45f76b4cfa7477
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f940dcec3261aedfb79e03fd87f3b945e2449dcad99bcd068f58f0d214239544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805844"
 ---
 # <a name="asmxterraservicesamplewithcustomproxy"></a>асмкстеррасервицесамплевискустомпрокси
 
@@ -21,7 +21,7 @@ ms.locfileid: "104330515"
 
 -   [Асмкскустомпроксиклиент. cpp](#asmxcustomproxyclientcpp)
 -   [террасервицеуса. com. WSDL](#terraserviceusacomwsdl)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="asmxcustomproxyclientcpp"></a>Асмкскустомпроксиклиент. cpp
 
@@ -1069,16 +1069,16 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**\_ \_ \_ Настройка \_ режима прокси-сервера HTTP WS \_**](/windows/desktop/api/WebServices/ne-webservices-ws_http_proxy_setting_mode)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

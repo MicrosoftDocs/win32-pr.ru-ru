@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ade501db9b6af21b3761b70f638faa20d699401
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: abf1965c82c810400921d9a6bb3e4e64551338bd40d7289e4863bab10abd189d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751874"
 ---
 # <a name="takeownership-method-of-the-cim_datafile-class"></a>Метод Такеовнершип \_ класса CIM File
 
@@ -142,13 +142,13 @@ uint32 TakeOwnerShip();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **такеовнершип** в [**\_ файле CIM**](cim-datafile.md) реализуется инструментарием WMI.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -162,7 +162,7 @@ uint32 TakeOwnerShip();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

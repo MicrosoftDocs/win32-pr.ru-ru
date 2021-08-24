@@ -1,5 +1,5 @@
 ---
-description: 'Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
+description: 'метод IMpeg2PsiParser:: жеткаунтофелементаристреамс. реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.'
 ms.assetid: 19ef96a8-3d5b-4da1-8cff-d6a271ad4915
 title: 'Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: fc81c0a66751751a73a3895fd31fe8651aee8caf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e241697884a4b665c160dc9991e4cb7f02c76f1ba32bc7a0656515faf1117a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767384"
 ---
 # <a name="impeg2psiparsergetcountofelementarystreams-method"></a>Метод IMpeg2PsiParser:: Жеткаунтофелементаристреамс
 
-Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.
 
 `GetCountOfElementaryStreams`Метод получает количество простейших потоков в указанной программе.
 

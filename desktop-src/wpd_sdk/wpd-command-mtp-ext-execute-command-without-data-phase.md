@@ -4,12 +4,12 @@ ms.assetid: 308550d0-1399-4b64-8f8e-dc16d5044086
 title: Команда WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE (Впдмтпекстенсионс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b58648547c33206e1de19c14aea48427bc9db0be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2c4d1d5af4d1e4e712f3a39dd5cbb296133bb16f4de3b677da4a45fa7bbc204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806304"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_without_data_phase-command"></a>Команда \_ WPD \_ MTP \_ команда \_ Execute \_ \_ без \_ \_ команды этапа данных
 
@@ -53,17 +53,17 @@ ms.locfileid: "105708383"
 
 Метод можно вызвать напрямую с помощью [**ипортабледевице:: сендкомманд**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Впдмтпекстенсионс. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

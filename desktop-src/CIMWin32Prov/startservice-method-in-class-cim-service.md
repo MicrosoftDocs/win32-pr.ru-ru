@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6027112323fc14abf4c4a8dc667b921025a5e652
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 87fcdad650ea93461850bab3e3e66d9543025a2b468b9f7948f6d949d5838c4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752444"
 ---
 # <a name="startservice-method-of-the-cim_service-class-cimwin32-wmi-providers"></a>Метод StartService класса CIM_Service (поставщики WMI CIMWin32)
 
@@ -69,7 +69,7 @@ uint32 StartService();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

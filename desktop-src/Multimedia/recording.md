@@ -6,12 +6,12 @@ keywords:
 - Команда MCI_RECORD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4248b2d4bbdd984ad23a772f0adca04581afca1d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27033dde148a6f99a1168eea4d6c0a97aea82881638ccb6d6f5535632e897148
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805514"
 ---
 # <a name="recording"></a>Запись
 
@@ -36,7 +36,7 @@ ms.locfileid: "105661495"
 > [!Note]  
 > При закрытии устройства без сохранения записанные данные теряются.
 
- 
+ 
 
 ## <a name="checking-input-levels-pcm-only"></a>Проверка уровней ввода (только PCM)
 
@@ -44,9 +44,9 @@ ms.locfileid: "105661495"
 
 Входной уровень представлен как значение без знака. Для 8-разрядных выборок это значение находится в диапазоне от 0 до 127 (0x7F). Для 16-разрядных выборок он находится в диапазоне от 0 до 32 767 (0x7FFF).
 
- 
+ 
 
- 
+ 
 
 
 

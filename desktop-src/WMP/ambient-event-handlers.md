@@ -3,19 +3,19 @@ title: Обработчики событий окружения
 description: Обработчики событий окружения
 ms.assetid: ec806b92-a66d-499d-9bb3-cea7e82676bb
 keywords:
-- Обложки проигрывателя Windows Media, обработчики событий окружения
+- обложки проигрыватель Windows Media, обработчики событий окружения
 - обложки, обработчики событий окружения
 - Справочник по обложкам, обработчикам событий окружения
 - обработчики событий окружения
 - события, окружение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0dc05cf90956464afbb030f3cd5dc4af194b0da2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff72739ec1791b79d6113415f1219a1ddee578b4b5a690ffaaac62bf6b3dbcfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865094"
 ---
 # <a name="ambient-event-handlers"></a>Обработчики событий окружения
 
@@ -44,9 +44,9 @@ ms.locfileid: "104410727"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -56,9 +56,9 @@ ms.locfileid: "104410727"
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

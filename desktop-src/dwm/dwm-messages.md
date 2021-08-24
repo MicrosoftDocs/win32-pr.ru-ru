@@ -9,12 +9,12 @@ keywords:
 - DWM (диспетчер окон рабочего стола), сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399db1399cfc7cb60d29f0fa554a2233dc75a279
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3715494dc514dea471e50321acf1f64c5745ffe52dacae69752c8f10fecf0e84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "105710229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726024"
 ---
 # <a name="dwm-messages"></a>Сообщения DWM
 
@@ -45,7 +45,7 @@ ms.locfileid: "105710229"
 <td>Информирует все окна верхнего уровня, что композиция DWM включена или отключена. <br/>
 <blockquote>
 [!Note]<br />
-Начиная с Windows 8, композиция DWM всегда включена, поэтому это сообщение не отправляется независимо от изменения видеорежима.
+начиная с Windows 8 композиция DWM всегда включена, поэтому это сообщение не отправляется независимо от изменения видеорежима.
 </blockquote>
 <br/></td>
 </tr>

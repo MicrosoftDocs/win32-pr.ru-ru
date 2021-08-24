@@ -4,12 +4,12 @@ ms.assetid: c9837845-4ffc-4496-8330-11b46d27ec7a
 title: Действие Унрегистерпрогидинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff880c1d339fc3db3db50bd34d3afb828f65ec07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6666e5648cba220dbb9bbc6e2d50c3959c1d73c98f97dcfd8c45cb3de8d94c82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786964"
 ---
 # <a name="unregisterprogidinfo-action"></a>Действие Унрегистерпрогидинфо
 
@@ -46,7 +46,7 @@ ms.locfileid: "103913655"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие Унрегистерпрогидинфо удаляет сведения о ProgId из реестра ([Таблица ProgID](progid-table.md)) для функций, которые подключены к сведениям о расширении ([таблице расширения](extension-table.md)) или сведениям о классе ([таблице классов](class-table.md)) и выбираются для удаления.
 

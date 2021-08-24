@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a73ed620761e4b7a07e7aeaf20d85f646a1aab6b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 55eb8c361c54813c36ef7b07c8fd2418b00599234861fa2fc09ab82d777c6a71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825074"
 ---
 # <a name="getdistinguishedname-method-of-the-microsoftdns_zone-class"></a>Метод Жетдистингуишеднаме \_ класса зоны микрософтднс
 
@@ -44,7 +44,7 @@ string GetDistinguishedName();
 
 Возвращает имя зоны.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -57,7 +57,7 @@ string GetDistinguishedName();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

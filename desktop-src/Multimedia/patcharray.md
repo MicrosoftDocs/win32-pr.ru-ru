@@ -6,12 +6,12 @@ keywords:
 - ПАТЧАРРАЙ МИДИПАТЧСИЗЕ
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e07af0e878fc0d2fc79d6d17aafd48fbd991fb39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d1d14696d7bb76827f902609cb1411f7890adeac53092e1b66b7eda16604320
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806074"
 ---
 # <a name="patcharray"></a>патчаррай
 
@@ -33,7 +33,7 @@ typedef WORD PATCHARRAY[MIDIPATCHSIZE];
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -42,11 +42,11 @@ typedef WORD PATCHARRAY[MIDIPATCHSIZE];
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
 | Версия<br/>                  | Цифровой интерфейс MIDI, типы MIDI<br/>                                        |
-| Header<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

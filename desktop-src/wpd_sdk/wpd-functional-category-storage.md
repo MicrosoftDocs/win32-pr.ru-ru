@@ -4,12 +4,12 @@ ms.assetid: 92a10de6-3e50-4042-a9b7-3c1d5944791f
 title: WPD_FUNCTIONAL_CATEGORY_STORAGE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f3000c63207286bc1dae153e3f930231909e92f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b16d70ebff4c61643b4d5ae0f8b333f5f9a7dc02103a32e14ded7a0ac4d8189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805945"
 ---
 # <a name="wpd_functional_category_storage"></a>\_хранилище функциональной \_ категории WPD \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105664291"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 | [\_тип хранилища \_ WPD](storage-properties.md)                                                         | Обязательный.                                                                                                                                              |
 | [\_ \_ \_ тип файловой системы \_ хранилища WPD](storage-properties.md)                               | Необязательный элемент.                                                                                                                                              |
 | [\_емкость хранилища \_ WPD](storage-properties.md)                                                 | Обязательный.                                                                                                                                              |
@@ -69,7 +69,7 @@ ms.locfileid: "105664291"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

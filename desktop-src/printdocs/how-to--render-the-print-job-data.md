@@ -4,12 +4,12 @@ ms.assetid: D1343C53-6F13-49FF-8C7C-25D5A3C31B22
 title: Как отобразить данные задания печати
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2d9f8cbf68394fd56ebcf31cfb37ee8f337f90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70724cc9dee6b7d3bb0434f08e3db959acfecfc54bc4ebafac5f5a3c6bd4b014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825134"
 ---
 # <a name="how-to-render-print-job-data"></a>Как отобразить данные задания печати
 
@@ -23,7 +23,7 @@ ms.locfileid: "103913151"
 
 Если содержимое программы имеет формат, несовместимый с принтером, он должен быть визуализирован перед отправкой на принтер. Если программа использует [API документов XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)) для управления содержимым программы, содержимое программы будет иметь формат, который можно отправить непосредственно в [API печати XPS](xps-printing.md) и не будет требовать дополнительной подготовки к просмотру перед отправкой на принтер.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

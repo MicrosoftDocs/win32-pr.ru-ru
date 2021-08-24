@@ -35,12 +35,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e780cdedee0fe447499bed5013dadc2ba9b448b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5139b53917f3d54b95fd153ac39fab176f047ba4bb9ec6df5d1c7c9b6e2d2f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769154"
 ---
 # <a name="win32_tssessionsetting-class"></a>\_Класс Win32 тссессионсеттинг
 
@@ -191,7 +191,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -248,7 +248,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 
 Включает предупреждение о превышении времени ожидания.
 
-**Windows 7, Windows server 2008 R2, Windows Vista и Windows server 2008:** Это свойство недоступно.
+**Windows 7, Windows server 2008 R2, Windows Vista и Windows Server 2008:** Это свойство недоступно.
 
 </dd> <dt>
 
@@ -283,7 +283,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -328,7 +328,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 2
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -364,7 +364,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 2
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -400,7 +400,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 2
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -436,7 +436,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 2
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -472,7 +472,7 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 2
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 </dd> </dl>
 
@@ -643,11 +643,11 @@ class Win32_TSSessionSetting : Win32_TerminalSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имейте в виду, что Винстатионс, связанный с сеансом консоли, не может получить доступ к методам и свойствам этого класса. Если предпринимается попытка сделать это, указав "Console" в качестве значения свойства Терминалнаме, методы этого объекта будут возвращать **WBEM \_ E \_ не \_ поддерживаются**. Этот код ошибки также будет возвращен, если станция Windows пытается вызвать методы этого объекта для добавления или изменения свойств безопасности учетных записей LocalSystem, LocalService или NetworkService.
 
-Чтобы подключиться к \\ \\ пространству имен root cimv2 терминалсервицес, уровень проверки подлинности должен включать в себя конфиденциальность пакетов. Для вызовов C/C++ это будет уровень проверки подлинности **AUTHN на \_ \_ \_ уровне \_ \_ безопасности RPC C уровня "PKT**". Для вызовов Visual Basic и сценариев это будет уровень проверки подлинности **вбемаусентикатионлевелпктприваци** или "пктприваци" со значением 6. В следующем примере Visual Basic Scripting Edition (VBScript) показано, как подключиться к удаленному компьютеру с использованием конфиденциальности пакетов.
+Чтобы подключиться к \\ \\ пространству имен root cimv2 терминалсервицес, уровень проверки подлинности должен включать в себя конфиденциальность пакетов. Для вызовов C/C++ это будет уровень проверки подлинности **AUTHN на \_ \_ \_ уровне \_ \_ безопасности RPC C уровня "PKT**". для вызовов Visual Basic и сценариев это будет уровень проверки подлинности **вбемаусентикатионлевелпктприваци** или "пктприваци" со значением 6. в следующем примере Visual Basic scripting Edition (VBScript) показано, как подключиться к удаленному компьютеру с использованием конфиденциальности пакетов.
 
 
 ```VB
@@ -658,9 +658,9 @@ Set objServices = GetObject( _
 
 
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -674,7 +674,7 @@ Set objServices = GetObject( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
