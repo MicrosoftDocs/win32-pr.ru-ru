@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f811533c66185304c5c674fdfff2eda8cf5bef69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d42a443e22d382dd6e7f6ec9d528d0a1f57c6062ba0e03742033c494b75cd8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076748"
 ---
 # <a name="stopservice-method-of-the-microsoftdns_server-class"></a>Метод работы \_ класса микрософтднс Server
 
@@ -44,7 +44,7 @@ uint32 StopService();
 
 Ошибка \_ указывает на успешную остановку службы. Любое другое значение является кодом ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -57,7 +57,7 @@ uint32 StopService();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

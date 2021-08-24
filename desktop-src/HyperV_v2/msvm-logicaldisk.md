@@ -76,12 +76,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e5071f2a102a32364888c9c7de5121ede5249f47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bcc9121a6c1f11b57cad8df096713a29edf7a58551de76b6f1cfa2d1f20ab2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521744"
 ---
 # <a name="msvm_logicaldisk-class"></a>\_Класс мсвм LogicalDisk
 
@@ -231,7 +231,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 | Значение                                                                            | Значение                    |
 |----------------------------------------------------------------------------------|----------------------------|
-| <dl> <dt>1-6</dt> </dl> | Не применяется<br/> |
+| <dl> <dt>1-6</dt> </dl> | Неприменимо.<br/> |
 
 
 
@@ -254,7 +254,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 | Значение                                                                        | Значение                    |
 |------------------------------------------------------------------------------|----------------------------|
-| <dl> <dt>6</dt> </dl> | Не применяется<br/> |
+| <dl> <dt>6</dt> </dl> | Неприменимо.<br/> |
 
 
 
@@ -290,7 +290,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -641,7 +641,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -669,7 +669,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 | Значение                                                                         | Значение                                 |
 |-------------------------------------------------------------------------------|-----------------------------------------|
-| <dl> <dt>1</dt> </dl>  | Другое<br/>                        |
+| <dl> <dt>1</dt> </dl>  | Другие<br/>                        |
 | <dl> <dt>12</dt> </dl> | Имя устройства операционной системы<br/> |
 
 
@@ -693,7 +693,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 | Значение                                                                        | Значение                                      |
 |------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>1</dt> </dl> | Другое<br/>                             |
+| <dl> <dt>1</dt> </dl> | Другие<br/>                             |
 | <dl> <dt>8</dt> </dl> | Пространство имен устройств операционной системы<br/> |
 
 
@@ -1189,25 +1189,25 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **мсвм \_ LogicalDisk** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -1220,7 +1220,7 @@ class Msvm_LogicalDisk : CIM_LogicalDisk
 [**Мсвм \_ сторажеалерт**](msvm-storagealert.md)
 </dt> <dt>
 
-[Классы хранения](storage-classes.md)
+[служба хранилища Класса](storage-classes.md)
 </dt> </dl>
 
  

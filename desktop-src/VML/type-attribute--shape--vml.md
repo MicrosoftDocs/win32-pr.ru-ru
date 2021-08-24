@@ -4,27 +4,27 @@ description: Атрибут Type (Shape) (VML)
 ms.assetid: 41f0d1d3-3a2c-47cf-b2ec-d983b14aea87
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46e53b275d6b6327b3d3783704dbd06156e643f6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82b20f663f8a403acca03ff8ab516a86dc91f7dd8d478eadedaa6be8b919ad48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513154"
 ---
 # <a name="type-attribute-shapevml"></a>Атрибут Type (Shape) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет ссылку на идентификатор элемента [шапетипе](msdn-online-vml-shapetype-element.md) . Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -93,6 +93,6 @@ expression=element .type
 
 [Пример атрибута Type](/previous-versions/bb264099(v=vs.85)). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

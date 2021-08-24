@@ -16,12 +16,12 @@ keywords:
 - мониторинг конфигурации, функции перечисления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86925cd25912c17b8fb1bdd339888e5429de135b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b8b4eca3e18b5a5254ef9adc8cd55e123c26a773149d323caf517c5429d972f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013442"
 ---
 # <a name="monitor-configuration-functions"></a>Мониторинг функций конфигурации
 
@@ -56,7 +56,7 @@ ms.locfileid: "105661631"
 
 
 
- 
+ 
 
 ## <a name="low-level-functions"></a>Функции Low-Level
 
@@ -73,7 +73,7 @@ ms.locfileid: "105661631"
 
 
 
- 
+ 
 
 ## <a name="enumeration-functions"></a>Функции перечисления
 
@@ -90,7 +90,7 @@ ms.locfileid: "105661631"
 
 
 
- 
+ 
 
 ## <a name="internal-functions"></a>Внутренние функции
 
@@ -107,16 +107,16 @@ API конфигурации монитора использует следую�
 -   [**жетфисикалмонитордескриптион**](getphysicalmonitordescription.md)
 -   [**жетфисикалмониторс**](getphysicalmonitors.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по конфигурации монитора](monitor-configuration-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

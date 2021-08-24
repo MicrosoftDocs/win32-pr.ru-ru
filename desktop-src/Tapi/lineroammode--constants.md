@@ -4,12 +4,12 @@ ms.assetid: af0eb263-8deb-44ab-8acb-00e4ff7930ab
 title: Константы LINEROAMMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e40c40291567e7800b53070f882bf1e0bdac93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9c896b2d716dc1d6e57b9a2aec52c335657669a5bd0f0c20a904d725a7f5bb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514823"
 ---
 # <a name="lineroammode_-constants"></a>\_Константы линероаммоде
 
@@ -67,18 +67,18 @@ ms.locfileid: "105685376"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

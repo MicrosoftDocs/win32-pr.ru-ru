@@ -3,9 +3,9 @@ title: External. sendMessage, метод
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод sendMessage отправляет сообщение подключаемому модулю Интернет-магазина.
 ms.assetid: 72d34dcc-3284-4446-804f-0fc93a7d8dab
 keywords:
-- sendMessage, метод Windows Media Player
-- sendMessage метод Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод sendMessage
+- метод sendMessage проигрыватель Windows Media
+- метод sendMessage проигрыватель Windows Media, внешний класс
+- внешний класс проигрыватель Windows Media, метод sendMessage
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4648f3cf433a2828d3c97604ebf9ee6e7223b7f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4985bae2f9170bdb0db1d6cdb995f2c14fe813bcb061485c179bc058539e84c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648365"
 ---
 # <a name="externalsendmessage-method"></a>External. sendMessage, метод
 
@@ -66,22 +66,22 @@ External.sendMessage(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение отправляется асинхронно. Это значит, что этот метод возвращает значение немедленно, а не ожидает обработки сообщения. Когда подключаемый модуль заканчивает обработку сообщения, он вызывает метод [ивмпконтентпартнеркаллбакк:: сендмессажекомплете](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete) , который, в свою очередь, вызывает обработчик событий [онсендмессажекомплете](external-onsendmessagecomplete-event.md) в скрипте.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: a88ce90bb9e776cd45245b32a363635c2ccf0560
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc64012c4f13f84abef55d2426c856b931eb447e61df4f04c69781c089857930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083278"
 ---
 # <a name="wpd_exposure_program_modes-enumeration"></a>\_ \_ Перечисление режимов программы "ЭКСПОЗИЦИя WPD" \_
 
@@ -102,21 +102,21 @@ typedef enum WPD_EXPOSURE_PROGRAM_MODES {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указывает режим программы экспозиции устройства. Это перечисление используется в свойстве " [ \_ режим программы" в \_ \_ \_ \_ режиме уязвимости с образом WPD](still-image-properties.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

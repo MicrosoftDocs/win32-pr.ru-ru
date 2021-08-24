@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac7062a67f2d7bf748d3983cbc7563fe05b9a7bf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e87bae0703d7acf06f1590e52922c07efb6d9af9652e6a052ad80e098eb2d0cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298794"
 ---
 # <a name="ms-dfsr-enabled-attribute"></a>атрибут MS-DFSR-Enabled
 
@@ -36,7 +36,7 @@ ms.locfileid: "104138690"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.9            |
 | System-ID — GUID    | 03726ae7-8e7d-4446-8aae-a91657c00993 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -98,7 +98,7 @@ ms.locfileid: "104138690"
 | Идентификатор ссылки                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
 | System-Only            | Неверно                                                                                                                         |
-| Является однозначным       | True                                                                                                                          |
+| Является однозначным       | Верно                                                                                                                          |
 | Индексируется             | Неверно                                                                                                                         |
 | В глобальном каталоге      | Неверно                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                  |
@@ -131,7 +131,7 @@ ms.locfileid: "104138690"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **MS-DFSR-Enabled** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

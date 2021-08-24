@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2094101ab0cbbbc769194793273bf080cfe52818
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a07a8894e237be24a4c7b49e8491278ffb9e9ea82109fee00c27fc4eb9d5fcb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506794"
 ---
 # <a name="cim_memoryoncard-class"></a>\_Класс CIM меморйонкард
 
@@ -53,7 +53,7 @@ class CIM_MemoryOnCard : CIM_PackagedComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ меморйонкард** имеет следующие свойства.
 
@@ -106,7 +106,7 @@ class CIM_MemoryOnCard : CIM_PackagedComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ меморйонкард** является производным от [**CIM \_ паккажедкомпонент**](cim-packagedcomponent.md).
 
@@ -114,7 +114,7 @@ class CIM_MemoryOnCard : CIM_PackagedComponent
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ class CIM_MemoryOnCard : CIM_PackagedComponent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

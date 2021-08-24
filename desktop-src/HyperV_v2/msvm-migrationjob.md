@@ -60,12 +60,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ddecf34148e3ef07dc78af9b4f2dd45950644cfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba979953a9e7a17df70247cdb176cba2f5782d4f9f6fc13d8f4addc161bbaf50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521204"
 ---
 # <a name="msvm_migrationjob-class"></a>\_Класс мсвм мигратионжоб
 
@@ -171,7 +171,7 @@ class Msvm_MigrationJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -455,21 +455,21 @@ class Msvm_MigrationJob : CIM_ConcreteJob
 
 <span id="Checking_Virtual_Machine_and_Storage_Compatibility"></span><span id="checking_virtual_machine_and_storage_compatibility"></span><span id="CHECKING_VIRTUAL_MACHINE_AND_STORAGE_COMPATIBILITY"></span>
 
-**Проверка совместимости виртуальной машины и хранилища** (302)
+**проверка совместимости виртуальной машины и служба хранилища** (302)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Checking_Storage_Compatibility"></span><span id="checking_storage_compatibility"></span><span id="CHECKING_STORAGE_COMPATIBILITY"></span>
 
-**Проверка совместимости хранилища** (303)
+**проверка совместимости служба хранилища** (303)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Checking_Storage_Migration"></span><span id="checking_storage_migration"></span><span id="CHECKING_STORAGE_MIGRATION"></span>
 
-**Проверка миграции хранилища** (304)
+**проверка служба хранилища миграции** (304)
 
 
 </dt> <dd></dd> <dt>
@@ -483,14 +483,14 @@ class Msvm_MigrationJob : CIM_ConcreteJob
 
 <span id="Moving_Virtual_Machine_and_Storage"></span><span id="moving_virtual_machine_and_storage"></span><span id="MOVING_VIRTUAL_MACHINE_AND_STORAGE"></span>
 
-**Перемещение виртуальной машины и хранилища** (306)
+**перемещение виртуальной машины и служба хранилища** (306)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Moving_Storage"></span><span id="moving_storage"></span><span id="MOVING_STORAGE"></span>
 
-**Перемещение хранилища** (307)
+**перемещение служба хранилища** (307)
 
 
 </dt> <dd></dd> </dl>
@@ -536,7 +536,7 @@ class Msvm_MigrationJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -987,14 +987,14 @@ class Msvm_MigrationJob : CIM_ConcreteJob
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

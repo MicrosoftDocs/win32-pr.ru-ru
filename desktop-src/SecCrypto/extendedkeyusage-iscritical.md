@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5331922567af3b9a34517ab5059fa03ad9904270
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5e5b52d0901222ae3dbf7daac87be2d59a90152c9aa4e0a78f023af1a6848a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007392"
 ---
 # <a name="extendedkeyusageiscritical-property"></a>Свойство Екстендедкэйусаже. Critical
 

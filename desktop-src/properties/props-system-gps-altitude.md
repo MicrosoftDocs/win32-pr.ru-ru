@@ -4,12 +4,12 @@ ms.assetid: 396f9c9e-4d13-4e0d-9ec5-14a1c49f059e
 title: System. GPS. Высота
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 181c3c07c81f905d627169c0ca51700298860a7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30035cb0b99dd08ff600dbad46d1219394d3c7abcf1297c3f520c0c7b19d04df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033542"
 ---
 # <a name="systemgpsaltitude"></a>System. GPS. Высота
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-`label`Для Windows Vista с пакетом обновления 1 (SP1) был добавлен запрос на указанную косвенную ссылку на непрямое строковое значение атрибута **лабелинфо** .
+`label`для Windows Vista с пакетом обновления 1 (SP1) была добавлена обязательная ссылка на косвенную строку для атрибута **лабелинфо** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

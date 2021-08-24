@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6af222298cc3d00ad87e5037f9de20139e4fc40
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: efd22cd5e7745b8e5a11018b930f6b544036780b118e9c745b67e730b693cdd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119565794"
 ---
 # <a name="id3dx11effecttechniquegetpassbyindex-method"></a>Метод ID3DX11EffectTechnique:: Жетпассбиндекс
 
@@ -58,7 +58,7 @@ ID3DX11EffectPass* GetPassByIndex(
 
 Указатель на [**ID3DX11EffectPass**](id3dx11effectpass.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метод содержит один или несколько проходов; Получите проход, используя имя или индекс.
 
@@ -67,18 +67,18 @@ ID3DX11EffectPass* GetPassByIndex(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

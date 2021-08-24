@@ -1,29 +1,29 @@
 ---
-title: Рабочие образцы
+title: Рабочие примеры
 description: Рабочие образцы доступны для загрузки, показывая использование ряда функций Direct3D 12.
 ms.assetid: 4C4475D4-534F-484F-8D60-9ACEA09AC109
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb1b61ec374e21c9173797121ee90ec72e789de8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6d6f8bad1d20729f4caa78952feda22378ad37526b33b668e79260ef9658da53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631890"
 ---
-# <a name="working-samples"></a>Рабочие образцы
+# <a name="working-samples"></a>Рабочие примеры
 
 Рабочие образцы доступны для загрузки, показывая использование ряда функций Direct3D 12.
 
 ## <a name="working-samples"></a>Рабочие образцы
 
-Рабочие образцы (в виде проектов Visual Studio 2015) можно скачать на сайте [GitHub/Microsoft/DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples).
+рабочие образцы (в виде проектов Visual Studio 2015) можно загрузить из [GitHub/микрософт/директкс-графикс-самплес](https://github.com/Microsoft/DirectX-Graphics-Samples).
 
 > [!Note]  
 > Точный список выборок, доступных в этом расположении, будет зависеть от добавления и обновления образцов.
 
- 
+ 
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "74103923"
 <tr class="header">
 <th>Пример заголовка</th>
 <th>Описание</th>
-<th>Классические приложения</th>
+<th>Рабочий стол</th>
 <th>UWP</th>
 <th>Пошаговое руководство</th>
 </tr>
@@ -65,8 +65,8 @@ ms.locfileid: "74103923"
 <tr class="odd">
 <td>D3D12Multithreading</td>
 <td>Пример создания многопотокового приложения с поддержкой.</td>
-<td>Да</td>
-<td>N</td>
+<td>Д</td>
+<td>Нет</td>
 
 </tr>
 <tr class="even">
@@ -74,14 +74,14 @@ ms.locfileid: "74103923"
 <td>Демонстрируется использование нескольких ядер для выполнения асинхронных вычислений вместе с трехмерной работой на одном GPU.</td>
 <td>Да</td>
 <td>Да</td>
-<td><a href="multi-engine-n-body-gravity-simulation.md">Моделирование притяжения на уровне "n-текст" для нескольких ядер</a></td>
+<td><a href="multi-engine-n-body-gravity-simulation.md">Моделирование гравитации для нескольких тел в нескольких движках</a></td>
 </tr>
 <tr class="odd">
 <td>D3D12PredicationQueries</td>
 <td>Демонстрирует перекрытияе отбора с помощью куч запросов и затенения.</td>
 <td>Да</td>
 <td>Да</td>
-<td><a href="predication-queries.md">Запросы затенения</a></td>
+<td><a href="predication-queries.md">Запросы предикации</a></td>
 </tr>
 <tr class="even">
 <td>D3D12DynamicIndexing</td>
@@ -95,14 +95,14 @@ ms.locfileid: "74103923"
 <td>Демонстрирует базовое использование слоя 11on12. В этом примере текст подготавливается с помощью D2D с помощью API Direct3D 11 на устройстве 11on12 Direct3D 12.</td>
 <td>Да</td>
 <td>Да</td>
-<td><a href="d2d-using-d3d11on12.md">D2D с использованием D3D11on12</a></td>
+<td><a href="d2d-using-d3d11on12.md">D2D и D3D11on12</a></td>
 </tr>
 <tr class="even">
 <td>D3D12ExecuteIndirect</td>
 <td>Демонстрируется отбор подсистемы вычислений в сочетании с функцией "выполнить косвенную функцию" для отрисовки только тех объектов, которые прошли тест для отбора.</td>
 <td>Да</td>
 <td>Да</td>
-<td><a href="indirect-drawing-and-gpu-culling-.md">Непрямое отображение и отбор GPU</a></td>
+<td><a href="indirect-drawing-and-gpu-culling-.md">Косвенная прорисовка и отбрасывание с помощью GPU</a></td>
 </tr>
 <tr class="odd">
 <td>D3D12PipelineStateCache</td>
@@ -151,7 +151,7 @@ ms.locfileid: "74103923"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Связанные темы
 
@@ -160,12 +160,12 @@ ms.locfileid: "74103923"
 [Руководство по программированию для Direct3D 12](directx-12-programming-guide.md)
 </dt> <dt>
 
-[Пошаговые инструкции по коду D3D12](d3d12-code-walk-throughs.md)
+[Пошаговые руководства по коду D3D12](d3d12-code-walk-throughs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

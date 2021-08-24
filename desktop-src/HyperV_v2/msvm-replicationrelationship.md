@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04665f96f4ec77501ee0b161d816c84943ca2c98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ff905475863df11c6fb6529f030f73a4f1b785792be4c5fe8c7ce1142096c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068484"
 ---
 # <a name="msvm_replicationrelationship-class"></a>\_Класс мсвм репликатионрелатионшип
 
@@ -57,7 +57,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ репликатионрелатионшип** имеет следующие свойства.
 
@@ -379,7 +379,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -393,7 +393,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -407,7 +407,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -421,7 +421,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -435,7 +435,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -449,7 +449,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -463,7 +463,7 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 </dt> <dd>
 
 > [!Note]  
-> Это свойство было добавлено в Windows 10 версии 1703.
+> это свойство было добавлено в Windows 10 версии 1703.
 
  
 
@@ -471,29 +471,29 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="extended-replication"></a>Расширенная репликация
 
-Функция репликации Hyper-V в Windows 8 позволяет эффективно реплицировать виртуальные машины, работающие на сервере Hyper-V на первичном сайте, в другой сервер Hyper-V на вторичном сайте.
+функция репликации Hyper-V в Windows 8 позволяет эффективно реплицировать виртуальные машины, работающие на сервере hyper-v на первичном сайте, в другой сервер hyper-v на вторичном сайте.
 
-Функция репликации Hyper-V в Windows 8.1 позволяет пользователю расширить отношение репликации с вторичного сайта на третий сайт. Третий сайт может быть предварительно подготовлен узлом Hyper-V в качестве сервера восстановления или внешнего поставщика репликации.
+функция репликации Hyper-V в Windows 8.1 позволяет пользователю расширить отношение репликации с вторичного сайта на третий сайт. Третий сайт может быть предварительно подготовлен узлом Hyper-V в качестве сервера восстановления или внешнего поставщика репликации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Внешнее событие Онсендмессажекомплете
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. | Внешнее событие Онсендмессажекомплете
 ms.assetid: 9ae60aa5-4ecd-41dd-aeb0-afb1a3686982
 keywords:
-- Проигрыватель Windows Media для события external. Онсендмессажекомплете
+- проигрыватель Windows Media события External. онсендмессажекомплете
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05d4de69a753811537f60ae8a3244cfaf012f60d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a1dede59d2c52f20050a490e6ded1389e63884e598868e9736195280e3269a72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648734"
 ---
 # <a name="externalonsendmessagecomplete-event"></a>Внешнее событие Онсендмессажекомплете
 
@@ -36,7 +36,7 @@ window.external.OnSendMessageComplete = FunctionName
 
 ## <a name="possible-values"></a>Возможные значения
 
-Это свойство только для записи, которое указывает имя функции в скрипте, которое вызывает проигрыватель Windows Media при возникновении события.
+это свойство только для записи, которое указывает имя функции в скрипте, проигрыватель Windows Media вызывается при возникновении события.
 
 ## <a name="parameters"></a>Параметры
 
@@ -65,26 +65,26 @@ window.external.OnSendMessageComplete = FunctionName
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **SendMessage** вызывает [Ивмпконтентпартнер:: SendMessage](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-sendmessage), который возвращает асинхронно. То есть он возвращается до того, как Интернет-магазин завершит обработку сообщения. Когда Интернет-магазин заканчивает обработку сообщения, он вызывает [ивмпконтентпартнеркаллбакк:: сендмессажекомплете](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete), который, в свою очередь, вызывает обработчик событий **онсендмессажекомплете** в скрипте.
 
-Когда Интернет-магазин вызывает **ивмпконтентпартнеркаллбакк:: сендмессажекомплете**, он предоставляет код результата в параметре *бстрресулт* . Проигрыватель Windows Media не интерпретирует этот код результата. Вместо этого проигрыватель Windows Media передает код результата вместе с обработчиком событий **онсендмессажекомплете** в параметре *result* .
+Когда Интернет-магазин вызывает **ивмпконтентпартнеркаллбакк:: сендмессажекомплете**, он предоставляет код результата в параметре *бстрресулт* . проигрыватель Windows Media не интерпретирует этот код результата. вместо этого проигрыватель Windows Media передает код результата в обработчик событий **онсендмессажекомплете** в параметре *result* .
 
-Ни один из параметров (*MSG*, *param*, *result*) обработчика событий **Онсендмессажекомплете** не интерпретируется проигрывателем Windows Media. Параметры имеют значение только в Интернет-магазине.
+ни один из параметров (*Msg*, *Param*, *Result*) обработчика событий **онсендмессажекомплете** не интерпретируется проигрыватель Windows Media. Параметры имеют значение только в Интернет-магазине.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/>                                                 |
+| Версия<br/> | проигрыватель Windows Media 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

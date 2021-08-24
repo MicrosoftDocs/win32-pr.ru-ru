@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af3fea99075399dcea2afa7ace40f0dbae57b01f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 71967dec6415e08de6534be547cad039aa2ba8182d428f50346c6398f1583516
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104547543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119530694"
 ---
 # <a name="enumeration-syntax"></a>Синтаксис перечисления
 
@@ -38,11 +38,11 @@ ms.locfileid: "104547543"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Определяется ITU. Active Directory рассматривает это как целое число.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

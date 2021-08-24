@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5c14e5183e30ade71bde29c4d5887ed08085a63
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 42fed5b1df69a155a53353b06bf901c1ca5f353e2604c205e65aaa3d2ef1830a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580554"
 ---
 # <a name="update-schema-cache-extended-right"></a>Обновление-схема-кэш расширена справа
 

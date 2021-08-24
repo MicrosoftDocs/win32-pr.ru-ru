@@ -8,12 +8,12 @@ keywords:
 - Привязка к AD, позднее связывание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299b715325e4eda88a0eeaca2b22b4bdaa15a96
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c479472a2974f31e8ecdd4308b01cf7c7251eada3f907d5d90ecf152028399b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637894"
 ---
 # <a name="late-binding-whats-happening-under-the-hood"></a>Позднее связывание: что происходит внутри?
 
@@ -27,6 +27,6 @@ ms.locfileid: "104488276"
 -   Теперь модуль записи клиента вызывает метод **йоурневмесод** , используя интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) для текущего расширения. Реализация расширения **IDispatch** делегирует интерфейсу **IDispatch** для ADSI.
 -   Интерфейс [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) для ADSI снова ищет соответствующее расширение или само себя, а затем вызывает соответствующее расширение с помощью интерфейса [**иадсекстенсион**](/windows/desktop/api/Iads/nn-iads-iadsextension) для этого расширения.
 
- 
+ 
 
- 
+ 

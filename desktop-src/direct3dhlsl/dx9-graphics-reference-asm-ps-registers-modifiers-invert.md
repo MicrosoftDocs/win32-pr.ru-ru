@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce65960474816a91eb64ece7b754b97090903d46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a391219f085c18a4c8bf2925a248800b6a26838cc6e2b8556551eb98b5335241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104983744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119562774"
 ---
 # <a name="source-register-invert"></a>Инверсия исходного регистра
 
@@ -33,13 +33,13 @@ ms.locfileid: "104983744"
 
 Исходный регистр. Дополнительные сведения о типах регистров см. в описании [ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ регистров PS 1 1 PS 1 2](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)PS 1 3 PS 1 4.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Содержимое регистра не изменяется. Модификатор применяется только к данным, считанным из регистра. Операция инвертирования применяется ко всем четырем цветовым каналам (RGBA).
 
 Этот модификатор можно использовать только с арифметическими инструкциями. Кроме того, этот модификатор нельзя сочетать с другой [маской записи регистра назначения](dx9-graphics-reference-asm-ps-registers-modifiers-write-mask.md).
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 В этом примере используется инверсия для создания дополнения для Register R1.
 
@@ -50,16 +50,16 @@ mul r0, r0, 1-r1;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы исходных регистров исходного шейдера пикселей](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

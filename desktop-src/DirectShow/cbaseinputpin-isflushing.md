@@ -44,7 +44,7 @@ BOOL IsFlushing();
 
 Возвращает переменную члена [**кбасеинпутпин:: m \_ бфлушинг**](cbaseinputpin-m-bflushing.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -55,7 +55,7 @@ BOOL IsFlushing();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

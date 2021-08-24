@@ -4,12 +4,12 @@ ms.assetid: 548984fd-e4f7-4db8-a625-87b4a0a4bdb2
 title: Действие Ремовеодбк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1234ed736a8cb8258bccf3085de92bfb1b324cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6619bc5b8a18cff2ee33dbe45261764c682953bad75a17cb9d6e93cbe487147b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580434"
 ---
 # <a name="removeodbc-action"></a>Действие Ремовеодбк
 
@@ -55,13 +55,13 @@ ms.locfileid: "105663375"
 |-------|---------------------------------------------------------|
 | \[1\] | Описание драйвера. Ключ драйвера ODBC.                |
 | \[2\] | ComponentId                                             |
-| \[3\] | Регистрация: SQL \_ Remove \_ DSN или SQL \_ Remove \_ sys \_ DSN |
+| \[3\] | регистрация: SQL \_ удалить \_ dsn или SQL \_ удалить \_ SYS \_ dsn |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если счетчик использования ODBC и счетчик использования файлов становятся нулями, файл удаляется. Регистрация зависит от количества использований ODBC, и удаление файлов основано на счетчиках общего числа ссылок на библиотеки DLL.
 

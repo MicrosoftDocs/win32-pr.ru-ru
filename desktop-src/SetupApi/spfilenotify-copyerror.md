@@ -4,12 +4,12 @@ ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
 title: Сообщение SPFILENOTIFY_COPYERROR (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6cd44daabd6a4aed5e61a716bab3df44f35fc0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80160af9d8053a90c1848d397da6bbb9bf41f2793756e1d5491fb0d6f5e39abc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665154"
 ---
 # <a name="spfilenotify_copyerror-message"></a>\_Сообщение спфиленотифи коперрор
 
@@ -60,15 +60,15 @@ SPFILENOTIFY_COPYERROR
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
 

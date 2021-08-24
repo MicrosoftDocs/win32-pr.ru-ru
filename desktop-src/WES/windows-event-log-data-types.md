@@ -51,7 +51,7 @@ typedef HANDLE EVT_OBJECT_ARRAY_PROPERTY_HANDLE;
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ typedef HANDLE EVT_OBJECT_ARRAY_PROPERTY_HANDLE;
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Виневт. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Виневт. h</dt> </dl> |
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0d2837a4bb84c07214cce3e4fbc3d4d96b9583
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6389ac30d5bffeb6ad354ec6c7e83f2834921fe8fb83c1abe2bca2d0c2f43bfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705244"
 ---
 # <a name="iwmdrmlicensegetinclusionlist-method"></a>Метод Ивмдрмлиценсе:: Жетинклусионлист
 
@@ -72,22 +72,22 @@ HRESULT GetInclusionList(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Издатель лицензии может указывать другие системы защиты, для которых может быть преобразовано зашифрованное содержимое. Список идентификаторов GUID, полученных этим методом, определяет разрешенные системы защиты. При вводе в лицензионное соглашение с корпорацией Майкрософт для получения библиотеки-заглушки вы получите список поддерживаемых в настоящее время систем защиты и идентификаторы GUID, используемые для их обнаружения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

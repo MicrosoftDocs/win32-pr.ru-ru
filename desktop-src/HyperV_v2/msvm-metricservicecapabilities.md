@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 635e153d3184e74ea581a045e3d6d54a5fea199f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37fed3fead642ecfc5370d55c9f8b954477406b4b276cac392d9776a0cefb338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119521334"
 ---
 # <a name="msvm_metricservicecapabilities-class"></a>\_Класс мсвм метриксервицекапабилитиес
 
@@ -67,13 +67,13 @@ class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ метриксервицекапабилитиес** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -283,7 +283,7 @@ class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 | <dl> <dt>3</dt> </dl>  | Отключит<br/>  |
 | <dl> <dt>4</dt> </dl>  | Завершение работы<br/> |
 | <dl> <dt>6</dt> </dl>  | Автономная миграция<br/>   |
-| <dl> <dt>7</dt> </dl>  | Тест<br/>      |
+| <dl> <dt>7</dt> </dl>  | Тестирование<br/>      |
 | <dl> <dt>8</dt> </dl>  | Которого<br/>     |
 | <dl> <dt>9</dt> </dl>  | Замораживани<br/>   |
 | <dl> <dt>10</dt> </dl> | Перезагрузка<br/>    |
@@ -325,21 +325,21 @@ class Msvm_MetricServiceCapabilities : CIM_MetricServiceCapabilities
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

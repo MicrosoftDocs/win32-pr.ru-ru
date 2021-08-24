@@ -6,22 +6,22 @@ keywords:
 - скачивание битов, заголовок HTTP
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 0b7858d5b2467f52681b325e2bfbe65b96889e0d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e9fe2c1671d26854da119938b426bc662324fe701d7f24d1885ff7b88e2df1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528533"
 ---
 # <a name="how-to-get-the-last-set-of-http-headers-received-for-each-file-in-a-bits-download-job"></a>Получение последнего набора заголовков HTTP, полученных для каждого файла в задании загрузки BITS
 
-В этом примере показано, как использовать метод [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) интерфейса New для получения последних заголовков [**http, полученных**](/windows/desktop/api/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty) для каждого файла в задании загрузки фоновая интеллектуальная служба передачи (BITS). Сведения в заголовке HTTP можно использовать, например, для определения типа файла или времени последнего изменения на сервере. До Windows 8 и Windows Server 2012 служба BITS не преддержала средств, с помощью которых приложение может извлечь и проверить заголовки HTTP-ответа для завершенной загрузки. В этом примере показано, как использовать API BITS для создания задания BITS с несколькими URL-адресами для скачивания, перечисления URL-адресов в задании и получения заголовков HTTP-ответа для каждого URL-адреса.
+В этом примере показано, как использовать метод [**IBackgroundCopyJob5**](/windows/desktop/api/Bits5_0/nn-bits5_0-ibackgroundcopyjob5) интерфейса New для получения последних заголовков [**http, полученных**](/windows/desktop/api/Bits5_0/nf-bits5_0-ibackgroundcopyjob5-getproperty) для каждого файла в задании загрузки фоновая интеллектуальная служба передачи (BITS). Сведения в заголовке HTTP можно использовать, например, для определения типа файла или времени последнего изменения на сервере. до Windows 8 и Windows Server 2012 служба BITS не предполагала средств, с помощью которых приложение может извлечь и проверить заголовки HTTP-ответа для завершенной загрузки. В этом примере показано, как использовать API BITS для создания задания BITS с несколькими URL-адресами для скачивания, перечисления URL-адресов в задании и получения заголовков HTTP-ответа для каждого URL-адреса.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   Microsoft Visual Studio;
 
@@ -730,9 +730,9 @@ VOID DisplayError(__in IBackgroundCopyJob *Job)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

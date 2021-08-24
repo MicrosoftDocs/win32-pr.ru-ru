@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - wzcsapi.h
-ms.openlocfilehash: 91f25708e79be4f85c4200bd690404ff39f567d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d14c65d49d7ed28e2756c2a690cb4a7efa9000417e896a206710bf4365f8cd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065154"
 ---
 # <a name="intf_key_entry-structure"></a>\_ \_ Структура ввода ключа intf
 
-\[**Intf \_ \_Запись ключа** больше не поддерживается в Windows Vista и windows Server 2008. Вместо этого используйте [собственный интерфейс API Wi-Fi](native-wifi-reference.md), который предоставляет аналогичные функциональные возможности. Дополнительные сведения см. [в статье о встроенном API Wi-Fi](about-the-native-wifi-api.md).\]
+\[**Intf \_ \_запись ключа** больше не поддерживается для Windows Vista и Windows Server 2008. Вместо этого используйте [собственный интерфейс API Wi-Fi](native-wifi-reference.md), который предоставляет аналогичные функциональные возможности. Дополнительные сведения см. [в статье о встроенном API Wi-Fi](about-the-native-wifi-api.md).\]
 
 В **структуре \_ \_ ввода ключа intf** хранятся основные сведения об интерфейсе беспроводной локальной сети, управляемом службой настройки беспроводной связи.
 
@@ -48,28 +48,28 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Файл заголовка *взксапи. h* недоступен в Windows SDK.
+> файл заголовка *взксапи. h* недоступен в Windows SDK.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/>                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
-| Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления 3 (SP3)<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/>                                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
+| Окончание поддержки клиента<br/>    | Windows XP с пакетом обновления SP3<br/>                                                       |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Взксапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Взксапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

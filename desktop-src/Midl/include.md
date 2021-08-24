@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2aab7b7262bceb330e3f4645e4f16035b783197
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 827ec8deec34a42d39fc3973dff73e9912ecb96bfee62e348ef7aebfee6ee9f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104133106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067212"
 ---
 # <a name="include-attribute"></a>include attribute
 
@@ -38,14 +38,14 @@ include filenames;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В результате выполнения инструкции **include** созданный код-заглушка будет содержать инструкцию C-препроцессор **\# include** . При компиляции заглушек вы предоставляете заголовочный файл языка C. Инструкции include используют механизм поиска в структуре каталогов для включенных файлов.
 
 > [!Note]  
 > Используйте директиву [**Import**](import.md) вместо директивы **include** для системных файлов, содержащих типы данных, которые необходимо сделать доступными для IDL-файла. Директива **Import** игнорирует прототипы функций и позволяет использовать параметры компилятора MIDL, которые оптимизируют создание подпрограмм поддержки.
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -70,9 +70,9 @@ include "gendefs.h", "protos.h", "mystuff.h";
 [Импорт системных файлов заголовков](importing-system-header-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

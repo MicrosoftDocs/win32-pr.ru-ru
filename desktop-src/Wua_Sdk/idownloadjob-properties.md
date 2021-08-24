@@ -4,12 +4,12 @@ ms.assetid: 50e672d7-0ad6-402d-878c-4ac79b70a036
 title: Свойства Идовнлоаджоб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18c9bd940b4b091f2eeefbaaa2a60d66306a3e14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2cdd4f95a14df215017f9fd628497d15c6c7410e4a82cbfb53c076b2112899b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049345"
 ---
 # <a name="idownloadjob-properties"></a>Свойства Идовнлоаджоб
 
@@ -21,7 +21,7 @@ ms.locfileid: "105701647"
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AsyncState**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_asyncstate)   | Возвращает объект состояния, относящегося к вызывающему объекту, который передается в метод [**иупдатедовнлоадер. BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload) .           |
 | [**IsCompleted**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_iscompleted) | Возвращает параметр, указывающий, полностью ли был обработан вызов [**иупдатедовнлоадер. BeginDownload**](/windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-begindownload) . |
-| [**Обновления**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_updates)         | Возвращает интерфейс, содержащий доступную только для чтения коллекцию обновлений, указанных в скачивании.                                                  |
+| [**Обновляем**](/windows/desktop/api/Wuapi/nf-wuapi-idownloadjob-get_updates)         | Возвращает интерфейс, содержащий доступную только для чтения коллекцию обновлений, указанных в скачивании.                                                  |
 
 
 

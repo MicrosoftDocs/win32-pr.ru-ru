@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9bf52fc8c2381837a21cd87115626552ec1a6e4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cba2029884af965ca473f54948c20fee383fa9c22b3716c0fec0168e3e615f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119006902"
 ---
 # <a name="extensionoid-property"></a>Свойство Extension. OID
 
@@ -39,7 +39,7 @@ Extension.OID As OID
 
 Объект [**OID**](oid.md) , представляющий идентификатор объекта расширения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

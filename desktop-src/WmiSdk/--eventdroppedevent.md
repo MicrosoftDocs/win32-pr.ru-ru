@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 4e9f68328a3c5c455c98e85a65d53156da6eeada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 695381a3471dcc744cae10622ee9e7935b2770941a770bd0e4e4e93e591a9220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051092"
 ---
 # <a name="__eventdroppedevent-class"></a>\_\_Класс Евентдроппедевент
 
@@ -49,7 +49,7 @@ class __EventDroppedEvent : __SystemEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ евентдроппедевент** имеет следующие свойства.
 
@@ -109,11 +109,11 @@ class __EventDroppedEvent : __SystemEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ евентдроппедевент** является производным от [**\_ \_ системевент**](--systemevent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -125,7 +125,7 @@ class __EventDroppedEvent : __SystemEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

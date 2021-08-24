@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b85ff937b720a69ee2722cef2f02b25273ea58d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b23de0b23b0b87f559326c37ad61ecd09c38f697f0be48b45e92f5e7389b09fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104070828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588824"
 ---
 # <a name="ack-for-cancel-session"></a>Подтверждение для Cancel-Session
 
@@ -85,11 +85,11 @@ Replace Error-context с шестнадцатеричным числом, пре
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Клиент BITS повторно отправляет пакет [**отмены сеанса**](cancel-session.md) , если код причины находится в диапазоне от 500 до 599, если не указан заголовок BITS-Error-code со значением \_ \_ \_ не найденного сеанса BG E \_ . Клиент не будет пытаться повторять коды причин с 100 по 499.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -99,9 +99,9 @@ Replace Error-context с шестнадцатеричным числом, пре
 [**Отмена — сеанс**](cancel-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

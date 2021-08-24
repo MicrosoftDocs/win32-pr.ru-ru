@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: 735b6179fe9d72b5faf0cad976410aeace427f63
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 58492b8b334085a6dd03c397558c4f10bc1fa4aff441f5b7bbfc7ba7cf37b0bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104495849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589004"
 ---
 # <a name="targetforwardingdestination-class"></a>Класс Таржетфорвардингдестинатион
 
@@ -66,7 +66,7 @@ class TargetForwardingDestination
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **таржетфорвардингдестинатион** имеет следующие свойства.
 
@@ -264,7 +264,7 @@ MAC-адрес целевого компьютера (если известен)
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -272,7 +272,7 @@ MAC-адрес целевого компьютера (если известен)
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                       |
-| Пространство имен<br/>                | Корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
+| Пространство имен<br/>                | корневой \\ узел Microsoft \\ Windows \\ бутевентколлектор<br/>                                              |
 | MOF<br/>                      | <dl> <dt>Бутевентколлекторвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>BEvtCol.exe</dt> </dl>               |
 

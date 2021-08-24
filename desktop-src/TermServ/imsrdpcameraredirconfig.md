@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: fbb0f3344e0653ea4a87c876bb8ca7b8a67e7d21
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: aa030d462a16eacd521709c5be534f3d90e14f446da519490ee62f0260766084
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "104536383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119574544"
 ---
 # <a name="imsrdpcameraredirconfig-interface"></a>Интерфейс IMsRdpCameraRedirConfig
 
@@ -32,7 +32,7 @@ ms.locfileid: "104536383"
 
 - [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **имсрдпкамераредирконфиг** имеет следующие свойства.
 
@@ -45,7 +45,7 @@ ms.locfileid: "104536383"
 | [**Redirected**](imsrdpcameraredirconfig-redirected.md)      | Чтение/запись |  Указывает, будет ли перенаправлена камера.  |
 | [**SymbolicLink**](imsrdpcameraredirconfig-symboliclink.md)                       | Только для чтения |   Возвращает символьную ссылку интерфейса **KSCATEGORY_VIDEO_CAMERA** для камеры.   |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -54,7 +54,7 @@ ms.locfileid: "104536383"
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ имсрдпкамераредирконфиг определен как 09750604-D625-47C1-9FCD-F09F735705D7            |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [**IMsRdpCameraRedirConfigCollection**](imsrdpcameraredirconfigcollection.md)
 - [**IMsRdpClientNonScriptable7:: Камераредирконфигколлектион**](imsrdpclientnonscriptable7-cameraredirconfigcollection.md)

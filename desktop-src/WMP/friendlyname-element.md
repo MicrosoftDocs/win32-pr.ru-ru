@@ -3,7 +3,7 @@ title: FriendlyName, элемент
 description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования Интернет-магазинами. | FriendlyName, элемент
 ms.assetid: 9f5de0f9-609c-4b4d-8fda-4d65995aea79
 keywords:
-- Элемент FriendlyName проигрыватель Windows Media
+- элемент FriendlyName проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d93484937f14b233c995a041acc21f5e5eae383b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f48f14dac372767c0553f3215a2336a5ebedbfb1a363ec91d17309efb2cced21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648114"
 ---
 # <a name="friendlyname-element"></a>FriendlyName, элемент
 
@@ -27,7 +27,7 @@ ms.locfileid: "105698778"
 
  
 
-Элемент **FriendlyName** указывает текстовую строку, которую проигрыватель Windows Media отображает пользователю для обнаружения интернет-магазина.
+элемент **FriendlyName** указывает текстовую строку, которую проигрыватель Windows Media отобразить пользователю для указания интернет-магазина.
 
 ``` syntax
 <FriendlyName>
@@ -52,17 +52,17 @@ ms.locfileid: "105698778"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии.<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

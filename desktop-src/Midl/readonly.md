@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4ef4ca5f32b96146ed5ab0ec085d32b24dca3a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4d0d534efe8df1f4d05cd0b536a78094f903870d896114ee8b614511e067025b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013682"
 ---
 # <a name="readonly-attribute"></a>readonly - атрибут
 
@@ -52,7 +52,7 @@ ms.locfileid: "103987461"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ ReadOnly \]** запрещает Присваивание переменной. **\[ ReadOnly \]** поддерживается только на уровне параметров, а не на уровне метода.
 
@@ -66,7 +66,7 @@ ms.locfileid: "103987461"
 HRESULT Method3([in, readonly] int iMmutable);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -82,6 +82,6 @@ HRESULT Method3([in, readonly] int iMmutable);
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

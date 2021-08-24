@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2cff9594bfd39cf365020a1da8ae2f1ec0aea562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9542d53ad56c736d8dc2fc3950e6e95c92f923b8179f03d52639c0c7ad898c60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531734"
 ---
 # <a name="msvm_concretejob-class"></a>\_Класс мсвм конкретежоб
 
@@ -163,7 +163,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -441,7 +441,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>
 
-<span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>**Изменение параметров службы управления** (4)
+<span id="Modify_Management_Service_Settings"></span><span id="modify_management_service_settings"></span><span id="MODIFY_MANAGEMENT_SERVICE_SETTINGS"></span>**изменение Параметры службы управления** (4)
 
 
 </dt> <dd></dd> <dt>
@@ -658,7 +658,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>
 
-<span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>**Изменение параметров сервера репликации** (90)
+<span id="Modify_Replication_Server_Settings"></span><span id="modify_replication_server_settings"></span><span id="MODIFY_REPLICATION_SERVER_SETTINGS"></span>**изменение Параметры сервера репликации** (90)
 
 
 </dt> <dd></dd> <dt>
@@ -672,7 +672,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>
 
-<span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>**Изменение параметров отношений репликации** (92)
+<span id="Modify_Replication_Relationship_Settings"></span><span id="modify_replication_relationship_settings"></span><span id="MODIFY_REPLICATION_RELATIONSHIP_SETTINGS"></span>**изменение Параметры отношений репликации** (92)
 
 
 </dt> <dd></dd> <dt>
@@ -924,7 +924,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>
 
-<span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>**Изменение параметров Ethernet-коммутатора** (131)
+<span id="Modify_Ethernet_Switch_Settings"></span><span id="modify_ethernet_switch_settings"></span><span id="MODIFY_ETHERNET_SWITCH_SETTINGS"></span>**изменение Параметры Ethernet-коммутатора** (131)
 
 
 </dt> <dd></dd> <dt>
@@ -987,7 +987,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>
 
-<span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>**Изменение параметров, не являющихся аллоктион, для пула ресурсов** (152)
+<span id="Changing_the_Non-alloction_Settings_of_a_Resource_Pool"></span><span id="changing_the_non-alloction_settings_of_a_resource_pool"></span><span id="CHANGING_THE_NON-ALLOCTION_SETTINGS_OF_A_RESOURCE_POOL"></span>**изменение не аллоктион Параметры пула ресурсов** (152)
 
 
 </dt> <dd></dd> <dt>
@@ -1015,7 +1015,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 <span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>
 
-<span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>**Изменение параметров трехмерной службы** (162)
+<span id="Modify_3D_Service_Settings"></span><span id="modify_3d_service_settings"></span><span id="MODIFY_3D_SERVICE_SETTINGS"></span>**изменение Параметры 3d Service** (162)
 
 
 </dt> <dd>
@@ -1322,7 +1322,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 </dt> <dd>
 
 > [!Note]  
-> Значение, добавленное в Windows 10 в качестве контрольной **точки очистки**.
+> значение, добавленное в Windows 10 как **эталонная точка очистки**.
 
  
 
@@ -1365,7 +1365,7 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1773,25 +1773,25 @@ class Msvm_ConcreteJob : CIM_ConcreteJob
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ конкретежоб мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

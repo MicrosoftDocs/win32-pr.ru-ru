@@ -1,41 +1,41 @@
 ---
-title: Использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному элементу управления ActiveX
-description: Описывает, как использовать автоматизацию пользовательского интерфейса Майкрософт \ 32; API, чтобы обеспечить доступность элемента управления Microsoft ActiveX без окон для клиентских приложений с поддержкой специальных возможностей (AT).
+title: использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному ActiveX управления
+description: Описывает, как использовать автоматизацию пользовательского интерфейса Майкрософт \ 32; API, чтобы обеспечить доступность безоконного элемента управления Microsoft ActiveX для клиентских приложений с поддержкой специальных возможностей (AT).
 ms.assetid: D584E90D-6537-4F48-8553-0DCA061FAF2A
 keywords:
-- Безоконный элемент управления ActiveX, Специальные возможности
+- безоконный контроль ActiveX, специальные возможности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba0ada1d26463b0654c1808f6e4fd43f571687d9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68ef56d5f3a06bbfa21502c791163f2251506a10fda7da9d07ee04941ad39de1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119570364"
 ---
-# <a name="how-to-use-ui-automation-to-make-a-windowless-activex-control-accessible"></a>Использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному элементу управления ActiveX
+# <a name="how-to-use-ui-automation-to-make-a-windowless-activex-control-accessible"></a>использование модели автоматизации пользовательского интерфейса для обеспечения доступа к безоконному ActiveX управления
 
-Описание использования API Microsoft UI Automation для обеспечения доступности элемента управления Microsoft ActiveX без окон для клиентских приложений с поддержкой специальных возможностей (AT).
+описывает, как использовать API microsoft UI Automation, чтобы убедиться, что безоконный элемент управления microsoft ActiveX доступен для клиентских приложений с поддержкой специальных технологий (AT).
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
 -   [Элементы управления ActiveX](/windows/desktop/com/activex-controls)
 -   [Модель автоматизации пользовательского интерфейса](entry-uiauto-win32.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Программирование Microsoft Win32 и объектной модели компонентов (COM)
--   Элементы управления ActiveX без окон
+-   безоконные элементы управления ActiveX
 -   Поставщики автоматизации пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
 ### <a name="step-1-implement-the-ui-automation-provider-interfaces"></a>Шаг 1. Реализация интерфейсов поставщика автоматизации пользовательского интерфейса.
 
-Чтобы сделать приложение доступным, необходимо реализовать интерфейсы поставщика автоматизации пользовательского интерфейса для безоконного элемента управления ActiveX, включая [**иравелементпровидерсимпле**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple), [**иравелементпровидерфрагмент**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment), [**иравелементпровидерфрагментрут**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)и [**IRawElementProviderAdviseEvents**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovideradviseevents). Эти интерфейсы следует реализовать так же, как для элемента управления на основе окна, за исключением описанных ниже действий. Дополнительные сведения о реализации интерфейсов поставщика UIA см. в разделе [Справочник программиста поставщика автоматизации пользовательского интерфейса](uiauto-providerportal.md).
+чтобы сделать приложение доступным, необходимо реализовать интерфейсы поставщика автоматизации пользовательского интерфейса для безоконного ActiveX управления, включая [**иравелементпровидерсимпле**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple), [**иравелементпровидерфрагмент**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment), [**иравелементпровидерфрагментрут**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)и [**IRawElementProviderAdviseEvents**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovideradviseevents). Эти интерфейсы следует реализовать так же, как для элемента управления на основе окна, за исключением описанных ниже действий. Дополнительные сведения о реализации интерфейсов поставщика UIA см. в разделе [Справочник программиста поставщика автоматизации пользовательского интерфейса](uiauto-providerportal.md).
 
 ### <a name="step-2-implement-the-iserviceprovider-interface"></a>Шаг 2. Реализация интерфейса IServiceProvider.
 
@@ -175,16 +175,16 @@ STDMETHODIMP CMyAccessibleUIAControl::GetRuntimeId(SAFEARRAY **ppRetVal)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование MSAA для обеспечения возможности доступа к безоконному элементу управления ActiveX](use-msaa-to-make-an-windowless-activex-control-accessible.md)
+[использование MSAA для обеспечения возможности управления ActiveX без окон](use-msaa-to-make-an-windowless-activex-control-accessible.md)
 </dt> <dt>
 
-[Специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
+[специальные возможности элемента управления ActiveX без окон](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

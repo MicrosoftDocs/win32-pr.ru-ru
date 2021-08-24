@@ -3,7 +3,7 @@ title: Сообщение EM_SETCTFMODEBIAS (RichEdit. h)
 description: Задает смещение режима в режиме платформы текстовых служб (TSF) для элемента управления расширенного редактирования.
 ms.assetid: 17e3aac8-2ba8-4c06-bfd6-e118cfb82529
 keywords:
-- Элементы управления Windows для EM_SETCTFMODEBIAS сообщений
+- элементы управления Windows сообщений EM_SETCTFMODEBIAS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b872fa5489c898ec4482ecdc094de7df6e3180be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fd6aa0f10b07092d9637d9e5a993848671ab6aa7e7eb610eca48c3df353c4a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019512"
 ---
 # <a name="em_setctfmodebias-message"></a>\_Сообщение СЕТКТФМОДЕБИАС EM
 
@@ -69,25 +69,25 @@ ms.locfileid: "104535060"
 
 В случае успеха возвращаемое значение является новым значением смещения режима TSF. В случае неудачи возвращаемое значение является старым значением смещения режима TSF.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение Microsoft Rich Edit использует TSF, оно может выбрать смещение режима TSF. Это сообщение задает критерии, по которым в верхней части списка появляется альтернативный вариант выбора.
 
 Чтобы установить сдвиг режима для редактора метода ввода (IME), используйте [**EM \_ сетимемодебиас**](em-setimemodebias.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 1 \[\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
