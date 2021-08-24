@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a4392a3c36b31deb4071c215ad9b41e7f40c21ee
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 65c9ac4d958f68aee8a958828c7cb54b5bec408afac1dfed8206ce6aa05dc4ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750454"
 ---
 # <a name="d3dxcompileshaderfromfile-function"></a>Функция D3DXCompileShaderFromFile
 
@@ -142,13 +142,13 @@ HRESULT D3DXCompileShaderFromFile(
 
 E \_ нотимпл возвращается при использовании шейдеров 1,1 (VS 1 1 \_ \_ и PS \_ 1 \_ 1).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5a12932d-053d-49c3-9f06-0c122ca293d0
 title: Обновление ярлыков для обновления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a3192bc9468dbe84c2968a968631b4a091b0705
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0bd41fa9377a4c7babbae8f4b12fb44c671b67f8760fe7692e7d5d785cb137a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809824"
 ---
 # <a name="updating-shortcuts-for-an-upgrade"></a>Обновление ярлыков для обновления
 

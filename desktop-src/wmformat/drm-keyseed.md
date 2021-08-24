@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 698db5fe5a1123af0a7b4623d304bf0569bbf253
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 46766dc5754bde33c00af250f03a54caf3c12c607ec14da858ac638a70f79baf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "105672251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658974"
 ---
 # <a name="drm_keyseed"></a>\_КЭЙСИД DRM
 
@@ -31,7 +31,7 @@ g \_ всзвмдрм \_ кэйсид
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство можно задать с помощью [**ивмдрмвритер:: сетдрматтрибуте**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute). Он недоступен для объекта Reader.
 
@@ -41,16 +41,16 @@ g \_ всзвмдрм \_ кэйсид
 
 Новое начальное значение ключа можно создать с помощью метода [**ивмдрмвритер:: женератекэйсид**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatekeyseed) или любых других подходящих средств.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,41 +1,41 @@
 ---
 title: Использование Bluetooth
-description: В этом разделе описываются задачи, связанные с написанием приложений на основе Windows для Bluetooth.
+description: в этом разделе описываются задачи, связанные с написанием приложений на основе Windows для Bluetooth.
 ms.assetid: a5eddf48-b548-44a8-ac09-ce16f8aa3943
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4b9b396de2635f9d1e76005c6638abb1d49c0ff
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: a80d57d12b2594ab5bbaeb5ad5d026552ab180ae409ba81446288ac396c746a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701834"
 ---
 # <a name="using-bluetooth"></a>Использование Bluetooth
 
-В этом разделе описываются задачи, связанные с написанием приложений на основе Windows для Bluetooth.
+в этом разделе описываются задачи, связанные с написанием приложений на основе Windows для Bluetooth.
 
-Bluetooth предоставляет определения программирования в файлах Ws2bth. h и Блуетусапис. h. Файл Бссдпдеф. h должен быть добавлен перед Блуетусапис. h. Файл Ws2bth. h должен быть добавлен после Winsock2. h для использования сокетов Bluetooth. Свяжите только с Бспропс. lib и избегайте связывания с Ирпропс. lib. Ирпропс. lib предоставляется только для обратной совместимости. Бспропс. lib доступен в пакете SDK для Windows Vista. Пакет Windows Vista SDK можно использовать для разработки приложений для Windows XP с пакетом обновления 2 (SP2). Пакет SDK для Windows Vista доступен в [центре загрузки](https://download.microsoft.com/download/a/7/7/a7767f09-0136-4a96-a1f8-276bf0ee31fa/Setup.exe).
+Bluetooth предоставляет определения программирования в файлах Ws2bth. h и блуетусапис. h. Файл Бссдпдеф. h должен быть добавлен перед Блуетусапис. h. файл Ws2bth. h должен быть добавлен после Winsock2. h для использования сокетов Bluetooth. Свяжите только с Бспропс. lib и избегайте связывания с Ирпропс. lib. Ирпропс. lib предоставляется только для обратной совместимости. бспропс. lib доступен в пакете SDK для Windows Vista. пакет SDK для Windows Vista можно использовать для разработки приложений для Windows XP с пакетом обновления 2 (sp2). пакет SDK для Windows Vista доступен в [центре загрузки](https://download.microsoft.com/download/a/7/7/a7767f09-0136-4a96-a1f8-276bf0ee31fa/Setup.exe).
 
 Все стандартные синхронные и перекрывающиеся механизмы для чтения и записи данных, которые в настоящее время поддерживаются другими семействами адресов, правильно работают с \_ семейством адресов БС.
 
-В пакет SDK входит пример кода, который показывает простое приложение Bluetooth, использующее протоколы Winsock 2,2 и RFCOMM. Исходный код для примера можно найти в расположении установки пакета SDK в разделе C: \\ Program Files \\ Microsoft SDKs \\ Windows \\ <version number> \\ Samples \\ нетдс \\ Winsock \\ Bluetooth.
+в пакет SDK входит пример кода, который показывает простое Bluetooth приложение, использующее протоколы Winsock 2,2 и RFCOMM. исходный код для примера можно найти в расположении установки пакета sdk в разделе C: \\ Program files \\ Microsoft sdks \\ Windows \\ <version number> \\ samples \\ нетдс \\ winsock \\ Bluetooth.
 
 В этом разделе описаны следующие темы.
 
 
 
-| Section                                                                                      | Content                                                                          |
+| Section                                                                                      | Содержимое                                                                          |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| [Программирование Bluetooth с помощью сокетов Windows](bluetooth-programming-with-windows-sockets.md) | Объясняется, как использовать интерфейсы сокетов Windows для реализации сети Bluetooth. |
+| [Bluetooth программирование с помощью сокетов Windows](bluetooth-programming-with-windows-sockets.md) | объясняется, как использовать интерфейсы сокетов Windows для реализации Bluetooth сети. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

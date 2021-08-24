@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 4ff3887f10d35ec3b66d8eaaf1443140c768ca55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b88c369145d53d32d23773072f878d9834110e705cd8ff623a3726cbb98b88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743884"
 ---
 # <a name="getnppblobfromui-function"></a>Функция Жетнппблобфромуи
 
@@ -70,7 +70,7 @@ DWORD GetNPPBlobFromUI(
 
 Если функция завершается неудачно, возвращается значение другого НМЕРР.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При вызове сетевой монитор отображает диалоговое окно **Выбор сети** , которое можно использовать для выбора сетевого адаптера. Большой двоичный объект НПП, представляющий сетевую карту, возвращается вызывающему приложению.
 

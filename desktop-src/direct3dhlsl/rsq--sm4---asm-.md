@@ -4,12 +4,12 @@ description: Поэлементный квадратный корень на у�
 ms.assetid: CDA3C2DF-2793-4CE3-87CE-4E0AA945A1BB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1528e9f187ff7d4fb6074d42a1c574686f3b22f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6ddf3a33abb701c0e33c9efeef9318b34fc833a952fda03835f62c5a0b0c3923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853444"
 ---
 # <a name="rsq-sm4---asm"></a>РСК (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "107998171"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Максимальная относительная ошибка — 2-21.
 
@@ -73,9 +73,9 @@ F означает ограничение по настоящему вещест
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

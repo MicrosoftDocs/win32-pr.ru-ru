@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8911ba1822b146de4a99ff1fe144afcfd8e212e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 258cb7e0d8d2cac8da40197aaa45028a56af0ff3a313d65c1a98c50d45b8d3b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119658164"
 ---
 # <a name="wmdrm_encrypt_scatter_block-structure"></a>\_ \_ \_ Структура блочного блока WMDRM Encrypt
 
@@ -64,21 +64,21 @@ typedef struct WMDRM_ENCRYPT_SCATTER_BLOCK {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется методом [**ивмдрменкриптскаттер:: енкриптскаттер**](iwmdrmencryptscatter-encryptscatter.md) для обнаружения блоков данных для шифрования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

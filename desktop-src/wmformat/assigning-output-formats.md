@@ -3,7 +3,7 @@ title: Назначение форматов вывода
 description: Назначение форматов вывода
 ms.assetid: 47697ffb-51cb-44cd-a0b0-7d85625a38f9
 keywords:
-- Windows Media Format SDK, назначение форматов выходных данных
+- Windows Пакет SDK для формата мультимедиа, назначение выходных форматов
 - Расширенный системный формат (ASF), назначение форматов вывода
 - ASF (Расширенный системный формат), назначение форматов вывода
 - Расширенный формат систем (ASF), выходные номера и форматы
@@ -12,12 +12,12 @@ keywords:
 - кодеки, выходные номера и форматы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 633673053a2b34a2f7aed5ed3f6ae66457a7ee13
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 80672419a032b2fff779259ffc6dcebfbe9e9a569f9d4b7afbb75ae5a84fac2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "105654269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659374"
 ---
 # <a name="assigning-output-formats"></a>Назначение форматов вывода
 
@@ -38,7 +38,7 @@ ms.locfileid: "105654269"
 
 5.  После того как вы нашли нужные выходные данные, задайте их для использования с модулем чтения, вызвав [**ивмреадер:: сетаутпутпропс**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops) (или [**Ивмсинкреадер:: сетаутпутпропс**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops)). Необходимо передать указатель на интерфейс **ивмаутпутмедиапропс** , полученный на первом шаге цикла.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -57,9 +57,9 @@ ms.locfileid: "105654269"
 [**Работа с выходами**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

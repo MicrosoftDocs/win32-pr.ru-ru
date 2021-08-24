@@ -3,7 +3,7 @@ title: Атрибут WM/Албумартист
 description: Атрибут WM/Албумартист является именем основного исполнителя для альбома.
 ms.assetid: 9da02a85-d0cf-41e3-ad5b-08b908315993
 keywords:
-- Windows Media Player для атрибута WM/Албумартист
+- проигрыватель Windows Media атрибута WM/албумартист
 topic_type:
 - apiref
 api_name:
@@ -12,45 +12,45 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e61c7f50c377468dd7cb58a2be8a63fd3df6a201
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 550805894ed3744400afe0e118834b437908f173447139b2c3ebad15391288a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761444"
 ---
 # <a name="wmalbumartist-attribute"></a>Атрибут WM/Албумартист
 
 Атрибут **WM/албумартист** является именем основного исполнителя для альбома.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Списки воспроизведения компакт-дисков](cd-playlist-attributes.md)
 -   [Дорожки компакт-диска](cd-track-attributes.md)
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится как в библиотеке (или в кэше), так и в файле цифрового носителя.
 
 **Албумартист** является псевдонимом для этого атрибута.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвмалбумартист.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвмалбумартист.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

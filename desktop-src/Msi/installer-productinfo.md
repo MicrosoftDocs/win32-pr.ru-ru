@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 03ad741dd1c92fe68caccc4582738e54032750e9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d04ad49fd8c1cf017131b5ded6be088e6436731b6bd97dd437060d09988d3aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745294"
 ---
 # <a name="installerproductinfo-property"></a>Свойство Installer. ProductInfo
 
@@ -37,7 +37,7 @@ propVal = Installer.ProductInfo
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **ProductInfo** ("локалпаккаже") не обязательно возвращает путь к кэшированному пакету. Установка режима обслуживания не должна вызываться из Локалпаккаже. Кэшированный пакет предназначен только для внутреннего использования.
 
@@ -47,8 +47,8 @@ propVal = Installer.ProductInfo
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 3,0 или более поздней версии в Windows Server 2003 или Windows XP.<br/> |
-| Header<br/>  | <dl> <dt>Оемупжекс. h</dt> </dl>                                                                                                                                                                                 |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 3,0 или более поздней версии на Windows Server 2003 или Windows XP.<br/> |
+| Заголовок<br/>  | <dl> <dt>Оемупжекс. h</dt> </dl>                                                                                                                                                                                 |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                    |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                                         |
 
@@ -64,7 +64,7 @@ propVal = Installer.ProductInfo
 [**мсижетусеринфо**](/windows/desktop/api/Msi/nf-msi-msigetuserinfoa)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

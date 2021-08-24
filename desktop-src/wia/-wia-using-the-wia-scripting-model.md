@@ -1,5 +1,5 @@
 ---
-description: С помощью модели сценариев WIA функциональные возможности получения изображений (WIA) становятся доступными для языков сценариев, таких как Microsoft JScript Development Software и Microsoft Visual Basic Scripting Edition (VBScript), и высокоуровневых языков, таких как система разработки Microsoft Visual Basic.
+description: с помощью модели скриптов wia функция Windowsного получения изображений (wia) становится доступной для языков сценариев, таких как microsoft JScript development software и microsoft Visual Basic scripting Edition (VBScript), и высокоуровневые языки, такие как система разработки Microsoft Visual Basic.
 ms.assetid: eec5dc91-7b32-4f38-bdfe-c11bddc17ba2
 title: Использование модели скриптов WIA
 ms.topic: article
@@ -9,19 +9,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: affa2c4368a83b2d67c1c6219b76040ba043a1f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8b694b35f5b486d3a9d65dfc99f513bf14c8689d1d86fba03c019991e2fcc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813656"
 ---
 # <a name="using-the-wia-scripting-model"></a>Использование модели скриптов WIA
 
-С помощью [модели сценариев WIA](-wia-wia-scripting-model.md)функциональные возможности получения изображений (WIA) становятся доступными для языков сценариев, таких как Microsoft JScript Development Software и Microsoft Visual Basic Scripting Edition (VBScript), и высокоуровневых языков, таких как система разработки Microsoft Visual Basic.
+с помощью [модели скриптов wia](-wia-wia-scripting-model.md)функция Windowsного получения изображений (wia) становится доступной для языков сценариев, таких как microsoft JScript development software и microsoft Visual Basic scripting Edition (VBScript), и высокоуровневые языки, такие как система разработки Microsoft Visual Basic.
 
 > [!Note]  
-> Эта система сценариев была заменена на уровень автоматизации службы "получение образа Windows" (WIA). См. раздел [уровень службы "получение образа Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)".
+> эта система сценариев была заменена на уровень автоматизации службы Windowsного получения изображений (WIA). см. раздел [уровень автоматизации получения образа Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
 
  
 

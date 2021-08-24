@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Написание поставщика ассоциаций для взаимодействия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f38f09a5c5771fe7fd04909f8247834b646ad1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: b2d45ceebf9f3465bf9485f4105d9ea2e4438a25c9d169193a8b68c19669b51b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105714065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794274"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>Написание поставщика ассоциаций для взаимодействия
 
@@ -18,7 +18,7 @@ ms.locfileid: "105714065"
 
 Поставщики ассоциаций используются для предоставления стандартных профилей, таких как профиль питания. Это достигается путем записи поставщика ассоциаций в корневое пространство имен/Interop, которое предоставляет экземпляры ассоциаций путем реализации класса, производного от [**CIM \_ регистередпрофиле**](/previous-versions//ee309375(v=vs.85)). Для поддержки обхода перекрестного пространства имен поставщик должен быть зарегистрирован как в корневом, так и в ходе, а также в корневом/ <implemented> пространстве имен.
 
-Инструментарий управления Windows (WMI) (WMI) загружает поставщик ассоциаций каждый раз, когда запрос ассоциации выполняется в пространстве имен root или Interop.
+Windows Инструментарий управления (WMI) загружает поставщик ассоциаций каждый раз, когда запрос ассоциации выполняется в пространстве имен root или Interop.
 
 **Реализация поставщика взаимосвязей для взаимодействия**
 
@@ -49,7 +49,7 @@ ms.locfileid: "105714065"
     ```
 
     > [!Note]  
-    > Для клиентов Windows свойству **RegisteredOrganization** должно быть присвоено значение 1, а свойству **Осеррегистередорганизатион** — значение Microsoft.
+    > для Windows клиентов свойству **RegisteredOrganization** должно быть присвоено значение 1, а свойству **осеррегистередорганизатион** — значение Microsoft.
 
      
 
@@ -81,7 +81,7 @@ ms.locfileid: "105714065"
         };
         ```
 
-        Если квалификатор **MSFT \_ targetNamespace** не задан для свойства, ссылающегося на реализованное пространство имен, фильтр **ресулткласс** оператора "соединители" не будет работать. Например, если квалификатор **MSFT \_ targetNamespace** не указан, следующая командная строка Windows PowerShell не будет возвращать объект: **Get-WmiObject-Query "-соединители {процесспрофиле. InstanceId = ' Process '}, где Ресулткласс =" \_ процесс Win32 "**.
+        Если квалификатор **MSFT \_ targetNamespace** не задан для свойства, ссылающегося на реализованное пространство имен, фильтр **ресулткласс** оператора "соединители" не будет работать. например, если квалификатор **MSFT \_ TargetNamespace** не указан, следующая Windows PowerShell командной строки не будет возвращать объект: **get-wmiobject-query "-соединители {процесспрофиле. InstanceID =" процесс "}, где ресулткласс =" \_ процесс Win32 "**.
 
         Квалификатор **MSFT \_ targetNamespace** не может указывать на пространство имен на удаленном компьютере. Например, следующее пространство имен не поддерживается: MSFT \_ targetNamespace ( \\ \\ \\ \\ <RemoteMachine> \\ \\ корневое \\ \\ взаимодействие).
 
@@ -131,12 +131,12 @@ ms.locfileid: "105714065"
     };
     ```
 
-4.  Поместите схему для [**\_ елементконформстопрофиле CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) в реализованное пространство имен. Для клиентов Windows это файл Interop. mof, расположенный в папке% systemroot% \\ system32 \\ WBEM.
+4.  Поместите схему для [**\_ елементконформстопрофиле CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) в реализованное пространство имен. для Windows клиентов это файл interop. mof, расположенный в папке% systemroot% \\ system32 \\ wbem.
 5.  Реализуйте интерфейс [**ивбемпровидеринит**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) для поставщика.
 
     Инструментарий WMI использует [**ивбемпровидеринит**](/windows/desktop/api/Wbemprov/nn-wbemprov-iwbemproviderinit) для загрузки и инициализации поставщика. Метод [**IWbemProviderInit.Iniтиализе**](/windows/desktop/api/Wbemprov/nf-wbemprov-iwbemproviderinit-initialize) должен быть реализован таким образом, который позволяет вызывать его для двух разных пространств имен. Дополнительные сведения см. [в разделе Инициализация поставщика](initializing-a-provider.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

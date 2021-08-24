@@ -4,12 +4,12 @@ ms.assetid: 402f8d71-ad52-486d-be26-8b41a3f22045
 title: Сообщение WM_WININICHANGE (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b8db6c4794a8c1a572f61028d32eaeaf578d0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81cfdfeff65c1580f0bd8373fdc5ef1eec409233a9624934ea67ba835ddf805e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810464"
 ---
 # <a name="wm_wininichange-message"></a>\_Сообщение ВИНИНИЧАНЖЕ WM
 
@@ -53,17 +53,17 @@ ms.locfileid: "103991080"
 
 При обработке этого сообщения возвращается нуль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы отправить сообщение **WM \_ вининичанже** всем окнам верхнего уровня, используйте функцию [**SendMessage**](/windows/win32/api/winuser/nf-winuser-sendmessage) с параметром *HWND* , для которого установлено значение **HWND \_ Broadcast**.
 
 Вместо этого вызовы функций, которые изменяют WIN.INI, могут быть сопоставлены с реестром. Это сопоставление происходит, когда WIN.INI и изменяемый раздел указываются в реестре в следующем разделе:
 
-**HKEY \_ локальный \_ компьютер \\ программное обеспечение \\ Microsoft \\ Windows NT \\ CurrentVersion \\ IniFileMapping**
+**HKEY \_ \_ \\ программное обеспечение на локальном компьютере \\ Microsoft \\ Windows NT \\ CurrentVersion \\ IniFileMapping**
 
 Изменение места хранения не влияет на поведение этого сообщения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,11 +71,11 @@ ms.locfileid: "103991080"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

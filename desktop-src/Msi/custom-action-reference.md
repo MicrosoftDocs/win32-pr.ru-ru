@@ -4,12 +4,12 @@ ms.assetid: f4815190-4900-4129-83e2-8b05302a88ca
 title: Ссылка на настраиваемое действие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0ceb6d3c12385800997ef293792355ae23e0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8f607c45b0b94a7e55ffc521cbd05b5a61ccc91da5ddce2fbee06ba615579a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745754"
 ---
 # <a name="custom-action-reference"></a>Ссылка на настраиваемое действие
 
@@ -22,9 +22,9 @@ ms.locfileid: "103913507"
 -   [Параметр удаления исправления настраиваемого действия](custom-action-patch-uninstall-option.md)
 -   [Параметры обработки возвращаемых пользовательских действий](custom-action-return-processing-options.md)
 -   [Возвращаемые значения настраиваемого действия](custom-action-return-values.md)
--   [Возвращаемые значения настраиваемых действий JScript и VBScript](return-values-of-jscript-and-vbscript-custom-actions.md)
+-   [возвращаемые значения JScript и настраиваемых действий VBScript](return-values-of-jscript-and-vbscript-custom-actions.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

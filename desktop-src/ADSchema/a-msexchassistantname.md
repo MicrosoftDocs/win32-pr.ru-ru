@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb81eceaed3c22c70fc75ae39b7eccb113013f7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e8638597e234100e6775618472788761af341bc1138c3fed613173038a26dbc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763144"
 ---
 # <a name="ms-exch-assistant-name-attribute"></a>Имя атрибута MS-дов-Assistant
 
@@ -57,7 +57,7 @@ ms.locfileid: "103804655"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
@@ -78,7 +78,7 @@ ms.locfileid: "103804655"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
@@ -99,7 +99,7 @@ ms.locfileid: "103804655"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
@@ -120,7 +120,7 @@ ms.locfileid: "103804655"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
@@ -141,7 +141,7 @@ ms.locfileid: "103804655"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |

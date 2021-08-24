@@ -57,12 +57,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ea9a33d665a315861d9e6c51fd529f10f07b4aab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1508cff8d55f7fd761e14333fc70b0a4fafcfa1b2658130d7274f2d3193899ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811804"
 ---
 # <a name="msvm_timesynccomponent-class"></a>\_Класс мсвм тимесинккомпонент
 
@@ -179,7 +179,7 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 | Значение                                                                        | Значение                   |
 |------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>6</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>6</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -200,7 +200,7 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -504,7 +504,7 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -732,7 +732,7 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -846,7 +846,7 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 | Значение                                                                         | Значение                   |
 |-------------------------------------------------------------------------------|---------------------------|
-| <dl> <dt>12</dt> </dl> | Не применимо<br/> |
+| <dl> <dt>12</dt> </dl> | Н/Д<br/> |
 
 
 
@@ -854,25 +854,25 @@ class Msvm_TimeSyncComponent : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Доступ к классу **\_ тимесинккомпонент мсвм** может быть ограничен фильтром контроля учетных записей. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

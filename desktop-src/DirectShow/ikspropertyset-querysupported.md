@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: a13c8523d45278ad403ee08d0822fb853b301520
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7c79e81171349e2c481535eeab212717de072b17778b052dac3fc377cea0e094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792324"
 ---
 # <a name="ikspropertysetquerysupported-method"></a>Метод Икспропертисет:: Куерисуппортед
 
@@ -91,10 +91,10 @@ HRESULT QuerySupported(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> Другой интерфейс с таким именем существует в файле заголовка дсаунд. h. Два интерфейса несовместимы. Интерфейс **иксконтрол** , документированный в пакете DDK по DirectShow, теперь является рекомендуемым интерфейсом для передачи наборов свойств между драйверами WDM и компонентами пользовательского режима.
+> Другой интерфейс с таким именем существует в файле заголовка дсаунд. h. Два интерфейса несовместимы. интерфейс **иксконтрол** , документированный в DirectShow DDK, теперь является рекомендуемым интерфейсом для передачи наборов свойств между драйверами WDM и компонентами пользовательского режима.
 
  
 

@@ -3,7 +3,7 @@ title: Сообщение TVM_GETINDENT (Коммктрл. h)
 description: Извлекает величину отступа (в пикселях) дочерних элементов относительно их родительских элементов. Это сообщение можно отправить явным образом или с помощью \_ макроса TreeView.
 ms.assetid: 4109714e-94a3-4c88-96e7-b4b8ec67f4a1
 keywords:
-- Элементы управления Windows для TVM_GETINDENT сообщений
+- элементы управления Windows сообщений TVM_GETINDENT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33775341adc47d84ead9a633d7d31b16ffc4a723
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bbee65da49efc19954209b2694d783761017d8c2ae53030e755b8bea61213276
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834184"
 ---
 # <a name="tvm_getindent-message"></a>TVM. \_ сообщение с отступом
 
@@ -39,15 +39,15 @@ ms.locfileid: "103892602"
 
 Возвращает величину отступа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

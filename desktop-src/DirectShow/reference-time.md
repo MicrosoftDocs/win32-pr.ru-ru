@@ -4,12 +4,12 @@ ms.assetid: 862c95bc-2e0a-42c0-b907-45f64f27bd41
 title: REFERENCE_TIME (Стрмиф. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab88576f611674f5b208c5c39d328c77dcf57aec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08f1600e820ac59c53144743933701a61e4a7b753f814dde06c5c663a760938d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747324"
 ---
 # <a name="reference_time"></a>\_время ссылки
 
@@ -22,7 +22,7 @@ typedef LONGLONG REFERENCE_TIME;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип данных **ссылочного \_ времени** — это 64-разрядное целое число.
 
@@ -39,7 +39,7 @@ typedef LONGLONG REFERENCE_TIME;
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Стрмиф. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Стрмиф. h (включение DShow. h)</dt> </dl> |
 
 
 
@@ -47,7 +47,7 @@ typedef LONGLONG REFERENCE_TIME;
 
 <dl> <dt>
 
-[Типы данных DirectShow](directshow-data-types.md)
+[DirectShow Типы данных](directshow-data-types.md)
 </dt> </dl>
 
  

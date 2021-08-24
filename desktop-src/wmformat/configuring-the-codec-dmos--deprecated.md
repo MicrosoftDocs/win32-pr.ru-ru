@@ -1,6 +1,6 @@
 ---
 title: Настройка кодека дмос
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Настройка кодека дмос
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | Настройка кодека дмос
 ms.assetid: f4967de1-cb2e-4839-b59a-49e8bdb0e3d9
 keywords:
 - Настройка формата кодека дмос Windows Media
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a56f3af56a3bacb8971192067c7346c47e88ca6e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7f195ac64088d030efb0c35c39b14df714f6d83cc602fb64f5121317c9bdfdff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104424273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809794"
 ---
 # <a name="configuring-the-codec-dmos"></a>Настройка кодека дмос
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

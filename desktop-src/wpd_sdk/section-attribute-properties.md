@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства данных раздела.
+description: Windows Портативные устройства поддерживают следующие свойства данных раздела.
 ms.assetid: 8760d963-fc07-4b54-aa24-5725f4b95ed2
 title: Свойства атрибута раздела (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 383e2e50aa5d2a922ad50609e316b3dc9905cc38
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21c2386175fe2c3117afd722bd9a6762b605acbc51e299d33934d161974db796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704334"
 ---
 # <a name="section-attribute-properties"></a>Свойства атрибута раздела
 
-Портативные устройства Windows поддерживают следующие свойства данных раздела.
+Windows Портативные устройства поддерживают следующие свойства данных раздела.
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "105718117"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 

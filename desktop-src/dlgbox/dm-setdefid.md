@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ceda9ac9e8fd399604e9c55431b8fcd74646f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92749cc7eca569b57d239a36bb6559e59a6a7ebc31c63787a93d0720b334d1ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741754"
 ---
 # <a name="dm_setdefid-message"></a>\_Сообщение СЕТДЕФИД DM
 
@@ -55,7 +55,7 @@ ms.locfileid: "104535264"
 
 Возвращаемое значение всегда равно **true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение обрабатывается функцией [**дефдлгпрок**](/windows/desktop/api/Winuser/nf-winuser-defdlgprocw) . Чтобы задать кнопку по умолчанию, функция может отправлять сообщения [**WM \_ Жетдлгкоде**](wm-getdlgcode.md) и [**BM \_ SETSTYLE**](../controls/bm-setstyle.md) в указанный элемент управления и текущую кнопку по умолчанию.
 
@@ -69,7 +69,7 @@ ms.locfileid: "104535264"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

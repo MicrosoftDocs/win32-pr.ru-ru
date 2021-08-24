@@ -3,16 +3,16 @@ title: Поставщики систем
 description: Включите события поставщика трассировки системы с помощью EnableTraceEx2.
 ms.topic: article
 ms.date: 06/02/2021
-ms.openlocfilehash: 48a93ab94b87a43e0eb8a292320536a04ef43477
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 46c141c6449594b8030ce24bb901b0afede33f3f6e2cefcaa36f4df4bf0dde0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812154"
 ---
 # <a name="system-providers"></a>Поставщики систем
  
-Начиная с Windows 10 SDK Build 20348 события поставщика трассировки системы могут быть включены так же, как другие поставщики ETW с [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).  Различные флаги и [маски групп](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) , связанные с системным поставщиком трассировки, были сопоставлены с новыми поставщиками трассировки, называемыми поставщиками систем, и совпадающими ключевыми словами.  
+начиная с Windows 10 SDK сборки 20348, события поставщика трассировки системы могут быть включены так же, как другие поставщики ETW с [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2).  Различные флаги и [маски групп](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) , связанные с системным поставщиком трассировки, были сопоставлены с новыми поставщиками трассировки, называемыми поставщиками систем, и совпадающими ключевыми словами.  
  
 Как и непосредственное включение поставщика трассировки системы, поставщики систем можно включить только с помощью сеанса с набором [EVENT_TRACE_SYSTEM_LOGGER_MODE](/windows/win32/etw/logging-mode-constants) .
 

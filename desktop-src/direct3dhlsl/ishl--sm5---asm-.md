@@ -4,12 +4,12 @@ description: Сдвиг влево. | Ишл (SM5-ASM)
 ms.assetid: 3EE669BA-252D-4617-85B0-AEBB7F7E4C5E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 230034e66ca9adfbd6c94cc99351b485c6577fdf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d6908d12824c5aa84e04db38fb2462031bb2ae4a198700f98938456ecbd8619a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854214"
 ---
 # <a name="ishl-sm5---asm"></a>ishl (sm5 — asm)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104353125"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет покомпонентную смену каждого 32-битного значения в *src0* влево на число целых чисел без знака, обеспечиваемое значением ЛСБ 5 бит (диапазон 0-31) в *src1*, вставляя 0. Результаты 32-бит на компонент помещаются в *dest*.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104353125"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104353125"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

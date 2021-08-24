@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: e06184a0d3c654a2c0e82431ff25a339f5682837
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 81f15ca3c117cb3020165bb820d221d416198893b45285931fa6cf3b1f66eea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119749654"
 ---
 # <a name="d3dxtoradian"></a>D3DXToRadian
 
@@ -44,17 +44,17 @@ ms.locfileid: "105713634"
 
 Макрос возвращает значение градуса в радианах.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 79f5807dc2539d770d3caa41bddf7aa4960ce682
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b8e976ba1aecdeb792ba45fc4f60f25e7feb5a7dde3f7fc845a22962e441bf2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753534"
 ---
 # <a name="d3dx10_skinning_channel-structure"></a>\_Структура канала обложки D3DX10 \_
 
@@ -74,17 +74,17 @@ typedef struct D3DX10_SKINNING_CHANNEL {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

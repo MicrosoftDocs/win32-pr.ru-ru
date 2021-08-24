@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b8ab0a75f9ba68b5e47ac010950e822e17cd43
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51ab93963d8a95d5c75b2d1cb5df78d99ff55952aa743aad2895c4b8c739a904
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104137950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752784"
 ---
 # <a name="remote-mail-recipient-class"></a>Класс Remote-mail-получател
 
@@ -54,7 +54,7 @@ ms.locfileid: "104137950"
 
 | Ввод | Значение |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| System-Only                 | Неверно                                                                                                                                         |
+| System-Only                 | Нет                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
 | По умолчанию — объект — Категория     | \-                                                                                                                                            |
 | Governs-Id                  | 1.2.840.113556.1.5.24                                                                                                                         |
@@ -69,28 +69,28 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
 | attribute                                                                 | Обязательный | Унаследован от                                                                         |
 |---------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------|
-| [**Описание администратора**](a-admindescription.md)                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Имя администратора-отображение**](a-admindisplayname.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Allowed-Attributes**](a-allowedattributes.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Allowed-Child-classes**](a-allowedchildclasses.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md) | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Каноническое имя**](a-canonicalname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Комментировать**](a-info.md)                                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                               | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
-| [**Метка времени создания**](a-createtimestamp.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Описание**](a-description.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Отображаемое имя**](a-displayname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Описание администратора**](a-admindescription.md)                           | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Имя администратора-отображение**](a-admindisplayname.md)                          | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Allowed-Attributes**](a-allowedattributes.md)                         | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Allowed-Attributes-эффективен**](a-allowedattributeseffective.md)      | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Allowed-Child-classes**](a-allowedchildclasses.md)                    | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md) | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)             | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Каноническое имя**](a-canonicalname.md)                                 | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Комментировать**](a-info.md)                                                 | Нет     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Common-Name**](a-cn.md)                                               | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Метка времени создания**](a-createtimestamp.md)                            | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Описание**](a-description.md)                                      | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Отображаемое имя**](a-displayname.md)                                     | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Отображаемое имя — печатаемое**](a-displaynameprintable.md)                  | Нет     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**DSA-Signature**](a-dsasignature.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Имя расширения**](a-extensionname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -100,13 +100,13 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                        | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                         | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -115,10 +115,10 @@ ms.locfileid: "104137950"
 | [**MS-DS-Consistencу-Guid**](a-ms-ds-consistencyguid.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -188,9 +188,9 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -205,7 +205,7 @@ ms.locfileid: "104137950"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Комментировать**](a-info.md)                                                   | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -219,14 +219,14 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**лабеледури**](a-labeleduri.md)                                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                            | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                            | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                           | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -254,10 +254,10 @@ ms.locfileid: "104137950"
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -329,9 +329,9 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -346,7 +346,7 @@ ms.locfileid: "104137950"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Комментировать**](a-info.md)                                                   | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -360,14 +360,14 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**лабеледури**](a-labeleduri.md)                                          | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                            | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                            | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                           | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -398,10 +398,10 @@ ms.locfileid: "104137950"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -473,9 +473,9 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -490,7 +490,7 @@ ms.locfileid: "104137950"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Каноническое имя**](a-canonicalname.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Комментировать**](a-info.md)                                                      | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                                    | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                    | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Описание**](a-description.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Отображаемое имя**](a-displayname.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -504,14 +504,14 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**лабеледури**](a-labeleduri.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                              | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -554,10 +554,10 @@ ms.locfileid: "104137950"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -629,9 +629,9 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -646,7 +646,7 @@ ms.locfileid: "104137950"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Комментировать**](a-info.md)                                                        | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                                      | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Описание**](a-description.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Отображаемое имя**](a-displayname.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -660,7 +660,7 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -668,7 +668,7 @@ ms.locfileid: "104137950"
 | [**Является перезапущенным**](a-isrecycled.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**лабеледури**](a-labeleduri.md)                                               | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                                 | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                                | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -717,10 +717,10 @@ ms.locfileid: "104137950"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -792,7 +792,7 @@ ms.locfileid: "104137950"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -809,7 +809,7 @@ ms.locfileid: "104137950"
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Каноническое имя**](a-canonicalname.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Комментировать**](a-info.md)                                                                    | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Common-Name**](a-cn.md)                                                                  | True      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                                  | Верно      | [**Вверх**](c-top.md)<br/> [**Получатель почты**](c-mailrecipient.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Описание**](a-description.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Отображаемое имя**](a-displayname.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -823,7 +823,7 @@ ms.locfileid: "104137950"
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Мусор-Coll-период**](a-garbagecollperiod.md)                                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -831,7 +831,7 @@ ms.locfileid: "104137950"
 | [**Является перезапущенным**](a-isrecycled.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**лабеледури**](a-labeleduri.md)                                                           | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Устаревший — Exchange-DN**](a-legacyexchangedn.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
+| [**Legacy-Exchange-DN**](a-legacyexchangedn.md)                                             | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
 | [**Под управлением**](a-managedby.md)                                                            | Неверно     | **Удаленный адрес электронной почты — получатель**                                                            |
 | [**Управляемые объекты**](a-managedobjects.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**В основном**](a-masteredby.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
@@ -880,7 +880,7 @@ ms.locfileid: "104137950"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**MS-дов-Assistant-Name**](a-msexchassistantname.md)                                      | Неверно     | [**Получатель почты**](c-mailrecipient.md)<br/>                                 |
@@ -889,10 +889,10 @@ ms.locfileid: "104137950"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                                      |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                      |

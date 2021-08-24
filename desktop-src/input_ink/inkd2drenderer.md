@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Inkrenderer.idl
-ms.openlocfilehash: 1649d52c2e9098513c115daaf295c4005e890b8e
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 51383770b8eb0c5dca5efbb5f1756bee81ece506c0e92337e9df9a60eb0a8aee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104273219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726734"
 ---
 # <a name="inkd2drenderer-class"></a>Класс InkD2DRenderer
 
 Реализует интерфейс [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) .
 
-Объект [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) обеспечивает отрисовку рукописных штрихов в назначенном Direct2Dном контексте универсального приложения Windows вместо элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) по умолчанию.
+объект [**IInkD2DRenderer**](/windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer) обеспечивает отрисовку рукописных штрихов в назначенном Direct2Dном контексте устройства универсального Windowsного приложения вместо элемента управления [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) по умолчанию.
 
 ## <a name="members"></a>Элементы
 
@@ -90,12 +90,12 @@ void InkRenderer::Render(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Инкрендерер. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Инкрендерер. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Инкрендерер. idl</dt> </dl> |
 | IID<br/>                      | IID \_ IInkD2DRenderer определен как 4044e60c-7b01-4671-a97c-04e0210a07a5<br/>         |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 Модуль [подготовки рукописного ввода](ink-renderer.md), [перо и](/windows/uwp/design/input/pen-and-stylus-interactions)перо, [Пример "анализ рукописного ввода](/samples/microsoft/windows-universal-samples/inkanalysis/)", [простой пример](/samples/microsoft/windows-universal-samples/simpleink/)с рукописным вводом, [Пример сложной](/samples/microsoft/windows-universal-samples/complexink/) формы

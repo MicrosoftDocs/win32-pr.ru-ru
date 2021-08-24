@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4f9423154cd42de28b2d447776fe21a7b8e57620
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d40526274ea52d68b0a02dbefd02c116ded77d64e8b343a48abef2735446d971
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104984072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853174"
 ---
 # <a name="storing-variables-and-types-for-shaders-to-share"></a>Хранение переменных и типов для использования шейдерами
 
@@ -31,18 +31,18 @@ ms.locfileid: "104984072"
 
 Объект компоновки класса в конечном итоге представляет собой репозиторий типа и имен переменных. Максимальное число имен, доступных для каждого элемента (типа и переменной), — 64 КБ. Чем длиннее имена типа и переменной, тем выше потребность в хранилище для метаданных интерфейса, хранящихся на шейдере. Это обусловлено тем, что среда выполнения должна хранить сопоставление для этих имен для каждого шейдера.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные разделы
 
 [Динамическая компоновка](overviews-direct3d-11-hlsl-dynamic-linking.md)
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Динамическая компоновка](overviews-direct3d-11-hlsl-dynamic-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

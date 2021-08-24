@@ -4,18 +4,18 @@ ms.assetid: 690ea91b-5bc0-45f0-8354-ec625709f7bd
 title: Регистрация ошибок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76cded9d4cfaedd93e846fec52b07bf5d4eef9a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7402ade284f0d9a71b032f233276277dfdcd8c5e2844c85f03782caed101d095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685154"
 ---
 # <a name="logging-errors"></a>Регистрация ошибок
 
 \[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]
 
-[Службы редактирования DirectShow](directshow-editing-services.md) предоставляют встроенный механизм ведения журнала ошибок, возникающих при загрузке, построении или визуализации проекта DES. В этой статье представлен пример консольного приложения, которое загружает файл XML-проекта и пытается выполнить его визуализацию. При возникновении ошибки приложение выводит сообщение об ошибке в окне консоли. Пример кода, представленный в этой статье, основан на примере, заданном при [загрузке и предварительном просмотре проекта](loading-and-previewing-a-project.md).
+[службы DirectShow editing Services](directshow-editing-services.md) (DES) предоставляют встроенный механизм ведения журнала ошибок, возникающих при загрузке, построении или визуализации проекта DES. В этой статье представлен пример консольного приложения, которое загружает файл XML-проекта и пытается выполнить его визуализацию. При возникновении ошибки приложение выводит сообщение об ошибке в окне консоли. Пример кода, представленный в этой статье, основан на примере [загрузки и предварительного просмотра Project](loading-and-previewing-a-project.md).
 
 > [!Note]  
 > Приложению не требуется реализовывать ведение журнала ошибок. DES не регистрирует ошибки, если вы явно не запрашиваете его.
@@ -32,11 +32,11 @@ ms.locfileid: "103805627"
 -   [Настройка журнала ошибок](setting-the-error-log.md)
 -   [Ведение журнала ошибок DES: пример кода](des-error-logging--example-code.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Использование служб редактирования DirectShow](using-directshow-editing-services.md)
+[использование служб DirectShow editing Services](using-directshow-editing-services.md)
 </dt> </dl>
 
  

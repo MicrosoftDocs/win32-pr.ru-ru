@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 3f715e740319515fe4772d1a9905a2f9b563f3cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b75df338142ab0ec97db3e60cbba1b5f68df3e0e67947d4c13cdccccd409bdf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744695"
 ---
 # <a name="buildinipath-function"></a>Функция Буилдинипас
 
@@ -60,7 +60,7 @@ LPSTR BuildINIPath(
 
 Если функция завершилась неудачно, возвращается значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Путь, возвращаемый этой функцией, является полным путем к INI-файлу, который соответствует введенным данным. Например, если ввести КСНС или TCP, функция создает путь к Xns.ini или Tcp.ini соответственно.
 

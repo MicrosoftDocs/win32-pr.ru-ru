@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11e20e2a7708bf7264ec447176475d7eda9f04da
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b351ff341a129403a8b04a16739d403595bc8c9b124dc889414c1f8efa9be176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705134"
 ---
 # <a name="ms-dfs-generation-guid-v2-attribute"></a>атрибут MS-DFS-Generation-GUID-v2
 
@@ -55,7 +55,7 @@ ms.locfileid: "103989552"
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |
@@ -76,7 +76,7 @@ ms.locfileid: "103989552"
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |
@@ -97,7 +97,7 @@ ms.locfileid: "103989552"
 | Идентификатор ссылки                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
 | System-Only            | Неверно                                                                                                             |
-| Является однозначным       | True                                                                                                              |
+| Является однозначным       | Верно                                                                                                              |
 | Индексируется             | Неверно                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                      |

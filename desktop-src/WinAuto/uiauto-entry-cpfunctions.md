@@ -4,12 +4,12 @@ description: Устаревшие функции шаблона элемента
 ms.assetid: 06434b07-7592-4909-8c4e-064382bdbf98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f646f9a9e3139d487785e344b9d3fc242b1a40e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d124482ac7cfb9c14a72644558df0eb174e574f598fda5ef2ffd2fed928a717
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795464"
 ---
 # <a name="deprecated-control-pattern-functions"></a>Устаревшие функции шаблона элемента управления
 
@@ -479,7 +479,7 @@ ms.locfileid: "104410693"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

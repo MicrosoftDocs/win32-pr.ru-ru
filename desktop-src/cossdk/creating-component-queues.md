@@ -4,12 +4,12 @@ ms.assetid: 7d9fec63-0bb7-45f3-9d40-736a60d69185
 title: Создание очередей компонентов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc6f6731144a1744a7648d2d3d2bd5c3c4b217b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c44f670cea15e1cb1a4549d5c1e847956eb41d400ae01d557803dbd1ce2b439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793464"
 ---
 # <a name="creating-component-queues"></a>Создание очередей компонентов
 
@@ -39,7 +39,7 @@ ms.locfileid: "105701211"
 
      
 
-5.  Нажмите кнопку **ОК**.
+5.  Нажмите **OK**.
 
 ## <a name="visual-basic"></a>Visual Basic
 
@@ -49,13 +49,13 @@ ms.locfileid: "105701211"
 
 Не применяется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Очереди, созданные библиотекой администрирования COM+ или средством администрирования служб компонентов, помечаются атрибутом транзакционной очереди сообщений.
 
 После установки приложения из очереди на сервере его можно сделать доступным для клиентов, экспортировав приложение, а затем импортировав приложение на каждом клиенте.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

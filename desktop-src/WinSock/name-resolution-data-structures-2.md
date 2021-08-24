@@ -1,15 +1,15 @@
 ---
-description: Структуры данных разрешения имен в сокетах Windows (Winsock).
+description: структуры данных разрешения имен в сокетах Windows (Winsock).
 ms.assetid: 87c54141-41e2-4eaa-ae3b-84598e8281d9
 title: Структуры данных разрешения имен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf1f76607ade81503a1057dc21890ac38d5ec265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e6f3b889d295241bb0cdb9c0182babf0c5b8115e7eff7e86c27b65c992c452
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794794"
 ---
 # <a name="name-resolution-data-structures"></a>Структуры данных разрешения имен
 
@@ -59,7 +59,7 @@ ms.locfileid: "104569526"
 
 Вся коллекция данных, представленная в структуре **всасервицеклассинфо** , предоставляется каждому поставщику пространства имен при вызове функции [**всаинсталлсервицекласс**](/windows/desktop/api/Winsock2/nf-winsock2-wsainstallserviceclassa) . Затем каждый отдельный поставщик пространства имен сифтс через список структур **всансклассинфо** и оставляет сведения, применимые к нему.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

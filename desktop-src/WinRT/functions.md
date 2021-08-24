@@ -1,17 +1,17 @@
 ---
-description: Справочник по функциям среда выполнения Windows C++.
+description: справочник по функциям среда выполнения Windows C++.
 ms.assetid: 3D60C81F-B1CC-4485-B7C3-B1C6E903865B
-title: Функции (среда выполнения Windows)
+title: функции (среда выполнения Windows)
 ms.topic: article
 ms.date: 05/10/2019
-ms.openlocfilehash: 1ed2ea39385ac5cb7afc34770a5ee2d2a572bb8b
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: fbf0d4ce350251e1c13d1f6a3ff03c95068558098eac722979bc77499a094c4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105699302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795014"
 ---
-# <a name="functions-windows-runtime-c-reference"></a>Функции (Справочник по среда выполнения Windows C++)
+# <a name="functions-windows-runtime-c-reference"></a>функции (справочник по среда выполнения Windows C++)
 
 ## <a name="in-this-section"></a>Содержание раздела
 
@@ -26,9 +26,9 @@ ms.locfileid: "105699302"
 | [**CreateDirect3D11SurfaceFromDXGISurface**](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3d11surfacefromdxgisurface) | Создает экземпляр IDirect3DSurface из Идксгисурфаце. |
 | [**CreateDirect3DDevice**](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3ddevice) | Создает экземпляр [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) из [идксгидевице](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice). |
 | [**CreateDirect3DSurface**](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-createdirect3dsurface) | Создает экземпляр [IDirect3DSurface](/uwp/api/windows.graphics.directx.direct3d11.idirect3dsurface) из [идксгисурфаце](/windows/desktop/api/dxgi/nn-dxgi-idxgisurface). |
-| [**креатерандомакцессстреамонфиле**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamonfile) | Создает среда выполнения Windows поток произвольного доступа к файлу. |
-| [**креатерандомакцессстреамоверстреам**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream) | Создает среда выполнения Windows поток произвольного доступа вокруг базовой реализации [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) . |
-| [**креатестреамоверрандомакцессстреам**](/windows/win32/api/shcore/nf-shcore-createstreamoverrandomaccessstream) | Создает объект [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) вокруг объекта среда выполнения Windows [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) . |
+| [**креатерандомакцессстреамонфиле**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamonfile) | создает среда выполнения Windows поток произвольного доступа к файлу. |
+| [**креатерандомакцессстреамоверстреам**](/windows/win32/api/shcore/nf-shcore-createrandomaccessstreamoverstream) | создает среда выполнения Windows поток произвольного доступа вокруг базовой реализации [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) . |
+| [**креатестреамоверрандомакцессстреам**](/windows/win32/api/shcore/nf-shcore-createstreamoverrandomaccessstream) | создает объект [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) вокруг объекта среда выполнения Windows [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) . |
 | [**креатексамлуипресентер**](createxamluipresenter.md) | Статическая функция Creator, которая может создать [**ксамлуипресентер**](/uwp/api/Windows.UI.Xaml.Hosting.XamlUIPresenter?view=winrt-19041) для поверхности рендеринга в классическом приложении. |
 | [**дбграисеассертионфаилуре**](/previous-versions//jj635749(v=vs.85)) | Вызывает Assert для отладки.  |
 | [**Жетдксгиинтерфаце (IDirect3DDevice ^, DXGI_TYPE**) * *](/windows/desktop/api/windows.graphics.directx.direct3d11.interop/nf-windows-graphics-directx-direct3d11-interop-getdxgiinterface) | Извлекает интерфейс DXGI из экземпляра [IDirect3DDevice](/uwp/api/windows.graphics.directx.direct3d11.idirect3ddevice) . |
@@ -43,12 +43,12 @@ ms.locfileid: "105699302"
 | [**HSTRING \_ UserSize64**](/windows/win32/api/inspectable/nf-inspectable-hstring_usersize64) | Вычисляет размер сети объекта [**HString**](hstring.md) и получает его обработчик и данные. |
 | [**HSTRING \_ усерунмаршал**](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal) | Выполняет распаковку объекта [**HString**](hstring.md) из буфера RPC. |
 | [**HSTRING \_ UserUnmarshal64**](/windows/win32/api/inspectable/nf-inspectable-hstring_userunmarshal64) | Выполняет распаковку объекта [**HString**](hstring.md) из буфера RPC. |
-| [**исеррорпропагатионенаблед**](/windows/win32/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled) | Указывает, возникает ли событие [**CoreApplication. UnhandledErrorDetected**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) для ошибок, возвращаемых делегатом, зарегистрированным в качестве функции обратного вызова для Среда выполнения Windows события API или завершения асинхронного метода. |
-| [**дллжетактиватионфактори**](/previous-versions//br205771(v=vs.85)) | Извлекает фабрику активации из библиотеки DLL, содержащей классы активируемого среда выполнения Windows. |
+| [**исеррорпропагатионенаблед**](/windows/win32/api/roerrorapi/nf-roerrorapi-iserrorpropagationenabled) | указывает, возникает ли событие [**CoreApplication. UnhandledErrorDetected**](/uwp/api/Windows.ApplicationModel.Core.CoreApplication?view=winrt-19041) для ошибок, возвращаемых делегатом, зарегистрированным в качестве функции обратного вызова для среда выполнения Windows события API или завершения асинхронного метода. |
+| [**дллжетактиватионфактори**](/previous-versions//br205771(v=vs.85)) | извлекает фабрику активации из библиотеки DLL, содержащей классы активируемого среда выполнения Windows. |
 | [**метадатажетдиспенсер**](/windows/win32/api/rometadata/nf-rometadata-metadatagetdispenser) | Создает класс распределителя. |
 | [**пдфкреатерендерер**](/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfcreaterenderer) | Возвращает экземпляр интерфейса [**ипдфрендерернативе**](/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative) для отображения одной страницы файла в формате переносимого документа (PDF). |
 | [**пдфрендерпарамс**](/windows/desktop/api/windows.data.pdf.interop/nf-windows-data-pdf-interop-pdfrenderparams) | Заполняет структуру [**\_ \_ параметров отрисовки PDF**](/windows/desktop/api/windows.data.pdf.interop/ns-windows-data-pdf-interop-pdf_render_params) . \_Структура параметров рендеринга PDF \_ представляет набор свойств для вывода одной страницы PDF-файла. |
-| [**RoActivateInstance**](/windows/win32/api/roapi/nf-roapi-roactivateinstance) | Активирует указанный класс среда выполнения Windows. |
+| [**RoActivateInstance**](/windows/win32/api/roapi/nf-roapi-roactivateinstance) | активирует указанный класс среда выполнения Windows. |
 | [**рокаптуриррорконтекст**](/windows/win32/api/roerrorapi/nf-roerrorapi-rocaptureerrorcontext) | Сохраняет текущий контекст ошибки, чтобы он был доступен для последующих вызовов функции [**рофаилфаствисеррорконтекст**](/windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext) . |
 | [**роклеареррор**](/windows/win32/api/roerrorapi/nf-roerrorapi-roclearerror) | Удаляет существующие сведения об ошибках из текущего блока среды потока (ТЕБ). |
 | [**рофаилфаствисеррорконтекст**](/windows/win32/api/roerrorapi/nf-roerrorapi-rofailfastwitherrorcontext) | Вызывает исключение, которое не является непрерывным в текущем процессе. |
@@ -59,11 +59,11 @@ ms.locfileid: "105699302"
 | [**рожетагилереференце**](/windows/desktop/api/ComBaseApi/nf-combaseapi-rogetagilereference) | Создает динамическую ссылку для объекта, указанного данным интерфейсом. |
 | [**рожетапартментидентифиер**](/windows/win32/api/roapi/nf-roapi-rogetapartmentidentifier) | Возвращает уникальный идентификатор для текущего подразделения. |
 | [**рожетбуффермаршалер**](/windows/win32/api/robuffer/nf-robuffer-rogetbuffermarshaler) | Предоставляет стандартный модуль IBuffer для реализации семантики, связанной с интерфейсом IBuffer при его маршалировании. |
-| [**рожетерроррепортингфлагс**](/windows/win32/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags) | Возвращает текущее поведение отчетов среда выполнения Windows функций ошибок. |
+| [**рожетерроррепортингфлагс**](/windows/win32/api/roerrorapi/nf-roerrorapi-rogeterrorreportingflags) | возвращает текущее поведение отчетов среда выполнения Windows функций ошибок. |
 | [**RoGetMetaDataFile**](/windows/win32/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile) | Находит и извлекает файл метаданных, описывающий двоичный интерфейс приложения (ABI) для указанного имени типа. |
 | [**рожетпараметеризедтипеинстанцеиид**](/windows/win32/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid) | Выполняет вычисление идентификатора интерфейса или типа делегата, полученного в результате создания параметризованного интерфейса или делегата с указанными аргументами типа. |
 | [**рожетсерверактиватаблеклассес**](/windows/win32/api/roregistrationapi/nf-roregistrationapi-rogetserveractivatableclasses) | Извлекает классы активируемого, которые зарегистрированы для данного исполняемого сервера (EXE), зарегистрированного по ИДЕНТИФИКАТОРу пакета вызывающего процесса. |
-| [**роинитиализе**](/windows/win32/api/roapi/nf-roapi-roinitialize) | Инициализирует среда выполнения Windows в текущем потоке с заданной моделью параллелизма. |
+| [**роинитиализе**](/windows/win32/api/roapi/nf-roapi-roinitialize) | инициализирует среда выполнения Windows в текущем потоке с заданной моделью параллелизма. |
 | [**роинспектсреадерроринфо**](/windows/win32/api/roerrorapi/nf-roerrorapi-roinspectthreaderrorinfo) | Возвращает объект Error, представляющий стек вызовов в точке, где была создана ошибка. |
 | [**роинспекткаптуредстаккбакктраце**](/windows/win32/api/roerrorapi/nf-roerrorapi-roinspectcapturedstackbacktrace) | Предоставляет отладчикам способ проверки стека вызовов из целевого процесса. |
 | [**руригинатиррор**](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginateerror) | Сообщает об ошибке и информативной строке к подключенному отладчику. |
@@ -71,17 +71,17 @@ ms.locfileid: "105699302"
 | [**руригинателангуажеексцептион**](/windows/win32/api/roerrorapi/nf-roerrorapi-rooriginatelanguageexception) | Сообщает о ошибке, информативной строке и объекте ошибки в присоединенном отладчике. |
 | [**ропараметеризедтипикстражеттипесигнатуре**](/windows/win32/api/roparameterizediid/nf-roparameterizediid-roparameterizedtypeextragettypesignature) | Возвращает сигнатуру типа, используемую для вычислить идентификатор IID из последнего вызова [**рожетпараметеризедтипеинстанцеиид**](/windows/win32/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid) с указанным маркером. |
 | [**ропарсетипенаме**](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roparsetypename) | Анализирует имя типа и существующие параметры типа в случае параметризованных типов. |
-| [**рорегистерактиватионфакториес**](/windows/win32/api/roapi/nf-roapi-roregisteractivationfactories) | Регистрирует фабрики необработанных активаций массива для сервера среда выполнения Windows exe. |
+| [**рорегистерактиватионфакториес**](/windows/win32/api/roapi/nf-roapi-roregisteractivationfactories) | регистрирует фабрики необработанных активаций массива для сервера среда выполнения Windows exe. |
 | [**рорегистерфорапартментшутдовн**](/windows/win32/api/roapi/nf-roapi-roregisterforapartmentshutdown) | Регистрирует обратный вызов [**иапартментшутдовн**](/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown) для вызова при завершении текущего апартамента. |
 | [**рорепортунхандледеррор**](/windows/win32/api/roerrorapi/nf-roerrorapi-roreportunhandlederror) | Запускает глобальный обработчик ошибок при возникновении необработанного исключения. |
 | [**рорепортфаиледделегате**](/windows/win32/api/roerrorapi/nf-roerrorapi-roreportfaileddelegate) | Активирует глобальный обработчик ошибок, когда происходит сбой делегата. |
-| [**роресолвенамеспаце**](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace) | Определите прямые дочерние элементы, типы и подчиненные пространства имен указанного среда выполнения Windows пространства имен на любом языке программирования, поддерживаемом среда выполнения Windows. |
+| [**роресолвенамеспаце**](/windows/win32/api/rometadataresolution/nf-rometadataresolution-roresolvenamespace) | определите прямые дочерние элементы, типы и подчиненные пространства имен указанного среда выполнения Windows пространства имен на любом языке программирования, поддерживаемом среда выполнения Windows. |
 | [**роресолверестриктедерроринфореференце**](/windows/win32/api/roerrorapi/nf-roerrorapi-roresolverestrictederrorinforeference) | Возвращает указатель интерфейса [**ирестриктедерроринфо**](/windows/desktop/api/RestrictedErrorInfo/nn-restrictederrorinfo-irestrictederrorinfo) на основе заданной ссылки. |
-| [**роревокеактиватионфакториес**](/windows/win32/api/roapi/nf-roapi-rorevokeactivationfactories) | Удаляет из среда выполнения Windows массив зарегистрированных фабрик активации. |
-| [**росетерроррепортингфлагс**](/windows/win32/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags) | Задает поведение отчетов для среда выполнения Windows функций ошибок. |
+| [**роревокеактиватионфакториес**](/windows/win32/api/roapi/nf-roapi-rorevokeactivationfactories) | удаляет из среда выполнения Windows массив зарегистрированных фабрик активации. |
+| [**росетерроррепортингфлагс**](/windows/win32/api/roerrorapi/nf-roerrorapi-roseterrorreportingflags) | задает поведение отчетов для среда выполнения Windows функций ошибок. |
 | [**ротрансформеррор**](/windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerror) | Сообщает о измененной ошибке и информативной строке к подключенному отладчику. |
 | [**ротрансформеррорв**](/windows/win32/api/roerrorapi/nf-roerrorapi-rotransformerrorw) | Сообщает преобразованной ошибке и информативную строку с подключенным отладчиком. |
-| [**раунинитиализе**](/windows/win32/api/roapi/nf-roapi-rouninitialize) | Закрывает среда выполнения Windows в текущем потоке. |
+| [**раунинитиализе**](/windows/win32/api/roapi/nf-roapi-rouninitialize) | закрывает среда выполнения Windows в текущем потоке. |
 | [**раунрегистерфорапартментшутдовн**](/windows/win32/api/roapi/nf-roapi-rounregisterforapartmentshutdown) | Отменяет регистрацию ранее зарегистрированного интерфейса [**иапартментшутдовн**](/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown) . |
 | [**сетрестриктедерроринфо**](/windows/win32/api/roerrorapi/nf-roerrorapi-setrestrictederrorinfo) | Задает ограниченный объект сведений об ошибках для текущего потока. |
 | [**виндовскомпарестрингординал**](/windows/win32/api/winstring/nf-winstring-windowscomparestringordinal) | Сравнивает два указанных объекта [**HString**](hstring.md) и возвращает целое число, которое указывает их относительное расположение в порядке сортировки. |
@@ -93,8 +93,8 @@ ms.locfileid: "105699302"
 | [**виндовсдупликатестринг**](/windows/win32/api/winstring/nf-winstring-windowsduplicatestring) | Создает копию указанной строки. |
 | [**виндовсжетстринглен**](/windows/win32/api/winstring/nf-winstring-windowsgetstringlen) | Возвращает длину указанной строки в символах Юникода. |
 | [**виндовсжетстрингравбуффер**](/windows/win32/api/winstring/nf-winstring-windowsgetstringrawbuffer) | Возвращает резервный буфер для указанной строки. |
-| [**виндовсинспектстринг**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring) | Предоставляет отладчикам возможность отображать значение среда выполнения Windows [**HString**](hstring.md) в другом адресном пространстве, удаленно или из дампа.  |
-| [**WindowsInspectString2**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring2) | Предоставляет отладчикам возможность отображать значение среда выполнения Windows [**HString**](hstring.md) в другом адресном пространстве, удаленно или из дампа.  |
+| [**виндовсинспектстринг**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring) | предоставляет отладчикам возможность отображать значение среда выполнения Windows [**HSTRING**](hstring.md) в другом адресном пространстве, удаленно или из дампа.  |
+| [**WindowsInspectString2**](/windows/win32/api/winstring/nf-winstring-windowsinspectstring2) | предоставляет отладчикам возможность отображать значение среда выполнения Windows [**HSTRING**](hstring.md) в другом адресном пространстве, удаленно или из дампа.  |
 | [**виндовсисстринжемпти**](/windows/win32/api/winstring/nf-winstring-windowsisstringempty) | Указывает, является ли указанная строка пустой строкой. |
 | [**виндовспреаллокатестрингбуффер**](/windows/win32/api/winstring/nf-winstring-windowspreallocatestringbuffer) | Выделяет изменяемый символьный буфер для использования при создании [**HString**](hstring.md) . |
 | [**виндовспромотестрингбуффер**](/windows/win32/api/winstring/nf-winstring-windowspromotestringbuffer) | Создает объект [**HString**](hstring.md) из указанного [**\_ буфера HString**](hstring-buffer.md). |

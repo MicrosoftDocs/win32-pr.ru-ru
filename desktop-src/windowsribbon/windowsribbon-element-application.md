@@ -1,9 +1,9 @@
 ---
 title: Элемент Application
-description: Представляет элемент верхнего уровня в спецификации разметки платформы Windows Ribbon.
+description: представляет элемент верхнего уровня в спецификации разметки Windowsной платформы ленты.
 ms.assetid: 05396d8b-fbd1-40bb-8d0f-8ac11506e7db
 keywords:
-- Лента Windows для элементов приложения
+- элемент приложения Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9b116879a918ca0437c7f2bdd201ef4ffd6d3c61
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 4055e271ecf3313596b73aa36a5cbea37250416d9b517fb4512b89fbc203293a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103797185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810814"
 ---
 # <a name="application-element"></a>Элемент Application
 
-Представляет элемент верхнего уровня в спецификации разметки платформы Windows Ribbon.
+представляет элемент верхнего уровня в спецификации разметки Windowsной платформы ленты.
 
 ## <a name="usage"></a>Использование
 
@@ -58,7 +58,7 @@ ms.locfileid: "103797185"
 
 Нет родительских элементов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обязательный.
 

@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Идксткэй задает свойства для перехода по ключу. Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации ключевых переходов.
+description: Интерфейс Идксткэй задает свойства для перехода по ключу. этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке ключа.
 ms.assetid: b929bf0c-8aaf-456e-b692-e23d88e480dd
 title: Интерфейс Идксткэй (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: f4f1bc6a5dd0e89789e098fc4180bfc826f10c93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d967d15dededf879ffd08671aac00e7892aa8ad2f2c1a39ce478f7f9f3e4db90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792364"
 ---
 # <a name="idxtkey-interface"></a>Интерфейс Идксткэй
 
@@ -30,7 +30,7 @@ ms.locfileid: "105675615"
 
 `IDxtKey`Интерфейс задает свойства для перехода по [ключу](key-transition.md) .
 
-Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации ключевых переходов. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
+этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке ключа. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
 
 ## <a name="members"></a>Элементы
 
@@ -63,7 +63,7 @@ ms.locfileid: "105675615"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -71,17 +71,17 @@ ms.locfileid: "105675615"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Сообщение CB_SETITEMHEIGHT (Winuser. h)
 description: Приложение отправляет \_ сообщение СЕТИТЕМХЕИГХТ CB, чтобы задать высоту элементов списка или поле выбора в поле со списком.
 ms.assetid: 25a01170-5ffc-4d86-b696-706f5375570b
 keywords:
-- Элементы управления Windows для CB_SETITEMHEIGHT сообщений
+- элементы управления Windows сообщений CB_SETITEMHEIGHT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e46be007cdea17857e5d8ec42a12228821539d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b97e83d13e66d0a8252fdc1974c775188f8009958a3f286916b0e46ea4f0e88c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699444"
 ---
 # <a name="cb_setitemheight-message"></a>\_Сообщение СЕТИТЕМХЕИГХТ CB
 
@@ -49,23 +49,23 @@ ms.locfileid: "105654676"
 
 Если индекс или высота являются недопустимыми, возвращается значение CB \_ Err.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Высота поля выбора в поле со списком задается независимо от высоты элементов списка. Приложение должно гарантировать, что высота поля выбора не меньше высоты определенного элемента списка.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
