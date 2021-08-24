@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: e3cafa4ac937f049de2698200b21a0e952edc660
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cec22ff65dc3afe452d59d3a9abb3201b8cddf70c4fed600bc4868ea91e7db84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335594"
 ---
 # <a name="paragraphlinemetricstype-complex-type"></a>Сложный тип Параграфлинеметрикстипе
 
@@ -33,7 +33,7 @@ ms.locfileid: "104546146"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 

@@ -3,7 +3,7 @@ title: Сообщение LVM_GETIMAGELIST (Коммктрл. h)
 description: Получает маркер для списка изображений, используемого для отображения элементов списка. Это сообщение можно отправить явным образом или с помощью \_ макроса ListView.
 ms.assetid: dd48d8b5-6dbd-48ab-95c3-0fcf1e8c24f0
 keywords:
-- Элементы управления Windows для LVM_GETIMAGELIST сообщений
+- элементы управления Windows сообщений LVM_GETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abc68c5e5dd9a18c3ec203ad7fe3db97a542845
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 339de36c85b4a5d39476a93cde71cbc6db23d1bc08946d3ce2d1ab1b5a4cb926
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540814"
 ---
 # <a name="lvm_getimagelist-message"></a>Сообщение LVM/ \_ ImageList
 
@@ -56,15 +56,15 @@ ms.locfileid: "104136414"
 
 Возвращает маркер в указанный список изображений в случае успешного выполнения или **значение NULL** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

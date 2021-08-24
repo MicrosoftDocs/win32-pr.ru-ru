@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d61ffd10edbd58d11c5667fbda9dc0408ea1d72a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 502919f63e8c3a734e4b28fd462b9cfdd0b91b4f49b434e7487495ac18a46189
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104533992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451444"
 ---
 # <a name="wm_mousemove-message"></a>\_Сообщение WM MOUSEMOVE
 
@@ -74,7 +74,7 @@ ms.locfileid: "104533992"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить горизонтальное и вертикальное расположение, используйте следующий код:
 
@@ -93,7 +93,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

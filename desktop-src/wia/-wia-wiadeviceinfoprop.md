@@ -28,16 +28,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: aec37ae84eed6b15bc10a4e979a5d95d21be3423
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: eff970a3eb1d9285ca469963c3961d90e78874fc5aa7344c3a493093451dcd5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449924"
 ---
 # <a name="device-information-property-constants"></a>Константы свойств сведений об устройстве
 
-Свойства сведений об устройстве — это свойства, описывающие установку и установку устройства. Эти свойства доступны через интерфейсы [**ивиадевмгр**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) или [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) , а также через корневой элемент. Свойства сведений об устройстве имеют префикс "WIA \_ DIP \_ " (свойство сведений об устройстве) и предоставляются службой "получение образа Windows" (WIA). В целях написания сценариев эти константы используют префикс «DeviceInfo» и являются частью перечислимого типа [виадевицеинфопропертид](-wia-wiadeviceinfopropertyid.md) . Соответствующее имя элемента из этого перечисления скриптов отображается в круглых скобках рядом с именем константы C/C++ в следующем списке.
+Свойства сведений об устройстве — это свойства, описывающие установку и установку устройства. Эти свойства доступны через интерфейсы [**ивиадевмгр**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) или [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) , а также через корневой элемент. свойства сведений об устройстве имеют префикс "WIA \_ DIP \_ " (свойство сведений об устройстве) и предоставляются Windows получения образа (WIA). В целях написания сценариев эти константы используют префикс «DeviceInfo» и являются частью перечислимого типа [виадевицеинфопропертид](-wia-wiadeviceinfopropertyid.md) . Соответствующее имя элемента из этого перечисления скриптов отображается в круглых скобках рядом с именем константы C/C++ в следующем списке.
 
 
 
@@ -67,7 +67,7 @@ ms.locfileid: "108097242"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_DIP_DEV_TYPE"></span><span id="wia_dip_dev_type"></span><dl> <dt><strong>WIA_DIP_DEV_TYPE</strong></dt> <dt>девицеинфодевтипе</dt> </dl></td>
-<td style="text-align: left;">Тип устройства и подтип устройства. Служба WIA создает и поддерживает это свойство. Используйте макрос GET_STIDEVICE_TYPE, чтобы получить тип устройства. Тип и подтип устройства получаются из INF-файла. Приложение считывает это свойство, чтобы определить, использует ли оно сканер, камеру или видеоустройство.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> В настоящее время типы устройств определяются следующим образом. Звездочка * указывает, что тип устройства не поддерживается в Windows Vista и более поздних версиях. Двойная звездочка * * указывает, что тип устройства не поддерживается Windows Server 2003, Windows Vista или более поздней версии. <br/> 
+<td style="text-align: left;">Тип устройства и подтип устройства. Служба WIA создает и поддерживает это свойство. Используйте макрос GET_STIDEVICE_TYPE, чтобы получить тип устройства. Тип и подтип устройства получаются из INF-файла. Приложение считывает это свойство, чтобы определить, использует ли оно сканер, камеру или видеоустройство.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> В настоящее время типы устройств определяются следующим образом. звездочка * указывает, что тип устройства не поддерживается Windows Vista и более поздних версий. двойная звездочка * * указывает, что тип устройства не поддерживается Windows Server 2003, Windows Vista или более поздней версии. <br/> 
 <table>
 <thead>
 <tr class="header">
@@ -114,7 +114,7 @@ ms.locfileid: "108097242"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DIP_SERVER_NAME"></span><span id="wia_dip_server_name"></span><dl> <dt><strong>WIA_DIP_SERVER_NAME</strong></dt> <dt>девицеинфосервернаме</dt> </dl></td>
-<td style="text-align: left;"><p>Имя сервера, на котором работает WIA-минидривер. Это свойство является необязательным для Windows XP и более поздних версий.</p>
+<td style="text-align: left;"><p>Имя сервера, на котором работает WIA-минидривер. это свойство является необязательным для Windows XP и более поздних версий.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
@@ -178,22 +178,22 @@ ms.locfileid: "108097242"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DIP_WIA_VERSION"></span><span id="wia_dip_wia_version"></span><dl> <dt><strong>WIA_DIP_WIA_VERSION</strong></dt> <dt>девицеинфовиаверсион</dt> </dl></td>
-<td style="text-align: left;"><p>Число (в виде строки) текущей версии WIA, установленной в системе. Приложение считывает это свойство для определения версии WIA, установленной в системе. Служба WIA создает и поддерживает это свойство. Это свойство доступно в Windows XP и более поздних версиях.</p>
+<td style="text-align: left;"><p>Число (в виде строки) текущей версии WIA, установленной в системе. Приложение считывает это свойство для определения версии WIA, установленной в системе. Служба WIA создает и поддерживает это свойство. это свойство доступно в Windows XP и более поздних версиях.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_DIP_DRIVER_VERSION"></span><span id="wia_dip_driver_version"></span><dl> <dt><strong>WIA_DIP_DRIVER_VERSION</strong></dt> <dt>девицеинфодриверверсион</dt> </dl></td>
-<td style="text-align: left;"><p>Текущая версия DLL минидривер WIA. Служба WIA создает и поддерживает это свойство. Это свойство доступно в Windows XP и более поздних версиях.</p>
+<td style="text-align: left;"><p>Текущая версия DLL минидривер WIA. Служба WIA создает и поддерживает это свойство. это свойство доступно в Windows XP и более поздних версиях.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_DIP_PNP_ID"></span><span id="wia_dip_pnp_id"></span><dl> <dt><strong>WIA_DIP_PNP_ID</strong></dt> <dt>девицеинфопнпид</dt> </dl></td>
-<td style="text-align: left;"><p>Текущий идентификатор PnP для устройства. Служба WIA создает и поддерживает это свойство. Это свойство доступно в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>Текущий идентификатор PnP для устройства. Служба WIA создает и поддерживает это свойство. это свойство доступно в Windows Vista и более поздних версий.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_DIP_STI_DRIVER_VERSION"></span><span id="wia_dip_sti_driver_version"></span><dl> <dt><strong>WIA_DIP_STI_DRIVER_VERSION</strong></dt> <dt>девицеинфостидриверверсион</dt> </dl></td>
-<td style="text-align: left;"><p>Универсальная версия драйвера сти. Служба WIA создает и поддерживает это свойство. Приложение считывает это свойство для определения универсальной версии драйвера сти. Это свойство доступно в Windows Vista и более поздних версиях.</p>
+<td style="text-align: left;"><p>Универсальная версия драйвера сти. Служба WIA создает и поддерживает это свойство. Приложение считывает это свойство для определения универсальной версии драйвера сти. это свойство доступно в Windows Vista и более поздних версий.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 </tbody>
@@ -207,9 +207,9 @@ ms.locfileid: "108097242"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
 
 
 

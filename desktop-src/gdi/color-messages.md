@@ -4,12 +4,12 @@ ms.assetid: e052c37a-d8bc-490a-ace1-634cdf5c2af6
 title: Цветные сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1beb4ef45356712b9ae746b9018a0bde846666a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9dc46644b197434750c2c3443365a085ccbd70e277ff8ed27816d504e0acf77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452304"
 ---
 # <a name="color-messages"></a>Цветные сообщения
 

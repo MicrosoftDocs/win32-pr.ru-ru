@@ -4,28 +4,28 @@ ms.assetid: 8a59d22f-b8a1-47bf-90f3-f8cadfae8ecd
 title: Примариволумеспацеремаининг, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdae4e0895c18ca32ab65f68daa13cd6c702f62c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16107af105de0684bd917177050017a3c14e40aff32c658881342a90e877c973
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580494"
 ---
 # <a name="primaryvolumespaceremaining-property"></a>Примариволумеспацеремаининг, свойство
 
 Установщик устанавливает значение свойства **примариволумеспацеремаининг** в строку, представляющую общее число байтов, оставшихся на томе, на который ссылается свойство [**примариволумепас**](primaryvolumepath.md) , если установлены все выбранные компоненты. Как и в случае со свойством [**примариволумеспацеаваилабле**](primaryvolumespaceavailable.md) , это число выражается в единицах, равных 512 байт.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Примечание. Если это значение должно отображаться в статическом [элементе управления "текст](text-control.md)", бит [форматсизе](formatsize-control-attribute.md) можно использовать для автоматического форматирования и пометки этого числа в килобайтах или мегабайтах соответственно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 

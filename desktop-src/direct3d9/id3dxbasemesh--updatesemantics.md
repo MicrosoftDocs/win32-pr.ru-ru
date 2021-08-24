@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6e31a6fe424d085467bfa795c7ce7b2d445a1f69
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3a9a628c16e7f4a26db9953298be1adcba2cef364153d4bb2e6b29dbc4d9ef83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607324"
 ---
 # <a name="id3dxbasemeshupdatesemantics-method"></a>Метод ID3DXBaseMesh:: Упдатесемантикс
 
@@ -55,24 +55,24 @@ HRESULT UpdateSemantics(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [**ID3DXBaseMesh:: клонемеш**](id3dxbasemesh--clonemesh.md) используется для переформатирования и изменения макета данных вершин. Например, используйте его для добавления пространства для нормалей, текстурных координат, цветов, весов и т. д., которые отсутствовали ранее.
 
 **ID3DXBaseMesh:: упдатесемантикс** — это метод обновления объявления вершины с другой семантической информацией без изменения макета буфера вершин. Например, используйте его для переметки координаты трехмерной текстуры как бинормал или тангенса или наоборот.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa4cecafc9e5d8e0f55c6e9d0dbfe49924d54f14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad5af24170f47125136e87e055413a576821bf75d3f5f87532d026d0bb2fd0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119492974"
 ---
 # <a name="gllinewidth-function"></a>Функция Гллиневидс
 
@@ -64,7 +64,7 @@ void WINAPI glLineWidth(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **гллиневидс** задает растровую ширину для линий с псевдонимами и сглаженными. Использование толщины линии, отличной от 1,0, имеет различные эффекты в зависимости от того, включено ли сглаживание строк. Сглаживание линии управляется путем вызова [**гленабле**](glenable.md) и **глдисабле** с аргументом GL \_ Line \_ Smooth.
 
@@ -88,7 +88,7 @@ void WINAPI glLineWidth(
 
 [**глисенаблед**](glisenabled.md) с аргументом GL \_ Line \_ Smooth
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ void WINAPI glLineWidth(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

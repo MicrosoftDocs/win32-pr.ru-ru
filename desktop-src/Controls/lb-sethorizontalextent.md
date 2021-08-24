@@ -3,7 +3,7 @@ title: Сообщение LB_SETHORIZONTALEXTENT (Winuser. h)
 description: Задает ширину (в пикселях), на которую окно списка можно прокручивать горизонтально (прокручиваемую ширину).
 ms.assetid: 7d59b6de-2a22-4246-936b-4c669d285392
 keywords:
-- Элементы управления Windows для LB_SETHORIZONTALEXTENT сообщений
+- элементы управления Windows сообщений LB_SETHORIZONTALEXTENT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ded17b9ea2d78a77b030950877047256d0e2a1a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce248354b853dd3be15e76646958ed25068648182970d748da35fb5c596ca49e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119433884"
 ---
 # <a name="lb_sethorizontalextent-message"></a>Сообщение сесоризонталекстент балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "103892462"
 
 Указывает число пикселей, на которое можно прокручивать список.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы ответить на сообщение **\_ сесоризонталекстент балансировки нагрузки** , список должен быть определен с помощью стиля [**WS \_ HSCROLL**](/windows/desktop/winmsg/window-styles) .
 
@@ -63,9 +63,9 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -3,12 +3,12 @@ title: Отметка времени Winsock
 description: Метки времени пакетов являются важной функцией для многих приложений синхронизации часов &mdash; , например для протокола времени точности. Чем ближе создается метка времени, когда пакет получает или отправляется аппаратным обеспечением сетевого адаптера, тем более точным может быть приложение синхронизации.
 ms.topic: article
 ms.date: 10/22/2020
-ms.openlocfilehash: eae0dce8c2c16bc187ef5522f323e7f36d7fc0b4
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 329c13d76fc0c4ce0d87550623e7419af14bfdd268bf359a8f50729e0b0596e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119568994"
 ---
 # <a name="winsock-timestamping"></a>Отметка времени Winsock
 

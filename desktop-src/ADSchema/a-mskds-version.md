@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f4187fd70023db097fb1a29001810bca8a445c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 810e1fe57bd762ee683158820363d91ed0fbbcfbdcbf5cb9e816c13147a2322d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119582744"
 ---
 # <a name="ms-kds-version-attribute"></a>атрибут MS-KDS-Version
 
@@ -52,10 +52,10 @@ ms.locfileid: "103893786"
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                  |
-| System-Only            | Неверно                                                                                                                                               |
-| Является однозначным       | True                                                                                                                                                |
-| Индексируется             | Неверно                                                                                                                                               |
-| В глобальном каталоге      | Неверно                                                                                                                                               |
+| System-Only            | Нет                                                                                                                                               |
+| Является однозначным       | Верно                                                                                                                                                |
+| Индексируется             | Нет                                                                                                                                               |
+| В глобальном каталоге      | Нет                                                                                                                                               |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                        |
 | Range-Lower            | \-                                                                                                                                                  |
 | Range-Upper            | \-                                                                                                                                                  |

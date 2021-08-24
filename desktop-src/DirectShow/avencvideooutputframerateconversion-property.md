@@ -4,12 +4,12 @@ ms.assetid: c3946942-5a61-4a15-ace6-da2f63c01963
 title: Свойство Авенквидеуутпутфрамератеконверсион (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2687ce33af1717631f156df12de38dafff8d1871
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 39fa09b8370faf7f56336d129661d02e514bb6fc192f8dec0e1b19b5ee53f381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119540684"
 ---
 # <a name="avencvideooutputframerateconversion-property"></a>Авенквидеуутпутфрамератеконверсион, свойство
 
@@ -29,19 +29,19 @@ ms.locfileid: "105682198"
 
 Значение этого свойства является членом перечисления [**еавенквидеуутпутфрамератеконверсион**](/windows/win32/api/codecapi/ne-codecapi-eavencvideooutputframerateconversion) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

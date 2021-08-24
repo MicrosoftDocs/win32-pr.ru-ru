@@ -4,12 +4,12 @@ ms.assetid: 211e2a68-69b5-40d6-82e7-8cfe3ff92b25
 title: System.Devices.Category
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c940efcd1f4f025521f9d65b25a8c7d9a3b37b12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5b2dd51f6cc3e17a648cf8317a450cfa8e5002bccc1137a268d131e68e6de2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445663"
 ---
 # <a name="systemdevicescategory"></a>System.Devices.Category
 
@@ -47,11 +47,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

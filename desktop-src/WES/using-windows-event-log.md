@@ -1,19 +1,19 @@
 ---
-title: Использование журнала событий Windows
-description: В этом разделе содержатся сведения об использовании API журнала событий Windows для записи манифеста инструментирования, написании поставщика, предоставляющего события, определенные в манифесте, и использовании событий, которые регистрируются в журнале.
+title: использование Windows журнала событий
+description: в этом разделе содержатся сведения об использовании Windows API журнала событий для записи манифеста инструментирования, написании поставщика, предоставляющего события, определенные в манифесте, и использовании событий, которые регистрируются в журнале.
 ms.assetid: c2855190-584b-406d-acff-5ffbf10dbb5e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8aca9896eabf1f785cef590993a0e6184f70c39
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f87c8d0b4dbe851562b0b298cac55b051397b42e6710c536c900c9755fd6e512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104133971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119510834"
 ---
-# <a name="using-windows-event-log"></a>Использование журнала событий Windows
+# <a name="using-windows-event-log"></a>использование Windows журнала событий
 
-В этом разделе содержатся сведения об использовании API журнала событий Windows для записи манифеста инструментирования, написании поставщика, предоставляющего события, определенные в манифесте, и использовании событий, которые регистрируются в журнале.
+в этом разделе содержатся сведения об использовании Windows API журнала событий для записи манифеста инструментирования, написании поставщика, предоставляющего события, определенные в манифесте, и использовании событий, которые регистрируются в журнале.
 
 Дополнительные сведения в следующих разделах.
 
@@ -26,8 +26,8 @@ ms.locfileid: "104133971"
 -   [Доступ к удаленным компьютерам](accessing-remote-computers.md)
 -   [Сохранение событий в файл журнала](saving-events-to-a-log-file.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-[Как включить трассировку WPP через службу журнала событий Windows?](/windows-hardware/drivers/devtest/enabling-wpp-tracing-through-windows-event-log)
+[как включить трассировку WPP через службу журнала событий Windows?](/windows-hardware/drivers/devtest/enabling-wpp-tracing-through-windows-event-log)
 
-[Справочник по журналам событий Windows](windows-event-log-reference.md)
+[Windows Справочник по журналам событий](windows-event-log-reference.md)

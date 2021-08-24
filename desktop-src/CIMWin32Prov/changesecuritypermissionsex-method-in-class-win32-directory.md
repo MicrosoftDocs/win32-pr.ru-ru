@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4bcadd4a4ad115a1a367db4f2a2f645eb6a4742c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d90a6a76067421c3b23c0ec5124fa5da85e029e81d0307a2b4b66d01231fe56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323034"
 ---
 # <a name="changesecuritypermissionsex-method-of-the-win32_directory-class"></a>Метод Чанжесекуритипермиссионсекс \_ класса каталога Win32
 
@@ -193,12 +193,12 @@ uint32 ChangeSecurityPermissionsEx(
 
 </dd> <dt>
 
-**Платформа не NT/Windows 2000**
+**платформа не NT/Windows 2000**
 </dt> <dd>
 
 12
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 

@@ -1,45 +1,45 @@
 ---
 title: Поддержка сокетов Windows для Bluetooth
-description: В этом разделе описывается использование интерфейса сокетов Windows с функциями Bluetooth, появившимися в Windows Vista.
+description: в этом разделе описано, как использовать интерфейс сокетов Windows с функциями Bluetooth, появившимися в Windows Vista.
 ms.assetid: 5f6f21d7-3e09-453f-a5fa-f88ad231de62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd0328402be6a6485ea9f6cbee46084ec636fed
-ms.sourcegitcommit: 6f905c836d3fd04934fb3e5f1a56b4a421f7596f
+ms.openlocfilehash: 07055d2b3b9826659ca36cbf68aac14eadfa357421069872c670cc825aa59e02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "104487341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588274"
 ---
 # <a name="windows-sockets-support-for-bluetooth"></a>Поддержка сокетов Windows для Bluetooth
 
-В этом разделе описывается использование интерфейса сокетов Windows с функциями Bluetooth, появившимися в Windows Vista. Дополнительные сведения об интерфейсах API, которые делают это возможно, см. в разделе [программирование Bluetooth с помощью сокетов Windows](bluetooth-programming-with-windows-sockets.md) и [Пример подключения Bluetooth](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample).
+в этом разделе описано, как использовать интерфейс сокетов Windows с функциями Bluetooth, появившимися в Windows Vista. дополнительные сведения об интерфейсах api, которые делают это возможно, см. в разделе [Bluetooth программирование с Windows сокетами](bluetooth-programming-with-windows-sockets.md) и [примером подключения Bluetooth](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample).
 
-Сведения о том, как напрямую управлять устройствами с помощью интерфейсов Bluetooth, не поддерживающих сокеты, см. в разделе [Управление устройствами и службами Bluetooth](managing-bluetooth-devices-and-services.md).
+сведения о том, как напрямую управлять устройствами с помощью Bluetooth интерфейсов, не связанных с сокетами, см. в разделе [управление Bluetooth устройствами и службами](managing-bluetooth-devices-and-services.md).
 
 Этот раздел содержит следующие подразделы.
 
 | Section                                                                                      | Содержимое                                                                        |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [Обнаружение устройств и служб Bluetooth](discovering-bluetooth-devices-and-services.md) | Описание процесса обнаружения устройств и служб Bluetooth с помощью сокетов Windows. |
+| [Обнаружение устройств и служб Bluetooth](discovering-bluetooth-devices-and-services.md) | описание обнаружения устройств и служб Bluetooth с помощью сокетов Windows. |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Программирование Bluetooth с помощью сокетов Windows](bluetooth-programming-with-windows-sockets.md)
+[Bluetooth программирование с помощью сокетов Windows](bluetooth-programming-with-windows-sockets.md)
 </dt> <dt>
 
-[Пример подключения Bluetooth](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample)
+[пример подключения Bluetooth](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Bluetooth%20connection%20sample)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

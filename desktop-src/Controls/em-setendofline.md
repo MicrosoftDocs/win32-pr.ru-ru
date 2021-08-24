@@ -3,7 +3,7 @@ title: Сообщение EM_SETENDOFLINE (Коммктрл. h)
 description: Задает символ конца строки, используемый при вставке LineBreak.
 ms.assetid: a10b3f57-0e67-4a0f-89f3-9c8ebd1514f8
 keywords:
-- Элементы управления Windows для EM_SETENDOFLINE сообщений
+- элементы управления Windows сообщений EM_SETENDOFLINE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 5ee7c500ba3818cad0f5ee74e9994ed8af049ea0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5990b247757fc8e3cd39ab38edf5b88ca8ac62f74e402aac3899d51e3156231f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437594"
 ---
 # <a name="em_setendofline-message"></a>\_Сообщение СЕТЕНДОФЛИНЕ EM
 
@@ -57,7 +57,7 @@ ms.locfileid: "104492462"
 
 Если операция завершается ошибкой, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если кодировка конца строки равна **EC \_ ендофлине \_ детектфромконтент**, элемент управления "поле ввода" будет обнаруживать только символы конца строки, поддерживаемые в соответствии с его расширенным стилем окна. см. раздел [Правка Управление расширенными стилями](edit-control-window-extended-styles.md).
 
@@ -68,8 +68,8 @@ ms.locfileid: "104492462"
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, \[ только классические приложения 1809\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

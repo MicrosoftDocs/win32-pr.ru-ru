@@ -3,7 +3,7 @@ title: Событие Вебвиевфолдерконтентс. SelectionChang
 description: Событие Вебвиевфолдерконтентс. SelectionChanged — происходит при изменении состояния выбора любого элемента или элементов в представлении.
 ms.assetid: 46dfceec-aa81-4950-81e5-526a6e621271
 keywords:
-- Устаревшие функции среды Windows для события SelectionChanged
+- устаревшие функции Windows для события среды SelectionChanged
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6176cb2a1703d48cd2ddec8069c65d7efc978f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4cccabe52d7370d22fa086e9e8664163771062e8828c8ab2a6d016df30f13350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119607834"
 ---
 # <a name="webviewfoldercontentsselectionchanged-event"></a>Вебвиевфолдерконтентс. SelectionChanged, событие
 
@@ -46,7 +46,7 @@ WebViewFolderContents.SelectionChanged = EventHandler;
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого события для JScript Embedded в HTML.
+в следующем примере показано правильное использование этого события для JScript, внедренного в HTML.
 
 
 ```HTML
@@ -78,13 +78,13 @@ WebViewFolderContents.SelectionChanged = EventHandler;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

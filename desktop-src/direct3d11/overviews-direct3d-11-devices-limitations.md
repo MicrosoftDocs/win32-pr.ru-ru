@@ -4,12 +4,12 @@ description: Существуют некоторые ограничения на
 ms.assetid: 7e022e5d-daa3-48fa-b9fe-4b569220e55e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12540b1fdb8f2bc00ef2a0e596904e0b717bed1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0483ed6d5fd7348df39a4f3064f377845d6bfae1fe46abc47be5acd99e191c29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608614"
 ---
 # <a name="limitations-creating-warp-and-reference-devices"></a>Ограничения на создание ИСКРИВЛЕНных и эталонных устройств
 
@@ -17,7 +17,7 @@ ms.locfileid: "104337556"
 
 Типы драйверов типов драйвера D3D10 \_ \_ и драйвера D3D10 для типов драйверов \_ \_ \_ \_ не поддерживаются на \_ уровне компонентов D3D10 с \_ уровня \_ 9 \_ 1 до D3D10 компонентов уровня \_ \_ \_ \_ 4 3 в Direct3D 10,1. Кроме того, тип драйвера " \_ деформация" типа драйвера D3D \_ \_ не поддерживается на \_ уровне функции D3D \_ \_ 11 \_ 0 в Direct3D 11,0. Это значит, что при вызове [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) для создания устройства Direct3D 10,1 или при вызове [**D3D11CreateDevice**](/windows/desktop/api/D3D11/nf-d3d11-d3d11createdevice) для создания устройства Direct3D 11,0, если указать сочетание одного из этих типов драйверов с одним из этих уровней функций в вызове, вызов будет недопустимым. Для деформации и ссылочных устройств допустимы только следующие сочетания уровней компонентов, сред выполнения и типов драйверов:
 
--   \_Тип драйвера \_ D3D \_ перекоса на всех уровнях компонентов в Direct3D 11,1, которые входят в состав Windows 8
+-   \_тип драйвера \_ D3D \_ перекоса на всех уровнях компонентов в Direct3D 11,1, которые Windows 8 включают
 
     \_ \_ Справочник по типам драйверов D3D \_ на всех уровнях компонентов в Direct3D 11,1
 
@@ -33,7 +33,7 @@ ms.locfileid: "104337556"
 
     При вызове [**D3D10CreateDevice1**](/windows/desktop/api/d3d10_1/nf-d3d10_1-d3d10createdevice1) для создания устройства Direct3D 10,1 вызов допустим, если указать сочетание одного из этих типов драйверов с одним из этих уровней.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -61,6 +61,6 @@ ms.locfileid: "104337556"
 [**\_Уровень компонента \_ D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

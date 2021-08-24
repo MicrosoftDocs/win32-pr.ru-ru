@@ -15,12 +15,12 @@ keywords:
 - Удаление крышки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a19eb3895ada13297f090a09529b2bcb7c75dee
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 65ed2cbe50771b893c7a2ccc0874a882aabb23a1d0b4ba27822d7ce0ec47a18b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105700863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461324"
 ---
 # <a name="about-carets"></a>Около крышки
 
@@ -57,6 +57,6 @@ ms.locfileid: "105700863"
 
 Чтобы удалить курсор с экрана и уничтожить его фигуру, используйте функцию [**дестройкарет**](/windows/desktop/api/Winuser/nf-winuser-destroycaret) . **Дестройкарет** уничтожает курсор, только если окно, вовлеченное в текущую задачу, принадлежит курсору.
 
- 
+ 
 
- 
+ 

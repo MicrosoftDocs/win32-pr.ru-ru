@@ -4,12 +4,12 @@ ms.assetid: F1B8A8C8-2E41-4321-A94D-C50447C69941
 title: Атрибут MF_READWRITE_MMCSS_CLASS_AUDIO (Мфреадврите. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa35db710c6b72c103855fa2c0a9f169f49c4511
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f416c22619c0777ef244e6566328154bf7a7336587fc73a3f29626fcdaa1c462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119345284"
 ---
 # <a name="mf_readwrite_mmcss_class_audio-attribute"></a>\_ \_ \_ Аудио атрибут класса MMCSS MF ReadWrite \_
 
@@ -25,7 +25,7 @@ ms.locfileid: "105701705"
 
 Чтобы задать этот атрибут, вызовите [**имфаттрибутес:: SetString**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При необходимости задайте этот атрибут при создании экземпляра модуля [чтения источника](source-reader.md) или [средства записи приемника](sink-writer.md). Значение атрибута должно быть допустимым именем класса MMCSS.
 
@@ -43,9 +43,9 @@ ms.locfileid: "105701705"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Мфреадврите. h</dt> </dl> |
 
 
 

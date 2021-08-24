@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1a9a9a0a0f8e9ea344c7a37ad1168dcb5e059093
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1caa9809bda8d90c6bcb51439745c5fafb213383a298d0f37e064521ae184945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119427654"
 ---
 # <a name="cim_virtualsystemmigrationcapabilities-class"></a>\_Класс CIM виртуалсистеммигратионкапабилитиес
 
@@ -45,7 +45,7 @@ class CIM_VirtualSystemMigrationCapabilities : CIM_Capabilities
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ виртуалсистеммигратионкапабилитиес** имеет следующие свойства.
 
@@ -197,7 +197,7 @@ class CIM_VirtualSystemMigrationCapabilities : CIM_Capabilities
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

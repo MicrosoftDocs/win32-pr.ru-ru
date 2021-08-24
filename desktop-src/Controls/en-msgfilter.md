@@ -3,7 +3,7 @@ title: Код уведомления EN_MSGFILTER (RichEdit. h)
 description: Уведомляет родительское окно элемента управления Rich Edit с клавиатурой или событием мыши в элементе управления. Форматированный элемент управления "поле ввода" отправляет этот код уведомления в виде \_ сообщения WM notify.
 ms.assetid: 96cf0047-baae-46cd-82e8-ab6f3f353260
 keywords:
-- EN_MSGFILTER кода уведомления элементы управления Windows
+- EN_MSGFILTER кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ddb3e9b1d5314e2e981b00f0e0ef8e22974242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87d2cbe47af3d74deb4795946d58871b4729118db0e839027e78e05976ebf855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436714"
 ---
 # <a name="en_msgfilter-notification-code"></a>\_Код уведомления EN мсгфилтер
 
@@ -51,13 +51,13 @@ EN_MSGFILTER
 
 Возвращает ненулевое значение, если элемент управления должен игнорировать событие клавиатуры или мыши.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить \_ коды уведомлений EN мсгфилтер для событий, укажите один или несколько из следующих флагов в маске, отправляемой с сообщением [**EM \_ SETEVENTMASK**](em-seteventmask.md) .
 
 
 
-| Flag                                                                             | Значение                                                |
+| Флаг                                                                             | Значение                                                |
 |----------------------------------------------------------------------------------|--------------------------------------------------------|
 | [**ЕНМ \_ кэйевентс**](rich-edit-control-event-mask-flags.md)       | Для получения кодов уведомлений о событиях клавиатуры.     |
 | [**ЕНМ \_ маусивентс**](rich-edit-control-event-mask-flags.md)   | Для получения кодов уведомлений о событиях мыши.        |
@@ -67,14 +67,14 @@ EN_MSGFILTER
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
@@ -83,7 +83,7 @@ EN_MSGFILTER
 
 <dl> <dt>
 
-**Ссылки**
+**Ссылка**
 </dt> <dt>
 
 [**мсгфилтер**](/windows/desktop/api/Richedit/ns-richedit-msgfilter)

@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc99d9b38ab43327b4a435c4128378d49682935
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 69a8a22257aea0f30d2620d610a2ef3745c9c2a640f034bd1c30d1f582a6c9a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512304"
 ---
 # <a name="ivmguestossetparameter-method"></a>Метод Ивмгуестос:: Сетпараметер
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Задает именованный параметр в гостевой операционной системе.
 
@@ -81,7 +81,7 @@ HRESULT SetParameter(
 
 ## <a name="remarks"></a>Remarks
 
-При вызове этого метода виртуальная машина должна быть запущена, а компоненты интеграции должны быть установлены. Этот метод поддерживается только для гостевых операционных систем под управлением Windows.
+При вызове этого метода виртуальная машина должна быть запущена, а компоненты интеграции должны быть установлены. этот метод поддерживается только для гостевых операционных систем на основе Windows.
 
 После установки компонентов интеграции в реестр гостевой операционной системы автоматически добавляется следующий ключ:
 
@@ -94,13 +94,13 @@ HRESULT SetParameter(
 -   **фисикалхостнамефулликуалифиед**
 -   **VirtualMachineName**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
@@ -109,7 +109,7 @@ HRESULT SetParameter(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

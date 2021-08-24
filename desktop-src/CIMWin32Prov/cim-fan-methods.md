@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Методы CIM_Fan
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7cbabf7624338ed8554392e831e5bae5a039983
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 93da7777747e5eac7a3c6d215cb9952546fbb505462a6b027908ffdf3fd11a7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321086"
 ---
 # <a name="cim_fan-methods"></a>\_Методы вентилятора CIM
 

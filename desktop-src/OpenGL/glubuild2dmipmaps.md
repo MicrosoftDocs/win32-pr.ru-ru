@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92402792e41701711e99f469ead67410d6a8c1b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f27dcf3d0e95b0b52d5b7f4c4ce0e5692f3fc856b81d9c1d82c9661a70e2f818
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119489654"
 ---
 # <a name="glubuild2dmipmaps-function"></a>Функция gluBuild2DMipmaps
 
@@ -99,7 +99,7 @@ void WINAPI gluBuild2DMipmaps(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **gluBuild2DMipmaps** получает входной образ и создает все образы mipmap (с помощью [**глускалеимаже**](gluscaleimage.md)), поэтому входной образ можно использовать в качестве изображения текстуры мипмаппед. Чтобы загрузить каждое изображение, вызовите [**glTexImage2D**](glteximage2d.md). Если размеры входного изображения не являются степенями двух, то изображение масштабируется таким образом, чтобы ширина и высота были степенями двух до создания MIP-карты.
 
@@ -107,7 +107,7 @@ void WINAPI gluBuild2DMipmaps(
 
 Описание допустимых значений параметра *Format* см. в разделе **glTexImage2D**. Описание допустимых значений для *типа* см. в разделе [**глдравпикселс**](gldrawpixels.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -121,7 +121,7 @@ void WINAPI gluBuild2DMipmaps(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

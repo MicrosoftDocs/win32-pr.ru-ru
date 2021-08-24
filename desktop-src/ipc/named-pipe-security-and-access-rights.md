@@ -4,16 +4,16 @@ ms.assetid: f9ea97c9-9a97-4083-82d8-29ffb8be5a77
 title: Безопасность именованного канала и права доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11cada606d8197ac2f64943aa742bbfd614fa4ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 556987cf35845de249bf0e19f3a0b481aab18e891c3b6211f26eb51571704d7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451214"
 ---
 # <a name="named-pipe-security-and-access-rights"></a>Безопасность именованного канала и права доступа
 
-Система безопасности Windows позволяет управлять доступом к именованным каналам. Дополнительные сведения о безопасности см. в разделе [модель управления доступом](/windows/desktop/SecAuthZ/access-control-model).
+Windows безопасность позволяет управлять доступом к именованным каналам. Дополнительные сведения о безопасности см. в разделе [модель управления доступом](/windows/desktop/SecAuthZ/access-control-model).
 
 При вызове функции [**креатенамедпипе**](/windows/desktop/api/Winbase/nf-winbase-createnamedpipea) можно указать [дескриптор безопасности](/windows/desktop/SecAuthZ/security-descriptors) для именованного канала. Дескриптор безопасности управляет доступом к клиентским и серверным концам именованного канала. Если указано **значение NULL**, именованный канал получает дескриптор безопасности по умолчанию. Списки управления доступом в дескрипторе безопасности по умолчанию для именованного канала предоставляют полный доступ учетной записи LocalSystem, администраторам и владельцу создателя. Они также предоставляют доступ на чтение членам группы "все" и анонимной учетной записи.
 

@@ -4,12 +4,12 @@ ms.assetid: b54aaa85-6928-470e-9630-44b094205106
 title: пропертидескриптионлист
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cd0beaf4dbbd8b71c7f4b3335c169754c704d9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f22e5e8e2c90b1a9f9587117f684ebfb89c55ee702749248cb0a886d5ba8266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341844"
 ---
 # <a name="propertydescriptionlist"></a>пропертидескриптионлист
 
@@ -69,7 +69,7 @@ ms.locfileid: "105647263"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 [Пропертидескриптионлист]() не следует путать с "списками свойств" и [**ипропертидескриптионлист**](/windows/win32/api/propsys/nn-propsys-ipropertydescriptionlist), которые полностью отделены друг от друга.
 

@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 00a53d0c514113175c3c6ffb7ea40f8ef4e730d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd8aac2c3846c65b633061d15e6b4311b18c0a84663eca28cf2a928df2b13f4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431604"
 ---
 # <a name="cim_computersystem-class-hyper-v-management"></a>Класс CIM_ComputerSystem (Управление Hyper-V)
 
@@ -109,7 +109,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="Storage"></span><span id="storage"></span><span id="STORAGE"></span>
 
-<span id="Storage"></span><span id="storage"></span><span id="STORAGE"></span>**Хранилище** (3)
+<span id="Storage"></span><span id="storage"></span><span id="STORAGE"></span>**служба хранилища** (3)
 
 
 </dt> <dd></dd> <dt>
@@ -137,7 +137,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>
 
-<span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>**Центральный офисный коммутатор** (7)
+<span id="Central_Office_Switch"></span><span id="central_office_switch"></span><span id="CENTRAL_OFFICE_SWITCH"></span>**центральный коммутатор Office** (7)
 
 
 </dt> <dd></dd> <dt>
@@ -243,7 +243,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="Storage_Virtualizer"></span><span id="storage_virtualizer"></span><span id="STORAGE_VIRTUALIZER"></span>
 
-<span id="Storage_Virtualizer"></span><span id="storage_virtualizer"></span><span id="STORAGE_VIRTUALIZER"></span>**Виртуализация хранилища** (21)
+<span id="Storage_Virtualizer"></span><span id="storage_virtualizer"></span><span id="STORAGE_VIRTUALIZER"></span>**служба хранилища виртуализации** (21)
 
 
 </dt> <dd></dd> <dt>
@@ -285,7 +285,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="IP_Phone"></span><span id="ip_phone"></span><span id="IP_PHONE"></span>
 
-<span id="IP_Phone"></span><span id="ip_phone"></span><span id="IP_PHONE"></span>**IP-телефон** (27)
+<span id="IP_Phone"></span><span id="ip_phone"></span><span id="IP_PHONE"></span>**IP-Телефон** (27)
 
 
 </dt> <dd></dd> <dt>
@@ -327,7 +327,7 @@ class CIM_ComputerSystem : CIM_System
 
 <span id="Storage_Device_Enclosure"></span><span id="storage_device_enclosure"></span><span id="STORAGE_DEVICE_ENCLOSURE"></span>
 
-<span id="Storage_Device_Enclosure"></span><span id="storage_device_enclosure"></span><span id="STORAGE_DEVICE_ENCLOSURE"></span>**Корпус устройства хранения данных** (31)
+<span id="Storage_Device_Enclosure"></span><span id="storage_device_enclosure"></span><span id="STORAGE_DEVICE_ENCLOSURE"></span>**корпус устройства служба хранилища** (31)
 
 
 </dt> <dd>

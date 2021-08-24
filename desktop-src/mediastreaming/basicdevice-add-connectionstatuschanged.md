@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 61a36e46d554a953ecd061ccf2396d33b0578d8f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a416770a0ea3a4d317a2308fc9f5c9d940e89900aabbc7651ceb93b789454338
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105703569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462264"
 ---
 # <a name="basicdeviceadd_connectionstatuschanged-method"></a>Басикдевице. Add \_ коннектионстатусчанжед, метод
 
@@ -70,7 +70,7 @@ HRESULT add_ConnectionStatusChanged(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы отменить регистрацию обработчика событий, зарегистрированного этим методом, передайте значение *токена* методу [**Remove \_ коннектионстатусчанжед**](basicdevice-remove-connectionstatuschanged.md) .
 

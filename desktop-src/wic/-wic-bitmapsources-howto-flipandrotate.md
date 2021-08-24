@@ -4,12 +4,12 @@ ms.assetid: 371c7759-0165-4a2a-b2ff-f9c8a31053a4
 title: Отражение и поворот исходного растрового изображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87f6a805144025f185a4f4793fc4fafb27d7695a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28a61a1546f5a0191d2e20cc3079af3e4d772e6d2c3c07a5dd1e1e4aa331dc3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119331553"
 ---
 # <a name="how-to-flip-and-rotate-a-bitmap-source"></a>Отражение и поворот исходного растрового изображения
 
@@ -17,7 +17,7 @@ ms.locfileid: "104144746"
 
 Отражение и поворот исходного растрового изображения
 
-1.  Создайте объект [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) для создания объектов компонента Windows Imaging Component (WIC).
+1.  создайте объект [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) для создания объектов компонента обработки изображений Windows (WIC).
 
     ```C++
     // Create WIC factory
@@ -105,7 +105,7 @@ ms.locfileid: "104144746"
 
     ![Иллюстрация, демонстрирующая горизонтальное перелистывание (вдоль оси x веритал) изображения](graphics/fliphorizontal.png)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [Руководство по программированию](-wic-programming-guide.md)
 

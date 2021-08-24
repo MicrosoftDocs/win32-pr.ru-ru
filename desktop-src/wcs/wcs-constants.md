@@ -3,15 +3,15 @@ title: Константы WCS
 description: Константы WCS
 ms.assetid: 13874b84-cce6-4165-8b22-01d84f8ea933
 keywords:
-- Цветовая система Windows (WCS), константы
-- WCS (цветовая система Windows), константы
+- Windows Система цветов (WCS), константы
+- WCS (Windows цветовая система), константы
 - Управление цветом изображений, константы
 - Управление цветом, константы
 - цвета, константы
 - Справочник по WCS, константы
 - Справочник по WCS, константам
-- Цветовая система Windows (WCS), флаги
-- WCS (цветовая система Windows), флаги
+- Windows Система цветов (WCS), флаги
+- WCS (Windows цветовая система), флаги
 - Управление цветом изображений, флаги
 - Управление цветом, флаги
 - цвета, флаги
@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7703977fff5bedc3fb7cc85cd2c2c74098a7ec3d
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 58a761ce4354ce4a0ed8ee4da4192a2137752538a0d40b1ba06683efed39f793
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442334"
 ---
 # <a name="wcs-constants"></a>Константы WCS
 

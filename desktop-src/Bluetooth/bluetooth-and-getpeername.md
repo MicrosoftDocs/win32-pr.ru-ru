@@ -1,6 +1,6 @@
 ---
 title: Bluetooth и жетпирнаме
-description: Используется для получения адреса Bluetooth однорангового устройства Bluetooth.
+description: используется для получения адреса Bluetooth однорангового Bluetooth устройства.
 ms.assetid: e064214c-1899-4d17-a426-dd4230385b07
 keywords:
 - Bluetooth Bluetooth
@@ -8,20 +8,20 @@ keywords:
 - Bluetooth и жетпирнаме Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bac7eaba20902a72caa27427b99a72d8a4bc0134
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3f77d75c117be033576a1df72aa639ceecd3450be2a89675032bfad5caadd12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588444"
 ---
 # <a name="bluetooth-and-getpeername"></a>Bluetooth и жетпирнаме
 
-Функция [**жетпирнаме**](/windows/desktop/api/winsock/nf-winsock-getpeername) используется для получения адреса Bluetooth однорангового устройства Bluetooth. Функция **жетпирнаме** допустима только для подключенных сокетов Bluetooth.
+функция [**жетпирнаме**](/windows/desktop/api/winsock/nf-winsock-getpeername) используется для получения адреса Bluetooth однорангового устройства Bluetooth. функция **жетпирнаме** допустима только для подключенных сокетов Bluetooth.
 
-Дополнительные сведения см. в разделе [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2).
+дополнительные сведения см. в разделе [сокеты Windows](/windows/desktop/WinSock/windows-sockets-start-page-2).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -31,6 +31,6 @@ ms.locfileid: "104070550"
 [**жетпирнаме**](/windows/desktop/api/winsock/nf-winsock-getpeername)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

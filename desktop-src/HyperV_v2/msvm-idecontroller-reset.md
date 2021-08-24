@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5598241262f5a275df4068fbbbf12c6e65ce640b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 31d1de9cc7eddf3e83a72be676038b2ae3602a589858e2a9a563f20ff930d8a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522824"
 ---
 # <a name="reset-method-of-the-msvm_idecontroller-class"></a>Метод Reset \_ класса мсвм идеконтроллер
 
@@ -49,7 +49,7 @@ uint32 Reset();
 **Не поддерживается** (1)
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

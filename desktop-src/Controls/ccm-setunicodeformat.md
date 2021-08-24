@@ -3,7 +3,7 @@ title: Сообщение CCM_SETUNICODEFORMAT (Коммктрл. h)
 description: Задает флаг формата символов Юникода для элемента управления. Это сообщение позволяет изменить кодировку, используемую элементом управления во время выполнения, вместо того, чтобы повторно создавать элемент управления.
 ms.assetid: 8028b7d7-30d2-4154-81c7-ba1ed095ef02
 keywords:
-- Элементы управления Windows для CCM_SETUNICODEFORMAT сообщений
+- элементы управления Windows сообщений CCM_SETUNICODEFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffbe9f5032c193cb612f68ca8ed6ec6b04ce8094
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c687d476b5dc5aa65e876839dcd0c94c0f77c96f133db710d6b98f7114ab724
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320154"
 ---
 # <a name="ccm_setunicodeformat-message"></a>\_Сообщение СЕТУНИКОДЕФОРМАТ CCM
 
@@ -43,14 +43,14 @@ ms.locfileid: "104491520"
 
 Возвращает предыдущий флаг формата Юникода для элемента управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - БИТЫ задания передачи, ход выполнения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085ddcdeea106be2998f828879bc92273f22b328
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09da4791bffd075d1fb0dd5868f0b78c1b949a0384ff9203555bf18c10ff39cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323254"
 ---
 # <a name="determining-the-progress-of-a-job"></a>Определение хода выполнения задания
 
@@ -88,9 +88,9 @@ if (SUCCEEDED(hr))
 
 Файлы также содержат сведения о ходе выполнения. Чтобы получить сведения о ходе выполнения, используйте метод [**ибаккграундкопифиле:: Progress**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyfile-getprogress) . Сведения о том, как получить файлы задания, см. в разделе [Перечисление файлов в задании](enumerating-files-in-a-job.md).
 
- 
+ 
 
- 
+ 
 
 
 

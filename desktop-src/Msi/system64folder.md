@@ -4,30 +4,30 @@ ms.assetid: ce25c95e-cff5-44ec-81cb-b3104fb9b987
 title: System64Folder, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62e05f9067c4f5a77b5361fdefe0f5b47b9116ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d586451ab596f5b480c74f382659596128a12c041596dec3c530b18307af2820
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119500434"
 ---
 # <a name="system64folder-property"></a>System64Folder, свойство
 
 Установщик задает для свойства **System64Folder** полный путь к предопределенной папке System64. Для существующего свойства **System64Folder** задается соответствующая 32-разрядная папка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Установщик задает это свойство для 64-разрядной версии Windows. Например, в 64-разрядной Windows значением может быть C: \\ Window \\ System32. Это свойство не используется в 32-разрядной версии Windows.
+Установщик задает это свойство для 64-разрядного Windows. например, в 64-разрядном Windows значение может быть C: \\ Window \\ System32. Это свойство не используется в 32-разрядном Windows.
 
-Обычно эта папка является вложенной папкой папки Windows. Однако он находится на сервере, настроенном для совместно используемых окон.
+обычно эта папка является вложенной папкой Windows папки. Однако он находится на сервере, настроенном для совместного использования Windows.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

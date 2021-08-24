@@ -3,7 +3,7 @@ title: Сообщение TB_SETEXTENDEDSTYLE (Коммктрл. h)
 description: Задает расширенные стили для элемента управления ToolBar.
 ms.assetid: aec64bc7-74b4-4efc-9864-2c8a9fbd35c2
 keywords:
-- Элементы управления Windows для TB_SETEXTENDEDSTYLE сообщений
+- элементы управления Windows сообщений TB_SETEXTENDEDSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9a540aaeff61bd81b649f0509e064a29282f598
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 600e5904637215eeb052c85ec0203c9b86c75ed6b179be643dc9a213156b3afd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318884"
 ---
 # <a name="tb_setextendedstyle-message"></a>\_Сообщение СЕТЕКСТЕНДЕДСТИЛЕ ТБ
 
@@ -49,8 +49,8 @@ ms.locfileid: "104136806"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

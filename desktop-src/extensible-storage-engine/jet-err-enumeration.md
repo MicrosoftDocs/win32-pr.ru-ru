@@ -832,12 +832,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eccc99baa6fe791f3817e7e88326e3cee9b451b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f726de52cc640c47bedc15f7204b421dabee5f0c91a9200f1f5490b224ae38d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475054"
 ---
 # <a name="jet_err-enumeration"></a>Перечисление JET_err
 
@@ -1613,7 +1613,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>скллинкнотсуппортед</td>
-<td>Поддержка ссылок SQL недоступна</td>
+<td>SQL Поддержка ссылок недоступна</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2483,7 +2483,7 @@ public enum JET_err
 <tr class="odd">
 <td></td>
 <td>лангуаженотсуппортед</td>
-<td>Установка Windows не поддерживает язык</td>
+<td>Windowsная установка не поддерживает язык</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -2848,17 +2848,17 @@ public enum JET_err
 <tr class="even">
 <td></td>
 <td>лскаллбаккнотспеЦифиед</td>
-<td>Попытка использовать локальное хранилище без указания функции обратного вызова</td>
+<td>попытка использовать локальную служба хранилища без указания функции обратного вызова</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td>лсалреадисет</td>
-<td>Попытка задать локальное хранилище для объекта, для которого уже задано значение</td>
+<td>попытка задать локальную служба хранилища для объекта, для которого уже задано значение</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>лснотсет</td>
-<td>Попытка получить локальное хранилище из объекта, который не был задан</td>
+<td>попытка получить локальный служба хранилища из объекта, который не был задан</td>
 </tr>
 <tr class="odd">
 <td></td>

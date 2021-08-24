@@ -4,12 +4,12 @@ ms.assetid: 7ba776de-53e5-491a-917b-37778fe0c438
 title: ПРИМАРИФОЛДЕР, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 242b8adc9c753e3d1cb91c40798471852d9f2414
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ed2fce0875a9b3fb63dfc0dccb1a351e35577ff61ebcb4a59a25c10468d1684
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381274"
 ---
 # <a name="primaryfolder-property"></a>ПРИМАРИФОЛДЕР, свойство
 
@@ -19,13 +19,13 @@ ms.locfileid: "105651735"
 
 Значение этого свойства должно быть именем ключа записи каталога, найденной в [таблице Directory](directory-table.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c9bde92992eec9c4ab3d4151c59e6d687ec2f3fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fdcecba38b1fd5eb773e5076f5485ae900e5423267a3a311091bf01e0ed86ac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512024"
 ---
 # <a name="irdvtaskpluginnotifysinkscheduletask-method"></a>Метод Ирдвтаскплугиннотифисинк:: ScheduleTask
 
@@ -107,18 +107,18 @@ HRESULT ScheduleTask(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------|
-| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
+| Минимальная версия клиента<br/> | Windows 7 Корпоративная<br/>   |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

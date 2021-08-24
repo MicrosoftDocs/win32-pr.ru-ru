@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c784741eded406a49bba90f67544a406ab024a6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50f56232ac891cbdfba18195741d875ecc5436112772ed4fa665903374e96602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554194"
 ---
 # <a name="glunurbssurface-function"></a>Функция Глунурбссурфаце
 
@@ -131,7 +131,7 @@ void WINAPI gluNurbsSurface(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **глунурбссурфаце** в определении поверхности нурбс, чтобы описать форму поверхности нурбс (перед обрезками). Чтобы отметить начало определения поверхности НУРБС, используйте функцию [**глубегинсурфаце**](glubeginsurface.md) . Чтобы отметить конец определения поверхности НУРБС, используйте функцию [**глуендсурфаце**](gluendsurface.md) . Вызовите **глунурбссурфаце** только в определении поверхности нурбс.
 
@@ -141,7 +141,7 @@ void WINAPI gluNurbsSurface(
 
 **Глунурбссурфаце** с *скнот \_ Count* Кнотс в направлении *u* и *ткнот \_ Count* Кнотс в версии *v* с Orders *сордер* и *тордер* должны иметь контрольные точки (*скнот \_ Count*  - *сордер*) мултипиед by (*ткнот \_ Count*  - *тордер*).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -155,7 +155,7 @@ void WINAPI gluNurbsSurface(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

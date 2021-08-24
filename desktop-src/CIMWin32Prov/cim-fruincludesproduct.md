@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 196f0cc1f2e81312e5e695c34e0a492ac7c05389
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1db2792cd5da23c7812e38682ddfa570bef927cb5e57440b31d1f110094b731c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104273263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119578682"
 ---
 # <a name="cim_fruincludesproduct-class"></a>\_Класс CIM фруинклудеспродукт
 
@@ -51,7 +51,7 @@ class CIM_FRUIncludesProduct
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ фруинклудеспродукт** имеет следующие свойства.
 
@@ -86,13 +86,13 @@ class CIM_FRUIncludesProduct
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

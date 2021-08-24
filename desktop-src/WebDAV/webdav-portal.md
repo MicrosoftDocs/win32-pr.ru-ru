@@ -8,18 +8,18 @@ keywords:
 - Распределенное веб-создание и управление версиями WebDAV см. в разделе WebDAV.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aac7711ae623fe925843e1c38d039d84fcb007e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0784f1b23da439a34eb37b7766f3790dbe2eee7ffa541ae121904b9a6d23295d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119134206"
 ---
 # <a name="webdav"></a>WebDAV
 
 ## <a name="purpose"></a>Назначение
 
-Протокол WebDAV — это расширение протокола HTTP, которое определяет, как основные функции файлов, такие как копирование, перемещение, удаление и создание, выполняются с помощью протокола HTTP. API WebDAV — это набор функций Win32 для создания соединений с серверами WebDAV и управления ими, а также выполнения операций файлового ввода-вывода с удаленными файлами на WebDAV-серверах. Функции API WebDAV предназначены для совместного использования с другими функциями API Win32, такими как [сетевые функции Windows](/windows/desktop/WNet/windows-networking-functions) и [функции управления файлами](/windows/desktop/FileIO/file-management-functions).
+Протокол WebDAV — это расширение протокола HTTP, которое определяет, как основные функции файлов, такие как копирование, перемещение, удаление и создание, выполняются с помощью протокола HTTP. API WebDAV — это набор функций Win32 для создания соединений с серверами WebDAV и управления ими, а также выполнения операций файлового ввода-вывода с удаленными файлами на WebDAV-серверах. функции api WebDAV предназначены для совместного использования с другими функциями api Win32, такими как [Windows сетевые функции](/windows/desktop/WNet/windows-networking-functions) и [функции управления файлами](/windows/desktop/FileIO/file-management-functions).
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 

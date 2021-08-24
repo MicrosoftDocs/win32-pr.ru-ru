@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa769b886171211fc89ed5b1e3d5082e6eeedd2b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8e11247c9b81b378637fd751cd59ec76360e118da8220593340ff55ed25c7518
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301304"
 ---
 # <a name="e-mail-addresses-attribute"></a>Атрибут адресов электронной почты
 
@@ -58,9 +58,9 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                     |
 | MAPI-Id                | 0x39FE                                                                                                 |
 | System-Only            | Неверно                                                                                                  |
-| Является однозначным       | True                                                                                                   |
-| Индексируется             | True                                                                                                   |
-| В глобальном каталоге      | True                                                                                                   |
+| Является однозначным       | Верно                                                                                                   |
+| Индексируется             | Верно                                                                                                   |
+| В глобальном каталоге      | Верно                                                                                                   |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                           |
 | Range-Lower            | 0                                                                                                      |
 | Range-Upper            | 256                                                                                                    |
@@ -79,15 +79,15 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                                                                                                           |
 | MAPI-Id                | 0x39FE                                                                                                                                                                                       |
 | System-Only            | Неверно                                                                                                                                                                                        |
-| Является однозначным       | True                                                                                                                                                                                         |
-| Индексируется             | True                                                                                                                                                                                         |
-| В глобальном каталоге      | True                                                                                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                                                                                         |
+| Индексируется             | Верно                                                                                                                                                                                         |
+| В глобальном каталоге      | Верно                                                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                 |
 | Range-Lower            | 0                                                                                                                                                                                            |
 | Range-Upper            | 256                                                                                                                                                                                          |
 | Search-Flags           | 0x00000001                                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                                   |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -100,15 +100,15 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                                                                                                           |
 | MAPI-Id                | 0x39FE                                                                                                                                                                                       |
 | System-Only            | Неверно                                                                                                                                                                                        |
-| Является однозначным       | True                                                                                                                                                                                         |
-| Индексируется             | True                                                                                                                                                                                         |
-| В глобальном каталоге      | True                                                                                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                                                                                         |
+| Индексируется             | Верно                                                                                                                                                                                         |
+| В глобальном каталоге      | Верно                                                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                 |
 | Range-Lower            | 0                                                                                                                                                                                            |
 | Range-Upper            | 256                                                                                                                                                                                          |
 | Search-Flags           | 0x00000001                                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                                   |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -121,15 +121,15 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                                                                                                           |
 | MAPI-Id                | 0x39FE                                                                                                                                                                                       |
 | System-Only            | Неверно                                                                                                                                                                                        |
-| Является однозначным       | True                                                                                                                                                                                         |
-| Индексируется             | True                                                                                                                                                                                         |
-| В глобальном каталоге      | True                                                                                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                                                                                         |
+| Индексируется             | Верно                                                                                                                                                                                         |
+| В глобальном каталоге      | Верно                                                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                 |
 | Range-Lower            | 0                                                                                                                                                                                            |
 | Range-Upper            | 256                                                                                                                                                                                          |
 | Search-Flags           | 0x00000001                                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                                   |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -142,15 +142,15 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                                                                                                           |
 | MAPI-Id                | 0x39FE                                                                                                                                                                                       |
 | System-Only            | Неверно                                                                                                                                                                                        |
-| Является однозначным       | True                                                                                                                                                                                         |
-| Индексируется             | True                                                                                                                                                                                         |
-| В глобальном каталоге      | True                                                                                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                                                                                         |
+| Индексируется             | Верно                                                                                                                                                                                         |
+| В глобальном каталоге      | Верно                                                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                 |
 | Range-Lower            | 0                                                                                                                                                                                            |
 | Range-Upper            | 256                                                                                                                                                                                          |
 | Search-Flags           | 0x00000001                                                                                                                                                                                   |
 | System-Flags           | 0x00000010                                                                                                                                                                                   |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> [**Organizational-Person**](c-organizationalperson.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -163,9 +163,9 @@ ms.locfileid: "105655239"
 | Идентификатор ссылки                | \-                                                                                                                                                                                           |
 | MAPI-Id                | 0x39FE                                                                                                                                                                                       |
 | System-Only            | Неверно                                                                                                                                                                                        |
-| Является однозначным       | True                                                                                                                                                                                         |
-| Индексируется             | True                                                                                                                                                                                         |
-| В глобальном каталоге      | True                                                                                                                                                                                         |
+| Является однозначным       | Верно                                                                                                                                                                                         |
+| Индексируется             | Верно                                                                                                                                                                                         |
+| В глобальном каталоге      | Верно                                                                                                                                                                                         |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                 |
 | Range-Lower            | 0                                                                                                                                                                                            |
 | Range-Upper            | 256                                                                                                                                                                                          |

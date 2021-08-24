@@ -4,12 +4,12 @@ ms.assetid: 6a56c355-8f24-41cc-88d9-2a02d9863ccf
 title: Управление сертификатами с помощью хранилищ сертификатов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98abb2b612f77db3f1c59e53fb9c7bf0f34cefb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0bfab57522ea8b400ee8d042b5b2cb1ad37fe7c234a291000eb516b11a6be0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104552345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425662"
 ---
 # <a name="managing-certificates-with-certificate-stores"></a>Управление сертификатами с помощью хранилищ сертификатов
 
@@ -47,7 +47,7 @@ CryptoAPI предлагает две основные категории фун
 
 Пример, в котором используются некоторые из этих функций, см. в разделе [Пример программы C: операции с хранилищем сертификатов](example-c-program-certificate-store-operations.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

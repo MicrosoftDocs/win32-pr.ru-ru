@@ -4,12 +4,12 @@ ms.assetid: 9b480750-602e-421e-8dfd-0b7049ed8b8a
 title: Свойство сводки автора
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a860b03baaf395892f0c155e1166af4ea42e0edb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69a050fdb64a8c931ad53c92229ca93994270a26829f72a15d025e4d513109d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581794"
 ---
 # <a name="author-summary-property"></a>Свойство сводки автора
 
@@ -19,17 +19,17 @@ ms.locfileid: "105669352"
 -   Задайте для свойства **Автор сводки** в преобразовании имя производителя преобразования.
 -   Задайте для свойства **Автор сводки** в пакете исправлений имя производителя пакета исправлений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

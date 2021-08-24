@@ -4,27 +4,27 @@ description: В этом разделе показано, как создать 
 ms.assetid: E3D577AF-3290-431E-AA6C-1E9A9ED6448C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73989124982cb563fc008d7f3c543388cca685a5
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d051c668e95667948d11a8ec86ed41236f84ff78325911e008c65ad787b958fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103988027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119576134"
 ---
 # <a name="how-to-create-a-comboboxex-control"></a>Создание элемента управления ComboBoxEx
 
 В этом разделе показано, как создать элемент управления ComboBoxEx.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -71,7 +71,7 @@ HWND WINAPI CreateComboEx(void)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

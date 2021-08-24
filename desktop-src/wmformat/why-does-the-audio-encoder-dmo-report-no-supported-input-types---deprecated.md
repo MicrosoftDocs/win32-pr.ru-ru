@@ -1,9 +1,9 @@
 ---
-title: Почему в отчете DMO кодировщика Audio Encoder нет поддерживаемых типов входных данных
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | Почему в отчете DMO кодировщика Audio Encoder нет поддерживаемых типов входных данных
+title: почему кодировщик аудио DMO не сообщает о поддерживаемых типах входных данных
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | почему кодировщик аудио DMO не сообщает о поддерживаемых типах входных данных
 ms.assetid: 51169820-dea8-456d-9b3c-1c7746fa1556
 keywords:
-- Почему в отчете DMO кодировщика Audio Encoder нет поддерживаемых типов входных данных формат Windows Media
+- почему кодировщик аудио DMO не сообщает о поддерживаемых типах входных типов windows Media Format
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8191cfb02002f6434830a6d8a4391bd183b63c1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c9666dc6869094e6f093183e46b5681d7709572b3f2da43da2db469c8ecc6a70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326894"
 ---
-# <a name="why-does-the-audio-encoder-dmo-report-no-supported-input-types"></a>Почему в отчете DMO для звуковых кодировщиков не поддерживаются входные типы?
+# <a name="why-does-the-audio-encoder-dmo-report-no-supported-input-types"></a>почему кодировщик аудио DMO не сообщать о поддерживаемых типах входных данных?
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

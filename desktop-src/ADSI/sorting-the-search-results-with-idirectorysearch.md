@@ -8,12 +8,12 @@ keywords:
 - ADSI, поиск, IDirectorySearch, другие параметры поиска, сортировка результатов поиска
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8433d24b06ac4d361d6520d8af3376ea12acac1f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7864a3878d2cdc44d58c6f6090f6b791b9fe29b3d2613e6e3d4aaf0b6289e100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119443874"
 ---
 # <a name="sorting-the-search-results-with-idirectorysearch"></a>Сортировка результатов поиска с помощью IDirectorySearch
 
@@ -45,6 +45,6 @@ SearchPref.vValue.ProviderSpecific.lpValue = (LPBYTE)&SortKey;
 
 Active Directory не поддерживает сортировку сконструированных атрибутов, поэтому невозможно указать сконструированный атрибут для сортировки. Атрибут [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) также нельзя использовать для сортировки. Active Directory также не допускает сортировку более чем по одному атрибуту, поэтому параметр **AD \_ сеарчпреф \_ Sort \_ On** Search может содержать только [**\_ одну структуру ADS**](/windows/desktop/api/Iads/ns-iads-ads_sortkey) .
 
- 
+ 
 
- 
+ 

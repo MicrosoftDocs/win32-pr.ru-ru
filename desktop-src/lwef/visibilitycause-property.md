@@ -4,16 +4,16 @@ description: Висибилитикаусе, свойство
 ms.assetid: 106574ef-af5f-44cf-9efb-9e6da19ebc1f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a6e21e2cda201f8d04837d2b10efc757b93f824
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4f1e90b77dfdfae364761254676d0867a43aebacf516d4f2adad2973700d7e83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119398794"
 ---
 # <a name="visibilitycause-property"></a>Висибилитикаусе, свойство
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104410986"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Syntax**
 </dt> <dd>
 
-*Агент*. **Символы ("***чарактерид***"). Висибилитикаусе**
+*Агент*. **Символы ("**_чарактерид_*_"). Висибилитикаусе_*
 
 
 
@@ -44,22 +44,22 @@ ms.locfileid: "104410986"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство можно использовать для определения того, что привело к перемещению символа, когда несколько приложений совместно используют один и тот же символ. Эти значения совпадают со значениями, возвращаемыми событиями [**Показать**](show-event.md) и [**Скрыть**](hide-event.md) .
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Скрыть событие**](hide-event.md), [**Показать событие**](show-event.md), [**метод Hide**](hide-method.md), [**Показать метод**](show-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

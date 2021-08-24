@@ -4,12 +4,12 @@ ms.assetid: 3879d215-064b-4d7d-afae-2ed46569c8bf
 title: Создание поверхностей карт кубической среды (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36be3067c6a5f21c39cfed7cab731ca875b70799
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0b37321978a40170d47718318e4b3f6898ba04d5fa229e97ada47e08e589fdcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119608024"
 ---
 # <a name="creating-cubic-environment-map-surfaces-direct3d-9"></a>Создание поверхностей карт кубической среды (Direct3D 9)
 
@@ -53,7 +53,7 @@ m_pCubeMap->GetCubeMapSurface(D3DCUBEMAP_FACE_POSITIVE_Y, 0, &pFace2);
 
  
 
-## <a name="rendering-to-cubic-environment-maps"></a>Визуализация на картах кубических сред
+## <a name="rendering-to-cubic-environment-maps"></a>подготовка к просмотру в кубических средах Карты
 
 Изображения можно копировать в отдельные лица схемы куба точно так же, как любые другие текстуры или объекты Surface. Самое важное, что необходимо сделать перед отрисовкой на лицевой стороне, — установить матрицы преобразования таким образом, чтобы камера правильно позиционируется и указывала на правильное направление для этого лица: Forward (+ z), назад (-z), Left (-x), Right (+ x), up (+ y) или Down (-y).
 
@@ -163,7 +163,7 @@ void RenderFaces()
 
 Обратите внимание на вызов метода [**сетрендертаржет**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrendertarget) . При подготовке к просмотру на стороне схемы куба необходимо назначить грань в качестве текущей поверхности целевого объекта рендеринга. Приложения, использующие буферы глубины, могут явно создать буфер глубины для целевого объекта рендеринга или переназначить существующий буфер глубины для поверхности целевого объекта визуализации. В приведенном выше примере кода используется второй подход.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

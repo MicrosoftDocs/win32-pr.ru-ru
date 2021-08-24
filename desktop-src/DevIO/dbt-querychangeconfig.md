@@ -4,12 +4,12 @@ ms.assetid: 2e452ea7-e2bf-4500-952a-ee7d891533a0
 title: Событие DBT_QUERYCHANGECONFIG (ДБТ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48367da1788ae2985b21fad6e960153008e9ffd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e9c222fdc29f635263b45b5fd7e54ee229a33d7dee1ff31cd1e3072bfe6e84f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318424"
 ---
 # <a name="dbt_querychangeconfig-event"></a>\_Событие ДБТ куеричанжеконфиг
 
@@ -67,7 +67,7 @@ LRESULT CALLBACK WindowProc(
 
 Верните ШИРОКОВЕЩАТЕЛЬный \_ запрос \_ Deny, чтобы запретить разрешение на изменение конфигурации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

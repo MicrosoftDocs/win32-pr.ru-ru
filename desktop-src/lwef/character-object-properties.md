@@ -4,20 +4,20 @@ description: Свойства объекта character
 ms.assetid: 86748de2-f5c8-4057-bfa4-79d46cac1e62
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6212d6f0539b7fcb29faa883e6d88101952c12f5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c80e16bdb35d3fdfd8687eb15f200d2005ab75027e4dcc786f883d21232af4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610694"
 ---
 # <a name="character-object-properties"></a>Свойства объекта character
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Объект [**character**](/windows/desktop/lwef/the-characters-object) предоставляет следующие свойства:
 
--   [**Активна**](active-property.md)
+-   [**Активен**](active-property.md)
 -   [**аутопопупмену**](autopopupmenu-property.md)
 -   [**Описание**](description-property.md)
 -   [**екстрадата**](extradata-property.md)
@@ -29,21 +29,21 @@ ms.locfileid: "104412787"
 -   [**хелпмодеон**](helpmodeon-property.md)
 -   [**идлеон**](idleon-property.md)
 -   [**LanguageID**](languageid-property.md)
--   [**Слева**](left-property.md)
+-   [**Левый**](left-property.md)
 -   [**мовекаусе**](movecause-property.md)
 -   [**Имя**](name-property.md)
 -   [**оригиналхеигхт**](originalheight-property.md)
 -   [**оригиналвидс**](originalwidth-property.md)
 -   [**Высота тона**](pitch-property.md)
 -   [**саундеффектсон**](soundeffectson-property.md)
--   [**Speed**](speed-property.md)
+-   [**Установлен**](speed-property.md)
 -   [**срмодеид**](srmodeid-property.md)
 -   [**срстатус**](srstatus-property.md)
 -   [**Вверх**](top-property.md)
 -   [**ттсмодеид**](ttsmodeid-property.md)
 -   [**Версия**](version-property.md)
 -   [**висибилитикаусе**](visibilitycause-property.md)
--   [**Visible**](visible-property-cob.md)
+-   [**Ярлык**](visible-property-cob.md)
 -   [**Ширина**](width-property-co.md)
 
 Обратите внимание, что свойства [**высоты**](height-property.md), [**левой**](left-property.md), [**верхней**](top-property.md)и [**ширины**](width-property-co.md) символов отличаются от тех, которые могут поддерживаться средой программирования для размещения элемента управления. Свойства [**символов**](/windows/desktop/lwef/the-characters-object) применяются к видимой презентации символа, а не к расположению элемента управления Microsoft Agent.
@@ -81,6 +81,6 @@ ms.locfileid: "104412787"
 
 Так как сервер загружает символ асинхронно, перед запросом его свойств убедитесь, что этот символ был загружен, например с помощью события [**рекуесткомплете**](requestcomplete-event.md) . В противном случае свойства могут возвращать неверные значения.
 
- 
+ 
 
- 
+ 

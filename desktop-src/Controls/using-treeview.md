@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 37736770-5030-4f8a-a020-6897ed5f4e96
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9ed8d1040a635964e772b8399a5c476e67f9aba
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8beac9ef5163b52582a2ea89820278cc10f9f68ad865354404efd72a61b04993
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318593"
 ---
 # <a name="using-tree-view-controls"></a>Использование элементов управления Tree-View
 
