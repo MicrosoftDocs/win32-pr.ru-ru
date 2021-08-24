@@ -4,12 +4,12 @@ ms.assetid: 60cced55-9fcc-4fce-a462-7abf3f4466f0
 title: Загрузка сертификата из файла
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c708fb042ccdf4acd43986de1404f9ccb266148
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e73161b133fec74478643baa8453421130b3f3ad18ff4e75429d79b3312919b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099098"
 ---
 # <a name="load-a-certificate-from-a-file"></a>Загрузка сертификата из файла
 
@@ -91,7 +91,7 @@ if (NULL != certFileHandle) CloseHandle(certFileHandle);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-title: Ведение журнала (платформа фильтрации Windows)
-description: Платформа фильтрации Windows (WFP) обеспечивает ведение журнала отказов пакетов и IKE/AuthIP.
+title: ведение журнала (платформа фильтрации Windows)
+description: Windows Платформа фильтрации (WFP) обеспечивает ведение журнала отказов пакетов и IKE/AuthIP.
 ms.assetid: 607b7664-6be4-4ae6-991b-58ac9175405a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a27868c76a643a8e1b7b478152c100a2026bfc20
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1500be04837126e6907b663e4496c58c05380d313a1465b9c8db05b5ea39d832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105661809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068914"
 ---
-# <a name="logging-windows-filtering-platform"></a>Ведение журнала (платформа фильтрации Windows)
+# <a name="logging-windows-filtering-platform"></a>ведение журнала (платформа фильтрации Windows)
 
-Платформа фильтрации Windows (WFP) обеспечивает ведение журнала отказов пакетов и IKE/AuthIP.
+платформа фильтрации Windows (WFP) обеспечивает ведение журнала отказов пакетов и IKE/AuthIP.
 
 Записанные в журнал события определяются в перечислимом типе [**фвпм \_ net \_ event \_ Type**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) и имеют следующие значения.
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Обновление данных WMI в скриптах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f17ce718fcf5b57e4f3204337634af4129d24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 969a97c6300ac256e08c79e4f4aaeaa8d05bda072a2c310812ce3b2061c791fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050452"
 ---
 # <a name="refreshing-wmi-data-in-scripts"></a>Обновление данных WMI в скриптах
 
@@ -30,7 +30,7 @@ ms.locfileid: "104265373"
 
     
 
-2.  Подключитесь к пространству имен WMI. Чтобы использовать предварительно установленные классы производительность [**\_ производительности Win32**](/windows/desktop/CIMWin32Prov/win32-perf) , подключитесь к **корневому каталогу \\ CIMV2**.
+2.  Подключение в пространство имен WMI. Чтобы использовать предварительно установленные классы производительность [**\_ производительности Win32**](/windows/desktop/CIMWin32Prov/win32-perf) , подключитесь к **корневому каталогу \\ CIMV2**.
 
     ```VB
     Set objServicesCimv2 = GetObject("winmgmts:\\" _
@@ -109,7 +109,7 @@ End If
 
 Свойство [**index**](swbemrefreshableitem-index.md) возвращаемого [**свбемрефрешаблеитем**](swbemrefreshableitem.md) представляет индекс объекта в коллекции обновитель. Можно вызвать свойство [**свбемрефрешаблеитем. Иссет**](swbemrefreshableitem-isset.md) , чтобы определить, является ли элемент в обновитель единственным элементом или коллекцией. Для доступа к одному элементу используйте свойство [**свбемрефрешаблеитем. Object**](swbemrefreshableitem-object.md) . Если не выполнить вызов **свбемрефрешаблеитем. Object**, скрипт завершится ошибкой при попытке получить доступ к объекту. Чтобы получить доступ к коллекции, используйте свойство [**свбемрефрешаблеитем. objecting**](swbemrefreshableitem-objectset.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

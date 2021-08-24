@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание соединения с пространством имен WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce0e1caeef15709742704570c008012feeaf8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2587024d7f581cd28a8fdaf339db9567b17c509599c01aca0599b701186fb786
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104498060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412144"
 ---
 # <a name="creating-a-connection-to-a-wmi-namespace"></a>Создание соединения с пространством имен WMI
 
@@ -58,7 +58,7 @@ using namespace std;
 
     
 
-    -   Подключитесь к инструментарию WMI с помощью вызова метода [**ивбемлокатор:: коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) .
+    -   Подключение WMI с помощью вызова метода [**ивбемлокатор:: коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) .
 
         Метод [**коннектсервер**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) возвращает прокси-сервер для интерфейса [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) , который использует для доступа к локальному или удаленному пространству имен WMI, указанному в вызове **коннектсервер**.
 
@@ -95,7 +95,7 @@ using namespace std;
 
 После получения указателя на прокси-сервер [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) необходимо установить безопасность на прокси-сервере для доступа к WMI. Дополнительные сведения см. в разделе [Установка уровней безопасности для WMI-соединения](setting-the-security-levels-on-a-wmi-connection.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f343c1dc022dcb4759f813de956ade27e1aff213
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01e039df658ded4534e3e2582f08ba4e5f5a04530d810349fff5633730a84332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119137427"
 ---
 # <a name="win32_virtualdesktopsession-class"></a>\_Класс Win32 виртуалдесктопсессион
 
@@ -122,7 +122,7 @@ class Win32_VirtualDesktopSession
 
 </dd> <dt>
 
-**Имя_домена**
+**DomainName**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**

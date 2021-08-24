@@ -14,12 +14,12 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: 3d7b7a9f4091125bd722aea197c1670defb0c21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 533cd30dece484373db84c2d1d6dda247be0d37ed23ae92f39c513e5c44c1593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050952"
 ---
 # <a name="cinstancegetwbemint64-methods"></a>Методы CInstance:: GetWBEMINT64
 
@@ -39,7 +39,7 @@ ms.locfileid: "104346775"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -47,13 +47,13 @@ ms.locfileid: "104346775"
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Instance. h (включение Фвкоммон. h)</dt> </dl>                                                    |
+| Заголовок<br/>                   | <dl> <dt>Instance. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

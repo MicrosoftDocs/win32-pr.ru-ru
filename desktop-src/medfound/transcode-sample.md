@@ -1,19 +1,19 @@
 ---
-description: Показывает, как перекодировать файл мультимедиа в формат Windows Media.
+description: показано, как перекодировать файл мультимедиа в формат Windows media.
 ms.assetid: 1e958f26-3ac1-4b20-abf5-d8a65ba38112
 title: Пример перекодирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 528ef8dbed6d6ae18f534210caa5a2cc57516c75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b2d185d5a486493053d0b85ae48257cc6a7a2640aea9cd5cfc839616cd7e690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034622"
 ---
 # <a name="transcode-sample"></a>Пример перекодирования
 
-Показывает, как перекодировать файл мультимедиа в формат Windows Media.
+показано, как перекодировать файл мультимедиа в формат Windows media.
 
 ## <a name="apis-demonstrated"></a>Продемонстрированные API
 
@@ -24,7 +24,7 @@ ms.locfileid: "104263889"
 -   [**имфтопологи**](/windows/desktop/api/mfidl/nn-mfidl-imftopology)
 -   [**имфтранскодепрофиле**](/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -38,9 +38,9 @@ ms.locfileid: "104263889"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Transcode).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Transcode).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

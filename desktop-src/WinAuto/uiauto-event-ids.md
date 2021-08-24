@@ -48,12 +48,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7e13f299f985382dafd5f990041b0016d23072
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5789483cf7fb8e604d1aeed16e848d2cf5d89a34eb1256ed81054e1863e8f4f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133347"
 ---
 # <a name="event-identifiers-uiautomationclienth"></a>Идентификаторы событий (UIAutomationClient. h)
 
@@ -109,9 +109,9 @@ ms.locfileid: "104137758"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows XP \|\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2003 \|\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений XP \|\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2003 \|\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 
 

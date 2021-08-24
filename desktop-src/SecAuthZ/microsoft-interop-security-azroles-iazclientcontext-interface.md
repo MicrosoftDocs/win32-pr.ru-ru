@@ -55,12 +55,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: b04a73865b2d1a483daa7fee61e73983d149f6a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49e972b05bb64cde77b3e61669612ffb8a63583533488d7b132c22da1f22cad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414214"
 ---
 # <a name="microsoftinteropsecurityazrolesiazclientcontext-interface"></a>Интерфейс Microsoft. Interop. Security. Азролес. Иазклиентконтекст
 
@@ -111,7 +111,7 @@ ms.locfileid: "105665045"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

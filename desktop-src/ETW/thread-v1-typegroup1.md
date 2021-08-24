@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 13c419b417b614eb9022d1cb7c09a84ca705b3dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90d8f4afe9d78cc774dea3159a728ccc6d4db52314e692594d026f7e4fe2161c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069444"
 ---
 # <a name="thread_v1_typegroup1-class"></a>\_ \_ Класс TypeGroup1 потока v1
 
@@ -52,13 +52,13 @@ class Thread_V1_TypeGroup1 : Thread_V1
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **Thread \_ v1 \_ TypeGroup1** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Thread \_ v1 \_ TypeGroup1** имеет следующие свойства.
 
@@ -212,7 +212,7 @@ Win32StartAddr
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -223,7 +223,7 @@ Win32StartAddr
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

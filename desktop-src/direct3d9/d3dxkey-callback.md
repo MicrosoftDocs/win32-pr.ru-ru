@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 5c2c4dc90cbb95218268bf673204867f5b5d6636
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f488445bbb018b62445ff802abcf5a82c22b4e31c9d71618e61437efd5e36a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123072"
 ---
 # <a name="d3dxkey_callback-structure"></a>\_Структура обратного вызова D3DXKEY
 
@@ -40,7 +40,7 @@ typedef struct D3DXKEY_CALLBACK {
 
 <dl> <dt>
 
-**Time**
+**Время**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -68,7 +68,7 @@ typedef struct D3DXKEY_CALLBACK {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 

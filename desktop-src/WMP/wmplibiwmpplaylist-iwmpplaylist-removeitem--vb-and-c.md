@@ -3,9 +3,9 @@ title: Ивмпплайлист removeItem, метод
 description: Метод removeItem удаляет указанный элемент мультимедиа из списка воспроизведения.
 ms.assetid: 8b5a4c34-863d-4963-97c8-cc5aa2223ab5
 keywords:
-- removeItem метод Windows Media Player
-- removeItem метод проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, метод removeItem
+- проигрыватель Windows Media метода removeItem
+- проигрыватель Windows Media метода removeItem, интерфейс ивмпплайлист
+- проигрыватель Windows Media интерфейса ивмпплайлист, метод removeItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec845b7657e04f17c47119dd169032ebe5815786
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01ea9250cc7e368699a916b4c87f419fc5b0b66001a4d7ca12afd5587a0adda7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246440"
 ---
 # <a name="iwmpplaylistremoveitem-method"></a>Метод Ивмпплайлист:: removeItem
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylist.removeItem
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент удален в текущий момент, воспроизведение останавливается, а следующий элемент списка воспроизведения становится текущим.
 
@@ -72,13 +72,13 @@ Implements IWMPPlaylist.removeItem
 
 Перед вызовом этого метода необходимо иметь полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

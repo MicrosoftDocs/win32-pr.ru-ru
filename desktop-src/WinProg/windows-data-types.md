@@ -1,6 +1,6 @@
 ---
 title: Типы данных Windows (BaseTsd.h)
-description: Типы данных, поддерживаемые Windows, используются для определения возвращаемых функцией значений, параметров функций и сообщений, а также членов структуры.
+description: типы данных, поддерживаемые Windows, используются для определения возвращаемых функцией значений, параметров функций и сообщений, а также членов структуры.
 ms.assetid: 4553cafc-450e-4493-a4d4-cb6e2f274d46
 keywords:
 - типы данных
@@ -182,16 +182,16 @@ keywords:
 - WPARAM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf3a23e816a78f0dcae9c2fbd6e6979b936451c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6769b5d3fd7c65eab1eef5c408ebd2e905b9677a3580774a857c68431aabd3dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412954"
 ---
 # <a name="windows-data-types"></a>Типы данных Windows
 
-Типы данных, поддерживаемые Windows, используются для определения возвращаемых функцией значений, параметров функций и сообщений, а также членов структуры. Они определяют размер и значение этих элементов. Дополнительные сведения о базовых типах данных C/C++ см. в разделе [диапазоны типов данных](/cpp/cpp/data-type-ranges?view=vs-2019).
+типы данных, поддерживаемые Windows, используются для определения возвращаемых функцией значений, параметров функций и сообщений, а также членов структуры. Они определяют размер и значение этих элементов. Дополнительные сведения о базовых типах данных C/C++ см. в разделе [диапазоны типов данных](/cpp/cpp/data-type-ranges?view=vs-2019).
 
 Следующая таблица содержит следующие типы: символ, целое число, логическое значение, указатель и маркер. Типы символьных, целочисленных и логических типов являются общими для большинства компиляторов C. Большинство имен типов указателей начинаются с префикса P или LP. Дескрипторы ссылаются на ресурс, который был загружен в память.
 
@@ -233,7 +233,7 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="even">
 <td><span id="CALLBACK"></span><span id="callback"></span><strong>ОБРАТНОГО вызова</strong></td>
-<td>Соглашение о вызовах для функций обратного вызова.<br/> Этот тип объявляется в Виндеф. h следующим образом:<br/> <code>#define CALLBACK __stdcall</code><br/> Функции <strong>callback</strong>, <strong>WinAPI</strong>и <strong>апиентри</strong> используются для определения функций с помощью соглашения о вызовах __stdcall. Большинство функций в API Windows объявляются с помощью <strong>WinAPI</strong>. Вы можете использовать <strong>обратный вызов</strong> для функций обратного вызова, которые реализуются, чтобы определить функцию как функцию обратного вызова.<br/></td>
+<td>Соглашение о вызовах для функций обратного вызова.<br/> Этот тип объявляется в Виндеф. h следующим образом:<br/> <code>#define CALLBACK __stdcall</code><br/> Функции <strong>callback</strong>, <strong>WinAPI</strong>и <strong>апиентри</strong> используются для определения функций с помощью соглашения о вызовах __stdcall. большинство функций в API Windows объявляются с помощью <strong>WINAPI</strong>. Вы можете использовать <strong>обратный вызов</strong> для функций обратного вызова, которые реализуются, чтобы определить функцию как функцию обратного вызова.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="CCHAR"></span><span id="cchar"></span><strong>CCHAR</strong></td>
@@ -261,7 +261,7 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="odd">
 <td><span id="DWORD_PTR"></span><span id="dword_ptr"></span><strong>DWORD_PTR</strong></td>
-<td>Тип long без знака для точности указателя. Используется при приведении указателя к длинному типу для выполнения арифметических операций с указателями. (Также часто используется для общих 32-разрядных параметров, которые были расширены до 64 бит в 64-разрядной версии Windows.)<br/> Этот тип объявляется в Басетсд. h следующим образом:<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
+<td>Тип long без знака для точности указателя. Используется при приведении указателя к длинному типу для выполнения арифметических операций с указателями. (Также часто используется для общих 32-разрядных параметров, которые были расширены до 64 бит в 64-разрядной Windows.)<br/> Этот тип объявляется в Басетсд. h следующим образом:<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="DWORD32"></span><span id="dword32"></span><strong>DWORD32</strong></td>
@@ -420,7 +420,7 @@ ms.locfileid: "104415400"
 <tr class="even">
 <td><span id="HINSTANCE"></span><span id="hinstance"></span><strong>HINSTANCE</strong></td>
 <td><p>Маркер экземпляра. Это базовый адрес модуля в памяти.</p>
-<p><strong>Хмодуле</strong> и <strong>HINSTANCE</strong> уже сегодня, но в 16-разрядных окнах представлены различные вещи.</p>
+<p><strong>Хмодуле</strong> и <strong>HINSTANCE</strong> уже сегодня, но в 16-разрядных Windows представлены различные вещи.</p>
 <p>Этот тип объявляется в Виндеф. h следующим образом:</p>
 <p><code>typedef HANDLE HINSTANCE;</code></p></td>
 </tr>
@@ -457,7 +457,7 @@ ms.locfileid: "104415400"
 <tr class="even">
 <td><span id="HMODULE"></span><span id="hmodule"></span><strong>хмодуле</strong></td>
 <td><p>Обработчик для модуля. — Это базовый адрес модуля в памяти.</p>
-<p><strong>Хмодуле</strong> и <strong>HINSTANCE</strong> одинаковы в текущих версиях Windows, но в 16-разрядных окнах представлены различные вещи.</p>
+<p><strong>хмодуле</strong> и <strong>HINSTANCE</strong> одинаковы в текущих версиях Windows, но в 16-разрядных Windows представлены различные вещи.</p>
 <p>Этот тип объявляется в Виндеф. h следующим образом:</p>
 <p><code>typedef HINSTANCE HMODULE;</code></p></td>
 </tr>
@@ -697,13 +697,13 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="odd">
 <td><span id="LPCSTR"></span><span id="lpcstr"></span><strong>LPCSTR</strong></td>
-<td><p>Указатель на константную строку, завершающуюся нулем, в 8-разрядных символах Windows (ANSI). Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
+<td><p>указатель на константную строку, завершающуюся нулем, в 8-разрядной Windows (ANSI) символов. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <p><code>typedef __nullterminated CONST CHAR *LPCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCTSTR"></span><span id="lpctstr"></span><strong>LPCTSTR</strong></td>
-<td><p><a href="#lpcwstr"><strong>Лпквстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#lpcstr"><strong>LPCSTR</strong></a> в противном случае. Дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">типы данных Windows для строк</a>.</p>
+<td><p><a href="#lpcwstr"><strong>Лпквстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#lpcstr"><strong>LPCSTR</strong></a> в противном случае. дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows типы данных для строк</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -767,13 +767,13 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="odd">
 <td><span id="LPSTR"></span><span id="lpstr"></span><strong>LPSTR</strong></td>
-<td><p>Указатель на строку в 8-разрядных символах Windows (ANSI), завершающуюся нулем. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
+<td><p>указатель на строку, завершающуюся нулем или 8-разрядную Windows (ANSI) символов. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <p><code>typedef CHAR *LPSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPTSTR"></span><span id="lptstr"></span><strong>LPTSTR</strong></td>
-<td><p><a href="#lpwstr"><strong>LPWSTR</strong></a> , если определен <strong>Юникод</strong> , <a href="#lpstr"><strong>LPSTR</strong></a> в противном случае. Дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">типы данных Windows для строк</a>.</p>
+<td><p><a href="#lpwstr"><strong>LPWSTR</strong></a> , если определен <strong>Юникод</strong> , <a href="#lpstr"><strong>LPSTR</strong></a> в противном случае. дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows типы данных для строк</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -849,13 +849,13 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="odd">
 <td><span id="PCSTR"></span><span id="pcstr"></span><strong>пкстр</strong></td>
-<td><p>Указатель на константную строку, завершающуюся нулем, в 8-разрядных символах Windows (ANSI). Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
+<td><p>указатель на константную строку, завершающуюся нулем, в 8-разрядной Windows (ANSI) символов. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <p><code>typedef CONST CHAR *PCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCTSTR"></span><span id="pctstr"></span><strong>пктстр</strong></td>
-<td><p><a href="#pcwstr"><strong>Пквстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#pcstr"><strong>пкстр</strong></a> в противном случае. Дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">типы данных Windows для строк</a>.</p>
+<td><p><a href="#pcwstr"><strong>Пквстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#pcstr"><strong>пкстр</strong></a> в противном случае. дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows типы данных для строк</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1124,7 +1124,7 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="even">
 <td><span id="PSTR"></span><span id="pstr"></span><strong>пстр</strong></td>
-<td><p>Указатель на строку в 8-разрядных символах Windows (ANSI), завершающуюся нулем. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
+<td><p>указатель на строку, завершающуюся нулем или 8-разрядную Windows (ANSI) символов. Дополнительные сведения см. в разделе <a href="/windows/desktop/gdi/character-sets-used-by-fonts">наборы символов, используемые шрифтами</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <p><code>typedef CHAR *PSTR;</code></p></td>
 </tr>
@@ -1142,7 +1142,7 @@ ms.locfileid: "104415400"
 </tr>
 <tr class="odd">
 <td><span id="PTSTR"></span><span id="ptstr"></span><strong>птстр</strong></td>
-<td><p><a href="#pwstr"><strong>Пвстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#pstr"><strong>ПСТР</strong></a> в противном случае. Дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">типы данных Windows для строк</a>.</p>
+<td><p><a href="#pwstr"><strong>Пвстр</strong></a> , если определен <strong>Юникод</strong> , <a href="#pstr"><strong>ПСТР</strong></a> в противном случае. дополнительные сведения см. в разделе <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows типы данных для строк</a>.</p>
 <p>Этот тип объявлен в WinNT. h следующим образом:</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
@@ -1620,7 +1620,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 <td><p>Соглашение о вызовах для системных функций.</p>
 <p>Этот тип объявляется в Виндеф. h следующим образом:</p>
 <p><code>#define WINAPI __stdcall</code></p>
-<p>Функции <strong>callback</strong>, <strong>WinAPI</strong>и <strong>апиентри</strong> используются для определения функций с помощью соглашения о вызовах __stdcall. Большинство функций в API Windows объявляются с помощью <strong>WinAPI</strong>. Вы можете использовать <strong>обратный вызов</strong> для функций обратного вызова, которые реализуются, чтобы определить функцию как функцию обратного вызова.</p></td>
+<p>Функции <strong>callback</strong>, <strong>WinAPI</strong>и <strong>апиентри</strong> используются для определения функций с помощью соглашения о вызовах __stdcall. большинство функций в API Windows объявляются с помощью <strong>WINAPI</strong>. Вы можете использовать <strong>обратный вызов</strong> для функций обратного вызова, которые реализуются, чтобы определить функцию как функцию обратного вызова.</p></td>
 </tr>
 <tr class="even">
 <td><span id="WORD"></span><span id="word"></span><strong>СЛОВАМ</strong></td>
@@ -1639,12 +1639,12 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                                                                                                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                                                                                                                                |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                                                                                                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                                                                                                                                |
 | Header<br/>                   | <dl> <dt>Басетсд. h; </dt> <dt>Виндеф. h; </dt> Файл <dt>Winnt. h</dt> </dl> |

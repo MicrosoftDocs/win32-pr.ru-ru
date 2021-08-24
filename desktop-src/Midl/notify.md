@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 334223979298f54acb546bd0b9ec913afd92e286
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9cf1bb1c4f522cecb5fe81a317267e2cffff2da638e3a8c09a412ae8d94a149d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104532597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066864"
 ---
 # <a name="notify-attribute"></a>уведомление атрибута
 
@@ -38,7 +38,7 @@ ms.locfileid: "104532597"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Процедура **\[ Notify \]** , вызываемая как результат атрибута **\[ Notify \]** , связана с определенной удаленной процедурой на сервере. Он аналогичен функции обратного вызова. Заглушка вызывает процедуру **\[ Notify \]** после того, как все выходные аргументы удаленной процедуры, с которой она связана, были упакованы, а память, связанная с параметрами, освобождается. Подпрограммы **\[ Notify \]** вызываются в случае сбоя вызова до выполнения серверной программы. Например, если во время распаковки сервера происходит сбой из-за получения недопустимых данных от клиента, \[ \] вызывается подпрограммы notify.
 
@@ -81,9 +81,9 @@ void MyProcedure_notify(void);
 [Файл конфигурации приложения (ACF)](application-configuration-file-acf-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: Образец фильтра дампа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd64d1f16b0b504743890543b617a24df6bbaab8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5643f0334071b8c238a70ed31eee87de4e93e3637b5403d886d79f2816e39c97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148737"
 ---
 # <a name="dump-filter-sample"></a>Образец фильтра дампа
 
@@ -25,15 +25,15 @@ ms.locfileid: "104537964"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+чтобы скачать примеры пакета SDK для DirectShow, установите последнюю версию [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Этот пример устанавливается по следующему пути: *\[ \] корневой пример пакета SDK* \\ \\ файлы \\ \\ дампа фильтров мультимедиа DirectShow \\ .
+этот пример устанавливается по следующему пути: *\[ \] корневые примеры SDK* \\ \\ мультимедиа \\ DirectShow \\ фильтры \\ дампа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Примеры DirectShow](directshow-samples.md)
+[DirectShow Регистрируют](directshow-samples.md)
 </dt> </dl>
 
  

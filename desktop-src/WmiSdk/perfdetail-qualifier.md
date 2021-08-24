@@ -13,18 +13,18 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 905683bdaa6e143f4280e72593982715012d7d8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e9622955a0a01a813638f14364fdc774beb46c0d755a3b232d47fe698316b33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050552"
 ---
 # <a name="perfdetail-qualifier"></a>Квалификатор Перфдетаил
 
 Квалификатор **перфдетаил** в классах [**Win32 \_ перфравдата**](/windows/desktop/CIMWin32Prov/win32-perfrawdata) не используется. Он всегда содержит 100.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -35,7 +35,7 @@ ms.locfileid: "104263460"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

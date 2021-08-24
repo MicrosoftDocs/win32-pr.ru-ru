@@ -4,12 +4,12 @@ ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
 title: Атрибут MF_PD_ASF_LANGLIST (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecac5eac178c7fb315e0ca4cfdbd540a27eeac28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba22004001df2ba6be8fb7a173a3ea9bed1b0a73863ae111e61d36efa853e079
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119103706"
 ---
 # <a name="mf_pd_asf_langlist-attribute"></a>\_ \_ Атрибут ланглист MF PD ASF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105683876"
 
 массив байтов;
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам представления для содержимого ASF.
 
@@ -203,8 +203,8 @@ private:
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
 | Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 

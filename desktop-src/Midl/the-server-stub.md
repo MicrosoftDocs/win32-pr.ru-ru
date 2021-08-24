@@ -6,12 +6,12 @@ keywords:
 - MIDL-компилятор MIDL, MIDL и RPC MIDL, интерфейсы, заглушка сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b351c53fa9e1d1716e1240ddf4febdccdadda46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ddfc940ebbd90e4e028ce96dc3b5c47eb15179d41cfbd064cd235e87192822f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559904"
 ---
 # <a name="the-server-stub"></a>Заглушка сервера
 
@@ -25,9 +25,9 @@ ms.locfileid: "104068408"
 
 Компилятор MIDL переключает параметры [**/Server**](-server.md), [**/sstub**](-sstub.md)и [**/out**](-out.md) на файл заглушки сервера.
 
- 
+ 
 
- 
+ 
 
 
 

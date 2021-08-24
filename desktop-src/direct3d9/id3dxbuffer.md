@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5fff273d2e38daeb003fb360f099e7a7b4985504
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2cc69262949b9cc700f0a7c477bcfacb7dacd1fc51eb836ad76dfaa2fecb7358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121682"
 ---
 # <a name="id3dxbuffer-interface"></a>Интерфейс ID3DXBuffer
 
@@ -46,7 +46,7 @@ ms.locfileid: "105674709"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **ID3DXBuffer** получается путем вызова функции [**D3DXCreateBuffer**](d3dxcreatebuffer.md) .
 
@@ -66,7 +66,7 @@ typedef interface ID3DXBuffer *LPD3DXBUFFER;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

@@ -1,19 +1,19 @@
 ---
-title: Перечисления (Справочник по анимации Windows)
-description: Справочная документация по перечислениям, определенным диспетчером анимации Windows.
+title: перечисления (Windowsная ссылка на анимацию)
+description: справочная документация по перечислениям, определенным диспетчером анимации Windows.
 ms.assetid: 4b075b30-6faa-42e5-9e72-550e81d9309c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55671555cf8483a0f7b8db95da27f87acc9662fa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 811abd2f62227359050c5214d057bcf036133b00ca9734a3b30b1f9c8f985aed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104533698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419132"
 ---
-# <a name="enumerations-windows-animation-reference"></a>Перечисления (Справочник по анимации Windows)
+# <a name="enumerations-windows-animation-reference"></a>перечисления (Windowsная ссылка на анимацию)
 
-Справочная документация по перечислениям, определенным диспетчером анимации Windows.
+справочная документация по перечислениям, определенным диспетчером анимации Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -38,11 +38,11 @@ ms.locfileid: "104533698"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  

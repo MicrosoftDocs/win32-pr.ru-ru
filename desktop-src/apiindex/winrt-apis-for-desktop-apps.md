@@ -1,19 +1,19 @@
 ---
-description: В классических приложениях можно использовать следующее подмножество классов среда выполнения Windows.
+description: в классических приложениях можно использовать следующее подмножество классов среда выполнения Windows.
 ms.assetid: F9113BEA-E383-48BE-BD17-72DC1D20DF47
 title: API среды выполнения Windows 8.x для классических приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a962950f7bc936c25d94c4cdaed44bfd16a26091
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c810195a2ff33547a431b357eca94a7f8468e6c0d44e1f009b1646e475ceb7f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130286"
 ---
 # <a name="windows-runtime-8x-apis-for-desktop-apps"></a>API среды выполнения Windows 8.x для классических приложений
 
-В классических приложениях можно использовать следующее подмножество классов среда выполнения Windows.
+в классических приложениях можно использовать следующее подмножество классов среда выполнения Windows.
 
 -   [**Класс акселерометр**](/uwp/api/Windows.Devices.Sensors.Accelerometer?view=winrt-19041)
 -   [**Класс Акцелерометерреадинг**](/uwp/api/Windows.Devices.Sensors.AccelerometerReading?view=winrt-19041)
@@ -29,7 +29,7 @@ ms.locfileid: "105673133"
 -   [**Класс Аудиоеффект**](/uwp/api/Windows.Media.Effects.AudioEffect?view=winrt-19041)
 -   [**Класс Аудиоенкодингпропертиес**](/uwp/api/Windows.Media.MediaProperties.AudioEncodingProperties?view=winrt-19041)
 -   [**Класс Аудиостреамдескриптор**](/uwp/api/Windows.Media.Core.AudioStreamDescriptor?view=winrt-19041)
--   [**Класс календаря**](/uwp/api/Windows.Globalization.Calendar?view=winrt-19041)
+-   [**Класс Calendar**](/uwp/api/Windows.Globalization.Calendar?view=winrt-19041)
 -   [**Класс Календаридентифиерс**](/uwp/api/Windows.Globalization.CalendarIdentifiers?view=winrt-19041)
 -   [**Класс Каллконтрол**](/uwp/api/Windows.Media.Devices.CallControl?view=winrt-19041)
 -   [**Класс Каптуредфраме**](/uwp/api/Windows.Media.Capture.CapturedFrame?view=winrt-19041)
@@ -65,7 +65,7 @@ ms.locfileid: "105673133"
 -   [**Класс Криптографикбуффер**](/uwp/api/Windows.Security.Cryptography.CryptographicBuffer?view=winrt-19041)
 -   [**Класс Криптографиценгине**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicEngine?view=winrt-19041)
 -   [**Класс Криптографичаш**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicHash?view=winrt-19041)
--   [**Класс Криптографиккэй**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicKey?view=winrt-19041)
+-   [**Класс CryptographicKey**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicKey?view=winrt-19041)
 -   [**Класс Курренциформаттер**](/uwp/api/Windows.Globalization.NumberFormatting.CurrencyFormatter?view=winrt-19041)
 -   [**Класс Курренциидентифиерс**](/uwp/api/Windows.Globalization.CurrencyIdentifiers?view=winrt-19041)
 -   [**Класс Кустомдевице**](/uwp/api/Windows.Devices.Custom.CustomDevice?view=winrt-19041)
@@ -330,7 +330,7 @@ ms.locfileid: "105673133"
 -   [**Класс Стреамвебсоккет**](/uwp/api/Windows.Networking.Sockets.StreamWebSocket?view=winrt-19041)
 -   [**Класс Стреамвебсоккетконтрол**](/uwp/api/Windows.Networking.Sockets.StreamWebSocketControl?view=winrt-19041)
 -   [**Класс Стреамвебсоккетинформатион**](/uwp/api/Windows.Networking.Sockets.StreamWebSocketInformation?view=winrt-19041)
--   [**Класс Симметрикалгорисмнамес**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricAlgorithmNames?view=winrt-19041)
+-   [**Класс SymmetricAlgorithmNames**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricAlgorithmNames?view=winrt-19041)
 -   [**Класс Симметриккэйалгорисмпровидер**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricKeyAlgorithmProvider?view=winrt-19041)
 -   [**Класс Синдикатионаттрибуте**](/uwp/api/Windows.Web.Syndication.SyndicationAttribute?view=winrt-19041)
 -   [**Класс Синдикатионкатегори**](/uwp/api/Windows.Web.Syndication.SyndicationCategory?view=winrt-19041)

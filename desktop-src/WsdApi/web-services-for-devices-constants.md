@@ -4,12 +4,12 @@ ms.assetid: ef3df24a-46a1-49de-b2f7-bfccdc793462
 title: Константы веб-служб на устройствах (Всдутил. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 984946df757e059ef667b94274818aa2b38c87f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 434c3bfa8a170055ce2141e27d97cf6c966bcd9fecd20de045659888447bcb84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049672"
 ---
 # <a name="web-services-on-devices-constants"></a>Константы веб-служб на устройствах
 
@@ -25,15 +25,15 @@ ms.locfileid: "104264637"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Всдутил. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Всдутил. h</dt> </dl> |
 
 
 

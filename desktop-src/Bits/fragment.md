@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5103e90ec84a20ff4c04d9036a744919d9b1fd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 613acaabc017b9e673d2cba6a64f84db054a4cdc0d73a0639fcf8455edff8298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104133515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528834"
 ---
 # <a name="fragment"></a>Fragment
 
@@ -90,13 +90,13 @@ Content-Encoding: encoding
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Фрагмент — это диапазон байтов, отправленных в тексте пакета. Клиент отправляет фрагменты в последовательном порядке, начиная с нулевого смещения. сервер не отслеживает несмежные диапазоны. Если клиент отправляет несмежные диапазоны, сервер возвращает код возврата HTTP 416 (с диапазоном, который не соответствует) в ответе [**ACK для ответа фрагмента**](ack-for-fragment.md) .
 
 Заголовки Content-*XXXX* — это стандартные заголовки HTTP 1,1. Дополнительные сведения о заголовках Content-*XXXX* см. в спецификации [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -109,9 +109,9 @@ Content-Encoding: encoding
 [**Создание сеанса**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

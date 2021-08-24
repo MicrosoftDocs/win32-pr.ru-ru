@@ -6,12 +6,12 @@ keywords:
 - D2D1_MATRIX_3X2_F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: beb252e35508c48570c96f251205fc8a54755687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d4e8a50e17c4c740c427d21df27e3c1d9cf8226df5edc1b98f15cbe920c401c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260494"
 ---
 # <a name="d2d1_matrix_3x2_f"></a>D2D1 \_ Матрица \_ 3X2 \_ F
 
@@ -24,7 +24,7 @@ typedef D2D_MATRIX_3X2_F D2D1_MATRIX_3X2_F;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **D2D1 \_ MATRIX \_ 3X2** — это новое имя для структуры [**\_ матрицы D2D \_ 3X2 \_ F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) . Список полей, предоставляемых матрицей, см. в [**разделе \_ Таблица D2D \_ 3X2 \_ F**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f).
 
@@ -70,14 +70,14 @@ typedef D2D_MATRIX_3X2_F D2D1_MATRIX_3X2_F;
 
 В этом примере код пропущен. Дополнительные сведения о преобразованиях см. в разделе [Общие сведения о преобразованиях](direct2d-transforms-overview.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для \[ классических приложений Windows Vista \| приложения UWP\]<br/>                          |
-| Минимальная версия сервера<br/> | Windows Server 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновление платформы для Windows Server 2008 классические \[ приложения \| UWP\]<br/> |
+| Минимальная версия клиента<br/> | Windows 7, Windows Vista с пакетом обновления 2 (SP2) и обновлением платформы для приложений для \[ классических приложений Windows Vista \|\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows сервер 2008 R2, Windows Server 2008 с пакетом обновления 2 (SP2) и обновлением платформы для Windows Server 2008 приложения \[ UWP для классических приложений \|\]<br/> |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/>                                                  |
 | Header<br/>                   | <dl> <dt>D2d1. h</dt> </dl>                                                        |
 

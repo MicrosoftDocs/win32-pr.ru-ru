@@ -4,12 +4,12 @@ ms.assetid: 889dd0d8-1933-4901-9bbc-06c3caa26d3e
 title: Преобразования пространства камеры (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e621fa8318fa45023cee13ffc6fcfc65abcf8f5b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: effb7af72decad711d9fc392e53f7aba05f48b3c69394dbfb3ae5f9f06e2def7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241854"
 ---
 # <a name="camera-space-transformations-direct3d-9"></a>Преобразования пространства камеры (Direct3D 9)
 
@@ -43,18 +43,18 @@ L<sub>dir</sub> = норма (V \* LP), где параметры определ
 
 | Параметр       | Значение по умолчанию | Тип      | Описание                                               |
 |-----------------|---------------|-----------|-----------------------------------------------------------|
-| L<sub>dir</sub> | Н/Д           | D3DVECTOR | Вектор направления от вершины объекта до света          |
-| V               | Н/Д           | D3DVECTOR | Положение вершины в пространстве камеры                           |
-| wvMatrix        | Идентификация      | D3DMATRIX | Составная матрица, содержащая преобразования реального мира и представления |
-| Нет               | Н/Д           | D3DVECTOR | Нормаль вершины                                             |
-| Lₚ              | Н/Д           | D3DVECTOR | Положение света в пространстве камеры                            |
-| vMatrix         | Идентификация      | D3DMATRIX | Матрица, содержащая преобразование представления                      |
+| L<sub>dir</sub> | н/д           | D3DVECTOR | Вектор направления от вершины объекта до света          |
+| V               | н/д           | D3DVECTOR | Положение вершины в пространстве камеры                           |
+| wvMatrix        | Удостоверение      | D3DMATRIX | Составная матрица, содержащая преобразования реального мира и представления |
+| Нет               | н/д           | D3DVECTOR | Нормаль вершины                                             |
+| Lₚ              | н/д           | D3DVECTOR | Положение света в пространстве камеры                            |
+| vMatrix         | Удостоверение      | D3DMATRIX | Матрица, содержащая преобразование представления                      |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

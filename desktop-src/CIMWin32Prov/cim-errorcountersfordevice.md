@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7c4e11b1f58cae7b544b251044657bb737525b37
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c0c978e3f21cf1596f257f8e9942fc426cfd62b8ce73746d7331b8ee000839bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080648"
 ---
 # <a name="cim_errorcountersfordevice-class"></a>\_Класс CIM ерроркаунтерсфордевице
 
@@ -51,7 +51,7 @@ class CIM_ErrorCountersForDevice : CIM_Statistics
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ерроркаунтерсфордевице** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_ErrorCountersForDevice : CIM_Statistics
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ ерроркаунтерсфордевице** наследуется от [**\_ статистики CIM**](cim-statistics.md).
 

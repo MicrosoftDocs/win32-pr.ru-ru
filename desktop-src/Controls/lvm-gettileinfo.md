@@ -3,7 +3,7 @@ title: Сообщение LVM_GETTILEINFO (Коммктрл. h)
 description: Извлекает сведения о плитке в элементе управления "представление списка".
 ms.assetid: e89a3eae-0970-488c-ba95-1072aa85bbf4
 keywords:
-- Элементы управления Windows для LVM_GETTILEINFO сообщений
+- элементы управления Windows сообщений LVM_GETTILEINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db5bfd085cd5cbaced0bf90b17e8862a6c0e159b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8141b3a39c47966348dfd823b557c1b0af4cca84a90ba979a358d6ac0eaa4757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079038"
 ---
 # <a name="lvm_gettileinfo-message"></a>\_Сообщение LVM жеттилеинфо
 
@@ -39,7 +39,7 @@ ms.locfileid: "104071903"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Мозаичное представление — это новый способ упорядочения и отображения элементов в элементе управления "представление списка". К другим представлениям относятся значок, маленький значок, сведения и список.
 
@@ -54,8 +54,8 @@ ms.locfileid: "104071903"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 

@@ -41,12 +41,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a10c6377c7e97f83046f60d46312a03db68cadb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90769faec8bc5e05f1aa590dd3211125665a4b07228b920e622fc5b33754e322
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082498"
 ---
 # <a name="iadsdomain-property-methods"></a>Методы свойств Иадсдомаин
 
@@ -370,7 +370,7 @@ Cleanup:
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -378,13 +378,13 @@ Cleanup:
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
+| Заголовок<br/>                   | <dl> <dt>IAds. h</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Activeds.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иадсдомаин определен как 00E4C220-FD16-11CE-ABC4-02608C9E7553<br/>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

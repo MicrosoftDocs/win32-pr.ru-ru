@@ -4,12 +4,12 @@ ms.assetid: 0d0c6b3d-23bc-4628-a684-14bb9e18967f
 title: Получение свойств для нескольких объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c069f6a28b923339f66f8423f211eff4704ef6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d1ad9ec397daa90c149fe950c1fc4777c407e3f5f3a359f46cf8bef56e18b9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083518"
 ---
 # <a name="retrieving-properties-for-multiple-objects"></a>Получение свойств для нескольких объектов
 
@@ -175,7 +175,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

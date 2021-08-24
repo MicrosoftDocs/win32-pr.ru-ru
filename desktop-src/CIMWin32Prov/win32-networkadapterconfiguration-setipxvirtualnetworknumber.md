@@ -1,5 +1,5 @@
 ---
-description: Задает номер виртуальной сети сетевого обмена пакетами (IPX) на целевом компьютере.
+description: задает номер виртуальной сети пакета Exchange (IPX) на целевом компьютере.
 ms.assetid: 52064250-b94f-4dc0-bf1a-8601cd135a90
 ms.tgt_platform: multiple
 title: Метод Сетипксвиртуалнетворкнумбер класса Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: ed6e6802a17ef6ec4393d2ae0c5ec43f0e21d247
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 37af763450eab2fdba373fe21bfde5c0b4e1e38fda1f42aff59c425ba6b10000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079778"
 ---
 # <a name="setipxvirtualnetworknumber-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетипксвиртуалнетворкнумбер \_ класса Win32 NetworkAdapterConfiguration
 
-Задает номер виртуальной сети сетевого обмена пакетами (IPX) на целевом компьютере. В Windows 2000 и Windows NT 3,51 или более поздней версии используется внутренний номер сети для внутренней маршрутизации. Номер внутренней сети также известен как номер виртуальной сети. Он однозначно определяет компьютерную систему в сети. Метод возвращает целочисленное значение, которое можно интерпреттед следующим образом:
+задает номер виртуальной сети пакета Exchange (IPX) на целевом компьютере. Windows 2000 и Windows NT 3,51 или более поздней версии используют внутренний номер сети для внутренней маршрутизации. Номер внутренней сети также известен как номер виртуальной сети. Он однозначно определяет компьютерную систему в сети. Метод возвращает целочисленное значение, которое можно интерпреттед следующим образом:
 
 ## <a name="syntax"></a>Синтаксис
 

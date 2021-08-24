@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Методы Чстринг:: Форматмессажев (Чстринг. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a4f6be83c2cec8f3ae02cdbafac8a6c10ab72578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53f8a9663994ffbc6b50aebddc7d9877c17c1067a074bcdddbe2fc79bc525e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050942"
 ---
 # <a name="chstringformatmessagew-methods"></a>Методы Чстринг:: Форматмессажев
 
@@ -30,15 +30,15 @@ ms.locfileid: "105712115"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
+| Заголовок<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 

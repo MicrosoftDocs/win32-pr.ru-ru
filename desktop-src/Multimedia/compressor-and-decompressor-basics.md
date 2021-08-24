@@ -7,12 +7,12 @@ keywords:
 - ВКМ (диспетчер сжатия видео), открытие компрессоров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b51e0221c495d5e2d0782f4e56e0778c0d2462
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1969748949aeb023f889bc651ccd028f19c3e18fe6cf1ba088b4f4ec29292f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144997"
 ---
 # <a name="compressor-and-decompressor-basics"></a>Основы сжатия и декомпрессора
 
@@ -27,11 +27,11 @@ ms.locfileid: "103888288"
 > [!Note]  
 > Заголовок потока в файле AVI содержит сведения о типе потока и конкретном обработчике для этого потока. В заголовке потока члены **фкктипе** и **фкчандлер** определяют тип потока и обработчик потока, указанный для потока.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение TB_INDETERMINATE (Коммктрл. h)
 description: Задает или очищает неопределенное состояние указанной кнопки на панели инструментов.
 ms.assetid: 6a0f2b82-8241-4c2e-b349-606975ba1a24
 keywords:
-- Элементы управления Windows для TB_INDETERMINATE сообщений
+- элементы управления Windows сообщений TB_INDETERMINATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f1de35f9621de4f51d371bb50dbda637d720cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90845f269d0af1e690d5ddeb02f2a8ec2a2f63ff4f698f1dd0f3e2729d98b72c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078268"
 ---
 # <a name="tb_indeterminate-message"></a>\_Неопределенное сообщение ТБ
 
@@ -49,15 +49,15 @@ ms.locfileid: "104071449"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

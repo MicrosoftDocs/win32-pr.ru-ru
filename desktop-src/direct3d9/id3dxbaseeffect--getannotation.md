@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: aad446e436478c8c7673a1919879983437fd9602
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c35deeb04e7cf21be429976c102fdf7c3126b1691b3f63725fc994ef79f7ad42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279014"
 ---
 # <a name="id3dxbaseeffectgetannotation-method"></a>Метод ID3DXBaseEffect:: annotation
 
@@ -65,17 +65,17 @@ D3DXHANDLE GetAnnotation(
 
 Возвращает маркер указанной заметки или **значение NULL** , если индекс является недопустимым. См. раздел [Handles (Direct3D 9)](handles.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Заметки представляют собой определяемые пользователем данные, которые могут быть присоединены к любому методу, параметру Pass или. См. раздел [Handles (Direct3D 9)](handles.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

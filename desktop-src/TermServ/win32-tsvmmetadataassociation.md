@@ -18,12 +18,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db3a68c20553eaf52903471d19df9df169ecde21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ebe3389bb03c9e3f33a2cc3e33450318b68171f7ac35fffeaaa3976cb5ae3a33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119420004"
 ---
 # <a name="win32_tsvmmetadataassociation-class"></a>\_Класс Win32 тсвмметадатаассоЦиатион
 
@@ -48,7 +48,7 @@ class Win32_TSVmMetadataAssociation
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тсвмметадатаассоЦиатион** имеет следующие свойства.
 
@@ -83,7 +83,7 @@ class Win32_TSVmMetadataAssociation
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

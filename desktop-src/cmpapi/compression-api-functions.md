@@ -4,12 +4,12 @@ ms.assetid: 6A617444-23E5-4920-8D6B-602BCCDCC9E0
 title: Функции API сжатия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b93bde7b5a74ecaeac7c98349dcd3a9cd0aa48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3ca2a8961bd6de3d680b4e83a5427005e99444564cf63c4f6f0d50c81df84108
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119283784"
 ---
 # <a name="compression-api-functions"></a>Функции API сжатия
 
@@ -31,7 +31,7 @@ ms.locfileid: "103990656"
 [**сетдекомпрессоринформатион**](/windows/desktop/api/compressapi/nf-compressapi-setdecompressorinformation)  
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -7,12 +7,12 @@ keywords:
 - Резервное копирование хранилища единственных экземпляров (SIS), общие хранилища
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b2f86b778b0a8db916fe580b8f833214523eb2e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f19337a967fd858c149bc9d4261abc44214d4c76023abe022b5e1c5efd5f8ed3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119529474"
 ---
 # <a name="the-sis-common-store-and-common-store-files"></a>Общие файлы хранилища и Common-Store SIS
 
@@ -30,6 +30,6 @@ ms.locfileid: "103890888"
 
 Файл общего хранилища удаляется только в том случае, если последняя ссылка на SIS указывает на нее.
 
- 
+ 
 
- 
+ 

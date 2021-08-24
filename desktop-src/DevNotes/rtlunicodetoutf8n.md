@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 46153dd152ed5a45a65de50ca214fbb24a6dc2ac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3580eb86deba77bcc214cf69fbd21f65fee2735ef3a5ff73319b415d2c814d88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538034"
 ---
 # <a name="rtlunicodetoutf8n-function"></a>Функция RtlUnicodeToUTF8N
 
@@ -96,7 +96,7 @@ NTSTATUS WINAPI RtlUnicodeToUTF8N(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Хотя *UTF8StringActualByteCount* является необязательным и может иметь **значение NULL**, вызывающие объекты должны предоставлять для него хранилище, так как полученная длина может использоваться для определения успешности преобразования. Эта подпрограммы не изменяет исходную строку. Он возвращает строку в кодировке UTF-8, завершающуюся нулем, если заданный *уникодестрингсаурце* включает завершающий нуль, а если заданный *UTF8StringMaxByteCount* не вызвал усечение.
 
@@ -106,20 +106,20 @@ NTSTATUS WINAPI RtlUnicodeToUTF8N(
 
 Вызывающие объекты **RtlUnicodeToUTF8N** должны выполняться на уровне подготовки к уровню IRQL < \_ .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                              |
-| Header<br/>                   | <dl> <dt>WDM. h</dt> </dl>     |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>WDM. h</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

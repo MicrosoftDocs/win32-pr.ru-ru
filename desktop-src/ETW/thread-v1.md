@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 65b92ce6924b56a015fbc580cd478122688e474d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 42cc51f7d20cb5e37d10c90d342ca301cce5c0435709abcc08834029d16881e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069434"
 ---
 # <a name="thread_v1-class"></a>\_Класс Thread v1
 
@@ -38,14 +38,14 @@ class Thread_V1 : MSNT_SystemTrace
 
 Класс **Thread \_ v1** не определяет никаких членов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 
@@ -56,7 +56,7 @@ class Thread_V1 : MSNT_SystemTrace
 [**МСНТ \_ системтраце**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Thread**](thread.md)
+[**Поток**](thread.md)
 </dt> <dt>
 
 [**\_V0 потока**](thread-v0.md)

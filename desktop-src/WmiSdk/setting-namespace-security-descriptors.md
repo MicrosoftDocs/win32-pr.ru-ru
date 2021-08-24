@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Задание дескрипторов безопасности пространства имен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877b1dfc0ae1a9467b1beb7d169bfa31fdf7395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccc112376a960c3760bc51450cc30b8da3a38c24fa52e985321b2662ae319a37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050302"
 ---
 # <a name="setting-namespace-security-descriptors"></a>Задание дескрипторов безопасности пространства имен
 
@@ -68,14 +68,14 @@ ms.locfileid: "105703176"
 <span id="Get9XUserList"></span><span id="get9xuserlist"></span><span id="GET9XUSERLIST"></span>[**Get9XUserList**](--systemsecurity-get9xuserlist.md)
 </dt> <dd>
 
-Получает права удаленного доступа для списка отдельных пользователей на компьютерах, использующих устаревшие версии Windows, которые недоступны для управления доступом с помощью дескрипторов безопасности Windows.
+получает права удаленного доступа для списка отдельных пользователей на компьютерах с устаревшими версиями Windows, где управление доступом через Windows дескрипторы безопасности недоступно.
 
 </dd> <dt>
 
 <span id="Set9XUserList"></span><span id="set9xuserlist"></span><span id="SET9XUSERLIST"></span>[**Set9XUserList**](--systemsecurity-set9xuserlist.md)
 </dt> <dd>
 
-Задает права удаленного доступа для списка отдельных пользователей на компьютерах, использующих устаревшие версии Windows, которые недоступны для управления доступом с помощью дескрипторов безопасности Windows.
+задает права удаленного доступа для списка отдельных пользователей на компьютерах с устаревшими версиями Windows, где управление доступом через Windows дескрипторы безопасности недоступно.
 
 </dd> </dl>
 
@@ -83,9 +83,9 @@ ms.locfileid: "105703176"
 
 При программировании на C++ можно манипулировать двоичным дескриптором безопасности с помощью [языка определения дескрипторов безопасности (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language)и методов преобразования [**конвертсекуритидескриптортострингсекуритидескриптор**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) и [**конвертстрингсекуритидескриптортосекуритидескриптор**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
-Имейте в виду, что начиная с Windows Vista [Управление учетными записями пользователей](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) (UAC) влияет на доступ к данным WMI и что может быть настроено с помощью [*элемента управления WMI*](gloss-w.md). Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md).
+имейте в виду, что начиная с Windows Vista [управление учетными записями пользователей](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) (UAC) влияет на доступ к данным wmi и что может быть настроено с помощью [*элемента управления wmi*](gloss-w.md). Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

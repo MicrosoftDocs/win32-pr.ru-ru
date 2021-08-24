@@ -27,7 +27,7 @@
               href: c-applicationprocess.md
             - name: Application-Settings
               href: c-applicationsettings.md
-            - name: Приложение-сайт — параметры
+            - name: приложение — сайт — Параметры
               href: c-applicationsitesettings.md
             - name: Application-Version
               href: c-applicationversion.md
@@ -61,7 +61,7 @@
               href: c-container.md
             - name: Доступ с правом Control
               href: c-controlaccessright.md
-            - name: Страна или регион
+            - name: Страна
               href: c-country.md
             - name: Список CRL-точка распространения
               href: c-crldistributionpoint.md
@@ -99,7 +99,7 @@
               href: c-domainrelatedobject.md
             - name: DSA
               href: c-dsa.md
-            - name: DS-UI-параметры
+            - name: DS-UI-Параметры
               href: c-dsuisettings.md
             - name: Dynamic-Object
               href: c-dynamicobject.md
@@ -159,7 +159,7 @@
               href: c-ipservice.md
             - name: Leaf
               href: c-leaf.md
-            - name: Лицензирование-Site-Settings
+            - name: лицензирование — сайт — Параметры
               href: c-licensingsitesettings.md
             - name: Link-Track-Object-Move-Table
               href: c-linktrackobjectmovetable.md
@@ -169,7 +169,7 @@
               href: c-linktrackvolentry.md
             - name: Link-Tracking-Volume-Table
               href: c-linktrackvolumetable.md
-            - name: Местонахождение
+            - name: Расположение
               href: c-locality.md
             - name: Потерянные и найденные
               href: c-lostandfound.md
@@ -217,7 +217,7 @@
               href: c-msdfsr-subscription.md
             - name: Топология MS-DFSR-Topology
               href: c-msdfsr-topology.md
-            - name: MS-DNS-Server-параметры
+            - name: ms-DNS-сервер-Параметры
               href: c-msdns-serversettings.md
             - name: MS-DS-App-Configuration
               href: c-msds-app-configuration.md
@@ -255,9 +255,9 @@
               href: c-msds-managedserviceaccount.md
             - name: MS-DS-необязательный компонент
               href: c-msds-optionalfeature.md
-            - name: MS-DS-Password-параметры
+            - name: ms-DS-Password-Параметры
               href: c-msds-passwordsettings.md
-            - name: MS-DS-Password-Settings — контейнер
+            - name: ms-DS-Password-Параметры — контейнер
               href: c-msds-passwordsettingscontainer.md
             - name: Контейнер MS-DS-Quota-
               href: c-msds-quotacontainer.md
@@ -291,7 +291,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-Custom-получател
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-Enterprise-параметры
+            - name: MSMQ-Enterprise — Параметры
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -307,7 +307,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: MS-NET-IEEE-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: MS-PKI-Enterprise-OID
+            - name: ms-PKI-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: MS-PKI-Key-Recovery-Agent
               href: c-mspki-key-recovery-agent.md
@@ -329,17 +329,17 @@
               href: c-msspp-activationobject.md
             - name: MS-SPP-Activation-Objects-Container
               href: c-msspp-activationobjectscontainer.md
-            - name: MS-SQL-Олапкубе
+            - name: MS-SQL-олапкубе
               href: c-ms-sql-olapcube.md
-            - name: MS-SQL-Олапдатабасе
+            - name: MS-SQL-олапдатабасе
               href: c-ms-sql-olapdatabase.md
             - name: MS-SQL-OLAPServer
               href: c-ms-sql-olapserver.md
             - name: MS-SQL-SQLDatabase
               href: c-ms-sql-sqldatabase.md
-            - name: MS-SQL-Склпубликатион
+            - name: MS-SQL-склпубликатион
               href: c-ms-sql-sqlpublication.md
-            - name: MS-SQL-Склрепоситори
+            - name: MS-SQL-склрепоситори
               href: c-ms-sql-sqlrepository.md
             - name: MS-SQL-SQLServer
               href: c-ms-sql-sqlserver.md
@@ -399,7 +399,7 @@
               href: c-ntdsdsaro.md
             - name: NTDS-Service
               href: c-ntdsservice.md
-            - name: NTDS-Site-Settings
+            - name: NTDS-Site-Параметры
               href: c-ntdssitesettings.md
             - name: NTFRS-Member
               href: c-ntfrsmember.md
@@ -441,7 +441,7 @@
               href: c-querypolicy.md
             - name: Удаленный адрес электронной почты — получатель
               href: c-remotemailrecipient.md
-            - name: Точка удаленного хранилища службы
+            - name: удаленная служба хранилища-точка службы
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -507,7 +507,7 @@
               href: c-sitelinkbridge.md
             - name: Sites-Container
               href: c-sitescontainer.md
-            - name: Память
+            - name: Служба хранилища
               href: c-storage.md
             - name: Подсеть
               href: c-subnet.md
@@ -523,7 +523,7 @@
               href: c-typelibrary.md
             - name: Пользователь
               href: c-user.md
-            - name: Том
+            - name: Громкость
               href: c-volume.md
         - name: Структурные классы
           href: classes-structural.md
@@ -602,7 +602,7 @@
               href: c-domainpolicy.md
             - name: DSA
               href: c-dsa.md
-            - name: DS-UI-параметры
+            - name: DS-UI-Параметры
               href: c-dsuisettings.md
             - name: Отслеживание ссылок на файлы
               href: c-filelinktracking.md
@@ -650,7 +650,7 @@
               href: c-ipsecpolicy.md
             - name: ипсервице
               href: c-ipservice.md
-            - name: Лицензирование-Site-Settings
+            - name: лицензирование — сайт — Параметры
               href: c-licensingsitesettings.md
             - name: Link-Track-Object-Move-Table
               href: c-linktrackobjectmovetable.md
@@ -660,7 +660,7 @@
               href: c-linktrackvolentry.md
             - name: Link-Tracking-Volume-Table
               href: c-linktrackvolumetable.md
-            - name: Местонахождение
+            - name: Расположение
               href: c-locality.md
             - name: Потерянные и найденные
               href: c-lostandfound.md
@@ -706,7 +706,7 @@
               href: c-msdfsr-subscription.md
             - name: Топология MS-DFSR-Topology
               href: c-msdfsr-topology.md
-            - name: MS-DNS-Server-параметры
+            - name: ms-DNS-сервер-Параметры
               href: c-msdns-serversettings.md
             - name: MS-DS-App-Configuration
               href: c-msds-app-configuration.md
@@ -738,9 +738,9 @@
               href: c-msds-managedserviceaccount.md
             - name: MS-DS-необязательный компонент
               href: c-msds-optionalfeature.md
-            - name: MS-DS-Password-параметры
+            - name: ms-DS-Password-Параметры
               href: c-msds-passwordsettings.md
-            - name: MS-DS-Password-Settings — контейнер
+            - name: ms-DS-Password-Параметры — контейнер
               href: c-msds-passwordsettingscontainer.md
             - name: Контейнер MS-DS-Quota-
               href: c-msds-quotacontainer.md
@@ -774,7 +774,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-Custom-получател
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-Enterprise-параметры
+            - name: MSMQ-Enterprise — Параметры
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -790,7 +790,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: MS-NET-IEEE-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: MS-PKI-Enterprise-OID
+            - name: ms-PKI-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: MS-PKI-Key-Recovery-Agent
               href: c-mspki-key-recovery-agent.md
@@ -812,17 +812,17 @@
               href: c-msspp-activationobject.md
             - name: MS-SPP-Activation-Objects-Container
               href: c-msspp-activationobjectscontainer.md
-            - name: MS-SQL-Олапкубе
+            - name: MS-SQL-олапкубе
               href: c-ms-sql-olapcube.md
-            - name: MS-SQL-Олапдатабасе
+            - name: MS-SQL-олапдатабасе
               href: c-ms-sql-olapdatabase.md
             - name: MS-SQL-OLAPServer
               href: c-ms-sql-olapserver.md
             - name: MS-SQL-SQLDatabase
               href: c-ms-sql-sqldatabase.md
-            - name: MS-SQL-Склпубликатион
+            - name: MS-SQL-склпубликатион
               href: c-ms-sql-sqlpublication.md
-            - name: MS-SQL-Склрепоситори
+            - name: MS-SQL-склрепоситори
               href: c-ms-sql-sqlrepository.md
             - name: MS-SQL-SQLServer
               href: c-ms-sql-sqlserver.md
@@ -882,7 +882,7 @@
               href: c-ntdsdsaro.md
             - name: NTDS-Service
               href: c-ntdsservice.md
-            - name: NTDS-Site-Settings
+            - name: NTDS-Site-Параметры
               href: c-ntdssitesettings.md
             - name: NTFRS-Member
               href: c-ntfrsmember.md
@@ -916,7 +916,7 @@
               href: c-querypolicy.md
             - name: Удаленный адрес электронной почты — получатель
               href: c-remotemailrecipient.md
-            - name: Точка удаленного хранилища службы
+            - name: удаленная служба хранилища-точка службы
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -968,7 +968,7 @@
               href: c-sitelinkbridge.md
             - name: Sites-Container
               href: c-sitescontainer.md
-            - name: Память
+            - name: Служба хранилища
               href: c-storage.md
             - name: Подсеть
               href: c-subnet.md
@@ -982,14 +982,14 @@
               href: c-typelibrary.md
             - name: Пользователь
               href: c-user.md
-            - name: Том
+            - name: Громкость
               href: c-volume.md
         - name: Абстрактные классы
           href: classes-abstract.md
           items:
             - name: Application-Settings
               href: c-applicationsettings.md
-            - name: Приложение-сайт — параметры
+            - name: приложение — сайт — Параметры
               href: c-applicationsitesettings.md
             - name: Connection-Point
               href: c-connectionpoint.md
@@ -1086,7 +1086,7 @@
               href: a-acsidentityname.md
             - name: ACS-Max-Aggregate-Пиковая ставка-на пользователя
               href: a-acsmaxaggregatepeakrateperuser.md
-            - name: ACS-Max-Duration-on-Flow
+            - name: ACS-Max-Duration-на Flow
               href: a-acsmaxdurationperflow.md
             - name: ACS-Maximum-СДУ — размер
               href: a-acsmaximumsdusize.md
@@ -1096,15 +1096,15 @@
               href: a-acsmaxnooflogfiles.md
             - name: ACS-max-Пиковая пропускная способность
               href: a-acsmaxpeakbandwidth.md
-            - name: ACS-max-Пиковая пропускная способность (на поток)
+            - name: ACS-max-Пиковая пропускная способность на Flow
               href: a-acsmaxpeakbandwidthperflow.md
             - name: ACS-Max-size-of-RSVP-файл учетной записи
               href: a-acsmaxsizeofrsvpaccountfile.md
             - name: ACS-Max-size-of-файл RSVP-Log-File
               href: a-acsmaxsizeofrsvplogfile.md
-            - name: ACS-Max-Token-контейнер-на поток
+            - name: ACS-Max-Token-контейнер-на Flow
               href: a-acsmaxtokenbucketperflow.md
-            - name: ACS-Max-Token-Rate-для потока
+            - name: ACS-Max-Token-Rate — на Flow
               href: a-acsmaxtokenrateperflow.md
             - name: ACS-Минимальная-задержка-вариант
               href: a-acsminimumdelayvariation.md
@@ -1650,7 +1650,7 @@
               href: a-homedirectory.md
             - name: Home-Drive
               href: a-homedrive.md
-            - name: узел
+            - name: host
               href: a-host.md
             - name: хаусеидентифиер
               href: a-houseidentifier.md
@@ -1764,7 +1764,7 @@
               href: a-ldapdisplayname.md
             - name: Список LDAP-Ипдени-List
               href: a-ldapipdenylist.md
-            - name: Устаревший — Exchange-DN
+            - name: Legacy-Exchange-DN
               href: a-legacyexchangedn.md
             - name: Идентификатор ссылки
               href: a-linkid.md
@@ -2206,7 +2206,7 @@
               href: a-msds-disableforinstancesbl.md
             - name: MS-DS-Днсруталиас
               href: a-msds-dnsrootalias.md
-            - name: MS-DS-исходящий трафик — утверждения-преобразование — политика
+            - name: ms-DS-Egress-claims-преобразование — политика
               href: a-msds-egressclaimstransformationpolicy.md
             - name: Функция ms-DS-Enabled
               href: a-msds-enabledfeature.md
@@ -2368,7 +2368,7 @@
               href: a-msds-optionalfeatureflags.md
             - name: MS-DS-Optional-Feature-GUID
               href: a-msds-optionalfeatureguid.md
-            - name: MS-DS-Other-Settings
+            - name: ms-DS-Other-Параметры
               href: a-msds-other-settings.md
             - name: MS-DS-Password-с поддержкой сложности
               href: a-msds-passwordcomplexityenabled.md
@@ -2376,7 +2376,7 @@
               href: a-msds-passwordhistorylength.md
             - name: MS-DS-Password-обратимое шифрование — включено
               href: a-msds-passwordreversibleencryptionenabled.md
-            - name: MS-DS-Password-Settings — приоритет
+            - name: ms-DS-Password-Параметры — приоритет
               href: a-msds-passwordsettingsprecedence.md
             - name: Квота MS-DS-на пользователя — доверие
               href: a-msds-perusertrustquota.md
@@ -2402,7 +2402,7 @@
               href: a-msds-primarycomputer.md
             - name: MS-DS-Principal-Name
               href: a-msds-principalname.md
-            - name: MS-DS-продвижение-параметры
+            - name: ms-DS-продвижение — Параметры
               href: a-msds-promotionsettings.md
             - name: MS-DS-PSO — применяется
               href: a-msds-psoapplied.md
@@ -2466,7 +2466,7 @@
               href: a-msds-serviceaccountbl.md
             - name: MS-DS-Service-Account-DNS-домен
               href: a-msds-serviceaccountdnsdomain.md
-            - name: MS-DS-параметры
+            - name: ms-DS-Параметры
               href: a-msds-settings.md
             - name: Соответствие MS-DS-site-affinity
               href: a-msds-site-affinity.md
@@ -2486,7 +2486,7 @@
               href: a-msds-tasksforaztask.md
             - name: MS-DS-Tasks-for-AZ-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: MS-DS-TDO-исходящий трафик — BL
+            - name: ms-DS-TDO-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: MS-DS-TDO-входящий трафик — BL
               href: a-msds-tdoingressbl.md
@@ -2870,101 +2870,101 @@
               href: a-msspp-installationid.md
             - name: MS-SPP-выдача — лицензия
               href: a-msspp-issuancelicense.md
-            - name: MS-SPP-KMS-ID
+            - name: идентификаторы ms-SPP-KMS-id
               href: a-msspp-kmsids.md
             - name: MS-SPP-Online — лицензия
               href: a-msspp-onlinelicense.md
-            - name: MS-SPP-Phone-лицензия
+            - name: ms-SPP-Телефон-License
               href: a-msspp-phonelicense.md
-            - name: Псевдоним MS-SQL
+            - name: MS-SQL-Alias
               href: a-ms-sql-alias.md
-            - name: MS-SQL-Аллованонимауссубскриптион
+            - name: MS-SQL-аллованонимауссубскриптион
               href: a-ms-sql-allowanonymoussubscription.md
-            - name: MS-SQL-Алловиммедиатеупдатингсубскриптион
+            - name: MS-SQL-алловиммедиатеупдатингсубскриптион
               href: a-ms-sql-allowimmediateupdatingsubscription.md
-            - name: MS-SQL-Алловкновнпуллсубскриптион
+            - name: MS-SQL-алловкновнпуллсубскриптион
               href: a-ms-sql-allowknownpullsubscription.md
-            - name: MS-SQL-Алловкуеуедупдатингсубскриптион
+            - name: MS-SQL-алловкуеуедупдатингсубскриптион
               href: a-ms-sql-allowqueuedupdatingsubscription.md
-            - name: MS-SQL-Алловснапшотфилесфтпдовнлоадинг
+            - name: MS-SQL-алловснапшотфилесфтпдовнлоадинг
               href: a-ms-sql-allowsnapshotfilesftpdownloading.md
             - name: MS-SQL-AppleTalk
               href: a-ms-sql-appletalk.md
             - name: MS-SQL — приложения
               href: a-ms-sql-applications.md
-            - name: MS-SQL-Build
+            - name: MS-SQL — сборка
               href: a-ms-sql-build.md
-            - name: Кодировка MS-SQL
+            - name: MS-SQL-character
               href: a-ms-sql-characterset.md
-            - name: MS-SQL-Clustered
+            - name: MS-SQL-clustered
               href: a-ms-sql-clustered.md
             - name: MS-SQL-ConnectionURL
               href: a-ms-sql-connectionurl.md
-            - name: Контакт MS-SQL
+            - name: MS-SQL-Contact
               href: a-ms-sql-contact.md
             - name: MS-SQL-CreationDate
               href: a-ms-sql-creationdate.md
-            - name: База данных MS-SQL
+            - name: MS-SQL — база данных
               href: a-ms-sql-database.md
-            - name: MS-SQL — описание
+            - name: MS-SQL-описание
               href: a-ms-sql-description.md
-            - name: MS-SQL-Гпшеигхт
+            - name: MS-SQL-гпшеигхт
               href: a-ms-sql-gpsheight.md
-            - name: MS-SQL-Гпслатитуде
+            - name: MS-SQL-гпслатитуде
               href: a-ms-sql-gpslatitude.md
-            - name: MS-SQL-Гпслонгитуде
+            - name: MS-SQL-гпслонгитуде
               href: a-ms-sql-gpslongitude.md
-            - name: MS-SQL-Информатиондиректори
+            - name: MS-SQL-информатиондиректори
               href: a-ms-sql-informationdirectory.md
-            - name: MS-SQL-Информатионурл
+            - name: MS-SQL-информатионурл
               href: a-ms-sql-informationurl.md
             - name: MS-SQL — ключевые слова
               href: a-ms-sql-keywords.md
-            - name: Язык MS-SQL-Language
+            - name: MS-SQL-Language
               href: a-ms-sql-language.md
-            - name: MS-SQL-Ластбаккупдате
+            - name: MS-SQL-ластбаккупдате
               href: a-ms-sql-lastbackupdate.md
-            - name: MS-SQL-Ластдиагностикдате
+            - name: MS-SQL-ластдиагностикдате
               href: a-ms-sql-lastdiagnosticdate.md
-            - name: MS-SQL-Ластупдатеддате
+            - name: MS-SQL-ластупдатеддате
               href: a-ms-sql-lastupdateddate.md
             - name: MS-SQL — расположение
               href: a-ms-sql-location.md
-            - name: MS-SQL-память
+            - name: память MS-SQL-Memory
               href: a-ms-sql-memory.md
-            - name: Протокол MS-SQL-Multiprotocol
+            - name: MS-SQL — многопротоколный
               href: a-ms-sql-multiprotocol.md
-            - name: Имя MS-SQL
+            - name: имя MS-SQL
               href: a-ms-sql-name.md
-            - name: MS-SQL-помощью канала NamedPipe
+            - name: MS-SQL-помощью канала namedpipe
               href: a-ms-sql-namedpipe.md
-            - name: MS-SQL-Публикатионурл
+            - name: MS-SQL-публикатионурл
               href: a-ms-sql-publicationurl.md
-            - name: Издатель MS-SQL-Publisher
+            - name: MS-SQL — Publisher
               href: a-ms-sql-publisher.md
-            - name: MS-SQL-Регистередовнер
+            - name: MS-SQL-регистередовнер
               href: a-ms-sql-registeredowner.md
             - name: MS-SQL-учетная запись службы
               href: a-ms-sql-serviceaccount.md
-            - name: MS-SQL-Размер
+            - name: MS-SQL-Size
               href: a-ms-sql-size.md
             - name: MS-SQL-SortOrder
               href: a-ms-sql-sortorder.md
             - name: MS-SQL-SPX
               href: a-ms-sql-spx.md
-            - name: MS-SQL-состояние
+            - name: MS-SQL — состояние
               href: a-ms-sql-status.md
             - name: MS-SQL-TCPIP
               href: a-ms-sql-tcpip.md
             - name: MS-SQL-сторонних
               href: a-ms-sql-thirdparty.md
-            - name: Тип MS-SQL
+            - name: тип MS-SQL
               href: a-ms-sql-type.md
-            - name: MS-SQL-Уникодесортордер
+            - name: MS-SQL-уникодесортордер
               href: a-ms-sql-unicodesortorder.md
-            - name: MS-SQL-версия
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
-            - name: MS-SQL-Vines
+            - name: MS-SQL-vines
               href: a-ms-sql-vines.md
             - name: MS-TAPI-Conference-BLOB
               href: a-mstapi-conferenceblob.md
@@ -2988,9 +2988,9 @@
               href: a-mstsallowlogon.md
             - name: MS-TS-нарушено подключение — действие
               href: a-mstsbrokenconnectionaction.md
-            - name: MS-TS-Connect-Client-Drives
+            - name: ms-TS-Подключение-Client-drives
               href: a-mstsconnectclientdrives.md
-            - name: MS-TS-Connect-Printer-Drives
+            - name: ms-TS-Подключение-Printer-drives
               href: a-mstsconnectprinterdrives.md
             - name: MS-TS-по умолчанию — принтер
               href: a-mstsdefaulttomainprinter.md
@@ -3302,31 +3302,31 @@
               href: a-perrecipdialogdisplaytable.md
             - name: Personal-Title
               href: a-personaltitle.md
-            - name: Телефон — Факс — другие
+            - name: Телефон-Fax — другие
               href: a-otherfacsimiletelephonenumber.md
-            - name: Телефон — Главная страница — другие
+            - name: Телефон-Home — другие
               href: a-otherhomephone.md
-            - name: Телефон — Главная страница
+            - name: Телефон-Home — основной
               href: a-homephone.md
-            - name: Phone — IP — другие
+            - name: Телефон-Ip — другие
               href: a-otheripphone.md
-            - name: Телефон — IP-адрес — основной
+            - name: Телефон-Ip-Primary
               href: a-ipphone.md
-            - name: Телефон — ISDN — первичный
+            - name: Телефон-ISDN-Primary
               href: a-primaryinternationalisdnnumber.md
-            - name: Телефон — Mobile — другие
+            - name: Телефон-Mobile — другие
               href: a-othermobile.md
-            - name: Телефон — Mobile — первичный
+            - name: Телефон — Mobile — Primary
               href: a-mobile.md
-            - name: Телефон — Office — другие
+            - name: Телефон-Office-Other
               href: a-othertelephone.md
-            - name: Телефон — пейджер — другие
+            - name: Телефон-пейджер — другие
               href: a-otherpager.md
-            - name: Телефон — пейджер — первичный
+            - name: Телефон-пейджер-основной
               href: a-pager.md
             - name: фотография
               href: a-photo.md
-            - name: Физическая доставка — офис — имя
+            - name: физическая доставка — Office-имя
               href: a-physicaldeliveryofficename.md
             - name: Физическое расположение — объект
               href: a-physicallocationobject.md
@@ -3366,7 +3366,7 @@
               href: a-postaladdress.md
             - name: Postal-Code
               href: a-postalcode.md
-            - name: Пост-Office-Box
+            - name: флажок после Office
               href: a-postofficebox.md
             - name: Предпочтительный метод доставки
               href: a-preferreddeliverymethod.md
@@ -3518,7 +3518,7 @@
               href: a-remotesource.md
             - name: Удаленный источник-тип
               href: a-remotesourcetype.md
-            - name: Remote-Storage-GUID
+            - name: Remote-служба хранилища-GUID
               href: a-remotestorageguid.md
             - name: Replica-Source
               href: a-replicasource.md
@@ -3762,7 +3762,7 @@
               href: a-timerefresh.md
             - name: Изменение времени и громкости
               href: a-timevolchange.md
-            - name: Заголовок
+            - name: Название
               href: a-title.md
             - name: Token-Groups
               href: a-tokengroups.md
@@ -3971,7 +3971,7 @@
               href: a-msds-disableforinstances.md
             - name: MS-DS-Disabled-for-Instances-BL
               href: a-msds-disableforinstancesbl.md
-            - name: MS-DS-исходящий трафик — утверждения-преобразование — политика
+            - name: ms-DS-Egress-claims-преобразование — политика
               href: a-msds-egressclaimstransformationpolicy.md
             - name: Функция ms-DS-Enabled
               href: a-msds-enabledfeature.md
@@ -4067,7 +4067,7 @@
               href: a-msds-tasksforaztask.md
             - name: MS-DS-Tasks-for-AZ-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: MS-DS-TDO-исходящий трафик — BL
+            - name: ms-DS-TDO-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: MS-DS-TDO-входящий трафик — BL
               href: a-msds-tdoingressbl.md
@@ -4182,7 +4182,7 @@
               href: a-lastlogontimestamp.md
             - name: LDAP-отображаемое имя
               href: a-ldapdisplayname.md
-            - name: Устаревший — Exchange-DN
+            - name: Legacy-Exchange-DN
               href: a-legacyexchangedn.md
             - name: Locality-Name
               href: a-l.md
@@ -4266,15 +4266,15 @@
               href: a-mssfu30ordernumber.md
             - name: Мссфу-30-ИП-серверы
               href: a-mssfu30ypservers.md
-            - name: MS-SPP-KMS-ID
+            - name: идентификаторы ms-SPP-KMS-id
               href: a-msspp-kmsids.md
-            - name: Псевдоним MS-SQL
+            - name: MS-SQL-Alias
               href: a-ms-sql-alias.md
-            - name: База данных MS-SQL
+            - name: MS-SQL — база данных
               href: a-ms-sql-database.md
-            - name: Имя MS-SQL
+            - name: имя MS-SQL
               href: a-ms-sql-name.md
-            - name: MS-SQL-версия
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
             - name: MS-TPM-SRK-Pub-Thumbprint
               href: a-mstpm-srkpubthumbprint.md
@@ -4328,7 +4328,7 @@
               href: a-ou.md
             - name: Package-Flags
               href: a-packageflags.md
-            - name: Физическая доставка — офис — имя
+            - name: физическая доставка — Office-имя
               href: a-physicaldeliveryofficename.md
             - name: Физическое расположение — объект
               href: a-physicallocationobject.md
@@ -4435,7 +4435,7 @@
               href: a-lastlogontimestamp.md
             - name: LDAP-отображаемое имя
               href: a-ldapdisplayname.md
-            - name: Устаревший — Exchange-DN
+            - name: Legacy-Exchange-DN
               href: a-legacyexchangedn.md
             - name: Locality-Name
               href: a-l.md
@@ -4547,13 +4547,13 @@
               href: a-mspki-site-name.md
             - name: MS-RRAS-атрибут
               href: a-msrrasattribute.md
-            - name: Псевдоним MS-SQL
+            - name: MS-SQL-Alias
               href: a-ms-sql-alias.md
-            - name: База данных MS-SQL
+            - name: MS-SQL — база данных
               href: a-ms-sql-database.md
-            - name: Имя MS-SQL
+            - name: имя MS-SQL
               href: a-ms-sql-name.md
-            - name: MS-SQL-версия
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
             - name: Нетбут — GUID
               href: a-netbootguid.md
@@ -4579,11 +4579,11 @@
               href: a-partialattributedeletionlist.md
             - name: Разделяемый атрибут-set
               href: a-partialattributeset.md
-            - name: Телефон — Главная страница
+            - name: Телефон-Home — основной
               href: a-homephone.md
-            - name: Phone — IP — другие
+            - name: Телефон-Ip — другие
               href: a-otheripphone.md
-            - name: Телефон — IP-адрес — основной
+            - name: Телефон-Ip-Primary
               href: a-ipphone.md
             - name: PKI — критические расширения
               href: a-pkicriticalextensions.md
@@ -4724,7 +4724,7 @@
               href: a-displayname.md
             - name: Given-Name
               href: a-givenname.md
-            - name: Устаревший — Exchange-DN
+            - name: Legacy-Exchange-DN
               href: a-legacyexchangedn.md
             - name: MS-DS-дополнительно-SAM-Account-Name
               href: a-msds-additionalsamaccountname.md
@@ -4738,7 +4738,7 @@
               href: a-msds-phoneticfirstname.md
             - name: MS-DS-фонетическое имя (фамилия)
               href: a-msds-phoneticlastname.md
-            - name: Физическая доставка — офис — имя
+            - name: физическая доставка — Office-имя
               href: a-physicaldeliveryofficename.md
             - name: Proxy-Addresses
               href: a-proxyaddresses.md
