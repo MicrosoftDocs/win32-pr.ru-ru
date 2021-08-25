@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 507c4211b9506e0635966e9541167d24495735ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f095272ee0d836e77542e20badbe5bb1169206cc6b0e87d742e3fbd235acd52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656184"
 ---
 # <a name="win32_sessionbrokerserviceproperties-class"></a>\_Класс Win32 сессионброкерсервицепропертиес
 
@@ -59,12 +59,12 @@ class Win32_SessionBrokerServiceProperties
 
 | Метод                                                                                                | Описание                                                                                                                                                                                                                          |
 |:------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**делетесбдбконнектионстринг**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | Удаляет строки подключения к базе данных (первичные и вторичные) из реестра.<br/> **Windows server 2012 R2, Windows server 2012 и Windows server 2008 R2:** Этот метод недоступен до Windows Server 2016<br/> |
+| [**делетесбдбконнектионстринг**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | Удаляет строки подключения к базе данных (первичные и вторичные) из реестра.<br/> **Windows Server 2012 r2, Windows Server 2012 и Windows Server 2008 r2:** Этот метод недоступен до Windows Server 2016<br/> |
 | [**инсталлброкердатабасе**](win32-sessionbrokerserviceproperties-installbrokerdatabase.md)           | Устанавливает RDCB DB на Центральный SQL Server<br/>                                                                                                                                                                    |
 | [**исдбреачабле**](win32-sessionbrokerserviceproperties-isdbreachable.md)                           | Проверяет доступность базы данных<br/>                                                                                                                                                                                                 |
-| [**сетброкерхамоде**](win32-sessionbrokerserviceproperties-setbrokerhamode.md)                       | Переносит данные из локальной базы данных WID в новую базу данных на основе SQL Server. Он также настраивает сервер брокера для использования центрального SQL Server<br/>                                                                                        |
-| [**сетброкернонхамоде**](win32-sessionbrokerserviceproperties-setbrokernonhamode.md)                 | Переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.<br/>                                                                                                              |
-| [**сетсбдбконнектионстрингс**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | Сохраняет строки подключения к базе данных (первичные и вторичные) в реестре.<br/> **Windows server 2012 R2, Windows server 2012 и Windows server 2008 R2:** Этот метод недоступен до Windows Server 2016<br/>     |
+| [**сетброкерхамоде**](win32-sessionbrokerserviceproperties-setbrokerhamode.md)                       | переносит данные из локальной базы данных WID в новую базу данных на основе SQL Server. Он также настраивает сервер брокера для использования центрального SQL Server<br/>                                                                                        |
+| [**сетброкернонхамоде**](win32-sessionbrokerserviceproperties-setbrokernonhamode.md)                 | переносит данные из центрального SQL Server в локальную базу данных. Он также настраивает сервер брокера для использования локальной базы данных.<br/>                                                                                                              |
+| [**сетсбдбконнектионстрингс**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | Сохраняет строки подключения к базе данных (первичные и вторичные) в реестре.<br/> **Windows Server 2012 r2, Windows Server 2012 и Windows Server 2008 r2:** Этот метод недоступен до Windows Server 2016<br/>     |
 
 
 
@@ -102,7 +102,7 @@ class Win32_SessionBrokerServiceProperties
 
 Необязательный элемент. Строка подключения к базе данных-получателю, используемая службой посредника сеансов для поддержки истечения срока действия пароля.
 
-**Windows server 2012 R2, Windows server 2012 и Windows server 2008 R2:** Это свойство недоступно до Windows Server 2016
+**Windows Server 2012 r2, Windows Server 2012 и Windows Server 2008 r2:** Это свойство недоступно до Windows Server 2016
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ class Win32_SessionBrokerServiceProperties
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

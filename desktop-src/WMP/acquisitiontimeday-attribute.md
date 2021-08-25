@@ -3,7 +3,7 @@ title: Атрибут Аккуиситионтимедай
 description: Атрибут Аккуиситионтимедай представляет собой часть даты и времени добавления элемента в библиотеку.
 ms.assetid: 0f050dd4-59af-4b50-810b-4265367ba819
 keywords:
-- Аккуиситионтимедай атрибут Windows Media Player
+- проигрыватель Windows Media атрибута аккуиситионтимедай
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38246e80b0e79cbab32d617d8051dbec340cf502
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fe6f8a2bb6745c8fb43d390be5d4fb8c477f189a204dc3d62201ac6fc88403f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765564"
 ---
 # <a name="acquisitiontimeday-attribute"></a>Атрибут Аккуиситионтимедай
 
 Атрибут **аккуиситионтимедай** представляет собой часть даты и времени добавления элемента в библиотеку.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
@@ -32,23 +32,23 @@ ms.locfileid: "105698873"
 -   [Элементы Радио](radio-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

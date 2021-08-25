@@ -3,7 +3,7 @@ title: Сообщение TTM_ADDTOOL (Коммктрл. h)
 description: Регистрирует инструмент с помощью элемента управления ToolTip.
 ms.assetid: c974866b-20e7-45bc-914e-9dcf9af161e0
 keywords:
-- Элементы управления Windows для TTM_ADDTOOL сообщений
+- элементы управления Windows сообщений TTM_ADDTOOL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29dad3e297f8c3430f18286afa9a998eaf578a26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb66c43033e54ce51b396ff5bb11efe3b2a99e8eb2578a2e9fe4d4bc4487ccf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769544"
 ---
 # <a name="ttm_addtool-message"></a>\_Сообщение ТТМ аддтул
 
@@ -51,9 +51,9 @@ ms.locfileid: "105654507"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТТМ \_ АДДТУЛВ** (Юникод) и **ТТМ \_ аддтула** (ANSI)<br/>                   |
 
 

@@ -10,17 +10,17 @@ keywords:
 - службы обратного вызова окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48faf2dd94b61f5d4fc47e073fe0f3875bcbb503
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0248928d339dc6c1737ee9dc47f72bac0fb42fe76774e6062177c29064b44257
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781414"
 ---
 # <a name="window-callback-services"></a>Службы обратного вызова окна
 
 Службы микшера предоставляют службы обратного вызова окна, чтобы приложение могла обрабатывать сообщения от драйверов микшера. Чтобы использовать эти службы, укажите флаг окна ОБРАТНОго вызова \_ в параметре *фдвопен* и маркер окна в параметре *двкаллбакк* функции [**миксеропен**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen) . Сообщения драйвера отправляются в функцию Window PROCEDURE для окна, определяемого маркером в *двкаллбакк*. Сообщения относятся к типу звукового устройства.
 
- 
+ 
 
- 
+ 

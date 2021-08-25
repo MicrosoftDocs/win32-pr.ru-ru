@@ -3,13 +3,13 @@ title: Объект AxWindowsMediaPlayer (VB и C)
 description: Объект Аксвиндовсмедиаплайер (VB и C)
 ms.assetid: d7eeac20-1afa-4e73-9af6-9772fbb65516
 keywords:
-- Проигрыватель Windows Media, объект Аксвиндовсмедиаплайер
-- Проигрыватель Windows Media Mobile, объект Аксвиндовсмедиаплайер
-- Объектная модель проигрывателя Windows Media, объект Аксвиндовсмедиаплайер
+- проигрыватель Windows Media, объект аксвиндовсмедиаплайер
+- проигрыватель Windows Media Мобильные устройства, объект Аксвиндовсмедиаплайер
+- объектная модель проигрыватель Windows Media, объект аксвиндовсмедиаплайер
 - Объектная модель, объект Аксвиндовсмедиаплайер
-- Элемент управления ActiveX, объект Аксвиндовсмедиаплайер
-- Элемент управления ActiveX проигрывателя Windows Media, объект Аксвиндовсмедиаплайер
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, объект Аксвиндовсмедиаплайер
+- элемент управления ActiveX, объект аксвиндовсмедиаплайер
+- проигрыватель Windows Media элемент управления ActiveX, объект аксвиндовсмедиаплайер
+- проигрыватель Windows Media мобильный ActiveX элемент управления, объект аксвиндовсмедиаплайер
 - Справочник по объектной модели, объекту Аксвиндовсмедиаплайер
 - Объект Аксвиндовсмедиаплайер
 ms.topic: article
@@ -19,16 +19,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 32f814560c8b6eb13dc5abb8736378432ec4565e
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 1d0c66360e80ea293795442472ce163292c38152baa859889086a5687f03764f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104487372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765284"
 ---
 # <a name="axwindowsmediaplayer-object-vb-and-c"></a>Объект Аксвиндовсмедиаплайер (VB и C#)
 
-Объект Аксвиндовсмедиаплайер является корневым объектом для элемента управления проигрывателя Windows Media. Он поддерживает свойства, методы и события, перечисленные в следующих таблицах.
+объект аксвиндовсмедиаплайер является корневым объектом для элемента управления проигрыватель Windows Media. Он поддерживает свойства, методы и события, перечисленные в следующих таблицах.
 
 Объект Аксвиндовсмедиаплайер поддерживает следующие свойства:
 
@@ -39,7 +39,7 @@ ms.locfileid: "104487372"
 | [кдромколлектион](axwmplib-axwindowsmediaplayer-cdromcollection--vb-and-c.md)       | Возвращает интерфейс **ивмпкдромколлектион** .                                                                                         |
 | [клоседкаптион](axwmplib-axwindowsmediaplayer-closedcaption--vb-and-c.md)           | Возвращает интерфейс Ивмпклоседкаптион.                                                                                               |
 | [ктлконтролс](axwmplib-axwindowsmediaplayer-ctlcontrols--vb-and-c.md)               | Возвращает интерфейс Ивмпконтролс.                                                                                                    |
-| [ктленаблед](axwmplib-axwindowsmediaplayer-ctlenabled--vb-and-c.md)                 | Возвращает или задает значение, указывающее, включен ли элемент управления проигрывателя Windows Media.                                               |
+| [ктленаблед](axwmplib-axwindowsmediaplayer-ctlenabled--vb-and-c.md)                 | возвращает или задает значение, указывающее, включен ли элемент управления проигрыватель Windows Media.                                               |
 | [куррентмедиа](axwmplib-axwindowsmediaplayer-currentmedia--vb-and-c.md)             | Возвращает или задает интерфейс Ивмпмедиа, соответствующий текущему элементу мультимедиа.                                                   |
 | [куррентплайлист](axwmplib-axwindowsmediaplayer-currentplaylist--vb-and-c.md)       | Возвращает или задает текущий интерфейс **ивмпплайлист** .                                                                               |
 | [оптически](axwmplib-axwindowsmediaplayer-dvd--vb-and-c.md)                               | Возвращает интерфейс ИВМПДВД.                                                                                                         |
@@ -49,22 +49,22 @@ ms.locfileid: "104487372"
 | [Подключение к Интернету](axwmplib-axwindowsmediaplayer-isonline--vb-and-c.md)                     | Возвращает значение, указывающее, подключен ли пользователь к сети.                                                                |
 | Удаленный                                                                             | Не поддерживается для программирования .NET.                                                                                                |
 | [медиаколлектион](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)       | Возвращает интерфейс Ивмпмедиаколлектион.                                                                                             |
-| [сети](axwmplib-axwindowsmediaplayer-network--vb-and-c.md)                       | Возвращает интерфейс Ивмпнетворк.                                                                                                     |
+| [network](axwmplib-axwindowsmediaplayer-network--vb-and-c.md)                       | Возвращает интерфейс Ивмпнетворк.                                                                                                     |
 | [опенстате](axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md)                   | Возвращает значение, указывающее состояние источника содержимого.                                                                           |
 | плайераппликатион                                                                    | Не поддерживается для программирования .NET.                                                                                                |
 | [плайлистколлектион](axwmplib-axwindowsmediaplayer-playlistcollection--vb-and-c.md) | Возвращает интерфейс Ивмпплайлистколлектион.                                                                                          |
-| [плайстате](axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md)                   | Возвращает значение, указывающее состояние операции проигрывателя Windows Media.                                                           |
+| [плайстате](axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md)                   | возвращает значение, указывающее состояние операции проигрыватель Windows Media.                                                           |
 | [параметры](axwmplib-axwindowsmediaplayer-settings--vb-and-c.md)                     | Возвращает интерфейс Ивмпсеттингс.                                                                                                    |
-| [status](axwmplib-axwindowsmediaplayer-status--vb-and-c.md)                         | Возвращает значение, указывающее текущее состояние проигрывателя Windows Media.                                                                |
-| [стретчтофит](axwmplib-axwindowsmediaplayer-stretchtofit--vb-and-c.md)             | Возвращает или задает значение, указывающее, будет ли видео растягиваться по размеру экрана элемента управления проигрывателя Windows Media.          |
-| [uiMode](axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md)                         | Возвращает или задает значение, указывающее, какие элементы управления отображаются в пользовательском интерфейсе при внедрении проигрывателя Windows Media на веб-страницу. |
+| [status](axwmplib-axwindowsmediaplayer-status--vb-and-c.md)                         | возвращает значение, указывающее текущее состояние проигрыватель Windows Media.                                                                |
+| [стретчтофит](axwmplib-axwindowsmediaplayer-stretchtofit--vb-and-c.md)             | возвращает или задает значение, указывающее, будет ли видео растягиваться по размеру экрана элемента управления "проигрыватель Windows Media".          |
+| [uiMode](axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md)                         | возвращает или задает значение, указывающее, какие элементы управления отображаются в пользовательском интерфейсе при внедрении проигрыватель Windows Media на веб-страницу. |
 | [URL-адрес](axwmplib-axwindowsmediaplayer-url--vb-and-c.md)                               | Возвращает или задает имя клипа для воспроизведения.                                                                                         |
-| [versionInfo](axwmplib-axwindowsmediaplayer-versioninfo--vb-and-c.md)               | Возвращает значение, указывающее версию проигрывателя Windows Media.                                                               |
-| [виндовлессвидео](axwmplib-axwindowsmediaplayer-windowlessvideo--vb-and-c.md)       | Возвращает или задает значение, указывающее, визуализирует ли элемент управления проигрывателем Windows Media видео в режиме без окон.                         |
+| [versionInfo](axwmplib-axwindowsmediaplayer-versioninfo--vb-and-c.md)               | возвращает значение, указывающее версию проигрыватель Windows Media.                                                               |
+| [виндовлессвидео](axwmplib-axwindowsmediaplayer-windowlessvideo--vb-and-c.md)       | возвращает или задает значение, указывающее, визуализирует ли элемент управления проигрыватель Windows Media видео в режиме без окон.                         |
 
 
 
- 
+ 
 
 Объект Аксвиндовсмедиаплайер поддерживает следующие методы.
 
@@ -72,15 +72,15 @@ ms.locfileid: "104487372"
 
 | Метод                                                       | Описание                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------|
-| [close](axwmplib-axwindowsmediaplayer-close.md)             | Освобождает ресурсы проигрывателя Windows Media.                  |
+| [close](axwmplib-axwindowsmediaplayer-close.md)             | освобождает ресурсы проигрыватель Windows Media.                  |
 | [лаунчурл](axwmplib-axwindowsmediaplayer-launchurl.md)     | Отправляет URL-адрес браузера пользователя по умолчанию для подготовки к просмотру. |
 | [невмедиа](axwmplib-axwindowsmediaplayer-newmedia.md)       | Возвращает интерфейс Ивмпмедиа для нового элемента мультимедиа.      |
 | [невплайлист](axwmplib-axwindowsmediaplayer-newplaylist.md) | Возвращает интерфейс Ивмпплайлист для нового списка воспроизведения.     |
-| [опенплайер](axwmplib-axwindowsmediaplayer-openplayer.md)   | Открывает проигрыватель Windows Media с использованием указанного URL-адреса.       |
+| [опенплайер](axwmplib-axwindowsmediaplayer-openplayer.md)   | открывает проигрыватель Windows Media с использованием указанного URL-адреса.       |
 
 
 
- 
+ 
 
 Объект Аксвиндовсмедиаплайер поддерживает следующие события.
 
@@ -89,7 +89,7 @@ ms.locfileid: "104487372"
 | Событие                                                                                                              | Описание                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [аудиолангуажечанже](axwmplib-axwindowsmediaplayer-audiolanguagechange.md)                                       | Происходит при изменении текущего звукового языка.                                                            |
-| [ответов](axwmplib-axwindowsmediaplayer-buffering.md)                                                           | Происходит при начале или окончании буферизации элементом управления проигрывателя Windows Media.                                     |
+| [ответов](axwmplib-axwindowsmediaplayer-buffering.md)                                                           | происходит при начале или окончании буферизации элемента управления проигрыватель Windows Media.                                     |
 | [кдромбурнеррор](axwmplib-axwindowsmediaplayer-cdromburnerror.md)                                                 | Происходит при возникновении общей ошибки во время операции записи на компакт-диск.                                         |
 | [кдромбурнмедиаеррор](axwmplib-axwindowsmediaplayer-cdromburnmediaerror.md)                                       | Происходит при возникновении ошибки при записи отдельного элемента мультимедиа на компакт-диск.                               |
 | [кдромбурнстатечанже](axwmplib-axwindowsmediaplayer-cdromburnstatechange.md)                                     | Происходит при изменении состояния операции записи компакт-диска.                                                          |
@@ -112,7 +112,7 @@ ms.locfileid: "104487372"
 | [DoubleClick](axwmplib-axwindowsmediaplayer-doubleclick.md)                                                       | Происходит, когда пользователь дважды щелкает кнопку мыши.                                                         |
 | [дуратионунитчанже](axwmplib-axwindowsmediaplayer-durationunitchange.md)                                         | Зарезервировано для последующего использования.                                                                                   |
 | [EndOfStream](axwmplib-axwindowsmediaplayer-endofstream.md)                                                       | Зарезервировано для последующего использования.                                                                                   |
-| [Ошибка](axwmplib-axwindowsmediaplayer-error.md)                                                                   | Происходит, когда элемент управления проигрывателя Windows Media имеет условие ошибки.                                       |
+| [Ошибка](axwmplib-axwindowsmediaplayer-error.md)                                                                   | происходит, когда элемент управления проигрыватель Windows Media имеет условие ошибки.                                       |
 | [фолдерсканстатечанже](axwmplib-axwindowsmediaplayer-folderscanstatechange.md)                                   | Происходит при изменении состояния операции наблюдения за папками.                                                   |
 | [KeyDown](axwmplib-axwindowsmediaplayer-keydown.md)                                                               | Вызывается при нажатии клавиши.                                                                              |
 | [Бытии](axwmplib-axwindowsmediaplayer-keypress.md)                                                             | Происходит при нажатии клавиши, а затем при ее освобождении.                                                            |
@@ -128,13 +128,13 @@ ms.locfileid: "104487372"
 | [медиаколлектионмедиааддед](axwmplib-axwindowsmediaplayer-mediacollectionmediaadded.md)                           | Происходит при добавлении элемента мультимедиа в локальную библиотеку.                                                    |
 | [медиаколлектионмедиаремовед](axwmplib-axwindowsmediaplayer-mediacollectionmediaremoved.md)                       | Происходит при удалении элемента мультимедиа из локальной библиотеки.                                                |
 | [медиаеррор](axwmplib-axwindowsmediaplayer-mediaerror.md)                                                         | Происходит, когда объект **мультимедиа** имеет условие ошибки.                                                   |
-| [модечанже](axwmplib-axwindowsmediaplayer-modechange.md)                                                         | Происходит при изменении режима проигрывателя Windows Media.                                                     |
+| [модечанже](axwmplib-axwindowsmediaplayer-modechange.md)                                                         | происходит при изменении режима проигрыватель Windows Media.                                                     |
 | [Вниз](axwmplib-axwindowsmediaplayer-mousedown.md)                                                           | Происходит при нажатии кнопки мыши.                                                                     |
 | [Событие](axwmplib-axwindowsmediaplayer-mousemove.md)                                                           | Происходит при перемещении указателя мыши.                                                                    |
 | [Кнопка](axwmplib-axwindowsmediaplayer-mouseup.md)                                                               | Происходит при отпускании кнопки мыши.                                                                    |
 | [невстреам](axwmplib-axwindowsmediaplayer-newstream.md)                                                           | Зарезервировано для последующего использования.                                                                                   |
 | [опенплайлистсвитч](axwmplib-axwindowsmediaplayer-openplaylistswitch.md)                                         | Происходит, когда начинается воспроизведение заголовка DVD-диска.                                                               |
-| [опенстатечанже](axwmplib-axwindowsmediaplayer-openstatechange.md)                                               | Происходит при изменении состояния элемента управления проигрывателя Windows Media.                                                |
+| [опенстатечанже](axwmplib-axwindowsmediaplayer-openstatechange.md)                                               | происходит при изменении состояния элемента управления проигрыватель Windows Media.                                                |
 | плайердоккедстатечанже                                                                                            | Не поддерживается для программирования .NET.                                                                        |
 | плайерреконнект                                                                                                    | Не поддерживается для программирования .NET.                                                                        |
 | [плайлистчанже](axwmplib-axwindowsmediaplayer-playlistchange.md)                                                 | Происходит при изменении списка воспроизведения.                                                                            |
@@ -142,7 +142,7 @@ ms.locfileid: "104487372"
 | [плайлистколлектионплайлистаддед](axwmplib-axwindowsmediaplayer-playlistcollectionplaylistadded.md)               | Происходит при добавлении списка воспроизведения в коллекцию списков воспроизведения.                                                |
 | [плайлистколлектионплайлистремовед](axwmplib-axwindowsmediaplayer-playlistcollectionplaylistremoved.md)           | Происходит при удалении списка воспроизведения из коллекции списков воспроизведения.                                            |
 | [плайлистколлектионплайлистсетасделетед](axwmplib-axwindowsmediaplayer-playlistcollectionplaylistsetasdeleted.md) | Зарезервировано для последующего использования.                                                                                   |
-| [плайстатечанже](axwmplib-axwindowsmediaplayer-playstatechange.md)                                               | Происходит при изменении состояния воспроизведения элемента управления проигрывателя Windows Media.                                    |
+| [плайстатечанже](axwmplib-axwindowsmediaplayer-playstatechange.md)                                               | происходит при изменении состояния воспроизведения проигрыватель Windows Media элемента управления.                                    |
 | [поситиончанже](axwmplib-axwindowsmediaplayer-positionchange.md)                                                 | Происходит при изменении текущей позиции элемента мультимедиа.                                       |
 | [ScriptCommand](axwmplib-axwindowsmediaplayer-scriptcommand.md)                                                   | Происходит при получении синхронизированной команды или URL-адреса.                                                     |
 | [StatusChange](axwmplib-axwindowsmediaplayer-statuschange.md)                                                     | Происходит при изменении значения свойства **Status** .                                                         |
@@ -153,13 +153,13 @@ ms.locfileid: "104487372"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпкдромколлектион (VB и C#)**](iwmpcdromcollection--vb-and-c.md)
@@ -195,7 +195,7 @@ ms.locfileid: "104487372"
 [**Интерфейс Ивмпсеттингс (VB и C#)**](iwmpsettings--vb-and-c.md)
 </dt> <dt>
 
-[**Справочник по объектной модели для Visual Basic .NET и C #**](object-model-reference-for-visual-basic--net-and-c.md)
+[**справочник по объектной модели для Visual Basic .net и C #**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**вмпопенстате**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpopenstate)
@@ -204,9 +204,9 @@ ms.locfileid: "104487372"
 [**вмпплайстате**](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpplaystate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

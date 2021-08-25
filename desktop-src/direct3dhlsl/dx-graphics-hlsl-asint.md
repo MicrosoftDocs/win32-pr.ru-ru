@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce1b0ca7e1c7b3716be1a3029c5478f96e261ce5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 492e0b5e400adc4e5c847f12880a668fb5e3b98f683a0f64dbe32ec98f28a93c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789864"
 ---
 # <a name="asint"></a>ASIN
 
@@ -56,7 +56,7 @@ ms.locfileid: "104070394"
 | Имя  | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md)                  | Размер                           |
 |-------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------|
 | *x*   | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**float**](/windows/desktop/WinProg/windows-data-types), [ **uint**](/windows/desktop/WinProg/windows-data-types) | any                            |
-| *обратно* | то же, что входные данные *x*                                                                                              | [**int**](/windows/desktop/WinProg/windows-data-types)                                           | те же измерения, что и входные *x* |
+| *обратно* | то же, что входные данные *x*                                                                                              | [**INT**](/windows/desktop/WinProg/windows-data-types)                                           | те же измерения, что и входные *x* |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104070394"
 
 | Модель шейдера                                                        | Поддерживается |
 |---------------------------------------------------------------------|-----------|
-| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | да       |
+| [Модели шейдеров 4](dx-graphics-hlsl-sm4.md) и более поздних шейдеров | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)           | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md)           | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)           | Нет        |

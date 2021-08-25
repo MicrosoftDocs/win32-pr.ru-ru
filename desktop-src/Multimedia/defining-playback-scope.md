@@ -7,12 +7,12 @@ keywords:
 - Макрос МЦивндплайто
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 518fc80588147c4ccbbca619452b714333a8a34d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1853c74cc4115cee72e4253e339f934e73b8d8e7e223f1b91e9992969c4ce3f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785424"
 ---
 # <a name="defining-playback-scope"></a>Определение области воспроизведения
 
@@ -20,9 +20,9 @@ ms.locfileid: "103986449"
 
 Кроме того, можно определить начальную и конечную позиции с помощью макроса [**мЦивндплайфромто**](/windows/desktop/api/Vfw/nf-vfw-mciwndplayfromto) . Этот макрос перемещается в указанную начальную точку и выполняется до тех пор, пока не будет достигнута заданная конечная позиция или конец содержимого.
 
- 
+ 
 
- 
+ 
 
 
 

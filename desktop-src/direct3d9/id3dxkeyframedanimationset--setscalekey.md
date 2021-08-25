@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 12ac4d46a2719e452d44d2da67f178e6146b799b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5d33ab0c8e6bd01335d5843121917f89e3cf60bd81a5d54a85d298ec990e4a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748214"
 ---
 # <a name="id3dxkeyframedanimationsetsetscalekey-method"></a>Метод ID3DXKeyframedAnimationSet:: Сетскалекэй
 
@@ -81,7 +81,7 @@ HRESULT SetScaleKey(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9anim. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

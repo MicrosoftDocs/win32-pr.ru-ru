@@ -3,7 +3,7 @@ title: Сообщение TTM_GETDELAYTIME (Коммктрл. h)
 description: Извлекает начальные, всплывающие и повторно отображаемые длительности, заданные для элемента управления ToolTip.
 ms.assetid: f89a75ed-ba80-4741-927f-c571f3b2efe7
 keywords:
-- Элементы управления Windows для TTM_GETDELAYTIME сообщений
+- элементы управления Windows сообщений TTM_GETDELAYTIME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff8c75f078465646333cae1f519049733a0c9f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0e63eca126477a6f602e6e23be75495319d30aa2814d2d72b8426a96c078326
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769264"
 ---
 # <a name="ttm_getdelaytime-message"></a>\_Сообщение ТТМ жетделайтиме
 
@@ -61,9 +61,9 @@ ms.locfileid: "105654505"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

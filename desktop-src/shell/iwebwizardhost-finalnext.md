@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 0699eb16-d6ef-46e3-bd02-d35512536275
-ms.openlocfilehash: fa59a70c04e7f78a315955aeabb9477c6f28c80d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a694ced28663a005bfdacd406adb3f6b3d6cd0300db2a101c9fdee4bf215a23d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821124"
 ---
 # <a name="webwizardhostfinalnext-method"></a>Вебвизардхост. Финалнекст, метод
 
@@ -41,14 +41,14 @@ iRetVal = WebWizardHost.FinalNext()
 
 Когда мастер отображает последнюю HTML-страницу на стороне сервера и пользователь нажимает кнопку " **Далее** " или **"Готово** ", сервер вызывает **финалнекст** в обработчике событий этой кнопки.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                   |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 

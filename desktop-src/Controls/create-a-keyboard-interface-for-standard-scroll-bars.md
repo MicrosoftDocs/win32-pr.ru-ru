@@ -4,12 +4,12 @@ description: Хотя элемент управления "полоса прок
 ms.assetid: 249D0077-6E61-479A-91D5-A4BD9752B82E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b739638d95d9f3e530718f8e9b9e6168069420
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f25994639a40a6380bbf2f9cc0075e8a78b9e15787dbdf1babf0e6a15550faf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698744"
 ---
 # <a name="how-to-create-a-keyboard-interface-for-standard-scroll-bars"></a>Создание интерфейса клавиатуры для стандартных полос прокрутки
 
@@ -17,16 +17,16 @@ ms.locfileid: "103891128"
 
 Например, когда пользователь нажимает клавишу со стрелкой вверх, процедура окна получает сообщение [**WM \_ KeyDown**](/windows/desktop/inputdev/wm-keydown) с параметром *wParam* , равным VK \_ up. В ответ процедура окна отправляет сообщение [**WM \_ VSCROLL**](wm-vscroll.md) с неупорядоченным словом *wParam* , установленным в \_ код запроса SB.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -76,16 +76,16 @@ ms.locfileid: "103891128"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование полос прокрутки](using-scroll-bars.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

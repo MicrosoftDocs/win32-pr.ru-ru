@@ -4,12 +4,12 @@ ms.assetid: d20d374a-a259-4e89-8eeb-942bbe53e959
 title: Атрибут MF_SD_ASF_EXTSTRMPROP_MAX_DATA_BITRATE (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85626be11afe2e9413852e8aec3533f987538473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa9bb445724c15604ab30e353315769f78a71c0d6dd94291392e4c34ee05a70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714364"
 ---
 # <a name="mf_sd_asf_extstrmprop_max_data_bitrate-attribute"></a>Атрибут скорости MF \_ SD \_ ASF \_ екстстрмпроп, \_ максимальный \_ скорость передачи данных \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105712709"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к дескрипторам потоков для содержимого ASF. Он соответствует полю Альтернативная скорость битов данных в объекте свойств расширенного потока. Дополнительные сведения см. в спецификации ASF.
 
@@ -31,9 +31,9 @@ ms.locfileid: "105712709"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 
 

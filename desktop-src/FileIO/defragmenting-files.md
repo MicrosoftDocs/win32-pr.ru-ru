@@ -4,12 +4,12 @@ ms.assetid: 27ccaab7-ec89-489b-80dc-df9beb7969bc
 title: Дефрагментация файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2d079f58ec98f320356a477531616788f84ccb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f04c0a3c961854b7e3ecab50d67db608178393113ca259b916db9623058e2f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696294"
 ---
 # <a name="defragmenting-files"></a>Дефрагментация файлов
 
@@ -84,7 +84,7 @@ ms.locfileid: "103898653"
 -   :: $EA
 -   :: $LOGGEDный \_ поток служебной программы \_
 
-* * Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 и Windows XP: поток служебной программы "* *:: $EA и:: $LOGGED" \_ \_ не поддерживается до Windows 8 и windows Server 2012
+* * Windows 7, Windows server 2008 R2, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP: * *:: $EA и:: $LOGGED \_ \_ поток программы не поддерживается до Windows 8 и Windows Server 2012
 
 Типы потоков, поддерживаемые для любого каталога.
 

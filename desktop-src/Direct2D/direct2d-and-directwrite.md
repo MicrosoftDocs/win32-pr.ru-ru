@@ -1,19 +1,19 @@
 ---
 title: Отрисовка текста с помощью Direct2D и DirectWrite
-description: В отличие от других API-интерфейсов, таких как GDI, GDI+ или WPF, Direct2D взаимодействует с другим API, DirectWrite, для управления и отрисовки текста. В этом разделе описываются преимущества и взаимодействие этих отдельных компонентов.
+description: в отличие от других интерфейсов api, таких как GDI, GDI+ или WPF, Direct2D взаимодействует с другим API, DirectWrite, для обработки и отрисовки текста. В этом разделе описываются преимущества и взаимодействие этих отдельных компонентов.
 ms.assetid: 1d5b8deb-34e2-433c-8de3-4ef66fb4e49d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c49a8f341377bcf78a9a99699a3bd4852411dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3dd95e7644b5f429d4dd91d2276213d5b7ffb92b058d8e530bfcf47fee77fea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104550798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698242"
 ---
 # <a name="text-rendering-with-direct2d-and-directwrite"></a>Отрисовка текста с помощью Direct2D и DirectWrite
 
-В отличие от других API-интерфейсов, таких как [GDI](/windows/desktop/gdi/windows-gdi), GDI+ или WPF, [Direct2D](./direct2d-portal.md) взаимодействует с другим API, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal), для управления и отрисовки текста. В этом разделе описываются преимущества и взаимодействие этих отдельных компонентов.
+в отличие от других интерфейсов api, таких как [GDI](/windows/desktop/gdi/windows-gdi), GDI+ или WPF, [Direct2D](./direct2d-portal.md) взаимодействует с другим API, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal), для обработки и отрисовки текста. В этом разделе описываются преимущества и взаимодействие этих отдельных компонентов.
 
 В этом разделе содержатся следующие подразделы.
 
@@ -31,13 +31,13 @@ ms.locfileid: "104550798"
 
 Перемещение приложения из одного графического API в другой может быть сложным или ненужным по различным причинам. Это может быть вызвано тем, что необходимо поддерживать подключаемые модули, которые по-прежнему используют старые интерфейсы, так как само приложение слишком велико для переноса на новый API в одном выпуске или потому, что более старый API достаточно хорошо работает для других частей приложения.
 
-Поскольку [Direct2D](./direct2d-portal.md) и [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) реализуются как отдельные компоненты, можно обновить всю систему двухмерной графики или просто текстовую часть. Например, можно обновить приложение, чтобы использовать DirectWrite для текста, но по-прежнему использовать [GDI](/windows/desktop/gdi/windows-gdi) или GDI+ для отрисовки.
+поскольку [Direct2D](./direct2d-portal.md) и [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) реализуются как отдельные компоненты, можно обновить всю систему двухмерной графики или просто текстовую часть. например, можно обновить приложение так, чтобы оно использовало DirectWrite для текста, но по-прежнему использовало [GDI](/windows/desktop/gdi/windows-gdi) или GDI+ для отрисовки.
 
 ## <a name="text-services-versus-text-rendering"></a>Текстовые службы и отрисовка текста
 
 По мере развития приложений требования к обработке текста были все еще сложны. В первую очередь, текст обычно ограничен статическим выходным ИНТЕРФЕЙСом, а текст был отображен в хорошо определенном поле, например на кнопке. По мере того, как приложения начали быть доступны на растущем количестве языков, этот подход стал труднее, так как ширина и высота переведенного текста могут значительно различаться в разных языках. Для адаптации приложения начали динамически размещать свой пользовательский интерфейс в зависимости от фактического размера отображаемого текста, а не наоборот.
 
-Чтобы помочь приложениям выполнить эту задачу, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) предоставляет интерфейс [**идвритетекстлайаут**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) . Этот API позволяет приложению указать часть текста со сложными характеристиками, такими как различные шрифты и размеры шрифтов, подчеркивания, зачеркивание, двунаправленный текст, эффекты, многоточие и даже встроенные символы, отличные от глифов (например, точечный значок или значок). Приложение может изменить различные характеристики текста по мере того, как оно последовательно определяет макет пользовательского интерфейса. [Пример Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples), который показан на следующем рисунке и в разделе [Учебник: Начало работы with DirectWrite](/windows/desktop/DirectWrite/getting-started-with-directwrite) , демонстрирует многие из этих эффектов.
+чтобы помочь приложениям выполнить эту задачу, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) предоставляет интерфейс [**идвритетекстлайаут**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) . Этот API позволяет приложению указать часть текста со сложными характеристиками, такими как различные шрифты и размеры шрифтов, подчеркивания, зачеркивание, двунаправленный текст, эффекты, многоточие и даже встроенные символы, отличные от глифов (например, точечный значок или значок). Приложение может изменить различные характеристики текста по мере того, как оно последовательно определяет макет пользовательского интерфейса. многие из этих эффектов показаны в [примере DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples), который показан на следующем рисунке и в разделе [учебник. начало работы с DirectWrite](/windows/desktop/DirectWrite/getting-started-with-directwrite) .
 
 ![снимок экрана примера "Hello World".](images/dwrite-hello-world.png)
 
@@ -49,20 +49,20 @@ ms.locfileid: "104550798"
 
 ![Макет текста и диаграмма API графики.](images/direct2d-directwrite1.png)
 
-Это разделение возможно, так как DirectWrite предоставляет интерфейс отрисовки ([**идвритетекстрендерер**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer)), который приложения могут реализовать для отображения текста с помощью любого нужного API. Приложение, реализующее метод обратного вызова [**идвритетекстрендерер::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) , вызывается DirectWrite при отрисовке макета текста. Этот метод отвечает за выполнение операций рисования или их передачу.
+это разделение возможно, так как DirectWrite предоставляет интерфейс отрисовки ([**идвритетекстрендерер**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer)), который приложения могут реализовать для отображения текста с помощью любого нужного API. приложение, реализующее метод обратного вызова [**идвритетекстрендерер::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) , вызывается DirectWrite при отрисовке макета текста. Этот метод отвечает за выполнение операций рисования или их передачу.
 
-Для рисования глифов [Direct2D](./direct2d-portal.md) предоставляет [**ID2D1RenderTarget::D равглифрун**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) для рисования на поверхности Direct2D, а [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) предоставляет [**идвритебитмапрендертаржет::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) для рисования на поверхность GDI, которую затем можно передать в окно с помощью GDI. **DrawGlyphRun** в Direct2D и DirectWrite имеют строго совместимые параметры метода [**DrawGlyphRun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) , реализуемого приложением в [**идвритетекстрендерер**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer).
+для рисования глифов [Direct2D](./direct2d-portal.md) предоставляет [**ID2D1RenderTarget::D равглифрун**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) для рисования на поверхности Direct2D и [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) предоставляет [**идвритебитмапрендертаржет::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) для рисования на поверхность gdi, которую затем можно передать в окно с помощью GDI. **DrawGlyphRun** в Direct2D и DirectWrite имеют строго совместимые параметры для метода [**DrawGlyphRun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) , реализуемого приложением в [**идвритетекстрендерер**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer).
 
-Следуя подобным разделениям, функции для работы с текстом (например, перечисление и управление шрифтами, анализ глифов и т. д.) обрабатываются [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) вместо [Direct2D](./direct2d-portal.md). Объекты DirectWrite принимаются непосредственно Direct2D. Чтобы помочь существующим приложениям GDI воспользоваться преимуществами DirectWrite, он предоставляет интерфейс метода [**идвритегдиинтероп**](/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop) с методами для выполнения следующих задач:
+следуя подобным разделениям, функции для работы с текстом (например, перечисление и управление шрифтами, анализ глифов и т. д.) обрабатываются [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) вместо [Direct2D](./direct2d-portal.md). DirectWrite объекты принимаются непосредственно Direct2D. чтобы помочь существующим приложениям GDI воспользоваться преимуществами DirectWrite, он предоставляет интерфейс метода [**идвритегдиинтероп**](/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop) с методами для выполнения следующих задач:
 
--   Создание шрифта [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) из логического шрифта [GDI](/windows/desktop/gdi/windows-gdi) ([**креатефонтфромлогфонт**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont)).
--   Преобразование из шрифта [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) в логический шрифт [GDI](/windows/desktop/gdi/windows-gdi) ([**конвертфонтфацетологфонт**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont)).
--   Извлеките шрифт [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) из выбранного в HDC. ([**Креатефонтфацефромхдк**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc))
--   Создание [**целевого объекта отрисовки точечного рисунка**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) в системной памяти ([**креатебитмапрендертаржет**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)).
+-   создание [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) шрифта из логического шрифта [GDI](/windows/desktop/gdi/windows-gdi) ([**креатефонтфромлогфонт**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont)).
+-   преобразование из [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) шрифта в логический шрифт [GDI](/windows/desktop/gdi/windows-gdi) ([**конвертфонтфацетологфонт**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont)).
+-   получение [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) шрифта, выбранного в параметре HDC. ([**Креатефонтфацефромхдк**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc))
+-   создайте [DirectWriteный](/windows/desktop/DirectWrite/direct-write-portal) [**растровый объект прорисовки**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) в системной памяти ([**креатебитмапрендертаржет**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)).
 
 ## <a name="glyphs-versus-text"></a>Глифы и текст
 
-Текст — это набор кодовых позиций Юникода (символов) с различными модификаторами стилистического начертания (шрифты, веса, подчеркивания, зачеркивание и т. д.), которые располагаются в прямоугольнике. Глиф, напротив, является определенным индексом в определенном файле шрифта. Глиф определяет набор кривых, которые могут быть визуализированы, но не имеют текстового значения. Между глифами и символами существует потенциальное сопоставление типа «многие ко многим». Последовательность глифов, которая поступает из одной и той же гарнитуры шрифта и располагается последовательно в базовом плане, называется [GlyphRun](/windows/desktop/DirectWrite/glyphs-and-glyph-runs). Как [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) , так и [Direct2D](./direct2d-portal.md) вызывают наиболее точную [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) API рендеринга глифов и имеют очень похожие подписи. В следующем примере из [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) в Direct2D:
+Текст — это набор кодовых позиций Юникода (символов) с различными модификаторами стилистического начертания (шрифты, веса, подчеркивания, зачеркивание и т. д.), которые располагаются в прямоугольнике. Глиф, напротив, является определенным индексом в определенном файле шрифта. Глиф определяет набор кривых, которые могут быть визуализированы, но не имеют текстового значения. Между глифами и символами существует потенциальное сопоставление типа «многие ко многим». Последовательность глифов, которая поступает из одной и той же гарнитуры шрифта и располагается последовательно в базовом плане, называется [GlyphRun](/windows/desktop/DirectWrite/glyphs-and-glyph-runs). как [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) , так и [Direct2D](./direct2d-portal.md) вызывают свои наиболее точные [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) API рендеринга глифов и имеют очень похожие подписи. В следующем примере из [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) в Direct2D:
 
 
 ```
@@ -93,7 +93,7 @@ STDMETHOD(DrawGlyphRun)(
 
 
 
-Версия [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) сохраняет исходный план, режим измерения и параметры запуска глифа и включает дополнительные параметры.
+версия [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) сохраняет исходный план, режим измерения и параметры запуска глифа и включает дополнительные параметры.
 
 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) также позволяет использовать пользовательский модуль визуализации для глифов путем реализации интерфейса [**идвритетекстрендерер**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer) . Этот интерфейс также имеет метод **DrawGlyphRun** , как показано в следующем примере кода.
 
@@ -122,7 +122,7 @@ STDMETHOD(DrawGlyphRun)(
 
 Таким образом, [Direct2D](./direct2d-portal.md) предоставляет API-интерфейсы, которые принимают текст вместо Glyphs: [**ID2D1RenderTarget::D равтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) and [**ID2D1RenderTarget::D равтекст**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)). Оба метода подготавливаются к поверхности Direct2D. Для подготовки к просмотру на поверхности GDI предоставляется [**идвритебитмапрендертаржет::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) . Однако для этого метода требуется, чтобы пользовательский модуль подготовки текста был реализован приложением. (Дополнительные сведения см. в разделе [Подготовка к поверхности GDI](/windows/desktop/DirectWrite/render-to-a-gdi-surface) .)
 
-Использование текста приложением обычно начинается с простого: пошаговое нажатие кнопки " **ОК** " или **"Отмена"** на кнопке с фиксированным макетом. Однако со временем оно станет более сложным, так как используется Международная связь и добавляются другие компоненты. В конечном итоге многие приложения должны использовать объекты макета текста [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) и реализовать модуль подготовки текста.
+Использование текста приложением обычно начинается с простого: пошаговое нажатие кнопки " **ОК** " или **"Отмена"** на кнопке с фиксированным макетом. Однако со временем оно станет более сложным, так как используется Международная связь и добавляются другие компоненты. в конечном итоге многие приложения должны использовать объекты макета текста [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) и реализовать модуль подготовки текста.
 
 Таким образом, [Direct2D](./direct2d-portal.md) предоставляет многоуровневые API, которые позволяют приложению запускаться просто и более сложным, не отвлекая и не отменяя рабочий код. Упрощенное представление показано на следующей схеме:
 
@@ -144,7 +144,7 @@ STDMETHOD(DrawGlyphRun)(
 
 ## <a name="glyph-rendering"></a>Рендеринг глифов
 
-Добавление [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) в СУЩЕСТВУЮЩЕЕ приложение GDI позволяет приложению использовать API [**идвритебитмапрендертаржет**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) для отрисовки глифов. Метод [**идвритебитмапрендертаржет::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) , предоставляемый DirectWrite, будет отображаться в виде сплошного цвета на контроллере памяти, не требуя дополнительных API, таких как [Direct2D](./direct2d-portal.md).
+добавление [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) в существующее приложение GDI позволяет приложению использовать API [**идвритебитмапрендертаржет**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) для визуализации глифов. метод [**идвритебитмапрендертаржет::D равглифрун**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) , который DirectWrite предоставляет, выводит сплошной цвет в контроллер памяти, не требуя дополнительных api, таких как [Direct2D](./direct2d-portal.md).
 
 Это позволяет приложению получать расширенные функции отрисовки текста, например следующие:
 
@@ -162,8 +162,8 @@ STDMETHOD(DrawGlyphRun)(
 
 ## <a name="conclusion"></a>Заключение
 
-В этом разделе объясняются различия и сходства между [Direct2D](./direct2d-portal.md) и [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) и архитектурным мотивацией для предоставления их в виде отдельных интерфейсов API для совместной разработки.
+в этом разделе объясняются различия и сходства между [Direct2D](./direct2d-portal.md) и [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) и архитектурным мотивацией для предоставления их в виде отдельных интерфейсов api для совместной разработки.
 
- 
+ 
 
- 
+ 

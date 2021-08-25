@@ -4,12 +4,12 @@ ms.assetid: 9e02c8fe-4fed-4b77-9b09-35850350859a
 title: Использование функций, не имеющих эквивалентов в Юникоде
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0850eea442b98c81918c7c6733da65f730936be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e00781db9bce98c335c4a9071b9643ef5fdcb3716478cbffe12a5b53b33e2313
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787884"
 ---
 # <a name="using-functions-that-have-no-unicode-equivalents"></a>Использование функций, не имеющих эквивалентов в Юникоде
 
@@ -60,7 +60,7 @@ int num = atoi(tstr);
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

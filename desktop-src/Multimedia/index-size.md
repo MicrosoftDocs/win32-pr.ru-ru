@@ -9,12 +9,12 @@ keywords:
 - макрос Капкаптуресетсетуп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86cd9e59c23376a7aa201673ef71743c8a192b60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd9742edb1aa73c7b77a56ef3ab2a29a5ea14a1e70351bec1ecb49507bbd0bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784684"
 ---
 # <a name="index-size"></a>Размер индексов
 
@@ -22,9 +22,9 @@ ms.locfileid: "103777120"
 
 Текущий размер индекса можно получить с помощью сообщения о [**\_ \_ \_ \_ настройке получения закрепления WM**](wm-cap-get-sequence-setup.md) (или макроса [**капкаптурежетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). Текущий размер индекса хранится в элементе **двиндекссизе** структуры [**каптурепармс**](/windows/win32/api/vfw/ns-vfw-captureparms) . Можно указать новый размер индекса в качестве значения параметра **двиндекссизе** , а затем отправить обновленную структуру **каптурепармс** в окно Capture с помощью сообщения [**\_ установки закрепления WM \_ Set \_ Sequence \_**](wm-cap-set-sequence-setup.md) (или макроса [**капкаптуресетсетуп**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). По умолчанию размер индекса составляет 34 952 записей (что позволяет использовать 32 000 кадров и пропорциональное количество звуковых буферов).
 
- 
+ 
 
- 
+ 
 
 
 

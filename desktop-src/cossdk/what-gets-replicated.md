@@ -4,12 +4,12 @@ ms.assetid: d1f0bc92-37bc-4de2-876a-e6b8b09da58d
 title: Что реплицируется
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd2739cb0ff615ddc38f30a7aa9b0a572be5e28a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d60b08151c14d0254bd856fe2ee5b7b83d85714d1b435a32817bf66cc11a1e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636654"
 ---
 # <a name="what-gets-replicated"></a>Что реплицируется
 
@@ -77,7 +77,7 @@ ms.locfileid: "105701221"
 
 Описание свойств коллекции **локалкомпутер** см. в разделе [**локалкомпутер**](localcomputer.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

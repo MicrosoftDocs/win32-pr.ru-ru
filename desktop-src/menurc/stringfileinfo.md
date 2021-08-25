@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f252077a5536194e635281d4b4178a457f7a82cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e130090c7281f6ef61ed0a3a82b822863bb5c12ff1194e26b07a70467db82cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720834"
 ---
 # <a name="stringfileinfo-structure"></a>Структура Стрингфилеинфо
 
@@ -110,9 +110,9 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта структура не является истинной структурой языка C, так как она содержит члены переменной длины. Эта структура была создана только для описания организации данных в ресурсе версии и не отображается ни в одном из файлов заголовков, поставляемых вместе с пакетом средств разработки программного обеспечения (SDK) для Windows.
+Эта структура не является истинной структурой языка C, так как она содержит члены переменной длины. эта структура была создана только для описания организации данных в ресурсе версии и не отображается ни в одном из файлов заголовков, поставляемых с Windows пакетом средств разработки программного обеспечения (SDK).
 
 **Дочерние элементы** структуры [**VS \_ versionInfo**](vs-versioninfo.md) могут содержать ноль или более структур **стрингфилеинфо** .
 
@@ -137,7 +137,7 @@ typedef struct {
 [**StringTable**](stringtable.md)
 </dt> <dt>
 
-[**Строка**](string-str.md)
+[**Строковый тип**](string-str.md)
 </dt> <dt>
 
 [**VS \_ versionInfo**](vs-versioninfo.md)

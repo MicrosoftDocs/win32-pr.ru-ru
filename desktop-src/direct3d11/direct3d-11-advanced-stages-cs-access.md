@@ -4,12 +4,12 @@ description: Существует несколько способов досту
 ms.assetid: 83950c4d-5df2-4ed1-9d8f-222a62791c18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e69ab7bffd22b2271c4d648c3a95ec8d98656973
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d5b66ae5ad0f3a49f51281d12ba5e3c2c52cd822aadd5097485b571533ae1a04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677174"
 ---
 # <a name="accessing-resources"></a>Доступ к ресурсам
 
@@ -18,7 +18,7 @@ ms.locfileid: "104997115"
 -   [Доступ по смещению в байтах](#access-by-byte-offset)
 -   [Доступ по индексу](#access-by-index)
 -   [Доступ по методу MIPS](#access-by-mips-method)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="access-by-byte-offset"></a>Доступ по смещению в байтах
 
@@ -29,7 +29,7 @@ ms.locfileid: "104997115"
 
 ## <a name="access-by-index"></a>Доступ по индексу
 
-Типы ресурсов могут использовать индекс для ссылки на определенное расположение в ресурсе. Рассмотрим следующий пример.
+Типы ресурсов могут использовать индекс для ссылки на определенное расположение в ресурсе. Рассмотрим следующий пример:
 
 
 ```
@@ -45,22 +45,22 @@ float4 myVar = myTexture[pos];
 > [!Note]  
 > Значение по умолчанию для доступа к текстуре таким образом — mipmap уровня 0 (самый подробный уровень).
 
- 
+ 
 
 > [!Note]  
 > Строка "float4 myVar = Митекстуре \[ POS \] ;" эквивалентна "float4 myVar = Митекстуре. Load (uint3 (POS, 0));". Доступ по индексу — это новый улучшенный синтаксис HLSL.
 
- 
+ 
 
 > [!Note]  
 > Компилятор в июне 2010 версии пакета SDK DirectX и более поздних версий позволяет индексировать все типы ресурсов, за исключением [буферов адресов байтов](direct3d-11-advanced-stages-cs-resources.md).
 
- 
+ 
 
 > [!Note]  
 > Компилятор Июнь 2010 и более поздних версий позволяет объявлять локальные переменные ресурсов. Вы можете назначить этим переменным глобально определенные ресурсы (например, *митекстуре*) и использовать их так же, как их глобальные аналоги.
 
- 
+ 
 
 ## <a name="access-by-mips-method"></a>Доступ по методу MIPS
 
@@ -77,13 +77,13 @@ float4 myColor = myTexture.mips[2][uint2(x,y)];
 
 Это усовершенствование из компилятора Июнь 2010 и более поздних версий. Выражение "Митекстуре. MIPS \[ 2 \] \[ uint2 (x, y) \] " эквивалентно значению "митекстуре. Load (uint3 (x, y, 2))".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Общие сведения о вычислении шейдера](direct3d-11-advanced-stages-compute-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - Функция МЦисендкомманд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1b5bfb7909b94bf8e71745adeeaeda61cae20ae
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd04187b948adf144a317a1d9eab80efb60bab8e7b05eaccffeb34722baa98a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104336908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785912"
 ---
 # <a name="communication-with-mci-devices"></a>Связь с устройствами MCI
 
@@ -34,6 +34,6 @@ ms.locfileid: "104336908"
 
 Наконец, можно получить имя файла, используемое устройством MCI, с помощью макроса [**мЦивнджетфиленаме**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetfilename) . Имя файла определяет содержимое, которое в настоящее время связано с окном МЦивнд. Приложение может использовать это имя файла при взаимодействии с устройством MCI с помощью **мЦисендкомманд** или **mciSendString**.
 
- 
+ 
 
- 
+ 

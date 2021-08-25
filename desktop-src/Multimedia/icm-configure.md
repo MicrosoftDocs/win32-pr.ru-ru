@@ -3,7 +3,7 @@ title: Сообщение ICM_CONFIGURE (VFW. h)
 description: Сообщение ICM \_ Configure уведомляет драйвер сжатия видео о необходимости отобразить диалоговое окно настройки или запрашивает драйвер сжатия видео, чтобы определить, имеется ли в нем диалоговое окно конфигурации.
 ms.assetid: 9760788e-fa66-44d7-bda6-aa9536143774
 keywords:
-- ICM_CONFIGURE сообщения Windows мультимедиа
+- сообщение ICM_CONFIGURE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9faae26fcf132abfa424b0db7a88670735d30727
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bc2d9176415c22a1b79a8dc08ee84db1c77fbd6665f89f615b38d3c60538d51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785004"
 ---
 # <a name="icm_configure-message"></a>\_Сообщение настройки ICM
 
@@ -49,11 +49,11 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК, если драйвер поддерживает это сообщение или ИЦЕРР \_ не поддерживается в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение отличается от сообщения конфигурации [**DRV \_**](drv-configure.md) , используемого для настройки оборудования. Диалоговое окно этого сообщения должно предоставить пользователю возможность задать и изменить внутреннее состояние, на которое ссылаются сообщения [**ICM \_**](icm-getstate.md) [**\_ SETSTATE и ICM**](icm-setstate.md) . Например, это диалоговое окно может изменять параметры пользователя, влияющие на уровень качества и другие аналогичные параметры сжатия.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

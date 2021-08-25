@@ -4,12 +4,12 @@ description: Классы, объекты и интерфейсы
 ms.assetid: 52e48402-32d5-46b0-8eb9-46432e59e36a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4892a805c87122ff7fb6db80feb52a7dcd7625
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 54008f316103a8a113e6702e4a4b1192bc0576f5a61fb28b38dbe2502bae881b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104488505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786184"
 ---
 # <a name="classes-objects-and-interfaces"></a>Классы, объекты и интерфейсы
 
@@ -17,9 +17,9 @@ ms.locfileid: "104488505"
 
 В OLE объект состоит из данных и методов, как это делается в C++. Однако объект OLE соответствует более строгому правилу. Данные являются строго внутренними. Объект предоставляет только интерфейсы. *Интерфейс* — это набор связанных методов для объекта. Каждый объект может поддерживать несколько интерфейсов. Все интерфейсы OLE поддерживают интерфейс [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) .
 
- 
+ 
 
- 
+ 
 
 
 

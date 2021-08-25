@@ -4,14 +4,14 @@ description: Директива \ elif помечает необязательн
 ms.assetid: 432b8543-7e1a-411a-8191-cc0f0e4a2e86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a548cff74151dadf4a83a1e7d91ceedeafe07e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e131d40648bcda75025087717798ceb2ad1262d680877512dbb85a451fc86e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720904"
 ---
-# <a name="elif"></a>\##elif
+# <a name="elif"></a>\#elif
 
 Директива **\# elif** помечает необязательное предложение блока условной компиляции, определенного директивой **\# ifdef**, **\# ifndef** или **\# If** . Директива управляет условной компиляцией файла ресурсов путем проверки указанного константного выражения. Если константное выражение не равно нулю, то параметр **\# elif** указывает компилятору продолжить обработку операторов вплоть до следующей директивы **\# endif**, **\# else** или **\# elif** , а затем перейти к инструкции после **\# endif**. Если константное выражение равно нулю, то параметр **\# elif** указывает компилятору перейти к следующей директиве **\# endif**, **\# else** или **\# elif** . В условном блоке можно использовать любое количество директив **\# elif** .
 
@@ -40,16 +40,16 @@ BITMAP 1 userbox.bmp
 #endif
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Директивы препроцессора](preprocessor-directives.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

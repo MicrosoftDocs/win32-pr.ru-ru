@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 85f4c85d1d608ff97147a935806b090162f5a78a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5edc8bafb00d5444f18b61e0600fb075b6a7367c315c2ab1cfe38f911e9a84d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654614"
 ---
 # <a name="ctl3dautosubclass-function"></a>Функция Ctl3dAutoSubclass
 
@@ -50,15 +50,15 @@ PUBLIC BOOL FAR PASCAL Ctl3dAutoSubclass(
 
 Возвращает **значение true** , если не существует одно из следующих условий. в этом случае возвращается **значение false**:
 
--   CTL3D сегодня работает под управлением Windows версии 3,0 или более ранней.
+-   ctl3d сегодня выполняется в Windows версии 3,0 или более ранней.
 -   CTL3D сегодня не имеет свободного места в таблицах для текущего приложения. CTL3D сегодня может обслуживать до 32 приложений одновременно.
 -   CTL3D сегодня не может установить свой обработчик CBT.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

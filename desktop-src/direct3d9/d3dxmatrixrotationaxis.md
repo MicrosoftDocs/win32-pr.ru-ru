@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 720ac4d3bdae2910cee7913b9c34316d72526688
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0ae47bf75a8f2a1f0b5e75ceadabff5a1ea7c6845617012a00a2bb115470e43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750214"
 ---
 # <a name="d3dxmatrixrotationaxis-function-d3dx9mathh"></a>Функция D3DXMatrixRotationAxis (D3dx9math. h)
 
@@ -79,13 +79,13 @@ D3DXMATRIX* D3DXMatrixRotationAxis(
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXMatrixRotationAxis** может использоваться в качестве параметра для другой функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

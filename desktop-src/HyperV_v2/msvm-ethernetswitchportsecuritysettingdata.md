@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8d37913f015a3ffbfaa751a7bbb10f79cea2fb39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 214a86513462e70025f0bcb6403faecc3b6663463dbef8c4cb9d1ea60a9c8f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681444"
 ---
 # <a name="msvm_ethernetswitchportsecuritysettingdata-class"></a>\_Класс мсвм есернетсвитчпортсекуритисеттингдата
 
@@ -77,7 +77,7 @@ class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatur
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ есернетсвитчпортсекуритисеттингдата** имеет следующие свойства.
 
@@ -131,7 +131,7 @@ class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatur
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -140,7 +140,7 @@ class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatur
 Тип доступа: только для чтения
 </dt> </dl>
 
-Краткое описание объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры безопасности порта коммутатора Ethernet".
+Краткое описание объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение «безопасность порта коммутатора Ethernet Параметры».
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatur
 Тип доступа: только для чтения
 </dt> </dl>
 
-Отображаемое имя объекта. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение "Параметры безопасности порта коммутатора Ethernet".
+Отображаемое имя объекта. это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)и всегда имеет значение «безопасность порта коммутатора Ethernet Параметры».
 
 </dd> <dt>
 
@@ -395,14 +395,14 @@ class Msvm_EthernetSwitchPortSecuritySettingData : Msvm_EthernetSwitchPortFeatur
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

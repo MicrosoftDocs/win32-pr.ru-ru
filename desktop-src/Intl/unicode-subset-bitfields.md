@@ -4,12 +4,12 @@ ms.assetid: f897dfc7-3e78-48dc-8d3d-6929e2f4ec4d
 title: Битовых полей подмножества Юникода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fced251b1bf8e04dd4c0d7d7cb0dca15c8bdfa6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06f0fa4791e62f397e62a99a78d41dbcdc67c55299a650b1bc78bea685205399
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787994"
 ---
 # <a name="unicode-subset-bitfields"></a>Битовых полей подмножества Юникода
 
@@ -900,17 +900,17 @@ ms.locfileid: "105650978"
 <tr class="even">
 <td>123</td>
 
-<td><strong>Windows 2000 и более поздние версии:</strong> Ход выполнения макета, горизонтальный справа налево</td>
+<td><strong>Windows 2000 и более поздних версий:</strong> Ход выполнения макета, горизонтальный справа налево</td>
 </tr>
 <tr class="odd">
 <td>124</td>
 
-<td><strong>Windows 2000 и более поздние версии:</strong> Ход выполнения макета, по вертикали перед горизонтальным</td>
+<td><strong>Windows 2000 и более поздних версий:</strong> Ход выполнения макета, по вертикали перед горизонтальным</td>
 </tr>
 <tr class="even">
 <td>125</td>
 
-<td><strong>Windows 2000 и более поздние версии:</strong> Ход выполнения макета, Вертикальный снизу вверх</td>
+<td><strong>Windows 2000 и более поздних версий:</strong> Ход выполнения макета, Вертикальный снизу вверх</td>
 </tr>
 <tr class="odd">
 <td>126-127</td>

@@ -3,7 +3,7 @@ title: Событие Кдромбурнмедиаеррор объекта Ак
 description: Событие Кдромбурнмедиаеррор возникает при возникновении ошибки при записи отдельного элемента мультимедиа на компакт-диск.
 ms.assetid: 0847a8a2-1fef-41a0-affb-9fa6bd10b925
 keywords:
-- Событие Кдромбурнмедиаеррор в проигрывателе Windows Media объекта Аксвиндовсмедиаплайер
+- событие кдромбурнмедиаеррор объекта аксвиндовсмедиаплайер проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d9fac8902fe8700171d2c909e8140c74c8cc3c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba161945edcda7409b842987ab97768c30a6e1f0ba011772cf7f3757d3f61c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765273"
 ---
 # <a name="cdromburnmediaerror-event-of-the-axwindowsmediaplayer-object"></a>Событие Кдромбурнмедиаеррор объекта Аксвиндовсмедиаплайер
 
@@ -54,23 +54,23 @@ Private Sub player_CdromBurnMediaError(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для захвата общих ошибок обрабатывайте Аксвмплиб. \_ \_Событие вмпокксевентс кдромбурнеррор.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                                         |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                                         |
 | Пространство имен<br/> | **аксвмплиб**<br/>                                                                                                    |
 | Сборка<br/>  | <dl> <dt>AxInterop.WMPLib.dll (AxInterop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

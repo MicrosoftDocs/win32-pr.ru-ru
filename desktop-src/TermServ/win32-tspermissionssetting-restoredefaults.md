@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 073a8f8267ab9e7f7cbd50f15f4f3f20594d2e39
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8ef81f4b3008f68129026a90d1b2e98e8c13c298537952175e116c9c8e02c4f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769454"
 ---
 # <a name="restoredefaults-method-of-the-win32_tspermissionssetting-class"></a>Метод Ресторедефаултс \_ класса Win32 тспермиссионссеттинг
 
@@ -45,17 +45,17 @@ uint32 RestoreDefaults();
 
 Возвращает успешное выполнение, в противном случае — сбой.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Разрешения по умолчанию:
 
 -   Учетные записи администратора, системы и удаленный рабочий стол помощника имеют все [разрешения службы удаленных рабочих столов](terminal-services-permissions.md).
--   Учетная запись пользователя удаленный рабочий стол имеет разрешение Вход, подключение, запрос сведений и отправка сообщения.
+-   учетная запись пользователя удаленный рабочий стол имеет разрешение вход, Подключение, сведения о запросе и отправка сообщения.
 -   Учетные записи локальной службы и сетевой службы содержат сведения о запросах и разрешение отправлять сообщение.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,13 +64,13 @@ uint32 RestoreDefaults();
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ терминалсервицес<br/>                                                |
-| Header<br/>                   | <dl> <dt>Netfw. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Netfw. h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>Тскфгвми. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

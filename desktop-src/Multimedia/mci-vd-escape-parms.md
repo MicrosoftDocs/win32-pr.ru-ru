@@ -3,7 +3,7 @@ title: Структура MCI_VD_ESCAPE_PARMS (МЦиапи. h)
 description: '\_ \_ Структура escape-пармс MCI VD \_ содержит команду, отправленную на устройство для \_ управляющей команды MCI для устройств видеодиск.'
 ms.assetid: 7c735943-b67a-4be5-82b5-6a058349623e
 keywords:
-- MCI_VD_ESCAPE_PARMS структура мультимедиа Windows
+- структура MCI_VD_ESCAPE_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80712cd693e2c7ebe290be6b9827c1e051dd86a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f9a0fef0e60168d4539756c741527d751fd726ab3d2472cdbaf3b080784e70c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783849"
 ---
 # <a name="mci_vd_escape_parms-structure"></a>\_ \_ Структура пармс escape-VD MCI \_
 
@@ -55,11 +55,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

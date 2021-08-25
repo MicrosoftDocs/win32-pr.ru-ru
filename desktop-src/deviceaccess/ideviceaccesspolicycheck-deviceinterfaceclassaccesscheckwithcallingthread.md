@@ -16,12 +16,12 @@ ms.topic: article
 ms.date: 02/11/2020
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 44eb44a83175cf8f735abfeb8cfec4de83f46bd2
-ms.sourcegitcommit: 01a4383738056cf3de4f45f36d98ef73d4dc694d
+ms.openlocfilehash: f279972c3b716f111fa37fc2dd01ef9184b2f804f07106f6b971358daf290c44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "105719101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635354"
 ---
 # <a name="ideviceaccesspolicycheckdeviceinterfaceclassaccesscheckwithcallingthread-method"></a>Идевицеакцессполицичекк: метод:D Евицеинтерфацеклассакцессчекквискаллингсреад
 
@@ -34,8 +34,8 @@ ms.locfileid: "105719101"
 
 ```C++
 HRESULT DeviceInterfaceClassAccessCheckWithCallingThread(
-  [in] PCWSTR pszDeviceInterfaceClassGuid,
-  [in] DWORD  dwClientThreadId
+  [in] PCWSTR pszDeviceInterfaceClassGuid,
+  [in] DWORD  dwClientThreadId
 );
 ```
 
@@ -59,4 +59,4 @@ HRESULT DeviceInterfaceClassAccessCheckWithCallingThread(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Если эта функция завершается с ошибкой, возвращается S_OK. В противном случае возвращается код ошибки HRESULT.
+Если эта функция завершается с ошибкой, возвращается S_OK. В противном случае будет возвращен код ошибки HRESULT.

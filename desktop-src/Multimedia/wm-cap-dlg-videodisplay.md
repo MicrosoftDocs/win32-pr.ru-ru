@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DLG_VIDEODISPLAY (VFW. h)
 description: В \_ сообщении о \_ видеодисплайе WM Cap \_ появляется диалоговое окно, в котором пользователь может задавать или настраивать выходные данные видео.
 ms.assetid: 151056f5-a9d1-4594-a8d7-32d4675ae3d6
 keywords:
-- WM_CAP_DLG_VIDEODISPLAY сообщения Windows мультимедиа
+- сообщение WM_CAP_DLG_VIDEODISPLAY Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 378d80923f9c0b7eda65fac83809e30626d53406
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16afffbf1d3450670b99d26303627771aa4bd3399a252cd16a68bc690012f541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803874"
 ---
 # <a name="wm_cap_dlg_videodisplay-message"></a>\_ \_ Сообщение видеодисплай с диалогом WM Cap \_
 
@@ -38,13 +38,13 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элементы управления в этом диалоговом окне не влияют на оцифрованные данные видео. они влияют только на вывод или повторное отображение видеосигнала.
 
 Диалоговое окно «экран видео» является уникальным для каждого драйвера записи. Некоторые драйверы записи могут не поддерживать диалоговое окно "отображение видео". Приложения могут определить, поддерживает ли драйвер записи это сообщение, проверив элемент **фхасдлгвидеодисплай** структуры [**капдриверкапс**](/windows/win32/api/vfw/ns-vfw-capdrivercaps) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,22 +4,22 @@ description: Поддержка аудио вывода
 ms.assetid: 28b7b1dc-0bf2-46db-b114-f93e460d958f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22deeed98eb8f9850690e19ac086aba42b78f80a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9cedb1426ef8995886029b682cc98bb3a27ae322169441e609c9e101a3270c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726194"
 ---
 # <a name="audio-output-support"></a>Поддержка аудио вывода
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Microsoft Agent позволяет использовать звуковые файлы для речевого вывода символа. Вы можете записывать звуковые файлы и использовать метод [**говорите**](speak-method.md) для воспроизведения этих данных. Службы анимации Microsoft Agent автоматически поддерживают пакет LIP — синхронизируется символ рот с использованием звуковых характеристик звукового файла. Кроме того, Microsoft Agent поддерживает специальный формат звуковых файлов, который включает дополнительные сведения о phoneme и разбиении слов для расширенной поддержки пакетов LIP-Sync. Этот специальный формат можно создать с помощью средства редактирования лингвистических сведений Майкрософт.
 
- 
+ 
 
- 
+ 
 
 
 

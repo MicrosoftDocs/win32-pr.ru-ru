@@ -8,12 +8,12 @@ keywords:
 - Макрос МЦивндопенинтерфаце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac4191f18409a1fb1f23ba3a2128b4aaed1b30e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb9e388e4b7998a932cb22545c05509277f1f7fa705a81fbde02d4d5fb35cdd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786272"
 ---
 # <a name="allowing-the-user-to-specify-devices-and-files"></a>Разрешение пользователю указывать устройства и файлы
 
@@ -32,11 +32,11 @@ ms.locfileid: "103776520"
 > [!Note]  
 > Перед связыванием нового файла или устройства с окном МЦивнд [**мЦивндопендиалог**](/windows/desktop/api/Vfw/nf-vfw-mciwndopendialog) и [**мЦивндопен**](/windows/desktop/api/Vfw/nf-vfw-mciwndopen) закрывают все устройства, которые в настоящее время связаны с окном. Приложению не нужно закрывать открытые устройства перед использованием этих макросов.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

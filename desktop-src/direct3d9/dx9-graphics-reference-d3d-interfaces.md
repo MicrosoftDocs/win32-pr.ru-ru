@@ -4,19 +4,19 @@ ms.assetid: f12facdc-5a3f-4f89-8ae3-a322ef3389b2
 title: Интерфейсы Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81d7da07a9389dad1629e517c728488cb5b6bf9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 85e48620ea697a52f9e5da599c4455b6c8051154394870dc4cc6bde37ef454eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791424"
 ---
 # <a name="direct3d-interfaces"></a>Интерфейсы Direct3D
 
 В этом разделе содержатся справочные сведения о интерфейсах модели COM, предоставляемых Microsoft Direct3D 9.
 
 > [!Note]  
-> Приложения для Магазина Windows Direct3D не могут использовать API Direct3D 9. Вместо этого используйте API Microsoft Direct3D 11 или более поздней версии с [уровнем функций](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x.
+> приложения для магазина Windows direct3d не могут использовать API direct3d 9. Вместо этого используйте API Microsoft Direct3D 11 или более поздней версии с [уровнем функций](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x.
 
  
 
@@ -55,7 +55,7 @@ ms.locfileid: "104536428"
 -   [**IDirect3DDevice9Video**](/windows/win32/api/d3d9/nn-d3d9-idirect3ddevice9video)
 -   [**IDirect3DSwapChain9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

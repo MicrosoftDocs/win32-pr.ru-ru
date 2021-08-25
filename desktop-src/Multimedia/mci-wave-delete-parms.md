@@ -3,7 +3,7 @@ title: Структура MCI_WAVE_DELETE_PARMS (МЦиапи. h)
 description: Структура пармс "Wave" в MCI \_ \_ \_ содержит сведения о положении для \_ команды MCI DELETE для устройств аудио-аудио.
 ms.assetid: 5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9
 keywords:
-- MCI_WAVE_DELETE_PARMS структура мультимедиа Windows
+- структура MCI_WAVE_DELETE_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 286c6443a229da266dae4992687c0e9ead5640bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11633a1b6b3876f0382669856cf5971767be325906b270c4d42417e8d3f9b51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783836"
 ---
 # <a name="mci_wave_delete_parms-structure"></a>\_ \_ Структура пармс удаления волны MCI \_
 
@@ -63,7 +63,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 

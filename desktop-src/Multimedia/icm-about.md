@@ -3,7 +3,7 @@ title: Сообщение ICM_ABOUT (VFW. h)
 description: ICM \_ о сообщении уведомляет драйвер сжатия видео о необходимости отобразить диалоговое окно о программе или запрашивает драйвер сжатия видео, чтобы определить, имеется ли в нем диалоговое окно About. Это сообщение можно отправить явно или с помощью макроса Икабаут.
 ms.assetid: 6eca69a3-0463-48e6-befb-5003b7515e7d
 keywords:
-- ICM_ABOUT сообщения Windows мультимедиа
+- сообщение ICM_ABOUT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e03e88993ba1e345a3ea32a9de7adb2d63abe9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bf47ff93ef1986d805b2cb37697fdf4d86876c5552fe6aeffb00ff172673018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785074"
 ---
 # <a name="icm_about-message"></a>ICM \_ о сообщении
 

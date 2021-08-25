@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 54a140a892b0e9144ef23fc0290ca3bb3747e90a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e9889be841df54f6ae18b7ac52d7117f780af37662c5a1d4f6c29af858350345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743864"
 ---
 # <a name="groupmemorybarrier-function"></a>Функция Граупмеморибарриер
 
@@ -38,7 +38,7 @@ void GroupMemoryBarrier(void);
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -48,11 +48,11 @@ void GroupMemoryBarrier(void);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -64,7 +64,7 @@ void GroupMemoryBarrier(void);
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -76,9 +76,9 @@ void GroupMemoryBarrier(void);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

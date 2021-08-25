@@ -4,12 +4,12 @@ ms.assetid: D70A54D6-DA9B-40E5-B130-0AA9C5363DF0
 title: Свойство CODECAPI_AVEncVideoMarkLTRFrame (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a377f30aec049bc5cbc850ea03ace9dcc640bd6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62f7bed0fd913dd17e06055ad259f4c8ed7037d90df2ecc53100e14ec4e505a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606434"
 ---
 # <a name="codecapi_avencvideomarkltrframe-property"></a>КОДЕКАПИ \_ авенквидеомарклтрфраме, свойство
 
@@ -23,7 +23,7 @@ ms.locfileid: "104539623"
 
 **КОДЕКАПИ \_ авенквидеомарклтрфраме**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Кодировщики H. 264/AVC:**
 
@@ -33,19 +33,19 @@ ms.locfileid: "104539623"
 
 Свойство КОДЕКАПИ \_ авенквидеомарклтрфраме является динамическим и может быть задано во время сеанса кодирования.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                   |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

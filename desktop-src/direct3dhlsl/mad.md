@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 208b1bbc87c430ca5a58a70fb3c86f9edae762bf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 52e0e4819e4c78f092ee99c78403ace5d0205037db3096dfe45865c2216d486d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104487165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788824"
 ---
 # <a name="mad-function"></a>mad - функция
 
@@ -28,9 +28,9 @@ ms.locfileid: "104487165"
 
 ``` syntax
 numeric mad(
-  in numeric mvalue,
-  in numeric avalue,
-  in numeric bvalue
+  in numeric mvalue,
+  in numeric avalue,
+  in numeric bvalue
 );
 ```
 
@@ -71,7 +71,7 @@ numeric mad(
 
 Результат *мвалуе* \* *значение*  +  *bValue*.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -81,11 +81,11 @@ numeric mad(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -97,7 +97,7 @@ numeric mad(
 
 
 
- 
+ 
 
 Авторы шейдеров могут использовать **Mad** встроенных для явного указания аппаратной инструкции **Mad** в скомпилированном выводе шейдера, что особенно полезно для шейдеров, помечающих результаты с помощью ключевого слова [точных](dx-graphics-hlsl-appendix-keywords.md) . Инструкция **Mad** может быть реализована на оборудовании как "плавкий уровень", что обеспечивает более высокую точность, чем реализация инструкции **mul** , за которой следует инструкция **Add** , или как **mul**  +  **Add**.
 
@@ -113,9 +113,9 @@ numeric mad(
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

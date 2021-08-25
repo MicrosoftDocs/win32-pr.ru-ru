@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00065f3781fd2ada420f67367e84e0863fe3b446
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b798ef8a5257afcb4e4ad653801bda0d21691057abad970d6e8158f592146e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673184"
 ---
 # <a name="ras_params_format-enumeration"></a>\_ \_ Перечисление форматов параметров RAS
 
-\[Перечисление **\_ \_ форматов параметров RAS** не поддерживается в Windows Vista.\]
+\[перечисление **\_ \_ форматов параметров RAS** не поддерживается в Windows Vista.\]
 
 Тип перечисления "Параметры **RAS \_ \_** " используется в структуре [**\_ параметров RAS**](ras-parameters-str.md) для указания типа данных, связанных с ключом, относящимся к носителю.
 
@@ -57,7 +57,7 @@ typedef enum RAS_PARAMS_FORMAT {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,11 +67,11 @@ typedef enum RAS_PARAMS_FORMAT {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
