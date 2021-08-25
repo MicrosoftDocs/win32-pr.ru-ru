@@ -4,12 +4,12 @@ ms.assetid: 5c8a67c0-8c2e-41bc-a9a6-600453d2a100
 title: Свойство MFPKEY_WMAENC_BUFFERLESSCBR (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db854c596c71169c89927cb3378269dac63bb5f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c2d92e55538a30f203f4c73998f795f0c9872b581bae042f5bb69fbb37f6921
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887544"
 ---
 # <a name="mfpkey_wmaenc_bufferlesscbr-property"></a>МФПКЭЙ \_ вмаенк \_ Буфферлесскбр, свойство
 
@@ -27,18 +27,18 @@ ms.locfileid: "105694570"
 
 **ВАРИАНТ \_ false**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

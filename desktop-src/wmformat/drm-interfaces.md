@@ -1,25 +1,25 @@
 ---
-title: Интерфейсы клиента DRM Microsoft Windows Media
-description: Интерфейсы клиента DRM Microsoft Windows Media
+title: интерфейсы клиента DRM Microsoft Windows Media
+description: интерфейсы клиента DRM Microsoft Windows Media
 ms.assetid: 27bbc33f-8102-4db2-bbc6-1a1da92bac80
 keywords:
-- Windows Media Format SDK, интерфейсы
+- Windows Пакет SDK для формата мультимедиа, интерфейсы
 - Управление цифровыми правами (DRM), интерфейсы
 - DRM (Управление цифровыми правами), интерфейсы
 - Расширенные API клиента DRM, интерфейсы
 - Расширенные API клиента, интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b4e259ef5b8ef410db072a7f942d139f682bc90
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 972224decdad339876e4f72c40cad5b3ba28de98446ff358fd36cb7f86bee0af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104414456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931104"
 ---
-# <a name="microsoft-windows-media-drm-client-interfaces"></a>Интерфейсы клиента DRM Microsoft Windows Media
+# <a name="microsoft-windows-media-drm-client-interfaces"></a>интерфейсы клиента DRM Microsoft Windows Media
 
-В следующей таблице описаны интерфейсы, поддерживаемые клиентскими API Windows Media DRM.
+в следующей таблице описаны интерфейсы, поддерживаемые клиентскими api-интерфейсами Windows Media DRM.
 
 
 
@@ -36,10 +36,10 @@ ms.locfileid: "104414456"
 | [**ивмдрмлиценсеманажемент**](iwmdrmlicensemanagement.md)                   | Включает операции управления для локального хранилища лицензий.                                                      |
 | [**ивмдрмлиценсеманажемент**](iwmdrmlicensemanagement.md)                   | Предоставляет дополнительные возможности управления для локального хранилища лицензий.                                             |
 | [**ивмдрмлиценсекуери**](iwmdrmlicensequery.md)                             | Позволяет приложениям запрашивать права и состояние лицензии для защищенного файла.                                |
-| [**ивмдрмнетрецеивер**](iwmdrmnetreceiver.md)                               | Предоставляет методы, необходимые для создания приложения-получателя DRM Microsoft Windows Media для сетевых устройств.          |
-| [**ивмдрмнеттрансмиттер**](iwmdrmnettransmitter.md)                         | Предоставляет методы, необходимые для создания приложения для передатчика сетевых устройств Microsoft Windows Media DRM.       |
+| [**ивмдрмнетрецеивер**](iwmdrmnetreceiver.md)                               | предоставляет методы, необходимые для создания приложения-получателя DRM Microsoft Windows Media для сетевых устройств.          |
+| [**ивмдрмнеттрансмиттер**](iwmdrmnettransmitter.md)                         | предоставляет методы, необходимые для создания приложения передатчика сетевых устройств (Microsoft Windows Media DRM).       |
 | [**ивмдрмнонсилентлиценсеакуиситион**](iwmdrmnonsilentlicenseaquisition.md) | Предоставляет методы, обеспечивающие получение лицензий с вмешательством пользователя.                                        |
-| [**ивмдрмпровидер**](iwmdrmprovider.md)                                     | Создает другие объекты расширенных API-интерфейсов клиента DRM Microsoft Windows Media.                              |
+| [**ивмдрмпровидер**](iwmdrmprovider.md)                                     | создает другие объекты расширенных api клиента DRM Microsoft Windows Media.                              |
 | [**ивмдрмсекурити**](iwmdrmsecurity.md)                                     | Управляет различными процессами, связанными с безопасностью, для клиентского компьютера и подсистемы DRM.                           |
 | [**ивмдрмсекурити**](iwmdrmsecurity.md)                                     | Управляет отзывом и обновлением компонентов.                                                                       |
 | [**ивмсекуребуффер**](iwmsecurebuffer.md)                                   | Включает шифрование и расшифровку буферов.                                                                   |
@@ -48,7 +48,7 @@ ms.locfileid: "104414456"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Сравнение на уровне компонентов цел�
 ms.assetid: 3A3225D1-9A3D-4928-9041-38CB6DE16E2A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8709ebedb054dffe227340f2ccd3de572d92ffce
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 15de044678d61adea52607166c622e6fb5dc20211499de4c11066e6688216910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982424"
 ---
 # <a name="ige-sm4---asm"></a>иже (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104133303"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Выполняет сравнение целых чисел (*src0*  >=  *src1*) для каждого компонента и записывает результат в *dest*.
 
@@ -62,9 +62,9 @@ ms.locfileid: "104133303"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -73,7 +73,7 @@ ms.locfileid: "104133303"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

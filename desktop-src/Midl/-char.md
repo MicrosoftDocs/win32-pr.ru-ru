@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2254db9d0f4efcd003362e4126c5c295ca532b2f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: feb459f7c2d6ff98a35e139cf07d9d95c4bed575e52b3d20258f570f07297943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963194"
 ---
 # <a name="char-switch"></a>/char, параметр
 
@@ -69,7 +69,7 @@ midl /char { signed | unsigned | ascii7 }
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По определению MIDL- [**символ**](char-idl.md) не подписан. "Малый" определяется с точки зрения **char** ( \# Определите маленький символ), а MIDL [**Small**](small.md) имеет подпись.
 
@@ -91,7 +91,7 @@ midl /char { signed | unsigned | ascii7 }
 
 
 
- 
+ 
 
 Параметр **/char** , подписанный, указывает, что символы типа char и Small-компилятора имеют подпись. Чтобы сопоставить значение языка MIDL по умолчанию для **char**, компилятор MIDL должен преобразовать все использование **char** , не сопровождаемое спецификацией знака, в **символ без знака**. [**Небольшой**](small.md) тип не изменяется, так как значение по умолчанию компилятора C-Compiler соответствует стандарту MIDL по умолчанию для **Small**.
 
@@ -111,7 +111,7 @@ midl /char { signed | unsigned | ascii7 }
 
 **MIDL/char ascii7 filename. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -127,9 +127,9 @@ midl /char { signed | unsigned | ascii7 }
 [**значительные**](small.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

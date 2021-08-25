@@ -4,12 +4,12 @@ ms.assetid: 82f207ff-cac4-4e9a-a9e6-ddb3f6c8b30a
 title: Инициализация контекста клиента
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be229a60a12e33ab0c2bbd3e52fc533cf29ed1bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da8a3c3191f323cf6ce35fda90f4bd75299dac67183986998cf21a80c0ee6995
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908044"
 ---
 # <a name="initializing-a-client-context"></a>Инициализация контекста клиента
 
@@ -93,7 +93,7 @@ BOOL AuthzInitFromToken(AUTHZ_CLIENT_CONTEXT_HANDLE *phClientContext)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

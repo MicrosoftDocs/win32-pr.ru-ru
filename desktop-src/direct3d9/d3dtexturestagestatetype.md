@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0530f428c9ebf89607fa89509c65ddd336fee293
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4879009f603a6943302f0595f37176ec5edf8e1a1d3212efedb66c923d775104
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894154"
 ---
 # <a name="d3dtexturestagestatetype-enumeration"></a>Перечисление D3DTEXTURESTAGESTATETYPE
 
@@ -166,14 +166,14 @@ typedef enum D3DTEXTURESTAGESTATETYPE {
 <span id="D3DTSS_COLORARG0"></span><span id="d3dtss_colorarg0"></span>**D3DTSS \_ COLORARG0**
 </dt> <dd>
 
-Параметры для третьего операнда цвета для операций триадик (умножение, Добавление и линейная интерполяция), идентифицируемые [D3DTA](d3dta.md). Этот параметр поддерживается, если имеются \_ возможности устройства D3DTEXOPCAPS мултиплядд или D3DTEXOPCAPS \_ лерп. Аргумент по умолчанию — D3DTA \_ Current. Укажите D3DTA \_ TEMP, чтобы выбрать временный цвет регистра для чтения или записи. D3DTA \_ TEMP поддерживается, если \_ имеется возможность устройства D3DPMISCCAPS тссаргтемп. По умолчанию регистр имеет значение (0,0, 0,0, 0,0, 0,0).
+Параметры для третьего операнда цвета для операций триадик (умножение, добавление и линейная интерполяция), идентифицируемые [D3DTA](d3dta.md). Этот параметр поддерживается, если имеются \_ возможности устройства D3DTEXOPCAPS мултиплядд или D3DTEXOPCAPS \_ лерп. Аргумент по умолчанию — D3DTA \_ Current. Укажите D3DTA \_ TEMP, чтобы выбрать временный цвет регистра для чтения или записи. D3DTA \_ TEMP поддерживается, если \_ имеется возможность устройства D3DPMISCCAPS тссаргтемп. По умолчанию регистр имеет значение (0,0, 0,0, 0,0, 0,0).
 
 </dd> <dt>
 
 <span id="D3DTSS_ALPHAARG0"></span><span id="d3dtss_alphaarg0"></span>**D3DTSS \_ ALPHAARG0**
 </dt> <dd>
 
-Параметры для операнда выбора альфа-канала для операций триадик (умножение, Добавление и линейная интерполяция), идентифицируемые [D3DTA](d3dta.md). Этот параметр поддерживается, если имеются \_ возможности устройства D3DTEXOPCAPS мултиплядд или D3DTEXOPCAPS \_ лерп. Аргумент по умолчанию — D3DTA \_ Current. Укажите D3DTA \_ TEMP, чтобы выбрать временный цвет регистра для чтения или записи. D3DTA \_ TEMP поддерживается, если \_ имеется возможность устройства D3DPMISCCAPS тссаргтемп. Аргумент по умолчанию — (0,0, 0,0, 0,0, 0,0).
+Параметры для операнда выбора альфа-канала для операций триадик (умножение, добавление и линейная интерполяция), идентифицируемые [D3DTA](d3dta.md). Этот параметр поддерживается, если имеются \_ возможности устройства D3DTEXOPCAPS мултиплядд или D3DTEXOPCAPS \_ лерп. Аргумент по умолчанию — D3DTA \_ Current. Укажите D3DTA \_ TEMP, чтобы выбрать временный цвет регистра для чтения или записи. D3DTA \_ TEMP поддерживается, если \_ имеется возможность устройства D3DPMISCCAPS тссаргтемп. Аргумент по умолчанию — (0,0, 0,0, 0,0, 0,0).
 
 </dd> <dt>
 
@@ -198,23 +198,23 @@ typedef enum D3DTEXTURESTAGESTATETYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Члены этого перечислимого типа используются с методами [**IDirect3DDevice9:: жеттекстурестажестате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-gettexturestagestate) и [**IDirect3DDevice9:: сеттекстурестажестате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) для получения и задания значений состояния текстуры.
 
 Допустимый диапазон значений для \_ \_ коэффициентов матрицы D3DTSS BUMPENVMAT00, D3DTSS BUMPENVMAT01, D3DTSS \_ BUMPENVMAT10 и D3DTSS BUMPENVMAT11, которые \_ больше или равны-8,0 и меньше 8,0. Этот диапазон, выраженный в математической нотации, — (-8.0, 8.0).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

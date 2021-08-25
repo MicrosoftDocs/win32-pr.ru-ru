@@ -4,12 +4,12 @@ description: В этом разделе описываются различия 
 ms.assetid: 9e51bda1-84f8-4144-b678-73c821c5b5a8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fed62c6b8de6c06f2fa72a0053363fb76060e69
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5f50b81bd768eed2d7cc8bde2148463c2d78428a0eeea884b5c8baad4590e3b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858194"
 ---
 # <a name="10level9-reference"></a>Справочник по 10Level9
 
@@ -29,7 +29,7 @@ ms.locfileid: "104414237"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

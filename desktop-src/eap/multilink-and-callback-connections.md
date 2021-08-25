@@ -4,12 +4,12 @@ description: Для первой ссылки в многоканальном с
 ms.assetid: a6aee73b-43b2-43b4-a6f1-ac7b293c44ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af39ebfa54469e2f44c44c800cebbfb176b33cad
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: dfc7493550863a755a87668c96dbe0ce600d524a111b7e7300b97c307f4d30c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "105710221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852324"
 ---
 # <a name="multilink-and-callback-connections"></a>Многоканальные соединения и подключения обратного вызова
 
@@ -21,9 +21,9 @@ ms.locfileid: "105710221"
 
 Протокол проверки подлинности может использовать [интерактивный пользовательский интерфейс](interactive-user-interface.md) для получения данных для определенной ссылки многоканального подключения. В этом случае служба проверки подлинности делает полученные данные доступными для протокола проверки подлинности при последующих ссылках. Однако эти данные никогда не сохраняются в постоянном хранилище.
 
- 
+ 
 
- 
+ 
 
 
 

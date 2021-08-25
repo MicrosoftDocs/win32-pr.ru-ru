@@ -4,25 +4,25 @@ ms.assetid: e2e3e95b-41b2-45fb-b495-0e700220e5f5
 title: Шаг 6. Управление воспроизведением
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfdfecea3484ac6b06cc44e23fd3bd1b3235324e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eef0aa18f671c994837ba195cddba38976c3ffba990eb95748d2bede09141317
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887264"
 ---
 # <a name="step-6-control-playback"></a>Шаг 6. Управление воспроизведением
 
 В этом разделе приведен шаг 6 руководства по [воспроизведению мультимедийных файлов с помощью Media Foundation](how-to-play-unprotected-media-files.md). Полный код показан в разделе [Пример воспроизведения сеанса мультимедиа](media-session-playback-example.md).
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Запуск воспроизведения](#starting-playback)
 -   [Приостановка воспроизведения](#pausing-playback)
 -   [Остановка воспроизведения](#stopping-playback)
 -   [Перерисовка окна видео](#repainting-the-video-window)
 -   [Изменение размера окна видео](#resizing-the-video-window)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="starting-playback"></a>Запуск воспроизведения
 
@@ -222,7 +222,7 @@ HRESULT CPlayer::ResizeVideo(WORD width, WORD height)
 
 Далее: [Шаг 7. Завершение сеанса мультимедиа](step-7--shut-down-the-media-session.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

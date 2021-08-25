@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d7c9847f363d9bc6d1743da6189d2c4290c00dd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c3bce9626b67b989ca9ec323f2c1150599696c6bf203a09a1b77aabb88e6f6b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867934"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-remote-desktop-services"></a>Метод PauseService класса Win32_Service (службы удаленных рабочих столов)
 
@@ -182,7 +182,7 @@ uint32 PauseService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -238,7 +238,7 @@ uint32 PauseService();
 
 [Службы Pause, работающие под заданной учетной записью](https://Gallery.TechNet.Microsoft.Com/12a256dd-39da-4690-b3f0-f0adccaf25f1) , приостанавливают все службы, работающие под гипотетической учетной записью службы нетсвк.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

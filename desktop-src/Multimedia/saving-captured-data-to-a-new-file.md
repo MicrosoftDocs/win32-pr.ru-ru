@@ -7,12 +7,12 @@ keywords:
 - макрос Капфилесавеас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce1966b8cf1e189038e9ee427a868b84a1fb1b50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f552f6f2f94ed1a7c7f7f8cae20b20c6fa4b5aa27e8105ab3f5dc33e60b7aff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892914"
 ---
 # <a name="saving-captured-data-to-a-new-file"></a>Сохранение захваченных данных в новый файл
 
@@ -20,9 +20,9 @@ ms.locfileid: "103775986"
 
 Как правило, файл записи предварительно выделяется для самого крупного сегмента записи, и только его часть может использоваться для сбора данных. В этом сообщении копируется только часть файла записи, содержащая данные записи.
 
- 
+ 
 
- 
+ 
 
 
 

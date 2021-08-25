@@ -4,16 +4,16 @@ description: иажентаудиуутпутпропертиес
 ms.assetid: 568786ca-9b9b-425c-95f5-4377516dbe79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6729eb36cff8c04491dfc96fd73fb2b779e01fd2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65fa3d57d15bdb619ff4c44fedead6b1288f8101ca1ef90e0391e30faf364c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962644"
 ---
 # <a name="iagentaudiooutputproperties"></a>иажентаудиуутпутпропертиес
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Иажентаудиуутпутпропертиес предоставляет доступ к свойствам вывода звука, поддерживаемым сервером Microsoft Agent. Эти функции также доступны из Иажентаудиуутпутпропертиес. Свойства доступны только для чтения, но пользователь может изменить их на странице свойств Microsoft Agent.
 
@@ -28,11 +28,11 @@ ms.locfileid: "104410944"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

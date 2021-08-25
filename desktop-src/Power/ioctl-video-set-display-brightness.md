@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: a0c679f352012eea66b80335bc3ad1547501dd92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec4bb5200378f9f530913f26d33bfbd485d81ae184c7b478a51c90bca18d95da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961854"
 ---
 # <a name="ioctl_video_set_display_brightness-control-code"></a>\_ \_ \_ \_ Код управления яркостью дисплея ioctl Video Set
 
@@ -120,7 +120,7 @@ BOOL DeviceIoControl(
 
 Значения, указанные в элементах **укакбригхтнесс** и **Укдкбригхтнесс** структуры [**\_ яркости экрана**](/previous-versions/windows/desktop/legacy/aa372686(v=vs.85)) , должны быть ранее возвращены с помощью [**\_ запроса видео \_ , \_ поддерживаемого \_ функцией ioctl**](ioctl-video-query-supported-brightness.md). Например, если поддерживаются значения 10, 20, 30, 40, 50, 60, 70, 80, 90 и 100, то при использовании значения 33 будет выдаваться ошибка.
 
-Файл заголовка, используемый для создания приложений, включающих эту функцию, Нтддвдео. h, входит в состав пакета средств разработки драйверов Microsoft Windows (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+файл заголовка, используемый для создания приложений, включающих эту функцию, нтддвдео. h, входит в комплект sdk для Microsoft Windows Driver Kit (DDK). Сведения о получении DDK см. в разделе [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Кроме того, этот код элемента управления можно определить следующим образом:
 
@@ -129,19 +129,19 @@ BOOL DeviceIoControl(
   CTL_CODE(FILE_DEVICE_VIDEO, 0x127, METHOD_BUFFERED, FILE_ANY_ACCESS)
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 1 (SP1), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Нтддвдео. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

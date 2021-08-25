@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 3cbde0e8a64fa931ce50d2277d33b5fd5c27ee68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70185a7a48b7dc195727991fb0dcc35f4909451fa0e4da5f4100e8385adebc2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879374"
 ---
 # <a name="capicom_certificates_save_as_type-enumeration"></a>CAPICOM \_ Certificates \_ Сохранить \_ как \_ Перечисление типов
 
@@ -36,18 +36,18 @@ ms.locfileid: "105668524"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Тип ПЕРЕЧИСЛЕНИЯ CAPICOM Certificates \_ Save \_ As \_ Type используется методом [**Certificates. Save**](certificates-save.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Распространяемые компоненты<br/> | CAPICOM 2,0 или более поздней версии на Windows Server 2003 и Windows XP<br/>                |
-| Header<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
+| Заголовок<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 
 

@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 611f92e21dad83121b4e4a6226838ac9ebce2d7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0453bae6f966ee358d9c62e360cb3184153dd7fe20ce586f707ae4ce55f6961
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840804"
 ---
 # <a name="apijetgetls-method"></a>API. Жетжетлс, метод
 
-Позволяет приложению извлекать контекстный маркер, известный как локальное хранилище, связанное с курсором, или с таблицей, связанной с этим курсором. Этот обработчик контекста должен быть ранее задан с помощью [жетсетлс (JET_SESID, JET_TABLEID, JET_LS, лсгрбит)](./api.jetsetls-method.md). Жетжетлс также можно использовать для одновременной выборки текущего контекста для курсора или таблицы и сброса дескриптора контекста.
+позволяет приложению извлекать контекстный маркер, известный как локальный служба хранилища, связанный с курсором или с таблицей, связанной с этим курсором. Этот обработчик контекста должен быть ранее задан с помощью [жетсетлс (JET_SESID, JET_TABLEID, JET_LS, лсгрбит)](./api.jetsetls-method.md). Жетжетлс также можно использовать для одновременной выборки текущего контекста для курсора или таблицы и сброса дескриптора контекста.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)
@@ -93,7 +93,7 @@ public static void JetGetLS(
     
     Получение параметров.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

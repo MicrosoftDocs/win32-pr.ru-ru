@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: e17780dc2f39dc3041e690de1ef7b5728c8743e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aa5d516dd099caeba5699a8328fa52add64f14ea970e6ccec28ea8bfbe87271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947674"
 ---
 # <a name="printer_info_8-structure"></a>\_Сведения о принтере \_ 8 структура
 
@@ -48,11 +48,11 @@ typedef struct _PRINTER_INFO_8 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Глобальные значения по умолчанию задаются администратором принтера, который может использоваться любым пользователем. В отличие от этого значения по умолчанию для каждого пользователя влияют на конкретного пользователя или других пользователей, использующих этот профиль. Для параметров по умолчанию для каждого пользователя [**Используйте \_ сведения \_ о принтере 9**](printer-info-9.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,12 +60,12 @@ typedef struct _PRINTER_INFO_8 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ принтере 8W** (Юникод) и **\_ \_ \_ 8A info** (ANSI)<br/>                           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

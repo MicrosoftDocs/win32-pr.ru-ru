@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfebe1330b5c37758dc3d9486633510fdce62049
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7caecfa4ba9e8b00aa964d48cf573d84d3e7db65faf2e53d26d66ea4cfe492c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964344"
 ---
 # <a name="wm_rbuttondown-message"></a>\_Сообщение РБУТТОНДОВН WM
 
@@ -74,7 +74,7 @@ ms.locfileid: "105710513"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить горизонтальное и вертикальное расположение, используйте следующий код:
 

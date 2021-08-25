@@ -4,16 +4,16 @@ description: Иажентчарактер имя
 ms.assetid: 6c013a18-8c56-42a8-8723-31d83b3230cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33679577cfb5179a799ee61207f7ecd9b2be8a21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 107e6fdb6be3e79dee14177d9f56ee7d258f3455d578641e7d3a3b3cf044c741
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962281"
 ---
 # <a name="iagentcharactergetname"></a>Иажентчарактер:: Name
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetName(
@@ -43,9 +43,9 @@ HRESULT GetName(
 [**Иажентчарактер:: SetName**](iagentcharacter--setname.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

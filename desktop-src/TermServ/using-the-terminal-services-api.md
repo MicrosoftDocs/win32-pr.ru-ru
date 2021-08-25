@@ -7,12 +7,12 @@ keywords:
 - службы удаленных рабочих столов службы удаленных рабочих столов с помощью API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b8c240ce8a86b4a333245032294cbd59809f2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0a1910521e9592310e68e4adaee5451ed2808dab32d4559789dacf7ba2db9fcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868714"
 ---
 # <a name="using-the-remote-desktop-services-api"></a>Использование API службы удаленных рабочих столов
 
@@ -25,16 +25,16 @@ ms.locfileid: "104330395"
 
 Если приложение работает в среде, которая не является средой службы удаленных рабочих столов, но вы хотите использовать службы удаленных рабочих столов API для предоставления дополнительных функциональных возможностей в среде службы удаленных рабочих столов, см. раздел [связывание во время выполнения с Wtsapi32.dll](run-time-linking-to-wtsapi32-dll.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по службы удаленных рабочих столов API](terminal-services-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

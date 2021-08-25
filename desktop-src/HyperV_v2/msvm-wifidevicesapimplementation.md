@@ -83,7 +83,7 @@ class Msvm_WiFiDeviceSAPImplementation : CIM_DeviceSAPImplementation
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

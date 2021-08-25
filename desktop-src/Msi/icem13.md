@@ -4,18 +4,18 @@ ms.assetid: 1281ee21-a154-4275-a9e6-6e92fff548ed
 title: ICEM13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3286906cf162f24dce7105835544c3a387993ac6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 678b89e14cb699bb6207be5c2e14473de2a743494b47ff5ae5e0ccda2a9cc9cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894284"
 ---
 # <a name="icem13"></a>ICEM13
 
-ICEM13 проверяет, что модуль слияния не содержит сборок политики издателя и конфигурации. Сборки политики издателя и конфигурации не должны включаться в модули слияния, предназначенные для распространения, так как это может повлиять на другие приложения на компьютере пользователя.
+ICEM13 проверяет, что модуль слияния не содержит сборок политики издателя и конфигурации. Publisher сборки политики и конфигурации не должны включаться в модули слияния, предназначенные для распространения, так как это может повлиять на другие приложения на компьютере пользователя.
 
-Этот ИЦЕМ доступен в файле Мержемод. CUB, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. Дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+этот ицем доступен в файле мержемод. cub, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="result"></a>Результат
 
@@ -29,9 +29,9 @@ ICEM13 отправляет следующее предупреждающее с
 This entry Component_=`[1]` in MsiAssembly Table is a Policy/Configuration Assembly. A Publisher Policy/Configuration assembly should not be redistributed with a merge module. Policy/Configuration may impact other applications and should only be installed with products.
 ```
 
-Можно установить политику издателя и сборки конфигурации с помощью установщик Windows, поэтому не рекомендуется распространять эти сборки в модулях слияния.
+можно установить политику издателя и сборки конфигурации с помощью установщик Windows, поэтому не рекомендуется распространять эти сборки в модулях слияния.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

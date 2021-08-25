@@ -4,12 +4,12 @@ description: Выполняет фильтр сравнения. Эта инст
 ms.assetid: 5F11F091-AF2F-4293-88C7-824F11FE01E4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24ec2889dd3ea4c86af51c8e36bf2e302c6ad4dd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1b2866bdfddf91f9bd6ab1bbccbc9d76de071065b3cf28c1093cb1fdb041f3db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981504"
 ---
 # <a name="sample_c_lz-sm4---asm"></a>Пример \_ c \_ LZ (SM4-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104412171"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 «LZ» означает нулевой уровень. Поскольку производные не пропускаются, эта инструкция доступна в шейдерах, отличных от шейдера пикселей.
 
@@ -68,9 +68,9 @@ ms.locfileid: "104412171"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -79,7 +79,7 @@ ms.locfileid: "104412171"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

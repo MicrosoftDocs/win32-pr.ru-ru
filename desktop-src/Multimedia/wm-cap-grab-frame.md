@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_GRAB_FRAME (VFW. h)
 description: Сообщение о \_ \_ кадре захвата WM Cap \_ извлекает и отображает один кадр из драйвера записи. После записи перекрытие и предварительный просмотр отключены. Это сообщение можно отправить явно или с помощью макроса Капграбфраме.
 ms.assetid: 91d58c1c-53b9-4813-88c2-7a1acf641d96
 keywords:
-- WM_CAP_GRAB_FRAME сообщения Windows мультимедиа
+- сообщение WM_CAP_GRAB_FRAME Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2ffd91ce767ad86ddac002bb216420b604883d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cdccfc9df0f3abac7febfa78029b4ecb351ec3044c618dc4c811e91b433f0f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892044"
 ---
 # <a name="wm_cap_grab_frame-message"></a>\_Сообщение о \_ блоке захвата крепления WM \_
 
@@ -38,11 +38,11 @@ lParam = (LPARAM)0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об установке функций обратного вызова см. в разделе [**\_ \_ \_ \_ ошибка обратного вызова Set крепления WM**](wm-cap-set-callback-error.md) , а также сообщения [**\_ \_ \_ \_ кадра обратного вызова Set крепления WM**](wm-cap-set-callback-frame.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ lParam = (LPARAM)0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
