@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 978cfb62458c2cbcecba8c8d7ba8d9e7df201d2a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a7b7460dcbadc82a0bb8acb647f2ffd03edea711610bd5827c7aff057babf1ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911883"
 ---
 # <a name="netserviceenum"></a>нетсервицеенум
 
 Функция **нетсервицеенум** устарела. Он включен для обеспечения совместимости с 16-разрядными версиями Windows. Другие приложения должны использовать [функции службы](/windows/desktop/Services/service-functions).
 
- 
+ 
 
- 
+ 

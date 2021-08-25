@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 08735a0bac2cc5aa8f5bb61461f10097435ad9c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0118299bd328d09d77ccbb8d5258b25c0ac57bdc21fc7a47f642374e8be12357
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908754"
 ---
 # <a name="createpospassthru-function"></a>Функция Креатепоспасссру
 
@@ -77,24 +77,24 @@ STDAPI CreatePosPassThru(
 
 \_При успешном выполнении возвращает значение ОК. В противном случае возвращает значение **HRESULT** , указывающее причину ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод использует интерфейс [**исикингпасссру**](/windows/desktop/api/Strmif/nn-strmif-iseekingpassthru) для создания объекта. Объект загружается динамически из Quartz.dll.
 
 Если функция выполнена успешно, возвращенный интерфейс **IUnknown** имеет необработанный счетчик ссылок. Вызывающий объект должен освободить интерфейс.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

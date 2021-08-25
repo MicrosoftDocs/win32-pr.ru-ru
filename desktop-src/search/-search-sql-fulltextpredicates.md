@@ -1,19 +1,19 @@
 ---
-description: Язык запросов Microsoft Windows Search поддерживает два предиката полнотекстового поиска.
+description: язык запросов Microsoft Windows Search поддерживает два предиката полнотекстового поиска.
 ms.assetid: c753dddb-57ed-40e6-8e49-ba5b6425fdd5
 title: Предикаты Full-Text
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db6a80908a6b7b206a427701a5e276a8ce916e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 916ed56873d2cb870be196aef0183585d3c228c76ff8f3883d7ee4df13fcca83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885204"
 ---
 # <a name="full-text-predicates"></a>Предикаты Full-Text
 
-Язык запросов Microsoft Windows Search поддерживает два предиката полнотекстового поиска. Предикат CONTAINS выполняет сравнения столбцов, содержащих текст. Предложение CONTAINS может выполнять сопоставление с отдельными словами или фразами на основе сходства условий поиска. В сравнении предикат FREETEXT настраивается так, чтобы соответствовать значению фраз поиска в текстовых столбцах.
+язык запросов Microsoft Windows Search поддерживает два предиката полнотекстового поиска. Предикат CONTAINS выполняет сравнения столбцов, содержащих текст. Предложение CONTAINS может выполнять сопоставление с отдельными словами или фразами на основе сходства условий поиска. В сравнении предикат FREETEXT настраивается так, чтобы соответствовать значению фраз поиска в текстовых столбцах.
 
 В этом разделе рассматриваются следующие вопросы.
 

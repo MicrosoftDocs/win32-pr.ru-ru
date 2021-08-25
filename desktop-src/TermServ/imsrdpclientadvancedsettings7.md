@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IMsRdpClientAdvancedSettings7
-description: Предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
+description: предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
 ms.assetid: 2d6848b4-2ce6-4624-b46e-65e7daf2d0f1
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eed28c5d26ecf280507ce3cce835a6d0a71fc3bb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5df2990a257d8f7fa544c24e33dba6a2422d2db8bea878f2487ca131e5bd607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866564"
 ---
 # <a name="imsrdpclientadvancedsettings7-interface"></a>Интерфейс IMsRdpClientAdvancedSettings7
 
-Предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
+предоставляет методы и свойства, управляющие дополнительными параметрами элемента управления ActiveX.
 
 Чтобы получить экземпляр этого интерфейса, используйте свойство [**имстскакс:: адванцедсеттингс**](imstscax-advancedsettings.md) для получения указателя на интерфейс [**имстскадванцедсеттингс**](imstscadvancedsettings-interface.md) . Затем вызовите [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) в указателе **имстскадванцедсеттингс** и передайте **IID \_ IMsRdpClientAdvancedSettings7** в **QueryInterface**.
 
@@ -35,7 +35,7 @@ ms.locfileid: "105672547"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClientAdvancedSettings7** имеет следующие свойства.
 
@@ -55,7 +55,7 @@ ms.locfileid: "105672547"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -69,7 +69,7 @@ ms.locfileid: "105672547"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

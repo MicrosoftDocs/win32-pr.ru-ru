@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 93c3fd47cba41ef54ebf4f53cd1c2b22cdde5c6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d4ff0af51ddde0c6a42a50e28f8abf1c695b762da5d2e0a7578a68efa7c6f1c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945844"
 ---
 # <a name="jet_columnbaseszbasecolumnname-property"></a>Свойство JET_COLUMNBASE. Сзбасеколумннаме
 
@@ -62,7 +62,7 @@ public string szBaseColumnName { get; internal set; }
 
 Тип: [System. String](/dotnet/api/system.string)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

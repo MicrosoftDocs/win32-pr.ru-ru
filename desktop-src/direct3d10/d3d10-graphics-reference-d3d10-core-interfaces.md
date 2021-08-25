@@ -4,12 +4,12 @@ ms.assetid: f5ad2db8-da90-4bcd-83a7-7466723a9c3c
 title: Базовые интерфейсы Direct3D 10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c241def4bb0ab1064d924a7457c52e7197bc9199
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3810f7d6de2562ad3c712fab4baa22bf75a252f752c8611eca84043913c2917a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895244"
 ---
 # <a name="direct3d-10-core-interfaces"></a>Базовые интерфейсы Direct3D 10
 
@@ -59,7 +59,7 @@ Direct3D также импементс интерфейсы для:
 -   [Шейдеры](d3d10-graphics-reference-d3d10-shader-interfaces.md)
 -   [Эффекты](d3d10-graphics-reference-effect-interfaces.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

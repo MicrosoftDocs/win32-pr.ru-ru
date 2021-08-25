@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f6ea42a83d39c328db88e992555e5d593cc778b6
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: c885f330538177cddca40c47cf6a5ad910030c6c5f4c3429ca7bd92c3b437b20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105689538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912695"
 ---
 # <a name="security-msm-element-lan_policy-for-wlan"></a>Элемент Security (MSM) (LAN_policy) для WLAN
 
@@ -244,7 +244,7 @@ ms.locfileid: "105689538"
 | [**идентификаци**](wlan-profileschema-authentication-authencryption-element.md) |                                                                   | Указывает пару для проверки подлинности и шифрования, которая будет использоваться для этого профиля.<br/>                                                                                                                                                                                                                                                                                                                                     |
 | [**ключ**](wlan-profileschema-encryption-authencryption-element.md)         |                                                                   | Задает шифрование данных, используемое для подключения к беспроводной локальной сети.<br/>                                                                                                                                                                                                                                                                                                                                                   |
 | [**keyIndex**](wlan-profileschema-keyindex-security-element.md)                   |                                                                   | Указывает, какой индекс ключа должен использоваться для шифрования беспроводного трафика. Используется, только если параметр keyType имеет значение Нетворккэй.<br/>                                                                                                                                                                                                                                                                                          |
-| [**keyMaterial**](wlan-profileschema-keymaterial-sharedkey-element.md)            | [string](/dotnet/api/system.string)   | Содержит ключ сети или парольную фразу.<br/>                                                                                                                                                                                                                                                                                                                                                                           |
+| [**keyMaterial**](wlan-profileschema-keymaterial-sharedkey-element.md)            | [строка](/dotnet/api/system.string)   | Содержит ключ сети или парольную фразу.<br/>                                                                                                                                                                                                                                                                                                                                                                           |
 | [**keyType**](wlan-profileschema-keytype-sharedkey-element.md)                    |                                                                   | Тип ключа.<br/>                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [**PMKCacheMode**](wlan-profileschema-pmkcachemode-security-element.md)           |                                                                   | Указывает, будет ли использоваться кэширование PMK. Этот элемент допустим только для сетей, определенных WPA2.<br/> **Windows XP с SP3 и API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2):** Этот элемент не поддерживается.<br/>                                                                                                                                                                                                 |
 | [**PMKCacheSize**](wlan-profileschema-pmkcachesize-security-element.md)           |                                                                   | Указывает количество записей в кэше ОМК на клиенте. Этот элемент допустим только для сетей, определенных WPA2, в режиме Пмккаче задано значение Enabled. Если включен режим Пмккаче и этот элемент отсутствует, по умолчанию размер кэша составляет 128 записей.<br/> **Windows XP с SP3 и API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2):** Этот элемент не поддерживается.<br/>                                   |
@@ -257,7 +257,7 @@ ms.locfileid: "105689538"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент [**фипсмоде**](wlan-profileschema-fipsmode-authencryption-element.md) может быть вставлен как дочерний элемент элемента [**аусенкриптион**](wlan-profileschema-authencryption-security-element.md) . Элемент [**OneX**](onexschema-onex-element.md) может быть вставлен как дочерний элемент элемента **Security (MSM)** .
 
@@ -265,19 +265,19 @@ ms.locfileid: "105689538"
 
 Чтобы просмотреть образцы профилей, в которых используется элемент **Security** , см. раздел [образцы профилей беспроводной связи](wireless-profile-samples.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                |
-| Распространяемые компоненты<br/>          | Интерфейс API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                |
+| Распространяемые компоненты<br/>          | API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

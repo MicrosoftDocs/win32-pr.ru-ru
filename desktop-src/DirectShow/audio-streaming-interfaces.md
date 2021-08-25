@@ -4,17 +4,17 @@ ms.assetid: eaf510ef-a6a3-45e0-8f0a-281a44b0ff6f
 title: Интерфейсы потоковой передачи аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68210beef0b05fcfc89ae5005c485fbc4b74d40f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1087ab127258fcd4f587cdd029d4604c35524689b5f0877476e1137e2ed924eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104538015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824474"
 ---
 # <a name="audio-streaming-interfaces"></a>Интерфейсы потоковой передачи аудио
 
 > [!Note]  
-> Эти API-интерфейсы являются устаревшими. Приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
+> Эти API-интерфейсы являются устаревшими. приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
 
  
 
@@ -31,7 +31,7 @@ ms.locfileid: "104538015"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_PAL_SAVE (VFW. h)
 description: Сообщение о \_ СОХРАНЕНИИ WM Cap \_ PAL \_ сохраняет текущую палитру в файле палитры. Файлы палитры обычно используют расширение имени файла. Списком. Это сообщение можно отправить явно или с помощью макроса Каппалеттесаве.
 ms.assetid: b1fa3978-9147-403f-aa08-db1a803aa5ac
 keywords:
-- WM_CAP_PAL_SAVE сообщения Windows мультимедиа
+- сообщение WM_CAP_PAL_SAVE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ea36b2eaf50b2555fa849a176d12d0932eed2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ff8703eafcc3c612fbde5bac7d15433758aa3d6ee44ab47697ffb25f9324dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891884"
 ---
 # <a name="wm_cap_pal_save-message"></a>Сообщение о сохранении в формате WM \_ Cap \_ PAL \_
 
@@ -51,7 +51,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -63,7 +63,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

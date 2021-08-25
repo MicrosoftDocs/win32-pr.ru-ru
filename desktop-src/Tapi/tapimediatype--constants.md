@@ -4,12 +4,12 @@ ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
 title: Константы TAPIMEDIATYPE_ (Tapi3. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d71a7d7ffb411d84e99863bb89274e43200b319d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a702f5a061629f3fd8daa5ad742c65af12c43bbd92eec6896b143e4bd6a403c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866884"
 ---
 # <a name="tapimediatype_-constants"></a>\_Константы тапимедиатипе
 
@@ -24,22 +24,22 @@ ms.locfileid: "105689224"
 | <span id="TAPIMEDIATYPE_DATAMODEM"></span><span id="tapimediatype_datamodem"></span><dl> <dt>**Тапимедиатипе \_ МОДЕМ**</dt> <dt>0x10</dt> </dl>       | Поток мультимедиа данных, связанный с модемом данных.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="TAPIMEDIATYPE_G3FAX"></span><span id="tapimediatype_g3fax"></span><dl> <dt>**Тапимедиатипе \_ G3FAX**</dt> <dt>0x20</dt> </dl>                   | Поток мультимедиа данных, связанный с протоколом G3.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="TAPIMEDIATYPE_MULTITRACK"></span><span id="tapimediatype_multitrack"></span><dl> <dt>**Тапимедиатипе \_ 0x10000 для многодорожкности**</dt> <dt></dt> </dl> | Поток находится в терминале с многодорожкностью.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| <span id="MEDIATYPE_RTP_Single_Stream"></span><span id="mediatype_rtp_single_stream"></span><span id="MEDIATYPE_RTP_SINGLE_STREAM"></span><dl> <dt>**\_ \_ Одиночный поток MEDIATYPE RTP \_**</dt> </dl>     | Этот идентификатор GUID используется между переданным приложением терминалом и потоком MSP. Если ПИН-код терминала поддерживает этот тип мультимедиа, поток будет обмениваться данными RTP с терминалом. Этот режим поддерживается только потоками видео на H323 MSP и Ипконф MSP для Windows 2000 с пакетом обновления 1 (SP1) или более поздней версии.<br/> **Заголовок:** Объявлено в ипмсп. h. Заголовок ипмсп. h недоступен в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. <br/> |
+| <span id="MEDIATYPE_RTP_Single_Stream"></span><span id="mediatype_rtp_single_stream"></span><span id="MEDIATYPE_RTP_SINGLE_STREAM"></span><dl> <dt>**\_ \_ Одиночный поток MEDIATYPE RTP \_**</dt> </dl>     | Этот идентификатор GUID используется между переданным приложением терминалом и потоком MSP. Если ПИН-код терминала поддерживает этот тип мультимедиа, поток будет обмениваться данными RTP с терминалом. этот режим поддерживается только потоками видео на H323 msp и ипконф msp для Windows 2000 с пакетом обновления 1 (SP1) или более поздней версии.<br/> **Заголовок:** Объявлено в ипмсп. h. заголовок ипмсп. h недоступен в в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. <br/> |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                              |
-| Header<br/>       | <dl> <dt>Tapi3. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Tapi3. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

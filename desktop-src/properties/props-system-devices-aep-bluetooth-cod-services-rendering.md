@@ -1,19 +1,19 @@
 ---
-description: Класс Bluetooth для подготовки к просмотру службы устройства.
+description: Bluetooth класс отрисовки службы устройства.
 ms.assetid: 1df0a4c3-d11e-42da-b636-6ba1f2cbfb4f
-title: System. Devices. АЕП. Bluetooth. наложен. Services. Render
+title: System. Devices. АЕП. Bluetooth. Наложенный на. Services. Render
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1649b37735f4160dd18614b7a2d8bb71154e12c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4c832800e07a971593c6c76fc7c0953de74125ec56ffa7019bf79d48140b915
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822864"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesrendering"></a>System. Devices. АЕП. Bluetooth. наложен. Services. Render
+# <a name="systemdevicesaepbluetoothcodservicesrendering"></a>System. Devices. АЕП. Bluetooth. Наложенный на. Services. Render
 
-Класс Bluetooth для подготовки к просмотру службы устройства.
+Bluetooth класс отрисовки службы устройства.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

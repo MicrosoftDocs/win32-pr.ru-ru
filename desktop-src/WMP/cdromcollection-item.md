@@ -3,9 +3,9 @@ title: Кдромколлектион. Item, метод
 description: Метод Item извлекает объект CDROM по указанному индексу.
 ms.assetid: c1efa972-736d-4fa0-9835-14ee594ae719
 keywords:
-- метод Item проигрыватель Windows Media Player
-- метод Item проигрыватель Windows Media, класс Кдромколлектион
-- Класс Кдромколлектион Windows Media Player, метод Item
+- проигрыватель Windows Media метода элемента
+- метод item проигрыватель Windows Media, класс кдромколлектион
+- класс кдромколлектион проигрыватель Windows Media, метод item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a67dc58ae75819fa42940346b4f588b23a2f645a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5f700a17c29c382e96a5601bd9bbfabf3c4ede1b253d9f271b1d37ab1106ee2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864084"
 ---
 # <a name="cdromcollectionitem-method"></a>Кдромколлектион. Item, метод
 
@@ -53,15 +53,15 @@ retVal = CdromCollection.item(
 
 Этот метод возвращает объект **CDROM** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-**Проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Этот метод не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *кдромколлектион*. **элемент** для печати имени списка воспроизведения с каждого компакт-диска, доступного на компьютере. Если на самом деле диск содержит содержимое DVD, требуется ОС Windows XP или более поздней версии. Создан HTML-элемент TextArea с ИДЕНТИФИКАТОРом "списки воспроизведения". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *кдромколлектион*. **элемент** для печати имени списка воспроизведения с каждого компакт-диска, доступного на компьютере. если на самом деле диск содержит содержимое DVD, требуется Windows XP или более поздней версии. Создан HTML-элемент TextArea с ИДЕНТИФИКАТОРом "списки воспроизведения". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -85,18 +85,18 @@ for (var i = 0; i < Player.cdromCollection.count; i++){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -112,10 +112,10 @@ for (var i = 0; i < Player.cdromCollection.count; i++){
 [**Playlist.name**](playlist-name.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

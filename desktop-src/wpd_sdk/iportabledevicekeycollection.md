@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: c246fabe7ced72a5aad6d30101df8035a159a923
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f648020ddb82db2a619f75bb125e94c7679f8dd3061ac282fcc0f911a498a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839394"
 ---
 # <a name="iportabledevicekeycollection-interface"></a>Интерфейс Ипортабледевицекэйколлектион
 
@@ -40,7 +40,7 @@ ms.locfileid: "105708348"
 | Метод                                                    | Описание                                                                         |
 |:----------------------------------------------------------|:------------------------------------------------------------------------------------|
 | [**Включить**](iportabledevicekeycollection-add.md)           | Добавляет ключ свойства в коллекцию.<br/>                                   |
-| [**Открытым**](iportabledevicekeycollection-clear.md)       | Удаляет все элементы из коллекции.<br/>                                   |
+| [**Clear**](iportabledevicekeycollection-clear.md)       | Удаляет все элементы из коллекции.<br/>                                   |
 | [**GetAt**](iportabledevicekeycollection-getat.md)       | Извлекает **PROPERTYKEY** из коллекции по индексу.<br/>                |
 | [**GetCount**](iportabledevicekeycollection-getcount.md) | Возвращает число ключей в этой коллекции.<br/>                         |
 | [**RemoveAt**](iportabledevicekeycollection-removeat.md) | Удаляет элемент, хранящийся в расположении, указанном заданным индексом.<br/> |
@@ -55,7 +55,7 @@ ms.locfileid: "105708348"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

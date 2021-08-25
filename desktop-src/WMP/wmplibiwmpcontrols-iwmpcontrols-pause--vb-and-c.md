@@ -3,9 +3,9 @@ title: Метод Pause Ивмпконтролс
 description: Метод Pause приостанавливает воспроизведение элемента мультимедиа. | Метод Pause Ивмпконтролс
 ms.assetid: 1d9ebaf3-84b4-458d-a393-2b685cd0dbfb
 keywords:
-- приостановить метод проигрыватель Windows Media Player
-- приостановить метод проигрыватель Windows Media Player, интерфейс Ивмпконтролс
-- Интерфейс Ивмпконтролс Windows Media Player, метод Pause
+- приостановить проигрыватель Windows Media метода
+- метод pause проигрыватель Windows Media, интерфейс ивмпконтролс
+- проигрыватель Windows Media интерфейса ивмпконтролс, метод pause
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cf89cfef66c84be76a529d9c0cef6ec3ae6ac40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49950b5d2c5588e27755f3845e65f0a79ce0aae6ccc4a05dd4e5af3186b879de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861884"
 ---
 # <a name="iwmpcontrolspause-method"></a>Ивмпконтролс: метод:p Аусе
 
@@ -53,9 +53,9 @@ Implements IWMPControls.pause
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-При приостановке файла проигрыватель Windows Media не предоставляет никаких системных ресурсов, таких как звуковое устройство.
+когда файл приостанавливается, проигрыватель Windows Media не предоставляет никаких системных ресурсов, таких как звуковое устройство.
 
 Чтобы определить, можно ли приостановить определенный тип носителя, передайте значение **Свойства** **ивмпконтролс. Available** (метод **ивмпконтролс. Get, \_ доступного** в C#) к свойству "Pause".
 
@@ -102,19 +102,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

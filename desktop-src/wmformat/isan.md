@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dc4a850edc43178deb043143ee8f9b37140507
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: ec2af088938219ed48f2b281c627c0b64cc8e13fdea630b54a51a6f23db1b448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808824"
 ---
 # <a name="isan"></a>исан
 
@@ -31,7 +31,7 @@ g \_ всзисан
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ИСАН — это Международный стандарт для идентификации аудиовизуального Works. Сведения о ИСАН см. на [веб-сайте](https://www.isan.org/)Standard.
 
@@ -61,16 +61,16 @@ g \_ всзисан
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

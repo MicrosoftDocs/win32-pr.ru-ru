@@ -3,7 +3,7 @@ title: Контекстпопуп. Контекстмапс, свойство
 description: Представляет контейнер для элементов Контекстмап.
 ms.assetid: 06dfd4ba-a1d8-48bb-b185-d265e007a820
 keywords:
-- Лента Windows для свойства Контекстпопуп. Контекстмапс
+- контекстпопуп. контекстмапс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 034381c4af840219ff1d6dd4d7a73aa34f528915
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05b6f6e2f1533553c33949b300213c1957cb47b8606d811f1b6f1f8f6cf33b9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840834"
 ---
 # <a name="contextpopupcontextmaps-property"></a>Контекстпопуп. Контекстмапс, свойство
 
@@ -55,7 +55,7 @@ ms.locfileid: "105701074"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -152,18 +152,18 @@ ms.locfileid: "105701074"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

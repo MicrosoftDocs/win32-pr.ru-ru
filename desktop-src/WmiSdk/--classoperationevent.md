@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 0c7a78219cec5c014e289dad4bf1cc29f0466a06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52ff5854d5510b22eaf264bcdbbfd39bbb02c7d2a2766eb3fbd8f336bd0b8074
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860614"
 ---
 # <a name="__classoperationevent-class"></a>\_\_Класс Классоператионевент
 
@@ -47,7 +47,7 @@ class __ClassOperationEvent : __Event
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ классоператионевент** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class __ClassOperationEvent : __Event
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ классоператионевент** является производным от [**\_ \_ события**](--event.md).
 
@@ -106,7 +106,7 @@ class __ClassOperationEvent : __Event
 
 [**\_\_классделетионевент**](--classdeletionevent.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -118,7 +118,7 @@ class __ClassOperationEvent : __Event
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

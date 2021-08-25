@@ -3,7 +3,7 @@ title: Объект Кдромколлектион
 description: Объект Кдромколлектион предоставляет способ организации и доступа к коллекции компакт-дисков или DVD-дисководов.
 ms.assetid: 02429ba7-a053-42bf-9ed5-c05e13c964c0
 keywords:
-- Проигрыватель Windows Media Object Кдромколлектион
+- проигрыватель Windows Media объекта кдромколлектион
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0d5367a6887290f06d36225f211f42048e98ba03
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0f8fe20bc138feb3eb1ad5bc937ef1f53f0e6b08e5757bbe03791177fe4c3531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863954"
 ---
 # <a name="cdromcollection-object"></a>Объект Кдромколлектион
 
@@ -34,7 +34,7 @@ ms.locfileid: "104068744"
 
 
 
- 
+ 
 
 Объект **кдромколлектион** поддерживает следующие методы.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104068744"
 
 
 
- 
+ 
 
 Доступ к объекту **кдромколлектион** осуществляется через следующее свойство.
 
@@ -59,18 +59,18 @@ ms.locfileid: "104068744"
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Справочник по объектной модели для создания сценариев**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

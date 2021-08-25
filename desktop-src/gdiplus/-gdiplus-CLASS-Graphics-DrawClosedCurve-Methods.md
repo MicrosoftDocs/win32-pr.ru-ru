@@ -4,12 +4,12 @@ ms.assetid: 366c883b-0acf-4c2d-8ecd-18baa1c75b76
 title: Методы Graphics. Дравклоседкурве (Гдиплусграфикс. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 897fc3e914526db33dc21c752d6025dfa77823f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e85132f45678f2ad1a6a0e153f18442f52639fbdfe06c5962053e077a679171
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104998909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848894"
 ---
 # <a name="graphicsdrawclosedcurve-methods"></a>Методы Graphics. Дравклоседкурве
 
@@ -28,13 +28,13 @@ ms.locfileid: "104998909"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплусграфикс. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплусграфикс. h</dt> </dl> |
 
 
 

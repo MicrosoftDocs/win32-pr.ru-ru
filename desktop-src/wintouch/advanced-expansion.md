@@ -3,20 +3,20 @@ title: Расширенное расширение
 description: Расширенное расширение
 ms.assetid: 29db15a1-fa56-441a-af99-9e858d143804
 keywords:
-- Касание Windows, расширение
-- Windows Touch, расширенное расширение
-- Касание Windows, манипуляции
+- Windows Сенсорный ввод, расширение
+- Windows Сенсорный ввод, расширенное расширение
+- Windows Сенсорный ввод, манипуляции
 - манипуляции, расширение
 - манипуляции, расширенное расширение
 - расширение, дополнительно
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b81a3a395da053b7d0e8f79a115a2489f3e63190
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27e176d91c08bd0d39383e2aba269bbdb5629cfe6b7c2d20eb1ac955786bef2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104252839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881504"
 ---
 # <a name="advanced-expansion"></a>Расширенное расширение
 
@@ -49,16 +49,16 @@ ms.locfileid: "104252839"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Манипуляции](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: Ивмпмедиаколлектион Add, метод
 description: Метод Add добавляет новый элемент мультимедиа или список воспроизведения в библиотеку. | Ивмпмедиаколлектион Add, метод
 ms.assetid: a3539646-797b-4481-a31e-86771f3633a9
 keywords:
-- Добавление метода Windows Media Player
-- Добавление метода Windows Media Player, интерфейс Ивмпмедиаколлектион
-- Интерфейс Ивмпмедиаколлектион Windows Media Player, метод Add
+- добавить проигрыватель Windows Media метода
+- добавление проигрыватель Windows Media метода, интерфейс ивмпмедиаколлектион
+- проигрыватель Windows Media интерфейса ивмпмедиаколлектион, add, метод
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7953067281e394df71a1a53c874cb80837a5f35d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 778850da4094d8ac745018b115248de9008d15339b7ffee75de177cf957d3fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861170"
 ---
 # <a name="iwmpmediacollectionadd-method"></a>Метод Ивмпмедиаколлектион:: Add
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.add
 
 Интерфейс **вмплиб. ивмпмедиа** для добавленного элемента или списка воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод загружает существующий элемент мультимедиа или список воспроизведения в библиотеку по заданному пути. Этот метод не перемещает и не изменяет файл. Этот метод завершается ошибкой, если задан недопустимый локальный путь, но сами элементы мультимедиа не проверяются на допустимость перед добавлением в библиотеку.
 
@@ -74,7 +74,7 @@ Implements IWMPMediaCollection.add
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере в коллекцию носителей проигрывателя Windows Media добавляются три объекта мультимедиа. Объект Аксвмплиб. Аксвиндовсмедиаплайер представлен переменной с именем Player.
+в следующем примере в коллекцию носителей проигрыватель Windows Media добавляются три объекта мультимедиа. Объект Аксвмплиб. Аксвиндовсмедиаплайер представлен переменной с именем Player.
 
 
 ```CSharp
@@ -109,19 +109,19 @@ player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

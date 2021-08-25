@@ -12,12 +12,12 @@ keywords:
 - звуковые события
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1940ee9f207213c4337c9b6bb0a0d58b0f471000
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bf9978e9e33c049db82a033b2379ac9f52b5e2959fd9d8425deac180ba7a81e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804574"
 ---
 # <a name="using-playsound-to-play-system-sounds"></a>Использование функции PlaySound для воспроизведения системных звуков
 
@@ -47,6 +47,6 @@ PlaySound("MouseClick", NULL, SND_SYNC);
 
 Функция [**сндплайсаунд**](/previous-versions//dd798676(v=vs.85)) всегда ищет в реестре *лпсзсаунд* сопоставления keyName перед попыткой загрузить файл с таким именем. Функция [**PlaySound**](/previous-versions//dd743680(v=vs.85)) принимает флаги, указывающие расположение звука.
 
- 
+ 
 
- 
+ 

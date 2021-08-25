@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb580d69d804c30dbbeb9b574422fb4055cc1a37
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e9f2597cee7bd4464a151bd2174cd24b2122d97bfd35cfbed0f450893dfaf98d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104532999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881172"
 ---
 # <a name="drm_actionallowed_backup"></a>\_Актионалловед \_ резервная копия DRM
 
@@ -31,20 +31,20 @@ g \_ всзвмдрм \_ актионалловед \_ BACKUP
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство только для чтения, которое извлекается с помощью [**ивмдрмреадер:: жетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Свойства DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

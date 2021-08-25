@@ -3,7 +3,7 @@ title: CDROM. список воспроизведения
 description: Свойство списка воспроизведения извлекает объект списка воспроизведения, который представляет дорожки на компакт-диске в данный момент в дисководе компакт-дисков или записи заголовка корневого уровня для DVD.
 ms.assetid: 71c76b6c-1344-4d45-b86b-7e49be44dba8
 keywords:
-- Проигрыватель Windows Media CDROM. список воспроизведения
+- Cdrom. список проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcdb50daa169c6f6eb0690de376abd4433ffe130
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b29419b68c50718165e49c0fbe9e75487e9154c19243453981ab352f03e8209a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864184"
 ---
 # <a name="cdromplaylist"></a>CDROM. список воспроизведения
 
@@ -36,7 +36,7 @@ player.cdromCollection.item(
 
 Это свойство является объектом **списка воспроизведения** , предназначенным только для чтения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как правило, DVD-диски упорядочены по заголовкам. Каждое название содержит одну или несколько глав. Каждый DVD-диск создан по-разному, поэтому использование заголовков и глав имеет автор содержимого.
 
@@ -46,7 +46,7 @@ player.cdromCollection.item(
 
 Чтобы получить значение этого свойства, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-**Проигрыватель Windows Media 10 Mobile:** Это свойство не поддерживается.
+**проигрыватель Windows Media 10 Mobile:** Это свойство не поддерживается.
 
 ## <a name="examples"></a>Примеры
 
@@ -67,30 +67,30 @@ for(var i = 0; i < pl.count; i++){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Версия<br/>                  | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Версия<br/>                  | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>                      | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Объект CDROM**](cdrom-object.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

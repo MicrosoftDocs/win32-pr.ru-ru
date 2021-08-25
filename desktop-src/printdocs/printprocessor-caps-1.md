@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 131b5ecf874554c3642808570a53ee8b20ad0e68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d057914ef9a77c7a545817b205f919afa66fdd3bc154363f7e33a9a5ba43c446
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824794"
 ---
 # <a name="printprocessor_caps_1-structure"></a>\_Структура принтпроцессор Cap \_ 1
 
@@ -70,13 +70,13 @@ typedef struct _PRINTPROCESSOR_CAPS_1 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Значения всех членов структуры предоставляются функцией [**жетпринтпроцессоркапабилитиес**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) , которая описана в комплекте драйверов для Windows (WDK).
+значения для всех элементов структуры предоставляются функцией [**жетпринтпроцессоркапабилитиес**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) , которая описана в поднаборе драйверов Windows (WDK).
 
 Диспетчер очереди вызовов вызывает функцию [**жетпринтпроцессоркапабилитиес**](/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getprintprocessorcapabilities) обработчика печати, когда приложение вызывает [**жетпринтердата**](getprinterdata.md), указывая имя значения с форматом типа данных принтпроккапс \_ , где *DataType* — это имя входного типа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,11 +84,11 @@ typedef struct _PRINTPROCESSOR_CAPS_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

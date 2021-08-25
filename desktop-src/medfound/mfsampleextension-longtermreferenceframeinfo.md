@@ -4,12 +4,12 @@ ms.assetid: 0632D780-C56B-4FDB-8A76-B7A7DE414242
 title: Атрибут MFSampleExtension_LongTermReferenceFrameInfo (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3af85ffa5876cdf58a21a6933c46f460c23e7456
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5642c246adf0e5e1c10249085201fba3dc430b6547516b79fe4929e9de4b998a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848124"
 ---
 # <a name="mfsampleextension_longtermreferenceframeinfo-attribute"></a>Мфсампликстенсион \_ лонгтермреференцефрамеинфо, атрибут
 
@@ -19,7 +19,7 @@ ms.locfileid: "105684794"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Кодировщики H. 264/AVC:**
 
@@ -31,19 +31,19 @@ ms.locfileid: "105684794"
 
 Второе поле (бит \[ 16.31 \] ) — это битовая карта, состоящая из *макснумлтрфрамес* большого числа битов, которые УКАЗЫВАЮТ, какие кадры LTR использовались для кодирования этого выходного кадра, начиная с бита 16. Остальные биты должны быть установлены в значение 0. Второе значение равно 0, если выходной фрейм не кодируется с помощью каких-либо фреймов LTR. *Макснумлтрфрамес* — максимальное число кадров LTR, заданное через [кодекапи \_ авенквидеолтрбуфферконтрол](codecapi-avencvideoltrbuffercontrol.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                     |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                     |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

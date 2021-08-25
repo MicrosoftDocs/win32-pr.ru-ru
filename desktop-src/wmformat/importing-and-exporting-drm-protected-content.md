@@ -3,13 +3,13 @@ title: Импорт и экспорт содержимого, защищенно
 description: Импорт и экспорт содержимого, защищенного с использованием DRM
 ms.assetid: 1c0520dd-b698-4174-a70e-32f43e2395b1
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
-- Windows Media Format SDK, импорт
-- Пакет Windows Media Format SDK, экспорт
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
+- Windows Пакет SDK для формата мультимедиа, импорт
+- Windows Пакет SDK для формата мультимедиа, экспорт
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -24,29 +24,29 @@ keywords:
 - Расширенные API клиента, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17f368417b62c9746b6d2c9e331b9cd849455b8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0acba50446399b505e88e69ae513b6743a0cbe17ad1fc760102e28453f1b32f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809064"
 ---
 # <a name="importing-and-exporting-drm-protected-content"></a>Импорт и экспорт содержимого, защищенного с использованием DRM
 
-Одна из основных ролей новых расширенных API клиента DRM Windows Media — включение импорта и экспорта содержимого, защищенного с помощью DRM, в сторонние системы управления правами.
+одна из основных ролей новых расширенных api клиента DRM для Windows Media — включение импорта и экспорта содержимого, защищенного с помощью drm, в сторонние системы управления правами.
 
 Основная сложность импорта и экспорта защищенных данных в приложении заключается в надежном обмене образцами данных ASF между системой и подсистемой DRM. Когда приложение обрабатывает образцы данных, оно должно обеспечить соблюдение определенных стандартов надежности, чтобы избежать возможного обхода механизма защиты. Эти стандарты описаны в правилах надежности и соответствия требованиям, которые вы соглашаетесь соблюдать при лицензировании DRM.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**О расширенных API-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
+[**сведения о расширенных api-интерфейсах клиента DRM Windows Media**](about-the-windows-media-drm-client-extended-apis.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

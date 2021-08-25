@@ -4,12 +4,12 @@ ms.assetid: 93408116-1c1f-307f-7e1f-090f2663ff0b
 title: Как изменить тон голоса
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7143dda30eae48bd8ed966c4170da2884d2633ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc44fe757c563e3556f760ead594bb619da9f62fb2c3eafc774e15d7b9e5bc85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926474"
 ---
 # <a name="how-to-change-voice-pitch"></a>Как изменить тон голоса
 
@@ -35,7 +35,7 @@ ms.locfileid: "104154618"
 
     
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

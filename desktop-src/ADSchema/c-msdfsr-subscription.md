@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aec62f4b5a1666544e8879de6d27a17d12903f85
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 38d6138c3f8cf7462b174fe3497384b102902402afac578bda26b644348f90a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880634"
 ---
 # <a name="ms-dfsr-subscription-class"></a>класс подписки MS-DFSR-Subscription
 
@@ -67,9 +67,9 @@ ms.locfileid: "105654760"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -96,7 +96,7 @@ ms.locfileid: "105654760"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -110,14 +110,14 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-Компутерреференцебл**](a-msdfsr-computerreferencebl.md)         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Конфликтпас**](a-msdfsr-conflictpath.md)                       | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Конфликтсизеинмб**](a-msdfsr-conflictsizeinmb.md)               | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                   | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                   | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Дфслинктаржет**](a-msdfsr-dfslinktarget.md)                     | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**Поддержка MS-DFSR**](a-msdfsr-enabled.md)                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Extension**](a-msdfsr-extension.md)                             | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**Флаги MS-DFSR-**](a-msdfsr-flags.md)                                     | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Мемберреференцебл**](a-msdfsr-memberreferencebl.md)             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-параметры**](a-msdfsr-options.md)                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)       | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)       | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутфенце**](a-msdfsr-rootfence.md)                             | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-RootPath**](a-msdfsr-rootpath.md)                               | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутсизеинмб**](a-msdfsr-rootsizeinmb.md)                       | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -143,10 +143,10 @@ ms.locfileid: "105654760"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -209,9 +209,9 @@ ms.locfileid: "105654760"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -238,7 +238,7 @@ ms.locfileid: "105654760"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -253,7 +253,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-Компутерреференцебл**](a-msdfsr-computerreferencebl.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Конфликтпас**](a-msdfsr-conflictpath.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Конфликтсизеинмб**](a-msdfsr-conflictsizeinmb.md)                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедпас**](a-msdfsr-deletedpath.md)                                           | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедсизеинмб**](a-msdfsr-deletedsizeinmb.md)                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Дфслинктаржет**](a-msdfsr-dfslinktarget.md)                                       | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -268,7 +268,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-параметры**](a-msdfsr-options.md)                                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Options2**](a-msdfsr-options2.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-ReadOnly**](a-msdfsr-readonly.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутфенце**](a-msdfsr-rootfence.md)                                               | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-RootPath**](a-msdfsr-rootpath.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутсизеинмб**](a-msdfsr-rootsizeinmb.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -306,10 +306,10 @@ ms.locfileid: "105654760"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                   | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                         | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                   | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                         | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -372,9 +372,9 @@ ms.locfileid: "105654760"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -401,7 +401,7 @@ ms.locfileid: "105654760"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -417,7 +417,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-Компутерреференцебл**](a-msdfsr-computerreferencebl.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Конфликтпас**](a-msdfsr-conflictpath.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Конфликтсизеинмб**](a-msdfsr-conflictsizeinmb.md)                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедпас**](a-msdfsr-deletedpath.md)                                           | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедсизеинмб**](a-msdfsr-deletedsizeinmb.md)                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Дфслинктаржет**](a-msdfsr-dfslinktarget.md)                                       | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -432,7 +432,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-параметры**](a-msdfsr-options.md)                                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Options2**](a-msdfsr-options2.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-ReadOnly**](a-msdfsr-readonly.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутфенце**](a-msdfsr-rootfence.md)                                               | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-RootPath**](a-msdfsr-rootpath.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутсизеинмб**](a-msdfsr-rootsizeinmb.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -476,10 +476,10 @@ ms.locfileid: "105654760"
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                   | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                         | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                   | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                         | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -542,7 +542,7 @@ ms.locfileid: "105654760"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -571,7 +571,7 @@ ms.locfileid: "105654760"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -587,7 +587,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-Компутерреференцебл**](a-msdfsr-computerreferencebl.md)                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Конфликтпас**](a-msdfsr-conflictpath.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Конфликтсизеинмб**](a-msdfsr-conflictsizeinmb.md)                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Контентсетгуид**](a-msdfsr-contentsetguid.md)                                     | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедпас**](a-msdfsr-deletedpath.md)                                           | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Делетедсизеинмб**](a-msdfsr-deletedsizeinmb.md)                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Дфслинктаржет**](a-msdfsr-dfslinktarget.md)                                       | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -602,7 +602,7 @@ ms.locfileid: "105654760"
 | [**MS-DFSR-параметры**](a-msdfsr-options.md)                                                   | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Options2**](a-msdfsr-options2.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-ReadOnly**](a-msdfsr-readonly.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
-| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | True      | **Подписка MS-DFSR-Subscription**        |
+| [**MS-DFSR-Репликатионграупгуид**](a-msdfsr-replicationgroupguid.md)                         | Верно      | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутфенце**](a-msdfsr-rootfence.md)                                               | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-RootPath**](a-msdfsr-rootpath.md)                                                 | Неверно     | **Подписка MS-DFSR-Subscription**        |
 | [**MS-DFSR-Рутсизеинмб**](a-msdfsr-rootsizeinmb.md)                                         | Неверно     | **Подписка MS-DFSR-Subscription**        |
@@ -645,17 +645,17 @@ ms.locfileid: "105654760"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                   | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                         | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                   | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                         | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -695,7 +695,7 @@ ms.locfileid: "105654760"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **MS-DFSR-Subscription** является частью поддержки службы репликации распределенная ФАЙЛОВАЯ система (DFS).
 

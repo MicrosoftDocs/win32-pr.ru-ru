@@ -3,19 +3,19 @@ title: Звуковая волна
 description: Звуковая волна
 ms.assetid: 3188355c-65be-4372-8e87-e7f755982592
 keywords:
-- Мультимедиа Windows, звуковая волна
+- Windows мультимедиа, звукозапись
 - мультимедиа, волна аудио
 - мультимедийные аудио, волна
 - аудио, волна
 - звуковая волна, о программе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09826e521628497082a5765ac5d3be7a95b8ea9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3258a0b9d2088b69edf06cc36b726cfa1b4a3fa2a8d929473744ffbfaa68370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892104"
 ---
 # <a name="waveform-audio"></a>Звуковая волна
 
@@ -25,9 +25,9 @@ ms.locfileid: "103887892"
 -   [Использование волны и вспомогательного звука](using-waveform-and-auxiliary-audio.md)
 -   [Справочник по Waveform Audio](waveform-audio-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

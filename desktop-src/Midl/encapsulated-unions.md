@@ -6,12 +6,12 @@ keywords:
 - типы данных MIDL, инкапсулированные объединения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4489a043ff3690ddb31a8acccf359dcd76940aa7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6bc8f8f830d49430551af7d6450b0174742b9436afcdba764e9fa6494c957d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895364"
 ---
 # <a name="encapsulated-unions"></a>Инкапсулированные объединения
 
@@ -48,9 +48,9 @@ typedef struct _S1_TYPE
 
 Дополнительные сведения см. в разделе [базовые типы MIDL](midl-base-types.md), [**char**](char-idl.md), **\[** [**\_ маркер контекста**](context-handle.md) **\]** , [**перечисление**](enum.md), **\[** [**первый \_ —**](first-is.md) **\]** , **\[** [**Handle**](handle.md) **\]** , **\[** [**Ignore**](ignore.md) **\]** , [**int**](int.md), **\[** [**игнорировать**](ignore.md) **\]** , **\[** [**Last \_ —**](last-is.md) **\]** , **\[** [**length \_ —**](length-is.md) **\]** , **\[** [**Max \_ —**](max-is.md) **\]** , **\[** [**MS \_ Union**](ms-union-attrib.md) **\]** , [неинкапсулированные объединения](nonencapsulated-unions.md), **\[** [**ptr**](ptr.md) **\]** , **\[** [**ref**](ref.md) **\]** , **\[** [**размер \_ —**](size-is.md) **\]** , **\[** [**строка**](string.md) **\]** , [**Структура**](struct.md), [**переключатель**](switch.md), **\[** [**параметр \_ —**](switch-is.md) **\]** , **\[** [**\_ тип коммутатора**](switch-type.md), " **\]** **\[** [**передать \_ как**](transmit-as.md) **\]** [](union.md) **\[** [](unique.md) ", "объединить" и "уникальный"**\]**
 
- 
+ 
 
- 
+ 
 
 
 

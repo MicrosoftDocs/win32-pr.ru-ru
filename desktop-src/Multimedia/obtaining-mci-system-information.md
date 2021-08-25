@@ -1,27 +1,27 @@
 ---
-title: Получение сведений о системе MCI
-description: Получение сведений о системе MCI
+title: получение Сведения о системе MCI
+description: получение Сведения о системе MCI
 ms.assetid: 06175d6e-6d09-4c95-93e9-03af870a2d3f
 keywords:
 - Команда MCI_SYSINFO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3b5f5d2bf8cc8edd3edf65a9c559b6ec47b0631
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fa6cc0757bc09aa16216f2f20385bf31b44bb88e27ea64e091ff3909d8d57e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893224"
 ---
-# <a name="obtaining-mci-system-information"></a>Получение сведений о системе MCI
+# <a name="obtaining-mci-system-information"></a>получение Сведения о системе MCI
 
 Команда [сисинфо](sysinfo.md) ([**MCI \_ сисинфо**](mci-sysinfo.md)) получает сведения о системе для устройств MCI. MCI обрабатывает эту команду без ее пересылки на любое устройство MCI. Для интерфейса командной строки MCI возвращает сведения о системе в структуре [**MCI \_ сисинфо \_ пармс**](mci-sysinfo-parms.md) .
 
 Команду **сисинфо** (MCI \_ сисинфо) можно использовать для получения таких сведений, как число устройств MCI в системе, число устройств MCI определенного типа, число открытых устройств MCI и имена устройств. Эта команда часто вызывается более одного раза для получения определенного фрагмента информации. Например, можно получить число устройств определенного типа при первом вызове, а затем перечислить имена устройств в следующем.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2b8c465b-0dbf-4741-a701-200862cc3de3
 title: Запись изображения с изображением по-прежнему из потока видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be475405f4aa9719514a531a6af0105d7a786f6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af98dc313ddde7f2da160515ab53d31357a6d9cc96e1737ed01767b40fb0e7c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814284"
 ---
 # <a name="capturing-a-still-image-from-a-video-stream"></a>Запись изображения с изображением по-прежнему из потока видео
 
@@ -18,7 +18,7 @@ ms.locfileid: "104264535"
 Когда метод [**ивиавидео:: такепиктуре**](/windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-takepicture) возвращает значение, параметр *пбстрневимажефиленаме* содержит полный путь и имя файла полученного изображения. Файл имеет формат JPEG. Каталог, в котором создается файл, указывается значением свойства [**ивиавидео:: имажесдиректори**](/windows/desktop/api/Wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory) интерфейса [**ивиавидео**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) .
 
 > [!Note]  
-> Получение образа Windows (WIA) не поддерживает видеоустройства в Windows Server 2003, Windows Vista и более поздних версиях. Для этих версий Windows используйте [DirectShow](/previous-versions//ms783323(v=vs.85)) для получения изображений из видео.
+> Windows получение изображений (WIA) не поддерживает видео-устройства в Windows Server 2003, Windows Vista или более поздней версии. для этих версий Windows используйте [DirectShow](/previous-versions//ms783323(v=vs.85)) для получения изображений из видео.
 
  
 

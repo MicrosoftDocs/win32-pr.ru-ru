@@ -4,12 +4,12 @@ ms.assetid: 744b30c3-916d-418a-9a74-904de51b8494
 title: System. Девицеинтерфаце. Винусб. Девицеинтерфацеклассес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffec53cb5bcea1045d289cfd50068f934f291455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 378d7ec1856c5978f6b0153b93ac5eb13c2cebf92aa2469337570549cd2bd0ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946324"
 ---
 # <a name="systemdeviceinterfacewinusbdeviceinterfaceclasses"></a>System. Девицеинтерфаце. Винусб. Девицеинтерфацеклассес
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

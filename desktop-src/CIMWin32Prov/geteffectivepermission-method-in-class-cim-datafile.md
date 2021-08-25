@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 109e4953b310f9465c4523a9e80ca401c225f885
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c11ab70c3239252d2e385a1abfa8a6d19e1ed9cbf27baa0c8b062375dcce7fc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879044"
 ---
 # <a name="geteffectivepermission-method-of-the-cim_datafile-class"></a>Метод Жетеффективепермиссион \_ класса CIM File
 
@@ -212,13 +212,13 @@ boolean GetEffectivePermission(
 
 Возвращает **значение true** , если вызов имеет необходимое разрешение; в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **жетеффективепермиссион** в [**\_ файле CIM**](cim-datafile.md) реализуется инструментарием WMI.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -227,13 +227,13 @@ boolean GetEffectivePermission(
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

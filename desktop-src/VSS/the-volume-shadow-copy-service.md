@@ -1,19 +1,19 @@
 ---
-description: Служба теневого копирования томов (VSS) предоставляет системную инфраструктуру для запуска приложений VSS в системах на базе Windows.
+description: служба теневого копирования томов (VSS) предоставляет системную инфраструктуру для запуска приложений VSS в системах на основе Windows.
 ms.assetid: 237b2729-1e9b-4d0e-9c59-990e047a0360
 title: служба теневого копирования томов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 274e1e561b702dc2e69782fa5e9c2b47e6ea6a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f71e21ba0f20eaa0f3723cd0da6cb3efb89bae027678d154ab8b5b5568532ac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866244"
 ---
 # <a name="the-volume-shadow-copy-service"></a>служба теневого копирования томов
 
-Служба теневого копирования томов (VSS) предоставляет системную инфраструктуру для запуска приложений VSS в системах на базе Windows.
+служба теневого копирования томов (VSS) предоставляет системную инфраструктуру для запуска приложений VSS в системах на основе Windows.
 
 Хотя служба VSS в значительной степени прозрачна для пользователей и разработчиков, она выполняет следующие действия:
 

@@ -10,19 +10,19 @@ keywords:
 - таймеры, написание функций обратного вызова
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609cf2dda455897fb6cae0f3c48252016ba54cb9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f5b8680fc4d697c33514276276daaa2a4d75577bfbd78fa3caffc7f426ca9d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891784"
 ---
 # <a name="writing-a-timer-callback-function"></a>Написание функции обратного вызова таймера
 
 > [!Note]  
 > В этом разделе описывается устаревшая функция. Новые приложения должны использовать функцию [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) для создания таймеров.
 
- 
+ 
 
 Следующая функция обратного вызова, Онешоттимер, делает недействительным идентификатор для одного события таймера и вызывает подпрограммы таймера для выполнения задач, связанных с конкретным приложением. Дополнительные сведения см. в разделе [**тимепрок**](/previous-versions//dd757631(v=vs.85)).
 
@@ -40,13 +40,13 @@ void CALLBACK OneShotTimer(UINT wTimerID, UINT msg,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование таймеров мультимедиа](using-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,35 +1,35 @@
 ---
 title: Что нового в проигрывателе Windows Media 12
-description: В этом разделе перечислены новые возможности проигрывателя Windows Media 12.
+description: в этом разделе перечислены новые возможности проигрыватель Windows Media 12.
 ms.assetid: 17f76963-c96d-46c9-82c0-3ed2d8a4e892
 keywords:
-- Проигрыватель Windows Media, новые возможности
-- Проигрыватель Windows Media, новые функции
+- проигрыватель Windows Media, новые возможности
+- проигрыватель Windows Media, новые функции
 - пакет средств разработки программного обеспечения (SDK), проигрыватель Windows Media 12
-- Пакет SDK (пакет средств разработки программного обеспечения), проигрыватель Windows Media 12
-- Документация, Windows Media Player 12 SDK
+- пакет SDK (пакет средств разработки программного обеспечения), проигрыватель Windows Media 12
+- документация, пакет SDK для проигрыватель Windows Media 12
 - новые возможности, проигрыватель Windows Media 12
-- новые возможности, проигрыватель Windows Media 12
-- интерфейсы, новые возможности проигрывателя Windows Media 12
-- атрибуты, новые функции в проигрывателе Windows Media 12
-- метаданные, новые функции в проигрывателе Windows Media 12
-- перечисления, новые функции в проигрывателе Windows Media 12
-- Флаги, новые функции в проигрывателе Windows Media 12
-- интерфейсы, устаревшие в проигрывателе Windows Media 12
-- методы, устаревшие в проигрывателе Windows Media 11 и не 12
-- версии проигрывателя Windows Media, новые функции в версии 12
+- новые функции, проигрыватель Windows Media 12
+- интерфейсы, новые функции в проигрыватель Windows Media 12
+- атрибуты, новые функции в проигрыватель Windows Media 12
+- метаданные, новые функции в проигрыватель Windows Media 12
+- перечисления, новые функции в проигрыватель Windows Media 12
+- флаги, новые функции в проигрыватель Windows Media 12
+- интерфейсы, устаревшие в проигрыватель Windows Media 12
+- методы, устаревшие в проигрыватель Windows Media 11 и не 12
+- версии проигрыватель Windows Media, новые функции в версии 12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16b21077df1f4a9c11edbfa20032ed473f872a0
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 976c9b0995188f9d6c6db6e7394ec0019047ff18b51940ada202c8c7ea713f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104133606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862284"
 ---
 # <a name="whats-new-in-windows-media-player-12"></a>Что нового в проигрывателе Windows Media 12
 
-В этом разделе перечислены новые возможности проигрывателя Windows Media 12.
+в этом разделе перечислены новые возможности проигрыватель Windows Media 12.
 
 ## <a name="new-interfaces"></a>Новые интерфейсы
 
@@ -87,21 +87,21 @@ ms.locfileid: "104133606"
 
 ## <a name="methods-that-are-no-longer-deprecated"></a>Методы, которые больше не являются устаревшими
 
-Следующие методы были устаревшими в пакете SDK для проигрывателя Windows Media 11, но больше не являются устаревшими.
+следующие методы были устаревшими в пакете SDK для проигрыватель Windows Media 11, но больше не являются устаревшими.
 
 -   [**Ивмпграфкреатион:: Графкреатионпререндер**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationprerender)
 -   [**Ивмпграфкреатион:: Графкреатионпострендер**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationpostrender)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сведения о пакете SDK проигрывателя Windows Media](about-the-windows-media-player-sdk.md)
+[сведения о пакете SDK для проигрыватель Windows Media](about-the-windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

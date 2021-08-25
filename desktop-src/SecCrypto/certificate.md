@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 1360b197f0d7f5e0579a5378a37047e6a117a9c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6c19acc094426f99599b9e4aa9ea3968414c7de1d99377b2ce0bd2e8e3fde05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877994"
 ---
 # <a name="certificate-object"></a>Объект Certificate
 
@@ -60,11 +60,11 @@ ms.locfileid: "105688816"
 | Метод                                                       | Описание                                                                                                                                                                                                                                              |
 |:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**басикконстраинтс**](certificate-basicconstraints.md)     | Возвращает объект [**басикконстраинтс**](basicconstraints.md) , представляющий расширение базовых ограничений сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                   |
-| [**Отображение**](certificate-display.md)                       | Отображает сертификат.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                                                                                                                             |
+| [**Дисплей**](certificate-display.md)                       | Отображает сертификат.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                                                                                                                             |
 | [**Экспорт**](certificate-export.md)                         | Копирует сертификат в зашифрованную строку. Закодированная строка может быть записана в файл или импортирована в новый объект **сертификата** .<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                               |
 | [**екстендедкэйусаже**](certificate-extendedkeyusage.md)     | Возвращает объект [**екстендедкэйусаже**](extendedkeyusage.md) , указывающий допустимое использование расширенного ключа сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                       |
 | [**ExtendedProperties**](certificate-extendedproperties.md) | Возвращает коллекцию расширенных свойств сертификата.<br/> (Наследуется от **CertificateICertificate2**)                                                                                                                             |
-| [**Модули**](certificate-extensions.md)                 | Возвращает коллекцию расширений, связанных с сертификатом.<br/> (Наследуется от **CertificateICertificate2**)                                                                                                                         |
+| [**Расширения**](certificate-extensions.md)                 | Возвращает коллекцию расширений, связанных с сертификатом.<br/> (Наследуется от **CertificateICertificate2**)                                                                                                                         |
 | [**GetInfo**](certificate-getinfo.md)                       | Извлекает сведения из сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                                                                                                         |
 | [**HasPrivateKey**](certificate-hasprivatekey.md)           | Определяет, связан ли сертификат с [*закрытым ключом*](../secgloss/p-gly.md) .<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                    |
 | [**Импорт**](certificate-import.md)                         | Импортирует ранее закодированный сертификат из строки в объект **сертификата** .<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                                                                             |
@@ -95,19 +95,19 @@ ms.locfileid: "105688816"
 | [**Отпечаток**](certificate-thumbprint.md)<br/>       | Только для чтения<br/>  | Извлекает шестнадцатеричную строку, содержащую хэш SHA-1 сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**) |
 | [**валидфромдате**](certificate-validfromdate.md)<br/> | Только для чтения<br/>  | Возвращает начальную дату срока действия сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)               |
 | [**валидтодате**](certificate-validtodate.md)<br/>     | Только для чтения<br/>  | Возвращает дату окончания срока действия сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                  |
-| [**Версия**](certificate-version.md)<br/>             | Только для чтения<br/>  | Возвращает номер версии сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                |
+| [**Version**](certificate-version.md)<br/>             | Только для чтения<br/>  | Возвращает номер версии сертификата.<br/> (Наследуется от **CertificateICertificate2ICertificate**)                                |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **сертификата** может быть создан и защищен для создания скриптов. ProgID для объекта **сертификата** — CAPICOM. Certificate. 2.
 
 **CAPICOM 1. *x*:** ProgID для объекта **сертификата** — CAPICOM. Certificate. 1 ".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

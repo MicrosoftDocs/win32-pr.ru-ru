@@ -3,9 +3,9 @@ title: Ивмплибрари, свойство типа
 description: Свойство Type возвращает значение, указывающее тип библиотеки.
 ms.assetid: 869eab74-e793-4b04-b634-079feac8cf7b
 keywords:
-- введите свойство проигрыватель Windows Media Player
-- Тип свойства проигрыватель Windows Media Player, интерфейс Ивмплибрари
-- Интерфейс Ивмплибрари Windows Media Player, тип свойства
+- тип свойства проигрыватель Windows Media
+- свойство type проигрыватель Windows Media, интерфейс ивмплибрари
+- проигрыватель Windows Media интерфейса ивмплибрари, свойство type
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c47aa4069b9886d79fd77a6816eede4eb4ad81e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 44cb7aaf892d6f73a498d5d880c41ab2df3fa8e028039ea39966b6547b11d9b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861793"
 ---
 # <a name="iwmplibrarytype-property"></a>Свойство Ивмплибрари:: Type
 
@@ -48,19 +48,19 @@ Public ReadOnly Property type As WMPLibraryType
 
 Объект **вмплиб. вмплибраритипе** , который является значением из перечисления **вмплибраритипе** , которое указывает тип библиотеки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

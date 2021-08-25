@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 126aa213004dd032eea43b28198b6f8b49fe7f3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad92cf07cc096c50ffa50f862c26f6133fc8dbb9b9b059419bb516e07cbd5daa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910794"
 ---
 # <a name="cbasemediafilterm_plock-member"></a>Элемент Кбасемедиафилтер:: m \_ плокк
 
@@ -36,7 +36,7 @@ CCritSec *m_pLock;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Критическая секция удерживается во время переходов между состояниями ([**кбасемедиафилтер:: Run**](cbasemediafilter-run.md), [**кбасемедиафилтер::P Аусе**](cbasemediafilter-pause.md), [**кбасемедиафилтер:: останавливаются**](cbasemediafilter-stop.md)) при доступе к эталонному времени ([**кбасемедиафилтер:: сетсинксаурце**](cbasemediafilter-setsyncsource.md), [**CBaseMediaFilter:: GetSyncSource**](cbasemediafilter-getsyncsource.md)) и в методе [**CBaseMediaFilter::**](cbasemediafilter-isactive.md) IsReference.
 
@@ -46,7 +46,7 @@ CCritSec *m_pLock;
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

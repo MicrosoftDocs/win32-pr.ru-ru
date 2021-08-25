@@ -15,12 +15,12 @@ keywords:
 - Открытие файлов ввода-вывода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2123b73c5f3a93cbb6e72711a7137652f7534b2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ffbd323e888b181b0166572d11687d3dde66e83f0ce73541555b1f49083564ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893194"
 ---
 # <a name="opening-a-file-with-mmioopen"></a>Открытие файла с помощью Ммиупен
 
@@ -41,6 +41,6 @@ else
 
 Используйте параметр *dwFlags* параметра **ммиупен** , чтобы задать флаги для открытия файла.
 
- 
+ 
 
- 
+ 

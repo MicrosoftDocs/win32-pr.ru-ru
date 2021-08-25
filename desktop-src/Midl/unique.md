@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95b839a2abdd546842ef0d33d45a31428af840f7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 57c176c9a246329b6193c97ca5ce356c2b433cb421b77b374e103778df1b79dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822034"
 ---
 # <a name="unique-attribute"></a>unique - атрибут
 
@@ -109,7 +109,7 @@ typedef struct-or-union-declarator
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибуты указателя можно применять как атрибут типа. в качестве атрибута поля, который применяется к члену структуры, члену объединения или параметру; или в качестве атрибута функции, который применяется к возвращаемому типу функции. Атрибут указателя также может присутствовать с **\[** ключевым словом [**указателя \_ по умолчанию**](pointer-default.md) **\]** .
 
@@ -166,13 +166,13 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**Контекстный \_ маркер**](context-handle.md)
 </dt> <dt>
 
-[**перечисления**](enum.md)
+[**enum**](enum.md)
 </dt> <dt>
 
 [**первый \_ —**](first-is.md)
 </dt> <dt>
 
-[**справиться**](handle.md)
+[**handle**](handle.md)
 </dt> <dt>
 
 [**Handle \_ t**](handle-t.md)
@@ -205,7 +205,7 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**Указатель \_ по умолчанию**](pointer-default.md)
 </dt> <dt>
 
-[**ptr**](ptr.md)
+[**указатель**](ptr.md)
 </dt> <dt>
 
 [**ref**](ref.md)
@@ -229,6 +229,6 @@ typedef [unique, string] unsigned char * MY_STRING_TYPE;
 [**наборов**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

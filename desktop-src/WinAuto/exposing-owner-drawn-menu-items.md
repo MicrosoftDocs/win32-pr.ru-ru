@@ -4,12 +4,12 @@ description: Предоставление Owner-Drawn пунктов меню
 ms.assetid: 93b51cbb-b7b4-4a38-ba69-d6345a269944
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e79668115cedd5fb6b8c20b0d4df361d6d1d800
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c84a2630b5227937d4a1c9621360d9fb028676bba03516970f93e314b382035b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860504"
 ---
 # <a name="exposing-owner-drawn-menu-items"></a>Предоставление Owner-Drawn пунктов меню
 
@@ -66,9 +66,9 @@ struct MenuInfo
 
 При добавлении элементов в меню передайте указатель на экземпляр структуры, содержащий [**мсааменуинфо**](/windows/win32/api/oleacc/ns-oleacc-msaamenuinfo) , чтобы предоставить имена пунктов меню.
 
- 
+ 
 
- 
+ 
 
 
 
