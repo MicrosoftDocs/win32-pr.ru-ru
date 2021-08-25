@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dfe48afce1e8fd2350f1d1b696eb426a326ade1b30151e872afee30c0ed997f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910514"
 ---
 # <a name="idelaydcpause-method"></a>Иделайдк: метод:P Аусе
 
@@ -50,8 +50,8 @@ HRESULT STDMETHODCALLTYPE Pause();
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ приостановлена**</dt> </dl> | Запись уже находится в приостановленном состоянии.<br/>                                                                                  |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl>  | НПП не захватывает данные. Вызовите [иделайдк:: Start](idelaydc-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. Вызовите [иделайдк:: Connect](idelaydc-connect.md) , чтобы подключить НПП к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>    | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>  | НПП не подключен к сети. вызовите [иделайдк:: Подключение](idelaydc-connect.md) , чтобы подключить нпп к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>    | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/>                     |
 
 
 
@@ -80,14 +80,14 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: Resume](idelaydc-resume.md)

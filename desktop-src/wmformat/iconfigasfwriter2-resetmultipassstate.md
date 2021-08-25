@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ed61e4f0517822a602f2bb88c944bba82fa1f943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f10563ed716b6b33258fe57ff8129bff78b401170db1512566015d0b05d54dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839874"
 ---
 # <a name="iconfigasfwriter2resetmultipassstate-method"></a>Метод IConfigAsfWriter2:: Ресетмултипассстате
 
@@ -54,7 +54,7 @@ HRESULT ResetMultiPassState();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод должен вызываться для сброса внутреннего состояния фильтра при отмене этапа кодирования предварительной обработки до того, как фильтр получил событие **\_ \_ завершения предварительной обработки** . Нет необходимости вызывать этот метод, если процесс кодирования предварительной обработки завершается без ошибок.
 

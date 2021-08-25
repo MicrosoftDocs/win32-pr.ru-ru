@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 766c9d1bda678a494ddeb2e20feb61016cce19a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9780c1ab851200061b2ae380254c4c06d82ee60c3d6bc932e9b6f31302a55557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891974"
 ---
 # <a name="idcompositionrotatetransform3dsetangle-methods"></a>Методы IDCompositionRotateTransform3D:: Сетангле
 
@@ -34,21 +34,21 @@ ms.locfileid: "104490902"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
-| Header<br/>                   | <dl> <dt>Дкомп. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | только Windows 8 \[ настольных приложений\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2012\]<br/>                                 |
+| Заголовок<br/>                   | <dl> <dt>Дкомп. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>Дкомп. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

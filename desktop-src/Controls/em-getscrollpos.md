@@ -3,7 +3,7 @@ title: Сообщение EM_GETSCROLLPOS (RichEdit. h)
 description: Получает текущую точку прокрутки элемента управления "поле ввода".
 ms.assetid: 26e122da-f1b4-4694-978c-ff678dad5d9f
 keywords:
-- Элементы управления Windows для EM_GETSCROLLPOS сообщений
+- элементы управления Windows сообщений EM_GETSCROLLPOS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70458abca94e483f8e202f13ecaed3df04a68366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42bde137096ae3c13582017f91b82c1eb9100097bb76f0d1babb91fa47b52196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800034"
 ---
 # <a name="em_getscrollpos-message"></a>\_Сообщение ЖЕТСКРОЛЛПОС EM
 
@@ -47,24 +47,24 @@ ms.locfileid: "104490377"
 
 Это сообщение всегда возвращает значение 1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения, возвращаемые в структуре [**Point**](/previous-versions//dd162805(v=vs.85)) , представляют собой 16-разрядные значения (даже в 32-разрядных полях).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Распространяемые компоненты<br/>          | Расширенное редактирование 3,0<br/>                                                              |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

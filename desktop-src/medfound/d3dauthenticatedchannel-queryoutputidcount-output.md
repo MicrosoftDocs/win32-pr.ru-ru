@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 86a840de2b36b7089b31d15e8375c17a0610b77f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c97f55d05aff3feb1857456ec04c4fa48872487decc5812912081b894896dce2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777554"
 ---
 # <a name="d3dauthenticatedchannel_queryoutputidcount_output-structure"></a>\_ \_ Выходная структура D3DAUTHENTICATEDCHANNEL куерйоутпутидкаунт
 
@@ -78,9 +78,9 @@ typedef struct _D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTIDCOUNT_OUTPUT {
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
-| Header<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

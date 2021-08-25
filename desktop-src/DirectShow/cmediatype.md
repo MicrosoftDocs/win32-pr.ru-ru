@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f91578f91840c316347c6266e678357e31c8a284
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49680848fc764cdbbdfeaf3bea363f29427a745297ef4fb39bca09159aa582f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831953"
 ---
 # <a name="cmediatype-class"></a>Класс Кмедиатипе
 
@@ -39,7 +39,7 @@ ms.locfileid: "105665500"
 | [**IsValid**](cmediatype-isvalid.md)                               | Определяет, был ли присвоен основной тип этому объекту.              |
 | [**Тип**](cmediatype-type.md)                                     | Извлекает основной тип.                                                      |
 | [**сеттипе**](cmediatype-settype.md)                               | Указывает основной тип.                                                      |
-| [**Subtype**](cmediatype-subtype.md)                               | Извлекает подтип.                                                         |
+| [**Подтип**](cmediatype-subtype.md)                               | Извлекает подтип.                                                         |
 | [**сетсубтипе**](cmediatype-setsubtype.md)                         | Указывает подтип.                                                         |
 | [**IsFixedSize**](cmediatype-isfixedsize.md)                       | Определяет, имеют ли образцы фиксированный размер или переменный размер.                |
 | [**истемпоралкомпрессед**](cmediatype-istemporalcompressed.md)     | Определяет, использует ли поток временное сжатие.                            |
@@ -50,7 +50,7 @@ ms.locfileid: "105665500"
 | [**Формат**](cmediatype-format.md)                                 | Получает указатель на блок формата.                                       |
 | [**форматленгс**](cmediatype-formatlength.md)                     | Получает длину блока форматирования.                                      |
 | [**сетформаттипе**](cmediatype-setformattype.md)                   | Определяет тип формата.                                                     |
-| [**форматтипе**](cmediatype-formattype.md)                         | Возвращает тип формата.                                                     |
+| [**FormatType**](cmediatype-formattype.md)                         | Возвращает тип формата.                                                     |
 | [**сетформат**](cmediatype-setformat.md)                           | Задает блок формата.                                                    |
 | [**ресетформатбуффер**](cmediatype-resetformatbuffer.md)           | Удаляет блок формата.                                                      |
 | [**аллокформатбуффер**](cmediatype-allocformatbuffer.md)           | Выделяет память для блока Format.                                         |
@@ -67,13 +67,13 @@ ms.locfileid: "105665500"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>мтипе. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -1,34 +1,34 @@
 - name: Установщик Windows
   href: windows-installer-portal.md
   items:
-    - name: Руководство по установщик Windows документации
+    - name: руководство по установщик Windows документации
       href: roadmap-to-windows-installer-documentation.md
       items:
-        - name: Руководство на основе ролей для установщик Windows документации
+        - name: руководство на основе ролей для установщик Windows документации
           href: role-based-guide-to-windows-installer-documentation.md
-        - name: Другие источники сведений о установщик Windows
+        - name: другие источники сведений о установщик Windows
           href: other-sources-of-windows-installer-information.md
-        - name: Рекомендации по установщик Windows
+        - name: Windows Рекомендации по использованию установщика
           href: windows-installer-best-practices.md
-    - name: Новые возможности установщик Windows
+    - name: новые возможности установщик Windows
       href: what-s-new-in-windows-installer.md
       items:
-        - name: 'Новые возможности установщик Windows 5,0'
+        - name: 'новые возможности установщик Windows 5,0'
           href: what-s-new-in-windows-installer-5-0.md
-        - name: 'Не поддерживается в установщик Windows 4,5'
+        - name: 'не поддерживается в установщик Windows 4,5'
           href: not-supported-in-windows-installer-4-5.md
-        - name: 'Не поддерживается в установщик Windows 4,0'
+        - name: 'не поддерживается в установщик Windows 4,0'
           href: not-supported-in-windows-installer-4-0.md
-        - name: 'Не поддерживается в установщик Windows 3,1'
+        - name: 'не поддерживается в установщик Windows 3,1'
           href: not-supported-in-windows-installer-version-3-1.md
-        - name: 'Не поддерживается в установщик Windows 3,0'
+        - name: 'не поддерживается в установщик Windows 3,0'
           href: not-supported-in-windows-installer-version-3-0.md
-        - name: 'Не поддерживается в установщик Windows 2,0'
+        - name: 'не поддерживается в установщик Windows 2,0'
           href: not-supported-in-windows-installer-version-2-0.md
-    - name: О установщик Windows
+    - name: о установщик Windows
       href: about-windows-installer.md
       items:
-        - name: Общие сведения о установщик Windows
+        - name: общие сведения о установщик Windows
           href: overview-of-windows-installer.md
           items:
             - name: Пакет установки
@@ -36,15 +36,15 @@
             - name: Компоненты и компоненты
               href: components-and-features.md
               items:
-                - name: Компоненты установщик Windows
+                - name: Windows Компоненты установщика
                   href: windows-installer-components.md
-                - name: установщик Windows функции
+                - name: Windows Функции установщика
                   href: windows-installer-features.md
             - name: Механизм установки
               href: installation-mechanism.md
             - name: Управление компонентами
               href: component-management.md
-            - name: Рекламу
+            - name: Реклама
               href: advertisement.md
               items:
                 - name: Поддержка платформ объявления
@@ -61,7 +61,7 @@
           href: rollback-installation.md
         - name: Установка обслуживания
           href: maintenance-installation.md
-        - name: установщик Windows расширений имен файлов
+        - name: Windows Расширения имен файлов установщика
           href: windows-installer-file-extensions.md
         - name: Параметры командной строки
           href: command-line-options.md
@@ -145,9 +145,9 @@
           items:
             - name: Политика устойчивости источника
               href: source-resiliency-policy-windows-installer-version-2-0.md
-        - name: Использование установщик Windows и защита ресурсов Windows
+        - name: использование установщик Windows и защита ресурсов Windows
           href: windows-resource-protection-on-windows-vista.md
-        - name: Точки восстановления системы и установщик Windows
+        - name: точки восстановления системы и установщик Windows
           href: system-restore-points-and-the-windows-installer.md
         - name: Правила управления версиями файлов
           href: file-versioning-rules.md
@@ -171,7 +171,7 @@
           href: merges-and-transforms.md
         - name: Компоненты с квалификаторами
           href: qualified-components.md
-        - name: Ведение журнала установщик Windows
+        - name: Windows Ведение журнала установщика
           href: windows-installer-logging.md
           items:
             - name: Нормальное ведение журнала
@@ -195,7 +195,7 @@
               href: removal-of-isolated-components.md
         - name: Контекст установки
           href: installation-context.md
-    - name: Использование установщик Windows
+    - name: использование установщик Windows
       href: using-windows-installer.md
       items:
         - name: Упорядочение приложений по компонентам
@@ -226,7 +226,7 @@
               href: '-msiexecute-mutex.md'
             - name: __MsiPromptForCD мьютекс
               href: '--msipromptforcd-mutex.md'
-        - name: Настройка установки и удаления программ с помощью установщик Windows
+        - name: настройка установки и удаления программ с помощью установщик Windows
           href: configuring-add-remove-programs-with-windows-installer.md
         - name: Использование ящиков и сжатых источников
           href: using-cabinets-and-compressed-sources.md
@@ -243,10 +243,10 @@
           href: using-qualified-components.md
         - name: Использование транзитивных компонентов
           href: using-transitive-components.md
-        - name: Локализация пакета установщик Windows
+        - name: локализация пакета установщик Windows
           href: localizing-a-windows-installer-package.md
           items:
-            - name: Обработка кодовой страницы (установщик Windows)
+            - name: обработка кодовой страницы (установщик Windows)
               href: code-page-handling-windows-installer-.md
               items:
                 - name: Обработка кодовой страницы импортированных и экспортированных таблиц
@@ -263,9 +263,9 @@
               href: localizing-the-language-displayed-by-dialogs.md
             - name: Настройка кодовой страницы базы данных
               href: setting-the-code-page-of-a-database.md
-            - name: Подготовка пакета установщик Windows для локализации
+            - name: подготовка пакета установщик Windows для локализации
               href: preparing-a-windows-installer-package-for-localization.md
-        - name: 'Поиск существующих приложений, файлов, записей реестра или INI-файлов'
+        - name: 'Поиск существующих приложений, файлов, записей реестра или записей .ini файлов'
           href: searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md
           items:
             - name: Поиск файла во всех фиксированных дисках
@@ -303,7 +303,7 @@
               href: authoring-multiple-instances-with-instance-transforms.md
             - name: Установка нескольких экземпляров с преобразованиями экземпляров
               href: installing-multiple-instances-with-instance-transforms.md
-        - name: Использование установщик Windows с сервером терминалов
+        - name: использование установщик Windows с сервером терминалов
           href: using-windows-installer-with-a-terminal-server.md
         - name: Управление состояниями выбора компонентов
           href: controlling-feature-selection-states.md
@@ -327,21 +327,21 @@
               href: make-a-com-component-in-an-existing-package-private.md
             - name: 'Создание частного компонента, не являющегося компонентом COM, в существующем пакете'
               href: make-a-non-com-component-in-an-existing-package-private.md
-        - name: Определение версии установщик Windows
+        - name: определение версии установщик Windows
           href: determining-the-windows-installer-version.md
-        - name: Установка приложения COM+ с установщик Windows
+        - name: установка приложения COM+ с установщик Windows
           href: installing-a-com--application-with-the-windows-installer.md
         - name: Добавление или удаление разделов реестра при установке или удалении компонентов
           href: adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md
         - name: Добавление и удаление приложения без трассировки в реестре
           href: adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md
-        - name: Уменьшение размера MSI файла
+        - name: Уменьшение размера файла .msi
           href: reducing-the-size-of-an--msi-file.md
         - name: Изменение целевого расположения каталога
           href: changing-the-target-location-for-a-directory.md
         - name: Скрытие кнопки "Отмена" во время установки
           href: hiding-the-cancel-button-during-an-installation.md
-        - name: Использование установщик Windows с UAC
+        - name: использование установщик Windows с UAC
           href: using-windows-installer-with-uac.md
           items:
             - name: Рекомендации по пакетам
@@ -352,12 +352,12 @@
               href: installing-a-package-with-elevated-privileges-for-a-non-admin.md
             - name: Объявление приложения Per-User для установки с повышенными привилегиями
               href: advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md
-        - name: Использование установщик Windows с диспетчером перезапуска
+        - name: использование установщик Windows с диспетчером перезапуска
           href: using-windows-installer-with-restart-manager.md
           items:
             - name: Использование диспетчера перезапуска с внешним пользовательским интерфейсом
               href: using-restart-manager-with-an-external-ui-.md
-        - name: Использование установщик Windows с WMI
+        - name: использование установщик Windows с WMI
           href: using-windows-installer-with-wmi.md
         - name: Перечисление компонентов
           href: enumerating-components-.md
@@ -365,15 +365,15 @@
           href: using-services-configuration.md
         - name: Создание отдельных пакетов
           href: single-package-authoring.md
-    - name: установщик Windows Guide
+    - name: Windows Справочное руководством по установщику
       href: windows-installer-guide.md
       items:
-        - name: Цифровые подписи и установщик Windows
+        - name: цифровые подписи и установщик Windows
           href: digital-signatures-and-windows-installer.md
           items:
             - name: Цифровые подписи и внешние CAB-файлы
               href: digital-signatures-and-external-cabinet-files.md
-            - name: установщик Windows и политика ограниченного использования программ
+            - name: Windows Установщик и политика ограниченного использования программ
               href: windows-installer-and-software-restriction-policy.md
             - name: Создание полностью проверенной подписанной установки
               href: authoring-a-fully-verified-signed-installation.md
@@ -397,9 +397,9 @@
                       href: private-assemblies.md
                     - name: Параллельные сборки
                       href: side-by-side-assemblies.md
-                    - name: Установка сборок Win32 для параллельного совместного использования в Windows XP
+                    - name: установка сборок Win32 для параллельного совместного использования в Windows XP
                       href: installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md
-                    - name: Установка сборок Win32 для закрытого использования приложения в Windows XP
+                    - name: установка сборок Win32 для частного использования приложения в Windows XP
                       href: installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md
                 - name: Установка сборок среды CLR
                   href: installation-of-common-language-runtime-assemblies.md
@@ -414,7 +414,7 @@
               href: updating-assemblies.md
             - name: Режимы переустановки сборок среды CLR
               href: reinstallation-modes-of-common-language-runtime-assemblies.md
-            - name: 'Разделы реестра сборки, записанные установщик Windows'
+            - name: 'разделы реестра сборки, записанные установщик Windows'
               href: assembly-registry-keys-written-by-windows-installer-.md
         - name: Пользовательский интерфейс
           href: user-interface.md
@@ -463,9 +463,9 @@
                       href: handling-progress-messages-using-msisetexternalui.md
                     - name: Возвращение значений из внешнего обработчика пользовательского интерфейса
                       href: returning-values-from-an-external-user-interface-handler.md
-                    - name: Синтаксический анализ сообщений установщик Windows
+                    - name: синтаксический анализ сообщений установщик Windows
                       href: parsing-windows-installer-messages.md
-                - name: Отправка сообщений в установщик Windows с помощью Мсипроцессмессаже
+                - name: отправка сообщений в установщик Windows с помощью мсипроцессмессаже
                   href: sending-messages-to-windows-installer-using-msiprocessmessage.md
                 - name: Отображение объявлений в немодальном диалоговом окне
                   href: displaying-billboards-on-a-modeless-dialog.md
@@ -951,7 +951,7 @@
                   href: executable-files.md
                 - name: Библиотеки Dynamic-Link
                   href: dynamic-link-libraries.md
-                - name: Скрипты
+                - name: Сценарии
                   href: scripts.md
                 - name: Настраиваемые действия форматированного текста
                   href: formatted-text-custom-actions.md
@@ -1071,7 +1071,7 @@
                   href: custom-action-return-processing-options.md
                 - name: Возвращаемые значения настраиваемого действия
                   href: custom-action-return-values.md
-                - name: Возвращаемые значения настраиваемых действий JScript и VBScript
+                - name: возвращаемые значения JScript и настраиваемых действий VBScript
                   href: return-values-of-jscript-and-vbscript-custom-actions.md
         - name: Свойства
           href: properties.md
@@ -1989,11 +1989,11 @@
                       href: authoring-user-interfaces-in-merge-modules.md
                     - name: Создание таблиц реестра для модуля слияния
                       href: authoring-merge-module-registry-tables.md
-                    - name: Создание сводных информационных потоков для модуля слияния
+                    - name: создание сводных данных о модуле слияния Потоки
                       href: authoring-merge-module-summary-information-streams.md
                     - name: Проверка модулей слияния
                       href: validating-merge-modules.md
-                    - name: Добавление потоков сведений о файлах readme в модули слияния
+                    - name: добавление сведений о файле Readme Потоки в модули слияния
                       href: adding-readme-information-streams-to-merge-modules.md
                 - name: Использование 64-разрядных модулей слияния
                   href: using-64-bit-merge-modules.md
@@ -2113,7 +2113,7 @@
                               href: merge-closemodule.md
                             - name: 'Конфигураблеитемс, свойство'
                               href: merge-configurableitems.md
-                            - name: Метод Connect
+                            - name: Подключение Method
                               href: merge-connect.md
                             - name: Метод Креатесаурцеимаже
                               href: merge-createsourceimage.md
@@ -2214,7 +2214,7 @@
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
                             - name: Метод Клосемодуле
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
-                            - name: Метод Connect
+                            - name: Подключение Method
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
                             - name: Метод Креатесаурцеимаже
                               href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
@@ -2349,31 +2349,31 @@
                           href: arbitrary-bitfield-type.md
                 - name: Пример настраиваемого компонента
                   href: configurable-component-example.md
-        - name: Начальная загрузка установщик Windows
+        - name: Windows Начальная загрузка установщика
           href: windows-installer-bootstrapping.md
           items:
-            - name: Начальной загрузки
+            - name: Начальная загрузка
               href: bootstrapping.md
             - name: Начальная загрузка со скачиванием из Интернета
               href: internet-download-bootstrapping.md
-        - name: Установщик Windows в 64-разрядных операционных системах
+        - name: Windows Установщик на 64-разрядных операционных системах
           href: windows-installer-on-64-bit-operating-systems.md
           items:
-            - name: Сведения о установщик Windows в 64-разрядных операционных системах
+            - name: сведения о установщик Windows в 64-разрядных операционных системах
               href: about-windows-installer-on-64-bit-operating-systems.md
               items:
                 - name: 32-разрядные пакеты установщик Windows
                   href: 32-bit-windows-installer-packages.md
                 - name: 64-разрядные пакеты установщик Windows
                   href: 64-bit-windows-installer-packages.md
-            - name: Использование 64-разрядных пакетов установщик Windows
+            - name: использование 64-разрядных пакетов установщик Windows
               href: using-64-bit-windows-installer-packages.md
               items:
                 - name: 64-разрядные пользовательские действия
                   href: 64-bit-custom-actions.md
-        - name: Требования к установщик Windows и логотипам
+        - name: Windows Требования к установщику и логотипам
           href: windows-installer-and-logo-requirements.md
-    - name: Примеры установщик Windows
+    - name: Windows Примеры установщика
       href: windows-installer-examples.md
       items:
         - name: Пример установки
@@ -2496,7 +2496,7 @@
               href: sign-setup-exe-and-mysetup-msi.md
             - name: Установка ссылки HTML на Setup.exe
               href: establish-an-html-reference-to-setup-exe.md
-        - name: Примеры сценариев установщик Windows
+        - name: Windows Примеры сценариев для установщика
           href: windows-installer-scripting-examples.md
           items:
             - name: 'Вывод списка продуктов, свойств, компонентов и компонентов'
@@ -2507,7 +2507,7 @@
               href: export-files.md
             - name: Управление подхранилищами
               href: manage-substorages.md
-            - name: Управление двоичными потоками
+            - name: управление двоичными Потоки
               href: manage-binary-streams.md
             - name: Объединение двух баз данных
               href: merge-two-databases.md
@@ -2533,7 +2533,7 @@
               href: manage-file-sizes-and-versions.md
             - name: Создать CAB-файл
               href: generate-file-cabinet.md
-            - name: Выполнение инструкций SQL
+            - name: выполнение инструкций SQL
               href: execute-sql-statements.md
             - name: Копирование файла ANSI в поле базы данных
               href: copy-ansi-file-into-a-database-field.md
@@ -2545,7 +2545,7 @@
               href: preview-user-interface.md
         - name: Пример создания отдельного пакета
           href: single-package-authoring-example.md
-    - name: Справочник по установщик Windows
+    - name: Windows Справочник по установщику
       href: windows-installer-reference.md
       items:
         - name: Интерфейс автоматизации
@@ -3223,12 +3223,12 @@
                   items:
                     - name: Имена таблиц
                       href: table-names.md
-                - name: Ограничения для потоков OLE
+                - name: ограничения OLE на Потоки
                   href: ole-limitations-on-streams.md
                 - name: Работа с запросами
                   href: working-with-queries.md
                   items:
-                    - name: Примеры запросов к базе данных с помощью SQL и скрипта
+                    - name: примеры запросов к базе данных с помощью SQL и сценария
                       href: examples-of-database-queries-using-sql-and-script.md
                 - name: Работа с записями
                   href: working-with-records.md
@@ -3259,7 +3259,7 @@
                   items:
                     - name: Синтаксис SQL
                       href: sql-syntax.md
-                    - name: Передача значения NULL в качестве аргумента функций установщик Windows
+                    - name: передача значения null в качестве аргумента функций установщик Windows
                       href: passing-null-as-the-argument-of-windows-installer-functions.md
                     - name: мсикреатерекорд
                       href: /windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord
@@ -3391,7 +3391,7 @@
                     - name: Типы данных столбцов
                       href: column-data-types.md
                       items:
-                        - name: текст
+                        - name: Текст
                           href: text.md
                         - name: UpperCase
                           href: uppercase.md
@@ -3654,13 +3654,13 @@
         - name: 'Выпущенные версии, средства и распространяемые пакеты'
           href: released-versions-tools-and-redistributables.md
           items:
-            - name: Windows SDK компонентов для разработчиков установщик Windows
+            - name: Windows компоненты пакета SDK для установщик Windows разработчиков
               href: platform-sdk-components-for-windows-installer-developers.md
             - name: Распространяемые компоненты установщика Windows
               href: windows-installer-redistributables.md
-            - name: Выпущенные версии установщик Windows
+            - name: выпущенные версии установщик Windows
               href: released-versions-of-windows-installer.md
-            - name: Средства разработки установщик Windows
+            - name: Windows Средства разработки установщика
               href: windows-installer-development-tools.md
               items:
                 - name: Instmsi.exe
@@ -3733,7 +3733,7 @@
         - name: Справочник по ошибкам
           href: errors-reference.md
           items:
-            - name: установщик Windows сообщения об ошибках
+            - name: Windows Сообщения об ошибках установщика
               href: windows-installer-error-messages.md
             - name: Сообщения об ошибках MsiExec.exe и InstMsi.exe
               href: error-codes.md

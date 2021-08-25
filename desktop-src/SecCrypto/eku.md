@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ff397ae747ecd09dd1292e5c15eb4291692d9651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd887204abc31583e596e94c25b64addcfe8109e6432845d25d939fd8e79e2d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875144"
 ---
 # <a name="eku-object"></a>Объект EKU
 
@@ -32,7 +32,7 @@ ms.locfileid: "105669121"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **EKU** имеет следующие свойства.
 
@@ -47,7 +47,7 @@ ms.locfileid: "105669121"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Объект **EKU** используется следующей коллекцией и свойством:
 
@@ -56,7 +56,7 @@ ms.locfileid: "105669121"
 
 Не удается создать объект **EKU** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

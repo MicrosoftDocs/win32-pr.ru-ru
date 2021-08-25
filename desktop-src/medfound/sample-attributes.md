@@ -4,12 +4,12 @@ ms.assetid: 64aead5a-61c4-4e83-a556-af33e0aa82be
 title: Примеры атрибутов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1329946c36b1b7454deb76a25247985d9dcfdd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56593978a411b314e6e988c031ee36869c4ea44212fd7f154e3ba18478400b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776984"
 ---
 # <a name="sample-attributes"></a>Примеры атрибутов
 
@@ -58,7 +58,7 @@ ms.locfileid: "104543815"
 
 Не каждый пример носителя содержит все перечисленные здесь атрибуты. В некоторых случаях атрибут применяется только к определенным типам данных. Например, некоторые атрибуты применяются только к образцам видео и не должны отображаться в образцах аудио. В других случаях атрибут имеет значение по умолчанию, которое применяется, если атрибут не задан.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

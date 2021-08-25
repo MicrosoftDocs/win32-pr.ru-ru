@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: fcbd61476458b5ed906ee57af6ab22b35f0378d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c99ef5b648c5503743de6f51ce7d035d75dbe1f3e5593d473a374813f4000566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780244"
 ---
 # <a name="dot11_cipher_algorithm-enumeration"></a>\_ \_ Перечисление алгоритма шифрования DOT11
 
@@ -125,9 +125,9 @@ typedef enum _DOT11_CIPHER_ALGORITHM {
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista, Windows XP с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                        |
-| Распространяемые компоненты<br/>          | Интерфейс API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                                                         |
-| Header<br/>                   | <dl> <dt>Влантипес. h (включение Windot11. h)</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                        |
+| Распространяемые компоненты<br/>          | API беспроводной локальной сети для Windows XP с пакетом обновления 2 (SP2)<br/>                                                         |
+| Заголовок<br/>                   | <dl> <dt>Влантипес. h (включение Windot11. h)</dt> </dl> |
 
 
 

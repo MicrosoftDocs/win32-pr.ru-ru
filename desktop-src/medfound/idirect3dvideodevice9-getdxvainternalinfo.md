@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - dxva.h
-ms.openlocfilehash: aa512130b622d192acc37d8c309f462f8ecc87e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd15dfdbd35db56262487482e811210970852dcee4e791d710e0551b84e9e620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777214"
 ---
 # <a name="idirect3dvideodevice9getdxvainternalinfo-method"></a>Метод IDirect3DVideoDevice9:: Жетдксваинтерналинфо
 
@@ -72,9 +72,9 @@ HRESULT GetDXVAInternalInfo(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Дксва. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Дксва. h</dt> </dl> |
 
 
 

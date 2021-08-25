@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9ec294600fdc81f085bf29f5e664bcbec961417c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b94f6c6ff61acb526e972da54c55798524b39b1663dec1239e9e2dbae0110e6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827754"
 ---
 # <a name="win32_systemtimezone-class"></a>\_Класс Win32 системтимезоне
 
@@ -46,7 +46,7 @@ class Win32_SystemTimeZone : Win32_SystemSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ системтимезоне** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_SystemTimeZone : Win32_SystemSetting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ системтимезоне** является производным от [**Win32 \_ системсеттинг**](win32-systemsetting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ class Win32_SystemTimeZone : Win32_SystemSetting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

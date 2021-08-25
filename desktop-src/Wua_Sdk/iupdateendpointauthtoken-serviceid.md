@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 8384baa0a4f8bb48e603e0f2f8bed417e783b7f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd7e15059db01062fae290d9c4da46a9ef07683acae9f2e58afe29830817c787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855794"
 ---
 # <a name="iupdateendpointauthtokenserviceid-method"></a>Метод Иупдатиндпоинтаустокен:: ServiceID
 
@@ -48,7 +48,7 @@ HRESULT ServiceID(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-При успешном выполнении возвращает значение **\_ ОК** . В противном случае возвращает код ошибки COM или Windows.
+При успешном выполнении возвращает значение **\_ ОК** . в противном случае возвращает код ошибки COM или Windows.
 
 ## <a name="requirements"></a>Требования
 
@@ -56,9 +56,9 @@ HRESULT ServiceID(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
-| Header<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                   |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
+| Заголовок<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Упдатиндпоинтаус. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Упдатиндпоинтаус. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |

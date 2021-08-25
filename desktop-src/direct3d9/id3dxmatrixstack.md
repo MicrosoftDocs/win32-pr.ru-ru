@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 62681c468fa7e78e6fd08c458798d98b467b992e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8fa483be72d29cc869b2bd468cff25033a80187bef69317af4894fc05b096dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856454"
 ---
 # <a name="id3dxmatrixstack-interface"></a>Интерфейс ID3DXMATRIXStack
 
@@ -45,7 +45,7 @@ ms.locfileid: "108093322"
 | [**мултматрикс**](id3dxmatrixstack--multmatrix.md)                           | Определяет произведение текущей матрицы и заданную матрицу.<br/>                                                              |
 | [**мултматрикслокал**](id3dxmatrixstack--multmatrixlocal.md)                 | Определяет произведение заданной матрицы и текущей матрицы.<br/>                                                              |
 | [**Рор**](id3dxmatrixstack--pop.md)                                         | Удаляет текущую матрицу из верхней части стека.<br/>                                                                           |
-| [**push**](id3dxmatrixstack--push.md)                                       | Добавляет матрицу в стек.<br/>                                                                                                     |
+| [**Распространение**](id3dxmatrixstack--push.md)                                       | Добавляет матрицу в стек.<br/>                                                                                                     |
 | [**ротатеаксис**](id3dxmatrixstack--rotateaxis.md)                           | Поворачивает (относительно мирового пространства координат) вокруг произвольной оси.<br/>                                                          |
 | [**ротатеаксислокал**](id3dxmatrixstack--rotateaxislocal.md)                 | Поворачивает (относительно локального пространства координат объекта) вокруг произвольной оси.<br/>                                             |
 | [**ротатэйавпитчролл**](id3dxmatrixstack--rotateyawpitchroll.md)           | Поворачивает (относительно мирового пространства координат) вокруг произвольной оси.<br/>                                                          |
@@ -73,13 +73,13 @@ typedef interface ID3DXMATRIXStack *LPD3DXMATRIXSTACK;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

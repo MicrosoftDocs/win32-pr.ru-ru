@@ -16,19 +16,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9e788a51e278df09715aaf9d4993ac5724ed65b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2cc80262b75bb170f14fa191f5a60e658cd371765714860f09a7bbcadcbcc369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854284"
 ---
 # <a name="iorpcdebugnotifyclientnotify-method"></a>Метод Иорпкдебугнотифи:: Клиентнотифи
 
 Информирует клиента о том, что исходящий запрос отладчика к серверу.
 
 > [!Note]  
-> Библиотека импорта, содержащая функцию **клиентнотифи** , не включена в пакет средств разработки программного обеспечения Microsoft Windows (SDK). Приложение может использовать функции [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) и [**Ошибка GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) для получения указателя на функцию [**дллдебугобжектрпчук**](dlldebugobjectrpchook.md) из oleaut.dll и предоставления этой функции через интерфейс [**иорпкдебугнотифи**](iorpcdebugnotify.md) .
+> библиотека импорта, содержащая функцию **клиентнотифи** , не включена в пакет средств разработки программного обеспечения (SDK) Microsoft Windows. Приложение может использовать функции [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) и [**Ошибка GetModuleHandle**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea) для получения указателя на функцию [**дллдебугобжектрпчук**](dlldebugobjectrpchook.md) из oleaut.dll и предоставления этой функции через интерфейс [**иорпкдебугнотифи**](iorpcdebugnotify.md) .
 
  
 
@@ -58,7 +58,7 @@ void ClientNotify(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ void ClientNotify(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

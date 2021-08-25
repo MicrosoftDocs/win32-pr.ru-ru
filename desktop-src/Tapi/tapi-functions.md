@@ -4,12 +4,12 @@ ms.assetid: 555d6af2-b440-4636-b90e-da297a369753
 title: Функции TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38532fa1c0b978e3e59e54b08fbc43152fa0bd64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f27ec2383f826efe5620ea44d3a643e46a90b08c7820548733238290bff26512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104545642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872914"
 ---
 # <a name="tapi-functions"></a>Функции TAPI
 
@@ -18,7 +18,7 @@ ms.locfileid: "104545642"
 -   [Функции телефонной связи](assisted-telephony-functions.md)
 -   [Функции центра обработки вызовов](call-center-functions.md)
 -   [Функции линейного устройства](line-device-functions.md)
--   [Функции телефонных устройств](phone-device-functions.md)
+-   [Телефон Функции устройства](phone-device-functions.md)
 
 Сведения о функциях TAPI, упорядоченных по уровням обслуживания и задачам, см. в разделе [Справочник по быстрой функции TAPI](tapi-quick-function-reference.md).
 

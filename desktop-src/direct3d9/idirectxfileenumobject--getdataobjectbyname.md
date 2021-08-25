@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 858097139702770d148765c4c9a57f6522d9633b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b5498833096a673226af60188397fb518f483b26d6b470021c590e16d190342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893204"
 ---
 # <a name="idirectxfileenumobjectgetdataobjectbyname-method"></a>Метод Идиректксфилинумобжект:: Жетдатаобжектбинаме
 
@@ -65,18 +65,18 @@ HRESULT GetDataObjectByName(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. Если метод завершается с ошибкой, возвращаемое значение может быть одним из следующих: ДКСФИЛИРР \_ бадвалуе, дксфилирр \_ NotFound.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

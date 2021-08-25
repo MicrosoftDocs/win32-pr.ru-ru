@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 967bd9674cb28363804b8c8af12c541bcb8675ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ad24ad2557401509c1bc1e076a545f05d1c03dd79fbcf73a05d3efccfdfb8886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910674"
 ---
 # <a name="idelaydcdisconnect-method"></a>Иделайдк::D метода соединения
 
@@ -50,7 +50,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**НМЕРР \_ запись**</dt> </dl>      | НПП захватывает данные. Невозможно отключить НПП от сети во время записи.<br/>            |
 | <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети.<br/>                                                               |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/> |
 
 
 
@@ -60,7 +60,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Этот метод не может быть вызван, когда НПП захватывает данные. Перед вызовом **Disconnect** необходимо вызвать метод **Иделайдк:: останавливаться** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -80,7 +80,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: останавливаться](idelaydc-stop.md)

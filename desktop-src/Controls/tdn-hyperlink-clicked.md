@@ -3,7 +3,7 @@ title: Код уведомления TDN_HYPERLINK_CLICKED (Коммктрл. h)
 description: Отправляется диалоговым окном задачи, когда пользователь щелкает гиперссылку в содержимом диалогового окна задачи. Этот код уведомления получается только через функцию обратного вызова диалогового окна задачи, которую можно зарегистрировать с помощью метода Таскдиалогиндирект.
 ms.assetid: b769af31-32d0-463e-be15-6abf5dcb425c
 keywords:
-- TDN_HYPERLINK_CLICKED кода уведомления элементы управления Windows
+- TDN_HYPERLINK_CLICKED кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edd79406eb59f9bafd93269f8982db6213ef882c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0adaf5ecf05b22e3ff33aa88e28cb3f8f8c8b78f0b06d2127792b7639942bf7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875774"
 ---
 # <a name="tdn_hyperlink_clicked-notification-code"></a>\_ \_ Код уведомления щелчка по ГИПЕРССЫЛКе ТДН
 
@@ -57,15 +57,15 @@ TDN_HYPERLINK_CLICKED
 
 Возвращаемое значение игнорируется.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

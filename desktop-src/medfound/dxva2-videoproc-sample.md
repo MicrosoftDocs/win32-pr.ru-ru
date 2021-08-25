@@ -4,12 +4,12 @@ ms.assetid: 1465bd41-94f9-4e19-8236-00e7a2d6f54a
 title: Пример DXVA2_VideoProc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8497a241baf07b76148a5bc2e7ddb4dd5e878e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 160fda9829398b97e7670bb2d1f8cc076c00cda77e1ad06131603603f6f49191
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828293"
 ---
 # <a name="dxva2_videoproc-sample"></a>\_Пример ВИДЕОПРОК DXVA2
 
@@ -28,7 +28,7 @@ ms.locfileid: "104342495"
 
 ## <a name="usage"></a>Использование
 
-Пример DXVA2 \_ видеопрок создает приложение Windows.
+пример DXVA2 \_ видеопрок создает приложение Windows.
 
 Параметры командной строки:
 
@@ -184,9 +184,9 @@ ms.locfileid: "104342495"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

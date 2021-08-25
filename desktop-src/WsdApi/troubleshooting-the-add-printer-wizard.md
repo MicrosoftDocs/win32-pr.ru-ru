@@ -4,12 +4,12 @@ ms.assetid: 3ffee09b-e980-4a14-97ad-270444457dd7
 title: Устранение неполадок мастера добавления принтера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3b0054758e3ec721598ad279a073a32862af368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d6c6971108b0f6fb46a373be47943a3ccbc7fcd97b830733c139653f991debd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860054"
 ---
 # <a name="troubleshooting-the-add-printer-wizard"></a>Устранение неполадок мастера добавления принтера
 
@@ -35,7 +35,7 @@ ms.locfileid: "105692804"
 
 Если источник проблемы не удается определить с помощью описанных выше процедур диагностики, следуйте инструкциям в статьях [Включение трассировки WSDAPI](enabling-wsdapi-tracing.md) и обратитесь в службу поддержки Майкрософт.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

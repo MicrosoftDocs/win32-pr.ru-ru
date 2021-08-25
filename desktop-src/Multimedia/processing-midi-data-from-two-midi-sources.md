@@ -3,7 +3,7 @@ title: Обработка данных MIDI из двух источников M
 description: Обработка данных MIDI из двух источников MIDI
 ms.assetid: d8b605d9-a12a-4830-8f29-ea700aefb41d
 keywords:
-- Мультимедиа Windows, обработка данных MIDI из двух источников
+- Windows мультимедиа, обработка данных MIDI из двух источников
 - мультимедиа, обработка данных MIDI из двух источников
 - мультимедийные аудио, обработка данных MIDI из двух источников
 - звук, обработка данных MIDI из двух источников
@@ -12,12 +12,12 @@ keywords:
 - обработка данных MIDI из двух источников
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 513dcd16036f6f833aec6813f75c6c082925f666
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9a5eb31c4c6b4b965321b7458d058a3547426b95236d6e0b52d6eb0f55b3e74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805794"
 ---
 # <a name="processing-midi-data-from-two-midi-sources"></a>Обработка данных MIDI из двух источников MIDI
 
@@ -29,6 +29,6 @@ ms.locfileid: "104069938"
 
 Каждое короткое сообщение, отправленное с помощью **мидиаутшортмсг** , должно быть полным сообщением MIDI с состоянием Byte и соответствующим числом байтов данных. Если байт состояния опущен, **мидиаутшортмсг** возвращает ошибку. (Однако отсутствует состояние выполнения с выходом потока.)
 
- 
+ 
 
- 
+ 

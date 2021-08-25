@@ -4,12 +4,12 @@ description: В этом разделе показано, как создать 
 ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3050498b87aaf701249a06cfe2c3ad18afdc1d84
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d71eddfb60a2ea035a5afe62423289da40a47b61841d3ba58c4cafa2824a65b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104488562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826614"
 ---
 # <a name="how-to-create-a-list-view-control"></a>Создание элемента управления List-View
 
@@ -17,16 +17,16 @@ ms.locfileid: "104488562"
 
 Элемент управления "представление списка" также можно создать как часть шаблона диалогового окна. В качестве имени класса необходимо указать [**WC \_ LISTVIEW**](common-control-window-classes.md) . Чтобы использовать элемент управления "список" как часть шаблона диалогового окна, необходимо вызвать [**иниткоммонконтролс**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) или [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) перед созданием экземпляра диалогового окна.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -109,7 +109,7 @@ VOID SetView(HWND hWndListView, DWORD dwView)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

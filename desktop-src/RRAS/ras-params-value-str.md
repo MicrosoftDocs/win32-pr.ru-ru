@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f8cc6d693b32b1bbe6f05e8d32ca31a48cfb29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07453b707012c966fc298cc61973cb056b42d741d861a22204c17eec5265317f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909604"
 ---
 # <a name="ras_params_value-union"></a>\_ \_ Объединение значений параметров RAS
 
-\[Объединение **\_ \_ значений параметров RAS** не поддерживается в Windows Vista.\]
+\[объединение **\_ \_ значений параметров RAS** не поддерживается в Windows Vista.\]
 
 Объединение **\_ \_ значений параметров RAS** используется в структуре [**\_ параметров RAS**](ras-parameters-str.md) для хранения данных, связанных с параметром носителя. Член **\_ типа P** структуры **\_ параметров RAS** использует значение из перечисления [**\_ \_ форматов params RAS**](ras-params-format-str.md) для указания типа значения, хранящегося в данный момент в **\_ \_ значении параметров RAS**.
 
@@ -76,7 +76,7 @@ typedef union RAS_PARAMS_VALUE {
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,11 +86,11 @@ typedef union RAS_PARAMS_VALUE {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

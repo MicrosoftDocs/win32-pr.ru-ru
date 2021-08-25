@@ -5,14 +5,14 @@ ms.tgt_platform: multiple
 title: '#pragma'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ae13d5f960e0b415f34dce97a40cff6cba8056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3cb9541ceef51119ce521244282920ca88397afe13290e99bdc14ce7d98ab55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860564"
 ---
-# <a name="pragma"></a>\#pragma
+# <a name="pragma"></a>\#включают
 
 Команда препроцессора **\# pragma** аналогична параметру командной строки. Однако вам не нужно вводить команду **\# директивы pragma** каждый раз при компиляции MOF-файла. В следующем примере показан синтаксис команды **\# pragma** :
 
@@ -37,7 +37,7 @@ ms.locfileid: "105693553"
 
 
 
-| Get-Help                                         | Описание                                                                                           |
+| Команда                                         | Описание                                                                                           |
 |-------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | [**дополнительного соглашения**](pragma-amendment.md)           | Направляет компилятор MOF для разделения MOF-файла на зависящие от языка и языковые версии. |
 | [**данные автовосстановления**](pragma-autorecover.md)       | Добавляет MOF-файл в список файлов, скомпилированных во время восстановления репозитория.                             |
@@ -51,7 +51,7 @@ ms.locfileid: "105693553"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

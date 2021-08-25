@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: e9f70d2d1a0caf63411fcd2b44d5ed8bdcbecd00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 814b419909591e45c07b3ed499072ec4871cdeb1f4c5a355277a03d0623d264c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890028"
 ---
 # <a name="nmcolumnvariant-structure"></a>Структура НМКОЛУМНВАРИАНТ
 
@@ -179,7 +179,7 @@ IP-адрес.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -191,7 +191,7 @@ IP-адрес.
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 5119da4e7efaf0c27db1065dacc56e3388a77474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d7d4daaec3d52b7aabafe61c5763304c400b6a36be1367e01b0a9163f2f9e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828684"
 ---
 # <a name="d3dauthenticatedquery_accessibilityattributes"></a>D3DAUTHENTICATEDQUERY \_ акцессибилитяттрибутес
 
@@ -36,7 +36,7 @@ ms.locfileid: "104423550"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот запрос также возвращает сведения о доступности содержимого при помещении в видеопамять.
 
@@ -45,19 +45,19 @@ ms.locfileid: "104423550"
 -   **\_Оборудование драйвера \_ D3DAUTHENTICATEDCHANNEL**
 -   **\_ \_ Программное обеспечение драйвера D3DAUTHENTICATEDCHANNEL**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                             |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                |
-| Header<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

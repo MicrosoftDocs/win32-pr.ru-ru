@@ -4,12 +4,12 @@ ms.assetid: aa01d17f-f2ac-4504-b278-3edd90ab8a23
 title: Атрибут MF_EVENT_SESSIONCAPS_DELTA (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 284a31a8d3fc661c15e7de991972455468efbd40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a2e227e5608296a9b30fa2fc68f37215d687349516367d8689b20825e1ed4e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714846"
 ---
 # <a name="mf_event_sessioncaps_delta-attribute"></a>\_ \_ \_ Разностный атрибут сессионкапс события MF
 
@@ -19,7 +19,7 @@ ms.locfileid: "104423801"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут содержит битовую маску, указывающую, какие флаги возможностей изменились. Список возможных флагов см. в разделе [**имфмедиасессион:: жетсессионкапабилитиес**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getsessioncapabilities). Биты имеют значение 1 в битовой маске по любой из следующих причин:
 
@@ -31,19 +31,19 @@ ms.locfileid: "104423801"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

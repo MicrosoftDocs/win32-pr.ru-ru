@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh558131(v=EXCHG.10)
 ms:contentKeyID: 39513665
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 95607171d6b89dc9b4ec7415ca2cce0710622207
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d65e7e2da255e71302c5f432b37b1c6d8a1157c7005c2197afea21c522a15c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833294"
 ---
 # <a name="jet_signature-operators"></a>Операторы JET_SIGNATURE
 
@@ -48,7 +48,7 @@ ms.locfileid: "104571713"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

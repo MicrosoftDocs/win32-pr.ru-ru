@@ -4,12 +4,12 @@ ms.assetid: 361ae90c-a2cf-4107-a2da-80f561a82c56
 title: Константы LINEOPENOPTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dee9182ff7a28627eebd695ce5d9c0877460b15e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0dc6a4780b366b2dce08110ecce40c7140ab1d0956d788dce5a67d5d0501b6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739254"
 ---
 # <a name="lineopenoption_-constants"></a>\_Константы линеопеноптион
 
@@ -37,7 +37,7 @@ ms.locfileid: "105679663"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о работе этих параметров см. в разделе [**линеопен**](/windows/desktop/api/Tapi/nf-tapi-lineopen) .
 
@@ -48,7 +48,7 @@ ms.locfileid: "105679663"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

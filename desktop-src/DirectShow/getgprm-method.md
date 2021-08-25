@@ -4,17 +4,17 @@ ms.assetid: 66afd2a5-6aa1-4280-93cf-dd3cfed2499d
 title: Метод Жетгпрм
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d82522f834a6f3bda8abefb492d5cc8b568872e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33c46307f1cbec49b4916cdbd528c2b22cfb42bf89a06285c5c779339786599d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812564"
 ---
 # <a name="getgprm-method"></a>Метод Жетгпрм
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -39,11 +39,11 @@ ms.locfileid: "104537886"
 
 Возвращает целочисленное значение, представляющее указанный регистр.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не требуется для навигации или воспроизведения DVD с помощью объекта **мсвебдвд** . Он предоставляется для тех, кто хорошо знаком со спецификацией DVD, которые хотят реализовать дополнительные функции. Гпрмс можно использовать для хранения любых значений, поэтому их можно свободно задавать и считывать. Но поскольку Гпрмс используются для хранения команд диска, изменение их значений с помощью [**сетгпрм**](setgprm-method.md) может привести к непредсказуемому поведению.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

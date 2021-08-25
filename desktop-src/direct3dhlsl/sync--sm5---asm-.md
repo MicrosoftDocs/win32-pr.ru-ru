@@ -4,12 +4,12 @@ description: Синхронизация группы потоков или ба�
 ms.assetid: DCA637FE-8F5C-41D0-8B5E-F913463BA387
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be072b51b4a18d9f1408df0907ec0a55131c18d2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: c5c64532669fc94d7d2109c39e501af0825e56434f66b79e20e1641c787a1a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852864"
 ---
 # <a name="sync-sm5---asm"></a>Синхронизация (SM5-ASM)
 
@@ -22,9 +22,9 @@ ms.locfileid: "104996999"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **Sync** содержит параметры \_ углобал, \_ уграуп, \_ g и \_ t.
 
@@ -115,7 +115,7 @@ ms.locfileid: "104996999"
 
 
 
- 
+ 
 
 Так как Уавс доступны на всех стадиях шейдера для Direct3D 11,1, вариант **Sync \_ углобал** этой инструкции применяется ко всем этапам шейдера для среды выполнения Direct3D 11,1, которая доступна начиная с Windows 8.
 
@@ -127,7 +127,7 @@ ms.locfileid: "104996999"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -137,7 +137,7 @@ ms.locfileid: "104996999"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -146,18 +146,18 @@ ms.locfileid: "104996999"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 5 (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

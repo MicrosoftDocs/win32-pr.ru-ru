@@ -3,7 +3,7 @@ title: Свойство SplitButton. Буттонитем
 description: Представляет контейнер для кнопки или выключателя, который предоставляет команду по умолчанию для разворачивающейся кнопки.
 ms.assetid: 3d46d606-238d-46d4-b92e-dfd759951770
 keywords:
-- Лента Windows свойства SplitButton. Буттонитем
+- свойство SplitButton. буттонитем Windows ленты
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf1e1cb908ce9a86f23f75d17bf2e76797997db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f49f316f7c740b434f761bbe4c00906c8f76b5027af9fcc87317af2a51960dab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840694"
 ---
 # <a name="splitbuttonbuttonitem-property"></a>Свойство SplitButton. Буттонитем
 
@@ -56,7 +56,7 @@ ms.locfileid: "104489657"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -143,18 +143,18 @@ ms.locfileid: "104489657"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

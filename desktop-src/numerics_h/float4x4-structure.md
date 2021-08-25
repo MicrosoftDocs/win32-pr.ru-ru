@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c91de5eef404db33eff118568540be912d551d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c918ee81ddac31d697ff3885e04e8cb530cd31a98f842c109f9d281786ee2539
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105721044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825274"
 ---
 # <a name="float4x4-structure"></a>Структура float4x4
 
@@ -104,7 +104,7 @@ ms.locfileid: "105721044"
 
 ## <a name="fields"></a>Поля
 
-| name | Описание |
+| Имя | Описание |
 |-|-|
 | `float m11` | Значение в строке 1 столбца 1 матрицы. |
 | `float m12` | Значение в строке 1 столбца 2 матрицы. |
@@ -123,13 +123,13 @@ ms.locfileid: "105721044"
 | `float m43` | В строке 4, столбец 3 матрицы. |
 | `float m44` | В строке 4 столбца 4 матрицы. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-|-|
-| Пространство имен | Windows:: Foundation:: numeric |
-| Header | <dl> <dt>Виндовснумерикс. h</dt> </dl> |
+| Пространство имен | Windows:: Foundation:: numerics |
+| Заголовок | <dl> <dt>Виндовснумерикс. h</dt> </dl> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [API-интерфейсы виндовснумерикс. h](windowsnumerics-h-apis-portal.md)

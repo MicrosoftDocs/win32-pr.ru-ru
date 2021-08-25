@@ -1,5 +1,5 @@
 ---
-description: '\_Часовой пояс Win32&\# 8194; Класс WMI представляет сведения о часовом поясе для компьютерной системы под Windows, включая изменения, необходимые для перехода на переход на летнее время.'
+description: '\_Часовой пояс Win32&\# 8194; класс WMI представляет сведения о часовом поясе для компьютерной системы, в которой выполняется Windows, включая изменения, необходимые для перехода на переход на летнее время.'
 ms.assetid: c1c7731e-768f-42ea-a36c-57b00df6848e
 ms.tgt_platform: multiple
 title: Класс Win32_TimeZone
@@ -38,16 +38,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 433682f045ca7fb127c7dc69e3a26ed8356371ed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02b6d9d5c6100a652cf50096f5ef513fc164cfcfd2d8036e8444adc702459d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827664"
 ---
 # <a name="win32_timezone-class"></a>\_Класс часового пояса Win32
 
- [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ TimeZone для Win32** представляет сведения о часовом поясе для компьютерной системы под Windows, включая изменения, необходимые для перехода на переход на летнее время.
+ [класс WMI](../wmisdk/retrieving-a-class.md) **\_ TimeZone для Win32** представляет сведения о часовом поясе для компьютерной системы, в которой выполняется Windows, включая изменения, необходимые для перехода на переход на летнее время.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -90,7 +90,7 @@ class Win32_TimeZone : CIM_Setting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ часового пояса Win32** имеет следующие свойства.
 
@@ -112,7 +112,7 @@ class Win32_TimeZone : CIM_Setting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -785,7 +785,7 @@ class Win32_TimeZone : CIM_Setting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ часового пояса Win32** является производным от [**\_ параметра CIM**](cim-setting.md).
 

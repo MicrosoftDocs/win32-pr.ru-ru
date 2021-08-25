@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31122c8ed57173c645ff63583f6d5615f84812b5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4c181161e426188de204a04f7aab063a706d28ef6a4dec71f5232a186b6280d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924344"
 ---
 # <a name="ms-ts-managingls2-attribute"></a>Атрибут MS-TS-ManagingLS2
 
@@ -55,8 +55,8 @@ ms.locfileid: "104535948"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | 0            |
@@ -76,8 +76,8 @@ ms.locfileid: "104535948"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | 0            |
@@ -97,8 +97,8 @@ ms.locfileid: "104535948"
 | Идентификатор ссылки                | \-           |
 | MAPI-Id                | \-           |
 | System-Only            | Неверно        |
-| Является однозначным       | True         |
-| Индексируется             | True         |
+| Является однозначным       | Верно         |
+| Индексируется             | Верно         |
 | В глобальном каталоге      | Неверно        |
 | NT-Security-дескриптор | О:БАГ: BAD: S: |
 | Range-Lower            | 0            |

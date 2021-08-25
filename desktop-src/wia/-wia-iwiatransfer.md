@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 623cc21591289f4c1fff33cabe1d504b3682708c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff19619b1f0ab46658d0876792248befd6940c525d5c7da1b3331f6ca1a8c12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813904"
 ---
 # <a name="iwiatransfer-interface"></a>Интерфейс Ивиатрансфер
 
@@ -40,7 +40,7 @@ ms.locfileid: "104263130"
 | Метод                                                                 | Описание                                                                                 |
 |:-----------------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**Отменить**](-wia-iwiatransfer-cancel.md)                             | Отменяет текущую операцию перемещения. <br/>                                         |
-| [**Скачать**](-wia-iwiatransfer-download.md)                         | Инициирует загрузку данных в вызывающий объект. <br/>                                        |
+| [**Загрузка**](-wia-iwiatransfer-download.md)                         | Инициирует загрузку данных в вызывающий объект. <br/>                                        |
 | [**\_ \_ Сведения о формате енумвиа**](-wia-iwiatransfer-enumwia-format-info.md) | Создает перечислитель для форматов перемещения, поддерживаемых устройством WIA 2,0.<br/> |
 | [**Передать**](-wia-iwiatransfer-upload.md)                             | Инициирует отправку данных одного элемента от вызывающего. <br/>                       |
 
@@ -48,7 +48,7 @@ ms.locfileid: "104263130"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **ивиатрансфер** , как и все интерфейсы модели компонентных объектов (com), наследует методы интерфейса [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) .
 
@@ -64,15 +64,15 @@ ms.locfileid: "104263130"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | IDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Библиотека<br/>                  | <dl> <dt>Виагуид. lib</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: E5284BEF-0D84-4A81-8671-A4E58057F43A
 title: System. Identity. Интернетсид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16578febbe05291da8d276cbb41a7b256497374c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b27cb6551ad3be550443ba975a68eab8999e05286da13b070b55b4866abfbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774964"
 ---
 # <a name="systemidentityinternetsid"></a>System. Identity. Интернетсид
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

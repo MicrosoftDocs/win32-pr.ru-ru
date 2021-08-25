@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: d235818130815c14cabf9a4f2ba51c0aa7d07f27
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: ee732a3cf67287790fd691cbf8b2b1592de31106abf08deb713bd6402afb971f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106389173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726706"
 ---
 # <a name="input-feedback-configuration-constants"></a>Константы конфигурации обратной связи ввода
 
@@ -44,13 +44,13 @@ ms.locfileid: "106389173"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                 |
 | Заголовок<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -3,12 +3,12 @@ description: Расширение буфера обмена с помощью п
 title: Создание обработчиков данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ecc08769068d975c1fa16ef1385f362c67e43c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0a3761b4dc8ce3e7d50d967d2267971537d3609e7a7cf76785623734558adac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715054"
 ---
 # <a name="how-to-create-data-handlers"></a>Создание обработчиков данных
 
@@ -18,7 +18,7 @@ ms.locfileid: "104997710"
 
 -   [Реализация обработчиков данных](#step-1-implementing-data-handlers)
 -   [Регистрация обработчиков данных](#step-2-registering-data-handlers)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="instructions"></a>Инструкции
 
@@ -54,7 +54,7 @@ HKEY_CLASSES_ROOT
             (Default) = {00000000-1111-2222-3333-444444444444}
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

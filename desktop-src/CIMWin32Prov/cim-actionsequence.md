@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 71150d1ad9785d81579d8f305fe46bc6b7e57d00
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a199671dd9f88cd81be50af537e156892e8cab653c70677de27c6e5df02f1d3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801084"
 ---
 # <a name="cim_actionsequence-class"></a>\_Класс CIM актионсекуенце
 
@@ -59,7 +59,7 @@ class CIM_ActionSequence
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ актионсекуенце** имеет следующие свойства.
 
@@ -97,7 +97,7 @@ class CIM_ActionSequence
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Классы [**\_ действий CIM**](cim-action.md) , участвующие в этой ассоциации, должны иметь одинаковое значение для свойства **Direction** .
 
@@ -105,7 +105,7 @@ class CIM_ActionSequence
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -119,7 +119,7 @@ class CIM_ActionSequence
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
