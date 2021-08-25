@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9c71db4063f5de6b48b2e8213f21ca1320a880fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51f4b1b22849fc5a6ae22f49c5c30411563efb9d133cf2440c301eabfde18e0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898074"
 ---
 # <a name="swbemproperty-object"></a>Объект SWbemProperty
 
@@ -32,7 +32,7 @@ ms.locfileid: "104272746"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **SWbemProperty** имеет следующие свойства.
 
@@ -44,7 +44,7 @@ ms.locfileid: "104272746"
 | [**IsArray**](swbemproperty-isarray.md)<br/>          | Только для чтения<br/>  | Логическое значение, указывающее, имеет ли это свойство тип массива.<br/>                                                   |
 | [**Локальный**](swbemproperty-islocal.md)<br/>          | Только для чтения<br/>  | Логическое значение, указывающее, является ли это свойство локальным.<br/>                                                            |
 | [**Имя**](swbemproperty-name.md)<br/>                | Только для чтения<br/>  | Имя этого свойства WMI.<br/>                                                                                         |
-| [**Лета**](swbemproperty-origin.md)<br/>            | Только для чтения<br/>  | Содержит исходный класс этого свойства.<br/>                                                                   |
+| [**Исходный домен**](swbemproperty-origin.md)<br/>            | Только для чтения<br/>  | Содержит исходный класс этого свойства.<br/>                                                                   |
 | [**Квалификаторы\_**](swbemproperty-qualifiers-.md)<br/> | Только для чтения<br/>  | Объект [**свбемкуалифиерсет**](swbemqualifierset.md) , являющийся коллекцией квалификаторов для этого свойства.<br/> |
 | [**Значение**](swbemproperty-value.md)<br/>              | Чтение/запись<br/> | Фактическое значение этого свойства. Это свойство автоматизации данного объекта по умолчанию.<br/>                             |
 
@@ -60,7 +60,7 @@ ms.locfileid: "104272746"
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMPROPERTY CLSID<br/>                                                         |

@@ -3,7 +3,7 @@ title: Сообщение MM_MCINOTIFY (Ммсистем. h)
 description: '\_Сообщение МЦИНОТИФИ mm уведомляет приложение о том, что устройство MCI завершило операцию. Устройства MCI отправляют это сообщение только при \_ использовании флага уведомления MCI.'
 ms.assetid: a0840130-2969-4ce5-b098-3e45401eebb1
 keywords:
-- MM_MCINOTIFY сообщения Windows мультимедиа
+- сообщение MM_MCINOTIFY Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ee62c4a2b6e17bf5ad6d719dcb7d6e992a2f2e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc03ab0406542472871f35ca3ff619d4d9a6f35725b9322a4c11bc73bc29a5aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807514"
 ---
 # <a name="mm_mcinotify-message"></a>MM \_ мЦинотифи, сообщение
 
@@ -69,7 +69,7 @@ lParam = (LONG) lDevID
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о \_ флаге уведомления MCI см. [в разделе флаг уведомления](the-notify-flag.md).
 
@@ -79,7 +79,7 @@ lParam = (LONG) lDevID
 
 Когда приложение запрашивает уведомление для команды, проверьте ошибку, возвращаемую функциями [**mciSendString**](/previous-versions//dd757161(v=vs.85)) или [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) . Если эти функции обнаруживают ошибку и возвращают ненулевое значение, MCI не установит уведомление для команды.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -87,11 +87,11 @@ lParam = (LONG) lDevID
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -107,7 +107,7 @@ lParam = (LONG) lDevID
 [**воспроизводит**](play.md)
 </dt> <dt>
 
-[**запись**](record.md)
+[**записать**](record.md)
 </dt> <dt>
 
 [**выход**](resume.md)

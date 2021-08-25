@@ -1,5 +1,5 @@
 ---
-description: Метод Путасинк \_ объекта SWbemObject асинхронно создает или обновляет объект экземпляра или класса для Инструментарий управления Windows (WMI) (WMI).
+description: метод путасинк \_ объекта SWbemObject асинхронно создает или обновляет объект экземпляра или класса для инструментарий управления Windows (WMI) (WMI).
 ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
 ms.tgt_platform: multiple
 title: Метод SWbemObject.PutAsync_ (Wbemdisp. h)
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3530c3883763773f53bec81aeee8b0d199170133
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b4b20e1a43de2b255184bd9283ba0a6ae0d98d5830dce006aa451343bb192ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860284"
 ---
 # <a name="swbemobjectputasync_-method"></a>SWbemObject. Путасинк, \_ метод
 
-Метод **путасинк \_** объекта [**SWbemObject**](swbemobject.md) асинхронно создает или обновляет объект экземпляра или класса для Инструментарий управления Windows (WMI) (WMI). Этот метод можно использовать после изменения любых свойств или методов в **SWbemObject**, и ваши изменения записываются в WMI.
+метод **путасинк \_** объекта [**SWbemObject**](swbemobject.md) асинхронно создает или обновляет объект экземпляра или класса для инструментарий управления Windows (WMI) (WMI). Этот метод можно использовать после изменения любых свойств или методов в **SWbemObject**, и ваши изменения записываются в WMI.
 
 Описание этого синтаксиса см. в разделе [соглашения о документе для API скриптов](document-conventions-for-the-scripting-api.md).
 
@@ -271,13 +271,13 @@ SWbemObject.PutAsync_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот вызов возвращает немедленно, и результат операции **размещения** возвращается вызывающему объекту через обратные вызовы, доставляемые в приемник, указанный в *обжвбемсинк*. Реализуйте *обжвбемсинк*. Метод [**онобжектпут**](swbemsink-onobjectput.md) для получения пути к объекту экземпляра или класса, который записывается в репозиторий WMI. Дополнительные сведения о методах приемника см. [в разделе вызов метода](calling-a-method.md).
 
 Асинхронный обратный вызов позволяет пользователю без проверки подлинности предоставлять данные в приемник. Это создает угрозы безопасности для сценариев и приложений. Чтобы устранить риски, используйте семисинчронаус или синхронный обмен данными. Дополнительные сведения см. [в разделе вызов метода](calling-a-method.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -285,7 +285,7 @@ SWbemObject.PutAsync_( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |
@@ -293,7 +293,7 @@ SWbemObject.PutAsync_( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

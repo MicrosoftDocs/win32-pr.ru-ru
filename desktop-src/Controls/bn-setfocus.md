@@ -3,7 +3,7 @@ title: Код уведомления BN_SETFOCUS (Winuser. h)
 description: Посылается, когда кнопка получает фокус клавиатуры. \_Для отправки этого кода уведомления кнопка должна иметь стиль уведомления "BS". Родительское окно кнопки получает этот код уведомления через \_ командное сообщение WM.
 ms.assetid: 6b8d9bde-67f9-454f-ba2c-e5c8d9ff2709
 keywords:
-- BN_SETFOCUS кода уведомления элементы управления Windows
+- BN_SETFOCUS кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eb9204f5b23b62b6cee9fb2652a16d546f6ef62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2a10cb9b728d6f98f984ff6b70fb76c42102d8414d486cdba3db27b3ac6fbe99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827594"
 ---
 # <a name="bn_setfocus-notification-code"></a>\_Код уведомления млрд долл SETFOCUS
 
@@ -55,19 +55,19 @@ BN_SETFOCUS
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

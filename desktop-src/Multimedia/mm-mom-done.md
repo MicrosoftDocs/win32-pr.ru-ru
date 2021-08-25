@@ -3,7 +3,7 @@ title: Сообщение MM_MOM_DONE (Ммсистем. h)
 description: Сообщение о \_ завершении программы mm MOM \_ отправляется в окно при воспроизведении указанного системы или буфера потока MIDI и возвращается приложению.
 ms.assetid: 4651d5b4-3c98-4fa7-b761-dafb30e0d31e
 keywords:
-- MM_MOM_DONE сообщения Windows мультимедиа
+- сообщение MM_MOM_DONE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46ad5d4a7e91cc05aa51017cba79418b34445362
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4fcbcde545c7d29a313e729761c2e565db3405b10faf3156d9ef7dd0585b16b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807144"
 ---
 # <a name="mm_mom_done-message"></a>\_Сообщение о \_ завершении диспетчера мм
 
@@ -56,7 +56,7 @@ lParam = (LPARAM) lpMidiHdr
 
 Это сообщение не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,11 +64,11 @@ lParam = (LPARAM) lpMidiHdr
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

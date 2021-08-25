@@ -4,12 +4,12 @@ ms.assetid: 94524636-c7f2-4de2-b35e-644c0c171193
 title: Свойство "значение"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49fab01b3f87c654a306bfe3633adf0973ed58aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b26185c886117b39355241151ffef6d8615bd5f8d10a7f50bd5937a301f7b398
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809164"
 ---
 # <a name="usersid-property"></a>Свойство "значение"
 
@@ -21,17 +21,17 @@ ms.locfileid: "105651931"
 
 ## <a name="remarks"></a>Remarks
 
-Установщик Windows задать это свойство в Windows 2000, Windows XP и Windows Vista. Это свойство не определено во всех других операционных системах.
+установщик Windows задать это свойство для Windows 2000, Windows XP и Windows Vista. Это свойство не определено во всех других операционных системах.
 
 Обратите внимание, что это свойство имеет специальный атрибут, который можно получить из отложенного настраиваемого действия. Пользовательское действие, выполняемое с повышенными привилегиями **, по-** прежнему может возвращать идентификатор SID пользователя в свойстве "скользящее". Дополнительные сведения см. в разделе [Получение контекстных сведений для отложенного выполнения настраиваемых действий](obtaining-context-information-for-deferred-execution-custom-actions.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

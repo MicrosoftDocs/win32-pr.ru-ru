@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 503cf9678d2be7a3afb3f8c205f0d042b4bcaec2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: de9661b63272328f74ea2634011973a5570d9f719ca8826565a432a0eee215ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923784"
 ---
 # <a name="cim_filespecification-class"></a>\_Класс CIM филеспеЦификатион
 
@@ -86,7 +86,7 @@ class CIM_FileSpecification : CIM_Check
 
 | Метод                                                         | Описание                                                      |
 |:---------------------------------------------------------------|:-----------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-filespecification.md) | Оценивает определенную проверку. Не реализовано инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-filespecification.md) | Оценивает определенную проверку. Не реализовано инструментарием WMI.<br/> |
 
 
 
@@ -98,7 +98,7 @@ class CIM_FileSpecification : CIM_Check
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -230,7 +230,7 @@ class CIM_FileSpecification : CIM_Check
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -264,7 +264,7 @@ class CIM_FileSpecification : CIM_Check
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -512,7 +512,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -594,7 +594,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -722,7 +722,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -734,7 +734,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -888,7 +888,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -911,7 +911,7 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Классы, производные от **CIM \_ филеспеЦификатион**, см. в разделе [Классы Win32](win32-provider.md).
 

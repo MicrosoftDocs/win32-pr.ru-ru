@@ -4,12 +4,12 @@ ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: Режим без окон VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b137fbc1351f2bbe5ed38673b681e45558675d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 193f672e0fc1e3dced4bdff16da0e85123079eb94f2ac3c5fdb302b67c9432b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830592"
 ---
 # <a name="vmr-windowless-mode"></a>Режим без окон VMR
 
@@ -31,15 +31,15 @@ ms.locfileid: "104344372"
 
 1.  Создайте фильтр и добавьте его в граф.
 2.  Вызовите метод [**ивмрфилтерконфиг:: сетрендерингмоде**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode) с \_ неоконным флагом вмрмоде.
-3.  При необходимости настройте VMR для нескольких входных потоков, вызвав [**ивмрфилтерконфиг:: сетнумберофстреамс**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams). VMR создает ПИН-код входа для каждого потока. Используйте интерфейс [**ивмрмиксерконтрол**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) , чтобы задать Z-порядок и другие параметры для потока. Дополнительные сведения см. [в разделе VMR с несколькими потоками (режим смешения)](vmr-with-multiple-streams--mixing-mode.md).
+3.  При необходимости настройте VMR для нескольких входных потоков, вызвав [**ивмрфилтерконфиг:: сетнумберофстреамс**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams). VMR создает ПИН-код входа для каждого потока. Используйте интерфейс [**ивмрмиксерконтрол**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) , чтобы задать Z-порядок и другие параметры для потока. дополнительные сведения см. [в разделе VMR с несколькими Потокиами (режим смешения)](vmr-with-multiple-streams--mixing-mode.md).
 
     Если не вызвать **сетнумберофстреамс**, VMR-7 по умолчанию принимает один входной ПИН-код. После подключения входных контактов число ПИН-кодов не может быть изменено.
 
 4.  Вызовите метод [**ивмрвиндовлессконтрол:: сетвидеоклиппингвиндов**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow) , чтобы указать окно, в котором будет отображаться отображаемое видео.
 
-После выполнения этих действий можно подключить входные сигналы фильтра VMR. Существует несколько способов создания графа, таких как соединение закрепления напрямую, с помощью интеллектуальных методов соединения, таких как [**играфбуилдер:: renderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile), или с помощью метода [**ICaptureGraphBuilder2:: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) построителя Graph. Дополнительные сведения см. в разделе [общие Graph-Building методы](general-graph-building-techniques.md).
+После выполнения этих действий можно подключить входные сигналы фильтра VMR. существует несколько способов создания графа, таких как соединение закрепления напрямую, с помощью интеллектуальных Подключение методов, таких как [**играфбуилдер:: RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile), или с помощью метода [**ICaptureGraphBuilder2:: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) построителя Graph. Дополнительные сведения см. в разделе [общие Graph-Building методы](general-graph-building-techniques.md).
 
-Чтобы задать расположение видео в окне приложения, вызовите метод [**ивмрвиндовлессконтрол:: сетвидеопоситион**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) . Метод [**ивмрвиндовлессконтрол:: жетнативевидеосизе**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize) возвращает собственный размер видео. Во время воспроизведения приложение должно уведомлять VMR о следующих сообщениях Windows:
+Чтобы задать расположение видео в окне приложения, вызовите метод [**ивмрвиндовлессконтрол:: сетвидеопоситион**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) . Метод [**ивмрвиндовлессконтрол:: жетнативевидеосизе**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize) возвращает собственный размер видео. во время воспроизведения приложение должно уведомлять VMR о следующих Windows сообщениях:
 
 -   WM \_ Paint: вызов [**ивмрвиндовлессконтрол:: репаинтвидео**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo) для перерисовки изображения.
 -   WM \_ дисплайчанже: Call [**ивмрвиндовлессконтрол::D исплаймодечанжед**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged). VMR выполняет все действия, необходимые для показа видео с новым разрешением или глубиной цвета.
@@ -56,7 +56,7 @@ ms.locfileid: "104344372"
 
 **Пример кода**
 
-В следующем коде показано, как создать фильтр VMR-7, добавить его в граф фильтра DirectShow, а затем перевести VMR в режим без окон. Для VMR-9 используйте CLSID \_ VideoMixingRenderer9 в **CoCreateInstance** и соответствующие интерфейсы VMR-9.
+в следующем коде показано, как создать фильтр VMR-7, добавить его в граф фильтра DirectShow, а затем перевести VMR в режим без окон. Для VMR-9 используйте CLSID \_ VideoMixingRenderer9 в **CoCreateInstance** и соответствующие интерфейсы VMR-9.
 
 
 ```C++
@@ -118,7 +118,7 @@ HRESULT InitializeWindowlessVMR(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,19 +3,19 @@ title: Объект свойств входного носителя
 description: Объект свойств входного носителя
 ms.assetid: e7aa6c99-b6b3-4e5b-869d-3387f70dad87
 keywords:
-- Windows Media Format SDK, объекты свойств входного носителя
+- Windows Пакет SDK для формата мультимедиа, объекты свойств входного носителя
 - Расширенный системный формат (ASF), объекты свойств входного носителя
 - ASF (Расширенный системный формат), объекты свойств входного носителя
 - объекты, объекты свойств входных данных мультимедиа
 - объекты свойств входного носителя
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beddda23ab7be86c3cb522edb8e811978c0c9ed9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: fbf5fac14de1c0fdc6619ab0dfe61feb9fcf577acb5c22dc2243a96d943921c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103890228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809034"
 ---
 # <a name="input-media-properties-object"></a>Объект свойств входного носителя
 
@@ -31,9 +31,9 @@ ms.locfileid: "103890228"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -43,9 +43,9 @@ ms.locfileid: "103890228"
 [**Объект модуля записи**](writer-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

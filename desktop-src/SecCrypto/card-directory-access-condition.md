@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cardmod.h
-ms.openlocfilehash: 9879fa73f6bb45b56f433d7bca7765ab5fc0daef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8038179c7337edaff0138fc46c34191f99821250808c4ace16dc76cdfafd3b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878964"
 ---
 # <a name="card_directory_access_condition-enumeration"></a>\_ \_ Перечисление условий доступа к КАТАЛОГу карты \_
 
@@ -62,19 +62,19 @@ typedef enum  {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, \[ только классические приложения Windows XP\]<br/>                              |
-| Минимальная версия сервера<br/> | Windows Server 2003, \[ только для настольных приложений Windows server 2003\]<br/>            |
-| Header<br/>                   | <dl> <dt>Cardmod. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows xp, только для \[ настольных приложений Windows xp\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows server 2003 \[ только классические приложения\]<br/>            |
+| Заголовок<br/>                   | <dl> <dt>Cardmod. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

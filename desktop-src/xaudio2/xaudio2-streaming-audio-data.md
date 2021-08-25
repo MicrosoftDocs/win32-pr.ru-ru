@@ -4,12 +4,12 @@ ms.assetid: 7a938ea6-15ef-66b1-0276-88eabf9a722b
 title: XAudio2 потоковая передача звуковых данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1766b20f539f8bbe4d11204b681b7eddca58578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c26df15420adce8f8807c3f969615a2cf6d5b51981e03fd7067e2c1c3348d1b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805394"
 ---
 # <a name="xaudio2-streaming-audio-data"></a>XAudio2 потоковая передача звуковых данных
 
@@ -19,7 +19,7 @@ ms.locfileid: "105703030"
 
 Пример того, как можно выполнить потоковую передачу с помощью XAudio2, см. [в разделе как передавать звук с диска](how-to--stream-a-sound-from-disk.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

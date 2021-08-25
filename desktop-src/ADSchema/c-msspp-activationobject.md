@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fca9ccf9b815c406becea00b96a2f120e5dcaa3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 313dadc8d1c7ce48a40c852e899fde7e74626ebd27bf67c990a0bf12b6bfd4c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879434"
 ---
 # <a name="ms-spp-activation-object-class"></a>класс объектов MS-SPP-Activation
 
@@ -64,7 +64,7 @@ ms.locfileid: "105655013"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -93,7 +93,7 @@ ms.locfileid: "105655013"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -143,27 +143,27 @@ ms.locfileid: "105655013"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-SPP-config-License**](a-msspp-configlicense.md)                                       | Неверно     | **MS-SPP-Activation — объект**    |
 | [**MS-SPP-подтверждение-идентификатор**](a-msspp-confirmationid.md)                                     | Неверно     | **MS-SPP-Activation — объект**    |
-| [**MS-SPP-КСВЛК-partial — ключ продукта**](a-msspp-csvlkpartialproductkey.md)                   | True      | **MS-SPP-Activation — объект**    |
-| [**MS-SPP-КСВЛК-PID**](a-msspp-csvlkpid.md)                                                 | True      | **MS-SPP-Activation — объект**    |
-| [**MS-SPP-КСВЛК-SKU-ID**](a-msspp-csvlkskuid.md)                                            | True      | **MS-SPP-Activation — объект**    |
+| [**MS-SPP-КСВЛК-partial — ключ продукта**](a-msspp-csvlkpartialproductkey.md)                   | Верно      | **MS-SPP-Activation — объект**    |
+| [**MS-SPP-КСВЛК-PID**](a-msspp-csvlkpid.md)                                                 | Верно      | **MS-SPP-Activation — объект**    |
+| [**MS-SPP-КСВЛК-SKU-ID**](a-msspp-csvlkskuid.md)                                            | Верно      | **MS-SPP-Activation — объект**    |
 | [**MS-SPP-Installation-ID**](a-msspp-installationid.md)                                     | Неверно     | **MS-SPP-Activation — объект**    |
 | [**MS-SPP-выдача — лицензия**](a-msspp-issuancelicense.md)                                   | Неверно     | **MS-SPP-Activation — объект**    |
-| [**MS-SPP-KMS-ID**](a-msspp-kmsids.md)                                                     | True      | **MS-SPP-Activation — объект**    |
+| [**идентификаторы ms-SPP-KMS-id**](a-msspp-kmsids.md)                                                     | Верно      | **MS-SPP-Activation — объект**    |
 | [**MS-SPP-Online — лицензия**](a-msspp-onlinelicense.md)                                       | Неверно     | **MS-SPP-Activation — объект**    |
-| [**MS-SPP-Phone-лицензия**](a-msspp-phonelicense.md)                                         | Неверно     | **MS-SPP-Activation — объект**    |
+| [**ms-SPP-Телефон-License**](a-msspp-phonelicense.md)                                         | Неверно     | **MS-SPP-Activation — объект**    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |

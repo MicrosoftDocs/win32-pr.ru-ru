@@ -4,12 +4,12 @@ ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
 title: EC_STREAM_CONTROL_STOPPED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8c5488ba400d90623955c3e9adcba0dde07e04a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69884ecc573b2bb775092529cb81e1b33a1514d4799af9f55c7bcebb5ebd2b24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928424"
 ---
 # <a name="ec_stream_control_stopped"></a>\_Управление ПОТОКОМ \_ EC \_ остановлено
 
@@ -45,17 +45,17 @@ ms.locfileid: "105685400"
 
 Параметр *двкукие* задается приложением в методе [**StopAt**](/windows/desktop/api/Strmif/nf-strmif-iamstreamcontrol-stopat) . Этот параметр позволяет приложению контролировать несколько вызовов метода.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

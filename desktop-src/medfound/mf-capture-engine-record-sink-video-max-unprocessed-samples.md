@@ -4,12 +4,12 @@ ms.assetid: B3B5C547-1F06-45B1-BFCB-513AD7B6A9B6
 title: Атрибут MF_CAPTURE_ENGINE_RECORD_SINK_VIDEO_MAX_UNPROCESSED_SAMPLES (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d5f5e297ddb5f06e71fe05a95df73aa205a7889
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f776dd795103fccf81da4c739b767131a03bf83245c3c79e724274dcb52dc0d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956824"
 ---
 # <a name="mf_capture_engine_record_sink_video_max_unprocessed_samples-attribute"></a>\_ \_ \_ \_ \_ \_ \_ Необработанный \_ атрибут выборки данных для приемника записей подсистемы захвата MF
 
@@ -19,7 +19,7 @@ ms.locfileid: "103898362"
 
 **UINT64**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы настроить этот атрибут в подсистеме записи, добавьте его в параметр *паттрибутес* при вызове [**Имфкаптурингине:: Initialize**](/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-initialize).
 
@@ -33,9 +33,9 @@ ms.locfileid: "103898362"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                         |
-| Header<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                         |
+| Заголовок<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 
 

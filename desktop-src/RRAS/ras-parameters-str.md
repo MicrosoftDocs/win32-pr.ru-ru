@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fffaefa8a6f2cffb895cc18882ed8fc0c382a4bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e38ec1a8febbca4319a9c098eafee3705fe59602af81b3ec94e4e974892be771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909674"
 ---
 # <a name="ras_parameters-structure"></a>\_Структура параметров RAS
 
-\[Структура **\_ параметров RAS** не поддерживается в Windows Vista.\]
+\[структура **\_ параметров RAS** не поддерживается Windows Vista.\]
 
 Структура **\_ параметров RAS** используется функцией [**расадминпортжетинфо**](rasadminportgetinfo.md) для возврата имени и значения параметра носителя, связанного с портом на сервере удаленного доступа.
 
@@ -84,7 +84,7 @@ typedef struct RAS_PARAMETERS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,11 +94,11 @@ typedef struct RAS_PARAMETERS {
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                 |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                       |
-| Header<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Рассапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

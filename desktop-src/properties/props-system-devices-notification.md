@@ -4,12 +4,12 @@ ms.assetid: 3030789d-92cc-4ca3-b760-a312729e3e54
 title: System. Devices. Notification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a6a0af7374d99877203839ab0040c3a4d4e3713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08f72120332a5aab4bf6c3086f866f01053e2c07c0dcf65ca6632759640b5c5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845494"
 ---
 # <a name="systemdevicesnotification"></a>System. Devices. Notification
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

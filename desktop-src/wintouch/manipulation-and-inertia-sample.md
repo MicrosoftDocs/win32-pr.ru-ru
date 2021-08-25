@@ -1,17 +1,17 @@
 ---
 title: Пример манипуляции и инерции
-description: В примере манипуляции и инерции показано, как добавить поддержку сенсорного ввода Windows в собственные приложения Windows, использующие API Windows Touch.
+description: в примере манипуляции и инерции показано, как добавить поддержку сенсорного ввода Windows в собственные приложения на основе Windows, использующие API-интерфейс Windows Touch.
 ms.assetid: 6a6e2e39-026e-47a3-b936-16f6a740a3af
 keywords:
-- Windows Touch, примеры кода
-- Windows Touch, пример кода
-- Касание Windows, манипуляции
-- Касание Windows, инерция
-- Пример манипуляции с Windows Touch, манипулирования и инерции
+- Windows Сенсорный ввод, примеры кода
+- Windows Сенсорный ввод, пример кода
+- Windows Сенсорный ввод, манипуляции
+- Windows Сенсорный ввод, инерция
+- Windows Пример сенсорного управления, манипулирования и инерции
 - Пример манипуляции и инерции
-- Windows Touch, _IManipulationEventSink интерфейс
-- Windows Touch, интерфейс IManipulationProcessor
-- Windows Touch, интерфейс IInertiaProcessor
+- Windows Сенсорный ввод, _IManipulationEventSink интерфейс
+- Windows Сенсорный ввод, интерфейс IManipulationProcessor
+- Windows Сенсорный ввод, интерфейс IInertiaProcessor
 - манипуляции, пример кода
 - манипуляции, примеры кода
 - манипуляции, интерфейс _IManipulationEventSink
@@ -26,24 +26,24 @@ keywords:
 - Интерфейс IInertiaProcessor, пример кода
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: a17b634fbe79d72e79fc5c9e03ef64a30cb46411
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b6471362d30b6efc9dfa0c4f07df70f014c8cb72866c92bbb04c9eb33463410
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104550853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840602"
 ---
 # <a name="manipulation-and-inertia-sample"></a>Пример манипуляции и инерции
 
-В примере манипуляции и инерции показано, как добавить поддержку сенсорного ввода Windows в собственные приложения Windows, использующие API Windows Touch. Пример реализует базовые возможности API для включения перевода, вращения и масштабирования объектов и применения к ним свойств инерции. В примере также показано, как обеспечить поддержку мыши Windows Touch Applications Basic. На следующем рисунке показано, как выглядит пример при его запуске.
+в примере манипуляции и инерции показано, как добавить поддержку сенсорного ввода Windows в собственные приложения на основе Windows, использующие API-интерфейс Windows Touch. Пример реализует базовые возможности API для включения перевода, вращения и масштабирования объектов и применения к ним свойств инерции. в примере также показано, как присвоить Windows сенсорным приложениям обычную поддержку мыши. На следующем рисунке показано, как выглядит пример при его запуске.
 
 ![снимок экрана, на котором показаны два поля с градиентами в примере манипуляции и инерции](images/manip-inertia-sample.png)
 
-При запуске приложения с компьютера, поддерживающего технологию Windows Touch, поля с градиентами могут управляться независимо от пользователя.
+поля с градиентами могут управляться независимо пользователем при запуске приложения с компьютера, который поддерживает Windows Touch.
 
 ## <a name="register-the-touch-window"></a>Регистрация сенсорного окна
 
-Прежде чем вы сможете получить сенсорный ввод, сначала необходимо уведомить систему о том, что ваше приложение является приложением Windows Touch, вызвав следующую функцию:
+прежде чем вы сможете получить сенсорный ввод, сначала необходимо уведомить систему о том, что приложение является приложением Windows touch, вызвав следующую функцию:
 
 ```C++
    RegisterTouchWindow(g_hWnd, 0);
@@ -349,6 +349,6 @@ CComTouchDriver::~CComTouchDriver(VOID) {
 }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-[Приложение для управления несколькими касаниями](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [пример манипуляции и инерции](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [примеры для Windows Touch](windows-touch-samples.md)
+пример [многофункциональной манипуляции](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [манипулирования и инерции](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [Windows примеры сенсорного ввода](windows-touch-samples.md)

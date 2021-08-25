@@ -4,12 +4,12 @@ description: Справочник по Авифиле
 ms.assetid: 73532d83-89c2-4911-8558-ce110e9f0f95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0291d0ac5864a9b370e79a98fa061770d05bca03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19b4bbda5374f5b1418c166aae5efcc06168b522b2cae0f3b6d2c8fe3c069c36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808324"
 ---
 # <a name="avifile-reference"></a>Справочник по Авифиле
 
@@ -43,7 +43,7 @@ ms.locfileid: "104068527"
 -   [**авижетфромклипбоард**](/windows/desktop/api/Vfw/nf-vfw-avigetfromclipboard)
 -   [**авиклеарклипбоард**](/windows/desktop/api/Vfw/nf-vfw-aviclearclipboard)
 
-## <a name="opening-and-closing-streams"></a>Открытие и закрытие потоков
+## <a name="opening-and-closing-streams"></a>открытие и закрытие Потоки
 
 -   [**авифилежетстреам**](/windows/desktop/api/Vfw/nf-vfw-avifilegetstream)
 -   [**авистреамопенфромфиле**](/windows/desktop/api/Vfw/nf-vfw-avistreamopenfromfilea)
@@ -68,7 +68,7 @@ ms.locfileid: "104068527"
 -   [**авистреамжетфраме**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframe)
 -   [**авистреамжетфрамеклосе**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframeclose)
 
-## <a name="creating-a-file-from-existing-streams"></a>Создание файла из существующих потоков
+## <a name="creating-a-file-from-existing-streams"></a>создание файла из существующего Потоки
 
 -   [**ависаве**](/windows/desktop/api/Vfw/nf-vfw-avisavea)
 -   [**ависавев**](/windows/desktop/api/Vfw/nf-vfw-avisaveva)
@@ -76,7 +76,7 @@ ms.locfileid: "104068527"
 -   [**жетсавефиленамепревиев**](/windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa)
 -   [**авимакефилефромстреамс**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams)
 
-## <a name="writing-individual-streams"></a>Запись отдельных потоков
+## <a name="writing-individual-streams"></a>запись отдельных Потоки
 
 -   [**авифилекреатестреам**](/windows/desktop/api/Vfw/nf-vfw-avifilecreatestream)
 -   [**авистреамсетформат**](/windows/desktop/api/Vfw/nf-vfw-avistreamsetformat)
@@ -118,13 +118,13 @@ ms.locfileid: "104068527"
 -   [**авистреамсамплетотиме**](/windows/desktop/api/Vfw/nf-vfw-avistreamsampletotime)
 -   [**авистреамтиметосампле**](/windows/desktop/api/Vfw/nf-vfw-avistreamtimetosample)
 
-## <a name="creating-temporary-streams"></a>Создание временных потоков
+## <a name="creating-temporary-streams"></a>создание временных Потоки
 
 -   [**авистреамкреате**](/windows/desktop/api/Vfw/nf-vfw-avistreamcreate)
 -   [**авимакекомпресседстреам**](/windows/desktop/api/Vfw/nf-vfw-avimakecompressedstream)
 -   [**авистреамрелеасе**](/windows/desktop/api/Vfw/nf-vfw-avistreamrelease)
 
-## <a name="editing-avi-streams"></a>Редактирование потоков AVI
+## <a name="editing-avi-streams"></a>редактирование Потоки AVI
 
 -   [**креатидитаблестреам**](/windows/desktop/api/Vfw/nf-vfw-createeditablestream)
 -   [**едитстреамкут**](/windows/desktop/api/Vfw/nf-vfw-editstreamcut)
@@ -134,16 +134,16 @@ ms.locfileid: "104068527"
 -   [**едитстреамсетинфо**](/windows/desktop/api/Vfw/nf-vfw-editstreamsetinfoa)
 -   [**едитстреамсетнаме**](/windows/desktop/api/Vfw/nf-vfw-editstreamsetnamea)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Функции и макросы Авифиле](avifile-functions-and-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b415393d-a5c2-4b70-af18-0dc7b3939a47
 title: Сообщение WM_MDIDESTROY (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edea8fe8dadc691ca912df4e9ee5d57421124bcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 232514831defe3c65cdce66a5e1c7348ad4f80508eb01615572b7aa5b7d8e9c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772064"
 ---
 # <a name="wm_mdidestroy-message"></a>\_Сообщение МДИДЕСТРОЙ WM
 
@@ -46,13 +46,13 @@ ms.locfileid: "103809557"
 
 Это сообщение всегда возвращает ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение удаляет заголовок дочернего окна MDI из окна фрейма MDI и деактивирует дочернее окно. Приложение должно использовать это сообщение, чтобы закрыть все дочерние окна MDI.
 
 Если клиентское окно MDI получает сообщение, которое изменяет активацию дочерних окон, а активное дочернее окно MDI является развернутым, система восстанавливает активное дочернее окно и разворачивает вновь активированное дочернее окно.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -60,11 +60,11 @@ ms.locfileid: "103809557"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

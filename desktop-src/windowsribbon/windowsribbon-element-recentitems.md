@@ -3,7 +3,7 @@ title: Рецентитемс, элемент
 description: Представляет элемент управления "Недавние элементы" в меню "приложение".
 ms.assetid: a3df0bb0-e0f8-413a-879d-8e39164535d0
 keywords:
-- Лента Windows для элемента Рецентитемс
+- элемент рецентитемс Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a433e2f04eae8607b0c14c5494c734ad0f0dd83a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 6ae49864fea057aa942b121f21813acfd0f26c6cc4411d4f1b3c59cda12014c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881564"
 ---
 # <a name="recentitems-element"></a>Рецентитемс, элемент
 
@@ -131,11 +131,11 @@ ms.locfileid: "111444115"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

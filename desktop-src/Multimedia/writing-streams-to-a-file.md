@@ -1,19 +1,19 @@
 ---
-title: Запись потоков в файл
-description: Запись потоков в файл
+title: запись Потоки в файл
+description: запись Потоки в файл
 ms.assetid: a3766f8c-aaa6-4fc5-a306-54aee71018f1
 keywords:
 - Функция Авифилекреатестреам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370df08534bbdde870f6d28c828d47935abd80db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: baaedd4103d2141ecaccde78462b2290cf5d5d37813b224c20101eacbe580d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891764"
 ---
-# <a name="writing-streams-to-a-file"></a>Запись потоков в файл
+# <a name="writing-streams-to-a-file"></a>запись Потоки в файл
 
 Кроме того, можно создать файл, содержащий потоки данных, записав новый поток данных в файл.
 
@@ -27,13 +27,13 @@ ms.locfileid: "103790308"
 
 Вы можете закрыть поток после завершения записи в новый поток с помощью функции [**авистреамрелеасе**](/windows/desktop/api/Vfw/nf-vfw-avistreamrelease) . Эта функция очищает буферы, используемые при записи потоковых данных, и завершает и закрывает все неполные фрагменты данных в файле.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Потоковые операции](stream-operations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

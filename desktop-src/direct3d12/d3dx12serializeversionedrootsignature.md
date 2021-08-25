@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70a9d0424f7f7a7f89edde18273c5d1fa22fae28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f69e3bf66bcbad61e3d9bf676038f27511f756d7a3a473be2c513553862eb90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105703658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851158"
 ---
 # <a name="d3dx12serializeversionedrootsignature-function"></a>Функция D3DX12SerializeVersionedRootSignature
 
@@ -86,9 +86,9 @@ HRESULT inline D3DX12SerializeVersionedRootSignature(
 
 Возвращает **значение \_ ОК** , если выполнено успешно; в противном случае возвращает один из [кодов возврата Direct3D 12](d3d12-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта функция была выпущена и совпадает с годовщиной обновления Windows 10 (14393). Для поддержки версий Windows 10 до этого для использования этой функции требуется настроить d3d12. lib для *отложенной загрузки*.
+эта функция была выпущена, чтобы совпадать с Windows 10ным обновлением годовщины (14393). для поддержки Windows 10 версий до этого для использования этой функции требуется настроить d3d12. lib для *отложенной загрузки*.
 
 ## <a name="requirements"></a>Требования
 
@@ -96,7 +96,7 @@ HRESULT inline D3DX12SerializeVersionedRootSignature(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
+| Заголовок<br/>  | <dl> <dt>D3dx12. h</dt> </dl>  |
 | Библиотека<br/> | <dl> <dt>D3D12. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3D12.dll</dt> </dl> |
 

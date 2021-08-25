@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 664e2bf026df6d9e4b5bc07067ce1ce7fe7669db
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1af59f6a32d163275df02d1469ba4777bf5c5152535c2df52fcf7d7c40218e2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104548031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846944"
 ---
 # <a name="idirectxfilebinarygetsize-method"></a>Метод Идиректксфилебинари:: resize
 
@@ -55,18 +55,18 @@ HRESULT GetSize(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. В случае сбоя метода возвращаемое значение может быть ДКСФИЛИРР \_ бадвалуе.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

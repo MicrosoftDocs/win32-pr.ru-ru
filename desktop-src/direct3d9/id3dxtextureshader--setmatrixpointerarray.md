@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1bde5250ae8ceeab7522b9df15c99070e9471608
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5e8ba498d089a6d5b947cf908982d7e19af17126aa7414d49d2cd1d9d0a4f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847034"
 ---
 # <a name="id3dxtextureshadersetmatrixpointerarray-method"></a>Метод ID3DXTextureShader:: Сетматрикспоинтераррай
 
@@ -75,7 +75,7 @@ HRESULT SetMatrixPointerArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Неперенесенная матрица содержит основные данные строки. то есть каждый вектор содержится в строке.
 
@@ -85,7 +85,7 @@ HRESULT SetMatrixPointerArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

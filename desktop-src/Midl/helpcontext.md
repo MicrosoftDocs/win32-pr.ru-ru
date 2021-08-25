@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75a8811a73515528981a8214caba3fe2778e2ea9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3caa5dd32257fb5d75bbf77cde4ae5e71c6e97574cd1c263ead47aacedccadc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895254"
 ---
 # <a name="helpcontext-attribute"></a>helpcontext - атрибут
 
@@ -81,7 +81,7 @@ element element-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут \[ **HelpContext** \] может применяться к следующим элементам: [**Library**](library.md), \[ [**importlib**](importlib.md) \] , [**интерфейс**](interface.md), [**DISP**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **метод**, **свойство** или [**coclass**](coclass.md).
 
@@ -103,7 +103,7 @@ coclass Hello
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -122,7 +122,7 @@ coclass Hello
 [**взаимодействия**](interface.md)
 </dt> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [**модуль**](module.md)
@@ -137,6 +137,6 @@ coclass Hello
 [**определение**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

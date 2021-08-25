@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 871cf1ba669717b9e2917a3e9012c6c16df5f97c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a0889e35d35c7296755fae3a6772f30546d3937b4c0f2c840f796d66c8a2aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945734"
 ---
 # <a name="jet_opentemporarytableprgcolumndef-property"></a>Свойство JET_OPENTEMPORARYTABLE. пргколумндеф
 
@@ -64,7 +64,7 @@ public JET_COLUMNDEF[] prgcolumndef { get; set; }
 
 Тип \[\]  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

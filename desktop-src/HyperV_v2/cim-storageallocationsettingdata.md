@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e66322f20987e2d1f99042430f0f57cdc2e399d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe380b03daced6ca98a44c189c52b5842862aa2e033bf66a04f8dd1466968449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899674"
 ---
 # <a name="cim_storageallocationsettingdata-class"></a>\_Класс CIM сторажеаллокатионсеттингдата
 
@@ -65,7 +65,7 @@ class CIM_StorageAllocationSettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сторажеаллокатионсеттингдата** имеет следующие свойства.
 
@@ -479,7 +479,7 @@ https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/tu
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -493,7 +493,7 @@ https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/tu
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

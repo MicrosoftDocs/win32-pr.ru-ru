@@ -1,7 +1,7 @@
 - name: Цветовая система Windows
   href: windows-color-system.md
   items:
-    - name: 'Вопросы безопасности: цветовая система Windows'
+    - name: 'вопросы безопасности: Windows цветовая система'
       href: security-considerations--windows-color-system.md
     - name: Основные понятия управления цветом
       href: basic-color-management-concepts.md
@@ -54,7 +54,7 @@
     - name: "Сведения о цветовой системе Windows версии\_1.0"
       href: about-windows-color-system-version-1-0.md
       items:
-        - name: Новые возможности WCS для Windows Vista
+        - name: новые возможности WCS для Windows Vista
           href: what-s-new-in-windows-vista.md
         - name: "Новые возможности WCS версии\_1.0"
           href: what-s-new-in-version-1-0-of-wcs.md
@@ -161,7 +161,7 @@
                   href: /windows/win32/api/icm/nf-icm-cmtranslatecolors
                 - name: кмтранслатергб
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergb
-                - name: кмтранслатергбс
+                - name: CMTranslateRGBs
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergbs
                 - name: 'CMTranslateRGBsExt '
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergbsext
@@ -405,11 +405,11 @@
               href: /windows/win32/api/wingdi/ns-wingdi-tagicexyztriple
             - name: 'CMYKCOLOR '
               href: /windows/win32/api/icm/ns-icm-cmykcolor
-            - name: Цвет
+            - name: COLOR
               href: /windows/win32/api/icm/ns-icm-color
-            - name: колорматчсетупа
+            - name: COLORMATCHSETUPA
               href: /windows/win32/api/icm/ns-icm-colormatchsetupw
-            - name: колорматчсетупв
+            - name: COLORMATCHSETUPW
               href: /windows/win32/api/icm/ns-icm-colormatchsetupw
             - name: 'ENUMTYPEA '
               href: /windows/win32/api/icm/ns-icm-enumtypea

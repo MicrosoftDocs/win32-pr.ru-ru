@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9b664d7ee6f13801640f72a72b380d9ea4c159da
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6b5d5eb2bafc00b3989420b1c36230bb764a3c4d926964d39207c20afca0473f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105694003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863604"
 ---
 # <a name="inputtype-complex-type"></a>Сложный тип InputType
 
@@ -78,9 +78,9 @@ ms.locfileid: "105694003"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Ниже перечислены распознаваемые типы входных данных, которые можно использовать в манифесте. Типы определяются в \\ \\ файле includeWinmeta.xml, который включен в Windows SDK. Столбец "стандартный XML-формат" указывает канонический тип для конкретного входного типа. В столбце «Тип вывода» перечислены возможные форматы, в которых данные могут быть отображены. Если для элемента данных не указан тип вывода, служба будет использовать первый выходной тип, указанный для визуализации данных. Описание типов выходных данных см. в описании сложного типа [**OutputType**](eventmanifestschema-outputtype-complextype.md) .
+Ниже перечислены распознаваемые типы входных данных, которые можно использовать в манифесте. типы определяются в \\ \\ файле IncludeWinmeta.xml, который включен в Windows SDK. Столбец "стандартный XML-формат" указывает канонический тип для конкретного входного типа. В столбце «Тип вывода» перечислены возможные форматы, в которых данные могут быть отображены. Если для элемента данных не указан тип вывода, служба будет использовать первый выходной тип, указанный для визуализации данных. Описание типов выходных данных см. в описании сложного типа [**OutputType**](eventmanifestschema-outputtype-complextype.md) .
 
 В следующей таблице перечислены значения, определенные в файле Winmeta.xml.
 
@@ -116,14 +116,14 @@ ms.locfileid: "105694003"
 
 При использовании Win: UInt32 для хранения IPv4-адреса значение должно быть в сетевом порядке байтов. Чтобы преобразовать строку IPv4-адреса в целое число без знака в сетевом порядке байтов, вызовите функцию [**RtlIpv4StringToAddress**](/windows/desktop/api/ip2string/nf-ip2string-rtlipv4stringtoaddressa) или [**inet \_ addr**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr) . Чтобы преобразовать целое число без знака в строку IPv4-адреса, вызовите функцию [**RtlIpv4AddressToString**](/windows/desktop/api/ip2string/nf-ip2string-rtlipv4addresstostringa) или [**inet \_ нтоа**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

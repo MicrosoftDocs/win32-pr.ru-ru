@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6575e50bd85cfe96888f6c5924d1875b48d544ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63dbdffbad87f9860bc063ab7f83883e0f902ea1ef7e4d2e91d452b2b832a699
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871364"
 ---
 # <a name="imsrdpclient8-interface"></a>Интерфейс IMsRdpClient8
 
@@ -49,10 +49,10 @@ ms.locfileid: "104414777"
 | [**жетстатустекст**](imsrdpclient7-getstatustext.md)                      | Получает текст состояния для указанного кода состояния.<br/>                                                                                                                         |
 | [**жетвиртуалчаннелоптионс**](imsrdpclient-getvirtualchanneloptions.md) | Извлекает параметры, заданные для виртуального канала.<br/>                                                                                                                                 |
 | [**Повтор соединения**](imsrdpclient8-reconnect.md)                              | Повторно подключается к удаленному сеансу, используя новые значения ширины и высоты рабочего стола.<br/>                                                                                                          |
-| [**RequestClose**](imsrdpclient-requestclose.md)                         | Запрашивает корректное завершение работы элемента управления ActiveX удаленный рабочий стол.<br/>                                                                                                              |
+| [**RequestClose**](imsrdpclient-requestclose.md)                         | запрашивает корректное завершение работы элемента управления удаленный рабочий стол ActiveX.<br/>                                                                                                              |
 | [**сендонвиртуалчаннел**](imstscax-sendonvirtualchannel.md)             | Отправляет данные на сервер узла сеансов удаленных рабочих столов по виртуальному каналу, созданному ранее с помощью метода [**креатевиртуалчаннелс**](imstscax-createvirtualchannels.md) .<br/> |
 | [**сендремотеактион**](imsrdpclient8-sendremoteaction.md)                | Вызывает выполнение действия в удаленном сеансе.<br/>                                                                                                                          |
-| [**сетвиртуалчаннелоптионс**](imsrdpclient-setvirtualchanneloptions.md) | Задает параметры виртуального канала для элемента управления ActiveX удаленный рабочий стол.<br/>                                                                                                         |
+| [**сетвиртуалчаннелоптионс**](imsrdpclient-setvirtualchanneloptions.md) | задает параметры виртуального канала для элемента управления ActiveX удаленный рабочий стол.<br/>                                                                                                         |
 
 
 
@@ -95,20 +95,20 @@ ms.locfileid: "104414777"
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                 | Только для чтения<br/>  | Получает указатель на интерфейс [**имсрдпклиентсекуредсеттингс**](imsrdpclientsecuredsettings-interface.md) . Этот интерфейс можно использовать для задания защищенных параметров клиентского элемента управления.<br/>                                               |
 | [**SecuredSettings3**](imsrdpclient7-securedsettings3.md)<br/>                | Только для чтения<br/>  | Извлекает объект, который поддерживает интерфейс [**IMsRdpClientSecuredSettings2**](imsrdpclientsecuredsettings2.md) .<br/>                                                                                                                       |
 | [**секуредсеттингсенаблед**](imstscax-securedsettingsenabled.md)<br/>         | Только для чтения<br/>  | Указывает, доступен ли интерфейс [**имстсксекуредсеттингс**](imstscsecuredsettings-interface.md) . То есть, находится ли веб-страница, содержащая данный элемент управления, в одной из разрешенных зон безопасности URL-адресов Internet Explorer.<br/> |
-| [**Сервером**](imstscax-server.md)<br/>                                         | Чтение/запись<br/> | Указывает имя сервера, к которому подключен текущий элемент управления.<br/>                                                                                                                                                                 |
+| [**Сервер**](imstscax-server.md)<br/>                                         | Чтение/запись<br/> | Указывает имя сервера, к которому подключен текущий элемент управления.<br/>                                                                                                                                                                 |
 | [**стартконнектед**](imstscax-startconnected.md)<br/>                         | Чтение/запись<br/> | Указывает, будет ли элемент управления устанавливать соединение с сервером узла сеансов удаленных рабочих столов сразу после запуска.<br/>                                                                                                                                |
 | [**TransportSettings**](imsrdpclient5-transportsettings.md)<br/>              | Только для чтения<br/>  | Возвращает сведения о том, что было передано через скрипт в интерфейс [**имсрдпклиенттранспортсеттингс**](imsrdpclienttransportsettings.md) .<br/>                                                                                                         |
 | [**TransportSettings2**](imsrdpclient6-transportsettings2.md)<br/>            | Только для чтения<br/>  | Извлекает интерфейс [**IMsRdpClientTransportSettings2**](imsrdpclienttransportsettings2.md) .<br/>                                                                                                                                           |
 | [**TransportSettings3**](imsrdpclient7-transportsettings3.md)<br/>            | Только для чтения<br/>  | Извлекает объект, который поддерживает интерфейс [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md) .<br/>                                                                                                                   |
 | [**Имен**](imstscax-username.md)<br/>                                     | Чтение/запись<br/> | Указывает учетные данные имени пользователя для входа.<br/>                                                                                                                                                                                                   |
-| [**Версия**](imstscax-version.md)<br/>                                       | Только для чтения<br/>  | Указывает номер версии текущего элемента управления.<br/>                                                                                                                                                                                        |
+| [**Version**](imstscax-version.md)<br/>                                       | Только для чтения<br/>  | Указывает номер версии текущего элемента управления.<br/>                                                                                                                                                                                        |
 | [**вертикалскроллбарвисибле**](imstscax-verticalscrollbarvisible.md)<br/>     | Только для чтения<br/>  | Указывает, отображает ли элемент управления вертикальную полосу прокрутки.<br/>                                                                                                                                                                               |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **IMsRdpClient8** расширен следующими интерфейсами. каждый новый интерфейс наследует все методы и свойства предыдущих интерфейсов:
 
@@ -117,7 +117,7 @@ ms.locfileid: "104414777"
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -132,7 +132,7 @@ ms.locfileid: "104414777"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

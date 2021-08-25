@@ -4,12 +4,12 @@ ms.assetid: def96d52-c9fa-4fac-b575-f9de8eb82d1c
 title: Таблица Модулекомпонентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea2f47418b0387c7fa9d289d156fb0369f53adf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25216833022ada7592511091c6954222d8ebf354e732c95a54e8857948963541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926484"
 ---
 # <a name="modulecomponents-table"></a>Таблица Модулекомпонентс
 
@@ -21,9 +21,9 @@ ms.locfileid: "105651072"
 
 | Столбец    | Type                         | Ключ | Допускает значения NULL |
 |-----------|------------------------------|-----|----------|
-| Компонент | [Идентификатор](identifier.md) | Да   | Нет        |
-| ModuleID  | [Идентификатор](identifier.md) | Да   | Нет        |
-| Язык  | [Integer](integer.md)       | Да   | Нет        |
+| Компонент | [Идентификатор](identifier.md) | Д   | Нет        |
+| ModuleID  | [Идентификатор](identifier.md) | Д   | Нет        |
+| Язык  | [Integer](integer.md)       | Д   | Нет        |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "105651072"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Преобразования языка должны иметь возможность обновлять эту таблицу, если модуль слияния поддерживает несколько языков.
 

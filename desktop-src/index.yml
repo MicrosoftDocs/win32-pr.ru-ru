@@ -1,19 +1,19 @@
 ### YamlMime:Landing
-title: Создание настольных приложений Windows с помощью API Win32
-summary: Узнайте, как создавать классические приложения для компьютеров с Windows с помощью C++ и API Win32.
+title: создание классических Windows приложений с помощью API Win32
+summary: узнайте, как создавать классические приложения для Windows пк с помощью C++ и API Win32.
 metadata:
   author: mcleanbyron
-  description: Узнайте, как создавать классические приложения для компьютеров с Windows с помощью C++ и API Win32.
+  description: узнайте, как создавать классические приложения для Windows пк с помощью C++ и API Win32.
   manager: jken
   ms.author: mcleans
   ms.date: 09/15/2019
   ms.topic: landing-page
-  ms.openlocfilehash: 99090d109a717c1008a11e6a9c9e6cf7a31f2b7c
-  ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+  ms.openlocfilehash: cc2d2b66adddba0b164f5f3eccae1e076fd91d451d9857ba901ec4a81ac6e9f0
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/19/2020
-  ms.locfileid: "104069842"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119848954"
 landingContent:
 - title: Начало работы
   linkLists:
@@ -29,13 +29,13 @@ landingContent:
     links:
     - text: Инструменты разработки
       url: https://developer.microsoft.com/windows/downloads
-    - text: Примеры кода Windows
+    - text: примеры кода Windows
       url: https://developer.microsoft.com/windows/samples
 - title: Разработка
   linkLists:
   - linkListType: overview
     links:
-    - text: Функции и технологии Windows
+    - text: функции и технологии Windows
       url: desktop-app-technologies.md
     - text: Приложения модернизировать для Windows 10
       url: /windows/apps/desktop/modernize

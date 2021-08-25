@@ -4,12 +4,12 @@ ms.assetid: 0d366a1b-3c7e-4590-8557-c6a7d1fcd426
 title: Элемент управления ProgressBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2f04cb969708b849623bb3cbd130b77bc292cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c531a0edcf822c3a4cc75ec6516f1b871e2db6cb7122bb74178d59850710843
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913184"
 ---
 # <a name="progressbar-control"></a>Элемент управления ProgressBar
 
@@ -37,7 +37,7 @@ ms.locfileid: "105664581"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот элемент управления можно создать из \_ класса класса Progress с помощью функции [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . У него есть **Стили \_ дочерней** **\_ группы** WS и WS.
 

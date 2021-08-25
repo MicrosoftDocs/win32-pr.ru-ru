@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_SETREPEAT (VFW. h)
 description: Сообщение МЦИВНДМ \_ сетрепеат устанавливает флаг повтора, связанный с непрерывным воспроизведением.
 ms.assetid: 9a8da201-9ce8-4b6c-8b76-cd9e1356c75d
 keywords:
-- MCIWNDM_SETREPEAT сообщения Windows мультимедиа
+- сообщение MCIWNDM_SETREPEAT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeae2ac3cb57f8ddbb2343ee3f42d30fa8def370
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 158e0b52f01431886fd8a70e89efadfdd7335258c0808cdb6780bf06071e3280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807594"
 ---
 # <a name="mciwndm_setrepeat-message"></a>\_Сообщение мЦивндм сетрепеат
 
@@ -49,11 +49,11 @@ lParam = (LPARAM) (BOOL) f;
 
 Возвращает ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время МЦИАВИ является единственным устройством, поддерживающим непрерывное воспроизведение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ lParam = (LPARAM) (BOOL) f;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

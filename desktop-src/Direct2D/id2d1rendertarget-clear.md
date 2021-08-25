@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 346e44e3ce0b59e40577d3207f45faafdc33b367
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e4e0c9843752af0799901537c5ee6d682d895a5ada22843ad2c406e9bda32b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928954"
 ---
 # <a name="id2d1rendertargetclear-methods"></a>Методы ID2D1RenderTarget:: Clear
 
@@ -35,7 +35,7 @@ ms.locfileid: "105657632"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Direct2D интерпретирует *клеарколор* как прямую альфа-канал (без предварительного умножения). Если альфа-канал целевого объекта прорисовки имеет значение [**D2D1 \_ Alpha \_ \_**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode), то альфа-каналы *клеарколор* пропускается и заменяется на 1,0 f (полностью непрозрачный).
 
@@ -97,7 +97,7 @@ HRESULT DemoApp::OnRender()
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,7 +108,7 @@ HRESULT DemoApp::OnRender()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
