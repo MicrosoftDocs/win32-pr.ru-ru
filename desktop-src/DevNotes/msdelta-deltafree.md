@@ -44,7 +44,7 @@ BOOL  WINAPI  DeltaFree(
 
 Эта функция возвращает **значение true** , если она выполнена. в противном случае возвращается **значение false**. Если функция возвращает **значение false**, можно вызвать [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) , чтобы получить соответствующий код системной ошибки Win32.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |----------------|---------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ BOOL  WINAPI  DeltaFree(
 | DLL | msdelta.dll |
 | Юникод | Неприменимо |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [мсделта](msdelta.md)
 

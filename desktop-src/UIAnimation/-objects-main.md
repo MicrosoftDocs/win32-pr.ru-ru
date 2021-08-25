@@ -1,19 +1,19 @@
 ---
-title: Объекты (диспетчер анимации Windows)
-description: Справочная документация по объектам, определенным диспетчером анимации Windows.
+title: объекты (диспетчер анимации Windows)
+description: справочная документация по объектам, определенным диспетчером анимации Windows.
 ms.assetid: 9b1c3473-14f8-475f-bbf0-ee40c9359e7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b68715e540fedb74ec43329873d7f81d6ea07a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0e652d7850ad1408594ef2c014908e4dd36eca8eb7e58e913cbf60078a255e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104340275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867734"
 ---
-# <a name="objects-windows-animation-manager"></a>Объекты (диспетчер анимации Windows)
+# <a name="objects-windows-animation-manager"></a>объекты (диспетчер анимации Windows)
 
-Справочная документация по объектам, определенным диспетчером анимации Windows.
+справочная документация по объектам, определенным диспетчером анимации Windows.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -33,11 +33,11 @@ ms.locfileid: "104340275"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по анимации Windows](windows-animation-reference.md)
+[Windows Справочник по анимации](windows-animation-reference.md)
 </dt> </dl>
 
  

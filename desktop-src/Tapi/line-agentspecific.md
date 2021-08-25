@@ -4,12 +4,12 @@ ms.assetid: 67e1796c-02e5-4f81-8086-7c2ff3112ae0
 title: Сообщение LINE_AGENTSPECIFIC (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ca03138ce00f11520e2e0f1df8e810e21d1186
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a87b0e6f5c6c96842f70ebe46c0b72e33e6767c996fa2cc5b4d8e95ff0f08cd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867164"
 ---
 # <a name="line_agentspecific-message"></a>Строка \_ сообщения ажентспеЦифик
 
@@ -65,22 +65,22 @@ ms.locfileid: "105679595"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Строка \_ ажентспеЦифик** сообщения не отправляется в приложения, поддерживающие более старые версии TAPI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,8 +3,8 @@ title: Перечисление MPEXECUTION_STATUS (Мпклиент. h)
 description: Возможное состояние выполнения угрозы.
 ms.assetid: 89D6BD9F-4A4C-48F5-BFD1-D09A240EB253
 keywords:
-- MPEXECUTION_STATUS перечисления устаревшие функции среды Windows
-- PMPEXECUTION_STATUS указателя перечисления устаревшие функции среды Windows
+- MPEXECUTION_STATUS перечисления устаревших Windows компонентов среды
+- PMPEXECUTION_STATUSные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5cc21a0d8ec45d0715a7b1af8fb81a25e260711
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e4748b6d97e1b7ee05db8044837b89e2653a14fd1e6f87068a40107cdd9ee60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943914"
 ---
 # <a name="mpexecution_status-enumeration"></a>\_Перечисление состояния мпексекутион
 
@@ -80,15 +80,15 @@ typedef enum tagMPEXECUTION_STATUS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

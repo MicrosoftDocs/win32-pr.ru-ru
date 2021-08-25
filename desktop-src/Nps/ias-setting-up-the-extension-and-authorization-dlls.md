@@ -5,19 +5,19 @@ ms.assetid: fbbd9031-3ebe-47b8-8d8b-e359fa7d4b67
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e8589f31144f12b120f9a77f281dd57a9f30ce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 737d53bd25a28321c333e890a019af881ae54fa1c5ae92299b1776689f9abb74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962514"
 ---
 # <a name="setting-up-the-extension-dlls"></a>Настройка библиотек DLL расширения
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008. Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
- 
+ 
 
 При запуске NPS проверяет реестр на наличие списка DLL-библиотек сторонних производителей для вызова.
 
@@ -37,7 +37,7 @@ ms.locfileid: "104070323"
 
 Значения **екстенсиондллс** и **аусоризатиондллс** должны иметь тип **reg \_ Multi \_ SZ**. Этот тип позволяет перечислить несколько библиотек DLL.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,6 +47,6 @@ ms.locfileid: "104070323"
 [Атрибуты идентификации пользователя](/windows/desktop/Nps/ias-user-identification-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

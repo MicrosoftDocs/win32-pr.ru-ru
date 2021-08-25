@@ -7,12 +7,12 @@ MSHAttr:
 title: Профилекреатионтипе (в Модемдмконфигпрофиле)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b755840d0308ec2d7a7bba5896b0cf67b7b61198
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29867412bbadc8041bcf864a9575b0fc6001a499
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479960"
 ---
 # <a name="span-idwwan_profile_v4element_1_profilecreationtypespanprofilecreationtype-in-modemdmconfigprofile"></a><span id="WWAN_profile_v4.element_1_ProfileCreationType"></span>Профилекреатионтипе (в Модемдмконфигпрофиле)
 
@@ -47,24 +47,11 @@ ms.locfileid: "103897282"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a></td>
-<td><p>Профиль конфигурации DM для модема.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-modemdmconfigprofile.md">ModemDMConfigProfile</a> | <p>Профиль конфигурации DM для модема.</p> | 
+
 
  
 
@@ -76,18 +63,9 @@ ms.locfileid: "103897282"
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

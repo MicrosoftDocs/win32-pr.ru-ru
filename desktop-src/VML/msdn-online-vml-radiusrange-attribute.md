@@ -4,21 +4,21 @@ description: Атрибут Радиусранже VML
 ms.assetid: bff2b185-7683-4994-9104-09a7579f963d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085ccfbcfe39c9ac3ea47350deebc6c5c59e0fa0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b28e086ef45f60445f63d094934258832fa7e63b58f95f09b1391318d8283fea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007674"
 ---
 # <a name="vml-radiusrange-attribute"></a>Атрибут Радиусранже VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет диапазон полярного маркера. Read/write. **VgVector2D**.
 
@@ -36,6 +36,6 @@ ms.locfileid: "104487837"
 
 *Стандартный атрибут VML*
 
- 
+ 
 
- 
+ 

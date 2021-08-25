@@ -3,7 +3,7 @@ title: Вспомогательный звуковой интерфейс
 description: Вспомогательный звуковой интерфейс
 ms.assetid: 9cde856f-abc1-4893-9a28-35685e6d763c
 keywords:
-- Мультимедиа Windows, вспомогательное аудио
+- Windows мультимедиа, вспомогательное аудио
 - мультимедиа, вспомогательное аудио
 - мультимедийные аудио, вспомогательные
 - аудио, вспомогательная
@@ -19,12 +19,12 @@ keywords:
 - Звукозапись, вспомогательные звуковые устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4daa76f2c4f33b7cc04e90313550ad2f254fc7e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: effd30748914724cf089b47b9c7d8d1848cfef121d7eb1233738477f31c1e902
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808354"
 ---
 # <a name="auxiliary-audio-interface"></a>Вспомогательный звуковой интерфейс
 
@@ -33,9 +33,9 @@ ms.locfileid: "105672163"
 -   [Запрос вспомогательных звуковых устройств](querying-auxiliary-audio-devices.md)
 -   [Изменение объема вспомогательных звуковых устройств](changing-the-volume-of-auxiliary-audio-devices.md)
 
- 
+ 
 
- 
+ 
 
 
 

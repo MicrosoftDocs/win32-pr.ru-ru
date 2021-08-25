@@ -4,12 +4,12 @@ ms.assetid: cd05d4da-ca65-471b-bb97-82885f22e6f9
 title: Построение графических функций API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e343f3f5ff1e53180cced98cbebbd66af1d28e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b26c40770e8fcbc18b08ccb73dcfea5f1f6c4eab65be615ed76d8088ddc90954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776224"
 ---
 # <a name="graphing-api-functions"></a>Построение графических функций API
 
@@ -28,7 +28,7 @@ API-интерфейс одноранговых диаграмм использ�
 
  
 
-## <a name="graph-creation-and-access-functions"></a>Функции создания и доступа к диаграмме
+## <a name="graph-creation-and-access-functions"></a>Graph Функции создания и доступа
 
 
 
@@ -44,7 +44,7 @@ API-интерфейс одноранговых диаграмм использ�
 
  
 
-## <a name="graph-and-node-information-functions"></a>Функции работы со сведениями о графах и узлах
+## <a name="graph-and-node-information-functions"></a>функции Graph и сведения об узле
 
 
 

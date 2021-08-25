@@ -4,12 +4,12 @@ ms.assetid: 060115af-38d1-499c-b30c-47cd0cf42d20
 title: Поддержка Large-Page
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ef4578b5127e6613f2ff4b6e0b8a7cffcc53c9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad61873c80d2d3fe8de6a915f5eb93f527049a437860deabedbe232cdf9cb885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869684"
 ---
 # <a name="large-page-support"></a>Поддержка Large-Page
 

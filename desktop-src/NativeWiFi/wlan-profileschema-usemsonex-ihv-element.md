@@ -36,7 +36,7 @@ ms.locfileid: "119912644"
 
 Элемент определяется элементом [**IHV**](wlan-profileschema-ihv-wlanprofile-element.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "119912644"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

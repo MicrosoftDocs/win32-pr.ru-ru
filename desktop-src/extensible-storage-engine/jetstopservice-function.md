@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1e66b4e5242710c89ca7e7964ecd0a72774b719d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75e8622d79f2757bee8ab3041250b2ba78499194
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711201"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480310"
 ---
 # <a name="jetstopservice-function"></a>Функция JetStopService
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetstopservice-function"></a>Функция JetStopService
 
@@ -46,31 +46,14 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>Не ясно, какой экземпляр подготавливается к завершению при использовании <strong>жетстопсервице</strong> в режиме с несколькими экземплярами.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>Не ясно, какой экземпляр подготавливается к завершению при использовании <strong>жетстопсервице</strong> в режиме с несколькими экземплярами.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+
 
 
 Если эта функция выполнена, она подготавливается к будущему завершению. Ниже приведены шаги, предпринимаемые для подготовки к завершению работы.
@@ -87,38 +70,13 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="remarks"></a>Комментарии
 
-Эта функция сокращает работу, которую экземпляр будет выполнять при завершении, но не будет завершать экземпляр. В результате эта функция является просто оптимизацией и не является обязательной для использования. Обратите внимание, что объем работы, выполненной в процессе подготовки, был меньше в Windows 2000 и Windows XP. После выполнения функции вызов функций, которые больше не разрешены, возвратит JET_errClientRequestToStopJetService. Функции, по-прежнему разрешенные после этого вызова: [жетроллбакк](./jetrollback-function.md), [жетклосетабле](./jetclosetable-function.md), [жетендсессион](./jetendsession-function.md), [жетклоседатабасе](./jetclosedatabase-function.md), [жетдетачдатабасе](./jetdetachdatabase-function.md) и [жетресетсессионконтекст](./jetresetsessioncontext-function.md).
+Эта функция сокращает работу, которую экземпляр будет выполнять при завершении, но не будет завершать экземпляр. В результате эта функция является просто оптимизацией и не является обязательной для использования. обратите внимание, что объем работы, выполненной в процессе подготовки, был меньше в Windows 2000 и Windows XP. После выполнения функции вызов функций, которые больше не разрешены, возвратит JET_errClientRequestToStopJetService. Функции, по-прежнему разрешенные после этого вызова: [жетроллбакк](./jetrollback-function.md), [жетклосетабле](./jetclosetable-function.md), [жетендсессион](./jetendsession-function.md), [жетклоседатабасе](./jetclosedatabase-function.md), [жетдетачдатабасе](./jetdetachdatabase-function.md) и [жетресетсессионконтекст](./jetresetsessioncontext-function.md).
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

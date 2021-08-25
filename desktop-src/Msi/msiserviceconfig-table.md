@@ -4,18 +4,18 @@ ms.assetid: 0d9fd005-9326-4a18-8496-35b5d1927f47
 title: Таблица Мсисервицеконфиг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357b6787e56d52a893dd1a118a3e2fcbc13379e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b72e21fdfecd59780b862d3bfe7d68ef829b59b847dbceb0e9c13befae9d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828594"
 ---
 # <a name="msiserviceconfig-table"></a>Таблица Мсисервицеконфиг
 
 В таблице Мсисервицеконфиг настраивается служба, установленная или устанавливаемая текущим пакетом.
 
-**[Установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается. Эта таблица доступна начиная с установщик Windows 5,0.
+**[установщик Windows 4,5 или более ранней версии](not-supported-in-windows-installer-4-5.md):** Не поддерживается. эта таблица доступна начиная с установщик Windows 5,0.
 
 Таблица Мсисервицеконфиг содержит следующие столбцы.
 
@@ -23,11 +23,11 @@ ms.locfileid: "105664176"
 
 | Столбец           | Type                         | Ключ | Допускает значения NULL |
 |------------------|------------------------------|-----|----------|
-| мсисервицеконфиг | [Идентификатор](identifier.md) | Да   | Нет        |
+| мсисервицеконфиг | [Идентификатор](identifier.md) | Д   | Нет        |
 | Имя             | [Формате](formatted.md)   | Нет   | Нет        |
 | Событие            | [Integer](integer.md)       | Нет   | Нет        |
 | ConfigType       | [Integer](integer.md)       | Нет   | Нет        |
-| Аргумент         | [Формате](formatted.md)   | Нет   | Да        |
+| Аргумент         | [Формате](formatted.md)   | Нет   | Д        |
 | Компонент\_      | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 

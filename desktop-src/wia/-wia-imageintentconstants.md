@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: f35c1f7436c8cc5110215a6ccf0383960ec3fb87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78130128a26057ed521512dd21acc5a1bd7e98c47ed689eaabc250a972c2a003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814124"
 ---
 # <a name="image-intent-constants"></a>Константы намерения образа
 
@@ -73,15 +73,15 @@ ms.locfileid: "103991278"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 32772cba-eb30-4cd3-adaf-57fb8425a6d5
 title: Дата и календарь
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96a3c21965bfbf8c4215b478e5c3b4adbae579ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a3f200ccd60a5a5d121a8774c01808794e744b98d8611210fcc98b0f8e5e1f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822814"
 ---
 # <a name="date-and-calendar"></a>Дата и календарь
 
@@ -26,7 +26,7 @@ ms.locfileid: "103912555"
 
 Дополнительные сведения о реализации дат и календарей в приложениях см. в разделе [Получение сведений о времени и датах](retrieving-time-and-date-information.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

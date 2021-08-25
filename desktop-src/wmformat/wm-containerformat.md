@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9394fca14c3e07eb1f867c7b8ac473b2b61a9a2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 99e0d5cc430b0580c6719d212d664d8c19ddc65eee64e5877a8e6aba80d94a6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103784128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839444"
 ---
 # <a name="wmcontainerformat"></a>WM/Контаинерформат
 
@@ -31,13 +31,13 @@ g \_ всзвмконтаинерформат
 
 [**ВМТ \_ \_Формат хранения**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format) (**\_ \_ двоичный тип ВМТ**)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут используется вместо **IWMProfile3:: жетсторажеформат** и **IWMProfile3:: сетсторажеформат**, которые больше не поддерживаются.
 
 Это закодированный атрибут.
 
-Этот атрибут не может дублироваться на уровне файла. Если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать его нормальные значения объектам пакета SDK Windows Media Format.
+Этот атрибут не может дублироваться на уровне файла. если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать свое нормальное значение объектам из пакета SDK Windows Media Format.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -46,9 +46,9 @@ g \_ всзвмконтаинерформат
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

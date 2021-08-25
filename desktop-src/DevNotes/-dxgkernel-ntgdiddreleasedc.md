@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: a7319b423f12d7e4415d78d995bfb1d7cd0341a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: daa4cad2f6f3937ebe29b3996ebbaa72b894ee743f97222cb1f6e2ff61f7dbb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824914"
 ---
 # <a name="ntgdiddreleasedc-function"></a>Функция Нтгдиддрелеаседк
 
@@ -55,11 +55,11 @@ BOOL APIENTRY NtGdiDdReleaseDC(
 
 В случае успеха эта функция возвращает **значение true**. в противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения, которым требуется получить контроллер домена для поверхности DirectDraw, могут использовать [IDirectDrawSurface7:: GetDC](/windows/win32/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc), который предоставляет эту функциональность независимо от операционной системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ BOOL APIENTRY NtGdiDdReleaseDC(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

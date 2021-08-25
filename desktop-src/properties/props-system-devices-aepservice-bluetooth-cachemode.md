@@ -1,19 +1,19 @@
 ---
-description: Режим кэширования Bluetooth для запроса.
+description: Bluetooth режим кэширования для запроса.
 ms.assetid: fb23c8ff-a878-4c79-bce0-9e82b8947d1f
 title: System. Devices. Аепсервице. Bluetooth. CacheMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dc0d9681afabfdc07870a63593ffae191987de4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39cb52b890392f98fbaf77b67bf785c8d62fbdbf39e7f3cefd5998c77e0a5a7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119946094"
 ---
 # <a name="systemdevicesaepservicebluetoothcachemode"></a>System. Devices. Аепсервице. Bluetooth. CacheMode
 
-Режим кэширования Bluetooth для запроса.
+Bluetooth режим кэширования для запроса.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607"></a>Windows 10, версия 1703, Windows 10, версия 1607
 
@@ -43,11 +43,11 @@ propertyDescription
             defineToken = BLUETOOTH_CACHED_MODE_UNCACHED
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

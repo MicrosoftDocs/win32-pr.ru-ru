@@ -4,12 +4,12 @@ ms.assetid: 9F677E6E-0DCD-456F-8A00-1C11011BAA13
 title: Атрибут MF_CAPTURE_ENGINE_DISABLE_DXVA (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2ce31ed55e151e7254168e5e6bcce0c5460e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c722b70e1707e6ad5d14b7afca0da2c8d1a63b3a132345e727de1f37023916a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941014"
 ---
 # <a name="mf_capture_engine_disable_dxva-attribute"></a>\_Ключ записи \_ MF \_ Отключить \_ атрибут дксва
 
@@ -19,7 +19,7 @@ ms.locfileid: "104343935"
 
 **Bool** , сохраненный как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется, если выполняются следующие условия.
 
@@ -33,19 +33,19 @@ ms.locfileid: "104343935"
 
 Значение этого атрибута по умолчанию равно **false**, означающее, что при наличии включен декодирование дксва.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                         |
-| Header<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                   |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                         |
+| Заголовок<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

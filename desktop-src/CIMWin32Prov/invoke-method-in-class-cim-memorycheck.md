@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d8788b8e910e0a5b7debd9990c18dfb4edef140e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1607d6b6db173b79db19584444b6928fc0e87b9ecf11e39b9e67e34acdb29496
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003664"
 ---
 # <a name="invoke-method-of-the-cim_memorycheck-class"></a>Метод Invoke \_ класса CIM меморичекк
 
@@ -49,7 +49,7 @@ uint32 Invoke();
 
 Возвращает значение 0 (нуль) при успешном выполнении и любое другое число для указания ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
@@ -69,7 +69,7 @@ uint32 Invoke();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

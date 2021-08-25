@@ -4,12 +4,12 @@ ms.assetid: 44af5e03-5f0a-4564-b9d6-b8c935df35b2
 title: Атрибуты в Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e7893586aa1e966b95c1af5d04246bbb0c82ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f46cc919f426ff7b0862de73d8852291d25b7e31f2b5d67d7a4955369be6d17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943304"
 ---
 # <a name="attributes-in-media-foundation"></a>Атрибуты в Media Foundation
 
@@ -20,7 +20,7 @@ ms.locfileid: "103808188"
 -   [Общие сведения об атрибутах](#about-attributes)
 -   [Сериализация атрибутов](#serializing-attributes)
 -   [Реализация Имфаттрибутес](#implementing-imfattributes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="about-attributes"></a>Общие сведения об атрибутах
 
@@ -580,7 +580,7 @@ public:
 
 Аргумент шаблона является типом интерфейса, который по умолчанию имеет значение [**имфаттрибутес**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes). Если объект реализует интерфейс, наследующий **имфаттрибутес**, например [**имфактивате**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate), установите аргумент шаблона равным имени производного интерфейса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

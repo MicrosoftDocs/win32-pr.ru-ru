@@ -4,12 +4,12 @@ ms.assetid: b384861d-4e71-4e07-8b44-5c1cbcb3a70f
 title: Создание декодера с помощью имени файла образа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 113ea82b741f2a8dab6c92d6391d65eb7d7e99c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 867581e06692188913e4bb1af4956956c462c46bc189a4983f3c5d24bc38c986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811994"
 ---
 # <a name="how-to-create-a-decoder-using-an-image-filename"></a>Создание декодера с помощью имени файла образа
 
@@ -17,7 +17,7 @@ ms.locfileid: "105693562"
 
 Создание декодера точечных рисунков с помощью имени файла образа
 
-1.  Создайте объект [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) для создания объектов компонента Windows Imaging Component (WIC).
+1.  создайте объект [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) для создания объектов компонента обработки изображений Windows (WIC).
 
     ```C++
     // Create WIC factory

@@ -4,12 +4,12 @@ ms.assetid: dbb536a6-9c12-459d-8098-ebe4fc4c8f2f
 title: WPD_FUNCTIONAL_CATEGORY_SMS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3a08cb3df6bd74de843efaa3d0feed88ad86fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 273807900639f7c220bbb1828233bd717a8b814160167df3be87bda904d5a3e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838934"
 ---
 # <a name="wpd_functional_category_sms"></a>\_функциональная \_ Категория WPD \_ SMS
 
@@ -42,7 +42,7 @@ ms.locfileid: "104265965"
 | [Объект WPD, \_ \_ создающий \_ эскиз \_ из \_ ресурса](object-properties.md) | Необязательный элемент.                                                                                                                                              |
 | [\_объект WPD \_ может \_ удалить](object-properties.md)                                                                     | Требуется, если объект не может быть удален.                                                                                                              |
 | [\_ \_ языковой стандарт объекта WPD \_](object-properties.md)                                                                | Необязательный элемент.                                                                                                                                              |
-| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. Категории, определяемые переносными устройствами Windows, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
+| [\_Категория функционального \_ объекта WPD \_](miscellaneous-properties.md)                      | Обязательный. категории, определяемые Windows портативными устройствами, см. в разделе [**\_ \_ \_ функциональный \_ объект типа содержимого WPD**](wpd-content-type-functional-object.md) . |
 | [\_поставщик SMS для WPD \_](sms-properties.md)                                                             | Обязательный.                                                                                                                                              |
 | [\_время ожидания SMS-сервера (WPD) \_](sms-properties.md)                                                               | Обязательный.                                                                                                                                              |
 | [\_ \_ Максимальное количество полезных данных по SMS для сервера WPD \_](sms-properties.md)                                                      | Обязательный.                                                                                                                                              |
@@ -56,7 +56,7 @@ ms.locfileid: "104265965"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

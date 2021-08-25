@@ -4,12 +4,12 @@ ms.assetid: 832957ca-82fc-4600-b469-512621dde921
 title: Включение сборки в приложении, где размещается библиотека DLL, расширение или панель управления
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04dd19b18c2cdce4783be47333b9afe53dd1ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ac528c10d7ca0de903c6b132e0349c16061d63f121c390483458b4ef422d66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885544"
 ---
 # <a name="enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel"></a>Включение сборки в приложении, где размещается библиотека DLL, расширение или панель управления
 
@@ -60,7 +60,7 @@ ms.locfileid: "105647407"
     MANIFEST_RESOURCE_ID RT_MANIFEST "YourApp.manifest"
     ```
 
-3.  Скомпилируйте приложение с флагом-ДИСОЛАТИОН \_ , поддерживающим \_ поддержку, или вставьте эту инструкцию перед \# оператором include "Windows. h". В случае приложения с несколькими модулями \_ \_ на всех модулях должен быть включен флаг-дисолатион с поддержкой включения.
+3.  скомпилируйте приложение с флагом-дисолатион \_ , поддерживающим \_ поддержку, или вставьте эту инструкцию перед \# оператором include "Windows. h". В случае приложения с несколькими модулями \_ \_ на всех модулях должен быть включен флаг-дисолатион с поддержкой включения.
 
     ``` syntax
     #define ISOLATION_AWARE_ENABLED 1

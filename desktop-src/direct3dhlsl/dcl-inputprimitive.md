@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 76c131b7c4225c0b30ad1183e4da1fe6c0561754
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0660fe4da14a20f074e4f04de8891fc0848f2597
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103987091"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479900"
 ---
 # <a name="dcl_inputprimitive-sm4---asm"></a>дкл \_ инпутпримитиве (SM4-ASM)
 
@@ -31,31 +31,11 @@ ms.locfileid: "103987091"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="type"></span><span id="TYPE"></span><em>Тип</em><br/></td>
-<td>окне Тип примитива input-Data, который является одним из следующих: <br/>
-<ul>
-<li><em>точка</em> - Список точек</li>
-<li><em>строка</em> - список строк</li>
-<li><em>треугольник</em> - список треугольников</li>
-<li><em>line_adj</em> - строковый список с соседями данных</li>
-<li><em>triangle_adj</em> - список треугольников с смежными данными</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент | Описание | 
+|------|-------------|
+| <span id="type"></span><span id="TYPE"></span><em>Тип</em><br /> | окне Тип примитива input-Data, который является одним из следующих: <br /><ul><li>список <em>точек</em></li><li>список <em>строк</em></li><li><em>треугольник</em> -треугольниковый список</li><li><em>line_adj</em> -Line List с данными о сосмежном уровне</li><li><em>triangle_adj</em> -треугольниковый список с смежными данными</li></ul> | 
+
 
 
 
@@ -75,7 +55,7 @@ ms.locfileid: "103987091"
 
 Эта инструкция включена для облегчения отладки шейдера в сборке; нельзя создать шейдер на языке ассемблера с использованием модели шейдеров 4.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Ниже приведен пример.
 
@@ -94,9 +74,9 @@ dcl_inputPrimitive triangle
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -105,7 +85,7 @@ dcl_inputPrimitive triangle
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -44,12 +44,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba5646c6ac9abf41fddc023ad39884e611681a71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 735b033017958816e8e9a40caea935847104fdcbe3e9acf3128890d88685d09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867854"
 ---
 # <a name="win32_terminalservice-class"></a>\_Класс Win32 терминалсервице
 
@@ -109,10 +109,10 @@ class Win32_TerminalService : Win32_Service
 
 | Метод                                                                       | Описание                                                                                          |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [**Change**](win32-terminalservice-change.md)                               | Изменяет службу.<br/>                                                                       |
+| [**Изменение**](win32-terminalservice-change.md)                               | Изменяет службу.<br/>                                                                       |
 | [**чанжестартмоде**](win32-terminalservice-changestartmode.md)             | Изменяет режим запуска службы.<br/>                                                     |
-| [**Создать**](win32-terminalservice-create.md)                               | Создает новую службу.<br/>                                                                    |
-| [**Удалить**](win32-terminalservice-delete.md)                               | Удаляет существующую службу.<br/>                                                              |
+| [**Создание**](win32-terminalservice-create.md)                               | Создает новую службу.<br/>                                                                    |
+| [**Удален**](win32-terminalservice-delete.md)                               | Удаляет существующую службу.<br/>                                                              |
 | [**жетсекуритидескриптор**](win32-terminalservice-getsecuritydescriptor.md) | Возвращает дескриптор безопасности, управляющий доступом к службе.<br/>                      |
 | [**интеррогатесервице**](win32-terminalservice-interrogateservice.md)       | Запрашивает обновление состояния службы до Service Manager.<br/>                          |
 | [**PauseService**](win32-terminalservice-pauseservice.md)                   | Пытается перевести службу в приостановленное состояние.<br/>                                          |
@@ -168,7 +168,7 @@ class Win32_TerminalService : Win32_Service
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -236,7 +236,7 @@ class Win32_TerminalService : Win32_Service
 
 Если **значение — true**, служба запускается после запуска других служб, запускающих автозапуск, и короткой задержки.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 Это свойство наследуется [**от \_ службы Win32**](/windows/desktop/CIMWin32Prov/win32-service).
 
@@ -400,7 +400,7 @@ class Win32_TerminalService : Win32_Service
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Service Structures \| [**\_ Status**](/windows/desktop/api/winsvc/ns-winsvc-service_status) \| DwWin32ExitCode"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("код выхода")
 </dt> </dl>
 
-Код ошибки Windows, определяющий ошибки, возникающие при запуске или остановке службы. Это свойство имеет значение ошибка, связанное со **\_ службой \_ \_ ошибок** (1066), если ошибка является уникальной для службы, представленной этим классом, а сведения об ошибке доступны в свойстве [**сервицеспеЦифицекситкоде**](/windows/desktop/CIMWin32Prov/win32-service) . Служба задает это значение **без \_ ошибок** при выполнении и снова после нормального завершения.
+Windows код ошибки, определяющий ошибки при запуске или остановке службы. Это свойство имеет значение ошибка, связанное со **\_ службой \_ \_ ошибок** (1066), если ошибка является уникальной для службы, представленной этим классом, а сведения об ошибке доступны в свойстве [**сервицеспеЦифицекситкоде**](/windows/desktop/CIMWin32Prov/win32-service) . Служба задает это значение **без \_ ошибок** при выполнении и снова после нормального завершения.
 
 Это свойство наследуется из [**Win32 \_ басесервице**](/windows/desktop/CIMWin32Prov/win32-baseservice).
 
@@ -424,7 +424,7 @@ class Win32_TerminalService : Win32_Service
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -601,7 +601,7 @@ class Win32_TerminalService : Win32_Service
 Квалификаторы: [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("режим запуска")
 </dt> </dl>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 <dt>
 
@@ -758,7 +758,7 @@ class Win32_TerminalService : Win32_Service
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 и Windows Vista:** Это свойство доступно только для чтения до Windows 7 и Windows Server 2008 R2.
+**Windows Server 2008 и Windows Vista:** это свойство доступно только для чтения до Windows 7 и Windows Server 2008 R2.
 
 Это свойство наследуется из [**Win32 \_ басесервице**](/windows/desktop/CIMWin32Prov/win32-baseservice).
 
@@ -959,7 +959,7 @@ class Win32_TerminalService : Win32_Service
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поскольку класс **Win32 \_ терминалсервице** является подклассом класса [**\_ службы Win32**](/windows/desktop/CIMWin32Prov/win32-service) , класс наследует все свойства и методы **\_ службы Win32**.
 
@@ -967,9 +967,9 @@ class Win32_TerminalService : Win32_Service
 
 [**Win32 \_ Тссессиондиректори**](win32-tssessiondirectory.md) связан с **Win32 \_ терминалсервице** в качестве свойства **Setting** ассоциации [**Win32 \_ тссессиондиректорисеттинг**](win32-tssessiondirectorysetting.md) .
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -983,7 +983,7 @@ class Win32_TerminalService : Win32_Service
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

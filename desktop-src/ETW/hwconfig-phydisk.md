@@ -22,12 +22,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 453f06ae11bb8b1e11c9efddd6f63bffd38540e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8a578154e2acedb5d5c8ca6d5eea4f79737e5a2cfb89b0cb658526094fd09c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086404"
 ---
 # <a name="hwconfig_phydisk-class"></a>\_Класс хвконфиг фидиск
 
@@ -54,13 +54,13 @@ class HWConfig_PhyDisk : HWConfig
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **хвконфиг \_ фидиск** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **хвконфиг \_ фидиск** имеет следующие свойства.
 
@@ -226,18 +226,18 @@ TracksPerCylinder
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

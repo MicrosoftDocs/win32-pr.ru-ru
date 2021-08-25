@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 28078f3e-a3d1-4bb5-96c6-2191ff9f8d38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 296d667a495dce918bdcfcf0391638eef8a3c6e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b910c59121d692b45d122f9c38a5efdc74b1e9dd8eb47429327e5de34e9e4796
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059374"
 ---
 # <a name="using-trackbar-controls"></a>Использование элементов управления TrackBar
 
@@ -24,7 +24,7 @@ ms.locfileid: "103775557"
 | [Создание линейки значений](create-a-trackbar.md)<br/>                                           | При создании значения TrackBar инициализируются и его диапазон, и диапазон выбора. Размер страницы также задается в данный момент. <br/>                                                                                                                                           |
 | [Обработка сообщений с уведомлениями TrackBar](process-trackbar-notification-messages.md)<br/> | Значения TrackBar уведомляют свое родительское окно действий пользователя, отправляя родительское сообщение [**WM \_ HSCROLL**](wm-hscroll.md) или [**WM \_ VSCROLL**](wm-vscroll.md) . <br/>                                                                                                            |
 | [Ограничение перемещения ползунка](limit-slider-movement.md)<br/>                                   | Как описано в разделе [о элементах управления TrackBar](trackbar-controls.md), можно отключить часть диапазона TrackBar в качестве диапазона выбора. Одной из целей диапазона выбора может быть ограничение перемещения ползунка, что делает некоторые части ограничений полного диапазона. <br/> |
-| [Использование дружественных окон](use-buddy-windows.md)<br/>                                           | Настроив другие элементы управления как дружественные окна для TrackBar, можно автоматически размещать эти элементы управления на концах TrackBar в виде меток.<br/>                                                                                                                          |
+| [Использование дружественной Windows](use-buddy-windows.md)<br/>                                           | Настроив другие элементы управления как дружественные окна для TrackBar, можно автоматически размещать эти элементы управления на концах TrackBar в виде меток.<br/>                                                                                                                          |
 
 
 

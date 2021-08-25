@@ -3,7 +3,7 @@ title: Сообщение CB_GETHORIZONTALEXTENT (Winuser. h)
 description: Возвращает ширину (в пикселях), в которой окно списка можно прокручивать горизонтально (прокручиваемая ширина). Это применимо только в том случае, если в списке есть горизонтальная полоса прокрутки.
 ms.assetid: 7c9fff88-2750-4c94-b7f6-6bdd81c224e9
 keywords:
-- Элементы управления Windows для CB_GETHORIZONTALEXTENT сообщений
+- элементы управления Windows сообщений CB_GETHORIZONTALEXTENT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a2b1fb7c8fe7549360801516364528c9a2ef1f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 928561b812dd3a09909d8d89c7dda1dc67b63f9177769d80db2d16ac78cbbf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089214"
 ---
 # <a name="cb_gethorizontalextent-message"></a>\_Сообщение ЖЕСОРИЗОНТАЛЕКСТЕНТ CB
 
@@ -47,19 +47,19 @@ ms.locfileid: "104071619"
 
 Возвращаемое значение является прокручиваемой шириной в пикселях.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

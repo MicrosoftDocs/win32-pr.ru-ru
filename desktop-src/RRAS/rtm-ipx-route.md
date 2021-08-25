@@ -102,7 +102,7 @@ typedef struct _RTM_IPX_ROUTE {
 
 Элементы структуры **маршрута RTM- \_ IPX \_** выводятся полностью по **значению DWORD** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,11 +111,11 @@ typedef struct _RTM_IPX_ROUTE {
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                        |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                             |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                   |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

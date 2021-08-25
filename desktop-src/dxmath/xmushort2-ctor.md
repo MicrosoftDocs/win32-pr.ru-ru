@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3dbb7183b858a62dc0a4d2907717a8ad66faec5cdbc72dee7249d9e4c2bac9af
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a67542df7475077350f71cac98330f808fd72f6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119978714"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480080"
 ---
 # <a name="xmushort2-constructors"></a>Конструкторы XMUSHORT2
 
@@ -33,69 +33,19 @@ ms.locfileid: "119978714"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(constfloat)"><strong>XMUSHORT2 ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMUSHORT2</code> .<br/> Конструктор по умолчанию для <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(float_float)"><strong>XMUSHORT2 (float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUSHORT2</code> из двух <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>float</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee420629(v=vs.85)"><strong>XMUSHORT2 (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMUSHORT2</code> из двух <code>float</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>float</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/hh404766(v=vs.85)"><strong>XMUSHORT2 (const uint16_t *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUSHORT2</code> из массива <code>uint16_t</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр <code>XMUSHORT2</code> из массива <code>uint16_t</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(uint16_t_uint16_t)"><strong>XMUSHORT2 (uint16_t, uint16_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUSHORT2</code> из двух <code>uint16_t</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>uint16_t</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(constfloat)"><strong>XMUSHORT2 ()</strong></a> | Конструктор по умолчанию для <code>XMUSHORT2</code> .<br /> Конструктор по умолчанию для <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a>.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(float_float)"><strong>XMUSHORT2 (float, float)</strong></a> | Инициализирует новый экземпляр <code>XMUSHORT2</code> из двух <code>float</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>float</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/ee420629(v=vs.85)"><strong>XMUSHORT2 (const float *)</strong></a> | Инициализирует новый экземпляр класса <code>XMUSHORT2</code> из двух <code>float</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>float</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/hh404766(v=vs.85)"><strong>XMUSHORT2 (const uint16_t *)</strong></a> | Инициализирует новый экземпляр <code>XMUSHORT2</code> из массива <code>uint16_t</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр <code>XMUSHORT2</code> из массива <code>uint16_t</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushort2-xmushort2(uint16_t_uint16_t)"><strong>XMUSHORT2 (uint16_t, uint16_t)</strong></a> | Инициализирует новый экземпляр <code>XMUSHORT2</code> из двух <code>uint16_t</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushort2"><strong>XMUSHORT2</strong></a> из двух <code>uint16_t</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

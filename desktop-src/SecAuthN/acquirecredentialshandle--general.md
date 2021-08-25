@@ -198,7 +198,7 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 
 По завершении использования возвращенных учетных данных освободите память, используемую учетными данными, вызвав функцию [**фрикредентиалшандле**](/windows/win32/api/sspi/nf-sspi-freecredentialshandle) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -206,14 +206,14 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 | Имя в кодировке Юникод и ANSI<br/>   | **Аккуирекредентиалшандлев** (Юникод) и **аккуирекредентиалшандлеа** (ANSI)<br/>            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

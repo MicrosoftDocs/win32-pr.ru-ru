@@ -183,7 +183,7 @@ class MDM_PassportForWork_PINComplexity03
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -197,7 +197,7 @@ class MDM_PassportForWork_PINComplexity03
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 2a206005a686d02891a593243bc0ef3a4ad7db23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42a22cfca32409fdfa02586bb90c76f8e8f2489b22cfe2769b50d928d2564af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960293"
 ---
 # <a name="a_shafinal-function"></a>\_Функция шафинал
 
@@ -58,17 +58,17 @@ VOID RSA32API A_SHAFinal(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта функция очень похожа на Шафинал, но вызывается непосредственно из библиотеки, а не направляется через криптографическую инфраструктуру. Дополнительные сведения см. в разделе [поставщики Нткриптографик Windows](/previous-versions/tn-archive/cc723484(v=technet.10)).
+Эта функция очень похожа на Шафинал, но вызывается непосредственно из библиотеки, а не направляется через криптографическую инфраструктуру. дополнительные сведения см. в статье [Windows поставщики нткриптографик](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>SHA. h</dt> </dl>     |
+| Заголовок<br/>  | <dl> <dt>SHA. h</dt> </dl>     |
 | Библиотека<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Ntdll.dll</dt> </dl> |
 

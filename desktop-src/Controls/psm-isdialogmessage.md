@@ -3,7 +3,7 @@ title: Сообщение PSM_ISDIALOGMESSAGE (Пршт. h)
 description: Передает сообщение в диалоговое окно страницы свойств и указывает, обрабатывало ли это сообщение диалоговое окно. Это сообщение можно отправить явным образом или с помощью \_ макроса пропшит исдиалогмессаже.
 ms.assetid: 7629c3f8-0b10-4585-8a95-9309c75b3ebb
 keywords:
-- Элементы управления Windows для PSM_ISDIALOGMESSAGE сообщений
+- элементы управления Windows сообщений PSM_ISDIALOGMESSAGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b753fc849d76e3ac5071dd85bdd94950460fbb10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 12f28d63e5586d3b083282db4e029551ce4e61d0ef997e36e3e874e9f032095b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088684"
 ---
 # <a name="psm_isdialogmessage-message"></a>\_Сообщение ПСМ исдиалогмессаже
 
@@ -47,7 +47,7 @@ ms.locfileid: "103892013"
 
 Возвращает **значение true** , если сообщение было обработано, или **значение false** , если сообщение не было обработано.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для передачи сообщений в диалоговое окно страницы свойств в цикле сообщений следует использовать сообщение **ПСМ \_ исдиалогмессаже** с немодальными страницами свойств. В системах, поддерживающих Юникод, для получения сообщений используйте версии [](/windows/desktop/api/winuser/nf-winuser-getmessage) Юникода для функций [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea) (**Жетмессажев** и **пикмессажев**) в Юникоде.
 
@@ -58,19 +58,19 @@ ms.locfileid: "103892013"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6feda287b84ebdea8efba97782ec2f6ed9f367b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba11a337276a7215d9ca0800bedb495edb8565b40c4db5258579def7f49688db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093064"
 ---
 # <a name="vistaparamtableclass9name-field"></a>Вистапарам. TableClass9Name, поле
 
@@ -53,7 +53,7 @@ value = VistaParam.TableClass9Name
 public const JET_param TableClass9Name
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

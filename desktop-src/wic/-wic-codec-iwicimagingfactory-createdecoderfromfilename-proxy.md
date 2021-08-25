@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 3497d71475198d035a496909e65c47df6c5f8b8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dabc24d17fdac881537d45e47a8cc6808a1cf805ac14025d7fdfcfa50eea8500
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056634"
 ---
 # <a name="iwicimagingfactory_createdecoderfromfilename_proxy-function"></a>IWICImagingFactory \_ креатедекодерфромфиленаме \_ -функция
 
@@ -48,11 +48,11 @@ HRESULT IWICImagingFactory_CreateDecoderFromFilename_Proxy(
 *пфактори* \[ окне\]
 </dt> <dd>
 
-Тип: **IWICImagingFactory \** _
+Тип: **IWICImagingFactory \***
 
 </dd> <dt>
 
-_wzFilename * \[ в\]
+*взфиленаме* \[ окне\]
 </dt> <dd>
 
 Тип: **лпквстр**
@@ -64,13 +64,13 @@ _wzFilename * \[ в\]
 *пгуидвендор* \[ окне\]
 </dt> <dd>
 
-Тип: **константа \* GUID* _
+Тип: **константа \* GUID**
 
 Идентификатор GUID поставщика для декодера.
 
 </dd> <dt>
 
-_dwDesiredAccess * \[ в\]
+*двдесиредакцесс* \[ окне\]
 </dt> <dd>
 
 Тип: **DWORD**
@@ -113,8 +113,8 @@ _dwDesiredAccess * \[ в\]
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 
