@@ -4,12 +4,12 @@ ms.assetid: cbe43e5d-cd1b-467c-a0fd-1ee7cc5adcf7
 title: Методы Иокспадмин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9ecd14d2566c5e80e863ba06e38b2945492f59b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a455ae5cfbb49d60cc0d0a03265d05c98efa2f2217746086b0acf0a4230709dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992854"
 ---
 # <a name="methods-of-iocspadmin"></a>Методы Иокспадмин
 
@@ -24,7 +24,7 @@ ms.locfileid: "104343845"
 | [**жетмиролес**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getmyroles)                  | Получает маску доступа для ролей привилегий для пользователя на данном сервере респондента.                                                                                                                                                                                           |
 | [**Безопасность**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getsecurity)                       | Возвращает сведения о дескрипторе безопасности для сервера респондента.                                                                                                                                                                                                              |
 | [**жетсигнингцертификатес**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-getsigningcertificates) | Возвращает сертификаты подписи, доступные на сервере респондента для данного сертификата ЦС.                                                                                                                                                                        |
-| [**Проверок**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-ping)                                     | Проверяет DCOM-подключение к службе респондента.                                                                                                                                                                                                                         |
+| [**Проверка связи**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-ping)                                     | Проверяет DCOM-подключение к службе респондента.                                                                                                                                                                                                                         |
 | [**SetConfiguration**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-setconfiguration)      | Обновляет службу ответчика с изменениями конфигурации.                                                                                                                                                                                                                   |
 | [**SetSecurity**](/windows/desktop/api/Certadm/nf-certadm-iocspadmin-setsecurity)                       | Обновляет сведения о дескрипторе безопасности для сервера ответчика OCSP.                                                                                                                                                                                                     |
 

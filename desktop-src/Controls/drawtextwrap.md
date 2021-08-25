@@ -3,7 +3,7 @@ title: Функция Дравтекстврап
 description: Рисует форматированный текст в указанном прямоугольнике. Текст форматируется в соответствии с заданным методом (расширяя вкладки, выполняя, выполняя и т. д.). Эта функция заключает в оболочку вызов DrawText.
 ms.assetid: 28ab4c5e-3b8f-49e8-b072-500ba1916caf
 keywords:
-- Элементы управления Windows для функций Дравтекстврап
+- элементы управления Windows функции дравтекстврап
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc5eb707b4016a592ad339223e0f32ab21d4a29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dcbd504955b6ae772ffb3db7bc4cc0223215d6d9ecf880fe7d7e3aa359c992ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878294"
 ---
 # <a name="drawtextwrap-function"></a>Функция Дравтекстврап
 
-\[**Дравтекстврап** доступен в Windows XP с пакетом обновления 2 (SP2). Он может быть изменен или недоступен в последующих версиях. Вместо этого рекомендуется использовать [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) напрямую.\]
+\[**дравтекстврап** доступен в Windows XP с пакетом обновления 2 (SP2). Он может быть изменен или недоступен в последующих версиях. Вместо этого рекомендуется использовать [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) напрямую.\]
 
 Рисует форматированный текст в указанном прямоугольнике. Текст форматируется в соответствии с заданным методом (расширяя вкладки, выполняя, выполняя и т. д.). Эта функция заключает в оболочку вызов [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext).
 
@@ -119,14 +119,14 @@ int WINAPI DrawTextWrap(
 
 Дополнительные замечания см. в разделе [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                                 |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (версия 6,0 или более поздняя)</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ ms.assetid: c39c548e-e6d8-4971-98e7-4aaec4f1b6a7
 title: Встречная ссылка на конференцию IP-телефонии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e17fb730bc31f9712188bb883f4933afdefaf9b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f68718b482ef0e2b5eb65bb5f553d4a8521733c3940cae825ac456da652a556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034444"
 ---
 # <a name="rendezvous-ip-telephony-conferencing-reference"></a>Встречная ссылка на конференцию IP-телефонии
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Встречный API TAPI 3 — это группа интерфейсов модели COM, которые можно использовать для объявления и обнаружения многокомпонентных мультимедийных конференций. В следующем материале содержатся подробные сведения о предоставляемых объектах, интерфейсах и методах.
 
@@ -25,7 +25,7 @@ TAPI 3 использует фильтры DirectShow и диспетчеры ф
 
 [Встречные константы](rendezvous-constants.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

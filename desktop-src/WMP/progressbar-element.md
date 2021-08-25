@@ -3,25 +3,25 @@ title: Элемент PROGRESSBAR
 description: Элемент PROGRESSBAR
 ms.assetid: 1fd0a523-dadd-4cd8-829e-ac22847c97d4
 keywords:
-- Обложки проигрывателя Windows Media, элемент PROGRESSBAR
+- обложки проигрыватель Windows Media, элемент PROGRESSBAR
 - обложки, элемент PROGRESSBAR
 - Элемент PROGRESSBAR
 - Справочник по обложкам, элементу PROGRESSBAR
 - элементы, PROGRESSBAR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b386d55acbfe2d767c8bca5e608648b92d98fb50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc3f983a1938a605220cd110b267b97e805a06ba2c16a9778bae77ba918f02da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901124"
 ---
 # <a name="progressbar-element"></a>Элемент PROGRESSBAR
 
 Элемент **PROGRESSBAR** предоставляет способ вывода сведений о ходе выполнения в горизонтальном или вертикальном элементе управления. Этот элемент идентичен элементу **Slider** . Индикатор выполнения обычно является ползунком, который не является интерактивным, но в нем нет ничего, что не позволяет использовать его. Этот элемент предоставляется исключительно в качестве удобного тега, чтобы сделать нонинтерактивити открытым в коде, если вы решили использовать его таким образом. Он не имеет другого значения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -31,9 +31,9 @@ ms.locfileid: "105700627"
 [**Элемент SLIDER**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

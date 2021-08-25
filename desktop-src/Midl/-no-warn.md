@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 535c68ab2b64835b9e93224343d140f47eaa24aa
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 273f9f00d160d2284f4f87693cd2c391da1fcb82d66f2a49defada85c1af0698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896102"
 ---
 # <a name="no_warn-switch"></a>\_параметр/но warn
 
@@ -31,7 +31,7 @@ midl /no_warn
 
 Этот параметр не имеет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Использование параметра **\_ warn/но** эквивалентно **/W0**.
 
@@ -41,7 +41,7 @@ midl /no_warn
 
 **MIDL/W0 filename. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -54,9 +54,9 @@ midl /no_warn
 [**/WX**](-wx.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

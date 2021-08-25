@@ -1,15 +1,15 @@
 ---
-title: Интерфейсы для Visual Basic .NET и C
-description: Интерфейсы для Visual Basic .NET и C \
+title: интерфейсы для Visual Basic .net и C
+description: интерфейсы для Visual Basic .net и C \
 ms.assetid: c66f1e03-20eb-45b1-8710-be9eae63e7ad
 keywords:
-- Проигрыватель Windows Media, интерфейсы
-- Проигрыватель Windows Media Mobile, интерфейсы
-- Объектная модель проигрывателя Windows Media, интерфейсы
+- проигрыватель Windows Media, интерфейсы
+- проигрыватель Windows Media Мобильные устройства, интерфейсы
+- объектная модель проигрыватель Windows Media, интерфейсы
 - Объектная модель, интерфейсы
-- Элемент управления ActiveX, интерфейсы
-- Элемент управления ActiveX проигрывателя Windows Media, интерфейсы
-- Элемент управления ActiveX проигрывателя Windows Media для мобильных устройств, интерфейсы
+- элемент управления ActiveX, интерфейсы
+- проигрыватель Windows Media ActiveX элемент управления, интерфейсы
+- проигрыватель Windows Media мобильный ActiveX элемент управления, интерфейсы
 - Справочник по объектной модели, интерфейсам
 - Справочник по объектной модели интерфейса
 ms.topic: article
@@ -19,20 +19,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a301cb075ccee049272f1db9b2582aeae6697fa3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7024c60235b0a545463826fc8948adf3716c9c2d5b491414212d788087404b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862584"
 ---
-# <a name="interfaces-for-visual-basic-net-and-c"></a>Интерфейсы для Visual Basic .NET и C #
+# <a name="interfaces-for-visual-basic-net-and-c"></a>интерфейсы для Visual Basic .net и C #
 
-В этом разделе описываются интерфейсы, предоставляемые элементом управления ActiveX проигрывателя Windows Media.
+в этом разделе описываются интерфейсы, предоставляемые элементом управления проигрыватель Windows Media ActiveX.
 
 Для получения определенных интерфейсов используются несколько свойств и методов [объекта аксвиндовсмедиаплайер](axwindowsmediaplayer-object--vb-and-c.md) . Эти интерфейсы, в свою очередь, могут иметь свойства и методы доступа для получения дополнительных интерфейсов.
 
-Элемент управления проигрывателя Windows Media предоставляет следующие интерфейсы.
+элемент управления проигрыватель Windows Media предоставляет следующие интерфейсы.
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "104258686"
 | [ивмпкдромрип](iwmpcdromrip--vb-and-c.md)                     | Предоставляет свойства и методы для управления копированием и *копированием* дорожек с аудио компакт-диска.                                                                         |
 | [ивмпклоседкаптион](iwmpclosedcaption--vb-and-c.md)           | Предоставляет возможность включать субтитры с цифровым файлом мультимедиа.                                                                                                     |
 | [IWMPClosedCaption2](iwmpclosedcaption2--vb-and-c.md)         | Предоставляет дополнительные свойства и методы для закрытой подписи.                                                                                                     |
-| [ивмпконтролс](iwmpcontrols--vb-and-c.md)                     | Представляет элементы управления транспорта Windows Media Player, такие как воспроизведение, остановка и пауза.                                                                         |
+| [ивмпконтролс](iwmpcontrols--vb-and-c.md)                     | представляет элементы управления транспорта для проигрыватель Windows Media, такие как воспроизведение, остановка и пауза.                                                                         |
 | [IWMPControls2](iwmpcontrols2--vb-and-c.md)                   | Предоставляет дополнительный метод управления для заморозки воспроизведения в следующем или предыдущем кадре.                                                                           |
 | [IWMPControls3](iwmpcontrols3--vb-and-c.md)                   | Предоставляет дополнительные свойства и методы управления для выбора и поддержки звукового языка.                                                                      |
 | [ивмпдвд](iwmpdvd--vb-and-c.md)                               | Предоставляет свойства и методы для работы с DVD-дисками.                                                                                                            |
@@ -70,7 +70,7 @@ ms.locfileid: "104258686"
 | [ивмпплайлистаррай](iwmpplaylistarray--vb-and-c.md)           | Обращается к коллекции интерфейсов [ивмпплайлист](iwmpplaylist--vb-and-c.md) по номеру индекса.                                                                   |
 | [ивмпплайлистколлектион](iwmpplaylistcollection--vb-and-c.md) | Предоставляет методы для управления интерфейсами [ивмпплайлист](iwmpplaylist--vb-and-c.md) и [ивмпплайлистаррай](iwmpplaylistarray--vb-and-c.md) в коллекции. |
 | [ивмпкуери](iwmpquery--vb-and-c.md)                           | Представляет составной запрос.                                                                                                                                      |
-| [ивмпсеттингс](iwmpsettings--vb-and-c.md)                     | Предоставляет свойства и методы, которые получают или устанавливают значения параметров проигрывателя Windows Media.                                                                      |
+| [ивмпсеттингс](iwmpsettings--vb-and-c.md)                     | предоставляет свойства и методы, которые получают или задают значения параметров проигрыватель Windows Media.                                                                      |
 | [IWMPSettings2](iwmpsettings2--vb-and-c.md)                   | Предоставляет свойства и метод, дополняющий интерфейс **ивмпсеттингс** .                                                                                  |
 | [ивмпстрингколлектион](iwmpstringcollection--vb-and-c.md)     | Предоставляет свойство и метод для доступа к коллекции строк по номеру индекса.                                                                           |
 | [IWMPStringCollection2](iwmpstringcollection2--vb-and-c.md)   | Предоставляет методы, дополняют интерфейс **ивмпстрингколлектион** .                                                                                          |
@@ -80,18 +80,18 @@ ms.locfileid: "104258686"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Справочник по объектной модели для Visual Basic .NET и C #**](object-model-reference-for-visual-basic--net-and-c.md)
+[**справочник по объектной модели для Visual Basic .net и C #**](object-model-reference-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

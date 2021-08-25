@@ -4,12 +4,12 @@ ms.assetid: f701faca-7695-4be2-bd25-fab7ebcdbf30
 title: Константы анализа рукописного ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 783206a0b9a0f76fdf33d166f533f53e7aa06746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4091be533e9988df078d7a3947a74222422b83bb80bae807caa6c8ab676ce3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939544"
 ---
 # <a name="ink-analysis-constants"></a>Константы анализа рукописного ввода
 
@@ -29,7 +29,7 @@ ms.locfileid: "103990949"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

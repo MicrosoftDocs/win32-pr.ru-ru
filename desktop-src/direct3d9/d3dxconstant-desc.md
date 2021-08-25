@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: d737fa1d95a119668602aeb056e15bc4248200aa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdb3b8276711f3165c0c138155eb6e628c19a124d6f9301de7638e5be24d1c1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952454"
 ---
 # <a name="d3dxconstant_desc-structure"></a>\_Структура D3DXCONSTANT DESC
 
@@ -50,7 +50,7 @@ typedef struct D3DXCONSTANT_DESC {
 
 <dl> <dt>
 
-**Name**
+**Имя**
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](../winprog/windows-data-types.md)**
@@ -171,7 +171,7 @@ typedef struct D3DXCONSTANT_DESC {
 
 </dd> <dt>
 
-**DefaultValue**
+**Максимально**
 </dt> <dd>
 
 Тип: **[ **лпквоид**](../winprog/windows-data-types.md)**
@@ -182,17 +182,17 @@ typedef struct D3DXCONSTANT_DESC {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

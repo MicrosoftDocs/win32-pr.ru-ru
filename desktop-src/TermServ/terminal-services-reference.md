@@ -7,12 +7,12 @@ keywords:
 - Службы удаленных рабочих столов службы удаленных рабочих столов, справочные материалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8edbd3737c9d0e32d4921862d857bde1da5d0792
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 158ecb5a700566f1b6be2890736038e0225e53b831f39a9960375961e6c70534
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870014"
 ---
 # <a name="remote-desktop-services-reference"></a>Справочник по службы удаленных рабочих столов
 
@@ -78,9 +78,9 @@ ms.locfileid: "105681510"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

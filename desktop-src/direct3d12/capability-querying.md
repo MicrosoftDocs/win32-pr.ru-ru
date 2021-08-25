@@ -5,12 +5,12 @@ ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
 ms.date: 11/26/2018
 ms.localizationpriority: high
 ms.topic: article
-ms.openlocfilehash: eaf451f91d51cfa6e900f328898c3418f0974a2d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a99174515883f8995167a7b866ab1ef8b77b56f7a0be2bb83f960abd06e47713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851404"
 ---
 # <a name="capability-querying"></a>Запросы возможностей
 
@@ -93,6 +93,6 @@ D3D12_RESOURCE_BINDING_TIER get_resource_binding_tier(::ID3D12Device* pIDevice)
 
 ## <a name="related-topics"></a>Связанные темы
 
-* [Привязка ресурсов в Direct3D 12](resource-binding.md)
+* [Привязка ресурсов в Direct3D 12](resource-binding.md)
 * [Уровни компонентов оборудования](hardware-feature-levels.md)
 * [Корневые подписи](root-signatures.md)

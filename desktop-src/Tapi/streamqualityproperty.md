@@ -4,16 +4,16 @@ ms.assetid: 28c9257f-6fbb-440f-9b84-c15a74229b5b
 title: Перечисление Стреамкуалитипроперти (Ипмсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f552641cd0847bb3ff8eec9d528a03171a78c2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea006b614522ffcab6f96e630df03087b78864ff7d7af6ddcd5c515bc090e821
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905754"
 ---
 # <a name="streamqualityproperty-enumeration"></a>Перечисление Стреамкуалитипроперти
 
-\[ Это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[это перечисление недоступно для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Перечисление **стреамкуалитипроперти** , используемое методами [**итстреамкуалитиконтрол::**](itstreamqualitycontrol-getrange.md), [**Итстреамкуалитиконтрол:: Get**](itstreamqualitycontrol-get.md)и [**итстреамкуалитиконтрол:: Set**](itstreamqualitycontrol-set.md) для указания свойства качества потока, для которого выполняется обращение.
 
@@ -58,18 +58,18 @@ ms.locfileid: "105689526"
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                       |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

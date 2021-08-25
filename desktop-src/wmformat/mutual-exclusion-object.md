@@ -3,19 +3,19 @@ title: Объект взаимного исключения
 description: Объект взаимного исключения
 ms.assetid: dd1f7865-e409-4bf9-9fa0-769a29eaed60
 keywords:
-- Пакет SDK для Windows Media Format, взаимоисключающие объекты
+- Windows Пакет SDK для формата мультимедиа, взаимоисключающие объекты
 - Расширенный системный формат (ASF), взаимоисключающие объекты
 - ASF (Расширенный системный формат), взаимоисключающие объекты
 - объекты, взаимоисключающие объекты
 - взаимное исключение, объекты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8522b66f82bd88479b8c7b1d0d0b45bd038fdab3
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 32d7e780ac18dcad7ef04f9bb50d3a7389851156866980b21fbe0c231bcb057d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104133566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929934"
 ---
 # <a name="mutual-exclusion-object"></a>Объект взаимного исключения
 
@@ -34,7 +34,7 @@ ms.locfileid: "104133566"
 
 
 
- 
+ 
 
 Оба метода в приведенной выше таблице устанавливают указатель на интерфейс **ивммутуалексклусион** . Интерфейс **ивмстреамлист** наследуется **ивммутуалексклусион** и никогда не должен обращаться к нему напрямую. Другой интерфейс взаимоисключающего объекта можно получить, вызвав метод **QueryInterface** .
 
@@ -50,9 +50,9 @@ ms.locfileid: "104133566"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -65,9 +65,9 @@ ms.locfileid: "104133566"
 [**Объект диспетчера профилей**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 51e75b810c2103afed2e8ac8a28706b9c9af5da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fee6fa3f9f9743f048cab4d9bee5af3fa9215ca903227acd0aa67cb68037550d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934714"
 ---
 # <a name="recognizercontextset-function"></a>Функция Рекогнизерконтекстсет
 
@@ -64,13 +64,13 @@ HRESULT WINAPI RecognizerContextSet(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                         |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
 | Библиотека<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

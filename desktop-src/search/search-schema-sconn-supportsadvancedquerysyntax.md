@@ -4,12 +4,12 @@ ms.assetid: d4aef1f1-63c8-4e9a-9e22-5efbb8c523b2
 title: Элемент Суппортсадванцедкуерисинтакс (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39d31eb96615c952f703729fd9d22f2e5d27f38b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8235c1021ae04cbbce65500ebf008f645ef74c1f2bb6ea7f3a9edfe4253e035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844514"
 ---
 # <a name="supportsadvancedquerysyntax-element-search-connector-schema"></a>Элемент Суппортсадванцедкуерисинтакс (схема соединителя поиска)
 
@@ -45,7 +45,7 @@ ms.locfileid: "105692165"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение `true` указывает, что поставщик поиска поддерживает расширенный синтаксис запроса, отправленный в поисковых запросах.
 

@@ -4,12 +4,12 @@ ms.assetid: 58d945d7-7dfb-4752-ae19-7e41caca1de7
 title: Действие Публишкомпонентс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9c8967e737193922a9dbc3d9e03bc95131d5a63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4840035677effff22189c357ad881c9abf2c061b169e4283037ca83df19347d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913124"
 ---
 # <a name="publishcomponents-action"></a>Действие Публишкомпонентс
 
@@ -32,7 +32,7 @@ ms.locfileid: "103909471"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие Публишкомпонентс публикует все компоненты из таблицы Публишкомпонентс, которые относятся к функциям, выбранным для объявления или установки.
 

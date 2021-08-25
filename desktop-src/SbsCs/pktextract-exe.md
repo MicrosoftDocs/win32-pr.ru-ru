@@ -4,16 +4,16 @@ ms.assetid: 195ff5bd-bb60-4053-9308-ceacd29853c0
 title: Pktextract.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd163efabd01d65969788aefc2386b2f49079729
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e7f2cbb210262a05839ac3a7df71f3bedea603a5ea959249867efc2d5e420e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884959"
 ---
 # <a name="pktextractexe"></a>Pktextract.exe
 
-Pktextract.exe — это средство, которое извлекает атрибут **PublicKeyToken** из файла сертификата. Выходные данные — это **PublicKeyToken**, который представляет собой уникальный 16-символьный (8-байтовый) идентификатор открытого ключа, присутствующего в сертификате, в формате, который можно легко вставлять в инструкцию Identity. Файл сертификата должен находиться в том же каталоге, что и Pktextract.exe для использования программы. Pktextract.exe предоставляется в пакете средств разработки программного обеспечения (SDK) для Microsoft Windows.
+Pktextract.exe — это средство, которое извлекает атрибут **PublicKeyToken** из файла сертификата. Выходные данные — это **PublicKeyToken**, который представляет собой уникальный 16-символьный (8-байтовый) идентификатор открытого ключа, присутствующего в сертификате, в формате, который можно легко вставлять в инструкцию Identity. Файл сертификата должен находиться в том же каталоге, что и Pktextract.exe для использования программы. Pktextract.exe предоставляется в пакете Microsoft Windows Software Development Kit (SDK).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -34,7 +34,7 @@ Pktextract.exe — это средство, которое извлекает а
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

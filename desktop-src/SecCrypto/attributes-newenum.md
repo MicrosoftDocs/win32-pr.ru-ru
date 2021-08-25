@@ -1,5 +1,5 @@
 ---
-description: '\_Свойство NewEnum атрибутов Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).'
+description: '\_Свойство NewEnum атрибутов Извлекает интерфейс IEnumVARIANT для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).'
 ms.assetid: a90ef28b-3926-4542-bcd2-27f0eda4e339
 title: Attributes._NewEnum, свойство
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9948c55943a8374665fe5e4883013742188665c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e52428afa3a31c588417979b28d9c29ca23fcb446542cedc45c57127326507e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879824"
 ---
 # <a name="attributes_newenum-property"></a>Атрибуты. \_ Свойство NewEnum
 
 \[CAPICOM — это 32-разрядный компонент, доступный для использования в следующих операционных системах: Windows Server 2008, Windows Vista, Windows XP. Вместо этого используйте [**класс криптографикаттрибутеобжектколлектион**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) в пространстве имен [**System. Security. Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) .\]
 
-Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. Это свойство скрыто в Visual Basic Scripting Edition (VBScript).
+Свойство **\_ NewEnum** Извлекает интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) для объекта, который можно использовать для перечисления коллекции. это свойство скрыто в Visual Basic scripting Edition (VBScript).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -39,11 +39,11 @@ Attributes._NewEnum As IUnknown
 
 Интерфейс [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) объекта, который может использоваться для перечисления коллекции.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic Scripting Edition (VBScript).
+это свойство автоматически используется для внутренних целей при использовании `For Each In` конструкции в Visual Basic scripting Edition (VBScript).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ Attributes._NewEnum As IUnknown
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

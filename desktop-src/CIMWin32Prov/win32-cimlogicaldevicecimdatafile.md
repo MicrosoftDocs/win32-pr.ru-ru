@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15db6209360cbd150a722dc98b6255afd696cbe9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8124031c07091399241ce355eef0a499235892bff3875e4248641f0454671540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917984"
 ---
 # <a name="win32_cimlogicaldevicecimdatafile-class"></a>\_Класс Win32 ЦимлогикалдевицеЦимдатафиле
 
@@ -50,7 +50,7 @@ class Win32_CIMLogicalDeviceCIMDataFile : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ ЦимлогикалдевицеЦимдатафиле** имеет следующие свойства.
 
@@ -173,7 +173,7 @@ class Win32_CIMLogicalDeviceCIMDataFile : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ ЦимлогикалдевицеЦимдатафиле** является производным от [**\_ зависимости CIM**](cim-logicaldevice.md).
 

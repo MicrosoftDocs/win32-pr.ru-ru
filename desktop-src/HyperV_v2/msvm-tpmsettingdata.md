@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8a14f50f01212129ed34cc7e45ee28facbdb991f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f25cd57e1f3cd6ebf015009af176b3bcc68c1d271836c5bb548b9358e9007086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899124"
 ---
 # <a name="msvm_tpmsettingdata-class"></a>\_Класс мсвм тпмсеттингдата
 
@@ -51,7 +51,7 @@ class Msvm_TPMSettingData : CIM_ResourceAllocationSettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ тпмсеттингдата** имеет следующие свойства.
 
@@ -161,9 +161,9 @@ class Msvm_TPMSettingData : CIM_ResourceAllocationSettingData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
-| Окончание поддержки клиента<br/>    | Windows 10<br/>                                                                                   |
+| Окончание поддержки клиента<br/>    | Windows 10,<br/>                                                                                   |
 | Поддержка конца сервера<br/>    | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

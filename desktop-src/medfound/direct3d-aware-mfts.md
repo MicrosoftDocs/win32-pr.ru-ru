@@ -4,12 +4,12 @@ ms.assetid: 8ec7e678-8477-41fa-9726-54df5ed187cd
 title: Direct3D-Aware МФТС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad50438250c0ee1627cc20aebb49262ec8eec9ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae3bc071ee707505fd7412cba6f0a5aa397fd4c3f623225da28cc5490bf3323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958743"
 ---
 # <a name="direct3d-aware-mfts"></a>Direct3D-Aware МФТС
 
@@ -20,14 +20,14 @@ ms.locfileid: "104539572"
 В этом разделе описаны шаги, необходимые для создания MFT-совместимого с Direct3D. В этом разделе не рассматривается механизм декодирования ДКСВА. Дополнительные сведения о ДКСВА см. в статье [DirectX Video Acceleration 2,0](directx-video-acceleration-2-0.md).
 
 > [!IMPORTANT]
-> Начиная с Windows 8, вместо [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9)можно использовать [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) . Для приложений Магазина Windows необходимо использовать **имфдксгидевицеманажер** и Microsoft Direct3D 11. Дополнительные сведения см. в статье [API-интерфейсы видео Direct3D 11](direct3d-11-video-apis.md).
+> начиная с Windows 8 можно использовать [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) вместо [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9). для приложений магазина Windows необходимо использовать **имфдксгидевицеманажер** и Microsoft Direct3D 11. Дополнительные сведения см. в статье [API-интерфейсы видео Direct3D 11](direct3d-11-video-apis.md).
 
  
 
 1.  Реализуйте метод [**имфтрансформ:: OutAttribute**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getattributes) . Этот метод возвращает указатель на хранилище атрибутов.
-2.  MFT должно установить значение **true** для атрибута [**MF \_ SA с \_ \_ поддержкой D3D**](mf-sa-d3d-aware-attribute.md) в собственном хранилище атрибутов. Начиная с Windows 8, при использовании Direct3D 11 используйте протокол [MF \_ SA D3D11 с \_ \_ поддержкой](mf-sa-d3d11-aware.md).
-3.  Во время согласования формата, если атрибут [**MF \_ SA \_ \_**](mf-sa-d3d-aware-attribute.md) (или [MF \_ SA \_ D3D11, \_ осведомленный](mf-sa-d3d11-aware.md) об использовании Direct3D 11) имеет **значение true**, клиент может отправить в основную таблицу MFT сообщение из [**таблицы MFT \_ \_ Set D3D Message \_ \_ Manager**](mft-message-set-d3d-manager.md) . Параметр события *улпарам* является указателем на интерфейс [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) . Начиная с Windows 8, вместо **IDirect3DDeviceManager9** можно использовать [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) . Клиенту не требуется отсылать это сообщение.
-4.  MFT вызывает [**IDirect3DDeviceManager9:: жетвидеосервице**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice) для запроса необходимых служб дксва. Начиная с Windows 8, если [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) использовался в MFT, вызывается [**Имфдксгидевицеманажер:: жетвидеосервице**](/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-getvideoservice). Обычно декодер запрашивает [**идиректксвидеодекодерсервице**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice), а обработчик видео запрашивает [**идиректксвидеопроцессорсервице**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice).
+2.  MFT должно установить значение **true** для атрибута [**MF \_ SA с \_ \_ поддержкой D3D**](mf-sa-d3d-aware-attribute.md) в собственном хранилище атрибутов. начиная с Windows 8, при использовании Direct3D 11 используйте [ \_ \_ \_ уведомления MF SA D3D11](mf-sa-d3d11-aware.md).
+3.  Во время согласования формата, если атрибут [**MF \_ SA \_ \_**](mf-sa-d3d-aware-attribute.md) (или [MF \_ SA \_ D3D11, \_ осведомленный](mf-sa-d3d11-aware.md) об использовании Direct3D 11) имеет **значение true**, клиент может отправить в основную таблицу MFT сообщение из [**таблицы MFT \_ \_ Set D3D Message \_ \_ Manager**](mft-message-set-d3d-manager.md) . Параметр события *улпарам* является указателем на интерфейс [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) . начиная с Windows 8 можно использовать [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) вместо **IDirect3DDeviceManager9**. Клиенту не требуется отсылать это сообщение.
+4.  MFT вызывает [**IDirect3DDeviceManager9:: жетвидеосервице**](/windows/desktop/api/dxva2api/nf-dxva2api-idirect3ddevicemanager9-getvideoservice) для запроса необходимых служб дксва. начиная с Windows 8, если используется [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) , то MFT вызывает [**имфдксгидевицеманажер:: жетвидеосервице**](/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgidevicemanager-getvideoservice). Обычно декодер запрашивает [**идиректксвидеодекодерсервице**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice), а обработчик видео запрашивает [**идиректксвидеопроцессорсервице**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice).
 5.  При условии успешного выполнения предыдущего шага методы [**имфтрансформ:: жетинпутаваилаблетипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getinputavailabletype) и [**Имфтрансформ:: жетаутпутаваилаблетипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) должны возвращать дксва совместимые форматы.
 6.  Клиент настраивает типы носителей в MFT. Если тип мультимедиа несовместим с ДКСВА, MFT должен вернуть код ошибки **MF \_ E \_ неподдерживаемый \_ \_ тип D3D**.
 7.  На этом этапе есть два варианта, в зависимости от того, находит ли клиент подходящий формат ДКСВА.
@@ -50,7 +50,7 @@ MFT всегда должно поддерживать обработку про
 
 Файловая таблица, поддерживающая Direct3D, должна иметь один выходной поток. Он не может иметь несколько выходов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

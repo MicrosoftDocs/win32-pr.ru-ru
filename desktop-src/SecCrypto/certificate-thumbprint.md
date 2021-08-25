@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c576c46ecf669d215c5bd20a80a0e5a65e3d4706
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64748f3eb8b9623ea7c07a7428f29b30276c34ab38631fdbf210b25b5be92a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878164"
 ---
 # <a name="certificatethumbprint-property"></a>Свойство Certificate. Thumbprint
 
@@ -41,7 +41,7 @@ Certificate.Thumbprint As String
 
 Шестнадцатеричная строка, содержащая хэш SHA-1 сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,11 +54,11 @@ Certificate.Thumbprint As String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

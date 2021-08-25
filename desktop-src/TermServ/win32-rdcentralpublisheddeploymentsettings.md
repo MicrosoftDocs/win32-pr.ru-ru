@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd4dd1b118f2fabf22f10e47c0b8467b0ddf6388
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee16b557ab58a11b5994236137ddfd549a0eb0294f04c619f5245de78e379029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868504"
 ---
 # <a name="win32_rdcentralpublisheddeploymentsettings-class"></a>\_Класс Win32 рдцентралпублишеддеплойментсеттингс
 
@@ -84,7 +84,7 @@ class Win32_RDCentralPublishedDeploymentSettings : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ рдцентралпублишеддеплойментсеттингс** имеет следующие свойства.
 
@@ -103,7 +103,7 @@ class Win32_RDCentralPublishedDeploymentSettings : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -397,7 +397,7 @@ class Win32_RDCentralPublishedDeploymentSettings : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -412,7 +412,7 @@ class Win32_RDCentralPublishedDeploymentSettings : CIM_LogicalElement
 
 </dd> <dt>
 
-**порт**.
+**Порт**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Sint32**
@@ -587,7 +587,7 @@ Plug and Play
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

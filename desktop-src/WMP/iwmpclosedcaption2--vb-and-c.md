@@ -3,8 +3,8 @@ title: Интерфейс IWMPClosedCaption2 (VB и C) (WMP. h)
 description: Предоставляет свойства и методы для субтитров, дополняющих интерфейс Ивмпклоседкаптион. В дополнение к свойствам, унаследованным от Ивмпклоседкаптион, интерфейс IWMPClosedCaption2 предоставляет следующие свойства.
 ms.assetid: e34ea819-dc1a-48f3-9e55-cf2217379ddb
 keywords:
-- IWMPClosedCaption2 (VB и C) интерфейс проигрывателя Windows Media
-- IWMPClosedCaption2 (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса IWMPClosedCaption2 (VB и C)
+- проигрыватель Windows Media интерфейса IWMPClosedCaption2 (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dbf81cef3734a6466b6fd177ccc87a38c5c7085
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e955feacd9447327ee003d3e4db535643be1bcd286f7ff24737df8c4b53b149
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862464"
 ---
 # <a name="iwmpclosedcaption2-vb-and-c-interface"></a>Интерфейс IWMPClosedCaption2 (VB и C#)
 
@@ -68,24 +68,24 @@ ms.locfileid: "105688850"
 
 Получите интерфейс **IWMPClosedCaption2** путем приведения значения, возвращаемого свойством [**аксвиндовсмедиаплайер. клоседкаптион**](axwmplib-axwindowsmediaplayer-closedcaption--vb-and-c.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Добавление субтитров к цифровым носителям**](adding-closed-captions-to-digital-media.md)
 </dt> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмпклоседкаптион (VB и C#)**](iwmpclosedcaption--vb-and-c.md)

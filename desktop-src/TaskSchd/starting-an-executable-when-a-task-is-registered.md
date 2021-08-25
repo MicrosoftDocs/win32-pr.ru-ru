@@ -6,12 +6,12 @@ keywords:
 - Планировщик задач примеры планировщик задач, триггер регистрации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8036b8bdff807ded582279e0ba7675bc2160811
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6a051c820a1099828ae0ee123e4241ec42d6edbb23ce9e98275057b5903dfbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033954"
 ---
 # <a name="starting-an-executable-when-a-task-is-registered"></a>Запуск исполняемого файла при регистрации задачи
 
@@ -24,26 +24,26 @@ ms.locfileid: "103986589"
 > [!Note]  
 > При обновлении задачи с триггером регистрации задача будет выполнена после обновления.
 
- 
+ 
 
 ## <a name="registration-trigger-examples"></a>Примеры триггеров регистрации
 
-При регистрации задачи в следующих примерах запускается блокнот:
+следующие примеры запускаются Блокнот при регистрации задачи.
 
 -   [Пример триггера регистрации (сценарии)](registration-trigger-example--scripting-.md)
 -   [Пример триггера регистрации (C++)](registration-trigger-example--c---.md)
 -   [Пример триггера регистрации (XML)](registration-trigger-example--xml-.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

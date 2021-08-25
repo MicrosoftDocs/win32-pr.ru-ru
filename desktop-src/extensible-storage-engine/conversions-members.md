@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.conv
 ms:contentKeyID: 55107253
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7e192b338c1d19b207b7e7e242289ca7f6782175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56143d7ca2cb50c60156580125ca282468021907fbd4533665faa9dd5eecc1aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976428"
 ---
 # <a name="conversions-members"></a>Преобразования элементов
 
 Включить защищенные члены  
 Включить унаследованные члены  
 
-Предоставляют методы для преобразования данных и флагов между Win32 и платформа .NET Framework.
+предоставляют методы для преобразования данных и флагов между Win32 и платформа .NET Framework.
 
 Тип [преобразований](./conversions-class.md) предоставляет следующие члены.
 
@@ -55,7 +55,7 @@ ms.locfileid: "104155050"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,28 +4,28 @@ ms.assetid: 5ca0058a-b4eb-48df-89eb-fbc7da7224e8
 title: ПАТЧНЕВПАККАЖЕКОДЕ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb7c1c70c91ede5788258c67626cdf429df74e27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65d7e64729643fa1b6449838496416d10e1ec12374762b3f702b306a146338f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926170"
 ---
 # <a name="patchnewpackagecode-property"></a>ПАТЧНЕВПАККАЖЕКОДЕ, свойство
 
 Свойство **патчневпаккажекоде** обновляет свойство [**сводки номера редакции**](revision-number-summary.md) административного образа во время установки исправлений. Это свойство задается только при преобразовании в MSP-файле. MSP-файл должен включать преобразование, которое добавляет это свойство в [таблицу свойств](property-table.md) и задает его значение. Затем программа установки записывает значение **патчневпаккажекоде** в свойство **сводки номера редакции** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойства **патчневпаккажекоде**, [**патчневсуммарикомментс**](patchnewsummarycomments.md)и [**патчневсуммарисубжект**](patchnewsummarysubject.md) используются для обновления сводных данных при установке исправления в административный образ.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

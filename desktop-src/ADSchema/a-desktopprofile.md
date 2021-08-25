@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fecaa174659248d08a8bfd6433a505a77386dd1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1cc9157730bce827c51a8705385afa61a92abc1d0d8f874844ac74d57fc31557
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925994"
 ---
 # <a name="desktop-profile-attribute"></a>Атрибут Desktop-Profile
 
@@ -59,7 +59,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |
@@ -67,7 +67,7 @@ ms.locfileid: "105654878"
 | Range-Upper            | \-                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                        |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |
@@ -88,7 +88,7 @@ ms.locfileid: "105654878"
 | Range-Upper            | \-                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                        |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -101,7 +101,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
 | System-Only            | Неверно                                                                                              |
-| Является однозначным       | True                                                                                               |
+| Является однозначным       | Верно                                                                                               |
 | Индексируется             | Неверно                                                                                              |
 | В глобальном каталоге      | Неверно                                                                                              |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                       |
@@ -122,7 +122,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |
@@ -130,7 +130,7 @@ ms.locfileid: "105654878"
 | Range-Upper            | \-                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                        |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -143,7 +143,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |
@@ -151,7 +151,7 @@ ms.locfileid: "105654878"
 | Range-Upper            | \-                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                        |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -164,7 +164,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |
@@ -172,7 +172,7 @@ ms.locfileid: "105654878"
 | Range-Upper            | \-                                                                                                                                                                                |
 | Search-Flags           | 0x00000000                                                                                                                                                                        |
 | System-Flags           | 0x00000010                                                                                                                                                                        |
-| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Группа**](c-group.md)<br/> [**Организационная единица**](c-organizationalunit.md)<br/> [**SAM-домен**](c-samdomain.md)<br/> [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -185,7 +185,7 @@ ms.locfileid: "105654878"
 | Идентификатор ссылки                | \-                                                                                                                                                                                |
 | MAPI-Id                | \-                                                                                                                                                                                |
 | System-Only            | Неверно                                                                                                                                                                             |
-| Является однозначным       | True                                                                                                                                                                              |
+| Является однозначным       | Верно                                                                                                                                                                              |
 | Индексируется             | Неверно                                                                                                                                                                             |
 | В глобальном каталоге      | Неверно                                                                                                                                                                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                      |

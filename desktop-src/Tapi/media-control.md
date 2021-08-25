@@ -4,12 +4,12 @@ ms.assetid: b32503fe-d494-44ea-b144-e38b8ab9b3d4
 title: Элемент управления мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50dad56e3feef8493a70cf93152b225be2777848
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 17e3ad30107a98cc5d1a312880fa29422c42dce2b2bc59cadfbf894cb032d74a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105674545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034534"
 ---
 # <a name="media-control"></a>Элемент управления мультимедиа
 

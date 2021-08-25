@@ -1,21 +1,21 @@
 ---
 title: Поддержка SVG
-description: Начиная с годовщины Windows 10, Direct2D поддерживает рендеринг цветовых шрифтов, содержащих контуры глифов SVG, как описано в спецификации OpenType (см. таблицу SVG).
+description: начиная с Windows 10ного обновления годовщины, Direct2D поддерживает отрисовку цветовых шрифтов, содержащих контуры глифов SVG, как описано в спецификации OpenType (см. таблицу SVG).
 ms.assetid: 5cb4cb7c-9b96-e110-bff9-d75ad1980010
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678c5d9ef42a53c854bb2f175fac63816345c519
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3c8c5f34531264f95c3617d1324079895b6444cbdbc776d5468fe51fc9890992
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917104"
 ---
 # <a name="svg-support"></a>Поддержка SVG
 
-Начиная с годовщины Windows 10, Direct2D поддерживает визуализацию [цветовых шрифтов](../directwrite/color-fonts.md) , содержащих контуры глифов SVG, как описано в [спецификации OpenType](/typography/opentype/spec/) (см. [таблицу SVG](/typography/opentype/spec/svg)). Начиная с Windows 10 Creators Update, Direct2D также поддерживает визуализацию автономных изображений SVG. Однако некоторые функции SVG запрещены в шрифтах SVG OpenType, и некоторые функции SVG в настоящее время не поддерживаются Direct2D.  
+начиная с Windows 10ного обновления годовщины, Direct2D поддерживает визуализацию [цветовых шрифтов](../directwrite/color-fonts.md) , содержащих контуры глифов SVG, как описано в [спецификации OpenType](/typography/opentype/spec/) (см. [таблицу SVG](/typography/opentype/spec/svg)). начиная с Windows 10 Creators Update, Direct2D также поддерживает визуализацию автономных изображений SVG. Однако некоторые функции SVG запрещены в шрифтах SVG OpenType, и некоторые функции SVG в настоящее время не поддерживаются Direct2D.  
 
-В этом разделе указывается набор функций [SVG 1,1](https://www.w3.org/TR/SVG11/) , поддерживаемых Direct2D в юбилейном обновлении и более новых версиях для Windows 10. Этот документ относится к SVG в шрифтах OpenType, а также к отдельным изображениям SVG.
+в этом разделе определяется набор функций [SVG 1,1](https://www.w3.org/TR/SVG11/) , поддерживаемых Direct2D в Windows 10 годовщина обновления и более поздних версий. Этот документ относится к SVG в шрифтах OpenType, а также к отдельным изображениям SVG.
 
 ## <a name="supported-svg-elements-and-attributes"></a>Поддерживаемые элементы и атрибуты SVG
 
@@ -29,7 +29,7 @@ Direct2D поддерживает визуализацию следующих э
 | [клиппас](https://www.w3.org/TR/SVG11/masking.mdl#clippathelement)                      | Идентификатор, стиль, преобразование, Клиппасунитс                                                      |
 | [дефс](https://www.w3.org/TR/SVG11/struct.mdl#defselement)                               | Идентификатор, стиль, преобразование                                                                     |
 | [desc](https://www.w3.org/TR/SVG11/struct.mdl#descriptionandtitleelements)<sup>\*</sup>  | идентификатор                                                                                       |
-| [эллипс](https://www.w3.org/TR/SVG11/shapes.mdl#ellipseelement)                         | Идентификатор, стиль, преобразование, CX, CY, RX, дые                                                     |
+| [ellipse](https://www.w3.org/TR/SVG11/shapes.mdl#ellipseelement)                         | Идентификатор, стиль, преобразование, CX, CY, RX, дые                                                     |
 | [g](https://www.w3.org/TR/SVG11/struct.mdl#gelement)                                     | Идентификатор, стиль, преобразование                                                                     |
 | [image](https://www.w3.org/TR/SVG11/struct.mdl#imageelement)                             | идентификаторы, стили, преобразования, x, y, ширина, высота, Пресервеаспектратио, XLink: href               |
 | [line](https://www.w3.org/TR/SVG11/shapes.mdl#lineelement)                               | Идентификатор, стиль, преобразование, x1, y1, x2, Y2                                                     |
@@ -46,9 +46,9 @@ Direct2D поддерживает визуализацию следующих э
 
 
 
- 
+ 
 
-<sup>\*</sup> Поддерживается только в Windows 10 Creators Update и более новых версиях
+<sup>\*</sup>поддерживается только в Windows 10 Creators Update и более новых
 
 ## <a name="supported-svg-presentation-attributes"></a>Поддерживаемые атрибуты представления SVG
 
@@ -75,7 +75,7 @@ Direct2D также поддерживает следующие атрибуты
 -   Толщина линии
 -   доступности<sup>\*</sup>
 
-<sup>\*</sup> Поддерживается только в Windows 10 Creators Update и более новых версиях
+<sup>\*</sup>поддерживается только в Windows 10 Creators Update и более новых
 
 ## <a name="unsupported-svg-features"></a>Неподдерживаемые функции SVG
 
@@ -85,14 +85,14 @@ Direct2D также поддерживает следующие атрибуты
 
 ### <a name="unsupported-length-units"></a>Неподдерживаемые единицы длины
 
-Начиная с годовщины Windows 10, Direct2D поддерживает только значения длины пространства пользователя и значения процентной длины. Длины с суффиксами единиц измерения, например "mm" или "EM", не поддерживаются.
+начиная с Windows 10го обновления годовщины, Direct2D поддерживает только значения длины пространства пользователя и значения процентной длины. Длины с суффиксами единиц измерения, например "mm" или "EM", не поддерживаются.
 
-Начиная с обновления для дизайнеров Windows 10, Direct2D также поддерживает абсолютные идентификаторы устройств: px, PT, PC, cm, mm и в. Относительные идентификаторы единиц измерения (EM, ex) не поддерживаются.
+начиная с Windows 10 Fall Creators Update Direct2D также поддерживает абсолютные идентификаторы единиц: px, pt, pc, cm, mm и в. Относительные идентификаторы единиц измерения (EM, ex) не поддерживаются.
 
 ### <a name="unsupported-image-sources"></a>Неподдерживаемые источники изображений
 
 Элемент Image поддерживается только в том случае, если атрибут XLink: href установлен в образ в кодировке Base64. Удаленные ссылки не поддерживаются.
 
- 
+ 
 
- 
+ 

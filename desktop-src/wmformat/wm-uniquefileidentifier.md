@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ee6fca8f840b99ea29c2eb43729b9333b9bb07b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: df336fd1f2ee8afde2c79672977084893b2929133af790ff6e2f4cbe544e1d53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105710179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928844"
 ---
 # <a name="wmuniquefileidentifier"></a>WM/Уникуефилеидентифиер
 
@@ -31,7 +31,7 @@ g \_ всзвмуникуефилеидентифиер
 
 **\_Строка типа \_ WM**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Уникальный идентификатор файла — это универсальная строка, которая может использоваться приложениями и службами для уникальной идентификации файла. Строка содержит произвольные значения, разделенные точкой с запятой. Не следует очищать этот атрибут. Можно добавлять значения и удалять собственные значения, но все остальные должны остаться без изменений.
 
@@ -42,9 +42,9 @@ g \_ всзвмуникуефилеидентифиер
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

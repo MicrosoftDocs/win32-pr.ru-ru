@@ -4,12 +4,12 @@ ms.assetid: 31ead002-b69b-444c-bada-f311eb0d8bb3
 title: System. Identity. Кэйпровидернаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b92543e81fbb78bcdade4776644535233c41c89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fd0ea368fcd6160cdf0296199781b20c40dc4169aa86b8f4ab24e86ef102f24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945414"
 ---
 # <a name="systemidentitykeyprovidername"></a>System. Identity. Кэйпровидернаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Функция Вмдрмстартуп (Вмдрмсдк. h)
-description: Функция Вмдрмстартуп инициализирует ресурсы, используемые расширенными API-интерфейсами клиента DRM Windows Media.
+description: функция вмдрмстартуп инициализирует ресурсы, используемые расширенными api клиента DRM для Windows Media.
 ms.assetid: 2fd26bcc-8106-4356-933a-d4cf3536f4fb
 keywords:
 - Вмдрмстартуп функция Windows Media Format
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c152a5160750f3c1943b455a8877b4615781b6ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c194a8c060ad1626fde796510c25c83e3e163dafffe9c17df17a7dcec890be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928748"
 ---
 # <a name="wmdrmstartup-function"></a>Функция Вмдрмстартуп
 
-Функция **вмдрмстартуп** инициализирует ресурсы, используемые расширенными API-интерфейсами клиента DRM Windows Media.
+функция **вмдрмстартуп** инициализирует ресурсы, используемые расширенными api клиента DRM для Windows Media.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -52,7 +52,7 @@ HRESULT STDMETHODCALLTYPE WMDRMStartup(void);
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для каждого вызова этой функции необходимо вызвать [**вмдрмшутдовн**](wmdrmshutdown.md) , чтобы освободить используемые ресурсы.
 
@@ -62,7 +62,7 @@ HRESULT STDMETHODCALLTYPE WMDRMStartup(void);
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Wmdrmsdk.dll</dt> </dl> |
 

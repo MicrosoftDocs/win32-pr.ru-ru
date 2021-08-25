@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 47858d0267a294ad267fc2e310a16b1005d75bfc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 47766423074f6cd93cb5f881959dbd396cad632be1cb8ef1b8be944787a2e17f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852264"
 ---
 # <a name="id3dx10meshbuffergetsize-method"></a>Метод ID3DX10MeshBuffer:: resize
 
@@ -50,7 +50,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D3DX10. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl> |
 
 

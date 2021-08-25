@@ -4,12 +4,12 @@ ms.assetid: 9a7f9afd-cd12-4a8e-b9c2-3ce59a676eb2
 title: System. Image. Компресседбитсперпиксел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dc6df6119c00ff505ebbee1b2d422384a23a09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62388e7d22394ecc5a1f08e7f417854f8615b7f1a42b544000e50bd8758d04d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844714"
 ---
 # <a name="systemimagecompressedbitsperpixel"></a>System. Image. Компресседбитсперпиксел
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

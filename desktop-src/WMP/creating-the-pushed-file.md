@@ -3,18 +3,18 @@ title: Создание отправленного файла
 description: Создание отправленного файла
 ms.assetid: 3b72171a-f235-4eb3-ae1a-3c9ece569edd
 keywords:
-- Обложки Windows Media Player для мобильных устройств, отправленные файлы
+- проигрыватель Windows Media Обложки для мобильных устройств, отправленные файлы
 - обложки, отправленные файлы
 - Создание обложек, отправленных файлов
 - Отправленные файлы в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8532ce4442374d91efe04f84d92ade5c1834353
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f2dbb70928fd3b8bd6594cb9e2f33ac5d2d439c487fed481fe9cea05cdde2b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902173"
 ---
 # <a name="creating-the-pushed-file"></a>Создание отправленного файла
 
@@ -26,16 +26,16 @@ ms.locfileid: "103773328"
 
 Две кнопки справа относятся к нормальному приостановленному состоянию и состоянию отложенной кнопки Плайпаусе. Цвет кнопок является желтым, за исключением нормального состояния "Плайпаусе" кнопки "в качестве хорошего контраста с зеленым цветом, используемым для нормального состояния всех кнопок.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Создание рисунка**](creating-the-art.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

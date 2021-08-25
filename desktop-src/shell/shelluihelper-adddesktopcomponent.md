@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 41634a89-15b9-41c8-ba3f-4bf19b786f6f
-ms.openlocfilehash: 2edaa79bd62dcee40e4f197700d2128cb0b2070d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 5141b35b9fb71b09b9b269016d0b38cdb0b9f01ec88a02070a0f936934159930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941504"
 ---
 # <a name="shelluihelperadddesktopcomponent-method"></a>Шеллуихелпер. Адддесктопкомпонент, метод
 
@@ -122,9 +122,9 @@ iRetVal = ShellUIHelper.AddDesktopComponent(
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано правильное использование этого метода для JScript Embedded в HTML и Visual Basic.
+в следующем примере показано правильное использование этого метода для JScript, внедренного в HTML и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -175,7 +175,7 @@ End Sub
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Ексдисп. h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 4,71 или более поздняя)</dt> </dl> |

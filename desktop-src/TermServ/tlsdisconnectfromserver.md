@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 265a6b04186bd640943cf2b348dda7afcf8f712a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 95911536eda4bd87e45fd034626cf83d88f4d9fc768e4837316ee93abfe3c3d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869414"
 ---
 # <a name="tlsdisconnectfromserver-function"></a>Функция Тлсдисконнектфромсервер
 
@@ -57,11 +57,11 @@ void WINAPI TLSDisconnectFromServer(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызовите функцию **тлсдисконнектфромсервер** в рамках программы очистки программы, чтобы закрыть все дескрипторы сервера, открытые с помощью вызовов функции [**тлсконнекттолссервер**](tlsconnecttolsserver.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,7 +73,7 @@ void WINAPI TLSDisconnectFromServer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

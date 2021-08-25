@@ -4,12 +4,12 @@ ms.assetid: 24d7cfbe-832f-4fe9-9645-5445cd7c7745
 title: System. Devices. Нетворктипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2a095c5fabd28b2c437627ecdaafe9f6d1a895
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 294cb5876791e1e5761ffdaaa291226bf0a27eafc01c88a62e8ed9fd0636160c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845574"
 ---
 # <a name="systemdevicesnetworktype"></a>System. Devices. Нетворктипе
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

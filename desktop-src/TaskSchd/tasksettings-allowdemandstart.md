@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 657ba45e0809b74803e27de70fae52576fcf2a26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a48ecaf9010b4269ffff66b556d01cfccc057fd05207f619290af9e50f6c757f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104414965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959484"
 ---
 # <a name="tasksettingsallowdemandstart-property"></a>Тасксеттингс. Алловдемандстарт, свойство
 
@@ -42,7 +42,7 @@ TaskSettings.AllowDemandStart As Boolean
 
 Если значение — true, задача может быть запущена с помощью команды Run или контекстного меню. Если значение равно false, задача не может быть выполнена с помощью команды Run или контекстного меню. Значение по умолчанию равно True.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого свойства задано значение true, задача может быть запущена независимо от того, когда триггеры запускают задачу.
 
@@ -54,8 +54,8 @@ TaskSettings.AllowDemandStart As Boolean
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

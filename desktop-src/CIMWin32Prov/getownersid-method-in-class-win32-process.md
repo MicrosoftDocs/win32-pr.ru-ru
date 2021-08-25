@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c3ed34d132d363c0ce9f83511459ec40f340a06c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2884c0f1cd3cc6e32a2db1ab14824ba3112624002cb10f4d76782d622e069000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918384"
 ---
 # <a name="getownersid-method-of-the-win32_process-class"></a>Метод Жетовнерсид \_ класса процесса Win32
 
@@ -80,7 +80,7 @@ uint32 GetOwnerSid(
 
 Пример кода PowerShell для [поиска пользователей, вошедших в систему на удаленном компьютере с версией 2](https://Gallery.TechNet.Microsoft.Com/Find-the-logged-on-users-1161bd92) , запрашивает удаленные компьютеры, чтобы узнать, кто вошел в систему.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ uint32 GetOwnerSid(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 6c354159-8c90-d241-1aff-8f198097b83d
 title: Функции векторной библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6b5307ababe1b8c721548ca36db5d54e415cdd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 561186f932af4a51253b4079b187a5d6866ca94f6d91f48f51b7816518c83a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948570"
 ---
 # <a name="directxmath-library-vector-functions"></a>Функции векторной библиотеки Директксмас
 
@@ -33,7 +33,7 @@ ms.locfileid: "104155454"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

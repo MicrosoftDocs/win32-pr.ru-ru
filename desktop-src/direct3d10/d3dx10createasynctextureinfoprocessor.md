@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a23c2062c5f17e00d03161483d3ab1cf2ff225d4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 861404127cebf23954ef340d8e92441bfdaec204418add85a5b4dfabcaea17dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852354"
 ---
 # <a name="d3dx10createasynctextureinfoprocessor-function"></a>Функция D3DX10CreateAsyncTextureInfoProcessor
 
@@ -69,13 +69,13 @@ HRESULT D3DX10CreateAsyncTextureInfoProcessor(
 
 Этот API создает интерфейс процессора данных; [**D3DX10CreateAsyncTextureProcessor**](d3dx10createasynctextureprocessor.md) создает интерфейс процессора данных и загружает текстуру.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>  |
 
 

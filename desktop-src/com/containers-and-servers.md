@@ -4,12 +4,12 @@ description: Контейнеры и серверы
 ms.assetid: 4918fa52-3598-4f4d-b2e7-7a47a37b216d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c51b2cd46057c9216a1f9e29b93e1381a4d3062a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 136d301d85bc317cd4e60d609e73b6b7232cfb5634a33bf32a2496fe8cd672d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993574"
 ---
 # <a name="containers-and-servers"></a>Контейнеры и серверы
 
@@ -20,9 +20,9 @@ ms.locfileid: "103889140"
 > [!Note]  
 > Будущие выпуски OLE обеспечивают компоновку и внедрение между компьютерами, поэтому приложение-контейнер на одном компьютере сможет использовать объект составного документа, предоставляемый *удаленным сервером* , работающим на другом компьютере. С точки зрения приложения-контейнера любое серверное приложение OLE, которое работает в собственном пространстве процесса, будь то тот же или удаленный компьютер, является *сервером вне процессâ*.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -32,9 +32,9 @@ ms.locfileid: "103889140"
 [Внутрипроцессный сервер](in-process-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

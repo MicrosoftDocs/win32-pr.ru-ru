@@ -4,12 +4,12 @@ ms.assetid: 9d1f52ef-ff49-4c0d-a48a-93aeccbe7f2b
 title: Событие WPCEVENT_EMAIL_CONTACT (Впцевент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0974030e53756b44f2be2e8550707161f2d6d461
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d84a450c53705dae2db777081f7177f43505e0481ae38a67c1b90e507fa4a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951574"
 ---
 # <a name="wpcevent_email_contact-event"></a>\_Событие контакта электронной почты впцевент \_
 
@@ -82,19 +82,19 @@ const EVENT_DESCRIPTOR WPCEVENT_EMAIL_CONTACT = {0xe, 0x0, 0x10, 0x4, 0x16, 0xe,
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

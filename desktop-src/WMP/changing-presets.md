@@ -13,12 +13,12 @@ keywords:
 - предустановки в визуализациях, пример с свечением
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d24841c95c3fc1029aa0c405e90b329799fdbe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03828614093836c5f9a3b422167b62f11b8f2489eb30556d42a2d80495935ec5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863914"
 ---
 # <a name="changing-presets"></a>Изменение предустановок
 
@@ -80,7 +80,7 @@ enum {
 
 
 
-Обратите внимание, что необходимо также изменить номер ресурса **\_ ТД \_ Next \_ Симед в \_ значение** 106.
+обратите внимание, что необходимо также изменить номер ресурса **\_ APS \_ следующее \_ \_ значение симед** на 106.
 
 ## <a name="resource-file"></a>Файл ресурсов
 
@@ -96,16 +96,16 @@ enum {
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Пример свечения**](the-glow-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

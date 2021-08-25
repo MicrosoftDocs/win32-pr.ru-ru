@@ -4,12 +4,12 @@ ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Сведения о конфигурации, не связанные с PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40e4ac332d6e9b106ab9d68c29d03366761c01d5
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 029ab303eb73e9720c266e7ef7443ce5a259a1668961bd2961a4029019cb3685
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846324"
 ---
 # <a name="configuration-information-not-related-to-printcapabilities"></a>Сведения о конфигурации, не связанные с PrintCapabilities
 

@@ -4,12 +4,12 @@ description: В этом разделе описываются объекты у
 ms.assetid: 61d1ea92-e657-4931-8475-74a3123c72f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dda010b3801952e90514fac6307556f8f6fbaff
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9e77cfd255c43cc902f2583fe22575bef2567609f43b6f893984e99dec713532
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104997206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851124"
 ---
 # <a name="devices-direct3d-11-graphics"></a>Устройства (графика Direct3D 11)
 
@@ -51,7 +51,7 @@ ms.locfileid: "104997206"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

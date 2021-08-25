@@ -4,12 +4,12 @@ ms.assetid: ae5d83ca-f219-4fcc-ad06-bc242ba95372
 title: Чтение или запись в файлы с помощью схемы Scatter-Gather
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a7db31dd73dd0b498436548a867dd92ff248805
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbc8a7ee9fcae2a54ac31c51a7c038e3d9442a6ccded2fc7dab916c7a6165a68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914484"
 ---
 # <a name="reading-from-or-writing-to-files-using-a-scatter-gather-scheme"></a>Чтение или запись в файлы с помощью схемы Scatter-Gather
 

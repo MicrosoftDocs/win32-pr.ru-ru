@@ -4,16 +4,16 @@ description: иаженткоммандс
 ms.assetid: a171a2f0-7c1c-440f-9b19-28447cc68b95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fc57b7e2e5f628708f46ace98700605f1eb5d7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1a1bcc40f80e9a10301ec305fdc3e8f3e83984ceb0de5d36121e13c3d823b8a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104533149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961894"
 ---
 # <a name="iagentcommands"></a>иаженткоммандс
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Сервер Microsoft Agent поддерживает список команд, доступных пользователю в данный момент. В этот список входят команды, определяемые сервером для общего взаимодействия, такие как свойства Hide и Microsoft Agent, список доступных (но не являющихся входных) клиентов, а также команды, определенные текущим активным клиентом. Первые два набора команд являются глобальными командами. Это значит, что они доступны в любое время, независимо от клиента ввода-активности. Определяемые клиентом команды доступны только в том случае, если этот клиент является входным.
 
@@ -37,26 +37,26 @@ ms.locfileid: "104533149"
 
 | Свойство Caption | Voice-Caption, свойство | Свойство Voice | Свойство Visible | Отображается во всплывающем меню "символ"             | Отображается в окне "Voice Commands"                         |
 |------------------|------------------------|----------------|------------------|------------------------------------------------|----------------------------------------------------------|
-| Да              | Да                    | Да            | True             | Да, с использованием [ **заголовка**](caption-property.md) | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
-| Да              | Да                    | Без ¹            | True             | Да, с использованием [ **заголовка**](caption-property.md) | Нет                                                       |
-| Да              | Да                    | Да            | False            | нет                                             | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
+| Да              | Да                    | Да            | Верно             | Да, с использованием [ **заголовка**](caption-property.md) | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
+| Да              | Да                    | Без ¹            | Верно             | Да, с использованием [ **заголовка**](caption-property.md) | Нет                                                       |
+| Да              | Да                    | Да            | Неверно            | нет                                             | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
 | Да              | Да                    | Без ¹            | False            | нет                                             | Нет                                                       |
 | Без ¹              | Да                    | Да            | True             | нет                                             | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
-| Без ¹              | Да                    | Да            | False            | нет                                             | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
+| Без ¹              | Да                    | Да            | Неверно            | нет                                             | Да, с помощью [ **воицекаптион**](voicecaption-property.md) |
 | Без ¹              | Да                    | Без ¹            | True             | нет                                             | Нет                                                       |
 | Без ¹              | Да                    | Без ¹            | False            | нет                                             | Нет                                                       |
-| Да              | Без ¹                    | Да            | True             | Да, с использованием [ **заголовка**](caption-property.md) | Да, с использованием [ **заголовка**](caption-property.md)           |
+| Да              | Без ¹                    | Да            | Верно             | Да, с использованием [ **заголовка**](caption-property.md) | Да, с использованием [ **заголовка**](caption-property.md)           |
 | Да              | Без ¹                    | Без ¹            | True             | Да                                            | Нет                                                       |
-| Да              | Без ¹                    | Да            | False            | нет                                             | Да, с использованием [ **заголовка**](caption-property.md)           |
+| Да              | Без ¹                    | Да            | Неверно            | нет                                             | Да, с использованием [ **заголовка**](caption-property.md)           |
 | Да              | Без ¹                    | Без ¹            | False            | нет                                             | Нет                                                       |
 | Без ¹              | Без ¹                    | Да            | True             | нет                                             | Без ²                                                      |
-| Без ¹              | Без ¹                    | Да            | False            | нет                                             | Без ²                                                      |
+| Без ¹              | Без ¹                    | Да            | Неверно            | нет                                             | Без ²                                                      |
 | Без ¹              | Без ¹                    | Без ¹            | True             | нет                                             | Нет                                                       |
 | Без ¹              | Без ¹                    | Без ¹            | False            | нет                                             | Нет                                                       |
 
 
 
- 
+ 
 
 ¹, если значение свойства равно null. В некоторых языках программирования пустая строка не может интерпретироваться как строка со значением NULL.
 
@@ -76,15 +76,15 @@ ms.locfileid: "104533149"
 | [**Voice**](iagentcommands--getvoice.md)     | Возвращает значение свойства [**Voice**](voice-property.md) коллекции [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .      |
 | [**сетвисибле**](iagentcommands--setvisible.md) | Задает значение свойства [**Visible**](visible-property.md) для коллекции [**команд**](/windows/desktop/lwef/the-commands-collection-object) .    |
 | [**Во всех видимых**](iagentcommands--getvisible.md) | Возвращает значение свойства [**Visible**](visible-property.md) коллекции [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .  |
-| [**Добавить**](iagentcommands--add.md)               | Добавляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .                       |
-| [**Вставляет**](iagentcommands--insert.md)         | Вставляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .                    |
+| [**Add**](iagentcommands--add.md)               | Добавляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .                       |
+| [**Вставить**](iagentcommands--insert.md)         | Вставляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекцию [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .                    |
 | [**Отменит**](iagentcommands--remove.md)         | Удаляет объект [**Command**](/windows/desktop/lwef/the-command-object) в коллекции [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .                    |
 | [**RemoveAll**](iagentcommands--removeall.md)   | Удаляет все [**Командные**](/windows/desktop/lwef/the-command-object) объекты из коллекции [**команд**](/windows/desktop/lwef/the-commands-collection-object) .               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

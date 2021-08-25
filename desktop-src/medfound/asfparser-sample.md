@@ -4,12 +4,12 @@ ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: Пример Асфпарсер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159b481e22d77b0bee9adccbbb74073398c12b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50db441be45d28899bc8f2ace68b8f09af40e679449d26aec7adf25ab4fb9e2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959554"
 ---
 # <a name="asfparser-sample"></a>Пример Асфпарсер
 
@@ -40,7 +40,7 @@ ms.locfileid: "104262823"
 7.  Чтобы проверить образцы для аудиопотока, нажмите кнопку **тестовый звук** .
 8.  Чтобы проверить образцы для видеопотока, нажмите кнопку **Показывать растровое изображение** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,9 +54,9 @@ ms.locfileid: "104262823"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

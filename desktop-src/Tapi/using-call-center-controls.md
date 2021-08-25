@@ -4,12 +4,12 @@ ms.assetid: cb7a4231-6249-4ab9-9de7-243768a18775
 title: Использование элементов управления центра обработки вызовов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc01cac4b068c5ec17ff5794e2e7ffff46dbf95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f166658cce86faa0003b762ec697286a434a06b36b18ae92a861d1f6757fa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991544"
 ---
 # <a name="using-call-center-controls"></a>Использование элементов управления центра обработки вызовов
 
@@ -22,11 +22,11 @@ ms.locfileid: "105683030"
 -   Клиент ACD супервизора: предоставляет общее представление об операциях агента и ACD.
 
 > [!Note]  
-> Для Windows 2000 функциональность прокси-сервера доступна с помощью TAPI 2,2, а функции супервизора не реализуются.
+> для Windows 2000 функциональность прокси-сервера доступна по интерфейсу TAPI 2,2, а функции супервизора не реализуются.
 
  
 
-Раздел Samples (примеры) Windows SDK содержит примеры кода ACD в разделе Нетдс \\ TAPI \\ Tapi2 \\ ACD и нетдс \\ TAPI \\ Tapi3 \\ ACD.
+раздел samples (примеры) Windows SDK содержит примеры кода ACD в разделе нетдс \\ Tapi \\ Tapi2 \\ acd и нетдс \\ tapi \\ Tapi3 \\ acd.
 
  
 

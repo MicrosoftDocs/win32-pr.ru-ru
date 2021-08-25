@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 198a597020a0bfcbc789cc741e42048bd89eb95f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a602566c4d0e5b3cb5c68b2f983b6c56a9d9f596ee673db97a72e6054837759b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847384"
 ---
 # <a name="id3dxprtenginecomputessadaptive-method"></a>Метод ID3DXPRTEngine:: Компутессадаптиве
 
@@ -105,7 +105,7 @@ HRESULT ComputeSSAdaptive(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы смоделировать подложку, вызывайте этот метод для каждого освещения после вызова метода [**ID3DXPRTEngine:: компутедиректлигхтингшадаптиве**](id3dxprtengine--computedirectlightingshadaptive.md) .
 
@@ -119,7 +119,7 @@ HRESULT ComputeSSAdaptive(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
