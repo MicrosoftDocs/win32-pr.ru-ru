@@ -4,12 +4,12 @@ description: Ведение журнала на стороне сервера д
 ms.assetid: e1fcd87f-382a-42bf-b53f-1e1cb1dbbfc5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b76548b296bcdbd343e4e259e0cf3c87537ef5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db8caf7475fe6d2b408f6e2a1f924bad73df64c315ef5e0acd1c7c317ce5eac6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829844"
 ---
 # <a name="server-side-logging"></a>Ведение журнала Server-Side
 
@@ -22,9 +22,9 @@ ms.locfileid: "103888728"
 
 Чтобы воспользоваться функцией ведения журнала HTTP, приложение включает и настраивает один тип ведения журнала в сеансе сервера или группе URL-адресов. Дополнительные сведения см. в разделе [Настройка и включение ведения журнала на стороне сервера](configuring-and-enabling-server-side-logging.md) .
 
- 
+ 
 
- 
+ 
 
 
 

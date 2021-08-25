@@ -1,5 +1,5 @@
 ---
-description: Метод GetObject возвращает экземпляр существующего объекта Microsoft. Windows. Акткткс.
+description: Метод GetObject возвращает экземпляр существующего объекта Microsoft. Windows. Объект Акткткс.
 ms.assetid: 547525f3-afef-463b-823a-df8ccd954f36
 title: Акткткс. GetObject, метод
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: 11b71d8d40d947472612c91f70e9956aa7798806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a102fdae74232fa9a67c4b9455050bcdba32a219d8a66180ae8bc6ce6cb96c8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885284"
 ---
 # <a name="actctxgetobject-method"></a>Акткткс. GetObject, метод
 
-Метод **GetObject** возвращает экземпляр существующего объекта [**Microsoft. Windows. акткткс**](microsoft-windows-actctx-object.md) .
+Метод **GetObject** возвращает экземпляр существующего объекта [**Microsoft. Windows. Объект Акткткс**](microsoft-windows-actctx-object.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -42,7 +42,7 @@ ActCtx.GetObject(
 *bstrName* 
 </dt> <dd>
 
-Обязательная строка, указывающая на объект. Имя должно быть в реестре в разделе **hKey \_ локальный \_ компьютер** \\ **Microsoft** \\ **Visual Studio** \\ **6,0** \\ **<package>** \\ **Automation**.
+Обязательная строка, указывающая на объект. имя должно быть в реестре в разделе **HKEY \_ локальный \_ компьютер** \\ **Microsoft** \\ **Visual Studio** \\ **6,0** \\ **<package>** \\ **Automation**.
 
 </dd> </dl>
 
@@ -50,20 +50,20 @@ ActCtx.GetObject(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иакткткс определен как 8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

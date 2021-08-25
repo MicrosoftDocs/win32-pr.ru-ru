@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 9458ff74f29cd8eb7a75da0a3628a2dd1519ba43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb06ab6e08a674a186bcdb260140915c378db9affc13b17db33d9132109cec78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911224"
 ---
 # <a name="deregister-callback-function"></a>Отменить регистрацию функции обратного вызова
 
@@ -60,7 +60,7 @@ VOID Deregister(
 
 | Для получения информации о                                        | См.                                                    |
 |-----------------------------------------------------------|--------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор. | [Анализаторы](parsers.md)                                 |
+| Какие анализаторы и как они работают с сетевой монитор. | [Средства синтаксического анализа](parsers.md)                                 |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.        | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md) |
 | Реализация **отмены регистрации**  включает пример.     | [Реализация отмены регистрации](implementing-deregister.md) |
 

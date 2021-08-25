@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8e5f29623cf94ef5f17f06e52337928c0c345e42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3319e84abc32887d7cf7a9126ea9ae0f57b9607f937256b8377030fdd9dd75cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884324"
 ---
 # <a name="ishelllinkdual2target-property"></a>IShellLinkDual2. Target, свойство
 
@@ -41,9 +41,9 @@ Target = IShellLinkDual2.Target
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере используется **целевой объект** для получения цели ярлыка к Internet Explorer. Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере используется **целевой объект** для получения цели ярлыка к Internet Explorer. правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -168,21 +168,21 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 75e246c6-bf23-44d9-8fb3-46a6dc5324a5
 title: Запросы Защита содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a72f7f054783a644cb352727f4bf65864bf5f8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c5aaa8c43cf722d13550ab4a1860e7a53780e7e82da7f374e28a7f599a22638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829094"
 ---
 # <a name="content-protection-queries"></a>Запросы Защита содержимого
 
@@ -37,7 +37,7 @@ ms.locfileid: "105710840"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

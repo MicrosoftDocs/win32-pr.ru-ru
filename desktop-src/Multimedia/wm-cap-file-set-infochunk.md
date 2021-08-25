@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_FILE_SET_INFOCHUNK (VFW. h)
 description: '\_ \_ \_ Сообщение инфочунк Set WM Cap \_ устанавливает и очищает информационные блоки.'
 ms.assetid: 67d11a05-a2b4-45d2-ba66-83a198745303
 keywords:
-- WM_CAP_FILE_SET_INFOCHUNK сообщения Windows мультимедиа
+- сообщение WM_CAP_FILE_SET_INFOCHUNK Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 067ba00563a5ca511f13b23615fc4542090ba397
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06d64f88a87af63e5afc513e0e2cf2df53d64570bec099a2f8f2846d781fc0b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892074"
 ---
 # <a name="wm_cap_file_set_infochunk-message"></a>\_Сообщение о \_ \_ задании файла \_ ИНФОЧУНК с ограничением WM
 
@@ -51,11 +51,11 @@ lParam = (LPARAM) (LPCAPINFOCHUNK) (lpInfoChunk);
 
 Если возникает ошибка и функция обратного вызова ошибки устанавливается с помощью сообщения [**\_ \_ \_ \_ об ошибке обратного вызова**](wm-cap-set-callback-error.md) , то вызывается функция обратного вызова ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В файл AVI можно добавить несколько блоков зарегистрированных данных. После установки информационного блока он добавляется в последующие файлы записи до тех пор, пока не будет снята запись или не будут удалены все записи фрагментов данных. Чтобы очистить одну запись, укажите фрагмент данных в элементе **фкЦинфоид** и **значение NULL** в элементе **лпдата** структуры [**капинфочунк**](/windows/win32/api/vfw/ns-vfw-capinfochunk) . Чтобы очистить все записи, укажите **значение NULL** в **фкЦинфоид**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ lParam = (LPARAM) (LPCAPINFOCHUNK) (lpInfoChunk);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

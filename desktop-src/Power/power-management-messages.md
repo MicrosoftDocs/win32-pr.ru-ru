@@ -4,12 +4,12 @@ ms.assetid: 8603503b-35a2-4d68-a38f-7dac5658d4e7
 title: Сообщения управления питанием
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 456fa02dfbdad8ad74715270db6fc6ee7574c1d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faa23bbbb1b437fbdd3eebd8d9e2aa53791331cec37a42d65d98e7810ffa9c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887164"
 ---
 # <a name="power-management-messages"></a>Сообщения управления питанием
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8256b2a3d1dd96db9a8f29b49ce10f6c2fdb266d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed423dc4cd34a03bd3b76401284a4d6bfb98270e7c0d0feed0a45046a82e7d3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990824"
 ---
 # <a name="tasksettingsrunonlyifidle-property"></a>Тасксеттингс. Рунонлифидле, свойство
 
@@ -42,7 +42,7 @@ TaskSettings.RunOnlyIfIdle As Boolean
 
 Если значение — true, свойство указывает, что планировщик задач будет выполнять задачу только в том случае, если компьютер находится в состоянии простоя. Значение по умолчанию — False.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При чтении или записи XML для задачи этот параметр указывается в элементе [**рунонлифидле**](taskschedulerschema-runonlyifidle-settingstype-element.md) схемы планировщик задач.
 
@@ -52,8 +52,8 @@ TaskSettings.RunOnlyIfIdle As Boolean
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: Структуры метафайлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33dfad6180b0b30c6bcb3786ec3870493c5b9839
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 370fa42f935a99183e9132c652368d102af83bc4ea908e4ae9733e346ae41cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965634"
 ---
 # <a name="metafile-structures"></a>Структуры метафайлов
 
@@ -146,7 +146,7 @@ ms.locfileid: "104263669"
 
 ## <a name="obsolete-structures"></a>Устаревшие структуры
 
-Следующие структуры устарели. Предоставляются для совместимости с метафайлами Windows-Format:
+Следующие структуры устарели. предоставляются для совместимости с метафайлами Windows-format:
 
 [**метахеадер**](/windows/win32/api/wingdi/ns-wingdi-metaheader)[**метарекорд**](/windows/win32/api/wingdi/ns-wingdi-metarecord)
 

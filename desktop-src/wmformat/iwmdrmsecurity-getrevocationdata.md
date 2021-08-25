@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c38e9e0b428a3922f84141ef855d8468b79b3bb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5035bc94051c61baaef7bcf474b4d6ebb4413b549dfff038bae7105f32d087b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808484"
 ---
 # <a name="iwmdrmsecuritygetrevocationdata-method"></a>Метод Ивмдрмсекурити:: Жетревокатиондата
 
@@ -56,7 +56,7 @@ HRESULT GetRevocationData(
 |-------------------------------|----------------------------------------------------------------------------------|
 | \_приложение РЕВОКАТИОНТИПЕ \_ WMDRM    | Указывает список отзыва сертификатов приложения.                           |
 | \_устройство WMDRM ревокатионтипе \_ | Указывает список отзыва сертификатов устройств.                                |
-| \_КАРДЕА WMDRM ревокатионтипе \_ | Указывает список отзыва сертификатов Windows Media DRM для сетевых устройств. |
+| \_КАРДЕА WMDRM ревокатионтипе \_ | указывает Windows Media DRM для списка отзыва сертификатов для сетевых устройств. |
 
 
 
@@ -92,18 +92,18 @@ HRESULT GetRevocationData(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Вмдрмсдк. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Вмдрмсдк. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

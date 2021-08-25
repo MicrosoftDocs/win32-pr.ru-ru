@@ -1,27 +1,27 @@
 ---
-description: Объекты DirectShow
+description: DirectShow Объект
 ms.assetid: 4b5068b5-4af9-40cb-b5a2-c9761ef13c55
-title: Объекты DirectShow
+title: DirectShow Объект
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 522bb6b8191a732114d3ea123e1cad4b075d0114
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b3cefa1b42f05e941e2d3b218dbbd9c2ff3d63f12fa0f70ef0c0d675c7c98edf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966434"
 ---
-# <a name="directshow-objects"></a>Объекты DirectShow
+# <a name="directshow-objects"></a>DirectShow Объект
 
-Этот раздел содержит справочные сведения об основных COM-объектах, входящих в состав DirectShow, кроме фильтров. Список фильтров, поставляемых с DirectShow, см. в разделе [фильтры DirectShow](directshow-filters.md).
+этот раздел содержит ссылки на основные объекты COM, входящие в состав DirectShow, кроме фильтров. список фильтров, поставляемых с DirectShow, см. в разделе [фильтры DirectShow](directshow-filters.md).
 
 
 
 | Объект                                                   | Описание                                                      |
 |----------------------------------------------------------|------------------------------------------------------------------|
-| [Построитель диаграмм записи](capture-graph-builder.md)       | Создает графы записи видео.                                     |
-| [Построитель DVD Graph](dvd-graph-builder.md)               | Создает графы воспроизведения DVD-дисков.                                      |
-| [Диспетчер графа фильтров](filter-graph-manager.md)         | Создает и управляет графами фильтра.                               |
+| [построитель Graph захвата](capture-graph-builder.md)       | Создает графы записи видео.                                     |
+| [построитель DVD-Graph](dvd-graph-builder.md)               | Создает графы воспроизведения DVD-дисков.                                      |
+| [диспетчер Graph фильтра](filter-graph-manager.md)         | Создает и управляет графами фильтра.                               |
 | [Средство сопоставления фильтров](filter-mapper.md)                       | Выполняет поиск зарегистрированных фильтров в реестре.                    |
 | [Контейнер свойств мультимедиа](media-property-bag.md)             | Задает или получает сведения и выводит фрагменты в файлах AVI.             |
 | [Распределитель памяти](memory-allocator.md)                 | Выделяет буферы для образцов мультимедиа.                             |
@@ -32,11 +32,11 @@ ms.locfileid: "104416720"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по DirectShow](directshow-reference.md)
+[DirectShow IsReference](directshow-reference.md)
 </dt> </dl>
 
  

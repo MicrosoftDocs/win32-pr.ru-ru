@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96a76a7527bacf8caa756a0fad75ca70f4bf9a77
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d86ab61574af84e0b4b51223c69b181697dc0ebbdd7995c1bff112e286cc3ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891984"
 ---
 # <a name="directcomposition-error-codes"></a>Коды ошибок DirectComposition
 
@@ -80,7 +80,7 @@ ms.locfileid: "104136707"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вызов [**идкомпоситионсурфаце:: бегиндрав**](/windows/win32/api/dcomp/nf-dcomp-idcompositionsurface-begindraw) был последним действием:
 
@@ -142,19 +142,19 @@ ms.locfileid: "104136707"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Дкомп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Дкомп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

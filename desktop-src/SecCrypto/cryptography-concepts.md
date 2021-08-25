@@ -4,12 +4,12 @@ ms.assetid: bfffe87d-8392-4b4a-8bbc-01b9c13fba47
 title: Основные понятия шифрования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aad1528032c20c5492a98798f8a175ca331e462
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1909cf999bd5eb2f91bd5c7e0243b13969e692792c4ff32804e7c9a7d2940b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876163"
 ---
 # <a name="cryptography-concepts"></a>Основные понятия шифрования
 
@@ -44,7 +44,7 @@ ms.locfileid: "105662318"
 -   [Упрощенные функции сообщений](cryptography-functions.md)
 -   [Низкоуровневые функции сообщений](cryptography-functions.md)
 
-## <a name="authentication"></a>Аутентификация
+## <a name="authentication"></a>Проверка подлинности
 
 Для защиты обмена данными необходимо, чтобы пользователи, которые обмениваются информацией, знали об удостоверениях, с которыми они взаимодействуют. Проверка подлинности — это процесс проверки личности пользователя или сущности.
 

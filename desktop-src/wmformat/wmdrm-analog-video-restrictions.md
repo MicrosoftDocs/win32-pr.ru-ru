@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d6b8fe957468baebb6da06f45ba7b37756413c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8221fe325983387107f4e0c03f5672a6762502d8865e1d5895a9e48e96b99d4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928814"
 ---
 # <a name="wmdrm_analog_video_restrictions-structure"></a>\_ \_ Структура ограничений аналогового видео WMDRM \_
 
@@ -56,7 +56,7 @@ typedef struct WMDRM_ANALOG_VIDEO_RESTRICTIONS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура получается при вызове [**ивмдрмлиценсе:: жетаналогвидеорестриктионлевелс**](iwmdrmlicense-getanalogvideorestrictionlevels.md).
 
@@ -66,7 +66,7 @@ typedef struct WMDRM_ANALOG_VIDEO_RESTRICTIONS {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

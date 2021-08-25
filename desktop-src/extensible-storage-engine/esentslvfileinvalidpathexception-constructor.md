@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 94a23ad64a75b3a1bada8f7495b91e94d6124db4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90bfa874d68d8cfdbd75d7b8f5a04ac4f4f2a24af7facb12d5d2370ff71a7007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851034"
 ---
 # <a name="esentslvfileinvalidpathexception-constructor"></a>Конструктор Есентслвфилеинвалидпасексцептион
 
@@ -50,7 +50,7 @@ Dim instance As New EsentSLVFileInvalidPathException()
 public EsentSLVFileInvalidPathException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

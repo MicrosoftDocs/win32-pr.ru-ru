@@ -4,12 +4,12 @@ ms.assetid: 07c9b827-6e2e-4599-b48a-f726484b643d
 title: 'Форматы прежних версий: сопоставьте форматы Direct3D 9 с Direct3D 10'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 230b8ed17984d47a3b57ce287aa9b434a2b92aae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c40a437ef42b4ce24b468c39d169b39db7fb9cb7951c825da38bb63f85b9dba0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895304"
 ---
 # <a name="legacy-formats-map-direct3d-9-formats-to-direct3d-10"></a>Форматы прежних версий: сопоставьте форматы Direct3D 9 с Direct3D 10
 
@@ -110,7 +110,7 @@ ms.locfileid: "105701197"
 3.  DXT2 и DXT3 одинаковы с точки зрения API. DXT4 и DXT5 одинаковы с точки зрения API. Единственным отличием было предварительное умножение альфа-канала, которое может быть записано приложением и не требует отдельного формата.
 4.  Шейдер получает значения UINT, но если целочисленный тип с плавающей запятой в стиле Direct3D 9 (0,0 f, 1,0 f... 255. f), UINT можно преобразовать в объект float32 в шейдере.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

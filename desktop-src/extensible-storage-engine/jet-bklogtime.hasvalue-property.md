@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a19d0f5b35a73d78143c471fdd9f70ff20b8c9eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd067bd5b49b17e0489946d1d3651a364804fcbd7e0e472a6c4bec9cdbfe1e92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850264"
 ---
 # <a name="jet_bklogtimehasvalue-property"></a>JET_BKLOGTIME. Свойство HasValue
 
@@ -64,7 +64,7 @@ public bool HasValue { get; }
 
 [Инуллаблежетструкт. HasValue](./inullablejetstruct.hasvalue-property.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

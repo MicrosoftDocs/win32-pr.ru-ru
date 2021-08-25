@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: fe71aeae91f8c43966e0fda2d2f430c7908f2855
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa92b0fd7efb9c6f457fd035fad28992d965a4cf2f6fdad39936292f7a70a996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852374"
 ---
 # <a name="d3dx10createdeviceandswapchain-function"></a>Функция D3DX10CreateDeviceAndSwapChain
 
@@ -114,26 +114,26 @@ HRESULT D3DX10CreateDeviceAndSwapChain(
 
 Этот метод возвращает один из следующих [кодов возврата Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания наилучшего устройства этот метод реализует несколько вариантов создания устройства. Во-первых, метод пытается создать устройство 10,1 (и цепь подкачки). Если это не удается, метод пытается создать устройство 10,0. Если это не удается, метод завершится ошибкой. Если приложению нужно создать только устройство 10,1 или только устройство 10,0, используйте эти API-интерфейсы.
 
 -   Используйте [**D3D10CreateDeviceAndSwapChain**](/windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdeviceandswapchain) , чтобы создать устройство и цепочку подкачки Direct3D 10,0.
 -   Используйте [**D3D10CreateDeviceAndSwapChain1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1) , чтобы создать устройство и цепочку подкачки Direct3D 10,1.
 
-Для этого метода требуется Windows Vista с пакетом обновления 1 (SP1).
+для этого метода требуется Windows Vista с пакетом обновления 1 (sp1).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Core. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

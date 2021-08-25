@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe12f76c35238251e2ecc60f848e2f7eb4eaa681
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 955dcc93b826b4f86bffd3371ab9907e56dfe7f35649aee603cb18716868f535
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104416149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959534"
 ---
 # <a name="userid-principaltype-element"></a>UserId (ПринЦипалтипе), элемент
 
@@ -38,11 +38,11 @@ ms.locfileid: "104416149"
 
 | Элемент                                                                  | Унаследован от                                                           | Описание                                                    |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
-| [**Основного**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | Указывает учетные данные безопасности для участника.<br/> |
+| [**Основной**](taskschedulerschema-principal-principaltype-element.md) | [**принЦипалтипе**](taskschedulerschema-principaltype-complextype.md) | Указывает учетные данные безопасности для участника.<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **UserID** и элемент [**LogonType**](taskschedulerschema-logontype-principaltype-element.md) используются вместе для определения пользователя, необходимого для выполнения этих задач, использующих этот участник.
 
@@ -73,8 +73,8 @@ ms.locfileid: "104416149"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

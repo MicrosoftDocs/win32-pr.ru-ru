@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 5E789607-AEB6-48F9-A9D7-8D27263DBA77
-ms.openlocfilehash: ba0399051e71598a219d6425efa1a82cf6ccba3c
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 52d75423cab32fc819bbf4590d1e01de8917c9d6854cac4396bceaf5c096197f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941624"
 ---
 # <a name="shellsearchcommand-method"></a>Shell. Сеарчкомманд, метод
 
@@ -61,8 +61,8 @@ Shell.SearchCommand()
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl> |
 

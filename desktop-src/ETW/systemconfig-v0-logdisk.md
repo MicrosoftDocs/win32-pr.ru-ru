@@ -26,12 +26,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: eb0ad959d637a38a03b77bd8d7a812ff608ddc04
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 42b17cf31dcb3830cd35f046a7fcbad1858f8ae4f728fc1417339962a4be4441
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927524"
 ---
 # <a name="systemconfig_v0_logdisk-class"></a>\_Класс системконфиг v0 \_ логдиск
 
@@ -141,7 +141,7 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 | Значение                                                                        | Значение                                         |
 |------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>1</dt> </dl> | Partition (Раздел)<br/>                            |
-| <dl> <dt>2</dt> </dl> | Том<br/>                               |
+| <dl> <dt>2</dt> </dl> | Громкость<br/>                               |
 | <dl> <dt>3</dt> </dl> | Дополнительный раздел на нескольких дисках<br/> |
 
 
@@ -182,7 +182,7 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 
 </dd> <dt>
 
-**Коммутаци**
+**Pad**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -310,14 +310,14 @@ class SystemConfig_V0_LogDisk : SystemConfig_V0
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

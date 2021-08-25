@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: cda904c4fcc0b1acdd16c8fc4596eef332140ec4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0c39b43fc29ed5fadcac0e85ff23ef9f1945a25e26bcfdb0f1e81f804abbc07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965904"
 ---
 # <a name="ec_dvd_beginnavigationcommands"></a>\_Бегиннавигатионкоммандс DVD-диск EC \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105679670"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию это событие отключено. Чтобы включить это событие, вызовите [**IDvdControl2:: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) и установите для параметра **\_ енаблелоггинжевентс DVD** значение **true**.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105679670"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 

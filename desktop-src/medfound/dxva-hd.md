@@ -4,12 +4,12 @@ ms.assetid: 38ebec28-c4fc-4e72-ac87-1e41707d1908
 title: ДКСВА-HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8694a28d8d5871112590c90bf166d1aa9246e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40e23d6e91f576f062c52a0f58d0bfe1f769ad3879581b01386333266cb0553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958654"
 ---
 # <a name="dxva-hd"></a>ДКСВА-HD
 
@@ -20,7 +20,7 @@ High Definition (ДКСВА-HD) ускорение видео Microsoft DirectX 
 API ДКСВА-HD требует наличия драйвера экрана WDDM, поддерживающего интерфейс драйвера устройства ДКСВА-HD (DDI) или программного процессора подключаемого модуля.
 
 -   [Улучшения по сравнению с ДКСВА — вице-президент](#improvements-over-dxva-vp)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="improvements-over-dxva-vp"></a>Улучшения по сравнению с ДКСВА — вице-президент
 
@@ -49,7 +49,7 @@ API ДКСВА-HD требует наличия драйвера экрана WD
 -   [Настройка состояний ДКСВА-HD](setting-dxva-hd-states.md)
 -   [Выполнение ДКСВА-HD Блит](performing-the-dxva-hd-blit.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

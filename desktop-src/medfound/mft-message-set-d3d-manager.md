@@ -4,12 +4,12 @@ ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
 title: MFT_MESSAGE_SET_D3D_MANAGER (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef8ecb5db474935bb25138a960b6df1c2109c16c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a0e7ccbf9f28615b17e6acded6ecc932334b4fb0fa4a607d6fd6213ba2cd214
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848073"
 ---
 # <a name="mft_message_set_d3d_manager"></a>\_ \_ Диспетчер D3D, набор сообщений \_ MFT \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105711695"
 
 При начале потоковой передачи параметр *улпарам* содержит указатель **IUnknown** . MFT запросит этот указатель для интерфейса [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) для Direct3D 9 и интерфейса [**имфдксгидевицеманажер**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) для Direct3D 11. При остановке потоковой передачи *улпараметер* содержит значение **null**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы отправить это сообщение, вызовите [**имфтрансформ::P роцессмессаже**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -43,9 +43,9 @@ ms.locfileid: "105711695"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl> |
 
 
 

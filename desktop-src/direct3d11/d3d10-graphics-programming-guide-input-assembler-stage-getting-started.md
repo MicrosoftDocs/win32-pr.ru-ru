@@ -4,12 +4,12 @@ description: Для инициализации этапа ввода-ассем�
 ms.assetid: 84c0ca29-2356-4b7f-98ee-ff1758edc540
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 901b3facfef781e3f44acf75bee737f280dece55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 513e7452eebf157a80d4239127bf1d04a014375f7bbaf06e4f5814199d7ba053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858214"
 ---
 # <a name="getting-started-with-the-input-assembler-stage"></a>Начало работы с этапом Input-Assembler
 
@@ -29,7 +29,7 @@ ms.locfileid: "104413204"
 
 
 
- 
+ 
 
 Когда вы понимаете эти шаги, переходите к [использованию значений System-Generated](d3d10-graphics-programming-guide-input-assembler-stage-using.md).
 
@@ -155,17 +155,17 @@ g_pd3dDevice->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
 
 
 
- 
+ 
 
 Каждый метод Draw отображает один тип топологии. Во время отрисовки неполные примитивы (без достаточных вершин, отсутствующие индексы, частичные примитивы и т. д.) автоматически отбрасываются.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Этап ввода-ассемблера](d3d10-graphics-programming-guide-input-assembler-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

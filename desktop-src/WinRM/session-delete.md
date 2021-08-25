@@ -5,8 +5,8 @@ ms.assetid: 8803d35d-674c-483d-866b-37129102c7ce
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода Delete
-- Служба удаленного управления Windows метода Delete, объект Session
-- Объект Session служба удаленного управления Windows, метод Delete
+- служба удаленного управления Windows метода Delete, объект Session
+- объект Session служба удаленного управления Windows, метод Delete
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf4b46997a7e3cf50dbf50c2828de78a814a513
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 769ef3f462fa542e9afc6859b564e1a32ed87578894df4008fb6a19ad8aadad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858674"
 ---
 # <a name="sessiondelete-method"></a>Session. redelete, метод
 
@@ -62,7 +62,7 @@ URI ресурса, который необходимо удалить. Для �
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для вызова этого метода используется следующий синтаксис.
 
@@ -88,7 +88,7 @@ objSession.Delete(strResource)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -96,18 +96,18 @@ objSession.Delete(strResource)
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

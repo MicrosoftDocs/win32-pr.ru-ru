@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c27138d04f31c0a3aca8152a6074d1cf43fda7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6237950d4a54a552768d61c41bd4953446ea4a14db50af979506291d6ed32a6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945724"
 ---
 # <a name="jet_recsizecblongvaluedata-property"></a>Свойство JET_RECSIZE. Кблонгвалуедата
 
@@ -62,7 +62,7 @@ public long cbLongValueData { get; internal set; }
 
 Тип: [System. Int64](/dotnet/api/system.int64)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

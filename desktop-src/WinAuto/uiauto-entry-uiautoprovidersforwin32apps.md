@@ -4,12 +4,12 @@ description: В этом разделе описываются интерфей�
 ms.assetid: 10e0e642-2839-48cb-a2e6-9a2292cd97bf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0811d82ae539afe08e183b24067f79401c99600
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: de9d1f17d8dbd0d6a2470b1760e530d4876e895be0e88c478f104876ce6292dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859594"
 ---
 # <a name="ui-automation-providers"></a>Поставщики автоматизации пользовательского интерфейса
 
@@ -21,7 +21,7 @@ ms.locfileid: "105661505"
 -   [Интерфейсы шаблонов элементов управления для поставщиков](uiauto-cpinterfaces.md)
 -   [Функции для поставщиков](uiauto-functions.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -31,9 +31,9 @@ ms.locfileid: "105661505"
 [Ссылки](entry-uiautocore-ref.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

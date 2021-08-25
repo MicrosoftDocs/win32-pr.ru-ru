@@ -3,7 +3,7 @@ title: Контекстпопуп, элемент
 description: Представляет всплывающий элемент управления "контекст" в представлении Контекстпопуп.
 ms.assetid: b955be16-803e-47b5-a72d-f993180fbf14
 keywords:
-- Лента Windows для элемента Контекстпопуп
+- элемент контекстпопуп Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f779b0196d14fb42246c2a10d476352d835b6cf8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8fddda30a765eb314c7a29934c9fcdd12404647de9f1e480275f8fa685b50827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840794"
 ---
 # <a name="contextpopup-element"></a>Контекстпопуп, элемент
 
@@ -155,7 +155,7 @@ ms.locfileid: "111443471"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

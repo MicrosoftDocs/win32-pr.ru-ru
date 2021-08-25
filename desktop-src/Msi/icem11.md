@@ -4,18 +4,18 @@ ms.assetid: f0199137-0a40-40ca-b3cf-ff8eef4309cc
 title: ICEM11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 403a36435ce2367fc356934740e6d022f5457698
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 157248d62f43a0b1a791220e2aeb917ba8273d31b93de69078f9876cddbd2748
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894434"
 ---
 # <a name="icem11"></a>ICEM11
 
 ICEM11 проверяет, что настраиваемый модуль слияния содержит [таблицу модулеконфигуратион](moduleconfiguration-table.md) и [таблицу Модулесубститутион](modulesubstitution-table.md) в [таблице модулеигноретабле](moduleignoretable-table.md) модуля. Это гарантирует, что средства слияния, которые не распознают настраиваемые модули слияния (меньше версии 2,0), не копируют эти таблицы в целевую базу данных.
 
-Этот ИЦЕМ доступен в файле Мержемод. CUB, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. Дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
+этот ицем доступен в файле мержемод. cub, который входит в состав пакета SDK для установщик Windows 2,0 и более поздних версий. дополнительные сведения см. в разделе [Windows SDK компонентов для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="result"></a>Результат
 
@@ -48,7 +48,7 @@ table. These tables must be listed in the ModuleIgnoreTable table.
 
 | Таблица   | Строка              | Столбец | Значение        |
 |---------|------------------|--------|--------------|
-| Control | Dialog1; Control1 | Текст   | \[IconKey1\] |
+| Элемент | Dialog1; Control1 | Текст   | \[IconKey1\] |
 
 
 
@@ -76,7 +76,7 @@ table. These tables must be listed in the ModuleIgnoreTable table.
 
 [модулеигноретабле](moduleignoretable-table.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

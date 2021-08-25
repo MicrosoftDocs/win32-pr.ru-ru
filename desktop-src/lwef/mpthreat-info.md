@@ -4,7 +4,7 @@ description: Содержит сведения об угрозе.
 ms.assetid: ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E
 keywords:
 - MPTHREAT_INFO структуры устаревшие функции среды Windows
-- Функции PMPTHREAT_INFO указателя структур в устаревшей среде Windows
+- функции PMPTHREAT_INFO Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa850a4293006a2f4b107a3f2579fdc14c1ea6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7be9b1f38a2771d7c6e4831e7716552de34492b30429084f3e087e0a3b49602
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943924"
 ---
 # <a name="mpthreat_info-structure"></a>\_Структура сведений о мпсреат
 
@@ -107,7 +107,7 @@ typedef struct tagMPTHREAT_INFO {
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd>
 
 Тип: **\_ \_ строка MP MIDL, LPWSTR**
@@ -220,11 +220,11 @@ typedef struct tagMPTHREAT_INFO {
 **ресаурцелист**
 </dt> <dd>
 
-Введите: **пмпресаурце \_ info \** _
+Тип: **пмпресаурце \_ info \*** .
 
 </dd> <dd>
 
-Список ресурсов, определенных с помощью угрозы. См. раздел [_ *мпресаурце \_ info* *](mpresource-info.md).
+Список ресурсов, определенных с помощью угрозы. См [**. \_ сведения о мпресаурце**](mpresource-info.md).
 
 </dd> <dt>
 
@@ -565,19 +565,19 @@ typedef struct tagMPTHREAT_INFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

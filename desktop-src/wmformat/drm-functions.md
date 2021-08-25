@@ -1,25 +1,25 @@
 ---
-title: Функции клиента DRM Microsoft Windows Media
-description: Функции клиента DRM Microsoft Windows Media
+title: функции клиента DRM для Microsoft Windows Media
+description: функции клиента DRM для Microsoft Windows Media
 ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
 keywords:
-- Windows Media Format SDK, функции
+- Windows Пакет SDK для формата мультимедиа, функции
 - Управление цифровыми правами (DRM), функции
 - DRM (Управление цифровыми правами), функции
 - Расширенные API клиента DRM, функции
 - Расширенные API клиента, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20c1730413a4918b0f748099fbd55714339a7e9b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 73aaf5f3c536027801a85f8d38120e6e14c5d366a6d727498a5bc1d1200cb041
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105700995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931174"
 ---
-# <a name="microsoft-windows-media-drm-client-functions"></a>Функции клиента DRM Microsoft Windows Media
+# <a name="microsoft-windows-media-drm-client-functions"></a>функции клиента DRM для Microsoft Windows Media
 
-В состав расширенных API клиента DRM Microsoft Windows Media реализуются следующие функции.
+следующие функции реализуются в составе расширенных api клиента DRM Microsoft Windows Media.
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "105700995"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

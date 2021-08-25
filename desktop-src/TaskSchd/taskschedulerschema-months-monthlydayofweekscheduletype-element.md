@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76f13a5823e0154519dbdb093dd03ea36bbe77b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a963032a2d33f13158af249f2b867037cf50082be005efa579148031c8e30585
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959604"
 ---
 # <a name="months-monthlydayofweekscheduletype-element"></a>Months (Монслидайофвиксчедулетипе), элемент
 
@@ -49,21 +49,21 @@ ms.locfileid: "104415097"
 | Элемент                                                               | Тип | Описание                                           |
 |-----------------------------------------------------------------------|------|-------------------------------------------------------|
 | [**Апрель**](taskschedulerschema-april-monthstype-element.md)         |      | Указывает, что задача выполняется в апреле.<br/>     |
-| [**Августа**](taskschedulerschema-august-monthstype-element.md)       |      | Указывает, что задача выполняется в августе.<br/>    |
+| [**Август**](taskschedulerschema-august-monthstype-element.md)       |      | Указывает, что задача выполняется в августе.<br/>    |
 | [**Декабрь**](taskschedulerschema-december-monthstype-element.md)   |      | Указывает, что задача выполняется в декабре.<br/>  |
 | [**Февраль**](taskschedulerschema-february-monthstype-element.md)   |      | Указывает, что задача выполняется в феврале.<br/>  |
-| [**Января**](taskschedulerschema-january-monthstype-element.md)     |      | Указывает, что задача выполняется в январе.<br/>   |
-| [**Июле**](taskschedulerschema-july-monthstype-element.md)           |      | Указывает, что задача выполняется в июле.<br/>      |
+| [**Январь**](taskschedulerschema-january-monthstype-element.md)     |      | Указывает, что задача выполняется в январе.<br/>   |
+| [**Июль**](taskschedulerschema-july-monthstype-element.md)           |      | Указывает, что задача выполняется в июле.<br/>      |
 | [**Июнь**](taskschedulerschema-june-monthstype-element.md)           |      | Указывает, что задача выполняется в июне.<br/>      |
 | [**Март**](taskschedulerschema-march-monthstype-element.md)         |      | Указывает, что задача выполняется в марте.<br/>     |
-| [**Мая**](taskschedulerschema-may-monthstype-element.md)             |      | Указывает, что задача выполняется в Май.<br/>       |
-| [**Ноября**](taskschedulerschema-november-monthstype-element.md)   |      | Указывает, что задача выполняется в ноябре.<br/>  |
-| [**Октябре**](taskschedulerschema-october-monthstype-element.md)     |      | Указывает, что задача выполняется в октябре.<br/>   |
+| [**Май**](taskschedulerschema-may-monthstype-element.md)             |      | Указывает, что задача выполняется в Май.<br/>       |
+| [**Ноябрь**](taskschedulerschema-november-monthstype-element.md)   |      | Указывает, что задача выполняется в ноябре.<br/>  |
+| [**Октябрь**](taskschedulerschema-october-monthstype-element.md)     |      | Указывает, что задача выполняется в октябре.<br/>   |
 | [**Сентябрь**](taskschedulerschema-september-monthstype-element.md) |      | Указывает, что задача выполняется в сентябре.<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки со сценариями месяцы года для расписания месячного дня недели задаются с помощью свойства [**монслидовтригжер. монссофеар**](monthlydowtrigger-monthsofyear.md) .
 
@@ -109,8 +109,8 @@ ms.locfileid: "104415097"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

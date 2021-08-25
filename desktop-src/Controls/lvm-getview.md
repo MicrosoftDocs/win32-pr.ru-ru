@@ -3,7 +3,7 @@ title: Сообщение LVM_GETVIEW (Коммктрл. h)
 description: Извлекает текущее представление элемента управления "представление списка".
 ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
 keywords:
-- Элементы управления Windows для LVM_GETVIEW сообщений
+- элементы управления Windows сообщений LVM_GETVIEW
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2da295fa5a5b335de60169ce06b777d9e355121
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 431b0a7b3fba9a45370c372347285489a56082c4a04396c273a45c4da41b05b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915514"
 ---
 # <a name="lvm_getview-message"></a>\_Сообщение LVM
 
@@ -39,7 +39,7 @@ ms.locfileid: "104137102"
 
 Возвращает значение **типа DWORD** , указывающее текущее представление.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены значения для представлений.
 
@@ -54,15 +54,15 @@ ms.locfileid: "104137102"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

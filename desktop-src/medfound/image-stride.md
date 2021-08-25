@@ -4,12 +4,12 @@ ms.assetid: 13cd1106-48b3-4522-ac09-8efbaab5c31d
 title: Шаг изображения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 813c0f3d99297758761bdfb5973fc2b16e3339f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 360afb6fdeca4c543957326b041654d75ff17b66db8918e42d781d414e8b7586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958160"
 ---
 # <a name="image-stride"></a>Шаг изображения
 
@@ -191,7 +191,7 @@ void RGB32_To_YV12(
 
 Во всех этих примерах предполагается, что приложение уже определило шаг изображения. Иногда эти сведения можно получить из буфера мультимедиа. В противном случае необходимо вычислить его на основе формата видео. Дополнительные сведения о вычислении шага образа и работе с буферами мультимедиа для видео см. в разделе [несжатые Видеобуферы](uncompressed-video-buffers.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -52,7 +52,7 @@ Dim instance As New EsentFileSystemCorruptionException()
 public EsentFileSystemCorruptionException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

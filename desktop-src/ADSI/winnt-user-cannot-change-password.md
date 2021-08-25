@@ -9,12 +9,12 @@ keywords:
 - WinNT Provider ADSI, примеры управления пользователями, пользователь не может изменить пароль
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51d8790f425c71f904957adcdb83d9c16af2f07f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d5e7e6c42e39527ef8f474903a9f392ed03bb9273809ba2b6cfe5b47d71a3aaa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828184"
 ---
 # <a name="user-cannot-change-password-winnt-provider"></a>Пользователь не может изменить пароль (поставщик WinNT)
 
@@ -27,9 +27,9 @@ ms.locfileid: "104328323"
 
 Также можно прочитать и изменить это разрешение с помощью поставщика LDAP. Дополнительные сведения см. в разделе [пользователь не может изменить пароль (поставщик LDAP)](user-cannot-change-password.md).
 
- 
+ 
 
- 
+ 
 
 
 

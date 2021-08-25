@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: eec570200234f455467c30a3eb12429226400c60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43c2e5aa0f99824d87b865a56fe336161b8963bb9ba1da338bb8603f722085cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879864"
 ---
 # <a name="attributesclear-method"></a>Метод Attributes. Clear
 
@@ -43,7 +43,7 @@ Attributes.Clear()
 
 Этот метод не возвращает значение. Приложение, использующее этот метод, должно содержать код, обрабатывающий исключение, вызванное этим методом.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ Attributes.Clear()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

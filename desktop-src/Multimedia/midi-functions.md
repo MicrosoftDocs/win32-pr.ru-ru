@@ -12,12 +12,12 @@ keywords:
 - Функции MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd900afd6b839ed5fed7afffb34c40aee8a07618
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d61af940dd52c0fe067eed930fdac6421d6ac19c5e4b3c04de23c0125f8b678b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807562"
 ---
 # <a name="midi-functions"></a>Функции MIDI
 
@@ -65,13 +65,13 @@ ms.locfileid: "104133834"
 -   [**мидистреамрестарт**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamrestart)
 -   [**мидистреамстоп**](/windows/win32/api/mmeapi/nf-mmeapi-midistreamstop)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по MIDI](midi-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

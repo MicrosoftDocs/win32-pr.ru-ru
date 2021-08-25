@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: ecdfd91c9ea4ab5202a72015f579d560b37fbffd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7aaceff66cd817666dd05b92243239f860b2f59a993e4afca1831fc8085de0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930004"
 ---
 # <a name="iportabledevicevalues-interface"></a>Интерфейс Ипортабледевицевалуес
 
@@ -47,7 +47,7 @@ ms.locfileid: "105694474"
 
 | Метод                                                                                                                     | Описание                                                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| [**Открытым**](iportabledevicevalues-clear.md)                                                                               | Удаляет все элементы из коллекции.<br/>                                                                      |
+| [**Clear**](iportabledevicevalues-clear.md)                                                                               | Удаляет все элементы из коллекции.<br/>                                                                      |
 | [**копивалуесфромпропертисторе**](iportabledevicevalues-copyvaluesfrompropertystore.md)                                   | Копирует содержимое объекта **ипропертисторе** в коллекцию.<br/>                                           |
 | [**копивалуестопропертисторе**](iportabledevicevalues-copyvaluestopropertystore.md)                                       | Копирует все значения из коллекции в интерфейс **ипропертисторе** .<br/>                               |
 | [**GetAt**](iportabledevicevalues-getat.md)                                                                               | Извлекает значение из коллекции, используя указанный индекс, начинающийся с нуля.<br/>                                  |
@@ -92,18 +92,18 @@ ms.locfileid: "105694474"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

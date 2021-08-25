@@ -4,12 +4,12 @@ ms.assetid: fc01fc66-627a-497f-98dd-613f5d85f6cb
 title: Руководство по устранению неполадок WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c28e9a1fe4cc5b24b386cfb88e39276edc14cb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb4a904b2bf4072721e6c0e9c01191aa1b3d5f55224b096434062b7aa8535fa5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860038"
 ---
 # <a name="wsdapi-troubleshooting-guide"></a>Руководство по устранению неполадок WSDAPI
 
@@ -17,9 +17,9 @@ ms.locfileid: "105647251"
 
 Для пользователей WSDAPI это средство содержит сведения, которые помогут вам успешно устранять неполадки прокси-сервера устройства (с помощью [**всдкреатедевицепрокси**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy)), поставщика обнаружения (с помощью [**всдкреатедисковерипровидер**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoveryprovider)) или издателя обнаружения (с помощью [**всдкреатедисковерипублишер**](/windows/desktop/api/WsdDisco/nf-wsddisco-wsdcreatediscoverypublisher)).
 
-В этом учебнике предполагается, что клиент и узел могут правильно взаимодействовать с WSDAPI в управляемой среде. Соответственно, это средство не предназначено для устранения неполадок в стеках DPWS, которые могут формировать неправильные сообщения WS. Сведения о тестировании взаимодействия с WSDAPI см. в разделе [средство взаимодействия Basic (всдбит) для WSDAPI](https://msdn.microsoft.com/library/cc264250.aspx) в комплекте драйверов Windows (WDK).
+В этом учебнике предполагается, что клиент и узел могут правильно взаимодействовать с WSDAPI в управляемой среде. Соответственно, это средство не предназначено для устранения неполадок в стеках DPWS, которые могут формировать неправильные сообщения WS. сведения о тестировании взаимодействия с WSDAPI см. в разделе [средство взаимодействия Basic (всдбит) для wsdapi](https://msdn.microsoft.com/library/cc264250.aspx) в комплекте драйверов Windows (WDK).
 
-Прежде чем начать устранение неполадок приложения, необходимо ознакомиться с [шаблонами сообщений обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md).
+прежде чем начать устранение неполадок в приложении, необходимо ознакомиться с [шаблонами обнаружения и метаданных Exchange сообщениями](discovery-and-metadata-exchange-message-patterns.md).
 
 Данное руководство содержит следующие разделы.
 

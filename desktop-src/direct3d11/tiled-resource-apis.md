@@ -4,12 +4,12 @@ description: Интерфейсы API, описанные в этом разде
 ms.assetid: 02DCF9BA-F9EA-4176-AD6F-AA620CE968BA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0d97f5272f4f96db56e6e89b871951de035105
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f433b6c70d475d4da511b85fdcc2b1c273de1efa8e1186215b25ce6b9b95d0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894394"
 ---
 # <a name="tiled-resource-apis"></a>API-интерфейсы мозаичного ресурса
 
@@ -20,7 +20,7 @@ ms.locfileid: "104410672"
 -   [Копирование мозаичных данных](#copying-tiled-data)
 -   [Изменение размера пула плиток](#resizing-tile-pool)
 -   [Барьер ресурсов мозаики](#tiled-resource-barrier)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="assigning-tiles-from-a-tile-pool-to-a-resource"></a>Назначение плиток из пула плиток ресурсу
 
@@ -67,16 +67,16 @@ ms.locfileid: "104410672"
 
 Чтобы указать ограничение упорядочения доступа к данным между несколькими мозаичными ресурсами, используйте [**ID3D11DeviceContext2:: тиледресаурцебарриер**](/windows/desktop/api/D3D11_2/nf-d3d11_2-id3d11devicecontext2-tiledresourcebarrier).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Мозаичные ресурсы](tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
