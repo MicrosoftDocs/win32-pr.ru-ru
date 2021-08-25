@@ -4,12 +4,12 @@ ms.assetid: fe5e852f-fe0c-439d-b0c5-d32593b587cb
 title: Шаг 4. Создание сеанса мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4c6c9e36552247cb294a7d0d6996fcc0b8a6ec
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ad9c31d4c5e07abe8f088aad38fec9f91046a7d4338905dbd917de9d414fd4f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847774"
 ---
 # <a name="step-4-create-the-media-session"></a>Шаг 4. Создание сеанса мультимедиа
 
@@ -64,7 +64,7 @@ done:
 
 Далее: [Шаг 5. Работа с событиями сеанса мультимедиа](step-5--handle-media-session-events.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

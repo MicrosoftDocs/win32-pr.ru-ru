@@ -4,12 +4,12 @@ ms.assetid: a0a266ef-0830-4a3f-9bf6-6b64c95c3d03
 title: BLOB-объекты ключа поставщика DSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f27a73e35cccd6fad672f4c94d589d754f970c0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: accbc2cbdc7f543fb2a46b77741d5be7f9e216efcf36b487f7d08912bf5d3991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875325"
 ---
 # <a name="dss-provider-key-blobs"></a>BLOB-объекты ключа поставщика DSS
 
@@ -44,7 +44,7 @@ DSSSEED           seedstruct;
 | публиккэйструк | Структура [**публиккэйструк**](/windows/desktop/api/Wincrypt/ns-wincrypt-publickeystruc) .                                                                                                                                                                |
 | q              | Последовательность **байтов** . Простой, q, 20 байт. Для наиболее значимого бита наиболее значимого байта должно быть задано значение 1.                                                                                     |
 | сидструкт     | Структура [**дсссид**](/windows/desktop/api/Wincrypt/ns-wincrypt-dssseed) . Начальные значения и счетчики для проверки простых значений.                                                                                                                                |
-| да              | Последовательность **байтов** . Открытый ключ, y. Длина должна быть такой же, как и у p. Если длина не совпадает с длиной p, то она должна быть дополнена 0x00 байтами.                                                                         |
+| y              | Последовательность **байтов** . Открытый ключ, y. Длина должна быть такой же, как и у p. Если длина не совпадает с длиной p, то она должна быть дополнена 0x00 байтами.                                                                         |
 
 
 

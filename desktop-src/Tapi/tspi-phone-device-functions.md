@@ -1,17 +1,17 @@
 ---
 description: Этот раздел содержит алфавитный список функций телефонного устройства в SPI.
 ms.assetid: 6210a205-0ab6-4695-b4f4-62f8e018bf0e
-title: Функции устройства ТСПИ Phone
+title: функции устройства Телефон тспи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76659b787e66005e46e13872cc0c2ff7e6639f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9320da72fa3bcd9f73d5b56b793c268dd35e4e2f5cf977e04b50a5b1de6162b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772944"
 ---
-# <a name="tspi-phone-device-functions"></a>Функции устройства ТСПИ Phone
+# <a name="tspi-phone-device-functions"></a>функции устройства Телефон тспи
 
 Этот раздел содержит алфавитный список функций телефонного устройства в SPI. К функциям устройства ТСПИ Phone относятся:
 

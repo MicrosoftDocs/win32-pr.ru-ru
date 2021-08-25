@@ -3,19 +3,19 @@ title: Структуры мультимедиа
 description: Структуры мультимедиа
 ms.assetid: afdf2730-d388-4700-88ad-dc6ccebd7854
 keywords:
-- Мультимедиа Windows, структуры
+- Windows мультимедиа, структуры
 - мультимедиа, структуры
 - мультимедийные ссылки, структуры
 - Справочник по мультимедиа, структурам
 - структуры мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f31a95d2004443e25a60eb6c22010d20495ef0bc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7f3a67105f7b413758fbcd83ba6319cfdc01d2cab96da93efe51c1ed08aeb61d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806754"
 ---
 # <a name="multimedia-structures"></a>Структуры мультимедиа
 
@@ -149,13 +149,13 @@ ms.locfileid: "103890533"
 -   [**вавеинкапс**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)
 -   [**вавеауткапс**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Ссылка на мультимедиа](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

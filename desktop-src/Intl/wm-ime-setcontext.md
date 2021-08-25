@@ -4,12 +4,12 @@ ms.assetid: ba1e7877-1612-4f2f-aced-0dd982352ad6
 title: Сообщение WM_IME_SETCONTEXT (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b36cb1e80127d1a451dabcc457dc364a27878ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5fb3e65b47b5d62b1d37ffaee4dfc5927d76485d0c3e5de02662da64215e43f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829254"
 ---
 # <a name="wm_ime_setcontext-message"></a>\_Сообщение SETCONTEXT редактора IME WM \_
 
@@ -72,13 +72,13 @@ LRESULT CALLBACK WindowProc(
 
 Возвращает значение, возвращаемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) или [**иммисуимессаже**](/windows/desktop/api/Imm/nf-imm-immisuimessagea).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение создало окно IME, оно должно вызывать [**иммисуимессаже**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). В противном случае оно должно передать это сообщение в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
 Если приложение рисует окно композиции, то окно IME по умолчанию не обязательно отображает окно его композиции. В этом случае приложение должно очистить значение **ISC \_ шовуикомпоситионвиндов** из параметра *lParam* перед передачей сообщения в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) или [**иммисуимессаже**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). Чтобы отобразить определенное окно пользовательского интерфейса, приложение должно удалить соответствующее значение, чтобы редактор IME не отображал его.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,11 +86,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                                                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                                                                      |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h); </dt> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h);</dt> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

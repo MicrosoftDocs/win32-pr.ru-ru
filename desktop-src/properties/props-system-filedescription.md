@@ -4,12 +4,12 @@ ms.assetid: 061299cd-ed41-46cd-bae3-eeb98bab3142
 title: System. Филедескриптион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c4117a4a53c4825dc40bee392afbb20d854db4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 147d8244397f739739dac5a291f1a1d7ebbdcca756459197a858840c4025030a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845084"
 ---
 # <a name="systemfiledescription"></a>System. Филедескриптион
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 291bb9fdd2cadfef3881bc27a47f9fc1bb1bce68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a107ee44f058d776a906fef37b2e384ed6d8970224c44a6846b257c5f336c515
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865714"
 ---
 # <a name="remotesessionactiontype-enumeration"></a>Перечисление Ремотесессионактионтипе
 
@@ -86,11 +86,11 @@ typedef enum _RemoteSessionActionType {
 
 Приводит к отображению центра уведомлений в удаленном сеансе. То же самое, что пользователь нажимает клавишу Win + A.
 
-**Windows server 2012 R2, Windows 8.1, Windows Server 2012 и Windows 8:** Это значение не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 и Windows 8:** это значение не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ typedef enum _RemoteSessionActionType {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

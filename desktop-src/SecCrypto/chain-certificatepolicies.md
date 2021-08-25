@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e37abce9ea1aec5eb8adaf1d8eceeb3fac284fa3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92e8081a772c70860b819679e1b67e307822e2e498b326e36dec857f0b14720d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876984"
 ---
 # <a name="ichain2certificatepolicies-method"></a>Метод IChain2:: ЦертификатеполиЦиес
 
@@ -40,7 +40,7 @@ Chain.CertificatePolicies()
 
 Этот метод не имеет параметров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

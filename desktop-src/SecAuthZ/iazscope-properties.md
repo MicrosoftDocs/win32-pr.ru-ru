@@ -4,12 +4,12 @@ ms.assetid: 90C4B9DA-7AB9-4C82-BC8E-A723B31F0DA8
 title: Свойства Иазскопе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d612077e86f400e899461b5ef1384e3d6eb6b764
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 694b98f132e68faf854ccb480838a7c4e77675451cadcd864df807608f7ad70a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908544"
 ---
 # <a name="iazscope-properties"></a>Свойства Иазскопе
 
@@ -29,7 +29,7 @@ ms.locfileid: "104266235"
 -   [**Полициреадерснаме, свойство**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_policyreadersname)
 -   [**Roles, свойство**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_roles)
 -   [**Tasks, свойство**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_tasks)
--   [**Доступное для записи свойство**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_writable)
+-   [**Свойство, доступное для записи**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_writable)
 
  
 

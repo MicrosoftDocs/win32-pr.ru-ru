@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d04db31578f36455fdf77bb4044ad45e5ca9f9a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b09a388926a0f5fc11e24fc17fe4693b710e04aa321202e9cf31890d60d6642
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862914"
 ---
 # <a name="wmdm_formatcode-enumeration"></a>\_Перечисление ФОРМАТКОДЕ вмдм
 
@@ -399,7 +399,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_WINDOWSIMAGEFORMAT"></span><span id="wmdm_formatcode_windowsimageformat"></span>**ВМДМ \_ форматкоде \_ виндовсимажеформат**
 </dt> <dd>
 
-Код формата для формата образа Windows.
+код формата для Windows формата изображения.
 
 </dd> <dt>
 
@@ -413,7 +413,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_WMA"></span><span id="wmdm_formatcode_wma"></span>**ВМДМ \_ форматкоде \_ WMA**
 </dt> <dd>
 
-Код формата для WMA-файла Windows Media Audio.
+код формата для файла Windows Media Audio (WMA).
 
 </dd> <dt>
 
@@ -469,7 +469,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_WMV"></span><span id="wmdm_formatcode_wmv"></span>**ВМДМ \_ форматкоде \_ WMV**
 </dt> <dd>
 
-Код формата для файла видео Windows Media (WMV).
+код формата для файла Windows Media Video (WMV).
 
 </dd> <dt>
 
@@ -581,7 +581,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_WPLPLAYLIST"></span><span id="wmdm_formatcode_wplplaylist"></span>**ВМДМ \_ форматкоде \_ вплплайлист**
 </dt> <dd>
 
-Формат кода для списка воспроизведения, отформатированного с помощью формата списка воспроизведения Windows Media.
+формат кода для списка воспроизведения, отформатированного с помощью Windows форматирования списка воспроизведения мультимедиа.
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_MICROSOFTWORDDOCUMENT"></span><span id="wmdm_formatcode_microsoftworddocument"></span>**ВМДМ \_ форматкоде \_ микрософтворддокумент**
 </dt> <dd>
 
-Код формата для документа Microsoft Word.
+код формата для Microsoft Word документа.
 
 </dd> <dt>
 
@@ -651,14 +651,14 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_MICROSOFTEXCELSPREADSHEET"></span><span id="wmdm_formatcode_microsoftexcelspreadsheet"></span>**ВМДМ \_ форматкоде \_ микрософтексцелспреадшит**
 </dt> <dd>
 
-Форматирование кода для электронной таблицы Microsoft Excel.
+код формата для Microsoft Excel электронной таблицы.
 
 </dd> <dt>
 
 <span id="WMDM_FORMATCODE_MICROSOFTPOWERPOINTDOCUMENT"></span><span id="wmdm_formatcode_microsoftpowerpointdocument"></span>**ВМДМ \_ форматкоде \_ микрософтповерпоинтдокумент**
 </dt> <dd>
 
-Код формата для документа Microsoft PowerPoint.
+код формата для документа Microsoft PowerPoint.
 
 </dd> <dt>
 
@@ -735,7 +735,7 @@ typedef enum tagWMDM_FORMATCODE {
 <span id="WMDM_FORMATCODE_UNDEFINEDWINDOWSEXECUTABLE"></span><span id="wmdm_formatcode_undefinedwindowsexecutable"></span>**ВМДМ \_ форматкоде \_ ундефинедвиндовсексекутабле**
 </dt> <dd>
 
-Код формата для исполняемого файла Windows неопределенного типа.
+код формата для исполняемого файла, основанного на Windows, для неопределенного типа.
 
 </dd> <dt>
 
@@ -760,7 +760,7 @@ typedef enum tagWMDM_FORMATCODE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для обнаружения форматов, поддерживаемых устройством, приложение может использовать [**IWMDMDevice3::-Property**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty) для запроса свойства **g \_ всзвмдмформатссуппортед** Device.
 
@@ -772,17 +772,17 @@ typedef enum tagWMDM_FORMATCODE {
 
 Если устройство поддерживает задание кода формата после создания хранилища, приложение может использовать [**IWMDMStorage3:: сетметадата**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata) для задания свойства **g \_ всзвмдмформаткоде** . Некоторые устройства могут не допускать изменения кода формата после создания хранилища на устройстве. Поэтому настоятельно рекомендуется устанавливать это свойство вместе с метаданными, передаваемыми в [**IWMDMStorageControl3:: Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

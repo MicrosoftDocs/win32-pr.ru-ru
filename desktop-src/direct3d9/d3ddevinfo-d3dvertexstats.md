@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f3baa6738e5d90d2353beb6c7d7bf0ab85770af4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 80edbdcdeea5df6ff020c0c4cc2179db5152c15cc4965efe6580db7fd7bdcc48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105674686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894534"
 ---
 # <a name="d3ddevinfo_d3dvertexstats-structure"></a>\_Структура D3DVERTEXSTATS D3DDEVINFO
 
@@ -62,21 +62,21 @@ typedef struct D3DDEVINFO_D3DVERTEXSTATS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте среду выполнения отладки и обработку вершин программного обеспечения, чтобы получить число необрезанных и обрезанных примитивов для конкретной сцены. Примитивы обычно обрезаются на основе диапазона защиты (если таковой имеется). Полоса отсечения задается с такими параметрами, как Гуардбандлефт в [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 939c79895ae1c24665fc70d6b6cf2ced19854e2b
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 4d9cab13ec3ca86e17586e2fea27e7e60cf14a552abfdd405d3ea3da8c8195a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104156983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892474"
 ---
 # <a name="texturecube-object"></a>Объект TextureCube
 
@@ -45,7 +45,7 @@ ms.locfileid: "104156983"
 | [**GatherCmpRed**](texturecube-gathercmpred.md)             | Для четырех значений шаг текселя, которые будут использоваться в операции линейной фильтрации, функция возвращает сравнение их красного компонента со значением сравнения.<br/>   |
 | [**GatherGreen**](texturecube-gathergreen.md)               | Возвращает зеленые компоненты четырех значений шаг текселя, которые будут использоваться в операции линейной фильтрации.<br/>                                        |
 | [**GatherRed**](texturecube-gatherred.md)                   | Возвращает красные компоненты четырех значений шаг текселя, которые будут использоваться в операции линейной фильтрации.<br/>                                          |
-| [**Пример**](texturecube-sample.md)                         | Выбор текстуры.<br/>                                                                                                                                  |
+| [**Следующий**](texturecube-sample.md)                         | Выбор текстуры.<br/>                                                                                                                                  |
 | [**самплебиас**](texturecube-samplebias.md)                 | Выбор текстуры после применения значения смещения к уровню mipmap.<br/>                                                                               |
 | [**самплекмп**](texturecube-samplecmp.md)                   | Выбор текстуры с использованием значения сравнения для отклонения выборок.<br/>                                                                                      |
 | [**SampleCmpLevelZero**](texturecube-samplecmplevelzero.md) | Производит выборку текстуры (только mipmap уровень 0), используя значение сравнения для отклонения выборок.<br/>                                                                |
@@ -56,7 +56,7 @@ ms.locfileid: "104156983"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ### <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -66,7 +66,7 @@ ms.locfileid: "104156983"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -84,7 +84,7 @@ ms.locfileid: "104156983"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

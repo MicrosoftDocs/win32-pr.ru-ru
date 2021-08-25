@@ -8,12 +8,12 @@ keywords:
 - сведения о файле установки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8785275f5aac69218989250d1c0f83e0a1ff9f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0447bc1dfc3b2d5d5006bb5ff9ca3e9fa8f3d488e9b5621acb932c843fc3630f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103790242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846994"
 ---
 # <a name="using-version-information"></a>Использование сведений о версии
 
@@ -53,6 +53,6 @@ ms.locfileid: "103790242"
 
 Если [**веринсталлфиле**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) возвращает ошибку файла, например **ВИФ \_ AccessViolationException**, программа установки должна использовать функцию [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) для получения последнего значения ошибки. Программа должна преобразовать это значение в информативное сообщение, отображаемое пользователю. Программа не должна возвращать управление между вызовами **веринсталлфиле** и **GetLastError**.
 
- 
+ 
 
- 
+ 

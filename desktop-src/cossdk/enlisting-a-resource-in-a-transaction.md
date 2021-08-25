@@ -4,12 +4,12 @@ ms.assetid: b41fe0aa-a4cf-4d4a-9543-8eb0b38f07a2
 title: Прикрепление ресурса в транзакции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db0a0bf93f373872c8be79054899dea4199dda7e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 327ef1ab34d32853be0ca7d4641958b4f57ab55577865aad8612821e98882c71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858964"
 ---
 # <a name="enlisting-a-resource-in-a-transaction"></a>Прикрепление ресурса в транзакции
 
@@ -24,7 +24,7 @@ ms.locfileid: "104423497"
 
 По завершении транзакции COM+ Уведомляет диспетчер распределителя о том, была ли она зафиксирована или прервана. Затем Диспетчер распределителя сообщает каждому контейнеру распределителя ресурсов, что все ресурсы, прикрепленные к этой транзакции, теперь можно переместить в общий учет.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 235f236d-59c9-4a8c-aec6-60d1ddba4d5d
 title: Хранилища политик, приложения и области
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4155d7bf60d34474d52c27efd50d2f53741fa73a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5db06b291ef81f391fed1a0094b73c9b31d0342f59bce22d93779c7bfa48a80b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907574"
 ---
 # <a name="policy-stores-applications-and-scopes"></a>Хранилища политик, приложения и области
 
@@ -19,7 +19,7 @@ ms.locfileid: "103897794"
 -   [Приложения](#policy-stores-applications-and-scopes)
 -   [Области действия](#policy-stores-applications-and-scopes)
 -   [Делегирование](#delegation)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="authorization-policy-stores"></a>Хранилища политик авторизации
 
@@ -49,7 +49,7 @@ ms.locfileid: "103897794"
 
 Администраторы хранилища, приложения или области могут читать и изменять хранилище политик на делегированном уровне. Читатели могут читать хранилище политик на делегированном уровне, но не изменять хранилище.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

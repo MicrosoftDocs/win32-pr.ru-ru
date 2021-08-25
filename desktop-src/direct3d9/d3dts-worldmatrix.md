@@ -1,5 +1,5 @@
 ---
-description: Сопоставляет индексы в диапазоне от 0 до 255 с соответствующими состояниями преобразования.
+description: Карты индексы в диапазоне от 0 до 255 для соответствующих состояний преобразования.
 ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
 title: Макрос D3DTS_WORLDMATRIX (D3d9types. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: f80996a37e2fb48bf8ca7ea73f714b04e711b263
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 03a93753790378a7066f4a3ffa6bc6b7fb8139b77f9096886161013653312bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104547858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850064"
 ---
 # <a name="d3dts_worldmatrix-macro"></a>\_Макрос D3DTS ворлдматрикс
 
-Сопоставляет индексы в диапазоне от 0 до 255 с соответствующими состояниями преобразования.
+Карты индексы в диапазоне от 0 до 255 для соответствующих состояний преобразования.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -50,7 +50,7 @@ D3DTRANSFORMSTATETYPE D3DTS_WORLDMATRIX(
 
 Объект [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) , сопоставляемый с данным *индексом*.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Состояния преобразования в диапазоне от 256 до 511 зарезервированы для хранения до 256 матриц, которые можно индексировать с помощью 8-разрядных индексов.
 
@@ -60,7 +60,7 @@ D3DTRANSFORMSTATETYPE D3DTS_WORLDMATRIX(
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 

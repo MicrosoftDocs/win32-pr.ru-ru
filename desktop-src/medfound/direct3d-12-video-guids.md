@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Идентификаторы GUID видео Direct3D 12 (D3d11. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f7a56227ccc2953504d8466a34d6b2160ce1e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8c2411b2e9172323e544855cfd4ef0200c8043d365ac9b65afd9a2a1d8f83ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942694"
 ---
 # <a name="direct3d-12-video-guids"></a>Идентификаторы GUID видео Direct3D 12
 
@@ -42,19 +42,19 @@ ms.locfileid: "104262795"
 | D3D12_VIDEO_DECODE_PROFILE_AV1_12BIT_PROFILE2                 | 0x17127009, 0xa00f, 0x4ce1, 0x99, 0x4E, 0xBF, 0x40, 0x81, 0xf6, 0xf3, 0xF0 | |
 | D3D12_VIDEO_DECODE_PROFILE_AV1_12BIT_PROFILE2_420             | 0x2d80bed6, 0x9cac, 0x4835, 0x9e, 0x91, 0x32, 0x7B, 0xbc, 0x4F, 0x9e, 0xe8 | |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                               |
-| Header<br/>                   | <dl> <dt>D3d11. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>D3d11. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

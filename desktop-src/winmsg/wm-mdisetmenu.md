@@ -4,12 +4,12 @@ ms.assetid: 5cc85032-5378-44a0-abd4-d583deaa3294
 title: Сообщение WM_MDISETMENU (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74b90aed079482e2d2b666432f72c15d6ca27896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fe87682691c5f113034c20c68cefd81ca3a7018bd44eb868c4f18551cacacd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772074"
 ---
 # <a name="wm_mdisetmenu-message"></a>\_Сообщение МДИСЕТМЕНУ WM
 
@@ -48,7 +48,7 @@ ms.locfileid: "105719508"
 
 Если сообщение не выполняется, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После отправки этого сообщения приложение должно вызвать функцию [**дравменубар**](/windows/win32/api/winuser/nf-winuser-drawmenubar) для обновления строки меню.
 
@@ -64,7 +64,7 @@ ms.locfileid: "105719508"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

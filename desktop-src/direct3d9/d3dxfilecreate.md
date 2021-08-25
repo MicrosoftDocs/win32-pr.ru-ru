@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 36fd57d15257323e86c0068709c3c73662eb0658
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ccafd6e3cffb71cccbdf3025ead6ad2cc012f4d62ecf52405cf82dcda06a1531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104157187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849794"
 ---
 # <a name="d3dxfilecreate-function"></a>Функция D3DXFileCreate
 
@@ -55,22 +55,22 @@ HRESULT STDAPICALLTYPE D3DXFileCreate(
 
 Если функция выполнена успешно, возвращается значение S \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: \_ указатель e, e \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После использования этой функции используйте [**регистертемплатес**](id3dxfile--registertemplates.md) или [**регистеренумтемплатес**](id3dxfile--registerenumtemplates.md) для регистрации шаблонов, [**креатинумобжект**](id3dxfile--createenumobject.md) для создания объекта перечислителя или [**креатесавеобжект**](id3dxfile--createsaveobject.md) для создания объекта Save.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

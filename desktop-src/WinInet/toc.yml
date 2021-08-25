@@ -1,4 +1,4 @@
-- name: Windows Internet
+- name: Windows Обозревателя
   href: portal.md
   items:
     - name: О команде WinINet

@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_SETZOOM (VFW. h)
 description: Сообщение МЦИВНДМ \_ сетзум изменяет размер изображения видео в соответствии с коэффициентом масштабирования. Этот Марко корректирует размер МЦивнд окна, сохраняя постоянную пропорцию. Это сообщение можно отправить явно или с помощью макроса МЦивндсетзум.
 ms.assetid: c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8
 keywords:
-- MCIWNDM_SETZOOM сообщения Windows мультимедиа
+- сообщение MCIWNDM_SETZOOM Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ecb513735c4e62266892e8ad55c7bf5daca151
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbcdd40206332df442bbae32975b0d888bbe39bc377a189d40e215888e4a6d0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807584"
 ---
 # <a name="mciwndm_setzoom-message"></a>\_Сообщение мЦивндм сетзум
 
@@ -49,7 +49,7 @@ lParam = (LPARAM) (UINT) iZoom;
 
 Это сообщение не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ lParam = (LPARAM) (UINT) iZoom;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: da150da6b5115e20a78a4edca64a5c9a97f66132
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf35b4475047548e1744174717c238e99c6a744c17ef2fa76ce48217a4fc72aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875864"
 ---
 # <a name="cryptui_viewsignerinfo_struct-structure"></a>\_ \_ Структура структуры динамической компоновки Cryptui виевсигнеринфо
 
@@ -142,19 +142,19 @@ typedef struct tagCRYPTUI_VIEWSIGNERINFO_STRUCT {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                               |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                               |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                      |
 | Имя в кодировке Юникод и ANSI<br/>   | **Динамической компоновки Cryptui \_ ВИЕВСИГНЕРИНФО \_ структв** (Юникод) и **динамической компоновки Cryptui \_ виевсигнеринфо \_ struct** a (ANSI)<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

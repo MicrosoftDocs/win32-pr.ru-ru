@@ -11,12 +11,12 @@ api_name:
 - MBNProfile
 api_type:
 - Schema
-ms.openlocfilehash: 7016d492a70192a7d6accdcb3aaa57a9c564960e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 049ec22c170afda3a46620e2e94e2a16ae2708b4d6a69fcd0262baa69352a0a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943364"
 ---
 # <a name="mbnprofile-element"></a>Мбнпрофиле, элемент
 
@@ -137,13 +137,13 @@ ms.locfileid: "105711162"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 

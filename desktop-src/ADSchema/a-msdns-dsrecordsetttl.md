@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2a317709df6a373f997bd3d93add1cf0642a53
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 84b2addb8507f77617d4db8f1ba7c6bdee6b3bc5df03b087cffe10169ba675ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104536305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924463"
 ---
 # <a name="ms-dns-ds-record-set-ttl-attribute"></a>атрибут MS-DNS-DS-Record-Set-TTL
 
@@ -53,7 +53,7 @@ ms.locfileid: "104536305"
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
 | System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
+| Является однозначным       | Верно                                     |
 | Индексируется             | Неверно                                    |
 | В глобальном каталоге      | Неверно                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |

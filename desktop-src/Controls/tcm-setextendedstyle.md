@@ -3,7 +3,7 @@ title: Сообщение TCM_SETEXTENDEDSTYLE (Коммктрл. h)
 description: Задает расширенные стили, которые будет использовать элемент управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл сетекстендедстиле.
 ms.assetid: 96ccebe1-2836-4198-8cd7-858401562c21
 keywords:
-- Элементы управления Windows для TCM_SETEXTENDEDSTYLE сообщений
+- элементы управления Windows сообщений TCM_SETEXTENDEDSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4c789b45eaae6cb3b1bc4fed6f216ec5010b463
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a4a28bcf4cffe9aa2559f96a990d23511ece9fbbfc65468f84a4a874dce678a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876454"
 ---
 # <a name="tcm_setextendedstyle-message"></a>\_Сообщение СЕТЕКСТЕНДЕДСТИЛЕ TCM
 
@@ -47,25 +47,25 @@ ms.locfileid: "104071646"
 
 Возвращает значение **типа DWORD** , содержащее предыдущий элемент управления Tab расширенные стили.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *wParam* позволяет изменять один или несколько расширенных стилей без предварительного получения существующих стилей. Например, если передать [**TCS \_ ex \_ флатсепараторс**](tab-control-extended-styles.md) для *wParam* и 0 для *lParam*, то стиль **TCS \_ ex \_ флатсепараторс** будет сброшен, но все остальные стили останутся прежними.
 
 В целях обратной совместимости макрос [**табктрл \_ сетекстендедстиле**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_setextendedstyle) не был обновлен для использования *двексмаск*.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

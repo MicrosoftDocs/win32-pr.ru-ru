@@ -4,12 +4,12 @@ ms.assetid: 9b1b25b5-b190-47c2-8d43-fa3964e87a6f
 title: ICE94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ce52e88a31e246eb4d69defba77b64c2955eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd203fe35b6bedc7d36f3e5a5c18fc6a235d3e65924b41909803e67ab79337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894894"
 ---
 # <a name="ice94"></a>ICE94
 
@@ -55,7 +55,7 @@ The non-advertised shortcut 'shortcut1' points to an assembly file in the global
 
 
 
-| Функция  |
+| Компонент  |
 |----------|
 | Feature1 |
 
@@ -77,7 +77,7 @@ The non-advertised shortcut 'shortcut1' points to an assembly file in the global
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,16 +12,16 @@ keywords:
 - Общая спецификация режима MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df7e02dea62696f1076bd4e5e3030081b0dbe3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3559a57b55dfd45eeaf59ffd2f12967509473028dc3e298c30b37d6602719742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805344"
 ---
 # <a name="standard-midi-patch-assignments"></a>Назначения исправлений MIDI Standard
 
-Стандартные исправления MIDI для создания файлов MIDI для использования с Windows основаны на спецификации MIDI производителей ассоциации (MMA) Общая спецификация режима MIDI. Ниже приведены стандартные назначения исправлений MIDI.
+стандартные исправления midi для создания файлов midi для использования с Windows основаны на спецификации midi производителей ассоциации (MMA) общая спецификация режима midi. Ниже приведены стандартные назначения исправлений MIDI.
 
 
 
@@ -74,11 +74,11 @@ ms.locfileid: "105672159"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

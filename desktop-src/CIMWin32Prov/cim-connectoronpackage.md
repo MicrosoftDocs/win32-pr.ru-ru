@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9dfac5cf2daa19f1d3c073ac65d30fa859d2523b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a135d70fcac745591b8d08ea4d116cde1e74f2276f0dd1ec839b05f569fec37d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924924"
 ---
 # <a name="cim_connectoronpackage-class"></a>\_Класс CIM коннекторонпаккаже
 
@@ -53,7 +53,7 @@ class CIM_ConnectorOnPackage : CIM_Container
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ коннекторонпаккаже** имеет следующие свойства.
 
@@ -106,7 +106,7 @@ class CIM_ConnectorOnPackage : CIM_Container
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ коннекторонпаккаже** является производным от [**\_ контейнера CIM**](cim-container.md).
 

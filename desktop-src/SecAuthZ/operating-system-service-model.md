@@ -4,12 +4,12 @@ ms.assetid: c0bcebe3-f7eb-471f-a21d-5840d2e26729
 title: Модель службы операционной системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ce545c60da8e480247c8fc8b02cfc01e4487340
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af797a7baad8390b1b4bc79fd7723a518c587ed58cc2dab27ab2898845335ca3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907804"
 ---
 # <a name="operating-system-service-model"></a>Модель службы операционной системы
 
@@ -25,7 +25,7 @@ ms.locfileid: "103998899"
 
 Чтобы реализовать модель службы операционной системы, Создайте клиентское приложение обычного пользователя и службу операционной системы. Установка службы в операционной системе во время установки продукта.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

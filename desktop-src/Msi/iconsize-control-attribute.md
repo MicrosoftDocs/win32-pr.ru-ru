@@ -4,12 +4,12 @@ ms.assetid: 2d4d3689-a45a-4088-b466-e2b3bf4c8fb5
 title: Атрибут элемента управления Иконсизе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cb615a53c589ebc2ad2cafb8a2ff7dec902865e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f7323d9c3d8dc9bef1bfd4cd275a20dfcadaa3be946bc78fd358a2d6484db53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894204"
 ---
 # <a name="iconsize-control-attribute"></a>Атрибут элемента управления Иконсизе
 
@@ -39,7 +39,7 @@ ms.locfileid: "104080673"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите биты Иконсизе в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

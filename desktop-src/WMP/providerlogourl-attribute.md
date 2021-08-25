@@ -3,7 +3,7 @@ title: Атрибут Провидерлогаурл
 description: Атрибут Провидерлогаурл является адресом логотипа поставщика значений атрибутов.
 ms.assetid: 4f50faf5-1a6f-4f14-b849-265dcf412d3e
 keywords:
-- Провидерлогаурл атрибут Windows Media Player
+- проигрыватель Windows Media атрибута провидерлогаурл
 topic_type:
 - apiref
 api_name:
@@ -12,39 +12,39 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7fb479cc12775b87167fdae35d20d59f8b60a07
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c86154aba55d83d7fd6aca5910ec41456127b6205515c8563c31f805378006c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861904"
 ---
 # <a name="providerlogourl-attribute"></a>Атрибут Провидерлогаурл
 
 Атрибут **провидерлогаурл** является адресом логотипа поставщика значений атрибутов.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [DVD-диски](dvd-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в базе данных библиотеки (или в кэше).
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Контролнамедефинитион, элемент
 description: Представляет имя элемента управления в пользовательском шаблоне макета Сизедефинитион.
 ms.assetid: 94b724bd-a4e3-40e0-9cf0-3cc6a71100d2
 keywords:
-- Лента Windows для элемента Контролнамедефинитион
+- элемент контролнамедефинитион Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6b2dc1db251d4d657c3793d2a66a9add1d324c37
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 98dec89afb4a74d71271e3568935f9707a31cbb1db18be22cedb6f667e1010cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840754"
 ---
 # <a name="controlnamedefinition-element"></a>Контролнамедефинитион, элемент
 
@@ -163,12 +163,12 @@ ms.locfileid: "111443445"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

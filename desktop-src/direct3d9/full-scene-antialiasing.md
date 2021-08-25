@@ -4,12 +4,12 @@ ms.assetid: b57974ab-5654-412d-ae59-58f67a88c121
 title: Сглаживание Full-Scene (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d73d559c4b4fec060efbff7468ee29e6c83b64c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d3fdeab18997db57ed1391af97f40f1500e7c326411019ddcb42453e4a68cc7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104536836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893994"
 ---
 # <a name="full-scene-antialiasing-direct3d-9"></a>Сглаживание Full-Scene (Direct3D 9)
 
@@ -63,7 +63,7 @@ pD3D->CreateDevice(D3DADAPTER_DEFAULT, D3DDEVTYPE_HAL, hWnd,
 
 Последний шаг — включить многовыборочное сглаживание, вызвав метод [**IDirect3DDevice9:: сетрендерстате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) и УСТАНОВИВ \_ для D3DRS мултисамплеантиалиас **значение true**. После установки этого значения в значение **true** для любой визуализации, к которой применена многовыборка, применяется. Может потребоваться включить и отключить множественную выборку в зависимости от того, что вы выводяте.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2b875f50c1778a03c304f90c019da172be6ef5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da563830b742b47a138c106b21efe197108bbdddf7ad7f86b90984a04431aa0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860519"
 ---
 # <a name="accessing-a-wmi-collection"></a>Доступ к коллекции WMI
 
@@ -34,7 +34,7 @@ ms.locfileid: "104272234"
 
 | Коллекция                                       | Элемент                                              | Параметр Item ()                                                         |
 |--------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
-| [**SWbemObjectSet**](swbemobjectset.md)         | [**SWbemObject**](swbemobject.md)                   | Путь к объекту                                                              |
+| [**SWbemObjectSet**](swbemobjectset.md)         | [**SWbemObject**](swbemobject.md)                   | Путь объекта                                                              |
 | [**SWbemPropertySet**](swbempropertyset.md)     | [**SWbemProperty**](swbemproperty.md)               | Имя свойства                                                            |
 | [**свбемкуалифиерсет**](swbemqualifierset.md)   | [**свбемкуалифиер**](swbemqualifier.md)             | Имя квалификатора                                                           |
 | [**свбеммесодсет**](swbemmethodset.md)         | [**свбеммесод**](swbemmethod.md)                   | Имя метода                                                              |

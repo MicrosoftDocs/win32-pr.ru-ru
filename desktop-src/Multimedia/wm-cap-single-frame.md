@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_SINGLE_FRAME (VFW. h)
 description: Сообщение с \_ \_ одним \_ кадром WM Cap добавляет один кадр в файл записи, Открытый с помощью \_ \_ \_ сообщения об открытом фрейме WM Cap \_ . Это сообщение можно отправить явно или с помощью макроса Капкаптуресинглефраме.
 ms.assetid: 95466961-0719-4ff7-afc8-f7bf0e0974ac
 keywords:
-- WM_CAP_SINGLE_FRAME сообщения Windows мультимедиа
+- сообщение WM_CAP_SINGLE_FRAME Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a919036ee38fdcf00f55c3d4044cd3f45bd13c82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2080c8471849d42c2260c1f4133c996ef31e65e8a20591df531fbd24c19bc85c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891794"
 ---
 # <a name="wm_cap_single_frame-message"></a>\_ \_ \_ Сообщение об одном кадре WM Cap
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -50,7 +50,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
