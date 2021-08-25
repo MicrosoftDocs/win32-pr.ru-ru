@@ -4,12 +4,12 @@ ms.assetid: ce14b6eb-d50e-460b-93b6-b4e21824e5cf
 title: System. Image. Хоризонталсизе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69581fd7a4885f725a017f8ae6713a8e4860f8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40bf2afeb9e6937d0de772d4270020fad07586ed3c176e27e48037741a0b612c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945394"
 ---
 # <a name="systemimagehorizontalsize"></a>System. Image. Хоризонталсизе
 
@@ -46,11 +46,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

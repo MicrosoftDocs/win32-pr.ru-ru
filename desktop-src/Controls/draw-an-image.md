@@ -4,27 +4,27 @@ description: В этом разделе показано, как использ�
 ms.assetid: BE2F20F3-B7D3-4FA2-B1E9-60A47A609C36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac13eef2eb5bc55866ac2fd930db5494f2683dd2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f7b42e97ad9b7cab8693431654dc31b473267414f31ae5811f4f66a6663ce8e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103988019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878334"
 ---
 # <a name="how-to-draw-an-image"></a>Рисование изображения
 
 В этом разделе показано, как использовать [**функцию \_ рисования ImageList**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_draw) для рисования изображения.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -71,7 +71,7 @@ BOOL DrawTheImage(HWND hwnd, HIMAGELIST himl, int cx, int cy)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

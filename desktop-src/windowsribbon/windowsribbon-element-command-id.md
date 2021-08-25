@@ -3,7 +3,7 @@ title: Command.Id, свойство
 description: Представляет уникальный идентификатор для команды.
 ms.assetid: 937ca9d6-6910-4133-9cfa-d7e3f895f876
 keywords:
-- Лента Windows для свойства Command.Id
+- лента Windows свойства Command.Id
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e259e5fd74e3037afde3d4c001000b5a17a9bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50c542cbf4103c6063a177990d454a45e5f937745720c7c0a7bc5c60c4c1047e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931622"
 ---
 # <a name="commandid-property"></a>Command.Id, свойство
 
@@ -43,11 +43,11 @@ ms.locfileid: "104492531"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -91,8 +91,8 @@ ms.locfileid: "104492531"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

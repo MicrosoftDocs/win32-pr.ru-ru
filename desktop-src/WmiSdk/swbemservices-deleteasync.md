@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: adc8811c11f67b9fc92628740bd15df2086948d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcbdf4d930b2a67c56572a9788592b943748f6e41c30483728f3cc24732ffa18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897491"
 ---
 # <a name="swbemservicesdeleteasync-method"></a>SWbemServices. DeleteAsync, метод
 
@@ -161,7 +161,7 @@ SWbemServices.DeleteAsync( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот вызов возвращает немедленно. Состояние операции удаления возвращается вызывающему объекту через обратный вызов, доставленный в приемник, указанный в *обжвбемсинк*. Вы можете выполнить окончательную обработку в реализации *обжвбемсинк*. Событие [**Oncompleteed**](swbemsink-oncompleted.md) .
 
@@ -175,7 +175,7 @@ SWbemServices.DeleteAsync( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMSERVICES CLSID<br/>                                                         |

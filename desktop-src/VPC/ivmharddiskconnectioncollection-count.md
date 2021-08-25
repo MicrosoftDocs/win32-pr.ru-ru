@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f34bbf4d07d7c5967ccfc38e16a743105de8e69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fccb00cf2388db8a971f5da2f726030b3f793ac878f4a59df2646195eb41ef15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974332"
 ---
 # <a name="ivmharddiskconnectioncollectioncount-property"></a>Свойство Ивмхарддискконнектионколлектион:: count
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Возвращает число подключений к жестким дискам в этой коллекции.
 
@@ -60,22 +60,22 @@ HRESULT get_Count(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                         |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                         |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                          |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                               |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                      |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl>      |
 | IID<br/>                      | IID \_ ивмхарддискконнектионколлектион определен как b9f2caf4-0aeb-4085-B105-ceddb90dbf62<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

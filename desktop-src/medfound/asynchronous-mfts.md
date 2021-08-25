@@ -4,19 +4,19 @@ ms.assetid: d438ffae-fc50-454f-8ce4-2d6676500fff
 title: Асинхронный МФТС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a16950cf431eff16f2befb382a77910c49ccb2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0cab2ef683ef22fd22a911c045a1a744f1c0d561b3e8e66d46ca2cf6c6f0ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959524"
 ---
 # <a name="asynchronous-mfts"></a>Асинхронный МФТС
 
 В этом разделе описывается асинхронная обработка данных для Media Foundation преобразований (МФТС).
 
 > [!Note]  
-> Этот раздел относится к Windows 7 или более поздним версиям.
+> этот раздел относится к Windows 7 и более поздних версий.
 
  
 
@@ -33,17 +33,17 @@ ms.locfileid: "105701334"
 -   [Разблокировка асинхронного МФТС](#unlocking-asynchronous-mfts)
 -   [Завершение работы MFT](#shutting-down-the-mft)
 -   [Регистрация и перечисление](#registration-and-enumeration)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="about-asynchronous-mfts"></a>Об асинхронном МФТС
 
-Когда в Windows Vista появились МФТС, API был разработан для *синхронной* обработки данных. В этой модели MFT всегда ожидает получения входных данных или ожидания получения выходных данных.
+когда мфтс был введен в Windows Vista, API был разработан для *синхронной* обработки данных. В этой модели MFT всегда ожидает получения входных данных или ожидания получения выходных данных.
 
 Рассмотрим типичный видеодекодер. Чтобы получить декодированный кадр, клиент вызывает [**имфтрансформ::P роцессаутпут**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput). Если у декодера достаточно данных для декодирования кадра, **ProcessOutput** блокируется, пока MFT декодирует кадр. В противном случае **ProcessOutput** возвращает **MF_E_TRANSFORM_NEED_MORE_INPUT**, что означает, что клиент должен вызвать [**имфтрансформ::P роцессинпут**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput).
 
 Эта модель хорошо работает, если декодер выполняет все операции декодирования в одном потоке. Но предположим, что декодер использует несколько потоков для параллельного декодирования кадров. Для лучшей производительности декодер должен получить новые входные данные всякий раз, когда поток декодирования переходит в состояние бездействия. Но скорость, с которой потоки завершают операции декодирования, не будет точно согласована с вызовами клиента [**ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) и [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput), что приведет к потокам, ожидающим работы.
 
-В Windows 7 реализована *асинхронная* обработка на основе событий для МФТС. В этой модели каждый раз, когда таблица MFT требует ввода или вывода данных, она отправляет клиенту событие.
+в Windows 7 реализована *асинхронная* обработка на основе событий для мфтс. В этой модели каждый раз, когда таблица MFT требует ввода или вывода данных, она отправляет клиенту событие.
 
 ## <a name="general-requirements"></a>Общие требования
 
@@ -226,7 +226,7 @@ HRESULT UnlockAsyncMFT(IMFTransform *pMFT)
 
 Чтобы перечислить асинхронные МФТС, вызовите функцию [**мфтенумекс**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) и установите флаг **MFT_ENUM_FLAG_ASYNCMFT** в параметре *flags* . Для обратной совместимости функция [**мфтенум**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) не перечисляет асинхронные МФТС. В противном случае установка асинхронной таблицы MFT на компьютере пользователя может нарушить работу существующих приложений.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

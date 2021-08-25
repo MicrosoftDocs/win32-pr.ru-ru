@@ -1,17 +1,17 @@
 ---
 description: При создании собственных параллельных сборок следуйте указаниям по созданию параллельных сборок и автору любой библиотеки DLL, включаемой в сборку в соответствии с рекомендациями по созданию библиотеки DLL для параллельной сборки.
 ms.assetid: 0e98bbcd-7e23-4a33-b0fa-1f936d0ef96b
-title: Создание хранилища состояний для параллельных сборок
+title: создание служба хранилища состояний для параллельных сборок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eee388cf680ee3a186a225ca7e3bde8b6eae625d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91dd3b3dc62726c45a03fd388864faa7f359112687f0c03fb133276eef2280ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103814769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885524"
 ---
-# <a name="authoring-state-storage-for-side-by-side-assemblies"></a>Создание хранилища состояний для параллельных сборок
+# <a name="authoring-state-storage-for-side-by-side-assemblies"></a>создание служба хранилища состояний для параллельных сборок
 
 При создании собственных параллельных сборок следуйте [указаниям по созданию параллельных сборок](guidelines-for-creating-side-by-side-assemblies.md) и автору любой библиотеки DLL, включаемой в сборку в соответствии с рекомендациями по [созданию библиотеки DLL для параллельной сборки](authoring-a-dll-for-a-side-by-side-assembly.md).
 

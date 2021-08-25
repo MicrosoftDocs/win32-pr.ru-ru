@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d73a382a2b8e176e2d1ce6fa13585a6b5fa103e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5530988aff70589493645afb2bf0b78da63470a1f48d1619913fbfdf8d8c8af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977604"
 ---
 # <a name="apijetsetsessioncontext-method"></a>API. Жетсетсессионконтекст, метод
 
@@ -73,7 +73,7 @@ public static void JetSetSessionContext(
     
     Заданный контекст.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

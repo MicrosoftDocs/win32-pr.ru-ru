@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: eda1781ebba1a49062792136d9049efef4863b13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ea45df981449e20d092e613e47144d56d547274669e8fc1d167f45294c71af60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949154"
 ---
 # <a name="texturecubegatherred-methods"></a>Методы Текстурекубе:: Гасерред
 
@@ -33,7 +33,7 @@ ms.locfileid: "104986340"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

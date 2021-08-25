@@ -8,12 +8,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 9a3777cac7cc0a258002d1475fb7b1c6dd2546ca
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: d5b260741cae6aebb447a11692f03dad6e35498a19f33221aa77ac8a8507144a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104134771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917164"
 ---
 # <a name="supported-pixel-formats-and-alpha-modes"></a>Поддерживаемые форматы пикселей и режимы альфа-канала
 
@@ -35,7 +35,7 @@ ms.locfileid: "104134771"
     -   [Различия между прямым и предварительно умноженным альфа-каналом](#the-differences-between-straight-and-premultiplied-alpha)
     -   [Режим альфа для целевых объектов прорисовки](#alpha-mode-for-render-targets)
     -   [Режимы ClearType и Alpha](#cleartype-and-alpha-modes)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="supported-yuv-formats-for-dxgi-image-source"></a>Поддерживаемые форматы YUV для источника образа DXGI
 
@@ -60,7 +60,7 @@ ms.locfileid: "104134771"
 
 
 
- 
+ 
 
 ## <a name="specifying-a-pixel-format-for-a-render-target"></a>Указание формата пикселей для целевого объекта прорисовки
 
@@ -113,7 +113,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 > [!Note]  
 > Для лучшей производительности мы рекомендуем [**использовать \_ Формат DXGI \_ B8G8R8A8 \_ UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) в качестве формата пикселей. Это особенно удобно для целевых объектов прорисовки программного обеспечения. Целевые объекты формата BGRA работают лучше, чем форматы RGBA.
 
- 
+ 
 
 При создании [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget)используется структура [**\_ \_ \_ свойств целевого объекта прорисовки D2D1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) для указания параметров подготовки к просмотру. Параметры включают формат пикселей, как указано в предыдущем разделе. Поле Type (тип) этой структуры позволяет указать, будет ли целевой объект прорисовки отображаться на оборудовании или программном обеспечении, или же Direct2D должен автоматически определять режим рендеринга.
 
@@ -134,7 +134,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Чтобы принудительно использовать аппаратную отрисовку для целевого объекта отрисовки, используйте параметр [**D2D1 \_ рендеринга \_ целевого \_ \_ устройства**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) . В следующей таблице перечислены поддерживаемые форматы для объектов [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) , которые явно используют аппаратную отрисовку.
 
@@ -154,7 +154,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Чтобы принудительно использовать программную отрисовку для целевого объекта прорисовки, используйте параметр [**\_ \_ \_ \_ программное обеспечение D2D1 render target Type**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) . В следующей таблице перечислены поддерживаемые форматы для объектов [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) , которые явно используют программную отрисовку.
 
@@ -171,13 +171,13 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Независимо от того, является ли [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) аппаратным ускорением, [Формат \_ \_ неизвестного режима DXGI](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) использует [ \_ Формат DXGI \_ B8G8R8A8](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) по умолчанию, а в режиме альфа-канала [**D2D1 \_ \_ \_ Unknown**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) альфа Mode по умолчанию используется режим **D2D1 \_ Alpha \_ \_** .
 
 ## <a name="supported-formats-for-id2d1devicecontext"></a>Поддерживаемые форматы для ID2D1DeviceContext
 
-Начиная с Windows 8, [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) использует преимущества большего числа [**форматов Direct3D высокого цвета**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) , таких как:
+начиная с Windows 8 [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) использует преимущества большего числа [**форматов Direct3D высокого цвета**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) , таких как:
 
 -   \_Формат DXGI \_ B8G8R8A8 \_ UNORM \_ sRGB
 -   \_Формат DXGI \_ R8G8B8A8 \_ UNORM \_ sRGB
@@ -187,7 +187,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 Используйте метод [**ID2D1DeviceContext:: исдксгиформатсуппортед**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported) , чтобы узнать, работает ли формат в конкретном контексте устройства. Эти форматы также могут работать с [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget).
 
-Эти форматы являются дополнением к форматам, поддерживаемым интерфейсом [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) в Windows 7. Дополнительные сведения см. в разделе [устройства и контексты устройств](devices-and-device-contexts.md) .
+эти форматы в дополнение к форматам, поддерживаемым интерфейсом [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) в Windows 7. Дополнительные сведения см. в разделе [устройства и контексты устройств](devices-and-device-contexts.md) .
 
 ## <a name="supported-formats-for-compatible-render-target"></a>Поддерживаемые форматы для совместимого целевого объекта рендеринга
 
@@ -203,7 +203,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Формат [ \_ \_ неизвестного формата DXGI](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) использует родительский формат целевого объекта прорисовки по умолчанию, а режим альфа-канала [**D2D1 \_ Alpha \_ \_**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) по умолчанию использует **\_ \_ режим \_ альфа** -канала D2D1.
 
@@ -226,12 +226,12 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 > [!Note]  
 > Формат должен соответствовать формату поверхности DXGI, в которую рисуется целевой объект отрисовки поверхности DXGI.
 
- 
+ 
 
 Формат [ \_ \_ неизвестного формата DXGI](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) по умолчанию использует формат поверхности DXGI. Не используйте [**\_ режим альфа D2D1 Alpha \_ с \_ неизвестным**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) режимом альфа с целью отрисовки поверхности DXGI. Он не имеет значения по умолчанию и приведет к сбою создания целевого объекта отрисовки поверхности DXGI.
 
@@ -255,7 +255,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Формат пикселей цели битовой карты WIC должен соответствовать формату пикселей точечного рисунка WIC.
 
@@ -274,7 +274,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Не используйте формат [ \_ \_ неизвестного формата DXGI](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) или альфа-режим [**D2D1 Alpha в качестве \_ \_ \_ неизвестного**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) режима альфа-канала с [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget). Он не имеет значения по умолчанию и приведет к сбою создания **ID2D1DCRenderTarget** .
 
@@ -295,20 +295,20 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 | \_неизвестный формат DXGI \_                                       | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
 | \_неизвестный формат DXGI \_                                       | \_Пропуск режима альфа-канала D2D1 \_ \_        |
 | \_неизвестный формат DXGI \_                                       | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
-| \_Формат DXGI \_ B8G8R8X8 \_ UNORM (Windows 8.1 и более поздние версии, только) | \_Пропуск режима альфа-канала D2D1 \_ \_        |
-| \_Формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
-| \_Формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
-| \_Формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
-| \_Формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
-| \_Формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
-| \_Формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
-| \_Формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
-| \_Формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
-| \_Формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
+| \_формат DXGI \_ B8G8R8X8 \_ UNORM (Windows 8.1 и более поздние версии, только) | \_Пропуск режима альфа-канала D2D1 \_ \_        |
+| \_формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
+| \_формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
+| \_формат DXGI \_ BC1 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
+| \_формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
+| \_формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
+| \_формат DXGI \_ BC2 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
+| \_формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | Предварительное \_ \_ умножение режима альфа-канала D2D1 \_ |
+| \_формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Пропуск режима альфа-канала D2D1 \_ \_        |
+| \_формат DXGI \_ BC3 \_ UNORM (Windows 8.1 и более поздние версии, только)      | \_Неизвестный режим альфа-канала D2D1 \_ \_       |
 
 
 
- 
+ 
 
 При использовании метода [**ID2D1RenderTarget:: креатешаредбитмап**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) используется поле **PixelFormat** структуры [**\_ \_ свойств D2D1 Bitmap**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) для указания формата пикселей нового целевого объекта отрисовки. Он должен соответствовать формату пикселей источника [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) .
 
@@ -317,7 +317,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 > [!Note]  
 > Дополнительные сведения о поддержке блочных сжатых (BCn) форматов пикселей см. в разделе [блочное сжатие](block-compression.md).
 
- 
+ 
 
 ### <a name="supported-wic-formats"></a>Поддерживаемые форматы WIC
 
@@ -334,7 +334,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 
 
 
- 
+ 
 
 Пример преобразования битовой карты WIC в поддерживаемый формат см. в разделе [Загрузка растрового изображения из файла](how-to-load-a-direct2d-bitmap-from-a-file.md).
 
@@ -377,7 +377,7 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 -   Используйте метод [**пушаксисалигнедклип**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)) для обрезки целевого объекта отрисовки в область, в которой будет визуализирован текст, затем вызовите метод [**clear**](id2d1rendertarget-clear.md) и укажите непрозрачный цвет, а затем отрисовываете текст.
 -   Используйте [**DrawRectangle**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawrectangle(constd2d1_rect_f_id2d1brush_float_id2d1strokestyle)) , чтобы нарисовать непрозрачный прямоугольник за областью, в которой будет визуализирован текст.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -390,6 +390,6 @@ hr = m_pD2DFactory->CreateHwndRenderTarget(
 [\_Формат DXGI](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 8d3db3f35b5589a6cd17791d72aa9931124ccfbb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3413deb3c606177c937aef72a8437769dc2a97acdcbee97200880c96f36f9fc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910052"
 ---
 # <a name="cdeferredcommand-class"></a>Класс Кдеферредкомманд
 
@@ -52,7 +52,7 @@ ms.locfileid: "104140519"
 | [**GetParams**](cdeferredcommand-getparams.md)               | Получает список аргументов **DISPPARAMS** для метода.                                                               |
 | [**GetResult**](cdeferredcommand-getresult.md)               | Возвращает результирующий список аргументов, если он существует.                                                                   |
 | [**GetTime**](cdeferredcommand-gettime.md)                   | Возвращает время, когда будет выполнен метод.                                                                         |
-| [**Вызвать**](cdeferredcommand-invoke.md)                     | Предоставляет доступ к методам и свойствам, предоставляемым объектом.                                                         |
+| [**Invoke**](cdeferredcommand-invoke.md)                     | Предоставляет доступ к методам и свойствам, предоставляемым объектом.                                                         |
 | [**исстреамтиме**](cdeferredcommand-isstreamtime.md)         | Указывает, должна ли команда выполняться во время потока или во время презентации.                                         |
 | Методы Идеферредкомманд                                      | Описание                                                                                                             |
 | [**Отменить**](cdeferredcommand-cancel.md)                     | Отменяет ранее поставленный в очередь запрос [**кдеферредкомманд:: Invoke**](cdeferredcommand-invoke.md) .                        |

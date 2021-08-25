@@ -4,12 +4,12 @@ ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
 title: Свойство MFPKEY_COLORCONV_DSTLEFT (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efc358d2065878a206d1b4a248406006bf70c9ed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dc4355099ea9c139b769c03d3152756fd9f47fb1dc0257319084003baaeda6c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954384"
 ---
 # <a name="mfpkey_colorconv_dstleft-property"></a>МФПКЭЙ \_ колорконв \_ Дстлефт, свойство
 
@@ -23,19 +23,19 @@ ms.locfileid: "108093052"
 
 VT \_ I4
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP цветового преобразователя](colorconverter.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

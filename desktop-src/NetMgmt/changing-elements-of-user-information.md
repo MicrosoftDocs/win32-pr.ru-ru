@@ -4,12 +4,12 @@ description: Функции управления сетью предоставл
 ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1aa6ec8d7fed30d38d25adc67974d8bad8ab1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd3161bb4d689b70f85f6c20c7c302779d0f685e8bcace43cffdee68b2cda2d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912504"
 ---
 # <a name="changing-elements-of-user-information"></a>Изменение элементов сведений о пользователе
 
@@ -157,7 +157,7 @@ else
 
 В следующем фрагменте кода показано, как задать пользовательские флаги с помощью вызова функции [**нетусерсетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . В [**разделе \_ сведения о пользователе \_ 1008**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1008) содержится список допустимых значений флагов и описание каждого флага.
 
-Обратите внимание, что \_ флаг сценария УФ должен быть установлен для сетей Windows NT, windows 2000, Windows XP и LAN Manager. Попытка задать другие флаги без задания УФ \_ скрипта в этих сетях приведет к сбою функции [**нетусерсетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) .
+обратите внимание, что \_ флаг сценария уф должен быть установлен для сетей Windows NT, Windows 2000, Windows XP и LAN Manager. Попытка задать другие флаги без задания УФ \_ скрипта в этих сетях приведет к сбою функции [**нетусерсетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) .
 
 
 ```C++
@@ -180,7 +180,7 @@ else
 
 ## <a name="setting-the-user-script-path-level-1009"></a>Задание пути к сценарию пользователя, уровень 1009
 
-В следующем фрагменте кода показано, как задать путь для файла сценария входа определенного пользователя с помощью вызова функции [**нетусерсетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . Файл скрипта может иметь значение. CMD File,. EXE-файл или. Файл BAT. Строка может также иметь значение null. В [**разделе \_ сведения о пользователе \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009) содержатся дополнительные сведения.
+В следующем фрагменте кода показано, как задать путь для файла сценария входа определенного пользователя с помощью вызова функции [**нетусерсетинфо**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . Файл скрипта может иметь значение. CMD-файл, файл .EXE или файл .BAT. Строка может также иметь значение null. В [**разделе \_ сведения о пользователе \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009) содержатся дополнительные сведения.
 
 
 ```C++
@@ -247,6 +247,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

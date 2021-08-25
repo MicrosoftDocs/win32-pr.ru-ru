@@ -7,12 +7,12 @@ MSHAttr:
 title: MmscPort
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08812a87b404cdec3caab43d56d4b9afdca9212b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 593b1eeb0fcbb019a2541eeaecbbb83a5d1bc4ae04a16bfbefe22d1955dbb427
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960044"
 ---
 # <a name="span-idwwan_profile_v4element_mmscportspanmmscport"></a><span id="WWAN_profile_v4.element_MmscPort"></span>ммскпорт
 
@@ -38,11 +38,11 @@ ms.locfileid: "104343775"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 

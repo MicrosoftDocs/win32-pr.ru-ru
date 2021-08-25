@@ -4,12 +4,12 @@ description: Выбор потоковой модели
 ms.assetid: e8a0286d-1831-454f-8549-1957fd794809
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2f0fdcd327bf05c0019a03ad171d41c1f1d95a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f1966a4b000683bb7549ce9c825051324088fd85c41146137443045785b5e0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896514"
 ---
 # <a name="choosing-the-threading-model"></a>Выбор потоковой модели
 
@@ -17,7 +17,7 @@ ms.locfileid: "104411349"
 
 Проще поддерживать потоковое подразделение в однопотоковых апартаментах, так как COM обеспечивает синхронизацию на основе каждого вызова. Поддержка свободной потоковой реализации сложнее, поскольку объект должен реализовывать синхронизацию. Однако отклики на клиенты могут быть лучше, так как синхронизация может быть реализована для небольших разделов кода.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -39,9 +39,9 @@ ms.locfileid: "104411349"
 [Подразделения с одним потоком](single-threaded-apartments.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

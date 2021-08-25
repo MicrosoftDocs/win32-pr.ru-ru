@@ -4,12 +4,12 @@ ms.assetid: 8f76c27d-92f1-4de7-a69c-fba877e0325d
 title: Таблица Мсипатчцертификате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01648e792931fd856a1231a5d876c7db843479df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f39d2bc3a05c8b3fe3f23cd7dce01da36e14ce1f3984f24e827606bbc44c1a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913314"
 ---
 # <a name="msipatchcertificate-table"></a>Таблица Мсипатчцертификате
 
@@ -21,7 +21,7 @@ ms.locfileid: "104080916"
 
 | Столбец               | Type                         | Ключ | Допускает значения NULL |
 |----------------------|------------------------------|-----|----------|
-| патчцертификате     | [Идентификатор](identifier.md) | Да   | Нет        |
+| патчцертификате     | [Идентификатор](identifier.md) | Д   | Нет        |
 | дигиталцертификате\_ | [Идентификатор](identifier.md) | Нет   | Нет        |
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "104080916"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Исправления всегда оцениваются по таблице Мсипатчцертификате, которая является текущей на момент применения исправления. Исправление может изменить таблицу Мсипатчцертификате, добавляя или удаляя записи. Это позволяет исправить оценку будущих исправлений, которые будут применены позже в последовательности исправлений. В таблице может быть несколько сертификатов, и исправление должно соответствовать по крайней мере одному сертификату, который должен быть применен.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104080916"
 [ICE81](ice81.md)  
 </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -73,10 +73,10 @@ ms.locfileid: "104080916"
 [**мсидисаблелуапатчинг**](msidisableluapatching.md)
 </dt> <dt>
 
-[Цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md)
+[цифровые подписи и установщик Windows](digital-signatures-and-windows-installer.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

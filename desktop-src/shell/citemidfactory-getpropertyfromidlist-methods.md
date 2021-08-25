@@ -4,12 +4,12 @@ ms.assetid: D0BE2A9A-5832-4C0E-BFB6-96EB467C3D9D
 title: Методы CItemIDFactory::GetPropertyFromIDList (Shidfact.h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 22aaec6d0616337a887f2876b51aaa744b205ba7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 736bd8f9634f7429fdbb74a827a2ca257dc4dc5ce75bb58298f808190ba5e6c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884764"
 ---
 # <a name="citemidfactorygetpropertyfromidlist-methods"></a>Методы Цитемидфактори:: Жетпропертифромидлист
 
@@ -28,19 +28,19 @@ ms.locfileid: "103808860"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Шидфакт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Шидфакт. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

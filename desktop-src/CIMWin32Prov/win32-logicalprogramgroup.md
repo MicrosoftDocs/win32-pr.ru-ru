@@ -1,5 +1,5 @@
 ---
-description: '&Win32 \_ логикалпрограмграуп \# 8194; Класс WMI представляет группу программ в компьютерной системе под Windows. Например, аксессуары или Startup.'
+description: '&Win32 \_ логикалпрограмграуп \# 8194; Класс WMI представляет группу программ в компьютерной системе, работающей Windows. Например, аксессуары или Startup.'
 ms.assetid: e05b512d-92ab-4864-b8df-f4a8b66761c9
 ms.tgt_platform: multiple
 title: Класс Win32_LogicalProgramGroup
@@ -21,16 +21,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db7c7484489ecbc87e908dc6eb1c3de156cda665
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b012966b61f018656b61134b4f889b2ba38ac70ca7e56751c332b1eb16a1564
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973334"
 ---
 # <a name="win32_logicalprogramgroup-class"></a>\_Класс Win32 логикалпрограмграуп
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ логикалпрограмграуп для Win32** представляет группу программ в компьютерной системе под Windows. Например, аксессуары или Startup.
+Класс **WMI \_ логикалпрограмграуп** [инструментария](/windows/desktop/WmiSdk/retrieving-a-class) Win32 представляет группу программ в компьютерной системе, работающей Windows. Например, аксессуары или Startup.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -56,13 +56,13 @@ class Win32_LogicalProgramGroup : Win32_ProgramGroupOrItem
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ логикалпрограмграуп** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -110,7 +110,7 @@ class Win32_LogicalProgramGroup : Win32_ProgramGroupOrItem
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| методы класса Win32API квбемпровидерглуе \| [**жеталлинстанцес**](/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstances)")
 </dt> </dl>
 
-Имя группы программ Windows. Группы программ реализуются в виде файловых папок в Win32.
+имя Windows группы программ. Группы программ реализуются в виде файловых папок в Win32.
 
 Пример: "стандартные служебные \\ программы"
 
@@ -134,7 +134,7 @@ class Win32_LogicalProgramGroup : Win32_ProgramGroupOrItem
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -272,17 +272,17 @@ class Win32_LogicalProgramGroup : Win32_ProgramGroupOrItem
 Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) (" \| методы класса Win32API квбемпровидерглуе \| [**жеталлинстанцес**](/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstances)")
 </dt> </dl>
 
-Пользователи, которые имеют доступ к группе программ Windows. Группы программ реализуются в виде файловых папок в Win32.
+пользователи, которые имеют доступ к группе программ Windows. Группы программ реализуются в виде файловых папок в Win32.
 
 Пример: "все пользователи"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ логикалпрограмграуп** является производным от [**Win32 \_ програмграупоритем**](win32-programgrouporitem.md).
 
-Вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ Name** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
+вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ NAME** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="requirements"></a>Требования
 

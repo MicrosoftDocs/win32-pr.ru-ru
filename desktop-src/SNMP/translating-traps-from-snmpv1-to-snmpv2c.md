@@ -4,12 +4,12 @@ description: Когда реализация Microsoft WinSNMP получает 
 ms.assetid: 472f67ba-05d5-46f7-a2f1-1cef6182574e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d36870bda9b434bcc19f42332f2751020689591
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f70ddbdfb779f6b06f8ed26490c6fabd2421ae96f0006b4af5b7f1ab18f7d5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885864"
 ---
 # <a name="translating-traps-from-snmpv1-to-snmpv2c"></a>Перевод ловушек с SNMPv2C
 
@@ -19,9 +19,9 @@ ms.locfileid: "103887983"
 
 Дополнительные сведения см. в разделе [Управление ловушками и уведомлениями](managing-traps-and-notifications.md).
 
- 
+ 
 
- 
+ 
 
 
 

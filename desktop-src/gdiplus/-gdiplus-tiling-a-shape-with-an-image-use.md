@@ -4,12 +4,12 @@ ms.assetid: c92aa519-647a-4cd9-b88e-b79be0116d05
 title: Мозаичное заполнение фигуры изображением
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65c0b6e2ce39f5bf5c43b0352b8997202aa7e856
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa0fc04439db21191ddc110859ae628e975d50bf617db3da63189859070766b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943774"
 ---
 # <a name="tiling-a-shape-with-an-image"></a>Мозаичное заполнение фигуры изображением
 
@@ -40,13 +40,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-horizontally-while-tiling"></a>Отражение изображения по горизонтали при мозаичном заполнении
+## <a name="flipping-an-image-horizontally-while-tiling&quot;></a>Отражение изображения по горизонтали при мозаичном заполнении
 
 В этом примере используется изображение 75 × 75 для заполнения прямоугольника 200 x 200. Режим переноса установлен для перелистывания изображения по горизонтали.
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipX);
@@ -62,13 +62,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-vertically-while-tiling"></a>Отражение изображения по вертикали при мозаичном заполнении
+## <a name="flipping-an-image-vertically-while-tiling&quot;></a>Отражение изображения по вертикали при мозаичном заполнении
 
 В этом примере используется изображение 75 × 75 для заполнения прямоугольника 200 x 200. Режим переноса установлен для вертикальной перелистывания изображения.
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipY);
@@ -84,13 +84,13 @@ stat = graphics.DrawRectangle(&blackPen, Rect(0, 0, 200, 200));
 
  
 
-## <a name="flipping-an-image-horizontally-and-vertically-while-tiling"></a>Зеркальное отображение изображения по горизонтали и вертикали при мозаичном заполнении
+## <a name="flipping-an-image-horizontally-and-vertically-while-tiling&quot;></a>Зеркальное отображение изображения по горизонтали и вертикали при мозаичном заполнении
 
 В этом примере используется изображение 75 × 75 для мозаичного заполнения прямоугольника 200 x 200. Режим переноса установлен для отражения изображения как по горизонтали, так и по вертикали.
 
 
 ```
-Image image(L"HouseAndTree.png");
+Image image(L&quot;HouseAndTree.png");
 TextureBrush tBrush(&image);
 Pen blackPen(Color(255, 0, 0, 0));
 stat = tBrush.SetWrapMode(WrapModeTileFlipXY);

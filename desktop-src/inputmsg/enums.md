@@ -4,12 +4,12 @@ description: В подразделах этого раздела приведе�
 ms.assetid: 22241CD0-DAE1-4AC2-AB36-23D114803133
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: a857d5f2c5df826e4ba22a7e29448edff581b404
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 5eb9c9ca21a90d28951d4b574b9b91b5bcf04cc70a79c460209db9eabc7af36f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106188025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964291"
 ---
 # <a name="pointer-input-messages-and-notifications-enumerations"></a>Входные сообщения указателя и перечисления уведомлений
 

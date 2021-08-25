@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d7c5b3de020ad50abfd8834aabbdc8e6e848d71d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aaf9f884a651182429de20fe261a250c8c6567eacd99d635213682e4d755b79a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951614"
 ---
 # <a name="id3dxfilecreatesaveobject-method"></a>Метод ID3DXFile:: Креатесавеобжект
 
@@ -85,7 +85,7 @@ HRESULT CreateSaveObject(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DXFERR \_ бадвалуе, D3DXFERR \_ парсиррор.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После использования этого метода используйте методы интерфейса [**ID3DXFileSaveObject**](id3dxfilesaveobject.md) для создания объектов данных и сохранения шаблонов или данных.
 
@@ -93,18 +93,18 @@ HRESULT CreateSaveObject(
 
 Значения формата файла можно комбинировать в логическом или для создания сжатого текста или сжатых двоичных файлов. Если указать, что формат файла должен быть текстовым и сжатым, файл будет записан первым в виде текста, а затем сжат. Однако сжатые текстовые файлы не так эффективны, как двоичные текстовые файлы; в большинстве случаев необходимо указать двоичные и сжатые данные.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

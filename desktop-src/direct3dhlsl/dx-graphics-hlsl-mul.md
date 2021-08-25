@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a2e9fe545cb16f8ac1fef1935b9d7e97075521b6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e6362c734cbbf30defa8fed75f28c6f39397d75977488d9efc170d2647a9b3d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950364"
 ---
 # <a name="mul"></a>mul
 
@@ -56,43 +56,43 @@ ms.locfileid: "104068782"
 
 
 
-| Version | Имя | Назначение | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md) | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер                                                                     |
+| Версия | Имя | Назначение | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md) | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер                                                                     |
 |---------|------|---------|---------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
 | 1       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
-|         | да    | in      | скаляр                                                        | то же, что входные данные x                                                | 1                                                                        |
+|         | y    | in      | скаляр                                                        | то же, что входные данные x                                                | 1                                                                        |
 |         | обратно  | out     | скаляр                                                        | то же, что входные данные x                                                | 1                                                                        |
 | 2       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
-|         | да    | in      | вектор                                                        | float, int                                                     | any                                                                      |
+|         | y    | in      | вектор                                                        | float, int                                                     | any                                                                      |
 |         | обратно  | out     | вектор                                                        | float, int                                                     | те же измерения, что и входные данные y                                             |
 | 3       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
-|         | да    | in      | матрица                                                        | float, int                                                     | any                                                                      |
+|         | y    | in      | матрица                                                        | float, int                                                     | any                                                                      |
 |         | обратно  | out     | матрица                                                        | то же, что входные данные y                                                | те же измерения, что и входные данные y                                             |
 | 4       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | вектор                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
+|         | y    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
 |         | обратно  | out     | вектор                                                        | float, int                                                     | те же измерения, что и входные x                                             |
 | 5       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | вектор                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | вектор                                                        | float, int                                                     | те же измерения, что и входные x                                             |
+|         | y    | in      | вектор                                                        | float, int                                                     | те же измерения, что и входные x                                             |
 |         | обратно  | out     | скаляр                                                        | float, int                                                     | 1                                                                        |
 | 6       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | вектор                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | матрица                                                        | float, int                                                     | строки = одинаковые измерения в качестве входных данных x, Columns = Any                       |
+|         | y    | in      | матрица                                                        | float, int                                                     | строки = одинаковые измерения в качестве входных данных x, Columns = Any                       |
 |         | обратно  | out     | вектор                                                        | float, int                                                     | те же измерения, что и входные столбцы y                                     |
 | 7       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | матрица                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
+|         | y    | in      | скаляр                                                        | float, int                                                     | 1                                                                        |
 |         | обратно  | out     | матрица                                                        | float, int                                                     | те же измерения, что и входные x                                             |
 | 8       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | матрица                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | вектор                                                        | float, int                                                     | число столбцов во входном x                                             |
+|         | y    | in      | вектор                                                        | float, int                                                     | число столбцов во входном x                                             |
 |         | обратно  | out     | вектор                                                        | float, int                                                     | число строк во входном x                                                |
 | 9       |      |         |                                                               |                                                                |                                                                          |
 |         | x    | in      | матрица                                                        | float, int                                                     | any                                                                      |
-|         | да    | in      | матрица                                                        | float, int                                                     | Rows = число столбцов во входном x                                      |
+|         | y    | in      | матрица                                                        | float, int                                                     | Rows = число столбцов во входном x                                      |
 |         | обратно  | out     | матрица                                                        | float, int                                                     | Rows = число строк во входных данных x, Columns = число столбцов во входном значении y |
 
 
@@ -107,13 +107,13 @@ ms.locfileid: "104068782"
 
 | Модель шейдера                                                                       | Поддерживается |
 |------------------------------------------------------------------------------------|-----------|
-| [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) и более высокие модели шейдеров | да       |
+| [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) и более высокие модели шейдеров | Да       |
 
 
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

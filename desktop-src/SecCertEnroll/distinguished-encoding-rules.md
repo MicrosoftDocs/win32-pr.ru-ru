@@ -4,12 +4,12 @@ ms.assetid: 47735fa1-9d75-4c6b-b14c-6c7483f43a5d
 title: Distinguished Encoding Rules
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e12429c7c2185fc4910abd00e4641e7cd9d2f2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4d592fdfbb2532f5c718aadaaf32e63f352ed6ab427e9908465fcb5998839f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883074"
 ---
 # <a name="distinguished-encoding-rules"></a>Distinguished Encoding Rules
 
@@ -22,12 +22,12 @@ ms.locfileid: "104542695"
 
 Исходный набор правил был определен спецификацией ЛИЧЕСТВО. CER и DER были разработаны позже как специализированные подмножества ЛИЧЕСТВО. В было создано в ответ на критику о объеме пропускной способности, необходимой для передачи данных с помощью ЛИЧЕСТВО или его разновидностей. ДЛЯ обеспечивает значительную экономию.
 
-Протокол DER был создан для удовлетворения требований спецификации X. 509 для безопасной пересылки данных. API регистрации сертификатов использует исключительно DER. Дополнительные сведения см. в следующих разделах:
+Протокол DER был создан для удовлетворения требований спецификации X. 509 для безопасной пересылки данных. API регистрации сертификатов использует исключительно DER. Дополнительные сведения см. в следующих статьях.
 
 -   [Синтаксис преобразования DER](about-der-transfer-syntax.md)
 -   [Кодировка DER для типов ASN. 1](about-der-encoding-of-asn-1-types.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

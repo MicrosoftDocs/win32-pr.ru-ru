@@ -4,12 +4,12 @@ ms.assetid: db973b41-1e5c-4bc8-921d-5e9312eb21cb
 title: Идентификаторы GUID расширения полезных данных ASF (Вмконтаинер. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7dbd27212c8f4812360ba22f89a717659307f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6478c024d3e79b0f8035f03b6e893e2e5d0308037242f9ac3013450b57f83242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959574"
 ---
 # <a name="asf-payload-extension-guids"></a>Идентификаторы GUID расширения полезных данных ASF
 
@@ -34,9 +34,9 @@ ms.locfileid: "104539650"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Вмконтаинер. h</dt> </dl> |
 
 
 

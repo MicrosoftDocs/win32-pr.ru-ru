@@ -4,12 +4,12 @@ ms.assetid: 11eb1443-857d-4516-a5cb-c3cc02a5eba4
 title: Справочник по запросам Копп
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41de36f3cdcc37a38e2ebc53caa7b6b37c204d9d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 59d36cde152600faaa1dd567faac916bfa8281e2b2edb9464074fe34a58d5011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909664"
 ---
 # <a name="copp-query-reference"></a>Справочник по запросам Копп
 
@@ -17,7 +17,7 @@ ms.locfileid: "104072321"
 
 
 
-| Запрос                   | Код GUID                                     |
+| Запрос                   | GUID                                     |
 |-------------------------|------------------------------------------|
 | Данные шины                | **ДКСВА \_ коппкуерибусдата**               |
 | Тип соединителя          | **ДКСВА \_ коппкуериконнектортипе**         |
@@ -126,7 +126,7 @@ ms.locfileid: "104072321"
 -   **Входные данные**: нет.
 -   **Возвращаемые данные**: возвращает [**структуру \_ коппстатуссигналингкмддата дксва**](/windows/desktop/api/dxva9typ/ns-dxva9typ-dxva_coppstatussignalingcmddata) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

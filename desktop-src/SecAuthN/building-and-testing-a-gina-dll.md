@@ -4,23 +4,23 @@ ms.assetid: 13b5bc92-583d-4031-94f9-f84dbfbf7ee7
 title: Создание и тестирование библиотеки DLL GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e6e4a00f15e6ced4827bbc3efeb3c459f5d6a8
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 31df8597ca9ad78b8c94efb5610e3c899f7834cb14c9112b15a410c72705a0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883534"
 ---
 # <a name="building-and-testing-a-gina-dll"></a>Создание и тестирование библиотеки DLL GINA
 
 Все функции, прототипы, структуры и константы определены в файле заголовка Винвлкс. h.
 
 > [!Note]  
-> Библиотеки DLL GINA не учитываются в Windows Vista.
+> библиотеки dll GINA не учитываются в Windows Vista.
 
  
 
-Для тестирования библиотеки DLL [*GINA*](/windows/desktop/SecGloss/g-gly) используйте Winlogon.exe из проверенной версии операционной системы, которая доступна в пакете средств разработки драйверов Microsoft Windows (DDK). Проверенная версия [*Winlogon*](/windows/desktop/SecGloss/w-gly) поддерживает отладку GINA следующим образом.
+для тестирования библиотеки DLL [*GINA*](/windows/desktop/SecGloss/g-gly) используйте Winlogon.exe из проверенной версии операционной системы, которая доступна в пакете sdk для Microsoft Windows Driver Kit (DDK). Проверенная версия [*Winlogon*](/windows/desktop/SecGloss/w-gly) поддерживает отладку GINA следующим образом.
 
 -   Для создания раздела в Win.ini можно использовать следующий синтаксис, чтобы указать параметры отладки Winlogon.
 
@@ -39,7 +39,7 @@ ms.locfileid: "104352045"
     | Флаг отладки | Описание                                                                                                                                                                |
     |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | кулсвитч     | Сочетание клавиш CTRL + ALT + SHIFT + TAB вызовет прерывание отладки в Winlogon.                                                                                               |
-    | Ошибка          | Печать ошибок.                                                                                                                                                              |
+    | Error          | Печать ошибок.                                                                                                                                                              |
     | Init           | Печать сообщений инициализации и хода выполнения.                                                                                                                                |
     | Уведомление         | Печать сообщений пакета уведомлений.                                                                                                                                       |
     | SAS            | Печать сведений о уведомлениях о [*последовательности безопасных предупреждений*](/windows/desktop/SecGloss/s-gly) (SAS). |
@@ -72,9 +72,9 @@ ms.locfileid: "104352045"
     ```
 
 > [!NOTE]
-> Для отладки Winlogon необходимо использовать символьный отладчик Windows (NTSD).
+> для отладки Winlogon необходимо использовать Windows символьный отладчик (NTSD).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

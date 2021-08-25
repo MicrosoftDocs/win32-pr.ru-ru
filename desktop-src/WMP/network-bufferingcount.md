@@ -3,7 +3,7 @@ title: Network. Буфферингкаунт
 description: Свойство Буфферингкаунт извлекает количество попыток буферизации во время воспроизведения клипа.
 ms.assetid: 25a58795-161e-4290-8ea7-51acca968ef9
 keywords:
-- Проигрыватель Windows Media Network. Буфферингкаунт
+- проигрыватель Windows Media Network. буфферингкаунт
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 524dc66c7f4ed1d413f264a91ae9385d458d632b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d19c80715ca04965927bb0a50450213d707beeb124fd671fd8071e2cdd90e3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901764"
 ---
 # <a name="networkbufferingcount"></a>Network. Буфферингкаунт
 
@@ -33,7 +33,7 @@ ms.locfileid: "105704218"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый раз, когда воспроизведение останавливается и перезапускается, это свойство устанавливается в нулевое значение. Если воспроизведение приостановлено, оно не сбрасывается.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704218"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **буфферингкаунт** для вывода количества попыток буферизации во время воспроизведения. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "CB". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **буфферингкаунт** для вывода количества попыток буферизации во время воспроизведения. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "CB". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -55,18 +55,18 @@ ms.locfileid: "105704218"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

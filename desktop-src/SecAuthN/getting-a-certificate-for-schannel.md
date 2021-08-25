@@ -4,12 +4,12 @@ ms.assetid: 31d7a8bd-729f-4db7-8e22-25d14296c0c4
 title: Получение сертификата для канала Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5bf7f311ac31fe2ff033d4b57f7d04bd1f42424
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b648f55cdfe68bc6c6b1b02b9c0d5bc715fe4efeaad70d25072b4709a2cd0114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883144"
 ---
 # <a name="getting-a-certificate-for-schannel"></a>Получение сертификата для канала Schannel
 

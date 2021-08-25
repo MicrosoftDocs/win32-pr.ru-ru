@@ -7,16 +7,16 @@ keywords:
 - Структуры SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f254dfebeb3d468add8871d4b6f28f268341e9ea
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb5cf0920d9387fb24874cc92a8e7fa623617d89f3578cb181805eb56f35546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886354"
 ---
 # <a name="snmp-structures"></a>Структуры SNMP
 
-\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
+\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. вместо этого используйте [служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
 
 В следующей таблице перечислены структуры, используемые с SNMP.
 
@@ -33,8 +33,8 @@ ms.locfileid: "104413536"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

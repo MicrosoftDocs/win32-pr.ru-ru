@@ -3,7 +3,7 @@ title: Свойство Command. Тултипдескриптион
 description: Представляет описание подсказки.
 ms.assetid: 2d3ea497-2d96-4420-8fcf-39ac2c472bf1
 keywords:
-- Лента Windows для свойства Command. Тултипдескриптион
+- свойство Command. тултипдескриптион, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 288578e74420912b7454be5037c4b2651918ac6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b5dd356ae3bcfa5949e8469240330a3a09a11f01b5a919ed02f4eb55683fbc15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933214"
 ---
 # <a name="commandtooltipdescription-property"></a>Свойство Command. Тултипдескриптион
 
@@ -51,11 +51,11 @@ ms.locfileid: "105701077"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -105,18 +105,18 @@ ms.locfileid: "105701077"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

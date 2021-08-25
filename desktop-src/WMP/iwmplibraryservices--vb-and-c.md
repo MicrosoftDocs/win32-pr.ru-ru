@@ -3,8 +3,8 @@ title: Интерфейс Ивмплибрарисервицес (VB и C) (WMP.
 description: Предоставляет методы для перечисления библиотек.
 ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
 keywords:
-- Ивмплибрарисервицес (VB и C) интерфейс проигрывателя Windows Media
-- Ивмплибрарисервицес (VB и C) интерфейс проигрывателя Windows Media, описание
+- проигрыватель Windows Media интерфейса ивмплибрарисервицес (VB и C)
+- проигрыватель Windows Media интерфейса ивмплибрарисервицес (VB и C), описание
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3493d5c94dcbd9db1e4f281a8fddfadbd2e336f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd3b0b2829355d60a8748ccc7f035a1656e403acb5e32d337033b29484ef2236
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901864"
 ---
 # <a name="iwmplibraryservices-vb-and-c-interface"></a>Интерфейс Ивмплибрарисервицес (VB и C#)
 
@@ -49,21 +49,21 @@ ms.locfileid: "105685204"
 
 Получите интерфейс **ивмплибрарисервицес** путем приведения объекта, возвращенного методом **аксвиндовсмедиаплайер. жетоккс** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>WMP. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>WMP. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Интерфейсы для Visual Basic .NET и C #**](interfaces-for-visual-basic--net-and-c.md)
+[**интерфейсы для Visual Basic .net и C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Интерфейс Ивмплибрари (VB и C#)**](iwmplibrary--vb-and-c.md)

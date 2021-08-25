@@ -1,19 +1,19 @@
 ---
-title: Константы (сенсорные жесты Windows)
-description: В подразделах этого раздела приведены справочные спецификации для констант жестов сенсорного ввода Windows.
+title: константы (Windows сенсорные жесты)
+description: в подразделах этого раздела приведены справочные сведения по Windows констант сенсорных жестов.
 ms.assetid: 98FAD1C5-284A-4DE2-B3D2-B2B3153088DC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 019016c1bbb891a60d6e157af122e0f3850eefb7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 18c717c26c5a7aa83d06fd392b8e918750f0c330ed1e332584142592efe52130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105700989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881484"
 ---
-# <a name="constants-windows-touch-gestures"></a>Константы (сенсорные жесты Windows)
+# <a name="constants-windows-touch-gestures"></a>константы (Windows сенсорные жесты)
 
-В подразделах этого раздела приведены справочные спецификации для констант [жестов сенсорного ввода Windows](guide-multi-touch-gestures.md) .
+в подразделах этого раздела приведены справочные сведения по [Windows констант сенсорных жестов](guide-multi-touch-gestures.md) .
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -21,7 +21,7 @@ ms.locfileid: "105700989"
 
 | Раздел                                                                         | Описание                                                                  |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| [**Сенсорные жесты Windows**](windows-touch-gestures-constants.md)<br/> | В этом разделе перечислены константы, используемые для сенсорных жестов Windows.<br/> |
+| [**Windows Сенсорные жесты**](windows-touch-gestures-constants.md)<br/> | в этом разделе перечислены константы, используемые для Windows сенсорных жестов.<br/> |
 
 
 

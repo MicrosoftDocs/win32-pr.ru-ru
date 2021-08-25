@@ -3,12 +3,12 @@ title: начало работы с клиентом DRM Microsoft Windows Media
 description: начало работы с клиентом DRM Microsoft Windows Media
 ms.assetid: da2c57ab-7f88-4696-a8cf-065d8c86a510
 keywords:
-- Windows Media Format SDK, расширенные API клиента DRM
-- Пакет SDK для Windows Media Format, расширенные API клиента
-- Windows Media Format SDK, расширенные API
-- Windows Media Format SDK, API
-- Windows Media Format SDK, управление цифровыми правами (DRM)
-- Windows Media Format SDK, программное обеспеченное программирование
+- Windows Пакет SDK для Media Format, расширенные API клиента DRM
+- Windows Пакет SDK для формата мультимедиа, расширенные API клиента
+- Windows Пакет SDK для формата мультимедиа, расширенные API
+- Windows Пакет SDK для формата мультимедиа, API
+- Windows Пакет SDK для формата мультимедиа, управление цифровыми правами (DRM)
+- Windows Пакет SDK для формата мультимедиа, программное обеспечения
 - Управление цифровыми правами (DRM), расширенные API клиента
 - DRM (Управление цифровыми правами), расширенные API клиента
 - Управление цифровыми правами (DRM), расширенные API
@@ -21,31 +21,31 @@ keywords:
 - Расширенные API клиента, о
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0962d75d6d01de381056faa0204e683c48583b3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6283fe4f796ff5f43312b5ecb9c445c5e0661f77a354a41cee41fd39c911a596
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104070983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881173"
 ---
 # <a name="getting-started-with-microsoft-windows-media-drm-client"></a>начало работы с клиентом DRM Microsoft Windows Media
 
-В этой части руководства по программированию описывается настройка проекта с помощью расширенных API-интерфейсов клиента DRM Windows Media, а также приведены основные сведения об использовании API-интерфейсов. Он содержит следующие разделы.
+в этой части руководства по программированию описано, как настроить проект с помощью расширенных api-интерфейсов клиента DRM Windows Media, а также приведены основные сведения об использовании api. Он содержит следующие разделы.
 
 
 
 | Раздел                                                                                                      | Описание                                                                                             |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [Файлы библиотек, файлы заголовков и параметры компилятора](library-files-header-files-and-compiler-settings.md) | Описание настройки среды разработки для использования расширенных API-интерфейсов клиента DRM Windows Media. |
+| [файлы библиотек, файлы заголовков и Параметры компилятора](library-files-header-files-and-compiler-settings.md) | описание настройки среды разработки для использования расширенных api-интерфейсов клиента DRM Windows Media. |
 | [Использование примеров кода](drm-using-the-code-examples.md)                                                 | Описывает соглашения, используемые в примерах кода, приведенных в этой документации.                     |
-| [Основные сведения о приложениях](application-basics.md)                                                               | Описание процесса создания приложения, использующего расширенные API-интерфейсы клиента DRM Windows Media.            |
-| [Использование модели событий Media Foundation](using-the-media-foundation-model.md)                             | Представляет модель событий, используемую расширенными API клиента DRM Windows Media.                  |
+| [Основные сведения о приложениях](application-basics.md)                                                               | описание процесса создания приложения, использующего расширенные api-интерфейсы Windows Media DRM клиента.            |
+| [Использование модели событий Media Foundation](using-the-media-foundation-model.md)                             | представляет модель событий, используемую расширенными api клиента DRM для Windows Media.                  |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

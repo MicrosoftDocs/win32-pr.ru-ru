@@ -4,12 +4,12 @@ ms.assetid: 68750820-e931-41c2-9d12-89ab83b4b97e
 title: Свойство MFPKEY_CHECKDATACONSISTENCY2P (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abc706712ef1e8bff36a118031fde155bb9bda31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a1cef9c8c2a8e4fcd536ce73653e80e62282b40734cc695493d6cba4187c8f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954724"
 ---
 # <a name="mfpkey_checkdataconsistency2p-property"></a>МФПКЭЙ \_ CHECKDATACONSISTENCY2P, свойство
 
@@ -27,7 +27,7 @@ ms.locfileid: "105694532"
 
 **ВАРИАНТ \_ true**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если оставить это свойство по умолчанию со значением **Variant \_ true**, кодировщик проверяет соответствие входных выборок между двумя проходами и завершается ошибкой, если обнаруживает несоответствие. Основной сценарий, который приводит к несоответствию, заключается в том, что входные данные поступают с устройства.
 
@@ -38,7 +38,7 @@ ms.locfileid: "105694532"
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Клиент<br/> | Windows Vista или Windows 7<br/>                                                   |
-| Header<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

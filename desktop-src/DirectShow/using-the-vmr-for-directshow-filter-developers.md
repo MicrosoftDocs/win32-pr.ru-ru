@@ -1,19 +1,19 @@
 ---
-description: Использование VMR для разработчиков фильтров DirectShow
+description: использование VMR для разработчиков фильтров DirectShow
 ms.assetid: 0a038f0f-5fb6-44df-8263-03725c5bcb5f
-title: Использование VMR для разработчиков фильтров DirectShow
+title: использование VMR для разработчиков фильтров DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ce548fd7c59a46a09fca8526292876c666ba94c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ac188049468d38f6446f7805f70d68bef3f74646e22f5a7052efed311325e46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903664"
 ---
-# <a name="using-the-vmr-for-directshow-filter-developers"></a>Использование VMR для разработчиков фильтров DirectShow
+# <a name="using-the-vmr-for-directshow-filter-developers"></a>использование VMR для разработчиков фильтров DirectShow
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Требования к декодерам](requirements-for-decoders.md)
 -   [Потоковый элемент управления](stream-control.md)

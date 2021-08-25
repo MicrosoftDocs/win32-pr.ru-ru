@@ -3,9 +3,9 @@ title: Ивмплибрари Медиаколлектион, свойство
 description: Свойство Медиаколлектион возвращает интерфейс Ивмпмедиаколлектион для текущей библиотеки.
 ms.assetid: 6ac92b0d-d634-4e99-8946-b10363d4be47
 keywords:
-- Проигрыватель Windows Media для свойства Медиаколлектион
-- Медиаколлектион свойство проигрывателя Windows Media Player, интерфейс Ивмплибрари
-- Интерфейс Ивмплибрари Windows Media Player, свойство Медиаколлектион
+- проигрыватель Windows Media свойства медиаколлектион
+- проигрыватель Windows Media свойства медиаколлектион, интерфейс ивмплибрари
+- проигрыватель Windows Media интерфейса ивмплибрари, свойство медиаколлектион
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f3f3e10f102441f02f5fad33dd295712b431b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b1e10cd41dbc8ac558451ca2b6c8366fa566044db34cfbb44962cbe41c3e26a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899954"
 ---
 # <a name="iwmplibrarymediacollection-property"></a>Свойство Ивмплибрари:: Медиаколлектион
 
@@ -48,19 +48,19 @@ Public ReadOnly Property mediaCollection As IWMPMediaCollection
 
 Интерфейс Вмплиб. Ивмпмедиаколлектион для текущей библиотеки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ keywords:
 - Сообщение команды WM_SYS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2241ba828ea9e6be5e4bb0b7471adcc3130940ca
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ecbb16c92b986cbe73aababc7edc24518cf59ce5009322e3a006bac827427c45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886572"
 ---
 # <a name="using-keyboard-accelerators"></a>Использование сочетаний клавиш
 
@@ -782,6 +782,6 @@ BOOL CALLBACK EdAccelProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 
 
- 
+ 
 
- 
+ 

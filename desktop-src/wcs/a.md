@@ -3,18 +3,18 @@ title: Объект
 description: Объект
 ms.assetid: 0bc0f312-ffd6-48bc-996a-f6d94fc8d4a2
 keywords:
-- Цветовая система Windows (WCS), глоссарий
-- WCS (цветовая система Windows), глоссарий
+- Windows Система цветов (WCS), глоссарий
+- WCS (Windows цветовая система), глоссарий
 - Управление цветом изображений, глоссарий
 - Управление цветом, глоссарий
 - цвета, глоссарий
-- Цветовая система Windows (WCS), определения
-- WCS (цветовая система Windows), определения
+- Windows Система цветовой системы (WCS), определения
+- WCS (Windows цветовая система), определения
 - Управление цветом изображений, определения
 - Управление цветом, определения
 - цвета, определения
-- Цветовая система Windows (WCS), условия
-- WCS (цветовая система Windows), термины
+- Windows Система цветов (WCS), термины
+- WCS (Windows цветовая система), термины
 - Управление цветом изображений, термины
 - Управление цветом, термины
 - цвета, термины
@@ -22,12 +22,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8106828c3440e53d59e8b11eaeacdb8e2c3851c7
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: efd8f30eabaa62479b103ea82fe2297a5acf137344f8fdbeb6c735cd92980e57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932104"
 ---
 # <a name="a"></a>Объект
 

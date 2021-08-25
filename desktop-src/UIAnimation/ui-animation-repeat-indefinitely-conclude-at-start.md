@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cba14f7eea6ba4c726edbd7faab134795746373b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c3a4d255d36b52781670f156df183da2426c03a301f2e1a1acb5e9b73426d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867714"
 ---
 # <a name="ui_animation_repeat_indefinitely_conclude_at_start"></a>\_Анимация пользовательского \_ интерфейса \_ в течение неопределенного времени \_ завершается \_ в \_ начале
 
@@ -31,7 +31,7 @@ ms.locfileid: "103892561"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -39,12 +39,12 @@ ms.locfileid: "103892561"
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8, Windows 7 и обновление платформы \[ только для настольных приложений Windows 7\]<br/>    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Уианиматион. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Уианиматион. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Уианиматион. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

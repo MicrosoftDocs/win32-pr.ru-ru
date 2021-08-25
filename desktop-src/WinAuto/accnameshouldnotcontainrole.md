@@ -4,12 +4,12 @@ description: аккнамешаулднотконтаинроле
 ms.assetid: 271461FF-5123-482F-B66D-A323CB3361DD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fb91eeeb34d484c1f51cd0b7cd2d2947e86abda
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8f09bd9ccdf27c5f52a45466b6b8145cfe23248cc175777f57202aac6530791
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899734"
 ---
 # <a name="accnameshouldnotcontainrole"></a>аккнамешаулднотконтаинроле
 
@@ -33,7 +33,7 @@ ms.locfileid: "103779730"
 -   Элемент или его родитель имеет имя по умолчанию, которое не было изменено на понятное имя. Например, button1.
 -   Разработчик не знает, что читатели экрана считывают имена.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -43,9 +43,9 @@ ms.locfileid: "103779730"
 [Свойство Name](name-property.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

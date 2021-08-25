@@ -1,5 +1,5 @@
 ---
-description: Описание сеанса входа или сеансов, связанных с пользователем, вошедшим в систему на компьютере под Windows.
+description: Описывает сеанс входа в систему или сеансы, связанные с пользователем, вошедшим в компьютер, на котором работает Windows.
 ms.assetid: d09a115b-95a3-47c7-a04d-c810d044ccc8
 ms.tgt_platform: multiple
 title: Класс Win32_LogonSession
@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 78e14bbd41c2fd8bb0c10a7bfeeda0dc9d426b0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85cbc80050fafe887fa99974c41666c7189b2b12c21559aac0255870b2a697d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972990"
 ---
 # <a name="win32_logonsession-class"></a>\_Класс Win32 LogonSession
 
-Класс **WMI \_ LogonSession для Win32** (см. раздел [Получение класса WMI](/windows/desktop/wmisdk/retrieving-a-class)) описывает сеанс входа в систему или сеансы, связанные с пользовательским компьютером, работающим в системе Windows.
+Класс **WMI \_ LogonSession для Win32** (см. раздел [Получение класса WMI](/windows/desktop/wmisdk/retrieving-a-class)) описывает сеанс входа в систему или сеансы, связанные с пользовательским компьютером, на котором выполняется Windows.
 
 Следующий синтаксис упрощен из кода MOF-файл (MOF) и включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -60,7 +60,7 @@ class Win32_LogonSession : Win32_Session
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ LogonSession** имеет следующие свойства.
 
@@ -79,7 +79,7 @@ class Win32_LogonSession : Win32_Session
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -303,7 +303,7 @@ class Win32_LogonSession : Win32_Session
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -470,7 +470,7 @@ $servers = gci servers.txt
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -484,7 +484,7 @@ $servers = gci servers.txt
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

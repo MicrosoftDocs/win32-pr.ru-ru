@@ -4,12 +4,12 @@ ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
 title: Событие PBT_APMSUSPEND (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc6982e00565329c85e06765879b9b72b07fe6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebb3634765e6c0f863beb0c7a1c16af29cadae18ef14796e9ef01a0c8edec36a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961674"
 ---
 # <a name="pbt_apmsuspend-event"></a>\_Событие ПБТ апмсуспенд
 
@@ -71,7 +71,7 @@ WindowProc( HWND hwnd,      // handle to window
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно обработать это событие, выполнив все задачи, необходимые для сохранения данных.
 
@@ -83,9 +83,9 @@ WindowProc( HWND hwnd,      // handle to window
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>WinUser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>WinUser. h (включает Windows. h)</dt> </dl> |
 
 
 
