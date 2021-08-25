@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 28ebeaad31e6f40ceb961d8c303a22590966947f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 533e8dae6a009488998acd3232b062b423553b9df10f14ec97ef9ae2f8c55bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889944"
 ---
 # <a name="pf_parserinfo-structure"></a>\_Структура PF парсеринфо
 
@@ -94,7 +94,7 @@ typedef struct _PF_PARSERINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **PF \_ парсеринфо** используется в структуре **PF \_ парсердллинфо** для предоставления описания средства синтаксического анализа. Сетевой монитор использует описание синтаксического анализатора для обновления файла [*Parser.ini*](p.md) , а также ini-файлы синтаксических анализаторов, которые предшествуют и следуют за протоколом, описанным в структуре **PF \_ парсеринфо** .
 
@@ -106,7 +106,7 @@ typedef struct _PF_PARSERINFO {
 
 | Для получения информации о                                               | См.                                                                          |
 |------------------------------------------------------------------|------------------------------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор.        | [Анализаторы](parsers.md)                                                       |
+| Какие анализаторы и как они работают с сетевой монитор.        | [Средства синтаксического анализа](parsers.md)                                                       |
 | Следующие наборы содержат.                                        | [Указание набора следования](specifying-a-follow-set.md)                       |
 | Какие наборы данных содержат.                                       | [Указание переданного набора](specifying-a-handoff-set.md)                     |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.                | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md)                       |
@@ -116,7 +116,7 @@ typedef struct _PF_PARSERINFO {
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ typedef struct _PF_PARSERINFO {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение LB_GETITEMRECT (Winuser. h)
 description: Возвращает размеры прямоугольника, который привязывает элемент списка в том виде, в каком он в данный момент отображается в списке.
 ms.assetid: 84f94bc9-f7a4-4c2d-8c35-1bd291082af9
 keywords:
-- Элементы управления Windows для LB_GETITEMRECT сообщений
+- элементы управления Windows сообщений LB_GETITEMRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98b66c7c1a3e9f93e90beea40869cecb2081cb20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94e6fa6ed15f4d3a186800fd66e7c917e8620effa775c76f85b144e49207f12f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799484"
 ---
 # <a name="lb_getitemrect-message"></a>Сообщение жетитемрект балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "104490206"
 
 Основанный на нуле индекс элемента.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
 
 </dd> <dt>
 
@@ -55,9 +55,9 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

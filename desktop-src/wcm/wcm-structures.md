@@ -1,19 +1,19 @@
 ---
-title: Структуры диспетчера подключений Windows
-description: Ниже приведены структуры диспетчера подключений Windows (WCM).
+title: Windows Структуры диспетчера соединений
+description: ниже приведены структуры диспетчера соединений Windows (WCM).
 ms.assetid: E554D678-721A-4311-8B64-315D2403E69A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aac6307364ed84af19dfddc186c489ecceb1889b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a218706e812ec718db5261d26c68d4e0d2e92185561d13a90ac3716aba8035a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814641"
 ---
-# <a name="windows-connection-manager-structures"></a>Структуры диспетчера подключений Windows
+# <a name="windows-connection-manager-structures"></a>Windows Структуры диспетчера соединений
 
-Ниже приведены структуры диспетчера подключений Windows (WCM).
+ниже приведены структуры диспетчера соединений Windows (WCM).
 
 -   [**\_ \_ сведения о цикле выставления счетов WCM \_**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_billing_cycle_info)
 -   [**\_данные о \_ стоимости \_ подключения WCM**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_connection_cost_data)
@@ -24,9 +24,9 @@ ms.locfileid: "104532267"
 -   [**\_интервал времени \_ WCM**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_time_interval)
 -   [**\_данные об использовании WCM \_**](/windows/desktop/api/Wcmapi/ns-wcmapi-wcm_usage_data)
 
- 
+ 
 
- 
+ 
 
 
 

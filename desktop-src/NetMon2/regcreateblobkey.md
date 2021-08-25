@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: fc46b38919b37dc004c1065b0cc8d5f80e65984c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3267fd0ba5e6fe56b99b5d465f69718fe5509a7ead58acf1d8dafb642397af5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889654"
 ---
 # <a name="regcreateblobkey-function"></a>Функция Регкреатеблобкэй
 
@@ -68,7 +68,7 @@ DWORD RegCreateBlobKey(
 
 Если функция завершается неудачно, возвращается значение НМЕРР, указывающее на ошибку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -82,7 +82,7 @@ DWORD RegCreateBlobKey(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

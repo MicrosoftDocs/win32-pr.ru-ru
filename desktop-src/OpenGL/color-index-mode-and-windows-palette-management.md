@@ -1,22 +1,22 @@
 ---
-title: Режим Color-Index и управление палитрой Windows
+title: Color-Index режим и Windows управление палитрами
 description: Режим цветового индекса задает цвета в логической палитре с индексом для определенной записи логической палитры.
 ms.assetid: 8cf07c3e-8a8b-4f28-a363-34d3c0d33890
 keywords:
-- OpenGL в Windows, управление палитрами
-- OpenGL в Windows, режим индексирования цветов
+- OpenGL на Windows, управление палитрами
+- OpenGL на Windows, режим индексирования цветов
 - режим индексирования цветов OpenGL
 - Управление палитрами OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 873308c4ac64d496e344b1c71d440d4dc8321418
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72e4d7c9db02a80bdffdef93655e88cc5b2ca8197a58c5ffdb488c2b782f10d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889264"
 ---
-# <a name="color-index-mode-and-windows-palette-management"></a>Режим Color-Index и управление палитрой Windows
+# <a name="color-index-mode-and-windows-palette-management"></a>Color-Index режим и Windows управление палитрами
 
 Режим цветового индекса задает цвета в логической палитре с индексом для определенной записи логической палитры. Большинство программ GDI используют палитры цветового индекса, но режим RGBA для OpenGL лучше подходит для нескольких эффектов, таких как заливка, освещение, туман и сопоставление текстур. Если цвет труест не является критически важным для приложения OpenGL, можно выбрать режим индексирования цвета (например, для схемы топографик, которая использует "false Color", чтобы подчеркнуть градиент повышения прав).
 
@@ -67,9 +67,9 @@ BOOL bSetupPixelFormat(HDC hdc)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

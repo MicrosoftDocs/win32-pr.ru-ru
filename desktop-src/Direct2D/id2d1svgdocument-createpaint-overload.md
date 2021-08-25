@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 4a9356bb81f8954b5ff1b1e8a711940d23408fce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acb147288651d7460938b7b5107be22306a3849dbc857432d3dd93e425eb68ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873944"
 ---
 # <a name="id2d1svgdocumentcreatepaint-methods"></a>Методы ID2D1SvgDocument:: Креатепаинт
 
@@ -34,17 +34,17 @@ ms.locfileid: "105658096"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1svg. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1svg. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

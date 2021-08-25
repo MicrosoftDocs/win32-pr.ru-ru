@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_PassportForWork_Device_Policies02
-description: Класс MDM \_ пасспортфорворк \_ Device \_ Policies02 определяет параметры политики Windows Hello для бизнеса.
+description: '\_ \_ класс пасспортфорворк устройства \_ Policies02 MDM определяет параметры политики бизнеса Windows Hello.'
 ms.assetid: 7581ea7e-0360-4695-a4ad-566df24a8841
 keywords:
 - Класс MDM_PassportForWork_Device_Policies02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c66d642fb796d3b7af009197580f1eda21ab0bdf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c545408e0e1f0a6058b9efea6033d9531084df0357fe612a34773baa04f8dd63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796814"
 ---
 # <a name="mdm_passportforwork_device_policies02-class"></a>\_ \_ Класс POLICIES02 устройства MDM пасспортфорворк \_
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ пасспортфорворк \_ Device \_ Policies02** определяет параметры политики Windows Hello для бизнеса.
+класс **\_ пасспортфорворк \_ устройства \_ Policies02 MDM** определяет параметры политики бизнеса Windows Hello.
 
 Следующий синтаксис упрощен из MOF-кода и включает все унаследованные свойства.
 
@@ -50,7 +50,7 @@ class MDM_PassportForWork_Device_Policies02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ \_ Policies02 устройства MDM пасспортфорворк** имеет следующие свойства.
 
@@ -68,7 +68,7 @@ class MDM_PassportForWork_Device_Policies02
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Узел для параметров политики Windows Hello для бизнеса.
+узел для параметров политики Windows Hello для бизнеса.
 
 </dd> <dt>
 
@@ -105,7 +105,7 @@ class MDM_PassportForWork_Device_Policies02
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |

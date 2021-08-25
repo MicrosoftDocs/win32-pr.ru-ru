@@ -3,7 +3,7 @@ title: Сообщение WM_CAP_DRIVER_DISCONNECT (VFW. h)
 description: '\_ \_ \_ Сообщение об отключении драйвера WM Cap отключает драйвер записи из окна записи. Это сообщение можно отправить явно или с помощью макроса Капдривердисконнект.'
 ms.assetid: a420f24a-aa7d-4788-9120-2c11e5e2c14c
 keywords:
-- WM_CAP_DRIVER_DISCONNECT сообщения Windows мультимедиа
+- сообщение WM_CAP_DRIVER_DISCONNECT Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acad628cc61bbb50c56f68fda91ac87be4feb728
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6365366c6ea37b36734262d1d7a8412a7729406ff3fcc12e10ae9ba55d9ba84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803864"
 ---
 # <a name="wm_cap_driver_disconnect-message"></a>\_ \_ \_ Сообщение об отключении драйвера WM Cap
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Возвращает **значение true** в случае успеха или **false** , если окно записи не подключено к драйверу записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -50,7 +50,7 @@ lParam = 0L;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

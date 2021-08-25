@@ -1,19 +1,19 @@
 ---
-description: Набор инструментов отладки, созданный на основе API веб-служб на устройствах (WSDAPI), доступен в Windows SDK и в комплекте драйверов для Windows (WDK).
+description: набор инструментов отладки, созданный на основе API веб-служб на устройствах (WSDAPI), доступен в Windows SDK и в наборе драйверов Windows (WDK).
 ms.assetid: bd7efa8b-4f12-4b19-a7df-fa34c6a3444a
 title: Инструменты отладки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29965bb85ccfd2daf00612b09bb013ae170dddcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e744b37a5376d228ac9023ed7556ce63e26a7a1c20b23fb98aff090e7ae9616f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856784"
 ---
 # <a name="debugging-tools"></a>Инструменты отладки
 
-Набор инструментов отладки, созданный на основе API веб-служб на устройствах (WSDAPI), доступен в Windows SDK и в комплекте драйверов для Windows (WDK). Эти средства можно использовать для проверки функциональных возможностей пользовательских приложений, написанных на WSDAPI, а также устройств и клиентов, написанных с помощью другого профиля устройства для стеков веб-служб (DPWS).
+набор инструментов отладки, созданный на основе API веб-служб на устройствах (WSDAPI), доступен в Windows SDK и в наборе драйверов Windows (WDK). Эти средства можно использовать для проверки функциональных возможностей пользовательских приложений, написанных на WSDAPI, а также устройств и клиентов, написанных с помощью другого профиля устройства для стеков веб-служб (DPWS).
 
 Средства отладки (всддебуг \_host.exe) и клиент отладки WSD (всддебуг \_client.exe) можно использовать для проверки характеристик клиентов или узлов DPWS. Их также можно использовать для устранения проблем с подключением или конфигурацией. Дополнительные сведения см. в разделе [руководство по устранению неполадок WSDAPI](wsdapi-troubleshooting-guide.md). Эти средства доступны только в пакете SDK. Средства пакета SDK находятся в следующем каталоге: <Windows SDK Install Folder> \\ bin.
 
@@ -37,7 +37,7 @@ ms.locfileid: "104156670"
 
  
 
-Дополнительные сведения см. в статьях [Использование универсального узла и клиента для обмена метаданными HTTP](using-a-generic-host-and-client-for-http-metadata-exchange.md), [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md)и [Использование клиента отладки WSD для проверки многоадресного трафика](using-wsddebug-client-to-verify-multicast-traffic.md).
+дополнительные сведения см. в статьях [использование универсального узла и клиента для метаданных HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md), [использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md)и [использование клиента отладки WSD для проверки многоадресного трафика](using-wsddebug-client-to-verify-multicast-traffic.md).
 
 ## <a name="the-wsd-debug-host"></a>Узел отладки WSD
 
@@ -56,13 +56,13 @@ ms.locfileid: "104156670"
 
  
 
-Дополнительные сведения см. в статьях [Использование универсального узла и клиента для обмена метаданными HTTP](using-a-generic-host-and-client-for-http-metadata-exchange.md) и [Использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).
+дополнительные сведения см. в статьях [использование универсального узла и клиента для метаданных HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) и [использование универсального узла и клиента для протокола UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Разработка приложений WSD в Windows](wsd-application-development-on-windows.md)
+[Разработка приложений WSD на Windows](wsd-application-development-on-windows.md)
 </dt> <dt>
 
 [Средства разработки WSDAPI](wsdapi-development-tools.md)

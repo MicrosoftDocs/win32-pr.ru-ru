@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 5ace5c64dc90f057ff9fdfe5a79d664137c38030
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 430607b09795be249a05398b1bfb749e9be45ae517c6374e001a4c3042bf316f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874194"
 ---
 # <a name="id2d1rendertargetdrawtext-methods"></a>ID2D1RenderTarget: методы:D Равтекст
 
@@ -35,9 +35,9 @@ ms.locfileid: "105675127"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Чтобы нарисовать текст с помощью Direct2D, используйте метод [**ID2D1RenderTarget::D равтекст**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) для текста, имеющего один формат, или метод [**ID2D1RenderTarget::D равтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) , если требуется несколько форматов, расширенные функции OpenType или проверка попадания. Эти методы используют API DirectWrite для обеспечения высокого качества отображения текста.
+Чтобы нарисовать текст с помощью Direct2D, используйте метод [**ID2D1RenderTarget::D равтекст**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) для текста, имеющего один формат, или метод [**ID2D1RenderTarget::D равтекстлайаут**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) , если требуется несколько форматов, расширенные функции OpenType или проверка попадания. эти методы используют DirectWrite API для обеспечения высокого качества отображения текста.
 
 Этот метод не возвращает код ошибки в случае сбоя. Чтобы определить, не завершилась ли операция рисования (например, **DrawText**), проверьте результат, возвращенный методами [**ID2D1RenderTarget:: EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) или [**ID2D1RenderTarget:: Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) .
 
@@ -45,7 +45,7 @@ ms.locfileid: "105675127"
 
 Пример см. в разделе [Рисование текста](how-to--draw-text.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -56,7 +56,7 @@ ms.locfileid: "105675127"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

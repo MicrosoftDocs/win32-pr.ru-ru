@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: eb28f019674f39946674399f8931fb63421ef982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 468bd6cdc8f3df7efba26997fd76b0724d3e4cc5da552275dad5201adc469f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906354"
 ---
 # <a name="getsuspendcount-method-of-the-win32_encryptablevolume-class"></a>Метод Жетсуспендкаунт \_ класса Win32 енкриптаблеволуме
 
@@ -61,25 +61,25 @@ uint32 GetSuspendCount(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод применяется только к тому операционной системы и только в том случае, если он фактически приостанавливается в момент времени. Если том не приостановлен или не является томом операционной системы, будет возвращена **Ошибка \_ не \_ поддерживается** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8 Корпоративная, \[ только классические приложения Windows 8 Pro\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 Корпоративная, только Windows 8 Профессиональная классические \[ приложения\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
-| Header<br/>                   | <dl> <dt>Активдбг. h</dt> </dl>                   |
+| Заголовок<br/>                   | <dl> <dt>Активдбг. h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

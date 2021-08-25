@@ -4,12 +4,12 @@ ms.assetid: C1A2DF19-C68D-42CC-9CB2-190F22CB4158
 title: DBPROPSET_MSIDXS_ROWSETEXT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba37466c52f2fa9f83e3aa439ace03c1fba34f44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f8c647d4b1ecbf9e5cc88ccae4af649c27093472456377e478ff80f7a76f3a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776414"
 ---
 # <a name="dbpropset_msidxs_rowsetext"></a>DBPROPSET \_ мсидксс \_ ровсетекст
 
@@ -77,7 +77,7 @@ ms.locfileid: "105702791"
 <span id="MSIDXSPROP_SERVER_VERSION_"></span><span id="msidxsprop_server_version_"></span>\_версия сервера \_ мсидксспроп 
 </dt> <dd>
 
-Новые для Windows 7. Идентификатор свойства 9. Версия сервера.
+новое для Windows 7. Идентификатор свойства 9. Версия сервера.
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ ms.locfileid: "105702791"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы запросить \_ версию сервера мсидксспроп \_ , необходимо выдать фиктивный запрос к серверу, как показано в следующем примере.
 

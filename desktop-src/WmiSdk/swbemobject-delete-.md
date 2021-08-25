@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0d994c8a9b9e0af9d4bd884c89cd67280513c9f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db8df81e56db9967db46b88c0587af9b82a6281e7e732b8647059e8bf4f5457a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857384"
 ---
 # <a name="swbemobjectdelete_-method"></a>SWbemObject. Delete, \_ метод
 
@@ -109,9 +109,9 @@ SWbemObject.Delete_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Метод **DELETE \_** завершается ошибкой, если создан новый экземпляр [**SWbemObject**](swbemobject.md) , но для ключевого свойства не указано значение. Инструментарий управления Windows (WMI) (WMI) автоматически создает значение глобального уникального идентификатора (GUID), но значение идентификатора GUID не принимается функцией **SWbemObject. Delete \_**. В этом случае [**SwbemServices. Delete**](swbemservices-delete.md), который использует путь к объекту, работает. Обратите внимание, что объект [**свбемобжектпас**](swbemobjectpath.md) возвращается методом [**SWbemObject \_ .**](swbemobject-put-.md) WHERE после фиксации объекта в WMI.
+Метод **DELETE \_** завершается ошибкой, если создан новый экземпляр [**SWbemObject**](swbemobject.md) , но для ключевого свойства не указано значение. Windows Инструментарий управления (WMI) автоматически создает значение глобального уникального идентификатора (GUID), но значение идентификатора GUID не принимается функцией **SWbemObject. Delete \_**. В этом случае [**SwbemServices. Delete**](swbemservices-delete.md), который использует путь к объекту, работает. Обратите внимание, что объект [**свбемобжектпас**](swbemobjectpath.md) возвращается методом [**SWbemObject \_ .**](swbemobject-put-.md) WHERE после фиксации объекта в WMI.
 
 ## <a name="examples"></a>Примеры
 
@@ -159,7 +159,7 @@ Set objSWbemService = Nothing
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -167,7 +167,7 @@ Set objSWbemService = Nothing
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |

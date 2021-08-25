@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4a2aa2347e963839c18d904f2819d50de8d6d9c3
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 117138e80db91529d6a2baf93577a6a4dfd542d2975bf2ce6f89124a3d7aefe4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103914835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813844"
 ---
 # <a name="cgenericlistcgenericlist-constructor-wxlisth---pname-parameter"></a>Кженериклист. Кженериклист-конструктор (Вкслист. h) — параметр pName
 
@@ -49,18 +49,18 @@ CGenericList(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для повышения эффективности `CGenericList` класс поддерживает кэш узлов списка. Эта версия конструктора использует размер кэша по умолчанию.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-|-|
-| Header | Вкслист. h (включение Streams. h) |
+| Заголовок | вкслист. h (включает Потоки. h) |
 | Библиотека| Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

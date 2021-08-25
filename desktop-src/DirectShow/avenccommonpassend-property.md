@@ -4,12 +4,12 @@ ms.assetid: 847f638f-9ab9-42ca-8e39-82c113cee92f
 title: Свойство Авенккоммонпассенд (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 026b20cf0c13536403e7ccf32b160e8c6fc08141
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 02faeb9d78f10b962b7134fd316bda348b0f03e1a82ace210956c2243231df19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104495639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873374"
 ---
 # <a name="avenccommonpassend-property"></a>Авенккоммонпассенд, свойство
 
@@ -25,7 +25,7 @@ ms.locfileid: "104495639"
 
 **КОДЕКАПИ \_ авенккоммонпассенд**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка этого свойства в значение **Variant \_ true** завершает текущий проход кодирования. Присвоение этому свойству значения **Variant \_ false** завершает многопроходную кодировку.
 
@@ -37,9 +37,9 @@ ms.locfileid: "104495639"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3040f462ce226ebd3018070abc818884cee6ad6
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 46127e27b0f0890e305fee65534b0cce743c086e9e89934797bf2b16b15e9f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "105719853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814604"
 ---
 # <a name="error-codes-specific-to-wcs"></a>Коды ошибок, характерные для WCS
 
@@ -95,7 +95,7 @@ ms.locfileid: "105719853"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

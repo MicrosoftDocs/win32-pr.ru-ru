@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b96fe47a3d818c382b35a93708ac51b60e891841
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21801c2f4b8ef8dd2a34c9788b402128da4ce4fed33c3c38a08e61c35a847e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857394"
 ---
 # <a name="d3dxconcatenatemeshes-function"></a>Функция D3DXConcatenateMeshes
 
@@ -125,22 +125,22 @@ HRESULT D3DXConcatenateMeshes(
 
 Если функция выполнена успешно, возвращается значение S \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если [объявление вершины](vertex-declaration.md) не указано в параметре создания сетки параметров, метод создаст объединение всех объявлений вершин подсетей, продвижение каналов и типов при необходимости. Метод создаст таблицу атрибутов из таблиц атрибутов входных сеток. Чтобы обеспечить создание таблицы атрибутов, вызовите [**optimize**](id3dxmesh--optimize.md) с флагами, установленными в D3DXMESHOPT \_ Compact и D3DXMESHOPT \_ Аттрсорт (см. [**D3DXMESHOPT**](./d3dxmeshopt.md)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

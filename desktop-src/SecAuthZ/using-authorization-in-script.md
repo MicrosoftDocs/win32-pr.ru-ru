@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36b3ba11148022c2265b6b2cd05e7c6ca25134ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0eec15f2847a1be8de9f42489cf82c22fb75f837caa9f2b4eca5b33a41a2de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906764"
 ---
 # <a name="using-authorization-in-script"></a>Использование авторизации в скрипте
 
 API диспетчера авторизации можно использовать для управления доступом к ресурсам приложения.
 
-Примеры в этом разделе написаны с помощью Visual Basic Scripting Edition (VBScript) и Active Server Pages (ASP).
+примеры в этом разделе написаны с помощью Visual Basic scripting Edition (VBScript) и Active Server pages (ASP).
 
 Сведения о других задачах авторизации см. [в разделе Вспомогательные задачи в скрипте](supporting-tasks-for-authorization-in-script.md).
 

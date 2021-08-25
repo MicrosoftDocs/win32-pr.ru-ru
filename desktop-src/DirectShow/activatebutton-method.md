@@ -4,17 +4,17 @@ ms.assetid: 1da486a0-dadc-4c92-b3d3-83aeace01e39
 title: Метод Активатебуттон
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a463a3aad1ee0dcabc0e5daaa4a4969efa37aa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 64853a191f688758deb42061e95c91308ff88c00fe9482cce677f8b00926f26f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873524"
 ---
 # <a name="activatebutton-method"></a>Метод Активатебуттон
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "105682289"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод при реализации пользовательской обработки мыши после установки для [**дисаблеаутомаусепроцессинг**](disableautomouseprocessing-property.md) значения **true**.
 

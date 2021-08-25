@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39514028
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f8b824f716d35c3039bb77af745cf6cf08dfc9cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13713d00431337f5e2190e2f547729e96a7cfb634fe1a95dddba570a9236f1f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890304"
 ---
 # <a name="jet_threadstats-members"></a>Элементы JET_THREADSTATS
 
@@ -88,7 +88,7 @@ ms.locfileid: "103999176"
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Открытый метод" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Статический член" alt="Static member" /></td>
-<td><a href="hh565584(v=exchg.10).md">Добавление</a></td>
+<td><a href="hh565584(v=exchg.10).md">Добавить</a></td>
 <td>Добавьте статистику в две структуры JET_THREADSTATS.</td>
 </tr>
 <tr class="even">
@@ -179,7 +179,7 @@ ms.locfileid: "103999176"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

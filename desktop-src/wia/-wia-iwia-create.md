@@ -1,5 +1,5 @@
 ---
-description: Метод Create объекта WIA устанавливает соединение с указанным устройством для получения образа Windows (WIA) и возвращает объект Item, представляющий устройство.
+description: метод Create объекта Wia устанавливает соединение с указанным устройством Windowsного получения изображений (Wia) и возвращает объект Item, представляющий устройство.
 ms.assetid: c33c635a-159c-4ac3-8ad5-6f21a1986702
 title: Метод WIA. Create
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a4056354992010d3d213ed619b7460e12c800630ca38fb17acb6d7677fe842a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814054"
 ---
 # <a name="wiacreate-method"></a>Метод WIA. Create
 
-Метод **CREATE** объекта [**WIA**](-wia-wia.md) устанавливает соединение с указанным устройством для получения образа Windows (WIA) и возвращает объект [**Item**](-wia-item.md) , представляющий устройство.
+метод **Create** объекта [**Wia**](-wia-wia.md) устанавливает соединение с указанным устройством Windowsного получения изображений (Wia) и возвращает объект [**Item**](-wia-item.md) , представляющий устройство.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -126,8 +126,8 @@ Set objWia = objWia.Create(Nothing)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (версия 4,90 или более поздняя)</dt> </dl> |
 
 

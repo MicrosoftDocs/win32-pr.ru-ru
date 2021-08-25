@@ -4,18 +4,18 @@ ms.assetid: f43bccce-0f8c-4732-b678-5fd3218a9f84
 title: Стандартные права доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf28fb1ac86a60df373a9f747510b4df624a17eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56067a4ed31f9506aee0b326e82a9bd5b4b49b02d12e6d401cc04f8262b19da0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907114"
 ---
 # <a name="standard-access-rights"></a>Стандартные права доступа
 
 Каждый тип защищаемого объекта имеет набор прав доступа, соответствующих операциям, относящимся к этому типу объекта. Помимо этих прав доступа для конкретного объекта существует набор стандартных прав доступа, соответствующих операциям, общим для большинства типов защищаемых объектов.
 
-[Формат маски доступа](access-mask-format.md) включает набор битов для стандартных прав доступа. Следующие константы Windows для стандартных прав доступа определяются в Winnt. h.
+[Формат маски доступа](access-mask-format.md) включает набор битов для стандартных прав доступа. следующие Windows константы для стандартных прав доступа определяются в Winnt. h.
 
 
 

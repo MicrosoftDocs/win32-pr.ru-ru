@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: a5902b3c91b3ab12b311121bd7dcd8c415a68d6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b5afa1e9039b7f210dfbf71c8bceff4a7b438b413844a7a7e55dec0fd9fea8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855764"
 ---
 # <a name="iupdateendpointauthtoken-interface"></a>Интерфейс Иупдатиндпоинтаустокен
 
@@ -49,15 +49,15 @@ ms.locfileid: "104497607"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
-| Header<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                   |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
+| Заголовок<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Упдатиндпоинтаус. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Упдатиндпоинтаус. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |

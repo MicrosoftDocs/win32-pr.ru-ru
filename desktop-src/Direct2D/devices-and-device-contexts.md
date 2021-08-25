@@ -8,20 +8,20 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 2858861956a40bf969309be474105052e4692cde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 735ad81a5911b16c159ffb8c63173421a55295e20e34090eb483065e1a7d311c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104568151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833003"
 ---
 # <a name="how-to-render-by-using-a-direct2d-device-context"></a>Подготовка к просмотру с помощью контекста устройства Direct2D
 
-В этом разделе вы узнаете, как создать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) в Windows 8. Эти сведения относятся к вам при разработке приложений для Магазина Windows или классических приложений с помощью Direct2D. В этом разделе описывается назначение объектов контекста устройства Direct2D, создание этого объекта и пошаговое руководство по отрисовке и отображению примитивов и изображений Direct2D. Кроме того, вы узнаете о переключении целевых объектов рендеринга и добавлении эффектов в приложение.
+В этом разделе вы узнаете, как создать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) в Windows 8. эти сведения относятся к вам при разработке приложений Windows Store или классических приложений с помощью Direct2D. В этом разделе описывается назначение объектов контекста устройства Direct2D, создание этого объекта и пошаговое руководство по отрисовке и отображению примитивов и изображений Direct2D. Кроме того, вы узнаете о переключении целевых объектов рендеринга и добавлении эффектов в приложение.
 
 -   [Что такое устройство Direct2D?](#what-is-a-direct2d-device)
 -   [Что такое контекст устройства Direct2D?](#what-is-a-direct2d-device-context)
--   [Подготовка к просмотру с помощью Direct2D в Windows 8](#rendering-with-direct2d-on-windows-8)
+-   [Подготовка к просмотру с помощью Direct2D на Windows 8](#rendering-with-direct2d-on-windows-8)
 -   [Зачем использовать контекст устройства для подготовки к просмотру?](#why-use-a-device-context-to-render)
 -   [Создание контекста устройства Direct2D для подготовки к просмотру](#how-to-create-a-direct2d-device-context-for-rendering)
 -   [Выбор целевого объекта](#selecting-a-target)
@@ -35,15 +35,15 @@ ms.locfileid: "104568151"
 
 [**Контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) (предоставляет указатель на интерфейс **ID2D1DeviceContext** ) представляет набор состояний и буферов команд, которые используются для отображения в целевом объекте. Вы можете вызывать методы в контексте устройства для задания состояния конвейера и создания команд отрисовки с помощью ресурсов, принадлежащих устройству.
 
-## <a name="rendering-with-direct2d-on-windows-8"></a>Подготовка к просмотру с помощью Direct2D в Windows 8
+## <a name="rendering-with-direct2d-on-windows-8"></a>Подготовка к просмотру с помощью Direct2D на Windows 8
 
-В Windows 7 и более ранних версиях вы используете [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) или другой целевой интерфейс рендеринга для отображения в окне или на поверхности. Начиная с Windows 8, мы не рекомендуем выполнять отрисовку с помощью методов, зависящих от интерфейсов, таких как **ID2D1HwndRenderTarget** , так как они не работают с приложениями Магазина Windows. Вы можете использовать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) для отображения в HWND, если хотите создать классическое приложение и использовать преимущества дополнительных функций **контекста устройства** . Однако для отображения содержимого в приложениях Магазина Windows с помощью [Direct2D](./direct2d-portal.md)требуется **контекст устройства** .
+в Windows 7 и более ранних версиях вы используете [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) или другой целевой интерфейс рендеринга для отображения в окне или на поверхности. начиная с Windows 8 не рекомендуется выполнять отрисовку с помощью методов, зависящих от интерфейсов, таких как **ID2D1HwndRenderTarget** , так как они не работают с приложениями магазина Windows. Вы можете использовать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) для отображения в HWND, если хотите создать классическое приложение и использовать преимущества дополнительных функций **контекста устройства** . однако для отображения содержимого в приложениях Windows Store с помощью [Direct2D](./direct2d-portal.md)требуется **контекст устройства** .
 
 ## <a name="why-use-a-device-context-to-render"></a>Зачем использовать контекст устройства для подготовки к просмотру?
 
--   Можно визуализировать приложения для Магазина Windows.
+-   вы можете подготовиться к просмотру для приложений Windows Store.
 -   Целевой объект отрисовки можно изменить в любое время до, во время и после отрисовки. Контекст устройства гарантирует, что вызовы методов рисования выполняются по порядку и применяют их при переключении целевого объекта рендеринга.
--   В контексте устройства можно использовать более одного типа окон. Вы можете использовать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) и [**цепочку подкачки DXGI**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) для непосредственного отображения в [**Windows:: UI:: Core:: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) или в [**Windows:: UI:: XAML:: SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel).
+-   В контексте устройства можно использовать более одного типа окон. можно использовать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) и [**цепочку подкачки DXGI**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) для непосредственного отображения в [**Windows:: ui:: Core:: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) или в [**Windows:: ui:: XAML:: SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel).
 -   Вы можете использовать [**контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) для создания [эффектов Direct2D](effects-overview.md) и визуализации выходных данных эффекта изображения или графа эффектов в целевой объект прорисовки.
 -   Можно использовать несколько [**контекстов устройств**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext), что может быть полезно для повышения производительности в многопоточном приложении. Дополнительные сведения см. в разделе [многопоточные приложения Direct2D](multi-threaded-direct2d-apps.md) .
 -   [**Контекст устройства**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) тесно взаимодействует с Direct3D, обеспечивая вам больше доступа к параметрам Direct3D.
@@ -59,7 +59,7 @@ ms.locfileid: "104568151"
 > [!Note]  
 > В этом коде предполагается, что у вас уже есть объект [**ID2D1Factory1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1factory1) . Дополнительные сведения см. на [**странице справочника по ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory).
 
- 
+ 
 
 
 ```C++
@@ -132,7 +132,7 @@ ms.locfileid: "104568151"
         > [!Note]  
         > [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) выполняет поиск в списке, пока не найдет уровень компонентов, поддерживаемый основной системой.
 
-         
+         
 
     -   Используйте функцию [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) для создания объекта [**ID3D11Device**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1) , функция также возвращает объект [**ссылку ID3D11DeviceContext**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1) , но этот объект не требуется для этого примера.
 
@@ -230,15 +230,15 @@ ms.locfileid: "104568151"
 
 1.  Выделите структуру [**\_ \_ \_ DESC1 цепочки подкачки**](/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) и определите параметры для [**цепочки**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)буферов.
 
-    Эти параметры показывают пример создания цепочки буферов, которую может использовать приложение Магазина Windows.
+    в этих параметрах показан пример создания цепочки буферов, которую может использовать приложение для магазина Windows.
 
 2.  Получите адаптер, на котором выполняется [**устройство Direct3D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11device) и [**Устройство DXGI**](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) , и получите связанный с ними объект [**идксгифактори**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) . Эту **фабрику DXGI** необходимо использовать, чтобы убедиться, что [**цепочка**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) буферов создана на том же адаптере.
 
-3.  Вызовите метод [**IDXGIFactory2:: креатесвапчаинфоркоревиндов**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) , чтобы создать цепочку буферов. Используйте класс [**Windows:: UI:: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) для главного окна приложения Магазина Windows.
+3.  Вызовите метод [**IDXGIFactory2:: креатесвапчаинфоркоревиндов**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) , чтобы создать цепочку буферов. используйте класс [**Windows:: UI:: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) для главного окна приложения магазина Windows.
 
     Убедитесь, что для параметра Максимальная задержка кадра задано значение 1, что снизит энергопотребление.
 
-    Если вы хотите визуализировать содержимое Direct2D в приложении для Магазина Windows, см. метод [**креатесвапчаинфоркомпоситион**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) .
+    если вы хотите визуализировать содержимое Direct2D в приложении для магазина Windows, см. метод [**креатесвапчаинфоркомпоситион**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) .
 
 4.  Получение заднего буфера из [**цепочки**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain)буферов обмена. Задний буфер предоставляет интерфейс [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) , выделенный **цепочкой** буферов обмена.
 
@@ -295,6 +295,6 @@ DX::ThrowIfFailed(
 
 Теперь можно использовать [**контекст устройства Direct2D**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) для рисования примитивов, изображений, эффектов изображения и текста на экране.
 
- 
+ 
 
- 
+ 

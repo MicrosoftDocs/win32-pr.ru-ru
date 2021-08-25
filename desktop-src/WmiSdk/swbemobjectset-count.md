@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3154e22bbdbc75080ceebdf8b1eef602cf5c3be3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1305cc0119f002f8ac3229664227d5c21bea9d865eedb0a31fcb7eb77250424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857234"
 ---
 # <a name="swbemobjectsetcount-property"></a>SWbemObjectSet. Count, свойство
 
@@ -42,7 +42,7 @@ SWbemObjectSet.Count As Integer
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании параметра count необходимо соблюдать осторожность, так как инструментарий WMI не сохраняет непрерывное количество элементов в коллекции. Если вы запрашиваете счетчик для коллекции, Инструментарий WMI не может мгновенно ответить на число. Вместо этого он должен буквально подсчитать элементы, перечисляя всю коллекцию. Для коллекции, которая содержит относительно несколько элементов, таких как службы, это перечисление, скорее всего, занимает меньше секунды. Однако подсчет количества событий в коллекции журналов событий может занять значительно больше времени.
 
@@ -87,7 +87,7 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ End If
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECTSET CLSID<br/>                                                        |

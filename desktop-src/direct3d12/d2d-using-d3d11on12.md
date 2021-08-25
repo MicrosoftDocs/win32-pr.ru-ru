@@ -1,18 +1,18 @@
 ---
-title: D2D с использованием D3D11on12
+title: D2D и D3D11on12
 description: В примере D3D1211on12 показано, как визуализировать содержимое D2D через D3D12 содержимое путем совместного использования ресурсов между устройством на базе 11 и устройством на 12 устройств.
 ms.assetid: FAEF1412-053C-4B5F-80FA-85396C2586B4
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d18399b85499787f74dab725d562b6a299878b35
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a84f935ba49df4910aa729c39ae6ac0ce08f3810bf3b0cd75752bbe4c00e9ef1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104549051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858023"
 ---
-# <a name="d2d-using-d3d11on12"></a>D2D с использованием D3D11on12
+# <a name="d2d-using-d3d11on12"></a>D2D и D3D11on12
 
 В примере **D3D1211on12** показано, как ВИЗУАЛИЗИРОВАТЬ содержимое D2D через D3D12 содержимое путем совместного использования ресурсов между устройством на базе 11 и устройством на 12 устройств.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104549051"
 
 
 
- 
+ 
 
 ## <a name="create-a-d2d-factory"></a>Создание фабрики D2D
 
@@ -94,7 +94,7 @@ ms.locfileid: "104549051"
 
 
 
- 
+ 
 
 ## <a name="create-a-render-target-for-d2d"></a>Создание целевого объекта отрисовки для D2D
 
@@ -179,14 +179,14 @@ D3D12 владеет цепочкой буферов обмена, поэтом�
 </tr>
 <tr class="odd">
 <td><a href="cd3dx12-cpu-descriptor-handle.md"><strong>CD3DX12_CPU_DESCRIPTOR_HANDLE</strong></a></td>
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>жеткпудескрипторхандлефорхеапстарт</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12descriptorheap-getcpudescriptorhandleforheapstart"><strong>GetCPUDescriptorHandleForHeapStart</strong></a></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer"><strong>Идксгисвапчаин:: buffer</strong></a></td>
 
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview"><strong>креатерендертаржетвиев</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createrendertargetview"><strong>CreateRenderTargetView</strong></a></td>
 
 </tr>
 <tr class="even">
@@ -194,7 +194,7 @@ D3D12 владеет цепочкой буферов обмена, поэтом�
 <td><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_bind_flag"><strong>D3D11_BIND_FLAG</strong></a></td>
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource"><strong>креатевраппедресаурце</strong></a></td>
+<td><a href="/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-createwrappedresource"><strong>CreateWrappedResource</strong></a></td>
 <td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
 </tr>
 <tr class="even">
@@ -206,7 +206,7 @@ D3D12 владеет цепочкой буферов обмена, поэтом�
 
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator"><strong>креатекоммандаллокатор</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator"><strong>CreateCommandAllocator</strong></a></td>
 <td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_command_list_type"><strong>D3D12_COMMAND_LIST_TYPE</strong></a></td>
 </tr>
 </tbody>
@@ -214,7 +214,7 @@ D3D12 владеет цепочкой буферов обмена, поэтом�
 
 
 
- 
+ 
 
 ## <a name="create-basic-d2d-text-objects"></a>Создание базовых текстовых объектов D2D
 
@@ -250,7 +250,7 @@ D3D12 владеет цепочкой буферов обмена, поэтом�
 
 
 
- 
+ 
 
 ## <a name="updating-the-main-render-loop"></a>Обновление основного цикла рендеринга
 
@@ -281,12 +281,12 @@ void D3D1211on12::OnRender()
 | Поток вызовов                                                              | Параметры |
 |------------------------------------------------------------------------|------------|
 | [**ID3D12CommandList**](/windows/desktop/api/d3d12/nn-d3d12-id3d12commandlist)                         |            |
-| [**ексекутекоммандлистс**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
+| [**ExecuteCommandLists**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)  |            |
 | [**IDXGISwapChain1::Present1**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1) |            |
 
 
 
- 
+ 
 
 Единственное, что нового в нашем цикле подготовки к просмотру — это вызов **рендеруи** , который будет использовать D2D для визуализации нашего пользовательского интерфейса. Обратите внимание, что мы сначала выполняем все списки команд D3D12, чтобы визуализировать трехмерную сцену, а затем отрисовка пользовательского интерфейса поверх него. Прежде чем мы подробно рассмотрим **рендеруи**, мы должны взглянуть на изменения в **популатекоммандлистс**. В других примерах мы обычно помещаем барьер ресурсов в список команд перед его закрытием, чтобы перевести задний буфер из целевого состояния прорисовки в текущее состояние. Однако в этом примере мы удалим этот барьер ресурсов, так как нам по-прежнему нужно выполнить рендеринг в задние буферы с D2D. Обратите внимание, что при создании заключенных в оболочку ресурсов заднего буфера мы указали состояние целевого объекта прорисовки как "IN" (состояние "IN") и текущее состояние в качестве состояния "OUT" (исходящие).
 
@@ -332,18 +332,18 @@ void D3D1211on12::RenderUI()
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [**D2D1 \_ размер \_ F**](/windows/desktop/Direct2D/d2d1-size-f)                                                                                                                                                 |                                       |
 | [**D2D1 \_ Rect \_ F**](/windows/desktop/Direct2D/d2d1-rect-f)                                                                                                                                                 | [**ректф**](/windows/desktop/api/d2d1helper/nf-d2d1helper-rectf)           |
-| [**аккуиревраппедресаурцес**](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources)                                                                                                               |                                       |
+| [**AcquireWrappedResources**](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-acquirewrappedresources)                                                                                                               |                                       |
 | [**ID2D1DeviceContext:: Сеттаржет**](/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget)                                                                                                                |                                       |
 | [**ID2D1RenderTarget:: Бегиндрав**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw)                                                                                                                  |                                       |
 | [**ID2D1RenderTarget:: Сеттрансформ**](/windows/desktop/Direct2D/id2d1rendertarget-settransform)                                                                                                            | [**Matrix3x2F**](/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f) |
 | [**ID2D1RenderTarget::D Равтекств**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)) |                                       |
 | [**ID2D1RenderTarget:: EndDraw**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw)                                                                                                                      |                                       |
-| [**релеасевраппедресаурцес**](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources)                                                                                                               |                                       |
+| [**ReleaseWrappedResources**](/windows/desktop/api/d3d11on12/nf-d3d11on12-id3d11on12device-releasewrappedresources)                                                                                                               |                                       |
 | [**Ссылку ID3D11DeviceContext:: Flush**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush)                                                                                                                    |                                       |
 
 
 
- 
+ 
 
 ## <a name="run-the-sample"></a>Запуск примера
 
@@ -353,7 +353,7 @@ void D3D1211on12::RenderUI()
 
 <dl> <dt>
 
-[Пошаговые инструкции по коду D3D12](d3d12-code-walk-throughs.md)
+[Пошаговые руководства по коду D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
 [Direct3D 11 на 12](direct3d-11-on-12.md)
@@ -365,6 +365,6 @@ void D3D1211on12::RenderUI()
 [Справочник по 11on12](direct3d-11on12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

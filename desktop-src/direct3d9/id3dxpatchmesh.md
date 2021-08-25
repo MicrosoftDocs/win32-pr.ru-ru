@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f1f13e6abe3a164e8027ddcb6bb33e9f0ca618fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44899ccee6f13aa25b01e284df5a892196d657610c3f89d546fc0b646eeaa069
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856284"
 ---
 # <a name="id3dxpatchmesh-interface"></a>Интерфейс ID3DXPatchMesh
 
@@ -55,7 +55,7 @@ ms.locfileid: "104355210"
 | [**локкаттрибутебуффер**](id3dxpatchmesh--lockattributebuffer.md)               | Блокирует буфер атрибута.<br/>                                                          |
 | [**локкиндексбуффер**](id3dxpatchmesh--lockindexbuffer.md)                       | Блокировка буфера индекса.<br/>                                                               |
 | [**локквертексбуффер**](id3dxpatchmesh--lockvertexbuffer.md)                     | Блокировка буфера вершин.<br/>                                                              |
-| [**Увеличить**](id3dxpatchmesh--optimize.md)                                     | Оптимизирует сетку исправлений для эффективной тесселяции.<br/>                                 |
+| [**Оптимизация**](id3dxpatchmesh--optimize.md)                                     | Оптимизирует сетку исправлений для эффективной тесселяции.<br/>                                 |
 | [**сетдисплацепарам**](id3dxpatchmesh--setdisplaceparam.md)                     | Задает параметры смещения геометрических объектов сетки.<br/>                                          |
 | [**Проводить тесселяцию**](id3dxpatchmesh--tessellate.md)                                 | Выполняет однородную тесселяцию на основе уровня тесселяции.<br/>                       |
 | [**тесселлатеадаптиве**](id3dxpatchmesh--tessellateadaptive.md)                 | Выполняет адаптивную тесселяцию на основе z-критерия адаптивной тесселяции.<br/> |
@@ -67,7 +67,7 @@ ms.locfileid: "104355210"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сетка исправлений — это сетка, которая состоит из серии исправлений.
 
@@ -88,7 +88,7 @@ typedef struct ID3DXPatchMesh *LPD3DXPATCHMESH;
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

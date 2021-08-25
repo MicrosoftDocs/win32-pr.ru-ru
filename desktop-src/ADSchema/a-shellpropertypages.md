@@ -1,6 +1,6 @@
 ---
 title: Атрибут "Shell-property-pages"
-description: Порядковый номер и идентификатор GUID страниц свойств для управления объектами Active Directory. Доступ к этим страницам свойств можно получить из оболочки Windows. Дополнительные сведения см. в документе расширение пользовательского интерфейса для объектов каталога.
+description: Порядковый номер и идентификатор GUID страниц свойств для управления объектами Active Directory. доступ к этим страницам свойств можно получить из оболочки Windows. Дополнительные сведения см. в документе расширение пользовательского интерфейса для объектов каталога.
 ms.assetid: e0edd91b-bdb6-47aa-9be2-8a23a89adb26
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: befad2334a754843fa0ae412565db8c82260f7cd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb4ec36aa7738db5762f6cb1dc80e418f60b67c4529cd613cb4a2299d1d0fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836304"
 ---
 # <a name="shell-property-pages-attribute"></a>Атрибут "Shell-property-pages"
 
-Порядковый номер и идентификатор GUID страниц свойств для управления объектами Active Directory. Доступ к этим страницам свойств можно получить из оболочки Windows. Дополнительные сведения см. в документе расширение пользовательского интерфейса для объектов каталога.
+Порядковый номер и идентификатор GUID страниц свойств для управления объектами Active Directory. доступ к этим страницам свойств можно получить из оболочки Windows. Дополнительные сведения см. в документе расширение пользовательского интерфейса для объектов каталога.
 
 
 
