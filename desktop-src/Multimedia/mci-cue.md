@@ -3,7 +3,7 @@ title: Команда MCI_CUE (Ммсистем. h)
 description: Команда MCI \_ Cue подписывает устройство, чтобы воспроизведение или запись начинались с минимальной задержкой. Эта команда распознает цифровые видеоролики, видеомагнитофоны и звуковые устройства аудио-видео.
 ms.assetid: 22da4a84-a7af-42df-b950-8d1184fff9ba
 keywords:
-- MCI_CUE команды мультимедиа Windows
+- команда MCI_CUE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec8463c68f304fe216049568e0df518cbe1d0090
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 432c3fcd89a4841840559e44400716834df260b533d2cf40daa9da5e6a8fb6f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784604"
 ---
 # <a name="mci_cue-command"></a>\_Команда MCI Cue
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 С типом устройства **дигиталвидео** используются следующие дополнительные флаги:
 
@@ -182,7 +182,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

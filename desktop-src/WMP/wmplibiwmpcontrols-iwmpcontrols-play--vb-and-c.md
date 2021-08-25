@@ -3,9 +3,9 @@ title: Метод Play Ивмпконтролс
 description: Метод Play начинает воспроизведение текущего элемента мультимедиа или возобновляет воспроизведение приостановленного элемента.
 ms.assetid: 02e00df6-4dc1-44bb-9826-e69e8298ccaa
 keywords:
-- воспроизвести метод проигрыватель Windows Media
-- метод Play проигрыватель Windows Media Player, интерфейс Ивмпконтролс
-- Интерфейс Ивмпконтролс Windows Media Player, метод Play
+- метод play проигрыватель Windows Media
+- метод play проигрыватель Windows Media, интерфейс ивмпконтролс
+- интерфейс ивмпконтролс проигрыватель Windows Media, метод play
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fd87a2e2ba3d53b119df328fa68668c91c78d6d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2823c5f9846ec2569da0ede6629a4b7e8c04c7b61e14060451c8d0cf3a02f71d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761024"
 ---
 # <a name="iwmpcontrolsplay-method"></a>Ивмпконтролс: метод макетирования:p
 
@@ -53,7 +53,7 @@ Implements IWMPControls.play
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот метод вызывается во время быстрой пересылки или перемотки, скорость воспроизведения (значение **ивмпсеттингс. rate**) устанавливается равным 1,0.
 
@@ -106,7 +106,7 @@ End Sub
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

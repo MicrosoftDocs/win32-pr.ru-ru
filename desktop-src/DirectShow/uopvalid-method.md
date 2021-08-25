@@ -4,17 +4,17 @@ ms.assetid: 0d2c4693-95eb-4cc8-a8f6-61fd0b6d57be
 title: Метод Уопвалид (Segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3051ad20c496713880407270c7054839520ce5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2eee8f11fbcc51c982b2a619f35fdd56b0f0eebe86945e84f18d6ce62afa783b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078674"
 ---
 # <a name="uopvalid-method"></a>Метод Уопвалид
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -40,7 +40,7 @@ ms.locfileid: "105685343"
 | 0     | [**Плайтитле**](playtitle-method.md), [**плайаттиме**](playattime-method.md)[**плайаттимеинтитле**](playattimeintitle-method.md)                                                                                      |
 | 1     | [**плайчаптер**](playchapter-method.md)                                                                                                                                                                                |
 | 2     | [**плайтитле**](playtitle-method.md)                                                                                                                                                                                    |
-| 3     | [**Stop**](stop-method.md)                                                                                                                                                                                              |
+| 3     | [**Позиции**](stop-method.md)                                                                                                                                                                                              |
 | 4     | [**ретурнфромсубмену**](returnfromsubmenu-method.md)                                                                                                                                                                    |
 | 5     | [**плайчаптер**](playchapter-method.md)                                                                                                                                                                                |
 | 6     | [**Плайпревчаптер**](playprevchapter-method.md), [ **реплайчаптер**](replaychapter-method.md)                                                                                                                         |
@@ -73,13 +73,13 @@ ms.locfileid: "105685343"
 
 Возвращает логическое значение, указывающее, разрешена ли указанная операция элементом управления УОП.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 

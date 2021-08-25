@@ -6,12 +6,12 @@ keywords:
 - Функция Капкреатекаптуревиндов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 084d035d44b8d0b46df31afa5c3235e59286121c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 665a194759edbf4a690b1966c4cd0c175ba05b9cd099d80412e5c5353183bcab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785784"
 ---
 # <a name="creating-an-avicap-capture-window"></a>Создание окна Авикап Capture
 
@@ -19,9 +19,9 @@ ms.locfileid: "104329283"
 
 Можно создать одно или несколько окон захвата в приложении и подключить каждое окно захвата к другому устройству записи.
 
- 
+ 
 
- 
+ 
 
 
 

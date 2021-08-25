@@ -4,12 +4,12 @@ ms.assetid: ec6cc790-8c1f-4de4-a7ca-a7073894380e
 title: Фильтр модуля подготовки DirectSound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae932340ea22213e0f9d7234599742d74208f632
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b601c0e85169857cd628b3b3e55b5c00af8ea11
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139322"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481580"
 ---
 # <a name="directsound-renderer-filter"></a>Фильтр модуля подготовки DirectSound
 
@@ -19,63 +19,9 @@ ms.locfileid: "104139322"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Интерфейсы фильтра</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>Иамаудиорендерерстатс</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>иамклоккславе</strong></a>, <a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>иамдиректсаунд</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>иамресаурцеконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a>, <a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a>, <strong>IDirectSound3DBuffer</strong>, <strong>IDirectSound3dListener</strong>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей входных закрепления</td>
-<td>Основной тип: MEDIATYPE_AudioSubtypes:<br/>
-<ul>
-<li>MEDIASUBTYPE_PCM</li>
-<li>MEDIASUBTYPE_IEEE_FLOAT</li>
-<li>MEDIASUBTYPE_DOLBY_AC3_SPDIF</li>
-<li>MEDIASUBTYPE_RAW_SPORT</li>
-<li>MEDIASUBTYPE_SPDIF_TAG_241h</li>
-<li>MEDIASUBTYPE_DRM_Audio</li>
-</ul>
-Тип формата: FORMAT_WaveFormatEx<br/></td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы входных закрепления</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>ипинконнектион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей для выходного ПИН-кода</td>
-<td>Не применяется</td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы выходного ПИН-кода</td>
-<td>Не применяется</td>
-</tr>
-<tr class="even">
-<td>Фильтровать CLSID</td>
-<td>CLSID_DSoundRender</td>
-</tr>
-<tr class="odd">
-<td>CLSID страницы свойств</td>
-<td>CLSID_AudioProperties, CLSID_AudioRendererAdvancedProperties</td>
-</tr>
-<tr class="even">
-<td>Исполняемый объект</td>
-<td>quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Заслуживают</a></td>
-<td>MERIT_PREFERRED</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Категория фильтра</a></td>
-<td>CLSID_AudioRendererCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-iamaudiorendererstats"><strong>Иамаудиорендерерстатс</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamclockslave"><strong>иамклоккславе</strong></a>, <a href="/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound"><strong>иамдиректсаунд</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol"><strong>иамресаурцеконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>ибасефилтер</strong></a>, <a href="/windows/desktop/api/Control/nn-control-ibasicaudio"><strong>IBasicAudio</strong></a>, <strong>IDirectSound3DBuffer</strong>, <strong>IDirectSound3dListener</strong>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ireferenceclock"><strong>IReferenceClock</strong></a> | | Типы входных закрепления Основной тип: MEDIATYPE_AudioSubtypes:<br /><ul><li>MEDIASUBTYPE_PCM</li><li>MEDIASUBTYPE_IEEE_FLOAT</li><li>MEDIASUBTYPE_DOLBY_AC3_SPDIF</li><li>MEDIASUBTYPE_RAW_SPORT</li><li>MEDIASUBTYPE_SPDIF_TAG_241h</li><li>MEDIASUBTYPE_DRM_Audio</li></ul>Тип формата: FORMAT_WaveFormatEx<br /> | | Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipinconnection"><strong>ипинконнектион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Типы выходных закрепления Неприменимо. | | Интерфейсы выходного ПИН-кода | Неприменимо. | | Фильтровать CLSID | CLSID_DSoundRender | | CLSID страницы свойств | CLSID_AudioProperties, CLSID_AudioRendererAdvancedProperties | | Исполняемый файл | quartz.dll | | <a href="merit.md"></a> Кому | MERIT_PREFERRED | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_AudioRendererCategory | 
+
 
 
 
@@ -96,15 +42,15 @@ ms.locfileid: "104139322"
 
 Если пользователь выбрал устройство A в качестве устройства по умолчанию, то "устройство DirectSound по умолчанию" эквивалентно "DirectSound: устройство A,", а "устройство для звукового сигнала по умолчанию" эквивалентно "устройство а". Если пользователь выбирает устройство б в качестве устройства по умолчанию, эти сопоставления изменятся.
 
-"Устройству DirectSound по умолчанию" назначена неуспешная версия \_ . У других есть неуспешные \_ \_ \_ работы. Поэтому интеллектуальное подключение всегда будет выбирать устройство DirectSound по умолчанию.
+"Устройству DirectSound по умолчанию" назначена неуспешная версия \_ . У других есть неуспешные \_ \_ \_ работы. таким образом, интеллектуальные Подключение всегда будут выбирать устройство DirectSound по умолчанию.
 
 Фильтр модуля обработки DirectSound поддерживает трехмерный звук через интерфейсы DirectSound **IDirectSound3DBuffer** и **IDirectSound3dListener** . Можно также запросить фильтр для текущих версий этих интерфейсов, **IDirectSound3DBuffer8** и **IDirectSound3dListener8**. Перед вызовом методов для этих интерфейсов запустите граф.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

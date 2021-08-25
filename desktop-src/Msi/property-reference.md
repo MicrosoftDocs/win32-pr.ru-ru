@@ -4,12 +4,12 @@ ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: Справочник по свойствам
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18958c09c3a0c4c42363d725f61b03b9de00782049928c7f03cf43d4e89043b8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e38f952632609090c69b85786c6aef64243d420b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119828474"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481570"
 ---
 # <a name="property-reference"></a>Справочник по свойствам
 
@@ -97,7 +97,7 @@ ms.locfileid: "119828474"
 | [**ОБНОВИТ**](reboot.md)<br/>                                                     | Принудительная или подавляет перезагрузку.<br/>                                                                                                                                                                                                                                                                                                                                                    |
 | [**ребутпромпт**](rebootprompt.md)<br/>                                         | Подавляет отображение запросов на перезапуск для пользователя. Все необходимые перезагрузки происходят автоматически.<br/>                                                                                                                                                                                                                                                                     |
 | [**рутдриве**](rootdrive.md)<br/>                                               | Диск по умолчанию для установки.<br/>                                                                                                                                                                                                                                                                                                                                                 |
-| [**ВИРТУАЛИЗИРОВАН**](sequence.md)<br/>                                                 | Таблица, которая содержит схему таблицы последовательности.<br/>                                                                                                                                                                                                                                                                                                                                        |
+| [**SEQUENCE**](sequence.md)<br/>                                                 | Таблица, которая содержит схему таблицы последовательности.<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [**шортфиленамес**](shortfilenames.md)<br/>                                     | Приводит к тому, что используются короткие имена файлов.<br/>                                                                                                                                                                                                                                                                                                                                                |
 | [**ПРЕОБРАЗОВАНИЯ**](transforms.md)<br/>                                             | Список преобразований, которые будут применены к базе данных.<br/>                                                                                                                                                                                                                                                                                                                                    |
 | [**трансформсатсаурце**](transformsatsource.md)<br/>                             | Информирует установщик о том, что преобразования для продукта находятся в источнике.<br/>                                                                                                                                                                                                                                                                                                      |
@@ -119,7 +119,7 @@ ms.locfileid: "119828474"
 | Свойство                        | Описание                  |
 |---------------------------------|------------------------------|
 | [**Дата**](date.md)<br/> | Текущая дата.<br/> |
-| [**Время**](time.md)<br/> | Текущее время.<br/> |
+| [**Таймаут**](time.md)<br/> | Текущее время.<br/> |
 
 
 
@@ -164,77 +164,23 @@ ms.locfileid: "119828474"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="alpha.md"><strong>Коэффициент альфа</strong></a><br/></td>
-<td>Числовой уровень процессора при работе на процессоре Alpha.<br/>
-<blockquote>
-[!Note]<br />
-это свойство устарело, платформа Alpha не поддерживается установщик Windows.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="borderside.md"><strong>бордерсиде</strong></a><br/></td>
-<td>Ширина границ окна (в пикселях).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bordertop.md"><strong>бордертоп</strong></a><br/></td>
-<td>Высота границ окна (в пикселях).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="captionheight.md"><strong>каптионхеигхт</strong></a><br/></td>
-<td>Высота области обычных заголовков в пикселях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="colorbits.md"><strong>колорбитс</strong></a><br/></td>
-<td>Число смежных цветовых битов для каждого пикселя.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="intel.md"><strong>Intel</strong></a><br/></td>
-<td>Числовой уровень процессора при работе на процессоре Intel.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="intel64.md"><strong>Intel64</strong></a><br/></td>
-<td>Числовой уровень процессора при работе на процессоре Itanium.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="msix64.md"><strong>Msix64</strong></a><br/></td>
-<td>Числовой уровень процессора при запуске на процессоре x64.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br/></td>
-<td>Размер установленного ОЗУ в мегабайтах.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="screenx.md"><strong>скринкс</strong></a><br/></td>
-<td>Ширина экрана в пикселях.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="screeny.md"><strong>Экран</strong></a><br/></td>
-<td>Высота экрана в пикселях.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="textheight.md"><strong>текссеигхт</strong></a><br/></td>
-<td>Высота символов в логических единицах.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="virtualmemory.md"><strong>виртуалмемори</strong></a><br/></td>
-<td>Объем доступного места в файле подкачки в мегабайтах.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Описание | 
+|----------|-------------|
+| <a href="alpha.md"><strong>Коэффициент альфа</strong></a><br /> | Числовой уровень процессора при работе на процессоре Alpha.<br /><blockquote>[!Note]<br />это свойство устарело, платформа Alpha не поддерживается установщик Windows.</blockquote><br /> | 
+| <a href="borderside.md"><strong>бордерсиде</strong></a><br /> | Ширина границ окна (в пикселях).<br /> | 
+| <a href="bordertop.md"><strong>бордертоп</strong></a><br /> | Высота границ окна (в пикселях).<br /> | 
+| <a href="captionheight.md"><strong>каптионхеигхт</strong></a><br /> | Высота области обычных заголовков в пикселях.<br /> | 
+| <a href="colorbits.md"><strong>колорбитс</strong></a><br /> | Число смежных цветовых битов для каждого пикселя.<br /> | 
+| <a href="intel.md"><strong>Intel</strong></a><br /> | Числовой уровень процессора при работе на процессоре Intel.<br /> | 
+| <a href="intel64.md"><strong>Intel64</strong></a><br /> | Числовой уровень процессора при работе на процессоре Itanium.<br /> | 
+| <a href="msix64.md"><strong>Msix64</strong></a><br /> | Числовой уровень процессора при запуске на процессоре x64.<br /> | 
+| <a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br /> | Размер установленного ОЗУ в мегабайтах.<br /> | 
+| <a href="screenx.md"><strong>скринкс</strong></a><br /> | Ширина экрана в пикселях.<br /> | 
+| <a href="screeny.md"><strong>Экран</strong></a><br /> | Высота экрана в пикселях.<br /> | 
+| <a href="textheight.md"><strong>текссеигхт</strong></a><br /> | Высота символов в логических единицах.<br /> | 
+| <a href="virtualmemory.md"><strong>виртуалмемори</strong></a><br /> | Объем доступного места в файле подкачки в мегабайтах.<br /> | 
+
 
 
 
@@ -419,7 +365,7 @@ ms.locfileid: "119828474"
 | [**LogonUser**](logonuser.md)<br/>                     | Имя пользователя, выполнившего вход в систему.<br/>                           |
 | [**мсихидденпропертиес**](msihiddenproperties.md)<br/> | Список свойств, которые не могут быть записаны в журнал.<br/>       |
 | [**PIDKEY**](pidkey.md)<br/>                           | Часть идентификатора продукта, вводимого пользователем.<br/>                                 |
-| [**Кодом**](productid.md)<br/>                     | Полный идентификатор продукта после успешной проверки.<br/>                               |
+| [**ProductID**](productid.md)<br/>                     | Полный идентификатор продукта после успешной проверки.<br/>                               |
 | [**усерлангуажеид**](userlanguageid.md)<br/>           | Идентификатор языка по умолчанию для текущего пользователя.<br/>                             |
 | [**ИМЕН**](username.md)<br/>                       | Пользователь, выполняющий установку.<br/>                                     |
 | [**Свойство "значение"**](usersid.md)<br/>                | Задается установщиком в соответствии с идентификатором безопасности (SID) пользователя.<br/> |

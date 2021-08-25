@@ -1,5 +1,5 @@
 ---
-description: Реестр Win32 \_&\# 8194; Класс WMI представляет системный реестр в компьютерной системе под Windows.
+description: Реестр Win32 \_&\# 8194; Класс WMI представляет системный реестр в компьютерной системе, работающей Windows.
 ms.assetid: 4a6cd7d7-2845-434d-b024-d6dbb77371ea
 ms.tgt_platform: multiple
 title: Класс Win32_Registry
@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a1dc5fd89ee589aabda5da5f97632d86b39f6beb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 64611f35e08d9b816d990602b43c62330431e8afb65874cee284fac5778a898d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971579"
 ---
 # <a name="win32_registry-class"></a>\_Класс реестра Win32
 
- [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ реестра Win32** представляет системный реестр в компьютерной системе под Windows.
+ [Класс WMI](../wmisdk/retrieving-a-class.md) **\_ реестра Win32** представляет системный реестр в компьютерной системе, работающей Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -58,13 +58,13 @@ class Win32_Registry : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ реестра Win32** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -94,7 +94,7 @@ class Win32_Registry : CIM_LogicalElement
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \|NTDLL.DLL\| [**Нткуерисистеминформатион**](/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation) \| системрегистрикуотаинформатион"), [**Units**](../wmisdk/standard-qualifiers.md) ("мегабайт")
 </dt> </dl>
 
-Текущий физический размер реестра Windows.
+текущий физический размер реестра Windows.
 
 Пример: 10
 
@@ -148,11 +148,11 @@ class Win32_Registry : CIM_LogicalElement
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \| регистрисизелимит"), [**Units**](../wmisdk/standard-qualifiers.md) ("мегабайт")
 </dt> </dl>
 
-Максимальный размер реестра Windows. Если система успешно использует свойство **пропоседсизе** , **MaximumSize** должно содержать то же значение.
+максимальный размер реестра Windows. Если система успешно использует свойство **пропоседсизе** , **MaximumSize** должно содержать то же значение.
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -164,7 +164,7 @@ class Win32_Registry : CIM_LogicalElement
 Квалификаторы: [**ключ**](../wmisdk/key-qualifier.md), [**Переопределение**](../wmisdk/standard-qualifiers.md) ("имя"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry")
 </dt> </dl>
 
-Имя реестра Windows. Максимальная длина составляет 256 символов.
+имя реестра Windows. Максимальная длина составляет 256 символов.
 
 </dd> <dt>
 
@@ -180,7 +180,7 @@ class Win32_Registry : CIM_LogicalElement
 Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \| регистрисизелимит"), [**Units**](../wmisdk/standard-qualifiers.md) ("мегабайт")
 </dt> </dl>
 
-Предложенный размер реестра Windows. Это единственный параметр реестра, который можно изменить, и его предложение предпринимается при следующем запуске системы.
+предложенный размер реестра Windows. Это единственный параметр реестра, который можно изменить, и его предложение предпринимается при следующем запуске системы.
 
 </dd> <dt>
 
@@ -292,11 +292,11 @@ class Win32_Registry : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ реестра Win32** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -310,7 +310,7 @@ class Win32_Registry : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,18 +4,18 @@ ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: Сообщение ProbeMatch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd856cda51d558073585f41f3db23c75fea7f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa395557aac7c67a82163066cf1bfbb854348e1c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702286"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627870"
 ---
 # <a name="probematches-message"></a>Сообщение ProbeMatch
 
 Сообщение ProbeMatch — это WS-Discovery сообщение, отправленное службой в ответ на сообщение [пробы](probe-message.md) клиента. Дополнительные сведения о сообщениях ProbeMatch см. в разделе 5,3 [спецификации WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).
 
-Сообщение ProbeMatch отправляется по адресу UDP на порт, из которого было отправлено сообщение [пробы](probe-message.md) клиента. ProbeMatch должен отправляться в течение 4 секунд сообщения пробы; в противном случае брандмауэр Windows может удалить пакет.
+Сообщение ProbeMatch отправляется по адресу UDP на порт, из которого было отправлено сообщение [пробы](probe-message.md) клиента. ProbeMatch должен отправляться в течение 4 секунд сообщения пробы; в противном случае Windows брандмауэр может удалить пакет.
 
 Если в сообщение ProbeMatch не включены Ксаддрс, клиент может отправить сообщение с [разрешением](resolve-message.md) по многоадресной рассылке UDP на порт 3702. Клиент будет отправлять сообщение с разрешением, только когда будет отправлено HTTP-сообщение (например, запрос на [Получение](get--metadata-exchange--http-request-and-message.md) метаданных или сообщение службы).
 
@@ -78,15 +78,15 @@ ms.locfileid: "105702286"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>точка фокусировки;</th>
 <th>XML</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -133,11 +133,11 @@ ms.locfileid: "105702286"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сообщения обнаружения и обмена метаданными](discovery-and-metadata-exchange-message-patterns.md)
+[обнаружение и метаданные Exchange сообщения](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Сообщение пробы](probe-message.md)

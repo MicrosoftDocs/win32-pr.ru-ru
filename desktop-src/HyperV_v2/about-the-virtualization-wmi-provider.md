@@ -4,20 +4,20 @@ ms.assetid: 773BB141-7B9C-4015-81A0-BD17B8233CCD
 title: Сведения о поставщике WMI Hyper-V
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70c30b329f7e8a3fd3ae65b49f8467a8f712707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1868560e3c82c5f97fb1bedb3979c16328a042a7b9cedf3eaf1162e45f172794
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046954"
 ---
 # <a name="about-the-hyper-v-wmi-provider"></a>Сведения о поставщике WMI Hyper-V
 
 Поставщик WMI для Hyper-V позволяет разработчикам и программистам быстро создавать собственные средства, служебные программы и усовершенствования для платформы виртуализации. Интерфейсы WMI могут управлять всеми аспектами служб Hyper-V.
 
-## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>О Microsoft Windows Server 2008 R2 Hyper-V
+## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>сведения о Microsoft Windows Server 2008 R2 Hyper-V
 
-Microsoft Windows Server 2008 R2 Hyper-V позволяет системным администраторам консолидировать отдельные серверы оборудования на одном сервере под управлением Microsoft Windows Server 2008 R2 в качестве операционной системы узла.
+microsoft Windows Server 2008 R2 Hyper-V позволяет системным администраторам консолидировать отдельные серверные серверы на одном сервере под управлением Microsoft Windows Server 2008 R2 в качестве операционной системы узла.
 
 Каждая из размещенных виртуальных машин выполняется в отдельной изолированной виртуальной среде. Это позволяет администратору легко управлять, предоставлять и поддерживать большое количество виртуальных машин, одновременно уменьшая необходимость запуска нескольких аппаратных решений для использования различных продуктов и операционных систем.
 

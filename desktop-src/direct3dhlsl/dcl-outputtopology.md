@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9648b1b662cb98bc762a479782e4d3742d4d32056fc9f15f43f58f8f4a89659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6a3b46dc226a85593a17b02118ed52088ed75d6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117726945"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472000"
 ---
 # <a name="dcl_outputtopology-sm4---asm"></a>дкл \_ аутпуттопологи (SM4-ASM)
 
@@ -31,29 +31,11 @@ ms.locfileid: "117726945"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Тип</em><br/></td>
-<td>окне Топология выходных примитивов, которая может иметь одно из следующих значений: <br/>
-<ul>
-<li><em>поинтлист</em></li>
-<li><em>линестрип</em></li>
-<li><em>трианглестрип</em></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент | Описание | 
+|------|-------------|
+| <span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Тип</em><br /> | окне Топология выходных примитивов, которая может иметь одно из следующих значений: <br /><ul><li><em>поинтлист</em></li><li><em>линестрип</em></li><li><em>трианглестрип</em></li></ul> | 
+
 
 
 

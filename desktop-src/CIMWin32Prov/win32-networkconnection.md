@@ -1,5 +1,5 @@
 ---
-description: Представляет активное сетевое подключение в среде на основе Windows.
+description: представляет активное сетевое подключение в среде на основе Windows.
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
 ms.tgt_platform: multiple
 title: Класс Win32_NetworkConnection
@@ -31,16 +31,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96d91008ff8ad2f947e6c9957d16c4f007d15e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4a8c712e8eb373730d24841133264e312694d79b593e83e89a1fc7387e7a77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972634"
 ---
 # <a name="win32_networkconnection-class"></a>\_Класс Win32 NetworkConnection
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkConnection для Win32** представляет активное сетевое подключение в среде на основе Windows.
+[класс WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkConnection для Win32** представляет активное сетевое подключение в среде на основе Windows.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства и методы имеют алфавитный порядок, а не порядок MOF.
 
@@ -76,7 +76,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ NetworkConnection** имеет следующие свойства.
 
@@ -254,7 +254,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -281,7 +281,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| *лпкоммент*")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| *лпкоммент*")
 </dt> </dl>
 
 Комментарий, предоставленный поставщиком сети.
@@ -357,7 +357,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двскопе**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двскопе**")
 </dt> </dl>
 
 Тип сохраняемости соединения, используемого для подключения к сети.
@@ -407,7 +407,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двдисплайтипе**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двдисплайтипе**")
 </dt> </dl>
 
 Сетевой объект должен отображаться в пользовательском интерфейсе обзора сети.
@@ -471,7 +471,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лплокалнаме**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лплокалнаме**")
 </dt> </dl>
 
 Локальное имя подключенного сетевого устройства.
@@ -480,7 +480,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -489,7 +489,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**ключ**](../wmisdk/key-qualifier.md), [**Переопределение**](../wmisdk/standard-qualifiers.md) ("имя"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API Network Structures \| \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)")
+квалификаторы: [**ключ**](../wmisdk/key-qualifier.md), [**переопределение**](../wmisdk/standard-qualifiers.md) ("имя"), [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)")
 </dt> </dl>
 
 Имя текущего сетевого подключения. Это сочетание значений в **ремотенаме** и **LocalName**.
@@ -507,7 +507,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые функции Windows \| [**внетенумресаурце**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network functions \| [**внетенумресаурце**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)")
 </dt> </dl>
 
 Подключение будет автоматически подключено операционной системой при следующем входе в систему.
@@ -523,7 +523,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лппровидер**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лппровидер**")
 </dt> </dl>
 
 Имя поставщика, владеющего ресурсом. Это свойство может иметь **значение NULL** , если имя поставщика неизвестно.
@@ -539,7 +539,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лпремотенаме**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лпремотенаме**")
 </dt> </dl>
 
 Имя удаленного сетевого ресурса для сетевого ресурса. Для текущего или постоянного подключения **ремотенаме** содержит сетевое имя, связанное с именем значения в свойстве **LocalName** . Имя в **ремотенаме** должно соответствовать соглашениям об именовании поставщика сетевых услуг.
@@ -557,7 +557,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лпремотенаме**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **лпремотенаме**")
 </dt> </dl>
 
 Полный путь к сетевому ресурсу.
@@ -575,7 +575,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые структуры Windows \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двтипе**")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network structures \| [**нетресаурце**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **двтипе**")
 </dt> </dl>
 
 Тип ресурса для перечисления или подключения.
@@ -722,7 +722,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| сетевые функции Windows \| [**внетжетусер**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)")
+квалификаторы: [**маппингстрингс**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows network functions \| [**внетжетусер**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)")
 </dt> </dl>
 
 Имя пользователя или имя пользователя по умолчанию, используемые для установки сетевого подключения.
@@ -731,7 +731,7 @@ class Win32_NetworkConnection : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ NetworkConnection** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

@@ -3,7 +3,7 @@ title: Граупсизедефинитион, элемент
 description: Представляет размер макета для группы элементов управления в пользовательском шаблоне.
 ms.assetid: c0e20c80-16af-41d5-81e1-0dc32e92e3fa
 keywords:
-- Лента Windows для элемента Граупсизедефинитион
+- элемент граупсизедефинитион Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 650301a29ace2c6df9316a315d4cdbad448e5573
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: dc3184f18bf692c333d7088ade79ff4ac5360f1a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443385"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631362"
 ---
 # <a name="groupsizedefinition-element"></a>Граупсизедефинитион, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "111443385"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -74,7 +74,7 @@ ms.locfileid: "111443385"
 | [**колумнбреак**](windowsribbon-element-columnbreak.md)<br/>                     | Может происходить один или несколько раз<br/> <br/> |
 | [**контролграуп**](windowsribbon-element-controlgroup.md)<br/>                   | Может происходить один или несколько раз<br/> <br/> |
 | [**контролсизедефинитион**](windowsribbon-element-controlsizedefinition.md)<br/> | Может происходить один или несколько раз<br/> <br/> |
-| [**Строка**](windowsribbon-element-row.md)<br/>                                     | Может происходить один или несколько раз<br/> <br/> |
+| [**Строки**](windowsribbon-element-row.md)<br/>                                     | Может происходить один или несколько раз<br/> <br/> |
 
 
 
@@ -188,12 +188,12 @@ ms.locfileid: "111443385"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

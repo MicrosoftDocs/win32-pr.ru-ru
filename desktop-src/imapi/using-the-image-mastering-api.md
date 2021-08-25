@@ -6,12 +6,12 @@ keywords:
 - API-интерфейс для создания образа IMAPI, использование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb700a0e69f182df6189e47745d93c0d8c431810
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a00972f446c62c4e5e1aa73108fc0474437a7a355d41964cd5ed299b9bdf82e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062502"
 ---
 # <a name="using-the-image-mastering-api"></a>Использование API-интерфейса основного образа
 
@@ -21,9 +21,9 @@ ms.locfileid: "104068617"
 -   [Предотвращение выхода из системы или приостановки во время записи](preventing-logoff-or-suspend-during-a-burn.md)
 -   [Создание дисков с несколькими сеансами](creating-discs-with-multiple-sessions.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,17 @@ ms.assetid: 094cf812-3122-4d5f-af8a-afd1c2264a2b
 title: Курренткксервице, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb5c1ddf243b0ec943be1f22930a8802d28d1bda
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d836e852d1a144abb5422f71d0127eb9c37b8f333dce0723db2c2b3b1889ec50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075964"
 ---
 # <a name="currentccservice-property"></a>Курренткксервице, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,7 +28,7 @@ ms.locfileid: "103894829"
 
 Возвращает целочисленное значение, указывающее тип включенной службы субтитров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возможные значения этого свойства:
 
@@ -46,7 +46,7 @@ ms.locfileid: "103894829"
 
 Это свойство доступно для чтения и записи.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

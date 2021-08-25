@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 085f2c66fb00b48dd98bf055e8e573fbc158f19cbec355d82e4fd93ccae5831c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fb2d92a91bb0594b037d829ce77a3c7215e467a2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087302"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468741"
 ---
 # <a name="xmmatrix-operator--operators"></a>Операторы КСММАТРИКС operator ()
 
@@ -28,38 +28,12 @@ ms.locfileid: "118087302"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Оператор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-operator-function-call(size_t_size_t)"><strong>КСММАТРИКС:: operator () (size_t, size_t)</strong></a></td>
-<td style="text-align: left;">Возвращает объект <code>reference</code> матрицы экземпляра в <code>XMMATRIX</code> соответствии с аргументами строки и столбца.<br/> Этот оператор возвращает <code>reference</code> в элемент Matrix экземпляра <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>ксмматрикс</strong></a> , как указано в аргументах строк и столбцов.<br/>
-<blockquote>
-[!Note]<br />
-Этот оператор доступен только при разработке с использованием C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-operator-function-call(size_t_size_t)"><strong>КСММАТРИКС:: operator () (size_t, size_t)</strong></a></td>
-<td style="text-align: left;">Возвращает значение элемента Matrix в экземпляре в <code>XMMATRIX</code> соответствии с аргументами строки и столбца.<br/> Этот оператор возвращает значение элемента Matrix экземпляра <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>ксмматрикс</strong></a> , как указано в аргументах строк и столбцов. <br/>
-<blockquote>
-[!Note]<br />
-Этот оператор доступен только при разработке с использованием C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Оператор | Описание | 
+|----------|-------------|
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-operator-function-call(size_t_size_t)"><strong>КСММАТРИКС:: operator () (size_t, size_t)</strong></a> | Возвращает объект <code>reference</code> матрицы экземпляра в <code>XMMATRIX</code> соответствии с аргументами строки и столбца.<br /> Этот оператор возвращает <code>reference</code> в элемент Matrix экземпляра <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>ксмматрикс</strong></a> , как указано в аргументах строк и столбцов.<br /><blockquote>[!Note]<br />Этот оператор доступен только при разработке с использованием C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-operator-function-call(size_t_size_t)"><strong>КСММАТРИКС:: operator () (size_t, size_t)</strong></a> | Возвращает значение элемента Matrix в экземпляре в <code>XMMATRIX</code> соответствии с аргументами строки и столбца.<br /> Этот оператор возвращает значение элемента Matrix экземпляра <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>ксмматрикс</strong></a> , как указано в аргументах строк и столбцов. <br /><blockquote>[!Note]<br />Этот оператор доступен только при разработке с использованием C++.</blockquote><br /> | 
+
 
 
 

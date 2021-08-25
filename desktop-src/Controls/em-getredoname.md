@@ -3,7 +3,7 @@ title: Сообщение EM_GETREDONAME (RichEdit. h)
 description: Возвращает тип следующего действия (при его наличии) в очереди повтора элемента управления Rich Edit.
 ms.assetid: 8649236f-32dc-45d3-847e-c9f65ffba44c
 keywords:
-- Элементы управления Windows для EM_GETREDONAME сообщений
+- элементы управления Windows сообщений EM_GETREDONAME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ea44257344b9ebdb8ffe91ad97e939aae0db9b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9687ae54223ec7cc0f908d747eff2504216b79469b5f285863f8c8ffdfe91b3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048824"
 ---
 # <a name="em_getredoname-message"></a>\_Сообщение ЖЕТРЕДОНАМЕ EM
 
@@ -49,23 +49,23 @@ ms.locfileid: "103988767"
 
 Если нет действий, доступных для повторяемости, или тип следующего повторяемого действия неизвестен, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Типы действий, которые могут быть отменены или повторно выполнены, включают операции ввода, удаления, перетаскивания, вырезания и вставки. Эти сведения могут быть полезны для приложений, которые предоставляют расширенный пользовательский интерфейс для операций отмены и повтора, например раскрывающийся список действий, которые можно повторить.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

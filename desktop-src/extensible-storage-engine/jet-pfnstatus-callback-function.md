@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c5f3eb374580dc6bed752900434706b66c6623b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d10de8491379a3e19217bcdb4a28f3546ebc009f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265536"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482920"
 ---
 # <a name="jet_pfnstatus-callback-function"></a>Функция обратного вызова JET_PFNSTATUS
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_pfnstatus-callback-function"></a>Функция обратного вызова JET_PFNSTATUS
 
@@ -60,7 +60,7 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с помощью одного из [расширенных кодов ошибок подсистемы хранилища](./extensible-storage-engine-error-codes.md). Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+эта функция возвращает [JET_ERR](./jet-err.md) datatype с одним из [кодов ошибок расширяемого механизма служба хранилища](./extensible-storage-engine-error-codes.md). дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 При успешном выполнении операция, выдала ответный вызов, может продолжать работу в обычном режиме. В некоторых случаях обратный вызов может возвращать предупреждение, которое влияет на эту операцию.
 
@@ -72,32 +72,15 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:
 
-[Коды ошибок расширенного подсистемы хранилища](./extensible-storage-engine-error-codes.md)  
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
+[коды ошибок расширенного механизма служба хранилища](./extensible-storage-engine-error-codes.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
 [JET_SESID](./jet-sesid.md)  
 [JET_SNP](./jet-snp.md)  
 [JET_SNPROG](./jet-snprog-structure.md)  

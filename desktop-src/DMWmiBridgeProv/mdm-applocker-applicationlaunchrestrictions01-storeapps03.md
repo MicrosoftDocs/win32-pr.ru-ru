@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
-description: Класс MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03 позволяет указать, какие приложения exe разрешены или запрещены для защиты корпоративных данных.
+description: класс MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03 позволяет указать, какие приложения EXE разрешены или запрещены для Enterprise Data Protection.
 ms.assetid: de5ceaea-589a-4ed7-8dd6-eb9477d68e0e
 keywords:
 - Класс MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54c58610c10e672a6fbc1406b2d022b8ce211871
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dace54d1e34559b0e1f5bdf55d86528b83d8d8f5f9810caa9370a799a5b3b30c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077094"
 ---
 # <a name="mdm_applocker_applicationlaunchrestrictions01_storeapps03-class"></a>\_Класс MDM AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03** позволяет указать, какие приложения exe разрешены или запрещены для защиты корпоративных данных.
+класс **MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03** позволяет указать, какие приложения EXE разрешены или запрещены для Enterprise Data Protection.
 
 Приведенный ниже синтаксис является упрощенной версией кода MOF и включает все унаследованные свойства.
 
@@ -51,7 +51,7 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ AppLocker \_ ApplicationLaunchRestrictions01 \_ StoreApps03** имеет следующие свойства.
 
@@ -80,7 +80,7 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
 Квалификаторы: [ **ключ**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Определяет ограничения для запуска приложений из Магазина Windows.
+определяет ограничения для запуска приложений из хранилища Windows.
 
 </dd> <dt>
 
@@ -111,13 +111,13 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -125,7 +125,7 @@ class MDM_AppLocker_ApplicationLaunchRestrictions01_StoreApps03
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

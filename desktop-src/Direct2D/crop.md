@@ -6,12 +6,12 @@ keywords:
 - результат кадрирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 653ceaf4cf8b5922fe05e151c1639269f3169b57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e342bdef882fbff89d4c67c3accfbff7287a2ad9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891885"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472939"
 ---
 # <a name="crop-effect"></a>Результат кадрирования
 
@@ -23,7 +23,7 @@ ms.locfileid: "103891885"
 -   [Свойства эффектов](#effect-properties)
 -   [Битовая карта вывода](#output-bitmap)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -58,45 +58,13 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Отображаемое имя и перечисление индекса</th>
-<th>Тип и значение по умолчанию</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Rect<br/></td>
-<td>D2D1_VECTOR_4F<br/></td>
-<td>Регион, который необходимо обрезать, заданный в виде вектора в форме (слева, сверху, по ширине, по высоте).<br/></td>
-</tr>
-<tr class="even">
-<td>D2D1_CROP_PROP_RECT<br/></td>
-<td>{-FLT_MAX,-FLT_MAX, FLT_MAX, FLT_MAX}<br/></td>
-<td>Единицы измерения — DIP. <br/>
-<blockquote>
-<p>[!Note]</p>
-<p>Параметр rect будет обрезан, если он пересекает границы границ входного изображения.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_CROP_PROP_BORDER_MODE<br/></td>
-<td>D2D1_BORDER_MODE <br/> D2D1_BORDER_MODE_SOFT <br/></td>
-<td><ul>
-<li>D2D1_BORDER_MODE_SOFT: если прямоугольник кадрирования попадает на координаты в виде дробной части пикселя, то этот результат применяет сглаживание, что приводит к мягкому пограничным углу.</li>
-<li>D2D1_BORDER_MODE_HARD: если прямоугольник кадрирования попадает на координаты в виде дробной части пикселя, то результат будет резким, что приводит к жесткой границе.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Отображаемое имя и перечисление индекса | Тип и значение по умолчанию | Описание | 
+|------------------------------------|------------------------|-------------|
+| Rect<br /> | D2D1_VECTOR_4F<br /> | Регион, который необходимо обрезать, заданный в виде вектора в форме (слева, сверху, по ширине, по высоте).<br /> | 
+| D2D1_CROP_PROP_RECT<br /> | {-FLT_MAX,-FLT_MAX, FLT_MAX, FLT_MAX}<br /> | Единицы измерения — DIP. <br /><blockquote><p>[!Note]</p><p>Параметр rect будет обрезан, если он пересекает границы границ входного изображения.<br /></p></blockquote><br /> | 
+| D2D1_CROP_PROP_BORDER_MODE<br /> | D2D1_BORDER_MODE <br /> D2D1_BORDER_MODE_SOFT <br /> | <ul><li>D2D1_BORDER_MODE_SOFT: если прямоугольник кадрирования попадает на координаты в виде дробной части пикселя, то этот результат применяет сглаживание, что приводит к мягкому пограничным углу.</li><li>D2D1_BORDER_MODE_HARD: если прямоугольник кадрирования попадает на координаты в виде дробной части пикселя, то результат будет резким, что приводит к жесткой границе.</li></ul> | 
+
 
 
 
@@ -116,16 +84,16 @@ m_d2dContext->EndDraw();
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

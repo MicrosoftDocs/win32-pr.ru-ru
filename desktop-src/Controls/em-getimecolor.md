@@ -3,7 +3,7 @@ title: Сообщение EM_GETIMECOLOR (RichEdit. h)
 description: Извлекает цвет композиции редактора метода ввода (IME).
 ms.assetid: 788ac56c-f2d8-4e9a-8829-b92dcd76e6de
 keywords:
-- Элементы управления Windows для EM_GETIMECOLOR сообщений
+- элементы управления Windows сообщений EM_GETIMECOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8a19061651787ff94575f8bc64a69f06d445a7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 46ac9d49f4fe178bdda45359da8aabd40badcd68aceadc4a57890279fc9fda01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049104"
 ---
 # <a name="em_getimecolor-message"></a>\_Сообщение ЖЕТИМЕКОЛОР EM
 
@@ -54,19 +54,19 @@ ms.locfileid: "103989013"
 
 Если операция завершается ошибкой, возвращаемое значение равно нулю.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

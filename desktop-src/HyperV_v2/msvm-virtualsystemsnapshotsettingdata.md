@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 32ab52da97e9fcc943c3a70548bb6b1a6d7994a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d112e4109ed6d0ab899aadf59f0e991f52259eaf2c514c6d9215b04a8cafcab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046254"
 ---
 # <a name="msvm_virtualsystemsnapshotsettingdata-class"></a>\_Класс мсвм виртуалсистемснапшотсеттингдата
 
@@ -47,7 +47,7 @@ class Msvm_VirtualSystemSnapshotSettingData : CIM_SettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалсистемснапшотсеттингдата** имеет следующие свойства.
 
@@ -101,7 +101,7 @@ class Msvm_VirtualSystemSnapshotSettingData : CIM_SettingData
 Тип резервной копии, который будет использоваться в гостевой системе.
 
 > [!Note]  
-> Свойство добавлено в Windows 10, версия 1703
+> свойство добавлено в Windows 10, версия 1703
 
  
 
@@ -143,13 +143,13 @@ class Msvm_VirtualSystemSnapshotSettingData : CIM_SettingData
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                             |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                             |
 | Минимальная версия сервера<br/> | Windows Server 2016<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
@@ -157,7 +157,7 @@ class Msvm_VirtualSystemSnapshotSettingData : CIM_SettingData
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

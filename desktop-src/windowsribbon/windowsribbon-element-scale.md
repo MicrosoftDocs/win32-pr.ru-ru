@@ -3,7 +3,7 @@ title: Элемент Scale
 description: Представляет предпочитаемый размер и макет группы элементов управления через пару Group, Сизедефинитион.
 ms.assetid: feef3721-c779-4c64-96c6-9d951ac32277
 keywords:
-- Лента Windows для элемента Scale
+- элемент Scale Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e3ba922b65525b92189673020f7155275bdf49f9
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 580cfad910a727f7e4392489adc8cb8baec9a0bc
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111445015"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630205"
 ---
 # <a name="scale-element"></a>Элемент Scale
 
@@ -39,10 +39,10 @@ ms.locfileid: "111445015"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -169,12 +169,12 @@ ms.locfileid: "111445015"
 
 
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

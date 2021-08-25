@@ -3,7 +3,7 @@ title: заморозить команду
 description: Команда Freeze закрепляет видеоввод или видео на ВИДЕОМАГНИТОФОН или отключает получение видео в буфере кадров. Эта команда распознает цифровые видеоролики, наложение видео и устройства ВИДЕОМАГНИТОФОНА.
 ms.assetid: 49f3ab98-e893-402a-be78-6140af3b81df
 keywords:
-- заморозить команды мультимедиа Windows
+- заморозить команду Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b63fbb2d888fc1ca315c0b511bcb18224c8168
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1261cc75575a5b59d200ff965a5325caef9fa966
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071096"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481560"
 ---
 # <a name="freeze-command"></a>заморозить команду
 
@@ -53,43 +53,13 @@ _stprintf_s(
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Значение</th>
-<th>Значение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>дигиталвидео</td>
-<td>в <em>прямоугольнике</em></td>
-<td>созданные</td>
-</tr>
-<tr class="even">
-<td>overlay</td>
-<td>в <em>прямоугольнике</em></td>
 
-</tr>
-<tr class="odd">
-<td>видеомагнитофон</td>
-<td><ul>
-<li>поле</li>
-<li>frame</li>
-</ul></td>
-<td><ul>
-<li>input</li>
-<li>output</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| Значение | Значение | Значение | 
+|-------|---------|---------|
+| дигиталвидео | в <em>прямоугольнике</em> | созданные | 
+| overlay | в <em>прямоугольнике</em> | 
+| видеомагнитофон | <ul><li>поле</li><li>frame</li></ul> | <ul><li>input</li><li>output</li></ul> | 
+
 
 
 
@@ -152,7 +122,7 @@ freeze vboard at 0 0 100 100
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

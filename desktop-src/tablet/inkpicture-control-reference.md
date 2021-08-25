@@ -4,12 +4,12 @@ ms.assetid: e9fa6807-6e2a-44ec-9b8f-a560185e4367
 title: Справочник по элементу управления InkPicture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8caaf1970394338f858cd0fdff0dab58153f53b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d93f5727d2f3f049a579e32e5feb0ba0eaa742d2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999619"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471540"
 ---
 # <a name="inkpicture-control-reference"></a>Справочник по элементу управления InkPicture
 
@@ -18,7 +18,7 @@ ms.locfileid: "103999619"
 Экземпляр элемента управления InkPicture можно создать, вызвав метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
 > [!Note]  
-> Элемент управления InkPicture не помечен как надежный для создания скриптов. Элемент управления InkPicture не должен использоваться на страницах HTML или ASP.NET.
+> Элемент управления InkPicture не помечен как надежный для создания скриптов. элемент управления InkPicture не следует использовать в HTML-и ASP.NET страницах.
 
  
 
@@ -41,7 +41,7 @@ ms.locfileid: "103999619"
 | Событие                                                                              | Описание                                                                                                                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ChangeUICues**                                                                   | Не рекомендуется.<br/>                                                                                                                                                                                                                                                                                             |
-| [**Щелкните**](inkpicture-click.md)                                                  | Происходит, когда пользователь щелкает элемент управления InkPicture.<br/>                                                                                                                                                                                                                                                       |
+| [**Откройте**](inkpicture-click.md)                                                  | Происходит, когда пользователь щелкает элемент управления InkPicture.<br/>                                                                                                                                                                                                                                                       |
 | [**Событие Курсорбуттондовн**](inkpicture-cursorbuttondown.md)                      | Происходит, когда элемент управления [**InkCollector**](inkcollector-class.md) обнаруживает [**неиинккурсорбуттоный**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton) объект.<br/>                                                                                                                                                         |
 | [**Событие Курсорбуттонуп**](inkpicture-cursorbuttonup.md)                          | Происходит, когда элемент управления InkPicture обнаруживает [**иинккурсорбуттон**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbutton) .<br/>                                                                                                                                                                                                  |
 | [**Событие Курсордовн**](inkpicture-cursordown.md)                                  | Происходит, когда подсказка курсора обращается к поверхности планшета в дигитайзере.<br/>                                                                                                                                                                                                                                      |
@@ -99,7 +99,7 @@ ms.locfileid: "103999619"
 | [**Метод Сетжестурестатус**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus)                           | Задает интерес объекта InkPicture в указанном жесте приложения.<br/>                                                                                      |
 | [**Метод Сетсинглетаблетинтегратедмоде**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode) | Задает элемент управления InkPicture для получения рукописных данных только с одного планшета, подключенного к планшетному ПК. Рукописный ввод с других планшетов игнорируется.<br/>                                       |
 | [**Метод Сетвиндовинпутректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle)             | Задает прямоугольник окна для установки в координатах окна, в которых рисуются рукописные данные.<br/>                                                                            |
-| шоввхатссис                                                                            | Отображает выбранный раздел в файле справки, используя всплывающее меню «что это», предоставляемое справкой в 32-разрядных операционных системах Microsoft Windows (только во время разработки).<br/>           |
+| шоввхатссис                                                                            | отображает выбранный раздел в файле справки, используя всплывающее окно "что это", предоставляемое справкой в 32-разрядных операционных системах Microsoft Windows (только во время разработки).<br/>           |
 | зордер                                                                                   | Помещает элемент управления на передний или задний план z-порядка в его графическом уровне (только во время разработки).<br/>                                                               |
 
 
@@ -108,133 +108,37 @@ ms.locfileid: "103999619"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw"><strong>Ауторедрав, свойство</strong></a></td>
-<td>Возвращает или задает значение, указывающее, перерисовывается ли элемент управления InkPicture при недействительности окна (объект <a href="inkdisp-class.md"><strong>инкдисп</strong></a> , который в данный момент связан с элементом управления InkPicture, автоматически перерисовывается, когда окно, связанное с InkPicture, получает сообщение WM_PAINT).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor"><strong>BackColor</strong></a></td>
-<td>Возвращает или задает цвет фона для элемента управления InkPicture. Цвет фона по умолчанию — это цвет фона системного окна, который обычно является белым.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink"><strong>Коллектингинк, свойство</strong></a></td>
-<td>Возвращает значение, указывающее, собирает ли элемент управления InkPicture рукописный ввод (только время выполнения).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode"><strong>Режиме CollectionMode</strong></a></td>
-<td>Возвращает или задает режим сбора, определяющий, распознаются ли рукописный ввод, жесты или рукописный ввод и жесты при записи пользователем.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors"><strong>Cursor, свойство</strong></a></td>
-<td>Возвращает коллекцию <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>иинккурсорс</strong></a> , доступную для использования в области рукописного ввода в элементе управления InkPicture.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>кустомстрокес</strong></a></td>
-<td>Возвращает коллекцию <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes"><strong>иинккустомстрокес</strong></a> , которая должна быть сохранена с рукописным вводом (только во время разработки).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes"><strong>DefaultDrawingAttributes, свойство</strong></a></td>
-<td>Возвращает или задает коллекцию <a href="inkdrawingattributes-class.md"><strong>инкдравингаттрибутес</strong></a> по умолчанию, используемую при прорисовке и отображении рукописного ввода (только во время выполнения).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>Десиредпаккетдескриптион, свойство</strong></a></td>
-<td>Возвращает или задает описание пакета для элемента управления InkPicture (только время выполнения).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering"><strong>Динамикрендеринг, свойство</strong></a></td>
-<td>Возвращает или задает значение, указывающее, будет ли элемент управления InkPicture динамически отображать рукописный ввод при его сборе.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode"><strong>EditingMode</strong></a></td>
-<td>Возвращает или задает значение, указывающее, находится ли элемент управления InkPicture в режиме рукописного ввода, режиме удаления или режиме правки или выбора.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Активировано</strong></a></td>
-<td>Возвращает или задает значение, определяющее, может ли элемент управления InkPicture отвечать на создаваемые пользователем события.<br/>
-<blockquote>
-[!Note]<br />
-Это свойство эквивалентно свойству <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>инкенаблед</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode"><strong>ерасермоде</strong></a></td>
-<td>Возвращает или задает значение, указывающее, удаляются ли рукописные данные по штрихам или по точкам.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth"><strong>ерасервидс</strong></a></td>
-<td>Возвращает или задает значение, указывающее ширину кончика пера ластика.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd"><strong>hWnd</strong></a></td>
-<td>Возвращает описатель окна, к которому привязан элемент управления InkPicture. (только время выполнения)<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink"><strong>Рукописный ввод</strong></a></td>
-<td>Возвращает или задает объект <a href="inkdisp-class.md"><strong>инкдисп</strong></a> , связанный с элементом управления InkPicture (только время выполнения).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>инкенаблед</strong></a></td>
-<td>Возвращает или задает значение, указывающее, собирает ли элемент управления InkPicture входные данные пера (пакеты в сети Air, курсоры в пределах диапазона и т. д.).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx"><strong>Маргинкс, свойство</strong></a></td>
-<td>Возвращает или задает поле оси x вокруг прямоугольника окна в экранных координатах.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy"><strong>Свойство Margin</strong></a></td>
-<td>Возвращает или задает поле оси y вокруг прямоугольника окна в экранных координатах.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon"><strong>Маусеикон, свойство</strong></a></td>
-<td>Возвращает или задает текущий пользовательский значок мыши.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer"><strong>MousePointer, свойство</strong></a></td>
-<td>Возвращает или задает значение, указывающее тип указателя мыши, который появляется при наведении указателя мыши на определенную часть элемента управления InkPicture.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture"><strong>Picture</strong></a></td>
-<td>Возвращает графический файл, отображаемый в элементе управления InkPicture.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer"><strong>Свойство модуля подготовки отчетов</strong></a></td>
-<td>Возвращает или задает объект <a href="inkrenderer-class.md"><strong>инкрендерер</strong></a> , используемый для рисования рукописного ввода в элементе управления InkPicture (только время выполнения).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Выбор</strong></a></td>
-<td>Возвращает коллекцию <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">инкстрокес</a> , выбранную в данный момент в элементе управления InkPicture (только время выполнения).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a></td>
-<td>Возвращает или задает способ, которым элемент управления обрабатывает размещение и изменение размера изображения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink"><strong>Суппорсигхконтрастинк, свойство</strong></a></td>
-<td>Возвращает значение, указывающее, отображаются ли рукописные данные только в одном цвете, Color = COLOR_WINDOWTEXT (из вызова Жетсистемметрикс), когда система находится в режиме высокая контрастность.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui"><strong>суппорсигхконтрастселектионуи</strong></a></td>
-<td>Возвращает или задает значение, указывающее, отображаются ли все пользовательские интерфейсы выделения (ограничивающие прямоугольники выделения и маркеры выделения) с высокой контрастностью, когда система находится в режиме высокая контрастность.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet"><strong>Свойство планшета</strong></a></td>
-<td>Возвращает объект <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet"><strong>иинктаблет</strong></a> , который в настоящее время использует элемент управления InkPicture для получения входных данных.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Описание | 
+|----------|-------------|
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_autoredraw"><strong>Ауторедрав, свойство</strong></a> | Возвращает или задает значение, указывающее, перерисовывается ли элемент управления InkPicture при недействительности окна (объект <a href="inkdisp-class.md"><strong>инкдисп</strong></a> , который в данный момент связан с элементом управления InkPicture, автоматически перерисовывается, когда окно, связанное с InkPicture, получает сообщение WM_PAINT).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_backcolor"><strong>BackColor</strong></a> | Возвращает или задает цвет фона для элемента управления InkPicture. Цвет фона по умолчанию — это цвет фона системного окна, который обычно является белым.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectingink"><strong>Коллектингинк, свойство</strong></a> | Возвращает значение, указывающее, собирает ли элемент управления InkPicture рукописный ввод (только время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_collectionmode"><strong>Режиме CollectionMode</strong></a> | Возвращает или задает режим сбора, определяющий, распознаются ли рукописный ввод, жесты или рукописный ввод и жесты при записи пользователем.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_cursors"><strong>Cursor, свойство</strong></a> | Возвращает коллекцию <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors"><strong>иинккурсорс</strong></a> , доступную для использования в области рукописного ввода в элементе управления InkPicture.<br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/ms703274(v=vs.85)"><strong>кустомстрокес</strong></a> | Возвращает коллекцию <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcustomstrokes"><strong>иинккустомстрокес</strong></a> , которая должна быть сохранена с рукописным вводом (только во время разработки).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_defaultdrawingattributes"><strong>DefaultDrawingAttributes, свойство</strong></a> | Возвращает или задает коллекцию <a href="inkdrawingattributes-class.md"><strong>инкдравингаттрибутес</strong></a> по умолчанию, используемую при прорисовке и отображении рукописного ввода (только во время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>Десиредпаккетдескриптион, свойство</strong></a> | Возвращает или задает описание пакета для элемента управления InkPicture (только время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering"><strong>Динамикрендеринг, свойство</strong></a> | Возвращает или задает значение, указывающее, будет ли элемент управления InkPicture динамически отображать рукописный ввод при его сборе.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode"><strong>EditingMode</strong></a> | Возвращает или задает значение, указывающее, находится ли элемент управления InkPicture в режиме рукописного ввода, режиме удаления или режиме правки или выбора.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Включен</strong></a> | Возвращает или задает значение, определяющее, может ли элемент управления InkPicture отвечать на создаваемые пользователем события.<br /><blockquote>[!Note]<br />Это свойство эквивалентно свойству <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>инкенаблед</strong></a> .</blockquote><br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode"><strong>ерасермоде</strong></a> | Возвращает или задает значение, указывающее, удаляются ли рукописные данные по штрихам или по точкам.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth"><strong>ерасервидс</strong></a> | Возвращает или задает значение, указывающее ширину кончика пера ластика.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd"><strong>hWnd</strong></a> | Возвращает описатель окна, к которому привязан элемент управления InkPicture. (только время выполнения)<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_ink"><strong>Рукописный ввод</strong></a> | Возвращает или задает объект <a href="inkdisp-class.md"><strong>инкдисп</strong></a> , связанный с элементом управления InkPicture (только время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>инкенаблед</strong></a> | Возвращает или задает значение, указывающее, собирает ли элемент управления InkPicture входные данные пера (пакеты в сети Air, курсоры в пределах диапазона и т. д.).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginx"><strong>Маргинкс, свойство</strong></a> | Возвращает или задает поле оси x вокруг прямоугольника окна в экранных координатах.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_marginy"><strong>Свойство Margin</strong></a> | Возвращает или задает поле оси y вокруг прямоугольника окна в экранных координатах.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mouseicon"><strong>Маусеикон, свойство</strong></a> | Возвращает или задает текущий пользовательский значок мыши.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer"><strong>MousePointer, свойство</strong></a> | Возвращает или задает значение, указывающее тип указателя мыши, который появляется при наведении указателя мыши на определенную часть элемента управления InkPicture.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_picture"><strong>Снимки</strong></a> | Возвращает графический файл, отображаемый в элементе управления InkPicture.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_renderer"><strong>Свойство модуля подготовки отчетов</strong></a> | Возвращает или задает объект <a href="inkrenderer-class.md"><strong>инкрендерер</strong></a> , используемый для рисования рукописного ввода в элементе управления InkPicture (только время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_selection"><strong>Выбор</strong></a> | Возвращает коллекцию <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">инкстрокес</a> , выбранную в данный момент в элементе управления InkPicture (только время выполнения).<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_sizemode"><strong>SizeMode</strong></a> | Возвращает или задает способ, которым элемент управления обрабатывает размещение и изменение размера изображения.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastink"><strong>Суппорсигхконтрастинк, свойство</strong></a> | Возвращает значение, указывающее, отображаются ли рукописные данные только в одном цвете, Color = COLOR_WINDOWTEXT (из вызова Жетсистемметрикс), когда система находится в режиме высокая контрастность.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_supporthighcontrastselectionui"><strong>суппорсигхконтрастселектионуи</strong></a> | Возвращает или задает значение, указывающее, отображаются ли все пользовательские интерфейсы выделения (ограничивающие прямоугольники выделения и маркеры выделения) с высокой контрастностью, когда система находится в режиме высокая контрастность.<br /> | 
+| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_tablet"><strong>Свойство планшета</strong></a> | Возвращает объект <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet"><strong>иинктаблет</strong></a> , который в настоящее время использует элемент управления InkPicture для получения входных данных.<br /> | 
+
 
 
 
@@ -244,15 +148,15 @@ ms.locfileid: "103999619"
 
 Пользовательский интерфейс времени выполнения для элемента управления InkPicture — это окно с непрозрачным фоном (один цвет, фон изображения или и то, и другое), которое содержит непрозрачные рукописные данные.
 
-Элемент управления InkPicture можно использовать для визуализации рукописного ввода в Microsoft Windows 2000, Windows Server 2003, любом выпуске Windows XP, отличном от Windows XP Tablet PC Edition, и любой версии Windows Vista. Однако вы можете ввести рукописный ввод, принять жесты или распознать рукописный ввод только при следующих условиях:
+можно использовать элемент управления InkPicture для визуализации рукописного ввода в Microsoft Windows 2000, Windows Server 2003, любой выпуск Windows XP, кроме Windows XP Tablet PC edition и любой версии Windows Vista. Однако вы можете ввести рукописный ввод, принять жесты или распознать рукописный ввод только при следующих условиях:
 
--   Рукописный ввод может быть введен и распознан при установке Windows Vista или XP Tablet PC Edition 2005.
+-   рукописный ввод может быть введен и распознан, если установлен Windows Vista или XP Tablet PC Edition 2005.
 -   Также можно распознать жесты.
--   Рукописный ввод можно распознать как текст, если рукописный ввод создан на компьютерах с более ранними версиями Windows, при условии наличия распознавателей.
+-   рукописный ввод можно распознать как текст, если рукописный ввод создан на компьютерах с более ранними версиями Windows, если имеются распознаватели.
 
-При использовании Windows 2000, Windows Server 2003, любого выпуска Windows XP, отличного от Windows XP Tablet PC Edition 2005, можно присваивать значения внешним свойствам элемента управления InkPicture, а затем копировать и вставлять рукописные данные в другие приложения. Однако значение его свойства Инкенаблед всегда будет равно **false**.
+при использовании Windows 2000, Windows Server 2003, любого выпуска Windows xp, кроме Windows XP Tablet PC edition 2005, можно присваивать значения внешним свойствам элемента управления InkPicture, а затем копировать и вставлять рукописные данные в другие приложения. Однако значение его свойства Инкенаблед всегда будет равно **false**.
 
-Сохраненные объекты [**инкдисп**](inkdisp-class.md) можно загружать и отображать во всех выпусках Windows Vista и XP, а также в системах, где установлен только пакет средств разработки программного обеспечения Windows XP Tablet PC Edition (SDK). Объекты **инкдисп** можно преобразовать в текст (распознается), если установлен Windows Vista или Windows XP Tablet PC Edition 2005.
+сохраненные объекты [**инкдисп**](inkdisp-class.md) можно загружать и отображать во всех выпусках Windows Vista и XP, а также в системах, где установлен только Windows XP Tablet PC Edition Software Development Kit (SDK). объекты **инкдисп** можно преобразовать в текст (распознается), если установлен Windows Vista или Windows XP Tablet PC Edition 2005.
 
 Если операции с этим элементом управления не выполнены, возвращается юридическое значение HRESULT. При возникновении условий ошибки проверьте возвращенное значение HRESULT для ошибки.
 
@@ -271,7 +175,7 @@ ms.locfileid: "103999619"
 
 Этот объект реализует COM-интерфейс **иинкпиктуре** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

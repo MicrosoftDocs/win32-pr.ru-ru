@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102595
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 77791d314b32aae7c512e074d8bfc886581f7ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4925a98b830a9460d5ce582b4956087efa3d9bd8f6797b255214b5f6f4bcc81d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971164"
 ---
 # <a name="esentredoabruptendedexception-methods"></a>Методы EsentRedoAbruptEndedException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104558494"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

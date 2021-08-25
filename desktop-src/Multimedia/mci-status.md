@@ -3,7 +3,7 @@ title: Команда MCI_STATUS (Ммсистем. h)
 description: Команда " \_ состояние MCI" получает сведения о устройстве MCI. Все устройства распознают эту команду. Сведения возвращаются в элементе Двретурн структуры, определяемой параметром Лпстатус.
 ms.assetid: d1c3dff9-c66f-4525-aac1-4a15b43083e7
 keywords:
-- MCI_STATUS команды мультимедиа Windows
+- команда MCI_STATUS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86553ac759a362c1ea4abb53a47d0e9376cbc526
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 9905000c718ff70435ec91bf86bf7a77d14379ed7ca557eaa85fb0df594196c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "104350692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784284"
 ---
 # <a name="mci_status-command"></a>\_Команда состояния MCI
 
@@ -71,7 +71,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие дополнительные стандартные и специальные флаги применяются ко всем устройствам, поддерживающим \_ состояние MCI:
 
@@ -1192,7 +1192,7 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30e420d369ee09dfd2d92b5e5d79cf94c7013566
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825235"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470101"
 ---
 # <a name="splitbutton-control-type"></a>Тип элемента управления SplitButton
 
@@ -51,45 +51,11 @@ ms.locfileid: "118825235"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Image (0 или 1)</li>
-<li>Text (0 или 1)</li>
-<li>Button (1 или 2)
-<ul>
-<li>Меню (0 или 1; отображается как дочерний элемент вложенной кнопки, поддерживающей шаблон ExpandCollapse)
-<ul>
-<li>MenuItem (1 или более)</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Button (1 или 2)
-<ul>
-<li>MenuItem (1 или более)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>SplitButton<ul><li>Image (0 или 1)</li><li>Text (0 или 1)</li><li>Button (1 или 2)<ul><li>Меню (0 или 1; отображается как дочерний элемент вложенной кнопки, поддерживающей шаблон ExpandCollapse)<ul><li>MenuItem (1 или более)</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton<ul><li>Button (1 или 2)<ul><li>MenuItem (1 или более)</li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -162,48 +128,11 @@ ms.locfileid: "118825235"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Дерево модели автоматизации пользовательского интерфейса — представление элемента управления</th>
-<th>Дерево модели автоматизации пользовательского интерфейса — представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>&quot;Имя SplitButton &quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Кнопка " &quot; Дополнительно" &quot; (Invoke)
-<ul>
-<li>Меню
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>&quot;Имя SplitButton &quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Кнопка " &quot; Дополнительно" &quot; (Invoke)
-<ul>
-<li>Меню
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Дерево модели автоматизации пользовательского интерфейса — представление элемента управления | Дерево модели автоматизации пользовательского интерфейса — представление содержимого | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>SplitButton "Name" (Invoke, ExpandCollapse)<ul><li>Кнопка "Дополнительно" (вызов)<ul><li>Меню<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton "Name" (Invoke, ExpandCollapse)<ul><li>Кнопка "Дополнительно" (вызов)<ul><li>Меню<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | 
+
 
 
 

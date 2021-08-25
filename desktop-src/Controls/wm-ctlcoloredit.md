@@ -3,7 +3,7 @@ title: Сообщение WM_CTLCOLOREDIT (Winuser. h)
 description: Элемент управления "поле ввода", который не предназначен только для чтения или отключен, отправляет \_ сообщение WM ктлколоредит в его родительское окно, когда элемент управления собирается для рисования.
 ms.assetid: 2294e3b8-00a7-43ef-b20a-fe0e46764055
 keywords:
-- Элементы управления Windows для WM_CTLCOLOREDIT сообщений
+- элементы управления Windows сообщений WM_CTLCOLOREDIT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e100367f37018424fad33dc7cea30700183a0a2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da7f1fd27c51cabc699cf945fd4701c36d2e9709d1654de45859777333b9b4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053904"
 ---
 # <a name="wm_ctlcoloredit-message"></a>\_Сообщение КТЛКОЛОРЕДИТ WM
 
@@ -57,7 +57,7 @@ WM_CTLCOLOREDIT
 
 Если приложение обрабатывает это сообщение, оно должно возвращать дескриптор кисти. Система использует кисть для рисования фона элемента управления "поле ввода".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если приложение возвращает созданную кисть (например, с помощью функции [**креатесолидбруш**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) или [**креатебрушиндирект**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), приложение должно освободить кисть. Если приложение возвращает системную кисть (например, которая была получена функцией [**жетстоккобжект**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) или [**жетсисколорбруш**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), приложению не нужно освобождать эту кисть.
 
@@ -71,19 +71,19 @@ WM_CTLCOLOREDIT
 
 **Расширенное редактирование:** Это сообщение не поддерживается. Чтобы задать цвет фона для элемента управления Rich Edit, используйте сообщение [**EM \_ сетбкгндколор**](em-setbkgndcolor.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -207,12 +207,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf140f012adbf80b1ce38c9d5017a528b7368a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d03cc44142e85c174bbb5a19318eea7626b170f59044811f841e7009ba35ba8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071063"
 ---
 # <a name="com-error-codes-generic"></a>Коды ошибок COM (универсальные)
 
@@ -362,10 +362,10 @@ ms.locfileid: "105657359"
 | <span id="CONVERT10_E_OLESTREAM_GET"></span><span id="convert10_e_olestream_get"></span><dl> <dt>**CONVERT10 \_ E \_ олестреам \_ получить**</dt> <dt>0x800401C0</dt> </dl>                                                                             | Сбой метода Get ОЛЕСТРЕАМ<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_PUT"></span><span id="convert10_e_olestream_put"></span><dl> <dt>**CONVERT10 \_ E \_ олестреам \_ Размещение**</dt> <dt>0x800401C1</dt> </dl>                                                                             | Сбой метода размещения ОЛЕСТРЕАМ<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_FMT"></span><span id="convert10_e_olestream_fmt"></span><dl> <dt>**CONVERT10 \_ E \_ олестреам \_ FMT**</dt> <dt>0x800401C2</dt> </dl>                                                                             | Содержимое ОЛЕСТРЕАМ имеет неправильный формат<br/>                                                                         |
-| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_ E \_ олестреам \_ Bitmap \_ в \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | Ошибка при вызове Windows GDI при преобразовании точечного рисунка в формат DIB<br/>                                           |
+| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_ E \_ олестреам \_ Bitmap \_ в \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | ошибка при вызове Windows GDI при преобразовании точечного рисунка в формат DIB<br/>                                           |
 | <span id="CONVERT10_E_STG_FMT"></span><span id="convert10_e_stg_fmt"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ FMT**</dt> <dt>0x800401C4</dt> </dl>                                                                                               | Содержимое IStorage имеет неправильный формат<br/>                                                                          |
 | <span id="CONVERT10_E_STG_NO_STD_STREAM"></span><span id="convert10_e_stg_no_std_stream"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ нет \_ std \_ Stream**</dt> <dt>0x800401C5</dt> </dl>                                                               | В содержимом IStorage отсутствует один из стандартных потоков<br/>                                                             |
-| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ DIB \_ to \_ Bitmap**</dt> <dt>0x800401C6</dt> </dl>                                                               | Ошибка при вызове Windows GDI при преобразовании рисунка DIB в точечный рисунок.<br/>                                          |
+| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_ E \_ STG \_ DIB \_ to \_ Bitmap**</dt> <dt>0x800401C6</dt> </dl>                                                               | ошибка при вызове Windows GDI при преобразовании рисунка DIB в точечный рисунок.<br/>                                          |
 | <span id="CLIPBRD_E_CANT_OPEN"></span><span id="clipbrd_e_cant_open"></span><dl> <dt>**Клипбрд \_ E не \_ удается \_ Открыть**</dt> <dt>0x800401D0</dt> </dl>                                                                                               | Сбой Опенклипбоард<br/>                                                                                                    |
 | <span id="CLIPBRD_E_CANT_EMPTY"></span><span id="clipbrd_e_cant_empty"></span><dl> <dt>**Клипбрд \_ E не \_ удается \_ очистить**</dt> <dt>0x800401D1</dt> </dl>                                                                                            | Сбой Емптиклипбоард<br/>                                                                                                   |
 | <span id="CLIPBRD_E_CANT_SET"></span><span id="clipbrd_e_cant_set"></span><dl> <dt>**Клипбрд \_ E не \_ удается \_ задать**</dt> <dt>0x800401D2</dt> </dl>                                                                                                  | Сбой Сетклипбоард<br/>                                                                                                     |
@@ -423,17 +423,17 @@ ms.locfileid: "105657359"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winerror. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winerror. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

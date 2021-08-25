@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e1642cbd5cbdef162511185e9d2c05e849d78486b82e8219623286f33e39223
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a53a2953ba7d77f1969a7d5dabef3c17437e8bbb
+ms.sourcegitcommit: 8d7ce0c4827f8a4fd501cc6487f1a8360e944577
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118504939"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122767608"
 ---
 # <a name="waveactivecountbits-function"></a>Функция Вавеактивекаунтбитс
 
@@ -48,7 +48,7 @@ uint WaveActiveCountBits(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Число, которое вычисляется на значение true во всех активных желобах в текущей волны.
+Число дорожек, для которых логическая переменная принимает значение true, во всех активных желобах в текущем волне.
 
 ## <a name="remarks"></a>Remarks
 
@@ -66,7 +66,7 @@ uint WaveActiveCountBits(
 result = WaveActiveCountBits( WaveActiveBallot( bBit ) );
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

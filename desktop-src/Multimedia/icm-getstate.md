@@ -3,7 +3,7 @@ title: Сообщение ICM_GETSTATE (VFW. h)
 description: Сообщение ICM \_ -State запрашивает драйвер сжатия видео, чтобы вернуть его текущую конфигурацию в блок памяти или определить объем памяти, необходимый для получения сведений о конфигурации.
 ms.assetid: 4b77e294-f3aa-45f9-a4f4-f103b83eae8d
 keywords:
-- ICM_GETSTATE сообщения Windows мультимедиа
+- сообщение ICM_GETSTATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b6a45dcde627a02c1a4a402ea9a2a725f0429a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9bf21d808752b8a3ac3ba71a8593cd6dc577b3af4f34f421682d126c73b3578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784954"
 ---
 # <a name="icm_getstate-message"></a>\_Сообщение о состоянии ICM
 
@@ -58,7 +58,7 @@ lParam = (DWORD_PTR) cb;
 
 Если *ПС* не **равен null**, функция возвращает ицерр \_ ОК в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура, используемая для представления сведений о конфигурации, зависит от драйвера и определяется драйвером.
 

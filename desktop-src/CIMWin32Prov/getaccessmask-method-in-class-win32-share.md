@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fcd6396f6421060a67108e7c428c99bcd7ca9651
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ebc2b2620b0bdc019e117f9a4b2c376be6320be968fdae42509dc3f62c3cc9a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077664"
 ---
 # <a name="getaccessmask-method-of-the-win32_share-class"></a>Метод Жетакцессмаск \_ класса общего ресурса Win32
 
@@ -163,7 +163,7 @@ uint32 GetAccessMask();
 
 </dd> <dt>
 
-**SYNCHRONIZE**
+**ПОЛНИТ**
 </dt> <dd>
 
 1048576 (0x100000)
@@ -202,7 +202,7 @@ WScript.Echo Return
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

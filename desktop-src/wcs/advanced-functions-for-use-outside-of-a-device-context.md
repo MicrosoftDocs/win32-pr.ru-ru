@@ -3,8 +3,8 @@ title: Дополнительные функции для использован
 description: Эти функции предоставляют расширенные возможности управления цветом за пределами контекстов устройств.
 ms.assetid: 2f742743-094a-44b8-816b-24246607caeb
 keywords:
-- Цветовая система Windows (WCS), функции
-- WCS (цветовая система Windows), функции
+- Windows Система цветовой системы (WCS), функции
+- WCS (Windows цветовая система), функции
 - Управление цветом изображений, функции
 - Управление цветом, функции
 - цвета, функции
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d04b7afe98f468fd3f580adf3eff145bce3aa1ac
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: 685b9fe1c7139be1c54e1b158a03c1de54d01b2b80ec4cab4b86603680c6d957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "105719863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814622"
 ---
 # <a name="advanced-functions-for-use-outside-of-a-device-context"></a>Дополнительные функции для использования вне контекста устройства
 

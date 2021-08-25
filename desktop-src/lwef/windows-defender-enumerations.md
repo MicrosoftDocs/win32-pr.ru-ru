@@ -1,19 +1,19 @@
 ---
-title: Перечисления защитника Windows
-description: Перечисления, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из защитника Windows.
+title: Защитник Windows Перечисления
+description: перечисления, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из Защитник Windows.
 ms.assetid: AC84ED57-6221-4A19-8A1D-E4E2811B027E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02400576ddeccf7ffb79f6aeceafba725be78516
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a3b2f054d09a13e5e749f3a2b72b7adb1d5e8f52a664bac8e937c717031a32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114474"
 ---
-# <a name="windows-defender-enumerations"></a>Перечисления защитника Windows
+# <a name="windows-defender-enumerations"></a>Защитник Windows Перечисления
 
-Перечисления, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из защитника Windows.
+перечисления, используемые приложениями при вызове для просмотра запросов, обновлений сигнатур или сведений из Защитник Windows.
 
 
 

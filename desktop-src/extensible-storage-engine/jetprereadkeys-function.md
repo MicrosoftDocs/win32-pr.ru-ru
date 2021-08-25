@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d35407c171bdcd54eb44e9830f382c08a1e6c6c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 067fe72e2e00fc01b433dbda819d5e89336fc68c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497409"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467191"
 ---
 # <a name="jetprereadkeys-function"></a>Функция Жетпререадкэйс
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetprereadkeys-function"></a>Функция Жетпререадкэйс
 
@@ -80,67 +80,23 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
 Ошибки ввода-вывода могут возвращаться вместе со следующими ошибками использования API:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Грбит не был ни JET_bitPrereadForward, ни JET_bitPrereadBackward.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>Передан неверный размер ключа. Ключи не могут иметь значение 0 и не превышать максимальную длину ключа для таблицы.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Передан недопустимый параметр. Это может быть вызвано значением NULL для обязательного параметра или может означать, что массив ключей не отсортирован должным образом.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errInvalidGrbit</p> | <p>Грбит не был ни JET_bitPrereadForward, ни JET_bitPrereadBackward.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>Передан неверный размер ключа. Ключи не могут иметь значение 0 и не превышать максимальную длину ключа для таблицы.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Передан недопустимый параметр. Это может быть вызвано значением NULL для обязательного параметра или может означать, что массив ключей не отсортирован должным образом.</p> | 
+
 
 
 **Жетпререадкэйс** проходит внутренние страницы сбалансированного дерева, чтобы определить, какие конечные страницы содержат ключи, указанные в Ргпвкэйс/ргкбкэйс. Список конечных страниц сортируется, а затем для диапазонов страниц выводятся данные для чтения. Число страниц, которые могут быть доступны для чтения, ограничено, поэтому возможно, что не все ключи могут быть считаны. В этом случае число ключей, фактически прочитанных в Пккэйспререад, будет возвращено.
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows 7.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 R2.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows 7.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows Server 2008 R2.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
