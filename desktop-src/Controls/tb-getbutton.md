@@ -3,7 +3,7 @@ title: Сообщение TB_GETBUTTON (Коммктрл. h)
 description: Извлекает сведения об указанной кнопке на панели инструментов.
 ms.assetid: d90d053c-0daf-4a5a-b7ca-b9b4472c65a3
 keywords:
-- Элементы управления Windows для TB_GETBUTTON сообщений
+- элементы управления Windows сообщений TB_GETBUTTON
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb2080a6c984bb2384f68a1388bd46fe598f5087
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e36d8cd4e382570884b0cb30f7c95615e2342544cab0970e9864e9fde7882f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919034"
 ---
 # <a name="tb_getbutton-message"></a>\_Сообщение о кнопке ТБ
 
@@ -53,9 +53,9 @@ ms.locfileid: "103804121"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

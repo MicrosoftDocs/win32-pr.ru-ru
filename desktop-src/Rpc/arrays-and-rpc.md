@@ -4,12 +4,12 @@ description: 'Языки программирования C и C++ предос�
 ms.assetid: 2aa042d6-6fd9-4164-a8bd-b73b9dceb0bf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7aeadbe4a83465d6b70389122ab1826e6791edd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e09ca93b4cb0967223fcbe007049f9b7b4368fe85ef917dee69de5ad713c05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023934"
 ---
 # <a name="arrays-and-rpc"></a>Массивы и RPC
 
@@ -21,9 +21,9 @@ ms.locfileid: "103986839"
 -   [Атрибуты массива](array-attributes.md)
 -   [Многомерные массивы](multidimensional-arrays.md)
 
- 
+ 
 
- 
+ 
 
 
 

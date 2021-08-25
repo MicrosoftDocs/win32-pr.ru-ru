@@ -1,6 +1,6 @@
 ---
 title: Элемент Дебугдата (EventType)
-description: Содержит данные, которые могут быть зарегистрированы для событий препроцессора трассировки программного обеспечения Windows (WPP).
+description: содержит данные, которые могут быть зарегистрированы для Windows событий препроцессора (WPP) трассировки программного обеспечения.
 ms.assetid: df7b1a84-95a3-4e56-9be8-3123366c4932
 keywords:
 - Журнал событий элемента Дебугдата
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d8c04874c67ff496997d36e7fd614eee1a6dbfa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8c11d9e7d900c62e9dea59934058de9019cc31b6fa0e414f1310eff43c410858
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005544"
 ---
 # <a name="debugdata-eventtype-element"></a>Элемент Дебугдата (EventType)
 
-Содержит данные, которые могут быть зарегистрированы для событий препроцессора трассировки программного обеспечения Windows (WPP).
+содержит данные, которые могут быть зарегистрированы для Windows событий препроцессора (WPP) трассировки программного обеспечения.
 
 ``` syntax
 <xs:element name="DebugData"
@@ -32,25 +32,25 @@ ms.locfileid: "105691771"
 
 Элемент **дебугдата** определяется сложным типом [**EventType**](eventschema-eventtype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 **Родительский элемент**
 </dt> <dt>
 
-[**Журнале**](eventschema-event-element.md)
+[**событие**](eventschema-event-element.md)
 </dt> </dl>
 
  

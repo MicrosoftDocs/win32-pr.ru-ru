@@ -3,7 +3,7 @@ title: Амбиентаттрибутес. Клиппингколор
 description: Атрибут Клиппингколор указывает или получает цвет для отсечения из точечного рисунка Клиппингимаже.
 ms.assetid: d6ea43d3-c118-43d3-bfdc-29ddd6ea4978
 keywords:
-- Проигрыватель Windows Media Амбиентаттрибутес. Клиппингколор
+- амбиентаттрибутес. клиппингколор проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad526eb0f705d1fce95f3813a666420b29db9de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 299ee63b93abfdea337bb25e8b399e6011fb42d7fa4e1e0c09b3feb259d4f1d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902814"
 ---
 # <a name="ambientattributesclippingcolor"></a>Амбиентаттрибутес. Клиппингколор
 
@@ -42,23 +42,23 @@ ms.locfileid: "105698929"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Цвет обрезки указывает области **клиппингимаже** (или **фонового** изображения для **представления** или **подпредставления**), которые соответствуют прозрачным нещелчкам части элемента управления. Отсеченный цвет может указывать на несколько областей для обрезки. Предупреждение выдается, если **клиппингимаже** является JPG, чтобы предупредить потери цвета в жпгс.
 
 Атрибут **клиппингколор** не поддерживается элементом **списка воспроизведения** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

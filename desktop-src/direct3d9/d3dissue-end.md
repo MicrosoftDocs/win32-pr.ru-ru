@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 7a448346bdc5dcfbbca4cf0d55273bdadc2fdcbb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0c2e7a197612b56eb5ae966da3cd4cc224edd2bd07e3fded3d0b72907f717d5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987254"
 ---
 # <a name="d3dissue_end"></a>D3DISSUE \_ конец
 
@@ -36,7 +36,7 @@ ms.locfileid: "104355083"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот макрос изменяет состояние запроса на несигнальное.
 
@@ -48,17 +48,17 @@ D3DISSUE \_ End допустимо для следующих типов запр
 -   \_Событие D3DQUERYTYPE
 -   D3DQUERYTYPE \_ перекрытия
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

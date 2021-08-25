@@ -3,7 +3,7 @@ title: АБСТРАКТный элемент
 description: АБСТРАКТный элемент содержит текст, описывающий связанный элемент ASX, BANNER или ENTRY.
 ms.assetid: 7866fee8-1778-433a-be2f-9df0baa1c13e
 keywords:
-- АБСТРАКТный элемент Windows Media Player
+- проигрыватель Windows Media абстрактного элемента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e90b6f52b697242be23303ab3597dac549a6177
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 153759dbe4bef47693cba13549b58215e4992686eab81cdcb4dadb33aa30279f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903054"
 ---
 # <a name="abstract-element"></a>АБСТРАКТный элемент
 
@@ -80,24 +80,24 @@ ms.locfileid: "105698854"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 70 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 70 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Справочник по элементам метафайлов Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Справочник по элементам метафайлов мультимедиа**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Справочник по метафайлу Windows Media**](windows-media-metafile-reference.md)
+[**Windows Ссылка на метафайл мультимедиа**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

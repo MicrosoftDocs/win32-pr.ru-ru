@@ -4,12 +4,12 @@ ms.assetid: bbe14a49-0649-4385-a0d8-89771badf0ee
 title: System. Devices. Аепконтаинер. Диалпротокол. Инсталледаппликатионс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca9ed6f3ce60493a22eccf2657a4231c125ce99d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a681251e8eb6db819f6ddd16ba407fb1404eca1c29e6fe2d09a0389de91c9007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010734"
 ---
 # <a name="systemdevicesaepcontainerdialprotocolinstalledapplications"></a>System. Devices. Аепконтаинер. Диалпротокол. Инсталледаппликатионс
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IMsRdpClientNonScriptable5
-description: Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса IMsRdpClientNonScriptable4.
+description: предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса IMsRdpClientNonScriptable4.
 ms.assetid: 41b8c624-0451-4a7e-bc80-d0bf269e33c6
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec338dbe07c4733bf80207298f23f388bf8f77c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddb7f3407f0dc6b1bc8dc04c6c4a72cda95db6b6b1def088a18908a730b96600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009804"
 ---
 # <a name="imsrdpclientnonscriptable5-interface"></a>Интерфейс IMsRdpClientNonScriptable5
 
-Предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) . Доступ к методам этого интерфейса возможен только через таблицу vtable; они недоступны для использования в сценариях клиентов.
+предоставляет доступ к необрабатываемым свойствам удаленного сеанса клиента на удаленный рабочий стол элементе управления ActiveX. Является производным от интерфейса [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) . Доступ к методам этого интерфейса возможен только через таблицу vtable; они недоступны для использования в сценариях клиентов.
 
 Экземпляр этого интерфейса получен путем вызова [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) для объекта [**имстскакс**](imstscax-interface.md) , передавая **IID \_ IMsRdpClientNonScriptable5**.
 
@@ -35,7 +35,7 @@ ms.locfileid: "104493176"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IMsRdpClientNonScriptable5** имеет следующие свойства.
 
@@ -43,20 +43,20 @@ ms.locfileid: "104493176"
 
 | Свойство                                                                                                         | Тип доступа           | Описание                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**алловпромптингфоркредентиалс**](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/>       | Чтение/запись<br/> | Указывает, может ли элемент управления удаленный рабочий стол ActiveX запрашивать учетные данные у пользователя.<br/>                    |
-| [**дисаблеконнектионбар**](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/>                       | Только на запись<br/> | Указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключать панель подключения.<br/>                      |
-| [**дисаблеремотеаппкапсчекк**](imsrdpclientnonscriptable5-disableremoteappcapscheck.md)<br/>             | Чтение/запись<br/> | Указывает, должен ли элемент управления ActiveX удаленный рабочий стол не проверять наличие у сервера возможностей RemoteApp.<br/> |
+| [**алловпромптингфоркредентиалс**](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/>       | Чтение/запись<br/> | указывает, может ли элемент управления ActiveX удаленный рабочий стол запрашивать учетные данные у пользователя.<br/>                    |
+| [**дисаблеконнектионбар**](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/>                       | Только на запись<br/> | указывает, должен ли элемент управления ActiveX удаленный рабочий стол отключить панель подключения.<br/>                      |
+| [**дисаблеремотеаппкапсчекк**](imsrdpclientnonscriptable5-disableremoteappcapscheck.md)<br/>             | Чтение/запись<br/> | указывает, должен ли элемент управления ActiveX удаленный рабочий стол не проверять возможности RemoteApp на сервере.<br/> |
 | [**жетремотемониторсбаундингбокс**](imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md)<br/>       | Только для чтения<br/>  | Задает ограничивающий прямоугольник удаленного монитора.<br/>                                                      |
 | [**ремотемониторкаунт**](imsrdpclientnonscriptable5-remotemonitorcount.md)<br/>                           | Только для чтения<br/>  | Указывает число удаленных мониторов.<br/>                                                                     |
 | [**ремотемониторлайаутматчеслокал**](imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md)<br/> | Только для чтения<br/>  | Указывает, идентичен ли макет удаленного монитора структуре локального монитора.<br/>                             |
-| [**усемултимон**](imsrdpclientnonscriptable5-usemultimon.md)<br/>                                         | Чтение/запись<br/> | Указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов.<br/>                           |
+| [**усемултимон**](imsrdpclientnonscriptable5-usemultimon.md)<br/>                                         | Чтение/запись<br/> | указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов.<br/>                           |
 | [**варнабаутдиректксредиректион**](imsrdpclientnonscriptable5-warnaboutdirectxredirection.md)<br/>         | Чтение/запись<br/> | Это свойство не используется.<br/>                                                                                   |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "104493176"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

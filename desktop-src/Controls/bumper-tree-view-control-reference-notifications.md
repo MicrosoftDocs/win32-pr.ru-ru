@@ -4,16 +4,16 @@ description: Уведомления в виде дерева
 ms.assetid: 571748a0-f5f0-4436-a8c3-ff9af754c7ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d70215b29add300fab0c9afc1820b60462ab5ed8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fbcdae9c559022a2787e0698c2cc7b1bcf753a85256f48ea183af9b5791e9628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105651252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969064"
 ---
 # <a name="tree-view-notifications"></a>Уведомления в виде дерева
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [NM \_ -щелчок (представление в виде дерева)](nm-click-tree-view.md)
 -   [NM \_ кустомдрав (представление в виде дерева)](nm-customdraw-tree-view.md)

@@ -4,12 +4,12 @@ description: Обработчики объектов
 ms.assetid: a5b51e07-246d-42a2-b33f-2bd0c608f41a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7294ddd48d2acaa010ad15c0e2497fd33c7f071
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c85221456d637e0d9e982aad253c06d34618018a3648a31a7bd21e8c1465fa84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992324"
 ---
 # <a name="object-handlers"></a>Обработчики объектов
 
@@ -27,16 +27,16 @@ OLE предоставляет обработчик объектов по умо
 
 -   [Обработчик по умолчанию и пользовательские обработчики](the-default-handler-and-custom-handlers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Составные документы](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

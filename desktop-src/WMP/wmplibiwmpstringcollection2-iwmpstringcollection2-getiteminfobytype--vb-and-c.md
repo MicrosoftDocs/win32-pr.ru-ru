@@ -3,9 +3,9 @@ title: IWMPStringCollection2 Жетитеминфобитипе, метод
 description: Метод Жетитеминфобитипе возвращает значение, соответствующее указанному индексу элемента коллекции строк, имени, языку и индексу атрибута.
 ms.assetid: 51035fed-51ce-4cd2-a936-4c99802128f2
 keywords:
-- Жетитеминфобитипе метод Windows Media Player
-- Жетитеминфобитипе метод проигрывателя Windows Media Player, интерфейс IWMPStringCollection2
-- Интерфейс IWMPStringCollection2 Windows Media Player, метод Жетитеминфобитипе
+- проигрыватель Windows Media метода жетитеминфобитипе
+- проигрыватель Windows Media метода жетитеминфобитипе, интерфейс IWMPStringCollection2
+- проигрыватель Windows Media интерфейса IWMPStringCollection2, метод жетитеминфобитипе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e227d6471ecf41c8f48420ded61c6f4e7eaac8cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc2894faedc8e2573fad5beaa7744216fbb53fbd1b090e4be2122a3194827f43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899764"
 ---
 # <a name="iwmpstringcollection2getiteminfobytype-method"></a>Метод IWMPStringCollection2:: Жетитеминфобитипе
 
@@ -91,7 +91,7 @@ Implements IWMPStringCollection2.getItemInfobyType
 
 Объект **System. Object** , являющийся элементом коллекции строк.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод поддерживает атрибуты с несколькими значениями и атрибутами со сложными значениями. Метод **getItemInfo** не поддерживает атрибуты с несколькими значениями или атрибутами со сложными значениями.
 
@@ -101,19 +101,19 @@ Implements IWMPStringCollection2.getItemInfobyType
 
 Чтобы использовать этот метод, необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11.<br/>                                                                                    |
+| Версия<br/>   | проигрыватель Windows Media 11.<br/>                                                                                    |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

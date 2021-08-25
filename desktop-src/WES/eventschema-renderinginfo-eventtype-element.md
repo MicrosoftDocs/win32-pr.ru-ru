@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 771901196c4988025cce203ffc3134450d38ed7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7434ff25600daf72d678d0d67e3b5d581474835de10498ba005986f28c057048
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904384"
 ---
 # <a name="renderinginfo-eventtype-element"></a>Элемент Рендерингинфо (EventType)
 
@@ -32,25 +32,25 @@ ms.locfileid: "104340295"
 
 Элемент **рендерингинфо** определяется сложным типом [**EventType**](eventschema-eventtype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 **Родительский элемент**
 </dt> <dt>
 
-[**Журнале**](eventschema-event-element.md)
+[**событие**](eventschema-event-element.md)
 </dt> </dl>
 
  

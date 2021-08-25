@@ -1,18 +1,18 @@
 ---
 title: Примеры DWM
-description: Диспетчер окон рабочего стола (DWM) — это набор интерфейсов, появившихся в Windows Vista с новыми функциями, появившимися в Windows 7.
+description: диспетчер окон рабочего стола (DWM) — это набор интерфейсов, появившихся в Windows Vista с новыми функциями, представленными в Windows 7.
 ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071662
 keywords:
 - Диспетчер окон рабочего стола (DWM), примеры
 - DWM (диспетчер окон рабочего стола), примеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a04bf6b56aef18f09096599745bdd805ed09a68b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8d6b13ce917c21e033f118ac8b62b8fbe03fe9f63065a220f3cccb45d3371a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022144"
 ---
 # <a name="dwm-samples"></a>Примеры DWM
 
@@ -28,7 +28,7 @@ ms.locfileid: "103888495"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

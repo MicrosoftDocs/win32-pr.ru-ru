@@ -32,7 +32,7 @@ ms.locfileid: "120005184"
 
 Элемент **Query** определяется сложным типом [**куерилисттипе**](queryschema-querylisttype-complextype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "120005184"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: b3403a64-128c-461e-9384-8e62c03322e1
 title: Поиск в таблице распределенной маршрутизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9977ca395393cef09198182fb8790738d2b00c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9016c351412d80b7adb97bc4325dae546e24db68e5737badc311e7c068f1a22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034244"
 ---
 # <a name="searching-a-distributed-routing-table"></a>Поиск в таблице распределенной маршрутизации
 
@@ -45,7 +45,7 @@ ms.locfileid: "105663964"
 
 Члены **пминимумкэй** и **пмаксимумкэй** можно использовать для поиска ключей, попадающих в диапазон. Если для элемента **фаниматчинранже** задано **значение false**, то DRT вернет ближайший ключ к целевому объекту поиска (указанный с помощью аргумента pKey, переданного в функцию [**дртстартсеарч**](/windows/desktop/api/drt/nf-drt-drtstartsearch) ), в пределах диапазона. Обратите внимание, что аргумент *pKey* , переданный в **дртстартсеарч** , должен попадать в диапазон, определенный **пминимумкэй** и **пмаксимумкэй**. Чтобы найти точный ключ, задайте для **пминимумкэй**, **пмаксимумкэй** и *pKey* одно и то же значение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

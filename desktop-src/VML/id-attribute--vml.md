@@ -4,21 +4,21 @@ description: Атрибут ID (VML)
 ms.assetid: 39575a1c-f8ea-43e0-9ad5-540e9d803748
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a3925166a735b7813efd4cb9bc68f50bb8fa52
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc0ba0addd2d6af8a8b38af4085c79123d3178a3299269468abd73fff1951d9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007863"
 ---
 # <a name="id-attribute-vml"></a>Атрибут ID (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Предоставляет уникальный идентификатор для элемента. Read/write. **Строка**.
 
@@ -42,7 +42,7 @@ ms.locfileid: "104487901"
 
 Для использования элемента [шапетипе](msdn-online-vml-shapetype-element.md) требуется **идентификатор** .
 
-При создании VML с помощью Microsoft Office, если фигуре назначено имя объектной модели, то для **идентификатора** задается это имя. Если имя объектной модели не задано, то имя создается с помощью *SPID* (внутренний идентификатор фигуры) и префикса (S для Shape, M для главной фигуры, T для шапетипе).
+при создании VML с помощью Microsoft Office, если фигуре назначено имя объектной модели, то для **идентификатора** задается это имя. Если имя объектной модели не задано, то имя создается с помощью *SPID* (внутренний идентификатор фигуры) и префикса (S для Shape, M для главной фигуры, T для шапетипе).
 
 *Стандартный атрибут VML*.
 
@@ -70,6 +70,6 @@ ms.locfileid: "104487901"
 
 [Пример атрибута ID](/previous-versions/office/developer/speech-technologies/ms872141(v=msdn.10)#example). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

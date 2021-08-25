@@ -4,12 +4,12 @@ ms.assetid: 91b6d6e3-7953-461c-8b64-c50f394caa63
 title: Операторы XMFLOAT2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1304199a25f7d5ac8209c538110839a7dfc8e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 230c5bb97154f55f579ceb20b7cb6d61bc811694872b034e00f97094d28bc86d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022124"
 ---
 # <a name="xmfloat2-operators"></a>Операторы XMFLOAT2
 
@@ -32,7 +32,7 @@ ms.locfileid: "105692652"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

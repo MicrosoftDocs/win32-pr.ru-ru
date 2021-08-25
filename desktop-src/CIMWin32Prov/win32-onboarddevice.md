@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5fae5416a4b3cbeda0d8c63f6834c0406e628013
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a6ce10494c44f6eecd78e44d4bcf97d5e46da7d6281a5ef614a9e737acae68c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972594"
 ---
 # <a name="win32_onboarddevice-class"></a>\_Класс Win32 онбоарддевице
 
@@ -82,13 +82,13 @@ class Win32_OnBoardDevice : CIM_PhysicalComponent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ онбоарддевице** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -209,7 +209,7 @@ class Win32_OnBoardDevice : CIM_PhysicalComponent
 
 </dd> <dt>
 
-**Enabled**
+**Включен**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -294,7 +294,7 @@ class Win32_OnBoardDevice : CIM_PhysicalComponent
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -570,7 +570,7 @@ class Win32_OnBoardDevice : CIM_PhysicalComponent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ онбоарддевице** является производным от [**CIM \_ фисикалкомпонент**](cim-physicalcomponent.md).
 

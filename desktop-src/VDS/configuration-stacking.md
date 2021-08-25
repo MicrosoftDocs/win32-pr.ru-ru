@@ -4,16 +4,16 @@ ms.assetid: 1f0f75d6-3553-4ee1-8ee6-bd617da4a109
 title: Настройка стека
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b50b90629556b5ed00db712b49fe8fa4e48ea8cc
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 9018a2484ce4e5b9121d08abffee54911531b7f421cfef75643594e827fe350e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104556887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905573"
 ---
 # <a name="configuration-stacking"></a>Настройка стека
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Стек включает объединение набора сопоставлений логических блоков. Можно выполнить стек нескольких LUN из одной подсистемы в одном LUN. Можно выполнить стек LUN вместе с томами из одного и того же пакета в одном томе. Кроме того, можно выполнить стек для нескольких LUN, выявляющихся разнородными подсистемами в одном томе.
 

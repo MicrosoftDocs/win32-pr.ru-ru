@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7ca5cc37a9fbd79807e258a87a199be7319ce3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f045f781ae22aa4550a298ba7becfe2bc4a939528657f663ec021870bf3afa78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918284"
 ---
 # <a name="deducingblobgetter"></a>дедуЦингблобжеттер
 
@@ -47,7 +47,7 @@ HRESULT DeducingBlobGetter(
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1effecthelpers. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1effecthelpers. h</dt> </dl> |
 
 
 

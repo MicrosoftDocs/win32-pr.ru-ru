@@ -4,12 +4,12 @@ description: Чтобы определить версию BITS на клиент
 ms.assetid: b6057ae4-3bf0-4304-ae50-5da5e82a0bed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c94e151608511ec59e52befdef6e4f63e44476e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8caa2c501fd5f37d44becf11679debb1390aeeb9ee47bee02b43a97788493cd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005314"
 ---
 # <a name="determining-the-version-of-bits-on-a-computer"></a>Определение версии BITS на компьютере
 
@@ -20,7 +20,7 @@ ms.locfileid: "103773397"
 -   Перейдите на вкладку **версия** .
 -   Запишите номер версии.
 
-Для определения версии библиотеки DLL в системе можно также использовать следующий код PowerShell:
+Для определения версии .dll в системе можно также использовать следующий код PowerShell:
 
 `get-item "C:\Windows\System32\qmgr.dll" | Select-Object -ExpandProperty VersionInfo`
 
@@ -44,7 +44,7 @@ ms.locfileid: "103773397"
 
 
 
- 
+ 
 
 Кроме того, можно использовать символьные идентификаторы классов для определения версии битов, зарегистрированных на компьютере. В следующей таблице перечислены версии битов и соответствующие им символьные идентификаторы классов. Функция **CoCreateInstance** возвращает **регдб \_ E \_ класснотрег** , если класс не зарегистрирован.
 
@@ -63,11 +63,11 @@ ms.locfileid: "103773397"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

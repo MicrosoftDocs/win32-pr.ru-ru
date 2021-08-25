@@ -4,17 +4,17 @@ description: Создание настраиваемых ползунков
 ms.assetid: eb26ba44-a891-4cb6-be74-5acf881e896f
 keywords:
 - Создание обложек, ползунков
-- Обложки проигрывателя Windows Media, ползунки
+- обложки проигрыватель Windows Media, ползунки
 - обложки, ползунки
 - Ползунки в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f205d46af003589fcc2c3b741a253ea08fae12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d85a789bbd90003b59e1a9b9dcf8fffcf4a126c38138f7a051c24125780f8c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902334"
 ---
 # <a name="creating-custom-sliders"></a>Создание настраиваемых ползунков
 
@@ -44,16 +44,16 @@ ms.locfileid: "104532297"
 
 Аналогичную обложку рабочего ползунка можно увидеть в разделе примеров пакета SDK.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Руководством по созданию обложки**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

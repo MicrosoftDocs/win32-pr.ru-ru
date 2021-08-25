@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Получение уведомлений о событиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43873c03155f2186f9d3a9a3daff9b8e322e511f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1064fd0098ac72c6ceecbb5fcbc212fb38f6b2b25d0e61d8149bdb0fad177267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996014"
 ---
 # <a name="receiving-event-notifications"></a>Получение уведомлений о событиях
 
@@ -18,7 +18,7 @@ ms.locfileid: "105647260"
 
 [Временные потребители](receiving-events-for-the-duration-of-your-application.md) размещают запросы в вызовах метода [**IWbemServices:: ексекнотификатионкуери**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery) или [**IWbemServices:: ExecNotificationQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationqueryasync) . [Постоянные потребители событий](receiving-events-at-all-times.md) размещают запросы в свойстве **Query** экземпляра класса System [**\_ \_ EventFilter**](--eventfilter.md) .
 
-[Поставщики событий](writing-an-event-provider.md) используют запросы событий для регистрации для поддержки одного или нескольких типов событий. Они размещают запросы в свойстве **евенткуерилист** экземпляра класса System [**\_ \_ евентпровидеррегистратион**](--eventproviderregistration.md) . Все поставщики событий создают экземпляр **\_ \_ евентпровидеррегистратион** для регистрации в инструментарий управления Windows (WMI) (WMI). Дополнительные сведения см. в разделе [Регистрация поставщика событий](registering-an-event-provider.md).
+[Поставщики событий](writing-an-event-provider.md) используют запросы событий для регистрации для поддержки одного или нескольких типов событий. Они размещают запросы в свойстве **евенткуерилист** экземпляра класса System [**\_ \_ евентпровидеррегистратион**](--eventproviderregistration.md) . все поставщики событий создают экземпляр **\_ \_ евентпровидеррегистратион** для регистрации в инструментарий управления Windows (WMI) (WMI). Дополнительные сведения см. в разделе [Регистрация поставщика событий](registering-an-event-provider.md).
 
 Потребители и поставщики событий используют [инструкцию SELECT](select-statement-for-event-queries.md) и связанное предложение WHERE для запросов событий, а также разнообразные расширения, специфичные для язык запросов WMI (WQL). Расширения используются для защиты пользователей от перегрузки с помощью уведомлений, которые часто являются полезными.
 

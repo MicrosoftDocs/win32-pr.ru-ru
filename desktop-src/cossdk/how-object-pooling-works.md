@@ -4,12 +4,12 @@ ms.assetid: 34978b50-cd20-42fd-ad46-410190478ef8
 title: Как работает пул объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f78784fc0e5362c14ceb598b404976c6ca494a19
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df937dd8e3d7a2fb111c7825df101cd2b53f6f39a94326efb1eafe878d74daa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954044"
 ---
 # <a name="how-object-pooling-works"></a>Как работает пул объектов
 
@@ -33,7 +33,7 @@ ms.locfileid: "105710739"
 
 Дополнительные сведения о настройке компонентов для объединения в пул см. в разделе [Настройка компонента для объединения в пул](configuring-a-component-to-be-pooled.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

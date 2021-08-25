@@ -59,7 +59,7 @@ HRESULT GetNextDataObject(
 
 Объекты верхнего уровня всегда являются объектами данных. Объекты ссылок на данные и двоичные объекты могут быть только дочерними объектами данных.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ HRESULT GetNextDataObject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

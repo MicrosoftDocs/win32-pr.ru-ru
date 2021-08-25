@@ -4,12 +4,12 @@ ms.assetid: a3ac69b4-894a-4536-8fab-f45ad7e5118a
 title: Поддержка схемы на уровне файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 460d256a3eaa016933e697687d05e26838c14ae2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 550885a540e62fc145541bae979fad34cb9488f62f9f26ea17e647068c1fad46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006374"
 ---
 # <a name="file-level-schema-support"></a>Поддержка схемы на уровне файлов
 

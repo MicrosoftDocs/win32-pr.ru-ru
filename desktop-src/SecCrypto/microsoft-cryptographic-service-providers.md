@@ -4,12 +4,12 @@ ms.assetid: 1461914e-5506-4f24-97da-3d2148aafd1c
 title: Поставщики служб шифрования Майкрософт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 294d00660cbfa89c6113e6e9fcf2600b2f745e6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17cac0ff0276a548e5855a3f2d0d69cac3dcdc2ab35001a7f8dcabdb5cfd62bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992824"
 ---
 # <a name="microsoft-cryptographic-service-providers"></a>Поставщики служб шифрования Майкрософт
 
@@ -20,7 +20,7 @@ ms.locfileid: "105682768"
 | Поставщик                                                                                                                                 | Описание                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Базовый поставщик служб шифрования Майкрософт](microsoft-base-cryptographic-provider.md)                                                       | Широкий набор основных функциональных возможностей шифрования, которые можно экспортировать в другие страны или регионы.                                                                                                                                                     |
-| [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md)                                                   | Расширение базового поставщика служб шифрования Майкрософт, доступное в Windows XP и более поздних версиях.                                                                                                                                                           |
+| [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md)                                                   | расширение базового поставщика служб шифрования майкрософт, доступное в Windows XP и более поздних версиях.                                                                                                                                                           |
 | [Улучшенный поставщик служб шифрования Майкрософт](microsoft-enhanced-cryptographic-provider.md)                                               | Базовый поставщик служб шифрования Майкрософт с использованием более длинных ключей и дополнительных алгоритмов.                                                                                                                                                                |
 | [Поставщик служб шифрования AES (Майкрософт)](microsoft-aes-cryptographic-provider.md)                                                         | Улучшенный поставщик служб шифрования Майкрософт с поддержкой алгоритмов шифрования AES.                                                                                                                                                                    |
 | [Поставщик служб шифрования Microsoft DSS](microsoft-dss-cryptographic-provider.md)                                                         | Обеспечивает возможность хеширования, подписывания данных и проверки подписи с помощью алгоритмов [*SHA*](../secgloss/s-gly.md)и стандарта цифровой подписи (DSS). |
