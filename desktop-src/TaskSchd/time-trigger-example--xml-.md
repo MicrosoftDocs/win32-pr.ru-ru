@@ -1,6 +1,6 @@
 ---
 title: Пример триггера времени (XML)
-description: В этом примере XML определяет задачу, которая запускает Блокнот в определенное время.
+description: в этом примере XML определяет задачу, которая начинается Блокнот в определенное время.
 ms.assetid: dde3627b-e268-45ef-9c26-08877bfe484f
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c683c831aa3a07eeb3a41db9cd2768caeb6307a
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 25c4cffb3764f96a191b1c5ad0d2999664d536f2df9be9862fa98f0335f3fe23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104336025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990814"
 ---
 # <a name="time-trigger-example-xml"></a>Пример триггера времени (XML)
 
-В этом примере XML определяет задачу, которая запускает Блокнот в определенное время.
+в этом примере XML определяет задачу, которая начинается Блокнот в определенное время.
 
-Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. Если вы используете средство Schtasks.exe (расположенное в каталоге C: \\ Windows \\ System32), для регистрации задачи выполните следующую команду: **schtasks/CREATE/XML** *<path to the XML file containing the task definition>* **/TN** *<task name>* .
+Чтобы зарегистрировать задачу, определенную в формате XML, можно использовать функцию [**ITaskFolder:: регистертаск**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) ([**таскфолдер. регистертаск**](taskfolder-registertask.md) для создания скриптов) или средство командной строки Schtasks.exe. при использовании средства Schtasks.exe (расположенного в каталоге C: \\ Windows \\ System32) можно зарегистрировать задачу с помощью следующей команды: **schtasks/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* .
 
-## <a name="to-define-a-task-to-start-notepad-at-a-specific-time"></a>Определение задачи для запуска Блокнота в определенное время
+## <a name="to-define-a-task-to-start-notepad-at-a-specific-time"></a>определение задачи для запуска Блокнот в определенное время
 
-В следующем примере XML показано, как определить задачу с одним действием выполнения (запуском блокнота), одним триггером, который запускает задачу в указанное время, и несколькими другими параметрами задач, влияющими на то, как задача обрабатывается планировщик задач.
+в следующем примере XML показано, как определить задачу с одним действием выполнения (запуск Блокнот), однократным триггером, который запускает задачу в указанное время, и несколькими другими параметрами задач, влияющими на то, как задача обрабатывается планировщик задач.
 
 
 ```XML
@@ -77,18 +77,18 @@ This sample schedules a task to start notepad.exe at a specific time.
 -   [**Тиметригжер**](taskschedulerschema-timetrigger-triggergroup-element.md): определяет триггер времени. В этом случае используются три дочерних элемента: Начальная и конечная границы, указывающие, когда триггер активируется и деактивируется, а также ограничение времени выполнения, указывающее максимальное время, в течение которого задача может запускаться триггером. Элемент [**стартбаундари**](taskschedulerschema-startboundary-triggerbasetype-element.md) является обязательным элементом для триггеров времени.
 -   [**Участник**](taskschedulerschema-principal-principaltype-element.md): определяет контекст безопасности, в котором выполняется задача.
 -   [**Параметры**](taskschedulerschema-settings-tasktype-element.md): определяет параметры задачи, которые планировщик задач использует для выполнения задачи.
--   [**Действия**](taskschedulerschema-actions-tasktype-element.md): определяет действия, выполняемые задачей (в данном случае, запуск Блокнота).
+-   [**действия**](taskschedulerschema-actions-tasktype-element.md): определяет действия, выполняемые задачей (в данном случае выполняется Блокнот).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

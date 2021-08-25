@@ -4,12 +4,12 @@ ms.assetid: c2c9d0f7-038b-4f23-985c-b812908d71a7
 title: Реализация асинхронного обратного вызова
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24088aea4e74b39ae08625c6917a5ca56f554158
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f064c9a3d16ebf54342065439415557ea4621c72a57a0a52e4f4c9ed65721e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941894"
 ---
 # <a name="implementing-the-asynchronous-callback"></a>Реализация асинхронного обратного вызова
 
@@ -137,7 +137,7 @@ public:
 
 Этот пример сигнализирует о событии в методе [**Invoke**](/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke) . Обсуждение различных параметров см. в разделе [Вызов асинхронных методов](calling-asynchronous-methods.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

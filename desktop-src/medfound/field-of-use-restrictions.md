@@ -4,17 +4,17 @@ ms.assetid: 36f28e4c-2baf-4618-9935-5d4615f6bc77
 title: Поле ограничений использования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b16f57de7642fa789a08c886a32bf906faffb72b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ccfb5b7c0923bdea117371a3b6af2669bf903fb3af996f754be43d5665c1ee1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104342472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942683"
 ---
 # <a name="field-of-use-restrictions"></a>Поле ограничений использования
 
 > [!Note]  
-> Этот раздел относится к Windows 7 или более поздним версиям.
+> этот раздел относится к Windows 7 и более поздних версий.
 
  
 
@@ -66,7 +66,7 @@ Media Foundation предоставляет механизм для примен
 
 ![Схема, показывающая приложение, объект активации и MFT со стрелками к объекту Фау, который имеет стрелку обратно в MFT](images/mft-fou02.gif)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

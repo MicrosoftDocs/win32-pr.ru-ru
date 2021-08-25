@@ -17,12 +17,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fddf172c3e320fd5c3a3b04d85d766a0252abd97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 498d9b953895ebece94dc77edb587045d1cfdd45c29f04c202756bd1080dc9f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795614"
 ---
 # <a name="microsoftdns_domainresourcerecordcontainment-class"></a>\_Класс микрософтднс домаинресаурцерекордконтаинмент
 
@@ -46,7 +46,7 @@ class MicrosoftDNS_DomainResourceRecordContainment : CIM_Component
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **микрософтднс \_ домаинресаурцерекордконтаинмент** имеет следующие свойства.
 
@@ -86,7 +86,7 @@ class MicrosoftDNS_DomainResourceRecordContainment : CIM_Component
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -99,7 +99,7 @@ class MicrosoftDNS_DomainResourceRecordContainment : CIM_Component
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Средство сопоставления MIDI
 description: Средство сопоставления MIDI
 ms.assetid: 92cffc67-b4a4-4807-94d2-02fbbdba5abf
 keywords:
-- Мультимедиа Windows, сопоставитель MIDI
+- Windows мультимедиа, средство сопоставления MIDI
 - мультимедиа, сопоставитель MIDI
 - мультимедиа аудио, сопоставитель MIDI
 - аудио, сопоставитель MIDI
@@ -14,12 +14,12 @@ keywords:
 - Сопоставитель MIDI, назначение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b360148c994c0ee6434fdf097ca5f393b23d49
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a5becc117668964a584f29c311c3e3ac477f672085e837e28d7eecc595658d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805104"
 ---
 # <a name="the-midi-mapper"></a>Средство сопоставления MIDI
 
@@ -34,12 +34,12 @@ ms.locfileid: "104067800"
 -   [Схема канала](the-channel-map.md)
 -   [Карты исправлений](patch-maps.md)
 -   [Скалярный том](the-volume-scalar.md)
--   [Карты ключей](key-maps.md)
--   [Сводка по картам и сообщениям MIDI](summary-of-maps-and-midi-messages.md)
+-   [ключевые Карты](key-maps.md)
+-   [сводка по Карты и сообщениям MIDI](summary-of-maps-and-midi-messages.md)
 
- 
+ 
 
- 
+ 
 
 
 

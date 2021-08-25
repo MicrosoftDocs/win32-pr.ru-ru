@@ -4,12 +4,12 @@ ms.assetid: 42f76d22-1f0e-4e20-a19e-e5e926ab27f9
 title: Общие сведения о поставщиках служб шифрования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11861b99dc8a19fc4300be2c9707462235f4a792
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f167f186ed4da1ac5e97aba8a3c4659f13f29f253de3f489981fc6b32810015f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127224"
 ---
 # <a name="understanding-cryptographic-providers"></a>Общие сведения о поставщиках служб шифрования
 
@@ -21,10 +21,10 @@ ms.locfileid: "103999070"
 
 -   [Поставщики служб шифрования CryptoAPI](cryptoapi-cryptographic-service-providers.md)
 -   [Поставщики алгоритмов шифрования CNG](cng-cryptographic-algorithm-providers.md)
--   [Поставщики хранилища ключей CNG](cng-key-storage-providers.md)
+-   [поставщики служба хранилища ключей CNG](cng-key-storage-providers.md)
 -   [Перечисление установленных поставщиков](enumerating-installed-providers.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

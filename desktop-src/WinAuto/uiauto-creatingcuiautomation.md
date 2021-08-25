@@ -11,12 +11,12 @@ keywords:
 - Объект Куиаутоматион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8162dac5276bbb22d00413276482cca34334fda5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c8b9720ce31f883c4561ae3f82372d902a0dcc3fbfca4bae6de998ce438a6d22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795494"
 ---
 # <a name="creating-the-cuiautomation-object"></a>Создание объекта Куиаутоматион
 
@@ -26,7 +26,7 @@ ms.locfileid: "103987568"
 
 -   [Объект Куиаутоматион](#the-cuiautomation-object)
 -   [Создание объекта](#creating-the-object)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="the-cuiautomation-object"></a>Объект Куиаутоматион
 
@@ -66,7 +66,7 @@ HRESULT InitializeUIAutomation(IUIAutomation **ppAutomation)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -79,6 +79,6 @@ HRESULT InitializeUIAutomation(IUIAutomation **ppAutomation)
 [Получение элементов автоматизации пользовательского интерфейса](uiauto-obtainingelements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

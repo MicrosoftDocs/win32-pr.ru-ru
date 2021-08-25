@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01675c777603f0eab2d22c0136b1ef6cc3522b7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f58fa11b22ec089d555fd1e769c71b3fc9d53dbf038ff8b22fb3df559cce59c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988454"
 ---
 # <a name="removeuserassignment-method-of-the-win32_rdmsvirtualdesktop-class"></a>Метод Ремовеусерассигнмент \_ класса Win32 рдмсвиртуалдесктоп
 
@@ -68,7 +68,7 @@ uint32 RemoveUserAssignment(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

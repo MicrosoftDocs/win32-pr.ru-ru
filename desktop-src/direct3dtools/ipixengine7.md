@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2e6a228249c782aec6d4587a859deac13ed030d2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8325f1c4e091a065433fe1790c19a985f7cb5d4c
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104342035"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787139"
 ---
 # <a name="span-idvspixengineipixengine7spanipixengine7-interface"></a><span id="vspixengine.ipixengine7"></span>Интерфейс IPixEngine7
 
@@ -38,13 +38,13 @@ ms.locfileid: "104342035"
 
 Интерфейс **IPixEngine7** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine7-initengineasync-resourcepair-arr-uint-iversioncallback-ptr-dword-dword"><strong>инитенгинеасинк</strong></a></td><td style="text-align: left;"><p>Асинхронно передает ресурсы в механизм, например строки для сообщений об ошибках.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine7-setplaybackendpointasync-bool-bstr-bstr-remotingversion-iversioncallback-ptr-dword-dword"><strong>сетплайбаккендпоинтасинк</strong></a></td><td style="text-align: left;"><p>Асинхронно задает адрес конечной точки, используемый для подключения к удаленному модулю.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine7-initengineasync-resourcepair-arr-uint-iversioncallback-ptr-dword-dword"><strong>инитенгинеасинк</strong></a></td><td ><p>Асинхронно передает ресурсы в механизм, например строки для сообщений об ошибках.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipixengine7-setplaybackendpointasync-bool-bstr-bstr-remotingversion-iversioncallback-ptr-dword-dword"><strong>сетплайбаккендпоинтасинк</strong></a></td><td ><p>Асинхронно задает адрес конечной точки, используемый для подключения к удаленному модулю.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

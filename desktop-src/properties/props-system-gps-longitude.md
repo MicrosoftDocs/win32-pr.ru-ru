@@ -4,12 +4,12 @@ ms.assetid: ef28141f-1b63-4694-b6df-fcc11ce7e50b
 title: System. GPS. Долгота
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e65431412b0d46ad7b68100febd4d6e8efd31a17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf12d65c2776c3740360c4cb298048621a877d58999eaddd6e219c682e5a0c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010344"
 ---
 # <a name="systemgpslongitude"></a>System. GPS. Долгота
 
@@ -47,13 +47,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-`label`Для Windows Vista с пакетом обновления 1 (SP1) был добавлен запрос на указанную косвенную ссылку на непрямое строковое значение атрибута **лабелинфо** .
+`label`для Windows Vista с пакетом обновления 1 (SP1) была добавлена обязательная ссылка на косвенную строку для атрибута **лабелинфо** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

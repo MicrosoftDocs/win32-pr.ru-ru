@@ -1,12 +1,12 @@
 ---
-title: Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)
-description: Узнайте, как получить указатель на объект Reader пакета SDK Windows Media Format с помощью интерфейса IWMReaderAdvanced2.
+title: получение указателя на объект Reader (Windows пакет SDK для формата мультимедиа 11)
+description: узнайте, как получить указатель на объект Reader пакета SDK Windows Media Format с помощью интерфейса IWMReaderAdvanced2.
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
-- Пакет SDK для Windows Media Format, DirectShow
-- Windows Media Format SDK, объекты Reader
-- Windows Media Format SDK, интерфейс IWMReaderAdvanced2
-- Расширенный системный формат (ASF), DirectShow
+- Windows Пакет SDK для формата мультимедиа, DirectShow
+- Windows Пакет SDK для формата мультимедиа, объекты Reader
+- Windows Пакет SDK для формата мультимедиа, интерфейс IWMReaderAdvanced2
+- Расширенный формат систем (ASF), DirectShow
 - ASF (Расширенный системный формат), DirectShow
 - Расширенный системный формат (ASF), объекты Reader
 - ASF (Расширенный системный формат), объекты Reader
@@ -21,16 +21,16 @@ keywords:
 - IWMReaderAdvanced2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd31bd868365b87b38eefd0c0c81e8beafef51c
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 5e4b2829e56d08825234dcefdc4fb1012f48c894419e7c328f10afeb76cb6c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808054"
 ---
-# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>Получение указателя на объект Reader (пакет SDK для Windows Media Format 11)
+# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>получение указателя на объект Reader (Windows пакет SDK для формата мультимедиа 11)
 
-В некоторых случаях, например при определении расширений единиц обработки данных, установленных для данного потока, может потребоваться доступ к [объекту Reader](reader-object.md) пакета SDK формата Windows Media напрямую. Следующая функция показывает, как получить интерфейс [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) для самого объекта Reader:
+в некоторых случаях, например при определении расширений модулей данных, установленных для данного потока, может потребоваться доступ к [объекту модуля чтения](reader-object.md) пакета SDK для Windows Media Format напрямую. Следующая функция показывает, как получить интерфейс [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) для самого объекта Reader:
 
 
 ```C++

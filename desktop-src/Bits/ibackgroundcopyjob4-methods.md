@@ -4,12 +4,12 @@ description: Интерфейс IBackgroundCopyJob4 предоставляет �
 ms.assetid: 1FD519AA-ED49-4B27-A0DE-B8C68DA5D40A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fb0958e0fc11f64199d8a636a92a473a3511a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a6a2f126b2d993adb177592f13753db92f0cb00fc8152618ed659224a8b59d81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005095"
 ---
 # <a name="ibackgroundcopyjob4-methods"></a>Методы IBackgroundCopyJob4
 
@@ -24,9 +24,9 @@ ms.locfileid: "103887708"
 -   [**Метод Сетмаксимумдовнлоадтиме**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setmaximumdownloadtime)
 -   [**Метод Сетпиркачингфлагс**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags)
 
- 
+ 
 
- 
+ 
 
 
 

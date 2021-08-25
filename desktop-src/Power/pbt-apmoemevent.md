@@ -4,16 +4,16 @@ ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
 title: Событие PBT_APMOEMEVENT (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a99b99bdaf69b1a53a24ad33cd898fd1c806694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b92feb840e69c3a7e560d7bc71a0a5e4746ae5677920010f0251a1b951ddb8d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961661"
 ---
 # <a name="pbt_apmoemevent-event"></a>\_Событие ПБТ апмоемевент
 
-\[ПБТ \_ апмоемевент доступен для использования в операционных системах, указанных в разделе требования. Поддержка этого события была удалена в Windows Vista.\]
+\[ПБТ \_ апмоемевент доступен для использования в операционных системах, указанных в разделе требования. поддержка этого события была удалена в Windows Vista.\]
 
 Уведомляет приложения о том, что BIOS APM сообщил о событии APM OEM.
 
@@ -73,25 +73,25 @@ WindowProc( HWND   hwnd,    // handle to window
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поскольку не все реализации APM BIOS предоставляют уведомления о событиях OEM, это событие может никогда не транслироваться на некоторые компьютеры.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
 | Окончание поддержки клиента<br/>    | Windows XP<br/>                                                                                    |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                                           |
-| Header<br/>                   | <dl> <dt>WinUser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>WinUser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

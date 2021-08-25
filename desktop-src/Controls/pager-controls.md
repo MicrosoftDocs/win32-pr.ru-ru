@@ -4,12 +4,12 @@ description: Элемент управления страничного нави
 ms.assetid: VS|Controls|~\controls\pager\pager.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28d0b5aa01b72ca5feb8170d6d9fd218a433509b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 12b2e4c4dab20647fcb8e4f1ba79a3a7c860a15d7aa2e639f3bbf719320d1ff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798982"
 ---
 # <a name="about-pager-controls"></a>Сведения об элементах управления страничного навигатора
 
@@ -30,11 +30,11 @@ ms.locfileid: "103774471"
 > [!Note]  
 > Элемент управления страничного навигатора реализован в версии 4,71 и более поздних Comctl32.dll.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

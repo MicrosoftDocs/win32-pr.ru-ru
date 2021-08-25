@@ -4,16 +4,16 @@ ms.assetid: 0afcb25a-2499-4baa-82ad-0706164e2e72
 title: 'Метод IH323LineEx:: Сетдефаулткапабилитипреферренце (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5604348eb80a3f423f6902f0a9a6e57204280c83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64eb3385edb758529f27f9fb90eb0cce998eca60f202c72a28ba48a5318c6b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992084"
 ---
 # <a name="ih323lineexsetdefaultcapabilitypreferrence-method"></a>Метод IH323LineEx:: Сетдефаулткапабилитипреферренце
 
-\[**Сетдефаулткапабилитипреферренце** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**сетдефаулткапабилитипреферренце** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **сетдефаулткапабилитипреферренце** настраивает предпочтения возможностей по умолчанию. Вес по умолчанию — 100. Если приложение задает более высокий вес для возможности, оно будет иметь более высокий приоритет при согласовании H. 245. Если приложение устанавливает весовой коэффициент возможности равным 0, оно не будет использоваться в согласовании H. 245.
 
@@ -74,14 +74,14 @@ HRESULT SetDefaultCapabilityPreferrence(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>H323priv. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>H323priv. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

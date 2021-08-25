@@ -1,6 +1,6 @@
 ---
 title: Сложный тип Дебугдататипе
-description: Определяет данные, которые могут регистрироваться для событий препроцессора трассировки программного обеспечения Windows (WPP).
+description: определяет данные, которые могут быть зарегистрированы для Windows событий препроцессора (WPP) трассировки программного обеспечения.
 ms.assetid: 75638e0f-7a26-473e-a0c4-bd8972ac171f
 keywords:
 - Журнал событий сложных типов Дебугдататипе
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c190d3b2b0e870ac249fed03485828685d5dc770
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38d5ec0297fce91b28592dfb9a894a62d3558f516a01ff18c942d37cc9c93f2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124234"
 ---
 # <a name="debugdatatype-complex-type"></a>Сложный тип Дебугдататипе
 
-Определяет данные, которые могут регистрироваться для событий препроцессора трассировки программного обеспечения Windows (WPP).
+определяет данные, которые могут быть зарегистрированы для Windows событий препроцессора (WPP) трассировки программного обеспечения.
 
 ``` syntax
 <xs:complexType name="DebugDataType">
@@ -80,7 +80,7 @@ ms.locfileid: "104071049"
 | [**Компонент**](eventschema-component-debugdatatype-element.md)           | строка      | Имя компонента, который записал в журнал сообщение трассировки.<br/>                                                |
 | [**филелине**](eventschema-fileline-debugdatatype-element.md)             | строка      | Имя исходного файла и строка в исходном файле, которая записала в журнал сообщение трассировки.<br/>          |
 | [**флагснаме**](eventschema-flagname-debugdatatype-element.md)            | строка      | Значение флага, передаваемое поставщику при его включении.<br/>                                              |
-| [**Функций**](eventschema-function-debugdatatype-element.md)             | unsignedInt | Имя функции, которая зарегистрировала сообщение трассировки.<br/>                                                 |
+| [**Функция**](eventschema-function-debugdatatype-element.md)             | unsignedInt | Имя функции, которая зарегистрировала сообщение трассировки.<br/>                                                 |
 | [**LevelName**](eventschema-levelname-debugdatatype-element.md)           | строка      | Значение уровня, передаваемое поставщику при его включении.<br/>                                             |
 | [**Сообщение**](eventschema-message-debugdatatype-element.md)               | строка      | Строка сообщения. XML-код содержит этот элемент, если в событии WPP указано поле Форматтедстринг.<br/> |
 | [**SequenceNumber**](eventschema-sequencenumber-debugdatatype-element.md) | unsignedInt | Локальный или глобальный порядковый номер сообщения трассировки.<br/>                                               |
@@ -88,7 +88,7 @@ ms.locfileid: "104071049"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элементы включаются, только если поставщик установил \_ \_ для переменной среды префикс формата% Trace%, чтобы включить их. Дополнительные сведения об этих элементах см. в разделе префикс сообщения трассировки.
 
@@ -98,8 +98,8 @@ ms.locfileid: "104071049"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

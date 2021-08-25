@@ -3,7 +3,7 @@ title: Сообщение MOM_CLOSE (Ммсистем. h)
 description: '\_Сообщение закрытия MOM отправляется в функцию обратного вызова MIDI OUTPUT при закрытии выходного устройства MIDI.'
 ms.assetid: 229b3701-16f1-4ec8-920e-cd8231561541
 keywords:
-- MOM_CLOSE сообщения Windows мультимедиа
+- сообщение MOM_CLOSE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68f173daa2fb104305979a72c9a14106175d7d20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbabd0cae61c1b1ea3d88df3cd2e52524b779eb7cdb5ac2c1e1a371546724f44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038874"
 ---
 # <a name="mom_close-message"></a>\_Сообщение закрытия MOM
 
@@ -56,11 +56,11 @@ dwParam2 = reserved
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После отправки этого сообщения маркер устройства больше не действителен.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,11 +68,11 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

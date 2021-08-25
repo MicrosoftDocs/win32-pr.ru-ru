@@ -4,12 +4,12 @@ ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: SENSOR_CATEGORY_ENVIRONMENTAL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5c41d4c117dc27a3303210a485b2233cf24cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7cc2a6ca1d2832045a77f0a2ffa1902732e484700afaacd757719e99d667c55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126614"
 ---
 # <a name="sensor_category_environmental"></a>\_ \_ окружающая среда категории датчика
 
@@ -57,9 +57,9 @@ ms.locfileid: "103897033"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
-| Header<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
 
 
 

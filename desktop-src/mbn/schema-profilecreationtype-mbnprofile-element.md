@@ -11,12 +11,12 @@ api_name:
 - ProfileCreationType
 api_type:
 - Schema
-ms.openlocfilehash: 661306cf53b1ae4c7c9cd49a295afe5b84dabd67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf3e70607cedbaed45da19651ec73736a54bfafab197e95d2cd634d8e3833f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959844"
 ---
 # <a name="profilecreationtype-mbnprofile-element"></a>Профилекреатионтипе (Мбнпрофиле), элемент
 
@@ -64,18 +64,18 @@ ms.locfileid: "104145631"
 
 Элемент **профилекреатионтипе** определяется элементом [**мбнпрофиле**](schema-mbnprofile-element.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

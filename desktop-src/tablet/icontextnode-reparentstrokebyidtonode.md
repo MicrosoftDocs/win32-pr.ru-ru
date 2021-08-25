@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 3984153a0551de999563b8775ceb5acba1696e39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a915425900bccb15145546658d51d50dcaee14880f8f219bd1908efaa17bd3c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008414"
 ---
 # <a name="icontextnodereparentstrokebyidtonode-method"></a>Метод Иконтекстноде:: Репарентстрокебидтоноде
 
@@ -58,7 +58,7 @@ HRESULT ReparentStrokeByIdToNode(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указанный объект [**иконтекстноде**](icontextnode.md) должен принадлежать к одному из следующих типов из [типов узлов контекста](context-node-types.md) константы: **инкворд**, **инкдравинг**, **инкбуллет** или **унклассифиединк**. Попытка переместить штрих в любой другой тип объекта **иконтекстноде** приводит к возвращению значения **E \_ INVALIDARG**.
 
@@ -79,9 +79,9 @@ HRESULT ReparentStrokeByIdToNode(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 

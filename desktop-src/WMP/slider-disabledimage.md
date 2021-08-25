@@ -3,7 +3,7 @@ title: ПОЛЗУНок. Дисабледимаже
 description: Атрибут Дисабледимаже указывает или получает изображение ползунка, используемого при отключенном элементе управления "ползунок".
 ms.assetid: b6c4237d-8eb0-44ce-a23f-9bdc5c21aca8
 keywords:
-- ПОЛЗУНок. Дисабледимаже Windows Media Player
+- проигрыватель Windows Media SLIDER. дисабледимаже
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1b90dcbd551ca0f8bb332f858eac0b69c46733
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 596afbed41fa1a864d8ed4e5fd217cb4856a716623ad2a60db080b3e965ab48d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123074"
 ---
 # <a name="sliderdisabledimage"></a>ПОЛЗУНок. Дисабледимаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105657112"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Дисабледимаже** является необязательным. Если он не указан, **фоновый** режим используется для всех отключенных состояний. Если элемент управления "ползунок" отключен, изображение переднего плана не отображается.
 
@@ -43,11 +43,11 @@ ms.locfileid: "105657112"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 5565438b-dbd4-e645-dd7b-93a17758d768
 title: Обратные вызовы (XAudio2 API)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbdb627b56ddb16b11947a0f4a87e301d54d14b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e1ef499023d3d8a99b0fde3c5e36d3aff62b11a27a88126a0d5d0583870dd25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926784"
 ---
 # <a name="callbacks-xaudio2-apis"></a>Обратные вызовы (XAudio2 API)
 
@@ -38,7 +38,7 @@ ms.locfileid: "105712290"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

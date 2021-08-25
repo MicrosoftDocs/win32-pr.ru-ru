@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 101b72a6f5dae79cc481be02345ee9cd2e0973f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d01af10b308cff4074f3a2b6730d1e6b0481c209033b0e57dbbb47fa4759e8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017764"
 ---
 # <a name="indexsegmentequals-method-object"></a>Метод Индекссегмент. Equals (Object)
 
@@ -67,7 +67,7 @@ public override bool Equals(
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 Значение true, если два экземпляра равны.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

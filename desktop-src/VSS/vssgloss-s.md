@@ -5,12 +5,12 @@ ms.assetid: c4f826bc-ea80-4fd5-99da-630e7ae56dd7
 title: S (служба теневого копирования томов)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5979d30f0b88762a2d022a89063ee44bd91a3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92843e9277709a1138bc51b403089c932387e1b282e349c7907fc4cde88e9de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124484"
 ---
 # <a name="s-volume-shadow-copy-service"></a>S (служба теневого копирования томов)
 
@@ -66,7 +66,7 @@ ms.locfileid: "105692354"
 <span id="base.vssgloss_shadow_copies_for_shared_folders"></span><span id="BASE.VSSGLOSS_SHADOW_COPIES_FOR_SHARED_FOLDERS"></span>**теневые копии общих папок**
 </dt> <dd>
 
-Компонент Windows, который создает упрощенные оперативные резервные копии томов с помощью VSS. Клиенты могут получить доступ к этим резервным копиям через оболочку Windows для просмотра старых версий файлов и отмены ошибок без полного восстановления. См. также [*теневую копию, доступную для клиента*](vssgloss-c.md).
+функция Windows, которая создает упрощенные оперативные резервные копии томов с помощью VSS. клиенты могут получить доступ к этим резервным копиям через оболочку Windows для просмотра старых версий файлов и отмены ошибок без полного восстановления. См. также [*теневую копию, доступную для клиента*](vssgloss-c.md).
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ ms.locfileid: "105692354"
 <span id="base.vssgloss_system_file_protection"></span><span id="BASE.VSSGLOSS_SYSTEM_FILE_PROTECTION"></span>**Защита системных файлов**
 </dt> <dd>
 
-См. раздел [*Защита файлов Windows*](vssgloss-w.md).
+см. раздел [*защита файлов Windows*](vssgloss-w.md).
 
 </dd> <dt>
 

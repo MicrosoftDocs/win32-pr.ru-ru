@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a630b9d926ff5377312f1c67630a20816ab38b6c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c88588ec506d24726b99eaa7a1c3f8316bee8e44d6270efb0c51b165ac01a14f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752394"
 ---
 # <a name="startservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Метод StartService класса Win32_Service (поставщики WMI CIMWin32)
 
@@ -179,7 +179,7 @@ uint32 StartService();
 
 </dd> <dt>
 
-**стр**
+**19**
 </dt> <dd>
 
 Служба выполняется с тем же именем.
@@ -337,7 +337,7 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

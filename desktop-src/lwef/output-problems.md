@@ -4,16 +4,16 @@ description: Проблемы вывода
 ms.assetid: 45423b7e-f648-408c-9cff-f7cf1affc42a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d909052feb2463637a8eab6343353f0af617c06
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2f19afb705e1d71b3b47bc44c35a51cb83029932287c582b0481ff6a5b078049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104336487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961054"
 ---
 # <a name="output-problems"></a>Проблемы вывода
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ### <a name="the-character-leaves-images-or-trails-behind-when-it-moves"></a>Символ оставляет изображения или след за его перемещением.
 
@@ -28,7 +28,7 @@ ms.locfileid: "104336487"
 
 Этот симптом может иметь несколько причин. Чтобы изолировать проблему, попробуйте выполнить следующие действия.
 
--   Убедитесь, что динамики подключены к сети и звуковая карта совместима с Windows. Рекомендуется протестировать их с помощью другого звукового приложения, чтобы убедиться, что звуковые выходные данные работают правильно.
+-   Убедитесь, что динамики подключены к сети, а звуковая плата совместима с Windows. Рекомендуется протестировать их с помощью другого звукового приложения, чтобы убедиться, что звуковые выходные данные работают правильно.
 -   Убедитесь, что приложение или веб-страница с поддержкой агента поддерживает речевой ввод. Не все образцы страниц поддерживают ввод речи. Нажмите и удерживайте клавишу прослушивания (как правило, это будет ключ блокировки прокрутки, если он не был изменен). Под символом должен появиться всплывающее окно. Текст подсказки будет сообщать о состоянии прослушивания символа. Если TIP нет, то либо приложение, либо веб-страница не поддерживают речевой ввод, либо у вас не установлен совместимый модуль обработки речи. Если подсказка отображается и указывает, что символ прослушивается, проговорите одну из голосовых команд персонажа. Если вы не уверены, какие команды доступны, отпустите клавишу прослушивания и щелкните правой кнопкой мыши символ, а затем выберите Открыть окно "команды" во всплывающем меню. Если команда не отображается, поддержка речи недоступна для приложения или веб-страницы, которую вы используете. Если он отображается, снова нажмите и удерживайте клавишу прослушивания. Если подсказка прослушивается под символом и указывает, что символ прослушивается, говорите одну из команд, перечисленных в окне. Если символ не отвечает, переходите к следующему шагу.
 -   Убедитесь, что ни одно другое приложение в настоящее время не использует устройство вывода звука.
 -   Убедитесь, что используемый символ настроен для вывода в речь. (Может потребоваться проверка у поставщика веб-сайта или приложения.)
@@ -48,29 +48,29 @@ Microsoft Agent использует MIDI для воспроизведения 
 
 На веб-странице с поддержкой агента (или в приложении) была предпринята попытка запросить определенную подсистему преобразования текста в речь (TTS). Speechapi.dll не установлен.
 
-### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>Речевые модули не работают с Microsoft Agent в Windows XP?
+### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>обработчики речи не работают с Microsoft Agent в Windows XP?
 
-Microsoft Agent использует SAPI 4,0 для предоставления речевых служб. Windows XP, однако, теперь поставляется с SAPI 5,0, который не обеспечивает поддержку обратной совместимости для своих предшественников. К счастью, SAPI 4,0 и SAPI 5,0 могут совместно существовать на одном компьютере с Windows XP.
+Microsoft Agent использует SAPI 4,0 для предоставления речевых служб. Windows XP теперь поставляется с SAPI 5,0, который не обеспечивает поддержку обратной совместимости для своих предшественников. к счастью, sapi 4,0 и SAPI 5,0 могут совместно существовать на одном компьютере Windows XP.
 
-Чтобы заставить обработчики речи работать с Microsoft Agent в Windows XP, сначала установите [двоичные файлы среды выполнения SAPI 4,0](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), а затем установите определенные обработчики речи.
+чтобы заставить обработчики речи работать с Microsoft Agent в Windows XP, сначала установите [двоичные файлы среды выполнения SAPI 4,0](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), а затем установите определенные обработчики речи.
 
-### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>Обработчики речи, используемые для работы с Microsoft Agent до обновления до Windows XP. Что произошло?
+### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>обработчики речи, используемые для работы с Microsoft Agent до обновления до Windows XP. Что произошло?
 
-См. предыдущий вопрос и ответ. Процесс обновления Windows XP мог удалить поддержку SAPI 4,0, уже существующую на компьютере. Повторно установите среду выполнения SAPI 4,0 и модули распознавания речи SAPI 4,0 после обновления до Windows XP.
+См. предыдущий вопрос и ответ. в процессе обновления Windows XP могла быть удалена поддержка SAPI 4,0, уже существующую на компьютере. повторно установите среду выполнения sapi 4,0 и модули распознавания речи sapi 4,0 после обновления до Windows XP.
 
-### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>Я установил обработчики преобразования текста TTS3000 на компьютер под управлением Windows XP (или Windows 2000) и правильно отредактировали свое программирование соответствующим образом. Символы Microsoft Agent говорят воспроизвести, используя эти TTS3000ные модули преобразования текста в речь, когда я или другие локальные администраторы вошли в систему, но не будут входить в систему других пользователей *без прав администратора* . В Windows 98 и Windows Me эти TTS3000 модули преобразования текста в речь правильно работают для обоих наборов пользователей. Как это исправить?
+### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>я установил обработчики преобразования текста TTS3000 на компьютер, на котором работает Windows XP (или Windows 2000) и правильно отредактировали свое программирование соответствующим образом. Символы Microsoft Agent говорят воспроизвести, используя эти TTS3000ные модули преобразования текста в речь, когда я или другие локальные администраторы вошли в систему, но не будут входить в систему других пользователей *без прав администратора* . в Windows 98 и Windows Me эти TTS3000 модули преобразования текста в речь правильно работают для обоих наборов пользователей. Как это исправить?
 
 Необходимо настроить разрешения безопасности для некоторых разделов реестра обработчиков преобразования текста в речь для TTS3000, чтобы разрешить их использование учетными записями пользователей без прав администратора. Это можно сделать с помощью редактора реестра операционной системы.
 
-### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>Я соблюдаю процедуру, описанную в статье решение проблемы, указанной в предыдущем вопросе. Это работало нормально, так что символы Microsoft Agent могут говорить воспроизвести с помощью этих TTS3000ных обработчиков текста, когда пользователи *без прав администратора* входили в систему Windows XP (или Windows 2000). Теперь в несколько месяцев эти же обработчики текста TTS3000 перестали работать. Что произошло?
+### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>Я соблюдаю процедуру, описанную в статье решение проблемы, указанной в предыдущем вопросе. это работало нормально, так что символы Microsoft Agent могут говорить воспроизвести с помощью этих TTS3000ных обработчиков текста, когда пользователи *без прав администратора* входили на компьютер Windows XP (или Windows 2000). Теперь в несколько месяцев эти же обработчики текста TTS3000 перестали работать. Что произошло?
 
 Если вы приговорились к описанной процедуре, предоставленной для предыдущего вопроса, она предоставила учетным записям пользователей без прав администратора разрешение на полный доступ к нужным разделам реестра. Возможно, что один из этих пользователей, возможно, уверенно или непреднамеренно редактировал значения, изменил разрешения повторно или даже полностью удалил раздел реестра.
 
 Проверьте, были ли эти разделы реестра и их разрешения изменены, удалены или иным образом изменились с момента. При необходимости измените эти разделы реестра и их разрешения обратно или переустановите TTS3000 текст в речь.
 
- 
+ 
 
- 
+ 
 
 
 

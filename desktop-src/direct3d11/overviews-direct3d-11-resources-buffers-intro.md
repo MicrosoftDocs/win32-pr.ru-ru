@@ -8,12 +8,12 @@ keywords:
 - буфер индексов, что такое
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 241ade0721ae87b1371586bc901ee18f8975b53f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d51f7b0dbd60264b77f9d9dc83f39cbb4325464079d537c3ee741a942d26a139
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752024"
 ---
 # <a name="introduction-to-buffers-in-direct3d-11"></a>Общие сведения о буферах в Direct3D 11
 
@@ -82,13 +82,13 @@ ms.locfileid: "104337897"
 
 Для считывания буфера констант шейдера из шейдера используйте функцию загрузки HLSL (например, [**Load**](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load)). На каждом этапе шейдера можно определить до 15 буферов констант шейдера, причем каждый буфер может содержать до 4096 констант.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Buffers](overviews-direct3d-11-resources-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

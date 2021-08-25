@@ -4,19 +4,19 @@ description: В этом глоссарии содержатся основны�
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a4c82bc9f1bcd78f09d226111bfe567e998397f
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 7fa5dc92e6399a66311387807bb1f49aa675450b9b58b4980ea1e68a527b24c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020874"
 ---
 # <a name="glossary-rpc"></a>Глоссарий (RPC)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание раздела
 
 -   [А](a-glos.md)
--   [B](b-glos.md)
+-   [Б](b-glos.md)
 -   [В](c-glos.md)
 -   [D](d-glos.md)
 -   [E](e-glos.md)

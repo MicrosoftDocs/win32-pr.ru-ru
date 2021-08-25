@@ -4,12 +4,12 @@ description: В этом разделе содержится пример код
 ms.assetid: 37e54a0f-3d41-4f47-ba73-7f1bf6c365e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a0b32ae60d6364ea6eac18fae991d1d600e61c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d7623a21681bdb1765d96d89e19b4089b59ab042865dbe5fdd39c37c635e432
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955744"
 ---
 # <a name="how-to-create-a-client-side-proxy-ui-automation-provider"></a>Создание поставщика автоматизации пользовательского интерфейса Client-Side (прокси)
 
@@ -17,7 +17,7 @@ ms.locfileid: "103776862"
 
 -   [Пример 1. Перечисление таблицы фабрики прокси-серверов](#example-1-enumerating-the-proxy-factory-table)
 -   [Пример 2. Реализация простого прокси-сервера для элементов управления "Кнопка"](#example-2-implementing-a-simple-proxy-for-button-controls)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-1-enumerating-the-proxy-factory-table"></a>Пример 1. Перечисление таблицы фабрики прокси-серверов
 
@@ -72,7 +72,7 @@ HRESULT GetProxyTable()
 
 ## <a name="example-2-implementing-a-simple-proxy-for-button-controls"></a>Пример 2. Реализация простого прокси-сервера для элементов управления "Кнопка"
 
-В следующем примере кода реализуется простой прокси-сервер для элементов управления, имеющих имя класса Button, и добавляется запись для прокси-сервера в таблицу фабрики прокси-сервера. В этом примере для демонстрации прокси-сервера используется диалоговое окно "Шрифт" в блокноте.
+В следующем примере кода реализуется простой прокси-сервер для элементов управления, имеющих имя класса Button, и добавляется запись для прокси-сервера в таблицу фабрики прокси-сервера. в этом примере используется диалоговое окно Font Блокнот для демонстрации прокси-сервера.
 
 
 ```C++
@@ -362,7 +362,7 @@ cleanup:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -375,9 +375,9 @@ cleanup:
 [Разделы руководства для поставщиков автоматизации пользовательского интерфейса](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

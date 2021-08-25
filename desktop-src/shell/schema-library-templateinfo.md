@@ -4,12 +4,12 @@ ms.assetid: C555097A-E7B8-45ef-8CFA-19CFBC5E9D5A
 title: Элемент Темплатеинфо (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dae06a57a1b30407e2513e03f30ae6a4da13e849
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eda0c42e71db2e47335371b51d9dc819620e6b28dfac63ee9c0e2a640ccab0b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942094"
 ---
 # <a name="templateinfo-element-library-schema"></a>Элемент Темплатеинфо (схема библиотеки)
 
@@ -41,7 +41,7 @@ ms.locfileid: "104543098"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

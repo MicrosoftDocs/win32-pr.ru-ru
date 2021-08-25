@@ -3,7 +3,7 @@ title: Сообщение LB_GETANCHORINDEX (Winuser. h)
 description: Возвращает индекс элемента привязки \ 8212;, т. е. элемента, из которого начинается выбор нескольких элементов. Множественный выбор охватывает все элементы из привязанного элемента в элемент курсора.
 ms.assetid: vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_getanchorindex.htm
 keywords:
-- Элементы управления Windows для LB_GETANCHORINDEX сообщений
+- элементы управления Windows сообщений LB_GETANCHORINDEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5502a234424b818bb46e9c4326839b5aff2f83d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df33244a755ddd99a5af0c849e7753e478a91b94cd5cbd717505ca4ab37b0f9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104535255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799584"
 ---
 # <a name="lb_getanchorindex-message"></a>Сообщение жетанчориндекс балансировки нагрузки \_
 
@@ -47,19 +47,19 @@ ms.locfileid: "104535255"
 
 Возвращаемое значение — это индекс элемента привязки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

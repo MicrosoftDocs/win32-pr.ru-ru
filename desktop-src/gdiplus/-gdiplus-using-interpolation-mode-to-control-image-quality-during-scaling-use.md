@@ -1,19 +1,19 @@
 ---
-description: Режим интерполяции объекта Graphics влияет на способ масштабирования изображений Windows GDI+ (растяжения и сжатие).
+description: режим интерполяции графического объекта влияет на способ Windows GDI+ масштабирует (растяжение и сжатие) изображений.
 ms.assetid: 3aeead47-78da-4ab3-9126-2fbe9e341e48
 title: Использование режима интерполяции для управления качеством изображения во время масштабирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d34a829f2edf2f341f50bee771d909f7c4eef98e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92fefe314ef680a54f9d885bb185c77b3349e84cbe5f7bcf347cf9ff3fa0a4ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943704"
 ---
 # <a name="using-interpolation-mode-to-control-image-quality-during-scaling"></a>Использование режима интерполяции для управления качеством изображения во время масштабирования
 
-Режим интерполяции объекта [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) влияет на способ масштабирования изображений Windows GDI+ (растяжения и сжатие). Перечисление [**интерполатионмоде**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) в гдиплусенумс. h определяет несколько режимов интерполяции, некоторые из которых показаны в следующем списке:
+режим интерполяции [**графического**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объекта влияет на способ Windows GDI+ масштабирует (растяжение и сжатие) изображений. Перечисление [**интерполатионмоде**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) в гдиплусенумс. h определяет несколько режимов интерполяции, некоторые из которых показаны в следующем списке:
 
 -   интерполатионмоденеарестнеигхбор
 -   интерполатионмодебилинеар
