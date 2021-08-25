@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9c233103330e9f8ae7318a613cbc5103315a74
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c83d5c4b19800f92e3080d3fb435ddd20d62e4b6fe76986869a0f4da86deabcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895074"
 ---
 # <a name="importlib-attribute"></a>importlib - атрибут
 
@@ -59,7 +59,7 @@ library (library-name)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все директивы **\[ importlib \]** должны предшествовать описаниям других типов в библиотеке. Обратите внимание, что Импортированная библиотека, а также созданная библиотека, должна быть распространена вместе с приложением, чтобы она была доступна во время выполнения.
 
@@ -68,7 +68,7 @@ library (library-name)
 > [!Note]  
 > Директива **\[ importlib \]** делает любой тип, определенный в импортируемой библиотеке, доступным в компилируемой библиотеке. Чтобы избежать неоднозначности при наличии повторяющихся ссылок, рекомендуется определить каждую из этих ссылок с использованием соответствующего имени библиотеки, как показано ниже.
 
- 
+ 
 
 ``` syntax
 library_name.type
@@ -90,11 +90,11 @@ library BrowseHelper
 };
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**библиотека**](library.md)
+[**Библиотечная**](library.md)
 </dt> <dt>
 
 [**импортиру**](import.md)
@@ -115,6 +115,6 @@ library BrowseHelper
 [Создание библиотеки типов с помощью MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

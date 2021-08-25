@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f963d12812140d11923460235ef780a621ba3db5
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: c41f2147f0101f312a7fa76796032ec8c821fcea9c08cf89bb3174ddace43d47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "105681572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870564"
 ---
 # <a name="delete-cache"></a>delete cache
 
@@ -32,7 +32,7 @@ delete cache [url=]string [[recursive=]{yes|no}]
 
 <dl> <dt>
 
-<span id="_url__string"></span><span id="_URL__STRING"></span>**\[URL = \] * * * строка*
+<span id="_url__string"></span><span id="_URL__STRING"></span>**\[ URL- \] адрес =**_строка_
 </dt> <dd>
 
 Обязательный. Указывает полный URL-адрес.
@@ -52,9 +52,9 @@ delete cache [url=]string [[recursive=]{yes|no}]
 
 **удалить URL-адрес кэша = https://www.contoso.com:80/myresource/ recursive = да**
 
- 
+ 
 
- 
+ 
 
 
 

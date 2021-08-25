@@ -4,12 +4,12 @@ ms.assetid: 375823c5-22c2-4010-bfb4-5b8b46141c72
 title: Сообщение LINE_GENERATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b916dc95d1a6343b0f8ebc0eef9e589b04aa2112
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd3ab0d503d7515fec2cdbd1676eed235cced88e2adfa9fcc1dd354663929e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774244"
 ---
 # <a name="line_generate-message"></a>\_Сообщение создания строки
 
@@ -57,7 +57,7 @@ ms.locfileid: "105689121"
 *dwParam3* 
 </dt> <dd>
 
-Число тактов (число миллисекунд с момента запуска Windows), на которых было выполнено создание цифр или тонов. Для версий API, предшествующих 2,0, этот параметр не используется.
+число тактов (число миллисекунд с момента запуска Windows), на которых было завершено формирование цифр или тонов. Для версий API, предшествующих 2,0, этот параметр не используется.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ ms.locfileid: "105689121"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **о \_ формировании строки** отправляется приложению, которое запросило создание цифры или тона.
 
@@ -80,7 +80,7 @@ ms.locfileid: "105689121"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

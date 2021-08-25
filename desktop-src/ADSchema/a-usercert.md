@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a041375ba9e00539c51d1022b0f053b79c6eae1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3cc52a1476ec365d18266ff1197d019dff7983819217df18fb443434a8f016c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835374"
 ---
 # <a name="user-cert-attribute"></a>Атрибут User-Cert
 
@@ -58,9 +58,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -79,9 +79,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -100,9 +100,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -121,9 +121,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -142,9 +142,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |
@@ -163,9 +163,9 @@ Nortel v1 или DMS.
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | 0x3A22                                               |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | 0                                                    |
 | Range-Upper            | 32767                                                |

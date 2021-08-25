@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57da7c0d54e5b9ffcd47f76b22825d13b0a8cff9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 44f202890d2d81dcd7916f29c0330bf8e7093a7cf189e7b76a8af64dd2f0d0a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895264"
 ---
 # <a name="hyper-attribute"></a>атрибут Hyper
 
@@ -38,16 +38,16 @@ ms.locfileid: "103783606"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип **Hyper** является одним из базовых типов языка определения интерфейса (IDL). Тип **Hyper** может отображаться в виде спецификатора типа в объявлениях [**const**](const.md) , объявлениях [**typedef**](typedef.md) , общих объявлениях и деклараторах функций (в виде спецификатора возвращаемого типа функции и в качестве описателя типа параметра). Контекст, в котором отображаются спецификаторы типов, см. в разделе [IDL-файл](interface-definition-idl-file.md).
 
 > [!Note]  
 > Для 16-разрядных платформ компилятор MIDL заменяет неподписанные целые числа с помощью **MIDL \_ ухипер**. Это позволяет определять интерфейсы с неподписанными целыми числами на платформах, которые не поддерживают непосредственные 64-разрядные целые числа. **MIDL \_ ухипер** определен в файлах заголовков RPC.
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -63,9 +63,9 @@ ms.locfileid: "103783606"
 [**определение**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

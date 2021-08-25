@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7489dc7059f10e1a6f61d1a290f8f664a385f96c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 348092e079428e0b147d8143411cee7766365913115f968ed0e112b209383077
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862664"
 ---
 # <a name="wmdmmessage-enumeration"></a>Перечисление Вмдммессаже
 
@@ -47,42 +47,42 @@ enum WMDMMessage {
 <span id="WMDM_MSG_DEVICE_ARRIVAL"></span><span id="wmdm_msg_device_arrival"></span>**\_ \_ Получение устройства MSG \_ вмдм**
 </dt> <dd>
 
-Устройство диспетчер устройств Windows Media подключено.
+устройство диспетчер устройств Windows мультимедиа было подключено к сети.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_DEVICE_REMOVAL"></span><span id="wmdm_msg_device_removal"></span>**\_ \_ Удаление устройства MSG \_ вмдм**
 </dt> <dd>
 
-Удалено устройство диспетчер устройств Windows Media.
+устройство диспетчер устройств Windows носителя было удалено.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_ARRIVAL"></span><span id="wmdm_msg_media_arrival"></span>**\_ \_ Получение носителя сообщения \_ вмдм**
 </dt> <dd>
 
-Носитель вставлен на устройство диспетчер устройств Windows Media.
+носитель вставлен на устройство Windows media диспетчер устройств.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_REMOVAL"></span><span id="wmdm_msg_media_removal"></span>**\_ \_ Удаление мультимедийного сообщения вмдм \_**
 </dt> <dd>
 
-Носитель был удален с устройства диспетчер устройств Windows Media.
+носитель был удален с устройства Windows media диспетчер устройств.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

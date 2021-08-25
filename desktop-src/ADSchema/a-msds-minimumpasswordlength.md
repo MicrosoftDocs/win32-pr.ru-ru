@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04b383310225c52c4ea136646dc1689943123a25
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f3c21812dd716c6dd1ea92b7813fec78840c1e7cea869a0fccb90b63ce2d3695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803944"
 ---
 # <a name="ms-ds-minimum-password-length-attribute"></a>Атрибут ms-DS-Minimum-password-length
 
@@ -54,16 +54,16 @@ ms.locfileid: "105655183"
 |------------------------|-----------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
-| System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
-| Индексируется             | Неверно                                                                 |
-| В глобальном каталоге      | Неверно                                                                 |
+| System-Only            | Нет                                                                 |
+| Является однозначным       | Верно                                                                  |
+| Индексируется             | Нет                                                                 |
+| В глобальном каталоге      | Нет                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
 | Range-Lower            | 0                                                                     |
 | Range-Upper            | 255                                                                   |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -75,16 +75,16 @@ ms.locfileid: "105655183"
 |------------------------|-----------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
-| System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
-| Индексируется             | Неверно                                                                 |
-| В глобальном каталоге      | Неверно                                                                 |
+| System-Only            | Нет                                                                 |
+| Является однозначным       | Верно                                                                  |
+| Индексируется             | Нет                                                                 |
+| В глобальном каталоге      | Нет                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
 | Range-Lower            | 0                                                                     |
 | Range-Upper            | 255                                                                   |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 
@@ -96,16 +96,16 @@ ms.locfileid: "105655183"
 |------------------------|-----------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
-| System-Only            | Неверно                                                                 |
-| Является однозначным       | True                                                                  |
-| Индексируется             | Неверно                                                                 |
-| В глобальном каталоге      | Неверно                                                                 |
+| System-Only            | Нет                                                                 |
+| Является однозначным       | Верно                                                                  |
+| Индексируется             | Нет                                                                 |
+| В глобальном каталоге      | Нет                                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                          |
 | Range-Lower            | 0                                                                     |
 | Range-Upper            | 255                                                                   |
 | Search-Flags           | 0x00000000                                                            |
 | System-Flags           | 0x00000010                                                            |
-| Классы, используемые в        | [**MS-DS-Password-параметры**](c-msds-passwordsettings.md)<br/> |
+| Классы, используемые в        | [**ms-DS-Password-Параметры**](c-msds-passwordsettings.md)<br/> |
 
 
 

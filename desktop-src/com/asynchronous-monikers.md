@@ -4,12 +4,12 @@ description: Асинхронные моникеры
 ms.assetid: 24c50f7b-f085-4086-aa44-81e5cab011cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e19323af3a972a2b83a290176a4b26fb79382da0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4d9e9b5e427df882b7e0be84507b79c9113a46e44dad614e571a831fedecedff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859654"
 ---
 # <a name="asynchronous-monikers"></a>Асинхронные моникеры
 
@@ -23,16 +23,16 @@ ms.locfileid: "105710379"
 
 -   [Асинхронные и синхронные моникеры](./asynchronous-vs.-synchronous-monikers.md)
 -   [Асинхронная и синхронная привязка](./asynchronous-vs.-synchronous-binding.md)
--   [Асинхронное и синхронное хранилище](./asynchronous-vs.-synchronous-storage.md)
+-   [асинхронные и синхронные служба хранилища](./asynchronous-vs.-synchronous-storage.md)
 -   [Модель извлечения данных и модель Data-Push](./data-pull-model-vs.-data-push-model.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Моникеры URL-адресов](url-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

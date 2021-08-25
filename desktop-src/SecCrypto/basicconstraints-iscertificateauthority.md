@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 5d4878a8cb21f89f3abeeb9e4b530948ef12e9aa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90d616f4a7a0fe8522118848826bee88523ad45c34cb8a3fff23c722e68f2495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879764"
 ---
 # <a name="basicconstraintsiscertificateauthority-property"></a>Басикконстраинтс. Исцертификатеаусорити, свойство
 
@@ -41,7 +41,7 @@ BasicConstraints.IsCertificateAuthority As Boolean
 
 Если **значение — true**, сертификат должен использоваться только центром сертификации.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

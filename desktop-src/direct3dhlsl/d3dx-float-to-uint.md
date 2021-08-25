@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e729ba805d63068844192a134236722288fe8a9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 37665d3630979dee3fad7c109152a852883455f5de40c064faa8f1ea4f0645cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855624"
 ---
 # <a name="d3dx_float_to_uint-function"></a>D3DX \_ с плавающей запятой \_ в \_ функцию uint
 
@@ -38,14 +38,14 @@ UINT D3DX_FLOAT_to_UINT(
 
 <dl> <dt>
 
-*\_3,3* 
+*\_V* 
 </dt> <dd>
 
 Вектор v.
 
 </dd> <dt>
 
-*\_Измените* 
+*\_Масштабирование* 
 </dt> <dd>
 
 Значение масштаба.
@@ -62,7 +62,7 @@ UINT D3DX_FLOAT_to_UINT(
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 
 
 

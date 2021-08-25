@@ -4,12 +4,12 @@ ms.assetid: 1c0dcf6f-7f80-424b-9e6a-5a8b6a5b176f
 title: Функции экспорта DLL эксперта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 923611521b98619b357eb2de93ee2269caf9c838
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4327b36990ac377595b31b55ebc0ed57157fd8d411f690aff3378293f35e39e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911134"
 ---
 # <a name="expert-dll-export-functions"></a>Функции экспорта DLL эксперта
 
@@ -21,7 +21,7 @@ ms.locfileid: "103990917"
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Эксперт по DllMain**](dllmain-expert.md)   | Указывает, что библиотека DLL эксперта загружена или выгружена. Когда процесс загружает или выгружает библиотеку DLL, операционная система вызывает функцию [**DllMain**](/windows/desktop/Dlls/dllmain) . |
 | [**Регистрация экспертов**](register-expert.md) | Определяет основные сведения о эксперте в библиотеке DLL. Сетевой монитор вызывает функцию **Register** .                                                           |
-| [**Configure**](configure.md)             | Настраивает эксперт в библиотеке DLL. Сетевой монитор вызывает функцию [**Configure**](configure.md) .                                                                 |
+| [**Настройка**](configure.md)             | Настраивает эксперт в библиотеке DLL. Сетевой монитор вызывает функцию [**Configure**](configure.md) .                                                                 |
 | [**Выполнить**](run.md)                         | Запускает эксперт в библиотеке DLL. Сетевой монитор вызывает функцию [**Run**](run.md) .                                                                                 |
 
 

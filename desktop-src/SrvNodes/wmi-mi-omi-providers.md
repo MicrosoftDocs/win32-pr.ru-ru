@@ -1,19 +1,19 @@
 ---
-description: Инфраструктура управления Windows (WMI), Инструментарий управления (MI) и открытая инфраструктура управления (OMI) используют файлы формата MOF для описания информации, доступной через соответствующих поставщиков.
+description: Windows Инфраструктура управления (WMI), Инструментарий управления (MI) и открытая инфраструктура управления (OMI) используют файлы формата управляющих объектов (MOF) для описания информации, доступной через соответствующих поставщиков.
 ms.assetid: 5ec3c6a2-df23-446d-a4da-b8e207eeb6f6
 title: Поставщики WMI, MI и OMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505a0853d9df7d9cf6f2371f6342b77f61f536b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 682629f72da94cd2210fb781284a7cb4cf7f85868ff405f22727e619d128ae65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992423"
 ---
 # <a name="wmimiomi-providers"></a>Поставщики WMI, MI и OMI
 
-Инфраструктура управления Windows (WMI), Инструментарий управления (MI) и открытая инфраструктура управления (OMI) используют файлы формата MOF для описания информации, доступной через соответствующих поставщиков.
+Windows Инфраструктура управления (WMI), Инструментарий управления (MI) и открытая инфраструктура управления (OMI) используют файлы формата управляющих объектов (MOF) для описания информации, доступной через соответствующих поставщиков.
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "105664723"
 <span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Инвентаризация приложений](/previous-versions/windows/desktop/appdevinvprov/applicationanddeviceinventory-portal)
 </dt> <dd>
 
-Классы WMI для инвентаризации приложений позволяют обнаруживать установленные приложения Win32 и приложения Магазина Windows в системе Windows.
+классы WMI для инвентаризации приложений позволяют обнаруживать установленные приложения Win32 и приложения Windows store в системе Windows.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ ms.locfileid: "105664723"
 <span id="BITS"></span><span id="bits"></span>[ЧИСЛА](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> <dd>
 
-Фоновая интеллектуальная служба передачи (BITS) Compact Server с удаленным управлением BITS позволяет администраторам или контроллерам, прошедшим проверку подлинности, создавать, изменять и администрировать задания передачи BITS удаленно без использования службы службы IIS (IIS).
+фоновая интеллектуальная служба передачи (BITS) Compact Server с удаленным управлением BITS позволяет администраторам или контроллерам, прошедшим проверку подлинности, создавать, изменять и администрировать задания передачи BITS удаленно без использования службы службы IIS (IIS).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ ms.locfileid: "105664723"
 <span id="Boot_Event_Collector"></span><span id="boot_event_collector"></span><span id="BOOT_EVENT_COLLECTOR"></span>[Сборщик событий загрузки](/windows/desktop/BEvtColProv/boot-event-collector-wmi-provider-portal)
 </dt> <dd>
 
-Поставщик WMI сборщика событий загрузки предоставляет доступ к сведениям о подключении и конфигурации для функции сбора событий установки и загрузки в Windows Server.
+поставщик WMI сборщика событий загрузки предоставляет доступ к сведениям о подключении и конфигурации для функции сбора событий установки и загрузки на сервере Windows.
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ ms.locfileid: "105664723"
 <span id="Disk_Quota"></span><span id="disk_quota"></span><span id="DISK_QUOTA"></span>[Квота диска](/previous-versions/windows/desktop/wmipdskq/disk-quota-provider)
 </dt> <dd>
 
-Поставщик дисковых квот Windows позволяет администраторам управлять объемом данных, которые каждый пользователь сохраняет в файловой системе NTFS.
+поставщик дисковых квот Windows позволяет администраторам управлять объемом данных, которые каждый пользователь сохраняет в файловой системе NTFS.
 
 </dd> <dt>
 
@@ -174,7 +174,7 @@ ms.locfileid: "105664723"
 <span id="Event_Tracing_Management"></span><span id="event_tracing_management"></span><span id="EVENT_TRACING_MANAGEMENT"></span>[Управление трассировкой событий](/previous-versions/windows/desktop/etwmgmt/event-tracing-management-wmi-provider-portal)
 </dt> <dd>
 
-Поставщик управления трассировкой событий предоставляет доступ к средствам трассировки событий для конфигурации сеансов авторегистратора ETW и событиям трассировки.
+поставщик управления трассировкой событий предоставляет доступ к трассировке событий для конфигураций сеанса авторегистратора Windows (ETW) и событий трассировки.
 
 </dd> <dt>
 
@@ -192,10 +192,10 @@ ms.locfileid: "105664723"
 
 </dd> <dt>
 
-<span id="Failover_Clustering_Storage_QoS"></span><span id="failover_clustering_storage_qos"></span><span id="FAILOVER_CLUSTERING_STORAGE_QOS"></span>[Качество обслуживания хранилища отказоустойчивой кластеризации](/previous-versions/windows/desktop/clusstorageqosprov/failover-clustering-storage-qos-mi-provider-portal)
+<span id="Failover_Clustering_Storage_QoS"></span><span id="failover_clustering_storage_qos"></span><span id="FAILOVER_CLUSTERING_STORAGE_QOS"></span>[отказоустойчивая кластеризация служба хранилища качества обслуживания](/previous-versions/windows/desktop/clusstorageqosprov/failover-clustering-storage-qos-mi-provider-portal)
 </dt> <dd>
 
-Поставщик качества обслуживания хранилища отказоустойчивой кластеризации обеспечивает управление и создание отчетов по политикам качества обслуживания для кластерного хранилища.
+поставщик службы отказоустойчивости кластеров служба хранилища качества обслуживания (QoS) обеспечивает управление и создание отчетов по политикам качества обслуживания для кластерного хранения.
 
 </dd> <dt>
 
@@ -213,10 +213,10 @@ ms.locfileid: "105664723"
 
 </dd> <dt>
 
-<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[Монитор работоспособности шлюза](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
+<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[монитор работоспособности шлюза](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
 </dt> <dd>
 
-Поставщик монитора работоспособности шлюза управляет событиями и данными мониторинга работоспособности шлюза.
+поставщик монитор работоспособности шлюза управляет событиями и данными мониторинга работоспособности шлюза.
 
 </dd> <dt>
 
@@ -248,17 +248,17 @@ ms.locfileid: "105664723"
 
 </dd> <dt>
 
-<span id="Internet_Information_Services__IIS_"></span><span id="internet_information_services__iis_"></span><span id="INTERNET_INFORMATION_SERVICES__IIS_"></span>[Службы IIS (IIS)](/previous-versions/iis/6.0-sdk/ms525309(v=vs.90))
+<span id="Internet_Information_Services__IIS_"></span><span id="internet_information_services__iis_"></span><span id="INTERNET_INFORMATION_SERVICES__IIS_"></span>[службы IIS (IIS)](/previous-versions/iis/6.0-sdk/ms525309(v=vs.90))
 </dt> <dd>
 
 Предоставляет интерфейсы программирования, которые можно использовать для запроса и настройки метабазы IIS.
 
 </dd> <dt>
 
-<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[Сервер управления IP-адресами (IPAM)](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
+<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[сервер управления адресами протокола ip (IPAM)](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
 </dt> <dd>
 
-Поставщик IPAM-сервера позволяет разработчикам управлять IPAM с помощью WMI.
+поставщик IPAM Server позволяет разработчикам управлять IPAM с помощью WMI.
 
 </dd> <dt>
 
@@ -276,10 +276,10 @@ ms.locfileid: "105664723"
 
 </dd> <dt>
 
-<span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>[Сервер цели iSCSI](/previous-versions/windows/desktop/iscsitarg/iscsi-software-target-api-portal)
+<span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>[сервер цели iSCSI](/previous-versions/windows/desktop/iscsitarg/iscsi-software-target-api-portal)
 </dt> <dd>
 
-Поставщик сервера цели iSCSI поддерживает интерфейс WMI для управления сервером Microsoft iSCSI Target Server, например создание виртуальных дисков и их представление клиенту.
+поставщик сервер цели iSCSI поддерживает интерфейс WMI для управления сервер цели iSCSI майкрософт, например для создания виртуальных дисков и их представления клиенту.
 
 </dd> <dt>
 
@@ -335,7 +335,7 @@ ms.locfileid: "105664723"
 <span id="MDM_Settings"></span><span id="mdm_settings"></span><span id="MDM_SETTINGS"></span>[Параметры MDM](/previous-versions/windows/desktop/mdmsettingsprov/mobile-device-management-settings-provider-portal)
 </dt> <dd>
 
-Поставщик параметров MDM позволяет управлять параметрами на устройствах, зарегистрированных в службе MDM.
+поставщик Параметры MDM позволяет управлять параметрами на устройствах, зарегистрированных в службе MDM.
 
 </dd> <dt>
 
@@ -440,7 +440,7 @@ ms.locfileid: "105664723"
 <span id="NFS"></span><span id="nfs"></span>[NFS](/previous-versions/windows/desktop/nfswmi/wmi-provider-for-nfs-portal)
 </dt> <dd>
 
-Поставщик NFS позволяет создавать средства и сценарии для настройки и мониторинга сетевой файловой системы Windows.
+поставщик NFS позволяет создавать средства и сценарии для настройки и мониторинга сетевой файловой системы Windows.
 
 </dd> <dt>
 
@@ -489,7 +489,7 @@ ms.locfileid: "105664723"
 <span id="ReliabilityMetricsProvider"></span><span id="reliabilitymetricsprovider"></span><span id="RELIABILITYMETRICSPROVIDER"></span>[релиабилитиметрикспровидер](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes)
 </dt> <dd>
 
-Поставщик [релиабилитиметрикспровидер](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes) предоставляет метрики надежности систем и журнала событий Windows.
+поставщик [релиабилитиметрикспровидер](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes) предоставляет системные и Windows метрики надежности журнала событий.
 
 </dd> <dt>
 
@@ -566,21 +566,21 @@ API управления SMB предоставляет классы и мето
 <span id="SNMP"></span><span id="snmp"></span>[СООБЩА](/windows/desktop/WmiSdk/snmp-provider)
 </dt> <dd>
 
-Сопоставляет объекты протокола SNMP, определенные в объектах схемы базы данных MIB, с классами. Дополнительные сведения см. [в разделе Настройка среды SNMP WMI](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment).
+Карты Объекты протокола SNMP, определенные в объектах схемы базы данных управления (MIB), в классы. Дополнительные сведения см. [в разделе Настройка среды SNMP WMI](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment).
 
 </dd> <dt>
 
 <span id="Software_Inventory_Logging"></span><span id="software_inventory_logging"></span><span id="SOFTWARE_INVENTORY_LOGGING"></span>[Ведение журнала инвентаризации программного обеспечения](/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
-Поставщик ведения журнала инвентаризации программного обеспечения собирает данные лицензирования о программном обеспечении, установленном на сервере Windows Server, и предоставляет удаленный доступ к данным, чтобы их можно было легко объединить с помощью центра обработки данных.
+поставщик ведения журнала инвентаризации программного обеспечения собирает данные лицензирования о программном обеспечении, установленном на Windows сервере, и предоставляет удаленный доступ к данным, чтобы их можно было легко объединить с центром обработки данных.
 
 </dd> <dt>
 
-<span id="Software_Licensing_for_"></span><span id="software_licensing_for_"></span><span id="SOFTWARE_LICENSING_FOR_"></span>[Лицензирование программного обеспечения для Windows Vista](/previous-versions/windows/desktop/slwmiprov/software-licensing-classes-for-windows-vista)
+<span id="Software_Licensing_for_"></span><span id="software_licensing_for_"></span><span id="SOFTWARE_LICENSING_FOR_"></span>[лицензирование программного обеспечения для Windows Vista](/previous-versions/windows/desktop/slwmiprov/software-licensing-classes-for-windows-vista)
 </dt> <dd>
 
-[Классы лицензирования программного обеспечения](/previous-versions/windows/desktop/sppwmi/software-license-provider-) , используемые для Windows Vista.
+[классы лицензирования программного обеспечения](/previous-versions/windows/desktop/sppwmi/software-license-provider-) , используемые для Windows Vista.
 
 </dd> <dt>
 
@@ -591,14 +591,14 @@ API управления SMB предоставляет классы и мето
 
 </dd> <dt>
 
-<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[Том хранилища](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
+<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[служба хранилища Тома](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
 </dt> <dd>
 
-Поставщик томов хранилища предоставляет функции управления томами.
+поставщик служба хранилищаных томов предоставляет функции управления томами.
 
 </dd> <dt>
 
-<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[Реплика хранилища](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
+<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[служба хранилища Член](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
 </dt> <dd>
 
 Поставщик обеспечивает управление репликой хранилища.
@@ -622,7 +622,7 @@ API управления SMB предоставляет классы и мето
 <span id="Trusted_Platform_Module"></span><span id="trusted_platform_module"></span><span id="TRUSTED_PLATFORM_MODULE"></span>[доверенный платформенный модуль (TPM)](/windows/desktop/SecProv/trusted-platform-module-provider)
 </dt> <dd>
 
-Предоставляет доступ к данным об устройстве безопасности, представленном экземпляром [**\_ TPM Win32**](/windows/desktop/SecProv/win32-tpm), который является корнем отношения доверия для системы компьютеров с доверенной платформой Microsoft Windows.
+предоставляет доступ к данным об устройстве безопасности, представленном экземпляром [**\_ TPM Win32**](/windows/desktop/SecProv/win32-tpm), который является корнем отношения доверия для системы Microsoft Windows trusted platform computer.
 
 </dd> <dt>
 
@@ -636,14 +636,14 @@ API управления SMB предоставляет классы и мето
 <span id="User_Access_Logging"></span><span id="user_access_logging"></span><span id="USER_ACCESS_LOGGING"></span>[Ведение журнала доступа пользователей](/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
-Ведение журнала доступа пользователей (UAL) — это общая платформа для ролей Windows Server, сообщающая о соответствующих метриках потребления.
+ведение журнала доступа пользователей (UAL) — это общая платформа для Windows ролей сервера, которая сообщает о соответствующих метриках потребления.
 
 </dd> <dt>
 
 <span id="UserProfileProvider"></span><span id="userprofileprovider"></span><span id="USERPROFILEPROVIDER"></span>[усерпрофилепровидер](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes)
 </dt> <dd>
 
-Поставщик [усерпрофилепровидер](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes) предоставляет классы, предоставляющие сведения о профиле пользователя в системе Windows, а также о состоянии работоспособности перенаправленной папки пользователя.
+поставщик [усерпрофилепровидер](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes) предоставляет классы, предоставляющие сведения о профиле пользователя в Windowsной системе, а также о состоянии работоспособности перенаправленной папки пользователя.
 
 </dd> <dt>
 
@@ -671,7 +671,7 @@ API управления SMB предоставляет классы и мето
 <span id="WDM"></span><span id="wdm"></span>[ПОТОКА](/windows/desktop/WmiCoreProv/wdm-provider)
 </dt> <dd>
 
-Предоставляет доступ к классам, экземплярам, методам и событиям драйверов оборудования, которые соответствуют WDM (WDM).
+предоставляет доступ к классам, экземплярам, методам и событиям драйверов оборудования, которые соответствуют WDM (WDM).
 
 </dd> <dt>
 
@@ -696,7 +696,7 @@ API управления SMB предоставляет классы и мето
 
 </dd> <dt>
 
-<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Компоненты доступа к данным Windows (WDAC)](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
+<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Windows Компоненты доступа к данным (WDAC)](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
 </dt> <dd>
 
 Предоставляет управление WDAC.
@@ -706,49 +706,49 @@ API управления SMB предоставляет классы и мето
 <span id="Windows_Defender"></span><span id="windows_defender"></span><span id="WINDOWS_DEFENDER"></span>[Защитник Windows](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 </dt> <dd>
 
-Поставщик защитника Windows предоставляет функции безопасности защитника Windows.
+поставщик Защитник Windows предоставляет функции безопасности Защитник Windows.
 
 </dd> <dt>
 
-<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[установщик Windows](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
+<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[Windows Необходимость](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
 </dt> <dd>
 
-Поставщик установщик Windows, также известный как поставщик MSI, позволяет приложениям получать доступ к информации, собранной из приложений, совместимых с установщик Windows.
+поставщик установщик Windows, также известный как поставщик MSI, позволяет приложениям получать доступ к информации, собранной из приложений, совместимых с установщик Windows.
 
 </dd> <dt>
 
-<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Активация продуктов Windows](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
+<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Windows Активация продукта](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
 </dt> <dd>
 
-Поставщик активации Windows (WPA) — это технология борьбы с пиратством, предназначенная для уменьшения случайного копирования программного обеспечения.
+поставщик Windowsной активации (WPA) — это технология борьбы с пиратством, предназначенная для уменьшения случайного копирования программного обеспечения.
 
 </dd> <dt>
 
-<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[диспетчер сервера Windows](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
+<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[Windows диспетчер сервера](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
 </dt> <dd>
 
 Поставщик обеспечивает доступ к конфигурации, управляемой приложением диспетчер сервера, и управление ею.
 
 </dd> <dt>
 
-<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Управление хранилищем Windows Server (Мсфтстргман)](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
+<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Windows управление сервером служба хранилища (мсфтстргман)](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
 </dt> <dd>
 
-Поставщик Мсфтстргман обеспечивает управление системами хранения данных в продуктах Windows Server.
+поставщик мсфтстргман обеспечивает управление системами хранения данных в серверных продуктах Windows.
 
 </dd> <dt>
 
-<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Управление хранилищем Windows (Стргмгмт)](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[управление служба хранилища Windows (стргмгмт)](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
 </dt> <dd>
 
 Поставщик Стргмгмт можно использовать для управления широким спектром конфигураций хранилища, от планшетов до внешних массивов хранения данных на серверах.
 
 </dd> <dt>
 
-<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Средство оценки системы Windows](/windows/desktop/WinSAT/winsat-mof-classes)
+<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Windows Средство оценки системы](/windows/desktop/WinSAT/winsat-mof-classes)
 </dt> <dd>
 
-Средство Windows System оценке (WinSAT) предоставляет ряд классов, оценивающих характеристики и возможности производительности компьютера.
+средство Windowsной оценки системы (WinSAT) предоставляет ряд классов, оценивающих характеристики производительности и возможности компьютера.
 
 </dd> <dt>
 

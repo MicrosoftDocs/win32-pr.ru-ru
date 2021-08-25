@@ -3,9 +3,9 @@ title: Метод Query. Бегиннекстграуп
 description: Метод Бегиннекстграуп начинает новую группу условий. | Метод Query. Бегиннекстграуп
 ms.assetid: e0c59bd0-0789-413e-ade8-8d53c6f3e19b
 keywords:
-- Бегиннекстграуп метод Windows Media Player
-- метод Бегиннекстграуп Windows Media Player, класс запроса
-- Класс запроса проигрыватель Windows Media Player, метод Бегиннекстграуп
+- проигрыватель Windows Media метода бегиннекстграуп
+- метод бегиннекстграуп проигрыватель Windows Media, класс запроса
+- класс запроса проигрыватель Windows Media, метод бегиннекстграуп
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c043b9a0ea506e054877b4d8122304ced75e28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d12f8e37c32b83afb3e518deda09643033c7f396d8c52a2898893a01dc930d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861854"
 ---
 # <a name="querybeginnextgroup-method"></a>Метод Query. Бегиннекстграуп
 
@@ -44,22 +44,22 @@ Query.beginNextGroup()
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Начало новой группы условий означает, что вы завершили текущую группу условий. Новая группа условий всегда объединяется с предыдущей группой условий с помощью логики или.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

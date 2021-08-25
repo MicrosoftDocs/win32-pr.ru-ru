@@ -27,12 +27,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04696331b7027b7cc65d2202c29e6ce95bb3f4b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5560407da5a88fb17c39f76a91bdb0e193a246496c3f7333e4efccbe70c60ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868414"
 ---
 # <a name="win32_rdcentralpublishedremotedesktop-class"></a>\_Класс Win32 рдцентралпублишедремотедесктоп
 
@@ -66,7 +66,7 @@ class Win32_RDCentralPublishedRemoteDesktop : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ рдцентралпублишедремотедесктоп** имеет следующие свойства.
 
@@ -88,7 +88,7 @@ class Win32_RDCentralPublishedRemoteDesktop : CIM_LogicalElement
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -168,7 +168,7 @@ class Win32_RDCentralPublishedRemoteDesktop : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -301,7 +301,7 @@ class Win32_RDCentralPublishedRemoteDesktop : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

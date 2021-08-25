@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d018d47dd5cbcc8192dee490965bd06c56d0e3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c9eab33e5aff861c1afecaafa52e04964ef286c5835e0a6992a3d369210f8927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104133158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895774"
 ---
 # <a name="u-switch"></a>Параметр/u
 
@@ -38,7 +38,7 @@ midl /U name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В командной строке можно использовать несколько директив **/u** . Пробел между параметром **/u** и неопределенное имя является необязательным.
 
@@ -48,7 +48,7 @@ midl /U name
 
 **MIDL/УУНИКОДЕ filename. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -70,9 +70,9 @@ midl /U name
 [**/но \_ cpp**](-no-cpp-nocpp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

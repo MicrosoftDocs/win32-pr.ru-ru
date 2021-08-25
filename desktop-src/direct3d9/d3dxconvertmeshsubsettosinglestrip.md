@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c76aa52b08a21faf9bc2a6ef35745513063cc3b4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53d3ec4a0362ec923fdbeaa1d880188039e866292897d3fe5518ae34d4e2622d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857374"
 ---
 # <a name="d3dxconvertmeshsubsettosinglestrip-function"></a>Функция D3DXConvertMeshSubsetToSingleStrip
 
@@ -95,7 +95,7 @@ HRESULT D3DXConvertMeshSubsetToSingleStrip(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может иметь одно из следующих значений: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед выполнением этой функции вызовите [**optimize**](id3dxmesh--optimize.md) или [**D3DXOptimizeFaces**](d3dxoptimizefaces.md)с \_ установленным флагом D3DXMESHOPT аттрсорт.
 
@@ -105,7 +105,7 @@ HRESULT D3DXConvertMeshSubsetToSingleStrip(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

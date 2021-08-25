@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 4b17d99ab3ab485153a0af535aa74b9a9123ddaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de38f1bbaf9af03eba8c026615eeb285c5a578002341a7c5023bf35a40e36f83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878174"
 ---
 # <a name="certificatesubjectname-property"></a>Свойство Certificate. SubjectName
 
@@ -41,7 +41,7 @@ Certificate.SubjectName As String
 
 Строка, содержащая имя субъекта сертификата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,11 +54,11 @@ Certificate.SubjectName As String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

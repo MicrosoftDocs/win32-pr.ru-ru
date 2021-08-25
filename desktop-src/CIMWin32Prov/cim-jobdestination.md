@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d01fbe3b6025795084bf0af4cca3d644fd3cf4a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e5bcf06936acf635c138b86f1567143e8c3e92a1f18a4f3f53f95d194a2f69cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923324"
 ---
 # <a name="cim_jobdestination-class"></a>\_Класс CIM жобдестинатион
 
@@ -63,13 +63,13 @@ class CIM_JobDestination : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ жобдестинатион** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -139,7 +139,7 @@ class CIM_JobDestination : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -297,7 +297,7 @@ class CIM_JobDestination : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ жобдестинатион** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

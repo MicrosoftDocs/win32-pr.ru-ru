@@ -3,7 +3,7 @@ title: EDITBOX. обоснование
 description: Атрибут обоснования указывает или получает выравнивание текста внутри элемента управления EditBox.
 ms.assetid: e1b62381-3975-45d9-8c9c-1e30770cebdb
 keywords:
-- EDITBOX. обоснование Windows Media Player
+- проигрыватель Windows Media EDITBOX. обоснование
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c230f8a2527a1a66ed7bfd3b42bfff8c686fa2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fcb9a9b2fd2722e0d36b285b606d42fb8299531c6119816b7dd2e1ad1e63cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863114"
 ---
 # <a name="editboxjustification"></a>EDITBOX. обоснование
 
@@ -43,21 +43,21 @@ ms.locfileid: "105699270"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имеется поле, равное двум пикселям.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ keywords:
 - Вспомогательные аудио, устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f80c499f18b60f0919214c91eeec834ed72c3e1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e02ca4ceaf8e8a8b2f84ea69be437145f0f92b375904a0121c17abc7870fa831
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808114"
 ---
 # <a name="changing-the-volume-of-auxiliary-audio-devices"></a>Изменение объема дополнительного Audio-Devices
 
@@ -32,7 +32,7 @@ Windows предоставляет следующие функции для за
 
 
 
- 
+ 
 
 Не все вспомогательные звуковые устройства поддерживают изменения томов. Некоторые устройства могут поддерживать отдельные изменения томов как в левом, так и в правой канале.
 
@@ -40,6 +40,6 @@ Windows предоставляет следующие функции для за
 
 Значения уровня громкости находятся в диапазоне от 0x0 (тишина) до 0xFFFF (максимальный том) и интерпретируемы как пропорциональны логарифму. Воспринимаемое увеличение громкости при увеличении уровня громкости с 0x5000 до 0x6000 не отличается от 0x4000 до 0x5000.
 
- 
+ 
 
- 
+ 

@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 76743d255bc50d213a4ce3f44057d97830078ccd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: beaea36c40083e4305cf2304dd7a60dadc55e9eee3315288525ffcfdf056a192
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924014"
 ---
 # <a name="cim_executeprogram-class"></a>\_Класс CIM ексекутепрограм
 
@@ -78,7 +78,7 @@ class CIM_ExecuteProgram : CIM_Action
 
 | Метод                                                      | Описание                                                   |
 |:------------------------------------------------------------|:--------------------------------------------------------------|
-| [**Вызвать**](invoke-method-in-class-cim-executeprogram.md) | Выполняет определенное действие. Не реализовано инструментарием WMI.<br/> |
+| [**Invoke**](invoke-method-in-class-cim-executeprogram.md) | Выполняет определенное действие. Не реализовано инструментарием WMI.<br/> |
 
 
 
@@ -108,7 +108,7 @@ class CIM_ExecuteProgram : CIM_Action
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -185,7 +185,7 @@ class CIM_ExecuteProgram : CIM_Action
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -447,7 +447,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -529,7 +529,7 @@ Windows CE
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Зависящая от UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**зависящие UNIX** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -657,7 +657,7 @@ BS2000/OSD
 
 <span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>
 
-<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**Интерактивная UNIX** (40)
+<span id="Interactive_UNIX"></span><span id="interactive_unix"></span><span id="INTERACTIVE_UNIX"></span>**интерактивный UNIX** (40)
 
 
 </dt> <dd></dd> <dt>
@@ -669,7 +669,7 @@ BS2000/OSD
 
 </dt> <dd>
 
-ОС BSD UNIX
+UNIX BSD
 
 </dd> <dt>
 
@@ -827,7 +827,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Version**
+**Версия**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -850,7 +850,7 @@ Mac OS 9
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс.
 

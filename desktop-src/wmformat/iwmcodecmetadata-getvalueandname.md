@@ -1,6 +1,6 @@
 ---
 title: жетвалуеанднаме
-description: Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP. | жетвалуеанднаме
+description: текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см. в разделе Windows media Audio и Video кодек и DSP api. | жетвалуеанднаме
 ms.assetid: 8f685fd7-95ac-4e20-b050-b080006d7954
 keywords:
 - Формат Windows Media Жетвалуеанднаме
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 717b8258b9acc0a2fae5b0905a37de3c869e1ee4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 57334ab94a27cbf618fe9bc77c3437af7fc7dc2fdb3de2eb40496c64f20889bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105713367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839725"
 ---
 # <a name="getvalueandname"></a>жетвалуеанднаме
 
-Текущую документацию по кодекам Windows Media и обработчикам цифровых сигналов см [. в статье интерфейсы API аудио-и видеокодеков Windows Media и DSP.](/previous-versions//dd464626(v=vs.85))
+текущую документацию по Windows кодеков мультимедиа и обработчикам цифровых сигналов см [. в разделе Windows media Audio и Video кодек и DSP api.](/previous-versions//dd464626(v=vs.85))
 
  
 

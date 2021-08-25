@@ -9,12 +9,12 @@ keywords:
 - DRM (Управление цифровыми правами), указание действий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d2bd39a04d9ac87c4492749ca5e250d587c0e25
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b2d27df2904aee061deb252e08b59e1e88e4d1cd9e151290cd940fc48a650404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104412545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807804"
 ---
 # <a name="specifying-the-actions-to-be-performed"></a>Указание действий для выполнения
 
@@ -32,18 +32,18 @@ p_WMDRMReader->SetDRMProperty(g_wszWMDRM_Rights, WMT_TYPE_STRING,
 > [!Note]  
 > Не путайте свойство [**\_ Rights DRM**](drm-rights.md) с свойством [**\_ flags DRM**](drm-flags.md) , которое является **DWORD** , используемым для указания прав, применяемых к локальной лицензии DRM версии 1 при копировании содержимого с компакт-диска.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Чтение защищенных файлов**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: bc7fdc74-be41-4d17-997c-27171ef73f0f
 title: Источники событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2b408b76cdbc6e93e44099fea2842f9655a963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75c82c3328709a16ee7788025624a904ae7e25a21ddc83cecc9c41b27c283ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914794"
 ---
 # <a name="event-sources"></a>Источники событий
 
@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-Когда приложение использует функцию [**регистеревентсаурце**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) или [**опеневентлог**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) для получения маркера журнала событий, служба ведения журнала событий выполняет поиск указанного источника событий в реестре. Например, журнал **приложений** может содержать источники событий для Microsoft SQL Server и Microsoft Excel. Если приложение использует [**регистеревентсаурце**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) или **опеневентлог** с исходным именем приложения, SQL или Excel, служба ведения журнала событий возвращает маркер журнала **приложений** .
+Когда приложение использует функцию [**регистеревентсаурце**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) или [**опеневентлог**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) для получения маркера журнала событий, служба ведения журнала событий выполняет поиск указанного источника событий в реестре. например, журнал **приложений** может содержать источники событий для Microsoft SQL Server и Microsoft Excel. если приложение использует [**регистеревентсаурце**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) или **опеневентлог** с исходным именем приложения, SQL или Excel, служба ведения журнала событий возвращает маркер журнала **приложений** .
 
 Приложение может использовать журнал **приложений** без добавления нового источника событий в реестр. Если приложение вызывает [**регистеревентсаурце**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) и передает имя источника, которое не удается найти в реестре, служба ведения журнала событий по умолчанию использует журнал **приложений** . Однако из-за отсутствия файлов сообщений Просмотр событий не может сопоставлять идентификаторы событий или категории событий с строкой описания и выводит сообщение об ошибке. По этой причине необходимо добавить уникальный источник событий в реестр для приложения и указать файл сообщения.
 

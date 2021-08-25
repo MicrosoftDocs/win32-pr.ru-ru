@@ -3,7 +3,7 @@ title: Сообщение DTM_SETMCCOLOR (Коммктрл. h)
 description: Задает цвет для заданной части месячного календаря в элементе управления "Выбор даты и времени" (DTP). Это сообщение можно отправить явным образом или использовать \_ макрос Сетмонскалколор DateTime.
 ms.assetid: cee72c1d-58da-4ee5-850e-a615ec6ad079
 keywords:
-- Элементы управления Windows для DTM_SETMCCOLOR сообщений
+- элементы управления Windows сообщений DTM_SETMCCOLOR
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e496abb4dd28b040dd4a8035073ffa32a3f3847
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5154c2e450f5ef3c12c85fe3307f37958fea807226ab436241038c9ad639d4dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877824"
 ---
 # <a name="dtm_setmccolor-message"></a>\_Сообщение DTM сетмкколор
 
@@ -62,19 +62,19 @@ ms.locfileid: "103803071"
 
 Возвращает значение **COLORREF** , представляющее предыдущий цвет для указанной части элемента управления "календарь месяца" в случае успеха. В противном случае сообщение возвращает значение-1.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если стили оформления включены, это сообщение не действует, кроме случаев, когда *wParam* имеет MCSC \_ Background.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

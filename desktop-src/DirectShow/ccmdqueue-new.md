@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 58c3aee63005010b9ed7366cfb63a69fcc7348b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8b6ad22b67df863e699649f22f513a98ca1306751a1d449a683f306c9cc2938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910394"
 ---
 # <a name="ccmdqueuenew-method"></a>Ккмдкуеуе. New, метод
 
@@ -133,7 +133,7 @@ virtual HRESULT New(
 
 \_При успешном выполнении возвращает значение ОК. Возвращает E \_ OUTOFMEMORY, если *ппкмд* возвращает из создания нового объекта [**кдеферредкомманд**](cdeferredcommand.md) со значением **null**. В противном случае возвращает **значение HRESULT** , указывающее на ошибку при попытке создать новый объект **кдеферредкомманд** . Если возникает ошибка, объект не помещается в очередь.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Новый объект [**кдеферредкомманд**](cdeferredcommand.md) будет инициализирован с параметрами и будет добавлен в очередь во время создания. Этот метод аналогичен методу **IDispatch:: Invoke** .
 
@@ -152,18 +152,18 @@ virtual HRESULT New(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

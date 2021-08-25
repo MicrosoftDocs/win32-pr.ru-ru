@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1afd78ba17e444520d8dec81eac05fffa103aede
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 45b8e95d1c29055c90046ae019a343b445a86f6629a8b190823e7c6a4f483e66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973194"
 ---
 # <a name="win32_logicalprogramgroupitem-class"></a>\_Класс Win32 логикалпрограмграупитем
 
@@ -52,13 +52,13 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ логикалпрограмграупитем** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -112,7 +112,7 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -126,7 +126,7 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 В системе компьютера. Группы программ реализуются в виде файловых папок в Win32. Необходимо указать полные имена путей.
 
-Пример: "C: \\ Пользователи, \\ *кто пользователь* \\ AppData, \\ роуминг в \\ \\ \\ меню" Пуск "Microsoft Windows \\ Programs (Блокнот) \\ \\ . lnk"
+пример: "C: \\ пользователи с \\ *другим пользователем* \\ AppData \\ роуминг \\ Microsoft \\ Windows \\ меню \\ " пуск \\ "программы \\ —" блокнот ". Lnk"
 
 </dd> <dt>
 
@@ -238,13 +238,13 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ логикалпрограмграупитем** является производным от [**Win32 \_ програмграупоритем**](win32-programgrouporitem.md).
 
-Вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ Name** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
+вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ NAME** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -258,7 +258,7 @@ class Win32_LogicalProgramGroupItem : Win32_ProgramGroupOrItem
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

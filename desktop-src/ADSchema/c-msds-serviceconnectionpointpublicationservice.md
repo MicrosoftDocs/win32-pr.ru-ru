@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 388d62d1e9c8f529a51a798d445c9535989d908a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13b458a5d66d8d6fd90a58519ce57de03f625087be4123f2e51ca8c09534ed96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879844"
 ---
 # <a name="ms-ds-service-connection-point-publication-service-class"></a>класс службы MS-DS-Service-Connection-Point-publication-Service
 
@@ -49,7 +49,7 @@ ms.locfileid: "104535705"
 
 | Ввод | Значение |
 |-----------------------------|----------------------------------------|
-| System-Only                 | True                                   |
+| System-Only                 | Верно                                   |
 | Object-Category             | 1                                      |
 | По умолчанию — объект — Категория     | \-                                     |
 | Governs-Id                  | 1.2.840.113556.1.5.247                 |
@@ -86,14 +86,14 @@ ms.locfileid: "104535705"
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**DSA-Signature**](a-dsasignature.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**DS-Core-распространение-данные**](a-dscorepropagationdata.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                        |
-| [**Активировано**](a-enabled.md)                                                | Неверно     | **MS-DS-Service-Connection-Point-publication-Service** |
+| [**Включен**](a-enabled.md)                                                | Неверно     | **MS-DS-Service-Connection-Point-publication-Service** |
 | [**Из записи**](a-fromentry.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                        |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                        |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                        |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                        |
-| [**Keywords**](a-keywords.md)                                              | Неверно     | **MS-DS-Service-Connection-Point-publication-Service** |
+| [**Словами**](a-keywords.md)                                              | Неверно     | **MS-DS-Service-Connection-Point-publication-Service** |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**В основном**](a-masteredby.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                        |
@@ -111,10 +111,10 @@ ms.locfileid: "104535705"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**MS-DS-SCP-Container**](a-msds-scpcontainer.md)                          | Неверно     | **MS-DS-Service-Connection-Point-publication-Service** |
 | [**MS-DS-Service-Account-BL**](a-msds-serviceaccountbl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                        |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                        |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                        |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                        |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                        |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                        |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                        |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                        |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                        |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                        |

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ExecModelClient.dll
-ms.openlocfilehash: 8e93828d204a839ea4092d13889564781b360146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b0130ae2e90c2f592c158fb0730461eab8a78b192ae81f7cc7aaa4139c83483
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773664"
 ---
 # <a name="taskcompletionclientrevoketaskcompletion-method"></a>Метод Тасккомплетионклиент:: Ревокетасккомплетион
 
@@ -47,8 +47,8 @@ HRESULT RevokeTaskCompletion();
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                           |
 | DLL<br/>                      | <dl> <dt>ExecModelClient.dll</dt> </dl> |
 
 

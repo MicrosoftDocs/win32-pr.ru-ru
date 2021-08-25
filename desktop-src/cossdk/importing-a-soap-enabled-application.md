@@ -4,12 +4,12 @@ ms.assetid: 7f4783f7-4f53-4f0b-bb64-ae7903097d6c
 title: Импорт SOAP-Enabled приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9faca91a726caea765d4b2ca227ddba0ff3a2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a41a60c2b5ca69197582a684920e9e935f28631779bc632810049f1a7d03945
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858924"
 ---
 # <a name="importing-a-soap-enabled-application"></a>Импорт SOAP-Enabled приложения
 
@@ -37,11 +37,11 @@ ms.locfileid: "104539302"
 
 Не применяется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 COM-компоненты идентифицируются по идентификатору GUID, который изменяется при повторной компиляции компонентов. Если перекомпилируется настроенный COM-компонент, предоставляемый в виде XML, клиентские приложения, использующие ее, будут нарушены. Поэтому при перекомпиляции компонента, предоставляемого в виде веб-службы XML, клиенты должны повторно импортировать приложения, использующие этот компонент.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -5,12 +5,12 @@ title: Ожидание обхода цепочки
 ms.topic: article
 ms.date: 08/10/2020
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 842beb7d5470bc2b3e6e9c7c1150ff2aa1a4cf76
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: 695e5298d0f56d0c53afcd146b19b1fc3c6ccf25e4ec12aec7f2b6b74fb64243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "103894014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912314"
 ---
 # <a name="wait-chain-traversal"></a>Ожидание обхода цепочки
 
@@ -43,6 +43,6 @@ WCT поддерживает следующие примитивы синхро�
 
 Пример обхода цепочки ожидания см. [в разделе Использование WCT](using-wct.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [С помощью WCT](using-wct.md), [справочника по WCT](wct-reference.md), [MSDN Magazine 2007 Июль-Bugslayer: ожидание цепочки ожидания](/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal)

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 498beda4f2f6c61af918d542542c4ed7b789ba1a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dd39cb83c90c566f0022679e70680e916daeb2a43a4d62e993e096930ee2f14e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890474"
 ---
 # <a name="iespresume-method"></a>Метод ИЕСП:: Resume
 
@@ -49,8 +49,8 @@ HRESULT STDMETHODCALLTYPE Resume();
 | Код возврата                                                                                                | Описание                                                                                                               |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ не \_ приостановлена**</dt> </dl> | Запись не приостановлена. Вызовите [**ИЕСП::P Аусе**](iesp-pause.md) , чтобы приостановить запись.<br/>                        |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. Вызовите [**ИЕСП:: Connect**](iesp-connect.md) , чтобы подключиться к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>             | НПП подключается к сети, но не с методом [**ИЕСП:: Connect**](iesp-connect.md) .<br/>            |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>       | НПП не подключен к сети. вызовите [**иесп:: Подключение**](iesp-connect.md) , чтобы подключиться к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>             | нпп подключается к сети, но не с помощью метода [**иесп:: Подключение**](iesp-connect.md) .<br/>            |
 
 
 
@@ -64,7 +64,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Чтобы прерывать запись, вызовите [**ИЕСП:: останавливаться**](iesp-stop.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,7 +84,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 [иесп](iesp.md)
 </dt> <dt>
 
-[**ИЕСП:: Connect**](iesp-connect.md)
+[**иесп:: Подключение**](iesp-connect.md)
 </dt> <dt>
 
 [**ИЕСП::P Аусе**](iesp-pause.md)

@@ -3,7 +3,7 @@ title: Сообщение EM_EXLIMITTEXT (RichEdit. h)
 description: Задает верхний предел для объема текста, который пользователь может ввести или вставить в элемент управления Rich Edit.
 ms.assetid: 66fcdbb9-99ac-4122-b89c-be4aef80fbae
 keywords:
-- Элементы управления Windows для EM_EXLIMITTEXT сообщений
+- элементы управления Windows сообщений EM_EXLIMITTEXT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49c4ebb554e3aa3139a66ca63970356e1261a23f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98f9879323f3feade3ece536cd130b274b423c98aebedd6b6f5ef1497d995d07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915684"
 ---
 # <a name="em_exlimittext-message"></a>\_Сообщение ЕКСЛИМИТТЕКСТ EM
 
@@ -47,25 +47,25 @@ ms.locfileid: "104491490"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ограничение текста, заданное в сообщении **EM \_ екслимиттекст** , не ограничивает объем текста, который можно передать в элемент управления Rich Edit с помощью сообщения [**EM \_ Streaming**](em-streamin.md) с параметром *lParam* , имеющим значение SF \_ . Однако он ограничивает объем текста, который можно передать в элемент управления Rich Edit с помощью сообщения **EM \_ Streaming** с параметром *lParam* , имеющим значение SF \_ RTF.
 
 Перед вызовом **EM \_ екслимиттекст** ограничение по умолчанию для объема текста, который может ввести пользователь, — 32 767 символов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

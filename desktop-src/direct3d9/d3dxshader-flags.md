@@ -34,12 +34,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 6f5d35f8c3bdf556e188c2cab8ff2684449b226f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 031ae23301b78a9cced683551c9d7220aa66f7e0a48b504fe1a93721fd8d6a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849784"
 ---
 # <a name="d3dxshader-flags"></a>Флаги D3DXSHADER
 
@@ -102,7 +102,7 @@ ms.locfileid: "105647839"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Система эффектов будет использовать **Флаги синтаксического анализатора** при вызове следующими функциями:
 
@@ -135,7 +135,7 @@ ms.locfileid: "105647839"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9shader. h</dt> </dl> |
 
 
 

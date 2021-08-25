@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Методы CIM_Directory
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 622588e3185f8f1dcd1c0488b8a7b64694088c2c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99edcefb7cbbf95de902795cb92040b260187499acb5540f289c833e64a095cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924394"
 ---
 # <a name="cim_directory-methods"></a>\_Методы каталога CIM
 
