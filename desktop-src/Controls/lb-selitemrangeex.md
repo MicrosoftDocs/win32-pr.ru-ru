@@ -3,7 +3,7 @@ title: Сообщение LB_SELITEMRANGEEX (Winuser. h)
 description: Выбирает один или несколько последовательных элементов в списке с множественным выбором.
 ms.assetid: aac85d72-43e2-4ab0-b9ee-c7a87e21d7a1
 keywords:
-- Элементы управления Windows для LB_SELITEMRANGEEX сообщений
+- элементы управления Windows сообщений LB_SELITEMRANGEEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa3ca1335372b7a61c4dfcbc379c36e89ff933e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16e3112e36a7b212c1d0968ca738472000fabbf3d26d4d94e36ea9f21d80fe57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799444"
 ---
 # <a name="lb_selitemrangeex-message"></a>Сообщение селитемранжеекс балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "103989186"
 
 Указывает отсчитываемый от нуля индекс первого выбираемого элемента.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
 
 </dd> <dt>
 
@@ -49,7 +49,7 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 Если возникает ошибка, возвращается значение фунтов \_ Err.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если параметр *wParam* меньше, чем параметр *lParam* , выбирается указанный диапазон элементов. Если параметр *wParam* больше или равен *lParam*, диапазон удаляется из указанного диапазона элементов. Чтобы выбрать только один элемент, выберите два элемента и отмените выбор нежелательного элемента.
 
@@ -63,9 +63,9 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

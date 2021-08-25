@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1d8b15d4f0cc4af852ad49665d0266e3235eb4e6
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 373a0059a390af3e5038e602672635e76bdb142b23bbf2dbd52461207324c4aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874384"
 ---
 # <a name="id2d1factorycreateroundedrectanglegeometry-methods"></a>Методы ID2D1Factory:: Креатераундедректанглежеометри
 
@@ -34,11 +34,11 @@ ms.locfileid: "110549409"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
-| Требование | Применение |
+| Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
 | Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |

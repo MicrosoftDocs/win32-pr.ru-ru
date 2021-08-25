@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: 1db69d51f3a46bbe219ef7f7bdea67e8e8970e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5df58ef86971fcf60e79fbae8e92313dbd0b0371e2311cc30b494950e4f37dd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890844"
 ---
 # <a name="dllmain-parser-callback-function"></a>Функция обратного вызова средства синтаксического анализа DllMain
 
@@ -77,7 +77,7 @@ BOOL WINAPI DllMain(
 
 Библиотека DLL средства синтаксического анализа всегда возвращает **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Операционная система вызывает функцию **DllMain** для загрузки и выгрузки библиотеки DLL средства синтаксического анализа. Эта функция основана на функции [DllMain](/windows/desktop/Dlls/dllmain) библиотеки динамической компоновки.
 
@@ -87,7 +87,7 @@ BOOL WINAPI DllMain(
 
 | Для получения информации о                                        | См.                                                     |
 |-----------------------------------------------------------|---------------------------------------------------------|
-| Какие анализаторы и как они работают с сетевой монитор. | [Анализаторы](parsers.md)                                  |
+| Какие анализаторы и как они работают с сетевой монитор. | [Средства синтаксического анализа](parsers.md)                                  |
 | Какие точки входа включены в библиотеку DLL средства синтаксического анализа.        | [Архитектура библиотеки DLL средства синтаксического анализа](parser-dll-architecture.md)  |
 | Реализация функции **DllMain**  включает пример.        | [Реализация DllMain](implementing-dllmain-parser.md) |
 
@@ -95,7 +95,7 @@ BOOL WINAPI DllMain(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,7 +107,7 @@ BOOL WINAPI DllMain(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

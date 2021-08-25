@@ -4,16 +4,16 @@ ms.assetid: e25cf749-6673-47eb-b843-4066f475b8f1
 title: 'Метод Иткосаппликатионид:: Сеткосаппликатионид (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7893c8038fd7a47fc1978a20e5aba5cc8293d9a3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10e7783efaf8ec30ea8f70fec634eefff0acd2f5df99453fc1958258a5a26597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774594"
 ---
 # <a name="itqosapplicationidsetqosapplicationid-method"></a>Метод Иткосаппликатионид:: Сеткосаппликатионид
 
-\[ Этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[этот метод недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **сеткосаппликатионид** задает идентификатор качества обслуживания для приложения.
 
@@ -70,20 +70,20 @@ Sub-IDs, связанный с текущим вызовом.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,1<br/>                                                         |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

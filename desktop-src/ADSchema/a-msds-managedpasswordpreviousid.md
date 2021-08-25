@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab69454b85b4509f8184303f0ac7999589fb8f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8375d1136c41468ab8d814a4f3102ceb8b128a0bc3a03fe7866a77aa9c411fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103804997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804044"
 ---
 # <a name="ms-ds-managedpasswordpreviousid-attribute"></a>Атрибут ms-DS-Манажедпассвордпревиаусид
 
@@ -52,10 +52,10 @@ ms.locfileid: "103804997"
 |------------------------|---------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |
-| System-Only            | True                                                                                        |
-| Является однозначным       | True                                                                                        |
-| Индексируется             | Неверно                                                                                       |
-| В глобальном каталоге      | Неверно                                                                                       |
+| System-Only            | Верно                                                                                        |
+| Является однозначным       | Верно                                                                                        |
+| Индексируется             | Нет                                                                                       |
+| В глобальном каталоге      | Нет                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                |
 | Range-Lower            | \-                                                                                          |
 | Range-Upper            | \-                                                                                          |

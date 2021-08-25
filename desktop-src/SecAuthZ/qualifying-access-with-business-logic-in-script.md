@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 65ee69e0572c0f480cded2930ea81ac6da710b6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b77ff1d6d520780d30efab5619c3e9bc3c896ad88315fba56e3a19e05d3ae97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907554"
 ---
 # <a name="qualifying-access-with-business-logic-in-script"></a>Уточнение доступа с помощью бизнес-логики в скрипте
 
 Используйте сценарии бизнес-правил для предоставления логики времени выполнения для проверки доступа. Дополнительные сведения о бизнес-правилах см. в разделе [бизнес-правила](business-rules.md).
 
-Чтобы назначить бизнес-правило задаче, сначала установите свойство [**бизрулелангуаже**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage) объекта [**иазтаск**](/windows/desktop/api/Azroles/nn-azroles-iaztask) , представляющего задачу. Скрипт должен быть написан с помощью языка программирования Visual Basic Scripting Edition (VBScript) или программного обеспечения для разработки на JScript. После указания языка скрипта задайте для свойства [**бизруле**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule) объекта **иазтаск** строковое представление скрипта.
+Чтобы назначить бизнес-правило задаче, сначала установите свойство [**бизрулелангуаже**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage) объекта [**иазтаск**](/windows/desktop/api/Azroles/nn-azroles-iaztask) , представляющего задачу. скрипт должен быть написан с помощью языка программирования Visual Basic scripting Edition (VBScript) или JScript программного обеспечения разработки. После указания языка скрипта задайте для свойства [**бизруле**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule) объекта **иазтаск** строковое представление скрипта.
 
 При проверке доступа для операции, содержащейся в задаче, имеющей связанное бизнес-правило, приложение должно создать два массива того же размера, которые будут переданы в качестве параметров *варпараметернамес* и *варпараметервалуес* метода [**AccessCheck**](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck) объекта [**иазклиентконтекст**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext) . Сведения о создании контекста клиента см. в разделе [Установка контекста клиента в скрипте](establishing-a-client-context-in-script.md).
 

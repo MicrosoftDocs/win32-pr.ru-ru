@@ -4,17 +4,17 @@ ms.assetid: 7ab7760c-110a-4b0d-919a-32244144467f
 title: Дефаултаудиолангуаже, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c73a52c32b1ea9fb62bf48413e652b786f7781fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b8c1dd21a2f31ca3bbd5821d64407f275a823f69e95e3997f03d0908697411c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105672954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906884"
 ---
 # <a name="defaultaudiolanguage-property"></a>Дефаултаудиолангуаже, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "105672954"
 
 Возвращает значение LCID, содержащее основной идентификатор языка для звукового языка по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно только для чтения и не имеет значения по умолчанию.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

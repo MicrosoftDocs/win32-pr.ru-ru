@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: e988994b849c193725dfdd75773f22a63fed6754
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 362043696e4cbd21dd64783f210cf2e24066645e7dac5e303a16cd83abb31307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874084"
 ---
 # <a name="id2d1rendertargetfillopacitymask-methods"></a>Методы ID2D1RenderTarget:: ФиллопаЦитимаск
 
@@ -35,13 +35,13 @@ ms.locfileid: "105656929"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для правильной работы этого метода целевой объект прорисовки должен использовать режим сглаживания с [**\_ \_ \_ псевдонимом D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode) . Режим сглаживания можно задать, вызвав метод [**ID2D1RenderTarget:: сетантиалиасмоде**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode) .
 
 Этот метод не возвращает код ошибки в случае сбоя. Чтобы определить, не завершилась ли операция рисования (например, **филлопаЦитимаск**), проверьте результат, возвращенный методами [**ID2D1RenderTarget:: EndDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw) или [**ID2D1RenderTarget:: Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -52,7 +52,7 @@ ms.locfileid: "105656929"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

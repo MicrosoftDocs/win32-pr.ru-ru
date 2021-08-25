@@ -1,17 +1,17 @@
 ---
 description: TAPI моделирует кнопки телефонов и лампы в виде пар «кнопка-лампа».
 ms.assetid: e4c50bd6-a256-407f-af3b-b24383a30ea0
-title: Кнопки телефона
+title: Телефон Кнопки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3e65c34096c0cf043b85d80c9c726c6bef982d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0e72288133615b19e622434b8727608aaec9a9136dd58eaa03e339708c42a13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774164"
 ---
-# <a name="phone-buttons"></a>Кнопки телефона
+# <a name="phone-buttons"></a>Телефон Кнопки
 
 TAPI моделирует кнопки и лампы телефона как пары "кнопка-лампа". Кнопка без лампы рядом с ней или лампа без кнопки задается с помощью "фиктивного" индикатора для отсутствующей лампы или кнопки. Кнопка с несколькими лампами моделируется с помощью нескольких пар «кнопка-лампа».
 

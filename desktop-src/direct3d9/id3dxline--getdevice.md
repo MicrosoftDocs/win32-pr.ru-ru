@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a97edf37d14edce4982d62d76f9429091ad491ce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e09bcca1397e45ea28f83b08fa069c95f715c35390169227989f1c37479bef2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856584"
 ---
 # <a name="id3dxlinegetdevice-method"></a>Метод ID3DXLine:: of Device
 
@@ -61,7 +61,7 @@ HRESULT GetDevice(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

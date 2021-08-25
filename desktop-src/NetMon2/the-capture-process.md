@@ -4,12 +4,12 @@ ms.assetid: f778aba5-8f66-4fc9-830b-f830c364da56
 title: Процесс отслеживания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e0ca1987266b7e042713f1d1c292cf63d5e3ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51a6d82d721f0f85c6b1ab279d556aaad866f70fde7c8e422995cba5be513d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889597"
 ---
 # <a name="the-capture-process"></a>Процесс отслеживания
 
@@ -39,7 +39,7 @@ ms.locfileid: "104558262"
 
 В этом случае можно приостановить и перезапустить запись столько раз, сколько нужно. При таком подходе можно запустить запись, данные которой (и связанная с ней статистика) записываются в виде одной записи. Например, чтобы выполнить отложенную запись с помощью интерфейса [**иделайдк**](idelaydc.md) , все записанные сведения о сети будут сохранены в одном [*файле записи*](c.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -49,7 +49,7 @@ ms.locfileid: "104558262"
 [**Иделайдк:: Configure**](idelaydc-configure.md)
 </dt> <dt>
 
-[**Иделайдк:: Connect**](idelaydc-connect.md)
+[**иделайдк:: Подключение**](idelaydc-connect.md)
 </dt> <dt>
 
 [**Иделайдк::D подключение**](idelaydc-disconnect.md)
@@ -70,7 +70,7 @@ ms.locfileid: "104558262"
 [**ИЕСП:: Configure**](iesp-configure.md)
 </dt> <dt>
 
-[**ИЕСП:: Connect**](iesp-connect.md)
+[**иесп:: Подключение**](iesp-connect.md)
 </dt> <dt>
 
 [**ИЕСП::D подключение**](iesp-disconnect.md)
@@ -91,7 +91,7 @@ ms.locfileid: "104558262"
 [**ИРТК:: Configure**](irtc-configure.md)
 </dt> <dt>
 
-[**ИРТК:: Connect**](irtc-connect.md)
+[**иртк:: Подключение**](irtc-connect.md)
 </dt> <dt>
 
 [**ИРТК::D подключение**](irtc-disconnect.md)
@@ -112,7 +112,7 @@ ms.locfileid: "104558262"
 [**Истатс:: Configure**](istats-configure.md)
 </dt> <dt>
 
-[**Истатс:: Connect**](istats-connect.md)
+[**истатс:: Подключение**](istats-connect.md)
 </dt> <dt>
 
 [**Истатс::D подключение**](istats-disconnect.md)

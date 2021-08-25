@@ -3,17 +3,17 @@ title: Справочник по видеозаписи
 description: Справочник по видеозаписи
 ms.assetid: 5356c575-2a59-4459-b4eb-76967deb6877
 keywords:
-- Видео для Windows (VFW), Справочник по видеороликам
-- VFW (видео для Windows), Справочник по видеороликам
+- видео для Windows (VFW), справочник по видеороликам
+- VFW (видео для Windows), справочник по видеороликам
 - Авикап, Справочник
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cef19834e244f6070a1d8bb3383dcac017e4d161
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 166bdcf06e700023a197334b0e63f612398485affe21dc9ffbc6e7ac0800926a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804314"
 ---
 # <a name="video-capture-reference"></a>Справочник по видеозаписи
 
@@ -27,7 +27,7 @@ ms.locfileid: "104067572"
 -   [**\_последовательность закрепления WM \_**](wm-cap-sequence.md)
 -   [**\_ \_ Окончание крепления WM**](wm-cap-stop.md)
 
-## <a name="capture-windows"></a>Окна захвата
+## <a name="capture-windows"></a>Windows записи
 
 -   [**капстатус**](/windows/win32/api/vfw/ns-vfw-capstatus)
 -   [**капжетдривердескриптион**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona)
@@ -138,16 +138,16 @@ ms.locfileid: "104067572"
 -   [**\_ \_ \_ вавестреам обратного вызова Set крепления WM \_**](wm-cap-set-callback-wavestream.md)
 -   [**\_ \_ \_ вызов функции обратного вызова Set крепления WM \_**](wm-cap-set-callback-yield.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Видеозапись](video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ExecModelClient.dll
-ms.openlocfilehash: a823dc528ea189c70f44689ab69795eb3a430e67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d03e52a15e6689b7f1ea98a2f1021874cab6a8967dd148b7eaf685ff3984e8cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773654"
 ---
 # <a name="taskcompletionclient-interface"></a>Интерфейс Тасккомплетионклиент
 
@@ -45,11 +45,11 @@ ms.locfileid: "104266163"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Идентификатор GUID для этого интерфейса — "E97D552D-9AE9-46AA-9151-D2DA4BBB5E96".
 
-Этот API является устаревшим и может быть недоступен в будущих версиях Windows. Вместо этого приложения должны использовать API-интерфейсы в пространстве имен [**Windows. ApplicationModel. екстендедексекутион**](/uwp/api/Windows.ApplicationModel.ExtendedExecution?view=winrt-19041) .
+Этот API является устаревшим и может быть недоступен в будущих версиях Windows. Приложения должны использовать API в [**Windows.**](/uwp/api/Windows.ApplicationModel.ExtendedExecution?view=winrt-19041)Вместо этого используйте пространство имен ApplicationModel. екстендедексекутион.
 
 ## <a name="requirements"></a>Требования
 
@@ -57,8 +57,8 @@ ms.locfileid: "104266163"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                           |
 | DLL<br/>                      | <dl> <dt>ExecModelClient.dll</dt> </dl> |
 
 

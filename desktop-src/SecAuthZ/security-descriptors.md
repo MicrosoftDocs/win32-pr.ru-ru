@@ -4,12 +4,12 @@ ms.assetid: 4ab0e7b1-1b44-4368-b2bd-106c9d2c652c
 title: Дескрипторы безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f864505f135b46d3e16a4e369c019444918fb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1049becf755bbb0940cfd5def3b59662a20eb2a690d90a36e06c5706212f02d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907194"
 ---
 # <a name="security-descriptors"></a>Дескрипторы безопасности
 
@@ -22,7 +22,7 @@ ms.locfileid: "103897774"
 
 Приложения не должны напрямую манипулировать содержимым дескриптора безопасности. Windows API предоставляет функции для настройки и получения сведений о безопасности в дескрипторе безопасности объекта. Кроме того, существуют функции для создания и инициализации дескриптора безопасности для нового объекта.
 
-Приложения, работающие с дескрипторами безопасности на Active Directory объектах, могут использовать функции безопасности Windows или интерфейсы безопасности, предоставляемые интерфейсами служб Active Directory (ADSI). Дополнительные сведения об интерфейсах безопасности ADSI см. [в разделе как работает управление доступом в Active Directory](/windows/desktop/AD/how-access-control-works-in-active-directory-domain-services).
+приложения, работающие с дескрипторами безопасности на Active Directory объектах, могут использовать функции безопасности Windows или интерфейсы безопасности, предоставляемые Active Directory интерфейсами службы (ADSI). Дополнительные сведения об интерфейсах безопасности ADSI см. [в разделе как работает управление доступом в Active Directory](/windows/desktop/AD/how-access-control-works-in-active-directory-domain-services).
 
  
 

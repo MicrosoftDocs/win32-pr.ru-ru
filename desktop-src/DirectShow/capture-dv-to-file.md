@@ -4,19 +4,19 @@ ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: Записать DV в файл
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 713e49eba3016b353362c541ba31ffd6a1ae5de7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d886b964502d705f5902c17de8e6e008a11a31699de40b3089033867873fa021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814344"
 ---
 # <a name="capture-dv-to-file"></a>Записать DV в файл
 
 В этом разделе описывается запись цифрового видео (DV) с цифровой камеры или с ленты Втр.
 
 1.  Создайте экземпляр фильтра [драйвера мсдв](msdv-driver.md) . Дополнительные сведения см. [в разделе Выбор устройства записи](selecting-a-capture-device.md).
-2.  Инициализируйте построитель диаграмм записи, как описано в разделе [о построителе диаграмм записи](about-the-capture-graph-builder.md).
+2.  инициализируйте построитель Graph записи, как описано в разделе [о построителе Graph отслеживания](about-the-capture-graph-builder.md).
 3.  Создайте граф записи в зависимости от типа целевого файла:
     -   [Запись файла DV типа 1](capture-a-type-1-dv-file.md)
     -   [Запись файла DV типа 2](capture-a-type-2-dv-file.md)
@@ -30,7 +30,7 @@ ms.locfileid: "104341915"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

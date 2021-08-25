@@ -3,7 +3,7 @@ title: Сообщение MCM_SIZERECTTOMIN (Коммктрл. h)
 description: Вычисляет, сколько календарей помещается в данном прямоугольнике, а затем возвращает минимальный размер, который прямоугольник должен соответствовать этому количеству календарей. Это сообщение можно отправить явным образом или с помощью \_ макроса монскал сизеректтомин.
 ms.assetid: d52a7f68-e0c9-4646-a4aa-97129dffeb5d
 keywords:
-- Элементы управления Windows для MCM_SIZERECTTOMIN сообщений
+- элементы управления Windows сообщений MCM_SIZERECTTOMIN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f525f4cca9280b92fab0b9b86aa1d950ed990ef4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 547b8e401f270cbca1ff666ba0f1eb263ab3f9245f8a51e6874a7627597b9bfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799234"
 ---
 # <a name="mcm_sizerecttomin-message"></a>\_Сообщение MCM сизеректтомин
 
@@ -53,9 +53,9 @@ ms.locfileid: "104137434"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e3e8b35d-9d18-4611-a898-72ca13e40d33
 title: SECURITY_INFORMATION (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaad4b9f61a20b26397081433b88782dcbc33f8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35eda92db81cc2325dcc2eb084c06aa5ac7ca92475cca92d8221e394af9704c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907204"
 ---
 # <a name="security_information"></a>\_сведения о безопасности
 
@@ -27,7 +27,7 @@ typedef DWORD SECURITY_INFORMATION, *PSECURITY_INFORMATION;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Некоторые **элементы \_ сведений о безопасности** работают только с функцией [**сетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-setnamedsecurityinfoa) . Эти члены не возвращаются в структуре, возвращаемой другими функциями безопасности, такими как [**жетнамедсекуритинфо**](/windows/desktop/api/Aclapi/nf-aclapi-getnamedsecurityinfoa) или [**конвертстрингсекуритидескриптортосекуритидескриптор**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
@@ -54,19 +54,19 @@ typedef DWORD SECURITY_INFORMATION, *PSECURITY_INFORMATION;
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Файл Winnt. h (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>Winnt. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

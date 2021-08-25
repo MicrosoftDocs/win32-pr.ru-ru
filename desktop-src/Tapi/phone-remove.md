@@ -4,12 +4,12 @@ ms.assetid: 7c888976-65da-477a-b5a6-6e78d5f603b1
 title: Сообщение PHONE_REMOVE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab32ba8b8a8e003c5d87109dd2d0c9dbe98c236
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a26be60c55b16d0126d0b3be107a95af17dd490c9329343bb27ac6496403d46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773904"
 ---
 # <a name="phone_remove-message"></a>\_Сообщение для удаления телефона
 
@@ -65,7 +65,7 @@ ms.locfileid: "105688822"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения TAPI версии 2,0 или более поздней отправляют сообщение об **\_ удалении телефона** . Это информирует, что устройство было удалено из системы. Сообщение **об \_ удалении телефона** предшествует сообщению о [**\_ закрытии**](phone-close.md) телефона для каждого телефонного маркера, если в приложении открыт телефон. Это сообщение отправляется во все приложения, поддерживающие TAPI версии 2,0 или более поздней, которые назывались [**фонеинитиализикс**](/windows/desktop/api/Tapi/nf-tapi-phoneinitializeexa), включая те, которые не имеют открытых телефонных устройств в данный момент.
 
@@ -78,18 +78,18 @@ ms.locfileid: "105688822"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

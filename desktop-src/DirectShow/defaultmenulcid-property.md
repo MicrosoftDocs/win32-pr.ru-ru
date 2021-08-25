@@ -4,17 +4,17 @@ ms.assetid: 49e64b89-5914-4797-8aa6-2e3f253e494a
 title: ДефаултменулЦид, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 907fbef0d04306b5ddc4f9a59749c96573d05bb8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 939f65ad41cb184f38e2a30392030ca67066fe203f7952441cc2f77b1db95242
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906894"
 ---
 # <a name="defaultmenulcid-property"></a>ДефаултменулЦид, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "104140435"
 
 Возвращает целочисленное значение, представляющее код языка, сохраненный в параметрах реестра для приложения DVD. Это значение не обязательно совпадает с языком меню по умолчанию, созданным на DVD-диске. Диапазон допустимых кодов языка см. в документации по Win32 в пакете Platform SDK.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи и не имеет значения по умолчанию. Если не указан LCID меню по умолчанию, объект Мсдвдадм будет использовать язык, помеченный как язык меню по умолчанию на диске.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

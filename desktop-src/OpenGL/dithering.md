@@ -7,20 +7,20 @@ keywords:
 - смешение OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 014fb027c2b6b4e2b92200d4be8162e68d6645d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18a9367f8927c38b84e0098420e71b98e196bd5cd9dfd9dd2f82c54bafa78a47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889044"
 ---
 # <a name="dithering"></a>Сглаживания
 
 Если включен дизеринг, то к значению цвета или цветового индекса фрагмента применяется алгоритм сглаживания. Этот алгоритм зависит только от значения фрагмента и координат окна x и y.
 
- 
+ 
 
- 
+ 
 
 
 

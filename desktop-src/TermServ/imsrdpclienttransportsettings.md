@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec240d008ef2f9469fb67f4041cfb33c08383079
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: edd2cbcdaba0a4324c4501339e972f8bb967f64716d1688cef7c3c38bb22b5b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771454"
 ---
 # <a name="imsrdpclienttransportsettings-interface"></a>Интерфейс Имсрдпклиенттранспортсеттингс
 
@@ -33,7 +33,7 @@ ms.locfileid: "105684841"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **имсрдпклиенттранспортсеттингс** имеет следующие свойства.
 

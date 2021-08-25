@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 6a5609192162ae0b0c0e2af8f1b84429d8710509
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1f4f5ddeace0144f6314ee7eae8a640e489d99c43f4e21f6e6c260fd003dd0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874034"
 ---
 # <a name="id2d1rendertargetpushlayer-methods"></a>ID2D1RenderTarget: методы:P Ушлайер
 
@@ -34,7 +34,7 @@ ms.locfileid: "105689466"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**пушлайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) позволяет вызывающему объекту начать перенаправление отрисовки на слой. Все операции отрисовки допустимы в слое. На расположение слоя влияет набор универсальных преобразований для целевого объекта прорисовки.
 
@@ -91,19 +91,19 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl>                   |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl>                   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

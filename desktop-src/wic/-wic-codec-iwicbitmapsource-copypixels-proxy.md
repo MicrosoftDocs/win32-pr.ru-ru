@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 5c759bd1731e2f3cbc4da9c40cb590e0f39686de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9c847680a93cb245b0e5d4247cb60b82629ea82eba12313dbcff7303dcce707
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772344"
 ---
 # <a name="iwicbitmapsource_copypixels_proxy-function"></a>IWICBitmapSource \_ CopyPixels \_ -функция
 
@@ -47,22 +47,22 @@ HRESULT IWICBitmapSource_CopyPixels_Proxy(
 *Этот \_* \[ Вход в\]
 </dt> <dd>
 
-Тип: **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Тип: **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
-Указатель на этот объект [_ *IWICBitmapSource* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) .
+Указатель на этот объект [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) .
 
 </dd> <dt>
 
 *КНР* \[ окне\]
 </dt> <dd>
 
-Тип: **const [**викрект**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \** _
+Тип: **const [**викрект**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \***
 
 Копируемый прямоугольник. Значение NULL указывает всю битовую карту.
 
 </dd> <dt>
 
-_cbStride * \[ в\]
+*кбстриде* \[ окне\]
 </dt> <dd>
 
 Тип: **uint**
@@ -83,7 +83,7 @@ _cbStride * \[ в\]
 *пббуффер* \[ заполняет\]
 </dt> <dd>
 
-Тип: **Byte \** _
+Тип: **Byte \***
 
 Указатель на буфер.
 
@@ -91,7 +91,7 @@ _cbStride * \[ в\]
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
@@ -103,8 +103,8 @@ _cbStride * \[ в\]
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

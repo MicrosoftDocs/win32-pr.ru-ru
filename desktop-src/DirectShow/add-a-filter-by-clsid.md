@@ -4,12 +4,12 @@ ms.assetid: b15cf324-5b9b-41da-a8cf-87071aaf3b60
 title: Добавление фильтра по CLSID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f880ab1cb3b88fbe6d889acdd192bba341ce2acf
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ed8306613e5a73ad863b3c16b04529e3e0def12b76fb4e27685db9cb442b6c80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873434"
 ---
 # <a name="add-a-filter-by-clsid"></a>Добавление фильтра по CLSID
 
@@ -76,7 +76,7 @@ if (SUCCEEDED(hr))
 
 Обратите внимание, что некоторые фильтры не могут быть созданы с помощью [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance). Это часто случается с фильтрами, которые управляют другими программными компонентами. Например, фильтр [AVI компрессор](avi-compressor-filter.md) — это оболочка для видеокодеков, а фильтр [записи видео WDM](wdm-video-capture-filter.md) — оболочка для драйверов записи WDM. Эти фильтры должны быть созданы с помощью [перечислителя системных устройств](system-device-enumerator.md) или модуля [сопоставления фильтров](filter-mapper.md). Дополнительные сведения см. в разделе [Перечисление устройств и фильтров](enumerating-devices-and-filters.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

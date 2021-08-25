@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d7e6d59f1c4cbffcde74ecb7b5adb5b12eff06bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ce76db0608ccd79ecd8ea1be716f8cbdf4313f95bfdda9cfac7b63474e3f412
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873994"
 ---
 # <a name="id2d1rendertargetpushaxisalignedclip-methods"></a>ID2D1RenderTarget: методы:P Ушаксисалигнедклип
 
@@ -34,7 +34,7 @@ ms.locfileid: "105680020"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пара [**пушаксисалигнедклип**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)) и [**попаксисалигнедклип**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip) может возникать или внутри [**пушлайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) и [**поплайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer), но не может перекрываться. Например, последовательность **пушаксисалигнедклип**, [**пушлайер**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)), **поплайер**, **Попаксисалигнедклип** является допустимой, но последовательность **пушаксисалигнедклип**, **пушлайер**, **PopAxisAlignedClip**, **PopLayer** недопустима.
 
@@ -50,7 +50,7 @@ ms.locfileid: "105680020"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl>                   |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl>                   |
 

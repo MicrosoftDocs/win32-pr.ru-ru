@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: aedb834bdfd26ce4b348a41b4046c0c4e2c7e260
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c28f8357edd88322f6f4498fd1e5b7156eeeff0b67d53b4d759c6935f4e9f9eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906314"
 ---
 # <a name="isautounlockkeystored-method-of-the-win32_encryptablevolume-class"></a>Метод Исаутаунлокккэйсторед \_ класса Win32 енкриптаблеволуме
 
@@ -66,7 +66,7 @@ uint32 IsAutoUnlockKeyStored(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте [**клеараллаутаунлокккэйс**](clearallautounlockkeys-win32-encryptablevolume.md) , чтобы удалить все сведения об отблокировке из текущего тома операционной системы.
 
@@ -74,22 +74,22 @@ uint32 IsAutoUnlockKeyStored(
 
 **Исаутаунлокккэйсторед** отличается от [**исаутаунлоккенаблед**](isautounlockenabled-win32-encryptablevolume.md) в том, что, даже если автоматическая разблокировка отключена для всех томов данных, подключенных к компьютеру в настоящее время, возможно, все равно могут быть разблокированы сведения, связанные с отключенными томами данных или томами данных, которые больше не существуют.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе Windows SDK. Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](../wmisdk/managed-object-format--mof-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Enterprise, \[ только для настольных приложений Windows Vista Ultimate\]<br/>                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows vista Enterprise, \[ только для настольных приложений Windows vista Ultimate\]<br/>                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                    |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ безопасности \\ микрософтволуминкриптион<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ енкриптаблеволуме. mof</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

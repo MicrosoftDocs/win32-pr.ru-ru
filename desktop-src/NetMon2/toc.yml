@@ -35,7 +35,7 @@
               href: local-only-and-promiscuous-modes.md
         - name: Эксперты
           href: experts.md
-        - name: Анализаторы
+        - name: Средства синтаксического анализа
           href: parsers.md
           items:
             - name: Архитектура библиотеки DLL средства синтаксического анализа
@@ -524,7 +524,7 @@
               items:
                 - name: Метод Configure
                   href: idelaydc-configure.md
-                - name: Метод Connect
+                - name: Подключение Method
                   href: idelaydc-connect.md
                 - name: Метод Disconnect
                   href: idelaydc-disconnect.md
@@ -551,7 +551,7 @@
               items:
                 - name: Метод Configure
                   href: iesp-configure.md
-                - name: Метод Connect
+                - name: Подключение Method
                   href: iesp-connect.md
                 - name: Метод Disconnect
                   href: iesp-disconnect.md
@@ -574,7 +574,7 @@
               items:
                 - name: Метод Configure
                   href: irtc-configure.md
-                - name: Метод Connect
+                - name: Подключение Method
                   href: irtc-connect.md
                 - name: Метод Disconnect
                   href: irtc-disconnect.md
@@ -601,7 +601,7 @@
               items:
                 - name: Метод Configure
                   href: istats-configure.md
-                - name: Метод Connect
+                - name: Подключение Method
                   href: istats-connect.md
                 - name: Метод Disconnect
                   href: istats-disconnect.md

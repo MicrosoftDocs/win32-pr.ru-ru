@@ -4,18 +4,18 @@ ms.assetid: 1c34faa0-936a-433a-9280-a94033f3f815
 title: Доверенные лица
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90084a0b6bfc7f63db12b7f47eba335adc87239a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4e79bc49a4ffc93c87b040327a2c7626bc7d816e060cf4bfcd42a6bcab0d024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906964"
 ---
 # <a name="trustees"></a>Доверенные лица
 
 Доверенное лицо — это учетная запись пользователя, учетная запись группы или [*сеанс входа в систему*](/windows/desktop/SecGloss/l-gly) , к которым применяется [*запись управления доступом*](/windows/desktop/SecGloss/a-gly) (ACE). Каждый элемент ACE в [*списке управления доступом*](/windows/desktop/SecGloss/a-gly) (ACL) имеет один [*идентификатор безопасности*](/windows/desktop/SecGloss/s-gly) (SID), определяющий доверенное лицо.
 
-Учетные записи пользователей включают учетные записи, которые пользователи или программы, такие как службы Windows, используют для входа на локальный компьютер.
+учетные записи пользователей включают учетные записи, которые пользователи или программы, такие как Windows Services, используют для входа на локальный компьютер.
 
 Учетные записи групп нельзя использовать для входа на компьютер, но они полезны в ACE, чтобы разрешить или запретить набор прав доступа для одной или нескольких учетных записей пользователей.
 

@@ -4,16 +4,16 @@ description: Показывает, как загрузить точечный р
 ms.assetid: 4abfbc2b-2730-4d96-897e-1e2232383a72
 ms.topic: article
 ms.date: 03/09/2019
-ms.openlocfilehash: c9590e799e71e92056157b75573565cf79b9236b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a330f0e32ee4abf62eb7df1c1d6a00b3f217e6f04502cebae6c489aa01eaaa9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824564"
 ---
 # <a name="how-to-load-a-bitmap-from-a-file"></a>Как загрузить точечный рисунок из файла
 
-Direct2D использует компонент Windows Imaging Component (WIC) для загрузки растровых изображений. Чтобы загрузить точечный рисунок из файла, сначала используйте объекты WIC для загрузки изображения и преобразования его в формат, совместимый с Direct2D, а затем используйте метод [**креатебитмапфромвикбитмап**](id2d1rendertarget-createbitmapfromwicbitmap.md) для создания [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
+Direct2D использует компонент обработки изображений Windows (WIC) для загрузки растровых изображений. Чтобы загрузить точечный рисунок из файла, сначала используйте объекты WIC для загрузки изображения и преобразования его в формат, совместимый с Direct2D, а затем используйте метод [**креатебитмапфромвикбитмап**](id2d1rendertarget-createbitmapfromwicbitmap.md) для создания [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap).
 
 1.  Создайте [**ивикбитмапдекодер**](/windows/win32/api/wincodec/nn-wincodec-iwicbitmapdecoder) с помощью метода [**IWICImagingFactory:: креатедекодерфромфиленаме**](/windows/win32/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromfilename) .
 
@@ -110,7 +110,7 @@ Direct2D использует компонент Windows Imaging Component (WIC)
 
 В этом примере пропущен некоторый код.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -123,6 +123,6 @@ Direct2D использует компонент Windows Imaging Component (WIC)
 [Как загрузить точечный рисунок из ресурса](how-to-load-a-bitmap-from-a-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

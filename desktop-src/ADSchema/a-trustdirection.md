@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f54feb80079ea4ac8f1b68fee7d223275313b64b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 315a52d7bc8a905915d286cea1985348610858c9ae0674e12cda98cb53978cdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835494"
 ---
 # <a name="trust-direction-attribute"></a>Атрибут Trust-Direction
 
@@ -58,7 +58,7 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
 | В глобальном каталоге      | Неверно                                                |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
@@ -79,9 +79,9 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |
@@ -100,9 +100,9 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |
@@ -121,9 +121,9 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |
@@ -142,9 +142,9 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |
@@ -163,9 +163,9 @@ ms.locfileid: "104493677"
 | Идентификатор ссылки                | \-                                                   |
 | MAPI-Id                | \-                                                   |
 | System-Only            | Неверно                                                |
-| Является однозначным       | True                                                 |
+| Является однозначным       | Верно                                                 |
 | Индексируется             | Неверно                                                |
-| В глобальном каталоге      | True                                                 |
+| В глобальном каталоге      | Верно                                                 |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                         |
 | Range-Lower            | \-                                                   |
 | Range-Upper            | \-                                                   |

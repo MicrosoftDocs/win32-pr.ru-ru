@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: cb87bc9f821e758b83a1bc3dee5d81a4b1b771d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6b965990435dd7b9a1758cc9bf8ac8001c747ae800225a90123da862032ed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890564"
 ---
 # <a name="idelaydc-interface"></a>Интерфейс Иделайдк
 
@@ -52,13 +52,13 @@ ms.locfileid: "105682992"
 | [**QueryStatus**](idelaydc-querystatus.md)                             | Получает состояние НПП.<br/>                                                                                                             |
 | [**Возобновить**](idelaydc-resume.md)                                       | Возобновляет приостановленную запись.<br/>                                                                                                                    |
 | [**Начать**](idelaydc-start.md)                                         | Запускает запись и создает [*файл записи*](c.md).<br/>                                                           |
-| [**Stop**](idelaydc-stop.md)                                           | Останавливает текущую запись и закрывает [*файл записи*](c.md).<br/>                                                   |
+| [**Позиции**](idelaydc-stop.md)                                           | Останавливает текущую запись и закрывает [*файл записи*](c.md).<br/>                                                   |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

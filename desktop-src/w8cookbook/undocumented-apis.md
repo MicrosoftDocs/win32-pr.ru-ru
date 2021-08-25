@@ -4,20 +4,20 @@ description: Недокументированные API
 ms.assetid: BF0F8B77-3617-4AE2-B990-C8D3143E2E48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f028f53366885c0eecdbe7286231c099d3ae989
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e083542f091bf5733fb4c704e9e48b357b1fe4b8494398e893076bc6f863d252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815014"
 ---
 # <a name="undocumented-apis"></a>Недокументированные API
 
 Ваши приложения не должны вызывать недокументированные API-интерфейсы Windows или зависеть от определенных операций экспорта файлов либо разделов реестра Windows. Это может привести к нарушению функциональности, потере данных и потенциальным проблемам безопасности. Если для работы вашего приложения требуется недоступная функция, сообщите об этом по стандартным каналам предоставления обратной связи и через программу предварительной оценки Windows.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 0c4c71ba0e3e0c2d421ad7bcbc9b1a61bb71d284
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f1c754e23977ac9c7af7f4fd3feaade13c928e9522a2285102a095fff4740b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874264"
 ---
 # <a name="envelopeddatadecrypt-method"></a>Енвелопеддата. дешифровки, метод
 
@@ -52,7 +52,7 @@ EnvelopedData.Decrypt( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Расшифрованные данные становятся значением свойства [**содержимого**](envelopeddata-content.md) для объекта [**енвелопеддата**](envelopeddata.md) .
 
@@ -63,7 +63,7 @@ EnvelopedData.Decrypt( _
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ EnvelopedData.Decrypt( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
