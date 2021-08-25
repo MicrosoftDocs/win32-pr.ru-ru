@@ -3,7 +3,7 @@ title: Код уведомления LVN_BEGINSCROLL (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления "представление списка", когда начинается операция прокрутки. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 67123db1-118c-43d7-8511-12a3c4413958
 keywords:
-- LVN_BEGINSCROLL кода уведомления элементы управления Windows
+- LVN_BEGINSCROLL кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae09a05525ac6e9f08d8cc7a0b7de6ef51329baa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e416aee093ed6526d85d81361e2774b963572de73ce84c21105f19d1675968f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915224"
 ---
 # <a name="lvn_beginscroll-notification-code"></a>\_Код уведомления ЛВН бегинскролл
 
@@ -49,22 +49,22 @@ LVN_BEGINSCROLL
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать этот код уведомления, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

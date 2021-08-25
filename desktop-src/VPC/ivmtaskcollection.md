@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ff7a4b12b936f2b5c72a73818eca0f927eef12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 150f5079258e551360f574cfd9fa0a8895d3673f5d6b38ea6a5e1c866cfbf1ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958804"
 ---
 # <a name="ivmtaskcollection-interface"></a>Интерфейс Ивмтаскколлектион
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет коллекцию объектов Task. Чтобы получить объект **ивмтаскколлектион** , используйте свойство [**Ивмвиртуалпк:: Tasks**](ivmvirtualpc-tasks.md) .
 
@@ -34,7 +34,7 @@ ms.locfileid: "104415917"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **ивмтаскколлектион** имеет следующие свойства.
 
@@ -43,29 +43,29 @@ ms.locfileid: "104415917"
 | Свойство                                                   | Тип доступа          | Описание                                                         |
 |:-----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------|
 | [**\_NewEnum**](ivmtaskcollection--newenum.md)<br/> | Только для чтения<br/> | Перечислитель для коллекции.<br/>                        |
-| [**Расчета**](ivmtaskcollection-count.md)<br/>        | Только для чтения<br/> | Число задач в этой коллекции.<br/>                  |
-| [**Элемент**](ivmtaskcollection-item.md)<br/>          | Только для чтения<br/> | Объект Task, соответствующий указанному индексу.<br/> |
+| [**Count**](ivmtaskcollection-count.md)<br/>        | Только для чтения<br/> | Число задач в этой коллекции.<br/>                  |
+| [**Компонент**](ivmtaskcollection-item.md)<br/>          | Только для чтения<br/> | Объект Task, соответствующий указанному индексу.<br/> |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмтаскколлектион определен как 5c4387c8-0e8b-4b97-8058-84679adf4c40<br/>          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

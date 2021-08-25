@@ -3,7 +3,7 @@ title: Сообщение EM_FILELINEINDEX (Коммктрл. h)
 description: Возвращает символьный индекс первого символа указанной строки в многострочном элементе управления Edit, независимо от того, как линии отображаются на экране.
 ms.assetid: vs|controls|~\controls\editcontrols\editcontrolreference\editcontrolmessages\em_lineindex.htm
 keywords:
-- Элементы управления Windows для EM_FILELINEINDEX сообщений
+- элементы управления Windows сообщений EM_FILELINEINDEX
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ce5f5ca07fc9fb9869898965422c7c8a6aa3fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df7c4bd1f21ee6bcdf7bec56828ea9c2996c837def614c0c537ef83ee053ebfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915614"
 ---
 # <a name="em_filelineindex-message-commctrlh"></a>Сообщение EM_FILELINEINDEX (Коммктрл. h)
 
@@ -47,19 +47,19 @@ ms.locfileid: "104136263"
 
 Возвращаемое значение — это индекс символа строки, указанной в параметре *wParam* , независимо от того, как линии отображаются на экране, или-1, если номер строки больше числа строк в элементе управления "поле ввода".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, \[ только классические приложения 1809\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

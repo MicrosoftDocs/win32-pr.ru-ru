@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cc6228f690abd677e1adc8552293e440452ec5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d20c34fb2c32cc588a12ac820cd80083d3c3139fa85cbf36810379a21618e80c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851254"
 ---
 # <a name="cd3dx12_pipeline_state_stream_parse_helper-structure"></a>\_ \_ \_ \_ Вспомогательная структура синтаксического анализа потока состояния конвейера CD3DX12 \_
 
@@ -256,21 +256,21 @@ struct CD3DX12_PIPELINE_STATE_STREAM_PARSE_HELPER  : public ID3DX12PipelineParse
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если передается в качестве второго параметра функции [**D3DX12ParsePipelineStream**](d3dx12parsepipelinestream.md) , сведения о внутреннем объекте [**\_ состояния конвейера CD3DX12 \_ \_ STREAM1**](cd3dx12-pipeline-state-stream1.md) копируются из [**\_ \_ потока состояния конвейера \_ \_ D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) , переданного в качестве первого параметра. Этот процесс проверяет описание исходного потока. Если D3DX12ParsePipelineStream возвращает значение " **\_ ОК**", то как описание исходного потока, так и полученное **CD3DX12 \_ состояние конвейера \_ \_ STREAM1PipelineStream** являются допустимыми; в противном случае оба значения являются недопустимыми. Недопустимые потоки и другие ошибки выводятся только через возвращаемое значение D3DX12ParsePipelineStream; Эта структура реализует обратные вызовы ошибок, чтобы ничего не делать.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

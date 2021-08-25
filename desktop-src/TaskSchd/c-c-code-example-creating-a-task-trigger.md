@@ -4,12 +4,12 @@ description: В этом примере создается новый тригг
 ms.assetid: 94755ec0-4b65-4adb-8074-9a0990e26e3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f7f846992d9d5a149230414a9b954198c06b2e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9fb9fd30dba24ea101c968f1b84e18d7fad584e61c6087a08ac1150c93fdc351
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959644"
 ---
 # <a name="cc-code-example-creating-a-task-trigger"></a>Пример кода C/C++: Создание триггера задачи
 
@@ -170,16 +170,16 @@ int main(int argc, char **argv)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Примеры планировщик задач 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5035cd764c1b3a7eb0943622897d97684ec8bd61
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f7eca611161e049b3704a37cec5b9324df6348e30fb457d0053c4cbb4085ca3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914334"
 ---
 # <a name="udpip_v1-class"></a>\_Класс удпип v1
 
@@ -42,14 +42,14 @@ class UdpIp_V1 : MSNT_SystemTrace
 
 **Windows Server 2003:** Содержит квалификатор класса Евентверсион (1).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

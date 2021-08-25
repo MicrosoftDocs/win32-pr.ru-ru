@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: 669ec840a3122172147840052bd1dbf5c940569d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c75b2a691bfe9fcbda453fd49a29fcfd2ff640346f0e3c13a34418995439f4df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957854"
 ---
 # <a name="imfdxgidevicemanagersource-interface"></a>Интерфейс Имфдксгидевицеманажерсаурце
 
@@ -50,8 +50,8 @@ ms.locfileid: "103811044"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                       |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                       |
 | IDL<br/>                      | <dl> <dt>Мфидл. idl</dt> </dl> |
 
 

@@ -4,17 +4,17 @@ ms.assetid: ede19f02-6eda-42da-a108-06d78dc2e8a9
 title: Метод Плайчаптерсаутостоп
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f542f890a54c755c9ea041c46f7cef3b4b7fd9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58c518496f81f4ca4e662bf8dbc821f2378cd38d27c7546356144910c0c5ba72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830744"
 ---
 # <a name="playchaptersautostop-method"></a>Метод Плайчаптерсаутостоп
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -53,7 +53,7 @@ MSWebDVD.PlayChaptersAutoStop(iTitle, iChapter, iChapterCount)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При воспроизведении последней главы этот метод приводит к тому, что в приложение отправляется уведомление о событии [**\_ \_ \_ автозавершения в разделе с DVD-диска EC**](ec-dvd-chapter-autostop.md) .
 

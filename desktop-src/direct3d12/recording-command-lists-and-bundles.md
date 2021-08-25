@@ -5,12 +5,12 @@ ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ef2b54138cf3a08b85e3e8cc31f97cbe66abf6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 480819cbd421b30cbf54a58578c02056d37d7e36bf2ead845c19e438df54cbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104549003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850719"
 ---
 # <a name="creating-and-recording-command-lists-and-bundles"></a>Создание и запись списков команд и пакетов
 
@@ -212,7 +212,7 @@ void D3D12HelloTriangle::LoadAssets()
 -   Любой метод создания ресурсов
 -   [**ID3D12Resource:: Map**](/windows/win32/api/d3d12/nf-d3d12-id3d12resource-map)
 -   [**IDXGISwapChain1::Present1**](/windows/win32/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1)
--   [**жетдевицеремоведреасон**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
+-   [**GetDeviceRemovedReason**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdeviceremovedreason)
 
 ## <a name="command-list-api-restrictions"></a>Ограничения API списка команд
 
@@ -220,71 +220,71 @@ void D3D12HelloTriangle::LoadAssets()
 
 | Имя API                                         | Графика | Вычисления | Копировать | Bundle | В ходе подготовки к просмотру |
 |--------------------------------------------------|:--------:|:-------:|:----:|:------:|:--------------:|
-| атомиккопибуфферуинт                             | ✓        | ✓       | ✓    |        |                |
+| AtomicCopyBufferUINT                             | ✓        | ✓       | ✓    |        |                |
 | AtomicCopyBufferUINT64                           | ✓        | ✓       | ✓    |        |                |
-| бегинкуери                                       | ✓        |         |      |        | ✓              |
-| бегинрендерпасс                                  | ✓        |         |      |        |                |
-| буилдрайтраЦингакцелератионструктуре             | ✓        | ✓       |      |        |                |
+| BeginQuery                                       | ✓        |         |      |        | ✓              |
+| BeginRenderPass                                  | ✓        |         |      |        |                |
+| BuildRaytracingAccelerationStructure             | ✓        | ✓       |      |        |                |
 | ClearDepthStencilView                            | ✓        |         |      |        |                |
 | ClearRenderTargetView                            | ✓        |         |      |        |                |
-| клеарстате                                       | ✓        | ✓       |      |        |                |
-| клеарунордередакцессвиевфлоат                    | ✓        | ✓       |      |        |                |
-| клеарунордередакцессвиевуинт                     | ✓        | ✓       |      |        |                |
-| копибуфферрегион                                 | ✓        | ✓       | ✓    |        |                |
-| копирайтраЦингакцелератионструктуре              | ✓        | ✓       |      |        |                |
-| копиресаурце                                     | ✓        | ✓       | ✓    |        |                |
-| копитекстуререгион                                | ✓        | ✓       | ✓    |        |                |
-| копитилес                                        | ✓        | ✓       | ✓    |        |                |
-| дискардресаурце                                  | ✓        | ✓       |      |        |                |
+| ClearState                                       | ✓        | ✓       |      |        |                |
+| ClearUnorderedAccessViewFloat                    | ✓        | ✓       |      |        |                |
+| ClearUnorderedAccessViewUint                     | ✓        | ✓       |      |        |                |
+| CopyBufferRegion                                 | ✓        | ✓       | ✓    |        |                |
+| CopyRaytracingAccelerationStructure              | ✓        | ✓       |      |        |                |
+| CopyResource                                     | ✓        | ✓       | ✓    |        |                |
+| CopyTextureRegion                                | ✓        | ✓       | ✓    |        |                |
+| CopyTiles                                        | ✓        | ✓       | ✓    |        |                |
+| DiscardResource                                  | ✓        | ✓       |      |        |                |
 | Dispatch                                         | ✓        | ✓       |      | ✓      |                |
-| диспатчрайс                                     | ✓        | ✓       |      | ✓      |                |
-| дравиндексединстанцед                             | ✓        |         |      | ✓      | ✓              |
-| дравинстанцед                                    | ✓        |         |      | ✓      | ✓              |
-| емитрайтраЦингакцелератионструктурепостбуилдинфо | ✓        | ✓       |      |        |                |
-| ендкуери                                         | ✓        | ✓       | ✓    |        | ✓              |
-| ендрендерпасс                                    | ✓        |         |      |        | ✓              |
-| ексекутебундле                                    | ✓        |         |      |        | ✓              |
-| ексекутеиндирект                                  | ✓        | ✓       |      | ✓      | ✓              |
-| ексекутеметакомманд                               | ✓        | ✓       |      |        |                |
-| иасетиндексбуффер                                 | ✓        |         |      | ✓      | ✓              |
-| иасетпримитиветопологи                           | ✓        |         |      | ✓      | ✓              |
-| иасетвертексбуфферс                               | ✓        |         |      | ✓      | ✓              |
-| инитиализеметакомманд                            | ✓        | ✓       |      |        |                |
-| омсетблендфактор                                 | ✓        |         |      | ✓      | ✓              |
-| омсетдепсбаундс                                 | ✓        |         |      | ✓      | ✓              |
-| омсетрендертаржетс                               | ✓        |         |      |        |                |
-| омсетстенЦилреф                                  | ✓        |         |      | ✓      | ✓              |
-| ресолвекуеридата                                 | ✓        | ✓       | ✓    |        |                |
-| ресолвесубресаурце                               | ✓        |         |      |        |                |
-| ресолвесубресаурцерегион                         | ✓        |         |      |        |                |
-| ресаурцебарриер                                  | ✓        | ✓       | ✓    |        | ✓              |
-| рссетсЦиссорректс                                | ✓        |         |      |        | ✓              |
-| рссетшадинграте                                 | ✓        |         |      | ✓      | ✓              |
-| рссетшадингратеимаже                            | ✓        |         |      | ✓      | ✓              |
-| рссетвиевпортс                                   | ✓        |         |      |        | ✓              |
+| DispatchRays                                     | ✓        | ✓       |      | ✓      |                |
+| DrawIndexedInstanced                             | ✓        |         |      | ✓      | ✓              |
+| DrawInstanced                                    | ✓        |         |      | ✓      | ✓              |
+| EmitRaytracingAccelerationStructurePostbuildInfo | ✓        | ✓       |      |        |                |
+| EndQuery                                         | ✓        | ✓       | ✓    |        | ✓              |
+| EndRenderPass                                    | ✓        |         |      |        | ✓              |
+| ExecuteBundle                                    | ✓        |         |      |        | ✓              |
+| ExecuteIndirect                                  | ✓        | ✓       |      | ✓      | ✓              |
+| ExecuteMetaCommand                               | ✓        | ✓       |      |        |                |
+| IASetIndexBuffer                                 | ✓        |         |      | ✓      | ✓              |
+| IASetPrimitiveTopology                           | ✓        |         |      | ✓      | ✓              |
+| IASetVertexBuffers                               | ✓        |         |      | ✓      | ✓              |
+| InitializeMetaCommand                            | ✓        | ✓       |      |        |                |
+| OMSetBlendFactor                                 | ✓        |         |      | ✓      | ✓              |
+| OMSetDepthBounds                                 | ✓        |         |      | ✓      | ✓              |
+| OMSetRenderTargets                               | ✓        |         |      |        |                |
+| OMSetStencilRef                                  | ✓        |         |      | ✓      | ✓              |
+| ResolveQueryData                                 | ✓        | ✓       | ✓    |        |                |
+| ResolveSubresource                               | ✓        |         |      |        |                |
+| ResolveSubresourceRegion                         | ✓        |         |      |        |                |
+| ResourceBarrier                                  | ✓        | ✓       | ✓    |        | ✓              |
+| RSSetScissorRects                                | ✓        |         |      |        | ✓              |
+| RSSetShadingRate                                 | ✓        |         |      | ✓      | ✓              |
+| RSSetShadingRateImage                            | ✓        |         |      | ✓      | ✓              |
+| RSSetViewports                                   | ✓        |         |      |        | ✓              |
 | SetComputeRoot32BitConstant                      | ✓        | ✓       |      | ✓      | ✓              |
 | SetComputeRoot32BitConstants                     | ✓        | ✓       |      | ✓      | ✓              |
-| сеткомпутерутконстантбуффервиев                 | ✓        | ✓       |      | ✓      | ✓              |
-| сеткомпутерутдескриптортабле                    | ✓        | ✓       |      | ✓      | ✓              |
-| сеткомпутерутшадерресаурцевиев                 | ✓        | ✓       |      | ✓      | ✓              |
-| сеткомпутерутсигнатуре                          | ✓        | ✓       |      | ✓      | ✓              |
-| сеткомпутерутунордередакцессвиев                | ✓        | ✓       |      | ✓      | ✓              |
-| сетдескрипторхеапс                               | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootConstantBufferView                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootDescriptorTable                    | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootShaderResourceView                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootSignature                          | ✓        | ✓       |      | ✓      | ✓              |
+| SetComputeRootUnorderedAccessView                | ✓        | ✓       |      | ✓      | ✓              |
+| SetDescriptorHeaps                               | ✓        | ✓       |      | ✓      | ✓              |
 | SetGraphicsRoot32BitConstant                     | ✓        |         |      | ✓      | ✓              |
 | SetGraphicsRoot32BitConstants                    | ✓        |         |      | ✓      | ✓              |
-| сетграфиксрутконстантбуффервиев                | ✓        |         |      | ✓      | ✓              |
-| сетграфиксрутдескриптортабле                   | ✓        |         |      | ✓      | ✓              |
-| сетграфиксрутшадерресаурцевиев                | ✓        |         |      | ✓      | ✓              |
-| сетграфиксрутсигнатуре                         | ✓        |         |      | ✓      | ✓              |
-| сетграфиксрутунордередакцессвиев               | ✓        |         |      | ✓      | ✓              |
-| сетпипелинестате                                 | ✓        | ✓       |      | ✓      | ✓              |
+| SetGraphicsRootConstantBufferView                | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootDescriptorTable                   | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootShaderResourceView                | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootSignature                         | ✓        |         |      | ✓      | ✓              |
+| SetGraphicsRootUnorderedAccessView               | ✓        |         |      | ✓      | ✓              |
+| SetPipelineState                                 | ✓        | ✓       |      | ✓      | ✓              |
 | SetPipelineState1                                | ✓        | ✓       |      | ✓      |                |
-| сетпредикатион                                   | ✓        | ✓       |      |        | ✓              |
-| сетпротектедресаурцесессион                      | ✓        | ✓       | ✓    |        |                |
-| сетсамплепоситионс                               | ✓        |         |      | ✓      | ✓              |
-| сетвиевинстанцемаск                              | ✓        |         |      | ✓      | ✓              |
-| сосеттаржетс                                     | ✓        |         |      |        | ✓              |
-| вритебуффериммедиате                             | ✓        | ✓       | ✓    | ✓      | ✓              |
+| SetPredication                                   | ✓        | ✓       |      |        | ✓              |
+| SetProtectedResourceSession                      | ✓        | ✓       | ✓    |        |                |
+| SetSamplePositions                               | ✓        |         |      | ✓      | ✓              |
+| SetViewInstanceMask                              | ✓        |         |      | ✓      | ✓              |
+| SOSetTargets                                     | ✓        |         |      |        | ✓              |
+| WriteBufferImmediate                             | ✓        | ✓       | ✓    | ✓      | ✓              |
 
 ## <a name="bundle-restrictions"></a>Ограничения пакета
 
@@ -294,17 +294,17 @@ void D3D12HelloTriangle::LoadAssets()
 
 -   Любой метод Clear
 -   Любой метод Copy
--   [**дискардресаурце**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource)
--   [**ексекутебундле**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle)
--   [**ресаурцебарриер**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
--   [**ресолвесубресаурце**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource)
--   [**сетпредикатион**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)
--   [**бегинкуери**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery)
--   [**ендкуери**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)
--   [**сосеттаржетс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)
--   [**омсетрендертаржетс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)
--   [**рссетвиевпортс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports)
--   [**рссетсЦиссорректс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects)
+-   [**DiscardResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource)
+-   [**ExecuteBundle**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executebundle)
+-   [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
+-   [**ResolveSubresource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource)
+-   [**SetPredication**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)
+-   [**BeginQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-beginquery)
+-   [**EndQuery**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-endquery)
+-   [**SOSetTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-sosettargets)
+-   [**OMSetRenderTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)
+-   [**RSSetViewports**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetviewports)
+-   [**RSSetScissorRects**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-rssetscissorrects)
 
 [**Сетдескрипторхеапс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps) можно вызывать для пакета, но кучи дескрипторов наборов должны соответствовать куче дескрипторов списка команд.
 
@@ -312,4 +312,4 @@ void D3D12HelloTriangle::LoadAssets()
 
 ## <a name="related-topics"></a>Связанные темы
 
-[Отправка рабочих заданий в Direct3D 12](command-queues-and-command-lists.md)
+[Отправка работы в Direct3D 12](command-queues-and-command-lists.md)

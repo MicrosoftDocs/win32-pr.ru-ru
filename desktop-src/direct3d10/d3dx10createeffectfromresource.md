@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 6c5f7b7805e126f02c2658ddce6ec5029978de53
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a94fd466194de6942fb2dee2968d738513743b043b18310ffabaf80fe73fc76a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852344"
 ---
 # <a name="d3dx10createeffectfromresource-function"></a>Функция D3DX10CreateEffectFromResource
 
@@ -190,7 +190,7 @@ HRESULT D3DX10CreateEffectFromResource(
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
 
 
 

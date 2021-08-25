@@ -4,16 +4,16 @@ description: Входные сообщения клавиатуры
 ms.assetid: 46ce35e1-c126-4f2d-9b32-3b70341101f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5b3027d7654032298d9ca0fb6438d2e25460b9f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0ecdd2be247290f5f64837aac63a103aa2d9b31b91b0f1dffdf3be79136616d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830004"
 ---
 # <a name="keyboard-input-messages"></a>Входные сообщения клавиатуры
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**\_сочетание клавиш WM**](wm-gethotkey.md)
 -   [**WM \_ сесоткэй**](wm-sethotkey.md)

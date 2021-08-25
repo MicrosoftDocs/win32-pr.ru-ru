@@ -4,12 +4,12 @@ ms.assetid: 5d452b24-ae04-4c45-8b3b-48e81f13a21e
 title: Таблица MIME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca11c8596e8f3735872c88668211953fc2b18b52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9e8a8f83499e286b63bf24dffa8858329231e74eec1f641588230da51578007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913374"
 ---
 # <a name="mime-table"></a>Таблица MIME
 
@@ -21,9 +21,9 @@ ms.locfileid: "104265825"
 
 | Столбец      | Type             | Ключ | Допускает значения NULL |
 |-------------|------------------|-----|----------|
-| ContentType | [Text](text.md) | Да   | Нет        |
+| ContentType | [Text](text.md) | Д   | Нет        |
 | Расширение\_ | [Text](text.md) | Нет   | Нет        |
-| CLSID       | [GUID](guid.md) | Нет   | Да        |
+| CLSID       | [GUID](guid.md) | Нет   | Д        |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104265825"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта таблица упоминается при выполнении [действия регистермимеинфо](registermimeinfo-action.md) или [унрегистермимеинфо](unregistermimeinfo-action.md) . В режиме объявления действие Регистермимеинфо регистрирует все сведения MIME для серверов из таблицы MIME, для которой включена соответствующая функция. В противном случае действие регистрирует информацию MIME для серверов из таблицы MIME, для которой в данный момент выбрана соответствующая функция. [Действие унрегистермимеинфо](unregistermimeinfo-action.md) отменяет регистрацию в системе сведений о реестре, связанных с MIME. Действие отменяет регистрацию сведений MIME для серверов из таблицы MIME, для которой в данный момент выбрана соответствующая функция для удаления.
 

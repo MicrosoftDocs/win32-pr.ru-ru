@@ -3,7 +3,7 @@ title: Сообщение TTM_SETMARGIN (Коммктрл. h)
 description: Задает верхнее, левое, нижнее и правое поля для окна подсказки. Поле — это расстояние (в пикселях) между границей окна подсказки и текстом, содержащимся в окне подсказки.
 ms.assetid: f1663861-c217-42dd-8249-7647b1651910
 keywords:
-- Элементы управления Windows для TTM_SETMARGIN сообщений
+- элементы управления Windows сообщений TTM_SETMARGIN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ed46bf40833a3046d15386782897eb6b573b29c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 04e5792b33f7f9f5a997759ba390c1b8a713308f95c4ba3f7b5cd0460747ff62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914064"
 ---
 # <a name="ttm_setmargin-message"></a>\_Сообщение ТТМ сетмаргин
 
@@ -56,23 +56,23 @@ ms.locfileid: "105654499"
 
 Возвращаемое значение для этого сообщения не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это сообщение не действует, если приложение работает в Windows Vista и для подсказки включены визуальные стили. Вы можете отключить визуальные стили для подсказки с помощью [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme).
+это сообщение не действует, если приложение работает в Windows Vista, а для подсказок включены стили оформления. Вы можете отключить визуальные стили для подсказки с помощью [**SetWindowTheme**](/windows/desktop/api/Uxtheme/nf-uxtheme-setwindowtheme).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
