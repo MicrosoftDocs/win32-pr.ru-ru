@@ -4,12 +4,12 @@ ms.assetid: f77aac4a-7fbf-4149-a1c4-ee4c58d37222
 title: Методы Баундингфрустум
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94f5c4b7dfe7da243a61970853a241187df40e12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f21e02677ae08b20d509cab8e319d7fe968af9c8ce90d5208ae63495f5cff8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117714"
 ---
 # <a name="boundingfrustum-methods"></a>Методы Баундингфрустум
 
@@ -30,7 +30,7 @@ ms.locfileid: "105711543"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

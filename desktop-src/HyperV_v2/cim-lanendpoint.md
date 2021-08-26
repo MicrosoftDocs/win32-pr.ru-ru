@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c924d175cb48e53346daff59a6317a4a0f241f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e42f5edcc7010b9a84fdaaf3686208c9f82def03493c4c423aa3815b1d0758e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046814"
 ---
 # <a name="cim_lanendpoint-class"></a>\_Класс CIM ланендпоинт
 
@@ -53,7 +53,7 @@ class CIM_LANEndpoint : CIM_ProtocolEndpoint
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ланендпоинт** имеет следующие свойства.
 
@@ -218,7 +218,7 @@ MAC-адрес должен быть отформатирован со след�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -232,7 +232,7 @@ MAC-адрес должен быть отформатирован со след�
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Объявите секционирование тесселяци�
 ms.assetid: 6EA00C6B-A0DE-4CE4-8B52-1337CA92CA5E
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c6f6091301f95dd2364debec2bf54c0966c0e64
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ae40873db4042e568ae637634e75db6f4746985a316bf9c1e092e6b0925b51b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068504"
 ---
 # <a name="dcl_tessellator_partitioning-sm5---asm"></a>\_секционирование тесселяции дкл \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104412231"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 С точки зрения оборудования \_ pow2 ведет себя так же, как и \_ целое число. Это HLSL шейдера и (или) компилеркоде для округления Тессфакторс к степени 2.
 
@@ -58,7 +58,7 @@ ms.locfileid: "104412231"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -69,7 +69,7 @@ ms.locfileid: "104412231"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

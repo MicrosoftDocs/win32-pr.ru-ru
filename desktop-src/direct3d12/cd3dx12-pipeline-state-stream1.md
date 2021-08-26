@@ -1,6 +1,6 @@
 ---
 title: Структура CD3DX12_PIPELINE_STATE_STREAM1 (D3dx12. h)
-description: Вспомогательная структура для создания графики и работы с ними, а также для вычислений конвейеров через Объединенный интерфейс. См \_ . раздел State D3D12 графического \_ конвейера \_ \_ DESC and D3D12 \_ COMPUTE \_ конвейер \_ State \_ DESC. | Структура CD3DX12_PIPELINE_STATE_STREAM1 (D3dx12. h)
+description: Вспомогательная структура для создания графики и работы с ними, а также для вычислений конвейеров через Объединенный интерфейс. См. раздел [D3D12_GRAPHICS_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) и [D3D12_COMPUTE_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
 ms.assetid: 4D3E4D99-E820-4220-92F3-4924791E780F
 keywords:
 - Структура CD3DX12_PIPELINE_STATE_STREAM1
@@ -15,18 +15,20 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd04f58f4f123850c60b67ff9358f6f1f934373
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 219b198ae5c2da6d6e74db933d4c26771aa63975
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713517"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812541"
 ---
-# <a name="cd3dx12_pipeline_state_stream1-structure"></a>\_ \_ Структура STREAM1 состояния КОНВЕЙЕРа CD3DX12 \_
+# <a name="cd3dx12_pipeline_state_stream1-structure"></a>Структура CD3DX12_PIPELINE_STATE_STREAM1
 
-Вспомогательная структура для создания графики и работы с ними, а также для вычислений конвейеров через Объединенный интерфейс. См. раздел [**\_ State D3D12 графического \_ конвейера \_ \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) and [**D3D12 \_ COMPUTE \_ конвейер \_ State \_ DESC**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
+Вспомогательная структура для создания графики и работы с ними, а также для вычислений конвейеров через Объединенный интерфейс. См. раздел [D3D12_GRAPHICS_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) и [D3D12_COMPUTE_PIPELINE_STATE_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
 
-\_Состояние конвейера CD3DX12 \_ \_ STREAM1 поддерживает обновление Windows 10 Creators Update с новыми функциями, такими как создание экземпляров для просмотра.
+CD3DX12_PIPELINE_STATE_STREAM1 поддерживает Windows 10 Fall Creators Update с новыми функциями, такими как создание экземпляров для просмотра.
+
+См. статью [CD3DX12_PIPELINE_STATE_STREAM2](cd3dx12-pipeline-state-stream2.md) for OS Build 19041 + (где есть конвейер шейдера сетки).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -68,38 +70,38 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
 
 <dl> <dt>
 
-**\_STREAM1 состояния конвейера CD3DX12 \_ \_ ()**
+**CD3DX12_PIPELINE_STATE_STREAM1 ()**
 </dt> <dd>
 
-Создает новый, неинициализированный экземпляр CD3DX12 \_ состояния конвейера \_ \_ STREAM1.
+Создает новый, неинициализированный экземпляр CD3DX12_PIPELINE_STATE_STREAM1.
 
 </dd> <dt>
 
-**\_Состояние конвейера CD3DX12 \_ \_ STREAM1 (const D3D12 \_ графическое \_ конвейер \_ State \_ DESC& DESC)**
+**CD3DX12_PIPELINE_STATE_STREAM1 (const D3D12_GRAPHICS_PIPELINE_STATE_DESC& DESC)**
 </dt> <dd>
 
-Создает новый экземпляр \_ состояния конвейера CD3DX12 \_ \_ STREAM1, который инициализируется значениями, скопированными из структуры **\_ \_ \_ STREAM1 состояния конвейера CD3DX12** .
+Создает новый экземпляр CD3DX12_PIPELINE_STATE_STREAM1, инициализируемый значениями, скопированными из структуры **CD3DX12_PIPELINE_STATE_STREAM1** .
 
 </dd> <dt>
 
-**CD3DX12 \_ состояние конвейера \_ \_ STREAM1 (const D3D12 \_ COMPUTE \_ конвейер \_ State \_ DESC& DESC)**
+**CD3DX12_PIPELINE_STATE_STREAM1 (const D3D12_COMPUTE_PIPELINE_STATE_DESC& DESC)**
 </dt> <dd>
 
-Создает новый экземпляр \_ состояния конвейера CD3DX12 \_ \_ STREAM1, который инициализируется значениями, скопированными из структуры **\_ \_ \_ STREAM1 состояния конвейера CD3DX12** .
+Создает новый экземпляр CD3DX12_PIPELINE_STATE_STREAM1, инициализируемый значениями, скопированными из структуры **CD3DX12_PIPELINE_STATE_STREAM1** .
 
 </dd> <dt>
 
 **GraphicsDescV0()**
 </dt> <dd>
 
-Возвращает содержимое \_ объекта STREAM1 состояния конвейера CD3DX12 в \_ \_ виде \_ графического \_ конвейера D3D12 \_ \_ . Структура по значению. Обратите внимание, что D3D12 \_ графического \_ конвейера \_ \_ со значением DESC не включает элемент **CS** , поэтому при преобразовании это значение будет потеряно.
+Возвращает содержимое объекта CD3DX12_PIPELINE_STATE_STREAM1 в виде структуры D3D12_GRAPHICS_PIPELINE_STATE_DESC по значению. Обратите внимание, что D3D12_GRAPHICS_PIPELINE_STATE_DESC не включает элемент **CS** , поэтому при преобразовании это значение будет потеряно.
 
 </dd> <dt>
 
 **ComputeDescV0()**
 </dt> <dd>
 
-Возвращает содержимое \_ \_ объекта STREAM1 состояния конвейера CD3DX12 \_ как D3D12 \_ Вычисление \_ состояния конвейера \_ \_ по значению. Обратите внимание, что D3D12 \_ Вычисление \_ состояния конвейера не \_ \_ включает элементы **инпутлайаут**, **ибстрипкутвалуе**, **примитиветопологитипе**, **VS**, **GS**, **стреамаутпут**, **HS**, **DS**, **PS**, **блендстате,** **депсстенЦилстате**, **DSVFormat**, **RasterizerState**, **NumRootSignature**, **RTVFormats**, **SampleDesc** или **SampleMask** , поэтому эти значения теряются при преобразовании.
+Возвращает содержимое объекта CD3DX12_PIPELINE_STATE_STREAM1 в виде структуры D3D12_COMPUTE_PIPELINE_STATE_DESC по значению. Обратите внимание, что D3D12_COMPUTE_PIPELINE_STATE_DESC не содержит членов  **инпутлайаут**, **ибстрипкутвалуе**, **примитиветопологитипе**, **VS**, **GS**, **стреамаутпут**, **HS**,  **DS**, **блендстате**, **депсстенЦилстате** **, DSVFormat** **, RasterizerState** или **NumRootSignature** , **поэтому** эти значения теряются при преобразовании. 
 
 </dd> <dt>
 
@@ -250,47 +252,21 @@ struct CD3DX12_PIPELINE_STATE_STREAM1 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-[**CD3DX12 \_ \_ \_ Поток состояния конвейера**](https://www.bing.com/search?q=**CD3DX12\_PIPELINE\_STATE\_STREAM**) поддерживает обновление для дизайнеров Windows 10, но не поддерживает типы подобъектов, добавленные в обновление Windows 10 Creators Update, например для создания экземпляров представления. Для поддержки новых типов подобъектов используйте \_ \_ вместо него состояние конвейера CD3DX12 \_ STREAM1.
+[CD3DX12_PIPELINE_STATE_STREAM](cd3dx12-pipeline-state-stream.md) поддерживает Windows 10 Fall Creators Update, но не поддерживает типы подобъектов, добавленные в обновление для создателей Windows 10, например, для создания экземпляров представления. Для поддержки новых типов подобъектов используйте вместо него **CD3DX12_PIPELINE_STATE_STREAM1** .
 
-Доступные переменные-члены этой структуры являются typedef \_ \_ \_ шаблона подобъекта потока состояния конвейера CD3DX12 \_ , который объединяет данные маркера типа и подобъекта в один объект, подходящий для описания потока.
+Доступные переменные-члены этой структуры — это все определения типов шаблона [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](/windows/win32/direct3d12/cd3dx12-pipeline-state-stream-subobject) , которые объединяют данные маркера типа и подобъекта в один объект, подходящий для описания потока.
 
-Эти определения типов:
-
-<dl> </dl>
-
-## <a name="requirements"></a>Требования
-
-
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок | [D3dx12. h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
+## <a name="see-also"></a>См. также
 
-
-## <a name="see-also"></a>См. также раздел
-
-<dl> <dt>
-
-[Вспомогательные структуры для D3D12](helper-structures-for-d3d12.md)
-</dt> <dt>
-
-[**\_Поток состояния конвейера CD3DX12 \_ \_**](cd3dx12-pipeline-state-stream.md)
-</dt> <dt>
-
-[**D3D12 \_ графика \_ состояния графического конвейера \_ \_**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
-</dt> <dt>
-
-[**\_DESC для \_ состояния конвейера D3D12 COMPUTE \_ \_**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [Вспомогательные структуры для D3D12](helper-structures-for-d3d12.md)
+* [**CD3DX12_PIPELINE_STATE_STREAM**](cd3dx12-pipeline-state-stream.md)
+* [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc)
+* [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc)

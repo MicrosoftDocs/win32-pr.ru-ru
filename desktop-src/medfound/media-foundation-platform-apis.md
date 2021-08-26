@@ -4,12 +4,12 @@ ms.assetid: 1eb20c44-58cb-4e34-a108-1b3c27d54ff1
 title: Media Foundation API платформы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed1e8d8aa0dcd5d7b1184a406e09910a98892f4f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: af9f235fad78765bbdc7b0c667fad89cec92a4e5c499c3f093f41d084af06685
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105720021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114154"
 ---
 # <a name="media-foundation-platform-apis"></a>Media Foundation API платформы
 
@@ -34,7 +34,7 @@ ms.locfileid: "105720021"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,24 +4,24 @@ ms.assetid: 077678db-ca5a-423b-9430-93497113d639
 title: Реализация управления скоростью
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5fd78cbbb95316a0d4ed12a50c9d3aa8954fe8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3ff90e7b1748efd4cfcff41244164d1d6a997b6208d3e46afa0cdae9aa6bba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114274"
 ---
 # <a name="implementing-rate-control"></a>Реализация управления скоростью
 
 В этом разделе описывается, как пользовательские объекты конвейера могут поддерживать скорость воспроизведения переменных, включая обратную воспроизведение. Сведения об использовании управления скоростью из приложения см. в разделе [Rate Control](rate-control.md).
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Источники мультимедиа](#media-sources)
 -   [Преобразования Media Foundation](#media-foundation-transforms)
     -   [Обратная воспроизведение](#reverse-playback)
 -   [Приемники носителей](#media-sinks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 При создании объекта конвейера Microsoft Media Foundation (источника мультимедиа, преобразования или приемника мультимедиа) может потребоваться поддержка переменного воспроизведения. Для этого реализуйте следующие интерфейсы:
 
@@ -87,14 +87,14 @@ ms.locfileid: "104081174"
 
 Приемники носителей не должны реализовывать [**имфратеконтрол**](/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol). При изменении частоты воспроизведения часы представления вызывают метод [**имфклоккстатесинк:: онклокксетрате**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate) приемника мультимедиа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Управление скоростью](rate-control.md)
 </dt> <dt>
 
-[Поиск, быстрая переадресация и обратная игра](seeking--fast-forward--and-reverse-play.md)
+[поиск, Быстрая прокрутка и обратная игра](seeking--fast-forward--and-reverse-play.md)
 </dt> </dl>
 
  

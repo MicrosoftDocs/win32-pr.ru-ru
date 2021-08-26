@@ -4,12 +4,12 @@ ms.assetid: e9ba8db6-ff6f-4e49-b91b-465e3fa77f27
 title: Этапы репликации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dc180e7864f05eb1be60262ee54dd4b71df53bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 390d1924b85e2681854fe8de604fea1fe59a022fa97843051457677905048dd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990424"
 ---
 # <a name="replication-phases"></a>Этапы репликации
 
@@ -32,7 +32,7 @@ COMREPL выполняет свою работу в три этапа. Проц�
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

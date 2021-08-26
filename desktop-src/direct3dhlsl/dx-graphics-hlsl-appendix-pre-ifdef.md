@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 338308b58f1cdc68ec78984e65ffbf056a36b10b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 584cde8856c48aeafed5665016a71146f8c2ffb341b837faa6bf35d627152c39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068324"
 ---
 # <a name="ifdef-and-ifndef-directives"></a>\#\#директивы ifdef и ifndef
 
@@ -48,7 +48,7 @@ ms.locfileid: "104069002"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 \#Директивы ifdef и ifndef можно использовать \# в любом месте, где можно использовать, [ \# Если](dx-graphics-hlsl-appendix-pre-if.md) может использоваться. \#Инструкция ifdef эквивалентна директиве. Эти директивы проверяют только на наличие или отсутствие идентификаторов, определенных с помощью директивы [ \# define](dx-graphics-hlsl-appendix-pre-define.md) , а не для идентификаторов, объявленных в исходном коде C или C++.
 
@@ -82,7 +82,7 @@ CL.EXE /Dtest prog.cpp
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

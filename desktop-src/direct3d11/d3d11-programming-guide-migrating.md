@@ -4,12 +4,12 @@ description: В этом разделе приводятся сведения о
 ms.assetid: 3ec8b5c2-01e6-4fbe-ada7-43898db63bbe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83ade0a0d32d3f8b5c07e6653955c0c407c8fa8f
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: f4781aeead4fc35988e28927dd434525a1add483a6e66a9b2fdf15cdcf474d70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104339460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096364"
 ---
 # <a name="migrating-to-direct3d-11"></a>Переход на Direct3D 11
 
@@ -28,7 +28,7 @@ ms.locfileid: "104339460"
 -   [Новые возможности Direct3D 11](#new-features-for-direct3d-11)
 -   [Новые возможности DirectX 11,1](#new-features-for-directx-111)
 -   [Новые возможности DirectX 11,2](#new-features-for-directx-112)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="direct3d-9-to-direct3d-11"></a>Direct3D 9 – Direct3D 11
 
@@ -126,7 +126,7 @@ API Direct3D 11 основан на усовершенствованиях ин�
 <td>D3DCompiler (см. D3DCompiler. h)
 <blockquote>
 [!Note]<br />
-Для приложений Магазина Windows API- <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">интерфейсы D3DCompiler</a> поддерживаются только для разработки, но не для развертывания.
+для приложений магазина Windows api- <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">интерфейсы D3DCompiler</a> поддерживаются только для разработки, но не для развертывания.
 </blockquote>
 <br/></td>
 </tr>
@@ -135,7 +135,7 @@ API Direct3D 11 основан на усовершенствованиях ин�
 <td><a href="https://github.com/Microsoft/FX11">Эффекты 11</a> доступны в качестве общего источника в сети.
 <blockquote>
 [!Note]<br />
-Это решение не подходит для приложений Магазина Windows, так как оно требует использования <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">API-интерфейсов D3DCompiler</a> во время выполнения (развертывание).
+это решение не подходит для Windows приложений магазина, поскольку оно требует использования <a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference">api-интерфейсов D3DCompiler</a> во время выполнения (развертывание).
 </blockquote>
 <br/></td>
 </tr>
@@ -210,20 +210,20 @@ Direct3D 10,1 является расширением интерфейса Direc
     -   Динамическая компоновка шейдера
     -   Тесселяция через поверхности и шейдеры доменов
     -   Новые форматы блочного сжатия: BC6H для HDR-изображений, BC7 для стандартных изображений более высокого качества
--   Использование [технологии 10level9](overviews-direct3d-11-devices-downlevel.md) для отрисовки во многих моделях шейдеров 2,0 и shader Model 3,0 с помощью API DIrect3D 11 для поддержки низкоуровневых видеоаппаратных устройств в Windows Vista и Windows 7.
+-   использование [технологии 10level9](overviews-direct3d-11-devices-downlevel.md) для отрисовки во многих моделях шейдеров 2,0 и shader model 3,0 с помощью API DIrect3D 11 для поддержки низкоуровневых видеоаппаратных устройств в Windows Vista и Windows 7.
 -   Использование устройства деформации программной отрисовки.
 
 ## <a name="new-features-for-directx-111"></a>Новые возможности DirectX 11,1
 
-В Windows 8 включены дополнительные усовершенствования графики DirectX, которые следует учитывать при реализации кода DirectX Graphics, который включает в себя [Direct3D 11,1](direct3d-11-features.md), [DXGI 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [модель видеодрайверов Windows (WDDM) 1,2](/windows-hardware/drivers/display/wddm-in-windows-8), оборудование [уровня компонентов](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, Direct2Dи устройств и другие улучшения.
+в Windows 8 включены дополнительные усовершенствования графики directx, которые следует учитывать при реализации кода directx graphics, который включает [Direct3D 11,1](direct3d-11-features.md), [DXGI 1,2](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements), [Windows модель видеодрайверов (WDDM) 1,2](/windows-hardware/drivers/display/wddm-in-windows-8), оборудование [уровня функции](overviews-direct3d-11-devices-downlevel-intro.md) 11,1, Direct2D контекстов устройств и другие улучшения.
 
-Частичная поддержка [Direct3D 11,1](direct3d-11-features.md) доступна в Windows 7, а также с помощью [обновления платформы для Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), которое доступно в [обновлении платформы для Windows 7](https://support.microsoft.com/kb/2670838).
+частичная поддержка [Direct3D 11,1](direct3d-11-features.md) доступна в Windows 7, а также с помощью [обновления платформы для Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7), которое доступно в [обновлении платформы для Windows 7](https://support.microsoft.com/kb/2670838).
 
 ## <a name="new-features-for-directx-112"></a>Новые возможности DirectX 11,2
 
 Windows 8.1 включает [Direct3D 11,2](direct3d-11-2-features.md), [DXGI 1,3](/windows/desktop/direct3ddxgi/dxgi-1-3-improvements)и другие улучшения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

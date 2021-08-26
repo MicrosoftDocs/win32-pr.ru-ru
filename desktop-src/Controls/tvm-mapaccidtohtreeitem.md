@@ -1,9 +1,9 @@
 ---
 title: Сообщение TVM_MAPACCIDTOHTREEITEM (Коммктрл. h)
-description: Сопоставляет идентификатор доступа с ХТРИИТЕМ.
+description: Карты идентификатор специальных возможностей для хтриитем.
 ms.assetid: f4feb7cb-2138-4930-b8ee-b9e2d4b19001
 keywords:
-- Элементы управления Windows для TVM_MAPACCIDTOHTREEITEM сообщений
+- элементы управления Windows сообщений TVM_MAPACCIDTOHTREEITEM
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b827b18387723fe4792321f7932e1abb3673466e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6481d8db806156d10536ac0ec7c66fdeb4693a1133365767b4c3dc37ad8420f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045804"
 ---
 # <a name="tvm_mapaccidtohtreeitem-message"></a>\_Сообщение TVM мапакЦидтохтриитем
 
-Сопоставляет идентификатор доступа с **хтриитем**.
+Карты идентификатор специальных возможностей для **хтриитем**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -39,7 +39,7 @@ ms.locfileid: "104071362"
 
 Возвращает **хтриитем** , с которым СОПОСТАВЛЕН указанный идентификатор доступа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При добавлении элемента в элемент управления представлением в виде дерева возвращается **хтриитем** , который однозначно определяет элемент.
 
@@ -48,19 +48,19 @@ ms.locfileid: "104071362"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

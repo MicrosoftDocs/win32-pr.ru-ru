@@ -8,12 +8,12 @@ keywords:
 - Воспроизведение аудио-файлов, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fb6b2fb67e52374351063d330ffdf392529389
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 357998d2b1a026d867092dc323c9e65121705bd9178e6ea4555edfc2c778cc78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037964"
 ---
 # <a name="playing-waveform-audio-files"></a>Воспроизведение Waveform-Audio файлов
 
@@ -26,9 +26,9 @@ ms.locfileid: "104410838"
 -   [Изменение объема Waveform-Audio воспроизведения](changing-the-volume-of-waveform-audio-playback.md)
 -   [Изменение высоты и скорости воспроизведения](changing-pitch-and-playback-rate.md)
 
- 
+ 
 
- 
+ 
 
 
 

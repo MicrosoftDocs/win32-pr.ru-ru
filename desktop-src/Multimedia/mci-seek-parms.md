@@ -3,7 +3,7 @@ title: Структура MCI_SEEK_PARMS (МЦиапи. h)
 description: '\_ \_ Структура ПАРМС поиска MCI содержит сведения о размещении для \_ команды MCI Seek.'
 ms.assetid: 2c199855-2134-4709-9313-5b8d66ce4f03
 keywords:
-- MCI_SEEK_PARMS структура мультимедиа Windows
+- структура MCI_SEEK_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c31f419b2458dedc19c6533e8f0f7fade97026e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 283e0a0f60b4eaf438943628b92bb33974823f6525526c5e5a6cb2e55acb6c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038254"
 ---
 # <a name="mci_seek_parms-structure"></a>\_ \_ Структура ПАРМС поиска MCI
 
@@ -55,11 +55,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

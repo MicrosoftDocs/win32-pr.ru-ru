@@ -5,16 +5,16 @@ ms.assetid: 6f3fd725-d660-4cc3-8de2-8ed7800b1141
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34c858275098dd82362d229bc9e1cc35b544c55
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 60d1cf89ef07e573be8f59805034ff8c567e75fd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884054"
 ---
 # <a name="dual-interfaces-adsi"></a>Сдвоенные интерфейсы (ADSI)
 
-Используйте COM-интерфейсы для доступа к свойствам и методам любых объектов поставщика ADSI. Свойство только для чтения сопоставляется с записью интерфейса в форме **Get \_ <PropertyName>**. Свойство, доступное для чтения и записи, сопоставляется с двумя записями интерфейса в форме **Get \_ <PropertyName>** и **помещается \_ <PropertyName>**.
+Используйте COM-интерфейсы для доступа к свойствам и методам любых объектов поставщика ADSI. Свойство только для чтения сопоставляется с записью интерфейса в форме **Get \_ &lt; &gt; PropertyName**. Свойство, доступное для чтения и записи, сопоставляется с двумя записями интерфейса в форме **Get \_ &lt; &gt; PropertyName** и **помещает \_ &lt; PropertyName &gt;**.
 
 Все методы в интерфейсе COM должны:
 
@@ -25,8 +25,8 @@ ms.locfileid: "103793789"
 
 Чтобы обеспечить совместимость с контроллерами автоматизации, все параметры и возвращаемые типы должны находиться в подмножестве, определенном типом данных Automation VARIANT. Дополнительные сведения см. в разделе **варианты** и **VARIANTARG** в пакете SDK для платформы.
 
-Объект Active Directory поставщика может предоставлять интерфейсы, которые используют типы данных, отличные от тех, которые находятся в подмножестве **вариантов** . Однако контроллеры автоматизации, такие как Visual Basic, не могут вызывать эти интерфейсы. Большинство интерфейсов поставщика ADSI являются производными от [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) и могут использоваться как указатели интерфейса **IDispatch** . Однако интерфейсы ADSI [**идиректорйобжект**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)и [**иадсекстенсион**](/windows/desktop/api/Iads/nn-iads-iadsextension) не являются производными от **IDispatch**.
+Объект Active Directory поставщика может предоставлять интерфейсы, которые используют типы данных, отличные от тех, которые находятся в подмножестве **вариантов** . однако контроллеры автоматизации, такие как Visual Basic, не могут вызывать эти интерфейсы. Большинство интерфейсов поставщика ADSI являются производными от [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) и могут использоваться как указатели интерфейса **IDispatch** . Однако интерфейсы ADSI [**идиректорйобжект**](/windows/desktop/api/Iads/nn-iads-idirectoryobject), [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)и [**иадсекстенсион**](/windows/desktop/api/Iads/nn-iads-iadsextension) не являются производными от **IDispatch**.
 
- 
+ 
 
- 
+ 

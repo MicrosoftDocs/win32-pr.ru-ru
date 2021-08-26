@@ -4,12 +4,12 @@ ms.assetid: f0d01dfb-d1de-4d16-8c64-4ae56d7fed06
 title: Несколько представлений в оконном режиме (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed750472d1816c0365298630cfb426982743b11a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e2784a4f2bd855293e427aa9297d2e5725a74a3f5bce52b4b53cdf3d9081062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105710605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069024"
 ---
 # <a name="multiple-views-in-windowed-mode-direct3d-9"></a>Несколько представлений в оконном режиме (Direct3D 9)
 
@@ -17,7 +17,7 @@ ms.locfileid: "105710605"
 
 Как правило, приложение создает одну цепочку подкачки для каждого представления и связывает каждую цепочку подкачки с определенным представлением. Приложение визуализирует изображения в задних буферах каждой цепочки буферов, а затем использует метод [**IDirect3DDevice9::P**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present) повторной передачи, чтобы предоставить их по отдельности. Обратите внимание, что только одна цепочка подкачки одновременно может быть полноэкранной на каждом адаптере.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

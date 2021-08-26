@@ -7,12 +7,12 @@ keywords:
 - настройка Visual Basic для adsi разработки adsi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ed2e0f4cd0b56ee0167deda2e998314bb313d1a98cd0c43a9f06b495a4324f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83cadc9f74410dcb654a880920a83c20e6af9db1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117838684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885200"
 ---
 # <a name="setting-up-visual-basic-60-for-adsi-development"></a>настройка Visual Basic 6,0 для разработки с интерфейсом ADSI
 
@@ -54,7 +54,7 @@ ms.locfileid: "117838684"
 
     
 
-3.  Нажмите клавишу **<F5>** , чтобы запустить программу.
+3.  Нажмите клавишу **&lt; F5 &gt;** , чтобы запустить программу.
 4.  Чтобы проверить изменения, используйте средство управления Active Directory пользователи и компьютеры. дополнительные сведения об использовании ADSI и Visual Basic см. в разделе [доступ к Active Directory с помощью Visual Basic](accessing-active-directory-using-visual-basic.md).
 
  
