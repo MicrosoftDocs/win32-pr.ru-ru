@@ -4,12 +4,12 @@ description: При вызове команды RasDial в качестве ас
 ms.assetid: f165b4a7-00fb-4888-8225-8fd106e113f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db434b7e6d080933e7e21de056f9af5ea7d57dfe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0db03b1d9d3c98e84bc9a2f4fd80ec7206d9a4524608cdbc96cca83f89d0ea00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030564"
 ---
 # <a name="asynchronous-operations"></a>Асинхронные операции
 
@@ -17,9 +17,9 @@ ms.locfileid: "104411063"
 
 Обработчик уведомлений может быть окном для получения сообщений или функцией обратного вызова [**расдиалфунк**](/windows/desktop/api/Ras/nc-ras-rasdialfunc), [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1)или [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) . Диспетчер подключений удаленного доступа делает свои асинхронные уведомления в контексте потока, который выполнил вызов [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) . По этой причине вызывающий поток не должен завершаться до тех пор, пока операция подключения не будет успешно установлена или произойдет ошибка. Как и в синхронном режиме, клиентское приложение может безопасно завершиться после установления соединения и должно [завершить операцию подключения в](disconnecting.md) случае возникновения ошибки.
 
- 
+ 
 
- 
+ 
 
 
 

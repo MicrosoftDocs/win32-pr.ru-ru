@@ -67,13 +67,13 @@ uint32 SetStringProperty(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                   |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                              |
 | Пространство имен<br/>                | Корневой \\ \\ rdms CIMv2<br/>                                                                |
-| Header<br/>                   | <dl> <dt>Цертенролл. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Цертенролл. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>Рдманажемент. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

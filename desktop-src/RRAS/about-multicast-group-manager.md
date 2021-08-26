@@ -9,12 +9,12 @@ keywords:
 - Служба маршрутизации и удаленного доступа RRAS, Диспетчер групп многоадресной рассылки, описание
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 034d37b99aaa9ca0139b5425cd5b85e7b3f280e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9f83dc2b212f7d70d04b4a3ec08bf07e664fa2d67d9c638233a4e8e914369c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030934"
 ---
 # <a name="about-multicast-group-manager"></a>Сведения о диспетчере групп многоадресной рассылки
 
@@ -37,9 +37,9 @@ API МГМ предоставляет следующие возможности.
 
 В этом обзоре описываются компоненты архитектуры многоадресной рассылки, клиентские сценарии, используемые для взаимодействия с диспетчером групп многоадресной рассылки, и рекомендации по программированию для использования API МГМ.
 
- 
+ 
 
- 
+ 
 
 
 

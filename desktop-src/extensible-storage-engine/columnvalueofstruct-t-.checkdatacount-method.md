@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fda3fcabe1bb8ff462c37f823d6441720e02c414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9f70d2e26c8ee56e88f0405af19f17476612bd9a5f51ba624088ed9d58380d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066944"
 ---
 # <a name="columnvalueofstructtcheckdatacount-method"></a>Колумнвалуеофструкт \<T\> . Метод Чеккдатакаунт
 
@@ -59,12 +59,12 @@ protected void CheckDataCount(
 
 #### <a name="parameters"></a>Параметры
 
-  - count  
+  - количество  
     Тип: [System. Int32](/dotnet/api/system.int32)  
     
     Размер извлекаемых данных.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

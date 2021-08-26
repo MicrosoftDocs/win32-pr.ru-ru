@@ -4,16 +4,16 @@ ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: Загрузка Netmon и примеров фильтров DPWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47790b26164ec0ed2792d1d1e1f2ad4ba5d77d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a6f92f2680807101a3c82664f4b0b3ae5a877f0d9f5797da9c9c0b6ea2b158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030224"
 ---
 # <a name="downloading-netmon-and-sample-dpws-filters"></a>Загрузка Netmon и примеров фильтров DPWS
 
-Microsoft Network Monitor 3 (Netmon) — анализатор пакетов, используемый для проверки сетевого трафика. Сетевой монитор должен быть скачан перед действиями по устранению неполадок, описанных в статье [Проверка трассировки сети для протокола UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md) и [Проверка трассировки сети для обмена метаданными HTTP](inspecting-network-traces-for-http-metadata-exchange.md) . После загрузки netmon можно использовать фильтры DPWS, помогающие изолировать интересующий вас трафик.
+Microsoft Network Monitor 3 (Netmon) — анализатор пакетов, используемый для проверки сетевого трафика. сетевой монитор должен быть скачан перед действиями по устранению неполадок, описанных в статье [проверка трассировки сети для протокола UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md) и [проверка трассировки сети для метаданных HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md) можно проследить. После загрузки netmon можно использовать фильтры DPWS, помогающие изолировать интересующий вас трафик.
 
 ## <a name="downloading-netmon"></a>Загрузка Netmon
 
@@ -70,7 +70,7 @@ UDP.Port==3702 && IPv4.DestinationAddress=239.255.255.250
 
 При использовании этих фильтров соответствующий трафик может быть исключен из результатов Netmon. Исключение может возникать, если службы находятся на портах, отличных от портов по умолчанию (5357/5358), а стек DPWS не отвечает на сообщения с помощью порта по умолчанию. В таких случаях необходимо изменить фильтры перед использованием.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

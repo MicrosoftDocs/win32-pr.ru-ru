@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2606c195822432138ee67576db54f945c6834cfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87556f82f4004b6c7dbf194dfe38f47804d1fa07747ccb7e18d2b24a4a70f355
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987494"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdshcollection-class"></a>Метод Сетстрингпроперти \_ класса Win32 рдшколлектион
 
@@ -71,7 +71,7 @@ uint32 SetStringProperty(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                                   |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                              |
 | Пространство имен<br/>                | Корневой \\ \\ rdms CIMv2<br/>                                                                |
-| Header<br/>                   | <dl> <dt>Цертенролл. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Цертенролл. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>Рдманажемент. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>RDMS.dll</dt> </dl>         |
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4d1af1a6a4e4b77521d3f27ff5c94651048d6d75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e7aa121ce78198fe6b2ca0b88109183665f0cd93dd95294a848a2b2d0c03548
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983684"
 ---
 # <a name="cbasecontrolwindowput_fullscreenmode-method"></a>Кбасеконтролвиндов. размещение \_ метода фуллскринмоде
 
@@ -53,7 +53,7 @@ HRESULT put_FullScreenMode(
 
 Возвращает значение **HRESULT** . Текущая реализация возвращает E \_ нотимпл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Модуль подготовки видео, реализующий полноэкранный режим, должен переопределять эту функцию-член и реализовывать все поддерживаемые им режимы.
 
@@ -63,7 +63,7 @@ HRESULT put_FullScreenMode(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

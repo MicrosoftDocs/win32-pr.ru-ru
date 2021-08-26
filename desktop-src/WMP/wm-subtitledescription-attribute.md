@@ -3,7 +3,7 @@ title: Атрибут WM/Субтитледескриптион
 description: Атрибут WM/Субтитледескриптион задает дополнительные сведения о подзаголовках.
 ms.assetid: ece56ccf-63d1-4edf-a349-0ac2f4ce468a
 keywords:
-- Windows Media Player для атрибута WM/Субтитледескриптион
+- проигрыватель Windows Media атрибута WM/субтитледескриптион
 topic_type:
 - apiref
 api_name:
@@ -12,38 +12,38 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05815ea31cd58a55123ddadc9483b5caf48b9ced
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2911be40b6260a73a20541e3a7ab7458317d4872a90aea0525933d87303ff59d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000814"
 ---
 # <a name="wmsubtitledescription-attribute"></a>Атрибут WM/Субтитледескриптион
 
 Атрибут **WM/субтитледескриптион** задает дополнительные сведения о подзаголовках.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвмсубтитледескриптион.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвмсубтитледескриптион.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 10 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 10 или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 10a5af2e-3144-4b51-8295-294e56cdf801
 title: Селектионбровсе таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754f69f939f7c90dca705a2669a37af1fce0e79a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70d7c50e69921a5fefe7cff3c88c2351cacdecda42a164e8334c9afb3977bd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040614"
 ---
 # <a name="selectionbrowse-controlevent"></a>Селектионбровсе таблице ControlEvent событие
 
@@ -31,7 +31,7 @@ ms.locfileid: "104350225"
 
 ## <a name="action-on-subscribers"></a>Действие на подписчиках
 
-Нет.
+Отсутствует.
 
 ## <a name="typical-use"></a>Типичные случаи использования
 

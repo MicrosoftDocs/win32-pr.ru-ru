@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, рекомендации, управление версиями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e03b23c91bf69fbc3c4f72366b80812fd54330d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac3681ce1290b7653c28b12c09c93d21de3052e0e6137ed5c6f906afd42f8d07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016384"
 ---
 # <a name="the-versioning-theory-for-rpc-and-com"></a>Теория управления версиями для RPC и COM
 
@@ -30,6 +30,6 @@ ms.locfileid: "104134351"
 
 Для COM функция [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) — это установленный метод проверки того, поддерживает ли сервер интерфейс; Следовательно, ситуации, в которых клиент может взаимодействовать со старым или новой версией интерфейса, можно легко разрешить.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: a49209f3-043c-4360-b1e3-9fa9538c2c9b
 title: Элемент управления Скроллаблетекст
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ff807f2b0175eb411b3c45eb9d1e3b5eeaea01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02f4d5ac48f6b89b779960126e62c204d1d09e1f9a7bc832b0e3477635df35ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041304"
 ---
 # <a name="scrollabletext-control"></a>Элемент управления Скроллаблетекст
 
@@ -28,7 +28,7 @@ ms.locfileid: "103909811"
 | [Позиция](position-control-attribute.md)         |                                  | Расположение элемента управления в диалоговом окне. Введите ширину элемента управления, высоту и координаты левого угла элемента управления в столбцах ширина, высота, X и Y [таблицы управления](control-table.md) или [таблицы ббконтрол](bbcontrol-table.md). Используйте [единицы установщика](installer-units.md) для длины и расстояния.<br/>                                            |
 | [Text](text-control-attribute.md)                 |                                  | Текст, отображаемый элементом управления. Введите текстовую строку RTF в столбец text [таблицы Control](control-table.md).                                                                                                                                                                                                                                                       |
 | [Visible](visible-control-attribute.md)           | 0x00000000 0x00000001<br/> | Скрытый элемент управления. Видимый элемент управления.<br/> Чтобы сделать элемент управления видимым или скрытым при его создании, включите этот бит в битовое слово столбца Attributes в таблице [Control](control-table.md) или [таблице ббконтрол](bbcontrol-table.md).<br/> Можно также скрыть или показать элемент управления с помощью [таблицы таблица controlcondition](controlcondition-table.md).<br/> |
-| [Enabled](enabled-control-attribute.md)           | 0x00000000 0x00000002<br/> | Элемент управления в отключенном состоянии. Элемент управления в состоянии Enabled.<br/> Включите этот бит в столбец Attributes [элемента управления](control-table.md) или [таблицы ббконтрол](bbcontrol-table.md) , чтобы обеспечить возможность создания элемента управления.<br/> Можно также включить или отключить элемент управления с помощью [таблицы таблица controlcondition](controlcondition-table.md).<br/>             |
+| [Включен](enabled-control-attribute.md)           | 0x00000000 0x00000002<br/> | Элемент управления в отключенном состоянии. Элемент управления в состоянии Enabled.<br/> Включите этот бит в столбец Attributes [элемента управления](control-table.md) или [таблицы ббконтрол](bbcontrol-table.md) , чтобы обеспечить возможность создания элемента управления.<br/> Можно также включить или отключить элемент управления с помощью [таблицы таблица controlcondition](controlcondition-table.md).<br/>             |
 | [Sunken](sunken-control-attribute.md)             | 0x00000000 0x00000004<br/> | Отображение стиля оформления по умолчанию. Отображение элемента управления с утопленным, трехмерным, взглядом.<br/> Включите эти биты в битовое слово в столбец Attributes [таблицы Control](control-table.md).<br/>                                                                                                                                                                    |
 | [ртлро](rtlro-control-attribute.md)               | 0x00000000 0x00000020<br/> | Текст в элементе управления отображается в порядке чтения слева направо. Текст в элементе управления отображается в порядке чтения справа налево.<br/>                                                                                                                                                                                                                               |
 | [ригхталигнед](rightaligned-control-attribute.md) | 0x00000000 0x00000040<br/> | Текст в элементе управления выровняйтеся слева. Текст в элементе управления выстраивается справа.<br/>                                                                                                                                                                                                                                                                            |
@@ -39,7 +39,7 @@ ms.locfileid: "103909811"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот элемент управления можно создать из класса RICHEDIT с помощью функции [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . У него есть **Стили \_ ES**, **WS \_ VSCROLL**, **ES \_ ReadOnly**, **WS \_ TABSTOP**, **ES \_ аутовскролл**, **WS \_ Child**, **WS \_ Group** и **ES \_ нуледрагдроп** .
 

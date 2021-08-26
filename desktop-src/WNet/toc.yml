@@ -1,14 +1,14 @@
-- name: Сеть Windows (Внет)
+- name: Windows Сети (Внет)
   href: windows-networking-wnet-.md
   items:
-    - name: О сети Windows
+    - name: сведения о Windows сети
       href: about-windows-networking.md
       items:
         - name: Функции Внет
           href: wnet-functions.md
-        - name: Сетевые операции Windows
+        - name: Windows Сетевые операции
           href: windows-networking-operations.md
-    - name: Использование сети Windows
+    - name: использование Windows networking
       href: using-windows-networking.md
       items:
         - name: Использование диалогового окна «соединения»
@@ -31,10 +31,10 @@
           href: retrieving-information-about-a-network-resource.md
         - name: Получение сетевых ошибок
           href: retrieving-network-errors.md
-    - name: Справочник по сетям Windows
+    - name: Windows Справочник по сетям
       href: windows-networking-reference.md
       items:
-        - name: Обратные вызовы в сети Windows
+        - name: Windows Обратные вызовы в сети
           href: windows-networking-callbacks.md
           items:
             - name: пфнжетпрофилепас
@@ -43,7 +43,7 @@
               href: /previous-versions/windows/desktop/legacy/aa385360(v=vs.85)
             - name: пфнреконЦилепрофиле
               href: /previous-versions/windows/desktop/legacy/aa385364(v=vs.85)
-        - name: Сетевые функции Windows
+        - name: Windows Сетевые функции
           href: windows-networking-functions.md
           items:
             - name: мултинетжетконнектионперформанце
@@ -92,7 +92,7 @@
               href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetrestoreconnectionw
             - name: внетусеконнектион
               href: /windows/desktop/api/winnetwk/nf-winnetwk-wnetuseconnectiona
-        - name: Сетевые структуры Windows
+        - name: Windows Структуры сети
           href: windows-networking-structures.md
           items:
             - name: коннектдлгструкт

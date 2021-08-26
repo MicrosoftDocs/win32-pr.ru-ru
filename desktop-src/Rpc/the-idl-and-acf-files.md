@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, описание, файлы IDL и ACF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9f7f739e50fd4e04ae35a11adcbbc936cd3cb36
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 788756c6762575d2366950f1b6412a76c03d14518acb1707dfdaf109ba2b5fc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017104"
 ---
 # <a name="the-idl-and-acf-files"></a>Файлы IDL и ACF
 
@@ -29,6 +29,6 @@ ACF указывает атрибуты, влияющие только на ло
 -   [Файл конфигурации приложения (ACF)](the-application-configuration-file-acf-.md)
 -   [Выходные данные компилятора MIDL](midl-compiler-output.md)
 
- 
+ 
 
- 
+ 

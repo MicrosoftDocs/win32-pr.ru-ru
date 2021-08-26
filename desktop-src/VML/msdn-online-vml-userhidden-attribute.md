@@ -4,27 +4,27 @@ description: Атрибут Усерхидден VML
 ms.assetid: 0e4616c7-a456-4157-b77a-56cd289e913c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 519857d53cbec985afae31a5e7dea8811773dc43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2bb49b54c2463769286d11877e992bb30d4e431f351e39bf30b0ed6ab748a58e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105691542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959234"
 ---
 # <a name="vml-userhidden-attribute"></a>Атрибут Усерхидден VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет, скрыта ли привязка скрипта. Read/write. **Вгтристате**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -34,7 +34,7 @@ ms.locfileid: "105691542"
 
 По умолчанию **False**. Если **значение равно true**, привязки сценариев остаются скрытыми, даже если фигура видима в противном случае.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
 **Пример**
 
@@ -49,6 +49,6 @@ ms.locfileid: "105691542"
 
 
 
- 
+ 
 
- 
+ 

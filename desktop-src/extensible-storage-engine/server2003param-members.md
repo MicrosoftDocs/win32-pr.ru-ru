@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.serv
 ms:contentKeyID: 55104216
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8209f2a6ec244112b213130b56978903868a222b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a8dd47d2ce95b55f25c415f9d54b8c4d0317bcaa9ee881fecae930a01b5891a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016044"
 ---
 # <a name="server2003param-members"></a>Элементы Server2003Param
 
 Включить защищенные члены  
 Включить унаследованные члены  
 
-Системные параметры, добавленные в версию ESENT для Windows Server 2003.
+системные параметры, добавленные в Windows Server 2003 версии ESENT.
 
 Тип [Server2003Param](./server2003param-class.md) предоставляет следующие члены.
 
@@ -29,7 +29,7 @@ ms.locfileid: "104155002"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -45,7 +45,7 @@ ms.locfileid: "104155002"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

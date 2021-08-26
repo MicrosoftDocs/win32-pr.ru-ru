@@ -4,19 +4,19 @@ ms.assetid: 9a7b57f9-f606-4874-9fd3-aa37215f6f20
 title: Создание топологии перекодирования с помощью Топоедит
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43ef750b4dd54ef05ab7733cc861d7a09dd5d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5386af09b04f155295b807523cdb1c5519c946b45228df51d767e9d2a3aabe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959464"
 ---
 # <a name="building-a-transcode-topology-with-topoedit"></a>Создание топологии перекодирования с помощью Топоедит
 
 В этом разделе описано, как создать топологию перекодирования в Топоедит.
 
 > [!Note]  
-> Для этого компонента требуется Windows 7
+> для этой функции требуется Windows 7
 
  
 
@@ -38,7 +38,7 @@ ms.locfileid: "104539638"
 
 ## <a name="transcodeprofilesxml"></a>TranscodeProfiles.xml
 
-Топоедит загружает профили кодировки из файла TranscodeProfiles.xml. Этот файл находится в каталоге bin Windows SDK.
+Топоедит загружает профили кодировки из файла TranscodeProfiles.xml. этот файл находится в каталоге Bin Windows SDK.
 
 Файл начинается с элемента **тедтранскодепрофилес** . Каждый профиль начинается с элемента **тедтранскодепрофиле** . Каждый профиль состоит из набора значений формата `<VALUE_NAME Value="VALUE"/>` . Определены следующие значения:
 
@@ -71,7 +71,7 @@ ms.locfileid: "104539638"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

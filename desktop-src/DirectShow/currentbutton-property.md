@@ -4,17 +4,17 @@ ms.assetid: bd9720bc-068a-4f29-aa2d-1c6b550f789c
 title: Куррентбуттон, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c12def9f9a73c9538781bde6940b03bfb376fcc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d85b246b77283a2632f2feac4c2b374075ef9d9a205bcb71813856b9847df21b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053144"
 ---
 # <a name="currentbutton-property"></a>Куррентбуттон, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "104341862"
 
 Возвращает целочисленное значение, представляющее кнопку.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно только для чтения и не имеет значения по умолчанию. Используйте этот метод при реализации пользовательской обработки мыши после установки для [**дисаблеаутомаусепроцессинг**](disableautomouseprocessing-property.md) значения **true**.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

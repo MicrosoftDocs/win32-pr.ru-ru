@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 843c445a29bcce9e6dc26b66b0c6738831e9b79c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cbb007769238f0e6a4239366e8fe9956e61f892f7d3c98f2b638dc425dc9359f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105647755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053484"
 ---
 # <a name="media_serial_number_data-structure"></a>\_ \_ Структура данных серийного номера носителя \_
 
@@ -69,11 +69,11 @@ typedef struct _MEDIA_SERIAL_NUMBER_DATA {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для структуры **\_ \_ \_ данных серийного номера носителя** не доступен файл заголовка. Включите определение структуры в верхнюю часть этой страницы в исходном коде.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,7 +84,7 @@ typedef struct _MEDIA_SERIAL_NUMBER_DATA {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

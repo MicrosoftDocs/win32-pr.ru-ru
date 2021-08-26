@@ -4,12 +4,12 @@ ms.assetid: 3c9186c8-a54d-4536-8237-bfff78cc7d11
 title: Несколько процессоров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0093404a0df653a153823915f1ac72b5e41d50c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28b381faaceb5a171ddcf33c0705fee144f98952c4d473c0db8c7d99050deb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032414"
 ---
 # <a name="multiple-processors"></a>Несколько процессоров
 
@@ -33,7 +33,7 @@ ms.locfileid: "105673763"
 
 При указании *идеального обработчика потока* планировщик по возможности запускает поток на указанном процессоре. Используйте функцию [**сетсреадидеалпроцессор**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor) , чтобы указать предпочтительный процессор для потока. Это не гарантирует, что идеальный процессор будет выбран, но вы получите полезное указание планировщику. В системах с более чем 64 процессорами можно использовать функцию [**сетсреадидеалпроцессорекс**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessorex) для указания предпочтительного процессора в определенной группе процессоров.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

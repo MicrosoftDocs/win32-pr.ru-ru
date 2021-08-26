@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1656d9aa5e5ee8c58c5895a444afd7552227108c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c75d4f2a33b162caee9aab4ecc11285eaf9b55efb5ebeff4c5734fe721dfe25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919674"
 ---
 # <a name="cim_service-class-cimwin32-wmi-providers"></a>Класс CIM_Service (поставщики WMI CIMWin32)
 
@@ -89,7 +89,7 @@ class CIM_Service : CIM_LogicalElement
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -159,7 +159,7 @@ class CIM_Service : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -363,7 +363,7 @@ class CIM_Service : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ службы CIM** является производным от [**CIM \_**](cim-logicaldevice.md)-класса.
 
@@ -371,7 +371,7 @@ class CIM_Service : CIM_LogicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -385,7 +385,7 @@ class CIM_Service : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

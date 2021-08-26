@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 4f930334f0712107d5651a22b35d6917c7977011
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 200635ca71ab16a84a137f85be13cc4fdbb6db200e4c0da795d07f945f06e9f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053344"
 ---
 # <a name="ntgdiddgetdc-function"></a>Функция Нтгдидджетдк
 
@@ -63,13 +63,13 @@ HDC APIENTRY NtGdiDdGetDC(
 
 В случае успеха эта функция возвращает допустимый **HDC**; в противном случае возвращается **значение NULL**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В любой момент времени на одну поверхность может быть только один контроллер домена. Последующие вызовы **нтгдидджетдк** будут завершаться ошибкой, пока не будет освобожден предыдущий контроллер домена.
 
 Приложениям рекомендуется вызывать метод [IDirectDrawSurface7:: GetDC](/windows/win32/api/ddraw/nf-ddraw-idirectdrawsurface7-getdc) , который предоставляет те же функциональные возможности, что и не зависит от операционной системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ HDC APIENTRY NtGdiDdGetDC(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,18 +4,18 @@ ms.assetid: 682f534c-10a2-4260-b21d-7075d8c1620c
 title: Защита установки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: add5211327508dbbf6531c48c3d2ae40f095375d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 642170cc2ac4e84bebe5235e84328abe5039ede1bdb8fc2760bbd249ff5268de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040734"
 ---
 # <a name="securing-the-installation"></a>Защита установки
 
 Добавьте все свойства пароля из таблицы Кустомусераккаунтс в свойство [**мсихидденпропертиес**](msihiddenproperties.md) в [таблице свойств](property-table.md). Добавьте также имена отложенных настраиваемых действий в свойство **мсихидденпропертиес** . Это предотвратит запись программой установки конфиденциальных значений свойств (паролей) в журнал и гарантирует, что эти значения не будут регистрироваться, если отложенные настраиваемые действия используют значения в качестве свойства CustomActionData.
 
-Чтобы пароль пользователя был доступен в службе установщик Windows, свойство Password должно быть добавлено в свойство [**секурекустомпропертиес**](securecustomproperties.md) .
+чтобы пароль пользователя был доступен в службе установщик Windows, свойство password должно быть добавлено в свойство [**секурекустомпропертиес**](securecustomproperties.md) .
 
 [Таблица свойств](property-table.md)
 

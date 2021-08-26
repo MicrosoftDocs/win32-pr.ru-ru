@@ -4,12 +4,12 @@ ms.assetid: c16a5cbb-d530-4932-944b-af68d0a4018c
 title: сеарчордер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8f486ee58eebd1a1bd1174f18e413785e5e3129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfaab6ff8d4b40b966b5ab1785ddd5fd473316732833fc32be7102acaa7c4877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041044"
 ---
 # <a name="searchorder"></a>сеарчордер
 
@@ -27,13 +27,13 @@ ms.locfileid: "103913664"
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ Текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ текущие \_ политики пользовательского** \\ **программного обеспечения** \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 
 **REG \_ SZ**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

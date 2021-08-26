@@ -5,12 +5,12 @@ ms.assetid: 09a990cd-7590-4d73-b1f5-8736f0b4f17e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb99f9745e382bdff1099eabae9a8e8ef0b8333
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac5093e9da70301fc4258ce2df88527c87940e455050a0673ac36d2fb04a8cd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987164"
 ---
 # <a name="remote-desktop-sessions"></a>Сеансы удаленный рабочий стол
 
@@ -24,13 +24,13 @@ ms.locfileid: "105672309"
 
 Дополнительные сведения о запуске локального серверного процесса в указанном сеансе см. в статье [Активация сеанса в сеансе с моникером сеанса](session-to-session-activation-with-a-session-moniker.md) и [Использование моникера сеанса](using-a-session-moniker.md). Дополнительные сведения о контекстах безопасности см. в описании [контекста безопасности клиента](/windows/desktop/SecAuthZ/the-client-security-context).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Дочерние сеансы](child-sessions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

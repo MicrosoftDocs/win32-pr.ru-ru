@@ -4,18 +4,18 @@ ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Вложенные задания
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf105c70ec8e83b395fcce56c6274d4838358bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fba0a517b71cdc01ec701a4a8f6a4f272f039797c140333e64ecad5532aca23f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032221"
 ---
 # <a name="nested-jobs"></a>Вложенные задания
 
 Приложение может использовать вложенные задания для управления подмножествами процессов. Вложенные задания также позволяют приложению, использующему задания, размещать другие приложения, которые также используют задания.
 
-**Windows 7, Windows server 2008 R2, Windows XP с пакетом обновления 3 (SP3), Windows server 2008, Windows Vista и Windows server 2003:** Процесс может быть связан только с одним заданием. Вложенные задания были введены в Windows 8 и Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows XP с пакетом обновления 3 (SP3), Windows Server 2008, Windows Vista и Windows Server 2003:** Процесс может быть связан только с одним заданием. вложенные задания были введены в Windows 8 и Windows Server 2012.
 
 В этом разделе приводятся общие сведения о вложенности заданий и поведении вложенных заданий.
 

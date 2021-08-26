@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e7610cae8d0cc746774b99a101e3c6aaf1f8a64d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e5e8b43c3b04c9a8fcb747bc3963259c3b991c82d0d85a0c0b3b19c5c10f4489
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922594"
 ---
 # <a name="win32_volumechangeevent-class"></a>\_Класс Win32 волумечанжеевент
 
@@ -50,7 +50,7 @@ class Win32_VolumeChangeEvent : Win32_DeviceChangeEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ волумечанжеевент** имеет следующие свойства.
 
@@ -147,11 +147,11 @@ class Win32_VolumeChangeEvent : Win32_DeviceChangeEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ волумечанжеевент** является производным от [**Win32 \_ девицечанжеевент**](win32-devicechangeevent.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -165,7 +165,7 @@ class Win32_VolumeChangeEvent : Win32_DeviceChangeEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

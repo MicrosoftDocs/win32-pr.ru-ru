@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9442036d43859caa5fa277109c7e85553e7d42f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ba849eed744ff342cfde10d0f31072d4e898cf52cf4e6966760f780236c56df4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986384"
 ---
 # <a name="win32_comclassautoemulator-class"></a>\_Класс Win32 комклассаутоемулатор
 
@@ -46,7 +46,7 @@ class Win32_ComClassAutoEmulator
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ комклассаутоемулатор** имеет следующие свойства.
 
@@ -84,7 +84,7 @@ class Win32_ComClassAutoEmulator
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -98,7 +98,7 @@ class Win32_ComClassAutoEmulator
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

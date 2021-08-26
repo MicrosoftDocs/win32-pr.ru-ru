@@ -5,16 +5,16 @@ ms.assetid: 01D1F94F-4DD4-4781-86EF-6C639E8B1069
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/12/2019
-ms.openlocfilehash: 3160df3faf994df2abf9cf878088e84564bb5fe1
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 63e1ebbe34bbb94fbdf52b374b10283100e3bfa432338521a9807497b236d868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104549019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952744"
 ---
 # <a name="gpu-based-validation-and-the-direct3d-12-debug-layer"></a>Проверка на основе GPU и уровень отладки Direct3D 12
 
-В этом разделе описывается, как лучше использовать уровень отладки Direct3D 12. Проверка на основе GPU (ГБВ) включает сценарии проверки на временной шкале GPU, которые невозможны во время вызовов API в ЦП. ГБВ доступен начиная с годовщины обработки графики для Windows 10.
+В этом разделе описывается, как лучше использовать уровень отладки Direct3D 12. Проверка на основе GPU (ГБВ) включает сценарии проверки на временной шкале GPU, которые невозможны во время вызовов API в ЦП. гбв доступен, начиная с графических средств для обновления годовщины Windows 10.
 
 ## <a name="purpose-of-gpu-based-validation"></a>Назначение проверки на основе GPU
 
