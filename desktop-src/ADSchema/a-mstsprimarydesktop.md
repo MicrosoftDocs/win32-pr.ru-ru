@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd73430e120b2d44d7fe037a2736469fe0771f94
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51b050e44f4dfa32973ddb8773eda0672919df2ddbfef0ca77a5303e140a123d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103989662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066075"
 ---
 # <a name="ms-ts-primary-desktop-attribute"></a>атрибут MS-TS-PRIMARY-Desktop
 
@@ -43,7 +43,7 @@ ms.locfileid: "103989662"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -54,7 +54,7 @@ ms.locfileid: "103989662"
 | Идентификатор ссылки                | 2170                              |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
@@ -62,7 +62,7 @@ ms.locfileid: "103989662"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -75,7 +75,7 @@ ms.locfileid: "103989662"
 | Идентификатор ссылки                | 2170                              |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |

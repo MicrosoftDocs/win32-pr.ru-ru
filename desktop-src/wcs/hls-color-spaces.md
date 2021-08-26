@@ -3,8 +3,8 @@ title: Цветовые пространства HLS
 description: HLSные цветовые пространства также широко используются исполнителями. Его цветовые компоненты — это оттенок, освещение и насыщенность (чрома).
 ms.assetid: 8c80d200-c4d0-4233-8f53-a9637dff9ab2
 keywords:
-- Цветовая система Windows (WCS), HLS Color Spaces
-- WCS (цветовая система Windows), цветовые пространства HLS
+- Windows Цветовая система (WCS), HLS цветовые пространства
+- WCS (Windows цветовая система), цветовые пространства HLS
 - Управление цветом изображений, цветовые пространства HLS
 - Управление цветом, цветовые пространства HLS
 - цвета, HLS цветовые пространства
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613a62d4a998b51f9bfb22bd7431dd8645a72f3e
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 4d0dc0c47555f5358360a1ac81faf113c0fd6e98572c4d0c96852070a1749073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "105719813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934973"
 ---
 # <a name="hls-color-spaces"></a>Цветовые пространства HLS
 

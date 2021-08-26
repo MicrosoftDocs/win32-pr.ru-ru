@@ -4,12 +4,12 @@ ms.assetid: 9a2c1565-fb24-4767-bfa5-0257129f4bd4
 title: Пример Пенинпутпанел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d60f33ff3f61e1a2930841e5fd3d3ce3f9fc5b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c464be52fd08c6c461ba094428a1868fbb51fb328e1a3c88a2d0949a6ae581e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934744"
 ---
 # <a name="peninputpanel-sample"></a>Пример Пенинпутпанел
 
@@ -145,7 +145,7 @@ pipPolicyNumber.DefaultPanel = PanelType.Keyboard;
 
 ## <a name="closing-the-form"></a>Закрытие формы
 
-В коде, созданном конструктором форм Windows Forms, элементы управления [InkEdit](/previous-versions/ms552265(v=vs.100)) и [InkPicture](/previous-versions/aa514604(v=msdn.10)) добавляются в список компонентов формы при инициализации формы. При закрытии формы элементы управления InkEdit и InkPicture удаляются, а также другие компоненты формы методом [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) формы. Метод Dispose формы также удаляет объекты [рукописного ввода](/previous-versions/aa515768(v=msdn.10)) , созданные для формы.
+в коде, созданном конструктором форм Windows, элементы управления [InkEdit](/previous-versions/ms552265(v=vs.100)) и [InkPicture](/previous-versions/aa514604(v=msdn.10)) добавляются в список компонентов формы при инициализации формы. При закрытии формы элементы управления InkEdit и InkPicture удаляются, а также другие компоненты формы методом [Dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) формы. Метод Dispose формы также удаляет объекты [рукописного ввода](/previous-versions/aa515768(v=msdn.10)) , созданные для формы.
 
  
 

@@ -4,18 +4,18 @@ description: В этом разделе приведен полный приме
 ms.assetid: 5d1e1f21-b541-4a61-8f04-e1e767b3a23e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb1a01e983f483503b42a0ac244453f14665460f
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 26940947a1806ab5e265720aa681b37cd9f93d1ac7f80ef69d72ce91a3ea8d5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "105703427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068684"
 ---
 # <a name="complete-code-for-a-directx-framework"></a>Полный код для платформы DirectX
 
 В этом разделе приведен полный пример кода, используемый в учебнике [Приступая к работе с DirectX для Windows](getting-started-with-a-directx-game.md).
 
-В этом коде предполагается, что вы используете Microsoft Visual Studio 2013 и создали пустой проект Win32.
+в этом коде предполагается, что вы используете Microsoft Visual Studio 2013 и создали пустой проект Win32.
 
 Эта статья содержит следующие разделы.
 
@@ -38,17 +38,17 @@ ms.locfileid: "105703427"
 | Требование | Значение |
 |-----------------------|-------------|
 | Языки программирования | C++         |
-| Модели программирования    | Windows/C++ |
+| Модели программирования    | Windows/C + + |
 
 <span id="requirements"></span>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------|
-| Минимальная версия клиента | Windows 8.1            |
+| Минимальная версия клиента | Windows 8.1            |
 | Минимальная версия сервера | Windows Server 2012 R2 |
 | Минимально необходимый пакет SDK     | Visual Studio 2013     |
 

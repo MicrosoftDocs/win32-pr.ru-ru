@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 870536ff408558332e6a07f91649edb1a17ca2fb0c69ed46fb7171f3505d683e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dacaff181b40af870bd01bf9d287683c3d3d63a6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119731154"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469481"
 ---
 # <a name="jet_conditionalcolumn-structure"></a>Структура JET_CONDITIONALCOLUMN
 
@@ -51,60 +51,23 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **грбит** Группа битов, которая предоставляет параметры для условного индекса. Передача нулевых или логических значений (**или** ED) недопустима для **JET_CONDITIONALCOLUMN**. Битовое поле должно быть ровно одним из следующих:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexColumnMustBeNull</p></td>
-<td><p>Столбец, указанный параметром <em>сзколумннаме</em> , должен иметь значение NULL для записи индекса, чтобы данная строка отображалась в этом индексе.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexColumnMustBeNonNull</p></td>
-<td><p>Столбец, указанный параметром <em>сзколумннаме</em> , должен иметь значение, отличное от NULL, для записи индекса, чтобы данная строка отображалась в этом индексе.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexColumnMustBeNull</p> | <p>Столбец, указанный параметром <em>сзколумннаме</em> , должен иметь значение NULL для записи индекса, чтобы данная строка отображалась в этом индексе.</p> | 
+| <p>JET_bitIndexColumnMustBeNonNull</p> | <p>Столбец, указанный параметром <em>сзколумннаме</em> , должен иметь значение, отличное от NULL, для записи индекса, чтобы данная строка отображалась в этом индексе.</p> | 
 
 
-### <a name="remarks"></a>Remarks
+
+### <a name="remarks"></a>Комментарии
 
 Условный индекс содержит элемент индекса только для тех строк, которые соответствуют заданному условию. Например, столбец может называться "помечен", а если строка помечена, в столбце задается значение, отличное от NULL. В JET_bitIndexColumnMustBeNonNull условном индексе этого столбца будут показаны все отмеченные строки, а в условном индексе JET_bitIndexColumnMustBeNull будут показаны непомеченные строки. Это также удобный способ для удаления флагов и сбора мусора.
 
-### <a name="requirements"></a>Requirements (Требования)
+### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JET_CONDITIONALCOLUMN_W</strong> (Юникод) и <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_CONDITIONALCOLUMN_W</strong> (Юникод) и <strong>JET_CONDITIONALCOLUMN_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

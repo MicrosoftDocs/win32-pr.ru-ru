@@ -1,24 +1,24 @@
 ---
 title: Инициализация текстуры из файла
-description: В этом разделе показано, как использовать компонент Windows Imaging Component (WIC) для создания текстуры и представления отдельно.
+description: в этом разделе показано, как использовать компонент Windows imaging (WIC) для создания текстуры и представления отдельно.
 ms.assetid: ea3c6003-191d-47d1-8931-f43598728ad4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf6ba4296c2103d7f84f934899f906500e712cd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b3e8035e630a7b2182c114e329cf4b08428ab3a83ca218b933cb2b922ff305c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027944"
 ---
 # <a name="how-to-initialize-a-texture-from-a-file"></a>Как инициализировать текстуру из файла
 
-Для инициализации [текстуры](overviews-direct3d-11-resources-textures.md) из файла можно использовать API компонента работы с [образами Windows](/windows/desktop/wic/-wic-lh) . Чтобы загрузить текстуру, необходимо создать текстуру и представление текстуры. В этом разделе показано, как использовать компонент Windows Imaging Component (WIC) для создания текстуры и представления отдельно.
+для инициализации [текстуры](overviews-direct3d-11-resources-textures.md) из файла можно использовать API [компонента Windows imaging](/windows/desktop/wic/-wic-lh) . Чтобы загрузить текстуру, необходимо создать текстуру и представление текстуры. в этом разделе показано, как использовать компонент Windows imaging (WIC) для создания текстуры и представления отдельно.
 
 > [!Note]  
 > Этот раздел полезен для изображений, создаваемых в виде простых 2D-текстур. Для более сложных ресурсов используйте [DDS](/windows/desktop/direct3ddds/dx-graphics-dds). Сведения о полнофункциональном модуле чтения, записи и конвейера обработки текстур см. в разделе [директкстекс](https://github.com/Microsoft/DirectXTex) и [директкстк](https://github.com/Microsoft/DirectXTK).
 
- 
+ 
 
 В конце этого раздела вы найдете полный пример кода. В разделе описываются части примера кода, который создает текстуру и представление.
 
@@ -48,11 +48,11 @@ ms.locfileid: "103987782"
     | GUID \_ WICPixelFormat16bppGray                     | \_Формат DXGI \_ R16 \_ UNORM\*                              |
     | GUID \_ WICPixelFormat8bppGray                      | \_Формат DXGI \_ R8 \_ UNORM\*                               |
     | GUID \_ WICPixelFormat8bppAlpha                     | \_Формат DXGI \_ a8 \_ UNORM                                 |
-    | GUID \_ WICPixelFormat96bppRGBFloat (компонент WIC для Windows 8) | \_Формат DXGI \_ R32G32B32 \_ float                          |
+    | GUID \_ WICPixelFormat96bppRGBFloat (Windows 8 WIC) | \_Формат DXGI \_ R32G32B32 \_ float                          |
 
     
 
-     
+     
 
     \* Одноканальные форматы DXGI — это все красные каналы, поэтому для их отображения в виде градаций серого требуется HLSL шейдер свиззлес, например. РРР.
 
@@ -873,7 +873,7 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -883,6 +883,6 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
 [Текстуры](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

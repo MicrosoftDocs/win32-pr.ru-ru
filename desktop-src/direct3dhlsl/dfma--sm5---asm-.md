@@ -4,12 +4,12 @@ description: Выполняет добавление с помощью пред�
 ms.assetid: 5BE96CDB-1756-4EBE-B4CC-69EFF098A4F1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2e6cafc71dbc7d57655524b1b87c9c5b9ba20f3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 84952ed594ba8541223df072fa59550aded581e5517dee3d6f4168b7661a87aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068394"
 ---
 # <a name="dfma-sm5---asm"></a>дфма (SM5-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104335504"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Шейдеры, использующие эту инструкцию, будут помечены флагом построителя текстуры, который приведет к сбою привязки, если не выполняются все следующие условия.
 
@@ -65,7 +65,7 @@ ms.locfileid: "104335504"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -76,7 +76,7 @@ ms.locfileid: "104335504"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

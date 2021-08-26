@@ -4,12 +4,12 @@ ms.assetid: 8BF6EC7A-A87E-45fe-A8F0-4B49594E9E7B
 title: Элемент Property (схема библиотеки)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b269e8914cf1f5da92d96e1922f7347a161daf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481122db633750b042172561eedace81fe1d752e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997250"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468641"
 ---
 # <a name="property-element-library-schema"></a>Элемент Property (схема библиотеки)
 
@@ -43,7 +43,7 @@ ms.locfileid: "104997250"
 
 | Родительский элемент                                                             | Дочерние элементы |
 |----------------------------------------------------------------------------|----------------|
-| [Элемент Пропертисторе (схема библиотеки)](schema-library-propertystore.md) | Нет           |
+| [Элемент Пропертисторе (схема библиотеки)](schema-library-propertystore.md) | None           |
 
 
 
@@ -53,62 +53,22 @@ ms.locfileid: "104997250"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Атрибут</th>
-<th>Описание</th>
-<th>Значения</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>name</td>
-<td>Общедоступный. Обязательный. Отображаемое имя свойства.</td>
 
-</tr>
-<tr class="even">
-<td>type</td>
-<td>Общедоступный. Обязательный. Тип свойства.</td>
-<td><ul>
-<li>Any: по умолчанию. Значение не будет приведено подсистемой свойств. VT_NULL будет возвращено функцией Жетпропертитипе.</li>
-<li>NULL: значение для этого свойства отсутствует. VT_NULL будет возвращено функцией Жетпропертитипе.</li>
-<li>Строка: значение должно быть VT_LPWSTR.</li>
-<li>Boolean: значение должно быть VT_BOOL.</li>
-<li>Byte: значение должно быть VT_UI1.</li>
-<li>Buffer: значение должно быть VT_UI1ом | VT_VECTOR буфер байтов.</li>
-<li>Int16: значение должно быть VT_I2.</li>
-<li>UInt16: значение должно быть VT_UI2.</li>
-<li>Int32: значение должно быть VT_I4.</li>
-<li>UInt32: значение должно быть VT_UI4.</li>
-<li>Int64: значение должно быть VT_I8.</li>
-<li>UInt64: значение должно быть VT_UI8.</li>
-<li>Double: значение должно быть VT_R8.</li>
-<li>DateTime: значение должно быть VT_FILETIME.</li>
-<li>GUID: значение должно быть VT_CLSID.</li>
-<li>BLOB-объект. значение должно быть VT_BLOB.</li>
-<li>Объект: значение должно быть VT_UNKNOWN.</li>
-<li>Stream: значение должно быть VT_STREAM.</li>
-<li>Буфер обмена. значение должно быть VT_CF.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| Атрибут | Описание | Значения | 
+|-----------|-------------|--------|
+| name | Общедоступный. Обязательный. Отображаемое имя свойства. | 
+| тип | Общедоступный. Обязательный. Тип свойства. | <ul><li>Any: по умолчанию. Значение не будет приведено подсистемой свойств. VT_NULL будет возвращено функцией Жетпропертитипе.</li><li>NULL: значение для этого свойства отсутствует. VT_NULL будет возвращено функцией Жетпропертитипе.</li><li>Строка: значение должно быть VT_LPWSTR.</li><li>Boolean: значение должно быть VT_BOOL.</li><li>Byte: значение должно быть VT_UI1.</li><li>Buffer: значение должно быть VT_UI1 | VT_VECTOR буфер байтов.</li><li>Int16: значение должно быть VT_I2.</li><li>UInt16: значение должно быть VT_UI2.</li><li>Int32: значение должно быть VT_I4.</li><li>UInt32: значение должно быть VT_UI4.</li><li>Int64: значение должно быть VT_I8.</li><li>UInt64: значение должно быть VT_UI8.</li><li>Double: значение должно быть VT_R8.</li><li>DateTime: значение должно быть VT_FILETIME.</li><li>GUID: значение должно быть VT_CLSID.</li><li>BLOB-объект. значение должно быть VT_BLOB.</li><li>Объект: значение должно быть VT_UNKNOWN.</li><li>Stream: значение должно быть VT_STREAM.</li><li>Буфер обмена. значение должно быть VT_CF.</li></ul> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Требования к элементу <канонического имени> соответствуют требованиям для поиска Windows и системы свойств Windows. Строка должна иметь тип канонического типа.
+требования к элементу <канонического имени> соответствуют требованиям для Windows поиска и системы свойств Windows. Строка должна иметь тип канонического типа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

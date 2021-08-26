@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 928bda8af246b41bab2c285a5292155917ba8903c6dd71c20177dbf906c64924
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939164"
 ---
 # <a name="inkdisp-class"></a>Класс Инкдисп
 
@@ -72,11 +72,11 @@ ms.locfileid: "108109992"
 |:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**аддстрокесатректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-addstrokesatrectangle)           | Вставляет коллекцию штрихов в объект **инкдисп** на заданном прямоугольнике.<br/>                                                                                                       |
 | [**канпасте**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-canpaste)                                     | Указывает, можно ли преобразовать [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) в объект **инкдисп** .<br/>                                                                                       |
-| [**Усечения**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip)                                      | Удаляет части штриха или коллекции штрихов, находящихся за пределами прямоугольника.<br/>                                                                                                       |
+| [**Clip**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip)                                      | Удаляет части штриха или коллекции штрихов, находящихся за пределами прямоугольника.<br/>                                                                                                       |
 | [**клипбоардкопи**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy)                           | Копирует коллекцию [инкстрокес](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) в буфер обмена.<br/>                                                                                                           |
 | [**клипбоардкопивисректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle) | Копирует объекты [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) , содержащиеся в известном прямоугольнике, в буфер обмена.<br/>                                                               |
 | [**клипбоардпасте**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste)                         | Копирует [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) из буфера обмена в объект **инкдисп** .<br/>                                                                                               |
-| [**Clone (Клонировать)**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Создает дубликат объекта **инкдисп** .<br/>                                                                                                                                                   |
+| [**Клонировать**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Создает дубликат объекта **инкдисп** .<br/>                                                                                                                                                   |
 | [**креатестроке**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke)                             | Создает штрих по точкам или данным пакетов.<br/>                                                                                                                                              |
 | [**креатестрокес**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes)                           | Создает коллекцию [инкстрокес](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) для этого объекта **инкдисп** .<br/>                                                                                                |
 | [**делетестроке**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke)                             | Удаляет штрих из объекта **инкдисп** .<br/>                                                                                                                                             |
@@ -87,7 +87,7 @@ ms.locfileid: "108109992"
 | [**хиттестЦиркле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle)                   | Извлекает коллекцию [**инкстрокес**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) , которая полностью находится внутри известного круга или пересекается ей.<br/>                                                  |
 | [**хиттествислассо**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso)              | Извлекает штрихи в области выделения ломаной линии.<br/>                                                                                                                                   |
 | [**хиттествисректангле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle)        | Извлекает штрихи, содержащиеся в указанном прямоугольнике.<br/>                                                                                                                    |
-| [**Загрузка**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Заполняет новый объект **инкдисп** известными двоичными данными.<br/>                                                                                                                                |
+| [**Загрузить**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Заполняет новый объект **инкдисп** известными двоичными данными.<br/>                                                                                                                                |
 | [**неарестпоинт**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint)                             | Извлекает [**иинкстрокедисп**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) в объекте **инкдисп** , который является ближайшим к известной точке, при необходимости предоставляя дополнительные сведения.<br/>                       |
 | [**Сохранить**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save)                                             | Преобразует рукописный ввод в указанный формат и возвращает двоичные данные.<br/>                                                                                                                       |
 
@@ -117,7 +117,7 @@ ms.locfileid: "108109992"
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
 > [!Note]  
-> Первый экземпляр этого объекта также приводит к созданию экземпляра GDI+. Побочный результат заключается в том, что если вы используете один объект рукописного ввода в цикле и создаете и уничтожаете его в цикле, вы заставите экземпляр GDI+ выполняться повторно. Это может привести к снижению производительности приложения. Чтобы предотвратить это, следует постоянно размещать один экземпляр объекта рукописного ввода, пока приложение использует рукописный ввод.
+> при первом создании экземпляра этого объекта GDI+ также создается экземпляр. побочным действием является то, что если вы используете один объект рукописного ввода в цикле и создаете и уничтожаете его в цикле, то GDI+ будет создаваться заново. Это может привести к снижению производительности приложения. Чтобы предотвратить это, следует постоянно размещать один экземпляр объекта рукописного ввода, пока приложение использует рукописный ввод.
 
  
 
@@ -129,15 +129,15 @@ ms.locfileid: "108109992"
 
 Объект [**инкрендерер**](inkrenderer-class.md) управляет сопоставлениями рукописного ввода и окна отображения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
-| Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |
 
 

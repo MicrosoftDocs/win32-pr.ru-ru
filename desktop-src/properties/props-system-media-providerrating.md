@@ -4,12 +4,12 @@ ms.assetid: 72e29588-cb22-443f-a404-f192fe680207
 title: System. Media. Провидерратинг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d4a4ea401815cb45e56e753c15b637a69eff61
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ae0f9c47b7e77097f0b9647c3681e8f19d0834a1a634eeb98e9b3e8aafe1c1df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938324"
 ---
 # <a name="systemmediaproviderrating"></a>System. Media. Провидерратинг
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

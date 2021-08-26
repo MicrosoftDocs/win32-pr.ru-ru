@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9b0f6628d7bc75378915c1d9f3e20327478742df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c5948ad99111dc87578dfa15c5278cf03d5918e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997302"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469751"
 ---
 # <a name="extending-system-control-panel-items"></a>Расширение элементов панели управления "система"
 
@@ -36,90 +36,26 @@ HKEY_LOCAL_MACHINE
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент панели управления</th>
-<th><em>name</em></th>
-<th>Примечания</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Отображение</td>
-<td>Поддержки</td>
-<td>Также поддерживает замену страницы <strong>рабочего стола</strong> .
-<blockquote>
-[!Note]<br />
-В Windows Vista эта поддержка больше не поддерживается.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Дополнительные параметры экрана</td>
-<td>Устройство</td>
-<td>Дополнительные свойства, не зависящие от оборудования.
-<blockquote>
-[!Note]<br />
-В Windows Vista эта поддержка больше не поддерживается.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Дополнительные параметры экрана</td>
-<td>Отображение</td>
-<td>Дополнительные свойства, относящиеся к оборудованию.
-<blockquote>
-[!Note]<br />
-В Windows Vista эта поддержка больше не поддерживается.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Свойства браузера</td>
-<td>Интернет</td>
-<td>Максимальное число страниц расширения — 18.</td>
-</tr>
-<tr class="odd">
-<td>Keyboard (Клавиатура)</td>
-<td>Keyboard (Клавиатура)</td>
-<td>Максимальное число страниц расширения — 30.</td>
-</tr>
-<tr class="even">
-<td>Мышь</td>
-<td>Мышь</td>
-<td>Также поддерживает замену стандартных страниц. Максимальное число страниц расширения — 8.</td>
-</tr>
-<tr class="odd">
-<td>Параметры электропитания</td>
-<td>Мощный</td>
-<td>Максимальное число страниц, включая стандартные страницы, равно 18.</td>
-</tr>
-<tr class="even">
-<td>Система</td>
-<td>Система</td>
-<td>Максимальное число страниц расширения — 8.
-<blockquote>
-[!Note]<br />
-В Windows Vista эта поддержка больше не поддерживается.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент панели управления | <em>name</em> | Комментарии | 
+|--------------------|---------------|---------|
+| Отображение | Поддержки | Также поддерживает замену страницы <strong>рабочего стола</strong> .<blockquote>[!Note]<br />она больше не поддерживается в Windows Vista.</blockquote><br /> | 
+| отображение Параметры дополнительно | Устройство | Дополнительные свойства, не зависящие от оборудования.<blockquote>[!Note]<br />она больше не поддерживается в Windows Vista.</blockquote><br /> | 
+| отображение Параметры дополнительно | Отображение | Дополнительные свойства, относящиеся к оборудованию.<blockquote>[!Note]<br />она больше не поддерживается в Windows Vista.</blockquote><br /> | 
+| Параметры Интернета | Интернет | Максимальное число страниц расширения — 18. | 
+| Keyboard (Клавиатура) | Keyboard (Клавиатура) | Максимальное число страниц расширения — 30. | 
+| Мышь | Мышь | Также поддерживает замену стандартных страниц. Максимальное число страниц расширения — 8. | 
+| Параметры электропитания | Питание | Максимальное число страниц, включая стандартные страницы, равно 18. | 
+| Система | Система | Максимальное число страниц расширения — 8.<blockquote>[!Note]<br />она больше не поддерживается в Windows Vista.</blockquote><br /> | 
+
 
 
 
  
 
-Элемент **Установка и удаление программ** на панели управления Windows XP не является страницей свойств и поэтому не может быть расширен методами, обсуждаемыми здесь. Вместо этого его содержимое получает издательы приложений. Дополнительные сведения о добавлении содержимого для **установки и удаления программ** см. в [**разделе иапппублишер**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher), [**иенумпублишедаппс**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)и [**ипублишедапп**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp).
+элемент **установка и удаление программ** на панели управления Windows XP не является вкладкой свойств и поэтому не может быть расширен методами, обсуждаемыми здесь. Вместо этого его содержимое получает издательы приложений. Дополнительные сведения о добавлении содержимого для **установки и удаления программ** см. в [**разделе иапппублишер**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher), [**иенумпублишедаппс**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)и [**ипублишедапп**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -147,7 +83,7 @@ HKEY_LOCAL_MACHINE
 [Создание ссылок на задачи с возможностью поиска для элемента панели управления](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Доступ к панели управления в защищенном режиме в Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[доступ к панели управления в режиме Сейф в разделе Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

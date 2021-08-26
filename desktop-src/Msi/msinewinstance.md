@@ -4,26 +4,26 @@ ms.assetid: 35d41fa9-79d3-4baa-b177-5a32239b5051
 title: МСИНЕВИНСТАНЦЕ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8b51ec02d7b30c42e6e400b6a6177d7ef47d88c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b26831f1171813d9df9e2c4124a4d6c24ea7efbf707fc5c15eefc9d6a8b1046
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082854"
 ---
 # <a name="msinewinstance-property"></a>МСИНЕВИНСТАНЦЕ, свойство
 
 Свойство **мсиневинстанце** указывает установку нового экземпляра продукта с преобразованиями экземпляра. Это свойство поддерживает несколько экземпляров с помощью кода продукта — изменение преобразований. Значение этого свойства равно 1. Наличие этого свойства в командной строке требует наличия также свойства [**TRANSFORMS**](transforms.md) . Первое преобразование, перечисленное в **ПРЕобразованиях** , должно быть преобразованием экземпляра. Дополнительные сведения см. в разделе [Установка нескольких экземпляров продуктов и исправлений](installing-multiple-instances-of-products-and-patches.md) .
 
-Это свойство доступно в установщике, работающем под управлением системы Windows Server 2003 или Windows XP.
+это свойство доступно в установщике, работающем под управлением системы на Windows Server 2003 или Windows XP.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "105668874"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

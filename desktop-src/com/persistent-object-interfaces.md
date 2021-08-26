@@ -4,12 +4,12 @@ description: Постоянный объект реализует один ил�
 ms.assetid: 8c8e44e4-f564-4af5-9a8a-ac6883862cae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5df8920f1242d077044654d1090adcc0e3f3f05c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 97ee1062c80a5c40d139965e0e3bebf96cbda534062322e218e2f5a7da586ff0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120414"
 ---
 # <a name="persistent-object-interfaces"></a>Постоянные интерфейсы объектов
 
@@ -36,7 +36,7 @@ ms.locfileid: "103987941"
 | Моникеров<br/>                 | [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream)<br/>                                                                                                                                                      |
 | Внедряемые объекты OLE<br/>   | [**Иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [ **IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |
 | Элементы управления ActiveX<br/>         | [**Иперсистстреаминит**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), Иперсистмемори, IPersistPropertyBag, [**иперсистмоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))<br/> |
-| Объекты документов ActiveX<br/> | [**Иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [ **IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |
+| ActiveX объектов документов<br/> | [**Иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage), [ **IPersistFile**](/windows/desktop/api/ObjIdl/nn-objidl-ipersistfile)<br/>                                                                                                              |
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "103987941"
 
 Разработчики клиентов могут также выбирать, какие объекты постоянных объектов может использовать клиент. Интерфейсы, используемые клиентом, обычно определяются в том месте, где клиент может хранить свои данные. Клиент, который может хранить свои данные только в неструктурированном файле, вероятно, будет использовать только [**иперсистстреаминит**](/windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit), [**иперсистмоникер**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))и IPersistPropertyBag. (**Иперсистстреаминит** может заменить [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) в большинстве приложений, так как в нем содержится это определение и добавлен метод инициализации.) Клиент, который может сохранить свои данные в структурированном файле хранилища, также будет использовать [**иперсистстораже**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
