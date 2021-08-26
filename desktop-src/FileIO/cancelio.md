@@ -17,12 +17,12 @@ api_location:
 - KernelBase.dll
 - MinKernelBase.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: adb1ab95b30b31670a6ff5a4cc0e0205943f7683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 900a47d51df882ce1f2931489ea93b5e3b4c498b8d5cc0f35e521e015e12c1d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075344"
 ---
 # <a name="cancelio-function"></a>Функция Канцелио
 
@@ -60,7 +60,7 @@ BOOL WINAPI CancelIo(
 
 Если функция завершается ошибкой, возвращаемое значение равно нулю (0). Чтобы получить расширенные сведения об ошибке, вызовите функцию [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для указанного маркера файла выполняются ожидающие выполнения операции ввода-вывода и они выдаются вызывающим потоком, функция **канцелио** отменяет их. **Канцелио** отменяет только что необработанные операции ввода-вывода для маркера, он не изменяет состояние маркера. Это означает, что вы не можете полагаться на состояние маркера, так как вы не можете определить, завершилась ли операция успешно или отменена.
 
@@ -68,7 +68,7 @@ BOOL WINAPI CancelIo(
 
 Все операции ввода-вывода, отмененные с ошибкой, **\_ \_ прерываются**, и все уведомления о завершении операций ввода-вывода выполняются обычным образом.
 
-В Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
+в Windows 8 и Windows Server 2012 эта функция поддерживается следующими технологиями.
 
 
 
@@ -84,21 +84,21 @@ BOOL WINAPI CancelIo(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows XP \|\]<br/>                                                                                                                                                                                                                                                       |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2003 \|\]<br/>                                                                                                                                                                                                                                              |
-| Header<br/>                   | <dl> <dt>Иоапи. h (включение Windows. h); </dt> <dt>Винбасе. h в Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений XP \|\]<br/>                                                                                                                                                                                                                                                       |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2003 \|\]<br/>                                                                                                                                                                                                                                              |
+| Заголовок<br/>                   | <dl> <dt>иоапи. h (включает Windows. h);</dt> <dt>винбасе. h на Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 и Windows XP (включая Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

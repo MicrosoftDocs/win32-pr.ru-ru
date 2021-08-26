@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7ddfbb739a8cf8e93ee2c2214e14095ac68bd77
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d545bebde1ed2df8a4c67cdf8d32d0a91499ed42076b2c1b31539d96069d3688
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033094"
 ---
 # <a name="imsrdpdevice-interface"></a>Интерфейс Имсрдпдевице
 
@@ -33,7 +33,7 @@ ms.locfileid: "105672541"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **имсрдпдевице** имеет следующие свойства.
 
@@ -50,7 +50,7 @@ ms.locfileid: "105672541"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ ms.locfileid: "105672541"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

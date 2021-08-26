@@ -4,12 +4,12 @@ ms.assetid: 8e44cb02-cf79-4b19-807e-20cea07362af
 title: Событие DBT_DEVICEARRIVAL (ДБТ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f69c2feec996b4306c271454767ca4e75d1ff855
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 826d0b510ca76b829eb683396c99579c14a512a6773b76a2049ae7963ede54a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088154"
 ---
 # <a name="dbt_devicearrival-event"></a>\_Событие ДБТ девицеарривал
 
@@ -65,7 +65,7 @@ LRESULT CALLBACK WindowProc(
 
 Возвращает **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если вставляется носитель, тип поступающих устройств — это том ( **дбч \_ типа устройства** ДБТ \_ девтип \_ Volume), и изменение влияет на носитель (член **дбкв \_ flags** — дбтф \_ Media).
 
@@ -73,7 +73,7 @@ LRESULT CALLBACK WindowProc(
 
 Пример см. в разделе [обнаружение вставки или удаления носителя](detecting-media-insertion-or-removal.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,11 +81,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows XP<br/>                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2003<br/>                                                   |
-| Header<br/>                   | <dl> <dt>ДБТ. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ДБТ. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

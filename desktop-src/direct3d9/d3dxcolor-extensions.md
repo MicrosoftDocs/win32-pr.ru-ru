@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 7f457332f371b2c452a465c5b831774488301c6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a07d697192d838298f76205aeb3010fda7bf6a08f58f39fe58893444f604231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103914764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096294"
 ---
 # <a name="d3dxcolor-extensions"></a>Расширения D3DXCOLOR
 
@@ -80,26 +80,26 @@ public:
 
 Дополнительные сведения о членах структуры см. в разделе [**D3DXCOLOR**](d3dxcolor.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перегрузки операторов и приведения типов для этой структуры реализуются в d3dx9math. inl.
 
 > [!Note]  
-> При запуске конструктора D3DXCOLOR () в режиме отладки в Microsoft Visual Studio 2010 с параметром компилятора " [проверки ошибок во время выполнения" (/RTCC)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) происходит сбой во время выполнения.
+> при запуске конструктора D3DXCOLOR () в режиме отладки в Microsoft Visual Studio 2010 с параметром компилятора " [проверки ошибок во время выполнения" (/RTCc)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) происходит сбой во время выполнения.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

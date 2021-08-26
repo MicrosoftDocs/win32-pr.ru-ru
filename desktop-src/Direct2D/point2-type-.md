@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d925cc5676e6f0c9a8fb27a3ba2a12591ee87a5a72d5937e365fa57179e47ce1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e79208c0e68736ae91d623622c13bbeb624ab760
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887199"
 ---
-# <a name="point2type-function"></a><Type>Функция Point2
+# <a name="point2lttypegt-function"></a>&lt;Функция типа &gt; Point2
 
 Создает точку, в которой хранятся координаты, используя указанный тип данных.
 
@@ -62,7 +62,7 @@ typename TypeTraits<Type>::Point Point2(
 
 Точка, которая содержит заданную координату x и y.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

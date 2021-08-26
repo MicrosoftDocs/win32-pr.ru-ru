@@ -4,12 +4,12 @@ ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: Таблица AppId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e8452635cd7c167d6a8618629eaec2f6f6c1aa2e72e0b3628a7d4542a9e7160
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d9a121e6252c6054d5ac2765a9649e345035dde
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882221"
 ---
 # <a name="appid-table"></a>Таблица AppId
 
@@ -28,13 +28,13 @@ ms.locfileid: "119066274"
 
 | Столбец               | Type                       | Ключ | Допускает значения NULL |
 |----------------------|----------------------------|-----|----------|
-| AppId                | [GUID](guid.md)           | Д   | Нет        |
-| ремотесервернаме     | [Формате](formatted.md) | Нет   | Д        |
-| локальная служба.         | [Text](text.md)           | Нет   | Д        |
-| сервицепараметерс    | [Text](text.md)           | Нет   | Д        |
-| дллсуррогате         | [Text](text.md)           | Нет   | Д        |
-| активатеатстораже    | [Integer](integer.md)     | Нет   | Д        |
-| рунасинтерактивеусер | [Integer](integer.md)     | Нет   | Д        |
+| AppId                | [GUID](guid.md)           | Да   | Нет        |
+| ремотесервернаме     | [Формате](formatted.md) | N   | Да        |
+| локальная служба.         | [Text](text.md)           | Нет   | Да        |
+| сервицепараметерс    | [Text](text.md)           | Нет   | Да        |
+| дллсуррогате         | [Text](text.md)           | Нет   | Да        |
+| активатеатстораже    | [Integer](integer.md)     | Нет   | Да        |
+| рунасинтерактивеусер | [Integer](integer.md)     | Нет   | Да        |
 
 
 
@@ -54,14 +54,14 @@ ms.locfileid: "119066274"
 <span id="RemoteServerName"></span><span id="remoteservername"></span><span id="REMOTESERVERNAME"></span>ремотесервернаме
 </dt> <dd>
 
-Этот столбец содержит значение "Ремотесервернаме" = <xxxx> , которое будет записано в разделе HKCR \\ AppID \\ {AppID} \\ .
+Этот столбец содержит значение "Ремотесервернаме" = &lt; XXXX &gt; , которое будет записано в разделе HKCR \\ AppID \\ {AppID} \\ .
 
 </dd> <dt>
 
 <span id="LocalService"></span><span id="localservice"></span><span id="LOCALSERVICE"></span>LocalService
 </dt> <dd>
 
-Этот столбец содержит значение LocalService, которое будет записано в разделе HKCR \\ AppID \\ { <appid> } "LocalService" = <xxx> .
+Этот столбец содержит значение LocalService, которое будет записано в разделе HKCR \\ AppID \\ { &lt; AppID &gt; } "LocalService" = &lt; xxx &gt; .
 
 </dd> <dt>
 
@@ -75,14 +75,14 @@ ms.locfileid: "119066274"
 <span id="DllSurrogate"></span><span id="dllsurrogate"></span><span id="DLLSURROGATE"></span>дллсуррогате
 </dt> <dd>
 
-Этот столбец содержит значение Дллсуррогате, которое будет записано в разделе HKCR \\ AppID \\ { <appid> } "дллсуррогате" = <xxx> . Если этот столбец уже имеется, он обычно будет пустой строкой.
+Этот столбец содержит значение Дллсуррогате, которое будет записано в разделе HKCR \\ AppID \\ { &lt; AppID &gt; } "дллсуррогате" = &lt; xxx &gt; . Если этот столбец уже имеется, он обычно будет пустой строкой.
 
 </dd> <dt>
 
 <span id="ActivateAtStorage"></span><span id="activateatstorage"></span><span id="ACTIVATEATSTORAGE"></span>активатеатстораже
 </dt> <dd>
 
-ненулевое целочисленное значение в этом поле приводит к тому, что установщик Windows записи HKCR \\ AppID \\ { <appid> } "активатеатстораже" = "Y" в реестр. Если поле оставлено пустым или имеет нулевое значение, значение не будет записано.
+ненулевое целочисленное значение в этом поле приводит к тому, что установщик Windows записи HKCR \\ AppID \\ { &lt; appid &gt; } "активатеатстораже" = "Y" в реестр. Если поле оставлено пустым или имеет нулевое значение, значение не будет записано.
 
 </dd> <dt>
 
@@ -93,7 +93,7 @@ ms.locfileid: "119066274"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Эта таблица используется действием [регистерклассинфо](registerclassinfo-action.md) и [унрегистерклассинфо](unregisterclassinfo-action.md).
 

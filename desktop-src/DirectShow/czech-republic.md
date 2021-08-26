@@ -4,12 +4,12 @@ ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: Чешская Республика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e3d946fdfc42f0e418d7bba1a786d49c5d6785
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: cadcc51becba548bcbd59421866bebaf52c624bfe1913bf01f4b87af15d287bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998443"
 ---
 # <a name="czech-republic"></a>Чешская Республика
 
@@ -17,7 +17,7 @@ ms.locfileid: "112068030"
 
 Индексы частоты в таблицах Чешской Республики не подходят для использования в качестве номеров каналов.
 
--   [Windows 7 и более поздние версии](#windows-7-and-later)
+-   [Windows 7 и более поздних версий](#windows-7-and-later)
     -   [Чешская Республика назначений для вещания](#czech-republic-broadcast-assignments)
     -   [Назначений кабелей Чешской Республики](#czech-republic-cable-assignments)
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
@@ -25,7 +25,7 @@ ms.locfileid: "112068030"
     -   [Назначений кабелей Чешской Республики](#czech-republic-cable-assignments)
 -   [Связанные темы](#related-topics)
 
-## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
+## <a name="windows-7-and-later"></a>Windows 7 и более поздних версий
 
 ### <a name="czech-republic-broadcast-assignments"></a>Чешская Республика назначений для вещания
 

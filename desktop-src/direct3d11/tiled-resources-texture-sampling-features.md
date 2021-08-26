@@ -4,12 +4,12 @@ description: В этом разделе описываются функции в
 ms.assetid: E56737CE-C468-4D3C-84EE-E8EB2AB6F505
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdd46c96219e54aea6990e91de8e340fdca5e32b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1356b274b5e101a730e3de92a6cdf98b1f293515228fb420a77642f4603757c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119484"
 ---
 # <a name="tiled-resources-texture-sampling-features"></a>Функции выборки текстур для мозаичных ресурсов
 
@@ -63,13 +63,13 @@ Min/max фильтрации сокращения — это режим диск
 
 Поддержка этой функции зависит от поддержки [уровня 2](tier-2.md) для мозаичного распределения ресурсов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Доступ конвейера к мозаичным ресурсам](pipeline-access-to-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

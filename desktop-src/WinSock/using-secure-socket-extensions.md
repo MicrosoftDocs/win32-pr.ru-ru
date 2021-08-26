@@ -4,12 +4,12 @@ ms.assetid: d5e2f9d0-c61f-42d3-b62b-6c75b221ae24
 title: Использование расширений SSL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8a9abf9f3e9feee9e47a9925de08e49c66e821
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ad8c9569631303c2b9cc12d3e70b4c5483d461a5d60d8810033ffd49be5743c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121174"
 ---
 # <a name="using-secure-socket-extensions"></a>Использование расширений SSL
 
@@ -278,11 +278,11 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О платформе фильтрации Windows](../fwp/about-windows-filtering-platform.md)
+[сведения о платформе фильтрации Windows](../fwp/about-windows-filtering-platform.md)
 </dt> <dt>
 
 [Расширенные примеры Winsock с использованием расширений SSL](advanced-winsock-samples-using-secure-socket-extensions.md)
@@ -303,7 +303,7 @@ int QueryTcpSocketSecurity(IN SOCKET sock)
 [Платформа фильтрации Windows](../fwp/windows-filtering-platform-start-page.md)
 </dt> <dt>
 
-[Функции API платформы фильтрации Windows](../fwp/fwp-functions.md)
+[Windows Функции API платформы фильтрации](../fwp/fwp-functions.md)
 </dt> <dt>
 
 [Расширения безопасных сокетов Winsock](winsock-secure-socket-extensions.md)

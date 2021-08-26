@@ -1,6 +1,6 @@
 ---
-title: Константы ошибки журнала событий Windows (WinError. h)
-description: Ниже приведены коды ошибок, которые определяет журнал событий Windows.
+title: Windows Константы ошибок журнала событий (WinError. h)
+description: ниже приведены коды ошибок, которые Windows определяет журнал событий.
 ms.assetid: 889ea4ae-dede-45d5-9293-cec85d81f010
 topic_type:
 - apiref
@@ -49,16 +49,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5443d98c53d6abedbe3a0027e8e2e524ae9df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0f6f0bd3e2805c02dad78c064b56a443bfbb596cf42f25e9b52ac7ba584f123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031944"
 ---
-# <a name="windows-event-log-error-constants"></a>Константы ошибки журнала событий Windows
+# <a name="windows-event-log-error-constants"></a>Windows Константы ошибок журнала событий
 
-Ниже приведены коды ошибок, которые определяет журнал событий Windows.
+ниже приведены коды ошибок, которые Windows определяет журнал событий.
 
 <dl> <dt>
 
@@ -218,7 +218,7 @@ ms.locfileid: "105691930"
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**Ошибка \_ EVT, \_ не \_ проверяющая \_ MSXML**
+<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**Ошибка \_ EVT, \_ не \_ проверяя \_ MSXML**
 </dt> <dd> <dl> <dt>
 
 15013
@@ -226,7 +226,7 @@ ms.locfileid: "105691930"
 
 
 
-Зарегистрированный синтаксический анализатор MSXML не поддерживает проверку.
+зарегистрированный синтаксический анализатор MSXML не поддерживает проверку.
 
 
 </dt> </dl> </dd> <dt>
@@ -556,15 +556,15 @@ ms.locfileid: "105691930"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 
 

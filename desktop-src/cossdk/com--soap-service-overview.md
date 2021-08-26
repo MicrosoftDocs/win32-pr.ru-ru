@@ -4,12 +4,12 @@ ms.assetid: 44f3ff21-4978-4902-aa74-ddeef60881db
 title: Общие сведения о службе COM+ SOAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b93ce7d80753f306777d3ac0b77dc46dc4e08d22
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 68501d80596d8547715cb1694fe77a17a3ab4b6955ad1e1acd596f249be5f231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096874"
 ---
 # <a name="com-soap-service-overview"></a>Общие сведения о службе COM+ SOAP
 
@@ -89,7 +89,7 @@ COM+ упрощает использование веб-служб XML, позв
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

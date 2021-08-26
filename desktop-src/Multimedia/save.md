@@ -3,7 +3,7 @@ title: Команда "Сохранить"
 description: Команда Save сохраняет файл MCI. Эта команда распознает видео-наложение и аудио-изображения. Несмотря на то, что Цифровые видеоустройства и технологии MIDI также распознают эту команду, они не поддерживаются драйверами МЦИАВИ и МЦИСЕК.
 ms.assetid: cae199b3-4ac4-49e0-9213-12d816b2f865
 keywords:
-- сохранение команд мультимедиа Windows
+- команда "сохранить" Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0029ad03c1b7fe855e8485b2719b11628fac1103
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0c7b4fb75f78f8468a204217f5a4fa1593a1c50d5db541a83070a7faed41cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037484"
 ---
 # <a name="save-command"></a>Команда "Сохранить"
 
@@ -92,7 +92,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переменная *filename* является обязательной, если устройство было открыто с помощью идентификатора устройства "New".
 

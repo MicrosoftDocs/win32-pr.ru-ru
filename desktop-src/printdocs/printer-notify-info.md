@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 631169cfcdabd6a87459ebb777adb6842d09089b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26c7fca07eda8638bf657055691d72c78bccdbec6ef2b9a8c76ee7cf830bc767
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091854"
 ---
 # <a name="printer_notify_info-structure"></a>\_Структура сведений об уведомлении принтера \_
 
@@ -42,7 +42,7 @@ typedef struct _PRINTER_NOTIFY_INFO {
 
 <dl> <dt>
 
-**Version**
+**Версия**
 </dt> <dd>
 
 Версия этой структуры. Установите для этого элемента значение 2.
@@ -70,7 +70,7 @@ typedef struct _PRINTER_NOTIFY_INFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент **flags** имеет \_ установленный бит уведомления о принтерах \_ \_ , это указывает на то, что произошло переполнение или ошибка, а уведомления могли быть потеряны. В этом случае необходимо вызвать [**финднекстпринтерчанженотификатион**](findnextprinterchangenotification.md) и указать \_ \_ \_ флаг обновления параметров принтера для получения всех текущих данных. Пока вы не запрашиваете эту операцию обновления, система не будет отправлять дополнительные уведомления для этого объекта уведомления об изменении.
 
@@ -82,7 +82,7 @@ typedef struct _PRINTER_NOTIFY_INFO {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 

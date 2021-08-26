@@ -1,11 +1,11 @@
 ---
-title: Класс MS-SQL-OLAPServer
-description: Контейнер для хранения объектов MS-SQL-Олапдатабасе.
+title: класс MS-SQL-OLAPServer
+description: контейнер для хранения объектов MS-SQL-олапдатабасе.
 ms.assetid: b7364669-a29e-47a4-828c-a610c9d721ad
 ms.tgt_platform: multiple
 keywords:
-- Схема AD класса MS-SQL-OLAPServer
-- Схема AD класса mS-SQL-OLAPServer
+- схема AD класса MS-SQL-OLAPServer
+- схема AD класса mS-SQL-OLAPServer
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c411a3f31ed01e66e42e7ccbc848761d5dc5ec9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c6871a78a9a7bb420406669f182cf59b2222caa8ab57bfcc0e611cc4e827b0c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104493449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922475"
 ---
-# <a name="ms-sql-olapserver-class"></a>Класс MS-SQL-OLAPServer
+# <a name="ms-sql-olapserver-class"></a>класс MS-SQL-OLAPServer
 
-Контейнер для хранения объектов [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md) .
+контейнер для хранения объектов [**MS-SQL-олапдатабасе**](c-ms-sql-olapdatabase.md) .
 
 
 
@@ -69,9 +69,9 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-2000-server-attributes"></a>Атрибуты сервера Windows 2000
+## <a name="windows-2000-server-attributes"></a>атрибуты сервера Windows 2000
 
-Этот класс содержит следующие атрибуты для сервера Windows 2000:
+этот класс содержит следующие атрибуты для сервера Windows 2000:
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "104493449"
 | [**Allowed-Child-classes-эффективен**](a-allowedchildclasseseffective.md) | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                               | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                               | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -98,12 +98,12 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                   | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                   | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                            | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                            | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                         | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -111,23 +111,23 @@ ms.locfileid: "104493449"
 | [**Метка времени изменения**](a-modifytimestamp.md)                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-целостность-дочерняя — количество**](a-ms-ds-consistencychildcount.md)    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Consistencу-Guid**](a-ms-ds-consistencyguid.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                              | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                              | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                              | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                  | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                               | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                               | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -193,9 +193,9 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -210,7 +210,7 @@ ms.locfileid: "104493449"
 | [**Версия App-Schema-Version**](a-appschemaversion.md)                            | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -223,12 +223,12 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                              | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                              | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                           | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -250,27 +250,27 @@ ms.locfileid: "104493449"
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                        | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                        | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -305,7 +305,7 @@ ms.locfileid: "104493449"
 | [**USN — межсайтовая**](a-usnintersite.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**USN-Last-obj-REM**](a-usnlastobjrem.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Источник USN**](a-usnsource.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Vendor**](a-vendor.md)                                                  | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
+| [**поставщик**](a-vendor.md)                                                  | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии**](a-versionnumber.md)                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии — Hi**](a-versionnumberhi.md)                              | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Версия-номер**](a-versionnumberlo.md)                              | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
@@ -341,9 +341,9 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -358,7 +358,7 @@ ms.locfileid: "104493449"
 | [**Версия App-Schema-Version**](a-appschemaversion.md)                            | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                                 | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                 | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -371,12 +371,12 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                              | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                              | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                           | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -400,28 +400,28 @@ ms.locfileid: "104493449"
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-REPL-Attribute-Meta-Data**](a-msds-replattributemetadata.md)      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-параметры**](a-msds-settings.md)                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                      | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                        | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                                | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                        | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                    | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                  | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                                 | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                       | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -456,7 +456,7 @@ ms.locfileid: "104493449"
 | [**USN — межсайтовая**](a-usnintersite.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**USN-Last-obj-REM**](a-usnlastobjrem.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Источник USN**](a-usnsource.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Vendor**](a-vendor.md)                                                  | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
+| [**поставщик**](a-vendor.md)                                                  | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии**](a-versionnumber.md)                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии — Hi**](a-versionnumberhi.md)                              | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Версия-номер**](a-versionnumberlo.md)                              | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
@@ -492,9 +492,9 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -509,7 +509,7 @@ ms.locfileid: "104493449"
 | [**Версия App-Schema-Version**](a-appschemaversion.md)                               | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                                    | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                    | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -522,12 +522,12 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                        | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                                 | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                                 | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                              | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -562,28 +562,28 @@ ms.locfileid: "104493449"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-параметры**](a-msds-settings.md)                                      | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                      | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                           | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                           | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                                    | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -618,7 +618,7 @@ ms.locfileid: "104493449"
 | [**USN — межсайтовая**](a-usnintersite.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**USN-Last-obj-REM**](a-usnlastobjrem.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Источник USN**](a-usnsource.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Vendor**](a-vendor.md)                                                     | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
+| [**поставщик**](a-vendor.md)                                                     | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии**](a-versionnumber.md)                                      | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии — Hi**](a-versionnumberhi.md)                                 | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Версия-номер**](a-versionnumberlo.md)                                 | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
@@ -654,9 +654,9 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -671,7 +671,7 @@ ms.locfileid: "104493449"
 | [**Версия App-Schema-Version**](a-appschemaversion.md)                                 | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                                      | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                      | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                             | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -684,13 +684,13 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                          | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                          | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является перезапущенным**](a-isrecycled.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                                   | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                                | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -731,28 +731,28 @@ ms.locfileid: "104493449"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-параметры**](a-msds-settings.md)                                        | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                        | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                           | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                           | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                             | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                             | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                         | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                                      | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                            | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                            | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                              | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -787,7 +787,7 @@ ms.locfileid: "104493449"
 | [**USN — межсайтовая**](a-usnintersite.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**USN-Last-obj-REM**](a-usnlastobjrem.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Источник USN**](a-usnsource.md)                                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Vendor**](a-vendor.md)                                                       | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
+| [**поставщик**](a-vendor.md)                                                       | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии**](a-versionnumber.md)                                        | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии — Hi**](a-versionnumberhi.md)                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Версия-номер**](a-versionnumberlo.md)                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
@@ -823,7 +823,7 @@ ms.locfileid: "104493449"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -840,7 +840,7 @@ ms.locfileid: "104493449"
 | [**Версия App-Schema-Version**](a-appschemaversion.md)                                             | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Плацдарм-Server-List-BL**](a-bridgeheadserverlistbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Каноническое имя**](a-canonicalname.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Common-Name**](a-cn.md)                                                                  | True      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
+| [**Common-Name**](a-cn.md)                                                                  | Верно      | [**Точка соединения**](c-connectionpoint.md)<br/> [**Вверх**](c-top.md)<br/> |
 | [**Метка времени создания**](a-createtimestamp.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Описание**](a-description.md)                                                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Отображаемое имя**](a-displayname.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -853,13 +853,13 @@ ms.locfileid: "104493449"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Имеет права владельца**](a-isprivilegeholder.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Является перезапущенным**](a-isrecycled.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Keywords**](a-keywords.md)                                                               | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**Словами**](a-keywords.md)                                                               | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Последний-известный-родительский**](a-lastknownparent.md)                                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Под управлением**](a-managedby.md)                                                            | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**Управляемые объекты**](a-managedobjects.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -903,31 +903,31 @@ ms.locfileid: "104493449"
 | [**MS-DS-REPL-value-Meta-Data**](a-msds-replvaluemetadata.md)                               | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выявил-DSA**](a-msds-revealeddsas.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-параметры**](a-msds-settings.md)                                                    | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
+| [**ms-DS-Параметры**](a-msds-settings.md)                                                    | Неверно     | [**Точка соединения**](c-connectionpoint.md)<br/>                                 |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**MS-SQL-Build**](a-ms-sql-build.md)                                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Контакт MS-SQL**](a-ms-sql-contact.md)                                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Информатионурл**](a-ms-sql-informationurl.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — сборка**](a-ms-sql-build.md)                                                       | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Contact**](a-ms-sql-contact.md)                                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-информатионурл**](a-ms-sql-informationurl.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL — ключевые слова**](a-ms-sql-keywords.md)                                                 | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Язык MS-SQL-Language**](a-ms-sql-language.md)                                                 | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**Имя MS-SQL**](a-ms-sql-name.md)                                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Публикатионурл**](a-ms-sql-publicationurl.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-Регистередовнер**](a-ms-sql-registeredowner.md)                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Language**](a-ms-sql-language.md)                                                 | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**имя MS-SQL**](a-ms-sql-name.md)                                                         | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-публикатионурл**](a-ms-sql-publicationurl.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-регистередовнер**](a-ms-sql-registeredowner.md)                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**MS-SQL-учетная запись службы**](a-ms-sql-serviceaccount.md)                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-состояние**](a-ms-sql-status.md)                                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
-| [**MS-SQL-версия**](a-ms-sql-version.md)                                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL — состояние**](a-ms-sql-status.md)                                                     | Неверно     | **MS-SQL-OLAPServer**                                                                    |
+| [**MS-SQL-Version**](a-ms-sql-version.md)                                                   | Неверно     | **MS-SQL-OLAPServer**                                                                    |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
@@ -962,7 +962,7 @@ ms.locfileid: "104493449"
 | [**USN — межсайтовая**](a-usnintersite.md)                                                      | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**USN-Last-obj-REM**](a-usnlastobjrem.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
 | [**Источник USN**](a-usnsource.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/>                                                          |
-| [**Vendor**](a-vendor.md)                                                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
+| [**поставщик**](a-vendor.md)                                                                   | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии**](a-versionnumber.md)                                                    | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Номер версии — Hi**](a-versionnumberhi.md)                                               | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |
 | [**Версия-номер**](a-versionnumberlo.md)                                               | Неверно     | [**Служба — точка подключения**](c-serviceconnectionpoint.md)<br/>                  |

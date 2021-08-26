@@ -6,12 +6,12 @@ keywords:
 - COM раздела реестра Аутоконвертто
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160f6591ed318ad7622e0bf3c0af5187f95d3be3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d5ea2b32445bb7107dcbfdc2aec8aee518fdd474674e76fdbd820265d06b6160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097054"
 ---
 # <a name="autoconvertto"></a>аутоконвертто
 
@@ -21,17 +21,17 @@ ms.locfileid: "103887420"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      AutoConvertTo = value
+   {CLSID}
+      AutoConvertTo = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ SZ** , указывающее идентификатор класса объекта, в который необходимо преобразовать заданный объект или класс объектов.
 
 Этот ключ обычно используется для автоматического преобразования файлов, созданных в более старой версии приложения, в более новую версию приложения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -44,9 +44,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**олесетаутоконверт**](/windows/desktop/api/Ole2/nf-ole2-olesetautoconvert)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

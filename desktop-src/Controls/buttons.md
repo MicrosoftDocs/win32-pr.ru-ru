@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: vs|controls|~\controls\buttons\buttons.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: babe31ec9f11ee445167e57394da0fa88fd781dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d50b9bf5875bc063d8b74626c528d5ec057492c4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104488721"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471300"
 ---
 # <a name="button-windows-controls"></a>Кнопка (элементы управления Windows)
 
@@ -112,110 +112,25 @@ ms.locfileid: "104488721"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Содержимое</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="bcn-dropdown.md">BCN_DROPDOWN</a></td>
-<td>Посылается, когда пользователь щелкает стрелку раскрывающегося списка на кнопке. Родительское окно элемента управления получает этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a></td>
-<td>Уведомляет владельца элемента управления "Кнопка", что указатель мыши вводит или выходит за пределы клиентской области элемента управления "Кнопка". Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-clicked.md">BN_CLICKED</a></td>
-<td>Посылается, когда пользователь нажимает кнопку. <br/> Родительское окно кнопки получает <a href="bn-clicked.md">BN_CLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-dblclk.md">BN_DBLCLK</a></td>
-<td>Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-dblclk.md">BN_DBLCLK</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> Родительское окно кнопки получает <a href="bn-dblclk.md">BN_DBLCLK</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-disable.md">BN_DISABLE</a></td>
-<td>Посылается, когда кнопка отключена.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-disable.md">BN_DISABLE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a></td>
-<td>Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> Родительское окно кнопки получает <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-hilite.md">BN_HILITE</a></td>
-<td>Посылается, когда пользователь нажимает кнопку.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-hilite.md">BN_HILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-killfocus.md">BN_KILLFOCUS</a></td>
-<td>Посылается, когда кнопка теряет фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br/> Родительское окно кнопки получает <a href="bn-killfocus.md">BN_KILLFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-paint.md">BN_PAINT</a></td>
-<td>Посылается, когда кнопка должна быть окрашена.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-paint.md">BN_PAINT</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-pushed.md">BN_PUSHED</a></td>
-<td>Посылается, когда для кнопки задано состояние pushd.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-pushed.md">BN_PUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-setfocus.md">BN_SETFOCUS</a></td>
-<td>Посылается, когда кнопка получает фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br/> Родительское окно кнопки получает <a href="bn-setfocus.md">BN_SETFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="bn-unhilite.md">BN_UNHILITE</a></td>
-<td>Посылается, когда выделение должно быть удалено из кнопки.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-unhilite.md">BN_UNHILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bn-unpushed.md">BN_UNPUSHED</a></td>
-<td>Посылается, когда для кнопки задано значение unpushd.
-<blockquote>
-[!Note]<br />
-Этот код уведомления предоставляется только для совместимости с 16-разрядными версиями Windows, предшествующими версии 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.
-</blockquote>
-<br/> <br/> Родительское окно кнопки получает <a href="bn-unpushed.md">BN_UNPUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="nm-customdraw-button.md">NM_CUSTOMDRAW (кнопка)</a></td>
-<td>Сообщает родительскому окну элемента управления "Кнопка" о пользовательских операциях рисования на кнопке. <br/> Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a></td>
-<td>Сообщение <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> отправляется в родительское окно кнопки перед рисованием кнопки. Родительское окно может изменять цвета текста и фона кнопки. Однако только рисуемые владельцем кнопки реагируют на родительское окно, обрабатывающее это сообщение. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Содержимое | 
+|-------|----------|
+| <a href="bcn-dropdown.md">BCN_DROPDOWN</a> | Посылается, когда пользователь щелкает стрелку раскрывающегося списка на кнопке. Родительское окно элемента управления получает этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br /> | 
+| <a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a> | Уведомляет владельца элемента управления "Кнопка", что указатель мыши вводит или выходит за пределы клиентской области элемента управления "Кнопка". Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br /> | 
+| <a href="bn-clicked.md">BN_CLICKED</a> | Посылается, когда пользователь нажимает кнопку. <br /> Родительское окно кнопки получает <a href="bn-clicked.md">BN_CLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br /> | 
+| <a href="bn-dblclk.md">BN_DBLCLK</a> | Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-dblclk.md">BN_DBLCLK</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br /> Родительское окно кнопки получает <a href="bn-dblclk.md">BN_DBLCLK</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br /> | 
+| <a href="bn-disable.md">BN_DISABLE</a> | Посылается, когда кнопка отключена.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-disable.md">BN_DISABLE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> | Посылается, когда пользователь дважды нажимает кнопку. Этот код уведомления отправляется автоматически для кнопок <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>и <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Другие типы кнопок отправляют <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> только в том случае, если они имеют стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br /> Родительское окно кнопки получает <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br /> | 
+| <a href="bn-hilite.md">BN_HILITE</a> | Посылается, когда пользователь нажимает кнопку.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-hilite.md">BN_HILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="bn-killfocus.md">BN_KILLFOCUS</a> | Посылается, когда кнопка теряет фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br /> Родительское окно кнопки получает <a href="bn-killfocus.md">BN_KILLFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br /> | 
+| <a href="bn-paint.md">BN_PAINT</a> | Посылается, когда кнопка должна быть окрашена.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-paint.md">BN_PAINT</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br /> | 
+| <a href="bn-pushed.md">BN_PUSHED</a> | Посылается, когда для кнопки задано состояние pushd.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-pushed.md">BN_PUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="bn-setfocus.md">BN_SETFOCUS</a> | Посылается, когда кнопка получает фокус клавиатуры. Для отправки этого кода уведомления кнопка должна иметь стиль <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> . <br /> Родительское окно кнопки получает <a href="bn-setfocus.md">BN_SETFOCUS</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="bn-unhilite.md">BN_UNHILITE</a> | Посылается, когда выделение должно быть удалено из кнопки.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-unhilite.md">BN_UNHILITE</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="bn-unpushed.md">BN_UNPUSHED</a> | Посылается, когда для кнопки задано значение unpushd.<blockquote>[!Note]<br />этот код уведомления предоставляется только для обеспечения совместимости с 16-разрядными версиями Windows более ранних, чем 3,0. Приложения должны использовать стиль кнопки <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> и структуру <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>дравитемструкт</strong></a> для этой задачи.</blockquote><br /><br /> Родительское окно кнопки получает <a href="bn-unpushed.md">BN_UNPUSHED</a> код уведомления через сообщение <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br /> | 
+| <a href="nm-customdraw-button.md">NM_CUSTOMDRAW (кнопка)</a> | Сообщает родительскому окну элемента управления "Кнопка" о пользовательских операциях рисования на кнопке. <br /> Элемент управления "Кнопка" отправляет этот код уведомления в виде <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> сообщения.<br /> | 
+| <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> | Сообщение <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> отправляется в родительское окно кнопки перед рисованием кнопки. Родительское окно может изменять цвета текста и фона кнопки. Однако только рисуемые владельцем кнопки реагируют на родительское окно, обрабатывающее это сообщение. <br /> | 
+
 
 
 

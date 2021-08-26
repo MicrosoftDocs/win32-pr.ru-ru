@@ -1,15 +1,15 @@
 ---
-description: Windows 2000. в этом разделе определяются типы размеров бумаги NLS, связанные с ипаперсизе локальной национальной настройкой \_ , указывающие размер бумаги по умолчанию для языкового стандарта.
+description: Windows 2000. в этом разделе определяются типы размера бумаги NLS, связанные с ипаперсизе локальной национальной настройкой \_ , указывающей размер бумаги по умолчанию для языкового стандарта.
 ms.assetid: a685b9c1-1c94-4d67-93db-40a259e4923a
 title: Размеры бумаги
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0871bfe3799a4f6644f978da5ce92aff28f8a646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d264831f9ac34bb802e603ddaf4b7bf6f9133b6354cf25e7d3a8f5f5400fd9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040694"
 ---
 # <a name="paper-sizes"></a>Размеры бумаги
 

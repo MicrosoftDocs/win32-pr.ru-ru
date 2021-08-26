@@ -4,12 +4,12 @@ ms.assetid: a520b9e5-1f58-499f-b93a-c072cf79623b
 title: System.Docумент. линекаунт
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac6de3856720ce5c04d3f43175f62ffc0e7383b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 694f7e506e940dc39fc431a216ff594861dbf35859025cff5db9ad19e91acdee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091284"
 ---
 # <a name="systemdocumentlinecount"></a>System.Docумент. линекаунт
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5cdbd93edf7630499f6585fbbf6e34a70bed68c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a43477d019639b4e1de5c2aa40f18c99f7b902498c671f8106d5832c43b11584
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084164"
 ---
 # <a name="cpospassthrugetcurrentposition-method"></a>Кпоспасссру. Жеткуррентпоситион, метод
 
@@ -65,24 +65,24 @@ HRESULT GetCurrentPosition(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод вызывает метод [**кпоспасссру:: жетмедиатиме**](cpospassthru-getmediatime.md) для получения самой последней вакансии. Если **жетмедиатиме** завершается сбоем, метод вызывает **Имедиасикинг:: жеткуррентпоситион** на подключенном ПИН-коде.
 
 Метод **жетмедиатиме** по умолчанию завершается сбоем в базовом классе. Если фильтр кэширует текущую точку, переопределите **жетмедиатиме** , чтобы вернуть кэшированное значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение LB_GETSELITEMS (Winuser. h)
 description: Заполняет буфер массивом целых чисел, задающих номера элементов выбранных элементов в списке с множественным выбором.
 ms.assetid: 95dd72ef-76a5-4188-b2c8-d4c5eb2f34e3
 keywords:
-- Элементы управления Windows для LB_GETSELITEMS сообщений
+- элементы управления Windows сообщений LB_GETSELITEMS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 703988749cc5091bc3196f7c6e70364edb40ee04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a541c7efb0acb8d462cce42f0323393baff58e51d63e6a78a72a9d334c0eae81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085504"
 ---
 # <a name="lb_getselitems-message"></a>Сообщение жетселитемс балансировки нагрузки \_
 
@@ -34,7 +34,7 @@ ms.locfileid: "103988729"
 
 Максимальное число выбранных элементов, номера элементов которых должны быть помещены в буфер.
 
-Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
+Windows 95/Windows 98/Windows Millennium Edition (Windows Me): параметр *wParam* ограничен 16-разрядными значениями. Это означает, что списки не могут содержать более 32 767 элементов. Хотя количество элементов ограничено, общий размер элементов в списке в байтах ограничен только доступной памятью.
 
 </dd> <dt>
 
@@ -49,19 +49,19 @@ Windows 95, Windows 98/Windows Millennium Edition (Windows Me): параметр
 
 Возвращаемое значение — это число элементов, помещаемых в буфер. Если список является списком с одним выбором, возвращается значение фунтов \_ Err.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

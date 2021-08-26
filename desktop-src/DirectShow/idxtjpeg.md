@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Идкстжпег задает свойства для перехода на очистку SMPTE. Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации перехода на очистку SMPTE.
+description: Интерфейс Идкстжпег задает свойства для перехода на очистку SMPTE. этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке перехода на очистку от очистки SMPTE.
 ms.assetid: ce1920d4-ebe5-42d1-a2eb-d71ddeaf14fe
 title: Интерфейс Идкстжпег (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e9c32bee3f4041abaa9529036b7bc78250ac2487
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b1f48ff04c087c0c0c391eaf1a64ae8e7768505a5ba8d108ab49c54ffc7b17f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997504"
 ---
 # <a name="idxtjpeg-interface"></a>Интерфейс Идкстжпег
 
@@ -30,7 +30,7 @@ ms.locfileid: "105675331"
 
 `IDxtJpeg`Интерфейс задает свойства для перехода на [очистку SMPTE](smpte-wipe-transition.md) .
 
-Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации перехода на очистку SMPTE. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
+этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке перехода на очистку от очистки SMPTE. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
 
 ## <a name="members"></a>Элементы
 
@@ -75,7 +75,7 @@ ms.locfileid: "105675331"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -83,7 +83,7 @@ ms.locfileid: "105675331"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -93,7 +93,7 @@ ms.locfileid: "105675331"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

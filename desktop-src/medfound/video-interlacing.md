@@ -4,12 +4,12 @@ ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: Чередование видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec10f49ef21f3701f85467a3f4a1c4b08d69df72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 340c727f8faaaf20ff82eff58d0c651601071dea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701793"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474340"
 ---
 # <a name="video-interlacing"></a>Чередование видео
 
@@ -51,8 +51,8 @@ ms.locfileid: "105701793"
 | Мфвидеоинтерлаце \_ прогрессивный                 | Нет          | Прогрессивная рамка                        | Неприменимо |
 | Мфвидеоинтерлаце \_ фиелдинтерлеаведупперфирст  | Да         | Поля с чередованием                       | Верхняя первая    |
 | Мфвидеоинтерлаце \_ фиелдинтерлеаведловерфирст  | Да         | Поля с чередованием                       | Нижняя первая    |
-| Мфвидеоинтерлаце \_ фиелдсинглеуппер            | Да         | Одно поле                             | Верхняя первая    |
-| Мфвидеоинтерлаце \_ фиелдсинглеловер            | Да         | Одно поле                             | Нижняя первая    |
+| Мфвидеоинтерлаце \_ фиелдсинглеуппер            | Да         | По одному полю                             | Верхняя первая    |
+| Мфвидеоинтерлаце \_ фиелдсинглеловер            | Да         | По одному полю                             | Нижняя первая    |
 | Мфвидеоинтерлаце \_ миксединтерлацеорпрогрессиве | Может варьироваться    | Поля с чередованием или прогрессивные кадры | Может варьироваться       |
 
 
@@ -69,41 +69,14 @@ ms.locfileid: "105701793"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a></td>
-<td><strong>Значение true</strong>показывает, что кадр является чередованием. Если <strong>значение равно false</strong>, кадр является прогрессивным.<br/> Установите этот атрибут для каждого образца, если тип носителя — MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a></td>
-<td>Значение этого флага зависит от того, содержат ли образцы поля с чередованием или отдельные поля.<br/>
-<ul>
-<li>Поля с чередованием: Если <strong>значение равно true</strong>, то нижнее поле является первым. Если <strong>значение равно false</strong>, то верхнее поле является первым.<br/></li>
-<li>Одиночные поля: Если <strong>значение true</strong>, образец содержит меньшее поле. Если <strong>значение равно false</strong>, образец содержит верхнее поле.<br/></li>
-</ul>
-Установите этот атрибут для каждого образца развертки, если тип носителя — MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_FieldSingleLower или MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a></td>
-<td>Если <strong>значение равно true</strong>, первое поле повторяется. Если значение равно <strong>false</strong> или не задано, первое поле не повторяется.</td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a></td>
-<td>Если <strong>значение — true</strong>, пример содержит одно поле. Если <strong>значение равно false</strong>, пример содержит поля с чередованием.</td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| <a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a> | <strong>Значение true</strong>показывает, что кадр является чередованием. Если <strong>значение равно false</strong>, кадр является прогрессивным.<br /> Установите этот атрибут для каждого образца, если тип носителя — MFVideoInterlace_MixedInterlaceOrProgressive.<br /> | 
+| <a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a> | Значение этого флага зависит от того, содержат ли образцы поля с чередованием или отдельные поля.<br /><ul><li>Поля с чередованием: Если <strong>значение равно true</strong>, то нижнее поле является первым. Если <strong>значение равно false</strong>, то верхнее поле является первым.<br /></li><li>Одиночные поля: Если <strong>значение true</strong>, образец содержит меньшее поле. Если <strong>значение равно false</strong>, образец содержит верхнее поле.<br /></li></ul>Установите этот атрибут для каждого образца развертки, если тип носителя — MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_FieldSingleLower или MFVideoInterlace_MixedInterlaceOrProgressive.<br /> | 
+| <a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a> | Если <strong>значение равно true</strong>, первое поле повторяется. Если значение равно <strong>false</strong> или не задано, первое поле не повторяется. | 
+| <a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a> | Если <strong>значение — true</strong>, пример содержит одно поле. Если <strong>значение равно false</strong>, пример содержит поля с чередованием. | 
+
 
 
 
@@ -237,13 +210,13 @@ ms.locfileid: "105701793"
 
 То же правило применяется к геометрической апертуре (атрибуту «[ \_ \_ \_ Апертура по геометру](mf-mt-geometric-aperture-attribute.md) ») и по минимальному отображаемому апертуру (атрибуту[ \_ \_ \_ \_ апертуры MF-монитора](mf-mt-minimum-display-aperture-attribute.md) ). Эти регионы задаются в терминах всего кадра, а не отдельных полей.
 
-## <a name="directshow-mappings"></a>Сопоставления DirectShow
+## <a name="directshow-mappings"></a>DirectShow Сопоставления
 
-В DirectShow сведения о чересстрочную развертке для отдельных примеров содержатся в элементе **двтипеспеЦификфлагс** структуры **\_ \_ свойств SAMPLE2** . В следующей таблице показаны эквивалентные атрибуты для Media Foundation.
+в DirectShow сведения о чересстрочную развертке для каждого примера содержатся в элементе **двтипеспеЦификфлагс** структуры **\_ \_ свойств SAMPLE2** . В следующей таблице показаны эквивалентные атрибуты для Media Foundation.
 
 
 
-| Флаг образца DirectShow              | Пример атрибута Media Foundation                                                                                                                                                  |
+| флаг образца DirectShow              | Пример атрибута Media Foundation                                                                                                                                                  |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | видеофлаг AM — \_ \_ \_ кадр с чередованием \_ | **Мфсампликстенсион \_ Синглефиелд**  =  **false**.                                                                                                                                    |
 | \_Флаг видео \_ \_ FIELD1             | **Мфсампликстенсион \_ С чередованием**  =  .<br/> **Мфсампликстенсион \_ Синглефиелд**  =  **значение true**.<br/> **Мфсампликстенсион \_ Боттомфиелдфирст**  =  **false**.<br/> |
@@ -256,11 +229,11 @@ ms.locfileid: "105701793"
 
  
 
-Если образец DirectShow не содержит флаги выборки, используйте значение **двинтерлацефлагс** из структуры **VIDEOINFOHEADER2** :
+если образец DirectShow не содержит флаги выборки, используйте значение **двинтерлацефлагс** из структуры **VIDEOINFOHEADER2** :
 
 
 
-| Флаг чередования DirectShow    | Пример атрибута Media Foundation                    |
+| флаг чередования DirectShow    | Пример атрибута Media Foundation                    |
 |------------------------------|------------------------------------------------------|
 | АМИНТЕРЛАЦЕ с \_ чередованием    | **Мфсампликстенсион \_ С чередованием**  =  .        |
 | АМИНТЕРЛАЦЕ \_ 1FieldPerSample | **Мфсампликстенсион \_ Синглефиелд**  =  **значение true**.       |
@@ -270,7 +243,7 @@ ms.locfileid: "105701793"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

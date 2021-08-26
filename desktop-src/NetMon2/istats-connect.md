@@ -1,7 +1,7 @@
 ---
-description: 'Метод Истатс:: Connect. метод Connect подключает НПП к сети с помощью указанной сетевой карты и предоставляет сведения о конфигурации для подключения.'
+description: 'истатс:: Подключение — метод Подключение подключает нпп к сети с помощью указанной сетевой карты и предоставляет сведения о конфигурации для соединения.'
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
-title: 'Метод Истатс:: Connect (Netmon. h)'
+title: 'метод истатс:: Подключение (Netmon. h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0719b6ff56aaa8c0be02f86d62ac23d4003aa3d6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6521e77453ec77f81422c7903b1a394512a4c1b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098482"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471190"
 ---
-# <a name="istatsconnect-method"></a>Метод Истатс:: Connect
+# <a name="istatsconnect-method"></a>метод истатс:: Подключение
 
-Метод **Connect** подключает НПП к сети с помощью указанной сетевой карты и предоставляет сведения о конфигурации для подключения.
+метод **Подключение** подключает нпп к сети с помощью указанной сетевой карты и предоставляет сведения о конфигурации для подключения.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -79,73 +79,29 @@ HRESULT STDMETHODCALLTYPE Connect(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Код возврата</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </dl></td>
-<td>Этот экземпляр COM-объекта НПП уже подключен к сети.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </dl></td>
-<td>Большой двоичный объект конфигурации поврежден. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td>Входной большой двоичный объект, заданный параметром <em>хинпутблоб</em> , не имеет записи, необходимой для выполнения этой операции. Эта ошибка может быть вызвана вызовом <strong>истатс:: Connect</strong> или <strong>Истатс:: Configure</strong> . Посмотрите на большой двоичный объект Error, возвращенный <em>херрорблоб</em> , чтобы определить, какая запись не найдена.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
-<td>Функция <strong>CreateBlob</strong> не была вызвана. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </dl></td>
-<td>Строка не завершается нулем. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </dl></td>
-<td>Часть триггера входного большого двоичного объекта повреждена. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_INVALID_BLOB</strong></dt> </dl></td>
-<td>Объект, указанный в <em>хинпутблоб</em> , не является BLOB-объектом. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </dl></td>
-<td>Каталог записи по умолчанию не был задан в реестре. Чтобы задать каталог записи, используйте следующий путь. <br/>
-<pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </dl></td>
-<td>Объем памяти, необходимый для выполнения этой операции, недоступен. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_TIMEOUT</strong></dt> </dl></td>
-<td>Время ожидания запроса истекло. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </dl></td>
-<td>Неверный номер версии большого двоичного объекта, указанного в <em>хинпутблоб</em> . Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Код возврата | Описание | 
+|-------------|-------------|
+| <dl><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt></dl> | Этот экземпляр COM-объекта НПП уже подключен к сети.<br /> | 
+| <dl><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt></dl> | Большой двоичный объект конфигурации поврежден. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt></dl> | Входной большой двоичный объект, заданный параметром <em>хинпутблоб</em> , не имеет записи, необходимой для выполнения этой операции. эта ошибка может быть сформирована вызовом <strong>истатс:: Подключение</strong> или <strong>истатс:: Configure</strong> . Посмотрите на большой двоичный объект Error, возвращенный <em>херрорблоб</em> , чтобы определить, какая запись не найдена.<br /> | 
+| <dl><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt></dl> | Функция <strong>CreateBlob</strong> не была вызвана. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt></dl> | Строка не завершается нулем. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt></dl> | Часть триггера входного большого двоичного объекта повреждена. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_INVALID_BLOB</strong></dt></dl> | Объект, указанный в <em>хинпутблоб</em> , не является BLOB-объектом. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt></dl> | Каталог записи по умолчанию не был задан в реестре. Чтобы задать каталог записи, используйте следующий путь. <br /><pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre> | 
+| <dl><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt></dl> | Объем памяти, необходимый для выполнения этой операции, недоступен. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_TIMEOUT</strong></dt></dl> | Время ожидания запроса истекло. Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt></dl> | Неверный номер версии большого двоичного объекта, указанного в <em>хинпутблоб</em> . Эта ошибка возникает при вызове <strong>истатс:: Configure</strong> .<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-При вызове метода **Connect** сетевой монитор автоматически вызывает метод **Истатс:: Configure** с помощью большого двоичного объекта, предоставленного параметром *хинпутблоб* . Обратите внимание, что все коды ошибок, возвращенные вызовом **истатс:: Configure** , передаются обратно и возвращаются вызовом **Истатс:: Connect** .
+при вызове метода **Подключение** сетевой монитор автоматически вызывает метод **истатс:: Configure** с помощью большого двоичного объекта, предоставленного параметром *хинпутблоб* . обратите внимание, что все коды ошибок, возвращенные вызовом метода **истатс:: Configure** , передаются обратно и возвращаются вызовом **истатс:: Подключение** .
 
 Этот метод должен быть вызван до начала записи кадров. Обратите внимание, что при подключении к сети с помощью этого метода необходимо продолжить использовать интерфейс **истатс** для записи кадров.
 

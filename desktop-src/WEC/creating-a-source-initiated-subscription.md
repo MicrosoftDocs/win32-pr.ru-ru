@@ -5,12 +5,12 @@ ms.assetid: 489d3613-177f-4045-a055-2c1577ef2191
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef0f3a40b3404441df40434c7ddb2f1bb6ac578caaf182c14d2825c6f99e7f9d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 771a70758a57134cdaabd8a9a72e3ad43c8bb890
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118997974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887291"
 ---
 # <a name="creating-a-source-initiated-subscription"></a>Создание подписки, инициированной источником
 
@@ -419,12 +419,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  Выполните следующую команду из командной строки с повышенными привилегиями, чтобы получить состояние выполнения подписки:
 
-        **wecutil GR***<subscriptionID>*
+        **wecutil GR** *&lt; subscriptionID &gt;*
 
     2.  Убедитесь, что источник событий подключен. Возможно, потребуется подождать, пока интервал обновления, указанный в политике, не пойдет после создания подписки для подключения к источнику событий.
     3.  Выполните следующую команду, чтобы получить сведения о подписке:
 
-        **wecutil GS***<subscriptionID>*
+        **wecutil GS** *&lt; subscriptionID &gt;*
 
     4.  Получите значение Деливеримакситемс из сведений о подписке.
 

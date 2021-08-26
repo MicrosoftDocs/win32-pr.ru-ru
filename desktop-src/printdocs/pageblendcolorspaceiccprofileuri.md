@@ -4,18 +4,18 @@ ms.assetid: 05924c7d-e074-4835-b42c-53c77dc1bbb5
 title: пажеблендколорспацеиккпрофилеури
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746a71a9b244b0b2fc9e533a6209de4170a369a7551b31454590eab3013594cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e8d62a50fd53c678f507ec18970e346285ed348f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117686226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880490"
 ---
 # <a name="pageblendcolorspaceiccprofileuri"></a>пажеблендколорспацеиккпрофилеури
 
 Этот раздел не является актуальным. Самые актуальные сведения см. в [спецификации печати схемы](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Задает относительную ссылку URI для профиля ICC, определяющего цветовое пространство, которое должно использоваться для смешения. <Uri>— Это абсолютное \_ имя компонента относительно корня пакета.
+Задает относительную ссылку URI для профиля ICC, определяющего цветовое пространство, которое должно использоваться для смешения. &lt;URI &gt; — это абсолютное \_ имя компонента относительно корня пакета.
 
 -   [Сведения об элементе](#element-information)
 -   [Содержимое структуры](#structure-content)

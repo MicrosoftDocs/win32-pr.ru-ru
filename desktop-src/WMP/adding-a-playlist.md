@@ -4,19 +4,19 @@ description: Добавление списка воспроизведения
 ms.assetid: be0c2cac-245d-4435-87d9-4f17076e005a
 keywords:
 - Создание обложек, списков воспроизведения
-- Обложки проигрывателя Windows Media, списки воспроизведения
+- обложки проигрыватель Windows Media, списки воспроизведения
 - обложки, списки воспроизведения
 - списки воспроизведения, обложки
 - списки воспроизведения метафайлов, обложки
-- Списки воспроизведения метафайлов Windows Media, обложки
+- Windows Списки воспроизведения мультимедийных метафайлов, обложки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c42a4bc253d4b1a3ba9b8fe0f31ca16b0d522956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e23d9198f1f913b83cef40cea9f6ec47976f9f1e08a5e54257ab16df63e538b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031594"
 ---
 # <a name="adding-a-playlist"></a>Добавление списка воспроизведения
 
@@ -86,16 +86,16 @@ ms.locfileid: "105691310"
 
 Аналогичные обложки рабочего списка можно просмотреть в разделе с примерами пакета SDK.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Руководством по созданию обложки**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

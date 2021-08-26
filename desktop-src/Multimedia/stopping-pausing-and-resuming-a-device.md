@@ -8,12 +8,12 @@ keywords:
 - Команда MCI_RESUME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddcd9618608226dec108d62754964fe6401d429
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5485365a6c846556a1037f55a0b211755ce0f93162bc6720c7241353fc8625b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037104"
 ---
 # <a name="stopping-pausing-and-resuming-a-device"></a>Остановка, приостановка и возобновление работы устройства
 
@@ -23,9 +23,9 @@ ms.locfileid: "103776238"
 
 Некоторые устройства поддерживают команду [**Resume**](resume.md) ([**\_ возобновление MCI**](mci-resume.md)) для перезапуска приостановленного устройства. Эта команда не изменяет расположения "to" и "from", указанные с помощью команды **Play** или **Record** , предшествующей команде [**Pause**](pause.md) .
 
- 
+ 
 
- 
+ 
 
 
 

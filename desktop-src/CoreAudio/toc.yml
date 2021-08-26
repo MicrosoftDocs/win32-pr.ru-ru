@@ -1,10 +1,10 @@
 - name: API-интерфейсы аудиоподсистемы Core
   href: core-audio-apis-in-windows-vista.md
   items:
-    - name: Об API аудио Windows Core
+    - name: сведения об api аудио Windows Core
       href: about-the-windows-core-audio-apis.md
       items:
-        - name: Новые возможности для основных API-интерфейсов аудиоподсистемы в Windows 7
+        - name: новые возможности для основных api-интерфейсов Audio в Windows 7
           href: what-s-new-for-core-audio-apis-in-windows-7.md
         - name: Файлы заголовков и системные компоненты
           href: header-files-and-system-components.md
@@ -65,9 +65,9 @@
                   items:
                     - name: Роли устройств для приложений DirectSound
                       href: device-roles-for-directsound-applications.md
-                    - name: Роли устройств для приложений DirectShow
+                    - name: роли устройств для DirectShow приложений
                       href: device-roles-for-directshow-applications.md
-                    - name: Роли устройств для устаревших приложений мультимедиа Windows
+                    - name: роли устройств для устаревших Windows мультимедийных приложений
                       href: device-roles-for-legacy-windows-multimedia-applications.md
                     - name: События аудио для устаревших звуковых приложений
                       href: audio-events-for-legacy-audio-applications.md
@@ -109,7 +109,7 @@
               href: capturing-a-stream.md
             - name: Запись замыкания на себя
               href: loopback-recording.md
-            - name: Exclusive-Modeные потоки
+            - name: Exclusive-Mode Потоки
               href: exclusive-mode-streams.md
             - name: Восстановление после ошибки Invalid-Device
               href: recovering-from-an-invalid-device-error.md
@@ -244,7 +244,7 @@
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-reset
                 - name: сетевенсандле
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle
-                - name: Начало
+                - name: Запуск
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start
                 - name: Stop
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop
@@ -653,7 +653,7 @@
               items:
                 - name: GetCount
                   href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-getcount
-                - name: Элемент
+                - name: Компонент
                   href: /windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item
             - name: иммдевицеенумератор
               href: /windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator

@@ -4,12 +4,12 @@ ms.assetid: c960e9df-dcd6-44d2-8662-40a1dea81f45
 title: Внутренняя проверка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca3c1a9e6f7b7e35b4d7d91287af64eff7812de6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44184a87f7d8bd28b3603d81bb83ae28ec68471e6c9c849bf9322dc5e968c886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043304"
 ---
 # <a name="internal-validation"></a>Внутренняя проверка
 
@@ -32,7 +32,7 @@ ms.locfileid: "104143840"
 | Тип    | Столбцы                                                          |
 |---------|------------------------------------------------------------------|
 | Целочисленный тип | Nullable, MinValue, MaxValue, Кэйтабле, KeyColumn, Set           |
-| Строка  | Nullable, Кэйтабле, KeyColumn, Category, Set, MinValue, MaxValue |
+| Строковый тип  | Nullable, Кэйтабле, KeyColumn, Category, Set, MinValue, MaxValue |
 | Двоичные данные  | Nullable, Категория (категория должна быть "binary")                   |
 
 

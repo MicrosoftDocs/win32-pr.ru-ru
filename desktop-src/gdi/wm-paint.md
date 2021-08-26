@@ -5,12 +5,12 @@ title: Сообщение WM_PAINT (Winuser. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: b13e1779fb54a3db7905cb8fc738ef45558400f5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b5efec4bc92fcb3c90a8def59b2e85d98342cf641dfe959fc2a651f81ffc1f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104987506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092514"
 ---
 # <a name="wm_paint-message"></a>\_Сообщение WM Paint
 
@@ -52,7 +52,7 @@ LRESULT CALLBACK WindowProc(
 
 Приложение возвращает нуль, если обрабатывает это сообщение.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 ```c
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
@@ -80,9 +80,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ```
 
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) на GitHub.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Сообщение **WM \_ Paint** создается системой и не должно отправляться приложением. Чтобы заставить окно нарисоваться в конкретном контексте устройства, используйте сообщение [**WM \_ Print**](wm-print.md) или [**WM \_ принтклиент**](wm-printclient.md) . Обратите внимание, что для этого требуется, чтобы целевое окно поддерживало сообщение **WM \_ принтклиент** . Большинство стандартных элементов управления поддерживают сообщение **WM \_ принтклиент** .
 
@@ -98,7 +98,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 Для некоторых стандартных элементов управления обработка сообщений **WM \_ Paint** по умолчанию проверяет параметр *wParam* . Если параметр *wParam* не равен null, то элемент управления предполагает, что значение является HDC и рисует его с помощью контекста устройства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -106,11 +106,11 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

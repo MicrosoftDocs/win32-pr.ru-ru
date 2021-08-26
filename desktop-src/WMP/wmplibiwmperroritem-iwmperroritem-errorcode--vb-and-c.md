@@ -3,9 +3,9 @@ title: Ивмперроритем errorCode, свойство
 description: Свойство errorCode получает текущий код ошибки.
 ms.assetid: 00719067-685d-4ef2-9eec-72c7892fcdb9
 keywords:
-- Свойство errorCode проигрыватель Windows Media Player
-- Свойство errorCode проигрыватель Windows Media Player, интерфейс Ивмперроритем
-- Интерфейс Ивмперроритем Windows Media Player, свойство errorCode
+- errorCode, свойство проигрыватель Windows Media
+- errorCode, свойство проигрыватель Windows Media, интерфейс ивмперроритем
+- проигрыватель Windows Media интерфейса ивмперроритем, свойство errorCode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f284d5655fc1f4007695a1f681c744a9c5c6fc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d7179684fb0332e25716282adfd47a5f769493f646f73c82d0391bbce4e6a91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031214"
 ---
 # <a name="iwmperroritemerrorcode-property"></a>Ивмперроритем:: errorCode, свойство
 
@@ -48,7 +48,7 @@ Public ReadOnly Property errorCode As System.Int32
 
 Объект **System. Int32** , который является кодом ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если выбрано отображение настраиваемых сообщений об ошибках, следует задать для **ивмпсеттингс. енаблиррордиалогс** **значение false** .
 
@@ -86,19 +86,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
