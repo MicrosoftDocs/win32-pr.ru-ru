@@ -3,7 +3,7 @@ title: Сообщение LVM_ENSUREVISIBLE (Коммктрл. h)
 description: Гарантирует, что элемент списка является полностью или частично видимым, при необходимости прокручивать элемент управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса Енсуревисибле ListView.
 ms.assetid: 3564b6e6-b8b6-401b-85bc-8bd6261fc054
 keywords:
-- Элементы управления Windows для LVM_ENSUREVISIBLE сообщений
+- элементы управления Windows сообщений LVM_ENSUREVISIBLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0ff4009399988f20f3e162114f91e4cff02820
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: baeefaf90f0a4562fb187024b2c6f8676c68fb9d46377a4ced900bda6cfd3dfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920304"
 ---
 # <a name="lvm_ensurevisible-message"></a>\_Сообщение LVM енсуревисибле
 
@@ -47,19 +47,19 @@ ms.locfileid: "103988204"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение завершается ошибкой, если стиль окна включает [**LVS " \_ Scroll**](list-view-window-styles.md)".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

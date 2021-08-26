@@ -4,18 +4,18 @@ ms.assetid: 0cc24fe4-a5b6-4805-8c8e-3066d12ec4bd
 title: Использование личных данных видеокодека (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e86fc31a50d2c4e553b5947717ea930698d812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7e417d4d83cc3ae3174e1bbf3310a6abb2900e2c5f3323192a8d17643e4066f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887094"
 ---
 # <a name="using-video-codec-private-data-microsoft-media-foundation"></a>Использование личных данных видеокодека (Microsoft Media Foundation)
 
-Сжатые выходные данные, созданные кодеками Windows Media Video 9, не могут быть правильно распакованы без каких бы то ни было данных, предоставленных кодировщиком. Эти данные, называемые частными данными кодека, должны быть добавлены к выходному типу носителя. Можно получить частные данные кодека, вызвав методы интерфейса [ивмкодекприватедата](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata) . Передайте для [ивмкодекприватедата:: сетпартиалаутпуттипе](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype)структуру [**\_ \_ типа мультимедиа DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) . Затем вызовите метод [ивмкодекприватедата:: жетприватедата](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata) дважды, один раз, чтобы получить размер данных, а затем скопируйте данные в буфер такого размера. Создайте новый буфер для хранения структуры [**видеоинфохеадер**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) с добавленными закрытыми данными и скопируйте структуру и данные в этот буфер. Наконец, установите для элемента **пбформат** структуры **\_ \_ типа мультимедиа DMO** адрес только что созданного буфера и задайте для элемента **кбформат** общий размер (в байтах) **видеоинфохеадер** и закрытых данных.
+сжатые выходные данные, создаваемые кодеками Windows Media Video 9, не могут быть правильно распакованы без каких бы то ни было данных, предоставленных кодировщиком. Эти данные, называемые частными данными кодека, должны быть добавлены к выходному типу носителя. Можно получить частные данные кодека, вызвав методы интерфейса [ивмкодекприватедата](/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata) . передайте DMO структуру [**\_ \_ типа носителя**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) в [ивмкодекприватедата:: сетпартиалаутпуттипе](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-setpartialoutputtype). Затем вызовите метод [ивмкодекприватедата:: жетприватедата](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprivatedata-getprivatedata) дважды, один раз, чтобы получить размер данных, а затем скопируйте данные в буфер такого размера. Создайте новый буфер для хранения структуры [**видеоинфохеадер**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) с добавленными закрытыми данными и скопируйте структуру и данные в этот буфер. наконец, задайте для DMO элемента **пбформат** структуры **\_ \_ типа мультимедиа** адрес только что созданного буфера и задайте для элемента **кбформат** общий размер (в байтах) **видеоинфохеадер** и закрытых данных.
 
-При использовании Медиафаундатион можно создать структуру [**\_ \_ типа мультимедиа DMO**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) из интерфейса [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) , вызвав [**мфкреатеаммедиатипефроммфмедиатипе**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype).
+при использовании медиафаундатион можно создать [**DMO структуру \_ \_ типа мультимедиа**](/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type) из интерфейса [**имфмедиатипе**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) , вызвав [**мфкреатеаммедиатипефроммфмедиатипе**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype).
 
 Необходимо использовать частные данные кодека, полученные после первой установки свойств кодировщика. При изменении каких бы то ни было свойств необходимо получить новые закрытые данные. Если не использовать закрытые данные, полученные после установки всех свойств для сеанса кодирования, декодер может не суметь распаковать данные.
 
@@ -103,7 +103,7 @@ Exit:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

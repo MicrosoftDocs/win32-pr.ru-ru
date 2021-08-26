@@ -4,12 +4,12 @@ ms.assetid: e42a66c2-2f1e-46f8-99c7-4701075c8ec3
 title: Операции ведения журнала событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 065acd268788de8c9674baa1fe47a3b89a719d4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 221218bdfa4fc5e4fc6a905353cde33357c4088119031062c074c75d4b8136dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901426"
 ---
 # <a name="event-logging-operations"></a>Операции ведения журнала событий
 
@@ -23,7 +23,7 @@ ms.locfileid: "105683285"
 |-----------|------------------------------------------------------------------------------------------------------------------------------|
 | Резервное копирование    | [**баккупевентлог**](/windows/desktop/api/Winbase/nf-winbase-backupeventloga)                                                                                     |
 | Clear     | [**клеаревентлог**](/windows/desktop/api/Winbase/nf-winbase-cleareventloga)                                                                                       |
-| Монитор   | [**нотифичанжеевентлог**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog)                                                                         |
+| Мониторинг   | [**нотифичанжеевентлог**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog)                                                                         |
 | Запрос     | [**Жетолдестевентлогрекорд**](/windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord), [ **жетнумберофевентлогрекордс**](/windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords) |
 | Чтение      | [**реадевентлог**](/windows/desktop/api/Winbase/nf-winbase-readeventloga)                                                                                         |
 | запись     | [**репортевент**](/windows/desktop/api/Winbase/nf-winbase-reporteventa)                                                                                           |

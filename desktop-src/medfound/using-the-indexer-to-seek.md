@@ -4,12 +4,12 @@ ms.assetid: 9c501d33-847e-448e-a19c-39dfbc7757ca
 title: Использование индексатора для поиска в файле ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c40c35f876fdc5452c596048d121fb0c2933094a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3c674aa809c858856abf0c0e84c5d854b399c6fbc125ac9210e19b695380bd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887244"
 ---
 # <a name="using-the-indexer-to-seek-within-an-asf-file"></a>Использование индексатора для поиска в файле ASF
 
@@ -17,7 +17,7 @@ ms.locfileid: "105711691"
 
 -   [Инициализация индексатора для поиска](#initializing-the-indexer-for-seeking)
 -   [Получение расположения поиска.](#getting-the-seek-position)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 Сведения о структуре файла ASF см. в разделе [Структура файлов ASF](asf-file-structure.md).
 
@@ -31,7 +31,7 @@ ms.locfileid: "105711691"
 4.  Вызовите функцию [**мфкреатеасфиндексербитестреам**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexerbytestream) , чтобы создать байтовый поток для чтения индекса. Входные данные функции являются указателем на байтовый поток, который содержит ASF-файл, и смещение индекса (из предыдущего шага).
 5.  Вызовите метод [**имфасфиндексер:: сетиндексбитестреамс**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams) , чтобы задать поток байтов индекса в индексаторе.
 
-В следующем коде показаны следующие шаги.
+Следующий код показывает эти действия.
 
 
 ```C++
@@ -201,7 +201,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

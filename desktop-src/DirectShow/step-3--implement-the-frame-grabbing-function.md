@@ -4,12 +4,12 @@ ms.assetid: 4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d
 title: Шаг 3. Реализация функции Frame-Grabbing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a97f585ff365e40ec611a9e11ce365839aa87be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a75410c48765e9437cd328a220ccbecf2c207bdaae5242a9e41060bc13fa02eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904102"
 ---
 # <a name="step-3-implement-the-frame-grabbing-function"></a>Шаг 3. Реализация функции Frame-Grabbing
 
@@ -217,7 +217,7 @@ HRESULT GetBitmap(LPTSTR pszFileName, BITMAPINFOHEADER** ppbmih)
 
 Далее: [Шаг 4. Рисование точечного рисунка в клиентской области](step-4--draw-the-bitmap-on-the-client-area.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

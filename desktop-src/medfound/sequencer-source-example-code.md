@@ -4,12 +4,12 @@ ms.assetid: 6f39a297-33a9-414a-9d41-47aec54eaa6b
 title: Исходный пример кода Sequencer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a587a9b77413ad22ac49111489cf3e1b89cadf8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3098faa0b979d6ad3baa96256c0ffac1eb14f482df5caff966ebc1cda3957f50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012364"
 ---
 # <a name="sequencer-source-example-code"></a>Исходный пример кода Sequencer
 
@@ -19,7 +19,7 @@ ms.locfileid: "104263488"
 -   [Создание экземпляра Кплайлист](#creating-an-instance-of-cplaylist)
 -   [Добавление и удаление сегментов списка воспроизведения](#adding-and-removing-playlist-segments)
 -   [Обработка событий сеанса](#handling-session-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="cplaylist-class"></a>Класс Кплайлист
 
@@ -639,7 +639,7 @@ HRESULT CPlaylist::GetPlaybackTime(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

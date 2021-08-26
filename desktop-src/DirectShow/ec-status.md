@@ -4,12 +4,12 @@ ms.assetid: fe29ee63-35ac-4145-a793-9bd7964f62af
 title: EC_STATUS (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1c2feabd53ec7f3e96409dfe825cb8c61edb43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2635cdcc5677c4cc8068686850329fbf9fb4cc9bc51bd8dafa082c1621acca7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965534"
 ---
 # <a name="ec_status"></a>\_состояние EC
 
@@ -37,7 +37,7 @@ ms.locfileid: "105651881"
 
 ## <a name="default-action"></a>Действие по умолчанию
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -45,7 +45,7 @@ ms.locfileid: "105651881"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

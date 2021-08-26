@@ -7,20 +7,20 @@ keywords:
 - Преобразование в координаты окна OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8ec3d8922890cfa3a79c5dacd94e93a06c53a73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fa74b42457349b14e151099a3c4238e855ad0001e1b8f9416808a1279b82345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887994"
 ---
 # <a name="transforming-to-window-coordinates"></a>Преобразование в координаты окна
 
 Перед тем, как координаты обрезки преобразуются в координаты окна, они делятся на значение *w* , чтобы получить нормализованные координаты устройства. Преобразование «окно просмотра», применяемое к этим нормализованным координатам, создает координаты окна. Вы управляете окном просмотра, которое определяет область экрана, в которой отображается изображение, с помощью [**глдепсранже**](gldepthrange.md) и [**глвиевпорт**](glviewport.md).
 
- 
+ 
 
- 
+ 
 
 
 

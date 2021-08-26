@@ -3,7 +3,7 @@ title: Network. Фрамесскиппед
 description: Свойство Фрамесскиппед извлекает общее число кадров, пропущенных во время воспроизведения.
 ms.assetid: fc7561a4-1e52-4192-b8df-ed2fb407fb78
 keywords:
-- Проигрыватель Windows Media Network. Фрамесскиппед
+- проигрыватель Windows Media Network. фрамесскиппед
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f33b778fffce071c47cb455f09e468243abab6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1031585feae5fa2c7fdd9f5fb64bf958e77b8029d502f3e99476024276a652cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901674"
 ---
 # <a name="networkframesskipped"></a>Network. Фрамесскиппед
 
@@ -35,7 +35,7 @@ ms.locfileid: "105708323"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **фрамесскиппед** для вывода общего числа кадров, пропущенных во время воспроизведения, когда пользователь нажимает кнопку. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "FS". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **фрамесскиппед** для вывода общего числа кадров, пропущенных во время воспроизведения, когда пользователь нажимает кнопку. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "FS". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -48,18 +48,18 @@ ms.locfileid: "105708323"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d08fb1a5-af17-4116-8757-ba0a513fb323
 title: Привязка сокета
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc71ad25837a070074fefa2e3693c5546839ec17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cda9e745395209228584ea5535864cca57e30494b2e30bfff02fe2abc527ed5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996923"
 ---
 # <a name="binding-a-socket"></a>Привязка сокета
 
@@ -48,7 +48,7 @@ ms.locfileid: "105711045"
 
 Следующий шаг: [прослушивание на сокете](listening-on-a-socket.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

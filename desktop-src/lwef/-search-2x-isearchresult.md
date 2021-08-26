@@ -3,8 +3,8 @@ title: Интерфейс Исеарчресулт (Вдсшаредидл. h)
 description: Предоставляет сведения и свойства, относящиеся к результирующему набору.
 ms.assetid: 2f50b9d7-f6fd-481c-a5db-d622a7b02017
 keywords:
-- Устаревшие функции среды Windows интерфейса Исеарчресулт
-- Интерфейс Исеарчресулт устаревшие функции среды Windows, описание
+- устаревшие функции среды Windows интерфейса исеарчресулт
+- устаревшие функции среды Windows интерфейса исеарчресулт, описание
 topic_type:
 - apiref
 api_name:
@@ -15,17 +15,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89387ebe02c87ca6a5c5ac663a67ea060bd78948
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fd15db1340b28c8ac273746a64a5aee8c4b3235155d948692ffcc16582ac4549
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963524"
 ---
 # <a name="isearchresult-interface"></a>Интерфейс Исеарчресулт
 
 > [!NOTE]
-> Windows Desktop Search 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. В более поздних выпусках используйте [API поиска Windows](../search/-search-reference-entry-page.md) . 
+> Windows настольный поиск 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. в более поздних выпусках используйте вместо этого [API Windows поиска](../search/-search-reference-entry-page.md) . 
 
 Предоставляет сведения и свойства, относящиеся к результирующему набору.
 
@@ -50,7 +50,7 @@ ms.locfileid: "103802884"
 | [**GetValue**](-search-2x-isearchresult-getvalue.md)             | Не реализован.<br/> |
 | [**Команда verb**](-search-2x-isearchresult-getverb.md)               | Не реализован.<br/> |
 | [**иконкаунт**](-search-2x-isearchresult-iconcount.md)           | Не реализован.<br/> |
-| [**Номер**](-search-2x-isearchresult-index.md)                   | Не реализован.<br/> |
+| [**Индекс**](-search-2x-isearchresult-index.md)                   | Не реализован.<br/> |
 | [**LoadState**](-search-2x-isearchresult-loadstate.md)           | Не реализован.<br/> |
 | [**Средство предварительного просмотра**](-search-2x-isearchresult-previewer.md)           | Не реализован.<br/> |
 | [**путвалуе**](-search-2x-isearchresult-putvalue.md)             | Не реализован.<br/> |
@@ -62,20 +62,20 @@ ms.locfileid: "103802884"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эти методы предоставляют свойства и действия, применимые к результирующему набору.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для настольных приложений Windows XP с пакетом обновления 2 \[\]<br/>                                      |
-| Минимальная версия сервера<br/> | Только для настольных приложений Windows Server 2003 с пакетом обновления 1 \[\]<br/>                             |
-| Распространяемые компоненты<br/>          | Поиск на рабочем столе Windows (WDS) 3,0<br/>                                               |
-| Header<br/>                   | <dl> <dt>Вдсшаредидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2) \[ только классические приложения\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для настольных приложений сервера 2003 с пакетом обновления 1 \[\]<br/>                             |
+| Распространяемые компоненты<br/>          | Windows Поиск на рабочем столе (WDS) 3,0<br/>                                               |
+| Заголовок<br/>                   | <dl> <dt>Вдсшаредидл. h</dt> </dl> |
 
 
 

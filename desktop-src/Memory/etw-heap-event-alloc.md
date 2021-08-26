@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntwmi.h
-ms.openlocfilehash: 57e09ed1785f31b6203c526f2b6d42cc4815a266
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 111c9268cb6ad174dc79323a9b867923e6264428f939caeae7089685e62f4318
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963204"
 ---
 # <a name="etw_heap_event_alloc-event"></a>\_ \_ Событие выделения события кучи ETW \_
 
@@ -80,7 +80,7 @@ typedef struct ETW_HEAP_EVENT_ALLOC
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Событие **выделения \_ \_ события кучи \_ ETW** регистрируется во всех выделениях кучи.
 
@@ -90,9 +90,9 @@ typedef struct ETW_HEAP_EVENT_ALLOC
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                         |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                            |
-| Header<br/>                   | <dl> <dt>Нтвми. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                            |
+| Заголовок<br/>                   | <dl> <dt>Нтвми. h</dt> </dl> |
 
 
 

@@ -27,9 +27,9 @@
       href: disabling-shortcut-keys-in-games.md
     - name: Расписание игры и многоядерный процессор
       href: game-timing-and-multicore-processors.md
-    - name: Игры для технических требований Windows
+    - name: игры для Windows технические требования
       href: games-for-windows-technical-requirements-1-1-0006.md
-    - name: Игры для тестовых случаев Windows
+    - name: игры для Windowsных тестовых случаев
       href: games-for-windows-test-requirements-1-0-0006.md
     - name: Игры с Least-Privileged учетными записями пользователей
       href: gaming-with-least-privileged-user-accounts.md
@@ -43,13 +43,13 @@
       href: mmo-installation-best-practices.md
     - name: Установка и использование редакторов метода ввода
       href: installing-and-using-input-method-editors.md
-    - name: Знакомство с 10-футовым интерфейсом для разработчиков игр Windows
+    - name: знакомство с 10-футовым интерфейсом для разработчиков Windows игр
       href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
     - name: 'Предоставление доступа к видеоматериалам: деловые обоснования и рекомендации по проектированию'
       href: accessibility-best-practices.md
-    - name: Оптимизация производительности DVD для игр Windows
+    - name: оптимизация производительности DVD для Windows игр
       href: optimizing-dvd-performance-for-windows-games.md
-    - name: 'Установка исправлений для игр в Windows XP, Windows Vista и Windows 7'
+    - name: 'установка исправлений для игр в Windows XP, Windows Vista и Windows 7'
       href: patching-methods-in-windows-xp-and-vista.md
     - name: Рекомендации по управлению ресурсами
       href: resource-management-best-practices.md
@@ -59,9 +59,9 @@
       href: taking-advantage-of-high-dpi-mouse-movement.md
     - name: Конвейер преобразования Direct3D
       href: the-direct3d-transformation-pipeline.md
-    - name: Основные проблемы с заголовками Windows
+    - name: основные проблемы для заголовков Windows
       href: top-issues-for-windows-titles.md
-    - name: Лучшие средства и методы для создания более надежных игр Windows
+    - name: лучшие средства и методы для создания более надежных игр Windows
       href: top-tools-and-techniques-for-making-more-robust-windows-games.md
     - name: Контроль учетных записей для разработчиков игр
       href: user-account-control-for-game-developers.md
@@ -69,7 +69,7 @@
       href: using-an-input-method-editor-in-a-game.md
     - name: Брандмауэр Windows для разработчиков игр
       href: games-and-firewalls.md
-    - name: Обозреватель игр Windows для разработчиков игр
+    - name: Windows Обозреватель игр для разработчиков игр
       href: windows-game-explorer-integration.md
-    - name: установщик Windows для разработчиков игр
+    - name: Windows Установщик для разработчиков игр
       href: windows-installer-for-game-developers.md

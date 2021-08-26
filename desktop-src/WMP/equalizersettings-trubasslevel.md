@@ -3,7 +3,7 @@ title: ЕКУАЛИЗЕРСЕТТИНГС. Трубасслевел
 description: Атрибут Трубасслевел указывает или получает уровень Трубасс SRS.
 ms.assetid: 9f8c9dbe-d535-42af-8ea7-74fc10526fba
 keywords:
-- Проигрыватель Windows Media ЕКУАЛИЗЕРСЕТТИНГС. Трубасслевел
+- екуализерсеттингс. трубасслевел проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48a262d90b9363f18b20922f92f77960f3b0b882
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c17fdb293ee081c99055a88fcd8a6ffeb420c9eb922be655f92df04c71058af2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901954"
 ---
 # <a name="equalizersettingstrubasslevel"></a>ЕКУАЛИЗЕРСЕТТИНГС. Трубасслевел
 
@@ -31,21 +31,21 @@ ms.locfileid: "105694516"
 
 Этот атрибут является **числом** для чтения и записи (**длинное**) в диапазоне от 0 до 100 со значением по умолчанию 50.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Трубасс — это воздействие, повышающее звучание низких уровней звуковой дорожки. Этот атрибут пропускается, если **енханцедаудио** имеет значение false.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

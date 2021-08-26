@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Иамтимелиниффектабле предоставляет методы для добавления эффектов к объекту временной шкалы в службах редактирования DirectShow (DES) и для управления эффектами на объекте.
+description: интерфейс иамтимелиниффектабле предоставляет методы для добавления эффектов к объекту временной шкалы в службах DirectShow editing Services (DES), а также для управления эффектами на объекте.
 ms.assetid: 70f2da64-e16a-4d4d-9522-042b5fa2855c
 title: Интерфейс Иамтимелиниффектабле (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: bc67483f44515c2ce18825de5b6657d51e2c3826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad6b373f4b30209566709117b3b15ecf1a65d093ddb2dd27e9e0273b11ad0b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905034"
 ---
 # <a name="iamtimelineeffectable-interface"></a>Интерфейс Иамтимелиниффектабле
 
@@ -28,7 +28,7 @@ ms.locfileid: "105675507"
 
  
 
-`IAMTimelineEffectable`Интерфейс предоставляет методы для добавления эффектов к объекту временной шкалы в [службах редактирования DirectShow](directshow-editing-services.md) (DES), а также для управления эффектами на объекте. Этот интерфейс реализуется всеми объектами, к которым могут применяться эффекты. Сюда входят источники, дорожки и композиции.
+`IAMTimelineEffectable`интерфейс предоставляет методы для добавления эффектов к объекту временной шкалы в [службах DirectShow editing Services](directshow-editing-services.md) (DES) и для управления эффектами на объекте. Этот интерфейс реализуется всеми объектами, к которым могут применяться эффекты. Сюда входят источники, дорожки и композиции.
 
 Объект, реализующий этот интерфейс, может иметь любое количество эффектов. Для каждого объекта механизм визуализации применяет свои эффекты в порядке приоритета, начиная с уровня приоритета 0.
 
@@ -55,7 +55,7 @@ ms.locfileid: "105675507"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -63,17 +63,17 @@ ms.locfileid: "105675507"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

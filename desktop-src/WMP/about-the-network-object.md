@@ -3,22 +3,22 @@ title: О сетевом объекте
 description: О сетевом объекте
 ms.assetid: 367a51d4-2db8-4c9e-82b7-85b2b631c721
 keywords:
-- Проигрыватель Windows Media, объект "сеть"
-- Объектная модель проигрывателя Windows Media, сетевой объект
+- проигрыватель Windows Media, сетевой объект
+- объектная модель проигрыватель Windows Media, сетевой объект
 - Объектная модель, сетевой объект
-- Элемент управления ActiveX проигрывателя Windows Media, сетевой объект
-- Элемент управления ActiveX, сетевой объект
-- Элемент управления мобильными устройствами ActiveX проигрывателя Windows Media, сетевой объект
-- Проигрыватель Windows Media Mobile, сетевой объект
+- проигрыватель Windows Media элемент управления ActiveX, сетевой объект
+- элемент управления ActiveX, сетевой объект
+- проигрыватель Windows Media мобильный ActiveX элемент управления, сетевой объект
+- проигрыватель Windows Media Мобильные устройства, сетевой объект
 - Сетевой объект
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1f3ff892a4d5b078956c9d126d0efaa844031d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0378b1cd4469f6141a4ea60021f2d54e5c32b33ae1943624f7c65f70aa2a655f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903294"
 ---
 # <a name="about-the-network-object"></a>О сетевом объекте
 
@@ -32,7 +32,7 @@ mybandwidth = player.network.bandwidth;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -42,9 +42,9 @@ mybandwidth = player.network.bandwidth;
 [**Объектная модель проигрывателя для языков сценариев**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,36 +3,36 @@ title: Размещение кнопок
 description: Размещение кнопок
 ms.assetid: 104f4dfb-8452-4dcc-9d48-cd754318083c
 keywords:
-- Обложки Windows Media Player для мобильных устройств, графические файлы
+- проигрыватель Windows Media Обложки для мобильных устройств, графические файлы
 - обложки, файлы Art
 - файлы для обложек, изображений
 - графические файлы для обложек, размещение кнопок
-- Обложки мобильных устройств проигрывателя Windows Media, размещение кнопок
+- проигрыватель Windows Media Обложки мобильных устройств, размещение кнопок
 - обложки, размещение кнопок
 - размещение кнопок в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe14e941e620f80906bb78f86c30f1beceeb66fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d93bc748d2b88cf46c18414916ae9cf563edde112a94e89723105600f68de57d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902384"
 ---
 # <a name="button-placement"></a>Размещение кнопок
 
 Несмотря на то, что можно нарисовать кнопки как любую фигуру, они обрабатываются внутренне как прямоугольная наружная граница. По этой причине не следует использовать перекрывающиеся координаты кнопки, так как могут возникнуть непредвиденные результаты.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Файлы изображений**](art-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

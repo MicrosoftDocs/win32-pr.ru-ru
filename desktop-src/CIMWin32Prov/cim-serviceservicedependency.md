@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fdc8ea1a3324395e5230ca6d47487b61c8c02ba9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: abe08007a92959276216cac0a592d79c72147b7db0f31a51cb1673c030d1a7de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919594"
 ---
 # <a name="cim_serviceservicedependency-class"></a>\_Класс CIM сервицесервицедепенденци
 
@@ -53,7 +53,7 @@ class CIM_ServiceServiceDependency : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сервицесервицедепенденци** имеет следующие свойства.
 
@@ -153,7 +153,7 @@ class CIM_ServiceServiceDependency : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструментарий WMI не реализует этот класс. Классы WMI, производные от **CIM \_ сервицесервицедепенденци**, см. в разделе [Классы Win32](win32-provider.md).
 
@@ -161,7 +161,7 @@ class CIM_ServiceServiceDependency : CIM_Dependency
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -175,7 +175,7 @@ class CIM_ServiceServiceDependency : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

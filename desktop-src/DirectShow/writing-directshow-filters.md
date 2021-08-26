@@ -1,24 +1,24 @@
 ---
-description: Написание фильтров DirectShow
+description: написание фильтров DirectShow
 ms.assetid: ffbc92b2-4f45-439b-b140-49a66fc4d914
-title: Написание фильтров DirectShow
+title: написание фильтров DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2b266f3bbb9781dddcd2d0fb065b63d895a732
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f81a7092e4d77fcfcfbb989bbfd85e9dd4edcdfc1653dcf2ee822ebe0779fe07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903004"
 ---
-# <a name="writing-directshow-filters"></a>Написание фильтров DirectShow
+# <a name="writing-directshow-filters"></a>написание фильтров DirectShow
 
-Если вы разрабатываете фильтр для использования в графе фильтра Microsoft DirectShow, прочтите статьи в этом разделе. В общем случае нет необходимости читать этот раздел при написании приложения DirectShow. Большинство приложений не имеют доступа к фильтрам или графу фильтра на уровне, описанном в этом разделе.
+если вы разрабатываете фильтр для использования в графе фильтра Microsoft DirectShow, прочтите статьи в этом разделе. в общем случае вам не нужно читать этот раздел, если вы пишете приложение DirectShow. Большинство приложений не имеют доступа к фильтрам или графу фильтра на уровне, описанном в этом разделе.
 
--   [Введение в разработку фильтров DirectShow](introduction-to-directshow-filter-development.md)
--   [Создание фильтров DirectShow](building-directshow-filters.md)
--   [Как подключаются фильтры](how-filters-connect.md)
--   [Поток данных для разработчиков фильтров](data-flow-for-filter-developers.md)
+-   [общие сведения о разработке фильтров DirectShow](introduction-to-directshow-filter-development.md)
+-   [создание фильтров DirectShow](building-directshow-filters.md)
+-   [как Подключение фильтры](how-filters-connect.md)
+-   [Flow данных для разработчиков фильтров](data-flow-for-filter-developers.md)
 -   [Потоки и критические разделы](threads-and-critical-sections.md)
 -   [Управление качеством](quality-control-management.md)
 -   [DirectShow и COM](directshow-and-com.md)

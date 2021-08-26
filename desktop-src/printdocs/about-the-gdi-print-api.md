@@ -4,12 +4,12 @@ ms.assetid: 3efcc6d0-14f0-4605-9603-ccc7ad0cc895
 title: Сведения об API печати GDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e6e8a34552a1198ebe618f463003fe28ded6aed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3aa7ea0ecfdd96237fb330868ddf2d9619aa24ee0d2f27a940c789a581a6c8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951014"
 ---
 # <a name="about-the-gdi-print-api"></a>Сведения об API печати GDI
 

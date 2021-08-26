@@ -1,6 +1,6 @@
 ---
 title: Интерфейс IDWriteFactory2
-description: Интерфейс корневой фабрики для всех объектов DirectWrite.
+description: интерфейс корневой фабрики для всех объектов DirectWrite.
 ms.assetid: 1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE
 keywords:
 - Непосредственная запись интерфейса IDWriteFactory1
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7d5ba0f8d480981ab6ebea6dcdbd955b7b967e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 370292387f2c42e3f749e24a063e05bb24280ec5c8e8941a430f996fe7f349da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902804"
 ---
 # <a name="idwritefactory2-interface"></a>Интерфейс IDWriteFactory2
 
-Интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) .
+интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) .
 
 ## <a name="members"></a>Элементы
 
@@ -50,21 +50,21 @@ ms.locfileid: "105681954"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                          |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/> |
 | Библиотека<br/>                  | <dl> <dt>Дврите. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

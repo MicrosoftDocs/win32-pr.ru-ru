@@ -4,12 +4,12 @@ ms.assetid: c58ed263-577d-47c5-93cb-5a7c83604171
 title: Функции стандартной библиотеки C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 303333b32f5645f19d8d22a072d25692cea4607f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1447a64f00fbd1b4cccf70f7589f267ebba526d66528d7342da68068f81ebfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963214"
 ---
 # <a name="standard-c-library-functions"></a>Функции стандартной библиотеки C
 

@@ -1,22 +1,22 @@
 ---
-description: Управляемый Справочник по классам команд WMI Windows PowerShell
+description: управляемый справочник по классам команд WMI Windows PowerShell
 ms.assetid: 30e77956-8428-4259-9218-b93f143fd987
 ms.tgt_platform: multiple
-title: Управляемый Справочник по классам команд WMI Windows PowerShell
+title: управляемый справочник по классам команд WMI Windows PowerShell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb309a9ca421a3966f84ba1ae825bd0c81eee8ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 228e4ea741edd9029f30159fd5aa6c009cae081a4f6d67d1e532086ea1d53fa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996464"
 ---
-# <a name="managed-reference-for-wmi-windows-powershell-command-classes"></a>Управляемый Справочник по классам команд WMI Windows PowerShell
+# <a name="managed-reference-for-wmi-windows-powershell-command-classes"></a>управляемый справочник по классам команд WMI Windows PowerShell
 
 Windows PowerShell реализует функции инструментарий управления Windows (WMI) (WMI) с помощью набора командлетов. Эти командлеты можно использовать для выполнения комплексных задач, необходимых для управления локальными и удаленными компьютерами.
 
-Дополнительные сведения см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
+дополнительные сведения см. в разделе [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
 
 ## <a name="wmi-powershell-classes"></a>Классы WMI PowerShell
 
