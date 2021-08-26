@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4768e639cbfb1543e06c03f2d9e6566d0adb147e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bcee521e5956242380c48fb07020db32eafeadb88f919ec6a20bdf2a10c4a23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125453"
 ---
 # <a name="imstscaxdisconnectedtext-property"></a>Имстскакс: свойство Исконнектедтекст:D
 
@@ -100,13 +100,13 @@ HRESULT get_DisconnectedText(
 
 В случае успеха возвратите значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка свойства **дисконнектедтекст** является необязательной. Если он не указан, элемент управления будет пустым до установления соединения.
 
 Это свойство может быть задано только в том случае, если элемент управления не находится в состоянии Connected. Метод возвращает **E \_ Fail** , если он вызывается после подключения элемента управления. Проверить, подключен ли элемент управления, можно, отреагировать на события соединения в [**имстскаксевентс**](imstscaxevents-interface.md) или изучив свойство [**Connected**](imstscax-connected.md) .
 
-Этот метод выделяет память, необходимую для буфера, на который указывает параметр *пдисконнектедтекст* . Вызов приложений C/C++ должен освободить память с помощью вызова функции [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Это не является обязательным для Visual Basic и скриптов клиентов.
+Этот метод выделяет память, необходимую для буфера, на который указывает параметр *пдисконнектедтекст* . Вызов приложений C/C++ должен освободить память с помощью вызова функции [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . это не является обязательным для Visual Basic и скриптов клиентов.
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
@@ -124,7 +124,7 @@ HRESULT get_DisconnectedText(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

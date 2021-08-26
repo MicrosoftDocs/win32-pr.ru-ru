@@ -1,15 +1,15 @@
 ---
-description: Компонент Windows Imaging Component (WIC) упрощает управление цветом, предоставляя интерфейс Ивикколорконтекст и интерфейс Ивикколортрансформ.
+description: Windows Компонент обработки изображений (WIC) упрощает управление цветом, предоставляя интерфейс Ивикколорконтекст и интерфейс Ивикколортрансформ.
 ms.assetid: d4d761a6-d5a6-47b8-b655-7651bd415e4e
 title: Общие сведения об управлении цветом
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1552375ee896173ba8d1fdbf4a9ae19c2af6e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c42a8c30074210a0a061fcbd26b05054591d2023805bfdff0848f0d7054dfe07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090053"
 ---
 # <a name="color-management-overview"></a>Общие сведения об управлении цветом
 
@@ -17,7 +17,7 @@ ms.locfileid: "105703041"
 
 Возможность постоянно воспроизводить цвет между сканерами, мониторами, принтерами и приложениями, как и простая задача, но без системы управления цветом в операционной системе, ее сложно реализовать. Если каждому приложению требуется создавать собственные цветовые профили, практически невозможно добиться согласованного цветового обмена в процессе публикации, включая сканирование, редактирование и композицию, проверку и распространение.
 
-Компонент Windows Imaging Component (WIC) упрощает управление цветом, предоставляя интерфейс [**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) и интерфейс [**ивикколортрансформ**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform) . Объект [**ивикколортрансформ**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform) можно получить с помощью [**Ивикфактори:: креатеколортрансформер**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcolortransformer). [**Ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) является абстракцией для цветового профиля устройства. **Ивикколорконтекст** инициализируется с помощью рамки точечного рисунка, цветового профиля исходного устройства и цветового профиля целевого устройства. Он выполняет преобразование рамки точечного рисунка.
+Windows Компонент обработки изображений (WIC) упрощает управление цветом, предоставляя интерфейс [**ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) и интерфейс [**ивикколортрансформ**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform) . Объект [**ивикколортрансформ**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolortransform) можно получить с помощью [**Ивикфактори:: креатеколортрансформер**](/windows/desktop/api/Wincodec/nf-wincodec-iwicimagingfactory-createcolortransformer). [**Ивикколорконтекст**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) является абстракцией для цветового профиля устройства. **Ивикколорконтекст** инициализируется с помощью рамки точечного рисунка, цветового профиля исходного устройства и цветового профиля целевого устройства. Он выполняет преобразование рамки точечного рисунка.
 
  
 

@@ -13,12 +13,12 @@ keywords:
 - сообщения, исключающие системы MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 073ebc0fe111ef19e2edb098e6bdb170c13abc3e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: aad97371f56c042e5acd230aba6144f5f9734a594b370a791422b2e8f8148861
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103890469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037264"
 ---
 # <a name="sending-system-exclusive-messages"></a>Отправка сообщений System-Exclusive
 
@@ -29,8 +29,8 @@ ms.locfileid: "103890469"
 > [!Note]  
 > Любой байт состояния MIDI, отличный от сообщения системы в режиме реального времени, прерывает системное сообщение. При использовании нескольких блоков данных для отправки одного сообщения, эксклюзивного от системы, не отправляйте сообщения MIDI, отличные от системных сообщений в режиме реального времени между блоками данных.
 
- 
+ 
 
- 
+ 
 
- 
+ 

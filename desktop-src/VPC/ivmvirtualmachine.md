@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 006fe414a662c3d6d556aba68712aa0b428d9b5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6f2f50c5279bafd12d8edd01a47e9cbcb1a3cc3bb2b89ea140e46cf06c0aa06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105691762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124684"
 ---
 # <a name="ivmvirtualmachine-interface"></a>Интерфейс Ивмвиртуалмачине
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Определяет интерфейс для виртуальной машины. **Ивмвиртуалмачине** может уведомлять клиентов о событиях с помощью исходящего интерфейса [**ивмвиртуалмачинивентс**](ivmvirtualmachineevents.md) . Объекты **ивмвиртуалмачине** возвращаются из методов [**ивмвиртуалпк**](ivmvirtualpc.md) , таких как [**креатевиртуалмачине**](ivmvirtualpc-createvirtualmachine.md), [**регистервиртуалмачине**](ivmvirtualpc-registervirtualmachine.md)и [**финдвиртуалмачине**](ivmvirtualpc-findvirtualmachine.md). Можно также получить объект **ивмвиртуалмачине** из объекта [**ивмвиртуалмачинеколлектион**](ivmvirtualmachinecollection.md) , возвращенного из свойства [**ивмвиртуалпк:: VirtualMachines**](ivmvirtualpc-virtualmachines.md) .
 
@@ -67,7 +67,7 @@ ms.locfileid: "105691762"
 | [**старткоммуникатиончаннел**](ivmvirtualmachine-startcommunicationchannel.md) | Настройка коммуникационного канала между узлом и гостем.<br/>                                         |
 | [**Запуск**](ivmvirtualmachine-startup.md)                                     | Запускает виртуальную машину из неинициализированного или сохраненного состояния.<br/>                        |
 | [**Startup2**](ivmvirtualmachine-startup2.md)                                   | Запускает виртуальную машину из неинициализированного или сохраненного состояния с дополнительными параметрами.<br/> |
-| [**TurnOff**](ivmvirtualmachine-turnoff.md)                                     | Отключит виртуальную машину.<br/>                                                                  |
+| [**турнофф**](ivmvirtualmachine-turnoff.md)                                     | Отключит виртуальную машину.<br/>                                                                  |
 
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "105691762"
 | [**чассисассеттаг**](ivmvirtualmachine-chassisassettag.md)<br/>             | Чтение/запись<br/> | Тег актива шасси.<br/>                                                                                                              |
 | [**чассиссериалнумбер**](ivmvirtualmachine-chassisserialnumber.md)<br/>     | Чтение/запись<br/> | Серийный номер корпуса.<br/>                                                                                                          |
 | [**конфигид**](ivmvirtualmachine-configid.md)<br/>                           | Только для чтения<br/>  | Уникальный идентификатор виртуальной машины.<br/>                                                                                      |
-| [**Отображение**](ivmvirtualmachine-display.md)<br/>                             | Только для чтения<br/>  | Экран видео для виртуальной машины.<br/>                                                                                          |
+| [**Дисплей**](ivmvirtualmachine-display.md)<br/>                             | Только для чтения<br/>  | Экран видео для виртуальной машины.<br/>                                                                                          |
 | [**двдромдривес**](ivmvirtualmachine-dvdromdrives.md)<br/>                   | Только для чтения<br/>  | Перечисляемая коллекция компакт-дисков и дисководов DVD, подключенных к виртуальной машине.<br/>                                                      |
 | [**Файл**](ivmvirtualmachine-file.md)<br/>                                   | Только для чтения<br/>  | Полный путь к VMC файлу конфигурации виртуальной машины.<br/>                                                    |
 | [**флоппидривес**](ivmvirtualmachine-floppydrives.md)<br/>                   | Только для чтения<br/>  | Перечисляемая коллекция дисководов гибких дисков, подключенных к виртуальной машине.<br/>                                                          |
@@ -109,8 +109,8 @@ ms.locfileid: "105691762"
 | [**ProcessorSpeed**](ivmvirtualmachine-processorspeed.md)<br/>               | Только для чтения<br/>  | Скорость процессора в мегагерцах (МГц).<br/>                                                                                     |
 | [**рдппипенаме**](ivmvirtualmachine-rdppipename.md)<br/>                     | Только для чтения<br/>  | Имя именованного канала RDP-подключения, используемого для видео и ввода.<br/>                                                                     |
 | [**саведстатефилепас**](ivmvirtualmachine-savedstatefilepath.md)<br/>       | Только для чтения<br/>  | Полный путь к сохраненному файлу состояния.<br/>                                                                                              |
-| [**SerialPorts**](ivmvirtualmachine-serialports.md)<br/>                     | Только для чтения<br/>  | Перечисляемая коллекция последовательных портов.<br/>                                                                                           |
-| [**шутдовнактиононкуит**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | Чтение/запись<br/> | Действие, выполняемое на этой виртуальной машине, если оно выполняется при выходе Windows Virtual PC.<br/>                                |
+| [**сериалпортс**](ivmvirtualmachine-serialports.md)<br/>                     | Только для чтения<br/>  | Перечисляемая коллекция последовательных портов.<br/>                                                                                           |
+| [**шутдовнактиононкуит**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | Чтение/запись<br/> | действие, выполняемое на этой виртуальной машине, если оно выполняется при завершении работы Windows virtual PC.<br/>                                |
 | [**Состояние**](ivmvirtualmachine-state.md)<br/>                                 | Только для чтения<br/>  | Текущее состояние виртуальной машины.<br/>                                                                                           |
 | [**Отмену**](ivmvirtualmachine-undoable.md)<br/>                           | Чтение/запись<br/> | Указывает, включены ли диски отмены для жестких дисков, подключенных к виртуальной машине.<br/>                                      |
 | [**ундоактион**](ivmvirtualmachine-undoaction.md)<br/>                       | Чтение/запись<br/> | Действие по умолчанию, выполняемое на всех дисках отмены при завершении работы виртуальной машины в гостевой операционной системе.<br/> |
@@ -125,11 +125,11 @@ ms.locfileid: "105691762"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                    |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                     |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                                                          |
 | Продукт<br/>                  | Windows Virtual PC<br/>                                                                 |
-| Header<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впккоминтерфацес. h</dt> </dl> |
 | IID<br/>                      | IID \_ ивмвиртуалмачине определен как f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
 
 

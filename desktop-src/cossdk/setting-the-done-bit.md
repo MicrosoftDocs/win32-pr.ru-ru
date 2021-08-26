@@ -4,12 +4,12 @@ ms.assetid: badd3b5a-ce6f-4be7-9dd8-a3b17344b185
 title: Установка бита done
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a53368377016c88633d91d942cde1970d979563
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0ad2d9a9dc06caa623d3f7c58d51aec389b40a1f3315ae09a21052bdf6e2ae3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070254"
 ---
 # <a name="setting-the-done-bit"></a>Установка бита done
 
@@ -39,7 +39,7 @@ COM+ будет деактивировать активируемый JIT-ком
 -   [**Енаблекоммит**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-enablecommit) сигнализирует о том, что вы не сделали, но проголосуем за фиксацию транзакции. Он устанавливает для аргумента Done значение false, а для бита — значение true.
 -   [**Дисаблекоммит**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-disablecommit) сигнализирует о том, что вы не сделали, и вы не зафиксировали транзакцию в данный момент, обычно потому, что состояние не согласуется. Он устанавливает как бит завершения, так и последовательный бит в значение false.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

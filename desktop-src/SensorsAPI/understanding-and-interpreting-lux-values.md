@@ -4,12 +4,12 @@ ms.assetid: 29855779-7c27-4cfe-b8af-b33bc86a1f62
 title: Основные сведения и интерпретация значений Lux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8012f983eeac29cc07b18ac2d27918d2df6ed52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d05b4bc9c3efa73f91d54a9c88231180ec2807964b753e175bc13755b54c2743
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126549"
 ---
 # <a name="understanding-and-interpreting-lux-values"></a>Основные сведения и интерпретация значений Lux
 

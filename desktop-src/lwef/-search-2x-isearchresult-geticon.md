@@ -3,9 +3,9 @@ title: Исеарчресулт метод Icon
 description: Зарезервировано. | Исеарчресулт метод Icon
 ms.assetid: 53cd18ef-c128-4739-984a-4bc78f9bcebe
 keywords:
-- Метод method устаревшие функции среды Windows
-- Метод WebMethod устаревшие функции среды Windows, интерфейс Исеарчресулт
-- Устаревшие функции среды Windows интерфейса Исеарчресулт, метод "Icon"
+- метод method Windows функции среды прежних версий
+- метод method Windows функции среды прежних версий, интерфейс исеарчресулт
+- устаревшие компоненты Windows интерфейса исеарчресулт, метод method
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7cc7ed96db85dd74d79348a525f259b3fa677f7a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1d3c10ef339672e12b2dd046d8ca1a19381367b5834cacdcfbe96333a2b45376
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014254"
 ---
 # <a name="isearchresultgeticon-method"></a>Исеарчресулт:: метод Icon
 

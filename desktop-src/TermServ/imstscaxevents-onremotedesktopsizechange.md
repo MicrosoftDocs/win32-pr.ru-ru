@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aee74049ea726b4e2686a028359afe01d2d7632
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 316b70c3405c13dd50c773d36c20f036c9e99aebeb3e5dedae692c2f9ad772fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125094"
 ---
 # <a name="imstscaxeventsonremotedesktopsizechange-method"></a>Метод Имстскаксевентс:: Онремотедесктопсизечанже
 
@@ -62,7 +62,7 @@ void OnRemoteDesktopSizeChange(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это событие позволяет контейнеру определить, должен ли он изменить свой размер в ответ на операцию клиентского управления, что может привести к увеличению объема видимого рабочего стола. Обратите внимание, что элемент управления будет автоматически настраивать полосы прокрутки для нового размера сеанса.
 
@@ -82,7 +82,7 @@ void OnRemoteDesktopSizeChange(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

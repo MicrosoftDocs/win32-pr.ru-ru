@@ -4,12 +4,12 @@ ms.assetid: f1196e31-65c6-4ade-a0b7-c7758ce97be1
 title: Константы PHONEBUTTONSTATE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2b1cc2f669fb5c1171834f46e11a161e9390eab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95070eb24b5189b44f07a8ba2d2d7ed7d8234ec14a97889f09c0fe29ac72eed9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100513"
 ---
 # <a name="phonebuttonstate_-constants"></a>Константы PHONEBUTTONSTATE_
 
@@ -57,20 +57,20 @@ ms.locfileid: "105689533"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
 Для обеспечения обратной совместимости поставщик услуг должен проверить согласованную версию API на телефоне и не использовать эти PHONEBUTTONSTATE_ значения, которые не поддерживает согласованная версия.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: f7b196d30e96f9d047f7f923d969d65a918aa4f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 533169a98d17c56a32df56f77c30d403d0dbb28c6a51159debc9692a505da52b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036974"
 ---
 # <a name="propertyinstex-structure"></a>Структура ПРОПЕРТИНСТЕКС
 
@@ -112,7 +112,7 @@ typedef struct _PROPERTYINSTEX {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

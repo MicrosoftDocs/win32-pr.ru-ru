@@ -3,7 +3,7 @@ title: Сообщение LVM_SETGROUPINFO (Коммктрл. h)
 description: Задает сведения о группе.
 ms.assetid: f79bd235-e2de-4055-be3e-76eb2744e1ee
 keywords:
-- Элементы управления Windows для LVM_SETGROUPINFO сообщений
+- элементы управления Windows сообщений LVM_SETGROUPINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 688c5b56a57a579e5955fa62a9b44d88258b7afb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 553a81c3cfe962ae6daf5ae4c988964028554bc662cec08df40c16fd8b4eb43f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077274"
 ---
 # <a name="lvm_setgroupinfo-message"></a>\_Сообщение LVM сетграупинфо
 
@@ -39,7 +39,7 @@ ms.locfileid: "104071114"
 
 Возвращает идентификатор группы в случае успеха или значение-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы изменить идентификатор группы для существующей группы, добавьте <b>LVGF_GROUPID</b> в <b>лвграуп. Mask</b> и задайте <b>лвграуп. играупид</b> в качестве нового идентификатора. Вызов завершится ошибкой, если <b>лвграуп. играупид</b> содержит идентификатор существующей группы.
 
@@ -48,15 +48,15 @@ ms.locfileid: "104071114"
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: be1654c38f51fa62909e10c12900c087bf0842fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a089e57ac5f66187f97dfa6ae7533aeda620632bdbf35c7b5bf3a34d4654b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037374"
 ---
 # <a name="imonitoreventergeteventdata-method"></a>Метод Имониторевентер:: Жетевентдата
 
@@ -60,11 +60,11 @@ HRESULT GetEventData(
 
 Если метод завершился неудачно, возвращаемое значение НМЕРР не \_ хватает \_ \_ памяти.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Мониторы вызывают этот метод, чтобы выделить память для структур данных событий и сведений о столбцах. Сведения о высвобождении памяти, выделенной для структуры **нмевентдата** , см. в разделе [Имониторевентер:: фриевентдата](imonitoreventer-freeeventdata.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ HRESULT GetEventData(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 1a7400bb9a16e6ece5f5f26fe95a0398a7d45e19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7420e21a9f2c6ac92712326fa4a51159c6303d3972756e7a47c0797f22a1d83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037434"
 ---
 # <a name="iesp-interface"></a>Интерфейс ИЕСП
 
@@ -48,13 +48,13 @@ ms.locfileid: "104144653"
 | [**QueryStatus**](iesp-querystatus.md)         | Получает состояние НПП.<br/>                                                                                        |
 | [**Возобновить**](iesp-resume.md)                   | Возобновляет приостановленную запись.<br/>                                                                                               |
 | [**Начать**](iesp-start.md)                     | Запускает запись и создает файл записи.<br/>                                                                        |
-| [**Stop**](iesp-stop.md)                       | Останавливает текущую запись.<br/>                                                                                              |
+| [**Позиции**](iesp-stop.md)                       | Останавливает текущую запись.<br/>                                                                                              |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

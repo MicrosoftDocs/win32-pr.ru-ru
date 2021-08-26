@@ -4,17 +4,17 @@ ms.assetid: 54901ad6-7989-4fb3-bb28-f54c7a2bca44
 title: Букмарконклосе, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfbbfe194a496dba3568b7dfa4d75b97d4ed57c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b83ed0ef05e2efe7edb3b6494e8f9709b23259207af257957551077dfbbddaba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103344"
 ---
 # <a name="bookmarkonclose-property"></a>Букмарконклосе, свойство
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -28,11 +28,11 @@ ms.locfileid: "104341925"
 
 Возвращает логическое значение, которое при значении true указывает, что элемент управления Мсдвдадм сохранит закладку всех параметров DVD-диска, включая расположение на диске, родительский уровень и родительский регион, когда пользователь закрывает приложение проигрывателя DVD.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно для чтения и записи со значением по умолчанию true.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

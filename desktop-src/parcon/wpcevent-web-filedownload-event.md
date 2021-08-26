@@ -4,12 +4,12 @@ ms.assetid: 2291fc75-55e5-417e-b393-748750a5b3d6
 title: Событие WPCEVENT_WEB_FILEDOWNLOAD (Впцевент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66bb04a53589a1cae41e2ba7d7a9c00835452e87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7430b87e7c227fe351e3182f344c60ece0b5a3138b94fe19fee950f96ec24b6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112714"
 ---
 # <a name="wpcevent_web_filedownload-event"></a>\_Событие веб- \_ филедовнлоад впцевент
 
@@ -47,7 +47,7 @@ const EVENT_DESCRIPTOR WPCEVENT_WEB_FILEDOWNLOAD = {0xa, 0x0, 0x10, 0x4, 0x18, 0
 
 </dd> <dt>
 
-*Блокировано* 
+*Заблокирован* 
 </dt> <dd>
 
 Значение перечисления [**впкфлаг \_**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked) , которое указывает сведения о том, какие события заблокированы и какие элементы управления будут использоваться.
@@ -67,9 +67,9 @@ const EVENT_DESCRIPTOR WPCEVENT_WEB_FILEDOWNLOAD = {0xa, 0x0, 0x10, 0x4, 0x18, 0
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
 
 
 

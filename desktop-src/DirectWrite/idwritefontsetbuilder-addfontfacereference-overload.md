@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3c20ca2832bfce3696a98c22730580442f621469
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9edfed7680b18ef9ffb271cb59de3a54d4b408ac5f194a7bead1bbb3fb9b2ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075584"
 ---
 # <a name="idwritefontsetbuilderaddfontfacereference-methods"></a>Методы Идвритефонтсетбуилдер:: Аддфонтфацереференце
 
@@ -34,17 +34,17 @@ ms.locfileid: "105689028"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Дврите \_ 3. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Дврите \_ 3. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

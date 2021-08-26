@@ -4,12 +4,12 @@ ms.assetid: 57428fae-6af4-47a5-a499-717dc378767a
 title: Создание семейств шрифтов и шрифтов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2761923847a15be6b1ad51eec0d683129b70b349
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cc405883eadd85b5b8018f75da270085197aed4792bf1c6848628cce02f457d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104997515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015204"
 ---
 # <a name="constructing-font-families-and-fonts"></a>Создание семейств шрифтов и шрифтов
 
@@ -27,7 +27,7 @@ GDI+ использует четыре стиля для формировани�
 -   Arial — узкий курсив
 -   Arial Narrow полужирный курсив
 
-Прежде чем можно будет рисовать текст с помощью GDI+, необходимо создать объект [**FontFamily**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily) и объект [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) . Объекты **FontFamily** определяют гарнитуру шрифта (например, Arial), а объект **Font** определяет размер, стиль и единицы измерения.
+прежде чем можно будет рисовать текст с помощью GDI+, необходимо создать объект [**FontFamily**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily) и объект [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) . Объекты **FontFamily** определяют гарнитуру шрифта (например, Arial), а объект **Font** определяет размер, стиль и единицы измерения.
 
 В следующем примере создается шрифт Arial с обычным начертанием и размером 16 пикселей:
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae347e19942bf0c82112e5cec6a3fb4fe131349f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a7c6d542031ab375d7e960b82bb36ba52ea6c9ecab58764c13595871687a731
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072304"
 ---
 # <a name="iremotedesktopclienteventsontouchpointercursormoved-method"></a>Метод Иремотедесктопклиентевентс:: Онтаучпоинтеркурсормовед
 
@@ -54,7 +54,7 @@ void OnTouchPointerCursorMoved(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -68,7 +68,7 @@ void OnTouchPointerCursorMoved(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

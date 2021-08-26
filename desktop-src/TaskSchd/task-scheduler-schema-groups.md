@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3ed6e1f2a1644d5bd1768bc0357b772c9519da85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d02212e5d1389b2a69de5b8c039feae5b0794d47c290195c8314eb77c7338ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125934"
 ---
 # <a name="task-scheduler-schema-groups"></a>планировщик задач группы схем
 
@@ -23,9 +23,9 @@ ms.locfileid: "104328224"
 -   [**actionGroup**](taskschedulerschema-actiongroup-group.md)
 -   [**тригжерграуп**](taskschedulerschema-triggergroup-group.md)
 
- 
+ 
 
- 
+ 
 
 
 

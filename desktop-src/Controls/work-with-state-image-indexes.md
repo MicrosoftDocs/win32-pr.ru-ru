@@ -4,27 +4,27 @@ description: Часто возникает путаница с тем, как з
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be84035907b69ba98ed60a33046f1a58fd2b47b2
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 04504019f79a388b6c21f940724de884d8516263daf6d410a841a96fc2e557b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103788904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059304"
 ---
 # <a name="how-to-work-with-state-image-indexes"></a>Работа с индексами изображений состояний
 
 Часто возникает путаница с тем, как задать и извлечь индекс изображения состояния в элементе управления "дерево-представление". В следующих примерах демонстрируется правильный метод установки и получения индекса изображения состояния. В примерах предполагается, что в элементе управления "дерево" установлены только два индекса состояния: "снят" и "Проверено". Если приложение содержит более двух, эти функции необходимо изменить, чтобы обрабатывать этот случай.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -78,7 +78,7 @@ ms.locfileid: "103788904"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -88,9 +88,9 @@ ms.locfileid: "103788904"
 [Пример Кустдтв иллюстрирует пользовательский вывод в элементе управления Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

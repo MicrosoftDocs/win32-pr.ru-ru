@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b73ad2b024cd0f8bbcafd6ba05be093c5953d54
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a05ac2c45ee035e17f0fc715b42f7752a11ca92dd2bce7f54a3a81c7b723d29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072404"
 ---
 # <a name="imsrdpclientadvancedsettings6enablecredsspsupport-property"></a>Свойство IMsRdpClientAdvancedSettings6:: Енаблекредсспсуппорт
 
@@ -61,11 +61,11 @@ HRESULT get_EnableCredSspSupport(
 
 Указывает, включен ли CredSSP для этого соединения. Установите значение **\_ true** , чтобы включить CredSSP или **вариант \_ false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство поддерживается только клиентами подключение к удаленному рабочему столу 6,1 и 7,0.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -79,7 +79,7 @@ HRESULT get_EnableCredSspSupport(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

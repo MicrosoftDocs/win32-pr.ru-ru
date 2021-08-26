@@ -3,7 +3,7 @@ title: Команда "Воспроизвести"
 description: Команда Play запускает воспроизведение устройства. Эта команда распознает аудио компакт-диск, цифровое видео, устройство MIDI Sequencer, видеодиск, ВИДЕОМАГНИТОФОН и волна-аудиоустройства.
 ms.assetid: 3ee707d6-6af4-494d-a887-d91ea5666ac4
 keywords:
-- Воспроизведение команды мультимедиа Windows
+- команда play Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf262db152677ef5a2f29de9526152c1d48d4c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2da0df530f1c7a0166dcbb7c852fe491127a9e187d1cb6cb953ec46b2533ac00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038054"
 ---
 # <a name="play-command"></a>Команда "Воспроизвести"
 
@@ -101,7 +101,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед выполнением команд, использующих значения позиций, необходимо задать требуемый формат времени с помощью команды [Set](set.md) . Эта команда начинает играть с текущей скоростью, как задано командой "Speed". Направление является обратным, если указан флаг "Reverse", или если флаг "to" задан как значение меньше, чем флаг "от". Если не указан флаг "from", воспроизведение начинается с текущей позиции. Флаги "to" и "Reverse" не могут использоваться вместе.
 
@@ -113,7 +113,7 @@ _stprintf_s(
 play mysound from 1000 to 2000 notify
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,7 +124,7 @@ play mysound from 1000 to 2000 notify
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

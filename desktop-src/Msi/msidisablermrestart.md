@@ -4,12 +4,12 @@ ms.assetid: 45c804bf-6d15-416a-b106-d8bb3f4c547d
 title: МСИДИСАБЛЕРМРЕСТАРТ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1215822b26bb9bd48fa52ee46806bc288a2986b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6d46bdaee34b154ccaacddc36dcb08113fce9e3f749090eb80176080a60235e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042794"
 ---
 # <a name="msidisablermrestart-property"></a>МСИДИСАБЛЕРМРЕСТАРТ, свойство
 
@@ -28,7 +28,7 @@ ms.locfileid: "105652013"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **мсидисаблермрестарт** игнорируется, если [Диспетчер перезапуска](../rstmgr/restart-manager-portal.md) недоступен или отключен.
 
@@ -38,7 +38,7 @@ ms.locfileid: "105652013"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
 
 
 
@@ -49,7 +49,7 @@ ms.locfileid: "105652013"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

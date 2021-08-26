@@ -3,7 +3,7 @@ title: Макрос MCI_HMS_HOUR (МЦиапи. h)
 description: Макрос MCI \_ ХМс \_ Hour извлекает компонент часов из параметра, содержащего сведения о упакованных часах/минутах/секундах (ХМс).
 ms.assetid: 55968b2b-2bfe-48ac-a50f-5c8741d11e33
 keywords:
-- MCI_HMS_HOUR макросов Windows мультимедиа
+- MCI_HMS_HOUR макрос Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ecab8b5de7712a9c1a5ebd5c0a4401b264d7ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97b8000e642d18f8499be5f8622a1cf7540fefbd041b7d34f23e1fd5e231815a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104072003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039274"
 ---
 # <a name="mci_hms_hour-macro"></a>\_Макрос MCI ХМс \_ часа
 
@@ -51,7 +51,7 @@ BYTE MCI_HMS_HOUR(
 
 Возвращает компонент часов указанной информации ХМС.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Время в формате ХМС выражается как значение **DWORD** с наименьшим значащим байтом, содержащим часы, следующий младший значащий байт, содержащий минуты, и следующий младший значащий байт, содержащий секунды. Наиболее значимый байт не используется.
 
@@ -64,7 +64,7 @@ BYTE MCI_HMS_HOUR(
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -76,7 +76,7 @@ BYTE MCI_HMS_HOUR(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

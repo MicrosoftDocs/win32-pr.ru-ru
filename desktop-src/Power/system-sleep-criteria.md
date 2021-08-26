@@ -4,12 +4,12 @@ ms.assetid: 83c9394a-1813-405a-802a-0623e5de50d3
 title: Критерии спящего режима системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90950b980ec1e0fa06171d7a57d76b410534f96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b93b0eb1a55d156a9d75b51ef826c85eabd28b29789cf50bb7f0fd7b5fee90a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032824"
 ---
 # <a name="system-sleep-criteria"></a>Критерии спящего режима системы
 
@@ -33,7 +33,7 @@ ms.locfileid: "103813777"
 
 Когда система отправляет событие [ПБТ \_ апмсуспенд](pbt-apmsuspend.md) , у каждого приложения есть две секунды для выполнения необходимых действий до того, как система начнет переход в спящий режим. Приложения должны ограничить действия, которые они принимают в ответ на это событие, чтобы убедиться, что они завершают все операции за отведенное время.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
