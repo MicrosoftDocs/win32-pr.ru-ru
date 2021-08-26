@@ -4,12 +4,12 @@ description: Выполняет фильтр сравнения.
 ms.assetid: 59786ED2-48FB-494E-A5A4-F732D63BF01B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23563fe52bbc943e8756d04085b66d156ab259d7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2656f70a95487ce98aadc30a028fccaed00cb1c8d6324d64bb22c9672543d5f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067734"
 ---
 # <a name="sample_c-sm4---asm"></a>Пример \_ c (SM4-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104996879"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Основной целью этой инструкции является предоставление стандартного блока для фильтрации глубины Percentage-Closer. "C" в **образце \_ c** означает сравнение.
 
@@ -84,9 +84,9 @@ ms.locfileid: "104996879"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -95,7 +95,7 @@ ms.locfileid: "104996879"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

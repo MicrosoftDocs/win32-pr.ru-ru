@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c9bb997f822e1d0b0ffd482680bf7a57dffee7d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d5a0e0f081562f473a5333b0e5ba8201bcf618f7fa38a51c6574036be0a67e9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067524"
 ---
 # <a name="texture2dgathergreensfloatintuint-function"></a>Функция Texture2D:: Гасергрин (S, float, int, uint)
 
@@ -84,7 +84,7 @@ TemplateType GatherGreen(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -100,7 +100,7 @@ TemplateType GatherGreen(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

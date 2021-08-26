@@ -479,7 +479,7 @@ ms.locfileid: "119989024"
 <td style="text-align: left;">Учетные данные имени пользователя для входа.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imstscax-version.md"><strong>Версия</strong></a><br/></td>
+<td style="text-align: left;"><a href="imstscax-version.md"><strong>Version</strong></a><br/></td>
 <td style="text-align: left;">Только для чтения<br/></td>
 <td style="text-align: left;">Номер версии текущего элемента управления.<br/></td>
 </tr>
@@ -529,7 +529,7 @@ ms.locfileid: "119989024"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c82d298506c5117c0643df8ecea841832d5f923
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 096bd5488335d59944b03815184735a4530b20310ddc7c21389e86fac1997eec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105681534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040093"
 ---
 # <a name="float-attribute"></a>float, атрибут
 
@@ -38,13 +38,13 @@ float identifier-name;
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип **float** является одним из базовых типов языка определения интерфейса (IDL). Тип **float** может отображаться в виде спецификатора типа в объявлениях [**typedef**](typedef.md) , общих объявлениях и деклараторах функций (в виде спецификатора возвращаемого типа функции и описателя типа параметра). Контекст, в котором отображаются спецификаторы типов, см. в разделе [IDL-файл](interface-definition-idl-file.md).
 
 Тип **float** не может использоваться в объявлениях [**const**](const.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -60,9 +60,9 @@ float identifier-name;
 [**определение**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

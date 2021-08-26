@@ -3,7 +3,7 @@ title: Атрибут Радиобанд
 description: Атрибут Радиобанд — это полоса частот радиостанции.
 ms.assetid: 410dd263-93ff-41d3-9744-d38a4674dddf
 keywords:
-- Радиобанд атрибут Windows Media Player
+- проигрыватель Windows Media атрибута радиобанд
 topic_type:
 - apiref
 api_name:
@@ -12,22 +12,22 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40a588cda1416e2c8c5967a323337e82210d35f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6d3a87f2419fb9fdbf0fdaba6d99e78923c8acafe5684ff560a63d770c471f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002914"
 ---
 # <a name="radioband-attribute"></a>Атрибут Радиобанд
 
 Атрибут **радиобанд** — это полоса частот радиостанции.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Элементы Радио](radio-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -35,17 +35,17 @@ ms.locfileid: "105708420"
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------|
-| Версия<br/> | Только проигрыватель Windows Media 9 Series<br/> |
+| Версия<br/> | только проигрыватель Windows Media 9 Series<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: edc0246562ced7978d3a5f6c9bf5b6e7ea4341d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83c74bf158c62d1a197167a9f31c650f5d996fcaf403038bd0aad3a1269da867
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018774"
 ---
 # <a name="esentrecoveredwithoutundoexception-constructor"></a>Конструктор Есентрековередвисаутундоексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentRecoveredWithoutUndoException()
 public EsentRecoveredWithoutUndoException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

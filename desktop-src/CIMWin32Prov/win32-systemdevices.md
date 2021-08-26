@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b2b28c11e10318e3bca562baf93bc20df9b756cf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 698b827e2dd3f9097f2348c83cbb52120186b0694a836fd2468396c542e535c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971474"
 ---
 # <a name="win32_systemdevices-class"></a>\_Класс Win32 системдевицес
 
@@ -46,7 +46,7 @@ class Win32_SystemDevices : CIM_SystemDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ системдевицес** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_SystemDevices : CIM_SystemDevice
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ системдевицес** является производным от [**CIM \_ системдевице**](cim-systemdevice.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -102,7 +102,7 @@ class Win32_SystemDevices : CIM_SystemDevice
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

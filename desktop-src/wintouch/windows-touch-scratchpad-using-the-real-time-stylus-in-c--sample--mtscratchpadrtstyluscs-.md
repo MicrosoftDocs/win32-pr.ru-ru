@@ -1,29 +1,29 @@
 ---
-title: Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
-description: Ознакомьтесь с примером примера C# для сенсорного ввода в Windows (Мтскратчпадртстилус), который показывает, как использовать сообщения Windows Touch для рисования трассировок точек касания в окне.
+title: Windows Сенсорный Блокнот с помощью примера Real-Timeного пера (C#)
+description: ознакомьтесь с примером Windows сенсорного блокнота C# (мтскратчпадртстилус), в котором показано, как использовать Windows сенсорные сообщения для рисования трассировок точек касания в окне.
 ms.assetid: 8e80672f-0780-4dec-a9b4-afec0f7782ad
 keywords:
-- Windows Touch, примеры кода
-- Windows Touch, пример кода
-- Касание Windows, образцы для ввода пометок
+- Windows Сенсорный ввод, примеры кода
+- Windows Сенсорный ввод, пример кода
+- Windows Сенсорный ввод, образцы для ввода пометок
 - Образцы для ввода пометок
-- Сенсорный экран Windows, объект пера в режиме реального времени (RTS)
+- Windows Сенсорный ввод, объект пера в режиме реального времени (RTS)
 ms.topic: article
 ms.date: 10/28/2019
-ms.openlocfilehash: 3c30d3543024a48394ddd7b9b2b06a05b61f5025
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a76f7a66f8bc26b7e1cad8f1fa71d9703f0c0da1ad1452a078b374a0f1603238
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055853"
 ---
-# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Блокнот для сенсорного ввода Windows с помощью примера Real-Timeного пера (C#)
+# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Windows Сенсорный Блокнот с помощью примера Real-Timeного пера (C#)
 
-Пример использования сенсорного ввода Windows ([мтскратчпадртстилус](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)) демонстрирует использование сообщений Windows Touch для рисования трассировок точек касания в окне. Трассировка основного пальца, который был размещен на дигитайзере, сначала рисуется черным цветом. Дополнительные пальцы рисуются шестью цветами: красный, зеленый, синий, голубой, пурпурный и желтый. На следующем снимке экрана показано, как приложение может выглядеть при выполнении.
+в Windows примере с сенсорным блокнотом ([мтскратчпадртстилус](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)) показано, как использовать Windows сенсорные сообщения для рисования трассировок точек касания в окне. Трассировка основного пальца, который был размещен на дигитайзере, сначала рисуется черным цветом. Дополнительные пальцы рисуются шестью цветами: красный, зеленый, синий, голубой, пурпурный и желтый. На следующем снимке экрана показано, как приложение может выглядеть при выполнении.
 
 ![снимок экрана с примером сенсорного ввода-вывода Windows с помощью пера в режиме реального времени на языке c с черной и красной волнистой линией на экране](images/mtscratchpadrtstyluscs.png)
 
-В этом примере создается объект Real-Time пера (RTS), и включается поддержка нескольких точек контакта. Подключаемый модуль DynamicRenderer добавляется в RTS для отображения содержимого. Подключаемый модуль, Евенсандлерплугин, реализуется для наблюдения за количеством пальцев и изменения цвета, который рисуется динамическим модулем визуализации. При использовании обоих подключаемых модулей в стеке Plug-in RTS приложение Windows Touch помещает основное контактное лицо в черный, а остальные контакты — по различным цветам.
+В этом примере создается объект Real-Time пера (RTS), и включается поддержка нескольких точек контакта. Подключаемый модуль DynamicRenderer добавляется в RTS для отображения содержимого. Подключаемый модуль, Евенсандлерплугин, реализуется для наблюдения за количеством пальцев и изменения цвета, который рисуется динамическим модулем визуализации. при использовании обоих подключаемых модулей в стеке plug-in RTS приложение Windows Touch блокнот будет отображать основной контакт в черном, а остальные — в различных цветах.
 
 В следующем коде показано, как Евенсандлерплугин увеличивает и уменьшает количество контактов и задает цвет динамического модуля визуализации.
 
@@ -81,4 +81,4 @@ ms.locfileid: "112406317"
 
 ## <a name="related-topics"></a>Связанные темы
 
-[Многосенсорное приложение для ввода пометок (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [многосенсорный Блокнот (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [примеры Windows Touch](windows-touch-samples.md)
+многофункциональное [приложение для ввода пометок (rts/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [многосенсорный блокнот (rts/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [Windows примеры сенсорного ввода](windows-touch-samples.md)

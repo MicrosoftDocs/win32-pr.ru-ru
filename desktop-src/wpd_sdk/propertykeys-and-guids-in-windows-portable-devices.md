@@ -1,23 +1,23 @@
 ---
-description: Пропертикэйс и GUID в портативных устройствах Windows
+description: пропертикэйс и guid в Windows портативных устройствах
 ms.assetid: 3f9e9f29-37dd-47b0-997e-de81966efce2
-title: Пропертикэйс и GUID в портативных устройствах Windows
+title: пропертикэйс и guid в Windows портативных устройствах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c28cbe76b76eda04852cd1afcbb11b85b0a185d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80100b043383074f58bc27fe8e9782c4fd6d2e4f3841a28f37035f39d23cc7c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054874"
 ---
-# <a name="propertykeys-and-guids-in-windows-portable-devices"></a>Пропертикэйс и GUID в портативных устройствах Windows
+# <a name="propertykeys-and-guids-in-windows-portable-devices"></a>пропертикэйс и guid в Windows портативных устройствах
 
 Свойство или команда определяется структурой PROPERTYKEY. Структура PROPERTYKEY состоит из двух частей: GUID (элемент fmtid) и DWORD (элемент PID). Часть идентификатора GUID используется для указания категории, которой принадлежит свойство или команда (т. е. связанные свойства относятся к одной и той же категории, а связанные команды относятся к одной и той же категории, поэтому они будут иметь одинаковые fmtid). Часть DWORD указывает на свойство или идентификатор команды и используется для различения отдельных свойств или команд в категории свойства или команды (то есть значения PID для свойств или команд в той же категории будут отличаться).
 
 В разделе Reference этого документа описаны все значения PROPERTYKEY, определенные модулем WPD. Эти значения соответствуют командам, свойствам и ресурсам. При создании настраиваемого значения PROPERTYKEY необходимо определить новую категорию **GUID** . не используйте повторно значения **GUID** WPD или риск конфликта с существующими и будущими пропертикэйс, указанными в параметре WPD.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

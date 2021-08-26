@@ -4,12 +4,12 @@ ms.assetid: fb369b32-a54b-4d8a-8358-5f05aa48f853
 title: Создание объектов временной шкалы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929fffb6a953e198b6e7ed9b17250d45e84f7932
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c7c0a2a88b2cd931e6a9d12274f4a2503b4c97d52348b6ed2629c22bf204f302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105662013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054784"
 ---
 # <a name="creating-timeline-objects"></a>Создание объектов временной шкалы
 
@@ -35,7 +35,7 @@ pTL->CreateEmptyNode(&pGroupObj, TIMELINE_MAJOR_TYPE_GROUP);
 
 После создания объект еще не является частью временной шкалы. Метод добавления объекта на временную шкалу зависит от типа объекта. В следующем разделе описывается добавление групп, композиций и дорожек на временную шкалу.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

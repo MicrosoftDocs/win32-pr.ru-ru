@@ -3,18 +3,18 @@ title: Расположение TrackBar
 description: Расположение TrackBar
 ms.assetid: 2384a87a-a263-4d47-a935-ee1b41851617
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, линейки воспроизведения
+- проигрыватель Windows Media Обложки мобильных устройств, ползунки
 - обложки, TrackBar
 - Справочник по обложек, TrackBar
 - Ползунки в обложках, расположение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb195d24e56606dfe49a78f75b6357bbdd094473
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 375f3226010813dbdec9f690b9baa80b614147a2fb0bcd76989a78e0d0d34bd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001714"
 ---
 # <a name="trackbar-location"></a>Расположение TrackBar
 
@@ -28,16 +28,16 @@ ms.locfileid: "105700591"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Линейки воспроизведения**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

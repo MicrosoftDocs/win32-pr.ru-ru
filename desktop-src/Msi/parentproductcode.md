@@ -4,12 +4,12 @@ ms.assetid: 7bf2b9b1-9efd-4d47-9fa3-253421f1ba4f
 title: Парентпродукткоде, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82385a4df94d3a044f0ee6a77461d69e63cc6d46
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a56e7a120455723eb95f2bd7f5ea08c59894d3a1951aeb042afb30e3b0e2fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042454"
 ---
 # <a name="parentproductcode-property"></a>Парентпродукткоде, свойство
 
@@ -25,7 +25,7 @@ ms.locfileid: "105652039"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы предотвратить установку пакета в качестве параллельной установки, добавьте в таблицу [лаунчкондитион](launchcondition-table.md) одну из следующих условных операторов. Это предотвращает установку пакета в ходе параллельной установки, выполняемой другой установкой. Это не мешает установке пакета с помощью действия [RemoveExistingProducts](removeexistingproducts-action.md) .
 
@@ -43,7 +43,7 @@ ms.locfileid: "105652039"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

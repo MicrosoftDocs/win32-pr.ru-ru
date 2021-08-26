@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 24495c94cca0eb6b99bc209cad8f25fac8f66896
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c5d2f1a475800506dadc8929079ecb2549d59bfd838f340c56e5f763aa9af24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104495990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002894"
 ---
 # <a name="uncompress-method-of-the-cim_datafile-class"></a>Метод uncompressия класса CIM \_ File
 
@@ -142,7 +142,7 @@ uint32 Uncompress();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **uncompressия** в [**\_ файле CIM**](cim-datafile.md) реализуется инструментарием WMI.
 

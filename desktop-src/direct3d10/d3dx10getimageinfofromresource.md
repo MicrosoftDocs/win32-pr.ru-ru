@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 650d05f379be634bfdd9dfb0908153260f795b00
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af4dea966b63549c4bcef913175c6c97e1c49d73e3d5694cfcd0f7b6c8170497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989164"
 ---
 # <a name="d3dx10getimageinfofromresource-function"></a>Функция D3DX10GetImageInfoFromResource
 
@@ -99,13 +99,13 @@ HRESULT D3DX10GetImageInfoFromResource(
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DX10GetImageInfoFromResourceW. В противном случае вызов функции разрешается в D3DX10GetImageInfoFromResourceA, так как используются строки ANSI.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX10Tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3DX10. lib</dt> </dl>  |
 
 

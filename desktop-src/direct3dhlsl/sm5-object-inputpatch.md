@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a882d032133ccb7bc98a34b3ef99551aa18fa51b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: df92eea333c15da934ed7c243b91e657e0a5ea6c2f7954e3bd7764b813cada49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104996811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067714"
 ---
 # <a name="inputpatch"></a>инпутпатч
 
@@ -32,7 +32,7 @@ ms.locfileid: "104996811"
 
 
 
- 
+ 
 
 Класс Инпутпатч также поддерживает следующие свойства:
 
@@ -44,7 +44,7 @@ ms.locfileid: "104996811"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Минимальная модель шейдера
 
@@ -54,11 +54,11 @@ ms.locfileid: "104996811"
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Этот объект поддерживается для следующих типов шейдеров:
 
@@ -70,18 +70,18 @@ ms.locfileid: "104996811"
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Объекты модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

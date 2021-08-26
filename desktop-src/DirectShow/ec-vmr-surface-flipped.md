@@ -4,12 +4,12 @@ ms.assetid: e298857b-0579-48b4-add0-72320bc52d63
 title: EC_VMR_SURFACE_FLIPPED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1feafaa58f0cacdafde04591d494dbb9a9eb258e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02c352af01ee31728b41aa276d14ca64b7c3fa6770bb4c9328a8c4ee5e91bb07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043354"
 ---
 # <a name="ec_vmr_surface_flipped"></a>\_перевернутая поверхность с фильтром EC \_ \_
 
@@ -33,7 +33,7 @@ ms.locfileid: "105652027"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пользовательский распределитель — выступающие для VMR-7 должны отправить это событие. Это событие не пересылается в приложения и не используется с распределителя-Presenters для VMR-9.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105652027"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

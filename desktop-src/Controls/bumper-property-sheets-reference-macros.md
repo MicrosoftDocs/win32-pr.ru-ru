@@ -4,16 +4,16 @@ description: Макросы страницы свойств
 ms.assetid: d1cb44ec-b130-413a-8763-5997a2362b21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4986544551685002d21abd3fec06033bbc4628
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a1f06cdd5733ba7dfacc4109bb5ebb59e8bb17dc1bd6d10038af7f20b40c37ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105651275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970684"
 ---
 # <a name="property-sheet-macros"></a>Макросы страницы свойств
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**Пропшит \_ addPage**](/windows/desktop/api/Prsht/nf-prsht-propsheet_addpage)
 -   [**Пропшит \_ Применить**](/windows/desktop/api/Prsht/nf-prsht-propsheet_apply)

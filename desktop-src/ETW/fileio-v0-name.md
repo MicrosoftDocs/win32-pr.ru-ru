@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6e88d1b9b5b36815b1a833062c30e804e4db744a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a85c182511a866d3fb76f291b0a73ed0541fdee34b7e6f74c036b5446792db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041864"
 ---
 # <a name="fileio_v0_name-class"></a>FileIo \_ v0 \_ имя класса
 
@@ -38,13 +38,13 @@ class FileIo_V0_Name : FileIo_V0
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ \_ имен FileIo v0** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **FileIo \_ v0 \_ Name** имеет следующие свойства.
 
@@ -82,7 +82,7 @@ FileName
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 **Windows Server 2003:** Чтобы получить букву диска для пути к имени файла, используйте значение свойства **FileObject** для сопоставлений с соответствующим событием [**\_ TypeGroup1 дискио**](diskio-typegroup1.md) . В событии **дискио \_ TypeGroup1** используйте значения свойств **дискнумбер** и **ByteOffset** для сопоставлений с соответствующим событием [**системконфиг \_ логдиск**](systemconfig-logdisk.md) . Свойство **дривелеттерстринг** содержит букву диска.
 

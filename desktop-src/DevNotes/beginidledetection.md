@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msidle.dll
-ms.openlocfilehash: 06cd016dc4102ef2f5b0f351aa4836a7f9980645
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bbb27114177a6f64f471b0122832bc09180988019bc23a63343920eb76221f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002324"
 ---
 # <a name="beginidledetection-function"></a>Функция Бегинидледетектион
 
@@ -75,11 +75,11 @@ typedef void (WINAPI* _IDLECALLBACK) (DWORD dwState);
 
 Возвращает 0, если функция выполнена. в противном случае возвращается код ошибки. Например, если *двресервед* имеет значение, отличное от 0, **возвращаются \_ недопустимые \_ данные** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) . Эта функция не экспортируется по имени; Укажите порядковый номер 3 при вызове **GetProcAddress**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,7 +89,7 @@ typedef void (WINAPI* _IDLECALLBACK) (DWORD dwState);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

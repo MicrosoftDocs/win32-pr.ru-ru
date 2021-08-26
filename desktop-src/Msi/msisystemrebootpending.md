@@ -4,12 +4,12 @@ ms.assetid: 8bbbf42e-fb55-4e5d-a574-2c3aaa87a73a
 title: Мсисистемребутпендинг, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dec5db7550be3fa27b0ed272ff08d88a4cad915a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6cab600ca7c0f1bbc240f8fb1a9d93f3da62914e8250863333b75f8973d6c1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042654"
 ---
 # <a name="msisystemrebootpending-property"></a>Мсисистемребутпендинг, свойство
 
@@ -17,13 +17,13 @@ ms.locfileid: "105675948"
 
 Авторы пакетов могут основывать условие в [таблице лаунчкондитион](launchcondition-table.md) этого свойства, чтобы предотвратить установку пакета в случаях, когда имеется операция, ожидающая переименования файла. Это может быть сделано для предотвращения перезапуска операционной системы из-за переименования файла. Установщик не устанавливает свойство **мсисистемребутпендинг** во всех случаях, требующих перезапуска системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 4,5 в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 4,5 на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "105675948"
 [Перезагрузка системы](system-reboots.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

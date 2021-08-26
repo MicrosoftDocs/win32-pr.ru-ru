@@ -4,12 +4,12 @@ ms.assetid: 2ba88b5f-bd8a-4572-af82-9c0b91b9b6d9
 title: Действие Регистермимеинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41130d9e595cc2d95557470f79c217f3c3235d75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 369f35eab4e6d4228167bfbeda48cf21249ea6a63297f5a9e893b84dcc4ed5bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041744"
 ---
 # <a name="registermimeinfo-action"></a>Действие Регистермимеинфо
 
@@ -45,7 +45,7 @@ ms.locfileid: "103813648"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие Регистермимеинфо регистрирует все сведения MIME для серверов из [таблицы MIME](mime-table.md) , для которой установлен соответствующий сервер классов или сервер расширений.
 

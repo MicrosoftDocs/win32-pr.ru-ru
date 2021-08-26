@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ba1fa832b51e86b5df3193895caa293bb006d82a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 46eb5101dc119d2779f60d2e2b39a42c695933a5bffd477b407fea56c930038c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067704"
 ---
 # <a name="texture2dgetdimensions-function"></a>Функция Texture2D:: Dimension
 
@@ -47,7 +47,7 @@ void GetDimensions(
 
 Тип: **uint**
 
-Необязательный параметр. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
+Необязательный элемент. Уровень mipmap (должен быть указан, если используется *нумберофлевелс* ).
 
 </dd> <dt>
 
@@ -80,9 +80,9 @@ void GetDimensions(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Nothing
+Ничего
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это список перегруженных версий этого метода.
 
@@ -119,7 +119,7 @@ void GetDimensions(out float Width,
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

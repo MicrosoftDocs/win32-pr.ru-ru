@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 62219301e93bebf7825328fd381b5d2fbb607925
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 58cfa3f9e6dd69210da18d672acd2b56ad73e34be9cf2c5d8b179181e636050f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067784"
 ---
 # <a name="processquadtessfactorsmax-function"></a>Функция Процесскуадтессфакторсмакс
 
@@ -89,7 +89,7 @@ void ProcessQuadTessFactorsMax(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Формирует исправленные факторы тесселяции для четырех исправлений, вычисляя внутренние факторы тесселяции в качестве максимального значения факторов тесселяции краев. Внутренние факторы Тесс будут идентичными значениями, определяемыми максимальным значением всех четырех ребер, масштабируемых по Инсидескале. Затем результат округляется в зависимости от режима секционирования, но неокругленные результаты доступны с помощью параметра *унраундединсидетессфакторс* .
 
@@ -101,7 +101,7 @@ void ProcessQuadTessFactorsMax(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -119,7 +119,7 @@ void ProcessQuadTessFactorsMax(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

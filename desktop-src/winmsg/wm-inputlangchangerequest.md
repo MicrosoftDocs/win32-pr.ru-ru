@@ -4,12 +4,12 @@ ms.assetid: db38c31c-6ae4-4401-82b8-7fd220c1678c
 title: Сообщение WM_INPUTLANGCHANGEREQUEST (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1df361c479978083c29281764e65c48b131c22b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644fa4764c5172edc34f16509c6a6b00be6356b80c460a08233be8aa64ef69c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105693070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056064"
 ---
 # <a name="wm_inputlangchangerequest-message"></a>\_Сообщение ИНПУТЛАНГЧАНЖЕРЕКУЕСТ WM
 
@@ -60,13 +60,13 @@ ms.locfileid: "105693070"
 
 Это сообщение публикуется в приложении, а не отправляется, поэтому возвращаемое значение игнорируется. Чтобы принять изменение, приложение должно передать сообщение в [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca). Чтобы отклонить изменение, приложение должно вернуть нуль, не вызывая **дефвиндовпрок**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) получает сообщение **WM \_ инпутлангчанжерекуест** , она активирует новый языковой стандарт ввода и уведомляет приложение об изменении, отправляя сообщение [**WM \_ инпутлангчанже**](wm-inputlangchange.md) .
 
 Индикатор языка отображается на панели задач только в том случае, если вы установили несколько раскладок клавиатуры и включили индикатор с помощью приложения панели управления "клавиатура".
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,11 +74,11 @@ ms.locfileid: "105693070"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

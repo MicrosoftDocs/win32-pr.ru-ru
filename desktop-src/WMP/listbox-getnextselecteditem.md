@@ -3,7 +3,7 @@ title: LISTBOX. Жетнекстселектедитем
 description: Метод Жетнекстселектедитем извлекает следующий выбранный элемент в элементе управления "список", начиная с элемента с указанным индексом.
 ms.assetid: 060d196d-2b14-4386-ba01-34256c137db5
 keywords:
-- Проигрыватель Windows Media LISTBOX. Жетнекстселектедитем
+- проигрыватель Windows Media LISTBOX. жетнекстселектедитем
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8afb3df1f1b6a6adc528e02dd6531ac4fc1a9a3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4a5d95880b1300ebfb7f1732e7c20b6975ad82cf2d15514c58e68b9f9c42cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003404"
 ---
 # <a name="listboxgetnextselecteditem"></a>LISTBOX. Жетнекстселектедитем
 
@@ -43,7 +43,7 @@ ms.locfileid: "105694968"
 
 Этот метод возвращает **число** (**Long**), содержащее индекс следующего выбранного элемента.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы начать поиск с начала, используйте значение 1 для начального индекса.
 
@@ -53,7 +53,7 @@ ms.locfileid: "105694968"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

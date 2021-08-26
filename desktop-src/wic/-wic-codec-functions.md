@@ -1,19 +1,19 @@
 ---
 title: Функции WIC
-description: В этом разделе содержатся сведения о функциях компонента Windows Imaging Component (WIC).
+description: в этом разделе содержатся сведения о функциях компонента обработки изображений Windows (WIC).
 ms.assetid: 6f948df6-5b70-4f1e-b01d-3841d7819acb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ce53f51f439ab5d0a697c824a1d37db7fd755f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f60660780e97831a77101c15646385d62048f005279b388a532ca687a200996
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056804"
 ---
 # <a name="wic-functions"></a>Функции WIC
 
-В этом разделе содержатся сведения о функциях компонента Windows Imaging Component (WIC).
+в этом разделе содержатся сведения о функциях компонента обработки изображений Windows (WIC).
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -23,7 +23,7 @@ ms.locfileid: "103897246"
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [*прогресснотификатионкаллбакк*](/windows/desktop/api/Wincodec/nc-wincodec-pfnprogressnotification)<br/>   | Определенная приложением функция обратного вызова, вызываемая при выполнении компонента кодека.<br/>                                                                                                                        |
 | [**викконвертбитмапсаурце**](/windows/desktop/api/Wincodec/nf-wincodec-wicconvertbitmapsource)<br/>             | Получает [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) в нужном формате пикселей из заданного **IWICBitmapSource**.<br/>                                                                           |
-| [**виккреатебитмапфромсектион**](/windows/desktop/api/Wincodec/nf-wincodec-wiccreatebitmapfromsection)<br/>     | Возвращает [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) , который поддерживается пикселами в обработчике раздела Windows интерфейс графических устройств (GDI).<br/>                                                |
+| [**виккреатебитмапфромсектион**](/windows/desktop/api/Wincodec/nf-wincodec-wiccreatebitmapfromsection)<br/>     | возвращает [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) , который поддерживается пикселами обработчика раздела Windows интерфейс графических устройств (GDI).<br/>                                                |
 | [**виккреатебитмапфромсектионекс**](/windows/desktop/api/Wincodec/nf-wincodec-wiccreatebitmapfromsectionex)<br/> | Возвращает [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) , который поддерживается пикселами в маркере раздела GDI.<br/>                                                                                    |
 | [**викжетметадатаконтентсизе**](/windows/desktop/api/wincodecsdk/nf-wincodecsdk-wicgetmetadatacontentsize)<br/>       | Возвращает размер содержимого метаданных, содержащегося в указанном [**ивикметадатавритер**](/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter). Возвращенный размер учетных записей для заголовка и длины метаданных.<br/> |
 | [**викмапгуидтошортнаме**](/windows/desktop/api/WinCodec/nf-wincodec-wicmapguidtoshortname)<br/>               | Получает короткое имя, связанное с данным идентификатором GUID.<br/>                                                                                                                                                       |

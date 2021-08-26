@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e8094fef5fcf008dd5f6eb6f2bfd05a0be1bf077
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8803768a1046afe535c6183757e44e0a00d0593ea970f75a1ef130db0e47e3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067144"
 ---
 # <a name="apijetprepareupdate-method"></a>API. Жетпрепареупдате, метод
 
@@ -83,7 +83,7 @@ public static void JetPrepareUpdate(
     
     Тип обновления для подготовки.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

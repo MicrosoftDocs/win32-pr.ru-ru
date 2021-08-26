@@ -3,7 +3,7 @@ title: Сообщение LVM_GETINSERTMARK (Коммктрл. h)
 description: Возвращает позицию точки вставки.
 ms.assetid: ad00df4c-4b4b-48f1-8821-7849a216df2e
 keywords:
-- Элементы управления Windows для LVM_GETINSERTMARK сообщений
+- элементы управления Windows сообщений LVM_GETINSERTMARK
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8cba96ae7d357e3e1f5a007fa41f6b7e9e3b64f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5e64281ccc9d4638353ddbb6062ce5cf1c0a678e009639dcc43cd0d4cf52741
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002674"
 ---
 # <a name="lvm_getinsertmark-message"></a>\_Сообщение LVM жетинсертмарк
 
@@ -39,7 +39,7 @@ ms.locfileid: "103891705"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае. **Значение false** возвращается, если размер в элементе **кбсизе** структуры [**лвинсертмарк**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) не равен фактическому размеру структуры.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Точка вставки может отображаться только в том случае, если элемент управления "представление списка" находится в представлении значков, представлении с небольшим значком или мозаичном представлении, а не в режиме просмотра группы.
 
@@ -54,9 +54,9 @@ ms.locfileid: "103891705"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

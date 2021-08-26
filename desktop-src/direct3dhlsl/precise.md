@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 03f288fb5dafee0e29c8c11cab72156f7ad3d569
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3c7929a7ebab01b17aca3e11cb98de8796bf568cd08a3a7b04d8f3395f531d72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104532861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067914"
 ---
 # <a name="precise"></a>Точная
 
@@ -27,7 +27,7 @@ ms.locfileid: "104532861"
 
 
 
- 
+ 
 
 Для этого модификатора требуется глобальный флаг шейдера " \_ РАЗРЕШЕН рефакторинг". При \_ наличии разрешенного РЕфакторинга результаты отдельных инструкций могут быть принудительно ограничены компиляторами или драйверами. Если компоненты инструкции [**Mad**](mad--sm4---asm-.md) помечены как **точные**, оборудование должно выполнить инструкцию **Mad** или точный эквивалент, и оно не может разделить его на множитель, за которым следует оператор Add. И наоборот, умножение, за которым следует оператор Add, где один или оба помечены как **точные**, не могут быть объединены в **Mad** с плавким предохранителем.
 
@@ -41,27 +41,27 @@ ms.locfileid: "104532861"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы инструкций модели шейдеров 5](shader-model-5-instruction-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

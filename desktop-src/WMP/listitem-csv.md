@@ -3,18 +3,18 @@ title: listitem.csv
 description: listitem.csv
 ms.assetid: d8f4bdb3-e7a5-4080-9ae7-555bf3695e9c
 keywords:
-- Интернет-магазины проигрывателя Windows Media, listitem.csv
+- проигрыватель Windows Media интернет-магазинов, listitem.csv
 - Интернет-магазины, listitem.csv
 - Введите 1 Интернет-магазины, listitem.csv
 - listitem.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe080c5b9426d5394a7d05c1bd293bba84014b0e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eb6894bb30cac5dfc30ce2e98a91965de193611420291be301e3e5c06dd5509d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003378"
 ---
 # <a name="listitemcsv"></a>listitem.csv
 

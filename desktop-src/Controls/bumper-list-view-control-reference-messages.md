@@ -4,16 +4,16 @@ description: Сообщения в виде списка
 ms.assetid: c324175b-fb41-43e3-a4a3-d97339538299
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9050269b220c2defe17d6673fc1e293892396284
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 35f7866a65fcf61597b3b4714fe241589978631110c7fe5fd187f3ec212714a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104547778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971434"
 ---
 # <a name="list-view-messages"></a>Сообщения в виде списка
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**LVM \_ аппроксиматевиеврект**](lvm-approximateviewrect.md)
 -   [**LVM \_**](lvm-arrange.md)

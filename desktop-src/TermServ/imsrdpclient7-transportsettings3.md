@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c60b58f8f2438de0d43f69ce0b3bb73607e7551
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eeff2c3d3427c9c8c5323f3c4cbea9d194c81d223c2a07ee364f87dd1dd2c33d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033344"
 ---
 # <a name="imsrdpclient7transportsettings3-property"></a>Свойство IMsRdpClient7:: TransportSettings3
 
@@ -58,7 +58,7 @@ HRESULT get_TransportSettings3(
 
 Адрес указателя интерфейса [**IMsRdpClientTransportSettings3**](imsrdpclienttransportsettings3.md) , который получает объект.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ HRESULT get_TransportSettings3(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

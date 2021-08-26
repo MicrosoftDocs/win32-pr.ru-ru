@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5f69afdacff576636781fa01957ee2540793a1a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6f41ee7c8ead90084e64c0ed3067c68339d4310d7dace88728b4c75dbccf3b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119970784"
 ---
 # <a name="esentresourcehasresource-property"></a>Есентресаурце. Хасресаурце, свойство
 
@@ -59,7 +59,7 @@ protected bool HasResource { get; }
 
 Тип: [System. Boolean](/dotnet/api/system.boolean)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

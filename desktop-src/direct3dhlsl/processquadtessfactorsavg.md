@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 36a50dd971161f3e03514947db447774da5b6a62
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 601036c20651da03de15fe4de807ccb6e9d73f5e0b6fc9c1cefc48ccb48b9147
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067794"
 ---
 # <a name="processquadtessfactorsavg-function"></a>Функция Процесскуадтессфакторсавг
 
@@ -89,7 +89,7 @@ void ProcessQuadTessFactorsAvg(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Формирует исправленные факторы тесселяции для четырех исправлений, вычисляя внутренние факторы тесселяции в качестве среднего значения факторов тесселяции краев. Внутренние факторы Тесс будут идентичными значениями, определяемыми средним значением всех четырех ребер, масштабируемых по Инсидескале. Затем результат округляется в зависимости от режима секционирования, но неокругленные результаты доступны с помощью параметра Унраундединсидетессфакторс.
 
@@ -101,7 +101,7 @@ void ProcessQuadTessFactorsAvg(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -119,7 +119,7 @@ void ProcessQuadTessFactorsAvg(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

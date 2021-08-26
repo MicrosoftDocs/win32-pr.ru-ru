@@ -4,12 +4,12 @@ description: Этап построителя текстуры (PS) обеспе�
 ms.assetid: 09831B10-4FD1-41E7-8D81-5AA63DC90020
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57142e9c32919a6959a7fac14bf544cca1dacd79
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dd58bbc55bbc2fb7d590036bceb061f2a304c0be16ff058d04f226021dfe3cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988164"
 ---
 # <a name="pixel-shader-stage"></a>Этап шейдера пикселей
 
@@ -39,7 +39,7 @@ ms.locfileid: "104134318"
 
 Шейдер пикселей не может выводить значение трафарета.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -49,6 +49,6 @@ ms.locfileid: "104134318"
 [Этапы конвейера (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

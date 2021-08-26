@@ -4,12 +4,12 @@ ms.assetid: f73b072a-1f69-4e26-9712-dab428edca18
 title: События управления питанием системы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab18fad9116cfff9e1cd35703e32a49e3b12c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0558dfe0c846c6b48125a382d14f03181d7f18fb2d11deb4783af975e57c4cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032934"
 ---
 # <a name="system-power-management-events"></a>События управления питанием системы
 
@@ -33,7 +33,7 @@ ms.locfileid: "105663101"
 
 Событие изменения параметра питания возникает при изменении значения параметра питания. Например, пользователь изменяет схему управления питанием с высокой производительности на сбалансированную в приложении "Параметры электропитания" на панели управления. В этом случае система рассылает событие, указывающее на изменение схемы управления питанием. Это событие включает новое значение параметра питания.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

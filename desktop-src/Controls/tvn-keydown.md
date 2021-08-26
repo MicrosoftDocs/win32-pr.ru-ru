@@ -3,7 +3,7 @@ title: Код уведомления TVN_KEYDOWN (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления древовидного представления о том, что пользователь нажал на клавишу, а элемент управления "представление дерева" имеет фокус ввода. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: da0d2b62-2295-4dce-9b37-a250f3be087f
 keywords:
-- TVN_KEYDOWN кода уведомления элементы управления Windows
+- TVN_KEYDOWN кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ccb18c3bf7dc03056abb55575850821e11eb9bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dadd3386e83e541288249b83028119111a42855a111f7ecb398571a1d46ab356
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002474"
 ---
 # <a name="tvn_keydown-notification-code"></a>\_Код уведомления ТВН KeyDown
 
@@ -55,9 +55,9 @@ TVN_KEYDOWN
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

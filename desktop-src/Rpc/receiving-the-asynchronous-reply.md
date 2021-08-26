@@ -4,12 +4,12 @@ description: После получения уведомления о том, ч�
 ms.assetid: 48fb3777-d90a-474b-a1fa-9d034b5791e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9143daaf1f276f784086e2ec17efb47dfd1fb6e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 24500e176a7c5a36342b4188e687c557d48646deef1de39845257d8e04ff7c45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018824"
 ---
 # <a name="receiving-the-asynchronous-reply"></a>Получение асинхронного ответа
 
@@ -17,6 +17,6 @@ ms.locfileid: "104413538"
 
 Если клиентская программа использует порты завершения ввода-вывода или события для уведомления, она должна вызвать функцию [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) для освобождения порта или обработчика, когда они больше не нужны.
 
- 
+ 
 
- 
+ 

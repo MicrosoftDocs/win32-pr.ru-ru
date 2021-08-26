@@ -4,12 +4,12 @@ description: Все дескрипторы, объявленные с \_ \_ ти
 ms.assetid: 7a948aad-02fa-421d-b32c-f5dab071bd04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d496a9a54ba0ee7b9552326f7c4dc15792a72bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e0e1d6f7cc2ad4d11e268e0f5c83b0275fcd2677a32303820507272f550b834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019154"
 ---
 # <a name="primitive-and-custom-binding-handles"></a>Простые и пользовательские дескрипторы привязки
 
@@ -28,7 +28,7 @@ ms.locfileid: "104070505"
 
 
 
- 
+ 
 
 В следующем примере показано, как можно определить пользовательский маркер привязки в IDL-файле:
 
@@ -115,6 +115,6 @@ void __RPC_USER DATA_HANDLE_TYPE_unbind(
 -   Примитив и EXPLICIT
 -   Custom и EXPLICIT
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Подпрограммы диспетчера асинхронно�
 ms.assetid: ddf9c319-6c4d-4de1-ab29-0ef9b76531ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2b0f11372090f1fd181c0d7272aa1446e5e3d22
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58b879cad9b3bde57798a3ebd3c04f7c9a76cb0d1ed055d219195db51cbed4a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017794"
 ---
 # <a name="server-side-asynchronous-pipe-handling"></a>Обработка асинхронных каналов на стороне сервера
 
@@ -171,7 +171,7 @@ void MyAsyncPipeAPCRoutine (
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -184,6 +184,6 @@ void MyAsyncPipeAPCRoutine (
 [Асинхронный RPC на стороне сервера](server-side-asynchronous-rpc.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
