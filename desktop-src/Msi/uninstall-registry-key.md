@@ -1,32 +1,32 @@
 ---
-description: Список свойств установщик Windows, предоставляя значения, записанные в разделе реестра Uninstall.
+description: список свойств установщик Windows, предоставляя значения, записанные в разделе реестра Uninstall.
 ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
-title: установщик Windows свойства для раздела реестра удаления
+title: Windows Свойства установщика для раздела реестра Uninstall
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 90174cabed7a1d9ff0ca21b532c459a1026787a6
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: b898cd2a83a05783141ddf1fb4a7cbebb783bbcd7640526c5b653afa434d2175
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "105994502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810323"
 ---
-# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>установщик Windows свойства для раздела реестра удаления
+# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>Windows Свойства установщика для раздела реестра Uninstall
 
 Следующие свойства установщика предоставляют значения, записываемые в раздел реестра:
 
-**HKey \_ \_** \\ **Программа** \\ **установки Microsoft** \\ **Windows** \\ **CurrentVersion** \\  для локального компьютера
+**HKey \_ \_** \\ **программное обеспечение** локального компьютера ( \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\  )
 
 Значения хранятся в подразделе, определяемом идентификатором GUID кода продукта приложения.
 
 
 
-| Значение               | установщик Windows, свойство                                                                                                                                                                                                                                                                                                                                           |
+| Значение               | Windows Свойство установщика                                                                                                                                                                                                                                                                                                                                           |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DisplayName         | Свойство [**ProductName**](productname.md)                                                                                                                                                                                                                                                                                                                          |
-| дисплайверсион      | Производный от свойства [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
-| Publisher           | Свойство [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
+| DisplayVersion      | Производный от свойства [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
+| Издатель           | Свойство [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
 | VersionMinor        | Производный от свойства [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | VersionMajor        | Производный от свойства [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | Версия             | Производный от свойства [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
@@ -38,13 +38,13 @@ ms.locfileid: "105994502"
 | урлинфоабаут        | [**Арпурлинфоабаут**](arpurlinfoabout.md) , свойство                                                                                                                                                                                                                                                                                                                  |
 | урлупдатеинфо       | [**Арпурлупдатеинфо**](arpurlupdateinfo.md) , свойство                                                                                                                                                                                                                                                                                                                |
 | аусоризедкдфпрефикс | [**Арпаусоризедкдфпрефикс**](arpauthorizedcdfprefix.md) , свойство                                                                                                                                                                                                                                                                                                    |
-| Комментарии            | [**Арпкомментс**](arpcomments.md) , свойство <br/> Комментарии, указанные на панели управления " **Установка и удаление программ** ".<br/>                                                                                                                                                                                                                                |
+| Примечания            | [**Арпкомментс**](arpcomments.md) , свойство <br/> Комментарии, указанные на панели управления " **Установка и удаление программ** ".<br/>                                                                                                                                                                                                                                |
 | Contact             | [**Арпконтакт**](arpcontact.md) , свойство <br/> Обратитесь к панели управления **Установка и удаление программ** .<br/>                                                                                                                                                                                                                                   |
-| EstimatedSize       | Определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                         |
+| EstimatedSize       | определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                         |
 | Язык            | [**Продуктлангуаже**](productlanguage.md) , свойство                                                                                                                                                                                                                                                                                                                  |
-| модифипас          | Определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                         |
+| модифипас          | определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                         |
 | Readme              | [**Арпреадме**](arpreadme.md) , свойство <br/> Файл readme, указанный на панели управления " **Установка и удаление программ** ".<br/>                                                                                                                                                                                                                                      |
-| UninstallString     | Определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                             |
+| UninstallString     | определяется и задается установщик Windows.                                                                                                                                                                                                                                                                                                                             |
 | сеттингсидентифиер  | [**Мсиарпсеттингсидентифиер**](msiarpsettingsidentifier.md) , свойство                                                                                                                                                                                                                                                                                                |
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "105994502"
 [Сведения о свойствах](about-properties.md)
 </dt> <dt>
 
-[Настройка установки и удаления программ с помощью установщик Windows](configuring-add-remove-programs-with-windows-installer.md)
+[настройка установки и удаления программ с помощью установщик Windows](configuring-add-remove-programs-with-windows-installer.md)
 </dt> <dt>
 
 [Справочник по свойствам](property-reference.md)

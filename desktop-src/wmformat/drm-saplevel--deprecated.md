@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43711c6c394761f599271809419a46311265d8b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f80b43cfcf0c89283237f8ff2d3e4f8612050296d7462f54890c3efa908fa9be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930894"
 ---
 # <a name="drm_saplevel-deprecated"></a>DRM \_ саплевел (не рекомендуется)
 
-\[**DRM \_ САПЛЕВЕЛ** больше не доступен для использования в Windows Vista. Вместо этого используйте звук защищенного пользовательского режима (PUMA) в библиотеке Media Foundation. \]
+\[**DRM \_ саплевел** больше не доступен для использования в Windows Vista. Вместо этого используйте звук защищенного пользовательского режима (PUMA) в библиотеке Media Foundation. \]
 
 Свойство **DRM \_ саплевел** указывает уровень защищенного звукового пути (SAP), поддерживаемого приложением.
 
@@ -33,7 +33,7 @@ g \_ всзвмдрм \_ саплевел
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно только для записи и устанавливается путем вызова [**ивмдрмреадер:: сетдрмпроперти**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty). Значение представляет собой строковое представление уровня SAP с расширенными символами, например L "200". Текущие поддерживаемые значения: 200 и 300.
 

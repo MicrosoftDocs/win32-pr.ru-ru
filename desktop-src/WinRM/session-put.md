@@ -4,9 +4,9 @@ description: Обновление ресурса.
 ms.assetid: f121d9ce-6aa3-45e3-b0ba-67b19c2f5665
 ms.tgt_platform: multiple
 keywords:
-- Метод размещения служба удаленного управления Windows
-- Метод размещения служба удаленного управления Windows, объект Session
-- Объект Session служба удаленного управления Windows, метод размещения
+- метод размещения служба удаленного управления Windows
+- метод размещения служба удаленного управления Windows, объект Session
+- объект Session служба удаленного управления Windows, метод размещения
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de0f09b0a0f8de4e7f7d06cb84753e6b708841f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4c6fc6123470f6633b77a1c51234e751f3be04044c0ad100f0017849cb1ac42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898694"
 ---
 # <a name="sessionput-method"></a>Метод Session. поместил
 
@@ -52,7 +52,7 @@ Session.Put( _
 
 Этот параметр может содержать один из элементов, содержащихся в следующем списке:
 
--   URI с [*селекторами*](windows-remote-management-glossary.md)или без них. При вызове метода **размещения** для получения ресурса WMI используйте ключевое свойство или свойства объекта. Например, в Visual Basic приведенном ниже примере кода сценария VBScript ключ задается с помощью `Win32_Service?Name=winmgmt` .
+-   URI с [*селекторами*](windows-remote-management-glossary.md)или без них. При вызове метода **размещения** для получения ресурса WMI используйте ключевое свойство или свойства объекта. например, в Visual Basic приведенном ниже примере кода сценария VBScript ключ задается с помощью `Win32_Service?Name=winmgmt` .
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" & _ 
@@ -148,7 +148,7 @@ End Sub
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                 |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                           |
-| Header<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Всмандисп. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Всмандисп. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Всмандисп. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
@@ -159,7 +159,7 @@ End Sub
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> </dl>
 
  

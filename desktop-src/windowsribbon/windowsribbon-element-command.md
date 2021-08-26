@@ -3,7 +3,7 @@ title: Command, элемент
 description: Представляет определение команды.
 ms.assetid: f332423d-d258-488d-9233-71687288b462
 keywords:
-- Лента Windows для командных элементов
+- элемент Command Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e1df5b62c7b2d7c55345ba8d6da366d04697054
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2def999c89994965f705f53edee684a3f1882fa2b47d43e512942715a8fc51f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931554"
 ---
 # <a name="command-element"></a>Command, элемент
 
@@ -266,7 +266,7 @@ ms.locfileid: "111443485"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 

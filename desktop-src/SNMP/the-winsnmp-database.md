@@ -4,12 +4,12 @@ description: В реализации Microsoft WinSNMP хранится адми
 ms.assetid: 0a0d9731-d800-4eaa-8230-25469a0b0285
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea83573cad12c05f6dd4b7e2375df5941e05fadb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc2f478c9bb1c05d3a094e2a15fac0a9cef5968f245257a0702d045eb90bd2fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886004"
 ---
 # <a name="the-winsnmp-database"></a>База данных WinSNMP
 
@@ -27,9 +27,9 @@ ms.locfileid: "104486709"
 
     Реализация использует этот параметр, чтобы определить, следует ли выполнять политику повторной передачи приложения. Реализация хранит значение времени ожидания и число повторных попыток для каждой целевой сущности. Дополнительные сведения см. в статье о повторной [передаче](about-retransmission.md) и [управлении политикой](managing-the-retransmission-policy.md)повторной передачи.
 
- 
+ 
 
- 
+ 
 
 
 

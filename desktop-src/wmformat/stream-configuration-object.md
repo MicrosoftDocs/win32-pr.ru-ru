@@ -3,7 +3,7 @@ title: Объект конфигурации потока
 description: Объект конфигурации потока
 ms.assetid: 228e334c-9d9b-4604-a225-73af7af3255f
 keywords:
-- Windows Media Format SDK, объекты конфигурации потока
+- Windows Пакет SDK для формата мультимедиа, объекты конфигурации потока
 - Расширенный системный формат (ASF), объекты конфигурации потока
 - ASF (Расширенный системный формат), объекты конфигурации потока
 - объекты, объекты конфигурации Stream
@@ -11,12 +11,12 @@ keywords:
 - потоки, объекты конфигурации потока
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e16a6c2221952e6102b76c49fee660888c9dcbc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 73e71be6149df3f2da0edba31d9c5803d86a6fd89189e1fc339cf99593336415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104133582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929384"
 ---
 # <a name="stream-configuration-object"></a>Объект конфигурации потока
 
@@ -34,7 +34,7 @@ ms.locfileid: "104133582"
 
 
 
- 
+ 
 
 Все методы в приведенной выше таблице устанавливают указатель на интерфейс **ивмстреамконфиг** . Другие интерфейсы объекта конфигурации потока можно получить, вызвав метод **QueryInterface** .
 
@@ -53,13 +53,13 @@ ms.locfileid: "104133582"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Настройка потоков**](configuring-streams.md)
+[**настройка Потоки**](configuring-streams.md)
 </dt> <dt>
 
 [**Объекты**](objects.md)
@@ -68,9 +68,9 @@ ms.locfileid: "104133582"
 [**Объект диспетчера профилей**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

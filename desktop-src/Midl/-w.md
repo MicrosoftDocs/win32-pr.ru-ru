@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00b1f15ae0c28722adaca8c4b0651606681ce3af
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7e03b2d4a762a7fbb1bba00f8804e8e43a77ad8183a744add63fcf0d37c86d54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105681542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913674"
 ---
 # <a name="w-switch"></a>Параметр/w
 
@@ -38,7 +38,7 @@ midl /W level
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Уровни предупреждений находятся в диапазоне от 1 до 4 и имеют нулевое значение для вывода сведений о предупреждении. Предупреждение о наивысшей серьезности имеет уровень 1. В следующей таблице описаны предупреждения для каждого уровня предупреждений.
 
@@ -54,7 +54,7 @@ midl /W level
 
 
 
- 
+ 
 
 Предупреждения отличаются от ошибок. Ошибки приводят к остановке обработки IDL-файла компилятором MIDL. Предупреждения вызывают вывод информационного сообщения компилятором MIDL и продолжение обработки IDL-файла.
 
@@ -68,7 +68,7 @@ midl /W level
 
 **MIDL/W4 Bar. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -78,9 +78,9 @@ midl /W level
 [**/warn**](-warn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

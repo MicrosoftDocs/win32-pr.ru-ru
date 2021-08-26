@@ -3,7 +3,7 @@ title: Сообщение LVM_UPDATE (Коммктрл. h)
 description: Обновляет элемент представления списка. Если элемент управления "список" имеет \_ стиль АВТОУПОРЯДОЧИТЬ LVS, этот макрос приводит к упорядочиванию элемента управления "список". Это сообщение можно отправить явно или с помощью \_ макроса обновления ListView.
 ms.assetid: 81b332e9-4bea-481e-a7c5-613371103550
 keywords:
-- Элементы управления Windows для LVM_UPDATE сообщений
+- элементы управления Windows сообщений LVM_UPDATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6cf2a4316e3ae3fc4dbab5e1afe780b03829b30
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff9067d6eb80c5db7880ee9331a04e9259e9c841ccfe7dd80158a2afbcd06c99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915234"
 ---
 # <a name="lvm_update-message"></a>\_Сообщение об обновлении LVM
 
@@ -43,15 +43,15 @@ ms.locfileid: "103891497"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

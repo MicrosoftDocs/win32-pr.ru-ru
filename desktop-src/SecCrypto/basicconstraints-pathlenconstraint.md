@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 39656cf4f3cbe768589ba704a0a65c158da000fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2816f8b7d0c9485037e3b90dc421c295fe144ec3fc986bc620b22e7c8d95abbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879534"
 ---
 # <a name="basicconstraintspathlenconstraint-property"></a>Басикконстраинтс. Пасленконстраинт, свойство
 
@@ -39,7 +39,7 @@ BasicConstraints.PathLenConstraint As Long
 
 Значение ограничения длины пути.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

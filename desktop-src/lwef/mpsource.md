@@ -3,8 +3,8 @@ title: Перечисление МПСАУРЦЕ (Мпклиент. h)
 description: Возможная Категория источника.
 ms.assetid: 1AD12D67-C74B-481A-AC9B-D119AABDB6E9
 keywords:
-- Перечисление МПСАУРЦЕ. устаревшие функции среды Windows
-- Устаревшие компоненты среды Windows в указателе перечисления ПМПСАУРЦЕ
+- мпсаурце перечисления устаревших компонентов среды Windows
+- Windows компонентов среды устаревшего указателя перечисления пмпсаурце
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e9255029512499a0e2948a44701ef4482aff4b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59eb014ab78645d78cd2942c37477d9a19d2572826859be77c6f5ecddfcb1bda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961104"
 ---
 # <a name="mpsource-enumeration"></a>Перечисление МПСАУРЦЕ
 
@@ -84,7 +84,7 @@ typedef enum tagMPSOURCE {
 <span id="MPSOURCE_IOAV"></span><span id="mpsource_ioav"></span>**МПСАУРЦЕ \_ защиту ioav**
 </dt> <dd>
 
-Загрузки IE и инициированные вложения Outlook Express.
+загрузки IE и инициированы Outlookные вложения Express.
 
 </dd> <dt>
 
@@ -150,9 +150,9 @@ AMSI
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

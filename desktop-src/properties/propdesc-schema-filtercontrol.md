@@ -4,12 +4,12 @@ ms.assetid: a3117e16-20d0-4637-b726-9fa49516ad5c
 title: филтерконтрол
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c0de28eaa349b9a999ba39c1bad47aa01d43d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74f002543b220347ba9aaba3659aa9a66f8aea7760b9d8a9177ef2980a823434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885964"
 ---
 # <a name="filtercontrol"></a>филтерконтрол
 
@@ -79,7 +79,7 @@ ms.locfileid: "105662769"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>По умолчанию. Использует элемент управления по умолчанию, основанный на <typeInfo type=&quot;&quot;> атрибуте. По умолчанию используется тип &quot; DateTime &quot; , а элементом управления по умолчанию является &quot; Calendar &quot; . Любой другой тип приведет к отсутствию специального элемента управления фильтра.</td>
 </tr>
 <tr class="even">

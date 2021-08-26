@@ -7,12 +7,12 @@ keywords:
 - ILockBytes Стрктд STG, реализации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9d7cae82c1503fcb53d2cfd8fee39095eb60801
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d30f9786f29433bcc02e0b56f3ea9d45c949593f60962e80a650d80ed625da41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104328864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867453"
 ---
 # <a name="ilockbytes---global-memory-implementation"></a>ILockBytes — реализация глобальной памяти
 
@@ -22,7 +22,7 @@ ms.locfileid: "104328864"
 
 Методы [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) вызываются из составных реализаций файлов класса [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) и [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) для объекта хранилища составных файлов, созданного с помощью вызова [**стгкреатедокфиле**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ниже приведены методы реализации глобальной памяти [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) .
 
@@ -77,7 +77,7 @@ ms.locfileid: "104328864"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -90,9 +90,9 @@ ms.locfileid: "104328864"
 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

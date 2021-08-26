@@ -1,22 +1,22 @@
 ---
-description: В следующем примере используется функция CreateFileMapping с \_ \_ флагом больших страниц sec для использования больших страниц. Для этого требуется Windows Server 2003 с пакетом обновления 1 (SP1) или более поздней версии.
+description: В следующем примере используется функция CreateFileMapping с \_ \_ флагом больших страниц sec для использования больших страниц. для этого требуется Windows Server 2003 с пакетом обновления 1 (SP1) или более поздней версии.
 ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: Создание сопоставления файлов с помощью больших страниц
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a852de187f6798904ef1795dca5955663283f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df68cc483856d0fe7f329b4f5e6e5c8a424a8c0e55958ca1da8de1ce51cbf71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869944"
 ---
 # <a name="creating-a-file-mapping-using-large-pages"></a>Создание сопоставления файлов с помощью больших страниц
 
 В следующем примере используется функция [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) с флагом **\_ больших \_ страниц sec** для использования больших страниц. Буфер должен быть достаточно большим, чтобы вместить минимальный размер большой страницы. Это значение получается с помощью функции [**жетларжепажеминимум**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) . Для этой функции также требуется привилегия "SeLockMemoryPrivilege".
 
 > [!NOTE]
-> Начиная с Windows 10 версии 1703 функция [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) сопоставляет представление с помощью мелких страниц по умолчанию, даже для объектов сопоставления файлов, созданных с помощью флага **\_ больших \_ страниц sec** . В этой и более поздних версиях ОС необходимо указать флаг **File \_ Map \_ Large \_ pages** с функцией [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) для отображения больших страниц. Этот флаг не учитывается в версиях ОС до Windows 10, версия 1703.
+> Windows 10 начиная с версии 1703 функция [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) сопоставляет представление с помощью мелких страниц по умолчанию, даже для объектов сопоставления файлов, созданных с помощью флага **\_ больших \_ страниц SEC** . В этой и более поздних версиях ОС необходимо указать флаг **File \_ Map \_ Large \_ pages** с функцией [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) для отображения больших страниц. этот флаг пропускается в версиях ос до Windows 10 версии 1703.
 
 
 ```C++
@@ -148,7 +148,7 @@ int _tmain(void)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

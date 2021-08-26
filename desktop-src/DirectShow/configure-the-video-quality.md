@@ -4,24 +4,24 @@ ms.assetid: f789db78-292e-4092-a5dc-1906845fb1dd
 title: Настройка качества видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cb8d2d28e39f0083aac521f1953ebbb1ca8d5b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c5987352eb329410efd3fc74d6bf12539e968da8e24d2f0a65af9c9ac7b5cb85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871774"
 ---
 # <a name="configure-the-video-quality"></a>Настройка качества видео
 
 В этом разделе описано, как приложение может программно изменять параметры изображения и камеры на устройстве видеозаписи.
 
--   [Параметры параметра cAmp](#procamp-settings)
+-   [Параметры camp](#procamp-settings)
 -   [Параметры камеры](#camera-settings)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
-## <a name="procamp-settings"></a>Параметры параметра cAmp
+## <a name="procamp-settings"></a>Параметры camp
 
-Видеокамеры WDM (WDM) могут поддерживать свойства, управляющие качеством изображения.
+Windows Видеокамеры в модели WDM могут поддерживать свойства, управляющие качеством изображения:
 
 -   Компенсация с подсветкой
 -   Brightness
@@ -93,7 +93,7 @@ else
 
 -   Экспозиция
 -   Фокус
--   IRI
+-   Ирисы
 -   Сдвиг
 -   Roll
 -   Индикатор
@@ -106,7 +106,7 @@ else
 3.  Вызовите метод [**иамкамераконтрол:: Get**](/windows/desktop/api/Strmif/nf-strmif-iamcameracontrol-get) , чтобы получить текущее значение параметра.
 4.  Вызовите метод [**иамкамераконтрол:: Set**](/windows/desktop/api/Strmif/nf-strmif-iamcameracontrol-set) , чтобы задать значение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

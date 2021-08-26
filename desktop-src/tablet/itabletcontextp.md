@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 5b3b6a69deeaa30c3fa0e16b1b36094dceaff304
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da5c26a0a9d7d080a9787fef0b7ba2fdb919e473fd66c989fca478c4ac7d0ac3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883524"
 ---
 # <a name="itabletcontextp-interface"></a>Интерфейс Итаблетконтекстп
 
@@ -49,11 +49,11 @@ ms.locfileid: "105713063"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Разработчики не должны использовать этот интерфейс.
 
-[**Усенамедшаредмеморикоммуникатионс**](itabletcontextp-usenamedsharedmemorycommunications.md) доступен только в Windows Vista и более поздних версиях.
+[**усенамедшаредмеморикоммуникатионс**](itabletcontextp-usenamedsharedmemorycommunications.md) доступен только в Windows Vista и более поздних версиях.
 
 В следующем коде показано, как определяется интерфейс **итаблетконтекстп** .
 
@@ -101,7 +101,7 @@ interface ITabletContextP : ITabletContext
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                              |
 | Библиотека<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

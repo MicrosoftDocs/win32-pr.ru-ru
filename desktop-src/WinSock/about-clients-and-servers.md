@@ -4,12 +4,12 @@ ms.assetid: 05e42384-1746-462d-82c7-8df848b4525e
 title: О серверах и клиентах
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a951d23ba1c6ad4f0f5ffd1f674b056a36c3f8dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07e6d8016d1fc9c23b901a03a924cd0e3ade3982dc2e1bf0db277eac47170d89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898644"
 ---
 # <a name="about-servers-and-clients"></a>О серверах и клиентах
 
@@ -31,7 +31,7 @@ ms.locfileid: "105692314"
 
 1.  Инициализируйте Winsock.
 2.  Создайте сокет.
-3.  Подключитесь к серверу.
+3.  Подключение на сервер.
 4.  Отправка и получение данных.
 5.  Производить отключение.
 
@@ -42,7 +42,7 @@ ms.locfileid: "105692314"
 
 Первый шаг. [Создание базового приложения Winsock](creating-a-basic-winsock-application.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

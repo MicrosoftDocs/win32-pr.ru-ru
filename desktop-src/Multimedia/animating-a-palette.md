@@ -9,12 +9,12 @@ keywords:
 - Функция Дравдибчанжепалетте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e023ba8ee2c4791ebc8c3f2ac7ebf9a198f4a5ae
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4be9613e4e648fad0b1fafe5d48d091ab13c9b6c358eda4a858c1d5517ab8fc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103791196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808424"
 ---
 # <a name="animating-a-palette"></a>Анимация палитры
 
@@ -42,13 +42,13 @@ ReleaseDC(hwnd, hdc);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование Дравдиб](using-drawdib.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

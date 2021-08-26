@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd57efd12d3fb5c708d5c4861ee144543bb49f6a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6647f10ab91fd5cb1919d49c4c00d22b8b1722de9b20d9b83fdee8fcceaef95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871974"
 ---
 # <a name="cb_request_status-enumeration"></a>\_ \_ Перечисление состояния запросов CB
 
@@ -112,7 +112,7 @@ typedef enum _CB_REQUEST_STATUS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -120,11 +120,11 @@ typedef enum _CB_REQUEST_STATUS {
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                        |
-| Header<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Кбклиент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

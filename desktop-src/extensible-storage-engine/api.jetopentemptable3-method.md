@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9e88b5413492c0ae00ed41e569afb49ca6c18e51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09100f3dcc1165d73e35349b404b78085323743a4d83d269f6f4775dc0b94375
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948044"
 ---
 # <a name="apijetopentemptable3-method"></a>Метод Api.JetOpenTempTable3
 
@@ -126,7 +126,7 @@ public static void JetOpenTempTable3(
     
     Выходной буфер, который получает массив идентификаторов столбцов, созданных во время создания временной таблицы. Идентификаторы столбцов в этом массиве будут точно соответствовать входному массиву определений столбцов. В результате размер этого буфера должен соответствовать размеру входного массива.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -3,7 +3,7 @@ title: Код уведомления NM_CUSTOMDRAW (Главная панель)
 description: Отправляется элементом управления "Главная панель" для уведомления родительского окна об операциях рисования. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 3ba9bb59-f297-4af1-a9a9-d8789def5bde
 keywords:
-- Элементы управления Windows для кода уведомления NM_CUSTOMDRAW (Главная панель)
+- элементы управления Windows кода уведомления NM_CUSTOMDRAW (главная панель)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 329f3e9abfb20dbca8cebd3a6bf02673ad00f904
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 376bb9627d159dbb24080c2e475072dae357062975158d39f269e1cb7a4e3405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914874"
 ---
 # <a name="nm_customdraw-rebar-notification-code"></a>\_Код уведомления "NM кустомдрав" (Главная панель)
 
@@ -65,19 +65,19 @@ NM_CUSTOMDRAW
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

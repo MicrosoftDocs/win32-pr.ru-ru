@@ -4,16 +4,16 @@ ms.assetid: 8dcc6182-ad3c-47f2-b4a0-e18a3c9f6888
 title: 'Метод ИтпартиЦипант:: get_ParticipantTypedInfo (Ипмсп. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c9936f49e6daa05702699487e4313a918c545a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43afb80b0f1161cf0060c8492576ade4f682af44cb4b2dbb13ab49d2c65aab66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867154"
 ---
 # <a name="itparticipantget_participanttypedinfo-method"></a>Метод ИтпартиЦипант:: Get \_ партиЦипанттипединфо
 
-\[**получить \_ ПартиЦипанттипединфо** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**получить \_ партиЦипанттипединфо** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **Get \_ партиЦипанттипединфо** получает представление **BSTR** требуемого типа информации, например Пти \_ EMAILADDRESS.
 
@@ -56,7 +56,7 @@ HRESULT get_ParticipantTypedInfo(
 | Код возврата                                                                                    | Описание                                                     |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**\_ОК**</dt> </dl>           | Метод успешно выполнен.<br/>                                    |
-| <dl> <dt>**\_Ошибка E**</dt> </dl>         | Не удалось хранить данные в *ппинфо* .<br/>         |
+| <dl> <dt>**\_Ошибка E**</dt> </dl>         | не удалось служба хранилища сведения в *ппинфо* .<br/>         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>   | Недопустимый параметр *инфотипе* .<br/>               |
 | <dl> <dt>**\_указатель E**</dt> </dl>      | Параметр *ппинфо* не является допустимым указателем.<br/>       |
 | <dl> <dt>**ЭЛЕМЕНТ интерфейса TAPI \_ E \_**</dt> </dl> | Интерфейс TAPI не содержит сведений о указанном типе.<br/>       |
@@ -66,24 +66,24 @@ HRESULT get_ParticipantTypedInfo(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, выделенной для параметра *ппинфо* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|--------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                |
-| Header<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Ипмсп. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>  |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

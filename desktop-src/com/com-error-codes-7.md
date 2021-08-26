@@ -233,12 +233,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f35b202d55fa12bedb57aa11cb9f60bb4a55fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bd45006f9a1269651827643807183feec5a4a7da2d48a03b56fe62362be4751
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896504"
 ---
 # <a name="com-error-codes-fwp-ws-ndis-hyperv"></a>Коды ошибок COM (FWP, WS, NDIS, HyperV)
 
@@ -354,9 +354,9 @@ ms.locfileid: "105674923"
 | <span id="WS_E_SERVER_REQUIRES_NTLM_AUTH"></span><span id="ws_e_server_requires_ntlm_auth"></span><dl> <dt>**Служба WS \_ Для \_ сервера \_ E \_ требуется \_ Проверка подлинности NTLM**</dt> <dt>0x803D001E</dt> </dl>                                                         | Удаленной конечной точке требуется схема проверки подлинности HTTP "NTLM".<br/>                                                                                                                                                                                                                    |
 | <span id="WS_E_SERVER_REQUIRES_NEGOTIATE_AUTH"></span><span id="ws_e_server_requires_negotiate_auth"></span><dl> <dt>**Служба WS \_ Для \_ сервера E \_ требуется \_ согласование \_ проверки подлинности**</dt> <dt>0x803D001F</dt> </dl>                                          | Удаленной конечной точке требуется схема проверки подлинности HTTP "Negotiate".<br/>                                                                                                                                                                                                               |
 | <span id="WS_E_INVALID_ENDPOINT_URL"></span><span id="ws_e_invalid_endpoint_url"></span><dl> <dt>**Служба WS \_ \_Недопустимый \_ \_ URL-адрес конечной точки**</dt> <dt>0x803D0020</dt> </dl>                                                                         | Недопустимый URL-адрес конечной точки.<br/>                                                                                                                                                                                                                                               |
-| <span id="WS_E_OTHER"></span><span id="ws_e_other"></span><dl> <dt>**Служба WS \_ E \_ other**</dt> <dt>0x803D0021</dt> </dl>                                                                                                                        | В платформе веб-служб Windows возникла неизвестная ошибка.<br/>                                                                                                                                                                                                                 |
+| <span id="WS_E_OTHER"></span><span id="ws_e_other"></span><dl> <dt>**Служба WS \_ E \_ other**</dt> <dt>0x803D0021</dt> </dl>                                                                                                                        | в инфраструктуре веб-служб Windows возникла неизвестная ошибка.<br/>                                                                                                                                                                                                                 |
 | <span id="WS_E_SECURITY_TOKEN_EXPIRED"></span><span id="ws_e_security_token_expired"></span><dl> <dt>**Служба WS \_ \_ \_ \_ Истек срок действия маркера безопасности E**</dt> <dt>0x803D0022</dt> </dl>                                                                   | Маркер безопасности был отклонен сервером, так как срок его действия истек.<br/>                                                                                                                                                                                                                |
-| <span id="WS_E_SECURITY_SYSTEM_FAILURE"></span><span id="ws_e_security_system_failure"></span><dl> <dt>**Служба WS \_ E \_ Security \_ 0x803D0023 \_ сбой системы**</dt> <dt></dt> </dl>                                                                | Сбой операции безопасности в платформе веб-служб Windows.<br/>                                                                                                                                                                                                                 |
+| <span id="WS_E_SECURITY_SYSTEM_FAILURE"></span><span id="ws_e_security_system_failure"></span><dl> <dt>**Служба WS \_ E \_ Security \_ 0x803D0023 \_ сбой системы**</dt> <dt></dt> </dl>                                                                | сбой операции безопасности в инфраструктуре веб-служб Windows.<br/>                                                                                                                                                                                                                 |
 | <span id="ERROR_NDIS_INTERFACE_CLOSING"></span><span id="error_ndis_interface_closing"></span><dl> <dt>**Ошибка при \_ NDIS- \_ интерфейс \_ закрытия**</dt> <dt>0x80340002</dt> </dl>                                                                 | Выполняется закрытие привязки к сетевому интерфейсу.<br/>                                                                                                                                                                                                                              |
 | <span id="ERROR_NDIS_BAD_VERSION"></span><span id="error_ndis_bad_version"></span><dl> <dt>**Ошибка при \_ \_Неправильная \_ версия**</dt> <dt>0x80340004</dt> NDIS </dl>                                                                                   | Указана недопустимая версия.<br/>                                                                                                                                                                                                                                                  |
 | <span id="ERROR_NDIS_BAD_CHARACTERISTICS"></span><span id="error_ndis_bad_characteristics"></span><dl> <dt>**Ошибка при \_ \_Неправильные \_ характеристики NDIS**</dt> <dt>0x80340005</dt> </dl>                                                           | Была использована недопустимая таблица характеристик.<br/>                                                                                                                                                                                                                                         |
@@ -453,7 +453,7 @@ ms.locfileid: "105674923"
 | <span id="ERROR_VID_INVALID_GPA_RANGE_HANDLE"></span><span id="error_vid_invalid_gpa_range_handle"></span><dl> <dt>**Ошибка при \_ VID — \_ Недопустимый \_ \_ \_ обработчик диапазона GPA**</dt> <dt>0xC0370015</dt> </dl>                                             | Этот маркер не является допустимым маркером диапазона страниц для драйвера инфраструктуры виртуализации.<br/>                                                                                                                                                                                          |
 | <span id="ERROR_VID_NO_MEMORY_BLOCK_NOTIFICATION_QUEUE"></span><span id="error_vid_no_memory_block_notification_queue"></span><dl> <dt>**Ошибка при \_ VID \_ нет \_ 0xC0370016 \_ \_ \_ очереди уведомлений для блоков памяти**</dt> <dt></dt> </dl>              | Не удается установить клиентские уведомления, так как ни одна очередь сообщений для драйвера инфраструктуры виртуализации не связана с блоком памяти.<br/>                                                                                                                                     |
 | <span id="ERROR_VID_MEMORY_BLOCK_LOCK_COUNT_EXCEEDED"></span><span id="error_vid_memory_block_lock_count_exceeded"></span><dl> <dt>**Ошибка при \_ \_ \_ \_ \_ \_ Превышено число блокировок блоков памяти VID**</dt> <dt>0xC0370017</dt> </dl>                    | Не удалось выполнить запрос на блокировку или отображение страницы блока памяти, так как достигнут предел блока памяти для драйвера инфраструктуры виртуализации. Перезапуск виртуальной машины может устранить проблему. Если проблема будет повторяться, попробуйте перезапустить физический компьютер.<br/>                     |
-| <span id="ERROR_VID_INVALID_PPM_HANDLE"></span><span id="error_vid_invalid_ppm_handle"></span><dl> <dt>**Ошибка при \_ \_Недопустимый \_ \_ маркер "ppm**</dt> ", <dt>0xC0370018</dt> </dl>                                                                | Этот маркер не является допустимым маркером сопоставления родительского раздела для драйвера инфраструктуры виртуализации.<br/>                                                                                                                                                                            |
+| <span id="ERROR_VID_INVALID_PPM_HANDLE"></span><span id="error_vid_invalid_ppm_handle"></span><dl> <dt>**Ошибка при \_ недопустимый идентификатор VID \_ \_ система УПП \_ HANDLE**</dt> <dt>0xC0370018</dt> </dl>                                                                | Этот маркер не является допустимым маркером сопоставления родительского раздела для драйвера инфраструктуры виртуализации.<br/>                                                                                                                                                                            |
 | <span id="ERROR_VID_MBPS_ARE_LOCKED"></span><span id="error_vid_mbps_are_locked"></span><dl> <dt>**Ошибка при \_ VID \_ Мбит/с \_ \_ заблокированы**</dt> <dt>0xC0370019</dt> </dl>                                                                         | Невозможно создать уведомления для блока памяти, так как он используется.<br/>                                                                                                                                                                                                             |
 | <span id="ERROR_VID_MESSAGE_QUEUE_CLOSED"></span><span id="error_vid_message_queue_closed"></span><dl> <dt>**Ошибка при \_ \_Очередь сообщений \_ VID \_ закрыта**</dt> <dt>0xC037001A</dt> </dl>                                                          | Очередь сообщений для драйвера инфраструктуры виртуализации закрыта. Перезапуск виртуальной машины может устранить проблему. Если проблема будет повторяться, попробуйте перезапустить физический компьютер.<br/>                                                                                 |
 | <span id="ERROR_VID_VIRTUAL_PROCESSOR_LIMIT_EXCEEDED"></span><span id="error_vid_virtual_processor_limit_exceeded"></span><dl> <dt>**Ошибка при \_ \_ \_ \_ \_ Превышен предел виртуального процессора VID**</dt> <dt>0xC037001B</dt> </dl>                     | Не удается добавить виртуальный процессор в секцию, так как достигнуто максимальное значение.<br/>                                                                                                                                                                                              |
@@ -475,17 +475,17 @@ ms.locfileid: "105674923"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winerror. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winerror. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

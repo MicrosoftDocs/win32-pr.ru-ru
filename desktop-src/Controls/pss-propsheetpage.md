@@ -2,7 +2,7 @@
 title: Структура PROPSHEETPAGE (Prsht.h)
 description: Определяет страницу в таблице свойств.
 keywords:
-- Элементы управления Windows структуры ПРОПШИТПАЖЕ
+- структура пропшитпаже Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: 78e1d1e4e6b4b2067083443bdb5dc4db5df59558
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 1c1be3b6240f024b5aeee4a4d7a9d308cdb6572ae5080db00b3d05da30e02306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914464"
 ---
 # <a name="propsheetpage-structure"></a>Структура ПРОПШИТПАЖЕ
 
@@ -55,7 +55,7 @@ typedef struct {
 } PROPSHEETPAGE, *LPPROPSHEETPAGE;
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 *двсизе* 
 
@@ -190,15 +190,15 @@ typedef struct {
 
 Этот член объявляется как объединение с *хбмхеадер*.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Comctl32.dll версии 6 и более поздних версий не являются распространяемыми. Чтобы использовать Comctl32.dll версии 6 или более поздней, укажите DLL-файл в манифесте. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
+Comctl32.dll версии 6 и более поздних версий не являются распространяемыми. Чтобы использовать Comctl32.dll версии 6 или более поздней, укажите .dll файл в манифесте. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
-| Требование | Применение |
+| Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows Vista\]                                    |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\]                              |
+| Минимальная версия клиента | Windows \[Только классические приложения Vista\]                                    |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\]                              |
 | Заголовок                   | Пршт. h |
 | Имя в кодировке Юникод и ANSI                   | **Пропшисеадерв** (Юникод) и **пропшисеадера** (ANSI) |

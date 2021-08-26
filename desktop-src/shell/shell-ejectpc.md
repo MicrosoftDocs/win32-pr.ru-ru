@@ -1,5 +1,5 @@
 ---
-description: Shell. Ежектпк метод — извлекает компьютер из стыковочного узла. Это то же самое, что и при нажатии кнопки "Пуск" и выборе пункта "извлечь компьютер", если компьютер поддерживает эту команду.
+description: Shell. Ежектпк метод — извлекает компьютер из стыковочного узла. это то же самое, что щелчок меню и выбор пункта извлечь компьютер, если компьютер поддерживает эту команду.
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: Метод Shell. Ежектпк (Шлдисп. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5ec08aaa82d2f752fa06537434adede86b9d5a3a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3f774b666647ebf8a255950fe8427a87e55ca514db9ed841a5fc7f2e7edb2e69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883884"
 ---
 # <a name="shellejectpc-method"></a>Shell. Ежектпк, метод
 
@@ -57,9 +57,9 @@ Shell.EjectPC()
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показано использование **ежектпк** . Правильное использование показано в JScript, VBScript и Visual Basic.
+В следующем примере показано использование **ежектпк** . правильное использование отображается для JScript, VBScript и Visual Basic.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -109,13 +109,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                         |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                         |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                           |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                           |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                         |

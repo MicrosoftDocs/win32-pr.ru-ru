@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 683a495398e7fe0718ee0642c7760b0a8590538c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 685e97ec28241348ff4a969c444b6da5638aeba01af8be35cc5490a0d2be0a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846964"
 ---
 # <a name="idirectxfileregistertemplates-method"></a>Метод Идиректксфиле:: Регистертемплатес
 
@@ -65,7 +65,7 @@ HRESULT RegisterTemplates(
 
 Если метод выполнен успешно, возвращается значение ДКСФИЛЕ \_ ОК. Если метод завершается с ошибкой, возвращаемое значение может быть одним из следующих: ДКСФИЛИРР \_ бадфилефлоатсизе, дксфилирр \_ БАДФИЛЕТИПЕ, дксфилирр \_ бадфилеверсион, ДКСФИЛИРР \_ BADVALUE, DXFILEERR \_ PARSEERROR.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В следующем фрагменте кода приведен пример вызова **регистертемплатес** и пример содержимого для буфера, на который указывает пвдата.
 
@@ -97,7 +97,7 @@ HRESULT RegisterTemplates(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Дксфиле. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
 
 

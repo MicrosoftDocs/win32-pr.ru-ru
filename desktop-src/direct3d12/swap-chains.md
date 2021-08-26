@@ -1,18 +1,18 @@
 ---
-title: Цепочки переключения
+title: Цепочки буферов
 description: Цепи переключения управляют поворотом заднего буфера, формируя основание графической анимации.
 ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbc7ec1b62ba620b42bc85c1c1f491ff7ba952d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 9e98fc2baf63d7d80fefc190f2d01da33ea24d420e647b4f0c57df7ec4c501f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104548983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850654"
 ---
-# <a name="swap-chains"></a>Цепочки переключения
+# <a name="swap-chains"></a>Цепочки буферов
 
 Цепи переключения управляют поворотом заднего буфера, формируя основание графической анимации.
 
@@ -67,11 +67,11 @@ void Present()
 
 При использовании вызовов [**креатесвапчаинфорхвнд**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), [**креатесвапчаинфоркоревиндов**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow)или [**креатесвапчаинфоркомпоситион**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) Обратите внимание, что параметр *pDevice* на самом деле требует наличия указателя на прямую командную очередь в Direct3D 12, а не на устройстве.
 
-### <a name="presenting-on-windows-7"></a>Представление в Windows 7
+### <a name="presenting-on-windows-7"></a>презентация на Windows 7
 
-При использовании Direct3D 12 в Windows 7 необходимые типы DXGI для Direct3D 12 отсутствуют, поэтому необходимо использовать предоставленный D3D12On7 **ID3D12CommandQueueDownLevel** (запрашивается из прямой очереди команд) для представления.
+при использовании direct3d 12 на Windows 7 необходимые типы DXGI для Direct3D 12 отсутствуют, поэтому необходимо использовать **ID3D12CommandQueueDownLevel** , предоставленный D3D12On7 (запрошенный из прямой очереди команд).
 
-Вы предоставляете список открытых команд для метода Windows 7 Present, который затем будет использоваться, закрыт и автоматически отправлен на устройство. Необходимо указать задний буфер, который должен быть создан приложением, должен быть зафиксированным ресурсом, должен быть единственным образцом и должен иметь один из следующих форматов.
+вы предоставляете список открытых команд для метода Windows 7 present, который затем будет использоваться, закрыт и автоматически отправлен на устройство. Необходимо указать задний буфер, который должен быть создан приложением, должен быть зафиксированным ресурсом, должен быть единственным образцом и должен иметь один из следующих форматов.
 
 * **DXGI_FORMAT_R16G16B16A16_FLOAT**
 * **DXGI_FORMAT_R10G10B10A2_UNORM**

@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abbbe47dfb3ff23c1d1bd891053375e19d6e503e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c307f2b5ddcad1631cd5981a0ea25d8b9fb43566a482de20a2d050a0f3e8db57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913580"
 ---
 # <a name="mdm_reporting_securityauditing01_retrievebytimerange02-class"></a>\_ \_ Класс SecurityAuditing01 RETRIEVEBYTIMERANGE02 отчетов MDM \_
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ Reporting \_ SecurityAuditing01 \_ RetrieveByTimeRange02** используется для получения журналов, существующих в параметре StartTime и StopTime. значение StartTime и StopTime выражается в формате ISO 8601. Если параметры StartTime и StopTime не указаны, то значения будут интерпретированы как первое существующее или последнее существующее время.
 
@@ -58,7 +58,7 @@ class MDM_Reporting_SecurityAuditing01_RetrieveByTimeRange02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ SecurityAuditing01 \_ RetrieveByTimeRange02 для MDM Reporting** имеет следующие свойства.
 
@@ -129,13 +129,13 @@ class MDM_Reporting_SecurityAuditing01_RetrieveByTimeRange02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                            |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

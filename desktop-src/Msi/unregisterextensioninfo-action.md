@@ -4,12 +4,12 @@ ms.assetid: 62bb9d17-c221-4bd2-bd7f-9930e28bb946
 title: Действие Унрегистерекстенсионинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d069a686c5f0e517a0cc9556634895216dd8cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e8dae707bc4dd517402d8a85fb64402637a815f8249d4677f18818c855ba4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810234"
 ---
 # <a name="unregisterextensioninfo-action"></a>Действие Унрегистерекстенсионинфо
 
@@ -46,11 +46,11 @@ ms.locfileid: "105651187"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если система не поддерживает установку серверов расширений по запросу, Унрегистерекстенсионинфо удаляет все серверы расширений в [таблице расширений](extension-table.md) , связанной с удаленным компонентом, или компонент, установленный как объявленный из реестра. В противном случае это действие удаляет серверы расширений, связанные с компонентом, который выбран для удаления из реестра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

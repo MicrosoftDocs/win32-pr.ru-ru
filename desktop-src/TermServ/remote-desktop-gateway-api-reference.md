@@ -7,12 +7,12 @@ keywords:
 - Справочник по API службы удаленных рабочих столов службы удаленных рабочих столов, удаленный рабочий стол шлюза
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d30a51d40cead3c902cc6c8f4772ab05d5aa70b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 329e62f57c72adb004c72de89d9d878d085ce2070c64b0747768611e09d8cf4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865984"
 ---
 # <a name="remote-desktop-gateway-api-reference"></a>Справочник по API шлюза удаленный рабочий стол
 
@@ -24,9 +24,9 @@ ms.locfileid: "103773595"
 -   [Интерфейсы шлюза удаленный рабочий стол](remote-desktop-gateway-interfaces.md)
 -   [Структуры шлюза удаленный рабочий стол](remote-desktop-gateway-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

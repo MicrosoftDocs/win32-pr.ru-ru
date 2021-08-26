@@ -4,16 +4,16 @@ description: Размер события
 ms.assetid: 06089f84-8e75-475f-a492-536c83fa6730
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9a896d2dcbf8b925c0ca13fa429f6dfd95bc21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 146763c649ab22c59a8367e3135ee0ea277c8ae4c8e4bc58588cd70c0b5ec1c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961024"
 ---
 # <a name="size-event"></a>Размер события
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 <dl> <dt>
 
@@ -31,7 +31,7 @@ ms.locfileid: "103888219"
 
 
 
-| Отделение          | Описание                                                         |
+| Часть          | Описание                                                         |
 |---------------|---------------------------------------------------------------------|
 | *чарактерид* | Возвращает идентификатор перемещаемого символа.                         |
 | *Width*       | Возвращает новую ширину (в пикселях) символьного кадра в виде целого числа.  |
@@ -39,11 +39,11 @@ ms.locfileid: "103888219"
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Это событие возникает, когда приложение изменяет размер символа. Это событие отправляется только клиентам символа (приложения, которые загрузили символ).
 
@@ -52,9 +52,9 @@ ms.locfileid: "103888219"
 [**Переместить событие**](move-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

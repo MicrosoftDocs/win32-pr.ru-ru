@@ -3,7 +3,7 @@ title: Код уведомления LVN_SETDISPINFO (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления "представление списка", что оно должно обновлять сведения, которые он поддерживает для элемента. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 1ea51d50-4a57-4662-972e-89e916fa9b16
 keywords:
-- LVN_SETDISPINFO кода уведомления элементы управления Windows
+- LVN_SETDISPINFO кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 659623d892f0f5a556f4890703d4e0dd725536b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f4827d37a115f2bd1bb523f78bdb5975de4314056a174be4bfa886e1a076497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915064"
 ---
 # <a name="lvn_setdispinfo-notification-code"></a>\_Код уведомления ЛВН сетдиспинфо
 
@@ -51,24 +51,24 @@ LVN_SETDISPINFO
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Получатель уведомлений выполняет приведение *lParam* для получения структуры [**нмлвдиспинфо**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) . Параметр *wParam* содержит код сообщения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ЛВН \_ СЕТДИСПИНФОВ** (Юникод) и **ЛВН \_ сетдиспинфоа** (ANSI)<br/>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 84fe09dd-9fed-4dfe-8429-9d6f0e010244
 title: Спецификации IETF для Microsoft Digest SSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4717f222140dfe036c74e1d2d0088afde7666875
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbfe0e816f55e5b48134f87f20531f1713506bb9a65745a80a1755c46e852eae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883094"
 ---
 # <a name="ietf-specifications-for-microsoft-digest-ssp"></a>Спецификации IETF для Microsoft Digest SSP
 

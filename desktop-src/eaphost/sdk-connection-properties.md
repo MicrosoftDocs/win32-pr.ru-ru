@@ -4,12 +4,12 @@ description: Сведения о свойствах подключения па�
 ms.assetid: 34c9b423-4f4c-484e-86d7-4594566cd396
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edbd404246055a3c94daff4c029a94f16adfe51b
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: b7c514fc276601ee02cc9d24fc4961f07e7be722ab4ff69dae0316687d8d74d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948054"
 ---
 # <a name="sdk-connection-properties"></a>Свойства подключения к пакету SDK
 
@@ -31,7 +31,7 @@ ms.locfileid: "103797100"
   </EapHostConfig>
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -41,9 +41,9 @@ ms.locfileid: "103797100"
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

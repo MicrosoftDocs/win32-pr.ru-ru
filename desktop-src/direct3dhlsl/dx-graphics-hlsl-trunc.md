@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34493f60e60bc0dce35f5f9db50360265191c742
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0845e619e8674d729735da1b639802df256d9c210615d71578a4e1effd777e39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845774"
 ---
 # <a name="trunc"></a>trunc
 
@@ -50,7 +50,7 @@ ms.locfileid: "104998459"
 
 Входное значение, усеченное до целочисленного компонента.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция усекает значение с плавающей запятой до целочисленного компонента. При значении с плавающей запятой, равном 1,6, функция TRUNC возвращает 1,0, где, как функция [**Round (DirectX HLSL)**](dx-graphics-hlsl-round.md) возвращает значение 2,0.
 
@@ -60,8 +60,8 @@ ms.locfileid: "104998459"
 
 | Имя | [**Тип шаблона**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**Тип компонента**](dx-graphics-hlsl-intrinsic-functions.md) | Размер                         |
 |------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|------------------------------|
-| *x*  | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**float**](/windows/desktop/WinProg/windows-data-types)                        | any                          |
-| обратно  | Тот же тип, что и входные данные x                                                                                           | [**float**](/windows/desktop/WinProg/windows-data-types)                        | Те же измерения, что и входные x |
+| *x*  | [**Скалярная**](dx-graphics-hlsl-intrinsic-functions.md), **векторная** или **Матрица** | [**сделать**](/windows/desktop/WinProg/windows-data-types)                        | any                          |
+| обратно  | Тот же тип, что и входные данные x                                                                                           | [**сделать**](/windows/desktop/WinProg/windows-data-types)                        | Те же измерения, что и входные x |
 
 
 
@@ -75,23 +75,23 @@ ms.locfileid: "104998459"
 
 | Модель шейдера                                                                       | Поддерживается |
 |------------------------------------------------------------------------------------|-----------|
-| [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) и более высокие модели шейдеров | да       |
+| [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) и более высокие модели шейдеров | Да       |
 
 
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Корекрт \_ Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Корекрт \_ Math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

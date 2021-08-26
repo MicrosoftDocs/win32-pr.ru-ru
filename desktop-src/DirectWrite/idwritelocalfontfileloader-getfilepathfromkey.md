@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14fb3070ddc2f0d82554c86f005343faa3c087fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7739cfa4a03abb3506bd63a84e0c747021110198f7d0ffefa69116656cbfa616
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928034"
 ---
 # <a name="idwritelocalfontfileloadergetfilepathfromkey-method"></a>Метод Идврителокалфонтфилелоадер:: Жетфилепасфромкэй
 
@@ -87,7 +87,7 @@ virtual HRESULT GetFilePathFromKey(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -98,7 +98,7 @@ virtual HRESULT GetFilePathFromKey(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

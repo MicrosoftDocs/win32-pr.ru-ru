@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c1b9581bced9d501800a8a8f3cb5d31a563ac261
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95e6a8feb35ea5d1e38a5cb63bb1379e4995e7562839cc1b582ee8efd8550212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105664966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846984"
 ---
 # <a name="id3dxtextureshader-interface"></a>Интерфейс ID3DXTextureShader
 
@@ -67,7 +67,7 @@ ms.locfileid: "105664966"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс **ID3DXTextureShader** получается путем вызова функции [**D3DXCreateTextureShader**](d3dxcreatetextureshader.md) .
 
@@ -88,7 +88,7 @@ typedef interface ID3DXTextureShader *LPD3DXTEXTURESHADER;
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b6ee3c51b6af50d77e94bb0a29bd1c8148cda8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc6182ce024b616c49552cf13878d9ec06da97bd0d0b4c7ff3696e7747a943a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899864"
 ---
 # <a name="cim_service-class-hyper-v-management"></a>Класс CIM_Service (Управление Hyper-V)
 
@@ -93,7 +93,7 @@ class CIM_Service : CIM_EnabledLogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -223,7 +223,7 @@ class CIM_Service : CIM_EnabledLogicalElement
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -237,7 +237,7 @@ class CIM_Service : CIM_EnabledLogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

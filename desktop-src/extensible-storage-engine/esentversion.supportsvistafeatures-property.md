@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e623000d4ab176ccb9592191499608801bcb81be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aff156f868cad30f8159ed1bc186cd5cf129da374826229757c9f86864846e14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103908948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850374"
 ---
 # <a name="esentversionsupportsvistafeatures-property"></a>Есентверсион. Суппортсвистафеатурес, свойство
 
-Возвращает значение, указывающее, поддерживает ли текущая версия ESENT функции, доступные в версии ESENT Windows Vista.
+возвращает значение, указывающее, поддерживает ли текущая версия esent функции, доступные в Windows Vista версии ESENT.
 
 **Пространство имен:**  [Microsoft. ISAM. ESENT. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Сборка:**  Microsoft. ISAM. ESENT. Interop (в Microsoft.Isam.Esent.Interop.dll)

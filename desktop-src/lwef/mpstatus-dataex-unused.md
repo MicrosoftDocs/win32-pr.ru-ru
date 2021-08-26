@@ -4,7 +4,7 @@ description: Фиктивная структура для не-SRP.
 ms.assetid: 396744CE-2435-4591-B0CF-A4392C88640F
 keywords:
 - MPSTATUS_DATAEX_UNUSED структуры устаревшие функции среды Windows
-- Функции PMPSTATUS_DATAEX_UNUSED указателя структур в устаревшей среде Windows
+- функции PMPSTATUS_DATAEX_UNUSED Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcbc987a97a8cc47501a24e633c5da2d776a42d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 245315d12b5fbe76ec2f552e510336aa3974753678e04f87c33546737f180c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961094"
 ---
 # <a name="mpstatus_dataex_unused-structure"></a>МПСТАТУС \_ датаекс \_ неиспользуемая структура
 
@@ -48,15 +48,15 @@ typedef struct tagMPSTATUS_DATAEX_UNUSED {
 
 </dd> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

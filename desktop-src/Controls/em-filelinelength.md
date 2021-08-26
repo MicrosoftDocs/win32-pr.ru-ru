@@ -3,7 +3,7 @@ title: Сообщение EM_FILELINELENGTH (Коммктрл. h)
 description: Извлекает длину строки в символах в элементе управления "поле ввода" независимо от того, как линии отображаются на экране.
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:
-- Элементы управления Windows для EM_FILELINELENGTH сообщений
+- элементы управления Windows сообщений EM_FILELINELENGTH
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa50f4d9b49253a558095be78e0e781d7d4c7f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10cb05b0e2acbfb5049eddefab1dad42ecd7b6db234fa4a3c34d4877ed52b007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915544"
 ---
 # <a name="em_filelinelength-message"></a>\_Сообщение ФИЛЕЛИНЕЛЕНГС EM
 
@@ -53,23 +53,23 @@ ms.locfileid: "104534370"
 
 Если параметр *wParam* больше числа символов в элементе управления, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте сообщение [**EM \_ филелинеиндекс**](em-lineindex.md) , чтобы получить индекс символа для заданного номера строки в многострочном элементе управления Edit, независимо от того, как линии отображаются на экране.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 10, \[ только классические приложения 1809\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2019\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2019\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: f6fd4d0d-d2dc-4953-9402-314c7932746b
 title: Действие Регистерпрогидинфо
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c7d53ca4c4125c6ebfc4d089c1c5a0934f9a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84cebf5ddb3bf8b9c98ebea0364b685016d343afa283b937400360f31bbcebd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912834"
 ---
 # <a name="registerprogidinfo-action"></a>Действие Регистерпрогидинфо
 
@@ -44,11 +44,11 @@ ms.locfileid: "105650780"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действие Регистерпрогидинфо регистрирует все сведения ProgId для серверов, указанных в [таблице ProgID](progid-table.md) , для которых был выбран соответствующий сервер классов или сервер расширений.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

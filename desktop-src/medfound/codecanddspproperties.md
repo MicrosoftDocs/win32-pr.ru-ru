@@ -4,12 +4,12 @@ ms.assetid: 078b0eea-16dd-4427-b984-9e52a43de559
 title: Константы кодеков и DSP Ипропертибаг
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88dcf85e22f55082bb9e2c49041490f4c7aceb2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a6aa7d9b597b797cb242e3656d8f9f6b36a28ed1a3bec8648dea0674e33039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959144"
 ---
 # <a name="codec-and-dsp-ipropertybag-constants"></a>Константы кодеков и DSP Ипропертибаг
 
@@ -80,7 +80,7 @@ ms.locfileid: "104143270"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

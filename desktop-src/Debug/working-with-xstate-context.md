@@ -4,18 +4,18 @@ ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: Работа с контекстом Ксстате
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca58a8fadb4404e2f6fc431b7b7d2a9d7f583f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6300049f96ff6e7c1fb51759978f84e6c93c305de559a527c9791f2d33f87150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912224"
 ---
 # <a name="working-with-xstate-context"></a>Работа с контекстом Ксстате
 
 Этот документ содержит пример, демонстрирующий использование функций контекста Ксстате для получения и задания расширенных функций в потоке. В следующих примерах используется состояние расширения Intel Advanced Vector Extensions (AVX), которое определяется Феатуреид 2 (компонент Mask 4). Intel AVX определяется в статье "Справочник по программированию для Intel Advanced VML", доступный в <https://go.microsoft.com/fwlink/p/?linkid=212716> .
 
-**Windows 7 с пакетом обновления 1 (SP1):** [API AVX](avx-support-portal.md) сначала реализуется в Windows 7 с пакетом обновления 1 (SP1). Поскольку пакет SDK для Windows 7 с пакетом обновления 1 (SP1) отсутствует, это означает, что нет доступных заголовков и файлов библиотек для работы. В этом случае вызывающий объект должен объявить необходимые функции из этой документации и получить указатели на них с помощью [**Ошибка GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) на "Kernel32.dll", а затем вызвать [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
+**Windows 7 с пакетом обновления 1 (SP1):** [API AVX](avx-support-portal.md) сначала реализуется в Windows 7 с пакетом обновления 1 (SP1). поскольку отсутствует пакет SDK для Windows 7 с пакетом обновления 1 (SP1), это означает, что нет доступных заголовков и файлов библиотек для работы. В этом случае вызывающий объект должен объявить необходимые функции из этой документации и получить указатели на них с помощью [**Ошибка GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) на "Kernel32.dll", а затем вызвать [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
 
 
 ```C++
@@ -215,7 +215,7 @@ Cleanup:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

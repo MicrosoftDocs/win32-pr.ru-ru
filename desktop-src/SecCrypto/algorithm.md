@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f564efe9df3122951969a45443d58ace60e9db30
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b52054c170cd8072bde1b742d0446732fa0b89d2be0dfc2efc66d557cdf98fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880164"
 ---
 # <a name="algorithm-object"></a>Объект Algorithm
 
@@ -44,7 +44,7 @@ ms.locfileid: "105665133"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Объект **алгоритма** имеет следующие свойства.
 
@@ -59,11 +59,11 @@ ms.locfileid: "105665133"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Не удается создать объект **алгоритма** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,12 +72,12 @@ ms.locfileid: "105665133"
 | Окончание поддержки клиента<br/> | Windows Vista<br/>                                                               |
 | Поддержка конца сервера<br/> | Windows Server 2008<br/>                                                         |
 | Распространяемые компоненты<br/>       | CAPICOM 2,0 или более поздней версии на Windows Server 2003 и Windows XP<br/>                  |
-| Header<br/>                | <dl> <dt>CAPICOM. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>CAPICOM. h</dt> </dl>   |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
