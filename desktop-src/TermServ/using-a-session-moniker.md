@@ -5,12 +5,12 @@ ms.assetid: de4967b6-6a53-4888-84f9-3fa29cbebe34
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 700d251aa1136747529b66b975d4cbedf9b14dcf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 788fc5c65c3e2efd3e566a3fdde6982fefe5bb14fbefd98ca8abd335955b7efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868854"
 ---
 # <a name="using-a-session-moniker"></a>Использование моникера сеанса
 
@@ -82,10 +82,10 @@ OLECHAR string[] =
 > [!Note]  
 > Если один и тот же пользователь вошел в каждый сеанс во время межсеансовой активации, можно успешно активировать любой серверный процесс, настроенный для запуска в режиме интерактивной активации пользователя с помощью команды RunAs. Если в каждый сеанс входит несколько пользователей, сервер должен вызвать функцию [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) , чтобы установить соответствующие права пользователя, прежде чем произойдет успешная Активация и подключение между клиентом и сервером. Одним из способов добиться этого является то, что сервер реализует пользовательский интерфейс [**иакцессконтрол**](/windows/win32/api/iaccess/nn-iaccess-iaccesscontrol) и передает реализацию в **CoInitializeSecurity**. В любом случае пользователь клиента должен иметь соответствующие разрешения на [**Запуск**](../com/launchpermission.md) и [**доступ**](../com/accesspermission.md) , указанные в приложении, работающем на сервере. Дополнительные сведения см. [в разделе Безопасность в com](../com/security-in-com.md).
 
- 
+ 
 
 Дополнительные сведения о предоставляемых системой моникерах, моникерах и режимах активации см. в разделе [моникеры](../com/monikers.md), интерфейс [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) и [ключ AppID](/windows/desktop/com/appid-key) в документации по com в пакете SDK для платформы.
 
- 
+ 
 
- 
+ 

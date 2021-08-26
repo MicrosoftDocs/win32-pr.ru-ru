@@ -4,12 +4,12 @@ ms.assetid: 617e103c-a24f-4576-acde-1ddec0dc7062
 title: Перечисление журналов родительского контроля
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a13848d7cce1e283b9e6784c64989c6c08e1cd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 047aff3e8bca51a2eba3a1e6b9ffa3b8ab3b36133d714003fd89080f0796fb0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939284"
 ---
 # <a name="parental-controls-logging-enumerations"></a>Перечисление журналов родительского контроля
 
@@ -22,7 +22,7 @@ ms.locfileid: "105712903"
 -   [**ВПКФЛАГ \_ заблокировано**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_isblocked)
 -   [**\_Тип выхода из впкфлаг \_**](/windows/win32/api/wpcevent/ne-wpcevent-wpcflag_logoff_type)
 
-Перечисления, определенные в Впцевент. h для передачи параметров в API публикации журналов событий Windows для каждого типа событий:
+перечисления, определенные в впцевент. h, для параметров, передаваемых в Windows API публикации журналов событий для каждого типа событий:
 
 -   [**WPC \_ args \_ конверсатионинитевент**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationinitevent)
 -   [**WPC \_ args \_ конверсатионжоиневент**](/windows/win32/api/wpcevent/ne-wpcevent-wpc_args_conversationjoinevent)

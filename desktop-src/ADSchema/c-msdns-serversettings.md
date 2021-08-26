@@ -1,10 +1,10 @@
 ---
-title: класс параметров MS-DNS-Server
+title: класс ms-DNS-Server-Параметры
 description: Контейнер для хранения параметров DNS-сервера.
 ms.assetid: 65e8bd41-8873-493e-8b1b-960c2419aa96
 ms.tgt_platform: multiple
 keywords:
-- Схема AD для класса параметров MS-DNS-Server
+- схема AD для класса Параметры ms-DNS-Server
 - msDN — схема AD класса класс serversettings
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fba99b0da06509b5f8662de4e684cf91101ff4d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1b546125ddca6735317ac0ab4febf3a8cc19161083172f69cb27d92e5025750a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105654759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880614"
 ---
-# <a name="ms-dns-server-settings-class"></a>класс параметров MS-DNS-Server
+# <a name="ms-dns-server-settings-class"></a>класс ms-DNS-Server-Параметры
 
 Контейнер для хранения параметров DNS-сервера.
 
@@ -29,7 +29,7 @@ ms.locfileid: "105654759"
 
 | Ввод | Значение |
 |-------------------|--------------------------------------|
-| CN                | MS-DNS-Server-параметры               |
+| CN                | ms-DNS-сервер-Параметры               |
 | LDAP-отображаемое имя | msDN — класс serversettings                 |
 | Привилегия обновления  | \-                                   |
 | Частота обновления  | \-                                   |
@@ -56,7 +56,7 @@ ms.locfileid: "105654759"
 | По умолчанию-скрытие значения        | 0                                                                                                |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                           |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                                  |
-| Возможные старшие          | [**Сервером**](c-server.md)                                                                       |
+| Возможные старшие          | [**Сервер**](c-server.md)                                                                       |
 | Вспомогательные классы           | \-                                                                                               |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                     |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОЛОРКВОВДСДДТДТСВ;;; EA) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -64,7 +64,7 @@ ms.locfileid: "105654759"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -93,7 +93,7 @@ ms.locfileid: "105654759"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -107,7 +107,7 @@ ms.locfileid: "105654759"
 | [**MS-COM-Усерлинк**](a-mscom-userlink.md)                                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Компутерреференцебл**](a-msdfsr-computerreferencebl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DFSR-Мемберреференцебл**](a-msdfsr-memberreferencebl.md)                              | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DNS-Кэймастер-Zones**](a-msdns-keymasterzones.md)                                     | Неверно     | **MS-DNS-Server-параметры**      |
+| [**MS-DNS-Кэймастер-Zones**](a-msdns-keymasterzones.md)                                     | Неверно     | **ms-DNS-сервер-Параметры**      |
 | [**MS-DS-примерно-Иммед-подчиненные**](a-msds-approx-immed-subordinates.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Аусентикатедто-Аккаунтлист**](a-msds-authenticatedtoaccountlist.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-ClaimSet-shares-возможные значения-with-BL**](a-msds-claimsharespossiblevalueswithbl.md) | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -144,17 +144,17 @@ ms.locfileid: "105654759"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                                     | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                                 | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Объект — Категория**](a-objectcategory.md)                                                  | True      | [**Вверх**](c-top.md)<br/> |
-| [**Объектный класс**](a-objectclass.md)                                                        | True      | [**Вверх**](c-top.md)<br/> |
+| [**Объект — Категория**](a-objectcategory.md)                                                  | Верно      | [**Вверх**](c-top.md)<br/> |
+| [**Объектный класс**](a-objectclass.md)                                                        | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Объект — GUID**](a-objectguid.md)                                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Версия объекта**](a-objectversion.md)                                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Другие хорошо известные объекты**](a-otherwellknownobjects.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |

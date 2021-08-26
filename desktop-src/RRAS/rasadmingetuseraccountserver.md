@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c506287d94c5ec64445c74d8364a04db98100751
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f2ac4052ad4638c3e0e2483adb68857f4c2b670322434107d93100b6a177855
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028544"
 ---
 # <a name="rasadmingetuseraccountserver-function"></a>Функция Расадминжетусераккаунтсервер
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминжетпдксервер**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминжетпдксервер**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) .\]
 
 Функция **расадминжетусераккаунтсервер** извлекает имя сервера, на котором находится база данных учетных записей пользователей. Используйте возвращенное имя сервера в функциях [**расадминусержетинфо**](rasadminusergetinfo.md) и [**расадминусерсетинфо**](rasadminusersetinfo.md) , чтобы получить или задать сведения об указанном пользователе.
 
@@ -83,7 +83,7 @@ DWORD RasAdminGetUserAccountServer(
 
 Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **расадминжетусераккаунтсервер** получает имя сервера с базой данных учетных записей пользователей. Для этой функции требуется имя сервера RAS или имя домена, в котором находится сервер удаленного доступа.
 
@@ -93,7 +93,7 @@ DWORD RasAdminGetUserAccountServer(
 
 Затем используйте имя сервера учетных записей пользователей в вызове функции [**неткуеридисплайинформатион**](/windows/win32/api/lmaccess/nf-lmaccess-netquerydisplayinformation) , чтобы перечислить пользователей в базе данных учетных записей пользователей.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -101,13 +101,13 @@ DWORD RasAdminGetUserAccountServer(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

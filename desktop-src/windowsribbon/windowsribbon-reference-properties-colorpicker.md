@@ -4,12 +4,12 @@ description: Справочная документация по ключам с�
 ms.assetid: b1c3eead-d200-46b4-92fc-47bcd5e28542
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab867bcc483edd51b68b5bd6c0716ff74ba7d634
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab0202cf62c15673e486c5b6df76441067d1be8d934e19bf944c60d69b6d6a6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932494"
 ---
 # <a name="color-picker-properties"></a>Свойства выбора цвета
 
@@ -36,7 +36,7 @@ ms.locfileid: "105700653"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ description: Иажентчарактер Жетмовекаусе
 ms.assetid: 36cdd3bc-65b6-469f-9344-93403c1d24e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be943cf3b25b789838215f0209b16e67d5b50659
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 381d0f695fb1d183cced20609fc70abc0bfca0e51ddf2f904ae320a6c4844f06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962283"
 ---
 # <a name="iagentcharactergetmovecause"></a>Иажентчарактер:: Жетмовекаусе
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetMoveCause(
@@ -48,7 +48,7 @@ HRESULT GetMoveCause(
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также:
 
 [**Иажентнотифисинк:: Move**](iagentnotifysink--move.md)
 

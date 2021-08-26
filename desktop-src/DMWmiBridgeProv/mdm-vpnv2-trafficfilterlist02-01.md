@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3005026a85aa118a4122e073579fcb06389a9fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f825946751677a1fd570f973b65d570b097af94162e2488fb3bbbe589e17aae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913554"
 ---
 # <a name="mdm_vpnv2_trafficfilterlist02_01-class"></a>\_Класс MDM поддержка vpnv2 \_ TrafficFilterList02 \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **MDM \_ Поддержка vpnv2 \_ TrafficFilterList02 \_ 01** содержит необязательный список правил. Через интерфейс VPN можно отправить только трафик, который соответствует этим правилам.
 
@@ -56,7 +56,7 @@ class MDM_VPNv2_TrafficFilterList02_01
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **MDM \_ Поддержка vpnv2 \_ TrafficFilterList02 \_ 01** имеет эти свойства.
 
@@ -127,7 +127,7 @@ class MDM_VPNv2_TrafficFilterList02_01
 
 </dd> <dt>
 
-[Протокол](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-protocol)
+[протокол](/windows/client-management/mdm/vpnv2-csp#vpnv2-profilename-trafficfilterlist-trafficfilterid-protocol);
 </dt> <dd> <dl> <dt>
 
 Тип данных: **Sint32**
@@ -171,13 +171,13 @@ class MDM_VPNv2_TrafficFilterList02_01
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -185,7 +185,7 @@ class MDM_VPNv2_TrafficFilterList02_01
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

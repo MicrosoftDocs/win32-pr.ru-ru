@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2193a4b78128ff3f65e98b4425528a51f6cf5916
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1038838ad7ab0c483dd23e77a716da3ffd2474f7a9e8b4fb311b4a141c1ababb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980134"
 ---
 # <a name="releasekey-method-of-the-msvm_keyboard-class"></a>Метод Релеасекэй \_ класса клавиатуры мсвм
 
@@ -95,7 +95,7 @@ uint32 ReleaseKey(
 **Недостаточно памяти** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **релеасекэй** сопоставляет ссылки на **\_ меню VK** (18), **VK \_ Control** (17) и **VK \_ SHIFT** (16) с **VK \_ лмену** (164), **VK \_ Лконтрол** (162) и **VK \_ лшифт** (160), соответственно, так как **\_ меню VK**, **VK \_ Control** и **VK \_ SHIFT** , не являются реальными ключами на клавиатуре.
 
@@ -107,8 +107,8 @@ uint32 ReleaseKey(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

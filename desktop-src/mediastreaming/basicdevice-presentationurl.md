@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69c1de9a72ae14160b49676daa3ea1afb2425edf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c392ca16f8c43b4f658e8ac0c07f2b95084aa59e836fac5d32dec0122bc80dcc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011924"
 ---
 # <a name="basicdevicepresentationurl-property"></a>Басикдевице. Пресентатионурл, свойство
 
@@ -33,7 +33,7 @@ ms.locfileid: "104133819"
 
 ```C++
 HRESULT get_PresentationUrl(
-  [out] HSTRING *value
+  [out] HSTRING *value
 );
 ```
 
@@ -43,13 +43,13 @@ HRESULT get_PresentationUrl(
 
 Указатель на URL-адрес презентации устройства.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**басикдевице**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Network. частота
 description: Свойство частота кадров извлекает текущую частоту кадров видео в кадрах за сотни секунд. Например, значение 2998 означает 29,98 кадров в секунду.
 ms.assetid: ee30dce5-a42e-4be5-ab4b-0d5f8869d23a
 keywords:
-- Проигрыватель Windows Media Network. частоты кадров
+- проигрыватель Windows Media Network. частоты кадров
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ec6e16a3cef86a385525a793d73a50c3124e21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4da4a0f292c4693c263115dc1ad59ea3c71946d81838d427e6d8e043ac499709
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901654"
 ---
 # <a name="networkframerate"></a>Network. частота
 
@@ -35,7 +35,7 @@ ms.locfileid: "105708324"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **Частота кадров для вывода** текущей частоты кадров. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "FR". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **Частота кадров для вывода** текущей частоты кадров. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = "FR". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -56,18 +56,18 @@ ms.locfileid: "105708324"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

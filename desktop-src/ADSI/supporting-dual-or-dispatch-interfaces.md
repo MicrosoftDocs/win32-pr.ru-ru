@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, пример кода C/C++, делегирование методов IDispatch в агрегатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 435a4552b364afbf909d04a759e3713ce69befab
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b783e9448926d6d29a27e5fb0db519175f82a9af1935e9f13655db743a946bcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930015"
 ---
 # <a name="supporting-dual-or-dispatch-interfaces"></a>Поддержка сдвоенных или интерфейсов диспетчеризации
 
@@ -95,6 +95,6 @@ STDMETHODIMP MyExtension::Invoke(DISPID dispidMember, REFIID riid,
 
 Модули записи расширений настоятельно рекомендуется поддерживать сдвоенные интерфейсы вместо интерфейсов диспетчеризации в своих объектах расширения. Сдвоенный интерфейс позволяет клиенту иметь более быстрый доступ при условии, что доступ к vtable включен в клиенте. Дополнительные сведения см. [в разделе позднее связывание и доступ к vtable в модели расширения ADSI](late-binding-vs--vtable-access-in-the-adsi-extension-model.md). В зависимости от текущей модели реализация сдвоенных интерфейсов не должна быть сложнее, чем реализация интерфейсов диспетчеризации.
 
- 
+ 
 
- 
+ 

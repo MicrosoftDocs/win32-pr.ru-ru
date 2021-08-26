@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69be1faea277fa8999ae5ddf3658aaa61a1116b9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9c624597fb88a45cc9ff91770f164e7c6e6e83ff5eb1b6369ded9d0fc1bbc225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952644"
 ---
 # <a name="idevicecontrollercacheddevices-method"></a>Метод Идевицеконтроллер:: Качеддевицес
 
@@ -62,7 +62,7 @@ HRESULT CachedDevices(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

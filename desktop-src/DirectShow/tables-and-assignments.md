@@ -4,12 +4,12 @@ ms.assetid: 46dcf242-0182-4039-b761-1c93472b6270
 title: Таблицы и назначения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3aab11885fd2b10c8a8462e5c6a9d23e75829e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a0ce0a6af46bb59b192b8e4cf14f7d3f6f2d5033b9a9c2ebb05bff550cf3320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903884"
 ---
 # <a name="tables-and-assignments"></a>Таблицы и назначения
 
@@ -54,7 +54,7 @@ ms.locfileid: "105674164"
 
 К таблицам частоты относятся теоретические номера верхнего и нижнего каналов (или индексы частоты) для каждого кода страны или региона. Этот диапазон можно расширить с помощью реестра. Дополнительные сведения см. в разделе [переопределения частоты](frequency-overrides.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

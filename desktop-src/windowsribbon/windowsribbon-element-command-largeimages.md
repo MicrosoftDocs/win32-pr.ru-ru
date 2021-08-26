@@ -3,7 +3,7 @@ title: Свойство Command. Ларжеимажес
 description: Представляет контейнер изображений; в этом случае крупные изображения.
 ms.assetid: 9fcd3694-7847-43e2-9877-47daf47aae9a
 keywords:
-- Лента Windows для свойства Command. Ларжеимажес
+- свойство Command. ларжеимажес, Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf71557506d4b9cced21069473d1a6db9b208b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66214eb05910296b2c03a749d88134bef68f86badc2ffd7f7b69d0ba6adfdd5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931623"
 ---
 # <a name="commandlargeimages-property"></a>Свойство Command. Ларжеимажес
 
@@ -51,11 +51,11 @@ ms.locfileid: "104492522"
 
 | Элемент                                                     |
 |-------------------------------------------------------------|
-| [**Get-Help**](windowsribbon-element-command.md)<br/> |
+| [**Команда**](windowsribbon-element-command.md)<br/> |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -117,8 +117,8 @@ ms.locfileid: "104492522"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

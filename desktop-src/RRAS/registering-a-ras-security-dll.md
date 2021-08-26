@@ -1,26 +1,26 @@
 ---
 title: Регистрация библиотеки DLL безопасности RAS
-description: Программа установки DLL-библиотеки безопасности RAS должна зарегистрировать библиотеку DLL на сервере удаленного доступа Windows NT или Windows 2000.
+description: программа установки dll-библиотеки безопасности RAS должна зарегистрировать библиотеку dll с сервером ras Windows NT/Windows 2000.
 ms.assetid: 90a1f30e-ea68-4859-b436-219c25016677
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ae856b33b2233ae114a281d96447719d9b2832
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5ca32aa687649c80917f9a072b9d4cbeb0f1f4e8ba61ce090e7781bb04cdefd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028421"
 ---
 # <a name="registering-a-ras-security-dll"></a>Регистрация библиотеки DLL безопасности RAS
 
-Программа установки DLL-библиотеки безопасности RAS должна зарегистрировать библиотеку DLL на сервере удаленного доступа Windows NT или Windows 2000. Только одна DLL-библиотека безопасности RAS может быть зарегистрирована, так как поддержка нескольких библиотек DLL безопасности не предоставляется. Чтобы зарегистрировать библиотеку DLL безопасности RAS, установите значение *DLLPath* в следующем разделе реестра:
+программа установки dll-библиотеки безопасности RAS должна зарегистрировать библиотеку dll с сервером ras Windows NT/Windows 2000. Только одна DLL-библиотека безопасности RAS может быть зарегистрирована, так как поддержка нескольких библиотек DLL безопасности не предоставляется. Чтобы зарегистрировать библиотеку DLL безопасности RAS, установите значение *DLLPath* в следующем разделе реестра:
 
 ```
 HKEY_LOCAL_MACHINE
-   SOFTWARE
-      Microsoft
-         RAS
-            SecurityHost
+   SOFTWARE
+      Microsoft
+         RAS
+            SecurityHost
 ```
 
 
@@ -31,15 +31,15 @@ HKEY_LOCAL_MACHINE
 
 
 
- 
+ 
 
 Программа установки DLL-библиотеки безопасности RAS также должна предоставлять функции удаления и удаления. Если пользователь удаляет библиотеку DLL, программа установки должна удалить значение *DLLPath* из реестра. Служба RAS не запускается, если значение *DLLPath* указывает библиотеку DLL, которую не удается найти.
 
 DLL-библиотека безопасности RAS должна экспортировать функции [**рассекуритидиалогбегин**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) и [**рассекуритидиаложенд**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogend) .
 
- 
+ 
 
- 
+ 
 
 
 

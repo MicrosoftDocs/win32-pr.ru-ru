@@ -6,12 +6,12 @@ keywords:
 - Маршрутизация и удаленный доступ службы маршрутизации и удаленного доступа, макет реестра маршрутизации и удаленного доступа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f6ed72b569a8fe2efe1423ce2429c31cd0a0a65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd3388c2a11f69a473a334105d2872872b98b17b4956f12f886e50ada89f406f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027404"
 ---
 # <a name="routing-and-remote-access-registry-layout"></a>Макет реестра маршрутизации и удаленного доступа
 
@@ -136,9 +136,9 @@ HKEY_LOCAL_MACHINE\Software\Microsoft
 
 Ключ интерфейсов заполняется интерфейсами, которые были добавлены в локальную систему из конфигурации маршрутизатора. Каждый интерфейс имеет связанный тип (внутренний, выделенный или динамический) и подразделы для каждого диспетчера маршрутизатора (например, IP-адрес и IPX).
 
- 
+ 
 
- 
+ 
 
 
 

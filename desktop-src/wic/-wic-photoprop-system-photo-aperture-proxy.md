@@ -4,12 +4,12 @@ ms.assetid: 1917cf0e-28e3-466a-84d0-a849f39b8354
 title: Прокси-сервер System. photo. апертуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1eef67d906c8664fccaf32a00c62b3da8e6262e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b52d5cef031da13c1dd048ddc5b8f10d6c7ec51dfd822f9b508fc531e976ccb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104349845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882144"
 ---
 # <a name="systemphotoaperture-proxy"></a>Прокси-сервер System. photo. апертуры
 
@@ -39,7 +39,7 @@ VT \_ UI8
 
 Ловпарт Ухвал.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

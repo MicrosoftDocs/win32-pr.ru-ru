@@ -4,12 +4,12 @@ ms.assetid: b063989a-fe92-4c2c-9d66-8a14bc830f6b
 title: енроллкэйарчивалкмк
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 144f5f063834c156da5058fbc34f66ebdb76eb3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e2e9856309560e982e7e1dda7ba724fefd0759e6fa10196b321eb66947cf64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882954"
 ---
 # <a name="enrollkeyarchivalcmc"></a>енроллкэйарчивалкмк
 
@@ -17,7 +17,7 @@ ms.locfileid: "105682894"
 
 ## <a name="location"></a>Расположение
 
-При установке пакета средств разработки программного обеспечения (SDK) для Microsoft Windows этот образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security SSL \\ Certificate \\ \\ енроллкэйарчивалкмк.
+при установке пакета microsoft Windows Software Development Kit (SDK) образец устанавливается по умолчанию в папке *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security ssl \\ Certificate \\ \\ енроллкэйарчивалкмк.
 
 ## <a name="discussion"></a>Разговор
 
@@ -30,7 +30,7 @@ ms.locfileid: "105682894"
 5.  Создает объект CryptoAPI [**ICertRequest2**](/windows/desktop/api/certcli/nn-certcli-icertrequest2) и использует его для получения сертификата Exchange для центра сертификации.
 6.  Создает объект [**IX509Enrollment**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509enrollment) , инициализирует его с помощью запроса CMC, создает строку в кодировке Base64, содержащую запрос на архивацию ключа, и отправляет его в центр сертификации.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

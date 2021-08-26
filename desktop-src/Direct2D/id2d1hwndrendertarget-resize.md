@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3f15af87c59c943bd7d5dc8ece708d3603bddce6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31ffcae6473924e12ca428fd48927fd1507840dce4fdbce3a18e8f82ffe9fcaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917614"
 ---
 # <a name="id2d1hwndrendertargetresize-methods"></a>Методы ID2D1HwndRenderTarget:: resize
 
@@ -34,7 +34,7 @@ ms.locfileid: "105657637"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После вызова этого метода содержимое заднего буфера целевого объекта прорисовки не определяется, даже если при создании целевого объекта отрисовки был указан параметр [**D2D1 \_ Present \_ Options ( \_ хранить \_ содержимое**](/windows/win32/api/d2d1/ne-d2d1-d2d1_present_options) ).
 
@@ -44,7 +44,7 @@ ms.locfileid: "105657637"
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>D2d1. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |
 

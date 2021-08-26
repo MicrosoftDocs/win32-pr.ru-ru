@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b3d492c140d443d14583a80985820f55ff9bec8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fa050bd301842b9f8eeb2816420e4f09601e29a0f47cace721f2d56583f3a5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981184"
 ---
 # <a name="cim_protocolendpoint-class"></a>\_Класс CIM протоколендпоинт
 
@@ -57,7 +57,7 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ протоколендпоинт** имеет следующие свойства.
 
@@ -95,7 +95,7 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -889,14 +889,14 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 <span id="Voice_Foreign_Exchange_Office"></span><span id="voice_foreign_exchange_office"></span><span id="VOICE_FOREIGN_EXCHANGE_OFFICE"></span>
 
-**Голосовое внешнее приложение Exchange** (101)
+**Office Exchange для внешнего голоса** (101)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Voice_Foreign_Exchange_Service"></span><span id="voice_foreign_exchange_service"></span><span id="VOICE_FOREIGN_EXCHANGE_SERVICE"></span>
 
-**Служба Voice иностранных валют** (102)
+**служба Voice инородных Exchange** (102)
 
 
 </dt> <dd></dd> <dt>
@@ -1057,7 +1057,7 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 <span id="FAST_Channel"></span><span id="fast_channel"></span><span id="FAST_CHANNEL"></span>
 
-**Быстрый канал** (125)
+**канал FAST** (125)
 
 
 </dt> <dd></dd> <dt>
@@ -1099,7 +1099,7 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 <span id="Tunnel"></span><span id="tunnel"></span><span id="TUNNEL"></span>
 
-**Туннель** (131)
+**Tunnel** (131)
 
 
 </dt> <dd></dd> <dt>
@@ -1232,7 +1232,7 @@ class CIM_ProtocolEndpoint : CIM_ServiceAccessPoint
 
 <span id="MPLS_Tunnel"></span><span id="mpls_tunnel"></span><span id="MPLS_TUNNEL"></span>
 
-**Туннель MPLS** (150)
+**Tunnel MPLS** (150)
 
 
 </dt> <dd></dd> <dt>

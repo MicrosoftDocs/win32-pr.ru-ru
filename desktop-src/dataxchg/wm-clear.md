@@ -3,7 +3,7 @@ title: Сообщение WM_CLEAR (Winuser. h)
 description: Приложение отправляет \_ сообщение с открытым текстом WM в элемент управления или поле со списком, чтобы удалить (Очистить) текущее выделение (если оно имеется) из элемента управления Edit.
 ms.assetid: 6730a725-01ec-4821-9ffc-1ea267d665b3
 keywords:
-- Обмен данными с сообщениями WM_CLEAR
+- WM_CLEAR Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a8e325704d1e8b953fe59bfaf4e8fcee62cf40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6820a9134f112b51474cd5b73e8545583cb02969b02a1bd1428138ebf1049dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105701055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029114"
 ---
 # <a name="wm_clear-message"></a>\_Сообщение об очистке WM
 
@@ -54,7 +54,7 @@ ms.locfileid: "105701055"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Удаление, выполняемое сообщением **WM \_ clear** , можно отменить, отправив элемент управления Edit с сообщением об [**\_ отмене EM**](../controls/em-undo.md) .
 
@@ -62,7 +62,7 @@ ms.locfileid: "105701055"
 
 При отправке в поле со списком сообщение **об \_ очистке WM** обрабатывается его элементом управления "поле ввода". Это сообщение не действует при отправке в поле со списком со стилем [**\_ DROPDOWNLIST в CBS**](../controls/combo-box-styles.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,11 +70,11 @@ ms.locfileid: "105701055"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

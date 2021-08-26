@@ -4,12 +4,12 @@ ms.assetid: 5ec95938-ac5d-4f63-9080-2de71454eb17
 title: Ведение журнала событий (ведение журнала событий)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d9871fdb7c7b81bdf57a8c5de87a0a09d5a0570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8894c7a6d038efdc317611ca6284f62d99c82ebc767b6f96f83931803a887185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927844"
 ---
 # <a name="event-logging-event-logging"></a>Ведение журнала событий (ведение журнала событий)
 
@@ -22,4 +22,4 @@ ms.locfileid: "105684202"
 -   [Справочник по ведению журнала событий](event-logging-reference.md)
 
 > [!Note]  
-> API ведения журнала событий предназначен для приложений, работающих в операционной системе Windows Server 2003, Windows XP или Windows 2000. В Windows Vista инфраструктура ведения журнала событий была изменена. Приложения, предназначенные для работы в Windows Vista или более поздних операционных системах, должны использовать [журнал событий Windows](/windows/desktop/WES/windows-event-log) для регистрации событий.
+> API ведения журнала событий предназначен для приложений, работающих в операционной системе Windows Server 2003, Windows XP или Windows 2000. в Windows Vista инфраструктура ведения журнала событий была изменена. приложения, предназначенные для работы в Windows Vista или более поздних операционных системах, должны использовать [Windows журнал событий](/windows/desktop/WES/windows-event-log) для регистрации событий.

@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: cbe1b7ead2d6f8e2d315833c44b354c50cc8b62c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e289429047d8d1cee4f525a9f45a9abe1dd8eb51bcf57e83e39876fba9a5a89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964004"
 ---
 # <a name="nddeisvalidsharename-function"></a>Функция Нддеисвалидшаренаме
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Определяет, использует ли имя общего ресурса правильный синтаксис.
 
@@ -56,7 +56,7 @@ BOOL NDdeIsValidShareName(
 
 Если имя общего ресурса не имеет допустимого синтаксиса, возвращаемое значение равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция также вызывается [**нддешареадд**](nddeshareadd.md) при создании общего ресурса DDE.
 
@@ -79,7 +79,7 @@ BOOL NDdeIsValidShareName(
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

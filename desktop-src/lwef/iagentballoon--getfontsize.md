@@ -4,16 +4,16 @@ description: Иажентбаллун
 ms.assetid: 4d342ee9-abb4-431b-bd28-f62ab76705ec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d14b1a921f1f5c9927f58ab9e561569ba3bc98fa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccc392bd12fccfb01b8aee41a5a06ed50b388ac8223e622d75218c840f706c91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104259056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962494"
 ---
 # <a name="iagentballoongetfontsize"></a>Иажентбаллун:: FontSize
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT GetFontSize(
@@ -36,9 +36,9 @@ HRESULT GetFontSize(
 
 Размер шрифта по умолчанию, используемый в подсказке для символьного слова, определяется в редакторе символов Microsoft Agent. Его можно изменить с помощью [**иажентбаллун:: сетфонтсизе**](https://www.bing.com/search?q=**IAgentBalloon::SetFontSize**). Однако пользователь может переопределить параметры размера шрифта для всех символов с помощью страницы свойств Microsoft Agent.
 
- 
+ 
 
- 
+ 
 
 
 

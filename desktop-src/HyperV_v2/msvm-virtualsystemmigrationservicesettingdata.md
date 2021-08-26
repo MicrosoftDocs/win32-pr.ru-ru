@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8c8685e468d60983408c52a985169c61be91f632
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ab3feab1f34d0f44ce5cd0618915d8575af9e463a9ec772961c185e946ac094
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963504"
 ---
 # <a name="msvm_virtualsystemmigrationservicesettingdata-class"></a>\_Класс мсвм виртуалсистеммигратионсервицесеттингдата
 
@@ -61,7 +61,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **мсвм \_ виртуалсистеммигратионсервицесеттингдата** имеет следующие свойства.
 
@@ -96,7 +96,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -148,7 +148,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифиресаурцесеттингс**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -165,7 +165,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифиресаурцесеттингс**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) класса [**\_ виртуалсистемманажементсервице мсвм**](msvm-virtualsystemmanagementservice.md) .
 
-**Windows 8.1:** Это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
+**Windows 8.1:** это значение не поддерживается до Windows 8.1 и Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -178,7 +178,7 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 Тип доступа: только для чтения
 </dt> </dl>
 
-Указывает, включена или отключена миграция виртуальной системы. Миграция хранилища всегда включена. Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифисервицесеттингс**](modifyservicesettings-msvm-virtualsystemmigrationservice.md) класса [**\_ виртуалсистеммигратионсервице мсвм**](msvm-virtualsystemmigrationservice.md) .
+Указывает, включена или отключена миграция виртуальной системы. служба хранилищаная миграция всегда включена. Это свойство доступно только для чтения, но его можно изменить с помощью метода [**модифисервицесеттингс**](modifyservicesettings-msvm-virtualsystemmigrationservice.md) класса [**\_ виртуалсистеммигратионсервице мсвм**](msvm-virtualsystemmigrationservice.md) .
 
 </dd> <dt>
 
@@ -230,8 +230,8 @@ class Msvm_VirtualSystemMigrationServiceSettingData : CIM_SettingData
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

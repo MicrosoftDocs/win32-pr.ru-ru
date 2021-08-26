@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 616148f6749f3ec00d019a903e8f9046d3aba602
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bb97ded03cfc853fc0dde6ede26083be01cf218f210c31f947f315634599e179
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105684736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900264"
 ---
 # <a name="cim_mediaaccessdevice-class-hyper-v-management"></a>Класс CIM_MediaAccessDevice (Управление Hyper-V)
 
@@ -115,7 +115,7 @@ class CIM_MediaAccessDevice : CIM_LogicalDevice
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Устройства хранения DMTF \| 001,9 "," MIF. \|Устройства хранения DMTF \| 001,11 "," MIF. \|Устройства хранения DMTF \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "," MIF. DMTF- \| диск \| 001,2 "," MIF. \|Жесткий диск DMTF \| 001,4 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ медиаакцессдевице**.**Капабилитидескриптионс**")
+Квалификаторы: [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("индексированный"), [**Маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. DMTF \| служба хранилища устройства \| 001,9 "," MIF. DMTF \| служба хранилища устройства \| 001,11 "," MIF. DMTF \| служба хранилища устройства \| 001,12 "," MIF. \|Диски DMTF \| 003,7 "," MIF. DMTF- \| диск \| 001,2 "," MIF. \|Жесткий диск DMTF \| 001,4 "), [**Моделкорреспонденце**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM \_ медиаакцессдевице**.**Капабилитидескриптионс**")
 </dt> </dl>
 
 Массив, содержащий возможности устройства доступа к носителю.
@@ -605,7 +605,7 @@ class CIM_MediaAccessDevice : CIM_LogicalDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -619,7 +619,7 @@ class CIM_MediaAccessDevice : CIM_LogicalDevice
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

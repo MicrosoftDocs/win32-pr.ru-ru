@@ -4,12 +4,12 @@ ms.assetid: c5054fc6-1273-4491-8fb9-30c4b8fc663f
 title: System. Video. FourCC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 475b1cebc0d19a89c70e0ebae2be4b7673697c23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb575eff3a39de7ee737ff947113d0d4dab501bc07215319a13667b9f9869c14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945004"
 ---
 # <a name="systemvideofourcc"></a>System. Video. FourCC
 
@@ -30,13 +30,13 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Код FOURCC — это 32-разрядное целое число без знака, которое создается путем сцепления четырех символов ASCII. Например, объект FOURCC для H. 264 Video имеет значение "H264 Single bitrate" или 0x34363248.
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a1405cb4d9609380fdf35d6ce05a0fc9e1255ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b05e2d6994bd0bee1a1f0e30287169c23b69ef574ba47fab1f3d8b5db5abedf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996094"
 ---
 # <a name="qualifiers-specific-to-the-snmp-provider"></a>Квалификаторы, характерные для поставщика SNMP
 
@@ -85,7 +85,7 @@ ms.locfileid: "103811405"
 
 Тип данных: **\_ строка CIM**
 
-Транспортный протокол, используемый для взаимодействия с агентом SNMP. В настоящее время единственными допустимыми значениями являются протоколы IP и Internet Packet Exchange (IPX). Значение по умолчанию — IP. Этот квалификатор является необязательным.
+Транспортный протокол, используемый для взаимодействия с агентом SNMP. в настоящее время единственными допустимыми значениями являются протоколы ip и internet Packet Exchange (IPX). Значение по умолчанию — IP. Этот квалификатор является необязательным.
 
 </dd> <dt>
 

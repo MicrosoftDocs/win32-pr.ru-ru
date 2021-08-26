@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 520a474039354153f759e932fad84338b5fee293
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32e41ceb41c920a7265aa6d13e85ba121eafa0bbf9af045797779254e1991c3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917904"
 ---
 # <a name="id2d1geometrysimplify-methods"></a>Методы ID2D1Geometry:: Упростите
 
@@ -37,7 +37,7 @@ ms.locfileid: "105675866"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -48,7 +48,7 @@ ms.locfileid: "105675866"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

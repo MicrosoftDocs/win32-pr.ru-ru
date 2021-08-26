@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a545e8ae7c5afb000c26d89d9359f620fa7a653d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd8adfa698975f7661abdbd849136d04049b5539ff3fed3b52b61660791add0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900754"
 ---
 # <a name="pagefault_v2-class"></a>\_Класс PageFault v2
 
@@ -34,11 +34,11 @@ class PageFault_V2 : MSNT_SystemTrace
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **PageFault \_ v2** не определяет никаких членов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Чтобы включить все события сбоя страниц в сеансе ведения журнала ядра NT, укажите **флаг \_ \_ \_ \_ \_ ошибок страничной памяти флага трассировки событий** в элементе **енаблефлагс** структуры [**\_ \_ свойств трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) при вызове функции [**старттраце**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Можно также указать следующие флаги:
 
@@ -51,11 +51,11 @@ class PageFault_V2 : MSNT_SystemTrace
 
 | Тип события                                                     | Описание                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_Тип трассировки \_ событий \_ mm \_ Cow (значение типа события — 12)<br/> | Событие копирования при записи. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. До выхода Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.     |
-| \_Тип трассировки \_ событий \_ mm \_ Дзф (значение типа события — 11)<br/> | Событие ошибки нулевого требования. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. До выхода Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие. |
-| \_Тип трассировки \_ событий \_ mm \_ GPF (значение типа события 13)<br/> | Событие ошибки страницы защиты. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. До выхода Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.  |
-| \_Тип трассировки \_ событий \_ mm \_ ХПФ (значение типа события — 14)<br/> | Событие сбоя страницы. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. До выхода Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.   |
-| \_Тип трассировки \_ событий \_ \_ , mm, (значение типа события — 10)<br/>  | Событие сбоя перехода. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. До выхода Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.  |
+| \_Тип трассировки \_ событий \_ mm \_ Cow (значение типа события — 12)<br/> | Событие копирования при записи. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. до Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.     |
+| \_Тип трассировки \_ событий \_ mm \_ Дзф (значение типа события — 11)<br/> | Событие ошибки нулевого требования. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. до Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие. |
+| \_Тип трассировки \_ событий \_ mm \_ GPF (значение типа события 13)<br/> | Событие ошибки страницы защиты. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. до Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.  |
+| \_Тип трассировки \_ событий \_ mm \_ ХПФ (значение типа события — 14)<br/> | Событие сбоя страницы. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. до Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.   |
+| \_Тип трассировки \_ событий \_ \_ , mm, (значение типа события — 10)<br/>  | Событие сбоя перехода. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события. до Windows Vista класс [**PageFault \_ транситионфаулт**](pagefault-transitionfault.md) MOF определяет событие.  |
 | \_Тип трассировки \_ событий \_ mm \_ AV (значение типа события — 15)<br/>  | Событие нарушения прав доступа. Класс [**PageFault \_ TypeGroup1**](pagefault-typegroup1.md) MOF определяет данные события для этого события.                                                                                                                           |
 | Значение типа события, 32                                           | Событие сбоя страницы. Класс [**PageFault \_ хардфаулт**](pagefault-hardfault.md) MOF определяет данные события для этого события.                                                                                                                               |
 | Значение типа события, 105                                          | Событие загрузки изображения в файле подкачки. Класс [**PageFault \_ имажелоадбаккед**](pagefault-imageloadbacked.md) MOF определяет данные события для этого события.                                                                                                          |
@@ -68,14 +68,14 @@ class PageFault_V2 : MSNT_SystemTrace
 
 Для выявления неисправного процесса или потока можно использовать члены **ProcessID** и **ThreadID** [**\_ \_ заголовка трассировки событий**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

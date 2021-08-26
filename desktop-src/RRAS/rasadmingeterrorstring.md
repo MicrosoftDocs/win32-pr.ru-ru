@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc239c5f26061b5234631079ba21ce0d24ad570
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a45c768daef7c889351744c5e046c83f4de7e220f59752c1db271067efb68366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028606"
 ---
 # <a name="rasadmingeterrorstring-function"></a>Функция Расадминжетеррорстринг
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминжетеррорстринг**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминжетеррорстринг**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) .\]
 
 Функция **расадминжетеррорстринг** извлекает строку сообщения, соответствующую коду ошибки RAS, возвращенному одной из функций администрирования сервера RAS (расадмин). Эти строки сообщений извлекаются из Rasmsg.dll, который устанавливается в составе службы удаленного доступа.
 
@@ -84,11 +84,11 @@ DWORD RasAdminGetErrorString(
 
 Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции Расадмин могут возвращать коды ошибок, которые не находятся в диапазоне, поддерживаемом функцией **расадминжетеррорстринг** . Например, функции Расадмин могут возвращать коды ошибок, определенные в Лмерр. h и Winerror. h. Перед вызовом **расадминжетеррорстринг** убедитесь, что код ошибки находится в диапазоне от РАСБАСЕ до расбасинд, как определено в расеррор. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -96,13 +96,13 @@ DWORD RasAdminGetErrorString(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

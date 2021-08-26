@@ -4,16 +4,16 @@ description: Иаженткоммандсекс Инсертекс
 ms.assetid: 037c47df-f026-42dc-8c37-2704518d3fd2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d59b504cfa475c3ac63888796d7df8d800bfd72
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d2b43a9e449e16a3be3017a67082da20cb31eb1352a81f699908b0b94267ea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961824"
 ---
 # <a name="iagentcommandsexinsertex"></a>Иаженткоммандсекс:: Инсертекс
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT InsertEx(
@@ -100,11 +100,11 @@ HRESULT InsertEx(
 
 [**Иаженткоммандсекс:: инсертекс**](https://www.bing.com/search?q=**IAgentCommandsEx::InsertEx**) расширяет [**Иаженткоммандс:: INSERT**](iagentcommands--insert.md) , включая свойство [**хелпконтекстид**](helpcontextid-property.md) . Свойство также можно задать с помощью [ **иаженткоммандсекс:: сеселпконтекстид**](iagentcommandsex--sethelpcontextid.md)
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандсекс:: аддекс**](iagentcommandsex--addex.md), [**Иаженткоммандсекс:: сеселпконтекстид**](iagentcommandsex--sethelpcontextid.md), [**иаженткоммандс:: Add**](iagentcommands--add.md), [**иаженткоммандс:: Remove**](iagentcommands--remove.md), [**IAgentCommands:: RemoveAll**](iagentcommands--removeall.md)
 
 
- 
+ 
 
- 
+ 

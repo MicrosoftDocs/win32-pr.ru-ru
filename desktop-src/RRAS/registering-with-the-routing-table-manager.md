@@ -6,12 +6,12 @@ keywords:
 - Диспетчер таблиц маршрутизации версия 2 RRAS, регистрация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ce5a1b350ec5420b3fc32a4e5a68a213a61151
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088072fac8679d9b2f87729b67a826ac850e77109f18b28fef3c2dc33c433f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104253199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028294"
 ---
 # <a name="registering-with-the-routing-table-manager"></a>Регистрация в диспетчере таблиц маршрутизации
 
@@ -27,9 +27,9 @@ ms.locfileid: "104253199"
 
 Пример кода, демонстрирующий использование этих функций, см. в разделе [Регистрация в диспетчере таблиц маршрутизации](register-with-the-routing-table-manager.md) и [Использование обратного вызова уведомления о событиях](use-the-event-notification-callback.md).
 
- 
+ 
 
- 
+ 
 
 
 

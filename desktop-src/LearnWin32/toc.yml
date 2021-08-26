@@ -7,7 +7,7 @@
           href: introduction-to-windows-programming-in-c--.md
         - name: Подготовка среды разработки
           href: prepare-your-development-environment.md
-        - name: Соглашения о написании кода Windows
+        - name: Windows Соглашения о написании кода
           href: windows-coding-conventions.md
         - name: Работа со строками
           href: working-with-strings.md
@@ -15,7 +15,7 @@
           href: what-is-a-window-.md
         - name: 'WinMain: точка входа приложения'
           href: winmain--the-application-entry-point.md
-    - name: Модуль 1. Ваша первая программа Windows
+    - name: Модуль 1. первая программа Windows
       items:
         - name: Обзор
           href: your-first-windows-program.md
@@ -31,7 +31,7 @@
           href: closing-the-window.md
         - name: Управление состоянием приложения
           href: managing-application-state-.md
-    - name: Модуль 2. Использование COM в программе Windows
+    - name: Модуль 2. использование COM в программе Windows
       items:
         - name: Обзор
           href: module-2--using-com-in-your-windows-program.md
@@ -55,11 +55,11 @@
           href: com-coding-practices.md
         - name: Обработка ошибок в COM
           href: error-handling-in-com.md
-    - name: Модуль 3. Графика Windows
+    - name: Модуль 3. Windows Рисунка
       items:
         - name: Обзор
           href: module-3---windows-graphics.md
-        - name: Обзор архитектуры графики Windows
+        - name: обзор архитектуры графики Windows
           href: overview-of-the-windows-graphics-architecture.md
         - name: диспетчер окон рабочего стола
           href: the-desktop-window-manager.md
@@ -103,7 +103,7 @@
       items:
         - name: Обзор
           href: learn-to-program-for-windows--sample-code.md
-        - name: Пример Hello World Windows
+        - name: Windows Hello Пример мира
           href: windows-hello-world-sample.md
         - name: Пример Басевиндов
           href: basewindow-sample.md

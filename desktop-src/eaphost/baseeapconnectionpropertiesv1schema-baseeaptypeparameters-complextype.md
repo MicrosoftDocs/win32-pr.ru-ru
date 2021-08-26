@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 86c47d5b3ee62f09b7a9f86223720c103df93df0
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 413df28e1dcbbc6b557a73ca4496524490d6ccf05edc4d9ecc30935861d36771
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104356223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978384"
 ---
 # <a name="baseeaptypeparameters-complex-type---connection-properties"></a>Сложный тип Басиаптипепараметерс — свойства соединения
 
@@ -31,7 +31,7 @@ ms.locfileid: "104356223"
  />
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Басиаптипепараметерс** является абстрактным элементом. В документах экземпляров должен использоваться производный элемент **басиаптипепараметерс** .
 
@@ -41,8 +41,8 @@ ms.locfileid: "104356223"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

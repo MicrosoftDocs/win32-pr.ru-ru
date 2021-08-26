@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: a5bd7c27b76efbbac923317837ac82b3a6700197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c5d71e4811411756719177647fda8dd76224f756629ad01794720d291565b21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886704"
 ---
 # <a name="getprocessdefaultcpusets-function"></a>Функция Жетпроцессдефаулткпусетс
 
@@ -76,15 +76,15 @@ BOOL WINAPI GetProcessDefaultCpuSets(
 
 Этот API возвращает значение TRUE в случае успешного выполнения. Если буфер недостаточно велик, API возвращает значение FALSE, а значением **GetLastError** является ошибка \_ недостаточно \_ буфера. Этот API не может завершиться ошибкой, если переданы допустимые параметры, и буфер возврата достаточно большой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 10 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2016 \|\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 

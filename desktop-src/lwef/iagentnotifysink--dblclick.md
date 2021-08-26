@@ -4,16 +4,16 @@ description: Иажентнотифисинк DblClick
 ms.assetid: 7e86cc9b-8bc3-405e-9bbf-764cec9c3130
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88193f228f94d24384e6bf2b874e9208d67f3e9c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 317e11b52d9ab01eb3ecf145925601cee3bf4b4245039390427a7370a7362d32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961524"
 ---
 # <a name="iagentnotifysinkdblclick"></a>Иажентнотифисинк::D Блкликк
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT DblClick(

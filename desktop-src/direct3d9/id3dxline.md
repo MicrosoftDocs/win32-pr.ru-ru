@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1c535ff736e9a26e8316e4715f4be4022a6417df
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a9677ca802a800624b374212c6942ab6676423f8d63e62cbf136a8b9e69c533d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104081954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951374"
 ---
 # <a name="id3dxline-interface"></a>Интерфейс ID3DXLine
 
@@ -42,7 +42,7 @@ ms.locfileid: "104081954"
 | [**Начать**](id3dxline--begin.md)                     | Подготавливает устройство для рисования линий.<br/>                                                                                                                                                  |
 | [**Draw**](id3dxline--draw.md)                       | Рисует полосу линий в пространстве экрана. Входные данные указываются в виде массива, определяющего точки (of [**D3DXVECTOR2**](d3dxvector2.md)) на полосе строк.<br/>                                   |
 | [**дравтрансформ**](id3dxline--drawtransform.md)     | Рисует полосу линий в пространстве экрана с заданной матрицей преобразования входных данных.<br/>                                                                                                      |
-| [**END**](id3dxline--end.md)                         | Восстанавливает состояние устройства в том виде, в котором оно было при вызове [**ID3DXLine:: Begin**](id3dxline--begin.md) .<br/>                                                                                 |
+| [**Конец**](id3dxline--end.md)                         | Восстанавливает состояние устройства в том виде, в котором оно было при вызове [**ID3DXLine:: Begin**](id3dxline--begin.md) .<br/>                                                                                 |
 | [**жетантиалиас**](id3dxline--getantialias.md)       | Возвращает состояние сглаживания линии.<br/>                                                                                                                                                     |
 | [**GetDevice**](id3dxline--getdevice.md)             | Извлекает устройство Direct3D, связанное с объектом Line.<br/>                                                                                                                        |
 | [**жетгллинес**](id3dxline--getgllines.md)           | Возвращает режим отображения линий в стиле OpenGL.<br/>                                                                                                                                              |
@@ -61,7 +61,7 @@ ms.locfileid: "104081954"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Создайте объект рисования линий с помощью [**D3DXCreateLine**](d3dxcreateline.md).
 
@@ -75,18 +75,18 @@ typedef interface ID3DXLine *LPD3DXLINE;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,17 +4,17 @@ ms.assetid: c8252cc6-a83f-4cce-ba3e-7db669eeb465
 title: Метод Нотифипаренталлевелчанже (Segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc47b7d78af8cfdd32aa63361411e769c375ddf1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8382b52f64d4196b0ef74e5f3285e9bb047a4e1f77d3b0e5bec4da218ee753b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997364"
 ---
 # <a name="notifyparentallevelchange-method"></a>Метод Нотифипаренталлевелчанже
 
 > [!Note]  
-> Этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
+> этот компонент доступен для использования в операционных системах Microsoft Windows 2000, Windows XP и Windows Server 2003. В последующих версиях он может быть изменен или недоступен.
 
  
 
@@ -39,21 +39,21 @@ MSWebDVD.NotifyParentalLevelChange(bNotify)
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию уведомления родительского управления отключены. Это означает, что временные родительские команды с диска разрешены, но не учитываются, и диск будет воспроизводиться без прерывания. Вызывайте этот метод во время инициализации приложения, если необходимо управлять временными командами родительского уровня управления с диска. Чтобы отключить функцию родительского управления после ее включения, вызовите этот метод с аргументом false. Дополнительные сведения о службе родительского управления см. в разделе [**акцептпаренталлевелчанже**](acceptparentallevelchange-method.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Сегмент. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

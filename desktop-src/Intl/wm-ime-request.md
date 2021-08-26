@@ -4,12 +4,12 @@ ms.assetid: c5e9f256-eed2-46cb-bb33-0e640a975f1f
 title: Сообщение WM_IME_REQUEST (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d0cea120d088fe1423b1d7dcb822307886675b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d73f1f920efb2908104304fcbc08fd19d648e52fdb737f12027b47436531eb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927634"
 ---
 # <a name="wm_ime_request-message"></a>Сообщение WM_IME_REQUEST
 
@@ -66,7 +66,7 @@ LRESULT CALLBACK WindowProc(
 
 Возвращает значение, зависящее от команды.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,11 +74,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                                                                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                                                                                                      |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h); </dt> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h);</dt> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

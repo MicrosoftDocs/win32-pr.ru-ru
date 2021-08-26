@@ -4,16 +4,16 @@ description: Иаженткоммандс Сетвоице
 ms.assetid: dfb3b58a-7f24-4366-8f04-93a9e956fdc8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a8e29936dbca65ffded5f8a5e5ea5297b28362e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d02fb124b51a3be1796258fdcb8ffa31d8b81b59636027f3d99497b27cd2bd00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961904"
 ---
 # <a name="iagentcommandssetvoice"></a>Иаженткоммандс:: Сетвоице
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetVoice(
@@ -84,15 +84,15 @@ HRESULT SetVoice(
 > [!Note]  
 > Доступные функции грамматики могут зависеть от модуля распознавания речи. Чтобы определить, какие параметры грамматики поддерживаются, вы можете узнать у поставщика подсистемы. Используйте [**срмодеид**](srmodeid-property.md) для использования определенного механизма.
 
- 
+ 
 
 Работа этого свойства зависит от состояния состояния распознавания речи на сервере Microsoft Agent. Например, если распознавание речи отключено или не установлено, эта функция не оказывает немедленного воздействия. Однако если во время сеанса включено распознавание речи, команда будет доступна, когда клиентское приложение найдет на вход.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иаженткоммандс:: Voice**](iagentcommands--getvoice.md), [**Иаженткоммандс:: сеткаптион**](iagentcommands--setcaption.md), [**иаженткоммандс:: сетвисибле**](iagentcommands--setvisible.md)
 
 
- 
+ 
 
- 
+ 

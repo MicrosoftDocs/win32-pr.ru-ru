@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 115a2421db5efbafb72d73952684ff7758c6995b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f6f83f7310700e774692d876bda979343da80aa45ea8012bf187e50f0af67bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028454"
 ---
 # <a name="rasadminservergetinfo-function"></a>Функция Расадминсервержетинфо
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминсервержетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminservergetinfo) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминсервержетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminservergetinfo) .\]
 
 Функция **расадминсервержетинфо** возвращает конфигурацию сервера RAS.
 
@@ -46,7 +46,7 @@ DWORD RasAdminServerGetInfo(
 *лпсзсервер* \[ окне\]
 </dt> <dd>
 
-Указатель на строку в Юникоде, заканчивающуюся **нулем,** которая указывает имя сервера удаленного доступа Windows NT или Windows 2000. Если этот параметр имеет **значение NULL**, функция возвращает сведения о локальном компьютере. Укажите имя с начальными \\ \\ символами в формате: \\ \\ *ServerName*.
+указатель на строку в юникоде, заканчивающуюся **нулем,** которая указывает имя сервера RAS Windows NT/Windows 2000. Если этот параметр имеет **значение NULL**, функция возвращает сведения о локальном компьютере. Укажите имя с начальными \\ \\ символами в формате: \\ \\ *ServerName*.
 
 </dd> <dt>
 
@@ -63,11 +63,11 @@ DWORD RasAdminServerGetInfo(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки. Возможные коды ошибок включают данные, возвращаемые [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) для функции [**каллнамедпипе**](/windows/desktop/api/winbase/nf-winbase-callnamedpipea) . Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте **GetLastError**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы перечислить все серверы RAS в домене, вызовите функцию [**нетсерверенум**](/windows/desktop/api/lmserver/nf-lmserver-netserverenum) и укажите \_ тип ООКП \_ для параметра *serverType* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,13 +75,13 @@ DWORD RasAdminServerGetInfo(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

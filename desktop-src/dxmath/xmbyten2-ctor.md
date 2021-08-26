@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: af659e579d473ece0b3931e3859312e8b6677d7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 116b9ca4287d5276de004834623f30b1c3a9b47a3add450e61b3f507859d07ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979084"
 ---
 # <a name="xmbyten2-constructors"></a>Конструкторы XMBYTEN2
 

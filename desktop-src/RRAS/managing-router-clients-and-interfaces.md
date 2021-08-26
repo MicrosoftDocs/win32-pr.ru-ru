@@ -4,12 +4,12 @@ description: В следующих разделах описывается вы�
 ms.assetid: a2151472-c29f-4989-921c-db05e8908ebd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc052b8d7c6e25c9d6908179dbc06382001fb9d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88b448cd51dfbeefb6571224f90e1d59fdec8bc3b5fe07e5d8bfb67f9b8c61e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029629"
 ---
 # <a name="managing-router-clients-and-interfaces"></a>Управление клиентами и интерфейсами маршрутизаторов
 
@@ -18,9 +18,9 @@ ms.locfileid: "104068187"
 -   [Изменение Interface-Specific и глобальных сведений для клиентов](changing-interface-specific-and-global-information-for-clients.md)
 -   [Удаление клиента из интерфейса](deleting-a-client-from-an-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

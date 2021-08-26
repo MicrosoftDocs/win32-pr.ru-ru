@@ -3,7 +3,7 @@ title: Сообщение EM_EMPTYUNDOBUFFER (Winuser. h)
 description: Сбрасывает флаг отмены для элемента управления "поле ввода". Флаг отмены задается каждый раз, когда операция в элементе управления "поле ввода" может быть отменена. Это сообщение можно отправить либо в элемент управления "поле ввода", либо в элемент управления Rich Edit.
 ms.assetid: a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94
 keywords:
-- Элементы управления Windows для EM_EMPTYUNDOBUFFER сообщений
+- элементы управления Windows сообщений EM_EMPTYUNDOBUFFER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abbdc067b603a032b8d311ddd7930a8ca6de01c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63d59dab38bca921e2125377889f8d18ddf6eb45c023badeead47f7e07b860fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915904"
 ---
 # <a name="em_emptyundobuffer-message"></a>\_Сообщение ЕМПТЮНДОБУФФЕР EM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104491496"
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Флаг отмены автоматически сбрасывается каждый раз, когда элемент управления "поле ввода" получает сообщение [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) или [**EM \_ сесандле**](em-sethandle.md) .
 
@@ -57,19 +57,19 @@ ms.locfileid: "104491496"
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 1,0 и более поздних версиях. Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

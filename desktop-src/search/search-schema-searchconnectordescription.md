@@ -4,12 +4,12 @@ ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
 title: Элемент Сеарчконнектордескриптионтипе (схема соединителя поиска)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7edb69647567b7e18e25e11dcd0fc773d0be7902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f228097e905ea6e60bb9197bcf8b8b381671a52f3375849af992f903df6e8b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937914"
 ---
 # <a name="searchconnectordescriptiontype-element-search-connector-schema"></a>Элемент Сеарчконнектордескриптионтипе (схема соединителя поиска)
 
@@ -20,7 +20,7 @@ ms.locfileid: "105692162"
 -   [Атрибуты](#attributes)
 -   [Замечания](#remarks)
 -   [Пример файла описания соединителя поиска](#example-of-a-search-connector-description-file)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -145,7 +145,7 @@ ms.locfileid: "105692162"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Соединители поиска для федеративного поиска нельзя использовать в библиотеках. Схема соединителей поиска библиотек является расширением схемы, описанной здесь, и содержит сведения, относящиеся к библиотекам.
 
