@@ -3,9 +3,9 @@ title: Ивмпкдром ДривеспеЦифиер, свойство
 description: Свойство ДривеспеЦифиер получает букву CD или DVD-дисковода.
 ms.assetid: 8865232a-08a3-447b-a6d6-2bfda3a689e1
 keywords:
-- Проигрыватель Windows Media для свойства ДривеспеЦифиер
-- ДривеспеЦифиер свойство проигрывателя Windows Media Player, интерфейс Ивмпкдром
-- Интерфейс Ивмпкдром Windows Media Player, свойство ДривеспеЦифиер
+- проигрыватель Windows Media свойства дривеспеЦифиер
+- проигрыватель Windows Media свойства дривеспеЦифиер, интерфейс ивмпкдром
+- проигрыватель Windows Media интерфейса ивмпкдром, свойство дривеспеЦифиер
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a6c439523d90824da708700d48274f5a2e5ef4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b555cba0ec694a19a01c040a0369aeb473c6811933d45892cbf3c69ef640b8b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031464"
 ---
 # <a name="iwmpcdromdrivespecifier-property"></a>Ивмпкдром: свойство РивеспеЦифиер:d
 
@@ -48,7 +48,7 @@ Public ReadOnly Property driveSpecifier As System.String
 
 **Строка System. String** , которая является буквой диска.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обычно дисководы DVD могут воспроизводить компакт-диски, но дисководы компакт-дисков не могут воспроизводить DVD-носители.
 
@@ -102,19 +102,19 @@ System.Windows.Forms.MessageBox.Show(MyDriveSpecifiers)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

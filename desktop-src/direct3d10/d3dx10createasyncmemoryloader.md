@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 0219026eabfcff6dfcec0df4721716302f09f5e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 897977147157c754c0f0da1c68e5e64b3fa64ea792c573c1f901aca6aec433fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989234"
 ---
 # <a name="d3dx10createasyncmemoryloader-function"></a>Функция D3DX10CreateAsyncMemoryLoader
 
@@ -80,7 +80,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)**
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Async. h</dt> </dl> |
 
 
 

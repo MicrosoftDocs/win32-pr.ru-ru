@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71168d08b8a91e09429a6f4e004c48c699635414
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 39ec30fd4966e46bd511729671c39653640fe3f8f858d74db96e59fa1f09d242
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067274"
 ---
 # <a name="xmuint2-structure"></a>Структура XMUINT2
 
@@ -37,7 +37,7 @@ typedef struct _XMUINT2 {
 
 
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 <dl> <dt>
 
@@ -57,17 +57,17 @@ y-компонент вектора.
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта структура определена в ``D3DX\_DXGIFormatConvert.inl`` заголовке пакета SDK DirectX (июнь 2010) для использования из C++. Последняя версия этого заголовка в пакете NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) больше не определяет его и использует [DirectX:: XMUINT2](/windows/win32/api/directxmath/ns-directxmath-xmuint2) в директксмас.
-
-
-
-## <a name="requirements"></a>Требования
+Эта структура определена в ``D3DX\_DXGIFormatConvert.inl`` заголовке пакета SDK DirectX (июнь 2010) для использования из C++. последняя версия этого заголовка в пакете [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet больше не определяет его и использует [DirectX:: XMUINT2](/windows/win32/api/directxmath/ns-directxmath-xmuint2) в директксмас.
 
 
 
-| Требование | Применение |
+## <a name="requirements"></a>Requirements (Требования)
+
+
+
+| Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Заголовок<br/> | <dl> <dt>D3DX \_ дксгиформатконверт. inl</dt> </dl> |
 

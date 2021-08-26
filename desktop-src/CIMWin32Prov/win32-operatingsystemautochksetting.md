@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 905ffc92273b46bb36b7b3e2909afea32e6baeff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfa6e90828935dda8aa163967985813526042b8800f91cb01825fbd158f8a63d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972544"
 ---
 # <a name="win32_operatingsystemautochksetting-class"></a>\_Класс Win32 оператингсистемауточксеттинг
 
@@ -40,7 +40,7 @@ class Win32_OperatingSystemAutochkSetting : CIM_ElementSetting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ оператингсистемауточксеттинг** имеет следующие свойства.
 
@@ -58,7 +58,7 @@ class Win32_OperatingSystemAutochkSetting : CIM_ElementSetting
 Квалификаторы: [**override**](../wmisdk/standard-qualifiers.md) ("элемент"), [**ключ**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
-TBD
+Подлежит уточнению
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ TBD
 Квалификаторы: [**override**](../wmisdk/standard-qualifiers.md) ("параметр"), [**Key**](../wmisdk/key-qualifier.md)
 </dt> </dl>
 
-TBD
+Подлежит уточнению
 
 </dd> </dl>
 
@@ -92,7 +92,7 @@ TBD
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

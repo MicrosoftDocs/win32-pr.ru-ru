@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 644e8aaae1368e4164ceca7f7db29e343116c93c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2961779744e90d0e4281e53c3d78c92081993027deb6c435846abbffb41b110
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041764"
 ---
 # <a name="cim_activeconnection-class"></a>\_Класс CIM ActiveConnection
 
@@ -49,7 +49,7 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ActiveConnection** имеет следующие свойства.
 
@@ -186,7 +186,7 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -200,7 +200,7 @@ class CIM_ActiveConnection : CIM_SAPSAPDependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

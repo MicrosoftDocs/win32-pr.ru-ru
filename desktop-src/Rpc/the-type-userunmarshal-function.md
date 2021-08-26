@@ -6,12 +6,12 @@ keywords:
 - type_UserMarshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 332edbc2391aadf297789cc0ae862454786bdd8c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bb9d894b2658de9dc4559cfbef2ad1db2c4e79b0b9313754c4edafbd2c32fc2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016454"
 ---
 # <a name="the-type_userunmarshal-function"></a>Тип \_ Усерунмаршал функция
 
@@ -34,7 +34,7 @@ unsigned char __RPC_FAR * __RPC_USER  <type>_UserUnmarshal(
 
 В разнородной среде модуль NDR выполняет все необходимые преобразования данных перед вызовом функции **<type> \_ усерунмаршал** . Обратите внимание, что механизм NDR выполняет преобразование данных в соответствии с определением типа провода, предоставленным для этого типа данных пользователя. Флаг указывает представление данных отправителя.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,6 +47,6 @@ unsigned char __RPC_FAR * __RPC_USER  <type>_UserUnmarshal(
 [Пользовательская \_ Упаковка](/windows/desktop/Midl/user-marshal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

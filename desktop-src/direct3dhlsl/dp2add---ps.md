@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88d3d28cc64bdb7caa1b7456e87711c3dbee2b13
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 39a7cd640de57f2f69c8ee3b46ee6be6e52cbb16f9db39ef902725241d77b9c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104133302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068364"
 ---
 # <a name="dp2add---ps"></a>dp2add-PS
 
@@ -35,7 +35,7 @@ dp2add dst, src0, src1, src2.{x|y|z|w}
 -   src0, src1 и src2 являются тремя исходными регистрами.
 -   {x \| y \| z \| w} является обязательным параметром replicate свиззле on src2.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -45,7 +45,7 @@ dp2add dst, src0, src1, src2.{x|y|z|w}
 
 
 
- 
+ 
 
 Скалярное значение для Add выбирается параметром replicate свиззле on src2.
 
@@ -59,16 +59,16 @@ dest = src0.r * src1.r + src0.g * src1.g + src2.replicate_swizzle
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

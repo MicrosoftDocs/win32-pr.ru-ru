@@ -4,12 +4,12 @@ ms.assetid: 66a7e170-6f70-4db7-98f4-8a074471b9f2
 title: Таблица ProgId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 293ce3748f691b664d55b0a1158a574472388202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbed8baea9bd8421757cf2e31f0ba06679db3394c95f732537a7e230c02b5ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042064"
 ---
 # <a name="progid-table"></a>Таблица ProgId
 
@@ -21,12 +21,12 @@ ms.locfileid: "103999518"
 
 | Столбец         | Type                         | Ключ | Допускает значения NULL |
 |----------------|------------------------------|-----|----------|
-| ProgId         | [Text](text.md)             | Да   | Нет        |
-| \_Родительский объект ProgID | [Text](text.md)             | Нет   | Да        |
-| Класс\_        | [GUID](guid.md)             | Нет   | Да        |
-| Описание    | [Text](text.md)             | Нет   | Да        |
-| Значок\_         | [Идентификатор](identifier.md) | Нет   | Да        |
-| икониндекс      | [Integer](integer.md)       | Нет   | Да        |
+| ProgId         | [Text](text.md)             | Д   | Нет        |
+| \_Родительский объект ProgID | [Text](text.md)             | Нет   | Д        |
+| Класс\_        | [GUID](guid.md)             | Нет   | Д        |
+| Описание    | [Text](text.md)             | Нет   | Д        |
+| Значок\_         | [Идентификатор](identifier.md) | Нет   | Д        |
+| икониндекс      | [Integer](integer.md)       | Нет   | Д        |
 
 
 
@@ -78,7 +78,7 @@ ms.locfileid: "103999518"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действия [регистерпрогидинфо](registerprogidinfo-action.md) и [унрегистерпрогидинфо](unregisterprogidinfo-action.md) в [*таблицах последовательностей*](s-gly.md) обрабатывают сведения, приведенные в этой таблице. Дополнительные сведения об использовании *таблиц последовательности* см. [в разделе Использование таблицы последовательностей](using-a-sequence-table.md).
 

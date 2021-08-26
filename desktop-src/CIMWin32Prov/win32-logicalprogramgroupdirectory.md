@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI взаимосвязей Win32 логикалпрограмграупдиректори связывает логические группы программ (группирования в меню "Пуск") и каталоги файлов, в которых они хранятся.'
+description: '\_класс WMI взаимосвязей Win32 логикалпрограмграупдиректори связывает логические группы программ (группирования в меню) и каталоги файлов, в которых они хранятся.'
 ms.assetid: 31a8b56a-d4fd-4cc5-9997-ec6211fe9425
 ms.tgt_platform: multiple
 title: Класс Win32_LogicalProgramGroupDirectory
@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d6ebaddd4455ba1b62832f940d78534c90cefeeb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa9bf70e82f5a46c8a9a346b33d18e3c9f4a12322ad10a5fca1233df5a36c1d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973314"
 ---
 # <a name="win32_logicalprogramgroupdirectory-class"></a>\_Класс Win32 логикалпрограмграупдиректори
 
@@ -46,7 +46,7 @@ class Win32_LogicalProgramGroupDirectory : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ логикалпрограмграупдиректори** имеет следующие свойства.
 
@@ -84,11 +84,11 @@ class Win32_LogicalProgramGroupDirectory : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ логикалпрограмграупдиректори** является производным от [**\_ зависимости CIM**](cim-dependency.md).
 
-Вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ Name** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
+вызывающий процесс, использующий этот класс, должен иметь привилегию **SE \_ reside \_ NAME** на компьютере, где размещается реестр. Например, если перечислить этот класс на локальном компьютере, учетная запись, под которой выполняется приложение, должна иметь эту привилегию. Дополнительные сведения см. в разделе [выполнение привилегированных операций](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="requirements"></a>Требования
 

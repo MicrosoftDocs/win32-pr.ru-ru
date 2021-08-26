@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b9c3f7be9189daa045f378f62856ddb68a2be89
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 366db3ac20175902b4f5dfb1847471f3261354604360c7b1a28a6ccc73be4710
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067504"
 ---
 # <a name="texturecubearraygathersfloatuint-function"></a>Функция Текстурекубеаррай:: собрать (S, float, uint)
 
@@ -74,7 +74,7 @@ TemplateType Gather(
 
 Значение из четырех компонентов, тип которого совпадает с типом шаблона.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Примеры текстур можно использовать для интерполяции билинейной.
 
@@ -90,7 +90,7 @@ TemplateType Gather(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

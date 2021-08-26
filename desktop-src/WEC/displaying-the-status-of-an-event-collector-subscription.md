@@ -5,12 +5,12 @@ ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7c806d72d4945e2e45384b91bc94fbef3ed08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a6efd0268ef571d8f9ad984bb70a9e69e489e6349f8af0ee9e47e9aa18a1cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032654"
 ---
 # <a name="displaying-the-status-of-an-event-collector-subscription"></a>Отображение состояния подписки сборщика событий
 
@@ -22,7 +22,7 @@ ms.locfileid: "104329736"
 >
 > **wecutil GR** *SubscriptionName*
 
- 
+ 
 
 Вам потребуется имя подписки, чтобы отобразить ее состояние. Чтобы вывести список имен текущих подписок на локальном компьютере, можно использовать пример C++ в списке [подписок сборщика событий](listing-event-collector-subscriptions.md)или ввести в командной строке следующую команду:
 
@@ -32,7 +32,7 @@ ms.locfileid: "104329736"
 
 **Отображение состояния подписки сборщика событий**
 
-1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Дополнительные сведения о правах доступа см. в разделе [**константы сборщика событий Windows**](windows-event-collector-constants.md).
+1.  Откройте подписку, указав имя подписки и права доступа в качестве параметров функции [**екопенсубскриптион**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . дополнительные сведения о правах доступа см. в разделе [**Windows константы сборщика событий**](windows-event-collector-constants.md).
 2.  Получите состояние подписки, вызвав функцию [**екжетсубскриптионрунтиместатус**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) (не указывайте источник события при вызове функции).
 3.  Получите массив источников событий подписки, вызвав функцию [**екжетсубскриптионрунтиместатус**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) и передав флаг ексубскриптионрунтиместатусевентсаурцес.
 4.  Получите сведения о состоянии для каждого источника события, вызвав функцию [**екжетсубскриптионрунтиместатус**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) и передав имя источника события. Дополнительные сведения о состоянии, которое можно получить, см. в разделе Перечисление [**\_ \_ \_ \_ \_ ИД сведений о состоянии среды выполнения подписки EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id) .
@@ -425,19 +425,19 @@ std::wstring ConvertEcDateTime( ULONGLONG code )
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Список подписок сборщика событий](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Справочник по сборщикам событий Windows](windows-event-collector-reference.md)
+[Windows Справочник по сборщикам событий](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

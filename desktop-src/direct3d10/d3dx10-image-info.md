@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 228ddf777217e9e61369b0a7fc3b3eb1ca012b1d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf3aa2eeb3e908a76e05588940927fff53dd1583c937d95a1c862f6021bd630f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989524"
 ---
 # <a name="d3dx10_image_info-structure"></a>\_ \_ Структура сведений об ОБРАЗе D3DX10
 
@@ -69,7 +69,7 @@ typedef struct D3DX10_IMAGE_INFO {
 
 </dd> <dt>
 
-**Глубина**
+**Depth**
 </dt> <dd>
 
 Тип: **[ **uint**](../winprog/windows-data-types.md)**
@@ -152,11 +152,11 @@ typedef struct D3DX10_IMAGE_INFO {
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

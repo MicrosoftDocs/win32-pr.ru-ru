@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e41c1da0eae001d314e2682a3295a0b88b993ee1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d75eb61dd498d7a2f1d6bd9c5bd0dd9c52f3fd56625cb41b0026e9acce431ec6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068354"
 ---
 # <a name="dst---vs"></a>летнее время и
 
@@ -31,19 +31,19 @@ ms.locfileid: "103914344"
 
  
 
-где
+where
 
 -   dest — это регистр назначения.
 -   src0 является исходным регистром.
 -   src1 является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
 | Версии шейдеров вершин | 1\_1 | 2 \_ 0 | 2 \_ x | 2 \_ SW | 3 \_ 0 | 3 \_ SW |
 |------------------------|------|------|------|-------|------|-------|
-| кон                    | x    | x    | x    | x     | x    | x     |
+| dst                    | x    | x    | x    | x     | x    | x     |
 
 
 
@@ -63,7 +63,7 @@ dest.w = src1.w;
 
 Предполагается, что первый исходный операнд (src0) является вектором (пропускается, d \* d, d \* d, игнорируется), а второй исходный операнд (src1) — вектором (игнорируется, 1/d, игнорируется, 1/d). Назначение (dest) является вектором результата (1, d, d \* d, 1/d).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

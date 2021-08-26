@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 49c663741da50620e03cfde9f13d67a0c0063453
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f50942d32691d9dc76aa30ddcef36df390fccfe058c31af3527c0eafe0d7df0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067984"
 ---
 # <a name="vertex-shader-source-register-modifiers"></a>Модификаторы исходного регистра исходных шейдеров вершин
 
@@ -32,7 +32,7 @@ ms.locfileid: "104411160"
 
 
 
- 
+ 
 
 Модификатор отрицания не может использоваться во втором регистре источника следующих инструкций: [m3x2-VS](m3x2---vs.md), [m3x3-VS](m3x3---vs.md), [m3x4-VS](m3x4---vs.md), [m4x3-VS](m4x3---vs.md), [m4x4-VS](m4x4---vs.md).
 
@@ -44,7 +44,7 @@ ms.locfileid: "104411160"
 
 
 
- 
+ 
 
 ## <a name="absolute-value"></a>Абсолютное значение
 
@@ -58,23 +58,23 @@ ms.locfileid: "104411160"
 
 
 
- 
+ 
 
 Если шейдер версии 3 считывает из одного или нескольких регистров с плавающей запятой (c \# ), одно из следующих должно быть истинным.
 
 -   Все константные регистры с плавающей запятой должны использовать модификатор ABS.
 -   Ни один из постоянных регистров с плавающей запятой не может использовать модификатор ABS.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модификаторы регистра для шейдера вершин](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

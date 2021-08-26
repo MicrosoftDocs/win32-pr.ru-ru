@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 208422604e79b3ef7a87b548e7d71eceedd9fb78
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7bb36b3aeb448933416148b087cb7e82619beef04186637c0bb3fa944a143da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989544"
 ---
 # <a name="d3dx_cpu_optimization-enumeration"></a>\_ \_ Перечисление оптимизации ЦП D3DX
 
@@ -76,7 +76,7 @@ typedef enum _D3DX_CPU_OPTIMIZATION {
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 

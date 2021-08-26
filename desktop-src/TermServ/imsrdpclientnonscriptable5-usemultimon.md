@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable5 Усемултимон, свойство
-description: Указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов.
+description: указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов.
 ms.assetid: 7832E025-80F6-4B4B-9829-C2D2EF2D8C37
 ms.tgt_platform: multiple
 keywords:
@@ -19,16 +19,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 941a2991ef5591176cd2508bbb6a097fecabebf0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8335d4424931b38d5d967e3ad910785e68184668eceda79011ff2c213517a8eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033284"
 ---
 # <a name="imsrdpclientnonscriptable5usemultimon-property"></a>Свойство IMsRdpClientNonScriptable5:: Усемултимон
 
-Указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов. Если это свойство содержит **вариант \_ true**, элемент управления будет использовать несколько мониторов. Если это свойство содержит **\_ значение Variant false**, элемент управления не будет использовать несколько мониторов.
+указывает, должен ли элемент управления ActiveX удаленный рабочий стол использовать несколько мониторов. Если это свойство содержит **вариант \_ true**, элемент управления будет использовать несколько мониторов. Если это свойство содержит **\_ значение Variant false**, элемент управления не будет использовать несколько мониторов.
 
 Это свойство доступно для чтения и записи.
 
@@ -51,7 +51,7 @@ HRESULT get_UseMultimon(
 
 Указывает новое значение свойства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ HRESULT get_UseMultimon(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

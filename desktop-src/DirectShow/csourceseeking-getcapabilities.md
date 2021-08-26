@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f1f354381c4c99cf880c75cbbc4b13355e386030
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 96e3a637673a91ebc98e48777b8f42bdcbf02654a0c264037a66b4121f5b80ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054344"
 ---
 # <a name="csourceseekinggetcapabilities-method"></a>Ксаурцесикинг. capabilities, метод
 
@@ -57,7 +57,7 @@ HRESULT GetCapabilities(
 
 | Код возврата                                                                               | Описание                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>      | Успешное завершение<br/>                |
+| <dl> <dt>**\_ОК**</dt> </dl>      | Success<br/>                |
 | <dl> <dt>**\_указатель E**</dt> </dl> | Значение указателя **null**<br/> |
 
 
@@ -68,13 +68,13 @@ HRESULT GetCapabilities(
 
 Возможности поиска задаются переменной члена [**ксаурцесикинг:: m \_ двсикингкапс**](csourceseeking-m-dwseekingcaps.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

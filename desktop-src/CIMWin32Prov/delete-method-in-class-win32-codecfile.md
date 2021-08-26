@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9d9395f5c5ebaf2948043fe43e84685e4c39d4d0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ecdd0989530810ee4eafc33fb447c35b6f97c90388a5145df0b423b9726d84c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003714"
 ---
 # <a name="delete-method-of-the-win32_codecfile-class"></a>Метод DELETE \_ класса Кодекфиле Win32
 
@@ -91,7 +91,7 @@ uint32 Delete();
 **12**
 </dt> <dd>
 
-Платформа не является Windows NT или Windows 2000.
+платформа не Windows NTа или Windows 2000.
 
 </dd> <dt>
 
@@ -137,7 +137,7 @@ uint32 Delete();
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -151,7 +151,7 @@ uint32 Delete();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

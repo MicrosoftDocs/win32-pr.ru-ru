@@ -4,16 +4,16 @@ description: Структуры представления списка
 ms.assetid: 12d77514-7281-4873-b456-252ff80ed7f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b603e9acd65448b3c4970aa9552f4d2b91ebccd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b5898a1dc098b5b173ff8c3cbea2c9ab684d7d147e5523601e694baf57c364a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103820644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971290"
 ---
 # <a name="list-view-structures"></a>Структуры представления списка
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**лвбкимаже**](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea)
 -   [**LVCOLUMN**](/windows/win32/api/commctrl/ns-commctrl-lvcolumna)

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 90cfa86a09e0e76c90f0013cfa6121917ca25378
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2d119ee7011bbd4a03a2a2c8247b9df9e95f983e07ffd3ab3e4603a3a3eaa7de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067774"
 ---
 # <a name="processtritessfactorsavg-function"></a>Функция Процесстритессфакторсавг
 
@@ -89,7 +89,7 @@ void ProcessTriTessFactorsAvg(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Формирует исправленные коэффициенты тесселяции для трехуровневого обновления, вычисляя внутренний коэффициент тесселяции в виде среднего коэффициента тесселяции краев, который затем масштабируется по Инсидескале. Затем результат округляется в зависимости от режима секционирования, но неокругленные результаты доступны с помощью параметра Унраундединсидетессфактор.
 
@@ -101,7 +101,7 @@ void ProcessTriTessFactorsAvg(
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
@@ -119,7 +119,7 @@ void ProcessTriTessFactorsAvg(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

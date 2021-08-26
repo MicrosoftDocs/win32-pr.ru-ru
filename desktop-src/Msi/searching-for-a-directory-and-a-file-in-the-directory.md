@@ -1,15 +1,15 @@
 ---
-description: Во время установки установщик Windows установщик может выполнить поиск каталога и файла в этом каталоге.
+description: во время установки установщик Windows установщик может выполнить поиск каталога и файла в этом каталоге.
 ms.assetid: ddf624f9-6f85-4ef6-8dfc-8635a25915d0
 title: Поиск каталога и файла в каталоге
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4821a53ef0c3f063e943f1f5821b043791dd44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e857460dc58fa5fded802cb53b9ae6a558e5a27426baef87be9f561fa35fe6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041184"
 ---
 # <a name="searching-for-a-directory-and-a-file-in-the-directory"></a>Поиск каталога и файла в каталоге
 
@@ -69,11 +69,11 @@ ms.locfileid: "105663571"
 
     Если MyApp.exe найдена для установки в AppDir, установщик задает для свойства MYAPP расположение файла.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Поиск существующих приложений, файлов, записей реестра или INI-файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
+[Поиск существующих приложений, файлов, записей реестра или записей .ini файлов](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md)
 </dt> </dl>
 
  

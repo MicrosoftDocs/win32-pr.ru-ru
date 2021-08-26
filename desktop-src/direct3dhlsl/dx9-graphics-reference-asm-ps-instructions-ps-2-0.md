@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bac2a70ed0147885174c2290d5e58c92ae3347e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 292263ed6331c8cc878d6dbd9cfa3e4d766c193d2242b841afb926b296675ccf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104996807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067994"
 ---
 # <a name="ps_2_0-instructions"></a>\_ \_ инструкции по PS 2 0
 
@@ -32,7 +32,7 @@ ms.locfileid: "104996807"
 
 
 
-| Имя                                                             | Описание                                                                                      | Слоты инструкций | Настройка | Арифметические | Текстура | Оператор new |
+| Имя                                                             | Описание                                                                                      | Слоты инструкций | Настройка | Арифметический | Текстура | Оператор new |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|-----|
 | [ABS-PS](abs---ps.md)                                         | Абсолютное значение                                                                                   | 1                 |       | x          |         | x   |
 | [Add-PS](add---ps.md)                                         | Добавление двух векторов                                                                                  | 1                 |       | x          |         |     |
@@ -55,13 +55,13 @@ ms.locfileid: "104996807"
 | [m4x4-PS](m4x4---ps.md)                                       | 4x4 умножение                                                                                     | 4                 |       | x          |         | x   |
 | [Mad-PS](mad---ps.md)                                         | Умножение и добавление                                                                                 | 1                 |       | x          |         |     |
 | [Max-PS](max---ps.md)                                         | Максимум                                                                                          | 1                 |       | x          |         | x   |
-| [min-PS](min---ps.md)                                         | Минимальные                                                                                          | 1                 |       | x          |         | x   |
+| [min-PS](min---ps.md)                                         | Минимум                                                                                          | 1                 |       | x          |         | x   |
 | [MOV-PS](mov---ps.md)                                         | Переместить                                                                                             | 1                 |       | x          |         |     |
 | [mul-PS](mul---ps.md)                                         | Multiply                                                                                         | 1                 |       | x          |         |     |
 | [NOP-PS](nop---ps.md)                                         | Нет операций                                                                                     | 1                 |       | x          |         |     |
 | [НРМ-PS](nrm---ps.md)                                         | Normalize                                                                                        | 3                 |       | x          |         | x   |
 | [Pow-PS](pow---ps.md)                                         | x<sup>y</sup>                                                                                    | 3                 |       | x          |         | x   |
-| [ps](ps---ps.md)                                                | Version                                                                                          | 0                 | x     |            |         |     |
+| [PS](ps---ps.md)                                                | Версия                                                                                          | 0                 | x     |            |         |     |
 | [rcp-PS](rcp---ps.md)                                         | Участвующ                                                                                       | 1                 |       | x          |         | x   |
 | [РСК-PS](rsq---ps.md)                                         | Корень обратного квадрата                                                                           | 1                 |       | x          |         | x   |
 | [синкос-PS](sincos---ps.md)                                   | Синус и косинус                                                                                  | 8                 |       | x          |         | x   |
@@ -73,18 +73,18 @@ ms.locfileid: "104996807"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c5b49b69e1270075aef4368dedca5791c2784657
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2b5b27067e83cbfd7604165ec1191d3371634aac15781a719377c92c69e29e6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067954"
 ---
 # <a name="exp---vs"></a>EXP — VS
 
@@ -31,12 +31,12 @@ ms.locfileid: "104998222"
 
  
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром. Для исходного регистра требуется явное использование репликации свиззле, то есть только один из компонентов. x,. y,. z,. w свиззле (или. r,. g,. b,. a эквивалент) должен быть указан. См. раздел [Source Register группирующие](dx9-graphics-reference-asm-vs-registers-modifiers-source-swizzling.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -59,7 +59,7 @@ dest.x = dest.y = dest.z = dest.w = (float)pow(2, src.replicateSwizzleComponent)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

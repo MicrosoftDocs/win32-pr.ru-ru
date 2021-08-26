@@ -1,19 +1,19 @@
 ---
 title: Использование командлетов Windows PowerShell в WinRM для управления заданиями передачи BITS
-description: Служба удаленного управления Windows командлеты PowerShell могут управлять заданиями передачи фоновая интеллектуальная служба передачи (BITS).
+description: Windows Командлеты PowerShell для удаленного управления могут управлять заданиями передачи фоновая интеллектуальная служба передачи (BITS).
 ms.assetid: 9fbef8a1-ed3f-4277-9a07-ed427f60d7a8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eefd874a1056e959d1516d515891ae216e4aca3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f24f4776d8a8431ac8c910fb8145633961bf353721698f8c3e5b4737ee0a1c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004644"
 ---
 # <a name="using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs"></a>Использование командлетов Windows PowerShell в WinRM для управления заданиями передачи BITS
 
-Служба удаленного управления Windows командлеты PowerShell могут управлять заданиями передачи фоновая интеллектуальная служба передачи (BITS). Дополнительные сведения об удаленном управлении BITS см. в разделе классы поставщиков службы [BITS](/previous-versions/windows/desktop/bitsprov/bits-provider) и поставщика [BITS]( /previous-versions//dd904507(v=vs.85)).
+Windows Командлеты PowerShell для удаленного управления могут управлять заданиями передачи фоновая интеллектуальная служба передачи (BITS). Дополнительные сведения об удаленном управлении BITS см. в разделе классы поставщиков службы [BITS](/previous-versions/windows/desktop/bitsprov/bits-provider) и поставщика [BITS]( /previous-versions//dd904507(v=vs.85)).
 
 Для следующих примеров требуется [поставщик BITS](/previous-versions/windows/desktop/bitsprov/bits-provider). Поставщик BITS доступен после установки сервера BITS Compact Server. Сведения об установке Compact Server см. в документации по [облегченному серверу BITS](bits-compact-server.md) .
 
@@ -109,7 +109,7 @@ ms.locfileid: "104538987"
 
     Дополнительные сведения о состояниях заданий см. в разделе Перечисление [**\_ \_ состояний заданий BG**](/windows/desktop/api/Bits/ne-bits-bg_job_state) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Атрибут Аккуиситионтиме
 description: Атрибут Аккуиситионтиме — это дата и время добавления элемента в библиотеку.
 ms.assetid: 5184aa35-ef07-47ec-97b3-2d602bd00568
 keywords:
-- Аккуиситионтиме атрибут Windows Media Player
+- проигрыватель Windows Media атрибута аккуиситионтиме
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82de862b1bea58c27a245c2fdfe415fb137bf4f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac78dd663addd35657b2aa1b76096b00a26cf3c91770ec0da16fa0f0b9861a03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004374"
 ---
 # <a name="acquisitiontime-attribute"></a>Атрибут Аккуиситионтиме
 
 Атрибут **аккуиситионтиме** — это дата и время добавления элемента в библиотеку.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
@@ -32,23 +32,23 @@ ms.locfileid: "105694640"
 -   [Элементы Радио](radio-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
