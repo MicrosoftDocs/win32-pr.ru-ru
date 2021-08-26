@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: dd29696ae21924f245e508469acfbb88c78b034b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef0b29590b4a9080e943fae5c3e78fb18a99232a2a531a80b63b303b28c2bea2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948344"
 ---
 # <a name="mxdc_get_filename_data_t-structure"></a>МКСДК \_ получить \_ \_ структуру данных имени файла \_ T
 
@@ -54,23 +54,23 @@ typedef struct _tagMxdcGetFileNameData {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура возвращается функцией [**екстескапе**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) , когда она вызывается с помощью escape-последовательности [**мксдк \_**](mxdc-escape.md) , а структура [**Escape- \_ \_ заголовка \_ мксдк**](mxdcescapeheader.md) , которая передается в параметр *лпсзиндата* , **имеет значение** **мксдкоп \_ Get \_ filename**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                    |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                              |
-| Header<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                    |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                              |
+| Заголовок<br/>                   | <dl> <dt>Мксдк. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

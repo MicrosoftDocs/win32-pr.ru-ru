@@ -20,7 +20,7 @@
               href: authentication-protocol-registry-values.md
             - name: Пример значений реестра
               href: registry-values-example.md
-        - name: Проверка подлинности пользователей
+        - name: проверка подлинности пользователей;
           href: user-authentication.md
         - name: Сведения о реализации EAP
           href: eap-implementation-details.md

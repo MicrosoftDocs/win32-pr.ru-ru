@@ -4,16 +4,16 @@ description: Функции плоской полосы прокрутки
 ms.assetid: 091961ae-9a7a-4ee1-8f2f-313af79403aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42145a12ce86f62ebc6b85c707c79d64b363089b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ae8509b086265590c239f52e823f753435bce6b7ee5322fcde506c908c3ec337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105656803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917084"
 ---
 # <a name="flat-scroll-bar-functions"></a>Функции плоской полосы прокрутки
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**Флатсб \_ енаблескроллбар**](/windows/desktop/api/Commctrl/nf-commctrl-flatsb_enablescrollbar)
 -   [**Флатсб \_ жетскроллинфо**](/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollinfo)

@@ -4,12 +4,12 @@ ms.assetid: 88590e8d-7c3a-49db-8b3a-4afc471cb76a
 title: Операторы XMUDECN4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd19cf7eac5effe1699a04bb204a0603a5614d94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df90ee7daa6982ea849477b1f4ff1884cefb4cb8f9e00a43abf84a5514461f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979474"
 ---
 # <a name="xmudecn4-operators"></a>Операторы XMUDECN4
 
@@ -33,7 +33,7 @@ ms.locfileid: "105701869"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

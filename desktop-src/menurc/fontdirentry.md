@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1cee72a490fd2b94b1c810797f656d81418c0f71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e236104730dbbfe79ec0ed3d18cbb465402ed8827c6037a2457bec18faf63024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886744"
 ---
 # <a name="fontdirentry-structure"></a>Структура ФОНТДИРЕНТРИ
 
@@ -398,13 +398,13 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует одна структура **фонтдирентри** для каждого шрифта в RES-файле. Приложения, создающие RES-файлы с ресурсами шрифтов, должны также добавить в файл структуру **фонтдирентри** для каждого шрифта.
 
 Объявления шрифтов можно комбинировать с другими объявлениями ресурсов в. RC-файл, так как шрифты не должны быть непрерывными в RES-файле.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -415,7 +415,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Найдите ответы на часто задаваемые в
 ms.assetid: 4e26df7b-3cce-4522-ab39-e24f06b4c4b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08713b17491d4b0bd76540c09b9d4588116256f
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 93a8b424ed195d30621c67007fc8e7d1a0882bae6ce676c70a1ca0dc93e8b846
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "103988049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978534"
 ---
 # <a name="eap-frequently-asked-questions"></a>Часто задаваемые вопросы о EAP
 
@@ -29,7 +29,7 @@ ms.locfileid: "103988049"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

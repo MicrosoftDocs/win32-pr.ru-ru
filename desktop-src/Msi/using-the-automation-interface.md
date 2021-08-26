@@ -4,12 +4,12 @@ ms.assetid: 6825c852-6123-4d44-9491-3488cf18db03
 title: Использование интерфейса автоматизации
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f145736a13d0e7c1d0df8bf5560441921b2e472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95e624b38544f78670e48c8abb389768cdb9c3cdab8745c87f2bfd0f190f3466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996114"
 ---
 # <a name="using-the-automation-interface"></a>Использование интерфейса автоматизации
 
@@ -17,7 +17,7 @@ ms.locfileid: "105674045"
 
 Сведения об автоматизации и доступе к библиотекам C++ см. [в разделе Общие сведения об интерфейсе автоматизации](about-the-automation-interface.md).
 
-Справочный материал по объектам установщик Windows см. в [справочнике по интерфейсу автоматизации](automation-interface-reference.md).
+справочный материал по объектам установщик Windows см. в [справочнике по интерфейсу автоматизации](automation-interface-reference.md).
 
  
 

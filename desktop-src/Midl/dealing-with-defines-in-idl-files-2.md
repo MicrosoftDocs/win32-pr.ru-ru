@@ -7,12 +7,12 @@ keywords:
 - Определяет MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4af77979824c2e76352d6f28bef72161249845d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 22c8a63423943d72326b16d53272f63d6efbe7d614661990560b00989be04cf1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979706"
 ---
 # <a name="dealing-with-defines-in-idl-files"></a>Работа с \# определениями в IDL-файлах
 
@@ -27,7 +27,7 @@ ms.locfileid: "104067930"
 -   Используйте константы перечисления в IDL-файле.
 -   Используйте [**\_ цитату cpp**](cpp-quote.md) для воспроизведения **\# определения** в создаваемом файле заголовка.
 
-Константы манифеста можно воспроизвести с помощью **синтаксиса объявления константы IDL**. Обратите внимание, что [**константа**](const.md) в объявлении константы IDL отличается от семантики **const** C/C++ и просто вводит именованную константу для компиляции IDL. Пример:
+Константы манифеста можно воспроизвести с помощью **синтаксиса объявления константы IDL**. Обратите внимание, что [**константа**](const.md) в объявлении константы IDL отличается от семантики **const** C/C++ и просто вводит именованную константу для компиляции IDL. Например:
 
 ``` syntax
 const short ARRSIZE = 10
@@ -61,9 +61,9 @@ cpp_quote ("#define ARRSIZE 10")
 #define ARRSIZE 10
 ```
 
- 
+ 
 
- 
+ 
 
 
 

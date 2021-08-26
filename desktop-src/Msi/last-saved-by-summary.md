@@ -4,12 +4,12 @@ ms.assetid: 6da171d9-29db-4524-abc6-77db8fbfca38
 title: Последнее сохранение по свойству Summary
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfd1c00863eee3bc31728783042ada8298b2067
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9299dc6a00af4e48eb3901842aba58a3c8d9a9c1d98d3a3e1e0f05bfccc4333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979454"
 ---
 # <a name="last-saved-by-summary-property"></a>Последнее сохранение по свойству Summary
 
@@ -27,7 +27,7 @@ ms.locfileid: "105689088"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 

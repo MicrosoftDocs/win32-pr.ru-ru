@@ -6,12 +6,12 @@ keywords:
 - интерфейсы MIDL, типы данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5bdbbb90c4cbecd4a6a4e3cc74ba9775772dd0a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6691ccf89e1bff3b0e980678a30c6f706b724e4f30192d7960183c00cc00c237
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979713"
 ---
 # <a name="data-types-in-the-interface-body"></a>Типы данных в теле интерфейса
 
@@ -35,9 +35,9 @@ interface ITwo
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

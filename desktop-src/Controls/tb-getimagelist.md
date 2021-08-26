@@ -3,7 +3,7 @@ title: Сообщение TB_GETIMAGELIST (Коммктрл. h)
 description: Извлекает список изображений, используемый элементом управления Toolbar для отображения кнопок в состоянии по умолчанию. Элемент управления ToolBar использует этот список изображений для вывода кнопок, если они не являются неактивными или отключенными.
 ms.assetid: 21edde99-019b-495c-a38b-4d686e124f8e
 keywords:
-- Элементы управления Windows для TB_GETIMAGELIST сообщений
+- элементы управления Windows сообщений TB_GETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a56b8b847bd212e703d3b512b255cf1693abf7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dee13a7099a1781722b1d2cb6028fe2bc8e22bc712992283148e72a628269a98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918844"
 ---
 # <a name="tb_getimagelist-message"></a>\_Сообщение ТБ
 
@@ -53,9 +53,9 @@ ms.locfileid: "103801355"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

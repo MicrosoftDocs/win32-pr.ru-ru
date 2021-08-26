@@ -4,18 +4,18 @@ ms.assetid: 3115c9e0-05c9-462d-8238-fc035ea32d4e
 title: API печати GDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0239282543a68c6fe8b5d6503d085582fd9c20db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fc2a872b3a310ea44ddfc84103ddbd11cff61998d4884dca5f490e88c3d73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949203"
 ---
 # <a name="gdi-print-api"></a>API печати GDI
 
 API печати GDI предоставляет приложения с интерфейсом печати, не зависящим от устройства. Используйте этот интерфейс, если приложение использует GDI для отрисовки текста и графики.
 
-Если вы пишете приложения для Windows Vista или более поздних версий Windows, рассмотрите возможность использования [API документов XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)) и [API печати XPS](xps-printing.md) для использования высокопроизводительных графических интерфейсов, поддерживаемых драйверами печати XPSDrv.
+если вы пишете приложения для Windows Vista или более поздних версий Windows, рассмотрите возможность использования [api документов xps](/previous-versions/windows/desktop/dd316976(v=vs.85)) и [api печати xps](xps-printing.md) для использования высокопроизводительных графических интерфейсов, поддерживаемых драйверами печати XPSDrv.
 
 В этом разделе содержатся сведения о следующих разделах.
 
@@ -37,7 +37,7 @@ API печати GDI предоставляет приложения с инте
 
 ![Схема, показывающая связь API печати GDI с другими API-интерфейсами печати, которые может использовать приложение Win32](images/print-apis-gdi.png)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

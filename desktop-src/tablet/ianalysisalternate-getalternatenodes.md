@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: dd24581774c2115c9f7ccb6857d0cd4d9e1bfd2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbaff3cea515c9636127ce2267b9f05e0c0a0006b96046a7f2474661b3b76f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935524"
 ---
 # <a name="ianalysisalternategetalternatenodes-method"></a>Метод Ианалисисалтернате:: Жеталтернатенодес
 
@@ -50,7 +50,7 @@ HRESULT GetAlternateNodes(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Caution]  
 > Чтобы избежать утечки памяти, вызовите метод [**IUnknown:: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) в \* *ппалтернатенодес* , когда больше не нужно использовать коллекцию узлов контекста.
@@ -61,20 +61,20 @@ HRESULT GetAlternateNodes(
 
 Так как они соответствуют альтернативным объектам, эти объекты [**иконтекстноде**](icontextnode.md) не являются потомками корневого **иконтекстноде** объекта [**Иинканализер**](iinkanalyzer.md) (см. [**метод иинканализер:: жетрутноде**](iinkanalyzer-getrootnode.md)), если только они не являются верхним вариантом, который является первым элементом в коллекции [**ианалисисалтернатес**](ianalysisalternates.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -90,7 +90,7 @@ HRESULT GetAlternateNodes(
 [Справочник по анализу рукописного ввода](ink-analysis-reference.md)
 </dt> <dt>
 
-[System. Windows. Ink. Аналисискоре. Аналисисалтернатебасе. Алтернатенодес](ianalysisalternate-getalternatenodes.md)
+[Системой. Windows. Ink. Аналисискоре. Аналисисалтернатебасе. Алтернатенодес](ianalysisalternate-getalternatenodes.md)
 </dt> </dl>
 
  

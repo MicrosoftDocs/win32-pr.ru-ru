@@ -4,28 +4,28 @@ ms.assetid: 79eeadfd-6079-401b-a360-1ce09786e647
 title: Возобновить свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c41b57bb92b252ebe37e4d631c155f28a86e596
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65e3c17116558a346fe91e2c9c98bba99cd759b4d382488a7b8f08c946dfa053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979264"
 ---
 # <a name="resume-property"></a>Возобновить свойство
 
 Свойство **Resume** задается при возобновлении приостановленной установки. Это свойство может определять, какой текст будет отображаться в пользовательском интерфейсе. Например, если не находится в режиме возобновления, пользователю может быть предложено «вы готовы установить?». в режиме возобновления пользователь может запрашивать «вы готовы завершить установку?».
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для обеспечения обратной совместимости установщик также поддерживает имя **возобновление** для этого свойства.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

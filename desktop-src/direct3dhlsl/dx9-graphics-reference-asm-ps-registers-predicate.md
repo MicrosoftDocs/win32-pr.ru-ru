@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54c0706b110e04548c836bed8ae794f8da73747e
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8cc8404c9a6be87951142ff3473b283a57f4814b729a8ad5a462f9069b20f3ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103785067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950034"
 ---
 # <a name="predicate-register-hlsl-ps-reference"></a>Регистр предикатов (Справочник по HLSL PS)
 
@@ -30,32 +30,32 @@ ms.locfileid: "103785067"
 
 
 
- 
+ 
 
 Ниже приведены свойства регистра.
 
 
 
-| Тип регистра | Count | Чтение-запись | \# Чтение портов | \# Операций чтения и inst | Измерение | реладдр | Значения по умолчанию | Требуется ДКЛ |
+| Тип регистра | Count | Чтение-запись | \# Чтение портов | \# Операций чтения и inst | Измерение | реладдр | Умолчания; | Требуется ДКЛ |
 |---------------|-------|-----|---------------|---------------|-----------|---------|----------|--------------|
 | Предикат (p)  | 1     | Чтение-запись | 1             | 1             | 4         | Н/Д     | Отсутствуют     | Нет            |
 
 
 
- 
+ 
 
 Регистр предиката можно изменить с помощью [сетп \_ comp-PS](setp-comp---ps.md). Для этого регистра значения по умолчанию отсутствуют. приложению необходимо задать регистр перед его использованием.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

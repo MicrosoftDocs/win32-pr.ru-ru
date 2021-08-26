@@ -4,12 +4,12 @@ ms.assetid: 90e9f32b-79cd-4199-8488-33c092579e96
 title: Просмотр свойств библиотеки DLL экспертов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f1cc12e9974ac9e38a44a25e9835b2cd5af032b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 944d8b6eeafd1fb4f452272836d6a342c2b1ab434503fadaaa9053c08a4b6427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962712"
 ---
 # <a name="viewing-expert-dll-properties"></a>Просмотр свойств библиотеки DLL экспертов
 
@@ -17,7 +17,7 @@ ms.locfileid: "104568942"
 
 **Просмотр свойств DLL**
 
-1.  Откройте проводник Windows и перейдите к \\ вложенному каталогу "экспертыs" сетевой монитор ( \\ например, "Program Files \\ NetMon2 \\ экспертыs").
+1.  откройте обозреватель Windows и перейдите к \\ подкаталогу экспертов сетевой монитор ( \\ например, Program files \\ NetMon2 \\ экспертов).
 2.  Выберите нужную DLL-библиотеку и щелкните файл правой кнопкой мыши.
 3.  Щелкните **Свойства** и **версия**. В следующем окне Myexpert.dll свойства состояние отображаются свойства библиотеки DLL.
 4.  Щелкните имя нужного **элемента** , чтобы отобразить сведения на панели « **значение** ».
