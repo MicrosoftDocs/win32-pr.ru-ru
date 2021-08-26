@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d4d4c1bb1ad7ecb45b640c16322e297f9f640ef1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 60fc768a1b93a752a91d431e79fb3e875416ac2b82b2bad5603e3d4cddaccbaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910574"
 ---
 # <a name="idelaydcgetconversationstatistics-method"></a>Метод Иделайдк:: Жетконверсатионстатистикс
 
@@ -89,9 +89,9 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
 | Код возврата                                                                                                   | Описание                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>          | НПП не подключен к сети. Вызовите [иделайдк:: Connect](idelaydc-connect.md) , чтобы подключить НПП к сети.<br/>                                                                                                  |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>          | НПП не подключен к сети. вызовите [иделайдк:: Подключение](idelaydc-connect.md) , чтобы подключить нпп к сети.<br/>                                                                                                  |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl>          | НПП не захватывает данные. Вызовите [иделайдк:: Start](idelaydc-start.md) , чтобы начать запись.<br/>                                                                                                                             |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>            | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/>                                                                                                                      |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>            | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/>                                                                                                                      |
 | <dl> <dt>**НМЕРР \_ без \_ \_ статистики**</dt> </dl> | Для конфигурации этого соединения задано значение не сохранять статистику диалога. Чтобы сохранить статистику диалога, закройте запись, задайте Ноконверсатионстатс = YES в большом двоичном объекте конфигурации, а затем перезапустите запись.<br/> |
 
 
@@ -104,7 +104,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 
 Чтобы получить другие типы статистики, вызовите метод [иделайдк:: жеттоталстатистикс](idelaydc-gettotalstatistics.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,7 +124,7 @@ HRESULT STDMETHODCALLTYPE GetConversationStatistics(
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: Жеттоталстатистикс](idelaydc-gettotalstatistics.md)

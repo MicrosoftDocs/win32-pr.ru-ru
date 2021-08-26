@@ -1,16 +1,16 @@
 - name: Windows Deployment Services
   href: windows-deployment-services-portal.md
   items:
-    - name: Сведения об API служб развертывания Windows
+    - name: сведения об API служб развертывания Windows
       href: about-the-windows-deployment-services-api.md
     - name: Использование API сервера служб развертывания Windows
       href: using-the-windows-deployment-services-server-api.md
     - name: Использование API клиента служб развертывания Windows
       href: using-the-windows-deployment-services-client-api.md
-    - name: Справочник по службам развертывания Windows
+    - name: Windows Справочник по службам развертывания
       href: windows-deployment-services-reference.md
       items:
-        - name: Клиентские функции служб развертывания Windows
+        - name: Windows Клиентские функции служб развертывания
           href: windows-deployment-services-client-functions.md
           items:
             - name: PFN_WdsCliCallback
@@ -83,7 +83,7 @@
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromfindhandle
             - name: вдсклижетимажехандлефромтрансферхандле
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromtransferhandle
-        - name: Функции сервера служб развертывания Windows
+        - name: Windows Функции сервера служб развертывания
           href: windows-deployment-services-server-functions.md
           items:
             - name: пксеасинкреквдоне
@@ -154,7 +154,7 @@
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6parserelayforw
             - name: PxeDhcpv6CreateRelayRepl
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6createrelayrepl
-        - name: Транспортные функции служб развертывания Windows
+        - name: Windows Транспортные функции служб развертывания
           href: windows-deployment-services-transport--functions.md
           items:
             - name: Функции поставщика транспорта WDS
@@ -238,7 +238,7 @@
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientstartsession
                 - name: вдстранспортклиентваитфоркомплетион
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientwaitforcompletion
-        - name: Перечисления служб развертывания Windows
+        - name: Windows Перечисления служб развертывания
           href: windows-deployment-services-enumerations.md
           items:
             - name: TRANSPORTCLIENT_CALLBACK_ID
@@ -249,7 +249,7 @@
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
             - name: WDS_LOG_TYPE_CLIENT
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_1
-        - name: Структуры служб развертывания Windows
+        - name: Windows Структуры служб развертывания
           href: windows-deployment-services-structures.md
           items:
             - name: PXE_ADDRESS
@@ -280,7 +280,7 @@
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_init_params
             - name: WDS_TRANSPORTPROVIDER_SETTINGS
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_settings
-        - name: API управления транспортом служб развертывания Windows
+        - name: Windows API управления транспортом служб развертывания
           href: windows-deployment-services-transport-management-api.md
           items:
             - name: Перечисления управления транспортом WDS
@@ -596,7 +596,7 @@
                   items:
                     - name: Метод Ретриеветфтпклиентс
                       href: /windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients
-        - name: Программа сетевой загрузки служб развертывания Windows
+        - name: Windows Программа сетевой загрузки служб развертывания
           href: windows-deployment-services-network-boot-program.md
           items:
             - name: вдсбпаддоптион

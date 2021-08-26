@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2139c11558eccc3fb3b225f0cc1a87bcf6fb084d
-ms.sourcegitcommit: cea2889abb43350c38cd120e877d8471dae78beb
+ms.openlocfilehash: 4e35a0267d29e473a3c2e5a6a00a0635a466f46c2917b913c3950aa6567e3cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829864"
 ---
 # <a name="wm_syskeyup-message"></a>\_Сообщение СИСКЭЙУП WM
 
@@ -70,7 +70,7 @@ ms.locfileid: "104352055"
 
 Приложение должно вернуть нуль, если оно обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) отправляет сообщение [**WM \_ сискомманд**](/windows/desktop/menurc/wm-syscommand) в окно верхнего уровня, если была снята клавиша F10 или ALT. Параметр *wParam* сообщения имеет значение **SC \_ кэймену**.
 
@@ -82,7 +82,7 @@ ms.locfileid: "104352055"
 
 
 
-| Сообщение                           | Код виртуального ключа |
+| Message                           | Код виртуального ключа |
 |-----------------------------------|------------------|
 | [**WM \_ KeyDown**](wm-keydown.md) | **\_элемент управления VK**  |
 | [**WM \_ KeyDown**](wm-keydown.md) | **\_меню VK**     |
@@ -93,7 +93,7 @@ ms.locfileid: "104352055"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -101,11 +101,11 @@ ms.locfileid: "104352055"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

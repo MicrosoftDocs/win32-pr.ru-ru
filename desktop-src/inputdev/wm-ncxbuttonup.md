@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6330849a433787dd09fad536f005d91f60376013
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2eab2067d3d16c3ae0864ba7ddf04b5666efa0186d0a7d55ebd5eddaa7533790
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829904"
 ---
 # <a name="wm_ncxbuttonup-message"></a>\_Сообщение НККСБУТТОНУП WM
 
@@ -69,7 +69,7 @@ ms.locfileid: "103802909"
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**. Дополнительные сведения об обработке возвращаемого значения см. в разделе "Примечания".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте следующий код, чтобы получить сведения в параметре *wParam* .
 
@@ -98,9 +98,9 @@ yPos = GET_Y_LPARAM(lParam);
 
 По умолчанию функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) проверяет указанную точку на получение позиции курсора и выполняет соответствующее действие. При необходимости оно отправляет сообщение [**WM \_ сискомманд**](/windows/desktop/menurc/wm-syscommand) в окно.
 
-В отличие от [**сообщений \_ WM нклбуттонуп**](wm-nclbuttonup.md), [**WM \_ нкмбуттонуп**](wm-ncmbuttonup.md)и [**WM \_ нкрбуттонуп**](wm-ncrbuttonup.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. Это позволит программному обеспечению имитировать это сообщение в системах Windows более ранних, чем Windows 2000, чтобы определить, обрабатывало ли это сообщение процедура окна или вызываемая [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
+В отличие от [**сообщений \_ WM нклбуттонуп**](wm-nclbuttonup.md), [**WM \_ нкмбуттонуп**](wm-ncmbuttonup.md)и [**WM \_ нкрбуттонуп**](wm-ncrbuttonup.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. это позволит программному обеспечению имитировать это сообщение в Windows системах, предшествующих Windows 2000, чтобы определить, обрабатывала ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -112,7 +112,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

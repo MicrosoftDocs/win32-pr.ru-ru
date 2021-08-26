@@ -3,9 +3,9 @@ title: Ивмпконтролс Куррентпоситионстринг, св
 description: Свойство Куррентпоситионстринг получает текущую позицию в элементе мультимедиа в виде строки в формате чч мм СС (часы, минуты и секунды).
 ms.assetid: cd28dafa-b6a4-4bed-aa5d-7e7be6af1426
 keywords:
-- Проигрыватель Windows Media для свойства Куррентпоситионстринг
-- Куррентпоситионстринг свойство проигрывателя Windows Media Player, интерфейс Ивмпконтролс
-- Интерфейс Ивмпконтролс Windows Media Player, свойство Куррентпоситионстринг
+- проигрыватель Windows Media свойства куррентпоситионстринг
+- проигрыватель Windows Media свойства куррентпоситионстринг, интерфейс ивмпконтролс
+- проигрыватель Windows Media интерфейса ивмпконтролс, свойство куррентпоситионстринг
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e941fceb61e4f00393b05f96489ec7ac8e950f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61e3c98937a12c145742895979ccccb8118f8349f82b2840c902dfe625ad0472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861914"
 ---
 # <a name="iwmpcontrolscurrentpositionstring-property"></a>Свойство Ивмпконтролс:: Куррентпоситионстринг
 
@@ -51,7 +51,7 @@ Public ReadOnly Property currentPositionString As System.String
 
 Форматированная **Строка System. String** , которая является текущей позицией.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если размер элемента мультимедиа меньше часа, текущая позиция форматируется как MM: SS (минуты и секунды).
 
@@ -97,19 +97,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
