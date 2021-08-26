@@ -3,9 +3,9 @@ title: Ивмперрор Клеарерроркуеуе, метод
 description: Метод Клеарерроркуеуе удаляет ошибки из очереди ошибок. | Ивмперрор Клеарерроркуеуе, метод
 ms.assetid: a8e8e666-56e4-4e75-9ed5-2714d272ce7c
 keywords:
-- Клеарерроркуеуе метод Windows Media Player
-- Клеарерроркуеуе метод проигрывателя Windows Media Player, интерфейс Ивмперрор
-- Интерфейс Ивмперрор Windows Media Player, метод Клеарерроркуеуе
+- проигрыватель Windows Media метода клеарерроркуеуе
+- проигрыватель Windows Media метода клеарерроркуеуе, интерфейс ивмперрор
+- проигрыватель Windows Media интерфейса ивмперрор, метод клеарерроркуеуе
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98c3f422a9bc32049106d83c970bd8d2c9b2110f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f75b4e4d2a0e80a3f55a38744758497abc71f5899498fee95ee3b3db752631c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000454"
 ---
 # <a name="iwmperrorclearerrorqueue-method"></a>Метод Ивмперрор:: Клеарерроркуеуе
 
@@ -53,7 +53,7 @@ Implements IWMPError.clearErrorQueue
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод, чтобы очистить очередь ошибок после обработки ряда ошибок.
 
@@ -114,19 +114,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

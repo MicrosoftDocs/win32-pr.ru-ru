@@ -46,12 +46,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e2eb5234e8dd65d7df86acec7ab121ef961c2121
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a16c6d0f3594f4fe3b322b5561edf679ded259091f22eade7d831c63fee8f780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921094"
 ---
 # <a name="cim_rack-class"></a>\_Класс стойки CIM
 
@@ -180,7 +180,7 @@ class CIM_Rack : CIM_PhysicalFrame
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -370,7 +370,7 @@ class CIM_Rack : CIM_PhysicalFrame
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -907,7 +907,7 @@ class CIM_Rack : CIM_PhysicalFrame
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ стойки CIM** является производным от [**CIM \_ фисикалфраме**](cim-physicalframe.md).
 
@@ -915,7 +915,7 @@ class CIM_Rack : CIM_PhysicalFrame
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -929,7 +929,7 @@ class CIM_Rack : CIM_PhysicalFrame
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

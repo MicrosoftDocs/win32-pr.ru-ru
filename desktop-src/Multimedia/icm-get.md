@@ -3,7 +3,7 @@ title: Сообщение ICM_GET (VFW. h)
 description: ICM \_ -сообщение get получает значение DWORD, определенное приложением, из драйвера сжатия видео.
 ms.assetid: 288c0053-16a1-4547-b748-da218a0b588c
 keywords:
-- ICM_GET сообщения Windows мультимедиа
+- сообщение ICM_GET Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e23cd994546be41b5f938331b2dc632897635c32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8885faf7b0605378ace3004165004384a582c9d49a0a8ce047122c108b6cb8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038734"
 ---
 # <a name="icm_get-message"></a>ICM \_ Get, сообщение
 
@@ -56,11 +56,11 @@ lParam = (DWORD) cb;
 
 Возвращает объем памяти в байтах, необходимый для хранения сведений о состоянии.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура, используемая для представления сведений о состоянии, зависит от драйвера и определяется драйвером.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ lParam = (DWORD) cb;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

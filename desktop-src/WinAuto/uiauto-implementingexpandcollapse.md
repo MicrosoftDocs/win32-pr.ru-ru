@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Иекспандколлапсепровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45bd28ddcc201dcff0a4811a1eb8e04670f93091
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b7fa1461110a7fcdee83b8b3c20c15653e7bd5740187b89337620f5410b2bf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998044"
 ---
 # <a name="expandcollapse-control-pattern"></a>Шаблон элемента управления ExpandCollapse
 
@@ -32,7 +32,7 @@ ms.locfileid: "104067738"
 
 -   [Правила и соглашения реализации](#implementation-guidelines-and-conventions)
 -   [Обязательные члены для **иекспандколлапсепровидер**](#required-members-for-iexpandcollapseprovider)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="implementation-guidelines-and-conventions"></a>Правила и соглашения реализации
 
@@ -42,12 +42,12 @@ ms.locfileid: "104067738"
     > [!Note]  
     > Исключением является элемент управления Menu, который представляет собой статистическое выражение отдельных объектов пунктов меню. Объекты пунктов меню могут поддерживать шаблон элемента управления **ExpandCollapse** , но родительский элемент управления Menu не может. Аналогичное исключение применяется к элементам управления "дерево" и "элемент дерева".
 
-     
+     
 
 -   Если для элемента управления [**иекспандколлапсепровидер:: ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) задано значение **ExpandCollapseState \_ леафноде**, то все функции **ExpandCollapse** в настоящее время неактивны для элемента управления, и единственной информацией, которая может быть получена с помощью этого шаблона элемента управления, является **ExpandCollapseState**. При последующем добавлении каких-либо дочерних объектов активируется функция **ExpandCollapseState** Changes и **ExpandCollapse** .
 -   [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) относится только к видимости непосредственных дочерних объектов; Он не ссылается на видимость всех объектов-потомков.
 -   Функция [**иекспандколлапсепровидер:: Expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) и [**сворачивания**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse) зависит от конкретного элемента управления. Ниже представлены примеры такого поведения.
-    -   Меню Office Personal может быть элементом меню с тремя состояниями ("развернуто", "свернуто" и "Партиаллекспандед"), где элемент управления определяет состояние, которое необходимо принять при вызове [**expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) или [**сворачивания**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse) .
+    -   Office личное меню может быть элементом меню с тремя состояниями ("развернуто", "свернуто" и "партиаллекспандед"), где элемент управления определяет состояние, которое необходимо принять при вызове [**Expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) или [**сворачивания**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse) .
     -   При вызове [**expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) для элемента дерева могут отображаться все потомки или только непосредственные дочерние элементы.
     -   Если вызов метода [**expand**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-expand) или [**сворачивания**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-collapse) для элемента управления поддерживает состояние его потомков, необходимо отправить событие изменения видимости, а не событие изменения состояния. Если родительский элемент управления не сохраняет состояние его потомков при свертывании, элемент управления может уничтожить все потомки, которые больше не видны, и вызвать уничтоженное событие. или может изменить [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate) для каждого потомка и вызвать событие изменения видимости.
 -   Чтобы гарантировать навигацию, желательно, чтобы объект находящегося в дереве Microsoft UI Automation (с соответствующим состоянием видимости), независимо от его родителей- [**ExpandCollapseState**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate). Если потомки создаются по запросу, они могут отображаться только в дереве модели автоматизации пользовательского интерфейса после того, как они отображаются в первый раз или только когда они видимы.
@@ -67,9 +67,9 @@ ms.locfileid: "104067738"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -82,9 +82,9 @@ ms.locfileid: "104067738"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

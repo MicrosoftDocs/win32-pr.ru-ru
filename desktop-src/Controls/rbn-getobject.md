@@ -3,7 +3,7 @@ title: Код уведомления RBN_GETOBJECT (Коммктрл. h)
 description: Посылается элементом управления "Главная панель", созданным с помощью \_ стиля RBS регистердроп, при перетаскивании объекта на полосу в элементе управления. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 057474c1-5f65-4290-973e-4366b760365a
 keywords:
-- RBN_GETOBJECT кода уведомления элементы управления Windows
+- RBN_GETOBJECT кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a390bc5c5f74a577805ca8ae1128fbb24e6b10b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d9709313a16d068e44b847f5e0862adf1e133b9f0ea92136a12e9aae24ffb14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985044"
 ---
 # <a name="rbn_getobject-notification-code"></a>\_Код уведомления РБН GetObject
 
@@ -49,7 +49,7 @@ RBN_GETOBJECT
 
 Возвращаемое значение для этого кода уведомления должно быть равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить \_ код уведомления РБН GetObject, инициализируйте OLE с помощью вызова [**Олеинитиализе**](/windows/desktop/api/ole2/nf-ole2-oleinitialize) или [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize).
 
@@ -59,9 +59,9 @@ RBN_GETOBJECT
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

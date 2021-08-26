@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f0c111aa0d69119a7d9182732fb18dd5109d3dde
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 61c0600f10ebadcf827b6a913ff98495c885fe04e281234d9b11720d2a336193
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919044"
 ---
 # <a name="cim_systemresource-class"></a>\_Класс CIM системресаурце
 
@@ -57,13 +57,13 @@ class CIM_SystemResource : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ системресаурце** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -117,7 +117,7 @@ class CIM_SystemResource : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -243,7 +243,7 @@ class CIM_SystemResource : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ системресаурце** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

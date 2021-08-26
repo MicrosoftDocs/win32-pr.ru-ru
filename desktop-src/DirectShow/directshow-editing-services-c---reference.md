@@ -1,39 +1,39 @@
 ---
-description: Справочник по службам редактирования DirectShow в C++
+description: DirectShow Справочник по службам редактирования в C++
 ms.assetid: 17da83d8-bd39-457c-b9cf-343cfec249f8
-title: Справочник по службам редактирования DirectShow в C++
+title: DirectShow Справочник по службам редактирования в C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 909821e2297c2d6219f68bca635aab32ed7fad66
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 97eace405d951d69cc14fb99445d74cca3ff0f0154f69f8eefa6140fd83d8fc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103989895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966644"
 ---
-# <a name="directshow-editing-services-c-reference"></a>Справочник по службам редактирования DirectShow в C++
+# <a name="directshow-editing-services-c-reference"></a>DirectShow Справочник по службам редактирования в C++
 
 > [!Note]  
 > \[Не рекомендуется. Этот API может быть удален из будущих выпусков Windows.\]
 
  
 
-В этом разделе содержатся все справочные сведения о [службах редактирования DirectShow](directshow-editing-services.md) .
+в этом разделе содержатся все справочные сведения по [службам редактирования DirectShow](directshow-editing-services.md) .
 
 -   [Интерфейсы](interfaces-des.md)
 -   [Структуры](structures.md)
 -   [Перечислимые типы](enumerated-types.md)
 -   [Константы](constants.md)
 -   [Переходы и эффекты](transitions-and-effects.md)
--   [Объекты служб редактирования DirectShow](directshow-editing-services-objects.md)
+-   [DirectShow Изменение объектов служб](directshow-editing-services-objects.md)
 -   [Справочник по КСТЛ](xtl-reference.md)
 -   [Ошибки отрисовки](rendering-errors.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Службы редактирования DirectShow](directshow-editing-services.md)
+[DirectShow Изменение служб](directshow-editing-services.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: Команда Monitor
 description: Команда Monitor указывает источник представления. (В качестве источника представления по умолчанию используется рабочая область.) При переключении источника презентации все аудио и видеопотоки в источнике переключаются. Устройство Digital-Video распознает эту команду.
 ms.assetid: 5cacbe88-b94e-4101-badf-2bb4796b19cf
 keywords:
-- команда мониторинга мультимедиа Windows
+- команда monitor Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccbe1d8919c232ab88d04081dad242944868893
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bef9a47db68856196dc84aefb3c5f110941189dec80f62b369eae13c60932d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038814"
 ---
 # <a name="monitor-command"></a>Команда Monitor
 
@@ -76,11 +76,11 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Источник презентации автоматически переключается в рабочую область после завершения [воспроизведения](play.md), [шага](step.md), [приостановки](pause.md), [подсказки](cue.md) "Output" или команды [Seek](seek.md) . Команда [Record](record.md) не переключает источники представления автоматически, что дает приложению возможность не отображать видео во время записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,7 +91,7 @@ _stprintf_s(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

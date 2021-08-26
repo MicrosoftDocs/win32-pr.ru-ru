@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee1a7eb10146e40a39c05bcecb99d3a7667dee2c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b35daa5ca00db04b6e69dc70dd1a07aaf1287c2f9188819d5b65af9773edfe1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103987073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982494"
 ---
 # <a name="endloop---ps"></a>ендлуп-PS
 
 Конец [цикла-PS](loop---ps.md)... блок ендлуп.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -30,11 +30,11 @@ ms.locfileid: "103987073"
 
 
 
- 
+ 
 
 ендлуп должен следовать последней инструкции блока [Loop-PS](loop---ps.md) .
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 
 ```
@@ -45,16 +45,16 @@ endloop
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

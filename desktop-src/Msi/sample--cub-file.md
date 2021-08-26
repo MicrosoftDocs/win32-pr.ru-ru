@@ -4,12 +4,12 @@ ms.assetid: 609cd16a-4421-4082-855d-229f5ba7117b
 title: Пример файла Sample. cub
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e937b779e2a620ffc17cf936e37f74867f3dfdd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7aadbaca8bde7091f38d5ce8ccc39926ec6c595aa33e65e488136e89cccfc81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039664"
 ---
 # <a name="sample-cub-file"></a>Пример файла Sample. cub
 
@@ -72,11 +72,11 @@ ICE01 и ICE08 не нуждаются в включении специальн�
 | Двоичные данные        | Данные      | Нет        |          |          |          |           | [Двоичный](binary.md)             |     |             |
 | CustomAction  | Действие    | Нет        |          |          |          |           | [Идентификатор](identifier.md)     |     |             |
 | CustomAction  | Тип      | Нет        |          |          |          |           | [Integer](integer.md)           |     |             |
-| CustomAction  | Источник    | Да        |          |          |          |           | [кустомсаурце](customsource.md) |     |             |
-| CustomAction  | Целевой объект    | Да        |          |          |          |           | [Формате](formatted.md)       |     |             |
+| CustomAction  | Источник    | Д        |          |          |          |           | [кустомсаурце](customsource.md) |     |             |
+| CustomAction  | Целевой объект    | Д        |          |          |          |           | [Формате](formatted.md)       |     |             |
 | \_ицесекуенце | Действие    | Нет        |          |          |          |           | [Идентификатор](identifier.md)     |     |             |
-| \_ицесекуенце | Условие | Да        |          |          |          |           | [Condition](condition.md)       |     |             |
-| \_ицесекуенце | Последовательность  | Да        |          |          |          |           | [Integer](integer.md)           |     |             |
+| \_ицесекуенце | Условие | Д        |          |          |          |           | [Condition](condition.md)       |     |             |
+| \_ицесекуенце | Последовательность  | Д        |          |          |          |           | [Integer](integer.md)           |     |             |
 
 
 

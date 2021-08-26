@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 26b65f983970c91d36e8d0a301277c67a2cc5639
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2dec66ed5ee930db9bff7917e942de44bdc9582ec130a987e83cbb9d633523cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921304"
 ---
 # <a name="cim_packageinchassis-class"></a>\_Класс CIM паккажеинчассис
 
@@ -53,7 +53,7 @@ class CIM_PackageInChassis : CIM_Container
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ паккажеинчассис** имеет следующие свойства.
 
@@ -106,7 +106,7 @@ class CIM_PackageInChassis : CIM_Container
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ паккажеинчассис** является производным от [**\_ контейнера CIM**](cim-container.md).
 
@@ -114,7 +114,7 @@ class CIM_PackageInChassis : CIM_Container
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ class CIM_PackageInChassis : CIM_Container
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

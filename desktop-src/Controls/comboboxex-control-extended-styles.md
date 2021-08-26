@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966d259cf427bcc83e9a8b2fb65670a2a05b9458
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: aed3ca32fa063b9b824a2ecd444a6a71c1885697f839b67e117c75622f009c60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921154"
 ---
 # <a name="comboboxex-control-extended-styles"></a>Расширенные стили элемента управления ComboBoxEx
 
@@ -36,8 +36,8 @@ ms.locfileid: "111387660"
 | <span id="CBES_EX_NOEDITIMAGE"></span><span id="cbes_ex_noeditimage"></span><dl> <dt>**КБЕС \_ ex \_ ноедитимаже**</dt> </dl>                   | Поле ввода и раскрывающийся список не будут отображать изображения элементов. <br/>                                                                                                                                                                                                                                                          |
 | <span id="CBES_EX_NOEDITIMAGEINDENT"></span><span id="cbes_ex_noeditimageindent"></span><dl> <dt>**КБЕС \_ ex \_ ноедитимажеиндент**</dt> </dl> | Поле ввода и раскрывающийся список не будут отображать изображения элементов. <br/>                                                                                                                                                                                                                                                          |
 | <span id="CBES_EX_NOSIZELIMIT"></span><span id="cbes_ex_nosizelimit"></span><dl> <dt>**КБЕС \_ ex \_ носизелимит**</dt> </dl>                   | Позволяет размер элемента управления ComboBoxEx меньше вертикального размера, чем содержащийся в нем элемент управления "поле со списком". Если размер ComboBoxEx меньше, чем поле со списком, поле со списком будет обрезано. <br/>                                                                                                                                  |
-| <span id="CBES_EX_PATHWORDBREAKPROC"></span><span id="cbes_ex_pathwordbreakproc"></span><dl> <dt>**КБЕС \_ ex \_ пасвордбреакпрок**</dt> </dl> | Только Windows NT. В поле ввода будут использоваться символы косой черты (/), обратной косой черты ( \\ ) и точки (.) в качестве разделителей слов. Это делает возможными сочетания клавиш для перемещения курсора по словам, действующие в именах путей и URL-адресах.<br/>                                                                                                       |
-| <span id="CBES_EX_TEXTENDELLIPSIS"></span><span id="cbes_ex_textendellipsis"></span><dl> <dt>**КБЕС \_ ex \_ текстенделлипсис**</dt> </dl>       | **Windows Vista и более поздние версии.** Приводит к тому, что элементы в раскрывающемся списке и поле ввода (если поле ввода доступно только для чтения) усекаются с многоточием ("..."), а не просто обрезаются по границе элемента управления. Это полезно, когда элементу управления необходимо присвоить фиксированную ширину, но записи в списке могут быть длинными.<br/> |
+| <span id="CBES_EX_PATHWORDBREAKPROC"></span><span id="cbes_ex_pathwordbreakproc"></span><dl> <dt>**КБЕС \_ ex \_ пасвордбреакпрок**</dt> </dl> | только Windows NT. В поле ввода будут использоваться символы косой черты (/), обратной косой черты ( \\ ) и точки (.) в качестве разделителей слов. Это делает возможными сочетания клавиш для перемещения курсора по словам, действующие в именах путей и URL-адресах.<br/>                                                                                                       |
+| <span id="CBES_EX_TEXTENDELLIPSIS"></span><span id="cbes_ex_textendellipsis"></span><dl> <dt>**КБЕС \_ ex \_ текстенделлипсис**</dt> </dl>       | **Windows Vista и более поздних версий.** Приводит к тому, что элементы в раскрывающемся списке и поле ввода (если поле ввода доступно только для чтения) усекаются с многоточием ("..."), а не просто обрезаются по границе элемента управления. Это полезно, когда элементу управления необходимо присвоить фиксированную ширину, но записи в списке могут быть длинными.<br/> |
 
 
 
@@ -50,7 +50,7 @@ ms.locfileid: "111387660"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

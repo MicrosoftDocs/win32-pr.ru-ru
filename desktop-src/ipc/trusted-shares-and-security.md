@@ -4,16 +4,16 @@ ms.assetid: a22d9fc6-a0c9-442f-b278-1271cfbc636b
 title: Доверенные общие ресурсы и безопасность
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 899be51745b2b27c22212c3ceeaceea016fa8d4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22bed3b520597f6cabe95929d2ee5bf9c29af6bb6c524d2aa136f4c86392cbb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014684"
 ---
 # <a name="trusted-shares-and-security"></a>Доверенные общие ресурсы и безопасность
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Сетевой DDE использует доверенные общие ресурсы и дескрипторы безопасности для управления доступом к общим ресурсам.
 

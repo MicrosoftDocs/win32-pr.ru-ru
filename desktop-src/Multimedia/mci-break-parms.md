@@ -3,7 +3,7 @@ title: Структура MCI_BREAK_PARMS (МЦиапи. h)
 description: '\_Структура пармс разрывов MCI \_ содержит код виртуального ключа и сведения о окне для команды MCI \_ break.'
 ms.assetid: c8df8c55-cc6b-4dd7-b275-784d3eb9dce1
 keywords:
-- MCI_BREAK_PARMS структура мультимедиа Windows
+- структура MCI_BREAK_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e66b52992827b447b6d4b5585ca3f98564142680
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efaff8841e0e8ef0387535aa8d42723cf9477887511b7111f02a6ee0cb2b527b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039514"
 ---
 # <a name="mci_break_parms-structure"></a>\_Структура MCI Break \_ пармс
 
@@ -63,7 +63,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы. Определены следующие флаги:
 
@@ -79,7 +79,7 @@ typedef struct {
 
 Отключает любой существующий ключ разрыва.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,7 +91,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 1d9a6a22-bb82-45e1-80d2-88627c90340c
 title: Свойство Авенкстатаудиопеакпкмвалуе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d75444631a63c946d4020fe91cdd3a980fc393
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 330f3eea62ce5f0232504786c63e87c233bd802f6d06fad6306f476f9d6b5361
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999844"
 ---
 # <a name="avencstataudiopeakpcmvalue-property"></a>Авенкстатаудиопеакпкмвалуе, свойство
 
@@ -25,7 +25,7 @@ ms.locfileid: "104139806"
 
 **КОДЕКАПИ \_ авенкстатаудиопеакпкмвалуе**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство доступно после завершения кодирования.
 
@@ -37,9 +37,9 @@ ms.locfileid: "104139806"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

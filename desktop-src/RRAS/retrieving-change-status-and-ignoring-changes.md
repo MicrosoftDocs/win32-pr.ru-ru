@@ -4,12 +4,12 @@ description: Клиент может запросить диспетчер та�
 ms.assetid: 778279ac-00c5-4de0-9ac7-eca1ac7fec6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a339cbf9ba4e97dfef25b2ebc2020ff94f8e20
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a117130ac939788a74aaa32092000e8f6f29aa6b34e697ca6066c9e13259b8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028064"
 ---
 # <a name="retrieving-change-status-and-ignoring-changes"></a>Получение состояния изменения и игнорирование изменений
 
@@ -19,9 +19,9 @@ ms.locfileid: "103774639"
 
 Клиент также может игнорировать ожидающее уведомление об изменении для назначения, вызвав [**ртмигноречанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmignorechangeddests). Последующий вызов [**ртмжетчанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) не возвращает это назначение, если после вызова [**ртмигноречанжеддестс**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmignorechangeddests)не происходит другое изменение.
 
- 
+ 
 
- 
+ 
 
 
 

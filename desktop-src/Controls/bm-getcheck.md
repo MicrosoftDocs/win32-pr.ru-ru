@@ -3,7 +3,7 @@ title: Сообщение BM_GETCHECK (Winuser. h)
 description: Возвращает состояние флажка для переключателя или флажка. Это сообщение можно отправить явным образом или с помощью макроса с кнопкой "выполнить \_ проверку".
 ms.assetid: a25b2c8d-0b32-4807-bfb4-e277675924f1
 keywords:
-- Элементы управления Windows для BM_GETCHECK сообщений
+- элементы управления Windows сообщений BM_GETCHECK
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1aa89dc256ea9e0036259239d1c74e1e82b272
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5eb87d98752bd0cd447d48c648bc4a55e93c3f8eb418a81a07e04113a86633a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921294"
 ---
 # <a name="bm_getcheck-message"></a>Сообщение BM о \_ проверке
 
@@ -59,7 +59,7 @@ ms.locfileid: "104137291"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если у кнопки есть стиль, отличный от перечисленных, возвращаемое значение равно нулю.
 
@@ -69,9 +69,9 @@ ms.locfileid: "104137291"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

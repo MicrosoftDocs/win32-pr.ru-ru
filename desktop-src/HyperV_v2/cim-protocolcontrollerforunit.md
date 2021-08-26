@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 26020745057d5963ed4a892ba8639ac078aaa20b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2722bca49dbac3996295c2937003877321d5c58eb8394b4405d9ce9afce65b48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981174"
 ---
 # <a name="cim_protocolcontrollerforunit-class"></a>\_Класс CIM протоколконтроллерфорунит
 
@@ -45,7 +45,7 @@ class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ протоколконтроллерфорунит** имеет следующие свойства.
 
@@ -140,7 +140,7 @@ class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -154,7 +154,7 @@ class CIM_ProtocolControllerForUnit : CIM_ProtocolControllerForDevice
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

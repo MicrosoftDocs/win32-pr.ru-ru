@@ -1,24 +1,24 @@
 ---
-title: Использование сети Windows
+title: использование Windows networking
 description: Функции Внет позволяют приложению запрашивать и управлять сетевыми подключениями напрямую, а также предоставлять прямое управление сетевыми подключениями пользователю.
 ms.assetid: 209f5eb4-b42d-4a09-845c-07201204d292
 keywords:
-- Внет сети Windows, использование
+- Windows сети внет, использование
 - Внет Внет, использование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 806ca0009cc4702aceaddf2a9670c9d490608889
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af41dc376324836d0d128eee8149ffd4eb572868e10db7796c30cbff196e44d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999624"
 ---
-# <a name="using-windows-networking"></a>Использование сети Windows
+# <a name="using-windows-networking"></a>использование Windows networking
 
 Функции Внет позволяют приложению запрашивать и управлять сетевыми подключениями напрямую, а также предоставлять прямое управление сетевыми подключениями пользователю.
 
-В следующих разделах описывается использование функций Внет в приложении в Windows NT, Windows 2000 и Windows XP.
+в следующих разделах описывается использование функций внет в приложении на Windows NT, Windows 2000 и Windows XP.
 
 -   [Использование диалогового окна «соединения»](using-the-connections-dialog-box.md)
 -   [Перечисление сетевых ресурсов](enumerating-network-resources.md)
@@ -31,9 +31,9 @@ ms.locfileid: "103888824"
 -   [Получение сведений о сетевом ресурсе](retrieving-information-about-a-network-resource.md)
 -   [Получение сетевых ошибок](retrieving-network-errors.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Структура MCI_RECORD_PARMS (МЦиапи. h)
 description: '\_ \_ Структура ПАРМС записи MCI содержит сведения о размещении для \_ команды MCI Record.'
 ms.assetid: 5d502cf8-3963-49d6-b515-d26e19195322
 keywords:
-- MCI_RECORD_PARMS структура мультимедиа Windows
+- структура MCI_RECORD_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b633ce192d0f4b2467cb744d614ea38056eafb60
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c531b5b186a6119a22cafc4e252424ace2e388b2545461b440cd7957694494b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039084"
 ---
 # <a name="mci_record_parms-structure"></a>\_ \_ Структура ПАРМС записи MCI
 
@@ -63,11 +63,11 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -79,7 +79,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

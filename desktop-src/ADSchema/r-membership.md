@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da2c4865abf6932ff2356aaf8b798d9d9bbe789
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f38e29369fa42875c2d15e4be3eff362b3b99762a7b08f2e1debb7d68ab32d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104494073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922224"
 ---
 # <a name="membership-property-set"></a>Набор свойств членства
 
@@ -50,7 +50,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|---------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/>     |
+| Applies-To              | [**Пользователь**](c-user.md)<br/>     |
 | Локализация — идентификатор экрана | 11                                    |
 | Элементы набора свойств    | [**Член**](a-member.md)<br/> |
 
@@ -62,7 +62,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|----------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Локализация — идентификатор экрана | 11                                                                                     |
 | Элементы набора свойств    | [**Входит в состав списка рассылки**](a-memberof.md)<br/> [**Член**](a-member.md)<br/> |
 
@@ -86,7 +86,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|----------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Локализация — идентификатор экрана | 11                                                                                     |
 | Элементы набора свойств    | [**Входит в состав списка рассылки**](a-memberof.md)<br/> [**Член**](a-member.md)<br/> |
 
@@ -98,7 +98,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|----------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Локализация — идентификатор экрана | 11                                                                                     |
 | Элементы набора свойств    | [**Входит в состав списка рассылки**](a-memberof.md)<br/> [**Член**](a-member.md)<br/> |
 
@@ -110,7 +110,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|----------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Локализация — идентификатор экрана | 11                                                                                     |
 | Элементы набора свойств    | [**Входит в состав списка рассылки**](a-memberof.md)<br/> [**Член**](a-member.md)<br/> |
 
@@ -122,7 +122,7 @@ ms.locfileid: "104494073"
 
 | Ввод | Значение |
 |-------------------------|----------------------------------------------------------------------------------------|
-| Applies-To              | [**Нажат**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
+| Applies-To              | [**Пользователь**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>  |
 | Локализация — идентификатор экрана | 11                                                                                     |
 | Элементы набора свойств    | [**Входит в состав списка рассылки**](a-memberof.md)<br/> [**Член**](a-member.md)<br/> |
 

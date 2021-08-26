@@ -4,12 +4,12 @@ description: В этом разделе содержатся справочны�
 ms.assetid: 2ffb5772-14ba-4bb4-b966-5aec080c1a64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3384f1fe3175ba7550fba14aab35bfa0e0d2a43f
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 9f772f7d0ad7049513d134d55f4cac6559c249e1d39a77133c3aac94e6daa59b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104336046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998804"
 ---
 # <a name="cc-reference"></a>Справочник по C/C++
 
@@ -20,9 +20,9 @@ ms.locfileid: "104336046"
 -   [Active Accessibility служб пользовательского интерфейса](active-accessibility-user-interface-services-ref.md)
 -   [Active Accessibility текстовые службы](active-accessibility-text-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

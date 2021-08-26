@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1c74603f9eab4ea91e9220bbaa172c0262aeda99
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 411a3a742fca508839651d56912fa00b2a6d8b82908b159694a3b1eff88f2318
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982824"
 ---
 # <a name="vertex-shader-differences"></a>Различия шейдеров вершин
 
@@ -24,7 +24,7 @@ ms.locfileid: "104070135"
 
 
 
-| Version  | Максимальное число слотов инструкций                                                                                               |
+| Версия  | Максимальное число слотов инструкций                                                                                               |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------|
 | VS \_ 1 \_ 1 | 128                                                                                                                               |
 | VS \_ 2 \_ 0 | 256                                                                                                                               |
@@ -33,13 +33,13 @@ ms.locfileid: "104070135"
 
 
 
- 
+ 
 
 Сведения об ограничениях шейдеров программного обеспечения см. в разделе [программные шейдеры](dx9-graphics-reference-asm-software-shaders.md).
 
-## <a name="flow-control-nesting-limits"></a>Ограничения вложенности управления потоком
+## <a name="flow-control-nesting-limits"></a>Flow Управление ограничениями вложенности
 
--   См. раздел [ограничения вложений управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
+-   см. раздел [ограничения вложенности элемента управления Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
 
 ## <a name="vs_1_1-features"></a>\_функции VS 1 \_ 1
 
@@ -104,13 +104,13 @@ ms.locfileid: "104070135"
 
 -   [Образцы (Direct3D 9 ASM-VS)](dx9-graphics-reference-asm-vs-registers-sampler.md) \#
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Шейдеры вершин](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

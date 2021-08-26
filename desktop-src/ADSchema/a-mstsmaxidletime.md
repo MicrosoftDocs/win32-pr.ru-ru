@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c48c0643a96cfd6cb23b684916580b53a6321ccf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f1712c3ded333ef23dc8b79429404907a0c2c7b1b24459ee6eb1be5f9ea20747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104138850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066087"
 ---
 # <a name="ms-ts-max-idle-time-attribute"></a>атрибут MS-TS-Max-Idle время простоя
 
@@ -55,7 +55,7 @@ ms.locfileid: "104138850"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
@@ -63,7 +63,7 @@ ms.locfileid: "104138850"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "104138850"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |
@@ -84,7 +84,7 @@ ms.locfileid: "104138850"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| Классы, используемые в        | [**Нажат**](c-user.md)<br/> |
+| Классы, используемые в        | [**Пользователь**](c-user.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "104138850"
 | Идентификатор ссылки                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | Неверно                             |
-| Является однозначным       | True                              |
+| Является однозначным       | Верно                              |
 | Индексируется             | Неверно                             |
 | В глобальном каталоге      | Неверно                             |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                      |

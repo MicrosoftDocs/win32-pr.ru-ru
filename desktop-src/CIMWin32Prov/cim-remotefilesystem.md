@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7c29e0212ba55b37abd734fb149d118ccc693908
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d21d46de5f3a9a8d85ff94e5996dc3d19481a03f003d7030384ca2f82f0e019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104141075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920514"
 ---
 # <a name="cim_remotefilesystem-class"></a>\_Класс CIM ремотефилесистем
 
@@ -85,7 +85,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ ремотефилесистем** имеет следующие свойства.
 
@@ -131,7 +131,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -236,7 +236,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**Расширенный код UNIX** (6)
+**расширенный код UNIX** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -416,7 +416,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -576,7 +576,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ ремотефилесистем** является производным от [**\_ файловой системы CIM**](cim-filesystem.md).
 
@@ -584,7 +584,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -598,7 +598,7 @@ class CIM_RemoteFileSystem : CIM_FileSystem
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: eb80414134534d09a4030e2e87003a660e69fd9f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c5eaf7e53fc7972795d0502c156e753bae60c777987e7304ef27a3a3fde54e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920944"
 ---
 # <a name="cim_realizesaggregatepextent-class"></a>\_Класс CIM реализесаггрегатепекстент
 
@@ -51,7 +51,7 @@ class CIM_RealizesAggregatePExtent : CIM_Realizes
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ реализесаггрегатепекстент** имеет следующие свойства.
 
@@ -89,7 +89,7 @@ class CIM_RealizesAggregatePExtent : CIM_Realizes
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ реализесаггрегатепекстент** является производным от [**CIM \_**](cim-realizes.md).
 
@@ -97,7 +97,7 @@ class CIM_RealizesAggregatePExtent : CIM_Realizes
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ class CIM_RealizesAggregatePExtent : CIM_Realizes
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

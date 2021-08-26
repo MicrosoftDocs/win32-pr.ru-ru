@@ -1,24 +1,24 @@
 ---
-description: Объекты служб редактирования DirectShow
+description: DirectShow Изменение объектов служб
 ms.assetid: 0b78c928-eee7-46ab-b01b-30c9c62ceeb2
-title: Объекты служб редактирования DirectShow
+title: DirectShow Изменение объектов служб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1dd4ff12af8925dbcf7a46c251584e595621fcb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: adcdd082efac7c66ec3b6e8f6aaa8d8f6bc3ea30cf21d6a6be83e979feebb923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966554"
 ---
-# <a name="directshow-editing-services-objects"></a>Объекты служб редактирования DirectShow
+# <a name="directshow-editing-services-objects"></a>DirectShow Изменение объектов служб
 
 > [!Note]  
 > \[Не рекомендуется. Этот API может быть удален из будущих выпусков Windows.\]
 
  
 
-Службы редактирования DirectShow (DES) включают следующие компоненты COM.
+DirectShow Службы редактирования (DES) включают следующие компоненты COM.
 
 ### <a name="timeline-objects"></a>Объекты временной шкалы
 
@@ -39,7 +39,7 @@ ms.locfileid: "104139263"
 -   [Модуль интеллектуального просмотра](smart-render-engine.md)
 -   [Синтаксический анализатор XML](xml-parser.md)
 
-### <a name="filters"></a>фильтры;
+### <a name="filters"></a>Фильтры
 
 -   [**Образец фильтра захвата**](sample-grabber-filter.md)
 -   [**Фильтр визуализации null**](null-renderer-filter.md)
@@ -53,11 +53,11 @@ ms.locfileid: "104139263"
 -   [Источник цвета видео](video-color-source.md)
 -   [Конверт тома](volume-envelope-effect.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Справочник по службам редактирования DirectShow в C++](directshow-editing-services-c---reference.md)
+[DirectShow Справочник по службам редактирования в C++](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

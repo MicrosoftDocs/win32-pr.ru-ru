@@ -4,12 +4,12 @@ ms.assetid: 0640ba96-22a5-4b82-bd9f-117b67dee311
 title: EC_DEVICE_LOST (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81fa3f6368e85f8dc54ca6fd8cc2e0eee21262a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4868890967d6448226c1f000ab06b7ccbcf7a06e3062d1cdef03e0ad960bc7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998164"
 ---
 # <a name="ec_device_lost"></a>\_устройство EC \_ потеряно
 
@@ -47,7 +47,7 @@ ms.locfileid: "105679627"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

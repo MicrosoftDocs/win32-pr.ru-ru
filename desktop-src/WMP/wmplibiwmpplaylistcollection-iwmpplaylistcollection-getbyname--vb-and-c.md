@@ -3,9 +3,9 @@ title: Ивмпплайлистколлектион Жетбинаме, мето
 description: Метод Жетбинаме возвращает интерфейс Ивмпплайлистаррай, который предоставляет доступ к спискам воспроизведения с указанным именем, если таковые имеются.
 ms.assetid: d41afab1-4103-4f59-a432-21a502499444
 keywords:
-- Жетбинаме метод Windows Media Player
-- Жетбинаме метод проигрывателя Windows Media Player, интерфейс Ивмпплайлистколлектион
-- Интерфейс Ивмпплайлистколлектион Windows Media Player, метод Жетбинаме
+- проигрыватель Windows Media метода жетбинаме
+- проигрыватель Windows Media метода жетбинаме, интерфейс ивмпплайлистколлектион
+- проигрыватель Windows Media интерфейса ивмпплайлистколлектион, метод жетбинаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e51f83b4db019286c04762a081e649fec282135e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fcee45af3ef55d53a05bab290fa92d3e6842fbb097358235b6720cbb1b54e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999744"
 ---
 # <a name="iwmpplaylistcollectiongetbyname-method"></a>Метод Ивмпплайлистколлектион:: Жетбинаме
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylistCollection.getByName
 
 Интерфейс **вмплиб. ивмпплайлистаррай** для извлеченного массива списков воспроизведения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте **ивмпплайлистаррай. Count** , чтобы определить, существует ли список воспроизведения. Если значение **Count** равно нулю, массив пуст.
 
@@ -118,7 +118,7 @@ End If
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                                                     |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии.<br/>                                                                     |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

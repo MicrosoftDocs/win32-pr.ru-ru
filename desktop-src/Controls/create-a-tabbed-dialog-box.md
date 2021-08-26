@@ -4,12 +4,12 @@ description: В примере в этом разделе показано, ка
 ms.assetid: DBF7FBDF-AADC-45CE-833E-F893C1129FC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0b84a8a77d18903ddbdb29687cc2b97b88872b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8fa2ad8ba22c2972c6bdd502728af413d4800dabf0ab5c9196a4033a52267115
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103891140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920714"
 ---
 # <a name="how-to-create-a-tabbed-dialog-box"></a>Создание диалогового окна с вкладками
 
@@ -18,20 +18,20 @@ ms.locfileid: "103891140"
 > [!Note]  
 > Во многих случаях можно легко реализовать несколько диалоговых окон с помощью страниц свойств. Дополнительные сведения о страницах свойств см. в разделе [сведения о страницах свойств](property-sheets.md).
 
- 
+ 
 
 Шаблон для главного диалогового окна просто определяет два элемента управления "Кнопка". При обработке сообщения [**WM \_ инитдиалог**](/windows/desktop/dlgbox/wm-initdialog) процедура диалогового окна создает элемент управления «вкладка» и загружает ресурсы шаблона диалогового окна для каждого из дочерних диалоговых окон.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -251,16 +251,16 @@ VOID WINAPI OnChildDialogInit(HWND hwndDlg)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления "Вкладка"](using-tab-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
