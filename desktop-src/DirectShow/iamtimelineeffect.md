@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Иамтимелиниффект предоставляет методы для управления звуковыми и видеоэффектами в службах редактирования DirectShow (DES).
+description: интерфейс иамтимелиниффект предоставляет методы для управления звуковыми и видеоэффектами в службах DirectShow editing Services (DES).
 ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
 title: Интерфейс Иамтимелиниффект (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8b9936616b9c4487849053d36c6a63290bd16b5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f710693c967e1f0ac73c69534e8ac90a65d6603e749cd2aeae6a355ed8517415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052764"
 ---
 # <a name="iamtimelineeffect-interface"></a>Интерфейс Иамтимелиниффект
 
@@ -28,11 +28,11 @@ ms.locfileid: "105680072"
 
  
 
-`IAMTimelineEffect`Интерфейс предоставляет методы для управления звуковыми и видеоэффектами в [службах редактирования DirectShow](directshow-editing-services.md) (DES). К любому объекту временной шкалы, предоставляющему интерфейс [**иамтимелиниффектабле**](iamtimelineeffectable.md) , можно добавить эффекты. Чтобы задать свойства для влияния, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
+`IAMTimelineEffect`интерфейс предоставляет методы для управления звуковыми и видеоэффектами в [службах DirectShow editing Services](directshow-editing-services.md) (DES). К любому объекту временной шкалы, предоставляющему интерфейс [**иамтимелиниффектабле**](iamtimelineeffectable.md) , можно добавить эффекты. Чтобы задать свойства для влияния, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
 
 Объект влияния DES на самом деле является оболочкой для одного из двух других объектов:
 
--   Для звуковых эффектов — любой фильтр звукового эффекта DirectShow.
+-   для звуковых эффектов любой DirectShow фильтр звукового эффекта.
 -   Для видеоэффектов и 1-входного объекта преобразования DirectX.
 
 Корпорация Майкрософт больше не поддерживает разработку объектов преобразования DirectX сторонних производителей.
@@ -61,7 +61,7 @@ ms.locfileid: "105680072"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -69,22 +69,22 @@ ms.locfileid: "105680072"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

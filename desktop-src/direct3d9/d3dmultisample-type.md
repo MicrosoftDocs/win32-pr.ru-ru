@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: da8f9c1c8bb3aa74c0ab22a5cc701e7d835898de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e6173abf04f42b0632441b436706318796a5d0af758928e61dd3f19d30bda881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027974"
 ---
 # <a name="d3dmultisample_type-enumeration"></a>\_Перечисление типов D3DMULTISAMPLE
 
@@ -182,7 +182,7 @@ typedef enum D3DMULTISAMPLE_TYPE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Помимо включения многовыборочной множественной выборки в [**IDirect3DDevice9:: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset) , будут отображаться состояния отрисовки, которые включают и отключают различные аспекты на детализированном уровне.
 
@@ -215,17 +215,17 @@ D3DMULTISAMPLE \_ None включает эффекты переключения,
 
 \_Описание многовыборочной множественной выборки см. в разделе D3DRS мултисамплемаск.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3D9Types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

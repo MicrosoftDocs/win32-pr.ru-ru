@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bccbb6072ae84a238b60247daf6b81cfaa74e608
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 264c2b3810fc60e10e12e00328255398704d31199d5205513e4dbcdf0558aac0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003274"
 ---
 # <a name="invoke-method-of-the-cim_versioncompatibilitycheck-class"></a>Метод Invoke \_ класса CIM версионкомпатибилитичекк
 
@@ -49,7 +49,7 @@ uint32 Invoke();
 
 Возвращает значение 0 (нуль) при успешном выполнении и любое другое число для указания ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

@@ -3,7 +3,7 @@ title: Сообщение ACM_OPEN (Коммктрл. h)
 description: Открывает ролик AVI и отображает его первый кадр в элементе управления анимации. Это сообщение можно отправить явным образом или воспользоваться \_ макросом анимации Open или анимировать \_ опенекс. Мы рекомендуем использовать версию этого сообщения в Юникоде, ACM \_ опенв.
 ms.assetid: 87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4
 keywords:
-- Элементы управления Windows для ACM_OPEN сообщений
+- элементы управления Windows сообщений ACM_OPEN
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0588c0e321efe5cace63baf4016dbaa97f735252
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c5af2bd996af159217c92d78102a97e5c530d34cf445d5ad34186cecb93ab85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922174"
 ---
 # <a name="acm_open-message"></a>ACM \_ открытое сообщение
 
@@ -49,7 +49,7 @@ ms.locfileid: "104415005"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Файл AVI или ресурс, указанный параметром *лпсзнаме* , не должен содержать звук.
 
@@ -59,15 +59,15 @@ ms.locfileid: "104415005"
 
 Для закрытия файла AVI или ресурса AVI, который был ранее открыт для указанного элемента управления анимацией, можно использовать параметр [**анимировать \_ Close**](/windows/desktop/api/Commctrl/nf-commctrl-animate_close) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ACM \_ ОПЕНВ** (Юникод) и **ACM \_ Open** a (ANSI)<br/>                         |
 
 

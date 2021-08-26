@@ -39,7 +39,7 @@ propVal = DeviceInfo.UIClsid
 
 Строка для получения идентификатора класса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

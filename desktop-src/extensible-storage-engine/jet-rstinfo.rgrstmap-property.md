@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a5ed9a44b4f38fc5b468db20a8f7657d625ef13a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39b49cd465fe76a4bbd9a2da23fcf9a885f41c9cb5672169d359bd6099b204ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967593"
 ---
 # <a name="jet_rstinforgrstmap-property"></a>Свойство JET_RSTINFO. ргрстмап
 

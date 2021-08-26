@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Mesh.h
-ms.openlocfilehash: 6640834cf81bfa5e4b6263d3b3cfbb1181bb16c9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d4b98550a2f3a896ed7b99f3e16f33a399a58035497e44420709ee8a0726901b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989474"
 ---
 # <a name="d3dx10_mesh_discard_flags-enumeration"></a>\_ \_ \_ Перечисление флагов удаления сетки D3DX10
 
@@ -78,17 +78,17 @@ typedef enum D3DX10_MESH_DISCARD_FLAGS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Mesh. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Mesh. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

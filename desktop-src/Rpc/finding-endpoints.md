@@ -4,12 +4,12 @@ description: Серверные программы прослушивают ко
 ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0a97df3408a4d3c24dff9de28553f9e4b2210d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 024a85704287db7e5f78bb67eee9b64a7c6dc84ce5724623450d36f743e5fa9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021284"
 ---
 # <a name="finding-endpoints"></a>Поиск конечных точек
 
@@ -26,7 +26,7 @@ ms.locfileid: "104337785"
 > [!Note]  
 > Термины *статические конечные точки* и *хорошо известные конечные точки* эквивалентны и взаимозаменяемы.
 
- 
+ 
 
 Клиентское приложение может использовать карту конечных точек для определения того, запущена ли в данный момент серверная программа. Клиент может вызвать [**рпкмгмтинкифидс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqifids), [**рпкмгмтепелтинкбегин**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin)и [**рпкмгмтепелтинкдоне**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone) , чтобы узнать, зарегистрировал ли сервер конкретный интерфейс, требуемый на карте конечных точек.
 
@@ -61,6 +61,6 @@ ms.locfileid: "104337785"
 
 Такой подход позволяет использовать путь перехода для приложений, которые начали работать с хорошо известной конечной точкой, но выполнять миграцию на динамическую конечную точку без необходимости одновременного обновления всех серверов и клиентов.
 
- 
+ 
 
- 
+ 

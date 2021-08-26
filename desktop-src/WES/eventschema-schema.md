@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bfb26f6c71d544e0c0a6a4d833b40a5d15ae5485
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c08e22ad44cb1eec461ebe70361a8ee4640a7fdf5a7eb7040b2774a520be7a05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904364"
 ---
 # <a name="event-schema"></a>Схема событий
 
@@ -26,11 +26,11 @@ ms.locfileid: "103909596"
 
 Раздел Elements содержит имена элементов, которые можно найти в зарегистрированных событиях. Однако, чтобы получить подробные сведения для каждого элемента, см. сложный тип, содержащий элемент.
 
-Windows SDK включает схему в \\ \\ файл include события. xsd.
+Windows SDK включает схему в \\ \\ файл Include события. xsd.
 
 Эту схему можно использовать для обнаружения элементов и атрибутов при вызове функции [**евтрендер**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) для отображения конкретных разделов или свойств события. Пример, демонстрирующий использование этой схемы при подготовке событий к просмотру, см. в разделе [Rendering Events](rendering-events.md).
 
-В дополнение к схеме событий журнал событий Windows также определяет следующие схемы:
+в дополнение к схеме событий Windows журнал событий также определяет следующие схемы:
 
 -   [Евентманифест Schema](eventmanifestschema-schema.md)— определяет элементы и типы, используемые для записи манифеста инструментирования.
 -   [Схема запроса](queryschema-schema.md)— определяет элементы и типы, используемые для записи запроса на получение событий из одного или нескольких каналов.

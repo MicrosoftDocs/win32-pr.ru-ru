@@ -4,12 +4,12 @@ ms.assetid: a727c47c-b925-436c-b1e8-d5f407120dc9
 title: Элемент param (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a10f902e85066f6cea14023e8cff9250126add0
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 35c58543c5daae7ad0a77f6380bc3f3db48cf8443461eaf919c4c727163436cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050824"
 ---
 # <a name="param-element"></a>Param, элемент
 
@@ -37,7 +37,7 @@ ms.locfileid: "107909042"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **value** задает значение свойства в начале перехода или воздействия. Для указания изменяющихся значений используйте элемент **at** или **линейный** . Если элемент **param** **не содержит ни одного** или **линейного** элемента, значение остается постоянным в течение действия или перехода.
 

@@ -4,12 +4,12 @@ ms.assetid: bd71f542-36d9-4dfc-b402-35ee8e574731
 title: Свойство MFPKEY_COLOR_SATURATION (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 496b1f017ceff6ab4bd01ce01ccfd5da0759befc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b357521327bc913a0ace6b630cb9f2a27b553c3dfc8303e1a6bd9af218c5b743
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104544938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954404"
 ---
 # <a name="mfpkey_color_saturation-property"></a>\_ \_ Свойство насыщенности цвета мфпкэй
 
@@ -27,11 +27,11 @@ VT \_ I4
 
 0
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Преобразование элемента управления цветом DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Корректировка насыщенности выполняется путем умножения значений CB и CR на константу.
 
@@ -43,9 +43,9 @@ VT \_ I4
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

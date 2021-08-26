@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5e8eedb9c66211deda92ef6a84e8c1dd2073362
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 70fc727265ce4af1db2be808ae7eee3f59246874659a815c66292bcab3d7ecfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104567303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035413"
 ---
 # <a name="glviewport-function"></a>Функция Глвиевпорт
 
@@ -88,7 +88,7 @@ void WINAPI glViewport(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глвиевпорт** указывает аффинное преобразование *x* и *y* из нормализованных координат устройства в координаты окна. Let (*x*<sub>ND</sub> , *y*<sub>ND</sub> ) должны быть нормализованными координатами устройства. Затем вычисляются координаты окна (*x*<sub>w</sub> , *y*<sub>w</sub> ) следующим образом:
 
@@ -102,7 +102,7 @@ void WINAPI glViewport(
 
 **глжет** с аргументом " \_ Максимальное \_ окно просмотра" \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -116,7 +116,7 @@ void WINAPI glViewport(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

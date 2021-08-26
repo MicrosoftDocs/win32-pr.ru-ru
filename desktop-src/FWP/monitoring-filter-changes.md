@@ -4,12 +4,12 @@ description: В следующем примере кода показано, к�
 ms.assetid: 7ca527e1-217a-4e97-86e9-23b484ffc25d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1d3793aa191f4723e99be69156ba88485500087
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2187b75f2eb864a893e7878f594b1462c7c1e87234da605cd8299f151912653
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075404"
 ---
 # <a name="monitoring-filter-changes"></a>Мониторинг изменений фильтра
 
@@ -18,7 +18,7 @@ ms.locfileid: "104532279"
 > [!Note]  
 > Условия фильтра совпадают с условиями, поддерживаемыми API нижнего уровня **испорталловед** .
 
- 
+ 
 
 
 ```C++
@@ -198,9 +198,9 @@ CLEANUP:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

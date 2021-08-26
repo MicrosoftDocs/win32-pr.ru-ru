@@ -4,12 +4,12 @@ ms.assetid: a040a5cc-17eb-4a43-aeee-3e7ebbeac034
 title: System.Docумент. ластаусор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3979f1426b09263dd1d3724b98d8118ad932356f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 07055ce212fba108624cbd93cac5ff8adc1021084144f8cf4603ac0d70cb0858
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010584"
 ---
 # <a name="systemdocumentlastauthor"></a>System.Docумент. ластаусор
 
@@ -33,7 +33,7 @@ propertyDescription
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>Связанные разделы
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

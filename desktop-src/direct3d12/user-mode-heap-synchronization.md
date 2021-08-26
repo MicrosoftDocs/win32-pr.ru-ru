@@ -1,18 +1,18 @@
 ---
-title: Синхронизация с несколькими модулями
+title: Синхронизация с несколькими движками
 description: В этом разделе обсуждается синхронизация доступа к нескольким независимым механизмам, найденным в большинстве современных графических процессоров.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: d60704e411a1ba45dd4902ad9101a416391743dd
-ms.sourcegitcommit: 622d149edf775af5a9633c2d12ccfddf7000b8fd
+ms.openlocfilehash: 2d250133d8cacb26d933d3774f397de4c949c72b7b58114759791c103d374c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "104548921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987563"
 ---
-# <a name="multi-engine-synchronization"></a>Синхронизация с несколькими модулями
+# <a name="multi-engine-synchronization"></a>Синхронизация с несколькими движками
 
 Большинство современных графических процессоров содержат несколько независимых ядер, предоставляющих специализированные функциональные возможности. Многие имеют один или несколько выделенных ядер и ядро вычислений, которое обычно отличается от модуля 3D. Каждый из этих ядер может выполнять команды параллельно друг с другом. Direct3D 12 обеспечивает детальный доступ к модулям 3D, COMPUTE и Copy, используя очереди и списки команд.
 
@@ -153,32 +153,32 @@ API-интерфейс с несколькими модулями предост
 
 Списки команд копирования и вычислений могут использовать следующие методы.
 
--   [**Закрыть**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
--   [**копибуфферрегион**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion)
--   [**копиресаурце**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource)
--   [**копитекстуререгион**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion)
--   [**копитилес**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles)
+-   [**Выхода**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
+-   [**CopyBufferRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion)
+-   [**CopyResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource)
+-   [**CopyTextureRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion)
+-   [**CopyTiles**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles)
 -   [**Перезапуск**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
--   [**ресаурцебарриер**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
+-   [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
 
 Списки команд вычислений также могут использовать следующие методы.
 
--   [**клеарстате**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate)
--   [**клеарунордередакцессвиевфлоат**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat)
--   [**клеарунордередакцессвиевуинт**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint)
--   [**дискардресаурце**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource)
+-   [**ClearState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearstate)
+-   [**ClearUnorderedAccessViewFloat**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewfloat)
+-   [**ClearUnorderedAccessViewUint**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-clearunorderedaccessviewuint)
+-   [**DiscardResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-discardresource)
 -   [**Dispatch**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-dispatch)
--   [**ексекутеиндирект**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect)
+-   [**ExecuteIndirect**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect)
 -   [**SetComputeRoot32BitConstant**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstant)
 -   [**SetComputeRoot32BitConstants**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputeroot32bitconstants)
--   [**сеткомпутерутконстантбуффервиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootconstantbufferview)
--   [**сеткомпутерутдескриптортабле**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable)
--   [**сеткомпутерутшадерресаурцевиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootshaderresourceview)
--   [**сеткомпутерутсигнатуре**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature)
--   [**сеткомпутерутунордередакцессвиев**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootunorderedaccessview)
--   [**сетдескрипторхеапс**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)
--   [**сетпипелинестате**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)
--   [**сетпредикатион**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)
+-   [**SetComputeRootConstantBufferView**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootconstantbufferview)
+-   [**SetComputeRootDescriptorTable**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootdescriptortable)
+-   [**SetComputeRootShaderResourceView**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootshaderresourceview)
+-   [**SetComputeRootSignature**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootsignature)
+-   [**SetComputeRootUnorderedAccessView**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setcomputerootunorderedaccessview)
+-   [**SetDescriptorHeaps**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setdescriptorheaps)
+-   [**SetPipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate)
+-   [**SetPredication**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpredication)
 
 Списки команд COMPUTE должны задавать PSO вычислений при вызове [**сетпипелинестате**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-setpipelinestate).
 
@@ -335,14 +335,14 @@ void AsyncPipelinedComputeGraphics()
     -   Очередь "тип" — это один из следующих трех типов: COMPUTE, 3D и Copy.
     -   Очередь "тип класса" — это один из следующих двух: COMPUTE/3D и Copy.
 
--   Флаги копирования (копирование \_ \_ источника и источник копирования), используемые в качестве начальных состояний, представляют состояния в классе объемного или типа вычислений. Чтобы использовать ресурс изначально в очереди копирования, он должен начаться в общем состоянии. Общее состояние можно использовать для всех использований в очереди копирования с помощью переходов неявного состояния. 
+-   Флаги копирования (копирование \_ \_ источника и источник копирования), используемые в качестве начальных состояний, представляют состояния в классе объемного или типа вычислений. Чтобы использовать ресурс изначально в очереди копирования, он должен начаться в общем состоянии. Общее состояние можно использовать для всех использований в очереди копирования с помощью переходов неявного состояния. 
 -   Несмотря на то, что состояние ресурса является общим для всех вычислений и трехмерных очередей, запись в ресурс не разрешается одновременно в разных очередях. "Одновременно" в этом случае означает Несинхронизированное выполнение, что говорит о несинхронизированном выполнении на определенном оборудовании. Применяются следующие правила.
 
     -   Только одна очередь может записывать в ресурс за раз.
     -   Несколько очередей могут считывать из ресурса, если они не считывают байты, изменяемые модулем записи (считывание одновременно записанных байтов приводит к неопределенному результату).
     -   Ограждение необходимо использовать для синхронизации после записи, прежде чем другая очередь сможет считывать записанные байты или предоставлять доступ на запись.
 
--   Представляемые задние буферы должны находиться в \_ общем состоянии "состояние ресурса Direct3D 12" \_ \_ . 
+-   Представляемые задние буферы должны находиться в \_ общем состоянии "состояние ресурса Direct3D 12" \_ \_ . 
 
 ## <a name="related-topics"></a>Связанные темы
 
@@ -350,4 +350,4 @@ void AsyncPipelinedComputeGraphics()
 
 [Использование барьеров ресурсов для синхронизации состояний ресурсов в Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)
 
-[Управление памятью в Direct3D 12](memory-management.md)
+[Управление памятью в Direct3D 12](memory-management.md)

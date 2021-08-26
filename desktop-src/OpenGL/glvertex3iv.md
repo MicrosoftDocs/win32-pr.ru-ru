@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bb0a5db3ebf30722573c9f7d0143b92046c8cb6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a8000665edfd28c3ad7e50b99e0a19d7c61855747d830706c7e38aeaa6d0c1fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035854"
 ---
 # <a name="glvertex3iv-function"></a>Функция glVertex3iv
 
@@ -51,7 +51,7 @@ void WINAPI glVertex3iv(
 
 Эта функция не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ void WINAPI glVertex3iv(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

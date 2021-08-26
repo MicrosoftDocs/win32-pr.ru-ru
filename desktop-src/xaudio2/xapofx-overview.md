@@ -4,12 +4,12 @@ ms.assetid: 762062de-4e19-5e42-8059-e2f8741bd362
 title: Обзор КСАПОФКС
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb8979b5de50406d46bc472e18ca4a6479679e22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ae339a022ae5e2e880dcd130dbe055d0fde9cd28a95ea52c1238e2ade080ea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005724"
 ---
 # <a name="xapofx-overview"></a>Обзор КСАПОФКС
 
@@ -46,7 +46,7 @@ ms.locfileid: "104542522"
 
 В дополнение к библиотеке Ксапос, предоставляемой КСАПОФКС, XAudio2 имеет встроенные звуковые эффекты переглагола и отслеживания громкости. Эти встроенные эффекты можно создавать с помощью [**XAudio2CreateReverb**](/windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createreverb) и [**XAudio2CreateVolumeMeter**](/windows/desktop/api/xaudio2fx/nf-xaudio2fx-xaudio2createvolumemeter). См. раздел [инструкции. Создание цепочки эффектов](how-to--create-an-effect-chain.md) для примера использования одного из этих встроенных эффектов.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

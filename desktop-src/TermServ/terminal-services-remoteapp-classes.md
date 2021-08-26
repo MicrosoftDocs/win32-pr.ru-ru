@@ -5,12 +5,12 @@ ms.assetid: 1af50573-04dd-4077-9fc1-2f605427b201
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f40ef6a9da4a4097d8706b7acceccfc4b36c9aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ecd4e215dafe4c69c7031773af9e51da59a5df66a9e881cc4e38a321876569c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987184"
 ---
 # <a name="remoteapp-classes"></a>Классы RemoteApp
 
@@ -37,7 +37,7 @@ ms.locfileid: "104532339"
 [**\_Ремотеаппчанжеевент Win32**](win32-remoteappchangeevent.md)
 </dt> <dd>
 
-Представляет изменение параметров удаленного рабочего стола Windows Server 2008 R2 на сервере узла сеансов удаленный рабочий стол (узел сеансов удаленных рабочих столов).
+представляет изменение параметров Windows server 2008 R2 RemoteApp на сервере узла сеансов удаленный рабочий стол (узел сеанса удаленных рабочих столов).
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ ms.locfileid: "104532339"
 [**\_Тспублишедаппликатион Win32**](win32-tspublishedapplication.md)
 </dt> <dd>
 
-Определяет приложения, которые становятся доступными для удаленного использования через Windows Server 2008 R2 RemoteApp.
+определяет приложения, которые доступны для удаленного использования с помощью Windows Server 2008 R2 RemoteApp.
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ ms.locfileid: "104532339"
 [**\_Тсстартменуаппликатион Win32**](win32-tsstartmenuapplication.md)
 </dt> <dd>
 
-Описание приложений, которые находятся в меню Пуск сервера узла сеансов удаленных рабочих столов.
+описание приложений, которые находятся в меню сервера узла сеансов удаленных рабочих столов.
 
 </dd> <dt>
 
@@ -111,9 +111,9 @@ ms.locfileid: "104532339"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Испреадшитпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be34174745ccf91435db92665b98eb387f7241a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d7991937f1530e28ed85227fbe19be13b628f9722d5609367e2f483c86a2bb70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098284"
 ---
 # <a name="spreadsheet-control-pattern"></a>Шаблон элемента управления электронной таблицей
 
@@ -47,11 +47,11 @@ ms.locfileid: "104338329"
 
 
 
- 
+ 
 
 Этот шаблон элемента управления не имеет связанных событий.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -64,6 +64,6 @@ ms.locfileid: "104338329"
 [Общие сведения о дереве модели автоматизации пользовательского интерфейса](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

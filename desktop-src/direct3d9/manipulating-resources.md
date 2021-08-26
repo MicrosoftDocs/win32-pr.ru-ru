@@ -4,12 +4,12 @@ ms.assetid: 4f0eea7d-b1e4-4d53-a136-f40df7a0fbb1
 title: Управление ресурсами (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 886dfee3af024d103dab8666687f1b053a5fb46a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3a0a9cf2ee85b2f8e86077eb525acffb914e60cba84082c9d610e10da9f5fa02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069054"
 ---
 # <a name="manipulating-resources-direct3d-9"></a>Управление ресурсами (Direct3D 9)
 
@@ -41,7 +41,7 @@ ms.locfileid: "104416368"
 
 Дополнительные сведения о представлении окончательного образа см. в разделе [представление сцены (Direct3D 9)](presenting-a-scene.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

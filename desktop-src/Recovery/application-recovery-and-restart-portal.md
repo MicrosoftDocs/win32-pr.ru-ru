@@ -12,12 +12,12 @@ keywords:
 - перезапуск приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 862236fad876307b0662a8444775c78673b92983
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d31d6c8ef342b9e1781297d547358317a90d515002e6ef3e529b8d7a0c50aa09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024604"
 ---
 # <a name="application-recovery-and-restart"></a>Восстановление приложений и перезагрузка
 
@@ -33,7 +33,7 @@ ARR предназначен для разработчиков на C и C++.
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
-Параметр ARR доступен, начиная с операционной системы Windows Vista.
+параметр ARR доступен, начиная с операционной системы Windows Vista.
 
 ## <a name="in-this-section"></a>В этом разделе
 

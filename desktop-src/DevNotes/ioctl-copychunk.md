@@ -167,7 +167,7 @@ typedef struct _SRV_COPYCHUNK_RESPONSE {
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

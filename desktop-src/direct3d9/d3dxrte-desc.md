@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9core.h
-ms.openlocfilehash: 69a5957bc9338abac4441f65066a43efb7dabead
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 91efe4dff2b392310ed2fd6bdc30db12c883c5d08e6b2cf110c2cb29d73c54ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027284"
 ---
 # <a name="d3dxrte_desc-structure"></a>\_Структура D3DXRTE DESC
 
@@ -98,7 +98,7 @@ typedef struct D3DXRTE_DESC {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод используется для возврата параметров создания, используемых при создании объекта [**ID3DXRenderToEnvMap**](id3dxrendertoenvmap.md) .
 
@@ -108,7 +108,7 @@ typedef struct D3DXRTE_DESC {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9core. h</dt> </dl> |
 
 
 

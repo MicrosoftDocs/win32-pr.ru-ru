@@ -1,6 +1,6 @@
 ---
-title: Константы сборщика событий Windows (Евколл. h)
-description: Пакет SDK сборщика событий Windows содержит следующие константы.
+title: Windows Константы сборщика событий (Евколл. h)
+description: пакет SDK сборщика событий Windows содержит следующие константы.
 ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
 ms.tgt_platform: multiple
 topic_type:
@@ -19,16 +19,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6e7e99186e2148bf6ec3400aadf760a79a2331
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d168ecb16c293c524c4dffcb16aee7db2924e23219e42d402939ab26b4bbecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103800958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005984"
 ---
-# <a name="windows-event-collector-constants"></a>Константы сборщика событий Windows
+# <a name="windows-event-collector-constants"></a>Windows Константы сборщика событий
 
-Пакет SDK сборщика событий Windows содержит следующие константы.
+пакет SDK сборщика событий Windows содержит следующие константы.
 
 <dl> <dt>
 
@@ -131,7 +131,7 @@ ms.locfileid: "103800958"
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                            |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                      |
-| Header<br/>                   | <dl> <dt>Евколл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Евколл. h</dt> </dl> |
 
 
 

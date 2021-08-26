@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb63c4242ae8fa3cca5133a25d2742d07210ca1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d7b144153d94ba1c28234e38e3983eb4a1ab165f4bda26b97eac00799cb3e9ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972304"
 ---
 # <a name="win32_pagefile-class"></a>\_Класс файла подкачки Win32
 
@@ -129,7 +129,7 @@ class Win32_PageFile : CIM_DataFile
 | [**компрессекс**](compressex-method-in-class-win32-pagefile.md)                                   | Метод класса, который сжимает логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                  |
 | [**Копировать**](copy-method-in-class-win32-pagefile.md)                                               | Метод класса, копирующий логический файл или каталог, указанный в пути к объекту, в расположение, указанное входным параметром.<br/>                                                                                       |
 | [**копекс**](copyex-method-in-class-win32-pagefile.md)                                           | Метод класса, копирующий логический файл или каталог, указанный в пути к объекту, в расположение, указанное параметром FileName.<br/>                                                                                    |
-| [**Удалить**](delete-method-in-class-win32-pagefile.md)                                           | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                     |
+| [**Удален**](delete-method-in-class-win32-pagefile.md)                                           | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                     |
 | [**делетикс**](deleteex-method-in-class-win32-pagefile.md)                                       | Метод класса, который удаляет логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                     |
 | [**жетеффективепермиссион**](geteffectivepermission-method-in-class-win32-pagefile.md)           | Метод класса, определяющий, имеет ли вызывающий объект агрегированные разрешения, заданные аргументом *разрешения* , не только для объекта File, но и для общего ресурса, в котором находится файл или каталог (если он находится в общей папке).<br/> |
 | [**Имени**](rename-method-in-class-win32-pagefile.md)                                           | Метод класса, который переименовывает логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                                     |
@@ -284,7 +284,7 @@ class Win32_PageFile : CIM_DataFile
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -542,7 +542,7 @@ class Win32_PageFile : CIM_DataFile
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -774,7 +774,7 @@ class Win32_PageFile : CIM_DataFile
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -990,7 +990,7 @@ class Win32_PageFile : CIM_DataFile
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ файла подкачки Win32** является производным от [**\_ каталога CIM**](cim-directory.md).
 

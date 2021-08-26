@@ -6,18 +6,18 @@ keywords:
 - Метод Load — Кпапфиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe70be7241fe1e1eaeb779317e11a76fb479f76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49eac23bcb79738a30b18eb87a4d8ef4598aba89de0748c58b433df28d614886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034894"
 ---
 # <a name="load-method---cpapfile"></a>Метод Load — Кпапфиле
 
 После успешного выполнения этих операций полученный интерфейс [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) освобождается. Этот файл закрывается и указывает, что файл не удерживается открытым во время других операций клиента. Он будет открыт повторно при необходимости.
 
-В этом примере используется метод  **Load** **кпапфиле** из папфиле. cpp.
+В этом примере используется метод **Load** **кпапфиле** из папфиле. cpp.
 
 
 ```C++
@@ -81,7 +81,7 @@ HRESULT CPapFile::Load(
 
 
 
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Remarks
 
 Как и при использовании метода [**Save**](save-method---cpapfile.md) , если для параметра *pszFileName* передается **значение NULL** , в качестве имени файла используется сохраненное содержимое члена **m \_ сзкурфиленаме** . Поскольку существующий файл может быть открыт, функция АППУТИЛ **филиксист** сначала используется для проверки существования файла. Если он существует, вызывается Стандартная функция [**стгиссторажефиле**](/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile) Service для проверки формата файла, чтобы определить, является ли он допустимым составным файлом.
 
@@ -103,9 +103,9 @@ HRESULT CPapFile::Load(
 
 После успешного выполнения этих операций полученный интерфейс [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) освобождается. Этот файл закрывается и означает, что файл не удерживается открытым во время других операций клиента. Он будет открыт повторно при необходимости.
 
- 
+ 
 
- 
+ 
 
 
 

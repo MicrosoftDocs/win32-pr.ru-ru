@@ -4,12 +4,12 @@ description: Учитывая диапазон битов от ЛСБ числа
 ms.assetid: BA84C882-A141-4AD2-8FD9-C60F1483FC65
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14f8b9f6ef126ec3c6a31bf330dfd89cf0770c4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1452b1f15525753738ee6f74a1bd43473f43033346c9b493cd72222eaab22cb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068534"
 ---
 # <a name="bfi-sm5---asm"></a>БФИ (SM5-ASM)
 
@@ -38,7 +38,7 @@ ms.locfileid: "104069358"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ЛСБ 5 разрядов *src0* предоставляют ширину битовой панели (0-31), которую следует взять из *src2*.
 
@@ -72,7 +72,7 @@ Given width, offset:
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -83,7 +83,7 @@ Given width, offset:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение BCM_SETTEXTMARGIN (Коммктрл. h)
 description: '\_Сообщение СЕТТЕКСТМАРГИН BCM задает поля для рисования текста в элементе управления "Кнопка".'
 ms.assetid: 0798b1c5-7db4-46c6-8881-4c847abc7460
 keywords:
-- Элементы управления Windows для BCM_SETTEXTMARGIN сообщений
+- элементы управления Windows сообщений BCM_SETTEXTMARGIN
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb6653007c155a508ce4da899a7be0d8ff2ab2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 724c3e16c19aa2fb146bc0b47dec563db8b871536cb8f7e58fc86cbb739c225c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921364"
 ---
 # <a name="bcm_settextmargin-message"></a>\_Сообщение СЕТТЕКСТМАРГИН BCM
 
@@ -47,26 +47,26 @@ ms.locfileid: "104490551"
 
 Если сообщение завершается с ошибкой, возвращается **значение true**. В противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

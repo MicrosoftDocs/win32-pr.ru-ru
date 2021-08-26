@@ -4,12 +4,12 @@ description: При передаче массивов между клиенто�
 ms.assetid: 2c95cf47-6fc0-4ccd-bb4f-acf356596e56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98ffbf1ac75ad82a89e258ab595590fce2190b9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0e91424a93a53fe710c945011d19f8f97dc0f65e4899bc3305be5725d5a08e7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020135"
 ---
 # <a name="length-size-and-directional-attributes"></a>Атрибуты длины, размера и направления
 

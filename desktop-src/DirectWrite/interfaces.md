@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, интерфейсы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 5f1abd75d83fedf29da1bb5f67073dd74ca10816fdeb6ca43a61f40ad8ae26c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112588037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048614"
 ---
 # <a name="directwrite-interfaces"></a>Интерфейсы DirectWrite
 
@@ -27,14 +27,14 @@ DirectWrite определяет следующие интерфейсы.
 | [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | 32 инкапсулирует независимое от устройства битовое изображение и контекст устройства, которые можно использовать для отрисовки глифов. |
 | [**идвритеколорглифруненумератор**](idwritecolorglyphrunenumerator.md) | Этот интерфейс позволяет приложению выполнять перечисление по цвету глифа цвета. |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | Перечислитель упорядоченной коллекции глифов цвета. |
-| [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Используется для создания всех последующих объектов DirectWrite. Этот интерфейс является корневым интерфейсом фабрики для всех объектов DirectWrite. |
-| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | Интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory2**](idwritefactory2.md) | Интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | Интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4) | Интерфейс корневой фабрики для всех объектов DirectWrite. |
-| [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) | Интерфейс корневой фабрики для всех объектов DirectWrite. |
-| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | Представляет объект фабрики, из которого создаются все объекты DirectWrite. **IDWriteFactory6** добавляет новые средства для работы со шрифтами и ресурсами шрифтов. |
-| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | Этот интерфейс представляет объект фабрики, из которого создаются все объекты DirectWrite. **IDWriteFactory7** добавляет новые средства для работы с системными шрифтами. |
+| [**идвритефактори**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | используется для создания всех последующих объектов DirectWrite. этот интерфейс является корневым интерфейсом фабрики для всех DirectWriteных объектов. |
+| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory2**](idwritefactory2.md) | интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | интерфейс корневой фабрики для всех объектов [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4) | интерфейс корневой фабрики для всех объектов DirectWrite. |
+| [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) | интерфейс корневой фабрики для всех объектов DirectWrite. |
+| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | представляет объект фабрики, из которого создаются все объекты DirectWrite. **IDWriteFactory6** добавляет новые средства для работы со шрифтами и ресурсами шрифтов. |
+| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | этот интерфейс представляет объект фабрики, из которого создаются все объекты DirectWrite. **IDWriteFactory7** добавляет новые средства для работы с системными шрифтами. |
 | [**идвритефонт**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) | Представляет физический шрифт в коллекции шрифтов. Этот интерфейс используется для создания гарнитуры шрифта из физических шрифтов или для получения таких сведений, как метрики шрифта или имена лиц, от существующих лиц. |
 | [**IDWriteFont1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1) | Представляет физический шрифт в коллекции шрифтов. |
 | [**IDWriteFont2**](idwritefont2.md) | Представляет физический шрифт в коллекции шрифтов. |

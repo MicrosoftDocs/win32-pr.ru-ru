@@ -4,12 +4,12 @@ ms.assetid: F9A47FF8-4E53-4B1B-98C3-08941B492265
 title: Атрибут MF_SENSORSTREAM_REQUIRED_CAPABILITIES (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60adce6b98cd09ce493eba1b74af50a708fa14b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3268d27ab735dc7bf19fd45a7213328789a3a57a595e3f1df0875f716d83e5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940594"
 ---
 # <a name="mf_sensorstream_required_capabilities-attribute"></a>\_ \_ Атрибут требуемых \_ возможностей MF сенсорстреам
 
@@ -19,15 +19,15 @@ ms.locfileid: "105712907"
 
 **WCHAR\***
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 10 версии 1703\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 10, только для \[ настольных приложений версии 1703\]<br/>                          |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

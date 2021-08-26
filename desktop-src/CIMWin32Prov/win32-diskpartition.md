@@ -1,5 +1,5 @@
 ---
-description: Представляет возможности и емкость управления секционированной области физического диска в компьютерной системе под управлением Windows.
+description: Представляет возможности и емкость управления секционированной области физического диска в компьютерной системе, работающей Windows.
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
 ms.tgt_platform: multiple
 title: Класс Win32_DiskPartition
@@ -54,16 +54,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4f9a9c16f58d0119c8027848c481479985e7505e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b33b812def4c921d528942e3bc416aa8791b4b0faecaaaeaf9d8cf9ccd345959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085814"
 ---
 # <a name="win32_diskpartition-class"></a>\_Класс Win32 дискпартитион
 
-Класс **WMI \_ дискпартитион** [инструментария](/windows/desktop/WmiSdk/retrieving-a-class) Win32 представляет возможности и Управление емкостью секционированной области физического диска в компьютерной системе под управлением Windows. Пример: диск \# 0, раздел \# 1.
+Класс **WMI \_ дискпартитион** [инструментария](/windows/desktop/WmiSdk/retrieving-a-class) Win32 представляет возможности и Управление емкостью секционированной области физического диска в компьютерной системе, работающей Windows. Пример: диск \# 0, раздел \# 1.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -614,7 +614,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **String.**
@@ -644,7 +644,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Код ошибки Windows Configuration Manager.
+Windows Configuration Manager код ошибки.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -695,7 +695,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd></dd> <dt>
@@ -835,14 +835,14 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd></dd> <dt>
@@ -877,7 +877,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd></dd> </dl>
@@ -1125,7 +1125,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1190,7 +1190,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 Квалификаторы: [**схема**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Пример: " \* PNP030b"
 
@@ -1615,7 +1615,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 Значения качества производительности:
 
-<dl> <dd>Использующ</dd> <dd>"12-разрядная система FAT"</dd> <dd>"XENIX тип 1"</dd> <dd>"XENIX тип 2"</dd> <dd>16-разрядная система FAT</dd> <dd>"Расширенный раздел"</dd> <dd>"MS-DOS v4 огромный"</dd> <dd>"Устанавливаемая файловая система"</dd> <dd>"Эталонная платформа PowerPC"</dd> <dd>UNIX</dd> <dd>NTFS</dd> <dd>"Win95 w/Extended INT 13"</dd> <dd>"Расширенное w/Extended INT 13"</dd> <dd>"Диспетчер логических дисков"</dd> <dd>Неизвестный</dd> </dl>
+<dl> <dd>Использующ</dd> <dd>"12-разрядная система FAT"</dd> <dd>"XENIX тип 1"</dd> <dd>"XENIX тип 2"</dd> <dd>16-разрядная система FAT</dd> <dd>"Расширенный раздел"</dd> <dd>"MS-DOS v4 огромный"</dd> <dd>"Устанавливаемая файловая система"</dd> <dd>"PowerPC эталонной платформы"</dd> <dd>"UNIX"</dd> <dd>NTFS</dd> <dd>"Win95 w/Extended INT 13"</dd> <dd>"Расширенное w/Extended INT 13"</dd> <dd>"Диспетчер логических дисков"</dd> <dd>Неизвестный</dd> </dl>
 
 <dt>
 
@@ -1677,14 +1677,14 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 <span id="PowerPC_Reference_Platform"></span><span id="powerpc_reference_platform"></span><span id="POWERPC_REFERENCE_PLATFORM"></span>
 
-**Эталонная платформа PowerPC** ("Эталонная платформа PowerPC")
+**эталонная платформа PowerPC** ("PowerPC эталонная платформа")
 
 
 </dt> <dd></dd> <dt>
 
 <span id="UNIX"></span><span id="unix"></span>
 
-**UNIX** (UNIX)
+**UNIX** ("Unix")
 
 
 </dt> <dd></dd> <dt>
@@ -1726,7 +1726,7 @@ class Win32_DiskPartition : CIM_DiskPartition
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ дискпартитион** является производным от [**CIM \_ дискпартитион**](cim-diskpartition.md).
 
@@ -1758,7 +1758,7 @@ Get-WmiObject -Query $wql -ComputerName '.' | Select-Object DiskIndex,Index,@{Na
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1772,7 +1772,7 @@ Get-WmiObject -Query $wql -ComputerName '.' | Select-Object DiskIndex,Index,@{Na
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

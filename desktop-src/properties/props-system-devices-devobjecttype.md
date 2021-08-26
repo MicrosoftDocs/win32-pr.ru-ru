@@ -4,12 +4,12 @@ ms.assetid: 765ef06c-957e-48fa-be5f-9cedc7823564
 title: System. Devices. Девобжекттипе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde6917b241b5f0e6080deedb78ab2ab7f9f045f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c9cad5ff647102c5b39a056b33467edd3266f080051044347667a28a6163349
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010674"
 ---
 # <a name="systemdevicesdevobjecttype"></a>System. Devices. Девобжекттипе
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

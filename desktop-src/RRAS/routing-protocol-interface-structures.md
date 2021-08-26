@@ -4,18 +4,18 @@ description: Функции интерфейса протокола маршру
 ms.assetid: 679c74fa-0049-4556-a942-e51160ceb796
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b32e8ba21a99ceabe18a1eea2470edf0ac2f5a3d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 62075ca136d210fc3831779f03563405e18f5ad1fae625c697e184133aa32fd1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036004"
 ---
 # <a name="routing-protocol-interface-structures"></a>Структуры интерфейса протокола маршрутизации
 
 [Функции интерфейса протокола маршрутизации](routing-protocol-interface-functions.md) используют следующие структуры.
 
-[**Сообщение**](/windows/desktop/api/Routprot/ns-routprot-message)
+[**СООБЩЕНИЕ**](/windows/desktop/api/Routprot/ns-routprot-message)
 
 [**\_характеристики маршрутизации многопротокольных маршрутизаторов \_**](/windows/desktop/api/Routprot/ns-routprot-mpr50_routing_characteristics)
 
@@ -23,6 +23,6 @@ ms.locfileid: "104070538"
 
 [**\_сообщение о завершении обновления \_**](/windows/desktop/api/Routprot/ns-routprot-update_complete_message)
 
- 
+ 
 
- 
+ 
