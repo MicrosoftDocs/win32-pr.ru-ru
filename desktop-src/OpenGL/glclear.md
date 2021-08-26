@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db935e46c65c42976024a8afbb98028294710c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bb48a1b2832a5f9c046bb450b7cfba9ec4f83a759b093df91f3ec2064f23a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082104"
 ---
 # <a name="glclear-function"></a>Функция Глклеар
 
@@ -40,7 +40,7 @@ void WINAPI glClear(
 
 <dl> <dt>
 
-*виде* 
+*mask* 
 </dt> <dd>
 
 Побитовые операторы или для масок, которые указывают буферы для очистки. Ниже приведены четыре маски.
@@ -77,7 +77,7 @@ void WINAPI glClear(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глклеар** задает для области битплане в окне значения, ранее выбранные с помощью [**глклеарколор**](glclearcolor.md), [**глклеариндекс**](glclearindex.md), [**глклеардепс**](glcleardepth.md), [**глклеарстенЦил**](glclearstencil.md)и [**глклеараккум**](glclearaccum.md). Можно очистить несколько цветовых буферов одновременно, выбрав более одного буфера за раз с помощью [**глдравбуффер**](gldrawbuffer.md).
 
@@ -101,7 +101,7 @@ void WINAPI glClear(
 
 **глжет** с аргументом \_ " \_ очистить значение трафарета GL" \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -115,7 +115,7 @@ void WINAPI glClear(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: ef453bec-e5a9-4185-94e3-f934e748b11f
 title: Наследование от Кбасепин
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82ab56da3ae326be175c9519b5248e53fa02b82f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b07eb76fc2913152a69ec729f49826e8b35f1524a3841c5e0d3085ea0634f646
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105673110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079264"
 ---
 # <a name="deriving-from-cbasepin"></a>Наследование от Кбасепин
 
@@ -33,7 +33,7 @@ ms.locfileid: "105673110"
 
 Некоторые из этих методов реализуются в базовых классах, производных от **кбасепин**, таких как [**кбасеинпутпин**](cbaseinputpin.md) и [**кбасеаутпутпин**](cbaseoutputpin.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

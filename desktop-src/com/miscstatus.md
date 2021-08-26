@@ -6,12 +6,12 @@ keywords:
 - COM раздела реестра Мискстатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abee49776577df61dc8b7d4e94a0621dfdd8b216
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41aa5a5ab7f777eb6aa19d919c69ca219c9364cd1d6e5e9471cb677300d4ebb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992354"
 ---
 # <a name="miscstatus"></a>мискстатус
 
@@ -21,28 +21,28 @@ ms.locfileid: "104068202"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      MiscStatus
-         (Default) = value
-         aspect = value
+   {CLSID}
+      MiscStatus
+         (Default) = value
+         aspect = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения см. в разделе Перечисление [**олемиск**](/windows/win32/api/oleidl/ne-oleidl-olemisc) и [**Иолеобжект:: жетмискстатус**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus).
 
 Если подраздел, соответствующий ДВАСПЕКТ, не найден, используется значение по умолчанию **мискстатус** .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Иолеобжект:: Жетмискстатус**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

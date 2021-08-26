@@ -4,12 +4,12 @@ ms.assetid: 416159A4-F50E-4027-9367-727BA81D2A21
 title: Видеоструктуры Direct3D 11
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 829fed37218d2283eb885477b8401a1cdaece8b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71697b7ddfe48ac894c9ab4a7c9861fa947ca8f93d51140598b822a6cdf79f8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061694"
 ---
 # <a name="direct3d-11-video-structures"></a>Видеоструктуры Direct3D 11
 
@@ -81,7 +81,7 @@ ms.locfileid: "104423546"
 -   [**\_Указание о \_ \_ \_ поведении потока обработчика видео \_ D3D11**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_processor_stream_behavior_hint)
 -   [**\_Пример D3D11 \_ видео \_**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_sample_desc)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

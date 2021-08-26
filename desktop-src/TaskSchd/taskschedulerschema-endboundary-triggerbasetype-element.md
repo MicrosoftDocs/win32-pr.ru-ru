@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d687655498301595c1ab888fcc179ec0694f0aef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e26eb05b7b9fa15c0667fff7fd0d1eb85e61ed2daa90d6a238cbf9575f6c0e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010744"
 ---
 # <a name="endboundary-triggerbasetype-element"></a>Ендбаундари (Тригжербасетипе), элемент
 
@@ -48,7 +48,7 @@ ms.locfileid: "105681791"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев конечная граница указывается с помощью свойства [**Trigger. ендбаундари**](trigger-endboundary.md) , наследуемого всеми объектами триггера.
 
@@ -78,8 +78,8 @@ ms.locfileid: "105681791"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

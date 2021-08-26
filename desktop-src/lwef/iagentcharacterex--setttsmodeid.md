@@ -4,16 +4,16 @@ description: Иажентчарактерекс Сетттсмодеид
 ms.assetid: 66ed792a-1693-45dc-b9a8-eebe772c5af9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34392e65fcb8f3a46db6251f01f59ad76aba278d
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: a24195fd177abbde3c6423f966df67ba0faeaf315038d7f8cb0b4ca136f16c3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104412619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114724"
 ---
 # <a name="iagentcharacterexsetttsmodeid"></a>Иажентчарактерекс:: Сетттсмодеид
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetTTSModeID(
@@ -35,7 +35,7 @@ HRESULT SetTTSModeID(
 > [!Note]  
 > **Иажентчарактерекс: сетттсмодеид** может завершиться ошибкой, если не установлен Speech.dll и указанный модуль не соответствует параметру режима TTS, скомпилированному для символа.
 
- 
+ 
 
 </dd> </dl>
 
@@ -49,14 +49,14 @@ HRESULT SetTTSModeID(
 
 Требования к речевому подсистему агента Microsoft Agent основаны на Microsoft Speech API. Модули, поддерживающие требования к SAPI Microsoft Agent, можно установить и использовать с агентом.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактерекс: Жетттсмодеид**](iagentcharacterex--getttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

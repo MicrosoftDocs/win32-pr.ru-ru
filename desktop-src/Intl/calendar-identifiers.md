@@ -4,12 +4,12 @@ ms.assetid: ba2e841e-e24e-476a-851e-a29b3af4f04d
 title: Идентификаторы календаря
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9b931aea4a186af0849dfe8f6642c53744d364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5f9f21aeff1143c4f981e3bfae20214f1b86e86307f7f32b103a19ef99b9803
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083034"
 ---
 # <a name="calendar-identifiers"></a>Идентификаторы календаря
 
@@ -111,7 +111,7 @@ CAL \_ григорианского \_ кслит \_ французский
 
 CAL \_ умалкура
 
-**Windows Vista и более поздние версии:** Календарь аль-Кура (арабский лунный)
+**Windows Vista и более поздних версий:** Календарь аль-Кура (арабский лунный)
 
 
 
@@ -128,7 +128,7 @@ CAL \_ умалкура
 
 Значение
 
-0xFFFFFFFF
+0xffffffff
 
 перечислить \_ все \_ календари
 

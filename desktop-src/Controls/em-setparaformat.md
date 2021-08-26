@@ -3,7 +3,7 @@ title: Сообщение EM_SETPARAFORMAT (RichEdit. h)
 description: Задает форматирование абзаца для текущего выделения в элементе управления Rich Edit.
 ms.assetid: 2d612e1b-1489-4055-929b-e0b2719f6ec2
 keywords:
-- Элементы управления Windows для EM_SETPARAFORMAT сообщений
+- элементы управления Windows сообщений EM_SETPARAFORMAT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8780ed79650a90a8d85ee8025dbe97e9af36aa1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1db0ba4e4bf505c5fb1b746b84cae71dcc621635a0a33b4a533ce8551486fe6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062914"
 ---
 # <a name="em_setparaformat-message"></a>\_Сообщение СЕТПАРАФОРМАТ EM
 
@@ -51,19 +51,19 @@ Microsoft Rich Edit 2,0 и более поздние версии: этот па
 
 Если операция завершается ошибкой, возвращаемое значение равно нулю.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

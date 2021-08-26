@@ -4,12 +4,12 @@ ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Microsoft MPEG-1/DD/AAC Audio декодер (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a685fa2be32dd963cdc7de08ec716117e6a7016e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2dd20bfc2ad8a366b46ac0c0600d8cc7a8bca5abacae621e8ea7d02f5f1cb4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051254"
 ---
 # <a name="microsoft-mpeg-1ddaac-audio-decoder"></a>Декодер звука Microsoft MPEG-1/DD/AAC
 
@@ -34,7 +34,7 @@ ms.locfileid: "105682249"
 
  
 
-Для декодирования форматов Dolby Digital Plus, AAC и AAC требуется Windows 7. Декодирование Dolby Digital или Dolby Digital Plus не поддерживается в Windows 7 Домашняя базовая или Windows 7 Начальная.
+для декодирования форматов Dolby digital Plus, AAC и AAC требуется Windows 7. декодирование dolby digital или dolby digital Plus не поддерживается в Windows 7 Домашняя базовая и Windows 7 Начальная.
 
 В реестре понятное имя этого фильтра — "Microsoft ДТВ-DVD Audio декодер".
 
@@ -48,7 +48,7 @@ ms.locfileid: "105682249"
 
 Типы носителей входных закрепления
 
-В Windows Vista и более поздних версиях фильтр поддерживает следующие входные типы:<br/>
+в Windows Vista и более поздних версиях фильтр поддерживает следующие входные типы:<br/>
 
 -   **MEDIATYPE \_ Audio**, **медиасубтипе \_ Dolby \_ AC3** (см. Примечание 1).
 -   **MEDIATYPE \_ Аудио**, **медиасубтипе \_ MPEG1Audio**
@@ -66,7 +66,7 @@ ms.locfileid: "105682249"
 -   **MEDIATYPE \_ Stream**, **медиасубтипе \_ MPEG1Audio**
 -   **MEDIATYPE \_ Stream**, **медиасубтипе \_ MPEG2 \_ Audio**
 
-Начиная с Windows 7, фильтр также поддерживает следующие типы входных данных:<br/>
+начиная с Windows 7 фильтр также поддерживает следующие входные типы:<br/>
 
 -   **MEDIATYPE \_ Audio**, **медиасубтипе \_ Dolby \_ Ддплус** (см. Примечание 1).
 -   **MEDIATYPE \_ Audio**, **медиасубтипе \_ DTS2** (см. Примечание 2).
@@ -98,12 +98,12 @@ ms.locfileid: "105682249"
 
 Типы носителей для выходного ПИН-кода
 
-В Windows Vista и более поздних версиях фильтр поддерживает следующие типы выходных данных:<br/>
+в Windows Vista и более поздних версиях фильтр поддерживает следующие типы выходных данных:<br/>
 
 -   **MEDIATYPE \_ Audio**, **медиасубтипе \_ Dolby \_ AC3 \_ SPDIF** (то же, что **ксдатаформат \_ подтип \_ IEC61937 \_ Dolby \_ Digital**)
 -   **MEDIATYPE \_ Аудио**, **медиасубтипе \_ PCM**
 
-Начиная с Windows 7, фильтр также поддерживает следующие типы выходных данных:<br/>
+начиная с Windows 7 фильтр также поддерживает следующие типы выходных данных:<br/>
 
 -   **MEDIATYPE \_ Audio**, **ксдатаформат \_ подтип \_ IEC61937 \_ DTS**
 -   **MEDIATYPE \_ Аудио**, **медиасубтипе \_ IEEE \_ float**
@@ -137,7 +137,7 @@ msmpeg2adec.dll
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Потоки Mono всегда декодированы в стерео.
 
@@ -152,7 +152,7 @@ msmpeg2adec.dll
 
 Для AAC декодер имеет определенные ограничения формата для сжатых входных данных AAC. Эти ограничения формата аналогичны Media Foundation [**декодера AAC**](../medfound/aac-decoder.md)и описаны в разделе "[**ограничения формата**](../medfound/aac-decoder.md)".
 
-Декодер DirectShow также принимает различные типы входных данных, чем декодер Media Foundation. Декодер DirectShow поддерживает следующие типы входных данных AAC:
+декодер DirectShow также принимает различные типы входных данных, чем декодер Media Foundation. декодер DirectShow поддерживает следующие типы входных данных AAC:
 
 -   **Медиасубтипе \_ Необработанные \_ AAC1**: RAW AAC, обычно находятся в формате AVI или матроска (. MKV) файлы.
 -   **Медиасубтипе \_ MPEG \_ ADTS \_ AAC**: AAC в потоке передачи звуковых данных (ADTS) для потоковой передачи.
@@ -171,7 +171,7 @@ msmpeg2adec.dll
 -   [**Набор свойств "частота-изменение**](rate-change-property-set.md)".
 
 > [!Note]  
-> Начиная с Windows 7, декодер поддерживает режим хитрости через набор свойств Rate-Change. Он поддерживает скорости воспроизведения в диапазоне \[ 0,501 – 2,0 \] , где 1,0 — это нормальная скорость воспроизведения, а 2,0 — вдвое нормально.
+> начиная с Windows 7 декодер поддерживает режим хитрости через набор свойств rate-change. Он поддерживает скорости воспроизведения в диапазоне \[ 0,501 – 2,0 \] , где 1,0 — это нормальная скорость воспроизведения, а 2,0 — вдвое нормально.
 
  
 
@@ -181,12 +181,12 @@ msmpeg2adec.dll
 
 
 
-| Свойство                                                          | Требуется                                                 |
+| Свойство                                                          | Требования                                                 |
 |-------------------------------------------------------------------|----------------------------------------------------------|
 | [**аваудиочаннелконфиг**](avaudiochannelconfig-property.md)     | Windows Vista                                            |
 | [**аваудиочаннелкаунт**](avaudiochannelcount-property.md)       | Windows Vista                                            |
 | [**аваудиосамплерате**](avaudiosamplerate-property.md)           | Windows Vista                                            |
-| [**авддсурраундмоде**](avddsurroundmode-property.md)             | Только для Windows Vista; не поддерживается в Windows 7 и более поздних версиях. |
+| [**авддсурраундмоде**](avddsurroundmode-property.md)             | Windows Только Vista; не поддерживается в Windows 7 и более поздних версиях. |
 | [**авдекаудиодуалмоно**](avdecaudiodualmono-property.md)         | Windows Vista                                            |
 | [**авдеккоммонинпутформат**](avdeccommoninputformat-property.md) | Windows Vista                                            |
 | [**авдеккоммонмеанбитрате**](avdeccommonmeanbitrate.md)          | Windows 7                                                |
@@ -199,7 +199,7 @@ msmpeg2adec.dll
 
 
 
-| Свойство                                                                          | Требуется      |
+| Свойство                                                                          | Требования      |
 |-----------------------------------------------------------------------------------|---------------|
 | [**авдекаакдовнмиксмоде**](avdecaacdownmixmode-property.md)                       | Windows 7     |
 | [**авдекаудиодуалмонорепромоде**](avdecaudiodualmonorepromode-property.md)       | Windows Vista |
@@ -226,9 +226,9 @@ msmpeg2adec.dll
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Домашняя расширенная, Windows Vista Ultimate, \[ только классические приложения Windows 7\]<br/> |
+| Минимальная версия клиента<br/> | Windows домашняя Premium Vista, Windows vista Ultimate, только Windows 7 \[ классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>        |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>        |
 
 
 
@@ -239,7 +239,7 @@ msmpeg2adec.dll
 [**Звуковые подтипы**](audio-subtypes.md)
 </dt> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> <dt>
 
 [**Типы носителей DVD**](dvd-media-types.md)

@@ -79,7 +79,7 @@ HRESULT GetConstantDesc(
 
 В таблице константы пробы могут появляться более одного раза, поэтому этот метод может возвращать массив описаний с разными индексами регистров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ HRESULT GetConstantDesc(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

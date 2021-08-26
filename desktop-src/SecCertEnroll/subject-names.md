@@ -4,12 +4,12 @@ ms.assetid: 6c35ce42-07be-4d47-a14e-ed5a361dbe33
 title: Имена субъектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 226c294e75477a3960cd0ad824a98b3556c34322
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6be70af23c524e71c1a9b22f43e391e4f5c8302fba70f24fba1f8268ebfda6e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101104"
 ---
 # <a name="subject-names"></a>Имена субъектов
 
@@ -53,7 +53,7 @@ DirectoryString ::= CHOICE
 -   [Создание имени субъекта](creating-a-subject-name.md)
 -   [Кодирование имени субъекта](encoding-a-subject-name.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

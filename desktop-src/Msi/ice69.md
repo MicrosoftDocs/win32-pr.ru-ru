@@ -4,12 +4,12 @@ ms.assetid: 6ab8f3b7-19e9-46f3-b09e-36bdb43d6f55
 title: ICE69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95bd00efc6b141bfa872470adcc9e88a63a2c52d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 183a62989ff39387639af1a9e1feeeddc3e0567f28915ca3857ba6dd5f58f68c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043944"
 ---
 # <a name="ice69"></a>ICE69
 
@@ -40,7 +40,7 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 | Сочетание клавиш  | Компонент\_ | Аргумент     |
 |-----------|-------------|--------------|
-| Тест      | QuickTest   | -v \[ $Test\] |
+| Тестирование      | QuickTest   | -v \[ $Test\] |
 | Shortcut2 | QuickTest   | \[$Test 2\]   |
 
 
@@ -78,10 +78,10 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 
 
-| Функция\_ | Компонент\_ |
+| Компонент\_ | Компонент\_ |
 |-----------|-------------|
 | Feature1  | QuickTest   |
-| Feature1  | Тест        |
+| Feature1  | Тестирование        |
 | Feature2  | Test2       |
 
 
@@ -116,11 +116,11 @@ ERROR: "Mismatched component reference. Entry 'Shortcut2' of the Shortcut table 
 
 [Класс](class-table.md)
 
-[AppId](appid-table.md)
+[ИД](appid-table.md)
 
 [Среда](environment-table.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

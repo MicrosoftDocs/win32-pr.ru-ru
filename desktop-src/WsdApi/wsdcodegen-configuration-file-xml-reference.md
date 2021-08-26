@@ -4,18 +4,18 @@ ms.assetid: 25c730ff-4b01-4b40-ab50-3b8df3dad4c8
 title: Справочник по XML-файлу конфигурации Всдкодежен
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e31d46935d23f5eb652cf386ed722e4565b0cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a9184e30f16550f0e9144a94499860ed04be6dbba4e70bad5d6a17fd6e3e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995134"
 ---
 # <a name="wsdcodegen-configuration-file-xml-reference"></a>Справочник по XML-файлу конфигурации Всдкодежен
 
 Файлы конфигурации Всдкодежен используют следующие XML-элементы.
 
--   [**async**](async.md)
+-   [**Async**](async.md)
 -   [**автостатический**](autostatic.md)
 -   [**Обеспечения**](codename.md)
 -   [**не предусматривающую**](deallocator.md)
@@ -100,7 +100,7 @@ ms.locfileid: "104264631"
 -   [**файле**](wsdl.md)
 -   [**схеме**](xsd.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -7,12 +7,12 @@ keywords:
 - Функции HTTP, API HTTP-сервера версии 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050821e40695268d6e3fa2c946d2e8859748db2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8520753e56e995b5751b55ff71cf49f8e82d414e702b2df255c2901e69c397fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047204"
 ---
 # <a name="http-server-api-version-10-functions"></a>Функции API сервера HTTP версии 1,0
 
@@ -31,7 +31,7 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
 ## <a name="cache-management"></a>Управление кэшем
 
@@ -45,7 +45,7 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
 ## <a name="configuration"></a>Конфигурация
 
@@ -59,7 +59,7 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
 ## <a name="input-and-output"></a>Ввод и вывод
 
@@ -75,7 +75,7 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
 ## <a name="ssl"></a>SSL
 
@@ -87,7 +87,7 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
 ## <a name="url-registration"></a>Регистрация URL-адреса
 
@@ -100,18 +100,18 @@ API сервера HTTP предоставляет следующие функц
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Структуры API HTTP-сервера версии 1,0](http-server-api-version-1-0-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Команда "прерывать"
 description: Команда Stop останавливает воспроизведение или запись. Эта команда распознает аудио компакт-диск, цифровое видео, устройство MIDI Sequencer, видеодиск, ВИДЕОМАГНИТОФОН и волна-аудиоустройства.
 ms.assetid: 82b2da63-f1ac-48f3-a206-6c5cfe00f5be
 keywords:
-- Команда "прерывать мультимедиа Windows"
+- команда "прерывать Windows мультимедиа"
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79d70aa150c01bd4c0ceab10332b4eca8b15d041
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3091fcf3c58dc015450a9d585af48cc8347d4167bdd487c37dd3f7c6cd4f04e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037114"
 ---
 # <a name="stop-command"></a>Команда "прерывать"
 
@@ -74,7 +74,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для устройств с компакт-дисков команда Stop останавливает воспроизведение и сбрасывает текущее расположение дорожки в ноль.
 
@@ -86,7 +86,7 @@ _stprintf_s(
 stop mysound
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -97,7 +97,7 @@ stop mysound
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

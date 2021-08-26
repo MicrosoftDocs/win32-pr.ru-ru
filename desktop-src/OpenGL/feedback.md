@@ -1,17 +1,17 @@
 ---
-title: Отзывы
+title: Обратная связь
 description: В режиме обратной связи каждый объект-примитив, который должен быть растровым, создает блок значений, которые копируются в массив обратной связи.
 ms.assetid: 92f14fe2-71f7-4b59-94a5-9669e986fb30
 keywords:
 - режим обратной связи, OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af46ecbef5c371c4c4344cb480ef77f4fcc6a7d3
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: cb5d307b9033a60a03b585cb4df6109293d3b9b0b276bde822ca595eb37fcd19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105674558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082454"
 ---
 # <a name="feedback-mode"></a>Режим обратной связи
 

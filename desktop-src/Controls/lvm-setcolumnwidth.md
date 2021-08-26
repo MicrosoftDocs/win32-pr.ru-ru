@@ -3,7 +3,7 @@ title: Сообщение LVM_SETCOLUMNWIDTH (Коммктрл. h)
 description: Изменяет ширину столбца в режиме представления отчета или ширину всех столбцов в режиме просмотра списка. Это сообщение можно отправить явным образом или использовать \_ макрос Сетколумнвидс ListView.
 ms.assetid: 309aebfb-9fed-4c77-acbb-ea905b32b0e2
 keywords:
-- Элементы управления Windows для LVM_SETCOLUMNWIDTH сообщений
+- элементы управления Windows сообщений LVM_SETCOLUMNWIDTH
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 529e989b3d66562acc7b6f91c3b3b06527235e8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a127706d6a47444ee59f1434478aadb5170f9ac7a919dca6fd6151de33486d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077294"
 ---
 # <a name="lvm_setcolumnwidth-message"></a>\_Сообщение LVM сетколумнвидс
 
@@ -58,19 +58,19 @@ ms.locfileid: "104135126"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Предположим, что у вас есть представление списка из двух столбцов с шириной 500 пикселей. Если ширина столбца равна 200 пикселов и сообщение отправляется с параметром *wParam* = 1 и *lParam* = лвскв \_ AUTOSIZE \_ усехеадер, то второй (и последний) столбец будет равен 300 пикселей в ширину.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

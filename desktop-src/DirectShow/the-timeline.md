@@ -4,12 +4,12 @@ ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: Временная шкала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6ac73b84409629f63ad4be469edf6b943f9e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f298c2649a280bf5fd622d5fb5a2aef820d1f340d45f7e2beb83fe9edd6a402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050004"
 ---
 # <a name="the-timeline"></a>Временная шкала
 
@@ -26,9 +26,9 @@ hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER,
 
 
 
-Новая временная шкала пуста. На этом этапе можно загрузить существующий файл проекта (см. статью [Загрузка и просмотр проекта](loading-and-previewing-a-project.md)) или создать временную шкалу путем создания и вставки новых объектов (см. раздел [Создание временной шкалы](constructing-a-timeline.md)).
+Новая временная шкала пуста. на этом этапе можно загрузить существующий файл проекта (см. раздел [загрузка и просмотр Project](loading-and-previewing-a-project.md)) или создать временную шкалу путем создания и вставки новых объектов (см. раздел [конструирование временной шкалы](constructing-a-timeline.md)).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,19 +12,19 @@ keywords:
 - события с одним таймером
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9d0024e3dfa9b0bda79f209abd9b81e89ad11c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7dc3a4c69aefe8df3310c8ff974ef7592b435eabccd661bdbeb1ebbf85dc3c9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037174"
 ---
 # <a name="starting-a-single-timer-event"></a>Запуск одного события таймера
 
 > [!Note]  
 > В этом разделе описывается устаревшая функция. Новые приложения должны использовать функцию [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) для создания таймеров.
 
- 
+ 
 
 Чтобы запустить одно событие таймера, вызовите функцию [**тимесетевент**](/previous-versions//dd757634(v=vs.85)) , указав период времени перед обратным вызовом, разрешение, адрес функции обратного вызова (см. [**тимепрок**](/previous-versions//dd757631(v=vs.85))) и данные пользователя, которые необходимо передать функцией обратного вызова. Приложение может использовать функцию, подобную приведенной ниже, для запуска одного события таймера.
 
@@ -51,13 +51,13 @@ UINT SetTimerCallback(NPSEQ npSeq,  // sequencer data
 
 Пример функции обратного вызова Онешоткаллбакк см. в разделе [написание функции обратного вызова таймера](writing-a-timer-callback-function.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование таймеров мультимедиа](using-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

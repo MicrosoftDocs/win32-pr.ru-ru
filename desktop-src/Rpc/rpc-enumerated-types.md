@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, ссылочный тип, перечислимые типы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5cb46ad718082c848524651abfdd9decc98834f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59bdff5979091c5acecfdd8e5ca5e6d608a8c8dc944c3e99c3017282c89002e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080833"
 ---
 # <a name="rpc-enumerated-types"></a>Перечислимые типы RPC
 
@@ -24,9 +24,9 @@ ms.locfileid: "103986288"
 -   [**рпккаллтипе**](/windows/win32/api/rpcasync/ne-rpcasync-rpccalltype)
 -   [**рпклокаладдрессформат**](/windows/win32/api/rpcasync/ne-rpcasync-rpclocaladdressformat)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d8f05c5e-0641-4979-9601-55e3c349cfdd
 title: System. Contact. Емаилнаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9674f3b97bf6bd5102cce0d1642f3588a2a1fb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca40e3605dfbe34a15b3aa12632b6782b6fab657421cebb54fd224e77e797eb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104266011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059644"
 ---
 # <a name="systemcontactemailname"></a>System. Contact. Емаилнаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 72f5f988-37c3-40d4-9c1c-07086e60ea51
 title: Свойство Авенкддпродуктионинфоексистс (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5069c8d30f0266b0727f735ede822be491c4a4a2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7d9d0341cf97b4641dc2ece7e93408e527458235620b32b7e25abe583a67c2ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103474"
 ---
 # <a name="avencddproductioninfoexists-property"></a>Авенкддпродуктионинфоексистс, свойство
 
@@ -25,7 +25,7 @@ ms.locfileid: "105682296"
 
 **КОДЕКАПИ \_ авенкддпродуктионинфоексистс**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если значение является **вариантным \_ true**, настройки уровня смешения и типа комнаты являются допустимыми. Укажите эти параметры с помощью свойств [**авенкддпродуктионрумтипе**](avencddproductionroomtype-property.md) и [**авенкддпродуктионмикслевел**](avencddproductionmixlevel-property.md) .
 
@@ -35,13 +35,13 @@ ms.locfileid: "105682296"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

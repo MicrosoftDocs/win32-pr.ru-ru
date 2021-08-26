@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 310364bdb6e6ba7daf285316fcaaf16884e53929
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0efe2e34345cc335b8214b781da4dce608dddcc4c2f77e80d8c86f76007c2855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073854"
 ---
 # <a name="rtmdeleteroute-function"></a>Функция Ртмделетерауте
 
-\[Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
+\[этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
 
 Функция **ртмделетерауте** удаляет запись маршрута.
 
@@ -118,11 +118,11 @@ DWORD RtmDeleteRoute(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция создает сообщение об изменении маршрута, если оптимальный маршрут к целевой сети изменился в результате удаления. Тем не менее сообщение маршрута-Change не отправляется клиенту, который выполняет этот вызов. Вместо этого соответствующая информация возвращается этой функцией непосредственно этому клиенту.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -131,13 +131,13 @@ DWORD RtmDeleteRoute(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                          |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                               |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                     |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>RTM. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

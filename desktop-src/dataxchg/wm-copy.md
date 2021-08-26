@@ -58,7 +58,7 @@ ms.locfileid: "120096754"
 
 При отправке в поле со списком сообщение **о \_ копировании WM** обрабатывается его элементом управления "поле ввода". Это сообщение не действует при отправке в поле со списком со стилем [**\_ DROPDOWNLIST в CBS**](../controls/combo-box-styles.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "120096754"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Чтобы начать получать данные с серве
 ms.assetid: 5d791f4f-1d95-4bc0-b68f-db4fccc75ff8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3eb1362736207f9cc79d82ab6c981431d0bfe7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 234d93b2933499ca86ab49732d46cf2abe3c37247ed7bfa5e653e5aa0119b1e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020494"
 ---
 # <a name="implementing-output-pipes-on-the-server"></a>Реализация выходных каналов на сервере
 
@@ -17,7 +17,7 @@ ms.locfileid: "104070506"
 
 Процедура удаленного сервера должна заполнить буфер выходного конвейера данными перед вызовом процедуры Push. Каждый раз, когда серверная программа вызывает процедуру Push в своей заглушке, процедура Push маршалирует данные и передает их клиенту. Цикл продолжится до тех пор, пока сервер не отправит буфер нулевой длины.
 
-Следующий пример взят из программы Пипедемо, содержащейся в примерах, которые входят в состав Windows SDK. В нем показана процедура удаленного сервера, использующая канал для отправки данных с сервера клиенту.
+следующий пример взят из программы пипедемо, содержащейся в примерах, которые входят в состав Windows SDK. В нем показана процедура удаленного сервера, использующая канал для отправки данных с сервера клиенту.
 
 
 ```C++
@@ -56,7 +56,7 @@ void OutPipe(LONG_PIPE *outputPipe )
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -66,6 +66,6 @@ void OutPipe(LONG_PIPE *outputPipe )
 [**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

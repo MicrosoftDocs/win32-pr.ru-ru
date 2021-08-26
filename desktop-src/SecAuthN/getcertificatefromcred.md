@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Lsaidprov.h
-ms.openlocfilehash: 1120e7859080657e2a04202e01a01464694a3450
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3660fd4cfb8baa3e025789a2cde9dc04dd7e1e1678b0516a56562f1ea5be43dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994486"
 ---
 # <a name="getcertificatefromcred-function"></a>Функция Жетцертификатефромкред
 
@@ -100,7 +100,7 @@ NTSTATUS GetCertificateFromCred(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед получением сертификата из облака поставщик удостоверений должен проверить наличие действительного сертификата для этого пользователя в хранилище сертификатов пользователя "MY". Если существует действительный сертификат, поставщик должен вернуть этот сертификат, чтобы избежать ненужного сетевого трафика.
 
@@ -112,9 +112,9 @@ NTSTATUS GetCertificateFromCred(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Лсаидпров. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Лсаидпров. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5ad30d5f-2c5b-4fc8-bb7d-ed2a310f422f
 title: System. Communication. Датеитемекспирес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda8ccfaf958d09fd280f16fec2b4068d457db49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 659af8c661e1cf8e78cfc3015f8bb6463f62d6e6e2773c2b73a9567cc923aad1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059804"
 ---
 # <a name="systemcommunicationdateitemexpires"></a>System. Communication. Датеитемекспирес
 
@@ -30,11 +30,11 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

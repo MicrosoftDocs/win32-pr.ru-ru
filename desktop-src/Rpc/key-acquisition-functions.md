@@ -4,12 +4,12 @@ description: По умолчанию поставщик общих служб п
 ms.assetid: 0ba7212c-6ee8-4a92-94d0-f09f84b05bf3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36a8c8e8cfb2f3b4f8f241b2401878576cbe7f90
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 292926f53e5af0e75957f9b363d3917b1c5f68ef3a4e0a0acf7111c6b37b6518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020236"
 ---
 # <a name="key-acquisition-functions"></a>Функции приобретения ключей
 
@@ -20,11 +20,11 @@ RPC предоставляет возможность переопределен
 > [!Note]  
 > Большинству приложений не требуется использовать функции приобретения ключа, и можно просто указать **значение NULL** для всех параметров, в которых запрашивается функция получения ключа.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

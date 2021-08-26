@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 02cb629cdfaba17ce9a137b52eb1a6d6fdbaa56b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d93a5799a646a90688261bdd55bc9dfe929ef6bd074a51e15cabdcee768ffa2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116444"
 ---
 # <a name="instance-constructor-string-string"></a>Конструктор экземпляров (строка, строка)
 
@@ -70,7 +70,7 @@ public Instance(
     
     Отображаемое имя экземпляра. Он будет использоваться в записях журнала событий.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -67,7 +67,7 @@ Public Property SchemaValidationOption As MofDeserializerSchemaValidationOption
 
 Параметр проверки схемы для десериализации.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Класс Циммофдесериализер](microsoft.management.infrastructure.serialization.cimmofdeserializer.md) 
  [Пространство имен Microsoft. Management. Infrastructure. Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))

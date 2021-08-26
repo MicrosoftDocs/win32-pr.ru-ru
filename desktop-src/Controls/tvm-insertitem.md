@@ -3,7 +3,7 @@ title: Сообщение TVM_INSERTITEM (Коммктрл. h)
 description: Вставляет новый элемент в элемент управления представлением в виде дерева. Это сообщение можно отправить явно или с помощью \_ макроса InsertItem TreeView.
 ms.assetid: c5e5f88f-6ec8-4b95-89ea-97f6f1fd735e
 keywords:
-- Элементы управления Windows для TVM_INSERTITEM сообщений
+- элементы управления Windows сообщений TVM_INSERTITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 719de4c2391ff924c9f6deb8cb4206cfdb56c3ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85f8a324613820b94e0bd2c49d8fa78136038471f820dd2b9ed8e38ace15f0cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060194"
 ---
 # <a name="tvm_insertitem-message"></a>\_Сообщение TVM INSERTITEM
 
@@ -45,20 +45,20 @@ ms.locfileid: "103891641"
 
 Возвращает маркер **хтриитем** для нового элемента, если он успешно, или **значение NULL** в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **TVM \_ ИНСЕРТИТЕМВ** (Юникод) и **TVM \_ инсертитема** (ANSI)<br/>             |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

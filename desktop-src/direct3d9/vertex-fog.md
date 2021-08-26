@@ -4,12 +4,12 @@ ms.assetid: 76989eb3-cd95-4dfc-ba0f-7563860b531c
 title: Вершинный туман (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35cd880bda7ebffd36bd95bec5f8565e104eaa15
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 76196ba0489ac58529bcb5c0500a269c8ee27b87040ec96f64ef228377dc8abd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068983"
 ---
 # <a name="vertex-fog-direct3d-9"></a>Вершинный туман (Direct3D 9)
 
@@ -97,7 +97,7 @@ void SetupVertexFog(DWORD Color, DWORD Mode, BOOL UseRange, FLOAT Density)
 
 Некоторые параметры тумана требуются в качестве значений с плавающей запятой, хотя метод [**IDirect3DDevice9:: сетрендерстате**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setrenderstate) принимает только значения типа DWORD во втором параметре. В этом примере значения с плавающей запятой успешно предоставляются этим методам без преобразования данных путем приведения адресов переменных с плавающей запятой в виде указателей типа DWORD, а затем разыменования их.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

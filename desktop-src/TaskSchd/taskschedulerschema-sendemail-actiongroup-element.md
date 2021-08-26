@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81f6f3437521dea2c5cf6e157ad7997718632081
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b42a8e63f3b64ef2a66a74300036bbf8ade24a7e0ee5c68b3d1d599f00a04b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099854"
 ---
 # <a name="sendemail-actiongroup-element"></a>Элемент SendEmail (actionGroup)
 
@@ -49,19 +49,19 @@ ms.locfileid: "103989107"
 | Элемент                                                                        | Тип                                                                         | Описание                                                                                      |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**Вложения**](taskschedulerschema-attachments-sendemailtype-element.md)   | [**аттачментстипе**](taskschedulerschema-attachmentstype-complextype.md)   | Указывает список вложений в сообщении электронной почты.<br/>                                 |
-| [**Скрытая копия**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **string**                                                                   | Указывает адреса электронной почты, используемые в строке СК сообщения электронной почты.<br/>               |
-| [**Текст**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | Задает текст в тексте сообщения электронной почты.<br/>                                  |
-| [**Кому**](taskschedulerschema-cc-sendemailtype-element.md)                     | **string**                                                                   | Указывает адреса электронной почты, используемые в строке CC сообщения электронной почты.<br/>                |
-| [**Исходный тип**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | Указывает адрес электронной почты отправителя.<br/>                                            |
+| [**Скрытая копия**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **строка**                                                                   | Указывает адреса электронной почты, используемые в строке СК сообщения электронной почты.<br/>               |
+| [**Текст**](taskschedulerschema-body-sendemailtype-element.md)                 | **строка**                                                                   | Задает текст в тексте сообщения электронной почты.<br/>                                  |
+| [**Кому**](taskschedulerschema-cc-sendemailtype-element.md)                     | **строка**                                                                   | Указывает адреса электронной почты, используемые в строке CC сообщения электронной почты.<br/>                |
+| [**Исходный тип**](taskschedulerschema-from-sendemailtype-element.md)                 | **строка**                                                                   | Указывает адрес электронной почты отправителя.<br/>                                            |
 | [**хеадерфиелдс**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**хеадерфиелдстипе**](taskschedulerschema-headerfieldstype-complextype.md) | Задает поля заголовка и их значения, используемые в заголовке сообщения электронной почты.<br/> |
-| [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **string**                                                                   | Указывает адреса электронной почты, на которые вы ответили в сообщении электронной почты.<br/>               |
-| [**Сервером**](taskschedulerschema-server-sendemailtype-element.md)             | [**нонемптистринг**](taskschedulerschema-nonemptystring-simpletype.md)      | Указывает сервер электронной почты, используемый для отправки сообщения электронной почты. <br/>                           |
-| [**Субъект**](taskschedulerschema-subject-sendemailtype-element.md)           | **string**                                                                   | Указывает тему сообщения электронной почты.<br/>                                           |
-| [**Кому**](taskschedulerschema-to-sendemailtype-element.md)                     | **string**                                                                   | Указывает адреса электронной почты, на которые будет отправлено сообщение электронной почты.<br/>                        |
+| [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **строка**                                                                   | Указывает адреса электронной почты, на которые вы ответили в сообщении электронной почты.<br/>               |
+| [**Сервер**](taskschedulerschema-server-sendemailtype-element.md)             | [**нонемптистринг**](taskschedulerschema-nonemptystring-simpletype.md)      | Указывает сервер электронной почты, используемый для отправки сообщения электронной почты. <br/>                           |
+| [**Тема**](taskschedulerschema-subject-sendemailtype-element.md)           | **строка**                                                                   | Указывает тему сообщения электронной почты.<br/>                                           |
+| [**Кому**](taskschedulerschema-to-sendemailtype-element.md)                     | **строка**                                                                   | Указывает адреса электронной почты, на которые будет отправлено сообщение электронной почты.<br/>                        |
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о разработке на языке C++ см. в разделе интерфейс [**иемаилактион**](/windows/win32/api/taskschd/nn-taskschd-iemailaction) .
 
@@ -73,14 +73,14 @@ ms.locfileid: "103989107"
 
 Полный пример XML-кода для задачи, указывающей действие электронной почты, см. в разделе [пример триггера события (XML)](/previous-versions//aa446889(v=vs.85)).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 | Окончание поддержки клиента<br/>    | Windows 7<br/>                                 |
 | Поддержка конца сервера<br/>    | Windows Server 2008 R2<br/>                    |
 

@@ -48,12 +48,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fc7a6073ab2841fde4492cd59ae1696aeca9f6a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1d9f41178c69f40513b26de5221af6eb7b5e425acf5c4893f2de87fb18211291
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079914"
 ---
 # <a name="win32_codecfile-class"></a>\_Класс Win32 кодекфиле
 
@@ -125,7 +125,7 @@ class Win32_CodecFile : CIM_DataFile
 | [**компрессекс**](compressex-method-in-class-win32-codecfile.md)                                   | Сжимает логический файл (или каталог), указанный в пути объекта.<br/>                                                                                                                                    |
 | [**Копировать**](copy-method-in-class-win32-codecfile.md)                                               | Копирует логический файл или каталог, указанный в пути к объекту, в расположение, указанное входным параметром.<br/>                                                                                         |
 | [**копекс**](copyex-method-in-class-win32-codecfile.md)                                           | Метод класса, копирующий логический файл или каталог, указанный в пути к объекту, в расположение, указанное параметром FileName.<br/>                                                                    |
-| [**Удалить**](delete-method-in-class-win32-codecfile.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта.<br/>                                                                                                                                       |
+| [**Удален**](delete-method-in-class-win32-codecfile.md)                                           | Удаляет логический файл (или каталог), указанный в пути объекта.<br/>                                                                                                                                       |
 | [**делетикс**](deleteex-method-in-class-win32-codecfile.md)                                       | Удаляет логический файл (или каталог), указанный в пути объекта.<br/>                                                                                                                                       |
 | [**жетеффективепермиссион**](geteffectivepermission-method-in-class-win32-codecfile.md)           | Определяет, имеет ли вызывающий объект агрегированные разрешения, заданные аргументом **разрешения** , не только для объекта File, но и для общего ресурса, в котором находится файл или каталог (если он находится в общей папке).<br/> |
 | [**Имени**](rename-method-in-class-win32-codecfile.md)                                           | Метод класса, который переименовывает логический файл (или каталог), указанный в пути к объекту.<br/>                                                                                                                     |
@@ -285,7 +285,7 @@ class Win32_CodecFile : CIM_DataFile
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -547,7 +547,7 @@ class Win32_CodecFile : CIM_DataFile
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt64**
@@ -630,7 +630,7 @@ class Win32_CodecFile : CIM_DataFile
 Тип доступа: только для чтения
 </dt> <dt>
 
-Квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Drivers. desc")
+квалификаторы: [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ drivers. desc")
 </dt> </dl>
 
 Кодек, представленный этим классом.
@@ -767,7 +767,7 @@ class Win32_CodecFile : CIM_DataFile
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -783,7 +783,7 @@ class Win32_CodecFile : CIM_DataFile
 
 Это свойство наследуется от [**CIM \_ манажедсистемелемент**](cim-managedsystemelement.md).
 
-Пример: "C: \\ Windows \\ System \\win.ini"
+пример: "C: \\ Windows \\ system \\win.ini"
 
 </dd> <dt>
 
@@ -985,11 +985,11 @@ class Win32_CodecFile : CIM_DataFile
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ кодекфиле** является производным от [**CIM- \_ файла**](cim-datafile.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -1003,7 +1003,7 @@ class Win32_CodecFile : CIM_DataFile
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

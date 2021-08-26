@@ -4,19 +4,19 @@ ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: Пример сопоставления файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b92922bb907c4dd90b3e2bdc3d16c8e8b52e6a
-ms.sourcegitcommit: b0d03febac36ff77cba034615b94ea103311398d
+ms.openlocfilehash: 3ad24c3e65ca5b297412c4a69702987cd86b5187dab63dd81435d50e7d06721d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "107715792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009534"
 ---
 # <a name="file-association-example"></a>Пример сопоставления файлов
 
 В следующем примере гипотетическая компания разработки программного обеспечения под названием Litware, Inc. создает новый звуковой проигрыватель с именем Литвареплайер. Litware хочет разработать сопоставление файлов между Литвареплайер и его первичным типом файлов, который использует недавно разработанный звуковой формат, позволяющий хранить весь аудио компакт-диск менее чем на 10 килобайтах памяти без потери качества.
 
 > [!IMPORTANT]
-> Этот раздел не относится к Windows 10. Способ изменения связей файлов по умолчанию в Windows 10. Дополнительные сведения см. в разделе об **изменениях в статье обработка приложений по умолчанию** в [этой записи](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)в Windows 10.
+> Этот раздел не относится к Windows 10. Способ изменения связей файлов по умолчанию в Windows 10. дополнительные сведения см. в разделе об **изменениях Windows 10 обработки приложений по умолчанию** в [этой записи](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
@@ -66,7 +66,7 @@ ms.locfileid: "107715792"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 -   [Общие сведения о сопоставлении файлов](fa-intro.md)
--   [Как зарегистрировать Интернет браузер или почтовый клиент в меню "Пуск" Windows](start-menu-reg.md)
+-   [как зарегистрировать веб – браузер или почтовый клиент в меню "пуск" Windows](start-menu-reg.md)
 -   [Регистрация приложения в схеме URI](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## <a name="related-topics"></a>Связанные темы
@@ -76,7 +76,7 @@ ms.locfileid: "107715792"
 [Рекомендации по сопоставлению файлов](fa-best-practices.md)
 </dt> <dt>
 
-[Рекомендации по управлению приложениями по умолчанию в Windows Vista и более поздних версиях](vista-managing-defaults.md)
+[рекомендации по управлению приложениями по умолчанию в Windows Vista и более поздних версий](vista-managing-defaults.md)
 </dt> <dt>
 
 [Программы по умолчанию](default-programs.md)

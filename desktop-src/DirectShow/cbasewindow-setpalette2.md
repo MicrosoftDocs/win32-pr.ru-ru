@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1203b6aeedd39eb82d7188c4e5d5503b01d167fe
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f15df65f6e427e467c14654a0e2745b84d774a5226b9a526193fc546261c5a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104273994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052154"
 ---
 # <a name="cbasewindowsetpalette-method-winutilh---no-parameters"></a>Кбасевиндов. Сетпалетте, метод (Винутил. h) — без параметров
 
@@ -55,7 +55,7 @@ HRESULT SetPalette();
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Выбрана палитра, заданная переменной-членом [**кбасевиндов:: m \_ хпалетте**](cbasewindow-m-hpalette.md) . Вызывающий объект должен гарантировать допустимость **m \_ хпалетте**.
 
@@ -67,7 +67,7 @@ HRESULT SetPalette();
 
 | Требование | Значение |
 |-|-|
-| Header | Винутил. h (включение Streams. h) |
+| Заголовок | винутил. h (включает Потоки. h) |
 | Библиотека| Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
 ## <a name="see-also"></a>См. также раздел

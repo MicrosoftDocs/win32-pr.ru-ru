@@ -4,12 +4,12 @@ ms.assetid: 472fc0ac-e840-433d-9f1a-510f202e723e
 title: Использование процессов и потоков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7b10a741ab8404c62095ae0c33199cef44a5993
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c64c6aa50d58958e30cf841a3b15edd08ed71fd3ea2b2f5781440633030e651a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081274"
 ---
 # <a name="using-processes-and-threads"></a>Использование процессов и потоков
 
