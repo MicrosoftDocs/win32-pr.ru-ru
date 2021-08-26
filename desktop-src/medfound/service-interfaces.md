@@ -4,12 +4,12 @@ ms.assetid: 264a0e86-49e9-4777-956b-a83e9db52a25
 title: Интерфейсы службы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31687cc1c1283eb59c7731743eaf4ece0127b392
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d99155eb5cfb8c435281a5f23567759931cc53fae3743d9c76ce7be75f68c380
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060418"
 ---
 # <a name="service-interfaces"></a>Интерфейсы службы
 
@@ -30,7 +30,7 @@ ms.locfileid: "105711399"
 | Идентификатор службы                          | Интерфейс                                                                                                                                | Объекты, которые могут предоставлять доступ к этой службе                                                                                                            |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_ \_ служба поставщика метаданных \_ MF             | [**имфметадатапровидер**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadataprovider)                                                                                       | Источники мультимедиа                                                                                                                                     |
-| \_Служба MF медиасаурце \_                    | [**имфмедиасаурце**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource)                                                                                                 | Поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
+| \_Служба MF медиасаурце \_                    | [**имфмедиасаурце**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource)                                                                                                 | поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
 | \_PMP \_ сервера MF \_                    | [**имфпмпсервер**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver)                                                                                                     | Сеанс защищенного пути к носителю (PMP).                                                                                                         |
 | \_службы MF Quality \_ Services                       | [**имфкуалитядвисе**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)                                                                                             | Источники мультимедиа.                                                                                                                                    |
 | \_ \_ Служба управления скоростью \_ MF                  | [**имфратеконтрол**](/windows/desktop/api/mfidl/nn-mfidl-imfratecontrol)                                                                                                 | Источники мультимедиа, сеанс мультимедиа                                                                                                                      |
@@ -41,8 +41,8 @@ ms.locfileid: "105711399"
 | Служба времени код MF \_ \_                       | [**имфтимекодетранслате**](/windows/desktop/api/mfidl/nn-mfidl-imftimecodetranslate)                                                                                     | Источник носителя ASF.                                                                                                                                 |
 | \_ \_ \_ Служба редактора атрибутов MF \_ топоноде    | [**имфтопологинодеаттрибутидитор**](/windows/desktop/api/mfidl/nn-mfidl-imftopologynodeattributeeditor)                                                                 | Сеанс мультимедиа                                                                                                                                     |
 | \_инкапсулированный в оболочку \_ объект                         | [**имфбитестреам**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)                                                                                                   | Обтекаемые объекты                                                                                                                                   |
-| \_Служба буфера с оболочкой MF \_ \_                |                                                                                                                                          | Поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
-| \_ \_ Пример службы с УПАКОВАНной MF \_                 |                                                                                                                                          | Поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
+| \_Служба буфера с оболочкой MF \_ \_                |                                                                                                                                          | поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
+| \_ \_ Пример службы с УПАКОВАНной MF \_                 |                                                                                                                                          | поддерживается в Windows 8.1 и более поздних версиях.<br/>                                                                                                    |
 | MF \_ ворккуеуе \_ Services                     | [**имфворккуеуесервицес**](/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices)                                                                                     | Сеанс мультимедиа                                                                                                                                     |
 | \_Служба мфнет савежоб \_                     | [**имфсавежоб**](/windows/desktop/api/mfidl/nn-mfidl-imfsavejob)                                                                                                         | Байтовые потоки                                                                                                                                      |
 | \_Служба статистики \_ мфнетсаурце            | **ипропертисторе**                                                                                                                       | Источник сети. Используйте эту службу для получения статистики сети. См [**. \_ свойство мфнетсаурце Statistics**](mfnetsource-statistics-property.md). |
@@ -52,9 +52,9 @@ ms.locfileid: "105711399"
 | \_ \_ Служба томов с политикой MR \_                 | [**имфсимплеаудиоволуме**](/windows/desktop/api/mfidl/nn-mfidl-imfsimpleaudiovolume)                                                                                     | Модуль подготовки звука                                                                                                                                    |
 | \_ \_ Служба тома MR \_ Stream                 | [**имфаудиостреамволуме**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiostreamvolume)                                                                                     | Модуль подготовки звука                                                                                                                                    |
 | \_ \_ Служба ускорения видео Mr \_            | [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9), [ **идиректксвидеоакцелератионсервице**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice) | Улучшенный обработчик видео (Евр)                                                                                                                     |
-| \_ \_ Служба ускорения видео Mr \_            | [**идиректксвидеомемориконфигуратион**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration)                                                             | Входные сигналы в фильтре Евр DirectShow                                                                                                           |
+| \_ \_ Служба ускорения видео Mr \_            | [**идиректксвидеомемориконфигуратион**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration)                                                             | входные пин-коды DirectShow фильтра евр                                                                                                           |
 | \_ \_ Служба ускорения видео Mr \_            | [**Интерфейс Имфвидеосамплеаллокатор**](/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator)                                                                     | Приемники потоков Евр.                                                                                                                                 |
-| \_ \_ Служба видеомикшера MR \_                   | Различные интерфейсы, предоставляемые микшером Евр. См. раздел [Использование элементов управления видео микшера](using-the-video-mixer-controls.md).                   | евр                                                                                                                                               |
+| \_ \_ Служба видеомикшера MR \_                   | Различные интерфейсы, предоставляемые микшером Евр. см. раздел [использование элементов управления видео Mixer](using-the-video-mixer-controls.md).                   | евр                                                                                                                                               |
 | \_ \_ Служба прорисовки видео Mr \_                  | Различные интерфейсы, предоставляемые средством отображения Евр. См. раздел [Использование элементов управления отображением видео](using-the-video-display-controls.md).           | евр                                                                                                                                               |
 
 
@@ -129,7 +129,7 @@ SAFE_RELEASE(pRateControl);
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,19 +1,19 @@
 ---
-description: В этом разделе приведен шаг 4 руководства по воспроизведению аудио-и видеороликов в DirectShow.
+description: В этом разделе приведен шаг 4 руководства воспроизведение аудио-и видеороликов в DirectShow.
 ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
 title: Шаг 4. Добавление модуля подготовки видео
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea17a0622909525f69cf64fd374c8512a8fa9bb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae2d73dce5bba34f92c8df59cd9730ef1e25b57b9757039d9bda5c2e4432d734
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051414"
 ---
 # <a name="step-4-add-the-video-renderer"></a>Шаг 4. Добавление модуля подготовки видео
 
-В этом разделе приведен шаг 4 руководства по [воспроизведению аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе приведен шаг 4 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
 DirectShow предоставляет несколько различных фильтров, которые визуализируют видео:
 
@@ -461,14 +461,14 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Пример воспроизведения DirectShow](directshow-playback-example.md)
+[DirectShow Пример воспроизведения](directshow-playback-example.md)
 </dt> <dt>
 
-[Использование фильтра Евр DirectShow](../medfound/using-the-directshow-evr-filter.md)
+[использование DirectShow фильтра евр](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Использование модуля подготовки видео для микширования](using-the-video-mixing-renderer.md)

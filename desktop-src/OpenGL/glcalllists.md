@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a119f3a63b0f04140a72cc5ca818833ae9ea8b20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 379e15c382b23558786443f03f57349b2504ad251301e3e195885e276d7dbebe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082114"
 ---
 # <a name="glcalllists-function"></a>Функция Глкалллистс
 
@@ -86,7 +86,7 @@ void WINAPI glCallLists(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глкалллистс** приводит к тому, что каждый список экранов в списке имен передается как *списки* для выполнения. В результате функции, сохраненные в каждом списке вывода, выполняются по порядку, так же, как если бы они были вызваны без использования списка дисплеев. Имена списков вывода, которые не были определены, игнорируются.
 
@@ -110,7 +110,7 @@ void WINAPI glCallLists(
 
 [**глислист**](glislist.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,7 +124,7 @@ void WINAPI glCallLists(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

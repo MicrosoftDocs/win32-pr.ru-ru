@@ -3,7 +3,7 @@ title: Команда приостановки
 description: Команда Pause приостанавливает воспроизведение или запись.
 ms.assetid: 8fa1a40d-fdb1-4c9f-a8db-9dd6a0d83b87
 keywords:
-- Приостановка команды мультимедиа Windows
+- команда приостановки Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25957defa4db514ce84f2e013dcc3751e21779b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05f91441113d060a98219263e49388b99396fa2eeeb78d8f3eabdd6c71d8a3a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038094"
 ---
 # <a name="pause-command"></a>Команда приостановки
 
@@ -56,7 +56,7 @@ _stprintf_s(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При использовании драйверов МЦИКДА, МЦИСЕК и МЦИПИОНР команда Pause работает так же, как команда [остановки](stop.md) .
 
@@ -68,7 +68,7 @@ _stprintf_s(
 pause mysound
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -79,7 +79,7 @@ pause mysound
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

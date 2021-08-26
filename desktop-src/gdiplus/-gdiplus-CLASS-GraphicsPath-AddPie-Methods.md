@@ -4,12 +4,12 @@ ms.assetid: 8327b2cc-855e-419e-82c1-2a424aef2838
 title: Методы GraphicsPath. Аддпие (Гдиплуспас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 23a1a1d7cb2009bcc201e5d29af01ce2f57f1b6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ceea1b63d7b90779731bad4b64b6d291201c0a1808614d4d949462b478b1c11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104998945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092474"
 ---
 # <a name="graphicspathaddpie-methods"></a>Методы GraphicsPath. Аддпие
 
@@ -28,13 +28,13 @@ ms.locfileid: "104998945"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Гдиплуспас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Гдиплуспас. h</dt> </dl> |
 
 
 

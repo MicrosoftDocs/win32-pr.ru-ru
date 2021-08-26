@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b33b0e2f009b796eb0b8828cc195fb9543ba2b9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 537b2460b73f30397561dea37bcb3711b64a935c43d45662428585a47d6f6574
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095354"
 ---
 # <a name="hlsl-shader-model-5"></a>Модель шейдера HLSL 5
 
 В этом разделе содержится обзорный материал для языка High-Level шейдера, в частности новые функции в модели шейдеров 5, появившиеся в Microsoft Direct3D 11.
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "103890780"
 
 Кроме того, в разделе Reference рассматриваются многие новые элементы API для Shader Model 5, включая [атрибуты](d3d11-graphics-reference-sm5-attributes.md), [встроенные функции](d3d11-graphics-reference-sm5-intrinsics.md), [объекты и методы модели шейдеров 5](d3d11-graphics-reference-sm5-objects.md), а также [системные значения](d3d11-graphics-reference-sm5-system-values.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

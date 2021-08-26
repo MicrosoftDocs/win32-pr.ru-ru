@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Processthreadapi.h
-ms.openlocfilehash: 0283275856e8e68bf983aaeb9a7660a5a0a6bf59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c932a143553c1101d6a81bac86ba54e21603eaf80ed5d2613484bff22a7e625
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101934"
 ---
 # <a name="cpu_set_information_type-enumeration"></a>\_ \_ Перечисление типов сведений о НАБОРе ЦП \_
 
@@ -46,15 +46,15 @@ typedef enum _CPU_SET_INFORMATION_TYPE {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                                              |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                       |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                                              |
+| Заголовок<br/>                   | <dl> <dt>процесссреадсапи. h (включает Windows. h)</dt> </dl> |
 
 
 

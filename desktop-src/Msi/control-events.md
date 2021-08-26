@@ -1,17 +1,17 @@
 ---
 description: Таблице ControlEvent событие указывает действие, выполняемое установщиком, или изменение атрибутов одного или нескольких элементов управления в диалоговом окне. Дополнительные сведения о Контролевентс см. в разделе Обзор таблице ControlEvent событие.
 ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
-title: События элемента управления (установщик Windows)
+title: события элемента управления (установщик Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221e8d9e6a8cea9a02b303040d06da346800912e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdd72e93da7ed84c845b5993b2a021119c861b682ab5eb4645c69c723b17a404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075094"
 ---
-# <a name="control-events-windows-installer"></a>События элемента управления (установщик Windows)
+# <a name="control-events-windows-installer"></a>события элемента управления (установщик Windows)
 
 Таблице ControlEvent событие указывает действие, выполняемое установщиком, или изменение атрибутов одного или нескольких элементов управления в диалоговом окне. Дополнительные сведения о Контролевентс см. в разделе [Обзор таблице ControlEvent событие](controlevent-overview.md).
 
@@ -34,12 +34,12 @@ ms.locfileid: "105663583"
 | [енаблероллбакк](enablerollback-controlevent.md)                   | Используется для включения и выключения возможностей отката.                                                                                                                                                                |
 | [EndDialog](enddialog-controlevent.md)                             | Уведомляет установщик о необходимости удаления модального диалогового окна.                                                                                                                                                          |
 | [игноречанже](ignorechange-controlevent.md)                       | Публикуется элементом управления Директорилист, когда папка выделяется, но не открывается.                                                                                                                           |
-| [мсилаунчапп](msilaunchapp-controlevent.md)                       | Это событие элемента управления выполняет указанный файл. **[Установщик Windows 4,5 и более ранних версий](not-supported-in-windows-installer-4-5.md):** Не поддерживается.<br/>                                                       |
-| [мсипринт](msiprint-controlevent.md)                               | Позволяет пользователю печатать содержимое [элемента управления скроллаблетекст](scrollabletext-control.md). **[Установщик Windows 4,5 и более ранних версий](not-supported-in-windows-installer-4-5.md):** Не поддерживается.<br/> |
+| [мсилаунчапп](msilaunchapp-controlevent.md)                       | Это событие элемента управления выполняет указанный файл. **[установщик Windows 4,5 и более ранних версий](not-supported-in-windows-installer-4-5.md):** Не поддерживается.<br/>                                                       |
+| [мсипринт](msiprint-controlevent.md)                               | Позволяет пользователю печатать содержимое [элемента управления скроллаблетекст](scrollabletext-control.md). **[установщик Windows 4,5 и более ранних версий](not-supported-in-windows-installer-4-5.md):** Не поддерживается.<br/> |
 | [невдиалог](newdialog-controlevent.md)                             | Уведомляет установщик о необходимости изменения модального диалогового окна в другое диалоговое окно.                                                                                                                                  |
 | [Переустановка](reinstall-controlevent.md)                             | Инициирует повторную установку компонентов.                                                                                                                                                                       |
 | [ReinstallMode](reinstallmode-controlevent.md)                     | Задает режим проверки во время повторной установки.                                                                                                                                                        |
-| [Удалить](remove-controlevent.md)                                   | Уведомляет установщик о том, что функции выбраны для удаления.                                                                                                                                                |
+| [Remove](remove-controlevent.md)                                   | Уведомляет установщик о том, что функции выбраны для удаления.                                                                                                                                                |
 | [Сброс](reset-controlevent.md)                                     | Сбрасывает все значения свойств до значений по умолчанию, используемых при создании диалогового окна.                                                                                                                    |
 | [рмшутдовнандрестарт](rmshutdownandrestart-controlevent.md)       | Используйте [Диспетчер перезапуска](/windows/desktop/RstMgr/restart-manager-portal) , чтобы завершить работу всех приложений, в которых используются файлы, и перезапустить их в конце установки.                                                              |
 | [скриптинпрогресс](scriptinprogress-controlevent.md)               | Отображает строку во время компиляции скрипта выполнения.                                                                                                                                                     |

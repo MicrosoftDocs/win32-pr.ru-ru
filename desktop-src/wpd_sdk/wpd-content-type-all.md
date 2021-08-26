@@ -4,12 +4,12 @@ ms.assetid: 99f9382d-9bfe-4cf6-982f-fcd37e965cae
 title: WPD_CONTENT_TYPE_ALL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f42e5fa2a5d6e68b3ef2b7a024b81115fa536b99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66523f18d563d7a2ba04e38da2ad760ab39eb307f2f71fac20119ec491a5934a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006104"
 ---
 # <a name="wpd_content_type_all"></a>\_тип содержимого \_ WPD \_ ALL
 
@@ -53,7 +53,7 @@ ms.locfileid: "105647559"
 
 Обычно эти объекты не размещают ресурсы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

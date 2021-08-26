@@ -4,12 +4,12 @@ description: 2-мерный вектор точки — продукт комп�
 ms.assetid: E35F6A8B-6D8E-4660-B0F3-95B76BC19229
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4073def6cb315dc0268d1ce8e3f28039b9b2a69
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 65e50c791fc5c994cf6e8da56cabf64a257244519b8ee0d0d50137926bffef91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024644"
 ---
 # <a name="dp2-sm4---asm"></a>DP2 (SM4-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412152"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Скалярный результат реплицируется в компоненты в маске записи.
 
@@ -60,9 +60,9 @@ ms.locfileid: "104412152"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104412152"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

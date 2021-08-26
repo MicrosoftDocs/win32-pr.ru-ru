@@ -6,12 +6,12 @@ keywords:
 - OpenGL, введение
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cece636e51348288e587116bf13f95696b93ab9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa30507db7d7994fe9bf88d6b056d48ee0266b9e7f4959d82a31134a9c3ce5dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035024"
 ---
 # <a name="introduction-to-opengl"></a>Введение в OpenGL
 
@@ -25,7 +25,7 @@ ms.locfileid: "103986343"
 -   [Базовая операция OpenGL](basic-opengl-operation.md) предоставляет высокоуровневое описание того, как OpenGL обрабатывает данные для получения соответствующего изображения в буфера кадров.
 -   [Имена функций OpenGL](opengl-function-names.md) описание соглашений об именовании, используемых в OpenGL.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -50,9 +50,9 @@ ms.locfileid: "103986343"
 [Библиотека служебной программы OpenGL](opengl-utility-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

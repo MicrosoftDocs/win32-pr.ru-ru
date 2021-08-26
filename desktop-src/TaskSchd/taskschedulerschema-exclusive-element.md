@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e0cd7cf5b2a5ce3aa68f92834aa45563000945d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aab796abfdcad67a348b6d42186732d402bbe8eeeb359ac772588fe809dbf73c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991334"
 ---
 # <a name="exclusive-element"></a>Эксклюзивный элемент
 
@@ -46,7 +46,7 @@ ms.locfileid: "105681790"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При программировании на C++ этот параметр простоя указывается с помощью свойства [**имаинтенанцесеттингс:: Exclusive**](/windows/desktop/api/Taskschd/nf-taskschd-imaintenancesettings-get_exclusive) .
 
@@ -71,8 +71,8 @@ ms.locfileid: "105681790"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/> |
 
 
 

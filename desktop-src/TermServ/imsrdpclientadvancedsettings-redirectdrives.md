@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c83d24ae4ea4dae2760c1e468f4fa8b326a94c38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2cca4aece1da6d609ab90e306252346c9fea54e9960d70efb0bd3c7adaad012
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125704"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectdrives-property"></a>Свойство Имсрдпклиентадванцедсеттингс:: Редиректдривес
 
@@ -90,11 +90,11 @@ HRESULT get_RedirectDrives(
 
 При успешном выполнении возвращает значение **\_ ОК** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о веб-подключение к удаленному рабочему столу см. в разделе [требования для веб-подключение к удаленному рабочему столу](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -108,7 +108,7 @@ HRESULT get_RedirectDrives(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

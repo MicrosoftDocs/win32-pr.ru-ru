@@ -4,12 +4,12 @@ description: Microsoft RPC обеспечивает несколько уров�
 ms.assetid: d9ed938e-4cd4-4355-8d08-830f955dd00c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c5fd25efb84b4ee2834e6f79c7fdd21dd903d55
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8cff12dae7331577da7748c2dc069bd6e7e4af6cfb1961f80d3de461930ddc3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104253224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080904"
 ---
 # <a name="authentication-levels"></a>Уровни проверки подлинности
 
@@ -21,9 +21,9 @@ Microsoft RPC обеспечивает несколько уровней про�
 
 Клиентская и серверная части распределенного приложения должны использовать одинаковый уровень проверки подлинности. Список уровней проверки подлинности RPC см. в разделе [константы уровня проверки подлинности](authentication-level-constants.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59c9ca5f58cf2adadeb5a6a0618457472cde976c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0e9cbacff2d330c869c35eb7a3d1ca46ae6c80a030495ffec42eabc3726436c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006544"
 ---
 # <a name="wmdrm_analog_video_restrictions_ex-structure"></a>\_Ограничения аналогового видео WMDRM — \_ \_ \_ Структура
 
@@ -72,9 +72,9 @@ typedef struct WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -82,7 +82,7 @@ typedef struct WMDRM_ANALOG_VIDEO_RESTRICTIONS_EX {
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

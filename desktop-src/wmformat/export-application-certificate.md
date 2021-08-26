@@ -3,8 +3,8 @@ title: Экспорт сертификата приложения
 description: Экспорт сертификата приложения
 ms.assetid: db450028-6753-4f96-9f63-fb34f6f5b90f
 keywords:
-- Windows Media Format SDK, экспорт DRM
-- Пакет Windows Media Format SDK, экспорт
+- Windows Пакет SDK для формата мультимедиа, экспорт DRM
+- Windows Пакет SDK для формата мультимедиа, экспорт
 - Управление цифровыми правами (DRM), экспорт
 - DRM (Управление цифровыми правами), экспорт
 - Управление цифровыми правами (DRM), экспорт сертификата приложения
@@ -14,28 +14,28 @@ keywords:
 - Экспорт сертификата приложения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44aaaeaf60afc3e57bbd83a350d758db72f077b2
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 4363408ee47cb372fe68a24ae9839dc147ef7541d40aaa143e21abd512f05e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104414096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089705"
 ---
 # <a name="export-application-certificate"></a>Экспорт сертификата приложения
 
-Для экспорта содержимого, защищенного с помощью DRM Windows Media, необходимо получить сертификат приложения для экспорта DRM Windows Media, который вы получаете после ввода в соглашение об экспорте DRM в корпорацию Майкрософт.
+чтобы экспортировать Windows содержимое, защищенное drm, необходимо получить сертификат приложения Windows media drm export, который вы получаете после ввода в соглашение об экспорте drm в корпорацию майкрософт.
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Экспорт DRM**](drm-export.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

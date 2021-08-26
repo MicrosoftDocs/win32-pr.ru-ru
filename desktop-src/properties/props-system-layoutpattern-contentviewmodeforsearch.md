@@ -4,12 +4,12 @@ ms.assetid: 1a059c44-a0ae-4041-8878-e1be40dd6612
 title: System. Лайаутпаттерн. Контентвиевмодефорсеарч
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43379691a8cc5ee5416aa0f2fe36f4b60a898796
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb76b1dfa8f2727a2d770eb98be2e583123610190fe417e9c304d4c609b854d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058674"
 ---
 # <a name="systemlayoutpatterncontentviewmodeforsearch"></a>System. Лайаутпаттерн. Контентвиевмодефорсеарч
 
@@ -52,11 +52,11 @@ propertyDescription
             defineToken = LAYOUTPATTERN_CVMFS_DELTA
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

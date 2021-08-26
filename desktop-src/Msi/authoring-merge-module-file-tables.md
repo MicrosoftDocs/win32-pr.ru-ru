@@ -4,16 +4,16 @@ ms.assetid: 436933c7-6e5d-4b4e-9147-c60a26871dbe
 title: Создание таблиц файлов модулей слияния
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2687ed69c1a0362f96db896a5fdf4237ac4681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 715fe570a96015f62e45b0c2924b2a83be8eefc067e5d054decd59110b7797c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045474"
 ---
 # <a name="authoring-merge-module-file-tables"></a>Создание таблиц файлов модулей слияния
 
-[Таблица файлов](file-table.md) необходима в каждом модуле слияния и должна иметь запись для каждого файла, который доставляется в целевой пакет установки модулем слияния. При слиянии модуля слияния в MSI-файл каждый файл в таблице файла модуля слияния сохраняется в [*CAB*](c-gly.md) -файле в файле MSM. Имя CAB-файла в модуле слияния всегда является следующим: MergeModule.CABinet.
+[Таблица файлов](file-table.md) необходима в каждом модуле слияния и должна иметь запись для каждого файла, который доставляется в целевой пакет установки модулем слияния. При слиянии модуля слияния в файл .msi каждый файл в таблице файла модуля слияния сохраняется в [*CAB-файле*](c-gly.md) в файле. msm. Имя CAB-файла в модуле слияния всегда является следующим: MergeModule.CABinet.
 
 Дополнительные сведения см. в разделе [Создание CAB-файлов MergeModule.CABinet](generating-mergemodule-cabinet-cabinet-files.md).
 

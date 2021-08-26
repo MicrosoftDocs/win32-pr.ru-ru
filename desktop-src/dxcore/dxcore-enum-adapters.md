@@ -4,18 +4,18 @@ description: Рассмотрим основные функции Дкскоре
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: f1c21971f2daea69de1f317d1db8eceb9ec00118
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc2120c85b48b89478d1a10c8cf853c947e6553d
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719124"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812356"
 ---
 # <a name="using-dxcore-to-enumerate-adapters"></a>Перечисление адаптеров с использованием DXCore
 
 Дкскоре — это API перечисления адаптеров для устройств DirectX, поэтому некоторые его средства перекрываются с устройствами [DXGI](../direct3ddxgi/dx-graphics-dxgi.md).
 
-Дкскоре позволяет раскрытие новых типов устройств в пользовательском режиме, например МКДМ (модель драйвера вычислений Майкрософт), для использования с [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [директмл](../direct3d12/dml.md)и [Windows машинное обучение](/windows/ai/windows-ml/). Дкскоре, в отличие от DXGI, не предоставляет никаких сведений о технологиях и свойствах, связанных с отображением.
+дкскоре позволяет раскрытие новых типов устройств в пользовательском режиме, например мкдм (модель драйвера вычислений майкрософт), для использования с [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [директмл](/windows/ai/directml/dml)и [Windows Машинное обучение](/windows/ai/windows-ml/). Дкскоре, в отличие от DXGI, не предоставляет никаких сведений о технологиях и свойствах, связанных с отображением.
 
 В следующих нескольких разделах мы рассмотрим основные возможности Дкскоре с примерами кода (написанными на [C++/WinRT](/windows/uwp/cpp-and-winrt-apis)). Приведенные ниже примеры кода извлекаются из полного листинга исходного кода, который можно найти в разделе [минимальное приложение дкскоре](dxcore-source-code.md).
 
@@ -192,9 +192,9 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## <a name="display-information"></a>Отображение сведений
 
 > [!NOTE]
-> Дкскоре сам по себе не предоставляет никаких отображаемых сведений. При необходимости для получения этих сведений следует использовать класс среда выполнения Windows [**дисплаймонитор**](/uwp/api/windows.devices.display.displaymonitor) . [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) адаптера предоставляет общий идентификатор, с помощью которого можно сопоставлять адаптер дкскоре с информацией [**дисплаймонитор. дисплайадаптерид**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) . Чтобы получить LUID адаптера, передайте [**дкскореадаптерпроперти:: инстанцелуид**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) в метод [**Идкскореадаптер:: Property**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) .
+> Дкскоре сам по себе не предоставляет никаких отображаемых сведений. при необходимости для получения этих сведений следует использовать класс среда выполнения Windows [**дисплаймонитор**](/uwp/api/windows.devices.display.displaymonitor) . [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) адаптера предоставляет общий идентификатор, с помощью которого можно сопоставлять адаптер дкскоре с информацией [**дисплаймонитор. дисплайадаптерид**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) . Чтобы получить LUID адаптера, передайте [**дкскореадаптерпроперти:: инстанцелуид**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) в метод [**Идкскореадаптер:: Property**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Приложение DXCore с минимальным набором функций](dxcore-source-code.md)
 * [Справочник по Дкскоре](./dxcore-reference.md)

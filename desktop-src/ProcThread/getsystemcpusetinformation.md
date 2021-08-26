@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: d8ce490e3377e45a81b24523504d06941755de49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 011a809c78f2e94e6d16bbe5deb716ee7e97db356765bb771709048d3b00d05a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995374"
 ---
 # <a name="getsystemcpusetinformation-function"></a>Функция Жетсистемкпусетинформатион
 
@@ -90,9 +90,9 @@ BOOL WINAPI GetSystemCpuSetInformation(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 10 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2016 \|\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 

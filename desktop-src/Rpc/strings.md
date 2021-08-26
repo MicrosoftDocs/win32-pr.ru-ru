@@ -4,12 +4,12 @@ description: Атрибут \ String \ и удаленный вызов проц
 ms.assetid: 794e03f2-b1e9-42dc-8536-9ced5c0e3dad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e413c0b3b8f5a379dc3448f07aed4a5a7a6aba07
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9e58b0750169a89f34840333f1ea55ee2ee096b24f3b87e425035f04ca759849
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127704"
 ---
 # <a name="string-attribute-rpc"></a>строковый атрибут (RPC)
 
@@ -26,6 +26,6 @@ ms.locfileid: "103987786"
 -   [\[в, out, строковый \] прототип](-in-out-string-prototype.md)
 -   [\[в, String \] и \[ out, строковый \] прототип](-in-string-and-out-string-prototype.md)
 
- 
+ 
 
- 
+ 

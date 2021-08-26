@@ -4,12 +4,12 @@ ms.assetid: 596e4750-9fd6-4de5-b2af-40de39d6a602
 title: System.Storage.SysТемкритикал
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60772fd0710fdf1c5bd1d7bef1cc9e84c8ada921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 616a27f1aa316c2fec5926df3fbb8aa2cf7d4e702a8593ccd4a8b29c29eca5aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058404"
 ---
 # <a name="systemstoragesystemcritical"></a>System.Storage.SysТемкритикал
 
@@ -30,11 +30,11 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

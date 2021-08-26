@@ -4,12 +4,12 @@ description: Когда диспетчер групп многоадресной
 ms.assetid: 136f86e0-380d-4158-a9dd-c6de1c7f6689
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c97f0e16e08bc3781b946a51f69d2b0d65b3272
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17b3464aa645a6ab110acef09f238ffca97f781a38cc6c2602a39e7c66316490
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074074"
 ---
 # <a name="local-join-callbacks"></a>Обратные вызовы локального объединения
 
@@ -17,9 +17,9 @@ ms.locfileid: "104486937"
 
 Этот обратный вызов и обратный вызов [**\_ \_ \_ обратного вызова пмгм локального выхода**](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_leave_callback) используются для синхронизации перенаправления между протоколами IGMP и маршрутизацией.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41424a8af3ca6599edc7a66f9e498632640022c5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d1c0f10456c1038da46d9070689713a8237f876bec7ce7da40acf3d81d89ad15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128024"
 ---
 # <a name="glpopmatrix-function"></a>Функция Глпопматрикс
 
@@ -57,7 +57,7 @@ void WINAPI glPopMatrix(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Существует стек матриц для каждого режима матрицы. В \_ моделвиев режиме GL глубина стека составляет не менее 32. В двух других режимах — \_ проекция и \_ текстура GL, глубина — не менее 2. Текущая матрица в любом режиме — это матрица, расположенная в верхней части стека для этого режима.
 
@@ -99,7 +99,7 @@ void WINAPI glPopMatrix(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

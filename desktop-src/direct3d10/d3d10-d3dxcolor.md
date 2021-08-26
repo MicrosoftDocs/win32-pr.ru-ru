@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 9e919f86cebba1526908020881b73c01e02b7df3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 522b16d24d32376d8305cf04d1eb8e1d54b9eed327bedd797721697fcb5d24db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070184"
 ---
 # <a name="d3dxcolor-structure-d3dx10mathh"></a>Структура D3DXCOLOR (D3DX10Math. h)
 
@@ -86,13 +86,13 @@ typedef struct D3DXCOLOR {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 

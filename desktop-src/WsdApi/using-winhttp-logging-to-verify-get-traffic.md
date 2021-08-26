@@ -4,29 +4,29 @@ ms.assetid: ab4568bd-fc05-4e2a-ac8c-f035e6583a36
 title: Использование ведения журнала WinHTTP для проверки получения трафика
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448e4a127baf90a64291cbd14477c424270b332d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 031359dac8c8fa890568d6833cbfdf8c3d41d43bd52403a7def61a7392e8e23a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995224"
 ---
 # <a name="using-winhttp-logging-to-verify-get-traffic"></a>Использование ведения журнала WinHTTP для проверки получения трафика
 
 Если универсальный узел и клиент выполняются успешно, но фактический узел и клиент по-прежнему завершаются сбоем, возможно, запрос метаданных не инициируется. Ведение журнала [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) можно использовать для проверки того, что исходящие сообщения создаются и отправляются правильно.
 
-Клиентские приложения на основе WSDAPI используют [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) для подключения к устройствам. На узлах устройств на базе WSDAPI не используется WinHTTP. Кроме того, некоторые сторонние прокси не используют WinHTTP. При устранении неполадок с узлом или прокси-сервером, который не использует WinHTTP, пропустите эту диагностическую процедуру и продолжите устранение неполадок, выполнив процедуры, описанные в разделе [Проверка трассировки сети для обмена метаданными HTTP](inspecting-network-traces-for-http-metadata-exchange.md).
+Клиентские приложения на основе WSDAPI используют [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) для подключения к устройствам. На узлах устройств на базе WSDAPI не используется WinHTTP. Кроме того, некоторые сторонние прокси не используют WinHTTP. При устранении неполадок с узлом или прокси-сервером, который не использует WinHTTP, пропустите эту диагностическую процедуру и продолжите устранение неполадок, выполнив процедуры, описанные в разделе [Проверка трассировки сети для МЕТАДАННЫХ HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
-В журнале [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) не отображается весь трафик на уровне TCP. Перейдите к [анализу сетевых трассировок для обмена метаданными HTTP](inspecting-network-traces-for-http-metadata-exchange.md) , если трафик, помимо трафика HTTP, интересен.
+В журнале [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) не отображается весь трафик на уровне TCP. перейдите к [анализу трассировки сети для метаданных HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md) , если трафик, помимо трафика http, интересен.
 
 **Использование ведения журнала WinHTTP для проверки получения трафика**
 
 1.  [Запишите журналы WinHTTP.](capturing-winhttp-logs.md)
-2.  Запустите Блокнот или другой текстовый редактор. Текстовый редактор должен запускаться от имени администратора.
+2.  запустите Блокнот или другой текстовый редактор. Текстовый редактор должен запускаться от имени администратора.
 3.  Откройте файл журнала WinHTTP.
 4.  Убедитесь, что были отправлены необходимые HTTP-запросы и сообщения метаданных.
 
-Если сообщение [Get](get--metadata-exchange--http-request-and-message.md) для узла найдено в журналах WinHTTP, запросы метаданных отправляются на WinHTTP успешно. Продолжайте устранение неполадок, выполнив процедуры, описанные в статье [Проверка трассировки сети для обмена метаданными HTTP](inspecting-network-traces-for-http-metadata-exchange.md).
+Если сообщение [Get](get--metadata-exchange--http-request-and-message.md) для узла найдено в журналах WinHTTP, запросы метаданных отправляются на WinHTTP успешно. Продолжайте устранение неполадок, выполнив процедуры, описанные в статье [Проверка трассировки сети для Exchange МЕТАДАННЫХ HTTP](inspecting-network-traces-for-http-metadata-exchange.md).
 
 Если не удается найти сообщение [Get](get--metadata-exchange--http-request-and-message.md) для узла в журналах WinHTTP, запрос метаданных не инициируется. Это может произойти, когда узел публикует недопустимый Ксаддрс. Убедитесь, что Ксаддрс на узле соответствуют [правилам проверки ксаддр](xaddr-validation-rules.md).
 
@@ -99,7 +99,7 @@ ms.locfileid: "104264639"
 
 Элемент **Action** ( `<wsa:Action>https://schemas.xmlsoap.org/ws/2004/09/transfer/GetResponse</wsa:Action>` ) определяет сообщение как сообщение с [ответом](getresponse--metadata-exchange--message.md) . Убедитесь, что **значение элемента текст** сообщения о неответе совпадает со значением элемента **MessageId** сообщения [Get](get--metadata-exchange--http-request-and-message.md) . В этом примере значение элемента «Автотекст **» (** `<wsa:RelatesTo>urn:uuid:8506ac50-3646-4621-9680-86f484d87909</wsa:RelatesTo>` ) совпадает со значением элемента **MessageId** сообщения Get ( `<wsa:MessageID>urn:uuid:8506ac50-3646-4621-9680-86f484d87909</wsa:MessageID>` ).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

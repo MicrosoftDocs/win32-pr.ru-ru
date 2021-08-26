@@ -4,12 +4,12 @@ description: Олицетворение полезно в распределен
 ms.assetid: 49d833d8-c61c-4746-91cf-c0753847cd3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d03ad3b4d9e2984708e8b274ab9bc57c3235808b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 73061a35c61a22a4d238e902c3dcb298e3ac0affaf4b0929c83311145a684f1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022832"
 ---
 # <a name="client-impersonation"></a>Олицетворение клиента
 
@@ -32,8 +32,8 @@ ms.locfileid: "104134359"
 > [!Note]  
 > Термин *олицетворение* представляет два перекрывающихся значения. Первое значение олицетворения — это общий процесс, действующий от имени клиента. Второе значение — это конкретный уровень олицетворения, называемый олицетворением. Контекст текста обычно уточняет значение.
 
- 
+ 
 
- 
+ 
 
- 
+ 

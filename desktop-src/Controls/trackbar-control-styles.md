@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42966f98db18257c9a6a9ca463d5bd88028a02f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9165325c2d78ac6e4dc1ae69e410d293100de24cb8d38868475e99e49c0faaa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046024"
 ---
 # <a name="trackbar-control-styles"></a>Стили элемента управления TrackBar
 
@@ -58,18 +58,18 @@ ms.locfileid: "105657150"
 | <span id="TBS_TOOLTIPS"></span><span id="tbs_tooltips"></span><dl> <dt>**\_подсказки TBS**</dt> </dl>                         | [Версия 4,70](common-control-versions.md). Элемент управления TrackBar поддерживает подсказки. При создании элемента управления TrackBar с помощью этого стиля автоматически создается элемент управления ToolTip по умолчанию, который отображает текущую положение ползунка. Вы можете изменить место отображения всплывающих подсказок с помощью сообщения [**ТБМ \_ сеттипсиде**](tbm-settipside.md) . <br/> |
 | <span id="TBS_REVERSED"></span><span id="tbs_reversed"></span><dl> <dt>**обращение в TBS \_**</dt> </dl>                         | [Версия 5,80.](common-control-versions.md) Этот бит стиля используется для "обратных" значений TrackBar, где меньшее число означает "выше", а большее — "ниже". Он не влияет на элемент управления; Это просто метка, которую можно проверить, чтобы определить, является ли значение TrackBar нормальным или обратным.<br/>                                             |
 | <span id="TBS_DOWNISLEFT"></span><span id="tbs_downisleft"></span><dl> <dt>**TBS \_ довнислефт**</dt> </dl>                   | По умолчанию элемент управления TrackBar использует значение вниз, равное правому и левому. Используйте стиль TBS \_ довнислефт для отмены значения по умолчанию, сделав его нажатым слева и вверх равным право. <br/>                                                                                                                                                                          |
-| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TBS \_ нотифибефоремове**</dt> </dl> | [Версии 6,00](common-control-versions.md) и **Windows Vista.** Значение TrackBar должно уведомлять родительский элемент перед изменением положения ползунка из-за действия пользователя (включает привязку). <br/>                                                                                                                                                                                   |
-| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TBS \_ транспарентбкгнд**</dt> </dl> | [Версии 6,00](common-control-versions.md) и **Windows Vista.** Фон закрашивается родительским объектом через \_ сообщение WM принтклиент. <br/>                                                                                                                                                                                                                   |
+| <span id="TBS_NOTIFYBEFOREMOVE"></span><span id="tbs_notifybeforemove"></span><dl> <dt>**TBS \_ нотифибефоремове**</dt> </dl> | [версии 6,00](common-control-versions.md) и **Windows Vista.** Значение TrackBar должно уведомлять родительский элемент перед изменением положения ползунка из-за действия пользователя (включает привязку). <br/>                                                                                                                                                                                   |
+| <span id="TBS_TRANSPARENTBKGND"></span><span id="tbs_transparentbkgnd"></span><dl> <dt>**TBS \_ транспарентбкгнд**</dt> </dl> | [версии 6,00](common-control-versions.md) и **Windows Vista.** Фон закрашивается родительским объектом через \_ сообщение WM принтклиент. <br/>                                                                                                                                                                                                                   |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

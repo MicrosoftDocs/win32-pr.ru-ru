@@ -4,12 +4,12 @@ description: '\_Пользовательская \_ функция MIDL долж
 ms.assetid: 5e940e93-bdd4-48cc-b84e-654637699719
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4713ed05173b709780b6496f233051fa3adddff8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dd6ca52635da5bedb60fdc7f94165ad9c888c030d5fe3340c53dfc970a90ff49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080824"
 ---
 # <a name="the-midl_user_free-function"></a>\_ \_ Функция Free пользователя MIDL
 
@@ -26,7 +26,7 @@ void __RPC_USER midl_user_free(void * pBuffer);
 -   Серверное приложение должно вызывать **MIDL \_ user \_ бесплатно** для освобождения памяти, выделенной приложением, например при удалении динамически выделенного узла данных.
 -   Заглушка сервера вызывает **метод \_ MIDL \_ ,** чтобы освободить память на сервере после маршалирования всех \[ \] аргументов out, in, \[ \] \[ out \] и возвращаемого значения функции.
 
-Например, программа RPC Windows в образце, которая отображает "Hello, World", применяет **Пользовательский интерфейс MIDL \_ \_ без** функции C:
+например, пример программы RPC Windows, которая отображает "Hello, world", реализует небезопасный **\_ пользователь \_ midl** в терминах функции C:
 
 
 ```C++
@@ -41,8 +41,8 @@ void __RPC_USER midl_user_free(void __RPC_FAR * p)
 > [!Note]  
 > Если пакет RPCSS включен (например, в результате использования \[ атрибута [**включения \_ выделения**](/windows/desktop/Midl/enable-allocate) \] ), серверная программа должна использовать [**рпксмфри**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmfree) для освобождения памяти. Дополнительные сведения см. в статье [пакет управления памятью RPCSS](rpcss-memory-management-package.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 

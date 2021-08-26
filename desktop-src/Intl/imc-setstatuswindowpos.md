@@ -4,12 +4,12 @@ ms.assetid: d77de7ab-1fbc-42f4-829e-e9fb51668d21
 title: Команда IMC_SETSTATUSWINDOWPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f99c57eef1a4748bb58018ee47aaee21eb677016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee41deac781f7885185df429c5b5231a36f9d5008b5754b718398e7ab4cd060a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107234"
 ---
 # <a name="imc_setstatuswindowpos-command"></a>ИМК \_ сетстатусвиндовпос, команда
 
@@ -52,11 +52,11 @@ LRESULT IMC_SETSTATUSWINDOWPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

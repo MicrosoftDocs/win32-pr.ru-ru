@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, разработка сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc3405c52c48f531572ab159ad083bad93f95e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: efeba77168abe53e1df823f416c80a015cc63bc7b89c79a0a86d79174a7c78fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073412"
 ---
 # <a name="developing-the-server"></a>Разработка сервера
 
@@ -25,8 +25,8 @@ ms.locfileid: "104338729"
 
 Файлы Мисрвр. c и Рпрокс. c были скомпилированы вместе с MyApp \_ s. c для создания объектных файлов. Объектные файлы затем были связаны с библиотекой времени выполнения RPC и другими библиотеками, которые могут потребоваться. Результатом является исполняемая программа сервера с именем Mysrvr.exe.
 
-Если вы не компилируете IDL-файл в режиме совместимости Open Software Foundation (использование) ([**/ОСФ**](/windows/desktop/Midl/-osf)), серверная программа должна предоставить функцию для выделения памяти и функцию для ее освобождения. Для Windows 2000 и более поздних версий Windows рекомендуется использовать режим [**/Oicf**](/windows/desktop/Midl/-oi). Дополнительные сведения см. в статье [о выделении и](how-memory-is-allocated-and-deallocated.md)освобождении памяти и назначении [указателей и выделении памяти](pointers-and-memory-allocation.md).
+Если вы не компилируете IDL-файл в режиме совместимости Open Software Foundation (использование) ([**/ОСФ**](/windows/desktop/Midl/-osf)), серверная программа должна предоставить функцию для выделения памяти и функцию для ее освобождения. для Windows 2000 и более поздних версий Windows рекомендуемым режимом является [**/Oicf**](/windows/desktop/Midl/-oi). Дополнительные сведения см. в статье [о выделении и](how-memory-is-allocated-and-deallocated.md)освобождении памяти и назначении [указателей и выделении памяти](pointers-and-memory-allocation.md).
 
- 
+ 
 
- 
+ 

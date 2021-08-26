@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fb9675f87a5bf9951e125bded69ae5eb10feb0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f9aad502667bcdba9a5983341dde0d3515900c66a94968dfa86ce402af27b0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104254"
 ---
 # <a name="mdm_policy_config01_deliveryoptimization02-class"></a>\_Класс политики MDM \_ Config01 \_ DeliveryOptimization02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **\_ политики MDM \_ Config01 \_ DeliveryOptimization02** представляет доступные политики оптимизации доставки.
 
@@ -66,7 +66,7 @@ class MDM_Policy_Config01_DeliveryOptimization02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ политики MDM \_ Config01 \_ DeliveryOptimization02** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class MDM_Policy_Config01_DeliveryOptimization02
 
 </dd> <dt>
 
-[докачехост](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
+[DOCacheHost](/windows/client-management/mdm/policy-csp-deliveryoptimization#deliveryoptimization-docachehost)
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -291,13 +291,13 @@ class MDM_Policy_Config01_DeliveryOptimization02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -305,7 +305,7 @@ class MDM_Policy_Config01_DeliveryOptimization02
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

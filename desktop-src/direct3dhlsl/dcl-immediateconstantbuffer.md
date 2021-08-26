@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6f4b4868f3b07285465abb9080688adf6129e1bf
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 781a792257b23a3d89cfa432ccc1ead9e5d756159beb428defc3404ba32df47c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024804"
 ---
 # <a name="dcl_immediateconstantbuffer-sm4---asm"></a>дкл \_ иммедиатеконстантбуффер (SM4-ASM)
 
@@ -27,7 +27,7 @@ ms.locfileid: "104335651"
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -38,7 +38,7 @@ ms.locfileid: "104335651"
 
 </dd> </dl>
 
-### <a name="remarks"></a>Примечания
+### <a name="remarks"></a>Remarks
 
 Шейдер может иметь один непосредственный постоянный буфер. Доступ к буферу немедленных констант осуществляется так же, как и постоянный буфер с динамической индексацией.
 
@@ -52,7 +52,7 @@ ms.locfileid: "104335651"
 
 
 
- 
+ 
 
 Эта инструкция включена для облегчения отладки шейдера в сборке; нельзя создать шейдер на языке ассемблера с использованием модели шейдеров 4.
 
@@ -64,27 +64,27 @@ ms.locfileid: "104335651"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Сборка Shader Model 4 (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

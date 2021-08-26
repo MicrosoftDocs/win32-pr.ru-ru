@@ -4,12 +4,12 @@ ms.assetid: e582dbc2-8081-424c-a972-1a182a477293
 title: Команда IMC_GETCANDIDATEPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcb5cd143bf45f9bdb37be4cbe3078a483f53db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e155a08c9d95fa2ac9f865d80b18d51120d19b28489bcad418eb4323dda39c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107324"
 ---
 # <a name="imc_getcandidatepos-command"></a>ИМК \_ жеткандидатепос, команда
 
@@ -44,7 +44,7 @@ LRESULT IMC_GETCANDIDATEPOS
 
 Возвращает 0 в случае успеха или ненулевое значение в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Так как редактор IME может скорректировать расположение окна кандидатов, приложение использует эту команду для получения фактического расположения, чтобы решить, следует ли изменить расположение окна. Полученное расположение находится в координатах окна относительно окна, имеющего текущий фокус ввода.
 
@@ -56,11 +56,11 @@ LRESULT IMC_GETCANDIDATEPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
