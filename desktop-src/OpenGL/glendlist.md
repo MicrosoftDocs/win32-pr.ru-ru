@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59f8db8c2abea44d678268f804159b60fe695f96
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ad75f62b3b049f2244b6e701f69654d110c559b337c0d4bb72da75af93f954f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081524"
 ---
 # <a name="glendlist-function"></a>Функция Глендлист
 
@@ -54,7 +54,7 @@ void WINAPI glEndList(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Списки отображений — это группы команд OpenGL, которые были сохранены для последующего выполнения. Списки отображений создаются с помощью [**глневлист**](glnewlist.md). Все последующие команды помещаются в список просмотра в заданном порядке до вызова **глендлист** .
 
@@ -72,7 +72,7 @@ void WINAPI glEndList(void);
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом в \_ режиме матрицы GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -86,7 +86,7 @@ void WINAPI glEndList(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

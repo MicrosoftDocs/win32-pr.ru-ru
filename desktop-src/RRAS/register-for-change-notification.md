@@ -4,12 +4,12 @@ description: В следующем примере кода показано, к�
 ms.assetid: a311759a-e337-4297-af3d-55e969162b0f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1491a2e0ceed448459adaec7df8e67e650aebb15
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aebc8bfffd7efcbe5992fccc965435294510bdfa16c03bfe050a211d9b26d704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028423"
 ---
 # <a name="register-for-change-notification"></a>Регистрация для получения уведомлений об изменениях
 
@@ -105,9 +105,9 @@ int __cdecl main(){
 
 
 
- 
+ 
 
- 
+ 
 
 
 

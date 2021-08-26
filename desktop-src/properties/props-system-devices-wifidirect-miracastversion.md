@@ -1,19 +1,19 @@
 ---
-description: Указывает версию протокола Miracast, если Wi-Fi Direct Device поддерживает технологию Miracast.
+description: указывает версию Miracast протокола, если Wi-Fi прямое устройство Miracast поддерживается.
 ms.assetid: c888120e-a8c8-4e64-8c38-ce6b74dd1718
 title: System. Devices. Вифидирект. Миракастверсион
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ee7d126173030484c7a3f8d723baa5f72a9fd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7c8eb009d4e06b8c1511259c860296e36b3de2a34cf3c7a0bb7406cc7139014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059354"
 ---
 # <a name="systemdeviceswifidirectmiracastversion"></a>System. Devices. Вифидирект. Миракастверсион
 
-Указывает версию протокола Miracast, если Wi-Fi Direct Device поддерживает технологию Miracast
+указывает версию протокола Miracast, если Wi-Fi прямое устройство Miracast поддерживается
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

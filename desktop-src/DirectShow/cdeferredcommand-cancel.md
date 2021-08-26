@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 524300da374b10eaac884161bb0195d88f45476d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa7e957fe97e06c6fb14fe3a9048048e351ac1baf4ff8f4dae25b3cf5863776e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043714"
 ---
 # <a name="cdeferredcommandcancel-method"></a>Кдеферредкомманд. Cancel, метод
 
@@ -44,7 +44,7 @@ HRESULT Cancel();
 
 Возвращает VFW \_ E \_ уже \_ отменено, если **m \_ пкуеуе** имеет **значение NULL**. Возвращает **значение HRESULT** из [**ккмдкуеуе:: Remove**](ccmdqueue-remove.md) , если вызов создает ошибку. \_При успешном выполнении возвращает значение ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция члена реализует метод [**идеферредкомманд:: Cancel**](/windows/desktop/api/Control/nf-control-ideferredcommand-cancel) .
 
@@ -54,7 +54,7 @@ HRESULT Cancel();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

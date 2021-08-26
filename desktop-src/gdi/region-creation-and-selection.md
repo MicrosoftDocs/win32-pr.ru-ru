@@ -4,12 +4,12 @@ ms.assetid: e94ae371-8365-4e42-ac8c-04c3928fcffb
 title: Создание и выбор регионов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27a7887e41a04a62015fa3fc9d82f5beeb01d6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75ce2711b2d1ae9dc6641748c72fd586d02e25964102a8c034593d6e60cbaa33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092694"
 ---
 # <a name="region-creation-and-selection"></a>Создание и выбор регионов
 
@@ -17,7 +17,7 @@ ms.locfileid: "104984836"
 
 
 
-| Фигурная                                   | Функция                                                                                                                         |
+| Фигура                                   | Функция                                                                                                                         |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Прямоугольная область                      | [**Креатеректргн**](/windows/desktop/api/Wingdi/nf-wingdi-createrectrgn), [**креатеректргниндирект**](/windows/desktop/api/Wingdi/nf-wingdi-createrectrgnindirect), [**сетректргн**](/windows/desktop/api/Wingdi/nf-wingdi-setrectrgn) |
 | Прямоугольная область с закругленными углами | [**креатераундректргн**](/windows/desktop/api/Wingdi/nf-wingdi-createroundrectrgn)                                                                                 |

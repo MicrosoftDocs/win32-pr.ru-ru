@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 983f0520ccc50fa1683d4b8254ac436fff7491a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6682d8987f2df3ba3fb06427d41b722abb5eb003a4226a155c104cc3239d0f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982764"
 ---
 # <a name="input-register"></a>Входной регистр
 
@@ -35,11 +35,11 @@ ms.locfileid: "103986620"
 
 
 
- 
+ 
 
 Любая одна инструкция может обращаться только к одному входному регистру вершин. Однако каждый источник в инструкции может независимо свиззле и инвертировать этот вектор по мере считывания.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Ниже приведен пример использования объявления вершины для привязки данных расположения 2D-вершины для регистрации v0.
 
@@ -73,18 +73,18 @@ dcl_position v0
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры шейдеров вершин](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

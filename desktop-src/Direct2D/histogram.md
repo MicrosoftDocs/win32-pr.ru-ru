@@ -6,12 +6,12 @@ keywords:
 - Гистограмма
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b654ffb2b830914b00a59490ceb429b5de9c51cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08477a832b2dbf758d26a16e78905f8530d4d4525205cbc85e9d138f8b3bded7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044422"
 ---
 # <a name="histogram-effect"></a>Гистограмма
 
@@ -25,7 +25,7 @@ ms.locfileid: "104415368"
 -   [Выходные данные](#data-output)
 -   [Замечания](#remarks)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example"></a>Пример
 
@@ -34,7 +34,7 @@ ms.locfileid: "104415368"
 | До                                                     |
 |------------------------------------------------------------|
 | ![изображение перед результатом.](images/default-before.jpg) |
-| Диаграмма выходных данных гистограммы                         |
+| Graph выходных данных гистограммы                         |
 | ![изображение после преобразования.](images/33-histogram.png) |
 
 
@@ -105,29 +105,29 @@ hr = histogramEffect->GetValue(D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT,
 
 Этот результат выводит число с плавающей запятой \[ \] с количеством элементов, соответствующим количеству указанных ячеек. Каждый элемент в FLOAT \[ \] имеет тип float. Значение элемента соответствует количеству элементов в этой ячейке.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Метод [**креатиффект**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect) завершается ошибкой, если устройство не поддерживает DirectCompute и возвращает HRESULT = D2DERR \_ недостаточные \_ \_ возможности устройства. Все карточки DirectX11 и карты DirectX10, поддерживающие DirectCompute, могут использовать этот результат.
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

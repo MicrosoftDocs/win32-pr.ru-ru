@@ -5,12 +5,12 @@ title: Порядок поиска библиотеки динамической
 ms.topic: article
 ms.date: 09/11/2020
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 73c90e176983aa542ec524c2bfa32623821c2f21
-ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
+ms.openlocfilehash: e2abe21e0283adab4fbc3c17db6503772e20c217cf3019ea775812b0f45e5145
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/30/2021
-ms.locfileid: "114991841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083444"
 ---
 # <a name="dynamic-link-library-search-order"></a>Порядок поиска библиотеки динамической компоновки (DLL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "114991841"
     -   [Стандартный порядок поиска для настольных приложений](#standard-search-order-for-desktop-applications)
     -   [Альтернативный порядок поиска для настольных приложений](#alternate-search-order-for-desktop-applications)
     -   [Порядок поиска с помощью флагов **\_ \_ поиска "загрузить библиотеку** "](#search-order-using-load_library_search-flags)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="factors-that-affect-searching"></a>Факторы, влияющие на поиск
 

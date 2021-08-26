@@ -4,12 +4,12 @@ ms.assetid: 95d9b8b4-0b65-451a-8629-f0b276d6e35d
 title: ICE60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e26c6f296fd514f582a699a5f839a7e145169e3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce8d2cbf9136ea6195a138c586d4408dc0d2e5ff411b52fd73fec8a569c5d186
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044034"
 ---
 # <a name="ice60"></a>ICE60
 
@@ -56,7 +56,7 @@ WARNING: The file FileE is not a Font, and its version is not a companion file r
 
 
 
-| Файл  | Версия | Язык |
+| File  | Версия | Язык |
 |-------|---------|----------|
 | Файл а | 1.0     | 1033     |
 | филеб | 1.0     |          |
@@ -72,7 +72,7 @@ WARNING: The file FileE is not a Font, and its version is not a companion file r
 
 
 
-| Файл  | фонттитле  |
+| File  | фонттитле  |
 |-------|------------|
 | филеб | Название шрифта |
 
@@ -80,7 +80,7 @@ WARNING: The file FileE is not a Font, and its version is not a companion file r
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

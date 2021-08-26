@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 036e2ee10d1ceac6df6a68a35c1da881d1d478b5
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 845379985a95fe7514d197bc62a97cb67aa1a7f560f136ab8b9cda7caf31560e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104565686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081534"
 ---
 # <a name="glevalcoord2d-function"></a>Функция glEvalCoord2d
 
@@ -59,7 +59,7 @@ void WINAPI glEvalCoord2d(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **glEvalCoord2d** оценивает включенные двухмерные карты, используя два значения домена, *u* и *v*. Определите карты с помощью [**glMap1**](glmap1.md) и [**glMap2**](glmap2.md). Включите или отключите их с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md).
 
@@ -115,7 +115,7 @@ OpenGL использует вычисленные значения вместо
 
 [**глисенаблед**](glisenabled.md) с аргументом \_ " \_ Обычная настройка"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -129,7 +129,7 @@ OpenGL использует вычисленные значения вместо
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

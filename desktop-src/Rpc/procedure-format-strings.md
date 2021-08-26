@@ -4,12 +4,12 @@ description: Ниже приведено полное описание стро�
 ms.assetid: fab603ed-1f68-4e0b-9c8d-b9730b8cd389
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0e58a9acf10caad23063bdba117dc402e411638
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fb17434a1c05b66212283237d61ee4492aa23ed0bf1ecca75f1fec1b3ddd784b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019062"
 ---
 # <a name="procedure-format-strings"></a>Строки формата процедур
 
@@ -62,6 +62,6 @@ extensions_to_the_-Oif_header<8>
 {-Oif style parameter descriptors<6>}*
 ```
 
- 
+ 
 
- 
+ 

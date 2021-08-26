@@ -3,9 +3,9 @@ title: Ивмпмедиа Жетаттрибутенаме, метод
 description: Метод Жетаттрибутенаме возвращает имя атрибута, соответствующего указанному индексу.
 ms.assetid: d2496484-34cc-4222-9bc3-1d3ebb9a4173
 keywords:
-- Жетаттрибутенаме метод Windows Media Player
-- Жетаттрибутенаме метод проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, метод Жетаттрибутенаме
+- проигрыватель Windows Media метода жетаттрибутенаме
+- проигрыватель Windows Media метода жетаттрибутенаме, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, метод жетаттрибутенаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb40ef8c0c984258dc11dd00c80807db2f4eb64a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ad61be7a611eefc18f408f3f325a45b5f5952e81d53279f04f002f8d87dc2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031064"
 ---
 # <a name="iwmpmediagetattributename-method"></a>Метод Ивмпмедиа:: Жетаттрибутенаме
 
@@ -64,13 +64,13 @@ Implements IWMPMedia.getAttributeName
 
 **Строка System. String** , которая является именем атрибута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое имя атрибута можно использовать в сочетании с **getItemInfo** для получения значения для определенного именованного атрибута.
 
 Перед вызовом этого метода необходимо иметь доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md).
 
 ## <a name="examples"></a>Примеры
 
@@ -126,19 +126,19 @@ attributeNames.Lines = attInfo
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 90d932176a70159d31a239a9a37422b474acb485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 18dbda6102aa694744ecf950ec2df40c904c5164cf7650f40fa0a02c26e48ef7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028004"
 ---
 # <a name="d3dissue_begin"></a>\_Начало D3DISSUE
 
@@ -28,23 +28,23 @@ ms.locfileid: "104355080"
 #define D3DISSUE_BEGIN (1 << 1)
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 D3DISSUE \_ Begin является допустимым для следующего типа запроса.
 
 -   D3DQUERYTYPE \_ перекрытия
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3d9types. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

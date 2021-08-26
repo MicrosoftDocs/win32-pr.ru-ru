@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a24e447f5cb941ba66d36d61c2b78fefed3cd2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 76b223cde68ddec9993ccd4567f7c355257dd0427fda57ff0aadedb445423517
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104000096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066044"
 ---
 # <a name="ms-ts-primary-desktop-bl-attribute"></a>атрибут MS-TS-PRIMARY-Desktop-BL
 
@@ -43,7 +43,7 @@ ms.locfileid: "104000096"
 ## <a name="implementations"></a>Варианты реализации решения
 
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
--   [**Windows Server 2012**](#windows-server-2012)
+-   [**Windows Server 2012**](#windows-server-2012)
 
 ## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
 
@@ -53,7 +53,7 @@ ms.locfileid: "104000096"
 |------------------------|-------------------------------------------|
 | Идентификатор ссылки                | 2171                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | True                                      |
+| System-Only            | Верно                                      |
 | Является однозначным       | Неверно                                     |
 | Индексируется             | Неверно                                     |
 | В глобальном каталоге      | Неверно                                     |
@@ -74,7 +74,7 @@ ms.locfileid: "104000096"
 |------------------------|-------------------------------------------|
 | Идентификатор ссылки                | 2171                                      |
 | MAPI-Id                | \-                                        |
-| System-Only            | True                                      |
+| System-Only            | Верно                                      |
 | Является однозначным       | Неверно                                     |
 | Индексируется             | Неверно                                     |
 | В глобальном каталоге      | Неверно                                     |

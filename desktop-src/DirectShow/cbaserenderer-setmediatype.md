@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6ccb364545df514e098811ff6135e0c8cf72a329
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d1ba935fc5476becaf5edd4001efe8e604a97fc5e3a3ee8e965b606568d01863
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043744"
 ---
 # <a name="cbaserenderersetmediatype-method"></a>Кбасерендерер. Сетмедиатипе, метод
 
@@ -53,7 +53,7 @@ virtual HRESULT SetMediaType(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Входной ПИН-код вызывает этот метод из собственного метода [**крендереринпутпин:: сетмедиатипе**](crendererinputpin-setmediatype.md) . Этот метод не выполняет никаких действий в базовом классе.
 
@@ -63,7 +63,7 @@ virtual HRESULT SetMediaType(
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ренбасе. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ренбасе. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

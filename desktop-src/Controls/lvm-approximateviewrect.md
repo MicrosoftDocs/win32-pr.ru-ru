@@ -3,7 +3,7 @@ title: Сообщение LVM_APPROXIMATEVIEWRECT (Коммктрл. h)
 description: Вычисляет приблизительную ширину и высоту, необходимые для вывода заданного числа элементов. Это сообщение можно отправить явным образом или использовать \_ макрос Аппроксиматевиеврект ListView.
 ms.assetid: a14331a8-217d-48c6-9489-fb90c4d31b91
 keywords:
-- Элементы управления Windows для LVM_APPROXIMATEVIEWRECT сообщений
+- элементы управления Windows сообщений LVM_APPROXIMATEVIEWRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be929d34acad46b75a53a9e0cc8825ec9801e998
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97fcbb5476f28debd28116a52123bd01b8030c8b0a0c9c52e6598c864caed021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047064"
 ---
 # <a name="lvm_approximateviewrect-message"></a>\_Сообщение LVM аппроксиматевиеврект
 
@@ -49,19 +49,19 @@ ms.locfileid: "103988206"
 
 Возвращает значение **типа DWORD** , которое содержит приблизительную ширину (в [**ловорд**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))) и высоту (в [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))), необходимую для вывода элементов в пикселях.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установка размера элемента управления "представление списка" на основе измерений, предоставляемых этим сообщением, может оптимизировать перерисовку и уменьшить мерцание.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

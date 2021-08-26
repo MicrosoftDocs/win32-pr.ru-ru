@@ -12,12 +12,12 @@ api_name:
 - TraceRay
 api_type:
 - NA
-ms.openlocfilehash: faeed928b25acb4dac95e47a46a103daf87124e0
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 4e22a26d7bd2fd91029c106133667bce98c163d90d99f0700dac7f2bdf0796fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "105703479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027984"
 ---
 # <a name="traceray-function"></a>Функция TraceRay
 
@@ -53,7 +53,7 @@ void TraceRay(RaytracingAccelerationStructure AccelerationStructure,
 
 `InstanceInclusionMask`
 
-Целое число без знака, 8 нижних бит, которые используются для включения или отклонения экземпляров геометрических объектов на основе Инстанцемаск в каждом экземпляре. Пример:
+Целое число без знака, 8 нижних бит, которые используются для включения или отклонения экземпляров геометрических объектов на основе Инстанцемаск в каждом экземпляре. Например:
 ```
 if(!((InstanceInclusionMask & InstanceMask) & 0xff)) { //ignore intersection }
 ```
@@ -82,7 +82,7 @@ if(!((InstanceInclusionMask & InstanceMask) & 0xff)) { //ignore intersection }
 
 **void**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эту функцию можно вызывать из следующих типов шейдеров райтраЦинг:
 
@@ -92,7 +92,7 @@ if(!((InstanceInclusionMask & InstanceMask) & 0xff)) { //ignore intersection }
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

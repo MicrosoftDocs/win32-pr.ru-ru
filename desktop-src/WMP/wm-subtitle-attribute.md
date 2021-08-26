@@ -3,7 +3,7 @@ title: Атрибут WM/субтитр
 description: Атрибут WM/субтитр является подзаголовоком содержимого.
 ms.assetid: b1bd9a90-7ff5-4cc3-a141-839f4eaaa407
 keywords:
-- Атрибут WM/субтитр Windows Media Player
+- проигрыватель Windows Media атрибута WM/субтитров
 topic_type:
 - apiref
 api_name:
@@ -12,43 +12,43 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a82630f6f8dbd36df5d71b942ea2949bb6237e65
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54e825f4ebfff07010c46b7150076bba69325cd96be4793611027a2dc148cb35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000864"
 ---
 # <a name="wmsubtitle-attribute"></a>Атрибут WM/субтитр
 
 Атрибут **WM/субтитр** является подзаголовоком содержимого.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится как в библиотеке, так и в файле цифрового мультимедиа.
 
 **Подзаголовок** — это псевдоним для этого атрибута.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвмсубтитле.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвмсубтитле.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

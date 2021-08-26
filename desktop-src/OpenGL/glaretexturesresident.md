@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2e7e5965da9604c690384301de6f1879a98994
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c503cac59bbec912c535120161d27991118dab818a185c1f39d8f48cb2a5939
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082244"
 ---
 # <a name="glaretexturesresident-function"></a>Функция Гларетекстуресресидент
 
@@ -76,7 +76,7 @@ GLboolean WINAPI glAreTexturesResident(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 На компьютерах с ограниченным объемом памяти текстуры OpenGL устанавливает рабочий набор текстур, находящихся в памяти текстуры. Эти текстуры могут быть привязаны к цели текстуры гораздо эффективнее, чем нерезидентные текстуры.
 
@@ -97,7 +97,7 @@ GLboolean WINAPI glAreTexturesResident(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ GLboolean WINAPI glAreTexturesResident(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

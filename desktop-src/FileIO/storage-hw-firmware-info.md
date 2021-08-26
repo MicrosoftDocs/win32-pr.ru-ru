@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - winioctl.h.h
-ms.openlocfilehash: e7aa3d33f744b00fc742a2862add83149cb265b4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1b9aa008e108f1282f8f61aaeacdce11eba7016632fa9643ae3db5550efb1e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047914"
 ---
 # <a name="storage_hw_firmware_info-structure"></a>\_ \_ \_ Структура сведений о встроенном по оборудования хранилища
 
@@ -139,15 +139,15 @@ typedef struct _STORAGE_HW_FIRMWARE_INFO {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                                 |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2016\]<br/>                                                        |
-| Header<br/>                   | <dl> <dt>Виниоктл. h. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ только классические приложения\]<br/>                                                        |
+| Заголовок<br/>                   | <dl> <dt>виниоктл. h. h (включает Windows. h)</dt> </dl> |
 
 
 

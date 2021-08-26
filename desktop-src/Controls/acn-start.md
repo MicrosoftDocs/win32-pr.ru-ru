@@ -3,7 +3,7 @@ title: Код уведомления ACN_START (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления анимации, что началось воспроизведение связанного клипа AVI. Этот код уведомления отправляется в виде \_ командного сообщения WM.
 ms.assetid: b4d12225-36f7-4f87-b58a-dac091d14e4c
 keywords:
-- ACN_START кода уведомления элементы управления Windows
+- ACN_START кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b0354d8b2b41ea8690be47e70cbc577c064e579
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ccfb5a1fc1f6b258cfe8363e99f38894ed7e601401d4f725431992a31f86376
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103801540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922164"
 ---
 # <a name="acn_start-notification-code"></a>\_Код уведомления о запуске АКН
 
@@ -53,15 +53,15 @@ ACN_START
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

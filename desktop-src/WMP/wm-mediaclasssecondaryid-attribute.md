@@ -3,7 +3,7 @@ title: Атрибут WM/Медиакласссекондарид
 description: Атрибут WM/Медиакласссекондарид — это идентификатор GUID, указывающий класс вторичного носителя, который является подклассом основного класса мультимедиа.
 ms.assetid: 8112513a-b73a-497a-9c24-24ccef31cffc
 keywords:
-- Windows Media Player для атрибута WM/Медиакласссекондарид
+- проигрыватель Windows Media атрибута WM/медиакласссекондарид
 topic_type:
 - apiref
 api_name:
@@ -12,28 +12,28 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb88ea03e565df649088366e13b20332256b374d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9582fc3db713b8db945ec17534f1dc9c951402eea88489285526d6a3cfbdf147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000994"
 ---
 # <a name="wmmediaclasssecondaryid-attribute"></a>Атрибут WM/Медиакласссекондарид
 
 Атрибут **WM/медиакласссекондарид** — это идентификатор GUID, указывающий класс вторичного носителя, который является подклассом основного класса мультимедиа.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 -   [Элементы фото](photo-item-attributes.md)
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 -   [Элементы Радио](radio-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится как в библиотеке, так и в файле цифрового мультимедиа.
 
@@ -52,21 +52,21 @@ ms.locfileid: "105704293"
 
 **Медиакласссекондарид** является псевдонимом для этого атрибута.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвммедиакласссекондарид.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвммедиакласссекондарид.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Элемент Photo поддерживается только в проигрывателе Windows Media 10 или более поздней версии. элемент Radio поддерживается только в проигрывателе Windows Media 9 Series все остальные элементы поддерживаются в серии проигрывателя Windows Media 9 и более поздних версий.<br/> |
+| Версия<br/> | элемент photo поддерживается только в проигрыватель Windows Media 10 или более поздней версии. элемент radio поддерживается только в серии проигрыватель Windows Media 9. все остальные элементы поддерживаются в серии проигрыватель Windows Media 9 и более поздних версий.<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

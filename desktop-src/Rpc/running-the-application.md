@@ -4,12 +4,12 @@ description: Чтобы запустить приложение на одном 
 ms.assetid: c4bdd9eb-f024-4a0f-afc2-3588262cbedf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 383cdfb0044a22535f4d1a636ccda08f7f3a099e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9496673ea29861feafb640ec10def138e7e872f031d4763b81cace9923cbde0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018074"
 ---
 # <a name="running-the-application"></a>Запуск приложения
 
@@ -24,10 +24,10 @@ ms.locfileid: "103793195"
 Чтобы поэкспериментировать с различными последовательностями протоколов, конечными точками и другими параметрами, создайте пример приложения Hello из исходных файлов в \\ каталоге RPC Hello в пакете SDK для платформы.
 
 > [!Note]  
-> **Ограничение интерфейса RPC** может привести к сбою этого приложения из-за ошибки **отказа в доступе** в Windows XP с пакетом обновления 2 (SP2) и более поздних версий Windows. Дополнительные сведения см. в разделе [Ограничение интерфейса RPC](/previous-versions/windows/it-pro/windows-xp/bb457156(v=technet.10)#EGAA).
+> **ограничение интерфейса RPC** может привести к сбою этого приложения из-за ошибки **отказа в доступе** в Windows XP с пакетом обновления 2 (sp2) и более поздних версиях Windows. Дополнительные сведения см. в разделе [Ограничение интерфейса RPC](/previous-versions/windows/it-pro/windows-xp/bb457156(v=technet.10)#EGAA).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,27 +4,27 @@ description: Атрибут ALT VML
 ms.assetid: 6b7e778c-d8e2-432e-b69a-5d80fa62d105
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b420d556e69ed2f987a3a3b10a5709f926dc5c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 08714efca9a390cbbec2f3dcf14782053d34db3506462214b9e62ebf1da206a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104260993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905344"
 ---
 # <a name="vml-alt-attribute"></a>Атрибут ALT VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет альтернативный текст, отображаемый вместо графического. Read/write. **Строка**.
 
 **Применимо к**:
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Синтаксис тега**
 
@@ -44,7 +44,7 @@ ms.locfileid: "104260993"
 
 **См. также:**
 
-[Фигурная](shape-element--vml.md)
+[Фигура](shape-element--vml.md)
 
 **Пример**
 
@@ -61,6 +61,6 @@ ms.locfileid: "104260993"
 
 [Пример атрибута Alt](/previous-versions/bb229663(v=vs.85)). (Требуется Microsoft Internet Explorer 5 или более поздней версии.)
 
- 
+ 
 
- 
+ 

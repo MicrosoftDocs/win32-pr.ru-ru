@@ -4,12 +4,12 @@ description: Балансировка нагрузки RPC
 ms.assetid: c646f748-d5f2-422d-8305-1f86c0dc61b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4039742fcfcc67280c610270908bed51034f691a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7fbace237f6d86ebadf3fadc5f3b376d94799b137153b114bc07fead3d64b09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101654"
 ---
 # <a name="rpc-load-balancing"></a>Балансировка нагрузки RPC
 
@@ -26,9 +26,9 @@ ms.locfileid: "104067417"
 -   [Настройка балансировки нагрузки](configuring-load-balancing.md)
 -   [Рекомендации по балансировке нагрузки](load-balancing-best-practices.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
-Служба балансировки нагрузки RPC поддерживается на серверах под управлением Windows Server 2008 R2 или более поздней версии, а также на клиентах под управлением Windows 7 или более поздних версий Windows.
+служба балансировки нагрузки RPC поддерживается на серверах под управлением Windows Server 2008 R2 или более поздней версии, а также на клиентах, работающих под управлением Windows 7 или более поздних версий Windows.
 
 Служба RPC-прокси, служба балансировки нагрузки RPC и конечные точки сервера должны работать на одном компьютере. Кроме того, все серверы фермы серверов должны поддерживать обслуживание запрошенной конечной точки. Сведения о настройке прокси-службы RPC и службы балансировки нагрузки RPC см. в разделе [Настройка компьютеров для RPC через HTTP](configuring-computers-for-rpc-over-http.md) и [Настройка балансировки нагрузки](configuring-load-balancing.md)соответственно.
 
@@ -36,9 +36,9 @@ ms.locfileid: "104067417"
 
 В настоящее время балансировка нагрузки RPC поддерживает только одну ферму серверов для каждого ресурса. Все серверы во всех фермах серверов должны поддерживать обслуживание всех ресурсов.
 
- 
+ 
 
- 
+ 
 
 
 

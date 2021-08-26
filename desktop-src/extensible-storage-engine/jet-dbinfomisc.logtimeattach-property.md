@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 16092189104500f152c69197b598c0ef4a03d7b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fccc93caa1537f607673bf848b90ea6ac8045e7c0158f565cbcdec1c12275c79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017189"
 ---
 # <a name="jet_dbinfomisclogtimeattach-property"></a>Свойство JET_DBINFOMISC. Логтимеаттач
 
@@ -62,7 +62,7 @@ public JET_LOGTIME logtimeAttach { get; internal set; }
 
 Тип: [Microsoft.ISAM.ESENT.Interop.JET_LOGTIME](./jet-logtime-structure2.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

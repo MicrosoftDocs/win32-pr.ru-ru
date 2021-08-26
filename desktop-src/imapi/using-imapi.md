@@ -4,12 +4,12 @@ description: В следующих разделах демонстрируетс
 ms.assetid: c42043db-612f-488f-a6ae-a8caea8ac42b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd44d01e925d07d251e93a29c5268cc7e9c5076
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7bf19d619f6ed5ab9a2d6b0deb1ca6a42b71a0b0941a96f54cccfa87c14b5f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092434"
 ---
 # <a name="using-imapi"></a>Использование IMAPI
 
@@ -29,8 +29,8 @@ ms.locfileid: "103889184"
 | [Добавление загрузочного образа](adding-a-boot-image.md)                                                                   | На примере [записи образа диска](burning-a-disc.md) выполняется добавление кода для включения загрузочного образа в раздел загрузки диска.<br/>               |
 | [Создание многосеансового диска](creating-a-multisession-disc.md)                                                 | Демонстрирует создание многосеансового диска с помощью IMAPI.<br/>                                                                                              |
 | [Мониторинг хода выполнения с помощью событий](monitoring-progress-with-events.md)                                           | Демонстрирует использование конкретных интерфейсов для реализации обработчика событий, чтобы можно было получить сведения о ходе выполнения. <br/>        |
-| [Предотвращение выхода из системы или приостановки во время записи](preventing-logoff-or-suspend-during-a-burn.md)                     | Содержит сведения о вопросах разработки приложений, которые необходимо выполнить в отношении сценариев, включающих в себя пользователя "logoff" и "Suspend" в Windows.<br/> |
-| [Предоставление пользователям разрешений для устройств записи мультимедиа](providing-user-permissions-for-media-burning-devices.md) | Подробно описывается процесс, необходимый для обеспечения наличия у пользователя достаточных разрешений на использование устройств записи мультимедиа в Windows XP и Windows Server 2003.<br/>             |
+| [Предотвращение выхода из системы или приостановки во время записи](preventing-logoff-or-suspend-during-a-burn.md)                     | Содержит сведения о вопросах разработки приложений, которые необходимо выполнить в отношении сценариев, включающих пользователя "logoff" и "Suspend" в Windows.<br/> |
+| [Предоставление пользователям разрешений для устройств записи мультимедиа](providing-user-permissions-for-media-burning-devices.md) | подробно описывается процесс, необходимый для обеспечения наличия у пользователя достаточных разрешений на использование устройств записи мультимедиа в Windows XP и Windows Server 2003.<br/>             |
 
 
 

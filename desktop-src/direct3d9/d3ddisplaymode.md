@@ -86,7 +86,7 @@ typedef struct D3DDISPLAYMODE {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -96,7 +96,7 @@ typedef struct D3DDISPLAYMODE {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

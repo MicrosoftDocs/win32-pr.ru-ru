@@ -3,7 +3,7 @@ title: Сообщение TVM_GETITEMRECT (Коммктрл. h)
 description: Извлекает ограничивающий прямоугольник для элемента представления дерева и указывает, является ли элемент видимым. Это сообщение можно отправить явно или с помощью \_ макроса Жетитемрект TreeView.
 ms.assetid: f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c
 keywords:
-- Элементы управления Windows для TVM_GETITEMRECT сообщений
+- элементы управления Windows сообщений TVM_GETITEMRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdf4d73fb83ddbd8e9e682f11ee1f5ecfbd5153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6b58ff7d2ce88fd4257ce7db84fa8bd9b4fa2b2d223af03a3f1d57a83c9b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054004"
 ---
 # <a name="tvm_getitemrect-message"></a>\_Сообщение TVM жетитемрект
 
@@ -47,7 +47,7 @@ ms.locfileid: "104135695"
 
 Если элемент является видимым и ограничивающий прямоугольник был успешно извлечен, возвращается значение **true**. В противном случае сообщение возвращает **значение false** и не извлекает ограничивающий прямоугольник.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отправке этого сообщения параметр *lParam* содержит маркер элемента, для которого извлекается прямоугольник. Этот обработчик помещается в *lParam* , как показано в следующем примере:
 
@@ -62,15 +62,15 @@ SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&rc);
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение CB_FINDSTRING (Winuser. h)
 description: Выполняет поиск элемента в списке в поле со списком, начиная с символов в указанной строке.
 ms.assetid: 872a72d5-4d8e-41c7-ac6b-eeb571403623
 keywords:
-- Элементы управления Windows для CB_FINDSTRING сообщений
+- элементы управления Windows сообщений CB_FINDSTRING
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 295300790a27a956bce953e4e293c07c22ec0d81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1af584e04a108c39a76a54c05c311d26e107c132d0c132e7b8fcc99a7cd7321b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089360"
 ---
 # <a name="cb_findstring-message"></a>\_Сообщение FINDSTRING CB
 
@@ -47,23 +47,23 @@ ms.locfileid: "104135866"
 
 Возвращаемое значение — это Отсчитываемый от нуля индекс соответствующего элемента. Если поиск завершился неудачно, это значит, что это \_ Ошибка CB.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если создать поле со списком, используя стиль, рисуемый владельцем, но без [**стиля \_ хасстрингс CBS**](combo-box-styles.md) , то то, что делает сообщение **\_ FINDSTRING CB** , зависит от того, использует ли ваше приложение стиль [**\_ сортировки CBS**](combo-box-styles.md) . При использовании стиля **\_ сортировки CBS** сообщения [**WM \_ компареитем**](wm-compareitem.md) отправляются владельцу поля со списком, чтобы определить, какой элемент соответствует заданной строке. Если вы не используете стиль **\_ сортировки CBS** , в сообщении **CB \_ FINDSTRING** выполняется поиск элемента списка, соответствующего значению параметра *lParam* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -155,7 +155,7 @@ DWORD WINAPI TLSLicenseEnumNext(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -167,7 +167,7 @@ DWORD WINAPI TLSLicenseEnumNext(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

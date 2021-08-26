@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 588c92faec6b68cfa51392d4df00567c4e881460
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d3b8eb4bdd9426d589476265133234bdf3c2d5cfc691bfaced743cc4e75769c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084124"
 ---
 # <a name="crendererpospassthrugetmediatime-method"></a>Крендерерпоспасссру. Жетмедиатиме, метод
 
@@ -77,13 +77,13 @@ HRESULT GetMediaTime(
 
 Этот метод переопределяет метод [**кпоспасссру:: жетмедиатиме**](cpospassthru-getmediatime.md) . Значения временной метки преобразуются в текущий формат времени путем вызова метода [**кпоспасссру:: конверттимеформат**](cpospassthru-converttimeformat.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Средства удаленного вызова процедур
 ms.assetid: 265f31b8-9a41-4255-b070-fd50b00b935b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12832d0de4eb972bb1d9d51df0c871191d4d079a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bd7a3adf59e848d962d4765a0feee16eb1fa84842c2a1ddd34ed82ecf95a8e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020862"
 ---
 # <a name="how-rpc-works"></a>Как работает RPC
 
@@ -45,9 +45,9 @@ ms.locfileid: "103777369"
 
 Серверное приложение содержит вызовы функций библиотеки времени выполнения сервера, которые регистрируют интерфейс сервера и позволяют серверу принимать удаленные вызовы процедур. Серверное приложение также содержит удаленные процедуры, связанные с конкретным приложением, которые вызываются клиентскими приложениями.
 
- 
+ 
 
- 
+ 
 
 
 
