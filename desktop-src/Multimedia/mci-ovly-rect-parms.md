@@ -3,7 +3,7 @@ title: Структура MCI_OVLY_RECT_PARMS (МЦиапи. h)
 description: '\_ \_ Структура пармс MCI овли Rect \_ содержит сведения о размещении для MCI \_ и MCI, \_ где команды для устройств с наложением видео.'
 ms.assetid: 1cfd8e51-c76f-4a1c-905c-efacbd8146f4
 keywords:
-- MCI_OVLY_RECT_PARMS структура мультимедиа Windows
+- структура MCI_OVLY_RECT_PARMS Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a6b51d980b6ca0a3c223f414571a42b2e3ae3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5cfd55b2950f6d4268a9af5ee5bdc7fc9c378c4dbaeaa569406339263a2cf85e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039114"
 ---
 # <a name="mci_ovly_rect_parms-structure"></a>\_Структура пармс для MCI овли \_ Rect \_
 
@@ -51,15 +51,15 @@ typedef struct {
 **RC**
 </dt> <dd>
 
-Прямоугольник, содержащий сведения о размещении. Структуры [Rect](/previous-versions//ms536136(v=vs.85)) в MCI обрабатываются по-разному, чем в других частях Windows. в MCI, **RC. Right** содержит ширину прямоугольника и **RC. Bottom** содержит его высоту.
+Прямоугольник, содержащий сведения о размещении. Структуры [Rect](/previous-versions//ms536136(v=vs.85)) в MCI обрабатываются по-разному, чем в других частях Windows; в MCI, **RC. Right** содержит ширину прямоугольника и **RC. Bottom** содержит его высоту.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При назначении данных членам этой структуры установите соответствующие флаги в параметре *фдвкомманд* функции [**мЦисендкомманд**](/previous-versions//dd757160(v=vs.85)) , чтобы проверить элементы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -71,7 +71,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

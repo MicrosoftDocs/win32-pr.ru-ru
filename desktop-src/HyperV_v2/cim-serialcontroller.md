@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4a2e69bab38bb8b68c15ed93b2bee721c35a7600
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a438919674f805f59cb6e2cac6e76cb6367f03ce12fa2ceb0787527e56adb83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980834"
 ---
 # <a name="cim_serialcontroller-class-hyper-v-management"></a>Класс CIM_SerialController (Управление Hyper-V)
 
@@ -47,7 +47,7 @@ class CIM_SerialController : CIM_Controller
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ сериалконтроллер** имеет следующие свойства.
 
@@ -219,7 +219,7 @@ class CIM_SerialController : CIM_Controller
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -233,7 +233,7 @@ class CIM_SerialController : CIM_Controller
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

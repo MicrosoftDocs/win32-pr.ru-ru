@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntoskrnl.lib
 - Ntoskrnl.dll
-ms.openlocfilehash: 7ba87d05d4264f3bb160bae16053a338e38e2145
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 481def34e3e8656205eefe96058fe3c7558d2c898c7e05ddc78f9a67435c507e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984154"
 ---
 # <a name="obfindhandleforobject-function"></a>Функция Обфиндхандлефоробжект
 
@@ -85,19 +85,19 @@ BOOLEAN WINAPI ObFindHandleForObject(
 
 Функция возвращает **значение true** , если найдено совпадение, и **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта функция доступна в Ntoskrnl.exe и может вызываться только из режима ядра. Соответствующая библиотека импорта доступна в комплекте драйверов Windows (WDK).
+Эта функция доступна в Ntoskrnl.exe и может вызываться только из режима ядра. соответствующая библиотека импорта доступна в комплекте Windows Driver Kit (WDK).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Нтосп. h</dt> </dl>      |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Нтосп. h</dt> </dl>      |
 | Библиотека<br/>                  | <dl> <dt>Ntoskrnl. lib</dt> </dl> |
 
 

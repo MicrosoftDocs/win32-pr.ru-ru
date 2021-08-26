@@ -4,12 +4,12 @@ description: Немедленная атомарная операция или �
 ms.assetid: 0ACE977D-5D0E-4E9C-A49F-B81D789B0D43
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2bc3b9afd2ba9f4dc63a8fb5c5818c1121c7ec6
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4e4188e8b79cdf4d782ebc926645a4279d08c9682fd0ae254c2ce37c5fbcf46a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104069364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982104"
 ---
 # <a name="imm_atomic_or-sm5---asm"></a>IMM \_ Atomic \_ или (SM5-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "104069364"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта инструкция выполняет один компонент 32-bit побитовое или операнда *src0* с *dst1* в 32-бит на компонент адрес *дстаддресс*.
 
@@ -89,7 +89,7 @@ ms.locfileid: "104069364"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -100,7 +100,7 @@ ms.locfileid: "104069364"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

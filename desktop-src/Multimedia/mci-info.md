@@ -3,7 +3,7 @@ title: Команда MCI_INFO (Ммсистем. h)
 description: Команда MCI \_ Information извлекает строковые данные с устройства.
 ms.assetid: aed3fed3-87b9-4673-9171-4f57770d765c
 keywords:
-- MCI_INFO команды мультимедиа Windows
+- команда MCI_INFO Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f6ba5be1c2a4ce94b880a87a468c594bc5b676
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18d53acbdfeb0c13b4b9e201d1bea23008dfbaa83221007152181fe685d09957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039204"
 ---
 # <a name="mci_info-command"></a>\_Команда сведений MCI
 
@@ -68,7 +68,7 @@ MCIERROR mciSendCommand(
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Следующие дополнительные стандартные и специальные флаги применяются ко всем устройствам, поддерживающим \_ сведения о MCI:
 
@@ -261,7 +261,7 @@ MCIERROR mciSendCommand(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -269,11 +269,11 @@ MCIERROR mciSendCommand(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

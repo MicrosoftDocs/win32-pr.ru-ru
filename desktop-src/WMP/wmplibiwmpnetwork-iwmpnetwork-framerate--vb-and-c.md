@@ -3,9 +3,9 @@ title: Свойство частоты кадров Ивмпнетворк
 description: Свойство частота кадров возвращает текущую частоту кадров видео.
 ms.assetid: 800ecf3d-3b2c-48f9-8fc4-c7c32757749a
 keywords:
-- Свойство частоты кадров Windows Media Player
-- Свойство частоты кадров Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, свойство частоты кадров
+- свойство частоты кадров проигрыватель Windows Media
+- свойство частоты кадров проигрыватель Windows Media, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, свойство частоты кадров
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c338a116588fa9f1c552feff15f220e08b0f66e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3169cc21eee2317da45db3cb3ca9ceffffa01c85479312defe63cda1fa09796f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956164"
 ---
 # <a name="iwmpnetworkframerate-property"></a>Свойство Ивмпнетворк:: частота кадров
 
@@ -53,7 +53,7 @@ Public ReadOnly Property frameRate As System.Int32
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Текущее значение частоты кадров возвращается в кадрах за сотни секунд. Например, значение 2998 означает 29,98 кадров в секунду (кадров/с).
 
@@ -111,19 +111,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

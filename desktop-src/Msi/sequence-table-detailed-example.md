@@ -4,12 +4,12 @@ ms.assetid: 25b3667a-1478-48c4-9c41-4defd25a0103
 title: Подробный пример таблицы последовательности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4698d5270f2f246fe6e676799ea239e47a950c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bc6e9715850d05231080cd8cd832ac7f39c1e3044628bb307afb51bf92c2210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040194"
 ---
 # <a name="sequence-table-detailed-example"></a>Подробный пример таблицы последовательности
 
@@ -113,7 +113,7 @@ ms.locfileid: "105664575"
 -   Маинтенанцедиалог выполняется, только если этот продукт уже установлен и не является установкой, которая возобновляется после приостановки.
 -   Микустомактион выполняется, только если выражение в столбце Condition имеет значение true. Выражение $MyComponent > 2 относится к состоянию действия компонента MyComponent. Это состояние указывает, что Микустомактион следует запускать только в том случае, если установлен параметр MyComponent. Дополнительные сведения о состояниях действий и состояниях выбора см. в описании свойства [**феатуререкуестстате**](session-featurerequeststate.md) , [таблицы функций](feature-table.md)и [действия инсталлфилес](installfiles-action.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

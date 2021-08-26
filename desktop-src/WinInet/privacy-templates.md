@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9394068721920836f61871ca42471469fd4c592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 481aa3e9b6b5b5519bac6e458de1acba90f2cfa20dd0a5babac016d0003c70b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104493161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955564"
 ---
 # <a name="privacy-templates"></a>Шаблоны конфиденциальности
 
@@ -132,7 +132,7 @@ ms.locfileid: "104493161"
 
 
 
-Определяется пользователем. Дополнительные параметры задаются в диалоговом окне **Дополнительные параметры конфиденциальности** , доступном на вкладке **Конфиденциальность** в **свойствах обозревателя**.
+Определяется пользователем. дополнительные параметры задаются в диалоговом окне **расширенная Параметры о конфиденциальности** , доступном на вкладке **конфиденциальность** диалогового окна **свойства обозревателя**.
 
 
 </dt> </dl> </dd> <dt>
@@ -150,14 +150,14 @@ ms.locfileid: "104493161"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -169,7 +169,7 @@ ms.locfileid: "104493161"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

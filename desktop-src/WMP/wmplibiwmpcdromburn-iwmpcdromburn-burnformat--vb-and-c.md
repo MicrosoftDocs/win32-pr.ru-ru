@@ -3,9 +3,9 @@ title: Ивмпкдромбурн Бурнформат, свойство
 description: Свойство Бурнформат возвращает значение, указывающее тип записываемого компакт-диска.
 ms.assetid: f60fcbd2-5d34-46f3-a2e2-29dac2ecf689
 keywords:
-- Проигрыватель Windows Media для свойства Бурнформат
-- Бурнформат свойство проигрывателя Windows Media Player, интерфейс Ивмпкдромбурн
-- Интерфейс Ивмпкдромбурн Windows Media Player, свойство Бурнформат
+- проигрыватель Windows Media свойства бурнформат
+- проигрыватель Windows Media свойства бурнформат, интерфейс ивмпкдромбурн
+- проигрыватель Windows Media интерфейса ивмпкдромбурн, свойство бурнформат
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17e379727376b1ce272a95cd77c688fa611b291a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93d5dc4ff27b3650ee37f16a7e90eb535ebe373401363f8c93bd16d09061b7a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000544"
 ---
 # <a name="iwmpcdromburnburnformat-property"></a>Свойство Ивмпкдромбурн:: Бурнформат
 
@@ -57,7 +57,7 @@ Public ReadOnly Property burnFormat As WMPBurnFormat
 
 | Требование | Значение |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 11<br/>                                                                             |
+| Версия<br/>   | проигрыватель Windows Media 11<br/>                                                                             |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                          |
 | Сборка<br/>  | <dl> <dt>Interop. Вмплиб (Interop.WMPLib.dll)</dt> </dl> |
 

@@ -1,19 +1,19 @@
 ---
-description: Содержит новые классы для Windows 10 версии 1703.
+description: содержит новые классы для Windows 10 версии 1703.
 ms.assetid: 33F993F0-2B20-49F7-9DAC-1D682633420C
 title: Классы Redstone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fbfce073314bf5540cebd429ba9aa3c42c8ee1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d6a61f2b79cc9739cff7a3643096592186e42a257fbb101549cd6719b75fc7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980194"
 ---
 # <a name="redstone-classes"></a>Классы Redstone
 
-Содержит новые классы для Windows 10 версии 1703.
+содержит новые классы для Windows 10 версии 1703.
 
 ## <a name="in-this-section"></a>В этом разделе
 

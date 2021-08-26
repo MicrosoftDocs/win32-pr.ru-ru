@@ -1,11 +1,11 @@
 ---
 title: Исеарчдесктоп Ексекутесклкуери, метод
-description: Принимает указатель на строку, содержащую запрос язык SQL (SQL) и его атрибуты, и возвращает указатель на возвращаемый набор.
+description: принимает указатель на строку, содержащую запрос язык SQL (SQL) и его атрибуты и возвращает указатель на возвращаемый набор.
 ms.assetid: df3f473b-0bee-4035-abf8-dbe5249ef0ed
 keywords:
-- Устаревшие функции среды Windows в методе Ексекутесклкуери
-- Метод Ексекутесклкуери устаревшие функции среды Windows, интерфейс Исеарчдесктоп
-- Интерфейс Исеарчдесктоп устаревшие функции среды Windows, метод Ексекутесклкуери
+- устаревшие функции Windows метода ексекутесклкуери
+- устаревшие функции Windows метода ексекутесклкуери, интерфейс исеарчдесктоп
+- устаревшие функции Windows интерфейса исеарчдесктоп, метод ексекутесклкуери
 topic_type:
 - apiref
 api_name:
@@ -15,28 +15,28 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f0b13ff361d07f99efe1366e2201d610eac10523
-ms.sourcegitcommit: b9a94cea8f83153214af4c09509e1cc61a1bb616
+ms.openlocfilehash: ec436a427958988e7605673b12b3fd8dc6fd3e1a54ab61cc5f542f0494c34923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "103789156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014294"
 ---
 # <a name="isearchdesktopexecutesqlquery-method"></a>Метод Исеарчдесктоп:: Ексекутесклкуери
 
 > [!NOTE]
-> Windows Desktop Search 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. В более поздних выпусках используйте [API поиска Windows](../search/-search-reference-entry-page.md) . 
+> Windows настольный поиск 2. x — это устаревшая технология, которая изначально была доступна в качестве надстройки для Windows XP и Windows Server 2003. в более поздних выпусках используйте вместо этого [API Windows поиска](../search/-search-reference-entry-page.md) . 
 
-Принимает указатель на строку, содержащую запрос язык SQL (SQL) и его атрибуты, и возвращает указатель на возвращаемый набор.
+принимает указатель на строку, содержащую запрос язык SQL (SQL) и его атрибуты и возвращает указатель на возвращаемый набор.
 
 ## <a name="syntax"></a>Синтаксис
 
 
 ```C++
 HRESULT ExecuteSQLQuery(
-  [in]  LPCWSTR *pdwAttributes,
-  [in]  LPCWSTR pwszURL,
-  [out] ppidUrl *ppidUrl
+  [in]  LPCWSTR *pdwAttributes,
+  [in]  LPCWSTR pwszURL,
+  [out] ppidUrl *ppidUrl
 );
 ```
 
@@ -60,7 +60,7 @@ HRESULT ExecuteSQLQuery(
 
 Тип: **лпквстр**
 
-Строка, содержащая SQL-запрос.
+строка, содержащая запрос SQL.
 
 </dd> <dt>
 
@@ -79,9 +79,9 @@ HRESULT ExecuteSQLQuery(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
- 
+ 
 
- 
+ 
 
 
 

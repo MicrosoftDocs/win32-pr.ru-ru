@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f676a53f5fe54e42ca2a489ad834b9c91e4e0ef5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 133477d82f718b992a628bde8af58f22d8d50a9e4974816c7c8f56be7ba8e33f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029474"
 ---
 # <a name="roles-collection"></a>Коллекция ролей
 
@@ -56,7 +56,7 @@ ms.locfileid: "104262741"
 | Ввод | Значение |
 |----------------|----------------------------|
 | Описание    | Описание роли. |
-| Access         | ReadWrite                  |
+| Доступ         | ReadWrite                  |
 | Тип           | Строка                     |
 | По умолчанию        | ""                         |
 | Минимальная система | Windows 2000               |
@@ -72,7 +72,7 @@ ms.locfileid: "104262741"
 | Ввод | Значение |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Описание    | Имя роли. Лишние пробелы в начале и конце строки удаляются. Это свойство возвращается при вызове метода свойства [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) или [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) для объекта этой коллекции. |
-| Access         | Флагом writeonce                                                                                                                                                                                                                                                   |
+| Доступ         | Флагом writeonce                                                                                                                                                                                                                                                   |
 | Тип           | Строка                                                                                                                                                                                                                                                      |
 | По умолчанию        | "Создать роль"                                                                                                                                                                                                                                                  |
 | Минимальная система | Windows 2000                                                                                                                                                                                                                                                |
@@ -81,7 +81,7 @@ ms.locfileid: "104262741"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: В этом разделе приводятся дополните�
 ms.assetid: faea97d1-5937-4fa2-acbf-a2142dd2a382
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9fa80882c02c849fd568ee37bee5fe19f3fa0b7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2019a86cb58c4bda60ad3f79b5186cfcb7bfab30e888a4a134128c78b1a2abe7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105710425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955954"
 ---
 # <a name="appendixes-ui-automation"></a>Приложений (модель автоматизации пользовательского интерфейса)
 
@@ -21,7 +21,7 @@ ms.locfileid: "105710425"
 -   [Типы элементов управления и поддерживаемые ими шаблоны элементов управления](uiauto-controlpatternmapping.md)
 -   [Модель автоматизации пользовательского интерфейса для спецификации общедоступных Интернет приложений с расширенными возможностями W3C](uiauto-ariaspecification.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

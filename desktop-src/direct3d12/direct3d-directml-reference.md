@@ -1,20 +1,20 @@
 ---
 title: Справочник по DirectML
-description: В этом разделе рассматриваются интерфейсы API прямого Машинное обучение (Директмл), объявленные в Директмл. h.
+description: в этом разделе рассматриваются интерфейсы api прямого Машинное обучение (директмл), объявленные в директмл. h.
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 982b66e9ee07a6506e7b45ba67de7c44a8648cc4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d619a066fbbb323b957a7cbbe533f0852eabcd76a2389ee6855b6bcdc48a785
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987824"
 ---
 # <a name="directml-reference"></a>Справочник по DirectML
 
-В этом разделе рассматриваются интерфейсы API прямого Машинное обучение (Директмл), объявленные в Директмл. h.
+в этом разделе рассматриваются интерфейсы api прямого Машинное обучение (директмл), объявленные в директмл. h.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -26,7 +26,7 @@ ms.locfileid: "105691246"
 | [Перечисления DirectML](direct3d-directml-enumerations.md) | Следующие перечисления объявляются в директмл. h. |
 | [Константы DirectML](direct3d-directml-constants.md) | Следующие константы объявляются в директмл. h. |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по коду](direct3d-12-core-reference.md)
 * [Справочник по Direct3D 12](direct3d-12-reference.md)

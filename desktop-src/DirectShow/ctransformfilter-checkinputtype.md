@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 63c48a0502ee074b0940f85386dca0619a3ad12d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ef410ac8d96160b39ca9b7103e5125be8619169ba6b287a32b8769e57a0cbf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053624"
 ---
 # <a name="ctransformfiltercheckinputtype-method"></a>Ктрансформфилтер. Чеккинпуттипе, метод
 
@@ -64,24 +64,24 @@ virtual HRESULT CheckInputType(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Производный класс должен реализовывать этот метод. Возвращает значение \_ ОК, если предложенный входной формат допустим, или код ошибки в противном случае.
 
 Этому методу не нужно проверять, совместим ли входной формат с выходным форматом (если он есть). Входной ПИН-код проверяет это, вызывая метод [**чекктрансформ**](ctransformfilter-checktransform.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

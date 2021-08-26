@@ -3,7 +3,7 @@ title: Сообщение PBM_GETRANGE (Коммктрл. h)
 description: Извлекает сведения о текущих высоких и младших ограничениях данного элемента управления "индикатор выполнения".
 ms.assetid: 676b7a37-bdde-4307-9888-9a0cf40db2db
 keywords:
-- Элементы управления Windows для PBM_GETRANGE сообщений
+- элементы управления Windows сообщений PBM_GETRANGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c4ffe9365686432a5e78cb1540055f41a838fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 007a62386180e7b47edca201236cd1dacc86df696b5705d02ec1da0acb89761c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986404"
 ---
 # <a name="pbm_getrange-message"></a>Сообщение о некотором \_ диапазоне PBM
 
@@ -64,9 +64,9 @@ ms.locfileid: "103989001"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

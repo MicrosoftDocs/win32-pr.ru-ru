@@ -1,5 +1,5 @@
 ---
-description: Загружает указанную версию библиотеки DLL платформа .NET Framework библиотеки.
+description: загружает указанную версию библиотеки DLL платформа .NET Framework библиотеки.
 ms.assetid: f001774d-ea9a-4820-aec0-99ce958b1e1d
 title: Функция Лоадлибраришим
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Mscoree.dll
-ms.openlocfilehash: 3a2fd8ab6aef8d0309748cbbf37d56ccd032b050
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 123d4036713d6c1c5b7f7a08026d29d7d34126c28c5c2c1fceb94eb01baf9609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001244"
 ---
 # <a name="loadlibraryshim-function"></a>Функция Лоадлибраришим
 
-Загружает указанную версию библиотеки DLL платформа .NET Framework библиотеки.
+загружает указанную версию библиотеки DLL платформа .NET Framework библиотеки.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -45,7 +45,7 @@ HRESULT LoadLibraryShim(
 *сздллнаме* \[ окне\]
 </dt> <dd>
 
-Имя библиотеки DLL, загружаемой из платформа .NET Framework.
+имя библиотеки DLL, загружаемой из платформа .NET Framework.
 
 </dd> <dt>
 
@@ -74,9 +74,9 @@ HRESULT LoadLibraryShim(
 
 Если эта функция завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Эта функция используется для загрузки библиотек DLL библиотеки, включенных в распространяемый пакет платформа .NET Framework, а не для создаваемых пользователем библиотек DLL.
+эта функция используется для загрузки библиотек dll библиотеки, включенных в распространяемый пакет платформа .NET Framework, а не для создаваемых пользователем библиотек dll.
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

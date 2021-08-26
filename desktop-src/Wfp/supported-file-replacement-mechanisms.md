@@ -4,40 +4,40 @@ ms.assetid: a757e6cf-59df-4894-a0dc-40174b0aa147
 title: Поддерживаемые механизмы замены ресурсов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2aaaa1d9cc8d24d8cd172be71ee40790bf8161a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa8f839e65ddd07bbde6bb4e089c3235ee6930dec910c07c1c318e666b034afb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999254"
 ---
 # <a name="supported-resource-replacement-mechanisms"></a>Поддерживаемые механизмы замены ресурсов
 
 Замена защищенных ресурсов поддерживается следующими механизмами.
 
-Разрешение на полный доступ к изменению ресурсов, защищенных WRP, в Windows Vista и Windows Server 2008 ограничено TrustedInstaller со службой установщика модулей Windows с помощью следующих механизмов:
+разрешение на полный доступ к изменению ресурсов, защищенных WRP, в Windows Vista и Windows Server 2008 ограничено TrustedInstaller с помощью службы установщика Windows modules с использованием следующих механизмов:
 
--   Пакеты обновления Windows, устанавливаемые TrustedInstaller.
+-   Windows Пакеты обновления, установленные TrustedInstaller.
 -   Исправления, установленные TrustedInstaller.
 -   Обновления операционной системы, установленные TrustedInstaller.
--   Центр обновления Windows, установленный TrustedInstaller.
+-   Windows Обновление, установленное TrustedInstaller.
 
 Приложения и установщики, пытающиеся заменить ресурс, защищенный WRP, другими способами, кроме указанных методов, получают доступ для изменения ресурса и создания сообщения об ошибке отказа в доступе.
 
 Для хорошо известных установщиков, пытающихся заменить защищенные WRP ресурсы, сообщения об отказе в доступе и ошибке могут быть подавлены. В этом случае операция возвращается успешно, сообщение об ошибке и ошибке подавляется, но изменения не применяются к ресурсу, защищенному WRP. Ошибка может быть подавлена для хорошо известного установщика только при соблюдении всех следующих условий.
 
--   Это устаревшее приложение. Приложение не включает манифест с requestedExecutionlevel, который идентифицирует приложение, разработанное для Windows Vista или Windows Server 2008.
+-   Это устаревшее приложение. приложение не включает манифест с requestedExecutionlevel, который идентифицирует приложение, разработанное для Windows Vista или Windows Server 2008.
 -   Ошибка отказа в доступе связана только с попыткой изменения ресурса, защищенного WRP.
 -   Администратор устанавливает приложение.
 
-Сведения об использовании установщик Windows с WRP см. в разделе [использование установщик Windows и защита ресурсов Windows](/windows/desktop/Msi/windows-resource-protection-on-windows-vista) в пакете SDK для [установщик Windows](/windows/desktop/Msi/windows-installer-portal) .
+сведения об использовании установщик Windows с WRP см. в разделе [использование установщик Windows и защита ресурсов Windows](/windows/desktop/Msi/windows-resource-protection-on-windows-vista) в пакете SDK для [установщик Windows](/windows/desktop/Msi/windows-installer-portal) .
 
 **Windows Server 2003 и Windows XP:** Замена системных файлов, защищенных с помощью WFP, поддерживается только с помощью следующих механизмов:
 
--   Установка пакета обновления Windows с помощью Update.exe
+-   Windows Установка пакета обновления с помощью Update.exe
 -   Исправления, установленные с помощью Hotfix.exe
 -   Обновление операционной системы с помощью Winnt32.exe
--   Центра обновления Windows;
+-   Центр обновления Windows
 
 Замена защищенных файлов средствами, отличными от указанных методов, приводит к восстановлению исходных файлов с помощью WFP.
 

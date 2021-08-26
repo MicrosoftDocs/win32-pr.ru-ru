@@ -4,12 +4,12 @@ ms.assetid: 5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8
 title: Атрибут MF_TOPONODE_WORKQUEUE_ID (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9acda95895a1812f6cebbe64cbf3cd3bcdea4eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58ba4ab55d2a70b4b0c081544ab43a78719fab537fbf478519bde1e65dfc9e08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104154983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955094"
 ---
 # <a name="mf_toponode_workqueue_id-attribute"></a>\_ \_ Атрибут ID ТОПОНОДЕ ворккуеуе MF \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104154983"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут применяется к исходным узлам **( \_ \_ \_ узел топологии MF саурцестреам**). Атрибут является необязательным.
 
@@ -44,9 +44,9 @@ ms.locfileid: "104154983"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

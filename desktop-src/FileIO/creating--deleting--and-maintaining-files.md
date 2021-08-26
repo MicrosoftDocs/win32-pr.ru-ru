@@ -4,12 +4,12 @@ ms.assetid: b9cf0ddf-efda-4997-bcc3-3056026c1264
 title: Создание, удаление и обслуживание файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 921388e84ac44a42e0c24880b1b56971ba84c12b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff20362e2ff5f1d8b01b515c7cbbb9fae250d930b2610c49c5e8aaeeabe7b401
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982124"
 ---
 # <a name="creating-deleting-and-maintaining-files"></a>Создание, удаление и обслуживание файлов
 

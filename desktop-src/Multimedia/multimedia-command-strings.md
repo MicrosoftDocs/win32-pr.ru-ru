@@ -3,19 +3,19 @@ title: Строки команд мультимедиа
 description: Строки команд мультимедиа
 ms.assetid: f8edfdbd-1334-4323-aec5-73c0a56f9b4d
 keywords:
-- Мультимедиа Windows, командные строки
+- Windows мультимедиа, командные строки
 - мультимедиа, командные строки
 - Ссылка на мультимедиа, строки команд
 - справочные материалы по мультимедиа, командные строки
 - строки команд мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4ec8f9b0efa783028850a6cd03cbc0bed20caf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 986a1fc9e2a97671b04d8ba8a4a5cd033e176a94f6a8e898b4f899b7a9c707a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103987467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038774"
 ---
 # <a name="multimedia-command-strings"></a>Строки команд мультимедиа
 
@@ -39,7 +39,7 @@ ms.locfileid: "103987467"
 -   [как](mark.md)
 -   [слежен](monitor.md)
 -   [open](open.md)
--   [авить](paste.md)
+-   [вставка](paste.md)
 -   [pause](pause.md)
 -   [воспроизводит](play.md)
 -   [PUT](put.md)
@@ -66,15 +66,15 @@ ms.locfileid: "103987467"
 -   [освободить](unfreeze.md)
 -   [update](update.md)
 -   [where](where.md)
--   [окно](window.md)
+-   [window](window.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Ссылка на мультимедиа](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
