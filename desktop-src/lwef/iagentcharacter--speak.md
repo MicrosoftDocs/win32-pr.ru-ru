@@ -4,16 +4,16 @@ description: Иажентчарактер
 ms.assetid: 3c4baf83-9e69-4048-bdaf-4ead8ea8e7cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e290ab9037ee6f261445d4dfd00a206213cd26
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 693b40a00b34173976410391249d3fac1a7f0684e34a6e2ae82afbd8b8169ce0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104533155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014214"
 ---
 # <a name="iagentcharacterspeak"></a>Иажентчарактер:: говорите
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Speak(
@@ -63,13 +63,13 @@ URL-адрес (или спецификация файла) звукового �
 > [!Note]  
 > Задайте идентификатор языка символа (с помощью [**иажентчарактерекс:: сетлангуажеид**](iagentcharacterex--setlanguageid.md) перед использованием метода [**говорите**](/windows/desktop/lwef/iagentcharacter--speak) , чтобы обеспечить отображение текста внутри всплывающей подсказки.
 
- 
+ 
 
 ## <a name="see-also"></a>См. также:
 
 [**Иажентчарактер::Pный макет**](iagentcharacter--play.md), [**Иажентбаллун:: enable**](iagentballoon--getenabled.md), [**иажентчарактер::P готовка**](iagentcharacter--prepare.md)
 
 
- 
+ 
 
- 
+ 

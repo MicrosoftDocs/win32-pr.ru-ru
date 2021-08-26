@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: df5527be497176f167ac368b872253fa3254a404
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f749455a15e92427f4f0fec50abce7ea8ba83b44f9244b3b61208fb27dd12b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077674"
 ---
 # <a name="deleteex-method-of-the-win32_codecfile-class"></a>Метод Делетикс \_ класса Win32 кодекфиле
 
@@ -108,7 +108,7 @@ uint32 DeleteEx(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -154,7 +154,7 @@ uint32 DeleteEx(
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -168,7 +168,7 @@ uint32 DeleteEx(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

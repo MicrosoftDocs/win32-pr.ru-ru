@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, выполнение вызова
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a97095d7eda8227f2369f5e3776faf8ce04c22f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8218fd99e11c65f15dbbe7a56c2ece1b93720839498352d610312a0f66f95bc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020084"
 ---
 # <a name="making-a-remote-procedure-call"></a>Выполнение удаленного вызова процедур
 
@@ -21,9 +21,9 @@ Microsoft RPC также предлагает пользовательские �
 
 Чтобы выполнить вызов процедуры удаленно, вызовите клиентскую функцию-заглушку так же, как и любую функцию C.
 
- 
+ 
 
- 
+ 
 
 
 

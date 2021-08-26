@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ole2disp.dll
 - Oleaut32.dll
-ms.openlocfilehash: 2c7ed806629f0e5e1bb0cdee5c76910728fd651d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13002457952490588fa9e9ad40e7f66e7d31465b74f9757a3193ccaed1e8bf7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002104"
 ---
 # <a name="iextendermove-method"></a>Метод Иекстендер:: Move
 
@@ -75,7 +75,7 @@ void Move(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,7 +85,7 @@ void Move(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: ec13bb55-47af-4d79-9560-d297bce8e236
 title: Свойство Аваудиочаннелконфиг (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ee1bc7897d92f7efa1b6d351d2f73c32867529
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2ba9c497305292abeb34b86a7989fb05fbb872c898d10743ebd93b3982089e00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104072204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983794"
 ---
 # <a name="avaudiochannelconfig-property"></a>Аваудиочаннелконфиг, свойство
 
@@ -29,7 +29,7 @@ ms.locfileid: "104072204"
 
 Значение этого свойства является побитовым или для элементов перечисления [**еаваудиочаннелконфиг**](/windows/desktop/api/codecapi/ne-codecapi-eavaudiochannelconfig) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Число каналов включает канал с низкой частотой (НИЗКОЧАСТОТный), если он присутствует.
 
@@ -39,9 +39,9 @@ ms.locfileid: "104072204"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 

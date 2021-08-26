@@ -1,15 +1,15 @@
 ---
-description: Разработчики установщик Windowsных пакетов могут использовать настраиваемое действие типа 34, если стандартные действия недостаточны для выполнения установки.
+description: разработчики установщик Windowsных пакетов могут использовать настраиваемое действие типа 34, если стандартные действия недостаточны для выполнения установки.
 ms.assetid: 4d0e4f01-0530-4202-bc78-b6e52670b8e5
 title: Тип настраиваемого действия 34
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76ba17c9a4dc5b35d8d03e9cca2707079cb15bf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4173633e7912897a3327d6d4c9c556d33f38bbd7f45cca6d4a1d96ef916b08ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077944"
 ---
 # <a name="custom-action-type-34"></a>Тип настраиваемого действия 34
 
@@ -53,11 +53,11 @@ ms.locfileid: "105651002"
 
 Настраиваемые действия, являющиеся [исполняемыми файлами](executable-files.md) , должны возвращать значение 0 для успешного выполнения. Установщик интерпретирует любое другое возвращаемое значение как сбой. Чтобы игнорировать возвращаемые значения, установите флаг битов **мсидбкустомактионтипеконтинуе** в поле Тип таблицы [CustomAction](customaction-table.md) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Пользовательское действие, запускающее исполняемый файл, принимает командную строку, которая обычно содержит свойства, которые определены динамически. Если это также [Отложенное настраиваемое действие выполнения](deferred-execution-custom-actions.md), установщик использует [**параметр CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) или [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) для создания процесса при вызове настраиваемого действия из скрипта установки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

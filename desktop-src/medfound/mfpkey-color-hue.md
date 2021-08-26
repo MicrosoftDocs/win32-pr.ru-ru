@@ -4,12 +4,12 @@ ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
 title: Свойство MFPKEY_COLOR_HUE (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b3ddf0109090bfb56102560dc06a853c970e7ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 646d9e3ae0e72e11ae8952d28df9e4e3afc4147eaa7983bd1f0e9c82266ca5c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104156098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954444"
 ---
 # <a name="mfpkey_color_hue-property"></a>\_Свойство цветового \_ тона мфпкэй
 
@@ -27,29 +27,29 @@ VT \_ I4
 
 0
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Преобразование элемента управления цветом DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Корректировка оттенков выполняется путем смешения значений CB и CR. (Если CB и CR отображаются в двухмерном пространстве, Настройка оттенков выполняется путем поворота вокруг источника.)
 
 Это свойство имеет диапазон от-127 до 127. Ноль означает отсутствие изменений в оттенках.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

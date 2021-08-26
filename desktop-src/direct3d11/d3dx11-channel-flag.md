@@ -1,6 +1,6 @@
 ---
 title: Перечисление D3DX11_CHANNEL_FLAG (D3DX11tex. h)
-description: Обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows. Эти флаги используются функциями, которые работают с одним или несколькими каналами в текстуре.
+description: обратите внимание, что библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows. Эти флаги используются функциями, которые работают с одним или несколькими каналами в текстуре.
 ms.assetid: 058a0a1e-3c1b-4397-a41a-2e47d878cd92
 keywords:
 - Перечисление D3DX11_CHANNEL_FLAG Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e3097552637ce96663671dda443684ebda2b65
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 45f8142d34235a151638e1043928521666f2d1751319ee785d22b92004a14421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028314"
 ---
 # <a name="d3dx11_channel_flag-enumeration"></a>\_ \_ Перечисление флагов канала D3DX11
 
 > [!Note]  
-> Библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений Магазина Windows.
+> библиотека служебной программы D3DX (D3DX 9, D3DX 10 и D3DX 11) является устаревшей для Windows 8 и не поддерживается для приложений магазина Windows.
 
  
 
@@ -85,17 +85,17 @@ typedef enum D3DX11_CHANNEL_FLAG {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX11tex. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

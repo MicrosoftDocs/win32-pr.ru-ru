@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5e0bd9539c43290e4972494d062e6983e64defb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c4bfc94bf75150c1c84efb5c1803ad03f164e4615eb9e1c171066f516aa5544
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981254"
 ---
 # <a name="cim_processindication-class"></a>\_Класс CIM процессиндикатион
 
@@ -43,7 +43,7 @@ class CIM_ProcessIndication : CIM_Indication
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

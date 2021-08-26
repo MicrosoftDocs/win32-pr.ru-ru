@@ -4,12 +4,12 @@ description: контролшаулдхавевалуе
 ms.assetid: 90C37CC5-21D2-4D26-B6D9-2C95C52127BF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b078712319ffcfde386df519837ba467ca2fcf4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c6ced460fac38552e0b82396e6bbbcf92e90c341e40b289e332a3f188c7e4ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998744"
 ---
 # <a name="controlshouldhavevalue"></a>контролшаулдхавевалуе
 
@@ -19,7 +19,7 @@ ms.locfileid: "104258578"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -41,7 +41,7 @@ ms.locfileid: "104258578"
 
 Элемент или его родитель имеет набор ролей MSAA.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -51,9 +51,9 @@ ms.locfileid: "104258578"
 [**Роли объектов**](object-roles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

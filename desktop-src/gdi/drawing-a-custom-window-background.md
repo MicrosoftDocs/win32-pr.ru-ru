@@ -4,12 +4,12 @@ ms.assetid: 72a342dc-2766-4ec9-b4c6-5ac3c550ea25
 title: Рисование пользовательского фона окна
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 437a88bec680a6f35e84f5444fc90a45f98da533
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4248f7d7a1ae27ae09c93e95734fd72285028e1185b6d35110e5141fcbf88c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966014"
 ---
 # <a name="drawing-a-custom-window-background"></a>Рисование пользовательского фона окна
 

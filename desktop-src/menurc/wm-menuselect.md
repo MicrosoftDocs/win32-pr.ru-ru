@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdee9187ba2074944b3611fee10f5a22c2cc25ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1708aabf8ea12bf20c919f1306672358c2966a3d23aa0badccb1f4592c543f3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952224"
 ---
 # <a name="wm_menuselect-message"></a>\_Сообщение МЕНУСЕЛЕКТ WM
 
@@ -74,13 +74,13 @@ ms.locfileid: "105710555"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если слово « *wParam* » высокого порядка содержит 0xFFFF, а параметр *lParam* содержит **значение NULL**, система закрыла меню.
 
 Не используйте значение 1 для слова с высоким приоритетом *wParam*, так как это значение указано как (**uint**) [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))(*wParam*). Если значение равно 0xFFFF, то оно будет интерпретироваться как 0x0000FFFF, а не как 1, из-за приведения к типу **uint**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -88,11 +88,11 @@ ms.locfileid: "105710555"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

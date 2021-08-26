@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9f8010dcfe490363903ff455bedb61254b69b825
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9184d5e8a0e0ad6c0242ec1dc4b7590f1bc0d39a0a9cd6a09b2676563a2796e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055474"
 ---
 # <a name="cimagedisplayrefreshdisplaytype-method"></a>Цимажедисплай. Рефрешдисплайтипе, метод
 
@@ -53,24 +53,24 @@ HRESULT RefreshDisplayType(
 
 Возвращает значение \_ ОК, если успешно, или E \_ Fail, если не удалось.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод инициализирует **\_ отображаемый элемент m** на тип видео, соответствующий режиму экрана на указанном устройстве.
 
 Этот метод следует вызывать каждый раз при \_ получении сообщения ДИСПЛАЙЧАНЖЕД WM или при указании дополнительного устройства вывода.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

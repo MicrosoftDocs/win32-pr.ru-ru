@@ -4,17 +4,17 @@ description: Добавление ползунка
 ms.assetid: 7062d580-a9d1-4fd7-bc28-db2615464838
 keywords:
 - Создание обложек, ползунков
-- Обложки проигрывателя Windows Media, ползунки
+- обложки проигрыватель Windows Media, ползунки
 - обложки, ползунки
 - Ползунки в обложках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3efcae55b3826b69a7c88fed5a23a262526c9dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c6c3644e1b243188664295bbc00101a74377cbef17632217ff0a81dac0d377a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004384"
 ---
 # <a name="adding-a-slider"></a>Добавление ползунка
 
@@ -64,16 +64,16 @@ ms.locfileid: "104068228"
 
 Аналогичную обложку рабочего ползунка можно увидеть в разделе примеров пакета SDK.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Руководством по созданию обложки**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

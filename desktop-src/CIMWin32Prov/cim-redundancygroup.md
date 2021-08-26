@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1394e052b4741dee5b2646c903d83477bfa1ccf3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 254991e6fffbc33ef1bd158fe24ee3d3c32ed6bbfcb15a3043a40bb6d14b3a4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920764"
 ---
 # <a name="cim_redundancygroup-class"></a>\_Класс CIM редунданциграуп
 
@@ -61,13 +61,13 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ редунданциграуп** имеет следующие свойства.
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -137,7 +137,7 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -333,7 +333,7 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ редунданциграуп** является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 
@@ -341,7 +341,7 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -355,7 +355,7 @@ class CIM_RedundancyGroup : CIM_LogicalElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

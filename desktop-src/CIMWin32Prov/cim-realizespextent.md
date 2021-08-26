@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 906861c7bc7a7e09d40d3457d069cdb9dd3a6b11
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 697ca0386d03ade55895f63cab67b3144bf50b3d0ffea2928633384e4d1f502a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920844"
 ---
 # <a name="cim_realizespextent-class"></a>\_Класс CIM реализеспекстент
 
@@ -53,7 +53,7 @@ class CIM_RealizesPExtent : CIM_Realizes
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ реализеспекстент** имеет следующие свойства.
 
@@ -106,7 +106,7 @@ class CIM_RealizesPExtent : CIM_Realizes
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **CIM \_ реализеспекстент** является производным от [**CIM \_**](cim-realizes.md).
 
@@ -114,7 +114,7 @@ class CIM_RealizesPExtent : CIM_Realizes
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -128,7 +128,7 @@ class CIM_RealizesPExtent : CIM_Realizes
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

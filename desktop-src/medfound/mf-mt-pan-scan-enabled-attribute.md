@@ -4,12 +4,12 @@ ms.assetid: 9e8746c6-13a4-4cf7-9748-82223d9529fa
 title: Атрибут MF_MT_PAN_SCAN_ENABLED (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b347c898ce827ff37796a9698e843f6321db8a1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee1e78c38cd15f5d735d49b5689905a40d74614b46817a8621ce1dabcdc5a1b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955494"
 ---
 # <a name="mf_mt_pan_scan_enabled-attribute"></a>\_Атрибут с \_ поддержкой MF Pan \_ Scan \_
 
@@ -21,7 +21,7 @@ ms.locfileid: "104545031"
 
 Рассматривать как логическое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если этот атрибут имеет **значение true**, должен отображаться только регион сдвига и сканирования видео. Регион сдвига и сканирования задается атрибутом [**\_ \_ \_ \_ апертуры панорамного просмотра в MF-MT**](mf-mt-pan-scan-aperture-attribute.md) .
 
@@ -31,19 +31,19 @@ ms.locfileid: "104545031"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

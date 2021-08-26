@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d57e2723c90eee8df728aa540baeab86932e773
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e8717edc045f50cc572d675dbec405b01fda49503349e9716210dfcae23fb277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982454"
 ---
 # <a name="expp---vs"></a>експп — VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "103784941"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "103784941"
 -   src является исходным регистром. Для исходного регистра требуется явное использование репликации свиззле, то есть только один из компонентов. x,. y,. z,. w свиззле (или. r,. g,. b,. a эквивалент) должен быть указан.
 -   {x \| y \| z \| w} — это обязательная репликация свиззле для исходного регистра.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,7 +47,7 @@ ms.locfileid: "103784941"
 
 
 
- 
+ 
 
 ### <a name="vs_1_1"></a>VS \_ 1 \_ 1
 
@@ -93,16 +93,16 @@ dest.x = dest.y = dest.z = dest.y = pow( 2, V ) (partial-precision)
 
 Инструкция предоставляет не менее 10 разрядов точности.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

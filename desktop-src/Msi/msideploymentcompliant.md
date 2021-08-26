@@ -1,31 +1,31 @@
 ---
-description: Свойство МСИДЕПЛОЙМЕНТКОМПЛИАНТ можно задать, чтобы указать установщику, что пакет был создан и проверен на соответствие контролю учетных записей (UAC) в Windows Vista.
+description: свойство мсидеплойменткомплиант можно задать, чтобы указать установщику, что пакет был создан и проверен на соответствие контролю учетных записей (UAC) в Windows Vista.
 ms.assetid: 7ee0dc56-bb9d-4a6e-aa3e-ae4c83f583d7
 title: МСИДЕПЛОЙМЕНТКОМПЛИАНТ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a965b7dce941a3d651e2f9f32e3d8f4993ded33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7cd1cea551c68858b4286e168862488e6d3361bfc501001b491ec9e655537185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077954"
 ---
 # <a name="msideploymentcompliant-property"></a>МСИДЕПЛОЙМЕНТКОМПЛИАНТ, свойство
 
-Свойство **мсидеплойменткомплиант** можно задать, чтобы указать установщику, что пакет был создан и проверен на соответствие [*контролю учетных записей*](u-gly.md) (UAC) в Windows Vista. Если это свойство не задано, установщик определит, соответствует ли пакет требованиям UAC в Windows Vista.
+свойство **мсидеплойменткомплиант** можно задать, чтобы указать установщику, что пакет был создан и проверен на соответствие [*контролю учетных записей*](u-gly.md) (UAC) в Windows Vista. если это свойство не задано, установщик определит, соответствует ли пакет контролю учетных записей в Windows Vista.
 
-Дополнительные сведения о контроле учетных записей и установщик Windows см. в разделе [использование установщик Windows с UAC](using-windows-installer-with-uac.md) и [рекомендации по пакетам](guidelines-for-packages.md).
+дополнительные сведения о контроле учетных записей и установщик Windows см. в разделе [использование установщик Windows с UAC](using-windows-installer-with-uac.md) и [рекомендации по пакетам](guidelines-for-packages.md).
 
-**Установщик Windows 3,1, установщик Windows 3,0 и установщик Windows 2,0:** Это свойство не учитывается. Это свойство используется только установщик Windows 4,0 в Windows Vista.
+**установщик Windows 3,1, установщик Windows 3,0 и установщик Windows 2,0:** Это свойство не учитывается. это свойство используется только установщик Windows 4,0 в Windows Vista.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. сведения о минимальном пакете обновления, требуемом для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "105652014"
 [Свойства](properties.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

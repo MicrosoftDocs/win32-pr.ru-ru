@@ -44,12 +44,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96ad4206cc50953a135b23257526ffb5cdc59b6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d951a8927458fa12398682ce63963dd71949d70e4db3a426dfc93ad14c78bf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104538549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922624"
 ---
 # <a name="win32_videoconfiguration-class"></a>\_Класс Win32 видеоконфигуратион
 
@@ -104,7 +104,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ видеоконфигуратион** имеет следующие свойства.
 
@@ -262,7 +262,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -407,7 +407,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 Указывает путь к INF-файлу видеодрайвера.
 
-Пример: C: \\ \\ драйверы Windows System32 \\
+пример: C: \\ \\ драйверы Windows System32 \\
 
 Это свойство не рекомендуется использовать в пользу соответствующих свойств, содержащихся в [**Win32 \_ Видеоконтроллер**](win32-videocontroller.md), [**Win32 \_ Десктопмонитор**](win32-desktopmonitor.md) и//или [**CIM \_ видеоконтроллерресолутион**](cim-videocontrollerresolution.md).
 
@@ -489,7 +489,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -691,7 +691,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -705,7 +705,7 @@ class Win32_VideoConfiguration : CIM_Setting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

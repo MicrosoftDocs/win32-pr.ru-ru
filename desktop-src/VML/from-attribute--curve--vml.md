@@ -4,21 +4,21 @@ description: Из атрибута (кривая) (VML)
 ms.assetid: 70e940c1-3fa8-4a30-9ca8-584483cea485
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d5f78dee46192efed48172a7d1f4d9cc77582f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4df431e9239f185ce83771f7822fe98e5bf491bd84a1deb7b869df7d3d2f235e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905503"
 ---
 # <a name="from-attribute-curvevml"></a>Из атрибута (кривая) (VML)
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет начальную точку кривой. Read/write. **VgVector2D**.
 
@@ -56,6 +56,6 @@ ms.locfileid: "104413570"
 
 
 
- 
+ 
 
- 
+ 

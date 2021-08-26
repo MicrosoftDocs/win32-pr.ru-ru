@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101341
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 068f78217cc2c8178070488aea32514f1d759fc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5bf35b397de2acf3b7aa8dee1fafd223a43a6f7a5880ff5e3213b672ef684af3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104549821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975464"
 ---
 # <a name="esentcolumnnotfoundexception-methods"></a>Методы EsentColumnNotFoundException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104549821"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

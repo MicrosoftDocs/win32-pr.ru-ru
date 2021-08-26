@@ -4,12 +4,12 @@ ms.assetid: 441b9416-066a-429b-92d2-555584a20fa2
 title: Селектионпасон таблице ControlEvent событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9882ea534a0d4c91a0107ce3949363350a17fbea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fea32926117c200f466bd2c40ac611e7ccbc47fb6a231a5dcf93ffa2ee0446b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040434"
 ---
 # <a name="selectionpathon-controlevent"></a>Селектионпасон таблице ControlEvent событие
 
@@ -27,11 +27,11 @@ ms.locfileid: "105664661"
 
 ## <a name="argument"></a>Аргумент
 
-Нет.
+Отсутствует.
 
 ## <a name="action-on-subscribers"></a>Действие на подписчиках
 
-Нет.
+Отсутствует.
 
 ## <a name="typical-use"></a>Типичные случаи использования
 

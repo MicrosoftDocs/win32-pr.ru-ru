@@ -3,7 +3,7 @@ title: Список воспроизведения. Дропдовнтултип
 description: Атрибут Дропдовнтултип указывает или получает подсказку, отображаемую, когда пользователь наводит указатель мыши на раскрывающийся список элементов списка воспроизведения.
 ms.assetid: 36eefea4-9f34-4428-bac6-e3e1a8b8f20d
 keywords:
-- Проигрыватель Windows Media Player. Дропдовнтултип
+- проигрыватель Windows Media списка воспроизведения. дропдовнтултип
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39cc6f92293750713dde2bfb5eaf097576e6c00e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ca6af0e1e253a1645cc3d4e8914867ef0ec583cc19d26ae1e000a527b7cf838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003154"
 ---
 # <a name="playlistdropdowntooltip"></a>Список воспроизведения. Дропдовнтултип
 
@@ -31,7 +31,7 @@ ms.locfileid: "105704207"
 
 Этот атрибут является **строкой** для чтения и записи со значением по умолчанию "отображать списки воспроизведения, аудио, видео или радиостанции".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если для этого атрибута задано значение "" (пустая строка), подсказка не отображается.
 
@@ -41,7 +41,7 @@ ms.locfileid: "105704207"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

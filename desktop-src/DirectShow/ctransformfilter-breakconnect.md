@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: aec60322a4782d84e84dc2030b69f6c385783e98
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c4e77e28548c1f181cb5f8a6c106572d243314c5afd9d9126024e9b84fbe02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053814"
 ---
 # <a name="ctransformfilterbreakconnect-method"></a>Ктрансформфилтер. Бреакконнект, метод
 
@@ -53,22 +53,22 @@ virtual HRESULT BreakConnect(
 
 Возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Методы [**ктрансформинпутпин:: бреакконнект**](ctransforminputpin-breakconnect.md) и [**Ктрансформаутпутпин:: бреакконнект**](ctransformoutputpin-breakconnect.md) вызывают этот метод, если соединение с закреплением разорвано. Этот метод не выполняет никаких действий в базовом классе. При переопределении метода [**чеккконнект**](ctransformfilter-checkconnect.md) Переопределите этот метод, чтобы освободить все ресурсы, полученные в методе **чеккконнект** , включая указатели интерфейса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Трансфрм. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>трансфрм. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

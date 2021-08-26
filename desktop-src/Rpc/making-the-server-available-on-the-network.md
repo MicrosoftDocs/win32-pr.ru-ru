@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, обеспечение доступности сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee2826e4e63e7e78e7f87f6afc120b80e885cd3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55385a1ba10f7f8ca28622af0b145ce25ef1bbbd0ab8df327687ce7fd7db6f77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020058"
 ---
 # <a name="making-the-server-available-on-the-network"></a>Обеспечение доступности сервера в сети
 
@@ -52,9 +52,9 @@ status = RpcServerInqBindings(&rpcBindingVector);
 
 Единственный параметр, передаваемый функции [**рпксерверинкбиндингс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindings) , — это указатель на указатель на структуру [**\_ \_ вектора привязки RPC**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_binding_vector) . Библиотека времени выполнения RPC динамически выделяет массив векторов привязки и сохраняет адрес массива в переменной параметра (в данном случае это **рпкбиндингвектор**). Каждое серверное приложение отвечает за освобождение этого вектора привязки с помощью функции [**рпкбиндингвекторфри**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingvectorfree) по завершении ее использования (например, после того, как она была передана соответствующим функциям).
 
- 
+ 
 
- 
+ 
 
 
 

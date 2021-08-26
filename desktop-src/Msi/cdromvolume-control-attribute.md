@@ -4,12 +4,12 @@ ms.assetid: 233df659-413d-416e-a3d7-d05a67e9bd73
 title: Атрибут элемента управления Кдромволуме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a687cfd52f347d9bfd24e74fb10b15f865e13b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78abd961ddfd710defea9b464ea861f731fcf84a0989062f0607fda8ced5b381
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078044"
 ---
 # <a name="cdromvolume-control-attribute"></a>Атрибут элемента управления Кдромволуме
 
@@ -41,7 +41,7 @@ ms.locfileid: "105650708"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите бит Кдромволуме в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

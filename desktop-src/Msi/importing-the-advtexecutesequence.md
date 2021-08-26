@@ -4,18 +4,18 @@ ms.assetid: 269bd28c-fa45-42b8-a610-1c4c5fcabc19
 title: Импорт Адвтексекутесекуенце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e4d7622670973a622b1376456ecfef445684cf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 518adfa315b5705806ba65caf09691316894ab664c32485dd3f4b6ce894be1a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043674"
 ---
 # <a name="importing-the-advtexecutesequence"></a>Импорт Адвтексекутесекуенце
 
 В [таблице адвтексекутесекуенце](advtexecutesequence-table.md) перечислены действия, которые установщик вызывает при выполнении [действия объявления](advertise-action.md)верхнего уровня. См. раздел [таблицы процедур установки](installation-procedure-tables-group.md), [Использование таблицы последовательности](using-a-sequence-table.md)и [подробный пример таблицы последовательности](sequence-table-detailed-example.md).
 
-Если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [Использование таблицы последовательностей](using-a-sequence-table.md). Изменения этих последовательностей не требуются для создания образца установочного пакета Notepad.
+если в разделе [импортируется пустая база данных](importing-a-blank-database.md) , которая использовалась uisample.msi из пакета SDK для установщик Windows, таблицы последовательности в копии MNP2000.msi уже содержат предлагаемые последовательности действий, описанные в разделе [использование таблицы последовательностей](using-a-sequence-table.md). изменения в этих последовательностях не должны быть необходимы для создания Блокнот образца установочного пакета.
 
 Используйте редактор базы данных, чтобы открыть MNP2000.msi и ввести в [таблицу адвтексекутесекуенце](advtexecutesequence-table.md)следующие данные.
 

@@ -4,28 +4,28 @@ ms.assetid: 74ce5eea-5430-48d3-9640-f23c8bbdc937
 title: Сервицепакклевелминор, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c057f33ada8abe4acd68ff824ffb0d2b0282632e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 905305f1d9db239682ca50de9151ef6086e020b432ad0f409143a3502932a98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039861"
 ---
 # <a name="servicepacklevelminor-property"></a>Сервицепакклевелминор, свойство
 
 Свойство **сервицепакклевелминор** используется в сочетании со свойством [**сервицепакклевел**](servicepacklevel.md) . Он содержит дополнительный номер редакции пакета обновления, установленного на компьютере.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Это свойство задается только в Windows 2000.
+это свойство задается только в Windows 2000.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

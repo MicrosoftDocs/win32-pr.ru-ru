@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 0e5273f1c400732c94c7c63918787f5e130a854d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b9c49b5bf36571409cd49026d5d08fced80c3e43aee63d844abd481e51aa3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055334"
 ---
 # <a name="ienumportabledeviceconnectorsclone-method"></a>Метод Иенумпортабледевицеконнекторс:: Clone
 
@@ -61,21 +61,21 @@ HRESULT Clone(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                                                                             |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                                                                             |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                              |
-| Header<br/>                   | <dl> <dt>Девпкэй. h; </dt> <dt>Портабледевицеконнектапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Девпкэй. h; </dt> <dt>Портабледевицеконнектапи. h</dt> </dl> |
 | IDL<br/>                      | <dl> <dt>Портабледевицеконнектапи. idl</dt> </dl>                                                                |
 | Библиотека<br/>                  | <dl> <dt>Портабледевицегуидс. lib</dt> </dl>                                                                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

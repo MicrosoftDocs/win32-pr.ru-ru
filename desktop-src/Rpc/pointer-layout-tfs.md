@@ -4,12 +4,12 @@ description: Макет указателя описывает указатели
 ms.assetid: 1a4984c1-97b9-4e95-a17e-851b67fa94a3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f26a6639b0c4b56c911be1e688995aaf3fb9d2d8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6616cc7d1000b042c6039b2abf3f79d4900cd0e5fadac748881666610b139c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019196"
 ---
 # <a name="pointer-layout"></a>Макет указателя
 
@@ -174,9 +174,9 @@ number_of_pointers<2>
 
 Архитектуре проходит проверку на наличие стандартных условий, готовых к заполнению буфера, и выполняет другие проверки некоррелированной природы. С помощью этого шага невозможно выполнить проверки, нацеленные на коррелированные значения (например, аргумент размера и соответствующий размер); они выполняются позже, при распаковке.
 
- 
+ 
 
- 
+ 
 
 
 

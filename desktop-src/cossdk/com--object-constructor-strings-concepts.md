@@ -4,12 +4,12 @@ ms.assetid: b4915dae-c97c-4d36-95ee-bb10dcb40845
 title: Основные понятия о строках конструктора объектов COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c32bffd35ad230efe1f22b52da10e1b4910d71da
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9baef62780950e93043a48c2ccf13910faf7c692dc534f984ffd028e0b342dcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029524"
 ---
 # <a name="com-object-constructor-strings-concepts"></a>Основные понятия о строках конструктора объектов COM+
 
@@ -30,7 +30,7 @@ ms.locfileid: "103990463"
 
 Строки конструктора передаются во время создания объекта только при административном включении создания объектов. COM+ вызывает метод [**интерфейс IObjectConstruct:: конструирует**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectconstruct-construct) , который он реализует. В этом методе можно получить доступ к строке конструктора с помощью [**иобжектконструктстринг**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectconstructstring). Пустые строки могут быть допустимыми записями.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

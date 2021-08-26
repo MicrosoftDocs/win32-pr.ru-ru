@@ -4,12 +4,12 @@ ms.assetid: 51e8774e-f358-423f-a283-ad7beeabbbdb
 title: Создание языкового преобразования для модуля многоязычного слияния
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 970c8908ddbf89e31f0fc7a415358bb887f0838e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cf9a9c2294d310959bcd82f13010c88eb513e40ad4536c4dbca61e50d260873
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078064"
 ---
 # <a name="authoring-a-language-transform-for-a-multiple-language-merge-module"></a>Создание языкового преобразования для модуля многоязычного слияния
 

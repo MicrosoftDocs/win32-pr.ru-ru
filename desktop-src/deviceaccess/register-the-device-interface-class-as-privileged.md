@@ -4,12 +4,12 @@ description: В этом разделе показано, как добавит�
 ms.assetid: BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: e23f8b7f2cc1884e2f878739f56507e79eb1bb69
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 62bca034a2edab9b31267f14672b4821ca6569dead0fd645d98c52c234c24cb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104070818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029054"
 ---
 # <a name="register-the-device-interface-as-restricted-to-privileged-apps"></a>Зарегистрируйте интерфейс устройства как ограниченные для привилегированных приложений
 
@@ -41,12 +41,12 @@ AddProperty=PrivilegedProperties
 {14c83a99-0b3f-44b7-be4c-a178d3990564}, 2, 17,,1 ; -- non-zero indicates privileged
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вместо директивы **аддинтерфаце** драйвер может также вызвать подпрограмму [**иорегистердевицеинтерфаце**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) для регистрации класса интерфейса устройства.
 
 Можно также задать свойство ограниченного интерфейса, вызвав подпрограммы [**иосетдевицеинтерфацепропертидата**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-[Пример пользовательского доступа к драйверу](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [приложения для устройств UWP для внутренних устройств](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [центр разработки оборудования](/windows-hardware/drivers/)
+[пример пользовательского доступа к драйверу](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [приложения для устройств UWP для внутренних устройств](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Центр разработки оборудования](/windows-hardware/drivers/)

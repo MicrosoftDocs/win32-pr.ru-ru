@@ -4,12 +4,12 @@ ms.assetid: db44990e-5a0f-4153-8ff6-79dd7cda48af
 title: Синхронизация и перекрытие входных и выходных данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e263bb39badc7cbfadd67d80eb169dc1fe6d6c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e462e4c2cffa3f1c9dee9bc33a7c75b910ce8139dbdfab9c190b4691c4b6bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975914"
 ---
 # <a name="synchronization-and-overlapped-input-and-output"></a>Синхронизация и перекрытие входных и выходных данных
 
@@ -40,9 +40,9 @@ ms.locfileid: "105664355"
 
 * * Windows Vista, Windows Server 2003 и Windows XP: * *
 
-Будьте внимательны при повторном использовании структур с [**ПЕРЕкрытием**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . Если **перекрывающиеся** структуры используются повторно в нескольких потоках, а [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) вызывается с параметром *Бваит* , для которого установлено **значение true**, вызывающий поток должен убедиться, что соответствующее событие сигнально, прежде чем повторно использовать структуру. Это можно сделать с помощью функции [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) после вызова **GetOverlappedResult** , чтобы заставить поток ожидать завершения операции. Обратите внимание, что объект события должен быть объектом события ручного сброса. Если используется объект события автосброса, вызов **GetOverlappedResult** с параметром *бваит* , установленным в **значение true** , приводит к тому, что функция блокируется на неопределенное время. Это поведение изменилось начиная с Windows 7 и Windows Server 2008 R2 для приложений, которые задают Windows 7 в качестве поддерживаемой операционной системы в манифесте приложения. Дополнительные сведения см. в разделе [манифесты приложений](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
+Будьте внимательны при повторном использовании структур с [**ПЕРЕкрытием**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . Если **перекрывающиеся** структуры используются повторно в нескольких потоках, а [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) вызывается с параметром *Бваит* , для которого установлено **значение true**, вызывающий поток должен убедиться, что соответствующее событие сигнально, прежде чем повторно использовать структуру. Это можно сделать с помощью функции [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) после вызова **GetOverlappedResult** , чтобы заставить поток ожидать завершения операции. Обратите внимание, что объект события должен быть объектом события ручного сброса. Если используется объект события автосброса, вызов **GetOverlappedResult** с параметром *бваит* , установленным в **значение true** , приводит к тому, что функция блокируется на неопределенное время. это поведение изменилось, начиная с Windows 7 и Windows Server 2008 R2 для приложений, в которых в манифесте приложения указана Windows 7 в качестве поддерживаемой операционной системы. Дополнительные сведения см. в разделе [манифесты приложений](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

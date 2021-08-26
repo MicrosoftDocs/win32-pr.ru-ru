@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4e407a9069807d10eaabf4f7ac3fce3919576bc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34c2bd13a2cc436ea192433e4f70098e328d1658a484c5dca9b092fe18f99a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976629"
 ---
 # <a name="columnstreamread-method"></a>Колумнстреам. Read, метод
 
@@ -82,7 +82,7 @@ public override int Read(
 
 <!-- end list -->
 
-  - count  
+  - количество  
     Тип: [System. Int32](/dotnet/api/system.int32)  
     
     Количество байтов, чтение которых необходимо выполнить.
@@ -92,7 +92,7 @@ public override int Read(
 Тип: [System. Int32](/dotnet/api/system.int32)  
 Число байтов, считанных в буфер.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ description: Используйте результат компенсации к
 ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a0477d2a57f39738fa9b1ce16c97995c60cf96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38f1390825087cabb9ee1bec65f2708990757ff25f08e71140be5be0fc6ae11e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967123"
 ---
 # <a name="dpi-compensation-effect"></a>Воздействие на компенсацию DPI
 
@@ -66,22 +66,22 @@ ms.locfileid: "103892774"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

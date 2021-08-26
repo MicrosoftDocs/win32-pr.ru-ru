@@ -4,12 +4,12 @@ description: Использование указателей в качестве
 ms.assetid: 5792bd45-9c2a-4dd2-b050-17082fd0c929
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbacce89046e2808acad539d19bbdcfeb1bc99c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a2ce934ed1440bc070fab1b59b76f87182419aada06acaf7699533ef9989697
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019186"
 ---
 # <a name="pointers-and-rpc"></a>Указатели и RPC
 
@@ -24,9 +24,9 @@ MIDL предоставляет атрибуты указателя, чтобы 
 -   [Типы указателей по умолчанию](default-pointer-types.md)
 -   [Наследование типа атрибута указателя](pointer-attribute-type-inheritance.md)
 
- 
+ 
 
- 
+ 
 
 
 

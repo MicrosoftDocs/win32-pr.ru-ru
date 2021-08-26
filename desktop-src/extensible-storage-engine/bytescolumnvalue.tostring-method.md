@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d880dfb7fa81ee76af7c557ead385fce743171e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b41264b674c6782e28485bfc57b34be78c991eb58c20a04974f10e6d9308120
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976734"
 ---
 # <a name="bytescolumnvaluetostring-method"></a>Битесколумнвалуе. ToString, метод
 
@@ -59,7 +59,7 @@ public override string ToString()
 Тип: [System. String](/dotnet/api/system.string)  
 [Строка](/dotnet/api/system.string) , представляющая текущий [битесколумнвалуе](./bytescolumnvalue-class.md).  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

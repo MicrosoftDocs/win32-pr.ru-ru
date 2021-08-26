@@ -4,12 +4,12 @@ description: В этом разделе описывается создание,
 ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4175d435ac78795e7020fd84099d512cc65be20
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: eb1ab672e0beea90d07eadf05f14ffdc4a8181a4da7bf7940af50b00ddc69cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920814"
 ---
 # <a name="how-to-create-a-simple-combo-box"></a>Создание простого поля со списком
 
@@ -20,16 +20,16 @@ ms.locfileid: "104488349"
 -   Определить, когда пользователь выбрал элемент из поля со списком.
 -   Получение выбранного элемента из поля со списком.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -102,7 +102,7 @@ SendMessage(hWndComboBox, CB_SETCURSEL, (WPARAM)2, (LPARAM)0);
 > [!Note]  
 > Уведомление [КБН \_ селчанже](cbn-selchange.md) отправляется и обрабатывается до того, как элемент помещается в поле выбора поля со списком. Как следствие, в этом примере выбранный элемент не будет отображаться в поле выбора, пока не будет закрыто окно сообщения.
 
- 
+ 
 
 
 ```C++
@@ -482,7 +482,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 ```
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -498,6 +498,6 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 [ComboBox](combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

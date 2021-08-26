@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69b70f6db45a9020e558fadcd1347cc29948ed46
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c43649a18ec5935829f56a87fd05e133692da3022539ea736df65a112b23253b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981544"
 ---
 # <a name="rwtexture3dloadintuint-function"></a>Функция RWTexture3D:: Load (int, uint)
 
@@ -64,7 +64,7 @@ ms.locfileid: "104986264"
 
 Возвращаемый тип соответствует типу в объявлении для объекта [**RWTexture3D**](sm5-object-rwtexture3d.md) .
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 

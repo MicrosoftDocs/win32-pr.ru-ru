@@ -4,16 +4,16 @@ description: Макросы календаря месяца
 ms.assetid: e6c856aa-8518-44bc-86cf-3cce8ee31063
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f77ba6f17b293f01fae5ac652c8ff4f8256ffa7e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 295e02eb640a43885350f1c9ec0f8e25babd172968da0d801bc629d448270c4e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104157083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971094"
 ---
 # <a name="month-calendar-macros"></a>Макросы календаря месяца
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**Монскал \_ жеткалендарбордер**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getcalendarborder)
 -   [**Монскал \_ жеткалендаркаунт**](/windows/desktop/api/Commctrl/nf-commctrl-monthcal_getcalendarcount)

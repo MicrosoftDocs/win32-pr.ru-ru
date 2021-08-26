@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aea83d993c0c7b58ded8d0b92374d1dcbacdcc8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: df38d5b2e7a4230d023aeba6c8c3517fbd2b9f4e35a09b5e4439269b228eb82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987994"
 ---
 # <a name="cd3dx12_subresource_range_uint64-structure"></a>\_ \_ Структура UINT64 диапазона ПОДресурсов CD3DX12 \_
 
@@ -86,7 +86,7 @@ struct CD3DX12_SUBRESOURCE_RANGE_UINT64  : public D3D12_SUBRESOURCE_RANGE_UINT64
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx12. h</dt> </dl> |
 
 
 

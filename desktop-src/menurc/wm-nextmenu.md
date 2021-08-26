@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecb8efe8c80a3355a30ab0abf28019f87b33963
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 635ce19efbcfdfd8451f929affbbe0fe2b2c000bc4912977062f3fba2c54e9c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952084"
 ---
 # <a name="wm_nextmenu-message"></a>\_Сообщение НЕКСТМЕНУ WM
 
@@ -50,11 +50,11 @@ ms.locfileid: "103989405"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В ответ на это сообщение приложение может указать меню для перехода в **хменунекст** член [**мдинекстмену**](/windows/win32/api/winuser/ns-winuser-mdinextmenu) и окно для получения сообщений уведомления меню в элементе **хвнднекст** структуры **мдинекстмену** . Необходимо задать оба элемента, чтобы изменения вступили в силу (они изначально равны **null**).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,11 +62,11 @@ ms.locfileid: "103989405"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение BCM_SETIMAGELIST (Коммктрл. h)
 description: Присваивает список изображений элементу управления "Кнопка". Это сообщение можно отправить явным образом или воспользоваться \_ макросом кнопки сетимажелист.
 ms.assetid: 805d2d9b-3e8f-4323-abaf-0dd5765cd740
 keywords:
-- Элементы управления Windows для BCM_SETIMAGELIST сообщений
+- элементы управления Windows сообщений BCM_SETIMAGELIST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9bdf29735958f3c40af544bca4b946458df8431
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f5c88020bb139c358b17386b003bfb9de9cfcd4e769b9262ed90e23f3f95e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921564"
 ---
 # <a name="bcm_setimagelist-message"></a>\_Сообщение СЕТИМАЖЕЛИСТ BCM
 
@@ -47,7 +47,7 @@ ms.locfileid: "104071526"
 
 Если сообщение завершается с ошибкой, возвращается **значение true**. В противном случае возвращается **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Чтобы использовать это сообщение, необходимо указать манифест, указывающий Comclt32.dll версии 6,0. Дополнительные сведения о манифестах см. в разделе [Включение визуальных стилей](cookbook-overview.md).
@@ -77,9 +77,9 @@ enum PUSHBUTTONSTATES {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
