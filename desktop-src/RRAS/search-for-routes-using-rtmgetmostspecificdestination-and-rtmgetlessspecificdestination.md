@@ -4,12 +4,12 @@ description: В следующем примере кода показано, к�
 ms.assetid: 14e8e87f-c76c-48ad-93b5-0d8a711148d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4c2f5573718dafa4be4d95e309e95546123027
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa132946812a5f945c1aca31c1e20518348f3b3140030c631a5f0f9c62b2db19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035604"
 ---
 # <a name="search-for-routes-using-a-prefix-tree"></a>Поиск маршрутов с помощью дерева префиксов
 
@@ -81,9 +81,9 @@ while (Status == NO_ERROR)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

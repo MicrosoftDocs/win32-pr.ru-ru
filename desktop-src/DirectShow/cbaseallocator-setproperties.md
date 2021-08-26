@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 000da3ee359ad727e3af972fc4aa6d0dbbb9133e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d81ee1c29f1c9e2cc9927f926144a7427b5e94f72406f94ce65f7d4a20e2ab32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057484"
 ---
 # <a name="cbaseallocatorsetproperties-method"></a>Кбасеаллокатор. SetProperties, метод
 
@@ -75,7 +75,7 @@ HRESULT SetProperties(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод задает требования к буферу, но не выделяет буферы. Вызовите метод [**кбасеаллокатор:: Commit**](cbaseallocator-commit.md) для выделения буферов.
 
@@ -83,18 +83,18 @@ HRESULT SetProperties(
 
 Распределитель не должен зафиксирован и не должен иметь необработанные буферы. В базовом классе выравнивание должно равняться 1. Класс [**кмемаллокатор**](cmemallocator.md) переопределяет это требование.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

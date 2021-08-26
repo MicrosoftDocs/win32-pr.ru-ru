@@ -4,12 +4,12 @@ ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: Передача объектов в качестве параметров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a58e012138bc65cec481f714ac216bb8227fb924
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c47669d3e3e5af572b6dfd50dcbbefacf5c008971f276408fa87b37ccbed9a1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070384"
 ---
 # <a name="passing-objects-as-parameters"></a>Передача объектов в качестве параметров
 
@@ -24,12 +24,12 @@ ms.locfileid: "104539185"
 
 Ссылки на объекты, поддерживающие [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) , можно использовать в качестве параметров для вызовов методов в очередях компонентов. Объект не может делать предположения о том, когда будет создан его экземпляр. Например, сервер может быть недоступен, или серверный компонент может быть не запущен до тех пор, пока не истечет этот день. Объекты, не поддерживающие **IPersistStream** , возвращают ошибку.
 
-## <a name="visual-basic-persistable-objects"></a>Visual Basic сохраняемые объекты
+## <a name="visual-basic-persistable-objects"></a>Visual Basic Сохраняемые объекты
 
-Microsoft Visual Basic 6 позволяет создавать сохраняемые объекты. Эти объекты поддерживают [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) и могут передаваться в качестве параметров в вызовы методов компонента в очереди. Чтобы объект Visual Basic можно было передать в очередь компонента, необходимо инициализировать Сохраняемый объект. Это можно сделать одним из следующих двух способов:
+Microsoft Visual Basic 6 позволяет создавать сохраняемые объекты. Эти объекты поддерживают [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) и могут передаваться в качестве параметров в вызовы методов компонента в очереди. чтобы объект Visual Basic можно было передать в очередь компонента, необходимо инициализировать сохраняемый объект. Это можно сделать одним из следующих двух способов:
 
--   Если приложение, создающее Сохраняемый объект, написано на Visual Basic, среда выполнения Visual Basic автоматически обрабатывает инициализацию объекта.
--   Если приложение, создающее Visual Basic Сохраняемый объект, написано на языке, отличном от Visual Basic, например Microsoft Visual C++, приложение должно явным образом инициализировать компонент, либо запросив интерфейс [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) для сохраняемого объекта, либо вызвав метод [**Иперсистстреаминит:: InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)или [**IPersistStream:: Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load) .
+-   если приложение, создающее сохраняемый объект, написано на Visual Basic, среда выполнения Visual Basic автоматически обрабатывает инициализацию объекта.
+-   если приложение, создающее Visual Basic сохраняемый объект, написано на языке, отличном от Visual Basic, например Microsoft Visual C++, приложение должно явным образом инициализировать компонент, либо запросив интерфейс [**ipersiststream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) для сохраняемого объекта, либо вызвав метод [**иперсистстреаминит:: InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)или [**IPersistStream:: Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load) .
 
 ## <a name="ado-recordsets-and-ole-db-rowsets"></a>Наборы записей ADO и OLE DB наборы строк
 

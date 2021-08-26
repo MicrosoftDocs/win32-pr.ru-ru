@@ -4,12 +4,12 @@ ms.assetid: 915b4643-cbda-433a-a383-65a6b0fd0874
 title: Управление секциями в Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6635e49b7d2833a1e6e177c25f9f2fb05ff0dff4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a87c0aebc9ca52dee005a0343e504756e3e117c3e012098e529fb6d52033428f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070584"
 ---
 # <a name="managing-partitions-within-active-directory"></a>Управление секциями в Active Directory
 
@@ -34,7 +34,7 @@ ms.locfileid: "104539284"
 
 Сведения о создании разделов COM+ и управлении ими с помощью Active Directory пользователи и компьютеры и средства администрирования служб компонентов см. в справке в Интернете, доступной в рамках каждого средства.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

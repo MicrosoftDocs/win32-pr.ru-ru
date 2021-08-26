@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 3703bb735c0707c412b7c1e41c43819904d83ce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 248eb78f364f7e938d78846c3e830cc170587961b81dfedcc046e10c59e4fd18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008454"
 ---
 # <a name="icontextnodeconfirm-method"></a>Метод Иконтекстноде:: Confirm
 
@@ -50,7 +50,7 @@ HRESULT Confirm(
 
 Описание возвращаемых значений см. в разделе [классы и интерфейсы — анализ рукописного ввода](classes-and-interfaces---ink-analysis.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот метод, чтобы разрешить конечному пользователю убедиться, что [**иинканализер**](iinkanalyzer.md) правильно анализировал штрихи. После вызова **иконтекстноде:: Confirm** **иинканализер** не изменит объекты [**иконтекстноде**](icontextnode.md) для этих штрихов во время последующего анализа.
 
@@ -70,9 +70,9 @@ HRESULT Confirm(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
 
 

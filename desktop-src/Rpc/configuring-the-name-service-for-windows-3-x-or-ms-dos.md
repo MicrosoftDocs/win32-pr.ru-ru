@@ -1,17 +1,17 @@
 ---
-title: Настройка службы имен для Windows 3. x или MS-DOS
-description: Удаленный вызов процедур (RPC) и Настройка службы имен для Windows 3. x или MS-DOS.
+title: настройка службы имен для Windows 3. x или MS-DOS
+description: удаленный вызов процедур (RPC) и настройка службы имен для Windows 3. x или MS-DOS.
 ms.assetid: 7b22a12e-43d0-4e32-a191-d63a56559143
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 533a0d8556f9cc51d0842768d0df1bdd0d553b5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24884c782913c47806c702ff129594c6524fe7c0e731561de405f3b6a360c7c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022434"
 ---
-# <a name="configuring-the-name-service-for-windows-3x-or-ms-dos"></a>Настройка службы имен для Windows 3. x или MS-DOS
+# <a name="configuring-the-name-service-for-windows-3x-or-ms-dos"></a>настройка службы имен для Windows 3. x или MS-DOS
 
 При запуске Setup.exe для установки 16-разрядной библиотеки времени выполнения RPC выводится запрос на выбор поставщика службы имен:
 
@@ -20,9 +20,9 @@ ms.locfileid: "104068130"
 
 Сетевой адрес — это имя главного компьютера, на котором работает управляющая программа NSI (нсид). Этот компьютер выступает в качестве шлюза для службы каталогов ячеек DCE и передает вызовы функций NSI между компьютерами, на которых работают операционные системы Майкрософт и компьютеры DCE. Сетевой адрес может содержать не более 80 символов, например, 11.1.9.169 является допустимым адресом.
 
- 
+ 
 
- 
+ 
 
 
 

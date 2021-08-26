@@ -4,16 +4,16 @@ ms.assetid: f5cd7971-3456-4e2f-8808-deb16678099a
 title: Интерфейс Итмедиа (Сдпблб. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd00d7eab685fe99b089556bcdb0ed2bf6329df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bfd1cf7dcf8ef294481a4687dbac950f97b4adede6a6871222292127e6255057
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034644"
 ---
 # <a name="itmedia-interface"></a>Интерфейс Итмедиа
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Интерфейс **итмедиа** представляет собой представление мультимедиа в протоколе дескриптора сеанса (см. RFC 2327). Этот интерфейс экспортирует методы для получения и задания основных свойств носителя, таких как тип. Методы [**итмедиаколлектион:: Get \_ Item**](itmediacollection-get-item.md) и [**итмедиаколлектион:: Create**](itmediacollection-create.md) создают интерфейс **итмедиа** .
 
@@ -47,20 +47,20 @@ ms.locfileid: "105675777"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
+| Заголовок<br/>       | <dl> <dt>Сдпблб. h</dt> </dl>   |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Sdpblb.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

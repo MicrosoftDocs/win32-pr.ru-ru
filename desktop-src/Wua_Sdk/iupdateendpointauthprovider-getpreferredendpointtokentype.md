@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 670835ee3c2dfd01ae46a7cf78395959ea9a26de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9b7d15d6d27170106118c720d25567389884c50e27aac202adedf00290236c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994584"
 ---
 # <a name="iupdateendpointauthprovidergetpreferredendpointtokentype-method"></a>Метод Иупдатиндпоинтауспровидер:: Жетпреферредендпоинттокентипе
 
@@ -72,9 +72,9 @@ HRESULT GetPreferredEndpointTokenType(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-\_При успешном выполнении возвращает значение ОК. В противном случае возвращает код ошибки COM или Windows.
+\_При успешном выполнении возвращает значение ОК. в противном случае возвращает код ошибки COM или Windows.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При возврате этого метода WUA выбирает тип токена из предпочтительных типов и передает его в параметр tokenType метода [**жетендпоинттокен**](iupdateendpointauthprovider-getendpointtoken.md) .
 
@@ -84,9 +84,9 @@ HRESULT GetPreferredEndpointTokenType(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                   |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
-| Header<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>                   |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>                |
+| Заголовок<br/>                   | <dl> <dt>Упдатиндпоинтаус. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Упдатиндпоинтаус. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Упдатиндпоинтаус. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>UpdateEndpointAuth.dll</dt> </dl> |

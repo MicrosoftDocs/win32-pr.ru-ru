@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 362150e494398abbc708416e6bfca6aa83756c52
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5fa1af02a693b5168a2d96e653726fd0a468587bf2b8c1825afbf8e73057f61f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068334"
 ---
 # <a name="error-directive"></a>\#Директива Error
 
@@ -45,7 +45,7 @@ ms.locfileid: "104411794"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 \#директивы Error наиболее полезны для обнаружения несоответствий в программировании и нарушения ограничений во время предварительной обработки. При \# обнаружении директивы ошибки компиляция завершается.
 
@@ -62,7 +62,7 @@ ms.locfileid: "104411794"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

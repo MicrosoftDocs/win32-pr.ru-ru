@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c3ee68c9b026fc37457819777e69d2be7984e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d36b96e94ba2803664e3ff4c4fce6f4f95317c33ce5ab9ccd755c95c8d23fa21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035934"
 ---
 # <a name="rtmaddroute-function"></a>Функция Ртмаддрауте
 
-\[Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
+\[этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Приложения должны использовать API диспетчера таблиц маршрутизации версии 2.\]
 
 Функция **ртмаддрауте** добавляет запись маршрута или обновляет существующую запись маршрута.
 
@@ -140,11 +140,11 @@ DWORD RtmAddRoute(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция создает сообщение об изменении маршрута, если в результате этой операции был изменен оптимальный маршрут к целевой сети. Тем не менее сообщение маршрута-Change не отправляется клиенту, который выполняет этот вызов. Вместо этого соответствующая информация возвращается этой функцией непосредственно этому клиенту с помощью параметров *flags*, *курбестрауте* и *превбестрауте* .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -153,13 +153,13 @@ DWORD RtmAddRoute(
 | Минимальная версия клиента<br/> | Ни одна версия не поддерживается<br/>                                                          |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                               |
 | Поддержка конца сервера<br/>    | Windows Server 2003<br/>                                                     |
-| Header<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>RTM. h</dt> </dl>   |
 | Библиотека<br/>                  | <dl> <dt>RTM. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Rtm.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

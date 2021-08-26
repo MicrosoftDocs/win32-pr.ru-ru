@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8d85e4d7e5662d76c011b1c5684f3fd36e4191ba
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d7405bf1da94d56a8ca8097f912bd1ee9972c8c2d84da379e934942586544005
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023334"
 ---
 # <a name="texture2darraysamplesfloatintfloat-function"></a>Функция Texture2DArray:: Sample (S, float, int, float)
 
@@ -81,7 +81,7 @@ DXGI_FORMAT Sample(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 
@@ -100,7 +100,7 @@ DXGI_FORMAT Sample(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

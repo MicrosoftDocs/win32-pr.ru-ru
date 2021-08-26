@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, описание, представление данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4de187f2b646e55cd4f1a269f0504a2d43e951c3
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 9f9a0af96249c356f171396eaf52f91c5e33005eda080929cfbd8eecde27ffa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022094"
 ---
 # <a name="data-representation"></a>Представление данных
 
@@ -30,6 +30,6 @@ ms.locfileid: "103797053"
 -   [**Атрибуты «передать \_ как» и «представить \_ как»**](the-transmit-as-and-represent-as-attributes.md)
 -   [**Атрибуты "проводное \_ маршалирование" и "пользовательское \_ маршалирование"**](the-wire-marshal-and-user-marshal-attributes.md)
 
- 
+ 
 
- 
+ 

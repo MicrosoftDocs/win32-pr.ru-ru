@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: affedc7dcebd2b7925449e22cc1b902e88d936f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66fed28c555d327bffa18d8f9100a6f5e9824b714bff1308e6b2dab20b5d3671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036274"
 ---
 # <a name="glunewquadric-function"></a>Функция Глуневкуадрик
 
@@ -38,7 +38,7 @@ GLUquadric* WINAPI gluNewQuadric(void);
 
 У этой функции нет параметров.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глуневкуадрик** создает и возвращает указатель на новый объект куадрик. Используйте этот объект при вызове функций отрисовки куадрик и управления. Возвращаемое значение, равное нулю, означает, что недостаточно памяти для выделения объекту.
 

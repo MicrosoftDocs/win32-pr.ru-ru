@@ -4,12 +4,12 @@ description: Настройка безопасности COM для прилож
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62cacef6d4e3aab59cb3b603125c36dd17d07846
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d57ccbbc8fc96b7c94e90fd3925dfb2ffff07225c34ebe1da34353f42b08b3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103779970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993234"
 ---
 # <a name="determining-your-security-needs"></a>Определение потребностей в безопасности
 
@@ -29,16 +29,16 @@ ms.locfileid: "103779970"
 
 Безопасность в COM зависит от служб проверки подлинности, администрируемых пакетами безопасности. Поставщик NTLMSSP прекрасно работает для многих приложений, но не обеспечивает более надежную защиту, предоставляемую другими пакетами. Поэтому COM поддерживает пакет безопасности SChannel и протокол безопасности Kerberos V5. Дополнительные сведения об использовании этих пакетов безопасности см. в разделе [com и пакеты безопасности](com-and-security-packages.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Безопасность в COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

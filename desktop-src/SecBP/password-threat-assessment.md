@@ -4,12 +4,12 @@ ms.assetid: 4ebf7185-0179-4754-80da-63b0002c883f
 title: Оценка угроз паролей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d48a79d44bda9714083c5dd1085e9d09497e7341
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9042efa524b0503a648a195e77669b19231fec0445c4b0c8347b802b323076
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977154"
 ---
 # <a name="password-threat-assessment"></a>Оценка угроз паролей
 

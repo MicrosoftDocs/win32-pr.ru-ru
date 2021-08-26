@@ -4,12 +4,12 @@ description: Объявите выходной регистр, записыва�
 ms.assetid: 23FC5FA3-F550-4CD1-9AA9-86738818686F
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1831a47680a06eba085f61badfe56529eed4ba32
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a6860904b557bc21a5202bbfd60105852adc260580457afb02b4fe6d92352b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068514"
 ---
 # <a name="dcl_output-omask-sm5---asm"></a>дкл \_ Output омаск (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104412238"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 ```
@@ -69,7 +69,7 @@ Example:
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -80,7 +80,7 @@ Example:
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -1,23 +1,23 @@
 ---
-title: Структуры пакета SDK для формата Windows Media
-description: Структуры пакета SDK для формата Windows Media
+title: Windows Структуры пакета SDK для формата мультимедиа
+description: Windows Структуры пакета SDK для формата мультимедиа
 ms.assetid: 118ef278-ca4f-4c30-9633-a2d851f5c758
 keywords:
-- Windows Media Format SDK, структуры
+- Windows Пакет SDK для формата мультимедиа, структуры
 - Расширенный системный формат (ASF), структуры
 - ASF (Расширенный системный формат), структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f730ba3cbc5bd8bbec2a9f01c72df1fe46f0b64
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 319be2d061132f59c1c75ebb295c8ceb8ae87ffbcce48e8259a1faedcf18d666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105691742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006614"
 ---
-# <a name="windows-media-format-sdk-structures"></a>Структуры пакета SDK для формата Windows Media
+# <a name="windows-media-format-sdk-structures"></a>Windows Структуры пакета SDK для формата мультимедиа
 
-Пакет SDK для формата Windows Media реализует следующие структуры.
+пакет SDK для Windows Media Format реализует следующие структуры.
 
 
 
@@ -74,7 +74,7 @@ ms.locfileid: "105691742"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

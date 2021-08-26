@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f9b3e6815158d30b1c5d14300126f0b4a7b5dd76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acd5ba9354969736ce60b6461b0185e211aca55a0141eab918e158ef4b760c9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020755"
 ---
 # <a name="esentfileinvalidtypeexception-constructor"></a>Конструктор Есентфилеинвалидтипиксцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentFileInvalidTypeException()
 public EsentFileInvalidTypeException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: fb0e2597164cb0a82c15cecf394ce7a9e0bec16d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 484c9a53542b0f7b62c00ca030b4bee9276914dce28bd3034865f308ba80705e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007614"
 ---
 # <a name="iscanprofilegetdeviceid-method"></a>Метод Исканпрофиле:: GetDeviceID
 
@@ -42,7 +42,7 @@ HRESULT GetDeviceID(
 *пбстрдевицеид* \[ заполняет\]
 </dt> <dd>
 
-Тип: **BSTR \** _
+Тип: **BSTR \***
 
 Указатель на идентификатор устройства.
 
@@ -50,7 +50,7 @@ HRESULT GetDeviceID(
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
@@ -60,9 +60,9 @@ HRESULT GetDeviceID(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                        |
-| Header<br/>                   | <dl> <dt>Сканпрофиле. h</dt> </dl>    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                        |
+| Заголовок<br/>                   | <dl> <dt>Сканпрофиле. h</dt> </dl>    |
 | IDL<br/>                      | <dl> <dt>Сканпрофилес. idl</dt> </dl> |
 
 

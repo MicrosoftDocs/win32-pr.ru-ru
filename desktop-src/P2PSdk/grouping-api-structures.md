@@ -4,12 +4,12 @@ ms.assetid: ac65f558-a97b-46c5-984f-d1bb5d1f1078
 title: Группирование структур API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fded30a44b270e96a993cfb22f57f918886dc7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4140e856a27bfaa1ab00488185a2213a971cd928dd27e96ba1e3c41401c5e2c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034414"
 ---
 # <a name="grouping-api-structures"></a>Группирование структур API
 

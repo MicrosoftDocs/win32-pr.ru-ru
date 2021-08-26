@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.byte
 ms:contentKeyID: 55100918
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7beea220be89f038d2391a00befc1b6866370229
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a5bd5177365ad07718ad09fcf0755bf0e5a8ff64449629dcdbde565122aed8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104273073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119976794"
 ---
 # <a name="bytescolumnvalue-methods"></a>Методы Битесколумнвалуе
 
@@ -73,7 +73,7 @@ ms.locfileid: "104273073"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

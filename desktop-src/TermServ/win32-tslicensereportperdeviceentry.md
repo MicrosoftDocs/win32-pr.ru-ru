@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a120d477ff03675f160d94f1506f59cdf1462fa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfbcdad271a346820b318c94bed7ce6b9b9527d3fdd7df9cc3f1dc9d9a97aae3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008424"
 ---
 # <a name="win32_tslicensereportperdeviceentry-class"></a>\_Класс Win32 тслиценсерепортпердевицеентри
 
@@ -56,7 +56,7 @@ class Win32_TSLicenseReportPerDeviceEntry
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ тслиценсерепортпердевицеентри** имеет следующие свойства.
 
@@ -87,7 +87,7 @@ class Win32_TSLicenseReportPerDeviceEntry
 
 Лицензия "Стандартный набор VDI Standard Suite для подписки устройств"
 
-Лицензия "VDI Premium Suite с подпиской на устройство"
+лицензия "VDI Premium Suite" для подписки устройства "
 
 "RDS per Device CAL"
 
@@ -124,21 +124,21 @@ class Win32_TSLicenseReportPerDeviceEntry
 "Windows Server 2012"
 </dt> <dd>
 
-С этой лицензией поддерживаются только серверы под Windows Server 2012, Windows Server 2008 R2 или Windows Server 2008.
+с этой лицензией поддерживаются только серверы Windows Server 2012, Windows Server 2008 R2 или Windows Server 2008.
 
 </dd> <dt>
 
-Windows Server 7
+"Windows Server 7"
 </dt> <dd>
 
-С этой лицензией поддерживаются только серверы, работающие под Windows Server 2008 R2 или Windows Server 2008.
+с этой лицензией поддерживаются только серверы, работающие под Windows server 2008 R2 или Windows server 2008.
 
 </dd> <dt>
 
 "Windows Server 2008"
 </dt> <dd>
 
-С этой лицензией поддерживаются только серверы под под Windows Server 2008.
+с этой лицензией поддерживаются только серверы, работающие под Windows Server 2008.
 
 </dd> </dl>
 
@@ -223,7 +223,7 @@ Windows Server 2008
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -237,7 +237,7 @@ Windows Server 2008
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

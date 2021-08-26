@@ -4,12 +4,12 @@ ms.assetid: 162ce34b-cc82-40bb-8422-a639152aee25
 title: Ведение журнала и отчеты об ошибках
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdc29d32ae26429f2fe23fe88762fabf82185c7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d974b4043b4365839aec6a4fae392ae1d84900e8b8347949147b8df13326bd1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990764"
 ---
 # <a name="logging-and-error-reporting"></a>Ведение журнала и отчеты об ошибках
 
@@ -23,7 +23,7 @@ COMREPL создает файл журнала, содержащий состо�
 
 Ошибки указаны в файле журнала, описанном выше. Подробные сведения об ошибках также можно найти в журнале событий на исходном или целевом компьютере.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98e40f65bb525656c24053ceb2470ee41c5873b8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7c7baa1ea9de8e8ff217b1c0725864e9eaa34804f3e2f3e563b5e5b453d05e5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104333608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006674"
 ---
 # <a name="hasvideo"></a>хасвидео
 
@@ -31,11 +31,11 @@ g \_ всзвмхасвидео
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это закодированный атрибут.
 
-Этот атрибут не может дублироваться на уровне файла. Если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать его нормальные значения объектам пакета SDK Windows Media Format.
+Этот атрибут не может дублироваться на уровне файла. если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать свое нормальное значение объектам из пакета SDK Windows Media Format.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -44,9 +44,9 @@ g \_ всзвмхасвидео
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

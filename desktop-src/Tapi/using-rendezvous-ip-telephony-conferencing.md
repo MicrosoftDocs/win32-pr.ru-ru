@@ -4,16 +4,16 @@ ms.assetid: c5b752c5-4113-41e3-85f7-6a19fa0c7c80
 title: Использование встреч-телефонной подконференции IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfa5191be7e4a630af8736fba5661433d7925d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 066d1fa523281504c317882e5fd8fbca238927e6901d202dd8ef066d27844bc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034124"
 ---
 # <a name="using-rendezvous-ip-telephony-conferencing"></a>Использование встреч-телефонной подконференции IP
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Встречная часть состоит из трех основных наборов интерфейсов:
 

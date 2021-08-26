@@ -4,16 +4,16 @@ ms.assetid: 09608214-7346-4ee8-bbfd-0877d3ad0766
 title: 'Метод IH323LineEx:: Сеталиас (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7341d177297cf95f46d07e503244f06b2c4dea71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 464c6707c3221fda1ef245e0302731ee7c6a1cf274c7ecac537c55f7f48437a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992194"
 ---
 # <a name="ih323lineexsetalias-method"></a>Метод IH323LineEx:: Сеталиас
 
-\[**Сеталиас** недоступен для использования в Windows Vista, windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**сеталиас** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **сеталиас** настраивает псевдоним H. 323 по умолчанию для адреса. Этот псевдоним будет использоваться в обмене настройками для настройки вызова H. 323, чтобы другая сторона знала имя этой стороны.
 
@@ -66,14 +66,14 @@ HRESULT SetAlias(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>H323priv. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>H323priv. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

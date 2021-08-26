@@ -4,12 +4,12 @@ ms.assetid: 2c65d199-141d-43a7-b513-4cb4459d7c27
 title: Запросы (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f450aa7015d4b66ad28b6c4d0632b2995bedd7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2113500673def3e2cca5816e534b567a29fc322fb51f853db98eada20ba62674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069002"
 ---
 # <a name="queries-direct3d-9"></a>Запросы (Direct3D 9)
 
@@ -29,19 +29,19 @@ ms.locfileid: "103894085"
 
 | Тип запроса        | Событие проблемы                                                                      | Буфер GetData                                                              | Параметры выполнения      | Неявное начало запроса                      |
 |-------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|--------------|--------------------------------------------------|
-| бандвидстимингс  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9BANDWIDTHTIMINGS**](d3ddevinfo-d3d9bandwidthtimings.md) | Розничная или отладочная | Н/Д                                              |
-| качеутилизатион  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9CACHEUTILIZATION**](d3ddevinfo-d3d9cacheutilization.md) | Розничная или отладочная | Н/Д                                              |
+| бандвидстимингс  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9BANDWIDTHTIMINGS**](d3ddevinfo-d3d9bandwidthtimings.md) | Розничная или отладочная | н/д                                              |
+| качеутилизатион  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9CACHEUTILIZATION**](d3ddevinfo-d3d9cacheutilization.md) | Розничная или отладочная | н/д                                              |
 | ЖУРНАЛЕ             | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | BOOL                                                                        | Розничная или отладочная | [**креатедевице**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) |
-| интерфацетимингс  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9INTERFACETIMINGS**](d3ddevinfo-d3d9interfacetimings.md) | Розничная или отладочная | Н/Д                                              |
-| ПЕРЕКРЫТИЯ         | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | DWORD                                                                       | Розничная или отладочная | Н/Д                                              |
-| пипелинетимингс   | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9PIPELINETIMINGS**](d3ddevinfo-d3d9pipelinetimings.md)   | Розничная или отладочная | Н/Д                                              |
+| интерфацетимингс  | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9INTERFACETIMINGS**](d3ddevinfo-d3d9interfacetimings.md) | Розничная или отладочная | н/д                                              |
+| ПЕРЕКРЫТИЯ         | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | DWORD                                                                       | Розничная или отладочная | н/д                                              |
+| пипелинетимингс   | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9PIPELINETIMINGS**](d3ddevinfo-d3d9pipelinetimings.md)   | Розничная или отладочная | н/д                                              |
 | RESOURCEMANAGER   | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | [**D3DDEVINFO \_ ResourceManager**](d3ddevinfo-resourcemanager.md)           | Только Отладка   | [**Настоящее**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)     |
-| timestamp         | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | UINT64                                                                      | Розничная или отладочная | Н/Д                                              |
-| тиместампдисжоинт | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | BOOL                                                                        | Розничная или отладочная | Н/Д                                              |
-| тиместампфрек     | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | UINT64                                                                      | Розничная или отладочная | Н/Д                                              |
+| timestamp         | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | UINT64                                                                      | Розничная или отладочная | н/д                                              |
+| тиместампдисжоинт | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | BOOL                                                                        | Розничная или отладочная | н/д                                              |
+| тиместампфрек     | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | UINT64                                                                      | Розничная или отладочная | н/д                                              |
 | вкаче            | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | [**D3DDEVINFO \_ вкаче**](d3ddevinfo-vcache.md)                             | Розничная или отладочная | [**креатедевице**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) |
 | вертексстатс       | [**D3DISSUE \_ конец**](d3dissue-end.md)                                            | [**D3DDEVINFO \_ D3DVERTEXSTATS**](d3ddevinfo-d3dvertexstats.md)             | Только Отладка   | [**Настоящее**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)     |
-| вертекстимингс     | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9STAGETIMINGS**](d3ddevinfo-d3d9stagetimings.md)         | Розничная или отладочная | Н/Д                                              |
+| вертекстимингс     | [**D3DISSUE \_ Начало**](d3dissue-begin.md), [ **D3DISSUE \_**](d3dissue-end.md) | [**D3DDEVINFO \_ D3D9STAGETIMINGS**](d3ddevinfo-d3d9stagetimings.md)         | Розничная или отладочная | н/д                                              |
 
 
 
@@ -279,7 +279,7 @@ else if( dwOccluded != 0 )
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

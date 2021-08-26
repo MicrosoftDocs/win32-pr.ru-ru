@@ -4,12 +4,12 @@ ms.assetid: bdbd88f0-43d8-456d-87ca-37e718c08ec4
 title: Назначения каналов Нидерландов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b341bc99bbab99f2d78abee21dfbfca1f9a852aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9c47777b404a152271fc494f460ecd3f3d9ca8daa59a84064b0d977958948d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078764"
 ---
 # <a name="the-netherlands-channel-assignments"></a>Назначения каналов Нидерландов
 
@@ -17,7 +17,7 @@ ms.locfileid: "103912107"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 ## <a name="cable-assignments"></a>Назначения кабелей
 
@@ -518,7 +518,7 @@ ms.locfileid: "103912107"
        376000000L,      // 491 TV491
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -39,12 +39,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c0fb9b93f75c47760da8778e4aef8bed7f4e022
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 00c199b4b8e98832dcc8dbe65b8fc2ef636df71c8bd6e3c096670e6333f83a75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104492705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008524"
 ---
 # <a name="win32_tsgatewayserversettings-class"></a>\_Класс Win32 тсгатевайсерверсеттингс
 
@@ -97,36 +97,36 @@ class Win32_TSGatewayServerSettings
 
 | Метод                                                                                                                                             | Описание                                                                                                                                                                                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Configure**](configure-win32-tsgatewayserversettings.md)                                                                                       | Настраивает параметры IIS и RPC, необходимые для службы шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                               |
+| [**Configure**](configure-win32-tsgatewayserversettings.md)                                                                                       | Настраивает параметры IIS и RPC, необходимые для службы шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                               |
 | [**енаблецентралкап**](enablecentralcap-win32-tsgatewayserversettings.md)                                                                         | Включает или отключает свойство **централкапенаблед** , которое определяет, используются ли центральные серверы политики авторизации удаленный рабочий стол подключений (RD CAP) для управления политиками авторизации подключений для этого сервера.<br/>                    |
 | [**енаблеложевент**](enablelogevent-win32-tsgatewayserversettings.md)                                                                             | Включает или отключает ведение журнала для указанного типа событий.<br/>                                                                                                                                                                                              |
-| [**енаблеонликонсенткапаблеклиентс**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Задает свойство **онликонсенткапаблеклиентс** .<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                                      |
-| [**енаблерекуестсох**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | Этот метод не поддерживается начиная с Windows Server 2016.<br/> **Windows server 2012 R2, Windows server 2012, Windows server 2008 R2 и Windows server 2008:** Включает или отключает запросы состояния работоспособности (SoH).<br/> <br/> |
-| [**енаблетранспорт**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | Включает или отключает указанный транспорт.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до выхода Windows Server 2012.<br/>                                                                                  |
+| [**енаблеонликонсенткапаблеклиентс**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Задает свойство **онликонсенткапаблеклиентс** .<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                                      |
+| [**енаблерекуестсох**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | Этот метод не поддерживается начиная с Windows Server 2016.<br/> **Windows Server 2012 r2, Windows Server 2012, Windows server 2008 r2 и Windows Server 2008:** Включает или отключает запросы состояния работоспособности (SoH).<br/> <br/> |
+| [**енаблетранспорт**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | Включает или отключает указанный транспорт.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до Windows Server 2012.<br/>                                                                                  |
 | [**енумаусентикатионплугинс**](enumauthenticationplugins-win32-tsgatewayserversettings.md)                                                       | Перечисляет все зарегистрированные подключаемые модули проверки подлинности.<br/> **Windows Server 2008:** Этот метод недоступен.<br/>                                                                                                                                  |
-| [**енумаусоризатионплугинс**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Перечисляет все зарегистрированные подключаемые модули авторизации.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                                     |
-| [**жетипандпорт**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | Получает IP-адрес прослушивания и номер порта для указанного транспорта.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до выхода Windows Server 2012.<br/>                                                 |
+| [**енумаусоризатионплугинс**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Перечисляет все зарегистрированные подключаемые модули авторизации.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                                     |
+| [**жетипандпорт**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | Получает IP-адрес прослушивания и номер порта для указанного транспорта.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до Windows Server 2012.<br/>                                                 |
 | [**жетложевентнаме**](getlogeventname-win32-tsgatewayserversettings.md)                                                                           | Возвращает имя события журнала для указанного индекса событий журнала.<br/>                                                                                                                                                                                         |
 | [**жетпротоколнаме**](getprotocolname-win32-tsgatewayserversettings.md)                                                                           | Возвращает имя протокола для указанного индекса протокола.<br/>                                                                                                                                                                                           |
 | [**исложевентенаблед**](islogeventenabled-win32-tsgatewayserversettings.md)                                                                       | Указывает, включен ли указанный тип журнала событий.<br/>                                                                                                                                                                                            |
-| [**истранспортенаблед**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | Определяет, включен ли указанный транспорт.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до выхода Windows Server 2012.<br/>                                                                        |
+| [**истранспортенаблед**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | Определяет, включен ли указанный транспорт.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до Windows Server 2012.<br/>                                                                        |
 | [**куерицертконтекст**](win32-tsgatewayserversettings-querycertcontext.md)                                                                         | Указывает, установлен ли указанный сертификат.<br/>                                                                                                                                                                                             |
-| [**рециклерпкаппликатионпулс**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Повторное использование пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                                            |
+| [**рециклерпкаппликатионпулс**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Повторное использование пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                                            |
 | [**рефрешцертконтекст**](win32-tsgatewayserversettings-refreshcertcontext.md)                                                                     | Обновляет сертификат, используемый сервером шлюза удаленных рабочих столов.<br/>                                                                                                                                                                                      |
-| [**сетаусентикатионплугин**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Задает текущий подключаемый модуль проверки подлинности для сервера шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                    |
-| [**сетаусентикатионплугинандрециклерпкаппликатионпулс**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Задает текущий подключаемый модуль проверки подлинности для сервера шлюза удаленных рабочих столов и выполняет повторный запуск пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                      |
-| [**сетаусоризатионплугин**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Задает текущий подключаемый модуль авторизации для сервера шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                     |
-| [**сетцертификате**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Задает хэш сертификата для привязки HTTPS через порт 443 в IIS.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                       |
+| [**сетаусентикатионплугин**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Задает текущий подключаемый модуль проверки подлинности для сервера шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                    |
+| [**сетаусентикатионплугинандрециклерпкаппликатионпулс**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Задает текущий подключаемый модуль проверки подлинности для сервера шлюза удаленных рабочих столов и выполняет повторный запуск пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                      |
+| [**сетаусоризатионплугин**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Задает текущий подключаемый модуль авторизации для сервера шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                     |
+| [**сетцертификате**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Задает хэш сертификата для привязки HTTPS через порт 443 в IIS.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                       |
 | [**сетцертификатеакл**](setcertificateacl-win32-tsgatewayserversettings.md)                                                                       | Задает списки управления доступом (ACL) сертификатов для этого сервера.<br/>                                                                                                                                                                                     |
-| [**сетдефаултплугинсандрециклерпкаппликатионпулс**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Задает текущие подключаемые модули проверки подлинности и авторизации для сервера шлюза удаленных рабочих столов и выполняет повторный запуск пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                   |
-| [**сетенфорцечаннелбиндинг**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | Задает свойство **енфорцечаннелбиндинг** .<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до выхода Windows Server 2012.<br/>                                                                                  |
-| [**сетипандпорт**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | Задает IP-адрес прослушивания и номер порта для указанного транспорта.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до выхода Windows Server 2012.<br/>                                                    |
+| [**сетдефаултплугинсандрециклерпкаппликатионпулс**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Задает текущие подключаемые модули проверки подлинности и авторизации для сервера шлюза удаленных рабочих столов и выполняет повторный запуск пулов приложений RPC в службах IIS.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                   |
+| [**сетенфорцечаннелбиндинг**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | Задает свойство **енфорцечаннелбиндинг** .<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до Windows Server 2012.<br/>                                                                                  |
+| [**сетипандпорт**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | Задает IP-адрес прослушивания и номер порта для указанного транспорта.<br/> **Windows server 2008 R2 и Windows server 2008:** Этот метод недоступен до Windows Server 2012.<br/>                                                    |
 | [**сетмаксконнектионс**](setmaxconnections-win32-tsgatewayserversettings.md)                                                                       | Задает максимальное число разрешенных подключений через шлюз удаленных рабочих столов. Этот метод изменяет свойства **MaxConnections** и **унлимитедконнектионс** .<br/>                                                                                                |
-| [**сетсслбридгинг**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Задает тип моста SSL, который будет использоваться сервером шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                    |
-| [**тсгремовеадминмсг**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Удаляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                            |
-| [**тсгремовеконсентмсг**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Удаляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                            |
-| [**тсгстореадминмсг**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Обновляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                            |
-| [**тсгстореконсентмсг**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Обновляет сообщение согласия для сервера шлюза.<br/> **Windows Server 2008:** Этот метод недоступен до выхода Windows Server 2008 R2.<br/>                                                                                                   |
+| [**сетсслбридгинг**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Задает тип моста SSL, который будет использоваться сервером шлюза удаленных рабочих столов.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                    |
+| [**тсгремовеадминмсг**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Удаляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                            |
+| [**тсгремовеконсентмсг**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Удаляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                            |
+| [**тсгстореадминмсг**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Обновляет административное сообщение для сервера шлюза.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                            |
+| [**тсгстореконсентмсг**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Обновляет сообщение согласия для сервера шлюза.<br/> **Windows Server 2008:** этот метод недоступен до Windows Server 2008 R2.<br/>                                                                                                   |
 
 
 
@@ -149,7 +149,7 @@ class Win32_TSGatewayServerSettings
 
 Время окончания административного сообщения.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ class Win32_TSGatewayServerSettings
 
 Время начала административного сообщения.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -179,7 +179,7 @@ class Win32_TSGatewayServerSettings
 
 Текст административного сообщения.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ class Win32_TSGatewayServerSettings
 
 Идентификатор CLSID текущего подключаемого модуля проверки подлинности.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ class Win32_TSGatewayServerSettings
 
 Описание текущего подключаемого модуля проверки подлинности.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ class Win32_TSGatewayServerSettings
 
 Имя текущего подключаемого модуля проверки подлинности.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -239,7 +239,7 @@ class Win32_TSGatewayServerSettings
 
 Идентификатор CLSID текущего подключаемого модуля авторизации.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -254,7 +254,7 @@ class Win32_TSGatewayServerSettings
 
 Описание текущего подключаемого модуля авторизации.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ class Win32_TSGatewayServerSettings
 
 Имя текущего подключаемого модуля авторизации.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -297,7 +297,7 @@ class Win32_TSGatewayServerSettings
 
 Указывает хэш сертификата для привязки HTTPS через порт 443 в службах IIS.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -312,7 +312,7 @@ class Win32_TSGatewayServerSettings
 
 Текст сообщения согласия.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -342,7 +342,7 @@ class Win32_TSGatewayServerSettings
 
 Указывает, настроены ли параметры IIS и RPC, необходимые для службы шлюза удаленных рабочих столов.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -412,7 +412,7 @@ class Win32_TSGatewayServerSettings
 
 Указывает, разрешено ли подключение к шлюзу удаленных рабочих столов только клиентам, которым могут быть предоставлены сообщения согласия.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 <dt>
 
@@ -443,7 +443,7 @@ class Win32_TSGatewayServerSettings
 
 Это свойство не поддерживается начиная с Windows Server 2016.
 
-* * Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 и Windows Server 2008: * *
+* * Windows Server 2012 R2, Windows Server 2012, Windows server 2008 r2 и Windows Server 2008: * *
 
 Указывает, должен ли сервер запросить состояние работоспособности (SoH) от клиента. Это свойство можно изменить с помощью метода [**енаблерекуестсох**](win32-tsgatewayserversettings-enablerequestsoh.md) .
 
@@ -473,7 +473,7 @@ class Win32_TSGatewayServerSettings
 
 Указывает тип моста SSL, который будет использоваться сервером шлюза удаленных рабочих столов. Это может быть одно из следующих значений.
 
-**Windows Server 2008:** Это свойство недоступно до Windows Server 2008 R2.
+**Windows Server 2008:** это свойство недоступно до Windows Server 2008 R2.
 
 <dt>
 
@@ -513,13 +513,13 @@ class Win32_TSGatewayServerSettings
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для использования этого класса необходимо быть членом группы администраторов.
 
-Файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). MOF-файлы не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+файлы MOF-файл (MOF) содержат определения для классов инструментарий управления Windows (WMI) (WMI). файлы MOF не устанавливаются в составе пакета средств разработки программного обеспечения Microsoft Windows Software Development Kit (SDK). Они устанавливаются на сервере при добавлении связанной роли с помощью диспетчер сервера. Дополнительные сведения о файлах MOF см. в разделе [MOF-файл (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -533,7 +533,7 @@ class Win32_TSGatewayServerSettings
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

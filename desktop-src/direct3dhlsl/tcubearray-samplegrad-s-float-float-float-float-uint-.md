@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 00adfb5c7a1a95e5462b1bc524a6c7d86f71c2e8
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4ca8b238b1ff4478492142136e4b51b79ef703669a99c00030e71c97ad9a19b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104987275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023084"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatfloatuint-function-for-texturecubearray"></a>Функция Самплеград:: Самплеград (S, float, float, float, float, uint) для Текстурекубеаррай
 
@@ -89,7 +89,7 @@ DXGI_FORMAT SampleGrad(
 | Texture1D, Texture1DArray                | FLOAT          |
 | Texture2D, Texture2DArray                | float2         |
 | Texture3D, Текстурекубе, Текстурекубеаррай | float3         |
-| Texture2DMS, Texture2DMSArray            | не поддерживается  |
+| Texture2DMS, Texture2DMSArray            | Не поддерживается  |
 
 
 
@@ -111,7 +111,7 @@ DXGI_FORMAT SampleGrad(
 | Texture1D, Texture1DArray                | FLOAT          |
 | Texture2D, Texture2DArray                | float2         |
 | Texture3D, Текстурекубе, Текстурекубеаррай | float3         |
-| Texture2DMS, Texture2DMSArray            | не поддерживается  |
+| Texture2DMS, Texture2DMSArray            | Не поддерживается  |
 
 
 
@@ -143,7 +143,7 @@ DXGI_FORMAT SampleGrad(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

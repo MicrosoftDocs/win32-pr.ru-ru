@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 94225faf957b2eac3388422d74df3cfdb8bf6d90
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cbb6c5b19ed6116c59642e8dc5c0aa8eabf4800b066904f2132c7d182f2b7bbd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070634"
 ---
 # <a name="ieventsubscription3-interface"></a>Интерфейс IEventSubscription3
 
@@ -37,7 +37,7 @@ ms.locfileid: "105701279"
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Интерфейс **IEventSubscription3** имеет следующие свойства.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105701279"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -65,7 +65,7 @@ ms.locfileid: "105701279"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

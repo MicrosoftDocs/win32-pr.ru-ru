@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
-ms.openlocfilehash: 5df0f53778d9059ef8767f5b8052940847e36c00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5ec26d845fd6df2bfe0e84fffed0979c39e1971244788c9dfe5ddd3a0c0beca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990384"
 ---
 # <a name="dodownloadpropertyex-enumeration"></a>Перечисление Додовнлоадпропертекс
 
@@ -54,10 +54,10 @@ typedef enum _DODownloadPropertyEx
 | DODownloadPropertyEx_TotalSizeBytes | Зарезервировано. Не используется. |
 | DODownloadPropertyEx_TempLocalFileUsage | Зарезервировано. Не используется. |
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Минимальная версия клиента** | Windows 10, \[ только приложения Win32 версии 1809\] |
-| **Минимальная версия сервера** | Windows Server, \[ только приложения Win32 версии 1809\] |
+| **Минимальная версия клиента** | Windows 10, версия 1809 \[ Только приложения Win32\] |
+| **Минимальная версия сервера** | Windows Сервер, \[ только приложения Win32 версии 1809\] |
 | **Header** | Додовнлоадинтернал. h |

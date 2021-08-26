@@ -1,21 +1,21 @@
 ---
 title: Функции (STG)
-description: Функции — это подпрограммы или подпрограммы, возвращающие определенное значение или значения. В следующих разделах описаны структурированные функции хранения.
+description: Функции — это подпрограммы или подпрограммы, возвращающие определенное значение или значения. структурированные функции служба хранилища описаны в следующих разделах.
 ms.assetid: 5fbb05ae-594d-4fa5-97d2-a2371e94c054
 keywords:
-- Структурированное хранилище Стрктд STG, Reference, functions
+- структурированные служба хранилища стрктд Stg, reference, functions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f49c091b5ba9619b649e620da7b436ebac4ccb
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: b84583c4daed1c929ed4ca2204e94e82bd2f8e873c7d3cc454ac14700dd6b9e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "105669523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034904"
 ---
-# <a name="structured-storage-functions"></a>Функции структурированного хранилища
+# <a name="structured-storage-functions"></a>структурированные функции служба хранилища
 
-Функции — это подпрограммы или подпрограммы, возвращающие определенное значение или значения. Функции структурированного хранилища описаны в следующих разделах:
+Функции — это подпрограммы или подпрограммы, возвращающие определенное значение или значения. структурированные функции служба хранилища описаны в следующих разделах:
 
 -   [**креатеилоккбитесонхглобал**](/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal)
 -   [**CreateStreamOnHGlobal**](/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal)
