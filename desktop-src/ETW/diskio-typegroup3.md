@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 63ca227269dab249be755da22288ce41696a19e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e421a8bd596869ac06af61f05ed1af8c633fb23b95e576398de6418620249c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050664"
 ---
 # <a name="diskio_typegroup3-class"></a>\_Класс дискио TypeGroup3
 
@@ -44,13 +44,13 @@ class DiskIo_TypeGroup3 : DiskIo
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **дискио \_ TypeGroup3** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **дискио \_ TypeGroup3** имеет следующие свойства.
 
@@ -178,22 +178,22 @@ class DiskIo_TypeGroup3 : DiskIo
 
 Идентификатор выдающего потока.
 
-**Windows server 2008 R2, Windows server 2008, Windows 7 и Windows Vista:** Это свойство не поддерживается.
+**Windows server 2008 R2, Windows Server 2008, Windows 7 и Windows Vista:** Это свойство не поддерживается.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

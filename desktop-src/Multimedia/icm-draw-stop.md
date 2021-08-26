@@ -3,7 +3,7 @@ title: Сообщение ICM_DRAW_STOP (VFW. h)
 description: Сообщение об ошибке ICM \_ Draw \_ уведомляет драйвер подготовки к прекращению его внутренних часов на время рисования кадров. Это сообщение можно отправить явно или с помощью макроса Икдравстоп.
 ms.assetid: 9ffda595-e3d6-48f0-9487-69f7e95979c2
 keywords:
-- ICM_DRAW_STOP сообщения Windows мультимедиа
+- сообщение ICM_DRAW_STOP Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3bde99dfcf483e67aa6a601de2718814cc22439
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41bdb8fbc9a0cddf470733fa35b2f25dc62675175cbb40c427d0b160074c5409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038794"
 ---
 # <a name="icm_draw_stop-message"></a>\_ \_ Сообщение об ошибке ПРОРИСОВКи ICM
 
@@ -38,11 +38,11 @@ lParam = 0;
 
 Это сообщение не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение используется оборудованием, которое выполняет собственное асинхронное распаковка, время и рисование.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d19cd5b98ce39470860cc481ab05e4bb41adc9a4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 21bafde8c148ea8249672dd26a244dec152ed0e9fc5ce5fbb769e5cae6c92b74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008894"
 ---
 # <a name="shellshowbrowserbar-method"></a>Shell. Шовбровсербар, метод
 
@@ -104,9 +104,9 @@ Shell.ShowBrowserBar( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **оболочки. шовбровсербар** для отображения панели браузера **избранного** . Для JScript и VBScript отображается использование.
+В следующих примерах показано использование **оболочки. шовбровсербар** для отображения панели браузера **избранного** . для JScript и VBScript отображается использование.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -143,15 +143,15 @@ Shell.ShowBrowserBar( _
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
+| Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |
 

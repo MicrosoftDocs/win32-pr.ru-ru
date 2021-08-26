@@ -4,12 +4,12 @@ description: Между массивами и указателями в язык
 ms.assetid: 0d65c993-63e4-42ae-ae24-6c19a71386a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ed669a2a81528afa84b41a1be25a0c84f70fbe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8ba7bdaa08352a96987066313d4db074872f28b71ec0be0856a32522a849029c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073524"
 ---
 # <a name="array-attributes"></a>Атрибуты массивов
 
@@ -52,7 +52,7 @@ void fLocal1(char * pch1)
 
 
 
-| attribute                             | Описание                                             | Значение по умолчанию |
+| attribute                             | Описание                                             | По умолчанию |
 |---------------------------------------|---------------------------------------------------------|---------|
 | \[[ **первый \_ —**](/windows/desktop/Midl/first-is)\]   | Индекс первого переданного элемента массива.           | 0       |
 | \[[ **последний \_ —**](/windows/desktop/Midl/last-is)\]     | Индекс последнего переданного элемента массива.            | \-      |
@@ -63,13 +63,13 @@ void fLocal1(char * pch1)
 
 
 
- 
+ 
 
 > [!Note]  
 > Атрибут **min \_ не** реализован в RPC. Минимальный индекс массива всегда обрабатывается как ноль.
 
- 
+ 
 
- 
+ 
 
- 
+ 

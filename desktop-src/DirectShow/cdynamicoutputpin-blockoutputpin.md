@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3998774550363b7d22e05ca491f1d76ba7f2ff2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9dc1f4cdafd732821398ee04e127c0525798dd6cc02f67f8af5d977b195a6a74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105658081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983364"
 ---
 # <a name="cdynamicoutputpinblockoutputpin-method"></a>Кдинамикаутпутпин. Блоккаутпутпин, метод
 
@@ -44,7 +44,7 @@ void BlockOutputPin();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода удерживайте критический раздел [**кдинамикаутпутпин:: m \_ блоккстателокк**](cdynamicoutputpin-m-blockstatelock.md) . Не вызывайте этот метод, если поток потоковой передачи использует ПИН-код для доставки данных или изменения соединения. Чтобы проверить, использует ли поток потоковой передачи ПИН-код, вызовите метод [**кдинамикаутпутпин:: стреамингсреадусингаутпутпин**](cdynamicoutputpin-streamingthreadusingoutputpin.md) .
 
@@ -54,7 +54,7 @@ void BlockOutputPin();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

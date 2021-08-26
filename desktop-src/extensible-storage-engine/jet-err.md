@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 35120be9a26dcbdc8d012cd12c871ddcf8f71555
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f341f88a192fee6de55e0077778abde83493e35e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "105714059"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482280"
 ---
 # <a name="jet_err"></a>JET_ERR
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_err"></a>JET_ERR
 
-Тип данных **JET_ERR** содержит [Расширенный код ошибки подсистемы хранилища](./extensible-storage-engine-error-codes.md).
+**JET_ERR** тип данных содержит [код ошибки расширяемого механизма служба хранилища](./extensible-storage-engine-error-codes.md).
 
 ```cpp
 typedef long JET_ERR;
@@ -43,34 +43,17 @@ JET_ERR
 
 ### <a name="remarks"></a>Комментарии
 
-Сведения об возврате ошибок в виде значений HRESULT см. в разделе [ошибки расширенного подсистемы хранилища](./extensible-storage-engine-errors.md). Дополнительные сведения о флагах настройки базы данных для обработки ошибок см. в разделе [Параметры обработки ошибок](./error-handling-parameters.md).
+сведения об возврате ошибок в виде значений hresult см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md). Дополнительные сведения о флагах настройки базы данных для обработки ошибок см. в разделе [Параметры обработки ошибок](./error-handling-parameters.md).
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:
 
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
-[Коды ошибок расширенного подсистемы хранилища](./extensible-storage-engine-error-codes.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
+[коды ошибок расширенного механизма служба хранилища](./extensible-storage-engine-error-codes.md)  
 [Параметры обработки ошибок](./error-handling-parameters.md)

@@ -4,12 +4,12 @@ ms.assetid: d0dda2fb-6a9c-471a-a92a-1fba06815065
 title: System. GPS. Дестбеарингреф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eed9ca7a42d754925cbac2f571a22dff577adb9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9853bea09b1f72d710b3526f2a2b6aa50a1064343c17692ea5d2710add5308
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059174"
 ---
 # <a name="systemgpsdestbearingref"></a>System. GPS. Дестбеарингреф
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

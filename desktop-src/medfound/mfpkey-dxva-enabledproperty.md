@@ -4,12 +4,12 @@ ms.assetid: 6220310f-5760-4ddb-944b-752b97bf4696
 title: Свойство MFPKEY_DXVA_ENABLED (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a92dd2a27292b0616b30f417ebd8de271c333e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1165fcef344b667ea1b7bb6fe88c5243ea8824d86572f79c826805e5f46f02f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954064"
 ---
 # <a name="mfpkey_dxva_enabled-property"></a>МФПКЭЙ \_ дксва \_ Enabled, свойство
 
@@ -33,9 +33,9 @@ ms.locfileid: "105692854"
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

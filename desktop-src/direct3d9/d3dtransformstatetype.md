@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 022aa20fab0739b32aa75eb5f4bc575c0a8ad853
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 299246ef890015a6d7de465ecc7c00251a52432d276a87f3d5f336b63d563737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986994"
 ---
 # <a name="d3dtransformstatetype-enumeration"></a>Перечисление D3DTRANSFORMSTATETYPE
 
@@ -141,7 +141,7 @@ typedef enum D3DTRANSFORMSTATETYPE {
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

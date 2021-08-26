@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d84b64818a02a60073fc21411e4a99bde07a6e00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e37a59b8d002a9c081de74c4974dca1f86d1c9d0a5f7f7b0caca11be6c026d3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052774"
 ---
 # <a name="cbasecontrolvideogetvideoformat-method"></a>Кбасеконтролвидео. Жетвидеоформат, метод
 
@@ -44,7 +44,7 @@ virtual VIDEOINFOHEADER* GetVideoFormat() = 0;
 
 Возвращает указатель на структуру [**видеоинфохеадер**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) , содержащую текущий формат видео.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы вернуть и проверить определенную информацию с помощью [**ибасиквидео**](/windows/desktop/api/Control/nn-control-ibasicvideo), объект должен узнать текущий формат видео. Он получает эти сведения путем вызова чистого виртуального метода, который производные классы должны переопределить. Эта функция-член вызывается следующими функциями-членами [**кбасеконтролвидео**](cbasecontrolvideo.md) .
 
@@ -57,18 +57,18 @@ virtual VIDEOINFOHEADER* GetVideoFormat() = 0;
 -   [**Кбасеконтролвидео:: Жетвидеопалеттинтриес**](cbasecontrolvideo-getvideopaletteentries.md)
 -   [**Кбасеконтролвидео:: Жетвидеосизе**](cbasecontrolvideo-getvideosize.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ктлутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>ктлутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

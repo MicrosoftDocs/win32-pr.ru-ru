@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bc95c6b8403a64432451ea29dbb66868fad25264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86905d49bb798d37bad48087c48e77349ec10f57
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693436"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482290"
 ---
 # <a name="jet_enumcolumnvalue-structure"></a>Структура JET_ENUMCOLUMNVALUE
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_enumcolumnvalue-structure"></a>Структура JET_ENUMCOLUMNVALUE
 
@@ -50,33 +50,13 @@ _**Применимо к:** Windows | Windows Server_
 
 Код состояния столбца, полученный в результате перечисления значения столбца.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>Запрошенное значение столбца равно NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p><em>Итагсекуенце</em> , указанный в элементе массива <em>ргтагсекуенце</em> в структуре <a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a> , соответствующей этой <strong>JET_ENUMCOLUMNVALUE</strong> структуре, была нулевой.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnTruncated</p></td>
-<td><p>Значение запрошенного столбца было усечено до указанного размера перед возвратом.</p>
-<p>Это усечение происходит только для длинных текстовых и длинных двоичных столбцов, содержащих большие объемы данных.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_wrnColumnNull</p> | <p>Запрошенное значение столбца равно NULL.</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p><em>Итагсекуенце</em> , указанный в элементе массива <em>ргтагсекуенце</em> в структуре <a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a> , соответствующей этой <strong>JET_ENUMCOLUMNVALUE</strong> структуре, была нулевой.</p> | 
+| <p>JET_wrnColumnTruncated</p> | <p>Значение запрошенного столбца было усечено до указанного размера перед возвратом.</p><p>Это усечение происходит только для длинных текстовых и длинных двоичных столбцов, содержащих большие объемы данных.</p> | 
+
 
 
 **cbData**
@@ -93,26 +73,9 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

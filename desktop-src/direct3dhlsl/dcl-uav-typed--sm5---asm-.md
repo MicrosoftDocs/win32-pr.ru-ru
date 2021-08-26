@@ -4,12 +4,12 @@ description: Объявите неупорядоченное представл�
 ms.assetid: F9F5583F-E3D0-447F-9227-BBB1B4E71934
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b789714c7ec825620b73e387fa8a4dd73e1a590d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3ec321389f8c8296bda8ccd1eba947b5ba38adc80c94b3c8c0685b069fcdafbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950584"
 ---
 # <a name="dcl_uav_typed-sm5---asm"></a>дкл \_ UAV \_ типизированный (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104998258"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 *дстуав* — это регистр u, \# объявляемый в качестве ссылки на унордередакцессвиев, который должен быть привязан к слоту UAV \# в API.
 
@@ -83,7 +83,7 @@ ms.locfileid: "104998258"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -94,7 +94,7 @@ ms.locfileid: "104998258"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

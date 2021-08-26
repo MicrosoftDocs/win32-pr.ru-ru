@@ -4,12 +4,12 @@ description: Следующие идентификаторы транспорт�
 ms.assetid: 7720c34f-0558-49de-8f82-13a67e2c8c69
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb09684ebb56834cbe642c422ad611a8fb331a36
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b512feb0dfdf19a4c7cc198fbd13fa8d3bfbbd7d39f4247944a957c1bf6a19f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025494"
 ---
 # <a name="transport-identifiers"></a>Идентификаторы транспорта
 
@@ -21,15 +21,15 @@ ms.locfileid: "104487988"
 |------------|-----------------------------------------------------------|
 | Идентификатор процесса \_ аталк | AppleTalk                                                 |
 | \_IP-адрес PID    | Протокол IP версии 4                               |
-| PID \_ IPX   | Обмен пакетами через Интернет                                  |
+| PID \_ IPX   | Exchange пакетов Интернета                                  |
 | PID \_ NBF   | Протокол кадров NetBIOS                                   |
-| PID \_ IPv6  | Windows Server 2008 или более поздней версии: протокол IP версии 6 |
+| PID \_ IPv6  | Windows Сервер 2008 или более поздней версии: протокол IP версии 6 |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -45,6 +45,6 @@ ms.locfileid: "104487988"
 [Константы транспорта и протокола](transport-and-protocol-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

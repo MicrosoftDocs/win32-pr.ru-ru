@@ -4,12 +4,12 @@ ms.assetid: d368b552-7ed3-4334-b97b-ff49d6c331c3
 title: Определение допустимых операций DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444595e402dc73a3468946b820f031dabaecc2f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5fd1b99a38949ca0ff54d391e9ad5458bbe854a5c4af4140b15deaf4177147aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051984"
 ---
 # <a name="identifying-valid-dvd-operations"></a>Определение допустимых операций DVD
 
@@ -21,7 +21,7 @@ ms.locfileid: "104423037"
 
 Если вы сомневаетесь, разрешите действие. В худшем случае метод [**IDvdControl2**](/windows/desktop/api/Strmif/nn-strmif-idvdcontrol2) завершится ошибкой, и вы сможете отправить отзыв пользователю. Обратная связь должна быть относительно ненавязчивой. Например, вы можете мгновенно предупредить пользователя к маленькому красному крестику. Навигатор DVD возвращает \_ \_ DVD-диск VFW e \_ INVALIDDOMAIN, когда домен запрещает операцию, и \_ \_ Операция ДИСКового DVD-диска VFW была \_ \_ запрещена, когда флаги УОПС запрещают операцию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

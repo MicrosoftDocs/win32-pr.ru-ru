@@ -4,12 +4,12 @@ description: При вызове функций заголовков сведе�
 ms.assetid: 66cf0147-f099-4b6f-8063-32b284e891ca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8512442398c2fb321e025fe6292b50534d27e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30f71e82c2a6ce7b6f8d6b9b037bb73beacbc2ed576ee84edf95beadd8798278
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103772587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081184"
 ---
 # <a name="router-information-enumerations"></a>Перечисление сведений о маршрутизаторе
 
@@ -19,9 +19,9 @@ ms.locfileid: "103772587"
 -   [Типы сведений IPv6 для блоков сведений маршрутизатора](ipv6-information-types-for-router-information-blocks.md)
 -   [Типы сведений IPX для блоков сведений маршрутизатора](ipx-information-types-for-router-information-blocks.md)
 
- 
+ 
 
- 
+ 
 
 
 

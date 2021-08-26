@@ -4,12 +4,12 @@ description: На этапе Geometry-Shader (GS) выполняется зад�
 ms.assetid: F3208862-980E-403F-9154-13B34A882787
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3099ed5ede8dd89dc607ed838ff6e3fabfb16a69
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 94d568b9eb62b2545721acebfda865f7f2553597fb999a3a647164106c836369
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952914"
 ---
 # <a name="geometry-shader-stage"></a>Стадия шейдера геометрии
 

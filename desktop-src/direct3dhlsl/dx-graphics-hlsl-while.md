@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bf1f0049ac474e7840753a8cfe05c972aa346c1
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: a4e9ae7dc0d8280c9b9823d77dcfe5968243a1ddebdaf78e76b03651ee465034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983164"
 ---
 # <a name="while-statement"></a>Оператор while
 
@@ -68,11 +68,11 @@ ms.locfileid: "111826677"
 
 </dd> </dl>
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Управление потоком](dx-graphics-hlsl-flow-control.md)
+[Flow Элемента](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

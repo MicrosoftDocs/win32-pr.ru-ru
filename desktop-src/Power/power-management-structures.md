@@ -4,12 +4,12 @@ ms.assetid: 706e605e-d522-473d-8797-d6397cdc719a
 title: Структуры управления питанием
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755a66227f09f3aa1187a0f31d0c9922c3e57458
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 710ca20b4aeb22007f94431b0c7d6094e9be4def2c112d0cfa48e9002daaff27
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128014"
 ---
 # <a name="power-management-structures"></a>Структуры управления питанием
 

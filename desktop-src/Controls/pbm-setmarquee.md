@@ -3,7 +3,7 @@ title: Сообщение PBM_SETMARQUEE (Коммктрл. h)
 description: Задает индикатор выполнения в режиме бегущей строки. Это приводит к тому, что индикатор выполнения перемещается как бегущая строка.
 ms.assetid: 6501bcb9-a711-470f-874f-f3484d3613b6
 keywords:
-- Элементы управления Windows для PBM_SETMARQUEE сообщений
+- элементы управления Windows сообщений PBM_SETMARQUEE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9229291113f034924cf9ce8112c0e99376d37932
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f724f87faa6e989fddb17e8d6fb3b115dd04859ea426addb7d4c0b893aff407a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986144"
 ---
 # <a name="pbm_setmarquee-message"></a>\_Сообщение СЕТМАРКУИ PBM
 
@@ -43,7 +43,7 @@ ms.locfileid: "103988998"
 
 Всегда возвращает **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте это сообщение, если вы не узнаете о ходе выполнения в сторону завершения, но хотите указать, что выполняется выполнение.
 
@@ -65,9 +65,9 @@ ms.locfileid: "103988998"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

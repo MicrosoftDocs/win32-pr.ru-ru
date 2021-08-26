@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4da4956aa3a12d064566a3767423f42039b01355
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1c62b6f090126887930415fc408da4f4a6c17bc4a99429db61fd298960c07e6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949704"
 ---
 # <a name="firstbithigh-function"></a>firstbithigh - функция
 
@@ -28,7 +28,7 @@ ms.locfileid: "104413148"
 
 ``` syntax
 int firstbithigh(
-  in int value
+  in int value
 );
 ```
 
@@ -51,7 +51,7 @@ int firstbithigh(
 
 Расположение первого набора бит.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Для целого числа со знаком Первый значащий бит равен нулю для отрицательного числа.
 
@@ -75,11 +75,11 @@ uint4 firstbithigh(uint4 value);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -91,9 +91,9 @@ uint4 firstbithigh(uint4 value);
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -103,6 +103,6 @@ uint4 firstbithigh(uint4 value);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

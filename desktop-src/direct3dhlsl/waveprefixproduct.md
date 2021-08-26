@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d073d72590951ddbbbb74274d4cd237e0a138c4f
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: d8cb780f951433afc480c38d52c8120e086a91d32117fe9bb566657e0fcf9f24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104414153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948964"
 ---
 # <a name="waveprefixproduct-function"></a>Функция WavePrefixProduct 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104414153"
 
 Произведение всех значений.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Порядок операций в этой подпрограммы не гарантируется. Таким образом, \[ точный флаг в \] нем игнорируется.
 
@@ -63,8 +63,8 @@ uint prefixProduct = WavePrefixProduct( numToMultiply );
 
 | Индекс полосы | status   | префикспродукт | 
 |------------|----------|---------------|
-| 0          | неактивно | Недоступно           |
-| 1          | active   | = 1           |
+| 0          | неактивно | н/д           |
+| 1          | active   |  = 1           |
 | 2          | active   | = 1 \* 2        |
 | 3          | active   | = 1 \* 2 \* 2     |
 | 4          | неактивно | Недоступно           |
@@ -72,7 +72,7 @@ uint prefixProduct = WavePrefixProduct( numToMultiply );
 | 6          | active   | = 1 \* 2 \* 2 \* 2 \* 2    |
 | 7          | active   | = 1 \* 2 \* 2 \* 2 \* 2 \* 2 |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Общие сведения о модели шейдеров 6](hlsl-shader-model-6-0-features-for-direct3d-12.md)
 

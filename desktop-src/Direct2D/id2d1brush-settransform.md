@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 89d0da76368fac2d2335cabda1f6d0a6130b499f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a30d4051303667402fdd1143f5a813d7515223c8093a5913294e6dd1722273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918043"
 ---
 # <a name="id2d1brushsettransform-methods"></a>Методы ID2D1Brush:: Сеттрансформ
 
@@ -34,7 +34,7 @@ ms.locfileid: "105679979"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При рисовании с помощью кисти она рисуется в пространстве координат целевого объекта отрисовки. Кисти не размещаются автоматически, чтобы они совпадали с закрашиваемым объектом; по умолчанию они начинают рисовать в источнике (0, 0) целевого объекта отрисовки.
 
@@ -114,7 +114,7 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
 | Требование | Значение |
 |--------------------|-------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D2d1 \_ 1. h (включение D2d1. h)</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D2d1. lib</dt> </dl>                   |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl>                   |
 

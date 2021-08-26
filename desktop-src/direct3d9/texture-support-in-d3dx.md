@@ -4,12 +4,12 @@ ms.assetid: 84815851-ca96-47ab-9f84-56ecaeb4a6d9
 title: Поддержка текстур в D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f31a597ddcab317477d31e0d833c9da96f71ed4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 20ba518a5e9158c0337d45485852675d4ab91ef3585f027bd78fc51164c40466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026024"
 ---
 # <a name="texture-support-in-d3dx-direct3d-9"></a>Поддержка текстур в D3DX (Direct3D 9)
 
@@ -53,7 +53,7 @@ A->Q or A->L
 -   1 <-> B, 1 сопоставляется с каналом B или наоборот.
 -   1 <-> A, 1 сопоставляется с каналом, или наоборот.
 
-Если канал не существует в источнике, предполагается, что он равен 1 (за исключением A8, где R, G, B считаются равными 0). Пример.
+Если канал не существует в источнике, предполагается, что он равен 1 (за исключением A8, где R, G, B считаются равными 0). Например:
 
 
 ```

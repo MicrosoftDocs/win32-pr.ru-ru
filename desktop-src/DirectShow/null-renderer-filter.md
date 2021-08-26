@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 64647cbcbcc836c400890fb173a29c76f8723029
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 2686c64b3251616ac8cefbe81a77282e5b1a7c6847ef965b6361759118b74756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050884"
 ---
 # <a name="null-renderer-filter"></a>Фильтр визуализации null
 
@@ -36,8 +36,8 @@ ms.locfileid: "107908812"
 | Интерфейсы фильтра                        | [**Ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**имедиапоситион**](/windows/desktop/api/Control/nn-control-imediaposition), [**имедиасикинг**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) |
 | Типы носителей входных закрепления                    | Любой тип мультимедиа                                                                                                       |
 | Интерфейсы входных закрепления                     | [**Имеминпутпин**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin), [**Ипин**](/windows/desktop/api/Strmif/nn-strmif-ipin), [**икуалитиконтрол**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)               |
-| Типы носителей для выходного ПИН-кода                   | Не применяется                                                                                                      |
-| Интерфейсы выходного ПИН-кода                    | Не применяется                                                                                                      |
+| Типы носителей для выходного ПИН-кода                   | Неприменимо.                                                                                                      |
+| Интерфейсы выходного ПИН-кода                    | Неприменимо.                                                                                                      |
 | Фильтровать CLSID                             | \_НУЛЛРЕНДЕРЕР CLSID                                                                                                  |
 | CLSID страницы свойств                      | Нет страницы свойств.                                                                                                    |
 | Исполняемый объект                               | Qedit.dll                                                                                                            |
@@ -48,13 +48,13 @@ ms.locfileid: "107908812"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте этот фильтр, если для выходного контакта на графе требуется подчиненное соединение, но не требуется отображать данные из этого ПИН-кода. Подключив выходной закрепление к модулю подготовки отчетов со значением NULL, вы завершите соединение без отображения данных.
 
-Несмотря на то, что этот фильтр не отображает какие бы то ни было образцы, он ждет времени показа каждого примера перед отменой выборки. Поэтому граф будет выполняться по нормальной ставке. Если вы хотите, чтобы граф выполнялся как можно быстрее, установите для ссылочного времени **значение NULL**. Дополнительные сведения см. [в разделе Установка часов графа](setting-the-graph-clock.md).
+Несмотря на то, что этот фильтр не отображает какие бы то ни было образцы, он ждет времени показа каждого примера перед отменой выборки. Поэтому граф будет выполняться по нормальной ставке. Если вы хотите, чтобы граф выполнялся как можно быстрее, установите для ссылочного времени **значение NULL**. дополнительные сведения см. [в разделе установка Graph часов](setting-the-graph-clock.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -64,11 +64,11 @@ ms.locfileid: "107908812"
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
-[Объекты служб редактирования DirectShow](directshow-editing-services-objects.md)
+[DirectShow Изменение объектов служб](directshow-editing-services-objects.md)
 </dt> </dl>
 
  

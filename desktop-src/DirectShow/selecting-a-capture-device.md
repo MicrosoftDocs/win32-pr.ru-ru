@@ -4,12 +4,12 @@ ms.assetid: 8f92873d-569a-48af-a913-6d4cce65640f
 title: Выбор устройства записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b599728c6bd2d98b89285b6008923aa4fb2a3aef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5bf92692070c8a0191a91559481d5446bf3d4d894c8e7f6aafc2ed9e73a6667
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904414"
 ---
 # <a name="selecting-a-capture-device"></a>Выбор устройства записи
 
@@ -65,7 +65,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 
 
 
-Интерфейс [**иенуммоникер**](/windows/win32/api/objidl/nn-objidl-ienummoniker) перечисляет список интерфейсов [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) , каждый из которых представляет моникер устройства. Приложение может считывать свойства из моникера или использовать моникер для создания фильтра записи DirectShow для устройства. Свойства моникера возвращаются в виде значений **типа Variant** . Специальные имена устройств поддерживают следующие свойства.
+Интерфейс [**иенуммоникер**](/windows/win32/api/objidl/nn-objidl-ienummoniker) перечисляет список интерфейсов [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) , каждый из которых представляет моникер устройства. приложение может считывать свойства из моникера или использовать моникер для создания DirectShow фильтра записи для устройства. Свойства моникера возвращаются в виде значений **типа Variant** . Специальные имена устройств поддерживают следующие свойства.
 
 
 
@@ -85,7 +85,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 -   Свойство "FriendlyName" доступно для каждого устройства. Он содержит удобное для чтения имя устройства.
 -   Свойство "Description" доступно только для устройств с видеокамерой DV и D-ВХС/MPEG. Дополнительные сведения см. в разделе [драйвер мсдв](msdv-driver.md) и [драйвер мстапе](mstape-driver.md). Если он доступен, он содержит описание устройства, более конкретное, чем свойство "FriendlyName". Обычно он включает имя поставщика.
 -   Свойство DevicePath не является удобной для чтения строкой, но гарантирует уникальность для каждого устройства видеозаписи в системе. Это свойство можно использовать для различения двух или более экземпляров одной и той же модели устройства.
--   Если свойство "Вавеинид" установлено, это означает, что фильтр записи DirectShow использует интерфейсы API [аудио Audio](../multimedia/waveform-audio.md) для взаимодействия с устройством. Значение свойства "Вавеинид" соответствует идентификатору, используемому функциями **Wave \** _, например, [_ *вавеинопен* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen).
+-   если имеется свойство "вавеинид", это означает, что фильтр записи DirectShow использует для взаимодействия с устройством интерфейсы api [аудио Audio](../multimedia/waveform-audio.md) . Значение свойства "Вавеинид" соответствует идентификатору, используемому функциями **Wave \** _, например, [_ *вавеинопен* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen).
 
 Чтобы прочитать свойства моникера, выполните следующие действия.
 
@@ -174,7 +174,7 @@ void main()
 
 
 
-Чтобы создать фильтр записи DirectShow для устройства, вызовите метод [**IMoniker:: биндтубжект**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject) , чтобы получить указатель [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) . Затем вызовите [**ифилтерграф:: аддфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) , чтобы добавить фильтр в граф фильтра:
+чтобы создать фильтр записи DirectShow для устройства, вызовите метод [**IMoniker:: биндтубжект**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject) , чтобы получить указатель [**ибасефилтер**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) . Затем вызовите [**ифилтерграф:: аддфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) , чтобы добавить фильтр в граф фильтра:
 
 
 ```C++
@@ -188,7 +188,7 @@ if (SUCCEEDED(hr))
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
