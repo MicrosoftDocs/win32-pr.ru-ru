@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 19d767f3c501cc42e21bbc44a196ba08cd6f1883
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 956d4b2e37c4430e20fc4b75b2847c096c7832369d036f5224d8c36d86b7c66c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068174"
 ---
 # <a name="append-directx-hlsl-stream-output-object"></a>Append (объект DirectX HLSL Stream-Output)
 
@@ -40,7 +40,7 @@ Append ( *стреамдататипе*);
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-None
+Нет
 
 ## <a name="example"></a>Пример
 
@@ -79,7 +79,7 @@ void GS_CubeMap( triangle GS_CUBEMAP_IN input[3],
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | yes       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |

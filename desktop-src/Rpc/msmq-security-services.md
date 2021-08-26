@@ -4,12 +4,12 @@ description: Синхронные сообщения RPC могут исполь
 ms.assetid: 0f4d45c4-7457-4449-8736-e141a95f6930
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd2e12cd9f32a571088de769adb079327caab9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f142d83c003f1293556786167222a4e9e88d3912786aa328319efa7fb0ea345d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019654"
 ---
 # <a name="msmq-security-services"></a>Службы безопасности MSMQ
 
@@ -29,10 +29,10 @@ ms.locfileid: "104134219"
 
 
 
- 
+ 
 
 Сервер также может принудительно вызывать проверку подлинности и шифрование, вызывая [**рпксерверусепротсекепекс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex) и устанавливая \_ Флаги RPC c \_ MQ \_ AUTHN \_ уровня \_ None, RPC \_ c \_ MQ \_ AUTHN \_ \_ \_ Integrity и RPC \_ c \_ MQ \_ AUTHN \_ \_ на уровне маркера \_ безопасности в структуре [**\_ политики RPC**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_policy) .
 
- 
+ 
 
- 
+ 

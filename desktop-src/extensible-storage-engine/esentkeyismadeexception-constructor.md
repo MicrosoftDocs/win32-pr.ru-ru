@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 037d30bed22bd25781e426aa507b4ecab9f18645
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e302a77a4bc60e27cc212fa784de4c19323c168ef604426ffc2537b47cd54e3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019734"
 ---
 # <a name="esentkeyismadeexception-constructor"></a>Конструктор Есенткэйисмадиксцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentKeyIsMadeException()
 public EsentKeyIsMadeException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

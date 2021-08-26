@@ -4,12 +4,12 @@ description: Используя файлы IDL и ACF в качестве вхо
 ms.assetid: 151bd643-1da0-4b33-b8a3-3d7037e63319
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb45bb369ea9d5faa695bf2658f3bafe2b3cb3d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0aea74b77d8e709d8a71d3c84f457d301bb38d8c35bdccaa77e9e3033d08ed70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019694"
 ---
 # <a name="midl-compiler-output"></a>Выходные данные компилятора MIDL
 
@@ -17,20 +17,20 @@ ms.locfileid: "104067608"
 
 
 
-| Файл        | Часть имени базового файла по умолчанию | Пример      |
+| File        | Часть имени базового файла по умолчанию | Пример      |
 |-------------|-----------------------------------|--------------|
 | IDL-файл    | ---                               | Абкдефгх. idl |
-| Header      | .h                                | Abcdef. h     |
+| Заголовок      | .h                                | Abcdef. h     |
 | Заглушка клиента | \_c. c                             | Abcdef \_ c. c  |
 | Заглушка сервера | \_s. c                             | Abcdef \_ s. c  |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e026c3c3d0a29bbbd10ed2b5565708f0bcb0900c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5559de847cf15b60e3af27f8b092605b8ca8c3bfd874d27ebab7a0edda454d14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972214"
 ---
 # <a name="win32_physicalmemory-class"></a>\_Класс Win32 фисикалмемори
 
@@ -114,7 +114,7 @@ class Win32_PhysicalMemory : CIM_PhysicalMemory
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ фисикалмемори** имеет следующие свойства.
 
@@ -136,7 +136,7 @@ SMBIOS-Type 17 — атрибуты. Представляет ранг.
 
 Это значение берется из элемента **Attributes** структуры **Memory Device** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -184,7 +184,7 @@ SMBIOS-Type 17 — атрибуты. Представляет ранг.
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -218,7 +218,7 @@ SMBIOS-Type 17 — атрибуты. Представляет ранг.
 
 Это значение берется из **настроенной скорости тактовой частоты памяти** в структуре **устройства памяти** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ SMBIOS-Type 17 — атрибуты. Представляет ранг.
 
 Это значение берется из **настроенного элемента питания** структуры **устройства памяти** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -356,7 +356,7 @@ SMBIOS-Type 17 — атрибуты. Представляет ранг.
 
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -730,7 +730,7 @@ LGA
 
 Это значение берется из параметра **максимального напряжения** в структуре **устройства памяти** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -959,7 +959,7 @@ FBD2
 
 Это значение берется из **минимального напряжения** , входящего в структуру **устройства памяти** в сведениях SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -981,7 +981,7 @@ FBD2
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1149,7 +1149,7 @@ FBD2
 
 Необработанный тип памяти SMBIOS. Значение свойства **меморитипе** является значением CIM, сопоставленным со значением SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** Это свойство не поддерживается до Windows Server 2016 и Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 и Windows Vista:** это свойство не поддерживается до Windows Server 2016 и Windows 10.
 
 </dd> <dt>
 
@@ -1450,7 +1450,7 @@ FBD2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ фисикалмемори** является производным от [**CIM \_ фисикалмемори**](cim-physicalmemory.md).
 

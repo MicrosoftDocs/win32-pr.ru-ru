@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7858de7d8526a9468d3ebd0a07d57777983a66db
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 866b0cedb4de0fe2f8bf9087df6637d3a6340505289b4b773eaccd380fa4b367
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104996787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067924"
 ---
 # <a name="how-to-instance-a-geometry-shader"></a>Как выполнить экземпляр шейдера Geometry
 
@@ -47,16 +47,16 @@ ms.locfileid: "104996787"
 -   Максимальное число вершин — это максимальное число вершин на экземпляр.
 -   Вызов каждого экземпляра (как и любой вызов шейдера Geometry) увеличивает число вызовов и создает неявный Рестартстрип ().
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Функции шейдера Geometry](overviews-direct3d-11-hlsl-gs-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
