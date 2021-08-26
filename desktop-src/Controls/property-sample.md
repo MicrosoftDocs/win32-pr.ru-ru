@@ -4,12 +4,12 @@ ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: 'Дополнительные сведения: пример свойства'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c11fda9b133ca6fa3b2f9942d8d48bec3a9e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 83f17e12031b326566e6b948b05dae5851ec4aabd1cc7fd0a0281fc9d1a89c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104140970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061644"
 ---
 # <a name="property-sample"></a>Пример свойства
 
@@ -19,7 +19,7 @@ ms.locfileid: "104140970"
 -   [Минимальные требования](#minimum-requirements)
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="description"></a>Описание
 
@@ -40,13 +40,13 @@ ms.locfileid: "104140970"
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Пример свойства устанавливается как часть [пакета средств разработки программного обеспечения (SDK) для Windows](https://msdn.microsoft.com/windows/bb980924.aspx) и доступен в следующем расположении.
+пример свойства устанавливается как часть [пакета средств разработки Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx) и доступен в следующем расположении.
 
 
 
 | Расположение    | Путь или URL-адрес                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------|
-| Пакет Windows SDK | % Program Files% \\ Microsoft \\ Windows SDK \\ \[ номер версии \] \\ примеры \\ винуи \\ элементы управления \\ Общие \\ Свойства |
+| Пакет Windows SDK | % Program files% \\ Microsoft sdk \\ Windows \\ \[ номер версии \] \\ примеры \\ винуи \\ элементов управления \\ общее \\ свойство |
 
 
 
@@ -59,17 +59,17 @@ ms.locfileid: "104140970"
 1.  Откройте окно командной строки и перейдите в каталог проекта.
 2.  Введите `msbuild [project file]`.
 
-Чтобы построить пример с помощью Visual Studio, сделайте следующее:
+Чтобы построить пример с помощью Visual Studio:
 
-1.  Откройте проводник Windows и перейдите в каталог проекта.
+1.  откройте обозреватель Windows и перейдите в каталог проекта.
 2.  Дважды щелкните значок VCPROJ-файла, чтобы открыть проект в Visual Studio.
 3.  В меню **Сборка** выберите пункт **построить решение** , чтобы выполнить сборку решения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О страницах свойств](property-sheets.md)
+[Сведения о страницах свойств](property-sheets.md)
 </dt> </dl>
 
  

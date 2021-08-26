@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 22591c20cbabfda2eb052e4746e87739b9681804
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 515964481c62e4588f3d9b75d168bffd2876cb22ce526e8ec0eaa41e226c110e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129394"
 ---
 # <a name="installerproductelevated-property"></a>Установщик::P свойство Родуктелеватед
 
@@ -39,9 +39,9 @@ propVal = Installer.ProductElevated
 
 ## <a name="property-value"></a>Значение свойства
 
-Полный идентификатор GUID кода продукта. Этот параметр обязателен.
+Полный идентификатор GUID кода продукта. Это обязательный параметр.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Свойство **продуктелеватед** использует функцию [**мсииспродуктелеватед**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda) . Возврат свойства не учитывает политику [AlwaysInstallElevated](alwaysinstallelevated.md) .
 
@@ -81,20 +81,20 @@ End If
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows 4,5 в Windows Server 2003 и Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик 4,5 на Windows Server 2003 и Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |
 | IID<br/>     | IID \_ иинсталлер определен как 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Установщик**](installer-object.md)
 </dt> <dt>
 
-[Не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
+[не поддерживается в установщик Windows 3,1 и более ранних версиях](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

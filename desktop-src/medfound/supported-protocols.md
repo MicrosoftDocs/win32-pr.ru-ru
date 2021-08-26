@@ -4,12 +4,12 @@ ms.assetid: 3c026426-c2b7-4909-9524-9cc0bd45347e
 title: Поддерживаемые протоколы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b086b48b73c0412968c00091e6353d134006f45fa9c8b8f229ea3f9e695bf99
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 20cc5e47bddec9e00fbb62e853db5a492172da84
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118238131"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468031"
 ---
 # <a name="supported-protocols"></a>Поддерживаемые протоколы
 
@@ -39,56 +39,15 @@ Media Foundation поддерживает следующие протоколы:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Разрешенные схемы</th>
-<th>Порядок переключения протоколов</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>mms://или rtsp://</td>
-<td>Быстрый кэш включен:<br/>
-<ol>
-<li>Протокол RTSP с TCP (RTSP)<br/></li>
-<li>RTSP с UDP (РТСПУ)<br/></li>
-<li>Потоковая передача HTTP<br/></li>
-<li>Загрузка HTTP (HTTPD)<br/></li>
-</ol>
-Быстрый кэш отключен:<br/>
-<ol>
-<li>ртспу<br/></li>
-<li>RTSP<br/></li>
-<li>Потоковая передача HTTP<br/></li>
-<li>Загрузка HTTP<br/></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>rtspu://</td>
-<td>ртспу</td>
-</tr>
-<tr class="odd">
-<td>rtspt://</td>
-<td>RTSP</td>
-</tr>
-<tr class="even">
-<td>https://</td>
-<td><ol>
-<li>HTTP<br/></li>
-<li>HTTPD<br/></li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>httpd://</td>
-<td>HTTPD</td>
-</tr>
-</tbody>
-</table>
+
+| Разрешенные схемы | Порядок переключения протоколов | 
+|-----------------|-------------------------|
+| mms://или rtsp:// | Быстрый кэш включен:<br /><ol><li>Протокол RTSP с TCP (RTSP)<br /></li><li>RTSP с UDP (РТСПУ)<br /></li><li>Потоковая передача HTTP<br /></li><li>Загрузка HTTP (HTTPD)<br /></li></ol>Быстрый кэш отключен:<br /><ol><li>ртспу<br /></li><li>RTSP<br /></li><li>Потоковая передача HTTP<br /></li><li>Загрузка HTTP<br /></li></ol> | 
+| rtspu:// | ртспу | 
+| rtspt:// | RTSP | 
+| https:// | <ol><li>HTTP<br /></li><li>HTTPD<br /></li></ol> | 
+| httpd:// | HTTPD | 
+
 
 
 

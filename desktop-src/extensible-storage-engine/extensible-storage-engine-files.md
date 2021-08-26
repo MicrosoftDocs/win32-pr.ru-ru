@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: a955da455cb2a2397010fd7869f6320970ef9f85ac1e1602f4439239dc56b167
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e6d0988966d1eb58a21668cad559308eadbd3eb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256323"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470001"
 ---
 # <a name="extensible-storage-engine-files"></a>расширяемые файлы служба хранилища Engine
 
@@ -39,184 +39,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 В этой таблице содержится обзор имен файлов данных, управляемых ESE. для Windows Vista и более поздних версий параметр JET_paramLegacyNames влияет на используемые имена файлов.
 
-<table xmlns="https://www.w3.org/1999/xhtml">
-  <tr>
-    <th>
-      <p>Операционная система</p>
-    </th>
-    <th>
-      <p>Windows Сервер 2003 и более ранние версии<br /><br /></p>
-    </th>
-    <th colspan="2">
-      <p></p>
-      <p>Windows Vista и более поздние версии (клиент) <br />
-Windows Сервер 2008 и более поздние версии (сервер)
-</p>
-    </th>
-    <th>
-      <p>Windows 10 Годовщина обновления и более поздние версии (клиент) <br />
-Windows Server 2016 и более поздних версий (сервер)
-</p>
-    </th>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <strong>Параметр JET_paramLegacyNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>Н/Д</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>None</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>JET_bitESE98FileNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>то же, что Windows Vista/Server 2008</strong>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>Текущий журнал</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . жткс</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Журнал предварительной инициализации</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. жткс</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Повернутые журналы</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; XXXXX. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; XXXXX. жткс после FFFFF переключается на &lt; inst &gt; XXXXXXXX. жткс</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; XXXXX. log после переключения FFFFF в &lt; inst &gt; XXXXXXXX. log.</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Файлы контрольных точек</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . chk</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . жкп</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . chk</p>
-    </td>
-    <td rowspan="2"></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Временные базы данных</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;имя файла временной базы данных &gt; по умолчанию: TMP. edb</p>
-    </td>
-    <td>
-      <p>&lt;имя файла временной базы данных &gt; по умолчанию: TMP. edb</p>
-    </td>
-    <td>
-      <p>&lt;имя файла временной базы данных &gt; по умолчанию: TMP. edb</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Зарезервированные файлы журнала транзакций</a>
-      </p>
-    </td>
-    <td>
-      <p>Res1. log &amp; Res2. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; рескскскскскс. ЖРС</p>
-    </td>
-    <td colspan="2">
-      <p>&lt;inst &gt; рескскскскскс. ЖРС</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Файлы базы данных</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;имя файла базы данных&gt;</p>
-    </td>
-    <td>
-      <p>&lt;имя файла базы данных&gt;</p>
-    </td>
-    <td>
-      <p>&lt;имя файла базы данных&gt;</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Очистить файлы карт</a>
-      </p>
-    </td>
-    <td>
-      <p>Н/Д</p>
-    </td>
-    <td>
-      <p>Н/Д</p>
-    </td>
-    <td>
-      <p>Н/Д</p>
-    </td>
-    <td>
-      <p>&lt;имя файла базы данных без расширения &gt; . жфм</p>
-    </td>
-  </tr>
-</table>
+
+| | |  | 
+
 
 
 ### <a name="transaction-log-files"></a>Файлы журнала транзакций

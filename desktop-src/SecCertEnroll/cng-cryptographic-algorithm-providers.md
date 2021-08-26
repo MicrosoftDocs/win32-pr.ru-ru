@@ -4,12 +4,12 @@ ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: Поставщики алгоритмов шифрования CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc64926236157e581ce6406d95681bd8d4add14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fd98a7eb6fd159c54977cdf8b72ebffd747da48
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647504"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467081"
 ---
 # <a name="cng-cryptographic-algorithm-providers"></a>Поставщики алгоритмов шифрования CNG
 
@@ -18,8 +18,8 @@ ms.locfileid: "105647504"
 -   [Симметричные алгоритмы](#symmetric-algorithms)
 -   [Асимметричные алгоритмы](#asymmetric-algorithms)
 -   [Алгоритмы хеширования](#hashing-algorithms)
--   [Алгоритмы обмена ключами](#key-exchange-algorithms)
--   [См. также](#related-topics)
+-   [ключевые Exchange алгоритмы](#key-exchange-algorithms)
+-   [Связанные темы](#related-topics)
 
 ## <a name="symmetric-algorithms"></a>Симметричные алгоритмы
 
@@ -69,52 +69,23 @@ ms.locfileid: "105647504"
 
  
 
-## <a name="key-exchange-algorithms"></a>Алгоритмы обмена ключами
+## <a name="key-exchange-algorithms"></a>ключевые Exchange алгоритмы
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Имя алгоритма</th>
-<th>Примечания</th>
-<th>Размер ключа в битах (по умолчанию/мин/макс)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Алгоритм обмена ключами Diffie-Hellman</td>
 
-<td>от 512 до 4096, с шагом 64-bit</td>
-</tr>
-<tr class="even">
-<td>Diffie-Hellman на эллиптических кривых (ECDH)</td>
-<td>Содержит кривые, использующие битовые открытые ключи 256, 384 и 521, как указано в SP800-56A.</td>
-<td>256/384/521</td>
-</tr>
-<tr class="odd">
-<td>Алгоритм цифровых подписей на основе эллиптических кривых (ECDSA)</td>
-<td>Включает кривые, использующие битовые открытые ключи 256, 384 и 521, как указано в FIPS 186-3.
-<blockquote>
-[!Note]<br />
-Чтобы отобразить все именованные эллиптические кривые, используйте <strong>certutil дисплайекккурве</strong>.
-</blockquote>
-<br/></td>
-<td>256/384/521</td>
-</tr>
-</tbody>
-</table>
+| Имя алгоритма | Примечания | Размер ключа в битах (по умолчанию/мин/макс) | 
+|----------------|-------|------------------------------------|
+| алгоритм Exchange ключа Diffie-Hellman | от 512 до 4096, с шагом 64-bit | 
+| Diffie-Hellman на эллиптических кривых (ECDH) | Содержит кривые, использующие битовые открытые ключи 256, 384 и 521, как указано в SP800-56A. | 256/384/521 | 
+| Алгоритм цифровых подписей на основе эллиптических кривых (ECDSA) | Включает кривые, использующие битовые открытые ключи 256, 384 и 521, как указано в FIPS 186-3.<blockquote>[!Note]<br />Чтобы отобразить все именованные эллиптические кривые, используйте <strong>certutil дисплайекккурве</strong>.</blockquote><br /> | 256/384/521 | 
+
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

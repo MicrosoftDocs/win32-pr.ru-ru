@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bab2fa3d9faa7f81abea278e3d9fcf4a4022c24c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53583a1d51de390b0c84143dcb59f3327b7c91bb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496935"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479300"
 ---
 # <a name="jetbeginexternalbackupinstance-function"></a>Функция Жетбегинекстерналбаккупинстанце
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetbeginexternalbackupinstance-function"></a>Функция Жетбегинекстерналбаккупинстанце
 
 Функция **жетбегинекстерналбаккупинстанце** инициирует внешнюю архивацию, пока ядро и база данных находятся в сети и активны.
 
-**Windows XP: жетбегинекстерналбаккупинстанце** появился в Windows XP.
+**Windows xp: жетбегинекстерналбаккупинстанце** появился в Windows XP.
 
 ```cpp
     JET_ERR JET_API JetBeginExternalBackupInstance(
@@ -49,45 +49,26 @@ _**Применимо к:** Windows | Windows Server_
 
 Экземпляр базы данных, используемый для этого вызова.
 
-Для Windows 2000 вариант API, который принимает этот параметр, недоступен, так как поддерживается только один экземпляр. В этом случае подразумевается использование этого одного глобального экземпляра.
+для Windows 2000, вариант API, который принимает этот параметр, недоступен, так как поддерживается только один экземпляр. В этом случае подразумевается использование этого одного глобального экземпляра.
 
-Для Windows XP и более поздних версий вариант API, который не принимает этот параметр, может вызываться только в том случае, если ядро находится в режиме совместимости с Windows 2000, где поддерживается только один экземпляр. В противном случае операция завершится ошибкой с JET_errRunningInMultiInstanceMode.
+для Windows XP и более поздних выпусков вариант API, который не принимает этот параметр, может вызываться только в том случае, если модуль находится в устаревшем режиме (режим совместимости Windows 2000), где поддерживается только один экземпляр. В противном случае операция завершится ошибкой с JET_errRunningInMultiInstanceMode.
 
 *грбит*
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBackupAtomic</p></td>
-<td><p>Этот флаг является устаревшим. Использование этого бита приведет к возвращению JET_errInvalidgrbit.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitBackupIncremental</p></td>
-<td><p>Создает добавочное резервное копирование, а не полное резервное копирование. Это означает, что резервное копирование выполняется только для файлов журнала с момента последнего полного или добавочного резервного копирования.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitBackupSnapshot</p></td>
-<td><p>Зарезервировано для последующего использования. Определено для Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitBackupAtomic</p> | <p>Этот флаг является устаревшим. Использование этого бита приведет к возвращению JET_errInvalidgrbit.</p> | 
+| <p>JET_bitBackupIncremental</p> | <p>Создает добавочное резервное копирование, а не полное резервное копирование. Это означает, что резервное копирование выполняется только для файлов журнала с момента последнего полного или добавочного резервного копирования.</p> | 
+| <p>JET_bitBackupSnapshot</p> | <p>Зарезервировано для последующего использования. определено для Windows XP.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Система может создать коды успеха или сбоя в результате вызова этой функции. Полный список ошибок для этого API см. в разделе [расширенные коды ошибок подсистемы хранилища](./extensible-storage-engine-error-codes.md).
+Система может создать коды успеха или сбоя в результате вызова этой функции. полный список ошибок для этого API см. в разделе [коды ошибок расширенных служба хранилища Engine](./extensible-storage-engine-error-codes.md).
 
 См. [жетбегинекстерналбаккуп](./jetbeginexternalbackup-function.md).
 
@@ -101,34 +82,9 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

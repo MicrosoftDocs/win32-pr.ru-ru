@@ -4,12 +4,12 @@ description: В этом разделе описывается использо�
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a4757a30247da465e0ae5226bd923219e3e665
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 2050cccd37012028e2a86fbf77cd071671ce7201
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104561212"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626560"
 ---
 # <a name="opacity-masks-overview"></a>Общие сведения о масках непрозрачности
 
@@ -22,7 +22,7 @@ ms.locfileid: "104561212"
     -   [Использование кисти линейного градиента в качестве маски непрозрачности](#use-an-linear-gradient-brush-as-an-opacity-mask)
     -   [Использование кисти радиального градиента в качестве маски непрозрачности](#use-a-radial-gradient-brush-as-an-opacity-mask)
 -   [Применение маски непрозрачности к слою](#apply-an-opacity-mask-to-a-layer)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -101,7 +101,7 @@ ms.locfileid: "104561212"
 Теперь, когда определена маска непрозрачности и кисть, можно использовать метод [**филлопаЦитимаск**](id2d1rendertarget-fillopacitymask.md) в методе отрисовки приложения. При вызове метода **филлопаЦитимаск** необходимо указать тип маски непрозрачности, которую вы используете: D2D1, **\_ \_ \_ содержимое \_** маски непрозрачности, **\_ текст непрозрачности D2D1, \_ \_ \_ \_ естественное**, а также **\_ \_ \_ \_ \_ \_ совместимый с содержимым GDI содержимое маски непрозрачности Text**. Значения этих трех типов см. в разделе [**\_ \_ \_ содержимое маски непрозрачности D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content).
 
 > [!Note]  
-> Начиная с Windows 8, [**\_ \_ \_ содержимое маски непрозрачности D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content) не требуется. См. метод [**ID2D1DeviceContext:: филлопаЦитимаск**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) , у которого нет **параметра \_ \_ \_ содержимого маски непрозрачности D2D1** .
+> начиная с Windows 8, [**\_ \_ \_ содержимое маски непрозрачности D2D1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_opacity_mask_content) не требуется. См. метод [**ID2D1DeviceContext:: филлопаЦитимаск**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-fillopacitymask(id2d1bitmap_id2d1brush_constd2d1_rect_f_constd2d1_rect_f)) , у которого нет **параметра \_ \_ \_ содержимого маски непрозрачности D2D1** .
 
  
 
@@ -179,7 +179,7 @@ ms.locfileid: "104561212"
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -203,7 +203,7 @@ ms.locfileid: "104561212"
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -308,7 +308,7 @@ ms.locfileid: "104561212"
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -333,7 +333,7 @@ ms.locfileid: "104561212"
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -465,7 +465,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
 
 Дополнительные сведения об использовании слоев см. в разделе [Общие сведения о слоях](direct2d-layers-overview.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

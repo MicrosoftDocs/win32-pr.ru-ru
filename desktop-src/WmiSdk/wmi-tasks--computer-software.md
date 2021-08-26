@@ -1,5 +1,5 @@
 ---
-description: Задачи WMI для программного обеспечения компьютера получают такие сведения, как программное обеспечение, устанавливаемое Microsoft установщик Windows (MSI) и версии программного обеспечения. Другие примеры см. в разделе TechNet Скриптцентер по адресу https://www.microsoft.com/technet .
+description: задачи WMI для программного обеспечения компьютера получают такие сведения, как программное обеспечение, устанавливаемое Microsoft установщик Windows (MSI) и версии программного обеспечения. Другие примеры см. в разделе TechNet Скриптцентер по адресу https://www.microsoft.com/technet .
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'Задачи WMI: программное обеспечение компьютера'
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 800a42764cbb1b9552a8ecc87debc04685d28850
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebe16a0de29a6426dcea91f55ca1409d09348791
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546791"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625510"
 ---
 # <a name="wmi-tasks-computer-software"></a>Задачи WMI: программное обеспечение компьютера
 
-Задачи WMI для программного обеспечения компьютера получают такие сведения, как программное обеспечение, устанавливаемое Microsoft установщик Windows (MSI) и версии программного обеспечения. Другие примеры см. в разделе TechNet Скриптцентер по адресу [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) .
+задачи WMI для программного обеспечения компьютера получают такие сведения, как программное обеспечение, устанавливаемое Microsoft установщик Windows (MSI) и версии программного обеспечения. Другие примеры см. в разделе TechNet Скриптцентер по адресу [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) .
 
 Примеры сценариев, приведенные в этом разделе, получают данные только с локального компьютера. Дополнительные сведения об использовании сценария для получения данных с удаленных компьютеров см. в разделе [Подключение к WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -28,7 +28,7 @@ ms.locfileid: "104546791"
 
 **Запуск сценария**
 
-1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет расширение txt в файл.
+1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет к файлу расширение .txt.
 2.  Откройте окно командной строки и перейдите в каталог, в котором был сохранен файл.
 3.  Введите **cscript filename.vbs** в командной строке.
 4.  Если доступ к журналу событий невозможен, проверьте, выполняется ли в командной строке с повышенными привилегиями. Некоторые журналы событий, например журнал событий безопасности, могут быть защищены с помощью элементов управления доступом пользователей (UAC).
@@ -49,8 +49,8 @@ ms.locfileid: "104546791"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,10 +61,10 @@ ms.locfileid: "104546791"
 <tbody>
 <tr class="odd">
 <td>... удалить программное обеспечение с помощью сценария?</td>
-<td>Если программное обеспечение было установлено с помощью Microsoft установщик Windows (MSI), используйте класс WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> и метод <a href="/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>удаления</strong></a> .<br/> <span data-codelanguage="VisualBasic"></span>
+<td>если программное обеспечение было установлено с помощью Microsoft установщик Windows (MSI), используйте класс WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> и метод <a href="/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>удаления</strong></a> .<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -111,12 +111,12 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="even">
 <td>... проводить инвентаризацию всех программ, установленных на компьютере с помощью сценария?</td>
-<td><p>Если программное обеспечение было установлено с помощью Microsoft установщик Windows (MSI), используйте класс WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>.</p>
+<td><p>если программное обеспечение было установлено с помощью Microsoft установщик Windows (MSI), используйте класс WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,7 +142,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,7 +171,7 @@ foreach ($colItem in $colSoftware)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -198,7 +198,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -231,7 +231,7 @@ foreach ($colItem in $colSoftware)
 
 В примере кода PowerShell для [PowerShell Remote PC info](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) используется ряд аппаратных и программных классов, включая Win32Product, для поиска различных сведений об удаленном ПК с помощью WMI и удаленного реестра.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Mscoree.dll
 - Sxs.dll
-ms.openlocfilehash: 893fe6c51d0b31a6db3f34a60cac01f90297d26b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 516ba97eb70defdbc6f92efa5c65e6d23246fe67
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648071"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465601"
 ---
 # <a name="sxslookupclrguid-function"></a>Функция Сксслукупклргуид
 
-Извлекает имя класса и другие сведения, связанные с данным идентификатором GUID в манифесте компонента. Эта функция используется только при реализации низкоуровневого управляемого неуправляемого взаимодействия в платформа .NET Framework. Дополнительные сведения о взаимодействии управляемого и неуправляемого кода см. в разделе "взаимодействие с неуправляемым кодом" раздела платформа .NET Framework SDK, а также [изолированные приложения и параллельные сборки](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md).
+Извлекает имя класса и другие сведения, связанные с данным идентификатором GUID в манифесте компонента. эта функция используется только при реализации низкоуровневого управляемого неуправляемого взаимодействия в платформа .NET Framework. дополнительные сведения о взаимодействии управляемого и неуправляемого кода см. в разделе "взаимодействие с неуправляемым кодом" раздела платформа .NET Framework SDK, а также [изолированные приложения и параллельные сборки](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -108,9 +108,9 @@ BOOL SxsLookupClrGuid(
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-Управляемые компоненты могут объявлять себя как поддерживающие управляемые "сборки взаимодействия", что позволяет неуправляемому потребителю компонента Win32 ссылаться на объявляемую сборку. Потребитель компонента может взаимодействовать с управляемым компонентом, вызывая [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) для идентификатора GUID. Уровень взаимодействия направляет запрос на создание объекта в платформа .NET Framework, создает экземпляр управляемого объекта и возвращает указатель интерфейса.
+Управляемые компоненты могут объявлять себя как поддерживающие управляемые "сборки взаимодействия", что позволяет неуправляемому потребителю компонента Win32 ссылаться на объявляемую сборку. Потребитель компонента может взаимодействовать с управляемым компонентом, вызывая [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) для идентификатора GUID. уровень взаимодействия направляет запрос на создание объекта в платформа .NET Framework, создает экземпляр управляемого объекта и возвращает указатель интерфейса.
 
-**Сксслукупклргуид** позволяет платформам извлекать информацию, связанную с данным идентификатором GUID, в манифесте компонента, например имя его класса .NET, какая версия платформа .NET Framework требуется и какая сборка узла, в которой он находится. Управляемые компоненты публикуют сборку взаимодействия, содержащую несколько инструкций, связывающих идентификаторы GUID с именами сборок и типов, а среда выполнения .NET — построение экземпляров управляемых объектов при вызове [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) .
+**сксслукупклргуид** позволяет платформам извлекать информацию, связанную с данным идентификатором GUID, в манифесте компонента, например имя его класса .net, какая версия платформа .NET Framework требуется и какая сборка узла, в которой он находится. Управляемые компоненты публикуют сборку взаимодействия, содержащую несколько инструкций, связывающих идентификаторы GUID с именами сборок и типов, а среда выполнения .NET — построение экземпляров управляемых объектов при вызове [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) .
 
 Ниже приведен пример манифеста компонента, объявляющего GUID CLR и суррогат CLR, который **сксслукупклргуид** может искать:
 
@@ -148,50 +148,21 @@ typedef const SXS_GUID_INFORMATION_CLR *PCSXS_GUID_INFORMATION_CLR;
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Член</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>кбсизе</strong><br/></td>
-<td>Содержит размер структуры SXS_GUID_INFORMATION_CLR (это позволяет увеличить структуру в более поздних версиях).<br/></td>
-</tr>
-<tr class="even">
-<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
-<td>Содержит одно из следующих двух значений флагов: <br/>
-<ul>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): указывает, что указанный GUID связан с &quot; суррогатом.&quot;</li>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): указывает, что указанный GUID был связан с &quot; классом.&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>пквсзрунтимеверсион</strong><br/></td>
-<td>Указывает на строку расширенных символов, завершающуюся нулем, которая определяет версию среды выполнения, указанную в манифесте узла для этого класса.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>пквсзтипенаме</strong><br/></td>
-<td>Указывает на строку расширенных символов, заканчивающуюся нулем, которая содержит имя класса .NET, связанного с указанным GUID.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>пквсзассемблидентити</strong><br/></td>
-<td>Указывает на строку расширенных символов, завершающуюся нулем, которая содержит текстовое удостоверение сборки, в которой размещен этот класс. Дополнительные сведения о текстовом удостоверении см. в разделе &quot; Указание полных имен типов &quot; в разделе &quot; обнаружение сведений о типах во время выполнения &quot; в разделе &quot; программирование с помощью платформа .NET Framework &quot; в пакете SDK для платформа .NET Framework.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Член | Описание | 
+|--------|-------------|
+| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>кбсизе</strong><br /> | Содержит размер структуры SXS_GUID_INFORMATION_CLR (это позволяет увеличить структуру в более поздних версиях).<br /> | 
+| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | Содержит одно из следующих двух значений флагов: <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001): указывает, что указанный GUID был связан с "суррогатом".</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002): указывает, что указанный GUID был связан с классом.</li></ul> | 
+| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>пквсзрунтимеверсион</strong><br /> | Указывает на строку расширенных символов, завершающуюся нулем, которая определяет версию среды выполнения, указанную в манифесте узла для этого класса.<br /> | 
+| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>пквсзтипенаме</strong><br /> | Указывает на строку расширенных символов, заканчивающуюся нулем, которая содержит имя класса .NET, связанного с указанным GUID.<br /> | 
+| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>пквсзассемблидентити</strong><br /> | Указывает на строку расширенных символов, завершающуюся нулем, которая содержит текстовое удостоверение сборки, в которой размещен этот класс. дополнительные сведения о текстовом удостоверении см. в разделе "указание полных имен типов" раздела "определение типа данных во время выполнения" раздела "программирование с помощью платформа .NET Framework" в пакете SDK для платформа .NET Framework.<br /> | 
+
 
 
 
  
 
-Неуправляемое приложение может использовать возвращенную информацию, чтобы загрузить правильную версию платформа .NET Framework, загрузить сборку, определенную элементом **пквсзассемблидентити** , а затем создать экземпляр класса с именем с помощью элемента **пквсзтипенаме** .
+неуправляемое приложение может использовать возвращенную информацию, чтобы загрузить правильную версию платформа .NET Framework, загрузить сборку, определенную элементом **пквсзассемблидентити** , а затем создать экземпляр класса с именем с помощью элемента **пквсзтипенаме** .
 
 ## <a name="examples"></a>Примеры
 
@@ -307,7 +278,7 @@ void main()
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

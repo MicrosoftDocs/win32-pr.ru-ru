@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 86d951828da0f8bb8eb3ada13bb67b02e801709e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff4588429d5b45690763c3f4eefd3553f88f480
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703297"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476660"
 ---
 # <a name="esenterrorexceptiongetobjectdata-method"></a>Есентеррорексцептион. GetObjectData, метод
 
@@ -82,27 +82,14 @@ public override void GetObjectData(
 
 ## <a name="exceptions"></a>Исключения
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Исключение</th>
-<th>Условие</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-<td><p>Параметр info является ссылкой со значением NULL (Nothing в языке Visual Basic).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Исключение | Условие | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>Параметр info является ссылкой со значением NULL (Nothing в языке Visual Basic).</p> | 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

@@ -4,12 +4,12 @@ ms.assetid: e82cdd22-7d3f-4858-befd-43fa6f9f915e
 title: Атрибут MF_MT_PIXEL_ASPECT_RATIO (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c0d28ea11ba664208fcfe5fc356f1f57f2878e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 230e14e07a8011f89d16b095728bc80cbe19faa16ef9427156868f93c2ccb412
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060494"
 ---
 # <a name="mf_mt_pixel_aspect_ratio-attribute"></a>\_ \_ \_ Атрибут соотношения сторон MF MT пикселей \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "104542159"
 
 **UINT64**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Верхние 32 бит содержат числитель с пропорциями в пикселях, а младшие 32 бита содержат знаменатель. Числитель является горизонтальным компонентом пропорций; знаменатель является вертикальным компонентом.
 
@@ -29,19 +29,19 @@ ms.locfileid: "104542159"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

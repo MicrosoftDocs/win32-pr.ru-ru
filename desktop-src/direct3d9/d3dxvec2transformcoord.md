@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 717af9eed2c7cedae7ac292a19239e13521dfa74
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fa9d36b43cd86ceeb6b3fc9982d22e2cb1a75dd92f819f5c2eeb05835073e285
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096104"
 ---
 # <a name="d3dxvec2transformcoord-function-d3dx9mathh"></a>Функция D3DXVec2TransformCoord (D3dx9math. h)
 
@@ -81,13 +81,13 @@ D3DXVECTOR2* D3DXVec2TransformCoord(
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре *тоска* . Таким образом, функция **D3DXVec2TransformCoord** может использоваться в качестве параметра для другой функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

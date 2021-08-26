@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 67e42b30a8f8d44bb9b21668a515a202436b7631
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7173ed5e912dea8eba08a8fc5e40b33e043ff2181df9e9fc2f62354bb2768fc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118994"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx9mathh"></a>Функция D3DXVec3UnprojectArray (D3dx9math. h)
 
@@ -145,7 +145,7 @@ D3DXVECTOR3* D3DXVec3UnprojectArray(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

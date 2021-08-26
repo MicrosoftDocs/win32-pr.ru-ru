@@ -4,12 +4,12 @@ ms.assetid: 4b482dcc-3878-4bc6-85e4-229a1726cecc
 title: Функция InitializeSecurityContext (Digest) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: cd5d99f4caef41523ee879abe086659de1889254
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f09baebb4419da9b90dd6b0585788c5c7993c09d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719670"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467321"
 ---
 # <a name="initializesecuritycontext-digest-function"></a>Функция InitializeSecurityContext (Digest)
 
@@ -73,8 +73,19 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>[*Пакет безопасности*](../secgloss/s-gly.md) выделяет выходные буферы. Завершив использование выходных буферов, освободите их, вызвав функцию [<strong>фриконтекстбуффер</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-freecontextbuffer).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>Шифрование сообщений с помощью функции [<strong>енкриптмессаже</strong>] (encryptmessage--General.md).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>При возникновении ошибок удаленная сторона будет уведомлена.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_HTTP"></span><span id="isc_req_http"></span><dl> <dt><strong>ISC_REQ_HTTP</strong></dt> </dl></td><td>Используйте дайджест для HTTP. Пропустите этот флаг, чтобы использовать дайджест в качестве механизма SASL.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>Подписывание сообщений и проверка подписей с помощью функций [<strong>енкриптмессаже</strong>] (encryptmessage--General.md) и [<strong>макесигнатуре</strong>] (makesignature.md).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>Будет удовлетворена политика взаимной проверки подлинности службы.<br/><blockquote>[!Caution]<br />
-Это не обязательно означает, что выполняется взаимная проверка подлинности, удовлетворяющая только политика проверки подлинности службы. Чтобы обеспечить взаимную проверку подлинности, вызовите функцию [<strong>QueryContextAttributes (Digest)</strong>] (querycontextattributes--Digest.md).</blockquote><br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Обнаружение воспроизводимых сообщений, закодированных с помощью функций [<strong>енкриптмессаже</strong>] (encryptmessage--General.md) или [<strong>макесигнатуре</strong>] (makesignature.md).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Обнаружение сообщений, полученных за пределами последовательности.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Поддерживать соединение с потоковой ориентацией.<br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl><dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt></dl> | [*Пакет безопасности*](../secgloss/s-gly.md) выделяет выходные буферы. Завершив использование выходных буферов, освободите их, вызвав функцию [<strong>фриконтекстбуффер</strong>](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .<br /> | 
+| <span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl><dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt></dl> | Шифрование сообщений с помощью функции [<strong>енкриптмессаже</strong>](encryptmessage--general.md) .<br /> | 
+| <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl><dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt></dl> | При возникновении ошибок удаленная сторона будет уведомлена.<br /> | 
+| <span id="ISC_REQ_HTTP"></span><span id="isc_req_http"></span><dl><dt><strong>ISC_REQ_HTTP</strong></dt></dl> | Используйте дайджест для HTTP. Пропустите этот флаг, чтобы использовать дайджест в качестве механизма SASL.<br /> | 
+| <span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl><dt><strong>ISC_REQ_INTEGRITY</strong></dt></dl> | Подписывание сообщений и проверка подписей с помощью функций [<strong>енкриптмессаже</strong>](encryptmessage--general.md) и [<strong>макесигнатуре</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl><dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt></dl> | Будет удовлетворена политика взаимной проверки подлинности службы.<br /><blockquote>[!Caution]<br />Это не обязательно означает, что выполняется взаимная проверка подлинности, удовлетворяющая только политика проверки подлинности службы. Чтобы обеспечить взаимную проверку подлинности, вызовите функцию [<strong>QueryContextAttributes (Digest)</strong>](querycontextattributes--digest.md) .</blockquote><br /> | 
+| <span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl><dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt></dl> | Обнаружение воспроизводимых сообщений, закодированных с помощью функций [<strong>енкриптмессаже</strong>](encryptmessage--general.md) или [<strong>макесигнатуре</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl><dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt></dl> | Обнаружение сообщений, полученных за пределами последовательности.<br /> | 
+| <span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl><dt><strong>ISC_REQ_STREAM</strong></dt></dl> | Поддерживать соединение с потоковой ориентацией.<br /> | 
+
 
 
 
@@ -247,15 +258,15 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

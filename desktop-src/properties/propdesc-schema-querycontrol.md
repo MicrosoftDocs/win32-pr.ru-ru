@@ -4,12 +4,12 @@ ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: куериконтрол
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f05800fc026c61a4ea50098fb1d8f4deb98d971c9eecfed478d71bd3c01033
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3652a46d403bc258226de5a48f34ae16960ff517
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823564"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626320"
 ---
 # <a name="querycontrol"></a>куериконтрол
 
@@ -51,7 +51,7 @@ ms.locfileid: "119823564"
 
 | Родительский элемент                                   | Дочерние элементы |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Нет           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -63,13 +63,13 @@ ms.locfileid: "119823564"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Атрибут</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -78,8 +78,8 @@ ms.locfileid: "119823564"
 <td>Общедоступный. Необязательный элемент. Значение по умолчанию — &quot; Default &quot; . Допустимы следующие значения. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -129,7 +129,7 @@ ms.locfileid: "119823564"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td>Логическое</td>
+<td>Логический</td>
 <td>Использует логический элемент управления.</td>
 </tr>
 <tr class="odd">
@@ -157,7 +157,7 @@ ms.locfileid: "119823564"
 <td>Использует элемент управления рейтингом «5 звезд».</td>
 </tr>
 <tr class="odd">
-<td>Текст</td>
+<td>текст</td>
 <td>Использует элемент управления редактированием текста.</td>
 </tr>
 </tbody>

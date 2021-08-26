@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ab9b0b003b3edea331ae617948176c38a9c7b47eca0972e63d6b54873d2669e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5626b28db7145c3ceaeeba9f013d7ed8a614f7b5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087130"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622510"
 ---
 # <a name="operator--operators"></a>операторы operator/=
 
@@ -28,19 +28,19 @@ ms.locfileid: "118087130"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Оператор</th>
-<th style="text-align: left;">Описание</th>
+<th >Оператор</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421377(v=vs.85)"><strong>КСМВЕКТОР:: operator/= (КСМВЕКТОР&, float)</strong></a></td>
-<td style="text-align: left;">Делит экземпляр на <code>XMVECTOR</code> значение с плавающей запятой и возвращает ссылку на обновленный экземпляр. <br/> <code>operator /=</code>Компонент делит все компоненты текущего экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на заданное значение с плавающей запятой, возвращая ссылку на обновленный текущий экземпляр. <br/>
+<td ><a href="/previous-versions/windows/desktop/legacy/ee421377(v=vs.85)"><strong>КСМВЕКТОР:: operator/= (КСМВЕКТОР&, float)</strong></a></td>
+<td >Делит экземпляр на <code>XMVECTOR</code> значение с плавающей запятой и возвращает ссылку на обновленный экземпляр. <br/> <code>operator /=</code>Компонент делит все компоненты текущего экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на заданное значение с плавающей запятой, возвращая ссылку на обновленный текущий экземпляр. <br/>
 <blockquote>
 [!Note]<br />
 Этот оператор доступен только в C++.
@@ -48,8 +48,8 @@ ms.locfileid: "118087130"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421378(v=vs.85)"><strong>КСМВЕКТОР:: operator/= (КСМВЕКТОР&, КСМВЕКТОР)</strong></a></td>
-<td style="text-align: left;">Делит один <code>XMVECTOR</code> экземпляр на второй экземпляр, возвращая ссылку на обновленный первоначальный экземпляр. <br/> <code>operator /=</code>Компонент делит все компоненты текущего экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на соответствующий компонент во втором указанном экземпляре <code>XMVECTOR</code> , возвращая ссылку на обновленный первоначальный экземпляр. <br/>
+<td ><a href="/previous-versions/windows/desktop/legacy/ee421378(v=vs.85)"><strong>КСМВЕКТОР:: operator/= (КСМВЕКТОР&, КСМВЕКТОР)</strong></a></td>
+<td >Делит один <code>XMVECTOR</code> экземпляр на второй экземпляр, возвращая ссылку на обновленный первоначальный экземпляр. <br/> <code>operator /=</code>Компонент делит все компоненты текущего экземпляра <a href="xmvector-data-type.md"><strong>типа данных ксмвектор</strong></a> на соответствующий компонент во втором указанном экземпляре <code>XMVECTOR</code> , возвращая ссылку на обновленный первоначальный экземпляр. <br/>
 <blockquote>
 [!Note]<br />
 Этот оператор доступен только в C++.
@@ -61,7 +61,7 @@ ms.locfileid: "118087130"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

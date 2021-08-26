@@ -7,12 +7,12 @@ MSHAttr:
 title: Простой тип Роамаппликабилититипе
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d81214ab5a44dcac60bb5e1a6accc81b0d0418
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c2ce8f24e0987d5e8463838b33d4f2f2cf859da
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897273"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474760"
 ---
 # <a name="span-idwwan_profile_v4simpletype_roamapplicabilitytypespanroamapplicabilitytype-simple-type"></a><span id="WWAN_profile_v4.simpleType_roamApplicabilityType"></span>Простой тип Роамаппликабилититипе
 
@@ -61,44 +61,16 @@ ms.locfileid: "103897273"
 
 Простой тип **роамаппликабилититипе** определяет следующие значения.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>нонпартнеронли</td>
-<td><p>Этот профиль используется только при роуминге в сети, отличной от партнера</p></td>
-</tr>
-<tr class="even">
-<td>партнеронли</td>
-<td><p>Этот профиль используется только при роуминге в сети партнера</p></td>
-</tr>
-<tr class="odd">
-<td>хомеонли</td>
-<td><p>Этот профиль используется только в домашней сети.</p></td>
-</tr>
-<tr class="even">
-<td>хомеандпартнер</td>
-<td><p>Этот профиль используется только дома или в партнерской сети</p></td>
-</tr>
-<tr class="odd">
-<td>партнеранднонпартнер</td>
-<td><p>Этот профиль используется, если вы не дома (роуминг в любой сети)</p></td>
-</tr>
-<tr class="even">
-<td>аллроаминг</td>
-<td><p>Этот профиль используется во всех сетях</p></td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Описание | 
+|-------|-------------|
+| нонпартнеронли | <p>Этот профиль используется только при роуминге в сети, отличной от партнера</p> | 
+| партнеронли | <p>Этот профиль используется только при роуминге в сети партнера</p> | 
+| хомеонли | <p>Этот профиль используется только в домашней сети.</p> | 
+| хомеандпартнер | <p>Этот профиль используется только дома или в партнерской сети</p> | 
+| партнеранднонпартнер | <p>Этот профиль используется, если вы не дома (роуминг в любой сети)</p> | 
+| аллроаминг | <p>Этот профиль используется во всех сетях</p> | 
+
 
  
 

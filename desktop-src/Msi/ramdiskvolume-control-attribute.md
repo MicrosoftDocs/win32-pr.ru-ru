@@ -4,12 +4,12 @@ ms.assetid: 52526f39-26fb-4a67-a95f-77f7eb761372
 title: Атрибут элемента управления Рамдискволуме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc4324af143bab619c6f881925586186be45b44a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9167c045a8437fff12c312999d71bd8fc2c7927f1ac8d3acf2260127b73cbb83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129024"
 ---
 # <a name="ramdiskvolume-control-attribute"></a>Атрибут элемента управления Рамдискволуме
 
@@ -39,7 +39,7 @@ ms.locfileid: "105673673"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы задать этот атрибут для элемента управления, включите бит Рамдискволуме в столбец Attributes записи элемента управления в [таблице Control](control-table.md).
 

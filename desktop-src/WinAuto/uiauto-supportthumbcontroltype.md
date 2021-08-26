@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, Thumb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8faf60fab30f54d3ed3e4b5a9f49628a3a35be5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fea75b39ae0b17be23886823d446667299e5f0df
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411330"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478790"
 ---
 # <a name="thumb-control-type"></a>Тип элемента управления Thumb
 
@@ -42,7 +42,7 @@ ms.locfileid: "104411330"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -50,30 +50,15 @@ ms.locfileid: "104411330"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Бегунок</li>
-</ul></td>
-<td>(Неприменимо)</td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Бегунок</li></ul> | (Неприменимо) | 
 
 
 
- 
+
+ 
 
 Элементы управления "бегунок" никогда не отображаются в представлении содержимого, так как они существуют только для управления с помощью мыши. Они представляют собой другой шаблон элемента управления, например шаблон элемента управления [Scroll](uiauto-implementingscroll.md) , шаблон элемента [Transform](uiauto-implementingtransform.md) или шаблон элемента управления [RangeValue](uiauto-implementingrangevalue.md) , который поддерживается в контейнере элемента управления Thumb.
 
@@ -90,7 +75,7 @@ ms.locfileid: "104411330"
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания. | Точка в видимой клиентской области элемента управления Thumb.                                                                                                                                                                                                 |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Типа**  |                                                                                                                                                                                                                                                              |
 | [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | FALSE      | Элемент управления Thumb никогда не включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                           |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления Thumb всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                          |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления Thumb всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                                                                                                                                          |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания. | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство. Элемент управления Thumb может получать фокус, если он используется как объект "захвата" для изменения размера окна или панели. Элемент управления Thumb в ползунке или полосе прокрутки не должен получать фокус. |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | NULL       | Бегунки никогда не имеют меток.                                                                                                                                                                                                                           |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания. | Локализованная строка, соответствующая типу элемента управления **Thumb** . Значение по умолчанию — "Thumb" для en-US или English (США).                                                                                                                             |
@@ -98,7 +83,7 @@ ms.locfileid: "104411330"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -112,7 +97,7 @@ ms.locfileid: "104411330"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -130,9 +115,9 @@ ms.locfileid: "104411330"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -145,9 +130,9 @@ ms.locfileid: "104411330"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

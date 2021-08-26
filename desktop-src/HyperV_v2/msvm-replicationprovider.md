@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 84b64ec1462d9d3cb487cac807891d57c219de7f
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: c865cb14ee8f34eb4950bfa4d7e3aac1ea15d113ab8f579614f10e3041e98cc0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130424"
 ---
 # <a name="msvm_replicationprovider-class"></a>\_Класс мсвм репликатионпровидер
 
@@ -121,11 +121,11 @@ class Msvm_ReplicationProvider : CIM_ManagedSystemElement
 Квалификаторы: **Key**, **maxlen** (256)
 </dt> </dl>
 
-Идентификатор экземпляра WMI, который идентифицирует поставщик. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). Это свойство имеет формат "Microsoft: &lt; Host-Machine-Name &gt; \\ Репликатионпровидер \\ &lt; provider-Name &gt; ".
+Идентификатор экземпляра WMI, который идентифицирует поставщик. Это свойство наследуется от [**CIM \_ манажеделемент**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). Это свойство имеет формат "Microsoft: <Host-Machine-Name>\\ репликатионпровидер \\<поставщик-имя>".
 
 </dd> <dt>
 
-**имя**;
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -163,7 +163,7 @@ class Msvm_ReplicationProvider : CIM_ManagedSystemElement
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для включения отношения репликации можно использовать любой из доступных поставщиков и класс [**мсвм \_ репликатионрелатионшип**](msvm-replicationrelationship.md) . По умолчанию Hyper-V выбирает встроенный узел для поставщика узла, который можно изменить во время создания репликации. Служба управления Hyper-V взаимодействует с внешним поставщиком с помощью COM.
 
@@ -181,7 +181,7 @@ class Msvm_ReplicationProvider : CIM_ManagedSystemElement
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

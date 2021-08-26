@@ -4,24 +4,24 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: Написание выступающего Евр
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505ba7ec225ac5f1316ad4343a4e1058ff0b6cb8
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4e80c2c6397282b93aef1db0e5c491234e045472
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118779"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474750"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>Написание выступающего Евр
 
-В этой статье описывается, как написать пользовательский объект Presenter для расширенного модуля подготовки видео (Евр). Пользовательский выступающий может использоваться как в DirectShow, так и в Media Foundation; интерфейсы и объектная модель одинаковы для обеих технологий, хотя точная последовательность операций может отличаться.
+В этой статье описывается, как написать пользовательский объект Presenter для расширенного модуля подготовки видео (Евр). пользовательский presenter можно использовать с DirectShow и Media Foundation; интерфейсы и объектная модель одинаковы для обеих технологий, хотя точная последовательность операций может отличаться.
 
-Пример кода в этом разделе адаптируется из [образца еврпресентер](evrpresenter-sample.md), который предоставляется в Windows SDK.
+пример кода в этом разделе адаптируется из [образца еврпресентер](evrpresenter-sample.md), который предоставляется в Windows SDK.
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Предварительные требования](#prerequisites)
 -   [Объектная модель Presenter](#presenter-object-model)
-    -   [Поток данных внутри Евр](#data-flow-inside-the-evr)
+    -   [Flow данных в евр](#data-flow-inside-the-evr)
     -   [Состояния выступающих](#presenter-states)
     -   [Интерфейсы выступающих](#presenter-interfaces)
     -   [Реализация Имфвидеодевицеид](#implementing-imfvideodeviceid)
@@ -53,7 +53,7 @@ ms.locfileid: "113118779"
 
 -   Расширенный модуль подготовки видео. См. [Расширенный модуль подготовки видео](enhanced-video-renderer.md).
 -   Графическая система Direct3D. Для написания выступающего не нужно понимать трехмерную графику, но вам необходимо знать, как создать устройство Direct3D и управлять областями Direct3D. Если вы не знакомы с Direct3D, ознакомьтесь с разделами "устройства Direct3D" и "ресурсы Direct3D" в документации по DirectX Graphics SDK.
--   Графы фильтров DirectShow или конвейер Media Foundation в зависимости от того, какая технология будет использоваться приложением для визуализации видео.
+-   DirectShow графы фильтров или конвейера Media Foundation, в зависимости от того, какая технология будет использоваться приложением для визуализации видео.
 -   [Преобразования Media Foundation](media-foundation-transforms.md). Микшер Евр является Media Foundation преобразованием, а выступающий вызывает методы непосредственно в микшере.
 -   Реализация COM-объектов. Выступающий — это внутрипроцессный COM-объект с произвольным потоком.
 
@@ -61,7 +61,7 @@ ms.locfileid: "113118779"
 
 В этом разделе содержится обзор объектной модели и интерфейсов Presenter.
 
-### <a name="data-flow-inside-the-evr"></a>Поток данных внутри Евр
+### <a name="data-flow-inside-the-evr"></a>Flow данных в евр
 
 Евр использует два подключаемых компонента для отрисовки видео: *микшер* и *Presenter*. Микшер смешивает видеопотокы и при необходимости разменяет видео. Выступающий рисует (или *представляет*) видео на экране и планируется при прорисовке каждого кадра. Приложения могут заменить любой из этих объектов пользовательской реализацией.
 
@@ -148,8 +148,8 @@ enum RENDER_STATE
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**иевртрустедвидеоплугин**](/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin) | Позволяет ведущему работать с защищенным носителем. Реализуйте этот интерфейс, если ваш Presenter является доверенным компонентом, предназначенным для работы в защищенном пути носителя (PMP). |
 | [**имфратесуппорт**](/windows/desktop/api/mfidl/nn-mfidl-imfratesupport)                 | Сообщает диапазон скорости воспроизведения, поддерживаемый выступающим. См. раздел [Реализация имфратесуппорт](#implementing-imfratesupport).                                         |
-| [**имфвидеопоситионмаппер**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Сопоставляет координаты на выходном видеокадре с координатами на входном видеокадре.                                                                                       |
-| [**икуалпроп**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop)                         | Сообщает сведения о производительности. Евр использует эти сведения для управления качеством. Этот интерфейс описан в пакете SDK для DirectShow.                        |
+| [**имфвидеопоситионмаппер**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Карты координаты выходного видеокадра для координат на входном видеокадре.                                                                                       |
+| [**икуалпроп**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop)                         | Сообщает сведения о производительности. Евр использует эти сведения для управления качеством. этот интерфейс описан в пакете SDK для DirectShow.                        |
 
 
 
@@ -199,7 +199,7 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 | Интерфейс Евр                                | Описание                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**имедиаевентсинк**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | Предоставляет выступающий способ отправки сообщений в Евр. Этот интерфейс определен в пакете SDK DirectShow, поэтому сообщения следуют шаблону для событий DirectShow, а не Media Foundation событий.<br/>                                                                                                                                                                                                                                                                                                                                              |
+| [**имедиаевентсинк**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | Предоставляет выступающий способ отправки сообщений в Евр. этот интерфейс определен в DirectShow пакете SDK, поэтому сообщения следуют шаблону для DirectShow событий, а не Media Foundation событий.<br/>                                                                                                                                                                                                                                                                                                                                              |
 | [**имфклокк**](/windows/desktop/api/mfidl/nn-mfidl-imfclock)                 | Представляет часы Евр. Выступающий использует этот интерфейс для планирования образцов для представления. Евр может выполняться без часов, поэтому этот интерфейс может быть недоступен. В противном случае не обращайте внимания на код ошибки из [**лукупсервице**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice).<br/> Часы также реализуют интерфейс [**имфтимер**](/windows/desktop/api/mfidl/nn-mfidl-imftimer) . В конвейере Media Foundation часы реализуют интерфейс [**имфпресентатионклокк**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock) . Он не реализует этот интерфейс в DirectShow.<br/> |
 
 
@@ -210,7 +210,7 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 
 
-| Интерфейс микшера                              | Описание                                                |
+| Mixer Взаимодействия                              | Описание                                                |
 |----------------------------------------------|------------------------------------------------------------|
 | [**имфтрансформ**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)         | Позволяет выступающим взаимодействовать с микшером.       |
 | [**имфвидеодевицеид**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid) | Позволяет выступающему проверить GUID устройства микшера. |
@@ -336,7 +336,7 @@ HRESULT EVRCustomPresenter::ReleaseServicePointers()
 
 Евр вызывает [**релеасесервицепоинтерс**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers) по различным причинам, включая:
 
--   Отключение или повторное соединение ПИН-кодов (DirectShow), добавление или удаление приемников потоков (Media Foundation).
+-   отключение или повторное подключение пин-кодов (DirectShow) или добавление или удаление приемников потоков (Media Foundation).
 -   Изменение формата.
 -   Установка новых часов.
 -   Окончательное завершение работы Евр.
@@ -426,45 +426,9 @@ done:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>онклоккстарт</strong></a></td>
-<td><ol>
-<li>Установите состояние выступающего в значение Started.</li>
-<li>Если <em>ллклоккстартоффсет</em> не <strong>PRESENTATION_CURRENT_POSITION</strong>, очистите очередь выступающих образцов. (Это эквивалентно получению сообщения <strong>MFVP_MESSAGE_FLUSH</strong> .)</li>
-<li>Если предыдущий запрос шага кадра все еще находится в состоянии ожидания, обработайте запрос (см. раздел <a href="#frame-stepping">пошаговое выполнение</a>). В противном случае попробуйте обработать выходные данные микшера (см. раздел <a href="#processing-output">Обработка выходных данных</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>онклоккстоп</strong></a></td>
-<td><ol>
-<li>Установите состояние выступающего в значение Stopped.</li>
-<li>Очистка очереди выступающих образцов.</li>
-<li>Отмените все ожидающие операции в кадрах.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>онклоккпаусе</strong></a></td>
-<td>Установка состояния выступающего в состояние "приостановлено".</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>онклоккрестарт</strong></a></td>
-<td>Обрабатываются так же, как <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>онклоккстарт</strong></a> , но не удаляют очередь образцов.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>онклокксетрате</strong></a></td>
-<td><ol>
-<li>Если скорость меняется с нуля на ненулевой, отмените пошаговое выполнение кадра.</li>
-<li>Хранить новую ставку часов. Частота представления зависят от часов. Дополнительные сведения см. в разделе <a href="#scheduling-samples">примеры планирования</a>.</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+
+| | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"> <strong>Онклоккстарт</strong></a> | <ol><li>Установите состояние выступающего в значение Started.</li><li>Если <em>ллклоккстартоффсет</em> не <strong>PRESENTATION_CURRENT_POSITION</strong>, очистите очередь выступающих образцов. (Это эквивалентно получению сообщения <strong>MFVP_MESSAGE_FLUSH</strong> .)</li><li>Если предыдущий запрос шага кадра все еще находится в состоянии ожидания, обработайте запрос (см. раздел <a href="#frame-stepping">пошаговое выполнение</a>). В противном случае попробуйте обработать выходные данные микшера (см. раздел <a href="#processing-output">Обработка выходных данных</a>.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"> <strong>Онклоккстоп</strong></a> | <ol><li>Установите состояние выступающего в значение Stopped.</li><li>Очистка очереди выступающих образцов.</li><li>Отмените все ожидающие операции в кадрах.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>Онклоккпаусе</strong></a> | Установка состояния выступающего в состояние "приостановлено". | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>Онклоккрестарт</strong></a> | Обрабатываются так же, как <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>онклоккстарт</strong></a> , но не удаляют очередь образцов. | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"> <strong>Онклокксетрате</strong></a> | <ol><li>Если скорость меняется с нуля на ненулевой, отмените пошаговое выполнение кадра.</li><li>Хранить новую ставку часов. Частота представления зависят от часов. Дополнительные сведения см. в разделе <a href="#scheduling-samples">примеры планирования</a>.</li></ol> | 
+
 
 
 
@@ -579,7 +543,7 @@ done:
 
 ### <a name="sending-events-to-the-evr"></a>Отправка событий в Евр
 
-Выступающий должен уведомлять Евр различных событий. Для этого используется интерфейс [**ИМЕДИАЕВЕНТСИНК**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) евр, полученный, когда Евр вызывает метод [**Имфтопологисервицелукупклиент:: инитсервицепоинтерс**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) выступающего. (Интерфейс **имедиаевентсинк** изначально является интерфейсом DirectShow, но используется как в Евр DirectShow, так и в Media Foundation.) В следующем коде показано, как отправить событие в Евр:
+Выступающий должен уведомлять Евр различных событий. Для этого используется интерфейс [**ИМЕДИАЕВЕНТСИНК**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) евр, полученный, когда Евр вызывает метод [**Имфтопологисервицелукупклиент:: инитсервицепоинтерс**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) выступающего. (интерфейс **имедиаевентсинк** изначально является интерфейсом DirectShow, но используется как в DirectShow евр, так и в Media Foundation.) В следующем коде показано, как отправить событие в Евр:
 
 
 ```C++
@@ -599,86 +563,17 @@ done:
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Событие</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
-<td>Выступающий завершил отрисовку всех кадров после сообщения MFVP_MESSAGE_ENDOFSTREAM.<br/>
-<ul>
-<li><em>Param1</em>: HRESULT, указывающий состояние операции.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul>
-Дополнительные сведения см. в разделе <a href="#end-of-stream">конец потока</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
-<td>Устройство Direct3D изменилось.<br/>
-<ul>
-<li><em>Param1</em>: не используется.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul>
-Дополнительные сведения см. <a href="#managing-the-direct3d-device">в разделе Управление устройством Direct3D</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
-<td>Произошла ошибка, для которой требуется остановленная потоковая передача.<br/>
-<ul>
-<li><em>Param1</em>: <strong>HRESULT</strong> , указывающий возникшую ошибку.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
-<td>Указывает время, в течение которого выступающий готовится к просмотру каждого кадра. (Необязательно.)<br/>
-<ul>
-<li><em>Param1</em>: указатель на константное значение <strong>лонглонг</strong> , которое содержит количество времени для обработки кадра в единицах измерения 100-наносекундных.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul>
-Дополнительные сведения см. в разделе <a href="#processing-output">Обработка выходных данных</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
-<td>Указывает текущее время запаздывания в примерах отрисовки. Если значение положительное, выборка отстает от расписания. Если значение отрицательное, выборки выполняются заранее по расписанию. (Необязательно.)<br/>
-<ul>
-<li><em>Param1</em>: указатель на константное значение <strong>лонглонг</strong> , которое содержит время запаздывания в единицах измерения 100-наносекундных.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
-<td>Отправляется сразу после <strong>EC_STEP_COMPLETE</strong> , если скорость воспроизведения равна нулю. Это событие содержит метку времени отображаемого кадра.<br/>
-<ul>
-<li><em>Param1</em>: младшие 32 бит метки времени.</li>
-<li><em>Param2</em>: верхний 32 бит метки времени.</li>
-</ul>
-Дополнительные сведения см. в разделе <a href="#frame-stepping">пошаговая отладка кадров</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
-<td>Выступающий завершил или отменил шаг кадра.<br/>
-<ul>
-<li><em>Param1</em>: не используется.</li>
-<li><em>Param2</em>: не используется.</li>
-</ul>
-Дополнительные сведения см. в разделе <a href="#frame-stepping">пошаговая отладка кадров</a>.<br/>
-<blockquote>
-[!Note]<br />
-Предыдущая версия документации неправильно описывала параметр <em>param1</em> . Этот параметр не используется для этого события.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Событие | Описание | 
+|-------|-------------|
+| <a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a> | Выступающий завершил отрисовку всех кадров после сообщения MFVP_MESSAGE_ENDOFSTREAM.<br /><ul><li><em>Param1</em>: HRESULT, указывающий состояние операции.</li><li><em>Param2</em>: не используется.</li></ul>Дополнительные сведения см. в разделе <a href="#end-of-stream">конец потока</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a> | Устройство Direct3D изменилось.<br /><ul><li><em>Param1</em>: не используется.</li><li><em>Param2</em>: не используется.</li></ul>Дополнительные сведения см. <a href="#managing-the-direct3d-device">в разделе Управление устройством Direct3D</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a> | Произошла ошибка, для которой требуется остановленная потоковая передача.<br /><ul><li><em>Param1</em>: <strong>HRESULT</strong> , указывающий возникшую ошибку.</li><li><em>Param2</em>: не используется.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | Указывает время, в течение которого выступающий готовится к просмотру каждого кадра. (Необязательно.)<br /><ul><li><em>Param1</em>: указатель на константное значение <strong>лонглонг</strong> , которое содержит количество времени для обработки кадра в единицах измерения 100-наносекундных.</li><li><em>Param2</em>: не используется.</li></ul>Дополнительные сведения см. в разделе <a href="#processing-output">Обработка выходных данных</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | Указывает текущее время запаздывания в примерах отрисовки. Если значение положительное, выборка отстает от расписания. Если значение отрицательное, выборки выполняются заранее по расписанию. (Необязательно.)<br /><ul><li><em>Param1</em>: указатель на константное значение <strong>лонглонг</strong> , которое содержит время запаздывания в единицах измерения 100-наносекундных.</li><li><em>Param2</em>: не используется.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | Отправляется сразу после <strong>EC_STEP_COMPLETE</strong> , если скорость воспроизведения равна нулю. Это событие содержит метку времени отображаемого кадра.<br /><ul><li><em>Param1</em>: младшие 32 бит метки времени.</li><li><em>Param2</em>: верхний 32 бит метки времени.</li></ul>Дополнительные сведения см. в разделе <a href="#frame-stepping">пошаговая отладка кадров</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | Выступающий завершил или отменил шаг кадра.<br /><ul><li><em>Param1</em>: не используется.</li><li><em>Param2</em>: не используется.</li></ul>Дополнительные сведения см. в разделе <a href="#frame-stepping">пошаговая отладка кадров</a>.<br /><blockquote>[!Note]<br />Предыдущая версия документации неправильно описывала параметр <em>param1</em> . Этот параметр не используется для этого события.</blockquote><br /> | 
+
 
 
 
@@ -708,7 +603,7 @@ done:
 5.  Выделите пул поверхностей Direct3D, как описано в разделе [выделение поверхностей Direct3D](#allocating-direct3d-surfaces). Микшер будет использовать эти поверхности при рисовании составных кадров видео.
 6.  Задайте тип выходных данных микшера, вызвав [**сетаутпуттипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) без флагов. Если в шаге 4 первый вызов **сетаутпуттипе** завершился удачно, метод должен пройти повторно.
 
-Если микшер выполняется из типов, метод [**жетаутпутаваилаблетипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) возвращает **MF_E_NO_MORE_TYPES**. Если выступающий не может найти подходящий тип выходных данных для микшера, поток не может быть визуализирован. В этом случае DirectShow или Media Foundation могут использовать другой формат потока. Таким образом, выступающий может получить несколько **MFVP_MESSAGE_INVALIDATEMEDIATYPE** сообщений в строке, пока не будет найден допустимый тип.
+Если микшер выполняется из типов, метод [**жетаутпутаваилаблетипе**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) возвращает **MF_E_NO_MORE_TYPES**. Если выступающий не может найти подходящий тип выходных данных для микшера, поток не может быть визуализирован. в этом случае DirectShow или Media Foundation могут использовать другой формат потока. Таким образом, выступающий может получить несколько **MFVP_MESSAGE_INVALIDATEMEDIATYPE** сообщений в строке, пока не будет найден допустимый тип.
 
 Микшер автоматически леттербоксес видео, принимая во внимание пропорцию пикселя (номинал) источника и назначения. Для достижения лучших результатов ширина и высота поверхности и геометрический апертуры должны быть равны фактическому размеру, который должен отображаться на экране. Этот процесс показан на следующем рисунке.
 
@@ -1580,9 +1475,9 @@ done:
 
 ## <a name="frame-stepping"></a>Пошаговое выполнение кадра
 
-Евр предназначен для поддержки пошагового выполнения кадров в DirectShow и очистки в Media Foundation. Пошаговое выполнение и очистка кадров концептуально похожи. В обоих случаях приложение запрашивает один видеокадр за раз. На внутреннем уровне выступающий использует тот же механизм для реализации обеих функций.
+евр предназначен для поддержки пошагового выполнения кадров в DirectShow и очистки в Media Foundation. Пошаговое выполнение и очистка кадров концептуально похожи. В обоих случаях приложение запрашивает один видеокадр за раз. На внутреннем уровне выступающий использует тот же механизм для реализации обеих функций.
 
-Пошаговое выполнение пакета в DirectShow работает следующим образом:
+пошаговое выполнение кадра в DirectShow работает следующим образом:
 
 -   Приложение вызывает [**ивидеофраместеп:: Step**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-step). Число шагов указывается в параметре *двстепс* . Евр отправляет выступающее сообщение **MFVP_MESSAGE_STEP** , где параметр сообщения (*улпарам*) — это число шагов.
 -   Если приложение вызывает [**ивидеофраместеп:: канцелстеп**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-cancelstep) или изменяет состояние графа (запущено, приостановлено или остановлено), ЕВР отправляет сообщение **MFVP_MESSAGE_CANCELSTEP** .
@@ -1682,7 +1577,7 @@ done:
 
 ### <a name="setting-the-presenter-in-directshow"></a>Настройка выступающего в DirectShow
 
-В приложении DirectShow установите параметр Presenter для Евр следующим образом:
+в DirectShow приложении установите параметр presenter в евр следующим образом:
 
 1.  Создайте фильтр евр, вызвав **CoCreateInstance**. Идентификатор CLSID — **CLSID_EnhancedVideoRenderer**.
 2.  Добавьте Евр в граф фильтра.
