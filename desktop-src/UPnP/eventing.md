@@ -4,12 +4,12 @@ description: Размещенная служба должна реализовы
 ms.assetid: 7558496d-c909-4602-bfaa-d21108392fed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a6382ee88d2ca5168c94eac20727bbfee4a598
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 313f979072a447f41b9edadfeec7bf4407463be67c86e9c3b34f43f4dcc47874
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008084"
 ---
 # <a name="eventing"></a>Обработка событий
 
@@ -23,9 +23,9 @@ ms.locfileid: "103888507"
 
 Когда узлу устройства больше не требуется получать уведомления от размещенной службы, он вызывает [**иупнпевентсаурце:: unadvise**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-unadvise), передавая тот же указатель объекта, который был получен от [**advise**](/windows/desktop/api/Upnphost/nf-upnphost-iupnpeventsource-advise). Узел устройства вызывает этот метод, когда устройство больше не будет находиться в сети.
 
- 
+ 
 
- 
+ 
 
 
 

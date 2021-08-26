@@ -4,12 +4,12 @@ description: В следующей таблице описаны основны�
 ms.assetid: 513d7c75-2f68-4d7d-897f-493089f045cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb917276fd807835fea703ec27cc66a0d493766d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 139b83a2d2117af693bcd7ae624ff18d7a18ab5618c9a9597c1e142f62aba07d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104486712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886054"
 ---
 # <a name="system-files-for-snmp"></a>Системные файлы для SNMP
 
@@ -34,13 +34,13 @@ ms.locfileid: "104486712"
 
 
 
- 
+ 
 
-Дополнительные сведения см. [в статье база данных управления SNMP (MIB)](the-snmp-management-information-base-mib-.md). (Можно также обратиться к комплекту ресурсов Windows 2000.)
+Дополнительные сведения см. [в статье база данных управления SNMP (MIB)](the-snmp-management-information-base-mib-.md). (также можно обратиться к комплекту Windows 2000 resource Kit.)
 
- 
+ 
 
- 
+ 
 
 
 

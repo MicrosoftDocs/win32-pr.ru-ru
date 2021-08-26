@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6e358debb2377f08574997acd96c11f83d32e66c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2da0d2bceea7a3e44f02e6b732337cb3447d6ef1c9798f95b664bf4da96ec2dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983324"
 ---
 # <a name="breakp---ps"></a>бреакп-PS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104412192"
 
 
 
- 
+ 
 
 Где:
 
@@ -37,7 +37,7 @@ ms.locfileid: "104412192"
 -   P0 — это [регистр предикатов](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   {x \| y \| z \| w} — это обязательная репликация свиззле в P0.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -47,18 +47,18 @@ ms.locfileid: "104412192"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

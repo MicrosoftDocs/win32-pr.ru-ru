@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc7f36b519399f0a8c1627fad7c7768f36ece57f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbfc3c1e365a97b8199df34c2e55a8362f48b7f6a2a43e524e3c6e937de5cb0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986974"
 ---
 # <a name="tlsconnecttolsserver-function"></a>Функция Тлсконнекттолссервер
 
@@ -59,11 +59,11 @@ TLS_HANDLE WINAPI TLSConnectToLsServer(
 
 Если функция завершается ошибкой, возвращается значение **null**. Чтобы получить расширенные сведения об ошибке, вызовите функцию [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После завершения использования маркера, возвращаемого функцией **тлсконнекттолссервер** , выпустите его, вызвав функцию [**тлсдисконнектфромсервер**](tlsdisconnectfromserver.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,7 +75,7 @@ TLS_HANDLE WINAPI TLSConnectToLsServer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

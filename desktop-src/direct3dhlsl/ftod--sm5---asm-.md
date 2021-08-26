@@ -4,12 +4,12 @@ description: Компонентное преобразование из данн
 ms.assetid: 95297556-41ED-4ED0-8F9A-16B7A440AF25
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6790735745805426d32aefcc5d5d771ade644e43
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d31396aa0f2b82dc4ea366bbdde704d55fa850d0d0a9f2f1f3de539a763facb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982434"
 ---
 # <a name="ftod-sm5---asm"></a>фтод (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104335568"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Каждый компонент источника преобразуется из представления с одиночной точностью в представление двойной точности.
 
@@ -67,7 +67,7 @@ ms.locfileid: "104335568"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -78,7 +78,7 @@ ms.locfileid: "104335568"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

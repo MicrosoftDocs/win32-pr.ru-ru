@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 21b0f01f60cc74100c10ad4c6768e32bc41eb940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 836380f2bc114b84a6208ccdca9d9b1ad9b9ef97e956cc3c7c7f2e4a4b717630
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063234"
 ---
 # <a name="jet_objectlistcrecord-property"></a>Свойство JET_OBJECTLIST. Крекорд
 
@@ -62,7 +62,7 @@ public int cRecord { get; internal set; }
 
 Тип: [System. Int32](/dotnet/api/system.int32)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

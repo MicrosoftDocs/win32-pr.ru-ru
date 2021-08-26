@@ -4,12 +4,12 @@ ms.assetid: a4822b99-330a-4094-bad9-b9a5923e02a8
 title: Сообщение WM_MDINEXT (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20e0af031c11ea37129e1405e31b07b18f023b7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8aa2b88e5368db2a6b700e0b4d469d1ba680d3caa4d2c1e1c208c5143660396f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931244"
 ---
 # <a name="wm_mdinext-message"></a>\_Сообщение МДИНЕКСТ WM
 
@@ -46,7 +46,7 @@ ms.locfileid: "103809556"
 
 Возвращаемое значение всегда равно нулю.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если клиентское MDI-окно получает сообщение, которое изменяет активацию своих дочерних окон, когда активное дочернее окно MDI развернуто, система восстанавливает активное дочернее окно и разворачивает вновь активированное дочернее окно.
 
@@ -58,7 +58,7 @@ ms.locfileid: "103809556"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

@@ -1,4 +1,4 @@
-- name: Проектируемая файловая система Windows
+- name: Windows Плановая файловая система
   href: projected-file-system.md
   items:
     - name: Планическое руководством по программированию файловой системы
@@ -8,7 +8,7 @@
           href: provider-overview.md
         - name: Состояние кэша в корне виртуализации
           href: cache-state.md
-        - name: Включение проектируемой файловой системы Windows
+        - name: включение Windows проектируемой файловой системы
           href: enabling-windows-projected-file-system.md
         - name: Жизненный цикл экземпляра виртуализации
           href: virtualization-instance-lifecycle.md

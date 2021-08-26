@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a582e05756e8d034e5b2d0a1cd8f7eb569dbb842
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4b81fc8dfc33cc2a6e5207e984de0c2e693b8c00b8f8d35949d0bb7150484bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052434"
 ---
 # <a name="cbasereferenceclockadviseperiodic-method"></a>Кбасереференцеклокк. Адвисепериодик, метод
 
@@ -81,7 +81,7 @@ HRESULT AdvisePeriodic(
 
 | Код возврата                                                                                   | Описание                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_ОК**</dt> </dl>          | Успешно<br/>                   |
+| <dl> <dt>**\_ОК**</dt> </dl>          | Success<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | Недопустимые значения времени<br/>       |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | Failure<br/>                   |
 | <dl> <dt>**\_указатель E**</dt> </dl>     | **Пустой** аргумент указателя<br/> |
@@ -90,22 +90,22 @@ HRESULT AdvisePeriodic(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Во время каждого уведомления часы освобождают семафор, указанный в параметре *хсемафоре* . Если дальнейшие уведомления не требуются, вызовите метод [**кбасереференцеклокк:: unadvise**](cbasereferenceclock-unadvise.md) и передайте значение *пдвадвисетокен* , возвращенное этим вызовом.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Рефклокк. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>рефклокк. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

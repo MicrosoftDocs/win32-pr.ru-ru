@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f6aa8e7dc37f2bb7fe48ce0293bbaad9663150dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0523cc88205792f9429eb1a214d8b74a1ca4c2f2bf35813c25614f9f3c06199
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980784"
 ---
 # <a name="getdescriptor-method-of-the-cim_usbdevice-class-hyper-v-management"></a>Метод метода-дескриптора класса CIM_USBDevice (Управление Hyper-V)
 
@@ -88,7 +88,7 @@ uint32 GetDescriptor(
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
+| Минимальная версия клиента<br/> | Windows 8.1<br/>                                                                                  |
 | Минимальная версия сервера<br/> | Windows Server 2012 R2<br/>                                                                       |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |

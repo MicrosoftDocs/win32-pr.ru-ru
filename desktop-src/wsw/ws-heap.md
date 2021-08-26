@@ -6,12 +6,12 @@ keywords:
 - WS_HEAP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05d996d3a3905a7f247cfc84840e5aae4baa781f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79ca6f8eb745fa53b035cdb79d068099e96d2e037c87c139f4b19c30f933ecac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926804"
 ---
 # <a name="ws_heap"></a>\_куча WS
 
@@ -24,27 +24,27 @@ typedef struct _WS_HEAP WS_HEAP;
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот объект не является потокобезопасным. Дополнительные сведения см. в статье [безопасность потоков](thread-safety.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>WebService. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Кучи](heap.md)
+[Куча](heap.md)
 </dt> <dt>
 
 [Потокобезопасность](thread-safety.md)

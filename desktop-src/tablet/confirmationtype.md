@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: 2c43971c6ccf44513c11e46d4bc5db86d973d7f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f89d5457e3d75bcf781a100449e4da9f8b45624af38760ca0cdda358fbf47ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936954"
 ---
 # <a name="confirmationtype-enumeration"></a>Перечисление Конфирматионтипе
 
@@ -58,7 +58,7 @@ typedef enum ConfirmationType {
 <span id="ConfirmationType_TopBoundary"></span><span id="confirmationtype_topboundary"></span><span id="CONFIRMATIONTYPE_TOPBOUNDARY"></span>**Конфирматионтипе \_ топбаундари**
 </dt> <dd>
 
-[**Иинканализер**](iinkanalyzer.md) не будет выполнять операции, включая добавление рукописного ввода или слияния с другими [**контекстнодес**](icontextnodes.md), которые приводят к перемещению топбаундари за пределы текущей верхней границы. Пример:
+[**Иинканализер**](iinkanalyzer.md) не будет выполнять операции, включая добавление рукописного ввода или слияния с другими [**контекстнодес**](icontextnodes.md), которые приводят к перемещению топбаундари за пределы текущей верхней границы. Например:
 
 -   Приложение анализирует набор рукописных данных, и идентифицируется Параграфноде.
 -   Приложение подтверждает Топбаундари этого абзаца.
@@ -69,23 +69,23 @@ typedef enum ConfirmationType {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значение **нодетипеандпропертиес** можно использовать только для узлов рукописного ввода и вывода рукописного текста (см. раздел [**Иконтекстноде:: GetType**](icontextnode-gettype.md)). В противном случае возвращается **E \_ INVALIDARG** из [**иконтекстноде:: Confirm**](icontextnode-confirm.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                 |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                     |
-| Header<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Иаком. h (также требуется Иаком \_ i. c)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

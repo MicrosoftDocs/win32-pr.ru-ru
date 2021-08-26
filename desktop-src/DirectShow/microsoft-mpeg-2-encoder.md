@@ -4,12 +4,12 @@ ms.assetid: 61e8918b-7f5a-4720-bb3b-df9ac7614894
 title: Кодировщик Microsoft MPEG-2 (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef5fad3b316db9ac4e47efcb9de761227cdd3279
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91ae7f1bd9cb8233d919689bbeb1eea496760ae1254bae88120776364528243d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051234"
 ---
 # <a name="microsoft-mpeg-2-encoder"></a>Кодировщик Microsoft MPEG-2
 
@@ -64,7 +64,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот фильтр сочетает в себе функции кодирования двух других фильтров:
 
@@ -100,9 +100,9 @@ msmpeg2enc.dll
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows Vista Домашняя расширенная, Windows Vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, \[ только классические приложения Windows 7 Ultimate\]<br/> |
+| Минимальная версия клиента<br/> | Windows главная Premium vista, Windows vista Ultimate, Windows 7 Домашняя расширенная, Windows 7 Профессиональная, Windows 7 Корпоративная, Windows 7 Максимальная \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                                                                                     |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl>                                                                                       |
 
 
 
@@ -110,7 +110,7 @@ msmpeg2enc.dll
 
 <dl> <dt>
 
-[Фильтры DirectShow](directshow-filters.md)
+[DirectShow Фильтрующ](directshow-filters.md)
 </dt> </dl>
 
  

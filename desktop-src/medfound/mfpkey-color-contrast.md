@@ -4,12 +4,12 @@ ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
 title: Свойство MFPKEY_COLOR_CONTRAST (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5de0733e743c3ce12bfe9a04159a2e881bf2143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c1c794b10580cbb323d19f52eed7d3bfb5fc6cf96e316d708491025776cfff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954474"
 ---
 # <a name="mfpkey_color_contrast-property"></a>\_ \_ Свойство контрастности цвета мфпкэй
 
@@ -27,29 +27,29 @@ VT \_ I4
 
 0
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Преобразование элемента управления цветом DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Корректировка контрастности выполняется путем умножения значений Икбкр на коэффициент масштабирования.
 
 Это свойство имеет диапазон от-127 до 127. Ноль означает отсутствие изменений в контрасте.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

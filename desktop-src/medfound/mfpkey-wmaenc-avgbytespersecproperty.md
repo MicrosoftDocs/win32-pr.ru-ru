@@ -4,12 +4,12 @@ ms.assetid: dcee969a-617e-4045-a468-8158afb06356
 title: Свойство MFPKEY_WMAENC_AVGBYTESPERSEC (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ef88b9ea0cf46829a33cb7b9901c7c9f844c1e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfadc41e9f2c9f4410bc84c6d8bf23f30c559b96c83abba80beb719e8ccb8eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104543967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953304"
 ---
 # <a name="mfpkey_wmaenc_avgbytespersec-property"></a>МФПКЭЙ \_ вмаенк \_ Авгбитесперсек, свойство
 
@@ -23,25 +23,25 @@ g \_ всзвмакавгбитесперсеконд
 
 VT \_ I4
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение можно получить из декодера после кодирования потока.
 
 Это значение требуется для правильного распаковки содержимого с помощью звукового декодера.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

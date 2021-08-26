@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3c36239d7d0ea6b0bf3bfa67bfb2f59617ab209a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e129bfb5347c958e678214de88c740ef194559882be7a6f02378d0af000370cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922894"
 ---
 # <a name="takeownershipex-method-of-the-cim_devicefile-class"></a>Метод Такеовнершипекс \_ класса CIM девицефиле
 
@@ -193,7 +193,7 @@ uint32 TakeOwnerShipEx(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

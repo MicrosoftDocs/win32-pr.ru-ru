@@ -3,7 +3,7 @@ title: Сообщение EM_CALLAUTOCORRECTPROC (RichEdit. h)
 description: Вызывает функцию обратного вызова автозамены, которая хранится в \_ сообщении СЕТАУТОКОРРЕКТПРОК EM при условии, что текст, предшествующий точке вставки, является кандидатом на автозамену.
 ms.assetid: 93116467-B345-4FD9-9162-3E01CF3C6F20
 keywords:
-- Элементы управления Windows для EM_CALLAUTOCORRECTPROC сообщений
+- элементы управления Windows сообщений EM_CALLAUTOCORRECTPROC
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73109d2499fc01a1d811066dc6059593c7ed5e0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ad76ec66018b4e673913c433ce16a1294944f69c9d33a5dbaedb85ba21f985a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916084"
 ---
 # <a name="em_callautocorrectproc-message"></a>\_Сообщение КАЛЛАУТОКОРРЕКТПРОК EM
 
@@ -54,19 +54,19 @@ ms.locfileid: "104491517"
 
 Возвращаемое значение равно нулю, если сообщение прошло удачно, или ненулевой при возникновении ошибки.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Стратегии обработки ошибок
 ms.assetid: 8d03ede8-0661-43dc-adaf-3c1f5fc1687e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36c594a8b1e5baf0eab3d928b8f1b861b7f0160d
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 0527edbb8bab4b4a0b0ca9e0d135bc5cf8c2827497a36fb9cad021680868f764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "104487268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029974"
 ---
 # <a name="error-handling-strategies"></a>Стратегии обработки ошибок
 
@@ -47,7 +47,7 @@ ms.locfileid: "104487268"
 
 Если первые четыре цифры кода ошибки 8007, это указывает на системную или сетевую ошибку. Для декодирования ошибок этих типов можно использовать команду **net** . Чтобы декодировать ошибку, сначала преобразуйте последние четыре цифры шестнадцатеричного кода ошибки в тип Decimal. Затем в командной строке введите следующую команду, где десятичный код заменяется возвращаемым значением, которое необходимо декодировать:
 
-**NET HELPMSG <***десятичный \_ код***>**
+**net helpmsg <** _десятичный \_ код_*_>_*
 
 Команда NET возвращает описание ошибки. Например, если COM возвращает ошибку 8007054B, преобразуйте 054B в Decimal (1355). Затем введите следующую команду.
 
@@ -55,7 +55,7 @@ ms.locfileid: "104487268"
 
 Команда NET возвращает описание ошибки: "указанный домен не существует".
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

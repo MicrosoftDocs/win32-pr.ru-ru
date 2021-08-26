@@ -4,17 +4,17 @@ ms.assetid: d7b8c6ba-5c4f-494c-a24f-3b81a176725f
 title: D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 397a2164349b761cd7ff2ccca5e2158abc22bd64
-ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
+ms.openlocfilehash: 556d1f7dfe7f8d841220af4f5dbe650bd74e4c8dff86812650545a07129af644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111910252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986914"
 ---
 # <a name="d3dx-direct3d-9"></a>D3DX (Direct3D 9)
 
 > [!NOTE]
-> Библиотека D3DX устарела. Если обновление до более новой версии Direct3D и связанного с ней кода не является допустимым вариантом, можно использовать пакет NuGet [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) вместо использования УСТАРЕВШЕГО пакета SDK DirectX или директсетуп.
+> Библиотека D3DX устарела. если обновление до более новой версии Direct3D и связанного с ней кода не является допустимым вариантом, можно использовать пакет [Microsoft. дкссдк. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet, не полагаясь на устаревший пакет DirectX SDK или директсетуп.
 
 D3DX — это библиотека средств, предназначенная для предоставления дополнительных графических функций на основе Direct3D. D3DX предоставляется в виде библиотеки динамической компоновки (DLL).
 

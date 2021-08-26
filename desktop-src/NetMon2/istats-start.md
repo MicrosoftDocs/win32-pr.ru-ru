@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 494ec12a0bb9c5c312f34e9cc53e82bfcbe155f90c38b98b2ba807e9c87b6945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037154"
 ---
 # <a name="istatsstart-method"></a>Метод Истатс:: Start
 
@@ -50,8 +50,8 @@ HRESULT STDMETHODCALLTYPE Start();
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_запись нмерр \_ приостановлена**</dt> </dl>  | Запись приостановлена и должна быть остановлена, прежде чем ее можно будет перезапустить. Вызовите метод [истатс:: останавливаться](istats-stop.md) , чтобы прерывать запись.<br/> |
 | <dl> <dt>**НМЕРР \_ запись**</dt> </dl>        | Запись уже запущена.<br/>                                                                                                            |
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. Вызовите метод [истатс:: Connect](istats-connect.md) , чтобы подключить НПП к сети.<br/>           |
-| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | НПП подключается к сети, но не с методом [истатс:: Connect](istats-connect.md) .<br/>                                          |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети. вызовите метод [истатс:: Подключение](istats-connect.md) , чтобы подключить нпп к сети.<br/>           |
+| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | нпп подключается к сети, но не с помощью метода [истатс:: Подключение](istats-connect.md) .<br/>                                          |
 
 
 
@@ -79,7 +79,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 
@@ -89,7 +89,7 @@ HRESULT STDMETHODCALLTYPE Start();
 [Истатс:: Configure](istats-configure.md)
 </dt> <dt>
 
-[Истатс:: Connect](istats-connect.md)
+[истатс:: Подключение](istats-connect.md)
 </dt> <dt>
 
 [Истатс::P Аусе](istats-pause.md)

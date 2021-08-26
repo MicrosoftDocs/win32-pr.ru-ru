@@ -4,19 +4,19 @@ ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: Схема счетчиков производительности
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 5c41e9d54e259d6e53453a55cc97f7734ce793fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e31aa6e42d185f95b142fac864dbaf725bbba456161c3484aba157c8afd6557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962374"
 ---
 # <a name="performance-counters-schema"></a>Схема счетчиков производительности
 
-Поставщики данных производительности v2 поддерживаются в Windows Vista и более поздних версиях. Они используют. Файл манифеста MAN (XML Instrumentation manifest) для определения поставщика, каунтерсетс и счетчиков.
+поставщики данных производительности V2 поддерживаются в Windows Vista или более поздней версии. Они используют. Файл манифеста MAN (XML Instrumentation manifest) для определения поставщика, каунтерсетс и счетчиков.
 
 > [!NOTE]
-> Манифесты инструментирования могут содержать сведения о поставщиках трассировки событий Windows (ETW) и поставщиках счетчиков производительности. Дополнительные сведения о манифестах инструментирования см. в разделе [схема евентманифест](/windows/desktop/WES/eventmanifestschema-schema) и [запись манифеста инструментирования](/windows/desktop/WES/writing-an-instrumentation-manifest).
+> манифесты инструментирования могут содержать сведения о трассировке событий для поставщиков Windows (ETW) и поставщиков счетчиков производительности. Дополнительные сведения о манифестах инструментирования см. в разделе [схема евентманифест](/windows/desktop/WES/eventmanifestschema-schema) и [запись манифеста инструментирования](/windows/desktop/WES/writing-an-instrumentation-manifest).
 
 В этом разделе описываются следующие элементы и типы, используемые в `counters` разделе манифеста инструментирования:
 
@@ -34,9 +34,9 @@ ms.locfileid: "103813801"
 
 Если необходимо обновить набор счетчиков, удалите старый набор счетчиков с помощью [ средстваUnlodCtr.exe](/windows-server/administration/windows-commands/unlodctr_1) с `/G:` `/P:` параметрами или. После удаления старого CounterSet можно установить обновленный набор счетчиков.
 
-## <a name="schema"></a>схема
+## <a name="schema"></a>Схема
 
-Ниже приведена схема счетчиков производительности, которую можно использовать для проверки `counters` раздела манифеста. Эта схема находится в Windows SDK как `counterman.xsd` . Дополнительные сведения о схеме, используемой для проверки раздела инструментирования в манифесте, см. в разделе [Евентманифест Schema](/windows/desktop/WES/eventmanifestschema-schema).
+Ниже приведена схема счетчиков производительности, которую можно использовать для проверки `counters` раздела манифеста. эта схема находится в Windows SDK как `counterman.xsd` . Дополнительные сведения о схеме, используемой для проверки раздела инструментирования в манифесте, см. в разделе [Евентманифест Schema](/windows/desktop/WES/eventmanifestschema-schema).
 
 ``` syntax
 <xs:schema

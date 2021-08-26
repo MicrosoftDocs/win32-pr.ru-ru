@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 3435ed832484042bfeb9229e4b46fa34441cb395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b83cbbb167775a8de360c880f381b41f250abf0eab01c883bc7580be4d956f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037544"
 ---
 # <a name="iespquerystatus-method"></a>Метод ИЕСП:: QueryStatus
 
@@ -63,7 +63,7 @@ HRESULT STDMETHODCALLTYPE QueryStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод можно вызвать в любое время после вызова [креатенппинтерфаце](createnppinterface.md) . Этот метод можно вызвать, чтобы узнать, подключен ли НПП к сети, узнать состояние текущего захвата и проверить, ожидают ли какие-либо триггеры.
 

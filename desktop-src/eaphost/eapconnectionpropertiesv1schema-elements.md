@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c14591631e6f050318dcc88f78ee11ea4f443c79
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 5c040f5a58b5e8855e3aea8aed2992b2a390e2bdc8eec8399bdf051c70117009
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105710353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948224"
 ---
 # <a name="eapconnectionpropertiesv1-schema-elements"></a>Элементы схемы eapconnectionpropertiesv1
 
 Схема [eapconnectionpropertiesv1](eapconnectionpropertiesv1schema-schema.md) состоит из следующих элементов схемы.
 
 -   [**Подключение (подключения)**](eapconnectionpropertiesv1schema-connection-connections-element.md)
--   [**Соединения**](eapconnectionpropertiesv1schema-connections-element.md)
+-   [**Соединение**](eapconnectionpropertiesv1schema-connections-element.md)
 -   [**Имя (соединение)**](eapconnectionpropertiesv1schema-name-connection-element.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -34,9 +34,9 @@ ms.locfileid: "105710353"
 [Схема eapconnectionpropertiesv1](eapconnectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

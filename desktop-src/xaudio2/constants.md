@@ -4,12 +4,12 @@ description: В этом разделе описаны константы, до�
 ms.assetid: 8350cda4-0a44-1c56-0c0c-a7b10b4ea888
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729e047f0268bceafff424ca4bd34f27541c29ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e5f828b782ab48ee69aa9e92cf1121cda741a6a86e126b612460990be6e6db6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926774"
 ---
 # <a name="xaudio2-constants"></a>Константы XAudio2
 
@@ -37,7 +37,7 @@ ms.locfileid: "104265273"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

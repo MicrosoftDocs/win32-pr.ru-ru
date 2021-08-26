@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 428778afc12c668d284dffb5a8a6f734c03f0705
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 99f18932121d44f61d67c8124faa2d26638035bdcff473ad26c4222ceea9a85b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104340835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048794"
 ---
 # <a name="idwritefontfallbackmapcharacters-method"></a>Метод Идвритефонтфаллбакк:: Мапчарактерс
 
@@ -55,13 +55,13 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-Тип: **[**идвритетекстаналисиссаурце**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource) \** _
+Тип: **[ **идвритетекстаналисиссаурце**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource)\***
 
 В реализации источника текста содержатся текст и языковой стандарт.
 
 </dd> <dt>
 
-_textPosition * 
+*текстпоситион* 
 </dt> <dd>
 
 Тип: **UINT32**
@@ -82,22 +82,22 @@ _textPosition *
 *басефонтколлектион* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **[**идвритефонтколлектион**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) \** _
+Тип: **[ **идвритефонтколлектион**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)\***
 
 Используемая коллекция шрифтов по умолчанию.
 
 </dd> <dt>
 
-_baseFamilyName * \[ в, необязательно\]
+*басефамилинаме* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **const WCHAR \_ t \** _
+Тип: **const WCHAR \_ t \***
 
 Имя семейства базовых шрифтов. Если передать значение null, для семейства не будет выполняться никаких соответствий.
 
 </dd> <dt>
 
-_baseWeight * 
+*басевеигхт* 
 </dt> <dd>
 
 Тип: **[ **\_ \_ плотность шрифта дврите**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)**
@@ -127,13 +127,13 @@ _baseWeight *
 *маппедленгс* \[ заполняет\]
 </dt> <dd>
 
-Тип: **UINT32 \** _
+Тип: **UINT32 \***
 
 Длина текста, сопоставленного с сопоставленным шрифтом. Оно всегда будет меньше или равно длине текста и больше нуля (если длина текста не равна нулю), поэтому вызывающий объект перемещает по крайней мере один символ.
 
 </dd> <dt>
 
-_mappedFont * \[ out\]
+*маппедфонт* \[ заполняет\]
 </dt> <dd>
 
 Тип: **[ **идвритефонт**](/windows/win32/api/dwrite/nn-dwrite-idwritefont)\*\***
@@ -145,7 +145,7 @@ _mappedFont * \[ out\]
 *масштаб* \[ заполняет\]
 </dt> <dd>
 
-Тип: **float \** _
+Тип: **float \***
 
 Коэффициент масштабирования для умножения размера em возвращаемого шрифта на.
 
@@ -153,25 +153,25 @@ _mappedFont * \[ out\]
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Тип: _ *HRESULT**
+Тип: **HRESULT**
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                 |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/> |
 | Библиотека<br/>                  | <dl> <dt>Дврите. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

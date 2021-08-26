@@ -4,12 +4,12 @@ ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
 title: EC_DISPLAY_CHANGED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 549a4c5201906b692a1bd726e65269679705e9a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee75517c1927d7f819565d796d9f15fb21050ef7b4ead86d98f582018cc66b7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965924"
 ---
 # <a name="ec_display_changed"></a>\_изменение дисплея \_ EC
 
@@ -37,7 +37,7 @@ ms.locfileid: "105679625"
 
 Диспетчер графов фильтров временно останавливает граф, а затем отключает модуль подготовки видео. Он не передает событие в приложение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обработчики видео могут отправить это событие в ответ на сообщение [**\_ дисплайчанже WM**](/windows/desktop/gdi/wm-displaychange) . Сообщение **WM \_ дисплайчанже** указывает, что пользователь изменил разрешение экрана.
 
@@ -53,7 +53,7 @@ ms.locfileid: "105679625"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 

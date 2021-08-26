@@ -4,12 +4,12 @@ ms.assetid: 08f119f9-cacd-4000-96b6-60c8c0055e9c
 title: Пример MFT_AudioDelay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39d382ce7d1c5e9475bef85f11ef9754345e123b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea4af3d89c7dda4a67a2fece09ff9e6d3bc0a63927e94b259df40334fd9ba29b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012674"
 ---
 # <a name="mft_audiodelay-sample"></a>\_Пример АУДИОДЕЛАЙ MFT
 
@@ -57,9 +57,9 @@ else if (majorType == MFMediaType_Audio)
 
 ## <a name="downloading-the-sample"></a>Загрузка образца
 
-Этот пример доступен в [репозитории GitHub с классическими примерами Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_audiodelay).
+этот пример доступен в [репозитории github для классических примеров Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_audiodelay).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

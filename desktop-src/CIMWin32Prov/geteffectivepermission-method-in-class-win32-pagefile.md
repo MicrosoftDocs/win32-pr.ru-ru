@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c3b9985d18e93f3a3dbcc8f65484bf3fd72284fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6330822566345a35f62af7016d130c5324a7b6838ed4250f5dbdc24c0ceaa6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918414"
 ---
 # <a name="geteffectivepermission-method-of-the-win32_pagefile-class"></a>Метод Жетеффективепермиссион \_ класса файла подкачки Win32
 
@@ -207,7 +207,7 @@ boolean GetEffectivePermission(
 
 Возвращает **значение true** , если вызывающий объект имеет указанные разрешения, и **значение false** , если вызывающий объект не имеет указанных разрешений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -216,13 +216,13 @@ boolean GetEffectivePermission(
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
+| Заголовок<br/>                   | <dl> <dt>Аклуи. h</dt> </dl>      |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

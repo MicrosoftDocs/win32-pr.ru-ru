@@ -3,7 +3,7 @@ title: Атрибут WM/year
 description: Атрибут WM/year — это год публикации содержимого.
 ms.assetid: b64e37f1-6f12-43a6-8a66-7d61b470853c
 keywords:
-- Проигрыватель Windows Media, атрибут WM/year
+- проигрыватель Windows Media атрибута WM/Year
 topic_type:
 - apiref
 api_name:
@@ -12,23 +12,23 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10bf10d4e905e10c74cfaf9986445ce9a68dc9b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bec0b76fbf54a53a7ae09728fe34d75fff5c232de9ecfa13a77edaa97cd37e05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900194"
 ---
 # <a name="wmyear-attribute"></a>Атрибут WM/year
 
 Атрибут **WM/year** — это год публикации содержимого.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в цифровом файле мультимедиа.
 
@@ -36,19 +36,19 @@ ms.locfileid: "105652037"
 
 Этот атрибут не следует использовать в качестве части условия запроса. Он является производным от другого атрибута и не может быть запрошен напрямую в коллекции мультимедиа.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвмеар.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвмеар.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series с Windows Media Player 10 или более поздней версии не поддерживает этот атрибут<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series проигрыватель Windows Media 10 или более поздней версии не поддерживает этот атрибут<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

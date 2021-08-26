@@ -4,12 +4,12 @@ ms.assetid: 7277C5E0-BB91-4EEA-9529-64E66D179CDC
 title: Свойство MFPKEY_PMP_Creation_Callback (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b18e04a15e035a9e4dc04a4039ce230342031a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 655d61865eaecd89fa84664fc5c25f89762180ac9007e21cc7cbc98f7a68b056
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953864"
 ---
 # <a name="mfpkey_pmp_creation_callback-property"></a>\_ \_ \_ Свойство обратного вызова создания PMP мфпкэй
 
@@ -23,15 +23,15 @@ ms.locfileid: "104263981"
 
 ПРОПВАРИАНТ, элемент
 
-**IUnknown \** _
+**IUnknown\***
 
 VT \_ Unknown
 
-_ *пунквал**
+**пунквал**
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для некоторых защищенных содержимого может потребоваться использование этого свойства. Если это так, то процесс разрешения источника завершается ошибкой с кодом ошибки **MF \_ E, \_ \_ требующего \_ \_ \_ обратного вызова при создании PMP**.
 
@@ -52,19 +52,19 @@ _ *пунквал**
     -   *пкаллбакк*: указатель [**имфасинккаллбакк**](/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback) , полученный на шаге 3.
     -   *пстате*: указатель [**имфпмфост**](/windows/desktop/api/mfidl/nn-mfidl-imfpmphost) , полученный на шаге 2.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

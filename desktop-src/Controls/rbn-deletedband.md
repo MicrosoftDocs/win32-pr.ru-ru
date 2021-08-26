@@ -3,7 +3,7 @@ title: Код уведомления RBN_DELETEDBAND (Коммктрл. h)
 description: Посылается элементом управления "Главная панель" после удаления полосы. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: ef4aca07-de08-47de-b236-321e84e6e81c
 keywords:
-- RBN_DELETEDBAND кода уведомления элементы управления Windows
+- RBN_DELETEDBAND кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6af4e107ccb1a42b82335255f48d0328e03019a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0e60d1a8ad062d77800ccc9e2790718f5d8c8dcac2fb87a37f62b8f1131e5cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985244"
 ---
 # <a name="rbn_deletedband-notification-code"></a>\_Код уведомления РБН делетедбанд
 
@@ -55,9 +55,9 @@ RBN_DELETEDBAND
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

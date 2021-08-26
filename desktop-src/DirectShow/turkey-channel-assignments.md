@@ -4,12 +4,12 @@ ms.assetid: 840dbd02-a500-47fe-b8ce-5ed2e902b4a6
 title: Назначение бестурция канала
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c68b24b6226572877c007e67e03502192bd0f1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c621e2e73bbf850adec34f9f65f847d9b1f688b6bd86b5d9bf92d96430190ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903684"
 ---
 # <a name="turkey-channel-assignments"></a>Назначение бестурция канала
 
@@ -17,11 +17,11 @@ ms.locfileid: "104264870"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 -   [Широковещательные назначения](#broadcast-assignments)
 -   [Назначения кабелей](#cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="broadcast-assignments"></a>Широковещательные назначения
 
@@ -247,7 +247,7 @@ ms.locfileid: "104264870"
        855250000L,      // 107 K69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 524283fb-d046-4f8c-a30f-4fe7ddb43174
 title: Атрибут MF_MT_AUDIO_NUM_CHANNELS (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09020ef540b6a3b02eecc6a6d788c18d07358ce4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ede561fbfe178d4086d1d7f7232d831d5133d6b368c1205fa2e8c1280fbeba29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955914"
 ---
 # <a name="mf_mt_audio_num_channels-attribute"></a>\_ \_ Атрибут звуковых \_ \_ каналов MF MT
 
@@ -19,7 +19,7 @@ ms.locfileid: "105712256"
 
 **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут соответствует элементу **нчаннелс** структуры [вавеформатекс](mf-mt-audio-prefer-waveformatex-attribute.md) .
 
@@ -31,9 +31,9 @@ ms.locfileid: "105712256"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 

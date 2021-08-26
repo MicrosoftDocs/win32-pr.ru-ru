@@ -8,12 +8,12 @@ keywords:
 - Справочник по поставщику WMI службы удаленных рабочих столов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72645ce77e2200eb82a2caaf5d598b2269fba82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6a484a5f874c8e14c4fba07a269d00c64a09d36afacf9f6c2ce8f7e5921220fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103987645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987073"
 ---
 # <a name="remote-desktop-services-wmi-provider-reference"></a>Справочник по поставщику службы удаленных рабочих столов WMI
 
@@ -80,12 +80,12 @@ ms.locfileid: "103987645"
 </dd> </dl>
 
 > [!Note]  
-> В Windows Server 2008 R2 имя компонента посредника подключений служб терминалов изменилось на RDCB.
+> в Windows Server 2008 R2 имя компонента посредника подключений служб терминалов изменено на RDCB.
 
- 
+ 
 
 Сведения о проблемах безопасности и приложениях WMI см. в разделе [обслуживание безопасности WMI](/windows/desktop/WmiSdk/maintaining-wmi-security).
 
- 
+ 
 
- 
+ 

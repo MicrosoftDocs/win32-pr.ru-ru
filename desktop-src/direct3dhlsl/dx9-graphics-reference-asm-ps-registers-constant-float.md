@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 05bb382b745d172ea4b81f9920154e7c79a58c2d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 025c7e7609e7e0d19c15dfa24e27b9f174114e9287a9e09d01d2436b4ef2ef8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982854"
 ---
 # <a name="constant-float-register-hlsl-ps-reference"></a>Регистр постоянного float (Справочник по HLSL PS)
 
@@ -42,13 +42,13 @@ def c40, 0.0f,0.0f,0.0f,0.0f;
 
 Если вы устанавливаете постоянные значения с помощью API, то объявление шейдера не требуется.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

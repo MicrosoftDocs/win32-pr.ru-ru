@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e2371ba7ee449497e2d695e60d75c59454282d54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a780e0997ef3a56bc644adda2842b905aaf9744d28a2075fbc4726134c16aa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972294"
 ---
 # <a name="win32_osrecoveryconfiguration-class"></a>\_Класс Win32 осрековериконфигуратион
 
@@ -72,7 +72,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ осрековериконфигуратион** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -126,7 +126,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 Полный путь к файлу отладки. После сбоя компьютера создается файл отладки с состоянием памяти компьютера.
 
-Пример: "C: \\ Windows \\ Memory. dmp"
+пример: "C: \\ Windows \\ Memory. dmp"
 
 </dd> <dt>
 
@@ -199,7 +199,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 Расширенная версия свойства **дебугфилепас** .
 
-Пример: "C: \\ Windows \\ Memory. dmp"
+пример: "C: \\ Windows \\ Memory. dmp"
 
 </dd> <dt>
 
@@ -214,7 +214,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 Расширенная версия свойства **минидумпдиректори** .
 
-Пример: "C: \\ \\ Малый дамп Windows"
+пример: "C: \\ Windows \\ малый дамп"
 
 </dd> <dt>
 
@@ -252,7 +252,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -350,11 +350,11 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ осрековериконфигуратион** является производным от [**\_ параметра CIM**](cim-setting.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -368,7 +368,7 @@ class Win32_OSRecoveryConfiguration : CIM_Setting
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

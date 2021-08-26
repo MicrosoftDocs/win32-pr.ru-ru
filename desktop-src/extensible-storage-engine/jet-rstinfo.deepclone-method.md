@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9fa79884324fdfa06629140e71104b06477a078a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c48ae33a1c12d5793b9c66b3fd9010f2d052ca4d8e25b14069b8cca36957c26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945644"
 ---
 # <a name="jet_rstinfodeepclone-method"></a>JET_RSTINFO. Метод Дипклоне
 
@@ -63,7 +63,7 @@ public JET_RSTINFO DeepClone()
 
 [Идипклонеабле \<T\> . Дипклоне ()](./ideepcloneable-t-.deepclone-method.md)  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

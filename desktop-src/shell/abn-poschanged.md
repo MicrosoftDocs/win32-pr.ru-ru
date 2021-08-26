@@ -4,12 +4,12 @@ ms.assetid: 1016a362-4d2b-410e-aec9-c1cc8f497778
 title: Сообщение ABN_POSCHANGED (Шеллапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b0a800b1c112cba18fbadbba79a999ec83c77e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92528de38b60c1f4705873427616b1ed7a5be6be5875a21e352d2136313c84df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943604"
 ---
 # <a name="abn_poschanged-message"></a>\_Сообщение АБН посчанжед
 
@@ -30,17 +30,17 @@ ABN_POSCHANGED
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Панель приложений должен ответить на это сообщение уведомления, отправив сообщения [**АБМ \_ Куерипос**](abm-querypos.md) и [**АБМ \_ сетпос**](abm-setpos.md) . Если его положение изменилось, панель приложений должен вызвать функцию [**мовевиндов**](/windows/desktop/api/winuser/nf-winuser-movewindow) , чтобы переместить себя в новое положение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

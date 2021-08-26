@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c17dc6d4169854469d630e2a622eacc85e8a587c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a136c86c0fd0744c555af2071943d99ca8569a33ce9c59d9d22191c4a78d2a32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972044"
 ---
 # <a name="win32_pnpdevice-class"></a>\_Класс Win32 код устройства PnP
 
@@ -46,7 +46,7 @@ class Win32_PnPDevice
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ код устройства PnP** имеет следующие свойства.
 

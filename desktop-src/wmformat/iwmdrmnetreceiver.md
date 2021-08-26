@@ -1,6 +1,6 @@
 ---
 title: Интерфейс Ивмдрмнетрецеивер
-description: Интерфейс Ивмдрмнетрецеивер предоставляет методы, необходимые для использования Microsoft Windows Media DRM для сетевых устройств в качестве получателя. Чтобы получить экземпляр этого интерфейса, вызовите Ивмдрмпровидер CreateObject. Передайте IID \_ ивмдрмнетрецеивер в качестве параметра riid.
+description: интерфейс ивмдрмнетрецеивер предоставляет методы, необходимые для использования Microsoft Windows Media DRM для сетевых устройств в качестве получателя. Чтобы получить экземпляр этого интерфейса, вызовите Ивмдрмпровидер CreateObject. Передайте IID \_ ивмдрмнетрецеивер в качестве параметра riid.
 ms.assetid: 29966260-c0aa-4e7e-b827-a872c7429333
 keywords:
 - Формат Windows Media в интерфейсе Ивмдрмнетрецеивер
@@ -14,16 +14,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7a85ae1525a81e97984e29a5dd28763d934dba2b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5cb917d7d229b81a6792461c506b2a6b50aaee2af3bd5f133e44273077924f86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104411981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930114"
 ---
 # <a name="iwmdrmnetreceiver-interface"></a>Интерфейс Ивмдрмнетрецеивер
 
-Интерфейс **ивмдрмнетрецеивер** предоставляет методы, необходимые для использования Microsoft Windows Media DRM для сетевых устройств в качестве получателя.
+интерфейс **ивмдрмнетрецеивер** предоставляет методы, необходимые для использования Microsoft Windows Media DRM для сетевых устройств в качестве получателя.
 
 Чтобы получить экземпляр этого интерфейса, вызовите метод [**ивмдрмпровидер:: CreateObject**](iwmdrmprovider-createobject.md). Передайте **IID \_ ивмдрмнетрецеивер** в качестве параметра *riid* .
 

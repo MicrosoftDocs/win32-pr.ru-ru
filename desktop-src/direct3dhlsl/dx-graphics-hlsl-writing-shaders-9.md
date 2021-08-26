@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64a64d08518cb987850c87da3fb19c264519a7f7
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 67e6fec265682dcdbe8ffa967ba757382eda2e17d55aff8b8a1ae168a96df3c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950114"
 ---
 # <a name="writing-hlsl-shaders-in-direct3d-9"></a>Создание шейдеров HLSL в Direct3D 9
 
@@ -29,8 +29,8 @@ ms.locfileid: "110335388"
     -   [Различные входные и семантические значения шейдера](#varying-shader-inputs-and-semantics)
     -   [Пробы и объекты текстуры](#samplers-and-texture-objects)
 -   [Написание функций](#writing-functions)
--   [Управление потоком](#flow-control)
--   [См. также](#related-topics)
+-   [Flow Элемента](#flow-control)
+-   [Связанные темы](#related-topics)
 
 ## <a name="vertex-shader-basics"></a>Основы Vertex-Shader
 

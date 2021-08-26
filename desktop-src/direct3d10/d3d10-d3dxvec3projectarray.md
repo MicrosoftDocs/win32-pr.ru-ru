@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 660d48219c3d93e9b3188926dd6f5bc2ddf9db45a9310b3bf8716cb2e960e895
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989624"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>Функция D3DXVec3ProjectArray (D3DX10Math. h)
 
@@ -138,13 +138,13 @@ D3DXVECTOR3* D3DXVec3ProjectArray(
 
 Возвращаемое значение для этой функции совпадает со значением, возвращаемым в параметре тоска. Таким образом, функция D3DXVec3ProjectArray может использоваться в качестве параметра для другой функции.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 

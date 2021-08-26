@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0e208a022f339e69ea63120db1f67070fa4dfed7
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 53066864ec87528406b20d5503f4e47497cb3aa80e44f01e279845fdc2674339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104997182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981934"
 ---
 # <a name="quadreadacrossdiagonal-function"></a>Функция Куадреадакроссдиагонал
 
@@ -50,7 +50,7 @@ ms.locfileid: "104997182"
 
 Заданное локальное значение, которое считывается с диагонального противоположного полосы в данном Quad.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об четырехъядерях см. в разделе [Общие сведения о модели шейдеров 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 

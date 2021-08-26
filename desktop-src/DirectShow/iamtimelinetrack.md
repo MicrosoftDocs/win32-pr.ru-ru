@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Иамтимелинетракк предоставляет методы для управления объектами Track в службах редактирования DirectShow (DES). Запись содержит список источников, отображаемых в окончательном выводе.
+description: интерфейс иамтимелинетракк предоставляет методы для манипулирования объектами track в службах DirectShow editing Services (DES). Запись содержит список источников, отображаемых в окончательном выводе.
 ms.assetid: 42ac88f2-1361-413a-a9b0-95f5c32a7c3c
 title: Интерфейс Иамтимелинетракк (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 71003694d33b33980fb262f06f6b2e7aa55a70d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9cc33facc22023d6e93c8dcfa3804d111d9c99f49be16d8271b09a7bf938b49e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965084"
 ---
 # <a name="iamtimelinetrack-interface"></a>Интерфейс Иамтимелинетракк
 
@@ -28,7 +28,7 @@ ms.locfileid: "105689450"
 
  
 
-`IAMTimelineTrack`Интерфейс предоставляет методы для управления объектами *Track* в [службах редактирования DirectShow](directshow-editing-services.md) (DES).
+`IAMTimelineTrack`интерфейс предоставляет методы для манипулирования объектами *track* в [службах DirectShow editing Services](directshow-editing-services.md) (DES).
 
 Запись содержит список источников, отображаемых в окончательном выводе. Источники внутри одной и той же записи могут не перекрываться. Видеодорожки могут иметь и эффекты, и переходы. Подсистема подготовки отчетов применяет эффекты перед применением переходов. Звуковые дорожки могут иметь эффекты, но не переходы. Дополнительные сведения см. [в разделе Модель временной шкалы](the-timeline-model.md).
 
@@ -67,7 +67,7 @@ ms.locfileid: "105689450"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -75,7 +75,7 @@ ms.locfileid: "105689450"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -85,7 +85,7 @@ ms.locfileid: "105689450"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

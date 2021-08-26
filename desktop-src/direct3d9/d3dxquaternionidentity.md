@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e2db9dd0638f5ba67b2dc2e8b8c248889225aaca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ca40cf6e600d63d7f50403821b39d41ff88104c68587416370202d0bfc66ef5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104354643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986434"
 ---
 # <a name="d3dxquaternionidentity-function"></a>Функция D3DXQuaternionIdentity
 
@@ -55,7 +55,7 @@ D3DXQUATERNION* D3DXQuaternionIdentity(
 
 Указатель на структуру [**D3DXQUATERNION**](d3dxquaternion.md) , которая является идентификатором кватерниона.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При наличии кватерниона (x, y, z, w) функция **D3DXQuaternionIdentity** возвратит кватернион (0, 0, 0, 1).
 
@@ -63,18 +63,18 @@ D3DXQUATERNION* D3DXQuaternionIdentity(
 
 Используйте [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) для любых входных данных кватернион, которые еще не нормализованы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9math. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

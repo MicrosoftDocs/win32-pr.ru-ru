@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Perfstruct.h
-ms.openlocfilehash: 599befea67b28acbedffd5c98ebce84aadf70838
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c7b8f83fffaa718c27e0333d864a564282228c0943f4d77fb653dc1800a6ddd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928194"
 ---
 # <a name="perfinfo_dshow_audiobreak-structure"></a>\_ \_ Структура аудиобреак перфинфо DSHOW
 
@@ -72,27 +72,27 @@ typedef struct PERFINFO_DSHOW_AUDIOBREAK {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Чтобы включить это событие, необходимо задать \_ флаг битов аудиобреак в параметре *енаблефлаг* при вызове **енаблетраце**. Этот флаг определен в файле заголовка Дксмперф. h, который включен в базовые классы DirectShow.
+Чтобы включить это событие, необходимо задать \_ флаг битов аудиобреак в параметре *енаблефлаг* при вызове **енаблетраце**. этот флаг определен в файле заголовка дксмперф. h, который включен в DirectShow базовых классов.
 
-Чтобы заносить это событие из фильтра DirectShow, используйте макрос **перфлог \_ аудиобреак** , который определен в дксмперф. h.
+чтобы заносить это событие из фильтра DirectShow, используйте макрос **перфлог \_ аудиобреак** , который определен в дксмперф. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Перфструкт. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Перфструкт. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Структуры DirectShow](directshow-structures.md)
+[DirectShow Сотрудник](directshow-structures.md)
 </dt> <dt>
 
 [Трассировка событий в DirectShow](event-tracing-in-directshow.md)

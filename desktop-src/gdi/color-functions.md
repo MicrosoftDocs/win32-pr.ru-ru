@@ -4,12 +4,12 @@ ms.assetid: 9dd32d4a-30bd-406f-a934-bb71ad4ca2cb
 title: Функции цвета
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d977165d69fc71a31df0358b99b683eb45ed23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ef9e233e5376718ac983982fd3f06e9fcd6c6fc5843d4a32d685fe64bbc1af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966314"
 ---
 # <a name="color-functions"></a>Функции цвета
 
@@ -28,7 +28,7 @@ ms.locfileid: "103812022"
 | [**жетпалеттинтриес**](/windows/desktop/api/Wingdi/nf-wingdi-getpaletteentries)             | Извлекает указанный диапазон элементов палитры из заданной логической палитры.                                                                        |
 | [**жетсистемпалеттинтриес**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries) | Извлекает диапазон записей палитры из системной палитры, связанной с указанным контроллером домена.                                                |
 | [**жетсистемпалеттеусе**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteuse)         | Извлекает текущее состояние системной (физической) палитры для указанного контроллера домена.                                                                    |
-| [**реализепалетте**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | Сопоставляет записи палитры из текущей логической палитры с системной палитрой.                                                                          |
+| [**реализепалетте**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | Карты записи палитры из текущей логической палитры в системную палитру.                                                                          |
 | [**ресизепалетте**](/windows/desktop/api/Wingdi/nf-wingdi-resizepalette)                     | Увеличивает или уменьшает размер логической палитры на основе указанного значения.                                                                    |
 | [**селектпалетте**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette)                     | Выбирает указанную логическую палитру в контексте устройства.                                                                                          |
 | [**сетколораджустмент**](/windows/desktop/api/Wingdi/nf-wingdi-setcoloradjustment)           | Задает значения коррекции цвета для контроллера домена, используя указанные значения.                                                                                 |

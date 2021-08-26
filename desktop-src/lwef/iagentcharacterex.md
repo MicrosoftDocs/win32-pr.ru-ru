@@ -4,16 +4,16 @@ description: иажентчарактерекс
 ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f92a9f9c39804d6b5d3ac777457fff5b7f03823c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04e4b6661641ebf472001e502a7fec3042332ea039ec94c01349d58bbe93346d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961964"
 ---
 # <a name="iagentcharacterex"></a>иажентчарактерекс
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 **Иажентчарактерекс** является производным от интерфейса [**иажентчарактер**](iagentcharacter.md) . Он включает все методы **иажентчарактер** , а также предоставляет доступ к дополнительным функциям.
 
@@ -49,11 +49,11 @@ ms.locfileid: "103888712"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

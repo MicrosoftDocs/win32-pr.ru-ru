@@ -1,19 +1,19 @@
 ---
 title: Начало работы с примером кода Win32
-description: Этот раздел содержит ссылки на образец кода для начала работы с Win32 и C++.
+description: этот раздел содержит ссылки на примеры кода для серии Начало работы с Win32 и C++.
 ms.assetid: 062006b4-e665-4c7c-a5eb-ee370449bd98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8d306edf16b7c1c8981eeee57a8b0b03740e69
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9945fde22990cd7b586c2d44b59066d34e6c51d85abeff093cd69ea7a7ed2172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105672283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897394"
 ---
 # <a name="get-started-with-win32-sample-code"></a>Начало работы с Win32: пример кода
 
-Этот раздел содержит ссылки на образец кода для [начала работы с Win32 и C++](learn-to-program-for-windows.md).
+этот раздел содержит ссылки на примеры кода для серии [Начало работы с Win32 и C++](learn-to-program-for-windows.md).
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -21,9 +21,9 @@ ms.locfileid: "105672283"
 
 | Раздел                                                                   | Описание                                                                                                                                       |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Пример Hello World Windows](windows-hello-world-sample.md)<br/> | В этом примере приложения показано, как создать минимальную программу Windows.<br/>                                                                 |
+| [Windows Hello Пример мира](windows-hello-world-sample.md)<br/> | в этом примере приложения показано, как создать минимальную Windows программу.<br/>                                                                 |
 | [Пример Басевиндов](basewindow-sample.md)<br/>                   | В этом примере приложения показано, как передавать данные о состоянии приложения в сообщение [**\_ нккреате WM**](/windows/desktop/winmsg/wm-nccreate) .<br/>          |
-| [Открыть образец диалогового окна](open-dialog-box-sample.md)<br/>         | В этом примере приложения показано, как инициализировать библиотеку модели COM и использовать API на основе COM в программе Windows.<br/> |
+| [Открыть образец диалогового окна](open-dialog-box-sample.md)<br/>         | в этом примере приложения показано, как инициализировать библиотеку модели com и использовать API на основе com в программе Windows.<br/> |
 | [Пример Direct2D Circle](direct2d-circle-sample.md)<br/>         | В этом примере приложения показано, как нарисовать круг с помощью Direct2D.<br/>                                                                     |
 | [Пример Direct2D Clock](direct2d-clock-sample.md)<br/>           | В этом примере приложения показано, как использовать преобразования в Direct2D для рисования стрелок часов.<br/>                                          |
 | [Пример рисования круга](draw-circle-sample.md)<br/>                 | В этом примере приложения показано, как использовать ввод с помощью мыши для рисования окружности.<br/>                                                                 |
@@ -33,7 +33,7 @@ ms.locfileid: "105672283"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

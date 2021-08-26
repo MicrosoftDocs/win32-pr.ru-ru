@@ -3,7 +3,7 @@ title: Network. Буфферингтиме
 description: Свойство Буфферингтиме указывает или получает время (в миллисекундах), выделенное для буферизации входящих данных перед началом воспроизведения.
 ms.assetid: b52b7f44-6be1-4299-94da-c37d758795af
 keywords:
-- Проигрыватель Windows Media Network. Буфферингтиме
+- проигрыватель Windows Media Network. буфферингтиме
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27b805173403268afff473db427b58193382afe6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afe4a68a7ad1ae8a1444f1e2f31ad09461e05d221e8fceae52960bd5927aac0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901734"
 ---
 # <a name="networkbufferingtime"></a>Network. Буфферингтиме
 
@@ -35,7 +35,7 @@ ms.locfileid: "105704212"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **буфферингтиме** , чтобы указать количество секунд, выделенных для буферизации входящих данных. Сведения извлекаются из HTML-элемента ввода текста, созданного с помощью ID = "Буфтекст". Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **буфферингтиме** , чтобы указать количество секунд, выделенных для буферизации входящих данных. Сведения извлекаются из HTML-элемента ввода текста, созданного с помощью ID = "Буфтекст". Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -55,18 +55,18 @@ ms.locfileid: "105704212"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

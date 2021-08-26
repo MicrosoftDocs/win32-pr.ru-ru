@@ -1,20 +1,20 @@
 ---
-title: Заявление о конфиденциальности (пакет SDK для Windows Media Format 11)
-description: Узнайте о заявлении о конфиденциальности, где разработчики, использующие пакет SDK для Windows Media Format 11, должны сообщить, как могут быть затронуты конфиденциальность пользователей.
+title: заявление о конфиденциальности (пакет SDK для Windows Media Format 11)
+description: узнайте о заявлении о конфиденциальности, где разработчики, использующие пакет SDK для Windows Media Format 11, должны сообщить, как может влиять конфиденциальность пользователей.
 ms.assetid: d2535273-6671-4bd7-9c43-cbb8093d1d52
 keywords:
-- Пакет SDK для Windows Media Format, заявление о конфиденциальности
+- Windows Пакет SDK для формата мультимедиа, заявление о конфиденциальности
 - заявление о конфиденциальности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5ba4440d75caa1e2f8ffcae6835a80e251d07cc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f67cdf752fa54976a7436d35b03ade4a927e11d1396c12cc8f68334aa86c3c16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929794"
 ---
-# <a name="privacy-statement-windows-media-format-11-sdk"></a>Заявление о конфиденциальности (пакет SDK для Windows Media Format 11)
+# <a name="privacy-statement-windows-media-format-11-sdk"></a>заявление о конфиденциальности (пакет SDK для Windows Media Format 11)
 
 Разработчики, создающие приложения на этом программном обеспечении, должны четко взаимодействовать с конечными пользователями, как это может повлиять на конфиденциальность конечных пользователей. 
 
@@ -22,7 +22,7 @@ ms.locfileid: "112404337"
 
 <dl> <dt>
 
-[**О пакете SDK для формата Windows Media**](about-the-windows-media-format-sdk.md)
+[**сведения о пакете SDK для Windows Media Format**](about-the-windows-media-format-sdk.md)
 </dt> </dl>
 
  

@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a0b0f0cb73cc60ff117399a636b0ab8542fac6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2861d12740f894cc17a91d6a3f4c2b6792d38f658063bc89474f3656a74b45f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917414"
 ---
 # <a name="win32_tcpipprinterport-class"></a>\_Класс Win32 ткпиппринтерпорт
 
@@ -75,7 +75,7 @@ class Win32_TCPIPPrinterPort : CIM_ServiceAccessPoint
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ ткпиппринтерпорт** имеет следующие свойства.
 
@@ -94,7 +94,7 @@ class Win32_TCPIPPrinterPort : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -179,7 +179,7 @@ class Win32_TCPIPPrinterPort : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -210,7 +210,7 @@ class Win32_TCPIPPrinterPort : CIM_ServiceAccessPoint
 
 </dd> <dt>
 
-**Протокол**
+**протокол**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -238,7 +238,7 @@ RAW
 
 <span id="2"></span>
 
-<span id="2"></span>**открыт**
+<span id="2"></span>**2**
 
 
 </dt> <dd>
@@ -504,7 +504,7 @@ LPR
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ ткпиппринтерпорт** является производным от [**CIM \_ сервицеакцесспоинт**](cim-serviceaccesspoint.md) , который является производным от [**CIM \_ логикалелемент**](cim-logicalelement.md).
 

@@ -13,12 +13,12 @@ keywords:
 - сложные многоугольники OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 475076f6372042d61c1662b445b7573709134c65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 948e0669348404af763883f7ff713212d52f6f0d79312812552c0e5053041627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034516"
 ---
 # <a name="tessellating-polygons"></a>Тесселяция многоугольников
 
@@ -44,9 +44,9 @@ OpenGL может напрямую отображать только прост�
 
 Дополнительные сведения о сохранении данных тесселяции см. в разделе [Использование функций обратного вызова](using-callback-functions.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Network. Максбитрате
 description: Свойство Максбитрате получает максимальную возможную скорость видео.
 ms.assetid: d1e6b548-0a2e-4bd4-8859-d504309a119e
 keywords:
-- Проигрыватель Windows Media Network. Максбитрате
+- проигрыватель Windows Media Network. максбитрате
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77522da2ef471a3be9208a9df30bf7435a5476e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8188b4c3019e5b420b3c8b60a7de2ea30eb7a52d1d080fa01c3d46f89308576
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901524"
 ---
 # <a name="networkmaxbitrate"></a>Network. Максбитрате
 
@@ -33,18 +33,18 @@ ms.locfileid: "105647927"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

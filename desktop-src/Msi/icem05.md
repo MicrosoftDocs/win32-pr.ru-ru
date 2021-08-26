@@ -4,12 +4,12 @@ ms.assetid: 1bf4041e-b198-4897-8719-8505fd8180ec
 title: ICEM05
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e62ca481ef836c2675c381817fe2242e37384818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ee34dbc16b9cf3aeaa16aec9b5d62671cd51036c563bfb8561815ad3c21d0ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996784"
 ---
 # <a name="icem05"></a>ICEM05
 
@@ -78,7 +78,7 @@ ModuleComponents table.
 
 Модуль слияния сообщает третью ошибку, так как модуль пытается добавить Component3 в целевую базу данных. Этот компонент не был связан с модулем в таблице Модулекомпонентс. Чтобы устранить эту ошибку, добавьте запись для Component3 в таблицу Модулекомпонентс.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

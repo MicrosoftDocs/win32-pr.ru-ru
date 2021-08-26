@@ -3,7 +3,7 @@ title: Атрибут Усерратинг
 description: Атрибут Усерратинг — это оценка, заданная пользователем в библиотеке.
 ms.assetid: 33df5316-1506-4ecb-b729-c2d66b878825
 keywords:
-- Усерратинг атрибут Windows Media Player
+- проигрыватель Windows Media атрибута усерратинг
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a25dd7b4e55195deaecf5228b9ad5bad9195c2c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41725119f97e0609931a3c9b7789e86d16a20507523e76a3f5642a0955998d6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001654"
 ---
 # <a name="userrating-attribute"></a>Атрибут Усерратинг
 
 Атрибут **усерратинг** — это оценка, заданная пользователем в библиотеке.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
@@ -31,7 +31,7 @@ ms.locfileid: "105704058"
 -   [Списки воспроизведения](playlist-attributes-ref.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Рейтинги пользователей представлены целыми значениями, как описано в следующей таблице. При указании значения используйте одно из значений в столбце запись значения. При извлечении значений можно использовать диапазоны в столбце значения для чтения, чтобы определить количество звезд.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105704058"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии (элемент Photo поддерживается только в проигрывателе Windows Media 10 или более поздней версии)<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии (элемент photo поддерживается только в проигрыватель Windows Media 10 или более поздней версии).<br/> |
 
 
 

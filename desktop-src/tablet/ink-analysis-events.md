@@ -4,12 +4,12 @@ ms.assetid: e12eddd4-57fb-4d64-90b1-e05d043013a2
 title: События анализа рукописного ввода
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cf5956e13da559676fbb63588fd81b9d98e385e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13aa32dc1274727c89c335027544ab5f11f5a41468598393402db6f39f22caf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939484"
 ---
 # <a name="ink-analysis-events"></a>События анализа рукописного ввода
 
@@ -28,7 +28,7 @@ ms.locfileid: "103990948"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

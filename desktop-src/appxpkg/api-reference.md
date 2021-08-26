@@ -1,19 +1,19 @@
 ---
 title: Интерфейсы API упаковки, развертывания и запросов
-description: Используйте эти API для создания, развертывания и запроса пакетов приложений для приложений Windows.
+description: используйте эти api для создания, развертывания и запроса пакетов приложений для Windows приложений.
 ms.assetid: B3FAE463-3B1D-402C-9698-8366D6A6380D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05958d06f2c18b89ec40d40fc2afe0e0243c61a5
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 08efc00b12125158d6e9e320a10fb181b87a57f0d50222e805054894207b0797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104336820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994224"
 ---
 # <a name="packaging-deployment-and-query-apis"></a>Интерфейсы API упаковки, развертывания и запросов
 
-Используйте эти API в классических приложениях для создания, использования, развертывания и запроса пакетов приложений для приложений Windows.
+используйте эти api в классических приложениях для создания, использования, развертывания или запроса пакетов приложений для Windows приложений:
 
 -   [API для упаковки](interfaces.md)
 -   [APIP для развертывание пакета](package-deployment-api.md)
@@ -31,7 +31,7 @@ ms.locfileid: "104336820"
 -   [**Windows. ApplicationModel. Package**](/uwp/api/Windows.ApplicationModel.Package)
 -   [**Windows. ApplicationModel. PackageId**](/uwp/api/Windows.ApplicationModel.PackageId)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -47,7 +47,7 @@ ms.locfileid: "104336820"
 [Пакеты и развертывание приложений](/previous-versions/windows/apps/hh464929(v=win.10))
 </dt> <dt>
 
-[Упаковка, развертывание и запрос приложений Windows](appx-portal.md)
+[упаковка, развертывание и запрос приложений Windows](appx-portal.md)
 </dt> <dt>
 
 [Словарь терминов](appx-packaging-glossary.md)
@@ -59,6 +59,6 @@ ms.locfileid: "104336820"
 [Схема манифеста пакета приложений](/uwp/schemas/appxpackage/appx-package-manifest)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0d3b5b1fa209be7fd472a87aec25a5e590d93c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cb62c9d90d5ac6346e25eaa3c254e0c6dd595805ec6901376ce9dccdf648289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103913208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996294"
 ---
 # <a name="pragma-deleteclass"></a>pragma делетекласс
 
@@ -39,7 +39,7 @@ ms.locfileid: "103913208"
 
 
 
-| Flag   | Описание                                                                                                  |
+| Флаг   | Описание                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------|
 | fail   | Приводит к выходу компилятора MOF с сообщением об ошибке, если класс еще не существует в репозитории. |
 | nofail | Приводит к тому, что компилятор MOF продолжит работу, даже если класс еще не существует.                                |

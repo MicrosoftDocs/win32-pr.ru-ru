@@ -3,9 +3,9 @@ title: Справочник по программированию подключ
 description: Справочник по программированию подключаемых модулей DSP
 ms.assetid: d3236352-c582-473e-a1d6-52e41a11496f
 keywords:
-- Проигрыватель Windows Media, подключаемые модули
-- Проигрыватель Windows Media, подключаемые модули DSP
-- Подключаемые модули проигрывателя Windows Media, обработка цифровых сигналов (DSP)
+- проигрыватель Windows Media, подключаемые модули
+- проигрыватель Windows Media, подключаемые модули DSP
+- подключаемые модули проигрыватель Windows Media, обработка цифровых сигналов (DSP)
 - подключаемые модули, обработка цифровых сигналов (DSP)
 - подключаемые модули обработки цифровых сигналов, Справочник по программированию
 - Подключаемые модули DSP, Справочник по программированию
@@ -13,16 +13,16 @@ keywords:
 - Справочник по подключаемым модулям DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b155893c0074b69d4681914ddfc9133714b02ea7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 81510b81ed2768d8167e297b7354907ebb0b9fcd1e6e5cdd3844221ba3904e0c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902014"
 ---
 # <a name="dsp-plug-ins-programming-reference"></a>Справочник по программированию подключаемых модулей DSP
 
-Пакет средств разработки программного обеспечения (SDK) проигрывателя Microsoft Windows Media поддерживает ряд интерфейсов и методов для подключаемых модулей обработки цифровых сигналов (DSP). Эти сведения подробно описаны в следующем разделе.
+пакет средств разработки Microsoft проигрыватель Windows Media Software Development Kit (SDK) поддерживает ряд интерфейсов и методов для подключаемых модулей обработки цифровых сигналов (DSP). Эти сведения подробно описаны в следующем разделе.
 
 
 
@@ -33,18 +33,18 @@ ms.locfileid: "104410891"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Подключаемые модули DSP проигрывателя Windows Media**](windows-media-player-dsp-plug-ins.md)
+[**проигрыватель Windows Media Подключаемые модули DSP**](windows-media-player-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

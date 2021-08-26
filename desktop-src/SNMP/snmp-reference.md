@@ -1,24 +1,24 @@
 ---
 title: Справочник по SNMP
-description: В этом разделе содержатся справочные сведения об элементах, определенных в API SNMP. Эти элементы поддерживают разработку приложений агента SNMP и SNMP-приложений для Windows XP/Windows 2000 и Windows NT.
+description: В этом разделе содержатся справочные сведения об элементах, определенных в API SNMP. эти элементы поддерживают разработку приложений агента snmp и приложений диспетчера snmp для Windows XP/Windows 2000/Windows NT.
 ms.assetid: f7bc8c17-57f6-45b5-8191-4cb2152ef782
 keywords:
 - Ссылка SNMP SNMP
 - Справочник по SNMP, SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83c1741e838e5d0a571a83a0cded001580290276
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 22886fad7c60f2d17df8181d4e3f775fe1dcd859dc2db0ae2c142b20af2f5c1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886414"
 ---
 # <a name="snmp-reference"></a>Справочник по SNMP
 
-\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого используйте [Служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
+\[Протокол SNMP доступен для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. вместо этого используйте [служба удаленного управления Windows](/windows/desktop/WinRM/portal), который является реализацией Microsoft WS-Man.\]
 
-В этом разделе содержатся справочные сведения об элементах, определенных в API SNMP. Эти элементы поддерживают разработку приложений агента SNMP и SNMP-приложений для Windows XP/Windows 2000 и Windows NT.
+В этом разделе содержатся справочные сведения об элементах, определенных в API SNMP. эти элементы поддерживают разработку приложений агента snmp и приложений диспетчера snmp для Windows XP/Windows 2000/Windows NT.
 
 
 
@@ -33,8 +33,8 @@ ms.locfileid: "104134407"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

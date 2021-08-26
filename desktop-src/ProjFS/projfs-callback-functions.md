@@ -4,12 +4,12 @@ description: Следующие функции обратного вызова �
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
 ms.topic: article
-ms.openlocfilehash: 1412fc4b406b668ad6651d69835f8cdea56857c5
-ms.sourcegitcommit: 62e758931c610782807c7c9fad284921a6c56232
+ms.openlocfilehash: 595fac418ce57e1e6caff718d75b458390efd31c2e8727cd2feb8ee5a5d86eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "103890175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031164"
 ---
 # <a name="callback-functions"></a>Функции обратного вызова
 

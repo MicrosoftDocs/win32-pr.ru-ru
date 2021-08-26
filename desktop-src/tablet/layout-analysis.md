@@ -4,12 +4,12 @@ ms.assetid: ac30d5c2-13a1-4f9e-a519-2bf428e21c75
 title: Анализ макета
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0901e7c7df96bec5ea3972f643469033fbb22ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8131859dd7e4c7bd6927db42bd605541001ac0f1222bfbf27b0e59809d4b7bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934824"
 ---
 # <a name="layout-analysis"></a>Анализ макета
 
@@ -22,7 +22,7 @@ ms.locfileid: "105719546"
 | Тип          | Описание                                                                      |
 |---------------|----------------------------------------------------------------------------------|
 | **Segment**   | Сегмент распознавания.<br/>                                                |
-| **Line**      | Строка рукописного ввода, содержащая один или несколько сегментов распознавания.<br/> |
+| **Линия**      | Строка рукописного ввода, содержащая один или несколько сегментов распознавания.<br/> |
 | **Paragraph** | Блок штрихов, содержащий одну или несколько строк рукописного ввода.<br/>    |
 | **Рисование**   | Рукописный ввод, не являющийся почерком.<br/>                                          |
 
