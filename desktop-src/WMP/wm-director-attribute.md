@@ -3,7 +3,7 @@ title: Атрибут WM/Director
 description: Атрибут WM/Director является именем режиссера.
 ms.assetid: 5ba29842-6cf3-48be-a555-b6a12ae91f13
 keywords:
-- Проигрыватель Windows Media, атрибут WM/Director
+- проигрыватель Windows Media атрибута WM/Director
 topic_type:
 - apiref
 api_name:
@@ -12,44 +12,44 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 923e1b39b8bebfb81ea65a990110f393ad246f4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: adef3e7bc32da34d4cfec684318fec7b2798e92a2ceeb7f9568a7c7b2237602a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001134"
 ---
 # <a name="wmdirector-attribute"></a>Атрибут WM/Director
 
 Атрибут **WM/Director** является именем режиссера.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
--   [Часто используемые атрибуты файлов Windows Media](commonly-used-windows-media-file-attributes.md)
+-   [часто используемые Windows атрибуты файла мультимедиа](commonly-used-windows-media-file-attributes.md)
 -   [DVD-диски](dvd-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится как в библиотеке (или в кэше), так и в файле цифрового носителя.
 
 **Режиссер** — это псевдоним для этого атрибута.
 
-Константа Windows Media Format SDK для этого атрибута — g \_ всзвмдиректор.
+константа пакета SDK Windows Media Format для этого атрибута — g \_ всзвмдиректор.
 
 Чтобы определить, можно ли изменить значение этого атрибута, используйте метод [Media. исреадонлитем](media-isreadonlyitem.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

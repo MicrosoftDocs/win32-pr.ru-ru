@@ -4,12 +4,12 @@ ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
 title: OPM_GET_CONNECTOR_TYPE (Опмапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a95ca88b079aa93b4c2665fe7aa954eb58cfc1a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3099da66193048b52011e58eb5ce3f925d451fc1ad26b193f2955f6012f0e607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887504"
 ---
 # <a name="opm_get_connector_type"></a>ОПМ \_ получить \_ \_ Тип соединителя
 
@@ -27,7 +27,7 @@ ms.locfileid: "104263506"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Тип соединителя возвращается в элементе **улинформатион** [**\_ \_ информационной структуры ОПМ Standard**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . Значение **улинформатион** равно одному из типов соединителей, перечисленных в списке [**флагов типа соединителя ОПМ**](opm-connector-type-flags.md).
 
@@ -39,19 +39,19 @@ ms.locfileid: "104263506"
 
 Этот запрос эквивалентен \_ запросу дксва коппкуериконнектортипе, используемому в сертифицированном протоколе защиты выходных данных (Копп).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                      |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                      |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Опмапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

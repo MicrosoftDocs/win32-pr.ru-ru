@@ -6,12 +6,12 @@ keywords:
 - ариалайауттаблиррорид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae1ef7cae971e6dc365bd3f8ebe6135561f3ff3
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 896c7ec4061119535ed544cfc41598c1387d98011eb275f6a0345d9334a7dc9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103797089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122292"
 ---
 # <a name="aria-presentation-table-error"></a>Ошибка таблицы представления ARIA
 
@@ -21,7 +21,7 @@ ms.locfileid: "103797089"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -39,13 +39,13 @@ ms.locfileid: "103797089"
 
 ![HTML для элемента table с такими атрибутами, как Summary, которые активируют ошибку таблицы представления ARIA, показанную в виде HTML-разметки. ](images/aria-layout-table.png)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если определено, что таблица требует специальных сведений, удалите атрибут [**Role**](https://developer.mozilla.org/docs/Web/HTML/Reference) или задайте для него значение, отличное от Presentation.
 
- 
+ 
 
- 
+ 
 
 
 

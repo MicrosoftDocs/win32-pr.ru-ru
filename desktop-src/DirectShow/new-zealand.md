@@ -4,12 +4,12 @@ ms.assetid: a314d0b1-9e4f-42dd-914a-65a8f3610300
 title: Новая Зеландия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9879e89f6460ab25aa93594001068526404dcd84
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 63f8f95412f4c8038708ddfde068fd1ddb27aca78bc50206484640ffb552a700
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102394"
 ---
 # <a name="new-zealand"></a>Новая Зеландия
 
@@ -17,7 +17,7 @@ ms.locfileid: "112067989"
 
 Индексы частоты в таблице вещания Новой Зеландии подходят для использования в качестве номеров каналов. индексы частоты кабелей не подходят для использования в качестве номеров каналов.
 
--   [Windows 7 и более поздние версии](#windows-7-and-later)
+-   [Windows 7 и более поздних версий](#windows-7-and-later)
     -   [Широковещательные назначения Новой Зеландии](#new-zealand-broadcast-assignments)
     -   [Назначения кабелей Новой Зеландии](#new-zealand-cable-assignments)
 -   [Предыдущие назначения каналов](#earlier-channel-assignments)
@@ -25,7 +25,7 @@ ms.locfileid: "112067989"
     -   [Назначения кабелей Новой Зеландии](#new-zealand-cable-assignments)
 -   [Связанные темы](#related-topics)
 
-## <a name="windows-7-and-later"></a>Windows 7 и более поздние версии
+## <a name="windows-7-and-later"></a>Windows 7 и более поздних версий
 
 ### <a name="new-zealand-broadcast-assignments"></a>Широковещательные назначения Новой Зеландии
 

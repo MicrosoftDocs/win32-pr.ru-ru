@@ -7,12 +7,12 @@ MSHAttr:
 title: пурпосеграупс
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 370cf6b0dc13848ca21a2a06e0b9806d753878c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3b158938e1a41f6ab8d3f1df0cae6a2166bc21c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692248"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630940"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupsspanpurposegroups"></a><span id="WWAN_profile_v4.element_PurposeGroups"></span>пурпосеграупс
 
@@ -46,19 +46,19 @@ ms.locfileid: "105692248"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Дочерний элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -76,7 +76,7 @@ ms.locfileid: "105692248"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Интернет</td>
+<td>Internet</td>
 <td>3E5545D2-1137-4DC8-A198-33F1C657515F</td>
 </tr>
 <tr class="even">
@@ -104,13 +104,13 @@ ms.locfileid: "105692248"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Родительский элемент</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -128,8 +128,8 @@ ms.locfileid: "105692248"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

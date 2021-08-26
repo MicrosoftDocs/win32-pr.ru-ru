@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee05e7927bd6c9adb086a09f76b9022affd74792
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 369a0f3abf4cee54f92c9bfd846557623de5e23fffd4724a701ca7c04aa818af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105676017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028524"
 ---
 # <a name="rasadminportdisconnect-function"></a>Функция Расадминпортдисконнект
 
-\[Эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. Он возвращает \_ вызов ошибки \_ \_ , не реализованный в Windows Server 2003. Приложения должны использовать функцию [**мпрадминпортдисконнект**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportdisconnect) .\]
+\[эта функция предоставляется только для обеспечения обратной совместимости с Windows NT Server 4,0. он возвращает \_ вызов ошибки \_ \_ , не реализованный на сервере Windows 2003. Приложения должны использовать функцию [**мпрадминпортдисконнект**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportdisconnect) .\]
 
 Функция **расадминпортдисконнект** отключает порт, который используется в данный момент.
 
@@ -46,7 +46,7 @@ DWORD RasAdminPortDisconnect(
 *лпсзсервер* \[ окне\]
 </dt> <dd>
 
-Указатель на строку в Юникоде, заканчивающуюся нулем, которая указывает имя сервера удаленного доступа Windows NT или Windows 2000. Укажите имя с начальными \\ \\ символами в формате: \\ \\ *ServerName*.
+указатель на строку в юникоде, заканчивающуюся нулем, которая указывает имя сервера RAS Windows NT/Windows 2000. Укажите имя с начальными \\ \\ символами в формате: \\ \\ *ServerName*.
 
 </dd> <dt>
 
@@ -76,7 +76,7 @@ DWORD RasAdminPortDisconnect(
 
 Расширенные сведения об ошибке для этой функции отсутствуют. не вызывайте [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,13 +84,13 @@ DWORD RasAdminPortDisconnect(
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Окончание поддержки клиента<br/> | Windows 2000 Professional<br/>                                                   |
 | Поддержка конца сервера<br/> | Windows 2000 Server<br/>                                                         |
-| Header<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
+| Заголовок<br/>                | <dl> <dt>Рассапи. h</dt> </dl>   |
 | Библиотека<br/>               | <dl> <dt>Рассапи. lib</dt> </dl> |
 | DLL<br/>                   | <dl> <dt>Rassapi.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

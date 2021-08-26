@@ -3,7 +3,7 @@ title: VIEW. Тимеринтервал
 description: Атрибут Тимеринтервал указывает или получает интервал (в миллисекундах), в течение которого таймер запускает события в обработчик событий OnTime.
 ms.assetid: 1a69890f-5ea4-493a-8a9e-04fe60a41804
 keywords:
-- Просмотреть. Тимеринтервал проигрыватель Windows Media
+- просмотреть. тимеринтервал проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 790c95fbb2cded134222271d04c4c37dae412b8d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f43b2b7bbd87663a35c43db733d3e11ff0dca5bc3ddfd00e57022b4df7122c3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001314"
 ---
 # <a name="viewtimerinterval"></a>VIEW. Тимеринтервал
 
@@ -44,7 +44,7 @@ ms.locfileid: "105717792"
 
 Любое значение ниже 50 (включая отрицательные числа, но не включая ноль) приводит к ошибке, а предыдущее значение сохраняется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это не будет срабатывать автоматически, если не реализован обработчик событий OnTime **time** . Поэтому производительность не снижается, несмотря на то, что значение по умолчанию не равно нулю.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105717792"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 

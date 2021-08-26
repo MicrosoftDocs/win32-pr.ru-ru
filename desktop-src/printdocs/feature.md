@@ -4,12 +4,12 @@ ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: Компонент
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b28ab7e8cc69ecc9ba3956fbae3c5278baace8cf
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d3d35686674d08ea0ea4030648b06803919e5d07
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882493"
 ---
 # <a name="feature"></a>Компонент
 
@@ -19,7 +19,7 @@ ms.locfileid: "113120639"
 
 ## <a name="element-tag"></a>Тег элемента
 
-<Feature>
+&lt;Компонент&gt;
 
 ## <a name="xml-attributes"></a>XML-атрибуты
 
@@ -43,43 +43,13 @@ ms.locfileid: "113120639"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Категория</th>
-<th>Сведения</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Родительские элементы<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> Компонент<br/></td>
-</tr>
-<tr class="even">
-<td>Дочерние элементы<br/></td>
-<td>Одна из следующих групп:<br/>
-<ul>
-<li><em>Функция</em> (ноль или более)<br/></li>
-<li><em>Параметр</em> (один или более)<br/></li>
-<li><em>Свойство</em> (ноль или более)<br/></li>
-</ul>
-или <br/>
-<ul>
-<li><em>Функция</em> (одна или несколько)<br/></li>
-<li><em>Параметр</em> (ноль или более)<br/></li>
-<li><em>Свойство</em> (ноль или более)<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Этот элемент<br/></td>
-<td>Символьные данные не допускаются.<br/> Допускаются дублирующиеся дочерние элементы Option, являющиеся одноуровневыми элементами. Разрешены ярлыки атрибутов повторяющихся имен. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Категория | Сведения | 
+|----------|---------|
+| Родительские элементы<br /> | PrintCapabilities <br /> PrintTicket <br /> Компонент<br /> | 
+| Дочерние элементы<br /> | Одна из следующих групп:<br /><ul><li><em>Функция</em> (ноль или более)<br /></li><li><em>Параметр</em> (один или более)<br /></li><li><em>Свойство</em> (ноль или более)<br /></li></ul>или <br /><ul><li><em>Функция</em> (одна или несколько)<br /></li><li><em>Параметр</em> (ноль или более)<br /></li><li><em>Свойство</em> (ноль или более)<br /></li></ul> | 
+| Этот элемент<br /> | Символьные данные не допускаются.<br /> Допускаются дублирующиеся дочерние элементы Option, являющиеся одноуровневыми элементами. Разрешены ярлыки атрибутов повторяющихся имен. <br /> | 
+
 
 
 

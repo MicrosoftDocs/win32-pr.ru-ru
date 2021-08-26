@@ -4,12 +4,12 @@ ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: Кодировщик AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9730ffc17d7ac3d5e16d86ef5aa20a46b329cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 674ad291e1cf6b56f7ffef640fade683265b62a7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897525"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465641"
 ---
 # <a name="aac-encoder"></a>Кодировщик AAC
 
@@ -31,56 +31,15 @@ ms.locfileid: "103897525"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Основной тип.</td>
-<td>Необходимо <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Подтип.</td>
-<td>Необходимо <strong>MFAudioFormat_PCM</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Бит на выборку.</td>
-<td>Должно быть 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Выборок в секунду.</td>
-<td>Поддерживаются следующие значения.
-<ul>
-<li>44100 (44,1 кГц)</li>
-<li>48000 (48 кГц)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Число каналов.</td>
-<td>Должно быть 1 (моно) или 2 (стерео) или 6 (5,1).
-<blockquote>
-[!Note]<br />
-Поддержка 6 звуковых каналов была представлена в Windows 10 и недоступна для более ранних версий Windows.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Основной тип. | Необходимо <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Подтип. | Необходимо <strong>MFAudioFormat_PCM</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Бит на выборку. | Должно быть 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Выборок в секунду. | Поддерживаются следующие значения.<ul><li>44100 (44,1 кГц)</li><li>48000 (48 кГц)</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Число каналов. | Должно быть 1 (моно) или 2 (стерео) или 6 (5,1).<blockquote>[!Note]<br />поддержка 6 звуковых каналов была представлена в Windows 10 и недоступна для более ранних версий Windows.</blockquote><br /> | 
+
 
 
 
@@ -98,81 +57,18 @@ ms.locfileid: "103897525"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-<th>Remarks</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Основной тип.</td>
-<td>Необходимо <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Подтип аудио.</td>
-<td>Необходимо <strong>MFAudioFormat_AAC</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Бит на выборку.</td>
-<td>Должно быть 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Выборок в секунду.</td>
-<td>Должен соответствовать типу входных данных.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Число каналов.</td>
-<td>Должен соответствовать типу входных данных.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Битовая скорость закодированного потока AAC в байтах в секунду.</td>
-<td>Поддерживаются следующие значения.
-<ul>
-<li>12000</li>
-<li>16000</li>
-<li>20 000</li>
-<li>24 000</li>
-</ul>
-Значение по умолчанию для Mono и стерео — 12000 (96 Кбит/с).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>Тип полезных данных AAC.</td>
-<td>Необязательный элемент. Если задано, значение должно быть равно нулю, что означает, что поток содержит только элементы raw_data_block.<br/> Необязательный элемент. Если атрибут не задан, значение по умолчанию равно нулю, что означает, что поток содержит только элементы raw_data_block (необработанные AAC). <br/> Если этот атрибут задан, в Windows 7 значение должно быть равно нулю.<br/> Начиная с Windows 8, значением может быть 0 (RAW AAC) или 1 (ADTS AAC). <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>Профиль аудио AAC и уровень.</td>
-<td>Необязательный элемент. Поддерживаются следующие значения.
-<ul>
-<li>0x29 (по умолчанию)</li>
-<li>0x2A</li>
-<li>0x2B</li>
-<li>0x2C</li>
-<li>0x2E</li>
-<li>0x2F</li>
-<li>0x30</li>
-<li>0x31</li>
-<li>0x32</li>
-<li>0x33</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | Remarks | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Основной тип. | Необходимо <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Подтип аудио. | Необходимо <strong>MFAudioFormat_AAC</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Бит на выборку. | Должно быть 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Выборок в секунду. | Должен соответствовать типу входных данных. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Число каналов. | Должен соответствовать типу входных данных. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Битовая скорость закодированного потока AAC в байтах в секунду. | Поддерживаются следующие значения.<ul><li>12000</li><li>16000</li><li>20 000</li><li>24 000</li></ul>Значение по умолчанию для Mono и стерео — 12000 (96 Кбит/с).<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Тип полезных данных AAC. | Необязательный элемент. Если задано, значение должно быть равно нулю, что означает, что поток содержит только элементы raw_data_block.<br /> Необязательный элемент. Если атрибут не задан, значение по умолчанию равно нулю, что означает, что поток содержит только элементы raw_data_block (необработанные AAC). <br /> в Windows 7, если этот атрибут задан, значение должно быть равно нулю.<br /> начиная с Windows 8, значение может быть равно 0 (raw AAC) или 1 (ADTS AAC). <br /> | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Профиль аудио AAC и уровень. | Необязательный элемент. Поддерживаются следующие значения.<ul><li>0x29 (по умолчанию)</li><li>0x2A</li><li>0x2B</li><li>0x2C</li><li>0x2E</li><li>0x2F</li><li>0x30</li><li>0x31</li><li>0x32</li><li>0x33</li></ul> | 
+
 
 В следующей таблице перечислены значения, которые можно использовать для атрибута MF_MT_AAC_PROFILE_LEVEL_INDICATION.
 
@@ -276,13 +172,13 @@ LONGLONG hnsSampleDuration =
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                 |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mfaacenc.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

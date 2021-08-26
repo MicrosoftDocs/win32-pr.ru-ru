@@ -3,9 +3,9 @@ title: Ивмпнетворк Енкодедфрамерате, свойство
 description: Свойство Енкодедфрамерате возвращает частоту кадров видео, указанную автором содержимого.
 ms.assetid: 4faf5675-5bf3-485d-802f-a1f900ddae63
 keywords:
-- Проигрыватель Windows Media для свойства Енкодедфрамерате
-- Енкодедфрамерате свойство проигрывателя Windows Media Player, интерфейс Ивмпнетворк
-- Интерфейс Ивмпнетворк Windows Media Player, свойство Енкодедфрамерате
+- проигрыватель Windows Media свойства енкодедфрамерате
+- проигрыватель Windows Media свойства енкодедфрамерате, интерфейс ивмпнетворк
+- проигрыватель Windows Media интерфейса ивмпнетворк, свойство енкодедфрамерате
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4176a9c2492d0ce34ffd0936c48dbdef065d1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 33f8a08572f65e1e44027ed25d84acfe7d917f92bf4bb63d5d9b8cca1e1201d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000014"
 ---
 # <a name="iwmpnetworkencodedframerate-property"></a>Свойство Ивмпнетворк:: Енкодедфрамерате
 
@@ -107,19 +107,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

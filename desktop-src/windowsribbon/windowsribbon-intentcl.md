@@ -14,12 +14,12 @@ keywords:
 - компиляция Windows разметки ленты
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85534a05b3bde59cc2ec0eec482d8c3b47e898d39ad988c595fbac33eb5e9f36
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cefd64103ceb501e8f4d23e937a242e910b0cad5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932572"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884907"
 ---
 # <a name="compiling-ribbon-markup"></a>Компиляция разметки ленты
 
@@ -29,7 +29,7 @@ ms.locfileid: "119932572"
 -   [Синтаксис командной строки](#command-line-syntax)
     -   [Аргументы и параметры](#arguments-and-options)
     -   [Пример](#example)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
 ## <a name="compiler-workflow"></a>Рабочий процесс компилятора
 
@@ -61,8 +61,8 @@ UICC <ribbonFile> <binaryFile> [options]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,8 +72,8 @@ UICC <ribbonFile> <binaryFile> [options]
 </thead>
 <tbody>
 <tr class="odd">
-<td>/Header<headerFile></td>
-<td>Создайте заголовочный файл <headerFile> с именем, содержащий символы ресурса идентификатора команды разметки. Если этот параметр опущен, файл заголовка не создается.</td>
+<td>/Header: &lt; хеадерфиле&gt;</td>
+<td>Создайте файл заголовка с именем &lt; хеадерфиле &gt; , содержащий символы ресурса идентификатора команды разметки. Если этот параметр опущен, файл заголовка не создается.</td>
 </tr>
 <tr class="even">
 <td>/RES<resourceFile></td>

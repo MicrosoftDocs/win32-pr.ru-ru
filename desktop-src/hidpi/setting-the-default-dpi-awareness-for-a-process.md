@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: c9192bf650588b7c21f17afb45149fe460f91bea
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880525"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>Настройка отслеживания количества точек на дюйм по умолчанию для процесса
 
@@ -33,44 +33,14 @@ ms.locfileid: "113481869"
 
 В следующей таблице показано, как задать различные режимы поддержки DPI по умолчанию для процессов с помощью двух параметров манифеста:
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Обработка режима поддержки DPI по умолчанию</th>
-<th>&lt;&gt;параметр дпиаваре</th>
-<th>&lt;&gt;параметр дпиаваренесс (Windows 10, версия 1607 и более поздние)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>связан</td>
-<td><p>Н/д (нет параметра Дпиаваре в манифесте)</p>
-<p>or</p>
-<p>&lt;Дпиаваре &gt; false &lt; /дпиаваре&gt;</p></td>
-<td>&lt;Дпиаваренесс &gt; &lt; /дпиаваренесс&gt;</td>
-</tr>
-<tr class="even">
-<td>С учетом системы</td>
-<td>&lt;Дпиаваре &gt; Истина &lt; /дпиаваре&gt;</td>
-<td>&lt;Дпиаваренесс &gt; System &lt; /дпиаваренесс&gt;</td>
-</tr>
-<tr class="odd">
-<td>На монитор</td>
-<td>&lt;Дпиаваре &gt; true/PM &lt; дпиаваре&gt;</td>
-<td>&lt;Дпиаваренесс &gt; пермонитор &lt; /дпиаваренесс&gt;</td>
-</tr>
-<tr class="even">
-<td>На монитор версии 2</td>
-<td>Не поддерживается</td>
-<td>&lt;Дпиаваренесс &gt; PerMonitorV2 &lt; /дпиаваренесс&gt;</td>
-</tr>
-</tbody>
-</table>
+
+| Обработка режима поддержки DPI по умолчанию | &lt;&gt;параметр дпиаваре | &lt;&gt;параметр дпиаваренесс (Windows 10, версия 1607 и более поздние) | 
+|------------------------------------|--------------------|--------------------------------------------------------------|
+| связан | <p>Н/д (нет параметра Дпиаваре в манифесте)</p><p>или</p><p>&lt;Дпиаваре &gt; false &lt; /дпиаваре&gt;</p> | &lt;Дпиаваренесс &gt; &lt; /дпиаваренесс&gt; | 
+| С учетом системы | &lt;Дпиаваре &gt; Истина &lt; /дпиаваре&gt; | &lt;Дпиаваренесс &gt; System &lt; /дпиаваренесс&gt; | 
+| На монитор | &lt;Дпиаваре &gt; true/PM &lt; дпиаваре&gt; | &lt;Дпиаваренесс &gt; пермонитор &lt; /дпиаваренесс&gt; | 
+| На монитор версии 2 | Не поддерживается | &lt;Дпиаваренесс &gt; PerMonitorV2 &lt; /дпиаваренесс&gt; | 
+
 
  
 
@@ -96,48 +66,13 @@ ms.locfileid: "113481869"
 
  
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>API</th>
-<th>Минимальная версия Windows</th>
-<th>Неосведомленность DPI</th>
-<th>Учитывать DPI системы</th>
-<th>На уровне DPI для каждого монитора</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">сетпроцессдпиаваре</a></td>
-<td>Windows Vista</td>
-<td>Н/Д</td>
-<td>Сетпроцессдпиаваре ()</td>
-<td>Н/Д</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>сетпроцессдпиаваренесс</strong></a></td>
-<td>Windows 8.1</td>
-<td>Сетпроцессдпиаваренесс (PROCESS_DPI_UNAWARE)</td>
-<td>Сетпроцессдпиаваренесс (PROCESS_SYSTEM_DPI_AWARE)</td>
-<td>Сетпроцессдпиаваренесс (PROCESS_PER_MONITOR_DPI_AWARE)</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>сетпроцессдпиаваренессконтекст</strong></a></td>
-<td>Windows 10, версия 1607</td>
-<td>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_UNAWARE)</td>
-<td>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)</td>
-<td><p>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p>
-<p>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p></td>
-</tr>
-</tbody>
-</table>
+
+| API | Минимальная версия Windows | Неосведомленность DPI | Учитывать DPI системы | На уровне DPI для каждого монитора | 
+|-----|----------------------------|-------------|------------------|-----------------------|
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">сетпроцессдпиаваре</a> | Windows Vista | Недоступно | Сетпроцессдпиаваре () | Недоступно | 
+| <a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>сетпроцессдпиаваренесс</strong></a> | Windows 8.1 | Сетпроцессдпиаваренесс (PROCESS_DPI_UNAWARE) | Сетпроцессдпиаваренесс (PROCESS_SYSTEM_DPI_AWARE) | Сетпроцессдпиаваренесс (PROCESS_PER_MONITOR_DPI_AWARE) | 
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>сетпроцессдпиаваренессконтекст</strong></a> | Windows 10, версия 1607 | Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_UNAWARE) | Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE) | <p>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p><p>Сетпроцессдпиаваренессконтекст (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p> | 
+
 
  
 

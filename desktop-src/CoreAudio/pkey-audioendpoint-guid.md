@@ -4,12 +4,12 @@ ms.assetid: d3119504-9b6a-47b8-b3c6-15cb329929cb
 title: PKEY_AudioEndpoint_GUID (Ммдевицеапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45405cd2350777e535b50859e77aa56755d191fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 357531a76316381e9ae39f867a5b6cfa0a055a04f41b0cba5fab95fcccbcc7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104364"
 ---
 # <a name="pkey_audioendpoint_guid"></a>\_Идентификатор PKEY аудиоендпоинт \_
 
@@ -24,7 +24,7 @@ ms.locfileid: "105647147"
 Например, приложение DirectSound выполняет следующие действия, чтобы создать устройство DirectSound, соответствующее устройству конечной точки отрисовки, к которому пользователь назначил роль Емултимедиа:
 
 1.  Вызовите метод [**иммдевицеенумератор:: жетдефаултаудиоендпоинт**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) , чтобы получить интерфейс [**иммдевице**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) устройства конечной точки отрисовки с ролью емултимедиа.
-2.  Вызовите метод [**иммдевице:: опенпропертисторе**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) , чтобы получить интерфейс **ипропертисторе** устройства емултимедиа. Дополнительные сведения о **ипропертисторе** см. в документации по Windows SDK.
+2.  Вызовите метод [**иммдевице:: опенпропертисторе**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) , чтобы получить интерфейс **ипропертисторе** устройства емултимедиа. дополнительные сведения о **ипропертисторе** см. в документации по Windows SDK.
 3.  Вызовите метод **ипропертисторе:: GetValue** , чтобы получить \_ \_ значение свойства аудиоендпоинт GUID PKEY.
 4.  Преобразование значения свойства из GUID в строковом формате в 16-байтовую структуру GUID.
 5.  Вызовите функцию **директсаундкреате** с идентификатором GUID, чтобы создать устройство с ролью емултимедиа.
@@ -38,19 +38,19 @@ ms.locfileid: "105647147"
 
 Пример кода, в котором используется свойство PKEY \_ аудиоендпоинт \_ GUID, см. в разделе [роли устройств для приложений DirectSound](device-roles-for-directsound-applications.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                     |
-| Header<br/>                   | <dl> <dt>Ммдевицеапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                     |
+| Заголовок<br/>                   | <dl> <dt>Ммдевицеапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

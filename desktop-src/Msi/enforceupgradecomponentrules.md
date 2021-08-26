@@ -4,12 +4,12 @@ ms.assetid: 0d39c059-d936-454c-aed8-efedd3da7473
 title: енфорцеупградекомпонентрулес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a2fc093c2f0beb4167374f93447d978bbca8eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 882d7df0e794dfb89ab2211db1fada576bd6e056972810d582385c1404e625a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086074"
 ---
 # <a name="enforceupgradecomponentrules"></a>енфорцеупградекомпонентрулес
 
@@ -29,23 +29,23 @@ ms.locfileid: "103998691"
 
     Это также может произойти при изменении идентификатора GUID компонента. Компонент, идентифицируемый исходным идентификатором GUID, будет удален, а компонент, определенный новым GUID, появится как новый компонент.
 
-    **Установщик Windows 4,5 и более поздних версий:** Компонент можно правильно удалить с помощью установщик Windows 4,5 или более поздней версии, задав атрибут **мсидбкомпонентаттрибутесунинсталлонсуперседенце** в [таблице Component](component-table.md) или задав свойство [**мсиунинсталлсуперседедкомпонентс**](msiuninstallsupersededcomponents.md) .
+    **установщик Windows 4,5 и более поздних версий:** компонент можно правильно удалить с помощью установщик Windows 4,5 или более поздней версии, задав атрибут **мсидбкомпонентаттрибутесунинсталлонсуперседенце** в [таблице component](component-table.md) или задав свойство [**мсиунинсталлсуперседедкомпонентс**](msiuninstallsupersededcomponents.md) .
 
     Кроме того, [**код**](productcode.md) продукта может быть изменен, и обновления могут рассматриваться как [основные обновления](major-upgrades.md).
 
 ## <a name="registry-key"></a>Ключ реестра
 
-**HKey \_ \_** \\ **Политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
+**HKey \_ \_** \\ **политики программного обеспечения** локального компьютера \\  \\  \\  \\ **установщик** Microsoft Windows
 
 ## <a name="data-type"></a>Тип данных
 
 **REG \_ DWORD**
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
+[не поддерживается в установщик Windows 2,0 и более ранних версиях](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

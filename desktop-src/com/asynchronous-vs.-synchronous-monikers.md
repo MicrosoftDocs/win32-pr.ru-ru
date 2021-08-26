@@ -4,12 +4,12 @@ description: Асинхронные и синхронные моникеры
 ms.assetid: 79c7894d-956a-4c86-8806-2c6c7faa6034
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d54ee1b5f31941774944463baad893058fd15ad
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: c631c669d73796d1596f52ab2ec6e724829ea80e6873523c1e9bd4f8ad567f09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104566188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071120"
 ---
 # <a name="asynchronous-and-synchronous-monikers"></a>Асинхронные и синхронные моникеры
 
@@ -25,7 +25,7 @@ ms.locfileid: "104566188"
 
 Чтобы получить асинхронное поведение, клиент реализует интерфейс [**метода интерфейса IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) в объекте обратного вызова состояния привязки и вызывает функцию [**Регистербиндстатускаллбакк**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) или функцию [**креатеасинкбиндкткс**](/windows/desktop/api/Urlmon/nf-urlmon-createasyncbindctx) для регистрации этого интерфейса в контексте привязки. Моникер передает указатель на свой интерфейс [**ибиндинг**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) в вызове метода [**метода интерфейса IBindStatusCallback:: онстартбиндинг**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85)) . Клиент сообщает асинхронному моникеру, как он хочет выполнить привязку при возврате из вызова метода [**метода интерфейса IBindStatusCallback:: GetBindInfo**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775058(v=vs.85)) в моникере.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

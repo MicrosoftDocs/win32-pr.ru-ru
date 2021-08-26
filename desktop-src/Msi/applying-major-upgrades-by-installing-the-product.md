@@ -4,12 +4,12 @@ ms.assetid: f4fb28be-5ec0-4eac-9d4d-eccf5bd61ac4
 title: Применение основных обновлений путем установки продукта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7619b2ae2b8e1f10cac2fcfae61dde0c6dbba5d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79570051ddbff27b12a11e04e41c37f4babad96ff045bc408e00c2b7164b263a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045684"
 ---
 # <a name="applying-major-upgrades-by-installing-the-product"></a>Применение основных обновлений путем установки продукта
 

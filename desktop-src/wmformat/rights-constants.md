@@ -3,19 +3,19 @@ title: Константы прав
 description: Константы прав
 ms.assetid: fb20dc57-25da-4613-a324-e081ba87df73
 keywords:
-- Windows Media Format SDK, константы
+- Windows Пакет SDK для формата мультимедиа, константы
 - Управление цифровыми правами (DRM), константы
 - DRM (Управление цифровыми правами), константы
 - Расширенные API клиента DRM, константы
 - Расширенные API клиента, константы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1349da53b63b1b7df59c13e0e69f7fdbf47ee3f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088c3130551a6798900ea77cc3628cb784ff7c70b418795157b203ab2f71b64e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104133014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110144"
 ---
 # <a name="rights-constants"></a>Константы прав
 
@@ -39,18 +39,18 @@ ms.locfileid: "104133014"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Константы**](constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

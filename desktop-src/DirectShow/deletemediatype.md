@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: db0de399ab1be7808370a6d0da57c4c3ca7b8de1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6035b65d6bf292f6ca35c4323ac5ad90c747b0cfd4bfa756b1f054d7b693d998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998394"
 ---
 # <a name="deletemediatype-function"></a>Функция Делетемедиатипе
 
@@ -53,11 +53,11 @@ void WINAPI DeleteMediaType(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция используется для освобождения любой структуры типа мультимедиа, выделенной с помощью инструкции [**CoTaskMemAlloc**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc) или [**креатемедиатипе**](createmediatype.md).
 
-Эта функция определена в библиотеке [базовых классов DirectShow](directshow-base-classes.md) . Если вы предпочитаете не ссылаться на библиотеку базовых классов, можно использовать следующий код:
+эта функция определена в библиотеке [DirectShow базовых классов](directshow-base-classes.md) . Если вы предпочитаете не ссылаться на библиотеку базовых классов, можно использовать следующий код:
 
 
 ```C++
@@ -101,7 +101,7 @@ void _DeleteMediaType(AM_MEDIA_TYPE *pmt)
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>мтипе. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

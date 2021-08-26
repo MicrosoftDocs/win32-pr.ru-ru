@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b22524d356bad5f23f4ca1cc8a3e7c68e69fd83f0dc38e64eba70bc1812436f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a60d6ed17c6a5524af2a9bb54f386a325f63c10
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880243"
 ---
 # <a name="starting-and-stopping-the-wmi-service"></a>Запуск и остановка службы WMI
 
@@ -29,7 +29,7 @@ ms.locfileid: "118315012"
 
 **Запуск службы WinMgmt**
 
-1.  В командной строке введите **net** **Start** **Winmgmt** \[ */<switch>* \] .
+1.  В командной строке введите команду **net** **Start** **Winmgmt** \[ */ &lt; &gt;* \] .
 
     Дополнительные сведения о доступных параметрах см. в разделе [Winmgmt](winmgmt.md). Для запуска службы WMI используется встроенная учетная запись администратора или учетная запись в группе "Администраторы", которая работает с повышенными правами. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md).
 

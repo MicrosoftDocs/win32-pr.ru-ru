@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - locationapi.h
-ms.openlocfilehash: c44582c01685431e9b5dfa4820735728dd2a9cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1f9e28b9b452c335fa4d549b1c979584f2e02c438957e4c7283ad8044def644
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104264861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129844"
 ---
 # <a name="locationdisplatlongreportfactorylatlongreport-property"></a>Локатиондисп. Латлонгрепортфактори. Латлонгрепорт, свойство
 
-\[Объектная модель API расположения доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого для доступа к расположению с веб-сайта используйте [API географического расположения W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Чтобы получить доступ к расположению из классического приложения, используйте API [**Windows. Devices. Географическое расположение**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Объектная модель API расположения доступна для использования в операционных системах, указанных в разделе требования. В последующих версиях он может быть изменен или недоступен. Вместо этого для доступа к расположению с веб-сайта используйте [API географического расположения W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Чтобы получить доступ к расположению из классического приложения, используйте [**Windows. API Devices. Географическое расположение**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Текущий отчет широты и долготы.
 
@@ -51,9 +51,9 @@ objLatLongReport = LocationDisp.LatLongReportFactory.LatLongReport
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                               |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                               |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
-| Header<br/>                   | <dl> <dt>Локатионапи. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Локатионапи. h</dt> </dl> |
 
 
 

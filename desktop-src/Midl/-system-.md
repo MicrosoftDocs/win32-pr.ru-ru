@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01b6455807aedb99d7bd525c69fffc524dbe25d4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882791"
 ---
-# <a name="system-switch"></a>/<system> ключом
+# <a name="ltsystemgt-switch"></a>/&lt;системный &gt; коммутатор
 
-**/<system>** Параметр указывает компилятору MIDL создать библиотеку типов для указанной системы. По умолчанию используется текущая операционная система.
+**/ &lt; Системный &gt;** параметр направляет компилятор MIDL для создания библиотеки типов для указанной системы. По умолчанию используется текущая операционная система.
 
 ``` syntax
 midl /{win32 | ia64 | amd64}
@@ -69,9 +69,9 @@ Windows 2000, Windows Server 2003, Windows XP Professional x64 Edition, Windows 
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Этот параметр **/<system>** функционально аналогичен параметру MIDL [**/env**](-env.md) и распознается компилятором MIDL исключительно для обеспечения обратной совместимости с MkTypLib. При создании нового файла makefile используйте параметр **/env** .
+**/ &lt; Системный &gt;** коммутатор функционально аналогичен параметру MIDL [**/env**](-env.md) и распознается компилятором MIDL исключительно для обеспечения обратной совместимости с MkTypLib. При создании нового файла makefile используйте параметр **/env** .
 
 ## <a name="examples"></a>Примеры
 

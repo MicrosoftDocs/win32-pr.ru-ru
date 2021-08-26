@@ -4,12 +4,12 @@ ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: Набор свойств защиты от копирования DVD (Dvdmedia.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 382243a6071fa73361df13ae933d259979686a06
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 76034c0ac9b310d446f142d31b96ea2edbe6b725
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909482"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477351"
 ---
 # <a name="dvd-copy-protection-property-set"></a>Набор свойств защиты копирования DVD-дисков
 
@@ -35,71 +35,26 @@ ms.locfileid: "107909482"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Идентификатор свойства</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="am-property-copy-analog-component-property.md"><strong>AM_PROPERTY_COPY_ANALOG_COMPONENT</strong></a></td>
-<td>Запрашивает, является ли вывод видео стандартным — определением аналогового компонента.</td>
-</tr>
-<tr class="even">
-<td>AM_PROPERTY_COPY_MACROVISION</td>
-<td>Это свойство только для установки. Это свойство устанавливает аналоговый уровень защиты копирования для кодировщика NTSC на выходном конце принимающего ПИН-кода. Использует <a href="/previous-versions/ms778996(v=vs.85)"><strong>AM_COPY_MACROVISION</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>AM_PROPERTY_DVDCOPY_CHLG_KEY</td>
-<td>В этом свойстве поддерживаются обе операции Get и Set. Операция Get запрашивает у декодера ввод ключа вызова шины. Операция Set предоставляет декодеру ключ вызова шины с DVD-диска. Данные, передаваемые в этом свойстве, будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_chlgkey"><strong>AM_DVDCOPY_CHLGKEY</strong></a>.</td>
-</tr>
-<tr class="even">
-<td>AM_PROPERTY_DVDCOPY_DEC_KEY2</td>
-<td>Это свойство только для получения. Это свойство запрашивает передачу ключа шины 2 декодера на DVD-дисковод. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>AM_PROPERTY_DVDCOPY_DISC_KEY</td>
-<td>Свойство только для установки. Это обеспечивает ключ диска. Ключ представляет собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey"><strong>AM_DVDCOPY_DISCKEY</strong></a>.</td>
-</tr>
-<tr class="even">
-<td>AM_PROPERTY_DVDCOPY_DVD_KEY1</td>
-<td>Это свойство только для установки. Это свойство предоставляет декодеру канал 1 шины DVD-дисковода. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>AM_PROPERTY_DVDCOPY_REGION</td>
-<td>Код региона запрашивает определение региона, которое может играть декодер, в соответствии с определением в консорциуме DVD. Этот регион определен как структура <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region"><strong>DVD_REGION</strong></a> .</td>
-</tr>
-<tr class="even">
-<td>AM_PROPERTY_DVDCOPY_SET_COPY_STATE</td>
-<td>В этом свойстве поддерживаются оба варианта: Get и Set. Сначала вызывается метод Get, чтобы определить, требуется ли проверка подлинности. Свойства набора указывают на фазу согласования защиты копирования, которую вводит фильтр. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state"><strong>AM_DVDCOPY_SET_COPY_STATE</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT</td>
-<td>Если это свойство имеет <strong>значение true</strong>, Навигатор DVD не отправляет образцы <strong>AM_UseNewCSSKey</strong> перед согласованием ключа диска. См. <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties"><strong>AM_SAMPLE2_PROPERTIES</strong></a>.<br/> Только для чтения. Данные свойства являются <strong>логическим</strong> значением.<br/>
-<blockquote>
-[!Note]<br />
-Применяется к Windows 7.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>AM_PROPERTY_DVDCOPY_TITLE_KEY</td>
-<td>Это свойство только для установки. Он предоставляет ключ заголовка из текущего содержимого. Ключ представляет собой структуру типа <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey"><strong>AM_DVDCOPY_TITLEKEY</strong></a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Идентификатор свойства | Описание | 
+|-------------|-------------|
+| <a href="am-property-copy-analog-component-property.md"><strong>AM_PROPERTY_COPY_ANALOG_COMPONENT</strong></a> | Запрашивает, является ли вывод видео стандартным — определением аналогового компонента. | 
+| AM_PROPERTY_COPY_MACROVISION | Это свойство только для установки. Это свойство устанавливает аналоговый уровень защиты копирования для кодировщика NTSC на выходном конце принимающего ПИН-кода. Использует <a href="/previous-versions/ms778996(v=vs.85)"><strong>AM_COPY_MACROVISION</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_CHLG_KEY | В этом свойстве поддерживаются обе операции Get и Set. Операция Get запрашивает у декодера ввод ключа вызова шины. Операция Set предоставляет декодеру ключ вызова шины с DVD-диска. Данные, передаваемые в этом свойстве, будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_chlgkey"><strong>AM_DVDCOPY_CHLGKEY</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_DEC_KEY2 | Это свойство только для получения. Это свойство запрашивает передачу ключа шины 2 декодера на DVD-дисковод. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_DISC_KEY | Свойство только для установки. Это обеспечивает ключ диска. Ключ представляет собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_disckey"><strong>AM_DVDCOPY_DISCKEY</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_DVD_KEY1 | Это свойство только для установки. Это свойство предоставляет декодеру канал 1 шины DVD-дисковода. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-am_dvdcopy_buskey"><strong>AM_DVDCOPY_BUSKEY</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_REGION | Код региона запрашивает определение региона, которое может играть декодер, в соответствии с определением в консорциуме DVD. Этот регион определен как структура <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-dvd_region"><strong>DVD_REGION</strong></a> . | 
+| AM_PROPERTY_DVDCOPY_SET_COPY_STATE | В этом свойстве поддерживаются оба варианта: Get и Set. Сначала вызывается метод Get, чтобы определить, требуется ли проверка подлинности. Свойства набора указывают на фазу согласования защиты копирования, которую вводит фильтр. Передаваемые данные будут представлять собой структуру типа <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_set_copy_state"><strong>AM_DVDCOPY_SET_COPY_STATE</strong></a>. | 
+| AM_PROPERTY_DVDCOPY_SUPPORTS_NEW_KEYCOUNT | Если это свойство имеет <strong>значение true</strong>, Навигатор DVD не отправляет образцы <strong>AM_UseNewCSSKey</strong> перед согласованием ключа диска. См. <a href="/windows/win32/api/strmif/ns-strmif-am_sample2_properties"><strong>AM_SAMPLE2_PROPERTIES</strong></a>.<br /> Только для чтения. Данные свойства являются <strong>логическим</strong> значением.<br /><blockquote>[!Note]<br />применимо к Windows 7.</blockquote><br /> | 
+| AM_PROPERTY_DVDCOPY_TITLE_KEY | Это свойство только для установки. Он предоставляет ключ заголовка из текущего содержимого. Ключ представляет собой структуру типа <a href="/previous-versions/windows/desktop/api/Dvdmedia/ns-dvdmedia-am_dvdcopy_titlekey"><strong>AM_DVDCOPY_TITLEKEY</strong></a>. | 
+
 
 
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

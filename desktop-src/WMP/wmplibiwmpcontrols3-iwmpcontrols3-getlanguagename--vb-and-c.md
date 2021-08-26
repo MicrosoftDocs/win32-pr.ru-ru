@@ -3,9 +3,9 @@ title: IWMPControls3 Жетлангуаженаме, метод
 description: Метод Жетлангуаженаме возвращает имя звукового языка с указанным кодом локали (LCID).
 ms.assetid: a0651e8d-0ba1-4fff-93f0-fe097231723e
 keywords:
-- Жетлангуаженаме метод Windows Media Player
-- Жетлангуаженаме метод проигрывателя Windows Media Player, интерфейс IWMPControls3
-- Интерфейс IWMPControls3 Windows Media Player, метод Жетлангуаженаме
+- проигрыватель Windows Media метода жетлангуаженаме
+- проигрыватель Windows Media метода жетлангуаженаме, интерфейс IWMPControls3
+- проигрыватель Windows Media интерфейса IWMPControls3, метод жетлангуаженаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d93bf97c7b5213e3d196897de1c3ebcfa6e6d2c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6850bd73c9add044bdb845d17341745c7546918f7824b611ed2f018f66139d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000494"
 ---
 # <a name="iwmpcontrols3getlanguagename-method"></a>Метод IWMPControls3:: Жетлангуаженаме
 
@@ -64,11 +64,11 @@ Implements IWMPControls3.getLanguageName
 
 **Строка System. String** , которая является именем звукового языка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Код языка (LCID) однозначно определяет определенный диалект языка, который называется локальным языком.
 
-Для содержимого на основе Windows Media свойства и методы, связанные с выбором языка, поддерживают только один выход.
+для Windows содержимого на основе носителя свойства и методы, связанные с выбором языка, поддерживают только один выход.
 
 ## <a name="requirements"></a>Требования
 
@@ -76,7 +76,7 @@ Implements IWMPControls3.getLanguageName
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 

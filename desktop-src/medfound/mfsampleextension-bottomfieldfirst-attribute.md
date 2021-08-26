@@ -4,12 +4,12 @@ ms.assetid: 680c42e4-2808-46ed-98a8-c77b14a55def
 title: Атрибут MFSampleExtension_BottomFieldFirst (Мфапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e608160c92fa53e8cde6adee1831d6c3e8789bc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56ab0a9847977ea25d93190911bbf2280629f0219eba3d4c4ddfb492e9fdcd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113074"
 ---
 # <a name="mfsampleextension_bottomfieldfirst-attribute"></a>Мфсампликстенсион \_ боттомфиелдфирст, атрибут
 
@@ -29,7 +29,7 @@ ms.locfileid: "104344865"
 
 [**имфсампле**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если видеокадр имеет чередование, а образец содержит два поля с чередованием, этот атрибут указывает, какое поле отображается первым. Если **значение равно true**, то нижнее поле является первым по времени. Если **значение равно false**, верхнее поле является первым.
 
@@ -41,19 +41,19 @@ ms.locfileid: "104344865"
 
 Константа GUID для этого атрибута экспортируется из мфууид. lib.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows Vista \|\]<br/>                              |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 \|\]<br/>                        |
-| Header<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Приложения UWP для классических приложений Vista \|\]<br/>                              |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для классических приложений сервера 2008 \|\]<br/>                        |
+| Заголовок<br/>                   | <dl> <dt>Мфапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc92ad1dfffd945b89293dd9207289aa47645d4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d2a3bfe94e001c6a65256facd5484a015d00f245
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649102"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475760"
 ---
 # <a name="wmt_videoimage_transition_flip"></a>\_отразить \_ Переход ВМТ видеоимаже \_
 
@@ -31,36 +31,12 @@ ms.locfileid: "105649102"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Параметр</th>
-<th>Член структуры</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Angle</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Угол поворота (от 0,0 до 180,0 градусов).</td>
-</tr>
-<tr class="even">
-<td>Композиция</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Задайте одно из следующих значений:
-<ul>
-<li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li>
-<li>1 — указывает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Параметр | Член структуры | Описание | 
+|-----------|------------------|-------------|
+| Angle | <strong>fEffectPara0</strong> | Угол поворота (от 0,0 до 180,0 градусов). | 
+| Композиция | <strong>fEffectPara1</strong> | Задайте одно из следующих значений:<ul><li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li><li>1 — указывает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li></ul> | 
+
 
 
 
@@ -76,11 +52,11 @@ ms.locfileid: "105649102"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

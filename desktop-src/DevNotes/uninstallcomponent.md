@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msoobci.dll
-ms.openlocfilehash: a541f51b030c9be7a26d573794e4df3a7cfc6f47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6b4ce8e447bc884d1b3ee64505d230b2e069ce6cda1630b027b8a48da68beda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001114"
 ---
 # <a name="uninstallcomponent-function"></a>Функция Унинсталлкомпонент
 
@@ -62,7 +62,7 @@ void UninstallComponent(
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | <span id="COMP_FLAGS_NOUI"></span><span id="comp_flags_noui"></span><dl> <dt>**\_NOUI) флаги Comp \_**</dt> </dl>                                          | Подавляет весь пользовательский интерфейс.<br/>                                                                |
 | <span id="COMP_FLAGS_UPDATE_DLLCACHE"></span><span id="comp_flags_update_dllcache"></span><dl> <dt>**\_Флаги Comp \_ обновления \_ DLLCACHE**</dt> </dl>        | Принудительное обновление каталога DLLCACHE при обновлении системного файла.<br/>        |
-| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**\_Флаги \_ comp \_ используют \_ кэш SVCPACK**</dt> </dl> | Использует файлы, кэшированные при установке пакета обновления Windows, для замены резервных копий файлов.<br/> |
+| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**\_Флаги \_ comp \_ используют \_ кэш SVCPACK**</dt> </dl> | использует файлы, кэшированные с помощью Windows установки пакета обновления для замены резервных копий файлов.<br/> |
 
 
 
@@ -102,11 +102,11 @@ void UninstallComponent(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Пакеты исключений — это системные файлы Windows, выпущенные за пределами полной версии пакета Windows и обновленными файлами операционной системы. Пакеты исключений разрабатываются только командами операционной системы, которым была предоставлена авторизация на обновление системных файлов Windows.
+пакеты исключений — это Windows системных файлов, выпущенных за пределами полного пакета Windows выпуска и обновления файлов операционной системы. пакеты исключений разрабатываются только командами операционной системы, которым была предоставлена авторизация на обновление Windows системных файлов.
 
-Для установки и удаления файлов, не защищенных с помощью защиты файлов Windows, используйте функции, описанные в статье [Общие функции установки](https://msdn.microsoft.com/library/ms794585.aspx). Чтобы установить драйверы устройств, поставщиков следует использовать функции, описанные в статье [функции установки устройств](https://msdn.microsoft.com/library/ms792954.aspx) и [функции PnP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
+чтобы установить и удалить файлы, не защищенные с помощью Windows защиты файлов, используйте функции, описанные в статье [общие функции установки](https://msdn.microsoft.com/library/ms794585.aspx). Чтобы установить драйверы устройств, поставщиков следует использовать функции, описанные в статье [функции установки устройств](https://msdn.microsoft.com/library/ms792954.aspx) и [функции PnP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
 
 Эта функция не имеет связанной библиотеки импорта или файла заголовка. его необходимо вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

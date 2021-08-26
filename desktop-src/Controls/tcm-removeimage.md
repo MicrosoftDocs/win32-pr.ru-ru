@@ -3,7 +3,7 @@ title: Сообщение TCM_REMOVEIMAGE (Коммктрл. h)
 description: Удаляет изображение из списка изображений элемента управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл ремовеимаже.
 ms.assetid: f2761338-0afa-47d8-9d9c-1d5a4a7f7bcf
 keywords:
-- Элементы управления Windows для TCM_REMOVEIMAGE сообщений
+- элементы управления Windows сообщений TCM_REMOVEIMAGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cbc51aa0efed847e39e735443c0d42e288bbaab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40d2305386f948e1dc4522124708b31ca360203ba9723241c99262fcdb5d2b20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104844"
 ---
 # <a name="tcm_removeimage-message"></a>\_Сообщение РЕМОВЕИМАЖЕ TCM
 
@@ -43,19 +43,19 @@ ms.locfileid: "105654684"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "Вкладка" обновляет индекс изображения каждой вкладки, поэтому каждая вкладка остается связанной с тем же изображением, что и раньше. Если на вкладке используется удаляемое изображение, то на вкладке будет задано отсутствие изображения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

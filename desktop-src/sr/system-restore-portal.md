@@ -7,12 +7,12 @@ keywords:
 - Восстановление системы, начальная страница
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0bdc4555171ad867f6e6b925144d9ed673ffc3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4472806aa2c0b6f8a29cc4e687d16e262639a66c65bda37fdca970c6c38b656f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104134167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111294"
 ---
 # <a name="system-restore"></a>"Восстановление системы"
 
@@ -27,7 +27,7 @@ ms.locfileid: "104134167"
 
 ## <a name="developer-audience"></a>Аудитория разработчиков
 
-API восстановления системы предназначен для использования программистами C/C++. Для использования интерфейса сценариев требуется знание инструментарий управления Windows (WMI) (инструментарий WMI).
+API восстановления системы предназначен для использования программистами C/C++. для использования интерфейса сценариев требуется знание инструментарий управления Windows (WMI) (инструментарий WMI).
 
 ## <a name="run-time-requirements"></a>Требования к среде выполнения
 
@@ -47,7 +47,7 @@ API восстановления системы поддерживается в 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

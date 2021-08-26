@@ -4,12 +4,12 @@ ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede88930cdb6cc616d8c39fb400f0c67c31eecd01d6d1a7d1832421cb394bcc4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c1dbe8366093418e74ed4ab1cb8e8c23fb8036eb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534552"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879734"
 ---
 # <a name="msicertexe"></a>Msicert.exe
 
@@ -29,9 +29,9 @@ MsiCert.exe — это служебная программа командной 
 
 | Параметр | Параметр        | Описание                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | <database> | Обновляемая база данных (файл .msi).                                                         |
+| -d     | &lt;database&gt; | Обновляемая база данных (файл .msi).                                                         |
 | -M     | <media Id> | Запись в поле DiskId [таблицы Media](media-table.md) в записи для CAB-файла. |
-| -c     | <cabinet>  | Путь к CAB-файлу с цифровой подписью.                                                          |
+| -c     | &lt;файле&gt;  | Путь к CAB-файлу с цифровой подписью.                                                          |
 | -H     |                  | Включить хэш цифровой подписи. Это необязательно.                                            |
 
 

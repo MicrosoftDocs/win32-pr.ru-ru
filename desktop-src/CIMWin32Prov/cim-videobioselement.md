@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4864e3787b00ca72f90d0c6d15c35049abd58acd04c3d221aa29436d8885a652
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 317bbf71b166ea51e665ad96c58657927412cbab
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882030"
 ---
 # <a name="cim_videobioselement-class"></a>\_Класс CIM видеобиоселемент
 
@@ -229,7 +229,7 @@ class CIM_VideoBIOSElement : CIM_SoftwareElement
 
 </dd> <dt>
 
-**Производителя**
+**Изготовитель**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -245,7 +245,7 @@ class CIM_VideoBIOSElement : CIM_SoftwareElement
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1007,7 +1007,7 @@ Mac OS 9
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1023,14 +1023,14 @@ Mac OS 9
 
 Версия операции должна быть в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 Это свойство наследуется от класса [**CIM \_ софтварилемент**](cim-softwareelement.md) .
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Класс **CIM \_ видеобиоселемент** является производным от [**CIM \_ софтварилемент**](cim-softwareelement.md).
 
