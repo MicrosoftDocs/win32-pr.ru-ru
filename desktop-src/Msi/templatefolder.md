@@ -4,18 +4,18 @@ ms.assetid: b9a3c919-87a2-4913-bf21-b08bb7d4e98c
 title: Темплатефолдер, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ecf30f5f0103c0a289b01431dcbdf52c9644355a336527293289ea941ccf3cc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 80cc85c00e34d18e94683152452625fe52562e1e
+ms.sourcegitcommit: 0ab75073bbeec7ca2899f8051626a8b772073f82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119626434"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "122400987"
 ---
 # <a name="templatefolder-property"></a>Темплатефолдер, свойство
 
 Установщик задает для свойства **темплатефолдер** полный путь к папке шаблона для текущего пользователя.
 
-только в Windows 2000, если свойство [**ALLUSERS**](allusers.md) задано, это свойство указывает на каталог файловой системы, содержащий шаблоны, доступные для всех пользователей.
+Если задано свойство [**ALLUSERS**](allusers.md) , это свойство указывает на каталог файловой системы, содержащий шаблоны, доступные для всех пользователей.
 
 ## <a name="requirements"></a>Требования
 
