@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9520915e018456cec2cde4298eba8a3d7aab10ff
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a095d762ffef28fec0a6b820f2aec08da9e5142a7a9521a086d1d49f65685923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104983900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118364"
 ---
 # <a name="mov---ps"></a>MOV-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "104983900"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   src является исходным регистром.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,18 +46,18 @@ ms.locfileid: "104983900"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера пикселей](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

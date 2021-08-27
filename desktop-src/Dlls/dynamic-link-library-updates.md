@@ -4,16 +4,16 @@ ms.assetid: 82349a33-dc2c-4309-b0fc-890f230e3f2c
 title: Обновления библиотеки Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a10f76103ddebc723466fb7e32a216c0c039691d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f294e16efac60da843c14d200aaa768d4fc78ce8a922cb0aa6958756a9903be0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075544"
 ---
 # <a name="dynamic-link-library-updates"></a>Обновления библиотеки Dynamic-Link
 
-Иногда требуется заменить библиотеку DLL новой версией. Прежде чем заменить библиотеку DLL, выполните проверку версии, чтобы убедиться, что вы заменяете более старую версию новой версией. Можно заменить используемую библиотеку DLL. Метод, используемый для замены используемых библиотек DLL, зависит от используемой операционной системы. В Windows XP и более поздних версиях приложения должны использовать [изолированные приложения и параллельные сборки](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
+Иногда требуется заменить библиотеку DLL новой версией. Прежде чем заменить библиотеку DLL, выполните проверку версии, чтобы убедиться, что вы заменяете более старую версию новой версией. Можно заменить используемую библиотеку DLL. Метод, используемый для замены используемых библиотек DLL, зависит от используемой операционной системы. в Windows XP и более поздних версиях приложения должны использовать [изолированные приложения и параллельные сборки](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
 
 Перезагружать компьютер не требуется, если выполнить следующие действия.
 

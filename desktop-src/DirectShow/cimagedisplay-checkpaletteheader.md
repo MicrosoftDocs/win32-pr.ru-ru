@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54c4f401d2e75aeb35ffc19d26690fa04a769c27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6378a93ffced86546b8e95071e7f9bdc1398cdd1831aa18d41d62c6ea97caff0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105679741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087294"
 ---
 # <a name="cimagedisplaycheckpaletteheader-method"></a>Цимажедисплай. Чеккпалеттехеадер, метод
 
@@ -53,22 +53,22 @@ BOOL CheckPaletteHeader(
 
 Возвращает **значение true** , если записи палитры допустимы, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если формат изображения не палеттизед, метод проверяет, что **биклрусед** равен нулю. В противном случае метод проверяет, что флаг **бикомпрессион** — это BI \_ RGB; **биклримпортант** не превышает **биклрусед**; и число записей в палитре не превышает максимальное значение, учитывая глубину цвета.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Винутил. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>винутил. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

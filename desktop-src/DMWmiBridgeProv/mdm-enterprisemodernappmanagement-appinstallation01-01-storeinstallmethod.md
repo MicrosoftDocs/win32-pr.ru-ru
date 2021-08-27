@@ -1,6 +1,6 @@
 ---
 title: Метод Стореинсталлмесод класса MDM_EnterpriseModernAppManagement_AppInstallation01_01
-description: Метод для выполнения установки приложения и лицензии из Магазина Windows. См. также Стореинсталл.
+description: метод для выполнения установки приложения и лицензии из хранилища Windows. См. также Стореинсталл.
 ms.assetid: 4f8aff47-ad16-4fe5-85be-7ddb55ddff24
 keywords:
 - Метод Стореинсталлмесод
@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c4ae34e8502b7d408a7fb4d96fb9c2c4fadb509
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6a8e60134da45982773c0219ade8e0e0f12f37ec9e6d16cd97f4595ae8b507a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084944"
 ---
 # <a name="storeinstallmethod-method-of-the-mdm_enterprisemodernappmanagement_appinstallation01_01-class"></a>Метод Стореинсталлмесод \_ класса MDM ентерприсемодернаппманажемент \_ AppInstallation01 \_ 01
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Метод для выполнения установки приложения и лицензии из Магазина Windows. См. также [стореинсталл](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
+метод для выполнения установки приложения и лицензии из хранилища Windows. См. также [стореинсталл](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -47,13 +47,13 @@ uint32 StoreInstallMethod(
 *параметр* \[ окне\]
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -61,7 +61,7 @@ uint32 StoreInstallMethod(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

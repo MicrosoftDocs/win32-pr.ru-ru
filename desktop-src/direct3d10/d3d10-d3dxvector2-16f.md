@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 677f4f8c47cdc70791ad98e18582810bbff23920
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7d1c24b40674fe2df202a0cdea42dc7ad96728a8710c21e443642c8b6152cea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103820972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120264"
 ---
 # <a name="d3dxvector2_16f-structure"></a>\_Структура 16F D3DXVECTOR2
 
@@ -62,7 +62,7 @@ typedef struct D3DXVECTOR2_16F {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **D3DXVECTOR2 \_ 16F** имеет следующие расширения C++.
 
@@ -103,11 +103,11 @@ public:
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

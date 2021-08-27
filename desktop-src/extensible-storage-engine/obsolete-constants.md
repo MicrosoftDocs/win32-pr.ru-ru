@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e1451c52aac0b65b11669fda5362ed0a118ba9a
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 5477bf4b91861809f1f5b8f77f262552b60ac075
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122983256"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465256"
 ---
 # <a name="obsolete-constants"></a>Устаревшие константы
 
@@ -70,10 +70,6 @@ JET_bitTableClass15
 ### <a name="requirements"></a>Требования
 
 
-| Требование | Применение |
-|------------|----------|
-| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
-| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
-| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 

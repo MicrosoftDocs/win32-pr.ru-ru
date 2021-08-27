@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5b47e4678d9475abe90c4b55d6adb514314dcc0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3dcdb2c4098905d7e6a410e786d4af254732bc80cee4b760870a7c1c44a8ec26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086204"
 ---
 # <a name="database-object"></a>Объект базы данных
 
@@ -31,7 +31,7 @@ ms.locfileid: "105669351"
 **Запрос последовательности API**
 
 1.  Получите объект **базы данных** , вызвав [**Опендатабасе**](installer-opendatabase.md) или объект [**установщика**](installer-object.md) .
-2.  Запустите запрос с помощью строки SQL, вызвав метод [**OpenView**](database-openview.md) объекта **Database** .
+2.  запустите запрос с помощью SQL строки, вызвав метод [**OpenView**](database-openview.md) объекта **Database** .
 3.  Задайте параметры запроса в объекте [**Record**](record-object.md) и выполните запрос к базе данных, вызвав метод [**EXECUTE**](view-execute.md) объекта [**View**](view-object.md) . В результате получается результат, который можно извлечь или обновить.
 4.  Повторно вызывайте метод [**Fetch**](view-fetch.md) объекта [**представления**](view-object.md) , чтобы вернуть объекты [**записи**](record-object.md) .
 5.  Обновите строки базы данных объекта [**записи**](record-object.md) , полученные методом [**Fetch**](view-fetch.md) , с помощью метода [**Modify**](view-modify.md) объекта [**View**](view-object.md) .
@@ -54,14 +54,14 @@ ms.locfileid: "105669351"
 | Метод                                                                    | Описание                                                                                                                                                               |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**апплитрансформ**](database-applytransform.md)                         | Применяет преобразование к этой базе данных.<br/>                                                                                                                        |
-| [**Сохраните**](database-commit.md)                                         | Завершает постоянную форму базы данных.<br/>                                                                                                                 |
+| [**Фиксация**](database-commit.md)                                         | Завершает постоянную форму базы данных.<br/>                                                                                                                 |
 | [**креатетрансформсуммаринфо**](database-createtransformsummaryinfo.md) | Создает и заполняет поток сводных данных существующего файла преобразования.<br/>                                                                            |
 | [**енаблеуипревиев**](database-enableuipreview.md)                       | Упрощает создание диалоговых окон и объявлений, предоставляя поддержку, необходимую для просмотра диалоговых окон пользовательского интерфейса, хранящихся в базе данных установщика.<br/> |
 | [**Экспорт**](database-export.md)                                         | Копирует структуру и данные из указанной таблицы в текстовый файл архива.<br/>                                                                                   |
 | [**Преобразование**](database-generatetransform.md)                   | Создает преобразование.<br/>                                                                                                                                           |
 | [**Импорт**](database-import.md)                                         | Импортирует таблицу базы данных из текстового файла архива.<br/>                                                                                                             |
 | [**AutoMerge**](database-merge.md)                                           | Объединяет эталонную базу данных с базовой базой данных.<br/>                                                                                                          |
-| [**OpenView**](database-openview.md)                                     | Возвращает объект [**представления**](view-object.md) , представляющий запрос, заданный строкой SQL.<br/>                                                                 |
+| [**OpenView**](database-openview.md)                                     | возвращает объект [**представления**](view-object.md) , представляющий запрос, заданный SQL строкой.<br/>                                                                 |
 
 
 
@@ -84,23 +84,23 @@ ms.locfileid: "105669351"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ идатабасе определяется как 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Примеры сценариев установщик Windows](windows-installer-scripting-examples.md)
+[Windows Примеры сценариев для установщика](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

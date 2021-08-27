@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'Чстринг:: operator + (Чстринг. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5053a4d3059a66cb2c8e4a89a3bdd531d5f42de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69ce52e8740fcd420600aaebb192c23ab7269c4ddf14c068a4980c59df3e7773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103815984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097354"
 ---
 # <a name="chstringoperator"></a>Чстринг:: operator +
 
@@ -84,7 +84,7 @@ throw( CHeap_Exception );
 
 Этот оператор объединения возвращает объект [**чстринг**](chstring.md) , который является временным результатом объединения. Это возвращаемое значение позволяет объединить несколько сцеплений в одном выражении.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Одна из двух строк аргумента должна быть объектом [**чстринг**](chstring.md) . другой может быть указателем символа или символом. Имейте в виду, что исключения памяти могут возникать при использовании оператора объединения, так как для хранения временных данных может быть выделено новое хранилище.
 
@@ -105,7 +105,7 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,13 +113,13 @@ s3 = "abc" + "def"; // Wrong. The first argument must be a CHString.
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
+| Заголовок<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

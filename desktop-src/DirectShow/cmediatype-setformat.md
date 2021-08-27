@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 08dd05faf514581a3325f4922076ba2053cd0c95
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99726a466b6bf273b654a5d459fa2391a75882f1adee64b981d91a514a988b88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108454"
 ---
 # <a name="cmediatypesetformat-method"></a>Кмедиатипе. Сетформат, метод
 
@@ -61,24 +61,24 @@ BOOL SetFormat(
 
 Возвращает **значение true** в случае успеха или **значение false** , если произошла ошибка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод выделяет память для блока формата и копирует буфер, указанный параметром *пформат* , в новый блок формата. Если тип мультимедиа уже содержит блок формата, старый он освобождается. Метод также задает элемент **кбформат** структуры **\_ \_ типа мультимедиа AM** .
 
 Чтобы задать тип формата, вызовите метод [**кмедиатипе:: сетформаттипе**](cmediatype-setformattype.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мтипе. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>мтипе. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

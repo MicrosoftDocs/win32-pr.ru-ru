@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 100c901c6b5d86ed3420d51e459627bdb5b461b8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4fc1f836174a57f6edfddd0575a10d40367c061c034369a1582cc8bf8ce17a53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "105661727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086374"
 ---
 # <a name="library-attribute"></a>атрибут библиотеки
 
@@ -66,7 +66,7 @@ library library-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Инструкции в блоке библиотеки могут использовать элементы, объявленные внутри или вне блока библиотеки. Операторы библиотеки могут использовать эти элементы как базовые типы, наследовать от этих элементов или просто ссылаться на них в строке следующим образом:
 
@@ -106,7 +106,7 @@ library Hello
 };
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -143,6 +143,6 @@ library Hello
 [**Версия**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

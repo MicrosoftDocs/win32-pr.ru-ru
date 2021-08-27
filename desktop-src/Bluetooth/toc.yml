@@ -1,7 +1,7 @@
 - name: Bluetooth
   href: bluetooth-start-page.md
   items:
-    - name: Об Bluetooth
+    - name: О Bluetooth
       href: about-bluetooth.md
       items:
         - name: Поддержка сокетов Windows для Bluetooth
@@ -9,24 +9,24 @@
           items:
             - name: Обнаружение устройств и служб Bluetooth
               href: discovering-bluetooth-devices-and-services.md
-        - name: Управление устройствами и службами Bluetooth
+        - name: управление устройствами и службами Bluetooth
           href: managing-bluetooth-devices-and-services.md
           items:
-            - name: Выбор устройства Bluetooth
+            - name: выбор устройства Bluetooth
               href: selecting-a-bluetooth-device.md
-            - name: Сообщения Bluetooth и WM_DEVICECHANGE
+            - name: сообщения Bluetooth и WM_DEVICECHANGE
               href: bluetooth-and-wm-devicechange-messages.md
     - name: Использование Bluetooth
       href: using-bluetooth.md
       items:
-        - name: Программирование Bluetooth с помощью сокетов Windows
+        - name: Bluetooth программирование с помощью сокетов Windows
           href: bluetooth-programming-with-windows-sockets.md
           items:
-            - name: Bluetooth и Accept
+            - name: Bluetooth и принять
               href: bluetooth-and-accept.md
-            - name: Bluetooth и привязка
+            - name: Bluetooth и bind
               href: bluetooth-and-bind.md
-            - name: Bluetooth и большой двоичный объект
+            - name: Bluetooth и BLOB-объект
               href: bluetooth-and-blob.md
             - name: Bluetooth и подключение
               href: bluetooth-and-connect.md
@@ -40,7 +40,7 @@
               href: bluetooth-and-getsockopt.md
             - name: 'Bluetooth и прослушивание, выбор и функции closesocket'
               href: bluetooth-and-listen-select-and-closesocket.md
-            - name: 'Bluetooth, операции чтения или записи'
+            - name: Bluetooth и операции чтения или записи
               href: bluetooth-and-read-or-write-operations.md
             - name: Bluetooth и сетсоккопт
               href: bluetooth-and-setsockopt.md
@@ -48,36 +48,36 @@
               href: bluetooth-and-shutdown.md
             - name: Bluetooth и сокет
               href: bluetooth-and-socket.md
-            - name: Параметры Bluetooth и сокета
+            - name: параметры Bluetooth и сокетов
               href: bluetooth-and-socket-options.md
-            - name: Bluetooth и Всааддресстостринг
+            - name: Bluetooth и всааддресстостринг
               href: bluetooth-and-wsaaddresstostring.md
-            - name: Bluetooth и Всалукупсервицебегин
+            - name: Bluetooth и всалукупсервицебегин
               href: bluetooth-and-wsalookupservicebegin.md
               items:
-                - name: Bluetooth и Всалукупсервицебегин для запроса устройства
+                - name: Bluetooth и всалукупсервицебегин для запроса устройства
                   href: bluetooth-and-wsalookupservicebegin-for-device-inquiry.md
-                - name: Bluetooth и Всалукупсервицебегин для обнаружения служб
+                - name: Bluetooth и всалукупсервицебегин для обнаружения служб
                   href: bluetooth-and-wsalookupservicebegin-for-service-discovery.md
-            - name: Bluetooth и Всалукупсервицеенд
+            - name: Bluetooth и всалукупсервицеенд
               href: bluetooth-and-wsalookupserviceend.md
-            - name: Bluetooth и Всалукупсервиценекст
+            - name: Bluetooth и всалукупсервиценекст
               href: bluetooth-and-wsalookupservicenext.md
-            - name: Bluetooth и ВСАКУЕРИСЕТ
+            - name: Bluetooth и всакуерисет
               href: bluetooth-and-wsaqueryset.md
               items:
-                - name: Bluetooth и ВСАКУЕРИСЕТ для запроса устройства
+                - name: Bluetooth и всакуерисет для запроса устройства
                   href: bluetooth-and-wsaqueryset-for-device-inquiry.md
-                - name: Bluetooth и ВСАКУЕРИСЕТ для запроса на обслуживание
+                - name: Bluetooth и всакуерисет для запроса на обслуживание
                   href: bluetooth-and-wsaqueryset-for-service-inquiry.md
-                - name: Bluetooth и ВСАКУЕРИСЕТ для Set Service
+                - name: Bluetooth и всакуерисет для Set Service
                   href: bluetooth-and-wsaqueryset-for-set-service.md
-            - name: Bluetooth и Всасетсервице
+            - name: Bluetooth и всасетсервице
               href: bluetooth-and-wsasetservice.md
-    - name: Справочник по Bluetooth
+    - name: Bluetooth IsReference
       href: bluetooth-reference.md
       items:
-        - name: Обратные вызовы Bluetooth
+        - name: Bluetooth Обратные вызовы
           href: bluetooth-callbacks.md
           items:
             - name: PFN_AUTHENTICATION_CALLBACK
@@ -88,7 +88,7 @@
               href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_bluetooth_enum_attributes_callback
             - name: PFN_DEVICE_CALLBACK
               href: /windows/desktop/api/BluetoothAPIs/nc-bluetoothapis-pfn_device_callback
-        - name: Перечисления Bluetooth
+        - name: Bluetooth Перечисления
           href: bluetooth-enumerations.md
           items:
             - name: BLUETOOTH_AUTHENTICATION_METHOD
@@ -97,7 +97,7 @@
               href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_authentication_requirements
             - name: BLUETOOTH_IO_CAPABILITY
               href: /windows/win32/api/BluetoothAPIs/ne-bluetoothapis-bluetooth_io_capability
-        - name: Функции Bluetooth
+        - name: Bluetooth Функции
           href: bluetooth-functions.md
           items:
             - name: блуетусаусентикатедевице
@@ -168,7 +168,7 @@
               href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothunregisterauthentication
             - name: блуетусупдатедевицерекорд
               href: /windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothupdatedevicerecord
-        - name: Структуры Bluetooth
+        - name: Bluetooth Сотрудник
           href: bluetooth-structures.md
           items:
             - name: BLUETOOTH_ADDRESS

@@ -4,12 +4,12 @@ ms.assetid: f93060dc-cb64-4623-847d-5d78bca59d50
 title: Использование Мфтраце
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03cb19f17978236b3e4edd8415f524913c90d99d7a7caf4183dd885d340cfbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8416fbde708dd44858fe5df580945f326944a1f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737327"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469971"
 ---
 # <a name="using-mftrace"></a>Использование Мфтраце
 
@@ -23,77 +23,21 @@ ms.locfileid: "118737327"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>аргументов командной строки;</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong> <strong></strong> <em>Идентификатор процесса или имя процесса</em><br/></td>
-<td>Присоединение к выполняющемуся процессу.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Файл конфигурации</em><br/></td>
-<td>Чтение параметров из указанного файла конфигурации. См. раздел <a href="mftrace-configuration-file.md">файл конфигурации мфтраце</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-dc"></span><span id="-DC"></span><strong>-DC</strong><br/></td>
-<td>Отключить трассировку для дочерних процессов. По умолчанию трассировка включена для дочерних процессов.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-es"></span><span id="-ES"></span><strong>-ES</strong><br/></td>
-<td>Включите открытые символы.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Ключевые слова</em><br/></td>
-<td>Список ключевых слов с разделителями-запятыми. См. <a href="mftrace-keywords.md">Ключевые слова мфтраце</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> <em>Уровень</em><br/></td>
-<td>Уровень трассировки.<br/>
-<ul>
-<li>0 — нет.</li>
-<li>1: критическая</li>
-<li>2: ошибка</li>
-<li>3: предупреждение</li>
-<li>4: информативные</li>
-<li>5: подробный</li>
-<li>16: Отладка</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong> <strong></strong> <em>Выходной файл</em><br/></td>
-<td>Запись выходных данных трассировки в указанный файл. По умолчанию вывод переходит в <strong>stdout</strong>.<br/> Если указан выходной файл, то расширение имени файла должно быть одним из следующих:<br/>
-<ul>
-<li>. ETL: файл журнала трассировки событий (ETL).</li>
-<li>. log или .txt: текстовый файл.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="-v"></span><span id="-V"></span><strong>-v</strong><br/></td>
-<td>Включить подробный режим.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-_"></span><strong>-?</strong><br/></td>
-<td>Отобразить сведения об использовании.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="COMMAND"></span><span id="command"></span><em>КНОПКИ</em><br/></td>
-<td>Аргументы командной строки для создания нового процесса.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br/></td>
-<td>Имя существующего ETL-файла. Если этот аргумент указан, ETL-файл преобразуется в текстовый вывод.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| аргументов командной строки; | Описание | 
+|------------------------|-------------|
+| <span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong> <strong></strong> <em>Идентификатор процесса или имя процесса</em><br /> | Присоединение к выполняющемуся процессу.<br /> | 
+| <span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Файл конфигурации</em><br /> | Чтение параметров из указанного файла конфигурации. См. раздел <a href="mftrace-configuration-file.md">файл конфигурации мфтраце</a>.<br /> | 
+| <span id="-dc"></span><span id="-DC"></span><strong>-DC</strong><br /> | Отключить трассировку для дочерних процессов. По умолчанию трассировка включена для дочерних процессов.<br /> | 
+| <span id="-es"></span><span id="-ES"></span><strong>-ES</strong><br /> | Включите открытые символы.<br /> | 
+| <span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Ключевые слова</em><br /> | Список ключевых слов с разделителями-запятыми. См. <a href="mftrace-keywords.md">Ключевые слова мфтраце</a>.<br /> | 
+| <span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> <em>Уровень</em><br /> | Уровень трассировки.<br /><ul><li>0 — нет.</li><li>1: критическая</li><li>2: ошибка</li><li>3: предупреждение</li><li>4: информативные</li><li>5: подробный</li><li>16: Отладка</li></ul> | 
+| <span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong> <strong></strong> <em>Выходной файл</em><br /> | Запись выходных данных трассировки в указанный файл. По умолчанию вывод переходит в <strong>stdout</strong>.<br /> Если указан выходной файл, то расширение имени файла должно быть одним из следующих:<br /><ul><li>. ETL: файл журнала трассировки событий (ETL).</li><li>. log или .txt: текстовый файл.</li></ul> | 
+| <span id="-v"></span><span id="-V"></span><strong>-v</strong><br /> | Включить подробный режим.<br /> | 
+| <span id="-_"></span><strong>-?</strong><br /> | Отобразить сведения об использовании.<br /> | 
+| <span id="COMMAND"></span><span id="command"></span><em>КНОПКИ</em><br /> | Аргументы командной строки для создания нового процесса.<br /> | 
+| <span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br /> | Имя существующего ETL-файла. Если этот аргумент указан, ETL-файл преобразуется в текстовый вывод.<br /> | 
+
 
 
 
@@ -156,7 +100,7 @@ mftrace.exe -c config.xml -o trace.etl
 mftrace.exe -o trace.txt trace.etl
 ```
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 По умолчанию Мфтраце создает только трассировки. Чтобы создать трассировки ETW или WPP, необходимо предоставить файл конфигурации. Файл конфигурации содержит имена поставщиков трассировки. Дополнительные сведения см. в разделе [Мфтраце Configuration File](mftrace-configuration-file.md).
 
@@ -183,97 +127,28 @@ mftrace.exe -o trace.txt trace.etl
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Вопрос</th>
-<th>Поиск по строкам</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Произошла ошибка?</td>
-<td>&quot;0xc00d&quot;</td>
-</tr>
-<tr class="even">
-<td>Правильно ли разрешается топология?</td>
-<td>&quot;Ктопологихелперс:: Trace&quot;</td>
-</tr>
-<tr class="odd">
-<td>Начался ли сеанс мультимедиа?</td>
-<td>&quot;месессионстартед&quot;</td>
-</tr>
-<tr class="even">
-<td>Какой файл был воспроизведен?</td>
-<td>&quot;кмфсаурцересолвердетаурс&quot;</td>
-</tr>
-<tr class="odd">
-<td>Какие типы носителей используются для исходных потоков?</td>
-<td>&quot;Новый поток &quot; , &quot; меневстреам &quot; , &quot; кмфмедиасаурцедетаурс:: трацепд&quot;</td>
-</tr>
-<tr class="even">
-<td>Были ли исходные потоки формировать образцы?</td>
-<td>&quot;Кмфмедиастреамдетаурс:: Хандливент &quot; , &quot; мемедиасампле&quot;</td>
-</tr>
-<tr class="odd">
-<td>Было ли воспроизведение достигнуто до конца данных?</td>
-<td>&quot;Миндофстреам &quot; , &quot; миндофпресентатион&quot;</td>
-</tr>
-<tr class="even">
-<td>Изменилось ли форматирование?</td>
-<td>&quot;Местреамформатчанжед &quot; (источники мультимедиа), &quot; новый формат &quot; , &quot; месессионстреамсинкформатчанжед &quot; (приемники мультимедиа)</td>
-</tr>
-<tr class="odd">
-<td>Какие объекты были созданы?</td>
-<td>&quot;COle32ExportDetours:: CoCreateInstance&quot;</td>
-</tr>
-<tr class="even">
-<td>Были ли Media Foundation преобразования (МФТС) в конвейере обработки любых данных?</td>
-<td>&quot;Кмфтрансформдетаурс::P Роцессаутпут &quot; , &quot; кмфтрансформдетаурс::P роцессинпут&quot;</td>
-</tr>
-<tr class="odd">
-<td>Какие состояния были заданы для МФТС?</td>
-<td>&quot;Кмфтрансформдетаурс::P Роцессмессаже&quot;</td>
-</tr>
-<tr class="even">
-<td>Запрашивал ли запрос MFT входные данные?</td>
-<td>&quot;MF_E_TRANSFORM_NEED_MORE_INPUT &quot; (синхронная MFT), &quot; метрансформнидинпут &quot; (асинхронная MFT).</td>
-</tr>
-<tr class="odd">
-<td>Создает ли асинхронный файл MFT выходные данные?</td>
-<td>&quot;Процессаутпутс доступно&quot;</td>
-</tr>
-<tr class="even">
-<td>Были ли примеры запросов приемника мультимедиа?</td>
-<td>&quot;местреамсинкрекуестсампле&quot;</td>
-</tr>
-<tr class="odd">
-<td>Получил ли приемник мультимедиа примеры?</td>
-<td>&quot;Кмфстреамсинкдетаурс::P Роцесссампле&quot;</td>
-</tr>
-<tr class="even">
-<td>DirectShow: какие образцы были обработаны?</td>
-<td>&quot;Пример &quot; , &quot; кмеминпутпиндетаурс&quot;</td>
-</tr>
-<tr class="odd">
-<td>DirectShow: какой граф фильтра использовался?</td>
-<td>&quot;Кграфхелперс:: Trace&quot;</td>
-</tr>
-<tr class="even">
-<td>Есть ли несколько процессов?</td>
-<td>&quot;CreateProcess&quot;
-<blockquote>
-[!Note]<br />
-Также найдите идентификатор процесса, который отображается в начале каждой строки трассировки.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Вопрос | Поиск по строкам | 
+|----------|----------------|
+| Произошла ошибка? | "0xc00d" | 
+| Правильно ли разрешается топология? | "Ктопологихелперс:: Trace" | 
+| Начался ли сеанс мультимедиа? | "Месессионстартед" | 
+| Какой файл был воспроизведен? | "Кмфсаурцересолвердетаурс" | 
+| Какие типы носителей используются для исходных потоков? | "New Stream", "Меневстреам", "Кмфмедиасаурцедетаурс:: Трацепд" | 
+| Были ли исходные потоки формировать образцы? | "Кмфмедиастреамдетаурс:: Хандливент", "Мемедиасампле" | 
+| Было ли воспроизведение достигнуто до конца данных? | "Миндофстреам", "Миндофпресентатион" | 
+| Изменилось ли форматирование? | "Местреамформатчанжед" (источники мультимедиа), "новый формат", "Месессионстреамсинкформатчанжед" (приемники мультимедиа) | 
+| Какие объекты были созданы? | "COle32ExportDetours:: CoCreateInstance" | 
+| Были ли Media Foundation преобразования (МФТС) в конвейере обработки любых данных? | "Кмфтрансформдетаурс::P Роцессаутпут", "Кмфтрансформдетаурс::P Роцессинпут" | 
+| Какие состояния были заданы для МФТС? | "Кмфтрансформдетаурс::P Роцессмессаже" | 
+| Запрашивал ли запрос MFT входные данные? | "MF_E_TRANSFORM_NEED_MORE_INPUT" (синхронная MFT), "Метрансформнидинпут" (асинхронная MFT). | 
+| Создает ли асинхронный файл MFT выходные данные? | "Процессаутпутс Available" | 
+| Были ли примеры запросов приемника мультимедиа? | "Местреамсинкрекуестсампле" | 
+| Получил ли приемник мультимедиа примеры? | "Кмфстреамсинкдетаурс::P Роцесссампле" | 
+| DirectShow: какие образцы были обработаны? | "Sample", "Кмеминпутпиндетаурс" | 
+| DirectShow: какой граф фильтра использовался? | "Кграфхелперс:: Trace" | 
+| Есть ли несколько процессов? | Вызова<blockquote>[!Note]<br />Также найдите идентификатор процесса, который отображается в начале каждой строки трассировки.</blockquote><br /><br /> | 
+
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e21efe675e0b9a87161bc940f428bdda354c050c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3ff8052b088b4cdbb01689796b32e63829554ccc0bce5295992393359b1cc7e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118814"
 ---
 # <a name="id3dxconstanttablegetbufferpointer-method"></a>Метод ID3DXConstantTable:: Жетбуфферпоинтер
 
@@ -50,12 +50,12 @@ LPVOID GetBufferPointer();
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

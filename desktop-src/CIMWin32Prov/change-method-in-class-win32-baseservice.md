@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a70ee83229a830e22fba4241a6c50eb8d971c5ad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 306f771df0e44cb11ec61631b2d6b51f11ccefac9a719776d3a483d5cc861133
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085834"
 ---
 # <a name="change-method-of-the-win32_baseservice-class"></a>Метод Change \_ класса Win32 басесервице
 
@@ -186,7 +186,7 @@ uint32 Change(
 *StartMode* \[ окне\]
 </dt> <dd>
 
-Режим запуска базовой службы Windows.
+режим запуска базовой службы Windows.
 
 <dt>
 
@@ -532,7 +532,7 @@ uint32 Change(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы изменить службу из сети в локальную систему, используйте следующие значения параметров *StartName* и *стартпассворд* :
 
@@ -554,7 +554,7 @@ StartPassword = "" // - empty string, not NULL
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -563,13 +563,13 @@ StartPassword = "" // - empty string, not NULL
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
+| Заголовок<br/>                   | <dl> <dt>Мбнапи. h</dt> </dl>     |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: 'Метод IMpeg2PsiParser:: Жетпмтверсионнумбер. Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.'
+description: 'метод IMpeg2PsiParser:: жетпмтверсионнумбер. реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.'
 ms.assetid: 50113d6b-4e10-4dc9-aaef-f67c6918a2de
 title: 'Метод IMpeg2PsiParser:: Жетпмтверсионнумбер'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6f4fd8d0eba88ba1df54a1cc058bc0a2951b9a19
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fe193e07cb32b1048d6075786c381c03370d3297f9eb771238cd7ae499076e5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107714"
 ---
 # <a name="impeg2psiparsergetpmtversionnumber-method"></a>Метод IMpeg2PsiParser:: Жетпмтверсионнумбер
 
-Реализация этого метода предоставляется в виде образца кода с помощью пакета SDK DirectShow. Это не поддерживаемый API-интерфейс DirectShow.
+реализация этого метода предоставляется в виде образца кода с помощью пакета SDK для DirectShow. он не является поддерживаемым DirectShow API.
 
 `GetPmtVersionNumber`Метод извлекает \_ поле номера версии из УКАЗАННОГО типа ПЛТ. Номер версии увеличивается при каждом изменении определения программы.
 

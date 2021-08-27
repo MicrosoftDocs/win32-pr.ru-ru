@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60e9f1df1a68d0971ac9d0ddf6be39eca03dd6ae
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 0b00882702b44b7d4f9ccb101866400cb023cea00be637e898d9ecd71ed2e262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104998834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118054"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatintuint-function-for-texture2darray"></a>Функция Самплелевел:: Самплелевел (S, float, float, int, uint) для Texture2DArray
 
@@ -97,7 +97,7 @@ DXGI_FORMAT SampleLevel(
 | Texture1D, Texture1DArray     | INT            |
 | Texture2D, Texture2DArray     | int2           |
 | Texture3D                     | int3           |
-| Текстурекубе, Текстурекубеаррай | не поддерживается  |
+| Текстурекубе, Текстурекубеаррай | Не поддерживается  |
 
 
 
@@ -120,7 +120,7 @@ DXGI_FORMAT SampleLevel(
 
 Формат текстуры, который является одним из типизированных значений, перечисленных в [**\_ формате DXGI**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

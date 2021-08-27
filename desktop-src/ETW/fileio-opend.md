@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d3f1c495cf44b84f8d7661b40cadec6ea255c6a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74042df74f8e128c4d92b6e4f1c886a7bba2f673c1a8a998a4b7f251475c3f93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130594"
 ---
 # <a name="fileio_opend-class"></a>FileIo \_ открытый класс
 
@@ -40,13 +40,13 @@ class FileIo_OpEnd : FileIo
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 **\_ Открытый класс FileIo** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 **\_ Открытый класс FileIo** имеет следующие свойства.
 
@@ -100,7 +100,7 @@ class FileIo_OpEnd : FileIo
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 События [**FileIo**](fileio.md) регистрируются в начале операции. Открытые события можно включить отдельно, чтобы указать конец этих операций. IRP можно использовать для сопоставления событий начала и окончания.
 
@@ -110,12 +110,12 @@ class FileIo_OpEnd : FileIo
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

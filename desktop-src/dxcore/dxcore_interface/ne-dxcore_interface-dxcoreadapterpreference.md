@@ -4,12 +4,12 @@ description: Определяет константы, указывающие п�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
-ms.openlocfilehash: 4301bdc1fe0ece8d9594ec3287e2ea8ddcce8f0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a58f2c948751d5217a89e52bc862057ac6a67c85bdf2fabed96c2b5ad68364cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117734"
 ---
 # <a name="dxcoreadapterpreference-enum"></a>Перечисление Дкскореадаптерпреференце
 
@@ -42,6 +42,6 @@ enum class DXCoreAdapterPreference : uint32_t
 
 Задает предпочитаемый для высокопроизводительного графического процессора, например внешний графический процессор (Ксгпу), если он доступен, или дискретный графический процессор (ДГПУ), если он доступен.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптерлист:: Sort](./nf-dxcore_interface-idxcoreadapterlist-sort.md), [дкскоре Reference](../dxcore-reference.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

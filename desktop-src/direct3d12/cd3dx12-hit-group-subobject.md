@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/04/2021
-ms.openlocfilehash: 68b95f15c41fd46bfaeb58943720d3b657a3208d9a0276e9ab65fe7bd6087c42
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dd2b396e1305d2cf21cb2121aaa6a186c47d7677
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119037387"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121813097"
 ---
 # <a name="cd3dx12_hit_group_subobject-class"></a>Класс CD3DX12_HIT_GROUP_SUBOBJECT
 
@@ -93,7 +93,7 @@ class CD3DX12_HIT_GROUP_SUBOBJECT
 |-------------------|-------------------------------------------------------------------------------------|
 | Заголовок | [D3dx12. h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Вспомогательные структуры для Direct3D 12](helper-structures-for-d3d12.md)
 * [CD3DX12_STATE_OBJECT_DESC](cd3dx12-state-object-desc.md)

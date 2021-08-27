@@ -4,12 +4,12 @@ ms.assetid: 8c422592-ef59-4030-b684-81e4e552c6b0
 title: Команда IMC_OPENSTATUSWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd0b5e19ef6a026459eedb050e9ac9587b5ea24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 263640a3f104c9abf72a7eb5b33bce6ff3813ca40645c18b179b9b31a95fdda9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107294"
 ---
 # <a name="imc_openstatuswindow-command"></a>ИМК \_ опенстатусвиндов, команда
 
@@ -44,7 +44,7 @@ LRESULT IMC_OPENSTATUSWINDOW
 
 Возвращает 0 в случае успеха или ненулевое значение в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда пропускается, если операционная система не находится в режиме отображения состояния IME. Пользователь может установить или снять режим отображения состояния IME на панели задач.
 
@@ -58,11 +58,11 @@ LRESULT IMC_OPENSTATUSWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

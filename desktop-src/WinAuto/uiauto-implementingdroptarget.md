@@ -15,12 +15,12 @@ keywords:
 - интерфейсы, Идроптаржетпровидер
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd03d219ce8b26a0ac01806ebab09892a027fbd1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03cc425c9d41a70150eba2431c6fd317f2f8c23f878f7a0615025aec25b85b68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098314"
 ---
 # <a name="droptarget-control-pattern"></a>Шаблон элемента управления Дроптаржет
 
@@ -51,9 +51,9 @@ ms.locfileid: "104338188"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -72,6 +72,6 @@ ms.locfileid: "104338188"
 [Поддержка модели автоматизации пользовательского интерфейса для перетаскивания](ui-automation-support-for-drag-and-drop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,15 +1,15 @@
 ---
-description: Разработчики установщик Windowsных пакетов могут использовать тип настраиваемого действия 19, если стандартные действия недостаточны для выполнения установки.
+description: разработчики установщик Windowsных пакетов могут использовать тип настраиваемого действия 19, если стандартные действия недостаточны для выполнения установки.
 ms.assetid: c6df5462-e20e-4486-8480-8c747193c5d9
 title: Тип настраиваемого действия 19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 695f86db0848bd65884ce5e233b4d9a249275c1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20cbbef4ec07d805e41c0de25c371f995782ce3d8df66a89ee93363afa05f55b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075064"
 ---
 # <a name="custom-action-type-19"></a>Тип настраиваемого действия 19
 
@@ -53,7 +53,7 @@ ms.locfileid: "105664742"
 
 См. раздел [возвращаемые значения пользовательских действий](custom-action-return-values.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Например, пользовательские действия CAError1, CAError2, CAError3 и CAError4 возвращают эти сообщения.
 
@@ -115,7 +115,7 @@ ms.locfileid: "105664742"
 
 Обратите внимание, что поскольку порядок вычисления условий запуска не гарантируется путем создания [таблицы лаунчкондитион](launchcondition-table.md), для оценки условий в определенном порядке следует использовать настраиваемые действия типа 19.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

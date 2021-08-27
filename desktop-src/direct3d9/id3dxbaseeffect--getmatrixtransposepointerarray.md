@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e69c01395582691e6fdd0a695991ff1f726a362b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 42014ed5a829f6dc0d45d7fe0dbcc96f52e945d47ae02b8effd217329e92bda8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104273959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118834"
 ---
 # <a name="id3dxbaseeffectgetmatrixtransposepointerarray-method"></a>Метод ID3DXBaseEffect:: Жетматрикстранспосепоинтераррай
 
@@ -75,7 +75,7 @@ HRESULT GetMatrixTransposePointerArray(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть D3DERR \_ инвалидкалл.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переданная матрица содержит основные данные столбца. то есть каждый вектор содержится в столбце.
 
@@ -87,12 +87,12 @@ HRESULT GetMatrixTransposePointerArray(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 6dc0a0ab-2cfa-4cc9-92a6-0d7554dd3397
 title: 'Логическая модель: определение приложения и планирование'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acb09b0d377fcd9bf5e2319868f4006b5dbfce75
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d19a493ebdacebac27edd291e747b5c42612f5fffd3ac7ea489f99b41de272b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120334"
 ---
 # <a name="the-logical-model-application-definition-and-planning"></a>Логическая модель: определение приложения и планирование
 
@@ -32,7 +32,7 @@ ms.locfileid: "104142592"
 
 Очень часто выполняется добавочная разработка приложения COM+. Это включает в себя создание подмножества окончательных, известных компонентов и их тестирование с помощью каждого уровня приложения: Клиент, Бизнес и уровни данных — до хранения данных. Эта Рабочая модель предоставляет подробные сведения о дополнительных требованиях, предъявляемых клиентом и реализацией. Часто эта Рабочая модель тестируется на одном компьютере.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d6da7761-7a09-4c91-9737-550590a773b3
 title: Параметр SO_KEEPALIVE Socket (Ws2def. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d829f957e23c48a325444de7d992397fba26d48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d3590b8813f584aad16896a5b990baa2e3ad5607b76a13bd987d87961ee5f6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097474"
 ---
 # <a name="so_keepalive-socket-option"></a>SO, \_ параметр сокета KeepAlive
 
@@ -103,8 +103,8 @@ int setsockopt(
 | <dl> <dt>**[WSANOTINITIALISED](windows-sockets-error-codes-2.md)**</dt> </dl> | Перед использованием этой функции должен быть выполнен успешный вызов [**сбой WSAStartup**](/windows/desktop/api/winsock/nf-winsock-wsastartup) .<br/>                                                                                                                                                     |
 | <dl> <dt>**[WSAENETDOWN](windows-sockets-error-codes-2.md)**</dt> </dl>             | Сбой сетевой подсистемы.<br/>                                                                                                                                                                                                               |
 | <dl> <dt>**[WSAEFAULT](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Один из параметров *оптвал* или *оптлен* указывает на память, которая не находится в допустимой части адресного пространства пользователя. Эта ошибка также возвращается, если значение, на которое указывает параметр *оптлен* , меньше, чем размер значения **DWORD** .<br/> |
-| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | Выполняется блокировка вызова Windows Sockets 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
-| <dl> <dt>**[всаеинвал](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Неизвестный или недопустимый параметр *уровня* . В Windows Vista и более поздних версиях эта ошибка также возвращается, если сокет находился в переходном состоянии.<br/>                                                                                                 |
+| <dl> <dt>**[всаеинпрогресс](windows-sockets-error-codes-2.md)**</dt> </dl>       | выполняется блокировка Windows сокеты 1,1, или поставщик услуг все еще обрабатывает функцию обратного вызова.<br/>                                                                                                                            |
+| <dl> <dt>**[всаеинвал](windows-sockets-error-codes-2.md)**</dt> </dl>                 | Неизвестный или недопустимый параметр *уровня* . в Windows Vista и более поздних версиях эта ошибка также возвращается, если сокет находился в переходном состоянии.<br/>                                                                                                 |
 | <dl> <dt>**[всаенопротупт](windows-sockets-error-codes-2.md)**</dt> </dl>       | Параметр неизвестен или не поддерживается указанным семейством протоколов. Эта ошибка возвращается, если дескриптор сокета, переданный в параметре *s* , был для сокета датаграммы.<br/>                                                                   |
 | <dl> <dt>**[всаенотсокк](windows-sockets-error-codes-2.md)**</dt> </dl>             | Дескриптор не является сокетом.<br/>                                                                                                                                                                                                                 |
 
@@ -112,7 +112,7 @@ int setsockopt(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**жетсоккопт**](/windows/desktop/api/winsock/nf-winsock-getsockopt) , вызываемая с поддержкой протокола **so \_** , позволяет приложению получить текущее состояние параметра KeepAlive, хотя эта функция обычно не используется. Если приложению необходимо включить пакеты KeepAlive на сокете, оно просто вызывает функцию [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , чтобы включить параметр.
 
@@ -126,17 +126,17 @@ int setsockopt(
 
 Значение времени ожидания проверки активности по умолчанию для всей системы может быть управляемым с помощью параметра реестра [KeepAliveTime](/previous-versions/windows/it-pro/windows-server-2003/cc782936(v=ws.10)) , который принимает значение в миллисекундах. Значение интервала проверки активности по умолчанию может быть управляемым с помощью параметра реестра [keepAliveInterval](/previous-versions/windows/it-pro/windows-server-2003/cc758083(v=ws.10)) , который принимает значение в миллисекундах.
 
-В Windows Vista и более поздних версиях количество проверок активности (повторных передач данных) устанавливается равным 10 и не может быть изменено.
+в Windows Vista и более поздних версиях количество проверок активности (повторных передач данных) устанавливается равным 10 и не может быть изменено.
 
-В Windows Server 2003, Windows XP и Windows 2000 параметр по умолчанию для количества проверок активности по сроку поддержания равен 5. Количество зондов проверки активности может быть управляемым с помощью параметров реестра [TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10)) и [пптпткпмаксдатаретрансмиссионс](/previous-versions/windows/it-pro/windows-server-2003/cc775408(v=ws.10)) . Число зондов проверки активности устанавливается равным большему из двух значений раздела реестра. Если это число равно 0, зонды проверки активности не будут отправляться. Если это число превышает 255, то оно корректируется на 255.
+в Windows Server 2003, Windows XP и Windows 2000 значение по умолчанию для параметра число зондов проверки активности равно 5. Количество зондов проверки активности может быть управляемым с помощью параметров реестра [TcpMaxDataRetransmissions](/previous-versions/windows/it-pro/windows-server-2003/cc780586(v=ws.10)) и [пптпткпмаксдатаретрансмиссионс](/previous-versions/windows/it-pro/windows-server-2003/cc775408(v=ws.10)) . Число зондов проверки активности устанавливается равным большему из двух значений раздела реестра. Если это число равно 0, зонды проверки активности не будут отправляться. Если это число превышает 255, то оно корректируется на 255.
 
-В Windows Vista и более поздних версиях параметр **so \_ KeepAlive** Socket можно задать только с помощью функции [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , если сокет находится в известном состоянии, а не в переходном состоянии. Для протокола TCP значение параметра сокета **\_ KeepAlive** должно быть установлено перед вызовом функции Connect ([**Connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect), [**Коннектекс**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**всаконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), [**всаконнектбилист**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)или [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)) или после фактического завершения запроса на подключение. Если функция Connect была вызвана асинхронно, это требует ожидания завершения соединения, прежде чем пытаться установить параметр **so для протокола \_ KeepAlive** . Если приложение пытается установить параметр " **таким \_ образом** сокета KeepAlive", когда запрос на подключение все еще обрабатывается, функция **сетсоккопт** завершится ошибкой и возвратит [всаеинвал](windows-sockets-error-codes-2.md).
+в Windows Vista и более поздних версиях параметр **SO \_ KEEPALIVE** socket можно задать только с помощью функции [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , если сокет находится в известном состоянии, а не в переходном состоянии. Для протокола TCP значение параметра сокета **\_ KeepAlive** должно быть установлено перед вызовом функции Connect ([**Connect**](/windows/desktop/api/Winsock2/nf-winsock2-connect), [**Коннектекс**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**всаконнект**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnect), [**всаконнектбилист**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)или [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea)) или после фактического завершения запроса на подключение. Если функция Connect была вызвана асинхронно, это требует ожидания завершения соединения, прежде чем пытаться установить параметр **so для протокола \_ KeepAlive** . Если приложение пытается установить параметр " **таким \_ образом** сокета KeepAlive", когда запрос на подключение все еще обрабатывается, функция **сетсоккопт** завершится ошибкой и возвратит [всаеинвал](windows-sockets-error-codes-2.md).
 
-В Windows Server 2003, Windows XP и Windows 2000 параметр **so \_ KeepAlive** Socket можно задать с помощью функции [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , если сокет является переходным состоянием (запрос на соединение все еще выполняется), а также как известное состояние.
+в Windows Server 2003, Windows XP и Windows 2000, поэтому параметр сокета **\_ KEEPALIVE** можно задать с помощью функции [**сетсоккопт**](/windows/desktop/api/winsock/nf-winsock-setsockopt) , если сокет является переходным состоянием (запрос на соединение все еще выполняется), а также как известное состояние.
 
 Обратите внимание, что файл заголовка *Ws2def. h* автоматически включается в *Winsock2. h* и никогда не должен использоваться напрямую.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -148,7 +148,7 @@ int setsockopt(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

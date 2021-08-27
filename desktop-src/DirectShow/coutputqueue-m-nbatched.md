@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Outputq.h
-ms.openlocfilehash: eee06554e23afb1f5b4ed6025de3431ab060edd5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a51b8a89bfe2dd99bfff8113d93e8914231cad5863e7c63a9efdf76e537a465
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087094"
 ---
 # <a name="coutputqueuem_nbatched-member"></a>Элемент Каутпуткуеуе:: m \_ нбатчед
 
@@ -39,11 +39,11 @@ LONG m_nBatched;
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>аутпутк. h (включает Потоки. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

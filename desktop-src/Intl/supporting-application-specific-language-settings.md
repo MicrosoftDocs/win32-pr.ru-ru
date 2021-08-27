@@ -1,17 +1,17 @@
 ---
 description: Приложение может поддерживать другой набор языков интерфейса пользователя, поддерживаемых целевой операционной системой. В этом разделе описывается этот тип поддержки с помощью фрагментов из полных примеров.
 ms.assetid: cb9f2a5f-3bb8-4287-a542-c71d20b37194
-title: Поддержка языковых параметров Application-Specific
+title: поддержка языков Application-Specific Параметры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6bddfe94586751d3b0f4757c670c006317e49b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96c934ea2f01c37eb2f9e846382447a50ccbedcd9b69fe20069216fa46521b02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130064"
 ---
-# <a name="supporting-application-specific-language-settings"></a>Поддержка языковых параметров Application-Specific
+# <a name="supporting-application-specific-language-settings"></a>поддержка языков Application-Specific Параметры
 
 Приложение может поддерживать другой набор языков интерфейса пользователя, поддерживаемых целевой операционной системой. В этом разделе описывается этот тип поддержки с помощью фрагментов из полных примеров.
 
@@ -91,7 +91,7 @@ BOOL ConvertMyLangStrToMultiLangStr(WCHAR * langStr, WCHAR * langMultiStr, DWORD
 
 ## <a name="set-the-application-language"></a>Установка языка приложения
 
-После считывания сведений о предпочтениях языка код приложения должен использовать извлеченный параметр, чтобы задать язык приложения. В Windows 7 и более поздних версиях приложение может задать язык на уровне процесса, вызвав функцию [**сетпроцесспреферредуилангуажес**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages) .
+После считывания сведений о предпочтениях языка код приложения должен использовать извлеченный параметр, чтобы задать язык приложения. в Windows 7 и более поздних версиях приложение может задать язык на уровне процесса, вызвав функцию [**сетпроцесспреферредуилангуажес**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages) .
 
 
 ```C++
@@ -108,7 +108,7 @@ if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, 
 
 
 
-В Windows Vista и более поздних версиях язык приложения задается на уровне потока путем вызова функции [**сетсреадпреферредуилангуажес**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) .
+в Windows Vista и более поздних версиях язык приложения задается на уровне потока путем вызова функции [**сетсреадпреферредуилангуажес**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) .
 
 
 ```C++
@@ -126,17 +126,17 @@ return 1;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Настройка языковых настроек приложения](setting-application-language-preferences.md)
 </dt> <dt>
 
-[MUI: пример параметров Application-Specific (Windows Vista)](mui-application-specific-settings-sample-vista.md)
+[MUI: пример Параметры Application-Specific (Windows Vista)](mui-application-specific-settings-sample-vista.md)
 </dt> <dt>
 
-[MUI: образец параметров Application-Specific (до Windows Vista)](mui-application-specific-settings-sample-pre-vista.md)
+[MUI: пример Параметры Application-Specific (до Windows Vista)](mui-application-specific-settings-sample-pre-vista.md)
 </dt> </dl>
 
  

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101811
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a882cf36cd50e381351c83ff12a5cb003f9bb811
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6aed5f6a71a8b9f3c6a51cd8d1d65dd292a2e42cd0d10c3de4e7fa1f754b5826
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065154"
 ---
 # <a name="esentindextuplesvarsegmacnotallowedexception-methods"></a>Методы EsentIndexTuplesVarSegMacNotAllowedException 
 
@@ -78,7 +78,7 @@ ms.locfileid: "104567927"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

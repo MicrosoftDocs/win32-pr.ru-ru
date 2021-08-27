@@ -4,12 +4,12 @@ ms.assetid: 094cac29-c66d-409e-8928-878dc693d393
 title: Создание и открытие файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1430675862b10f9e9221d968242481525dc7632f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e80449942fbceb39c37604bf6d8b5410d171d195
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664286"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469931"
 ---
 # <a name="creating-and-opening-files"></a>Создание и открытие файлов
 
@@ -29,90 +29,19 @@ ms.locfileid: "105664286"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Первый вызов <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a></th>
-<th>Допустимые вторые вызовы <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li>
-<li><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong><br/></td>
-<td><ul>
-<li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-<li><strong>GENERIC_READ</strong>  |  <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong>  |  <strong>FILE_SHARE_WRITE</strong></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Первый вызов <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a> | Допустимые вторые вызовы <a href="/windows/desktop/api/FileAPI/nf-fileapi-createfilea"> <strong>CreateFile</strong></a> | 
+|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| <strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+| <strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong><br /> | <ul><li><strong>GENERIC_READ</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li><li><strong>GENERIC_READ</strong> | <strong>GENERIC_WRITE</strong>, <strong>FILE_SHARE_READ</strong> | <strong>FILE_SHARE_WRITE</strong></li></ul> | 
+
 
 
 
@@ -138,16 +67,16 @@ ms.locfileid: "105664286"
 
 -   Объединяет атрибуты файлов и флаги, заданные параметром *двфлагсандаттрибутес* , с **\_ \_ архивом атрибута файла**.
 -   Задает нулевую длину файла.
--   Копирует расширенные атрибуты, предоставленные файлом шаблона, в новый файл, если указан параметр *хтемплатефиле* (это переопределяет все флаги **File \_ Attribute \_ \** _, указанные ранее).
--   Устанавливает флаг наследования, заданный членом _ *бинхерисандле**, и дескриптор безопасности, заданный членом **лпсекуритидескриптор** параметра *лпсекуритяттрибутес* ([**Структура \_ атрибутов безопасности**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) ), если он предоставлен.
+-   Копирует расширенные атрибуты, предоставленные файлом шаблона, в новый файл, если указан параметр *хтемплатефиле* (это переопределяет все флаги **\_ атрибутов \_ \* файла** , указанные ранее).
+-   Задает флаг inherit, заданный членом **бинхерисандле** , и дескриптор безопасности, заданный членом **лпсекуритидескриптор** параметра *лпсекуритяттрибутес* (структура [**\_ атрибутов безопасности**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) ), если он указан.
 
 При создании нового файла, даже если файл с таким именем уже существует (*двкреатиондиспоситион* настроен для **создания \_ Always**), функция [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) выполняет следующие действия:
 
 -   Проверяет текущие атрибуты файлов и параметры безопасности для доступа на запись, если она запрещена.
 -   Объединяет атрибуты файлов и флаги, заданные параметром *двфлагсандаттрибутес* , с **\_ \_ архивным атрибутом файла** и существующими атрибутами файла.
 -   Устанавливает нулевую длину файла (т. е. все данные, которые были в файле, больше не доступны и файл пуст).
--   Копирует расширенные атрибуты, предоставленные файлом шаблона, в новый файл, если указан параметр *хтемплатефиле* (это переопределяет все флаги **File \_ Attribute \_ \** _, указанные ранее).
--   Устанавливает флаг наследования, заданный членом _ *бинхерисандле** параметра *лпсекуритяттрибутес* (структура [**\_ атрибутов безопасности**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) ), если он предоставлен, но игнорирует элемент **лпсекуритидескриптор** структуры **\_ атрибутов безопасности** .
+-   Копирует расширенные атрибуты, предоставленные файлом шаблона, в новый файл, если указан параметр *хтемплатефиле* (это переопределяет все флаги **\_ атрибутов \_ \* файла** , указанные ранее).
+-   Устанавливает флаг наследования, заданный членом **бинхерисандле** параметра *лпсекуритяттрибутес* (структура [**\_ атрибутов безопасности**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) ), если он предоставлен, но игнорирует элемент **лпсекуритидескриптор** структуры **\_ атрибутов безопасности** .
 -   Если в противном случае ничего не происходит (то есть функция [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) возвращает допустимый маркер), вызов [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) приведет к тому, что **Ошибка кода \_ уже \_ существует**, хотя в данном конкретном случае это не является ошибкой (если вы хотите создать "новый" (пустой) файл вместо существующего).
 
 При открытии существующего файла (*двкреатиондиспоситион* , установленного как **Open \_ existing**, **Open \_ Always** или **Truncate \_ existing**), функция [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) выполняет следующие действия:
@@ -183,7 +112,7 @@ ms.locfileid: "105664286"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

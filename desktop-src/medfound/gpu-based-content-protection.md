@@ -4,12 +4,12 @@ ms.assetid: FD0625BB-484A-43E6-8931-DB635D4F017F
 title: GPU-Based Защита содержимого
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbc1a0f88cae199b9aab38e5ec429ea5427f44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e09829984273c35524fe9c8f3cd19e759e18dbc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550431"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465041"
 ---
 # <a name="gpu-based-content-protection"></a>GPU-Based Защита содержимого
 
@@ -25,7 +25,7 @@ ms.locfileid: "104550431"
     -   [5. Связывание декодера ДКСВА с криптографическим сеансом](#5-associate-the-dxva-decoder-with-the-cryptographic-session)
 -   [Отправка команд аутентифицированного канала](#sending-authenticated-channel-commands)
 -   [Отправка запросов к каналам с проверкой подлинности](#sending-authenticated-channel-queries)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="introduction"></a>Введение
 
@@ -218,41 +218,14 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 
 1.  Заполните структуру входных данных. Эта структура данных всегда является структурой [**D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT**](d3dauthenticatedchannel-configure-input.md) , за которой следуют дополнительные поля. Заполните структуру **D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT** , как показано в следующей таблице.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Член</th>
-    <th>Описание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>омак</strong></td>
-    <td>Пока не пропустите это поле.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>конфигуретипе</strong></td>
-    <td>Идентификатор GUID, идентифицирующий команду. Список команд см. в разделе <a href="content-protection-commands.md">Защита содержимого Commands</a>.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>хчаннел</strong></td>
-    <td>Маркер для аутентифицированного канала.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Порядковый номер. Первый порядковый номер задается путем отправки команды <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Каждый раз, когда вы отправляете другую команду, увеличивайте это число на 1. Порядковый номер защищается от атак с использованием воспроизведения.
-    <blockquote>
-    [!Note]<br />
-Используются два отдельных порядковых номера: один для команд и один для запросов.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Член | Описание | 
+|--------|-------------|
+| <strong>омак</strong> | Пока не пропустите это поле. | 
+| <strong>конфигуретипе</strong> | Идентификатор GUID, идентифицирующий команду. Список команд см. в разделе <a href="content-protection-commands.md">Защита содержимого Commands</a>. | 
+| <strong>хчаннел</strong> | Маркер для аутентифицированного канала. | 
+| <strong>SequenceNumber</strong> | Порядковый номер. Первый порядковый номер задается путем отправки команды <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Каждый раз, когда вы отправляете другую команду, увеличивайте это число на 1. Порядковый номер защищается от атак с использованием воспроизведения.    <blockquote>    [!Note]<br />    Используются два отдельных порядковых номера: один для команд и один для запросов.    </blockquote><br /><br /> | 
+
 
     
 
@@ -273,37 +246,13 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 
 1.  Заполните структуру входных данных. Эта структура данных всегда является структурой [**D3DAUTHENTICATEDCHANNEL_QUERY_INPUT**](d3dauthenticatedchannel-query-input.md) , возможно, за ней следуют дополнительные поля. Заполните структуру **D3DAUTHENTICATEDCHANNEL_QUERY_INPUT** , как показано в следующей таблице.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Член</th>
-    <th>Описание</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>QueryType</strong></td>
-    <td>Идентификатор GUID, определяющий запрос. Список запросов см. в разделе <a href="content-protection-queries.md">запросы защита содержимого</a>.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>хчаннел</strong></td>
-    <td>Маркер для аутентифицированного канала.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Порядковый номер. Первый порядковый номер задается путем отправки команды <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Каждый раз, когда вы отправляете другой запрос, увеличивайте это число на 1. Порядковый номер защищается от атак с использованием воспроизведения.
-    <blockquote>
-    [!Note]<br />
-Используются два отдельных порядковых номера: один для команд и один для запросов.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Член | Описание | 
+|--------|-------------|
+| <strong>QueryType</strong> | Идентификатор GUID, определяющий запрос. Список запросов см. в разделе <a href="content-protection-queries.md">запросы защита содержимого</a>. | 
+| <strong>хчаннел</strong> | Маркер для аутентифицированного канала. | 
+| <strong>SequenceNumber</strong> | Порядковый номер. Первый порядковый номер задается путем отправки команды <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Каждый раз, когда вы отправляете другой запрос, увеличивайте это число на 1. Порядковый номер защищается от атак с использованием воспроизведения.    <blockquote>    [!Note]<br />    Используются два отдельных порядковых номера: один для команд и один для запросов.    </blockquote><br /><br /> | 
+
 
     
 
@@ -315,7 +264,7 @@ ExtensionExecute.PrivateOutputDataSize = sizeof(HANDLE);
 5.  Сравните значения элементов **конфигуретипе**, **хчаннел** и **SequenceNumber** в выходной структуре со значениями для этих элементов. Завершать с ошибкой, если они не совпадают.
 6.  Увеличение порядкового номера для следующего запроса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1224c8d344b355e05d427d896f646aaee2ca9acb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 729dce41c7ace37f1e186a937946bf275dfda059b1e17e11b2937383fffbbcb5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131584"
 ---
 # <a name="id2d1devicecontext2createink-methods"></a>Методы ID2D1DeviceContext2:: Креатеинк
 
@@ -40,11 +40,11 @@ ms.locfileid: "105657999"
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1 \_ 3. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1 \_ 3. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

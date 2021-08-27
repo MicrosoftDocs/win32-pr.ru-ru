@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af31e7e66d92cf7ebbc238ac54a9b331e6dc5362
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc09639d48fe4cea93b115c9243587653ad70f44
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105719615"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465051"
 ---
 # <a name="jetcreateinstance2-function"></a>Функция JetCreateInstance2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetcreateinstance2-function"></a>Функция JetCreateInstance2
 
 Функция **JetCreateInstance2** используется для выделения нового экземпляра ядра СУБД для использования в одном процессе с указанным отображаемым именем.
 
-**Windows XP:**  **JetCreateInstance2** появился в Windows XP.
+**Windows xp:****JetCreateInstance2** появился в Windows XP.  
 
 ```cpp
     JET_ERR JET_API JetCreateInstance2(
@@ -69,42 +69,17 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceNameInUse</p></td>
-<td><p>Указанное имя экземпляра уже используется для этого процесса.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a> , когда <em>пинстанце</em> имеет значение null.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Операция завершилась ошибкой, так как ее нельзя использовать, если ядро СУБД работает в режиме одиночного экземпляра (режим совместимости с Windows 2000).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyInstances</p></td>
-<td><p>Не удалось создать новый экземпляр, так как достигнуто максимальное число экземпляров. Максимальное число поддерживаемых экземпляров настраивается с помощью <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a> с помощью <em>JET_paramMaxInstances</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errInstanceNameInUse</p> | <p>Указанное имя экземпляра уже используется для этого процесса.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a> , когда <em>пинстанце</em> имеет значение null.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>операция завершилась ошибкой, так как ее нельзя использовать, если ядро субд работает в режиме одиночного экземпляра (режим совместимости Windows 2000).</p> | 
+| <p>JET_errTooManyInstances</p> | <p>Не удалось создать новый экземпляр, так как достигнуто максимальное число экземпляров. Максимальное число поддерживаемых экземпляров настраивается с помощью <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a> с помощью <em>JET_paramMaxInstances</em>.</p> | 
+
 
 
 При успешном выполнении будет выделена новая копия, и будет возвращен идентификатор для него. На этом этапе все системные параметры экземпляра будут иметь значения глобальных системных параметров по умолчанию. После того как экземпляр будет выделен, он должен быть завершен и/или освобожден позже.
@@ -117,7 +92,7 @@ _**Применимо к:** Windows | Windows Server_
 
 Экземпляр уничтожается вызовом функции [жеттерм](./jetterm-function.md) , даже если этот экземпляр никогда не был инициализирован с помощью [жетинит](./jetinit-function.md). Максимальное число экземпляров, которые могут быть созданы за один раз, управляется *JET_paramMaxInstances*, которые можно настроить с помощью вызова [жетсетсистемпараметер](./jetsetsystemparameter-function.md). Экземпляр — это единица восстановления для ядра СУБД. Он управляет жизненным циклом всех файлов, используемых для защиты целостности данных в наборе файлов базы данных. Эти файлы включают файл контрольных точек и файлы журнала транзакций.
 
-Если функция выполнена, ядро СУБД автоматически перейдет в режим с несколькими экземплярами как побочный результат этого вызова. Если приложению нужно разрешить только один экземпляр в процессе, то для запуска ядра СУБД в режиме совместимости Windows 2000 следует использовать [жетинит](./jetinit-function.md) .
+Если функция выполнена, ядро СУБД автоматически перейдет в режим с несколькими экземплярами как побочный результат этого вызова. если приложению нужно разрешить только один экземпляр в процессе, [жетинит](./jetinit-function.md) следует использовать для запуска ядра субд в режиме совместимости Windows 2000.
 
 При наличии параметра *сздисплайнаме* будет использоваться для указания экземпляра в таких местах, как журнал событий, или для других вызывающих объектов, таких как приложения резервного копирования (с помощью таких функций, как [жетжетинстанцеинфо](./jetgetinstanceinfo-function.md) или [жетосснапшотфризе](./jetossnapshotfreeze-function.md)). Если отображаемое имя не указано, вместо него будет использоваться уникальный параметр *сзинстанценаме* , если он есть, в противном случае возвращается пустая строка. Если в обработчике не установлен режим выполнения, после этого вызова он будет установлен в режим с несколькими экземплярами.
 
@@ -133,38 +108,9 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista или Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008 или Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JetCreateInstance2W</strong> (Юникод) и <strong>JetCreateInstance2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista или Windows XP.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008 или Windows server 2003.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JetCreateInstance2W</strong> (Юникод) и <strong>JetCreateInstance2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

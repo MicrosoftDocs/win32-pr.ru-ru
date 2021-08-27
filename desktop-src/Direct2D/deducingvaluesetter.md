@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e002c5a36c8ac0b196dfc5fb25e11f7f9d63806
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bfba4f6123b9e097d5c9c5fedb2e872974fc3d15a5c54464eca4ae6e27c3048c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108864"
 ---
 # <a name="deducingvaluesetter"></a>дедуЦингвалуесеттер
 
@@ -40,17 +40,17 @@ HRESULT DeducingValueSetter(
     ) 
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D2d1effecthelpers. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D2d1effecthelpers. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

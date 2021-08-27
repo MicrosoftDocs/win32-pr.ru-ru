@@ -4,12 +4,12 @@ ms.assetid: 53aabb35-4601-42d1-ac73-385473ff91e2
 title: Объекты файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e37793ad6c31ac86809047a3ec0d34afc3efc34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 263eae282f76195cc125848f13f43f5ee3d8f676cc6328b2d03db443e6f1deec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107474"
 ---
 # <a name="file-objects"></a>Объекты файлов
 
@@ -32,7 +32,7 @@ ms.locfileid: "105662748"
 
  
 
-Эти атрибуты определяются как часть структуры [**файловых \_ объектов**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) в нтддк. h. Длина данных и типы значений см. в описании этой структуры в документации по Windows Driver Kit (WDK).
+Эти атрибуты определяются как часть структуры [**файловых \_ объектов**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) в нтддк. h. сведения о длине и типах значений см. в описании этой структуры в документации по службам Windows Driver Kit (WDK).
 
  
 

@@ -4,12 +4,12 @@ description: В этом разделе показано, как инициал�
 ms.assetid: 4A717010-A1D3-4FFB-8E4E-D5C4F9D8D952
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ca2230b265d61e9a59a8892e14127d25bf2cfd2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 83a037bfbdb5232cd30d3e13fbc251c22c18c71a76398a351939602301a745d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104070865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063182"
 ---
 # <a name="how-to-create-a-simple-list-box"></a>Создание простого списка
 
@@ -19,16 +19,16 @@ ms.locfileid: "104070865"
 
 ![снимок экрана: диалоговое окно, содержащее поле со списком с надписью, текст о выбранном элементе списка и кнопка "ОК"](images/lb-roster.png)
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -133,7 +133,7 @@ INT_PTR CALLBACK ListBoxExampleProc(HWND hDlg, UINT message,
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
