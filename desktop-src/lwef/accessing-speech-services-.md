@@ -1,19 +1,19 @@
 ---
 title: Доступ к голосовым службам (Управление агентом Microsoft)
-description: Сведения о доступе к голосовым службам с помощью управления Microsoft Agent. Microsoft Agent является устаревшим в Windows 7.
+description: Сведения о доступе к голосовым службам с помощью управления Microsoft Agent. не рекомендуется использовать Microsoft Agent на Windows 7.
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035bde03d18b77ce43c47375f2075bba02416c39
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 617da522912e2fbae361fb3addf569d5164894fc2b98a901686b2458d4d0a8e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114944"
 ---
 # <a name="accessing-speech-services-microsoft-agent-control"></a>Доступ к голосовым службам (Управление агентом Microsoft)
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 Несмотря на то, что службы Microsoft Agent включают поддержку речевого ввода, для доступа к службам речевого ввода агента должен быть установлен совместимый обработчик распознавания речи для команд и управления. Аналогичным образом, если вы хотите использовать речевые службы агента Майкрософт для поддержки синтезированного речевого вывода для символа, необходимо установить совместимый речевой механизм преобразования текста в речь для вашего символа.
 

@@ -4,12 +4,12 @@ description: База данных сопоставления автонабор
 ms.assetid: 4589d1e5-eec3-46ac-a10f-f20ae9f7b543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511f15f98848559a892e8c20e766d47a07780fbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4e89bd065a136492281adb3424636a8820c76c76bf6867e70db75aecfa0f345d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036724"
 ---
 # <a name="autodial-mapping-database"></a>База данных сопоставления автонабора
 
@@ -27,6 +27,6 @@ ms.locfileid: "103890724"
 
 Функцию [**рассетаутодиаладдресс**](/windows/desktop/api/Ras/nf-ras-rassetautodialaddressa) можно использовать для добавления адреса в базу данных сопоставления автонабора, удаления адреса из базы данных или изменения записей автонабора, связанных с существующим адресом в базе данных. Функцию [**расжетаутодиаладдресс**](/windows/desktop/api/Ras/nf-ras-rasgetautodialaddressa) можно использовать для получения записей автонабора, связанных с указанным сетевым адресом в базе данных сопоставления автонабора. Функция [**расенумаутодиаладдрессес**](/windows/desktop/api/Ras/nf-ras-rasenumautodialaddressesa) возвращает список всех адресов в базе данных сопоставления автонабора.
 
- 
+ 
 
- 
+ 

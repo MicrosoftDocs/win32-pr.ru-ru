@@ -3,7 +3,7 @@ title: Функция Мпманажерверсионкуери (Мпклиен
 description: Возвращает сведения о версии различных компонентов диспетчера защиты от вредоносных программ.
 ms.assetid: 47DE12BF-D7A4-468B-B0E7-79B5C27E56F5
 keywords:
-- Функции Мпманажерверсионкуери устаревшие функции среды Windows
+- функции мпманажерверсионкуери устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a841a83d8ceb828de0a5a9cd80f5f5bdc7f5c914
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6407f36650b699f6bcdc9cbdd832ff2db38f68e9db758411d42aa5e81564ea4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114544"
 ---
 # <a name="mpmanagerversionquery-function"></a>Функция Мпманажерверсионкуери
 
@@ -73,14 +73,14 @@ HRESULT WINAPI MpManagerVersionQuery(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

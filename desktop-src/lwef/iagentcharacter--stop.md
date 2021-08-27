@@ -4,16 +4,16 @@ description: Иажентчарактер
 ms.assetid: 3064bb3e-37a6-4022-bffb-130735736889
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356c81996a9410eccb2007dc5261913e30a1b414
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 297f187b7045b1da5773643f2765160c71fbca0d4eb7c6ec12c4032e2f1d5806
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114784"
 ---
 # <a name="iagentcharacterstop"></a>Иажентчарактер:: останавливаться
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Stop(
@@ -36,14 +36,14 @@ HRESULT Stop(
 
 **Остановить** также можно использовать для остановки [**всех вызовов,**](iagentcharacter--prepare.md) помещенных в очередь.
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер::P готовка**](iagentcharacter--prepare.md), [ **иажентчарактер:: стопалл**](iagentcharacter--stopall.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

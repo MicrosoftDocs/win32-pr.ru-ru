@@ -1,7 +1,7 @@
 - name: Служба маршрутизации и удаленного доступа
   href: portal.md
   items:
-    - name: Архитектура служб маршрутизации и удаленного доступа
+    - name: архитектура маршрутизации и удаленного службы Access
       href: routing-and-remote-access-services-architecture.md
     - name: Макет реестра маршрутизации и удаленного доступа
       href: routing-and-remote-access-registry-layout.md
@@ -59,7 +59,7 @@
                       href: virtual-private-network-connections.md
                     - name: протокол PPP через Ethernet подключения
                       href: point-to-point-protocol-over-ethernet-connections.md
-                - name: Телефонные книги RAS
+                - name: книги по Телефон RAS
                   href: ras-phone-books.md
                   items:
                     - name: Записи Phone-Book
@@ -352,7 +352,7 @@
             - name: Сведения об администрировании службы удаленного доступа
               href: about-remote-access-service-administration.md
               items:
-                - name: 'Сравнение функций: Windows 2000 и распространяемый компонент RRAS'
+                - name: 'сравнение функций: Windows 2000 и распространяемый компонент RRAS'
                   href: function-comparison-windows-2000-versus-rras-redistributable.md
                 - name: Администрирование пользователей RAS
                   href: ras-user-administration.md

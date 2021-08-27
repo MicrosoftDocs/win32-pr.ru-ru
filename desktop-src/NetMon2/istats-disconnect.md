@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a5fa56c05036380b5dba42089979b43d776a4b57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eabba7b5cf234d48b2839074ec1ad07380a7ed14858f6bd43b07f7d2eaa033b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037194"
 ---
 # <a name="istatsdisconnect-method"></a>Истатс::D метода соединения
 
@@ -50,17 +50,17 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**НМЕРР \_ запись**</dt> </dl>        | НПП в настоящее время фиксирует данные. Невозможно отключиться от сети, пока выполняется сбор данных.<br/> |
 | <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl>   | НПП не подключен к сети.<br/>                                                                         |
-| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | НПП подключается к сети, но не с методом [**истатс:: Connect**](istats-connect.md) .<br/>          |
+| <dl> <dt>**НМЕРР \_ не \_ \_ только статистика**</dt> </dl> | нпп подключается к сети, но не с помощью метода [**истатс:: Подключение**](istats-connect.md) .<br/>          |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод не может быть вызван, когда НПП захватывает данные. Сначала вызовите метод **истатс::D соединения** , а затем вызовите [**Истатс:: останавливаться**](istats-stop.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -73,14 +73,14 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**истатс**](istats.md)
 </dt> <dt>
 
-[**Истатс:: Connect**](istats-connect.md)
+[**истатс:: Подключение**](istats-connect.md)
 </dt> <dt>
 
 [**Истатс:: останавливаться**](istats-stop.md)

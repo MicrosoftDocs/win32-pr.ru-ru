@@ -551,12 +551,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e260c4dfcd6d19a789ae7ddecfadc2528037cf9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ba1a890b25392d4903c2aa9055b529e22ed9df9ac656a97014dbb0bff205246
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071057"
 ---
 # <a name="com-error-codes-security-and-setup"></a>Коды ошибок COM (безопасность и настройка)
 
@@ -1016,7 +1016,7 @@ ms.locfileid: "105674875"
 | <span id="SPAPI_E_DRIVER_NONNATIVE"></span><span id="spapi_e_driver_nonnative"></span><dl> <dt>**Спапи \_ \_Драйвер E \_ native**</dt> <dt>0x800F0234</dt> </dl>                                                         | Драйвер не предназначен для этой платформы.<br/>                                                                                                                                                                                                                                 |
 | <span id="SPAPI_E_IN_WOW64"></span><span id="spapi_e_in_wow64"></span><dl> <dt>**Спапи \_ E \_ в \_ WOW64**</dt> <dt>0x800F0235</dt> </dl>                                                                                 | Операция не разрешена в WOW64.<br/>                                                                                                                                                                                                                                           |
 | <span id="SPAPI_E_SET_SYSTEM_RESTORE_POINT"></span><span id="spapi_e_set_system_restore_point"></span><dl> <dt>**Спапи \_ E \_ Настройка \_ \_ \_ точки восстановления системы**</dt> <dt>0x800F0236</dt> </dl>                               | Выполнен откат операции, включающей копирование неподписанного файла, чтобы можно было установить точку восстановления системы.<br/>                                                                                                                                                               |
-| <span id="SPAPI_E_INCORRECTLY_COPIED_INF"></span><span id="spapi_e_incorrectly_copied_inf"></span><dl> <dt>**Спапи \_ \_Неверный \_ скопированный 0x800F0237 \_ INF**</dt> <dt></dt> </dl>                                      | Файл INF был неправильным образом скопирован в каталог INF Windows.<br/>                                                                                                                                                                                                   |
+| <span id="SPAPI_E_INCORRECTLY_COPIED_INF"></span><span id="spapi_e_incorrectly_copied_inf"></span><dl> <dt>**Спапи \_ \_Неверный \_ скопированный 0x800F0237 \_ INF**</dt> <dt></dt> </dl>                                      | файл inf был скопирован в каталог Windows INF неправильным образом.<br/>                                                                                                                                                                                                   |
 | <span id="SPAPI_E_SCE_DISABLED"></span><span id="spapi_e_sce_disabled"></span><dl> <dt>**Спапи \_ E \_ Essentials \_ disabled**</dt> <dt>0x800F0238</dt> </dl>                                                                     | API редактора конфигурации безопасности (SCE) отключены для этого внедренного продукта.<br/>                                                                                                                                                                                 |
 | <span id="SPAPI_E_UNKNOWN_EXCEPTION"></span><span id="spapi_e_unknown_exception"></span><dl> <dt>**Спапи \_ \_Неизвестное \_ исключение**</dt> <dt>0x800F0239</dt> </dl>                                                      | Обнаружено неизвестное исключение.<br/>                                                                                                                                                                                                                                     |
 | <span id="SPAPI_E_PNP_REGISTRY_ERROR"></span><span id="spapi_e_pnp_registry_error"></span><dl> <dt>**Спапи \_ \_ \_ \_ Ошибка реестра E PnP**</dt> <dt>0x800F023A</dt> </dl>                                                  | Возникла проблема при доступе к базе данных реестра самонастраивающийся.<br/>                                                                                                                                                                                             |
@@ -1029,7 +1029,7 @@ ms.locfileid: "105674875"
 | <span id="SPAPI_E_AUTHENTICODE_TRUSTED_PUBLISHER"></span><span id="spapi_e_authenticode_trusted_publisher"></span><dl> <dt>**Спапи \_ 0x800F0241 \_ , \_ доверенный \_ Издатель AUTHENTICODE**</dt> <dt></dt> </dl>              | INF-файл был подписан с помощью каталога Authenticode (TM) от доверенного издателя.<br/>                                                                                                                                                                                             |
 | <span id="SPAPI_E_AUTHENTICODE_TRUST_NOT_ESTABLISHED"></span><span id="spapi_e_authenticode_trust_not_established"></span><dl> <dt>**Спапи \_ \_ \_ Отношение доверия с AUTHENTICODE \_ не \_ установлено**</dt> <dt>0x800F0242</dt> </dl> | Издатель каталога с подписью Authenticode (TM) еще не установлен как доверенный.<br/>                                                                                                                                                                              |
 | <span id="SPAPI_E_AUTHENTICODE_PUBLISHER_NOT_TRUSTED"></span><span id="spapi_e_authenticode_publisher_not_trusted"></span><dl> <dt>**Спапи \_ \_Издатель AUTHENTICODE \_ \_ не является \_ доверенным**</dt> <dt>0x800F0243</dt> </dl> | Издатель каталога, подписанного с помощью Authenticode (TM), не был установлен как доверенный.<br/>                                                                                                                                                                                       |
-| <span id="SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH"></span><span id="spapi_e_signature_osattribute_mismatch"></span><dl> <dt>**Спапи \_ \_Несоответствие \_ осаттрибуте \_ Signature**</dt> <dt>0x800F0244</dt> </dl>              | Программное обеспечение было протестировано на соответствие требованиям Windows Logo для другой версии Windows и может быть несовместимо с этой версией.<br/>                                                                                                                     |
+| <span id="SPAPI_E_SIGNATURE_OSATTRIBUTE_MISMATCH"></span><span id="spapi_e_signature_osattribute_mismatch"></span><dl> <dt>**Спапи \_ \_Несоответствие \_ осаттрибуте \_ Signature**</dt> <dt>0x800F0244</dt> </dl>              | программное обеспечение было протестировано на соответствие требованиям Windows логотипов на другой версии Windows и может быть несовместимо с этой версией.<br/>                                                                                                                     |
 | <span id="SPAPI_E_ONLY_VALIDATE_VIA_AUTHENTICODE"></span><span id="spapi_e_only_validate_via_authenticode"></span><dl> <dt>**Спапи \_ \_Только \_ Проверка с \_ помощью \_ AUTHENTICODE**</dt> <dt>0x800F0245</dt> </dl>             | Файл может быть проверен только каталогом, подписанным с помощью Authenticode (TM).<br/>                                                                                                                                                                                                  |
 | <span id="SPAPI_E_DEVICE_INSTALLER_NOT_READY"></span><span id="spapi_e_device_installer_not_ready"></span><dl> <dt>**Спапи \_ \_Установщик устройства \_ E \_ не \_ готов**</dt> <dt>0x800F0246</dt> </dl>                         | Один из установщиков для этого устройства не может выполнить установку в данный момент.<br/>                                                                                                                                                                                       |
 | <span id="SPAPI_E_DRIVER_STORE_ADD_FAILED"></span><span id="spapi_e_driver_store_add_failed"></span><dl> <dt>**Спапи \_ Д \_ . \_ \_ Добавление \_ неудачных**</dt> <dt>0x800F0247</dt> в хранилище драйверов </dl>                                  | Возникла проблема при попытке добавить драйвер в хранилище.<br/>                                                                                                                                                                                                |
@@ -1111,17 +1111,17 @@ ms.locfileid: "105674875"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Winerror. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Winerror. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

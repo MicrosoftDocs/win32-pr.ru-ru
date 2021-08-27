@@ -3,7 +3,7 @@ title: Сообщение TBM_GETTHUMBLENGTH (Коммктрл. h)
 description: Получает длину ползунка в TrackBar.
 ms.assetid: 290187a2-7bf7-4a4b-a4cf-132f8ad38020
 keywords:
-- Элементы управления Windows для TBM_GETTHUMBLENGTH сообщений
+- элементы управления Windows сообщений TBM_GETTHUMBLENGTH
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 320789c7d3fb94cb4e8afa9abab412887533de9e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c14f7f64ff288c7e3266919bfcd0444e394077d28f515cb9bc255164db3e8819
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046414"
 ---
 # <a name="tbm_getthumblength-message"></a>\_Сообщение ТБМ жетсумбленгс
 
@@ -39,19 +39,19 @@ ms.locfileid: "104071648"
 
 Возвращает длину ползунка в пикселях.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

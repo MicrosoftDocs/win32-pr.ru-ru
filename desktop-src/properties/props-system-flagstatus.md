@@ -4,12 +4,12 @@ ms.assetid: 0485deab-2408-4147-acaa-cb09e9e0032a
 title: System. Флагстатус
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57dde42493f2d450854c3f53de5ecab26394f0ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d5ae7d7aada896fcdcec52a9167c5945040b4b376aec34cec723cf64580dea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059214"
 ---
 # <a name="systemflagstatus"></a>System. Флагстатус
 
@@ -79,11 +79,11 @@ propertyDescription
             mnemonics = Followup Flag|followup|follow
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 9297ba0019c89c5e93961d4b36e0fe16da04d6bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8575610ab34b62c9228f87fa64fbd6a40fa0201b7fe1a70ab95c7daae706854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058594"
 ---
 # <a name="rtlgetunloadeventtrace-function"></a>Функция Ртлжетунлоадевенттраце
 
-\[Эта функция может быть изменена или удалена из Windows без предварительного уведомления.\]
+\[эта функция может быть изменена или удалена из Windows без предварительного уведомления.\]
 
 Позволяет коду дампа получать выгруженные сведения о модуле из Ntdll.dll для хранения в минидампа.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105648913"
 
 Эта функция возвращает указатель на массив. Дополнительные сведения см. в подразделе "Примечания".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Массив Ртлпунлоадевенттраце определяется следующим образом:
 
@@ -62,9 +62,9 @@ typedef struct _RTL_UNLOAD_EVENT_TRACE {
 RTL_UNLOAD_EVENT_TRACE RtlpUnloadEventTrace[RTL_UNLOAD_EVENT_TRACE_NUMBER];
 ```
 
-Эта функция не имеет связанного файла заголовка. Связанная библиотека импорта, NTDLL. lib, доступна в комплекте драйверов Windows (WDK). Эту функцию также можно вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
+Эта функция не имеет связанного файла заголовка. связанная библиотека импорта, Ntdll. lib, доступна в наборе драйверов Windows (WDK). Эту функцию также можно вызвать с помощью функций [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) и [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

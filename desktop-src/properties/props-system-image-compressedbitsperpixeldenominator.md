@@ -4,12 +4,12 @@ ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
 title: System. Image. Компресседбитсперпикселденоминатор
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 961e0cf442986ad8024c11c1d5f76500159b1282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd96b560a5863c29aeaf265835aeff027ab420e5e87652358833e64fe656cdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058894"
 ---
 # <a name="systemimagecompressedbitsperpixeldenominator"></a>System. Image. Компресседбитсперпикселденоминатор
 
@@ -30,11 +30,11 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

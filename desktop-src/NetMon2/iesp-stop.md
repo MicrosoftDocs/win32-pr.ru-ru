@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ac262d8da5ab218db7300ea38da59d5c738421c0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d22333bcaad688fa9ebb805857db3673f48e70591e1d8953274598acef2b368b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037514"
 ---
 # <a name="iespstop-method"></a>Метод ИЕСП:: останавливаться
 
@@ -57,9 +57,9 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 | Код возврата                                                                                          | Описание                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [ИЕСП:: Connect](iesp-connect.md) , чтобы подключить НПП к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иесп:: Подключение](iesp-connect.md) , чтобы подключить нпп к сети.<br/> |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl> | НПП не захватывает данные. Вызовите [ИЕСП:: Start](iesp-start.md) , чтобы начать запись.<br/>                            |
-| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>       | НПП подключается к сети, но не с методом [ИЕСП:: Connect](iesp-connect.md) .<br/>                     |
+| <dl> <dt>**НМЕРР \_ не \_ ESP**</dt> </dl>       | нпп подключается к сети, но не с помощью метода [иесп:: Подключение](iesp-connect.md) .<br/>                     |
 
 
 
@@ -71,7 +71,7 @@ HRESULT STDMETHODCALLTYPE Stop(
 
 При запуске и перезапуске записи обязательно вызывайте метод [ИЕСП:: Configure](iesp-configure.md) каждый раз при вызове [ИЕСП:: Start](iesp-start.md) для перезапуска записи.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,7 +91,7 @@ HRESULT STDMETHODCALLTYPE Stop(
 [иесп](iesp.md)
 </dt> <dt>
 
-[ИЕСП:: Connect](iesp-connect.md)
+[иесп:: Подключение](iesp-connect.md)
 </dt> <dt>
 
 [ИЕСП:: Start](iesp-start.md)

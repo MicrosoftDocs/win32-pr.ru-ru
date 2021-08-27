@@ -4,12 +4,12 @@ ms.assetid: 52341315-0412-4a87-aca0-9adea7aae62f
 title: О транзакционной NTFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dcf8cd99dfb1ff18ef7da88d3b3c7b0a647417e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 404dc966673eac9d61229ab127877941fe82354ddffcfd021ba76b9931c8e097
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102114"
 ---
 # <a name="about-transactional-ntfs"></a>О транзакционной NTFS
 
@@ -19,7 +19,7 @@ ms.locfileid: "104343642"
 
 TxF может участвовать в распределенных транзакциях с координатами [координатор распределенных транзакций (DTC)](/previous-versions/windows/desktop/ms684146(v=vs.85)) , которые позволяют использовать TxF для следующих действий:
 
--   Транзакции, охватывающие несколько хранилищ данных, например одну транзакцию для файлов и операций SQL
+-   транзакции, охватывающие несколько хранилищ данных, например одну транзакцию для файлов и операций SQL
 -   Транзакции, охватывающие несколько компьютеров, например единая транзакция для обновления файлов на нескольких компьютерах
 
 ## <a name="in-this-section"></a>В этом разделе
@@ -33,7 +33,7 @@ TxF может участвовать в распределенных транз
 | [Как использовать транзакционную NTFS](how-to-use-transactional-ntfs.md)<br/>                                         | Управление дескрипторами файлов транзакций в транзакционной NTFS.<br/>                                                                   |
 | [Основные понятия TxF](txf-basic-concepts.md)<br/>                                                               | Описывает согласованность с фиксированной нагрузкой, изоляцию с фиксированным чтением и понятия блокировки транзакций в транзакционной NTFS.<br/> |
 | [Рекомендации по программированию для транзакционной NTFS](programming-considerations-for-transacted-fileio-.md)<br/> | Описывает различные вопросы программирования транзакционной NTFS.<br/>                                                      |
-| [Рекомендации по производительности для транзакционной NTFS](performance-considerations-for-transactional-ntfs.md)<br/> | Рекомендации по оптимизации транзакций файловой системы.<br/>                                                                     |
+| [Рекомендации по производительности для транзакционной NTFS](performance-considerations-for-transactional-ntfs.md)<br/> | Рекомендации для оптимальных транзакций файловой системы.<br/>                                                                     |
 
 
 

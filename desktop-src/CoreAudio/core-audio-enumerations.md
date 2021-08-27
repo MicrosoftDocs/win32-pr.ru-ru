@@ -4,16 +4,16 @@ ms.assetid: 7d25be71-ffbe-4e8c-9a45-cdeb35d10292
 title: Базовые перечисления аудио
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35c786e1e18f25374a942a4140b67f0992ca7281
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0210d52f1bde431cb661b38c8e06e83f646331a6c1726a98f2d05b3090ba41f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059024"
 ---
 # <a name="core-audio-enumerations"></a>Базовые перечисления аудио
 
-В этом разделе описываются перечисления, используемые основными API-интерфейсами аудиоподсистемы в Windows Vista и более поздних версиях.
+в этом разделе описываются перечисления, используемые основными api-интерфейсами аудио в Windows Vista и более поздних версий.
 
 
 
@@ -36,7 +36,7 @@ ms.locfileid: "104496692"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

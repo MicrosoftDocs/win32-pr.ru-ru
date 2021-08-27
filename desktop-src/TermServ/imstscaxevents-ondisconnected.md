@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 372ad98c73b1b0e90753891e01e46c61a78c23dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02bc7351d1cc0fafa46aab1f93feed4cafc184dc33090d4d2c7947a285fbb234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125134"
 ---
 # <a name="imstscaxeventsondisconnected-method"></a>Имстскаксевентс:: ondisconnectный метод
 
@@ -145,7 +145,7 @@ void OnDisconnected(
 
 </dt> <dd>
 
-Сбой вызова [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) сокетов Windows.
+Windows Сбой вызова [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) сокетов.
 
 </dd> <dt>
 
@@ -354,7 +354,7 @@ void OnDisconnected(
 
 </dt> <dd>
 
-Сбой [**подключения**](/windows/desktop/api/winsock2/nf-winsock2-connect) сокетов Windows.
+Windows Не удалось [**подключить**](/windows/desktop/api/winsock2/nf-winsock2-connect) сокеты.
 
 </dd> <dt>
 
@@ -365,7 +365,7 @@ void OnDisconnected(
 
 </dt> <dd>
 
-Сбой вызова метода [**recv**](/windows/desktop/api/winsock/nf-winsock-recv) для сокетов Windows.
+Windows Сбой вызова метода [**recv**](/windows/desktop/api/winsock/nf-winsock-recv) Sockets.
 
 </dd> <dt>
 
@@ -398,7 +398,7 @@ void OnDisconnected(
 
 </dt> <dd>
 
-Не удалось вызвать [**отправку**](/windows/desktop/api/winsock2/nf-winsock2-send) сокетов Windows.
+Windows Не удалось вызвать [**отправку**](/windows/desktop/api/winsock2/nf-winsock2-send) сокетов.
 
 </dd> <dt>
 
@@ -571,7 +571,7 @@ void OnDisconnected(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы получить описание ошибки отключения, вызовите метод [**жетеррордескриптион**](imsrdpclient5-geterrordescription.md) и передайте ему параметр *Дискреасон* и свойство [**екстендеддисконнектреасон**](imsrdpclient-extendeddisconnectreason.md) интерфейса [**имсрдпклиент**](imsrdpclient-interface.md) .
 
@@ -591,7 +591,7 @@ void OnDisconnected(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

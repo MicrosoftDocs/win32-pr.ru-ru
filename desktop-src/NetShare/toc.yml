@@ -4,7 +4,7 @@
     - name: Общие сведения об управлении сетевым ресурсом
       href: about-network-share-management.md
       items:
-        - name: Новые возможности управления сетевыми ресурсами в Windows Server 2008 R2 и Windows 7
+        - name: новые возможности управления сетевыми ресурсами в Windows Server 2008 R2 и Windows 7
           href: what-s-new-in-network-share-management-in-windows-server-2008-r2-and-windows-7.md
         - name: Функции Нетфиле
           href: netfile-functions.md

@@ -3,7 +3,7 @@ title: Сообщение ICM_GETDEFAULTKEYFRAMERATE (VFW. h)
 description: Сообщение ICM \_ жетдефаулткэйфрамерате запрашивает драйвер сжатия видео о его стандартном (или предпочтительном) интервале между кадрами. Это сообщение можно отправить явно или с помощью макроса Икжетдефаултэйфрамерате.
 ms.assetid: 2ebe37cc-3ec2-4b52-bd8f-71c44b704647
 keywords:
-- ICM_GETDEFAULTKEYFRAMERATE сообщения Windows мультимедиа
+- сообщение ICM_GETDEFAULTKEYFRAMERATE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64f2796ca1c2de10222330217a0e1deb7883baa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bff21682f08dfdcda120f5efb5f7f8629a9e93e21faaf27ff4ee9ee59da8c762
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038704"
 ---
 # <a name="icm_getdefaultkeyframerate-message"></a>\_Сообщение ICM жетдефаулткэйфрамерате
 
@@ -49,7 +49,7 @@ lParam = 0;
 
 Возвращает ИЦЕРР \_ ОК, если драйвер поддерживает это сообщение или ИЦЕРР \_ не поддерживается в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ lParam = 0;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

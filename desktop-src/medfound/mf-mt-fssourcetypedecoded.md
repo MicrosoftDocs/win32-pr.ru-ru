@@ -3,12 +3,12 @@ description: MF_MT_FSSourceTypeDecoded атрибут — указывает, м
 title: MF_MT_FSSourceTypeDecoded
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3799c11e3b921427ff4a3b05aa3d7f47e297ba14
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6ae25fce343d0c24f7b0a79e2623e7c3e2d0f9272b2f95a825860860ff6f88c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113764"
 ---
 # <a name="mf_mt_fssourcetypedecoded-attribute"></a>\_Атрибут MF MT \_ фссаурцетипедекодед
 
@@ -27,14 +27,14 @@ ms.locfileid: "108093092"
 ```ea031a62-8bbb-43c5-b5c4-572d2d231c18```
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8 \|\]<br/>                                  |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 \|\]<br/>                        |
+| Минимальная версия клиента<br/> | Windows 8 \[ приложения UWP для классических приложений \|\]<br/>                                  |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ приложения UWP для классических приложений \|\]<br/>                        |
 
 
 
