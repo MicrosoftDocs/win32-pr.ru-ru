@@ -4,12 +4,12 @@ ms.assetid: 7a2f9958-4a4e-462a-9737-e7796fd90216
 title: Команда IMC_SETCANDIDATEPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ac05890e4c720c5b671faa7f20a68a96b24a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fbce21cac53eecf3ad5b99cc7dbe5cf5b52304ed25869a5c3f6ae729ac9d016
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103810409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107274"
 ---
 # <a name="imc_setcandidatepos-command"></a>ИМК \_ сеткандидатепос, команда
 
@@ -44,7 +44,7 @@ LRESULT IMC_SETCANDIDATEPOS
 
 Возвращает 0 в случае успеха или ненулевое значение в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта команда предназначена для приложений, которые отображают собственные символы композиции, но используют окно IME для вывода кандидатов.
 
@@ -56,11 +56,11 @@ LRESULT IMC_SETCANDIDATEPOS
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

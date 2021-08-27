@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 0a1d93ba6a9a4dc0304daba11c5868b77ece43b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fad74e1647413b66ebc6910e739750699f4e641c961eff59ecaacbf1e7a41f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074994"
 ---
 # <a name="databasemerge-method"></a>Database. Merge, метод
 
@@ -58,9 +58,9 @@ Database.Merge(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Функцию [**мсидатабасемерже**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) и метод **Merge** объекта [**Database**](database-object.md) нельзя использовать для слияния модулей, входящих в пакет установки. Их не следует использовать для слияния [модулей слияния](merge-modules.md) в пакет установщик Windows. Чтобы включить модуль слияния в пакет установки, авторы пакетов установки должны следовать рекомендациям, описанным в разделе [применение модулей слияния](applying-merge-modules.md) .
+Функцию [**мсидатабасемерже**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) и метод **Merge** объекта [**Database**](database-object.md) нельзя использовать для слияния модулей, входящих в пакет установки. их не следует использовать для слияния [модулей слияния](merge-modules.md) в пакет установщик Windows. Чтобы включить модуль слияния в пакет установки, авторы пакетов установки должны следовать рекомендациям, описанным в разделе [применение модулей слияния](applying-merge-modules.md) .
 
 Метод **Merge** не копирует встроенные CAB- [файлы](cabinet-files.md) или [встроенные преобразования](embedded-transforms.md) из эталонной базы данных в целевую базу данных. Внедренные потоки данных, перечисленные в таблице [двоичной таблицы](binary-table.md) или [значка](icon-table.md) , копируются из эталонной базы данных в целевую базу данных. Хранилища, внедренные в эталонную базу данных, не копируются в целевую базу данных.
 
@@ -72,13 +72,13 @@ Database.Merge(
 
 В случае сбоя метода можно получить расширенные сведения об ошибке с помощью метода [**ластерроррекорд**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ идатабасе определяется как 000C109D-0000-0000-C000-000000000046<br/>                                                                                                                                                                            |
 

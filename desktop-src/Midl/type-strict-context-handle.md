@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e16c9ae74d618b1b0cafef2c5bf618085d79284
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ef7e10c6231ac41287a08df7b9a0fa4e5361eddec9eb72bb6059b9f00dea5106
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104487557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105624"
 ---
 # <a name="type_strict_context_handle-attribute"></a>\_ \_ атрибут строгого \_ обработчика контекста
 
@@ -59,7 +59,7 @@ interface interface-name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы использовать этот атрибут, при запуске midl.exe для флага-target необходимо задать значение NT60 (или более высокий).
 
@@ -69,7 +69,7 @@ interface interface-name
 
 Описатель контекста с атрибутом строгого \[ \_ \_ контекста \_ \] не может также иметь атрибут с \[ строгой \_ контекстной \_ обработкой \] .
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -103,6 +103,6 @@ interface interface-name
 [Нечеткий \_ Контекстный \_ маркер](strict-context-handle.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

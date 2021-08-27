@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be4c368fcd93ef832bcdb9cf82abe82c5e02413d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: be941d17b63d033ad735b4c13b3d620b77bcf0c376da156341d0a0fd6ca82f1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128104"
 ---
 # <a name="glnormal3i-function"></a>Функция glNormal3i
 
@@ -67,7 +67,7 @@ void WINAPI glNormal3i(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Текущее значение нормали задается для заданных координат при каждом вызове функции **glNormal3i**.
 
@@ -93,7 +93,7 @@ void WINAPI glNormal3i(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

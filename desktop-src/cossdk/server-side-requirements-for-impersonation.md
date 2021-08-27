@@ -4,12 +4,12 @@ ms.assetid: f6128688-dfd8-40ff-83ec-99d740b9152c
 title: Server-Side требования для олицетворения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e30edbebd37035ab7a7f4ca09e1cff73c2afbabe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 18e43016428f2ff083fc5a783d05c3c79e241dcf299f3af9ca226cb4f6a2cf1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105710735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096804"
 ---
 # <a name="server-side-requirements-for-impersonation"></a>Server-Side требования для олицетворения
 
@@ -25,7 +25,7 @@ ms.locfileid: "105710735"
 
 Дополнительные сведения о реализации олицетворения и делегирования см. в разделе [Делегирование и олицетворение](/windows/desktop/com/delegation-and-impersonation).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

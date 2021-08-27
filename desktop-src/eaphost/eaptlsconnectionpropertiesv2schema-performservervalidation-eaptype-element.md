@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 02ad636f9894f96b9d6e9b2d27952117c7581e69
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: aee5841de491b72481cccd07fd6f4f65ee9cfc6dbd0620dc4558ed6ca3c2b130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094384"
 ---
 # <a name="tlsextensions-v2-schema"></a>Тлсекстенсионс (схема v2)
 
@@ -31,7 +31,7 @@ ms.locfileid: "104413756"
  />
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **тлсекстенсионс** является необязательным.
 
@@ -41,8 +41,8 @@ ms.locfileid: "104413756"
 
 | Роль | Минимальная поддерживаемая версия ОС |
 |------|------------------------------|
-| Клиент<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Сервер<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Клиент<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Сервер<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 

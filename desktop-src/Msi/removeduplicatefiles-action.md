@@ -4,12 +4,12 @@ ms.assetid: 3d8ba4c5-775f-471e-a479-32fa6f7a1bf0
 title: Действие Ремоведупликатефилес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 555379f3810770abc9f91fd449e71434e9fa6244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7527e7bd4dc66fe4d57f8c23654f1138e781a33064fc0a4a2694987c7ccdb66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074624"
 ---
 # <a name="removeduplicatefiles-action"></a>Действие Ремоведупликатефилес
 
@@ -32,7 +32,7 @@ ms.locfileid: "103809491"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы удалить файл, дублирующийся с помощью действия [дупликатефилес](duplicatefiles-action.md) , используя действие ремоведупликатефилес, необходимо выбрать компонент, связанный с записью файла в таблице дупликатефиле, для удаления.
 

@@ -4,12 +4,12 @@ description: В этом документе обсуждаются функци�
 ms.assetid: 7102beff-7f67-4e4e-a32b-9ccae1522ebd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 735daf708785c8d7c18027ae13a9a9cdcf843dd6
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ef25e15b254c3eae048a0c938d23eed33884043aa2414f03a5ca9916cea35997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104070702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063282"
 ---
 # <a name="combo-box-features"></a>Возможности поля со списком
 
@@ -84,7 +84,7 @@ ms.locfileid: "104070702"
 
 
 
- 
+ 
 
 ## <a name="default-combo-box-behavior"></a>Поведение поля со списком по умолчанию
 
@@ -166,10 +166,10 @@ ms.locfileid: "104070702"
 
 
 
- 
+ 
 
 Все остальные сообщения передаются функции [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для обработки по умолчанию.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение EM_SETSTORYTYPE (RichEdit. h)
 description: Задает тип истории.
 ms.assetid: 8FA335E1-EE0A-4F31-B800-C79F617A6019
 keywords:
-- Элементы управления Windows для EM_SETSTORYTYPE сообщений
+- элементы управления Windows сообщений EM_SETSTORYTYPE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be6d1df04f93fca0119b58f978a6a0cb36ddf464
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7e09c62c50441857aac6f4018800de7a145081d64de49cdf7e9ca673a5370db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062884"
 ---
 # <a name="em_setstorytype-message"></a>\_Сообщение СЕТСТОРИТИПЕ EM
 
@@ -54,15 +54,15 @@ ms.locfileid: "103891714"
 
 Заданный тип истории.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 

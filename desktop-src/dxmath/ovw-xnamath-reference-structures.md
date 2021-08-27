@@ -4,12 +4,12 @@ ms.assetid: 58acb05d-e79b-8f42-4cf4-76ae57929739
 title: Структуры библиотеки Директксмас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6ac040ee932e9da84c186124514d9f763e20e67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce40aeb51c04f0b5ab76f20b83e2825c33e261862ab3205490aaab855ddb4ec1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117514"
 ---
 # <a name="directxmath-library-structures"></a>Структуры библиотеки Директксмас
 
@@ -72,7 +72,7 @@ ms.locfileid: "104344495"
 | [**XMXDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdec4) | Вектор 4D с компонентами x, y и z, представленными в виде 10-разрядных целочисленных значений со знаком, а компонент w-Component — как целое число без знака в 2 бита.  |
 | [**XMXDECN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmxdecn4) | Вектор 4D для хранения подписанных нормализованных значений в виде 10-разрядных компонентов x-, y и z, а также неподписанного значения без знака, нормализованного как 2-разрядное неподписанное.  |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

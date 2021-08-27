@@ -4,12 +4,12 @@ ms.assetid: 359ce11e-547d-43ac-82c3-aac9d739b496
 title: Назначений каналов Словакия
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4382b5cd9a3515f68979ae12c9bf63d6fd063175
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 99c9c5df17d5d2f4403382b52f86d238f95630c8737a7476a66df5d6c6015d6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075724"
 ---
 # <a name="slovakia-channel-assignments"></a>Назначений каналов Словакия
 
@@ -17,11 +17,11 @@ ms.locfileid: "104341945"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 -   [Широковещательные назначения](#broadcast-assignments)
 -   [Назначения кабелей](#cable-assignments)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="broadcast-assignments"></a>Широковещательные назначения
 
@@ -246,7 +246,7 @@ ms.locfileid: "104341945"
        855250000L,      // 136 K69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

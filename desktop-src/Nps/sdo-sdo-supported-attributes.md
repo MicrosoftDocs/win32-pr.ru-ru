@@ -5,19 +5,19 @@ ms.assetid: 6b8be050-9763-48c8-9ffa-dcb76e60e8c6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c3faf19d64abde16ed21344803b50cfcb928a6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 140af3afa7d1a1aeeb8aee4d5042c58ccf2ca80ea341e42556e6f65676b6b2ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105672333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128554"
 ---
 # <a name="sdo-supported-attributes"></a>Поддерживаемые в SDO атрибуты
 
 > [!Note]  
-> Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008.
+> служба проверки подлинности в интернете (IAS) переименовала сервер политики сети (NPS), начиная с Windows Server 2008.
 
- 
+ 
 
 Объект данных сервера NPS имеет свойство [**Profiles**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties) , которое предоставляет доступ к коллекции атрибутов. Ниже приведены поддерживаемые атрибуты.
 
@@ -33,7 +33,7 @@ ms.locfileid: "105672333"
 -   [NP-Authentication-тип](/windows/desktop/Nps/sdo-np-authentication-type)
 -   [NP-именуется-Station-ID](/windows/desktop/Nps/sdo-np-called-station-id)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -43,6 +43,6 @@ ms.locfileid: "105672333"
 [Иерархия объектной модели SDO](/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

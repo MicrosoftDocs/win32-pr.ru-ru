@@ -1,5 +1,5 @@
 ---
-description: Интерфейс Идксталфасеттер задает свойства для действия альфа-установки. Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации воздействия на альфа-метод задания.
+description: Интерфейс Идксталфасеттер задает свойства для действия альфа-установки. этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке воздействия на альфа-метод задания.
 ms.assetid: 9f0439b9-55d2-4526-ae4c-64ab90e11a64
 title: Интерфейс Идксталфасеттер (Кедит. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0f4ad88d10f4a2538cddbdc31fa90bc5496bc7f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f1cc4056733dbd0e46639a921da65e5cb2a81f3601fa1ae00624be7d92ddc0e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051934"
 ---
 # <a name="idxtalphasetter-interface"></a>Интерфейс Идксталфасеттер
 
@@ -30,7 +30,7 @@ ms.locfileid: "105675880"
 
 `IDxtAlphaSetter`Интерфейс задает свойства для действия [альфа-установки](alpha-setter-effect.md) .
 
-Этот интерфейс внутренне используется службами редактирования DirectShow (DES) при визуализации воздействия на альфа-метод задания. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
+этот интерфейс используется внутренне DirectShow служб редактирования (DES) при отрисовке воздействия на альфа-метод задания. Приложениям DES не требуется использовать этот интерфейс. Чтобы задать свойства для перехода в DES, используйте интерфейс [**ипропертисеттер**](ipropertysetter.md) .
 
 ## <a name="members"></a>Элементы
 
@@ -55,7 +55,7 @@ ms.locfileid: "105675880"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Файл заголовка Кедит. h несовместим с заголовками Direct3D позднее версии 7.
@@ -63,7 +63,7 @@ ms.locfileid: "105675880"
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -73,7 +73,7 @@ ms.locfileid: "105675880"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

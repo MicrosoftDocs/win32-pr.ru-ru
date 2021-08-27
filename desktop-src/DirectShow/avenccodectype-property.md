@@ -4,12 +4,12 @@ ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: Свойство Авенккодектипе (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8643c0624b7d82381e2008f2adbd6804e9af9881
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3727ff8cc2a59208d63874de173e3e44e89e3e6f2ebc37201218f9656aa09cd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104341995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084614"
 ---
 # <a name="avenccodectype-property"></a>Авенккодектипе, свойство
 
@@ -35,7 +35,7 @@ ms.locfileid: "104341995"
 |-------------------------------------------|----------------------------------------------------|
 | КОДЕКАПИ \_ GUID \_ авенкдолбидигиталконсумер | Звук цифрового потребителя Dolby                       |
 | КОДЕКАПИ \_ GUID \_ авенкдолбидигиталплус     | Dolby Digital Plus Audio                           |
-| КОДЕКАПИ \_ GUID \_ авенкдолбидигиталпро      | Dolby Digital Pro Audio                            |
+| КОДЕКАПИ \_ GUID \_ авенкдолбидигиталпро      | Dolby digital Pro audio                            |
 | КОДЕКАПИ \_ GUID \_ авенкдтс                  | Аудио службы DTS                                          |
 | КОДЕКАПИ \_ GUID \_ авенкдтшд                | DTS — аудио HD                                       |
 | КОДЕКАПИ \_ GUID \_ авенкдв                   | Видео DV                                           |
@@ -47,33 +47,33 @@ ms.locfileid: "104341995"
 | КОДЕКАПИ \_ GUID \_ AVEncMPEG2Video           | Видео MPEG-2                                       |
 | КОДЕКАПИ \_ GUID \_ авенкпкм                  | Звук PCM                                          |
 | КОДЕКАПИ \_ GUID \_ авенксддс                 | Аудио динамический цифровой звук (SDD) Sony            |
-| КОДЕКАПИ \_ GUID \_ авенквмалосслесс          | Звук Windows Media Audio 9 без потерь               |
-| КОДЕКАПИ \_ GUID \_ авенквмапро               | Звук Windows Media Audio 9 Professional (WMA Pro) |
-| КОДЕКАПИ \_ GUID \_ авенквмавоице             | Голосовой звук Windows Media Audio 9                  |
-| КОДЕКАПИ \_ GUID \_ авенквмв                  | Видео Windows Media                                |
+| КОДЕКАПИ \_ GUID \_ авенквмалосслесс          | Windows Аудио Media Audio 9 без потерь               |
+| КОДЕКАПИ \_ GUID \_ авенквмапро               | Windows аудио Media audio 9 Professional (WMA Pro) Audio |
+| КОДЕКАПИ \_ GUID \_ авенквмавоице             | Windows Голосовой звук Media Audio 9                  |
+| КОДЕКАПИ \_ GUID \_ авенквмв                  | Windows Мультимедийное видео                                |
 | КОДЕКАПИ \_ GUID \_ AVEndMPEG4Video           | Видео MPEG-4                                       |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложения могут установить это свойство, чтобы указать используемую схему кодирования. Кодеки также могут возвращать это свойство как возможность.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

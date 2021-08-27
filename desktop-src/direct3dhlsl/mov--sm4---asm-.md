@@ -4,12 +4,12 @@ description: Перемещение на уровне компонентов. | 
 ms.assetid: A8865237-59D3-4332-9F09-157E10C4FFC6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f029cd8a31a9348e729681878773c225b87b9fbb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 247e3838841d63c3cadf2e075fd088b534bf56ea19b8869b7cffe91e9f75e6c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104273401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095374"
 ---
 # <a name="mov-sm4---asm"></a>MOV (SM4-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "104273401"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Модификаторы, отличные от свиззле, предполагают, что данные являются плавающей запятой. Отсутствие модификаторов просто перемещает данные без изменения битов.
 
@@ -59,9 +59,9 @@ ms.locfileid: "104273401"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -70,7 +70,7 @@ ms.locfileid: "104273401"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

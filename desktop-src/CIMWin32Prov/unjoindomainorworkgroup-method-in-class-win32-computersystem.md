@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1c6942c5367b6deb02accd9d06927a4d923fa8f5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 992aa6c84f912f705e02252d1ac6d24422934edb991c049de188ab5fb0ccbfa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105074"
 ---
 # <a name="unjoindomainorworkgroup-method-of-the-win32_computersystem-class"></a>Метод Унжоиндомаинорворкграуп \_ класса ComputerSystem Win32
 
@@ -109,7 +109,7 @@ uint32 UnjoinDomainOrWorkgroup(
 **Другие** (1 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После вызова этого метода перезагрузите затронутый компьютер, чтобы применить изменения.
 
@@ -119,7 +119,7 @@ uint32 UnjoinDomainOrWorkgroup(
 
 При [отсоединении компьютера из домена с помощью примера сценария VBS](https://Gallery.TechNet.Microsoft.Com/Unjoin-a-Computer-from-a-825249e1) указанный компьютер из домена не присоединяется к указанному компьютеру. .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -133,7 +133,7 @@ uint32 UnjoinDomainOrWorkgroup(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

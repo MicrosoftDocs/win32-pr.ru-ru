@@ -4,24 +4,24 @@ ms.assetid: 5a3232b0-8194-4df5-9e6b-a1c7df5a216c
 title: АРПРЕАДМЕ, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 702c6d51e1c83b71cd3c3a9b6755ce78f7624dfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4b9dc0a31c698ba32b9681d61a3ca7139a503a149fc4e5423f26ce94f8e0debd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105651956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105424"
 ---
 # <a name="arpreadme-property"></a>АРПРЕАДМЕ, свойство
 
 Свойство **арпреадме** содержит файл сведений панели управления "Установка и удаление программ" для приложения, которое записывается в [раздел реестра Uninstall](uninstall-registry-key.md). Это свойство может задается командной строкой или преобразованием.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

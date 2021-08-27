@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0925c8a83d78a91ea4a76cc4efbf621bdbd418e3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8002f1de2a79b4701baa0f60543c60048e5b92ecf6b5cf97a65902cf65c2e967
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128294"
 ---
 # <a name="glcolor4d-function"></a>Функция glColor4d
 
@@ -64,7 +64,7 @@ void WINAPI glColor4d(
 
 </dd> <dt>
 
-*буквы* 
+*канал альфа-версии*; 
 </dt> <dd>
 
 Новое значение альфа для текущего цвета.
@@ -75,7 +75,7 @@ void WINAPI glColor4d(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В GL хранится и текущий однозначный цветовой индекс, и текущий цвет RGBA с четырьмя значениями. **глколор** задает новый цвет RGBA с четырьмя значениями. **глколор** имеет два основных варианта: **glcolor3** и **glcolor4**. **glcolor3** варианты задают явно новые значения красного, зеленого и синего типа и устанавливают текущее значение альфа равным 1,0 (Полная интенсивность) неявно. **glcolor4** варианты указывают все четыре компонента цвета явным образом.
 
@@ -99,7 +99,7 @@ void WINAPI glColor4d(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Асинхронный вызов RasDial должен указыв
 ms.assetid: 6d23d6ac-08ad-4fe2-a4af-021e4d384079
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efe735a17de4386bc48648cd20decd218ab102d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af7210072e0542eeb63e3de6116d61995ef2363ca7b43e7a9e2c309165c0e862
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074034"
 ---
 # <a name="notification-handlers"></a>Обработчики уведомлений
 
@@ -31,19 +31,19 @@ ms.locfileid: "103986790"
 | [**расдиалфунк**](/windows/desktop/api/Ras/nc-ras-rasdialfunc)   | Прототип функции обратного вызова, который получает только текущее состояние соединения и сведения о коде ошибки.                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) | Прототип функции обратного вызова, который получает обработчик подключения **храсконн** и расширенные сведения об ошибке в дополнение к основным сведениям. Параметр Handle для подключения делает [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) полезным для клиентских приложений, поддерживающих несколько одновременных операций подключения. Это позволяет клиенту указать одну и ту же функцию обратного вызова для всех операций, а также позволяет функции обратного вызова определить, какое подключение изменяет состояния. |
 | [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) | Функция обратного вызова, аналогичная [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1). Однако [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) усовершенствован для поддержки многоканальных подключений.                                                                                                                                                                                                                                                                                                                             |
-| Маркер окна                        | Описатель окна, на который служба RAS отправляет сообщения [**WM \_ расдиалевент**](wm-rasdialevent.md) , содержащие сведения о текущем состоянии соединения и коде ошибки. Используйте этот метод, если исходный код должен быть совместим с 16-разрядной версией Windows, поскольку 16-разрядная версия Windows не поддерживает ни одну из функций обратного вызова.                                                                                                                                                                            |
+| Маркер окна                        | Описатель окна, на который служба RAS отправляет сообщения [**WM \_ расдиалевент**](wm-rasdialevent.md) , содержащие сведения о текущем состоянии соединения и коде ошибки. используйте этот метод, если исходный код должен быть совместим с 16-разрядным Windows, поскольку 16-разрядная Windows не поддерживает ни одну из функций обратного вызова.                                                                                                                                                                            |
 
 
 
- 
+ 
 
 Диспетчер подключений удаленного доступа приостанавливает операцию подключения до тех пор, пока обработчик уведомлений не вернет значение. По этой причине обработчик должен возвращать как можно скорее, если не возникла ошибка.
 
 Функцию [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) не следует вызывать из обработчика уведомлений. Другие функции удаленного доступа ( [**расжетконнектстатус**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa), [**расенументриес**](/windows/desktop/api/Ras/nf-ras-rasenumentriesa), [**расенумконнектионс**](/windows/desktop/api/Ras/nf-ras-rasenumconnectionsa), [**расжетеррорстринг**](/windows/desktop/api/Ras/nf-ras-rasgeterrorstringa)и [**рашангуп**](/windows/desktop/api/Ras/nf-ras-rashangupa)) могут быть вызваны из обработчика.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 567b7d11-6d80-4ec5-810d-f32b9ebf5809
 title: CCP_DRIVE, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6215881cd3a998cd63a958bfe258ad3f9872ab1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a7e96b5c69ecb3b52ae57da5476f4b9408039659f5cf26474cc443072b870de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075144"
 ---
 # <a name="ccp_drive-property"></a>\_Свойство диска CCP
 
@@ -17,13 +17,13 @@ ms.locfileid: "105665485"
 
 Это свойство обычно задается с помощью пользовательского интерфейса или настраиваемого действия. Это свойство должно быть задано до выполнения действия [рмккпсеарч](rmccpsearch-action.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5abfef19c870d85977875a21ea6b3c24a6f7241a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c183efc44c057fbb1537282b44b5850068864c9cfe5606755565307b88d3c876
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063823"
 ---
 # <a name="esenttaskdroppedexception-constructor"></a>Конструктор Есенттаскдроппедексцептион
 
@@ -52,7 +52,7 @@ Dim instance As New EsentTaskDroppedException()
 public EsentTaskDroppedException()
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

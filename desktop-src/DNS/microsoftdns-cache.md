@@ -17,12 +17,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e55bda9c38d889fe1b84ef28432b18e5724af09
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03728a82f7668e38e43c92e3edacff1717333c6b073ee3491389723fb63b5f7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077074"
 ---
 # <a name="microsoftdns_cache-class"></a>\_Класс кэша микрософтднс
 
@@ -61,7 +61,7 @@ class MicrosoftDNS_Cache : MicrosoftDNS_Domain
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -74,7 +74,7 @@ class MicrosoftDNS_Cache : MicrosoftDNS_Domain
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

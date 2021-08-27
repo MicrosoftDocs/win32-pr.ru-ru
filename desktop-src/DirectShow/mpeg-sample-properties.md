@@ -4,12 +4,12 @@ ms.assetid: 339aab84-e5ad-4071-8b67-2b04cb17e450
 title: Примеры свойств MPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c20df4b9285a77d00bd98bc6f21558f0d6b3c60
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c78872b41c579f6af594280b064bfbefc65ef13e8b9d4abf8c21ba9b19613bcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "105682267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075794"
 ---
 # <a name="mpeg-sample-properties"></a>Примеры свойств MPEG
 
@@ -29,7 +29,7 @@ ms.locfileid: "105682267"
 
 Предполагается, что данные пакетов и полезных данных без меток времени могут быть успешно выполнены фильтрами обработки.
 
-**Нарушения**
+**Прерывания**
 
 Если в потоке есть разрыв (например, разрыв в данных в режиме реального времени или ошибка в данных или после поиска), свойство ненепрерывности задается на следующем примере носителя. Это также позволяет отменять отметку времени.
 
@@ -37,7 +37,7 @@ ms.locfileid: "105682267"
 
 Когда декодер получает это уведомление, он должен обработать все буферизованные данные. Все новые данные должны начинаться со свойства ненепрерывности.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

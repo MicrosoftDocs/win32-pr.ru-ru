@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Amfilter.h
-ms.openlocfilehash: f2580b9aba379362c39e3d792504434fa18fe076
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d118ed76650b9ea580c0143ff4334a480d110c4a9d9531a23dda60c05c614630
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052684"
 ---
 # <a name="cbasepinm_pname-member"></a>Элемент Кбасепин:: m \_ pName
 
@@ -33,21 +33,21 @@ WCHAR *m_pName;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Метод [**кбасепин:: куерипининфо**](cbasepin-querypininfo.md) возвращает эту строку в качестве имени ПИН-кода, а метод [**Кбасепин:: QueryId**](cbasepin-queryid.md) возвращает его в качестве идентификатора ПИН-кода. Однако в общем случае имя и идентификатор ПИН-кода не должны совпадать. Идентификатор ПИН-кода используется для сохраняемости графа. Дополнительные сведения см. в разделе [**ибасефилтер:: финдпин**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-findpin).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

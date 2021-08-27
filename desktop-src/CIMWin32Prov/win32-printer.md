@@ -1,5 +1,5 @@
 ---
-description: Представляет устройство, подключенное к компьютеру, работающему под управлением операционной системы Microsoft Windows, которое может создавать печатное изображение или текст на бумаге или на другом носителе.
+description: представляет устройство, подключенное к компьютеру, работающему под управлением операционной системы Microsoft Windows, которое может создавать печатное изображение или текст на бумаге или на другом носителе.
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Класс Win32_Printer
@@ -102,16 +102,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 48fc170cb3e85d44dc3e01140fe2c881a7ec975b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f1a91ac90560343a38e546590005e8b984d13843eba8195381daa204e2d22cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077314"
 ---
 # <a name="win32_printer-class"></a>\_Класс принтера Win32
 
-[Класс WMI](../wmisdk/retrieving-a-class.md) **\_ принтера Win32** представляет устройство, подключенное к компьютеру, работающему под управлением операционной системы Microsoft Windows, который может создавать печатное изображение или текст на бумаге или на другом носителе.
+[класс WMI](../wmisdk/retrieving-a-class.md) **\_ принтера Win32** представляет устройство, подключенное к компьютеру, работающему под управлением операционной системы Microsoft Windows, которая может создавать печатное изображение или текст на бумаге или на другом носителе.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства.
 
@@ -255,7 +255,7 @@ class Win32_Printer : CIM_Printer
 Тип доступа: только для чтения
 </dt> </dl>
 
-Битовая карта атрибутов для устройства печати на основе Windows.
+битовая карта атрибутов для устройства печати на основе Windows.
 
 <dt>
 
@@ -292,7 +292,7 @@ class Win32_Printer : CIM_Printer
 
 </dt> <dd>
 
-Значение по умолчанию
+По умолчанию
 
 Принтер по умолчанию на компьютере.
 
@@ -344,7 +344,7 @@ class Win32_Printer : CIM_Printer
 
 </dt> <dd>
 
-Локальная
+Локальные
 
 Непосредственное подключение к компьютеру. Если заданы как локальные, так и сетевые биты, это указывает на сетевой принтер.
 
@@ -879,7 +879,7 @@ Two-Sided короткий пограничная
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -1001,12 +1001,12 @@ Two-Sided короткий пограничная
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Драйверу для этого устройства требуется ресурс, который Windows не может управлять.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**драйверу для этого устройства нужен ресурс, который Windows не может управлять.** (5)
 
 
 </dt> <dd>
 
-Драйверу для устройства требуется ресурс, который Windows не может управлять.
+драйверу для устройства требуется ресурс, который Windows не может управляться.
 
 </dd> <dt>
 
@@ -1213,23 +1213,23 @@ Windows не удается найти все ресурсы, используе
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (25)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Это устройство все еще настраивается Windows.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows все еще настраивает это устройство.** (26)
 
 
 </dt> <dd>
 
-Устройство все еще настраивается.
+Windows все еще настраивает устройство.
 
 </dd> <dt>
 
@@ -1279,7 +1279,7 @@ Windows не удается найти все ресурсы, используе
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**это устройство работает неправильно, так как Windows не может загрузить драйверы, необходимые для этого устройства.** 1-31
 
 
 </dt> <dd>
@@ -2801,9 +2801,9 @@ HPGL2
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Имя драйвера принтера Windows.
+имя драйвера принтера Windows.
 
-Пример: драйвер факса Windows
+пример: Windows драйвер факса
 
 </dd> <dt>
 
@@ -2892,7 +2892,7 @@ HPGL2
 
 Сообщает стандартные сведения об ошибках. Дополнительные сведения должны быть записаны в **детектедеррорстате**.
 
-Доступны следующие значения:
+Возможны следующие значения.
 
 <dt>
 
@@ -2906,7 +2906,7 @@ HPGL2
 1 (0x1)
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -3026,7 +3026,7 @@ HPGL2
 1 (0x1)
 </dt> <dd>
 
-Другое
+Другие
 
 </dd> <dt>
 
@@ -3082,7 +3082,7 @@ HPGL2
 9 (0x9)
 </dt> <dd>
 
-Ошибка
+Error
 
 </dd> <dt>
 
@@ -3935,7 +3935,7 @@ HPGL2
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -3971,7 +3971,7 @@ HPGL2
 
 </dd> <dt>
 
-**Network**
+**Сеть**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -4642,7 +4642,7 @@ JIS B10
 Квалификаторы: [**схема**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Идентификатор устройства Windows самонастраивающийся логического устройства.
+Windows Самонастраивающийся идентификатор устройства логического устройства.
 
 Это свойство наследуется [**от \_ CIM**](cim-logicaldevice.md)-унаследованной модели.
 
@@ -4823,7 +4823,7 @@ JIS B10
 2
 </dt> <dd>
 
-Ошибка
+Error
 
 </dd> <dt>
 
@@ -5076,7 +5076,7 @@ JIS B10
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Тип данных задания печати, ожидающего устройства печати под управлением Windows.
+тип данных задания печати, ожидающего устройства печати на основе Windows.
 
 </dd> <dt>
 
@@ -5108,7 +5108,7 @@ JIS B10
 
 </dd> <dt>
 
-**Выпущен**
+**Опубликован**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **логический**
@@ -5195,7 +5195,7 @@ JIS B10
 Тип доступа: чтение и запись
 </dt> </dl>
 
-Имя общего ресурса устройства печати на основе Windows.
+сетевое имя устройства печати на основе Windows.
 
 Пример: " \\ \\ PRINTSERVER1 \\ PRINTER2"
 
@@ -5486,11 +5486,11 @@ JIS B10
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Класс **\_ принтера Win32** является производным от [**\_ принтера CIM**](cim-printer.md). Перед вызовом [**SWbemObject. \_**](../wmisdk/swbemobject-put-.md) WHERE или [**IWbemServices::P Утинстанце**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance) для **экземпляра \_ принтера Win32** , необходимо включить привилегию **селоаддриверпривилеже** (**вбемпривилежелоаддривер** для Visual Basic и лоаддривер для моникеров скрипта). Дополнительные сведения см. в статьях [**константы прав**](../wmisdk/privilege-constants.md) и [выполнение привилегированных операций](../wmisdk/executing-privileged-operations.md). В следующем примере кода VBScript показано, как включить привилегию **сетлоаддриверпривилеже** в скрипте.
+Класс **\_ принтера Win32** является производным от [**\_ принтера CIM**](cim-printer.md). перед вызовом [**SWbemObject. \_**](../wmisdk/swbemobject-put-.md) where или [**IWbemServices::P утинстанце**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance) для **экземпляра \_ принтера Win32** , необходимо включить привилегию **селоаддриверпривилеже** (**вбемпривилежелоаддривер** для Visual Basic и лоаддривер для моникеров скрипта). Дополнительные сведения см. в статьях [**константы прав**](../wmisdk/privilege-constants.md) и [выполнение привилегированных операций](../wmisdk/executing-privileged-operations.md). В следующем примере кода VBScript показано, как включить привилегию **сетлоаддриверпривилеже** в скрипте.
 
-Для работы с кластерами принтеров MSCS используйте prnadmin.dll сборку или другое платформа .NET Framework [System. Printing](/dotnet/api/system.printing) Namespace.
+для работы с кластерами принтеров MSCS используйте prnadmin.dll сборку или другое платформа .NET Framework [System. printing](/dotnet/api/system.printing) namespace.
 
 
 ```VB
@@ -5499,9 +5499,9 @@ Set objPrinter = GetObject("winmgmts:{impersonationLevel=Impersonate,(LoadDriver
 
 
 
-Для определения доступных принтеров Windows использует учетные данные пользователя, запустившего сценарий. Таким образом, если сценарий выполняется удаленно, вы можете получить доступ только к принтеру, доступному для вашей учетной записи пользователя в этой удаленной системе.
+Windows использует учетные данные пользователя, запустившего сценарий, чтобы определить доступные принтеры. Таким образом, если сценарий выполняется удаленно, вы можете получить доступ только к принтеру, доступному для вашей учетной записи пользователя в этой удаленной системе.
 
-Класс **\_ принтеров Win32** нельзя использовать для принтеров на кластере на печати MSCS. Вместо этого может потребоваться использовать средство Принтерадмин (PrnAdmin.dll) или пространство имен платформа .NET Framework [System. Printing](/dotnet/api/system.printing) .
+Класс **\_ принтеров Win32** нельзя использовать для принтеров на кластере на печати MSCS. вместо этого может потребоваться использовать средство принтерадмин (PrnAdmin.dll) или пространство имен платформа .NET Framework [System. printing](/dotnet/api/system.printing) .
 
 > [!Note]  
 > При извлечении **принтерстатус** = 3 или **принтерстате** = 0 драйвер принтера не может подавать точную информацию в WMI. Инструментарий WMI извлекает сведения о принтерах из spoolsv.exe процесса. Возможно, драйвер принтера не сообщает о своем состоянии диспетчеру очереди печати. В этом случае принтер **Win32 \_** сообщает принтеру о **состоянии простоя**.
@@ -5510,7 +5510,7 @@ Set objPrinter = GetObject("winmgmts:{impersonationLevel=Impersonate,(LoadDriver
 
 ## <a name="examples"></a>Примеры
 
-С [помощью примера Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell в коллекции TechNet для взаимодействия с моделью автоматизации Visio для создания рисунка Visio используется **\_ принтер Win32** .
+с помощью образца PowerShell для [создания конфигурации компьютера с использованием Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) в галерее TechNet **можно \_ взаимодействовать** с моделью автоматизации Visio для создания Visio рисования.
 
 Для получения сведений об удаленном компьютере в [сценарии PowerShell для удаленного](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) компьютера используется ряд классов, включая **\_ принтер Win32**.
 
@@ -5593,7 +5593,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -5607,7 +5607,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
