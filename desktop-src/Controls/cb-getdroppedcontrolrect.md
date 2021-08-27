@@ -3,7 +3,7 @@ title: Сообщение CB_GETDROPPEDCONTROLRECT (Winuser. h)
 description: Приложение отправляет \_ сообщение ЖЕТДРОППЕДКОНТРОЛРЕКТ CB для получения экранных координат поля со списком в состоянии его отклонения.
 ms.assetid: fd8d78c0-e1a8-49c8-9e35-a105d00b863c
 keywords:
-- Элементы управления Windows для CB_GETDROPPEDCONTROLRECT сообщений
+- элементы управления Windows сообщений CB_GETDROPPEDCONTROLRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adff5ad10ff91557b2579006dae6e1258650d74e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c140abb139cc47020f333ccf66f71cf36d890449be91d66f51b646db22091c39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089284"
 ---
 # <a name="cb_getdroppedcontrolrect-message"></a>\_Сообщение ЖЕТДРОППЕДКОНТРОЛРЕКТ CB
 
@@ -49,19 +49,19 @@ ms.locfileid: "104491226"
 
 Если сообщение не выполняется, возвращаемое значение равно нулю.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a9aa36eeceeae4aaa9373d73b50fda09663edb7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e8b3e9e00eaa294f77813f8e994358cbb473fc4e5c02fce8e5115dc517cae20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081724"
 ---
 # <a name="glcolormask-function"></a>Функция Глколормаск
 
@@ -64,7 +64,7 @@ void WINAPI glColorMask(
 
 </dd> <dt>
 
-*буквы* 
+*канал альфа-версии*; 
 </dt> <dd>
 
 Укажите, может ли альфа-канал быть записан в буфера кадров. Значение по умолчанию — GL \_ true, указывающее, что можно записать компонент цвета.
@@ -87,7 +87,7 @@ void WINAPI glColorMask(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глколормаск** указывает, могут ли быть записаны отдельные компоненты цвета в буфера кадров. Например, если *Red* имеет \_ значение «GL», то в красный компонент любого пикселя в любом из буферов цветов не вносится никаких изменений, независимо от попытки рисования.
 
@@ -99,7 +99,7 @@ void WINAPI glColorMask(
 
 **глжет** с аргументом \_ режим RGBA GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -113,7 +113,7 @@ void WINAPI glColorMask(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

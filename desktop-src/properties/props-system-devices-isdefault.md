@@ -4,12 +4,12 @@ ms.assetid: b290fa2d-d67d-4073-9268-dcab22b876c9
 title: System.Devices.IsDefault
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e46387b7d2df9c53d1cb3d41363d8e20760dd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 064c5e91cada1dd999ae9d732ed914f0e518b10daaf1604d5a15be0a9c3b5997
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104350392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059454"
 ---
 # <a name="systemdevicesisdefault"></a>System.Devices.IsDefault
 
@@ -71,11 +71,11 @@ propertyDescription
             defineToken = ISDEFAULTDEVICE_NOTDEFAULTDEVICE
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

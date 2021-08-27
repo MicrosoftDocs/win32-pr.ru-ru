@@ -4,12 +4,12 @@ description: Извлекает конкретный адаптер по инд�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 5ba03c9e6f2711adc5264354a6abd70ee489965f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96b2973e36c93ca50db273fc28bd0f02cbaf7a48f96e6833af7f14323c7de57d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022134"
 ---
 # <a name="idxcoreadapterlistgetadapter-method"></a>Метод Идкскореадаптерлист:: Adapter
 
@@ -31,7 +31,7 @@ HRESULT STDMETHODCALLTYPE GetAdapter(
 
 ## <a name="parameters"></a>Параметры
 
-### <a name="index"></a>index
+### <a name="index"></a>индекс
 
 Тип: **uint32_t**
 
@@ -62,10 +62,10 @@ HRESULT STDMETHODCALLTYPE GetAdapter(
 |E_NOINTERFACE|Указано недопустимое значение для *riid*.|
 |E_POINTER|`nullptr` был предоставлен для *ппвадаптер*.|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Несколько вызовов, передающих индекс, представляющий тот же адаптер, возвращают идентичные указатели интерфейса, даже в разных списках адаптеров. В результате можно сравнивать указатели интерфейса, чтобы определить, ссылаются ли несколько указателей на один и тот же объект адаптера.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптерлист](./nn-dxcore_interface-idxcoreadapterlist.md), [дкскоре Reference](../dxcore-reference.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

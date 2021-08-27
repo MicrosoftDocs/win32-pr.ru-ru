@@ -4,12 +4,12 @@ ms.assetid: 08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43
 title: System. Identity. Куалифиедусернаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699165297c9f0af5fd0f59208ed9eb2bc18d09d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 900a2b79605ae20df8cb5443a95ffb835d801f9262a6bca0c0bcc19e1dd6f71f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091104"
 ---
 # <a name="systemidentityqualifiedusername"></a>System. Identity. Куалифиедусернаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

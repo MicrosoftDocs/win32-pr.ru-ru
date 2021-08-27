@@ -4,12 +4,12 @@ ms.assetid: afda53eb-d0db-4844-9dd0-8a7d93ca341f
 title: Символьные эффекты ссылок в функциях файловых систем
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d4a2fe1696bf5260a0c55ba8b6e4f107270d6da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e1c5d140dc70de8ebc255b779b226b6da156aa2b8961c49d86f466ac01b26ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078463"
 ---
 # <a name="symbolic-link-effects-on-file-systems-functions"></a>Символьные эффекты ссылок в функциях файловых систем
 
@@ -35,7 +35,7 @@ ms.locfileid: "105664276"
 -   [жетволумеинформатион](#getvolumeinformation)
 -   [сетфилеаттрибутес](#setfileattributes)
 -   [сетфилесекурити](#setfilesecurity)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 В приведенных ниже описаниях используются следующие термины.
 
@@ -152,7 +152,7 @@ ms.locfileid: "105664276"
 
 Если путь указывает на символьную ссылку, функция возвращает атрибуты для символьной ссылки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

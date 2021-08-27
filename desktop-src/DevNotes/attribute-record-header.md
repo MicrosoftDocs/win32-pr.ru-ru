@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ae710ca04f11cb70c1bad9b5e6fec25f8fb5e94f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9664af36448bb125dc8d5fde3c4d22b04e58b1ca341acad561b94708acbf143c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045393"
 ---
 # <a name="attribute_record_header-structure"></a>\_ \_ Структура заголовка записи атрибута
 
@@ -221,7 +221,7 @@ typedef struct _ATTRIBUTE_RECORD_HEADER {
 
 </dd> <dt>
 
-**Размер файла**
+**FileSize**
 </dt> <dd>
 
 Размер файла (максимальный байт, который можно прочитать плюс 1) в байтах. Этот элемент является недопустимым, если **ловествкн** не равен нулю.
@@ -242,7 +242,7 @@ typedef struct _ATTRIBUTE_RECORD_HEADER {
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обратите внимание, что для этой структуры нет связанного файла заголовка.
 
@@ -269,7 +269,7 @@ typedef struct _ATTRIBUTE_RECORD_HEADER {
 7.  Обновите кэшированные сведения о сопоставлении из Куррентвкн, Некствкн и Куррентлкн.
 8.  Перейдите к шагу 3.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

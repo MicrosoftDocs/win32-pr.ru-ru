@@ -4,12 +4,12 @@ description: В следующих процедурах описаны дейс�
 ms.assetid: aa9b7b2a-259f-4ce1-afb6-c04875e8ffe3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77cfa893bda9e850527c7ebe35590dbe2d08a490
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ca4b1036115c49c2045121d16f09c55a3fa611153a9b1337a0437c9e2196800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105672137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025304"
 ---
 # <a name="use-a-client-specific-route-list"></a>Использование списка маршрутов Client-Specific
 
@@ -124,9 +124,9 @@ ASSERT(Status == NO_ERROR);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

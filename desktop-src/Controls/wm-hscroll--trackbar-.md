@@ -3,7 +3,7 @@ title: Код уведомления WM_HSCROLL (TrackBar) (Winuser. h)
 description: Сообщение WM \_ HSCROLL отправляется владельцу элемента управления "горизонтальная линейка" при изменении положения ползунка. Окно получает это сообщение через функцию WindowProc.
 ms.assetid: EC4AF407-E13F-4562-A0A6-FA109C15101B
 keywords:
-- Элементы управления Windows для кода уведомления WM_HSCROLL (TrackBar)
+- коды уведомлений WM_HSCROLL (Trackbar) Windows элементов управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10727b745900520e8af31561236c8e93eeeb3a81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a21000f9eeeb3ff83d4fb65456b21447aa3fd604412f3b4d6d3b94fda58606b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059314"
 ---
 # <a name="wm_hscroll-trackbar-notification-code"></a>\_Код уведомления WM HSCROLL (TrackBar)
 
@@ -79,25 +79,25 @@ WM_HSCROLL
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Код СУМБТРАКК ТБ обычно используется приложениями, которые предоставляют отзыв по мере того, как пользователь перетаскивает ползунок.
 
 Обратите внимание, что сообщение **WM \_ HSCROLL** содержит только 16 бит данных о положении. Таким же, приложения, которые используют только **WM \_ HSCROLL** (и [**WM \_ VSCROLL**](wm-vscroll--trackbar-.md)) для данных о положении ползунка, имеют практически максимальное значение положения 65 535.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

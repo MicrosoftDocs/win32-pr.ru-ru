@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Запрос данных WMI на 64-разрядной платформе
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd392d482f083a3c1b1dff3b90d70f1857aeebb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 320aaec9f11600e3b963a01fe9dcddbd6c4f1f3fd98df8ff2311417ddcd6fef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995784"
 ---
 # <a name="requesting-wmi-data-on-a-64-bit-platform"></a>Запрос данных WMI на 64-разрядной платформе
 
@@ -34,7 +34,7 @@ ms.locfileid: "105692708"
 <span id="__RequiredArchitecture"></span><span id="__requiredarchitecture"></span><span id="__REQUIREDARCHITECTURE"></span>**\_\_рекуиредарчитектуре**
 </dt> <dd>
 
-Логическое значение, используемое в дополнение к **\_ \_ провидерарчитектуре** для принудительной загрузки указанной версии поставщика. Если версия недоступна, WMI возвращает ошибку 0x80041013, **вбемеррпровидерлоадфаилуре** для Visual Basic и **\_ \_ \_ \_ сбой загрузки поставщика WBEM E** для C++. Значение по умолчанию для этого флага, если оно не указано, равно **false**.
+Логическое значение, используемое в дополнение к **\_ \_ провидерарчитектуре** для принудительной загрузки указанной версии поставщика. если версия недоступна, WMI возвращает ошибку 0x80041013, **вбемеррпровидерлоадфаилуре** для Visual Basic и **\_ \_ \_ \_ сбой загрузки поставщика WBEM E** для C++. Значение по умолчанию для этого флага, если оно не указано, равно **false**.
 
 </dd> </dl>
 
@@ -44,7 +44,7 @@ ms.locfileid: "105692708"
 
 Приложения C++ могут использовать интерфейс [**ивбемконтекст**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemcontext) с [**IWbemServices:: ExecMethod**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execmethod) для обмена данными с использованием поставщика, не используемого по умолчанию, с WMI.
 
-В скриптах и Visual Basic необходимо создать объект [**свбемнамедвалуесет**](swbemnamedvalueset.md) , содержащий флаги для параметра *Обжвбемнамедвалуесет* в [**SWbemServices.Exeкмесод**](swbemservices-execmethod.md). Дополнительные сведения о настройке объектов параметров для этого вызова см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
+в скриптах и Visual Basic необходимо создать объект [**свбемнамедвалуесет**](swbemnamedvalueset.md) , содержащий флаги для параметра *обжвбемнамедвалуесет* в [**SWbemServices.Exeкмесод**](swbemservices-execmethod.md). Дополнительные сведения о настройке объектов параметров для этого вызова см. в разделе [Построение объектов параметров и анализ объектов параметров](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
 Вы можете безопасно запускать сценарии и приложения с помощью контекстных флагов в более старых операционных системах, так как инструментарий WMI игнорирует их в системах, где они не реализованы. Хотя существует 32-разрядная и 64-разрядная версии поставщика системного реестра, обратите внимание, что существует только одна версия репозитория WMI.
 
@@ -54,7 +54,7 @@ ms.locfileid: "105692708"
 
 В сценариях показано, как вызывать методы класса [**стдрегпров**](/previous-versions/windows/desktop/regprov/stdregprov) в реестре с помощью [**SWbemServices.Exeкмесод**](swbemservices-execmethod.md) для получения данных из 32-разрядного куста реестра.
 
-Следующий скрипт получает данные от поставщика, которые соответствуют битовой ширине вызывающего объекта (в данном случае 64 бит), так как это сценарий, выполняющийся в 64-разрядном сервере сценариев Windows (WSH). Сценарий получает значение из 64-разрядного узла реестра **hKey \_ Local \_ Machine \\ Software \\ Microsoft \\ WBEM \\ CIMOM \\ ведение журнала** , а не 32-разрядный узел **hKey \_ Local \_ Machine \\ Software \\ WOW6432Node \\ Microsoft \\ WBEM \\ CIMOM**.
+следующий скрипт получает данные от поставщика, которые соответствуют битовой ширине вызывающего объекта (в данном случае 64 бит), так как это сценарий, выполняющийся в 64-разрядном Windows сервере сценариев (WSH). Сценарий получает значение из 64-разрядного узла реестра **hKey \_ Local \_ Machine \\ Software \\ Microsoft \\ WBEM \\ CIMOM \\ ведение журнала** , а не 32-разрядный узел **hKey \_ Local \_ Machine \\ Software \\ WOW6432Node \\ Microsoft \\ WBEM \\ CIMOM**.
 
 
 ```VB
@@ -144,7 +144,7 @@ WScript.Echo "WMI Logging is set to  " & Outparams.SValue
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

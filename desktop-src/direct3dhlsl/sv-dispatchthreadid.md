@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8e2713aaa50206660f7672688a43e644873b1c13
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: a5f7dbc7f4aa4b508d801736529628dbb25c29fb6c37f1db04f91874e85ee9a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023394"
 ---
 # <a name="sv_dispatchthreadid"></a>ОКП \_ диспатчсреадид
 
@@ -48,7 +48,7 @@ ms.locfileid: "111827063"
 
 
 
-| Вершина | Поверхности | Домен | Geometry | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
@@ -56,7 +56,7 @@ ms.locfileid: "111827063"
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c20370e0fa8bcf746d1b835ee45725f76158fb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70fd983e9a5921d96ba487f7eb8d6f631b000019e8ff566eb1ecc79e05ce4fb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081674"
 ---
 # <a name="glcullface-function"></a>Функция Глкуллфаце
 
@@ -64,7 +64,7 @@ void WINAPI glCullFace(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глкуллфаце** указывает, исключаются ли аспекты с внешним или фоновым *режимом*(как указано в режиме) при включении отбора аспектов. Вы включаете и отключаете отбор аспектов с помощью [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md) с аргументом «поверхность применения GL \_ \_ ». К аспектам относятся треугольники, куадрилатералс, многоугольники и прямоугольники.
 
@@ -78,7 +78,7 @@ void WINAPI glCullFace(
 
 [**глисенаблед**](glisenabled.md) с аргументом " \_ отбор, \_ лицо"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ void WINAPI glCullFace(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

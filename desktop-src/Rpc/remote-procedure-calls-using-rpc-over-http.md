@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, использование RPC/HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c84551500af712b1126d8f9a65cb3d02eba8c9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2fedeb1700d798a616d3441b356f6f31867eed0399f412ed1f82923bcc4ac5f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101664"
 ---
 # <a name="remote-procedure-calls-using-rpc-over-http"></a>Удаленные вызовы процедур с помощью RPC через HTTP
 
@@ -27,13 +27,13 @@ ms.locfileid: "103986071"
 -   [Безопасность RPC через HTTP](rpc-over-http-security.md)
 -   [Требования к системе и взаимодействие для RPC через HTTP](system-requirements-and-interoperability-for-rpc-over-http.md)
 -   [Настройка компьютеров для RPC через HTTP](configuring-computers-for-rpc-over-http.md)
--   [Рекомендации по развертыванию RPC по HTTP](rpc-over-http-deployment-recommendations.md)
+-   [Рекомендации развертывания RPC через HTTP](rpc-over-http-deployment-recommendations.md)
 
 Сведения о сценариях RPC по протоколу HTTP для большого объема см. в [статье балансировка нагрузки Microsoft RPC](rpc-load-balancing.md).
 
- 
+ 
 
- 
+ 
 
 
 

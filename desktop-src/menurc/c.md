@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2323bc5f-ace6-475f-8059-95392f8b61a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20c8851e0ac59308b5c20c47e8d45cd4539ec19d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 794c8e0fd15cb452321cc2d84403417d3fa360dc97f370089a0c7f197dd2f6fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105681740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060084"
 ---
 # <a name="c-menus-and-other-resources"></a>C (меню и другие ресурсы)
 
@@ -35,21 +35,21 @@ ms.locfileid: "105681740"
 <span id="tools.c_3_gly"></span><span id="TOOLS.C_3_GLY"></span>**Не удалось открыть файл in-Name**
 </dt> <dd>
 
-Компилятору ресурсов Microsoft Windows (RC) не удалось открыть указанный файл. Убедитесь, что файл существует и что вы правильно ввели имя файла.
+компилятору ресурсов Microsoft Windows (RC) не удалось открыть указанный файл. Убедитесь, что файл существует и что вы правильно ввели имя файла.
 
 </dd> <dt>
 
 <span id="tools.c_4_gly"></span><span id="TOOLS.C_4_GLY"></span>**Не удалось опенресаурце имя**
 </dt> <dd>
 
-Компилятору ресурсов Microsoft Windows (RC) не удалось открыть указанный файл. Убедитесь, что файл существует и что вы правильно ввели имя файла.
+компилятору ресурсов Microsoft Windows (RC) не удалось открыть указанный файл. Убедитесь, что файл существует и что вы правильно ввели имя файла.
 
 </dd> <dt>
 
 <span id="tools.c_5_gly"></span><span id="TOOLS.C_5_GLY"></span>**Креатингресаурце — имя**
 </dt> <dd>
 
-(V) компилятор ресурсов Microsoft Windows (RC) создает новый файл двоичного ресурса (RES).
+(V) компилятор Microsoft Windows ресурсов (RC) создает новый файл ресурсов двоичного типа (res).
 
 </dd> </dl>
 

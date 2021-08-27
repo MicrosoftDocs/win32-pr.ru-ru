@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3449ae4c1e1eb3b977916f6fb1d19303e9d21a4e
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: a412c7980ef12bfd8814933cd9d3de07db27fac353a636406e96e1377cd57829
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023974"
 ---
 # <a name="vs_2_x"></a>VS \_ 2 \_ x
 
@@ -33,7 +33,7 @@ ms.locfileid: "112010718"
 
 Ниже перечислены новые возможности.
 
-### <a name="dynamic-flow-control"></a>Динамическое управление потоком
+### <a name="dynamic-flow-control"></a>динамический Flow элемент управления
 
 Если [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) > 0, поддерживаются следующие инструкции динамического управления потоком:
 
@@ -48,15 +48,15 @@ ms.locfileid: "112010718"
 -   [каллнз, пред. VS](callnz-pred---vs.md)
 -   [бреакп — VS](breakp---vs.md)
 
-Диапазон значений для глубины динамического управления потоком — от 0 до 24 и равен глубине вложения инструкций динамического управления потоком (Дополнительные сведения см. в разделе [ограничения вложений управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ). Если это ограничение равно нулю, устройство не поддерживает инструкции динамического управления потоком.
+диапазон значений для глубины управления динамическим потоком — от 0 до 24 и равен глубине вложенности инструкций динамического управления потоком (дополнительные сведения см. в разделе [Flow ограничения вложенности элемента управления](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ). Если это ограничение равно нулю, устройство не поддерживает инструкции динамического управления потоком.
 
 ### <a name="number-of-temporary-registers"></a>Количество временных регистров
 
 [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) представляет количество [временных регистров](dx9-graphics-reference-asm-vs-registers-temporary.md), поддерживаемое устройством. Диапазон значений для этого ограничения — от 12 до 32.
 
-### <a name="static-flow-control-nesting-depth"></a>Глубина вложения статического управления потоком
+### <a name="static-flow-control-nesting-depth"></a>глубина вложения статического элемента управления Flow
 
-[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) представляет глубину вложенности двух типов статических инструкций по управлению потоком: [цикл-VS](loop---vs.md) / [-представитель](rep---vs.md) и [Call-VS](call---vs.md) / [каллнз bool-VS](callnz-bool---vs.md), / [Если логические действия-VS](if-bool---vs.md). циклы VS/представитель-VS, вложенные в D3DVS20CAPS. По отдельности, инструкция Call-VS/каллнз bool-VS может быть вложена в D3DVS20CAPS глубину. Если также задано D3DVS20CAPS, то [каллнз "пред-VS](callnz-pred---vs.md) " учитывает глубину вложения Call-VS/каллнз bool-VS/if bool-VS (см. Дополнительные сведения об [ограничениях вложения управления потоком](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ).
+[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) представляет глубину вложенности двух типов статических инструкций по управлению потоком: [цикл-VS](loop---vs.md) / [-представитель](rep---vs.md) и [Call-VS](call---vs.md) / [каллнз bool-VS](callnz-bool---vs.md), / [Если логические действия-VS](if-bool---vs.md). циклы VS/представитель-VS, вложенные в D3DVS20CAPS. По отдельности, инструкция Call-VS/каллнз bool-VS может быть вложена в D3DVS20CAPS глубину. если также задано D3DVS20CAPS, то [каллнз "пред-vs](callnz-pred---vs.md) " учитывает глубину вложения call-vs/каллнз bool-vs/if bool-vs (дополнительные сведения см. в разделе [ограничения вложенности элемента управления Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ).
 
 ### <a name="predication"></a>Предикация
 

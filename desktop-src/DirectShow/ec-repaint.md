@@ -4,12 +4,12 @@ ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba86b54d6d465330ec1635ed7301ce774ef7cb27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7edd498d84aaace460a10c88d5579c2f5a87bba42e1a5f393786134bbe727af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102794"
 ---
 # <a name="ec_repaint"></a>\_ПЕРЕрисовка EC
 
@@ -45,7 +45,7 @@ ms.locfileid: "105685071"
 
 По умолчанию диспетчер графов фильтров не передает это событие в приложение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Модули подготовки видео отправляют это сообщение, когда получают сообщение [**WM \_ Paint**](/windows/desktop/gdi/wm-paint) и не имеют данных для отображения.
 
@@ -55,11 +55,11 @@ ms.locfileid: "105685071"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>DShow. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>DShow. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

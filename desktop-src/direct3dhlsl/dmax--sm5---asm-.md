@@ -4,12 +4,12 @@ description: Максимальное значение двойной точно
 ms.assetid: 34ED8B34-2592-4BBB-BCF0-F2222E4D51D9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 703b277a98b16570de6f5ab7e0e7643ddfdcc705
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2b6846da6fbf3ad5d42be5131322e1214fc49fe2627b824775798e4527de3d24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068374"
 ---
 # <a name="dmax-sm5---asm"></a>DMAX (SM5-ASM)
 
@@ -36,7 +36,7 @@ ms.locfileid: "104412151"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 NaN имеет особую обработку. Если один исходный операнд равен NaN, то возвращается другой исходный операнд. Выбранный вариант выполняется для каждого компонента. Если оба значения равны NaN, возвращается любое представление NaN.
 
@@ -66,7 +66,7 @@ NaN имеет особую обработку. Если один исходны
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -77,7 +77,7 @@ NaN имеет особую обработку. Если один исходны
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

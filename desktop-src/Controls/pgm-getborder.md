@@ -3,7 +3,7 @@ title: Сообщение PGM_GETBORDER (Коммктрл. h)
 description: Возвращает текущий размер границы для элемента управления страничного навигатора. Это сообщение можно отправить явным образом или воспользоваться макросом страничного навигатора \_ .
 ms.assetid: 5d2f49ad-d940-4a0b-b5a0-05d742151b1c
 keywords:
-- Элементы управления Windows для PGM_GETBORDER сообщений
+- элементы управления Windows сообщений PGM_GETBORDER
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be510af44c9cf53000420531843a79e9856c40dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 148b3d840548116d3082e27b5a760650c5802bdb2c6dbc1fc7c94f1df3a3d5b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046864"
 ---
 # <a name="pgm_getborder-message"></a>\_Сообщение о ВЫГРАНИЦЕ PGM
 
@@ -39,19 +39,19 @@ ms.locfileid: "105654574"
 
 Возвращает значение типа INT, которое содержит текущий размер границы (в пикселях).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

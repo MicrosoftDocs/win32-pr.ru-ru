@@ -4,12 +4,12 @@ ms.assetid: 8ee50fd7-507e-484f-9a16-de5449470562
 title: Таблица Одбксаурцеаттрибуте
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d52dd9636ac19eae0fb3a9e41d1a1c8389753e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c6d84ca19dfd059df4ff8f79d9409ef23288800f09e84d45e1b55d81bc8641e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082714"
 ---
 # <a name="odbcsourceattribute-table"></a>Таблица Одбксаурцеаттрибуте
 
@@ -21,9 +21,9 @@ ms.locfileid: "104541055"
 
 | Столбец       | Type                         | Ключ | Допускает значения NULL |
 |--------------|------------------------------|-----|----------|
-| DataSource\_ | [Идентификатор](identifier.md) | Да   | Нет        |
-| attribute    | [Text](text.md)             | Да   | Нет        |
-| Значение        | [Формате](formatted.md)   | Нет   | Да        |
+| DataSource\_ | [Идентификатор](identifier.md) | Д   | Нет        |
+| attribute    | [Text](text.md)             | Д   | Нет        |
+| Значение        | [Формате](formatted.md)   | Нет   | Д        |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "104541055"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Действия [инсталлодбк](installodbc-action.md) и [ремовеодбк](removeodbc-action.md) в [*таблицах последовательностей*](s-gly.md) обрабатывают сведения, приведенные в этой таблице. Дополнительные сведения об использовании *таблиц последовательности* см. [в разделе Использование таблицы последовательностей](using-a-sequence-table.md).
 

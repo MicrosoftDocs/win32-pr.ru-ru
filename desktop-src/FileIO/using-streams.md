@@ -1,17 +1,17 @@
 ---
 description: Пример кода, демонстрирующий использование базовых потоков файловой системы NTFS.
 ms.assetid: 9cd5f418-404c-40f5-aa51-ef4d2a5f238e
-title: Использование потоков
+title: использование Потоки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04edc73a3524d45eeead4cd6c0d508925e6caa5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ebb6e2297c82e8643eb79ce66991b32fdf27e46fc723113a2866c79b2f8377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078394"
 ---
-# <a name="using-streams"></a>Использование потоков
+# <a name="using-streams"></a>использование Потоки
 
 В примере в этом разделе показано, как использовать базовые потоки файловой системы NTFS.
 
@@ -96,11 +96,11 @@ This is TestFile
 This is TestFile:Stream
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Файловые потоки](file-streams.md)
+[Потоки файлов](file-streams.md)
 </dt> </dl>
 
  

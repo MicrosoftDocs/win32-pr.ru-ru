@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101481
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3e9242d632b5fba78428e15e5077d545e70823f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a774bcba1a468ee91c6af651dc2855ab2f97b0599cce2fc6751dac2bf1f4cac1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066117"
 ---
 # <a name="esentdatabaseincompleteincrementalreseedexception-properties"></a>Свойства Есентдатабасеинкомплетеинкременталресидексцептион
 
@@ -49,7 +49,7 @@ ms.locfileid: "104558952"
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Защищенное свойство" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Состав</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
 <td>(Наследуется от <a href="/dotnet/api/system.exception">Exception</a>.)</td>
 </tr>
 <tr class="odd">
@@ -83,7 +83,7 @@ ms.locfileid: "104558952"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

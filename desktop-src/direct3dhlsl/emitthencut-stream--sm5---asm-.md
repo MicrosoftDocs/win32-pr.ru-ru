@@ -4,12 +4,12 @@ description: Эквивалентно команде Emit, за которой �
 ms.assetid: E9D84647-E29B-4E31-9E95-9F7A173293D4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ae3129f2a3fb50664a5dbf070c7a1dae9bf5d6e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 522d2be28ae1d63617b8ba775f8f8839c270668aeeded8a4944ef9ae7554d598
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104986265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067964"
 ---
 # <a name="emitthencut_stream-sm5---asm"></a>\_поток емитсенкут (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104986265"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта операция полезна, когда вы узнаете о размещении последней вершины в топологии.
 
@@ -60,7 +60,7 @@ ms.locfileid: "104986265"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -71,7 +71,7 @@ ms.locfileid: "104986265"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

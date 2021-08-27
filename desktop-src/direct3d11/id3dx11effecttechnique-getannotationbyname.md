@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cae5a7c24d392bd034dfcd69fb67723c9492f982
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3b9ba87c400129d9caab88657f0d554c67a75072feaf425054ee638ccf7b3d11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104355123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069664"
 ---
 # <a name="id3dx11effecttechniquegetannotationbyname-method"></a>Метод ID3DX11EffectTechnique:: Жетаннотатионбинаме
 
@@ -43,7 +43,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
 <dl> <dt>
 
-*имя*; 
+*Имя* 
 </dt> <dd>
 
 Тип: **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
@@ -58,7 +58,7 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
 Указатель на [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Используйте заметку, чтобы присоединить часть метаданных к приему.
 
@@ -67,18 +67,18 @@ ID3DX11EffectVariable* GetAnnotationByName(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

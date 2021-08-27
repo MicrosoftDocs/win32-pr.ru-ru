@@ -4,12 +4,12 @@ description: API сервера HTTP предоставляет пользова
 ms.assetid: 0f9a768e-723c-4c7b-a746-6b817441409c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3979fb03c4f8898644329fd27eafb7007adbcc9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6659ead1139bd1b35a466a56c44357dd1f7f30cbac5fad8669445208be0e5136
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047254"
 ---
 # <a name="fragment-cache"></a>Кэш фрагментов
 
@@ -22,7 +22,7 @@ API сервера HTTP предоставляет пользователям в
 > [!Note]  
 > Добавление фрагмента в кэш не гарантирует, что он будет доступен для будущих вызовов для отправки ответа. Записи кэша фрагмента могут стать недоступными в любое время. Вызов, использующий недоступный фрагмент, завершается ошибкой. Приложения, использующие кэш фрагментов, должны быть готовы к обработке этого сбоя.
 
- 
+ 
 
 ## <a name="sending-a-response-with-a-fragment"></a>Отправка ответа с помощью фрагмента
 
@@ -36,9 +36,9 @@ API сервера HTTP предоставляет пользователям в
 
 Записи кэша фрагмента также можно указать в функции [**хттпсендреспонсинтитибоди**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) . Фрагмент добавляется в тело сущности в структуре [**\_ \_ фрагмента данных HTTP**](/windows/desktop/api/Http/ns-http-http_data_chunk) , как описано выше. Опять же, отправка может завершиться неудачей, если любая из указанных записей кэша фрагментов недоступна.
 
- 
+ 
 
- 
+ 
 
 
 

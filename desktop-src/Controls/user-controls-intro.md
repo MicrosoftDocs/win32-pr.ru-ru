@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e82ed9394ec06257e524153b86ef487f4507f35b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 12d1a31a44f1f71d99088f7729c2de6d5fdb597e14507f5f994dfaca1b96613d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104134607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059714"
 ---
 # <a name="custom-controls"></a>Пользовательские элементы управления
 
@@ -22,7 +22,7 @@ ms.locfileid: "104134607"
 -   [Реализация класса окна Application-Defined](#implementing-an-application-defined-window-class)
 -   [Отправка уведомлений из элемента управления](#sending-notifications-from-a-control)
 -   [Специальные возможности](#accessibility)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="creating-owner-drawn-controls"></a>Создание элементов управления Owner-Drawn
 
@@ -79,7 +79,7 @@ case WM_DRAWITEM:
 
 
 
-| Сообщение                                          | Рекомендация                                                                                                                                                                                                                                  |
+| Message                                          | Рекомендация                                                                                                                                                                                                                                  |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**WM \_ жетдлгкоде**](/windows/desktop/dlgbox/wm-getdlgcode)       | Обработка, если в элементе управления используются клавиши ВВОД, ESC, ТАБУЛЯЦИя или стрелка. Функция [**исдиалогмессаже**](/windows/desktop/api/winuser/nf-winuser-isdialogmessagea) отправляет это сообщение элементам управления в диалоговом окне, чтобы определить, следует ли обрабатывать ключи или передавать их в элемент управления. |
 | [**WM, \_ Шрифт**](/windows/desktop/winmsg/wm-getfont)             | Обработка, если сообщение [**WM \_ сетфонт**](/windows/desktop/winmsg/wm-setfont) также обработано.                                                                                                                                                                  |
@@ -92,7 +92,7 @@ case WM_DRAWITEM:
 
 
 
- 
+ 
 
 Определяемые приложением управляющие сообщения относятся к заданному элементу управления и должны быть явно отправлены в элемент управления с помощью функции [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) или [**сенддлгитеммессаже**](/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea) . Числовое значение для каждого сообщения должно быть уникальным и не должно конфликтовать со значениями других оконных сообщений. Чтобы гарантировать, что определяемые приложением значения сообщений не конфликтуют, приложение должно создать каждое значение, добавив уникальный номер к значению [**\_ пользователя WM**](/windows/desktop/winmsg/wm-user) .
 
@@ -137,9 +137,9 @@ SendMessage(GetParent(hwndControl),
 
 Пользовательские элементы управления должны реализовывать интерфейс [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) (для поддержки MSAA) или интерфейсы модели автоматизации пользовательского интерфейса, или и то, и другое. В противном случае программные продукты, доступные для работы с технологиями, смогут получить только очень ограниченные сведения об окне управления, не будут иметь доступа к свойствам элемента управления и не смогут активировать события в элементе управления.
 
-Дополнительные сведения о том, как сделать элемент управления доступным, см. в разделе [API автоматизации Windows](/windows/desktop/WinAuto/windows-automation-api-portal).
+дополнительные сведения о том, как сделать элемент управления доступным, см. в разделе [Windows API автоматизации](/windows/desktop/WinAuto/windows-automation-api-portal).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -158,6 +158,6 @@ SendMessage(GetParent(hwndControl),
 [Использование стилей оформления с элементами управления Owner-Drawn](using-visual-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

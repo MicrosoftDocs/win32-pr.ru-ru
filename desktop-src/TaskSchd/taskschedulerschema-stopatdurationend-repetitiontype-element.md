@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a95f15f3a62d05b9bc28dc9f50b924979e2b748c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 896aa6db4ce5bf2c0dddf666024c143754afc97ec76bfb557e6431f593689857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010544"
 ---
 # <a name="stopatdurationend-repetitiontype-element"></a>Стопатдуратионенд (Репетитионтипе), элемент
 
@@ -38,20 +38,20 @@ ms.locfileid: "105672899"
 |-|-|-|
 | [**Повторение**](taskschedulerschema-repetition-triggerbasetype-element.md) | [**репетитионтипе**](taskschedulerschema-repetitiontype-complextype.md) | Указывает, как часто выполняется задача и как долго шаблон повторения повторяется после запуска задачи.<br/> |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев этот параметр указывается с помощью свойства [**репетитионпаттерн. стопатдуратионенд**](repetitionpattern-stopatdurationend.md) .
 
 Для разработки на C++ этот параметр указывается с помощью свойства [**ирепетитионпаттерн:: стопатдуратионенд**](/windows/win32/api/taskschd/nf-taskschd-irepetitionpattern-get_stopatdurationend) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-|-|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/> |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/> |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [планировщик задач элементы схемы](task-scheduler-schema-elements.md)
 

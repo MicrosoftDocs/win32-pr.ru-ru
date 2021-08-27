@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ba82a1067db97e93fff2845e69e89f978548b73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a668b5acd8427df5b4bc163788c225f4eaee9a16b70af25312ae8ec94cb2bb63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004784"
 ---
 # <a name="wmdm_prop_values_range-structure"></a>\_ \_ Структура диапазона значений Prop вмдм \_
 
@@ -63,7 +63,7 @@ typedef struct _WMDM_PROP_VALUES_RANGE {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется в структуре [**вмдм \_ prop \_**](wmdm-prop-desc.md) , чтобы описать диапазон допустимых значений. Диапазон допустимых значений применим, если выбрано перечисление \_ \_ \_ допустимых значений Prop enum вмдм \_ \_ из перечисления [**\_ \_ \_ допустимых \_ значений \_ Свойства вмдм enum Prop**](wmdm-enum-prop-valid-values-form.md) .
 
@@ -73,7 +73,7 @@ typedef struct _WMDM_PROP_VALUES_RANGE {
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
 
 
 

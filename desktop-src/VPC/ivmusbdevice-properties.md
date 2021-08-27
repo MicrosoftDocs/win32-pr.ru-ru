@@ -4,16 +4,16 @@ description: Интерфейс Ивмусбдевице предоставля�
 ms.assetid: D542A0BA-0AC0-40E4-B06E-682952DB9DF4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f8b5fc320baae530a34cd180c51c56ff85dbe6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 324c811db3e92cbb0f46f1acbac571ad5d64e76103b2082490fae60309d7107e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006894"
 ---
 # <a name="ivmusbdevice-properties"></a>Свойства Ивмусбдевице
 
-\[Windows Virtual PC больше не доступна для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC больше не доступен для использования в Windows 8. Вместо этого используйте [поставщик WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Интерфейс [**ивмусбдевице**](ivmusbdevice.md) предоставляет следующие свойства.
 
@@ -26,6 +26,6 @@ ms.locfileid: "104070496"
 -   [**Мануфактурерстринг, свойство**](ivmusbdevice-manufacturerstring.md)
 -   [**Свойство порта**](ivmusbdevice-port.md)
 
- 
+ 
 
- 
+ 
