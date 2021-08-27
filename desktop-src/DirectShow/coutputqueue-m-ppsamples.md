@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3659c4a71cacb839caaa1b6ac89e46cd4e42a249
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d0b27a356727fc317eb1818ecd548d944e3c4b2ace9cc11e0834bf1cf551c9f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103154"
 ---
 # <a name="coutputqueuem_ppsamples-member"></a>Элемент Каутпуткуеуе:: m \_ ппсамплес
 
@@ -36,22 +36,22 @@ IMediaSample **m_ppSamples;
 
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Рабочий поток извлекает образцы из очереди и помещает их в этот массив. Он передает массив в метод [**имеминпутпин:: рецеивемултипле**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivemultiple) . Если объект не использует рабочий поток, объект помещает примеры непосредственно в этот массив. Переменная члена [**\_ списка каутпуткуеуе:: m**](coutputqueue-m-list.md) содержит очередь.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Аутпутк. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>аутпутк. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,21 +1,21 @@
 ---
 title: Структуры подключаемых модулей
-description: Структуры для разработки клиентских приложений с помощью API биометрическая платформа Windows.
+description: структуры для разработки клиентских приложений с помощью API биометрическая платформа Windows.
 ms.assetid: 64fb908c-72c2-4639-a2f6-77ede080512c
 keywords:
-- API биометрическая платформа Windows API биометрическая платформа Windows, структуры подключаемых модулей
+- Windows api-интерфейс биометрической платформы api биометрическая платформа Windows, структуры подключаемых модулей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193b5a99f30c76e8e6e2ab7ebf0242cf56905816
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e150dd043a8c95e91d0f9095e23584544f43a503a709ae54c9180e06aa40bdaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101244"
 ---
 # <a name="plug-in-structures"></a>Структуры подключаемых модулей
 
-Для разработки клиентских приложений с помощью биометрическая платформа Windows API поддерживаются следующие структуры.
+для разработки клиентских приложений с помощью биометрическая платформа Windows API поддерживаются следующие структуры.
 
 ## <a name="in-this-section"></a>В этом разделе
 
@@ -36,7 +36,7 @@ ms.locfileid: "104331672"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

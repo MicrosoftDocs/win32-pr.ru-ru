@@ -4,12 +4,12 @@ ms.assetid: 8f4dc314-76fc-40ce-a1e1-a701ae39d66d
 title: Ограничения Криптксмл (Криптксмл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc56ee6459be2160efdeb8e9874e7dd0c53518d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98a0dcdf5dc8f8bd9efed4dcdb15ca316ecb1645e5775f3d714f46c6835b3a18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100924"
 ---
 # <a name="cryptxml-limits"></a>Ограничения Криптксмл
 
@@ -31,15 +31,15 @@ ms.locfileid: "104497202"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Криптксмл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Криптксмл. h</dt> </dl> |
 
 
 

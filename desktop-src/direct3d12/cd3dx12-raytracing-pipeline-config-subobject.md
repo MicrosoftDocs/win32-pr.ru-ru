@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/05/2021
-ms.openlocfilehash: 153d7f777909cf3622f6c0ededeea79b9d6a27072da35d06f9fe7dce4347b357
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: bd453455f6090d814e3e53dfb6d9ac32f25a6fb7
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120132312"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812205"
 ---
 # <a name="cd3dx12_raytracing_pipeline_config_subobject-class"></a>Класс CD3DX12_RAYTRACING_PIPELINE_CONFIG_SUBOBJECT
 
@@ -67,13 +67,13 @@ class CD3DX12_RAYTRACING_PIPELINE_CONFIG_SUBOBJECT
 
 Оператор преобразования, возвращающий ссылку на константу [D3D12_RAYTRACING_PIPELINE_CONFIG](/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config) объект, описывающий объект состояния.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
 | Заголовок | [D3dx12. h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 * [Вспомогательные структуры для Direct3D 12](helper-structures-for-d3d12.md)
 * [CD3DX12_STATE_OBJECT_DESC](cd3dx12-state-object-desc.md)

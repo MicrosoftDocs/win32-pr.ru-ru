@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e5f588588a1a6769e997264321f8911a86e169c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8c34c7677a100488dfbc533aed3ca07f5b3af4c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988097"
 ---
 # <a name="jet_userdefineddefault-structure"></a>Структура JET_USERDEFINEDDEFAULT
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_userdefineddefault-structure"></a>Структура JET_USERDEFINEDDEFAULT
 
 Структура **JET_USERDEFINEDDEFAULT** задается вместе с JET_bitColumnUserDefinedDefault, чтобы дать новому столбцу значение по умолчанию, которое определяется с помощью обратного вызова. Этот метод можно использовать для реализации вычисленных столбцов.
 
-**Windows XP:** Структура **JET_USERDEFINEDDEFAULT** появилась в Windows XP.
+**Windows XP:** структура **JET_USERDEFINEDDEFAULT** появилась в Windows XP.
 
 ```cpp
     typedef struct tag_JET_USERDEFINEDDEFAULT {
@@ -80,30 +80,14 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Юникод) и <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_ USERDEFINEDDEFAULT_W</strong> (Юникод) и <strong>JET_ USERDEFINEDDEFAULT_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

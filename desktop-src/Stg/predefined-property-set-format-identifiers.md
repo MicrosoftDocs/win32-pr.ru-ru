@@ -4,12 +4,12 @@ description: В UUID определены следующие идентифик�
 ms.assetid: cc99ce1b-beb5-4340-91ed-3aed5bdad2bd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ada6096cfc23707a0dc46d5a092da7703e5bc46
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a44b9bcec87eace49d144c5ab2af28aeda2abc0ceb32d5200a420f82e0264282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103889236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126374"
 ---
 # <a name="predefined-property-set-format-identifiers"></a>Стандартные идентификаторы формата набора свойств
 
@@ -25,11 +25,11 @@ ms.locfileid: "103889236"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

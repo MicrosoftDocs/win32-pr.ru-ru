@@ -4,12 +4,12 @@ ms.assetid: 526e51c7-9ff2-4590-b092-172f4942ce8e
 title: Перечисление и освобождение служб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859abe590ccaf2f71df676d5989778d5b391be57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc6472851fbf5f7f84a499d2e9e04804279d397f31452d9617a8868e05cb8ebb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086614"
 ---
 # <a name="enumerating-and-freeing-services"></a>Перечисление и освобождение служб
 
@@ -97,7 +97,7 @@ int __cdecl main()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,18 +4,18 @@ ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
 title: Orca.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4647b137650bfba521dba3976ea7a1ae66451ce
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: b9f1b0d31936bf81e60efd8eb9799ddb30b4d5a6f78363e2ff5d3d638ae40c4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082684"
 ---
 # <a name="orcaexe"></a>Orca.exe
 
 Orca.exe является редактором таблиц базы данных для создания и редактирования пакетов установщик Windows и модулей слияния. Средство предоставляет графический интерфейс для проверки, выделяя определенные записи, в которых возникают ошибки или предупреждения проверки.
 
-Это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md). Он предоставляется в виде файла Orca.msi. После установки компонентов Windows SDK для разработчиков установщик Windows дважды щелкните Orca.msi, чтобы установить Orca.exe файл.
+это средство доступно только в [компонентах Windows SDK для разработчиков установщик Windows](platform-sdk-components-for-windows-installer-developers.md). Он предоставляется в виде файла Orca.msi. после установки компонентов Windows SDK для разработчиков установщик Windows дважды щелкните Orca.msi, чтобы установить Orca.exe файл.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -64,7 +64,7 @@ Orca.exe использует следующие параметры команд
 
 <dl> <dt>
 
-[Средства разработки установщик Windows](windows-installer-development-tools.md)
+[Windows Средства разработки установщика](windows-installer-development-tools.md)
 </dt> <dt>
 
 [Выпущенные версии, средства и распространяемые пакеты](released-versions-tools-and-redistributables.md)

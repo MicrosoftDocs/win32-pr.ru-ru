@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 599a0b539e32d0e457f92c256e2cb0b678b05b59
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9c7f78575c79b3da5b48125203d88c9b20e7eb1dc11ee860deea01dfa7dcea28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105684850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081594"
 ---
 # <a name="gledgeflag-function"></a>Функция Гледжефлаг
 
@@ -51,7 +51,7 @@ void WINAPI glEdgeFlag(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждая вершина многоугольника, отдельный треугольник или отдельный грани четырехсторонней, заданный между парой [**глбегин**](/windows/desktop/OpenGL/glbegin) / [**гленд**](/windows/desktop/OpenGL/glend) , помечается как начало границы или неграничного края. Если текущий флаг границы имеет **значение true** , если указана вершина, то вершина помечается как начало границ границы. Если текущий флаг границы имеет **значение false**, вершина помечается как начало неграничного края. Функция **гледжефлаг** устанавливает для флага ребра **значение true** , если флаг имеет ненулевое значение, и **false** в противном случае.
 
@@ -67,7 +67,7 @@ void WINAPI glEdgeFlag(
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом GL \_ ребра \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

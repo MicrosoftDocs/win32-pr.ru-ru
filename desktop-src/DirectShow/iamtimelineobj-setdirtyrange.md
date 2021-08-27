@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 7e3f70e5ba9d01733df154911c4f40d2b9d33776
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1cd03802aa019e6da81f2667dddd3a5bede67ad70c98a82e843ee0f05c36e956
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086824"
 ---
 # <a name="iamtimelineobjsetdirtyrange-method"></a>Метод Иамтимелинеобж:: Сетдиртиранже
 
@@ -72,17 +72,17 @@ HRESULT SetDirtyRange(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

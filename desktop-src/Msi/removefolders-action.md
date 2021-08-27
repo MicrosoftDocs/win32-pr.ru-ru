@@ -4,12 +4,12 @@ ms.assetid: 0f68458e-ae9a-4ca5-bc60-06d4de91e2e9
 title: Действие Ремовефолдерс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69648fbae333f0e7b989f2e989f0982d49736317
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b476de044ef48b50120575a8d6991d27bf063dec37a026a2f5d2ea0e604abee0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082544"
 ---
 # <a name="removefolders-action"></a>Действие Ремовефолдерс
 
@@ -31,7 +31,7 @@ ms.locfileid: "104265414"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Установщик не удаляет автоматически папки, созданные [действием креатефолдерс](createfolders-action.md) во время удаления приложения. Установщику необходимо удалить эти папки, разработав действие Ремовефолдерс в последовательности действий.
 

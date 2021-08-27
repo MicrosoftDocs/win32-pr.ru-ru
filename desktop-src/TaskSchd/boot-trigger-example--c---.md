@@ -4,12 +4,12 @@ description: В этом разделе содержится пример код
 ms.assetid: d4dbbfe5-bde9-4a1c-8e11-24cd1e14646c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbd5a5a73d100394b90e91f8b9c30c1bd495ac0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b1f556b2b0754d913e44c2874a7fa01f9aea7ea50f5ccc0aa15fa769dfdca95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100505"
 ---
 # <a name="boot-trigger-example-c"></a>Пример триггера Boot (C++)
 
@@ -17,7 +17,7 @@ ms.locfileid: "103888687"
 
 Следующая процедура описывает, как запланировать задачу запуска исполняемого файла при запуске системы.
 
-**Планирование запуска программы «Блокнот» при запуске системы**
+**планирование Блокнот запуска при запуске системы**
 
 1.  Инициализация COM и Настройка общей безопасности COM.
 2.  Создайте объект [**GetFolder интерфейса ITaskService**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) .
@@ -370,16 +370,16 @@ int __cdecl wmain()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование планировщик задач](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

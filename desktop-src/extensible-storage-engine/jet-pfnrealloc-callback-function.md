@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 032c1edcfd18166b79f4c8b2868d53d0b84434d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7427a28752384f6c30e050458e5844dcaedd1a7
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122989147"
 ---
 # <a name="jet_pfnrealloc-callback-function"></a>Функция обратного вызова JET_PFNREALLOC
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_pfnrealloc-callback-function"></a>Функция обратного вызова JET_PFNREALLOC
 
@@ -55,54 +55,25 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Система может создать коды успеха или сбоя в результате вызова этой функции. Сведения о том, как вернуть эти коды HRESULT, см. в разделе [ошибки расширенного подсистемы хранилища](./extensible-storage-engine-errors.md).
+Система может создать коды успеха или сбоя в результате вызова этой функции. сведения о том, как вернуть эти коды в виде значений hresult, см. в разделе [ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Успешно</p></td>
-<td><p>Если был указан ранее выделенный блок памяти и был указан новый нулевой размер, этот блок освобождается и возвращается значение NULL. Если был указан ранее выделенный блок памяти и не был указан ненулевой размер, возвращается блок памяти с перераспределением. Если блок памяти не указан, возвращается только что выделенный блок памяти указанного размера.</p></td>
-</tr>
-<tr class="even">
-<td><p>Failure</p></td>
-<td><p>Будет возвращено значение NULL. Если был предоставлен ранее выделенный блок памяти, этот блок останется выделенным.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>Успех</p> | <p>Если был указан ранее выделенный блок памяти и был указан новый нулевой размер, этот блок освобождается и возвращается значение NULL. Если был указан ранее выделенный блок памяти и не был указан ненулевой размер, возвращается блок памяти с перераспределением. Если блок памяти не указан, возвращается только что выделенный блок памяти указанного размера.</p> | 
+| <p>Failure</p> | <p>Будет возвращено значение NULL. Если был предоставлен ранее выделенный блок памяти, этот блок останется выделенным.</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

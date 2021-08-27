@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 874151e1ff8c9feca375df3eb441665863d1070d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 86b6bd35b14ee2a342dee27615c1ff21d9274a5f3020c4f804df5065f430813f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077444"
 ---
 # <a name="rename-method-of-the-win32_directory-class"></a>Переименование метода \_ класса каталога Win32
 
@@ -100,7 +100,7 @@ uint32 Rename(
 **12**
 </dt> <dd>
 
-Платформа не является Windows.
+Платформа не Windows.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ uint32 Rename(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы переименовать папку, сначала выполните привязку к рассматриваемой папке, а затем вызовите метод Rename. В качестве единственного параметра для метода передайте новое имя папки в качестве полного пути. Например, если папка в \\ \\ резервной копии журналов c: Scripts \\ переименована c: \\ Scripts \\ Archive, необходимо передать в c: \\ Scripts \\ Archive в качестве полного имени папки. Передача только имени папки-Archive-приводит к ошибке недопустимого пути.
 
@@ -178,7 +178,7 @@ Next
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -192,7 +192,7 @@ Next
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

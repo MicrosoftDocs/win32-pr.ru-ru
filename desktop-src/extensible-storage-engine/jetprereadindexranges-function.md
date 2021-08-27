@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7cfdd8d25f7008f5fa854cbee32b54fa01942ce2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ff2d9e7c538e8aa8cc862fe9a72c0308e497fd4
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986667"
 ---
 # <a name="jetprereadindexranges-function"></a>Функция Жетпререадиндексранжес
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 Функция **жетпререадиндексранжес** считывает индексы для повышения производительности.
 
-Функция **жетпререадиндексранжес** была введена в операционной системе Windows 8.
+функция **жетпререадиндексранжес** была введена в операционной системе Windows 8.
 
 ``` c++
 JET_ERR JetPrereadIndexRanges(
@@ -82,60 +82,25 @@ JET_ERR JetPrereadIndexRanges(
 
 Группа битов, указывающая ноль или более значений направления, перечисленных в следующей таблице.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Вперед</p></td>
-<td><p>Чтение вперед.</p></td>
-</tr>
-<tr class="even">
-<td><p>Назад</p></td>
-<td><p>Прочтите обратно.</p></td>
-</tr>
-<tr class="odd">
-<td><p>фирстпажеонли</p></td>
-<td><p>Предварительное чтение только первой страницы любого столбца Long.</p></td>
-</tr>
-<tr class="even">
-<td><p>нормализедкэй</p></td>
-<td><p>Нормализованное значение ключа или закладки вместо значения столбца.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>Вперед</p> | <p>Чтение вперед.</p> | 
+| <p>Назад</p> | <p>Прочтите обратно.</p> | 
+| <p>фирстпажеонли</p> | <p>Предварительное чтение только первой страницы любого столбца Long.</p> | 
+| <p>нормализедкэй</p> | <p>Нормализованное значение ключа или закладки вместо значения столбца.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [Расширенные ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о служба хранилища возможных ошибках ESE см. в разделе [ошибки расширяемых](./extensible-storage-engine-errors.md) подсистемы служба хранилища и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -144,34 +109,15 @@ JET_ERR JetPrereadIndexRanges(
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2012.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>Требуется Windows 8.</p> | 
+| <p><strong>Server</strong></p> | <p>Требуется Windows Server 2012.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также раздел

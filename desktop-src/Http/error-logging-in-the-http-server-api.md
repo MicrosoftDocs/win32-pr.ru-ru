@@ -6,12 +6,12 @@ keywords:
 - API сервера HTTP, ведение журнала ошибок
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d988d87a65c914625623c3f55d33a7f8cc9a4f94
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9c92c071929b61020b456d8ecabc81ebc0f05503c2f385b235afc323cf8dea33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105681390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130684"
 ---
 # <a name="error-logging-in-the-http-server-api"></a>Ведение журнала ошибок в API-интерфейсе HTTP-сервера
 
@@ -23,9 +23,9 @@ ms.locfileid: "105681390"
 -   [Формат файла журнала](format-of-the-http-server-api-error-logs.md) API сервера HTTP создает файлы журналов, которые соответствуют соглашениям о файле журнала консорциум W3C (W3C) и могут быть проанализированы с помощью стандартных средств. Однако, в отличие от файлов журнала W3C, файлы журнала API HTTP-сервера не содержат имен столбцов.
 -   [Типы регистрируемых ошибок](types-of-errors-logged-by-the-http-server-api.md) API сервера HTTP регистрирует различные распространенные ошибки.
 
- 
+ 
 
- 
+ 
 
 
 

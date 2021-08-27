@@ -4,12 +4,12 @@ ms.assetid: bd72effe-898f-40a6-973c-a26e7fe2478f
 title: Навигация по иерархии коллекции COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06fc4cde6c56bc08b0326e892409067759e91be6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aef6f23cd9f584b6cbe496fe7122abfa9978cd25cb28d81a5c89782b718138be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070454"
 ---
 # <a name="navigating-the-com-collection-hierarchy"></a>Навигация по иерархии коллекции COM+
 
@@ -26,7 +26,7 @@ ms.locfileid: "105673124"
 3.  Получите и заполните коллекцию [**компонентов**](components.md) для конкретного приложения COM+.
 4.  Перечислите содержимое коллекции [**Components**](components.md) , пока не будет получен элемент, соответствующий нужному компоненту.
 
-В следующем примере Microsoft Visual Basic показано, как выполнить описанные выше действия.
+в следующем примере Microsoft Visual Basic показано, как выполнить описанные выше действия.
 
 
 ```VB
@@ -71,7 +71,7 @@ Next
 
 В некоторых случаях может потребоваться использовать метод ярлыка во второй раз после пути через иерархию коллекции. Этот метод можно использовать только после кэширования всех промежуточных значений ключей. Дополнительные сведения см. в разделе [**икомадминкаталог:: жетколлектионбикуери**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollectionbyquery).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

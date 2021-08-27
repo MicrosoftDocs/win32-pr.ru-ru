@@ -5,19 +5,19 @@ ms.tgt_platform: multiple
 title: Использование инструментария WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31878b41de0f44a70c31c2134f0a611a9309a321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82d1556d321441c7e6a3191bf95e85db356e7ba9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104156818"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475320"
 ---
 # <a name="using-wmi"></a>Использование инструментария WMI
 
 Инструментарий WMI можно использовать из клиентских приложений и скриптов. Она предоставляет инфраструктуру, которая упрощает обнаружение и выполнение задач управления. Кроме того, можно добавить в набор возможных задач управления, создав собственные поставщики WMI.
 
 > [!Note]  
-> Версия инструментария WMI следующего поколения для написания приложений и скриптов доступна через инфраструктуру управления Windows (MI). Дополнительные сведения см. в разделе [поставщики и Клиенты MI](/previous-versions/windows/desktop/wmi_v2/mi-providers-and-clients-node-page).
+> версия инструментария WMI следующего поколения для написания приложений и скриптов доступна через инфраструктуру управления Windows (MI). Дополнительные сведения см. в разделе [поставщики и Клиенты MI](/previous-versions/windows/desktop/wmi_v2/mi-providers-and-clients-node-page).
 
  
 
@@ -39,48 +39,16 @@ ms.locfileid: "104156818"
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Язык приложения</th>
-    <th>Раздел</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Сценарии, написанные на размещении сценариев Microsoft ActiveX, включая Visual Basic Scripting Edition (VBScript) и Perl<br/></td>
-    <td><a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br/> Начните с <a href="creating-a-wmi-script.md">создания сценария WMI</a>.<br/> Примеры кода сценариев см. в разделе <a href="wmi-tasks-for-scripts-and-applications.md">задачи WMI для сценариев и приложений</a> и репозиторий сценариев TechNet <a href="https://www.microsoft.com/technet/scriptcenter">скриптцентер</a> .<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Windows PowerShell<br/></td>
-    <td><a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">начало работы с помощью Windows PowerShell</a><br/> Командлеты WMI PowerShell, такие как <a href="/previous-versions//dd315295(v=technet.10)">Get-WmiObject</a>.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Visual Basic приложения<br/></td>
-    <td><a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br/></td>
-    </tr>
-    <tr class="even">
-    <td>ASP<br/></td>
-    <td><a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br/> Начните с <a href="creating-active-server-pages-for-wmi.md">создания страниц Active Server для WMI</a>.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>приложения C++<br/></td>
-    <td><a href="com-api-for-wmi.md">COM API для WMI</a>.<br/> Начните с <a href="creating-a-wmi-application-using-c-.md">создания приложения WMI с помощью c++</a> и <a href="wmi-c---application-examples.md">примеров приложения WMI c++</a> (содержит примеры).<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Платформа .NET Framework приложения, написанные на C#, Visual Basic .NET или J #<br/></td>
-    <td>Классы в пространстве имен <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft. Management. Infrastructure</strong></a> .<br/>
-    <blockquote>
-    [!Note]<br />
-    <strong>System. Management</strong> является исходным пространством имен, которое охватывает управляемый код для инструментария WMI. Однако базовая технология <strong>System. Management</strong> обычно выполняется медленнее, чем, и не поддерживает масштабирование, а также <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft. Management. Infrastructure</strong></a>. Поэтому не рекомендуется использовать <strong>System. Management</strong> для новых проектов. (Дополнительные сведения о <strong>System. Management</strong>см. в разделе <a href="/previous-versions/bb404655(v=vs.90)">Общие сведения о WMI .NET</a>.) </blockquote>
-    <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Язык приложения | Раздел | 
+|----------------------|-------|
+| сценарии, написанные на размещении сценариев Microsoft ActiveX, включая Visual Basic scripting Edition (VBScript) и Perl<br /> | <a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br /> Начните с <a href="creating-a-wmi-script.md">создания сценария WMI</a>.<br /> Примеры кода сценариев см. в разделе <a href="wmi-tasks-for-scripts-and-applications.md">задачи WMI для сценариев и приложений</a> и репозиторий сценариев TechNet <a href="https://www.microsoft.com/technet/scriptcenter">скриптцентер</a> .<br /> | 
+| Windows PowerShell<br /> | <a href="/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7">начало работы с Windows PowerShell</a><br /> Командлеты WMI PowerShell, такие как <a href="/previous-versions//dd315295(v=technet.10)">Get-WmiObject</a>.<br /> | 
+| Visual Basic приложения<br /> | <a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br /> | 
+| ASP<br /> | <a href="scripting-api-for-wmi.md">API сценариев для инструментария WMI</a>.<br /> Начните с <a href="creating-active-server-pages-for-wmi.md">создания страниц Active Server для WMI</a>.<br /> | 
+| приложения C++<br /> | <a href="com-api-for-wmi.md">COM API для WMI</a>.<br /> Начните с <a href="creating-a-wmi-application-using-c-.md">создания приложения WMI с помощью c++</a> и <a href="wmi-c---application-examples.md">примеров приложения WMI c++</a> (содержит примеры).<br /> | 
+| платформа .NET Framework приложения, написанные на C#, Visual Basic .net или J #<br /> | Классы в пространстве имен <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft. Management. Infrastructure</strong></a> .<br /><blockquote>    [!Note]<br /><strong>System. Management</strong> является исходным пространством имен, которое охватывает управляемый код для инструментария WMI. Однако базовая технология <strong>System. Management</strong> обычно выполняется медленнее, чем, и не поддерживает масштабирование, а также <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft. Management. Infrastructure</strong></a>. Поэтому не рекомендуется использовать <strong>System. Management</strong> для новых проектов. (Дополнительные сведения о <strong>System. Management</strong>см. в разделе <a href="/previous-versions/bb404655(v=vs.90)">Общие сведения о WMI .NET</a>.)    </blockquote><br /> | 
+
 
     
 
@@ -96,7 +64,7 @@ ms.locfileid: "104156818"
 
     | Язык                                                      | Раздел                                                                                                                                                                                                                                                 |
     |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Сценарии на любом языке, Visual Basic приложениях<br/> | [Настройка уровня безопасности процесса по умолчанию с помощью VBScript](setting-the-default-process-security-level-using-vbscript.md)<br/>                                                                                                                 |
+    | сценарии на любом языке, Visual Basic приложениях<br/> | [Настройка уровня безопасности процесса по умолчанию с помощью VBScript](setting-the-default-process-security-level-using-vbscript.md)<br/>                                                                                                                 |
     | ASP<br/>                                | [Настройка IIS 5 и более поздних версий для сценариев ASP WMI](configuring-iis-5-for-wmi-asp-scripting.md)<br/>                                                                                                                                           |
     | C++<br/>                                                | [Настройка уровня безопасности процесса по умолчанию с помощью C++](setting-the-default-process-security-level-using-c-.md) и [Настройка параметров безопасности для IWbemServices и других прокси-серверов](setting-the-security-on-iwbemservices-and-other-proxies.md)<br/> |
 
@@ -140,13 +108,13 @@ ms.locfileid: "104156818"
 
         При таком подходе создается неуправляемый поставщик COM.
 
-    -   Использование инструментария WMI в платформа .NET Framework для создания управляемого поставщика кода.
+    -   использование инструментария WMI в платформа .NET Framework для создания управляемого поставщика кода.
 
-        При таком подходе создается управляемый поставщик кода. Поставщики управляемого кода могут быть написаны на любом языке платформа .NET Framework, проще писать, чем поставщики COM WMI, и могут получать данные из классов на основе [*CIM*](gloss-c.md)WMI, таких как [Классы Win32](/windows/desktop/CIMWin32Prov/win32-provider). Однако у поставщика платформа .NET Framework WMI есть некоторые ограничения. Дополнительные сведения см. в разделе [Управление приложениями с помощью инструментария WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71)).
+        При таком подходе создается управляемый поставщик кода. поставщики управляемого кода могут быть написаны на любом языке платформа .NET Framework, проще писать, чем поставщики COM wmi, и могут получать данные из классов на основе [*CIM*](gloss-c.md)wmi, таких как [классы Win32](/windows/desktop/CIMWin32Prov/win32-provider). однако у поставщика платформа .NET Framework WMI есть некоторые ограничения. Дополнительные сведения см. в разделе [Управление приложениями с помощью инструментария WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71)).
 
     -   Использовать [классы инфраструктуры поставщика](wmi-c-classes.md) не рекомендуется.
 
-        Платформа поставщика была заменена мастерами WMI ATL, напрямую использовать COM или поставщиками платформа .NET Framework. Создание поставщика COM WMI с классами инфраструктуры поставщика больше не рекомендуется. В следующей таблице перечислены разделы, в которых описывается использование поставщиков COM или платформа .NET Framework.
+        платформа поставщика была заменена мастерами WMI ATL, напрямую использовать COM или поставщиками платформа .NET Framework. Создание поставщика COM WMI с классами инфраструктуры поставщика больше не рекомендуется. в следующей таблице перечислены разделы, в которых описывается использование поставщиков COM или платформа .NET Framework.
 
     
 
@@ -154,7 +122,7 @@ ms.locfileid: "104156818"
     |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
     | Поставщик COM в том же процессе, что и WMI<br/>            | [Предоставление данных инструментарию WMI](providing-data-to-wmi.md)<br/>                                           |
     | Несвязанный поставщик COM<br/>                             | [Включение поставщика в приложение](incorporating-a-provider-in-an-application.md)<br/> |
-    | Поставщик платформа .NET Framework в C# или Visual Basic.NET<br/> | [Управление приложениями с помощью инструментария WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))<br/>            |
+    | поставщик платформа .NET Framework в C# или Visual Basic .net<br/> | [Управление приложениями с помощью инструментария WMI](/previous-versions/dotnet/netframework-1.1/aa720264(v=vs.71))<br/>            |
 
     
 
@@ -169,9 +137,9 @@ ms.locfileid: "104156818"
 | Раздел                                                                                                                                           | Описание                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Задачи WMI для скриптов и приложений](wmi-tasks-for-scripts-and-applications.md)<br/>                                                 | Описывает, как найти правильный класс WMI и процедуры для использования в сценариях и приложениях, выполняющих общие задачи администрирования компьютера и сети, такие как добавление нового подключения к принтеру для удаленного компьютера или поиск всех установленных исправлений на компьютере.<br/>                                                                            |
-| [Создание приложения или скрипта WMI](creating-a-wmi-application-or-script.md)<br/>                                                     | Любой язык сценариев, например VBScript или Perl, работающий с объектами ActiveX, может получать доступ к данным WMI. Приложения могут получать доступ к WMI в C++, используя [API COM для WMI](com-api-for-wmi.md) или в Visual Basic, используя[библиотеку типов](using-the-wmi-scripting-type-library.md) WBEMDISP. tlb и [API скриптов для WMI](scripting-api-for-wmi.md).<br/> |
+| [Создание приложения или скрипта WMI](creating-a-wmi-application-or-script.md)<br/>                                                     | любой язык сценариев, например VBScript или Perl, который работает с ActiveX объектами, может получить доступ к данным WMI. приложения могут получать доступ к WMI в C++, используя [API COM для WMI](com-api-for-wmi.md) или в Visual Basic, используя[библиотеку типов](using-the-wmi-scripting-type-library.md) Wbemdisp. tlb и [API скриптов для WMI](scripting-api-for-wmi.md).<br/> |
 | [Подключение к инструментарию WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md)<br/>                                                 | Описывает, как сценарии, приложения и поставщики могут устанавливать подключения к инструментарию WMI на удаленных компьютерах для получения данных, управления оборудованием и программным обеспечением.<br/>                                                                                                                                                                                                   |
-| [Подключение к инструментарию WMI на удаленном компьютере с помощью Windows PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)<br/> | Описывает использование Windows PowerShell для установки подключений к инструментарию WMI на удаленных компьютерах для получения данных или управления оборудованием и программным обеспечением.<br/>                                                                                                                                                                                                            |
+| [Подключение к инструментарию WMI на удаленном компьютере с помощью Windows PowerShell](connecting-to-wmi-on-a-remote-computer-by-using-powershell.md)<br/> | описывает использование Windows PowerShell для установки подключений к инструментарию WMI на удаленных компьютерах для получения данных или управления оборудованием и программным обеспечением.<br/>                                                                                                                                                                                                            |
 | [Мониторинг событий](monitoring-events.md)<br/>                                                                                           | Описывает получение уведомлений о событиях путем создания временных или постоянных потребителей событий WMI.<br/>                                                                                                                                                                                                                                                           |
 | [Предоставление данных инструментарию WMI](providing-data-to-wmi.md)<br/>                                                                                   | Инструментарий WMI предоставляет клиентским скриптам и приложениям динамические данные управления, получая их от поставщиков.<br/>                                                                                                                                                                                                                                                    |
 | [Получение и предоставление данных на 64-разрядном компьютере](getting-and-providing-data-on-a-64-bit-computer.md)<br/>                               | Описывает, как получить доступ к поставщикам, не используемым по умолчанию, и рекомендации для модулей записи поставщика в 64-разрядных системах<br/>                                                                                                                                                                                                                                                    |

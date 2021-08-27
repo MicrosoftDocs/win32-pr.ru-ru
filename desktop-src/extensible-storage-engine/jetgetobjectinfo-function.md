@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf4c3c9806d4dcf898d6daeb903eb6fc4322fee7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e6317280c5e794e9809c15f47f01d55ffd48eeb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982427"
 ---
 # <a name="jetgetobjectinfo-function"></a>Функция JetGetObjectInfo
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgetobjectinfo-function"></a>Функция JetGetObjectInfo
 
@@ -91,96 +91,33 @@ _**Применимо к:** Windows | Windows Server_
 
 Для этого параметра можно задать следующие параметры.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ObjInfo</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> .</p>
-<p>Структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> заполняется сведениями, относящимися к объекту с именем в <em>сзобжектнаме</em>.</p>
-<p>Если вызывающему объекту не требуется знание количества записей и страниц для объекта, рекомендуется использовать JET_ObjInfoNoStats уровень информации, который может быть быстрее, так как статистика не включена.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoList</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Извлекаются сведения обо всех объектах. Будет создана временная таблица, а сведения, необходимые для обхода временной таблицы, описаны в структуре <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Дополнительные сведения см. в разделе <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. Если вызывающему объекту не требуется знание количества записей и страниц для объекта, рассмотрите возможность использования JET_ObjInfoListNoStats, что может быть быстрее.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoListACM</p></td>
-<td><p>Не рекомендуется и не поддерживается в настоящее время.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoListNoStats</p></td>
-<td><p><em>пвресулт</em> интерпретируется как структура <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Извлекаются сведения обо всех объектах. Будет создана временная таблица, а сведения, необходимые для обхода временной таблицы, описаны в структуре <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Дополнительные сведения см. в разделе <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats идентично JET_ObjInfoList, за исключением того, что столбцы, сообщающие о количестве записей (<em>колумнидкрекорд</em>) и страницах (<em>колумнидкпаже</em>), не обновляются.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoMax</p></td>
-<td><p><em>пвресулт</em> интерпретируется как <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Максимальный размер объекта находится на страницах. В настоящее время возвращаются только таблицы.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoNoStats</p></td>
-<td><p><em>пвресулт</em> интерпретируется как <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Будут получены сведения только о объекте, указанном в <em>сзобжектнаме</em> .</p>
-<p>Структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> будет заполнена сведениями, относящимися к объекту с именем в <em>сзобжектнаме</em>.</p>
-<p>JET_ObjInfoNoStats идентично JET_ObjInfo, за исключением того, что поля, сообщающие число записей и страниц, имеют нулевое значение.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoRulesLoaded</p></td>
-<td><p>Не рекомендуется и не поддерживается в настоящее время.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoSysTabCursor</p></td>
-<td><p>Не рекомендуется и не поддерживается в настоящее время.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoSysTabReadOnly</p></td>
-<td><p>Не рекомендуется и не поддерживается в настоящее время.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_ObjInfo</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> .</p><p>Структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> заполняется сведениями, относящимися к объекту с именем в <em>сзобжектнаме</em>.</p><p>Если вызывающему объекту не требуется знание количества записей и страниц для объекта, рекомендуется использовать JET_ObjInfoNoStats уровень информации, который может быть быстрее, так как статистика не включена.</p> | 
+| <p>JET_ObjInfoList</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Извлекаются сведения обо всех объектах. Будет создана временная таблица, а сведения, необходимые для обхода временной таблицы, описаны в структуре <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Дополнительные сведения см. в разделе <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. Если вызывающему объекту не требуется знание количества записей и страниц для объекта, рассмотрите возможность использования JET_ObjInfoListNoStats, что может быть быстрее.</p> | 
+| <p>JET_ObjInfoListACM</p> | <p>Не рекомендуется и не поддерживается в настоящее время.</p> | 
+| <p>JET_ObjInfoListNoStats</p> | <p><em>пвресулт</em> интерпретируется как структура <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Извлекаются сведения обо всех объектах. Будет создана временная таблица, а сведения, необходимые для обхода временной таблицы, описаны в структуре <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Дополнительные сведения см. в разделе <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats идентично JET_ObjInfoList, за исключением того, что столбцы, сообщающие о количестве записей (<em>колумнидкрекорд</em>) и страницах (<em>колумнидкпаже</em>), не обновляются.</p> | 
+| <p>JET_ObjInfoMax</p> | <p><em>пвресулт</em> интерпретируется как <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Максимальный размер объекта находится на страницах. В настоящее время возвращаются только таблицы.</p> | 
+| <p>JET_ObjInfoNoStats</p> | <p><em>пвресулт</em> интерпретируется как <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Будут получены сведения только о объекте, указанном в <em>сзобжектнаме</em> .</p><p>Структура <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> будет заполнена сведениями, относящимися к объекту с именем в <em>сзобжектнаме</em>.</p><p>JET_ObjInfoNoStats идентично JET_ObjInfo, за исключением того, что поля, сообщающие число записей и страниц, имеют нулевое значение.</p> | 
+| <p>JET_ObjInfoRulesLoaded</p> | <p>Не рекомендуется и не поддерживается в настоящее время.</p> | 
+| <p>JET_ObjInfoSysTabCursor</p> | <p>Не рекомендуется и не поддерживается в настоящее время.</p> | 
+| <p>JET_ObjInfoSysTabReadOnly</p> | <p>Не рекомендуется и не поддерживается в настоящее время.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>Размер буфера, заданного в <em>кбмакс</em> , слишком мал для хранения требуемой информации.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p>В <em>сзобжектнаме</em> или <em>сзконтаинернаме</em>было указано недопустимое имя.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Передан неверный параметр. Возможно, в <em>инфолевел</em>был передан недопустимый уровень.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>Размер буфера, заданного в <em>кбмакс</em> , слишком мал для хранения требуемой информации.</p> | 
+| <p>JET_errInvalidName</p> | <p>В <em>сзобжектнаме</em> или <em>сзконтаинернаме</em>было указано недопустимое имя.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Передан неверный параметр. Возможно, в <em>инфолевел</em>был передан недопустимый уровень.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -191,38 +128,16 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетжетобжектинфов</strong> (Юникод) и <strong>жетжетобжектинфоа</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетжетобжектинфов</strong> (Юникод) и <strong>жетжетобжектинфоа</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

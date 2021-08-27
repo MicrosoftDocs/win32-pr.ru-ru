@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7a3ffe9490b75606910c5867d3e8b59d9a8c520d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a288e3e1a625106c72f57125eea8a4219555f86
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988487"
 ---
 # <a name="jetopentable-function"></a>Функция JetOpenTable
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetopentable-function"></a>Функция JetOpenTable
 
@@ -74,52 +74,18 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableDenyRead</p></td>
-<td><p>Невозможно открыть таблицу для доступа на чтение в другом сеансе базы данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableDenyWrite</p></td>
-<td><p>Невозможно открыть таблицу для доступа на запись в другом сеансе базы данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableNoCache</p></td>
-<td><p>Не кэшировать страницы для этой таблицы.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTablePermitDDL</p></td>
-<td><p>Разрешает изменение DDL для таблиц, помеченных как Фикседддл. Этот параметр следует использовать с параметром JET_bitTableDenyRead.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTablePreread</p></td>
-<td><p>Предоставляет указание о том, что таблица, вероятно, не находится в буферном кэше, и что предварительное чтение может быть полезно для повышения производительности.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableReadOnly</p></td>
-<td><p>Запрашивает доступ только для чтения к таблице.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableSequential</p></td>
-<td><p>Таблица должна быть очень агрессивно выбиралась с диска, так как приложение будет сканировать его последовательно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableUpdatable</p></td>
-<td><p>Запрашивает доступ на запись к таблице.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitTableDenyRead</p> | <p>Невозможно открыть таблицу для доступа на чтение в другом сеансе базы данных.</p> | 
+| <p>JET_bitTableDenyWrite</p> | <p>Невозможно открыть таблицу для доступа на запись в другом сеансе базы данных.</p> | 
+| <p>JET_bitTableNoCache</p> | <p>Не кэшировать страницы для этой таблицы.</p> | 
+| <p>JET_bitTablePermitDDL</p> | <p>Разрешает изменение DDL для таблиц, помеченных как Фикседддл. Этот параметр следует использовать с параметром JET_bitTableDenyRead.</p> | 
+| <p>JET_bitTablePreread</p> | <p>Предоставляет указание о том, что таблица, вероятно, не находится в буферном кэше, и что предварительное чтение может быть полезно для повышения производительности.</p> | 
+| <p>JET_bitTableReadOnly</p> | <p>Запрашивает доступ только для чтения к таблице.</p> | 
+| <p>JET_bitTableSequential</p> | <p>Таблица должна быть очень агрессивно выбиралась с диска, так как приложение будет сканировать его последовательно.</p> | 
+| <p>JET_bitTableUpdatable</p> | <p>Запрашивает доступ на запись к таблице.</p> | 
+
 
 
 *pTableID*
@@ -128,63 +94,22 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabaseId</p></td>
-<td><p><em>DBID</em> не является допустимым идентификатором базы данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>Передано неправильное сочетание <em>грбит</em> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidName</p></td>
-<td><p>Имя, указанное в <em>сзтабленаме</em> , является недопустимым.</p>
-<p>Дополнительные сведения о допустимых именах таблиц см. в описании параметра <em>сзтабленаме</em> в <a href="gg269210(v=exchg.10).md">жеткреатетабле</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errObjectNotFound</p></td>
-<td><p>Была предпринята попытка открыть таблицу, которая не существует в базе данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>Не удалось выполнить операцию, так как подсистема не может выделить ресурсы, необходимые для открытия нового курсора. См. раздел «Примечания».</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTableInUse</p></td>
-<td><p>Таблица используется другой операцией базы данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnTableInUseBySystem</p></td>
-<td><p>Некритическое предупреждение, указывающее, что таблица используется системой.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTableLocked</p></td>
-<td><p>Таблица заблокирована другой операцией базы данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>Была предпринята попытка открыть слишком много уникальных таблиц одновременно. См. раздел «Примечания».</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errInvalidDatabaseId</p> | <p><em>DBID</em> не является допустимым идентификатором базы данных.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>Передано неправильное сочетание <em>грбит</em> .</p> | 
+| <p>JET_errInvalidName</p> | <p>Имя, указанное в <em>сзтабленаме</em> , является недопустимым.</p><p>Дополнительные сведения о допустимых именах таблиц см. в описании параметра <em>сзтабленаме</em> в <a href="gg269210(v=exchg.10).md">жеткреатетабле</a>.</p> | 
+| <p>JET_errObjectNotFound</p> | <p>Была предпринята попытка открыть таблицу, которая не существует в базе данных.</p> | 
+| <p>JET_errOutOfCursors</p> | <p>Не удалось выполнить операцию, так как подсистема не может выделить ресурсы, необходимые для открытия нового курсора. См. раздел «Примечания».</p> | 
+| <p>JET_errTableInUse</p> | <p>Таблица используется другой операцией базы данных.</p> | 
+| <p>JET_wrnTableInUseBySystem</p> | <p>Некритическое предупреждение, указывающее, что таблица используется системой.</p> | 
+| <p>JET_errTableLocked</p> | <p>Таблица заблокирована другой операцией базы данных.</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>Была предпринята попытка открыть слишком много уникальных таблиц одновременно. См. раздел «Примечания».</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -195,38 +120,16 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>жетопентаблев</strong> (Юникод) и <strong>жетопентаблеа</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетопентаблев</strong> (Юникод) и <strong>жетопентаблеа</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

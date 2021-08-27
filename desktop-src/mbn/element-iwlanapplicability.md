@@ -7,12 +7,12 @@ MSHAttr:
 title: ивланаппликабилити
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6b8b0376f2ee882a57e4c71e392fb7b02f6eeb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86419075e3ad39411efc5534a9dfb5b016a88317
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982767"
 ---
 # <a name="span-idwwan_profile_v4element_iwlanapplicabilityspaniwlanapplicability"></a><span id="WWAN_profile_v4.element_IwlanApplicability"></span>ивланаппликабилити
 
@@ -20,9 +20,9 @@ ms.locfileid: "105701479"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<ProfileConditionedOn>](element-profileconditionedon.md)  
-**<IwlanApplicability>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;профилекондитионедон&gt;](element-profileconditionedon.md)  
+**&lt;ивланаппликабилити&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -38,50 +38,29 @@ ms.locfileid: "105701479"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-profileconditionedon.md">профилекондитионедон</a></td>
-<td><p>Указывает условия, которые должны быть удовлетворены для применения профиля.</p>
-<p>Этот элемент является новым для v4. Он позволяет указать несколько профилей, которые применяются в различных условиях, а также для автоматического использования соответствующего профиля. Этот элемент является необязательным. Если его не указать, профиль всегда будет применяться в соответствии с указанными условиями.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-profileconditionedon.md">профилекондитионедон</a> | <p>Указывает условия, которые должны быть удовлетворены для применения профиля.</p><p>Этот элемент является новым для v4. Он позволяет указать несколько профилей, которые применяются в различных условиях, а также для автоматического использования соответствующего профиля. Этот элемент является необязательным. Если его не указать, профиль всегда будет применяться в соответствии с указанными условиями.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475861(v=EXCHG.10)
 ms:contentKeyID: 37033567
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 99be77326fe9e037430203bf9744e550e8495fe1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: c02d9f8081040293bd154137163e13cc9d313a32
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104000542"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984037"
 ---
 # <a name="jet_errinfobasic_w-structure"></a>Структура JET_ERRINFOBASIC_W
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_errinfobasic_w-structure"></a>Структура JET_ERRINFOBASIC_W
 
 Структура **JET_ERRINFOBASIC_W** определяет данные, возвращаемые методом [жетжетерроринфо ()](./jetgeterrorinfow-function.md) при передаче JET_ErrorInfoSpecificErr инфолевел.
 
-Примечание. Эта документация основана на предварительном выпуске расширяемой подсистемы хранилища. Эта информация может быть изменена.
+примечание. эта документация основана на предварительном выпуске расширяемого механизма служба хранилища. Эта информация может быть изменена.
 
 ```cpp
 typedef struct { 
@@ -64,23 +64,10 @@ typedef struct {
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows 8 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>Требуется Windows 8.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows 8 Server.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+

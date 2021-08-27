@@ -3,7 +3,7 @@ title: Сообщение LVM_SETEXTENDEDLISTVIEWSTYLE (Коммктрл. h)
 description: Задает расширенные стили в элементах управления "представление списка". Это сообщение можно отправить явным образом или воспользоваться \_ макросом ListView сетекстендедлиствиевстиле или ListView \_ сетекстендедлиствиевстиликс.
 ms.assetid: eb3f47ed-484a-49a8-94b0-e50ee081bd69
 keywords:
-- Элементы управления Windows для LVM_SETEXTENDEDLISTVIEWSTYLE сообщений
+- элементы управления Windows сообщений LVM_SETEXTENDEDLISTVIEWSTYLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d36869283d863bef7b31187a002125c9cd79bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 336732b927c7ee6170e777f2f7c1cd57eac6baa2c7706870e681f602e2309c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077284"
 ---
 # <a name="lvm_setextendedlistviewstyle-message"></a>\_Сообщение LVM сетекстендедлиствиевстиле
 
@@ -47,7 +47,7 @@ ms.locfileid: "103988200"
 
 Возвращает значение **типа DWORD** , содержащее предыдущие стили элемента управления "список" расширенного представления списка.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр *wParam* позволяет изменять один или несколько расширенных стилей без предварительного получения существующих стилей. Например, если передать [**LVS \_ ex \_ фуллровселект**](extended-list-view-styles.md) для *wParam* и 0 для *lParam*, то стиль **LVS \_ ex \_ фуллровселект** будет сброшен, но все остальные стили останутся прежними.
 
@@ -55,15 +55,15 @@ ms.locfileid: "103988200"
 
 Если это сообщение используется для установки [**\_ \_ флажка LVS ex**](extended-list-view-styles.md) , все ранее установленные индексы изображений состояния будут удалены. Все флажки будут инициализированы с непроверенным состоянием. Индекс изображения состояния содержится в битах 12 – 15 элемента **State** структуры [**лвитем**](/windows/win32/api/commctrl/ns-commctrl-lvitema) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

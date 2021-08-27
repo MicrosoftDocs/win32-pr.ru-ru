@@ -4,12 +4,12 @@ ms.assetid: 264cc7c3-987c-4832-85a2-087278a4d024
 title: Фильтр модуля подготовки отчетов для команды внутреннего скрипта
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ed1afa417b542b0eabbb7c01b8b8d477b8145809da3339e6b6c80d471a71cd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b70fbcd7dc6347ec93a19558ef2306dffd5fb64
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117818691"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982217"
 ---
 # <a name="internal-script-command-renderer-filter"></a>Фильтр модуля подготовки отчетов для команды внутреннего скрипта
 
@@ -26,57 +26,20 @@ ms.locfileid: "117818691"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Интерфейсы фильтра</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>имедиапоситион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей входных закрепления</td>
-<td><ul>
-<li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li>
-<li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы входных закрепления</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей для выходного ПИН-кода</td>
-<td>Неприменимо</td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы выходного ПИН-кода</td>
-<td>Неприменимо</td>
-</tr>
-<tr class="even">
-<td>Фильтровать CLSID</td>
-<td>{48025243-2D39-11CE-875D-00608CB78066}</td>
-</tr>
-<tr class="odd">
-<td>CLSID страницы свойств</td>
-<td>Нет страницы свойств</td>
-</tr>
-<tr class="even">
-<td>Исполняемый объект</td>
-<td>Quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Заслуживают</a></td>
-<td>MERIT_PREFERRED + 1</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Категория фильтра</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Метка | Применение |
+|--------|-------|
+| Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>имедиапоситион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a> | 
+| Типы носителей входных закрепления | <ul><li>MEDIATYPE_ScriptCommand, MEDIASUBTYPE_NULL</li><li>MEDIATYPE_Text, MEDIASUBTYPE_NULL</li></ul> | 
+| Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | 
+| Типы носителей для выходного ПИН-кода | Не применяются | 
+| Интерфейсы выходного ПИН-кода | Не применяются | 
+| Фильтровать CLSID | {48025243-2D39-11CE-875D-00608CB78066} | 
+| CLSID страницы свойств | Нет страницы свойств | 
+| Исполняемый объект | Quartz.dll | 
+| <a href="merit.md">Заслуживают</a> | MERIT_PREFERRED + 1 | 
+| <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

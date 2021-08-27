@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8b693f96d80352c758a1700bd2af4e435a948beeb73a268c08e997ef3e3b1d3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ed374030bd3ab577b209d326d21110482c9cf37a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119107493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122989117"
 ---
 # <a name="jet_recpos-structure"></a>Структура JET_RECPOS
 
@@ -60,29 +60,16 @@ _**Применимо к:** Windows | Windows Сервером_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [JET_RETINFO](./jet-retinfo-structure.md)  
 [жетжетрекордпоситион](./jetgetrecordposition-function.md)

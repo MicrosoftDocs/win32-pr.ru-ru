@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: dec0b54f4e6539fb12ab2f2150f13a8c2046f58a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8066b722bb45e7296e48e65bb9bfd129ec9c7d4d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144824"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469401"
 ---
 # <a name="span-idwwan_profile_v4element_accessstringspanmbnprofileextaccessstring-v4"></a><span id="WWAN_profile_v4.element_AccessString"></span>Мбнпрофиликст \/ ... \/ Акцессстринг (v4)
 
@@ -61,41 +61,19 @@ ms.locfileid: "104144824"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-context.md">Контекст</a></td>
-<td><p>Задает параметры, необходимые для установления подключения к данным.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-context.md">Контекст</a> | <p>Задает параметры, необходимые для установления подключения к данным.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

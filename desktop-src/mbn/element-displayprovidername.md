@@ -7,20 +7,20 @@ MSHAttr:
 title: дисплайпровидернаме
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 906f844d483789decb88a9d97fca083ef10f5550
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa88313744962d18c72ea206d87f0cac8fa0d3c6
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104072725"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988047"
 ---
 # <a name="span-idwwan_profile_v2element_displayprovidernamespandisplayprovidername"></a><span id="WWAN_profile_v2.element_DisplayProviderName"></span>дисплайпровидернаме
 
-Элемент [**дисплайпровидернаме**](element-displayprovidername.md) является необязательным [**провидернаметипе**](./schema-providernametype-simpletype.md) , который содержит имя сетевого подключения, отображаемое в диспетчере подключений Windows. Это имя будет отображаться только в том случае, если подписчик находится в домашней сети, а не в роуминге. Имя сети роуминга отображается на основе информации с устройства мобильной широкополосной связи.
+элемент [**дисплайпровидернаме**](element-displayprovidername.md) является необязательным [**провидернаметипе**](./schema-providernametype-simpletype.md) , который содержит имя сетевого подключения, отображаемое в диспетчере соединений Windows. Это имя будет отображаться только в том случае, если подписчик находится в домашней сети, а не в роуминге. Имя сети роуминга отображается на основе информации с устройства мобильной широкополосной связи.
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-**<DisplayProviderName>**
+**&lt;дисплайпровидернаме&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -36,11 +36,11 @@ ms.locfileid: "104072725"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -48,18 +48,11 @@ ms.locfileid: "104072725"
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v2</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v2</p> | 
+
 
  
 

@@ -7,12 +7,12 @@ MSHAttr:
 title: IPType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 918355cdfc90863539da5f29aff542654a95f5e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a7823fc62bea228ec2a1f7e50629d74ce29dde3
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542194"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988757"
 ---
 # <a name="span-idwwan_profile_v4element_iptypespanmbnprofileextiptype-v4"></a><span id="WWAN_profile_v4.element_IPType"></span>Мбнпрофиликст \/ ... \/ Иптипе (v4)
 
@@ -22,9 +22,9 @@ ms.locfileid: "104542194"
 
 | Значение   | Значение                                       |
 |---------|-----------------------------------------------|
-| Значение по умолчанию | Тип IP-адреса должен быть выбран более низкими слоями     |
+| По умолчанию | Тип IP-адреса должен быть выбран более низкими слоями     |
 | IPv4    | Использовать IPv4                                      |
-| IPv6;    | использовать IPv6                                      |
+| IPv6    | использовать IPv6                                      |
 | IPv4v6  | Используйте IPv4 и (или) IPv6, как доступно.           |
 | кслат    | Использование 464XLAT для туннелирования IPv4 через IPv6-сети |
 
@@ -54,49 +54,29 @@ ms.locfileid: "104542194"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-context.md">Контекст</a></td>
-<td><p>Задает параметры, необходимые для установления подключения к данным.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-context.md">Контекст</a> | <p>Задает параметры, необходимые для установления подключения к данным.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

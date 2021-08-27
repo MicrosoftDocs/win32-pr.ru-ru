@@ -1,9 +1,9 @@
 ---
 title: СТАРТМАРКЕР, элемент
-description: Элемент СТАРТМАРКЕР указывает маркер, с помощью которого проигрыватель Windows Media начнет отрисовку потока.
+description: элемент стартмаркер указывает маркер, по которому проигрыватель Windows Media начнет отрисовку потока.
 ms.assetid: b5c2422b-a59c-43f7-bac3-5722418192dc
 keywords:
-- Проигрыватель Windows Media, элемент СТАРТМАРКЕР
+- проигрыватель Windows Media элемента стартмаркер
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c3b3afbc3ab4a922d17f6a0269ed89c22f4dfeb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fa80da249edc4b9e3ab7d8796bc6ff135cb7cfb2b19a1cb11216ebe4a9c122c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123044"
 ---
 # <a name="startmarker-element"></a>СТАРТМАРКЕР, элемент
 
-Элемент **стартмаркер** указывает маркер, с помощью которого проигрыватель Windows Media начнет отрисовку потока.
+элемент **стартмаркер** указывает маркер, по которому проигрыватель Windows Media начнет отрисовку потока.
 
 ``` syntax
 <STARTMARKER
@@ -56,7 +56,7 @@ ms.locfileid: "105698978"
 
 ## <a name="remarks"></a>Remarks
 
-Этот элемент задает маркер, с помощью которого проигрыватель Windows Media начинает отрисовку потока, определенного в родительской **записи** или элементе **ref** .
+этот элемент задает маркер, с которого проигрыватель Windows Media начинается отрисовку потока, определенного в родительской **записи** или элементе **REF** .
 
 **Примечание**
 
@@ -82,18 +82,18 @@ ms.locfileid: "105698978"
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 70 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 70 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Справочник по элементам метафайлов Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Справочник по элементам метафайлов мультимедиа**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Справочник по метафайлу Windows Media**](windows-media-metafile-reference.md)
+[**Windows Ссылка на метафайл мультимедиа**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

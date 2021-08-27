@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6300543bbf589c704da6d941bd743f693e0ed5fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e4b079d0eb83f401eb7e906cb399fab18e5b2fd22f06299fcc62b1e6b4a02e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082134"
 ---
 # <a name="glblendfunc-function"></a>Функция Глблендфунк
 
@@ -72,7 +72,7 @@ void WINAPI glBlendFunc(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В режиме RGB пикселы можно рисовать с помощью функции, которая смешивает входящие (исходные) значения RGBA с значениями RGBA, которые уже находятся в буфера кадров (значения назначения). По умолчанию смешивание отключено. Используйте [**гленабле**](glenable.md) и [**глдисабле**](gldisable.md) с \_ аргументом GL Blend для включения и отключения смешения.
 
@@ -158,7 +158,7 @@ B <sub>d</sub>  =  *б*?
 
 [**глисенаблед**](glisenabled.md) с аргументом GL \_ Blend
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -172,7 +172,7 @@ B <sub>d</sub>  =  *б*?
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,16 +4,16 @@ ms.assetid: 6aee18b8-79b1-47fb-816f-d1c2c77b3a03
 title: Преобразования типов мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee3a72e74439251f9661e0ff27166c504e47c238
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3e5d91844a062d5d4a1aa98af1a2e77c9cabfadb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103820309"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474350"
 ---
 # <a name="media-type-conversions"></a>Преобразования типов мультимедиа
 
-Иногда требуется выполнить преобразование между Media Foundation типами носителей и более старыми структурами типов мультимедиа из DirectShow или пакета SDK Windows Media Format.
+иногда требуется выполнить преобразование между Media Foundation типами носителей и более старыми структурами типов мультимедиа из DirectShow или пакета SDK Windows Media Format.
 
 ### <a name="from-a-format-structure-to-a-media-foundation-type"></a>Из структуры формата в тип Media Foundation
 
@@ -21,57 +21,18 @@ ms.locfileid: "103820309"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Преобразуемая структура</th>
-<th>Функция</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/strmif/ns-strmif-am_media_type"><strong>AM_MEDIA_TYPE</strong></a> (DirectShow)<br/> <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type"><strong>DMO_MEDIA_TYPE</strong></a> (объекты мультимедиа DirectX) <br/> <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type"><strong>WM_MEDIA_TYPE</strong></a> (пакет SDK для формата Windows Media) <br/>
-<blockquote>
-[!Note]<br />
-Эти структуры эквивалентны.
-</blockquote>
-<br/> <br/></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromammediatype"><strong>мфинитмедиатипефромаммедиатипе</strong></a></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader"><strong>битмапинфохеадер</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex"><strong>мфкреатевидеомедиатипефромбитмапинфохеадерекс</strong></a></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat"><strong>мфвидеоформат</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat"><strong>мфинитмедиатипефроммфвидеоформат</strong></a></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo"><strong>MPEG1VIDEOINFO</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo"><strong>MFInitMediaTypeFromMPEG1VideoInfo</strong></a></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo"><strong>MPEG2VIDEOINFO</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo"><strong>MFInitMediaTypeFromMPEG2VideoInfo</strong></a></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2"><strong>VIDEOINFOHEADER2</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2"><strong>MFInitMediaTypeFromVideoInfoHeader2</strong></a></td>
-</tr>
-<tr class="odd">
-<td><a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader"><strong>видеоинфохеадер</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader"><strong>мфинитмедиатипефромвидеоинфохеадер</strong></a></td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions/dd757713(v=vs.85)"><strong>Вавеформатекс</strong></a> или <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)"> <strong>вавеформатекстенсибле</strong></a></td>
-<td><a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex"><strong>мфинитмедиатипефромвавеформатекс</strong></a></td>
-</tr>
-</tbody>
-</table>
+
+| Преобразуемая структура | Компонент | 
+|----------------------|----------|
+| <a href="/windows/win32/api/strmif/ns-strmif-am_media_type"><strong>AM_MEDIA_TYPE</strong></a> (DirectShow)<br /><a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type"><strong>DMO_MEDIA_TYPE</strong></a> (объекты мультимедиа DirectX) <br /><a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type"><strong>WM_MEDIA_TYPE</strong></a> (пакет SDK для Windows MEDIA Format) <br /><blockquote>[!Note]<br />Эти структуры эквивалентны.</blockquote><br /><br /> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromammediatype"><strong>мфинитмедиатипефромаммедиатипе</strong></a> | 
+| <a href="/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader"><strong>битмапинфохеадер</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatevideomediatypefrombitmapinfoheaderex"><strong>мфкреатевидеомедиатипефромбитмапинфохеадерекс</strong></a> | 
+| <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat"><strong>мфвидеоформат</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommfvideoformat"><strong>мфинитмедиатипефроммфвидеоформат</strong></a> | 
+| <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo"><strong>MPEG1VIDEOINFO</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg1videoinfo"><strong>MFInitMediaTypeFromMPEG1VideoInfo</strong></a> | 
+| <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo"><strong>MPEG2VIDEOINFO</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefrommpeg2videoinfo"><strong>MFInitMediaTypeFromMPEG2VideoInfo</strong></a> | 
+| <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2"><strong>VIDEOINFOHEADER2</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader2"><strong>MFInitMediaTypeFromVideoInfoHeader2</strong></a> | 
+| <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader"><strong>видеоинфохеадер</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromvideoinfoheader"><strong>мфинитмедиатипефромвидеоинфохеадер</strong></a> | 
+| <a href="/previous-versions/dd757713(v=vs.85)"><strong>Вавеформатекс</strong></a> или <a href="/previous-versions/windows/desktop/legacy/dd390971(v=vs.85)"> <strong>вавеформатекстенсибле</strong></a> | <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinitmediatypefromwaveformatex"><strong>мфинитмедиатипефромвавеформатекс</strong></a> | 
+
 
 
 
@@ -83,7 +44,7 @@ ms.locfileid: "103820309"
 
 
 
-| Функция                                                                             | Целевая структура                                                                                                                                                                    |
+| Компонент                                                                             | Целевая структура                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Имфмедиатипе::, представляющее**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediatype-getrepresentation)            | [**AM \_ \_Тип носителя**](/windows/win32/api/strmif/ns-strmif-am_media_type), [**мфвидеоформат**](/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat), [**видеоинфохеадер**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader)или [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) |
 | [**мфкреатеаммедиатипефроммфмедиатипе**](/windows/desktop/api/mfapi/nf-mfapi-mfcreateammediatypefrommfmediatype)     | [**\_тип носителя \_ AM**](/windows/win32/api/strmif/ns-strmif-am_media_type)                                                                                                                                          |
@@ -287,7 +248,7 @@ done:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

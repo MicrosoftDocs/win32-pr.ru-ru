@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 56e94339a49cc80e8b7b416e89efc5c85079981e0430f325e29f1dd711eef63a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 54a6370badcdd83e1beed4cc50f42a52eab797ba
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979003"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984647"
 ---
 # <a name="jetgotobookmark-function"></a>Функция Жетготобукмарк
 
@@ -65,69 +65,27 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Операция не может быть завершена, поскольку в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBookmark</p></td>
-<td><p>Указана недопустимая закладка. Это могло произойти из-за того, что размер закладки равен нулю или указатель буфера закладки имеет <strong>значение NULL</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Курсор находится на вторичном индексе, и не удалось найти запись индекса для записи, связанной с закладкой.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRecordDeleted</p></td>
-<td><p>Не удалось найти запись, связанную с закладкой.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p>
-<p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, завершает работу.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Операция не может быть завершена, поскольку в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p><p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p> | 
+| <p>JET_errInvalidBookmark</p> | <p>Указана недопустимая закладка. Это могло произойти из-за того, что размер закладки равен нулю или указатель буфера закладки имеет <strong>значение NULL</strong>.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Курсор находится на вторичном индексе, и не удалось найти запись индекса для записи, связанной с закладкой.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errRecordDeleted</p> | <p>Не удалось найти запись, связанную с закладкой.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Один и тот же сеанс нельзя использовать одновременно для нескольких потоков.</p><p><strong>Windows XP:</strong>   это возвращаемое значение было введено в Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, завершает работу.</p> | 
+
 
 
 Если эта функция выполнена, курсор будет размещен в записи индекса для записи, связанной с указанной закладкой. Если запись подготовлена к обновлению, это обновление будет отменено. Если действует диапазон индексов, то диапазон индексов будет отменен. Если для курсора был создан ключ поиска, этот ключ поиска будет удален. Изменение состояния базы данных не выполняется.
 
 Если эта функция завершается ошибкой, то позиции курсора останутся без изменений. Если запись подготовлена к обновлению, это обновление будет отменено. Если действует диапазон индексов, то диапазон индексов будет отменен. Если для курсора был создан ключ поиска, этот ключ поиска будет удален. Изменение состояния базы данных не выполняется.
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 Существует два способа использования закладки для размещения курсора в индексе. Первый — использовать закладку для непосредственного позиционирования записи. Это происходит, когда текущий индекс курсора является первичным индексом. Эта методика работает потому, что закладка ESENT совпадает с первичным ключом связанной записи.
 
@@ -135,37 +93,18 @@ _**Применимо к:** Windows | Windows Сервером_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
 
 
-#### <a name="see-also"></a>См. также
+
+#### <a name="see-also"></a>См. также:
 
 [JET_ERR](./jet-err.md)  
 [JET_SESID](./jet-sesid.md)  

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 116b9ca4287d5276de004834623f30b1c3a9b47a3add450e61b3f507859d07ea
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5920370d69e4ff33c9bb282e902c87c2d2ae7925
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119979084"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465981"
 ---
 # <a name="xmbyten2-constructors"></a>Конструкторы XMBYTEN2
 
@@ -33,69 +33,19 @@ ms.locfileid: "119979084"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMBYTEN2</code><br/> Конструктор по умолчанию для <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(float_float)"><strong>XMBYTEN2 (float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTEN2</code> из двух <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из двух <code>float</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTEN2</code> из аргумента массива из двух элементов <code>float</code> .<br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из аргумента массива из двух элементов <code>float</code> .<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constint8_t)"><strong>XMBYTEN2 (const int8_t *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTE4</code> из аргумента массива из двух элементов <code>int8_t</code> .<br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из аргумента массива из двух элементов <code>int8_t</code> .<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(int8_t_int8_t)"><strong>XMBYTEN2 (int8_t, int8_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMBYTEN2</code> из двух <code>int8_t</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из двух <code>int8_t</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 ()</strong></a> | Конструктор по умолчанию для <code>XMBYTEN2</code><br /> Конструктор по умолчанию для <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a>.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(float_float)"><strong>XMBYTEN2 (float, float)</strong></a> | Инициализирует новый экземпляр <code>XMBYTEN2</code> из двух <code>float</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из двух <code>float</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constfloat)"><strong>XMBYTEN2 (const float *)</strong></a> | Инициализирует новый экземпляр <code>XMBYTEN2</code> из аргумента массива из двух элементов <code>float</code> .<br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из аргумента массива из двух элементов <code>float</code> .<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(constint8_t)"><strong>XMBYTEN2 (const int8_t *)</strong></a> | Инициализирует новый экземпляр <code>XMBYTE4</code> из аргумента массива из двух элементов <code>int8_t</code> .<br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из аргумента массива из двух элементов <code>int8_t</code> .<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmbyten2-xmbyten2(int8_t_int8_t)"><strong>XMBYTEN2 (int8_t, int8_t)</strong></a> | Инициализирует новый экземпляр <code>XMBYTEN2</code> из двух <code>int8_t</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmbyten2"><strong>XMBYTEN2</strong></a> из двух <code>int8_t</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

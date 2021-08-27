@@ -6,12 +6,12 @@ keywords:
 - Эффект двумерного аффинного преобразования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3017992d34cd98095f01192ea948684a6b52e53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 337168db7a422a8a22785316d2af1960e3a78b2f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104137822"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478100"
 ---
 # <a name="2d-affine-transform-effect"></a>Эффект двумерного аффинного преобразования
 
@@ -25,7 +25,7 @@ ms.locfileid: "104137822"
 -   [Режимы интерполяции](#interpolation-modes)
 -   [Битовая карта вывода](#output-bitmap)
 -   [Требования](#requirements)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="example-image"></a>Пример изображения
 
@@ -69,41 +69,14 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Отображаемое имя и перечисление индекса</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>интерполатионмоде<br/> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br/></td>
-<td>Режим интерполяции, используемый для масштабирования изображения. Существует 6 режимов масштабирования, которые имеют высокое качество и скорость.<br/> Тип — D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br/> Значение по умолчанию — D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br/></td>
-</tr>
-<tr class="even">
-<td>бордермоде<br/> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>Режим, используемый для вычисления границы изображения: Soft или Hard. Дополнительные сведения см. в разделе <a href="https://www.bing.com/search?q=Border+modes">режимы границ</a> . <br/> Тип — D2D1_BORDER_MODE.<br/> Значение по умолчанию — D2D1_BORDER_MODE_SOFT.<br/></td>
-</tr>
-<tr class="odd">
-<td>трансформматрикс<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>Матрица 3x2 для преобразования изображения с помощью <a href="direct2d-transforms-overview.md">преобразования</a>матрицы Direct2D. <br/> Тип — D2D1_MATRIX_3X2_F.<br/> Значение по умолчанию — Matrix3x2F:: Identity ().<br/></td>
-</tr>
-<tr class="even">
-<td>Четкость<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>
-<td>В режиме интерполяции высокого качества кубический уровень резкости фильтра масштабирования в виде числа с плавающей запятой в диапазоне от 0 до 1. Значения являются безмодульными. Резкость можно использовать для настройки качества изображения при масштабировании изображения.<br/> Коэффициент резкости влияет на форму ядра. Чем выше коэффициент резкости, тем меньше ядро. <br/>
-<blockquote>
-[!Note]<br />
-Это свойство влияет только на режим интерполяции высокого качества.
-</blockquote>
-<br/> Тип — FLOAT.<br/> Значение по умолчанию — 1,0 f.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Отображаемое имя и перечисление индекса | Описание | 
+|------------------------------------|-------------|
+| интерполатионмоде<br /> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br /> | Режим интерполяции, используемый для масштабирования изображения. Существует 6 режимов масштабирования, которые имеют высокое качество и скорость.<br /> Тип — D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br /> Значение по умолчанию — D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br /> | 
+| бордермоде<br /> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br /> | Режим, используемый для вычисления границы изображения: Soft или Hard. Дополнительные сведения см. в разделе <a href="https://www.bing.com/search?q=Border+modes">режимы границ</a> . <br /> Тип — D2D1_BORDER_MODE.<br /> Значение по умолчанию — D2D1_BORDER_MODE_SOFT.<br /> | 
+| трансформматрикс<br /> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br /> | Матрица 3x2 для преобразования изображения с помощью <a href="direct2d-transforms-overview.md">преобразования</a>матрицы Direct2D. <br /> Тип — D2D1_MATRIX_3X2_F.<br /> Значение по умолчанию — Matrix3x2F:: Identity ().<br /> | 
+| Четкость<br /> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br /> | В режиме интерполяции высокого качества кубический уровень резкости фильтра масштабирования в виде числа с плавающей запятой в диапазоне от 0 до 1. Значения являются безмодульными. Резкость можно использовать для настройки качества изображения при масштабировании изображения.<br /> Коэффициент резкости влияет на форму ядра. Чем выше коэффициент резкости, тем меньше ядро. <br /><blockquote>[!Note]<br />Это свойство влияет только на режим интерполяции высокого качества.</blockquote><br /> Тип — FLOAT.<br /> Значение по умолчанию — 1,0 f.<br /> | 
+
 
 
 
@@ -161,16 +134,16 @@ m_d2dContext->EndDraw();
 
 | Требование | Значение |
 |--------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Минимальная версия сервера | Windows 8 и обновление платформы для \[ классических приложений Windows 7 \| приложения для Магазина Windows\] |
-| Header                   | d2d1effects. h                                                                      |
+| Минимальная версия клиента | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Минимальная версия сервера | Windows 8 и обновление платформы для Windows 7 \[ классических приложений \| Windows приложения магазина\] |
+| Заголовок                   | d2d1effects. h                                                                      |
 | Библиотека                  | D2D1. lib, дксгуид. lib                                                               |
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
