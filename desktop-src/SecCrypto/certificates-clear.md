@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 600d7b6e2b1c5996ffbd59a8a4a4ecc667cec3ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de1f5b8c1c5e51715197f6efb5413801656945c2d4da45e5dd0eda4cf6d218ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105647931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101034"
 ---
 # <a name="icertificates2clear-method"></a>Метод ICertificates2:: Clear
 
@@ -44,7 +44,7 @@ Certificates.Clear()
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
