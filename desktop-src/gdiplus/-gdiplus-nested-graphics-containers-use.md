@@ -1,19 +1,19 @@
 ---
-description: Windows GDI+ предоставляет контейнеры, которые можно использовать для временного замены или дополнения части состояния в объекте Graphics.
+description: Windows GDI+ предоставляет контейнеры, которые можно использовать для временной замены или дополнения части состояния в объекте Graphics.
 ms.assetid: f3fce8ef-903a-4b9d-b76c-562739d02eb3
 title: Вложенные графические контейнеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f9d9feac3494b423d844cb1e3da359af33eaec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d88b3a768e5b156eb5d28410ad69d58227e9660618764ca4b084b5e35662b839
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114984"
 ---
 # <a name="nested-graphics-containers"></a>Вложенные графические контейнеры
 
-Windows GDI+ предоставляет контейнеры, которые можно использовать для временного замены или дополнения части состояния в объекте [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Контейнер создается путем вызова метода [**Graphics:: бегинконтаинер**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) объекта **Graphics** . Для формирования вложенных контейнеров можно многократно вызывать **Graphics:: бегинконтаинер** .
+Windows GDI+ предоставляет контейнеры, которые можно использовать для временной замены или дополнения части состояния в объекте [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Контейнер создается путем вызова метода [**Graphics:: бегинконтаинер**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) объекта **Graphics** . Для формирования вложенных контейнеров можно многократно вызывать **Graphics:: бегинконтаинер** .
 
 ## <a name="transformations-in-nested-containers"></a>Преобразования во вложенных контейнерах
 
@@ -92,7 +92,7 @@ graphics.DrawLine(&bluePen, 70, 0, 370, 300);
 
 Как показано в двух предыдущих примерах, преобразования и области обрезки являются кумулятивными в вложенных контейнерах. Если задать мировые преобразования контейнера и объекта [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) , то оба преобразования будут применяться к элементам, рисуемым внутри контейнера. Преобразование контейнера будет применено первыми, а преобразование объекта **Graphics** будет применено ко второму. Если задать области обрезки контейнера и объекта **Graphics** , то элементы, рисуемые внутри контейнера, будут обрезаны пересечением двух областей отсечения.
 
-## <a name="quality-settings-in-nested-containers"></a>Параметры качества во вложенных контейнерах
+## <a name="quality-settings-in-nested-containers"></a>качество Параметры во вложенных контейнерах
 
 Параметры качества ( [**смусингмоде**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-smoothingmode), [**текстрендерингхинт**](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-textrenderinghint)и Like) во вложенных контейнерах не являются накопительными. Вместо этого параметры качества контейнера временно заменяют параметры качества объекта [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . При создании нового контейнера параметры качества для этого контейнера задаются как значения по умолчанию. Например, предположим, что у вас есть **графический** объект с режимом сглаживания [* * * * смусингмодеантиалиас *](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-smoothingmode)* * *. При создании контейнера режим сглаживания в контейнере является режимом сглаживания по умолчанию. Вы можете задать режим сглаживания контейнера, и все элементы, отображаемые в контейнере, будут отображаться в соответствии с заданным режимом. Элементы, рисуемые после вызова [**Graphics:: ендконтаинер**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer) , будут отображаться в соответствии с режимом сглаживания ([* * * * смусингмодеантиалиас *](/windows/win32/api/Gdiplusenums/ne-gdiplusenums-smoothingmode)* * *), который находился перед вызовом [**Graphics:: бегинконтаинер**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)).
 

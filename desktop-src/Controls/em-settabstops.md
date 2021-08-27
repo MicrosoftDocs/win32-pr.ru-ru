@@ -3,7 +3,7 @@ title: Сообщение EM_SETTABSTOPS (Winuser. h)
 description: Сообщение EM \_ сеттабстопс задает позицию табуляции в многострочном элементе управления Edit.
 ms.assetid: d6fe2828-4ae9-4652-ace0-2f71e146f777
 keywords:
-- Элементы управления Windows для EM_SETTABSTOPS сообщений
+- элементы управления Windows сообщений EM_SETTABSTOPS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48d076dea415f169eff46101fd7cfe632d73d976
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2bf8285bbc8830f784b6cf2cf6671634bf4339a418c163bc3962150d6cb6674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048084"
 ---
 # <a name="em_settabstops-message"></a>\_Сообщение СЕТТАБСТОПС EM
 
@@ -51,7 +51,7 @@ ms.locfileid: "104136254"
 
 Если все вкладки не заданы, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **EM \_ сеттабстопс** не перерисовывает окно элемента управления редактированием автоматически. Если приложение изменяет позиции табуляции для текста, уже нарисованного в элементе управления "поле ввода", он должен вызвать функцию [**инвалидатерект**](/windows/desktop/api/winuser/nf-winuser-invalidaterect) для перерисовки окна управления редактированием.
 
@@ -59,19 +59,19 @@ ms.locfileid: "104136254"
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 3,0 и более поздних версиях. Элемент управления Rich Edit может иметь максимальное количество заданных вкладок, заданное в параметре MAX \_ Tab Stop \_ . Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

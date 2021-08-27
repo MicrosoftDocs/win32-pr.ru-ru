@@ -3,7 +3,7 @@ title: Сообщение TVM_HITTEST (Коммктрл. h)
 description: Определяет расположение указанной точки относительно клиентской области элемента управления "дерево-представление". Это сообщение можно отправить явно или с помощью \_ макроса HitTest TreeView.
 ms.assetid: 18ea3737-f429-4c10-9133-3b5729aa36fa
 keywords:
-- Элементы управления Windows для TVM_HITTEST сообщений
+- элементы управления Windows сообщений TVM_HITTEST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b91a11892a2bb904d2cd7d82b5b08cea18331b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e564b6d82c04c0d007784aac39284db13b3776267d524d2f615353ede50eb945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060154"
 ---
 # <a name="tvm_hittest-message"></a>\_Сообщение TVM HITTEST
 
@@ -43,15 +43,15 @@ ms.locfileid: "104071364"
 
 Возвращает маркер элемента представления дерева, который занимает указанную точку, или **значение NULL** , если элемент не занимает точку.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

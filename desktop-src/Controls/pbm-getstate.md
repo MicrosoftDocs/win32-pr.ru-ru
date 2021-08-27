@@ -3,7 +3,7 @@ title: Сообщение PBM_GETSTATE (Коммктрл. h)
 description: Возвращает состояние индикатора выполнения.
 ms.assetid: ff240160-7db6-4711-8d4e-25a77dfba118
 keywords:
-- Элементы управления Windows для PBM_GETSTATE сообщений
+- элементы управления Windows сообщений PBM_GETSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07d4f7029fca46a046545efd1cea8e0eab99c757
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1cd157ccb6ab8a1fe4cd4a31bf1f8a033f0e591288338e21cc322a8ac10bfc41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047014"
 ---
 # <a name="pbm_getstate-message"></a>\_Сообщение о состоянии PBM
 
@@ -51,15 +51,15 @@ ms.locfileid: "103989000"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: faa755c2ec7a2b9eeb2f123d7fd3e169b2df1be1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62d769e9756f0d15e7377a79f9aa94802a469746807e3a32b5ba329f76484b82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011704"
 ---
 # <a name="popupmenuitem-structure"></a>Структура ПОПУПМЕНУИТЕМ
 
@@ -126,7 +126,7 @@ typedef struct {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для каждого пункта меню, открывающего меню или подменю, существует одна структура **попупменуитем** . Укажите этот тип пункта меню, установив для члена **типа** значение **MF и \_** установив бит **\_ всплывающего окна МФР** в элементе **Resinfo:** в значение 0x0001. В этом случае окончательные данные, записанные в [**ресурс \_ меню RT**](/windows/desktop/menurc/resource-types) для меню или подменю, являются структурой [**менухелпид**](menuhelpid.md) . **Менухелпид** содержит числовое выражение, идентифицирующее меню во время обработки [**\_ справки WM**](../shell/wm-help.md) .
 
@@ -134,7 +134,7 @@ typedef struct {
 
 Укажите последний элемент меню, задав для члена **типа** значение **MF \_ End**. Так как вложенные меню можно вкладывать, можно использовать несколько уровней в **MF \_**. В этих случаях пункты меню являются последовательными.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -145,7 +145,7 @@ typedef struct {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

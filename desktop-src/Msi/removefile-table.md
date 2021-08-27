@@ -4,12 +4,12 @@ ms.assetid: 8b3cb0e3-ccc0-4030-8f57-aa124c3b5588
 title: Таблица Ремовефиле
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723e42582821d79842686678c5b310e95cd1e944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12cf63e9b7616eb033a696da2ad29cb4310e6dc0dc56279ef465c3c549cb5437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082604"
 ---
 # <a name="removefile-table"></a>Таблица Ремовефиле
 
@@ -21,9 +21,9 @@ ms.locfileid: "103911332"
 
 | Столбец      | Type                                     | Ключ | Допускает значения NULL |
 |-------------|------------------------------------------|-----|----------|
-| филекэй     | [Идентификатор](identifier.md)             | Да   | Нет        |
+| филекэй     | [Идентификатор](identifier.md)             | Д   | Нет        |
 | Компонент\_ | [Идентификатор](identifier.md)             | Нет   | Нет        |
-| FileName    | [вилдкардфиленаме](wildcardfilename.md) | Нет   | Да        |
+| FileName    | [вилдкардфиленаме](wildcardfilename.md) | Нет   | Д        |
 | дирпроперти | [Идентификатор](identifier.md)             | Нет   | Нет        |
 | InstallMode | [Integer](integer.md)                   | Нет   | Нет        |
 
@@ -66,7 +66,7 @@ ms.locfileid: "103911332"
 <span id="InstallMode"></span><span id="installmode"></span><span id="INSTALLMODE"></span>InstallMode
 </dt> <dd>
 
-Должно иметь одно из следующих значений.
+Необходимо установить одно из следующих значений.
 
 
 
@@ -82,7 +82,7 @@ ms.locfileid: "103911332"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Ссылки на файлы в этой таблице обрабатываются [действием ремовефилес](removefiles-action.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 55063BF2-34A3-4E56-882C-86F0949DE557
 title: Начало работы с Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c2b5a579b589a747c4e7640b3c868d488a7e58f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea01f24659bfbb5eb0667a0ae1cbfa3529a206b7b7ce7e3d3a4388e71fabd571
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092554"
 ---
 # <a name="getting-started-with-direct3d"></a>Начало работы с Direct3D
 
@@ -29,18 +29,18 @@ Direct3D
 
 Выбор интерфейсов API Direct3D зависит от стиля приложения, которое требуется написать.
 
--   Если вы хотите написать приложение UWP, используйте подмножество API-интерфейсов Direct3D 11, DXGI и HLSL. Список этих API-интерфейсов см. в разделе [API Win32 и com для приложений UWP](/uwp/win32-and-com/win32-and-com-for-uwp-apps). Сведения о создании приложения для Магазина Windows с Direct3D 11 см. в статье [Создание трехмерной графики с помощью DirectX](/previous-versions/windows/apps/hh465137(v=win.10)).
+-   Если вы хотите написать приложение UWP, используйте подмножество API-интерфейсов Direct3D 11, DXGI и HLSL. Список этих API-интерфейсов см. в разделе [API Win32 и com для приложений UWP](/uwp/win32-and-com/win32-and-com-for-uwp-apps). чтобы узнать, как написать приложение для магазина Windows Direct3D 11, см. статью [создание трехмерной графики с помощью DirectX](/previous-versions/windows/apps/hh465137(v=win.10)).
 -   При написании классического приложения можно использовать полный набор API-интерфейсов Direct3D 11, DXGI и HLSL.
--   Начиная с Windows 8, мы больше не будем активно поддерживать XNA Framework для классических приложений. Но приложения для Магазина Windows, приложения UWP и классические приложения могут использовать полный набор API-интерфейсов [XAudio2](/windows/desktop/xaudio2/xaudio2-apis-portal) и [директксмас](/windows/desktop/dxmath/directxmath-portal) . Классические приложения могут использовать полный набор API-интерфейсов [ксинпут](/windows/desktop/xinput/xinput-game-controller-apis-portal) , в то время как приложения для Магазина Windows и приложения UWP могут использовать большинство API-интерфейсов ксинпут. Дополнительные сведения см. в разделе [Ксинпут Versions](/windows/desktop/xinput/xinput-versions).
+-   начиная с Windows 8, мы больше не будем активно поддерживать XNA framework для классических приложений. но приложения для магазина Windows, приложения UWP и классические приложения могут использовать полный набор api-интерфейсов [XAudio2](/windows/desktop/xaudio2/xaudio2-apis-portal) и [директксмас](/windows/desktop/dxmath/directxmath-portal) . классические приложения могут использовать полный набор api-интерфейсов [ксинпут](/windows/desktop/xinput/xinput-game-controller-apis-portal) , тогда как приложения магазина Windows и приложения UWP могут использовать большинство api-интерфейсов ксинпут. Дополнительные сведения см. в разделе [Ксинпут Versions](/windows/desktop/xinput/xinput-versions).
 
 ## <a name="which-direct3d-version"></a>Какая версия Direct3D?
 
 Выбранная версия API Direct3D зависит от операционной системы и уровня оборудования, для которого вы хотите ориентироваться.
 
--   Если вы хотите ориентироваться на Windows 8 и более поздние версии, используйте API-интерфейсы Direct3D 11.
--   Используйте API Direct3D 9 в Windows XP и более поздних версиях. Все оборудование поддерживает API Direct3D 9, даже более современные аппаратные устройства с Direct3D 11.
--   Используйте API Direct3D 10 для Windows Vista и более поздних версий. Интерфейсы API Direct3D 10 поддерживаются только на уровне Direct3D 10 и более поздних версий.
--   Используйте API Direct3D 10,1 и Direct3D 11 в Windows 7 и более поздних версиях. Вы также можете использовать API Direct3D 10,1 и Direct3D 11 с Windows Vista с пакетом обновления 2 (SP2), загрузив [KB 971644](https://support.microsoft.com/kb/971644).
+-   если вы хотите использовать Windows 8 и более поздних версий, используйте api-интерфейсы Direct3D 11.
+-   используйте api Direct3D 9 с Windows XP и более поздних версий. Все оборудование поддерживает API Direct3D 9, даже более современные аппаратные устройства с Direct3D 11.
+-   используйте api Direct3D 10 с Windows Vista и более поздних версий. Интерфейсы API Direct3D 10 поддерживаются только на уровне Direct3D 10 и более поздних версий.
+-   используйте api direct3d 10,1 и direct3d 11 с Windows 7 и более поздних версий. вы также можете использовать api direct3d 10,1 и direct3d 11 с Windows Vista с пакетом обновления 2 (SP2), загрузив [KB 971644](https://support.microsoft.com/kb/971644).
 
 ## <a name="direct3d-rendering-pipeline"></a>Конвейер визуализации Direct3D
 

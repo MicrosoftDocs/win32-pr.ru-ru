@@ -4,12 +4,12 @@ description: Настройка и включение ведения журна�
 ms.assetid: d67d8f9a-6d8a-43f2-a1ef-75f69c04b1ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e56247ee306d5a8804663e00162224df1d3f3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c95856cf72379de44211f05bb78fb4c6839f77b2fd6c42b91b26068bc9c5d0d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104410926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050814"
 ---
 # <a name="configuring-and-enabling-server-side-logging"></a>Настройка и включение ведения журнала на стороне сервера
 
@@ -26,9 +26,9 @@ ms.locfileid: "104410926"
 2.  **Базовый член. Type** структуры [**\_ \_ \_ данных полей журнала HTTP**](/windows/desktop/api/Http/ns-http-http_log_fields_data) должен инициализироваться в **хттплогдататипефиелдс**. Поле **base. Type** обеспечивает дальнейшее расширение структуры и API.
 3.  Приложение вызывает [**хттпсендхттпреспонсе**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) или [**хттпсендреспонсинтитибоди**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) с указателем на структуру [**\_ \_ \_ данных полей журнала HTTP**](/windows/desktop/api/Http/ns-http-http_log_fields_data) в параметре *плогдата* . Приложение должно выполнить приведение указателя к [**\_ \_ данным журнала ФТТП**](/windows/desktop/api/Http/ns-http-http_log_data).
 
- 
+ 
 
- 
+ 
 
 
 

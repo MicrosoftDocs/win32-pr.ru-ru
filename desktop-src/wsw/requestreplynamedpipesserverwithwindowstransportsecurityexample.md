@@ -1,19 +1,19 @@
 ---
 title: рекуестреплинамедпипессервервисвиндовстранспортсекуритексампле
-description: В этом примере показан сервер именованных каналов, принимающий канал и принимающий сообщения и ответы на них с безопасностью, предоставляемой безопасностью транспорта Windows SSPI.
+description: в этом примере показан сервер именованных каналов, принимающий канал и принимающий сообщения и ответы на них с безопасностью, предоставляемой Windows безопасностью транспорта SSPI.
 ms.assetid: EF43DC45-378A-4269-998B-17EFEBF8740E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f94011728fe1d499c796fca54008dc8998ddba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5617a869811a363ffb48fe50083bd9839f1bd32e70ce4a4dbac886d4945ed93b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089454"
 ---
 # <a name="requestreplynamedpipesserverwithwindowstransportsecurityexample"></a>рекуестреплинамедпипессервервисвиндовстранспортсекуритексампле
 
-В этом примере показан сервер именованных каналов, принимающий канал и принимающий сообщения и ответы на них с безопасностью, предоставляемой безопасностью транспорта Windows SSPI.
+в этом примере показан сервер именованных каналов, принимающий канал и принимающий сообщения и ответы на них с безопасностью, предоставляемой Windows безопасностью транспорта SSPI.
 
 -   [Рекуестреплинамедпипессервервисвиндовстранспортсекурити. cpp](#requestreplynamedpipesserverwithwindowstransportsecuritycpp)
 -   [PurchaseOrder. WSDL](#purchaseorderwsdl)
@@ -617,9 +617,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

@@ -30,12 +30,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1572aada1384a7edfe88b198826050927ae3cff5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a88e0ee2aff2a2804468e3ceba589f20221fe5ca75fea0bbcc37a423edb23959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080044"
 ---
 # <a name="imsrdpclient7remoteprogram2-property"></a>Свойство IMsRdpClient7:: RemoteProgram2
 
@@ -58,7 +58,7 @@ HRESULT get_RemoteProgram2(
 
 Адрес указателя интерфейса [**ITSRemoteProgram2**](itsremoteprogram2.md) , который получает объект.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -72,7 +72,7 @@ HRESULT get_RemoteProgram2(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 452c42c37e8dcb9f2b37b660b1f8899e587b5579
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e8cce3f7f190ded1b86fef5ea5b43016d5f8b08ebc9c1e5483280a2b4305200a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995600"
 ---
 # <a name="swbemservicesexecmethod-method"></a>SWbemServices.Exeметод Кмесод
 
@@ -53,14 +53,14 @@ objOutParams = .ExecMethod( _
 *стробжектпас* 
 </dt> <dd>
 
-Обязательный элемент. Строка, содержащая путь к объекту, для которого выполняется метод. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
+Обязательный. Строка, содержащая путь к объекту, для которого выполняется метод. Дополнительные сведения см. [в разделе Описание расположения объекта WMI](describing-the-location-of-a-wmi-object.md).
 
 </dd> <dt>
 
 *стрмесоднаме* 
 </dt> <dd>
 
-Обязательный элемент. Имя метода для объекта.
+Обязательный. Имя метода для объекта.
 
 </dd> <dt>
 
@@ -167,7 +167,7 @@ WbemServices.ExecMethod oPath, "StartService"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере показан метод **ExecMethod** . Скрипт создает объект [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process) , который представляет процесс, выполняющий программу «Блокнот». Он показывает [**настройку объекта параметров**](swbemmethod-inparameters.md) и способ получения результатов из объекта [**параметров**](swbemmethod-outparameters.md) . Сведения о скрипте, отображающем те же операции, выполняемые асинхронно, см. в разделе [**SWbemServices.Exeкмесодасинк**](swbemservices-execmethodasync.md). Пример использования прямого доступа см. [в разделе Создание метода в классе Win32 \_ процесс](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Пример той же операции с помощью [**SWbemObject**](swbemobject.md)см. в разделе [**SWbemObject.Exeкмесод**](swbemobject-execmethod-.md).
+В следующем примере показан метод **ExecMethod** . скрипт создает объект [**\_ процесса Win32**](/windows/desktop/CIMWin32Prov/win32-process) , который представляет процесс, выполняющий Блокнот. Он показывает [**настройку объекта параметров**](swbemmethod-inparameters.md) и способ получения результатов из объекта [**параметров**](swbemmethod-outparameters.md) . Сведения о скрипте, отображающем те же операции, выполняемые асинхронно, см. в разделе [**SWbemServices.Exeкмесодасинк**](swbemservices-execmethodasync.md). Пример использования прямого доступа см. [в разделе Создание метода в классе Win32 \_ процесс](/windows/desktop/CIMWin32Prov/create-method-in-class-win32-process). Пример той же операции с помощью [**SWbemObject**](swbemobject.md)см. в разделе [**SWbemObject.Exeкмесод**](swbemobject-execmethod-.md).
 
 
 ```VB
@@ -221,7 +221,7 @@ End If
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMSERVICES CLSID<br/>                                                         |
@@ -229,7 +229,7 @@ End If
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Для текстуры тома используйте ДДСКА�
 ms.assetid: c1675a6d-129a-4e95-993f-e1be905781cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03d82faa8041f2b5c99ef57ee2386ff5de84d787
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79501ea3ffa6f4a660f4ab3b248fedbdc7df17bf8af94520cad5808c3c611fd2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105710089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025744"
 ---
 # <a name="dds-volume-texture-example"></a>Пример текстуры тома DDS
 
@@ -38,22 +38,22 @@ ms.locfileid: "105710089"
 
 
 
- 
+ 
 
 Обратите внимание, что минимальный уровень mipmap составляет всего 3 байта, поскольку биткаунт имеет значение 24, а на этом уровне нет дополнительного сжатия.
 
 Поддержка текстур томов была добавлена в DirectX 8.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Руководством по программированию для DDS](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

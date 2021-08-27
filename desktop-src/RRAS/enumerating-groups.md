@@ -4,12 +4,12 @@ description: В следующей таблице приведена после�
 ms.assetid: 30a81946-fa60-4424-9a16-a9b4dfe1961e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d3860c6876ed6ea5caef4941efcdd949eb9890d
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 4df3731e8370a213636ea12ad2a9b072903908888eba6983909c01201c655ef2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104487181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101844"
 ---
 # <a name="enumerating-groups"></a>Перечисление групп
 

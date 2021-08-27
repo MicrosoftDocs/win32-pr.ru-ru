@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d356adc5d16ceb0ea10e3834d8dbb98abed2b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67805ff50eb4566e8a2a186c10229f944f4003baaef1274e9d4f52dd3b9c2a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082124"
 ---
 # <a name="glcalllist-function"></a>Функция Глкалллист
 
@@ -51,7 +51,7 @@ void WINAPI glCallList(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Вызов функции **глкалллист** начинает выполнение именованного списка экранов. Функции, сохраненные в списке отображений, выполняются по порядку, как если бы они были вызваны без использования списка вывода. Если *список* не был определен как список вывода, **глкалллист** игнорируется.
 
@@ -67,7 +67,7 @@ void WINAPI glCallList(
 
 [**глислист**](glislist.md)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ void WINAPI glCallList(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

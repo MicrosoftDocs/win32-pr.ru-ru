@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: afd736317ecdf802cb418e81063b622db43f0651
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 808e2e74492b9a3e828e09389e04f0e1e4b09fef9a63fdd7a22d81521b3df30d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045574"
 ---
 # <a name="ntgdiddreenabledirectdrawobject-function"></a>Функция Нтгдиддринабледиректдравобжект
 
@@ -63,13 +63,13 @@ BOOL APIENTRY NtGdiDdReenableDirectDrawObject(
 
 В случае успеха (устройство может быть повторно включено) Эта функция возвращает **значение true**. В противном случае (например, драйвер экрана был изменен), он возвращает **значение false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 После повторного включения объекта можно повторно запросить возможности устройства с помощью вызова [**нтгдиддкуеридиректдравобжект**](-dxgkernel-ntgdiddquerydirectdrawobject.md).
 
 В приложениях рекомендуется использовать API DirectDraw или [Direct3D](../direct3d10/d3d10-graphics-reference.md) версии 8, который автоматизирует и абстрагирует этот процесс независимо от операционной системы.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ BOOL APIENTRY NtGdiDdReenableDirectDrawObject(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

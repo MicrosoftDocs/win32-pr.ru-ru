@@ -3,7 +3,7 @@ title: Сообщение EM_GETSTORYTYPE (RichEdit. h)
 description: Возвращает тип истории.
 ms.assetid: 06D87AA1-5AA3-4235-AC1D-045CE9975384
 keywords:
-- Элементы управления Windows для EM_GETSTORYTYPE сообщений
+- элементы управления Windows сообщений EM_GETSTORYTYPE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fed85183f292bd1c69e3bbebdadb4b38f9f3bdc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4e6d501fffca857e1e283f2678c1b42e5d3d12e587e51a3a58585041489f8b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103891837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048784"
 ---
 # <a name="em_getstorytype-message"></a>\_Сообщение ЖЕТСТОРИТИПЕ EM
 
@@ -101,19 +101,19 @@ ms.locfileid: "103891837"
 **[**томункновнстори**](/windows/win32/api/tom/ne-tom-tomconstants)**
 </dt> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

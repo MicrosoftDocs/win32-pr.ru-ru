@@ -3,19 +3,19 @@ title: Объект модуля чтения
 description: Объект модуля чтения
 ms.assetid: b5edbf8b-820f-4e09-a482-8efc2283360e
 keywords:
-- Windows Media Format SDK, объекты Reader
+- Windows Пакет SDK для формата мультимедиа, объекты Reader
 - Расширенный системный формат (ASF), объекты Reader
 - ASF (Расширенный системный формат), объекты Reader
 - объекты, объекты Reader
 - объекты Reader, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7958689fa7744286c92c294219fb2c963e55c860
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: bc1c01b824bbe278991f1512e963a6dde1727c00e73b3c17f5ab4c5556534b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104412742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089713"
 ---
 # <a name="reader-object"></a>Объект модуля чтения
 
@@ -56,7 +56,7 @@ ms.locfileid: "104412742"
 
 
 
- 
+ 
 
 В приложении можно реализовать следующие интерфейсы обратного вызова для отслеживания хода выполнения объекта Reader.
 
@@ -72,9 +72,9 @@ ms.locfileid: "104412742"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -87,9 +87,9 @@ ms.locfileid: "104412742"
 [**Объект модуля синхронного чтения**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

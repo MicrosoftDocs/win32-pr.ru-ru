@@ -1,19 +1,19 @@
 ---
-description: AM_RATE_ResetOnTimeDisc свойство — применяется к Windows Vista и более поздним версиям.
+description: AM_RATE_ResetOnTimeDisc свойство — применяется к Windows Vista и более поздних версий.
 ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: Свойство AM_RATE_ResetOnTimeDisc (Двдмедиа. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e867bff1f344e80ffd06c9c40276515f2cd4920c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c42b8e9d158f644d9e630555d96bf4d06e4ea9ef3cddced67742c057d0ab3859
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079524"
 ---
 # <a name="am_rate_resetontimedisc-property"></a>\_ \_ Свойство ресетонтимедиск Rate
 
-Применяется к Windows Vista и более поздним версиям.
+применимо к Windows Vista и более поздних версий.
 
 Это свойство запрашивает, будет ли декодер повторно синхронизировать метки времени вывода со штампами времени ввода, когда декодер получает пример с флагом небесперебойности.
 
@@ -37,15 +37,15 @@ ms.locfileid: "108096612"
 
 Чтобы получить \_ пример \_ флага тимедисконтинуити, вызовите [**IMediaSample2:: Properties**](/windows/desktop/api/Strmif/nf-strmif-imediasample2-getproperties) в примере. Флаг задается в элементе **двсамплефлагс** структуры [**\_ \_ свойств SAMPLE2 AM**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties) .
 
-Дополнительные сведения см. [в статье улучшения воспроизведения DVD в Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
+дополнительные сведения см. [в статье улучшения воспроизведения DVD в Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдмедиа. h</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b66d322a-a971-4219-bb5b-dc69b10b2581
 title: Управляющие коды TxF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef99a111a32aa5d2a7fd5997a855ce08e595ad6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe432444c7abcc9e31c00a68847f92b177de22a6fbb33dc1b02ad22a732a14ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047864"
 ---
 # <a name="txf-control-codes"></a>Управляющие коды TxF
 

@@ -3,7 +3,7 @@ title: Сообщение EM_SETRECT (Winuser. h)
 description: EM_SETRECT сообщение — задает прямоугольник форматирования для многострочного элемента управления Edit.
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:
-- Элементы управления Windows для EM_SETRECT сообщений
+- элементы управления Windows сообщений EM_SETRECT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 042428a236b8e9a23f03cdcceaf5d76eb977efd8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ea68ba0fd599b39f0344a423e86a87d097dc2df389fd8370e30a573a05d3013
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048204"
 ---
 # <a name="em_setrect-message"></a>\_Сообщение SETRECT EM
 
@@ -65,15 +65,15 @@ ms.locfileid: "108085972"
 
 **Расширенное редактирование:** Поддерживается в Microsoft Rich Edit 1,0 и более поздних версиях. Прямоугольник форматирования не включает панель выбора, которая является непомеченной областью слева от каждого абзаца. Когда пользователь щелкает на панели выбора, выбирается соответствующая строка. Дополнительные сведения о совместимости расширенных версий редактирования с различными версиями системы см. в разделе [Общие сведения об элементах управления редактированием](about-rich-edit-controls.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
@@ -81,7 +81,7 @@ ms.locfileid: "108085972"
 
 <dl> <dt>
 
-**Ссылка**
+**Ссылки**
 </dt> <dt>
 
 [**EM \_**](em-getrect.md)

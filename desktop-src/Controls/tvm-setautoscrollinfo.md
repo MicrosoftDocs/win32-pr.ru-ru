@@ -3,7 +3,7 @@ title: Сообщение TVM_SETAUTOSCROLLINFO (Коммктрл. h)
 description: Задает сведения, используемые для определения характеристик автоматической прокрутки. Это сообщение можно отправить явно или с помощью \_ макроса Сетаутоскроллинфо TreeView.
 ms.assetid: de55933f-1caa-4193-84de-0486c41e8f1f
 keywords:
-- Элементы управления Windows для TVM_SETAUTOSCROLLINFO сообщений
+- элементы управления Windows сообщений TVM_SETAUTOSCROLLINFO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faa1f7920d2ec8c443b2ec5f1ff9189c22c5f21e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8840045900fdbd63930219d199889cde018406779426cd767b49ab41a399efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060164"
 ---
 # <a name="tvm_setautoscrollinfo-message"></a>\_Сообщение TVM сетаутоскроллинфо
 
@@ -47,19 +47,19 @@ ms.locfileid: "105654469"
 
 Возвращает **значение true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сведения о прокрутке используются для прокрутки невидимого элемента на представление. Элемент управления должен иметь расширенный стиль [**телевизоры \_ \_ аутохскролл**](tree-view-control-window-extended-styles.md) . Дополнительные сведения о расширенных стилях см. в разделе Tree-View Control Extended Styles.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

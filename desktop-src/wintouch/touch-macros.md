@@ -1,21 +1,21 @@
 ---
-title: Макросы (сенсорный ввод Windows)
-description: Для сенсорного ввода Windows используются следующие макросы.
+title: макросы (Windows сенсорный ввод)
+description: для Windows сенсорного ввода используются следующие макросы.
 ms.assetid: 3f10887f-5679-43b6-8bd0-f30e3bf715a1
 keywords:
-- Касание Windows, макросы
+- Windows Касание, макросы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00d7352f7f04a86556fb2769ce41d7fba2793cb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d201b432698b4c9aafe04fa69251d4b3fb2c35048be067dd1905fd600c300d6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "105700997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089874"
 ---
-# <a name="macros-windows-touch-input"></a>Макросы (сенсорный ввод Windows)
+# <a name="macros-windows-touch-input"></a>макросы (Windows сенсорный ввод)
 
-Для сенсорного ввода Windows используются следующие макросы.
+для Windows сенсорного ввода используются следующие макросы.
 
 
 
@@ -27,14 +27,14 @@ ms.locfileid: "105700997"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сенсорный ввод Windows](multi-touch-input.md)
+[Windows Сенсорный ввод](multi-touch-input.md)
 </dt> <dt>
 
-[Справочное руководством по программированию ввода Windows Touch](guide-multi-touch-input.md)
+[Windows Руководств по программированию для сенсорного ввода](guide-multi-touch-input.md)
 </dt> </dl>
 
  

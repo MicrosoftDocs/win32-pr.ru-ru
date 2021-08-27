@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c0f4fa218c4def993025ff18bffd0cc54def9818
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f48d13e593898b7b4f91fc9246745b183b928ffaa0a799100990a327a3f670ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090344"
 ---
 # <a name="ishelldispatch2servicestart-method"></a>IShellDispatch2. Сервицестарт, метод
 
@@ -93,9 +93,9 @@ IShellDispatch2.ServiceStart( _
 
 ## <a name="examples"></a>Примеры
 
-В следующих примерах показано использование **сервицестарт** для запуска службы сообщений. Для JScript и VBScript отображается использование.
+В следующих примерах показано использование **сервицестарт** для запуска службы сообщений. для JScript и VBScript отображается использование.
 
-Присутствовал
+JScript:
 
 
 ```JScript
@@ -138,8 +138,8 @@ IShellDispatch2.ServiceStart( _
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Header<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 5,0 или более поздняя)</dt> </dl> |

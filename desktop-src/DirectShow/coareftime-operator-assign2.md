@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bad1e0d7ee63fe9bcfa7fc1664a7349e787d9927
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: e1a1e4c9482c187db7d5d5377535763b9fbab126b2153e0efa56bc341b402b74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "105674767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103164"
 ---
 # <a name="coareftimeoperator-method-ctlutilh---rt-ref-parameter"></a>Коарефтиме. operator = метод (Ктлутил. h)-RT [ref] параметр
 
@@ -53,14 +53,14 @@ COARefTime& operator=(
 
 Возвращает ссылку на объект.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование                    | Значение                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header  | Ктлутил. h (включение Streams. h)                                                                                   |
+| Заголовок  | ктлутил. h (включает Потоки. h)                                                                                   |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Функции таймера мультимедиа
 description: Функции таймера мультимедиа
 ms.assetid: 71680295-7fd3-4a8b-a574-78ea05e1d11d
 keywords:
-- Мультимедиа Windows, функции таймера
+- Windows мультимедиа, функции таймера
 - мультимедиа, функции таймера
 - входные данные мультимедиа, функции таймера
 - Таймеры мультимедиа, функции
@@ -12,12 +12,12 @@ keywords:
 - Справочник по таймеру, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e03546531702c101cca9cab137432951fa00c38d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3c35825753483b5664e9c328b37c95ff07c2229950868407a98cec7b9ea07a14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038654"
 ---
 # <a name="multimedia-timer-functions"></a>Функции таймера мультимедиа
 
@@ -32,13 +32,13 @@ ms.locfileid: "104069887"
 -   [**тимепрок**](/previous-versions//dd757631(v=vs.85))
 -   [**тимесетевент**](/previous-versions//dd757634(v=vs.85))
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Справочник по таймеру мультимедиа](multimedia-timer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

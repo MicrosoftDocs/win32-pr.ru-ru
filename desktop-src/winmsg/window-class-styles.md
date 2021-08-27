@@ -5,12 +5,12 @@ title: Стили классов окон (Winuser. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/29/2020
-ms.openlocfilehash: ceaa4b83b52f269a61ef8efbf8c0b335d5bd94e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7bcca85b3caf5be178facd0ae1804688e8c734ecde40d27d0ffd662a6eb8786
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089924"
 ---
 # <a name="window-class-styles"></a>Стили классов окон
 
@@ -30,7 +30,7 @@ ms.locfileid: "105718129"
     RegisterClass(&wc);
 ```
 
-Пример из [классической выборки Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/tabletpc/TipAutoComplete/TIPAutoCompleteSDKSample.cpp) на сайте GitHub.
+пример из [Windows классических примеров](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/tabletpc/TipAutoComplete/TIPAutoCompleteSDKSample.cpp) на GitHub.
 
 ## <a name="constants"></a>Константы
 
@@ -45,7 +45,7 @@ ms.locfileid: "105718129"
 | <span id="CS_BYTEALIGNWINDOW"></span><span id="cs_bytealignwindow"></span><dl> <dt>**CS \_ БИТЕАЛИГНВИНДОВ**</dt> <dt>0x2000</dt> </dl> | Выровняйте окно по границе байта (в направлении x). Этот стиль влияет на ширину окна и его горизонтальное расположение на экране.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | <span id="CS_CLASSDC"></span><span id="cs_classdc"></span><dl> <dt>**CS \_ КЛАССДК**</dt> <dt>0x0040</dt> </dl>                         | Выделяет один контекст устройства для совместного использования всеми окнами в классе. Поскольку классы окон зависят от процесса, несколько потоков приложения могут создать окно одного и того же класса. Кроме того, потоки могут пытаться одновременно использовать контекст устройства. В этом случае система позволяет только одному потоку успешно завершить операцию рисования. <br/>                                                                                                                                                                                                                                                                                                                                                                     |
 | <span id="CS_DBLCLKS"></span><span id="cs_dblclks"></span><dl> <dt>**CS \_ ДБЛКЛКС**</dt> <dt>0x0008</dt> </dl>                         | Отправляет сообщение двойного щелчка в процедуру окна, когда пользователь дважды щелкает мышью, когда курсор находится внутри окна, принадлежащего классу. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| <span id="CS_DROPSHADOW"></span><span id="cs_dropshadow"></span><dl> <dt>**CS \_ DROPSHADOW**</dt> <dt>0x00020000</dt> </dl>            | Включает эффект тени на окне. Этот результат включается и отключается с помощью **SPI \_ сетдропшадов**. Как правило, эта возможность доступна для небольших, кратковременных окон, таких как меню, чтобы подчеркнуть их связь Z-порядка с другими окнами. Windows, созданная из класса с этим стилем, должна быть окон верхнего уровня; они не могут быть дочерними окнами.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span id="CS_DROPSHADOW"></span><span id="cs_dropshadow"></span><dl> <dt>**CS \_ DROPSHADOW**</dt> <dt>0x00020000</dt> </dl>            | Включает эффект тени на окне. Этот результат включается и отключается с помощью **SPI \_ сетдропшадов**. Как правило, эта возможность доступна для небольших, кратковременных окон, таких как меню, чтобы подчеркнуть их связь Z-порядка с другими окнами. Windows, созданные из класса с этим стилем, должны быть окнами верхнего уровня; они не могут быть дочерними окнами.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | <span id="CS_GLOBALCLASS"></span><span id="cs_globalclass"></span><dl> <dt>**CS \_ ГЛОБАЛКЛАСС**</dt> <dt>0x4000</dt> </dl>             | Указывает, что класс Window является глобальным классом приложения. Дополнительные сведения см. в разделе "Глобальные классы приложений" раздела [о классах окон](about-window-classes.md).<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | <span id="CS_HREDRAW"></span><span id="cs_hredraw"></span><dl> <dt>**CS \_ ХРЕДРАВ**</dt> <dt>0x0002</dt> </dl>                         | Перерисовывает все окно, если корректировка перемещения или размера изменяет ширину клиентской области.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="CS_NOCLOSE"></span><span id="cs_noclose"></span><dl> <dt>**CS \_**</dt> <dt>0x0200</dt> </dl>                         | Отключает команду **Закрыть** в меню окно.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -56,7 +56,7 @@ ms.locfileid: "105718129"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,7 +64,7 @@ ms.locfileid: "105718129"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

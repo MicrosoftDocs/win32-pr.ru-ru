@@ -6,12 +6,12 @@ keywords:
 - HttpCfg.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c48ed89c7623f900a7a51f7949a405de5fc43f66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5a2503f0032df4768b1d1e2f66d7b078e8caaf9063f4c589ff7eaed8378354c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050734"
 ---
 # <a name="httpcfgexe"></a>HttpCfg.exe
 
@@ -21,7 +21,7 @@ ms.locfileid: "105682954"
 -   SSL-сертификаты
 -   Резервирование пространства имен
 
-HttpCfg.exe поставляется с операционной системой, начиная с Windows Server 2003, в виде двоичного исполняемого файла вместе с файлом справки, в котором описывается, как использовать его. Его можно установить с диска распространения операционной системы в качестве средства поддержки.
+HttpCfg.exe поставляется с операционной системой, начиная с Windows Server 2003 в качестве двоичного исполняемого файла, а также с файлом справки, который описывает, как его использовать. Его можно установить с диска распространения операционной системы в качестве средства поддержки.
 
 HttpCfg.exe также доступен для загрузки; см. раздел [средства поддержки Windows XP SP2](https://www.microsoft.com/downloads/details.aspx?familyid=49AE8576-9BB9-4126-9761-BA8011FABF38).
 

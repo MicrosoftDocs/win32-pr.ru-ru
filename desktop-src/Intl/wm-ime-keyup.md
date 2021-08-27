@@ -4,12 +4,12 @@ ms.assetid: 652f951f-4e9f-407c-844c-b250b6a9e6f5
 title: Сообщение WM_IME_KEYUP (Winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0eb6c6701510a373573ff6d85d5b50a8541b4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f65d80876643cc27136223c112c1e045bc797adbd0bf160adda1c3cea894767e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102074"
 ---
 # <a name="wm_ime_keyup-message"></a>\_ \_ Сообщение KEYUP IME
 
@@ -72,11 +72,11 @@ LRESULT CALLBACK WindowProc(
 
 Приложение должно вернуть значение 0, если оно обрабатывает это сообщение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может обработать это сообщение или передать его функции [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  для создания соответствующего сообщения [**WM \_ KEYUP**](../inputdev/wm-keyup.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -84,11 +84,11 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                               |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                     |
-| Заголовок<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

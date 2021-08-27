@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a99bd2b184766f1621d89b2c8d642902d300e14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc5bc715aad24198031ed096d53f1a468b6672532e4df4ae1ef66b416002a65b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081614"
 ---
 # <a name="gldrawbuffer-function"></a>Функция Глдравбуффер
 
@@ -86,7 +86,7 @@ void WINAPI glDrawBuffer(
 | <dl> <dt>**\_Недопустимая \_ Операция GL**</dt> </dl> | Функция была вызвана между вызовом [**глбегин**](glbegin.md) и соответствующим вызовом [**гленд**](glend.md).<br/> |
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Когда цвета записываются в буфера кадров, они записываются в буферы цветов, заданные параметром **глдравбуффер**.
 
@@ -102,7 +102,7 @@ void WINAPI glDrawBuffer(
 
 **глжет** с аргументом "дополнительные \_ \_ буферы GL"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -116,7 +116,7 @@ void WINAPI glDrawBuffer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Функция Мпсканконтрол (Мпклиент. h)
 description: Разрешает Управление сканированием, которое было асинхронно инициировано через Мпсканстарт.
 ms.assetid: 00855686-8C46-4B58-829C-AEAB53888704
 keywords:
-- Функции Мпсканконтрол устаревшие функции среды Windows
+- функции мпсканконтрол устаревших функций среды Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce74736c4ca8c589e2ffa5570f2b6666838d820f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 893fe1d01f9004c9dc2933a5bbb23c4b13fb8933a6121c41810c6e447e5eebac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114554"
 ---
 # <a name="mpscancontrol-function"></a>Функция Мпсканконтрол
 
@@ -85,14 +85,14 @@ HRESULT WINAPI MpScanControl(
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

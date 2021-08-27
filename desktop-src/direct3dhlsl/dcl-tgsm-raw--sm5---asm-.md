@@ -4,12 +4,12 @@ description: Объявите ссылку на область общей пам
 ms.assetid: 8EA6931C-5B13-431F-A886-04F8C73CD22D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd20d8a0d8d2309b9b895a5cb5439877bb10d31a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0945cde7719129ca43368e50258c02727103209b8d467932e79acd1e1150c89f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103785001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024694"
 ---
 # <a name="dcl_tgsm_raw-sm5---asm"></a>дкл \_ тгсм \_ RAW (SM5-ASM)
 
@@ -35,7 +35,7 @@ ms.locfileid: "103785001"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Общий объем хранилища для всех g \# должен быть <= объем общей памяти, доступной для каждой группы потоков, которая является 32 КБ.
 
@@ -68,7 +68,7 @@ ms.locfileid: "103785001"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -79,7 +79,7 @@ ms.locfileid: "103785001"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

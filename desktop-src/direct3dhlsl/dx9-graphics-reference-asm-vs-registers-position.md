@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 89470bb920db7c612b21cefb2c44c2c89d48ce28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cda82431990ed3ea545adfcc5e6eb2801be0607d8bac45aa1bcd8c0e121f3d68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103776622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023904"
 ---
 # <a name="position-register"></a>Регистр позиций
 
@@ -28,7 +28,7 @@ ms.locfileid: "103776622"
 
 
 
- 
+ 
 
 Регистр состоит из свойств, определяющих принцип работы каждой ККМ.
 
@@ -42,11 +42,11 @@ ms.locfileid: "103776622"
 
 
 
- 
+ 
 
 Значение является позицией в однородной вырезанной области. Это значение должно быть записано шейдером вершин.
 
-Например, .
+Пример
 
 
 ```
@@ -62,16 +62,16 @@ ms.locfileid: "103776622"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Регистры шейдеров вершин](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

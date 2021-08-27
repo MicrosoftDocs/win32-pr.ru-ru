@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9abced52f0d0664e998ad8380e33d43d4af36bcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8e08f046cc1bd41293a076f36389506320e85025e415b264bed1ed0de14f9a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081714"
 ---
 # <a name="glcolorpointer-function"></a>Функция Глколорпоинтер
 
@@ -64,7 +64,7 @@ void WINAPI glColorPointer(
 
 </dd> <dt>
 
-*указатель* 
+*вид* 
 </dt> <dd>
 
 Указатель на первый компонент первого элемента Color в массиве цветов.
@@ -89,7 +89,7 @@ void WINAPI glColorPointer(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глколорпоинтер** задает расположение и формат данных для массива компонентов цвета, используемых при подготовке к просмотру. Параметр *stride* определяет смещение в байтах от одного цвета к другому, позволяя использовать упаковку атрибутов вершин в одном массиве или хранилище в отдельных массивах. В некоторых реализациях хранение атрибутов вершин в одном массиве может оказаться более эффективным, чем использование отдельных массивов.
 
@@ -113,7 +113,7 @@ void WINAPI glColorPointer(
 
 [**глжетпоинтерв**](glgetpointerv.md) с аргументом \_ \_ указатель на массив цветов GL \_
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -127,7 +127,7 @@ void WINAPI glColorPointer(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

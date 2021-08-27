@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e305b0ed22e733053e33451aa35d3b8f8d6c138
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 356414d03a6b102f37f93205e0dbb8c3261cffbbb5b71a58cdb3f80acda09212
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125124"
 ---
 # <a name="imstscaxeventsonidletimeoutnotification-method"></a>Метод Имстскаксевентс:: Онидлетимеаутнотификатион
 
@@ -45,7 +45,7 @@ void OnIdleTimeoutNotification();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию значение свойства [**минутестоидлетимеаут**](imsrdpclientadvancedsettings-minutestoidletimeout.md) равно нулю, и система не отслеживает время ожидания простоя. Это событие возникает, только если свойству присвоено ненулевое значение.
 
@@ -53,7 +53,7 @@ void OnIdleTimeoutNotification();
 
 Приложения могут использовать [**минутестоидлетимеаут**](imsrdpclientadvancedsettings-minutestoidletimeout.md) в ситуациях, когда полезно отключать пользователя; Например, в режиме киоска или в другом открытом сценарии терминала.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ void OnIdleTimeoutNotification();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

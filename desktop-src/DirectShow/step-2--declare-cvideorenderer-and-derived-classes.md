@@ -1,19 +1,19 @@
 ---
-description: В этом разделе описывается шаг 2 руководства воспроизведение аудио-и видеороликов в DirectShow.
+description: В этом разделе приведен шаг 2 руководства воспроизведение аудио-и видеофайлов в DirectShow.
 ms.assetid: 61106781-d10c-41a8-993e-121e0a1e4c4d
 title: Шаг 2. объявление Квидеорендерер и производных классов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11474c57e70d8632a53ac0b858d61d2bddf1e86b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fae4c9c391a13acd0ede06b9a74c3b09bd264a6b74c42d7f6c7ca5e9dbb17051
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105683991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050364"
 ---
 # <a name="step-2-declare-cvideorenderer-and-derived-classes"></a>Шаг 2. объявление Квидеорендерер и производных классов
 
-В этом разделе описывается шаг 2 руководства [Воспроизведение аудио-и видеороликов в DirectShow](audio-video-playback-in-directshow.md). Полный код приведен в разделе [Пример воспроизведения DirectShow](directshow-playback-example.md).
+В этом разделе приведен шаг 2 руководства [Воспроизведение аудио-и видеофайлов в DirectShow](audio-video-playback-in-directshow.md). полный код приведен в разделе [пример воспроизведения DirectShow](directshow-playback-example.md).
 
 DirectShow предоставляет несколько различных фильтров, которые визуализируют видео:
 
@@ -137,9 +137,9 @@ public:
 
 
 
-Далее: [Шаг 3. Построение графа фильтра](step-3--build-the-filter-graph.md).
+Далее: [Шаг 3. создание Graph фильтра](step-3--build-the-filter-graph.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

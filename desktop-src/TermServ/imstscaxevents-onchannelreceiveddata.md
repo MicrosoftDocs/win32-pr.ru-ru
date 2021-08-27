@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d1cae4f35435138e219c628dd504c595939adfe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72f411eae7e03f134f4adfd6fdc6108634e4e58c06bb8645e9f97f27e8489a3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125194"
 ---
 # <a name="imstscaxeventsonchannelreceiveddata-method"></a>Метод Имстскаксевентс:: Ончаннелрецеиведдата
 
@@ -62,7 +62,7 @@ void OnChannelReceivedData(
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения об этом событии см. в статье [реализация виртуальных каналов с использованием скриптов с помощью веб-подключение к удаленному рабочему столу](implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md) .
 
@@ -82,7 +82,7 @@ void OnChannelReceivedData(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

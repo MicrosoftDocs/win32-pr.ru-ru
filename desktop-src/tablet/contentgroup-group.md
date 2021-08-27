@@ -4,12 +4,12 @@ ms.assetid: e2561be1-03ce-41f7-9ad4-197d75411c48
 title: Группа Контентграуп
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e4291da1912c43674871c06fb803e1936f7178
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: c0085cc52a8fc29d3a51f4d1e1c8f42128b63db9e166a7a1c436dc15bff70a36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009014"
 ---
 # <a name="contentgroup-group"></a>Группа Контентграуп
 
@@ -46,7 +46,7 @@ ms.locfileid: "111432616"
 
 [**Изображение**](docimage-element.md)
 
-[**Flag**](flag-element.md)
+[**Флаг**](flag-element.md)
 
 ## <a name="attributes"></a>Атрибуты
 

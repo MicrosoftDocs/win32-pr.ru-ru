@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d25e02971d07d54567c462708aa4efd87b2d32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0820d27bf6aff05916eb179e4dfd0b51a0746e2c6e5a6f4e5f3bdfe8f3e6d91a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082264"
 ---
 # <a name="glaccum-function"></a>Функция Глаккум
 
@@ -41,7 +41,7 @@ void WINAPI glAccum(
 
 <dl> <dt>
 
-*операцион* 
+*op* 
 </dt> <dd>
 
 Операция с буфером накопления. Допустимые символьные константы приведены ниже.
@@ -86,7 +86,7 @@ void WINAPI glAccum(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Буфер накопления — это цветовой буфер расширенного диапазона. Изображения не подготавливаются к просмотру. Вместо этого изображения, отображаемые в один из буферов цветов, добавляются к содержимому буфера накопления после подготовки к просмотру. Вы можете создавать такие эффекты, как сглаживание (точки, линии и многоугольники), размытие движения и глубина поля, путем накопления изображений, созданных с помощью различных матриц преобразования.
 
@@ -110,7 +110,7 @@ void WINAPI glAccum(
 
 **глжет** с аргументом " \_ накопленные \_ альфа- \_ биты GL"
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -124,7 +124,7 @@ void WINAPI glAccum(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

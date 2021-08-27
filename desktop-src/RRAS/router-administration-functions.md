@@ -1,19 +1,19 @@
 ---
 title: Функции администрирования маршрутизатора
-description: При разработке программного обеспечения для администрирования маршрутизаторов в Windows 2000 и более поздних версий используйте следующие функции.
+description: при разработке программного обеспечения для администрирования маршрутизаторов в Windows 2000 и более поздних версий используйте следующие функции.
 ms.assetid: a61734a7-b171-4e38-8dec-46be9a9c08ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c07b1b875b3faebf830327291008b437f3d8564f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 31e498dbf55f1723e950003a848c9d8362aa5efc45b2fd709797cb60103c38e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104487813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081234"
 ---
 # <a name="router-administration-functions"></a>Функции администрирования маршрутизатора
 
-При разработке программного обеспечения для администрирования маршрутизаторов в Windows 2000 и более поздних версий используйте следующие функции.
+при разработке программного обеспечения для администрирования маршрутизаторов в Windows 2000 и более поздних версий используйте следующие функции.
 
 -   [**мпрадминбуфферфри**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree)
 -   [**мпрадминдерегистерконнектионнотификатион**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminderegisterconnectionnotification)
@@ -59,6 +59,6 @@ ms.locfileid: "104487813"
 -   [**мпрадминтранспортжетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportgetinfo)
 -   [**мпрадминтранспортсетинфо**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportsetinfo)
 
- 
+ 
 
- 
+ 

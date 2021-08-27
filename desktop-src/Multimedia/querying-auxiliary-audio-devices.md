@@ -12,12 +12,12 @@ keywords:
 - Вспомогательные аудио, устройства
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d7de949c304cdd6941be87277f2eef1711ada24
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 49a6d61634475c3b921428529df69113c921b8c5bff8d1a65d5b08931a670fff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104069885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037574"
 ---
 # <a name="querying-auxiliary-audio-devices"></a>Запрос вспомогательных звуковых устройств
 
@@ -25,6 +25,6 @@ ms.locfileid: "104069885"
 
 Чтобы получить сведения о конкретном дополнительном звуковом устройстве, используйте функцию [**ауксжетдевкапс**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps) . Эта функция заполняет структуру [**аукскапс**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps) данными о возможностях указанного устройства. Эти сведения включают в себя производителя и идентификаторы продуктов, название продукта для устройства и номер версии драйвера устройства.
 
- 
+ 
 
- 
+ 
