@@ -4,12 +4,12 @@ ms.assetid: 3da1c3d2-5116-47c3-98e4-f29b33693c69
 title: Отправка сообщений в GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d2f7b5b0d8fbecafad0bcc36c84cf395813f767
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb52da6a2a66d901207485ed97592a97286902ba51c54ec4924240ab9403a885
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918323"
 ---
 # <a name="sending-messages-to-the-gina"></a>Отправка сообщений в GINA
 
@@ -38,7 +38,7 @@ ms.locfileid: "105663019"
 
 Для выходов из системы диалоговое окно закрывается с кодом ВЛКС \_ диалогового окна " \_ Выход пользователя" \_ .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

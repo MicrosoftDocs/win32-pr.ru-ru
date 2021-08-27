@@ -53,12 +53,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9d23dcf568e5ed25fb5081283a421b1c0dbb07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad5ac7a2f96555aa8ccfb305c66061ba4e0ffd468f18a1a93be215c367f034be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909352"
 ---
 # <a name="winbio_reject_detail-constants"></a>\_ \_ Константы сведений об ОТКЛОНЕНии винбио
 
@@ -72,7 +72,7 @@ ms.locfileid: "103804048"
 | <span id="WINBIO_FP_TOO_LOW"></span><span id="winbio_fp_too_low"></span><dl> <dt>**\_ \_ слишком низкое винбио \_ FP**</dt> </dl>                                                                     | На пальце не было слишком мало сканирования пальца.<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_LEFT"></span><span id="winbio_fp_too_left"></span><dl> <dt>**ВИНБИО \_ FP \_ не \_ осталось**</dt> </dl>                                                                  | Палец находился слишком далеко во время сканирования.<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_RIGHT"></span><span id="winbio_fp_too_right"></span><dl> <dt>**\_слишком винбио \_ FP \_**</dt> </dl>                                                               | Палец находился слишком далеко во время сканирования.<br/>                                                                                                                                                                                                                                          |
-| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**\_ \_ слишком быстрое винбио \_ FP**</dt> </dl>                                                                  | Палец слишком быстро находился на датчике.<br/>                                                                                                                                                                                                                                       |
+| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**ВИНБИО \_ FP \_ слишком \_ fast**</dt> </dl>                                                                  | Палец слишком быстро находился на датчике.<br/>                                                                                                                                                                                                                                       |
 | <span id="WINBIO_FP_TOO_SLOW"></span><span id="winbio_fp_too_slow"></span><dl> <dt>**\_ \_ слишком низкое винбио \_ FP**</dt> </dl>                                                                  | Палец слишком медленно находился на датчике.<br/>                                                                                                                                                                                                                                        |
 | <span id="WINBIO_FP_POOR_QUALITY"></span><span id="winbio_fp_poor_quality"></span><dl> <dt>**\_ \_ низкое качество винбио \_ FP**</dt> </dl>                                                      | Слишком низкое качество сканирования.<br/>                                                                                                                                                                                                                                                         |
 | <span id="WINBIO_FP_TOO_SKEWED"></span><span id="winbio_fp_too_skewed"></span><dl> <dt>**ВИНБИО \_ FP \_ слишком \_ наклонен**</dt> </dl>                                                            | Палец не прошел прямую по датчику.<br/>                                                                                                                                                                                                                                    |
@@ -113,14 +113,14 @@ ms.locfileid: "103804048"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                                                                               |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                                                                                  |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                                                                               |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                                                                                  |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (включите винбио. h для клиентских приложений или винбио \_ Adapters. h для адаптеров).</dt> </dl> |
 
 

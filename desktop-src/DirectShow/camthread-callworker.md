@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7410fbee4ece729d1579f525731bddaceded1153
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7ffee6a55191f8f41d7121f3801a4a6392f9869803ded40ed891817146828f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955403"
 ---
 # <a name="camthreadcallworker-method"></a>Камсреад. Каллворкер, метод
 
@@ -53,7 +53,7 @@ DWORD CallWorker(
 
 Возвращает значение, определяемое производным классом.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Методы [**камсреад:: WebRequest**](camthread-getrequest.md) и [**Камсреад:: чеккрекуест**](camthread-checkrequest.md) извлекают значение параметра *двпарам* . Метод WebRequest блокируется до `CallWorker` вызова метода.
 
@@ -61,18 +61,18 @@ DWORD CallWorker(
 
 Этот метод удерживает блокировку [**камсреад:: m \_ акцесслокк**](camthread-m-accesslock.md) для сериализации запросов. Поэтому Вызывайте этот метод из самого потока или из любой функции члена, которая выполняется в контексте потока.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Вксутил. h (включение Streams. h)</dt> </dl>                                                                                    |
+| Заголовок<br/>  | <dl> <dt>вксутил. h (включает Потоки. h)</dt> </dl>                                                                                    |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

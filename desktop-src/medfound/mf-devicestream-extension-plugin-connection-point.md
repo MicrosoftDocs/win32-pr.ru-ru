@@ -4,12 +4,12 @@ ms.assetid: AA95639E-8B20-4714-AFD3-1A492F13FF12
 title: Атрибут MF_DEVICESTREAM_EXTENSION_PLUGIN_CONNECTION_POINT (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3908a989be65f7502321c112381a14eee1318466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 476d97bfee67105f8322a9b265d11a012b0173cee5ed110003ca46ec957a7cb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973893"
 ---
 # <a name="mf_devicestream_extension_plugin_connection_point-attribute"></a>\_ \_ \_ \_ Атрибут точки подключения подключаемого модуля расширения MF девицестреам \_
 
@@ -19,7 +19,7 @@ ms.locfileid: "105692664"
 
 **иунковн**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Представляет указатель Ксконтрол фильтра.
 
@@ -29,9 +29,9 @@ ms.locfileid: "105692664"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                         |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                         |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

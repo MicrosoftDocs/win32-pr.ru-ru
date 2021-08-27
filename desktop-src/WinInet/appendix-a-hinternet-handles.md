@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 8a9788ed-eb25-42cb-b912-8dffa3df1850
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba70d2fadbd0d8393685fec2075ebf0dc4aa11c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7477558887ac484ec0c3645d568bc3d91d29926af887ebadc51cf7e9523da787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051935"
 ---
 # <a name="hinternet-handles"></a>Дескрипторы ХИНТЕРНЕТ
 
@@ -77,10 +77,10 @@ ms.locfileid: "104488136"
 После того как [**хттпсендрекуестекс**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequestexa) использовал маркер, возвращенный [**хттпопенрекуест**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), этот маркер может использоваться [**хттпендрекуест**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta), [**интернетреадфиликс**](/windows/desktop/api/Wininet/nf-wininet-internetreadfileexa)и [**интернетвритефиле**](/windows/desktop/api/Wininet/nf-wininet-internetwritefile). После вызова [**хттпендрекуест**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta) этот маркер может использоваться [**интернетреадфиле**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile), [**интернетсетфилепоинтер**](/windows/desktop/api/Wininet/nf-wininet-internetsetfilepointer)и [**интернеткуеридатааваилабле**](/windows/desktop/api/Wininet/nf-wininet-internetquerydataavailable).
 
 > [!Note]  
-> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. Для серверных реализаций или служб используйте [службы Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet не поддерживает реализации серверов. Кроме того, его не следует использовать из службы. для серверных реализаций или служб используйте [Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

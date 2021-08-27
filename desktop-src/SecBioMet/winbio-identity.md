@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8092754b9107029e0be5800bbd5bc98bc3efb91c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c677a341386bcc937061798f406397028c23c10b65989480da975a9fdf81a3c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910122"
 ---
 # <a name="winbio_identity-structure"></a>\_Структура идентификации винбио
 
@@ -49,7 +49,7 @@ typedef struct _WINBIO_IDENTITY {
 
 <dl> <dt>
 
-**Тип**
+**Type**
 </dt> <dd>
 
 Задает формат сведений об удостоверении, содержащихся в этой структуре. Может иметь одно из следующих значений:
@@ -111,14 +111,14 @@ typedef struct _WINBIO_IDENTITY {
 
 </dd> <dt>
 
-**Data**
+**Данные**
 </dt> <dd>
 
 Массив неподписанных символов, содержащих идентификатор безопасности. Текущий максимальный размер массива составляет 68 символов.
 
 </dd> </dl> </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта структура используется в следующих функциях:
 
@@ -131,14 +131,14 @@ typedef struct _WINBIO_IDENTITY {
 -   [**винбиоверифи**](/windows/desktop/api/Winbio/nf-winbio-winbioverify)
 -   [**винбиоверифивискаллбакк**](/windows/desktop/api/Winbio/nf-winbio-winbioverifywithcallback)
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                                                    |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                                                    |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                                                       |
 | Header<br/>                   | <dl> <dt>Винбио \_ types. h (include винбио. h)</dt> </dl> |
 
 

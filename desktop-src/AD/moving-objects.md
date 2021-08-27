@@ -7,12 +7,12 @@ keywords:
 - Active Directory примеры Active Directory, перемещение объектов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7019904d0de42492b98ddd297ab007a6f4e52f6a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1158bfc3fb85712b2ab52b6b69d86c7af52675d210b75b0c9974fc2da6359ae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025862"
 ---
 # <a name="moving-objects"></a>Перемещение объектов
 
@@ -29,6 +29,6 @@ ms.locfileid: "104069761"
 
 Дополнительные сведения и пример кода, демонстрирующий перемещение объекта, см. в разделе [пример кода для перемещения объекта](example-code-for-moving-an-object.md).
 
- 
+ 
 
- 
+ 

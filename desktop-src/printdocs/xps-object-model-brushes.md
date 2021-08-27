@@ -4,12 +4,12 @@ ms.assetid: 392ca1d5-283e-4eed-ae21-6477c469014d
 title: OM-кисти XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0557757bfaf81156b2015525d35897cfb042e44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbca4174c406e0d2fda63d932ee85f2f3c3123b7255b43f77a2365bf0f05e2f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971133"
 ---
 # <a name="xps-om-brushes"></a>OM-кисти XPS
 
@@ -173,7 +173,7 @@ ms.locfileid: "105683207"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

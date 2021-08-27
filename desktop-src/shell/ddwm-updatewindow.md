@@ -12,12 +12,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2bff0e007c735fcf202aaf16cf304eb4ff5358f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a17e015d6dff2ae5133f3ce8245c5ead3c3381f8eb5c48e74946fdf9bcb46ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032842"
 ---
 # <a name="ddwm_updatewindow-message"></a>\_Сообщение ддвм упдатевиндов
 
@@ -41,7 +41,7 @@ ms.locfileid: "104984316"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 ДДВМ \_ упдатевиндов определяется как WM \_ User + 3.
 
@@ -49,14 +49,14 @@ ms.locfileid: "104984316"
 
 Формат буфера обмена [драгвиндов](clipboard.md) предоставляет **HWND** окна, перетащив получателя, в отправителя сообщения **ддвм \_ упдатевиндов** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

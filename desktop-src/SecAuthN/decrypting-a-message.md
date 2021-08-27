@@ -4,18 +4,18 @@ ms.assetid: 4858a43b-3084-4a03-8b6f-4a788cdb3dd5
 title: Расшифровка сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3598025564e607bf25241def4171eba84aa1dbbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca3b01b37b82c3b8c2ca551e2b8113ff171668b2bb95b41fa9b8363e5b3ae4af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008642"
 ---
 # <a name="decrypting-a-message"></a>Расшифровка сообщения
 
 В следующем примере показано получение и расшифровка зашифрованного сообщения.
 
-В примере предполагается, что инициализирована переменная **сечандле** с именем `phContext` и структура **сокета** с именем `s` . Объявления и инициации этих переменных см. в разделе [Использование SSPI с клиентом сокетов Windows](using-sspi-with-a-windows-sockets-client.md) и [Использование SSPI с сервером Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Этот пример включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
+В примере предполагается, что инициализирована переменная **сечандле** с именем `phContext` и структура **сокета** с именем `s` . объявления и инициации этих переменных см. в разделе [использование sspi с клиентом Windows sockets](using-sspi-with-a-windows-sockets-client.md) и [использование sspi с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md). Этот пример включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
 
 
 ```C++

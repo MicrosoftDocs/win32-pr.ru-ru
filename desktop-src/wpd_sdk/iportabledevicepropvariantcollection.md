@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 14ba07894c74567487704bb1f63e7242542af313
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5f6a59dfd741eb524c4b6015c5384123b6a2d491b5bdc030053bbc88ad6800a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026892"
 ---
 # <a name="iportabledevicepropvariantcollection-interface"></a>Интерфейс Ипортабледевицепропвариантколлектион
 
@@ -43,7 +43,7 @@ ms.locfileid: "105717873"
 |:----------------------------------------------------------------------|:------------------------------------------------------------------------------------|
 | [**Включить**](iportabledevicepropvariantcollection-add.md)               | Добавляет элемент в коллекцию.<br/>                                          |
 | [**ChangeType**](iportabledevicepropvariantcollection-changetype.md) | Преобразует все элементы в коллекции в указанный объект VARTYPE.<br/>           |
-| [**Открытым**](iportabledevicepropvariantcollection-clear.md)           | Освобождает, а затем удаляет все элементы из коллекции.<br/>                  |
+| [**Clear**](iportabledevicepropvariantcollection-clear.md)           | Освобождает, а затем удаляет все элементы из коллекции.<br/>                  |
 | [**GetAt**](iportabledevicepropvariantcollection-getat.md)           | Извлекает элемент из коллекции по индексу, начинающимся с нуля.<br/>             |
 | [**GetCount**](iportabledevicepropvariantcollection-getcount.md)     | Возвращает число элементов в этой коллекции.<br/>                        |
 | [**GetType**](iportabledevicepropvariantcollection-gettype.md)       | Возвращает тип данных элементов коллекции.<br/>                  |
@@ -53,18 +53,18 @@ ms.locfileid: "105717873"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ description: Безопасность активации
 ms.assetid: 0c13d473-a9f9-40b5-951b-731eab736fe6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e5b01b918666e911d96ed16528ba5045103f445
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4be436997889edd14704d5fa7646db689bba405825c1e8bcf9d021ea850ae70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104488365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048912"
 ---
 # <a name="activation-security"></a>Безопасность активации
 
@@ -19,13 +19,13 @@ ms.locfileid: "104488365"
 
 Дополнительные сведения о безопасности активации см. в разделе [**коаусинфо**](/windows/desktop/api/wtypesbase/ns-wtypesbase-coauthinfo) и [**косерверинфо**](/windows/win32/api/objidlbase/ns-objidlbase-coserverinfo).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Безопасность в COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

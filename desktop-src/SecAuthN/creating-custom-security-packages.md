@@ -4,12 +4,12 @@ ms.assetid: af8b9796-77e7-43c1-8f8e-acee01a62bf9
 title: Создание пользовательских пакетов безопасности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2136775d18e9d33f59d1b1f44fd817b3f3271ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88093ba7faed1ac2287c2a54391015984e83d4ad3878a60453978a9924706f2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008852"
 ---
 # <a name="creating-custom-security-packages"></a>Создание пользовательских пакетов безопасности
 
@@ -33,7 +33,7 @@ ms.locfileid: "103910635"
 
 Сведения о регистрации библиотеки DLL поставщика общих служб и AP см. в разделе [Регистрация DLL-библиотек SSP и AP](registering-ssp-ap-dlls.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

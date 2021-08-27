@@ -3,7 +3,7 @@ title: LISTBOX. popUp
 description: Атрибут popUp задает значение, указывающее, представляет ли элемент элемент управления "всплывающее окно" или "список".
 ms.assetid: b0ade23a-6164-4dd4-b599-43ea1fcd44e4
 keywords:
-- Проигрыватель Windows Media LISTBOX. popUp
+- проигрыватель Windows Media LISTBOX. popUp
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43d197adbdf2ec27ea6ef7bf04c5c71d15ae923d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a755a4fc8f5e1451ee118f718a9b6618e75875789faef7318164f7f2add2069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996444"
 ---
 # <a name="listboxpopup"></a>LISTBOX. popUp
 
@@ -35,14 +35,14 @@ ms.locfileid: "105704424"
 
 | Значение | Описание                                |
 |-------|--------------------------------------------|
-| true  | Элемент представляет элемент управления Popup.    |
+| Да  | Элемент представляет элемент управления Popup.    |
 | false | Элемент представляет элемент управления "список". |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент **Popup** представляет элемент управления "список", который отображается только при необходимости. Он идентичен элементу **ListBox** , за исключением значения по умолчанию этого атрибута, которое изменяет поведение экрана. Для элементов **ListBox** значение по умолчанию — false. Для элементов **Popup** значение по умолчанию — true. Вместо указания этого атрибута следует использовать элемент **ListBox** или **Popup** в соответствии с желаемым поведением.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105704424"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 

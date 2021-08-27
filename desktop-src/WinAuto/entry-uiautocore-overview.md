@@ -15,12 +15,12 @@ keywords:
 - Microsoft UI Automation для Microsoft Win32 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba8147a8dd7f8d03340fad43465c225a174e606
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1d62627d1e096738abad67d7bb2bcf0e482052c5e5b4e0e913d9c2ea0ee56c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104411166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052742"
 ---
 # <a name="ui-automation-fundamentals"></a>Основы модели автоматизации пользовательского интерфейса
 
@@ -41,19 +41,19 @@ API автоматизации пользовательского интерфе
 -   [Поддержка модели автоматизации пользовательского интерфейса для текстового содержимого](uiauto-ui-automation-textpattern-overview.md)
 -   [Поддержка модели автоматизации пользовательского интерфейса для перетаскивания](ui-automation-support-for-drag-and-drop.md)
 -   [Вопросы безопасности для вспомогательных технологий](uiauto-securityoverview.md)
--   [Рекомендации по использованию безнадежных массивов](uiauto-workingwithsafearrays.md)
+-   [рекомендации по использованию массивов Сейф](uiauto-workingwithsafearrays.md)
 -   [Спецификация модели автоматизации пользовательского интерфейса и обязательство сообщества](uiauto-specandcommunitypromise.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Модель автоматизации пользовательского интерфейса](entry-uiauto-win32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

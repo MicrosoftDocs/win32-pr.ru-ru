@@ -3,10 +3,10 @@ title: Проверка отзыва сертификата
 description: Проверка отзыва сертификата
 ms.assetid: 498bd2a5-4336-4fc4-9718-6c5fe2db9066
 keywords:
-- Windows Media Format SDK, импорт DRM
-- Windows Media Format SDK, импорт
-- Пакет SDK для формата Windows Media, отзыв сертификата
-- Windows Media Format SDK, отзыв сертификатов
+- Windows Пакет SDK для формата мультимедиа, импорт DRM
+- Windows Пакет SDK для формата мультимедиа, импорт
+- Windows Пакет SDK для формата мультимедиа, отзыв сертификата
+- Windows Пакет SDK для формата мультимедиа, отзыв сертификатов
 - Управление цифровыми правами (DRM), импорт
 - DRM (Управление цифровыми правами), импорт
 - Управление цифровыми правами (DRM), отзыв сертификата
@@ -22,29 +22,29 @@ keywords:
 - сертификаты, отзыв
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbb72dd52870437ef9b69b30cc36a57725abe09
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c3d9f8aaa299873513f88a2be258cf2ddd96147934e461cbde49630542fd9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028072"
 ---
 # <a name="checking-certificate-revocation"></a>Проверка отзыва сертификата
 
-При импорте содержимого в Windows Media DRM необходимо убедиться, что сертификат в коллекции сертификатов не отозван путем проверки того, что сертификат в коллекции не содержится в списке отзыва. Список отзыва извлекается с помощью метода [**ивмдрмсекурити:: жетревокатиондата**](iwmdrmsecurity-getrevocationdata.md) .
+при импорте содержимого в Windows Media DRM необходимо убедиться, что сертификат в коллекции сертификатов не отозван, убедившись, что сертификат в коллекции не содержится в списке отзыва. Список отзыва извлекается с помощью метода [**ивмдрмсекурити:: жетревокатиондата**](iwmdrmsecurity-getrevocationdata.md) .
 
 Затем используйте метод [**ивмдрмсекурити:: чеккцертфорревокатион**](iwmdrmsecurity-checkcertforrevocation.md) , чтобы убедиться, что сертификат не отозван.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Импорт DRM**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

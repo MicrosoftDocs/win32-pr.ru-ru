@@ -4,12 +4,12 @@ ms.assetid: f87bef33-9a48-4568-b554-7eec34f0bd55
 title: Свойство MFPKEY_WMAAECMA_DEVICEPAIR_GUID (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a586d7d31f29b20eb7ca39320d5fa57b9943715a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 174bbae3c83ef28ece7d05e36b0a05813078a9a9fba73ac7fae7dba25b67fb00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973333"
 ---
 # <a name="mfpkey_wmaaecma_devicepair_guid-property"></a>МФПКЭЙ \_ вмааекма \_ Девицепаир, \_ свойство GUID
 
@@ -23,11 +23,11 @@ ms.locfileid: "104155391"
 
 VT \_ CLSID
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [DSP для записи речи](voicecapturedmo.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Задайте это свойство, если вы используете DSP в режиме фильтрации, а значение свойства [мфпкэй вмааекма " \_ \_ получить \_ \_ статистику TS](mfpkey-wmaaecma-retrieve-ts-statsproperty.md) " является вариантным \_ true.
 
@@ -41,9 +41,9 @@ VT \_ CLSID
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: Сообщение WM_CLIPBOARDUPDATE (Winuser. h)
 description: Посылается, когда содержимое буфера обмена изменилось.
 ms.assetid: 1508aa22-9cf0-40a2-8cb0-ce7c8671df2c
 keywords:
-- Обмен данными с сообщениями WM_CLIPBOARDUPDATE
+- WM_CLIPBOARDUPDATE Exchange данных сообщений
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303110f0d094cfed336a9f92006b3720a0ccc83b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d0483ba43b6b0c660daee74637fd9f9ac8d377a16097b5cfd60632c1b691ead7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991224"
 ---
 # <a name="wm_clipboardupdate-message"></a>\_Сообщение КЛИПБОАРДУПДАТЕ WM
 
@@ -54,7 +54,7 @@ ms.locfileid: "104136170"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы зарегистрировать окно для получения этого сообщения, используйте функцию [**аддклипбоардформатлистенер**](/windows/desktop/api/Winuser/nf-winuser-addclipboardformatlistener) .
 
@@ -64,9 +64,9 @@ ms.locfileid: "104136170"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

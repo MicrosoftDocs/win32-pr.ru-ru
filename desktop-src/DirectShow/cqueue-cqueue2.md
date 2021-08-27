@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afdb22dc265989e923ab285a190753fd63c6842d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: e0364b952897f26eec6d2164ba1300e4abf9e67bc8530ba78c03da8d066aac49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106187901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954003"
 ---
 # <a name="cqueuecqueue-constructor-wxutilh---no-parameters"></a>Ккуеуе. Ккуеуе-конструктор (Вксутил. h) — нет параметров
 
@@ -44,16 +44,16 @@ CQueue();
 
 В качестве размера очереди задано значение по УМОЛЧАНИю \_ куеуесизе.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Заголовок  | Вксутил. h (включение Streams. h)                                                                                   |
+| Заголовок  | вксутил. h (включает Потоки. h)                                                                                   |
 | Библиотека | Стрмбасе. lib (розничные сборки); Стрмбасд. lib (отладочные сборки) |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

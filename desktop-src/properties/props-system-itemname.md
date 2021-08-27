@@ -4,12 +4,12 @@ ms.assetid: 8add2d72-efd3-4971-89d9-428190115ba0
 title: System. ItemName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab5ba987d8bdcd966724c15f0632edbfc8eb3d9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: deb6fa89b55ddb2b9050916db6d05f359839c52134c849a54a8768b4b16cd9fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970403"
 ---
 # <a name="systemitemname"></a>System. ItemName
 
@@ -31,13 +31,13 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Если элемент является файлом, это свойство включает расширение во всех случаях и локализуется, если локализованное имя доступно. Если элемент является сообщением, значение этого свойства не включает префиксы перенаправления или отклика. Дополнительные сведения см. в разделе [System. итемнамепрефикс](./props-system-itemnameprefix.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

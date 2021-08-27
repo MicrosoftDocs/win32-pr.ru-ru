@@ -4,12 +4,12 @@ description: Создание и компиляция интерфейса яз�
 ms.assetid: 2594e3d6-d44a-4e12-8286-b9700e67702e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22da60f20cba6c558c7f1a67478adef7b407d591
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5ae89a740831fef28ade4c07dc6bbe2b9b68a8a154eb119f47e16b2cb68b325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010752"
 ---
 # <a name="using-midl"></a>Использование MIDL
 
@@ -67,6 +67,6 @@ interface MyInterface
 -   [Справочник по языку MIDL](/windows/desktop/Midl/midl-language-reference)
 -   [Ошибки и предупреждения компилятора MIDL](/windows/desktop/Midl/midl-compiler-errors-and-warnings)
 
- 
+ 
 
- 
+ 

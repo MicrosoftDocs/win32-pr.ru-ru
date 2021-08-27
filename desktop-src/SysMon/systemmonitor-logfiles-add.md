@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f690670606cd7ee307ba945fc2daabe92953e81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af01c5c7a1bbe16826457d7e1f8700df01876827c522a36db41f6c3843101d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882339"
 ---
 # <a name="logfilesadd-method"></a>Файл журнала. Add, метод
 
@@ -45,17 +45,17 @@ LogFiles.Add( _
 *путь к файлу* \[ окне\]
 </dt> <dd>
 
-Путь к файлу журнала. Путь можно указать как абсолютный, относительный или UNC-путь. Имя файла журнала должно иметь расширение CSV, TSV или BLG.
+Путь к файлу журнала. Путь можно указать как абсолютный, относительный или UNC-путь. Имя файла журнала должно быть либо .csv, TSV, либо. blg.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания файлов журналов, добавляемых в эту коллекцию, необходимо использовать средство Logman.exe или оснастку MMC Perfmon. msc. Для Perfmon. msc журналы счетчиков находятся в папке **журналы и оповещения производительности**. Дополнительные сведения об использовании Logman.exe или Perfmon. msc см. в подокне **центра справки и поддержки**, которое можно найти по программе Logman.
 
-**До Windows Vista:** Невозможно добавить файлы журнала в [**коллекцию файлов журнала**](systemmonitor-logfiles.md) , если для [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) задано значение [**DataSourceTypeConstants.sysмонлогфилес**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Сначала задайте **системмонитор. DataSourceType** для **DataSourceTypeConstants.sysмоннуллдатасаурце**, добавьте файлы журнала и счетчики, а затем установите **Системмонитор. DataSourceType** в **DataSourceTypeConstants.sysмонлогфилес**.
+**до Windows Vista:** Невозможно добавить файлы журнала в [**коллекцию файлов журнала**](systemmonitor-logfiles.md) , если для [**системмонитор. DataSourceType**](systemmonitor-datasourcetype.md) задано значение [**DataSourceTypeConstants.sysмонлогфилес**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Сначала задайте **системмонитор. DataSourceType** для **DataSourceTypeConstants.sysмоннуллдатасаурце**, добавьте файлы журнала и счетчики, а затем установите **Системмонитор. DataSourceType** в **DataSourceTypeConstants.sysмонлогфилес**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ LogFiles.Add( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

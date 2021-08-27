@@ -4,12 +4,12 @@ ms.assetid: 75f5071c-040b-4e65-a80e-e1fea63535b0
 title: Синтаксис командной строки Всдкодежен
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7db3afe9b13286833f8563c0cacb41919d77bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fff02fd9bbbcfddd20a68948f139e765d27a86363df12fc0057627717e53cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103898518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049642"
 ---
 # <a name="wsdcodegen-command-line-syntax"></a>Синтаксис командной строки Всдкодежен
 
@@ -128,18 +128,18 @@ ms.locfileid: "103898518"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

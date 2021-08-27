@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 490d0f575f994bc3a898bd8208d05bffb92e330d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3f5840a7d8cdef2e0737a3be82a5463938cadcb621baaf44f10c062ec363754f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "105710189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028102"
 ---
 # <a name="can_skip_forward"></a>Возможность \_ перехода \_ вперед
 
@@ -31,11 +31,11 @@ g \_ всзвмскипфорвард
 
 **\_bool типа \_ ВМТ**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это закодированный атрибут.
 
-Этот атрибут не может дублироваться на уровне файла. Если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать его нормальные значения объектам пакета SDK Windows Media Format.
+Этот атрибут не может дублироваться на уровне файла. если этот атрибут используется для отдельного потока, он будет рассматриваться как пользовательские метаданные и не будет передавать свое нормальное значение объектам из пакета SDK Windows Media Format.
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -44,9 +44,9 @@ g \_ всзвмскипфорвард
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

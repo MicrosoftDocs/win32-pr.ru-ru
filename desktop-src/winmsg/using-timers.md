@@ -4,12 +4,12 @@ ms.assetid: eee54078-759f-4fd4-9cf4-10a8bde888b7
 title: Использование таймеров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 440c6479aca9d5394c2ad9ade87dd77b1474f31f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7922be60012ae81ce1971afe6f2300f54689f7a6cc8d7f088df2fb126e834ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104348182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028312"
 ---
 # <a name="using-timers"></a>Использование таймеров
 
@@ -20,7 +20,7 @@ ms.locfileid: "104348182"
 -   [Создание таймера](#creating-a-timer)
 -   [Уничтожение таймера](#destroying-a-timer)
 -   [Использование функций таймера для перехвата ввода с помощью мыши](#using-timer-functions-to-trap-mouse-input)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="creating-a-timer"></a>Создание таймера
 
@@ -315,7 +315,7 @@ VOID CALLBACK MyTimerProc(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

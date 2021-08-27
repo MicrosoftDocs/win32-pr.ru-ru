@@ -4,12 +4,12 @@ ms.assetid: ee4a9908-7ba8-4701-84a4-c50b6b989e82
 title: Получение учетных данных SChannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34e5a5b82b3ed76e905c967009da52d17bff0f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 216965d5b6fb1b21c36425242f54150112b2dcfb00dd7184c828aba865bbb5a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921202"
 ---
 # <a name="obtaining-schannel-credentials"></a>Получение учетных данных SChannel
 
@@ -17,7 +17,7 @@ ms.locfileid: "103813608"
 
 Приложение получает учетные данные путем вызова функции [**AcquireCredentialsHandle**](/windows/win32/api/sspi/nf-sspi-acquirecredentialshandlea) , которая возвращает маркер запрошенным учетным данным. Так как дескрипторы учетных данных используются для хранения сведений о конфигурации, один и тот же дескриптор не может использоваться как для операций на стороне клиента, так и для операции на стороне сервера. Это означает, что приложения, поддерживающие как клиентские, так и серверные соединения, должны получить как минимум два дескриптора учетных данных.
 
-В Windows XP структура учетного записи [**SChannel \_**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) содержит следующие указания:
+в Windows XP структура учетного записи [**SCHANNEL \_**](/windows/desktop/api/Schannel/ns-schannel-schannel_cred) содержит следующие указания:
 
 -   Протокол безопасности
 -   Допустимые шифры

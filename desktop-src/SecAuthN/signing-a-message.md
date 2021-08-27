@@ -4,12 +4,12 @@ ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: Подписывание сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f8151a66120575bfcaeda62955a7f6aa47e8e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b605ccaaa4adfe37dc2bbe5f5c0ed809f0656896e5e85478b0b63740bf6f63e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918053"
 ---
 # <a name="signing-a-message"></a>Подписывание сообщения
 
@@ -17,7 +17,7 @@ ms.locfileid: "105664167"
 
 В следующем примере показана клиентская часть, создающая подписанное сообщение для отправки на сервер. Перед вызовом [**макесигнатуре**](/windows/desktop/api/Sspi/nf-sspi-makesignature)клиент вызывает [**QueryContextAttributes (General)**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) с структурой [**\_ размеров секпкгконтекст**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_sizes) , чтобы определить длину буфера, необходимого для хранения подписи сообщения. Если элемент **кбмакссигнатуре** равен нулю, [*пакет безопасности*](../secgloss/s-gly.md) не поддерживает подписывание сообщений. В противном случае этот элемент указывает размер буфера, выделяемого для получения подписи.
 
-В примере предполагается, что инициализирована переменная **сечандле** с именем *Фконтекст* и структура **сокета** с именем *s* . Объявления и инициации этих переменных см. в разделе [Использование SSPI с клиентом сокетов Windows](using-sspi-with-a-windows-sockets-client.md) и [Использование SSPI с сервером Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Этот пример включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
+В примере предполагается, что инициализирована переменная **сечандле** с именем *Фконтекст* и структура **сокета** с именем *s* . объявления и инициации этих переменных см. в разделе [использование sspi с клиентом Windows sockets](using-sspi-with-a-windows-sockets-client.md) и [использование sspi с сервером сокетов Windows](using-sspi-with-a-windows-sockets-server.md). Этот пример включает вызовы функций в Secur32. lib, которые должны быть включены в библиотеки ссылок.
 
 
 ```C++

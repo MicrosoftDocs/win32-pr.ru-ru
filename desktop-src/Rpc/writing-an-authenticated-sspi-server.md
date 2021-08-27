@@ -6,12 +6,12 @@ keywords:
 - Удаленный вызов процедур RPC, задачи, написание сервера SSPI с проверкой подлинности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b1cb06cfc626bc8130f3c4b0cee0a7b6d7893e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 462f153905d6b654a0533c7bd05bff0e9627869d6910fb1fea05fe9340b788a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010352"
 ---
 # <a name="writing-an-authenticated-sspi-server"></a>Написание сервера SSPI с проверкой подлинности
 
@@ -52,13 +52,13 @@ rpcStatus = RpcServerRegisterAuthInfo (
 > [!IMPORTANT]
 > Регистрация интерфейса с помощью [**рпксерверрегистерифекс**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex) с функцией обратного вызова безопасности является наиболее часто рекомендуемым методом проверки учетных данных клиента.
 
- 
+ 
 
 -   Вызовите [**рпкбиндингинкаусклиент**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) , чтобы определить уровень безопасности, который использует клиент. После этого заглушка может вернуть ошибку, если клиент не прошел проверку подлинности.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e57a42a46b9247133c1427f3ae270645f6133523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed002e5922305c9003e13b7960a0ac0f3e0e043d0b71da2425f59dbf998daf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982924"
 ---
 # <a name="apisetcolumn-method-jet_sesid-jet_tableid-jet_columnid-single"></a>Метод API. Сетколумн (JET_SESID, JET_TABLEID, JET_COLUMNID, Single)
 

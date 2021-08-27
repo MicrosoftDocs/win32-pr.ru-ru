@@ -3,7 +3,7 @@ title: Список воспроизведения.
 description: Атрибут списка воспроизведения указывает или получает объект списка воспроизведения, к которому элемент списка воспроизведения предоставляет интерфейс.
 ms.assetid: 4cfbf9d1-8381-4f59-8e6f-9b07f5642c39
 keywords:
-- Проигрыватель Windows Media. список воспроизведения.
+- список воспроизведения проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb9fde4af32356da79e7c8941b76f51e0714b4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d7a62fd76fd3a458640c417c2de50af510ffbb96780ed4f91cb2355564df8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995654"
 ---
 # <a name="playlistplaylist"></a>Список воспроизведения.
 
@@ -31,21 +31,21 @@ ms.locfileid: "105704390"
 
 Этот атрибут является объектом **списка воспроизведения** для чтения и записи и не имеет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если указанный список воспроизведения недопустим или значение не указано, элемент **списка воспроизведения** отображает текущий воспроизводимый элемент мультимедиа.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: e350bde6d1b898088ccb9b68d10a9a346935bfd5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a0911a3e9e5bf0d1aa1df4d09f0b1fbcda0db2bc0bfe0c4c4b31da0f47c62999
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990644"
 ---
 # <a name="d3dxvec3barycentric-function-d3dx10mathh"></a>Функция D3DXVec3BaryCentric (D3DX10Math. h)
 
@@ -123,13 +123,13 @@ D3DXVECTOR3* D3DXVec3BaryCentric(
 
 Координаты барицентрик определяют точку внутри треугольника с точки зрения вершин треугольника. Более подробное описание координат барицентрик см. в разделе [Описание координат Барицентрик MathWorld](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3DX10Math. h</dt> </dl> |
 
 
 

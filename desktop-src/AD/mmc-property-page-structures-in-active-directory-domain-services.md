@@ -7,12 +7,12 @@ keywords:
 - Active Directory структуры страниц свойств MMC Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8356bb01c2ba317fc25a6cf283da1f16d38d5a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb39624dfe36eeae90319e9a0a28ed0f150bde6899a670c26ece90078f1acf4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025912"
 ---
 # <a name="mmc-property-page-structures-in-active-directory-domain-services"></a>Структуры страниц свойств MMC в службах домен Active Directory Services
 
@@ -21,9 +21,9 @@ ms.locfileid: "103773136"
 -   [**адспроперрор**](/windows/desktop/api/Adsprop/ns-adsprop-adsproperror)
 -   [**адспропинитпарамс**](/windows/desktop/api/Adsprop/ns-adsprop-adspropinitparams)
 
- 
+ 
 
- 
+ 
 
 
 

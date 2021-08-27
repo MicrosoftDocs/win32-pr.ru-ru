@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 9bc2ae6df420f38d11fb2f0f19d5fcbd0bcc0909
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6db5ef09a0eca56fec8101d710c62eb5165742d47e3961593f38d4a59851ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052032"
 ---
 # <a name="iwinhttprequestsetrequestheader-method"></a>Метод Ивинхттпрекуест:: Сетрекуессеадер
 
@@ -59,7 +59,7 @@ HRESULT SetRequestHeader(
 
 В случае успешного выполнения возвращается значение **S \_** , а в противном случае — значение ошибки.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Заголовки передаются по перенаправлениям. Это может создать уязвимость системы безопасности. Чтобы избежать переноса заголовков при перенаправлении, используйте обратный [*вызов \_ \_ обратного вызова состояния WinHTTP*](/windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback) для исправления конкретных заголовков при перенаправлении.
 
@@ -68,7 +68,7 @@ HRESULT SetRequestHeader(
 Проверяется имя и значение заголовков запросов, добавленных с помощью этого метода. Заголовки должны иметь правильный формат. Дополнительные сведения о допустимых заголовках HTTP см. в [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt). Если используется недопустимый заголовок, возникает ошибка и заголовок не добавляется.
 
 > [!Note]  
-> Для Windows XP и Windows 2000 см. раздел [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
+> сведения о Windows XP и Windows 2000 см. в разделе [требования к времени выполнения](winhttp-start-page.md) на начальной странице WinHTTP.
 
  
 
@@ -190,14 +190,14 @@ WinHttpReq.Send();
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>            |
-| Минимальная версия сервера<br/> | Windows Server 2003, Windows 2000 Server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
+| Минимальная версия клиента<br/> | Windows XP, Windows 2000 Professional с SP3 \[ только для настольных приложений\]<br/>            |
+| Минимальная версия сервера<br/> | Windows сервер 2003, Windows 2000 server с пакетом обновления 3 (SP3), \[ только классические приложения\]<br/>         |
 | Распространяемые компоненты<br/>          | WinHTTP 5,0 и Internet Explorer 5,01 или более поздней версии в Windows XP и Windows 2000.<br/> |
 | IDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |
@@ -205,7 +205,7 @@ WinHttpReq.Send();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7e41ca83c98507c65ead8d1faf2922ee84b45649
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 306b4c194d7354b071d4daaf223a17f977b38b44243adaef856f9acffbf49c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104068940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972343"
 ---
 # <a name="ibasicdevicemanufacturerurl-method"></a>Метод Ибасикдевице:: Мануфактурерурл
 
@@ -62,7 +62,7 @@ HRESULT ManufacturerUrl(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

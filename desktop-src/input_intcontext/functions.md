@@ -12,12 +12,12 @@ keywords:
 - перо
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 7f57bf6ac2b5d9bc7f17a43cd84a6e8eb7d828a4
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: 5f0769aa5b9b097b23206c0515bd32552a59969404e72bbfcf26973d5d4f3de6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "105719097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758340"
 ---
 # <a name="interaction-context-functions"></a>Функции контекста взаимодействия
 
@@ -50,6 +50,6 @@ ms.locfileid: "105719097"
 | [**сетпропертинтерактионконтекст**](/windows/win32/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext)<br/> | Задает свойства объекта [контекста взаимодействия](interaction-context-portal.md) .<br/> |
 | [**стопинтерактионконтекст**](/windows/win32/api/interactioncontext/nf-interactioncontext-stopinteractioncontext)<br/> | Устанавливает [**состояние взаимодействия**](/windows/win32/api/interactioncontext/ne-interactioncontext-interaction_state) в \_ состояние \_ простоя взаимодействия и оставляет все параметры конфигурации взаимодействия и параметры без изменений. Текущие взаимодействия отменяются и уведомления отправляются по мере необходимости.<br/> Перенастройка [контекста взаимодействия](interaction-context-portal.md) перед следующим использованием невозможна.<br/> |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Справочник по контексту взаимодействия](interaction-context-reference.md)

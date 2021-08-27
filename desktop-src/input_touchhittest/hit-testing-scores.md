@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: f6590e7d56c1c9d92f0ff20524b6e4222d8655b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18b321272637f4e6931bdc9115e64f8b0553e90e94d8013147ca7a577bad1eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758016"
 ---
 # <a name="touch-hit-testing-scores"></a>Оценки проверки попадания касания
 
@@ -33,6 +33,6 @@ ms.locfileid: "104534004"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
 | Header<br/>                   | Winuser. h |
