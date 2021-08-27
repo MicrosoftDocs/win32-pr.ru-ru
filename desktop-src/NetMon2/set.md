@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: fdefc6f1233f820321bae6795f457e345fb5d4b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d66ba5dd3a977967d0020a00d5813c3f689142b1e58c631c99f9bd10fceba3ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074404"
 ---
 # <a name="set-structure"></a>ЗАДАТЬ структуру
 
@@ -144,7 +144,7 @@ typedef struct _SET {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **набора** используется для определения набора данных сравнения, которые сетевой монитор могут использовать для интерпретации значения свойства в пакете протокола. Если требуется набор данных сравнения, указатель на структуру **Set** указывается в элементе **лпсет** структуры [PROPERTYINFO](propertyinfo.md) .
 
@@ -162,7 +162,7 @@ typedef struct _SET {
 
     Набор меток может быть основан на парах BYTE, WORD, DWORD, ЛАРЖЕИНТ, SYSTEMTIME и BIT меток.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -174,7 +174,7 @@ typedef struct _SET {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

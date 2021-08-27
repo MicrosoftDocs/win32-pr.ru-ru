@@ -4,12 +4,12 @@ ms.assetid: d2b64cdf-e0b4-4c92-9cce-7f50753b875f
 title: Атрибут элемента управления progress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8854106ebacc8af2bdc0acfb58c5afc5d700df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a867772ff1452087ab22da76d3c1f93aea32e5ad50bd23ffe8ace62889086781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105651150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074634"
 ---
 # <a name="progress-control-attribute"></a>Атрибут элемента управления progress
 
@@ -25,7 +25,7 @@ ms.locfileid: "105651150"
 
 Этот атрибут не использует битовые флаги.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 См. раздел [атрибуты элементов управления](control-attributes.md) и элемент управления, которые необходимо создать в элементах [управления](controls.md).
 

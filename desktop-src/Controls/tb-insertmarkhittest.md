@@ -3,7 +3,7 @@ title: Сообщение TB_INSERTMARKHITTEST (Коммктрл. h)
 description: Извлекает данные метки вставки для точки на панели инструментов.
 ms.assetid: 65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e
 keywords:
-- Элементы управления Windows для TB_INSERTMARKHITTEST сообщений
+- элементы управления Windows сообщений TB_INSERTMARKHITTEST
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5237d5a13250c3eb95bfe741415a9da245585c78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cbc231b915d6d71cc22ee3cd98b1c6dd602451cc3c70d2153ba1bee8a0d55657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061364"
 ---
 # <a name="tb_insertmarkhittest-message"></a>\_Сообщение ИНСЕРТМАРКХИТТЕСТ ТБ
 
@@ -47,15 +47,15 @@ ms.locfileid: "104071448"
 
 Возвращает ненулевое значение, если точка является отметкой вставки, или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

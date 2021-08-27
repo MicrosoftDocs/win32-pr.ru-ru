@@ -4,12 +4,12 @@ ms.assetid: 98a772c9-2a21-489f-ad8d-3b772b7ff892
 title: SENSOR_CATEGORY_SCANNER (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b38fdb3358ff3ce2ae96ce901972cc6842a0d1b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59af4dbcd4ce4687a7fe2853384b4b19287cd95a0dd2033e7af031d2289f3d87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126594"
 ---
 # <a name="sensor_category_scanner"></a>\_сканер категории \_ датчика
 
@@ -50,9 +50,9 @@ ms.locfileid: "103991007"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>                                           |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>                                           |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                            |
-| Header<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Sensors. h</dt> </dl> |
 
 
 

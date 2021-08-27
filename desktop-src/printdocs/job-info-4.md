@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 5a6ccd7bf589ed341c9aceab86205cd9852c0896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd338b4e6e486c59bfdac705b68c72c56eafb96c9f4e1899e9b4cb3b294791de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091924"
 ---
 # <a name="job_info_4-structure"></a>\_Структура сведений о задании \_ 4
 
@@ -179,7 +179,7 @@ typedef struct _JOB_INFO_4 {
 
  
 
-В Windows XP и более поздних версиях Windows также можно использовать следующие значения:
+в Windows XP и более поздних версиях Windows также можно использовать следующие значения:
 
 | Значение                 | Значение                                                                                       |
 |-----------------------|-----------------------------------------------------------------------------------------------|
@@ -255,7 +255,7 @@ typedef struct _JOB_INFO_4 {
 
 </dd> <dt>
 
-**Time**
+**Время**
 </dt> <dd>
 
 Общее время (в миллисекундах), прошедшее с момента начала печати задания.
@@ -276,7 +276,7 @@ typedef struct _JOB_INFO_4 {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Мониторы портов, не поддерживающие Труиндофжоб, задают задание как \_ состояние задания, \_ выводимое сразу после отправки задания на принтер.
 

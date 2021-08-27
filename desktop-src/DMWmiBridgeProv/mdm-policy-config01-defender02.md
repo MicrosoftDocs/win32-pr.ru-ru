@@ -1,6 +1,6 @@
 ---
 title: Класс MDM_Policy_Config01_Defender02
-description: Политика MDM \_ \_ Config01 \_ Defender02class представляет политики, связанные с защитником Windows.
+description: политика MDM \_ \_ Config01 \_ Defender02class представляет политики, связанные с Защитник Windows.
 ms.assetid: 6d9d4edd-fcb6-45ea-bc5d-1bffb9cf8740
 keywords:
 - Класс MDM_Policy_Config01_Defender02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b184008fc0ce7fc44dcb7106ceec3abc0e91450d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a9ae2c86b030c936f3dec88f8f48f806f0dd1d5d8430b7610ee51f567898c8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104264"
 ---
 # <a name="mdm_policy_config01_defender02-class"></a>\_Класс политики MDM \_ Config01 \_ Defender02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
-Класс **\_ политики MDM \_ Config01 \_ Defender02** представляет политики, связанные с защитником Windows.
+класс **\_ политики MDM \_ Config01 \_ Defender02** представляет политики, связанные с Защитник Windows
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства.
 
@@ -84,7 +84,7 @@ class MDM_Policy_Config01_Defender02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ политики MDM \_ Config01 \_ Defender02** имеет следующие свойства.
 
@@ -507,13 +507,13 @@ class MDM_Policy_Config01_Defender02
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMv2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -521,7 +521,7 @@ class MDM_Policy_Config01_Defender02
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

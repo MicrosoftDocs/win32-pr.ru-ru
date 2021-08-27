@@ -3,7 +3,7 @@ title: Сообщение TTM_HITTEST (Коммктрл. h)
 description: Проверяет точку, чтобы определить, находится ли она в ограничивающем прямоугольнике указанного инструмента, и, если это так, получает сведения о средстве.
 ms.assetid: d4dcc29b-c64c-41b8-a153-300df68ecdf5
 keywords:
-- Элементы управления Windows для TTM_HITTEST сообщений
+- элементы управления Windows сообщений TTM_HITTEST
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b515ccb5c283b66760f24c02749368e424e6fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 105edd555a1da1ba037f7dda114e1d9f9ef53048c02a7cb11e1df1ff0c01ad2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104490674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060524"
 ---
 # <a name="ttm_hittest-message"></a>\_Сообщение ТТМ HITTEST
 
@@ -45,19 +45,19 @@ ms.locfileid: "104490674"
 
 Возвращает **значение true** , если средство занимает указанную точку, или **значение false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение должно быть отправлено, если для инструмента \_ установлен флаг «Track». Дополнительные сведения об этом флаге см. в разделе [**тулинфо**](/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa). ТТМ \_ HITTEST завершится ошибкой \_ , если не задана программа TTF Track, независимо от того, находится ли точка попадания в прямоугольнике инструментов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТТМ \_ ХИТТЕСТВ** (Юникод) и **ТТМ \_ хиттеста** (ANSI)<br/>                   |
 
 

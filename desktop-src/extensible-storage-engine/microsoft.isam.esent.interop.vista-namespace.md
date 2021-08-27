@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 8a6a8e7705b157ce61fc674cb08f19e4eca75f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85258e4e1dab0060ae8586d200c30b9f31d1b779083eb182038f1ed04bdb48a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115623"
 ---
 # <a name="microsoftisamesentinteropvista-namespace"></a>Пространство имен Microsoft. ISAM. ESENT. Interop. Vista
 
@@ -42,7 +42,7 @@ ms.locfileid: "104561860"
 <tr class="even">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>
 <td><a href="dn335321(v=exchg.10).md">вистаапи</a></td>
-<td>API ESENT, которые впервые поддерживались в Windows Vista.</td>
+<td>api ESENT, которые впервые поддерживались в Windows Vista.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292085.pubclass(EXCHG.10).gif" title="Открытый класс" alt="Public class" /></td>

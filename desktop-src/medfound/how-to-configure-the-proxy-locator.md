@@ -4,12 +4,12 @@ ms.assetid: ddc28add-ebf5-4a68-bdf4-dc5f33ab74da
 title: Настройка локатора прокси-сервера
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6b383dda9ac78b2c62aa8481a09cc5c0d7b3ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51dcade0909159856c4286d9c2cd5d4851d10b6d2c5e56054545bdac312e21b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061544"
 ---
 # <a name="how-to-configure-the-proxy-locator"></a>Настройка локатора прокси-сервера
 
@@ -20,7 +20,7 @@ ms.locfileid: "105711351"
 1.  Реализуйте интерфейс [**имфнетпроксилокаторфактори**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) .
 2.  В методе [**имфнетпроксилокаторфактори:: креатепроксилокатор**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator) выполните следующие действия.
     1.  Создайте хранилище свойств.
-    2.  Задайте параметры конфигурации для локатора прокси-сервера. Дополнительные сведения об этих параметрах см. в разделе [Параметры конфигурации локатора прокси-сервера](proxy-locator-configuration-settings.md).
+    2.  Задайте параметры конфигурации для локатора прокси-сервера. дополнительные сведения об этих параметрах см. в разделе [Параметры настройки локатора прокси-сервера](proxy-locator-configuration-settings.md).
     3.  Вызовите функцию [**мфкреатепроксилокатор**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) . Передайте хранилище свойств и протокол. Протокол указывается в параметре *псзпротокол* объекта [**креатепроксилокатор**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator).
 3.  Создайте экземпляр класса фабрики локатора прокси-сервера и получите указатель на его интерфейс [**имфнетпроксилокаторфактори**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) .
 4.  Создайте еще одно хранилище свойств и установите значение свойства [**мфнетсаурце \_ проксилокаторфактори**](mfnetsource-proxylocatorfactory-property.md) , равное указателю [**имфнетпроксилокаторфактори**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) из шага 3.
@@ -160,7 +160,7 @@ HRESULT CreateMediaSourceWithProxyLocator(
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

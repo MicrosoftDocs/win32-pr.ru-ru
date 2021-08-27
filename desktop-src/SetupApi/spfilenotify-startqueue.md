@@ -4,12 +4,12 @@ ms.assetid: 682c2ce0-0c82-402c-a487-db5f2c377f3f
 title: Сообщение SPFILENOTIFY_STARTQUEUE (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 090e3f97dceb1843d75934dd99cca500e6f93086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40d4fedde850d975edd697423339c686fe697911b9bef2fdc252baffda0158f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073214"
 ---
 # <a name="spfilenotify_startqueue-message"></a>\_Сообщение спфиленотифи старткуеуе
 
@@ -49,15 +49,15 @@ SPFILENOTIFY_STARTQUEUE
 
 Если ошибка не возникает, подпрограммы обратного вызова должны возвращать ненулевое значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
 

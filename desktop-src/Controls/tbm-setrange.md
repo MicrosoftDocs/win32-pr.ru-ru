@@ -3,7 +3,7 @@ title: Сообщение TBM_SETRANGE (Коммктрл. h)
 description: Задает диапазон минимальных и максимальных логических позиций ползунка в TrackBar.
 ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
 keywords:
-- Элементы управления Windows для TBM_SETRANGE сообщений
+- элементы управления Windows сообщений TBM_SETRANGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9d870df628b06031374260c679f792f0b7218a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcd4bf71cfcbc36e098bc83568bdf519209ec82cc9889b6b5ec3934d349f737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061144"
 ---
 # <a name="tbm_setrange-message"></a>\_Сообщение SETRANGE ТБМ
 
@@ -47,25 +47,25 @@ ms.locfileid: "104071375"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если текущая позиция ползунка находится за пределами нового диапазона, сообщение **ТБМ \_ SETRANGE** задает для ползунка значение нового максимального или минимального значения.
 
 Так как это сообщение принимает 2 16-разрядные целочисленные значения без знака, максимальный диапазон, который может указывать это сообщение, — от 0 до 65 535. Чтобы указать большие значения диапазона, используйте сообщения [**ТБМ \_ Сетранжемин**](tbm-setrangemin.md) и [**ТБМ \_ сетранжемакс**](tbm-setrangemax.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

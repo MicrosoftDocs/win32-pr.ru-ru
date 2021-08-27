@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abd944c45fc271a22a0942556038073ebcc591cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4ea5c2dc4cb97b1b9ba02e786efc20a4e2a44990b9a1d28b862aeab254079a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048834"
 ---
 # <a name="idwritefactory2createglyphrunanalysis-method"></a>Метод IDWriteFactory2:: Креатеглифрунаналисис
 
@@ -53,22 +53,22 @@ virtual HRESULT CreateGlyphRunAnalysis(
 *glyphRun* \[ окне\]
 </dt> <dd>
 
-Тип: **const константа \* [**дврите \_ \_ Запуск**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run)* _
+Тип: **[**\_ \_ выполнение**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) \* константы дврите const**
 
 Структура, указывающая свойства запуска глифа.
 
 </dd> <dt>
 
-_transform * \[ в, необязательно\]
+*Преобразование* \[ в необязательное\]
 </dt> <dd>
 
-Тип: **const [**дврите \_ Matrix**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix) \** _
+Тип: **[**дврите \_ Матрица**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix) \* const**
 
 Необязательное преобразование, применяемое к глифам и их позициям. Это преобразование применяется после масштабирования, указанного в параметре Емсизе и pixelsPerDip.
 
 </dd> <dt>
 
-_renderingMode * 
+*рендерингмоде* 
 </dt> <dd>
 
 Тип: **\_ \_ режим рендеринга дврите**
@@ -137,21 +137,21 @@ _renderingMode *
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                          |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                          |
 | Минимальный поддерживаемый телефон<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 и среда выполнения Windows приложения\]<br/> |
 | Библиотека<br/>                  | <dl> <dt>Дврите. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -68,16 +68,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a0e7ee1ab0364a31f136f0c0cdbf87f459225b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21550e0c8872f0d0f8c067b38044a946f10f452d06ca213dea414d34756ce7ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083204"
 ---
 # <a name="wfp-error-codes"></a>Коды ошибок WFP
 
-Коды ошибок, характерные для платформы фильтрации Windows (WFP), приведены ниже.
+Windows Коды ошибок, характерные для платформы фильтрации (WFP), приведены ниже.
 
 <dl> <dt>
 
@@ -852,15 +852,15 @@ WFP поддерживает не более 2 6 подуровней.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Winerror. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Winerror. h</dt> </dl> |
 
 
 

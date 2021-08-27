@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 41b3cb6cde796f64ee3a5953ed848d105a10bc5e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 401aa077e5f736449e0638fd5cf368224485ec8393b8bddaed1f62296ad90297
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105665317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127024"
 ---
 # <a name="icertificate2getinfo-method"></a>Метод ICertificate2:: info
 
@@ -84,14 +84,14 @@ Certificate.GetInfo( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Криптографические объекты](cryptography-objects.md)
 </dt> <dt>
 
-[**Certificate**](certificate.md)
+[**Сертификат**](certificate.md)
 </dt> </dl>
 
  

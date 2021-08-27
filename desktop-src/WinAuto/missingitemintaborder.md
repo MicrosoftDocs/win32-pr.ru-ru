@@ -4,12 +4,12 @@ description: миссингитеминтабордер
 ms.assetid: 49DE892E-1B15-4F46-B316-217CC76AA1A9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9841ab71e9f5d40cf25454e737b9790ce27a04de
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1dc8e413c12b93ebcb3fcbb9d38e56041bedf4e0b8abb98581d77fae4c275f15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103791790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071814"
 ---
 # <a name="missingitemintaborder"></a>миссингитеминтабордер
 
@@ -19,7 +19,7 @@ ms.locfileid: "103791790"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -34,13 +34,13 @@ ms.locfileid: "103791790"
 -   Элемент или его родитель является пользовательским элементом управления, который не реализует корректное выполнение вкладок. Например, свойство состояния MSAA никогда не принимает \_ фокус системы состояния \_ .
 -   Элемент, который выступает в качестве контейнера для других элементов, был выбран для проверки, но не поддерживает саму навигацию по клавишам. Например, панель инструментов и ее дочерние элементы недоступны при помощи клавиши TAB.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Рекомендации по проектированию пользовательского интерфейса клавиатуры](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

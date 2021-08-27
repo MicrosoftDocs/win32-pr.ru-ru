@@ -4,12 +4,12 @@ description: в этом разделе обсуждаются общие эле
 ms.assetid: c0d3eff4-c5b5-4b59-b980-96e0e4d6a595
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec57117aa125da853f710ddcc48705eb7400a669ae8555568c8b023ad8a4c8ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9aba62053eb7e2812e8f8e07bb2f694590fdcff2
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119698814"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812706"
 ---
 # <a name="about-common-controls"></a>Общие сведения об элементах управления
 
@@ -20,8 +20,8 @@ ms.locfileid: "119698814"
 -   [Стандартные версии элементов управления](common-control-versions.md)
 -   [Создание стандартных элементов управления](creating-common-controls.md)
 -   [Поддержка Юникода для стандартных элементов управления](unicode-support.md)
--   [Поддержка локализации для стандартных элементов управления](cc-faq-localization.md)
--   [Часто задаваемые вопросы об элементах управления](cc-faq.md)
+-   [Поддержка локализации для стандартных элементов управления](cc-faq-localization.yml)
+-   [Часто задаваемые вопросы об элементах управления](cc-faq.yml)
 
 ## <a name="related-topics"></a>Связанные темы
 

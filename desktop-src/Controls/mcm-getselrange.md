@@ -3,7 +3,7 @@ title: Сообщение MCM_GETSELRANGE (Коммктрл. h)
 description: Извлекает сведения о датах, представляющие верхний и нижний пределы диапазона дат, выбранного пользователем в текущий момент. Это сообщение можно отправить явным образом или с помощью \_ макроса монскал жетселранже.
 ms.assetid: a0d0a0d5-a519-4495-a87a-2438c4590e4c
 keywords:
-- Элементы управления Windows для MCM_GETSELRANGE сообщений
+- элементы управления Windows сообщений MCM_GETSELRANGE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d2f922b013a3eab525228bda4f5b99f33e70d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7e7c446c98a43714a8cd839704050d2aedd1b7eab83b9199700ba24dd4e2be98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061954"
 ---
 # <a name="mcm_getselrange-message"></a>\_Сообщение MCM жетселранже
 
@@ -49,9 +49,9 @@ ms.locfileid: "103988478"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -4,16 +4,16 @@ description: Иажентчарактерекс Сеселпмодеон
 ms.assetid: d4d42122-3d27-40c4-8770-0de105e5d933
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674fc8dcca3bca2f44c0928474d8684e77fc6e9b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: aacbdf9c0ea9737bb73ba7a99e0839e1435379e42536a82aa30c2ca034a28860
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104133731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062034"
 ---
 # <a name="iagentcharacterexsethelpmodeon"></a>Иажентчарактерекс:: Сеселпмодеон
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT SetHelpModeOn(
@@ -45,6 +45,6 @@ HRESULT SetHelpModeOn(
 [**Иажентчарактерекс:: жеселпмодеон**](iagentcharacterex--gethelpmodeon.md), [ **иажентнотифисинкекс:: хелпкомплете**](iagentnotifysinkex--helpcomplete.md)
 
 
- 
+ 
 
- 
+ 

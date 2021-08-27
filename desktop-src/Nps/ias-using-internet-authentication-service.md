@@ -8,18 +8,18 @@ keywords:
 - Служба проверки подлинности в Интернете, использование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f422c005d6810a4035450e24de1324b28361f1
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 4db3590ed10ec77e57c86bfad3e0e0b1160e70a2d6fcc08abc911a14614543f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074304"
 ---
 # <a name="using-nps-extensions"></a>Использование расширений NPS
 
 Служба проверки подлинности в Интернете (IAS) переименовала сервер политики сети (NPS). Содержимое этого раздела относится как к IAS, так и к NPS. По всему тексту NPS используется для ссылки на все версии службы, включая версии, изначально называемые IAS.
 
-* * Windows Server 2008 R2 и Windows Server 2008: * *
+* * Windows server 2008 R2 и Windows server 2008: * *
 
 Примеры набора номера и Мапнаме расширяют функциональные возможности NPS.
 
@@ -34,14 +34,14 @@ ms.locfileid: "111989075"
 
  
 
-Исходный код для примеров приложений Мапнаме и Dialin можно найти в следующем списке. *Расположение*,% путь установки%, обозначает базовый каталог установки для компьютеров с архитектурой x64. См. также пакет средств [разработки программного обеспечения Windows (SDK) для Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk), пакет средств разработки программного обеспечения Microsoft Windows (SDK) и [Загружаемые файлы для разработки приложений для Магазина Windows](https://msdn.microsoft.com/windows/apps/br229516).
+Исходный код для примеров приложений Мапнаме и Dialin можно найти в следующем списке. *Расположение*,% путь установки%, обозначает базовый каталог установки для компьютеров с архитектурой x64. см. также Windows пакет средств [разработки программного обеспечения (sdk) для Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk), пакета средств разработки программного обеспечения Microsoft Windows (sdk) и [файлов для загрузки для Windows разработки приложений магазина](https://msdn.microsoft.com/windows/apps/br229516).
 
 <dl> <dt>
 
-Windows SDK для Windows 8
+Windows Пакет SDK для Windows 8
 </dt> <dd>
 
-Windows Server 2012
+Windows Server 2012
 
 Ссылка для скачивания: н/д
 
@@ -53,7 +53,7 @@ Windows Server 2012
 
 </dd> <dt>
 
-Пакет средств разработки программного обеспечения Microsoft Windows (SDK) для Windows 7 и платформа .NET Framework 4,0
+пакет средств разработки Microsoft Windows Software Development Kit (SDK) для Windows 7 и платформа .NET Framework 4,0
 </dt> <dd>
 
 Windows Server 2008 R2
@@ -64,7 +64,7 @@ Windows Server 2008 R2
 
 Набор номера: нет
 
-Расположение:% путь установки% \\ пакеты SDK Microsoft \\ Windows \\ v 7.1 \\ примеры \\ нетдс \\ IAS
+расположение:% путь установки% \\ пакеты sdk для Microsoft \\ Windows \\ v 7.1 \\ примеры \\ нетдс \\ ias
 
 </dd> <dt>
 
@@ -79,7 +79,7 @@ Windows Server 2008
 
 Набор номера: нет
 
-Расположение:% путь установки% \\ пакеты SDK Microsoft \\ Windows \\ v 6.1 \\ примеры \\ нетдс \\ IAS
+расположение:% путь установки% \\ пакеты sdk для Microsoft \\ Windows версии \\ 6.1 \\ примеры \\ нетдс \\ IAS
 
 </dd> </dl>
 
@@ -90,7 +90,7 @@ Windows Server 2008
 [Загружаемые файлы для разработчиков](https://msdn.microsoft.com/windows/apps/br229516)
 </dt> <dt>
 
-[Windows SDK для Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
+[Windows Пакет SDK для Windows 8](https://developer.microsoft.com/windows/downloads/windows-8-sdk)
 </dt> </dl>
 
  

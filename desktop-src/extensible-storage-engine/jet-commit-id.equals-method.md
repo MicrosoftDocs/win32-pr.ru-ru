@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e11ecedb86026d42abfe744650691ce1c3ff46de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bf1c1f41bf50bf34ae83ab8ee19a6e5302dc793f2548f980d09c2eee4d2385d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116214"
 ---
 # <a name="jet_commit_idequals-method"></a>JET_COMMIT_ID метод Equals
 
@@ -53,7 +53,7 @@ ms.locfileid: "104561160"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

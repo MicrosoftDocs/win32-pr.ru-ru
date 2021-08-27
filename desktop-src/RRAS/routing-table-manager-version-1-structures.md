@@ -7,16 +7,16 @@ keywords:
 - Диспетчер таблиц маршрутизации, службы RRAS версии 1, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 592982dd64c57daf146885659f68f15ca7c3f829
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ba556b537ec58b5d4412571b7adf74f05f37f83396eeb60c1c41532c011d990
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103777636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073914"
 ---
 # <a name="routing-table-manager-version-1-structures"></a>Структуры диспетчера таблиц маршрутизации версии 1
 
-**Windows Server 2003:** Этот API был заменен API [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
+**Windows Server 2003:** этот api был заменен api [диспетчера таблиц маршрутизации версии 2](about-routing-table-manager-version-2.md) и не будет доступен за пределами Windows Server 2003. Новые приложения должны использовать API диспетчера таблиц маршрутизации версии 2.
 
 [Функции диспетчера таблиц маршрутизации версии 1](routing-table-manager-version-1-functions.md) используют следующие структуры:
 
@@ -40,9 +40,9 @@ ms.locfileid: "103777636"
 
 [**\_маршрут IPX \_ RTM**](rtm-ipx-route.md)
 
- 
+ 
 
- 
+ 
 
 
 

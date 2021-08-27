@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 76d878e5b013b8c6a061d777d4ec837bca85f8e5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ba466338e6d148e3c39a6bed4f7db413ad444ee792a4fd49b6e1499f29f0403
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105674976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051644"
 ---
 # <a name="imedialocatoraddfoundlocation-method"></a>Метод Имедиалокатор:: Аддфаундлокатион
 
@@ -45,7 +45,7 @@ HRESULT AddFoundLocation(
 
 <dl> <dt>
 
-*директоринаме* 
+*DirectoryName* 
 </dt> <dd>
 
 Путь к каталогу для добавления в кэш.
@@ -56,7 +56,7 @@ HRESULT AddFoundLocation(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указатель мультимедиа хранит кэш путей к каталогам, в которых файлы успешно найдены в прошлых поисках. После успешного нахождение файла он добавляет каталог в кэш.
 
@@ -66,7 +66,7 @@ HRESULT AddFoundLocation(
  
 
 > [!Note]  
-> Чтобы получить Кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (SP1).
+> чтобы получить кедит. h, скачайте [обновление Microsoft Windows SDK для Windows Vista и платформа .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). кедит. h недоступен в Microsoft Windows SDK для Windows 7 и платформа .NET Framework 3,5 с пакетом обновления 1 (sp1).
 
  
 
@@ -76,7 +76,7 @@ HRESULT AddFoundLocation(
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
+| Заголовок<br/>  | <dl> <dt>Кедит. h</dt> </dl>      |
 | Библиотека<br/> | <dl> <dt>Стрмиидс. lib</dt> </dl> |
 
 

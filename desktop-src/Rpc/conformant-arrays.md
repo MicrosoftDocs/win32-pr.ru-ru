@@ -4,12 +4,12 @@ description: Размер согласованного массива может
 ms.assetid: b4aaec77-b7ae-495d-8666-4702017e675f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6f1491354f9cd26ef6100ab8d21f2ace3133f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 19766b7b9552bcab08a4d194629892e51d5185ed39b0bedddbaef32f08cececf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073434"
 ---
 # <a name="conformant-arrays"></a>Согласованные массивы
 
@@ -60,6 +60,6 @@ MyRemoteProc(
 
 Этот фрагмент вызывает удаленную процедуру Миремотепрок дважды. При первом вызове он передает массив из 20 элементов. При втором вызове клиент передает массив элементов 200.
 
- 
+ 
 
- 
+ 

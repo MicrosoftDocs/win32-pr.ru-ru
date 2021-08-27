@@ -4,12 +4,12 @@ ms.assetid: 7c3e5c39-ec0f-4174-9ecf-239927de3d39
 title: Управление службой с помощью SC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c1aa991395ba2aa55bf05d63176fba59d96dce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2481e0d13f19760c042d39efe4ec6094a3ef270312aeb31d2228d401d914bc1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105664201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126454"
 ---
 # <a name="controlling-a-service-using-sc"></a>Управление службой с помощью SC
 
@@ -33,7 +33,7 @@ Windows SDK содержит служебную программу команд�
 
 Одна из следующих команд:
 
-<dl> <dd>continue</dd> <dd>управляющие</dd> <dd>запросить</dd> <dd>pause</dd> <dd>start</dd> <dd>stop</dd> </dl> </dd> <dt>
+<dl> <dd>continue</dd> <dd>управляющие</dd> <dd>запросить</dd> <dd>pause</dd> <dd>запуск</dd> <dd>stop</dd> </dl> </dd> <dt>
 
 <span id="ServiceName"></span><span id="servicename"></span><span id="SERVICENAME"></span>*Служба*
 </dt> <dd>
@@ -56,13 +56,13 @@ Windows SDK содержит служебную программу команд�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы просмотреть полный синтаксис команды, используйте следующую команду:
 
  *команда* SC
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: d4dbba0d-8225-48d7-a66b-b189fdae70a8
 title: Сообщение LINE_REQUEST (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23987e370d5ae9c8eeb579780c5659f8075ac865
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce3cd49b14aafabfdd4d7ab37c5f2beec1487a08a53385ae8a1439b7443d49cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126234"
 ---
 # <a name="line_request-message"></a>\_Сообщение запроса строки
 
@@ -65,7 +65,7 @@ ms.locfileid: "105685342"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сообщение **\_ запроса строки** отправляется в приложение с наивысшим приоритетом, зарегистрированное для соответствующего режима запроса. Это сообщение указывает на поступление запрошенной телефонной связи в указанном режиме запроса. Если *dwParam1* — линерекуестмоде \_ MAKECALL, приложение может вызвать [**линежетрекуест**](/windows/desktop/api/Tapi/nf-tapi-linegetrequest) , используя соответствующий режим запроса для получения запроса. Если *dwParam1* имеет значение линерекуестмоде \_ Drop, сообщение содержит все данные, необходимые получателю запроса для выполнения запроса.
 
@@ -76,11 +76,11 @@ ms.locfileid: "105685342"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

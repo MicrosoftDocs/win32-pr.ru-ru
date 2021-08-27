@@ -3,7 +3,7 @@ title: Сообщение TB_SETTOOLTIPS (Коммктрл. h)
 description: Связывает элемент управления ToolTip с панелью инструментов.
 ms.assetid: a645f1f2-9333-4e25-985a-107cffb9b97f
 keywords:
-- Элементы управления Windows для TB_SETTOOLTIPS сообщений
+- элементы управления Windows сообщений TB_SETTOOLTIPS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 781565658d2c362ca32e36736d6e2d80c3641514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a75827df49eeaf8b6175cd14180ebb26ddbb642588ee77d625c701eee457baaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061234"
 ---
 # <a name="tb_settooltips-message"></a>\_Сообщение СЕТТУЛТИПС ТБ
 
@@ -43,19 +43,19 @@ ms.locfileid: "104071378"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Все кнопки, добавленные на панель инструментов перед отправкой сообщения **\_ сеттултипс ТБ** , не будут зарегистрированы в элементе управления ToolTip.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - Интерфейс протокола маршрутизации RRAS, функции поддержки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbbaba49c5f7e4130491a50176d560ee565b0046
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7fa2af1b38e88e9f3b7a55e8026ad42f4b1d0cff26de3798fb04621a1288ad9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073714"
 ---
 # <a name="support-functions-reference"></a>Справочник по функциям поддержки
 
@@ -35,6 +35,6 @@ ms.locfileid: "104488069"
 
 [**валидатерауте**](/previous-versions/windows/desktop/legacy/aa382342(v=vs.85))
 
- 
+ 
 
- 
+ 

@@ -4,27 +4,27 @@ description: Форматированный элемент управления 
 ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feb90064e455bfeb8ee126e6107d75ef29b3a4f3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 178770ce4a7206c18f6fbbc197d92e23ff0139ae637bd5f7ceb4159aee3270ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "105654377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059694"
 ---
 # <a name="how-to-use-word-and-line-break-information"></a>Использование сведений о разрывах слов и строк
 
 Форматированный элемент управления "поле ввода" вызывает функцию, называемую процедурой разрыва слов, чтобы найти разрывы между словами и определить, где она может разбивать строки. Этот элемент управления использует эти сведения при выполнении операций переноса по словам и при обработке сочетания клавиш CTRL + стрелка влево и CTRL + стрелка вправо. Приложение может отправить сообщения в элемент управления Rich Edit, чтобы заменить процедуру разбиения по словам по умолчанию, получить сведения о разрыве слов и определить линию, на которую попадает заданный символ.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -38,7 +38,7 @@ ms.locfileid: "105654377"
 
 
 
-| Flag            | Описание                                                                                                                       |
+| Флаг            | Описание                                                                                                                       |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | ВБФ \_ BREAKAFTER | Строки могут быть разорваны после символа.                                                                                          |
 | ВБФ \_ бреаклине  | Символ является разделителем. Разделители означают концы слов. Строки могут быть разорваны после разделителей.                            |
@@ -46,7 +46,7 @@ ms.locfileid: "105654377"
 
 
 
- 
+ 
 
 Значение ВБФ \_ BREAKAFTER используется, чтобы разрешить перенос после символа, который не помечает конец слова, например дефис.
 
@@ -55,7 +55,7 @@ ms.locfileid: "105654377"
 > [!Note]  
 > Эта замена не рекомендуется для Microsoft Rich Edit 2,0 и более поздних версий из-за сложности многоязыковой разбивки слов.
 
- 
+ 
 
 Для Microsoft Rich Edit 1,0 можно использовать сообщение [**EM \_ сетвордбреакпроцекс**](em-setwordbreakprocex.md) , чтобы заменить расширенную процедуру разрыва слов по умолчанию функцией [*едитвордбреакпроцекс*](/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex) . Эта функция предоставляет дополнительные сведения о тексте, например кодировку. Для получения адреса текущей расширенной процедуры разбиения по словам можно использовать сообщение [**EM \_ жетвордбреакпроцекс**](em-getwordbreakprocex.md) . Обратите внимание, что Microsoft Rich Edit 2,0 и более поздние версии не поддерживают *едитвордбреакпроцекс*, **EM \_ жетвордбреакпроцекс** и **EM \_ сетвордбреакпроцекс**.
 
@@ -63,16 +63,16 @@ ms.locfileid: "105654377"
 
 Чтобы определить, на какой строке заданный символ попадает, можно использовать сообщение [**\_ екслинефромчар EM**](em-exlinefromchar.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

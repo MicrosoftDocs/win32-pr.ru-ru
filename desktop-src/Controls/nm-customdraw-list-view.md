@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2b30af8dc61f9bb12d524f2b3f6ac58fb1adecebf66b4ad4477756e17f9a621
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ba991f5af43ee5513ec0713208aed84319bd5a9a
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119018880"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812673"
 ---
 # <a name="nm_customdraw-list-view-notification-code"></a>\_Код уведомления NM кустомдрав (представление списка)
 
@@ -71,7 +71,7 @@ NM_CUSTOMDRAW
 
 [Версия 5,80.](common-control-versions.md) Если изменить шрифт, возвращая [**кдрф \_ невфонт**](cdrf-constants.md), элемент управления "представление списка" может отображать обрезанный текст. Это поведение необходимо для обеспечения обратной совместимости с более ранними версиями стандартных элементов управления. Если вы хотите изменить шрифт элемента управления "представление списка", вы получите лучшие результаты при отправке сообщения [**\_ сетверсион CCM**](ccm-setversion.md) с параметром *wParam* , равным 5, перед добавлением элементов в элемент управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -79,7 +79,7 @@ NM_CUSTOMDRAW
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 
