@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 52ef4f10ed2f4253c796ae10a57a71d8a7bc4f0d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880525"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465681"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>Настройка отслеживания количества точек на дюйм по умолчанию для процесса
 
@@ -34,12 +34,12 @@ ms.locfileid: "122880525"
 В следующей таблице показано, как задать различные режимы поддержки DPI по умолчанию для процессов с помощью двух параметров манифеста:
 
 
-| Обработка режима поддержки DPI по умолчанию | &lt;&gt;параметр дпиаваре | &lt;&gt;параметр дпиаваренесс (Windows 10, версия 1607 и более поздние) | 
+| Обработка режима поддержки DPI по умолчанию | Значение <dpiAware> | <dpiAwareness>параметр (Windows 10, версия 1607 и более поздние) | 
 |------------------------------------|--------------------|--------------------------------------------------------------|
-| связан | <p>Н/д (нет параметра Дпиаваре в манифесте)</p><p>или</p><p>&lt;Дпиаваре &gt; false &lt; /дпиаваре&gt;</p> | &lt;Дпиаваренесс &gt; &lt; /дпиаваренесс&gt; | 
-| С учетом системы | &lt;Дпиаваре &gt; Истина &lt; /дпиаваре&gt; | &lt;Дпиаваренесс &gt; System &lt; /дпиаваренесс&gt; | 
-| На монитор | &lt;Дпиаваре &gt; true/PM &lt; дпиаваре&gt; | &lt;Дпиаваренесс &gt; пермонитор &lt; /дпиаваренесс&gt; | 
-| На монитор версии 2 | Не поддерживается | &lt;Дпиаваренесс &gt; PerMonitorV2 &lt; /дпиаваренесс&gt; | 
+| связан | <p>Н/д (нет параметра Дпиаваре в манифесте)</p><p>или</p><p>&lt;Дпиаваре &gt; false &lt; /дпиаваре&gt;</p> | <dpiAwareness>связан</dpiAwareness> | 
+| С учетом системы | <dpiAware>true</dpiAware> | <dpiAwareness>система</dpiAwareness> | 
+| На монитор | <dpiAware>true/PM<dpiAware> | <dpiAwareness>пермонитор</dpiAwareness> | 
+| На монитор версии 2 | Не поддерживается | <dpiAwareness>PerMonitorV2</dpiAwareness> | 
 
 
  

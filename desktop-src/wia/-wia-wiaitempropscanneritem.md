@@ -1,5 +1,5 @@
 ---
-description: Следующие константы указывают допустимый набор свойств элемента сканера для получения образа Windows (WIA).
+description: следующие константы указывают допустимый набор свойств элемента сканера Windows изображений (WIA).
 ms.assetid: c7c5b10b-81e8-4a30-b20a-ea187724ddd4
 title: Константы свойства элемента сканера WIA (Виадеф. h)
 ms.topic: reference
@@ -57,16 +57,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: aa3b1cc4ae14a9460a24f652a9599035cacca2c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701585"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624770"
 ---
 # <a name="scanner-wia-item-property-constants"></a>Константы свойства элемента сканера WIA
 
-Следующие константы указывают допустимый набор свойств элемента сканера для получения образа Windows (WIA).
+следующие константы указывают допустимый набор свойств элемента сканера Windows изображений (WIA).
 
 Префикс "WIA- \_ адреса \_ " указывает свойство элемента для устройств сканера и является соглашением об именовании, используемым в C/C++. Для сценариев эти константы используют префикс "Сканнерпиктуре" и являются частью перечислимого типа [виаитемпропертид](-wia-wiaitempropertyid.md) . Соответствующее имя элемента из этого перечисления скриптов отображается в круглых скобках рядом с именем константы C/C++ в следующем списке.
 
@@ -74,21 +74,21 @@ ms.locfileid: "105701585"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Константа/значение</th>
-<th style="text-align: left;">Описание</th>
+<th >Константа/значение</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>сканнерпиктуреаутодескев</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>сканнерпиктуреаутодескев</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 <br/> Включает или выключает автоматический декоса.<br/> Необязательно только для WIA_CATEGORY_FEEDER.<br/> Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a><br/> В следующей таблице приведены константы, допустимые для этого свойства. 
 <table>
@@ -113,23 +113,23 @@ ms.locfileid: "105701585"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>сканнерпиктуребригхтнесс</dt> </dl></td>
-<td style="text-align: left;"><p>Значения яркости изображения, доступные в сканере.</p>
+<td ><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>сканнерпиктуребригхтнесс</dt> </dl></td>
+<td ><p>Значения яркости изображения, доступные в сканере.</p>
 <p>Содержит текущую настройку яркости оборудования для устройства. Приложение задает для этого свойства значение яркости оборудования. Минидривер создает и поддерживает это свойство.</p>
 <p>Значения должны сопоставляться в диапазоне от-1000 до 1000, где 1000 соответствует максимальной яркости, 0 соответствует стандартной яркости, а-1000 соответствует минимальной яркости.</p>
 <p>Требуется для всех элементов в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM. Необязательно, но рекомендуется для WIA_CATEGORY_FINISHED_FILE элементов, поддерживающих предварительный просмотр.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>сканнерпиктуреконтраст</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущую настройку аппаратной контрастности для устройства. Приложение задает для этого свойства значение контрастности оборудования. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>сканнерпиктуреконтраст</dt> </dl></td>
+<td ><p>Содержит текущую настройку аппаратной контрастности для устройства. Приложение задает для этого свойства значение контрастности оборудования. Минидривер создает и поддерживает это свойство.</p>
 <p>Значения должны сопоставляться в диапазоне от-1000 до 1000, где-1000 соответствует минимальному контрасту, 0 соответствует нормальным контрастам, а 1000 соответствует максимальной контрастности.</p>
 <p>Требуется для всех элементов в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM. Необязательно, но рекомендуется для WIA_CATEGORY_FINISHED_FILE элементов, поддерживающих предварительный просмотр.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>сканнерпиктурекуринтент</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущие параметры намерения. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>сканнерпиктурекуринтент</dt> </dl></td>
+<td ><p>Содержит текущие параметры намерения. Минидривер создает и поддерживает это свойство.</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong> доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_FLAGS</a></p>
 <p>Драйвер использует их для предустановки свойств элемента на основе предполагаемого использования образа приложением. Это может быть, например, максимальное качество, минимальный размер и т. д.</p>
@@ -151,7 +151,7 @@ ms.locfileid: "105701585"
 <thead>
 <tr class="header">
 <th>Предназначенные флаги типа образа</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -185,7 +185,7 @@ ms.locfileid: "105701585"
 <thead>
 <tr class="header">
 <th>Предполагаемый размер изображения/флаги качества</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -211,11 +211,11 @@ ms.locfileid: "105701585"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>сканнерпиктуредескевкс</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>сканнерпиктуредескевкс</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -227,11 +227,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>сканнерпиктуредескеви</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>сканнерпиктуредескеви</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -243,11 +243,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>сканнерпиктуредокуменсандлингселект</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>сканнерпиктуредокуменсандлингселект</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -261,7 +261,7 @@ ms.locfileid: "105701585"
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -295,11 +295,11 @@ ms.locfileid: "105701585"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>сканнерпиктурефилмноденаме</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>сканнерпиктурефилмноденаме</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -311,11 +311,11 @@ ms.locfileid: "105701585"
 <p>Допустимые значения: BSTR должен иметь вид @ResourceBinary ,- <ResourceID> чтобы разрешить локализацию, так как эта строка будет предоставляться пользователю через пользовательский интерфейс сканирования пленки.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>сканнерпиктурефилмсканмоде</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>сканнерпиктурефилмсканмоде</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -351,16 +351,16 @@ ms.locfileid: "105701585"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
-<td style="text-align: left;"><p>Зарезервировано для будущего использования и в настоящее время не реализовано.</p>
+<td ><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
+<td ><p>Зарезервировано для будущего использования и в настоящее время не реализовано.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -370,11 +370,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>сканнерпиктуреламп</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>сканнерпиктуреламп</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -406,11 +406,11 @@ ms.locfileid: "105701585"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>сканнерпиктурелампаутуфф</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>сканнерпиктурелампаутуфф</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -421,11 +421,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_UI4</strong>, доступ: чтение и запись, допустимые значения: 0 — 0xfff секунд</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>сканнерпиктуремаксхоризонталсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>сканнерпиктуремаксхоризонталсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -435,11 +435,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>сканнерпиктуремаксвертикалсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>сканнерпиктуремаксвертикалсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -449,11 +449,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>сканнерпиктуреминхоризонталсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>сканнерпиктуреминхоризонталсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -463,11 +463,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>сканнерпиктуреминвертикалсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>сканнерпиктуреминвертикалсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -477,16 +477,16 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>сканнерпиктуремиррор</dt> </dl></td>
-<td style="text-align: left;"><p>Зарезервировано для будущего использования и в настоящее время не реализовано.</p>
+<td ><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>сканнерпиктуремиррор</dt> </dl></td>
+<td ><p>Зарезервировано для будущего использования и в настоящее время не реализовано.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>сканнерпиктуреоптикалксрес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>сканнерпиктуреоптикалксрес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -496,11 +496,11 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>сканнерпиктуреоптикалирес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>сканнерпиктуреоптикалирес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -510,8 +510,8 @@ ms.locfileid: "105701585"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>сканнерпиктуреориентатион</dt> </dl></td>
-<td style="text-align: left;"><p>Указывает текущую ориентацию сканируемых документов. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>сканнерпиктуреориентатион</dt> </dl></td>
+<td ><p>Указывает текущую ориентацию сканируемых документов. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение задает это свойство, чтобы определить исходную ориентацию страницы или изображения, которые должны быть получены. Сведения об использовании WIA_IPS_ORIENTATION см. в разделе <strong>WIA_IPS_PAGE_SIZE</strong>.</p>
 <div class="alert">
 <blockquote>
@@ -555,11 +555,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>сканнерпиктурепажесизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>сканнерпиктурепажесизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -629,7 +629,7 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -653,7 +653,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -678,7 +678,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -703,7 +703,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -724,11 +724,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>сканнерпиктурепажехеигхт</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>сканнерпиктурепажехеигхт</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -739,11 +739,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>сканнерпиктурепажевидс</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>сканнерпиктурепажевидс</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -754,11 +754,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>сканнерпиктурепажес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>сканнерпиктурепажес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -780,8 +780,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Если задать для <strong>WIA_IPS_PAGES</strong> значение 1, то сканер будет обрабатывать одну сторону страницы. Рекомендуется, если сканер не может сканировать только одну сторону страницы в режиме дуплекса, вы изменяете значение <strong>WIA_IPS_PAGES</strong> для элемента Inc элемента Range структуры WIA_PROPERTY_INFO на 2. Это значение сигнализирует приложению, что оно должно запрашивать страницы, кратные двум. Значение ALL_PAGES (= 0) означает, что будут проверяться <em>все</em> страницы, загруженные в данный момент в устройство подачи документов.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>сканнерпиктурефотометриЦинтерп</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущее значение для белых и черных пикселей. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>сканнерпиктурефотометриЦинтерп</dt> </dl></td>
+<td ><p>Содержит текущее значение для белых и черных пикселей. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение считывает это значение, чтобы определить значение белого или черного (в зависимости от того, что делает приложение).</p>
 <p>Требуется для всех включенных приобретений или сохраненных элементов; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong>; Доступ: чтение и запись; Допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. Если для устройства можно задать только одно значение, создайте тип WIA_PROP_LIST и поместите в него допустимое значение.</p>
@@ -809,11 +809,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>сканнерпиктурепревиев</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>сканнерпиктурепревиев</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -845,11 +845,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>сканнерпиктурепревиевтипе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>сканнерпиктурепревиевтипе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -881,8 +881,8 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>сканнерпиктуреротатион</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущий параметр вращения, если он реализован. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>сканнерпиктуреротатион</dt> </dl></td>
+<td ><p>Содержит текущий параметр вращения, если он реализован. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение задает это свойство, чтобы сообщить драйверу, какой объем (если вообще) нужно повернуть изображение, прежде чем драйвер вернет его в приложение.</p>
 <div class="alert">
 <blockquote>
@@ -930,11 +930,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>сканнерпиктуресегментатион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>сканнерпиктуресегментатион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -975,11 +975,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>сканнерпиктурешитфидеррегистратион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>сканнерпиктурешитфидеррегистратион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1016,11 +1016,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>сканнерпиктурешовпревиевконтрол</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>сканнерпиктурешовпревиевконтрол</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1052,11 +1052,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>сканнерпиктуресуппортсчилдитемкреатион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>сканнерпиктуресуппортсчилдитемкреатион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1068,11 +1068,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <strong>true</strong> и <strong>false</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>сканнерпиктуресрешолд</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>сканнерпиктуресрешолд</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1083,11 +1083,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>сканнерпиктуретрансферкапабилитиес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>сканнерпиктуретрансферкапабилитиес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1098,11 +1098,11 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p>Единственное возможное значение для этого свойства — WIA_TRANSFER_CHILDREN_SINGLE_SCAN. Если этот флаг установлен, драйвер способен передавать несколько дочерних элементов в одном вызове функции перемещения. Если флаг не установлен, служба WIA будет рекурсивно проходить по дочерним элементам, а затем переносить каждый из этих элементов.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>сканнерпиктуреинверт</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1112,37 +1112,37 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>сканнерпиктуревармуптиме</dt> </dl></td>
-<td style="text-align: left;"><p>Указывает максимальное время прогрева (в миллисекундах), необходимое устройству перед запуском операции сканирования. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>сканнерпиктуревармуптиме</dt> </dl></td>
+<td ><p>Указывает максимальное время прогрева (в миллисекундах), необходимое устройству перед запуском операции сканирования. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение может прочитать это свойство, чтобы определить максимальное время прогрева для этого устройства. Затем он может предоставить &quot; диалоговое окно ожидание прогрева устройства &quot; , чтобы сообщить пользователю о том, что ожидание или пауза может произойти до чего-либо.</p>
 <p>Это свойство является обязательным для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>сканнерпиктурексекстент</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущую ширину (в пикселях) выбранного изображения для получения. Приложение задает это свойство, чтобы пометить ширину области выбора для получения. Это свойство должно быть согласовано со свойством <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>сканнерпиктурексекстент</dt> </dl></td>
+<td ><p>Содержит текущую ширину (в пикселях) выбранного изображения для получения. Приложение задает это свойство, чтобы пометить ширину области выбора для получения. Это свойство должно быть согласовано со свойством <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Минидривер создает и поддерживает это свойство.</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>сканнерпиктурекспос</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит координату x (в пикселях) верхнего левого угла выбранного изображения. Приложение задает это свойство, чтобы пометить левый верхний угол области выделения. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>сканнерпиктурекспос</dt> </dl></td>
+<td ><p>Содержит координату x (в пикселях) верхнего левого угла выбранного изображения. Приложение задает это свойство, чтобы пометить левый верхний угол области выделения. Минидривер создает и поддерживает это свойство.</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>сканнерпиктурексрес</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущее разрешение по горизонтали (в пикселях на дюйм) для устройства. Приложение задает это свойство для установки разрешения по горизонтали. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>сканнерпиктурексрес</dt> </dl></td>
+<td ><p>Содержит текущее разрешение по горизонтали (в пикселях на дюйм) для устройства. Приложение задает это свойство для установки разрешения по горизонтали. Минидривер создает и поддерживает это свойство.</p>
 <p>Если для устройства можно задать только одно значение, создайте тип <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> и поместите в него допустимое значение. Это также случай, когда один параметр разрешения зависит от другого разрешения. (Разрешение по вертикали может зависеть от разрешения по горизонтали.)</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: для чтения, записи или только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> или WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>сканнерпиктурексскалинг</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>сканнерпиктурексскалинг</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1154,30 +1154,30 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 <p>Значения могут быть от 1 до максимального VT_I4 (0xFFFF). Например, 100 означает отсутствие масштабирования, 050 означает масштабирование до 50% от размера Оригнал, а 200 означает масштабирование до 200% исходного размера.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>сканнерпиктурэйекстент</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущую высоту (в пикселях) выбранного изображения для получения. Приложение задает это свойство, чтобы пометить высоту области выделения. Это свойство должно быть согласовано со значением свойства <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>сканнерпиктурэйекстент</dt> </dl></td>
+<td ><p>Содержит текущую высоту (в пикселях) выбранного изображения для получения. Приложение задает это свойство, чтобы пометить высоту области выделения. Это свойство должно быть согласовано со значением свойства <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Минидривер создает и поддерживает это свойство.</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK и WIA_CATEGORY_FILM.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>сканнерпиктурэйпос</dt> </dl></td>
-<td style="text-align: left;"><p>Текущая координата y (в пикселях) верхнего левого угла выбранного изображения. Приложение задает это свойство, чтобы пометить левый верхний угол области выделения. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>сканнерпиктурэйпос</dt> </dl></td>
+<td ><p>Текущая координата y (в пикселях) верхнего левого угла выбранного изображения. Приложение задает это свойство, чтобы пометить левый верхний угол области выделения. Минидривер создает и поддерживает это свойство.</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>сканнерпиктурэйрес</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущее разрешение по вертикали (в пикселях на дюйм) для устройства. Приложение задает это свойство для установки разрешения по вертикали. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>сканнерпиктурэйрес</dt> </dl></td>
+<td ><p>Содержит текущее разрешение по вертикали (в пикселях на дюйм) для устройства. Приложение задает это свойство для установки разрешения по вертикали. Минидривер создает и поддерживает это свойство.</p>
 <p>Если для устройства можно задать только одно значение, создайте тип <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> и поместите в него допустимое значение. Это также случай, когда один параметр разрешения зависит от другого разрешения. (Разрешение по горизонтали может зависеть от вертикального разрешения.)</p>
 <p>Требуется для всех элементов с включенным приобретением; то есть элементы в категориях: WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE и WIA_CATEGORY_FILM. Он не поддерживается для WIA_CATEGORY_FOLDER элементов.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: для чтения, записи или только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> или WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>сканнерпиктурэйскалинг</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>сканнерпиктурэйскалинг</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -1199,9 +1199,9 @@ WIA_IPS_ORIENTATION указывает на расположение докум�
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
 
 
 

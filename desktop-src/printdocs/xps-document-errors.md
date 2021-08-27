@@ -4,12 +4,12 @@ ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
 title: Ошибки документа XPS (Кспсобжектмодел. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d142105d9d958d435f8777212a4473cbaa4f4bb6712e387e3dfeffdcb85c58c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37f15f1cc5a1908010d7a46dca9c63b12218e53b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118971143"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471610"
 ---
 # <a name="xps-document-errors"></a>Ошибки документа XPS
 
@@ -17,335 +17,95 @@ ms.locfileid: "118971143"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Возвращаемый код и значение</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="XPS_E_ALREADY_OWNED"></span><span id="xps_e_already_owned"></span><dl> <dt><strong>XPS_E_ALREADY_OWNED</strong></dt> <dt>0x80520503</dt> </dl></td>
-<td>У интерфейса уже есть владелец.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_BLEED_BOX_PAGE_DIMENSIONS_NOT_IN_SYNC"></span><span id="xps_e_bleed_box_page_dimensions_not_in_sync"></span><dl> <dt><strong>XPS_E_BLEED_BOX_PAGE_DIMENSIONS_NOT_IN_SYNC</strong></dt> <dt>0x80520509</dt> </dl></td>
-<td>Размеры поля с выходом за обрез несовместимы с размерами страницы.<br/> Значение ширины рамки выпусков, которое должно быть больше или равно ширине страницы, а также абсолютное значение координаты x исходного окна. Значение высоты рамки выпуска от края должно быть больше или равно высоте страницы плюс абсолютное значение координат по оси y исходного окна. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_BOTH_PATHFIGURE_AND_ABBR_SYNTAX_PRESENT"></span><span id="xps_e_both_pathfigure_and_abbr_syntax_present"></span><dl> <dt><strong>XPS_E_BOTH_PATHFIGURE_AND_ABBR_SYNTAX_PRESENT</strong></dt> <dt>0x80520507</dt> </dl></td>
-<td>Элемент <strong>PathGeometry</strong> содержит набор рисунков пути, указанных либо с помощью атрибута <strong>Figures</strong> , либо с дочерним элементом <strong>PathFigure</strong> . Контуры геометрии не могут одновременно иметь атрибут <strong>Figures</strong> и дочерний элемент <strong>PathFigure</strong> . <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_BOTH_RESOURCE_AND_SOURCEATTR_PRESENT"></span><span id="xps_e_both_resource_and_sourceattr_present"></span><dl> <dt><strong>XPS_E_BOTH_RESOURCE_AND_SOURCEATTR_PRESENT</strong></dt> <dt>0x80520508</dt> </dl></td>
-<td>Элемент <strong>ResourceDictionary</strong> , указывающий удаленный словарь ресурсов в его <strong>исходном</strong> атрибуте, не должен содержать дочерних элементов определения ресурсов.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_CARET_OUT_OF_ORDER"></span><span id="xps_e_caret_out_of_order"></span><dl> <dt><strong>XPS_E_CARET_OUT_OF_ORDER</strong></dt> <dt>0x80520306</dt> </dl></td>
-<td>Неупорядоченное значение положения курсора. Значения расположения должны быть отсортированы в возрастающем порядке. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_CARET_OUTSIDE_STRING"></span><span id="xps_e_caret_outside_string"></span><dl> <dt><strong>XPS_E_CARET_OUTSIDE_STRING</strong></dt> <dt>0x80520305</dt> </dl></td>
-<td>Для пустой строки были указаны остановки курсора; или индекс перехода курсора превысил длину строки в Юникоде. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_COLOR_COMPONENT_OUT_OF_RANGE"></span><span id="xps_e_color_component_out_of_range"></span><dl> <dt><strong>XPS_E_COLOR_COMPONENT_OUT_OF_RANGE</strong></dt> <dt>0x80520506</dt> </dl></td>
-<td>Значение цвета выходит за пределы допустимого диапазона.<br/> Для <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_SCRGB</strong></a> типов цветов значение альфа-канала должно быть больше или равно 0,0 и меньше или равно + 1,0.<br/> Для <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a> типов цветов <strong>чаннелвалуес [0]</strong> , представляющий значение альфа-канала, должно быть больше или равно 0,0 и меньше или равно + 1,0. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_DICTIONARY_ITEM_NAMED"></span><span id="xps_e_dictionary_item_named"></span><dl> <dt><strong>XPS_E_DICTIONARY_ITEM_NAMED</strong></dt> <dt>0x80520401</dt> </dl></td>
-<td>Визуальный элемент в словаре ресурсов имеет атрибут <strong>Name</strong> , который не может быть указан ни для каких потомков элемента <strong>ResourceDictionary</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_DUPLICATE_NAMES"></span><span id="xps_e_duplicate_names"></span><dl> <dt><strong>XPS_E_DUPLICATE_NAMES</strong></dt> <dt>0x80520209</dt> </dl></td>
-<td>Объект с таким именем уже существует в словаре.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_DUPLICATE_RESOURCE_KEYS"></span><span id="xps_e_duplicate_resource_keys"></span><dl> <dt><strong>XPS_E_DUPLICATE_RESOURCE_KEYS</strong></dt> <dt>0x80520200</dt> </dl></td>
-<td>Объект с таким именем ключа уже существует в словаре.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INDEX_OUT_OF_RANGE"></span><span id="xps_e_index_out_of_range"></span><dl> <dt><strong>XPS_E_INDEX_OUT_OF_RANGE</strong></dt> <dt>0x80520500</dt> </dl></td>
-<td>Зарезервировано.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_BLEED_BOX"></span><span id="xps_e_invalid_bleed_box"></span><dl> <dt><strong>XPS_E_INVALID_BLEED_BOX</strong></dt> <dt>0x80520004</dt> </dl></td>
-<td>Прямоугольник в поле выпуска за обрез содержит одно или несколько недопустимых значений. Допустимые значения см. в описании параметра. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_CONTENT_BOX"></span><span id="xps_e_invalid_content_box"></span><dl> <dt><strong>XPS_E_INVALID_CONTENT_BOX</strong></dt> <dt>0x8052000b</dt> </dl></td>
-<td>Прямоугольник поля содержимого содержит одно или несколько недопустимых значений. Допустимые значения см. в описании параметра. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_CONTENT_TYPE"></span><span id="xps_e_invalid_content_type"></span><dl> <dt><strong>XPS_E_INVALID_CONTENT_TYPE</strong></dt> <dt>0x8052000e</dt> </dl></td>
-<td>Недопустимая строка типа содержимого.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_FLOAT"></span><span id="xps_e_invalid_float"></span><dl> <dt><strong>XPS_E_INVALID_FLOAT</strong></dt> <dt>0x80520007</dt> </dl></td>
-<td>Недопустимое значение <strong>float</strong> . Это либо бесконечное, либо нечисловое значение (NAN).<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_FONT_URI"></span><span id="xps_e_invalid_font_uri"></span><dl> <dt><strong>XPS_E_INVALID_FONT_URI</strong></dt> <dt>0x8052000a</dt> </dl></td>
-<td>Недопустимый URI шрифта, возможно, из-за того, что он содержит пустой фрагмент или символы, которые являются недопустимыми.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_LANGUAGE"></span><span id="xps_e_invalid_language"></span><dl> <dt><strong>XPS_E_INVALID_LANGUAGE</strong></dt> <dt>0x80520000</dt> </dl></td>
-<td>Указанный язык недопустим или имеет неправильный формат.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_LOOKUP_TYPE"></span><span id="xps_e_invalid_lookup_type"></span><dl> <dt><strong>XPS_E_INVALID_LOOKUP_TYPE</strong></dt> <dt>0x80520006</dt> </dl></td>
-<td>Имя ключа поиска ссылается на объект, который не является правильным типом для вызова; Например, если метод возвращает кисть, но имя ключа уточняющего запроса ссылается на объект Geometry.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_MARKUP"></span><span id="xps_e_invalid_markup"></span><dl> <dt><strong>XPS_E_INVALID_MARKUP</strong></dt> <dt>0x8052000c</dt> </dl></td>
-<td>Разметка для чтения содержит элемент или атрибут, который не соответствует <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">спецификации формата XML</a>.<br/>
-<blockquote>
-[!Note]<br />
-Для представления значений с плавающей запятой модель XPS использует тип данных <strong>float</strong> вместо <strong>Double</strong>. Если документ XPS содержит элемент с данными с плавающей запятой, не попадающие в значение <strong>float</strong> , эта ошибка будет возвращена при обнаружении этого значения во время десериализации.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_NAME"></span><span id="xps_e_invalid_name"></span><dl> <dt><strong>XPS_E_INVALID_NAME</strong></dt> <dt>0x80520001</dt> </dl></td>
-<td>Переданная строка не является допустимым именем в соответствии со спецификацией XML Paper. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_OBFUSCATED_FONT_URI"></span><span id="xps_e_invalid_obfuscated_font_uri"></span><dl> <dt><strong>XPS_E_INVALID_OBFUSCATED_FONT_URI</strong></dt> <dt>0x8052000f</dt> </dl></td>
-<td>Зарезервировано.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_PAGE_SIZE"></span><span id="xps_e_invalid_page_size"></span><dl> <dt><strong>XPS_E_INVALID_PAGE_SIZE</strong></dt> <dt>0x80520003</dt> </dl></td>
-<td>Размеры страницы содержат недопустимое значение размера страницы. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_RESOURCE_KEY"></span><span id="xps_e_invalid_resource_key"></span><dl> <dt><strong>XPS_E_INVALID_RESOURCE_KEY</strong></dt> <dt>0x80520002</dt> </dl></td>
-<td>В соответствии со <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">спецификацией XML Paper</a>строка ключа поиска недопустима.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE"></span><span id="xps_e_invalid_thumbnail_image_type"></span><dl> <dt><strong>XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE</strong></dt> <dt>0x80520005</dt> </dl></td>
-<td>Тип изображения эскиза не поддерживается.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_INVALID_XML_ENCODING"></span><span id="xps_e_invalid_xml_encoding"></span><dl> <dt><strong>XPS_E_INVALID_XML_ENCODING</strong></dt> <dt>0x8052000d</dt> </dl></td>
-<td>Обнаружена неправильная или неправильно отформатированная XML-разметка.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MAPPING_OUT_OF_ORDER"></span><span id="xps_e_mapping_out_of_order"></span><dl> <dt><strong>XPS_E_MAPPING_OUT_OF_ORDER</strong></dt> <dt>0x80520302</dt> </dl></td>
-<td>В одной или нескольких структурах <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping"><strong>XPS_GLYPH_MAPPING</strong></a> элемент находится вне последовательности. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MAPPING_OUTSIDE_INDICES"></span><span id="xps_e_mapping_outside_indices"></span><dl> <dt><strong>XPS_E_MAPPING_OUTSIDE_INDICES</strong></dt> <dt>0x80520304</dt> </dl></td>
-<td>Сопоставления глифов превышают число индексов глифов.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MAPPING_OUTSIDE_STRING"></span><span id="xps_e_mapping_outside_string"></span><dl> <dt><strong>XPS_E_MAPPING_OUTSIDE_STRING</strong></dt> <dt>0x80520303</dt> </dl></td>
-<td>Ошибка в сопоставлении глифов.<br/> Если строка Юникода пуста, эта ошибка означает, что также было определено сопоставление глифов. Сопоставления глифов не должны быть определены, если строка Юникода пуста.<br/> Если строка Юникода не пуста, эта ошибка означает, что для глифов за пределами строки Юникода было определено сопоставление глифов. Сопоставления глифов не могут быть определены для глифов, которые выходят за пределы длины строки Юникода.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_COLORPROFILE"></span><span id="xps_e_missing_colorprofile"></span><dl> <dt><strong>XPS_E_MISSING_COLORPROFILE</strong></dt> <dt>0x80520104</dt> </dl></td>
-<td>Параметр цветового профиля имеет <strong>значение NULL</strong>, но ожидается цветовой профиль. Если тип цвета — XPS_COLOR_TYPE_CONTEXT, требуется цветовой профиль. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_DISCARDCONTROL"></span><span id="xps_e_missing_discardcontrol"></span><dl> <dt><strong>XPS_E_MISSING_DISCARDCONTROL</strong></dt> <dt>0x80520112</dt> </dl></td>
-<td>Страница ссылается на отклоненные ресурсы, но не указывает имя части Дискардконтрол.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_DOCUMENT"></span><span id="xps_e_missing_document"></span><dl> <dt><strong>XPS_E_MISSING_DOCUMENT</strong></dt> <dt>0x80520109</dt> </dl></td>
-<td><a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage"><strong>Икспсомпаккажевритер:: addPage</strong></a> вызывался до <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument"><strong>Икспсомпаккажевритер:: стартневдокумент</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_DOCUMENTSEQUENCE_RELATIONSHIP"></span><span id="xps_e_missing_documentsequence_relationship"></span><dl> <dt><strong>XPS_E_MISSING_DOCUMENTSEQUENCE_RELATIONSHIP</strong></dt> <dt>0x80520108</dt> </dl></td>
-<td>Пакет не содержит FixedDocumentSequence.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_FONTURI"></span><span id="xps_e_missing_fonturi"></span><dl> <dt><strong>XPS_E_MISSING_FONTURI</strong></dt> <dt>0x80520107</dt> </dl></td>
-<td>Интерфейсу <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs"><strong>икспсомглифс</strong></a> требуется URI шрифта, но он не указан.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_GLYPHS"></span><span id="xps_e_missing_glyphs"></span><dl> <dt><strong>XPS_E_MISSING_GLYPHS</strong></dt> <dt>0x80520102</dt> </dl></td>
-<td>Интерфейс <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs"><strong>икспсомглифс</strong></a> без строки Юникода не указывает индексы глифов. Интерфейс <strong>икспсомглифс</strong> должен указывать либо строку в Юникоде, либо массив индексов глифов.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_IMAGE_IN_IMAGEBRUSH"></span><span id="xps_e_missing_image_in_imagebrush"></span><dl> <dt><strong>XPS_E_MISSING_IMAGE_IN_IMAGEBRUSH</strong></dt> <dt>0x8052010e</dt> </dl></td>
-<td>Не удалось найти ресурс изображения для кисти изображения.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_LOOKUP"></span><span id="xps_e_missing_lookup"></span><dl> <dt><strong>XPS_E_MISSING_LOOKUP</strong></dt> <dt>0x80520101</dt> </dl></td>
-<td>Удаленный ресурс имеет непредвиденный объект.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_NAME"></span><span id="xps_e_missing_name"></span><dl> <dt><strong>XPS_E_MISSING_NAME</strong></dt> <dt>0x80520100</dt> </dl></td>
-<td>Страница не имеет имени; Состояние целевого объекта гиперссылки может быть задано только в том случае, если у страницы есть имя.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_PAGE_IN_DOCUMENT"></span><span id="xps_e_missing_page_in_document"></span><dl> <dt><strong>XPS_E_MISSING_PAGE_IN_DOCUMENT</strong></dt> <dt>0x8052010c</dt> </dl></td>
-<td>FixedDocument не содержит ни одной части FixedPage. Документ XPS должен содержать по крайней мере один элемент FixedPage.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_PAGE_IN_PAGEREFERENCE"></span><span id="xps_e_missing_page_in_pagereference"></span><dl> <dt><strong>XPS_E_MISSING_PAGE_IN_PAGEREFERENCE</strong></dt> <dt>0x8052010d</dt> </dl></td>
-<td>Ссылка на страницу не имеет соответствующей страницы.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_PART_REFERENCE"></span><span id="xps_e_missing_part_reference"></span><dl> <dt><strong>XPS_E_MISSING_PART_REFERENCE</strong></dt> <dt>0x80520110</dt> </dl></td>
-<td>Не указана ссылка на обязательный целевой элемент.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_PART_STREAM"></span><span id="xps_e_missing_part_stream"></span><dl> <dt><strong>XPS_E_MISSING_PART_STREAM</strong></dt> <dt>0x80520113</dt> </dl></td>
-<td>Для ресурса не был указан поток.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_REFERRED_DOCUMENT"></span><span id="xps_e_missing_referred_document"></span><dl> <dt><strong>XPS_E_MISSING_REFERRED_DOCUMENT</strong></dt> <dt>0x8052010a</dt> </dl></td>
-<td>Не удалось найти часть FixedDocument, на которую ссылается FixedDocumentSequence. Документ XPS должен содержать по крайней мере один FixedDocument.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_REFERRED_PAGE"></span><span id="xps_e_missing_referred_page"></span><dl> <dt><strong>XPS_E_MISSING_REFERRED_PAGE</strong></dt> <dt>0x8052010b</dt> </dl></td>
-<td>Не удалось найти часть FixedPage, на которую ссылается FixedDocument. Документ XPS должен содержать по крайней мере один элемент FixedPage.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_RELATIONSHIP_TARGET"></span><span id="xps_e_missing_relationship_target"></span><dl> <dt><strong>XPS_E_MISSING_RELATIONSHIP_TARGET</strong></dt> <dt>0x80520105</dt> </dl></td>
-<td>Часть целевого объекта связи отсутствует в связи пакета.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_RESOURCE_KEY"></span><span id="xps_e_missing_resource_key"></span><dl> <dt><strong>XPS_E_MISSING_RESOURCE_KEY</strong></dt> <dt>0x8052010f</dt> </dl></td>
-<td>Для ресурса не указан атрибут <strong>x:Key</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_RESOURCE_RELATIONSHIP"></span><span id="xps_e_missing_resource_relationship"></span><dl> <dt><strong>XPS_E_MISSING_RESOURCE_RELATIONSHIP</strong></dt> <dt>0x80520106</dt> </dl></td>
-<td>Ресурс, на который ссылается страница или удаленное содержимое словаря, не существует как связь между страницами.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MISSING_RESTRICTED_FONT_RELATIONSHIP"></span><span id="xps_e_missing_restricted_font_relationship"></span><dl> <dt><strong>XPS_E_MISSING_RESTRICTED_FONT_RELATIONSHIP</strong></dt> <dt>0x80520111</dt> </dl></td>
-<td>Указанный в ссылке шрифт с ограничением не был указан в вызове <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument"><strong>икспсомпаккажевритер:: стартневдокумент</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MISSING_SEGMENT_DATA"></span><span id="xps_e_missing_segment_data"></span><dl> <dt><strong>XPS_E_MISSING_SEGMENT_DATA</strong></dt> <dt>0x80520103</dt> </dl></td>
-<td>Массив данных сегмента содержит меньше записей, чем массив типов сегментов. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MULTIPLE_DOCUMENTSEQUENCE_RELATIONSHIPS"></span><span id="xps_e_multiple_documentsequence_relationships"></span><dl> <dt><strong>XPS_E_MULTIPLE_DOCUMENTSEQUENCE_RELATIONSHIPS</strong></dt> <dt>0x80520202</dt> </dl></td>
-<td>Предпринята попытка добавить FixedDocumentSequence в пакет, который уже содержит его. Документ XPS должен содержать одну и только одну часть FixedDocumentSequence.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENT"></span><span id="xps_e_multiple_printtickets_on_document"></span><dl> <dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENT</strong></dt> <dt>0x80520206</dt> </dl></td>
-<td>Предпринята попытка добавить билет печати на уровне документа в FixedDocument, у которого уже есть такой запрос. FixedDocument в документе XPS может содержать только один билет печати на уровне документа.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENTSEQUENCE"></span><span id="xps_e_multiple_printtickets_on_documentsequence"></span><dl> <dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENTSEQUENCE</strong></dt> <dt>0x80520207</dt> </dl></td>
-<td>Предпринята попытка добавить билет печати на уровне задания в FixedDocumentSequence, у которого уже есть. FixedDocumentSequence в документе XPS может содержать только один билет на печать на уровне задания.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_PAGE"></span><span id="xps_e_multiple_printtickets_on_page"></span><dl> <dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_PAGE</strong></dt> <dt>0x80520205</dt> </dl></td>
-<td>Предпринята попытка добавить билет печати на уровне страницы в FixedPage, которая уже содержит такой запрос. Элемент FixedPage в документе XPS может содержать только один билет на печать на уровне страницы.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MULTIPLE_REFERENCES_TO_PART"></span><span id="xps_e_multiple_references_to_part"></span><dl> <dt><strong>XPS_E_MULTIPLE_REFERENCES_TO_PART</strong></dt> <dt>0x80520208</dt> </dl></td>
-<td>Коллекция ограниченных шрифтов содержит запись ограниченного шрифта, которая была повторена. Каждая запись шрифта может находиться в коллекции только один раз.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MULTIPLE_RESOURCES"></span><span id="xps_e_multiple_resources"></span><dl> <dt><strong>XPS_E_MULTIPLE_RESOURCES</strong></dt> <dt>0x80520201</dt> </dl></td>
-<td>Ресурс с таким именем части уже существует.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_MULTIPLE_THUMBNAILS_ON_PACKAGE"></span><span id="xps_e_multiple_thumbnails_on_package"></span><dl> <dt><strong>XPS_E_MULTIPLE_THUMBNAILS_ON_PACKAGE</strong></dt> <dt>0x80520204</dt> </dl></td>
-<td>Предпринята попытка добавить эскиз в пакет, который уже содержит изображение. Документ XPS может содержать только одно изображение в виде эскиза на уровне пакета.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_MULTIPLE_THUMBNAILS_ON_PAGE"></span><span id="xps_e_multiple_thumbnails_on_page"></span><dl> <dt><strong>XPS_E_MULTIPLE_THUMBNAILS_ON_PAGE</strong></dt> <dt>0x80520203</dt> </dl></td>
-<td>Предпринята попытка добавить изображение эскиза на уровне страницы в FixedPage, у которой уже есть эскиз. Элемент FixedPage в документе XPS может содержать только одно изображение на уровне страницы.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_NEGATIVE_FLOAT"></span><span id="xps_e_negative_float"></span><dl> <dt><strong>XPS_E_NEGATIVE_FLOAT</strong></dt> <dt>0x8052030a</dt> </dl></td>
-<td>Запись содержит отрицательное значение, но не должна содержать отрицательное значение. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_NESTED_REMOTE_DICTIONARY"></span><span id="xps_e_nested_remote_dictionary"></span><dl> <dt><strong>XPS_E_NESTED_REMOTE_DICTIONARY</strong></dt> <dt>0x80520402</dt> </dl></td>
-<td>Предпринята попытка добавить ссылку на удаленный словарь в удаленный словарь. Удаленный словарь не может ссылаться на другой удаленный словарь.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_NO_CUSTOM_OBJECTS"></span><span id="xps_e_no_custom_objects"></span><dl> <dt><strong>XPS_E_NO_CUSTOM_OBJECTS</strong></dt> <dt>0x80520502</dt> </dl></td>
-<td>Указатель интерфейса не указывает на распознанную реализацию интерфейса. Пользовательская реализация интерфейсов API документов XPS не поддерживается.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_NOT_ENOUGH_GRADIENT_STOPS"></span><span id="xps_e_not_enough_gradient_stops"></span><dl> <dt><strong>XPS_E_NOT_ENOUGH_GRADIENT_STOPS</strong></dt> <dt>0x8052050b</dt> </dl></td>
-<td>Коллекция ограничителей градиента имеет менее двух остановок. Коллекция ограничителей градиента должна иметь по крайней мере две остановки градиента.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_ODD_BIDILEVEL"></span><span id="xps_e_odd_bidilevel"></span><dl> <dt><strong>XPS_E_ODD_BIDILEVEL</strong></dt> <dt>0x80520307</dt> </dl></td>
-<td>Текстовая строка была указана как ориентированная на сторону и справа налево. Если текст ориентирован на уровни, он не может иметь нечетное значение (справа налево). Аналогично, если уровень bidi имеет нечетное значение, текст не может быть ориентирован в сторону.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_ONE_TO_ONE_MAPPING_EXPECTED"></span><span id="xps_e_one_to_one_mapping_expected"></span><dl> <dt><strong>XPS_E_ONE_TO_ONE_MAPPING_EXPECTED</strong></dt> <dt>0x80520308</dt> </dl></td>
-<td>Сопоставления глифов не соответствуют содержимому строки в Юникоде.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_PACKAGE_WRITER_NOT_CLOSED"></span><span id="xps_e_package_writer_not_closed"></span><dl> <dt><strong>XPS_E_PACKAGE_WRITER_NOT_CLOSED</strong></dt> <dt>0x8052050c</dt> </dl></td>
-<td>Модуль записи пакета не был закрыт до его освобождения.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_RELATIONSHIP_EXTERNAL"></span><span id="xps_e_relationship_external"></span><dl> <dt><strong>XPS_E_RELATIONSHIP_EXTERNAL</strong></dt> <dt>0x8052050a</dt> </dl></td>
-<td>Связь относится к части, которая находится за пределами документа XPS. Все содержимое, отображаемое в документе XPS, должно содержаться в документе XPS.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_RESOURCE_NOT_OWNED"></span><span id="xps_e_resource_not_owned"></span><dl> <dt><strong>XPS_E_RESOURCE_NOT_OWNED</strong></dt> <dt>0x80520504</dt> </dl></td>
-<td>Зарезервировано.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_RESTRICTED_FONT_NOT_OBFUSCATED"></span><span id="xps_e_restricted_font_not_obfuscated"></span><dl> <dt><strong>XPS_E_RESTRICTED_FONT_NOT_OBFUSCATED</strong></dt> <dt>0x80520309</dt> </dl></td>
-<td><em>Зарезервировано</em>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_STRING_TOO_LONG"></span><span id="xps_e_string_too_long"></span><dl> <dt><strong>XPS_E_STRING_TOO_LONG</strong></dt> <dt>0x80520300</dt> </dl></td>
-<td>При попытке скопировать строку в новый буфер произошло переполнение <strong>size_t</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_TOO_MANY_INDICES"></span><span id="xps_e_too_many_indices"></span><dl> <dt><strong>XPS_E_TOO_MANY_INDICES</strong></dt> <dt>0x80520301</dt> </dl></td>
-<td>Количество индексов глифов больше, чем кодовые точки Юникода. Если сопоставления глифов отсутствуют, число индексов глифов должно быть меньше или равно числу кодовых позиций Юникода.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_UNAVAILABLE_PACKAGE"></span><span id="xps_e_unavailable_package"></span><dl> <dt><strong>XPS_E_UNAVAILABLE_PACKAGE</strong></dt> <dt>0x80520114</dt> </dl></td>
-<td>Произошла серьезная ошибка, и содержимое объектной модели XPS может быть невосстанавливаемым. Некоторые компоненты объектной модели XPS по-прежнему можно использовать, но их необходимо проверить, прежде чем использовать их дальше. Так как состояние модели XPS не может быть предсказано после возврата этой ошибки, все компоненты модели XPS должны быть освобождены и удалены.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_UNEXPECTED_COLORPROFILE"></span><span id="xps_e_unexpected_colorprofile"></span><dl> <dt><strong>XPS_E_UNEXPECTED_COLORPROFILE</strong></dt> <dt>0x80520505</dt> </dl></td>
-<td>Имеется цветовой профиль, если он не ожидался. Цветовой профиль разрешен только в том случае, если тип цвета — <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a>. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_UNEXPECTED_CONTENT_TYPE"></span><span id="xps_e_unexpected_content_type"></span><dl> <dt><strong>XPS_E_UNEXPECTED_CONTENT_TYPE</strong></dt> <dt>0x80520008</dt> </dl></td>
-<td>Целевой объект связи не является типом, ожидаемым контекстом связи. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_UNEXPECTED_RELATIONSHIP_TYPE"></span><span id="xps_e_unexpected_relationship_type"></span><dl> <dt><strong>XPS_E_UNEXPECTED_RELATIONSHIP_TYPE</strong></dt> <dt>0x80520010</dt> </dl></td>
-<td>Тип связи не распознан.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_UNEXPECTED_RESTRICTED_FONT_RELATIONSHIP"></span><span id="xps_e_unexpected_restricted_font_relationship"></span><dl> <dt><strong>XPS_E_UNEXPECTED_RESTRICTED_FONT_RELATIONSHIP</strong></dt> <dt>0x80520011</dt> </dl></td>
-<td>Коллекция ограниченных шрифтов содержит неограниченный шрифт.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="XPS_E_VISUAL_CIRCULAR_REF"></span><span id="xps_e_visual_circular_ref"></span><dl> <dt><strong>XPS_E_VISUAL_CIRCULAR_REF</strong></dt> <dt>0x80520501</dt> </dl></td>
-<td>Зарезервировано.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="XPS_E_XKEY_ATTR_PRESENT_OUTSIDE_RES_DICT"></span><span id="xps_e_xkey_attr_present_outside_res_dict"></span><dl> <dt><strong>XPS_E_XKEY_ATTR_PRESENT_OUTSIDE_RES_DICT</strong></dt> <dt>0x80520400</dt> </dl></td>
-<td>Для геометрии пути, который не находится в словаре ресурсов, указан атрибут <strong>x:Key</strong> . Геометрические пути, которые не находятся в словаре ресурсов, не могут иметь атрибут <strong>x:Key</strong> .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Возвращаемый код и значение | Описание | 
+|-------------------|-------------|
+| <span id="XPS_E_ALREADY_OWNED"></span><span id="xps_e_already_owned"></span><dl><dt><strong>XPS_E_ALREADY_OWNED</strong></dt><dt>0x80520503</dt></dl> | У интерфейса уже есть владелец.<br /> | 
+| <span id="XPS_E_BLEED_BOX_PAGE_DIMENSIONS_NOT_IN_SYNC"></span><span id="xps_e_bleed_box_page_dimensions_not_in_sync"></span><dl><dt><strong>XPS_E_BLEED_BOX_PAGE_DIMENSIONS_NOT_IN_SYNC</strong></dt><dt>0x80520509</dt></dl> | Размеры поля с выходом за обрез несовместимы с размерами страницы.<br /> Значение ширины рамки выпусков, которое должно быть больше или равно ширине страницы, а также абсолютное значение координаты x исходного окна. Значение высоты рамки выпуска от края должно быть больше или равно высоте страницы плюс абсолютное значение координат по оси y исходного окна. <br /> | 
+| <span id="XPS_E_BOTH_PATHFIGURE_AND_ABBR_SYNTAX_PRESENT"></span><span id="xps_e_both_pathfigure_and_abbr_syntax_present"></span><dl><dt><strong>XPS_E_BOTH_PATHFIGURE_AND_ABBR_SYNTAX_PRESENT</strong></dt><dt>0x80520507</dt></dl> | Элемент <strong>PathGeometry</strong> содержит набор рисунков пути, указанных либо с помощью атрибута <strong>Figures</strong> , либо с дочерним элементом <strong>PathFigure</strong> . Контуры геометрии не могут одновременно иметь атрибут <strong>Figures</strong> и дочерний элемент <strong>PathFigure</strong> . <br /> | 
+| <span id="XPS_E_BOTH_RESOURCE_AND_SOURCEATTR_PRESENT"></span><span id="xps_e_both_resource_and_sourceattr_present"></span><dl><dt><strong>XPS_E_BOTH_RESOURCE_AND_SOURCEATTR_PRESENT</strong></dt><dt>0x80520508</dt></dl> | Элемент <strong>ResourceDictionary</strong> , указывающий удаленный словарь ресурсов в его <strong>исходном</strong> атрибуте, не должен содержать дочерних элементов определения ресурсов.<br /> | 
+| <span id="XPS_E_CARET_OUT_OF_ORDER"></span><span id="xps_e_caret_out_of_order"></span><dl><dt><strong>XPS_E_CARET_OUT_OF_ORDER</strong></dt><dt>0x80520306</dt></dl> | Неупорядоченное значение положения курсора. Значения расположения должны быть отсортированы в возрастающем порядке. <br /> | 
+| <span id="XPS_E_CARET_OUTSIDE_STRING"></span><span id="xps_e_caret_outside_string"></span><dl><dt><strong>XPS_E_CARET_OUTSIDE_STRING</strong></dt><dt>0x80520305</dt></dl> | Для пустой строки были указаны остановки курсора; или индекс перехода курсора превысил длину строки в Юникоде. <br /> | 
+| <span id="XPS_E_COLOR_COMPONENT_OUT_OF_RANGE"></span><span id="xps_e_color_component_out_of_range"></span><dl><dt><strong>XPS_E_COLOR_COMPONENT_OUT_OF_RANGE</strong></dt><dt>0x80520506</dt></dl> | Значение цвета выходит за пределы допустимого диапазона.<br /> Для <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_SCRGB</strong></a> типов цветов значение альфа-канала должно быть больше или равно 0,0 и меньше или равно + 1,0.<br /> Для <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a> типов цветов <strong>чаннелвалуес [0]</strong> , представляющий значение альфа-канала, должно быть больше или равно 0,0 и меньше или равно + 1,0. <br /> | 
+| <span id="XPS_E_DICTIONARY_ITEM_NAMED"></span><span id="xps_e_dictionary_item_named"></span><dl><dt><strong>XPS_E_DICTIONARY_ITEM_NAMED</strong></dt><dt>0x80520401</dt></dl> | Визуальный элемент в словаре ресурсов имеет атрибут <strong>Name</strong> , который не может быть указан ни для каких потомков элемента <strong>ResourceDictionary</strong> .<br /> | 
+| <span id="XPS_E_DUPLICATE_NAMES"></span><span id="xps_e_duplicate_names"></span><dl><dt><strong>XPS_E_DUPLICATE_NAMES</strong></dt><dt>0x80520209</dt></dl> | Объект с таким именем уже существует в словаре.<br /> | 
+| <span id="XPS_E_DUPLICATE_RESOURCE_KEYS"></span><span id="xps_e_duplicate_resource_keys"></span><dl><dt><strong>XPS_E_DUPLICATE_RESOURCE_KEYS</strong></dt><dt>0x80520200</dt></dl> | Объект с таким именем ключа уже существует в словаре.<br /> | 
+| <span id="XPS_E_INDEX_OUT_OF_RANGE"></span><span id="xps_e_index_out_of_range"></span><dl><dt><strong>XPS_E_INDEX_OUT_OF_RANGE</strong></dt><dt>0x80520500</dt></dl> | Зарезервировано.<br /> | 
+| <span id="XPS_E_INVALID_BLEED_BOX"></span><span id="xps_e_invalid_bleed_box"></span><dl><dt><strong>XPS_E_INVALID_BLEED_BOX</strong></dt><dt>0x80520004</dt></dl> | Прямоугольник в поле выпуска за обрез содержит одно или несколько недопустимых значений. Допустимые значения см. в описании параметра. <br /> | 
+| <span id="XPS_E_INVALID_CONTENT_BOX"></span><span id="xps_e_invalid_content_box"></span><dl><dt><strong>XPS_E_INVALID_CONTENT_BOX</strong></dt><dt>0x8052000b</dt></dl> | Прямоугольник поля содержимого содержит одно или несколько недопустимых значений. Допустимые значения см. в описании параметра. <br /> | 
+| <span id="XPS_E_INVALID_CONTENT_TYPE"></span><span id="xps_e_invalid_content_type"></span><dl><dt><strong>XPS_E_INVALID_CONTENT_TYPE</strong></dt><dt>0x8052000e</dt></dl> | Недопустимая строка типа содержимого.<br /> | 
+| <span id="XPS_E_INVALID_FLOAT"></span><span id="xps_e_invalid_float"></span><dl><dt><strong>XPS_E_INVALID_FLOAT</strong></dt><dt>0x80520007</dt></dl> | Недопустимое значение <strong>float</strong> . Это либо бесконечное, либо нечисловое значение (NAN).<br /> | 
+| <span id="XPS_E_INVALID_FONT_URI"></span><span id="xps_e_invalid_font_uri"></span><dl><dt><strong>XPS_E_INVALID_FONT_URI</strong></dt><dt>0x8052000a</dt></dl> | Недопустимый URI шрифта, возможно, из-за того, что он содержит пустой фрагмент или символы, которые являются недопустимыми.<br /> | 
+| <span id="XPS_E_INVALID_LANGUAGE"></span><span id="xps_e_invalid_language"></span><dl><dt><strong>XPS_E_INVALID_LANGUAGE</strong></dt><dt>0x80520000</dt></dl> | Указанный язык недопустим или имеет неправильный формат.<br /> | 
+| <span id="XPS_E_INVALID_LOOKUP_TYPE"></span><span id="xps_e_invalid_lookup_type"></span><dl><dt><strong>XPS_E_INVALID_LOOKUP_TYPE</strong></dt><dt>0x80520006</dt></dl> | Имя ключа поиска ссылается на объект, который не является правильным типом для вызова; Например, если метод возвращает кисть, но имя ключа уточняющего запроса ссылается на объект Geometry.<br /> | 
+| <span id="XPS_E_INVALID_MARKUP"></span><span id="xps_e_invalid_markup"></span><dl><dt><strong>XPS_E_INVALID_MARKUP</strong></dt><dt>0x8052000c</dt></dl> | Разметка для чтения содержит элемент или атрибут, который не соответствует <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">спецификации формата XML</a>.<br /><blockquote>[!Note]<br />Для представления значений с плавающей запятой модель XPS использует тип данных <strong>float</strong> вместо <strong>Double</strong>. Если документ XPS содержит элемент с данными с плавающей запятой, не попадающие в значение <strong>float</strong> , эта ошибка будет возвращена при обнаружении этого значения во время десериализации.</blockquote><br /><br /> | 
+| <span id="XPS_E_INVALID_NAME"></span><span id="xps_e_invalid_name"></span><dl><dt><strong>XPS_E_INVALID_NAME</strong></dt><dt>0x80520001</dt></dl> | Переданная строка не является допустимым именем в соответствии со спецификацией XML Paper. <br /> | 
+| <span id="XPS_E_INVALID_OBFUSCATED_FONT_URI"></span><span id="xps_e_invalid_obfuscated_font_uri"></span><dl><dt><strong>XPS_E_INVALID_OBFUSCATED_FONT_URI</strong></dt><dt>0x8052000f</dt></dl> | Зарезервировано.<br /> | 
+| <span id="XPS_E_INVALID_PAGE_SIZE"></span><span id="xps_e_invalid_page_size"></span><dl><dt><strong>XPS_E_INVALID_PAGE_SIZE</strong></dt><dt>0x80520003</dt></dl> | Размеры страницы содержат недопустимое значение размера страницы. <br /> | 
+| <span id="XPS_E_INVALID_RESOURCE_KEY"></span><span id="xps_e_invalid_resource_key"></span><dl><dt><strong>XPS_E_INVALID_RESOURCE_KEY</strong></dt><dt>0x80520002</dt></dl> | В соответствии со <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">спецификацией XML Paper</a>строка ключа поиска недопустима.<br /> | 
+| <span id="XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE"></span><span id="xps_e_invalid_thumbnail_image_type"></span><dl><dt><strong>XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE</strong></dt><dt>0x80520005</dt></dl> | Тип изображения эскиза не поддерживается.<br /> | 
+| <span id="XPS_E_INVALID_XML_ENCODING"></span><span id="xps_e_invalid_xml_encoding"></span><dl><dt><strong>XPS_E_INVALID_XML_ENCODING</strong></dt><dt>0x8052000d</dt></dl> | Обнаружена неправильная или неправильно отформатированная XML-разметка.<br /> | 
+| <span id="XPS_E_MAPPING_OUT_OF_ORDER"></span><span id="xps_e_mapping_out_of_order"></span><dl><dt><strong>XPS_E_MAPPING_OUT_OF_ORDER</strong></dt><dt>0x80520302</dt></dl> | В одной или нескольких структурах <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping"><strong>XPS_GLYPH_MAPPING</strong></a> элемент находится вне последовательности. <br /> | 
+| <span id="XPS_E_MAPPING_OUTSIDE_INDICES"></span><span id="xps_e_mapping_outside_indices"></span><dl><dt><strong>XPS_E_MAPPING_OUTSIDE_INDICES</strong></dt><dt>0x80520304</dt></dl> | Сопоставления глифов превышают число индексов глифов.<br /> | 
+| <span id="XPS_E_MAPPING_OUTSIDE_STRING"></span><span id="xps_e_mapping_outside_string"></span><dl><dt><strong>XPS_E_MAPPING_OUTSIDE_STRING</strong></dt><dt>0x80520303</dt></dl> | Ошибка в сопоставлении глифов.<br /> Если строка Юникода пуста, эта ошибка означает, что также было определено сопоставление глифов. Сопоставления глифов не должны быть определены, если строка Юникода пуста.<br /> Если строка Юникода не пуста, эта ошибка означает, что для глифов за пределами строки Юникода было определено сопоставление глифов. Сопоставления глифов не могут быть определены для глифов, которые выходят за пределы длины строки Юникода.<br /> | 
+| <span id="XPS_E_MISSING_COLORPROFILE"></span><span id="xps_e_missing_colorprofile"></span><dl><dt><strong>XPS_E_MISSING_COLORPROFILE</strong></dt><dt>0x80520104</dt></dl> | Параметр цветового профиля имеет <strong>значение NULL</strong>, но ожидается цветовой профиль. Если тип цвета — XPS_COLOR_TYPE_CONTEXT, требуется цветовой профиль. <br /> | 
+| <span id="XPS_E_MISSING_DISCARDCONTROL"></span><span id="xps_e_missing_discardcontrol"></span><dl><dt><strong>XPS_E_MISSING_DISCARDCONTROL</strong></dt><dt>0x80520112</dt></dl> | Страница ссылается на отклоненные ресурсы, но не указывает имя части Дискардконтрол.<br /> | 
+| <span id="XPS_E_MISSING_DOCUMENT"></span><span id="xps_e_missing_document"></span><dl><dt><strong>XPS_E_MISSING_DOCUMENT</strong></dt><dt>0x80520109</dt></dl> | <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage"><strong>Икспсомпаккажевритер:: addPage</strong></a> вызывался до <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument"><strong>Икспсомпаккажевритер:: стартневдокумент</strong></a>.<br /> | 
+| <span id="XPS_E_MISSING_DOCUMENTSEQUENCE_RELATIONSHIP"></span><span id="xps_e_missing_documentsequence_relationship"></span><dl><dt><strong>XPS_E_MISSING_DOCUMENTSEQUENCE_RELATIONSHIP</strong></dt><dt>0x80520108</dt></dl> | Пакет не содержит FixedDocumentSequence.<br /> | 
+| <span id="XPS_E_MISSING_FONTURI"></span><span id="xps_e_missing_fonturi"></span><dl><dt><strong>XPS_E_MISSING_FONTURI</strong></dt><dt>0x80520107</dt></dl> | Интерфейсу <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs"><strong>икспсомглифс</strong></a> требуется URI шрифта, но он не указан.<br /> | 
+| <span id="XPS_E_MISSING_GLYPHS"></span><span id="xps_e_missing_glyphs"></span><dl><dt><strong>XPS_E_MISSING_GLYPHS</strong></dt><dt>0x80520102</dt></dl> | Интерфейс <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphs"><strong>икспсомглифс</strong></a> без строки Юникода не указывает индексы глифов. Интерфейс <strong>икспсомглифс</strong> должен указывать либо строку в Юникоде, либо массив индексов глифов.<br /> | 
+| <span id="XPS_E_MISSING_IMAGE_IN_IMAGEBRUSH"></span><span id="xps_e_missing_image_in_imagebrush"></span><dl><dt><strong>XPS_E_MISSING_IMAGE_IN_IMAGEBRUSH</strong></dt><dt>0x8052010e</dt></dl> | Не удалось найти ресурс изображения для кисти изображения.<br /> | 
+| <span id="XPS_E_MISSING_LOOKUP"></span><span id="xps_e_missing_lookup"></span><dl><dt><strong>XPS_E_MISSING_LOOKUP</strong></dt><dt>0x80520101</dt></dl> | Удаленный ресурс имеет непредвиденный объект.<br /> | 
+| <span id="XPS_E_MISSING_NAME"></span><span id="xps_e_missing_name"></span><dl><dt><strong>XPS_E_MISSING_NAME</strong></dt><dt>0x80520100</dt></dl> | Страница не имеет имени; Состояние целевого объекта гиперссылки может быть задано только в том случае, если у страницы есть имя.<br /> | 
+| <span id="XPS_E_MISSING_PAGE_IN_DOCUMENT"></span><span id="xps_e_missing_page_in_document"></span><dl><dt><strong>XPS_E_MISSING_PAGE_IN_DOCUMENT</strong></dt><dt>0x8052010c</dt></dl> | FixedDocument не содержит ни одной части FixedPage. Документ XPS должен содержать по крайней мере один элемент FixedPage.<br /> | 
+| <span id="XPS_E_MISSING_PAGE_IN_PAGEREFERENCE"></span><span id="xps_e_missing_page_in_pagereference"></span><dl><dt><strong>XPS_E_MISSING_PAGE_IN_PAGEREFERENCE</strong></dt><dt>0x8052010d</dt></dl> | Ссылка на страницу не имеет соответствующей страницы.<br /> | 
+| <span id="XPS_E_MISSING_PART_REFERENCE"></span><span id="xps_e_missing_part_reference"></span><dl><dt><strong>XPS_E_MISSING_PART_REFERENCE</strong></dt><dt>0x80520110</dt></dl> | Не указана ссылка на обязательный целевой элемент.<br /> | 
+| <span id="XPS_E_MISSING_PART_STREAM"></span><span id="xps_e_missing_part_stream"></span><dl><dt><strong>XPS_E_MISSING_PART_STREAM</strong></dt><dt>0x80520113</dt></dl> | Для ресурса не был указан поток.<br /> | 
+| <span id="XPS_E_MISSING_REFERRED_DOCUMENT"></span><span id="xps_e_missing_referred_document"></span><dl><dt><strong>XPS_E_MISSING_REFERRED_DOCUMENT</strong></dt><dt>0x8052010a</dt></dl> | Не удалось найти часть FixedDocument, на которую ссылается FixedDocumentSequence. Документ XPS должен содержать по крайней мере один FixedDocument.<br /> | 
+| <span id="XPS_E_MISSING_REFERRED_PAGE"></span><span id="xps_e_missing_referred_page"></span><dl><dt><strong>XPS_E_MISSING_REFERRED_PAGE</strong></dt><dt>0x8052010b</dt></dl> | Не удалось найти часть FixedPage, на которую ссылается FixedDocument. Документ XPS должен содержать по крайней мере один элемент FixedPage.<br /> | 
+| <span id="XPS_E_MISSING_RELATIONSHIP_TARGET"></span><span id="xps_e_missing_relationship_target"></span><dl><dt><strong>XPS_E_MISSING_RELATIONSHIP_TARGET</strong></dt><dt>0x80520105</dt></dl> | Часть целевого объекта связи отсутствует в связи пакета.<br /> | 
+| <span id="XPS_E_MISSING_RESOURCE_KEY"></span><span id="xps_e_missing_resource_key"></span><dl><dt><strong>XPS_E_MISSING_RESOURCE_KEY</strong></dt><dt>0x8052010f</dt></dl> | Для ресурса не указан атрибут <strong>x:Key</strong> .<br /> | 
+| <span id="XPS_E_MISSING_RESOURCE_RELATIONSHIP"></span><span id="xps_e_missing_resource_relationship"></span><dl><dt><strong>XPS_E_MISSING_RESOURCE_RELATIONSHIP</strong></dt><dt>0x80520106</dt></dl> | Ресурс, на который ссылается страница или удаленное содержимое словаря, не существует как связь между страницами.<br /> | 
+| <span id="XPS_E_MISSING_RESTRICTED_FONT_RELATIONSHIP"></span><span id="xps_e_missing_restricted_font_relationship"></span><dl><dt><strong>XPS_E_MISSING_RESTRICTED_FONT_RELATIONSHIP</strong></dt><dt>0x80520111</dt></dl> | Указанный в ссылке шрифт с ограничением не был указан в вызове <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument"><strong>икспсомпаккажевритер:: стартневдокумент</strong></a>.<br /> | 
+| <span id="XPS_E_MISSING_SEGMENT_DATA"></span><span id="xps_e_missing_segment_data"></span><dl><dt><strong>XPS_E_MISSING_SEGMENT_DATA</strong></dt><dt>0x80520103</dt></dl> | Массив данных сегмента содержит меньше записей, чем массив типов сегментов. <br /> | 
+| <span id="XPS_E_MULTIPLE_DOCUMENTSEQUENCE_RELATIONSHIPS"></span><span id="xps_e_multiple_documentsequence_relationships"></span><dl><dt><strong>XPS_E_MULTIPLE_DOCUMENTSEQUENCE_RELATIONSHIPS</strong></dt><dt>0x80520202</dt></dl> | Предпринята попытка добавить FixedDocumentSequence в пакет, который уже содержит его. Документ XPS должен содержать одну и только одну часть FixedDocumentSequence.<br /> | 
+| <span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENT"></span><span id="xps_e_multiple_printtickets_on_document"></span><dl><dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENT</strong></dt><dt>0x80520206</dt></dl> | Предпринята попытка добавить билет печати на уровне документа в FixedDocument, у которого уже есть такой запрос. FixedDocument в документе XPS может содержать только один билет печати на уровне документа.<br /> | 
+| <span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENTSEQUENCE"></span><span id="xps_e_multiple_printtickets_on_documentsequence"></span><dl><dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENTSEQUENCE</strong></dt><dt>0x80520207</dt></dl> | Предпринята попытка добавить билет печати на уровне задания в FixedDocumentSequence, у которого уже есть. FixedDocumentSequence в документе XPS может содержать только один билет на печать на уровне задания.<br /> | 
+| <span id="XPS_E_MULTIPLE_PRINTTICKETS_ON_PAGE"></span><span id="xps_e_multiple_printtickets_on_page"></span><dl><dt><strong>XPS_E_MULTIPLE_PRINTTICKETS_ON_PAGE</strong></dt><dt>0x80520205</dt></dl> | Предпринята попытка добавить билет печати на уровне страницы в FixedPage, которая уже содержит такой запрос. Элемент FixedPage в документе XPS может содержать только один билет на печать на уровне страницы.<br /> | 
+| <span id="XPS_E_MULTIPLE_REFERENCES_TO_PART"></span><span id="xps_e_multiple_references_to_part"></span><dl><dt><strong>XPS_E_MULTIPLE_REFERENCES_TO_PART</strong></dt><dt>0x80520208</dt></dl> | Коллекция ограниченных шрифтов содержит запись ограниченного шрифта, которая была повторена. Каждая запись шрифта может находиться в коллекции только один раз.<br /> | 
+| <span id="XPS_E_MULTIPLE_RESOURCES"></span><span id="xps_e_multiple_resources"></span><dl><dt><strong>XPS_E_MULTIPLE_RESOURCES</strong></dt><dt>0x80520201</dt></dl> | Ресурс с таким именем части уже существует.<br /> | 
+| <span id="XPS_E_MULTIPLE_THUMBNAILS_ON_PACKAGE"></span><span id="xps_e_multiple_thumbnails_on_package"></span><dl><dt><strong>XPS_E_MULTIPLE_THUMBNAILS_ON_PACKAGE</strong></dt><dt>0x80520204</dt></dl> | Предпринята попытка добавить эскиз в пакет, который уже содержит изображение. Документ XPS может содержать только одно изображение в виде эскиза на уровне пакета.<br /> | 
+| <span id="XPS_E_MULTIPLE_THUMBNAILS_ON_PAGE"></span><span id="xps_e_multiple_thumbnails_on_page"></span><dl><dt><strong>XPS_E_MULTIPLE_THUMBNAILS_ON_PAGE</strong></dt><dt>0x80520203</dt></dl> | Предпринята попытка добавить изображение эскиза на уровне страницы в FixedPage, у которой уже есть эскиз. Элемент FixedPage в документе XPS может содержать только одно изображение на уровне страницы.<br /> | 
+| <span id="XPS_E_NEGATIVE_FLOAT"></span><span id="xps_e_negative_float"></span><dl><dt><strong>XPS_E_NEGATIVE_FLOAT</strong></dt><dt>0x8052030a</dt></dl> | Запись содержит отрицательное значение, но не должна содержать отрицательное значение. <br /> | 
+| <span id="XPS_E_NESTED_REMOTE_DICTIONARY"></span><span id="xps_e_nested_remote_dictionary"></span><dl><dt><strong>XPS_E_NESTED_REMOTE_DICTIONARY</strong></dt><dt>0x80520402</dt></dl> | Предпринята попытка добавить ссылку на удаленный словарь в удаленный словарь. Удаленный словарь не может ссылаться на другой удаленный словарь.<br /> | 
+| <span id="XPS_E_NO_CUSTOM_OBJECTS"></span><span id="xps_e_no_custom_objects"></span><dl><dt><strong>XPS_E_NO_CUSTOM_OBJECTS</strong></dt><dt>0x80520502</dt></dl> | Указатель интерфейса не указывает на распознанную реализацию интерфейса. Пользовательская реализация интерфейсов API документов XPS не поддерживается.<br /> | 
+| <span id="XPS_E_NOT_ENOUGH_GRADIENT_STOPS"></span><span id="xps_e_not_enough_gradient_stops"></span><dl><dt><strong>XPS_E_NOT_ENOUGH_GRADIENT_STOPS</strong></dt><dt>0x8052050b</dt></dl> | Коллекция ограничителей градиента имеет менее двух остановок. Коллекция ограничителей градиента должна иметь по крайней мере две остановки градиента.<br /> | 
+| <span id="XPS_E_ODD_BIDILEVEL"></span><span id="xps_e_odd_bidilevel"></span><dl><dt><strong>XPS_E_ODD_BIDILEVEL</strong></dt><dt>0x80520307</dt></dl> | Текстовая строка была указана как ориентированная на сторону и справа налево. Если текст ориентирован на уровни, он не может иметь нечетное значение (справа налево). Аналогично, если уровень bidi имеет нечетное значение, текст не может быть ориентирован в сторону.<br /> | 
+| <span id="XPS_E_ONE_TO_ONE_MAPPING_EXPECTED"></span><span id="xps_e_one_to_one_mapping_expected"></span><dl><dt><strong>XPS_E_ONE_TO_ONE_MAPPING_EXPECTED</strong></dt><dt>0x80520308</dt></dl> | Сопоставления глифов не соответствуют содержимому строки в Юникоде.<br /> | 
+| <span id="XPS_E_PACKAGE_WRITER_NOT_CLOSED"></span><span id="xps_e_package_writer_not_closed"></span><dl><dt><strong>XPS_E_PACKAGE_WRITER_NOT_CLOSED</strong></dt><dt>0x8052050c</dt></dl> | Модуль записи пакета не был закрыт до его освобождения.<br /> | 
+| <span id="XPS_E_RELATIONSHIP_EXTERNAL"></span><span id="xps_e_relationship_external"></span><dl><dt><strong>XPS_E_RELATIONSHIP_EXTERNAL</strong></dt><dt>0x8052050a</dt></dl> | Связь относится к части, которая находится за пределами документа XPS. Все содержимое, отображаемое в документе XPS, должно содержаться в документе XPS.<br /> | 
+| <span id="XPS_E_RESOURCE_NOT_OWNED"></span><span id="xps_e_resource_not_owned"></span><dl><dt><strong>XPS_E_RESOURCE_NOT_OWNED</strong></dt><dt>0x80520504</dt></dl> | Зарезервировано.<br /> | 
+| <span id="XPS_E_RESTRICTED_FONT_NOT_OBFUSCATED"></span><span id="xps_e_restricted_font_not_obfuscated"></span><dl><dt><strong>XPS_E_RESTRICTED_FONT_NOT_OBFUSCATED</strong></dt><dt>0x80520309</dt></dl> | <em>Зарезервировано</em>.<br /> | 
+| <span id="XPS_E_STRING_TOO_LONG"></span><span id="xps_e_string_too_long"></span><dl><dt><strong>XPS_E_STRING_TOO_LONG</strong></dt><dt>0x80520300</dt></dl> | При попытке скопировать строку в новый буфер произошло переполнение <strong>size_t</strong> .<br /> | 
+| <span id="XPS_E_TOO_MANY_INDICES"></span><span id="xps_e_too_many_indices"></span><dl><dt><strong>XPS_E_TOO_MANY_INDICES</strong></dt><dt>0x80520301</dt></dl> | Количество индексов глифов больше, чем кодовые точки Юникода. Если сопоставления глифов отсутствуют, число индексов глифов должно быть меньше или равно числу кодовых позиций Юникода.<br /> | 
+| <span id="XPS_E_UNAVAILABLE_PACKAGE"></span><span id="xps_e_unavailable_package"></span><dl><dt><strong>XPS_E_UNAVAILABLE_PACKAGE</strong></dt><dt>0x80520114</dt></dl> | Произошла серьезная ошибка, и содержимое объектной модели XPS может быть невосстанавливаемым. Некоторые компоненты объектной модели XPS по-прежнему можно использовать, но их необходимо проверить, прежде чем использовать их дальше. Так как состояние модели XPS не может быть предсказано после возврата этой ошибки, все компоненты модели XPS должны быть освобождены и удалены.<br /> | 
+| <span id="XPS_E_UNEXPECTED_COLORPROFILE"></span><span id="xps_e_unexpected_colorprofile"></span><dl><dt><strong>XPS_E_UNEXPECTED_COLORPROFILE</strong></dt><dt>0x80520505</dt></dl> | Имеется цветовой профиль, если он не ожидался. Цветовой профиль разрешен только в том случае, если тип цвета — <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_color"><strong>XPS_COLOR_TYPE_CONTEXT</strong></a>. <br /> | 
+| <span id="XPS_E_UNEXPECTED_CONTENT_TYPE"></span><span id="xps_e_unexpected_content_type"></span><dl><dt><strong>XPS_E_UNEXPECTED_CONTENT_TYPE</strong></dt><dt>0x80520008</dt></dl> | Целевой объект связи не является типом, ожидаемым контекстом связи. <br /> | 
+| <span id="XPS_E_UNEXPECTED_RELATIONSHIP_TYPE"></span><span id="xps_e_unexpected_relationship_type"></span><dl><dt><strong>XPS_E_UNEXPECTED_RELATIONSHIP_TYPE</strong></dt><dt>0x80520010</dt></dl> | Тип связи не распознан.<br /> | 
+| <span id="XPS_E_UNEXPECTED_RESTRICTED_FONT_RELATIONSHIP"></span><span id="xps_e_unexpected_restricted_font_relationship"></span><dl><dt><strong>XPS_E_UNEXPECTED_RESTRICTED_FONT_RELATIONSHIP</strong></dt><dt>0x80520011</dt></dl> | Коллекция ограниченных шрифтов содержит неограниченный шрифт.<br /> | 
+| <span id="XPS_E_VISUAL_CIRCULAR_REF"></span><span id="xps_e_visual_circular_ref"></span><dl><dt><strong>XPS_E_VISUAL_CIRCULAR_REF</strong></dt><dt>0x80520501</dt></dl> | Зарезервировано.<br /> | 
+| <span id="XPS_E_XKEY_ATTR_PRESENT_OUTSIDE_RES_DICT"></span><span id="xps_e_xkey_attr_present_outside_res_dict"></span><dl><dt><strong>XPS_E_XKEY_ATTR_PRESENT_OUTSIDE_RES_DICT</strong></dt><dt>0x80520400</dt></dl> | Для геометрии пути, который не находится в словаре ресурсов, указан атрибут <strong>x:Key</strong> . Геометрические пути, которые не находятся в словаре ресурсов, не могут иметь атрибут <strong>x:Key</strong> .<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Некоторые методы API документа XPS выполняют вызовы к API [упаковки](/previous-versions/windows/desktop/opc/packaging) . Дополнительные сведения о возвращаемых значениях API упаковки см. в разделе [ошибки упаковки](/previous-versions/windows/desktop/opc/packaging-errors).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

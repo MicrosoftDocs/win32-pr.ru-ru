@@ -4,12 +4,12 @@ ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Тестирование обработчиков фильтров
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b77fe098c2413e4f582ebfd98985dd09bf0ab9b5fc2def85fc7e954804dc1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf58f14f0f8de4458dd887bf52b32fb68f869d64
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463101"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122621950"
 ---
 # <a name="testing-filter-handlers"></a>Тестирование обработчиков фильтров
 
@@ -63,13 +63,13 @@ ifilttst /i test.htm /l /d /v 1
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Переключение и возможные переменные</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>

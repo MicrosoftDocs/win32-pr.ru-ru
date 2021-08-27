@@ -1,17 +1,17 @@
 ---
 description: Создает сертификат X. 509, подписанный с помощью тестового корневого ключа или другого указанного ключа, который привязывает ваше имя к открытой части пары ключей. Сертификат сохраняется в файл, в хранилище системных сертификатов или в обоих случаях.
 ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
-title: MakeCert
+title: Программой
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd9f15f942fb6dd7c4c831cb33552b6f59ec2cd6cf9cac9654386d6adc27649
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ff9fb79b5db5a6a71eee981166742b4e1680184
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119425744"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471930"
 ---
-# <a name="makecert"></a>MakeCert
+# <a name="makecert"></a>Программой
 
 > [!Note]  
 > Мы не рекомендуем использовать MakeCert. Чтобы создать самозаверяющие сертификаты, используйте командлет PowerShell [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate).
@@ -26,7 +26,7 @@ ms.locfileid: "119425744"
 
 *Выходной_файл* — это имя файла, в который будет записан сертификат. Если сертификат не должен записываться в файл, можно опустить *выходной_файл* .
 
-## <a name="options"></a>Параметры
+## <a name="options"></a>Варианты
 
 В состав MakeCert входят базовые и расширенные параметры. Основные параметры используются при создании сертификатов чаще всего. Дополнительные параметры обеспечивают более гибкое использование программы.
 
@@ -40,122 +40,34 @@ ms.locfileid: "119425744"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Базовый параметр</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-a</strong> <strong></strong> <em>Алгоритм</em></td>
-<td><a href="/windows/desktop/SecGloss/h-gly"><em>Хэш-</em></a> алгоритм. Необходимо задать значение <strong>SHA-1</strong> или <strong>MD5</strong> (по умолчанию). Сведения о MD5 см. в разделе <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-б</strong> <strong></strong> <em>DateStart</em></td>
-<td>Дата, когда сертификат был первым действителен. Значение по умолчанию — при создании сертификата. Формат <em>DateStart</em> — mm/дд/гггг.</td>
-</tr>
-<tr class="odd">
-<td><strong>-CY</strong> <strong></strong> <em>Цертификатетипес</em></td>
-<td>Тип сертификата. <em>Цертификатетипес</em> может быть <strong>закончена</strong> для конечного субъекта или <strong>центра</strong> <a href="/windows/desktop/SecGloss/c-gly"><em>сертификации</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-e</strong> <strong></strong> <em>DateEnd</em></td>
-<td>Дата окончания периода действия. Значение по умолчанию — год 2039.</td>
-</tr>
-<tr class="odd">
-<td><strong>-EKU</strong> <strong></strong> <em>OID1</em><strong>,</strong> <em>OID2</em> ...</td>
-<td>Вставляет в сертификат список из одного или нескольких <a href="/windows/desktop/SecGloss/e-gly"><em></em></a> <a href="/windows/desktop/SecGloss/o-gly"><em>идентификаторов объектов</em></a> с разделителями-запятыми (OID). Например, параметр <strong>-EKU 1.3.6.1.5.5.7.3.2</strong> вставляет OID проверки подлинности клиента. Определения допустимых OID см. в файле Винкрипт. h в CryptoAPI 2.0.</td>
-</tr>
-<tr class="even">
-<td><strong>-h</strong> <strong></strong> <em>Нумчилдрен</em></td>
-<td>Максимальная высота дерева ниже этого сертификата.</td>
-</tr>
-<tr class="odd">
-<td><strong>-l</strong> <strong></strong> <em>Полицилинк</em></td>
-<td>Ссылка на сведения о политике Агентства SPC (например, URL-адрес).</td>
-</tr>
-<tr class="even">
-<td><strong>-m</strong> <strong></strong> <em>нмонсс</em></td>
-<td>Длительность периода действия.</td>
-</tr>
-<tr class="odd">
-<td><strong>-n</strong> <strong>&quot;</strong> <em>Имя</em><strong>&quot;</strong></td>
-<td>Имя сертификата издателя. Это имя должно соответствовать стандарту <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> . Самый простой способ — использовать &quot; Формат CN =<em>myname</em> &quot; . Например: <strong>-n &quot; CN = test &quot; </strong>.</td>
-</tr>
-<tr class="even">
-<td><strong>-НСКП</strong></td>
-<td>Необходимо добавить модуль проверки подлинности клиента Netscape.</td>
-</tr>
-<tr class="odd">
-<td><strong>-PE</strong></td>
-<td>Помечает закрытый ключ как экспортируемый.</td>
-</tr>
-<tr class="even">
-<td><strong>-r</strong></td>
-<td>создает самозаверяющий сертификат;</td>
-</tr>
-<tr class="odd">
-<td><strong>-SC</strong> <strong></strong> <em>Субжектцертфиле</em></td>
-<td>Имя файла сертификата с существующим открытым ключом субъекта для использования.</td>
-</tr>
-<tr class="even">
-<td><strong>-SK</strong> <strong></strong> <em>Субжекткэй</em></td>
-<td>Расположение контейнера ключей субъекта, содержащего <a href="/windows/desktop/SecGloss/p-gly"><em>закрытый ключ</em></a>. Если контейнер ключей не существует, он будет создан. Если ни один из параметров <strong>-SK</strong> или <strong>-SV</strong> не используется, по умолчанию создается и используется контейнер ключей по умолчанию.</td>
-</tr>
-<tr class="odd">
-<td><strong>-Небесный</strong> <strong></strong> <em>Субжекткэйспек</em></td>
-<td>Спецификация ключа субъекта. <em>Субжекткэйспек</em> должно иметь одно из трех возможных значений:<br/>
-<ul>
-<li><strong>Signature</strong> (спецификация ключа AT_SIGNATURE)</li>
-<li><strong>Exchange</strong> (спецификация AT_KEYEXCHANGE key)</li>
-<li>Целое число, например <strong>3</strong></li>
-</ul>
-Дополнительные сведения см. в заметке, следующей за таблицей.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>— SP</strong> <strong></strong> <em>Субжектпровидернаме</em></td>
-<td>Поставщик CryptoAPI для субъекта. По умолчанию используется поставщик пользователя. Дополнительные сведения о поставщиках CryptoAPI см. в документации по CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-SR</strong> <strong></strong> <em>Субжектцертсторелокатион</em></td>
-<td>Расположение в реестре хранилища сертификатов субъекта. <em>Субжектцертсторелокатион</em> должен иметь значение <strong>LocalMachine</strong> (раздел реестра HKEY_LOCAL_MACHINE) или <strong>CurrentUser</strong> (раздел реестра HKEY_CURRENT_USER). Параметр <strong>CurrentUser</strong> используется по умолчанию.</td>
-</tr>
-<tr class="even">
-<td><strong>-СС</strong> <strong></strong> <em>Субжектцертсторенаме</em></td>
-<td>Имя хранилища сертификатов субъекта, в котором будет сохранен созданный сертификат.</td>
-</tr>
-<tr class="odd">
-<td><strong>-ОКП</strong> <strong></strong> <em>Субжекткэйфиле</em></td>
-<td>Имя файла. PVK субъекта. Если ни один из параметров <strong>-SK</strong> или <strong>-SV</strong> не используется, по умолчанию создается и используется контейнер ключей по умолчанию.</td>
-</tr>
-<tr class="even">
-<td><strong>-SY</strong> <strong></strong> <em>нсубжектпровидертипе</em></td>
-<td>Тип поставщика CryptoAPI для субъекта. Значение по умолчанию — <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Дополнительные сведения о типах поставщиков CryptoAPI см. в документации по CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-#</strong><strong></strong> <em>Серийный</em> номер</td>
-<td>Серийный номер сертификата. Максимальное значение равно 2 ^ 31. По умолчанию это значение, создаваемое средством, которое гарантированно уникально.</td>
-</tr>
-<tr class="even">
-<td><strong>-$</strong><strong></strong> <em>CertificateAuthority</em></td>
-<td>Тип <a href="/windows/desktop/SecGloss/c-gly"><em>центра сертификации</em></a>. Для <em>CertificateAuthority</em> должно быть задано значение <strong>коммерческая</strong> (для сертификатов, используемых коммерческими издателями) или <strong>индивидуально</strong> (для сертификатов, используемых отдельными издателями программного обеспечения).</td>
-</tr>
-<tr class="odd">
-<td><strong>-?</strong></td>
-<td>Отображает основные параметры.</td>
-</tr>
-<tr class="even">
-<td><strong>-!</strong></td>
-<td>Отображает расширенные параметры.</td>
-</tr>
-</tbody>
-</table>
+
+| Базовый параметр | Описание | 
+|--------------|-------------|
+| <strong>-a</strong> <strong></strong> <em>Алгоритм</em> | <a href="/windows/desktop/SecGloss/h-gly"><em>Хэш-</em></a> алгоритм. Необходимо задать значение <strong>SHA-1</strong> или <strong>MD5</strong> (по умолчанию). Сведения о MD5 см. в разделе <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>. | 
+| <strong>-б</strong> <strong></strong> <em>DateStart</em> | Дата, когда сертификат был первым действителен. Значение по умолчанию — при создании сертификата. Формат <em>DateStart</em> — mm/дд/гггг. | 
+| <strong>-CY</strong> <strong></strong> <em>Цертификатетипес</em> | Тип сертификата. <em>Цертификатетипес</em> может быть <strong>закончена</strong> для конечного субъекта или <strong>центра</strong> <a href="/windows/desktop/SecGloss/c-gly"><em>сертификации</em></a>. | 
+| <strong>-e</strong> <strong></strong> <em>DateEnd</em> | Дата окончания периода действия. Значение по умолчанию — год 2039. | 
+| <strong>-EKU</strong> <strong></strong> <em>OID1</em><strong>,</strong><em>OID2</em> ... | Вставляет в сертификат список из одного или нескольких <a href="/windows/desktop/SecGloss/e-gly"><em></em></a><a href="/windows/desktop/SecGloss/o-gly"><em>идентификаторов объектов</em></a> с разделителями-запятыми (OID). Например, параметр <strong>-EKU 1.3.6.1.5.5.7.3.2</strong> вставляет OID проверки подлинности клиента. Определения допустимых OID см. в файле Винкрипт. h в CryptoAPI 2.0. | 
+| <strong>-h</strong> <strong></strong> <em>Нумчилдрен</em> | Максимальная высота дерева ниже этого сертификата. | 
+| <strong>-l</strong> <strong></strong> <em>Полицилинк</em> | Ссылка на сведения о политике Агентства SPC (например, URL-адрес). | 
+| <strong>-m</strong> <strong></strong> <em>нмонсс</em> | Длительность периода действия. | 
+| <strong>-n</strong><strong>"</strong><em>имя</em><strong>"</strong> | Имя сертификата издателя. Это имя должно соответствовать стандарту <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> . Самый простой способ — использовать формат "CN =<em>myname</em>". Например: <strong>-n "CN = test"</strong>. | 
+| <strong>-НСКП</strong> | Необходимо добавить модуль проверки подлинности клиента Netscape. | 
+| <strong>-PE</strong> | Помечает закрытый ключ как экспортируемый. | 
+| <strong>-r</strong> | создает самозаверяющий сертификат; | 
+| <strong>-SC</strong> <strong></strong> <em>Субжектцертфиле</em> | Имя файла сертификата с существующим открытым ключом субъекта для использования. | 
+| <strong>-SK</strong> <strong></strong> <em>Субжекткэй</em> | Расположение контейнера ключей субъекта, содержащего <a href="/windows/desktop/SecGloss/p-gly"><em>закрытый ключ</em></a>. Если контейнер ключей не существует, он будет создан. Если ни один из параметров <strong>-SK</strong> или <strong>-SV</strong> не используется, по умолчанию создается и используется контейнер ключей по умолчанию. | 
+| <strong>-Небесный</strong> <strong></strong> <em>Субжекткэйспек</em> | Спецификация ключа субъекта. <em>Субжекткэйспек</em> должно иметь одно из трех возможных значений:<br /><ul><li><strong>Signature</strong> (спецификация ключа AT_SIGNATURE)</li><li><strong>Exchange</strong> (спецификация AT_KEYEXCHANGE key)</li><li>Целое число, например <strong>3</strong></li></ul>Дополнительные сведения см. в заметке, следующей за таблицей.<br /> | 
+| <strong>— SP</strong> <strong></strong> <em>Субжектпровидернаме</em> | Поставщик CryptoAPI для субъекта. По умолчанию используется поставщик пользователя. Дополнительные сведения о поставщиках CryptoAPI см. в документации по CryptoAPI 2.0. | 
+| <strong>-SR</strong> <strong></strong> <em>Субжектцертсторелокатион</em> | Расположение в реестре хранилища сертификатов субъекта. <em>Субжектцертсторелокатион</em> должен иметь значение <strong>LocalMachine</strong> (раздел реестра HKEY_LOCAL_MACHINE) или <strong>CurrentUser</strong> (раздел реестра HKEY_CURRENT_USER). Параметр <strong>CurrentUser</strong> используется по умолчанию. | 
+| <strong>-СС</strong> <strong></strong> <em>Субжектцертсторенаме</em> | Имя хранилища сертификатов субъекта, в котором будет сохранен созданный сертификат. | 
+| <strong>-ОКП</strong> <strong></strong> <em>Субжекткэйфиле</em> | Имя файла. PVK субъекта. Если ни один из параметров <strong>-SK</strong> или <strong>-SV</strong> не используется, по умолчанию создается и используется контейнер ключей по умолчанию. | 
+| <strong>-SY</strong> <strong></strong> <em>нсубжектпровидертипе</em> | Тип поставщика CryptoAPI для субъекта. Значение по умолчанию — <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Дополнительные сведения о типах поставщиков CryptoAPI см. в документации по CryptoAPI 2.0. | 
+| <strong>-#</strong><strong></strong><em>Номер</em> | Серийный номер сертификата. Максимальное значение равно 2 ^ 31. По умолчанию это значение, создаваемое средством, которое гарантированно уникально. | 
+| <strong>-$</strong><strong></strong><em>CertificateAuthority</em> | Тип <a href="/windows/desktop/SecGloss/c-gly"><em>центра сертификации</em></a>. Для <em>CertificateAuthority</em> должно быть задано значение <strong>коммерческая</strong> (для сертификатов, используемых коммерческими издателями) или <strong>индивидуально</strong> (для сертификатов, используемых отдельными издателями программного обеспечения). | 
+| <strong>-?</strong> | Отображает основные параметры. | 
+| <strong>-!</strong> | Отображает расширенные параметры. | 
+
 
 
 
@@ -170,50 +82,16 @@ ms.locfileid: "119425744"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Параметр SPC и закрытый ключ</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-IC</strong> <strong></strong> <em>Иссуерцертфиле</em></td>
-<td>Расположение сертификата издателя.</td>
-</tr>
-<tr class="even">
-<td><strong>-ОК</strong> <strong></strong> <em>Оба поля оставлены</em></td>
-<td>Расположение контейнера ключей издателя. Значение по умолчанию — корневой ключ теста.</td>
-</tr>
-<tr class="odd">
-<td><strong>-ИКИ</strong> <strong></strong> <em>Иссуеркэйспек</em></td>
-<td>Спецификация ключа издателя, которая должна быть одним из трех возможных значений:<br/>
-<ul>
-<li><strong>Signature</strong> (спецификация ключа AT_SIGNATURE)</li>
-<li><strong>Exchange</strong> (спецификация AT_KEYEXCHANGE key)</li>
-<li>Целое число, например <strong>3</strong></li>
-</ul>
-Дополнительные сведения см. в заметке, следующей за таблицей.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>— IP-адрес</strong> <strong></strong> <em>Иссуерпровидернаме</em></td>
-<td>Поставщик CryptoAPI для издателя. По умолчанию используется поставщик пользователя. Дополнительные сведения о поставщиках CryptoAPI см. в документации по CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-IV</strong> <strong></strong> <em>Иссуеркэйфиле</em></td>
-<td>Файл закрытого ключа издателя. Значение по умолчанию — корень теста.</td>
-</tr>
-<tr class="even">
-<td><strong>-ий</strong> <strong></strong> <em>ниссуерпровидертипе</em></td>
-<td>Тип поставщика CryptoAPI для издателя. Значение по умолчанию — <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Дополнительные сведения о типах поставщиков CryptoAPI см. в документации по CryptoAPI 2.0.</td>
-</tr>
-</tbody>
-</table>
+
+| Параметр SPC и закрытый ключ | Описание | 
+|----------------------------|-------------|
+| <strong>-IC</strong> <strong></strong> <em>Иссуерцертфиле</em> | Расположение сертификата издателя. | 
+| <strong>-ОК</strong> <strong></strong> <em>Оба поля оставлены</em> | Расположение контейнера ключей издателя. Значение по умолчанию — корневой ключ теста. | 
+| <strong>-ИКИ</strong> <strong></strong> <em>Иссуеркэйспек</em> | Спецификация ключа издателя, которая должна быть одним из трех возможных значений:<br /><ul><li><strong>Signature</strong> (спецификация ключа AT_SIGNATURE)</li><li><strong>Exchange</strong> (спецификация AT_KEYEXCHANGE key)</li><li>Целое число, например <strong>3</strong></li></ul>Дополнительные сведения см. в заметке, следующей за таблицей.<br /> | 
+| <strong>— IP-адрес</strong> <strong></strong> <em>Иссуерпровидернаме</em> | Поставщик CryptoAPI для издателя. По умолчанию используется поставщик пользователя. Дополнительные сведения о поставщиках CryptoAPI см. в документации по CryptoAPI 2.0. | 
+| <strong>-IV</strong> <strong></strong> <em>Иссуеркэйфиле</em> | Файл закрытого ключа издателя. Значение по умолчанию — корень теста. | 
+| <strong>-ий</strong> <strong></strong> <em>ниссуерпровидертипе</em> | Тип поставщика CryptoAPI для издателя. Значение по умолчанию — <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Дополнительные сведения о типах поставщиков CryptoAPI см. в документации по CryptoAPI 2.0. | 
+
 
 
 

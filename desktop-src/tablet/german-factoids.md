@@ -4,12 +4,12 @@ ms.assetid: 0cf5ae1b-4633-4be8-9d67-f69128d021bb
 title: Немецкий Фактоидс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356451754fe35d4045cab0acffec034c77a22d06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f79e4d95f950c937220fda03c853d5bdcdf1709
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263166"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626750"
 ---
 # <a name="german-factoids"></a>Немецкий Фактоидс
 
@@ -19,9 +19,9 @@ ms.locfileid: "104263166"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,7 +72,7 @@ ms.locfileid: "104263166"
 <td>(040) 12345<br/> (0 30) 12 34 56<br/> 040/12345<br/> 0 30/12 34 56<br/> 040-12345<br/> 0 30-12 34 56<br/> + 49 (30) 12 34 56<br/> + 49/40/12345<br/> + 49-40-123 45<br/> + 49/(0) 40/12345<br/> + 49-(0) 40-123 45<br/> (040) 12345-88<br/> 040/12345-1233<br/> (040) 12345/88<br/></td>
 </tr>
 <tr class="even">
-<td><strong>Time</strong></td>
+<td><strong>Время</strong></td>
 <td>Время написано на немецком языке.<br/></td>
 <td>19:44<br/> 06:05<br/> 6:24<br/> 22:22 ухр<br/> 2:12 ухр<br/> 5:42 ухр<br/> 22 ухр<br/> 7,00 ч<br/> 08:03 ч<br/> 5,13 ч<br/> 17 ч<br/></td>
 </tr>

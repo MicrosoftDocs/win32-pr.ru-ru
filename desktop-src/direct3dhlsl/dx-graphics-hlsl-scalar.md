@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/29/2020
-ms.openlocfilehash: 39097dd358fcf9da1685be517742291ef96332f2307f255274445da70e4fc050
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7ddfbc679d95ca0a2c6fce0710b5de37f677fe0f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725938"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626730"
 ---
 # <a name="scalar-types"></a>Скалярные типы
 
@@ -47,7 +47,7 @@ HLSL поддерживает несколько скалярных типов �
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -59,7 +59,7 @@ HLSL поддерживает несколько скалярных типов �
 Например, ниже приведено 4-компонентное объявление переменной с плавающей запятой с помощью четырех компонентов.<br/> <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -101,7 +101,7 @@ void function2()
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 
 

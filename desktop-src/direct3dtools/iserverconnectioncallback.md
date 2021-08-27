@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: eb41908bd23fcd1c719b692f2680fd7d1dda3e77
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 25aa867ea1c4451fd036b3f9a68f3571097b2d58
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087912"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626980"
 ---
 # <a name="span-idvspixengineiserverconnectioncallbackspaniserverconnectioncallback-interface"></a><span id="vspixengine.iserverconnectioncallback"></span>Интерфейс Исерверконнектионкаллбакк
 
 Не используется.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **исерверконнектионкаллбакк** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Исерверконнектионкаллбакк** также имеет следующие типы членов:
 
@@ -38,13 +38,13 @@ ms.locfileid: "108087912"
 
 Интерфейс **исерверконнектионкаллбакк** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>коннекттоенгине</strong></a></td><td style="text-align: left;"><p>Подключитесь к другому экземпляру удаленного модуля на локальном компьютере.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>Ожидание завершения работы указанного обработчика (вызов блокировки).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>коннекттоенгине</strong></a></td><td style="text-align: left;"><p>Подключение на другой экземпляр удаленного модуля на локальном компьютере.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>Ожидание завершения работы указанного обработчика (вызов блокировки).</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

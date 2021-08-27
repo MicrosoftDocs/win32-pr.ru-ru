@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 13de02c7d322933f64361cfdabcb8f95ead837ad915ad69c3961a8b8874d5b9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdccfca7e7a68ea997c9b564939f89799634e344
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117564"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471840"
 ---
 # <a name="database-parameters"></a>Параметры базы данных
 
@@ -36,88 +36,20 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Этот параметр, если он задан, приведет к тому, что [жетинит](./jetinit-function.md) будет возвращать специальную ошибку при открытии базы данных или журнала транзакций из предыдущего выпуска ядра СУБД. Эти ошибки:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Error</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errDatabase200Format</p></td>
-<td><p>база данных и/или файлы журнала транзакций были созданы ядром субд в Windows NT 3,51.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabase400Format</p></td>
-<td><p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в тестовом выпуске до Windows NT Server 4,0.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabase500Format</p></td>
-<td><p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в Windows NT Server 4,0.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Ошибка</p> | <p>Описание</p> | 
+|--------------|--------------------|
+| <p>JET_errDatabase200Format</p> | <p>база данных и/или файлы журнала транзакций были созданы ядром субд в Windows NT 3,51.</p> | 
+| <p>JET_errDatabase400Format</p> | <p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в тестовом выпуске до Windows NT Server 4,0.</p> | 
+| <p>JET_errDatabase500Format</p> | <p>файлы базы данных и (или) журнала транзакций были созданы ядром субд в Windows NT Server 4,0.</p> | 
+
 
 
 **Windows Vista:**  для Windows Vista и более поздних версий этот параметр устарел и не влияет на работу ядра субд.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Верно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>True</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramDatabasePageSize*  
@@ -127,58 +59,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **Примечание** . В настоящее время для каждого процесса поддерживается только один размер страницы базы данных. Это означает, что если вы используете один процесс, который содержит различные приложения, использующие ядро СУБД, то все они должны согласовать размер страницы базы данных.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>4096</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>2048, 4096, 8192</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>4096</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>2048, 4096, 8192</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Нет</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramDbExtensionSize*  
@@ -186,59 +69,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Этот параметр управляет объемом пространства, добавляемого в файл базы данных каждый раз, когда его необходимо увеличивать, чтобы разместить больше данных. Размер находится в страницах базы данных.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>256</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>256</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>1 – 2147483647</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p><p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramEnableIndexChecking*  
@@ -254,59 +87,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **Примечание** . Настоятельно рекомендуется, чтобы приложения не использовали ключевые столбцы Юникода в индексах первичного ключа (кластеризованных).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p>
-<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Глобальный</p><p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Нет</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Да</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramEnableIndexCleanup*  
@@ -318,59 +101,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **Примечание** . Настоятельно рекомендуется, чтобы этот параметр и **JET_paramEnableIndexChecking** были установлены в **значение true** приложением.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Верно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows Сервер 2003 и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>True</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p><p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows Сервер 2003 и более поздние версии</p> | 
+
 
 
 *JET_paramOneDatabasePerSession*  
@@ -384,59 +117,9 @@ _**Применимо к:** Windows | Windows Сервером_
 
 **Примечание**  .  Этот параметр доступен только для записи.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Нет</p>
-<p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздних версий</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Нет</p><p><strong>Windows Vista:</strong>  для Windows Vista и более поздних версий: да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramEnableOnlineDefrag*  
@@ -448,101 +131,21 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 **Windows XP:**  в Windows XP и более поздних выпусках для этого параметра можно задать один или несколько следующих параметров:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Параметр</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_OnlineDefragDisable</p></td>
-<td><p>Не выполнять оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного False, для этого параметра.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragAllOBSOLETE</p></td>
-<td><p>Выполнить полную оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного True, для этого параметра.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_OnlineDefragDatabases</p></td>
-<td><p>Выполняет оперативную дефрагментацию записей каждой таблицы в базе данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragSpaceTrees</p></td>
-<td><p>Выполняет оперативную дефрагментацию деревьев пространства каждой таблицы в базе данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_OnlineDefragStreamingFiles</p></td>
-<td><p>этот параметр используется для поддержки инфраструктуры Microsoft Exchange и не предназначен для использования в приложении.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragAll</p></td>
-<td><p>Выполнить полную оперативную дефрагментацию. это концептуальный эквивалент параметра Windows 2000, равного True, для этого параметра.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Параметр</p> | <p>Описание</p> | 
+|---------------|--------------------|
+| <p>JET_OnlineDefragDisable</p> | <p>Не выполнять оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного False, для этого параметра.</p> | 
+| <p>JET_OnlineDefragAllOBSOLETE</p> | <p>Выполнить полную оперативную дефрагментацию. это двоичный эквивалент параметра Windows 2000, равного True, для этого параметра.</p> | 
+| <p>JET_OnlineDefragDatabases</p> | <p>Выполняет оперативную дефрагментацию записей каждой таблицы в базе данных.</p> | 
+| <p>JET_OnlineDefragSpaceTrees</p> | <p>Выполняет оперативную дефрагментацию деревьев пространства каждой таблицы в базе данных.</p> | 
+| <p>JET_OnlineDefragStreamingFiles</p> | <p>этот параметр используется для поддержки инфраструктуры Microsoft Exchange и не предназначен для использования в приложении.</p> | 
+| <p>JET_OnlineDefragAll</p> | <p>Выполнить полную оперативную дефрагментацию. это концептуальный эквивалент параметра Windows 2000, равного True, для этого параметра.</p> | 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p><strong>Windows 2000:</strong>  Условия</p>
-<p><strong>Windows xp: для Windows XP и более поздних версий:</strong> JET_OnlineDefragAll</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p><strong>Windows 2000:</strong>  Логическая</p>
-<p><strong>Windows XP и более поздних версий:</strong>  JET_GRBIT (целое число)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000:</strong>  False, true</p>
-<p><strong>Windows XP и более поздних версий:</strong> 0 — JET_OnlineDefragAll</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+
+| | | <p>Значение по умолчанию:</p> | <p><strong>Windows 2000:</strong>  Условия</p><p><strong>Windows xp: для Windows XP и более поздних версий:</strong> JET_OnlineDefragAll</p> | | <p>Тип:</p> | <p><strong>Windows 2000:</strong>  Логическая</p><p><strong>Windows XP и более поздних версий:</strong>  JET_GRBIT (целое число)</p> | | <p>Допустимый диапазон:</p> | <p><strong>Windows 2000:</strong>  False, true</p><p><strong>Windows XP и более поздних версий:</strong> 0 — JET_OnlineDefragAll</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Да</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Да</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramPageFragment*  
@@ -550,58 +153,9 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Этот параметр является пороговое значение, которое ядро СУБД использует для управления фрагментацией свободного пространства. Размер находится в страницах базы данных.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>8</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>8</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 – 2147483647</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramRecordUpgradeDirtyLevel*  
@@ -609,58 +163,9 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Этот параметр определяет, как агрессивно диспетчер кэша страниц базы данных будет записывать страницу базы данных, преобразованную в формат "на месте". эти преобразования формата происходят на лету, когда страницы загружаются из базы данных, которая была создана с помощью ядра субд Windows 2000, но используется Windows XP или более поздней версии ядра субд.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0-3</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздних версий</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>1</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0-3</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Да</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramWaypointLatency*  
@@ -668,58 +173,9 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Задержка (в журналах) в журнале TIP/COMMITTED, зафиксированной для задержки очистки страниц базы данных. Включение этой задержки может привести к восстановлению базы данных в случае катастрофической потери самого последнего файла журнала. См. JET_bitReplayIgnoreLostLogs.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0-1023</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>0</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0-1023</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Да</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramDefragmentSequentialBTrees*  
@@ -727,58 +183,9 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Включить/отключить автоматическое последовательное дефрагментацию в сбалансированном дереве.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0—1</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>1</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>0—1</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramDefragmentSequentialBTreesDensityCheckFrequency*  
@@ -786,58 +193,9 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Определяет частоту проверки плотности сбалансированного дерева.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 — максимальное целое число</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>10</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 — максимальное целое число</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramIOThrottlingTimeQuanta*  
@@ -845,85 +203,19 @@ Windows 2000: в Windows 2000 этот параметр был простым л
 
 Максимальное время в миллисекундах, в течение которого механизм регулирования ввода-вывода предоставляет задачу для выполнения, чтобы считаться "завершенным".
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>125</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0-10000</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>125</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0-10000</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows 7</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [жетаттачдатабасе](./jetattachdatabase-function.md)  
 [жеткреатеинстанце](./jetcreateinstance-function.md)  

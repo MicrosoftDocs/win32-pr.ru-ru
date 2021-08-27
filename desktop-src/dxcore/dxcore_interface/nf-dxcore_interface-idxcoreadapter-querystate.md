@@ -4,12 +4,12 @@ description: Извлекает текущее состояние указанн
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 61fc5c601904011de8f343777a95385a16ec3d7e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e5c585c249141c1491ddf36ee798d8b11148425026e9011bd0653169f998fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105719137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117724"
 ---
 # <a name="idxcoreadapterquerystate-method"></a>Метод Идкскореадаптер:: Куеристате
 
@@ -39,7 +39,7 @@ HRESULT QueryState(
 
 ## <a name="parameters"></a>Параметры
 
-### <a name="state"></a>state
+### <a name="state"></a>Состояние
 
 Тип: **[дкскореадаптерстате](./ne-dxcore_interface-dxcoreadapterstate.md)**
 
@@ -83,10 +83,10 @@ HRESULT QueryState(
 |E_INVALIDARG|Недостаточный размер буфера предоставляется для *outputBuffer* (или для *инпутстатедетаилс* , где необходим буфер сведений о состоянии входа).|
 |E_POINTER|`nullptr` был предоставлен для *outputBuffer* (или для *инпутстатедетаилс* , где необходим буфер сведений о состоянии входа).|
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения о каждом типе состояния адаптера и используемых входных и выходных данных см. в разделе [дкскореадаптерстате](./ne-dxcore_interface-dxcoreadapterstate.md) . Эта функция обнуляет буфер *outputBuffer* перед заполнением.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [Идкскореадаптер](./nn-dxcore_interface-idxcoreadapter.md), [дкскоре Reference](../dxcore-reference.md), [Использование дкскоре для перечисления адаптеров](../dxcore-enum-adapters.md)

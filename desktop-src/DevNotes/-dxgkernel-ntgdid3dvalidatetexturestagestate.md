@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntgdi.h
-ms.openlocfilehash: 37c852343c70c5d3325926c9108dcab2948fdc95
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 521169773ae46fa3158752e0d80696888c8bffbfe3dd5d3c0068aee944c290ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088044"
 ---
 # <a name="ntgdid3dvalidatetexturestagestate-function"></a>Функция NtGdiD3DValidateTextureStageState
 
@@ -63,7 +63,7 @@ DWORD APIENTRY NtGdiD3DValidateTextureStageState(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -75,7 +75,7 @@ DWORD APIENTRY NtGdiD3DValidateTextureStageState(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

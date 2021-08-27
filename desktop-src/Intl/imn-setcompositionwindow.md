@@ -4,12 +4,12 @@ ms.assetid: 07a9f0f6-587e-47c6-8f18-b48bdab0a541
 title: Код уведомления IMN_SETCOMPOSITIONWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a1a4e989fb36049168359f86f85ee7a58103a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fed8e69c03250166e155b07d34a2ce19b5d5fd9336af6cf82133c258c2b88d46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107054"
 ---
 # <a name="imn_setcompositionwindow-notification-code"></a>\_Код уведомления ИМН сеткомпоситионвиндов
 
@@ -44,7 +44,7 @@ IMN_SETCOMPOSITIONWINDOW
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может получать сведения о форме компоновки с помощью команды [**ИМК \_ жеткомпоситионвиндов**](imc-getcompositionwindow.md) .
 
@@ -56,11 +56,11 @@ IMN_SETCOMPOSITIONWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

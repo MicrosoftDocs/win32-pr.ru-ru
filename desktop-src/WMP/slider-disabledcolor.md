@@ -3,7 +3,7 @@ title: ПОЛЗУНок. Дисабледколор
 description: Атрибут Дисабледколор указывает или получает цвет элемента управления "ползунок", когда он отключен.
 ms.assetid: 47b9f5c6-12ea-4654-a9c0-d15d41ea2766
 keywords:
-- ПОЛЗУНок. Дисабледколор Windows Media Player
+- проигрыватель Windows Media SLIDER. дисабледколор
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8887ca510eb9b3d668a79eda9cf1ec8f387eb91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1623c1c22493722deb67d30db2c4d59ed0a28430968c989d145cbe6105d35030
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123064"
 ---
 # <a name="sliderdisabledcolor"></a>ПОЛЗУНок. Дисабледколор
 
@@ -31,7 +31,7 @@ ms.locfileid: "105657113"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент управления "ползунок" указан с помощью цвета переднего плана и фона, отключенный цвет определяет цвет элемента управления, если он **включен** , и имеет значение false.
 
@@ -41,11 +41,11 @@ ms.locfileid: "105657113"
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

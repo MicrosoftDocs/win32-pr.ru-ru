@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88226122eefb3335ef1b19680268ea5acf1d5388
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4044e73c2a466fed3bc69d877fe3bf0a6ebc3679450ddfd435aa8d22b5b3be5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109254"
 ---
 # <a name="mdm_policy_user_config01_applicationmanagement02-class"></a>\_Класс политики MDM \_ user \_ Config01 \_ ApplicationManagement02
 
-\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Майкрософт не дает никаких гарантий, явных или подразумеваемых, в отношении предоставленной здесь информации.\]
+\[Некоторые сведения относятся к предварительно выпущенному продукту, который может быть значительно изменен перед коммерческой выпуском. Корпорация Майкрософт не предоставляет никаких гарантий, явных или подразумеваемых, относительно предоставленной здесь информации.\]
 
 Класс **\_ \_ user \_ Config01 \_ ApplicationManagement02 политики MDM** представляет доступные политики запуска, заданные для каждого пользователя.
 
@@ -50,7 +50,7 @@ class MDM_Policy_User_Config01_ApplicationManagement02
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ user \_ Config01 \_ ApplicationManagement02 политики MDM** имеет эти свойства.
 
@@ -105,7 +105,7 @@ class MDM_Policy_User_Config01_ApplicationManagement02
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                                    |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                      |
 | Пространство имен<br/>                | Корневой \\ CIMV2 \\ MDM \\ дммап<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>Дмвмибриджепров. mof</dt> </dl> |
@@ -113,7 +113,7 @@ class MDM_Policy_User_Config01_ApplicationManagement02
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

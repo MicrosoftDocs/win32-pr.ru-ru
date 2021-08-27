@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 878f6eee47deaac3887c3f9936c18b0185cc807a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 47b4f635b6d09c85b345eea6dcb7320294e226ad6f2540f01af1e9b3e8098671
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104334571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105664"
 ---
 # <a name="cstub-switch"></a>/cstub, параметр
 
@@ -38,7 +38,7 @@ midl /cstub stub_file_name
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Указанное имя файла заменяет имя файла по умолчанию. По умолчанию имя файла получается путем добавления расширения \_ c. c к имени IDL-файла. Этот параметр не влияет на интерфейсы OLE.
 
@@ -52,7 +52,7 @@ midl /cstub stub_file_name
 
 **MIDL/cstub My \_ кстуб. c имя_файла. idl**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -68,9 +68,9 @@ midl /cstub stub_file_name
 [**/sstub**](-sstub.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

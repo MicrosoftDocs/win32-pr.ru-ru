@@ -1,5 +1,5 @@
 ---
-description: Определяет, является ли подсистема Windows 10.
+description: Определяет, относится ли модуль к Windows 10.
 MS-HAID: vspixengine.IPixEngineWin10
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,24 +17,24 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a890bbe2ca0f325dd7ab3e36b8b1db834a2a7105
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 39a04505fc214bb0c5ae45e9ac7910c5eedeb694
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103895113"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631922"
 ---
 # <a name="span-idvspixengineipixenginewin10spanipixenginewin10-interface"></a><span id="vspixengine.ipixenginewin10"></span>Интерфейс IPixEngineWin10
 
-Определяет, является ли подсистема Windows 10.
+Определяет, относится ли модуль к Windows 10.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **IPixEngineWin10** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , но не содержит дополнительных элементов.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

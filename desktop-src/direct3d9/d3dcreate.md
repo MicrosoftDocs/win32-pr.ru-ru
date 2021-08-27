@@ -4,12 +4,12 @@ ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c24529c725b8b7c7f71c53718d56ceb50603
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 09cfd220e3fae2af079ba4eceba8f820a9267b4d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011287"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630232"
 ---
 # <a name="d3dcreate"></a>D3DCREATE
 
@@ -19,13 +19,13 @@ ms.locfileid: "112011287"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>#определенно</td>
-<td>Описание</td>
+<td>Описание:</td>
 </tr>
 <tr class="even">
 <td>D3DCREATE_ADAPTERGROUP_DEVICE</td>
@@ -58,7 +58,7 @@ ms.locfileid: "112011287"
 <table>
 <tbody>
 <tr class="odd">
-<td>Различия между Windows XP и Windows Vista:<br/> Этот флаг доступен в Windows Vista, Windows Server 2008 и Windows 7.<br/></td>
+<td>различия между Windows XP и Windows Vista:<br/> этот флаг доступен в Windows Vista, Windows Server 2008 и Windows 7.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -92,15 +92,15 @@ ms.locfileid: "112011287"
 </tr>
 <tr class="even">
 <td>D3DCREATE_MIXED_VERTEXPROCESSING</td>
-<td>Задает смешанную обработку вершин (как программного, так и аппаратного обеспечения). Для Windows 10 версии 1607 и более поздней использовать этот параметр не рекомендуется. См. D3DCREATE_SOFTWARE_VERTEXPROCESSING.</td>
+<td>Задает смешанную обработку вершин (как программного, так и аппаратного обеспечения). для Windows 10 версии 1607 и более поздней использовать этот параметр не рекомендуется. См. D3DCREATE_SOFTWARE_VERTEXPROCESSING.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_SOFTWARE_VERTEXPROCESSING</td>
-<td>Указывает процесс обработки вершин программного обеспечения. Для Windows 10 версии 1607 и более поздней использовать этот параметр не рекомендуется. Используйте D3DCREATE_HARDWARE_VERTEXPROCESSING.
+<td>Указывает процесс обработки вершин программного обеспечения. для Windows 10 версии 1607 и более поздней использовать этот параметр не рекомендуется. Используйте D3DCREATE_HARDWARE_VERTEXPROCESSING.
 <div class="alert">
 <blockquote>
 [!Note]<br />
-Если аппаратная обработка вершин недоступна, использование обработки вершин программного обеспечения не рекомендуется в Windows 10, версия 1607 (и более поздние версии), так как эффективность обработки вершин программного обеспечения значительно уменьшилась при повышении безопасности реализации.
+если аппаратная обработка вершин недоступна, использование обработки вершин программного обеспечения не рекомендуется в Windows 10, версии 1607 (и более поздних версиях), так как эффективность обработки вершин программного обеспечения была значительно снижена при повышении безопасности реализации.
 </blockquote>
 </div>
 <div>

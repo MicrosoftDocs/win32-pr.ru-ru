@@ -4,16 +4,16 @@ ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: Интерфейс программирования приложений телефонии, версия 3,1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b529c8d566d2c99dc851f99886eb6a132d434a2c56027ba7abcd2e07b5f144b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b2a9d99a9e4319a1450ccbc72d3db32f6ec3d92
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119139887"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625640"
 ---
 # <a name="telephony-application-programming-interface-version-31"></a>Интерфейс программирования приложений телефонии, версия 3,1
 
-## <a name="purpose"></a>Назначение
+## <a name="purpose"></a>Цель
 
 Интерфейс программирования Microsoft телефонии (TAPI) 3,1 — это интерфейс API на основе модели COM, который выполняет слияние классической и IP-телефонии.
 
@@ -41,7 +41,7 @@ TAPI версии 3,1 позволяет разрабатывать коммун
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Раздел</th><th>Описание</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Обзор</a><br/></td><td>Общие сведения об архитектуре и компонентах TAPI.<br/></td></tr><tr class="even"><td>Справочник<br/></td><td>Документация по:<br/><ul><li><a href="call-and-media-controls-reference.md">Справочник по вызовам и элементам управления мультимедиа</a></li><li><a href="call-center-controls-reference.md">Справочник по элементам управления центра обработки вызовов</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Встречная ссылка</a></li></ul></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th>Раздел</th><th>Описание</th></tr></thead><tbody><tr class="odd"><td><a href="tapi-3-1-overview.md">Обзор</a><br/></td><td>Общие сведения об архитектуре и компонентах TAPI.<br/></td></tr><tr class="even"><td>Справочник<br/></td><td>Документация по:<br/><ul><li><a href="call-and-media-controls-reference.md">Справочник по вызовам и элементам управления мультимедиа</a></li><li><a href="call-center-controls-reference.md">Справочник по элементам управления центра обработки вызовов</a></li><li><a href="rendezvous-ip-telephony-conferencing-reference.md">Встречная ссылка</a></li></ul></td></tr></tbody></table>
 
 
 

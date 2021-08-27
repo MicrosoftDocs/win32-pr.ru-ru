@@ -3,7 +3,7 @@ title: Код уведомления TTN_POP (Коммктрл. h)
 description: Сообщает окну-владельцу, что всплывающая подсказка будет скрыта. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 44a38f1a-f1df-4057-bf76-f87eb467f0d7
 keywords:
-- TTN_POP кода уведомления элементы управления Windows
+- TTN_POP кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 576aa382f571fb6ded7205d2df3b0abd938c704d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d3322da3ddbb677631a433e4cce1d2a9eb6e56c3484314026242f23c91c103f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103802236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109484"
 ---
 # <a name="ttn_pop-notification-code"></a>\_Код уведомления POP ТТН
 
@@ -55,9 +55,9 @@ TTN_POP
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

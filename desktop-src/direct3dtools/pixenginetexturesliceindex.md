@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fa77d169830962de2e06e6c145e5f8e18bc85b976ae7d4c0ec063ef66f6fead9
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b8d9a24ec921946939343c6454a48ad3833724ba
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892164"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631712"
 ---
 # <a name="span-idvspixenginepixenginetexturesliceindexspanpixenginetexturesliceindex-structure"></a><span id="vspixengine.pixenginetexturesliceindex"></span>Структура Пиксенгинетекстуреслицеиндекс
 
@@ -35,7 +35,7 @@ ms.locfileid: "119892164"
 } PixEngineTextureSliceIndex;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **arrayIndex**  
 Если текстура является массивом текстуры, то индекс массива среза.
@@ -49,9 +49,9 @@ ms.locfileid: "119892164"
 **зслице**  
 Глубина (z) среза.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

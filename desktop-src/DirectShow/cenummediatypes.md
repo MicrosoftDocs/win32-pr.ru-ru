@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ad5e1de9eb2edbdb63eb6f476391ae8387c8d01e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1729407f1022c2781fc97f8638ea8748323c151e9bd67c5ad31b30ae05fdff0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131282"
 ---
 # <a name="cenummediatypes-class"></a>Класс Ценуммедиатипес
 
@@ -46,7 +46,7 @@ ms.locfileid: "105668827"
 | [**Клонировать**](cenummediatypes-clone.md)                       | Создает копию перечислителя с тем же состоянием перечисления. |
 | [**Далее**](cenummediatypes-next.md)                         | Извлекает указанное число типов мультимедиа.                    |
 | [**Перезапуск**](cenummediatypes-reset.md)                       | Сбрасывает последовательность перечисления в начало.               |
-| [**Пропустить**](cenummediatypes-skip.md)                         | Пропускает указанное число типов мультимедиа.                   |
+| [**Сразу**](cenummediatypes-skip.md)                         | Пропускает указанное число типов мультимедиа.                   |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "105668827"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Амфилтер. h (включение Streams. h)</dt> </dl>                                                                                  |
+| Заголовок<br/>  | <dl> <dt>амфилтер. h (включает Потоки. h)</dt> </dl>                                                                                  |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

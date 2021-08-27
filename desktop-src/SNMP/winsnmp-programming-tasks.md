@@ -4,12 +4,12 @@ description: В следующей таблице перечислены осн�
 ms.assetid: 70c24042-bf44-4484-8e5e-d117e2ba28d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007ed1a50688ceff7cdd3bfd9916c1726773cf5ecb2e175af99880950c5c3db8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5bb83d6d61311866ddb84d3980f5742f82f51405
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142797"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479400"
 ---
 # <a name="winsnmp-programming-tasks"></a>Задачи WinSNMP программирования
 
@@ -17,70 +17,20 @@ ms.locfileid: "119142797"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Задача программирования</th>
-<th>Функции и разделы, связанные с задачами</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Откройте приложение WinSNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>снмпстартуп</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-application.md">Открытие и закрытие приложения WinSNMP</a>.<br/></td>
-</tr>
-<tr class="even">
-<td>Откройте один или несколько сеансов WinSNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>снмпкреатесессион</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-session.md">Открытие и закрытие сеанса WinSNMP</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td>Зарегистрируйтесь для получения ловушек или уведомлений.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister"><strong>снмпрегистер</strong></a>. См. раздел <a href="managing-traps-and-notifications.md">Управление ловушками и уведомлениями</a>.<br/></td>
-</tr>
-<tr class="even">
-<td>Создайте один или несколько списков привязок переменных для Организации в PDU.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl"><strong>снмпкреатевбл</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl"><strong>снмпдупликатевбл</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetvb"><strong>снмпсетвб</strong></a>. См. раздел <a href="working-with-variable-binding-lists.md">Работа с списками привязок переменных</a>.<br/>
-<blockquote>
-[!Note]<br />
-Приложению может потребоваться вызвать другие <a href="winsnmp-functions.md">функции привязки переменных</a> для создания списка привязок переменных.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Создайте одно или несколько устройств PDU для передачи и обработки.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu"><strong>снмпкреатепду</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata"><strong>снмпсетпдудата</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatepdu"><strong>снмпдупликатепду</strong></a>. См. раздел <a href="working-with-protocol-data-units.md">Работа с единицами данных протокола</a>.<br/>
-<blockquote>
-[!Note]<br />
-Приложению может потребоваться вызвать другие <a href="winsnmp-functions.md">функции PDU</a> и <a href="winsnmp-functions.md">функции WinSNMP Utility</a> для создания PDU.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Отправьте один или несколько запросов на операции SNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg"><strong>снмпсендмсг</strong></a>. См. раздел <a href="sending-snmp-messages.md">Отправка SNMP-сообщений</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td>Получите ответ на запрос операции SNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg"><strong>снмпреквмсг</strong></a>. См. раздел <a href="receiving-snmp-messages.md">Получение SNMP-сообщений</a>.<br/></td>
-</tr>
-<tr class="even">
-<td>Обработка ответа на запрос.</td>
-<td>Используйте логику конкретного приложения.</td>
-</tr>
-<tr class="odd">
-<td>Закройте каждый сеанс WinSNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose"><strong>снмпклосе</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-session.md">Открытие и закрытие сеанса WinSNMP</a>.<br/></td>
-</tr>
-<tr class="even">
-<td>Закройте приложение WinSNMP.</td>
-<td>Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup"><strong>снмпклеануп</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-application.md">Открытие и закрытие приложения WinSNMP</a>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Задача программирования | Функции и разделы, связанные с задачами | 
+|------------------|----------------------------------|
+| Откройте приложение WinSNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpstartup"><strong>снмпстартуп</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-application.md">Открытие и закрытие приложения WinSNMP</a>.<br /> | 
+| Откройте один или несколько сеансов WinSNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatesession"><strong>снмпкреатесессион</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-session.md">Открытие и закрытие сеанса WinSNMP</a>.<br /> | 
+| Зарегистрируйтесь для получения ловушек или уведомлений. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpregister"><strong>снмпрегистер</strong></a>. См. раздел <a href="managing-traps-and-notifications.md">Управление ловушками и уведомлениями</a>.<br /> | 
+| Создайте один или несколько списков привязок переменных для Организации в PDU. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatevbl"><strong>снмпкреатевбл</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatevbl"><strong>снмпдупликатевбл</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetvb"><strong>снмпсетвб</strong></a>. См. раздел <a href="working-with-variable-binding-lists.md">Работа с списками привязок переменных</a>.<br /><blockquote>[!Note]<br />Приложению может потребоваться вызвать другие <a href="winsnmp-functions.md">функции привязки переменных</a> для создания списка привязок переменных.</blockquote><br /> | 
+| Создайте одно или несколько устройств PDU для передачи и обработки. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcreatepdu"><strong>снмпкреатепду</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsetpdudata"><strong>снмпсетпдудата</strong></a>, <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpduplicatepdu"><strong>снмпдупликатепду</strong></a>. См. раздел <a href="working-with-protocol-data-units.md">Работа с единицами данных протокола</a>.<br /><blockquote>[!Note]<br />Приложению может потребоваться вызвать другие <a href="winsnmp-functions.md">функции PDU</a> и <a href="winsnmp-functions.md">функции WinSNMP Utility</a> для создания PDU.</blockquote><br /> | 
+| Отправьте один или несколько запросов на операции SNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpsendmsg"><strong>снмпсендмсг</strong></a>. См. раздел <a href="sending-snmp-messages.md">Отправка SNMP-сообщений</a>.<br /> | 
+| Получите ответ на запрос операции SNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg"><strong>снмпреквмсг</strong></a>. См. раздел <a href="receiving-snmp-messages.md">Получение SNMP-сообщений</a>.<br /> | 
+| Обработка ответа на запрос. | Используйте логику конкретного приложения. | 
+| Закройте каждый сеанс WinSNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpclose"><strong>снмпклосе</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-session.md">Открытие и закрытие сеанса WinSNMP</a>.<br /> | 
+| Закройте приложение WinSNMP. | Используйте <a href="/windows/desktop/api/Winsnmp/nf-winsnmp-snmpcleanup"><strong>снмпклеануп</strong></a>. См. раздел <a href="opening-and-closing-a-winsnmp-application.md">Открытие и закрытие приложения WinSNMP</a>.<br /> | 
+
 
 
 

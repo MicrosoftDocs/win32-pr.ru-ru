@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 91302b0d6c6e13f86f275d755c5f4b6150de6a59dd400e47ed877d01f3fe876e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ff50e0a4656caf33289b534307043694dbe2cdce
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118312060"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623920"
 ---
 # <a name="wmi-tasks-performance-monitoring"></a>Задачи WMI: Мониторинг производительности
 
@@ -44,8 +44,8 @@ ms.locfileid: "118312060"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,7 +63,7 @@ ms.locfileid: "118312060"
 <td>Используйте <a href="/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfFormattedData_PerfProc_Process</strong></a> или соответствующий <a href="/windows/desktop/CIMWin32Prov/performance-counter-classes">класс счетчика производительности</a> и метод <a href="swbemobjectex-refresh-.md"><strong>SWbemObjectEx.Refresh_</strong></a> . Дополнительные сведения см. в разделе <a href="scripting-with-swbemobject.md">Создание скриптов с помощью SWbemObject</a>.<br/> В C++ используйте <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemconfigurerefresher-addobjectbypath"><strong>ивбемконфигуререфрешер:: аддобжектбипас</strong></a> и <a href="/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh"><strong>Ивбемрефрешер:: Refresh</strong></a>. Дополнительные сведения см. в разделе <a href="monitoring-performance-data.md">наблюдение за данными производительности</a>.<br/> Следующий сценарий выполняется до перезагрузки компьютера, Инструментарий WMI остановлен или сценарий остановлен. Чтобы прерывать выполнение скрипта вручную, используйте диспетчер задач, чтобы прерывать процесс. Чтобы остановить его программно, используйте метод <a href="/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a> в классе <a href="/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a> .<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -97,7 +97,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,7 +138,7 @@ Wend</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

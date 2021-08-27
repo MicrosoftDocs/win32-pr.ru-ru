@@ -60,7 +60,7 @@ Public ReadOnly Property customUrl As System.String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

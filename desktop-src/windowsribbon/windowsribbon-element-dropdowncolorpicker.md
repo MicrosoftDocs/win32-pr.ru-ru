@@ -3,7 +3,7 @@ title: Дропдовнколорпиккер, элемент
 description: Представляет Drop-Down цвет, Пиккерконтрол, что при нажатии кнопки отображается палитра цветовых палитр.
 ms.assetid: fc4df978-9c52-43d5-8a5e-e015aa7058cd
 keywords:
-- Лента Windows для элемента Дропдовнколорпиккер
+- элемент дропдовнколорпиккер Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce2fd1d9ff12b56d87955304fad24af23209ff91
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 31525ee1b7233f0bf49668856d917ef14bc034b6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442905"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622890"
 ---
 # <a name="dropdowncolorpicker-element"></a>Дропдовнколорпиккер, элемент
 
@@ -45,10 +45,10 @@ ms.locfileid: "111442905"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,7 +75,7 @@ ms.locfileid: "111442905"
 <ul>
 <li>Привязка SplitButton.</li>
 <li>По умолчанию отображается кнопка <strong>автоматического</strong> цвета.</li>
-<li>Сетка образцов <strong>цветов темы</strong> Windows.</li>
+<li>сетка образцов <strong>цветов Windows темы</strong> .</li>
 <li>Сетка образцов <strong>стандартных цветов</strong> .</li>
 <li>Сетка образцов <strong>последних цветов</strong> необязательна.</li>
 <li>Диалоговое окно " <strong>другие цвета</strong> " средство запуска.</li>
@@ -233,12 +233,12 @@ ms.locfileid: "111442905"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

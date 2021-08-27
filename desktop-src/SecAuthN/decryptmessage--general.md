@@ -4,12 +4,12 @@ ms.assetid: ea271d0c-9167-41c5-8919-09611206fc71
 title: Функция Декриптмессаже (General) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: a05906c721d9046920c465fdfdf6b1c790b06640
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dfbde6c0b4a8c46920428af3d7f700268f11690
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263301"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476920"
 ---
 # <a name="decryptmessage-general-function"></a>Функция Декриптмессаже (общая)
 
@@ -98,8 +98,12 @@ SECURITY_STATUS SEC_Entry DecryptMessage(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Сообщение не было зашифровано, но был создан заголовок или трейлер.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong></dt> </dl></td><td>При использовании дайджест-поставщика общих служб используйте этот флаг, если [*контекст безопасности*](../secgloss/s-gly.md) настроен на проверку только [*подписи*](../secgloss/s-gly.md) . Дополнительные сведения см. в разделе [качество защиты](quality-of-protection.md).<br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Сообщение не было зашифровано, но был создан заголовок или трейлер.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br /> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | При использовании дайджест-поставщика общих служб используйте этот флаг, если [*контекст безопасности*](../secgloss/s-gly.md) настроен на проверку только [*подписи*](../secgloss/s-gly.md) . Дополнительные сведения см. в разделе [качество защиты](quality-of-protection.md).<br /> | 
+
 
 
 
@@ -146,15 +150,15 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

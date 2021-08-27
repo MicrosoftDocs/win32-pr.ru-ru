@@ -4,12 +4,12 @@ ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: параметердеф
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2682e3da11f471401e95e3f6515de5e18b6be895
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c5eddca78b76751c6083d1c5b5bac8c1040155e6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407297"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477850"
 ---
 # <a name="parameterdef"></a>параметердеф
 
@@ -43,41 +43,13 @@ ms.locfileid: "112407297"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Категория</th>
-<th>Сведения</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Родительские элементы<br/></td>
-<td>PrintCapabilities <br/></td>
-</tr>
-<tr class="even">
-<td>Дочерние элементы<br/></td>
-<td>Property (один или больше)<br/> Следующие стандартные элементы свойств должны отображаться как содержимое элемента Параметердеф. <br/>
-<ul>
-<li>DataType <br/></li>
-<li>DefaultValue <br/></li>
-<li>Обязательный <br/></li>
-<li>MaxLength или MaxValue<br/></li>
-<li>MinLength или MinValue<br/></li>
-<li>Несколько <br/></li>
-<li>Единицах UnitType <br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Этот элемент<br/></td>
-<td>Символьные данные не допускаются.<br/> Дублирование дочерних одноуровневых элементов не разрешено.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Категория | Сведения | 
+|----------|---------|
+| Родительские элементы<br /> | PrintCapabilities <br /> | 
+| Дочерние элементы<br /> | Property (один или больше)<br /> Следующие стандартные элементы свойств должны отображаться как содержимое элемента Параметердеф. <br /><ul><li>DataType <br /></li><li>DefaultValue <br /></li><li>Обязательный <br /></li><li>MaxLength или MaxValue<br /></li><li>MinLength или MinValue<br /></li><li>Несколько <br /></li><li>Единицах UnitType <br /></li></ul> | 
+| Этот элемент<br /> | Символьные данные не допускаются.<br /> Дублирование дочерних одноуровневых элементов не разрешено.<br /> | 
+
 
 
 

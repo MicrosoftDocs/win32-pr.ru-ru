@@ -4,12 +4,12 @@ ms.assetid: c451089a-d10d-469c-99dd-43d75a6b0b2a
 title: Функция InitializeSecurityContext (Schannel) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: ac552370727659e43b762d55019132ac1c4ea1e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29bbaeac3ef307e3ef846f526d96a98a22395742
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719298"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472910"
 ---
 # <a name="initializesecuritycontext-schannel-function"></a>Функция InitializeSecurityContext (Schannel)
 
@@ -79,8 +79,21 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>[*Пакет безопасности*](../secgloss/s-gly.md) выделяет выходные буферы. Завершив использование выходных буферов, освободите их, вызвав функцию [<strong>фриконтекстбуффер</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-freecontextbuffer).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>Шифрование сообщений с помощью функции [<strong>енкриптмессаже</strong>] (encryptmessage--General.md).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl> <dt><strong>ISC_REQ_CONNECTION</strong></dt> </dl></td><td>[*Контекст безопасности*](../secgloss/s-gly.md) не будет работать с сообщениями форматирования.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>При возникновении ошибок удаленная сторона будет уведомлена.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>Подписывание сообщений и проверка подписей с помощью функций [<strong>енкриптмессаже</strong>] (encryptmessage--General.md) и [<strong>макесигнатуре</strong>] (makesignature.md).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_MANUAL_CRED_VALIDATION"></span><span id="isc_req_manual_cred_validation"></span><dl> <dt><strong>ISC_REQ_MANUAL_CRED_VALIDATION</strong></dt> </dl></td><td>Канал Schannel не должен автоматически проверять подлинность сервера.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>Будет удовлетворена политика взаимной проверки подлинности службы.<br/><blockquote>[!Caution]<br />
-Это не обязательно означает, что выполняется взаимная проверка подлинности, удовлетворяющая только политика проверки подлинности службы. Чтобы обеспечить взаимную проверку подлинности, вызовите функцию [<strong>QueryContextAttributes (Schannel)</strong>] (querycontextattributes--SChannel.md).</blockquote><br/></td></tr><tr class="even"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Обнаружение воспроизводимых сообщений, закодированных с помощью функций [<strong>енкриптмессаже</strong>] (encryptmessage--General.md) или [<strong>макесигнатуре</strong>] (makesignature.md).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Обнаружение сообщений, полученных за пределами последовательности.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Поддерживать соединение с потоковой ориентацией.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_USE_SUPPLIED_CREDS"></span><span id="isc_req_use_supplied_creds"></span><dl> <dt><strong>ISC_REQ_USE_SUPPLIED_CREDS</strong></dt> </dl></td><td>SChannel не должно пытаться автоматически предоставлять учетные данные для клиента.<br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl><dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt></dl> | [*Пакет безопасности*](../secgloss/s-gly.md) выделяет выходные буферы. Завершив использование выходных буферов, освободите их, вызвав функцию [<strong>фриконтекстбуффер</strong>](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .<br /> | 
+| <span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl><dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt></dl> | Шифрование сообщений с помощью функции [<strong>енкриптмессаже</strong>](encryptmessage--general.md) .<br /> | 
+| <span id="ISC_REQ_CONNECTION"></span><span id="isc_req_connection"></span><dl><dt><strong>ISC_REQ_CONNECTION</strong></dt></dl> | [*Контекст безопасности*](../secgloss/s-gly.md) не будет работать с сообщениями форматирования.<br /> | 
+| <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl><dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt></dl> | При возникновении ошибок удаленная сторона будет уведомлена.<br /> | 
+| <span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl><dt><strong>ISC_REQ_INTEGRITY</strong></dt></dl> | Подписывание сообщений и проверка подписей с помощью функций [<strong>енкриптмессаже</strong>](encryptmessage--general.md) и [<strong>макесигнатуре</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_MANUAL_CRED_VALIDATION"></span><span id="isc_req_manual_cred_validation"></span><dl><dt><strong>ISC_REQ_MANUAL_CRED_VALIDATION</strong></dt></dl> | Канал Schannel не должен автоматически проверять подлинность сервера.<br /> | 
+| <span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl><dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt></dl> | Будет удовлетворена политика взаимной проверки подлинности службы.<br /><blockquote>[!Caution]<br />Это не обязательно означает, что выполняется взаимная проверка подлинности, удовлетворяющая только политика проверки подлинности службы. Чтобы обеспечить взаимную проверку подлинности, вызовите функцию [<strong>QueryContextAttributes (Schannel)</strong>](querycontextattributes--schannel.md) .</blockquote><br /> | 
+| <span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl><dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt></dl> | Обнаружение воспроизводимых сообщений, закодированных с помощью функций [<strong>енкриптмессаже</strong>](encryptmessage--general.md) или [<strong>макесигнатуре</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl><dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt></dl> | Обнаружение сообщений, полученных за пределами последовательности.<br /> | 
+| <span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl><dt><strong>ISC_REQ_STREAM</strong></dt></dl> | Поддерживать соединение с потоковой ориентацией.<br /> | 
+| <span id="ISC_REQ_USE_SUPPLIED_CREDS"></span><span id="isc_req_use_supplied_creds"></span><dl><dt><strong>ISC_REQ_USE_SUPPLIED_CREDS</strong></dt></dl> | SChannel не должно пытаться автоматически предоставлять учетные данные для клиента.<br /> | 
+
 
 
 
@@ -259,15 +272,15 @@ SECURITY_STATUS SEC_Entry InitializeSecurityContext(
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                           |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                |
-| Header<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                |
+| Заголовок<br/>                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

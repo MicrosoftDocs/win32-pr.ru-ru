@@ -4,12 +4,12 @@ description: Многострочные подсказки позволяют о
 ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d6f32d638b2d33ea6270aa5f8ce2c09f0f4174
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cd0d9f4172b256d2e6b72fb59ace4dc377fa3a0061e3ee0e6c0f234a74aad06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085633"
 ---
 # <a name="how-to-implement-multiline-tooltips"></a>Как реализовать многострочные подсказки
 
@@ -24,18 +24,18 @@ ms.locfileid: "103774198"
 > [!Note]  
 > Текстовый буфер, заданный членом **сзтекст** структуры [**нмттдиспинфо**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) , может размещать только 80 символов. Если необходимо использовать более длинную строку, наведите элемент **Лпсзтекст** **нмттдиспинфо** на буфер, содержащий нужный текст.
 
- 
+ 
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -63,16 +63,16 @@ ms.locfileid: "103774198"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a696d1c52a42cad2b3b67b047984b48d77637a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c57fda6eaea161839cdaa758c41f13749d4c5eda
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346995"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480050"
 ---
 # <a name="jet_indexlist-structure"></a>Структура JET_INDEXLIST
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_indexlist-structure"></a>Структура JET_INDEXLIST
 
@@ -109,35 +109,13 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот столбец является [JET_coltypLongом](./jet-coltyp.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Циндексинфоколс<br />
-15</p></td>
-<td><p>Указывает, что разрешены 15 столбцов.</p></td>
-</tr>
-<tr class="even">
-<td><p>кколумнинфоколс<br />
-14</p></td>
-<td><p>Указывает, что разрешены 14 столбцов.</p></td>
-</tr>
-<tr class="odd">
-<td><p>кобжектинфоколс<br />
-9</p></td>
-<td><p>Указывает, что разрешены 9 столбцов.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>Циндексинфоколс<br />15</p> | <p>Указывает, что разрешены 15 столбцов.</p> | 
+| <p>кколумнинфоколс<br />14</p> | <p>Указывает, что разрешены 14 столбцов.</p> | 
+| <p>кобжектинфоколс<br />9</p> | <p>Указывает, что разрешены 9 столбцов.</p> | 
+
 
 
 **колумнидколумнид**
@@ -180,28 +158,12 @@ _**Применимо к:** Windows | Windows Server_
 
 Для этого элемента допустимы следующие параметры.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitKeyAscending</p></td>
-<td><p>Сегмент индекса в возрастающем порядке.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitKeyDescending</p></td>
-<td><p>Сегмент индекса в порядке убывания.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitKeyAscending</p> | <p>Сегмент индекса в возрастающем порядке.</p> | 
+| <p>JET_bitKeyDescending</p> | <p>Сегмент индекса в порядке убывания.</p> | 
+
 
 
 **колумнидколумннаме**
@@ -224,60 +186,21 @@ _**Применимо к:** Windows | Windows Server_
 
 Число ключей в определенном индексе соответствует числу уникальных значений, для которых вызывающий может выполнить поиск и получить точное соответствие. Число записей — это количество строк, совпадающих с индексом. Если индекс имеет ограничение уникальности, число ключей равно числу записей. Например, если таблица содержит следующие сведения и индекс создается для столбца с именем "ключ", то существует три ключа (100, 200 и 500), но есть четыре записи ("this", "-", "a" и "example").
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Ключ</p></th>
-<th><p>Ввод</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>100</p></td>
-<td><p>&quot;this&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>100</p></td>
-<td><p>&quot;is&quot;</p></td>
-</tr>
-<tr class="odd">
-<td><p>200</p></td>
-<td><p>&quot;ранне&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>500</p></td>
-<td><p>&quot;example&quot;</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Клавиши</p> | <p>Ввод</p> | 
+|------------|--------------|
+| <p>100</p> | <p>настоящего</p> | 
+| <p>100</p> | <p>рекомендуется</p> | 
+| <p>200</p> | <p>ранне</p> | 
+| <p>500</p> | <p>Например</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

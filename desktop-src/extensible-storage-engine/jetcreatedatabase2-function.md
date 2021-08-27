@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a370f88f95a2eb8217dc06124b50c9ed165eb679
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b362b7ada2c0cc2924ce178adda2368faef770bf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712581"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479210"
 ---
 # <a name="jetcreatedatabase2-function"></a>Функция JetCreateDatabase2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetcreatedatabase2-function"></a>Функция JetCreateDatabase2
 
@@ -70,112 +70,38 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitDbOverwriteExisting</p></td>
-<td><p>По умолчанию, если вызывается <a href="gg269212(v=exchg.10).md">жеткреатедатабасе</a> или <strong>JetCreateDatabase2</strong> и база данных уже существует, вызов API завершится ошибкой и исходная база данных не будет перезаписана. JET_bitDbOverwriteExisting изменяет это поведение, а старая база данных будет перезаписана новой. Windows XP и более поздние версии.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDbRecoveryOff</p></td>
-<td><p>JET_bitDbRecoveryOff отключает ведение журнала. Установка этого бита теряет возможность воспроизведения файлов журнала и восстановления базы данных до стабильного работоспособного состояния после аварийного события.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitDbShadowingOff</p></td>
-<td><p>При установке JET_bitDbShadowingOff будет отключено дублирование некоторых внутренних структур баз данных (теневая). Дублирование этих структур выполняется для обеспечения устойчивости, поэтому параметр JET_bitDbShadowingOff удалит эту устойчивость.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitDbOverwriteExisting</p> | <p>По умолчанию, если вызывается <a href="gg269212(v=exchg.10).md">жеткреатедатабасе</a> или <strong>JetCreateDatabase2</strong> и база данных уже существует, вызов API завершится ошибкой и исходная база данных не будет перезаписана. JET_bitDbOverwriteExisting изменяет это поведение, а старая база данных будет перезаписана новой. Windows XP и более поздних версий.</p> | 
+| <p>JET_bitDbRecoveryOff</p> | <p>JET_bitDbRecoveryOff отключает ведение журнала. Установка этого бита теряет возможность воспроизведения файлов журнала и восстановления базы данных до стабильного работоспособного состояния после аварийного события.</p> | 
+| <p>JET_bitDbShadowingOff</p> | <p>При установке JET_bitDbShadowingOff будет отключено дублирование некоторых внутренних структур баз данных (теневая). Дублирование этих структур выполняется для обеспечения устойчивости, поэтому параметр JET_bitDbShadowingOff удалит эту устойчивость.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseDuplicate</p></td>
-<td><p>База данных с именем в <em>сзфиленаме</em> уже существует. При возвращении этой ошибки база данных не прикрепляется.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInUse</p></td>
-<td><p>Может возвращаться, если был запрошен монопольный доступ, но его не удалось предоставить, или если другой сеанс уже открыл базу данных в монопольном режиме.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInvalidPages</p></td>
-<td><p>Возвращается, если <em>кпгдатабасесиземакс</em> больше максимального числа страниц, разрешенного в базе данных. Текущее максимальное значение — 2147483646 (0x7ffffffe).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p>В <em>сзфиленаме</em>указан недопустимый путь. <em>сзфиленаме</em> должен иметь значение, отличное от NULL. По умолчанию <em>сзфиленаме</em> должен указывать на существующий каталог. Путь будет создан, если задан параметр <em>JET_paramCreatePathIfNotExist</em> (см. <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseLocked</p></td>
-<td><p>Указывает, что другой сеанс уже открыл базу данных в монопольном режиме (с помощью JET_bitDbExclusive).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseNotFound</p></td>
-<td><p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a>).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseSharingViolation</p></td>
-<td><p>Файл базы данных уже присоединен к другому сеансу.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInTransaction</p></td>
-<td><p>Предпринята попытка создать базу данных во время транзакции.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidDatabase</p></td>
-<td><p>Предпринята попытка открыть файл, который не является допустимым файлом базы данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOneDatabasePerSession</p></td>
-<td><p>Была предпринята попытка открыть несколько баз данных, а JET_paramOneDatabasePerSession были заданы. См. раздел <a href="gg294139(v=exchg.10).md">системные параметры</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>В системе недостаточно ресурсов.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyAttachedDatabases</p></td>
-<td><p>В каждом экземпляре может быть присоединено только конечное количество баз данных. Сейчас ограничение составляет семь баз данных на экземпляр.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnDatabaseAttached</p></td>
-<td><p>Некритическое предупреждение, указывающее, что файл базы данных уже присоединен к этому сеансу.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnFileOpenReadOnly</p></td>
-<td><p>JET_wrnFileOpenReadOnly указывает, что файл был присоединен только для чтения, но <a href="gg269212(v=exchg.10).md">жеткреатедатабасе</a> не прошел JET_bitDbReadOnly. База данных по-прежнему открыта с доступом только для чтения.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errDatabaseDuplicate</p> | <p>База данных с именем в <em>сзфиленаме</em> уже существует. При возвращении этой ошибки база данных не прикрепляется.</p> | 
+| <p>JET_errDatabaseInUse</p> | <p>Может возвращаться, если был запрошен монопольный доступ, но его не удалось предоставить, или если другой сеанс уже открыл базу данных в монопольном режиме.</p> | 
+| <p>JET_errDatabaseInvalidPages</p> | <p>Возвращается, если <em>кпгдатабасесиземакс</em> больше максимального числа страниц, разрешенного в базе данных. Текущее максимальное значение — 2147483646 (0x7ffffffe).</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p>В <em>сзфиленаме</em>указан недопустимый путь. <em>сзфиленаме</em> должен иметь значение, отличное от NULL. По умолчанию <em>сзфиленаме</em> должен указывать на существующий каталог. Путь будет создан, если задан параметр <em>JET_paramCreatePathIfNotExist</em> (см. <a href="gg294044(v=exchg.10).md">жетсетсистемпараметер</a>).</p> | 
+| <p>JET_errDatabaseLocked</p> | <p>Указывает, что другой сеанс уже открыл базу данных в монопольном режиме (с помощью JET_bitDbExclusive).</p> | 
+| <p>JET_errDatabaseNotFound</p> | <p>База данных не была присоединена ранее (см. <a href="gg294074(v=exchg.10).md">жетаттачдатабасе</a>).</p> | 
+| <p>JET_errDatabaseSharingViolation</p> | <p>Файл базы данных уже присоединен к другому сеансу.</p> | 
+| <p>JET_errInTransaction</p> | <p>Предпринята попытка создать базу данных во время транзакции.</p> | 
+| <p>JET_errInvalidDatabase</p> | <p>Предпринята попытка открыть файл, который не является допустимым файлом базы данных.</p> | 
+| <p>JET_errOneDatabasePerSession</p> | <p>Была предпринята попытка открыть несколько баз данных, а JET_paramOneDatabasePerSession были заданы. См. раздел <a href="gg294139(v=exchg.10).md">системные параметры</a>.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>В системе недостаточно ресурсов.</p> | 
+| <p>JET_errTooManyAttachedDatabases</p> | <p>В каждом экземпляре может быть присоединено только конечное количество баз данных. Сейчас ограничение составляет семь баз данных на экземпляр.</p> | 
+| <p>JET_wrnDatabaseAttached</p> | <p>Некритическое предупреждение, указывающее, что файл базы данных уже присоединен к этому сеансу.</p> | 
+| <p>JET_wrnFileOpenReadOnly</p> | <p>JET_wrnFileOpenReadOnly указывает, что файл был присоединен только для чтения, но <a href="gg269212(v=exchg.10).md">жеткреатедатабасе</a> не прошел JET_bitDbReadOnly. База данных по-прежнему открыта с доступом только для чтения.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -188,43 +114,14 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JetCreateDatabase2W</strong> (Юникод) и <strong>JetCreateDatabase2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JetCreateDatabase2W</strong> (Юникод) и <strong>JetCreateDatabase2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:
 
-[Расширяемые файлы подсистемы хранилища](./extensible-storage-engine-files.md)  
+[расширяемые файлы служба хранилища Engine](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_DBID](./jet-dbid.md)  
 [JET_GRBIT](./jet-grbit.md)  

@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 751c6c0802c30e113f4a2b7ddc646cdf5646b7dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4da816b45709f6140efb7e6e0460e27d9f9ed00f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702055"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627720"
 ---
 # <a name="wmi-tasks-connecting-to-the-wmi-service"></a>Задачи WMI. подключение к службе WMI
 
 Для получения данных из инструментария WMI (на локальном или удаленном компьютере) необходимо подключиться к службе WMI, подключившись к определенному [*пространству имен*](gloss-n.md). В большинстве случаев используйте сокращенное подключение [моникера](creating-a-wmi-script.md) или подключение [**локатора**](swbemlocator-connectserver.md) . Другие примеры см. в разделе TechNet Скриптцентер по адресу [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) .
 
-Для удаленных подключений требуются соответствующие параметры брандмауэра Windows и DCOM. Дополнительные сведения см. в статьях [Подключение к WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md) и [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Начиная с Windows Vista Управление учетными записями пользователей (UAC) может повлиять на доступ к WMI. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md).
+для удаленных подключений требуются соответствующие параметры брандмауэра Windows и DCOM. дополнительные сведения см. в статьях [подключение к WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md) и [подключение через брандмауэр Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). начиная с Windows Vista управление учетными записями пользователей (UAC) может повлиять на доступ к WMI. Дополнительные сведения см. в разделе [Управление учетными записями пользователей и инструментарий WMI](user-account-control-and-wmi.md).
 
 Примеры сценариев, приведенные в этом разделе, получают данные только с локального компьютера. Дополнительные сведения об использовании сценария для получения данных с удаленных компьютеров см. в разделе [Подключение к WMI на удаленном компьютере](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -30,7 +30,7 @@ ms.locfileid: "105702055"
 
 **Запуск сценария**
 
-1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет расширение txt в файл.
+1.  Скопируйте код и сохраните его в файле с расширением vbs, например *filename.vbs*. Убедитесь, что текстовый редактор не добавляет к файлу расширение .txt.
 2.  Откройте окно командной строки и перейдите в каталог, в котором был сохранен файл.
 3.  Введите **cscript filename.vbs** в командной строке.
 4.  Если доступ к журналу событий невозможен, проверьте, выполняется ли в командной строке с повышенными привилегиями. Некоторые журналы событий, например журнал событий безопасности, могут быть защищены с помощью элементов управления доступом пользователей (UAC).
@@ -46,8 +46,8 @@ ms.locfileid: "105702055"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,12 +63,12 @@ ms.locfileid: "105702055"
 <li>Имя компьютера NetBIOS, например &quot; ATL-DC-01&quot;</li>
 <li>Полное доменное имя, например &quot; ATL-DC-01.fabrikam.com&quot;</li>
 <li>IPv4-адрес, например &quot; 192.168.1.1&quot;</li>
-<li>Начиная с Windows Vista, можно указать IPv6-адрес, если конечный компьютер и компьютер, с которого устанавливается подключение, используют протокол IPv6.<br/></li>
+<li>начиная с Windows Vista, можно указать ipv6-адрес, если целевой компьютер и компьютер, с которого устанавливается подключение, используют ipv6.<br/></li>
 </ul>
 Дополнительные сведения см. в разделе <a href="connecting-to-wmi-on-a-remote-computer.md">Подключение к WMI на удаленном компьютере</a> и <a href="ipv6-and-ipv4-support-in-wmi.md">Поддержка IPv6 и IPv4 в WMI</a>.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -112,7 +112,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -134,7 +134,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -160,7 +160,7 @@ Get-WmiObject -Class Win32_Process -ComputerName $strComputer -Namespace &quot;r
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

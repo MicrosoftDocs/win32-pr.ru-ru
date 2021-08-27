@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 893116d7e99bd720f098a8b536f1ad4fd02563ab
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 42b7669d974fffde76c8c8f1e7beb4f8d78bf58fda3810130b255d4bc5a693df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104424338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118684"
 ---
 # <a name="id3dxeffectpool-interface"></a>Интерфейс ID3DXEffectPool
 
@@ -29,7 +29,7 @@ ms.locfileid: "104424338"
 
 Интерфейс **ID3DXEffectPool** наследует от интерфейса [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) , но не содержит дополнительных элементов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Интерфейс ID3DXEffectPool получается путем вызова [**D3DXCreateEffectPool**](d3dxcreateeffectpool.md).
 
@@ -49,12 +49,12 @@ typedef interface ID3DXEffectPool *LPD3DXEFFECTPOOL;
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,18 +4,18 @@ ms.assetid: b6a25100-9f3e-4207-b56f-0c27ee16f188
 title: Двоичный тип
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda0711b53f865bbd844514ed2429d97d91e07a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8412d63891f3028c1ef2beb8fa0e6a17c4a35c33df182cbd9f1059a593c50915
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105374"
 ---
 # <a name="binary-type"></a>Двоичный тип
 
 Двоичный тип [семантического типа](semantic-types.md) является одним из [типов формата ключа](key-format-types.md). Этот тип состоит из ключа в [двоичную таблицу](binary-table.md) , предоставленную пользователем.
 
-Средство слияния должно заменить допустимый [идентификатор](identifier.md) установщик Windows для элементов этого типа. Mergemod.dll не применяет это ограничение и является средством слияния, чтобы гарантировать, что пользователь предоставит допустимый ключ в двоичную таблицу.
+средство слияния должно заменить допустимый [идентификатор](identifier.md) установщик Windows для элементов этого типа. Mergemod.dll не применяет это ограничение и является средством слияния, чтобы гарантировать, что пользователь предоставит допустимый ключ в двоичную таблицу.
 
 Значение null является допустимым для этого типа, если только Мсмконфигитемноннуллабле не включен в поле Attributes [таблицы модулеконфигуратион](moduleconfiguration-table.md).
 

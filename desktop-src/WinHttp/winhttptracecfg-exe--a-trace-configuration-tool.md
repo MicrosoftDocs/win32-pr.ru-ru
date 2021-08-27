@@ -4,12 +4,12 @@ ms.assetid: 744cae92-9c64-459e-96eb-eb609e62183c
 title: WinHttpTraceCfg.exe, средство настройки трассировки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7747e0b2fe023ab3c2c86d19a722059482aed19062cf2a450b8d0f237a8b3a9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e292373c0da19be32f48d7f62f558953406e8d1b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118562421"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622570"
 ---
 # <a name="winhttptracecfgexe-a-trace-configuration-tool"></a>WinHttpTraceCfg.exe, средство настройки трассировки
 
@@ -37,13 +37,13 @@ WinHttpTraceCfg [-e <0|1>] [-l [log-file]] [-d <0|1>] [-s <0|1|2>]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Параметр</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>

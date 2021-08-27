@@ -81,7 +81,7 @@ Public ReadOnly Property mediaAccessRights As System.String
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
