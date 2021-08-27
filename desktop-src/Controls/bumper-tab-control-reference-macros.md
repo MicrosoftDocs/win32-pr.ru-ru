@@ -4,16 +4,16 @@ description: Макросы элемента управления Tab
 ms.assetid: 23c5bea5-c43e-45df-9761-911ed21f6a41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd928360a3626528d3b44b3854f833278264c4ae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e7165db6ccd2c89ef511a8025d5f18537e0eca9009fcfee5c807e1b15ee64756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103914504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064034"
 ---
 # <a name="tab-control-macros"></a>Макросы элемента управления Tab
 
-## <a name="in-this-section"></a>в этом разделе
+## <a name="in-this-section"></a>В этом разделе
 
 -   [**Табктрл \_ аджустрект**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_adjustrect)
 -   [**Табктрл \_ делетеаллитемс**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_deleteallitems)

@@ -3,7 +3,7 @@ title: Сообщение TCM_SETCURSEL (Коммктрл. h)
 description: Выбирает вкладку в элементе управления "Вкладка". Это сообщение можно отправить явным образом или с помощью \_ макроса табктрл сеткурсел.
 ms.assetid: cf709d8c-c522-47c8-8ff3-463dc8e924b5
 keywords:
-- Элементы управления Windows для TCM_SETCURSEL сообщений
+- элементы управления Windows сообщений TCM_SETCURSEL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90033c5a19b0eb7b73f9ed886e8dad8d1ca4c2ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bdfd0861f5249a823d9406b437fd0efbca64a757a4bcadd7991155a87ddbc59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104854"
 ---
 # <a name="tcm_setcursel-message"></a>\_Сообщение СЕТКУРСЕЛ TCM
 
@@ -43,19 +43,19 @@ ms.locfileid: "103988683"
 
 Возвращает индекс ранее выбранной вкладки в случае успеха, или-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Элемент управления "Вкладка" не отправляет код уведомления [ТКН \_ Селчангинг](tcn-selchanging.md) или [ТКН \_ селчанже](tcn-selchange.md) , когда вкладка выбрана с помощью этого сообщения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 090f35cc576caf6f99a8d5822a0304f15383e8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1771e1f0bde83f0fc7d070787b7a19f87007e26bd1ad42dcaa88e230e61a60af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111814"
 ---
 # <a name="fileiconinit-function"></a>Функция Филеиконинит
 
@@ -54,7 +54,7 @@ BOOL FileIconInit(
 
 **Значение true** , если кэш успешно обновлен, и **false** в случае сбоя инициализации.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Если вы используете списки системных образов в собственном процессе, необходимо вызвать **филеиконинит** в следующее время:
 
@@ -69,7 +69,7 @@ BOOL FileIconInit(
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                            |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                            |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |
 

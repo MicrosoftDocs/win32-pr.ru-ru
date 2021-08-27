@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45ccef4a3cc8e16851c0676b8b0dce8c53cfdd27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45d236526792d4b965f58dc6c188add6a257845bcb8450e84f4b691849acb493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061854"
 ---
 # <a name="month-calendar-control-styles"></a>Стили элемента управления "календарь месяца"
 
@@ -39,19 +39,19 @@ ms.locfileid: "105648629"
 | <span id="MCS_WEEKNUMBERS"></span><span id="mcs_weeknumbers"></span><dl> <dt>**\_ВИКНУМБЕРС MCS**</dt> </dl>                | [Версия 4,70](common-control-versions.md). Элемент управления "календарь месяца" отображает номера недель (1-52) слева от каждой строки дней. Неделя 1 определена как первая неделя, которая содержит не менее четырех дней. <br/>                                                                                              |
 | <span id="MCS_NOTODAYCIRCLE"></span><span id="mcs_notodaycircle"></span><dl> <dt>**\_НОТОДАЙЦИРКЛЕ MCS**</dt> </dl>          | [Версия 4,70](common-control-versions.md). Элемент управления "календарь месяца" не обработает дату "сегодня". <br/>                                                                                                                                                                                                |
 | <span id="MCS_NOTODAY"></span><span id="mcs_notoday"></span><dl> <dt>**\_сейчас MCS**</dt> </dl>                            | [Версия 4,70](common-control-versions.md). В элементе управления "календарь месяца" не отображается дата "сегодня" в нижней части элемента управления. <br/>                                                                                                                                                                   |
-| <span id="MCS_NOTRAILINGDATES"></span><span id="mcs_notrailingdates"></span><dl> <dt>**\_НОТРАИЛИНГДАТЕС MCS**</dt> </dl>    | **Windows Vista.** Даты из предыдущего и следующего месяцев не отображаются в календаре текущего месяца.<br/>                                                                                                                                                                                              |
-| <span id="MCS_SHORTDAYSOFWEEK"></span><span id="mcs_shortdaysofweek"></span><dl> <dt>**\_ШОРТДАЙСОФВИК MCS**</dt> </dl>    | **Windows Vista.** Короткие названия дней отображаются в заголовке.<br/>                                                                                                                                                                                                                                            |
-| <span id="MCS_NOSELCHANGEONNAV"></span><span id="mcs_noselchangeonnav"></span><dl> <dt>**\_НОСЕЛЧАНЖЕОННАВ MCS**</dt> </dl> | **Windows Vista.** Выбор не изменяется, когда пользователь переходит к следующему или предыдущему элементу в календаре. Это позволяет пользователю выбрать диапазон больше, чем видимый.<br/>                                                                                                                                  |
+| <span id="MCS_NOTRAILINGDATES"></span><span id="mcs_notrailingdates"></span><dl> <dt>**\_НОТРАИЛИНГДАТЕС MCS**</dt> </dl>    | **Windows Системе.** Даты из предыдущего и следующего месяцев не отображаются в календаре текущего месяца.<br/>                                                                                                                                                                                              |
+| <span id="MCS_SHORTDAYSOFWEEK"></span><span id="mcs_shortdaysofweek"></span><dl> <dt>**\_ШОРТДАЙСОФВИК MCS**</dt> </dl>    | **Windows Системе.** Короткие названия дней отображаются в заголовке.<br/>                                                                                                                                                                                                                                            |
+| <span id="MCS_NOSELCHANGEONNAV"></span><span id="mcs_noselchangeonnav"></span><dl> <dt>**\_НОСЕЛЧАНЖЕОННАВ MCS**</dt> </dl> | **Windows Системе.** Выбор не изменяется, когда пользователь переходит к следующему или предыдущему элементу в календаре. Это позволяет пользователю выбрать диапазон больше, чем видимый.<br/>                                                                                                                                  |
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

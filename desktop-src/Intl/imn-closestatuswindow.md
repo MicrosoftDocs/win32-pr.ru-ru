@@ -4,12 +4,12 @@ ms.assetid: d59fdf76-50e7-4a59-b1bd-a12cdb0026f6
 title: Код уведомления IMN_CLOSESTATUSWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c0347fb4b0d83a9e3891b9aea59d82ab81e2183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a56093e5dac9c5b9b236c6819a627c1d8c1fc05aa8350824577f29f64c007e71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105650819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107164"
 ---
 # <a name="imn_closestatuswindow-notification-code"></a>\_Код уведомления ИМН клосестатусвиндов
 
@@ -44,7 +44,7 @@ IMN_CLOSESTATUSWINDOW
 
 Эта команда не имеет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно обработать эту команду, если в ней отображается окно состояния IME.
 
@@ -58,11 +58,11 @@ IMN_CLOSESTATUSWINDOW
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                 |
-| Заголовок<br/>                   | <dl> <dt>IMM. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Imm. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

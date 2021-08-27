@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Гистограммы для расшифровки видео Direct3D
 ms.topic: article
 ms.date: 08/19/2019
-ms.openlocfilehash: 6e25abd39ba95b669c2d76ced5f825ea80c4e3c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94371fd68c981a98c4ba629822f928e148c230565b5103dfaa2350543bbe9a57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061634"
 ---
 # <a name="direct3d-video-decode-histograms"></a>Гистограммы для расшифровки видео Direct3D
 
@@ -72,7 +72,7 @@ ms.locfileid: "105719266"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 [API-интерфейсы](direct3d-12-video-apis.md) 

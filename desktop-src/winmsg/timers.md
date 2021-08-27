@@ -4,18 +4,18 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\timers.htm
 title: Таймеры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fa44be05acc09eafed550a200ed6bc61f79daa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dd8eced20e7d8b1eca5ec8a952f10798f92f1650db3c77bca76aca756cdd569
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110695"
 ---
 # <a name="timers"></a>Таймеры
 
 Таймер — это внутренняя подпрограммы, которая многократно измеряет указанный интервал в миллисекундах.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

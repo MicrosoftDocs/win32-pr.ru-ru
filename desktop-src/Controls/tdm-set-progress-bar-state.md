@@ -3,7 +3,7 @@ title: Сообщение TDM_SET_PROGRESS_BAR_STATE (Коммктрл. h)
 description: Задает состояние индикатора выполнения в диалоговом окне задачи.
 ms.assetid: 8b0f2ee9-e6ca-4a5b-8687-6e2682eda7d0
 keywords:
-- Элементы управления Windows для TDM_SET_PROGRESS_BAR_STATE сообщений
+- элементы управления Windows сообщений TDM_SET_PROGRESS_BAR_STATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f0ae4ec104c8472d3640aa804650640d77cc63
-ms.sourcegitcommit: e584514ced7396dde55e58501c8c8a872229acc4
+ms.openlocfilehash: cb3be7432ac3a93af4f27fe9b06dced50fc6c77c0176c3bff7419cf15f2c73ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "104352035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104534"
 ---
 # <a name="tdm_set_progress_bar_state-message"></a>TDM \_ задать \_ \_ сообщение о \_ состоянии индикатора выполнения
 
@@ -61,15 +61,15 @@ ms.locfileid: "104352035"
 
 Если функция выполняется неудачно, возвращается нулевое значение. Для получения расширенной информации об ошибке вызова GetLastError.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

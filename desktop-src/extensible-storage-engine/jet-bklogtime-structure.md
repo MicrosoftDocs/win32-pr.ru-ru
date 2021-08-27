@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b34740d582e341cce3b2fd0b28203b7346a4de1d94a8586289be8ab252247943
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2d6f8e3f77d905eb601441ad8ab3ca88bb08f59d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118487726"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478530"
 ---
 # <a name="jet_bklogtime-structure"></a>Структура JET_BKLOGTIME
 
@@ -104,63 +104,30 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Если это событие является резервной копией, этот флаг содержит одно из следующих возможных значений:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Имя</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Потоковая Архивация</p></td>
-<td><p>0 (ноль)</p></td>
-</tr>
-<tr class="even">
-<td><p>Резервное копирование моментальных снимков</p></td>
-<td><p>1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Имя</p> | <p>Значение</p> | 
+|-------------|--------------|
+| <p>Потоковая Архивация</p> | <p>0 (ноль)</p> | 
+| <p>Резервное копирование моментальных снимков</p> | <p>1</p> | 
+
 
 
 **фресервед**
 
 Это поле следует игнорировать.
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Комментарии
 
 Эта структура используется при отладке.
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [JET_LOGTIME](./jet-logtime-structure.md)  
 [JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

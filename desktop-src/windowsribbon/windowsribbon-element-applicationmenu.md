@@ -3,7 +3,7 @@ title: Аппликатионмену, элемент
 description: Представляет меню приложения. | Аппликатионмену, элемент
 ms.assetid: 815e0462-ea45-44b1-81bf-f5797b22e920
 keywords:
-- Лента Windows для элемента Аппликатионмену
+- элемент аппликатионмену Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e535fbcc09a404ad7dd5a4019438f4513f5c77c6
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7fcf64d3fa3b618a4e66777b8fd4c0d831a33126
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443055"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626130"
 ---
 # <a name="applicationmenu-element"></a>Аппликатионмену, элемент
 
@@ -40,10 +40,10 @@ ms.locfileid: "111443055"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -184,12 +184,12 @@ ms.locfileid: "111443055"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

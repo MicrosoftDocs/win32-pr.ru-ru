@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c3fdfc37c206b6360fc0b7296bbf90c319652e28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94fc32654ca5bea81538a5dc56e7ca6b391287703a4a96dfccf62ceae497766a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105647886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095774"
 ---
 # <a name="id3dxrendertoenvmap-interface"></a>Интерфейс ID3DXRenderToEnvMap
 
@@ -43,7 +43,7 @@ ms.locfileid: "105647886"
 | [**бегинхемисфере**](id3dxrendertoenvmap--beginhemisphere.md) | Инициация отрисовки схемы среды хемисферик.<br/>                                                                                                                              |
 | [**бегинпараболик**](id3dxrendertoenvmap--beginparabolic.md)   | Инициация отрисовки схемы среды параболическим.<br/>                                                                                                                                |
 | [**бегинсфере**](id3dxrendertoenvmap--beginsphere.md)         | Инициация отрисовки сферической схемы среды.<br/>                                                                                                                                |
-| [**END**](id3dxrendertoenvmap--end.md)                         | Восстановите все целевые объекты отрисовки и при необходимости сформируйте все отрисованные лица в области схемы среды.<br/>                                                                           |
+| [**Конец**](id3dxrendertoenvmap--end.md)                         | Восстановите все целевые объекты отрисовки и при необходимости сформируйте все отрисованные лица в области схемы среды.<br/>                                                                           |
 | [**Распознавание лиц**](id3dxrendertoenvmap--face.md)                       | Инициирует рисование каждой грани схемы среды.<br/>                                                                                                                              |
 | [**GetDesc**](id3dxrendertoenvmap--getdesc.md)                 | Извлекает описание поверхности рендеринга.<br/>                                                                                                                                      |
 | [**GetDevice**](id3dxrendertoenvmap--getdevice.md)             | Извлекает устройство Direct3D, связанное с картой среды.<br/>                                                                                                                    |
@@ -54,7 +54,7 @@ ms.locfileid: "105647886"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Схема окружения используется для создания геометрии текстурной схемы, чтобы обеспечить более сложную сцену без использования сложной геометрии. Этот интерфейс поддерживает создание поверхностей для следующих видов геометрии: Cube, 1/2 Sphere или хемисферик, параболическим или Sphere.
 
@@ -70,18 +70,18 @@ typedef interface ID3DXRenderToEnvMap *LPD3DXRenderToEnvMap;
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9core. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

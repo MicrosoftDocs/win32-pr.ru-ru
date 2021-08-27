@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: 870a0425-3226-7848-bcc0-0ba7145135cb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bcd8bcfdb00565d6f8bbc31ae0ee6a24f106dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b950ce33f55a4b834f3ee7a068f613e144c2e30633c67e887b8a24789140a618
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109654"
 ---
 # <a name="xaudio2-functions"></a>Функции XAudio2
 
@@ -41,7 +41,7 @@ ms.locfileid: "105702523"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

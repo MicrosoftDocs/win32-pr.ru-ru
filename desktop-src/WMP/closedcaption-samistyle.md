@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4a12671877cf0d4d8abdb77d169b0f13000bc564e6c1dc37e65bf6eccdf005
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bd45977e3d433239e74aee21def913b640fad12
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118580769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882172"
 ---
 # <a name="closedcaptionsamistyle"></a>Клоседкаптион. Самистиле
 
@@ -33,9 +33,9 @@ player.closedCaption.SAMIStyle
 
 Это свойство является **строкой** для чтения и записи.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Файл SAMI может содержать несколько определений стиля формата. Стили SAMI определены между тегами <STYLE> и </STYLE> в файле Sami. Стиль определяется с помощью текстовой строки, предшествующей \# символу. Пример:
+Файл SAMI может содержать несколько определений стиля формата. Стили SAMI определены между &lt; стилями &gt; и </STYLE> ТЕГАМИ в файле Sami. Стиль определяется с помощью текстовой строки, предшествующей \# символу. Пример.
 
 
 ```

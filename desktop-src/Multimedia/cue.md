@@ -3,7 +3,7 @@ title: Команда подсказки
 description: Команда подсказки готовится к воспроизведению или записи. Эта команда распознает цифровые видеоролики, видеомагнитофоны и звуковые устройства аудио-видео.
 ms.assetid: 94fa0d0c-d5c9-4ef1-bb7d-22dfb09a7689
 keywords:
-- Команда подсказки Windows мультимедиа
+- команда подсказки Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd71f06a71c8aff4752fc31d750a3612564eb8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6398d4773b6c92332e8a95996e4d81941a073fe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103892762"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467861"
 ---
 # <a name="cue-command"></a>Команда подсказки
 
@@ -53,51 +53,13 @@ _stprintf_s(
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Сказк</th>
-<th>Сказк</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>дигиталвидео</td>
-<td><ul>
-<li>input</li>
-<li>не показывать</li>
-</ul></td>
-<td><ul>
-<li>output</li>
-<li>в <em>Расположение</em></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>видеомагнитофон</td>
-<td><ul>
-<li>от <em>расположения</em></li>
-<li>input</li>
-<li>output</li>
-</ul></td>
-<td><ul>
-<li>сделана предварительная проба</li>
-<li>reverse</li>
-<li>в <em>Расположение</em></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>вавеаудио</td>
-<td>input</td>
-<td>output</td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Сказк | Сказк | 
+|-------|-----|-----|
+| дигиталвидео | <ul><li>input</li><li>не показывать</li></ul> | <ul><li>output</li><li>в <em>Расположение</em></li></ul> | 
+| видеомагнитофон | <ul><li>от <em>расположения</em></li><li>input</li><li>output</li></ul> | <ul><li>сделана предварительная проба</li><li>reverse</li><li>в <em>Расположение</em></li></ul> | 
+| вавеаудио | input | output | 
+
 
 
 
@@ -163,7 +125,7 @@ cue mysound input
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

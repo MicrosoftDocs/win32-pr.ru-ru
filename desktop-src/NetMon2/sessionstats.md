@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 4eddfa6b0a45627c59e61fd083eb11b8d5f26caf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 231c94d2abda40974249f6c3cc82c8efc7518cb21d5881f44e63f647bcb21de2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128834"
 ---
 # <a name="sessionstats-structure"></a>Структура СЕССИОНСТАТС
 
@@ -78,7 +78,7 @@ typedef struct _SESSIONSTATS {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Сетевой монитор хранит сведения о сеансе и станции в двух связанных массивах, элементы которых являются структурами **сессионстатс** и [статионстатс](stationstats.md) соответственно. Члены этих структур можно использовать для перехода между ними. Например, чтобы перейти к следующему сеансу для конкретного владельца станции, используйте **некстсессион**. Чтобы перейти к владельцу и партнерской станции сеанса в массиве СТАТИОНСТАТС, используйте индекс, указанный в **статионовнер** и **статионпартнер**.
 
@@ -99,7 +99,7 @@ typedef struct _SESSIONSTATS {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

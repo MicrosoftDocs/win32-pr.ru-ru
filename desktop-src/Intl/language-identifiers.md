@@ -4,12 +4,12 @@ ms.assetid: 076e2a43-256a-4646-a5c8-1d48ab08ce1a
 title: Идентификаторы языка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e3e8f88a64d49d04402c0e72a3946bcddc41e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6245101099b5df5c192af60a977ede88412f95cca8afda9270b7aba6e1c41ad2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106984"
 ---
 # <a name="language-identifiers"></a>Идентификаторы языка
 
@@ -29,9 +29,9 @@ ms.locfileid: "105662501"
 -   \_ \_ по умолчанию используется язык lang. Язык операционной системы по умолчанию.
 -   \_пользователь lang \_ по умолчанию. Язык текущего пользователя.
 
-Приложение может извлекать текущие идентификаторы языков с помощью функций [многоязыкового интерфейса пользователя](multilingual-user-interface.md) .
+приложение может извлекать текущие идентификаторы языков с помощью функций [многоязычный пользовательский интерфейс](multilingual-user-interface.md) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

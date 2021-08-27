@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c7684fe69cff252d75ea2cceb0872044e8a011b39e88375d6eb576cb1b5360e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d7861e558bbf6a1938d252a52e7bb781068a331
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118486337"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476870"
 ---
 # <a name="jet_dbinfomisc-structure"></a>Структура JET_DBINFOMISC
 
@@ -67,72 +67,23 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Отслеживает добавочные обновления формата базы данных с обратной совместимостью.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Улверсион, Улупдате =</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0x620, 0</p></td>
-<td><p>Исходный формат бета-версии операционной системы (4/22/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 1</p></td>
-<td><p>Добавление столбцов в каталог для условного индексирования и старых (5/29/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 2</p></td>
-<td><p>Добавьте флаг Флокализедтекст в IDB (6/5/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 3</p></td>
-<td><p>Добавьте SPLIT_BUFFER корневые страницы дерева пространства (10/30/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 2</p></td>
-<td><p>Отмените изменения, чтобы ESE97 оставалась совместимыми с прямыми (1/28/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 3</p></td>
-<td><p>Добавьте новые столбцы с тегами в каталог ( &quot; каллбаккдата &quot; и &quot; каллбаккдепенденЦиес &quot; ).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 4</p></td>
-<td><p>Поддержка SLV: Сигнслв, Фслвексистс в заголовке базы данных (5/5/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 5</p></td>
-<td><p>Новое дерево пространства SLV (5/29/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 6</p></td>
-<td><p>Схема пространства SLV (10/12/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 7</p></td>
-<td><p>4-байтовый ИДКССЕГ (12/10/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 8</p></td>
-<td><p>Новый формат столбца шаблона (1/25/99).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 9</p></td>
-<td><p>Отсортированные столбцы шаблона (6/24/99).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x623, 0</p></td>
-<td><p>Новый диспетчер пространства (5/15/99).</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Улверсион, Улупдате =</p> | <p>Значение</p> | 
+|------------------------------|----------------|
+| <p>0x620, 0</p> | <p>Исходный формат бета-версии операционной системы (4/22/97).</p> | 
+| <p>0x620, 1</p> | <p>Добавление столбцов в каталог для условного индексирования и старых (5/29/97).</p> | 
+| <p>0x620, 2</p> | <p>Добавьте флаг Флокализедтекст в IDB (6/5/97).</p> | 
+| <p>0x620, 3</p> | <p>Добавьте SPLIT_BUFFER корневые страницы дерева пространства (10/30/97).</p> | 
+| <p>0x620, 2</p> | <p>Отмените изменения, чтобы ESE97 оставалась совместимыми с прямыми (1/28/98).</p> | 
+| <p>0x620, 3</p> | <p>Добавьте новые столбцы с тегами в каталог ("Каллбаккдата" и "КаллбаккдепенденЦиес").</p> | 
+| <p>0x620, 4</p> | <p>Поддержка SLV: Сигнслв, Фслвексистс в заголовке базы данных (5/5/98).</p> | 
+| <p>0x620, 5</p> | <p>Новое дерево пространства SLV (5/29/98).</p> | 
+| <p>0x620, 6</p> | <p>Схема пространства SLV (10/12/98).</p> | 
+| <p>0x620, 7</p> | <p>4-байтовый ИДКССЕГ (12/10/98).</p> | 
+| <p>0x620, 8</p> | <p>Новый формат столбца шаблона (1/25/99).</p> | 
+| <p>0x620, 9</p> | <p>Отсортированные столбцы шаблона (6/24/99).</p> | 
+| <p>0x623, 0</p> | <p>Новый диспетчер пространства (5/15/99).</p> | 
+
 
 
 **сигндб**
@@ -145,45 +96,15 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Для этого элемента доступны следующие параметры.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_dbstateJustCreated<br />
-1</p></td>
-<td><p>База данных была только что создана.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateDirtyShutdown<br />
-2</p></td>
-<td><p>Для использования или перемещаемой базы данных необходимо выполнить жесткое или мягкое восстановление. Одна из них не должна пытаться переместить базы данных в этом состоянии.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateCleanShutdown<br />
-3</p></td>
-<td><p>База данных находится в чистом состоянии. База данных может быть присоединена без каких бы то ни было файлов журнала.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateBeingConverted<br />
-4</p></td>
-<td><p>Выполняется обновление базы данных.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateForceDetach<br />
-5</p></td>
-<td><p>Внутренний.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_dbstateJustCreated<br />1</p> | <p>База данных была только что создана.</p> | 
+| <p>JET_dbstateDirtyShutdown<br />2</p> | <p>Для использования или перемещаемой базы данных необходимо выполнить жесткое или мягкое восстановление. Одна из них не должна пытаться переместить базы данных в этом состоянии.</p> | 
+| <p>JET_dbstateCleanShutdown<br />3</p> | <p>База данных находится в чистом состоянии. База данных может быть присоединена без каких бы то ни было файлов журнала.</p> | 
+| <p>JET_dbstateBeingConverted<br />4</p> | <p>Выполняется обновление базы данных.</p> | 
+| <p>JET_dbstateForceDetach<br />5</p> | <p>Внутренний.</p> | 
+
 
 
 **лгпосконсистент**
@@ -258,29 +179,12 @@ _**Применимо к:** Windows | Windows Сервером_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
-### <a name="see-also"></a>См. также
+
+### <a name="see-also"></a>См. также:
 
 [JET_BKINFO](./jet-bkinfo-structure.md)  
 [JET_LOGTIME](./jet-logtime-structure.md)  

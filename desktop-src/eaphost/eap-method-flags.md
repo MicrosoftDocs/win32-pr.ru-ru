@@ -32,12 +32,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34913c950f0bba981a96256e74d9a8c3c3ff5f04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91acce3b3829c947bfb6e705ad7e1f07b938a986bc6f6845a4c10a54b4f1992c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104488913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094414"
 ---
 # <a name="eap-method-flags"></a>Флаги методов EAP
 
@@ -79,7 +79,7 @@ ms.locfileid: "104488913"
 
 
 
-Данные пользователя получены из входа в Windows.
+данные пользователя получены из Windows входа в систему.
 
 
 </dt> </dl> </dd> <dt>
@@ -329,8 +329,8 @@ ms.locfileid: "104488913"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Еаптипес. h</dt> </dl> |
 
 

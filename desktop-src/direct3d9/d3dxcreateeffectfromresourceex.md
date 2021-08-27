@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d0ae7a0ee43f93019f3c4c1f6145b3d8aa0e4367
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b72e17e648360a535f8090dc28323a3762a5cec0517f07ae78e9bb6d88045969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096254"
 ---
 # <a name="d3dxcreateeffectfromresourceex-function"></a>Функция D3DXCreateEffectFromResourceEx
 
@@ -145,7 +145,7 @@ HRESULT D3DXCreateEffectFromResourceEx(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, D3DXERR \_ INVALIDDATA, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Эта функция является расширенной версией [**D3DXCreateEffectFromResource**](d3dxcreateeffectfromresource.md) , позволяющей приложению указывать, какие константы эффектов будут управляться приложением. Константа, управляемая приложением, игнорируется системой эффектов. Это значит, что приложение отвечает за инициализацию константы, а также сохранение и восстановление состояния при необходимости.
 
@@ -160,20 +160,20 @@ HRESULT D3DXCreateEffectFromResourceEx(
 
 Параметр компилятора также определяет версию функции. Если определен Юникод, вызов функции разрешается в D3DXCreateEffectFromResourceW. В противном случае вызов функции разрешается в D3DXCreateEffectFromResourceA, так как используются строки ANSI.
 
-D3DXCreateEffectFromResource загружает данные из ресурса типа RT \_ RCDATA. Дополнительные сведения о ресурсах Windows см. на сайте MSDN.
+D3DXCreateEffectFromResource загружает данные из ресурса типа RT \_ RCDATA. дополнительные сведения о Windowsных ресурсах см. на сайте MSDN.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

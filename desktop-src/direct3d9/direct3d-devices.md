@@ -4,12 +4,12 @@ ms.assetid: b592edb8-351a-4a82-9ff7-8a69d82723bc
 title: Устройства Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c07726069b952ba99d608e5f36df8e1fb7745cd7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 12b36ae856686c0f6a0b821b92a871ed98e016bf1a010200038281f2eb50964e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104262374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096062"
 ---
 # <a name="direct3d-devices-direct3d-9"></a>Устройства Direct3D (Direct3D 9)
 
@@ -48,7 +48,7 @@ ms.locfileid: "104262374"
 
 Direct3D позволяет указать поведение устройства, а также тип устройства. Метод [**IDirect3D9:: креатедевице**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-createdevice) позволяет сочетать один или несколько флагов поведения для управления глобальными поведениями устройства Direct3D. Эти поведения указывают, что именно и не поддерживается в части времени выполнения Direct3D, а также типы устройств, указывающие, какой драйвер следует использовать. Хотя некоторые сочетания поведений устройств недопустимы, можно использовать все поведения устройств для всех типов устройств. Например, допустимо указать D3DDEVTYPE \_ SW на устройстве, созданном с помощью D3DCREATE \_ пуредевице.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

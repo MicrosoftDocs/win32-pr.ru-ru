@@ -4,12 +4,12 @@ ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: Примеры пакетов SDK Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f335b5ba744b098efdb7570aa861ad36fc9216cf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5482fabe5e4bfdfe5d451fd8ccb9c0ba0504a5ff
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103820245"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482720"
 ---
 # <a name="media-foundation-sdk-samples"></a>Примеры пакетов SDK Media Foundation
 
@@ -22,7 +22,7 @@ ms.locfileid: "103820245"
 -   [Видеозапись](#video-capture)
 -   [Прочие примеры](#miscellaneous-samples)
 -   [Устаревшие или устаревшие примеры](#deprecated-or-obsolete-samples)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="encoding-samples"></a>Примеры кодировки
 
@@ -30,7 +30,7 @@ ms.locfileid: "103820245"
 
 | Образец                            | Описание                                                 |
 |-----------------------------------|-------------------------------------------------------------|
-| [Перекодировать](transcode-sample.md) | Показывает, как перекодировать файл мультимедиа в формат Windows Media. |
+| [Перекодировать](transcode-sample.md) | показано, как перекодировать файл мультимедиа в формат Windows media. |
 
 
 
@@ -112,56 +112,21 @@ ms.locfileid: "103820245"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Образец</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfplayer2-sample.md">MFPlayer2</a></td>
-<td>Демонстрирует некоторые дополнительные возможности воспроизведения API <a href="using-mfplay-for-audio-video-playback.md">мфплай</a> .</td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions//bb970336(v=vs.85)">плайбаккфкс</a></td>
-<td>Применяет к видео эффекты градаций серого. Показывает, как вставить МФТС в топологию воспроизведения.<br/>
-<blockquote>
-[!Note]<br />
-Этот пример больше не включен в пакет SDK.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="playlist-sample.md">Списком</a></td>
-<td>Воспроизводит последовательность звуковых файлов с помощью источника Sequencer.<br/>
-<blockquote>
-[!Note]<br />
-Этот пример больше не включен в пакет SDK.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="simplecapture-sample.md">симплекаптуре</a></td>
-<td>Демонстрация предварительного просмотра видео с устройства видеозаписи с помощью API Мфплай.</td>
-</tr>
-<tr class="odd">
-<td><a href="simpleplay-sample.md">симплеплай</a></td>
-<td>Показывает, как воспроизвести файл мультимедиа с помощью API Мфплай.</td>
-</tr>
-</tbody>
-</table>
+
+| Образец | Описание | 
+|--------|-------------|
+| <a href="mfplayer2-sample.md">MFPlayer2</a> | Демонстрирует некоторые дополнительные возможности воспроизведения API <a href="using-mfplay-for-audio-video-playback.md">мфплай</a> . | 
+| <a href="/previous-versions//bb970336(v=vs.85)">плайбаккфкс</a> | Применяет к видео эффекты градаций серого. Показывает, как вставить МФТС в топологию воспроизведения.<br /><blockquote>[!Note]<br />Этот пример больше не включен в пакет SDK.</blockquote><br /> | 
+| <a href="playlist-sample.md">Список воспроизведения</a> | Воспроизводит последовательность звуковых файлов с помощью источника Sequencer.<br /><blockquote>[!Note]<br />Этот пример больше не включен в пакет SDK.</blockquote><br /> | 
+| <a href="simplecapture-sample.md">симплекаптуре</a> | Демонстрация предварительного просмотра видео с устройства видеозаписи с помощью API Мфплай. | 
+| <a href="simpleplay-sample.md">симплеплай</a> | Показывает, как воспроизвести файл мультимедиа с помощью API Мфплай. | 
+
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

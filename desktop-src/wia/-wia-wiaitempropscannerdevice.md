@@ -1,5 +1,5 @@
 ---
-description: Аппаратные устройства для получения образа Windows (WIA) имеют значения свойств, которые хранятся в реестре Windows.
+description: Windows аппаратные устройства для получения изображений (WIA) имеют значения свойств, которые хранятся в реестре Windows.
 ms.assetid: 78caa3af-927b-4143-9e88-4b5c918d00a4
 title: Константы свойств устройства сканера (Виадеф. h)
 ms.topic: reference
@@ -47,16 +47,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: af50f5d319e368ce2a672c040dc9d23843436121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e7afee9b5b639c21e52dc797e7ad42a6ee0dd0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105701586"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627190"
 ---
 # <a name="scanner-device-property-constants"></a>Константы свойств устройства сканера
 
-Аппаратные устройства для получения образа Windows (WIA) имеют значения свойств, которые хранятся в реестре Windows. Дополнительные сведения см. в разделе [**общие константы свойств устройства**](-wia-wiaitempropcommondevice.md). Следующие константы свойств устройства со связанными строками относятся к сканерам цифровых изображений.
+Windows аппаратные устройства для получения изображений (WIA) имеют значения свойств, которые хранятся в реестре Windows. Дополнительные сведения см. в разделе [**общие константы свойств устройства**](-wia-wiaitempropcommondevice.md). Следующие константы свойств устройства со связанными строками относятся к сканерам цифровых изображений.
 
 Префикс "WIA \_ DPS \_ " указывает на свойство устройства для устройств сканера и является соглашением об именовании, используемым в C/C++. Для сценариев эти константы используют префикс "Сканнердевице" и являются частью перечислимого типа [виаитемпропертид](-wia-wiaitempropertyid.md) . Соответствующее имя элемента из этого перечисления скриптов отображается в круглых скобках рядом с именем константы C/C++ в следующем списке.
 
@@ -64,40 +64,40 @@ ms.locfileid: "105701586"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Константа/значение</th>
-<th style="text-align: left;">Описание</th>
+<th >Константа/значение</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>сканнердевицедевицеид</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_DPS_DEVICE_ID"></span><span id="wia_dps_device_id"></span><dl> <dt><strong>WIA_DPS_DEVICE_ID</strong></dt> <dt>сканнердевицедевицеид</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только в Windows Vista и более поздних версиях.
 </blockquote>
 <br/> Содержит уникальный идентификатор экземпляра функции для устройства сканера веб-служб. Этот идентификатор представляет веб-службу на устройстве сканера, с которой взаимодействует мини-драйвер WIA. Никаких предположений о форме этого идентификатора не должно быть. Мини-драйвер WIA создает и поддерживает это свойство. <br/> Приложения WIA могут использовать значение WIA_DPS_DEVICE_ID для поиска, используя API обнаружения функций, объект экземпляра функции, представляющий устройство сканера веб-служб, используемое в текущем сеансе WIA 2,0.<br/> Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
-<td style="text-align: left;">Зарезервировано, не используйте.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_PATTERN_DATA"></span><span id="wia_dps_dither_pattern_data"></span><dl> <dt><strong>WIA_DPS_DITHER_PATTERN_DATA</strong></dt> </dl></td>
+<td >Зарезервировано, не используйте.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;">Зарезервировано, не используйте.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DPS_DITHER_SELECT"></span><span id="wia_dps_dither_select"></span><dl> <dt><strong>WIA_DPS_DITHER_SELECT</strong></dt> </dl></td>
+<td >Зарезервировано, не используйте.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>сканнердевицедокуменсандлингкапабилитиес</dt> </dl></td>
-<td style="text-align: left;">Содержит возможности сканера. Минидривер создает и поддерживает это свойство. <br/> Приложение считывает это свойство, чтобы определить, есть ли у сканера планшетный, веб-устройство подачи документов или установленный дуплекс. Это свойство также используется для дальнейшего определения установленных компонентов.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> В следующей таблице описаны константы, допустимые только в Windows 7.<br/> 
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES"></span><span id="wia_dps_document_handling_capabilities"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_CAPABILITIES</strong></dt> <dt>сканнердевицедокуменсандлингкапабилитиес</dt> </dl></td>
+<td >Содержит возможности сканера. Минидривер создает и поддерживает это свойство. <br/> Приложение считывает это свойство, чтобы определить, есть ли у сканера планшетный, веб-устройство подачи документов или установленный дуплекс. Это свойство также используется для дальнейшего определения установленных компонентов.<br/> Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> в следующей таблице описаны константы, допустимые только для Windows 7.<br/> 
 <table>
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -109,13 +109,13 @@ ms.locfileid: "105701586"
 </table>
 
 <p> </p>
-<p>В следующей таблице описаны константы, допустимые только в Windows 7 и Windows Vista.</p>
+<p>в следующей таблице описаны константы, допустимые только для Windows 7 и Windows Vista.</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -143,13 +143,13 @@ ms.locfileid: "105701586"
 </table>
 
 <p> </p>
-<p>В следующей таблице описаны константы, допустимые в Windows XP и более поздних версиях.</p>
+<p>в следующей таблице описаны константы, допустимые для Windows XP и более поздних версий.</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -181,13 +181,13 @@ ms.locfileid: "105701586"
 </table>
 
 <p> </p>
-<p>В следующей таблице описаны константы, допустимые только в Windows XP. Эти значения являются устаревшими для Windows 7 и Windows Vista и не должны использоваться.</p>
+<p>в следующей таблице описаны константы, допустимые только для Windows XP. эти значения не рекомендуются для Windows 7 и Windows Vista и не должны использоваться.</p>
 <p></p>
 <table>
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -209,11 +209,11 @@ ms.locfileid: "105701586"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>сканнердевицедокуменсандлингселект</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_dps_document_handling_select"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>сканнердевицедокуменсандлингселект</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -227,7 +227,7 @@ ms.locfileid: "105701586"
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -277,16 +277,16 @@ ms.locfileid: "105701586"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>сканнердевицедокуменсандлингстатус</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущее состояние установленного сканера, устройства подачи документов или дуплексного устройства. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_DPS_DOCUMENT_HANDLING_STATUS"></span><span id="wia_dps_document_handling_status"></span><dl> <dt><strong>WIA_DPS_DOCUMENT_HANDLING_STATUS</strong></dt> <dt>сканнердевицедокуменсандлингстатус</dt> </dl></td>
+<td ><p>Содержит текущее состояние установленного сканера, устройства подачи документов или дуплексного устройства. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение считывает это свойство, чтобы определить, готово ли устройство сканера к использованию. Это идеальный способ проверить, находится ли бумага в податчике перед получением изображения.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>В следующей таблице приведены константы, допустимые для этого свойства. Звездочка * означает, что флаг не поддерживается в Windows Vista или более поздней версии. Символ <strong>V</strong> означает, что флаг поддерживается только в Windows Vista и более поздних версиях. </p>
+<p>В следующей таблице приведены константы, допустимые для этого свойства. звездочка * означает, что флаг не поддерживается в Windows Vista или более поздней версии. символ <strong>V</strong> означает, что флаг поддерживается только в Windows Vista и более поздних версиях. </p>
 <table>
 <thead>
 <tr class="header">
 <th>Флаги</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -344,13 +344,13 @@ ms.locfileid: "105701586"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>сканнердевицеендорсерчарактерс</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит все допустимые символы, которые приложение может использовать для создания допустимых строк подтверждения. Заверение — это принтер, установленный на сканере, который печатает текстовое сообщение на каждой сканируемой странице. Минидривер должен проверять значение свойства <strong>WIA_DPS_ENDORSER_STRING</strong> по отношению к допустимой кодировке в этом свойстве. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_DPS_ENDORSER_CHARACTERS"></span><span id="wia_dps_endorser_characters"></span><dl> <dt><strong>WIA_DPS_ENDORSER_CHARACTERS</strong></dt> <dt>сканнердевицеендорсерчарактерс</dt> </dl></td>
+<td ><p>Содержит все допустимые символы, которые приложение может использовать для создания допустимых строк подтверждения. Заверение — это принтер, установленный на сканере, который печатает текстовое сообщение на каждой сканируемой странице. Минидривер должен проверять значение свойства <strong>WIA_DPS_ENDORSER_STRING</strong> по отношению к допустимой кодировке в этом свойстве. Минидривер создает и поддерживает это свойство.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>сканнердевицеендорсерстринг</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит строку, которая должна быть одобрена (иными словами, напечатана) на каждой странице, которую минидривер просматривает. Приложение задает это свойство, используя допустимую кодировку, сообщаемую в свойстве <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> . Минидривер должен заменять документы только в том случае, если в этом свойстве задана строка. Пустая строка означает, что функция подтверждения отключена.</p>
+<td ><span id="WIA_DPS_ENDORSER_STRING"></span><span id="wia_dps_endorser_string"></span><dl> <dt><strong>WIA_DPS_ENDORSER_STRING</strong></dt> <dt>сканнердевицеендорсерстринг</dt> </dl></td>
+<td ><p>Содержит строку, которая должна быть одобрена (иными словами, напечатана) на каждой странице, которую минидривер просматривает. Приложение задает это свойство, используя допустимую кодировку, сообщаемую в свойстве <strong>WIA_DPS_ENDORSER_CHARACTERS</strong> . Минидривер должен заменять документы только в том случае, если в этом свойстве задана строка. Пустая строка означает, что функция подтверждения отключена.</p>
 <p>Так как это обязанность драйвера для интерпретации строки подтверждения, драйвер может использовать специальные символы в <strong>WIA_DPS_ENDORSER_STRING</strong>. Однако эти символы будут понятны только вашим приложениям.</p>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Драйвер, поддерживающий свойство <strong>WIA_DPS_ENDORSER_STRING</strong> , должен поддерживать следующий список токенов. </p>
@@ -392,16 +392,16 @@ ms.locfileid: "105701586"
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Зарезервировано, не используйте.</p>
+<td ><span id="WIA_DPS_FILTER_SELECT"></span><span id="wia_dps_filter_select"></span><dl> <dt><strong>WIA_DPS_FILTER_SELECT</strong></dt> </dl></td>
+<td ><p>Зарезервировано, не используйте.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>сканнердевицеглобалидентити</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_GLOBAL_IDENTITY"></span><span id="wia_dps_global_identity"></span><dl> <dt><strong>WIA_DPS_GLOBAL_IDENTITY</strong></dt> <dt>сканнердевицеглобалидентити</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только в Windows Vista и более поздних версиях.
 </blockquote>
 </div>
 <div>
@@ -411,11 +411,11 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>сканнердевицехоризонталбедрегистратион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_REGISTRATION"></span><span id="wia_dps_horizontal_bed_registration"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></dt> <dt>сканнердевицехоризонталбедрегистратион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях.
+это свойство не поддерживается в Windows Vista и более поздних версиях.
 </blockquote>
 </div>
 <div>
@@ -453,11 +453,11 @@ ms.locfileid: "105701586"
 <p><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>сканнердевицехоризонталбедсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_BED_SIZE"></span><span id="wia_dps_horizontal_bed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_BED_SIZE</strong></dt> <dt>сканнердевицехоризонталбедсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -467,11 +467,11 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицехоризонталшитфидсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицехоризонталшитфидсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -481,16 +481,16 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>сканнердевицемаксскантиме</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит максимальное время сканирования одной страницы с текущими настройками свойств (в миллисекундах). Приложение считывает это свойство, чтобы оценить время, которое займет сканирование страницы. Это полезно при определении условий устройства, которое перестало отвечать. Минидривер создает и поддерживает это свойство. Это свойство является обязательным для всех сканеров.</p>
+<td ><span id="WIA_DPS_MAX_SCAN_TIME"></span><span id="wia_dps_max_scan_time"></span><dl> <dt><strong>WIA_DPS_MAX_SCAN_TIME</strong></dt> <dt>сканнердевицемаксскантиме</dt> </dl></td>
+<td ><p>Содержит максимальное время сканирования одной страницы с текущими настройками свойств (в миллисекундах). Приложение считывает это свойство, чтобы оценить время, которое займет сканирование страницы. Это полезно при определении условий устройства, которое перестало отвечать. Минидривер создает и поддерживает это свойство. Это свойство является обязательным для всех сканеров.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицеминхоризонталшитфидсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_horizontal_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицеминхоризонталшитфидсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -502,11 +502,11 @@ ms.locfileid: "105701586"
 <p><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицеминвертикалшитфидсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_min_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_MIN_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицеминвертикалшитфидсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -518,11 +518,11 @@ ms.locfileid: "105701586"
 <p><strong>WIA_DPS_MIN_HORIZONTAL_SHEET_FEED_SIZE</strong></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>сканнердевицеоптикалксрес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_XRES"></span><span id="wia_dps_optical_xres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_XRES</strong></dt> <dt>сканнердевицеоптикалксрес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_XRES</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_XRES</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -532,11 +532,11 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>сканнердевицеоптикалирес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_OPTICAL_YRES"></span><span id="wia_dps_optical_yres"></span><dl> <dt><strong>WIA_DPS_OPTICAL_YRES</strong></dt> <dt>сканнердевицеоптикалирес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_YRES</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_OPTICAL_YRES</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -546,8 +546,8 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>сканнердевицеориентатион</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит текущую настройку ориентации. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_DPS_ORIENTATION"></span><span id="wia_dps_orientation"></span><dl> <dt><strong>WIA_DPS_ORIENTATION</strong></dt> <dt>сканнердевицеориентатион</dt> </dl></td>
+<td ><p>Содержит текущую настройку ориентации. Минидривер создает и поддерживает это свойство.</p>
 <p>Приложение задает свойство <strong>WIA_DPS_ORIENTATION</strong> , чтобы определить исходную ориентацию страницы или изображения, которые должны быть получены. Сведения об использовании WIA_DPS_ORIENTATION см. в разделе <strong>WIA_DPS_PAGE_SIZE</strong></p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>В следующей таблице приведены четыре константы, допустимые для этого свойства.</p>
@@ -584,17 +584,17 @@ ms.locfileid: "105701586"
 <p><a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_ROTATION</strong></a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>сканнердевицепадколор</dt> </dl></td>
-<td style="text-align: left;"><p>Цвет, используемый для заполнения при недостаточном объеме данных изображения, чтобы заполнить запрошенный буфер. Это свойство реализуется для сканеров, которые заполняют буфер. Это свойство является необязательным для всех сканеров. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_DPS_PAD_COLOR"></span><span id="wia_dps_pad_color"></span><dl> <dt><strong>WIA_DPS_PAD_COLOR</strong></dt> <dt>сканнердевицепадколор</dt> </dl></td>
+<td ><p>Цвет, используемый для заполнения при недостаточном объеме данных изображения, чтобы заполнить запрошенный буфер. Это свойство реализуется для сканеров, которые заполняют буфер. Это свойство является необязательным для всех сканеров. Минидривер создает и поддерживает это свойство.</p>
 <p>Тип: <strong>VT_UI1</strong>  |  <strong>VT_VECTOR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Формат сведений о цвете — <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">ргбкуад</a>.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>сканнердевицепажехеигхт</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_HEIGHT"></span><span id="wia_dps_page_height"></span><dl> <dt><strong>WIA_DPS_PAGE_HEIGHT</strong></dt> <dt>сканнердевицепажехеигхт</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_HEIGHT</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_HEIGHT</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -604,11 +604,11 @@ ms.locfileid: "105701586"
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>сканнердевицепажесизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_SIZE"></span><span id="wia_dps_page_size"></span><dl> <dt><strong>WIA_DPS_PAGE_SIZE</strong></dt> <dt>сканнердевицепажесизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_SIZE</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -660,7 +660,7 @@ ms.locfileid: "105701586"
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -684,7 +684,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -709,7 +709,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -734,7 +734,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -755,11 +755,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>сканнердевицепажевидс</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGE_WIDTH"></span><span id="wia_dps_page_width"></span><dl> <dt><strong>WIA_DPS_PAGE_WIDTH</strong></dt> <dt>сканнердевицепажевидс</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGE_WIDTH</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -769,11 +769,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>сканнердевицепажес</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PAGES"></span><span id="wia_dps_pages"></span><dl> <dt><strong>WIA_DPS_PAGES</strong></dt> <dt>сканнердевицепажес</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGES</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PAGES</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -795,17 +795,17 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Установка <strong>WIA_DPS_PAGES</strong> в значение 1 приводит к тому, что сканер обрабатывает одну из сторон страницы. Если сканер не может сканировать только одну сторону страницы в режиме дуплекса, <strong>WIA_DPS_PAGES</strong> допустимое значение для элемента Inc в структуре WIA_PROPERTY_INFO необходимо изменить на 2. Это значение сигнализирует приложению, что оно должно запрашивать страницы, кратные двум. Нулевое значение означает, что проверяются <em>все</em> страницы, загруженные в устройство подачи документов.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>сканнердевицеплатенколор</dt> </dl></td>
-<td style="text-align: left;"><p>Задает цвет платена в обратной стороне сканируемой страницы. Это свойство является необязательным для сканеров, имеющих Платен. Минидривер создает и поддерживает это свойство.</p>
+<td ><span id="WIA_DPS_PLATEN_COLOR"></span><span id="wia_dps_platen_color"></span><dl> <dt><strong>WIA_DPS_PLATEN_COLOR</strong></dt> <dt>сканнердевицеплатенколор</dt> </dl></td>
+<td ><p>Задает цвет платена в обратной стороне сканируемой страницы. Это свойство является необязательным для сканеров, имеющих Платен. Минидривер создает и поддерживает это свойство.</p>
 <p>Тип: <strong>VT_UI1</strong>  |  <strong>VT_VECTOR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>Формат сведений о цвете — <a href="/windows/win32/api/wingdi/ns-wingdi-rgbquad">ргбкуад</a>.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>сканнердевицепревиев</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_PREVIEW"></span><span id="wia_dps_preview"></span><dl> <dt><strong>WIA_DPS_PREVIEW</strong></dt> <dt>сканнердевицепревиев</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PREVIEW</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_PREVIEW</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -836,17 +836,17 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>сканнердевицесканахеадпажес</dt> </dl></td>
-<td style="text-align: left;"><p>Содержит значение, указывающее, будет ли сканер кэшировать страницы в буфере сканера перед их отправкой в приложение.</p>
-<p>Нулевое значение отключает сканирование, и страницы не просматриваются заранее. При обычной передаче данных в буферизованный элемент с упреждающим просмотром получает буферизованные страницы. Свойства WIA не могут быть изменены во время операции предварительного просмотра. Это необязательное свойство.</p>
+<td ><span id="WIA_DPS_SCAN_AHEAD_PAGES"></span><span id="wia_dps_scan_ahead_pages"></span><dl> <dt><strong>WIA_DPS_SCAN_AHEAD_PAGES</strong></dt> <dt>сканнердевицесканахеадпажес</dt> </dl></td>
+<td ><p>Содержит значение, указывающее, будет ли сканер кэшировать страницы в буфере сканера перед их отправкой в приложение.</p>
+<p>Нулевое значение отключает сканирование, и страницы не просматриваются заранее. При обычной передаче данных в буферизованный элемент с упреждающим просмотром получает буферизованные страницы. Свойства WIA не могут быть изменены во время операции предварительного просмотра. Это свойство необязательно.</p>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> от нуля до максимального количества страниц, которое может храниться в податчике документов.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>сканнердевицесканаваилаблеитем</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SCAN_AVAILABLE_ITEM"></span><span id="wia_dps_scan_available_item"></span><dl> <dt><strong>WIA_DPS_SCAN_AVAILABLE_ITEM</strong></dt> <dt>сканнердевицесканаваилаблеитем</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows 7 и более поздних версиях.
+это свойство поддерживается только Windows 7 и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -857,11 +857,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_I4</strong>, доступ: чтение и запись, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> от нуля до максимального количества страниц, которое может храниться в податчике документов.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>сканнердевицесервицеид</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SERVICE_ID"></span><span id="wia_dps_service_id"></span><dl> <dt><strong>WIA_DPS_SERVICE_ID</strong></dt> <dt>сканнердевицесервицеид</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -871,11 +871,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>сканнердевицешитфидеррегистратион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_dps_sheet_feeder_registration"></span><dl> <dt><strong>WIA_DPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>сканнердевицешитфидеррегистратион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -912,11 +912,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>сканнердевицешовпревиевконтрол</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_dps_show_preview_control"></span><dl> <dt><strong>WIA_DPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>сканнердевицешовпревиевконтрол</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></a>.
+это свойство не поддерживается Windows Vista. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -947,11 +947,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>сканнердевицеусернаме</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_USER_NAME"></span><span id="wia_dps_user_name"></span><dl> <dt><strong>WIA_DPS_USER_NAME</strong></dt> <dt>сканнердевицеусернаме</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство поддерживается только в Windows Vista и более поздних версиях.
+это свойство поддерживается только Windows Vista и более поздних версий.
 </blockquote>
 </div>
 <div>
@@ -962,11 +962,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_BSTR</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>сканнердевицевертикалбедрегистратион</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_REGISTRATION"></span><span id="wia_dps_vertical_bed_registration"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_REGISTRATION</strong></dt> <dt>сканнердевицевертикалбедрегистратион</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях.
+это свойство не поддерживается в Windows Vista и более поздних версиях.
 </blockquote>
 </div>
 <div>
@@ -1003,11 +1003,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p><strong>WIA_DPS_HORIZONTAL_BED_REGISTRATION</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>сканнердевицевертикалбедсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_BED_SIZE"></span><span id="wia_dps_vertical_bed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_BED_SIZE</strong></dt> <dt>сканнердевицевертикалбедсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -1017,11 +1017,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 <p>Тип: <strong>VT_I4</strong>, доступ: только для чтения, допустимые значения: <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицевертикалшитфидсизе</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_DPS_VERTICAL_SHEET_FEED_SIZE"></span><span id="wia_dps_vertical_sheet_feed_size"></span><dl> <dt><strong>WIA_DPS_VERTICAL_SHEET_FEED_SIZE</strong></dt> <dt>сканнердевицевертикалшитфидсизе</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
+это свойство не поддерживается в Windows Vista и более поздних версиях. Используйте <a href="-wia-wiaitempropscanneritem.md"><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></a>.
 </blockquote>
 </div>
 <div>
@@ -1041,9 +1041,9 @@ WIA_IPS_YRES = 100</code></pre></td>
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ классических приложений Windows XP\]<br/>              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                |
-| Header<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]<br/>              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                |
+| Заголовок<br/>                   | <dl> <dt>Виадеф. h</dt> </dl> |
 
 
 

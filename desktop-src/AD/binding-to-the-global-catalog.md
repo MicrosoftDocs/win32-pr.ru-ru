@@ -8,12 +8,12 @@ keywords:
 - Глобальный каталог Active Directory, привязка к
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fe40b944130f66617b0c111b361ca51cbef126
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b4d094a0c07a40fa063b726d0ba1c5a15977873d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104069815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881650"
 ---
 # <a name="binding-to-the-global-catalog"></a>Привязка к глобальному каталогу
 
@@ -58,9 +58,9 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 
 1.  Выполните привязку к корню пространства имен глобального каталога.
 2.  Перечисление контейнера глобального каталога. Контейнер глобального каталога содержит один объект, который можно использовать для поиска в целом лесу.
-3.  Используйте объект в контейнере для выполнения поиска. В C/C++ вызовите [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) , чтобы получить указатель [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) на объект, чтобы можно было использовать интерфейс **IDirectorySearch** для выполнения поиска. В Visual Basic используйте объект, возвращенный из перечисления в запросе ADO.
+3.  Используйте объект в контейнере для выполнения поиска. В C/C++ вызовите [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) , чтобы получить указатель [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) на объект, чтобы можно было использовать интерфейс **IDirectorySearch** для выполнения поиска. в Visual Basic используйте объект, возвращенный из перечисления в запросе ADO.
 
-Чтобы перечислить серверы глобального каталога в сайте, выполните поиск по поддереву LDAP "CN = <yoursite> , CN = Sites <DN of the configurationNamingContext> ", используя следующую строку фильтра.
+Чтобы перечислить серверы глобального каталога в сайте, выполните поиск по поддереву LDAP "CN = &lt; йоурсите &gt; , CN = Sites <DN of the configurationNamingContext> ", используя следующую строку фильтра.
 
 ``` syntax
 (&(objectCategory=nTDSDSA)(options:1.2.840.113556.1.4.803:=1))
@@ -122,6 +122,6 @@ Next
 
 Дополнительные сведения и примеры кода, демонстрирующие Поиск в целом лесу, см. в разделе [пример кода для поиска в лесу](example-code-for-searching-a-forest.md).
 
- 
+ 
 
- 
+ 
