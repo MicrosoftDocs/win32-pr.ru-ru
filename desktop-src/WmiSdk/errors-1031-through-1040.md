@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 1031 по 1040
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2378ec70aa39a8560a11df8fa9027f97960d4720f89e1f6cac271496e432362
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5986ba80a55d2d8f3d4a87b0587331765aa38d67
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119568614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886881"
 ---
 # <a name="errors-1031-through-1040"></a>Ошибки с 1031 по 1040
 
@@ -38,7 +38,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, предупреждение>: " <fileName> : <line \#>: Стандартный символ <identifier> должен быть импортирован из модуля <identifier> . Предполагается стандартное определение ".**
+<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, предупреждение>: " &lt; имя_файла &gt; : <Line \#>: Идентификатор стандартного &lt; символа &gt; должен быть импортирован из &lt; идентификатора модуля &gt; . Предполагается стандартное определение ".**
 </dt> <dd>
 
 ИМПОРТИРУЕТ семантическое предупреждение для модуля раздела, характерное для не SNMPv2C. Если идентификатор SNMP, известный компилятору, находится в разделе IMPORTs, то модуль, из которого он импортируется, должен быть одним из стандартных модулей.
@@ -91,7 +91,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032, Неустранимая>: " <fileName><строка \#>: повторяющееся значение <value> в перечислении"**
+<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: повторяющееся значение &lt; &gt; в перечислении"**
 </dt> <dd>
 
 Семантическая ошибка модуля в перечислении, относящаяся к неограниченному или SNMPv2C. Дублирующихся значений не должно быть. Параметр <Line \#> — это расположение повторения имени и значения.
@@ -102,7 +102,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033, Неустранимая>: " <fileName><строка \#>: повторяющееся имя <identifier> в перечислении"**
+<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: &lt; идентификатор повторяющегося имени &gt; в перечислении"**
 </dt> <dd>
 
 Семантическая ошибка модуля в перечислении, относящаяся к неограниченному или SNMPv2C. Дублирующихся имен не должно быть. Параметр <Line \#> — это расположение повторения имени и значения.
@@ -113,7 +113,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, предупреждение>: " <fileName><line \#>: значение 0, запрещенное в перечислении"**
+<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, предупреждение>: " &lt; имя_файла &gt;<строка \#>: значение 0, запрещенное в перечислении"**
 </dt> <dd>
 
 Семантическое предупреждение модуля в перечислении, характерное для неограниченного или SNMPv2C. Рекомендуется, чтобы именованное значение нуль не применялось в перечислении.
@@ -124,7 +124,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, предупреждение> " <fileName><line \#>: значение в перечислении не разрешается в положительное целое"**
+<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, предупреждение> " &lt; имя_файла &gt;<строка \#>: значение в перечислении не разрешается в положительное целое"**
 </dt> <dd>
 
 Семантическое предупреждение модуля в перечислении, характерное для неограниченного или SNMPv2C. Отрицательное значение недопустимо в перечислении.
@@ -135,7 +135,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037, Неустранимая>: " <fileName><строка \#>: идентификатор <identifier> не разрешается в строку октета или непрозрачные типы"**
+<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: &lt; идентификатор идентификатора &gt; не РАЗрешается в строку октета или непрозрачные типы"**
 </dt> <dd>
 
 Семантическая ошибка модуля в спецификации размера, характерная для не SNMPv2C. Символ, используемый в спецификации размера, должен разрешаться в строку ОКТЕТа или непрозрачность.
@@ -146,7 +146,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038, Неустранимая>: " <fileName><line \#>: идентификатор <identifier> не разрешает тип целого числа или типа датчика"**
+<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: идентификатор идентификатора не &lt; &gt; разрешает тип целого числа или датчика"**
 </dt> <dd>
 
 Семантическая ошибка модуля в спецификации диапазона. Эта ошибка может возникать в SNMPv2C или с.
@@ -161,7 +161,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039, Неустранимая>: <fileName><строка \#>: отрицательное значение используется в спецификации размера "**
+<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039, Неустранимая>: &lt; fileName &gt;<строка \#>: отрицательное значение используется в спецификации размера "**
 </dt> <dd>
 
 Семантическая ошибка модуля в спецификации размера, характерная для не SNMPv2C. Любое значение, используемое при указании размера, не должно быть отрицательным.
@@ -172,7 +172,7 @@ ms.locfileid: "119568614"
 
 <dl> <dt>
 
-<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040, Неустранимая>: " <fileName><line \#>: идентификатор <identifier> в спецификации размера не разрешается в неотрицательное целочисленное значение"**
+<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: &lt; идентификатор идентификатора &gt; в спецификации размера не разрешается в неотрицательное целочисленное значение"**
 </dt> <dd>
 
 Семантическая ошибка модуля в спецификации Range или size, характерная для не SNMPv2C. Любой символ, используемый при указании значения в спецификации размера, разрешается в неотрицательное значение.

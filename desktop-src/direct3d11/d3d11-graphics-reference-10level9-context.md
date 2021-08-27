@@ -4,12 +4,12 @@ description: В этом разделе перечислены различия 
 ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5cb055e6a290a9500f65ad2d64cdd69b0eaa224e6a81359595688ba1aca657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e268f45465139e49afe0f81a64eeeb93939734e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990074"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473130"
 ---
 # <a name="10level9-id3d11devicecontext-methods"></a>10Level9 ссылку ID3D11DeviceContext методы
 
@@ -70,29 +70,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> В памяти, доступной для GPU, могут копироваться только Texture2D и буферы.<br/> Texture3D не может быть скопирован из памяти, доступной GPU, в память, доступную для ЦП.<br/> Любой ресурс, имеющий только D3D10_BIND_SHADER_RESOURCE, не может быть скопирован из памяти, доступной на GPU, в память, доступную для ЦП.<br/> Копировать текстуры тома мипмаппед нельзя. <br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  В памяти, доступной для GPU, могут копироваться только Texture2D и буферы.<br /> Texture3D не может быть скопирован из памяти, доступной GPU, в память, доступную для ЦП.<br /> Любой ресурс, имеющий только D3D10_BIND_SHADER_RESOURCE, не может быть скопирован из памяти, доступной на GPU, в память, доступную для ЦП.<br /> Копировать текстуры тома мипмаппед нельзя. <br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -102,29 +86,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> В памяти, доступной для GPU, могут копироваться только Texture2D и буферы.<br/> Texture3D не может быть скопирован из памяти, доступной GPU, в память, доступную для ЦП.<br/> Любой ресурс, имеющий только D3D10_BIND_SHADER_RESOURCE, не может быть скопирован из памяти, доступной на GPU, в память, доступную для ЦП.<br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  В памяти, доступной для GPU, могут копироваться только Texture2D и буферы.<br /> Texture3D не может быть скопирован из памяти, доступной GPU, в память, доступную для ЦП.<br /> Любой ресурс, имеющий только D3D10_BIND_SHADER_RESOURCE, не может быть скопирован из памяти, доступной на GPU, в память, доступную для ЦП.<br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -134,29 +102,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -166,29 +118,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -198,29 +134,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -230,29 +150,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Будет сброшен только первый срез массива. Приложения должны создать представление целевого объекта отрисовки для каждой грани или среза массива, а затем очистить каждое представление по отдельности. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Будет сброшен только первый срез массива. Приложения должны создать представление целевого объекта отрисовки для каждой грани или среза массива, а затем очистить каждое представление по отдельности. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -262,29 +166,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -294,29 +182,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -326,29 +198,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -358,29 +214,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -390,29 +230,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -422,29 +246,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -454,29 +262,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -500,29 +292,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -546,38 +322,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Не поддерживается $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Число примитивов не может превышать 1048575.<br/> Текстуры не могут повторяться поверх одного примитива более 8192 раз.<br/> Значения индекса не могут превышать 1048575.<br/>
-<blockquote>
-[!Note]<br />
-При вызове метода <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced"><strong>дравиндексединстанцед</strong></a> с шейдером вершин, привязанным к конвейеру и не импортируя данные каждого экземпляра, некоторые графические аппаратные устройства с Direct3D 9 могут не рисовать ничего. В частности, если шейдер вершин не использует данные каждого экземпляра, вызов <strong>дравиндексединстанцед</strong> с 1 экземпляром не эквивалентен вызову <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw"><strong>Draw</strong></a>.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Число примитивов не может превышать 1048575.<br /> Текстуры не могут повторяться поверх одного примитива более 8192 раз.<br /> Значения индекса не могут превышать 1048575.<br /><blockquote>[!Note]<br />При вызове метода <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced"><strong>дравиндексединстанцед</strong></a> с шейдером вершин, привязанным к конвейеру и не импортируя данные каждого экземпляра, некоторые графические аппаратные устройства с Direct3D 9 могут не рисовать ничего. В частности, если шейдер вершин не использует данные каждого экземпляра, вызов <strong>дравиндексединстанцед</strong> с 1 экземпляром не эквивалентен вызову <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw"><strong>Draw</strong></a>.</blockquote><br /> | 
+
 
 
 
@@ -587,37 +338,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -627,29 +356,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -659,37 +372,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -699,37 +390,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -739,37 +408,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -779,37 +426,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -819,37 +444,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -859,29 +462,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -891,29 +478,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -923,29 +494,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -955,29 +510,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -987,37 +526,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1027,37 +544,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1067,37 +562,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1107,37 +580,15 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. * или 10. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1147,29 +598,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>Формат может отличаться от формата, указанного при создании буфера, но будет дорогостоящим переводом.<br/> Разрешает только буферы индексов с форматом DXGI_FORMAT_R16_UINT. <br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> Формат может отличаться от формата, указанного при создании буфера, но будет дорогостоящим переводом.<br/> Разрешает буферы индексов с форматами DXGI_FORMAT_R16_UINT и DXGI_FORMAT_R32_UINT, такими как D3D_FEATURE_LEVEL_10_0 и выше. <br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Формат может отличаться от формата, указанного при создании буфера, но будет дорогостоящим переводом.<br /> Разрешает только буферы индексов с форматом DXGI_FORMAT_R16_UINT. <br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  Формат может отличаться от формата, указанного при создании буфера, но будет дорогостоящим переводом.<br /> Разрешает буферы индексов с форматами DXGI_FORMAT_R16_UINT и DXGI_FORMAT_R32_UINT, такими как D3D_FEATURE_LEVEL_10_0 и выше. <br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -1179,29 +614,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Примитивные топологии с соседями не поддерживаются $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Примитивные топологии с соседями не поддерживаются $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1211,29 +630,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Самплемаск не может быть нулевым $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Самплемаск не может быть нулевым $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1243,29 +646,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Поддерживается только один целевой объект прорисовки $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Поддерживаются только четыре целевого объекта отрисовки, и все связанные ресурсы должны иметь одинаковую глубину.</td>
-</tr>
-</tbody>
-</table>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Поддерживается только один целевой объект прорисовки $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Поддерживаются только четыре целевого объекта отрисовки, и все связанные ресурсы должны иметь одинаковую глубину. | 
+
 
 
 
@@ -1275,29 +662,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1307,29 +678,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">См. раздел уровень компонентов 10,0, но общее число констант, используемых шейдером, не может превышать 32 $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | См. раздел уровень компонентов 10,0, но общее число констант, используемых шейдером, не может превышать 32 $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1339,29 +694,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Можно привязать не более 16 пробных выдолженстей $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Можно привязать не более 16 пробных выдолженстей $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1371,29 +710,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Только ps_4_0_level_9_1 $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Только ps_4_0_level_9_3 или ps_4_0_level_9_1</td>
-</tr>
-</tbody>
-</table>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Только ps_4_0_level_9_1 $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Только ps_4_0_level_9_3 или ps_4_0_level_9_1 | 
+
 
 
 
@@ -1403,29 +726,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не более 8 одновременно привязанных ресурсов шейдера $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не более 8 одновременно привязанных ресурсов шейдера $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1435,29 +742,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Доступен только начальном-прямоугольный прямоугольник $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Доступен только начальном-прямоугольный прямоугольник $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1467,29 +758,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Доступно только окно просмотра начальном $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Доступно только окно просмотра начальном $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1503,29 +778,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1535,29 +794,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1567,29 +810,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">См. раздел уровень компонентов 10,0, но общее число констант, используемых шейдером, не может превышать 255 $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | См. раздел уровень компонентов 10,0, но общее число констант, используемых шейдером, не может превышать 255 $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1599,29 +826,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1631,29 +842,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Только vs_4_0_level_9_1 $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Только vs_4_0_level_9_3 или vs_4_0_level_9_1</td>
-</tr>
-</tbody>
-</table>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Только vs_4_0_level_9_1 $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Только vs_4_0_level_9_3 или vs_4_0_level_9_1 | 
+
 
 
 
@@ -1663,29 +858,13 @@ ms.locfileid: "118990074"
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Уровень компонентов</th>
-<th>Различия в поведении</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Не поддерживается на уровне функций 9. *. $ {Remove} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Уровень компонентов | Различия в поведении | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Не поддерживается на уровне функций 9. *. $ {Remove} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 

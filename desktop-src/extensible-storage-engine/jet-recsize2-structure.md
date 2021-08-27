@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b99f5aa60f90a753a9c5d095e7a63417485b1fd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: c187d57149b7f0589d56439bfacbf7129ab4fe4a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987837"
 ---
 # <a name="jet_recsize2-structure"></a>Структура JET_RECSIZE2
 
@@ -112,7 +112,11 @@ _**Применимо к:** Windows | Windows Сервером_
 ### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется операционная система Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется операционная система Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется операционная система Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется операционная система Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
 
 
 

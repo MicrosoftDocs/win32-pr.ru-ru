@@ -46,18 +46,18 @@ api_type:
 api_location:
 - Ole2disp.dll
 - Oleaut32.dll
-ms.openlocfilehash: fd600de816889e1c644a0e6074d9b8a97e0ec80c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a341f5d8a0ec554f008232f44156486df83d0fd8
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656918"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625119"
 ---
 # <a name="iextender-interface"></a>Интерфейс Иекстендер
 
 Интерфейс **иекстендер** предоставляет набор основных свойств, которые добавляются в интерфейс элемента управления. Программисты могут использовать эти свойства, как если бы они были частью элемента управления.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **иекстендер** наследует от интерфейса [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) . **Иекстендер** также имеет следующие типы членов:
 
@@ -86,22 +86,22 @@ ms.locfileid: "105656918"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Свойство</th>
-<th style="text-align: left;">Тип доступа</th>
-<th style="text-align: left;">Описание</th>
+<th >Свойство</th>
+<th >Тип доступа</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Выровнять<br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Возвращает или задает значение, определяющее, отображается ли объект в любом месте формы или в верхней, нижней, левой или правой части формы и автоматически изменяется в соответствии с шириной формы.<br/> 
+<td >Выровнять<br/></td>
+<td >Чтение/запись<br/></td>
+<td >Возвращает или задает значение, определяющее, отображается ли объект в любом месте формы или в верхней, нижней, левой или правой части формы и автоматически изменяется в соответствии с шириной формы.<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -136,59 +136,59 @@ ms.locfileid: "105656918"
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Контейнер</p></td>
-<td style="text-align: left;"><p>Только для чтения</p></td>
-<td style="text-align: left;"><p>Возвращает контейнер элемента управления в форме.</p></td>
+<td ><p>Контейнер</p></td>
+<td ><p>Только для чтения</p></td>
+<td ><p>Возвращает контейнер элемента управления в форме.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Активировано</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает значение, определяющее, может ли форма или элемент управления отвечать на создаваемые пользователем события.</p></td>
+<td ><p>Включено</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает значение, определяющее, может ли форма или элемент управления отвечать на создаваемые пользователем события.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Высота</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает высоту объекта.</p></td>
+<td ><p>Высота:</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает высоту объекта.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>HWND</p></td>
-<td style="text-align: left;"><p>Только для чтения</p></td>
-<td style="text-align: left;"><p>Возвращает маркер для формы или элемента управления.</p></td>
+<td ><p>HWND</p></td>
+<td ><p>Только для чтения</p></td>
+<td ><p>Возвращает маркер для формы или элемента управления.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Левый</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает расстояние между внутренним левым ребром объекта и левым ребром его контейнера.</p></td>
+<td ><p>Левый</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает расстояние между внутренним левым ребром объекта и левым ребром его контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Имя</p></td>
-<td style="text-align: left;"><p>Только для чтения</p></td>
-<td style="text-align: left;"><p>Возвращает имя, используемое в коде для задания объекта формы, элемента управления или доступа к данным.</p></td>
+<td ><p>Имя</p></td>
+<td ><p>Только для чтения</p></td>
+<td ><p>Возвращает имя, используемое в коде для задания объекта формы, элемента управления или доступа к данным.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Parent</p></td>
-<td style="text-align: left;"><p>Только для чтения</p></td>
-<td style="text-align: left;"><p>Возвращает форму, объект или коллекцию, содержащую элемент управления или другой объект или коллекцию.</p></td>
+<td ><p>Parent</p></td>
+<td ><p>Только для чтения</p></td>
+<td ><p>Возвращает форму, объект или коллекцию, содержащую элемент управления или другой объект или коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>TabStop</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает значение, указывающее, может ли пользователь использовать клавишу <strong>Tab</strong> для передачи фокуса объекту.</p></td>
+<td ><p>TabStop</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает значение, указывающее, может ли пользователь использовать клавишу <strong>Tab</strong> для передачи фокуса объекту.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Начало</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает расстояние между внутренним верхним краями объекта и верхней границей его контейнера.</p></td>
+<td ><p>Начало</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает расстояние между внутренним верхним краями объекта и верхней границей его контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Видимый</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает значение, указывающее, является ли объект видимым или скрытым.</p></td>
+<td ><p>Видимый</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает значение, указывающее, является ли объект видимым или скрытым.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Ширина</p></td>
-<td style="text-align: left;"><p>Чтение/запись</p></td>
-<td style="text-align: left;"><p>Возвращает или задает ширину объекта.</p></td>
+<td ><p>Ширина</p></td>
+<td ><p>Чтение/запись</p></td>
+<td ><p>Возвращает или задает ширину объекта.</p></td>
 </tr>
 </tbody>
 </table>

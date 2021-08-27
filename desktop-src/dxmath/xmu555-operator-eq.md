@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5ec53b3c49c7ade0f8be22f507768bd1c2e084de40d4812168b7ff760bf349b6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 315dedd527773030e2732717f01fc9e29e3ea5d4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984614"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624980"
 ---
 # <a name="xmu555-operator--operators"></a>Оператор XMU555 = операторы
 
@@ -30,23 +30,23 @@ ms.locfileid: "118984614"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Оператор</th>
-<th style="text-align: left;">Описание</th>
+<th >Оператор</th>
+<th >Описание:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig"><strong>XMU555:: operator = (const XMU555&)</strong></a></td>
-<td style="text-align: left;">Назначает данные компонента вектора от одного экземпляра <code>XMU555</code> к текущему экземпляру <code>XMU555</code> . <br/> Этот оператор назначает данные компонента вектора от одного экземпляра <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> к текущему экземпляру <code>XMU555</code> . <br/></td>
+<td ><a href="/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig"><strong>XMU555:: operator = (const XMU555&)</strong></a></td>
+<td >Назначает данные компонента вектора от одного экземпляра <code>XMU555</code> к текущему экземпляру <code>XMU555</code> . <br/> Этот оператор назначает данные компонента вектора от одного экземпляра <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a> к текущему экземпляру <code>XMU555</code> . <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-operator-assign(uint16_t)"><strong>XMU555:: operator = (const uint16_t)</strong></a></td>
-<td style="text-align: left;">Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint16_t</code> текущий экземпляр <code>XMU555</code> . <br/> Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint16_t</code> текущий экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a>. <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu555-operator-assign(uint16_t)"><strong>XMU555:: operator = (const uint16_t)</strong></a></td>
+<td >Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint16_t</code> текущий экземпляр <code>XMU555</code> . <br/> Назначает данные компонента вектора, Упакованные в экземпляре, в <code>uint16_t</code> текущий экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555"><strong>XMU555</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 Этот оператор доступен только в C++.

@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 31b6b72cba336e3f7251bacfb1836673086ba9c2
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 237e6351c7baf7f418c5160797f413d78ce034bd
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984157"
 ---
 # <a name="jet_indexcreate-structure"></a>Структура JET_INDEXCREATE
 
@@ -205,11 +205,16 @@ ESE поддерживает индексирование по ключевым 
 ### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_ INDEXCREATE_W</strong> (Юникод) и <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_ INDEXCREATE_W</strong> (Юникод) и <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p> | 
 
 
 
-### <a name="see-also"></a>См. также
+### <a name="see-also"></a>См. также раздел
 
 [JET_COLTYP](./jet-coltyp.md)  
 [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md)  

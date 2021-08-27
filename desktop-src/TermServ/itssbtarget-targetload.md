@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c367e9c00caff78bb3e64263c1622de45fa6e640e78d88239e1ed25a6f68558
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec8224106fad6031a18bf061020a259813db639e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983927"
 ---
 # <a name="itssbtargettargetload-property"></a>Свойство Итссбтаржет:: Таржетлоад
 
@@ -50,7 +50,7 @@ HRESULT get_TargetLoad(
 
 Число, представляющее относительную нагрузку на целевой объект.
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Вес ожидающего сеанса относительно активного сеанса можно изменить, задав значение параметра *\_ коннектионестаблишментпеналти балансировки нагрузки* для брокера подключений. Этот параметр находится в разделе реестра **HKLM \\ System \\ CurrentControlSet \\ Services \\ Tssdis \\ Parameters** . Значение по умолчанию 1 указывает, что ожидающие сеансы имеют тот же вес, что и активные сеансы.
 
@@ -60,34 +60,14 @@ HRESULT get_TargetLoad(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Минимальная версия клиента<br/></td>
-<td>Ни одна версия не поддерживается<br/></td>
-</tr>
-<tr class="even">
-<td>Минимальная версия сервера<br/></td>
-<td>Windows Server 2016<br/></td>
-</tr>
-<tr class="odd">
-<td>IDL<br/></td>
-<td><dl> <dt>Сбтсв. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget определяется следующим образом:
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|--------|-------|
+| Минимальная версия клиента<br /> | Ни одна версия не поддерживается<br /> | 
+| Минимальная версия сервера<br /> | Windows Server 2016<br /> | 
+| IDL<br /> | <dl><dt>Сбтсв. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget определяется следующим образом:<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 на сервере Windows 2008 R2</li></ul> | 
+
 
 
 

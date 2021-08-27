@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d53f74db0ff4b744077c4e208be52dd749c2f4f150d867c3cfc7214c0e66ae2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 20e5a2aa10bccfbd91b003f1db120691b6c61bb4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120120774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881174"
 ---
 # <a name="using-the-wmi-scripting-type-library"></a>Использование библиотеки типов сценариев WMI
 
@@ -68,7 +68,7 @@ ms.locfileid: "120120774"
 
     
 
--   Ссылка на библиотеку типов WMI с помощью <reference> тега формата XML-файла WSH 2,0. При использовании <reference> тега тег должен иметь либо атрибут **UUID** , значение которого является **идентификатором GUID** библиотеки типов WMI, либо (рекомендуется) атрибут объекта, значение которого является **идентификатором ProgID** любого из объектов сценариев WMI, которые можно создать.
+-   Ссылка на библиотеку типов WMI с помощью &lt; тега Reference в &gt; формате XML-файла WSH 2,0. Если используется &lt; &gt; тег Reference, тег должен иметь либо атрибут **UUID** , значение которого является **идентификатором GUID** библиотеки типов WMI, либо (рекомендуется) атрибут объекта, значение которого является **ИДЕНТИФИКАТОРом ProgID** любого из объектов сценариев WMI, которые можно создать.
 
     В следующем примере кода VBScript используется идентификатор PROGID "Вбемскриптинг". Чтобы выполнить сценарий, сохраните текст в файл с расширением. wsf.
 

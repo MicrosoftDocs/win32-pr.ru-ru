@@ -7,12 +7,12 @@ keywords:
 - Active Directory схемы, чтение абстрактной схемы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d7fadba33bcc5e93bf2b9e89934e8b440d559b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b7095dc4fb5ffe5f11f64781ecd423a60b3d434d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103890379"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881310"
 ---
 # <a name="reading-the-abstract-schema"></a>Чтение абстрактной схемы
 
@@ -40,7 +40,7 @@ Set adschema = GetObject("LDAP://schema")
 
 
 
-Используйте аналогичную строку привязки "LDAP://schema/ <object> " для непосредственной привязки к записи класса или атрибута в абстрактной схеме. В этой строке " &lt; Object &gt; " — это атрибут **lDAPDisplayName** класса или атрибута. Для классов привязывается к интерфейсу [**иадскласс**](/windows/desktop/api/iads/nn-iads-iadsclass) ; для атрибутов привяжите к интерфейсу [**иадспроперти**](/windows/desktop/api/iads/nn-iads-iadsproperty) .
+Используйте аналогичную строку привязки "LDAP://schema/ &lt; Object &gt; " для непосредственной привязки к записи класса или атрибута в абстрактной схеме. В этой строке " &lt; Object &gt; " — это атрибут **lDAPDisplayName** класса или атрибута. Для классов привязывается к интерфейсу [**иадскласс**](/windows/desktop/api/iads/nn-iads-iadsclass) ; для атрибутов привяжите к интерфейсу [**иадспроперти**](/windows/desktop/api/iads/nn-iads-iadsproperty) .
 
 
 ```C++
@@ -82,10 +82,10 @@ Set userclass = GetObject("LDAP://schema/user")
 
 
 
- 
+ 
 
 Абстрактная схема хранится в объекте **подсхемы** в контейнере схемы. Чтобы получить различающееся имя объекта **подсхемы** , выполните привязку к RootDSE и прочтите атрибут **субсчемасубентри** , как описано в разделе [Привязка без сервера и RootDSE](serverless-binding-and-rootdse.md). Имейте в виду, что более эффективно считывать абстрактную схему путем привязки к "LDAP://schema", чем путем привязки непосредственно к объекту **подсхемы** .
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Элемент Argument
 description: Элемент Argument содержит одну часть строки условия.
 ms.assetid: 7e4744ce-e9e2-4a70-a2cc-d33ae1ad2f99
 keywords:
-- Проигрыватель Windows Media, элемент Argument
+- проигрыватель Windows Media элемента argument
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1c4adc0b853054d448bc9955f3bd8c64115ac2ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f5a689b74bd18138361d9377358ddee5cf5979f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695137"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630195"
 ---
 # <a name="argument-element"></a>Элемент Argument
 
@@ -60,8 +60,8 @@ ms.locfileid: "105695137"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -95,8 +95,8 @@ ms.locfileid: "105695137"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -110,7 +110,7 @@ ms.locfileid: "105695137"
 <td>Если атрибут <strong>Name</strong> элемента <strong>Fragment</strong> имеет &quot; ограничение общего размера до &quot; , содержимое элемента <strong>Argument</strong> должно быть одним из следующих: килобайт, мегабайт или гигабайт. Если атрибут <strong>Name</strong> элемента <strong>Fragment</strong> имеет &quot; ограничение общей длительности до &quot; , содержимое элемента <strong>Argument</strong> должно быть одним из следующих: секунды, минуты, часы или дни.<br/></td>
 </tr>
 <tr class="even">
-<td>Число</td>
+<td>Number</td>
 <td>Содержимое элемента <strong>Argument</strong> является числом, ограничивающим размер или длительность списка воспроизведения. Примеров<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
   <argument name = &quot;Format&quot;>Megabytes</argument>
@@ -135,13 +135,13 @@ ms.locfileid: "105695137"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Значение атрибута</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -165,18 +165,18 @@ ms.locfileid: "105695137"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Элемент Fragment**](fragment-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

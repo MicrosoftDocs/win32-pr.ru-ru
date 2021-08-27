@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad8cad0cfc31c77b3cc8e960153bda14b4f431e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119719194"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475820"
 ---
 # <a name="jetexternalrestore2-function"></a>Функция JetExternalRestore2
 
@@ -99,111 +99,39 @@ _**Применимо к:** Windows | Windows Сервером_
 
 Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseCorrupted</p></td>
-<td><p>Это указывает, что база данных повреждена или нераспознанный файл.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errEndingRestoreLogTooLow</p></td>
-<td><p>Эта ошибка возвращается, если одна из файлов журнала в <em>сзбаккуплогпас</em>имеет более позднюю версию журнала, указанную в <em>женхигх</em> или <em>плогинфо. улженхигх</em>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFileNotFound</p></td>
-<td><p>Не удалось выполнить операцию, так как не удалось открыть запрошенный файл, так как он не найден по указанному пути.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <a href="gg294088(v=exchg.10).md">жетекстерналресторе</a>и т. д., если <em>сзтаржетчеккпоинтпас</em> и <em>сзтаржетинстанцелогпас</em> либо не указаны одновременно, либо не указаны одновременно. То есть они должны сопоставляться и быть одновременно указаны, либо не указаны одновременно.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>Не удалось выполнить операцию, так как не удалось найти указанный путь.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>Не удалось выполнить операцию из-за нехватки памяти, выделенной для ее завершения.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreOfNonBackupDatabase</p></td>
-<td><p>Эта ошибка возвращается, если файл базы данных, указанный во время восстановления, не является базой данных, для которой была создана резервная копия с внешней резервной копией.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errStartingRestoreLogTooHigh</p></td>
-<td><p>Эта ошибка возвращается, если один из файлов журнала в <em>сзбаккуплогпас</em>имеет следующее создание журнала, заданное <em>женлов</em> или <em>плогинфо. улженлов</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errBadRestoreTargetInstance</p> | <p>Указанный <em>сзтаржетинстанцелогпас</em> не принадлежит инициализированному экземпляру. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p> | 
+| <p>JET_errDatabaseCorrupted</p> | <p>Это указывает, что база данных повреждена или нераспознанный файл.</p> | 
+| <p>JET_errEndingRestoreLogTooLow</p> | <p>Эта ошибка возвращается, если одна из файлов журнала в <em>сзбаккуплогпас</em>имеет более позднюю версию журнала, указанную в <em>женхигх</em> или <em>плогинфо. улженхигх</em>.</p> | 
+| <p>JET_errFileNotFound</p> | <p>Не удалось выполнить операцию, так как не удалось открыть запрошенный файл, так как он не найден по указанному пути.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <a href="gg294088(v=exchg.10).md">жетекстерналресторе</a>и т. д., если <em>сзтаржетчеккпоинтпас</em> и <em>сзтаржетинстанцелогпас</em> либо не указаны одновременно, либо не указаны одновременно. То есть они должны сопоставляться и быть одновременно указаны, либо не указаны одновременно.</p> | 
+| <p>JET_errInvalidPath</p> | <p>Не удалось выполнить операцию, так как не удалось найти указанный путь.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>Не удалось выполнить операцию из-за нехватки памяти, выделенной для ее завершения.</p> | 
+| <p>JET_errRestoreOfNonBackupDatabase</p> | <p>Эта ошибка возвращается, если файл базы данных, указанный во время восстановления, не является базой данных, для которой была создана резервная копия с внешней резервной копией.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>Ядру СУБД не удается выполнить внешнее восстановление или принудительное восстановление в режиме одиночного экземпляра. эта ошибка будет возвращена только в Windows XP и более поздних версиях.</p> | 
+| <p>JET_errStartingRestoreLogTooHigh</p> | <p>Эта ошибка возвращается, если один из файлов журнала в <em>сзбаккуплогпас</em>имеет следующее создание журнала, заданное <em>женлов</em> или <em>плогинфо. улженлов</em>.</p> | 
+
 
 
 При успешном выполнении все базы данных из *ргрстмап* полностью восстанавливаются, а в состоянии чистого или устойчивого состояния. На этом этапе базу данных можно повторно подключить к существующему экземпляру.
 
 В случае сбоя подсистема не смогла восстановить базу данных. База данных находится в недопустимом состоянии, и для повторного восстановления необходимо восстановить всю базу данных. Как правило, источником такой ситуации является повреждение диска или журнала, а также другой вид непостоянного управления журналом или ненепрерывный набор журналов.
 
-#### <a name="remarks"></a>Remarks
+#### <a name="remarks"></a>Комментарии
 
 См. [жетекстерналресторе](./jetexternalrestore-function.md).
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>требуется Windows Vista или Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Сервер</strong></p></td>
-<td><p>требуется Windows server 2008 или Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JetExternalRestore2W</strong> (Юникод) и <strong>JetExternalRestore2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista или Windows XP.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008 или Windows server 2003.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JetExternalRestore2W</strong> (Юникод) и <strong>JetExternalRestore2A</strong> (ANSI).</p> | 
 
 
-#### <a name="see-also"></a>См. также
+
+#### <a name="see-also"></a>См. также:
 
 [JET_ERR](./jet-err.md)  
 [JET_LOGINFO](./jet-loginfo-structure.md)  

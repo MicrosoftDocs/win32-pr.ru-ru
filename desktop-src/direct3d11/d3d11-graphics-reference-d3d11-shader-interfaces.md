@@ -6,12 +6,12 @@ keywords:
 - интерфейсы, шейдер Direct3D 11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb6c3d628f83747831dae0e98bd604f88f9ee0946aeb56a38c9734df30ba0d67
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41fcecdff6f35b634ecbbeca0b85bc5ba42fd1e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119988484"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479460"
 ---
 # <a name="shader-interfaces-direct3d-11-graphics"></a>Интерфейсы шейдеров (графика Direct3D 11) 
 
@@ -24,148 +24,32 @@ ms.locfileid: "119988484"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classinstance"><strong>ID3D11ClassInstance</strong></a><br/></td>
-<td>Этот интерфейс инкапсулирует класс HLSL.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classlinkage"><strong>ID3D11ClassLinkage</strong></a><br/></td>
-<td>Этот интерфейс инкапсулирует динамическую компоновку HLSL.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11computeshader"><strong>ID3D11ComputeShader</strong></a><br/></td>
-<td>Интерфейс шейдера вычислений управляет исполняемой программой (шейдером вычислений), которая управляет этапом COMPUTE-Shader.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11domainshader"><strong>ID3D11DomainShader</strong></a><br/></td>
-<td>Интерфейс шейдера домена управляет исполняемой программой (шейдером доменов), которая управляет стадией шейдера домена.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph"><strong>ID3D11FunctionLinkingGraph</strong></a><br/></td>
-<td>Интерфейс графа с функциями компоновки используется для создания шейдеров, состоящих из последовательности вызовов предкомпилированных функций, которые передают значения друг другу. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionreflection"><strong>ID3D11FunctionReflection</strong></a><br/></td>
-<td>Интерфейс отражения функции обращается к сведениям о функции. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionparameterreflection"><strong>ID3D11FunctionParameterReflection</strong></a><br/></td>
-<td>Интерфейс отражения параметров функции обращается к сведениям о параметрах функции. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11geometryshader"><strong>ID3D11GeometryShader</strong></a><br/></td>
-<td>Интерфейс шейдера Geometry управляет исполняемой программой (шейдером Geometry), которая управляет стадией шейдера Geometry.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11hullshader"><strong>ID3D11HullShader</strong></a><br/></td>
-<td>Интерфейс шейдера поверхности управляет исполняемой программой (шейдером поверхности), которая управляет стадией поверхности-Shader.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11libraryreflection"><strong>ID3D11LibraryReflection</strong></a><br/></td>
-<td>Интерфейс отражения библиотеки обращается к сведениям о библиотеке. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker"><strong>ID3D11Linker</strong></a><br/></td>
-<td>Интерфейс компоновщика используется для связи модуля шейдера. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linkingnode"><strong>ID3D11LinkingNode</strong></a><br/></td>
-<td>Для связывания с шейдером используется интерфейс связывания и узлов. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module"><strong>ID3D11Module</strong></a><br/></td>
-<td>Интерфейс модуля создает экземпляр модуля, который используется для повторной привязки ресурсов. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance"><strong>ID3D11ModuleInstance</strong></a><br/></td>
-<td>Интерфейс экземпляра модуля используется для повторной привязки ресурсов. <br/>
-<blockquote>
-[!Note]<br />
-Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11pixelshader"><strong>ID3D11PixelShader</strong></a><br/></td>
-<td>Интерфейс построителя текстуры управляет исполняемой программой (построитель текстуры), которая управляет стадией построителя текстуры.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflection"><strong>ID3D11ShaderReflection</strong></a><br/></td>
-<td>Интерфейс отражения шейдеров получает доступ к сведениям шейдера.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionconstantbuffer"><strong>ID3D11ShaderReflectionConstantBuffer</strong></a><br/></td>
-<td>Этот интерфейс отражения шейдеров предоставляет доступ к буферу констант.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectiontype"><strong>ID3D11ShaderReflectionType</strong></a><br/></td>
-<td>Этот интерфейс отражения шейдеров предоставляет доступ к типу переменной.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionvariable"><strong>ID3D11ShaderReflectionVariable</strong></a><br/></td>
-<td>Этот интерфейс отражения шейдеров предоставляет доступ к переменной.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a><br/></td>
-<td>Интерфейс <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a> реализует методы для получения трассировок выполнения шейдера.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a><br/></td>
-<td>Интерфейс <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a> реализует метод для создания объектов сведений о трассировке шейдера.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader"><strong>ID3D11VertexShader</strong></a><br/></td>
-<td>Интерфейс шейдера вершин управляет исполняемой программой (вершинным шейдером), которая управляет стадией шейдера вершин.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Описание | 
+|-------|-------------|
+| <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classinstance"><strong>ID3D11ClassInstance</strong></a><br /> | Этот интерфейс инкапсулирует класс HLSL.<br /> | 
+| <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11classlinkage"><strong>ID3D11ClassLinkage</strong></a><br /> | Этот интерфейс инкапсулирует динамическую компоновку HLSL.<br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11computeshader"><strong>ID3D11ComputeShader</strong></a><br /> | Интерфейс шейдера вычислений управляет исполняемой программой (шейдером вычислений), которая управляет этапом COMPUTE-Shader.<br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11domainshader"><strong>ID3D11DomainShader</strong></a><br /> | Интерфейс шейдера домена управляет исполняемой программой (шейдером доменов), которая управляет стадией шейдера домена.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionlinkinggraph"><strong>ID3D11FunctionLinkingGraph</strong></a><br /> | Интерфейс графа с функциями компоновки используется для создания шейдеров, состоящих из последовательности вызовов предкомпилированных функций, которые передают значения друг другу. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionreflection"><strong>ID3D11FunctionReflection</strong></a><br /> | Интерфейс отражения функции обращается к сведениям о функции. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11functionparameterreflection"><strong>ID3D11FunctionParameterReflection</strong></a><br /> | Интерфейс отражения параметров функции обращается к сведениям о параметрах функции. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11geometryshader"><strong>ID3D11GeometryShader</strong></a><br /> | Интерфейс шейдера Geometry управляет исполняемой программой (шейдером Geometry), которая управляет стадией шейдера Geometry.<br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11hullshader"><strong>ID3D11HullShader</strong></a><br /> | Интерфейс шейдера поверхности управляет исполняемой программой (шейдером поверхности), которая управляет стадией поверхности-Shader.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11libraryreflection"><strong>ID3D11LibraryReflection</strong></a><br /> | Интерфейс отражения библиотеки обращается к сведениям о библиотеке. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linker"><strong>ID3D11Linker</strong></a><br /> | Интерфейс компоновщика используется для связи модуля шейдера. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11linkingnode"><strong>ID3D11LinkingNode</strong></a><br /> | Для связывания с шейдером используется интерфейс связывания и узлов. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11module"><strong>ID3D11Module</strong></a><br /> | Интерфейс модуля создает экземпляр модуля, который используется для повторной привязки ресурсов. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11moduleinstance"><strong>ID3D11ModuleInstance</strong></a><br /> | Интерфейс экземпляра модуля используется для повторной привязки ресурсов. <br /><blockquote>[!Note]<br />Этот интерфейс является частью технологии связывания шейдеров HLSL, которую можно использовать на всех платформах Direct3D 11 для создания предкомпилированных функций HLSL, их упаковки в библиотеки и связывания их с полными шейдерами во время выполнения.</blockquote><br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11pixelshader"><strong>ID3D11PixelShader</strong></a><br /> | Интерфейс построителя текстуры управляет исполняемой программой (построитель текстуры), которая управляет стадией построителя текстуры.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflection"><strong>ID3D11ShaderReflection</strong></a><br /> | Интерфейс отражения шейдеров получает доступ к сведениям шейдера.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionconstantbuffer"><strong>ID3D11ShaderReflectionConstantBuffer</strong></a><br /> | Этот интерфейс отражения шейдеров предоставляет доступ к буферу констант.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectiontype"><strong>ID3D11ShaderReflectionType</strong></a><br /> | Этот интерфейс отражения шейдеров предоставляет доступ к типу переменной.<br /> | 
+| <a href="/windows/desktop/api/D3D11Shader/nn-d3d11shader-id3d11shaderreflectionvariable"><strong>ID3D11ShaderReflectionVariable</strong></a><br /> | Этот интерфейс отражения шейдеров предоставляет доступ к переменной.<br /> | 
+| <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a><br /> | Интерфейс <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertrace"><strong>ID3D11ShaderTrace</strong></a> реализует методы для получения трассировок выполнения шейдера.<br /> | 
+| <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a><br /> | Интерфейс <a href="/windows/desktop/api/D3D11ShaderTracing/nn-d3d11shadertracing-id3d11shadertracefactory"><strong>ID3D11ShaderTraceFactory</strong></a> реализует метод для создания объектов сведений о трассировке шейдера.<br /> | 
+| <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader"><strong>ID3D11VertexShader</strong></a><br /> | Интерфейс шейдера вершин управляет исполняемой программой (вершинным шейдером), которая управляет стадией шейдера вершин.<br /> | 
+
 
 
 

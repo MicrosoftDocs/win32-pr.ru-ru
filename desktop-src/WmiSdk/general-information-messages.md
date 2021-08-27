@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Общие информационные сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0997fad497299c7598fc1130edace49c20d7bb76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 680bcf7c2b9cbea5e60d13a7dd2aa6be93d9fad0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104344912"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882728"
 ---
 # <a name="general-information-messages"></a>Общие информационные сообщения
 
@@ -65,7 +65,7 @@ ms.locfileid: "104344912"
 <span id="smi2smir__Could_not_connect_to_the_SMIR"></span><span id="smi2smir__could_not_connect_to_the_smir"></span><span id="SMI2SMIR__COULD_NOT_CONNECT_TO_THE_SMIR"></span>**smi2smir: не удалось подключиться к Смир**
 </dt> <dd>
 
-Убедитесь, что Smir.dll существует, была зарегистрирована с помощью команды regsvr32 и что сервер инструментарий управления Windows (WMI) (WMI) работает.
+убедитесь, что Smir.dll существует, была зарегистрирована с помощью команды regsvr32 и что сервер инструментарий управления Windows (WMI) (WMI) работает.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ ms.locfileid: "104344912"
 
 </dd> <dt>
 
-<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir: успешно обработанные <number> файлы**
+<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**smi2smir: &lt; успешно обработан числовые &gt; файлы**
 </dt> <dd>
 
 Указывает количество файлов, успешно проанализированных при использовании параметра **/r** или **/АУТО** .
@@ -195,7 +195,7 @@ ms.locfileid: "104344912"
 
 </dd> </dl>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

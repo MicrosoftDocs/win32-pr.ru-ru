@@ -8,12 +8,12 @@ keywords:
 - контекстное меню COM-объект Active Directory, регистрация
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eaab47977ab0c70b095073a6244787b0f30cc5d50cf405061974034b73cb63a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c5650d5864093293728e5c4f1157980c76bffa0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881248"
 ---
 # <a name="registering-the-context-menu-com-object-in-a-display-specifier"></a>Регистрация COM-объекта контекстного меню в спецификаторе экрана
 
@@ -29,7 +29,7 @@ HKEY_CLASSES_ROOT
       <clsid>
 ```
 
-*<clsid>* Строковое представление идентификатора CLSID, созданное функцией [**стрингфромклсид**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . В *<clsid>* ключе имеется ключ **InprocServer32** , который идентифицирует объект как 32-разрядный сервер in-proc. В ключе **InprocServer32** расположение библиотеки DLL указывается в значении по умолчанию, а модель потоков указывается в значении **ThreadingModel** . Все расширения контекстного меню должны использовать потоковую модель "апартамента".
+*&lt; CLSID &gt;* — это строковое представление идентификатора CLSID, созданное функцией [**стрингфромклсид**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . В ключе *&lt; &gt; CLSID* имеется ключ **InprocServer32** , который идентифицирует объект как 32-разрядный сервер in-proc. В ключе **InprocServer32** расположение библиотеки DLL указывается в значении по умолчанию, а модель потоков указывается в значении **ThreadingModel** . Все расширения контекстного меню должны использовать потоковую модель "апартамента".
 
 ## <a name="registering-with-active-directory-domain-services"></a>Регистрация в домен Active Directory Services
 

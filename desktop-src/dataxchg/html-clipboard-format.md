@@ -15,12 +15,12 @@ keywords:
 - буфер обмена, формат CF_HTML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cafeb80c790ac511b3ffcd750ea4fbfafceeb7fb919842bb12a696b9655ab6ee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 18d73b5101d26fc55002d55e0c15144646b80445
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118811661"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884990"
 ---
 # <a name="html-clipboard-format"></a>Формат буфера обмена HTML
 
@@ -111,7 +111,7 @@ Version:0.9
 1.  Простой фрагмент кода HTML.
     -   -   Текст HTML:
 
-            <BODY>Это обычный <B>шрифт полужирным </B>начертанием полужирный <I> <B> </B>курсив.</I></BODY>
+            &lt;Текст &gt; обычный. <B>полужирным </B>шрифтом выделено полужирный курсив. <I> <B> </B>курсив </I> &lt; /боди&gt;
 
         -   Отображается как:
 
@@ -139,7 +139,7 @@ Version:0.9
 
             <!DOCTYPE ...>
 
-            <BODY>
+            &lt;ОРГАНИЗМ&gt;
 
             <!-- StartFragment -->>
 
@@ -147,16 +147,16 @@ Version:0.9
 
             <!-- EndFragment -->
 
-            </BODY>
+            &lt;/боди&gt;
 
-            </HTML>
+            &lt;/HTML&gt;
 
         -   В этом сценарии в контексте отображаются только тег BODY и HTML-тег, так как он предшествует выбранному фрагменту. Обратите внимание, что открывающие и закрывающие теги включены в контекст. Выделение, разделенное Стартселектион и Ендселектион, выделяется полужирным шрифтом.
 
 2.  Фрагмент таблицы в формате HTML.
     -   -   Текст HTML:
 
-            <BODY><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Элемент 1</TD><TD>Элемент 2</TD><TD>Элемент 3</TD><TD>Элемент 4</TD></TR><TR><TD>Элемент 5</TD><TD>Элемент 6</TD><TD>Элемент 7</TD><TD>Элемент 8</TD></TR><TR><TH>Head2</TH><TD>Элемент 9</TD><TD>Элемент 10</TD><TD>Элемент 11</TD><TD>Элемент 12</TD></TR></TABLE></BODY>
+            &lt;ОРГАНИЗМ&gt;<TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Элемент 1</TD><TD>Элемент 2</TD><TD>Элемент 3</TD><TD>Элемент 4</TD></TR><TR><TD>Элемент 5</TD><TD>Элемент 6</TD><TD>Элемент 7</TD><TD>Элемент 8</TD></TR><TR><TH>Head2</TH><TD>Элемент 9</TD><TD>Элемент 10</TD><TD>Элемент 11</TD><TD>Элемент 12</TD></TR></TABLE>&lt;/боди&gt;
 
         -   Отображается как: ><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Элемент 1</TD><TD>Элемент 2</TD><TD>Элемент 3</TD><TD>Элемент 4</TD></TR><TR><TD>Элемент 5</TD><TD>Элемент 6</TD><TD>Элемент 7</TD><TD>Элемент 8</TD></TR><TR><TH>Head2</TH><TD>Элемент 9</TD><TD>Элемент 10</TD><TD>Элемент 11</TD><TD>Элемент 12</TD></TR></TABLE><! \[ Корпорация\[\]\]>
         -   Элементы таблицы 6, Item7, Item 10 и Item 11 выбираются в виде блока и копируются в буфер обмена.
@@ -164,7 +164,7 @@ Version:0.9
 
             <!DOCTYPE ...>
 
-            <HTML><BODY><TABLE BORDER>
+            &lt;&gt; &lt; текст HTML&gt;<TABLE BORDER>
 
             <!--StartFragment-->
 
@@ -174,12 +174,12 @@ Version:0.9
 
             </TABLE>
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/Боди &gt; &lt; /HTML &gt; выделение, разделенное на стартселектион и ендселектион, выделяется полужирным шрифтом.
 
 3.  Вставлен фрагмент упорядоченного списка в обычный текст.
     -   -   Текст HTML:
 
-            <BODY><OL TYPE = a><LI>Элемент 1<LI>Элемент 2<LI>Элемент 3<LI>Элемент 4<LI>Элемент 5<LI>Элемент 6</OL></BODY>
+            &lt;ОРГАНИЗМ&gt;<OL TYPE = a><LI>Элемент 1<LI>Элемент 2<LI>Элемент 3<LI>Элемент 4<LI>Элемент 5<LI>Элемент 6</OL>&lt;/боди&gt;
 
         -   Отображается как:
             1.  Элемент 1
@@ -190,7 +190,7 @@ Version:0.9
             6.  Элемент 6
         -   Пользователь выбирает и копирует элементы с 3 по 5 в буфер обмена. Следующий HTML-код находится в буфере обмена:
 
-            <DOCTYPE... ><HTML><BODY><OL TYPE = a>
+            <DOCTYPE... >&lt; HTML- &gt; &lt; текст&gt;<OL TYPE = a>
 
             <!-- StartFragment-->
 
@@ -198,13 +198,13 @@ Version:0.9
 
             <!-- EndFragment-->
 
-            </OL></BODY></HTML>
+            </OL>&lt;/BODY&gt;&lt;/HTML&gt;
 
             Выделение, разделенное Стартселектион и Ендселектион, выделяется полужирным шрифтом.
 
         -   Если теперь этот фрагмент вставлен в пустой документ, будет создан следующий HTML:
 
-            <BODY><OL TYPE = a><LI>Элемент 3<LI>Элемент 4<LI>Элемент 5</OL></BODY>
+            &lt;ОРГАНИЗМ&gt;<OL TYPE = a><LI>Элемент 3<LI>Элемент 4<LI>Элемент 5</OL>&lt;/боди&gt;
 
         -   Отображается как:
             1.  Элемент 3
@@ -223,7 +223,7 @@ Version:0.9
 
         -   Пользователь выбирает из "WYSIWYG" до "COP". Следующий HTML-код находится в буфере обмена:
 
-            <DOCTYPE... ><HTML><BODY>
+            <DOCTYPE... >&lt; HTML- &gt; &lt; текст&gt;
 
             <!-- StartFragment-->
 
@@ -237,14 +237,14 @@ Version:0.9
 
             <!-- EndFragment-->
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/Боди &gt; &lt; /HTML &gt; выделение, разделенное на стартселектион и ендселектион, выделяется полужирным шрифтом.
 
      
     -   -   Пользователь выбирает "opy" до "отличного".
 
             Следующий HTML-код находится в буфере обмена:
 
-            <DOCTYPE... ><HTML><BODY>
+            <DOCTYPE... >&lt; HTML- &gt; &lt; текст&gt;
 
             <!-- StartFragment-->
 
@@ -256,7 +256,7 @@ Version:0.9
 
             <!-- EndFragment-->
 
-            </BODY></HTML>
+            &lt;/Боди &gt; &lt; /HTML&gt;
 
             Выделение, разделенное Стартселектион и Ендселектион, выделяется полужирным шрифтом.
 

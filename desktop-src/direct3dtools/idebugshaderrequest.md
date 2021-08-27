@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 742f80582a8c2e026fce5d895e1f53efc7c45011
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: f524ebe312be3be6cfbf0b9b1f3a1d99f55f63ef
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786500"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624380"
 ---
 # <a name="span-idvspixengineidebugshaderrequestspanidebugshaderrequest-interface"></a><span id="vspixengine.idebugshaderrequest"></span>Интерфейс Идебугшадеррекуест
 
 Не используется. Ранее был запрос на запуск отладки шейдера.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **идебугшадеррекуест** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Идебугшадеррекуест** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122786500"
 
 Интерфейс **идебугшадеррекуест** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>бегиндебугшадер</strong></a></td><td ><p>Запрашивает запуск сеанса отладки шейдера для указанного этапа конвейера, точки или вершины, если применимо, событие и кадр.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugshaderrequest-begindebugshader-ipixerrorcallback-ptr-eventid-dword-dword-point2d-pipelinestages-pixelhistoryoperation-ptr-dword-ptr"><strong>бегиндебугшадер</strong></a></td><td style="text-align: left;"><p>Запрашивает запуск сеанса отладки шейдера для указанного этапа конвейера, точки или вершины, если применимо, событие и кадр.</p></td></tr></tbody></table>
 
  
 

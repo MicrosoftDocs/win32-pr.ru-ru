@@ -4,12 +4,12 @@ ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Параметры командной строки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 287b5711468217105846a13496a23794235bbcfdfcbd0e79278aaba17e7c0341
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c72592046bdd30429d373f23f1d2cb39bc9497ee
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118380318"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630910"
 ---
 # <a name="command-line-options"></a>Параметры командной строки
 
@@ -21,9 +21,9 @@ ms.locfileid: "118380318"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,9 +1,9 @@
 ---
-title: Элемент Button (платформа Windows Ribbon)
+title: элемент Button (платформа ленты Windows)
 description: Представляет элемент управления "Кнопка".
 ms.assetid: a17d4dd8-9b0d-4b4a-93f4-f2a8c008fc58
 keywords:
-- Элемент кнопки "лента" Windows
+- элемент Button Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 40236b60a9fe9c72dd35d67fcf7c98bc188938af
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 066327000d490ac1615fe1e1447e1579939670d5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443575"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630687"
 ---
 # <a name="button-element"></a>Button, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "111443575"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -204,12 +204,12 @@ ms.locfileid: "111443575"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Аппликатионмену. Рецентитемс, свойство
 description: Представляет контейнер для элемента управления "Недавние элементы" в меню "приложение".
 ms.assetid: 26ed38b6-17de-423f-a113-ccbaf3780a91
 keywords:
-- Лента Windows для свойства Аппликатионмену. Рецентитемс
+- аппликатионмену. рецентитемс, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 473ab6436eabd7fcbbbfb533a8ae4afc07098c81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6cfb5152cd1d9cc4d27abfa3432666f06880d8e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415604"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630379"
 ---
 # <a name="applicationmenurecentitems-property"></a>Аппликатионмену. Рецентитемс, свойство
 
@@ -39,10 +39,10 @@ ms.locfileid: "104415604"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -85,7 +85,7 @@ ms.locfileid: "104415604"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -127,12 +127,12 @@ ms.locfileid: "104415604"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

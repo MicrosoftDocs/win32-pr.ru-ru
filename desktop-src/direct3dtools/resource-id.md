@@ -17,16 +17,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1e7d93111defb01000e32e4f5ade0c9eb09c827e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5012a6dc40f47a396139eb29f2f88151b4a10ffb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104537571"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623160"
 ---
 # <a name="span-idvspixengineresource_idspanresource_id-enumeration"></a><span id="vspixengine.resource_id"></span>\_Перечисление идентификаторов ресурсов
 
-Определяет идентификаторы ресурсов для общих строковых ресурсов. Они передаются подсистеме захвата из узла. Они используются для отображения строк в наложение HUD передаваемого приложения или для передачи значений реестра из параметров Visual Studio в запись Енги
+Определяет идентификаторы ресурсов для общих строковых ресурсов. Они передаются подсистеме захвата из узла. они используются для вывода строк в наложение HUD передаваемого приложения или для передачи значений реестра из параметров Visual Studio в запись енги
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -170,7 +170,7 @@ ms.locfileid: "104537571"
 Текст, отображаемый в vsglog окно свойств — время начала сеанса
 
 <span id="SUMMARYINFO_SYSTEMINFORMATION"></span><span id="summaryinfo_systeminformation"></span>**СУММАРИНФО \_ SYSTEMINFORMATION**  
-Текст, отображаемый в vsglog окно свойств-системная информация
+текст, отображаемый в окно свойств vsglog — Сведения о системе
 
 <span id="SUMMARYINFO_PROCESSOR"></span><span id="summaryinfo_processor"></span>**\_процессор суммаринфо**  
 Текст, отображаемый в vsglog окно свойств-Processor
@@ -506,7 +506,7 @@ ms.locfileid: "104537571"
 Текст, отображаемый в диалоговом окне настройки брандмауэра — конфигурация Отмена
 
 <span id="IDS_CAPTURETOOLTIP_MESSAGE_CORESYSTEM"></span><span id="ids_capturetooltip_message_coresystem"></span>**ИДЕНТИФИКАТОРы \_ \_ сообщения каптуретултип \_ коресистем**  
-Идентификатор ресурса для строки "для захвата кадров используйте кнопку" запись "в Visual Studio."
+идентификатор ресурса для строки "для записи кадров используйте кнопку" запись "в Visual Studio".
 
 <span id="IDS_ET_NONE"></span><span id="ids_et_none"></span>**ИДЕНТИФИКАТОРы \_ \_ нет**  
 Не используется.
@@ -604,7 +604,7 @@ ms.locfileid: "104537571"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: f2095f25128e524b32b8ad8561ee85119537c32be5e61f77d5c72637396a2183
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9383b6d7638df89bebd369a3657283c1fd6b56ac
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118365612"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480150"
 ---
 # <a name="iespconnect-method"></a>метод иесп:: Подключение
 
@@ -79,71 +79,27 @@ HRESULT STDMETHODCALLTYPE Connect(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Код возврата</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_ALREADY_CONNECTED</strong></dt> </dl></td>
-<td>Этот экземпляр COM-объекта НПП уже подключен к сети.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt> </dl></td>
-<td>Большой двоичный объект конфигурации поврежден. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td>Входной большой двоичный объект, заданный параметром <em>хинпутблоб</em> , не имеет записи, необходимой для выполнения этой операции. эта ошибка может быть сформирована вызовом <strong>иесп:: Подключение</strong> или <strong>иесп:: Configure</strong> . Посмотрите на большой двоичный объект Error, возвращенный <em>херрорблоб</em> , чтобы определить, какая запись не найдена.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
-<td>Функция <strong>CreateBlob</strong> не была вызвана. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt> </dl></td>
-<td>Строка не завершается нулем. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt> </dl></td>
-<td>Часть триггера входного большого двоичного объекта повреждена. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_INVALID_BLOB</strong></dt> </dl></td>
-<td>Объект, указанный в <em>хинпутблоб</em> , не является BLOB-объектом. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt> </dl></td>
-<td>Каталог записи по умолчанию не был задан в реестре. Используйте следующий путь, чтобы задать каталог записи. <br/>
-<pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_OUT_OF_MEMORY</strong></dt> </dl></td>
-<td>Память, необходимая для выполнения этой операции, недоступна. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>NMERR_TIMEOUT</strong></dt> </dl></td>
-<td>Время ожидания запроса истекло. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt><strong>NMERR_UPLEVEL_BLOB</strong></dt> </dl></td>
-<td>Неверный номер версии большого двоичного объекта, указанного в <em>хинпутблоб</em> . Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Код возврата | Описание | 
+|-------------|-------------|
+| <dl><dt><strong>NMERR_ALREADY_CONNECTED</strong></dt></dl> | Этот экземпляр COM-объекта НПП уже подключен к сети.<br /> | 
+| <dl><dt><strong>NMERR_BLOB_CONVERSION_ERROR</strong></dt></dl> | Большой двоичный объект конфигурации поврежден. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt></dl> | Входной большой двоичный объект, заданный параметром <em>хинпутблоб</em> , не имеет записи, необходимой для выполнения этой операции. эта ошибка может быть сформирована вызовом <strong>иесп:: Подключение</strong> или <strong>иесп:: Configure</strong> . Посмотрите на большой двоичный объект Error, возвращенный <em>херрорблоб</em> , чтобы определить, какая запись не найдена.<br /> | 
+| <dl><dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt></dl> | Функция <strong>CreateBlob</strong> не была вызвана. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_BLOB_STRING_INVALID</strong></dt></dl> | Строка не завершается нулем. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_ILLEGAL_TRIGGER</strong></dt></dl> | Часть триггера входного большого двоичного объекта повреждена. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_INVALID_BLOB</strong></dt></dl> | Объект, указанный в <em>хинпутблоб</em> , не является BLOB-объектом. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_NO_DEFAULT_CAPTURE_DIRECTORY</strong></dt></dl> | Каталог записи по умолчанию не был задан в реестре. Используйте следующий путь, чтобы задать каталог записи. <br /><pre class="syntax" data-space="preserve"><code>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\nm\Parameters\CapturePath</code></pre> | 
+| <dl><dt><strong>NMERR_OUT_OF_MEMORY</strong></dt></dl> | Память, необходимая для выполнения этой операции, недоступна. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_TIMEOUT</strong></dt></dl> | Время ожидания запроса истекло. Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+| <dl><dt><strong>NMERR_UPLEVEL_BLOB</strong></dt></dl> | Неверный номер версии большого двоичного объекта, указанного в <em>хинпутблоб</em> . Эта ошибка возникает при вызове <strong>ИЕСП:: Configure</strong> .<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 при вызове метода **Подключение** сетевой монитор автоматически вызывает **иесп:: Configure** с помощью большого двоичного объекта, предоставленного параметром *хинпутблоб* . обратите внимание, что все коды ошибок, возвращенные вызовом метода **иесп:: Configure** , передаются обратно и возвращаются вызовом **иесп:: Подключение** .
 
@@ -176,7 +132,7 @@ BLOB-объект ошибки, возвращенный *херрорблоб* 
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

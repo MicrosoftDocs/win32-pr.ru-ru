@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: vs|controls|~\controls\scrollbars\scrollbars.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38cf549a37fd5d4a271f6e12642a9bfd45b65d79
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cc4f3a737d64f81079e1a73cf97cb6275e94fec5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103794106"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474730"
 ---
 # <a name="scroll-bar"></a>Scroll Bar
 
@@ -32,93 +32,22 @@ ms.locfileid: "103794106"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Содержимое</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>енаблескроллбар</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>енаблескроллбар</strong></a> включает или отключает одну или обе стрелки полосы прокрутки. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>жетскроллбаринфо</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>жетскроллбаринфо</strong></a> получает сведения об указанной полосе прокрутки.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> получает параметры полосы прокрутки, включая минимальные и максимальные положения прокрутки, размер страницы и положение ползунка (Thumb).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a> извлекает текущее расположение бегунка (Thumb) в указанной полосе прокрутки. Текущая величина — это относительное значение, которое зависит от текущего диапазона прокрутки. Например, если диапазон прокрутки находится в диапазоне от 0 до 100, а поле прокрутки находится в середине линейки, текущее расположение равно 50.
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a> извлекает текущую минимальную и максимальную позиции полосы прокрутки (Thumb) для указанной полосы прокрутки.
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a> предоставляется только для обеспечения совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>скроллдк</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>скроллдк</strong></a> прокручивает прямоугольник битов по горизонтали и вертикали. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a> прокручивает содержимое клиентской области указанного окна.
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a> прокручивает содержимое клиентской области указанного окна. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> задает параметры полосы прокрутки, включая минимальные и максимальные положения прокрутки, размер страницы и положение ползунка (Thumb). При запросе функция также перерисовывает полосу прокрутки.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a> задает расположение ползунка (бегунка) в указанной полосе прокрутки и, при запросе, перерисовывает полосу прокрутки, чтобы отразить новую точку полосы прокрутки.
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a> устанавливает минимальные и максимальные позиции полосы прокрутки для указанной полосы прокрутки.
-<blockquote>
-[!Note]<br />
-Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>шовскроллбар</strong></a></td>
-<td>Функция <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>шовскроллбар</strong></a> показывает или скрывает указанную полосу прокрутки. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Содержимое | 
+|-------|----------|
+| <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>енаблескроллбар</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>енаблескроллбар</strong></a> включает или отключает одну или обе стрелки полосы прокрутки. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>жетскроллбаринфо</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>жетскроллбаринфо</strong></a> получает сведения об указанной полосе прокрутки.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> получает параметры полосы прокрутки, включая минимальные и максимальные положения прокрутки, размер страницы и положение ползунка (Thumb).<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a> извлекает текущее расположение бегунка (Thumb) в указанной полосе прокрутки. Текущая величина — это относительное значение, которое зависит от текущего диапазона прокрутки. Например, если диапазон прокрутки находится в диапазоне от 0 до 100, а поле прокрутки находится в середине линейки, текущее расположение равно 50.<blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>жетскроллпос</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a> извлекает текущую минимальную и максимальную позиции полосы прокрутки (Thumb) для указанной полосы прокрутки.<blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>жетскроллранже</strong></a> предоставляется только для обеспечения совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>жетскроллинфо</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>скроллдк</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>скроллдк</strong></a> прокручивает прямоугольник битов по горизонтали и вертикали. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a> прокручивает содержимое клиентской области указанного окна.<blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>скроллвиндов</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>скроллвиндовекс</strong></a> прокручивает содержимое клиентской области указанного окна. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> задает параметры полосы прокрутки, включая минимальные и максимальные положения прокрутки, размер страницы и положение ползунка (Thumb). При запросе функция также перерисовывает полосу прокрутки.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a> задает расположение ползунка (бегунка) в указанной полосе прокрутки и, при запросе, перерисовывает полосу прокрутки, чтобы отразить новую точку полосы прокрутки.<blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>сетскроллпос</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a> устанавливает минимальные и максимальные позиции полосы прокрутки для указанной полосы прокрутки.<blockquote>[!Note]<br />Функция <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>сетскроллранже</strong></a> предоставляется для обеспечения обратной совместимости. Новые приложения должны использовать функцию <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>сетскроллинфо</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>шовскроллбар</strong></a> | Функция <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>шовскроллбар</strong></a> показывает или скрывает указанную полосу прокрутки. <br /> | 
+
 
 
 
