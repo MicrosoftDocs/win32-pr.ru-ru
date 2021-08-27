@@ -3,18 +3,18 @@ title: Типы взаимного исключения
 description: Типы взаимного исключения
 ms.assetid: bfe6cfe6-3df4-49c4-8015-fe4479b693c1
 keywords:
-- Пакет SDK для Windows Media Format, взаимное исключение
+- Windows Пакет SDK для формата мультимедиа, взаимное исключение
 - Расширенный формат систем (ASF), взаимное исключение
 - ASF (Расширенный системный формат), взаимное исключение
 - взаимное исключение, типы
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c425e69c2aa3eac012874837a6970dbc26d1a51
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da546c753696144c68348c61d01473c7d6414290b5971c220ac8c983317b3b15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104069528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110274"
 ---
 # <a name="mutual-exclusion-types"></a>Типы взаимного исключения
 
@@ -24,7 +24,7 @@ ms.locfileid: "104069528"
 
 
 
-| Константа типа взаимного исключения | Код GUID                                 |
+| Константа типа взаимного исключения | GUID                                 |
 |--------------------------------|--------------------------------------|
 | \_Язык CLSID вммутекс \_       | D6E22A00-35DA-11D1-9034-00A0C90349BE |
 | CLSID \_ вммутекс \_ скорость        | D6E22A01-35DA-11D1-9034-00A0C90349BE |
@@ -33,18 +33,18 @@ ms.locfileid: "104069528"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Значения GUID**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

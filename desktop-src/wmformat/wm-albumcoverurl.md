@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ef494620e6759a503ec7c966c94e04ce671de74
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ffc7ab3a0f0e68b7dc3abb595ba22da75c92a4de219ea04b0cb2366d9ce20874
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110054"
 ---
 # <a name="wmalbumcoverurl"></a>WM/Албумковерурл
 
@@ -31,16 +31,16 @@ g \_ всзвмалбумковерурл
 
 **\_Строка типа \_ ВМТ**
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

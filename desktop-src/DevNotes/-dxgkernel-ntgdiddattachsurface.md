@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: a3d099e7b3a3106e0e1e4285b37d2ea205baf3d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8ec07f539cfa2a99338d8366f10f7c3d79dbdd5ef26a6de0ee0296941e2c84ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088034"
 ---
 # <a name="ntgdiddattachsurface-function"></a>Функция Нтгдиддаттачсурфаце
 
@@ -74,7 +74,7 @@ BOOL APIENTRY NtGdiDdAttachSurface(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Полное описание вложений Surface см. в пакете SDK и пакете средств разработки драйверов (DDK) для DirectDraw.
 
@@ -83,7 +83,7 @@ BOOL APIENTRY NtGdiDdAttachSurface(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -95,7 +95,7 @@ BOOL APIENTRY NtGdiDdAttachSurface(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

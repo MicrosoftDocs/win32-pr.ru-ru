@@ -1,20 +1,20 @@
 ---
 title: Усовершенствования инфраструктуры удаленной оболочки
-description: Служба удаленного управления Windows версии 2,0 (WinRM 2,0) предлагает несколько улучшений инфраструктуры удаленной оболочки.
+description: Windows Удаленное управление версии 2,0 (WinRM 2,0) обеспечивает множество улучшений инфраструктуры удаленной оболочки.
 ms.assetid: b22693ba-fa43-44bb-9b2d-0c64fad6e3cc
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c67752222f1ca969ea254164a25144168d1eb3
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: bf88a472319b4b4677992f97509a3603cfe4a32f272388caf9db100b6e7457ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104069485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121664"
 ---
 # <a name="remote-shell-infrastructure-improvements"></a>Усовершенствования инфраструктуры удаленной оболочки
 
-Служба удаленного управления Windows версии 2,0 (WinRM 2,0) предлагает несколько улучшений инфраструктуры удаленной оболочки. Эти улучшения подробно описаны в следующих разделах:
+Windows Удаленное управление версии 2,0 (WinRM 2,0) обеспечивает множество улучшений инфраструктуры удаленной оболочки. Эти улучшения подробно описаны в следующих разделах:
 
 -   [Поддержка нескольких прыжков](multi-hop-support.md)
 -   [Управление квотами для удаленных оболочек](quotas.md)
@@ -184,7 +184,7 @@ Shell
 
 Дополнительные сведения см. в справке в Интернете, предоставляемой следующей командой: **WinRM Get-?**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -197,9 +197,9 @@ Shell
 [Управляемый Справочник по командам PowerShell WS-Management](winrm-powershell-commandlets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

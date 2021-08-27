@@ -4,12 +4,12 @@ ms.assetid: 0b819984-c048-4512-962a-e2320e1585b2
 title: System. photo. Експосуребиас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc539b0b709d871b987ed10f9509fe14e9f53f52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f134ded74622d4ea0877c59bea6515b1ca1b2ac9700b7b7e8d32cc8ab03a8ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104345212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112074"
 ---
 # <a name="systemphotoexposurebias"></a>System. photo. Експосуребиас
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

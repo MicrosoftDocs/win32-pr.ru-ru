@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Windows.ApplicationModel.h
-ms.openlocfilehash: 305610108b7a138693ccdce97e35ddbe90451806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 448f4d89ec2f1b7e3f68255897b32b3f4cba2ec753ae8f6cc7751c9041b01266
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121504"
 ---
 # <a name="isuspendingoperationdeadline-property"></a>Исуспендингоператион: свойство еадлине:D
 
@@ -45,7 +45,7 @@ HRESULT get_Deadline(
 
 Время, оставшееся до того, как будет приостановлена отложенная операция приостановки приложения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -53,12 +53,12 @@ HRESULT get_Deadline(
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                                    |
 | Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
-| Header<br/>                   | <dl> <dt>Windows. ApplicationModel. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Windows. ApplicationModel. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Windows. ApplicationModel. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

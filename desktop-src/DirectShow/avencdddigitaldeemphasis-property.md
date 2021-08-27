@@ -4,12 +4,12 @@ ms.assetid: 5d2d9f1d-fdc3-448f-8d9f-f75a73a63cd3
 title: Свойство Авенкдддигиталдимфасис (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42662de5aebda80db8f2011a923e4a86e2c831fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5a9eb0c7404c1efad35c811cc0acf438fb00fe785de5155fbfd5cb06f43db3d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103806568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084604"
 ---
 # <a name="avencdddigitaldeemphasis-property"></a>Авенкдддигиталдимфасис, свойство
 
@@ -25,19 +25,19 @@ ms.locfileid: "103806568"
 
 **КОДЕКАПИ \_ авенкдддигиталдимфасис**
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
-| Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Заголовок<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: e67d0282-9090-43e6-aedf-bb1fc0443221
 title: Перечисление АССОКФ
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70ddb0b4fb89925c643eb01c276772b9a7151578
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b6920ef874833471d88c4d42a074661337469b11
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104273309"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477940"
 ---
 # <a name="assocf-enumeration"></a>Перечисление АССОКФ
 
@@ -19,24 +19,11 @@ ms.locfileid: "104273309"
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table><colgroup><col style="width: 100%" /></colgroup><thead><tr class="header"><th>C++</th></tr></thead><tbody><tr class="odd"><td><pre><code>typedef enum  { 
-  ASSOCF_NONE                  = 0x00000000,
-  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,
-  ASSOCF_INIT_BYEXENAME        = 0x00000002,
-  ASSOCF_OPEN_BYEXENAME        = 0x00000002,
-  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,
-  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,
-  ASSOCF_NOUSERSETTINGS        = 0x00000010,
-  ASSOCF_NOTRUNCATE            = 0x00000020,
-  ASSOCF_VERIFY                = 0x00000040,
-  ASSOCF_REMAPRUNDLL           = 0x00000080,
-  ASSOCF_NOFIXUPS              = 0x00000100,
-  ASSOCF_IGNOREBASECLASS       = 0x00000200,
-  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,
-  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,
-  ASSOCF_IS_PROTOCOL           = 0x00001000,
-  ASSOCF_INIT_FOR_FILE         = 0x00002000
-} ASSOCF;</code></pre></td></tr></tbody></table>
+
+| C++ | 
+|-----|
+| <pre><code>typedef enum  {   ASSOCF_NONE                  = 0x00000000,  ASSOCF_INIT_NOREMAPCLSID     = 0x00000001,  ASSOCF_INIT_BYEXENAME        = 0x00000002,  ASSOCF_OPEN_BYEXENAME        = 0x00000002,  ASSOCF_INIT_DEFAULTTOSTAR    = 0x00000004,  ASSOCF_INIT_DEFAULTTOFOLDER  = 0x00000008,  ASSOCF_NOUSERSETTINGS        = 0x00000010,  ASSOCF_NOTRUNCATE            = 0x00000020,  ASSOCF_VERIFY                = 0x00000040,  ASSOCF_REMAPRUNDLL           = 0x00000080,  ASSOCF_NOFIXUPS              = 0x00000100,  ASSOCF_IGNOREBASECLASS       = 0x00000200,  ASSOCF_INIT_IGNOREUNKNOWN    = 0x00000400,  ASSOCF_INIT_FIXED_PROGID     = 0x00000800,  ASSOCF_IS_PROTOCOL           = 0x00001000,  ASSOCF_INIT_FOR_FILE         = 0x00002000} ASSOCF;</code></pre> | 
+
 
 
 
@@ -52,7 +39,7 @@ ms.locfileid: "104273309"
 
  <span id="ASSOCF_INIT_BYEXENAME"></span><span id="assocf_init_byexename"></span>**АССОКФ \_ init \_ бексенаме** 
 
-Определяет значение параметра *Пвсзассок* [**ИкуеряссоЦиатионс:: init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init) в качестве имени исполняемого файла. Если этот флаг не установлен, для корневого ключа будет задан идентификатор ProgID, связанный с ключом **exe** , а не исполняемый файл ProgID.
+Определяет значение параметра *Пвсзассок* [**ИкуеряссоЦиатионс:: init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init) в качестве имени исполняемого файла. Если этот флаг не установлен, для корневого ключа будет задан идентификатор ProgID, связанный с ключом **.exe** , а не ProgID исполняемого файла.
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**АССОКФ \_ Open \_ бексенаме** 
 
@@ -76,15 +63,15 @@ ms.locfileid: "104273309"
 
  <span id="ASSOCF_VERIFY"></span><span id="assocf_verify"></span>**\_Проверка ассокф** 
 
-Инструктирует методы [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) для проверки правильности данных. Этот параметр позволяет методам **икуеряссоЦиатионс** считывать данные с жесткого диска пользователя для проверки. Например, они могут проверить понятное имя в реестре на соответствие сохраненному в exe файле. Установка этого флага обычно сокращает эффективность метода.
+Инструктирует методы [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) для проверки правильности данных. Этот параметр позволяет методам **икуеряссоЦиатионс** считывать данные с жесткого диска пользователя для проверки. Например, они могут проверить понятное имя в реестре на соответствие сохраненному в файле .exe. Установка этого флага обычно сокращает эффективность метода.
 
  <span id="ASSOCF_REMAPRUNDLL"></span><span id="assocf_remaprundll"></span>**АССОКФ \_ ремапрундлл** 
 
-Указывает, что методы [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) не пропускают Rundll.exe и возвращают сведения о ее целевом объекте. Обычно методы **икуеряссоЦиатионс** возвращают сведения о первом exe-или DLL в командной строке. Если команда использует Rundll.exe, установка этого флага указывает методу игнорировать Rundll.exe и возвращать сведения о целевом объекте.
+Указывает, что методы [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) не пропускают Rundll.exe и возвращают сведения о ее целевом объекте. Обычно методы **икуеряссоЦиатионс** возвращают сведения о первом .exe или .dll в командной строке. Если команда использует Rundll.exe, установка этого флага указывает методу игнорировать Rundll.exe и возвращать сведения о целевом объекте.
 
  <span id="ASSOCF_NOFIXUPS"></span><span id="assocf_nofixups"></span>**АССОКФные \_ исправления** 
 
-Указывает методам [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) не исправлять ошибки в реестре, например понятное имя функции, не совпадающее с именем, найденным в exe-файле.
+Указывает методам [**икуеряссоЦиатионс**](/windows/win32/api/shlwapi/nn-shlwapi-iqueryassociations) не исправлять ошибки в реестре, например понятное имя функции, не совпадающее с именем, найденным в файле .exe.
 
  <span id="ASSOCF_IGNOREBASECLASS"></span><span id="assocf_ignorebaseclass"></span>**АССОКФ \_ игноребасекласс** 
 
@@ -92,15 +79,15 @@ ms.locfileid: "104273309"
 
  <span id="ASSOCF_INIT_IGNOREUNKNOWN"></span><span id="assocf_init_ignoreunknown"></span>**АССОКФ \_ init \_ игнореункновн** 
 
-**Впервые появился в Windows 7**. Указывает, что ProgID "Unknown" следует игнорировать. Вместо этого происходит сбой.
+**появилось в Windows 7**. Указывает, что ProgID "Unknown" следует игнорировать. Вместо этого происходит сбой.
 
  <span id="ASSOCF_INIT_FIXED_PROGID"></span><span id="assocf_init_fixed_progid"></span>**\_ \_ фиксированный \_ идентификатор ProgID ассокф init** 
 
-**Впервые появился в Windows 8**. Указывает, что указанный идентификатор ProgID должен быть сопоставлен с использованием системных значений по умолчанию, а не по умолчанию текущего пользователя.
+**Введено в Windows 8**. Указывает, что указанный идентификатор ProgID должен быть сопоставлен с использованием системных значений по умолчанию, а не по умолчанию текущего пользователя.
 
  <span id="ASSOCF_IS_PROTOCOL"></span><span id="assocf_is_protocol"></span>**АССОКФ \_ — \_ протокол** 
 
-**Впервые появился в Windows 8**. Указывает, что значение является протоколом и должно быть сопоставлено с текущими значениями по умолчанию для текущего пользователя.
+**Введено в Windows 8**. Указывает, что значение является протоколом и должно быть сопоставлено с текущими значениями по умолчанию для текущего пользователя.
 
  <span id="ASSOCF_INIT_FOR_FILE"></span><span id="assocf_init_for_file"></span>**\_Инициализация ассокф \_ для \_ файла** 
 
@@ -114,13 +101,13 @@ ms.locfileid: "104273309"
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Windows 2000 Professional, только для \[ классических приложений Windows XP\]               |
+| Минимальная версия клиента | Windows 2000 Professional, только для \[ настольных приложений Windows XP\]               |
 | Минимальная версия сервера | Windows 2000 Server \[только классические приложения\]                                 |
 | Заголовок                   |  Shlwapi. h  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
  [**Ассоккуерикэй**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerykeya) [**ассоккуеристринг**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerystringa) [**ассоккуеристрингбикэй**](/windows/win32/api/shlwapi/nf-shlwapi-assocquerystringa) 
 

@@ -4,12 +4,12 @@ ms.assetid: ab607429-d845-4ca6-9aa2-b68c66c58738
 title: Испанская Фактоидс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c09490ddb9b3dee6ae55d50bc21968ab15be2e201842370b7d46f91a857f544
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8be17adb8b254a5e99e02acd77ccab4274019ad5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118715514"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122621940"
 ---
 # <a name="spanish-factoids"></a>Испанская Фактоидс
 
@@ -19,9 +19,9 @@ ms.locfileid: "118715514"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

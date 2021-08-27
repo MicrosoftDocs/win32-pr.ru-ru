@@ -4,12 +4,12 @@ ms.assetid: adb39f27-c219-43cd-9e86-b2d3b663c79c
 title: Использование жестко закодированных IPv4-адресов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8205840b1c79afcaf375b81f3223a1c780cc03d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0506f200776402464c4b2904435157c435ece7fc2c6d9e0b10bfd1c1d66491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121204"
 ---
 # <a name="use-of-hardcoded-ipv4-addresses"></a>Использование жестко закодированных IPv4-адресов
 
@@ -25,18 +25,18 @@ ms.locfileid: "104343455"
 
 **Изменение существующей базы кода с IPv4 на IPv4 и взаимодействие с IPv6**
 
-1.  Получите служебную программу *Checkv4.exe* . Программа *Checkv4.exe* устанавливается в составе пакета средств разработки программного обеспечения Microsoft Windows (SDK), выпущенного для Windows Vista и более поздних версий. Windows SDK доступен по подписке MSDN. ее также можно загрузить с веб-сайта Майкрософт ( https://msdn.microsoft.com) .
+1.  Получите служебную программу *Checkv4.exe* . служебная программа *Checkv4.exe* устанавливается как часть пакета средств разработки Microsoft Windows Software Development Kit (SDK), выпущенного для Windows Vista и более поздних версий. Windows SDK доступен по подписке MSDN. ее также можно загрузить с веб-сайта майкрософт ( https://msdn.microsoft.com) .
 2.  Запустите служебную программу *Checkv4.exe* для своего кода. Узнайте, как запустить служебную программу *Checkv4.exe* для файлов в разделе об [использовании служебной программы Checkv4.exe](using-the-checkv4-exe-utility-2.md).
 3.  Служебная программа *Checkv4.exe* предупреждает о наличии общих определений для IPv4-адресов, таких как деадрес \_ замыкания на себя. Измените код, который использует строковые литералы, с кодом, который не зависит от версии протокола.
 4.  Найдите в базе кода другие возможные строковые литералы, если это уместно.
 
 Служебная программа *Checkv4.exe* может помочь найти общие строковые литералы, но могут быть другие, характерные для вашего приложения. Необходимо выполнить тщательный поиск и тестирование, чтобы гарантировать, что база кода ерадикатед потенциальные проблемы, связанные со строковыми строками.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[рекомендации по IPv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Изменение структур данных для IPv6 Winsock Аппикатионс](changing-data-structures-2.md)

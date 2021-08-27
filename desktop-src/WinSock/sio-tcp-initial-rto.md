@@ -4,16 +4,16 @@ ms.assetid: F5ABAE57-E0F0-4AEB-825C-B53AEE8210E7
 title: Код элемента управления SIO_TCP_INITIAL_RTO
 ms.topic: reference
 ms.date: 05/20/2019
-req.target-min-winverclnt: Windows Vista [desktop apps only]
-req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 116bab23c2c5f4ef21b77a1b7f9fefa8b3ff3099
-ms.sourcegitcommit: 191184ea30e209f67267ebe5b222dc16965e54e0
+ms.openlocfilehash: 63ebbfd0d8d56c03d62c7bba417d69e3ac1a576abfc8c72ac489117a7d8b74c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "104488472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097484"
 ---
 # <a name="sio_tcp_initial_rto-control-code"></a>Код элемента управления SIO_TCP_INITIAL_RTO
 
@@ -146,7 +146,7 @@ int WSPIoctl(
 | **всаенотсокк** | Предпринята попытка выполнить операцию для объекта, который не является сокетом. Эта ошибка возвращается, если дескриптор s не является сокетом. |
 | **всаеопнотсупп** | Предпринятая операция не поддерживается для типа объекта, на который указывает ссылка. Эта ошибка возвращается, если указанная команда IOCTL не поддерживается. Эта ошибка также возвращается, если **SIO_TCP_INITIAL_RTO** ioctl не поддерживается поставщиком транспорта. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение может использовать **SIO_TCP_INITIAL_RTO** IOCTL для управления начальными характеристиками повторной передачи (SYN/SYN + ACK) СОКЕТа TCP, если это необходимо.
 Приложение при использовании этого параметра должно предоставлять подходящие значения перед началом попытки подключения TCP к сокету.
@@ -156,7 +156,7 @@ int WSPIoctl(
 Указатель на структуру [**TCP_INITIAL_RTO_PARAMETERS**](/windows/desktop/api/mstcpip/ns-mstcpip-tcp_initial_rto_parameters) , переданную в параметре *лпвинбуффер* , позволяет приложению настроить начальное время кругового пути (RTT), используемое для расчета времени ожидания повторной передачи.
 Кроме того, приложение может настроить число повторных передач, которые будут выполняться до сбоя попытки подключения.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [фиксатор](/windows/desktop/api/winsock2/nf-winsock2-socket)
 

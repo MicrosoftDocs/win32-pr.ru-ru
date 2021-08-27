@@ -3,7 +3,7 @@ title: Сообщение LVM_GETITEM (Коммктрл. h)
 description: Извлекает некоторые или все атрибуты элемента представления списка. Это сообщение можно отправить явным образом или с помощью \_ макроса элемента ListView.
 ms.assetid: 684ad96a-2c3b-4148-b66c-41f8322500bb
 keywords:
-- Элементы управления Windows для LVM_GETITEM сообщений
+- элементы управления Windows сообщений LVM_GETITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c19632567db5e37059b1b028a8ec1fc9385268cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05338abce0396c5cc527c8a1c04176b3b59243a684c66a263cb190d59ac68b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088904"
 ---
 # <a name="lvm_getitem-message"></a>\_Сообщение LVM
 
@@ -45,7 +45,7 @@ ms.locfileid: "103803395"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При отправке сообщения **LVM- \_ Item** элементы **Член iItem** и **iSubItem** определяют элемент или подэлемент для получения сведений, а элемент **Mask** указывает, какие атрибуты следует извлечь. Список возможных значений см. в описании структуры [**лвитем**](/windows/win32/api/commctrl/ns-commctrl-lvitema) .
 
@@ -59,8 +59,8 @@ ms.locfileid: "103803395"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **LVM \_ ЖЕТИТЕМВ** (Юникод) и **LVM- \_ элемент** a (ANSI)<br/>                   |
 

@@ -1,29 +1,29 @@
 ---
-title: Пример сенсорного жеста Windows (Мтжестурес)
-description: В этом разделе описывается пример сенсорного жеста Windows.
+title: Windows Пример сенсорного жеста (Мтжестурес)
+description: в этом разделе описывается пример сенсорного жеста Windows.
 ms.assetid: 04166c9c-5de7-409e-9d5e-dd210a3a3f11
 keywords:
-- Windows Touch, примеры кода
-- Windows Touch, пример кода
-- Касание Windows, жесты
-- Сенсорные примеры для Windows, жесты
+- Windows Сенсорный ввод, примеры кода
+- Windows Сенсорный ввод, пример кода
+- Windows Касание, жесты
+- Windows Сенсорный ввод, примеры жестов
 - Примеры жестов
 - жесты, пример кода
 - жесты, примеры кода
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 0e01d97e844af37caeb5c33f3cb780601da4629d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 656b269eae779cd999680e165ba071d983d18526c2e9b873c5a916d61ccdb9f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103788724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110592"
 ---
-# <a name="windows-touch-gesture-sample-mtgestures"></a>Пример сенсорного жеста Windows (Мтжестурес)
+# <a name="windows-touch-gesture-sample-mtgestures"></a>Windows Пример сенсорного жеста (Мтжестурес)
 
-В этом разделе описывается пример сенсорного жеста Windows.
+в этом разделе описывается пример сенсорного жеста Windows.
 
-В образце Windows Touch жестов показано, как использовать сообщения жестов для преобразования, вращения и масштабирования поля, отображаемого интерфейс графических устройств (GDI), обрабатывая сообщение [**WM_GESTURE**](wm-gesture.md) . На следующем снимке экрана показано, как выглядит пример при его выполнении.
+в образце Windows касание показано, как использовать сообщения жестов для преобразования, вращения и масштабирования поля, отображаемого интерфейс графических устройств (GDI), обрабатывая сообщение [**WM_GESTURE**](wm-gesture.md) . На следующем снимке экрана показано, как выглядит пример при его выполнении.
 
 ![снимок экрана с образцом жеста касания Windows при его выполнении с повернутым, черно-белым прямоугольником на экране](images/mtgestures.png)
 
@@ -71,6 +71,6 @@ void ToggleDrawDiagonals(void){_bDrawDiagonals = !_bDrawDiagonals;}
     }
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-[Приложение жестов с несколькими касаниями (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [приложение жестов с несколькими касаниями (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), [примеры для Windows Touch](windows-touch-samples.md)
+[приложение жестов с несколькими касаниями (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [приложение жестов с несколькими касаниями (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), [Windows примеры сенсорного ввода](windows-touch-samples.md)

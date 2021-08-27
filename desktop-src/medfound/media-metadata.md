@@ -4,12 +4,12 @@ ms.assetid: dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9
 title: Метаданные мультимедиа
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb17f286673663976e17b4178239507765c2101
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 9ef9f8a852bbce2dfb8d38a5883acc219cde8019
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105713282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477090"
 ---
 # <a name="media-metadata"></a>Метаданные мультимедиа
 
@@ -22,7 +22,7 @@ ms.locfileid: "105713282"
 Существует два способа чтения метаданных в Media Foundation.
 
 -   Интерфейс [**имфметадата**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) (Media Foundation метаданных версии 1).
--   Интерфейс [**Ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) оболочки Windows (метаданные оболочки).
+-   интерфейс [**ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) оболочки Windows (метаданные оболочки).
 
 Метаданные оболочки относятся не только к файлам мультимедиа, но и к более широкому спектру файлов в системе.
 
@@ -30,49 +30,16 @@ ms.locfileid: "105713282"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Метаданные Media Foundation v1</th>
-<th>Метаданные оболочки</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Требуется Windows Vista или более поздняя версия.</td>
-<td>Требуется Windows 7.
-<blockquote>
-[!Note]<br />
-Метаданные оболочки в целом не нуждаются в Windows 7, но Media Foundation не поддерживали метаданные оболочки до Windows 7.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Свойства несовместимы с системой свойств оболочки.</td>
-<td>Свойства совместимы с системой свойств оболочки.</td>
-</tr>
-<tr class="odd">
-<td>Свойства могут применяться ко всему файлу или на уровне потока.</td>
-<td>Поддерживаются только свойства уровня файла. Свойства уровня потока не поддерживаются.</td>
-</tr>
-<tr class="even">
-<td>Свойства могут иметь значения на нескольких языках.</td>
-<td>Значения на нескольких языках не поддерживаются.</td>
-</tr>
-<tr class="odd">
-<td>Ключи свойств — это строки расширенных символов.</td>
-<td>Ключи свойств — это <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> значения.</td>
-</tr>
-<tr class="even">
-<td>Значения свойств — это <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> значения.</td>
-<td>Значения свойств — это <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> значения.</td>
-</tr>
-</tbody>
-</table>
+
+| Метаданные Media Foundation v1 | Метаданные оболочки | 
+|------------------------------|----------------|
+| требуется Windows Vista или более поздней версии. | требуется Windows 7.<blockquote>[!Note]<br />метаданные оболочки в целом не нуждаются в Windows 7, но Media Foundation не поддерживали метаданные оболочки до Windows 7.</blockquote><br /> | 
+| Свойства несовместимы с системой свойств оболочки. | Свойства совместимы с системой свойств оболочки. | 
+| Свойства могут применяться ко всему файлу или на уровне потока. | Поддерживаются только свойства уровня файла. Свойства уровня потока не поддерживаются. | 
+| Свойства могут иметь значения на нескольких языках. | Значения на нескольких языках не поддерживаются. | 
+| Ключи свойств — это строки расширенных символов. | Ключи свойств — это <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> значения. | 
+| Значения свойств — это <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> значения. | Значения свойств — это <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>пропвариант</strong></a> значения. | 
+
 
 
 
@@ -84,9 +51,9 @@ ms.locfileid: "105713282"
 
 | Раздел                                                                                     | Описание                                                                                                                                |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [Поставщики метаданных оболочки](shell-metadata-providers.md)<br/>                       | Начиная с Windows 7 Media Foundation предоставляет метаданные через интерфейс [**ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .<br/> |
+| [Поставщики метаданных оболочки](shell-metadata-providers.md)<br/>                       | начиная с Windows 7 Media Foundation предоставляет метаданные через интерфейс [**ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .<br/> |
 | [Свойства метаданных для файлов мультимедиа](metadata-properties-for-media-files.md)<br/> | В этом разделе перечислены наиболее распространенные свойства метаданных для файлов мультимедиа.<br/>                                                           |
-| [Поставщики метаданных в Windows Vista](metadata-providers-in-windows-vista.md)<br/> | В Windows Vista Media Foundation предоставляет метаданные через интерфейс [**имфметадата**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .<br/>                   |
+| [поставщики метаданных в Windows Vista](metadata-providers-in-windows-vista.md)<br/> | в Windows Vista Media Foundation предоставляет метаданные через интерфейс [**имфметадата**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .<br/>                   |
 
 
 
@@ -94,7 +61,7 @@ ms.locfileid: "105713282"
 
 Если вы реализуете пользовательский источник мультимедиа и хотите предоставить метаданные оболочки, см. раздел [пользовательские поставщики метаданных для файлов мультимедиа](custom-metadata-providers-for-media-files.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

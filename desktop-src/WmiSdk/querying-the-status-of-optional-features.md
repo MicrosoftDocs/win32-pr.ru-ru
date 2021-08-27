@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Запрос состояния дополнительных функций
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec27457336adcc5c358aad0a5e139c1c7c07f6bcb72335ec549f9ca98cc1e5a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ecffe6ddbe9b860c6f49fe12d3fed500c169bef
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119996034"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476710"
 ---
 # <a name="querying-the-status-of-optional-features"></a>Запрос состояния дополнительных функций
 
@@ -21,72 +21,42 @@ ms.locfileid: "119996034"
 **Получение всех экземпляров дополнительных компонентов, имеющихся на компьютере**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject Win32_OptionalFeature</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject Win32_OptionalFeature</code></pre> | 
+
 
     
 
 **Запрос дополнительных компонентов путем указания имени функции**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject -query &quot;select * from Win32_OptionalFeature where name = &#39;TelnetClient&#39;&quot;</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject -query "select * from Win32_OptionalFeature where name = 'TelnetClient'"</code></pre> | 
+
 
     
 
     > [!Note]  
-    > В свойстве **Name** учитывается регистр.
+    > The **name** property is case-sensitive.
 
      
 
 **Запрос дополнительных компонентов путем указания состояния установки**
 
 -   <span codelanguage="PowerShell"></span>
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>PowerShell</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><pre><code>Get-WmiObject -query &quot;select * from win32_optionalfeature where installstate= 1&quot;</code></pre></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| PowerShell | 
+|------------|
+| <pre><code>Get-WmiObject -query "select * from win32_optionalfeature where installstate= 1"</code></pre> | 
+
 
     
 
-    Дополнительные сведения о возможных значениях свойства **InstallState** см. в разделе [**Win32 \_ оптионалфеатуре**](/windows/desktop/CIMWin32Prov/win32-optionalfeature).
+    For more information about the possible values for the **InstallState** property, see [**Win32\_OptionalFeature**](/windows/desktop/CIMWin32Prov/win32-optionalfeature).
 
 ## <a name="related-topics"></a>Связанные темы
 

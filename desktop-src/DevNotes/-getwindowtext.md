@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 61c84c8a5f00ad97b8a76ef4139b20b74f1be085
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0da23649b52593db1274ebfe36d928c6a7b0a7a244bebae17cc5e720c8dc6093
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087994"
 ---
 # <a name="_getwindowtext-function"></a>\_Функция Жетвиндовтекст
 
@@ -44,7 +44,7 @@ int _GetWindowText(
 *...* 
 </dt> <dd></dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -54,7 +54,7 @@ int _GetWindowText(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

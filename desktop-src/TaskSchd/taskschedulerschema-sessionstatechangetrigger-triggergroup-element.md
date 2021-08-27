@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d21847a929e79e2da53b1e66a23aec0c2f1c630f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d22b2f47584f437c01575ffecfb6d5c25e312b9584ba46abc9d6997e14187eaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099824"
 ---
 # <a name="sessionstatechangetrigger-triggergroup-element"></a>Сессионстатечанжетригжер (Тригжерграуп), элемент
 
@@ -38,7 +38,7 @@ ms.locfileid: "103803215"
 
 | Элемент                                                           | Унаследован от                                                         | Описание                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
-| [**Триггеры**](taskschedulerschema-triggers-tasktype-element.md) | [**тригжерстипе**](taskschedulerschema-triggerstype-complextype.md) | Задает триггеры, которые запускают задачу.<br/> |
+| [**План**](taskschedulerschema-triggers-tasktype-element.md) | [**тригжерстипе**](taskschedulerschema-triggerstype-complextype.md) | Задает триггеры, которые запускают задачу.<br/> |
 
 
 
@@ -54,20 +54,20 @@ ms.locfileid: "103803215"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев триггер изменения состояния сеанса указывается с помощью объекта [**сессионстатечанжетригжер**](sessionstatechangetrigger.md) .
 
 Для разработки на C++ триггер изменения состояния сеанса указывается с помощью интерфейса [**исессионстатечанжетригжер**](/windows/desktop/api/taskschd/nn-taskschd-isessionstatechangetrigger) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

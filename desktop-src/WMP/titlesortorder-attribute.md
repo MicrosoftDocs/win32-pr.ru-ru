@@ -3,7 +3,7 @@ title: Атрибут Титлесортордер
 description: Атрибут Титлесортордер — это значение, используемое для сортировки столбца Title в библиотеке.
 ms.assetid: 199e02f8-c0df-49cb-baba-6c6d7b18a0c0
 keywords:
-- Титлесортордер атрибут Windows Media Player
+- проигрыватель Windows Media атрибута титлесортордер
 topic_type:
 - apiref
 api_name:
@@ -12,24 +12,24 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d407f0606b0125e748406b21570585a449897639
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72e85f9ca04ec62b3d8b867c74de4188deb1992903550e4af150ba0b87b42e47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122794"
 ---
 # <a name="titlesortorder-attribute"></a>Атрибут Титлесортордер
 
 Атрибут **титлесортордер** — это значение, используемое для сортировки столбца **Title** в библиотеке.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Другие элементы](other-item-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в библиотеке.
 
@@ -41,11 +41,11 @@ ms.locfileid: "105704374"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

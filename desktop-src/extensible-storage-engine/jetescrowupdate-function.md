@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 61fb49d50ee7c529174fe4c5546efd7de1727892
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9f037b8c26829d7b1f3a10b05e1d4bd83bd186a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702795"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469801"
 ---
 # <a name="jetescrowupdate-function"></a>Функция JetEscrowUpdate
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetescrowupdate-function"></a>Функция JetEscrowUpdate
 
@@ -86,104 +86,36 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, задающая ноль или более следующих параметров.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitEscrowNoRollback</p></td>
-<td><p>Даже если в сеансе, выполняющем Депонированное обновление, выполняется откат транзакций, это обновление не будет отменено. Обратите внимание, что так как записи журнала не могут быть записаны на диск, последние депонированные обновления, выполненные с помощью этого флага, могут быть утрачены в случае сбоя.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitEscrowNoRollback</p> | <p>Даже если в сеансе, выполняющем Депонированное обновление, выполняется откат транзакций, это обновление не будет отменено. Обратите внимание, что так как записи журнала не могут быть записаны на диск, последние депонированные обновления, выполненные с помощью этого флага, могут быть утрачены в случае сбоя.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errAlreadyPrepared</p></td>
-<td><p>У курсора есть обновление, подготовленное с помощью <a href="gg269339(v=exchg.10).md">жетпрепареупдате</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Невозможно выполнить операцию, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>Передан недопустимый размер буфера. В настоящее время поддерживается только JET_coltypLong, поэтому размер буфера должен составлять 4 байта.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidOperation</p></td>
-<td><p>Указан недопустимый столбец. Столбец должен быть создан с указанным JET_bitColumnEscrowUpdate. Только фиксированные столбцы JET_coltypLong можно указать как подобновляемые.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Для обновления столбца курсор должен находиться в записи.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInTransaction</p></td>
-<td><p>Депонированные обновления могут выполняться только сеансами транзакции.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>Курсор не может быть доступен только для чтения и обновлять запись.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Невозможно выполнить операцию, так как в экземпляре, связанном с сеансом, выполняется операция восстановления.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Один и тот же сеанс нельзя использовать одновременно из нескольких потоков. Эта ошибка будет возвращена только Windows XP и более поздних версий.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Невозможно выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>Для обновления записи сеанс должен иметь разрешения на запись.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errWriteConflict</p></td>
-<td><p>Ошибка, возвращенная при запросе конфликтующего обновления.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errAlreadyPrepared</p> | <p>У курсора есть обновление, подготовленное с помощью <a href="gg269339(v=exchg.10).md">жетпрепареупдате</a>.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Невозможно выполнить операцию, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Невозможно выполнить операцию, поскольку экземпляр, связанный с сеансом, обнаружил неустранимую ошибку, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>Передан недопустимый размер буфера. В настоящее время поддерживается только JET_coltypLong, поэтому размер буфера должен составлять 4 байта.</p> | 
+| <p>JET_errInvalidOperation</p> | <p>Указан недопустимый столбец. Столбец должен быть создан с указанным JET_bitColumnEscrowUpdate. Только фиксированные столбцы JET_coltypLong можно указать как подобновляемые.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Для обновления столбца курсор должен находиться в записи.</p> | 
+| <p>JET_errNotInTransaction</p> | <p>Депонированные обновления могут выполняться только сеансами транзакции.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Невозможно выполнить операцию, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errPermissionDenied</p> | <p>Курсор не может быть доступен только для чтения и обновлять запись.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Невозможно выполнить операцию, так как в экземпляре, связанном с сеансом, выполняется операция восстановления.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Один и тот же сеанс нельзя использовать одновременно из нескольких потоков. эта ошибка будет возвращена только Windows XP и более поздних выпусках.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Невозможно выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>Для обновления записи сеанс должен иметь разрешения на запись.</p> | 
+| <p>JET_errWriteConflict</p> | <p>Ошибка, возвращенная при запросе конфликтующего обновления.</p> | 
+
 
 
 #### <a name="remarks"></a>Комментарии
@@ -194,156 +126,37 @@ _**Применимо к:** Windows | Windows Server_
 
 Только операции **жетескровупдате** совместимы друг с другом. Если два разных сеанса пытаются подготовить обновления или удалить одну и ту же запись, будет создан конфликт записи.
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p></p></th>
-<th><p></p></th>
-<th><p>Сеанс б<br />
-<strong>жетескровупдате</strong></p></th>
-<th><p><a href="gg269339(v=exchg.10).md">жетпрепареупдате</a></p></th>
-<th><p><a href="gg269315(v=exchg.10).md">жетделете</a></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p></p></td>
-<td><p><strong>жетескровупдате</strong></p></td>
-<td><p>JET_errSuccess</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p><a href="gg269288(v=exchg.10).md">жетупдате</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-<tr class="odd">
-<td><p>Сеанс а</p></td>
-<td><p><a href="gg269315(v=exchg.10).md">жетделете</a></p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-<td><p>JET_errWriteConflict</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p></p> | <p></p> | <p>Сеанс б<br /><strong>жетескровупдате</strong></p> | <p><a href="gg269339(v=exchg.10).md">жетпрепареупдате</a></p> | <p><a href="gg269315(v=exchg.10).md">жетделете</a></p> | 
+|---------|---------|--------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| <p></p> | <p><strong>жетескровупдате</strong></p> | <p>JET_errSuccess</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p></p> | <p><a href="gg269288(v=exchg.10).md">жетупдате</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+| <p>Сеанс а</p> | <p><a href="gg269315(v=exchg.10).md">жетделете</a></p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | <p>JET_errWriteConflict</p> | 
+
 
 
 Для депонированных операций используется версия и они отменяются с помощью [жетроллбакк](./jetrollback-function.md) (если не указано JET_bitEscrowNoRollback). **Жетескровупдате** возвращает необработанное значение столбца, хранящегося в базе данных, так как приложению может потребоваться выполнить определенное действие при попадании в значение Sentinel. [Жетретриевеколумн](./jetretrievecolumn-function.md) возвращает правильное представление столбца с версиями, игнорируя обновления, сделанные параллельными сеансами.
 
 При наличии двух сеансов, работающих в одном столбце одной и той же записи, можно увидеть, как это работает. Предположим, что столбец начинается со значения 0.
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Сеанс</p></th>
-<th><p>Операция</p></th>
-<th><p>Сохраненное значение</p></th>
-<th><p>Возвращаемое значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Объект</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">жетбегинтрансатион</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Объект</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">жетбегинтрансатион</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>Объект</p></td>
-<td><p><strong>Жетескровупдате</strong> (4)</p></td>
-<td><p>4</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Объект</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg294083(v=exchg.10).md">жетбегинтрансактион</a></p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><strong>Жетескровупдате</strong> (3)</p></td>
-<td><p>7</p></td>
-<td><p>4</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p><strong>Жетескровупдате</strong> (2)</p></td>
-<td><p>9</p></td>
-<td><p>7</p></td>
-</tr>
-<tr class="even">
-<td><p>Объект</p></td>
-<td><p><strong>Жетескровупдате</strong> (-7)</p></td>
-<td><p>2</p></td>
-<td><p>9</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>A</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-<tr class="odd">
-<td><p>B</p></td>
-<td><p><a href="gg269273(v=exchg.10).md">жетроллбакк</a></p></td>
-<td><p>-1</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Объект</p></td>
-<td><p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p></td>
-<td><p></p></td>
-<td><p>-1</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Сеанс</p> | <p>Операция</p> | <p>Сохраненное значение</p> | <p>Возвращаемое значение</p> | 
+|----------------|------------------|---------------------|-----------------------|
+| <p>А</p> | <p><a href="gg294083(v=exchg.10).md">жетбегинтрансатион</a></p> | <p></p> | <p></p> | 
+| <p>А</p> | <p><a href="gg294083(v=exchg.10).md">жетбегинтрансатион</a></p> | <p></p> | <p>0</p> | 
+| <p>А</p> | <p><strong>Жетескровупдате</strong> (4)</p> | <p>4</p> | <p>0</p> | 
+| <p>А</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg294083(v=exchg.10).md">жетбегинтрансактион</a></p> | <p></p> | <p></p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>0</p> | 
+| <p>B</p> | <p><strong>Жетескровупдате</strong> (3)</p> | <p>7</p> | <p>4</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><strong>Жетескровупдате</strong> (2)</p> | <p>9</p> | <p>7</p> | 
+| <p>А</p> | <p><strong>Жетескровупдате</strong> (-7)</p> | <p>2</p> | <p>9</p> | 
+| <p>B</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>3</p> | 
+| <p>A</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>-1</p> | 
+| <p>B</p> | <p><a href="gg269273(v=exchg.10).md">жетроллбакк</a></p> | <p>-1</p> | <p></p> | 
+| <p>А</p> | <p><a href="gg269198(v=exchg.10).md">жетретриевеколумн</a></p> | <p></p> | <p>-1</p> | 
+
 
 
 Не рекомендуется заменять запись в той же транзакции, которая выполняет депонированные обновления записи. В частности, если обновление записи подготовлено с помощью одной [JET_TABLEID](./jet-tableid.md) и для депонирования обновления записи используется другая [JET_TABLEID](./jet-tableid.md) , то при вызове [жетупдате](./jetupdate-function.md) будет утрачено значение «условно Обновлено». Это происходит, даже если во время обновления не был задан депонированный столбец.
@@ -352,34 +165,9 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

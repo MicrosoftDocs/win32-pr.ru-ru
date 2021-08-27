@@ -3,7 +3,7 @@ title: Сообщение SB_SIMPLE (Коммктрл. h)
 description: Указывает, отображает ли окно состояния простой текст или отображает все фрагменты окна, заданные предыдущим \_ сообщением SB сетпартс.
 ms.assetid: 457209cb-67d4-4a9f-8d18-75aa5eb9ca1d
 keywords:
-- Элементы управления Windows для SB_SIMPLE сообщений
+- элементы управления Windows сообщений SB_SIMPLE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7a462a917c86531cd70f5f5c8ea60bf448ff6f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 229f0a896c9adcab6886151753761c62aefb8f4dc6ee21b7e85bb7507bda11f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104136822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132214"
 ---
 # <a name="sb_simple-message"></a>\_Простое сообщение SB
 
@@ -43,7 +43,7 @@ ms.locfileid: "104136822"
 
 Возвращаемое значение не используется.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если окно состояния изменяется с непростого на простой или наоборот, окно немедленно перерисовывается.
 
@@ -53,9 +53,9 @@ ms.locfileid: "104136822"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

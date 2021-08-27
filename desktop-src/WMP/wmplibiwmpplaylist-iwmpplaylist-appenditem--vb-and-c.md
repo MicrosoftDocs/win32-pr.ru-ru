@@ -3,9 +3,9 @@ title: Ивмпплайлист Аппендитем, метод
 description: Метод Аппендитем добавляет элемент мультимедиа в конец списка воспроизведения.
 ms.assetid: d659298b-ec4e-4771-8e9b-8cfd7b3e0eb2
 keywords:
-- Аппендитем метод Windows Media Player
-- Аппендитем метод проигрывателя Windows Media Player, интерфейс Ивмпплайлист
-- Интерфейс Ивмпплайлист Windows Media Player, метод Аппендитем
+- проигрыватель Windows Media метода аппендитем
+- проигрыватель Windows Media метода аппендитем, интерфейс ивмпплайлист
+- проигрыватель Windows Media интерфейса ивмпплайлист, метод аппендитем
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a94e1b515ec6301830af2de06bae32602bdf66e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de67c7bbd3448e4b4fcdb562b2b10ace68ed7a2c92020650c79fdd90b05366b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098704"
 ---
 # <a name="iwmpplaylistappenditem-method"></a>Метод Ивмпплайлист:: Аппендитем
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylist.appendItem
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед вызовом этого метода необходимо иметь полный доступ к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
@@ -101,19 +101,19 @@ plThreeList.appendItem(currMedia)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

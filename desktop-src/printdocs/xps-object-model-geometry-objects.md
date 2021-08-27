@@ -4,12 +4,12 @@ ms.assetid: 2663c6fc-301e-4765-b37c-b5e29a714ce8
 title: Геометрические объекты модели XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cca767de311d2f2d49b0b194c372c0e69eaa637c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db68127535b37e216d28423a034083e979f58c714cbbbee875bc3f1621974bfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112094"
 ---
 # <a name="xps-om-geometry-objects"></a>Геометрические объекты модели XPS
 
@@ -94,7 +94,7 @@ ms.locfileid: "105647267"
 
 Дополнительные сведения о добавлении сегментов к геометрической фигуре см. в примерах кода в разделах о методах [**икспсомжеометрифигуре:: жетсегментдата**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-getsegmentdata) и [**Икспсомжеометрифигуре:: сетсегментс**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigure-setsegments) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

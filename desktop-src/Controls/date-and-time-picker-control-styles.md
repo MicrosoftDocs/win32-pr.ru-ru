@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d24e7543e4e843fc70e0ccacdab670e18e46cf3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6f9740e0de413649b67cc8231d31425d212d2571dbc9a1b703f9f95c35e4981
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105648636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085764"
 ---
 # <a name="date-and-time-picker-control-styles"></a>Стили элемента управления выбора даты и времени
 
@@ -45,17 +45,17 @@ ms.locfileid: "105648636"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 \_Стили КСКСКСФОРМАТ DTS, определяющие формат вывода, не могут быть объединены. Если ни один из стилей форматирования не подходит, используйте сообщение [**DTM \_ сетформат**](dtm-setformat.md) для определения пользовательского формата.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

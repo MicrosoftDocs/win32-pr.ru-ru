@@ -1,23 +1,23 @@
 ---
-description: В этом разделе описывается использование DirectShow для воспроизведения файлов мультимедиа, защищенных с помощью цифрового Rights Management Windows Media (DRM).
+description: в этом разделе описывается использование DirectShow для воспроизведения файлов мультимедиа, защищенных с помощью Windows media Digital Rights Management (DRM).
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: Чтение DRM-Protected файлов ASF в DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff3a90b61982d6c7c444ddcf53948c225b6fc685
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 46eaafe96b00019e7c4e69741c251bc0079c459d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105684802"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466581"
 ---
 # <a name="reading-drm-protected-asf-files-in-directshow"></a>Чтение DRM-Protected файлов ASF в DirectShow
 
-В этом разделе описывается использование DirectShow для воспроизведения файлов мультимедиа, защищенных с помощью цифрового Rights Management Windows Media (DRM).
+в этом разделе описывается использование DirectShow для воспроизведения файлов мультимедиа, защищенных с помощью Windows media Digital Rights Management (DRM).
 
 ## <a name="drm-concepts"></a>Основные понятия DRM
 
-Защита файла мультимедиа с помощью Windows Media DRM состоит из двух отдельных этапов:
+защита файла мультимедиа с помощью Windows media DRM включает два отдельных шага:
 
 -   Поставщик содержимого упаковывает файл, то есть шифрует его и прикрепляет сведения о лицензировании к заголовку ASF-файла. Сведения о лицензировании включают URL-адрес, по которому клиент может получить лицензию.
 -   Клиентское приложение получает лицензию на содержимое.
@@ -26,9 +26,9 @@ ms.locfileid: "105684802"
 
 ### <a name="drm-versions"></a>Версии DRM
 
-Существует несколько версий Windows Media DRM. С точки зрения клиентского приложения они могут быть сгруппированы в две категории: DRM версии 1 и DRM версии 7 или более поздней. (Вторая категория включает в себя DRM версии 9 и 10, а также версию 7.) Причина классификации версий DRM заключается в том, что лицензии версии 1 обрабатываются несколько иначе, чем лицензии версии 7 или более поздней. В этой документации термин *Лицензия версии 7* означает версию 7 или более позднюю.
+существует несколько версий Windows Media DRM. С точки зрения клиентского приложения они могут быть сгруппированы в две категории: DRM версии 1 и DRM версии 7 или более поздней. (Вторая категория включает в себя DRM версии 9 и 10, а также версию 7.) Причина классификации версий DRM заключается в том, что лицензии версии 1 обрабатываются несколько иначе, чем лицензии версии 7 или более поздней. В этой документации термин *Лицензия версии 7* означает версию 7 или более позднюю.
 
-Также важно отличать упаковку DRM от лицензии DRM. Если файл упакован с помощью Windows Media Rights Manager версии 7 или более поздней, в дополнение к URL-адресу лицензии версии 7 заголовок DRM может содержать URL-адрес лицензии версии 1. URL-адрес лицензии версии 1 позволяет использовать более старые проигрыватели, которые не поддерживают версию 7 для получения лицензии на содержимое. Однако наоборот не имеет значения true, поэтому файл с упаковкой версии 1 не может иметь URL-адрес лицензии версии 7.
+Также важно отличать упаковку DRM от лицензии DRM. если файл упакован с помощью Windows Media Rights Manager версии 7 или более поздней, в дополнение к url-адресу лицензии версии 7 заголовок DRM может содержать url-адрес лицензии версии 1. URL-адрес лицензии версии 1 позволяет использовать более старые проигрыватели, которые не поддерживают версию 7 для получения лицензии на содержимое. Однако наоборот не имеет значения true, поэтому файл с упаковкой версии 1 не может иметь URL-адрес лицензии версии 7.
 
 ### <a name="application-security-level"></a>Уровень безопасности приложения
 
@@ -38,21 +38,21 @@ ms.locfileid: "105684802"
 
 ### <a name="individualization"></a>Индивидуальная
 
-Для повышения безопасности приложение может обновить компоненты DRM на клиентском компьютере. Это обновление, называемое индивидуальной, отличает пользовательскую копию приложения от всех остальных копий того же приложения. В заголовке DRM защищенного файла может указываться минимальный уровень индивидуализации. (Дополнительные сведения см. в документации по Вмрмхеадер. Индивидуализедверсион в пакете SDK диспетчера прав Windows Media.)
+Для повышения безопасности приложение может обновить компоненты DRM на клиентском компьютере. Это обновление, называемое индивидуальной, отличает пользовательскую копию приложения от всех остальных копий того же приложения. В заголовке DRM защищенного файла может указываться минимальный уровень индивидуализации. (дополнительные сведения см. в документации по вмрмхеадер. индивидуализедверсион в пакете SDK для Windows Media Rights Manager.)
 
 Так как служба Microsoft индивидуализации обрабатывает сведения от пользователя, необходимо отобразить политику конфиденциальности Майкрософт или указать ссылку на эту страницу на веб-сайте Майкрософт перед тем, как ваше приложение индивидуализес: <https://go.microsoft.com/fwlink/p/?linkid=10240> .
 
 ## <a name="provide-the-software-certificate"></a>Укажите сертификат программного обеспечения
 
-Чтобы разрешить приложению использовать лицензию DRM, приложение должно предоставить сертификат или *ключ* программного обеспечения для диспетчера графа фильтров. Этот ключ содержится в статической библиотеке, которая является индивидуальной для приложения. Сведения о получении отдельной библиотеки см. в разделе [получение необходимой библиотеки DRM](../wmformat/obtaining-the-required-drm-library.md) в документации по пакету SDK для Windows Media Format.
+чтобы разрешить приложению использовать лицензию DRM, приложение должно предоставить сертификат или *ключ* программного обеспечения для фильтра Graph Manager. Этот ключ содержится в статической библиотеке, которая является индивидуальной для приложения. сведения о получении отдельной библиотеки см. в разделе [получение необходимой библиотеки DRM](../wmformat/obtaining-the-required-drm-library.md) в документации по пакету SDK Windows Media Format.
 
 Чтобы указать программный ключ, выполните следующие действия.
 
 1.  Ссылка на статическую библиотеку.
 2.  Реализуйте интерфейс **IServiceProvider** .
-3.  Запросите диспетчер графов фильтров для интерфейса [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) .
+3.  запросите Graph диспетчера фильтров для интерфейса [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) .
 4.  Вызовите [**IObjectWithSite:: SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) с указателем на вашу реализацию **IServiceProvider**.
-5.  Диспетчер графа фильтров будет вызывать **IServiceProvider:: QueryService**, указывая **IID \_ ивмреадер** для идентификатора службы.
+5.  фильтр Graph Manager вызывает **IServiceProvider:: QueryService**, указывая **IID \_ ивмреадер** для идентификатора службы.
 6.  В реализации **QueryService** вызовите [**вмкреатецертификате**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) , чтобы создать ключ программного обеспечения.
 
 В следующем коде показано, как реализовать метод **QueryService** :
@@ -85,7 +85,7 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 
 
-В следующем коде показано, как вызвать [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) в диспетчере графов фильтров:
+в следующем коде показано, как вызвать [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) для фильтра Graph Manager:
 
 
 ```C++
@@ -119,11 +119,11 @@ done:
 
 
 
-## <a name="building-the-playback-graph"></a>Создание графа воспроизведения
+## <a name="building-the-playback-graph"></a>Создание Graph воспроизведения
 
 Чтобы воспроизвести файл ASF, защищенный с помощью DRM, выполните следующие действия.
 
-1.  Создайте [Диспетчер графов фильтров](filter-graph-manager.md) и используйте интерфейс [**имедиаевентекс**](/windows/desktop/api/Control/nn-control-imediaeventex) для регистрации событий Graph.
+1.  создайте [фильтр Graph Manager](filter-graph-manager.md) и используйте интерфейс [**имедиаевентекс**](/windows/desktop/api/Control/nn-control-imediaeventex) для регистрации событий Graph.
 2.  Вызовите [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) , чтобы создать новый экземпляр фильтра [чтения WM ASF](wm-asf-reader-filter.md) .
 3.  Вызовите [**ифилтерграф:: аддфилтер**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) , чтобы добавить фильтр к графу фильтра.
 4.  Запросите фильтр для интерфейса [**ифилесаурцефилтер**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) .
@@ -197,35 +197,11 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (FAILED(hr))
-            {
-                goto done;
-            }
-            hr = RenderOutputPins(pGraph, m_pReader);
-    }
-    else
-    {
-        // Not a Windows Media file, so just render the standard way.
-        hr = pGraph->RenderFile(pwszFile, NULL);
-    }
 
-done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+| C++ | 
+|-----|
+| <pre><code>            if (FAILED(hr))            {                goto done;            }            hr = RenderOutputPins(pGraph, m_pReader);    }    else    {        // Not a Windows Media file, so just render the standard way.        hr = pGraph-&gt;RenderFile(pwszFile, NULL);    }done:    return hr;}</code></pre> | 
+
 
 
 
@@ -304,7 +280,7 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

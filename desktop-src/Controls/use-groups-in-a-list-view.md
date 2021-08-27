@@ -4,27 +4,27 @@ description: В этом разделе описывается создание 
 ms.assetid: 8486B9A2-C519-4912-9E88-3BAFCC4D51CF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec47d73c3e8b808eaf1909bdafb015c7eebc37de
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: edaad657d9ea6b71bac1d06a34a0aa29b99c26e204629e503a9e55531da162b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103891249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132124"
 ---
 # <a name="how-to-use-groups-in-a-list-view"></a>Использование групп в List-View
 
 В этом разделе описывается создание экземпляра группы и его добавление в элемент управления "представление списка". Группирование позволяет пользователю упорядочивать списки по группам элементов, которые визуально разделены на странице, с помощью горизонтального разделителя и заголовка группы.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -50,7 +50,7 @@ ms.locfileid: "103891249"
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
