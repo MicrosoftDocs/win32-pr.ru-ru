@@ -80,7 +80,7 @@ ms.locfileid: "118314463"
 | **инстанцесасинк\_**                                     | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **PUT\_**                                                | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **путасинк\_**                                           | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
-| **Справочные материалы\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
+| **Ссылки\_**                                         | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **референцесасинк\_**                                    | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **SpawnDerivedClass\_**                                  | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
 | **SpawnInstance\_**                                      | Не используется. Объект [**SWbemObject**](swbemobject.md) предоставляет тот же метод.<br/> |
@@ -238,7 +238,7 @@ else
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

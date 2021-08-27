@@ -15,7 +15,7 @@ ms.locfileid: "118627346"
 
 Установщик задает для свойства **ProgramFilesFolder** полный путь к папке Program Files.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

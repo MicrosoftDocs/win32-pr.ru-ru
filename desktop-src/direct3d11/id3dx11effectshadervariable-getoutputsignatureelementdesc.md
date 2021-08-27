@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29545754be560a3a7710adf23963566a324d8a3f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7af968b25a00e32b489a520e9d4a3e870329af910caa8ac1bf45ac49a7ea6132
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104998663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118533270"
 ---
 # <a name="id3dx11effectshadervariablegetoutputsignatureelementdesc-method"></a>Метод ID3DX11EffectShaderVariable:: Жетаутпутсигнатурилементдеск
 
@@ -78,7 +78,7 @@ HRESULT GetOutputSignatureElementDesc(
 
 Возвращает один из следующих [кодов возврата Direct3D 11](d3d11-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Результат содержит один или несколько шейдеров; Каждый шейдер имеет входную и выходную сигнатуру; Каждая сигнатура содержит один или несколько элементов (или параметров). Индекс шейдера определяет шейдер, а индекс элемента определяет элемент (или параметр) в сигнатуре шейдера.
 
@@ -87,18 +87,18 @@ HRESULT GetOutputSignatureElementDesc(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Заголовок<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
 | Библиотека<br/> | <dl> <dt>Н/д (библиотека Effects 11 доступна в сети в качестве общего источника.)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

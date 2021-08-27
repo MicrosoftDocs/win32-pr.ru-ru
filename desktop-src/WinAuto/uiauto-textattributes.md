@@ -11,12 +11,12 @@ keywords:
 - Модель автоматизации пользовательского интерфейса, список атрибутов текста
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f8ae2d51a222e3833d0dd95fa6c048114a370a6
-ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
+ms.openlocfilehash: 875cad20285cf38c06ab3363be5bc9aee641c2ce42ae4caff5b091cf1a79c63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113353627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824626"
 ---
 # <a name="ui-automation-text-attributes"></a>Атрибуты текста модели автоматизации пользовательского интерфейса
 
@@ -31,7 +31,7 @@ ms.locfileid: "113353627"
 
  
 
-В этом разделе содержатся следующие подразделы.
+Этот раздел состоит из следующих подразделов.
 
 -   [Атрибуты примечаний](#annotation-attributes)
 -   [Атрибуты шрифтов](#font-attributes)

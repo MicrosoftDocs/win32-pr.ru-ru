@@ -55,7 +55,7 @@ Public ReadOnly Property defaultAudioLanguage As System.Int32
 
 Код языка (LCID) однозначно определяет определенный диалект языка, который называется локальным языком.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

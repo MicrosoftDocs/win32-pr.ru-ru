@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ae895d8a12824c6aca1dcbd69c5055b3ca6f3e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ea509254586fe6b03509242cbca059b8432a72b757fa32d1065373fe2a61f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129713"
 ---
 # <a name="imsrdpclientshelllaunch-method"></a>Метод Имсрдпклиентшелл:: Launch
 
@@ -45,7 +45,7 @@ HRESULT Launch();
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -59,7 +59,7 @@ HRESULT Launch();
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 1b4331210027f7fc23f36fb6b9d13a2c232ccbf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aa6622ea65e00c1447e6042a41c998e9ab30a29d1172d43e1a1da81feb34c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471319"
 ---
 # <a name="mxdc_s0_page_enums-enumeration"></a>Перечисление перечислений \_ страниц мксдк S0 \_ \_
 
@@ -79,7 +79,7 @@ typedef enum tagMxdcS0PageEnums {
 <span id="MXDC_RESOURCE_WDP"></span><span id="mxdc_resource_wdp"></span>**\_формате WDP ресурсов \_ мксдк**
 </dt> <dd>
 
-Изображение Windows Media Photo.
+Windows Изображение фотографии мультимедиа.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ typedef enum tagMxdcS0PageEnums {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это перечисление в основном используется в качестве члена **двресаурцетипе** структуры [**мксдк \_ XPS \_ S0PAGE \_ Resource \_ T**](mxdcxpss0pageresource.md) .
 
@@ -128,9 +128,9 @@ typedef enum tagMxdcS0PageEnums {
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                      |
-| Header<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                      |
+| Header<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 
 
 

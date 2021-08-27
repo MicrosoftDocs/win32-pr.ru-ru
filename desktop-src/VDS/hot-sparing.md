@@ -4,16 +4,16 @@ ms.assetid: 2faf2f3f-f459-4e41-9c8e-042c7b72281b
 title: Горячее резервирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4d007e9219ea79ae3bda31be595c33b537661a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61b8df9bc27e303277c869901872a9b879cb2d7df32764589501b9d33a51c3fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125954"
 ---
 # <a name="hot-sparing"></a>Горячее резервирование
 
-\[Начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API управления хранилищами Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[начиная с Windows 8 и Windows Server 2012, интерфейс COM [службы виртуальных дисков](virtual-disk-service-portal.md) заменяется [API Windows служба хранилища управления](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Горячее резервирование — это замена одного диска или диска на неисправный или неисправный диск или диск. (Поставщики оборудования действуют на дисках; поставщики программного обеспечения работают с дисками.) Можно предоставить общий доступ к диску горячего резервирования всем LUN в подсистеме или связать его с конкретным LUN. Аналогичным образом можно связать горячий запасной диск с одним томом, пакетом и поставщиком программного обеспечения или поделиться им со всеми узлами в сети SAN.
 

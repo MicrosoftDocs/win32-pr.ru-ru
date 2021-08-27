@@ -1,23 +1,23 @@
 ---
-description: О построителе диаграмм записи
+description: о построителе Graph записи
 ms.assetid: 9399a06e-7305-41e8-aefe-3d158052a8ed
-title: О построителе диаграмм записи
+title: о построителе Graph записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae321665e0eae65a1d464bf87a12ac33e935d7ac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8d6ef82a160ada6e53fe6d2db830efa85118eb699074630905cd41f0b5412ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664526"
 ---
-# <a name="about-the-capture-graph-builder"></a>О построителе диаграмм записи
+# <a name="about-the-capture-graph-builder"></a>о построителе Graph записи
 
-Граф фильтра, который выполняет захват видео или звука, называется *диаграммой записи*. Графы записи зачастую сложнее, чем графики воспроизведения файлов. Чтобы упростить создание графов записи в приложениях, DirectShow предоставляет вспомогательный объект, называемый построителем диаграмм записи. Построитель графов записи предоставляет интерфейс [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) , который содержит методы для создания графа записи и управления им. На следующей схеме показан построитель диаграмм записи и интерфейс **ICaptureGraphBuilder2** .
+Граф фильтра, который выполняет захват видео или звука, называется *диаграммой записи*. Графы записи зачастую сложнее, чем графики воспроизведения файлов. чтобы упростить создание графов записи в приложениях, DirectShow предоставляет вспомогательный объект, называемый построителем Graph отслеживания. построитель Graph для записи предоставляет интерфейс [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) , который содержит методы для создания графа записи и управления им. на следующей схеме показан построитель Graph Capture и интерфейс **ICaptureGraphBuilder2** .
 
 ![Использование построителя графа записи](images/cgb01.png)
 
-Начните с вызова CoCreateInstance для создания новых экземпляров построителя графа записи и диспетчера графа фильтров. Затем инициализируйте построитель диаграмм записи путем вызова [**ICaptureGraphBuilder2:: сетфилтерграф**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) с указателем на интерфейс [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) диспетчера графа фильтров. Этот процесс представлен на схеме ниже.
+начните с вызова cocreateinstance для создания новых экземпляров построителя Graph и Filter Graph Manager. затем инициализируйте построитель Graph записи, вызвав [**ICaptureGraphBuilder2:: сетфилтерграф**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph) с указателем на интерфейс [**играфбуилдер**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) диспетчера Graph Manager. Этот процесс представлен на схеме ниже.
 
 ![Инициализация построителя графа записи](images/cgb03.png)
 
@@ -66,13 +66,13 @@ HRESULT InitCaptureGraphBuilder(
 
 
 
-В этом разделе, посвященном записи видео, предполагается, что для создания диаграммы записи используется построитель диаграмм записи. Тем не менее, можно полностью создавать графы записи с помощью методов Играфбуилдер. Однако это очень сложная тема, и методы построителя графа записи являются предпочтительными. Дополнительные сведения см. в [статьях, посвященных расширенному сбору](advanced-capture-topics.md)данных.
+в этом разделе, посвященном записи видео, предполагается, что для создания диаграммы записи используется построитель Graph для записи. Тем не менее, можно полностью создавать графы записи с помощью методов Играфбуилдер. тем не менее, это будет дополнительная тема, а методы построителя Graph для отслеживания являются предпочтительными. Дополнительные сведения см. в [статьях, посвященных расширенному сбору](advanced-capture-topics.md)данных.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Сведения о записи видео в DirectShow](about-video-capture-in-directshow.md)
+[Сведения о захвате видео в DirectShow](about-video-capture-in-directshow.md)
 </dt> </dl>
 
  

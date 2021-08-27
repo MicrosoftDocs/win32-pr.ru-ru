@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 17eff388a759b9b0873929447e4c8fe008e2fba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ecf89a1ce8db89105ac9fa0243552efaf5218da98f6d3b0fdfbd58f874d449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104540399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718180"
 ---
 # <a name="inkcollector-class"></a>Класс InkCollector
 
@@ -106,7 +106,7 @@ ms.locfileid: "104540399"
 
 
 
-| Свойство                                                                             | Тип доступа          | Описание                                                                                                                                                                                  |
+| Свойство.                                                                             | Тип доступа          | Описание                                                                                                                                                                                  |
 |:-------------------------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ауторедрав**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw)<br/>                             | Только для чтения<br/> | Возвращает или задает значение, указывающее, перерисовывает ли объект **InkCollector** рукописный ввод при недействительности окна.<br/>                                                                 |
 | [**коллектингинк**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_collectingink)<br/>                       | Только для чтения<br/> | Возвращает значение, указывающее, рисуются ли рукописные данные в объекте **InkCollector** .<br/>                                                                                   |
@@ -115,8 +115,8 @@ ms.locfileid: "104540399"
 | [**DefaultDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_defaultdrawingattributes)<br/> | Только для чтения<br/> | Возвращает или задает объект [**инкдравингаттрибутес**](inkdrawingattributes-class.md) по умолчанию, который задает атрибуты рисования, используемые при прорисовке и отображении рукописного ввода.<br/> |
 | [**десиредпаккетдескриптион**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription)<br/> | Только для чтения<br/> | Возвращает или задает интерес к аспектам пакета, связанного с рукописным вводом на объекте **InkCollector** .<br/>                                                                          |
 | [**динамикрендеринг**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering)<br/>                   | Только для чтения<br/> | Возвращает или задает значение, указывающее, отображается ли рукописный ввод при прорисовке.<br/>                                                                                                       |
-| [**Активировано**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                   | Только для чтения<br/> | Возвращает или задает значение, указывающее, собирает ли объект **InkCollector** входные данные пера.<br/>                                                                                       |
-| [**Дескриптор**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                       | Только для чтения<br/> | Возвращает или задает маркер окна, к которому присоединен объект **InkCollector** .<br/>                                                                                           |
+| [**Включен**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                   | Только для чтения<br/> | Возвращает или задает значение, указывающее, собирает ли объект **InkCollector** входные данные пера.<br/>                                                                                       |
+| [**Справиться**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                       | Только для чтения<br/> | Возвращает или задает маркер окна, к которому присоединен объект **InkCollector** .<br/>                                                                                           |
 | [**Рукописный ввод**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_ink)<br/>                                           | Только для чтения<br/> | Возвращает или задает объект [**инкдисп**](inkdisp-class.md) , связанный с объектом **InkCollector** .<br/>                                                                     |
 | [**маргинкс**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx)<br/>                                   | Только для чтения<br/> | Возвращает или задает поля вдоль оси x (в пикселях).<br/>                                                                                                                             |
 | [**Поле**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginy)<br/>                                   | Только для чтения<br/> | Возвращает или задает поля вдоль оси y (в пикселях).<br/>                                                                                                                             |
@@ -130,7 +130,7 @@ ms.locfileid: "104540399"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для создания экземпляра этого объекта можно вызвать метод [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) в C++.
 
@@ -172,7 +172,7 @@ ms.locfileid: "104540399"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/>                                                       |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/>                                                       |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                                           |
 | Header<br/>                   | <dl> <dt>Мсинкаут. h (также требуется Мсинкаут \_ i. c)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

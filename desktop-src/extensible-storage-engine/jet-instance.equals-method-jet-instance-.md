@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be4f2a172da5fc0d7670e7e87464eac04df3cfa3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfbafdfdd3a07e9c5911cfefc3e5f7931005ffa508a3e9fcb660f106604877ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765658"
 ---
 # <a name="jet_instanceequals-method-jet_instance"></a>JET_INSTANCE. Метод Equals (JET_INSTANCE)
 

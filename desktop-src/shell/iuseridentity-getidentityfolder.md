@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 9f2644570bb7ccc2ae5bee8a37d4471ffb65861a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20357dde27214177a454eb585dcd51182228c247da5aeae5ef887089b73ed85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720610"
 ---
 # <a name="iuseridentitygetidentityfolder-method"></a>Метод Иусеридентити:: Жетидентитифолдер
 
@@ -48,7 +48,7 @@ HRESULT GetIdentityFolder(
 
 Тип: **DWORD**
 
-Обязательный. Значение типа, указывающее, является ли папка, связанная с этим удостоверением, перемещаемой. Должно иметь одно из следующих значений.
+Обязательный. Значение типа, указывающее, является ли папка, связанная с этим удостоверением, перемещаемой. Необходимо установить одно из следующих значений.
 
 <dt>
 
@@ -77,13 +77,13 @@ HRESULT GetIdentityFolder(
 *псзпас* \[ окне\]
 </dt> <dd>
 
-Тип: **WCHAR \** _
+Тип: **WCHAR \***
 
 Указатель на строку расширенных символов, которая получает путь к папке.
 
 </dd> <dt>
 
-_ulBuffSize * \[ в\]
+*улбуффсизе* \[ окне\]
 </dt> <dd>
 
 Тип: **ulong**
@@ -118,7 +118,7 @@ _ulBuffSize * \[ в\]
 
 <dl> <dt>
 
-[**IUserIdentity**](iuseridentity.md)
+[**иусеридентити**](iuseridentity.md)
 </dt> <dt>
 
 [**Иусеридентити:: Опенидентитирегкэй**](iuseridentity-openidentityregkey.md)

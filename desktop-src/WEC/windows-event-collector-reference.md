@@ -1,38 +1,38 @@
 ---
-title: Справочник по сборщикам событий Windows
-description: В следующей таблице перечислены разделы справочника по коду сборщика событий Windows.
+title: Windows Справочник по сборщикам событий
+description: в следующей таблице перечислены разделы в справочнике по коду сборщика событий Windows.
 ms.assetid: badc0f00-0979-4a94-9ea6-6f2077119db2
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d87136637c1cc5b69a7a7388e96a4ec6332073c4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e56b3bed024fb7717c76b27f0d448e0ab24da96861589127df5dd8af9c9a172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105691136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121101"
 ---
-# <a name="windows-event-collector-reference"></a>Справочник по сборщикам событий Windows
+# <a name="windows-event-collector-reference"></a>Windows Справочник по сборщикам событий
 
-В следующей таблице перечислены разделы справочника по коду сборщика событий Windows.
+в следующей таблице перечислены разделы в справочнике по коду сборщика событий Windows.
 
 
 
 | Section                                                                          | Описание                                                                |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| [Константы сборщика событий Windows](windows-event-collector-constants.md)       | Константы, используемые в вызовах функций и обработке данных.                      |
-| [Типы данных сборщика событий Windows](windows-event-collector-data-types.md)     | Типы данных, используемые в API сборщика событий Windows.                        |
-| [Перечисления сборщика событий Windows](windows-event-collector-enumerations.md) | Типы данных, используемые в вызовах функций, и при обработке данных событий в реальном времени. |
-| [Функции сборщика событий Windows](windows-event-collector-functions.md)       | Вызовы функций сборщика событий Windows.                                    |
-| [Структуры сборщика событий Windows](windows-event-collector-structures.md)     | Структуры, используемые в API сборщика событий Windows.                        |
+| [Windows Константы сборщика событий](windows-event-collector-constants.md)       | Константы, используемые в вызовах функций и обработке данных.                      |
+| [Windows Типы данных сборщика событий](windows-event-collector-data-types.md)     | типы данных, используемые в API сборщика событий Windows.                        |
+| [Windows Перечисления сборщика событий](windows-event-collector-enumerations.md) | Типы данных, используемые в вызовах функций, и при обработке данных событий в реальном времени. |
+| [Windows Функции сборщика событий](windows-event-collector-functions.md)       | Windows Вызовы функций сборщика событий.                                    |
+| [Windows Структуры сборщика событий](windows-event-collector-structures.md)     | структуры, используемые в API сборщика событий Windows.                        |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c0842a1d-b78c-44b2-89c7-452d54efe403
 title: Специализирующиеся интерфейсы (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0ce8bc29ae16ada650da7283beb1dd858948cae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e75c77d6d726c745ac553c6d69dc6ce29a69cc37e52c28581b6f28ade8339dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118809274"
 ---
 # <a name="specializing-interfaces-direct3d-10"></a>Специализирующиеся интерфейсы (Direct3D 10)
 
@@ -53,7 +53,7 @@ g_pfTime = (g_pEffect10->GetVariableByName("g_fTime"))->AsScalar();
 
 Интерфейсы, которые наследуют от [**интерфейса ID3D10EffectVariable**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectvariable) , также имеют эти методы, но они были разработаны для возврата недопустимых объектов. только вызовы из **интерфейса ID3D10EffectVariable** возвращают допустимые объекты. Приложения могут проверить возвращаемый объект, чтобы проверить, является ли он допустимым, вызвав [**ID3D10EffectVariable:: IsValid**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-id3d10effectvariable-isvalid).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

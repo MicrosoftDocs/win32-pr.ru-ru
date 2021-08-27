@@ -5,8 +5,8 @@ ms.assetid: 7629dfff-6c66-4b09-81a4-b1458ff977fa
 ms.tgt_platform: multiple
 keywords:
 - служба удаленного управления Windows метода Create
-- Создание служба удаленного управления Windows метода, объект Session
-- Объект Session служба удаленного управления Windows, метод Create
+- создание служба удаленного управления Windows метода, объект Session
+- объект Session служба удаленного управления Windows, метод Create
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eacdbdffb9e2dac219e3922cabfc5615de34e69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97adac133adc4c636de395f564927a5f0194b3c52d50685ac034142e6c15aadf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823266"
 ---
 # <a name="sessioncreate-method"></a>Метод Session. Create
 
@@ -58,7 +58,7 @@ Session.Create( _
 
 </dd> <dt>
 
-*ресурсов* 
+*resource* 
 </dt> <dd>
 
 XML-код, содержащий содержимое ресурса.
@@ -76,7 +76,7 @@ XML-код, содержащий содержимое ресурса.
 
 EPR нового ресурса.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Сеанс. Create** используется только для создания новых экземпляров ресурса. Используйте метод [**Session. помещаем**](session-put.md) для обновления существующих экземпляров ресурса. После получения нового универсального кода ресурса (URI) можно вызвать [**сеанс. Get**](session-get.md) , чтобы получить новый объект. Новый объект содержит все свойства, назначаемые поставщиком ресурсов при создании нового объекта. Например, если создать новый [*прослушиватель*](windows-remote-management-glossary.md) протокола WS-Management и получить объект прослушивателя с помощью **сеанса. Get**, то вы получаете также свойства **Port**, **Enabled** и **листенингон** .
 
@@ -153,7 +153,7 @@ End Function
 
 <dl> <dt>
 
-[**Session**](session.md)
+[**Сеанс**](session.md)
 </dt> <dt>
 
 [Протокол WS-Management](ws-management-protocol.md)

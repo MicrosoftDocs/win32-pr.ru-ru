@@ -4,12 +4,12 @@ ms.assetid: d6e81804-80c5-4b05-a256-6355ae109970
 title: System. History. Таржетурлхостнаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d00faa1f2b230787e634e67a34383bc34ea34c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af573aa77d70ca4d2dec15f91f2c8c8c43ea75934c67c7099bb4b58708b014d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727175"
 ---
 # <a name="systemhistorytargeturlhostname"></a>System. History. Таржетурлхостнаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

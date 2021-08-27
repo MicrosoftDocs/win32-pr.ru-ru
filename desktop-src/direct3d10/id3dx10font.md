@@ -67,7 +67,7 @@ typedef interface ID3DX10Font *LPD3DX10FONT;
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

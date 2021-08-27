@@ -10,12 +10,12 @@ keywords:
 - типы элементов управления, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ac6f857da87691428c747cfe5dbff5102218f6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b929e246891a9addf2e3d56a2cfd8beae3c749f5aa9b74476eadb6ce769a6a20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825781"
 ---
 # <a name="supporting-ui-automation-control-types"></a>Поддержка типов элементов управления модели автоматизации пользовательского интерфейса
 
@@ -64,13 +64,13 @@ ms.locfileid: "104413469"
 -   [Тип элемента управления TreeItem](uiauto-supporttreeitemcontroltype.md)
 -   [Тип элемента управления окна](uiauto-supportwindowcontroltype.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Рекомендации программиста поставщика модели автоматизации пользовательского интерфейса](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

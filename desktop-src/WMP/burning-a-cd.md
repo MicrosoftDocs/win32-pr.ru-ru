@@ -3,23 +3,23 @@ title: Запись компакт-диска
 description: Запись компакт-диска
 ms.assetid: df55479e-d8a7-443d-bf2c-c988bfd0b1be
 keywords:
-- Проигрыватель Windows Media, запись компакт-дисков
-- Объектная модель проигрывателя Windows Media, запись компакт-дисков
+- проигрыватель Windows Media, запись компакт-дисков
+- проигрыватель Windows Media объектной модели, запись компакт-диска
 - Объектная модель, запись компакт-диска
-- Элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Элемент управления ActiveX, запись компакт-дисков
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, запись компакт-дисков
-- Проигрыватель Windows Media Mobile, запись компакт-дисков
+- проигрыватель Windows Media ActiveX управления, запись компакт-дисков
+- ActiveX управления, запись компакт-дисков
+- проигрыватель Windows Media мобильный ActiveX элемент управления, запись компакт-дисков
+- проигрыватель Windows Media Мобильные устройства, запись компакт-дисков
 - Запись компакт-дисков, о программе
 - запись компакт-дисков, сведения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007b7808ff375ab0673592d0d016f8e713321d1a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 82c7cfee7468b2cd376b7b25d4cff4a04e0d057dcc7a792ac7471843de2b74a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104133507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840773"
 ---
 # <a name="burning-a-cd"></a>Запись компакт-диска
 
@@ -48,7 +48,7 @@ ms.locfileid: "104133507"
 
 Указатели интерфейса
 
-Интерфейсы для проигрывателя Windows Media хранятся в следующих переменных члена:
+интерфейсы для проигрыватель Windows Media хранятся в следующих переменных члена:
 
 
 ```C++
@@ -73,16 +73,16 @@ CComPtr<IWMPPlaylist>           m_spPlaylist;
 -   [Получение состояния диска и диска](retrieving-the-drive-and-disc-status.md)
 -   [Получение состояния записи](retrieving-the-burn-status.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Управление проигрывателем**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

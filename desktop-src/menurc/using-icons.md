@@ -12,12 +12,12 @@ keywords:
 - Общий доступ к ресурсам значков
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03202c250502794d5f845bcc8c2ae263d919ea62
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 40db7a5828c80dc27780ac54e4110e37a80f44938c9475904ce32089be50d84f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472602"
 ---
 # <a name="using-icons"></a>Использование значков
 

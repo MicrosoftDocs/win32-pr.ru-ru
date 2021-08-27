@@ -11,18 +11,18 @@ keywords:
 - Сообщение команды WM_SYS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cd8cecd2fc1273750c75b8e5f33106d22343a14
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: df67f4879edc2e0e81a8715155bf2edfac05f1e5ce9d3557f9b051ae682a6afa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104412928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734472"
 ---
 # <a name="keyboard-accelerators"></a>Сочетания клавиш
 
 Сочетание *клавиш (или* просто сочетание клавиш) — это сочетание клавиш, которое создает [**\_ команду WM**](wm-command.md) или сообщение [**WM \_ сискомманд**](wm-syscommand.md) для приложения.
 
-### <a name="in-this-section"></a>в этом разделе
+### <a name="in-this-section"></a>В этом разделе
 
 
 

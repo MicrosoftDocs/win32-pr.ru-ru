@@ -1,22 +1,22 @@
 ---
 title: Перечисление контроллеров домена
-description: В более ранних версиях Windows приложение могло получить только один контроллер домена в домене, вызвав DsGetDcName.
+description: в более ранних версиях Windows приложение могло получить только один контроллер домена в домене, вызвав DsGetDcName.
 ms.assetid: bfc92777-6944-406a-8b93-949a1cf3e2c3
 ms.tgt_platform: multiple
 keywords:
 - Active Directory примеры Active Directory, перечисление контроллеров домена Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94384bb8c62edb7b0d45328dabe7765a43e4e610
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 54234301ad843708fd4e9b20e38f2b4fd8391e1134a78cea8b0d45a001d701d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103773232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695152"
 ---
 # <a name="enumerating-domain-controllers"></a>Перечисление контроллеров домена
 
-В более ранних версиях Windows приложение могло получить только один контроллер домена в домене, вызвав [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea). Не существовало способа предсказать, какой контроллер домена будет извлечен, или получить список контроллеров домена. Windows позволяет приложению перечислять контроллеры домена в домене с помощью функций [**дсжетдкопен**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena), [**дсжетдкнекст**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)и [**дсжетдкклосе**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) .
+в более ранних версиях Windows приложение могло получить только один контроллер домена в домене, вызвав [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea). Не существовало способа предсказать, какой контроллер домена будет извлечен, или получить список контроллеров домена. Windows позволяет приложению перечислять контроллеры домена в домене с помощью функций [**дсжетдкопен**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena), [**дсжетдкнекст**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)и [**дсжетдкклосе**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) .
 
 Чтобы перечислить контроллер домена, вызовите [**дсжетдкопен**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena). Эта функция принимает параметры, определяющие домен для перечисления и другие параметры перечисления. **Дсжетдкопен** предоставляет обработчик контекста перечисления доменов, который используется для обнаружения операции перечисления при вызове [**дсжетдкнекст**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta) и [**дсжетдкклосе**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) .
 
@@ -117,9 +117,9 @@ if(ERROR_SUCCESS == dwRet)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

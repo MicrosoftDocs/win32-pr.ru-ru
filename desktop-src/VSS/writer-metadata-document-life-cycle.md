@@ -4,12 +4,12 @@ ms.assetid: bae9bbe7-ca55-47cb-b253-8092007cb181
 title: Жизненный цикл документа метаданных модуля записи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45be5748625d21f99abe3e77e0d6474a62210904
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2796d1a7b995f13829ac81485f74fa342bebe5e0e312b7b014d761a9962aa74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118121577"
 ---
 # <a name="writer-metadata-document-life-cycle"></a>Жизненный цикл документа метаданных модуля записи
 
@@ -17,7 +17,7 @@ ms.locfileid: "105692329"
 
 При создании документа метаданных модуля записи с помощью интерфейса [**ивсскреатевритерметадата**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata) или инициализации модуля записи ([**Квссвритер:: Initialize**](/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-initialize)) модуль записи должен явным образом указать следующее:
 
--   [*Метод Restore*](vssgloss-r.md)
+-   [*Метод восстановления*](vssgloss-r.md)
 -   Имя модуля записи
 -   [*Идентификатор класса модуля записи*](vssgloss-w.md)
 -   Использование данных (см. раздел [**\_ \_ тип использования VSS**](/windows/desktop/api/VsWriter/ne-vswriter-vss_usage_type))

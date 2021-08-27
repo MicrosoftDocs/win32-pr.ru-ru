@@ -3,8 +3,8 @@ title: Перечисление MPCOMPONENT_ID (Мпклиент. h)
 description: Возможные компоненты для диспетчера защиты от вредоносных программ.
 ms.assetid: 014B400A-880B-419D-9F50-F3354CE945D9
 keywords:
-- MPCOMPONENT_ID перечисления устаревшие функции среды Windows
-- PMPCOMPONENT_ID указателя перечисления устаревшие функции среды Windows
+- MPCOMPONENT_ID перечисления устаревших Windows компонентов среды
+- PMPCOMPONENT_IDные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 196eebc5a3bee4968878c376cd7358724c9c55cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9fb5acb8d21f7fc947ae83d2b3e6ac9288c5aa38e13c5d4afaa2501b73a3d458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976084"
 ---
 # <a name="mpcomponent_id-enumeration"></a>\_Перечисление идентификаторов мпкомпонент
 
@@ -94,9 +94,9 @@ typedef enum tagMPCOMPONENT_ID {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

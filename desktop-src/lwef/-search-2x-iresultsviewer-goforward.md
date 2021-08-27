@@ -3,9 +3,9 @@ title: Иресултсвиевер GoForward, метод
 description: Зарезервировано. | Иресултсвиевер GoForward, метод
 ms.assetid: be302b2d-37f3-4c8c-b48f-106147a2970f
 keywords:
-- Устаревшие функции среды Windows в методе GoForward
-- Метод GoForward устаревшие функции среды Windows, интерфейс Иресултсвиевер
-- Интерфейс Иресултсвиевер устаревшие функции среды Windows, метод GoForward
+- устаревшие функции Windows метода GoForward
+- устаревшие функции Windows метода GoForward, интерфейс иресултсвиевер
+- устаревшие функции Windows интерфейса иресултсвиевер, метод GoForward
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e1003c785650d7ae304a5fd21c6a4234f2546308
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4967eb36a3de7bbe7273589061fedc74ade7d17b48eace31e18e30c91c3e59c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104353152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118754120"
 ---
 # <a name="iresultsviewergoforward-method"></a>Метод Иресултсвиевер:: GoForward
 

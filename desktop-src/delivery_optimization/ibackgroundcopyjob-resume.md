@@ -63,7 +63,7 @@ HRESULT Resume();
 
 Если задание находится в состоянии BG_JOB_STATE_TRANSIENT_ERROR или BG_JOB_STATE_ERROR, вызовите метод **Resume** , чтобы перезапустить задание после устранения ошибки.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

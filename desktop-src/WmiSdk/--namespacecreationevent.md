@@ -98,7 +98,7 @@ class __NamespaceCreationEvent : __NamespaceOperationEvent
 
 Класс **\_ \_ намеспацекреатионевент** является производным от [**\_ \_ намеспацеоператионевент**](--namespaceoperationevent.md).
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

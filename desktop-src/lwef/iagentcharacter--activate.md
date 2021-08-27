@@ -4,16 +4,16 @@ description: Активация Иажентчарактер
 ms.assetid: a81eb62d-709b-46b4-9ff2-c9017f7f853e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1e86d2c094da484f528750d433e0fb6608790e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7256b1d155b051985c72120283e60896026218ea81d8b2b9c37dc94fb52bb63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104532507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751000"
 ---
 # <a name="iagentcharacteractivate"></a>Иажентчарактер:: Activate
 
-\[Microsoft Agent является устаревшим в Windows 7 и может быть недоступен в последующих версиях Windows.\]
+\[Microsoft Agent является устаревшим по отношению к Windows 7 и может быть недоступен в последующих версиях Windows.\]
 
 ``` syntax
 HRESULT Activate(
@@ -43,7 +43,7 @@ HRESULT Activate(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,16 +58,16 @@ HRESULT Activate(
 > [!Note]  
 > Вызов этого метода с **состоянием** , установленным в значение 1, обычно не создает событие [**Ажентнотифисинк:: активатеинпутстате**](https://www.bing.com/search?q=**AgentNotifySink::ActivateInputState**) , если другие символы не загружены или приложение уже не содержит активных входных данных.
 
- 
+ 
 
-## <a name="see-also"></a>См. также:
+## <a name="see-also"></a>См. также
 
 [**Иажентчарактер:: Хасосерклиентс**](iagentcharacter--hasotherclients.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

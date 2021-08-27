@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e725d561056e78a88bd9eeabd00d90abda1f0343
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ed9250e06d2b970ba92bffd10bf80fc6495793b8a9b0237d257b45feb10a99a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103910771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719632"
 ---
 # <a name="preview-handler-guidelines"></a>Рекомендации по обработчику предварительной версии
 
@@ -27,7 +27,7 @@ ms.locfileid: "103910771"
 -   Предварительная версия должна поддерживать сочетания клавиш для навигации и выбора в соответствии с поддерживаемыми приложениями. Он также должен отображать контекстное меню при щелчке правой кнопкой мыши.
 -   Если файл отображается в режиме предварительного просмотра, предварительный просмотр не должен блокировать сам файл. Файл можно просмотреть и открыть в связанном с ним приложении одновременно.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -497,7 +497,7 @@ MAC-адрес точки доступа, связанной с конечной
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

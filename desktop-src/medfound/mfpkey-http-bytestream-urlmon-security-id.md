@@ -4,12 +4,12 @@ ms.assetid: DD2B9487-53B0-4753-8C47-4D6BFE113109
 title: Свойство MFPKEY_HTTP_ByteStream_Urlmon_Security_Id (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf23e0c3d4aa5ab25590cfdb207fd50f04ecaec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d64b07dc7d419624bfe300b890b58554394a5cd3e8363ddcbc4d5be91d9e4b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105699112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738011"
 ---
 # <a name="mfpkey_http_bytestream_urlmon_security_id-property"></a>\_ \_ \_ \_ Свойство идентификатора безопасности мфпкэй HTTP ByteStream Urlmon \_
 
@@ -31,19 +31,19 @@ VT \_ вектор \| VT \_ UI1
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство используется для настройки потока байтов HTTP Media Foundation. Чтобы задать свойство, передайте указатель [**ипропертисторе**](/windows/win32/api/propsys/nn-propsys-ipropertystore) в сопоставитель источника. Дополнительные сведения см. [в разделе Настройка источника мультимедиа](configuring-a-media-source.md).
 
 Это свойство применяется только в том случае, если свойство [мфпкэй \_ HTTP \_ ByteStream \_ Enable \_ Urlmon](mfpkey-http-bytestream-enable-urlmon.md) имеет значение **Variant \_ true**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Мфидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

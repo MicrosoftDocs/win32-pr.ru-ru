@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Доступ к квалификатору WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c88a5826255046bc0898dae43b9aa25ec5c7648
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45601de8e7b3f8ef7054742812c24f9a81dcedf5417f7b7ba501f2471adedc58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118820622"
 ---
 # <a name="accessing-a-wmi-qualifier"></a>Доступ к квалификатору WMI
 

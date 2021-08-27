@@ -4,12 +4,12 @@ description: Объявите выходной поток шейдера Geometr
 ms.assetid: 0A8B8AB5-B7B0-46BB-91E8-B2E8E3D64B74
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f46903c3257c280788e91c25700743a23c146fe
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f53b8226cc9a4d8d2bd980cd26371f9e7b46a5168ec61ff39e425f73a4d7193c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104412234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118793045"
 ---
 # <a name="dcl_stream-sm5---asm"></a>\_поток дкл (SM5-ASM)
 
@@ -34,7 +34,7 @@ ms.locfileid: "104412234"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Данный поток может быть объявлен только один раз.
 
@@ -48,7 +48,7 @@ ms.locfileid: "104412234"
 
 
 
-| Вершина | Поверхности | Домен | Геометрия | Пиксель | Вычисления |
+| Вершина | Поверхности | Домен | Геометрия | Пиксель | Службы вычислений |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | X        |       |         |
 
@@ -64,7 +64,7 @@ ms.locfileid: "104412234"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
 | [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Нет        |
 | [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Нет        |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
@@ -75,7 +75,7 @@ ms.locfileid: "104412234"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b8c3bb79d4c04db072adef857de195df7a0f0fff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f6b6a630a24ba5d0427862f7b0799d9b4c4b14661d2adf33b0e56ccae78dfa10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105714035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118802042"
 ---
 # <a name="id3dxpatchmeshgetvertexbuffer-method"></a>Метод ID3DXPatchMesh:: Жетвертексбуффер
 
@@ -55,7 +55,7 @@ HRESULT GetVertexBuffer(
 
 Если метод выполнен успешно, возвращается значение D3D \_ ОК. В случае сбоя метода возвращаемое значение может быть одним из следующих: D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод предполагает однородную тесселяцию.
 
@@ -65,7 +65,7 @@ HRESULT GetVertexBuffer(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Mesh. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>   |
 
 

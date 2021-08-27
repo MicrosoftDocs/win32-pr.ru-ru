@@ -4,20 +4,20 @@ ms.assetid: 3ab0f10e-1a0d-4d0b-b5b2-69dc96570b33
 title: Создание экземпляра InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bde7e94566b076a4d9d6f6928fc08199ee71fa19
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53df76fea92077e2d1dbfaea57213ad95cdccf91a4b40267cec02e28b887b984
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032022"
 ---
 # <a name="instantiating-inkedit"></a>Создание экземпляра InkEdit
 
 В этом разделе описаны различные способы создания экземпляра элемента управления [InkEdit](inkedit-control.md) .
 
-## <a name="visual-basic-net-and-c"></a>Visual Basic .NET и C\#
+## <a name="visual-basic-net-and-c"></a>Visual Basic .net и C\#
 
-Если вы работаете с Microsoft Visual Basic .NET или C \# , перетащите элемент управления [InkEdit](./inkedit-control.md) с панели элементов в Visual Studio на форму или страницу, где должен отображаться элемент управления.
+если вы работаете с Microsoft Visual Basic .net или C \# , перетащите элемент управления [InkEdit](./inkedit-control.md) из панели элементов в Visual Studio в форму или страницу, где должен отображаться элемент управления.
 
 ## <a name="win32c"></a>Win32/C++
 
@@ -66,11 +66,11 @@ m_hWnd, NULL, hInst, NULL);
 
 При использовании стиля окна [ES \_ ноиме](../controls/rich-edit-control-styles.md) встроенная поддержка исправлений недоступна. Если не указать родительское окно, элемент управления создается как окно верхнего уровня и \_ добавляется стиль WS сисмену. Это также отключает встроенную поддержку исправления.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Добавление элементов управления рукописного ввода в проект](adding-ink-controls-to-a-project.md)
+[Добавление элементов управления рукописного ввода в Project](adding-ink-controls-to-a-project.md)
 </dt> </dl>
 
  
