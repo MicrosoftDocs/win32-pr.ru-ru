@@ -4,12 +4,12 @@ description: Определение категорий компонентов
 ms.assetid: 2d67a998-5200-4285-bd99-48cf59683569
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4609654827789949705a2f32803c154152d3f9c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 840c785f4b263f0288793f62542cc6d93637b719ff37c9cf29454f43dfaa1914
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104259094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071014"
 ---
 # <a name="defining-component-categories"></a>Определение категорий компонентов
 
@@ -17,7 +17,7 @@ ms.locfileid: "104259094"
 
 Поскольку идентификаторы интерфейса (IID) и идентификаторы категорий компонентов (CATID) существуют в разных пространствах имен, кажется, что можно использовать один и тот же идентификатор GUID как для IID, так и для идентификатора CATID. Однако, так как идентификаторов IID часто используются для идентификатора CLSID прокси-сервера интерфейса/заглушки, существует вероятность конфликта. Поэтому не используйте один и тот же идентификатор GUID для IID и CATID.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -36,9 +36,9 @@ ms.locfileid: "104259094"
 [Диспетчер категорий компонентов](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

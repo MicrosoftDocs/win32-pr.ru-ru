@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76d07da5d22dfb44215f70a7620d6519b5c8a802
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 2c1ed55fb60e3e7f42418e5bdfea48c1e298af34e9a7d76df17dfa7a021b3f50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "104997998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024244"
 ---
 # <a name="vector-type"></a>Тип вектора
 
@@ -83,7 +83,7 @@ vector <int,    1> iVector = 1;
 vector <double, 4> dVector = { 0.2, 0.3, 0.4, 0.5 };
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

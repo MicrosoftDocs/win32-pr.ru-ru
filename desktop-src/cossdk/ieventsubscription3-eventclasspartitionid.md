@@ -14,12 +14,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d41d3e2a170deffb73f1f533226421d88f150c01
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a305e18677c6a12e14b71b062324630021407231dac6b749f289b58396f4c1f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070654"
 ---
 # <a name="ieventsubscription3eventclasspartitionid-property"></a>Свойство IEventSubscription3:: Евенткласспартитионид
 
@@ -50,7 +50,7 @@ HRESULT get_EventClassPartitionID(
 
 Этот метод может возвращать стандартные возвращаемые значения E \_ INVALIDARG, e \_ OUTOFMEMORY, e \_ непредвиденные, e \_ Fail и S \_ ОК.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -61,7 +61,7 @@ HRESULT get_EventClassPartitionID(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0e26c36231edaf3ca4b8accf844a3c58b3d70bc7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6694c945594f0ea5008f6b5f574b84accd338f89a45819a8fb02793bc619ea1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105664797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046804"
 ---
 # <a name="cim_mediapresent-class-hyper-v-management"></a>Класс CIM_MediaPresent (Управление Hyper-V)
 
@@ -45,7 +45,7 @@ class CIM_MediaPresent : CIM_Dependency
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **CIM \_ медиапресент** имеет следующие свойства.
 
@@ -96,7 +96,7 @@ class CIM_MediaPresent : CIM_Dependency
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -110,7 +110,7 @@ class CIM_MediaPresent : CIM_Dependency
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

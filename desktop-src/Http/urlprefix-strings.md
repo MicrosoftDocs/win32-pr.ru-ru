@@ -6,12 +6,12 @@ keywords:
 - UrlPrefix строки API сервера HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bddc484f26bc1b3de5d20196dadec9201d3ea272
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: f3fad89bf7abd52ee3681beaa8069a7f5e4ee25b482cd065f880263852690fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103797203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047044"
 ---
 # <a name="urlprefix-strings"></a>Строки UrlPrefix
 
@@ -151,9 +151,9 @@ UrlPrefix имеет следующий синтаксис:
 
 API сервера HTTP направляет запрос `https://www.adatum.com:80/default.htm` на Queue1 и запрос `https://www.adatum.com:80/dir/sna/snadefault.htm` на Queue2. Он направляет запрос `https://www.adatum.com:80/dir/app.htm` на Queue1, так как самое длинное полное соответствие заключается в `https://www.adatum.com:80/` UrlPrefix, а не в `https://www.adatum.com:80/dir/sna` UrlPrefix.
 
- 
+ 
 
- 
+ 
 
 
 

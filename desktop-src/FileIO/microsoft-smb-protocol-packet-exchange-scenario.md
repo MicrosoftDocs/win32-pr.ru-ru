@@ -1,17 +1,17 @@
 ---
 description: Пример обмена пакетами протокола SMB (Майкрософт) между клиентом и сервером.
 ms.assetid: f831d0de-0e38-4141-811c-892a1b5c4037
-title: Сценарий обмена пакетами протокола SMB (Майкрософт)
+title: сценарий Exchange пакетов протокола SMB Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a03e2f75b00aa93e629b3e698631c5efde4694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47415c6d49f6c1f7b924719d4d012277c03956c1af0d948b3ef66049c1203641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104343192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048054"
 ---
-# <a name="microsoft-smb-protocol-packet-exchange-scenario"></a>Сценарий обмена пакетами протокола SMB (Майкрософт)
+# <a name="microsoft-smb-protocol-packet-exchange-scenario"></a>сценарий Exchange пакетов протокола SMB Microsoft
 
 В этом разделе приводится пример обмена пакетами протокола SMB (Майкрософт) между клиентом и сервером. Следующие шаги являются обзором процесса.
 
@@ -43,7 +43,7 @@ ms.locfileid: "104343192"
  
 
 > [!Note]  
-> Если вы реализуете CIFS, который не поддерживает уведомления об изменениях, Windows не может поддерживать необработанный обработчик в файловой системе, а подключение SMB может исчезнуть без уведомления.
+> при реализации CIFS, не поддерживающей уведомления об изменениях, Windows не может поддерживать необработанный обработчик в файловой системе, а подключение SMB может исчезнуть без уведомления.
 
  
 

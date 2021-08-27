@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 38f83a7c491f1591cece8d5d85eb4525a1059d2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: edc5448a20320e9bf74da7511bf6ae9fb9d95facc9b7973bbcd688127b495fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056104"
 ---
 # <a name="cbasepropertypageonconnect-method"></a>Метод Кбасепропертипаже. OnConnect
 
@@ -53,7 +53,7 @@ virtual HRESULT OnConnect(
 
 Реализация базового класса возвращает значение S \_ ОК.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод [**кбасепропертипаже:: сетобжектс**](cbasepropertypage-setobjects.md) вызывает `OnConnect` метод. Переопределите этот метод, чтобы сохранить указатель на объект, указанный параметром *pUnknown*. Можно либо сохранить сам указатель *pUnknown* , либо запросить этот указатель для других интерфейсов. Если вы сохраняете указатель *pUnknown* , вызывайте **AddRef** перед `OnConnect` возвратом.
 
@@ -76,18 +76,18 @@ HRESULT CMyProp::OnConnect(IUnknown *pUnk)
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Кпроп. h (включение Streams. h)</dt> </dl>                                                                                     |
+| Заголовок<br/>  | <dl> <dt>кпроп. h (включает Потоки. h)</dt> </dl>                                                                                     |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о безопасности
-description: Платформа безопасности в API веб-служб Windows (ВВСАПИ) обеспечивает целостность сообщений, конфиденциальность, обнаружение воспроизведения и проверку подлинности сервера с помощью защиты транспорта.
+description: инфраструктура безопасности в API Windows веб-служб (ввсапи) обеспечивает целостность сообщений, конфиденциальность, обнаружение воспроизведения и проверку подлинности сервера с помощью защиты транспорта.
 ms.assetid: 2681bffc-ba07-4822-b265-2bf7f95297d4
 keywords:
 - Обзор безопасности веб-службы для Windows
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 741e98ef023c0bae146b5fde582484f2dd133df6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b6928afd51ded7104e909994f8b625b931da6a157e859c890066c73074ae7d16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089444"
 ---
 # <a name="security-overview"></a>Общие сведения о безопасности
 
-Платформа безопасности в API веб-служб Windows (ВВСАПИ) предоставляет:
+платформа безопасности в API Windows веб-служб (ввсапи) предоставляет:
 
 -   Целостность сообщений, конфиденциальность, обнаружение воспроизведения и проверка подлинности сервера с помощью защиты транспорта.
 -   Проверка подлинности клиента, такая как проверка маркера безопасности, доверие сертификатов и проверка отзыва, и т. д. Использование безопасности сообщений SOAP или безопасность транспорта.
@@ -39,20 +39,20 @@ ms.locfileid: "104488048"
 
 ## <a name="selecting-security-bindings"></a>Выбор привязок безопасности
 
-При проектировании безопасности приложения основным решением является выбор привязок безопасности, которые будут включаться в описание безопасности. Ниже приведены некоторые рекомендации по выбору привязок безопасности, подходящих для сценария безопасности приложения. Полезный эвристический подход состоит в том, чтобы сначала понять, какие типы учетных данных безопасности (например, [**сертификаты X. 509**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential), [**имя пользователя или пароль домена Windows**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential), [**определенные приложением имя пользователя и пароли**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)) будут доступны приложению, а затем выбрать привязку безопасности, которая может использовать этот тип учетных данных.
+При проектировании безопасности приложения основным решением является выбор привязок безопасности, которые будут включаться в описание безопасности. Ниже приведены некоторые рекомендации по выбору привязок безопасности, подходящих для сценария безопасности приложения. полезный эвристический подход состоит в том, чтобы сначала понять, какие типы учетных данных безопасности (например, [**сертификаты X. 509**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential), [**Windows имя пользователя или пароль домена**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential), [**определенные приложением имя пользователя и пароли**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)) будут доступны приложению, а затем выбрать привязку безопасности, которая может использовать этот тип учетных данных.
 
 -   Безопасность транспорта, где безопасность применяется на транспортном уровне потока (ниже границ сообщений SOAP), является первым вариантом, который следует учитывать.
     -   В сценариях с Интернетом и в сценариях интрасети, где на сервере можно развернуть сертификат X. 509, приложение может использовать [**\_ \_ \_ \_ привязку безопасности транспорта WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Этот параметр показан в следующем примере. Клиент: [хттпклиентвиссслексампле](httpclientwithsslexample.md) Server: [хттпсервервиссслексампле](httpserverwithsslexample.md).
 
         Если требуется проверка подлинности клиента по заголовку HTTP, для предоставления этой функции можно добавить [**\_ \_ \_ \_ \_ привязку безопасности HTTP-заголовка**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) .
 
-    -   Для сценариев интрасети, где подходят встроенные протоколы проверки подлинности Windows, такие как Kerberos, NTLM и SPNEGO, приложение может использовать [**\_ \_ \_ \_ \_ привязку безопасности транспорта WS TCP SSPI**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding). В следующем примере показан этот параметр: Client: [рекуестреплиткпклиентвисвиндовстранспортсекуритексампле](requestreplytcpclientwithwindowstransportsecurityexample.md) Server: [рекуестреплиткпсервервисвиндовстранспортсекуритексампле](requestreplytcpserverwithwindowstransportsecurityexample.md).
+    -   для сценариев в интрасети, в Windows которых подходят встроенные протоколы проверки подлинности, такие как Kerberos, NTLM и SPNEGO, приложение может использовать [**\_ \_ \_ \_ \_ привязку безопасности транспорта WS TCP SSPI**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding). В следующем примере показан этот параметр: Client: [рекуестреплиткпклиентвисвиндовстранспортсекуритексампле](requestreplytcpclientwithwindowstransportsecurityexample.md) Server: [рекуестреплиткпсервервисвиндовстранспортсекуритексампле](requestreplytcpserverwithwindowstransportsecurityexample.md).
 
         Клиент по именованным каналам: [рекуестреплинамедпипесклиентвисвиндовстранспортсекуритексампле](requestreplynamedpipesclientwithwindowstransportsecurityexample.md)
 
         Сервер с именованными каналами: [рекуестреплинамедпипессервервисвиндовстранспортсекуритексампле](requestreplynamedpipesserverwithwindowstransportsecurityexample.md)
 
-    -   В сценариях с локальным компьютером, где подходят встроенные протоколы проверки подлинности Windows, такие как Kerberos, NTLM и SPNEGO, приложение может использовать привязку безопасности [**\_ транспорта WS TCP \_ SSPI \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding) или [**\_ \_ \_ \_ \_ привязку безопасности транспорта WS помощью канала NamedPipe SSPI**](/windows/desktop/api/WebServices/ns-webservices-ws_namedpipe_sspi_transport_security_binding). [**\_ \_ \_ Привязка канала WS помощью канала NamedPipe**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) является предпочтительной в таких сценариях, так как гарантирует, что трафик не будет выходить из компьютера (это **свойство \_ \_ \_ привязки канала WS помощью канала NamedPipe**).
+    -   в сценариях с локальным компьютером, где используются Windows встроенные протоколы проверки подлинности, такие как Kerberos, NTLM и SPNEGO, приложение может использовать привязку транспорта [**ws \_ TCP \_ sspi \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding) или [**\_ \_ \_ \_ \_ привязку безопасности транспорта ws помощью канала namedpipe sspi**](/windows/desktop/api/WebServices/ns-webservices-ws_namedpipe_sspi_transport_security_binding). [**\_ \_ \_ Привязка канала WS помощью канала NamedPipe**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) является предпочтительной в таких сценариях, так как гарантирует, что трафик не будет выходить из компьютера (это **свойство \_ \_ \_ привязки канала WS помощью канала NamedPipe**).
 
 -   Безопасность в смешанном режиме, где безопасность транспорта защищает подключение, а заголовок WS-Security в сообщении SOAP обеспечивает проверку подлинности клиента, — это следующий вариант, который следует учитывать. Следующие привязки используются в сочетании с одной из привязок безопасности транспорта, описанных в предыдущем разделе.
     -   Когда клиент проходит проверку подлинности с помощью пары "имя пользователя-пароль" на уровне приложения, приложение может использовать [**\_ \_ \_ \_ привязку безопасности сообщений имени пользователя WS**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding) для предоставления данных проверки подлинности. В следующих примерах показано использование этой привязки совместно с [**\_ \_ \_ \_ привязкой безопасности транспорта WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding).
@@ -62,9 +62,9 @@ ms.locfileid: "104488048"
     -   При использовании [контекста безопасности](security-context.md)клиент сначала устанавливает контекст безопасности с сервером, а затем использует этот контекст для проверки подлинности сообщений. Чтобы включить эту функцию, описание безопасности должно содержать [**\_ \_ \_ \_ \_ привязку безопасности сообщений контекста безопасности WS**](/windows/desktop/api/WebServices/ns-webservices-ws_security_context_message_security_binding). После установки контексты безопасности могут передаваться с помощью упрощенных маркеров, что позволяет избежать отправки потенциально больших и вычислительно ресурсоемких учетных данных клиента с каждым сообщением.
     -   В сценарии [федеративной безопасности](federation.md) клиент сначала получает маркер безопасности, выданный службой маркеров безопасности (STS), а затем выводит выданный маркер службе. На стороне клиента: чтобы получить маркер безопасности от STS, приложение может использовать [**всрекуестсекурититокен**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken). Кроме того, приложение может использовать библиотеку поставщика маркеров безопасности на стороне клиента, например CardSpace или LiveID, а затем использовать их выходные данные для локального создания маркера безопасности с помощью [**вскреатексмлсекурититокен**](/windows/desktop/api/WebServices/nf-webservices-wscreatexmlsecuritytoken). В любом случае, после того, как маркер безопасности будет доступен клиенту, он может быть представлен службе с помощью описания безопасности, содержащего [**\_ \_ \_ \_ \_ привязку безопасности сообщений токена WS XML**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding). На стороне сервера. Если маркер безопасности, выданный STS, является маркером SAML, то сервер может использовать описание безопасности с [**\_ \_ \_ \_ привязкой безопасности сообщений SAML WS**](/windows/desktop/api/WebServices/ns-webservices-ws_saml_message_security_binding).
         > [!Note]  
-        > Windows 7 и Windows Server 2008 R2: ВВСАПИ поддерживает только [WS-Trust](http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) и [WS-SecureConversation](http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) в соответствии с определением [упрощенного WS-Security профиля (лвссп)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Дополнительные сведения о реализации Майкрософт см. в разделе [синтаксис сообщения](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) в лвссп.
+        > Windows 7 и Windows Server 2008 R2: ввсапи поддерживает только [Ws-Trust](http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) и [ws-SecureConversation](http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) в соответствии с определением [упрощенного WS-Security профиля (лвссп)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Дополнительные сведения о реализации Майкрософт см. в разделе [синтаксис сообщения](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) в лвссп.
 
-         
+         
 -   Последний вариант — использовать привязки проверки подлинности без использования привязки защиты, например [**\_ \_ \_ \_ привязки безопасности транспорта WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Это приведет к тому, что учетные данные передаются в виде открытого текста и могут повлиять на безопасность. Использование этого параметра следует тщательно оценить, чтобы убедиться в отсутствии уязвимостей. Примером потенциального использования является обмен сообщениями между внутренними серверами через защищенную частную сеть. Этот параметр поддерживается в следующих конфигурациях.
 
     -   [**Служба WS \_ \_ \_ \_ \_ Привязка безопасности для проверки подлинности HTTP-заголовка**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) поддерживает этот параметр во всех конфигурациях.
@@ -93,7 +93,7 @@ ms.locfileid: "104488048"
 Документация по API для обеспечения безопасности сгруппирована в следующие разделы.
 
 -   [Описание безопасности](security-description.md)
-    -   [Параметры безопасного канала](security-channel-settings.md)
+    -   [Параметры канала безопасности](security-channel-settings.md)
     -   [Привязки безопасности](security-bindings.md)
         -   [Учетная запись для безопасного доступа](security-credentials.md)
         -   [Настройки привязки безопасности](security-binding-settings.md)
@@ -140,6 +140,6 @@ ms.locfileid: "104488048"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07acf706aa63a21edd27fb2ac206db3039249055
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9648b4c2d1272dcf00d45277119b51f438dba23d9eaf5e7810451fb693e8cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004634"
 ---
 # <a name="wmdmdatetime-structure"></a>Структура ВМДМДАТЕТИМЕ
 
@@ -94,7 +94,7 @@ typedef struct _WMDMDATETIME {
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
 
 
 

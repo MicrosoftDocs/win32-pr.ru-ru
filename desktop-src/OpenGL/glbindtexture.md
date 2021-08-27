@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e76009a486e3903ad8230891af8b7593ab8aaa47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f7f108a0ce4fbc60aba6dc0430227eab15218fe17f80800678fc16b54bbc39f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082224"
 ---
 # <a name="glbindtexture-function"></a>Функция Глбиндтекстуре
 
@@ -72,7 +72,7 @@ void WINAPI glBindTexture(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глбиндтекстуре** позволяет создать именованную текстуру. При вызове **глбиндтекстуре** с *ЦЕЛЕВЫМ объектом* \_ текстуры GL \_ 1d или \_ 2D текстуры GL \_ , а для параметра *текстура* — имя новой текстуры, которая была создана, привязывает название текстуры к соответствующей цели текстуры. Если текстура привязана к целевому объекту, то предыдущая привязка для этого целевого объекта больше не действует.
 
@@ -97,7 +97,7 @@ void WINAPI glBindTexture(
 
 **глжет** с аргументом \_ \_ двухмерной \_ привязки текстуры GL
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -111,7 +111,7 @@ void WINAPI glBindTexture(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

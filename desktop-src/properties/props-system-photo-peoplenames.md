@@ -4,12 +4,12 @@ ms.assetid: 7778abb3-7a1c-4963-8793-ff9d326226d9
 title: System. photo. Пеопленамес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fcdb3b8c85ac70719b486d4ddd5b303ebd6447
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a890bfc64eedac50e47a0edbeb3810dee93fb989df0d9ae33145a35ea23e131
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010304"
 ---
 # <a name="systemphotopeoplenames"></a>System. photo. Пеопленамес
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

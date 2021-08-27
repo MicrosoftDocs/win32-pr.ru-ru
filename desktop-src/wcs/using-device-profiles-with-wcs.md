@@ -3,13 +3,13 @@ title: Использование профилей устройств в WCS
 description: Профили устройств — это базовый инструмент для управления цветом.
 ms.assetid: 9ea420ad-dcf1-4ba9-b739-308be7a56a6c
 keywords:
-- Цветовая система Windows (WCS), профили устройств
-- WCS (цветовая система Windows), профили устройств
+- Windows Система цветов (WCS), профили устройств
+- WCS (Windows цветовая система), профили устройств
 - Управление цветом изображений, профили устройств
 - Управление цветом, профили устройств
 - цвета, профили устройств
-- Цветовая система Windows (WCS), профили
-- WCS (цветовая система Windows), профили
+- Windows Система цветовой системы (WCS), профили
+- WCS (Windows цветовая система), профили
 - Управление цветом изображений, профили
 - Управление цветом, профили
 - цвета, профили
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf58b46cbee67d437e7d6fe343c7f3a0fab451b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1c8211ff883f8e30e7b67b0168e6da980744b252cbb1b89412fc834ac6370cca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "105720817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090074"
 ---
 # <a name="using-device-profiles-with-wcs"></a>Использование профилей устройств в WCS
 

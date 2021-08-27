@@ -21,12 +21,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4a19306855b7f38d03aa00323b26407f108bfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5adb0371e3796c5d512ff3582a5c65850dc6cf8261f138934d46640aa57bf28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045964"
 ---
 # <a name="tree-view-control-item-states"></a>Состояния элементов элемента управления Tree-View
 
@@ -49,7 +49,7 @@ ms.locfileid: "105657149"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При установке или извлечении индекса изображения наложения элемента или индекса изображения состояния необходимо указать следующие маски в элементе **статемаск** структуры [**твитем**](/windows/win32/api/commctrl/ns-commctrl-tvitema) :
 
@@ -59,13 +59,13 @@ ms.locfileid: "105657149"
 
 Эти значения также можно использовать для маскирования битов состояния, которые не представляют интереса.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

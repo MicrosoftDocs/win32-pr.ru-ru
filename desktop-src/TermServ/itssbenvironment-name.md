@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b5ac2fd725ec07102c08e93b2bfb39dabe701ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d60f64cf8bc350ca80072b2c7a43ecabf2fbe5d4650188b7d5a5e5c05a4fbc7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103988397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072204"
 ---
 # <a name="itssbenvironmentname-property"></a>Свойство Итссбенвиронмент:: Name
 
@@ -46,11 +46,11 @@ HRESULT get_Name(
 
 Указатель на переменную **BSTR** , содержащую имя среды.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод возвращает строку, которая не используется напрямую компонентом подключение к удаленному рабочему столу Broker (RDCB). RDCB передает эту строку в подключаемые модули ресурсов.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -62,7 +62,7 @@ HRESULT get_Name(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

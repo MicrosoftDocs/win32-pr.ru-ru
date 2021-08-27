@@ -3,7 +3,7 @@ title: Сообщение MCIWNDM_SENDSTRING (VFW. h)
 description: Сообщение МЦИВНДМ \_ сендстринг отправляет команду MCI в виде строки на устройство, связанное с окном мЦивнд. Это сообщение можно отправить явно или с помощью макроса МЦивндсендстринг.
 ms.assetid: 0e999a0e-588d-4f06-a1bc-fd3f245d8980
 keywords:
-- MCIWNDM_SENDSTRING сообщения Windows мультимедиа
+- сообщение MCIWNDM_SENDSTRING Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36a034a3459803b1652bafed4eb389866add211
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b98ee008346821c2d489b19d01bb372c37cd3d541380fd8dae3b72bf613051f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037934"
 ---
 # <a name="mciwndm_sendstring-message"></a>\_Сообщение мЦивндм сендстринг
 
@@ -49,13 +49,13 @@ lParam = (LPARAM) (LPSTR) sz;
 
 Возвращает нуль в случае успеха или ошибку в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обработчик сообщений для **мЦивндм \_ сендстринг** добавляет псевдоним устройства к команде MCI, отправляемой на устройство. Поэтому не следует использовать псевдоним в команде MCI, которую вы выпустили с помощью **мЦивндм \_ сендстринг**.
 
 Чтобы получить возвращаемую строку, которая содержит результат выполнения команды, отправьте сообщение [**мЦивндм \_ ретурнстринг**](mciwndm-returnstring.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -67,7 +67,7 @@ lParam = (LPARAM) (LPSTR) sz;
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

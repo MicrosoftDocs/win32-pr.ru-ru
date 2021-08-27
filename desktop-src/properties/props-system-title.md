@@ -4,12 +4,12 @@ ms.assetid: 8fb948d6-2677-4e5d-b283-8757c3df574d
 title: System.Title
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eee57037a35c08fd3a6be4f4a0ce7a8475f82cf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b575c3dac43ec742f3b15068731afc6ddb15c7bf660a048c416abd7bc5976ab6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105703065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058284"
 ---
 # <a name="systemtitle"></a>System.Title
 
@@ -30,13 +30,13 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
 Это свойство сопоставляется с *заголовком* свойства OLE Document. [System. Title]() — это часто используемое свойство, особенно в разнородных списках элементов, где элементы могут иметь множество различных типов. Поэтому рекомендуется, чтобы обработчики свойств заполнили это свойство, даже если оно избыточно. Например, сообщение электронной почты, которое заполняет как System. Title, так и [System. subject](./props-system-subject.md) тем же значением.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

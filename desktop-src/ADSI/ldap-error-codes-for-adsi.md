@@ -5,12 +5,12 @@ ms.assetid: 7a0a5a1b-8473-405b-a590-3f917e50cbdc
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 149abf4562b0e35067149fb69c9a1ec1304cc528
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b6280784d8bf9fc9c692cb38f1ca2d0e76646b1d2a3d464e516f03e7ac682fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005514"
 ---
 # <a name="ldap-error-codes-for-adsi"></a>Коды ошибок LDAP для ADSI
 
@@ -26,9 +26,9 @@ ms.locfileid: "103887520"
 4.  Замените префикс **Errors \_ DS** на **LDAP \_**. В этом примере новое определение — **\_ \_ Ошибка операций LDAP**.
 5.  Найдите в файле Винлдап. h значение определения ошибки LDAP. В этом примере значение **\_ \_ ошибки операций LDAP** в файле винлдап. h — 0x01.
 
- 
+ 
 
- 
+ 
 
 
 

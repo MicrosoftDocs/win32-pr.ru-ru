@@ -4,12 +4,12 @@ description: Библиотека DLL администрирования RAS д�
 ms.assetid: bf2bd4d4-6da2-471e-843c-c0f0563d3795
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a02c8dc9212f3cfd173c9a236f81fcf766658424
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d4ed327cf3114ec4bf7844518f3c1500845450021f80bbd59ddd642de9eeac1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036394"
 ---
 # <a name="ras-administration-dll-functions"></a>Функции DLL администрирования RAS
 
@@ -41,6 +41,6 @@ ms.locfileid: "103792973"
 
 Дополнительные сведения о библиотеках DLL администрирования службы удаленного доступа см. в разделе Обзор, [Библиотека DLL администрирования RAS](ras-administration-dll.md).
 
- 
+ 
 
- 
+ 

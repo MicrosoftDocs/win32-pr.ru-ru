@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b3a0ce4f230236e276fede528a5e778ecafd51fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6b4d76b3035e156da1f1d4decf7a5c59b28bf0ca13bc2bdaa33e319422509af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037554"
 ---
 # <a name="idelaydcgettotalstatistics-method"></a>Метод Иделайдк:: Жеттоталстатистикс
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 | Код возврата                                                                                          | Описание                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. Вызовите [иделайдк:: Connect](idelaydc-connect.md) , чтобы подключиться к сети.<br/> |
-| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | НПП подключается к сети, но не с методом [иделайдк:: Connect](idelaydc-connect.md) .<br/>             |
+| <dl> <dt>**НМЕРР \_ не \_ подключен**</dt> </dl> | НПП не подключен к сети. вызовите [иделайдк:: Подключение](idelaydc-connect.md) , чтобы подключиться к сети.<br/> |
+| <dl> <dt>**НМЕРР \_ не \_ отложена**</dt> </dl>   | нпп подключается к сети, но не с помощью метода [иделайдк:: Подключение](idelaydc-connect.md) .<br/>             |
 | <dl> <dt>**НМЕРР \_ не \_ захватывается**</dt> </dl> | НПП не захватывает данные. Вызовите [иделайдк:: Start](idelaydc-start.md) , чтобы начать сбор данных.<br/>                 |
 
 
@@ -79,7 +79,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 
 Сетевой монитор также хранит [*статистику диалога*](c.md), которую можно получить, вызвав метод [Иделайдк:: жетконверсатионстатистикс](idelaydc-getconversationstatistics.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -99,7 +99,7 @@ HRESULT STDMETHODCALLTYPE GetTotalStatistics(
 [иделайдк](idelaydc.md)
 </dt> <dt>
 
-[Иделайдк:: Connect](idelaydc-connect.md)
+[иделайдк:: Подключение](idelaydc-connect.md)
 </dt> <dt>
 
 [Иделайдк:: Жетконверсатионстатистикс](idelaydc-getconversationstatistics.md)

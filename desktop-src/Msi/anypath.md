@@ -4,12 +4,12 @@ ms.assetid: fe8a4d2a-1960-40af-a0e4-4d65accdd388
 title: анипас
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ab6265874616bb0bb1a2f61098cdbabfa8ea24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ab5d8e7aaf4e92c2b33379b92b00263df07366ff340346aa19518478f8f2394
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045784"
 ---
 # <a name="anypath"></a>анипас
 
@@ -20,12 +20,12 @@ ms.locfileid: "105650731"
 -   \\\\\\Общая папка сервера \\ TEMP
 -   c: \\ TEMP
 -   \\Каталог
--   пакета ISPAC ~ 1 \| состояние проекта
+-   пакета ispac ~ 1 \| Project состояние
 
 Примеры недопустимых данных Анипас:
 
--   c: \\ temp \\ пакета ISPAC ~ 1 \| c: \\ состояние temp одного \\ проекта
--   \\Временная \\ пакета ISPAC ~ 1 \| \\ временное \\ состояние одного проекта
+-   c: \\ temp \\ пакета ispac ~ 1 \| c: \\ temp one \\ Project Status
+-   \\временное \\ пакета ispac ~ 1 \| \\ временное \\ состояние Project
 
  
 

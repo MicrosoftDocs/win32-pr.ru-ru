@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 770930eb780b3ce8684608ffcdc0c13c1630cab0
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 236666cbef369c4f2353ff524ceb7544e62f50d4a7e4a7ac59f3882057a92f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "103989876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009644"
 ---
 # <a name="imsrdpclientnonscriptable7clipboard-property"></a>Свойство IMsRdpClientNonScriptable7:: Clipboard
 
@@ -42,7 +42,7 @@ HRESULT get_Clipboard(
 
 [Имсрдпклипбоард](imsrdpclipboard.md) , представляющий контроллер буфера обмена, используемый для синхронизации локальных и удаленных буферов обмена, если включена ручная синхронизация буфера обмена (т. е. свойству [мануалклипбоардсинценаблед](imsrdpextendedsettings-property.md) присвоено значение **true**).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------|
@@ -51,7 +51,7 @@ HRESULT get_Clipboard(
 | DLL                  | MsTscAx.dll     |
 | IID                      | IID \_ IMsRdpClientNonScriptable7 определен как 71B4A60A-FE21-46D8-A39B-8E32BA0C5ECC          |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

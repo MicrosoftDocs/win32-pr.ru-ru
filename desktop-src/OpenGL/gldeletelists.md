@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c11ae41273cba5bd050a62ea330cef9da0647769
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ec0ffac68119f6f2080ef6ca96ec63fbd35176d3541464a89b6c31f4941b4c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081664"
 ---
 # <a name="gldeletelists-function"></a>Функция Глделетелистс
 
@@ -72,13 +72,13 @@ void WINAPI glDeleteLists(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глделетелистс** приводит к удалению непрерывной группы списков вывода. Параметр *List* — это имя первого списка, который необходимо удалить, а *Range* — число удаляемых списков. Все списки дисплеев  с   =    =    +  *диапазоном* list d List-1 удалены.
 
 Освобождаются все места хранения, выделенные для указанных списков дисплеев, и имена, доступные для повторного использования, можно использовать позднее. Имена в диапазоне, не имеющие связанного списка отображений, игнорируются. Если *Range* равен нулю, ничего не происходит.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ void WINAPI glDeleteLists(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

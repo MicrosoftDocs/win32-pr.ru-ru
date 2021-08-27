@@ -1,7 +1,7 @@
 ---
-title: Преимущества сертификации Windows
+title: преимущества сертификации Windows
 ms.assetid: F6476A58-F74D-4914-A234-635484D7DAAB
-description: Дополнительные сведения о преимуществах сертификации Windows
+description: 'подробнее: преимущества сертификации Windows'
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -9,35 +9,35 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4f386ae6f44ada93d710c49fc9a30c58c38c23f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a567121e94c9203c65c9aa4233cf10cc38caae5640bffd8ad789547da410ca7f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090024"
 ---
-# <a name="benefits-of-windows-certification"></a>Преимущества сертификации Windows
+# <a name="benefits-of-windows-certification"></a>преимущества сертификации Windows
 
-При сертификации Windows 8.1 или классических приложений Windows 8 вы имеете право:
+при сертификации Windows 8.1 или Windows 8 настольных приложений вы имеете право:
 
--   Примите участие в многомиллиардном программном обеспечении Windows на рынке и в самом крупном выпуске Windows
--   В отчете о совместимости программы установки Windows должны быть представлены как совместимые.
--   Вы должны быть указаны в магазине Windows, где миллионы потенциальных клиентов по всему миру (только Windows 8.1)
+-   примите участие в Windowsном программном обеспечении для нескольких миллиардов долларов и в крупнейших выпусках Windows
+-   в отчете о совместимости программы установки Windows должны быть представлены как совместимые.
+-   вы должны быть указаны в магазине Windows с миллионами потенциальных клиентов по всему миру (только Windows 8.1)
 -   Доступ к маркетинговым ресурсам и обучение из Microsoft Partner Network
--   Получите логотипы сертификации, чтобы легко понять свое приложение как высококачественное и совместимое с Windows
+-   получите логотипы сертификации, чтобы легко понять ваше приложение как высококачественное и Windows совместимо
 -   Предоставьте своим заказчикам уверенность в качества вашего продукта
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Убедитесь, что ваши приложения совместимы с Windows.](/windows/desktop/w8cookbook/windows-8-and-windows-server-8-compatibility-cookbook-portal)
 </dt> <dt>
 
-[Получите Windows SDK (включая комплект сертификации приложений для Windows) и другие файлы для загрузки.](https://www.microsoft.com/?ref=go)
+[получите Windows SDK (включает набор сертификации Windows приложений) и другие файлы для загрузки.](https://www.microsoft.com/?ref=go)
 </dt> <dt>
 
-[Получите сведения об использовании эмблемы Windows в классическом приложении.](/previous-versions/windows/hardware/hck/dn641154(v=vs.85))
+[получите сведения об использовании логотипа Windows в классическом приложении.](/previous-versions/windows/hardware/hck/dn641154(v=vs.85))
 </dt> <dt>
 
 [Получите справку по разработке классических приложений.](https://www.microsoft.com/?ref=go)

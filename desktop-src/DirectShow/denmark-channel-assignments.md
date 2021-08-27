@@ -4,12 +4,12 @@ ms.assetid: 6ef5e1b9-08a0-4f3e-a26f-cf5bdf4ea464
 title: Назначения для каналов Дании
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33597d1f6a3d0e32365630362dcd3d7dd83272a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dd54c7161be11375fb899b985ecbf1f00f5d23de31e808fcfd23616b984932f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079274"
 ---
 # <a name="denmark-channel-assignments"></a>Назначения для каналов Дании
 
@@ -17,7 +17,7 @@ ms.locfileid: "103894181"
 
 Описание следующих таблиц см. в разделе [таблицы и назначения](tables-and-assignments.md).
 
-В Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
+в Windows 7 появились следующие назначения каналов. Ранее была использована [Таблица частоты уникабле](unicable-frequency-table.md) .
 
 ## <a name="cable-assignments"></a>Назначения кабелей
 
@@ -134,7 +134,7 @@ ms.locfileid: "103894181"
        855250000L,      // 107 K69
 ```
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

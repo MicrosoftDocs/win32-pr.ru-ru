@@ -1,22 +1,22 @@
 ---
 description: Windows Server 2008;
 ms.assetid: 2f7b62f8-ba1e-42d2-8872-38d4475e4a2a
-title: Новые возможности VSS в Windows Server 2008 и Windows Vista SP1
+title: новые возможности VSS в Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f053e327a7a54a9597bc06836b37c00effc62f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83ee109eec31c084dc43fb9e0cc6341f443a16e6aa06ac989a7f328d9bb3011f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104145193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006124"
 ---
-# <a name="whats-new-in-vss-in-windows-server-2008-and-windows-vista-sp1"></a>Новые возможности VSS в Windows Server 2008 и Windows Vista SP1
+# <a name="whats-new-in-vss-in-windows-server-2008-and-windows-vista-sp1"></a>новые возможности VSS в Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1)
 
-Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1) вносят следующие изменения в служба теневого копирования томов.
+Windows сервер 2008 и Windows Vista с пакетом обновления 1 (SP1) вносят следующие изменения в служба теневого копирования томов.
 
 > [!Note]  
-> Все изменения в Windows Vista относятся к Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1). Дополнительные сведения об этих изменениях см. в статье [новые возможности VSS в Windows Vista](what-s-new-in-vss-in-windows-vista.md).
+> все изменения для Windows vista применимы к Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1). дополнительные сведения об этих изменениях см. в статье [новые возможности VSS в Windows Vista](what-s-new-in-vss-in-windows-vista.md).
 
  
 
@@ -101,7 +101,7 @@ Windows Server 2008 и Windows Vista с пакетом обновления 1 (S
 
 ## <a name="new-vss-writers"></a>Новые модули записи VSS
 
-В Windows Server 2008 и Windows Vista с пакетом обновления 1 (SP1) представлены следующие модули записи VSS:
+Windows сервер 2008 и Windows Vista с пакетом обновления 1 (SP1) представляют следующие модули записи VSS:
 
 -   Модуль записи конфигурации IIS
 -   Модуль записи метабазы IIS

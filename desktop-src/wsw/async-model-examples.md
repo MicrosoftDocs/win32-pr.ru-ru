@@ -4,12 +4,12 @@ description: В следующих примерах показано, как и�
 ms.assetid: b34f4dd8-fe41-4165-b075-954042b88e46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2bbb9fae8c41ed2f219bd44be8d746c21d45b5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b8c6cad599b04ecf6617fcd93ad39028829e80a29b287705da69e7958dee226e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104330507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005914"
 ---
 # <a name="asynchronous-model-examples"></a>Примеры асинхронной модели
 
@@ -19,9 +19,9 @@ ms.locfileid: "104330507"
 -   [AsyncAdd3ExplicitExample](asyncadd3explicitexample.md)
 -   [AsyncAdd3ImplicitExample](asyncadd3implicitexample.md)
 
- 
+ 
 
- 
+ 
 
 
 

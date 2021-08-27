@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 328eb1b0247c2c2c514ca9116a04e9add23f596d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: b8e4300765f340b99da5d06b7651c4daaae4c97b043c6ceb5017aa43b2e2dcb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024154"
 ---
 # <a name="ps_2_0-registers"></a>\_ \_ регистры PS 2 0
 
@@ -28,14 +28,14 @@ ms.locfileid: "112406727"
 
 | Зарегистрировать | Имя                                                                                          | Count      | Чтение-запись        | \# Чтение портов | \# Операций чтения и inst | Измерение | реладдр | Умолчания;                  | Требуется ДКЛ |
 |----------|-----------------------------------------------------------------------------------------------|------------|------------|---------------|---------------|-----------|---------|---------------------------|--------------|
-| 3,3\#      | [Регистр цвета ввода](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Неограниченно     | 4         | Нет       | Partial (0001). См. примечание 4 | Y            |
-| Cерверный\#      | [Временный регистр](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | См. примечание 1 | Чтение-запись        | 3             | Неограниченно     | 4         | Нет       | Нет                      | Нет            |
+| 3,3\#      | [Регистр цвета ввода](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Без ограничений     | 4         | Нет       | Partial (0001). См. примечание 4 | Д            |
+| Cерверный\#      | [Временный регистр](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | См. Примечание 1 | Чтение-запись        | 3             | Без ограничений     | 4         | Нет       | Нет                      | Нет            |
 | c\#      | [Регистр постоянного float](dx9-graphics-reference-asm-ps-registers-constant-float.md)         | 32         | R          | 1             | 2             | 4         | Нет       | 0000                      | Нет            |
 | сохранении\#      | [Постоянный целочисленный регистр](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | См. примечание 2 | 1             | 1             | 4         | Нет       | 0000                      | Нет            |
 | b\#      | [Постоянный логический регистр](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | См. примечание 2 | 1             | 1             | 1         | Нет       | FALSE                     | Нет            |
-| P0       | [Регистр предиката](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | См. примечание 2 | 1             | 1             | 1         | Нет       | Нет                      | Y            |
-| s\#      | [Образцы (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | См. Примечание 3 | 1             | 1             | 4         | Нет       | См. примечание 5                | Y            |
-| t\#      | [Регистр координаты текстуры](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | Нет       | Нет                      | Y            |
+| P0       | [Регистр предиката](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | См. примечание 2 | 1             | 1             | 1         | Нет       | Нет                      | Д            |
+| s\#      | [Образцы (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | См. Примечание 3 | 1             | 1             | 4         | Нет       | См. примечание 5                | Д            |
+| t\#      | [Регистр координаты текстуры](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | Нет       | Нет                      | Д            |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 8ca51f5f-b6cf-4f2c-98f4-69c992679320
 title: Сообщение ABM_WINDOWPOSCHANGED (Шеллапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c8ea6fab6960678ad030a0c1817ad5f8aaae29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d770d50629342095308376856b98e6250adc1f9a1f2559da8509d685995428ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104497049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057814"
 ---
 # <a name="abm_windowposchanged-message"></a>\_Сообщение АБМ виндовпосчанжед
 
@@ -37,17 +37,17 @@ SHAppBarMessage(ABM_WINDOWPOSCHANGED, pabd);
 
 Всегда возвращает **значение true**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Это сообщение пропускается, если элемент **HWND** структуры, на который указывает *пабд* , определяет панель приложений автоскрытия.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                           |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                           |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                  |
 | Заголовок<br/>                   | <dl> <dt>Шеллапи. h</dt> </dl> |
 

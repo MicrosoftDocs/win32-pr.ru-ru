@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: 2ebc671bbfcdfc951343e7f92cc0385ace43997e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d45bd0dc97ed99ee976da4e262ed3d4819b0ec4c744a4e0a8d76b98f5bacd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977234"
 ---
 # <a name="actctxmanifest-property"></a>Акткткс. manifest, свойство
 
@@ -37,7 +37,7 @@ propVal = ActCtx.Manifest
 
 ## <a name="property-value"></a>Значение свойства
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если контекст активации может быть создан с помощью предоставленного файла манифеста, то следующий скрипт задает свойство MANIFEST и активирует константу активации, указанную в манифесте. Если контекст активации не может быть создан из манифеста, контекст активации остается установленным в текущем активном контексте активации.
 
@@ -53,8 +53,8 @@ propVal = ActCtx.Manifest
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID \_ иакткткс определен как 8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 

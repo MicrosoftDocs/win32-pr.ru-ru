@@ -4,12 +4,12 @@ description: В следующем примере IDL-файл определя�
 ms.assetid: ddd20212-18f5-41f6-9f6e-0edbe5e517a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4f8fb11d89d92bcee5b2b8b052a381077aeb82c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16c49bc722cd8069f446cc87567f20b1636dc77654f4387ca635f952e33dc83b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101674"
 ---
 # <a name="declaring-asynchronous-pipes"></a>Объявление асинхронных каналов
 
@@ -68,9 +68,9 @@ typedef struct ASYNC_MYPIPE
 }ASYNC_INTPIPE;
 ```
 
- 
+ 
 
- 
+ 
 
 
 

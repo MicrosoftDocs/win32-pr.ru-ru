@@ -4,12 +4,12 @@ ms.assetid: adecb337-02a3-449c-b797-560f9241d133
 title: System. photo. Флашмодел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02310363aeb00f652cd0ac34fa74835c4f5d25f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c40ae3b1d756cc78649ef91594149edc5672d8e72306ec8a0e8a6e6340357fb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058494"
 ---
 # <a name="systemphotoflashmodel"></a>System. photo. Флашмодел
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

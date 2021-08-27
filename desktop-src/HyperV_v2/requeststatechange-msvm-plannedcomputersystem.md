@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 172ec383473510a30ccde66b2617e8ef02ffdb72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54ff75630e93392805d835032ca3405f97e0a26e58c1c61ab06ba18bb1a88856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083094"
 ---
 # <a name="requeststatechange-method-of-the-msvm_plannedcomputersystem-class"></a>Метод RequestStateChange \_ класса мсвм планнедкомпутерсистем
 
@@ -147,7 +147,7 @@ uint32 RequestStateChange(
 
 | Возвращаемый код и значение                                                                                                                      | Описание                                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| <dl> <dt></dt> <dt>0</dt> </dl>     | Успешно<br/>                                                                 |
+| <dl> <dt></dt> <dt>0</dt> </dl>     | Success<br/>                                                                 |
 | <dl> <dt></dt><dt>4096</dt> </dl>  |                                                                                    |
 | <dl> <dt></dt><dt>32768</dt> </dl> |                                                                                    |
 | <dl> <dt></dt><dt>32769</dt> </dl> | Доступ запрещен.<br/>                                                          |
@@ -165,21 +165,21 @@ uint32 RequestStateChange(
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                                    |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                                    |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

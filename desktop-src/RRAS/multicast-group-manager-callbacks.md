@@ -4,12 +4,12 @@ description: Диспетчер групп многоадресной рассы
 ms.assetid: ebabdfaf-8f5f-45be-9f01-f1dbc01a376c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5ba18f874005e23aef6daca6071362362312e8e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 037281a2cb636b337c5133c2c3a261e2c435a136a30d0ccfdcf0407a9b62509b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036654"
 ---
 # <a name="multicast-group-manager-callbacks"></a>Обратные вызовы диспетчера групп многоадресной рассылки
 
@@ -35,6 +35,6 @@ ms.locfileid: "103890861"
 
 [**ПМГМ \_ включить \_ \_ обратный вызов IGMP**](/windows/desktop/api/Mgm/nc-mgm-pmgm_enable_igmp_callback)
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: 'Приложения могут регистрироваться для получения уведомлений о событиях аппаратного устройства получения образа Windows (WIA) путем вызова одного из следующих методов интерфейса Ивиадевмгр или IWiaDevMgr2: Ивиадевмгр:: Регистеревенткаллбаккклсид или IWiaDevMgr2:: Регистеревенткаллбаккклсидивиадевмгр:: RegisterEventCallbackInterface или IWiaDevMgr2:: RegisterEventCallbackInterfaceIWiaDevMgr:: RegisterEventCallbackProgram или IWiaDevMgr2:: RegisterEventCallbackProgram'
+description: 'приложения могут регистрироваться для получения уведомлений о событиях аппаратного устройства получения изображений Windows (WIA) путем вызова одного из следующих методов интерфейса ивиадевмгр или IWiaDevMgr2: ивиадевмгр:: регистеревенткаллбаккклсид или IWiaDevMgr2:: регистеревенткаллбаккклсидивиадевмгр:: RegisterEventCallbackInterface или IWiaDevMgr2:: RegisterEventCallbackInterfaceIWiaDevMgr:: RegisterEventCallbackProgram или IWiaDevMgr2:: RegisterEventCallbackProgram'
 ms.assetid: 0c142083-835f-4bbd-ab32-eb6130f99c59
 title: Регистрация событий WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9fc36540a64211428579bc13b84902490ea103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18e5f6409c8ac6af6f7bd82e43c34bef683a966fbd38d3ed35959ee9a4bc9c73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057034"
 ---
 # <a name="registering-wia-events"></a>Регистрация событий WIA
 
-Приложения могут регистрироваться для получения уведомлений о событиях аппаратного устройства получения образа Windows (WIA) путем вызова одного из следующих методов интерфейса [**ивиадевмгр**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) или [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) :
+приложения могут регистрироваться для получения уведомлений о событиях аппаратного устройства получения изображений Windows (WIA) путем вызова одного из следующих методов интерфейса [**ивиадевмгр**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) или [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) :
 
 -   [**Ивиадевмгр:: регистеревенткаллбаккклсид**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid) или [ **IWiaDevMgr2:: регистеревенткаллбаккклсид**](-wia-iwiadevmgr2-registereventcallbackclsid.md)
 -   [**Ивиадевмгр:: регистеревенткаллбаккинтерфаце**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface) или [ **IWiaDevMgr2:: регистеревенткаллбаккинтерфаце**](-wia-iwiadevmgr2-registereventcallbackinterface.md)

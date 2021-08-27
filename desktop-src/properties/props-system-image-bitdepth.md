@@ -4,12 +4,12 @@ ms.assetid: 779a19e4-fb4e-4229-a390-5fd7007c3eae
 title: System. Image. Битдепс
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45571b1fc7620ca31836fd30d87dcfd46397fe71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 641dcc8dd592955cdf938a467b465a5f57ecf3997b583b087ac61e44d90f9b5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091084"
 ---
 # <a name="systemimagebitdepth"></a>System. Image. Битдепс
 
@@ -160,11 +160,11 @@ propertyDescription
             text = 128
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

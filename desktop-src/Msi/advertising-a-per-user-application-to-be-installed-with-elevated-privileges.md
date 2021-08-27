@@ -4,25 +4,25 @@ ms.assetid: 0d2bd2d9-0eac-4519-862c-15f0ee5cbc40
 title: Объявление приложения Per-User для установки с повышенными привилегиями
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7d9888714f28282e060b3a1e7eea0291b4e0e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdced246f90a345b5b2cc599541119a26e29e4d9a1d708be1ee8299d55d3c28d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082964"
 ---
 # <a name="advertising-a-per-user-application-to-be-installed-with-elevated-privileges"></a>Объявление приложения Per-User для установки с повышенными привилегиями
 
 Чтобы объявить приложение для установки на уровне пользователя, если для установки приложения требуются повышенные привилегии (то есть система), следуйте указаниям в следующем списке:
 
--   Процесс должен быть службой, работающей под системной учетной записью LocalSystem в Windows XP или более поздней версии.
+-   процесс должен быть службой, которая работает под системной учетной записью LocalSystem на Windows XP или более поздней версии.
 -   Создайте скрипт объявления, вызвав [**мсиадвертисепродукт**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproducta) или [**мсиадвертисепродуктекс**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa).
 -   Процесс должен олицетворять пользователя, который является целью объявления.
 -   Вызовите [**мсиадвертисескрипт**](/windows/desktop/api/Msi/nf-msi-msiadvertisescripta)и используйте \_ \| \_ ярлыки скриптфлагс качеинфо скриптфлагс регдата \_ APPINFO \| скриптфлагс \_ регдата \_ кнфгинфо \| SCRIPTFLAGS \_ .
 
 При выполнении рекомендаций вы объявляете приложение для указанного пользователя, и когда пользователь выбирает установку, приложение устанавливается с повышенными привилегиями.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 40eccce1-a362-4adc-8060-f6923b9162c9
 title: Транзакции COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef51f4c8ed5e37101f64d36af385c93ac7e69ca
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f800f637a9faec7564d929f3fe7f638ba36d9556db138283c0e6ff3aee87a4f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104423401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070804"
 ---
 # <a name="com-transactions"></a>Транзакции COM+
 

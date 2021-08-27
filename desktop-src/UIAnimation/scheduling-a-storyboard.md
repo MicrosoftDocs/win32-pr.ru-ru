@@ -3,15 +3,15 @@ title: Планирование раскадровки
 description: После создания раскадровки она планируется диспетчером анимации.
 ms.assetid: f3c8fe34-8bca-4421-a390-9e0ba9af27b4
 keywords:
-- 'Раскадровка Windows: анимация, планирование'
+- раскадровки Windows анимация, планирование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3feae253804d20711c9bbd8ed50895f43272a3f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 013adc114fd09f518c34bc15ca2e7799381b6cee3dfeeedaf3b26fcae6d506e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104067415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008174"
 ---
 # <a name="schedule-a-storyboard"></a>Планирование раскадровки
 
@@ -25,7 +25,7 @@ ms.locfileid: "104067415"
 
 ## <a name="example-code"></a>Пример кода
 
-Следующий пример кода взят из файла MainWindow. cpp в примерах анимации Windows, [управляемой приложениями](application-driven-animation-sample.md) , и [анимацией, управляемой таймером](timer-driven-animation-sample.md). Для планирования раскадровки используется метод [**иуианиматионсторибоард:: Schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) . Этот метод требует текущего времени в качестве параметра.
+следующий пример кода взят из файла MainWindow. cpp в Windows анимация, [управляемая приложениями](application-driven-animation-sample.md) , и анимация, [управляемая таймером](timer-driven-animation-sample.md). Для планирования раскадровки используется метод [**иуианиматионсторибоард:: Schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) . Этот метод требует текущего времени в качестве параметра.
 
 
 ```
@@ -49,7 +49,7 @@ if (SUCCEEDED(hr))
 
 Перед началом этого шага необходимо завершить этот шаг: [Создание раскадровки и добавление переходов](updating---timer-driven-animation.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -62,9 +62,9 @@ if (SUCCEEDED(hr))
 [Общие сведения о раскадровке](storyboard-construction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

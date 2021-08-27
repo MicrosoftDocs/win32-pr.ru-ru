@@ -4,12 +4,12 @@ description: В следующей таблице приведена после�
 ms.assetid: 14524745-5cf9-442c-a5b4-b1ef313151cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63fc5dc5b25541c798ac0907a54dd19105a4c641
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 898a7e1357264a0f7330abb11a6de5f216bafbf3e2535a572a1e956bae151f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104488072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035524"
 ---
 # <a name="starting-up-a-multicast-routing-protocol"></a>Запуск протокола многоадресной маршрутизации
 

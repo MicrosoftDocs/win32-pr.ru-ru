@@ -4,12 +4,12 @@ ms.assetid: fce78030-462d-4472-885c-c16d2667629a
 title: System. Media. Сериеснаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc96f3dca26d5ef18c821e3a0ec47bf10d2f785a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 274d3a2355a4b0683b23b46ab534ec299753461cdd912eb0b2a3305cfd6062d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "105693827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090914"
 ---
 # <a name="systemmediaseriesname"></a>System. Media. Сериеснаме
 
@@ -30,11 +30,11 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

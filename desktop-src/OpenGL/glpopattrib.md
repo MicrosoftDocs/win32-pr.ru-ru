@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2258b0f16e6f61e660384931abc394300a29516
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92034154138ab3747ce190c05716e2df0d82ed3f6b26aba38da780873ce03721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105661929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081454"
 ---
 # <a name="glpopattrib-function"></a>Функция Глпопаттриб
 
@@ -55,7 +55,7 @@ void WINAPI glPopAttrib(void);
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**глпушаттриб**](glpushattrib.md) принимает один аргумент — маску, указывающую, какие группы переменных состояния следует сохранять в стеке атрибутов. Символьные константы используются для установки битов в маске. Параметр маски обычно создается **или** объединяет несколько этих констант. \_ \_ \_ Для сохранения всех состояний с накоплением можно использовать специальную маску GL для всех attrib.
 
@@ -75,7 +75,7 @@ void WINAPI glPopAttrib(void);
 
 [**глжет**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) с аргументом \_ " \_ Максимальная \_ глубина стека \_ "
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -89,7 +89,7 @@ void WINAPI glPopAttrib(void);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

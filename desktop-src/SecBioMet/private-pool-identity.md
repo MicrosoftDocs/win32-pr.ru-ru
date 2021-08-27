@@ -4,12 +4,12 @@ description: Содержит проект консоли идентификац
 ms.assetid: 1A96A20D-6991-4D8D-B7EC-7AF84B550920
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c5fd2ec1073b6185235ee739951a1bfb118f40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0243a3d8ea5b425efa8d8ab7133bbd6b8fd1c1662a23b45a4c4177093b3e4498
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104331659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101234"
 ---
 # <a name="private-pool-identity"></a>Удостоверение частного пула
 
@@ -21,7 +21,7 @@ ms.locfileid: "104331659"
 
 ## <a name="targetverh"></a>Targetver. h
 
-Этот пример был создан для операционных систем Windows 7 и более поздних версий.
+этот пример был создан для Windows 7 и более поздних операционных систем.
 
 
 ```C++
@@ -363,9 +363,9 @@ static void displayIdentity(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

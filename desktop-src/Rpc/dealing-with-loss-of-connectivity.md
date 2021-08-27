@@ -4,12 +4,12 @@ description: Работа с потерей подключения
 ms.assetid: a90fcb5a-773e-4c21-bf6c-c3519ec13a09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8e7a8088cfe09a4c4026c16cc3dc5ea36b3430
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4eac02c4440cb2e31a29e810d78dfd51764be3ba0ed5a6dc32f8c3e10824bd70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103792799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101684"
 ---
 # <a name="dealing-with-loss-of-connectivity"></a>Работа с потерей подключения
 
@@ -51,8 +51,8 @@ ms.locfileid: "103792799"
 > [!Note]  
 > Если сервер является кластером и на разных узлах кластера работают разные версии серверного программного обеспечения, то повторная попытка RPC может нарушить вызов на другом узле кластера в случае отработки отказа и, возможно, на другой версии сервера. В таких сценариях развертывания убедитесь, что клиент не использует определенную версию серверного программного обеспечения для выполнения данного вызова. Если это так, клиент должен создать механизм на основе RPC, который обнаруживает и обрабатывает такие условия.
 
- 
+ 
 
- 
+ 
 
- 
+ 
