@@ -4,12 +4,12 @@ description: Счетчик представляет собой составно
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30c4a6544c10634783b1671f586108a795d67d90c808943b08a2cfcbf6a476da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 56103db221dfb8cc60783da20cf33a82c95ea17f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851391"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473770"
 ---
 # <a name="spinner"></a>Spinner
 
@@ -43,89 +43,26 @@ ms.locfileid: "117851391"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Ключ свойства</th>
-<th>Примечания</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-decimalplaces.md">UI_PKEY_DecimalPlaces</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-decimalvalue.md">UI_PKEY_DecimalValue</a></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.
-<blockquote>
-[!Note]<br />
-Если команда, связанная с элементом управления, становится недействительной при вызове <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand"><strong>иуифрамеворк:: инвалидатеуикомманд</strong></a>, платформа запрашивает это свойство, когда в <code>UI_INVALIDATIONS_VALUE</code> качестве значения <em>флагов</em>передается.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-formatstring.md">UI_PKEY_FormatString</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-increment.md">UI_PKEY_Increment</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-maxvalue.md">UI_PKEY_MaxValue</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-minvalue.md">UI_PKEY_MinValue</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-representativestring.md">UI_PKEY_RepresentativeString</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-</tbody>
-</table>
+
+| Ключ свойства | Примечания | 
+|--------------|-------|
+| <a href="windowsribbon-reference-properties-uipkey-decimalplaces.md">UI_PKEY_DecimalPlaces</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-decimalvalue.md">UI_PKEY_DecimalValue</a> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.<blockquote>[!Note]<br />Если команда, связанная с элементом управления, становится недействительной при вызове <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand"><strong>иуифрамеворк:: инвалидатеуикомманд</strong></a>, платформа запрашивает это свойство, когда в <code>UI_INVALIDATIONS_VALUE</code> качестве значения <em>флагов</em>передается.</blockquote><br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-formatstring.md">UI_PKEY_FormatString</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-increment.md">UI_PKEY_Increment</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-maxvalue.md">UI_PKEY_MaxValue</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-minvalue.md">UI_PKEY_MinValue</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-representativestring.md">UI_PKEY_RepresentativeString</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | Может обновляться только через недействительность. | 
+
 
 
 
@@ -210,7 +147,7 @@ STDMETHODIMP CCommandHandler::UpdateProperty(
 
 
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Если минимальное значение ([UI \_ PKEY класса \_ MinValue](windowsribbon-reference-properties-uipkey-minvalue.md)) для счетчика инициализируется значением 0,0, приложение должно гарантировать, что любое последующее значение, предоставленное элементом управления, не будет равно-0,0 (отрицательный нуль). Если счетчик предоставляет значение-0,0, приложение должно сбросить это значение до 0,0 (положительный нуль), используя метод [**иуифрамеворк:: сетуикоммандпроперти**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) , как показано в следующем примере метода [**Иуикоммандхандлер:: Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) для элемента управления "Счетчик".
 

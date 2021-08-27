@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ошибки с 1091 по 1100
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cedd1fc12fa5f547e041201f5411a262ddb3a3958ef58e8bed3bfcf8270d7058
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: dc57b8eb628de86b4a7d737bacec13bc2fdeadfb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119244324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880083"
 ---
 # <a name="errors-1091-through-1100"></a>Ошибки с 1091 по 1100
 
@@ -36,7 +36,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1091__Warning_____fileName___line___IMPLIED_clause_is_not_allowed_for_fixed_size_objects_"></span><span id="_1091__warning_____filename___line___implied_clause_is_not_allowed_for_fixed_size_objects_"></span><span id="_1091__WARNING_____FILENAME___LINE___IMPLIED_CLAUSE_IS_NOT_ALLOWED_FOR_FIXED_SIZE_OBJECTS_"></span>**<1091, предупреждение>: " <fileName> : <строка \#> подразумеваемое предложение не допускается для объектов фиксированного размера"**
+<span id="_1091__Warning_____fileName___line___IMPLIED_clause_is_not_allowed_for_fixed_size_objects_"></span><span id="_1091__warning_____filename___line___implied_clause_is_not_allowed_for_fixed_size_objects_"></span><span id="_1091__WARNING_____FILENAME___LINE___IMPLIED_CLAUSE_IS_NOT_ALLOWED_FOR_FIXED_SIZE_OBJECTS_"></span>**<1091, предупреждение>: " &lt; имя_файла &gt; : <строка \#> подразумеваемое предложение не допускается для объектов фиксированного размера"**
 </dt> <dd>
 
 **Объект — тип объекта** вызова макроса SNMPv2c — заданное предупреждение семантики модуля. Ключевое слово ПОДРАЗУМЕВАЕМое может присутствовать только для объекта с синтаксисом переменной длины, например ИДЕНТИФИКАТОРом объекта или СТРОКой ОКТЕТа переменной длины в предложении INDEX.
@@ -47,7 +47,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1092__Fatal_____fileName___line___IMPLIED_clause_not_allowed_for_potentially_zero-length_objects_"></span><span id="_1092__fatal_____filename___line___implied_clause_not_allowed_for_potentially_zero-length_objects_"></span><span id="_1092__FATAL_____FILENAME___LINE___IMPLIED_CLAUSE_NOT_ALLOWED_FOR_POTENTIALLY_ZERO-LENGTH_OBJECTS_"></span>**<1092, Неустранимая>: " <fileName> : <line \#> предложение подразумеваемого недопустимо для объектов, которые могут иметь нулевую длину"**
+<span id="_1092__Fatal_____fileName___line___IMPLIED_clause_not_allowed_for_potentially_zero-length_objects_"></span><span id="_1092__fatal_____filename___line___implied_clause_not_allowed_for_potentially_zero-length_objects_"></span><span id="_1092__FATAL_____FILENAME___LINE___IMPLIED_CLAUSE_NOT_ALLOWED_FOR_POTENTIALLY_ZERO-LENGTH_OBJECTS_"></span>**<1092, Неустранимая>: " &lt; имя_файла &gt; : <строка \#> подразумеваемое предложение не разрешено для объектов с потенциальной нулевой длиной"**
 </dt> <dd>
 
 **Объект — тип объекта** вызова макроса SNMPv2c — особая семантическая ошибка модуля. Предложение ПОДРАЗУМЕВАЕМого нельзя использовать для объекта переменной длины, если этот объект может иметь нулевую длину.
@@ -58,7 +58,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1093._Fatal_____fileName__line____Only_the_type__INTEGER__can_be_enumerated_according_to_the_V1_SMI_"></span><span id="_1093._fatal_____filename__line____only_the_type__integer__can_be_enumerated_according_to_the_v1_smi_"></span><span id="_1093._FATAL_____FILENAME__LINE____ONLY_THE_TYPE__INTEGER__CAN_BE_ENUMERATED_ACCORDING_TO_THE_V1_SMI_"></span>**<1093. Неустранимая>: " <fileName><line \#>: в соответствии с SMI v1 можно перечислять только тип" integer "**
+<span id="_1093._Fatal_____fileName__line____Only_the_type__INTEGER__can_be_enumerated_according_to_the_V1_SMI_"></span><span id="_1093._fatal_____filename__line____only_the_type__integer__can_be_enumerated_according_to_the_v1_smi_"></span><span id="_1093._FATAL_____FILENAME__LINE____ONLY_THE_TYPE__INTEGER__CAN_BE_ENUMERATED_ACCORDING_TO_THE_V1_SMI_"></span>**<1093. Неустранимая>: " &lt; имя_файла &gt;<строка \#>: только тип" целое число "можно перечислить в соответствии с SMI v1"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля для конкретной задачи. Перечисление с неизвестной MIB может использовать только тип INTEGER.
@@ -69,7 +69,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1094._Fatal_____fileName__line____The_type_used_in_the_enumeration_does_not_resolve_to_one_of_the_allowed_types_"></span><span id="_1094._fatal_____filename__line____the_type_used_in_the_enumeration_does_not_resolve_to_one_of_the_allowed_types_"></span><span id="_1094._FATAL_____FILENAME__LINE____THE_TYPE_USED_IN_THE_ENUMERATION_DOES_NOT_RESOLVE_TO_ONE_OF_THE_ALLOWED_TYPES_"></span>**<1094. Неустранимая>: " <fileName><line \#>: тип, используемый в перечислении, не разрешается в один из разрешенных типов"**
+<span id="_1094._Fatal_____fileName__line____The_type_used_in_the_enumeration_does_not_resolve_to_one_of_the_allowed_types_"></span><span id="_1094._fatal_____filename__line____the_type_used_in_the_enumeration_does_not_resolve_to_one_of_the_allowed_types_"></span><span id="_1094._FATAL_____FILENAME__LINE____THE_TYPE_USED_IN_THE_ENUMERATION_DOES_NOT_RESOLVE_TO_ONE_OF_THE_ALLOWED_TYPES_"></span>**<1094. Неустранимая>: " &lt; имя_файла &gt;<строка \#>: тип, используемый в перечислении, не разрешается в один из разрешенных типов"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля SNMPv2C. Тип, используемый в перечислении, должен быть ЦЕЛОЧИСЛЕНным или эквивалентным типом или другим перечислением.
@@ -80,7 +80,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1095._Fatal_____fileName__line____Enumeration_member_is_not_a_member_of_the_parent_enumeration_"></span><span id="_1095._fatal_____filename__line____enumeration_member_is_not_a_member_of_the_parent_enumeration_"></span><span id="_1095._FATAL_____FILENAME__LINE____ENUMERATION_MEMBER_IS_NOT_A_MEMBER_OF_THE_PARENT_ENUMERATION_"></span>**<1095. Неустранимая>: " <fileName><line \#>: член перечисления не является членом родительского перечисления"**
+<span id="_1095._Fatal_____fileName__line____Enumeration_member_is_not_a_member_of_the_parent_enumeration_"></span><span id="_1095._fatal_____filename__line____enumeration_member_is_not_a_member_of_the_parent_enumeration_"></span><span id="_1095._FATAL_____FILENAME__LINE____ENUMERATION_MEMBER_IS_NOT_A_MEMBER_OF_THE_PARENT_ENUMERATION_"></span>**<1095. Неустранимая>: " &lt; имя_файла &gt;<строка \#>: член перечисления не является членом родительского перечисления"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля SNMPv2C. Если используется другое перечисление, его набор элементов должен быть подмножеством набора элементов родительского перечисления.
@@ -91,7 +91,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1097__Fatal_____fileName__line____identifier__name__does_not_resolve_to_an_integer_value_"></span><span id="_1097__fatal_____filename__line____identifier__name__does_not_resolve_to_an_integer_value_"></span><span id="_1097__FATAL_____FILENAME__LINE____IDENTIFIER__NAME__DOES_NOT_RESOLVE_TO_AN_INTEGER_VALUE_"></span>**<1097, Неустранимая>: " <fileName><line \#>: идентификатор <name> не разрешается в целочисленное значение"**
+<span id="_1097__Fatal_____fileName__line____identifier__name__does_not_resolve_to_an_integer_value_"></span><span id="_1097__fatal_____filename__line____identifier__name__does_not_resolve_to_an_integer_value_"></span><span id="_1097__FATAL_____FILENAME__LINE____IDENTIFIER__NAME__DOES_NOT_RESOLVE_TO_AN_INTEGER_VALUE_"></span>**<1097, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: &lt; имя идентификатора &gt; не разрешается в целочисленное значение"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля SNMPv2C. Значения в типе BITS должны быть целочисленными значениями.
@@ -102,7 +102,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1098__Fatal_____fileName__line____Duplicate_value__value__in_BITS_construct_"></span><span id="_1098__fatal_____filename__line____duplicate_value__value__in_bits_construct_"></span><span id="_1098__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_BITS_CONSTRUCT_"></span>**<1098, Неустранимая>: " <fileName><строка \#>: повторяющееся значение <value> в конструкции BITS"**
+<span id="_1098__Fatal_____fileName__line____Duplicate_value__value__in_BITS_construct_"></span><span id="_1098__fatal_____filename__line____duplicate_value__value__in_bits_construct_"></span><span id="_1098__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_BITS_CONSTRUCT_"></span>**<1098, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: повторяющееся значение значения &lt; &gt; в конструкции BITS"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля SNMPv2C. В конструкции BITS не должно быть повторяющихся имен и значений. Параметр <Line \#> — это расположение повторения имени и значения.
@@ -113,7 +113,7 @@ ms.locfileid: "119244324"
 
 <dl> <dt>
 
-<span id="_1099__Fatal_____fileName__line____Duplicate_name__identifier__in_BITS_construct_"></span><span id="_1099__fatal_____filename__line____duplicate_name__identifier__in_bits_construct_"></span><span id="_1099__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_BITS_CONSTRUCT_"></span>**<1099, Неустранимая>: " <fileName><строка \#>: повторяющееся имя <identifier> в конструкции BITS"**
+<span id="_1099__Fatal_____fileName__line____Duplicate_name__identifier__in_BITS_construct_"></span><span id="_1099__fatal_____filename__line____duplicate_name__identifier__in_bits_construct_"></span><span id="_1099__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_BITS_CONSTRUCT_"></span>**<1099, Неустранимая>: " &lt; имя_файла &gt;<строка \#>: &lt; идентификатор ПОВТОРЯЮЩЕГОСЯ имени &gt; в конструкции BITS"**
 </dt> <dd>
 
 Назначение типа, ошибка семантического модуля SNMPv2C. В конструкции BITS не должно быть повторяющихся имен и значений. Параметр <Line \#> — это расположение повторения имени и значения.

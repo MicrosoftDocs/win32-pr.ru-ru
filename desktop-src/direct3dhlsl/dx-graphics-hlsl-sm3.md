@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ed2d64ccfb06fc0fe50e5bd0075732c1fd9cbb70ca1e05bda5afd24cd5c5f98f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0a03402c314f0027d62ca238adb3a181ddb3dff7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119789544"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473050"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Модель шейдера 3 (Справочник по HLSL)
 
@@ -22,44 +22,9 @@ ms.locfileid: "119789544"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Компонент</td>
-<td>Возможностями.</td>
-</tr>
-<tr class="even">
-<td>Набор инструкций</td>
-<td><ul>
-<li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>Функции HLSL</strong></a></li>
-<li>Инструкции по сборке (см. <a href="dx9-graphics-reference-asm-ps-instructions-ps-3-0.md">Ps_3_0 инструкции</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-3-0.md">инструкции — vs_3_0</a>)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Набор регистров</td>
-<td><ul>
-<li>Регистры шейдеров пикселей (см. раздел <a href="dx9-graphics-reference-asm-ps-registers-ps-3-0.md">регистры ps_3_0</a>)</li>
-<li>Регистры шейдеров вершин (см. раздел <a href="dx9-graphics-reference-asm-vs-registers-vs-3-0.md">registers-vs_3_0</a>)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Максимальный размер шейдера пикселей</td>
-<td>512 минимум и до количества слотов в D3DCAPS9. MaxPixelShader30InstructionSlots (см. <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0"><strong>D3DPSHADERCAPS2_0</strong></a>).</td>
-</tr>
-<tr class="odd">
-<td>Максимум вершинного шейдера</td>
-<td>512 минимум и до количества слотов в D3DCAPS9. MaxVertexShader30InstructionSlots (см. <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>).</td>
-</tr>
-<tr class="even">
-<td>Профили шейдеров</td>
-<td>ps_3_0, vs_3_0</td>
-</tr>
-</tbody>
-</table>
+
+| | | Компонент | Возможности | | Набор инструкций | <ul><li><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>Функции HLSL</strong></a></li><li>Инструкции по сборке (см. <a href="dx9-graphics-reference-asm-ps-instructions-ps-3-0.md">Ps_3_0 инструкции</a>, <a href="dx9-graphics-reference-asm-vs-instructions-vs-3-0.md">инструкции — vs_3_0</a>)</li></ul> | | Зарегистрировать набор | <ul><li>Регистры шейдеров пикселей (см. раздел <a href="dx9-graphics-reference-asm-ps-registers-ps-3-0.md">регистры ps_3_0</a>)</li><li>Регистры шейдеров вершин (см. раздел <a href="dx9-graphics-reference-asm-vs-registers-vs-3-0.md">registers-vs_3_0</a>)</li></ul> | | Максимальный размер шейдера пикселей | 512 минимум и до количества слотов в D3DCAPS9. MaxPixelShader30InstructionSlots (см. <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dpshadercaps2_0"><strong>D3DPSHADERCAPS2_0</strong></a>). | | Максимум вершинного шейдера | 512 минимум и до количества слотов в D3DCAPS9. MaxVertexShader30InstructionSlots (см. <a href="/windows/desktop/api/d3d9caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>). | | Профили шейдеров | ps_3_0, vs_3_0 | 
+
 
 
 

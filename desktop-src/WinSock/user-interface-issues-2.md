@@ -4,12 +4,12 @@ ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: Проблемы с пользовательским интерфейсом для IPv6-приложений Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03305073687cdd77e17c529d70ffe5959df40960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae982504798789c928691bbf4932d5e6abdfabf1ba12077122bb6dab28eb47de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121193"
 ---
 # <a name="user-interface-issues-for-ipv6-winsock-applications"></a>Проблемы с пользовательским интерфейсом для IPv6-приложений Winsock
 
@@ -55,7 +55,7 @@ ms.locfileid: "105702851"
 
 Существуют и другие рекомендации, и разработчикам следует тщательно учитывать их аудиторию при разработке пользовательских интерфейсов IP-адресов.
 
-Рекомендации
+Советы и рекомендации
 
 -   При изменении приложения для поддержки IPv6 разработчики должны учитывать соответствующий подход к каждому пользовательскому интерфейсу. Убедитесь, что пользовательский интерфейс содержит достаточную длину для того, чтобы отображать IPv6-адреса принудительно, а определяет, является ли этот адрес числом или именем на основе имени.
 -   Везде, где это возможно, используйте существующие вспомогательные функции Winsock и IP при использовании IPv6-адресов вместо повторной реализации этой логики. Например, функции [**RtlIpv6AddressToString**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa), [**RtlIpv6AddressToStringEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw), [**RtlIpv6StringToAddress**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa)и [**RtlIpv6StringToAddressEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) можно использовать для преобразования между IPv6-адресами и строковыми представлениями этих IPv6-адресов.
@@ -73,11 +73,11 @@ ms.locfileid: "105702851"
 2.  При обнаружении любого из этих элементов управления сопротивляются, подходит ли он для вывода адреса при использовании IPv6. Если возможно использование IPv4 или IPv6, убедитесь, что пользовательский интерфейс может разместить или. Замените или дополните все элементы управления, используя элементы управления пользовательского интерфейса, которые могут отображать весь IPv6-адрес.
 3.  Перед тестированием пользовательского интерфейса убедитесь, что изменения, включающие отображение IPv6-адресов, поддерживают предполагаемое удобство использования при использовании IPv4-адресов. Кроме того, проверьте адреса протокола, например информационные диалоговые окна, чтобы убедиться, что они должным образом обрабатывали IPv6-адреса.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Рекомендации по IPv6 для приложений Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[рекомендации по IPv6 для приложений Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Изменение структур данных для IPv6 Winsock Аппикатионс](changing-data-structures-2.md)

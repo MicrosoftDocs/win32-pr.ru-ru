@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 90960f81d252b0b0a8d1de3ab5cc1465003467a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 548ffec6bf5982aac407905d944d029b222b741c0c03fe66645f68e771c87342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105681983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099974"
 ---
 # <a name="registrationtrigger-triggergroup-element"></a>Регистратионтригжер (Тригжерграуп), элемент
 
@@ -39,7 +39,7 @@ ms.locfileid: "105681983"
 
 | Элемент                                                           | Унаследован от                                                         | Описание                                            |
 |-------------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------|
-| [**Триггеры**](taskschedulerschema-triggers-tasktype-element.md) | [**тригжерстипе**](taskschedulerschema-triggerstype-complextype.md) | Задает триггеры, которые запускают задачу.<br/> |
+| [**План**](taskschedulerschema-triggers-tasktype-element.md) | [**тригжерстипе**](taskschedulerschema-triggerstype-complextype.md) | Задает триггеры, которые запускают задачу.<br/> |
 
 
 
@@ -68,7 +68,7 @@ ms.locfileid: "105681983"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Для разработки сценариев триггер регистрации указывается с помощью объекта [**регистратионтригжер**](registrationtrigger.md) .
 
@@ -87,18 +87,18 @@ ms.locfileid: "105681983"
 
 Полный пример XML-кода для задачи, указывающей триггер загрузки, см. в разделе [пример триггера регистрации (XML)](registration-trigger-example--xml-.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

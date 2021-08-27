@@ -4,12 +4,12 @@ description: В этом разделе содержатся сведения о
 ms.assetid: vs|controls|~\controls\toolbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e0cadd2eb1560d3486073810e86a143b7fccca5
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 8dd70f4e13d569930956a8b84e1010d99c1be434
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103795222"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480940"
 ---
 # <a name="toolbar"></a>Панель инструментов
 
@@ -32,33 +32,12 @@ ms.locfileid: "103795222"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Содержимое</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>креатемаппедбитмап</strong></a></td>
-<td>Создает точечный рисунок для использования на панели инструментов. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>креатетулбарекс</strong></a></td>
-<td>Создает окно панели инструментов и добавляет указанные кнопки на панель инструментов.
-<blockquote>
-[!Note]<br />
-Эта функция является устаревшей, так как она не поддерживает все функции панелей инструментов. Вместо этого используйте <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> . Примеры см. <a href="using-toolbar-controls.md">в разделе Использование элементов управления ToolBar</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Содержимое | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>креатемаппедбитмап</strong></a> | Создает точечный рисунок для использования на панели инструментов. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>креатетулбарекс</strong></a> | Создает окно панели инструментов и добавляет указанные кнопки на панель инструментов.<blockquote>[!Note]<br />Эта функция является устаревшей, так как она не поддерживает все функции панелей инструментов. Вместо этого используйте <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> . Примеры см. <a href="using-toolbar-controls.md">в разделе Использование элементов управления ToolBar</a>.</blockquote><br /><br /> | 
+
 
 
 
@@ -245,41 +224,14 @@ ms.locfileid: "103795222"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Раздел</th>
-<th>Содержимое</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="toolbar-button-states.md">Состояния кнопок панели инструментов</a></td>
-<td>В этом разделе перечислены состояния, которые может иметь кнопка панели инструментов. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-control-and-button-styles.md">Стили элементов управления и кнопок панели инструментов</a></td>
-<td>Следующие стили окон относятся к панелям инструментов. Они объединяются с другими стилями окна при создании панели инструментов.<br/> <strong>Примечание</strong> . Для стандартных элементов управления <a href="common-control-versions.md">версии 6,00</a>, если <a href="themes-overview.md">визуальный стиль</a> используется с панелью инструментов, кнопки всегда прозрачны независимо от параметра стиля. В противном случае поведение прозрачности является нормальным, как указано в <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> или <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> стиле.
-<blockquote>
-[!Note]<br />
-Версия Comctl32.dll 6 не является распространяемой, но включена в Windows или более поздней версии. Чтобы использовать Comctl32.dll версии 6, укажите ее в манифесте. Дополнительные сведения о манифестах см. в разделе <a href="cookbook-overview.md">Включение визуальных стилей</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="toolbar-extended-styles.md">Расширенные стили панели инструментов</a></td>
-<td>В этом разделе перечислены расширенные стили, поддерживаемые элементами управления ToolBar.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-standard-button-image-index-values.md">Значения индекса изображения стандартной кнопки панели инструментов</a></td>
-<td>В этом разделе указываются значения индексов изображений в стандартных точечных рисунках.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Раздел | Содержимое | 
+|-------|----------|
+| <a href="toolbar-button-states.md">Состояния кнопок панели инструментов</a> | В этом разделе перечислены состояния, которые может иметь кнопка панели инструментов. <br /> | 
+| <a href="toolbar-control-and-button-styles.md">Стили элементов управления и кнопок панели инструментов</a> | Следующие стили окон относятся к панелям инструментов. Они объединяются с другими стилями окна при создании панели инструментов.<br /><strong>Примечание</strong> . Для стандартных элементов управления <a href="common-control-versions.md">версии 6,00</a>, если <a href="themes-overview.md">визуальный стиль</a> используется с панелью инструментов, кнопки всегда прозрачны независимо от параметра стиля. В противном случае поведение прозрачности является нормальным, как указано в <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> или <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> стиле.<blockquote>[!Note]<br />Comctl32.dll версии 6 не является распространяемой, но включена в Windows или более поздней версии. Чтобы использовать Comctl32.dll версии 6, укажите ее в манифесте. Дополнительные сведения о манифестах см. в разделе <a href="cookbook-overview.md">Включение визуальных стилей</a>.</blockquote><br /><br /> | 
+| <a href="toolbar-extended-styles.md">Расширенные стили панели инструментов</a> | В этом разделе перечислены расширенные стили, поддерживаемые элементами управления ToolBar.<br /> | 
+| <a href="toolbar-standard-button-image-index-values.md">Значения индекса изображения стандартной кнопки панели инструментов</a> | В этом разделе указываются значения индексов изображений в стандартных точечных рисунках.<br /> | 
+
 
 
 

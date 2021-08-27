@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2fd16480f0ec059c977d07f8e445a35094c5f2fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b99f5aa60f90a753a9c5d095e7a63417485b1fd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702626"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469841"
 ---
 # <a name="jet_recsize2-structure"></a>Структура JET_RECSIZE2
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_recsize2-structure"></a>Структура JET_RECSIZE2
 
 Структура **JET_RECSIZE2** используется [JetGetRecordSize2](./jetgetrecordsize2-function.md) для получения сведений о требованиях к использованию записи в пространстве данных пользователя, количестве столбцов набора, количестве значений и служебной нагрузке на структуру записи ESE.
 
-**Windows 7:** Структура **JET_RECSIZE2** введена в операционной системе Windows 7.
+**Windows 7:** структура **JET_RECSIZE2** введена в операционной системе Windows 7.
 
 ```cpp
     typedef struct {
@@ -111,26 +111,9 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется операционная система Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется операционная система Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется операционная система Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется операционная система Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

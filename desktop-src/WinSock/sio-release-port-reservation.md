@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 57f96d0396d661eba12f9e64238c492f38e97b2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d949e325292210ec7126da5ddf65c6ff30c5aa151cfaf85331fb7ebf3e5b346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097495"
 ---
 # <a name="sio_release_port_reservation-control-code"></a>Код элемента управления SIO_RELEASE_PORT_RESERVATION
 
@@ -148,9 +148,9 @@ int WSPIoctl(
 | **всаенотсокк** | Предпринята попытка выполнить операцию для объекта, который не является сокетом. Эта ошибка возвращается, если дескриптор *s* не является сокетом. |
 | **всаеопнотсупп** | Предпринятая операция не поддерживается для типа объекта, на который указывает ссылка. Эта ошибка возвращается, если указанная команда IOCTL не поддерживается. Эта ошибка также возвращается, если поставщик транспорта не поддерживает запрос на **\_ \_ \_ зарезервированный номер порта освобождения SIO** . Эта ошибка также возвращается, если попытка использования ioctl **\_ \_ порта \_ выпуска SIO** выполняется на сокете, отличном от UDP или TCP. |
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-В Windows Vista и более поздних версиях операционной системы поддерживается запрос IOCTL для **\_ \_ \_ резервирования портов** в версии SIO.
+в Windows Vista и более поздних версиях операционной системы поддерживается запрос на **\_ \_ \_ зарезервированный номер порта версии SIO** .
 
 Приложения и службы, которым необходимо резервировать порты, делятся на две категории.
 Первая категория включает компоненты, которым требуется определенный порт в рамках своей работы.
@@ -326,7 +326,7 @@ int wmain(int argc, WCHAR ** argv)
 }
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [**креатеперсистентткппортресерватион**](/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation)
 

@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 905254641f696c772dec008a3824d5307a09f96b95fad9c561e2e3f87646c668
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 81a929fe54c2b397b1bad242531ec08a815b7239
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975334"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122981997"
 ---
 # <a name="span-idwwan_profile_v4element_passwordspanmbnprofileextpassword-v4"></a><span id="WWAN_profile_v4.element_Password"></span>Мбнпрофиликст \/ ... \/ Пароль (v4)
 
@@ -63,41 +63,21 @@ ms.locfileid: "118975334"
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-userlogoncred.md">UserLogonCred</a></td>
-<td><p>Учетные данные входа для подключения.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-userlogoncred.md">UserLogonCred</a> | <p>Учетные данные входа для подключения.</p> | 
+
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

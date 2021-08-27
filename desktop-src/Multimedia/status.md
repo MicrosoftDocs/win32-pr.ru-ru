@@ -3,7 +3,7 @@ title: Команда Status
 description: Команда Status запрашивает сведения о состоянии устройства. Все устройства распознают эту команду.
 ms.assetid: 39961bd7-866d-450d-9fbf-347a8f508481
 keywords:
-- Команда "состояние" мультимедиа Windows
+- команда status Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ab184ddaca16d0ea96b86a6b062f1e66e2eee2
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: bd209ed04e51671ce7d9c8a7ae88a79073836c2e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "105674509"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626119"
 ---
 # <a name="status-command"></a>Команда Status
 
@@ -59,8 +59,8 @@ _stprintf_s(
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -210,7 +210,7 @@ _stprintf_s(
 <li>разрешение счетчиков</li>
 <li>Текущая запись</li>
 <li>Частота кадров</li>
-<li>index</li>
+<li>индекс</li>
 <li>индекс по</li>
 <li>length</li>
 <li><em>номер</em> записи о длине</li>
@@ -306,8 +306,8 @@ _stprintf_s(
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -501,7 +501,7 @@ _stprintf_s(
 <td>Возвращает значение, заданное <a href="setvideo.md"><strong></strong></a> с помощью &quot; гаммы сетвидео &quot; <em></em>.</td>
 </tr>
 <tr class="odd">
-<td>index</td>
+<td>индекс</td>
 <td>Возвращает текущий отображаемый индекс. Дополнительные сведения см. в описании команды <a href="set.md"><strong>Set</strong></a> &quot; index &quot; .</td>
 </tr>
 <tr class="even">
@@ -820,7 +820,7 @@ _stprintf_s(
 
 Возвращает сведения в параметре *лпсзретурнстринг* объекта [**mciSendString**](/previous-versions//dd757161(v=vs.85)). Сведения зависят от типа запроса.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Перед выполнением команд, использующих значения позиций, необходимо задать требуемый формат времени с помощью команды [Set](set.md) .
 
@@ -843,7 +843,7 @@ status mysound mode
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -874,7 +874,7 @@ status mysound mode
 [pause](pause.md)
 </dt> <dt>
 
-[авить](paste.md)
+[вставка](paste.md)
 </dt> <dt>
 
 [record](record.md)

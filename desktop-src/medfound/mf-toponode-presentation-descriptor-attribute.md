@@ -4,12 +4,12 @@ ms.assetid: 4f2c1ad8-fda9-482f-b82a-9838d15d2785
 title: Атрибут MF_TOPONODE_PRESENTATION_DESCRIPTOR (Мфидл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d95fae4f2c4d4a482c2a62d57e0835ea4f1c36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bfa43a57bcead1312ba8138ab085771d29a008fe2558ea7c6bfb29121d631bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103811020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113710"
 ---
 # <a name="mf_toponode_presentation_descriptor-attribute"></a>\_ \_ \_ Атрибут дескриптора представления MF топоноде
 
@@ -17,11 +17,11 @@ ms.locfileid: "103811020"
 
 ## <a name="data-type"></a>Тип данных
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Этот атрибут применяется к исходным узлам (_ * MF \_ TOPOLOGY \_ саурцестреам \_ node * *).
+Этот атрибут применяется к исходным узлам **( \_ \_ \_ узел топологии MF саурцестреам**).
 
 Значение атрибута является указателем на интерфейс [**имфпресентатиондескриптор**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) дескриптора представления. Атрибут обязателен.
 
@@ -33,9 +33,9 @@ ms.locfileid: "103811020"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Мфидл. h</dt> </dl> |
 
 
 

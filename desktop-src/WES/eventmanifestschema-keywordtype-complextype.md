@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c41a9ad4b1fde0a741a022eb6cfd20823643eeef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3d444c39796f741cd800fb393527e5adca6e50cef05de0c55c1def2bb40142a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105693996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124384"
 ---
 # <a name="keywordtype-complex-type"></a>Сложный тип Кэйвордтипе
 
@@ -70,9 +70,9 @@ ms.locfileid: "105693996"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Файл Winmeta.xml, включенный в Windows SDK, содержит список ключевых слов. Эти ключевые слова зарезервированы и не должны использоваться.
+файл Winmeta.xml, включенный в Windows SDK, содержит список ключевых слов. Эти ключевые слова зарезервированы и не должны использоваться.
 
 ## <a name="requirements"></a>Требования
 
@@ -80,8 +80,8 @@ ms.locfileid: "105693996"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 

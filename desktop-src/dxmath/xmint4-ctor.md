@@ -4,12 +4,12 @@ ms.assetid: 8b4084b1-513f-4de7-94ac-1bbafb5ba042
 title: Конструкторы XMINT4 (Директксмас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b9c77e44ffced552af4592667813435200989cb52d322549031fd63620b24b28
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee368f1f26f1fbe2f0c41d759d0618efb2101b8b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118500041"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467741"
 ---
 # <a name="xmint4-constructors"></a>Конструкторы XMINT4
 
@@ -26,47 +26,13 @@ ms.locfileid: "118500041"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT4 (const int32_t *)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmint4-xmint4 (constint32_t))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMINT4</code> из четырех <code>int32_t</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр [<strong>XMINT4</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmint4) из из четырех <code>int32_t</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMINT4 (int32_t, int32_t, int32_t, int32_t)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmint4-xmint4 (int32_t_int32_t_int32_t_int32_t))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMINT4</code> из четырех <code>int32_t</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр [<strong>XMINT4</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmint4) из четырех <code>int32_t</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMINT4 ()</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmint4-xmint4 (constxmint4_))</td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMINT4</code> . <br/> Конструктор по умолчанию для [<strong>XMINT4</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmint4). <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| [<strong>XMINT4 (const int32_t *)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(constint32_t)) | Инициализирует новый экземпляр <code>XMINT4</code> из четырех <code>int32_t</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4) из четырех <code>int32_t</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMINT4 (int32_t, int32_t, int32_t, int32_t)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(int32_t_int32_t_int32_t_int32_t)) | Инициализирует новый экземпляр <code>XMINT4</code> из четырех <code>int32_t</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4) из четырех <code>int32_t</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMINT4 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmint4-xmint4(constxmint4_)) | Конструктор по умолчанию для <code>XMINT4</code> . <br /> Конструктор по умолчанию для [<strong>XMINT4</strong>](/windows/win32/api/directxmath/ns-directxmath-xmint4). <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+
 
 
 
@@ -80,7 +46,7 @@ ms.locfileid: "118500041"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, кнопка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: def18e7094e297303a70fc0980bfdd0cb4413c0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c080018e0fcaf8cd196204f80c61041d03fc1589
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104259096"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478040"
 ---
 # <a name="button-control-type"></a>Тип элемента управления Button
 
@@ -42,7 +42,7 @@ ms.locfileid: "104259096"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -50,36 +50,15 @@ ms.locfileid: "104259096"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Кнопка
-<ul>
-<li>Image (0 или более)</li>
-<li>Text (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Кнопка</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Кнопка<ul><li>Image (0 или более)</li><li>Text (0 или более)</li></ul></li></ul> | <ul><li>Кнопка</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -95,8 +74,8 @@ ms.locfileid: "104259096"
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания. | Поддерживается при наличии ограничивающего прямоугольника. Если не все точки внутри ограничивающего прямоугольника являются щелчками, а элемент выполняет специализированное тестирование нажатия, переопределите и предоставьте точку для щелчка. |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Кнопка** |                                                                                                                                                                                                      |
 | [**UIA \_ хелптекстпропертид**](uiauto-automation-element-propids.md)                         | См. примечания. | Текст справки должен указывать на результат активации кнопки. Обычно это один и тот же тип информации, представленной в подсказке.                                      |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "Кнопка" всегда должен быть содержимым.                                                                                                                                                           |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true       | Элемент управления "Кнопка" всегда должен быть элементом управления.                                                                                                                                                         |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "Кнопка" всегда должен быть содержимым.                                                                                                                                                           |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE       | Элемент управления "Кнопка" всегда должен быть элементом управления.                                                                                                                                                         |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания. | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                                                                            |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | NULL       | Элементы управления "Кнопка" помечаются автоматически по их содержимому.                                                                                                                                                  |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания. | Локализованная строка, соответствующая типу элемента управления **"Кнопка"** . Значение по умолчанию — "Кнопка" для en-US или English (США).                                                                   |
@@ -104,7 +83,7 @@ ms.locfileid: "104259096"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -120,7 +99,7 @@ ms.locfileid: "104259096"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -141,9 +120,9 @@ ms.locfileid: "104259096"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -156,9 +135,9 @@ ms.locfileid: "104259096"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

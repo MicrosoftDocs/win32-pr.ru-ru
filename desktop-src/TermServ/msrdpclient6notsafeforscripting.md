@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d1f1187d2a327485368d543e3c37c3e396716b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1a18900084f063610c4b761a8643ef30bda9c12
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104415161"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467070"
 ---
 # <a name="msrdpclient6notsafeforscripting-class"></a>Класс MsRdpClient6NotSafeForScripting
 
@@ -62,16 +62,16 @@ ms.locfileid: "104415161"
 | [**Отключение**](imstscax-disconnect.md)                                                   | Отключает активное подключение.<br/>                                                                                                                                                                                                                                                 |
 | [**жетеррордескриптион**](imsrdpclient5-geterrordescription.md)                            | Получает коды ошибок и сообщения об ошибках.<br/>                                                                                                                                                                                                                                      |
 | [**жетвиртуалчаннелоптионс**](imsrdpclient-getvirtualchanneloptions.md)                   | Извлекает параметры, заданные для виртуального канала.<br/>                                                                                                                                                                                                                                   |
-| [**нотифиредиректдевицечанже**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | Уведомляет модуль перенаправления устройств элемента управления ActiveX удаленный рабочий стол, что в системе произошло изменение устройства. Этот метод передает в элемент управления уведомления [**WM \_ девицечанже**](/windows/desktop/DevIO/wm-devicechange) .<br/>                                                        |
-| [**онаусентикатионварнингдисмиссед**](imstscaxevents-onauthenticationwarningdismissed.md) | Вызывается после того, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "Ошибка сертификата").<br/>                                                                                                                                                             |
-| [**онаусентикатионварнингдисплайед**](imstscaxevents-onauthenticationwarningdisplayed.md) | Вызывается перед тем, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "Ошибка сертификата").<br/>                                                                                                                                                            |
+| [**нотифиредиректдевицечанже**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | сообщает модулю перенаправления устройств элемента управления удаленный рабочий стол ActiveX, что в системе произошло изменение устройства. Этот метод передает в элемент управления уведомления [**WM \_ девицечанже**](/windows/desktop/DevIO/wm-devicechange) .<br/>                                                        |
+| [**онаусентикатионварнингдисмиссед**](imstscaxevents-onauthenticationwarningdismissed.md) | вызывается после того, как элемент управления "ActiveX" отображает диалоговое окно проверки подлинности (например, диалоговое окно "ошибка сертификата").<br/>                                                                                                                                                             |
+| [**онаусентикатионварнингдисплайед**](imstscaxevents-onauthenticationwarningdisplayed.md) | вызывается перед тем, как элемент управления ActiveX отображает диалоговое окно проверки подлинности (например, диалоговое окно "ошибка сертификата").<br/>                                                                                                                                                            |
 | [**онаутореконнектед**](imstscaxevents-onautoreconnected.md)                               | Вызывается при автоматическом повторном подключении клиентского элемента управления к удаленному сеансу.<br/>                                                                                                                                                                                                  |
 | [**онаутореконнектинг**](-imstscaxevents--onautoreconnecting.md)                           | Вызывается, когда клиент находится в процессе автоматического повторного подключения к сеансу с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                      |
 | [**OnAutoReconnecting2**](imstscaxevents-onautoreconnecting2.md)                           | Вызывается, когда клиент находится в процессе автоматического повторного подключения к сеансу с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                      |
 | [**ончаннелрецеиведдата**](imstscaxevents-onchannelreceiveddata.md)                       | Вызывается, когда клиент получает данные в виртуальном канале, поддерживающем скрипт.<br/>                                                                                                                                                                                                              |
 | [**онконфирмклосе**](imstscaxevents-onconfirmclose.md)                                     | Вызывается, когда клиент вызывает метод [**имсрдпклиент:: RequestClose**](imsrdpclient-requestclose.md) .<br/>                                                                                                                                                                           |
 | [**Подключено**](imstscaxevents-onconnected.md)                                           | Вызывается, когда клиентский элемент управления находится в процессе установления соединения с сервером узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                       |
-| [**Подключение**](imstscaxevents-onconnecting.md)                                         | Вызывается, когда клиентский элемент управления начинает подключаться к серверу в ответ на вызов [**имстскакс:: Connect**](imstscax-connect.md).<br/>                                                                                                                                               |
+| [**Подключение**](imstscaxevents-onconnecting.md)                                         | вызывается, когда клиентский элемент управления начинает подключаться к серверу в ответ на вызов [**имстскакс:: Подключение**](imstscax-connect.md).<br/>                                                                                                                                               |
 | [**онконнектионбарпуллдовн**](imstscaxevents-onconnectionbarpulldown.md)                   | Вызывается, когда пользователь перетаскивается на панель подключения.<br/>                                                                                                                                                                                                                       |
 | [**ондевицесбуттонпрессед**](imstscaxevents-ondevicesbuttonpressed.md)                     | Вызывается при нажатии кнопки устройства на панели подключения.<br/>                                                                                                                                                                                                             |
 | [**С отключением**](imstscaxevents-ondisconnected.md)                                     | Вызывается, когда клиентский элемент управления был отключен от сервера узла сеансов удаленных рабочих столов.<br/>                                                                                                                                                                                              |
@@ -80,7 +80,7 @@ ms.locfileid: "104415161"
 | [**онфокусрелеасед**](imstscaxevents-onfocusreleased.md)                                   | Вызывается при нажатии сочетания клавиш для фокуса в выпуске. Например, это событие вызывается, когда пользователь нажимает клавишу CTRL + ALT + стрелка влево или сочетание клавиш CTRL + ALT + стрелка вправо.<br/>                                                                                             |
 | [**онидлетимеаутнотификатион**](imstscaxevents-onidletimeoutnotification.md)               | Вызывается, когда пользователь не наводит мышь или клавиатуру в течение периода времени, заданного методом [**имсрдпклиентадванцедсеттингс::p UT \_ минутестоидлетимеаут**](imsrdpclientadvancedsettings-minutestoidletimeout.md) .<br/>                                                |
 | [**онлеавефуллскринмоде**](imstscaxevents-onleavefullscreenmode.md)                       | Вызывается, когда клиент выходит из полноэкранного режима. Например, это событие вызывается при нажатии [пользователем сочетания клавиш](terminal-services-shortcut-keys.md) в полноэкранном режиме (Ctrl + Alt + Break).<br/>                                                                     |
-| [**онлогинкомплете**](imstscaxevents-onlogincomplete.md)                                   | Вызывается, когда клиентский элемент управления успешно выполнил вход на сервер узла сеансов удаленных рабочих столов, следуя отображаемому в диалоговом окне входа в систему.<br/>                                                                                                                                      |
+| [**онлогинкомплете**](imstscaxevents-onlogincomplete.md)                                   | вызывается, когда клиентский элемент управления успешно выполнил вход на сервер узла сеансов удаленных рабочих столов, как показано в диалоговом окне входа Windows.<br/>                                                                                                                                      |
 | [**онлогонеррор**](imstscaxevents-onlogonerror.md)                                         | Вызывается при возникновении ошибки входа в систему или другого события входа.<br/>                                                                                                                                                                                                                             |
 | [**онмаусеинпутмодечанжед**](imstscaxevents-onmouseinputmodechanged.md)                   | Вызывается при изменении режима ввода с помощью мыши.<br/>                                                                                                                                                                                                                                      |
 | [**оннетворкстатусчанжед**](imstscaxevents-onnetworkstatuschanged.md)                     | Вызывается при изменении состояния сети.<br/>                                                                                                                                                                                                                                        |
@@ -111,312 +111,67 @@ ms.locfileid: "104415161"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Свойство</th>
-<th style="text-align: left;">Тип доступа</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-advancedsettings.md"><strong>адванцедсеттингс</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель интерфейса <a href="imstscadvancedsettings-interface.md"><strong>имстскадванцедсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель на интерфейс <a href="imsrdpclientadvancedsettings-interface.md"><strong>имсрдпклиентадванцедсеттингс</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель на интерфейс <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель на интерфейс <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель интерфейса <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Интерфейс для <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Интерфейс для <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>алловкредентиалсавинг</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, отображает ли диалоговое окно учетные данные флажок для включения сохранения учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarypassword.md"><strong>бинарипассворд</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Данное свойство не поддерживается.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-binarysalt.md"><strong>бинарисалт</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Данное свойство не поддерживается.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-cipherstrength.md"><strong>Циферстренгс</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Максимальная стойкость шифрования текущего элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>клеартекстпассворд</strong></a><br/></td>
-<td style="text-align: left;">Только на запись<br/></td>
-<td style="text-align: left;">Удаленный рабочий стол пароль элемента управления ActiveX в текстовом формате.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>Clientareawidth</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Глубина цвета текущего элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connected.md"><strong>Подключен</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Состояние соединения текущего элемента управления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient2-connectedstatustext.md"><strong>коннектедстатустекст</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Текст, отображаемый в клиентской области элемента управления, когда элемент управления находится в состоянии Connected.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-connectingtext.md"><strong>коннектингтекст</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Текст, отображаемый по центру элемента управления во время подключения элемента управления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>коннектионбартекст</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Текстовая строка, отображаемая для панели подключения.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-desktopheight.md"><strong>десктофеигхт</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Высота текущего элемента управления (в пикселях) на начальном удаленном рабочем столе.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-desktopwidth.md"><strong>десктопвидс</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Ширина текущего элемента управления (в пикселях) на начальном удаленном рабочем столе.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>Описания</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Коллекция устройств PnP, доступных для перенаправления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-disconnectedtext.md"><strong>дисконнектедтекст</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Текст, отображаемый по центру элемента управления до завершения соединения.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-domain.md"><strong>Домен</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Домен, в который входит текущий пользователь.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>дривеколлектион</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Коллекция дисков, доступная для перенаправления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>енаблекредсспсуппорт</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, включен ли CredSSP для этого соединения.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-extendeddisconnectreason.md"><strong>екстендеддисконнектреасон</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Расширенные сведения о причине отключения клиентского элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, находится ли элемент управления в полноэкранном режиме.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-fullscreentitle.md"><strong>фуллскринтитле</strong></a><br/></td>
-<td style="text-align: left;">Только на запись<br/></td>
-<td style="text-align: left;">Заголовок окна, отображаемый, если элемент управления находится в полноэкранном режиме.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-horizontalscrollbarvisible.md"><strong>хоризонталскроллбарвисибле</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указывает, отображает ли элемент управления горизонтальную полосу прокрутки.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>лаунчедвиаклиентшеллинтерфаце</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, запустил ли пользователь клиентский элемент управления с помощью интерфейса Веб-доступ удаленных рабочих столов.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>маркрдпсеттингссекуре</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, помечены ли параметры RDP как безопасные.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-msrdpclientshell.md"><strong>мсрдпклиентшелл</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Параметры клиента для средства запуска веб-портала.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>неготиатесекуритилайер</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, поддерживается ли параметр Неготиатесекуритилайер для этого соединения.<br/>
-<blockquote>
-[!Note]<br />
-Если <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>кредсспсуппорт</strong></a> включен и находится на клиенте или если SSL (SSL) включен с проверкой подлинности пользователя, неготиатесекуритилайер игнорируется.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablepassword.md"><strong>портаблепассворд</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Данное свойство не поддерживается.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscnonscriptable-portablesalt.md"><strong>портаблесалт</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Данное свойство не поддерживается.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>промптфоркредентиалс</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, следует ли отображать диалоговое окно Запрос учетных данных.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>промптфоркредсонклиент</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, отображает ли клиентский элемент управления диалоговое окно с запросом учетных данных.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>публишерцертификатечаин</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает цепочку сертификатов издателя. Цепочка хранится в варианте типа VT_BYREF, который содержит указатель на структуру <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> .<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>редиректдинамикдевицес</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, доступны ли для перенаправления динамически подключаемые устройства PnP, перечисленные в сеансе.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>редиректдинамикдривес</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, доступны ли для перенаправления динамически подключаемые диски PnP, перечисленные в сеансе.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>редиректионварнингтипе</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Управляет присутствием и внешним видом диалогового окна перенаправления.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient5-remoteprogram.md"><strong>ремотепрограм</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Параметр клиента RemoteApp.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-securedsettings.md"><strong>секуредсеттингс</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель интерфейса <a href="imstscsecuredsettings-interface.md"><strong>имстсксекуредсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указатель на интерфейс <a href="imsrdpclientsecuredsettings-interface.md"><strong>имсрдпклиентсекуредсеттингс</strong></a> , используемый для задания защищенных параметров клиентского элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-securedsettingsenabled.md"><strong>секуредсеттингсенаблед</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указывает, доступен ли интерфейс <a href="imstscsecuredsettings-interface.md"><strong>имстсксекуредсеттингс</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-server.md"><strong>Сервером</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Имя сервера, к которому подключен текущий элемент управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>шовредиректионварнингдиалог</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, следует ли отображать диалоговое окно предупреждения безопасности перенаправления перед запуском сеанса.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-startconnected.md"><strong>стартконнектед</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, будет ли элемент управления устанавливать соединение с сервером узла сеансов удаленных рабочих столов сразу после запуска.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Параметр шлюза клиентских удаленных рабочих столов.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Интерфейс для <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>трустедзонесите</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, находится ли веб-сайт, с которого пользователь запустил подключение, в списке надежных сайтов клиентского компьютера.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>уипарентвиндовхандле</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Маркер окна, который будет родительским окном для элемента управления. Это позволяет корректно модальным окнам, отображаемым элементом управления, по отношению к любым окнам, отображаемым родительским приложением.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-username.md"><strong>Имен</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Учетные данные имени пользователя для входа.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imstscax-version.md"><strong>Версия</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Номер версии текущего элемента управления.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imstscax-verticalscrollbarvisible.md"><strong>вертикалскроллбарвисибле</strong></a><br/></td>
-<td style="text-align: left;">Только для чтения<br/></td>
-<td style="text-align: left;">Указывает, отображает ли элемент управления вертикальную полосу прокрутки.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>варнабаутклипбоардредиректион</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, должно ли диалоговое окно "предупреждение системы безопасности" включать предупреждение о перенаправлении буфера обмена перед запуском сеанса.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>варнабаутпринтерредиректион</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, отображается ли в диалоговом окне перенаправление сообщение о перенаправлении принтера перед запуском сеанса.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>варнабаутсендингкредентиалс</strong></a><br/></td>
-<td style="text-align: left;">Чтение/запись<br/></td>
-<td style="text-align: left;">Указывает, должно ли предупреждение безопасности включать предупреждение об отправке учетных данных на удаленный сервер перед запуском сеанса.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Тип доступа | Описание | 
+|----------|-------------|-------------|
+| <a href="imstscax-advancedsettings.md"><strong>адванцедсеттингс</strong></a><br /> | Только для чтения<br /> | Указатель интерфейса <a href="imstscadvancedsettings-interface.md"><strong>имстскадванцедсеттингс</strong></a> .<br /> | 
+| <a href="imsrdpclient-advancedsettings2.md"><strong>AdvancedSettings2</strong></a><br /> | Только для чтения<br /> | Указатель на интерфейс <a href="imsrdpclientadvancedsettings-interface.md"><strong>имсрдпклиентадванцедсеттингс</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br /> | 
+| <a href="imsrdpclient2-advancedsettings3.md"><strong>AdvancedSettings3</strong></a><br /> | Только для чтения<br /> | Указатель на интерфейс <a href="imsrdpclientadvancedsettings2.md"><strong>IMsRdpClientAdvancedSettings2</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br /> | 
+| <a href="imsrdpclient3-advancedsettings4.md"><strong>AdvancedSettings4</strong></a><br /> | Только для чтения<br /> | Указатель на интерфейс <a href="imsrdpclientadvancedsettings3.md"><strong>IMsRdpClientAdvancedSettings3</strong></a> , используемый для задания дополнительных параметров клиентского элемента управления.<br /> | 
+| <a href="imsrdpclient4-advancedsettings5.md"><strong>AdvancedSettings5</strong></a><br /> | Только для чтения<br /> | Указатель интерфейса <a href="imsrdpclientadvancedsettings4.md"><strong>IMsRdpClientAdvancedSettings4</strong></a> .<br /> | 
+| <a href="imsrdpclient5-advancedsettings6.md"><strong>AdvancedSettings6</strong></a><br /> | Только для чтения<br /> | Интерфейс для <a href="imsrdpclientadvancedsettings5.md"><strong>IMsRdpClientAdvancedSettings5</strong></a>.<br /> | 
+| <a href="imsrdpclient6-advancedsettings7.md"><strong>AdvancedSettings7</strong></a><br /> | Только для чтения<br /> | Интерфейс для <a href="imsrdpclientadvancedsettings6.md"><strong>IMsRdpClientAdvancedSettings6</strong></a>.<br /> | 
+| <a href="imsrdpclientnonscriptable4-allowcredentialsaving.md"><strong>алловкредентиалсавинг</strong></a><br /> | Чтение/запись<br /> | Указывает, отображает ли диалоговое окно учетные данные флажок для включения сохранения учетных данных.<br /> | 
+| <a href="imstscnonscriptable-binarypassword.md"><strong>бинарипассворд</strong></a><br /> | Чтение/запись<br /> | Данное свойство не поддерживается.<br /> | 
+| <a href="imstscnonscriptable-binarysalt.md"><strong>бинарисалт</strong></a><br /> | Чтение/запись<br /> | Данное свойство не поддерживается.<br /> | 
+| <a href="imstscax-cipherstrength.md"><strong>Циферстренгс</strong></a><br /> | Только для чтения<br /> | Максимальная стойкость шифрования текущего элемента управления.<br /> | 
+| <a href="imstscnonscriptable-cleartextpassword.md"><strong>клеартекстпассворд</strong></a><br /> | Только на запись<br /> | пароль удаленный рабочий стол ActiveX управления в текстовом формате.<br /> | 
+| <a href="imsrdpclient-colordepth.md"><strong>Clientareawidth</strong></a><br /> | Чтение/запись<br /> | Глубина цвета текущего элемента управления.<br /> | 
+| <a href="imstscax-connected.md"><strong>Подключен</strong></a><br /> | Только для чтения<br /> | Состояние соединения текущего элемента управления.<br /> | 
+| <a href="imsrdpclient2-connectedstatustext.md"><strong>коннектедстатустекст</strong></a><br /> | Чтение/запись<br /> | Текст, отображаемый в клиентской области элемента управления, когда элемент управления находится в состоянии Connected.<br /> | 
+| <a href="imstscax-connectingtext.md"><strong>коннектингтекст</strong></a><br /> | Чтение/запись<br /> | Текст, отображаемый по центру элемента управления во время подключения элемента управления.<br /> | 
+| <a href="imsrdpclientnonscriptable3-connectionbartext.md"><strong>коннектионбартекст</strong></a><br /> | Чтение/запись<br /> | Текстовая строка, отображаемая для панели подключения.<br /> | 
+| <a href="imstscax-desktopheight.md"><strong>десктофеигхт</strong></a><br /> | Чтение/запись<br /> | Высота текущего элемента управления (в пикселях) на начальном удаленном рабочем столе.<br /> | 
+| <a href="imstscax-desktopwidth.md"><strong>десктопвидс</strong></a><br /> | Чтение/запись<br /> | Ширина текущего элемента управления (в пикселях) на начальном удаленном рабочем столе.<br /> | 
+| <a href="imsrdpclientnonscriptable3-devicecollection.md"><strong>Описания</strong></a><br /> | Только для чтения<br /> | Коллекция устройств PnP, доступных для перенаправления.<br /> | 
+| <a href="imstscax-disconnectedtext.md"><strong>дисконнектедтекст</strong></a><br /> | Чтение/запись<br /> | Текст, отображаемый по центру элемента управления до завершения соединения.<br /> | 
+| <a href="imstscax-domain.md"><strong>Домен</strong></a><br /> | Чтение/запись<br /> | Домен, в который входит текущий пользователь.<br /> | 
+| <a href="imsrdpclientnonscriptable3-drivecollection.md"><strong>дривеколлектион</strong></a><br /> | Только для чтения<br /> | Коллекция дисков, доступная для перенаправления.<br /> | 
+| <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>енаблекредсспсуппорт</strong></a><br /> | Чтение/запись<br /> | Указывает, включен ли CredSSP для этого соединения.<br /> | 
+| <a href="imsrdpclient-extendeddisconnectreason.md"><strong>екстендеддисконнектреасон</strong></a><br /> | Только для чтения<br /> | Расширенные сведения о причине отключения клиентского элемента управления.<br /> | 
+| <a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br /> | Чтение/запись<br /> | Указывает, находится ли элемент управления в полноэкранном режиме.<br /> | 
+| <a href="imstscax-fullscreentitle.md"><strong>фуллскринтитле</strong></a><br /> | Только на запись<br /> | Заголовок окна, отображаемый, если элемент управления находится в полноэкранном режиме.<br /> | 
+| <a href="imstscax-horizontalscrollbarvisible.md"><strong>хоризонталскроллбарвисибле</strong></a><br /> | Только для чтения<br /> | Указывает, отображает ли элемент управления горизонтальную полосу прокрутки.<br /> | 
+| <a href="imsrdpclientnonscriptable4-launchedviaclientshellinterface.md"><strong>лаунчедвиаклиентшеллинтерфаце</strong></a><br /> | Чтение/запись<br /> | Указывает, запустил ли пользователь клиентский элемент управления с помощью интерфейса Веб-доступ удаленных рабочих столов.<br /> | 
+| <a href="imsrdpclientnonscriptable4-markrdpsettingssecure.md"><strong>маркрдпсеттингссекуре</strong></a><br /> | Чтение/запись<br /> | Указывает, помечены ли параметры RDP как безопасные.<br /> | 
+| <a href="imsrdpclient5-msrdpclientshell.md"><strong>мсрдпклиентшелл</strong></a><br /> | Только для чтения<br /> | Параметры клиента для средства запуска веб-портала.<br /> | 
+| <a href="imsrdpclientnonscriptable3-negotiatesecuritylayer.md"><strong>неготиатесекуритилайер</strong></a><br /> | Чтение/запись<br /> | Указывает, поддерживается ли параметр Неготиатесекуритилайер для этого соединения.<br /><blockquote>[!Note]<br />Если <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>кредсспсуппорт</strong></a> включен и находится на клиенте или если SSL (SSL) включен с проверкой подлинности пользователя, неготиатесекуритилайер игнорируется.</blockquote><br /> | 
+| <a href="imstscnonscriptable-portablepassword.md"><strong>портаблепассворд</strong></a><br /> | Чтение/запись<br /> | Данное свойство не поддерживается.<br /> | 
+| <a href="imstscnonscriptable-portablesalt.md"><strong>портаблесалт</strong></a><br /> | Чтение/запись<br /> | Данное свойство не поддерживается.<br /> | 
+| <a href="imsrdpclientnonscriptable3-promptforcredentials.md"><strong>промптфоркредентиалс</strong></a><br /> | Чтение/запись<br /> | Указывает, следует ли отображать диалоговое окно Запрос учетных данных.<br /> | 
+| <a href="imsrdpclientnonscriptable4-promptforcredsonclient.md"><strong>промптфоркредсонклиент</strong></a><br /> | Чтение/запись<br /> | Указывает, отображает ли клиентский элемент управления диалоговое окно с запросом учетных данных.<br /> | 
+| <a href="imsrdpclientnonscriptable4-publishercertificatechain.md"><strong>публишерцертификатечаин</strong></a><br /> | Чтение/запись<br /> | Указывает цепочку сертификатов издателя. Цепочка хранится в варианте типа VT_BYREF, который содержит указатель на структуру <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context"><strong>CERT_CHAIN_CONTEXT</strong></a> .<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdevices.md"><strong>редиректдинамикдевицес</strong></a><br /> | Чтение/запись<br /> | Указывает, доступны ли для перенаправления динамически подключаемые устройства PnP, перечисленные в сеансе.<br /> | 
+| <a href="imsrdpclientnonscriptable3-redirectdynamicdrives.md"><strong>редиректдинамикдривес</strong></a><br /> | Чтение/запись<br /> | Указывает, доступны ли для перенаправления динамически подключаемые диски PnP, перечисленные в сеансе.<br /> | 
+| <a href="imsrdpclientnonscriptable4-redirectionwarningtype.md"><strong>редиректионварнингтипе</strong></a><br /> | Чтение/запись<br /> | Управляет присутствием и внешним видом диалогового окна перенаправления.<br /> | 
+| <a href="imsrdpclient5-remoteprogram.md"><strong>ремотепрограм</strong></a><br /> | Только для чтения<br /> | Параметр клиента RemoteApp.<br /> | 
+| <a href="imstscax-securedsettings.md"><strong>секуредсеттингс</strong></a><br /> | Только для чтения<br /> | Указатель интерфейса <a href="imstscsecuredsettings-interface.md"><strong>имстсксекуредсеттингс</strong></a> .<br /> | 
+| <a href="imsrdpclient-securedsettings2.md"><strong>SecuredSettings2</strong></a><br /> | Только для чтения<br /> | Указатель на интерфейс <a href="imsrdpclientsecuredsettings-interface.md"><strong>имсрдпклиентсекуредсеттингс</strong></a> , используемый для задания защищенных параметров клиентского элемента управления.<br /> | 
+| <a href="imstscax-securedsettingsenabled.md"><strong>секуредсеттингсенаблед</strong></a><br /> | Только для чтения<br /> | Указывает, доступен ли интерфейс <a href="imstscsecuredsettings-interface.md"><strong>имстсксекуредсеттингс</strong></a> .<br /> | 
+| <a href="imstscax-server.md"><strong>Сервером</strong></a><br /> | Чтение/запись<br /> | Имя сервера, к которому подключен текущий элемент управления.<br /> | 
+| <a href="imsrdpclientnonscriptable3-showredirectionwarningdialog.md"><strong>шовредиректионварнингдиалог</strong></a><br /> | Чтение/запись<br /> | Указывает, следует ли отображать диалоговое окно предупреждения безопасности перенаправления перед запуском сеанса.<br /> | 
+| <a href="imstscax-startconnected.md"><strong>стартконнектед</strong></a><br /> | Чтение/запись<br /> | Указывает, будет ли элемент управления устанавливать соединение с сервером узла сеансов удаленных рабочих столов сразу после запуска.<br /> | 
+| <a href="imsrdpclient5-transportsettings.md"><strong>TransportSettings</strong></a><br /> | Только для чтения<br /> | Параметр шлюза клиентских удаленных рабочих столов.<br /> | 
+| <a href="imsrdpclient6-transportsettings2.md"><strong>TransportSettings2</strong></a><br /> | Только для чтения<br /> | Интерфейс для <a href="imsrdpclienttransportsettings2.md"><strong>IMsRdpClientTransportSettings2</strong></a>.<br /> | 
+| <a href="imsrdpclientnonscriptable4-trustedzonesite.md"><strong>трустедзонесите</strong></a><br /> | Чтение/запись<br /> | Указывает, находится ли веб-сайт, с которого пользователь запустил подключение, в списке надежных сайтов клиентского компьютера.<br /> | 
+| <a href="imsrdpclientnonscriptable2-uiparentwindowhandle.md"><strong>уипарентвиндовхандле</strong></a><br /> | Чтение/запись<br /> | Маркер окна, который будет родительским окном для элемента управления. Это позволяет корректно модальным окнам, отображаемым элементом управления, по отношению к любым окнам, отображаемым родительским приложением.<br /> | 
+| <a href="imstscax-username.md"><strong>Имен</strong></a><br /> | Чтение/запись<br /> | Учетные данные имени пользователя для входа.<br /> | 
+| <a href="imstscax-version.md"><strong>Версия</strong></a><br /> | Только для чтения<br /> | Номер версии текущего элемента управления.<br /> | 
+| <a href="imstscax-verticalscrollbarvisible.md"><strong>вертикалскроллбарвисибле</strong></a><br /> | Только для чтения<br /> | Указывает, отображает ли элемент управления вертикальную полосу прокрутки.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutclipboardredirection.md"><strong>варнабаутклипбоардредиректион</strong></a><br /> | Чтение/запись<br /> | Указывает, должно ли диалоговое окно "предупреждение системы безопасности" включать предупреждение о перенаправлении буфера обмена перед запуском сеанса.<br /> | 
+| <a href="imsrdpclientnonscriptable4-warnaboutprinterredirection.md"><strong>варнабаутпринтерредиректион</strong></a><br /> | Чтение/запись<br /> | Указывает, отображается ли в диалоговом окне перенаправление сообщение о перенаправлении принтера перед запуском сеанса.<br /> | 
+| <a href="imsrdpclientnonscriptable3-warnaboutsendingcredentials.md"><strong>варнабаутсендингкредентиалс</strong></a><br /> | Чтение/запись<br /> | Указывает, должно ли предупреждение безопасности включать предупреждение об отправке учетных данных на удаленный сервер перед запуском сеанса.<br /> | 
+
 
 
 
@@ -436,10 +191,10 @@ ms.locfileid: "104415161"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[удаленный рабочий стол классов элементов управления ActiveX](remote-desktop-activex-control-classes.md)
+[удаленный рабочий стол классы элементов управления ActiveX](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 

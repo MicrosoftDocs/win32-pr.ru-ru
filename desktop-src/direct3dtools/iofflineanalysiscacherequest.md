@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fe2d5c8e9f63877ef103defbff633c19c7298f5a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 01551f7b0347b3b6f0920e47a2666a480c67439d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104423130"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786330"
 ---
 # <a name="span-idvspixengineiofflineanalysiscacherequestspaniofflineanalysiscacherequest-interface"></a><span id="vspixengine.iofflineanalysiscacherequest"></span>Интерфейс Иоффлинеаналисискачерекуест
 
@@ -38,13 +38,13 @@ ms.locfileid: "104423130"
 
 Интерфейс **иоффлинеаналисискачерекуест** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr"><strong>рекуестоффлинеаналисисрепортаваилабилитясинк</strong></a></td><td style="text-align: left;"><p>Запросы на кэширование автономного отчета об анализе указанных кадров.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr"><strong>рекуестоффлинеаналисисрепортаваилабилитясинк</strong></a></td><td ><p>Запросы на кэширование автономного отчета об анализе указанных кадров.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

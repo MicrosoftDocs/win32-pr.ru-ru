@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a652d200a211eb5528f6e7ecdedf2cc20579817d1f0148d59855d1e864de55de
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6fe587c3a5cfeae21b5da09a2dd79b67b82bc0c2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117727194"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472070"
 ---
 # <a name="dcl_indexrange-sm4---asm"></a>дкл \_ индексранже (SM4-ASM)
 
@@ -31,32 +31,12 @@ ms.locfileid: "117727194"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>минрегистерм</em><br/></td>
-<td>окне Первый регистр для доступа по индексу. <br/>
-<ul>
-<li><em>минрегистер</em> имеет значение <strong>v</strong> для входного регистра вершинного или построителя текстуры или <strong>o</strong> для выходного регистра вершинного шейдера.</li>
-<li><em>M</em> — это целое число, которое обозначает номер регистра.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>максрегистерн</em><br/></td>
-<td>окне Последняя регистрация для доступа по индексу. Используется та же форма, что и <em>минрегистер</em> , за исключением <em>N</em> — номер регистра.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент | Описание | 
+|------|-------------|
+| <span id="minRegisterM"></span><span id="minregisterm"></span><span id="MINREGISTERM"></span><em>минрегистерм</em><br /> | окне Первый регистр для доступа по индексу. <br /><ul><li><em>минрегистер</em> имеет значение <strong>v</strong> для входного регистра вершинного или построителя текстуры или <strong>o</strong> для выходного регистра вершинного шейдера.</li><li><em>M</em> — это целое число, которое обозначает номер регистра.</li></ul> | 
+| <span id="maxRegisterN"></span><span id="maxregistern"></span><span id="MAXREGISTERN"></span><em>максрегистерн</em><br /> | окне Последняя регистрация для доступа по индексу. Используется та же форма, что и <em>минрегистер</em> , за исключением <em>N</em> — номер регистра.<br /> | 
+
 
 
 

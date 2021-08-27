@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1940f3f93bdc018068868c5645409b22574c9fb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e57cc3f1078d46436d56a56c48c31a3fac4956c0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104546847"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481410"
 ---
 # <a name="backup-and-restore-parameters"></a>Параметры резервного копирования и восстановления
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="backup-and-restore-parameters"></a>Параметры резервного копирования и восстановления
 
@@ -36,58 +36,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Полный путь к каждой базе данных сохраняется в журналах транзакций во время выполнения. Обычно эти базы данных должны оставаться в исходном расположении для правильной работы воспроизведения транзакций. Этот параметр можно использовать для принудительного восстановления после сбоя или операции восстановления, чтобы найти базы данных, упоминаемые в журнале транзакций в указанной папке.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>&quot;&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Путь к папке (строка)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 246 символов</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>""</p> | | <p>Тип:</p> | <p>Путь к папке (строка)</p> | | <p>Допустимый диапазон:</p> | <p>0 – 246 символов</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramCleanupMismatchedLogFiles*  
@@ -97,58 +48,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр полезен, когда приложению требуется прозрачно изменить размер файла журнала транзакций, но все равно работать прозрачно в сценариях обновления и восстановления.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramDeleteOutOfRangeLogs*  
@@ -156,60 +58,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Если этот параметр имеет значение true, то все файлы журнала транзакций, находящиеся на диске, не являющиеся частью текущей последовательности файлов журнала, будут удалены с помощью [жетинит](./jetinit-function.md). Это может использоваться для автоматической очистки лишних файлов журнала после операции восстановления.
 
-**Windows XP:**  Впервые появился в Windows XP.
+**Windows XP:**  появилось в Windows XP.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Да</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramOSSnapshotTimeout*  
@@ -217,59 +70,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр позволяет настроить период времени между вызовом [жетосснапшотфризе](./jetossnapshotfreeze-function.md) и [жетосснапшотсав](./jetossnapshotthaw-function.md) до наступления времени ожидания. Дополнительные сведения см. в разделе [жетосснапшотфризе](./jetossnapshotfreeze-function.md) и [жетосснапшотсав](./jetossnapshotthaw-function.md) . Время ожидания задается в миллисекундах.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>20000 (Windows XP и Windows Server 2003);</p>
-<p>70000 (пакет обновления 1 (SP1) для Windows Server 2003)</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>20000 (Windows XP и Windows Server 2003);</p><p>70000 (Windows Server 2003 SP1)</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 – 2147483647</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Да</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramZeroDatabaseDuringBackup*  
@@ -277,82 +80,16 @@ _**Применимо к:** Windows | Windows Server_
 
 Если этот параметр имеет значение true, то каждая страница в базе данных, для которой выполняется потоковая архивация, будет очищена от удаленных данных. Важно отметить, что страницы базы данных, для которых выполняется очистка, находятся на диске. Перед процессом очистки создается резервная копия полного набора данных.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

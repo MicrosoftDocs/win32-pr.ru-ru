@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 59cb2c07859666cd3a68fc4ff438d87781112f7e35a54f786b9fe9e6ed1dcbe6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dbac6a356a71d24f1808cba404d513333b9fa071
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985624"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786800"
 ---
 # <a name="span-idvspixengineistatuscallbackspanistatuscallback-interface"></a><span id="vspixengine.istatuscallback"></span>Интерфейс Истатускаллбакк
 
@@ -38,13 +38,13 @@ ms.locfileid: "118985624"
 
 Интерфейс **истатускаллбакк** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/istatuscallback-status-dword-dword-dword"><strong>Состояние</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о ходе выполнения модуля. Это также позволяет основному приложению определить, что ядро все еще работает.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/istatuscallback-status-dword-dword-dword"><strong>Состояние</strong></a></td><td ><p>Функция обратного вызова, используемая для уведомления узла о ходе выполнения модуля. Это также позволяет основному приложению определить, что ядро все еще работает.</p></td></tr></tbody></table>
 
  
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

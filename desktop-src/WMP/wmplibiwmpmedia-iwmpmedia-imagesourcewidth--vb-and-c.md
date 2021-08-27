@@ -3,9 +3,9 @@ title: Ивмпмедиа Имажесаурцевидс, свойство
 description: Свойство Имажесаурцевидс получает ширину текущего элемента мультимедиа в пикселях.
 ms.assetid: d3644217-6faf-415e-b0c0-23db85c31a3a
 keywords:
-- Проигрыватель Windows Media для свойства Имажесаурцевидс
-- Имажесаурцевидс свойство проигрывателя Windows Media Player, интерфейс Ивмпмедиа
-- Интерфейс Ивмпмедиа Windows Media Player, свойство Имажесаурцевидс
+- проигрыватель Windows Media свойства имажесаурцевидс
+- проигрыватель Windows Media свойства имажесаурцевидс, интерфейс ивмпмедиа
+- проигрыватель Windows Media интерфейса ивмпмедиа, свойство имажесаурцевидс
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 441c4fb4a05f610aee5a2c923353fb9688bffcc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c24d9cb6d6c8cdec29984fa66b6cb12e254413ca518ed12a3089627aeeb08e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105669245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098794"
 ---
 # <a name="iwmpmediaimagesourcewidth-property"></a>Свойство Ивмпмедиа:: Имажесаурцевидс
 
@@ -51,7 +51,7 @@ Public ReadOnly Property imageSourceWidth As System.Int32
 
 Объект **System. Int32** , являющийся шириной элемента мультимедиа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если элемент мультимедиа не является текущим, это свойство возвращает ноль.
 
@@ -119,19 +119,19 @@ End Sub
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

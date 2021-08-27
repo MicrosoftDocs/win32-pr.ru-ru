@@ -4,12 +4,12 @@ ms.assetid: 27c03ced-a5fa-4ab4-b88e-5b78701da878
 title: displayInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fff0bb441b4535c0b6c6f3183671fbe8ade09183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b0bbc3cf0f17d24672e30a110d95341c1cb902d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647377"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622090"
 ---
 # <a name="displayinfo"></a>displayInfo
 
@@ -274,7 +274,7 @@ ms.locfileid: "105647377"
 |                                                                  | [дравконтрол](./propdesc-schema-drawcontrol.md)                                                               |
 |                                                                  | [едитконтрол](./propdesc-schema-editcontrol.md)                                                               |
 |                                                                  | [филтерконтрол](./propdesc-schema-filtercontrol.md)                                                           |
-|                                                                  | [куериконтрол](./propdesc-schema-querycontrol.md) (только для Windows Vista. Не поддерживается в Windows 7 и более поздних версиях.) |
+|                                                                  | [куериконтрол](./propdesc-schema-querycontrol.md) (только Windows Vista. не поддерживается в Windows 7 и более поздних версиях.) |
 
 
 
@@ -286,13 +286,13 @@ ms.locfileid: "105647377"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Атрибут</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -316,15 +316,15 @@ ms.locfileid: "105647377"
 <td>По умолчанию. Значение отображается в виде строки. Используйте &quot; StringFormat &quot; для форматирования. Метод возвращает PDDT_STRING.</td>
 </tr>
 <tr class="even">
-<td>Число</td>
+<td>Number</td>
 <td>Значение по умолчанию для числовых свойств. Значение отображается как число. Используйте &quot; NumberFormat &quot; для форматирования. Метод возвращает PDDT_NUMBER.</td>
 </tr>
 <tr class="odd">
-<td>Логическое</td>
+<td>Логический</td>
 <td>Значение по умолчанию <typeInfo type=&quot;Boolean&quot;> , если. Значение отображается в виде логического значения. Используйте &quot; булеанформат &quot; для форматирования. Метод возвращает PDDT_BOOLEAN.</td>
 </tr>
 <tr class="even">
-<td>Дата/время</td>
+<td>Дата и время</td>
 <td>Значение по умолчанию <typeInfo type=&quot;DateTime&quot;> , если. Значение отображается как дата или время. Используйте &quot; DateTimeFormat &quot; для форматирования. Метод возвращает PDDT_DATETIME.</td>
 </tr>
 <tr class="odd">

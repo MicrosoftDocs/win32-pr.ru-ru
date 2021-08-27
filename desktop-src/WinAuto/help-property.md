@@ -4,12 +4,12 @@ description: Свойство Help предоставляет сведения, 
 ms.assetid: 3df0cc01-cc99-42a1-9d56-591e6e00e53d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b240475d4583826e08fd6ee43b5839bdfb451d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e6f8b226c483e3a3d68f878fccb940fc1a9f69f18b6fde62eed4b5a7a8ea9b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104329723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122194"
 ---
 # <a name="help-property"></a>Свойство справки
 
@@ -25,9 +25,9 @@ ms.locfileid: "104329723"
 
 Серверы не поддерживают свойство **Help** , если другие свойства предоставляют достаточно сведений о назначении объекта и действиях, выполняемых объектом. Доступные объекты, которые предоставляют элементы управления, предоставляемые системой, не поддерживают свойство **Help** .
 
- 
+ 
 
- 
+ 
 
 
 

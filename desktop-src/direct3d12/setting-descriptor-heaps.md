@@ -1,18 +1,18 @@
 ---
-title: Задание и заполнение куч дескрипторов
+title: Определение и заполнение куч дескрипторов
 description: Типы кучи дескрипторов, которые могут быть заданы в списке команд, — это те, которые содержат дескрипторы, для которых можно использовать таблицы (не более одного одновременно).
 ms.assetid: F0FF3D7C-1DAC-48C3-B47D-0378BE369F37
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e3a1b6c4863827e1d8e1bdfb33a0a64420211d
-ms.sourcegitcommit: 584b35959515bc5e4a104e8cf5270513f146f590
+ms.openlocfilehash: b3e2fcb7143b097709cb7a3c98669a7d20331bfa9553f4eac5f2cf45a1a90797
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "104548957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119454"
 ---
-# <a name="setting-and-populating-descriptor-heaps"></a>Задание и заполнение куч дескрипторов
+# <a name="setting-and-populating-descriptor-heaps"></a>Определение и заполнение куч дескрипторов
 
 Типы кучи дескрипторов, которые могут быть заданы в списке команд, — это те, которые содержат дескрипторы, для которых можно использовать таблицы (не более одного одновременно).
 
@@ -54,9 +54,9 @@ D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER
 [Кучи дескрипторов](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

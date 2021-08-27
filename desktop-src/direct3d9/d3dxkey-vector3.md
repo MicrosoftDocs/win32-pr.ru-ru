@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 41aec16da30a6e8742290b747b844b7fb22f6650
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0214582b3fb1267caeb30a6cca905cbf7243ecf5dd1af40365841b315359317f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105720889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119184"
 ---
 # <a name="d3dxkey_vector3-structure"></a>\_Структура VECTOR3 D3DXKEY
 
@@ -40,7 +40,7 @@ typedef struct D3DXKEY_VECTOR3 {
 
 <dl> <dt>
 
-**Time**
+**Время**
 </dt> <dd>
 
 Тип: **[ **float**](../winprog/windows-data-types.md)**
@@ -68,11 +68,11 @@ typedef struct D3DXKEY_VECTOR3 {
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>D3dx9anim. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

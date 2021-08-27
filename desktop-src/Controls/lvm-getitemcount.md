@@ -3,7 +3,7 @@ title: Сообщение LVM_GETITEMCOUNT (Коммктрл. h)
 description: Извлекает количество элементов в элементе управления "представление списка". Это сообщение можно отправить явно или с помощью \_ макроса GetItemCount ListView.
 ms.assetid: 7c639d69-e42c-41b5-9fdd-4943166752a2
 keywords:
-- Элементы управления Windows для LVM_GETITEMCOUNT сообщений
+- элементы управления Windows сообщений LVM_GETITEMCOUNT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff2791440c7285d054eca0d2945086d06e3c35a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1561e893930e4e3eca8de628c1df555e63794c3463edf81af798c53d873c8a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103803394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109624"
 ---
 # <a name="lvm_getitemcount-message"></a>\_Сообщение LVM GETITEMCOUNT
 
@@ -45,9 +45,9 @@ ms.locfileid: "103803394"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

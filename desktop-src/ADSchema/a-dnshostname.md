@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7580a58e5d3042633a9dd665354bc883b4fdb87c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2241ea7144db7895e521c2844627d77b2f0ce54b5da518d180c87c6e9f834140
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104535765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085964"
 ---
 # <a name="dns-host-name-attribute"></a>DNS — атрибут Host-Name
 
@@ -59,15 +59,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                 |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                 |
-| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -80,15 +80,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                 |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                 |
-| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -101,15 +101,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                    |
 | MAPI-Id                | \-                                    |
 | System-Only            | Неверно                                 |
-| Является однозначным       | True                                  |
+| Является однозначным       | Верно                                  |
 | Индексируется             | Неверно                                 |
-| В глобальном каталоге      | True                                  |
+| В глобальном каталоге      | Верно                                  |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                          |
 | Range-Lower            | 0                                     |
 | Range-Upper            | 2048                                  |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000010                            |
-| Классы, используемые в        | [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -122,15 +122,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                 |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                 |
-| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -143,15 +143,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                 |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                 |
-| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -164,15 +164,15 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |
 | Search-Flags           | 0x00000000                                                                                                                                                                                                                 |
 | System-Flags           | 0x00000010                                                                                                                                                                                                                 |
-| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервером**](c-server.md)<br/> |
+| Классы, используемые в        | [**Центр сертификации**](c-certificationauthority.md)<br/> [**Компьютер**](c-computer.md)<br/> [**PKI — регистрация — служба**](c-pkienrollmentservice.md)<br/> [**Сервер**](c-server.md)<br/> |
 
 
 
@@ -185,9 +185,9 @@ ms.locfileid: "104535765"
 | Идентификатор ссылки                | \-                                                                                                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                                                                                                         |
 | System-Only            | Неверно                                                                                                                                                                                                                      |
-| Является однозначным       | True                                                                                                                                                                                                                       |
+| Является однозначным       | Верно                                                                                                                                                                                                                       |
 | Индексируется             | Неверно                                                                                                                                                                                                                      |
-| В глобальном каталоге      | True                                                                                                                                                                                                                       |
+| В глобальном каталоге      | Верно                                                                                                                                                                                                                       |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                                                                                                                               |
 | Range-Lower            | 0                                                                                                                                                                                                                          |
 | Range-Upper            | 2048                                                                                                                                                                                                                       |

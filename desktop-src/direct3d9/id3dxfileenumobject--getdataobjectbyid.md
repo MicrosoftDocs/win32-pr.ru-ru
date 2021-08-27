@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 82a74ca4ff472d678ded92aa01f2c2406560955e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1a99da554a404a9bcc279830eaf50710a67a8c62bb61d1b67ac84c90b8fdc594
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118664"
 ---
 # <a name="id3dxfileenumobjectgetdataobjectbyid-method"></a>Метод ID3DXFileEnumObject:: Жетдатаобжектбид
 
@@ -65,7 +65,7 @@ HRESULT GetDataObjectById(
 
 Если метод выполнен успешно, возвращается значение S \_ . В случае сбоя метода возвращаемое значение может быть одним из следующих: ДКСФИЛИРР \_ бадвалуе, дксфилирр \_ NotFound.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Получите идентификатор GUID ргуид текущего файлового объекта данных с помощью метода [**ID3DXFileData:: GetId**](id3dxfiledata--getid.md) .
 
@@ -75,12 +75,12 @@ HRESULT GetDataObjectById(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

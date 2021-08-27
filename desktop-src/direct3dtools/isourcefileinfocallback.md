@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 226477d5727ac7beb51bc422e04c5dda83b4a351
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: f42baae5c6bdaa1ca9aecfced98a04a431ba7416
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623080"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786920"
 ---
 # <a name="span-idvspixengineisourcefileinfocallbackspanisourcefileinfocallback-interface"></a><span id="vspixengine.isourcefileinfocallback"></span>Интерфейс Исаурцефилеинфокаллбакк
 
 Обратный вызов для возврата сведений о исходном файле из стека вызовов.
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Элементы
 
 Интерфейс **исаурцефилеинфокаллбакк** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Исаурцефилеинфокаллбакк** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122623080"
 
 Интерфейс **исаурцефилеинфокаллбакк** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ресулткаллбакк</strong></a></td><td style="text-align: left;"><p>Функция обратного вызова, используемая для уведомления узла о файлах исходного кода, связанных с стеком вызовов.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isourcefileinfocallback-resultcallback-dword-sourcefileinfo-arr"><strong>ресулткаллбакк</strong></a></td><td ><p>Функция обратного вызова, используемая для уведомления узла о файлах исходного кода, связанных с стеком вызовов.</p></td></tr></tbody></table>
 
  
 

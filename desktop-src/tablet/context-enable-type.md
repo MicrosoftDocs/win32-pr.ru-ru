@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: cd741eeff1cc3e2ce055a84dd646c3aa2563f217
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94bffba211f75416ccae5e9a55342441b7b11b41b1a9f1f4b085ec190f991645
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103816832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110974"
 ---
 # <a name="context_enable_type-enumeration"></a>\_ \_ Перечисление типов включения контекста
 
@@ -59,12 +59,12 @@ typedef enum _CONTEXT_ENABLE_TYPE {
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

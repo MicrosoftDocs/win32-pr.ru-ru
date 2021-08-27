@@ -3,7 +3,7 @@ title: Сообщение PSM_REBOOTSYSTEM (Пршт. h)
 description: Указывает, что необходимо перезапустить систему, чтобы изменения вступили в силу. Сообщение ПСМ ребутсистем можно отправить \_ явным образом или с помощью \_ макроса пропшит ребутсистем.
 ms.assetid: 461fce3c-183a-4b9b-8eab-ed2838d9f866
 keywords:
-- Элементы управления Windows для PSM_REBOOTSYSTEM сообщений
+- элементы управления Windows сообщений PSM_REBOOTSYSTEM
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f5018dc3845d699561740ccd9cbb0a9c793f15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcfebc931d1dbf01ab053fa2723bdcf361c4be5ef1443b9131115e2300770cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088634"
 ---
 # <a name="psm_rebootsystem-message"></a>\_Сообщение ПСМ ребутсистем
 
@@ -47,7 +47,7 @@ ms.locfileid: "104489951"
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно отправить это сообщение только в ответ на сообщение [PSN \_ Apply](psn-apply.md) или [PSN \_ киллактиве](psn-killactive.md) Notification.
 
@@ -60,15 +60,15 @@ ms.locfileid: "104489951"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                               |
-| Header<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                               |
+| Заголовок<br/>                   | <dl> <dt>Пршт. h</dt> </dl> |
 
 
 

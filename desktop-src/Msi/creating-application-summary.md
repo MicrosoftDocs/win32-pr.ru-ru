@@ -4,12 +4,12 @@ ms.assetid: 62030f5c-a7cc-4ba7-86ca-c0bdfc2cfb4b
 title: Создание свойства сводки приложения
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4ca218a02dee9a68b67b8ac82c44c4b47e7a164
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fbdf54ca4703a40be8976c8ed1e635fda32fc236c8b421e3ffccaf611b0cd455
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129664"
 ---
 # <a name="creating-application-summary-property"></a>Создание свойства сводки приложения
 
@@ -21,11 +21,11 @@ ms.locfileid: "105652119"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. установщик Windows в Windows Server 2003 или Windows XP<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

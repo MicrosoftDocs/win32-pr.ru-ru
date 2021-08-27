@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ebcb4b89eee51b475869cfc62676feda10e53084
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9953bc1119d7e203936ca7e78048a4083a996ec2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104496458"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881046"
 ---
 # <a name="errorinfo-collection"></a>Коллекция ErrorInfo
 
@@ -49,7 +49,7 @@ ms.locfileid: "104496458"
 -   [ErrorCode](#errorcode)
 -   [мажорреф](#majorref)
 -   [минорреф](#minorref)
--   [Name](#name)
+-   [имя](#name);
 
 ### <a name="errorcode"></a>ErrorCode
 
@@ -89,7 +89,7 @@ ms.locfileid: "104496458"
 
 | Ввод | Значение |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Описание    | Точная спецификация элемента, имеющего ошибку, например имя свойства. Если возникает несколько ошибок или в контекстах, в которых это не применимо, Минорреф имеет значение <Invalid> . |
+| Описание    | Точная спецификация элемента, имеющего ошибку, например имя свойства. Если возникает несколько ошибок или в контекстах, в которых это не применимо, Минорреф является &lt; недопустимым &gt; . |
 | Access         | ReadOnly                                                                                                                                                                          |
 | Тип           | Строка                                                                                                                                                                            |
 | По умолчанию        | None                                                                                                                                                                              |
