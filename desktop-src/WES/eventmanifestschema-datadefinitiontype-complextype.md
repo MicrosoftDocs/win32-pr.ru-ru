@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa492acf00740b0df9b761c40797ec05feb5b2e38b84ec0682296dd845cbe613
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a637166d261c4148a81baee3597d4090542b8612
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589609"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470930"
 ---
 # <a name="datadefinitiontype-complex-type"></a>Сложный тип Датадефинитионтипе
 
@@ -69,61 +69,20 @@ ms.locfileid: "118589609"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Имя</th>
-<th>Тип</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>count</td>
-<td><a href="eventmanifestschema-counttype-simpletype.md"><strong>каунттипе</strong></a></td>
-<td>Число элементов в массиве, если элемент данных является массивом. Можно указать фактическое число или имя другого элемента данных, содержащего число. <br/></td>
-</tr>
-<tr class="even">
-<td>Тип</td>
-<td><strong>QName</strong></td>
-<td>Тип данных для этого элемента данных. Список предопределенных типов входных данных см. в разделе сложный тип <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td>length</td>
-<td><a href="eventmanifestschema-lengthtype-simpletype.md"><strong>ленгстипе</strong></a></td>
-<td>Длина элемента данных переменной длины, например двоичного объекта BLOB. Для двоичных данных укажите длину в байтах, а для строковых данных укажите длину в символах. Можно указать фактическую длину или имя другого элемента данных, который содержит длину.<br/> Если для указания строки фиксированной длины используется атрибут Length, необходимо заполнить строку фиксированной длиной, допуская символ-признак конца строки в конце (например, если длина равна 5, строка &quot; ABC &quot; должна быть дополнена значением &quot; ABC &quot; . Длина строки должна включать символ конца null.<br/></td>
-</tr>
-<tr class="even">
-<td>карта</td>
-<td>строка</td>
-<td>Имя соответствия "имя-значение", используемое для отображения целочисленных значений в строках. Тип данных элемента данных должен быть одного из следующих типов:<br/>
-<ul>
-<li>win:UInt8</li>
-<li>win:UInt16</li>
-<li>win:UInt32</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>строка</td>
-<td>Имя элемента данных. Имя можно использовать для ссылки на этот элемент данных в фрагменте XML, если в шаблоне указан раздел <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> . Вы также можете ссылаться на это имя в атрибуте length или Count другого элемента данных, если этот элемент данных содержит его длину или значение Count.<br/> <strong>Windows Vista:</strong> Этот атрибут является необязательным.<br/></td>
-</tr>
-<tr class="even">
-<td>Тип</td>
-<td><strong>QName</strong></td>
-<td>Тип данных, используемый при отрисовке этого элемента данных. Список предопределенных типов выходных данных см. в описании сложного типа <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> .<br/> <strong>Windows Vista:</strong> Тип выходных данных игнорируется, и служба определяет тип на основе входного типа.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Имя | Тип | Описание | 
+|------|------|-------------|
+| count | <a href="eventmanifestschema-counttype-simpletype.md"><strong>каунттипе</strong></a> | Число элементов в массиве, если элемент данных является массивом. Можно указать фактическое число или имя другого элемента данных, содержащего число. <br /> | 
+| Тип | <strong>QName</strong> | Тип данных для этого элемента данных. Список предопределенных типов входных данных см. в разделе сложный тип <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> .<br /> | 
+| length | <a href="eventmanifestschema-lengthtype-simpletype.md"><strong>ленгстипе</strong></a> | Длина элемента данных переменной длины, например двоичного объекта BLOB. Для двоичных данных укажите длину в байтах, а для строковых данных укажите длину в символах. Можно указать фактическую длину или имя другого элемента данных, который содержит длину.<br /> Если для указания строки фиксированной длины используется атрибут Length, необходимо заполнить строку фиксированной длиной, допуская символ-конец NULL в конце (например, если длина равна 5, строка «ABC» должна быть дополнена буквой «ABC». Длина строки должна включать символ конца null.<br /> | 
+| карта | строка | Имя соответствия "имя-значение", используемое для отображения целочисленных значений в строках. Тип данных элемента данных должен быть одного из следующих типов:<br /><ul><li>win:UInt8</li><li>win:UInt16</li><li>win:UInt32</li></ul> | 
+| name | строка | Имя элемента данных. Имя можно использовать для ссылки на этот элемент данных в фрагменте XML, если в шаблоне указан раздел <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> . Вы также можете ссылаться на это имя в атрибуте length или Count другого элемента данных, если этот элемент данных содержит его длину или значение Count.<br /><strong>Windows Vista:</strong> Этот атрибут является необязательным.<br /> | 
+| Тип | <strong>QName</strong> | Тип данных, используемый при отрисовке этого элемента данных. Список предопределенных типов выходных данных см. в описании сложного типа <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> .<br /><strong>Windows Vista:</strong> Тип выходных данных игнорируется, и служба определяет тип на основе входного типа.<br /> | 
 
 
 
-## <a name="remarks"></a>Remarks
+
+## <a name="remarks"></a>Комментарии
 
 Для входных типов переменной длины, таких как двоичные BLOB-объекты, необходимо использовать атрибут length для явного указания размера данных. Для строк укажите атрибут Length, только если строки имеют фиксированную длину.
 

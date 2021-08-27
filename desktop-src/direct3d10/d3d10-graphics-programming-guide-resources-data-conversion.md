@@ -4,12 +4,12 @@ ms.assetid: 454d3fd0-fc0f-46a9-925e-13f8e3c39f02
 title: Правила преобразования данных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61abdc58811af9155c67d7b32bcd47e9d4b71ea5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 52b5ba37305fb7cadc229a614b883519cf6c5f45
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103807349"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626300"
 ---
 # <a name="data-conversion-rules"></a>Правила преобразования данных
 
@@ -21,7 +21,7 @@ ms.locfileid: "103807349"
     -   [Преобразование представления с меньшим диапазоном в представление с более высоким диапазоном](#converting-from-a-lower-range-representation-to-a-higher-range-representation)
 -   [Целочисленное преобразование](#integer-conversion)
 -   [Преобразование целых чисел с фиксированной запятой](#fixed-point-integer-conversion)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="data-type-terminology"></a>Терминология типов данных
 
@@ -68,9 +68,9 @@ ms.locfileid: "103807349"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -210,9 +210,9 @@ ms.locfileid: "103807349"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -248,7 +248,7 @@ ms.locfileid: "103807349"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

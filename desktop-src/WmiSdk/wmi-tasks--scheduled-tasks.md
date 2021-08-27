@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ee4fcf193296d5c474987a3a99877b3bfb43868f79527200893303df351920cb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 37a1d44a07feea7beb07984c383620fd2f166cdb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738843"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626160"
 ---
 # <a name="wmi-tasks-scheduled-tasks"></a>Задачи WMI: запланированные задачи
 
@@ -44,8 +44,8 @@ ms.locfileid: "117738843"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,7 +59,7 @@ ms.locfileid: "117738843"
 <td>Используйте класс <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> и метод <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>CREATE</strong></a> . если у вас возникли трудности при выполнении этой задачи в Windows 7 или более поздней версии, см. раздел <strong>Win32_ScheduledJob</strong> примечаний. вероятно, ваши параметры препятствуют использованию класса.<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -94,7 +94,7 @@ End If</code></pre></td>
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

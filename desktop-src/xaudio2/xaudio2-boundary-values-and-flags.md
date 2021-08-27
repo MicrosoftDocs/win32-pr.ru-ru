@@ -4,12 +4,12 @@ ms.assetid: 074ac40e-a17e-7366-1954-6699407b82f7
 title: XAudio2 граничные значения и флаги (Xaudio2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe59f229ea406eb5bf6c6b3f5c124d6d0d19c047
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11293b55a44b0aefdeacf95b9e36e90a626de2c1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718101"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470710"
 ---
 # <a name="xaudio2-boundary-values-and-flags"></a>XAudio2 граничные значения и флаги
 
@@ -58,70 +58,20 @@ ms.locfileid: "105718101"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Константа</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_DEBUG_ENGINE"></span><span id="xaudio2_debug_engine"></span><dl> <dt><strong>XAUDIO2_DEBUG_ENGINE</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что вместо версии выпуска следует использовать отладочную или проверенную версию обработчика звука. См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот флаг не поддерживается в Windows 8 и Windows 10.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_NOPITCH"></span><span id="xaudio2_voice_nopitch"></span><dl> <dt><strong>XAUDIO2_VOICE_NOPITCH</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что исходный голос не будет использовать сдвиг на шаг, см. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_NOSRC"></span><span id="xaudio2_voice_nosrc"></span><dl> <dt><strong>XAUDIO2_VOICE_NOSRC</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что для исходного голоса не доступно преобразование частоты выборки, выходные данные голоса должны иметь одинаковую частоту выборки. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_VOICE_USEFILTER"></span><span id="xaudio2_voice_usefilter"></span><dl> <dt><strong>XAUDIO2_VOICE_USEFILTER</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что результат фильтра должен быть доступен на голоса. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a> and <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice"><strong>IXAudio2:: креатесубмиксвоице</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_PLAY_TAILS"></span><span id="xaudio2_play_tails"></span><dl> <dt><strong>XAUDIO2_PLAY_TAILS</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что голосовое действие должно продолжать выводить выходные данные после его остановки. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop"><strong>IXAudio2SourceVoice:: останавливаться</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_END_OF_STREAM"></span><span id="xaudio2_end_of_stream"></span><dl> <dt><strong>XAUDIO2_END_OF_STREAM</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает последний буфер в потоке. См. <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer"><strong>XAUDIO2_BUFFER</strong></a>. <strong>Флаги</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_STOP_ENGINE_WHEN_IDLE"></span><span id="xaudio2_stop_engine_when_idle"></span><dl> <dt><strong>XAUDIO2_STOP_ENGINE_WHEN_IDLE</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что обработчик звука должен останавливаться, когда не запускаются исходные голоса и запускается при запуске голоса. См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_SEND_USEFILTER"></span><span id="xaudio2_send_usefilter"></span><dl> <dt><strong>XAUDIO2_SEND_USEFILTER</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что фильтр следует использовать для отправки голоса. См. <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_send_descriptor"><strong>XAUDIO2_SEND_DESCRIPTOR</strong></a>. <strong>Флаги</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="XAUDIO2_1024_QUANTUM"></span><span id="xaudio2_1024_quantum"></span><dl> <dt><strong>XAUDIO2_1024_QUANTUM</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает такт обработки, не установленный по умолчанию, 21,33 мс (1024 образцов по адресу 48KHz). См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT"></span><span id="xaudio2_no_virtual_audio_client"></span><dl> <dt><strong>XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT</strong></dt> </dl></td>
-<td style="text-align: left;">Указывает, что виртуальный аудио-клиент использовать не следует. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice"><strong>IXAudio2:: креатемастерингвоице</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-На устройствах в семействе мобильных устройств всегда используется виртуальный звуковой клиент, независимо от того, используется ли этот флаг.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Константа | Описание | 
+|----------|-------------|
+| <span id="XAUDIO2_DEBUG_ENGINE"></span><span id="xaudio2_debug_engine"></span><dl><dt><strong>XAUDIO2_DEBUG_ENGINE</strong></dt></dl> | Указывает, что вместо версии выпуска следует использовать отладочную или проверенную версию обработчика звука. См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br /><blockquote>[!Note]<br />этот флаг не поддерживается для Windows 8 и Windows 10.</blockquote><br /> | 
+| <span id="XAUDIO2_VOICE_NOPITCH"></span><span id="xaudio2_voice_nopitch"></span><dl><dt><strong>XAUDIO2_VOICE_NOPITCH</strong></dt></dl> | Указывает, что исходный голос не будет использовать сдвиг на шаг, см. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a>.<br /> | 
+| <span id="XAUDIO2_VOICE_NOSRC"></span><span id="xaudio2_voice_nosrc"></span><dl><dt><strong>XAUDIO2_VOICE_NOSRC</strong></dt></dl> | Указывает, что для исходного голоса не доступно преобразование частоты выборки, выходные данные голоса должны иметь одинаковую частоту выборки. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a>.<br /> | 
+| <span id="XAUDIO2_VOICE_USEFILTER"></span><span id="xaudio2_voice_usefilter"></span><dl><dt><strong>XAUDIO2_VOICE_USEFILTER</strong></dt></dl> | Указывает, что результат фильтра должен быть доступен на голоса. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice"><strong>IXAudio2:: креатесаурцевоице</strong></a> and <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice"><strong>IXAudio2:: креатесубмиксвоице</strong></a>.<br /> | 
+| <span id="XAUDIO2_PLAY_TAILS"></span><span id="xaudio2_play_tails"></span><dl><dt><strong>XAUDIO2_PLAY_TAILS</strong></dt></dl> | Указывает, что голосовое действие должно продолжать выводить выходные данные после его остановки. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2sourcevoice-stop"><strong>IXAudio2SourceVoice:: останавливаться</strong></a>.<br /> | 
+| <span id="XAUDIO2_END_OF_STREAM"></span><span id="xaudio2_end_of_stream"></span><dl><dt><strong>XAUDIO2_END_OF_STREAM</strong></dt></dl> | Указывает последний буфер в потоке. См. <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_buffer"><strong>XAUDIO2_BUFFER</strong></a>. <strong>Флаги</strong>.<br /> | 
+| <span id="XAUDIO2_STOP_ENGINE_WHEN_IDLE"></span><span id="xaudio2_stop_engine_when_idle"></span><dl><dt><strong>XAUDIO2_STOP_ENGINE_WHEN_IDLE</strong></dt></dl> | Указывает, что обработчик звука должен останавливаться, когда не запускаются исходные голоса и запускается при запуске голоса. См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br /> | 
+| <span id="XAUDIO2_SEND_USEFILTER"></span><span id="xaudio2_send_usefilter"></span><dl><dt><strong>XAUDIO2_SEND_USEFILTER</strong></dt></dl> | Указывает, что фильтр следует использовать для отправки голоса. См. <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_send_descriptor"><strong>XAUDIO2_SEND_DESCRIPTOR</strong></a>. <strong>Флаги</strong>.<br /> | 
+| <span id="XAUDIO2_1024_QUANTUM"></span><span id="xaudio2_1024_quantum"></span><dl><dt><strong>XAUDIO2_1024_QUANTUM</strong></dt></dl> | Указывает такт обработки, не установленный по умолчанию, 21,33 мс (1024 образцов по адресу 48KHz). См. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create"><strong>XAudio2Create</strong></a>.<br /> | 
+| <span id="XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT"></span><span id="xaudio2_no_virtual_audio_client"></span><dl><dt><strong>XAUDIO2_NO_VIRTUAL_AUDIO_CLIENT</strong></dt></dl> | Указывает, что виртуальный аудио-клиент использовать не следует. См. раздел <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice"><strong>IXAudio2:: креатемастерингвоице</strong></a>.<br /><blockquote>[!Note]<br />На устройствах в семействе мобильных устройств всегда используется виртуальный звуковой клиент, независимо от того, используется ли этот флаг.</blockquote><br /> | 
+
 
 
 
@@ -141,7 +91,7 @@ ms.locfileid: "105718101"
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
+Windows 10 (ксаудио 2.9); Windows 8, Windows Phone 8 (ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
 
 ## <a name="requirements"></a>Требования
 
@@ -149,11 +99,11 @@ Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8)
 
 | Требование | Значение |
 |-------------------|--------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Xaudio2. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Xaudio2. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

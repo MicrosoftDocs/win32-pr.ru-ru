@@ -3,7 +3,7 @@ title: Код уведомления LVN_GETDISPINFO (Коммктрл. h)
 description: Отправляется элементом управления "представление списка" в его родительское окно. Это запрос к родительскому окну для предоставления сведений, необходимых для отображения или сортировки элемента представления списка. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: 04310e39-69bc-45d7-958c-00452279d7a9
 keywords:
-- LVN_GETDISPINFO кода уведомления элементы управления Windows
+- LVN_GETDISPINFO кода уведомления Windows элементы управления
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1585524dd447c4a1324dc5c7a235490de776fb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f4f4fc6917b0de699d1ca561f46bc7789aa15eea7c40aa3681fe74991e3a122
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103804151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088824"
 ---
 # <a name="lvn_getdispinfo-notification-code"></a>\_Код уведомления ЛВН жетдиспинфо
 
@@ -51,7 +51,7 @@ LVN_GETDISPINFO
 
 Нет возвращаемого значения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Получатель уведомлений выполняет приведение *lParam* для получения структуры [**нмлвдиспинфо**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) . Параметр *wParam* содержит код уведомления.
 
@@ -118,20 +118,20 @@ LVN_GETDISPINFO
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ЛВН \_ ЖЕТДИСПИНФОВ** (Юникод) и **ЛВН \_ жетдиспинфоа** (ANSI)<br/>           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

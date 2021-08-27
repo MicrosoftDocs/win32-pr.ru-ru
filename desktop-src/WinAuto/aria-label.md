@@ -6,12 +6,12 @@ keywords:
 - ариалабелеррорид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1091c46dbb660c4c3568d24bfca34d94ef869f1e
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 42abee9028db8c3a4070d9b60d0650187339fc4c9ec34d0b70f720c27e973897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104070790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122324"
 ---
 # <a name="aria-label-error"></a>Ошибка метки ARIA
 
@@ -21,7 +21,7 @@ ms.locfileid: "104070790"
 
 ## <a name="type"></a>Тип
 
-Ошибка
+Error
 
 ## <a name="description"></a>Описание
 
@@ -39,7 +39,7 @@ ms.locfileid: "104070790"
 > [!Note]  
 > Аккчеккер отображает эту ошибку даже для элементов, для которых доступное имя задано по умолчанию на основе внутреннего содержимого HTML (см. элемент **баннера** в приведенном выше примере). В таких случаях эти ошибки можно отключить.
 
- 
+ 
 
 Все семантически важные элементы пользовательского интерфейса, такие как поля формы (например, **входные данные**, **SELECT**, **textarea**), изображения, кнопки и ориентиры (Теги, представляющие логические регионы), должны иметь доступное имя, чтобы средства чтения с экрана могли правильно объявлять их.
 
@@ -87,9 +87,9 @@ attribute to reference the visible headers. -->
 
 
 
- 
+ 
 
- 
+ 
 
 
 

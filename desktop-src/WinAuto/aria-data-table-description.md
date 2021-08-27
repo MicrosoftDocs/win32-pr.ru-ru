@@ -6,12 +6,12 @@ keywords:
 - ариадататаблеварнингид
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dcd77983092983649d8bcd41357afb4756120e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16fb9e8e97336199b5b133dc59ef7c5f0900f7bdeb0c7a8d8098a51707b107f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122394"
 ---
 # <a name="aria-data-table-warning"></a>Предупреждение таблицы данных ARIA
 
@@ -32,7 +32,7 @@ ms.locfileid: "104068496"
 > [!Note]  
 > Не все таблицы данных должны иметь доступное описание. Необходимо определить доступное описание, если пользователям требуются дополнительные сведения для понимания структуры и содержимого таблицы данных.
 
- 
+ 
 
 Чтобы устранить это предупреждение, определите доступное для таблицы описание с помощью атрибута Summary или **ARIA-DescribedBy** .
 
@@ -54,9 +54,9 @@ ms.locfileid: "104068496"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

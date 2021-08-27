@@ -27,12 +27,12 @@ keywords:
 - триггер дня недели планировщик задач
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee1e846e4b2fa8138f675cdd39e926884d2bfae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9a0e09b6ecc1ac3c817f374e70c6756fa09afc78ccaac7e549f3f04ad074c8d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105681684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099694"
 ---
 # <a name="trigger-types"></a>Типы триггеров
 
@@ -73,7 +73,7 @@ ms.locfileid: "105681684"
 -   Триггер запуска системы: запускает задачу при загрузке компьютера.
 -   Триггер входа: запускает задачу при входе определенного пользователя в систему.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

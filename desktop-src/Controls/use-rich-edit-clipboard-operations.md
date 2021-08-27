@@ -4,27 +4,27 @@ description: Приложение может вставить содержимо
 ms.assetid: 1FEFFD95-839B-4A26-A26E-B8429D5FF4C0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a46432054956914b484c9faeeeda78f2a18e132
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: bdeac2e892716880e4e2971d597c13047dc79cebf2c57888e2fa248c6b0c4beb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103987932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132094"
 ---
 # <a name="how-to-use-rich-edit-clipboard-operations"></a>Использование многофункциональных операций редактирования буфера обмена
 
 Приложение может вставить содержимое буфера обмена в форматируемый элемент управления с помощью наиболее доступного формата буфера обмена или конкретного формата буфера обмена. Кроме того, можно определить, может ли элемент управления с расширенным редактированием вставлять формат буфера обмена.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -38,22 +38,22 @@ ms.locfileid: "103987932"
 
 Элементы управления Rich Edit регистрируют два формата буфера обмена:
 
--   Формат форматированного текста
+-   Формат RTF
 -   Формат форматированного текста без объектов
 -   Текст и объекты RichEdit
 
 Приложение может зарегистрировать эти форматы с помощью функции [**регистерклипбоардформат**](/windows/desktop/api/winuser/nf-winuser-registerclipboardformata) , указав значения параметров "CF \_ RTF", "CF \_ РТФНУБЖС" и "CF ретекстобж" \_ .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4af131ca3a126cd6f1fd54160418bfbe70cc9cce
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8527853bf88b073f3505f4b4170ff6165f7f9aa7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119089"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477490"
 ---
 # <a name="switch-statement"></a>Оператор switch
 
@@ -43,51 +43,14 @@ ms.locfileid: "113119089"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>преобразовать в плоский формат</td>
-<td>Скомпилируйте оператор как ряд инструкций <strong>If</strong> , каждый с атрибутом <strong>спрямления</strong> .</td>
-</tr>
-<tr class="even">
-<td>ветвь</td>
-<td>Скомпилируйте оператор как ряд операторов <strong>If</strong> , каждый с атрибутом <strong>branch</strong> .
-<blockquote>
-[!Note]<br />
-При использовании <a href="dx-graphics-hlsl-sm2.md">модели шейдеров 2. x</a> или <a href="dx-graphics-hlsl-sm3.md">Shader Model 3,0</a>каждый раз при использовании динамического ветвления используются ресурсы. Поэтому при чрезмерном использовании динамической ветви при выборе этих профилей могут возникнуть ошибки компиляции.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>форцекасе</td>
-<td>Принудительно использовать оператор switch на оборудовании.
-<blockquote>
-[!Note]<br />
-Требуется 10_0 или более поздний <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">уровень</a> оборудования.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>вызывает</td>
-<td>Тексты отдельных вариантов в коммутаторе будут перемещены в подпрограммы оборудования, а коммутатор будет являться серией вызовов подпрограмм.
-<blockquote>
-[!Note]<br />
-Требуется 10_0 или более поздний <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">уровень</a> оборудования.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| преобразовать в плоский формат | Скомпилируйте оператор как ряд инструкций <strong>If</strong> , каждый с атрибутом <strong>спрямления</strong> . | 
+| ветвь | Скомпилируйте оператор как ряд операторов <strong>If</strong> , каждый с атрибутом <strong>branch</strong> .<blockquote>[!Note]<br />При использовании <a href="dx-graphics-hlsl-sm2.md">модели шейдеров 2. x</a> или <a href="dx-graphics-hlsl-sm3.md">Shader Model 3,0</a>каждый раз при использовании динамического ветвления используются ресурсы. Поэтому при чрезмерном использовании динамической ветви при выборе этих профилей могут возникнуть ошибки компиляции.</blockquote><br /> | 
+| форцекасе | Принудительно использовать оператор switch на оборудовании.<blockquote>[!Note]<br />Требуется 10_0 или более поздний <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">уровень</a> оборудования.</blockquote><br /> | 
+| вызывает | Тексты отдельных вариантов в коммутаторе будут перемещены в подпрограммы оборудования, а коммутатор будет являться серией вызовов подпрограмм.<blockquote>[!Note]<br />Требуется 10_0 или более поздний <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">уровень</a> оборудования.</blockquote><br /> | 
+
 
 
 
@@ -109,7 +72,7 @@ ms.locfileid: "113119089"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 
 ```
@@ -189,7 +152,7 @@ else
 
 <dl> <dt>
 
-[Управление потоком](dx-graphics-hlsl-flow-control.md)
+[Flow Элемента](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  
