@@ -4,12 +4,12 @@ description: Интерфейсы сохраняемости
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: d4894ccb1cc5d17747739e78918da9a5b48e2cca13a9f36078d752fceeaef011
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120424"
 ---
 # <a name="persistence-interfaces"></a>Интерфейсы сохраняемости
 

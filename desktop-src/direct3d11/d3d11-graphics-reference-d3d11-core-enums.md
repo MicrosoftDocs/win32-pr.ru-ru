@@ -6,12 +6,12 @@ keywords:
 - перечисления, Direct3D 11 Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b012ae34367ef849bebf3fb25780310fcb924ba9
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: f0daf03ca2114f67935e1eb89f34b31306e31fc0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104414088"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623120"
 ---
 # <a name="direct3d-11-core-enumerations"></a>Базовые перечисления Direct3D 11
 
@@ -21,8 +21,8 @@ ms.locfileid: "104414088"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,7 +71,7 @@ ms.locfileid: "104414088"
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_copy_flags"><strong>D3D11_COPY_FLAGS</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в операционных системах Windows 8 и более поздних версий.
+это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в Windows 8 и более поздних операционных системах.
 </blockquote>
 <br/> Указывает способ обработки существующего содержимого ресурса во время операции копирования или обновления региона в этом ресурсе.<br/></td>
 </tr>
@@ -143,7 +143,7 @@ ms.locfileid: "104414088"
 <td><a href="/windows/win32/api/D3D11_1/ne-d3d11_1-d3d11_logic_op"><strong>D3D11_LOGIC_OP</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в операционных системах Windows 8 и более поздних версий.
+это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в Windows 8 и более поздних операционных системах.
 </blockquote>
 <br/> Указывает логические операции, которые необходимо настроить для целевого объекта прорисовки.<br/></td>
 </tr>
@@ -175,7 +175,7 @@ ms.locfileid: "104414088"
 <td><a href="/windows/win32/api/D3D11/ne-d3d11-d3d11_shader_min_precision_support"><strong>D3D11_SHADER_MIN_PRECISION_SUPPORT</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-Это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в операционных системах Windows 8 и более поздних версий.
+это перечисление поддерживается средой выполнения Direct3D 11,1, которая доступна в Windows 8 и более поздних операционных системах.
 </blockquote>
 <br/> Значения, задающих минимальные уровни точности на стадиях шейдера.<br/></td>
 </tr>
@@ -202,6 +202,6 @@ ms.locfileid: "104414088"
 </tbody>
 </table>
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 [Справочник по коду](d3d11-graphics-reference-d3d11-core.md)

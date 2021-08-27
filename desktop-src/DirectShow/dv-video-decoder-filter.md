@@ -4,12 +4,12 @@ ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: Фильтр видеодекодера DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f00d63c92da4c16697d7cc9ff173f4c50e822a10da429a586f8eaa688e9eb96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12131aa09f8e3f7dbef56504ad55410af11ffcbe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820686"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466051"
 ---
 # <a name="dv-video-decoder-filter"></a>Фильтр видеодекодера DV
 
@@ -17,76 +17,15 @@ ms.locfileid: "117820686"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Интерфейсы фильтра</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>иипдвдек</strong></a>, <strong>IPersistStream</strong>, <strong>испеЦифипропертипажес</strong></td>
-</tr>
-<tr class="even">
-<td>Типы носителей входных закрепления</td>
-<td><ul>
-<li>MEDIATYPE_Video</li>
-<li>MEDIASUBTYPE_dvsd</li>
-<li>FORMAT_VideoInfo, FORMAT_DvInfo</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы входных закрепления</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей для выходного ПИН-кода</td>
-<td><strong>Основной тип</strong>: MEDIATYPE_Video<strong>подтипы</strong>:<br/>
-<ul>
-<li>MEDIASUBTYPE_YUY2</li>
-<li>MEDIASUBTYPE_UYVY</li>
-<li>MEDIASUBTYPE_RGB24</li>
-<li>MEDIASUBTYPE_RGB32</li>
-<li>MEDIASUBTYPE_ARGB32</li>
-<li>MEDIASUBTYPE_RGB565</li>
-<li>MEDIASUBTYPE_RGB555</li>
-<li>MEDIASUBTYPE_RGB8</li>
-<li>MEDIASUBTYPE_Y41P</li>
-</ul>
-<strong>Типы форматов</strong>:<br/> Format_VideoInfo, Format_VideoInfo2<br/></td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы выходного ПИН-кода</td>
-<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>Имедиапоситион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Фильтровать CLSID</td>
-<td>CLSID_DVVideoCodec</td>
-</tr>
-<tr class="odd">
-<td>CLSID страницы свойств</td>
-<td>CLSID_DVDecPropertiesPage</td>
-</tr>
-<tr class="even">
-<td>Исполняемый объект</td>
-<td>qdv.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Заслуживают</a></td>
-<td>MERIT_NORMAL</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Категория фильтра</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>иипдвдек</strong></a>, <strong>IPersistStream</strong>, <strong>испеЦифипропертипажес</strong> | | Типы входных закрепления <ul><li>MEDIATYPE_Video</li><li>MEDIASUBTYPE_dvsd</li><li>FORMAT_VideoInfo, FORMAT_DvInfo</li></ul> | | Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>Имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Типы выходных закрепления <strong>Основной тип</strong>: MEDIATYPE_Video<strong>подтипы</strong>:<br /><ul><li>MEDIASUBTYPE_YUY2</li><li>MEDIASUBTYPE_UYVY</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li><li>MEDIASUBTYPE_ARGB32</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_Y41P</li></ul><strong>Типы форматов</strong>:<br /> Format_VideoInfo, Format_VideoInfo2<br /> | | Интерфейсы выходного ПИН-кода | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>Имедиапоситион</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Фильтровать CLSID | CLSID_DVVideoCodec | | CLSID страницы свойств | CLSID_DVDecPropertiesPage | | Исполняемый файл | qdv.dll | | <a href="merit.md"></a> Кому | MERIT_NORMAL | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Используйте интерфейс [**иипдвдек**](/windows/desktop/api/Strmif/nn-strmif-iipdvdec) , чтобы задать разрешение декодирования: полный, половинный размер, квартал или один восьмой размер.
 

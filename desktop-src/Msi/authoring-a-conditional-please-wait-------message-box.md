@@ -4,12 +4,12 @@ ms.assetid: 4a99a96b-50c2-42eb-82ad-acdfa186a71f
 title: Создание "Подождите. . ." Окно сообщения
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c5f0cb1e4f1a0224c3b71d42d6fc63c1940483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3f7abc26254b9656ca3d522fa7458ded30fbf09cc20a39a9f960e7509bee8a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104545178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086364"
 ---
 # <a name="authoring-a-conditional-please-wait-message-box"></a>Создание условного выражения "Подождите..." Окно сообщения
 

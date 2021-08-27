@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c6389553ce2265752e3552fdaaf848e3ac70eede8df3b4fd9e560861bf15f33d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01958791dccd7c836babedbe726233797eddb646
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036260"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471330"
 ---
 # <a name="high-dpi-desktop-application-development-on-windows"></a>Разработка настольных приложений с высоким разрешением на Windows
 
@@ -69,61 +69,14 @@ ms.locfileid: "119036260"
 
 В следующей таблице показано, как приложения будут отображаться в различных сценариях.
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Режим поддержки DPI</th>
-<th>Windows Представленная версия</th>
-<th>Представление DPI приложения</th>
-<th>Поведение при изменении DPI</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Связан</td>
-<td>н/д</td>
-<td>Все дисплеи имеют 96 точек на дюйм.</td>
-<td>Точечный рисунок-растяжение (размытые)</td>
-</tr>
-<tr class="even">
-<td>Система</td>
-<td>Vista</td>
-<td>Все дисплеи имеют одинаковое разрешение DPI (DPI основного отображения на момент запуска текущего сеанса пользователя).</td>
-<td>Точечный рисунок-растяжение (размытые)</td>
-</tr>
-<tr class="odd">
-<td>Per-Monitor</td>
-<td>8.1</td>
-<td>DPI дисплея, на котором в основном находится окно приложения</td>
-<td><ul>
-<li>HWND верхнего уровня уведомляется об изменении DPI</li>
-<li>Масштабирование элементов пользовательского интерфейса без разрешения.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Per-Monitor V2</td>
-<td>Windows 10 Creators Update (1703)</td>
-<td>DPI дисплея, на котором в основном находится окно приложения</td>
-<td><ul>
-<li>Дескрипторы HWND верхнего уровня <span class="underline">и</span> дочерние окна получают уведомления об изменении dpi</li>
-</ul>
-<br/> <span class="underline">Автоматическое масштабирование в масштабе:</span>
-<ul>
-<li>Неклиентская область</li>
-<li>Отображаемые в теме точечные рисунки в общих элементах управления (Comctl32 V6)</li>
-<li>Диалоговые окна (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">креатедиалог</a>)</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Режим поддержки DPI | Windows Представленная версия | Представление DPI приложения | Поведение при изменении DPI | 
+|--------------------|----------------------------|---------------------------|------------------------|
+| Связан | Недоступно | Все дисплеи имеют 96 точек на дюйм. | Точечный рисунок-растяжение (размытые) | 
+| Система | Vista | Все дисплеи имеют одинаковое разрешение DPI (DPI основного отображения на момент запуска текущего сеанса пользователя). | Точечный рисунок-растяжение (размытые) | 
+| Per-Monitor | 8.1 | DPI дисплея, на котором в основном находится окно приложения | <ul><li>HWND верхнего уровня уведомляется об изменении DPI</li><li>Масштабирование элементов пользовательского интерфейса без разрешения.</li></ul><br /> | 
+| Per-Monitor V2 | Windows 10 Creators Update (1703) | DPI дисплея, на котором в основном находится окно приложения | <ul><li>Дескрипторы HWND верхнего уровня <span class="underline">и</span> дочерние окна получают уведомления об изменении dpi</li></ul><br /><span class="underline">Автоматическое масштабирование в масштабе:</span><ul><li>Неклиентская область</li><li>Отображаемые в теме точечные рисунки в общих элементах управления (Comctl32 V6)</li><li>Диалоговые окна (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">креатедиалог</a>)</li></ul><br /> | 
+
 
 ### <a name="per-monitor-v1-dpi-awareness"></a>Отслеживание количества точек на дюйм (v1)
 
@@ -141,79 +94,17 @@ ms.locfileid: "119036260"
 
 в таблице ниже показан уровень поддержки DPI для каждого монитора, предлагаемый различными платформами Windows пользовательского интерфейса, начиная с Windows 10 1703:
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Платформа и технология</th>
-<th>Поддержка</th>
-<th>Сценарий</th>
-<th>Масштабирование DPI, обрабатываемое</th>
-<th>Дополнительные материалы</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Универсальная платформа Windows (UWP)</td>
-<td>Полное</td>
-<td>1607</td>
-<td>Платформа пользовательского интерфейса</td>
-<td><a href="/windows/uwp/get-started/whats-a-uwp">Универсальная платформа Windows (UWP)</a></td>
-</tr>
-<tr class="even">
-<td>Необработанные элементы управления Win32/Common Controls V6 (comctl32.dll)</td>
-<td><ul>
-<li>Уведомления об изменении DPI, отправленные всем дескрипторам HWND</li>
-<li>Графические ресурсы, рисуемые темами, правильно отображаются в общих элементах управления</li>
-<li>Автоматическое масштабирование точек на дюйм для диалоговых окон</li>
-</ul></td>
-<td>1703</td>
-<td>Приложение</td>
-<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Следующий</a></td>
-</tr>
-<tr class="odd">
-<td>Windows Forms</td>
-<td>Для некоторых элементов управления ограничено автоматическое масштабирование DPI для каждого монитора</td>
-<td>1703</td>
-<td>Платформа пользовательского интерфейса</td>
-<td><a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">поддержка высокого DPI в Windows Forms</a></td>
-</tr>
-<tr class="even">
-<td>Windows Presentation Foundation (WPF)</td>
-<td>В собственных приложениях WPF масштабирование WPF, размещенное в других платформах, и другие платформы, размещенные в WPF, не масштабируются автоматически</td>
-<td>1607</td>
-<td>Платформа пользовательского интерфейса</td>
-<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Следующий</a></td>
-</tr>
-<tr class="odd">
-<td>GDI</td>
-<td>Нет</td>
-<td>Недоступно</td>
-<td>Приложение</td>
-<td>См. раздел <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">масштабирование с высоким разрешением GDI</a></td>
-</tr>
-<tr class="even">
-<td>GDI+</td>
-<td>Нет</td>
-<td>Недоступно</td>
-<td>Приложение</td>
-<td>См. раздел <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">масштабирование с высоким разрешением GDI</a></td>
-</tr>
-<tr class="odd">
-<td>MFC</td>
-<td>Нет</td>
-<td>Недоступно</td>
-<td>Приложение</td>
-<td>н/д</td>
-</tr>
-</tbody>
-</table>
+
+| Платформа и технология | Поддержка | Сценарий | Масштабирование DPI, обрабатываемое | Дополнительные материалы | 
+|------------------------|---------|------------|------------------------|-----------------|
+| Универсальная платформа Windows (UWP) | Полное | 1607 | Платформа пользовательского интерфейса | <a href="/windows/uwp/get-started/whats-a-uwp">Универсальная платформа Windows (UWP)</a> | 
+| Необработанные элементы управления Win32/Common Controls V6 (comctl32.dll) | <ul><li>Уведомления об изменении DPI, отправленные всем дескрипторам HWND</li><li>Графические ресурсы, рисуемые темами, правильно отображаются в общих элементах управления</li><li>Автоматическое масштабирование точек на дюйм для диалоговых окон</li></ul> | 1703 | Развертывание | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Следующий</a> | 
+| Windows Forms | Для некоторых элементов управления ограничено автоматическое масштабирование DPI для каждого монитора | 1703 | Платформа пользовательского интерфейса | <a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">поддержка высокого DPI в Windows Forms</a> | 
+| Windows Presentation Foundation (WPF) | В собственных приложениях WPF масштабирование WPF, размещенное в других платформах, и другие платформы, размещенные в WPF, не масштабируются автоматически | 1607 | Платформа пользовательского интерфейса | <a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Следующий</a> | 
+| GDI | Нет | Недоступно | Развертывание | См. раздел <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">масштабирование с высоким разрешением GDI</a> | 
+| GDI+ | Нет | Недоступно | Развертывание | См. раздел <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">масштабирование с высоким разрешением GDI</a> | 
+| MFC | Нет | Недоступно | Развертывание | Недоступно | 
+
 
 
 
@@ -388,9 +279,9 @@ break;
 
 | Операция                 | Windows 8.1                                  | Windows 10 (1607 и более ранних версий)                | Windows 10 (1703 и более поздние версии)                  |
 |---------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
-| CreateWindow (in-proc)    | н/д                                          | **Дочерние наследуемые** (смешанный режим)              | **Дочерние наследуемые** (смешанный режим)              |
+| CreateWindow (in-proc)    | Недоступно                                          | **Дочерние наследуемые** (смешанный режим)              | **Дочерние наследуемые** (смешанный режим)              |
 | CreateWindow (Cross-proc) | **Принудительный сброс** (для процесса вызывающего объекта)       | **Дочерние наследуемые** (смешанный режим)              | **Принудительный сброс** (для процесса вызывающего объекта)       |
-| Сетпарент (in-proc)       | н/д                                          | **Принудительный сброс** (для текущего процесса)        | **Fail** (ошибка \_ недопустимое \_ состояние)             |
+| Сетпарент (in-proc)       | Недоступно                                          | **Принудительный сброс** (для текущего процесса)        | **Fail** (ошибка \_ недопустимое \_ состояние)             |
 | Сетпарент (Cross-proc)    | **Принудительный сброс** (для процесса дочернего окна) | **Принудительный сброс** (для процесса дочернего окна) | **Принудительный сброс** (для процесса дочернего окна) |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aa8fd3a6b082d4bba54fdc3d43848d6a6cbe5ff6deacb4e041dba5cb4c0e3b09
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9e4db4db1940da3f8df26eb0151344eef99e0de2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931464"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623110"
 ---
 # <a name="contextmap-element"></a>Контекстмап, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "119931464"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -198,7 +198,7 @@ ms.locfileid: "119931464"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

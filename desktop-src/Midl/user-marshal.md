@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5326c9390362193a1be9dc06ee3a57f174474cc2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3f17b4ef9d4376309307403ee12e2c5aae507556beaf091f9d742998d18671a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104337025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105574"
 ---
 # <a name="user_marshal-attribute"></a>Пользовательский \_ атрибут маршалирования
 
@@ -88,7 +88,7 @@ void __RPC_USER  < userm_type >_UserFree(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый именованный локальный тип *усерм-Type* имеет корреспонденцию "один к одному" с *типом связи* "канал", который определяет прямое представление типа. Необходимо предоставить подпрограммы для изменения размера данных для маршалирования, маршалирования и распаковки данных, а также для освобождения памяти. Дополнительные сведения об этих подоперациях см. [в описании \_ атрибута User Marshal](/windows/desktop/Rpc/the-user-marshal-attribute). Обратите внимание, что при наличии в данных внедренных типов, которые также определены с помощью **\_ маршалирования пользователя** или \[ [**\[ проводного \_ маршалирования \]**](wire-marshal.md), необходимо также управлять обслуживанием этих внедренных типов.
 
@@ -140,7 +140,7 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
     FOUR_BYTE_DATA __RPC_FAR * pul);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -150,7 +150,7 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [Базовые типы MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**поддерживаем**](long.md)
+[**long**](long.md)
 </dt> <dt>
 
 [**представлять \_ как**](represent-as.md)
@@ -168,6 +168,6 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [**ндржетусермаршалинфо**](/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

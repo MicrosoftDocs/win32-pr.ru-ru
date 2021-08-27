@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: afa9de8ecb598c76daee56367cc9f3ee80a0d0a43f706d11d2eaaa33cd814f76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e6235287d2d87bf6fe1bd79c13813e6bb8500bc3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118282313"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622170"
 ---
 # <a name="span-idvspixenginepixenginehistogramspanpixenginehistogram-structure"></a><span id="vspixengine.pixenginehistogram"></span>Структура Пиксенгинехистограм
 
@@ -35,7 +35,7 @@ ms.locfileid: "118282313"
 } PixEngineHistogram;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **хоризонталмин**  
 Минимальное значение для каждого из компонентов X, Y, Z и W в горизонтальной оси (домене) гистограммы.
@@ -54,7 +54,7 @@ ms.locfileid: "118282313"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 82b5fac0cc59e9a0511344e72b3f316af9013965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 455b46465733a906b879dcedc4b5a2f4e6ef1f9e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105650494"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472480"
 ---
 # <a name="meta-parameters"></a>Параметры Meta
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="meta-parameters"></a>Параметры Meta
 
@@ -45,128 +45,37 @@ JET_paramConfiguration
 
 При небольшой конфигурации по умолчанию для следующих системных параметров задаются указанные значения:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Системный параметр</p></th>
-<th><p>Новое значение по умолчанию</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_paramMaxSessions</p></td>
-<td><p>30 000</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxOpenTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxCursors</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxTemporaryTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLogFileSize</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogBuffers</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDbExtensionSize</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageTempDBMin</p></td>
-<td><p>14</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramCacheSizeMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointDepthMax</p></td>
-<td><p>65536</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLRUKHistoryMax</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramOutstandingIOMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramStartFlushThreshold</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramStopFlushThreshold</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramNoInformationEvent</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCacheSizeMin</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramPreferredVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogFileCreateAsynch</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramGlobalMinVerPages</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageHintCacheSize</p></td>
-<td><p>32</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDisablePerfmon</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramEnableFileCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableViewCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramVerPageSize</p></td>
-<td><p>1024</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableAdvanced</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointIOMax</p></td>
-<td><p>8</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Системный параметр</p> | <p>Новое значение по умолчанию</p> | 
+|-------------------------|--------------------------|
+| <p>JET_paramMaxSessions</p> | <p>30 000</p> | 
+| <p>JET_paramMaxOpenTables</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxCursors</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxTemporaryTables</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileSize</p> | <p>64</p> | 
+| <p>JET_paramLogBuffers</p> | <p>1</p> | 
+| <p>JET_paramDbExtensionSize</p> | <p>16</p> | 
+| <p>JET_paramPageTempDBMin</p> | <p>14</p> | 
+| <p>JET_paramCacheSizeMax</p> | <p>16</p> | 
+| <p>JET_paramCheckpointDepthMax</p> | <p>65536</p> | 
+| <p>JET_paramLRUKHistoryMax</p> | <p>10</p> | 
+| <p>JET_paramOutstandingIOMax</p> | <p>16</p> | 
+| <p>JET_paramStartFlushThreshold</p> | <p>1</p> | 
+| <p>JET_paramStopFlushThreshold</p> | <p>2</p> | 
+| <p>JET_paramNoInformationEvent</p> | <p>1</p> | 
+| <p>JET_paramCacheSizeMin</p> | <p>16</p> | 
+| <p>JET_paramPreferredVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileCreateAsynch</p> | <p>0</p> | 
+| <p>JET_paramGlobalMinVerPages</p> | <p>1</p> | 
+| <p>JET_paramPageHintCacheSize</p> | <p>32</p> | 
+| <p>JET_paramDisablePerfmon</p> | <p>1</p> | 
+| <p>JET_paramEnableFileCache</p> | <p>1</p> | 
+| <p>JET_paramEnableViewCache</p> | <p>1</p> | 
+| <p>JET_paramVerPageSize</p> | <p>1024</p> | 
+| <p>JET_paramEnableAdvanced</p> | <p>0</p> | 
+| <p>JET_paramCheckpointIOMax</p> | <p>8</p> | 
+
 
 
 Небольшая конфигурация также имеет ряд других изменений в ядре СУБД, в том числе:
@@ -177,58 +86,9 @@ JET_paramConfiguration
 
   - Различные операции обслуживания масштабируются обратно во избежание фонового действия потока.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>1 (устаревший)</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 1</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Начиная с Windows Server 2008 и Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>1 (устаревший)</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 – 1</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Да</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>начиная с Windows Server 2008 и Windows Vista</p> | 
+
 
 
 JET_paramEnableAdvanced  
@@ -317,82 +177,16 @@ JET_paramEnableAdvanced
 
   - JET_paramCheckpointIOMax
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Начиная с Windows Server 2008 и Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>True</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Да</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>начиная с Windows Server 2008 и Windows Vista</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

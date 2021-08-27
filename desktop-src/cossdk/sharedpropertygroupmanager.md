@@ -11,12 +11,12 @@ api_name:
 - SharedPropertyGroupManager
 api_type:
 - COM
-ms.openlocfilehash: 680c5caef996d329e18192193f30841f61f02f27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac05dcc813192a9ea1bf1f1f4e5ad63ed72eca6874de855ac3f4582af51680f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120364"
 ---
 # <a name="sharedpropertygroupmanager-class"></a>Класс Шаредпропертиграупманажер
 
@@ -44,11 +44,11 @@ ms.locfileid: "103895745"
 
 Используйте этот класс для доступа к методам [**ишаредпропертиграупманажер**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroupmanager).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы создать этот объект, вызовите метод [**иобжектконтекст:: CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance).
 
-Чтобы использовать этот класс из Visual Basic Майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Шаредпропертиграупманажер можно объявить с помощью "Комсвкслиб. Шаредпропертиграупманажер" в качестве имени класса.
+чтобы использовать этот класс из Visual Basic майкрософт, добавьте ссылку на библиотеку типов служб COM+. Объект Шаредпропертиграупманажер можно объявить с помощью "Комсвкслиб. Шаредпропертиграупманажер" в качестве имени класса.
 
 ## <a name="requirements"></a>Требования
 
@@ -62,7 +62,7 @@ ms.locfileid: "103895745"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

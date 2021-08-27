@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cef30d012c28c809bb35d59a82fd596ba69bd175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da5c999f9fcec38878f339cfb2a927c2be2e5b70
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103808428"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479030"
 ---
 # <a name="jetossnapshottruncateloginstance-function"></a>Функция Жетосснапшоттрункателогинстанце
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetossnapshottruncateloginstance-function"></a>Функция Жетосснапшоттрункателогинстанце
 
 Функция **жетосснапшоттрункателогинстанце** усекает журнал для указанного экземпляра во время сеанса моментального снимка.
 
-**Windows Vista:**  **Жетосснапшоттрункателогинстанце** появился в Windows Vista.
+**Windows vista:****жетосснапшоттрункателогинстанце** появился в Windows Vista.  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotTruncateLogInstance(
@@ -60,64 +60,25 @@ _**Применимо к:** Windows | Windows Server_
 
 *грбит* может иметь одно из следующих значений:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitAllDatabasesSnapshot</p></td>
-<td><p>Все базы данных подключены, поэтому подсистема хранилища может вычислять и выполнять усечение журнала.</p></td>
-</tr>
-<tr class="even">
-<td><p>Ноль (0)</p></td>
-<td><p>Усечение не выполняется.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitAllDatabasesSnapshot</p> | <p>Все базы данных подключены, поэтому подсистема хранилища может вычислять и выполнять усечение журнала.</p> | 
+| <p>0 (ноль)</p> | <p>Усечение не выполняется.</p> | 
+
 
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Недопустимый параметр <em>грбит</em> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>Сеанс моментального снимка не находится в состоянии, в котором может произойти усечение. Возможные причины:</p>
-<ul>
-<li><p>Вызов завершается после истечения времени ожидания сеанса моментального снимка.</p></li>
-<li><p>Сеанс был указан в качестве моментального снимка копии.</p></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errInvalidGrbit</p> | <p>Недопустимый параметр <em>грбит</em> .</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>Сеанс моментального снимка не находится в состоянии, в котором может произойти усечение. Возможные причины:</p><ul><li><p>Вызов завершается после истечения времени ожидания сеанса моментального снимка.</p></li><li><p>Сеанс был указан в качестве моментального снимка копии.</p></li></ul> | 
+
 
 
 Если эта функция выполнена, файлы журнала для одного или всех экземпляров, которые являются частью сеанса моментального снимка, будут обрезаны, если это возможно.
@@ -128,40 +89,15 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows Server 2008.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:
 
 [Параметры обработки ошибок](./error-handling-parameters.md)  
-[Ошибки расширяемого подсистемы хранилища](./extensible-storage-engine-errors.md)  
+[ошибки расширенного обработчика служба хранилища](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [жетосснапшотенд](./jetossnapshotend-function.md)  
 [жетосснапшотфризе](./jetossnapshotfreeze-function.md)  

@@ -12,12 +12,12 @@ keywords:
 - типы элементов управления, панель приложений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7067e73d9f38ba62893d6ba2746f8f84c846daf1a90f63b6e72bd09337f47a1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3fc8cf562b125267e9b35239e8490f11ed6ae830
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826449"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472890"
 ---
 # <a name="appbar-control-type"></a>Тип элемента управления панель приложений
 
@@ -41,36 +41,11 @@ ms.locfileid: "118826449"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>AppBar
-<ul>
-<li>Button (0 или более)</li>
-<li>Другие элементы управления (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Неприменимо
-<ul>
-<li>Button (0 или более)</li>
-<li>Другие элементы управления (0 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>AppBar<ul><li>Button (0 или более)</li><li>Другие элементы управления (0 или более)</li></ul></li></ul> | <ul><li>Неприменимо<ul><li>Button (0 или более)</li><li>Другие элементы управления (0 или более)</li></ul></li></ul> | 
+
 
 
 

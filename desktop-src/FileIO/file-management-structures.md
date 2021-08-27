@@ -4,12 +4,12 @@ ms.assetid: 406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9
 title: Структуры управления файлами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044780e5fe9f719e699f1c0a1f929d08ba3200f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4636a1dafa16a698a5b3ab1ddaff7de5c54d5b7d81da337c1c3d9707be79158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107484"
 ---
 # <a name="file-management-structures"></a>Структуры управления файлами
 
@@ -27,7 +27,7 @@ ms.locfileid: "104155926"
 | [**\_Расширенные \_ Параметры CREATEFILE2**](/windows/desktop/api/FileAPI/ns-fileapi-createfile2_extended_parameters)<br/>           | Содержит дополнительные расширенные параметры для [**CreateFile2**](/windows/desktop/api/FileAPI/nf-fileapi-createfile2).<br/>                                                                                                                                             |
 | [**\_параметр элемента управления CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_control_param)<br/>                                       | Представляет тип операции управления CSV.<br/>                                                                                                                                                                               |
 | [**\_ \_ Редакция файла запроса \_ CSV**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_file_revision)<br/>                          | Содержит сведения о том, были ли изменены файлы в потоке.<br/>                                                                                                                                                  |
-| [**\_ \_ \_ путь к файлу CSV запрос к MDS**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_mds_path)<br/>                                    | Содержит путь, используемый в CSV для обмена данными с MDS.<br/>                                                                                                                                                          |
+| [**\_ \_ путь MDS CSV-запроса \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_mds_path)<br/>                                    | Содержит путь, используемый в CSV для обмена данными с MDS.<br/>                                                                                                                                                          |
 | [**\_ \_ состояние перенаправления запроса CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_redirect_state)<br/>                        | Содержит сведения о том, были ли перенаправлены файлы в потоке.<br/>                                                                                                                                                |
 | [**ДУБЛИРОВАНие \_ данных экстентов \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-duplicate_extents_data)<br/>                             | Содержит параметры для управляющего кода [**\_ повторяющихся \_ экстентов фсктл**](/windows/win32/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file) , выполняющего операцию [клонирования блока](block-cloning.md) .<br/>                                             |
 | [**\_BLOB- \_ объект сертификата EFS**](/windows/win32/api/winefs/ns-winefs-efs_certificate_blob)<br/>                             | Содержит сертификат.<br/>                                                                                                                                                                                                   |

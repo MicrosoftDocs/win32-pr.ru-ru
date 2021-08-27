@@ -4,12 +4,12 @@ ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Управление сеансами трассировки событий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b03f1917354679e7a68f9dbd001fc3aa10f09db0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5970eb160812991677aac775af60d08458c269152edca4aa2e30cdf30c111d96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104984520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130664"
 ---
 # <a name="controlling-event-tracing-sessions"></a>Управление сеансами трассировки событий
 
@@ -28,7 +28,7 @@ ms.locfileid: "104984520"
 
 Управлять сеансами трассировки событий могут только пользователи, работающие с повышенными правами администратора, пользователи из группы "Пользователи журналов производительности" и приложения, работающие в качестве LocalSystem, LocalService или NetworkService. Чтобы предоставить ограниченному пользователю возможность управлять сеансами трассировки, добавьте их в группу "Пользователи журнала производительности".
 
-**Windows XP и windows 2000:** Любой пользователь может управлять сеансом трассировки.
+**Windows XP и Windows 2000:** Любой пользователь может управлять сеансом трассировки.
 
  
 

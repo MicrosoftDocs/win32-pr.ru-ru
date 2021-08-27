@@ -4,12 +4,12 @@ ms.assetid: c3047706-affd-4feb-9d48-cfb4c7dd6fa0
 title: Элемент Margin
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ff764585919ff144ebc25ac568caf1af74410a2f337beb03d5ce484f7d1abe
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 78c264c2470d070353d1fd19340a161cf765bc05
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119350444"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478670"
 ---
 # <a name="margin-element"></a>Элемент Margin
 
@@ -38,65 +38,14 @@ ms.locfileid: "119350444"
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Тип</th>
-<th>Обязательно</th>
-<th>Описание</th>
-<th>Возможные значения</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Стиль</strong></td>
-<td><a href="linelayoutstyletype-simple-type.md"><strong>Линелайаутстилетипе</strong></a> simpleType</td>
-<td>Обязательно</td>
-<td>Указывает тип рисуемой линии.</td>
-<td><ul>
-<li>Нет</li>
-<li>Сплошная</li>
-<li>Штрих</li>
-<li>Точки</li>
-<li>DashDot</li>
-<li>DashDotDot</li>
-<li>Тип Double</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Цвет</strong></td>
-<td><a href="colortype-simple-type.md"><strong>Колортипе</strong></a> simpleType</td>
-<td>Необязательный</td>
-<td>Цвет элемента.</td>
-<td>Шестнадцатеричное значение RGB. Соответствует следующему регулярному выражению: # [0-9a-zA-Z] {6} . Например, #4a79B5.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Тип</strong></td>
-<td><a href="margintypetype-simple-type.md"><strong>Маргинтипетипе</strong></a> simpleType</td>
-<td>Необязательный</td>
-<td>Показывает левое или правое поле.</td>
-<td><ul>
-<li>Левый</li>
-<li>Правый</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Интервал</strong></td>
-<td><strong>xs:nonNegativeInteger</strong></td>
-<td>Необязательный</td>
-<td>Интервал между границами страницы и поля.</td>
-<td>Любое неотрицательное целое число.</td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Тип | Обязательно | Описание | Возможные значения | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Стиль</strong> | <a href="linelayoutstyletype-simple-type.md"><strong>Линелайаутстилетипе</strong></a> simpleType | Обязательно | Указывает тип рисуемой линии. | <ul><li>None</li><li>Сплошная</li><li>Штрих</li><li>Точки</li><li>DashDot</li><li>DashDotDot</li><li>Тип Double</li></ul> | 
+| <strong>Цвет</strong> | <a href="colortype-simple-type.md"><strong>Колортипе</strong></a> simpleType | Необязательно | Цвет элемента. | Шестнадцатеричное значение RGB. Соответствует следующему регулярному выражению: # [0-9a-zA-Z] {6} . Например, #4a79B5.<br /> | 
+| <strong>Тип</strong> | <a href="margintypetype-simple-type.md"><strong>Маргинтипетипе</strong></a> simpleType | Необязательно | Показывает левое или правое поле. | <ul><li>Левый</li><li>Правый</li></ul> | 
+| <strong>Интервал</strong> | <strong>xs:nonNegativeInteger</strong> | Необязательно | Интервал между границами страницы и поля. | Любое неотрицательное целое число. | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 28bd13d9-ff5c-456e-ab98-d2ff3a499f1c
 title: Основные понятия пула приложений COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a72f5681896e8ac0e6a50b3bddfc16cf4303f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e9aab46350e3c6084c0d5e8ca61d2f3c90d27e06795f7d08568ee4a7c1e0fc26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096914"
 ---
 # <a name="com-application-pooling-concepts"></a>Основные понятия пула приложений COM+
 
@@ -26,7 +26,7 @@ ms.locfileid: "103895642"
 
 Если свойство Конкуррентаппс имеет значение 1, которое является значением по умолчанию, служба пулов приложений COM+ отключена.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

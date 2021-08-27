@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: a51e35fff74ab1d0251d64578de665ad4134a843
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105710299"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812890"
 ---
 # <a name="core-interfaces"></a>Базовые интерфейсы
 
@@ -33,6 +33,9 @@ ms.locfileid: "105710299"
 | [**ID3D12Device4**](/windows/win32/api/d3d12/nn-d3d12-id3d12device4) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device3](/windows/win32/api/d3d12/nn-d3d12-id3d12device3). |
 | [**ID3D12Device5**](/windows/win32/api/d3d12/nn-d3d12-id3d12device5) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4). |
 | [**ID3D12Device6**](/windows/win32/api/d3d12/nn-d3d12-id3d12device6) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12device5). |
+| [**ID3D12Device7**](/windows/win32/api/d3d12/nn-d3d12-id3d12device7) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device6](/windows/win32/api/d3d12/nn-d3d12-id3d12device6). |
+| [**ID3D12Device8**](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device7](/windows/win32/api/d3d12/nn-d3d12-id3d12device7). |
+| [**ID3D12Device9**](/windows/win32/api/d3d12/nn-d3d12-id3d12device9) | Представляет виртуальный адаптер. Этот интерфейс расширяет [ID3D12Device8](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) , добавляя методы для управления кэшами шейдеров. |
 | [**ID3D12DeviceChild**](/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild) | Интерфейс, от которого наследуются другие базовые интерфейсы, включая [**ID3D12PipelineLibrary**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary), [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist), [**ID3D12Pageable**](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable)и [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature). Он предоставляет метод для возврата к объекту устройства, для которого он был создан. |
 | [**ID3D12DeviceRemovedExtendedData**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata) | Предоставляет доступ среды выполнения к удаленным устройствам данных расширенных данных (НАПРАВЛЯТЬ). |
 | [**ID3D12DeviceRemovedExtendedDataSettings**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings) | Этот интерфейс управляет устройствами, удаленными с параметрами расширенных данных (НАПРАВЛЯТЬ). |
@@ -56,12 +59,13 @@ ms.locfileid: "105710299"
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | Инкапсулирует обобщенные возможности ЦП и GPU для чтения и записи в физическую память или кучи. Он содержит абстракции для Организации и управления простыми массивами данных, а также многомерные данные, оптимизированные для выборки шейдера. |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | Корневая подпись определяет, какие ресурсы привязаны к графическому конвейеру. Корневая подпись настраивается приложением и связывает списки команд с ресурсами, которые требуются шейдеру. В настоящее время для каждого приложения существует одна графика и одна из корневых подписей вычислений. |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | Содержит метод, возвращающий десериализованную структуру данных [**D3D12-root-Signature-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) для сериализованной корневой сигнатуры версии 1,0.  |
+| [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | Представляет сеанс кэша шейдера. |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | Представляет переменный объем состояния конфигурации, включая шейдеры, которые приложение управляет как единое целое и которое предоставляется драйверу для атомарного выполнения, например для компиляции или оптимизации.  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | Предоставляет методы для получения и установки свойств объекта [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject).  |
 | [**ID3D12Tools**](/windows/win32/api/d3d12/nn-d3d12-id3d12tools) | Этот интерфейс используется для настройки среды выполнения для таких средств, как PIX. Он не предназначен для любого другого сценария или не поддерживается. |
 | [**ID3D12VersionedRootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12versionedrootsignaturedeserializer) | Содержит методы для возврата десериализованной структуры данных [**D3D12-root-Signature-DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc1) для любой версии сериализованной корневой сигнатуры.  |
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 * [Справочник по коду](direct3d-12-core-reference.md)
 * [Справочник по Direct3D 12](direct3d-12-reference.md)

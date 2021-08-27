@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 104e764725213f7030c90a0240641c7c9b063785
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 39be8828cf3ea0fbf773965db7272d566d43546b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990063"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626530"
 ---
 # <a name="span-idvspixenginepackedcallpkgspanpackedcallpkg-structure"></a><span id="vspixengine.packedcallpkg"></span>Структура Паккедкаллпкг
 
@@ -40,7 +40,7 @@ typedef struct PackedCallPkg {
 } PackedCallPkg;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **pcp1**  
 Первый вызов в пакете.
@@ -56,7 +56,7 @@ typedef struct PackedCallPkg {
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: d687ecd3-9ad6-46d5-b927-d9b99af2002f
 title: Просмотр сведений о топологии
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78fd1d7d28de3d7fa5420241abf793295323532dca29d3d68d1271545aa460dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bf29f28ac419da7df14d90efb50919634d7409b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237376"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468011"
 ---
 # <a name="viewing-topology-information"></a>Просмотр сведений о топологии
 
@@ -19,41 +19,13 @@ ms.locfileid: "118237376"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Элемент топологии</th>
-<th>Атрибуты</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Узлы топологии</td>
-<td><ul>
-<li><a href="topology-node-attributes.md">Атрибуты узла топологии</a> для всех узлов.<br/></li>
-<li><a href="presentation-descriptor-attributes.md">Атрибуты дескриптора представления</a> только для исходных узлов.<br/></li>
-<li>Входные и выходные данные доверенной центра для преобразованных и выходных узлов.<br/></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Входные данные узла</td>
-<td><ul>
-<li><a href="media-type-attributes.md">Атрибуты типа мультимедиа</a> для всех узлов.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Выходные данные узла</td>
-<td><ul>
-<li><a href="stream-descriptor-attributes.md">Атрибуты дескриптора потока</a> только для исходных узлов.<br/></li>
-<li><a href="media-type-attributes.md">Атрибуты типа мультимедиа</a> для всех узлов.<br/></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Элемент топологии | Атрибуты | 
+|---------------|------------|
+| Узлы топологии | <ul><li><a href="topology-node-attributes.md">Атрибуты узла топологии</a> для всех узлов.<br /></li><li><a href="presentation-descriptor-attributes.md">Атрибуты дескриптора представления</a> только для исходных узлов.<br /></li><li>Входные и выходные данные доверенной центра для преобразованных и выходных узлов.<br /></li></ul> | 
+| Входные данные узла | <ul><li><a href="media-type-attributes.md">Атрибуты типа мультимедиа</a> для всех узлов.</li></ul> | 
+| Выходные данные узла | <ul><li><a href="stream-descriptor-attributes.md">Атрибуты дескриптора потока</a> только для исходных узлов.<br /></li><li><a href="media-type-attributes.md">Атрибуты типа мультимедиа</a> для всех узлов.<br /></li></ul> | 
+
 
 
 

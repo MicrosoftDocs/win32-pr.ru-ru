@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aea061990a6d3bd52a98dc9101102059767ecf9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fd0b6bd67c4814b8729eaa2b44e0f521923133d33b101b3d1c99aa74aaa4744e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104142340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064512"
 ---
 # <a name="rename-method-of-the-cim_datafile-class"></a>Метод Rename класса CIM \_ File
 
@@ -153,13 +153,13 @@ uint32 Rename(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **Rename** в [**CIM- \_ файле**](cim-datafile.md) реализуется инструментарием WMI.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -173,7 +173,7 @@ uint32 Rename(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

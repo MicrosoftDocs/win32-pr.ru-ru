@@ -3,17 +3,17 @@ title: MetadataImportWithX509OverSslExample
 description: В этом примере показано, как импортировать метаданные из конечной точки, поддерживающей использование токена X509, используя \_ \_ привязку безопасности сообщений токена WS-XML \_ \_ \_ с \_ \_ \_ привязкой безопасности транспорта WS SSL \_ .
 ms.assetid: 9dbeea65-1752-4fe1-b425-f622e24acef0
 keywords:
-- API веб-служб Windows MetadataImportWithX509OverSslExample
+- API веб-служб MetadataImportWithX509OverSslExample Windows
 - ввсапи
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ff6ca4c24b05a3c5757d1d82788e7acc8175e9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7b342b3de02a4cbe098276fc20776bb7ed15baa2cb5c1684a1a6c7e8d30cfb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103774480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109874"
 ---
 # <a name="metadataimportwithx509oversslexample"></a>MetadataImportWithX509OverSslExample
 
@@ -583,7 +583,7 @@ Exit:
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -593,9 +593,9 @@ Exit:
 [**\_ \_ \_ Привязка безопасности транспорта WS \_ SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

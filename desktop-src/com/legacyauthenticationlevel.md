@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Легациаусентикатионлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d87d808287418f635629e15324f2f517619be6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae6be9f562a543e4750695ec2bf967b5a261209aae70d0bf91269bc2a074a9e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104068624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096954"
 ---
 # <a name="legacyauthenticationlevel"></a>легациаусентикатионлевел
 
@@ -20,16 +20,16 @@ ms.locfileid: "104068624"
 > [!Caution]  
 > Не рекомендуется изменять это значение, так как это повлияет на все серверные приложения COM, не устанавливающие собственный уровень безопасности на уровне процесса, и может препятствовать их правильной работе. Если вы изменяете это значение, чтобы оно влияло на параметры безопасности для конкретного приложения COM, вместо этого следует изменить параметры безопасности для этого конкретного COM-приложения. Дополнительные сведения о настройке безопасности на уровне процесса см. в разделе [Настройка безопасности на уровне процесса](setting-processwide-security.md).
 
- 
+ 
 
 ## <a name="registry-entry"></a>Запись реестра
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   LegacyAuthenticationLevel = value
+   LegacyAuthenticationLevel = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **\_ слова reg** , эквивалентное \_ \_ \_ константам уровня RPC C AUTHN.
 
@@ -46,11 +46,11 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 
 
 
- 
+ 
 
 Если это значение реестра отсутствует, уровень проверки подлинности по умолчанию, установленный системой, — 2 (RPC \_ C \_ AUTHN \_ Connect).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -63,9 +63,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
 [Настройка безопасности на уровне процесса](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

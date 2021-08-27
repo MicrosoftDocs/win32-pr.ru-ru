@@ -4,12 +4,12 @@ ms.assetid: bd8af2fc-7ae6-398a-0062-82090705e383
 title: Константы ФКСЕЧО (КСАПОФКС. Высоты
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89ec45ca2d808ac11e5ac78ade2e1c03d6f62f2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75f32a526b5bb524145b6a80dfeeebaa50663f74f7f99780e44191f542bdaf43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109644"
 ---
 # <a name="fxecho-constants"></a>Константы ФКСЕЧО
 
@@ -31,11 +31,11 @@ ms.locfileid: "105708428"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
+Windows 10 (ксаудио 2.9); Windows 8, Windows Phone 8 (ксаудио 2,8); Пакет SDK для DirectX (Ксаудио 2,7)
 
 ## <a name="requirements"></a>Требования
 
@@ -43,11 +43,11 @@ Windows 10 (Ксаудио 2.9); Windows 8, Windows Phone 8 (Ксаудио 2,8)
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>КСАПОФКС. Высоты</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>КСАПОФКС. Высоты</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

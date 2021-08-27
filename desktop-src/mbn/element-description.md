@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d0453a7fdf5bb7253b1d2abd063b98a7964c4c8e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 7171d30cfe02509619a56d7d986487adab5b5cae
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880235"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478210"
 ---
 # <a name="description-mobile-broadband"></a>Описание (мобильное широкополосное подключение)
 
@@ -29,8 +29,8 @@ ms.locfileid: "122880235"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;Описание&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<Description>**
 
 ## <a name="syntax"></a>Синтаксис
 
