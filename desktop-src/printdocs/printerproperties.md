@@ -14,12 +14,12 @@ api_type:
 api_location:
 - plotui.dll
 - winspool.drv
-ms.openlocfilehash: e7e2c8586c06b2cb64a0e499bd05a6b6016de0a6
-ms.sourcegitcommit: c77ed4d933c9f30af0ca0e095a75ad2bdd4d8bf8
+ms.openlocfilehash: 1b180685154328ad29b9418e1f8d10707067f633d646571ec5ff5fb1dd03a45a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106011184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091734"
 ---
 # <a name="printerproperties-function"></a>Функция Принтерпропертиес
 
@@ -76,7 +76,7 @@ BOOL PrinterProperties(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Винспул. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>винспул. drv</dt> </dl>                     |
 

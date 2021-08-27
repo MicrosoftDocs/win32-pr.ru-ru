@@ -4,12 +4,12 @@ ms.assetid: 6ab4f33a-5247-4706-95c9-39c84ef2aa56
 title: System. Експандопропертиес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b16cf94a7e670dd498fb65acfb01f09a83fa9502
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c02abc4f1ebf38ce2f9730c08b8b91a32e6148270ce484b3cd0ae1e171d4427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091264"
 ---
 # <a name="systemexpandoproperties"></a>System. Експандопропертиес
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

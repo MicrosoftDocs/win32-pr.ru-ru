@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Perfstruct.h
-ms.openlocfilehash: ee2d944d086f9c1a4ea7944f023321dfbc06d547
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49cc76f4db1a5fae76678ee2d81f3e2fff0a6c5ca3d5c5532adebaec23f48215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050714"
 ---
 # <a name="perfinfo_dshow_avrend-structure"></a>\_ \_ Структура авренд перфинфо DSHOW
 
@@ -64,27 +64,27 @@ typedef struct PERFINFO_DSHOW_AVREND {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Чтобы включить это событие, необходимо задать \_ флаг дксмперф видеоренд в параметре *енаблефлаг* при вызове **енаблетраце**. Этот флаг определен в файле заголовка Дксмперф. h, который включен в базовые классы DirectShow.
+Чтобы включить это событие, необходимо задать \_ флаг дксмперф видеоренд в параметре *енаблефлаг* при вызове **енаблетраце**. этот флаг определен в файле заголовка дксмперф. h, который включен в DirectShow базовых классов.
 
-Чтобы заносить это событие из фильтра DirectShow, используйте макрос **перфлог \_ видеоренд** , который определен в дксмперф. h.
+чтобы заносить это событие из фильтра DirectShow, используйте макрос **перфлог \_ видеоренд** , который определен в дксмперф. h.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Перфструкт. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Перфструкт. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Структуры DirectShow](directshow-structures.md)
+[DirectShow Сотрудник](directshow-structures.md)
 </dt> <dt>
 
 [Трассировка событий в DirectShow](event-tracing-in-directshow.md)

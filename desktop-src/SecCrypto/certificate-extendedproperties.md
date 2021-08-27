@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 64059e24fb4df7e2d6b7ee50b35a8c642f32d382
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83f5f4960a8e679ae675a4cc6326b94a13efe4192c272b7cbf57053c3eb19b28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127064"
 ---
 # <a name="icertificate2extendedproperties-method"></a>Метод ICertificate2:: расширенных свойств
 

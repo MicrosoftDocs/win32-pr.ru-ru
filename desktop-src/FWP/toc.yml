@@ -1,9 +1,9 @@
 - name: Платформа фильтрации Windows
   href: windows-filtering-platform-start-page.md
   items:
-    - name: Новые возможности платформы фильтрации Windows
+    - name: новые возможности платформы фильтрации Windows
       href: what-s-new-in-windows-filtering-platform.md
-    - name: О платформе фильтрации Windows
+    - name: сведения о платформе фильтрации Windows
       href: about-windows-filtering-platform.md
       items:
         - name: Архитектура WFP
@@ -29,7 +29,7 @@
         - name: Конфигурация WFP
           href: wfp-configuration.md
           items:
-            - name: Управление доступом
+            - name: Контроль доступа
               href: access-control.md
             - name: Назначение весов фильтрам
               href: filter-weight-assignment.md
@@ -44,7 +44,7 @@
               href: ale-multicast-broadcast-traffic.md
             - name: Повторная авторизация ALE
               href: ale-re-authorization.md
-            - name: Настройка потока ALE
+            - name: настройка Flow ALE
               href: ale-flow-customization.md
         - name: Конфигурация IPsec
           href: ipsec-configuration.md
@@ -55,11 +55,11 @@
               href: negotiation-discovery-transport-mode.md
             - name: Транспортный режим обнаружения согласований в режиме границ
               href: negotiation-discovery-transport-mode-in-boundary-mode.md
-            - name: Туннельный режим
+            - name: Tunnel Режима
               href: tunnel-mode.md
             - name: Гарантированное шифрование
               href: guaranteed-encryption.md
-            - name: Удаленная авторизация идентификации
+            - name: Удаленная авторизация идентификатора
               href: remote-identity-authorization.md
             - name: SA вручную
               href: manual-ipsec-sas.md
@@ -74,7 +74,7 @@
               href: logging.md
             - name: Уведомления об изменениях
               href: change-notifications.md
-    - name: Использование платформы фильтрации Windows
+    - name: использование платформы фильтрации Windows
       href: using-windows-filtering-platform.md
       items:
         - name: Приступая к работе
@@ -118,13 +118,13 @@
           items:
             - name: Использование транспортного режима
               href: using-transport-mode.md
-            - name: Использование режима туннелирования
+            - name: использование режима Tunnel
               href: using-tunnel-mode.md
             - name: Ключ SA вручную
               href: manual-sa-keying.md
-        - name: Рекомендации
+        - name: Советы и рекомендации
           href: best-practices.md
-    - name: Справочник по API платформы фильтрации Windows
+    - name: Windows Справочник по API платформы фильтрации
       href: fwp-reference.md
       items:
         - name: Константы WFP

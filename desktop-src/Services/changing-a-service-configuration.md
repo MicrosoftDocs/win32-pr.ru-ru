@@ -4,12 +4,12 @@ ms.assetid: 79aa4ad5-87ee-4f5d-9c8e-4e788f4c7182
 title: Изменение конфигурации служб
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7afffcb896e7732536ad308ccd54f0ae1f0a05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88cb7fe3739e1ff6cc47a548f5a40111c2383c27f2da34496e3038acbe835a4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104346525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126464"
 ---
 # <a name="changing-a-services-configuration"></a>Изменение конфигурации службы
 
@@ -213,11 +213,11 @@ VOID __stdcall DoUpdateSvcDesc()
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[Конфигурация службы](service-configuration.md)
+[Конфигурация службы.](service-configuration.md)
 </dt> <dt>
 
 [Полный пример службы](the-complete-service-sample.md)

@@ -1,17 +1,17 @@
 ---
-description: Время в службах редактирования DirectShow
+description: время в DirectShow службы редактирования
 ms.assetid: 4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09
-title: Время в службах редактирования DirectShow
+title: время в DirectShow службы редактирования
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421831742a2805f58d61c2258dad89d339131f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc99ff2391ea7975daed7b4152e869741f9990561417131942c4d86e904fca8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105674443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083632"
 ---
-# <a name="time-in-directshow-editing-services"></a>Время в службах редактирования DirectShow
+# <a name="time-in-directshow-editing-services"></a>время в DirectShow службы редактирования
 
 \[Этот API не поддерживается и может быть изменен или недоступен в будущем.\]
 
@@ -21,7 +21,7 @@ ms.locfileid: "105674443"
 -   Клипы, переходы и эффекты отображаются в определенном времени в проекте.
 -   Видео имеет частоту кадров, выраженную в кадрах в секунду (кадров/с).
 
-[Службы редактирования данных DirectShow](directshow-editing-services.md) (DES) предоставляют различные методы, которые устанавливают или извлекают время и частоту кадров. Значение этих значений зависит от контекста.
+[службы DirectShow editing Services](directshow-editing-services.md) (DES) предоставляют различные методы, которые устанавливают или извлекают время и частоту кадров. Значение этих значений зависит от контекста.
 
 **Значения времени**
 
@@ -65,11 +65,11 @@ ms.locfileid: "105674443"
 
 Однако DES не перезаписывает время окончания источника. Позже вы можете изменить частоту кадров группы или переместить источник в новое место на временной шкале, где оно округляется по-другому. Таким образом, DES сохраняет исходное время окончания и округляет только при необходимости. Дополнительные сведения см. в разделе [**иамтимелинеобж:: фикстимес**](iamtimelineobj-fixtimes.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[начало работы с помощью служб редактирования DirectShow](getting-started-with-directshow-editing-services.md)
+[начало работы с DirectShow служб редактирования](getting-started-with-directshow-editing-services.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 94d4ce86-9d60-4fd4-ab01-851dc073680b
 title: Использование децимации для оптимизации смешанной производительности
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e9e4ddfe3bbba3eb5eeab91b7cf0e8b9cbfa03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2218566ab31d159f6d0ab74320aa45eb5780bdc3de151de8a7c642016441bacf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103911076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049623"
 ---
 # <a name="using-decimation-to-optimize-mixing-performance"></a>Использование децимации для оптимизации смешанной производительности
 
@@ -28,7 +28,7 @@ ms.locfileid: "103911076"
 
 Перед подключением VMR необходимо вызвать метод **сетмиксингпрефс** . Флаги предпочтений смешивание нельзя изменить после выполнения графа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -3,7 +3,7 @@ title: Сообщение LVM_SETITEMINDEXSTATE (Коммктрл. h)
 description: Задает состояние элемента представления списка. Отправьте это сообщение явным образом или с помощью \_ макроса Сетитеминдексстате ListView.
 ms.assetid: 9fea6420-320a-4d2a-84b5-7923fbb14655
 keywords:
-- Элементы управления Windows для LVM_SETITEMINDEXSTATE сообщений
+- элементы управления Windows сообщений LVM_SETITEMINDEXSTATE
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ce8f6847c733127053e2162dd785d52fb77cfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18094986f5a57713e842b51b31c74ccfe4987d1c1fe62380ea8a986762e20c7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062214"
 ---
 # <a name="lvm_setitemindexstate-message"></a>\_Сообщение LVM сетитеминдексстате
 
@@ -59,15 +59,15 @@ ms.locfileid: "104071383"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

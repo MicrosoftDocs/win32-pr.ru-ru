@@ -3,8 +3,8 @@ title: Перечисление MPDETECTION_ORIGIN (Мпклиент. h)
 description: Источник обнаружения.
 ms.assetid: 9FEE2FAD-3E44-4134-B968-53E971F6B092
 keywords:
-- MPDETECTION_ORIGIN перечисления устаревшие функции среды Windows
-- PMPDETECTION_ORIGIN указателя перечисления устаревшие функции среды Windows
+- MPDETECTION_ORIGIN перечисления устаревших Windows компонентов среды
+- PMPDETECTION_ORIGINные компоненты среды Windows указателя перечисления
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4224aafef2c72db2a8d3b27f338ca83feaf64f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70b46ed86276ccb3fc3bd4d2b26388d778c102c1c1fa3bb7ced8f1ad64cd0203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105654473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092364"
 ---
 # <a name="mpdetection_origin-enumeration"></a>\_Перечисление источника мпдетектион
 
@@ -88,15 +88,15 @@ typedef enum tagMPDETECTION_ORIGIN {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 
