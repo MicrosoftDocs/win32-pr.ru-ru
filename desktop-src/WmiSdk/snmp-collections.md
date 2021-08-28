@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a85473a394ce715ff9759e974a47824e5621509f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df4926ab89a6bb9a936fe5bdb27f921699bbe90a528842d81de96d8049412940
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105711658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315308"
 ---
 # <a name="snmp-collections"></a>Коллекции SNMP
 
@@ -40,7 +40,7 @@ class SnmpObjectType:SnmpMacro
 };
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При сопоставлении коллекций SNMP с классами CIM применяются следующие правила. Если не указано иное, эти правила применяются как к скалярным, так и к коллекциям таблиц:
 

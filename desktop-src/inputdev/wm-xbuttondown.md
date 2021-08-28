@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 976a5f3d7282853b5267b0b1640a7a95120efbef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4a53ed8c6cfd285927ad3a0be83ce219ece8a203e0e062995c2abb1725042f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716984"
 ---
 # <a name="wm_xbuttondown-message"></a>\_Сообщение КСБУТТОНДОВН WM
 
@@ -87,7 +87,7 @@ ms.locfileid: "104491844"
 
 Если приложение обрабатывает это сообщение, оно должно возвращать **значение true**. Дополнительные сведения об обработке возвращаемого значения см. в разделе "Примечания".
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Используйте следующий код, чтобы получить сведения в параметре *wParam* :
 
@@ -116,7 +116,7 @@ yPos = GET_Y_LPARAM(lParam);
 
  
 
-В отличие от [**сообщений \_ WM лбуттондовн**](wm-lbuttondown.md), [**WM \_ мбуттондовн**](wm-mbuttondown.md)и [**WM \_ рбуттондовн**](wm-rbuttondown.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. Это позволяет программному обеспечению имитировать это сообщение в системах Windows, предшествующих Windows 2000, чтобы определить, обрабатывало ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
+В отличие от [**сообщений \_ WM лбуттондовн**](wm-lbuttondown.md), [**WM \_ мбуттондовн**](wm-mbuttondown.md)и [**WM \_ рбуттондовн**](wm-rbuttondown.md) , приложение должно вернуть **значение true** из этого сообщения, если оно обрабатывает его. это позволяет программному обеспечению имитировать это сообщение в Windows системах, предшествующих Windows 2000, чтобы определить, обрабатывала ли окно сообщение или вызываемое [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) для его обработки.
 
 ## <a name="requirements"></a>Требования
 

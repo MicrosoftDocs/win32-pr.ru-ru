@@ -5,12 +5,12 @@ ms.assetid: 4d11ac02-fa8b-45d7-bceb-a18f561bc928
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af82284b38b2a101c767766d44eb975ff7e1dadc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49a7ebeb25f7f3af69a03c55499dd53a890e540c1a1ed677e7d48e5b11b82b1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105700565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119643234"
 ---
 # <a name="detecting-whether-a-remote-computer-supports-ws-management-protocol"></a>Определение того, поддерживает ли удаленный компьютер протокол WS-Management
 
@@ -74,7 +74,7 @@ WScript.Echo objSession.Identify
 
 
 
-Следующий ответ показывает код XML, возвращаемый удаленным компьютером. Версия протокола WS-Management (" https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd ") и поставщик операционной системы ("Корпорация Майкрософт") указаны в возвращенном XML. Так как сообщение отправляется без проверки подлинности, версия продукта не возвращается службой служба удаленного управления Windows.
+Следующий ответ показывает код XML, возвращаемый удаленным компьютером. Версия протокола WS-Management (" https://schemas.dmtf.org/wbem/wsman/1/wsman.xsd ") и поставщик операционной системы ("Корпорация Майкрософт") указаны в возвращенном XML. так как сообщение отправляется без проверки подлинности, версия продукта не возвращается службой служба удаленного управления Windows.
 
 
 ```XML
@@ -116,22 +116,22 @@ WScript.Echo objSession.Identify
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[О служба удаленного управления Windows](about-windows-remote-management.md)
+[о служба удаленного управления Windows](about-windows-remote-management.md)
 </dt> <dt>
 
-[Использование служба удаленного управления Windows](using-windows-remote-management.md)
+[использование служба удаленного управления Windows](using-windows-remote-management.md)
 </dt> <dt>
 
-[Справочник по служба удаленного управления Windows](windows-remote-management-reference.md)
+[Windows Справочник по удаленному управлению](windows-remote-management-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

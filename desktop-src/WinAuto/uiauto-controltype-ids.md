@@ -52,12 +52,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bbb2e0ada3ad1808fc7ba38321008b46dc358bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d488148497ae95f7b26157b043251e509f72aee577534ccccc07f9766551591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104534748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324968"
 ---
 # <a name="control-type-identifiers"></a>Идентификаторы типов элементов управления
 
@@ -117,8 +117,8 @@ ms.locfileid: "104534748"
 
 | Требование | Значение |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                     |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                            |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                     |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                            |
 | Header<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 

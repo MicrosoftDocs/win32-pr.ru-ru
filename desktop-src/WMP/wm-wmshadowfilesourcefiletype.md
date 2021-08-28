@@ -1,9 +1,9 @@
 ---
-title: WM/Вмшадовфилесаурцефилетипе (пакет SDK для проигрывателя Windows Media)
+title: WM/вмшадовфилесаурцефилетипе (пакет SDK для проигрыватель Windows Media)
 description: WM/Вмшадовфилесаурцефилетипе — это тип файла, содержащегося в теневом файле.
 ms.assetid: 4c4b70b6-0e26-49f3-b7c1-f6e1fe791e48
 keywords:
-- Проигрыватель Windows Media WM/Вмшадовфилесаурцефилетипе
+- проигрыватель Windows Media WM/вмшадовфилесаурцефилетипе
 topic_type:
 - apiref
 api_name:
@@ -12,34 +12,34 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01fc2eb3d91cd05493f98c75d3b7ada3132816ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fecddc4ddaf1d28b464a2d120c5d7fea11779784ed6ec496cdddcb1a09a9ded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000784"
 ---
-# <a name="wmwmshadowfilesourcefiletype-windows-media-player-sdk"></a>WM/Вмшадовфилесаурцефилетипе (пакет SDK для проигрывателя Windows Media)
+# <a name="wmwmshadowfilesourcefiletype-windows-media-player-sdk"></a>WM/вмшадовфилесаурцефилетипе (пакет SDK для проигрыватель Windows Media)
 
 **WM/вмшадовфилесаурцефилетипе** — это тип файла, содержащегося в теневом файле.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Теневым файлом может быть оболочка для исходного файла. Этот атрибут представляет собой строку, содержащую расширение имени файла (без разделителя точек) для исходного файла. Например, если исходный файл является AAC-файлом, этот атрибут содержит строку "AAC".
 
 Теневой файл указывается с помощью атрибута [шадовфилепас](shadowfilepath-attribute.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: Шаблоны (формат файла X, кодировка текста)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fccec46e72a73bb5ed4434fd252595e1b072ad4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e164b92c6c5738ad98b138941b1b2fda6c332068
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103805194"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881023"
 ---
 # <a name="templates-x-file-format-text-encoding"></a>Шаблоны (формат файла X, кодировка текста)
 
@@ -70,7 +70,7 @@ array <data-type> <name>[<dimension-size>];
 
 
 
-<> размера измерения может быть либо целым числом, либо именованной ссылкой на другой элемент шаблона, значение которого затем подставляется. Массивы могут быть n-мерный, где n определяется числом парных квадратных скобок, завершающим оператор, как показано в следующем примере.
+&lt;размерность измерения &gt; может быть либо целым числом, либо именованной ссылкой на другой элемент шаблона, значение которого затем подставляется. Массивы могут быть n-мерный, где n определяется числом парных квадратных скобок, завершающим оператор, как показано в следующем примере.
 
 
 ```
@@ -134,7 +134,7 @@ STRING name;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

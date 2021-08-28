@@ -3,24 +3,24 @@ title: Получение интерфейса копирования данны
 description: Получение интерфейса копирования данных с компакт-диска
 ms.assetid: 760610eb-e356-4b50-b865-53557ba9b815
 keywords:
-- Проигрыватель Windows Media, копирование компакт-дисков
-- Объектная модель проигрывателя Windows Media, копирование компакт-дисков
+- проигрыватель Windows Media, копирование компакт-дисков
+- проигрыватель Windows Mediaная модель объектов, копирование компакт-дисков
 - Объектная модель, копирование компакт-дисков
-- Элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
-- Элемент управления ActiveX, копирование компакт-дисков
-- Мобильный элемент управления ActiveX проигрывателя Windows Media, копирование компакт-дисков
-- Проигрыватель Windows Media Mobile, копирование компакт-дисков
+- проигрыватель Windows Media ActiveX управления, копирование компакт-дисков
+- ActiveX управления, копирование компакт-дисков
+- проигрыватель Windows Media мобильный ActiveX управление, копирование компакт-дисков
+- проигрыватель Windows Media Мобильные устройства, копирование компакт-дисков
 - Копирование компакт-дисков, интерфейс Ивмпкдромрип
 - Копирование компакт-дисков, интерфейс Ивмпкдромрип
 - Интерфейс Ивмпкдромрип
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903fa285404700e35363a94239c79706e7af0e34
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2179e4f38eee121d7b8fefc028adf232eb724264362396c8cacedfcc55b162d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103890311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002554"
 ---
 # <a name="retrieving-the-ripping-interface"></a>Получение интерфейса копирования данных с компакт-диска
 
@@ -69,7 +69,7 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -88,9 +88,9 @@ HRESULT CMainDlg::GetCdromRipInterface (long lIndex)
 [**Интерфейс Ивмпкдромколлектион**](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromcollection)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

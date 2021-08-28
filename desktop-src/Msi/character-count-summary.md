@@ -4,12 +4,12 @@ ms.assetid: d26d24a5-558e-4333-ae39-ffba1bbc5247
 title: Свойство сводки количества символов
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afc99c065721f0f0b94691a12e00204305940efd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 766cc9ab355e533c155bfc81bac7b3f6e82cf9ab8679cf4feb00e9d01705a94b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105668569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754344"
 ---
 # <a name="character-count-summary-property"></a>Свойство сводки количества символов
 
@@ -23,7 +23,7 @@ ms.locfileid: "105668569"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP.<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP.<br/> |
 
 
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c137472d03f1088da061c20b52050ae1a1f6629e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 427ed51c2757075ccb28fd70e5554c49dc8db4e8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272112"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986827"
 ---
 # <a name="temporary-database-parameters"></a>Параметры временной базы данных
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="temporary-database-parameters"></a>Параметры временной базы данных
 
@@ -36,58 +36,21 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр управляет использованием транзакций во временных таблицах. Если этот параметр имеет значение false, временные таблицы будут работать быстрее, но откат всех обновлений, внесенных в транзакцию, будет невозможен.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| Метка | Применение |
+|--------|-------|
+| <p>Значение по умолчанию:</p> | <p>True</p> | 
+| <p>Тип:</p> | <p>Логическое значение</p> | 
+| <p>Допустимый диапазон:</p> | <p>False, true</p> | 
+| <p>Область.</p> | <p>Экземпляр</p> | 
+| <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | 
+| <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | 
+| <p>Влияет на физический макет:</p> | <p>Нет</p> | 
+| <p>Влияет на надежность:</p> | <p>Да</p> | 
+| <p>Влияет на производительность:</p> | <p>Да</p> | 
+| <p>Влияет на ресурсы:</p> | <p>Да</p> | 
+| <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramPageTempDBMin*  
@@ -97,58 +60,21 @@ _**Применимо к:** Windows | Windows Server_
 
 Часто нежелательно, чтобы небольшие приложения настроили временную базу данных как можно меньше. Если задать для этого параметра значение 14, будет достигнута наименьшая временная база данных. Обратите внимание, что можно также полностью устранить временную базу данных, установив значение **JET_paramMaxTemporaryTables** равным нулю.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| Метка | Применение |
+|--------|-------|
+| <p>Значение по умолчанию:</p> | <p>0</p> | 
+| <p>Тип:</p> | <p>Целое число</p> | 
+| <p>Допустимый диапазон:</p> | <p>0 – 2147483647</p> | 
+| <p>Область.</p> | <p>Экземпляр</p> | 
+| <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | 
+| <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | 
+| <p>Влияет на физический макет:</p> | <p>Да</p> | 
+| <p>Влияет на надежность:</p> | <p>Нет</p> | 
+| <p>Влияет на производительность:</p> | <p>Да</p> | 
+| <p>Влияет на ресурсы:</p> | <p>Да</p> | 
+| <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramTempPath*  
@@ -158,86 +84,36 @@ _**Применимо к:** Windows | Windows Server_
 
 **Примечание**  .  Если указан относительный путь, он будет относиться к текущему рабочему каталогу процесса, в котором размещается приложение, использующее ядро СУБД.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>&quot;TMP. edb&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Path (строка)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 247 символов</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| Метка | Применение |
+|--------|-------|
+| <p>Значение по умолчанию:</p> | <p>"tmp. edb"</p> | 
+| <p>Тип:</p> | <p>Path (строка)</p> | 
+| <p>Допустимый диапазон:</p> | <p>0 – 247 символов</p> | 
+| <p>Область.</p> | <p>Экземпляр</p> | 
+| <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | 
+| <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | 
+| <p>Влияет на физический макет:</p> | <p>Да</p> | 
+| <p>Влияет на надежность:</p> | <p>Нет</p> | 
+| <p>Влияет на производительность:</p> | <p>Нет</p> | 
+| <p>Влияет на ресурсы:</p> | <p>Нет</p> | 
+| <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:
 
-[Расширяемые файлы подсистемы хранилища](./extensible-storage-engine-files.md)  
+[расширяемые файлы служба хранилища Engine](./extensible-storage-engine-files.md)  
 [жеткреатеинстанце](./jetcreateinstance-function.md)  
 [жетинит](./jetinit-function.md)

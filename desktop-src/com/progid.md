@@ -6,12 +6,12 @@ keywords:
 - Код COM раздела реестра ProgID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486f7e30bb0caff72eca3ad68191aaf50ab70280
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: f2d56295db12bbf8a4d629112636814fa60df481
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884839"
 ---
 # <a name="progid"></a>ProgID:
 
@@ -25,15 +25,15 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
       ProgID = value
 ```
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Каждый класс вставляемого объекта имеет идентификатор ProgID. Сведения о создании ProgID см. в разделе [ <ProgID> ключ](-progid--key.md).
+Каждый класс вставляемого объекта имеет идентификатор ProgID. Сведения о создании ProgID см. в разделе « [ &lt; &gt; ключ ProgID](-progid--key.md)».
 
 ## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[<ProgID> раздел](-progid--key.md)
+[&lt;&gt;Ключ ProgID](-progid--key.md)
 </dt> <dt>
 
 [**версиониндепендентпрогид**](versionindependentprogid.md)

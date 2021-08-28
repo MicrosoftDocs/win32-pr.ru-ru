@@ -4,12 +4,12 @@ ms.assetid: c63034ce-33d7-4f2f-9498-fc16e25b6d4d
 title: Свойство MFPKEY_WMAVOICE_ENC_EDL (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f3ac85ebd3a0542fbcf6554205d0b2f2623957c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ffc9f68c7122897c9f5032e9ac0e4fc93c596b5ce65f18d44fb6af6dff2dd2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103812629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713724"
 ---
 # <a name="mfpkey_wmavoice_enc_edl-property"></a>МФПКЭЙ \_ вмавоице \_ ENC, \_ свойство ЕДЛ
 
@@ -27,7 +27,7 @@ VT \_ BSTR
 
 Нет значения по умолчанию. Если это свойство не задано, кодек будет использовать значение свойства [мфпкэй \_ вмавоице \_ ENC \_ мусикспичклассмоде](mfpkey-wmavoice-enc-musicspeechclassmodeproperty.md) , чтобы определить способ кодирования содержимого.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это свойство можно использовать, если автоматический режим кодека не дает удовлетворительных результатов.
 
@@ -41,9 +41,9 @@ VT \_ BSTR
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 

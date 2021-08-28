@@ -3,7 +3,7 @@ title: Ивмпмедиа. одинаковы (VB и C)
 description: Свойство «идентично» (метод Get \_ одинаковы в C \) возвращает значение, указывающее, совпадает ли указанный элемент мультимедиа с текущим.
 ms.assetid: 1406a0ff-2dc8-4cde-8b71-4a39b8608fb1
 keywords:
-- Проигрыватель Windows Media Ивмпмедиа. одинаковы (VB и C)
+- ивмпмедиа. одинаковы (VB и C) проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a488ad300362c1f8dccfd0fa6f6c7e4dee7676
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24e8de133003bdddcf0438e5a13dc3fa74227ede7bf42350e2b7c3c96f2c197e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105689193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003584"
 ---
 # <a name="iwmpmediaisidentical-vb-and-c"></a>Ивмпмедиа. одинаковы (VB и C#)
 
@@ -55,9 +55,9 @@ System.Boolean get_isIdentical (
 
 Значение **System. Boolean** , указывающее, идентичны ли два элемента мультимедиа.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-**Ивмпмедиа. идентично** — это свойство в Visual Basic, которое принимает параметр. В C# он называется **ивмпмедиа. Get \_ тождественным** методом.
+**ивмпмедиа. идентично** — это свойство в Visual Basic, которое принимает параметр. В C# он называется **ивмпмедиа. Get \_ тождественным** методом.
 
 ## <a name="examples"></a>Примеры
 
@@ -93,19 +93,19 @@ End If
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/>   | Проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
+| Версия<br/>   | проигрыватель Windows Media 9 Series или более поздней версии<br/>                                                                      |
 | Пространство имен<br/> | **вмплиб**<br/>                                                                                                  |
 | Сборка<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

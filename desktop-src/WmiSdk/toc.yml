@@ -925,6 +925,14 @@
               href: wmiperfclass-provider.md
             - name: Поставщик Вмиперфинст
               href: wmiperfinst-provider.md
+            - name: Классы инвентаризации приложений
+              href: applicationanddeviceinventory-portal.md
+            - name: Класс Win32_InstalledWin32Program
+              href: win32-installedwin32program.md
+            - name: Класс Win32_InstalledStoreProgram
+              href: win32-installedstoreprogram.md
+            - name: Класс Win32_InstalledProgramFramework
+              href: win32-installedprogramframework.md
         - name: Классы C++ инфраструктуры поставщика WMI
           href: wmi-c-classes.md
           items:
@@ -2967,7 +2975,7 @@
                   href: datetime.md
                 - name: Массивы MOF
                   href: mof-arrays.md
-                - name: Числа
+                - name: С помощью чисел
                   href: numbers.md
                 - name: OBJECT
                   href: object.md
@@ -3140,7 +3148,7 @@
           href: gloss-l.md
         - name: M
           href: gloss-m.md
-        - name: Нет
+        - name: 'N'
           href: gloss-n.md
         - name: O
           href: gloss-o.md

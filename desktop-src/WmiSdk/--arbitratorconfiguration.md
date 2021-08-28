@@ -35,12 +35,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 906164d6d715ed70bccecf61fba767ada622c74f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4344eb368a96d2d47207748cba622d07d11ef78e0a046c6ea169305d9c587957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321124"
 ---
 # <a name="__arbitratorconfiguration-class"></a>\_\_Класс Арбитраторконфигуратион
 
@@ -84,7 +84,7 @@ class __ArbitratorConfiguration : __SystemClass
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ арбитраторконфигуратион** имеет следующие свойства.
 
@@ -363,7 +363,7 @@ class __ArbitratorConfiguration : __SystemClass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **\_ \_ Арбитраторконфигуратион** наследуется от [**\_ \_ системкласс**](--systemclass.md).
 

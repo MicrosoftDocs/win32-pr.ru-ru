@@ -1,11 +1,11 @@
 ---
 title: Метод external. Play
-description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. Метод Play указывает проигрывателю Windows Media воспроизвести набор элементов мультимедиа.
+description: Обратите внимание, что в этом разделе описываются функции, предназначенные для использования в Интернет-магазинах. Использование этой функции вне контекста Интернет-магазина не поддерживается. метод play указывает проигрыватель Windows Media воспроизвести набор элементов мультимедиа.
 ms.assetid: 3e1f45db-9e7f-4a1b-aaa2-513a19c46f70
 keywords:
-- воспроизвести метод проигрыватель Windows Media
-- метод Play проигрыватель Windows Media Player, внешний класс
-- Внешний класс проигрыватель Windows Media Player, метод Play
+- метод play проигрыватель Windows Media
+- метод play проигрыватель Windows Media, внешний класс
+- внешний класс проигрыватель Windows Media, метод play
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94cfa40d96bbc67c7d41eb1a1a0188be68ec154e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90644b357e56f40bfbdb576908b99aa6941f8153dc339daa996152f63d77372c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648634"
 ---
 # <a name="externalplay-method"></a>Метод external. Play
 
@@ -30,7 +30,7 @@ ms.locfileid: "105694487"
 
  
 
-Метод **Play** указывает проигрывателю Windows Media воспроизвести набор элементов мультимедиа.
+метод **play** указывает проигрыватель Windows Media воспроизвести набор элементов мультимедиа.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -66,18 +66,18 @@ External.play(
 
 Этот метод не возвращает значение.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11.<br/>                                                |
+| Версия<br/> | проигрыватель Windows Media 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

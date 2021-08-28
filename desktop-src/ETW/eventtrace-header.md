@@ -33,12 +33,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dea803849d6aa15c2a3a14deb850d85ade569116
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5d0515b9d7d720409e0a72aec7aad5dc54561637563976a35d03b3e0dec79f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104542511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829994"
 ---
 # <a name="eventtrace_header-class"></a>\_Класс заголовка евенттраце
 
@@ -76,13 +76,13 @@ class EventTrace_Header : EventTraceEvent
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **\_ заголовка евенттраце** содержит следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ заголовка евенттраце** содержит следующие свойства.
 
@@ -410,7 +410,7 @@ class EventTrace_Header : EventTraceEvent
 
 </dd> <dt>
 
-**Версия**
+**Version**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -426,7 +426,7 @@ class EventTrace_Header : EventTraceEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Как правило, необходимо сохранить значения следующих свойств для последующего использования при обработке событий из файла журнала.
 

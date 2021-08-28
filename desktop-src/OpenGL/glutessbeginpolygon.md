@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34fad4c620890df109449b9a222d3355041ac77f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 42566cf8a0674086883e6333a67ac2df03329f6a9bd3bb903ef558af3c430b9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "105664925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777394"
 ---
 # <a name="glutessbeginpolygon-function"></a>Функция Глутессбегинполигон
 
@@ -59,7 +59,7 @@ void WINAPI gluTessBeginPolygon(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции **глутессбегинполигон** и [**глутессендполигон**](glutessendpolygon.md) разделяют определение многоугольника нонконвекс. В каждой паре **глутессбегинполигон**  /  **глутессендполигон** включите один или несколько вызовов [**глутессбегинконтаур**](glutessbegincontour.md). В каждом контуре имеется ноль или более вызовов [**глутессвертекс**](glutessvertex.md). Вершины задают замкнутый контур (последняя вершина каждого контура автоматически связывается с первым).
 
@@ -87,7 +87,7 @@ gluTessBeginPolygon(tobj, NULL);
 gluTessEndPolygon(tobj);
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -101,7 +101,7 @@ gluTessEndPolygon(tobj);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

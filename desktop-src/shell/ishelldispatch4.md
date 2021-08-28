@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
-ms.openlocfilehash: daec9c922a0bac05154c1108f236ddf336a2e380
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 057ef4082bac8d04c006d951db7d2d251be2f8c62e88af65bc1a69678514af81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969013"
 ---
 # <a name="ishelldispatch4-object"></a>Объект IShellDispatch4
 
@@ -46,7 +46,7 @@ ms.locfileid: "109843065"
 | [**експлорерполици**](ishelldispatch4-explorerpolicy.md)   | Возвращает значение для указанной политики Internet Explorer.<br/> |
 | [**GetSetting**](ishelldispatch4-getsetting.md)           | Извлекает параметр глобальной оболочки.<br/>                        |
 | [**тоггледесктоп**](ishelldispatch4-toggledesktop.md)     | Отображает или скрывает Рабочий стол.<br/>                           |
-| [**виндовссекурити**](ishelldispatch4-windowssecurity.md) | Отображает диалоговое окно **Безопасность Windows** .<br/>            |
+| [**виндовссекурити**](ishelldispatch4-windowssecurity.md) | отображает диалоговое окно **Безопасность Windows** .<br/>            |
 
 
 
@@ -54,7 +54,7 @@ ms.locfileid: "109843065"
 
 ## <a name="remarks"></a>Remarks
 
-Обсуждение служб Windows см. в документации по [службам](../services/services.md) .
+обсуждение Windows служб см. в документации по [службам](../services/services.md) .
 
 ## <a name="requirements"></a>Requirements (Требования)
 
@@ -62,15 +62,15 @@ ms.locfileid: "109843065"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                                   |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                          |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                   |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                          |
 | Заголовок<br/>                   | <dl> <dt>Шлдисп. h</dt> </dl>                          |
 | IDL<br/>                      | <dl> <dt>Шлдисп. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (версия 6,0 или более поздняя)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 67877cfc07a247d6b5e3309270d145bc64fbb814416fa4288c6e85ff2ad2e986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ba975b9b35cd000844b3956e141c86b1be52531
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885000"
 ---
 # <a name="standard-qualifiers"></a>Стандартные квалификаторы
 
@@ -378,7 +378,7 @@ ms.locfileid: "118315140"
 
 Область применения: ссылки
 
-Тип расположения экземпляра. Его значение — <namespacetype> . Значение по умолчанию — **null**.
+Тип расположения экземпляра. Его значение — &lt; намеспацетипе &gt; . Значение по умолчанию — **null**.
 
 Использование: этот квалификатор не может использоваться с **нелокальным** квалификатором.
 

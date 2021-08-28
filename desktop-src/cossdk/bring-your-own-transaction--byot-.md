@@ -4,12 +4,12 @@ ms.assetid: 492875cb-52a7-484f-810e-bd838373b603
 title: Приведите собственную транзакцию (BYOT)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ca6f7f12babbf3ad183c4695a68591d9e181a1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89b6177471d1c56956bba5fafd4f728a6295b29afcc6873495ddb690d2e59c12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308667"
 ---
 # <a name="bring-your-own-transaction-byot"></a>Приведите собственную транзакцию (BYOT)
 
@@ -22,7 +22,7 @@ ms.locfileid: "105662098"
 
 Интерфейсы для транзакций BYOT включают интерфейс [**икреатевистрансактионекс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icreatewithtransactionex) и интерфейс [**икреатевистиптрансактионекс**](/windows/desktop/api/ComSvcs/nn-comsvcs-icreatewithtiptransactionex) . Интерфейс **икреатевистрансактионекс** создает объект, который закрепляется в ручной транзакции. Интерфейс **икреатевистиптрансактионекс** создает объект, который закрепляется в ручной транзакции с помощью протокола Интернета Transaction (TIP).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

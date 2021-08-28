@@ -14,12 +14,12 @@ keywords:
 - версии проигрыватель Windows Media, объектная модель
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: a6f2e092f7e32b889056841b5802dffa141c0be4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884767"
 ---
 # <a name="detailed-object-model-comparison"></a>Сравнение подробной модели объектов
 
@@ -41,7 +41,7 @@ ms.locfileid: "122623540"
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Алловчанжедисплайсизе</strong></td>
-<td>отображение проигрыватель Windows Media 7 или более поздней версии автоматически изменяется в соответствии с размером носителя. Свойства высоты и ширины можно задать в <OBJECT> теге или в скрипте.</td>
+<td>отображение проигрыватель Windows Media 7 или более поздней версии автоматически изменяется в соответствии с размером носителя. Свойства высоты и ширины можно задать в &lt; &gt; теге объекта или в скрипте.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Алловскан</strong></td>
@@ -69,7 +69,7 @@ ms.locfileid: "122623540"
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Автоподбор размеров</strong></td>
-<td>Поведение по умолчанию — автоматическое изменение размера. Чтобы переопределить автоматическое изменение размера, задайте свойства Height и Width в <OBJECT> теге или в скрипте.</td>
+<td>Поведение по умолчанию — автоматическое изменение размера. Чтобы переопределить автоматическое изменение размера, задайте свойства Height и Width в &lt; теге объекта &gt; или в скрипте.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Автозапуск</strong></td>
@@ -233,7 +233,8 @@ ms.locfileid: "122623540"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Дефаултфраме</strong></td>
-<td>используйте <em>Параметры</em>. <strong>дефаултфраме</strong>или используйте <PARAM> атрибут в <OBJECT> элементе: <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>используйте <em>Параметры</em>. <strong>дефаултфраме</strong>или используйте <PARAM> в &lt; &gt; элементе Object:
+<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Дисплайбаккколор</strong></td>
@@ -249,7 +250,7 @@ ms.locfileid: "122623540"
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Дисплайсизе</strong></td>
-<td>Изображение по умолчанию автоматически изменяется в соответствии с размером носителя. Можно задать свойства Height и Width в <OBJECT> теге или в скрипте. Используйте <em>проигрыватель</em>. <strong>полноэкранный</strong> режим, переключаясь в весь экран.</td>
+<td>Изображение по умолчанию автоматически изменяется в соответствии с размером носителя. Свойства высоты и ширины можно задать в &lt; &gt; теге объекта или в скрипте. Используйте <em>проигрыватель</em>. <strong>полноэкранный</strong> режим, переключаясь в весь экран.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Длительность</strong></td>

@@ -6,12 +6,12 @@ keywords:
 - Пространство имен D2D1, структуры
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02cf062e6e02252c51852837158705449eea4577
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 5d70b2b449a1fefb1ea929b3b64849b39453b09e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883871"
 ---
 # <a name="direct2d-helper-structures"></a>Вспомогательные структуры Direct2D
 
@@ -19,9 +19,9 @@ ms.locfileid: "110549639"
 
 
 
-| Название                                            | Описание                                                                                                   |
+| Имя                                            | Описание                                                                                                   |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [**типетраитс<Type>**](/windows/win32/api/d2d1_1helper/ns-d2d1_1helper-typetraits) | Содержит реализации **точки**, **размера** и **Rect** , которые хранят свои данные с помощью указанного типа. |
+| [**&lt;Тип типетраитс&gt;**](/windows/win32/api/d2d1_1helper/ns-d2d1_1helper-typetraits) | Содержит реализации **точки**, **размера** и **Rect** , которые хранят свои данные с помощью указанного типа. |
 
 
 

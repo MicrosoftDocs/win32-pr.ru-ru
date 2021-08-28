@@ -7,12 +7,12 @@ MSHAttr:
 title: IsDefault
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 450e76fc73016b5c04cb1eabff99fd9d6d35aac6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 886dab9e4388b5935503d21729d65ccc748caba0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122467561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883630"
 ---
 # <a name="span-idwwan_profile_v4element_isdefaultspanisdefault"></a><span id="WWAN_profile_v4.element_IsDefault"></span>IsDefault
 
@@ -22,8 +22,8 @@ ms.locfileid: "122467561"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<IsDefault>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;IsDefault&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 

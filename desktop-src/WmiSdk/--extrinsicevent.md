@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 76af7a9f32c24b8d44f81c60b0f2fca693c26f51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 592632a7d0b5593a9de200062ef1ae6b167e72aaa2d2f41c44a8f955324b6b6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118321023"
 ---
 # <a name="__extrinsicevent-class"></a>\_\_Класс Екстринсицевент
 
@@ -45,7 +45,7 @@ class __ExtrinsicEvent : __Event
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ екстринсицевент** имеет следующие свойства.
 
@@ -79,7 +79,7 @@ class __ExtrinsicEvent : __Event
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **\_ \_ екстринсицевент** является производным от [**\_ \_ события**](--event.md).
 
@@ -99,7 +99,7 @@ class __ExtrinsicEvent : __Event
 
 <dl> <dt>
 
-[**\_\_Событие**](/windows/desktop/WmiSdk/--event)
+[**\_\_Журнале**](/windows/desktop/WmiSdk/--event)
 </dt> <dt>
 
 [Системные классы WMI](wmi-system-classes.md)
