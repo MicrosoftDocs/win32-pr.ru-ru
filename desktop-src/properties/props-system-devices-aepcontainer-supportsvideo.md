@@ -4,12 +4,12 @@ ms.assetid: d5db32d6-70de-460f-9a6f-f07e75d66cc8
 title: System.Devices.AepContainer.SupportsVideo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 169706d786306b1f12aa6b91c8a710302cc258df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4745b989e7f9617c273fbb41150c209eca341f48c1f56570a1141de311b39b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598574"
 ---
 # <a name="systemdevicesaepcontainersupportsvideo"></a>System.Devices.AepContainer.SupportsVideo
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

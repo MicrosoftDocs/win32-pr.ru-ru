@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af7726302675d66ee3f4da75b89cfe4c369108ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fbd8339edf4bbefe3b5c81e070e8bf2c980046f5dcfc8833aebf635907d1e9c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553044"
 ---
 # <a name="ms-dns-nsec3-optout-attribute"></a>атрибут MS-DNS-NSEC3-OptOut
 
@@ -36,7 +36,7 @@ ms.locfileid: "103893546"
 | Частота обновления  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2132              |
 | System-ID — GUID    | 7bea2088-8ce2-423c-b191-66ec506b1595 |
-| Синтаксис            | [**Логическая**](s-boolean.md)         |
+| Синтаксис            | [**Логическое**](s-boolean.md)         |
 
 
 
@@ -52,10 +52,10 @@ ms.locfileid: "103893546"
 |------------------------|------------------------------------------|
 | Идентификатор ссылки                | \-                                       |
 | MAPI-Id                | \-                                       |
-| System-Only            | Неверно                                    |
-| Является однозначным       | True                                     |
-| Индексируется             | Неверно                                    |
-| В глобальном каталоге      | Неверно                                    |
+| System-Only            | Нет                                    |
+| Является однозначным       | Верно                                     |
+| Индексируется             | Нет                                    |
+| В глобальном каталоге      | Нет                                    |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                             |
 | Range-Lower            | \-                                       |
 | Range-Upper            | \-                                       |

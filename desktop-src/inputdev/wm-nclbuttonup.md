@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15df7beefbfa411d00b5a069b68f4ef8cabdff58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae3a79d7bd5c8747efc42e25c71527c35e47598d6d1d1c9f88ae3ed929ea68ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451434"
 ---
 # <a name="wm_nclbuttonup-message"></a>\_Сообщение НКЛБУТТОНУП WM
 
@@ -56,7 +56,7 @@ ms.locfileid: "104071483"
 
 Если приложение обрабатывает это сообщение, оно должно вернуть ноль.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция [**дефвиндовпрок**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) проверяет указанную точку для определения расположения курсора и выполняет соответствующее действие. При необходимости **дефвиндовпрок** отправляет сообщение [**WM \_ сискомманд**](/windows/desktop/menurc/wm-syscommand) в окно.
 

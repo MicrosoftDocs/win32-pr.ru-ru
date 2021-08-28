@@ -4,12 +4,12 @@ ms.assetid: 12690317-1cd2-496c-8a0d-ba6caca58b86
 title: Тестирование страницы ссылки на событие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6afaaec279403922abde578b9e73931e607680f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2aa9fb8697181085a9b74333dba82328e90b502e6590a764fac589efa8e6f90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676643"
 ---
 # <a name="testing-an-event-reference-page"></a>Тестирование страницы ссылки на событие
 

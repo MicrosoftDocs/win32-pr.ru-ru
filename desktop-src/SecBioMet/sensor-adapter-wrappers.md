@@ -4,12 +4,12 @@ description: Функции, которые можно использовать 
 ms.assetid: 302a831c-38f7-4d32-8d9f-5ff58931224b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8887da38a7142c830f19a83b5950abea15791b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55a9e4ade931e10a93320d132662bb7622e62028299816eb6ad0e41fd7bff527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104132986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683204"
 ---
 # <a name="sensor-adapter-wrappers"></a>Оболочки адаптера датчика
 
@@ -48,7 +48,7 @@ ms.locfileid: "104132986"
 
 Нет функций-оболочек для функций [**сенсорадаптержетиндикаторстатус**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn) и [**сенсорадаптерсетиндикаторстатус**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_sensor_set_indicator_status_fn) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

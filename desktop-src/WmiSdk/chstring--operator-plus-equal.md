@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'Чстринг:: operator + = (Чстринг. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 683ca6b6264169cd156e89c3447c63fa59f03585
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 316f5272c7b5a4ef5b59e93dd480ade215e3279ea754f1da5432448d46fcce17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119679883"
 ---
 # <a name="chstringoperator"></a>Чстринг:: operator + =
 
@@ -61,7 +61,7 @@ throw( CHeap_Exception );
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Имейте в виду, что при использовании этого оператора объединения могут возникать исключения памяти, так как для символов, добавляемых в этот объект [**чстринг**](chstring.md) , может быть выделено новое хранилище.
 
@@ -77,7 +77,7 @@ assert( ( s += L"def" ) == L"abcdef" );
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -85,13 +85,13 @@ assert( ( s += L"def" ) == L"abcdef" );
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
+| Заголовок<br/>                   | <dl> <dt>Чстринг. h (включение Фвкоммон. h)</dt> </dl>                                                    |
 | Библиотека<br/>                  | <dl> <dt>Фрамедин. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

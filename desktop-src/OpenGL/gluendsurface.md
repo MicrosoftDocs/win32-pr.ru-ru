@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54631d5c4ef752cffd989f8fa02f8cb512c67da3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 32c8fb5165be78032429dce7957cd0975753515d55969b04415c61be2a7dc5ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104547650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675374"
 ---
 # <a name="gluendsurface-function"></a>Функция Глуендсурфаце
 
@@ -51,7 +51,7 @@ void WINAPI gluEndSurface(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функции [**глубегинсурфаце**](glubeginsurface.md) и **глуендсурфаце** отмечают начало и конец определений нурбс Surface, которые определяются вызовами **глунурбссурфаце**.
 
@@ -78,7 +78,7 @@ gluBeginSurface(nobj);
 gluEndSurface(nobj);
 ```
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -92,7 +92,7 @@ gluEndSurface(nobj);
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

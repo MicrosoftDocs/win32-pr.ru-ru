@@ -4,12 +4,12 @@ ms.assetid: 31d30c91-fc6a-45ec-a2e0-34e6a1e902a4
 title: Фильтр мультиплексора AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5c3f02e5df7a9e17c2371916eb48b5ccfebe04dfa3046d464bc732f17f868f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f923ed944781bbaa36179b02db9022f38fc98ff6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118159286"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478640"
 ---
 # <a name="avi-mux-filter"></a>Фильтр мультиплексора AVI
 
@@ -19,65 +19,15 @@ ms.locfileid: "118159286"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Интерфейсы фильтра</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>иконфигавимукс</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>иконфигинтерлеавинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>иперсистмедиапропертибаг</strong></a>, ISpecifyPropertyPages</td>
-</tr>
-<tr class="even">
-<td>Типы носителей входных закрепления</td>
-<td>Любой основной тип, соответствующий старому типу FOURCC или MEDIATYPE_AUXLine21Data. (Дополнительные сведения см. в разделе <a href="fourccmap.md"><strong>класс фаурккмап</strong></a>.)
-<ul>
-<li>Если основной тип — MEDIATYPE_Audio, формат должен быть FORMAT_WaveFormatEx.</li>
-<li>Если основной тип — MEDIATYPE_Video, формат должен быть FORMAT_VideoInfo или FORMAT_DvInfo.</li>
-<li>Если основной тип — MEDIATYPE_Interleaved, формат должен быть FORMAT_DvInfo.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы входных закрепления</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>Иамстреамконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, ипропертибаг, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Типы носителей для выходного ПИН-кода</td>
-<td>MEDIATYPE_Stream, MEDIASUBTYPE_Avi</td>
-</tr>
-<tr class="odd">
-<td>Интерфейсы выходного ПИН-кода</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"> <strong>икуалитиконтрол</strong></a></td>
-</tr>
-<tr class="even">
-<td>Фильтровать CLSID</td>
-<td>CLSID_AviDest</td>
-</tr>
-<tr class="odd">
-<td>CLSID страницы свойств</td>
-<td>CLSID_AviMuxProptyPage, CLSID_AviMuxProptyPage1</td>
-</tr>
-<tr class="even">
-<td>Исполняемый объект</td>
-<td>qcap.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Заслуживают</a></td>
-<td>MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Категория фильтра</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Интерфейсы фильтра | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>Ибасефилтер</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfigavimux"><strong>иконфигавимукс</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iconfiginterleaving"><strong>иконфигинтерлеавинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>имедиасикинг</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag"><strong>иперсистмедиапропертибаг</strong></a>, ISpecifyPropertyPages | | Типы входных закрепления Любой основной тип, соответствующий старому типу FOURCC или MEDIATYPE_AUXLine21Data. (Дополнительные сведения см. в разделе <a href="fourccmap.md"><strong>класс фаурккмап</strong></a>.)<ul><li>Если основной тип — MEDIATYPE_Audio, формат должен быть FORMAT_WaveFormatEx.</li><li>Если основной тип — MEDIATYPE_Video, формат должен быть FORMAT_VideoInfo или FORMAT_DvInfo.</li><li>Если основной тип — MEDIATYPE_Interleaved, формат должен быть FORMAT_DvInfo.</li></ul> | | Интерфейсы входных закрепления | <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamcontrol"><strong>Иамстреамконтрол</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>имеминпутпин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, ипропертибаг, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Типы выходных закрепления MEDIATYPE_Stream, MEDIASUBTYPE_Avi | | Интерфейсы выходного ПИН-кода | <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>Ипин</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>икуалитиконтрол</strong></a> | | Фильтровать CLSID | CLSID_AviDest | | CLSID страницы свойств | CLSID_AviMuxProptyPage, CLSID_AviMuxProptyPage1 | | Исполняемый файл | qcap.dll | | <a href="merit.md"></a> Кому | MERIT_DO_NOT_USE | | <a href="filter-categories.md">Категория фильтра</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 
  
 
-### <a name="remarks"></a>Remarks
+### <a name="remarks"></a>Комментарии
 
 В следующих примечаниях описаны различные аспекты функциональности фильтра мультиплексора AVI.
 

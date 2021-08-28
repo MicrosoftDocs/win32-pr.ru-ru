@@ -6,12 +6,12 @@ keywords:
 - COM-значение реестра Аусентикатионлевел
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 697b04bcf4992c8a6943bcb515fa0a4eae616fec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7968382ea97243c1116dd6785be34a0d1c3e6eafc6cb9ee13f16b939029a6611
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104332635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120534"
 ---
 # <a name="authenticationlevel"></a>аусентикатионлевел
 
@@ -21,11 +21,11 @@ ms.locfileid: "104332635"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      AuthenticationLevel = value
+   {AppID_GUID}
+      AuthenticationLevel = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ DWORD** , эквивалентное \_ \_ \_ константам уровня RPC C AUTHN.
 
@@ -42,7 +42,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 
 
- 
+ 
 
 Значение **аусентикатионлевел** аналогично значению [**легациаусентикатионлевел**](legacyauthenticationlevel.md) . Если указано значение **аусентикатионлевел** , оно используется вместо значения **Легациаусентикатионлевел** для этого AppID.
 
@@ -53,7 +53,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 -   Если **аусентикатионлевел** имеет значение None, значения [**акцесспермиссион**](accesspermission.md) и [**дефаултакцесспермиссион**](defaultaccesspermission.md) игнорируются (для этого приложения).
 -   Если **аусентикатионлевел** отсутствует и [**ЛЕГАЦИАУСЕНТИКАТИОНЛЕВЕЛ**](legacyauthenticationlevel.md) имеет значение None, значения [**акцесспермиссион**](accesspermission.md) и [**дефаултакцесспермиссион**](defaultaccesspermission.md) игнорируются (для этого приложения).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -69,9 +69,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [Безопасность в COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

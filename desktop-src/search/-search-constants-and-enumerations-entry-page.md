@@ -1,17 +1,17 @@
 ---
-description: Константы и перечисления поиска Windows
+description: Windows Поиск констант и перечислений
 ms.assetid: 27b25e6b-49e6-4c70-947e-d67bd1335924
-title: Константы и перечисления поиска Windows
+title: Windows Поиск констант и перечислений
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b18cee15be8bc9cec3bae22b55da6e6bf6c4624
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a4afc7ad8d1659921a3605e1f27b95e5b2303ad69a75e1807a230c9b21733523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119594934"
 ---
-# <a name="windows-search-constants-and-enumerations"></a>Константы и перечисления поиска Windows
+# <a name="windows-search-constants-and-enumerations"></a>Windows Поиск констант и перечислений
 
 
 В этом разделе описываются следующие константы и перечисления.

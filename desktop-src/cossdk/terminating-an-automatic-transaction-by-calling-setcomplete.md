@@ -4,12 +4,12 @@ ms.assetid: 5bd06cfd-1ee0-48ac-84ab-3737d76bccc0
 title: Завершение автоматической транзакции путем вызова Сеткомплете
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4bf09e631acf69a9b663d68d7eb82cfaa4490f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d1d84d18b45309d750864d514728b8e23a3326e5edeba0bf144105bcbaa4797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499664"
 ---
 # <a name="terminating-an-automatic-transaction-by-calling-setcomplete"></a>Завершение автоматической транзакции путем вызова Сеткомплете
 
@@ -17,7 +17,7 @@ ms.locfileid: "105662085"
 
 Самый эффективный способ выполнить автоматическую транзакцию — явно отключить корневой объект с помощью метода [**сеткомплете**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete) . Путем явного указания на то, что корневой объект завершил свою работу, можно уменьшить длину транзакции.
 
-В следующем Visual Basic примере показано, как указать, что транзакционный объект успешно завершил свою работу:
+в следующем Visual Basic примере показано, как указать, что транзакционный объект успешно завершил свою работу:
 
 
 ```VB
@@ -35,7 +35,7 @@ End Sub
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -24,7 +24,7 @@
               href: recovery-processing.md
             - name: Вопросы программирования при написании диспетчеров ресурсов
               href: programming-considerations.md
-        - name: Взаимодействие с другими функциями Windows
+        - name: взаимодействие с другими функциями Windows
           href: interoperability-with-other-windows-features.md
         - name: Права доступа и безопасности KTM
           href: ktm-security-and-access-rights.md

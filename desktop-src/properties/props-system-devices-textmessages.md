@@ -4,12 +4,12 @@ ms.assetid: 309700af-c5b7-48a6-a85f-763452f586ad
 title: System. Devices. Текстмессажес
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2bc26513957bbeca7a96f136874f95d586852ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5bdafbd430d8b373fb713a8be8969a361dfe11075ca712a115fef4e96967e41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599154"
 ---
 # <a name="systemdevicestextmessages"></a>System. Devices. Текстмессажес
 
@@ -105,11 +105,11 @@ propertyDescription
             defineToken = TEXTMESSAGES_10PLUS
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

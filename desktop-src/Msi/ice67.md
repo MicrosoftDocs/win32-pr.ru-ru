@@ -4,12 +4,12 @@ ms.assetid: 3fc462e7-4c11-4167-a157-6c1e0791901d
 title: ICE67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ca140a2d7eace9b693e82763f6bf5824346b51e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b25f3bba6bd6efaf20b55982524840348f39e8717dc53b7699a6f5f2886df01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787394"
 ---
 # <a name="ice67"></a>ICE67
 
@@ -39,7 +39,7 @@ Shortcut1 устанавливается с помощью Component2, но ег
 
 
 
-| Файл  | Компонент\_ |
+| File  | Компонент\_ |
 |-------|-------------|
 | Файл1 | Component1  |
 
@@ -71,7 +71,7 @@ Shortcut1 устанавливается с помощью Component2, но ег
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

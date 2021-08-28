@@ -5,16 +5,16 @@ title: Загрузка и отображение растровых изобр�
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: ab2405462db5017215893d50d93dc0b228633cfb
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: db3ec9e1d586a585380123aa01d9553ad1f57f60efb93c28d2d974f54d56b249
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "104987422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115004"
 ---
 # <a name="loading-and-displaying-bitmaps"></a>Загрузка и отображение растровых изображений
 
-См. также [пример приложения GDI+ с средством просмотра WIC](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus).
+см. также [средство просмотра WIC GDI+ пример приложения](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus).
 
 Для отображения растрового изображения (точечного рисунка) на экране необходим объект [**изображения**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) и [**графический**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) объект. Передайте имя файла (или указатель на поток) в конструктор **изображений** . После создания объекта **Image** передайте адрес этого объекта **изображения** методу **DrawImage** **графического** объекта.
 
@@ -39,6 +39,6 @@ Bitmap bitmap(hIcon);
 graphics.DrawImage(&bitmap, 10, 10);
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
-[Пример приложения GDI+ для средства просмотра WIC](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)
+[средство просмотра WIC GDI+ пример приложения](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/wic/wicviewergdiplus)

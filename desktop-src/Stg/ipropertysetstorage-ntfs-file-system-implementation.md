@@ -6,12 +6,12 @@ keywords:
 - IPropertySetStorage Стрктд STG, реализации, файловая система NTFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0d647b9cb804376a9efeb687b1524585ee938d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0794e2905cd9e8bd06804decb756b3f1f639c75e837b2d5f3181bb73939717f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "105661736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683044"
 ---
 # <a name="ipropertysetstorage-ntfs-file-system-implementation"></a>IPropertySetStorage — реализация файловой системы NTFS
 
@@ -32,19 +32,19 @@ NTFS версии 5,0 обеспечивает реализацию [**IProperty
 
 ## <a name="compatibility"></a>Совместимость
 
-Реализации [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) в NTFS доступны начиная с Windows 2000. Более ранние версии не могут получить доступ к этим наборам свойств.
+реализации [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) в NTFS доступны начиная с Windows 2000. Более ранние версии не могут получить доступ к этим наборам свойств.
 
 В реализации NTFS наборы свойств хранятся в альтернативных потоках файла NTFS. При копировании основного файла необходимо скопировать альтернативные потоки.
 
 > [!Caution]  
 > Не все файловые системы поддерживают такие потоки. Если файл NTFS с наборами свойств копируется на том FAT, копируются только данные из этого файла. набор свойств потерян. Функция [**CopyFile**](/windows/desktop/api/winbase/nf-winbase-copyfile) не возвращает ошибку в этом случае.
 
- 
+ 
 
 > [!Caution]  
-> Если компьютер, на котором выполняется копирование файлов, не является компьютером под Windows 2000 или более поздней версии, набор свойств может быть потерян. Например, если компьютер, работающий под управлением операционной системы Windows 95, копирует файл NTFS, набор свойств будет потерян, даже если файл назначения также находится на томе NTFS.
+> если компьютер, на котором выполняется копирование файлов, не является компьютером, работающим на Windows 2000 или более поздней версии, наборы свойств могут быть потеряны. например, если компьютер, работающий под управлением операционной системы Windows 95, копирует файл NTFS, набор свойств будет потерян, даже если файл назначения также находится на томе NTFS.
 
- 
+ 
 
 ## <a name="methods"></a>Методы
 
@@ -80,7 +80,7 @@ NTFS версии 5,0 обеспечивает реализацию [**IProperty
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Реализации наборов свойств хранилища [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) и [**ипропертистораже**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) в файловой системе NTFS не влияют на содержимое этого файла. Например, если создать свойство, заданное в HTML-файле с именем Default.htm, этот файл по-прежнему будет отображаться правильно в браузере. Это значит, что изменения в файле, использующие эти два интерфейса, не обнаруживаются при доступе к файлу с помощью функции [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) .
 
@@ -88,7 +88,7 @@ NTFS версии 5,0 обеспечивает реализацию [**IProperty
 
 Реализация [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) в NTFS отличается от реализации составного файла следующими способами:
 
--   Структура [**статпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) , полученная из интерфейса [**иенумстатпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) , содержит элемент **CLSID** , значение которого всегда равно нулю (**CLSID \_ null**). При реализации составного файла правильный элемент **CLSID** возвращается для непростых (см. раздел [объекты хранилища и потоковая передача для набора](storage-vs--stream-for-a-property-set.md)свойств).
+-   Структура [**статпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) , полученная из интерфейса [**иенумстатпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) , содержит элемент **CLSID** , значение которого всегда равно нулю (**CLSID \_ null**). при реализации составного файла правильный элемент **clsid** возвращается для непростых (см. [служба хранилища и объекты потока для наборов свойств](storage-vs--stream-for-a-property-set.md)).
 -   При получении реализации [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) интерфейса для NTFS с помощью функции [**стгкреатесторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) или [**стгопенсторажеекс**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) параметр *грфмоде* должен соответствовать тем же правилам, что и для реализации составного файла.
 
     Кроме того, нельзя использовать следующие флаги:
@@ -103,7 +103,7 @@ NTFS версии 5,0 обеспечивает реализацию [**IProperty
 
     Например Если [**IPROPERTYSETSTORAGE**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) NTFS открывается в режиме **стгм \_ Read \| стгм \_ \_ монопольного доступа**, а файл не имеет наборов свойств, можно одновременно открыть файл **стгм \_ ReadWrite \| стгм в \_ \_ монопольном доступе**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -125,6 +125,6 @@ NTFS версии 5,0 обеспечивает реализацию [**IProperty
 [**статпропсетстг**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

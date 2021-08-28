@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3bf626c250c454aad12fb53813c0249ca529ba97
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7d30055d5734389300fb227a75694b8fe29334bb2ff7f5ce0773395252a4f57a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681754"
 ---
 # <a name="reset-method-of-the-msvm_diskettecontroller-class"></a>Метод Reset \_ класса мсвм дискеттеконтроллер
 
@@ -63,7 +63,7 @@ uint32 Reset();
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

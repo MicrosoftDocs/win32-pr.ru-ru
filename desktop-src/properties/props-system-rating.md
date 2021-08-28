@@ -1,19 +1,19 @@
 ---
-description: Система оценок, использующая целочисленные значения от 1 до 99. Это система оценки, используемая оболочкой Windows Vista.
+description: Система оценок, использующая целочисленные значения от 1 до 99. это система оценки, используемая оболочкой Windows Vista.
 ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
 title: System. Оценка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e411e313f0fa6042a8cbe3a076a7166928020af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9adc62e69ced0f82426f19badb1aebef0453084a9b951b749aed256aa64820a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598134"
 ---
 # <a name="systemrating"></a>System. Оценка
 
-Система оценок, использующая целочисленные значения от 1 до 99. Это система оценки, используемая оболочкой Windows Vista.
+Система оценок, использующая целочисленные значения от 1 до 99. это система оценки, используемая оболочкой Windows Vista.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, версия 1703, Windows 10, версия 1607, Windows 10, версия 1511, Windows 10, версия 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -137,11 +137,11 @@ propertyDescription
             minValue = 100
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-Сведения о совместимости с системами оценок, которые используют значения от 1 до 5, см. в свойстве [System. симплератинг](./props-system-simplerating.md). Однако обратите внимание, что System. Симплератинг не используется в оболочке Windows Vista.
+Сведения о совместимости с системами оценок, которые используют значения от 1 до 5, см. в свойстве [System. симплератинг](./props-system-simplerating.md). однако обратите внимание, что System. симплератинг не используется в оболочке Windows Vista.
 
 В следующей таблице описывается, что означает система оценки, используемая в пользовательском интерфейсе оболочки, в терминах значения [System. рейтингов]() .
 
@@ -193,7 +193,7 @@ propertyDescription
 
 Если в файле имеются сохраненные значения [System. Оценка]() и [System. симплератинг](./props-system-simplerating.md) , всегда используйте значение System. рейтингов при запросе непосредственно, без ссылки на System. симплератинг.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

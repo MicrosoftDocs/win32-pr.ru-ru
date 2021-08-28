@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 92a300f292633e3d54264349e79491360c7017c38c62da60a953d36371189791
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 499b18d4ab8f94e9dc6636c4fa06439da425dd63
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118499515"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478700"
 ---
 # <a name="xmunibble4-constructors"></a>Конструкторы XMUNIBBLE4
 
@@ -33,78 +33,20 @@ ms.locfileid: "118499515"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMUNIBBLE4</code><br/> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"> <strong>XMUNIBBLE4</strong></a><br/>
-<blockquote>
-[!Note]<br />
-Он доступен только для разработки на основе C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(uint16_t)"><strong>XMUNIBBLE4 (uint16_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUNIBBLE</code> из <code>uint16_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из <code>uint16_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>float</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>float</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const uint8_t *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>uint8_t</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>uint8_t</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (float, float, float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>float</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (uint8_t, uint8_t, uint8_t, uint8_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>uint8_t</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>uint8_t</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 ()</strong></a> | Конструктор по умолчанию для <code>XMUNIBBLE4</code><br /> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"> <strong>XMUNIBBLE4</strong></a><br /><blockquote>[!Note]<br />Он доступен только для разработки на основе C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(uint16_t)"><strong>XMUNIBBLE4 (uint16_t)</strong></a> | Инициализирует новый экземпляр <code>XMUNIBBLE</code> из <code>uint16_t</code> переменной, содержащей данные компонента, в упакованном формате. <br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из <code>uint16_t</code> переменной, содержащей данные компонента, в упакованном формате. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constfloat)"><strong>XMUNIBBLE4 (const float *)</strong></a> | Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>float</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>float</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const uint8_t *)</strong></a> | Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>uint8_t</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>uint8_t</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (float, float, float, float)</strong></a> | Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>float</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>float</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (uint8_t, uint8_t, uint8_t, uint8_t)</strong></a> | Инициализирует новый экземпляр <code>XMUNIBBLE4</code> из четырех <code>uint8_t</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> из четырех <code>uint8_t</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

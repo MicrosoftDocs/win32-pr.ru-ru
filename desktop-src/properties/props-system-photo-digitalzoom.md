@@ -4,12 +4,12 @@ ms.assetid: 1164e2c9-0864-4520-a3be-0c29a5b70ba4
 title: System. photo. Дигиталзум
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b681b898b8faadcf4366e9d7668975e598d95c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e47f98b4ff65f541160804c41f0b6bcd0218d04514a079f39374b222e15013cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103998338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598314"
 ---
 # <a name="systemphotodigitalzoom"></a>System. photo. Дигиталзум
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

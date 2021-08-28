@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 50baf125d2e5375bddb63a41a0d10ae063a57b78
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fa3e7b701649b07a9a6da9c0faeed6e0594d1c0e145126c533f87e06249fb8c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104000367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119283"
 ---
 # <a name="d3dxcreatevolumetexture-function"></a>Функция D3DXCreateVolumeTexture
 
@@ -135,7 +135,7 @@ HRESULT D3DXCreateVolumeTexture(
 
 Если функция выполнена успешно, возвращается значение D3D \_ ОК. Если функция завершается ошибкой, возвращаемое значение может быть одним из следующих: D3DERR \_ NOTAVAILABLE, D3DERR \_ АУТОФВИДЕОМЕМОРИ, D3DERR \_ инвалидкалл, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 На внутреннем уровне D3DXCreateVolumeTexture использует [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) для настройки параметров вызова. Таким образом, вызовы D3DXCreateVolumeTexture часто завершаются успешно, когда вызовы [**креатеволуметекстуре**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createvolumetexture) завершатся сбоем.
 
@@ -145,12 +145,12 @@ HRESULT D3DXCreateVolumeTexture(
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3dx9tex. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

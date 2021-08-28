@@ -4,12 +4,12 @@ ms.assetid: 8b0d86ad-2f8b-4f5e-a8a6-839cb8dba4d8
 title: Механизм расширения Provider-Specific
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e58a8bba3c83e7dbf973ff8fe5b7d91c1065cfc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed627aefdfefda2bf4b395098f6680086fd37dd7a302d977d9bf238f77d89d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104144971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733574"
 ---
 # <a name="provider-specific-extension-mechanism"></a>Механизм расширения Provider-Specific
 
@@ -19,7 +19,7 @@ ms.locfileid: "104144971"
 
 Идентификаторы, назначенные функциям расширения, являются глобально уникальными идентификаторами (GUID), которые назначаются поставщиками поставщиков услуг. Поставщики, создающие функции расширения, законодателей для публикации полных сведений о функции, включая синтаксис прототипа функции. Это делает возможным предложение для распространенных и популярных функций расширения более чем одним поставщиком поставщика услуг. Приложение может получить указатель на функцию и использовать функцию без необходимости знать о конкретном поставщике услуг, реализующем функцию.
 
-В Windows Vista и более поздних версиях новые системные расширения Winsock экспортируются непосредственно из библиотеки Winsock DLL, поэтому для загрузки этих расширений не требуется функция [**всаиоктл**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) . Новые функции расширения, доступные в Windows Vista и более поздних версиях, включают функции [**всаполл**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) и [**всасендмсг**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) , экспортированные из *Ws2 \_32.dll*.
+в Windows Vista и более поздних версиях новые системные расширения winsock экспортируются непосредственно из библиотеки winsock DLL, поэтому для загрузки этих расширений не требуется функция [**всаиоктл**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) . новые функции расширения, доступные в Windows Vista и более поздних версиях, включают функции [**всаполл**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) и [**всасендмсг**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) , экспортированные из *Ws2 \_32.dll*.
 
  
 

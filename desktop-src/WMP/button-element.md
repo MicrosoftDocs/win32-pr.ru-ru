@@ -3,19 +3,19 @@ title: Элемент BUTTON (WMP)
 description: BUTTON, элемент
 ms.assetid: 2818ff6a-4fc5-4150-9ff9-ff143feb9204
 keywords:
-- Обложки проигрывателя Windows Media, элемент BUTTON
+- обложки проигрыватель Windows Media, элемент BUTTON
 - обложки, элемент BUTTON
 - BUTTON, элемент
 - Справочник по обложкам, элементу BUTTON
 - элементы, кнопка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c069207e15be62e06b4d2b18f13c052026932dc
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 13ca4e57dafdc01fc194c4cf4bc534e067297a58fcc2527939e3672f2d705628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "103785142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736734"
 ---
 # <a name="button-element"></a>BUTTON, элемент
 
@@ -42,7 +42,7 @@ ms.locfileid: "103785142"
 
 
 
- 
+ 
 
 Элемент **Button** поддерживает атрибуты окружения и может реализовывать обработчики событий окружения. Дополнительные сведения см. в разделе [атрибуты окружения](ambient-attributes.md) и [обработчики событий окружения](ambient-event-handlers.md).
 
@@ -62,25 +62,25 @@ ms.locfileid: "103785142"
 | [PLAYBUTTON](playbutton.md)         | **Кнопка** с встроенным вызовом **Player. Controls. Play** при щелчке.        |
 | [превбуттон](prevbutton.md)         | **Кнопка** с встроенным вызовом **Player. Controls. Previous** при щелчке.    |
 | [REPEATBUTTON](repeatbutton.md)     | **Кнопка** , которая переключает параметр REPEAT.                                       |
-| [ретурнбуттон](returnbutton.md)     | **Кнопка** , которая возвращает проигрыватель Windows Media в Media Center.                |
+| [ретурнбуттон](returnbutton.md)     | **кнопка** , возвращающая проигрыватель Windows Media в Media center.                |
 | [ревбуттон](rewbutton.md)           | **Кнопка** с встроенным вызовом **Player. Controls. фастреверсе** при щелчке. |
 | [шуффлебуттон](shufflebutton.md)   | **Кнопка** , которая переключает параметр "случайный".                                      |
 | [стопбуттон](stopbutton.md)         | **Кнопка** с встроенным вызовом **Player. Controls. останавливаться** при щелчке.        |
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**Справочник по программированию для обложки**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

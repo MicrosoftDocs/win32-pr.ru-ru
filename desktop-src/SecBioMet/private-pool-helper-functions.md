@@ -4,12 +4,12 @@ description: Содержит вспомогательные функции дл
 ms.assetid: 90FED859-0DCD-43D5-9940-675127232968
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dab289c5e97c9d19e088b2ec195a83eacb37ef3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 187079da11436cdb3ab0ab360ca8473563c72fbc1fd1ff40ff4f23e0c579f940
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977034"
 ---
 # <a name="private-pool-helper-functions"></a>Вспомогательные функции частного пула
 
@@ -23,7 +23,7 @@ ms.locfileid: "103778956"
 
 ## <a name="targetverh"></a>Targetver. h
 
-Этот пример был создан для операционных систем Windows 7 и более поздних версий.
+этот пример был создан для Windows 7 и более поздних операционных систем.
 
 
 ```C++
@@ -1521,9 +1521,9 @@ ConvertRejectDetailToString(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

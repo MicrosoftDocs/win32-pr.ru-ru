@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd10539518b22f596e42afd56324c90b881412b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e747688ba80c08a39b0336fda126ae7d85a558f53c97aab230bc5d3d0113b360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681624"
 ---
 # <a name="registeredtaskrun-method"></a>Регистередтаск. Run, метод
 
@@ -69,7 +69,7 @@ RegisteredTask.Run( _
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **регистередтаск. Run** эквивалентна функции [**регистередтаск. рунекс**](registeredtask-runex.md) с параметром flags, равным 0, и ничего не указано для параметра пользователя.
 
@@ -81,8 +81,8 @@ RegisteredTask.Run( _
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                    |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                    |
 | Библиотека типов<br/>             | <dl> <dt>Тасксчд. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

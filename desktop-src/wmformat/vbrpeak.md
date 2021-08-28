@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e8aacb076c3e92cfa676e73e945506cc4942bf4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: af9163e64aa3d309af8fd35626b7a4c0397ba4c949213ef351c1ac73ee9575a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104069092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704844"
 ---
 # <a name="vbrpeak"></a>вбрпеак
 
@@ -31,7 +31,7 @@ g \_ всзвбрпеак
 
 **ВМТ, \_ тип \_ DWORD**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При доступе к интерфейсу **IWMHeaderInfo3** объекта Writer можно добавить или изменить это значение. В других объектах (редактор метаданных, читатель и синхронное средство чтения) это значение доступно только для чтения.
 
@@ -44,9 +44,9 @@ g \_ всзвбрпеак
 [**Список атрибутов**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

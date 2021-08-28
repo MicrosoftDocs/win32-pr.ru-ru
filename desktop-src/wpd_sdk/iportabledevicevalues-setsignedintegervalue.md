@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 26a5d01ec69203c39008de394e3693acc833d262
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71e5354c730671a4be5f344bb2503683f497003ddccecbd250490304f607e9ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704734"
 ---
 # <a name="iportabledevicevaluessetsignedintegervalue-method"></a>Метод Ипортабледевицевалуес:: Сетсигнединтежервалуе
 
@@ -69,7 +69,7 @@ HRESULT SetSignedIntegerValue(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если существующее значение имеет тот же ключ, что и параметр *Key* , он перезаписывает существующее значение без предупреждения.
 
@@ -79,7 +79,7 @@ HRESULT SetSignedIntegerValue(
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
+| Заголовок<br/>  | <dl> <dt>Портабледевицетипес. h</dt> </dl>   |
 | Библиотека<br/> | <dl> <dt>Портабледевицегуидс. lib</dt> </dl> |
 
 

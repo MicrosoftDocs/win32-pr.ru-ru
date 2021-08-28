@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ee0f235d7549428ecf02e9c758c83bcea33efe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa307a55963f6773682e81a08bf7d45e064c9a5bd7213f5d2d426a8d44be70b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105662242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789894"
 ---
 # <a name="msvm_guestfileservice-class"></a>\_Класс мсвм гуестфилесервице
 
@@ -72,7 +72,7 @@ class Msvm_GuestFileService : Msvm_GuestService
 
 | Метод                                                             | Описание                                                                                                                                                                  |
 |:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**копифилестогуест**](copyfilestoguest-msvm-guestfileservice.md) | Копирует файлы с узла Hyper-V на виртуальную машину.<br/> **Windows 8.1:** Этот метод не поддерживается до Windows 8.1 и Windows Server 2012 R2.<br/> |
+| [**копифилестогуест**](copyfilestoguest-msvm-guestfileservice.md) | Копирует файлы с узла Hyper-V на виртуальную машину.<br/> **Windows 8.1:** этот метод не поддерживается до Windows 8.1 и Windows Server 2012 R2.<br/> |
 | **StartService**                                                   | Этот метод не поддерживается.<br/>                                                                                                                                     |
 | **StopService**                                                    | Этот метод не поддерживается.<br/>                                                                                                                                     |
 
@@ -86,7 +86,7 @@ class Msvm_GuestFileService : Msvm_GuestService
 
 <dl> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -138,7 +138,7 @@ class Msvm_GuestFileService : Msvm_GuestService
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -266,21 +266,21 @@ class Msvm_GuestFileService : Msvm_GuestService
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                            |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                                 |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                                 |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c573c1e94cd473d22483c7b6a2c801c3e6bcb9dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2b0be2915bf8a128b096f9c1903a2c30c90e45adb77c390a396875d2f66fb3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732484"
 ---
 # <a name="swbemobjectinstances_-method"></a>SWbemObject. Instances, \_ метод
 
@@ -181,7 +181,7 @@ objWbemObjectSet = .Instances_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Метод **Instances \_** работает только для объектов класса. Возвращаемая коллекция не содержит нулевых элементов. Поведение по умолчанию для этого метода — [*семисинчронаус*](gloss-s.md) из-за значения *ифлагс* по умолчанию **вбемфлагретурниммедиатели**.
 
@@ -193,7 +193,7 @@ objWbemObjectSet = .Instances_( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECT CLSID<br/>                                                           |
@@ -201,7 +201,7 @@ objWbemObjectSet = .Instances_( _
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

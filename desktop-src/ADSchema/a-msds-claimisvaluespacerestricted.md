@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953b4ea4e81033d7f4ce889bf7fd593c91f8bb2b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 316adde6a5ab9c13b3a5464f02c3cfb9230b1785e2f1efc5615feb42e9c8e294
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "105655201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119552704"
 ---
 # <a name="ms-ds-claim-is-value-space-restricted-attribute"></a>MS-DS-заявка-имеет значение, ограниченное пространством, атрибутом
 
@@ -36,7 +36,7 @@ ms.locfileid: "105655201"
 | Частота обновления  | \-                                    |
 | Attribute-Id      | 1.2.840.113556.1.4.2159               |
 | System-ID — GUID    | 0c2ce4c7-f1c3-4482-8578-c60d4bb74422  |
-| Синтаксис            | [**Логическая**](s-boolean.md)          |
+| Синтаксис            | [**Логическое**](s-boolean.md)          |
 
 
 
@@ -52,10 +52,10 @@ ms.locfileid: "105655201"
 |------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Идентификатор ссылки                | \-                                                                                                              |
 | MAPI-Id                | \-                                                                                                              |
-| System-Only            | True                                                                                                            |
-| Является однозначным       | True                                                                                                            |
-| Индексируется             | Неверно                                                                                                           |
-| В глобальном каталоге      | Неверно                                                                                                           |
+| System-Only            | Верно                                                                                                            |
+| Является однозначным       | Верно                                                                                                            |
+| Индексируется             | Нет                                                                                                           |
+| В глобальном каталоге      | Нет                                                                                                           |
 | NT-Security-дескриптор | О:БАГ: BAD: S:                                                                                                    |
 | Range-Lower            | \-                                                                                                              |
 | Range-Upper            | \-                                                                                                              |

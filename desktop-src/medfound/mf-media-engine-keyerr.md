@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 22dd22a7771f5d1e9466709f0b0da9ee936ef2b9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5a3573f721f31ffbe3858c7d6fb3c713468bc347f04a1b5d85c5839a1e18511b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104351345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113934"
 ---
 # <a name="mf_media_engine_keyerr-enumeration"></a>\_ \_ Перечисление кэйерр для механизма передачи мультимедиа MF \_
 
@@ -86,23 +86,23 @@ typedef enum _MF_MEDIA_ENGINE_KEYERR {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **MF \_ MEDIA \_ Engine \_ кэйерр** используется с параметром *Code* [**имфмедиакэйсессионнотифи:: кэйеррор**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror) и значением *Code* , возвращенным методом [**имфмедиакэйсессион::-Error**](imfmediakeysession-geterror.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только Windows 8.1 Классические приложения\]<br/>                                                 |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2012 R2 \[\]<br/>                                      |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ только классические приложения\]<br/>                                                 |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[Только классические приложения R2\]<br/>                                      |
 | IDL<br/>                      | <dl> <dt>Мфмедиаенгине. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
