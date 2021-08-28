@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c8ae995dcc9398ec0ee650388af761399f752a02bba4c365cf5d39f35a03973f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a2a6aecc46c091e44463b74870807873f73053f7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118203793"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882665"
 ---
 # <a name="archive-certification-requirements-for-windows-desktop-apps-v12"></a>архив: требования к сертификации для приложений Windows Desktop v 1.2
 
@@ -93,7 +93,7 @@ ms.locfileid: "118203793"
 
 -   DisplayName
 -   InstallLocation
--   Издатель
+-   Publisher
 -   UninstallString
 -   VersionMajor или MajorVersion
 -   VersionMinor или MinorVersion
@@ -155,8 +155,8 @@ ms.locfileid: "118203793"
 -   > запуска в меню "Пуск" Аллпрограмс
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\Папка  
-10,5. приложение не должно выполнять запись непосредственно в каталог "Windows" и в подкаталоги <dl> Используйте правильные методы для установки файлов, таких как шрифты или драйверы.  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Используйте правильные методы для установки файлов, таких как шрифты или драйверы.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> При установке приложения отсутствует правильное расположение пользователя для хранения данных. Попытки приложения изменить поведение связи по умолчанию на уровне компьютера после установки будут неудачными. Вместо этого значения по умолчанию должны задаваться на уровне отдельных пользователей, что не позволяет нескольким пользователям перезаписывать значения по умолчанию для других пользователей.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> Отказ требуется для приложений, которые записывают в приложения .NET глобального кэша сборок (GAC), должны сохранять зависимости сборки в закрытом виде и хранить их в каталоге приложения, если только не требуется совместное использование сборки.  
 </dl> </dd> </dl>

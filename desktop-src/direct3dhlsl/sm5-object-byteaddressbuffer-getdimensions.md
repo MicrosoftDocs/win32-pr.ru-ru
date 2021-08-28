@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1cbb705789e444a6fa54aeb87190912996f65621
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 398b5a6dba995a11dcf4ce8a78fecee9bb185ce98ec285453bdd52c1180a4eb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104998014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067724"
 ---
 # <a name="byteaddressbuffergetdimensions-function"></a>Функция Битеаддрессбуффер:: Dimension
 
@@ -49,7 +49,7 @@ void GetDimensions(
 
 Эта функция не возвращает значение.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -63,7 +63,7 @@ void GetDimensions(
 
  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

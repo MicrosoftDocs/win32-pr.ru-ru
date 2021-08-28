@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 92fc492fddb6ad024a4507829e81dab4886af590
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e3a6f9283d8714d513dad63c6057f9c30c24dcc5ace601ddbc764a1f8b207a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104133890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981654"
 ---
 # <a name="load2uintuint-function"></a>Load2 (uint, uint), функция
 
@@ -29,8 +29,8 @@ ms.locfileid: "104133890"
 
 ``` syntax
 uint2 Load2(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -64,7 +64,7 @@ uint2 Load2(
 
 Два значения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Эта функция поддерживается для следующих типов шейдеров:
 
@@ -76,7 +76,7 @@ uint2 Load2(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>См. также раздел
 
@@ -85,6 +85,6 @@ uint2 Load2(
 [Методы Load2](rwbyteaddressbuffer-load2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

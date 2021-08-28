@@ -4,12 +4,12 @@ ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: использование платформа .NET Framework 4 с приложениями, созданными на основе более ранних версий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c400f38efe93d2fc77d5de1f700b550f455f3e29db8ba96ef778771d82158c76
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a12eb34b00cfe14a18e83e7726f1ffa962ba03f8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884751"
 ---
 # <a name="using-net-framework-4-with-applications-built-on-earlier-versions"></a>использование платформа .NET Framework 4 с приложениями, созданными на основе более ранних версий
 
@@ -43,7 +43,7 @@ ms.locfileid: "118994574"
 
 ## <a name="solution"></a>Решение
 
-для запуска приложений, созданных с помощью более ранних версий платформа .NET Framework с платформа .NET Framework 4, необходимо скомпилировать приложение для целевой версии платформа .NET Framework 4, указав его в свойствах проекта в Microsoft Visual Studio, или можно указать платформа .NET Framework 4 в [**<supportedRuntime> элементе**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71)) в файле конфигурации приложения.
+для запуска приложений, созданных с помощью более ранних версий платформа .NET Framework с платформа .NET Framework 4, необходимо скомпилировать приложение для целевой версии платформа .NET Framework 4, указав его в свойствах проекта в Microsoft Visual Studio, или можно указать платформа .NET Framework 4 в [**&lt; &gt; элементе supportedRuntime**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71)) в файле конфигурации приложения.
 
 дополнительные сведения о переходе на платформа .NET Framework 4 см. в разделе [руководство по миграции по платформа .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100)) и [совместимости версий в платформа .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100)).
 
@@ -55,7 +55,7 @@ ms.locfileid: "118994574"
 
 ## <a name="links-to-other-resources"></a>Ссылки на другие ресурсы
 
--   [**<supportedRuntime> дерев**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
+-   [**&lt;supportedRuntime, &gt; элемент**](/previous-versions/dotnet/netframework-1.1/w4atty68(v=vs.71))
 -   [Руководство. Миграция в .NET Framework 4](/previous-versions/dotnet/netframework-4.0/ff657133(v=vs.100))
 -   [Совместимость версий в .NET Framework](/previous-versions/dotnet/netframework-4.0/ff602939(v=vs.100))
 -   **пошаговое руководство по совместимости приложений платформа .NET Framework 4 RTM:**<https://msdn.microsoft.com/library/dd889541.aspx>

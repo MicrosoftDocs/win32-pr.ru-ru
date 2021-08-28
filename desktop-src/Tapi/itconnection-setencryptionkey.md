@@ -4,16 +4,16 @@ ms.assetid: 9efcf90e-3645-49f4-b27d-9a8246637310
 title: 'Метод Итконнектион:: SetEncryptionKey (Сдпблб. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91d0ce079d3815897c348e553df0af8dece8592b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c36b3fc9e37338b17aa00d19213118b1243ec70d2f21d21060fdd43894121566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105685313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406134"
 ---
 # <a name="itconnectionsetencryptionkey-method"></a>Метод Итконнектион:: SetEncryptionKey
 
-\[ В Windows Vista, Windows Server 2008 и последующих версиях операционной системы нельзя использовать встречные средства и элементы управления Конференц-телефонией и интерфейсы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[встречи и элементы управления встречными IP-телефонными соединениями недоступны для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 Метод **SetEncryptionKey** задает ключ шифрования, необходимый для расшифровки сеанса, или указывает механизм для получения используемого ключа внешним средством.
 
@@ -61,11 +61,11 @@ HRESULT SetEncryptionKey(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно использовать [**сисаллокстринг**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) для выделения памяти для параметров *пкэйтипе* и *ппкэйдата* . Приложение должно использовать [**сисфристринг**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) для освобождения памяти, когда переменные больше не нужны.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 

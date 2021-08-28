@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: aea2cdfda61e557ff790b59e7af2a05d914d3403
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 270ef6c61bcbb0aad6800177537a8efd4dedf75c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106388774"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481730"
 ---
 # <a name="span-idwwan_profile_v4element_1_userlogoncredspanmodemdmconfigprofileuserlogoncred-v4"></a><span id="WWAN_profile_v4.element_1_UserLogonCred"></span>Модемдмконфигпрофиле \/ ... \/ Усерлогонкред (v4)
 
@@ -52,7 +52,7 @@ ms.locfileid: "106388774"
 </UserLogonCred>
 ```
 
-### <a name="key"></a>Ключ
+### <a name="key"></a>Клавиши
 
 `?`   необязательно (ноль или один)
 
@@ -60,80 +60,35 @@ ms.locfileid: "106388774"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Дочерний элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-ignorepassword.md">игнорепассворд</a></td>
-<td><p>Указывает способ обработки паролей при обновлении профилей.</p>
-<p>Если задано значение <strong>true</strong> и профиль с тем же именем существует во время операции обновления, то пароль из этого профиля будет создан и сохранен в новом профиле.</p>
-<p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>игнорепассворд</strong></a> v1.</p></td>
-</tr>
-<tr class="even">
-<td><a href="element-1-password.md">Пароль</a></td>
-<td><p>Указывает пароль, используемый для проверки подлинности пользователя.</p>
-<p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-password-userlogoncred-element.md"><strong>пароля</strong></a> v1.</p></td>
-</tr>
-<tr class="odd">
-<td><a href="element-1-username.md">UserName</a></td>
-<td><p>Имя пользователя, используемое для входа в систему.</p>
-<p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-username-userlogoncred-element.md"><strong>имени пользователя</strong></a> v1.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Дочерний элемент | Описание | 
+|---------------|-------------|
+| <a href="element-1-ignorepassword.md">игнорепассворд</a> | <p>Указывает способ обработки паролей при обновлении профилей.</p><p>Если задано значение <strong>true</strong> и профиль с тем же именем существует во время операции обновления, то пароль из этого профиля будет создан и сохранен в новом профиле.</p><p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-ignorepassword-userlogoncred-element.md"><strong>игнорепассворд</strong></a> v1.</p> | 
+| <a href="element-1-password.md">Пароль</a> | <p>Указывает пароль, используемый для проверки подлинности пользователя.</p><p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-password-userlogoncred-element.md"><strong>пароля</strong></a> v1.</p> | 
+| <a href="element-1-username.md">UserName</a> | <p>Имя пользователя, используемое для входа в систему.</p><p>Дополнительные сведения см. в документации по элементу <a href="../mbn/schema-username-userlogoncred-element.md"><strong>имени пользователя</strong></a> v1.</p> | 
+
 
  
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-context.md">Контекст</a></td>
-<td><p>Задает параметры, необходимые для установления подключения к данным.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-1-context.md">Контекст</a> | <p>Задает параметры, необходимые для установления подключения к данным.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

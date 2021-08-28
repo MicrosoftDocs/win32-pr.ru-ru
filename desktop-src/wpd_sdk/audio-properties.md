@@ -1,5 +1,5 @@
 ---
-description: Портативные устройства Windows поддерживают следующие свойства аудио.
+description: Windows Портативные устройства поддерживают следующие свойства аудио.
 ms.assetid: 5d6c6a95-abb7-4191-a961-bcb30ca96bb6
 title: Свойства аудио (Портабледевице. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 1bdab201fc987d5bc1aff3638fbb57358115fdce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93ddbee0eb078c1b9d5a1e7c64288e95b47e2bdb0363bf8b7b19cb773129d0ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119590414"
 ---
 # <a name="audio-properties"></a>Свойства звука
 
-Портативные устройства Windows поддерживают следующие свойства аудио.
+Windows Портативные устройства поддерживают следующие свойства аудио.
 
 
 
@@ -38,17 +38,17 @@ ms.locfileid: "105694743"
 
  
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Портабледевице. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

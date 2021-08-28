@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af5635a6f996ea6cd3af2c3b3022efa054cd27605430c8230143980e00b9abbd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f36a5fd244f0dc814de2414b5642fc4f57ca744a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117826473"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883255"
 ---
-# <a name="d2d1createfactoryfactoryd2d1_factory_typefactory-function"></a><Factory>Функция D2D1CreateFactory ( \_ Тип фабрики D2D1 \_ , фабрика \* \* )
+# <a name="d2d1createfactoryltfactorygtd2d1_factory_typefactory-function"></a>&lt;Фабрика D2D1CreateFactory &gt; ( \_ Тип фабрики D2D1 \_ , фабрика \* \* )
 
 Создает объект фабрики, который можно использовать для создания ресурсов Direct2D.
 
@@ -81,7 +81,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

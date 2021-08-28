@@ -3,7 +3,7 @@ title: Сообщение WM_UNDO (Winuser. h)
 description: Приложение отправляет \_ сообщение об отмене WM в элемент управления "поле ввода" для отмены последней операции. При отправке этого сообщения в элемент управления правки ранее удаленный текст восстанавливается или удаляется ранее добавленный текст.
 ms.assetid: bb5a3425-bf99-4a08-8747-82c24c5889ad
 keywords:
-- Элементы управления Windows для WM_UNDO сообщений
+- элементы управления Windows сообщений WM_UNDO
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5eb9182b6d8d3fc1360565f6661e989f3b6d0d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b6e4bd0715b7eeb5f99f34f5142ac3198c5c1eae53cf4486c3efce9dace19a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119311344"
 ---
 # <a name="wm_undo-message"></a>\_Сообщение об отмене WM
 
@@ -49,19 +49,19 @@ ms.locfileid: "104491418"
 
 Если сообщение не выполняется, возвращается значение **false**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **Расширенное редактирование:** Вместо команды **\_ отмены WM** рекомендуется использовать [**\_ отмену EM**](em-undo.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Header<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

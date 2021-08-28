@@ -19,12 +19,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 058b03b8a3311aad805f47a04d20e9f1fa8c2477
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fd31df9f84883c8b677ea4fef0431ed762b4cec2155cb3d600893a40e3e1d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119612634"
 ---
 # <a name="__eventqueueoverflowevent-class"></a>\_\_Класс Евенткуеуеоверфловевент
 
@@ -51,7 +51,7 @@ class __EventQueueOverflowEvent : __EventDroppedEvent
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **\_ \_ евенткуеуеоверфловевент** имеет следующие свойства.
 
@@ -124,13 +124,13 @@ class __EventQueueOverflowEvent : __EventDroppedEvent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Только пользователи с правами администратора могут получить это событие. Класс **\_ \_ евенткуеуеоверфловевент** является производным от [**\_ \_ евентдроппедевент**](--eventdroppedevent.md).
 
 Дополнительные сведения см. в описании свойства [**максимумкуеуесизе**](--eventconsumer.md) класса [**\_ \_ евентконсумер**](--eventconsumer.md) и свойства [**хигхсрешолдоневентс**](/windows/desktop/CIMWin32Prov/win32-wmisetting) в классе **Win32 \_ вмисеттинг** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -142,7 +142,7 @@ class __EventQueueOverflowEvent : __EventDroppedEvent
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 007e0f4d-fb37-4dec-96a7-311df567eb04
 title: Атрибут MF_BYTESTREAM_IFO_FILE_URI (Мфобжектс. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c80e015b68272b073c442b4064c80a6787b811
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab4349f3319a875f428921b0a99aefa61e49340c240a87260c1132abcc7c45f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105683123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723474"
 ---
 # <a name="mf_bytestream_ifo_file_uri-attribute"></a>\_ \_ \_ Атрибут URI файла ИФО MF BYTESTREAM \_
 
@@ -29,7 +29,7 @@ ms.locfileid: "105683123"
 
 [**имфбитестреам**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Поток байтов HTTP выполняет поиск строки "ifoFileURI.dlna.org" в заголовке HTTP. Если строка найдена, она копируется в этот атрибут потока байтов.
 
@@ -41,9 +41,9 @@ ms.locfileid: "105683123"
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 7 \|\]<br/>                                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2008 R2 \|\]<br/>                                           |
-| Header<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | \[приложения UWP для классических приложений Windows 7 \|\]<br/>                                                        |
+| Минимальная версия сервера<br/> | Windows \[Приложения UWP для настольных приложений Server 2008 R2 \|\]<br/>                                           |
+| Заголовок<br/>                   | <dl> <dt>Мфобжектс. h (включение Мфидл. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ description: Тип данных IVgVector2D VML
 ms.assetid: e4455d07-53f6-4d35-a70f-dbf969b32c26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6fe82e50f9ff7afde762a8e1d8f769de2cb1b790231725a716cfd0add387986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e9c0ac511bee78b5a9635babc6fe858ea6941a29
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118599413"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482340"
 ---
 # <a name="vml-ivgvector2d-data-type"></a>Тип данных IVgVector2D VML
 
@@ -24,45 +24,14 @@ ms.locfileid: "118599413"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Атрибуты</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Значение</td>
-<td>Строка. Текстовое представление обоих векторных чисел, разделенных пробелом.</td>
-</tr>
-<tr class="even">
-<td>X</td>
-<td>Дважды. Компонент X этого вектора.</td>
-</tr>
-<tr class="odd">
-<td>Да</td>
-<td>Дважды. Компонент Y этого вектора.</td>
-</tr>
-<tr class="even">
-<td>Тип</td>
-<td>Вгвектортипе. Для этого вектора ожидались единицы. Возможны следующие значения.
-<ul>
-<li>Мера</li>
-<li>Длина</li>
-<li>англеиндегрис</li>
-<li>Fraction</li>
-<li>Число</li>
-<li>Процент</li>
-<li>Целое число</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Атрибуты | Описание | 
+|------------|-------------|
+| Значение | Строка. Текстовое представление обоих векторных чисел, разделенных пробелом. | 
+| X | Дважды. Компонент X этого вектора. | 
+| Да | Дважды. Компонент Y этого вектора. | 
+| Тип | Вгвектортипе. Для этого вектора ожидались единицы. Возможны следующие значения.<ul><li>Мера</li><li>Длина</li><li>англеиндегрис</li><li>Fraction</li><li>Число</li><li>Процент</li><li>Целое число</li></ul> | 
+
 
 
 

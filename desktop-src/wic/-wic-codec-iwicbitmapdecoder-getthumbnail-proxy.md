@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 3fb4d6ae050772bb6392e1d94c88ef5bfc23d2ba
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d663ac34e74baf7b3f6f4476dde207b1ee05e81ff3bd47fe4b219f2f83efafca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119592564"
 ---
 # <a name="iwicbitmapdecoder_getthumbnail_proxy-function"></a>\_ \_ Функция Ивикбитмапдекодер-эскиза
 
@@ -73,8 +73,8 @@ HRESULT IWICBitmapDecoder_GetThumbnail_Proxy(
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), \[ только классические приложения Windows Vista\]<br/>                                                                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/>                                                                                                             |
+| Минимальная версия клиента<br/> | Windows XP с пакетом обновления 2 (SP2), Windows \[ только классические приложения Vista\]<br/>                                                                                              |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll; </dt> <dt>Винкодек. lib</dt> </dl> |
 
 

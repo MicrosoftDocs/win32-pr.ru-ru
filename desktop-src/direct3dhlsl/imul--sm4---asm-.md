@@ -4,12 +4,12 @@ description: Умножение целого числа со знаком.
 ms.assetid: DB95A38F-54E4-4BB6-81DF-CFFEBB4D425B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 997f62fc389ad1e0fb6b23dd6c419ff8b3933b41
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 87eabcc07dc5c6a662494c71a26c5f60e5fa1053265e3740ad3605ed685771a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103784959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986494"
 ---
 # <a name="imul-sm4---asm"></a>imul (SM4-ASM)
 
@@ -37,7 +37,7 @@ ms.locfileid: "103784959"
 
  
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Покомпонентное умножение 32-разрядных операндов *src0* и *src1* (они подписываются), создавая правильный полный 64-разрядный (на каждый компонент) результат. Младшие 32 бит (на компонент) помещаются в *дестло*. Старшие 32 бит (на компонент) помещаются в *Десси*.
 
@@ -65,9 +65,9 @@ ms.locfileid: "103784959"
 
 | Модель шейдера                                              | Поддерживается |
 |-----------------------------------------------------------|-----------|
-| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | да       |
-| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | да       |
-| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | да       |
+| [Модель шейдера 5](d3d11-graphics-reference-sm5.md)        | Да       |
+| [Модель шейдера 4,1](dx-graphics-hlsl-sm4.md)              | Да       |
+| [Модель шейдера 4](dx-graphics-hlsl-sm4.md)                | Да       |
 | [Модель шейдера 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Нет        |
 | [Модель шейдера 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Нет        |
 | [Модель шейдера 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Нет        |
@@ -76,7 +76,7 @@ ms.locfileid: "103784959"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: c5685cfb909a7fa24c39dff969076269845a663e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2e6c1dcc60b0b0ef74e40f235ba0b3d16b4288e0225e0ca92270d2d03f3ccd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965554"
 ---
 # <a name="ec_dvd_title_set_change"></a>\_ \_ изменение набора заголовков DVD EC \_ \_
 
@@ -42,7 +42,7 @@ ms.locfileid: "105675248"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 По умолчанию это событие отключено. Чтобы включить это событие, вызовите [**IDvdControl2:: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) и установите для параметра **\_ нотифипоситиончанже DVD** значение **true**.
 
@@ -52,7 +52,7 @@ ms.locfileid: "105675248"
 
 | Требование | Значение |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Двдевкоде. h (включение DShow. h)</dt> </dl> |
 
 
 

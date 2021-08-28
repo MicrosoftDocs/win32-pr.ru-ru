@@ -4,27 +4,27 @@ description: Пользователь может выбрать текст в э
 ms.assetid: A529792C-DFA7-4BE1-8607-5A1556B64626
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ec776ab0c8e07bb61dcc0e12d13af46b17d094a
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 1a6e60ef0ba4aa9a8034256c8c272950f4983d16c0195737065563b378e14202
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103789360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434644"
 ---
 # <a name="how-to-interact-with-the-current-selection"></a>Как взаимодействовать с текущим выделением
 
 Пользователь может выбрать текст в элементе управления Rich Edit с помощью мыши или клавиатуры. *Текущий выделенный фрагмент* — это диапазон выбранных символов или позиция точки вставки, если ни одна из символов не выбрана. Приложение может получить сведения о текущем выделении, задать его, определить, когда оно изменяется, а также показать или скрыть выделение выделения.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
--   [Элементы управления Windows](window-controls.md)
+-   [Windows Элементы управления](window-controls.md)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
--   Программирование пользовательского интерфейса Windows
+-   Windows Программирование пользовательского интерфейса
 
 ## <a name="instructions"></a>Инструкции
 
@@ -40,19 +40,19 @@ ms.locfileid: "103789360"
 
 В качестве альтернативы использованию сообщений [**EM \_ Ексжетсел**](em-exgetsel.md) и [**EM \_ екссетсел**](em-exsetsel.md) можно получить и установить текущий выбор с помощью управляющих сообщений [**EM \_ жетсел**](em-getsel.md) и [**EM \_ сетсел**](em-setsel.md) . Пакеты **\_ жетсел** сообщений с пакетом EM 2 16-разрядные индексы в 32-битное возвращаемое значение и, следовательно, работают только для выбора, которые полностью находятся в пределах первых 64 КБ. Тем не менее, элемент управления "поле ввода" никогда не будет содержать более 32 000 символов текста, если не расширить это ограничение с помощью сообщения [**EM \_ Лимиттекст**](em-limittext.md) или [**EM \_ екслимиттекст**](em-exlimittext.md) . Для выбора, который выходит за пределы первых 64 КБ текста, **сообщение \_ жетсел EM** возвращает значение – 1. В этом случае можно по-прежнему использовать значения, возвращаемые в *wParam* и *lParam* , для поиска начального и конечного символов выделения.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Использование элементов управления Rich Edit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Демонстрация стандартных элементов управления Windows (Кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[демонстрация Windows стандартных элементов управления (кппвиндовскоммонконтролс)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

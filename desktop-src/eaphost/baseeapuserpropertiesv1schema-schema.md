@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a8261109117735e00711766c4f187c2dd9256c7e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 04e0d1abe2a634c582771d04506b24d52e11d237a86ad3b65d8d6eddaba4950c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103793944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067344"
 ---
 # <a name="baseeapuserpropertiesv1-schema"></a>Схема baseeapuserpropertiesv1
 
@@ -23,16 +23,16 @@ ms.locfileid: "103793944"
 -   [Элементы схемы baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-elements.md)
 -   [Сложные типы схемы baseeapuserpropertiesv1](baseeapuserpropertiesv1schema-complex-types.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [EAPHost и схема прежних версий](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: КУСТОМСЛИДЕР. Ховеримаже
 description: Атрибут Ховеримаже указывает или получает изображение, которое отображается при наведении мыши на пользовательский ползунок.
 ms.assetid: b5d10289-280c-4578-83e8-6259249ff448
 keywords:
-- Проигрыватель Windows Media КУСТОМСЛИДЕР. Ховеримаже
+- кустомслидер. ховеримаже проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 361f7d903b6231e92f331ab38a3a9f51bc3ec679
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d12f337c8d4889e0d2e94bac0c0a4dce74f3a80fda9261d245b91ce5612754d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105698949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651404"
 ---
 # <a name="customsliderhoverimage"></a>КУСТОМСЛИДЕР. Ховеримаже
 
@@ -31,7 +31,7 @@ ms.locfileid: "105698949"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей имя файла изображения.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут является необязательным. Если он не указан, будет использоваться файл, указанный в атрибуте **Image** .
 
@@ -39,17 +39,17 @@ ms.locfileid: "105698949"
 
 Поддерживаются следующие типы файлов изображений: BMP, JPG, PNG и GIF (не включая анимированные GIF).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

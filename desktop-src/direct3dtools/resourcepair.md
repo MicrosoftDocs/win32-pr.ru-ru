@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c4afb51e1785e0e34822acdb0add5045d9183cb8b8a58ad040277dad5cebf7d8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: eb07bfa5155a57eafd12732dc2a4005c8d4e1f0a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892194"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629206"
 ---
 # <a name="span-idvspixengineresourcepairspanresourcepair-structure"></a><span id="vspixengine.resourcepair"></span>Структура Ресаурцепаир
 
@@ -35,17 +35,17 @@ ms.locfileid: "119892194"
 } ResourcePair;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
-**id**  
+**идентификатор**  
 Идентификатор, идентифицирующий ресурс. Дополнительные сведения см. в разделе \_ Перечисление идентификаторов ресурсов.
 
 **value**  
 Строка COM, контианинг значение общего ресурса.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

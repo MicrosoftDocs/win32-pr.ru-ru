@@ -4,12 +4,12 @@ ms.assetid: c534e853-b61f-414d-befe-8d3c4bf08d22
 title: Константы прав доступа к файлам (WinNT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf3e0a34cedbf106e2a2793b2a126a224c2f18c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 378b04514f303c746d17b7e14a42c8a7a8fc467c9eca181ec2cbc52775b3d80d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105684377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050904"
 ---
 # <a name="file-access-rights-constants"></a>Константы прав доступа к файлам
 
@@ -39,15 +39,15 @@ ms.locfileid: "105684377"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                   |
-| Header<br/>                   | <dl> <dt>Файл WinNT. h (включая Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                            |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                   |
+| Заголовок<br/>                   | <dl> <dt>WinNT. h (включает Windows. h)</dt> </dl> |
 
 
 

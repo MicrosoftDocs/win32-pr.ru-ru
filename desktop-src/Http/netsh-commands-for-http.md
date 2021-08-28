@@ -4,18 +4,18 @@ description: Для запроса и настройки параметров HT
 ms.assetid: 695c309c-ab43-4c6a-b5f6-5bb9f715bf71
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55f6e0fdd0813284e36d2fb9fb826929c67df63c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 878d6056b57ab4d488128c299cf7631d2557419ff2fe6d3f1bf484a05204850a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047134"
 ---
 # <a name="netsh-commands-for-http"></a>Команды Netsh для HTTP
 
 Для запроса и настройки параметров HTTP.sys и параметров можно использовать контекстные команды Netsh для протокола HTTP.
 
-Эти команды можно выполнить из командной строки в операционной системе Windows Vista или в командной строке для контекста **netsh http** . Чтобы эти команды работали в командной строке Windows Vista, необходимо ввести команду **netsh http** перед вводом команд и параметров, как показано в приведенном ниже синтаксисе. Чтобы просмотреть справку для команды в командной строке, введите * CommandName ***/?**, где *CommandName* — имя команды.
+эти команды можно выполнить из командной строки в операционной системе Windows Vista или в командной строке для контекста **netsh http** . чтобы эти команды работали в командной строке в Windows Vista, необходимо ввести команду **netsh http** перед вводом команд и параметров, как показано в приведенном ниже синтаксисе. Чтобы просмотреть справку для команды в командной строке, введите * CommandName ***/?**, где *CommandName* — имя команды.
 
 Чтобы просмотреть синтаксис команды, см. команды:
 
@@ -36,9 +36,9 @@ ms.locfileid: "103778071"
 -   [**show timeout**](show-timeout.md)
 -   [**show urlacl**](show-urlacl.md)
 
- 
+ 
 
- 
+ 
 
 
 

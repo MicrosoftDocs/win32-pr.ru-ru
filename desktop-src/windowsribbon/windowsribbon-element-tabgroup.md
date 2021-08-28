@@ -3,7 +3,7 @@ title: Табграуп, элемент
 description: Представляет контекстный набор элементов управления "Вкладка".
 ms.assetid: f131efe1-b8c4-416e-997a-5e2d3bcc03ea
 keywords:
-- Лента Windows для элемента Табграуп
+- элемент табграуп Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 55e2801ae8726fe10933b45e592e6f633f6455ea
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444065"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622100"
 ---
 # <a name="tabgroup-element"></a>Табграуп, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "111444065"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -157,12 +157,12 @@ ms.locfileid: "111444065"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-- **Минимальная поддерживаемая система**: Windows 7 
+- **минимальная поддерживаемая система**: Windows 7 
 - **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

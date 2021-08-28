@@ -4,24 +4,24 @@ ms.assetid: 615a5534-7c9e-4240-9a23-35f224122d0e
 title: 64-разрядные пакеты установщик Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b34c8ff7ce4809dc44932cc8a5daa978b6ff66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 540ef7afc5c70eeba2bb24eb376eae8e52b8e55cec2c8622ccdcf18a804b6f91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103909159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119559544"
 ---
 # <a name="64-bit-windows-installer-packages"></a>64-разрядные пакеты установщик Windows
 
-64-разрядный пакет содержит частично или полностью 64-разрядные [установщик Windows](windows-installer-components.md) компонентов. В следующем списке перечислены требования для каждого 64-разрядного пакета установщик Windows.
+64-разрядный пакет содержит частично или полностью 64-разрядные [установщик Windows](windows-installer-components.md) компонентов. в следующем списке перечислены требования для каждого 64-разрядного пакета установщик Windows.
 
 -   Значение "Intel64" необходимо указать в поле "платформа" Свойства " [**Сводка" шаблона**](template-summary.md) , только если пакет выполняется на процессоре Intel64 (Itanium).
 -   Значение "x64" необходимо указать в поле "платформа" Свойства " [**Сводка" шаблона**](template-summary.md) , только если пакет выполняется на процессоре x64.
 -   Значение "Arm64" необходимо указать в поле "платформа" Свойства " [**Сводка" шаблона**](template-summary.md) , только если пакет выполняется в процессоре Arm64.
--   Для свойства " [**Сводка количества страниц**](page-count-summary.md) " должно быть задано целое число 200 или больше, поскольку установщик Windows 2,0 — это минимальная версия, способная устанавливать 64-разрядные компоненты. Пакеты для платформы Arm64 должны иметь значение 500 или выше.
--   Каждый 64-разрядный компонент установщик Windows в пакете должен включать бит **msidbComponentAttributes64bit** в столбец Attributes [таблицы Component](component-table.md).
+-   для свойства " [**сводка количества страниц**](page-count-summary.md) " должно быть задано целое число 200 или больше, поскольку установщик Windows 2,0 — это минимальная версия, способная устанавливать 64-разрядные компоненты. Пакеты для платформы Arm64 должны иметь значение 500 или выше.
+-   каждый 64-разрядный компонент установщик Windows в пакете должен включать бит **msidbComponentAttributes64bit** в столбец attributes [таблицы component](component-table.md).
 
-Дополнительные сведения см. [в разделе установщик Windows на 64-разрядных операционных системах](windows-installer-on-64-bit-operating-systems.md) и [32-разрядных установщик Windows пакетах](32-bit-windows-installer-packages.md).
+дополнительные сведения см. [в разделе установщик Windows на 64-разрядных операционных системах](windows-installer-on-64-bit-operating-systems.md) и [32-разрядных установщик Windows пакетах](32-bit-windows-installer-packages.md).
 
  
 

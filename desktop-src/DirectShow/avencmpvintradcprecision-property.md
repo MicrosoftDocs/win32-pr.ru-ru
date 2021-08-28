@@ -4,12 +4,12 @@ ms.assetid: 2b4d11c1-767c-4466-8291-7959d841ae65
 title: Свойство АвенкмпвинтрадкпреЦисион (Кодекапи. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55d4bdd3c08f49586eb2663829271ae4166d917e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0e50d4a6b222d9860a16216a1395b9f5a2b10d23e6242315a61e8224d37810c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103894813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276134"
 ---
 # <a name="avencmpvintradcprecision-property"></a>АвенкмпвинтрадкпреЦисион, свойство
 
@@ -29,18 +29,18 @@ ms.locfileid: "103894813"
 
 Это свойство имеет линейный Диапазон значений. Чтобы получить поддерживаемый диапазон, вызовите метод [**икодекапи:: жетпараметерранже**](/windows/desktop/api/Strmif/nf-strmif-icodecapi-getparameterrange).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Обычный диапазон для этого свойства — от 8 до 11 бит. Если значение равно нулю, кодировщик выбирает точность.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Приложения Windows 2000 Professional \[ классические приложения \| UWP\]<br/>                     |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
+| Минимальная версия клиента<br/> | Windows 2000 Professional приложения \[ UWP для классических приложений \|\]<br/>                     |
+| Минимальная версия сервера<br/> | \[приложения UWP для классических приложений Windows 2000 \|\]<br/>                           |
 | Header<br/>                   | <dl> <dt>Кодекапи. h</dt> </dl> |
 
 

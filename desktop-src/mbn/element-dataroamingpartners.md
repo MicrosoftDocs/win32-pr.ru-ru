@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: eb304a89faca2381f8c8c0ede6ba743f740c4d0f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: f43f2cba06d75aa08a6419c0b39fa08bf898c111
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122468901"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987097"
 ---
 # <a name="span-idwwan_profile_v4element_dataroamingpartnersspandataroamingpartners"></a><span id="WWAN_profile_v4.element_DataRoamingPartners"></span>DataRoamingPartners
 
@@ -31,8 +31,8 @@ ms.locfileid: "122468901"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<DataRoamingPartners>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;DataRoamingPartners&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -45,7 +45,7 @@ ms.locfileid: "122468901"
 </DataRoamingPartners>
 ```
 
-### <a name="key"></a>Клавиши
+### <a name="key"></a>Ключ
 
 `+`   обязательный (один или несколько)
 
@@ -53,7 +53,7 @@ ms.locfileid: "122468901"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
@@ -78,7 +78,9 @@ ms.locfileid: "122468901"
 ## <a name="requirements"></a>Требования
 
 
-| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

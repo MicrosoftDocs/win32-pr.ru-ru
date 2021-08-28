@@ -18,12 +18,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: bd21268b86a07357065d4f33b60d1af4b05fa019
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea85726220f94baeee02298246caffc70de4e688984ccd6fac3a4ac87ae11d52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720124"
 ---
 # <a name="closeprinter-function"></a>Функция Клосепринтер
 
@@ -57,7 +57,7 @@ BOOL ClosePrinter(
 
 Если функция выполняется неудачно, возвращается нулевое значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 > [!Note]  
 > Это блокирующая или синхронная функция, которая может не возвращать значение немедленно. Скорость возврата этой функцией зависит от факторов времени выполнения, таких как состояние сети, Конфигурация сервера печати и факторы реализации драйвера принтера, которые трудно предсказать при написании приложения. Вызов этой функции из потока, который управляет взаимодействием с пользовательским интерфейсом, может привести к невозможности реагирования приложения.
@@ -70,7 +70,7 @@ BOOL ClosePrinter(
 
 Пример программы, использующей эту функцию, см. в разделе [инструкции. печать с помощью API печати GDI](how-to--print-using-the-gdi-print-api.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -78,13 +78,13 @@ BOOL ClosePrinter(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Винспул. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

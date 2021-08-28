@@ -3,7 +3,7 @@ title: Сообщение EM_SETTOUCHOPTIONS (RichEdit. h)
 description: Задает параметры касания, связанные с элементом управления Rich Edit.
 ms.assetid: C15036D6-B74F-414D-B731-F1587B616644
 keywords:
-- Элементы управления Windows для EM_SETTOUCHOPTIONS сообщений
+- элементы управления Windows сообщений EM_SETTOUCHOPTIONS
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7613679a574955ef726da9fa10e8d919c8fe53b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ea2f372d1e59a76ea13667e994534df1088fe1c78c51c30ac54db1b4dfeed2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048014"
 ---
 # <a name="em_settouchoptions-message"></a>\_Сообщение СЕТТАУЧОПТИОНС EM
 
@@ -58,19 +58,19 @@ ms.locfileid: "104491199"
 
 Это сообщение возвращает ноль.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

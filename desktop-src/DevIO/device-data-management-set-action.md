@@ -4,12 +4,12 @@ ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
 title: DEVICE_DATA_MANAGEMENT_SET_ACTION (Виниоктл. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 524d1dbd2ecf09dbcfa66fa766089dde7cf04a0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 602243e31645e1cc4706e3a3a2b954bb68fc2cbda58a0f0b6c9076ae6b0797f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654924"
 ---
 # <a name="device_data_management_set_action"></a>\_ \_ \_ действие установки управления данными \_ устройства
 
@@ -66,7 +66,7 @@ ms.locfileid: "103895873"
 
 Выполняется действие разгрузки чтения. Параметры находятся в структуре [**\_ \_ \_ \_ параметров чтения модуля DSM устройства разгрузки**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters) . Выходные данные находятся в структуре [**хранения, \_ разгрузкой для \_ \_ выходных данных чтения**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_read_output) . **\_ Неразрушающий** (0x80000000) девицедсмактионфлаг — это битовый флаг, указывающий стеку драйверов на то, что эта операция не разрушается.
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -81,7 +81,7 @@ ms.locfileid: "103895873"
 
 Выполняется действие разгрузки записи. Параметры находятся в структуре [**\_ \_ \_ \_ параметров записи для разгрузки модуля DSM устройства**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters) . Выходные данные находятся в структуре [**\_ \_ \_ выходных данных разгрузки хранилища**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_write_output) .
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -96,7 +96,7 @@ ms.locfileid: "103895873"
 
 Для первого переданного диапазона набора данных возвращается битовая карта выделения. Выходные данные находятся в структуре [**\_ \_ \_ \_ \_ состояния подготовки балансировки нагрузки данных устройства**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state) . **\_ Неразрушающий** (0x80000000) девицедсмактионфлаг — это битовый флаг, указывающий стеку драйверов на то, что эта операция не разрушается.
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -111,7 +111,7 @@ ms.locfileid: "103895873"
 
 Выполняется действие по восстановлению. **\_ Неразрушающий** (0x80000000) девицедсмактионфлаг — это битовый флаг, указывающий стеку драйверов на то, что эта операция не разрушается.
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -126,7 +126,7 @@ ms.locfileid: "103895873"
 
 Выполняется действие очистки. **\_ Неразрушающий** (0x80000000) девицедсмактионфлаг — это битовый флаг, указывающий стеку драйверов на то, что эта операция не разрушается.
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -141,12 +141,12 @@ ms.locfileid: "103895873"
 
 Выполняется действие устойчивости. **\_ Неразрушающий** (0x80000000) девицедсмактионфлаг — это битовый флаг, указывающий стеку драйверов на то, что эта операция не разрушается.
 
-**Windows 7 и Windows Server 2008 R2:** Это значение не поддерживается до Windows 8 и Windows Server 2012.
+**Windows 7 и Windows Server 2008 R2:** это значение не поддерживается до Windows 8 и Windows Server 2012.
 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -154,7 +154,7 @@ ms.locfileid: "103895873"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 7<br/>                                                                                      |
 | Минимальная версия сервера<br/> | Windows Server 2008 R2<br/>                                                                         |
-| Header<br/>                   | <dl> <dt>Виниоктл. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>виниоктл. h (включает Windows. h)</dt> </dl> |
 
 
 

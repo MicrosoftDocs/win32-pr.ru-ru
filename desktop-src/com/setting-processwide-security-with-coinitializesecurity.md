@@ -4,12 +4,12 @@ description: Функция CoInitializeSecurity позволяет управл
 ms.assetid: 20b66868-fb9a-489f-97a2-59a8a825c8d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 567a6dfaf47dbd278fc248558cd25969c733b24a
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 88c3e601897e9f2313682a3474c1760bc211285d8fa81a82f67d114681a7a57f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610894"
 ---
 # <a name="setting-process-wide-security-with-coinitializesecurity"></a>Настройка безопасности Process-Wide с помощью CoInitializeSecurity
 
@@ -23,7 +23,7 @@ ms.locfileid: "104413853"
 
 Если приложение имеет очень специализированные требования к безопасности, такие как предоставление определенным группам доступа к различным объектам в зависимости от времени суток, может потребоваться программно управлять всей безопасностью, гарантируя, что COM не будет выполнять автоматическую проверку. Для этого необходимо вызвать [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity), присвоив параметру *двауснлевел* значение None, а параметр *pVoid* — **значение NULL**. При наличии собственного пакета безопасности его также необходимо зарегистрировать в параметре *пауснсвк* . Затем вы можете управлять всеми собственными средствами безопасности с помощью вызовов интерфейса уровня прокси-сервера и функций, описанных в разделе [Настройка безопасности на уровне прокси интерфейса](setting-security-at-the-interface-proxy-level.md).
 
-[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) предлагает широкий набор возможностей. При вызове **CoInitializeSecurity** значения реестра игнорируются, а вместо них используются значения инициализации безопасности, передаваемые в вызов. В зависимости от нужного результата первый параметр, *pVoid*, может указывать на три различных типа значений: [**\_ дескриптор безопасности**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , объект [**иакцессконтрол**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) или указатель на AppID. В большинстве случаев для создания **\_ дескриптора безопасности** , который будет указывать *pVoid* , будут использоваться функции Windows.
+[**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) предлагает широкий набор возможностей. При вызове **CoInitializeSecurity** значения реестра игнорируются, а вместо них используются значения инициализации безопасности, передаваемые в вызов. В зависимости от нужного результата первый параметр, *pVoid*, может указывать на три различных типа значений: [**\_ дескриптор безопасности**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) , объект [**иакцессконтрол**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) или указатель на AppID. в большинстве случаев для создания **\_ дескриптора безопасности** , который будет указывать *pVoid* , будут использоваться функции Windows.
 
 Однако *pVoid* также может указывать на объект [**иакцессконтрол**](/windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol) .
 
@@ -31,13 +31,13 @@ ms.locfileid: "104413853"
 
 Другой тип значения, который можно передать в параметр *pVoid* , — это указатель на идентификатор GUID, который является идентификатором приложения. Если *pVoid* является указателем на AppID, необходимо указать еоак \_ AppID в параметре *пкапабилитиес* , чтобы функция знала, какое значение должно быть в *pVoid*. Если *pVoid* указывает на AppID, [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) использует только реестр для значений проверки подлинности и игнорирует все остальные параметры до **CoInitializeSecurity**.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Настройка безопасности Process-Wide](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

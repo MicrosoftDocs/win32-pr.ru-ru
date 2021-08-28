@@ -1,17 +1,17 @@
 ---
 description: Метрики используются для измерения аспектов производительности сети и протокола.
 ms.assetid: ee5faaf6-e230-4084-9829-e8cae8759587
-title: Терминология сети (сокеты Windows 2)
+title: терминология сети (сокеты Windows 2)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b04e84621cdaec2638762d54f67e5aca7e3d55ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3d0c5fc67932b5c756ae52b9a7ffefef0f18c2728f2b2773de3741d0e5b7d41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794774"
 ---
-# <a name="network-terminology-windows-sockets-2"></a>Терминология сети (сокеты Windows 2)
+# <a name="network-terminology-windows-sockets-2"></a>терминология сети (сокеты Windows 2)
 
 Метрики используются для измерения аспектов производительности сети и протокола. Значения для таких метрик в различных сценариях указывают на уровень производительности сетевого приложения. В этом разделе определяются термины и метрики, используемые во всей отрасли для измерения производительности сетевых приложений. Эти термины используются в оставшейся части этого руководств.
 

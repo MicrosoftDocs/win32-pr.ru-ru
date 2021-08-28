@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0418665851bc1f4cf5d8e7df6b7c696d4458b869
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 333f447805a970c111d3884caae1c016803081f2
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122481250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984337"
 ---
 # <a name="jetsetcurrentindex-function"></a>Функция JetSetCurrentIndex
 
@@ -96,7 +96,14 @@ _**Применимо к:** Windows | Windows Сервером_
 #### <a name="requirements"></a>Требования
 
 
-| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетсеткуррентиндексв</strong> (Юникод) и <strong>жетсеткуррентиндекса</strong> (ANSI).</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
+| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетсеткуррентиндексв</strong> (Юникод) и <strong>жетсеткуррентиндекса</strong> (ANSI).</p> | 
 
 
 

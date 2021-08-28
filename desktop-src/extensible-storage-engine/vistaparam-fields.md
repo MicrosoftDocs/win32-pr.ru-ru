@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 55104336
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6e20c4b784b9a4421c447f24d5736d7c6ef67f41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3684f6d50ba0ca107614276776e375bc90b32a0d0e3e0112dded07b6e9e5bcdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718854"
 ---
 # <a name="vistaparam-fields"></a>Поля Вистапарам
 
@@ -27,7 +27,7 @@ ms.locfileid: "104565699"
 <thead>
 <tr class="header">
 <th> </th>
-<th>name</th>
+<th>Имя</th>
 <th>Описание</th>
 </tr>
 </thead>
@@ -148,7 +148,7 @@ ms.locfileid: "104565699"
 
 Начало
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

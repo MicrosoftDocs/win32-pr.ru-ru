@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b84de9a4f64db5dda261b8ee177787f62fd01ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f94c9911fb7ab974f87cfed41e92b53ac0a66cb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105702800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983567"
 ---
 # <a name="jet_threadstats-structure"></a>Структура JET_THREADSTATS
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_threadstats-structure"></a>Структура JET_THREADSTATS
 
 Структура **JET_THREADSTATS** содержит совокупную статистику по работе, выполненной ядром СУБД в текущем потоке. Эти сведения возвращаются через [жетжетсреадстатс](./jetgetthreadstats-function.md).
 
-**Windows Vista:**  Структура **JET_THREADSTATS** появилась в Windows Vista.
+**Windows Vista:**  структура **JET_THREADSTATS** появилась в Windows Vista.
 
 ```cpp
     typedef struct {
@@ -84,26 +84,13 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista.</p> | 
+| <p><strong>Server</strong></p> | <p>требуется Windows Server 2008.</p> | 
+| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

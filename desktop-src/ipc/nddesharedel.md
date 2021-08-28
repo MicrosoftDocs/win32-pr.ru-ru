@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 2d57307c157c532e124699b6bfb2ed666f374722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0efd5bb41712e8bee2ee7a5e789d1b006a490c932b48386de27f56a8b1150f6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105682433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611104"
 ---
 # <a name="nddesharedel-function"></a>Функция Нддешаредел
 
-\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают НДДЕ \_ не \_ реализован.\]
+\[Сетевой DDE больше не поддерживается. Nddeapi.dll имеется в Windows Vista, но все вызовы функций возвращают ндде \_ не \_ реализованы.\]
 
 Удаляет общую папку DDE из диспетчера общей базы данных DDE (DSDM).
 
@@ -72,11 +72,11 @@ UINT NDdeShareDel(
 
 Если функция завершается ошибкой, возвращаемое значение является кодом ошибки, который может быть преобразован в текстовое сообщение об ошибке путем вызова [**нддежетеррорстринг**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы удалить общий ресурс DDE из DSDM, необходимо иметь соответствующие права доступа. Автор общего ресурса имеет право на удаление.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -91,11 +91,11 @@ UINT NDdeShareDel(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Общие сведения о сетевом платформа динамических данных Exchange](network-dynamic-data-exchange.md)
+[общие сведения о Exchange сетевых платформа динамических данных](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Сетевые функции DDE](network-dde-functions.md)

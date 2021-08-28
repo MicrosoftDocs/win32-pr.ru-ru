@@ -4,12 +4,12 @@ description: Создание глобальной таблицы интерфе
 ms.assetid: e8e46642-ef41-4322-97d0-8dd5b7c72992
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f792f9664da554f6522086796f94a00ccdf0dc07
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 836cc5507ac9b8e7cccd6e9dc8fd8c2d71e1a23419945ecc01d35b3978940124
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793774"
 ---
 # <a name="creating-the-global-interface-table"></a>Создание глобальной таблицы интерфейса
 
@@ -30,7 +30,7 @@ if (hr != S_OK) {
 > [!Note]  
 > При создании объекта глобальной таблицы интерфейса с помощью предыдущего вызова необходимо создать ссылку на библиотеку UUID. lib. Это позволит разрешить внешние символы CLSID \_ стдглобалинтерфацетабле и IID \_ иглобалинтерфацетабле.
 
- 
+ 
 
 Для каждого процесса существует единственный экземпляр глобальной таблицы интерфейса, поэтому все вызовы этой функции в процессе возвращают один и тот же экземпляр.
 
@@ -44,13 +44,13 @@ if (hr != S_OK) {
 
 COM предоставляет стандартную реализацию интерфейса [**иглобалинтерфацетабле**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable) . Настоятельно рекомендуется использовать эту стандартную реализацию, так как она предоставляет полноценные потокобезопасные функции.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Когда следует использовать глобальную таблицу интерфейса](when-to-use-the-global-interface-table.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Сообщение HDM_GETITEM (Коммктрл. h)
 description: Возвращает сведения об элементе в элементе управления "заголовок". Вы можете явно отправить это сообщение или использовать макрос Header \_ .
 ms.assetid: fb1330d3-fd28-490c-9caa-4b2b5ff86ba0
 keywords:
-- Элементы управления Windows для HDM_GETITEM сообщений
+- элементы управления Windows сообщений HDM_GETITEM
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2073602121480930e0f7d9d2e5a904c0dea77ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 566f8b8e3bdf4e92abfb1fdd5874b8514814792e1d7aae169cc2aca4b2e8d101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104135963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119436194"
 ---
 # <a name="hdm_getitem-message"></a>Сообщение о выходе \_ элемента HDM
 
@@ -49,18 +49,18 @@ ms.locfileid: "104135963"
 
 Возвращает **значение true** , если успешно, или **false** в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если в элементе \_ **Mask** структуры [**хдитем**](/windows/win32/api/commctrl/ns-commctrl-hditema) задан флаг HDi Text, элемент управления может изменить элемент **псзтекст** структуры так, чтобы он указывал на новый текст вместо заполнения буфера запрошенным текстом. Приложения не должны рассчитывать, что текст всегда будет помещен в запрошенный буфер.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **Разъем HDM \_ ЖЕТИТЕМВ** (Юникод) и **HDM- \_ элемент** a (ANSI)<br/>                   |
 

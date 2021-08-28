@@ -3,7 +3,7 @@ title: Group, элемент
 description: Представляет элемент управления "Группа", который выступает в качестве контейнера для группы элементов.
 ms.assetid: b0d3fcda-7165-40f4-9e57-c7ab88b31711
 keywords:
-- Лента для элементов группы
+- элемент группы Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 86d12ddb781ecf7e1effba1cade8eb00e92fe20b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442875"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631372"
 ---
 # <a name="group-element"></a>Group, элемент
 
@@ -41,10 +41,10 @@ ms.locfileid: "111442875"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -86,7 +86,7 @@ ms.locfileid: "111442875"
 
 | Элемент                                                                             | Описание                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Button**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
+| [**Кнопка**](windowsribbon-element-button.md)<br/>                           | Может происходить один или несколько раз<br/> <br/> |
 | [**Установка**](windowsribbon-element-checkbox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Может происходить один или несколько раз<br/> <br/> |
 | [**контролграуп**](windowsribbon-element-controlgroup.md)<br/>               | Может происходить один или несколько раз<br/> <br/> |
@@ -138,12 +138,12 @@ ms.locfileid: "111442875"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: нет
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

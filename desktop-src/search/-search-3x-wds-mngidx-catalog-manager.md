@@ -4,12 +4,12 @@ ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: Использование диспетчера каталогов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deffc748c504b056e9d3f92dc8dcb127b835bec6
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: ccc114941f3b9a622012f978e1062d835b5f46eb329be73ae2652b032e5fcfa5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937984"
 ---
 # <a name="using-the-catalog-manager"></a>Использование диспетчера каталогов
 
@@ -65,15 +65,54 @@ ms.locfileid: "122472330"
 
 В следующей таблице описаны методы Исеарчкаталогманажер, используемые для управления состоянием каталога.
 
-
-| Метод | Описание | 
-|--------|-------------|
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>урлбеингиндексед</strong></a> | Возвращает URL-адрес, который индексируется в данный момент. Этот метод будет полезен при попытке определить, был ли индексатор "завис" для элемента. | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>нумберофитемс</strong></a> | Возвращает число элементов в каталоге. | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>нумберофитемстоиндекс</strong></a> | Извлекает следующие сведения о индексируемых элементах:<ul><li>Плинкременталкаунт — число элементов, которые будут индексироваться в следующем инкрементном индексе</li><li>Плнотификатионкуеуе — число элементов в очереди уведомлений. Эта информация будет полезна для приложения уведомления, которое потребовало бы проверить, получает ли индексатор уведомления, отправляемые приложением.</li><li>Плхигхприоритикуеуе — число элементов в очереди с высоким приоритетом. Сначала индексируются элементы в Плхигхприоритикуеуе.</li></ul> | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>жеткаталогстатус</strong></a> | Возвращает состояние каталога и возвращает значение перечисления, которое предоставляет текущее состояние. Ниже приведены возможные состояния каталога.<ul><li>Бездействие: индексирование не требуется.</li><li>Приостановлено: индексирование приостановлено (например, из-за низкого заряда батареи или высокой загрузки ЦП).</li><li>Восстановление. Индексация восстанавливается.</li><li>Полный обход содержимого: индексатор выполняет полный обход области сканирования.</li><li>Добавочное сканирование: индексатор выполняет добавочное сканирование.</li><li>Обработка уведомлений: индексатор обрабатывает уведомления.</li><li>Завершение работы: индексатор завершает работу.</li></ul> | 
-| <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a> | Возвращает имя текущего каталога, указанного в методе <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>исеарчманажер::-catalog</strong></a> . В настоящее время поддерживается только каталог Системиндекс. | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Метод</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-urlbeingindexed"><strong>урлбеингиндексед</strong></a></td>
+<td>Возвращает URL-адрес, который индексируется в данный момент. Этот метод будет полезен при попытке определить, был ли индексатор &quot; зависнуть &quot; в элементе.</td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitems"><strong>нумберофитемс</strong></a></td>
+<td>Возвращает число элементов в каталоге.</td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-numberofitemstoindex"><strong>нумберофитемстоиндекс</strong></a></td>
+<td>Извлекает следующие сведения о индексируемых элементах:
+<ul>
+<li>Плинкременталкаунт — число элементов, которые будут индексироваться в следующем инкрементном индексе</li>
+<li>Плнотификатионкуеуе — число элементов в очереди уведомлений. Эта информация будет полезна для приложения уведомления, которое потребовало бы проверить, получает ли индексатор уведомления, отправляемые приложением.</li>
+<li>Плхигхприоритикуеуе — число элементов в очереди с высоким приоритетом. Сначала индексируются элементы в Плхигхприоритикуеуе.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getcatalogstatus"><strong>жеткаталогстатус</strong></a></td>
+<td>Возвращает состояние каталога и возвращает значение перечисления, которое предоставляет текущее состояние. Ниже приведены возможные состояния каталога.
+<ul>
+<li>Бездействие: индексирование не требуется.</li>
+<li>Приостановлено: индексирование приостановлено (например, из-за низкого заряда батареи или высокой загрузки ЦП).</li>
+<li>Восстановление. Индексация восстанавливается.</li>
+<li>Полный обход содержимого: индексатор выполняет полный обход области сканирования.</li>
+<li>Добавочное сканирование: индексатор выполняет добавочное сканирование.</li>
+<li>Обработка уведомлений: индексатор обрабатывает уведомления.</li>
+<li>Завершение работы: индексатор завершает работу.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-get_name"><strong>get_Name</strong></a></td>
+<td>Возвращает имя текущего каталога, указанного в методе <a href="/windows/desktop/api/Searchapi/nf-searchapi-isearchmanager-getcatalog"><strong>исеарчманажер::-catalog</strong></a> . В настоящее время поддерживается только каталог Системиндекс.</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="managing-catalog-properties"></a>Управление свойствами каталога
 
