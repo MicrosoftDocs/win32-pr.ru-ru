@@ -4,12 +4,12 @@ ms.assetid: 8DE04537-641C-4154-9C7F-A7D025CA4C39
 title: Атрибут MFT_ENCODER_SUPPORTS_CONFIG_EVENT (Мфтрансформ. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c49c688abc4d372a463115c369e4616babe3bcaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25a528da44d59077c8445616f8fe344cba5497ced8b33be75e33be71bf9b5d76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105656589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113044"
 ---
 # <a name="mft_encoder_supports_config_event-attribute"></a>\_КОДИРОВЩИК MFT \_ поддерживает \_ \_ атрибут события конфигурации
 
@@ -19,24 +19,24 @@ ms.locfileid: "105656589"
 
 **Bool** , сохраненный как **UINT32**
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Отправляется кодировщиком MFT через [**имфтрансформ::P роцессевент**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processevent).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 8.1 \|\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2012 R2 \|\]<br/>                             |
-| Header<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl>   |
+| Минимальная версия клиента<br/> | Windows 8.1 \[ приложения UWP для классических приложений \|\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Server 2012 Приложения универсального \[ приложения UWP для настольных приложений \|\]<br/>                             |
+| Заголовок<br/>                   | <dl> <dt>Мфтрансформ. h</dt> </dl>   |
 | IDL<br/>                      | <dl> <dt>Мфтрансформ. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

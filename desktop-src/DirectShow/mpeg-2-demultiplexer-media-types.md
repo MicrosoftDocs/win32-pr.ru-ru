@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Типы носителей для демультиплексирования MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: bef3c7006f13b07394da7d9dc92e9295beda816c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910002"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982607"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Типы носителей для демультиплексирования MPEG-2
 
@@ -42,32 +42,13 @@ ms.locfileid: "107910002"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Основной тип</td>
-<td><strong>MEDIATYPE_MPEG2_SECTIONS</strong></td>
-</tr>
-<tr class="even">
-<td>Subtype</td>
-<td>Любое из следующих:<br/>
-<ul>
-<li><strong>MEDIASUBTYPE_ATSC_SI</strong>: сведения о службе ATSC.</li>
-<li><strong>MEDIASUBTYPE_DVB_SI</strong>: сведения о службе DVB.</li>
-<li><strong>MEDIASUBTYPE_ISDB_SI</strong>: сведения о службе Digital ШИРОКОВЕЩАНИЯ (ISDB) для интегрированных служб.</li>
-<li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: данные раздела MPEG-2.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Тип формата</td>
-<td>None</td>
-</tr>
-</tbody>
-</table>
+
+| Метка | Применение |
+|--------|-------|
+| Основной тип | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
+| Subtype | Любое из следующих:<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: сведения о службе ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: сведения о службе DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: сведения о службе Digital ШИРОКОВЕЩАНИЯ (ISDB) для интегрированных служб.</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: данные раздела MPEG-2.</li></ul> | 
+| Тип формата | Нет | 
+
 
 
 
@@ -77,7 +58,7 @@ ms.locfileid: "107910002"
 
 
 
-| Метка | Значение |
+| Метка | Применение |
 |------------------|------------------------------------------|
 | Основной тип       | **\_Видео MEDIATYPE**                     |
 | Subtype          | **\_Видео медиасубтипе MPEG2 \_**           |
@@ -92,7 +73,7 @@ ms.locfileid: "107910002"
 
 
 
-| Метка | Значение |
+| Метка | Применение |
 |------------------|--------------------------------------|
 | Основной тип       | **MEDIATYPE \_ Audio**                 |
 | Subtype          | **МЕДИАСУБТИПЕ \_ MPEG2 \_ Audio**       |

@@ -7,12 +7,12 @@ MSHAttr:
 title: испурчасепрофиле
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba087f024a37da6999baf905629befa0452c9950
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 899a1d42dc48ea63b5f3723ff35eca67d0a14fd6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987907"
+ms.locfileid: "122880749"
 ---
 # <a name="span-idwwan_profile_v2element_ispurchaseprofilespanispurchaseprofile"></a><span id="WWAN_profile_v2.element_IsPurchaseProfile"></span>испурчасепрофиле
 
@@ -36,11 +36,11 @@ ms.locfileid: "122987907"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Отсутствует.
+Нет.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -49,9 +49,7 @@ ms.locfileid: "122987907"
 ## <a name="requirements"></a>Требования
 
 
-| Требование | Применение |
-|------------|----------|
-| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v2</p> | 
+| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v2</p> | 
 
 
  

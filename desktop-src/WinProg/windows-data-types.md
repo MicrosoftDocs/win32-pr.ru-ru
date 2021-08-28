@@ -182,12 +182,12 @@ keywords:
 - WPARAM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6769b5d3fd7c65eab1eef5c408ebd2e905b9677a3580774a857c68431aabd3dc
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3002912cafbdf2dd4fe62c19fe3faef302da8c9b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119412954"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626340"
 ---
 # <a name="windows-data-types"></a>Типы данных Windows
 
@@ -201,8 +201,8 @@ ms.locfileid: "119412954"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -284,7 +284,7 @@ ms.locfileid: "119412954"
 <td>Половина размера указателя. Используйте в структуре, содержащей указатель и два маленьких поля.<br/> Этот тип объявляется в Басетсд. h следующим образом:<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -529,7 +529,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -611,7 +611,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -639,7 +639,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -709,7 +709,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -779,7 +779,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -861,7 +861,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -931,7 +931,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1043,7 +1043,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1072,7 +1072,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1148,7 +1148,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1181,7 +1181,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1347,7 +1347,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1375,7 +1375,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1409,7 +1409,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1443,7 +1443,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1501,7 +1501,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1529,7 +1529,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1569,7 +1569,7 @@ ms.locfileid: "119412954"
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1639,7 +1639,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -1647,4 +1647,4 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                                                                                                                                                         |
 | Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Басетсд. h; </dt> <dt>Виндеф. h; </dt> Файл <dt>Winnt. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Басетсд. h; </dt> <dt>Виндеф. h; </dt> Файл <dt>Winnt. h</dt> </dl> |

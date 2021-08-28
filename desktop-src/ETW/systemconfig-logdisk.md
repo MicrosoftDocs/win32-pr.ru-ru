@@ -28,12 +28,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c24ce209c51e0ac2d6167ae76d3f8289d73aa0fffa9ce607e51c8566cbb37c36
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 326509ea080b052c0ff435e0a6e573bf54ac298c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119582234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880760"
 ---
 # <a name="systemconfig_logdisk-class"></a>\_Класс системконфиг логдиск
 
@@ -122,7 +122,7 @@ class SystemConfig_LogDisk : SystemConfig
 Квалификаторы: **вмидатаид** (6), **Max** (4), **Format ("s")**
 </dt> </dl>
 
-Буква диска в формате " <letter> :".
+Буква диска в формате " &lt; Letter &gt; :".
 
 </dd> <dt>
 
@@ -145,7 +145,7 @@ class SystemConfig_LogDisk : SystemConfig
 | Значение                                                                        | Значение                                         |
 |------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>1</dt> </dl> | Partition (Раздел)<br/>                            |
-| <dl> <dt>2</dt> </dl> | Громкость<br/>                               |
+| <dl> <dt>2</dt> </dl> | Том<br/>                               |
 | <dl> <dt>3</dt> </dl> | Дополнительный раздел на нескольких дисках<br/> |
 
 
@@ -346,7 +346,7 @@ class SystemConfig_LogDisk : SystemConfig
 
 </dd> </dl>
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -357,7 +357,7 @@ class SystemConfig_LogDisk : SystemConfig
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

@@ -4,106 +4,38 @@ ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f3fd05609e86682b4524e68e985f03abac59f1dbd4537d1ffd683990ca371fd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f71c89304a82344b6217a44f3d625200b03a286
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118527594"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472786"
 ---
 # <a name="d3dpresent"></a>D3DPRESENT
 
 Описывает связь между частотой обновления адаптера и [**скоростью, с которой выполняются**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present) [**операции.**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dswapchain9-present) Эти значения также служат в качестве значений флагов для поля Пресентатионинтервалс в [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Константа</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_DONOTFLIP"></span><span id="d3dpresent_donotflip"></span><dl> <dt><strong>D3DPRESENT_DONOTFLIP</strong></dt> </dl></td>
-<td style="text-align: left;">Используйте передний буфер в качестве исходной и целевой поверхности во время подготовки к просмотру. Синхронизация кадров запланирована, но отображаемая поверхность не изменяется. Этот флаг доступен, только если приложение находится в полноэкранном режиме, а D3DSWAPEFFECT_FLIPEX задано. <br/> Этот флаг доступен только в Direct3D 9Ex.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_DONOTWAIT"></span><span id="d3dpresent_donotwait"></span><dl> <dt><strong>D3DPRESENT_DONOTWAIT</strong></dt> </dl></td>
-<td style="text-align: left;">Невозможно запланировать показ презентации с помощью устройства HAL. Если этот флаг установлен в вызове <a href="/windows/desktop/api"><strong>Present</strong></a>и оборудование занято или ожидает интервала вертикальной синхронизации, то в этом случае возвращается D3DERR_WASSTILLDRAWING, чтобы указать, что операция Блит не завершена.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_FLIPRESTART"></span><span id="d3dpresent_fliprestart"></span><dl> <dt><strong>D3DPRESENT_FLIPRESTART</strong></dt> </dl></td>
-<td style="text-align: left;">Зарезервировано.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE применяется <a href="/windows/desktop/api"><strong>в этом</strong></a> вызове. Этот флаг можно указать только при использовании D3DSWAPEFFECT_FLIPEX. Поведение оконного и полноэкранного представления одинаково. Это особенно полезно для мультимедийных приложений, которые хотят отбросить фреймы, которые были обнаружены как последние и представлять последующие кадры во время составления. Если этот флаг указан неправильно, будет возвращена ошибка недопустимого параметра. Когда несколько последовательных кадров с D3DPRESENT_FORCEIMMEDIATEs помещаются в очередь, отображается только последний кадр для оконной и полноэкранной презентации.<br/> этот флаг доступен в Direct3D 9Ex в Windows 7 или более поздних версиях операционных систем.<br/> При использовании D3DSWAPEFFECT_FLIPEX каждый кадр, представленный с помощью D3DPRESENT_INTERVAL_IMMEDIATE или D3DPRESENT_INTERVAL_FORCEIMMEDIATE, переопределяет текущий интервал в предыдущем кадре. Например, если вы помещаете в очередь следующие кадры, используя следующие эффекты переключения: кадр A (D3DPRESENT_INTERVAL_ONE), кадр B (D3DPRESENT_INTERVAL_ONE), кадр C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), кадр D переопределит интервал отображения кадра C. Отображаемые кадры за текущий интервал: кадр а, кадр B, (кадр в, переопределенный) кадр D.<br/> См. заметки.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
-<td style="text-align: left;">Это почти эквивалентно D3DPRESENT_INTERVAL_ONE. См. примечания.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_ONE"></span><span id="d3dpresent_interval_one"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_ONE</strong></dt> </dl></td>
-<td style="text-align: left;">Драйвер будет ожидать вертикальный период перетрассировки (среда выполнения попытается проследить за тем, &quot; &quot; чтобы предотвратить разрывы). <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем обновление экрана; среда выполнения будет выполнять не более одной текущей операции на каждый период обновления адаптера. Это эквивалентно использованию D3DSWAPEFFECT_COPYVSYNC в DirectX 8,1. Этот параметр всегда доступен как для оконных, так и для всех цепочек переключения в полноэкранный режим. См. примечания.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_TWO"></span><span id="d3dpresent_interval_two"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_TWO</strong></dt> </dl></td>
-<td style="text-align: left;">Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом втором обновлении экрана. Проверьте Пресентатионинтервалс Cap (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_TWO.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_THREE"></span><span id="d3dpresent_interval_three"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_THREE</strong></dt> </dl></td>
-<td style="text-align: left;">Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом третьем обновлении экрана. Проверьте Пресентатионинтервалс Cap (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_THREE.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_FOUR"></span><span id="d3dpresent_interval_four"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_FOUR</strong></dt> </dl></td>
-<td style="text-align: left;">Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом четвертом обновлении экрана. Проверьте элемент Пресентатионинтервалс (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_FOUR.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_IMMEDIATE"></span><span id="d3dpresent_interval_immediate"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_IMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">Среда выполнения обновляет клиентскую область окна немедленно и может сделать это несколько раз в течение периода обновления адаптера. Это эквивалентно использованию D3DSWAPEFFECT_COPY в DirectX 8. Операции, выполняемые в <a href="/windows/desktop/api"><strong>настоящее</strong></a> время, могут быть затронуты немедленно. Этот параметр всегда доступен как для оконных, так и для всех цепочек переключения в полноэкранный режим. См. примечания.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_LINEAR_CONTENT"></span><span id="d3dpresent_linear_content"></span><dl> <dt><strong>D3DPRESENT_LINEAR_CONTENT</strong></dt> </dl></td>
-<td style="text-align: left;">Содержимое заднего буфера, которое необходимо представить, находится в линейном цветовом пространстве. <br/>
-<ul>
-<li>Презентация будет неявно преобразована из линейного пространства в sRGB (гамма = 2,2). Это единственное поддерживаемое преобразование.</li>
-<li>Поскольку этот флаг представляет свойство содержимого заднего буфера, флаг можно указать во время <a href="/windows/desktop/api"><strong>текущего</strong></a> вызова. Иными словами, приложение может представлять линейное содержимое в одном кадре, а затем переключаться на исправленное содержимое в следующем.</li>
-<li>Этот флаг пропускается, если цепочка буферов находится во весь экран. (Обратите внимание, что этот флаг доступен только в <a href="/windows/desktop/api"><strong>текущей</strong></a>версии цепочки, связанной с явным переключением. <a href="/windows/desktop/api"><strong>Текущий</strong></a> метод не принимает параметр flags.)</li>
-<li>Этот флаг всегда принимается, но вступит в силу только тогда, когда драйвер предоставляет >D3DCAPS3_LINEAR_TO_SRGB_PresentATION.</li>
-<li>Поддерживается только формат заднего буфера <a href="d3dformat.md">X8R8G8B8</a>.</li>
-</ul>
-См. раздел <a href="gamma.md">цепочки подкачки с окнами</a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">Выводит отображаемое содержимое на монитор или устройство, на которое нацелен адаптер, отображает эскизы содержимого в Flip3D представлении и эскизах панели задач на других мониторах. <br/> Этот флаг доступен только в Direct3D 9Ex.<br/> дополнительные сведения об этой функции Windows Vista см. в <a href="/windows/desktop/dwm/dwm-overview">диспетчер окон рабочего стола</a> . Если вы не работаете в режиме композиции рабочего стола, флаг дает то же поведение, что и <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br/>
-<blockquote>
-[!Note]<br />
-Этот флаг следует использовать только с D3DSWAPEFFECT_FLIPEXным действием подкачки. Использование этого флага с <em>другими</em> эффектами перекачки является устаревшим и может не работать в будущих версиях Windows.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_UPDATEOVERLAYONLY"></span><span id="d3dpresent_updateoverlayonly"></span><dl> <dt><strong>D3DPRESENT_UPDATEOVERLAYONLY</strong></dt> </dl></td>
-<td style="text-align: left;">Обновляет расположение оверлея или данные ColorKey, не вызывая фактического отражения и не меняя длительность отображения изображения.<br/> Этот флаг доступен только в Direct3D 9Ex.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="D3DPRESENT_HIDEOVERLAY"></span><span id="d3dpresent_hideoverlay"></span><dl> <dt><strong>D3DPRESENT_HIDEOVERLAY</strong></dt> </dl></td>
-<td style="text-align: left;">Отключает наложение оборудования.<br/> Этот флаг доступен только в Direct3D 9Ex.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="D3DPRESENT_UPDATECOLORKEY"></span><span id="d3dpresent_updatecolorkey"></span><dl> <dt><strong>D3DPRESENT_UPDATECOLORKEY</strong></dt> </dl></td>
-<td style="text-align: left;">Перерисовывает данные ColorKey.<br/> Этот флаг доступен только в Direct3D 9Ex.<br/></td>
-</tr>
-</tbody>
-</table>
 
-## <a name="remarks"></a>Remarks
+| Константа | Описание | 
+|----------|-------------|
+| <span id="D3DPRESENT_DONOTFLIP"></span><span id="d3dpresent_donotflip"></span><dl><dt><strong>D3DPRESENT_DONOTFLIP</strong></dt></dl> | Используйте передний буфер в качестве исходной и целевой поверхности во время подготовки к просмотру. Синхронизация кадров запланирована, но отображаемая поверхность не изменяется. Этот флаг доступен, только если приложение находится в полноэкранном режиме, а D3DSWAPEFFECT_FLIPEX задано. <br /> Этот флаг доступен только в Direct3D 9Ex.<br /> | 
+| <span id="D3DPRESENT_DONOTWAIT"></span><span id="d3dpresent_donotwait"></span><dl><dt><strong>D3DPRESENT_DONOTWAIT</strong></dt></dl> | Невозможно запланировать показ презентации с помощью устройства HAL. Если этот флаг установлен в вызове <a href="/windows/desktop/api"><strong>Present</strong></a>и оборудование занято или ожидает интервала вертикальной синхронизации, то в этом случае возвращается D3DERR_WASSTILLDRAWING, чтобы указать, что операция Блит не завершена.<br /> | 
+| <span id="D3DPRESENT_FLIPRESTART"></span><span id="d3dpresent_fliprestart"></span><dl><dt><strong>D3DPRESENT_FLIPRESTART</strong></dt></dl> | Зарезервировано.<br /> | 
+| <span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl><dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt></dl> | D3DPRESENT_INTERVAL_IMMEDIATE применяется <a href="/windows/desktop/api"><strong>в этом</strong></a> вызове. Этот флаг можно указать только при использовании D3DSWAPEFFECT_FLIPEX. Поведение оконного и полноэкранного представления одинаково. Это особенно полезно для мультимедийных приложений, которые хотят отбросить фреймы, которые были обнаружены как последние и представлять последующие кадры во время составления. Если этот флаг указан неправильно, будет возвращена ошибка недопустимого параметра. Когда несколько последовательных кадров с D3DPRESENT_FORCEIMMEDIATEs помещаются в очередь, отображается только последний кадр для оконной и полноэкранной презентации.<br /> этот флаг доступен в Direct3D 9Ex в Windows 7 или более поздних версиях операционных систем.<br /> При использовании D3DSWAPEFFECT_FLIPEX каждый кадр, представленный с помощью D3DPRESENT_INTERVAL_IMMEDIATE или D3DPRESENT_INTERVAL_FORCEIMMEDIATE, переопределяет текущий интервал в предыдущем кадре. Например, если вы помещаете в очередь следующие кадры, используя следующие эффекты переключения: кадр A (D3DPRESENT_INTERVAL_ONE), кадр B (D3DPRESENT_INTERVAL_ONE), кадр C (D3DPRESENT_INTERVAL_ONE), Frame D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE), кадр D переопределит интервал отображения кадра C. Отображаемые кадры за текущий интервал: кадр а, кадр B, (кадр в, переопределенный) кадр D.<br /> См. заметки.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl><dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt></dl> | Это почти эквивалентно D3DPRESENT_INTERVAL_ONE. См. примечания.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_ONE"></span><span id="d3dpresent_interval_one"></span><dl><dt><strong>D3DPRESENT_INTERVAL_ONE</strong></dt></dl> | Драйвер будет ожидать вертикальный период перетрассировки (среда выполнения будет последить за тем, чтобы предотвратить разрывы). <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем обновление экрана; среда выполнения будет выполнять не более одной текущей операции на каждый период обновления адаптера. Это эквивалентно использованию D3DSWAPEFFECT_COPYVSYNC в DirectX 8,1. Этот параметр всегда доступен как для оконных, так и для всех цепочек переключения в полноэкранный режим. См. примечания.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_TWO"></span><span id="d3dpresent_interval_two"></span><dl><dt><strong>D3DPRESENT_INTERVAL_TWO</strong></dt></dl> | Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом втором обновлении экрана. Проверьте Пресентатионинтервалс Cap (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_TWO.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_THREE"></span><span id="d3dpresent_interval_three"></span><dl><dt><strong>D3DPRESENT_INTERVAL_THREE</strong></dt></dl> | Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом третьем обновлении экрана. Проверьте Пресентатионинтервалс Cap (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_THREE.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_FOUR"></span><span id="d3dpresent_interval_four"></span><dl><dt><strong>D3DPRESENT_INTERVAL_FOUR</strong></dt></dl> | Драйвер будет ожидать период перетрассировки по вертикали. <a href="/windows/desktop/api"><strong>Существующие</strong></a> операции не будут затронуты чаще, чем при каждом четвертом обновлении экрана. Проверьте элемент Пресентатионинтервалс (см. <a href="/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9"><strong>D3DCAPS9</strong></a>), чтобы узнать, поддерживается ли драйвер в D3DPRESENT_INTERVAL_FOUR.<br /> | 
+| <span id="D3DPRESENT_INTERVAL_IMMEDIATE"></span><span id="d3dpresent_interval_immediate"></span><dl><dt><strong>D3DPRESENT_INTERVAL_IMMEDIATE</strong></dt></dl> | Среда выполнения обновляет клиентскую область окна немедленно и может сделать это несколько раз в течение периода обновления адаптера. Это эквивалентно использованию D3DSWAPEFFECT_COPY в DirectX 8. Операции, выполняемые в <a href="/windows/desktop/api"><strong>настоящее</strong></a> время, могут быть затронуты немедленно. Этот параметр всегда доступен как для оконных, так и для всех цепочек переключения в полноэкранный режим. См. примечания.<br /> | 
+| <span id="D3DPRESENT_LINEAR_CONTENT"></span><span id="d3dpresent_linear_content"></span><dl><dt><strong>D3DPRESENT_LINEAR_CONTENT</strong></dt></dl> | Содержимое заднего буфера, которое необходимо представить, находится в линейном цветовом пространстве. <br /><ul><li>Презентация будет неявно преобразована из линейного пространства в sRGB (гамма = 2,2). Это единственное поддерживаемое преобразование.</li><li>Поскольку этот флаг представляет свойство содержимого заднего буфера, флаг можно указать во время <a href="/windows/desktop/api"><strong>текущего</strong></a> вызова. Иными словами, приложение может представлять линейное содержимое в одном кадре, а затем переключаться на исправленное содержимое в следующем.</li><li>Этот флаг пропускается, если цепочка буферов находится во весь экран. (Обратите внимание, что этот флаг доступен только в <a href="/windows/desktop/api"><strong>текущей</strong></a>версии цепочки, связанной с явным переключением. <a href="/windows/desktop/api"><strong>Текущий</strong></a> метод не принимает параметр flags.)</li><li>Этот флаг всегда принимается, но вступит в силу только тогда, когда драйвер предоставляет &gt; D3DCAPS3_LINEAR_TO_SRGB_PresentATION.</li><li>Поддерживается только формат заднего буфера <a href="d3dformat.md">X8R8G8B8</a>.</li></ul>См. раздел <a href="gamma.md">цепочки подкачки с окнами</a>.<br /> | 
+| <span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl><dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt></dl> | Выводит отображаемое содержимое на монитор или устройство, на которое нацелен адаптер, отображает эскизы содержимого в Flip3D представлении и эскизах панели задач на других мониторах. <br /> Этот флаг доступен только в Direct3D 9Ex.<br /> дополнительные сведения об этой функции Windows Vista см. в <a href="/windows/desktop/dwm/dwm-overview">диспетчер окон рабочего стола</a> . Если вы не работаете в режиме композиции рабочего стола, флаг дает то же поведение, что и <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>.<br /><blockquote>[!Note]<br />Этот флаг следует использовать только с D3DSWAPEFFECT_FLIPEXным действием подкачки. Использование этого флага с <em>другими</em> эффектами перекачки является устаревшим и может не работать в будущих версиях Windows.</blockquote><br /> | 
+| <span id="D3DPRESENT_UPDATEOVERLAYONLY"></span><span id="d3dpresent_updateoverlayonly"></span><dl><dt><strong>D3DPRESENT_UPDATEOVERLAYONLY</strong></dt></dl> | Обновляет расположение оверлея или данные ColorKey, не вызывая фактического отражения и не меняя длительность отображения изображения.<br /> Этот флаг доступен только в Direct3D 9Ex.<br /> | 
+| <span id="D3DPRESENT_HIDEOVERLAY"></span><span id="d3dpresent_hideoverlay"></span><dl><dt><strong>D3DPRESENT_HIDEOVERLAY</strong></dt></dl> | Отключает наложение оборудования.<br /> Этот флаг доступен только в Direct3D 9Ex.<br /> | 
+| <span id="D3DPRESENT_UPDATECOLORKEY"></span><span id="d3dpresent_updatecolorkey"></span><dl><dt><strong>D3DPRESENT_UPDATECOLORKEY</strong></dt></dl> | Перерисовывает данные ColorKey.<br /> Этот флаг доступен только в Direct3D 9Ex.<br /> | 
+
+
+## <a name="remarks"></a>Комментарии
 
 Оконный режим поддерживает D3DPRESENT \_ интервал \_ по умолчанию, D3DPRESENT \_ интервал \_ интерпретации и D3DPRESENT \_ интервал \_ 1. \_Интервал D3DPRESENT \_ по умолчанию и \_ интервал D3DPRESENT \_ один почти эквивалентен (см. сведения об устранении таймера ниже). Они выполняют аналогично копированию \_ вертикальной синхронизации в том, что в кадре присутствует только один экземпляр, и они предотвращают разрывы с помощью многообразовой области. В отличие от этого \_ , \_ немедленный интервал D3DPRESENT попытается предоставить неограниченный уровень представления.
 
@@ -115,7 +47,7 @@ ms.locfileid: "118527594"
 |-------------------|-----------------------------------------------------------------------------------|
 | Заголовок<br/> | <dl> <dt>D3d9. h</dt> </dl> |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

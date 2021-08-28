@@ -3,9 +3,9 @@ title: Метод Media. Жетаттрибутенаме
 description: Метод Жетаттрибутенаме извлекает имя атрибута, соответствующего указанному индексу.
 ms.assetid: f74d81c6-49f8-4b1e-a367-acb4a0914c5a
 keywords:
-- Жетаттрибутенаме метод Windows Media Player
-- Жетаттрибутенаме метод Windows Media Player, класс мультимедиа
-- Класс мультимедиа проигрыватель Windows Media Player, метод Жетаттрибутенаме
+- проигрыватель Windows Media метода жетаттрибутенаме
+- проигрыватель Windows Media метода жетаттрибутенаме, класс мультимедиа
+- класс мультимедиа проигрыватель Windows Media, метод жетаттрибутенаме
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7134b68837a7a5d1b765c64320ae68c56c6fc56
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b6b9a288830283b3711c6e4eb652be968979628af48d2ce5b718150b9018568
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123434"
 ---
 # <a name="mediagetattributename-method"></a>Метод Media. Жетаттрибутенаме
 
@@ -53,19 +53,19 @@ strRetVal = Media.getAttributeName(
 
 Этот метод возвращает **строку** , указывающую имя атрибута.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Возвращаемое имя атрибута можно использовать в сочетании с **getItemInfo** для получения значения для определенного именованного атрибута.
 
 Чтобы использовать этот метод, требуется доступ на чтение к библиотеке. Дополнительные сведения см. в разделе [доступ к библиотеке](library-access.md).
 
-Сведения об атрибутах, поддерживаемых проигрывателем Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрывателя Windows Media.
+дополнительные сведения об атрибутах, поддерживаемых проигрыватель Windows Media, см. в [справочнике по атрибутам](attribute-reference.md)проигрыватель Windows Media.
 
-**Проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
+**проигрыватель Windows Media 10 Mobile:** Атрибуты для элемента мультимедиа доступны только во время воспроизведения, если они не извлекаются из элемента через коллекцию мультимедиа.
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *носитель*. **жетаттрибутенаме** для заполнения текстовой области HTML с именем myText с индексом и именем каждого атрибута для текущего элемента мультимедиа. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *носитель*. **жетаттрибутенаме** для заполнения текстовой области HTML с именем myText с индексом и именем каждого атрибута для текущего элемента мультимедиа. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -94,12 +94,12 @@ for(var i=0; i < atCount; i++){
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -112,10 +112,10 @@ for(var i=0; i < atCount; i++){
 [**Media. getItemInfo**](media-getiteminfo.md)
 </dt> <dt>
 
-[**Settings. Медиаакцессригхтс**](settings-mediaaccessrights.md)
+[**Параметры. медиаакцессригхтс**](settings-mediaaccessrights.md)
 </dt> <dt>
 
-[**Settings. Рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
+[**Параметры. рекуестмедиаакцессригхтс**](settings-requestmediaaccessrights.md)
 </dt> </dl>
 
  

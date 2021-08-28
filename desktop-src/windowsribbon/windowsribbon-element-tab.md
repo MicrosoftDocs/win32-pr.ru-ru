@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 64f5bffb6a81a1efd112c3f52f5d1276f893e9cfb059a5f240a6c8c73b990c3f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 349004f65713160acc75bdb6f77765ad9f0c3034
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119441644"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625960"
 ---
 # <a name="tab-element"></a>Элемент Tab
 
@@ -40,10 +40,10 @@ ms.locfileid: "119441644"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,14 +57,14 @@ ms.locfileid: "119441644"
 <tr class="odd">
 <td><strong>аппликатионмодес</strong><br/></td>
 <td>xs:string<br/></td>
-<td>нет<br/></td>
+<td>Нет<br/></td>
 <td>Допустимо, только если <a href="windowsribbon-element-menugroup.md"><strong>менуграуп</strong></a> является родительским элементом.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, содержащая разделенный запятыми список целых чисел от 0 до 31.<br/> Пробелы допустимы и пропускаются.<br/> Максимальная длина: 250 символов. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs: Поситивеинтежер или xs: String<br/></td>
-<td>нет<br/></td>
+<td>Нет<br/></td>
 <td>Связывает элемент с <a href="windowsribbon-element-command.md"><strong>командой</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs: Поситивеинтежер или xs: String)<br/> </dt> <dd> Строка, целочисленное значение в диапазоне от 2 до 59999 включительно или шестнадцатеричное значение между 0x2 и 0xea5f включительно. <br/> Значение должно быть уникальным в XML-документе ленты. <br/> Максимальная длина: 100 символов. <br/> </dd> </dl></td>
 </tr>
@@ -200,7 +200,7 @@ ms.locfileid: "119441644"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

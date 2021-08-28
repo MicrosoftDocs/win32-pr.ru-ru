@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 9b6afd5f3b383aff5c6d5168b259b13fe4429ac40d5b19a21c8e2f6a207cecd2
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 39fdb9e7236dea1c04eb55614d9ea9833f398a94
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119238"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623130"
 ---
 # <a name="span-idvspixenginesourcefileinfospansourcefileinfo-structure"></a><span id="vspixengine.sourcefileinfo"></span>Структура Саурцефилеинфо
 
@@ -35,7 +35,7 @@ ms.locfileid: "119119238"
 } SourceFileInfo;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **fileName**  
 Строка COM, комтаининг путь к файлу для связанного исходного файла.
@@ -60,7 +60,7 @@ ms.locfileid: "119119238"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

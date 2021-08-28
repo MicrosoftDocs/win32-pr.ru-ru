@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f96b73daaf446023a7fe3a5729dcb1c90b5f14e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92695b9600ef18e716fa02cf58157c3c4781988e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143552"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468361"
 ---
 # <a name="jet_tablecreate-structure"></a>Структура JET_TABLECREATE
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jet_tablecreate-structure"></a>Структура JET_TABLECREATE
 
@@ -106,32 +106,13 @@ _**Применимо к:** Windows | Windows Server_
 
 Группа битов, содержащая параметры для этого вызова, которые содержат ноль или более следующих значений.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>Параметр JET_bitTableCreateFixedDDL предотвращает выполнение DDL-операций в таблице (например, добавление или удаление столбцов).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>Параметр JET_bitTableCreateTemplateTable приводит к тому, что таблица будет таблицей шаблонов. Новые таблицы могут затем указать имя этой таблицы в качестве таблицы шаблонов. Параметр JET_bitTableCreateTemplateTable подразумевает JET_bitTableCreateFixedDDL.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Не рекомендуется. Не используется.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>Параметр JET_bitTableCreateFixedDDL предотвращает выполнение DDL-операций в таблице (например, добавление или удаление столбцов).</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>Параметр JET_bitTableCreateTemplateTable приводит к тому, что таблица будет таблицей шаблонов. Новые таблицы могут затем указать имя этой таблицы в качестве таблицы шаблонов. Параметр JET_bitTableCreateTemplateTable подразумевает JET_bitTableCreateFixedDDL.</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>Не рекомендуется. Не используется.</p> | 
+
 
 
 **TableID**
@@ -146,30 +127,9 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Реализуется как <strong>JET_TABLECREATE_W</strong> (Юникод) и <strong>JET_TABLECREATE_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>JET_TABLECREATE_W</strong> (Юникод) и <strong>JET_TABLECREATE_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

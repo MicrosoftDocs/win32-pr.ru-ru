@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2f5772429fa0cd7f2f45009ff1867141a845088b
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: a75adbab65c735a298c6a1599718cc6df5b690dd
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122885485"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623330"
 ---
 # <a name="swbemobjectexgettext_-method"></a>Свбемобжектекс. GetText, \_ метод
 
@@ -105,7 +105,7 @@ strObj = .GetText_( _
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При создании [**свбемнамедвалуесет**](swbemnamedvalueset.md)допускаются только следующие пары "имя-значение".
 
@@ -135,7 +135,7 @@ strObj = .GetText_( _
 <td>паслевел</td>
 <td><strong>VT-I4</strong><br/> Значение по умолчанию — 0 (ноль). Возможны следующие значения:<br/>
 <ul>
-<li>0: &lt; класс &gt; или <INSTANCE> элемент создается в зависимости от того, является ли объект классом или экземпляром.</li>
+<li>0: <CLASS> элемент OR <INSTANCE> создается в зависимости от того, является ли объект классом или экземпляром.</li>
 <li>1: <VALUE.NAMEDOBJECT> создается элемент.</li>
 <li>2: <VALUE.OBJECTWITHLOCALPATH> создается элемент.</li>
 <li>3: <VALUE.OBJECTWITHPATH> создается элемент.</li>

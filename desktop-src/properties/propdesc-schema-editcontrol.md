@@ -4,12 +4,12 @@ ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: едитконтрол
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 966f9742082fd6b5f939941a956eaae1ac4e427a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 213d6fba3f03f90e0d5a2702226dd8596462b289
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103998592"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626819"
 ---
 # <a name="editcontrol"></a>едитконтрол
 
@@ -53,7 +53,7 @@ ms.locfileid: "103998592"
 
 | Родительский элемент                                   | Дочерние элементы |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Нет           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | None           |
 
 
 
@@ -65,13 +65,13 @@ ms.locfileid: "103998592"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>Атрибут</th>
-<th>Описание</th>
+<th>Описание:</th>
 </tr>
 </thead>
 <tbody>
@@ -80,8 +80,8 @@ ms.locfileid: "103998592"
 <td>Общедоступный. Необязательный элемент. Значение по умолчанию — &quot; Default &quot; . Допустимы следующие значения. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -91,26 +91,26 @@ ms.locfileid: "103998592"
 </thead>
 <tbody>
 <tr class="odd">
-<td>Значение по умолчанию</td>
+<td>По умолчанию</td>
 <td>По умолчанию. Использует элемент управления по умолчанию, основанный на <typeInfo type=&quot;&quot;> атрибуте. Типы по умолчанию перечислены ниже. Любой другой тип приводит к использованию &quot; &quot; элемента управления Text. 
 <table>
 <thead>
 <tr class="header">
 <th>Тип</th>
-<th>Control</th>
+<th>Элемент</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Строка</td>
-<td>Текст</td>
+<td>Текстовый</td>
 </tr>
 <tr class="even">
 <td>Строка (с несколькими значениями)</td>
 <td>мултивалуетекст</td>
 </tr>
 <tr class="odd">
-<td>Дата/время</td>
+<td>Дата и время</td>
 <td>Календарь</td>
 </tr>
 </tbody>
@@ -143,12 +143,12 @@ ms.locfileid: "103998592"
 <td>Использует элемент управления рейтингом «5 звезд».</td>
 </tr>
 <tr class="even">
-<td>Текст</td>
+<td>текст</td>
 <td>Использует элемент управления редактированием текста.</td>
 </tr>
 <tr class="odd">
 <td>иконлист</td>
-<td><strong>Windows 7 и более поздние версии.</strong></td>
+<td><strong>Windows 7 и более поздней версии.</strong></td>
 </tr>
 </tbody>
 </table>

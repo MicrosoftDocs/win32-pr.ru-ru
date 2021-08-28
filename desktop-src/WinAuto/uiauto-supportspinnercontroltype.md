@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, счетчик
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9681160bf82c9a541412bb6dde8958c603fcfe22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1472fe400c189b6e5a1e894e1097395e8521e757
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103778236"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478540"
 ---
 # <a name="spinner-control-type"></a>Тип элемента управления "Счетчик"
 
@@ -42,7 +42,7 @@ ms.locfileid: "103778236"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -52,75 +52,29 @@ ms.locfileid: "103778236"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Spinner
-<ul>
-<li>Edit (0 или 1)</li>
-<li>Button (2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Spinner</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Spinner<ul><li>Edit (0 или 1)</li><li>Button (2)</li></ul></li></ul> | <ul><li>Spinner</li></ul> | 
 
 
 
- 
+
+ 
 
 **Selection - шаблон элемента управления**
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Spinner
-<ul>
-<li>Edit (0 или 1)</li>
-<li>Button (2)</li>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Spinner
-<ul>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Spinner<ul><li>Edit (0 или 1)</li><li>Button (2)</li><li>ListItem (0 или более)</li></ul></li></ul> | <ul><li>Spinner<ul><li>ListItem (0 или более)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Чтобы убедиться, что две кнопки в поддереве представления элемента управления могут быть различны средствами автоматизированных тестов, назначьте значение **скролламаунт \_ Смаллинкремент** или [**Скролламаунт \_ смаллдекремент**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-scrollamount) свойству **AutomationId** соответствующим образом. Для некоторых реализаций связанный элемент управления "поле ввода" может быть одноранговым элементом элемента управления "Счетчик".
 
@@ -136,8 +90,8 @@ ms.locfileid: "103778236"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания.  | Внешний прямоугольник, содержащий весь элемент управления.                                                                                                                                                                                                                                                                   |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.  | Активная точка управления "Счетчик" перемещает фокус в область редактирования элемента управления.                                                                                                                                                                                                                                      |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Spinner** | Это значение одинаково для всех инфраструктур.                                                                                                                                                                                                                                                                                 |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true        | Элемент управления "Счетчик" всегда должен быть содержимым.                                                                                                                                                                                                                                                                                |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true        | Элемент управления "Счетчик" всегда должен быть элементом управления.                                                                                                                                                                                                                                                                              |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE        | Элемент управления "Счетчик" всегда должен быть содержимым.                                                                                                                                                                                                                                                                                |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE        | Элемент управления "Счетчик" всегда должен быть элементом управления.                                                                                                                                                                                                                                                                              |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.  | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство. Элемент управления "Счетчик" редко принимает фокус, но когда он выполняется, фокус должен оставаться на самом элементе управления "Счетчик", а не на дочерних кнопках. Пользователь должен иметь возможность выполнять все действия прокрутки с помощью клавиш стрелка вверх и стрелка вниз. |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | См. примечания.  | Элементы управления "Счетчик" имеют метку со статическим текстом.                                                                                                                                                                                                                                                                                 |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания.  | Локализованная строка, соответствующая типу элемента управления " **Счетчик** ". Значение по умолчанию — "Счетчик" для en-US или English (США).                                                                                                                                                                                       |
@@ -145,7 +99,7 @@ ms.locfileid: "103778236"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -162,7 +116,7 @@ ms.locfileid: "103778236"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -183,9 +137,9 @@ ms.locfileid: "103778236"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -198,9 +152,9 @@ ms.locfileid: "103778236"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

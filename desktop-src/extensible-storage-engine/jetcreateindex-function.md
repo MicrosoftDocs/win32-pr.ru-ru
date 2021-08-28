@@ -20,21 +20,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c0208a5f0adac4ff5128b506123f3b68589cd0d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 698f9a050415568c06c8e10819cfed12a4a17181
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105712072"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478400"
 ---
 # <a name="jetcreateindex-function"></a>Функция JetCreateIndex
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetcreateindex-function"></a>Функция JetCreateIndex
 
-Функция **жеткреатеиндекс** позволяет создавать индексы данных в базе данных ESE, которая позволяет быстро находить нужные данные.
+функция **жеткреатеиндекс** позволяет создавать индексы данных служба хранилища в базе данных ESE, которая позволяет быстро находить нужные данные.
 
 ```cpp
     JET_ERR JET_API JetCreateIndex(
@@ -94,26 +94,13 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Значение</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+
 
 
 Список дополнительных ошибок, которые могут возвращаться функцией **жеткреатеиндекс** , см. в разделе [JetCreateIndex2](./jetcreateindex2-function.md).
@@ -126,38 +113,9 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Клиент</p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p>Сервер</p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Header</p></td>
-<td><p>Объявляется в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Библиотека</p></td>
-<td><p>Использует ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p>Юникод</p></td>
-<td><p>Реализуется как <strong>жеткреатеиндексв</strong> (Юникод) и <strong>жеткреатеиндекса</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Клиент</p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p>Сервер</p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p>Заголовок</p> | <p>Объявляется в ESENT. h.</p> | | <p>Библиотека</p> | <p>Использует ESENT. lib.</p> | | <p>DLL</p> | <p>Требуется ESENT.dll.</p> | | <p>Юникод</p> | <p>Реализуется как <strong>жеткреатеиндексв</strong> (Юникод) и <strong>жеткреатеиндекса</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:

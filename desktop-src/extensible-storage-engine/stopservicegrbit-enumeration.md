@@ -32,12 +32,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 54e54576dfb1023ec4e3bc55ddd198a77f0ddf25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8280bf4abfbc9eb5818d1aab460a17298db7b0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692514"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477460"
 ---
 # <a name="stopservicegrbit-enumeration"></a>Перечисление Стопсервицегрбит
 
@@ -65,46 +65,17 @@ public enum StopServiceGrbit
 
 ## <a name="members"></a>Члены
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Имя участника</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Все</td>
-<td>Останавливает все службы ESE для указанного экземпляра.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>баккграундусертаскс</td>
-<td>Останавливает Перезапускаемые клиентские задачи фонового обслуживания (дефрагментацию B + Tree).</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>куиесцекачес</td>
-<td>Куиесцес все "грязные" кэши на диск. Асинхронная. Замораживание отменяется, если впоследствии вызывается бит возобновления.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Возобновить</td>
-<td>Возобновляет ранее выданные операции выхода, т. е. &quot; перезапускает службу &quot; . Можно сочетать с грбитс, чтобы возобновить работу конкретных служб, или с параметром 0x0 возобновляет работу всех предыдущих остановленных служб.
-<p>Предупреждение. Этот бит можно использовать только для возобновления JET_bitStopServiceBackground и JET_bitStopServiceQuiesceCaches, если вы выполняли JET_bitStopServiceAll или JET_bitStopServiceAPI, попытка использовать JET_bitStopServiceResume завершится ошибкой.</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | Имя участника | Описание | 
+|--|-------------|-------------|
+|  | Все | Останавливает все службы ESE для указанного экземпляра. | 
+|  | баккграундусертаскс | Останавливает Перезапускаемые клиентские задачи фонового обслуживания (дефрагментацию B + Tree). | 
+|  | куиесцекачес | Куиесцес все "грязные" кэши на диск. Асинхронная. Замораживание отменяется, если впоследствии вызывается бит возобновления. | 
+|  | Возобновить | Возобновляет ранее выданные операции выхода, т. е. "перезапускает службу". Можно сочетать с грбитс, чтобы возобновить работу конкретных служб, или с параметром 0x0 возобновляет работу всех предыдущих остановленных служб.<p>Предупреждение. Этот бит можно использовать только для возобновления JET_bitStopServiceBackground и JET_bitStopServiceQuiesceCaches, если вы выполняли JET_bitStopServiceAll или JET_bitStopServiceAPI, попытка использовать JET_bitStopServiceResume завершится ошибкой.</p> | 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

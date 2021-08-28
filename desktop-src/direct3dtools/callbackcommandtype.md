@@ -1,5 +1,5 @@
 ---
-description: <span id="vspixengine.callbackcommandtype"></span>Перечисление Каллбакккоммандтипе — перечисление, используемое для обмена данными между ядром записи и узлом (например, Visual Studio диагностика графики).
+description: <span id="vspixengine.callbackcommandtype"></span>перечисление каллбакккоммандтипе — перечисление, используемое для обмена данными между ядром записи и узлом (например, Visual Studio диагностика графики).
 MS-HAID: vspixengine.CallbackCommandType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,16 +17,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 85e1b7d396d125add00824e9b7c94086e0da6be2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c71e3c7b45bdd84b2e335c47d46e90a3130c8912
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090132"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626720"
 ---
 # <a name="span-idvspixenginecallbackcommandtypespancallbackcommandtype-enumeration"></a><span id="vspixengine.callbackcommandtype"></span>Перечисление Каллбакккоммандтипе
 
-Перечисление, используемое для обмена данными между подсистемой захвата и узлом (например, Visual Studio диагностика графики).
+перечисление, используемое для обмена данными между подсистемой захвата и узлом (например, Visual Studio диагностика графики).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -59,14 +59,14 @@ ms.locfileid: "108090132"
 Значение, которое указывает обратный вызов, вызываемый при записи и готовности к отображению новых кадров.
 
 <span id="BeginCommunicationCallbackLegacy"></span><span id="begincommunicationcallbacklegacy"></span><span id="BEGINCOMMUNICATIONCALLBACKLEGACY"></span>**бегинкоммуникатионкаллбакклегаци**  
-Результаты из более старой версии Бегинкоммуникатион, используемой в Windows 7 и Windows 8.
+результаты из более старой версии бегинкоммуникатион используются в Windows 7 и Windows 8.
 
 <span id="RunExperimentStatusCallback"></span><span id="runexperimentstatuscallback"></span><span id="RUNEXPERIMENTSTATUSCALLBACK"></span>**рунекспериментстатускаллбакк**  
 Результат из Рунекспериементпрогресс.
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

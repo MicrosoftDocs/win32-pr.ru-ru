@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2901887233ff8b25114334c97e6a731072a69ce1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f53430a6b624b6b65a5d02727dc16d7f1fba669d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081548"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470900"
 ---
 # <a name="index-parameters"></a>Параметры индекса
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="index-parameters"></a>Параметры индекса
 
@@ -36,58 +36,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает значение по умолчанию для шага смещения, используемого для пошагового перехода к значению исходного столбца при создании каждого кортежа. Дополнительные сведения см. в разделе Структура [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows Vista и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>1</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 - 32767</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows Vista и более поздние версии</p> | 
+
 
 
 *JET_paramIndexTupleStart*  
@@ -95,58 +46,9 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает значение по умолчанию для смещения в значении исходного столбца, с которого начнется создание кортежей. Дополнительные сведения см. в разделе Структура [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows Vista и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>0</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 - 32767</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows Vista и более поздние версии</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMax*  
@@ -154,61 +56,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает значение по умолчанию для максимальной длины кортежа в индексе кортежа. Дополнительные сведения см. в разделе Структура [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista:**  До выхода Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. Для Windows Vista это больше не поддерживается.
+**Windows Vista:**  до Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. для Windows Vista это больше не поддерживается.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003: </strong>  0, 2-255</p>
-<p><strong>Windows Vista:</strong>  2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>10</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 0, 2-255</p><p><strong>Windows Vista:</strong> 2-255</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMin*  
@@ -216,61 +68,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает значение по умолчанию для минимальной длины кортежа в индексе кортежа. Дополнительные сведения см. в разделе [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista:**  До выхода Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. Для Windows Vista это больше не поддерживается.
+**Windows Vista:**  до Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. для Windows Vista это больше не поддерживается.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003: </strong>  0, 2-255</p>
-<p><strong>Windows Vista:</strong>  2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>3</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 0, 2-255</p><p><strong>Windows Vista:</strong> 2-255</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramIndexTuplesToIndexMax*  
@@ -278,61 +80,11 @@ _**Применимо к:** Windows | Windows Server_
 
 Этот параметр задает значение по умолчанию для максимальной длины исходной строки, которая должна быть разбита на кортежи для индекса кортежа. Дополнительные сведения см. в разделе [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-**Windows Vista:**  До выхода Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. Для Windows Vista это больше не поддерживается.
+**Windows Vista:**  до Windows Vista установка этого параметра в нулевое значение применяет его к значению по умолчанию. для Windows Vista это больше не поддерживается.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong>  0 – 32767</p>
-<p><strong>Windows Vista:</strong>  1 – 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>32767</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p><strong>Windows 2000, Windows XP и Windows Server 2003:</strong> 0 – 32767</p><p><strong>Windows Vista:</strong> 1 – 32767</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramUnicodeIndexDefault*  
@@ -348,82 +100,16 @@ _**Применимо к:** Windows | Windows Server_
 
 **Примечание**  .  Если приложению требуется хранить данные в Юникоде, настоятельно рекомендуется не полагаться на параметры Юникода по умолчанию для индексов. Использование языка "Английский (США)" — запереть использования инвариантного языкового стандарта, и флаги [лкмапстрингв](/windows/win32/api/winnls/nf-winnls-lcmapstringa)по умолчанию могут серьезно мешать работе некоторых языков. Необходимо всегда указывать собственные параметры для параметров Юникода в JetCreateIndex2 с помощью [JET_INDEXCREATE](./jet-indexcreate-structure.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Специальные функции</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>JET_UNICODEINDEX * (JET_UNICODEINDEX)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>Специальные функции</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Специальные функции</p> | | <p>Тип:</p> | <p>JET_UNICODEINDEX * (JET_UNICODEINDEX)</p> | | <p>Допустимый диапазон:</p> | <p>Специальные функции</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

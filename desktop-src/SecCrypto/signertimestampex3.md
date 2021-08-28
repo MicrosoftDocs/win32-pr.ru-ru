@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 538b92160ddbbb9ca9515a65575fdea67990de5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb5c19292b451b1a3d0265da4bb178eafcc6f00
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104143411"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468561"
 ---
 # <a name="signertimestampex3-function"></a>Функция SignerTimeStampEx3
 
@@ -60,33 +60,12 @@ HRESULT WINAPI SignerTimeStampEx3(
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Значение</th>
-<th>Значение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl> <dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt> </dl></td>
-<td>Задает отметку времени Authenticode.<br/>
-<blockquote>
-[!Note]<br />
-Authenticode больше не является предпочтительным типом метки времени. Поддержка меток времени Authenticode может быть удалена в будущем. Вместо этого рекомендуется использовать RFC 3161.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl> <dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt> </dl></td>
-<td>Задает отметку времени, совместимую с RFC 3161.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl><dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt></dl> | Задает отметку времени Authenticode.<br /><blockquote>[!Note]<br />Authenticode больше не является предпочтительным типом метки времени. Поддержка меток времени Authenticode может быть удалена в будущем. Вместо этого рекомендуется использовать RFC 3161.</blockquote><br /> | 
+| <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl><dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt></dl> | Задает отметку времени, совместимую с RFC 3161.<br /> | 
+
 
 
 
@@ -169,29 +148,11 @@ Authenticode больше не является предпочтительным
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Код возврата</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>Эта ошибка может возвращать следующие условия.<br/>
-<ul>
-<li>Для параметра <em>dwFlags</em> необходимо задать либо <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> , либо <strong>SIGNER_TIMESTAMP_RFC3161</strong> .</li>
-<li><em>Сохраненный</em> параметр должен иметь <strong>значение NULL</strong>.</li>
-<li>Если установить флаг <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> в параметре <em>dwFlags</em> , то необходимо присвоить параметру <em>двиндекс</em> значение 0.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Код возврата | Описание | 
+|-------------|-------------|
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | Эта ошибка может возвращать следующие условия.<br /><ul><li>Для параметра <em>dwFlags</em> необходимо задать либо <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> , либо <strong>SIGNER_TIMESTAMP_RFC3161</strong> .</li><li><em>Сохраненный</em> параметр должен иметь <strong>значение NULL</strong>.</li><li>Если установить флаг <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> в параметре <em>dwFlags</em> , то необходимо присвоить параметру <em>двиндекс</em> значение 0.</li></ul> | 
+
 
 
 
@@ -203,13 +164,13 @@ Authenticode больше не является предпочтительным
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                              |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                 |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                              |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

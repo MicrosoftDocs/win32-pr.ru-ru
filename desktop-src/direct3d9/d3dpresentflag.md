@@ -4,12 +4,12 @@ ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 578d41119980719e69b9eb0e502c025414018f73
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 3ebf3a8ad3a22f5104e4d4a78d3a01a29d07d757
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343099"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624560"
 ---
 # <a name="d3dpresentflag"></a>D3DPRESENTFLAG
 
@@ -19,15 +19,15 @@ ms.locfileid: "110343099"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>#определенно</td>
 <td>Значение</td>
-<td>Описание</td>
+<td>Описание:</td>
 </tr>
 <tr class="even">
 <td>D3DPRESENTFLAG_DEVICECLIP</td>
@@ -133,7 +133,7 @@ ms.locfileid: "110343099"
 <tr class="odd">
 <td>D3DPRESENTFLAG_RESTRICTED_CONTENT</td>
 <td>0x00000400</td>
-<td>Установка этого флага означает, что имеющуюся цепочку буферов содержит защищенное содержимое и автоматически заставляет среду выполнения ограничить доступ к имеющуюся цепочку буферов, чтобы только диспетчер настольных систем Windows (DWM) мог использовать имеющуюся цепочку буферов.
+<td>установка этого флага означает, что имеющуюся цепочку буферов содержит защищенное содержимое и автоматически заставляет среду выполнения ограничить доступ к имеющуюся цепочку буферов, чтобы только рабочий стол Windows Manager (DWM) мог использовать имеющуюся цепочку буферов.
 <table>
 <tbody>
 <tr class="odd">

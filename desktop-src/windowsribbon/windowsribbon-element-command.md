@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2def999c89994965f705f53edee684a3f1882fa2b47d43e512942715a8fc51f8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0c29539c9c76342b8b88603ea3dd2926554228ac
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931554"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626950"
 ---
 # <a name="command-element"></a>Command, элемент
 
@@ -47,10 +47,10 @@ ms.locfileid: "119931554"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -97,7 +97,7 @@ ms.locfileid: "119931554"
 <dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, состоящая из любой последовательности символов, включая пробелы и символы разрыва строки.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
-<td><strong>Имя</strong><br/></td>
+<td><strong>имя</strong>;<br/></td>
 <td>xs:string<br/></td>
 <td>Нет<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs: String)<br/> </dt> <dd> Строка, состоящая из буквы или символа подчеркивания, за которой следует любая последовательность цифр, букв или знаков подчеркивания.<br/> Максимальная длина: 100 символов.<br/> </dd> </dl></td>
