@@ -1,5 +1,5 @@
 ---
-description: <span id="vspixengine.remotecommandtype"></span>Перечисление Ремотекоммандтипе — перечисление, используемое для обмена данными между ядром записи и узлом (например, Visual Studio диагностика графики).
+description: <span id="vspixengine.remotecommandtype"></span>перечисление ремотекоммандтипе — перечисление, используемое для обмена данными между ядром записи и узлом (например, Visual Studio диагностика графики).
 MS-HAID: vspixengine.RemoteCommandType
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,16 +17,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ed57b9b044613351e99096a8c8cb741b8ad7a269
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 73accd6f73a7c33219c83a3285837d2e1c7c133a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110511"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631722"
 ---
 # <a name="span-idvspixengineremotecommandtypespanremotecommandtype-enumeration"></a><span id="vspixengine.remotecommandtype"></span>Перечисление Ремотекоммандтипе
 
-Перечисление, используемое для обмена данными между подсистемой захвата и узлом (например, Visual Studio диагностика графики).
+перечисление, используемое для обмена данными между подсистемой захвата и узлом (например, Visual Studio диагностика графики).
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -48,7 +48,7 @@ ms.locfileid: "108110511"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

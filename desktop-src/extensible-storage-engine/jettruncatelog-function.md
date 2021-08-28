@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e196a1570f769d8ae2619e962521bb181d506d63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa924a7061e834d4398ed68adb800912261279f7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103809010"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474360"
 ---
 # <a name="jettruncatelog-function"></a>Функция Жеттрункателог
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jettruncatelog-function"></a>Функция Жеттрункателог
 
@@ -44,69 +44,23 @@ _**Применимо к:** Windows | Windows Server_
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./jet-err.md) DataType с одним из следующих кодов возврата. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupAbortByServer</p></td>
-<td><p>Не удалось выполнить операцию, так как текущая Внешняя резервная копия была прервана вызовом <a href="gg294067(v=exchg.10).md">жетстопбаккуп</a>.</p>
-<p><strong>Windows Server 2003:</strong>  Это возвращаемое значение представлено в Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Операция не может быть завершена, поскольку в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidBackupSequence</p></td>
-<td><p>Не удалось выполнить операцию резервного копирования, так как она была вызвана вне последовательности. <strong>Жеттрункателог</strong> возвращает эту ошибку, если имеются необработанные дескрипторы файлов, созданные с помощью <a href="gg269249(v=exchg.10).md">жетопенфиле</a> для экземпляра.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Один из указанных параметров содержал непредвиденное значение, или сочетание нескольких параметров привело к непредвиденному результату. Это может произойти для <strong>жеттрункателог</strong> , если указанный экземпляр является недопустимым.</p>
-<p><strong>Windows XP:</strong>  Это возвращаемое значение введено в Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoBackup</p></td>
-<td><p>Не удалось выполнить операцию, так как не выполняется внешняя архивация.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>Операция завершилась с ошибкой, так как была предпринята попытка использовать модуль в устаревшем режиме (режим совместимости Windows 2000), где поддерживается только один экземпляр, когда в действительности несколько экземпляров уже существуют.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errBackupAbortByServer</p> | <p>Не удалось выполнить операцию, так как текущая Внешняя резервная копия была прервана вызовом <a href="gg294067(v=exchg.10).md">жетстопбаккуп</a>.</p><p><strong>Windows Server 2003:</strong>  это возвращаемое значение введено в Windows Server 2003.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Операция не может быть завершена, так как все действия в экземпляре, связанном с сеансом, были прекращены в результате вызова <a href="gg269240(v=exchg.10).md">жетстопсервице</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Операция не может быть завершена, поскольку в экземпляре, связанном с сеансом, произошла неустранимая ошибка, которая требует, чтобы доступ ко всем данным был отозван для защиты целостности этих данных.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+| <p>JET_errInvalidBackupSequence</p> | <p>Не удалось выполнить операцию резервного копирования, так как она была вызвана вне последовательности. <strong>Жеттрункателог</strong> возвращает эту ошибку, если имеются необработанные дескрипторы файлов, созданные с помощью <a href="gg269249(v=exchg.10).md">жетопенфиле</a> для экземпляра.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Один из указанных параметров содержал непредвиденное значение, или сочетание нескольких параметров привело к непредвиденному результату. Это может произойти для <strong>жеттрункателог</strong> , если указанный экземпляр является недопустимым.</p><p><strong>Windows XP:</strong>  это возвращаемое значение вводится в Windows XP.</p> | 
+| <p>JET_errNoBackup</p> | <p>Не удалось выполнить операцию, так как не выполняется внешняя архивация.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Операция не может быть завершена, так как экземпляр, связанный с сеансом, еще не инициализирован.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Операция не может быть завершена, так как выполняется операция восстановления на экземпляре, связанном с сеансом.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>операция завершилась сбоем, так как была предпринята попытка использовать подсистему в устаревшем режиме (Windows 2000), где поддерживается только один экземпляр, когда в действительности несколько экземпляров уже существуют.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Не удается выполнить операцию, так как выполняется завершение работы экземпляра, связанного с сеансом.</p> | 
+
 
 
 Если эта функция завершается успешно, набор файлов журнала транзакций, который больше не потребуется после успешного завершения текущего резервного копирования, удаляется. Конечный автомат резервного копирования будет дополнительно таким, что резервная копия файлов базы данных больше не разрешается. Только файлы исправления базы данных и файлы журнала транзакций могут быть открыты для резервного копирования за пределами этой точки.
@@ -115,39 +69,14 @@ _**Применимо к:** Windows | Windows Server_
 
 #### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>См. также:
 
-[Расширяемые файлы подсистемы хранилища](./extensible-storage-engine-files.md)  
+[расширяемые файлы служба хранилища Engine](./extensible-storage-engine-files.md)  
 [жетбегинекстерналбаккуп](./jetbeginexternalbackup-function.md)  
 [JET_ERR](./jet-err.md)  
 [JET_INSTANCE](./jet-instance.md)  

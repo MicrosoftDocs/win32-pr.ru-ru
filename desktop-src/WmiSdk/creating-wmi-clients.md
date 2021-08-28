@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Создание клиентов WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f4270d41a28d5426a2a42f30979cf8929e8e0c51212a0c44d0fe0fd5bf3412
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 95123d4462408a25591df2babb8b1ddd83942e5e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119568674"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883067"
 ---
 # <a name="creating-wmi-clients"></a>Создание клиентов WMI
 
@@ -24,8 +24,8 @@ ms.locfileid: "119568674"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -39,7 +39,7 @@ ms.locfileid: "119568674"
 <td>WMI и PowerShell тесно интегрированы; Таким образом, получение объектов WMI с помощью PowerShell — это просто вопрос вызова командлета Get-WmiObject. Обратите внимание, что для обеспечения согласованности в первом фрагменте кода явно указано множество значений по умолчанию. во втором предполагается, что значения по умолчанию верны.<br/> <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,7 +67,7 @@ Get-WmiObject Win32_ComputerSystem | Format-Table &quot;Name&quot;</code></pre><
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -95,7 +95,7 @@ Next</code></pre></td>
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -107,7 +107,7 @@ Next</code></pre></td>
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {
@@ -126,7 +126,7 @@ foreach (CimInstance cimObj in queryInstance)
 <span data-codelanguage="CSharp"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -138,7 +138,7 @@ foreach (CimInstance cimObj in queryInstance)
 <td><pre><code>using Microsoft.Management.Infrastructure;
 ...
 CimSession session = CimSession.Create(&quot;localHost&quot;);
-IEnumerable<CimInstance> queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
+IEnumerable&lt;CimInstance&gt; queryInstance = session.QueryInstances(@&quot;root\cimv2&quot;, &quot;WQL&quot;, &quot;SELECT * FROM Win32_ComputerSystem&quot;);
 
 foreach (CimInstance cimObj in queryInstance)
 {

@@ -7,12 +7,12 @@ MSHAttr:
 title: исаддитионалпдпконтекстпрофиле
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a075916144971196433d1a490a9076c4d40ddb86b363d2904d1affce63a5995
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c0d4547bd97645ec5f3e378ac53df0f9e1ed78e7
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988717"
 ---
 # <a name="span-idwwan_profile_v3element_isadditionalpdpcontextprofilespanisadditionalpdpcontextprofile"></a><span id="WWAN_profile_v3.element_IsAdditionalPdpContextProfile"></span>исаддитионалпдпконтекстпрофиле
 
@@ -27,7 +27,7 @@ ms.locfileid: "118745127"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-**<IsAdditionalPdpContextProfile>**
+**&lt;исаддитионалпдпконтекстпрофиле&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -43,11 +43,11 @@ ms.locfileid: "118745127"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
@@ -55,18 +55,11 @@ ms.locfileid: "118745127"
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v3</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v3</p> | 
+
 
  
 

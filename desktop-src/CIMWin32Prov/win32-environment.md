@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5d7237d83c298916045b4bd0443eadc3048c94dc7ad028a1bd7bfa993c4ce764
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18a85af664a4be8ef96b1882477e2fadec0f0b1a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119391754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882276"
 ---
 # <a name="win32_environment-class"></a>\_Класс среды Win32
 
@@ -124,7 +124,7 @@ class Win32_Environment : CIM_SystemResource
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -278,7 +278,7 @@ class Win32_Environment : CIM_SystemResource
 Квалификаторы: [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (260), [**маппингстрингс**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| система \\ \\ CurrentControlSet \\ \\ управляющего \\ \\ сеанса диспетчером сеансов \\ \\ ")
 </dt> </dl>
 
-Имя владельца параметра среды. он имеет значение <SYSTEM> для параметров, характерных для системы на основе Windows (в отличие от конкретного пользователя) и <DEFAULT> параметров пользователя по умолчанию.
+Имя владельца параметра среды. он имеет значение &lt; system &gt; для параметров, относящихся к системе на основе Windows (в отличие от конкретного пользователя) и &lt; по умолчанию &gt; для параметров пользователя по умолчанию.
 
 Пример: "JSmith"
 
@@ -302,7 +302,7 @@ class Win32_Environment : CIM_SystemResource
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Класс **\_ среды Win32** является производным от [**CIM \_ системресаурце**](cim-systemresource.md). Этот класс можно использовать для поиска путей к специальным папкам, таким как системная папка или программные файлы на удаленном компьютере. Вот некоторые примеры: WINDIR, системный_корневой_каталог, ProgramFiles и UserProfile. **Win32 \_ Среда** по сути возвращает сведения о том, что можно найти в:
 

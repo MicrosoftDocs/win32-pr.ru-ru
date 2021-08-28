@@ -4,12 +4,12 @@ ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: Данные подключаемого модуля и класс RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 372b3d297edbad6d339285f45e92118184fa2cfc
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: dac0540d90f291acfef27a09df08ffff645c280d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104553768"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480970"
 ---
 # <a name="plug-in-data-and-the-realtimestylus-class"></a>Данные подключаемого модуля и класс RealTimeStylus
 
@@ -93,80 +93,19 @@ ms.locfileid: "104553768"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="/previous-versions/ms827134(v=msdn.10)">системжестуре</a></th>
-<th>Объекты, предшествующие объекту <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a></th>
-<th>Объекты, поступающие после объекта <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Касание</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br/></td>
-<td>Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>даублетап</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> , объект <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> для жеста системы <strong>TAP</strong> и объектов [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-<td>Второй объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>ригхттап</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> и объект <a href="/previous-versions/ms824019(v=msdn.10)">Системжестуредата</a> для элемента <strong>холдентер</strong> перечисления <a href="/previous-versions/ms827134(v=msdn.10)">системжесуре</a> .<br/></td>
-<td>Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Перетаскивание</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br/></td>
-<td>Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>ригхтдраг</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br/></td>
-<td>Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/></td>
-</tr>
-<tr class="even">
-<td><strong>холдентер</strong></td>
-<td>Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br/></td>
-<td>Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br/>
-<blockquote>
-[!Note]<br />
-Этот системный жест не распознается, если пользователь начинает <strong>ригхтдраг</strong> системный жест <strong>перетаскивания</strong> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>холдлеаве</strong></td>
-<td>Не реализован.<br/></td>
-<td>Не реализован.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>ховерентер</strong></td>
-<td>Несколько объектов <a href="/previous-versions/ms824592(v=msdn.10)">инаирпаккетсдата</a> с низкой средней скоростью.<br/></td>
-<td><blockquote>
-[!Note]<br />
-Перед получением системного жеста <strong>ховерентер</strong> может возникнуть заметная задержка. Объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> получает эти данные только в том случае, если объект <strong>RealTimeStylus</strong> присоединен к окну или элементу управления, который находится непосредственно под пером во время системного жеста.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>ховерлеаве</strong></td>
-<td>Объект <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> для жеста системы <strong>ховерентер</strong> и несколько объектов <a href="/previous-versions/ms824592(v=msdn.10)">инаирпаккетсдата</a> с достаточной средней скоростью.<br/></td>
-<td><blockquote>
-[!Note]<br />
-Перед получением системного жеста <strong>ховерлеаве</strong> может возникнуть заметная задержка. Объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> получает эти данные только в том случае, если объект <strong>RealTimeStylus</strong> присоединен к окну или элементу управления, который находится непосредственно под пером во время системного жеста.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| <a href="/previous-versions/ms827134(v=msdn.10)">системжестуре</a> | Объекты, предшествующие объекту <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> | Объекты, поступающие после объекта <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> | 
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| <strong>Касание</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br /> | Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>даублетап</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> , объект <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> для жеста системы <strong>TAP</strong> и объектов [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /> | Второй объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br /> | 
+| <strong>ригхттап</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> и объект <a href="/previous-versions/ms824019(v=msdn.10)">Системжестуредата</a> для элемента <strong>холдентер</strong> перечисления <a href="/previous-versions/ms827134(v=msdn.10)">системжесуре</a> .<br /> | Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>Перетаскивание</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br /> | Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>ригхтдраг</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br /> | Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /> | 
+| <strong>холдентер</strong> | Объект <a href="/previous-versions/ms824107(v=msdn.10)">стилусдовндата</a> .<br /> | Объект [стилусупдата](/previous-versions/ms824057(v=msdn.10)) .<br /><blockquote>[!Note]<br />Этот системный жест не распознается, если пользователь начинает <strong>ригхтдраг</strong> системный жест <strong>перетаскивания</strong> .</blockquote><br /> | 
+| <strong>холдлеаве</strong> | Не реализован.<br /> | Не реализован.<br /> | 
+| <strong>ховерентер</strong> | Несколько объектов <a href="/previous-versions/ms824592(v=msdn.10)">инаирпаккетсдата</a> с низкой средней скоростью.<br /> | <blockquote>[!Note]<br />Перед получением системного жеста <strong>ховерентер</strong> может возникнуть заметная задержка. Объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> получает эти данные только в том случае, если объект <strong>RealTimeStylus</strong> присоединен к окну или элементу управления, который находится непосредственно под пером во время системного жеста.</blockquote><br /> | 
+| <strong>ховерлеаве</strong> | Объект <a href="/previous-versions/ms824019(v=msdn.10)">системжестуредата</a> для жеста системы <strong>ховерентер</strong> и несколько объектов <a href="/previous-versions/ms824592(v=msdn.10)">инаирпаккетсдата</a> с достаточной средней скоростью.<br /> | <blockquote>[!Note]<br />Перед получением системного жеста <strong>ховерлеаве</strong> может возникнуть заметная задержка. Объект <a href="realtimestylus-class.md"><strong>RealTimeStylus</strong></a> получает эти данные только в том случае, если объект <strong>RealTimeStylus</strong> присоединен к окну или элементу управления, который находится непосредственно под пером во время системного жеста.</blockquote><br /> | 
+
 
 
 
@@ -240,7 +179,7 @@ ms.locfileid: "104553768"
 
 Объект [**RealTimeStylus**](realtimestylus-class.md) вызывает метод [Microsoft. стилусинпут. истилуссинкплугин. Error](/previous-versions/ms824754(v=msdn.10)) в потоке, из которого создается исключение.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

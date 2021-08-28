@@ -7,12 +7,12 @@ MSHAttr:
 title: Профилекреатионтипе (в Модемдмконфигпрофиле)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29867412bbadc8041bcf864a9575b0fc6001a499
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: dbd0a4a3a634a892f81f4be54093f51638d6c4ca
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122479960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885101"
 ---
 # <a name="span-idwwan_profile_v4element_1_profilecreationtypespanprofilecreationtype-in-modemdmconfigprofile"></a><span id="WWAN_profile_v4.element_1_ProfileCreationType"></span>Профилекреатионтипе (в Модемдмконфигпрофиле)
 
@@ -22,8 +22,8 @@ ms.locfileid: "122479960"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<ModemDMConfigProfile>](element-modemdmconfigprofile.md)  
-**<ProfileCreationType>**
+[&lt;ModemDMConfigProfile&gt;](element-modemdmconfigprofile.md)  
+**&lt;профилекреатионтипе&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 

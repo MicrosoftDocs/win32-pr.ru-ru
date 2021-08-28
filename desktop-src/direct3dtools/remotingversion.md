@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d7e5c937610b06a58309181a4dad2c95846d287b335c8ab6b2fed9008f338f3e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 121342a2c0d47b2041893459d577e09e3b4d73ba
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985484"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627239"
 ---
 # <a name="span-idvspixengineremotingversionspanremotingversion-enumeration"></a><span id="vspixengine.remotingversion"></span>Перечисление РЕМОТИНГВЕРСИОН
 
@@ -76,9 +76,9 @@ ms.locfileid: "118985484"
 <span id="REMOTING_LATES"></span><span id="remoting_lates"></span>**Удаленные \_ вызовы**  
 Значение, указывающее, что используется последний протокол удаленного взаимодействия.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

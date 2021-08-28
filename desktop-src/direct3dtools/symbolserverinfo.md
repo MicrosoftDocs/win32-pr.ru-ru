@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 65bf07a8ff915668c6c059b831bd049d9a25d9a0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 28f85445e6affc006c5c0898df1c85d71693a66d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104139755"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632092"
 ---
 # <a name="span-idvspixenginesymbolserverinfospansymbolserverinfo-structure"></a><span id="vspixengine.symbolserverinfo"></span>Структура Симболсерверинфо
 
@@ -35,7 +35,7 @@ ms.locfileid: "104139755"
 } SymbolServerInfo;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **symbolPath**  
 Строка COM, содержащая путь к серверу символов.
@@ -60,7 +60,7 @@ ms.locfileid: "104139755"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

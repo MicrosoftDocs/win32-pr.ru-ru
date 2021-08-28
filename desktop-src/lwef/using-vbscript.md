@@ -4,12 +4,12 @@ description: Использование VBScript
 ms.assetid: a078eb60-aa12-42ea-850c-7b845fc8037c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7afa94bd5b3576e80cf8a0c17857bbb0902bd254e95113d87ae9d1d1fca1e38b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f0bc64419af4d8dc47de5a2393fcf5cb259374ed
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118975504"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881015"
 ---
 # <a name="using-vbscript"></a>Использование VBScript
 
@@ -17,7 +17,7 @@ ms.locfileid: "118975504"
 
 VBScript — это язык программирования, входящий в состав Microsoft Internet Explorer. Для других браузеров обратитесь к поставщику за поддержкой. Для использования с агентом рекомендуется использовать VBScript 2,0 (или более поздней версии). Хотя более ранние версии VBScript могут работать с агентом, у них отсутствуют некоторые функции, которые можно использовать. Можно загрузить VBScript 2,0 и получить дополнительные сведения о VBScript на сайте загрузки Майкрософт и на сайте Microsoft VBScript.
 
-Чтобы программировать Microsoft Agent из VBScript, используйте HTML <SCRIPT> tags. To access the programming interface, use the name of control you assign in the <OBJECT> tag, followed by the subobject (if any), the name of the method or property, and any parameters or values supported by the method or property:
+Чтобы программировать Microsoft Agent из VBScript, используйте теги HTML &lt; script &gt; . Для доступа к интерфейсу программирования используйте имя элемента управления, присвоенное в &lt; теге объекта &gt; , за которым следует подобъект (если есть), имя метода или свойства, а также все параметры или значения, поддерживаемые методом или свойством:
 
 ``` syntax
 agent[.object].Method parameter, [parameter]
@@ -32,7 +32,7 @@ statements
 End Sub
 ```
 
-Можно также указать обработчик событий с помощью метода <SCRIPT> tag's **For...Event** syntax:
+Можно также указать обработчик событий с помощью &lt; тега скрипта &gt; **для... Синтаксис события** :
 
 ``` syntax
 <SCRIPT LANGUAGE=VBScript For=agent Event=event[(parameter[,parameter])]>
@@ -42,7 +42,7 @@ statements
 
 Хотя Microsoft Internet Explorer поддерживает этот синтаксис, не все браузеры. Для обеспечения совместимости используйте только бывший синтаксис для событий.
 
-При использовании VBScript (2,0 или более поздней версии) можно проверить, установлен ли агент Microsoft Agent, попытаться создать объект и проверить его существование. В следующем примере показано, как проверить наличие элемента управления агента без запуска автоматической загрузки элемента управления (как это произойдет, если <OBJECT> на странице был включен тег для элемента управления):
+При использовании VBScript (2,0 или более поздней версии) можно проверить, установлен ли агент Microsoft Agent, попытаться создать объект и проверить его существование. В следующем примере показано, как проверить наличие элемента управления агента без запуска автоматической загрузки элемента управления (как это произойдет, если включить &lt; &gt; тег объекта для элемента управления на странице):
 
 ``` syntax
 <!-- WARNING - This code requires VBScript 2.0.

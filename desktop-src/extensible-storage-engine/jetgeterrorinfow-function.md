@@ -17,23 +17,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1bf4db5d8d34a741e57f72e8f237f1497de0bacf
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f459d98ee2cc3c0bb1b57eb5cd4fb630d076836b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104157282"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468981"
 ---
 # <a name="jetgeterrorinfow-function"></a>Функция Жетжетерроринфов
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="jetgeterrorinfow-function"></a>Функция Жетжетерроринфов
 
 Функция **жетжетерроринфов** BAS_ ядра СУБД.
 
-Примечание. Эта документация основана на предварительном выпуске расширяемой подсистемы хранилища. Эта информация может быть изменена.
+примечание. эта документация основана на предварительном выпуске расширяемого механизма служба хранилища. Эта информация может быть изменена.
 
 ```cpp
 JET_ERR JET_API JetGetErrorInfoW( 
@@ -64,24 +64,11 @@ JET_ERR JET_API JetGetErrorInfoW(
 
 В следующей таблице перечислены возможные значения для этого параметра.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Значение</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ErrorInfoSpecificErr</p></td>
-<td><p><em>пвконтекст</em> интерпретируется как код/Error <a href="gg269297(v=exchg.10).md">JET_ERR</a>, <em>пвресулт</em> интерпретируется как <a href="hh475861(v=exchg.10).md">JET_ERRINFOBASIC_W</a>, а поля структуры <a href="hh475861(v=exchg.10).md">JET_ERRINFOBASIC_W</a> заполняются соответствующим образом.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Значение</p> | <p>Значение</p> | 
+|--------------|----------------|
+| <p>JET_ErrorInfoSpecificErr</p> | <p><em>пвконтекст</em> интерпретируется как код/Error <a href="gg269297(v=exchg.10).md">JET_ERR</a>, <em>пвресулт</em> интерпретируется как <a href="hh475861(v=exchg.10).md">JET_ERRINFOBASIC_W</a>, а поля структуры <a href="hh475861(v=exchg.10).md">JET_ERRINFOBASIC_W</a> заполняются соответствующим образом.</p> | 
+
 
 
 *грбит*
@@ -90,40 +77,15 @@ JET_ERR JET_API JetGetErrorInfoW(
 
 ### <a name="return-value"></a>Возвращаемое значение
 
-Эта функция возвращает [JET_ERR](./extensible-storage-engine-error-codes.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. Дополнительные сведения о возможных ошибках ESE см. в разделе [ошибки подсистемы хранилища](./extensible-storage-engine-errors.md) и [Параметры обработки ошибок](./error-handling-parameters.md).
+Эта функция возвращает [JET_ERR](./extensible-storage-engine-error-codes.md) тип данных с одним из кодов возврата, перечисленных в следующей таблице. дополнительные сведения о возможных ошибках подсистемы ESE см. в разделе [ошибки расширенных служба хранилища Engine](./extensible-storage-engine-errors.md) и [параметры обработки ошибок](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Код возврата</p></th>
-<th><p>Описание</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>Операция выполнена успешно.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <strong>жетжетерроринфо</strong> , когда происходит следующее:</p>
-<ul>
-<li><p>Указано недопустимое значение параметра <em>инфолевел</em> .</p></li>
-<li><p>Указано недопустимое значение <em>грбит</em> .</p></li>
-<li><p>Указанное значение <em>кбмакс</em> буфера параметра <em>пвресулт</em> меньше, чем требуемый размер для выходных данных этого параметра <em>инфолевел</em> .</p></li>
-<li><p>Для <em>инфолевел</em> = JET_ErrorInfoSpecificErr переданное значение <a href="gg294092(v=exchg.10).md">JET_ERR</a> неизвестно подсистеме.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDisabledFunctionality</p></td>
-<td><p>Если этот номер SKU Windows не поддерживает эту функцию, будет возвращена эта ошибка.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Код возврата</p> | <p>Описание</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>Операция выполнена успешно.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Один из указанных параметров содержит непредвиденное значение или содержит значение, которое не имеет смысла при объединении со значением другого параметра. Это может произойти для <strong>жетжетерроринфо</strong> , когда происходит следующее:</p><ul><li><p>Указано недопустимое значение параметра <em>инфолевел</em> .</p></li><li><p>Указано недопустимое значение <em>грбит</em> .</p></li><li><p>Указанное значение <em>кбмакс</em> буфера параметра <em>пвресулт</em> меньше, чем требуемый размер для выходных данных этого параметра <em>инфолевел</em> .</p></li><li><p>Для <em>инфолевел</em> = JET_ErrorInfoSpecificErr переданное значение <a href="gg294092(v=exchg.10).md">JET_ERR</a> неизвестно подсистеме.</p></li></ul> | 
+| <p>JET_errDisabledFunctionality</p> | <p>Если этот номер SKU Windows не поддерживает эту функцию, будет возвращена эта ошибка.</p> | 
+
 
 
 При успешном завершении для выходного буфера, соответствующего запрошенному контексту или значению ошибки, будут установлены запрошенные расширенные сведения об ошибке.
@@ -136,35 +98,6 @@ JET_ERR JET_API JetGetErrorInfoW(
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows 8 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Библиотека</strong></p></td>
-<td><p>Используйте ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>КОМПОНОВКИ</strong></p></td>
-<td><p>Требуется ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Юникод</strong></p></td>
-<td><p>Примечание. реализуется только <strong>жетжетерроринфов</strong> (Unicode). Этот API не имеет версию A (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>Требуется Windows 8.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows 8 Server.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Примечание. реализуется только <strong>жетжетерроринфов</strong> (Unicode). Этот API не имеет версию A (ANSI).</p> | 
+

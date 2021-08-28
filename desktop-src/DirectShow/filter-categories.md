@@ -1,27 +1,27 @@
 ---
-description: В следующих таблицах перечислены идентификаторы CLSID для категорий фильтров DirectShow.
+description: в следующих таблицах перечислены идентификаторы clsid для категорий фильтров DirectShow.
 ms.assetid: cab4e2c9-eab9-4836-adfc-870490ca5b6b
 title: Фильтровать категории
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c4ccb9443c405abcbd0b9afbd406d6faf2558a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb4e8c2b5e5f9e477633774cb24e707aa9d71060
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104416444"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476330"
 ---
 # <a name="filter-categories"></a>Фильтровать категории
 
-В следующих таблицах перечислены идентификаторы CLSID для категорий фильтров DirectShow.
+в следующих таблицах перечислены идентификаторы clsid для категорий фильтров DirectShow.
 
--   [Категории фильтров DirectShow](#directshow-filter-categories)
+-   [DirectShow Фильтровать категории](#directshow-filter-categories)
 -   [Другие категории фильтров](#other-filter-categories)
--   [Meta-Категория фильтра DirectShow](#directshow-filter-meta-category)
--   [Категории DMO](#dmo-categories)
--   [См. также](#related-topics)
+-   [DirectShow Мета-Категория фильтра](#directshow-filter-meta-category)
+-   [DMO Категорий](#dmo-categories)
+-   [Связанные темы](#related-topics)
 
-## <a name="directshow-filter-categories"></a>Категории фильтров DirectShow
+## <a name="directshow-filter-categories"></a>DirectShow Фильтровать категории
 
 Перечисленные здесь категории перечисляются с помощью модуля [сопоставления фильтров](filter-mapper.md). Однако по умолчанию средство сопоставления фильтров не учитывает категории с \_ \_ недоступностью и не использует их \_ . Дополнительные сведения см. в разделе [**IFilterMapper2:: енумматчингфилтерс**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-enummatchingfilters). Все перечисленные здесь категории также можно перечислить с помощью [перечислителя системных устройств](system-device-enumerator.md).
 
@@ -29,112 +29,27 @@ ms.locfileid: "104416444"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Понятное имя</th>
-<th>CLSID</th>
-<th>Заслуживают</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Источники записи звука</td>
-<td><strong>CLSID_AudioInputDeviceCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Звуковые компрессоры</td>
-<td><strong>CLSID_AudioCompressorCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Модули подготовки звука</td>
-<td><strong>CLSID_AudioRendererCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>Фильтры управления устройствами</td>
-<td><strong>CLSID_DeviceControlCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Фильтры DirectShow</td>
-<td><strong>CLSID_LegacyAmFilterCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>Внешние модули подготовки отчетов</td>
-<td><strong>CLSID_TransmitCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Модули подготовки MIDI</td>
-<td><strong>CLSID_MidiRendererCategory</strong></td>
-<td><strong>MERIT_NORMAL</strong></td>
-</tr>
-<tr class="even">
-<td>Источники видеозаписи</td>
-<td><strong>CLSID_VideoInputDeviceCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Видео программы сжатия</td>
-<td><strong>CLSID_VideoCompressorCategory</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Устройства распаковки WDM Stream</td>
-<td><strong>CLSID_DVDHWDecodersCategory</strong>
-<blockquote>
-[!Note]<br />
-В этой категории содержатся аппаратные декодеры DVD.
-</blockquote>
-<br/></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Устройства захвата WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_CAPTURE</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Устройства микширования WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_CROSSBAR</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Устройства отрисовки WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_RENDER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Устройства tee/разделитель WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_SPLITTER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>Аудиоустройства потоковой передачи WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_TVAUDIO</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="even">
-<td>Устройства ТВ-тюнера WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_TVTUNER</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-<tr class="odd">
-<td>ВБИ кодеки WDM Streaming</td>
-<td><strong>AM_KSCATEGORY_VBICODEC</strong></td>
-<td><strong>MERIT_DO_NOT_USE</strong></td>
-</tr>
-</tbody>
-</table>
+
+| Понятное имя | CLSID | Заслуживают | 
+|---------------|-------|-------|
+| Источники записи звука | <strong>CLSID_AudioInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Звуковые компрессоры | <strong>CLSID_AudioCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Модули подготовки звука | <strong>CLSID_AudioRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| Фильтры управления устройствами | <strong>CLSID_DeviceControlCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| DirectShow Фильтрующ | <strong>CLSID_LegacyAmFilterCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| Внешние модули подготовки отчетов | <strong>CLSID_TransmitCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Модули подготовки MIDI | <strong>CLSID_MidiRendererCategory</strong> | <strong>MERIT_NORMAL</strong> | 
+| Источники видеозаписи | <strong>CLSID_VideoInputDeviceCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Видео программы сжатия | <strong>CLSID_VideoCompressorCategory</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства распаковки WDM Stream | <strong>CLSID_DVDHWDecodersCategory</strong><blockquote>[!Note]<br />В этой категории содержатся аппаратные декодеры DVD.</blockquote><br /> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства захвата WDM Streaming | <strong>AM_KSCATEGORY_CAPTURE</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства микширования WDM Streaming | <strong>AM_KSCATEGORY_CROSSBAR</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства отрисовки WDM Streaming | <strong>AM_KSCATEGORY_RENDER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства tee/разделитель WDM Streaming | <strong>AM_KSCATEGORY_SPLITTER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Аудиоустройства потоковой передачи WDM Streaming | <strong>AM_KSCATEGORY_TVAUDIO</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| Устройства ТВ-тюнера WDM Streaming | <strong>AM_KSCATEGORY_TVTUNER</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+| ВБИ кодеки WDM Streaming | <strong>AM_KSCATEGORY_VBICODEC</strong> | <strong>MERIT_DO_NOT_USE</strong> | 
+
 
 
 
@@ -149,7 +64,7 @@ ms.locfileid: "104416444"
 | Преобразования связи WDM Streaming | **КСКАТЕГОРИ \_ коммуникатионстрансформ** | **\_ \_ не \_ использовать** |
 | Преобразования данных потоковой передачи WDM          | **\_Преобразование кскатегори**           | **\_ \_ не \_ использовать** |
 | Преобразования интерфейса потоковой передачи WDM     | **КСКАТЕГОРИ \_ интерфацетрансформ**      | **\_ \_ не \_ использовать** |
-| Устройства микшера потоковой передачи WDM            | **\_микшер кскатегори**                   | **\_ \_ не \_ использовать** |
+| потоковая передача WDM stream Mixer устройств            | **\_микшер кскатегори**                   | **\_ \_ не \_ использовать** |
 
 
 
@@ -172,13 +87,13 @@ ms.locfileid: "104416444"
  
 
 > [!Note]  
-> Декодеры регистрируются в категории "фильтры DirectShow" (CLSID \_ легациамфилтеркатегори).
+> декодеры регистрируются в категории "фильтры DirectShow" (CLSID \_ легациамфилтеркатегори).
 
  
 
 ## <a name="other-filter-categories"></a>Другие категории фильтров
 
-Перечисленные здесь категории можно перечислить с помощью перечислителя системных устройств, но они не видны для модуля сопоставления фильтров и не используются [интеллектуальным соединением](intelligent-connect.md).
+перечисленные здесь категории можно перечислить с помощью перечислителя системных устройств, но они не видны для модуля сопоставления фильтров и не используются [интеллектуальными Подключение](intelligent-connect.md).
 
 Следующие категории объявляются в файле заголовка Кедит. h.
 
@@ -193,7 +108,7 @@ ms.locfileid: "104416444"
 
  
 
-Эти категории содержат видеоэффекты и переходы для [служб редактирования DirectShow](directshow-editing-services.md).
+эти категории содержат видеоэффекты и переходы для [DirectShow редактирования служб](directshow-editing-services.md):
 
 -   "Видеоролики (1 Ввод)" содержит видеоэффекты.
 -   "Видеоэффекты (2 входные данные)" содержат видеопереходы.
@@ -213,7 +128,7 @@ ms.locfileid: "104416444"
 
  
 
-## <a name="directshow-filter-meta-category"></a>Meta-Category фильтров DirectShow
+## <a name="directshow-filter-meta-category"></a>DirectShow Meta-Category фильтра
 
 
 
@@ -225,7 +140,7 @@ ms.locfileid: "104416444"
 
  
 
-Эта мета-категория содержит список категорий фильтров. Если Категория фильтра не отображается в этом списке, то средство [сопоставления фильтров](filter-mapper.md) игнорирует категорию, что означает, что фильтр недоступен для [интеллектуального соединения](intelligent-connect.md).
+Эта мета-категория содержит список категорий фильтров. если категория фильтра не отображается в этом списке, то средство [сопоставления фильтров](filter-mapper.md) игнорирует категорию, что означает, что фильтр недоступен для [интеллектуальных Подключение](intelligent-connect.md).
 
 Чтобы перечислить список категорий фильтров, вызовите [**икреатедевенум:: креатеклассенумератор**](/windows/desktop/api/Strmif/nf-strmif-icreatedevenum-createclassenumerator) со значением CLSID \_ активемовиекатегориес. Моникеры, возвращаемые этим методом, поддерживают следующие свойства.
 
@@ -243,15 +158,15 @@ ms.locfileid: "104416444"
 
 Чтобы добавить новую категорию фильтра в этот список, вызовите метод [**IFilterMapper2:: креатекатегори**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-createcategory).
 
-## <a name="dmo-categories"></a>Категории DMO
+## <a name="dmo-categories"></a>DMO Категорий
 
-Объекты мультимедиа DirectX (дмос) используют другой механизм перечисления из фильтров DirectShow. Дополнительные сведения см. [в разделе Регистрация DMO](registering-a-dmo.md). Однако можно использовать перечислитель системных устройств для перечисления категорий DMO. Моникеры привязываются к [фильтру оболочки DMO](dmo-wrapper-filter.md) и автоматически инициализируют фильтр с помощью DMO.
+объекты мультимедиа DirectX (дмос) используют другой механизм перечисления DirectShow фильтров. Дополнительные сведения см. [в разделе регистрация DMO](registering-a-dmo.md). однако можно использовать перечислитель системных устройств для перечисления DMO категорий. моникеры привязываются к [фильтру оболочки DMO](dmo-wrapper-filter.md) и автоматически инициализируют фильтр с DMO.
 
-Кроме того, некоторые категории DMO сопоставляются с категориями фильтров DirectShow в целях интеллектуального подключения:
+кроме того, некоторые категории DMO сопоставляются с DirectShow категориями фильтров в целях интеллектуального подключения:
 
 
 
-| Категория DMO                    | Эквивалент DirectShow              |
+| DMO Категори                    | DirectShow Друг              |
 |---------------------------------|------------------------------------|
 | **\_КОДИРОВЩИК дмокатегори Audio \_** | **\_АУДИОКОМПРЕССОРКАТЕГОРИ CLSID** |
 | **\_декодер дмокатегори Audio \_** | **\_ЛЕГАЦИАМФИЛТЕРКАТЕГОРИ CLSID**  |
@@ -262,9 +177,9 @@ ms.locfileid: "104416444"
 
  
 
-Обратите внимание, что категории эффектов видео и звуковых эффектов не сопоставлены ни с одной из категорий DirectShow.
+обратите внимание, что категории эффектов видео и звуковых эффектов не сопоставлены ни с одной из категорий DirectShow.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -274,7 +189,7 @@ ms.locfileid: "104416444"
 [Перечисление устройств и фильтров](enumerating-devices-and-filters.md)
 </dt> <dt>
 
-[Интеллектуальное подключение](intelligent-connect.md)
+[интеллектуальные Подключение](intelligent-connect.md)
 </dt> <dt>
 
 [Структура разделов реестра](layout-of-the-registry-keys.md)

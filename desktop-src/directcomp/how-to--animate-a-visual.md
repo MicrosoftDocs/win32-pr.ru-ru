@@ -8,21 +8,21 @@ keywords:
 - Применение анимации DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d83f01ba00e750b6a06aa13246ef1616635f415a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ecba1bde3c430acbb49f640dc7611452f0967746
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104070387"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474230"
 ---
 # <a name="how-to-apply-animations"></a>Как применять анимацию
 
 > [!NOTE]
-> Для приложений в Windows 10 рекомендуется использовать интерфейсы API Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> для приложений на Windows 10 рекомендуется использовать интерфейсы api Windows. UI. компоновки вместо DirectComposition. Дополнительные сведения см. в разделе [модернизировать The классическое приложение с использованием визуального слоя](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 В этом разделе показано, как анимировать свойства визуального элемента с помощью Microsoft DirectComposition. Пример в этом разделе анимирует свойство Effect визуального элемента, что приводит к изменению прозрачности визуального элемента с нуля (прозрачный) на один (полностью непрозрачный) в течение двух секунд.
 
-## <a name="what-you-need-to-know"></a>Что необходимо знать
+## <a name="what-you-need-to-know"></a>Это важно знать
 
 ### <a name="technologies"></a>Технологии
 
@@ -30,7 +30,7 @@ ms.locfileid: "104070387"
 -   [Графика Direct3D 11](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 -   [Графическая инфраструктура DirectX (DXGI)](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a>Предварительные условия
+### <a name="prerequisites"></a>Предварительные требования
 
 -   C/C++
 -   Microsoft Win32
@@ -96,42 +96,19 @@ hr = m_pDevice->CreateEffectGroup(&m_pEffectGroup);
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>if (SUCCEEDED(hr))
-{
-    hr = m_pEffectGroup->SetOpacity(m_pFadeInAnimation);
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre><code>if (SUCCEEDED(hr)){    hr = m_pEffectGroup-&gt;SetOpacity(m_pFadeInAnimation);}</code></pre> | 
+
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>hr = m_pVisual->SetEffect(m_pEffectGroup);</code></pre></td>
-</tr>
-</tbody>
-</table>
+
+| C++ | 
+|-----|
+| <pre><code>hr = m_pVisual-&gt;SetEffect(m_pEffectGroup);</code></pre> | 
+
 
 
 
@@ -1004,13 +981,13 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Анимация](animation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

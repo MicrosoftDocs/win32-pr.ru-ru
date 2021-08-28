@@ -4,12 +4,12 @@ ms.assetid: 187f26f2-f191-4703-9bde-3357f1ceef0c
 title: Общие сведения о фактическом резервном копировании файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a504ff5a41725e33a2eb27792a3c6c89d00276
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2413111467014b666d219a7a1e92efad26302e5c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105692903"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475700"
 ---
 # <a name="overview-of-actual-backup-of-files"></a>Общие сведения о фактическом резервном копировании файлов
 
@@ -19,57 +19,16 @@ VSS позволяет инициатору запроса получить до
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Действие запросившего</th>
-<th>Событие</th>
-<th>Действие записи</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Доступ к файлам на тенев скопированном томе (см <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>. раздел ивссбаккупкомпонентс:: жетснапшотпропертиес</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>)</td>
-<td>Нет</td>
-<td>Нет</td>
-</tr>
-<tr class="even">
-<td>Создайте список файлов для резервного копирования и скопируйте данные файлов на носитель резервной копии.</td>
-<td>Нет</td>
-<td>Нет</td>
-</tr>
-<tr class="odd">
-<td>Укажите успешность или сбой резервного копирования с помощью <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>ивссбаккупкомпонентс:: сетбаккупсукцеедед</strong></a>.</td>
-<td>Нет</td>
-<td>Нет</td>
-</tr>
-<tr class="even">
-<td>Инициатор запроса указывает, что резервное копирование завершено путем вызова <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>ивссбаккупкомпонентс:: баккупкомплете</strong></a>.</td>
-<td><a href="vssgloss-b.md"><em>баккупкомплете</em></a></td>
-<td>Выполните очистку после резервного копирования (см. раздел <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>квссвритер:: онбаккупкомплете</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>ивссвритеркомпонентс</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>ивсскомпонент</strong></a>).</td>
-</tr>
-<tr class="odd">
-<td>Инициатор запроса ждет, пока все модули записи заподтверждают получение события <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>ивссбаккупкомпонентс:: баккупкомплете</strong></a> с помощью <a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>ивссасинк</strong></a>. Он также должен проверить состояние модуля записи (см. раздел <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>ивссбаккупкомпонентс:: гасервритерстатус</strong></a>, <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>Ивссбаккупкомпонентс:: жетвритерстатус</strong></a>). Инициатор запроса должен вызвать <strong>гасервритерстатус</strong> в данный момент, чтобы сделать сеанс записи незавершенным.
-<blockquote>
-[!Note]<br />
-Это необходимо только в Windows Server 2008 с пакетом обновления 2 (SP2) и более ранних версий.
-</blockquote>
-<br/></td>
-<td>Нет</td>
-<td>Нет</td>
-</tr>
-<tr class="even">
-<td>Сохраните документ компонентов резервного копирования и каждый документ метаданных модуля записи в XML-документы, которые можно записать на носитель резервной копии (см. <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>ивссбаккупкомпонентс:: савеасксмл</strong></a> and <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>Ивссексаминевритерметадата:: савеасксмл</strong></a>).</td>
-<td>Нет</td>
-<td>Нет</td>
-</tr>
-</tbody>
-</table>
+
+| Действие запросившего | Событие | Действие записи | 
+|------------------|-------|---------------|
+| Доступ к файлам на тенев скопированном томе (см <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties"><strong>. раздел ивссбаккупкомпонентс:: жетснапшотпропертиес</strong></a>, <a href="/windows/desktop/api/Vss/ns-vss-vss_snapshot_prop"><strong>VSS_SNAPSHOT_PROP</strong></a>) | None | None | 
+| Создайте список файлов для резервного копирования и скопируйте данные файлов на носитель резервной копии. | None | None | 
+| Укажите успешность или сбой резервного копирования с помощью <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setbackupsucceeded"><strong>ивссбаккупкомпонентс:: сетбаккупсукцеедед</strong></a>. | None | None | 
+| Инициатор запроса указывает, что резервное копирование завершено путем вызова <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>ивссбаккупкомпонентс:: баккупкомплете</strong></a>. | <a href="vssgloss-b.md"><em>баккупкомплете</em></a> | Выполните очистку после резервного копирования (см. раздел <a href="/windows/desktop/api/VsWriter/nf-vswriter-cvsswriter-onbackupcomplete"><strong>квссвритер:: онбаккупкомплете</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents"><strong>ивссвритеркомпонентс</strong></a>, <a href="/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent"><strong>ивсскомпонент</strong></a>). | 
+| Инициатор запроса ждет, пока все модули записи заподтверждают получение события <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete"><strong>ивссбаккупкомпонентс:: баккупкомплете</strong></a> с помощью <a href="/windows/desktop/api/Vss/nn-vss-ivssasync"><strong>ивссасинк</strong></a>. Он также должен проверить состояние модуля записи (см. раздел <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus"><strong>ивссбаккупкомпонентс:: гасервритерстатус</strong></a>, <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus"><strong>Ивссбаккупкомпонентс:: жетвритерстатус</strong></a>). Инициатор запроса должен вызвать <strong>гасервритерстатус</strong> в данный момент, чтобы сделать сеанс записи незавершенным.<blockquote>[!Note]<br />это необходимо только для Windows Server 2008 с пакетом обновления 2 (sp2) и более ранних версий.</blockquote><br /> | None | None | 
+| Сохраните документ компонентов резервного копирования и каждый документ метаданных модуля записи в XML-документы, которые можно записать на носитель резервной копии (см. <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-saveasxml"><strong>ивссбаккупкомпонентс:: савеасксмл</strong></a> and <a href="/windows/desktop/api/VsBackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml"><strong>Ивссексаминевритерметадата:: савеасксмл</strong></a>). | None | None | 
+
 
 
 

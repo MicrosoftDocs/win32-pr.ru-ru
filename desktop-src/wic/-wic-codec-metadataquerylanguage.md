@@ -4,12 +4,12 @@ ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Общие сведения о языке запросов метаданных
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c69effefd288f13c72239a41c5ace1a518775337cc496a2defa864d179cd6cc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 41e141c543cae90ff99d8c0509a0f5802dba1139
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117668240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885220"
 ---
 # <a name="metadata-query-language-overview"></a>Общие сведения о языке запросов метаданных
 
@@ -26,7 +26,7 @@ ms.locfileid: "117668240"
     -   [Образцы выражений](#sample-expressions)
 -   [Выражения политики метаданных фотографий](#photo-metadata-policy-expressions)
 -   [Сводка по языку запросов метаданных](#metadata-query-language-summary)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -210,12 +210,12 @@ Escape-символ используется анализатором языка
 | \<property path>    | \<metadata item> \| \<property path> '/' \<property path>                                                                                                    |
 | \<metadata item>    | \<index name> \| \<item name> \| \<schema name> ':' \<item name>                                                                                        |
 | \<schema name>      | \<item name>                                                                                                                                                           |
-| \<item name>        | \<metadata item> \| <indexed item><index>                                                                                                                  |
+| \<item name>        | \<metadata item>\| <indexed item>&lt; номер&gt;                                                                                                                  |
 | \<indexed item>     | \<item> \| \<implied metadata>\<item>                                                                                                                        |
 | \<implied metadata> | "<" \<name> > "                                                                                                                                                    |
-| \<item>             | \<name> \| \<index> \<data> \| \<data>                                                                                                                  |
+| \<item>             | \<name>\| \& lt; &gt; \<data> Индекс \|\<data>                                                                                                                  |
 | \<data>             | '{' \<data type> '=' \<value> '}'                                                                                                                                 |
-| \<index>            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
+| \&lt; индекс&gt;            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
 | \<data type>        | ' char ' \| ' Учар ' \| ' Short ' ' \| UShort ' \| ' длинное ' \| ulong ' \| ' int ' \| ' uint ' \| ' лонглонг ' \| ' улонглонг ' \| ' float ' \| ' Double ' ' \| str ' \| ' встр ' \| ' GUID ' ' \| bool ' |
 | \<data value>       | \<number> \| \<name> \| \<guid>                                                                                                                              |
 | \<star>             | '\*'                                                                                                                                                                        |

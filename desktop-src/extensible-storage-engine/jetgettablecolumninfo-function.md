@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e3940c07cc641d8c8d077c420f8c492ab5122b3f
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 925ade657a4184d5b1cac447aa43619f375bc0b1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984737"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468961"
 ---
 # <a name="jetgettablecolumninfo-function"></a>Функция Жетжеттаблеколумнинфо
 
@@ -124,14 +124,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 #### <a name="requirements"></a>Требования
 
 
-| Требование | Применение |
-|------------|----------|
-| <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | 
-| <p><strong>Server</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | 
-| <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
-| <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | 
-| <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | 
-| <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетжеттаблеколумнинфов</strong> (Юникод) и <strong>жетжеттаблеколумнинфоа</strong> (ANSI).</p> | 
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | | <p><strong>Библиотека</strong></p> | <p>Используйте ESENT. lib.</p> | | <p><strong>КОМПОНОВКИ</strong></p> | <p>Требуется ESENT.dll.</p> | | <p><strong>Юникод</strong></p> | <p>Реализуется как <strong>жетжеттаблеколумнинфов</strong> (Юникод) и <strong>жетжеттаблеколумнинфоа</strong> (ANSI).</p> | 
 
 
 

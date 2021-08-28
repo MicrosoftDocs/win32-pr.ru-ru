@@ -7,12 +7,12 @@ MSHAttr:
 title: ModemDMConfigProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58ea408fb35fef5b9b2f89255e6ecb28f59b2370
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 80684cdf2d47d203318afbfd7b5e6bc02de1d3dc
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882912"
+ms.locfileid: "122982747"
 ---
 # <a name="span-idwwan_profile_v4element_modemdmconfigprofilespanmodemdmconfigprofile"></a><span id="WWAN_profile_v4.element_ModemDMConfigProfile"></span>модемдмконфигпрофиле
 
@@ -52,7 +52,7 @@ ms.locfileid: "122882912"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
@@ -79,7 +79,9 @@ ms.locfileid: "122882912"
 ## <a name="requirements"></a>Требования
 
 
-| | | <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

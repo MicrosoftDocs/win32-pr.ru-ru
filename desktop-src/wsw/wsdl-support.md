@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 203ee1819a596d2d49a7d0b7c789d5f4e1269b6d8d75f78e2db0913b6a97ec78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b273bd97d30aca185f35f31d385e6ab5a0bef4e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119880744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882285"
 ---
 # <a name="wsdl-and-service-contracts"></a>WSDL и контракты служб
 
@@ -154,7 +154,7 @@ typedef struct SimpleMethodResponse
 
 ## <a name="header-for-the-stub"></a>Заголовок для заглушки
 
-Для каждой операции в контракте службы создается одна подпрограммы обратного вызова с именем <operationname> callback. (Например, операция "Симплемесод" в примере контракта службы имеет созданный обратный вызов с именем "Симплемесодкаллбакк".)
+Для каждой операции в контракте службы создается одна подпрограммы обратного вызова с именем " &lt; имя_операции &gt; callback". (Например, операция "Симплемесод" в примере контракта службы имеет созданный обратный вызов с именем "Симплемесодкаллбакк".)
 
 ``` syntax
 typedef HRESULT (CALLBACK *SimpleMethodCallback) (

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5ddd0cbcf417da7967b135a10227ce6687cb2ea5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 10f1d1780404303109a72fe1a12023bc35b2c0ca
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103990062"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625170"
 ---
 # <a name="span-idvspixenginepipelinestagespanpipelinestage-structure"></a><span id="vspixengine.pipelinestage"></span>Структура Пипелинестаже
 
@@ -35,7 +35,7 @@ ms.locfileid: "103990062"
 } PipeLineStage;
 ```
 
-## <a name="members"></a>Члены
+## <a name="members"></a>Участники
 
 **стажеид**  
 Идентификатор этапа конвейера.
@@ -60,7 +60,7 @@ ms.locfileid: "103990062"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

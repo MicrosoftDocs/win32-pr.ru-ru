@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 7705f055fe09839d1e4afe22a9d779ca859ec3ba
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 479796ebf225ceac4e93f429aa6b8412e3f86398
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786540"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628842"
 ---
 # <a name="span-idvspixengineiframebuffercallbackspaniframebuffercallback-interface"></a><span id="vspixengine.iframebuffercallback"></span>Интерфейс Ифрамебуфферкаллбакк
 
 Обратный вызов для возврата целевого объекта прорисовки. Формат возвращаемого целевого объекта прорисовки — R8G8B8A8 \_ UNORM независимо от формата рендертаржет in-Engine.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **ифрамебуфферкаллбакк** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . **Ифрамебуфферкаллбакк** также имеет следующие типы членов:
 
@@ -38,7 +38,7 @@ ms.locfileid: "122786540"
 
 Интерфейс **ифрамебуфферкаллбакк** содержит следующие методы.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframebuffercallback-resultcallback-dword-dword-dword-dword-double-dword-byte-arr"><strong>ресулткаллбакк</strong></a></td><td ><p>Обратный вызов, уведомляющий узел о буфера кадров данных, возвращаемых связанным запросом.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframebuffercallback-resultcallback-dword-dword-dword-dword-double-dword-byte-arr"><strong>ресулткаллбакк</strong></a></td><td style="text-align: left;"><p>Обратный вызов, уведомляющий узел о буфера кадров данных, возвращаемых связанным запросом.</p></td></tr></tbody></table>
 
  
 

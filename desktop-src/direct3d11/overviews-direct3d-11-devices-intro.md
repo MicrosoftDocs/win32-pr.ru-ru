@@ -4,12 +4,12 @@ description: Объектная модель Direct3D 11 разделяет фу
 ms.assetid: b9b45d18-f7b7-40f9-ae4e-576ca7a6eba7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 190b0f8f64a510c6a7cc9fea193b1ce74d6868cdd4e541effe4047d5de239e48
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5f9459574ad7d8732714ac54519294ae232e4d8d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117913408"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475710"
 ---
 # <a name="introduction-to-a-device-in-direct3d-11"></a>Общие сведения об устройстве в Direct3D 11
 
@@ -55,23 +55,9 @@ ms.locfileid: "117913408"
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Различия между Direct3D 11 и предыдущими версиями Direct3D:<br/> Все методы интерфейса <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> являются свободными потоками, что означает, что несколько потоков могут вызывать функции одновременно.<br/>
-<ul>
-<li>Все интерфейсы, производные от <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>(<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11buffer"><strong>ID3D11Buffer</strong></a>, <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11query"><strong>ID3D11Query</strong></a>и т. д.), являются свободными потоками.</li>
-<li>Direct3D 11 разделяет ресурсы на создание и визуализацию в двух интерфейсах. Сопоставление, отмена сопоставления, начало, конец и метод GetData реализуются в <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>ссылку ID3D11DeviceContext</strong></a> , так как <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> строго определяет порядок операций. Интерфейсы <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11resource"><strong>ID3D11Resource</strong></a> и <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11asynchronous"><strong>ID3D11Asynchronous</strong></a> также реализуют методы для операций, выполняемых в произвольных потоках.</li>
-<li>Методы <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>ссылку ID3D11DeviceContext</strong></a> (за исключением тех, которые существуют в <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>) не являются потокобезопасными, то есть для них требуется единая Организация. Только один поток может безопасно вызывать любой из его методов (рисования, копирования, сопоставлений и т. д.) за раз.</li>
-<li>Как правило, при свободной многопоточности уменьшается количество используемых примитивов синхронизации, а также их длительность. Однако приложение, которое использует синхронизацию в течение длительного времени, может напрямую влиять на то, сколько параллелизма может быть достигнуто приложением.</li>
-</ul>
-Методы интерфейса ID3D10Device не предназначены для бессвинцовых потоков. ID3D10Device реализует все функции создания и отрисовки (как и ID3D9Device в Direct3D 9). Map и unend реализуются в интерфейсах, производных от ID3D10Resource, Begin, End и GetData реализуются в интерфейсах, производных от ID3D10Asynchronous.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | Различия между Direct3D 11 и предыдущими версиями Direct3D:<br /> Все методы интерфейса <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> являются свободными потоками, что означает, что несколько потоков могут вызывать функции одновременно.<br /><ul><li>Все интерфейсы, производные от <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>(<a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11buffer"><strong>ID3D11Buffer</strong></a>, <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11query"><strong>ID3D11Query</strong></a>и т. д.), являются свободными потоками.</li><li>Direct3D 11 разделяет ресурсы на создание и визуализацию в двух интерфейсах. Сопоставление, отмена сопоставления, начало, конец и метод GetData реализуются в <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>ссылку ID3D11DeviceContext</strong></a> , так как <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11device"><strong>ID3D11Device</strong></a> строго определяет порядок операций. Интерфейсы <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11resource"><strong>ID3D11Resource</strong></a> и <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11asynchronous"><strong>ID3D11Asynchronous</strong></a> также реализуют методы для операций, выполняемых в произвольных потоках.</li><li>Методы <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>ссылку ID3D11DeviceContext</strong></a> (за исключением тех, которые существуют в <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicechild"><strong>ID3D11DeviceChild</strong></a>) не являются потокобезопасными, то есть для них требуется единая Организация. Только один поток может безопасно вызывать любой из его методов (рисования, копирования, сопоставлений и т. д.) за раз.</li><li>Как правило, при свободной многопоточности уменьшается количество используемых примитивов синхронизации, а также их длительность. Однако приложение, которое использует синхронизацию в течение длительного времени, может напрямую влиять на то, сколько параллелизма может быть достигнуто приложением.</li></ul>Методы интерфейса ID3D10Device не предназначены для бессвинцовых потоков. ID3D10Device реализует все функции создания и отрисовки (как и ID3D9Device в Direct3D 9). Map и unend реализуются в интерфейсах, производных от ID3D10Resource, Begin, End и GetData реализуются в интерфейсах, производных от ID3D10Asynchronous.<br /> | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3b5f4360-887a-4a21-8f16-faa84da34328
 title: Таблица Упградедфилестоигноре (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f51143fcf7db350d5ee8aa1e43d49984914bcf9f05a2f8f5f787834a69b7e1a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 4b3af0a4a8c3385c2d028cdb66ad276d3f480ca8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119809554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884499"
 ---
 # <a name="upgradedfilestoignore-table-patchwizdll"></a>Таблица Упградедфилестоигноре (Patchwiz.dll)
 
@@ -21,8 +21,8 @@ ms.locfileid: "119809554"
 
 | Столбец   | Type | Ключ | Допускает значения NULL |
 |----------|------|-----|----------|
-| Обновлено | text | Д   | Нет        |
-| фтк      | text | Д   | Нет        |
+| Обновлено | text | Да   | Нет        |
+| фтк      | text | Да   | Нет        |
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "119809554"
 <span id="FTK"></span><span id="ftk"></span>фтк
 </dt> <dd>
 
-Внешний ключ в [таблице файлов](file-table.md) обновленного образа. Значение в формате " <prefix> \* " соответствует всем ключам таблицы файлов в таблице File, которые начинаются с этого префикса. Текст не может следовать за звездочкой.
+Внешний ключ в [таблице файлов](file-table.md) обновленного образа. Значение в формате " &lt; prefix &gt; \* " соответствует всем ключам таблицы файлов в таблице файлов, которые начинаются с этого префикса. Текст не может следовать за звездочкой.
 
 </dd> </dl>
 

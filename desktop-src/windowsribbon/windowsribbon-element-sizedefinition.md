@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 982825649afb7640f87cb7032b000d837915c4bc9d970444da3c5cd3a5a98375
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 212cd7267db87b3892daad2868afab1358cec4c1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118439539"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629915"
 ---
 # <a name="sizedefinition-element"></a>Сизедефинитион, элемент
 
@@ -39,10 +39,10 @@ ms.locfileid: "118439539"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -54,7 +54,7 @@ ms.locfileid: "118439539"
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Имя</strong><br/></td>
+<td><strong>имя</strong>;<br/></td>
 <td>xs: Поситивеинтежер или xs: String или xs: Token<br/></td>
 <td>Да<br/></td>
 <td>Если <a href="windowsribbon-element-ribbon-sizedefinitions.md"><strong>Ribbon. сизедефинитионс</strong></a> является родительским элементом, в противном случае — необязательный.<br/> <br/>

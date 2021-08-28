@@ -5,12 +5,12 @@ metadata:
   title: Часто задаваемые вопросы (планшетный ПК)
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: 4d91b7ab4da91e5ab97199c787ae2ab599024360a0075068f27458889c2d1b56
-  ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+  ms.openlocfilehash: 8241efbe2207dbeb6d225001f0b8fdf55f03e20f
+  ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
   ms.translationtype: MT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/11/2021
-  ms.locfileid: "119940814"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "122884704"
 title: Часто задаваемые вопросы о разработке для платформы Tablet PC
 summary: ниже приведены часто задаваемые вопросы о разработке для компонентов платформы Tablet PC, установленных с помощью пакета SDK для Windows Vista.
 sections:
@@ -76,7 +76,7 @@ sections:
 
       - [примеры цифровых рукописных фрагментов, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
 
-      - <systemdrive>: \\ Program files \\ Microsoft sdks \\ Windows \\ v 6.0 с \\ примерами \\ TabletPC
+      - &lt;systemdrive &gt; : \\ Program files \\ Microsoft sdks \\ Windows \\ v 6.0 \\ samples \\ TabletPC
   - question: >
       Каков базовый уровень оборудования планшета, для которого мне нужно разработать?
     answer: >

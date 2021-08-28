@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0b9a78a505e390032d091ae5325f7d9b50913e2f69989101e811e3abf8b39ed3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cb1b3861c708feeabd82fdbdb6e45ebe2cf15431
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119739854"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474150"
 ---
 # <a name="xmudecn4-constructors"></a>Конструкторы XMUDECN4
 
@@ -33,60 +33,18 @@ ms.locfileid: "119739854"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(constfloat)"><strong>XMUDECN4 ()</strong></a></td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMUDECN4</code> . <br/> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(uint32_t)"><strong>XMUDECN4 (uint32_t)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUDECN4</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(constfloat)"><strong>XMUDECN4 (const float *)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMUDECN4</code> из четырех <code>float</code> аргументов массива элементов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из четырех <code>float</code> аргументов массива элементов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(float_float_float_float)"><strong>XMUDECN4 (float, float, float, float)</strong></a></td>
-<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMUDECN4</code> из четырех нормализованных <code>float</code> аргументов. <br/> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из четырех нормализованных <code>float</code> аргументов. <br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(constfloat)"><strong>XMUDECN4 ()</strong></a> | Конструктор по умолчанию для <code>XMUDECN4</code> . <br /> Конструктор по умолчанию для <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a>. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(uint32_t)"><strong>XMUDECN4 (uint32_t)</strong></a> | Инициализирует новый экземпляр <code>XMUDECN4</code> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br /> Этот конструктор инициализирует новый экземпляр <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из <code>uint32_t</code> переменной, содержащей данные компонента, в упакованном формате. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(constfloat)"><strong>XMUDECN4 (const float *)</strong></a> | Инициализирует новый экземпляр <code>XMUDECN4</code> из четырех <code>float</code> аргументов массива элементов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из четырех <code>float</code> аргументов массива элементов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmudecn4-xmudecn4(float_float_float_float)"><strong>XMUDECN4 (float, float, float, float)</strong></a> | Инициализирует новый экземпляр класса <code>XMUDECN4</code> из четырех нормализованных <code>float</code> аргументов. <br /> Этот конструктор инициализирует новый экземпляр класса <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudecn4"><strong>XMUDECN4</strong></a> из четырех нормализованных <code>float</code> аргументов. <br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
