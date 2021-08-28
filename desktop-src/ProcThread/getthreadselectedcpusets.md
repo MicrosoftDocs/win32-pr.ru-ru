@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: 26530b1fbb9694ed7ecc8c4e457ad023e971a470
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76e8fb9ff9fb540d15c8610a673ff52c5586f0ab57eb06668ef5e586db7513d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978784"
 ---
 # <a name="getthreadselectedcpusets-function"></a>Функция Жетсреадселектедкпусетс
 
@@ -76,15 +76,15 @@ BOOL WINAPI GetThreadSelectedCpuSets(
 
 Этот API возвращает значение TRUE в случае успешного выполнения. Если буфер недостаточно велик, значение **GetLastError** не является ошибкой \_ \_ buffer. Этот API не может завершиться ошибкой, если переданы допустимые параметры, и буфер возврата достаточно большой.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Приложения UWP для классических приложений Windows 10 \|\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Приложения UWP для классических приложений Windows Server 2016 \|\]<br/>                                   |
-| Header<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 10 \[ приложения UWP для классических приложений \|\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2016 \[ приложения UWP для классических приложений \|\]<br/>                                   |
+| Заголовок<br/>                   | <dl> <dt>Процесссреадсапи. h</dt> </dl> |
 | Библиотека<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |
 

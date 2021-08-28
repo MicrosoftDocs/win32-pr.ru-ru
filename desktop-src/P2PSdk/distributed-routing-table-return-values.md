@@ -4,12 +4,12 @@ ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Возвращаемые значения таблицы распределенной маршрутизации (DRT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef656454f833a6795167c1ea6689afda460119cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82a80c6529a6488fb12ee36abedb9f460549d72eaa4956e198ffd2d118d11cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011572"
 ---
 # <a name="distributed-routing-table-return-values"></a>Возвращаемые значения таблицы распределенной маршрутизации
 
@@ -70,15 +70,15 @@ ms.locfileid: "105663350"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только для настольных приложений Windows 7 Профессиональная\]<br/>                          |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/>                          |
-| Header<br/>                   | <dl> <dt>DRT. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 7 Профессиональная \[ только классические приложения\]<br/>                          |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/>                          |
+| Заголовок<br/>                   | <dl> <dt>DRT. h</dt> </dl> |
 
 
 

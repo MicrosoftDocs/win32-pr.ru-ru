@@ -3,7 +3,7 @@ title: Дропдовнгаллери. Менулайаут, свойство
 description: Представляет контейнер для раскрывающихся раскрывающихся меню Дропдовнгаллери.
 ms.assetid: 7251e889-377d-4d7f-b049-bd81a202774d
 keywords:
-- Лента Windows для свойства Дропдовнгаллери. Менулайаут
+- дропдовнгаллери. менулайаут, свойство Windows лента
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1b6ad3f07f369dfef90b1e6c52c34793e60520
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b3fa4c0e2cca92aa2f95f73e0c817314bb71a8260db21a89cb40ec78fff7765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105710525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810684"
 ---
 # <a name="dropdowngallerymenulayout-property"></a>Дропдовнгаллери. Менулайаут, свойство
 
@@ -56,7 +56,7 @@ ms.locfileid: "105710525"
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Необязательный элемент.
 
@@ -102,18 +102,18 @@ ms.locfileid: "105710525"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 7\]<br/>              |
-| Минимальная версия сервера<br/> | Только классические приложения Windows Server 2008 R2 \[\]<br/> |
+| Минимальная версия клиента<br/> | только Windows 7 \[ настольных приложений\]<br/>              |
+| Минимальная версия сервера<br/> | Windows \[Только для настольных приложений сервера 2008 R2\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Типы носителей для демультиплексирования MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef3c7006f13b07394da7d9dc92e9295beda816c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 99dfba52378813b8b96920a44c593e9c7d4b45a0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982607"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476280"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Типы носителей для демультиплексирования MPEG-2
 
@@ -43,11 +43,7 @@ ms.locfileid: "122982607"
 
 
 
-| Метка | Применение |
-|--------|-------|
-| Основной тип | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
-| Subtype | Любое из следующих:<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: сведения о службе ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: сведения о службе DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: сведения о службе Digital ШИРОКОВЕЩАНИЯ (ISDB) для интегрированных служб.</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: данные раздела MPEG-2.</li></ul> | 
-| Тип формата | Нет | 
+| | | Основной тип | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | | Подтип | Любой из следующих элементов:<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: сведения о службе ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: сведения о службе DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: сведения о службе Digital ШИРОКОВЕЩАНИЯ (ISDB) для интегрированных служб.</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: данные раздела MPEG-2.</li></ul> | | Тип формата | Нет | 
 
 
 
@@ -58,7 +54,7 @@ ms.locfileid: "122982607"
 
 
 
-| Метка | Применение |
+| Метка | Значение |
 |------------------|------------------------------------------|
 | Основной тип       | **\_Видео MEDIATYPE**                     |
 | Subtype          | **\_Видео медиасубтипе MPEG2 \_**           |
@@ -73,7 +69,7 @@ ms.locfileid: "122982607"
 
 
 
-| Метка | Применение |
+| Метка | Значение |
 |------------------|--------------------------------------|
 | Основной тип       | **MEDIATYPE \_ Audio**                 |
 | Subtype          | **МЕДИАСУБТИПЕ \_ MPEG2 \_ Audio**       |

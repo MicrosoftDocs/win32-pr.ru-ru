@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c440d8cb5c720bf6922707f04bc75e2383755c1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a5fd02168c19a5424ef455380bd9e1251f2e8f6c48a9dd8ea5ec4e9e1a1b1e4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104262729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759914"
 ---
 # <a name="setdnsdomain-method-of-the-win32_networkadapterconfiguration-class"></a>Метод SetDNSDomain \_ класса Win32 NetworkAdapterConfiguration
 
@@ -327,7 +327,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -406,7 +406,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это зависящий от экземпляра вызов метода, который применяется для каждого адаптера. Параметр применяется к целевому адаптеру.
 
@@ -416,7 +416,7 @@ DHCP не включен на адаптере.
 
 Пример [изменения конфигурации TCP/IP для компьютера](https://Gallery.TechNet.Microsoft.Com/3d5ae334-1d75-4cea-8079-78c6bd836faf) в коллекции TechNet использует **SetDNSDomain** для изменения параметров TCP/IP сетевого адаптера.
 
-Пример [включения параметров DHCP на компьютере](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) в коллекции TechNet использует **SetDNSDomain** для настройки всех параметров, которые обычно необходимы для включения DHCP на компьютере.
+пример [включения dhcp Параметры на компьютере](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) в коллекции TechNet использует **SetDNSDomain** для настройки всех параметров, которые обычно необходимы для включения DHCP на компьютере.
 
 ## <a name="requirements"></a>Требования
 

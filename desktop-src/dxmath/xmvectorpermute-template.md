@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.template.xmvectorpermute(xmvector,xmvector)
 title: Шаблон Ксмвекторпермуте (Директксмас. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37271cbb165f1e9c1769ef3a55e47f1e07310a81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd3f7071edaf659991c1294d29a154d3a319d5faee982537025e107cf9621f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978674"
 ---
 # <a name="xmvectorpermute-template"></a>Шаблон Ксмвекторпермуте
 
@@ -46,7 +46,7 @@ template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t Permu
 
 Возвращает вектор переставляются, который привел к объединению исходных векторов.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если все 4 индекса ссылаются только на один вектор (т. е. все они находятся в диапазоне 0-3 или все в диапазоне 4-7), используйте [**ксмвекторсвиззле**](xmvectorswizzle-template.md) вместо этого для повышения производительности.
 
@@ -65,7 +65,7 @@ template<uint32_t PermuteX, uint32_t PermuteY, uint32_t PermuteZ, uint32_t Permu
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
 ## <a name="requirements"></a>Требования
 
@@ -73,7 +73,7 @@ Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK 
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 

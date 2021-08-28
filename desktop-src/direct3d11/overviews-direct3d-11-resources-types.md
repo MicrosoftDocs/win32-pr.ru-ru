@@ -4,12 +4,12 @@ description: В этом разделе описываются типы ресу
 ms.assetid: 9329f260-e806-4d6d-b6d1-3d001fad411a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3df57c5a4f6010df0494b6533a200d70be892e4
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3d429c42313a4a6db11c136a9f3566746ef7d53a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104412448"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469831"
 ---
 # <a name="types-of-resources"></a>Типы ресурсов
 
@@ -17,30 +17,15 @@ ms.locfileid: "104412448"
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Различия между Direct3D 11 и Direct3D 10:<br/> Direct3D 11 поддерживает несколько новых типов ресурсов, в том числе:<br/>
-<ul>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">буферы и текстуры для чтения и записи</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">структурированные буферы</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">буферы адресов байтов</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">Добавление и использование буферов</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">неупорядоченный буфер или текстура доступа</a></li>
-</ul>
-Direct3D 11,2 поддерживает <a href="tiled-resources.md">мозаичные ресурсы</a>.<br/> Direct3D 10 и Direct3D 11 поддерживают <a href="overviews-direct3d-11-resources-buffers-intro.md">буфер</a> и типы <a href="overviews-direct3d-11-resources-textures-intro.md">текстур</a> , появившиеся в Direct3D 10.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | Различия между Direct3D 11 и Direct3D 10:<br /> Direct3D 11 поддерживает несколько новых типов ресурсов, в том числе:<br /><ul><li><a href="direct3d-11-advanced-stages-cs-resources.md">буферы и текстуры для чтения и записи</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">структурированные буферы</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">буферы адресов байтов</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">Добавление и использование буферов</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">неупорядоченный буфер или текстура доступа</a></li></ul>Direct3D 11,2 поддерживает <a href="tiled-resources.md">мозаичные ресурсы</a>.<br /> Direct3D 10 и Direct3D 11 поддерживают <a href="overviews-direct3d-11-resources-buffers-intro.md">буфер</a> и типы <a href="overviews-direct3d-11-resources-textures-intro.md">текстур</a> , появившиеся в Direct3D 10.<br /> | 
+
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

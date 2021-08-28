@@ -3,7 +3,7 @@ title: вмпеффектс
 description: Это стандартные эффекты со следующими значениями по умолчанию.
 ms.assetid: ebee17e3-96b0-4748-b69f-4ff41d0bc386
 keywords:
-- ВМПЕФФЕКТС Windows Media Player
+- вмпеффектс проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: db3e35143242c5ca7888ffc50feb006f586e68d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e84f33833e9d69c39cb50ff81bd6c97ff8f79d1e2f881f82d6e4d293e78d87bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105717998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761274"
 ---
 # <a name="wmpeffects"></a>вмпеффектс
 
@@ -33,7 +33,7 @@ tabStop="false"
 onclick="next();"
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При этом будет создан элемент **Effects** , который будет пошаговым путем к предварительным настройкам визуализации, когда пользователь щелкнет элемент управления. Она также будет растягивать визуализации при изменении размера проигрывателя.
 
@@ -47,7 +47,7 @@ onclick="next();"
 
 | Требование | Значение |
 |--------------------|----------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 7,0 или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media 7,0 или более поздней версии<br/> |
 
 
 

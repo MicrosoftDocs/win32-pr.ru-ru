@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 134d9772e167fe63e133d569b9985a7735668d3c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7f5126c5ee089729089179fa99f881f1e236859e3111ed3937323eb8b122d2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013912"
 ---
 # <a name="fault_status-attribute"></a>\_атрибут состояния сбоя
 
@@ -65,7 +65,7 @@ ms.locfileid: "103783612"
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Атрибут **\[ \_ состояния \] сбоя** может использоваться как атрибут функции или как атрибут параметра, но он может использоваться только один раз для каждой функции. Его можно применить либо к самой функции, либо к одному параметру в каждой функции.
 
@@ -96,9 +96,9 @@ ms.locfileid: "103783612"
 [**заполняет**](out-idl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

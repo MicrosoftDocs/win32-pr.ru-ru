@@ -1,5 +1,5 @@
 ---
-description: '\_Класс WMI канал DMA для Win32 представляет канал прямого доступа к памяти (DMA) в компьютерной системе под Windows.'
+description: '\_Класс WMI канал DMA для Win32 представляет канал прямого доступа к памяти (DMA) в компьютерной системе, где работает Windows.'
 ms.assetid: cc517aac-7bd4-4937-8b07-2597076fca2c
 ms.tgt_platform: multiple
 title: Класс Win32_DMAChannel
@@ -33,16 +33,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0c2b36ff17931133d0dc4529e34f31ac24e00653
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1edce18d0dc8283a134972e8f0e2f79ce0ff98148bf6333d4048adbc14f2d88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077344"
 ---
 # <a name="win32_dmachannel-class"></a>\_Класс Win32 канал DMA
 
-[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ канал DMA для Win32** представляет канал прямого доступа к памяти (DMA) в компьютерной системе под Windows. DMA — это метод перемещения данных с устройства в память (или наоборот) без помощи микропроцессора. Системная плата использует контроллер DMA для работы с фиксированным количеством каналов, каждый из которых может использоваться одним (и только одним) устройством за раз.
+[Класс WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ канал DMA для Win32** представляет канал прямого доступа к памяти (DMA) в компьютерной системе, где работает Windows. DMA — это метод перемещения данных с устройства в память (или наоборот) без помощи микропроцессора. Системная плата использует контроллер DMA для работы с фиксированным количеством каналов, каждый из которых может использоваться одним (и только одним) устройством за раз.
 
 Следующий пример синтаксиса — упрощенный MOF-код, который включает все наследуемые свойства. Свойства перечислены в алфавитном порядке, а не в MOF.
 
@@ -80,7 +80,7 @@ class Win32_DMAChannel : CIM_DMA
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ канал DMA** имеет следующие свойства.
 
@@ -276,7 +276,7 @@ class Win32_DMAChannel : CIM_DMA
 
 </dd> <dt>
 
-**Заголовок**
+**Caption**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -482,7 +482,7 @@ class Win32_DMAChannel : CIM_DMA
 
 </dd> <dt>
 
-**Name**
+**Имя**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -500,7 +500,7 @@ class Win32_DMAChannel : CIM_DMA
 
 </dd> <dt>
 
-**порт**.
+**Порт**
 </dt> <dd> <dl> <dt>
 
 Тип данных: **UInt32**
@@ -797,11 +797,11 @@ class Win32_DMAChannel : CIM_DMA
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ канал DMA** является производным от [**\_ канала DMA CIM**](cim-dma.md).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -815,7 +815,7 @@ class Win32_DMAChannel : CIM_DMA
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

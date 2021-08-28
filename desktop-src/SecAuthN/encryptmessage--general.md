@@ -4,12 +4,12 @@ ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
 title: Функция Енкриптмессаже (General) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 3c661f5f529700db19683966783c1aa0793e376b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6645d58b753503853dae7998982a32221d1f0d14
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105719300"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476290"
 ---
 # <a name="encryptmessage-general-function"></a>Функция Енкриптмессаже (общая)
 
@@ -56,8 +56,12 @@ SECURITY_STATUS SEC_Entry EncryptMessage(
 
 Этот параметр может иметь один из следующих флагов.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Значение</th><th>Значение</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Создать заголовок или трейлер, но не шифровать сообщение.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br/></td></tr><tr class="even"><td><span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt> </dl></td><td>Отправка сообщения с предупреждением SChannel. В этом случае параметр <em>пмессаже</em> должен содержать стандартный двухбайтовый код события SSL/TLS. Это значение поддерживается только поставщиком общих служб SChannel.<br/></td></tr></tbody></table>
+
+| Значение | Значение | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Создать заголовок или трейлер, но не шифровать сообщение.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT имеет то же значение и то же самое.</blockquote><br /> | 
+| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl><dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt></dl> | Отправка сообщения с предупреждением SChannel. В этом случае параметр <em>пмессаже</em> должен содержать стандартный двухбайтовый код события SSL/TLS. Это значение поддерживается только поставщиком общих служб SChannel.<br /> | 
+
 
 *пмессаже* \[ в, out\]
 
@@ -121,19 +125,19 @@ KERB_WRAP_NO_ENCRYPT имеет то же значение и то же само
 
 Для оптимальной производительности структуры *пмессаже* должны выделяться из непрерывной памяти.
 
-**Windows XP и 2000:** Эта функция также называлась **сеалмессаже**. Теперь приложения должны использовать только **енкриптмессаже (Общие)** .
+**Windows XP/2000:** Эта функция также называлась **сеалмессаже**. Теперь приложения должны использовать только **енкриптмессаже (Общие)** .
 
 ## <a name="requirements"></a>Требования
 
 | Требование | Значение |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента | Только для \[ классических приложений Windows XP\]                                                            |
-| Минимальная версия сервера | \[Только для настольных приложений Windows Server 2003\]                                                   |
-| Header                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
+| Минимальная версия клиента | Windows \[Только классические приложения XP\]                                                            |
+| Минимальная версия сервера | Windows Только для \[ настольных приложений сервера 2003\]                                                   |
+| Заголовок                   | <dl> <dt>SSPI. h (включая Security. h)</dt> </dl> |
 | Библиотека                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Функции SSPI](authentication-functions.md#sspi-functions)
 - [**AcceptSecurityContext (Общие)**](acceptsecuritycontext--general.md)

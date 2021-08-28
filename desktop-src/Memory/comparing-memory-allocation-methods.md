@@ -5,12 +5,12 @@ title: Сравнение методов выделения памяти
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 541b314c4ff0553ff8812e591c47c87962866bbe
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 418ebbf96b1d6f714e1ae7f23f1c15e918ea0c6fa7eabdf7bb9157bb14808bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104000295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067904"
 ---
 # <a name="comparing-memory-allocation-methods"></a>Сравнение методов выделения памяти
 
@@ -26,7 +26,7 @@ ms.locfileid: "104000295"
 
 Хотя функции [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [**локалаллок**](/windows/desktop/api/WinBase/nf-winbase-localalloc)и [**хеапаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) в конечном итоге выделяют память из той же кучи, каждая из них предоставляет слегка отличающийся набор функциональных возможностей. Например, **хеапаллок** может дать указание создавать исключение, если память не может быть выделена, возможность недоступна для **локалаллок**. **Локалаллок** поддерживает выделение дескрипторов, позволяющих перемещать базовую память при перераспределении без изменения значения дескриптора, возможность недоступна для **хеапаллок**.
 
-Начиная с 32-разрядных Windows, [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) и [**локалаллок**](/windows/desktop/api/WinBase/nf-winbase-localalloc) реализуются как функции-оболочки, которые вызывают [**хеапаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) с помощью обработчика для кучи процесса по умолчанию. Таким образом, **GlobalAlloc** и **локалаллок** имеют большие издержки, чем **хеапаллок**.
+начиная с 32-разрядных Windows, [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) и [**локалаллок**](/windows/desktop/api/WinBase/nf-winbase-localalloc) реализуются как функции-оболочки, которые вызывают [**хеапаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) с помощью обработчика для кучи процесса по умолчанию. Таким образом, **GlobalAlloc** и **локалаллок** имеют большие издержки, чем **хеапаллок**.
 
 Так как различные распределительы кучи обеспечивают различенную функциональность с помощью различных механизмов, необходимо освободить память с правильной функцией. Например, память, выделенная с помощью [**хеапаллок**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) , должна быть освобождена с помощью [**хеапфри**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree) , а не [**функции LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) или [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree). Память, выделенная с помощью [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) или [**локалаллок**](/windows/desktop/api/WinBase/nf-winbase-localalloc) , должна быть запрошена, проверена и освобождена с помощью соответствующей глобальной или локальной функции.
 
@@ -43,7 +43,7 @@ ms.locfileid: "104000295"
 
 * [Пример расширений AWE](./awe-example.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

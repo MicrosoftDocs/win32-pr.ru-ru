@@ -4,12 +4,12 @@ ms.assetid: 09c43cb2-e322-407d-ad54-fe93f9be0be3
 title: АРПУРЛУПДАТЕИНФО, свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51b9d8ba1ea7f0dba12f329461dc7a9b145fb472
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9e9e6d48ead3f8a3e048f83c21d7be81e87fdd08f260140e88fdd00eb415038
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066204"
 ---
 # <a name="arpurlupdateinfo-property"></a>АРПУРЛУПДАТЕИНФО, свойство
 
@@ -21,7 +21,7 @@ ms.locfileid: "105652258"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

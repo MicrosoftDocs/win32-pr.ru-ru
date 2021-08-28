@@ -4,12 +4,12 @@ description: Пользовательский интерфейс конфигу�
 ms.assetid: 956a7ad6-1fd5-4938-aa2f-4de646dfd6c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47d61a577c7a37ccda277b56aead563262112f8c
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 392850d5589aa2c42da023c30a7970e77f2fc5b11377542309ccba5bd6da8b7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104335744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978554"
 ---
 # <a name="configuration-user-interface"></a>Пользовательский интерфейс конфигурации
 
@@ -18,9 +18,9 @@ ms.locfileid: "104335744"
 -   [Пользовательский интерфейс конфигурации на стороне сервера](server-side-configuration-user-interface.md)
 -   [Пользовательский интерфейс конфигурации на стороне клиента](client-side-configuration-user-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 35ce9a83efb580d6e5e44f55a01182e7390c120e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1288ab1c00ec51c61d3a5e2f7c013ca1e3728fc88087092868421f8e11b7f0e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077544"
 ---
 # <a name="getdescriptor-method-of-the-cim_usbdevice-class-wmcodecdsph"></a>Метод метода вмкодекдсп класса CIM_USBDevice (. h)
 
@@ -92,13 +92,13 @@ uint32 GetDescriptor(
 
 Возвращает значение 0 (нуль), если дескриптор USB возвращен успешно, 1 (один), если запрос не поддерживается, и любое другое число для указания ошибки. В подклассе набор возможных кодов возврата можно указать с помощью квалификатора **ValueMap** в методе. Строки, в которые транслируются содержимое мофкуалифиер, также могут быть указаны в подклассе как квалификатор массива **Values** .
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -107,13 +107,13 @@ uint32 GetDescriptor(
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
 | Пространство имен<br/>                | Корневой \\ CIMV2<br/>                                                                  |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

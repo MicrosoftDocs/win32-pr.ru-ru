@@ -4,12 +4,12 @@ ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: Использование управления файлами
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88838ee99dde16c5c2288c00e2e2f3b35747dae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4546142fe36064921dedb04f1ce30cd5fdc8454a0c9ffb73c91728faba0a1c30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104081372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130704"
 ---
 # <a name="using-file-management"></a>Использование управления файлами
 
@@ -28,7 +28,7 @@ ms.locfileid: "104081372"
 | [Открытие файла для чтения или записи](opening-a-file-for-reading-or-writing.md)<br/>           | Пример кода, демонстрирующий использование функции CreateFile для создания нового файла или открытия существующего файла.<br/>                                                                             |
 | [Получение и изменение атрибутов файлов](retrieving-and-changing-file-attributes.md)<br/>       | Пример кода, демонстрирующий использование функции сбой getfileattributesex для получения атрибутов файла.<br/>                                                                                      |
 | [Проверка на конец файла](testing-for-the-end-of-a-file.md)<br/>                           | Пример кода, который показывает, как проверить конец файла во время синхронной операции чтения и во время асинхронной операции чтения.<br/>                                                |
-| [Использование потоков](using-streams.md)<br/>                                                           | Пример кода, демонстрирующий использование базовых потоков файловой системы NTFS.<br/>                                                                                                                    |
+| [использование Потоки](using-streams.md)<br/>                                                           | Пример кода, демонстрирующий использование базовых потоков файловой системы NTFS.<br/>                                                                                                                    |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1edc5227-70ac-4769-ab7f-67d01031dc33
 title: О преобразованиях
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbae9f21ec71209116f3c8eadffca20381cfe71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 635430fb5e75b658880d5c5670219cae950502421c2b188af0381fd60ad3d48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104264210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013272"
 ---
 # <a name="about-transforms"></a>О преобразованиях
 
@@ -26,7 +26,7 @@ ms.locfileid: "104264210"
 
  
 
-Существует три типа преобразований установщик Windows:
+существует три типа преобразований установщик Windows:
 
 -   [Встроенные преобразования](embedded-transforms.md)
 -   [Безопасные преобразования](secured-transforms.md)

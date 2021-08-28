@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: d8f504d76d43b8a398947f435f7bd488678ea394
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14d9ca14d027efc1540f5a5d2ae78e948da68dd59247252989b617d07229bb42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104263237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074414"
 ---
 # <a name="selectnppblobfromtable-function"></a>Функция Селектнппблобфромтабле
 
@@ -70,13 +70,13 @@ DWORD SelectNPPBlobFromTable(
 
 Если функция завершается неудачно, возвращается значение другого НМЕРР.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 При вызове сетевой монитор отображает диалоговое окно **Выбор сети** , которое можно использовать для выбора сетевого адаптера. Большой двоичный объект НПП, представляющий выбранный сетевой адаптер, возвращается вызывающему приложению.
 
 Чтобы узнать о различных способах выбора сетевых интерфейсов, см. раздел [Выбор сетевой карты](selecting-a-network-interface-card.md) .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ DWORD SelectNPPBlobFromTable(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

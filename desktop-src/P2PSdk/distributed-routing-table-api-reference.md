@@ -4,12 +4,12 @@ ms.assetid: 8d85e794-08a9-42c0-9bd4-8f3ad421f386
 title: Справочник по распределенной маршрутизации API таблиц
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 047b16512c68541447a65f17a84bc5aac7b6c4f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be1a97e44b3d23744ded29b3dd5b162e00c76194cb23ed50497a24941a06144c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979024"
 ---
 # <a name="distributed-routing-table-api-reference"></a>Справочник по распределенной маршрутизации API таблиц
 
@@ -28,7 +28,7 @@ ms.locfileid: "105663354"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

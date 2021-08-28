@@ -4,17 +4,17 @@ ms.assetid: dbb6dc3b-b55e-4f6c-918f-068308e2dba9
 title: Объект потоковой передачи мультимедиа и иерархия интерфейсов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52339644730139af22fd21fa2c24b8448a1afaf3
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b73da4777c2d05ff6455758ebde6e64a9a4c8277e8445ed59dca7f17088baea0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103914228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075780"
 ---
 # <a name="multimedia-streaming-object-and-interface-hierarchy"></a>Объект потоковой передачи мультимедиа и иерархия интерфейсов
 
 > [!Note]  
-> Эти API-интерфейсы являются устаревшими. Приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
+> Эти API-интерфейсы являются устаревшими. приложения должны использовать [**образец фильтра захвата**](sample-grabber-filter.md) или реализовать настраиваемый фильтр для получения данных из графа фильтра DirectShow.
 
  
 
@@ -24,7 +24,7 @@ ms.locfileid: "103914228"
 
 Архитектура потоковой передачи мультимедиа определяет три общих типа объектов:
 
--   Объект **аммултимедиастреам** предоставляет интерфейс [**иаммултимедиастреам**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream) . На внутреннем уровне этот объект служит оболочкой для графа фильтра DirectShow.
+-   Объект **аммултимедиастреам** предоставляет интерфейс [**иаммултимедиастреам**](/previous-versions/windows/desktop/api/amstream/nn-amstream-iammultimediastream) . на внутреннем уровне этот объект служит оболочкой для DirectShow графа фильтра.
 -   Объекты *потока мультимедиа* предоставляют интерфейс [**имедиастреам**](/previous-versions/windows/desktop/api/mmstream/nn-mmstream-imediastream) и являются специфичными для данных. Объект Аммултимедиастреам содержит один или несколько потоков мультимедиа.
 -   *Образцы объектов Stream* содержат данные для определенного потока.
 

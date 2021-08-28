@@ -6,12 +6,12 @@ keywords:
 - Bluetooth и всалукупсервицебегин для запроса устройства Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af56e1d75a66d21ea4eb94c827f6d37f77ae4336b8aeac5331665288bfeef49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4423b7c1c27124771c518409d9d1393a5f83afb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959293"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469191"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>Bluetooth и всалукупсервицебегин для запроса устройства
 
@@ -23,40 +23,14 @@ ms.locfileid: "118959293"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>ВСАКУЕРИСЕТ, элемент</th>
-<th>Ограничение</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>двсизе</strong></td>
-<td>Задайте значение <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>всакуерисет</strong></a>).</td>
-</tr>
-<tr class="even">
-<td><strong>лпблоб</strong></td>
-<td>Этот элемент содержит необязательный указатель на структуру <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>большого двоичного объекта</strong></a> . Если этот элемент указан, допустимые параметры запроса устройства для <strong>LUP_FLUSHCACHE</strong> следующие:
-<ul>
-<li>Элемент <strong>кбсизе</strong> структуры <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>большого двоичного объекта</strong></a> должен быть <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
-<li>элемент <strong>пблобдата</strong> является указателем на структуру <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> , для <strong>которой элемент в</strong> позиции является Bluetooth кодом доступа к запросу, а элемент <strong>length</strong> — это длина запроса в секундах.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>двнамеспаце</strong></td>
-<td>Задайте значение <strong>NS_BTH</strong>.</td>
-</tr>
-<tr class="even">
-<td>Другие члены</td>
-<td>Другие члены структуры <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>всакуерисет</strong></a> игнорируются.</td>
-</tr>
-</tbody>
-</table>
+
+| ВСАКУЕРИСЕТ, элемент | Ограничение | 
+|--------------------|-------------|
+| <strong>двсизе</strong> | Задайте значение <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>всакуерисет</strong></a>). | 
+| <strong>лпблоб</strong> | Этот элемент содержит необязательный указатель на структуру <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>большого двоичного объекта</strong></a> . Если этот элемент указан, допустимые параметры запроса устройства для <strong>LUP_FLUSHCACHE</strong> следующие:<ul><li>Элемент <strong>кбсизе</strong> структуры <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>большого двоичного объекта</strong></a> должен быть <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li><li>элемент <strong>пблобдата</strong> является указателем на структуру <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> , для <strong>которой элемент в</strong> позиции является Bluetooth кодом доступа к запросу, а элемент <strong>length</strong> — это длина запроса в секундах.</li></ul> | 
+| <strong>двнамеспаце</strong> | Задайте значение <strong>NS_BTH</strong>. | 
+| Другие члены | Другие члены структуры <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>всакуерисет</strong></a> игнорируются. | 
+
 
 
 
@@ -64,7 +38,7 @@ ms.locfileid: "118959293"
 
 Флаги, перечисленные в следующей таблице, используются в параметре *двконтролфлагс* для управления результатами запроса. **Луп \_ контейнеры** и флаги **\_ флушкаче Луп** используются функцией [**всалукупсервицебегин**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) . остальные флаги используются в вызовах функции [**всалукупсервиценекст**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) .
 
-| Флаг               | Результат                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Flag               | Результат                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_контейнеры Луп    | указывает, что целью запроса является получение списка устройств Bluetooth, а не списка служб. Этот флаг должен быть установлен.                                                                                                                                                                                                                                                                                       |
 | ЛУП \_ флушкаче    | Запускает запрос локальных устройств или вызывает возврат кэшированных результатов из предыдущих запросов.                                                                                                                                                                                                                                                                                                                |

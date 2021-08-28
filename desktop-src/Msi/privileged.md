@@ -4,12 +4,12 @@ ms.assetid: 483ab73a-3ff7-4111-a6b5-eac990d85bd7
 title: Привилегированное свойство
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5d28a7079e7ab12b9832447172f1b3b2c8650a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0bfe61f17e5ef3453021c98bac8eb383171a678adfb204886ecdaa840e0df832
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105652205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129134"
 ---
 # <a name="privileged-property"></a>Привилегированное свойство
 
@@ -19,11 +19,11 @@ ms.locfileid: "105652205"
 
 Установщик не устанавливает это свойство, если пользователю не разрешено устанавливать с повышенными привилегиями.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Разработчики пакетов установщика могут использовать **привилегированное** свойство, чтобы установить условную установку на основе системной политики, пользователя, который является администратором, или назначить администратором.
 
-При работе в Windows Vista **привилегированные** и [**AdminUser**](adminuser.md) совпадают.
+при работе в Windows Vista **привилегированные** и [**AdminUser**](adminuser.md) совпадают.
 
 ## <a name="requirements"></a>Требования
 
@@ -31,7 +31,7 @@ ms.locfileid: "105652205"
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Версия<br/> | Установщик Windows 5,0 в Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Установщик Windows 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Установщик Windows в Windows Server 2003 или Windows XP. Сведения о минимальном пакете обновления Windows, который требуется для установщик Windows версии, см. в [установщик Windows Run-Time требования](windows-installer-portal.md) .<br/> |
+| Версия<br/> | Windows установщик 5,0 на Windows Server 2012, Windows 8, Windows Server 2008 R2 или Windows 7. Windows установщик 4,0 или установщик Windows 4,5 на Windows Server 2008 или Windows Vista. Windows установщик на Windows Server 2003 или Windows XP. сведения о минимальном Windows пакета обновления, который требуется для установщик Windows версии, см. в [установщик Windows требования к Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

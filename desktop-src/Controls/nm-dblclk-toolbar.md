@@ -3,7 +3,7 @@ title: Код уведомления NM_DBLCLK (Toolbar) (Коммктрл. h)
 description: Сообщает родительскому окну элемента управления ToolBar, что пользователь дважды щелкнул левую кнопку мыши в элементе управления. Этот код уведомления отправляется в виде \_ сообщения WM notify.
 ms.assetid: c6198245-cfd4-4e1f-877d-94c1d47e09d2
 keywords:
-- Элементы управления Windows для кода уведомления NM_DBLCLK (панель инструментов)
+- элементы управления Windows кода уведомления NM_DBLCLK (toolbar)
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5441f86fa47f25a98dad82f9bfde05a84b5f498
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75abaf61938fbf377dbe8b6c5eaca99ff5ab027abe08c670de72a218dd51f1b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104489045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919664"
 ---
 # <a name="nm_dblclk-toolbar-notification-code"></a>\_Код уведомления "NM дблклк (панель инструментов)"
 
@@ -49,15 +49,15 @@ NM_DBLCLK
 
 Возвращает **значение false** , чтобы разрешить элементу управления ToolBar выполнять обработку события по умолчанию, или **значение true** , чтобы предотвратить обработку события элементом управления.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

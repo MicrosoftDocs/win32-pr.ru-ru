@@ -11,12 +11,12 @@ keywords:
 - синхронные читатели, открытие файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e222c046a685885fa9e17baa52d0161176551ff3
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 52d1c6897c05bb0d843e5818f078df5235a5afac4a485d6a719ab86b8e4f8267
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "105700823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807654"
 ---
 # <a name="to-create-a-synchronous-reader-and-open-a-file"></a>Создание синхронного средства чтения и открытие файла
 
@@ -27,7 +27,7 @@ ms.locfileid: "105700823"
 
 Синхронное средство чтения также поддерживает использование интерфейса **IStream** com для открытия файлов. Интерфейс **IStream** можно реализовать любым выбранным способом. После открытия требуемого файла в **IStream** можно выполнить приведенные выше действия, за исключением того, что необходимо вызвать [**Ивмсинкреадер:: опенстреам**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream) вместо **ивмсинкреадер:: Open** на шаге 2.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -37,9 +37,9 @@ ms.locfileid: "105700823"
 [**Чтение файлов с помощью синхронного модуля чтения**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

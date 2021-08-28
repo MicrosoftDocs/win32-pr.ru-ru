@@ -4,12 +4,12 @@ description: Раздел реестра Бипасснеготиатион оп
 ms.assetid: 51e21e9c-d6cb-454b-9584-3f48d76a649a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9fdf883249fc5af7a37be83bb153a670295ba1d
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 00ba914b9c1ec1d5e3caef6b86ddbda49d021268e456c877ff4f67db86efd2cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104412295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978254"
 ---
 # <a name="bypassnegotiation"></a>бипасснеготиатион
 
@@ -19,10 +19,10 @@ ms.locfileid: "104412295"
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   BypassNegotiation = value
+   BypassNegotiation = value
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это значение **reg \_ DWORD** .
 
@@ -35,20 +35,20 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 
 
- 
+ 
 
 Если этот параметр реестра отсутствует, сервер и клиент согласовывают возможности EAP.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Параметры реестра EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

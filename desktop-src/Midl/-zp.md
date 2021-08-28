@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 553d99dee7dd08218680fc0b43e6e12237c4f8fa
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1795068aae1a5a8c3e793b828d5a80dbab369e16f9c5383af367b66d0febc738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103783696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067445"
 ---
 # <a name="zp-switch"></a>/ZP, параметр
 
@@ -38,7 +38,7 @@ midl /Zp packing_level
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Параметр **/Zp** обозначает уровень упаковки для структур в целевой системе. Значение уровня упаковки соответствует значению параметра **/Zp** , используемому компилятором Microsoft C/C++. Дополнительные сведения см. в документации по программированию для Microsoft C/C++.
 
@@ -49,7 +49,7 @@ midl /Zp packing_level
 > [!Note]  
 > Не используйте **/Zp1** или **/Zp2** на платформах MIPS или Alpha и не используйте **/Zp4** или **/Zp8** на 16-разрядных платформах. В зависимости от типа данных и расположения памяти, назначенного компилятором C во время выполнения, это может привести к возникновению исключения неправильного выравнивания данных на платформах MIPS и Alpha. На платформах MS-DOS компилятор C не обеспечивает выравнивание по 4 или 8, поэтому приложение может завершить работу.
 
- 
+ 
 
 ## <a name="examples"></a>Примеры
 
@@ -65,9 +65,9 @@ midl /Zp packing_level
 [**/Pack**](-pack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

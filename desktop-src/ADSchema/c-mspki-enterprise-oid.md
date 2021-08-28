@@ -1,11 +1,11 @@
 ---
-title: класс MS-PKI-Enterprise-OID
+title: класс ms-PKI-Enterprise-Oid
 description: Используется, когда пользовательский интерфейс сертификата отображает отображаемое имя для шаблона сертификата, расширенное использование ключа, политику применения и политику выдачи. Компонент пользовательского интерфейса попытается располагать строку в атрибуте, соответствующем языку по умолчанию.
 ms.assetid: 519dc8f0-031d-4dc0-acc2-739302e03837
 ms.tgt_platform: multiple
 keywords:
-- Схема AD класса MS-PKI-Enterprise-OID
-- Схема AD класса Мспки-Enterprise-OID
+- схема AD для класса идентификатора объекта ms-PKI-Enterprise-Oid
+- мспки-Enterprise — схема AD класса Oid
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c67c96a2ee672a0b275ea33811596b65ae4729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8675b9ef905b28f4c37bdc090e14cab9b79ef501e51d84c08b5a2dd292b0b10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103893182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118175188"
 ---
-# <a name="ms-pki-enterprise-oid-class"></a>класс MS-PKI-Enterprise-OID
+# <a name="ms-pki-enterprise-oid-class"></a>класс ms-PKI-Enterprise-Oid
 
 Используется, когда пользовательский интерфейс сертификата отображает отображаемое имя для шаблона сертификата, расширенное использование ключа, политику применения и политику выдачи. Компонент пользовательского интерфейса попытается располагать строку в атрибуте, соответствующем языку по умолчанию.
 
@@ -29,8 +29,8 @@ ms.locfileid: "103893182"
 
 | Ввод | Значение |
 |-------------------|----------------------------------------------------------------------------------------------|
-| CN                | MS-PKI-Enterprise-OID                                                                        |
-| LDAP-отображаемое имя | Мспки-Enterprise-OID                                                                         |
+| CN                | ms-PKI-Enterprise-Oid                                                                        |
+| LDAP-отображаемое имя | мспки-Enterprise-Oid                                                                         |
 | Привилегия обновления  | Администратор домена                                                                         |
 | Частота обновления  | Он обновляется, когда администратор запускает certutil.exe для хранения локализованного имени для каждого OID. |
 | Schema-ID-GUID    | 37cfd85c-6719-4ad8-8f9e-8678ba627563                                                         |
@@ -60,7 +60,7 @@ ms.locfileid: "103893182"
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                              |
-| Возможные старшие          | [**Контейнер**](c-container.md)**MS-PKI-Enterprise-OID**                                    |
+| Возможные старшие          | [**контейнер**](c-container.md)**ms-PKI-Enterprise-Oid**                                    |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -68,9 +68,9 @@ ms.locfileid: "103893182"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Атрибуты Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Атрибуты сервера 2003
 
-Этот класс содержит следующие атрибуты для Windows Server 2003:
+этот класс содержит следующие атрибуты для Windows Server 2003:
 
 
 
@@ -125,14 +125,14 @@ ms.locfileid: "103893182"
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)               | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                       | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                   | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)               | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                       | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                   | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/> |
 | [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/> |
@@ -190,7 +190,7 @@ ms.locfileid: "103893182"
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                              |
-| Возможные старшие          | [**Контейнер**](c-container.md)**MS-PKI-Enterprise-OID**                                    |
+| Возможные старшие          | [**контейнер**](c-container.md)**ms-PKI-Enterprise-Oid**                                    |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -198,9 +198,9 @@ ms.locfileid: "103893182"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Атрибуты Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Атрибуты сервера 2003 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2003 R2:
+этот класс содержит следующие атрибуты для Windows Server 2003 R2:
 
 
 
@@ -257,15 +257,15 @@ ms.locfileid: "103893182"
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)               | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)               | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                       | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                   | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)               | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                       | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                   | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                    | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Объект — Категория**](a-objectcategory.md)                                 | True      | [**Вверх**](c-top.md)<br/> |
 | [**Объектный класс**](a-objectclass.md)                                       | True      | [**Вверх**](c-top.md)<br/> |
@@ -323,7 +323,7 @@ ms.locfileid: "103893182"
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                              |
-| Возможные старшие          | [**Контейнер**](c-container.md)**MS-PKI-Enterprise-OID**                                    |
+| Возможные старшие          | [**контейнер**](c-container.md)**ms-PKI-Enterprise-Oid**                                    |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -331,9 +331,9 @@ ms.locfileid: "103893182"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Атрибуты Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Атрибуты сервера 2008
 
-Этот класс содержит следующие атрибуты для Windows Server 2008:
+этот класс содержит следующие атрибуты для Windows Server 2008:
 
 
 
@@ -401,15 +401,15 @@ ms.locfileid: "103893182"
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                  | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                          | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                      | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                   | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                      | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                  | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                          | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                      | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                   | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                      | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                        | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | True      | [**Вверх**](c-top.md)<br/> |
+| [**NT-Security-дескриптор**](a-ntsecuritydescriptor.md)                       | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Obj-расп-имя**](a-distinguishedname.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Объект — Категория**](a-objectcategory.md)                                    | True      | [**Вверх**](c-top.md)<br/> |
 | [**Объектный класс**](a-objectclass.md)                                          | True      | [**Вверх**](c-top.md)<br/> |
@@ -467,7 +467,7 @@ ms.locfileid: "103893182"
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                              |
-| Возможные старшие          | [**Контейнер**](c-container.md)**MS-PKI-Enterprise-OID**                                    |
+| Возможные старшие          | [**контейнер**](c-container.md)**ms-PKI-Enterprise-Oid**                                    |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -475,9 +475,9 @@ ms.locfileid: "103893182"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Атрибуты Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Атрибуты сервера 2008 R2
 
-Этот класс содержит следующие атрибуты для Windows Server 2008 R2:
+этот класс содержит следующие атрибуты для Windows Server 2008 R2:
 
 
 
@@ -540,7 +540,7 @@ ms.locfileid: "103893182"
 | [**MS-DS-NC-Type**](a-msds-nctype.md)                                           | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-не-Members-BL**](a-msds-nonmembersbl.md)                              | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Object-Reference-BL**](a-msds-objectreferencebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-Оидтограуп-Link**](a-msds-oidtogrouplink.md)                           | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-DS-Оидтограуп-Link**](a-msds-oidtogrouplink.md)                           | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**MS-DS-Оидтограуп-Link-BL**](a-msds-oidtogrouplinkbl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-для-AZ-Role-BL**](a-msds-operationsforazrolebl.md)          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)          | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -553,11 +553,11 @@ ms.locfileid: "103893182"
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                    | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                            | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                        | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                     | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                        | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                    | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                            | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                        | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                     | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                        | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                          | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -619,7 +619,7 @@ ms.locfileid: "103893182"
 | По умолчанию-скрытие значения        | 1                                                                                            |
 | RDN-Атри-ID                  | [**Common-Name**](a-cn.md)<br/>                                                       |
 | Подкласс                 | [**Вверх**](c-top.md)<br/>                                                              |
-| Возможные старшие          | [**Контейнер**](c-container.md)**MS-PKI-Enterprise-OID**                                    |
+| Возможные старшие          | [**контейнер**](c-container.md)**ms-PKI-Enterprise-Oid**                                    |
 | Вспомогательные классы           | \-                                                                                           |
 | NT-Security-дескриптор      | О:БАГ: BAD: S:                                                                                 |
 | Дескриптор безопасности по умолчанию | D: (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;;D А) (A;; РПВПКРККДКЛКЛОРКВОВДСДДТСВ;;; SY) (A;; РПЛКЛОРК;;; СЛУЖБЫ |
@@ -627,7 +627,7 @@ ms.locfileid: "103893182"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Атрибуты Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Атрибута
 
 Этот класс содержит следующие атрибуты для Windows Server 2012:
 
@@ -656,7 +656,7 @@ ms.locfileid: "103893182"
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**FSMO-Role-Owner**](a-fsmoroleowner.md)                                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**Тип экземпляра**](a-instancetype.md)                                                      | True      | [**Вверх**](c-top.md)<br/> |
+| [**Тип экземпляра**](a-instancetype.md)                                                      | Верно      | [**Вверх**](c-top.md)<br/> |
 | [**Является критически важным — системный объект**](a-iscriticalsystemobject.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Удалено**](a-isdeleted.md)                                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Входит в состав списка рассылки**](a-memberof.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -695,7 +695,7 @@ ms.locfileid: "103893182"
 | [**MS-DS-NC-Type**](a-msds-nctype.md)                                                       | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-не-Members-BL**](a-msds-nonmembersbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Object-Reference-BL**](a-msds-objectreferencebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-Оидтограуп-Link**](a-msds-oidtogrouplink.md)                                       | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-DS-Оидтограуп-Link**](a-msds-oidtogrouplink.md)                                       | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**MS-DS-Оидтограуп-Link-BL**](a-msds-oidtogrouplinkbl.md)                                  | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-для-AZ-Role-BL**](a-msds-operationsforazrolebl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Operations-for-AZ-Task-BL**](a-msds-operationsforaztaskbl.md)                      | Неверно     | [**Вверх**](c-top.md)<br/> |
@@ -707,15 +707,15 @@ ms.locfileid: "103893182"
 | [**MS-DS-выводит-List-BL**](a-msds-revealedlistbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-для-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-Tasks-for-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-DS-TDO-исходящий трафик — BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-TDO-входящий трафик — BL**](a-msds-tdoingressbl.md)                                          | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-DS-value-type-Reference-BL**](a-msds-valuetypereferencebl.md)                         | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**MS-дов-Owner-BL**](a-ownerbl.md)                                                        | Неверно     | [**Вверх**](c-top.md)<br/> |
-| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                                | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                                        | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                                    | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                                 | Неверно     | **MS-PKI-Enterprise-OID**       |
-| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                                    | Неверно     | **MS-PKI-Enterprise-OID**       |
+| [**MS-PKI-CERT-Template-OID**](a-mspki-cert-template-oid.md)                                | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-атрибут**](a-mspki-oid-attribute.md)                                        | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-CPS**](a-mspki-oid-cps.md)                                                    | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                                 | Неверно     | **ms-PKI-Enterprise-Oid**       |
+| [**MS-PKI-OID-пользователь — уведомление**](a-mspki-oid-user-notice.md)                                    | Неверно     | **ms-PKI-Enterprise-Oid**       |
 | [**Мссфу-30-POSIX-член-of**](a-mssfu30posixmemberof.md)                                   | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**нетбут-SCP-BL**](a-netbootscpbl.md)                                                     | Неверно     | [**Вверх**](c-top.md)<br/> |
 | [**Не-Security-Member-BL**](a-nonsecuritymemberbl.md)                                      | Неверно     | [**Вверх**](c-top.md)<br/> |
