@@ -4,12 +4,12 @@ ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Параметры командной строки
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72592046bdd30429d373f23f1d2cb39bc9497ee
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: d4a45d59922a6c2c1d6cd0b5f8cd61b393944e23
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880631"
 ---
 # <a name="command-line-options"></a>Параметры командной строки
 
@@ -81,7 +81,7 @@ ms.locfileid: "122630910"
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>Патчпаккаже [;P atchpackage2</em> ]</td>
-<td>Применяет исправление. Чтобы применить исправление к установленному административному образу, необходимо объединить следующие параметры:<br/> /p <em> <PatchPackage> [;p atchpackage2] </em> /a<em><Package></em><br/></td>
+<td>Применяет исправление. Чтобы применить исправление к установленному административному образу, необходимо объединить следующие параметры:<br/> /p <em> &lt; патчпаккаже &gt; [;p atchpackage2]</em> /a<em><Package></em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>

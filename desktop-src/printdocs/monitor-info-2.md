@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 9d3ad70a0728ca6e73c4dbefb248df58e858a996
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c01377740c77ef4cb2be15e785b9ea3e93449944c11f2014ed660d8c3e3245b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103817897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112334"
 ---
 # <a name="monitor_info_2-structure"></a>\_Структура мониторинга информации \_ 2
 
@@ -53,7 +53,7 @@ typedef struct _MONITOR_INFO_2 {
 **пенвиронмент**
 </dt> <dd>
 
-Указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан монитор (например, Windows NT x86, Windows IA64, Windows x64).
+указатель на строку, завершающуюся нулем, которая указывает среду, для которой был записан монитор (например, Windows NT x86, Windows IA64, Windows x64).
 
 </dd> <dt>
 
@@ -72,12 +72,12 @@ typedef struct _MONITOR_INFO_2 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Винспул. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>винспул. h (включает Windows. h)</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **\_ \_ Сведения о \_ мониторинге 2W** (Юникод) и **\_ \_ сведения об мониторе \_ 2A** (ANSI)<br/>                           |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

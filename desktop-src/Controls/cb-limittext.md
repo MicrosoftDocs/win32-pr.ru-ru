@@ -3,7 +3,7 @@ title: Сообщение CB_LIMITTEXT (Winuser. h)
 description: Ограничивает длину текста, который пользователь может ввести в поле ввода поля со списком.
 ms.assetid: 95b7d07a-594b-4096-afbb-4dab77bdc41d
 keywords:
-- Элементы управления Windows для CB_LIMITTEXT сообщений
+- элементы управления Windows сообщений CB_LIMITTEXT
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ea9ccd63bb1503e73aebdd584a53bc32bcb8fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e94cdb1bedfb1c0aa3efb401649524782183ced7728304951596c9383efaa0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089084"
 ---
 # <a name="cb_limittext-message"></a>\_Сообщение ЛИМИТТЕКСТ CB
 
@@ -47,7 +47,7 @@ ms.locfileid: "104071611"
 
 Возвращаемое значение всегда равно **true**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Если поле со списком не имеет стиля [**CBS \_ аутохскролл**](combo-box-styles.md) , Установка предельного размера текста больше, чем размер элемента управления "поле ввода", не оказывает никакого влияния.
 
@@ -55,15 +55,15 @@ ms.locfileid: "104071611"
 
 Ограничение по умолчанию для текста, которое пользователь может ввести в поле ввода, — 30 000 **тчарс**.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                                           |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                                     |
-| Header<br/>                   | <dl> <dt>Winuser. h (включение Windows. h)</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                                           |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                                     |
+| Заголовок<br/>                   | <dl> <dt>Winuser. h (включает Windows. h)</dt> </dl> |
 
 
 

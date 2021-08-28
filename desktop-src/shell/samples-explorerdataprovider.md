@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 31e1d42e4660e0e73830876cfdeb0a5c8a5957cd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b30a1c6cb31038d69c9feb85f0382fd5f4bb89bf
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471890"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786710"
 ---
 # <a name="explorer-data-provider-sample"></a>Пример: поставщик данных в проводнике
 
@@ -22,7 +22,7 @@ ms.locfileid: "122471890"
 
 В этом разделе содержатся следующие подразделы.
 
--   [Требования](#requirements)
+-   [Requirements](#requirements)
 -   [Загрузка образца](#downloading-the-sample)
 -   [Создание примера](#building-the-sample)
 -   [Запуск примера](#running-the-sample)
@@ -62,7 +62,7 @@ ms.locfileid: "122471890"
 > [!Note]  
 > в версии этого образца, включенной в Windows SDK, конфигурация для 64-разрядной сборки выпуска не включает файл експлорердатапровидер. def в параметре **файла определения модуля** компоновщика. Необходимо указать этот файл перед сборкой в 64-разрядной среде. Добавьте строку `ModuleDefinitionFile="ExplorerDataProvider.def"` в раздел VCLinkerTool (начинается в строке 329) файла експлорердатапровидер. vcproj, как показано ниже:
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | | | <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 

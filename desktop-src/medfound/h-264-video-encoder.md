@@ -4,12 +4,12 @@ ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: Кодировщик видео H. 264
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04d1c1c8af4487d02cbb8405ebf341458424074a3d8c3cae53bff4207f73490c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 875974c53be265fbcace8cf99e2bdd78d69cdda5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117879098"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467531"
 ---
 # <a name="h264-video-encoder"></a>Кодировщик видео H. 264
 
@@ -48,61 +48,19 @@ ms.locfileid: "117879098"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Основной тип. Необходимо <strong>MFMediaType_Video</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Подтип видео. Необходимо <strong>MFVideoFormat_H264</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a></td>
-<td>Средняя скорость кодирования (бит в секунду). Должен быть больше нуля.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>Частота кадров.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>Размер кадра.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>Режим чередования.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a></td>
-<td>Профиль кодирования H. 264.<br/> Поддерживаются такие значения:<br/>
-<ul>
-<li><strong>eAVEncH264VProfile_Base</strong> (по умолчанию)</li>
-<li><strong>eAVEncH264VProfile_Main</strong></li>
-<li><strong>eAVEncH264VProfile_High</strong> (требуется Windows 8)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>Необязательный элемент. Задает уровень кодирования H. 264.<br/> Значение по умолчанию равно – 1, что означает, что кодировщик выбирает уровень кодирования.<br/> Не рекомендуется задавать уровень в типе носителя и разрешать кодировщику выбирать уровень. Кодировщик может наследовать соответствующий уровень для данного видеопотока, учитывая ограничения формата и характеристики видео. Дополнительные сведения об ограничениях профиля и уровня см. в приложении A из ITU-T H. 264.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Необязательный элемент. Задает пропорцию в пикселях. Значение по умолчанию — 1:1.</td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Основной тип. Необходимо <strong>MFMediaType_Video</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Подтип видео. Необходимо <strong>MFVideoFormat_H264</strong>. | 
+| <a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a> | Средняя скорость кодирования (бит в секунду). Должен быть больше нуля. | 
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Частота кадров. | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Размер кадра. | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Режим чередования. | 
+| <a href="mf-mt-mpeg2-profile-attribute.md"><strong>MF_MT_MPEG2_PROFILE</strong></a> | Профиль кодирования H. 264.<br /> Поддерживаются такие значения:<br /><ul><li><strong>eAVEncH264VProfile_Base</strong> (по умолчанию)</li><li><strong>eAVEncH264VProfile_Main</strong></li><li><strong>eAVEncH264VProfile_High</strong> (требуется Windows 8)</li></ul> | 
+| <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | Необязательный элемент. Задает уровень кодирования H. 264.<br /> Значение по умолчанию равно – 1, что означает, что кодировщик выбирает уровень кодирования.<br /> Не рекомендуется задавать уровень в типе носителя и разрешать кодировщику выбирать уровень. Кодировщик может наследовать соответствующий уровень для данного видеопотока, учитывая ограничения формата и характеристики видео. Дополнительные сведения об ограничениях профиля и уровня см. в приложении A из ITU-T H. 264.<br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Необязательный элемент. Задает пропорцию в пикселях. Значение по умолчанию — 1:1. | 
+
 
 
 
@@ -133,103 +91,31 @@ ms.locfileid: "117879098"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a></td>
-<td>Задает режим адаптивной кодировки. Кодировщик H. 264 поддерживает следующие режимы в Windows 8:
-<ul>
-<li><strong>eAVEncAdaptiveMode_None</strong>. Адаптивная кодировка отсутствует. (по умолчанию).</li>
-<li><strong>eAVEncAdaptiveMode_FrameRate</strong>. Адаптивное изменение частоты кадров.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
-<td>Задает размер буфера (в байтах) для кодирования с постоянной скоростью (CBR).<br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> Требуется Windows 8. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
-<td>Для кодирования с ограниченным числом VBR указывает скорость, с которой &quot; &quot; происходит сток утечки, в битах в секунду. Это свойство применяется, когда режим управления скоростью <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>Задает среднюю скорость потока в битах в секунду. Это свойство не учитывается, если режим управления скоростью имеет значение <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> В режимах CBR и неограниченных VBR средняя скорость определяет конечный размер файла. В режиме CBR средняя скорость потока — это также скорость, с которой сжатые биты преобразуются из &quot; сегмента утечки. &quot; (Дополнительные сведения см. в разделе <a href="the-leaky-bucket-buffer-model.md">модель буфера для сегмента утечки</a>.) <br/> в Windows 7 средняя скорость потока определяется атрибутом <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> для типа носителя. <br/> в Windows 8 можно задать среднюю скорость потока с помощью атрибута <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> или свойства <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Если заданы оба значения, CODECAPI_AVEncCommonMeanBitRate переопределений. в Windows 8 можно задать среднюю скорость потока во время кодирования. При изменении частоты разрядов кодировщик использует адаптивную кодировку.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
-<td>Задает компромисс качества и скорости. Допустимый диапазон:
-<ul>
-<li>0 – 33: низкая сложность</li>
-<li>34 – 66: средняя сложность (по умолчанию)</li>
-<li>67 – 100: высокая сложность</li>
-</ul>
-<br/> Это значение влияет на то, как кодировщик выполняет различные операции кодирования, такие как компенсация движения. На более высоких уровнях сложности кодировщик работает медленнее, но обеспечивает лучшее качество с той же скоростью.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a></td>
-<td>Включает или отключает кабак (Адаптивное двоичное арифметическое кодирование) для H. 264-кода энтропии. Значение по умолчанию — <strong>VARIANT_FALSE</strong>. <br/> Кабак не используется для базового профиля.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a></td>
-<td>Задает значение <strong>seq_parameter_set_id</strong> в ЕДИНИЦЕ SPS NAL для H. 264 битовый поток. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a></td>
-<td>Задает максимальное число последовательных кадров B в выходном битовый поток. Допустимые значения:
-<ul>
-<li>0: не использовать кадры B (по умолчанию).</li>
-<li>1. Используйте один кадр B.</li>
-<li>2: используйте два кадра B.</li>
-</ul>
-Чтобы задать этот параметр, задайте свойство перед вызовом <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>имфтрансформ:: сетаутпуттипе</strong></a>. <br/> Для базового профиля число кадров B всегда равно нулю. Кодировщик будет переопределять ненулевые значения.<br/> Для других профилей H. 264, если это свойство не равно нулю, шаблон кодировки — ИББПББП, где максимальное число последовательных кадров B равно <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
-<td>Задает число изображений из одного заголовка GOP к следующему, включая начальную привязку, но не следующую. <br/> Допустимый диапазон: [0... 2 ³ ² – 1]. Если значение равно нулю, кодировщик выбирает размер GOP. Значение по умолчанию равно нулю. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a></td>
-<td>Задает число рабочих потоков, используемых кодировщиком.<br/> Допустимый диапазон — 0 – 16. Если значение равно нулю, кодировщик выбирает число потоков. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a></td>
-<td>Указывает тип видеосодержимого.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a></td>
-<td>Допустимый диапазон: 16 – 51. Значение по умолчанию — 24. <br/> Это свойство применяется, когда режим управления скоростью <strong>eAVEncCommonRateControlMode_Quality</strong>. <br/> Это свойство настраивает тот же параметр кодировки, что и <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>авенккоммонкуалити</strong></a>. Однако <a href="codecapi-avencvideoencodeqp.md">авенквидеоенкодекп</a> позволяет приложению напрямую ЗАДАВАТЬ значение QP. Если заданы оба свойства, Авенквидеоенкодекп переопределяет. <br/> Значение по умолчанию, равное 24, соответствует значению по умолчанию 70 для параметра <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>авенккоммонкуалити</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a></td>
-<td>Заставляет кодировщик кодировать следующий кадр как ключевой кадр.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a></td>
-<td>Допустимый диапазон: 0 – 51. Значение по умолчанию — 0. <br/> Это свойство применяется ко всем режимам управления скоростью. Кодировщик не должен создавать значение QP ниже, чем указано в свойстве <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a></td>
-<td>Включает или отключает режим низкой задержки. См &quot; . раздел о многопоточности &quot; в разделе "Примечания".<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Описание | 
+|----------|-------------|
+| <a href="codecapi-avencadaptivemode.md">CODECAPI_AVEncAdaptiveMode</a> | Задает режим адаптивной кодировки. Кодировщик H. 264 поддерживает следующие режимы в Windows 8:<ul><li><strong>eAVEncAdaptiveMode_None</strong>. Адаптивная кодировка отсутствует. (по умолчанию).</li><li><strong>eAVEncAdaptiveMode_FrameRate</strong>. Адаптивное изменение частоты кадров.</li></ul><br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a> | Задает размер буфера (в байтах) для кодирования с постоянной скоростью (CBR).<br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> Требуется Windows 8. <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a> | Для кодирования с ограниченным числом VBR указывает скорость, с которой происходит сток "поврежденных сегментов", в битах в секунду. Это свойство применяется, когда режим управления скоростью <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong>. <br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> | Задает среднюю скорость потока в битах в секунду. Это свойство не учитывается, если режим управления скоростью имеет значение <strong>eAVEncCommonRateControlMode_Quality</strong>. <br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> В режимах CBR и неограниченных VBR средняя скорость определяет конечный размер файла. В режиме CBR средняя скорость потока — это также скорость, с которой сжатые биты преобразуются из "сегмента утечки". (Дополнительные сведения см. <a href="the-leaky-bucket-buffer-model.md">в разделе Модель буфера для сегмента утечки</a>.) <br /> в Windows 7 средняя скорость потока определяется атрибутом <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> для типа носителя. <br /> в Windows 8 можно задать среднюю скорость потока с помощью атрибута <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> или свойства <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> . Если заданы оба значения, CODECAPI_AVEncCommonMeanBitRate переопределений. в Windows 8 можно задать среднюю скорость потока во время кодирования. При изменении частоты разрядов кодировщик использует адаптивную кодировку.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a> | Задает компромисс качества и скорости. Допустимый диапазон:<ul><li>0 – 33: низкая сложность</li><li>34 – 66: средняя сложность (по умолчанию)</li><li>67 – 100: высокая сложность</li></ul><br /> Это значение влияет на то, как кодировщик выполняет различные операции кодирования, такие как компенсация движения. На более высоких уровнях сложности кодировщик работает медленнее, но обеспечивает лучшее качество с той же скоростью.<br /> | 
+| <a href="codecapi-avench264cabacenable.md">CODECAPI_AVEncH264CABACEnable</a> | Включает или отключает кабак (Адаптивное двоичное арифметическое кодирование) для H. 264-кода энтропии. Значение по умолчанию — <strong>VARIANT_FALSE</strong>. <br /> Кабак не используется для базового профиля.<br /> | 
+| <a href="codecapi-avench264spsid.md">CODECAPI_AVEncH264SPSID</a> | Задает значение <strong>seq_parameter_set_id</strong> в ЕДИНИЦЕ SPS NAL для H. 264 битовый поток. <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a> | Задает максимальное число последовательных кадров B в выходном битовый поток. Допустимые значения:<ul><li>0: не использовать кадры B (по умолчанию).</li><li>1. Используйте один кадр B.</li><li>2: используйте два кадра B.</li></ul>Чтобы задать этот параметр, задайте свойство перед вызовом <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype"><strong>имфтрансформ:: сетаутпуттипе</strong></a>. <br /> Для базового профиля число кадров B всегда равно нулю. Кодировщик будет переопределять ненулевые значения.<br /> Для других профилей H. 264, если это свойство не равно нулю, шаблон кодировки — ИББПББП, где максимальное число последовательных кадров B равно <a href="/windows/desktop/DirectShow/avencmpvdefaultbpicturecount-property">CODECAPI_AVEncMPVDefaultBPictureCount</a>. <br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a> | Задает число изображений из одного заголовка GOP к следующему, включая начальную привязку, но не следующую. <br /> Допустимый диапазон: [0... 2 ³ ² – 1]. Если значение равно нулю, кодировщик выбирает размер GOP. Значение по умолчанию равно нулю. <br /> | 
+| <a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a> | Задает число рабочих потоков, используемых кодировщиком.<br /> Допустимый диапазон — 0 – 16. Если значение равно нулю, кодировщик выбирает число потоков. <br /> | 
+| <a href="codecapi-avencvideocontenttype.md">CODECAPI_AVEncVideoContentType</a> | Указывает тип видеосодержимого.<br /> | 
+| <a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a> | Допустимый диапазон: 16 – 51. Значение по умолчанию — 24. <br /> Это свойство применяется, когда режим управления скоростью <strong>eAVEncCommonRateControlMode_Quality</strong>. <br /> Это свойство настраивает тот же параметр кодировки, что и <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>авенккоммонкуалити</strong></a>. Однако <a href="codecapi-avencvideoencodeqp.md">авенквидеоенкодекп</a> позволяет приложению напрямую ЗАДАВАТЬ значение QP. Если заданы оба свойства, Авенквидеоенкодекп переопределяет. <br /> Значение по умолчанию, равное 24, соответствует значению по умолчанию 70 для параметра <a href="/windows/desktop/DirectShow/avenccommonquality-property"><strong>авенккоммонкуалити</strong></a> .<br /> | 
+| <a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a> | Заставляет кодировщик кодировать следующий кадр как ключевой кадр.<br /> | 
+| <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> | Допустимый диапазон: 0 – 51. Значение по умолчанию — 0. <br /> Это свойство применяется ко всем режимам управления скоростью. Кодировщик не должен создавать значение QP ниже, чем указано в свойстве <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> .<br /> | 
+| <a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a> | Включает или отключает режим низкой задержки. См. раздел «многопоточность» в разделе «Примечания».<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Кодировщик поддерживает следующие режимы управления скоростью.
 
@@ -315,7 +201,7 @@ ms.locfileid: "117879098"
 
 -   [CODECAPI_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md)
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -327,7 +213,7 @@ ms.locfileid: "117879098"
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

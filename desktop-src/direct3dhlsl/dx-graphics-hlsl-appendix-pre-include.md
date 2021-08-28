@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a844459234200ca99233eb3f64a2a1c30449cdcc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 079ae2680a2610993c3cd54ac64afdfcbafa25c9
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104997086"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627470"
 ---
 # <a name="include-directive"></a>\#include, директива
 
@@ -35,7 +35,7 @@ ms.locfileid: "104997086"
 |------|-------------|
 | *filename* | Имя файла для включения, при необходимости предшествующее спецификации каталога. Имя файла должно содержать существующий файл. |
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 \#Директива include приводит к замене директивы всем содержимым указанного файла. Препроцессор прекращает поиск, как только находит файл с указанным именем; Если указать полную, однозначную спецификацию пути для файла, препроцессор будет искать только указанный путь.
 
@@ -46,8 +46,8 @@ ms.locfileid: "104997086"
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -95,7 +95,7 @@ ms.locfileid: "104997086"
 #include <stdio.h>
 ```
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 - [Директивы препроцессора (DirectX HLSL)](dx-graphics-hlsl-appendix-preprocessor.md)
 

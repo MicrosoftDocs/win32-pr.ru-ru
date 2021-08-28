@@ -4,12 +4,12 @@ ms.assetid: 88a1888f-7bfb-4e24-9d48-92cfde02a14f
 title: Свойство MFPKEY_RAVG (Вмкодекдсп. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ad15d2445dc2acea1e91f4d01fad6e7bd83edb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90fd5435498a8a0c247d9363f02e2e767b46c5ab17ce36cc5a41feab54ed5277
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105702115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113294"
 ---
 # <a name="mfpkey_ravg-property"></a>МФПКЭЙ \_ равг, свойство
 
@@ -23,7 +23,7 @@ g \_ всзвмвкавгбитрате
 
 VT \_ I4
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Как с ограничением, так и с неограниченным числом VBR это значение представляет собой среднюю скорость потока в течение всего содержимого.
 
@@ -31,19 +31,19 @@ VT \_ I4
 
 Это свойство также может быть считано в конце сеанса кодирования с 1 проходом VBR.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>                                             |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                    |
-| Header<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>                                             |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                    |
+| Заголовок<br/>                   | <dl> <dt>Вмкодекдсп. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

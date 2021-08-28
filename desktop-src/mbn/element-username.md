@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4c901a78e37bd3a4d883e0bd1c5c2006c7e2bc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e3202b321c547309635a4ba5bb53d1b22276c72
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104541402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122981937"
 ---
 # <a name="span-idwwan_profile_v4element_usernamespanmbnprofileextusername-v4"></a><span id="WWAN_profile_v4.element_UserName"></span>Мбнпрофиликст \/ ... \/ Имя пользователя (v4)
 
@@ -55,49 +55,29 @@ ms.locfileid: "104541402"
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Атрибуты
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Дочерние элементы
 
-Нет.
+Отсутствует.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Родительские элементы
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Родительский элемент</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-userlogoncred.md">UserLogonCred</a></td>
-<td><p>Учетные данные входа для подключения.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Родительский элемент | Описание | 
+|----------------|-------------|
+| <a href="element-userlogoncred.md">UserLogonCred</a> | <p>Учетные данные входа для подключения.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Пространство имен</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Требование | Применение |
+|------------|----------|
+| <p>Пространство имен</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

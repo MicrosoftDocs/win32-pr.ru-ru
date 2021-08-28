@@ -1,5 +1,5 @@
 ---
-description: 'Позволяет объекту обратного вызова объединять пункты меню в меню проводника Windows. Используется Ишеллфолдервиевкб:: Мессажесфвкб.'
+description: 'позволяет объекту обратного вызова объединять пункты меню в меню обозревателя Windows. Используется Ишеллфолдервиевкб:: Мессажесфвкб.'
 title: Сообщение SFVM_MERGEMENU (Шлобж. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5cf95a7576c15ab1c3e64ebe55e244feffa6d86d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f6838b3c2ee845794bfa506beada2b7092f1bb918438f820f0e77d6b6543dc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104986076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111174"
 ---
 # <a name="sfvm_mergemenu-message"></a>\_Сообщение сфвм мержемену
 
-Позволяет объекту обратного вызова объединять пункты меню в меню проводника Windows. Используется [**ишеллфолдервиевкб:: мессажесфвкб**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
+позволяет объекту обратного вызова объединять пункты меню в меню обозревателя Windows. Используется [**ишеллфолдервиевкб:: мессажесфвкб**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -46,9 +46,9 @@ SFVM_MERGEMENU
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
-Это сообщение, по сути, такое же самое, что и [**ишеллбровсер:: инсертменуссб**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb) и [**Ишеллбровсер:: сетменусб**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb) в представлении пользовательской папки. Дополнительные сведения см. в разделе *Использование ишеллбровсер для взаимодействия с проводником Windows* в статье [Реализация представления папки](../lwef/nse-folderview.md) .
+Это сообщение, по сути, такое же самое, что и [**ишеллбровсер:: инсертменуссб**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb) и [**Ишеллбровсер:: сетменусб**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb) в представлении пользовательской папки. см. раздел *использование ишеллбровсер для взаимодействия с обозревателем Windows в* разделе [реализация представления папки](../lwef/nse-folderview.md) для дальнейшего обсуждения.
 
 ## <a name="requirements"></a>Требования
 

@@ -4,18 +4,18 @@ ms.assetid: 928c2d48-daa5-4c27-816b-766adedba7eb
 title: Отображение диалогового окна «Завершение работы»
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eedfee9e96fa1e6183cbe1d9322a603b65ae4b86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfae7475d1a0d861c06bf83dfcab95e0c939b44f1837a543584642f15ac43bb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105663088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100624"
 ---
 # <a name="displaying-the-shutdown-dialog-box"></a>Отображение диалогового окна «Завершение работы»
 
 В следующем примере выполняется перезагрузка локальной системы с помощью функции [**инитиатесистемшутдовн**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna) . Система отображает диалоговое окно с пользовательским сообщением и сообщением для закрытия приложений в течение заданного интервала времени ожидания (30 секунд). По истечении интервала времени ожидания система перезапускается.
 
-\_ \_ Перед вызовом [**инитиатесистемшутдовн**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna)приложение должно включить привилегию имени для завершения работы SE. Дополнительные сведения см. в разделе [привилегии](../secauthz/privileges.md).
+\_ \_ перед вызовом [**инитиатесистемшутдовн**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna)приложение должно включить привилегию имени завершения работы SE. Дополнительные сведения см. в разделе [привилегии](../secauthz/privileges.md).
 
 
 ```C++

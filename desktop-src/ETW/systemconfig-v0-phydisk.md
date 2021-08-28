@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1bfa7b994bfe0950ccc7a97b19fbd705838950d7461712b114a16f62e7ad0aec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c18a198934b7234121da02900896d67c39a3ab3c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119754764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880730"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>\_Класс системконфиг v0 \_ фидиск
 
@@ -84,7 +84,7 @@ class SystemConfig_V0_PhyDisk : SystemConfig_V0
 Квалификаторы: **вмидатаид** (13), **Max** (3)
 </dt> </dl>
 
-Буква загрузочного диска в формате " <letter> :".
+Буква загрузочного диска в формате " &lt; Letter &gt; :".
 
 </dd> <dt>
 
@@ -136,7 +136,7 @@ class SystemConfig_V0_PhyDisk : SystemConfig_V0
 
 </dd> <dt>
 
-**Производителя**
+**Изготовитель**
 </dt> <dd> <dl> <dt>
 
 Тип данных: массив **Char16**

@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, подсказка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc3c9f227faf5dd9844f809dac43cf160371490d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a627114afcdeeb9b6e156572476462fa7ecde75a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775842"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472860"
 ---
 # <a name="tooltip-control-type"></a>Тип элемента управления ToolTip
 
@@ -40,7 +40,7 @@ ms.locfileid: "103775842"
 -   [Соответствующие свойства](#relevant-properties)
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -48,36 +48,15 @@ ms.locfileid: "103775842"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ToolTip
-<ul>
-<li>Text (0 или более)</li>
-<li>Image (0 или более)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ToolTip</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>ToolTip<ul><li>Text (0 или более)</li><li>Image (0 или более)</li></ul></li></ul> | <ul><li>ToolTip</li></ul> | 
 
 
 
- 
+
+ 
 
 Элементы управления ToolTip отображаются только в представлении содержимого дерева модели автоматизации пользовательского интерфейса, если они могут получать фокус клавиатуры. В противном случае все сведения о подсказках доступны в свойстве [**иуиаутоматионелемент:: курренселптекст**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext) (или [**качедхелптекст**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext)) элемента, на который ссылается подсказка.
 
@@ -104,7 +83,7 @@ ms.locfileid: "103775842"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -119,7 +98,7 @@ ms.locfileid: "103775842"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -146,9 +125,9 @@ ms.locfileid: "103775842"
 
 
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -161,9 +140,9 @@ ms.locfileid: "103775842"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

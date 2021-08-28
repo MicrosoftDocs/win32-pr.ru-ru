@@ -4,21 +4,21 @@ description: Атрибут коэффициента блеска VML
 ms.assetid: 99c301ff-ed61-48ef-95bb-ceaed1a2553c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7a116adeb955c0f3449b374947a3f8121bd848e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dea0abba3f605f749e07d247d207a50a6fe7b247ec54bd88024bad3915285e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104337596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099054"
 ---
 # <a name="vml-shininess-attribute"></a>Атрибут коэффициента блеска VML
 
-В этом разделе описывается функция VML, которая является устаревшей в Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
+в этом разделе описывается функция VML, которая является устаревшей по отношению к Windows Internet Explorer 9. Веб-страницы и приложения, использующие VML, должны быть перенесены в формат SVG или другие широко поддерживаемые стандарты.
 
 > [!Note]  
-> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). Сведения, рекомендации и рекомендации по текущей версии Windows Internet Explorer см. в [центре разработчиков Internet Explorer](https://msdn.microsoft.com/ie/).
+> По состоянию на Декабрь 2011 этот раздел был архивирован. В результате он больше не поддерживается. Дополнительные сведения см. в разделе [архивированное содержимое](/previous-versions/windows/internet-explorer/ie-developer/). сведения, рекомендации и рекомендации относительно текущей версии Windows Internet explorer см. в [центре разработчиков internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Определяет концентрацию отраженного освещения на поверхности объема. Read/write. **Вгнумбер**.
 
@@ -40,8 +40,8 @@ ms.locfileid: "104337596"
 
 Высокие значения (8-10) будут приблизительными, что коэффициента блеска зеркального и нижнего значений (2-3) будет приблизительным результатом спекклед. Значения 4-7 являются типичными. Отражения не отражают другие объекты; отражаются только источники освещения. Значение по умолчанию — 5.
 
-*Атрибут расширений Microsoft Office*
+*Microsoft Office Extensions, атрибут*
 
- 
+ 
 
- 
+ 

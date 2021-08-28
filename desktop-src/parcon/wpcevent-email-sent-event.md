@@ -4,12 +4,12 @@ ms.assetid: c49919a2-2a03-475d-9cfa-20a960184202
 title: Событие WPCEVENT_EMAIL_SENT (Впцевент. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd222e946f0b7c78116ace9d8d01de2e2709a7ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe3d5fb08764aa83677fcca66af7f1e3b868f2b1bdf393741865bf64fd23049
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105647689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112734"
 ---
 # <a name="wpcevent_email_sent-event"></a>\_Событие отправленного сообщения электронной почты впцевент \_
 
@@ -109,9 +109,9 @@ const EVENT_DESCRIPTOR WPCEVENT_EMAIL_SENT = {0x5, 0x0, 0x10, 0x4, 0x16, 0x5, 0x
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                             |
-| Header<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>Впцевент. h</dt> </dl> |
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3737dca869c539d1414c4399f35fb8f107697b70
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8740aca290bbe116f867915fd15f4f2683bfe3b2d4c4a2e8cc731516ba8a0a09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103990733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109634"
 ---
 # <a name="win32_associatedprocessormemory-class"></a>\_Класс Win32 ассоЦиатедпроцессормемори
 
@@ -48,7 +48,7 @@ class Win32_AssociatedProcessorMemory : CIM_AssociatedProcessorMemory
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **Win32 \_ ассоЦиатедпроцессормемори** имеет следующие свойства.
 
@@ -104,7 +104,7 @@ class Win32_AssociatedProcessorMemory : CIM_AssociatedProcessorMemory
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Класс **Win32 \_ ассоЦиатедпроцессормемори** является производным от [**CIM \_ ассоЦиатедпроцессормемори**](cim-associatedprocessormemory.md).
 
@@ -122,7 +122,7 @@ class Win32_AssociatedProcessorMemory : CIM_AssociatedProcessorMemory
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

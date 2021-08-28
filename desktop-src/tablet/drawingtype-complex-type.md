@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f5a614c2b89cd887aaf40fd7c8f7a34e1196c11b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddee1f2fe357b2a92892eca08f40983d4f2cfb2a7115a6a2f44f9c4503abc53d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105656709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110954"
 ---
 # <a name="drawingtype-complex-type"></a>Сложный тип Дравингтипе
 
@@ -33,7 +33,7 @@ ms.locfileid: "105656709"
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только классические приложения Windows XP Tablet PC Edition \[\]<br/> |
+| Минимальная версия клиента<br/> | Windows XP Tablet PC Edition \[ только классические приложения\]<br/> |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                     |
 
 

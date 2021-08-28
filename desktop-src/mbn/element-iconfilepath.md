@@ -7,12 +7,12 @@ MSHAttr:
 title: иконфилепас
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4105dc7bf5f65eb3bc6dfe3e2abf2206caffc7a4
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 50f902fe348322df2b29853aeafa65ec1cf68b71
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879667"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479920"
 ---
 # <a name="span-idwwan_profile_v4element_iconfilepathspaniconfilepath"></a><span id="WWAN_profile_v4.element_ICONFilePath"></span>иконфилепас
 
@@ -22,8 +22,8 @@ ms.locfileid: "122879667"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;иконфилепас&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ICONFilePath>**
 
 ## <a name="syntax"></a>Синтаксис
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 62ecd7906ed5717937902bb259cb2858ef79cd5e0b1a8c3dc91bfeecd69a16b3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fbab4d72fc3a17ba9034aa9fc08612c46a9dd060
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119844754"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627980"
 ---
 # <a name="span-idvspixengineofflineanalysissourcespanofflineanalysissource-enumeration"></a><span id="vspixengine.offlineanalysissource"></span>Перечисление ОФФЛИНЕАНАЛИСИССАУРЦЕ
 
@@ -42,7 +42,7 @@ ms.locfileid: "119844754"
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

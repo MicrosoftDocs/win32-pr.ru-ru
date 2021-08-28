@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 7795602e29d565022d532a0ebd51be1c4249a02e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8864573e3e84b2e09fb28ad997aab004dfe88916eb8af5f0ee8b3d47437188e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104539134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088014"
 ---
 # <a name="ntgdiddquerymocompstatus-function"></a>Функция Нтгдиддкуеримокомпстатус
 
@@ -74,11 +74,11 @@ DWORD APIENTRY NtGdiDdQueryMoCompStatus(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Дополнительные сведения см. в пакете средств разработки драйверов для Microsoft DirectX Video Acceleration Kit (DDK).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -90,7 +90,7 @@ DWORD APIENTRY NtGdiDdQueryMoCompStatus(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

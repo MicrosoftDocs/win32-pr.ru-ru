@@ -1,6 +1,6 @@
 ---
 description: Используется для определения наличия элемента в списке последних использованных элементов.
-title: Функция обратного вызова МРУКМППРОК
+title: Функция обратного вызова MRUCMPPROC
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,14 +14,14 @@ api_type:
 - UserDefined
 api_location: ''
 ms.assetid: 00f31d6b-2a96-4abd-9647-24a6e66aa22f
-ms.openlocfilehash: 83020fbcd0d4cfcfbc643d1360e3671595de6f32
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: bcf8bb7c8ec4ceab299efd75c61cabe86f43d0ee46585be59ab4000957554ed2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111494"
 ---
-# <a name="mrucmpproc-callback-function"></a>Функция обратного вызова МРУКМППРОК
+# <a name="mrucmpproc-callback-function"></a>Функция обратного вызова MRUCMPPROC
 
 Используется для определения наличия элемента в списке последних использованных элементов.
 
@@ -69,7 +69,7 @@ int CALLBACK MRUCMPPROC(
 
 Эту функцию можно дополнительно указать для использования в структуре [**мруинфо**](mruinfo.md) , передаваемой в [**креатемрулиств**](createmrulist.md). Это полезно, если список MRU был создан с помощью флага **\_ двоичного файла MRU** . Если эта функция не задана, используются стандартные функции сравнения строк.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 

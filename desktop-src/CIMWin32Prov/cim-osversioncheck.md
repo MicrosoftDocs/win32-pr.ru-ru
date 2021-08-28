@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f2ab63d04d23abddad04d4abad812754fbfc6eed2d3352fbc26fc41e172af81a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2dce98d850bb140d6af40bbd9b012e23bebe7316
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118422141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880663"
 ---
 # <a name="cim_osversioncheck-class"></a>\_Класс CIM осверсиончекк
 
@@ -176,8 +176,8 @@ class CIM_OSVersionCheck : CIM_Check
 
 Значение кодируется в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 </dd> <dt>
 
@@ -197,12 +197,12 @@ class CIM_OSVersionCheck : CIM_Check
 
 Значение кодируется в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 </dd> <dt>
 
-**Имя**
+**имя**;
 </dt> <dd> <dl> <dt>
 
 Тип данных: **строка**
@@ -844,20 +844,20 @@ Mac OS 9
 
 Версия операции должна быть в одной из следующих форм:
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;основной &gt; . &lt; дополнительный номер &gt; . &lt; редакции&gt;
+-   &lt;основной &gt; . &lt; Дополнительная &gt; &lt; буква &gt; &lt; версии&gt;
 
 Это свойство наследуется [**от \_ проверки CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
 Инструментарий WMI не реализует этот класс.
 
 Эта документация является производной от описаний класса CIM, опубликованных в формате DMTF. Корпорация Майкрософт могла внести изменения в Исправление незначительных ошибок, соответствовать стандартам документации пакета Microsoft SDK или предоставить дополнительные сведения.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
 
 
@@ -871,7 +871,7 @@ Mac OS 9
 
 
 
-## <a name="see-also"></a>См. также
+## <a name="see-also"></a>См. также раздел
 
 <dl> <dt>
 

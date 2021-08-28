@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 860d4a9190ec12d958db12019a51fd5183caedba
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 6f3600f751d0bf93de503494f31d2ae66985828f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122482000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880501"
 ---
 # <a name="span-idwwan_profile_v4element_homeprovidernamespanhomeprovidername"></a><span id="WWAN_profile_v4.element_HomeProviderName"></span>HomeProviderName
 
@@ -29,8 +29,8 @@ ms.locfileid: "122482000"
 
 ## <a name="element-hierarchy"></a>Иерархия элементов
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-**<HomeProviderName>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+**&lt;HomeProviderName&gt;**
 
 ## <a name="syntax"></a>Синтаксис
 

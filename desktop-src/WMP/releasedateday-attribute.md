@@ -3,7 +3,7 @@ title: Атрибут Релеаседатедай
 description: Атрибут Релеаседатедай представляет собой часть даты исходного выпуска элемента.
 ms.assetid: 5a38941f-9366-4995-9919-5f0025f0d778
 keywords:
-- Релеаседатедай атрибут Windows Media Player
+- проигрыватель Windows Media атрибута релеаседатедай
 topic_type:
 - apiref
 api_name:
@@ -12,24 +12,24 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3ced8e5cb2416c08aadfc2fdac3cd6f99fa481
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df82859bc5f7154294c188025efb1c8a143c4120d62c3d4e43c68f54fa2bb6b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105649063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123244"
 ---
 # <a name="releasedateday-attribute"></a>Атрибут Релеаседатедай
 
 Атрибут **релеаседатедай** представляет собой часть даты исходного выпуска элемента.
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 -   [Звуковые элементы](audio-item-attributes.md)
 -   [Дорожки компакт-диска](cd-track-attributes.md)
 -   [Элементы видео](video-item-attributes.md)
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут хранится только в базе данных библиотеки (или в кэше).
 
@@ -41,11 +41,11 @@ ms.locfileid: "105649063"
 
 | Требование | Значение |
 |--------------------|------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 11<br/> |
+| Версия<br/> | проигрыватель Windows Media 11<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

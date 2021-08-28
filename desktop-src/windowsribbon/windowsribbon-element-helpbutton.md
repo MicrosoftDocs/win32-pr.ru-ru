@@ -3,7 +3,7 @@ title: Хелпбуттон, элемент
 description: Представляет элемент управления кнопки справки.
 ms.assetid: 24c709da-539e-4ea0-bd3e-d3fbd72dfb97
 keywords:
-- Лента Windows для элемента Хелпбуттон
+- элемент хелпбуттон Windows лента
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9f34f04133b7628cce01ac0ce2808923b4f6bbdb
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: f138b615b0ae4a4e7a163364938808d945b60eb5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442845"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623500"
 ---
 # <a name="helpbutton-element"></a>Хелпбуттон, элемент
 
@@ -37,10 +37,10 @@ ms.locfileid: "111442845"
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -113,12 +113,12 @@ ms.locfileid: "111442845"
 
 ## <a name="element-information"></a>Сведения об элементе
 
-* **Минимальная поддерживаемая система**: Windows 7
+* **минимальная поддерживаемая система**: Windows 7
 * **Может быть пустым**: Да
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

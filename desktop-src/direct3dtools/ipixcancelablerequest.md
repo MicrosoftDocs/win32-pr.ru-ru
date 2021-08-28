@@ -17,24 +17,24 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: d2264107889b5cb9cd46478075cca3ed5943890cbc85dcbea0a934ebeefb5bc6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9c8fd3d612a22e249572af0bae13bc7286fad38e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119892494"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623550"
 ---
 # <a name="span-idvspixengineipixcancelablerequestspanipixcancelablerequest-interface"></a><span id="vspixengine.ipixcancelablerequest"></span>Интерфейс Ипиксканцелаблерекуест
 
 Основание любого запроса, который может быть отменен. Отмененные запросы могут быть отменены, только если они все еще находятся в очереди, поэтому отмена может быть пропущена.
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Участники
 
 Интерфейс **ипиксканцелаблерекуест** наследует от интерфейса [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) , но не содержит дополнительных элементов.
 
-## <a name="requirements"></a>Requirements (Требования)
+## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

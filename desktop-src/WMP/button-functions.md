@@ -3,22 +3,22 @@ title: Функции кнопок
 description: Функции кнопок
 ms.assetid: 6383a9dc-31cc-409b-83b7-cb41050f18e8
 keywords:
-- Обложки мобильных устройств проигрывателя Windows Media, функции кнопок
-- Обложки проигрывателя Windows Media для мобильных устройств, кнопки Плайпаусе
-- Обложки мобильных устройств проигрывателя Windows Media, кнопки "прерывать"
-- Обложки проигрывателя Windows Media для мобильных устройств, кнопки Плайпаусестоп
-- Обложки мобильных устройств проигрывателя Windows Media, кнопки "Далее"
-- Обложки мобильных устройств проигрывателя Windows Media, кнопки "назад"
+- проигрыватель Windows Media Обложки для мобильных устройств, функции кнопок
+- проигрыватель Windows Media Обложки для мобильных устройств, кнопки Плайпаусе
+- проигрыватель Windows Media Обложки для мобильных устройств, кнопки "Закрыть"
+- проигрыватель Windows Media Обложки для мобильных устройств, кнопки Плайпаусестоп
+- проигрыватель Windows Media Обложки для мобильных устройств, кнопки "Далее"
+- проигрыватель Windows Media Обложки для мобильных устройств, кнопки "назад"
 - обложки, функции кнопок
 - кнопки в обложках, функции
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de2af79cc0766c63203782b66e4b495951cc9d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1039dc80dff0d42ce6c239d656dcc9b319c579c426cd4414c8e27aa4ca0bbb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104258887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123734"
 ---
 # <a name="button-functions"></a>Функции кнопок
 
@@ -44,20 +44,20 @@ ms.locfileid: "104258887"
 -   волумеуп\*
 -   волумедовн\*
 
-\*Доступно для проигрывателя Windows Media 10 Mobile или более поздней версии.
+\*доступно для проигрыватель Windows Media 10 Mobile или более поздней версии.
 
 Дополнительные сведения о функциях кнопок см. в разделе [кнопки](buttons.md) в справочнике по обложкам.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
-[**Мобильные функции проигрывателя Windows Media**](windows-media-player-mobile-functionality.md)
+[**проигрыватель Windows Media Мобильные функции**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

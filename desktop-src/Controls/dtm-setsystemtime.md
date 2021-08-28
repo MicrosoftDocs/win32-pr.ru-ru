@@ -3,7 +3,7 @@ title: Сообщение DTM_SETSYSTEMTIME (Коммктрл. h)
 description: Задает время в элементе управления "Выбор даты и времени" (DTP). Это сообщение можно отправить явным образом или использовать \_ макрос Сетсистемтиме DateTime.
 ms.assetid: aab023ac-22ef-485b-be2f-2aa76dfcf57f
 keywords:
-- Элементы управления Windows для DTM_SETSYSTEMTIME сообщений
+- элементы управления Windows сообщений DTM_SETSYSTEMTIME
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b2a3c625ad4ff02bed138a8086ca0da984de35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5acd0c6a09e3fc7bd9d068e27049329f3289a8ba1968ffae4592c7e07db9f2eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103989127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088974"
 ---
 # <a name="dtm_setsystemtime-message"></a>\_Сообщение DTM сетсистемтиме
 
@@ -58,15 +58,15 @@ ms.locfileid: "103989127"
 
 Возвращает ненулевое значение в случае успеха или ноль в противном случае.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 
 
 

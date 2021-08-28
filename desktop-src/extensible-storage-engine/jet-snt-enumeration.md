@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d405e33b7d84d3a5a58dc9a13d5c070c47a6536
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252528"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467221"
 ---
 # <a name="jet_snt-enumeration"></a>Перечисление JET_SNT
 
@@ -63,51 +63,18 @@ public enum JET_SNT
 
 ## <a name="members"></a>Члены
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Имя участника</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Начать</td>
-<td>Обратный вызов для начала операции.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Ход выполнения</td>
-<td>Обратный вызов для хода выполнения операции.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Завершить</td>
-<td>Обратный вызов для завершения операции.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Ошибка</td>
-<td>Обратный вызов для сбоя во время операции.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>рековеристеп</td>
-<td>Обратный вызов для управления восстановлением.
-<p>используется для внутренней обработки в версиях Windows операционных систем, предшествующих Windows 8. это значение неприменимо к версиям Windows, начиная с Windows 8.</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | Имя участника | Описание | 
+|--|-------------|-------------|
+|  | Начать | Обратный вызов для начала операции. | 
+|  | Ход выполнения | Обратный вызов для хода выполнения операции. | 
+|  | Завершить | Обратный вызов для завершения операции. | 
+|  | Ошибка | Обратный вызов для сбоя во время операции. | 
+|  | рековеристеп | Обратный вызов для управления восстановлением.<p>используется для внутренней обработки в версиях Windows операционных систем, предшествующих Windows 8. это значение неприменимо к версиям Windows, начиная с Windows 8.</p> | 
 
 
-## <a name="see-also"></a>См. также раздел
+
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

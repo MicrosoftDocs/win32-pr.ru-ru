@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 941a056a5c2af00cfa1bb53f038cbeb923a777bb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c851831208b18f06bda57dbab1c3efc462944bb3
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097392"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786960"
 ---
 # <a name="span-idvspixengineipipelinestagescallback2spanipipelinestagescallback2-interface"></a><span id="vspixengine.ipipelinestagescallback2"></span>Интерфейс IPipeLineStagesCallback2
 
@@ -38,13 +38,13 @@ ms.locfileid: "108097392"
 
 Интерфейс **IPipeLineStagesCallback2** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagescallback2-threaddatadimensioncallback-threaddata3d-threaddata3d"><strong>среаддатадименсионкаллбакк</strong></a></td><td style="text-align: left;"><p>Обратный вызов, уведомляющий узел о количестве потоков и групп шейдера вычислений в связанном запросе.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipipelinestagescallback2-threaddatanotavailablecallback-pipelinestageerror-eventid"><strong>среаддатанотаваилаблекаллбакк</strong></a></td><td style="text-align: left;"><p>Обратный вызов, уведомляющий узел о том, что Среаддата недоступен для определенного этапа и события конвейера.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagescallback2-threaddatadimensioncallback-threaddata3d-threaddata3d"><strong>среаддатадименсионкаллбакк</strong></a></td><td ><p>Обратный вызов, уведомляющий узел о количестве потоков и групп шейдера вычислений в связанном запросе.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipipelinestagescallback2-threaddatanotavailablecallback-pipelinestageerror-eventid"><strong>среаддатанотаваилаблекаллбакк</strong></a></td><td ><p>Обратный вызов, уведомляющий узел о том, что Среаддата недоступен для определенного этапа и события конвейера.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Header</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

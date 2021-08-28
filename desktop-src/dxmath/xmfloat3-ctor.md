@@ -4,12 +4,12 @@ ms.assetid: b85e3896-56e1-4927-b22b-cc8e49ccc056
 title: Конструкторы XMFLOAT3 (Директксмас. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: fb206e08bda8d93e288340939cabd51cb8218fe1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2a3dac89dd9df7dfd76186bb932580aaa0acad3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718079"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466821"
 ---
 # <a name="xmfloat3-constructors"></a>Конструкторы XMFLOAT3
 
@@ -26,47 +26,13 @@ ms.locfileid: "105718079"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Конструктор</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3 ()</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmfloat3-xmfloat3 (констфлоат))</td>
-<td style="text-align: left;">Конструктор по умолчанию для <code>XMFLOAT3</code> .<br/> Конструктор по умолчанию для [<strong>XMFLOAT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmfloat3).<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">[<strong>XMFLOAT3 (const float *)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmfloat3a-xmfloat3a (констфлоат))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр класса <code>XMFLOAT3</code> из трех <code>float</code> аргументов массива элементов.<br/> Этот конструктор инициализирует новый экземпляр [<strong>XMFLOAT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmfloat3) из из трех <code>float</code> аргументов массива элементов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">[<strong>XMFLOAT3 (float, float, float)</strong>] (/Windows/Win32/API/DirectXMath/NF-DirectXMath-xmfloat3-xmfloat3 (float_float_float))</td>
-<td style="text-align: left;">Инициализирует новый экземпляр <code>XMFLOAT3</code> из трех <code>float</code> аргументов.<br/> Этот конструктор инициализирует новый экземпляр [<strong>XMFLOAT3</strong>] (/Windows/Win32/API/DirectXMath/NS-DirectXMath-xmfloat3) из трех <code>float</code> аргументов.<br/>
-<blockquote>
-[!Note]<br />
-Этот конструктор доступен только в C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Конструктор | Описание | 
+|-------------|-------------|
+| [<strong>XMFLOAT3 ()</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(constfloat)) | Конструктор по умолчанию для <code>XMFLOAT3</code> .<br /> Конструктор по умолчанию для [<strong>XMFLOAT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat3).<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMFLOAT3 (const float *)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat3a-xmfloat3a(constfloat)) | Инициализирует новый экземпляр класса <code>XMFLOAT3</code> из трех <code>float</code> аргументов массива элементов.<br /> Этот конструктор инициализирует новый экземпляр класса [<strong>XMFLOAT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat3) из трех <code>float</code> аргументов массива элементов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+| [<strong>XMFLOAT3 (float, float, float)</strong>](/windows/win32/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(float_float_float)) | Инициализирует новый экземпляр <code>XMFLOAT3</code> из трех <code>float</code> аргументов.<br /> Этот конструктор инициализирует новый экземпляр класса [<strong>XMFLOAT3</strong>](/windows/win32/api/directxmath/ns-directxmath-xmfloat3) из трех <code>float</code> аргументов.<br /><blockquote>[!Note]<br />Этот конструктор доступен только в C++.</blockquote><br /> | 
+
 
 
 
@@ -76,11 +42,11 @@ ms.locfileid: "105718079"
 
 | Требование | Значение |
 |-------------------|------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксмас. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

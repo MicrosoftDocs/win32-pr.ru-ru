@@ -5,12 +5,12 @@ ms.assetid: 3e60e95a-3580-48aa-a9f9-8fd899aa7fca
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f3c53f2370f4123352489ac747546e3335c558
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 743eff150edf5e9d213759ccef8c786bab98754b8e4dc2b968929ba3ad2d6709
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104338681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099594"
 ---
 # <a name="application-setup"></a>Настройка приложения
 
@@ -24,6 +24,6 @@ ms.locfileid: "104338681"
 -   Установите приложения в среду пользователя по умолчанию, общую для всех пользователей. Перед установкой приложения выполните команду **change user/install** Console и после завершения установки выполните команду **change user/execute** Console. Используйте скрипт совместимости службы удаленных рабочих столов для установки.
 -   Поддержка пользовательской настройки с помощью профилей пользователей. Для этого создайте [файл административного шаблона](/previous-versions/windows/desktop/Policy/administrative-template-file-format) , чтобы администратор мог настроить реестр для указания функций, доступных каждому пользователю. Затем во время выполнения приложение может включать или отключать функции в зависимости от параметров в параметрах реестра текущего пользователя. Приложение может сохранить конфигурацию каждого пользователя в кусте реестра **hKey Current User** и позволить каждому пользователю настраивать приложение в соответствии с их предпочтениями.
 
- 
+ 
 
- 
+ 

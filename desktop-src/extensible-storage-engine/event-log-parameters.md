@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 912dc3e1e8588e18ef0d1db8fbf7edccfca7bdeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1c127f538ae80e8bec3dc5a34d5924b838b51ee
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104080971"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465881"
 ---
 # <a name="event-log-parameters"></a>Параметры журнала событий
 
 
-_**Применимо к:** Windows | Windows Server_
+_**Применимо к:** Windows | Windows Сервером_
 
 ## <a name="event-log-parameters"></a>Параметры журнала событий
 
@@ -34,116 +34,18 @@ _**Применимо к:** Windows | Windows Server_
 JET_paramEventLogCache  
 Этот параметр определяет размер (в байтах) кэша сообщений EventLog, который будет содержать сообщения EventLog, созданные ядром СУБД при остановке службы EventLog. Эти кэшированные сообщения будут записаны в журнал событий, когда служба станет работоспособной. Все сообщения, превышающие размер кэша, будут удалены.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Глобальный</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>0</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>0 – 2147483647</p> | | <p>Область.</p> | <p>Глобальный</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Нет</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Да</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramEventLoggingLevel*  
   
 Этот параметр задает уровень детализации сообщений журнала событий, которые передаются в журнал событий ядром СУБД. Более высокие значения приводят к более подробным сообщениям журнала событий.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>JET_EventLoggingLevelMax</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Целочисленный тип</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>JET_EventLoggingDisable — JET_EventLoggingLevelMax</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Windows XP и более поздние версии</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>JET_EventLoggingLevelMax</p> | | <p>Тип:</p> | <p>Целое число</p> | | <p>Допустимый диапазон:</p> | <p>JET_EventLoggingDisable — JET_EventLoggingLevelMax</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Windows XP и более поздних версий</p> | 
+
 
 
 *JET_paramEventSource*  
@@ -151,58 +53,9 @@ JET_paramEventLogCache
 
 Этот параметр предоставляет строку конкретного приложения, которая будет добавлена в любые сообщения журнала событий, созданные ядром СУБД. Это позволяет легко сопоставить сообщения журнала событий с исходным приложением. Если указана пустая строка (как по умолчанию), будет использоваться имя исполняемого файла ведущего приложения.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>&quot;&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Строка</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 259 символов</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>""</p> | | <p>Тип:</p> | <p>Строка</p> | | <p>Допустимый диапазон:</p> | <p>0 – 259 символов</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramEventSourceKey*  
@@ -210,58 +63,9 @@ JET_paramEventLogCache
 
 Этот параметр можно использовать для управления журналом событий, который ядро СУБД использует для сообщений журнала событий. По умолчанию все сообщения журнала событий перемещаются в журнал событий приложений. Если будет настроено имя раздела реестра для другого журнала событий, вместо этого будут отправлены сообщения журнала событий.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>&quot;&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Строка</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>0 – 259 символов</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>""</p> | | <p>Тип:</p> | <p>Строка</p> | | <p>Допустимый диапазон:</p> | <p>0 – 259 символов</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 *JET_paramNoInformationEvent*  
@@ -269,82 +73,16 @@ JET_paramEventLogCache
 
 Если этот параметр имеет значение true, сообщения журнала событий, обычно создаваемые ядром СУБД, будут подавлены.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Значение по умолчанию:</p></td>
-<td><p>Неверно</p></td>
-</tr>
-<tr class="even">
-<td><p>Тип:</p></td>
-<td><p>Логическое</p></td>
-</tr>
-<tr class="odd">
-<td><p>Допустимый диапазон:</p></td>
-<td><p>False, true</p></td>
-</tr>
-<tr class="even">
-<td><p>Область.</p></td>
-<td><p>Экземпляр</p></td>
-</tr>
-<tr class="odd">
-<td><p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p></td>
-<td><p>Да</p></td>
-</tr>
-<tr class="even">
-<td><p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на физический макет:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на надежность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>Влияет на производительность:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="even">
-<td><p>Влияет на ресурсы:</p></td>
-<td><p>Нет</p></td>
-</tr>
-<tr class="odd">
-<td><p>"Доступность":</p></td>
-<td><p>Все</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Значение по умолчанию:</p> | <p>Неверно</p> | | <p>Тип:</p> | <p>Логическое</p> | | <p>Допустимый диапазон:</p> | <p>False, true</p> | | <p>Область.</p> | <p>Экземпляр</p> | | <p>Задать после <a href="gg269354(v=exchg.10).md">жеткреатеинстанце</a>:</p> | <p>Да</p> | | <p>Задать после <a href="gg294068(v=exchg.10).md">жетинит</a>:</p> | <p>Нет</p> | | <p>Влияет на физический макет:</p> | <p>Нет</p> | | <p>Влияет на надежность:</p> | <p>Нет</p> | | <p>Влияет на производительность:</p> | <p>Нет</p> | | <p>Влияет на ресурсы:</p> | <p>Нет</p> | | <p>"Доступность":</p> | <p>Все</p> | 
+
 
 
 ### <a name="requirements"></a>Требования
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Клиент</strong></p></td>
-<td><p>Требуется Windows Vista, Windows XP или Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Server</strong></p></td>
-<td><p>Требуется Windows Server 2008, Windows Server 2003 или Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>Header</strong></p></td>
-<td><p>Объявлено в ESENT. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Клиент</strong></p> | <p>требуется Windows Vista, Windows XP или Windows 2000 Professional.</p> | | <p><strong>Сервер</strong></p> | <p>требуется Windows server 2008, Windows server 2003 или сервер Windows 2000.</p> | | <p><strong>Header</strong></p> | <p>Объявлено в ESENT. h.</p> | 
+
 
 
 ### <a name="see-also"></a>См. также:

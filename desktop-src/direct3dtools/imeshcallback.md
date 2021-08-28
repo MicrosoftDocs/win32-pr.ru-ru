@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2eb80d06fd0a5c4723f3607c3e28ebd9790527a41c4c0ae8b7e36c96ac3aeb2f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 586d9457595b6bb4df9b89a87bdfb64a2b888c40
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119484914"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786570"
 ---
 # <a name="span-idvspixengineimeshcallbackspanimeshcallback-interface"></a><span id="vspixengine.imeshcallback"></span>Интерфейс Имешкаллбакк
 
@@ -38,13 +38,13 @@ ms.locfileid: "119484914"
 
 Интерфейс **имешкаллбакк** содержит следующие методы.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Метод</th><th style="text-align: left;">Описание</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/imeshcallback-resultcallback-dword-byte-arr"><strong>ресулткаллбакк</strong></a></td><td style="text-align: left;"><p>Не используется.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Метод</th><th >Описание</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/imeshcallback-resultcallback-dword-byte-arr"><strong>ресулткаллбакк</strong></a></td><td ><p>Не используется.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Требования
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>Заголовок</p></td><td>Вспиксенгине. h</td></tr></tbody></table>
 
  
 

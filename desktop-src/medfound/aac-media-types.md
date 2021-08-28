@@ -4,12 +4,12 @@ ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: Типы носителей AAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab95423b26a0e2a327b599011e88a05ab2ab58c5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ae70661478ad0d2267c951c80fc4a63d98c15267
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103999857"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479890"
 ---
 # <a name="aac-media-types"></a>Типы носителей AAC
 
@@ -52,70 +52,26 @@ ms.locfileid: "103999857"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Основной тип. Необходимо <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Подтип аудио. Дополнительные сведения см. в описании выше.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>Профиль и уровень звука. <br/> Значением этого атрибута является поле <strong>аудиопрофилелевелиндикатион</strong> , ОПРЕДЕЛЕННОЕ в стандарте ISO/IEC 14496-3.<br/> Если неизвестно, задайте для параметра значение 0 или 0xFE ( &quot; профиль звука не указан &quot; ).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Битовая скорость закодированного потока AAC в байтах в секунду.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>Тип полезных данных.<br/> Применяется только к <strong>MFAudioFormat_AAC</strong>.<br/> <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> является необязательным. Если этот атрибут не указан, используется значение по умолчанию 0, которое указывает, что поток содержит только элементы raw_data_block.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Битовая глубина декодированного звука PCM.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
-<td>Назначение звуковых каналов для позиционирования динамиков.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Количество каналов, включая канал с низкой частотой (НИЗКОЧАСТОТный), если он есть.<br/> Интерпретация этого значения зависит от подтипа носителя, как описано выше.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Частота выборки, в примерах в секунду.<br/> Интерпретация этого значения зависит от подтипа носителя, как описано выше.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
-<td>Значение этого атрибута зависит от подтипа:<br/>
-<ul>
-<li><strong>MFAudioFormat_AAC</strong>: содержит часть структуры <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>хеааквавеинфо</strong></a> , которая появляется после структуры <strong>вавеформатекс</strong> (то есть после элемента <strong>вфкс</strong> ). За ним следуют данные АудиоспеЦификконфиг () в соответствии с определением ISO/IEC 14496-3.</li>
-<li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: содержит данные аудиоспеЦификконфиг ().</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Основной тип. Необходимо <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Подтип аудио. Дополнительные сведения см. в описании выше. | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Профиль и уровень звука. <br /> Значением этого атрибута является поле <strong>аудиопрофилелевелиндикатион</strong> , ОПРЕДЕЛЕННОЕ в стандарте ISO/IEC 14496-3.<br /> Если неизвестно, задайте для параметра значение 0 или 0xFE ("не указан звуковой профиль").<br /> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Битовая скорость закодированного потока AAC в байтах в секунду. | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Тип полезных данных.<br /> Применяется только к <strong>MFAudioFormat_AAC</strong>.<br /><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> является необязательным. Если этот атрибут не указан, используется значение по умолчанию 0, которое указывает, что поток содержит только элементы raw_data_block.<br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Битовая глубина декодированного звука PCM. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | Назначение звуковых каналов для позиционирования динамиков. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Количество каналов, включая канал с низкой частотой (НИЗКОЧАСТОТный), если он есть.<br /> Интерпретация этого значения зависит от подтипа носителя, как описано выше.<br /> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Частота выборки, в примерах в секунду.<br /> Интерпретация этого значения зависит от подтипа носителя, как описано выше.<br /> | 
+| <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | Значение этого атрибута зависит от подтипа:<br /><ul><li><strong>MFAudioFormat_AAC</strong>: содержит часть структуры <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>хеааквавеинфо</strong></a> , которая появляется после структуры <strong>вавеформатекс</strong> (то есть после элемента <strong>вфкс</strong> ). За ним следуют данные АудиоспеЦификконфиг () в соответствии с определением ISO/IEC 14496-3.</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: содержит данные аудиоспеЦификконфиг ().</li></ul> | 
+
 
 
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
