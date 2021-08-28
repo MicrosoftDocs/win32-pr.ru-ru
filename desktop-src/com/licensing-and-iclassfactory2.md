@@ -4,12 +4,12 @@ description: Лицензирование и IClassFactory2
 ms.assetid: 2bead555-8c62-4f48-a4c6-6f0942ec75f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9376d5187588ba14da434161309409bf1d189a8f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b8248b24d6b629d42e9ca631b1574c5a6719f0f4f626b2ea22792c3196c591e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104413841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096934"
 ---
 # <a name="licensing-and-iclassfactory2"></a>Лицензирование и IClassFactory2
 
@@ -30,7 +30,7 @@ ms.locfileid: "104413841"
 > [!Note]  
 > В сведениях о типе компонент использует атрибут Licensed, чтобы пометить coclass, поддерживающий лицензирование, через [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2).
 
- 
+ 
 
 Во-первых, вам понадобится отдельное средство разработки, которое также является клиентом лицензированного компонента. Назначение этого средства — получить лицензионный ключ и сохранить его в клиентском приложении. Это средство выполняется только на компьютере, где есть лицензия на компьютер для компонента. Средство вызывает методы [**жетлиЦинфо**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo) и [**рекуестликкэй**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey) для получения лицензионного ключа, а затем сохраняет лицензионный ключ в клиентском приложении. Например, средство разработки может создать файл заголовка (h), содержащий ключ лицензии BSTR, а затем включить этот h-файл в клиентское приложение.
 
@@ -40,13 +40,13 @@ ms.locfileid: "104413841"
 
 Интерфейс [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2) поддерживает гибкость в схемах лицензирования. Например, разработчик сервера может зашифровать лицензионные ключи в компоненте для обеспечения дополнительной безопасности. Разработчики сервера могут также включать или отключать уровни функциональности в своих объектах, предоставляя разные лицензионные ключи для разных функций. Например, один ключ может обеспечить базовый уровень функциональности, а другой — базовую и расширенную функциональность и т. д.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Обязанности сервера COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

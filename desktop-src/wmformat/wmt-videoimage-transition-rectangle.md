@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdcc5e5b074a07cee13a9af7f7a0f8c0f629de0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8721455c09a263d9c856358d2ca55bb818ac48e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105708418"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467401"
 ---
 # <a name="wmt_videoimage_transition_rectangle"></a>\_ \_ прямоугольник перехода ВМТ \_ видеоимаже
 
@@ -31,51 +31,15 @@ ms.locfileid: "105708418"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Параметр</th>
-<th>Член структуры</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Центр по оси X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Координата по оси X относительно видеокадра центра прямоугольника.</td>
-</tr>
-<tr class="even">
-<td>Центр по оси Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Координата по оси Y относительно видеокадра центра прямоугольника.</td>
-</tr>
-<tr class="odd">
-<td>Ширина</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Ширина прямоугольника в пикселях.</td>
-</tr>
-<tr class="even">
-<td>Высота</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Высота прямоугольника в пикселях.</td>
-</tr>
-<tr class="odd">
-<td>Композиция</td>
-<td><strong>fEffectPara4</strong></td>
-<td>Задайте одно из следующих значений:
-<ul>
-<li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li>
-<li>1 — указывает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Параметр | Член структуры | Описание | 
+|-----------|------------------|-------------|
+| Центр по оси X | <strong>fEffectPara0</strong> | Координата по оси X относительно видеокадра центра прямоугольника. | 
+| Центр по оси Y | <strong>fEffectPara1</strong> | Координата по оси Y относительно видеокадра центра прямоугольника. | 
+| Ширина | <strong>fEffectPara2</strong> | Ширина прямоугольника в пикселях. | 
+| Высота | <strong>fEffectPara3</strong> | Высота прямоугольника в пикселях. | 
+| Композиция | <strong>fEffectPara4</strong> | Задайте одно из следующих значений:<ul><li>0 — задает нормальную композицию, в которой предыдущее изображение является фоном, а текущее изображение — передним планом.</li><li>1 — указывает обратную композицию, в которой текущий рисунок является фоновым изображением, а предыдущее изображение — передний план.</li></ul> | 
+
 
 
 
@@ -87,11 +51,11 @@ ms.locfileid: "105708418"
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмсдкидл. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: 9178e61e-05a4-441c-a9f1-e05e23ab48a5
 title: Синтаксис аннотации (Direct3D 10)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303065e9c49c380a5accba6faadbc641ec0f528a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea0c02e250438f25a22f8ba6d059a723299f1ee1fa175b51ce2ffe87b07c5f87
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120004"
 ---
 # <a name="annotation-syntax-direct3d-10"></a>Синтаксис аннотации (Direct3D 10)
 
@@ -39,13 +39,13 @@ ms.locfileid: "103896534"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В угловые скобки можно добавить несколько аннотаций, каждое из которых отделяется точкой с запятой. Интерфейсы API платформы эффектов распознавать заметки в глобальных переменных. все остальные заметки игнорируются.
 
 ## <a name="example"></a>Пример
 
-Вот несколько примеров.
+Рассмотрим некоторые примеры.
 
 
 ```
@@ -72,7 +72,7 @@ return pos;
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

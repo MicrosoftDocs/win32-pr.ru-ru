@@ -4,12 +4,12 @@ ms.assetid: 8ca3af60-1ddb-4bfb-8aa6-8db769b3982d
 title: Сортировка (Международная связь)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49a5abb8371a00ad9ee63f929b4aaf4b18b11be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3dbedf872c953a45ca7064eccd4ba16019a857c35186261695e094be03cd054
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130214"
 ---
 # <a name="sorting"></a>Сортировка
 
@@ -22,7 +22,7 @@ ms.locfileid: "104272809"
 
 Дополнительные сведения о реализации сортировки в приложениях см. [в разделе Обработка сортировки в приложениях](handling-sorting-in-your-applications.md).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

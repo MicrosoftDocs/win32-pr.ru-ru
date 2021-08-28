@@ -13,12 +13,12 @@ keywords:
 - Direct3D, Direct2D взаимодействие
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a1f3be132aba742eb1df4b8a893dad245f851a0
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 0cf75f68278bdead5f3806eefd1cda251bfbea4a
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631566"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787400"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Общие сведения о взаимодействии Direct2D и GDI
 
@@ -26,13 +26,13 @@ ms.locfileid: "122631566"
 
 В этом разделе содержатся следующие подразделы.
 
--   [Предварительные условия](#prerequisites)
+-   [Предварительные требования](#prerequisites)
 -   [Нарисуйте содержимое Direct2D в контексте устройства GDI](#draw-direct2d-content-to-a-gdi-device-context)
 -   [ID2D1DCRenderTargets, преобразования GDI и языковые сборки Windows с письмом справа налево](#id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows)
 -   [Прорисовка содержимого GDI в Direct2D GDI-Compatible рендеринга](#draw-gdi-content-to-a-direct2d-gdi-compatible-render-target)
--   [Связанные темы](#related-topics)
+-   [См. также](#related-topics)
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 В этом обзоре предполагается, что вы знакомы с базовыми операциями рисования Direct2D. Инструкции см. в [кратком](direct2d-quickstart.md)руководстве по Direct2D. Также предполагается, что вы знакомы с операциями рисования GDI.
 
@@ -85,7 +85,7 @@ GetClientRect(m_hwnd, &rc);
 
 
 
-<span codelanguage="ManagedCPlusPlus"></span>
+
 
 <table>
 <colgroup>

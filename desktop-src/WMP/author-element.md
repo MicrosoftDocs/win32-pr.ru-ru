@@ -1,9 +1,9 @@
 ---
 title: AUTHOR, элемент
-description: Элемент AUTHOR содержит имя автора метафайла Windows Media или клипа мультимедиа.
+description: элемент AUTHOR содержит имя автора метафайла мультимедиа Windows или клипа мультимедиа.
 ms.assetid: d80aad3d-4471-4310-8d43-2733ed83103c
 keywords:
-- Проигрыватель Windows Media, элемент AUTHOR
+- элемент AUTHOR проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d20498ebd7c8a56edc2e32bc2e76422c9b22242
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 058753d73049debe01e442f49bf12476642111549ad890e931100026badaeb3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098894"
 ---
 # <a name="author-element"></a>AUTHOR, элемент
 
-Элемент **Author** содержит имя автора метафайла Windows Media или клипа мультимедиа.
+элемент **AUTHOR** содержит имя автора метафайла мультимедиа Windows или клипа мультимедиа.
 
 ``` syntax
 <AUTHOR>   
@@ -49,7 +49,7 @@ ms.locfileid: "105694638"
 
 ## <a name="remarks"></a>Remarks
 
-Этот элемент содержит текстовую строку, представляющую имя автора метафайла Windows Media или клипа мультимедиа. Элемент **Author** можно использовать внутри элемента **ASX** и в элементах **entry** .
+этот элемент содержит текстовую строку, представляющую имя автора Windowsного метафайла мультимедиа или клипа мультимедиа. Элемент **Author** можно использовать внутри элемента **ASX** и в элементах **entry** .
 
 Если этот элемент отображается в элементе **ASX** , то текст отображается как **Показать** информацию.
 
@@ -73,24 +73,24 @@ ms.locfileid: "105694638"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|-----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 70 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 70 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[**Справочник по элементам метафайлов Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Справочник по элементам метафайлов мультимедиа**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Справочник по метафайлу Windows Media**](windows-media-metafile-reference.md)
+[**Windows Ссылка на метафайл мультимедиа**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

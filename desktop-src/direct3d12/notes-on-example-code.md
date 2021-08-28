@@ -5,12 +5,12 @@ ms.assetid: C2323482-D06D-43B7-9BDE-BFB9A6A6B70D
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d65dd8db64dd829a7a318717e44a64ea189c7a3
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: 6a789ba8fa913b6852d8f7528183a71da31095d69539a79b2351e5b9ab7d3462
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119524"
 ---
 # <a name="example-code-in-the-d3d12-reference"></a>Пример кода в справочнике по D3D12
 
@@ -94,10 +94,10 @@ ThrowIfFailed(m_commandList->Close());
 [Справочник по Direct3D 12](direct3d-12-reference.md)
 </dt> <dt>
 
-[Пошаговые инструкции по коду D3D12](d3d12-code-walk-throughs.md)
+[Пошаговые руководства по коду D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
-[Рабочие образцы](working-samples.md)
+[Рабочие примеры](working-samples.md)
 </dt> </dl>
 
  

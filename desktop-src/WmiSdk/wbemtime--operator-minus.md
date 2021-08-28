@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'Операторы Вбемтиме:: operator-(Вбемтиме. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 39256ba9d922ea9d3eef8e442115e840b963ca71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7748020c1dcf1e332384c3a29c18b37da53e020f42d6cb608d9bf3233608aaaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105713026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120754"
 ---
 # <a name="wbemtimeoperator--operators"></a>Операторы Вбемтиме:: operator-
 
@@ -40,8 +40,8 @@ ms.locfileid: "105713026"
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                                                                                      |
-| Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>Вбемтиме. h</dt> </dl>                                                                         |
+| Минимальная версия сервера<br/> | Windows Сервер 2008<br/>                                                                                                                                |
+| Заголовок<br/>                   | <dl> <dt>Вбемтиме. h</dt> </dl>                                                                         |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 

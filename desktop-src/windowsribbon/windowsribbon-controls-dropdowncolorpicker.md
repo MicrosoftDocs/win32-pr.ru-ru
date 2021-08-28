@@ -4,12 +4,12 @@ description: платформа Windows Ribbon предоставляет спе
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e8104ba92d0be9d56607083508d7f30728a7f3a141839d74314561d392fb942
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 15c96d14cc192d7a1d9394d2f71b40b9b38c7df1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118707673"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467431"
 ---
 # <a name="drop-down-color-picker"></a>Средство выбора цвета Drop-Down
 
@@ -32,66 +32,19 @@ ms.locfileid: "118707673"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>колортемплате</td>
-<td>Шаблоны макета, указывающие тип Drop-Down палитры.<br/> Существует три шаблона, каждый из которых задает макет элемента управления и значения по умолчанию для связанных атрибутов и ключей свойств. <br/>
-<ul>
-<li><code>ThemeColors</code></li>
-<li><code>StandardColors</code></li>
-<li><code>HighlightColors</code></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>чипсизе</td>
-<td>Размер каждой цветовой микросхемы (или образца).<br/>
-<ul>
-<li><code>Small</code></li>
-<li><code>Medium</code></li>
-<li><code>Large</code></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Столбцы</td>
-<td>Число столбцов цветовой микросхемы (или образцов).<br/></td>
-</tr>
-<tr class="even">
-<td>CommandName</td>
-<td>Имя связанного объявления команды. <br/></td>
-</tr>
-<tr class="odd">
-<td>исаутоматикколорбуттонвисибле</td>
-<td>Отображает (или скрывает) <strong>автоматическую</strong> кнопку.<br/> Допустим, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br/></td>
-</tr>
-<tr class="even">
-<td>исноколорбуттонвисибле</td>
-<td>Отображает (или скрывает) кнопку <strong>без цвета</strong> .<br/> Допустимо для всех значений <em>колортемплате</em> .<br/></td>
-</tr>
-<tr class="odd">
-<td>рецентколоргридровс</td>
-<td>Число строк цветовой микросхемы (или образца) в области " <strong>Последние цвета</strong> ".<br/> Допустимо, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> .<br/></td>
-</tr>
-<tr class="even">
-<td>стандардколоргридровс</td>
-<td>Число строк цветовой микросхемы (или образца) в области <strong>Стандартные цвета</strong> .<br/></td>
-</tr>
-<tr class="odd">
-<td>семеколоргридровс</td>
-<td>Число строк цветовой микросхемы (или образца) в области <strong>цвета темы</strong> .<br/> Допустимо, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| колортемплате | Шаблоны макета, указывающие тип Drop-Down палитры.<br /> Существует три шаблона, каждый из которых задает макет элемента управления и значения по умолчанию для связанных атрибутов и ключей свойств. <br /><ul><li><code>ThemeColors</code></li><li><code>StandardColors</code></li><li><code>HighlightColors</code></li></ul> | 
+| чипсизе | Размер каждой цветовой микросхемы (или образца).<br /><ul><li><code>Small</code></li><li><code>Medium</code></li><li><code>Large</code></li></ul> | 
+| Столбцы | Число столбцов цветовой микросхемы (или образцов).<br /> | 
+| CommandName | Имя связанного объявления команды. <br /> | 
+| исаутоматикколорбуттонвисибле | Отображает (или скрывает) <strong>автоматическую</strong> кнопку.<br /> Допустим, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br /> | 
+| исноколорбуттонвисибле | Отображает (или скрывает) кнопку <strong>без цвета</strong> .<br /> Допустимо для всех значений <em>колортемплате</em> .<br /> | 
+| рецентколоргридровс | Число строк цветовой микросхемы (или образца) в области " <strong>Последние цвета</strong> ".<br /> Допустимо, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> .<br /> | 
+| стандардколоргридровс | Число строк цветовой микросхемы (или образца) в области <strong>Стандартные цвета</strong> .<br /> | 
+| семеколоргридровс | Число строк цветовой микросхемы (или образца) в области <strong>цвета темы</strong> .<br /> Допустимо, только если <em>колортемплате</em> имеет значение <code>ThemeColors</code> .<br /> | 
+
 
 
 
@@ -184,147 +137,31 @@ ms.locfileid: "118707673"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Ключ свойства</th>
-<th>Описание</th>
-<th>Примечания</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-automaticcolorlabel.md">UI_PKEY_AutomaticColorLabel</a></td>
-<td>Определяет метку для кнопки <strong>автоматического</strong> цвета.<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-color.md">UI_PKEY_Color</a></td>
-<td>Определяет выбранное значение цвета как <a href="/windows/win32/gdi/colorref">COLORREF</a>.<br/> Допустимо только в том случае, если <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> имеет значение <code>UI_SWATCHCOLORTYPE_RGB</code> .<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a></td>
-<td>Определяет выбранный тип цвета.<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a></td>
-<td>Определяет возможность элемента управления реагировать на взаимодействие с пользователем.<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
 
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
-<td>Определяет символьную строку для метки элемента управления.<br/></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
-<td>Определяет крупное изображение высокой контрастности, отображаемое для элемента управления.<br/></td>
-<td>Может обновляться только через недействительность.<br/> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
-<td>Определяет крупное изображение, отображаемое для элемента управления.<br/></td>
-<td>Может обновляться только через недействительность.<br/> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-morecolorslabel.md">UI_PKEY_MoreColorsLabel</a></td>
-<td>Определяет метку для кнопки " <strong>другие цвета</strong> ".<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-nocolorlabel.md">UI_PKEY_NoColorLabel</a></td>
-<td>Определяет метку для кнопки <strong>без цвета</strong> .<br/> Допустимо для всех значений <em>колортемплате</em> .<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md">UI_PKEY_RecentColorsCategoryLabel</a></td>
-<td>Определяет метку для категории " <strong>Последние цвета</strong> ".<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
-<td>Определяет небольшое изображение с высокой контрастностью, отображаемое для элемента управления.<br/></td>
-<td>Может обновляться только через недействительность.<br/> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
-<td>Определяет небольшое изображение, отображаемое для элемента управления.<br/></td>
-<td>Может обновляться только через недействительность.<br/> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolors.md">UI_PKEY_StandardColors</a></td>
-<td>Определяет массив значений <a href="/windows/win32/gdi/colorref">COLORREF</a> для образцов палитры цветов Drop-Down.<br/> Каждый Drop-Down палитра цветов <em>колортемплате</em> содержит <code>StandardColors</code> сетку. <br/>
-<blockquote>
-[!Note]<br />
-Отобразятся значения <a href="/windows/win32/gdi/colorref">COLORREF</a> из начальных <em>столбцов</em> <em>стандардколоргридровс</em> x массива. Если массив определяет меньше цветов, чем число <code>StandardColors</code> образцов, объявленных в разметке, для недостающих микросхем отображаются пустые пробелы.
-</blockquote>
-<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md">UI_PKEY_StandardColorsCategoryLabel</a></td>
-<td>Определяет метку для категории " <strong>Стандартные цвета</strong> ".<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-standardcolorstooltips.md">UI_PKEY_StandardColorsTooltips</a></td>
-<td>Определяет строковый массив всплывающих подсказок палитры цветов для <code>StandardColors</code> сетки.<br/> Каждый Drop-Down палитра цветов <em>колортемплате</em> содержит <code>StandardColors</code> сетку. <br/>
-<blockquote>
-[!Note]<br />
-Используются только подсказки, необходимые для метки цветовых палитр, отображаемых в <code>StandardColors</code> сетке. Если указано меньшее количество меток, чем число образцов в <code>StandardColors</code> сетке, для образцов ремаинининг предоставляется значение по умолчанию.
-</blockquote>
-<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolors.md">UI_PKEY_ThemeColors</a></td>
-<td>Определяет массив значений <a href="/windows/win32/gdi/colorref">COLORREF</a> для образцов палитры цветов Drop-Down.<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . <br/>
-<blockquote>
-[!Note]<br />
-Отобразятся значения <a href="/windows/win32/gdi/colorref">COLORREF</a> из начальных <em>столбцов</em> <em>семеколоргридровс</em> x массива. Если массив определяет меньше цветов, чем число <code>ThemeColors</code> образцов, объявленных в разметке, для недостающих микросхем отображаются пустые пробелы.
-</blockquote>
-<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolorstooltips.md">UI_PKEY_ThemeColorsTooltips</a></td>
-<td>Определяет строковый массив всплывающих подсказок палитры цветов для <code>ThemeColors</code> сетки.<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . <br/>
-<blockquote>
-[!Note]<br />
-Используются только подсказки, необходимые для метки цветовых палитр, отображаемых в <code>ThemeColors</code> сетке. Если указано меньшее количество меток, чем число образцов в <code>ThemeColors</code> сетке, для образцов ремаинининг предоставляется значение по умолчанию.
-</blockquote>
-<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md">UI_PKEY_ThemeColorsCategoryLabel</a></td>
-<td>Определяет метку для категории <strong>цветов темы</strong> .<br/> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br/></td>
-<td>Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
-<td>Определяет строку символов для описания подсказки, связанной с <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a>.<br/></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
-<td>Определяет строку символов для всплывающей подсказки команды.<br/></td>
-<td>Может обновляться только через недействительность.</td>
-</tr>
-</tbody>
-</table>
+| Ключ свойства | Описание | Примечания | 
+|--------------|-------------|-------|
+| <a href="windowsribbon-reference-properties-uipkey-automaticcolorlabel.md">UI_PKEY_AutomaticColorLabel</a> | Определяет метку для кнопки <strong>автоматического</strong> цвета.<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-color.md">UI_PKEY_Color</a> | Определяет выбранное значение цвета как <a href="/windows/win32/gdi/colorref">COLORREF</a>.<br /> Допустимо только в том случае, если <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> имеет значение <code>UI_SWATCHCOLORTYPE_RGB</code> .<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-colortype.md">UI_PKEY_ColorType</a> | Определяет выбранный тип цвета.<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> | Определяет возможность элемента управления реагировать на взаимодействие с пользователем.<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a> | Определяет символьную строку для метки элемента управления.<br /> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a> | Определяет крупное изображение высокой контрастности, отображаемое для элемента управления.<br /> | Может обновляться только через недействительность.<br /> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a> | Определяет крупное изображение, отображаемое для элемента управления.<br /> | Может обновляться только через недействительность.<br /> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-morecolorslabel.md">UI_PKEY_MoreColorsLabel</a> | Определяет метку для кнопки " <strong>другие цвета</strong> ".<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> или <code>StandardColors</code> .<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-nocolorlabel.md">UI_PKEY_NoColorLabel</a> | Определяет метку для кнопки <strong>без цвета</strong> .<br /> Допустимо для всех значений <em>колортемплате</em> .<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-recentcolorscategorylabel.md">UI_PKEY_RecentColorsCategoryLabel</a> | Определяет метку для категории " <strong>Последние цвета</strong> ".<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a> | Определяет небольшое изображение с высокой контрастностью, отображаемое для элемента управления.<br /> | Может обновляться только через недействительность.<br /> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a> | Определяет небольшое изображение, отображаемое для элемента управления.<br /> | Может обновляться только через недействительность.<br /> Дополнительные сведения о форматах изображений см. в разделе <a href="windowsribbon-imageformats.md">указание ресурсов изображения ленты</a>.<br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolors.md">UI_PKEY_StandardColors</a> | Определяет массив значений <a href="/windows/win32/gdi/colorref">COLORREF</a> для образцов палитры цветов Drop-Down.<br /> Каждый Drop-Down палитра цветов <em>колортемплате</em> содержит <code>StandardColors</code> сетку. <br /><blockquote>[!Note]<br />Отобразятся значения <a href="/windows/win32/gdi/colorref">COLORREF</a> из начальных <em>столбцов</em> <em>стандардколоргридровс</em> x массива. Если массив определяет меньше цветов, чем число <code>StandardColors</code> образцов, объявленных в разметке, для недостающих микросхем отображаются пустые пробелы.</blockquote><br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolorscategorylabel.md">UI_PKEY_StandardColorsCategoryLabel</a> | Определяет метку для категории " <strong>Стандартные цвета</strong> ".<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-standardcolorstooltips.md">UI_PKEY_StandardColorsTooltips</a> | Определяет строковый массив всплывающих подсказок палитры цветов для <code>StandardColors</code> сетки.<br /> Каждый Drop-Down палитра цветов <em>колортемплате</em> содержит <code>StandardColors</code> сетку. <br /><blockquote>[!Note]<br />Используются только подсказки, необходимые для метки цветовых палитр, отображаемых в <code>StandardColors</code> сетке. Если указано меньшее количество меток, чем число образцов в <code>StandardColors</code> сетке, для образцов ремаинининг предоставляется значение по умолчанию.</blockquote><br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolors.md">UI_PKEY_ThemeColors</a> | Определяет массив значений <a href="/windows/win32/gdi/colorref">COLORREF</a> для образцов палитры цветов Drop-Down.<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . <br /><blockquote>[!Note]<br />Отобразятся значения <a href="/windows/win32/gdi/colorref">COLORREF</a> из начальных <em>столбцов</em> <em>семеколоргридровс</em> x массива. Если массив определяет меньше цветов, чем число <code>ThemeColors</code> образцов, объявленных в разметке, для недостающих микросхем отображаются пустые пробелы.</blockquote><br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolorstooltips.md">UI_PKEY_ThemeColorsTooltips</a> | Определяет строковый массив всплывающих подсказок палитры цветов для <code>ThemeColors</code> сетки.<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . <br /><blockquote>[!Note]<br />Используются только подсказки, необходимые для метки цветовых палитр, отображаемых в <code>ThemeColors</code> сетке. Если указано меньшее количество меток, чем число образцов в <code>ThemeColors</code> сетке, для образцов ремаинининг предоставляется значение по умолчанию.</blockquote><br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-themecolorscategorylabel.md">UI_PKEY_ThemeColorsCategoryLabel</a> | Определяет метку для категории <strong>цветов темы</strong> .<br /> Допустим только в том случае, если <em>колортемплате</em> имеет значение <code>ThemeColors</code> . Это единственный шаблон, содержащий помеченные категории.<br /> | Поддерживает <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>иуифрамеворк:: жетуикоммандпроперти</strong></a> и <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>Иуифрамеворк:: сетуикоммандпроперти</strong></a>. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | Определяет строку символов для описания подсказки, связанной с <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a>.<br /> | Может обновляться только через недействительность. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | Определяет строку символов для всплывающей подсказки команды.<br /> | Может обновляться только через недействительность. | 
+
 
 
 

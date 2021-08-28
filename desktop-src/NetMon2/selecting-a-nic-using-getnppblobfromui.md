@@ -4,12 +4,12 @@ ms.assetid: 0556b20a-307e-4bc3-a986-cfee96a8655d
 title: Выбор сетевого адаптера с помощью Жетнппблобфромуи
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb429a87d284a5a6a03a20357728c8bbcb5acac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3bd02ef5085bba511fb0d05844840eb92d85ef83c67f244ab321570fae4ad8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105673329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128904"
 ---
 # <a name="selecting-a-nic-using-getnppblobfromui"></a>Выбор сетевого адаптера с помощью Жетнппблобфромуи
 

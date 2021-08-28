@@ -4,12 +4,12 @@ description: В следующем примере кода функция EnumPr
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89798ed3d2d7e44f014d95833302edb5d5be078daf557eed32d3496c863539e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea7f0091ee42da39990eae00b135283d288acc4f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117681011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885680"
 ---
 # <a name="enumerating-all-processes"></a>Перечисление всех процессов
 
@@ -94,7 +94,7 @@ int main( void )
 
 
 
-Функция Main получает список процессов с помощью функции [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Для каждого процесса Main вызывает функцию **принтпроцесснамеандид** , передавая ей идентификатор процесса. **Принтпроцесснамеандид** , в свою очередь, вызывает функцию [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) для получения маркера процесса. Если **OpenProcess** завершается сбоем, в выходных данных отображается имя процесса в виде <unknown> . Например, **OpenProcess** не работает для процессов бездействия и CSRSS, так как их ограничения доступа не позволяют коду на уровне пользователя открывать их. Затем **принтпроцесснамеандид** вызывает функцию [**енумпроцессмодулес**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) для получения дескрипторов модуля. Наконец, **принтпроцесснамеандид** вызывает функцию [**жетмодулебасенаме**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) для получения имени исполняемого файла и отображает имя вместе с идентификатором процесса.
+Функция Main получает список процессов с помощью функции [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Для каждого процесса Main вызывает функцию **принтпроцесснамеандид** , передавая ей идентификатор процесса. **Принтпроцесснамеандид** , в свою очередь, вызывает функцию [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) для получения маркера процесса. Если **OpenProcess** завершается сбоем, в выходных данных отображается имя процесса как &lt; неизвестное &gt; . Например, **OpenProcess** не работает для процессов бездействия и CSRSS, так как их ограничения доступа не позволяют коду на уровне пользователя открывать их. Затем **принтпроцесснамеандид** вызывает функцию [**енумпроцессмодулес**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) для получения дескрипторов модуля. Наконец, **принтпроцесснамеандид** вызывает функцию [**жетмодулебасенаме**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) для получения имени исполняемого файла и отображает имя вместе с идентификатором процесса.
 
  
 

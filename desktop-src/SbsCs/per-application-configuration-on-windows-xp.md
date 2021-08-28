@@ -1,22 +1,22 @@
 ---
-description: В Windows XP конфигурация для каждого приложения переопределяет конфигурацию конфигурации по умолчанию и издателя на уровне приложения.
+description: в Windows XP конфигурация каждого приложения переопределяет конфигурацию конфигурации по умолчанию и издателя отдельно для каждого приложения.
 ms.assetid: 5b55d12d-8805-4820-91af-5ef583de3463
-title: Настройка для каждого приложения в Windows XP
+title: настройка для каждого приложения в Windows XP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6fa2e14e24e48be84247a23feecddf2784fbc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f07860a42951e073403e8145037074c35e6ec6a267736381f6beab385f3bb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103912512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127464"
 ---
-# <a name="per-application-configuration-on-windows-xp"></a>Настройка для каждого приложения в Windows XP
+# <a name="per-application-configuration-on-windows-xp"></a>настройка для каждого приложения в Windows XP
 
-В Windows XP конфигурация для каждого приложения переопределяет конфигурацию [конфигурации по умолчанию](default-configuration.md) и [издателя](publisher-configuration.md) на уровне приложения. Это перенаправляет зависимость определенного приложения от одной версии параллельной сборки к другой заданной версии сборки.
+в Windows XP конфигурация каждого приложения переопределяет конфигурацию [конфигурации по умолчанию](default-configuration.md) и [издателя](publisher-configuration.md) отдельно для каждого приложения. Это перенаправляет зависимость определенного приложения от одной версии параллельной сборки к другой заданной версии сборки.
 
 > [!Note]  
-> Начиная с Windows Server 2003, конфигурация для каждого приложения переопределяет [конфигурацию издателя](publisher-configuration.md) для каждого приложения только в том случае, если в [файле конфигурации приложения](application-configuration-files.md) указано *Apply = «No»* в **Publisherpolicy Apply** , а в базе данных совместимости приложений присутствует соответствующая запись. Конфигурация для каждого приложения всегда переопределяет [конфигурацию по умолчанию](default-configuration.md). Дополнительные сведения см. [в разделе Конфигурация для каждого приложения](per-application-configuration.md).
+> начиная с Windows Server 2003, конфигурация на уровне приложения переопределяет [конфигурацию издателя](publisher-configuration.md) для каждого приложения только в том случае, если в [файле конфигурации приложения](application-configuration-files.md) указано *apply = «no»* в **publisherpolicy apply** , а в базе данных совместимости приложений присутствует соответствующая запись. Конфигурация для каждого приложения всегда переопределяет [конфигурацию по умолчанию](default-configuration.md). Дополнительные сведения см. [в разделе Конфигурация для каждого приложения](per-application-configuration.md).
 
  
 

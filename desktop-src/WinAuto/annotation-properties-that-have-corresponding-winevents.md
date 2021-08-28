@@ -4,12 +4,12 @@ description: Будьте внимательны при переопределе
 ms.assetid: 2505d015-9381-4e1c-a10f-6db3fbb25ca3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04a8849c66cb0067b63be1c846e9e140ae06f4b6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 753a17498daf9966ed1c3dfa98dc64fbdb2290011842c4fe9c194f50bf408ee1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098514"
 ---
 # <a name="annotation-properties-that-have-corresponding-winevents"></a>Свойства аннотации, имеющие соответствующие Виневентс
 
@@ -19,6 +19,6 @@ ms.locfileid: "104413210"
 
 Управлять этими типами свойств можно с помощью объектов сервера обратного вызова (с помощью [**сетпропсервер**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-setpropserver)). Однако сервер не может использовать состояние, которое обновляется \_ обработчиком уведомлений WM, так как этот обработчик еще не был вызван. Например, вместо использования кэшированной переменной текущего значения, которая обновлена в \_ обработчике уведомлений WM и будет устаревшей, объект обратного вызова [**иаккпропсервер:: жетпропвалуе**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropserver-getpropvalue) должен отправить сообщение непосредственно в элемент управления, чтобы получить истинное текущее значение для создания требуемого свойства.
 
- 
+ 
 
- 
+ 

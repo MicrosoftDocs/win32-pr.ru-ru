@@ -4,12 +4,12 @@ ms.assetid: 790CFB39-6FC0-432D-A434-5262C30EABF4
 title: H. 265/HEVC видео Encoder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 015295792a72f3250c47389192586dbc00566858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b95eee96d3313df2604919883cf631b0aef999f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991380"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467491"
 ---
 # <a name="h265--hevc-video-encoder"></a>H. 265/HEVC видео Encoder
 
@@ -45,59 +45,19 @@ ms.locfileid: "103991380"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>attribute</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Основной тип. Необходимо <strong>MFMediaType_Video</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Подтип видео. Необходимо <strong>MFVideoFormat_HEVC</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a></td>
-<td>Средняя скорость кодирования (бит в секунду). Должен быть больше нуля.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a></td>
-<td>Частота кадров.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a></td>
-<td>Размер кадра.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a></td>
-<td>Режим чередования.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-video-profile.md">MF_MT_VIDEO_PROFILE</a></td>
-<td>Профиль кодирования H. 265.<br/> Поддерживаются такие значения: <br/>
-<ul>
-<li><strong>eAVEncH265VProfile_Main_420_8</strong></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a></td>
-<td>Задает уровень закодированного видео. Дополнительные сведения об ограничениях профиля и уровня см. в приложении A из ITU-T H. 265.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a></td>
-<td>Необязательный элемент. Задает пропорцию в пикселях. Значение по умолчанию — 1:1.</td>
-</tr>
-</tbody>
-</table>
+
+| attribute | Описание | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Основной тип. Необходимо <strong>MFMediaType_Video</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Подтип видео. Необходимо <strong>MFVideoFormat_HEVC</strong>. | 
+| <a href="mf-mt-avg-bitrate-attribute.md"><strong>MF_MT_AVG_BITRATE</strong></a> | Средняя скорость кодирования (бит в секунду). Должен быть больше нуля. | 
+| <a href="mf-mt-frame-rate-attribute.md"><strong>MF_MT_FRAME_RATE</strong></a> | Частота кадров. | 
+| <a href="mf-mt-frame-size-attribute.md"><strong>MF_MT_FRAME_SIZE</strong></a> | Размер кадра. | 
+| <a href="mf-mt-interlace-mode-attribute.md"><strong>MF_MT_INTERLACE_MODE</strong></a> | Режим чередования. | 
+| <a href="mf-mt-video-profile.md">MF_MT_VIDEO_PROFILE</a> | Профиль кодирования H. 265.<br /> Поддерживаются такие значения: <br /><ul><li><strong>eAVEncH265VProfile_Main_420_8</strong></li></ul> | 
+| <a href="mf-mt-mpeg2-level-attribute.md"><strong>MF_MT_MPEG2_LEVEL</strong></a> | Задает уровень закодированного видео. Дополнительные сведения об ограничениях профиля и уровня см. в приложении A из ITU-T H. 265.<br /> | 
+| <a href="mf-mt-pixel-aspect-ratio-attribute.md"><strong>MF_MT_PIXEL_ASPECT_RATIO</strong></a> | Необязательный элемент. Задает пропорцию в пикселях. Значение по умолчанию — 1:1. | 
+
 
 
 
@@ -150,83 +110,23 @@ ms.locfileid: "103991380"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a></td>
-<td>Задает режим управления скоростью. Ниже приведены поддерживаемые режимы.<br/>
-<ul>
-<li><strong>eAVEncCommonRateControlMode_CBR</strong></li>
-<li><strong>eAVEncCommonRateControlMode_Quality</strong></li>
-</ul>
-Если указаны другие режимы, будет использоваться контроль скорости <strong>eAVEncCommonRateControlMode_CBR</strong> .<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>Задает среднюю скорость потока в битах в секунду. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a></td>
-<td>Задает размер буфера (в байтах) для кодирования с постоянной скоростью (CBR).<br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a></td>
-<td>Задает максимальную скорость для режимов управления скоростью, которая обеспечивает пиковую скорость. <br/> Допустимый диапазон: [1... 2 ³ ² – 1]. <br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a></td>
-<td>Задает число изображений из одного заголовка GOP к следующему, включая начальную привязку, но не следующую. <br/> Допустимый диапазон: [0... 2 ³ ² – 1]. Если значение равно нулю, кодировщик выбирает размер GOP. Значение по умолчанию равно нулю. <br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a></td>
-<td>Включает или отключает режим низкой задержки. <br/> Это VT_BOOL значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
-<td>Задает компромисс качества и скорости. Это значение влияет на то, как кодировщик выполняет различные операции кодирования, такие как компенсация движения. На более высоких уровнях сложности кодировщик работает медленнее, но обеспечивает лучшее качество с той же скоростью. <br/> Допустимый диапазон: 0 – 100. На внутреннем уровне это значение сопоставляется с небольшим набором уровней качества и скорости, поддерживаемых кодировщиком.<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a></td>
-<td>Заставляет кодировщик кодировать следующий кадр как ключевой кадр.<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a></td>
-<td>Если это свойство задано, кодировщик будет использовать указанный обработчик запросов для кодирования следующего кадра и всех последующих кадров до тех пор, пока не будет указан новый элемент QP. <br/> Допустимый диапазон: 0 – 51, включительно <br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a></td>
-<td>Это свойство установит ограничение на минимальное количество запросов, которое кодировщик может использовать во время CBR ратеконтрол.<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencvideomaxqp.md">CODECAPI_AVEncVideoMaxQP</a></td>
-<td>Это свойство установит ограничение на максимальное количество запросов на использование, которое кодировщик может использовать во время CBR ратеконтрол.<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="codecapi-videoencoderdisplaycontenttype.md">CODECAPI_VideoEncoderDisplayContentType</a></td>
-<td>Определяет, является ли содержимое полноэкранным, в отличие от содержимого экрана, которое может иметь меньшее окно видео или вообще не иметь видео.<br/> Это VT_UI4 значение.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a></td>
-<td>Задает число потоков, используемых для выполнения операции сжатия. Кодировщик будет разделять фрейм на плитки таким, что число потоков равно числу плиток.<br/>
-<ul>
-<li>Число логических процессоров. Число потоков должно быть меньше или равно числу логических процессоров.</li>
-<li>Размер рамки. Размер плитки должен быть больше или равен 265x64 пикселей.</li>
-<li>С контролем четности. Число потоков должно быть четным. Если указанное значение нечетное, будет использоваться следующее меньшее четное значение.</li>
-</ul>
-Это VT_UI4 значение.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Свойство | Описание | 
+|----------|-------------|
+| <a href="/windows/desktop/DirectShow/avenccommonratecontrolmode-property"><strong>CODECAPI_AVEncCommonRateControlMode</strong></a> | Задает режим управления скоростью. Ниже приведены поддерживаемые режимы.<br /><ul><li><strong>eAVEncCommonRateControlMode_CBR</strong></li><li><strong>eAVEncCommonRateControlMode_Quality</strong></li></ul>Если указаны другие режимы, будет использоваться контроль скорости <strong>eAVEncCommonRateControlMode_CBR</strong> .<br /> Это VT_UI4 значение.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> | Задает среднюю скорость потока в битах в секунду. <br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> Это VT_UI4 значение.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonbuffersize-property">CODECAPI_AVEncCommonBufferSize</a> | Задает размер буфера (в байтах) для кодирования с постоянной скоростью (CBR).<br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> Это VT_UI4 значение.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonmaxbitrate-property">CODECAPI_AVEncCommonMaxBitRate</a> | Задает максимальную скорость для режимов управления скоростью, которая обеспечивает пиковую скорость. <br /> Допустимый диапазон: [1... 2 ³ ² – 1]. <br /> Это VT_UI4 значение.<br /> | 
+| <a href="/windows/desktop/DirectShow/avencmpvgopsize-property">CODECAPI_AVEncMPVGOPSize</a> | Задает число изображений из одного заголовка GOP к следующему, включая начальную привязку, но не следующую. <br /> Допустимый диапазон: [0... 2 ³ ² – 1]. Если значение равно нулю, кодировщик выбирает размер GOP. Значение по умолчанию равно нулю. <br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-avlowlatencymode.md">CODECAPI_AVLowLatencyMode</a> | Включает или отключает режим низкой задержки. <br /> Это VT_BOOL значение.<br /> | 
+| <a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a> | Задает компромисс качества и скорости. Это значение влияет на то, как кодировщик выполняет различные операции кодирования, такие как компенсация движения. На более высоких уровнях сложности кодировщик работает медленнее, но обеспечивает лучшее качество с той же скоростью. <br /> Допустимый диапазон: 0 – 100. На внутреннем уровне это значение сопоставляется с небольшим набором уровней качества и скорости, поддерживаемых кодировщиком.<br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-avencvideoforcekeyframe.md">CODECAPI_AVEncVideoForceKeyFrame</a> | Заставляет кодировщик кодировать следующий кадр как ключевой кадр.<br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-avencvideoencodeqp.md">CODECAPI_AVEncVideoEncodeQP</a> | Если это свойство задано, кодировщик будет использовать указанный обработчик запросов для кодирования следующего кадра и всех последующих кадров до тех пор, пока не будет указан новый элемент QP. <br /> Допустимый диапазон: 0 – 51, включительно <br /> | 
+| <a href="codecapi-avencvideominqp.md">CODECAPI_AVEncVideoMinQP</a> | Это свойство установит ограничение на минимальное количество запросов, которое кодировщик может использовать во время CBR ратеконтрол.<br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-avencvideomaxqp.md">CODECAPI_AVEncVideoMaxQP</a> | Это свойство установит ограничение на максимальное количество запросов на использование, которое кодировщик может использовать во время CBR ратеконтрол.<br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-videoencoderdisplaycontenttype.md">CODECAPI_VideoEncoderDisplayContentType</a> | Определяет, является ли содержимое полноэкранным, в отличие от содержимого экрана, которое может иметь меньшее окно видео или вообще не иметь видео.<br /> Это VT_UI4 значение.<br /> | 
+| <a href="codecapi-avencnumworkerthreads.md">CODECAPI_AVEncNumWorkerThreads</a> | Задает число потоков, используемых для выполнения операции сжатия. Кодировщик будет разделять фрейм на плитки таким, что число потоков равно числу плиток.<br /><ul><li>Число логических процессоров. Число потоков должно быть меньше или равно числу логических процессоров.</li><li>Размер рамки. Размер плитки должен быть больше или равен 265x64 пикселей.</li><li>С контролем четности. Число потоков должно быть четным. Если указанное значение нечетное, будет использоваться следующее меньшее четное значение.</li></ul>Это VT_UI4 значение.<br /> | 
+
 
 
 
@@ -252,13 +152,13 @@ ms.locfileid: "103991380"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ настольных приложений Windows 10\]<br/>                                              |
+| Минимальная версия клиента<br/> | Windows 10 \[ только классические приложения\]<br/>                                              |
 | Минимальная версия сервера<br/> | Ни одна версия не поддерживается<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>Mfh265enc.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

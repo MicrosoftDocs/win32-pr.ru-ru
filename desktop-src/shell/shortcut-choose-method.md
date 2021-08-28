@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c910407dbd9de9f12853973f9891fe092a0603ca50a03e59183697b0f92b07e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22f6a0edd0820127e65915fbc3c67645cf759354
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968323"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475550"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>Выбор метода статического или динамического контекстного меню
 
@@ -38,43 +38,14 @@ ms.locfileid: "118968323"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Статическая команда</th>
-<th>Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> с параметрами командной строки</td>
-<td>Это самый простой и привычный способ реализации статической команды. Процесс вызывается через вызов функции <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> с выбранными файлами и любыми необязательными параметрами, передаваемыми в командной строке. Откроется файл или папка.<br/> Этот метод имеет следующие ограничения.
-<ul>
-<li>Длина командной строки ограничена 2000 символами, что ограничивает число элементов, которое может быть обработано командой.</li>
-<li>Может использоваться только с элементами файловой системы.</li>
-<li>Не включает повторное использование уже запущенного процесса.</li>
-<li>Требует установки исполняемого файла для выполнения команды.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Дроптаржет</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>Интерфейс IDropTarget</strong></a></td>
-<td>Активация глагола на основе COM означает, что поддерживает in-proc или внепроцессные активация. <strong>Дроптаржет</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>Интерфейс IDropTarget</strong></a> также поддерживает повторное использование уже запущенного обработчика, когда интерфейс <strong>интерфейс IDropTarget</strong> реализуется локальным сервером. Он также полностью выражает элементы через упакованный объект данных и предоставляет ссылку на вызывающую цепочку сайтов, чтобы можно было взаимодействовать с вызывающим объектом через <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>Windows 7 и более поздних версий: <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>иексекутекомманд</strong></a></td>
-<td>Наиболее прямой метод реализации. Поскольку это метод вызова на основе COM (например, Дроптаржет), этот интерфейс поддерживает внутрипроцессную и внепроцессных активации. Команда реализует <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>иобжектвисселектион</strong></a>и, при необходимости, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>иинитиализекомманд</strong></a>. Элементы передаются непосредственно в качестве массива элементов оболочки, а другие параметры из вызывающего объекта доступны для реализации глагола, включая точку вызова, состояние клавиатуры и т. д.</td>
-</tr>
-<tr class="even">
-<td>Windows 7 и более поздних версий:<strong>експлореркомманд</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a></td>
-<td>Включает источники данных, предоставляющие команды командного модуля через <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a> для использования этих команд в контекстном меню в качестве команд. Поскольку этот интерфейс поддерживает только внутрипроцессный процесс, рекомендуется использовать его в качестве источников данных оболочки, которые должны совместно использовать реализацию команд и контекстных меню.</td>
-</tr>
-</tbody>
-</table>
+
+| Статическая команда | Описание | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> с параметрами командной строки | Это самый простой и привычный способ реализации статической команды. Процесс вызывается через вызов функции <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> с выбранными файлами и любыми необязательными параметрами, передаваемыми в командной строке. Откроется файл или папка.<br /> Этот метод имеет следующие ограничения.<ul><li>Длина командной строки ограничена 2000 символами, что ограничивает число элементов, которое может быть обработано командой.</li><li>Может использоваться только с элементами файловой системы.</li><li>Не включает повторное использование уже запущенного процесса.</li><li>Требует установки исполняемого файла для выполнения команды.</li></ul><br /> | 
+| <strong>Дроптаржет</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>Интерфейс IDropTarget</strong></a> | Активация глагола на основе COM означает, что поддерживает in-proc или внепроцессные активация. <strong>Дроптаржет</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>Интерфейс IDropTarget</strong></a> также поддерживает повторное использование уже запущенного обработчика, когда интерфейс <strong>интерфейс IDropTarget</strong> реализуется локальным сервером. Он также полностью выражает элементы через упакованный объект данных и предоставляет ссылку на вызывающую цепочку сайтов, чтобы можно было взаимодействовать с вызывающим объектом через <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>. | 
+| Windows 7 и более поздних версий: <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>иексекутекомманд</strong></a> | Наиболее прямой метод реализации. Поскольку это метод вызова на основе COM (например, Дроптаржет), этот интерфейс поддерживает внутрипроцессную и внепроцессных активации. Команда реализует <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>иексекутекомманд</strong></a> и <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>иобжектвисселектион</strong></a>и, при необходимости, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>иинитиализекомманд</strong></a>. Элементы передаются непосредственно в качестве массива элементов оболочки, а другие параметры из вызывающего объекта доступны для реализации глагола, включая точку вызова, состояние клавиатуры и т. д. | 
+| Windows 7 и более поздних версий:<strong>експлореркомманд</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>иексплореркомманд</strong></a> | Включает источники данных, предоставляющие команды командного модуля через <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>иексплореркоммандпровидер</strong></a> для использования этих команд в контекстном меню в качестве команд. Поскольку этот интерфейс поддерживает только внутрипроцессный процесс, рекомендуется использовать его в качестве источников данных оболочки, которые должны совместно использовать реализацию команд и контекстных меню. | 
+
 
 
 

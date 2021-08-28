@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 435b08c5dd5e020dce2bde9be03a0d41299836c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8dc20b94fbf889b4c04712eadbee5d7d834d3cf260962fe01ef7837e5893c4a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103991675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128954"
 ---
 # <a name="propertyinfo-structure"></a>Структура PROPERTYINFO
 
@@ -197,7 +197,7 @@ typedef struct _PROPERTYINFO {
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Структура **PROPERTYINFO** используется в вызовах функции [AddProperty](/previous-versions/bb251873(v=msdn.10)) . Функция **AddProperty** добавляет одно определение свойства в [*базу данных свойств*](p.md)средства синтаксического анализа.
 
@@ -213,7 +213,7 @@ typedef struct _PROPERTYINFO {
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

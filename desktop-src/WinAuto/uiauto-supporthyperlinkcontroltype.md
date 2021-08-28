@@ -21,12 +21,12 @@ keywords:
 - типы элементов управления, гиперссылка
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71547f37380aeb029e4f73f8d9b2286b285187ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52735983429a60061a548bf4cce71b7b128f4b6e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103775848"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466961"
 ---
 # <a name="hyperlink-control-type"></a>Тип элемента управления HyperLink
 
@@ -43,7 +43,7 @@ ms.locfileid: "103775848"
 -   [Обязательные шаблоны элементов управления](#required-control-patterns)
 -   [Обязательные события](#required-events)
 -   [Замечания](#remarks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -51,32 +51,15 @@ ms.locfileid: "103775848"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Гиперссылка</li>
-</ul></td>
-<td><ul>
-<li>Гиперссылка</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Гиперссылка</li></ul> | <ul><li>Гиперссылка</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Соответствующие свойства
 
@@ -90,8 +73,8 @@ ms.locfileid: "103775848"
 | [**UIA \_ баундингректанглепропертид**](uiauto-automation-element-propids.md)       | См. примечания.    | Внешний прямоугольник, содержащий весь элемент управления.                                                                                 |
 | [**UIA \_ кликкаблепоинтпропертид**](uiauto-automation-element-propids.md)             | См. примечания.    | Точка щелчка элемента управления HyperLink должна быть точкой, запускающей гиперссылку, если она была нажата с помощью указателя мыши.                     |
 | [**UIA \_ контролтипепропертид**](uiauto-automation-element-propids.md)                   | **Гиперссылка** |                                                                                                                                          |
-| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | true          | Элемент управления Hyperlink всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                  |
-| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | true          | Элемент управления Hyperlink всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                  |
+| [**UIA \_ исконтентелементпропертид**](uiauto-automation-element-propids.md)         | TRUE          | Элемент управления Hyperlink всегда включается в представление содержимого дерева модели автоматизации пользовательского интерфейса.                                                  |
+| [**UIA \_ исконтролелементпропертид**](uiauto-automation-element-propids.md)         | TRUE          | Элемент управления Hyperlink всегда включается в представление элемента управления дерева модели автоматизации пользовательского интерфейса.                                                  |
 | [**UIA \_ искэйбоардфокусаблепропертид**](uiauto-automation-element-propids.md)   | См. примечания.    | Если элемент управления может получать фокус клавиатуры, он должен поддерживать это свойство.                                                                |
 | [**UIA \_ лабеледбипропертид**](uiauto-automation-element-propids.md)                       | См. примечания.    | Если имеется статическая текстовая метка, это свойство должно предоставлять ссылку на этот элемент управления.                                                  |
 | [**UIA \_ локализедконтролтипепропертид**](uiauto-automation-element-propids.md) | См. примечания.    | Локализованная строка, соответствующая типу элемента управления **Hyperlink** . Значение по умолчанию — "Hyperlink" для en-US или English (США). |
@@ -99,7 +82,7 @@ ms.locfileid: "103775848"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Обязательные шаблоны элементов управления
 
@@ -111,11 +94,11 @@ ms.locfileid: "103775848"
 |---------------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IInvokeProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iinvokeprovider) | Обязательно                     | Все элементы управления Hyperlink должны поддерживать шаблон элемента управления [Invoke](uiauto-implementinginvoke.md) .                                                                                                                                                       |
 | [**IValueProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ivalueprovider)   | Зависит                      | Элементы управления Hyperlink должны поддерживать шаблон элемента управления [value](uiauto-implementingvalue.md) , если ссылка содержит сведения, которые могут быть использованы и понятны пользователю.                                                                              |
-| [**Значение**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)      | Например, https://www... | URL-адрес для адреса в Интернете или интрасети является примером гиперссылки, содержащей сведения, имеющие смысл для пользователя. Однако программная ссылка имеет смысл только для приложения и не рекомендуется для свойства **value** . |
+| [**Значений**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ivalueprovider-get_value)      | Например, https://www... | URL-адрес для адреса в Интернете или интрасети является примером гиперссылки, содержащей сведения, имеющие смысл для пользователя. Однако программная ссылка имеет смысл только для приложения и не рекомендуется для свойства **value** . |
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Обязательные события
 
@@ -134,7 +117,7 @@ ms.locfileid: "103775848"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>Комментарии
 
@@ -142,7 +125,7 @@ ms.locfileid: "103775848"
 
 Шаблон элемента управления [Text](uiauto-implementingtextandtextrange.md) идеально подходит для поддержки внедренных гиперссылок в тексте или элементах документа.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -155,9 +138,9 @@ ms.locfileid: "103775848"
 [Общие сведения о модели автоматизации пользовательского интерфейса](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -21,20 +21,20 @@ keywords:
 - типы элементов управления, Семантикзум
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17d4712aa4f10489081b1b5d0f69fed849080bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9673c5e9beb0c78ecc7dfccc10b6716d6d3afa3f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104133915"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467761"
 ---
 # <a name="semanticzoom-control-type"></a>Тип элемента управления Семантикзум
 
 В этом разделе содержатся сведения о поддержке модели автоматизации пользовательского интерфейса для типа элемента управления **семантикзум** .
 
-Семантический масштаб — это метод, появившийся в Windows 8 для представления больших наборов связанных данных или содержимого в одном представлении, например фотоальбом, список приложений или адресная книга. Для Организации и представления содержимого семантический масштаб использует два различных режима классификации или *масштабирования*. В режиме низкого уровня (или *с увеличенным масштабом*) элементы отображаются в виде плоской структуры «все». а высокоуровневый (или *уменьшенный*) режим отображает элементы в группах, позволяя пользователю быстро перемещаться по содержимому и просматривать его. Например, изменение масштаба списка городов может привести к изменению списка Штатов, содержащих эти города. Изменение масштаба списка программ может привести к поссылке на список логических групп программ.
+семантический масштаб — это методика, появившаяся в Windows 8 для представления больших наборов связанных данных или содержимого в одном представлении, таких как фотоальбом, список приложений или адресная книга, и навигации по ним. Для Организации и представления содержимого семантический масштаб использует два различных режима классификации или *масштабирования*. В режиме низкого уровня (или *с увеличенным масштабом*) элементы отображаются в виде плоской структуры «все». а высокоуровневый (или *уменьшенный*) режим отображает элементы в группах, позволяя пользователю быстро перемещаться по содержимому и просматривать его. Например, изменение масштаба списка городов может привести к изменению списка Штатов, содержащих эти города. Изменение масштаба списка программ может привести к поссылке на список логических групп программ.
 
-Дополнительные сведения о семантическом масштабе, специально используемом для приложений Магазина Windows, см. в разделе [рекомендации по семантическому масштабу](/windows/uwp/controls-and-patterns/semantic-zoom).
+дополнительные сведения о семантическом масштабе, особенно использовании для приложений Windows Store, см. в разделе [рекомендации по семантическому масштабу](/windows/uwp/controls-and-patterns/semantic-zoom).
 
 Модель использования для типа элемента управления **семантикзум** необычна в том, что она существует в основном для программного доступа. Клиенты автоматизации пользовательского интерфейса Майкрософт могут отслеживать контроль семантического масштабирования и управлять им, чтобы управлять состоянием списка. Пользователи, не использующие специальные технологии, обычно управляют семантическим контролем масштаба непосредственно через сенсорные жесты или сочетания клавиш.
 
@@ -47,7 +47,7 @@ ms.locfileid: "104133915"
 -   [Обязательные шаблоны элементов управления и свойства](#required-control-patterns-and-properties)
 -   [Обязательные события](#required-events)
 -   [Замечания](#remarks)
--   [См. также](#related-topics)
+-   [Связанные темы](#related-topics)
 
 ## <a name="typical-tree-structure"></a>Типичная древовидная структура
 
@@ -55,37 +55,11 @@ ms.locfileid: "104133915"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Список
-<ul>
-<li>[Семантикзум]
-<ul>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Список
-<ul>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>Список<ul><li>[Семантикзум]<ul><li>ListItem (0 или более)</li></ul></li></ul></li></ul> | <ul><li>Список<ul><li>ListItem (0 или более)</li></ul></li></ul> | 
+
 
 
 
@@ -95,37 +69,11 @@ ms.locfileid: "104133915"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Представление элемента управления</th>
-<th>Представление содержимого</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>[Семантикзум]
-<ul>
-<li>Список
-<ul>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Список
-<ul>
-<li>ListItem (0 или более)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Представление элемента управления | Представление содержимого | 
+|--------------|--------------|
+| <ul><li>[Семантикзум]<ul><li>Список<ul><li>ListItem (0 или более)</li></ul></li></ul></li></ul> | <ul><li>Список<ul><li>ListItem (0 или более)</li></ul></li></ul> | 
+
 
 
 
@@ -137,77 +85,20 @@ ms.locfileid: "104133915"
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Свойство модели автоматизации пользовательского интерфейса</th>
-<th>Значение</th>
-<th>Примечания</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Значение этого свойства должно быть уникальным среди всех одноранговых элементов в необработанном представлении дерева модели автоматизации пользовательского интерфейса.</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Внешний прямоугольник, содержащий весь элемент управления.</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Если элемент управления "список" имеет точку щелчка (точка, которую можно щелкнуть, чтобы перестать фокусом списка), эта точка должна предоставляться через это свойство. Если значение свойства <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> равно <strong>true</strong>, попытка получить это свойство приводит к ошибке <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> .</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a></td>
-<td><strong>SemanticZoom</strong></td>
 
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a></td>
-<td>true</td>
+| Свойство модели автоматизации пользовательского интерфейса | Значение | Примечания | 
+|------------------------|-------|-------|
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a> | См. примечания. | Значение этого свойства должно быть уникальным среди всех одноранговых элементов в необработанном представлении дерева модели автоматизации пользовательского интерфейса. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a> | См. примечания. | Внешний прямоугольник, содержащий весь элемент управления. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a> | См. примечания. | Если элемент управления "список" имеет точку щелчка (точка, которую можно щелкнуть, чтобы перестать фокусом списка), эта точка должна предоставляться через это свойство. Если значение свойства <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> равно <strong>true</strong>, попытка получить это свойство приводит к ошибке <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> . | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a> | <strong>SemanticZoom</strong> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a> | TRUE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a> | TRUE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a> | FALSE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a> | См. примечания. | Если имеется статическая текстовая метка, это свойство должно предоставлять ссылку на этот элемент управления. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a> | См. примечания. | Локализованная строка, соответствующая типу элемента управления <strong>семантикзум</strong> . Значение по умолчанию — "семантическое поле масштабирования" для en-US или English (США).<blockquote>[!Note]<br />Некоторые платформы присоединяются к этому как «семантикзум».</blockquote><br /> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a> | См. примечания. | Допустима пустая строка, или может быть предоставлено более полезное имя, если оно не содержит термина семантического масштабирования, что сделает сочетание типа элемента управления и имени незапутанным. | 
 
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a></td>
-<td>true</td>
-
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a></td>
-<td>FALSE</td>
-
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Если имеется статическая текстовая метка, это свойство должно предоставлять ссылку на этот элемент управления.</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Локализованная строка, соответствующая типу элемента управления <strong>семантикзум</strong> . По умолчанию используется значение &quot; семантического масштабирования &quot; для en-US или English (США).
-<blockquote>
-[!Note]<br />
-Некоторые платформы сцепляются это как &quot; семантикзум &quot; .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a></td>
-<td>См. примечания.</td>
-<td>Допустима пустая строка, или может быть предоставлено более полезное имя, если оно не содержит термина семантического масштабирования, что сделает сочетание типа элемента управления и имени незапутанным.</td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -248,7 +139,7 @@ ms.locfileid: "104133915"
 
 Если в пользовательском интерфейсе есть видимая кнопка для переключения режима управления семантическим масштабом, эта кнопка не должна иметь тип элемента управления **семантикзум** . Это интуитивно понятный счетчик, но тип элемента управления **семантикзум** характеризует контейнер масштабирования содержимого, а не кнопку, управляющую масштабом. (Такую кнопку можно представить просто как тип элемента управления [кнопки](uiauto-supportbuttoncontroltype.md) с шаблоном элемента управления [Toggle](uiauto-implementingtoggle.md) .)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

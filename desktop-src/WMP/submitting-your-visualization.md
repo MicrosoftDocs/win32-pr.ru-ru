@@ -3,7 +3,7 @@ title: Отправка визуализации
 description: Отправка визуализации
 ms.assetid: 9f86da0e-7fdc-4b8d-881b-262832e771a2
 keywords:
-- Подключаемые модули проигрывателя Windows Media, визуализации
+- подключаемые модули проигрыватель Windows Media, визуализации
 - подключаемые модули, визуализации
 - визуализации, тестирование
 - Пользовательские визуализации, тестирование
@@ -18,12 +18,12 @@ keywords:
 - распространение визуализаций
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bff60a730b5cfb877212ce878e165330c9d601c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c82ebbd6070356f6ec2689aa4d6f97f1a0d9e11eef99477463e4f01ca7ba2a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104413514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122924"
 ---
 # <a name="submitting-your-visualization"></a>Отправка визуализации
 
@@ -41,13 +41,13 @@ ms.locfileid: "104413514"
 
 Хотя веб-сайт Вмплугинс больше не поддерживает распространение визуализации, вы по-прежнему можете распространять визуализацию с веб-сайта по своему усмотрению.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [**О пользовательских визуализациях**](about-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

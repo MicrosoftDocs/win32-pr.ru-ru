@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b59a162d36ee677ad00c8cc574282f970bc1d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb8f63ec9d2cdd881a2ba0946f83a40fb8be866
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103999036"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474590"
 ---
 # <a name="cim_job-class-hyper-v-management"></a>Класс CIM_Job (Управление Hyper-V)
 
@@ -88,29 +88,11 @@ class CIM_Job : CIM_LogicalElement
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Метод</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="cim-job-killjob.md"><strong>киллжоб</strong></a></td>
-<td style="text-align: left;">Этот метод является устаревшим. Вместо этого используйте метод <strong>RequestStateChange</strong> .<br/>
-<blockquote>
-[!Note]<br />
-Нерекомендуемое описание: завершает задание.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Метод | Описание | 
+|--------|-------------|
+| <a href="cim-job-killjob.md"><strong>киллжоб</strong></a> | Этот метод является устаревшим. Вместо этого используйте метод <strong>RequestStateChange</strong> .<br /><blockquote>[!Note]<br />Нерекомендуемое описание: завершает задание.</blockquote><br /> | 
+
 
 
 
@@ -733,14 +715,14 @@ class CIM_Job : CIM_LogicalElement
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 8<br/>                                                                                    |
-| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
+| Минимальная версия сервера<br/> | Windows Server 2012<br/>                                                                          |
 | Пространство имен<br/>                | Корневая \\ виртуализация \\ версии 2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>Виндовсвиртуализатион. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

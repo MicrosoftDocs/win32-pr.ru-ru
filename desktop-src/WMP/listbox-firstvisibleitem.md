@@ -3,7 +3,7 @@ title: LISTBOX. Фирствисиблеитем
 description: Атрибут Фирствисиблеитем указывает или получает индекс первой видимой строки в элементе управления "список".
 ms.assetid: 20209f55-2895-4c71-9169-0441e7c5c026
 keywords:
-- Проигрыватель Windows Media LISTBOX. Фирствисиблеитем
+- проигрыватель Windows Media LISTBOX. фирствисиблеитем
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f7ee51848b6bd60e306f70a2f5a90006d1bf6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 768eb489224dfb2cf15e9107a1b6e6b98459f21b4fd4c497e2a85e79be304a8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123464"
 ---
 # <a name="listboxfirstvisibleitem"></a>LISTBOX. Фирствисиблеитем
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694980"
 
 Этот атрибут является **числом** для чтения и записи (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут полезен для определения первой видимой строки при прокрутке окна списка.
 
@@ -41,11 +41,11 @@ ms.locfileid: "105694980"
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
+| Версия<br/> | проигрыватель Windows Media для Windows XP или более поздней версии<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

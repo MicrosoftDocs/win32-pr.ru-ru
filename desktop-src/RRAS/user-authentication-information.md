@@ -4,12 +4,12 @@ description: Служба диспетчера подключений удале
 ms.assetid: b27bf520-d871-4314-8ed9-3a6a9583ab52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0cb95d0e941c47deb398c03277013e0e0a35f9d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f347cd9f42106619f2558bdcbc677c961b4fae749912c92dd32ac2c8096f6fd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103890717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127814"
 ---
 # <a name="user-authentication-information"></a>Сведения о проверке подлинности пользователя
 
@@ -17,6 +17,6 @@ ms.locfileid: "103890717"
 
 Если удаленный сервер не может проверить подлинность пользователя с указанными сведениями, он может разрешить операции подключения войти в [приостановленное состояние](paused-states.md) , чтобы разрешить клиенту RAS получать от пользователя различные данные проверки подлинности.
 
- 
+ 
 
- 
+ 
