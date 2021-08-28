@@ -10,12 +10,12 @@ keywords:
 - фрамебуфферс, операции на вершину
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3207f2716ca59456328078fd10bd03ea9de09da6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dfe7f0606d0b2cd74402ac7015323b68dcda7337478a060791ee0ab97f0294a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "105661571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776464"
 ---
 # <a name="vertices"></a>Vertices
 
@@ -28,9 +28,9 @@ ms.locfileid: "105661571"
 -   [Сборка примитивов](assembling-primitives.md)
 -   [Справочник по вершинам](vertices-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

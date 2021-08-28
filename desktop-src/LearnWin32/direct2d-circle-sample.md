@@ -4,12 +4,12 @@ description: В этом примере приложения показано, �
 ms.assetid: C4413C3D-FE7E-4DA1-83CF-EDD23E2DB3F8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ed6f52fda382ea73f5c1494569f2e69f8e37e
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: ec0c2b275f97a2204a7dc2b55c79c880579e257ba0eec15869dbc4659ee151c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104068674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870054"
 ---
 # <a name="direct2d-circle-sample"></a>Пример Direct2D Circle
 
@@ -17,7 +17,7 @@ ms.locfileid: "104068674"
 
 ## <a name="description"></a>Описание
 
-Пример приложения Direct2D Circle рисует окружность, как показано на снимке экрана ниже. Этот пример обсуждается в [модуле 3: графика Windows](module-3---windows-graphics.md).
+Пример приложения Direct2D Circle рисует окружность, как показано на снимке экрана ниже. этот пример обсуждается в [модуле 3: Windows Graphics](module-3---windows-graphics.md).
 
 ![снимок экрана программы круга.](images/graphics08.png)
 
@@ -25,9 +25,9 @@ ms.locfileid: "104068674"
 
 Этот пример доступен [здесь](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/begin/LearnWin32/Direct2DCircle).
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
-* [Сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
+* [сведения о программе для Windows: пример кода](learn-to-program-for-windows--sample-code.md)
 * [Первая программа Direct2D](your-first-direct2d-program.md)
-* [Модуль 3. графика Windows](module-3---windows-graphics.md)
+* [модуль 3. Windows графика](module-3---windows-graphics.md)
 

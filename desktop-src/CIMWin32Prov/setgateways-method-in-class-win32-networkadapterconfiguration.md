@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 215bfa736a0f9d67ae587ac1f0e1b4aa394b85d9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 190076822a181d7b0731cb1e7b42eb0cd9d35e37c64aa0736245d1e58994763b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103896085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759724"
 ---
 # <a name="setgateways-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетгатевайс \_ класса Win32 NetworkAdapterConfiguration
 
@@ -275,7 +275,7 @@ uint32 SetGateways(
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -338,7 +338,7 @@ uint32 SetGateways(
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот метод работает, только если сетевой адаптер (NIC) находится в режиме статического IP-адреса.
 
@@ -352,7 +352,7 @@ uint32 SetGateways(
 
 [Статический IP-адрес, а затем присоединение к](https://Gallery.TechNet.Microsoft.Com/Static-IP-and-then-join-to-130d4b8a) образцу PowerShell для домена помогает в перестроении компьютеров.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -366,7 +366,7 @@ uint32 SetGateways(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a6992658214d7ea5acbadbea396992edf0e3e9d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33cefd39dc0e860906bc99b1f591a87dae845d6a9317410ce4850fb1a54ea708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104272558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857104"
 ---
 # <a name="swbemobjectset-object"></a>Объект SWbemObjectSet
 
@@ -77,14 +77,14 @@ ms.locfileid: "104272558"
 
 | Свойство                                                  | Тип доступа          | Описание                                              |
 |:----------------------------------------------------------|:---------------------|:---------------------------------------------------------|
-| [**Расчета**](swbemobjectset-count.md)<br/>          | Только для чтения<br/> | Количество элементов в коллекции.<br/>        |
-| [**Безопасность\_**](swbemobjectset-security-.md)<br/> | Только для чтения<br/> | Используется для чтения или изменения параметров безопасности.<br/> |
+| [**Count**](swbemobjectset-count.md)<br/>          | Только для чтения<br/> | Количество элементов в коллекции.<br/>        |
+| [**Бюллетеня\_**](swbemobjectset-security-.md)<br/> | Только для чтения<br/> | Используется для чтения или изменения параметров безопасности.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 **SWbemObjectSet** — это коллекция из нуля или более объектов [**SWbemObject**](swbemobject.md) . Каждый **SWbemObject** в **SWbemObjectSet** может представлять одно из двух вещей:
 
@@ -165,7 +165,7 @@ else
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -173,7 +173,7 @@ else
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows Vista<br/>                                                                |
 | Минимальная версия сервера<br/> | Windows Server 2008<br/>                                                          |
-| Header<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
+| Заголовок<br/>                   | <dl> <dt>Wbemdisp. h</dt> </dl>   |
 | Библиотека типов<br/>             | <dl> <dt>Wbemdisp. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | \_SWBEMOBJECTSET CLSID<br/>                                                        |
@@ -181,7 +181,7 @@ else
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

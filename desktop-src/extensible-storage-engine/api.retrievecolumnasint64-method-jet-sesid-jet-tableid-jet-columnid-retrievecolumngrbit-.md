@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 158e350dc3d85b99b4651c448c8b1b7d51a1ce14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c781c441478d6a16b38e6d835077d4fc0f457b14d5a63f1e365c6c8320cbc6c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105693542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840294"
 ---
 # <a name="apiretrievecolumnasint64-method-jet_sesid-jet_tableid-jet_columnid-retrievecolumngrbit"></a>Метод API. RetrieveColumnAsInt64 (JET_SESID, JET_TABLEID, JET_COLUMNID, Ретриевеколумнгрбит)
 
@@ -97,7 +97,7 @@ public static Nullable<long> RetrieveColumnAsInt64(
 Тип: [System. Nullable](/dotnet/api/system.nullable-1)\<[Int64](/dotnet/api/system.int64)\>  
 Данные, полученные из столбца как длинные. Значение null, если столбец имеет значение null.  
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 #### <a name="reference"></a>Справочник
 

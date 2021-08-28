@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f1717e77fdedb0c6b2e218e66f61d67bcef7c1a8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2ca9c6a3788148bf124248cf6d6653a5b8f876ba9295e50adfd29af2574b5c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105655717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918694"
 ---
 # <a name="compress-method-of-the-cim_directory-class"></a>Метод сжатия \_ класса каталога CIM
 
@@ -142,7 +142,7 @@ uint32 Compress();
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 В настоящее время этот метод не реализован инструментарием WMI. Чтобы использовать этот метод, его необходимо реализовать в собственном поставщике.
 

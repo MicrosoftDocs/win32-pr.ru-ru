@@ -3,7 +3,7 @@ title: Сообщение TB_GETSTRING (Коммктрл. h)
 description: Извлекает строку из пула строк панели инструментов.
 ms.assetid: a5f80c16-bc6d-466d-8ec6-77451432148e
 keywords:
-- Элементы управления Windows для TB_GETSTRING сообщений
+- элементы управления Windows сообщений TB_GETSTRING
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 465ad2546397fa31c33d6a52b4989902c979d91d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d25cbf20fd084c2ce60b29d131b7f488ca2b8cee178a2218fcfac191b3c1af33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918491"
 ---
 # <a name="tb_getstring-message"></a>Сообщение о GETSTRING (ТБ) \_
 
@@ -49,24 +49,24 @@ ms.locfileid: "104071381"
 
 Возвращает длину строки в случае успеха или значение-1 в противном случае.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Это сообщение возвращает указанную строку из пула строк панели инструментов. Он не обязательно соответствует текстовой строке, отображаемой в данный момент кнопкой. Чтобы получить текущую текстовую строку кнопки, отправьте на панель инструментов сообщение [**\_ Жетбуттонтекст (ТБ**](tb-getbuttontext.md) ).
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>                                        |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>                                        |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Коммктрл. h</dt> </dl> |
 | Имя в кодировке Юникод и ANSI<br/>   | **ТБ \_ ЖЕТСТРИНГВ** (Юникод) и **ТБ- \_ строка** (ANSI)<br/>                 |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

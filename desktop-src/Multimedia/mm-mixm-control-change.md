@@ -3,7 +3,7 @@ title: Сообщение MM_MIXM_CONTROL_CHANGE (Ммсистем. h)
 description: '\_ \_ \_ Устройство-микшер отправляет сообщение об изменении элемента управления миксм mm, чтобы уведомить приложение о том, что изменилось состояние элемента управления, связанного с звуковой линией. Приложение должно обновить отображаемые и кэшированные значения для указанного элемента управления.'
 ms.assetid: 921c55a7-86c0-43d1-b817-bfbd3c4bb28b
 keywords:
-- MM_MIXM_CONTROL_CHANGE сообщения Windows мультимедиа
+- сообщение MM_MIXM_CONTROL_CHANGE Windows мультимедиа
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12daa4d9e107a9ba687331731ee9fd7e6f0dc886
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44305a5a441e4d12a1b3f43029ae3a41f7642c13b15a50f74a1acab158c2ed58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105650384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807184"
 ---
 # <a name="mm_mixm_control_change-message"></a>\_ \_ Сообщение об изменении элемента управления миксм mm \_
 
@@ -52,11 +52,11 @@ lParam = (LPARAM) dwControlID
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Приложение должно открыть микшер устройства и указать окно обратного вызова для получения сообщения об **\_ \_ \_ изменении элемента управления mm миксм** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -64,18 +64,18 @@ lParam = (LPARAM) dwControlID
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Минимальная версия клиента<br/> | Windows 2000 Professional \[только классические приложения\]<br/>                                                |
 | Минимальная версия сервера<br/> | Windows 2000 Server \[только классические приложения\]<br/>                                                      |
-| Заголовок<br/>                   | <dl> <dt>Ммсистем. h (включение Windows. h)</dt> </dl> |
+| Заголовок<br/>                   | <dl> <dt>ммсистем. h (включает Windows. h)</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
 [Аудио Миксерс](audio-mixers.md)
 </dt> <dt>
 
-[Сообщения микшера звука](audio-mixer-messages.md)
+[звуковые Mixer сообщения](audio-mixer-messages.md)
 </dt> </dl>
 
  

@@ -4,7 +4,7 @@ description: Статистика, связанная с ресурсами.
 ms.assetid: D1DC4BC9-911D-448C-A421-11D2F51F0A61
 keywords:
 - MPRESOURCE_STATS структуры устаревшие функции среды Windows
-- Функции PMPRESOURCE_STATS указателя структур в устаревшей среде Windows
+- функции PMPRESOURCE_STATS Windows указателя структур в устаревшей среде
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afbe1ce6734aabd1093f7acd886af757c51ed83e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b72a21bf0ec020c1fc2cf5ba1394b4cd5ed04dc32721a4aac9f8349034907b49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104491550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848474"
 ---
 # <a name="mpresource_stats-structure"></a>\_Структура статистики мпресаурце
 
@@ -112,15 +112,15 @@ typedef struct tagMPRESOURCE_STATS {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Минимальная версия клиента<br/> | \[Только классические приложения Windows 8\]<br/>                                            |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2012\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
+| Минимальная версия клиента<br/> | Windows 8 \[ только классические приложения\]<br/>                                            |
+| Минимальная версия сервера<br/> | Windows Server 2012 \[ только классические приложения\]<br/>                                  |
+| Заголовок<br/>                   | <dl> <dt>Мпклиент. h</dt> </dl> |
 
 
 

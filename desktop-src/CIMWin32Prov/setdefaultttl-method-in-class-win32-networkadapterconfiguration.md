@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 253048b44a836f92646124fb972fe32c135e3b9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a8433da88d2055f996b895d6234eb73369cbd431277b8cfd67b640bb3cc6c279
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103895321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759964"
 ---
 # <a name="setdefaultttl-method-of-the-win32_networkadapterconfiguration-class"></a>Метод Сетдефаултттл \_ класса Win32 NetworkAdapterConfiguration
 
@@ -325,7 +325,7 @@ IPX не включен на адаптере.
 
 </dd> <dt>
 
-**Нет памяти**
+**Недостаточно памяти**
 </dt> <dd>
 
 92
@@ -404,7 +404,7 @@ DHCP не включен на адаптере.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 TTL указывает число маршрутизаторов, через которые может пройти IP-пакет, чтобы достичь его назначения, прежде чем будет удалено. Каждый маршрутизатор уменьшает число TTL пакета на единицу и отбрасывает пакеты с TTL 0 (нулем).
 

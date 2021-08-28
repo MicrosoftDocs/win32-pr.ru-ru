@@ -4,24 +4,24 @@ ms.assetid: 637efccf-920d-421d-9183-528cc3515bf8
 title: Возвращение сообщений об ошибках из настраиваемых действий
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 480a9e7891680aadc9d8eb4eedba2bad0d2e3dd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c951b0e86d3120b989605572f15681582ac437fca5981852413331a3e63e684
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104155515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869124"
 ---
 # <a name="returning-error-messages-from-custom-actions"></a>Возвращение сообщений об ошибках из настраиваемых действий
 
 В этом разделе описывается, как отправить сообщения из пользовательских действий, которые фактически выполняют часть установки, путем вызова библиотеки динамической компоновки или скрипта. Обратите внимание, что [тип настраиваемого действия 19](custom-action-type-19.md) отправляет только указанное сообщение об ошибке, возвращает ошибку, а затем завершает установку. Тип настраиваемого действия 19 не выполняет никакой части установки.
 
-Чтобы отправить сообщение об ошибке из настраиваемого действия, использующего [библиотеку динамической компоновки](dynamic-link-libraries.md) (DLL), необходимо выполнить вызов настраиваемого действия [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage). Обратите внимание, что настраиваемые действия, запускаемые [DoAction таблице ControlEvent событие](doaction-controlevent.md) , могут отправить сообщения с помощью метода [**сообщения**](session-message.md) , но не могут отправить сообщение с помощью **мсипроцессмессаже**. В системах, предшествующих Windows Server 2003, пользовательские действия, запускаемые DoAction таблице ControlEvent событие, не могут отправить сообщения с помощью метода **мсипроцессмессаже** или **Message** . Дополнительные сведения см. [в разделе Отправка сообщений в установщик Windows с помощью мсипроцессмессаже](sending-messages-to-windows-installer-using-msiprocessmessage.md).
+Чтобы отправить сообщение об ошибке из настраиваемого действия, использующего [библиотеку динамической компоновки](dynamic-link-libraries.md) (DLL), необходимо выполнить вызов настраиваемого действия [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage). Обратите внимание, что настраиваемые действия, запускаемые [DoAction таблице ControlEvent событие](doaction-controlevent.md) , могут отправить сообщения с помощью метода [**сообщения**](session-message.md) , но не могут отправить сообщение с помощью **мсипроцессмессаже**. в системах, предшествующих Windows Server 2003, пользовательские действия, запускаемые DoAction таблице controlevent событие, не могут отправить сообщения с помощью метода **мсипроцессмессаже** или **Message** . дополнительные сведения см. [в разделе отправка сообщений в установщик Windows с помощью мсипроцессмессаже](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 
 **Отображение сообщения об ошибке из настраиваемого действия с помощью библиотеки DLL**
 
 1.  Настраиваемое действие должно вызвать [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) и передать параметры *хинсталл*, *емессажетипе* и *хрекорд*. Для настраиваемого действия может быть предоставлен настраиваемый [тип действия 19](custom-action-type-19.md), как описано в разделе [доступ к текущему сеансу установщика из настраиваемого действия](accessing-the-current-installer-session-from-inside-a-custom-action.md) или из [**мсиопенпродукт**](/windows/desktop/api/Msi/nf-msi-msiopenproducta) или [**мсиопенпаккаже**](/windows/desktop/api/Msi/nf-msi-msiopenpackagea).
 2.  Параметр *емессажетипе* должен указывать один из типов сообщений, перечисленных в [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage).
-3.  Параметр *хрекорд* функции [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) зависит от типа сообщения. См. раздел [Отправка сообщений в установщик Windows с помощью мсипроцессмессаже](sending-messages-to-windows-installer-using-msiprocessmessage.md). Если сообщение содержит форматированные данные, введите сообщение в таблицу [ошибок](error-table.md) , используя форматирование, описанное в разделе [форматировано](formatted.md).
+3.  Параметр *хрекорд* функции [**мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) зависит от типа сообщения. см. раздел [отправка сообщений в установщик Windows с помощью мсипроцессмессаже](sending-messages-to-windows-installer-using-msiprocessmessage.md). Если сообщение содержит форматированные данные, введите сообщение в таблицу [ошибок](error-table.md) , используя форматирование, описанное в разделе [форматировано](formatted.md).
 
 Чтобы отправить сообщение об ошибке из настраиваемого действия, использующего [скрипты](scripts.md), пользовательское действие может вызвать метод [**Message**](session-message.md) объекта [**Session**](session-object.md) .
 
@@ -33,7 +33,7 @@ ms.locfileid: "104155515"
 
 Пользовательские действия, использующие [исполняемые файлы](executable-files.md) , не могут отправить сообщение путем вызова [**Мсипроцессмессаже**](/windows/desktop/api/Msiquery/nf-msiquery-msiprocessmessage) или метода [**Message**](session-message.md) , так как они не могут получить маркер установки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

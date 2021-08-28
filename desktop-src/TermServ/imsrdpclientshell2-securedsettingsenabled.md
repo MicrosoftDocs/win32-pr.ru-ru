@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1009759051207db7e6b8d741c1dd91e3de1ffc36
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d418df76de38313d681f9f01a4dea33ba0803ad67e42d92d90d2ba5a354a8eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105672836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870884"
 ---
 # <a name="imsrdpclientshell2securedsettingsenabled-property"></a>Свойство IMsRdpClientShell2:: Секуредсеттингсенаблед
 
@@ -46,7 +46,7 @@ HRESULT get_SecuredSettingsEnabled(
 
 Указатель на логическое значение, указывающее, находится ли текущая веб-страница в доверенной зоне безопасности URL-адреса Internet Explorer.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -58,7 +58,7 @@ HRESULT get_SecuredSettingsEnabled(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

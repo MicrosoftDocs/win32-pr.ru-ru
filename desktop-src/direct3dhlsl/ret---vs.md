@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3b91a9f2fb30dbd243e29043a1655d441215bc75
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 6bec0356f2f1542da421a807598707e4857033c13cda2077d9281ac24e4fc3e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104335496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853774"
 ---
 # <a name="ret---vs"></a>RET-VS
 
@@ -29,9 +29,9 @@ ms.locfileid: "104335496"
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104335496"
 
 
 
- 
+ 
 
 Эта инструкция принимает адрес инструкции из стека адресов возврата и возобновляет выполнение из него. В случае функции Main эта инструкция останавливает выполнение шейдера.
 
@@ -51,16 +51,16 @@ ms.locfileid: "104335496"
 
 Несколько инструкций Return не разрешены в основной программе или в любой подпрограмме, первая инструкция return обрабатывается как конец основной программы или подпрограммы.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,20 +3,20 @@ title: Расширенный перевод
 description: Расширенный перевод
 ms.assetid: 48a1bdd5-8b7b-4460-9b7b-1ab8969a28f8
 keywords:
-- Windows Touch, перевод
-- Windows Touch, расширенный перевод
-- Касание Windows, манипуляции
+- Windows Сенсорный ввод, перевод
+- Windows Сенсорный ввод, расширенный перевод
+- Windows Сенсорный ввод, манипуляции
 - манипуляции, перевод
 - манипуляции, расширенный перевод
 - преобразование
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc383c71e1f1417d30b64db18aa627039602b942
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4712375c12420e076bb93c1240d18dc8e3c1d58006eb24ced7a62a7485e01c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103887739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810353"
 ---
 # <a name="advanced-translation"></a>Расширенный перевод
 
@@ -60,18 +60,18 @@ ms.locfileid: "103887739"
 > [!Note]  
 > Преобразования объектов происходят до вычисления точек вращения и RADIUS. Таким образом объект будет перемещаться правильно, если пользователь выполняет расширение объекта во время его перемещения.
 
- 
+ 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Манипуляции](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

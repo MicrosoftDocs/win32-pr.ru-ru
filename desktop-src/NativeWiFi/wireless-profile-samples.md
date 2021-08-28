@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 485227f6196ae94e2eb11de1bdb40b3a811c8fb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7367c36d7b2b702e6529ce6ae8616743b3a37e5280f06e64df5378c0f8545b1a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105673868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800294"
 ---
 # <a name="wireless-profile-samples"></a>Образцы профиля беспроводной связи
 
@@ -26,14 +26,14 @@ ms.locfileid: "105673868"
 -   [Пример профиля FIPS](fips-profile-sample.md)
 -   [Пример профиля без широковещательной рассылки](non-broadcast-profile-sample.md)
 -   [Пример профиля с одним Sign-On](single-sign-on-profile-sample.md)
--   [Пример профиля WPA-Enterprise с PEAP-MSCHAPv2](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
--   [Пример профиля WPA-Enterprise с TLS](wpa-enterprise-with-tls-profile-sample.md)
+-   [пример профиля WPA-Enterprise с PEAP-MSCHAPv2](wpa-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [пример профиля WPA-Enterprise с TLS](wpa-enterprise-with-tls-profile-sample.md)
 -   [Пример профиля WPA-Personal](wpa-personal-profile-sample.md)
--   [Пример профиля WPA2-Enterprise с PEAP-MSCHAPv2](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
--   [Пример профиля WPA2-Enterprise с TLS](wpa2-enterprise-with-tls-profile-sample.md)
+-   [пример профиля WPA2-Enterprise с PEAP-MSCHAPv2](wpa2-enterprise-with-peap-mschapv2-profile-sample.md)
+-   [пример профиля WPA2-Enterprise с TLS](wpa2-enterprise-with-tls-profile-sample.md)
 -   [Пример профиля WPA2-Personal](wpa2-personal-profile-sample.md)
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

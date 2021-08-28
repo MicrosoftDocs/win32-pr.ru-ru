@@ -4,12 +4,12 @@ ms.assetid: f906466e-acdc-4d0f-bf27-c5a25dc56c01
 title: Концептуальная модель
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a17538e7fdb454fa8eb61ab951a3316b0f0c327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a653d3658e0785fcc729be335fc4d648ea9bc91af676678aece0c43ce046f419
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104265984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806564"
 ---
 # <a name="the-conceptual-model"></a>Концептуальная модель
 
@@ -96,7 +96,7 @@ WPD_RESOURCE_ATTRIBUTE_TOTAL_SIZE:
 
 Описание того, как приложение может извлечь профиль подготовки к просмотру (и связанные атрибуты ресурса), см. в разделе Получение сведений о возможностях [отрисовки, поддерживаемых устройством](retrieving-the-rendering-capabilities-supported-by-a-device.md) в руководстве по программированию.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

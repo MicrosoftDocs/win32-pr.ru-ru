@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dadbe9620367efc75f821a711de89eb3498d247f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 11c7abceb9b484c4cd104e136c47edeb55b93b5273f953cb6d98052e247513d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104996847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743584"
 ---
 # <a name="if_comp---vs"></a>Если \_ comp-VS
 
@@ -29,7 +29,7 @@ ms.locfileid: "104996847"
 
 
 
- 
+ 
 
 Где:
 
@@ -46,12 +46,12 @@ ms.locfileid: "104996847"
 
     
 
-     
+     
 
 -   src0 является исходным регистром. Для выбора компонента требуется репликация свиззле.
 -   src1 является исходным регистром. Для выбора компонента требуется репликация свиззле.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "104996847"
 
 
 
- 
+ 
 
 Эта инструкция используется для пропуска блока кода на основе условия.
 
@@ -82,7 +82,7 @@ if_lt src0, src1
 -   Если \_ блоки Comp должны заканчиваться инструкциями [else-VS](else---vs.md) или [endif-VS](endif---vs.md) .
 -   Если \_ comp... [else-VS](else---vs.md)... [endif — блоки VS](endif---vs.md) не могут помешать блоку цикла. Блок if \_ должен быть полностью внутри блока [цикла VS](loop---vs.md) или снаружи.
 
-## <a name="example"></a>Например, .
+## <a name="example"></a>Пример
 
 Эта инструкция обеспечивает условное динамическое управление потоком.
 
@@ -99,16 +99,16 @@ endif
 
 
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
 [Инструкции шейдера вершин](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

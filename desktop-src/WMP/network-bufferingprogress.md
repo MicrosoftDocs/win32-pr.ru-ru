@@ -3,7 +3,7 @@ title: Network. Буфферингпрогресс
 description: Свойство Буфферингпрогресс извлекает процент завершенной буферизации.
 ms.assetid: d604159b-7c42-47f8-8085-53f859f24703
 keywords:
-- Проигрыватель Windows Media Network. Буфферингпрогресс
+- проигрыватель Windows Media Network. буфферингпрогресс
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e3a4f37f8f6b8ffe8ff93ca72b0c9551d7e314
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65de3f7b1b58dfb90f76436f324dcc3d4fc3fe9a24b7c60ca3db888771f9192d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105704214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901754"
 ---
 # <a name="networkbufferingprogress"></a>Network. Буфферингпрогресс
 
@@ -33,7 +33,7 @@ ms.locfileid: "105704214"
 
 Это свойство является **числом** только для чтения (**длинное целое**).
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Каждый раз, когда воспроизведение останавливается и перезапускается, это свойство устанавливается в нулевое значение. Если воспроизведение приостановлено, оно не сбрасывается.
 
@@ -43,7 +43,7 @@ ms.locfileid: "105704214"
 
 ## <a name="examples"></a>Примеры
 
-В следующем примере JScript используется *Network*. **буфферингпрогресс** для вывода процента завершения буферизации. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = BP. В примере для обновления экрана используется таймер с интервалом в 1 секунду. Объект **Player** создан с идентификатором "Player".
+в следующем примере JScript используется *сеть*. **буфферингпрогресс** для вывода процента завершения буферизации. Сведения отображаются в HTML-элементе DIV, созданном с помощью ID = BP. В примере для обновления экрана используется таймер с интервалом в 1 секунду. Объект **Player** создан с идентификатором "Player".
 
 
 ```JScript
@@ -76,18 +76,18 @@ function UpdateBP(){
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

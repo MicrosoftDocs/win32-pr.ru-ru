@@ -4,12 +4,12 @@ ms.assetid: f4c66812-8782-4a85-8a74-3505c4e73e56
 title: Проверки ограничений и PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08abc07f0ef96e94720f8f9431a192e5dbcac669
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: f9b973373ca98e25d3a167ff28ab433d6e61821de3be822d0e9a8699a025d71f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939134"
 ---
 # <a name="constraints-and-printticket-validation"></a>Проверки ограничений и PrintTicket
 

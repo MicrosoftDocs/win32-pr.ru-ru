@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d98b824883ddc4f06e6c11d30c2759bb0fc2be26
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b9f055764c04f552fe9d7afda2adf1e401352cf3fc3dd3ead16c4ca6377bd4fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104487141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853724"
 ---
 # <a name="reversebits-function"></a>reversebits - функция
 
@@ -28,7 +28,7 @@ ms.locfileid: "104487141"
 
 ``` syntax
 uint reversebits(
-  in uint value
+  in uint value
 );
 ```
 
@@ -51,7 +51,7 @@ uint reversebits(
 
 Входное значение с обратным порядком битов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Также доступны следующие перегруженные версии:
 
@@ -69,11 +69,11 @@ uint4 reversebits(uint4 value);
 
 | Модель шейдера                                                                | Поддерживается |
 |-----------------------------------------------------------------------------|-----------|
-| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | да       |
+| [Модели шейдера 5](d3d11-graphics-reference-sm5.md) и более поздних моделей шейдеров | Да       |
 
 
 
- 
+ 
 
 Эта функция поддерживается в следующих типах шейдеров:
 
@@ -85,9 +85,9 @@ uint4 reversebits(uint4 value);
 
 
 
- 
+ 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -97,9 +97,9 @@ uint4 reversebits(uint4 value);
 [Модель шейдера 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6192b77c190ed73dc6e5038c9119152836eca375
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b185945098d4439753b5582a81d4d112c7984f53155e2901af8560afb404bf62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105694162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857074"
 ---
 # <a name="d3dxdisassembleshader-function"></a>Функция D3DXDisassembleShader
 
@@ -96,7 +96,7 @@ HRESULT D3DXDisassembleShader(
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Shader. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
 
 

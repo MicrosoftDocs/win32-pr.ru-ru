@@ -4,16 +4,16 @@ ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
 title: 'Метод ИтпартиЦипантевент:: get_SubStream (Конфприв. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8c2944004af31adfb7256376992506eef59b40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f258f68815a5bc7cd201d94ab55199d59ebe6759eb2e279a1c80add91ea6c3d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105688912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774664"
 ---
 # <a name="itparticipanteventget_substream-method"></a>Метод ИтпартиЦипантевент:: Get для \_ подпотока
 
-\[**получить \_ Подпоток** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
+\[**получить \_ подпоток** недоступен для использования в Windows Vista, Windows Server 2008 и последующих версиях операционной системы. API клиента RTC предоставляет аналогичные функциональные возможности.\]
 
 **Подпоток \_ Get** получает указатель на массив интерфейсов [**итсубстреам**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) , представляющих подпотоки, участвующие в событии.
 
@@ -63,7 +63,7 @@ HRESULT get_SubStream(
 | Требование | Значение |
 |-------------------------|---------------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 3,0 или более поздней версии<br/>                                                 |
-| Header<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>Конфприв. h</dt> </dl> |
 | Библиотека<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
 | DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
 

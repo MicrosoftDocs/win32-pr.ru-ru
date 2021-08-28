@@ -7,12 +7,12 @@ keywords:
 - Ограничение размера поиска ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd11148f9e887df1e15e221e8188f9e9e3b10d33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a48961532891f6573ccf8cb230117fad76daef95c57559e672eae93f022caf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103986090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763454"
 ---
 # <a name="search-size-limit"></a>Ограничение размера поиска
 
@@ -21,12 +21,12 @@ ms.locfileid: "103986090"
 Дополнительные сведения об использовании параметра предельный размер для поиска с конкретным интерфейсом поиска см. в следующих статьях:
 
 -   [Ограничение размера с IDirectorySearch](size-limit-with-idirectorysearch.md)
--   [Поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
+-   [поиск с помощью объекты данных ActiveX](searching-with-activex-data-objects-ado.md)
 -   [Поиск с помощью OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

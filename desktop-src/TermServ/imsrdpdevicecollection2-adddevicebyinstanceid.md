@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f817a5beb4d8762787c4bf2f8a3995d3918e8e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df11fa2a58aca505661da1f7643f8d1d6ff2f502e6c10bf835aa67a6e2d0615d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104071140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870824"
 ---
 # <a name="imsrdpdevicecollection2adddevicebyinstanceid-method"></a>Метод IMsRdpDeviceCollection2:: Адддевицебинстанцеид
 
@@ -68,7 +68,7 @@ HRESULT AddDeviceByInstanceId(
 
 Если этот метод завершается успешно, возвращается значение **S \_ ОК**. В противном случае возвращается код ошибки **HRESULT** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -81,7 +81,7 @@ HRESULT AddDeviceByInstanceId(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

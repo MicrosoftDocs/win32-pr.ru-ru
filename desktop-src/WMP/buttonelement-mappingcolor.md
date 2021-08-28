@@ -3,7 +3,7 @@ title: БУТТОНЕЛЕМЕНТ. Маппингколор
 description: Атрибут Маппингколор указывает или получает ключ цвета, определяющий этот БУТТОНЕЛЕМЕНТ в BUTTONGROUP.
 ms.assetid: e7b1663c-3263-41d5-9a69-4cf1dcf0fc1f
 keywords:
-- Проигрыватель Windows Media БУТТОНЕЛЕМЕНТ. Маппингколор
+- буттонелемент. маппингколор проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7318f01246578fe8ff34118427c95afb7b3bb098
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29badef71eda70782203effb7098c7ee5bc7a62b67d28ccbc9428c74e9473012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105694593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764344"
 ---
 # <a name="buttonelementmappingcolor"></a>БУТТОНЕЛЕМЕНТ. Маппингколор
 
@@ -31,7 +31,7 @@ ms.locfileid: "105694593"
 
 Этот атрибут является **строкой** для чтения и записи, содержащей любое значение цвета Microsoft Internet Explorer. У него нет значения по умолчанию.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Этот атрибут определяет цвет области в группе кнопок **маппингимаже** , которая соответствует этому элементу Button. Все щелчки в этом регионе обрабатываются этим элементом кнопки.
 
@@ -80,17 +80,17 @@ ms.locfileid: "105694593"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|------------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media версии 7,0 или более поздней<br/> |
+| Версия<br/> | проигрыватель Windows Media версии 7,0 или более поздней<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

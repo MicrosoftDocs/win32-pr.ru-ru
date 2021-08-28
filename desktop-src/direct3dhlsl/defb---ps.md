@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9437c7d6347da4bafae566386e09e4bc782bd16
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ad823cd9932e98f919764e57666549189623986eb173ba6b4ef74cdade21f33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103793032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855364"
 ---
 # <a name="defb---ps"></a>дефб-PS
 
@@ -29,14 +29,14 @@ ms.locfileid: "103793032"
 
 
 
- 
+ 
 
-где
+where
 
 -   DST — это регистр назначения.
 -   Булеанвалуе — это одно логическое значение, true или false.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "103793032"
 
 
 
- 
+ 
 
 Инструкция дефб определяет логическую константу шейдера, значение которой загружается каждый раз, когда шейдер задается устройством. Они называются прямыми константами. Немедленные константы имеют приоритет над константами, заданными методом API Сетпикселшадерконстантб.
 
@@ -56,7 +56,7 @@ ms.locfileid: "103793032"
 2.  Используйте методы API для задания константы.
     -   Чтобы задать логическую константу, используйте [**сетпикселшадерконстантб**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb) .
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 
@@ -69,6 +69,6 @@ ms.locfileid: "103793032"
 [дефи-PS](defi---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

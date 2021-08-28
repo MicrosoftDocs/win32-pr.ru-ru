@@ -4,12 +4,12 @@ ms.assetid: 892de9fe-8fb9-419e-a18b-8f20148f4ee0
 title: Атрибут дефаултфкс
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6885da2ddb42e595cd03a0422e56a181ff87ffef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5e3d2dfaf8dd25d34efd93f3b38ca8137bcbaf1d9076c61b44b52dbd3a8ec255
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104140442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906934"
 ---
 # <a name="defaultfx-attribute"></a>Атрибут дефаултфкс
 
@@ -24,11 +24,11 @@ ms.locfileid: "104140442"
 
 Значение должно быть строкой в формате {00000000-0000-0000-0000-000000000000} .
 
-## <a name="applies-to"></a>Применение
+## <a name="applies-to"></a>Применяется к
 
 [**графика**](timeline-element.md)
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

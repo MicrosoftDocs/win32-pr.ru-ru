@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1644db74c5c7c361acda796219ae1415ecc262bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75104fcf923ed59bfcc99e214e66a235549b7059ca0e36c41b6f90d308a3efff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104985704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811774"
 ---
 # <a name="pagefault_imageloadbacked-class"></a>\_Класс PageFault имажелоадбаккед
 
@@ -42,13 +42,13 @@ class PageFault_ImageLoadBacked : PageFault_V2
 };
 ```
 
-## <a name="members"></a>Участники
+## <a name="members"></a>Члены
 
 Класс **PageFault \_ имажелоадбаккед** имеет следующие типы членов:
 
 -   [Свойства](#properties)
 
-### <a name="properties"></a>Свойства
+### <a name="properties"></a>Элемент Property
 
 Класс **PageFault \_ имажелоадбаккед** имеет следующие свойства.
 
@@ -118,22 +118,22 @@ class PageFault_ImageLoadBacked : PageFault_V2
 
 </dd> </dl>
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Remarks
 
 Событие регистрируется во время создания раздела образа (например, загрузка DLL), когда диспетчер памяти определяет, что образ необходимо скопировать в файл подкачки и запустить из него. Как правило, образы запускаются из исходного файла, но резервное копирование может произойти, когда диспетчер памяти определяет, что исходный файл может быть изменен асинхронно существующими модулями записи или когда исходный файл находится на съемном носителе или удаленном устройстве.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows Vista\]<br/>       |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2008\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения Vista\]<br/>       |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2008\]<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

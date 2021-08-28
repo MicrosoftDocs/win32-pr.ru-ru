@@ -1,21 +1,21 @@
 ---
 title: Отслеживаемые расширения имен файлов
-description: Мониторинг расширений осуществляется с помощью восстановления системы в Windows Vista и более поздних версиях.
+description: для отслеживания расширений используется восстановление системы в Windows Vista и более поздних версий.
 ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
 keywords:
 - Восстановление системы, справочные файлы, отслеживаемые расширения имен файлов
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6999d421f7c08b4369ddbf81a4d370ebf507021
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c12530fb48dba4c3f0cd3c26631682e065f14fb85dc302269a6337f5eff2ede7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103888415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774154"
 ---
 # <a name="monitored-file-name-extensions"></a>Отслеживаемые расширения имен файлов
 
-Ниже приведен список отслеживаемых расширений имен файлов. Файлы с этими расширениями отслеживаются с помощью восстановления системы в Windows Vista и более поздних версиях. Файлы, которые отслеживаются или исключаются из наблюдения в Windows XP, указаны в файле% WINDIR% \\ system32 \\ restore \\Filelist.xml. Файл Filelist.xml не существует в Windows Vista и более поздних версиях.
+Ниже приведен список отслеживаемых расширений имен файлов. файлы с этими расширениями отслеживаются системой восстановления системы в Windows Vista и более поздних версиях. файлы, которые отслеживаются или исключаются из наблюдения в Windows XP, указаны в файле% windir% \\ system32 \\ restore \\Filelist.xml. файл Filelist.xml не существует в Windows Vista и более поздних версиях.
 
 
 
@@ -64,7 +64,7 @@ ATL<br />
 AW<br />
 AWE<br />
 авкс<br />
-ПОЛИТИКЕ<br />
+AX<br />
 B0<br />
 ФАЙЛЕ<br />
 бкф<br />
@@ -173,7 +173,7 @@ DXT<br />
 екф<br />
 ефф<br />
 ефм<br />
-Аль<br />
+EID<br />
 EL<br />
 ELM<br />
 END<br />
@@ -311,7 +311,7 @@ LT<br />
 LTS<br />
 LV<br />
 M20<br />
-ЯВЛЕНИЕ<br />
+МАНИФЕСТ<br />
 мапимаил<br />
 MC<br />
 MCD<br />
@@ -328,7 +328,7 @@ MMC<br />
 MMM<br />
 MMX<br />
 Код MNC<br />
-мнл<br />
+MNL<br />
 мнр<br />
 MNS<br />
 MOF<br />
@@ -338,7 +338,7 @@ MPD<br />
 MPT<br />
 СТАРШЕГО бита<br />
 MSC<br />
-СЦЕНАРИЕВ<br />
+MSE<br />
 MSI<br />
 ОСН<br />
 МОСКОВСКОМУ<br />
@@ -473,7 +473,7 @@ SK<br />
 АДАПТЕР<br />
 SMM<br />
 Network<br />
-S из<br />
+SOF<br />
 SPC<br />
 SPE<br />
 SPM<br />
@@ -493,7 +493,7 @@ STD<br />
 STP<br />
 свб<br />
 SYM<br />
-ФЛАГ<br />
+SYN<br />
 ПРЕДСТАВЛЕНИЯ<br />
 T32<br />
 TAG<br />
@@ -607,11 +607,11 @@ ZH_TW<br />
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

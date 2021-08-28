@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b2d1d6182aed55b60aa1cedfbce5dd870691bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fae3f8a40bc5468898424dcf33bf947235a632db44f4dada7f2c96b2a3a064b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105656873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839714"
 ---
 # <a name="iwmdrmencryptscatterencryptscatter-method"></a>Метод Ивмдрменкриптскаттер:: Енкриптскаттер
 
@@ -95,9 +95,9 @@ HRESULT EncryptScatter(
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Нет.
+Отсутствует.
 
 ## <a name="requirements"></a>Требования
 
@@ -105,7 +105,7 @@ HRESULT EncryptScatter(
 
 | Требование | Значение |
 |-------------------|---------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдрмсдк. h</dt> </dl> |
 
 
 

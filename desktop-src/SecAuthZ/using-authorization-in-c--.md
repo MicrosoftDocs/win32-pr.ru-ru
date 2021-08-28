@@ -4,12 +4,12 @@ ms.assetid: 2485056c-b860-4247-9e7b-0157ca85d05d
 title: Использование авторизации в C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6771d16748d3c04680b545a83e382fa3d5ce78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52b948c138c24b0042d7f1f33fd95acceb18ab6afb9dfdcac7db2b61127fbc41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906774"
 ---
 # <a name="using-authorization-in-c"></a>Использование авторизации в C++
 

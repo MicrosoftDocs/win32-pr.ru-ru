@@ -4,12 +4,12 @@ ms.assetid: f5981e6b-d679-48ff-9f88-1733dbecbdeb
 title: Управление доступом на основе ролей
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8276463eb58a5af6444b184f134872430b743ab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 945b57cb37ec986a13494d0ae88f31948946bf9a2a6bff47ec86f175cd5db127
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103897789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907524"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 
@@ -18,9 +18,9 @@ API диспетчера авторизации и оснастка MMC пред
 -   [Преимущества авторизации на основе ролей](advantages-of-role-based-authorization.md)
 -   [Модель диспетчера авторизации](authorization-manager-model.md)
 
-**Windows XP:** API диспетчера авторизации и оснастку MMC доступны в виде загрузки (пакет средств администрирования Windows Server 2003) из [https://www.microsoft.com/downloads](https://www.microsoft.com/Downloads/) . Этот загружаемый файл поддерживает администрирование и разработку политик диспетчера авторизации. Он не поддерживает развертывание приложений, использующих диспетчер авторизации для управления доступом.
+**Windows XP:** API диспетчера авторизации и оснастку MMC доступны для загрузки (пакет средств администрирования Windows Server 2003) из [https://www.microsoft.com/downloads](https://www.microsoft.com/Downloads/) . Этот загружаемый файл поддерживает администрирование и разработку политик диспетчера авторизации. Он не поддерживает развертывание приложений, использующих диспетчер авторизации для управления доступом.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

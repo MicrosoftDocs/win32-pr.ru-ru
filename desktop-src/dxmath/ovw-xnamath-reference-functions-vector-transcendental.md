@@ -4,12 +4,12 @@ ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Векторные функции трансцендентных
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5927f8a477b4d55e8ed03ca6d61f329e76f11be2
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 712e911f65687285381b28889a28934553ac510544b935a4285b8c1b4b891516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841154"
 ---
 # <a name="transcendental-vector-functions"></a>Векторные функции трансцендентных
 
@@ -55,9 +55,9 @@ ms.locfileid: "111827660"
 
 ## <a name="remarks"></a>Remarks
 
-[**Ксмвекторексп**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) — это псевдоним совместимости для [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) для существующего кода Windows 8. **Ксмвекторексп** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorExp2** или [**ксмвекторекспе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe).
+[**ксмвекторексп**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) — это псевдоним совместимости для [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) существующего кода Windows 8. **Ксмвекторексп** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorExp2** или [**ксмвекторекспе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe).
 
-[**Ксмвекторлог**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog) — это псевдоним совместимости для [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2) для существующего кода Windows 8. **Ксмвекторлог** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorLog2** или [**ксмвекторложе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge).
+[**ксмвекторлог**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog) — это псевдоним совместимости для [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2) существующего кода Windows 8. **Ксмвекторлог** является устаревшим для Windows 8.1. Не используйте его, а используйте **XMVectorLog2** или [**ксмвекторложе**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge).
 
 ## <a name="related-topics"></a>Связанные темы
 

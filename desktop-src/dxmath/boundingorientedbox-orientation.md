@@ -4,12 +4,12 @@ ms.assetid: 9f765328-4bce-470e-a591-52376b572543
 title: Баундингориентедбокс. Orientation (Директксколлисион. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 336e3025883963eb343fb4dee3f127f1e51e88b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac7a54fd31630fecca1e7718a144cbab0da23e8f9832fd81ed4a0974b1d5bfd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105718108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841734"
 ---
 # <a name="boundingorientedboxorientation"></a>Баундингориентедбокс. ориентация
 
@@ -23,27 +23,27 @@ public:
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 ### <a name="platform-requirements"></a>Требования к платформе
 
-Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. Поддерживается для классических приложений Win32, приложений для Магазина Windows и Windows Phone 8 приложений.
+Microsoft Visual Studio 2010 или Microsoft Visual Studio 2012 с Windows SDK для Windows 8. поддерживается для классических приложений Win32, приложений для магазина Windows и Windows Phone 8 приложений.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Директксколлисион. h</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Директксколлисион. h</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
-[Fields](boundingorientedbox-fields.md)
+[Поля](boundingorientedbox-fields.md)
 </dt> <dt>
 
 **Ссылки**

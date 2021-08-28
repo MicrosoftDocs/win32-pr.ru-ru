@@ -4,12 +4,12 @@ description: При создании вспомогательного класс
 ms.assetid: f13f3621-ab82-4e22-9442-0a4d57c368fc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e48357ba6561ab135e2c341409c22d1edf3fb7d
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: 0094dbee5410d512cfa85f9c227d4b0217f1c507662addb4735023a2ba5833eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104335408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801724"
 ---
 # <a name="ui-guidelines-for-ndf-helper-class-extensions"></a>Рекомендации по пользовательскому интерфейсу для расширений классов модуля поддержки NDF
 
@@ -39,9 +39,9 @@ ms.locfileid: "104335408"
 -   Каждое предложение должно заканчиваться точкой.
 -   Символ " \\ n" может использоваться для создания разрыва строки в описании.
 
- 
+ 
 
- 
+ 
 
 
 

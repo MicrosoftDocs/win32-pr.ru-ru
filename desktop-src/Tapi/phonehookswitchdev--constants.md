@@ -4,12 +4,12 @@ ms.assetid: b3272a75-87b0-4afc-b2e2-2d65e4b49300
 title: Константы PHONEHOOKSWITCHDEV_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a6727bf8103c35402bebc048de4ed9286650be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a77e6b776b89adf6224d6feaef8deeef1f9f71b9888929f3aea08b5342adc1dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105680105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796754"
 ---
 # <a name="phonehookswitchdev_-constants"></a>\_Константы фонехуксвитчдев
 
@@ -47,7 +47,7 @@ ms.locfileid: "105680105"
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Без расширяемости. Все 32 бит зарезервированы.
 
@@ -60,7 +60,7 @@ ms.locfileid: "105680105"
 | Требование | Значение |
 |-------------------------|-----------------------------------------------------------------------------------|
 | Версия TAPI<br/> | Требуется TAPI 2,0 или более поздней версии<br/>                                             |
-| Header<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+| Заголовок<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
 
 
 

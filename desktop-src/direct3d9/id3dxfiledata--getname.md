@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e27fc3e95280f29a33d4ececffc7c229563462a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f98e20d5bfa5efdb756e414808cda2506fda56fdf417f54b658f17d0b5c9658b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "105713802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847934"
 ---
 # <a name="id3dxfiledatagetname-method"></a>Метод ID3DXFileData:: Name
 
@@ -65,7 +65,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)\***
 
 Если метод выполнен успешно, возвращается значение S \_ . Если метод завершается с ошибкой, будет возвращено следующее значение: D3DXFERR \_ бадвалуе.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Чтобы этот метод был выполнен, параметр szName или *пуисизе* должен иметь значение, отличное от **null**.
 
@@ -75,7 +75,7 @@ Type: **[ **size \_ T**](../winprog/windows-data-types.md)\***
 
 | Требование | Значение |
 |--------------------|---------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
+| Заголовок<br/>  | <dl> <dt>D3DX9Xof. h</dt> </dl> |
 | Библиотека<br/> | <dl> <dt>D3dx9. lib</dt> </dl>  |
 
 

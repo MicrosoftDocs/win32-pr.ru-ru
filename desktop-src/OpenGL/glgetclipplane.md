@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3e29d730c09bcc7c2b12082116e174cb39eb74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf551356088db2b99b79a28a396be785ab60f2196cc3e27353cb867d4b151dd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "105682157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742043"
 ---
 # <a name="glgetclipplane-function"></a>Функция Глжетклипплане
 
@@ -41,7 +41,7 @@ void WINAPI glGetClipPlane(
 
 <dl> <dt>
 
-*плоскости* 
+*plane* 
 </dt> <dd>
 
 Плоскость обрезки. Количество обтравочных плоскостей зависит от реализации, но поддерживаются по крайней мере шесть плоскостей обрезки. Они идентифицируются символами в виде \_ \_ плоскости Clip плоскость *i* , где 0 = *я* < \_ Максимальное число \_ плоскостей для вырезок \_ .
@@ -72,7 +72,7 @@ void WINAPI glGetClipPlane(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжетклипплане** возвращает в *уравнениях* четыре коэффициента уравнения плоскости для *плоскости*.
 
@@ -80,7 +80,7 @@ void WINAPI glGetClipPlane(
 
 Если возникает ошибка, в содержимое *уравнения* не вносятся никакие изменения.
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
@@ -94,7 +94,7 @@ void WINAPI glGetClipPlane(
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

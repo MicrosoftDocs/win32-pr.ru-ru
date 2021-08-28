@@ -4,12 +4,12 @@ ms.assetid: 739d1d41-a374-4dc5-a6a2-da4e05ecb96d
 title: System. Image. Dimensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4934fbd96eb305ed95a124ee7176832afc535f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aeabe8399d55b7aba11da21b3c0c6c221205023349a39c14aed27e2d4b3ff29a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103813465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774884"
 ---
 # <a name="systemimagedimensions"></a>System. Image. Dimensions
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

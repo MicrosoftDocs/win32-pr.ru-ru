@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce33ee1f88d492f67cf3ebb93c575f8f36d1ffa0
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 261c8e587b3bc339365d6c1d490bec6b2d9c27c9c4531e08dd1546ee8849baac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104352532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741374"
 ---
 # <a name="glgetmaterialfv-function"></a>Функция Глжетматериалфв
 
@@ -95,7 +95,7 @@ void WINAPI glGetMaterialfv(
 
 
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Функция **глжетматериал** возвращает в *params* значение или значения параметра *pname* *материала.*
 

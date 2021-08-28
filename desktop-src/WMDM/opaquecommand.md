@@ -1,6 +1,6 @@
 ---
 title: Структура ОПАКУЕКОММАНД
-description: Структура ОПАКУЕКОММАНД содержит данные для команд, которые передаются на устройство с помощью Windows Media диспетчер устройств, но не предназначены для выполнения действий диспетчер устройств Windows Media.
+description: структура опакуекомманд содержит данные для команд, которые передаются на устройство с помощью Windows мультимедиа диспетчер устройств, но не предназначены для обработки Windows Media диспетчер устройств.
 ms.assetid: 5b39cf07-2816-4615-a754-e3f0c57bf4ce
 keywords:
 - Структура ОПАКУЕКОММАНД Windows Media диспетчер устройств
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 672147cb99336f95a1ced88a3cc6b8df977aec74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76d3f0b94146262c480e7e510497111bf82f0c020001717cb0000ee4a88df440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105695068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904014"
 ---
 # <a name="opaquecommand-structure"></a>Структура ОПАКУЕКОММАНД
 
-Структура **опакуекомманд** содержит данные для команд, которые передаются на устройство с помощью windows Media Диспетчер устройств, но не предназначены для выполнения действий Диспетчер устройств Windows Media.
+структура **опакуекомманд** содержит данные для команд, которые передаются на устройство с помощью Windows мультимедиа диспетчер устройств, но не предназначены для обработки Windows Media диспетчер устройств.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -72,17 +72,17 @@ typedef struct OPAQUECOMMAND {
 
 </dd> </dl>
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
+| Заголовок<br/> | <dl> <dt>Вмдм. idl</dt> </dl> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 

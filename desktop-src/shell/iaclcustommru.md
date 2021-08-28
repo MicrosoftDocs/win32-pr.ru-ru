@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 6ebf64da-9eba-4ea7-91aa-242474097be1
-ms.openlocfilehash: f47a9df320da5c710c21ddbab83ca87b49c28e12
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c4130ead959c326da55d2c02726c9db89ce363b616ea34cbfa545d179d1ee139
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937044"
 ---
 # <a name="iaclcustommru-interface"></a>Интерфейс Иаклкустоммру
 
@@ -50,8 +50,8 @@ ms.locfileid: "109842015"
 
 | Требование | Значение |
 |-------------------------------------|------------------------------------------------------|
-| Минимальная версия клиента<br/> | Только для \[ классических приложений Windows XP\]<br/>          |
-| Минимальная версия сервера<br/> | \[Только для настольных приложений Windows Server 2003\]<br/> |
+| Минимальная версия клиента<br/> | Windows \[Только классические приложения XP\]<br/>          |
+| Минимальная версия сервера<br/> | Windows Только для \[ настольных приложений сервера 2003\]<br/> |
 
 
 

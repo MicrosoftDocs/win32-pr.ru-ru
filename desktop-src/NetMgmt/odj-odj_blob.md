@@ -5,12 +5,12 @@ ms.assetid: ada2c597-9ab9-4cc0-b5ba-4b533eec5502
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: 079ea531b0cb392539679c10574c0cc0f1601318
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: aa1c2b593e0e9f63a52672eb3b29ee83fbf86ea91d7f4860f2351a8e4538f05d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104488481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779574"
 ---
 # <a name="odj_blob-structure"></a>Структура ODJ_BLOB
 
@@ -47,7 +47,7 @@ typedef struct _ODJ_BLOB
 
 Указывает на буфер байтов, содержащий сериализованную структуру, указанную в Улоджформат выше.
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 [**Определения IDL для автономного присоединение к домену**](odj-idl.md)
 

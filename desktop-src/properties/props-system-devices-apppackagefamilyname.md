@@ -4,12 +4,12 @@ ms.assetid: 7fac1acb-2e9d-4d74-b5ed-7ea98e209637
 title: System. Devices. Апппаккажефамилинаме
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae92e0e89e6989fba41b0eea712171613e0dd97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec554daafd9aea39fc21cf2f8c82858314e3388da47b04bb5774d549fddd380d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "105647338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775654"
 ---
 # <a name="systemdevicesapppackagefamilyname"></a>System. Devices. Апппаккажефамилинаме
 
@@ -31,11 +31,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Значения PKEY определены в списке PKEY. h.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

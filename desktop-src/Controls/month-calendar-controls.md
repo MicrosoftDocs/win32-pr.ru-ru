@@ -4,12 +4,12 @@ description: Элемент управления "Календарь на мес
 ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f21fba66f9fb71ad45f8853578821ad5f83da00e
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 72000e0cecbfe627068260c5d9263821437246c15bebdfb876ecaa84e61f9cda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834529"
 ---
 # <a name="about-month-calendar-controls"></a>Элементы управления "календарь месяца"
 
@@ -29,7 +29,7 @@ ms.locfileid: "110423754"
 ![снимок экрана: диалоговое окно с элементом управления "месячный календарь" с двумя месяцами рядом](images/mc-simple.png)
 
 > [!Note]  
-> Внешний вид и поведение элемента управления "Календарь на месяц" немного отличаются в разных версиях библиотеки времени выполнения. Этот раздел посвящен элементу управления, отображаемому в Windows Vista версии 6 Comctl32.dll.
+> Внешний вид и поведение элемента управления "Календарь на месяц" немного отличаются в разных версиях библиотеки времени выполнения. этот раздел посвящен элементу управления, отображаемому в Windows Vista с версией 6 Comctl32.dll.
 
  
 

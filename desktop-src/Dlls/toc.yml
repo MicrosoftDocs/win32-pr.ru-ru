@@ -39,7 +39,7 @@
           href: using-run-time-dynamic-linking.md
         - name: Использование общей памяти в библиотеке Dynamic-Link
           href: using-shared-memory-in-a-dynamic-link-library.md
-        - name: Использование локального хранилища потока в библиотеке Dynamic-Link
+        - name: использование локального служба хранилища потока в библиотеке Dynamic-Link
           href: using-thread-local-storage-in-a-dynamic-link-library.md
     - name: Справочник по библиотеке Dynamic-Link
       href: dynamic-link-library-reference.md

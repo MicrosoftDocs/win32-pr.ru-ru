@@ -4,12 +4,12 @@ ms.assetid: 862a1a83-2371-9885-20d4-184aae52fd10
 title: Функции инициализации вектора
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12d76e93019dd2dd061fb7e1596c9f0be13fdd1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c17e786c307ff7138a91c63f9e9b355cca57a88afe42e09608a59ff02fa9a1d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104080458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852764"
 ---
 # <a name="vector-initialization-functions"></a>Функции инициализации вектора
 
@@ -43,7 +43,7 @@ ms.locfileid: "104080458"
 
  
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

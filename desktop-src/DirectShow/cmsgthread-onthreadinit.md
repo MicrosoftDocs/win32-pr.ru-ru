@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 80e15d6430da77c0f22f5566375394b8fe6994ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9105bf8399b036421c5360c62a63d8c3fac44471adc13b9e8c224fb0eb84e8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105675120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119831844"
 ---
 # <a name="cmsgthreadonthreadinit-method"></a>Кмсгсреад. Онсреадинит, метод
 
@@ -44,7 +44,7 @@ virtual void OnThreadInit();
 
 Этот метод не возвращает значение.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
 Переопределите эту функцию, если вы хотите выполнить собственную инициализацию при запуске потока.
 
@@ -54,7 +54,7 @@ virtual void OnThreadInit();
 
 | Требование | Значение |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Мсгсрд. h (включение Streams. h)</dt> </dl>                                                                                   |
+| Заголовок<br/>  | <dl> <dt>мсгсрд. h (включает Потоки. h)</dt> </dl>                                                                                   |
 | Библиотека<br/> | <dl> <dt>Стрмбасе. lib (розничные сборки); </dt> <dt>Стрмбасд. lib (отладочные сборки)</dt> </dl> |
 
 

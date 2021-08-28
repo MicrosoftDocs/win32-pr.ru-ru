@@ -4,12 +4,12 @@ ms.assetid: 5bcd3cd4-e370-41ee-a09d-eec444fc620e
 title: ICE20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 564dd1f8331405f1c0539c6c0c8668be549f7375
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 287e8483a5b58af972e2719e324c71cd5a61acb20217e07b09deb6e6356eee0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "105663670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763914"
 ---
 # <a name="ice20"></a>ICE20
 
@@ -35,7 +35,7 @@ ICE20 проверяет следующие таблицы и требовани
 
 ICE20 отправляет сообщение об ошибке, если не может проверить наличие стандартных диалоговых окон и требований в пакете установки.
 
-## <a name="related-topics"></a>См. также
+## <a name="related-topics"></a>Связанные темы
 
 <dl> <dt>
 

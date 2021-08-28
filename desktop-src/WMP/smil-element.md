@@ -1,9 +1,9 @@
 ---
 title: SMIL, элемент
-description: Элемент smil всегда является элементом верхнего уровня в файле списка воспроизведения Windows Media (WPL). Он указывает, что в файле используется SMIL (синхронизированный язык интеграции мультимедиа) синтаксис и грамматика.
+description: элемент smil всегда является элементом верхнего уровня в файле списка воспроизведения Windows Media (WPL). Он указывает, что в файле используется SMIL (синхронизированный язык интеграции мультимедиа) синтаксис и грамматика.
 ms.assetid: bb14f1b8-53d0-47ff-9fd3-4620a1467985
 keywords:
-- Элемент smil Windows Media Player
+- элемент smil проигрыватель Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 78ec8900139cfbd5982228c59010674bbc14765e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15ed9c3d70b0af65019cd384bc68ab9c26f8d01673481b9ced3595730379bf1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "105657843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763464"
 ---
 # <a name="smil-element"></a>SMIL, элемент
 
-Элемент **SMIL** всегда является элементом верхнего уровня в файле списка воспроизведения Windows Media (WPL). Он указывает, что в файле используется SMIL (синхронизированный язык интеграции мультимедиа) синтаксис и грамматика.
+элемент **smil** всегда является элементом верхнего уровня в файле списка воспроизведения Windows Media (WPL). Он указывает, что в файле используется SMIL (синхронизированный язык интеграции мультимедиа) синтаксис и грамматика.
 
 ``` syntax
 <smil>
@@ -46,9 +46,9 @@ ms.locfileid: "105657843"
 
  
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Remarks
 
-Каждый список воспроизведения Windows Media должен иметь элемент **SMIL** в корне.
+каждый Windows списка воспроизведения мультимедиа должен иметь элемент **smil** в его корне.
 
 ## <a name="examples"></a>Примеры
 
@@ -68,17 +68,17 @@ ms.locfileid: "105657843"
 
 
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements (Требования)
 
 
 
 | Требование | Значение |
 |--------------------|----------------------------------------------------|
-| Версия<br/> | Проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
+| Версия<br/> | проигрыватель Windows Media 9 Series или более поздней версии.<br/> |
 
 
 
-## <a name="see-also"></a>См. также раздел
+## <a name="see-also"></a>См. также
 
 <dl> <dt>
 
@@ -88,7 +88,7 @@ ms.locfileid: "105657843"
 [**Элемент head**](head-element.md)
 </dt> <dt>
 
-[**Справочник по элементам списка воспроизведения Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Справочник по элементам списка воспроизведения мультимедиа**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

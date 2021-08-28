@@ -8,12 +8,12 @@ keywords:
 - Функция МЦисендкомманд
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc92b960e646ee1e452c7a356d0291c080d0162
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 428c89f610f204cfeb75a6c23309c8f3f9846d3136ffac4dbcf0959c5bc4add3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104533101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807944"
 ---
 # <a name="command-messages"></a>Сообщения команды
 
@@ -43,6 +43,6 @@ mciSendCommand(wDeviceID,            // device identifier
 
 Идентификатор устройства, указанный в первом параметре, извлекается при открытии устройства с помощью команды [**MCI \_ Open**](mci-open.md) . Последний параметр — это адрес структуры [**MCI \_ Play \_ пармс**](mci-play-parms.md) , которая может содержать сведения о начале и завершении воспроизведения. Многие сообщения команды MCI используют структуру для хранения параметров этого типа. Первый член каждой из этих структур определяет окно, которое получает сообщение [**\_ мЦинотифи мм**](mm-mcinotify.md) по завершении операции.
 
- 
+ 
 
- 
+ 
